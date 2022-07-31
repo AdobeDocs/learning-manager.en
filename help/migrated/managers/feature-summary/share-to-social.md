@@ -1,0 +1,6 @@
+---
+jcr-language: en_us
+title: Share to Social 
+contentowner: kuppan
+preview: {Boolean}true
+---
