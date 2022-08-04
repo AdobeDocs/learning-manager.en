@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Welcome to the Adobe Learning Manager User Guide
 contentowner: dhv
 ---
+
+
+# Welcome to the Adobe Learning Manager User Guide {#welcome-to-the-adobe-learning-manager-user-guide}
+
 Read on to know what is the latest offering in Adobe Learning Manager.&nbsp;Start at the beginning, visit each section individually, or connect with the Community to work your way through a project.
 
 # Join the conversation {#jointheconversation}
@@ -11,7 +15,7 @@ Read on to know what is the latest offering in Adobe Learning Manager.&nbsp;Star
  <tbody>
   <tr> 
    <td><img src="/content/dam/help/en/adobe-connect/using/welcome/jcr_content/main-pars/imageandtext/imageandtextimage/community.png"></td> 
-   <td><p>Visit the <a disablelinktracking="false" href="https://community.adobe.com/t5/captivate-prime/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all&amp;tabid=all">Adobe Learning Manager User Community</a>&nbsp;to be inspired and get answers to top questions.<br> </p> </td> 
+   <td><p>Visit the <a disablelinktracking="false" href="https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all">Adobe Learning Manager User Community</a>&nbsp;to be inspired and get answers to top questions.<br> </p> </td> 
   </tr> 
  </tbody>
 </table>

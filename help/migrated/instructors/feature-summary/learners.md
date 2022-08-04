@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Managing learners for your session
 contentowner: shhivkum
 ---
+
+
+# Managing learners for your session {#managing-learners-for-your-session}
+
 Read this article to know how to manage the attendees, send course related emails and reminders for your sessions.
 
 # See sessions or modules with pending reviews {#pending}
@@ -27,7 +31,7 @@ As the Learners register for your module, you can see the latest status of the e
 
    The learners whom you have confirmed, are added to the Confirmed Learners list.
 
-Instructors have the capability to unenroll learners from sessions. This also unenrolls them from corresponding learnings. Select **[!UICONTROL uicontrol Waitlist]** tab. Select the learners to unenroll using the checkbox. To unenroll, select **[!UICONTROL uicontrol Actions > Unenroll learners]**.
+Instructors have the capability to unenroll learners from sessions. This also unenrolls them from corresponding learnings. Select **[!UICONTROL Waitlist]** tab. Select the learners to unenroll using the checkbox. To unenroll, select **[!UICONTROL Actions > Unenroll learners]**.
 
 ![](assets/unenroll-learners.png) 
 

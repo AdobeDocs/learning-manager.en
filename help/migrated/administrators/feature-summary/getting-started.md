@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Getting started as Administrator
 contentowner: manochan
 ---
+
+
+# Getting started as Administrator {#getting-started-as-administrator}
+
 The getting started page aids you to traverse through the key features of the application.
 
 As soon as you log in as an Administrator, you can view the pop-up window with a list of videos.

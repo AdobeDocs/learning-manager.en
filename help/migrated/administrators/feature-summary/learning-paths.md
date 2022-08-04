@@ -5,6 +5,8 @@ contentowner: saghosh
 ---
 
 
+# Learning Paths {#learning-paths}
+
 # What is a Learning Path?
 
 Often, Administrators are interested&nbsp;in building&nbsp;a detailed curriculum which offers in-depth knowledge of a particular topic or an area of expertise. It can also be a sequence of&nbsp;training courses&nbsp;which the employees or customers are expected to complete. This requires bundling a set of courses and Programs together to create a complete training package.&nbsp;

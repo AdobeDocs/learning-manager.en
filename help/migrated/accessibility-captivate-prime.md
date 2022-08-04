@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Accessibility in Adobe Learning Manager
 contentowner: saghosh
 ---
+
+
+# Accessibility in Adobe Learning Manager {#accessibility-in-adobe-learning-manager}
+
 This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
 
 Learning Manager follows W3C’s WCAG 2.1 Level A and AA accessibility standards for the platform.

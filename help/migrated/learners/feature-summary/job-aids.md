@@ -3,6 +3,10 @@ description: Learn how to view and consume job aids in Learning Manager.
 jcr-language: en_us
 title: Job Aids
 ---
+
+
+# Job Aids {#job-aids}
+
 Learn how to view and consume job aids in Learning Manager.
 
 Job Aids is&nbsp;a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.

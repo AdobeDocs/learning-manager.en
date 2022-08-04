@@ -5,6 +5,8 @@ contentowner: saghosh
 ---
 
 
+# L1 feedback auto popup does not appear {#l-feedback-auto-popup-does-not-appear}
+
 # Issue
 
 The L1 feedback auto-popup does not appear for a learner after completing the course.

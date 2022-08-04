@@ -6,6 +6,8 @@ preview: {Boolean}true
 ---
 
 
+# API Rate Limits in Learning Manager {#api-rate-limits-in-learning-manager}
+
 # Introduction to rate limiting {#introductiontoratelimiting}
 
 Adobe Learning Manager exposes a rich suite of REST API that helps customers build applications that integrate with Learning Manager, or even custom user experiences and extensions to workflows that help their business.&nbsp;&nbsp;

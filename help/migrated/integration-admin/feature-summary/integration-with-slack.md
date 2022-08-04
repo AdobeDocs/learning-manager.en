@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Learning Manager integration with Slack
 contentowner: dvenkate
 ---
+
+
+# Learning Manager integration with Slack {#learning-manager-integration-with-slack}
+
 As a Slack user, you can install the Adobe Learning Manager app from the Slack App Directory into your Slack teams, and explore Learning Manager content from right within Slack. You can interact with  Primebot  to search for new courses, view recommendations and get notified of upcoming deadlines in Learning Manager. You can also enroll and jump straight to your learning from within Slack.&nbsp;
 
 Learning Manager app for Slack is not supported in an Azure instance of Learning Manager.
@@ -15,15 +19,15 @@ As a Learner, you can install the CP Prime app in your Slack Account. To install
 
 As an integration Admin, to approve the  permission  for a Learner to use  Prime  application on Slack, follow these steps.
 
-1. Select **[!UICONTROL uicontrol Applications]** from the left pane and click on the **[!UICONTROL uicontrol Featured apps]** tab.
+1. Select **[!UICONTROL Applications]** from the left pane and click on the **[!UICONTROL Featured apps]** tab.
 
    ![](assets/featuredapps.jpg)
 
-1. Click on the **[!UICONTROL uicontrol Slack]** tile > the slack integration page opens. Click **[!UICONTROL uicontrol Approve]**&nbsp; on  the top right corner to approve the application.
+1. Click on the **[!UICONTROL Slack]** tile > the slack integration page opens. Click **[!UICONTROL Approve]**&nbsp; on  the top right corner to approve the application.
 
    ![](assets/approval.png)
 
-1. Go back to the **[!UICONTROL uicontrol Applications]** page. Once approved, Slack should appear in the **[!UICONTROL uicontrol External Apps]** tab.
+1. Go back to the **[!UICONTROL Applications]** page. Once approved, Slack should appear in the **[!UICONTROL External Apps]** tab.
 1. Learners can now sign in to their Prime account using Slack.
 
 # Primebot functionalities {#primebotfunctionalities}

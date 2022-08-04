@@ -5,6 +5,8 @@ contentowner: saghosh
 ---
 
 
+# Customize learner homepage {#customize-learner-homepage}
+
 # Overview {#overview}
 
 An Administrator can customize the learner's home page and make it more modern, content driven, and personalized to a learner.

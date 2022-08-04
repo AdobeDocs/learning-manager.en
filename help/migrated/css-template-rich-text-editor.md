@@ -6,6 +6,8 @@ preview: {Boolean}true
 ---
 
 
+# CSS template for Rich Text Editor {#css-template-for-rich-text-editor}
+
 # **Why is CSS required?**
 
 Rich text is composed of HTML markup. Rendering the markup as-is would result in default styling applied by the browser. This often doesn't go well with the style guidelines of the company. A CSS is required to meet the guidelines.
@@ -25,4 +27,4 @@ The default styling may not meet everyone's needs. The customisations can be don
 * **background**: ql-bg-$color. $color = black, red, orange, yellow, green, blue, purple
 * **html tags**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
-`<download_section>  <download text="CSS file to be used for customization." filereference="/content/dam/help/en/captivate-prime/css-template-rich-text-editor/jcr_content/root/content/flex/items/position/position-par/download_section/download-1/ql-headless.css"></download> </download_section>`  
+[CSS file to be used for customization.](/content/dam/help/en/captivate-prime/css-template-rich-text-editor/jcr_content/root/content/flex/items/position/position-par/download_section/download-1/ql-headless.css)  

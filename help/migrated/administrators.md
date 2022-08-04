@@ -5,6 +5,8 @@ contentowner: manochan
 ---
 
 
+# Administrators {#administrators}
+
 <table> 
  <tbody>
   <tr> 
@@ -49,4 +51,4 @@ contentowner: manochan
 
 # Technical Reference {#technicalreference}
 
-`<download_section>  <download text="You can download the Adobe Learning Manager Technical Reference guide here. " filereference="/content/dam/help/en/captivate-prime/administrators/jcr:content/main-pars/download_section/download-1/Technical Overview.pdf"></download> </download_section>`  
+[You can download the Adobe Learning Manager Technical Reference guide here.](/content/dam/help/en/captivate-prime/administrators/jcr:content/main-pars/download_section/download-1/Technical Overview.pdf)  

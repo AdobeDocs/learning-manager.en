@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Purge users
 contentowner: dvenkate
 ---
+
+
+# Purge users {#purge-users}
+
 Know more about purging user data in Learning Manager.
 
 # Overview {#overview}
@@ -20,17 +24,17 @@ Purge user action can have the following results:
 
 To purge&nbsp;users, follow these steps:
 
-1. As an Administrator, select **[!UICONTROL uicontrol Users]** from the left pane. The **[!UICONTROL uicontrol Internal Users]** page opens.
-1. Delete the users you want to purge. To delete, select one or more users using the checkbox. Open the **[!UICONTROL uicontrol Action]** drop-down and select **[!UICONTROL uicontrol Delete User.]**
-1. In the left pane, select **[!UICONTROL uicontrol User Cleanup]**. The **[!UICONTROL uicontrol User Cleanup]** page appears with the list of deleted users. Use the radio buttons to select the user to purge. You can only purge one user at a time.
+1. As an Administrator, select **[!UICONTROL Users]** from the left pane. The **[!UICONTROL Internal Users]** page opens.
+1. Delete the users you want to purge. To delete, select one or more users using the checkbox. Open the **[!UICONTROL Action]** drop-down and select **[!UICONTROL Delete User.]**
+1. In the left pane, select **[!UICONTROL User Cleanup]**. The **[!UICONTROL User Cleanup]** page appears with the list of deleted users. Use the radio buttons to select the user to purge. You can only purge one user at a time.
 
    ![](assets/purge-1.png)
 
-1. Open the **[!UICONTROL uicontrol Actions]** drop-down menu and select **[!UICONTROL uicontrol Purge User]**.&nbsp;
+1. Open the **[!UICONTROL Actions]** drop-down menu and select **[!UICONTROL Purge User]**.&nbsp;
 
    ![](assets/purge-2.png)
 
-1. A dialogue box appears seeking confirmation. Once purged, all user data and learning records associated with the selected user is deleted permanently. Once purged the action cannot be undone. To confirm, click **[!UICONTROL uicontrol Purge.]**
+1. A dialogue box appears seeking confirmation. Once purged, all user data and learning records associated with the selected user is deleted permanently. Once purged the action cannot be undone. To confirm, click **[!UICONTROL Purge.]**
 
    ![](assets/purge-3.png)
 

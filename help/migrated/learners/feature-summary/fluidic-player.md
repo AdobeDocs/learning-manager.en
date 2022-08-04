@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Fluidic player
 contentowner: manochan
 ---
+
+
+# Fluidic player {#fluidic-player}
+
 Read this article to know how to use the Fluidic Player for courses.
 
 Fluidic player is a platform for learners to consume content with uninterrupted and blended learning experience. All the supported formats are played&nbsp;consistently in this player. Authors and Administrators can preview the content using the player.

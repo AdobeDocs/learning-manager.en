@@ -4,6 +4,10 @@ jcr-language: en_us
 title: User log in
 contentowner: manochan
 ---
+
+
+# User log in {#user-log-in}
+
 User log in as Manager in Learning Manager.
 
 When you are using Adobe Learning Manager for the first time, you need to create your account, by following the steps below:

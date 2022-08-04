@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Troubleshooting issues with Adobe Learning Manager desktop app
 contentowner: kuppan
 ---
+
+
+# Troubleshooting issues with Adobe Learning Manager desktop app {#troubleshooting-issues-with-adobe-learning-manager-desktop-app}
+
 This document contains basic troubleshooting tips to solve some of the typical problems that encounter while installing and using Adobe Learning Manager desktop application.
 
 # I am unable to do the following {#iamunabletodothefollowing}

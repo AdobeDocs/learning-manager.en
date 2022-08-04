@@ -4,6 +4,10 @@ jcr-language: en_us
 title: User notifications
 contentowner: manochan
 ---
+
+
+# User notifications {#user-notifications}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Setting up User notifications for Managers.

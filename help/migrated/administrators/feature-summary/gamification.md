@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 ---
+
+
+# Gamification {#gamification}
+
 Gamification is the use of game thinking and game mechanics in non-game contexts to engage users in earning points while learning.
 
 # Overview  {#overview}

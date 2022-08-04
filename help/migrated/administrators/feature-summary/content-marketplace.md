@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Content marketplace
 contentowner: saghosh
 ---
+
+
+# Content marketplace {#content-marketplace}
+
 Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
 
 In the Administrator app, there is a new option&nbsp;**Content&nbsp;Marketplace**, which you’ll find&nbsp;on the left panel.

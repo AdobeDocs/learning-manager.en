@@ -5,6 +5,8 @@ contentowner: nluke
 ---
 
 
+# Unable to register as an External User {#unable-to-register-as-an-external-user}
+
 # Issue
 
 External learners are unable to register to a profile.

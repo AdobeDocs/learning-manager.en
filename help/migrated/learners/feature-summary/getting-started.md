@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Getting started as a Learner
 contentowner: manochan
 ---
+
+
+# Getting started as a Learner {#getting-started-as-a-learner}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Get started with the Learner app in Learning Manager

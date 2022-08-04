@@ -4,6 +4,10 @@ jcr-language: en_us
 title: View learner's response to an outlook calendar invite on Learning Manager
 contentowner: kuppan
 ---
+
+
+# View learner's response to an outlook calendar invite on Learning Manager {#view-learners-response-to-an-outlook-calendar-invite-on-learning-manager}
+
 Learn how an admin and an instructor can view a learner's response to a calendar invite.
 
 In Learning Manager, when a learner is enrolled to a Virtual Class/Class Room session in a course, the learner gets a detailed outlook calendar invite.&nbsp;

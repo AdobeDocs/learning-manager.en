@@ -5,6 +5,8 @@ contentowner: nluke
 ---
 
 
+# Unable to achieve a skill after completing a course {#unable-to-achieve-a-skill-after-completing-a-course}
+
 # **Issue**
 
 A learner, even after completing a course, does not obtain a skill. The skills&nbsp;that are assigned to that course remain as **In Progress** for the learner.

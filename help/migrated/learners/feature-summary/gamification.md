@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 ---
+
+
+# Gamification {#gamification}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Engage users using gamification techniques in Learning Manager.
@@ -20,13 +24,13 @@ Learners can also see the achievement level based on the points that they have e
 
 Leaderboard  is a gamification feature which acts as a scoreboard to showcase the ranking scores of leading competitors. Learners can see their gamification points using Leaderboard.
 
-From the Learner's h ome page , click **[!UICONTROL uicontrol Gamification]** from the left pane. To view the leaderboard, click Leaderboard link. This feature enables the learners to understand how they are faring against a particular team member. It also shows their ranking position relative to other members of the team.
+From the Learner's h ome page , click **[!UICONTROL Gamification]** from the left pane. To view the leaderboard, click Leaderboard link. This feature enables the learners to understand how they are faring against a particular team member. It also shows their ranking position relative to other members of the team.
 
 Some of the features of Leaderboard for learners:
 
 * Learners enrolled in a Learning Program instance can see each other’s’ points if gamification is enabled for that instance.
-* Click **[!UICONTROL uicontrol Add colleagues]** to include team member that you want to compare against. Your team member’s profile picture is added to the timeline scale at the top of the leaderboard page. This timeline scale shows your points at the beginning and moves your position to the right when you achieve more points than your team members. You can only compare it against other members of the same group.
-* **User groups:** At any time you can choose your team members profiles that you want to compare your rank with, using the **[!UICONTROL uicontrol Rank Me With]** option. From the Select User Groups field, type and choose the group.&nbsp;The list of all the team members along with their latest points are listed below. Both internal and external users can view the list but only internal users are enabled to search other  internal  learners.
+* Click **[!UICONTROL Add colleagues]** to include team member that you want to compare against. Your team member’s profile picture is added to the timeline scale at the top of the leaderboard page. This timeline scale shows your points at the beginning and moves your position to the right when you achieve more points than your team members. You can only compare it against other members of the same group.
+* **User groups:** At any time you can choose your team members profiles that you want to compare your rank with, using the **[!UICONTROL Rank Me With]** option. From the Select User Groups field, type and choose the group.&nbsp;The list of all the team members along with their latest points are listed below. Both internal and external users can view the list but only internal users are enabled to search other  internal  learners.
 
 * Also, the People Around Your Rank dialog box displays the names of team members who are above, below or at the same level as you.
 * When an external user converts  in to  an internal user, the timeline is automatically updated.

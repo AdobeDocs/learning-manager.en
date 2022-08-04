@@ -5,6 +5,8 @@ contentowner: nluke
 ---
 
 
+# Module is marked incomplete on course completion in Adobe Learning Manager {#module-is-marked-incomplete-on-course-completion-in-adobe-learning-manager}
+
 # **Issue**
 
 Even after a learner completes a course in Adobe Learning Manager, the module is marked as incomplete.

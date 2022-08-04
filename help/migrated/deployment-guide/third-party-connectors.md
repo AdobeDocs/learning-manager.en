@@ -3,6 +3,10 @@ description: Learn on how to integrate Salesforce with Learning Manager using co
 jcr-language: en_us
 title: Learning Manager Connectors
 ---
+
+
+# Learning Manager Connectors {#learning-manager-connectors}
+
 Learn on how to integrate Salesforce with Learning Manager using connectors, how to integrate FTP with Learning Manager and upload CSV automatically using FTP connector.
 
 # Overview {#overview}
@@ -168,11 +172,11 @@ While importing users into Learning Manager, Administrator also need to know how
 
 There are two options to export&nbsp;User skill reports.
 
-**[!UICONTROL uicontrol User Skills - On Demand]**: You can specify the &nbsp;start date and export the report using the option .The report will be extracted from the date enterd till present.
+**[!UICONTROL User Skills - On Demand]**: You can specify the &nbsp;start date and export the report using the option .The report will be extracted from the date enterd till present.
 
 ![](assets/user-skills-on-demand.png)
 
-**[!UICONTROL uicontrol User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule checkbox and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
+**[!UICONTROL User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule checkbox and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/user-skills-configure.png)
 
@@ -294,7 +298,7 @@ The getAbstract connector can be used by enterprise customers of getAbstract.com
    For any type of synchronization to work, you must ensure that the user feed is present in the getAbstract FTP folder for the dates specified in the synchronization.
 
    See the following excel sheet, which is a sample user feed file from getAbstract. The file name should follow the format: **report_export_yyyy_MM_dd_HHmmss.xlsx** or **report_export_yyyy_MM_dd.xlsx**.
-   `<download_section>  <download text="getAbstract user feed sample excel sheet" filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_528613433/proc_par/step_4/step_par/download_section/download-1/report_export_20170401175342.xlsx"></download> </download_section>`
+   [getAbstract user feed sample excel sheet](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_528613433/proc_par/step_4/step_par/download_section/download-1/report_export_20170401175342.xlsx)
 
 # Harvard ManageMentor connector {#hmmconnector}
 
@@ -344,7 +348,7 @@ The Harvard ManageMentor connector can be used by enterprise customers of Harvar
    client_hmm12_20150125.xlsx: This is the user feed for the Harvard ManageMentor connector. The file naming convention that you must follow is **client_hmm12_yyyyMMdd.xlsx.**
 
    See the following two sample user feed and course feed files for this connector:
-   `<download_section>  <download text="Course metadata file for the Harvard ManageMentor connector" filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_7345933/proc_par/step_546211159/step_par/download_section/download-1/hmm12_metadata.xlsx"></download>  <download text="User feed for the Harvard ManageMentor connector" filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_7345933/proc_par/step_546211159/step_par/download_section/download-2/client_hmm12_20170304.xlsx"></download> </download_section>`
+   [Course metadata file for the Harvard ManageMentor connector](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_7345933/proc_par/step_546211159/step_par/download_section/download-1/hmm12_metadata.xlsx) [User feed for the Harvard ManageMentor connector](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_7345933/proc_par/step_546211159/step_par/download_section/download-2/client_hmm12_20170304.xlsx)
 
 # Workday connector {#workdayconnector}
 
@@ -377,9 +381,9 @@ Administrator can set up scheduling tasks as per organization's requirements and
 ## Configure Workday connector {#configureworkdayconnector}
 
 **Prerequisite**: Request the Workday Administrator of your organization, to create an Integration System User (ISU) with the permissions as defined in the ISU_Permissions document. Download a copy from the link below.
-`<download_section>  <download text="Download a copy of integration system user (ISU) security." filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_1659635486/proc_par/step_1/step_par/download_section/download-1/isu_permissions_v1.pdf"></download> </download_section>` Learn the process to integrate Learning Manager with Workday connector.&nbsp;
+[Download a copy of integration system user (ISU) security.](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_1659635486/proc_par/step_1/step_par/download_section/download-1/isu_permissions_v1.pdf) Learn the process to integrate Learning Manager with Workday connector.&nbsp;
 
-1. In Learning Manager home page, hover your mouse over the Workday tile. A menu appears. Click **[!UICONTROL uicontrol Connect]** item in the menu.
+1. In Learning Manager home page, hover your mouse over the Workday tile. A menu appears. Click **[!UICONTROL Connect]** item in the menu.
 
    ![](assets/workday-tile.png)
 
@@ -524,7 +528,7 @@ To set up   miniOrange   connector, please contact the Learning Manager CSM team
 
 ## Configure miniOrange connector {#configureminiorangeconnector}
 
-1. In Learning Manager home page, hover  mouse  over the  miniOrange  card/thumbnail. A menu appears. Click  **[!UICONTROL uicontrol Connect]**&nbsp;option in the menu.
+1. In Learning Manager home page, hover  mouse  over the  miniOrange  card/thumbnail. A menu appears. Click  **[!UICONTROL Connect]**&nbsp;option in the menu.
 
    ![](assets/miniorange-tile.png)
 
@@ -532,7 +536,7 @@ To set up   miniOrange   connector, please contact the Learning Manager CSM team
 
    ![](assets/establish-connection.png)
 
-1. If you wish to import miniOrnage user directly as a Prime internal user, use the **[!UICONTROL uicontrol Import Internal Users]** option.
+1. If you wish to import miniOrnage user directly as a Prime internal user, use the **[!UICONTROL Import Internal Users]** option.
 
    ![](assets/import-users.png)
 
@@ -540,13 +544,13 @@ To set up   miniOrange   connector, please contact the Learning Manager CSM team
 
    ![](assets/map-attributes.png)
 
-1. To view and edit Data source, as an Administrator, click **[!UICONTROL uicontrol Settings > Data Source]**.
+1. To view and edit Data source, as an Administrator, click **[!UICONTROL Settings > Data Source]**.
 
-   The established  miniOrange  source would be listed. If you require to edit the filter, click **[!UICONTROL uicontrol Edit]**.
+   The established  miniOrange  source would be listed. If you require to edit the filter, click **[!UICONTROL Edit]**.
 
    ![](assets/data-source.png)
 
-1. You will receive a notification upon completion of import. To view or edit the import log, click **[!UICONTROL uicontrol Users > Import log.]**
+1. You will receive a notification upon completion of import. To view or edit the import log, click **[!UICONTROL Users > Import log.]**
 
 ### Delete a connection {#deleteaconnection}
 
@@ -558,7 +562,7 @@ You can now integrate&nbsp;Learning Manager with BlueJeans connector and use Blu
 
 Follow these steps to set up and use the connector.
 
-1. In Learning Manager  home page , hover the mouse over the BlueJeans card/thumbnail. A menu appears. Click  **[!UICONTROL uicontrol Connect]**&nbsp;option from the menu.
+1. In Learning Manager  home page , hover the mouse over the BlueJeans card/thumbnail. A menu appears. Click  **[!UICONTROL Connect]**&nbsp;option from the menu.
 
    ![](assets/miniorange.png)
 
@@ -670,7 +674,7 @@ There are two options to export&nbsp;User skill reports.
 
 User Skills - On Demand: You can specify the start date and export the report using the option.The report will be extracted from the date  enterd  till present
 
-**[!UICONTROL uicontrol User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule checkbox and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
+**[!UICONTROL User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule checkbox and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 +++
 

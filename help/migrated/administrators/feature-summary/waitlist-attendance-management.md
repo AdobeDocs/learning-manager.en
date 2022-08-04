@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Waitlist & attendance management
 contentowner: manochan
 ---
+
+
+# Waitlist & attendance management {#waitlist-attendance-management}
+
 Administrators can manage attendance and waitlisting of courses for learners.
 
 # Waitlist management  {#waitlistmanagement}

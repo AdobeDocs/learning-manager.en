@@ -3,6 +3,10 @@ description: Learn how to create content to align with courses as self-paced con
 jcr-language: en_us
 title: Content library
 ---
+
+
+# Content library {#content-library}
+
 Learn how to create content to align with courses as self-paced content.
 
 # Content library {#contentlibrary}

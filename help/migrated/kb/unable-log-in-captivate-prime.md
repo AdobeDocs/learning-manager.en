@@ -6,6 +6,8 @@ contentowner: saghosh
 ---
 
 
+# Unable to log in to Learning Manager {#unable-to-log-in-to-learning-manager}
+
 # Issue
 
 When trying to log in to Adobe Learning Manager, you see the error below:

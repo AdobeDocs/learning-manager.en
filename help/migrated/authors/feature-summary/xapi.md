@@ -4,6 +4,8 @@ title: xAPI in Learning Manager
 ---
 
 
+# xAPI in Learning Manager {#xapi-in-learning-manager}
+
 # What is xAPI? {#whatisxapi}
 
 The Experience API (xAPI), is an e-learning software specification that allows learning content and learning systems to speak to each other in a manner that records and tracks all types of learning experiences. Learning experiences are recorded in a Learning Record Store (LRS). LRSs can exist within traditional learning management systems (LMSs) or on their own.
@@ -22,7 +24,7 @@ Increasingly there is a need to capture learning experiences of the end user whi
 
 ## Set up your application {#setupyourapplication}
 
-1. Log in as Integration Admin. Select **[!UICONTROL uicontrol Applications > Register]**.
+1. Log in as Integration Admin. Select **[!UICONTROL Applications > Register]**.
 
    ![](assets/appregistration.png)
 
@@ -32,8 +34,8 @@ Increasingly there is a need to capture learning experiences of the end user whi
 
 1. Define the&nbsp;scope for the application.
 
-   * If **[!UICONTROL uicontrol Admin role xAPI read and write access]** is enabled, the Admin is able to post and get xAPI statements and documents.
-   * If **[!UICONTROL uicontrol Learner role xAPI read and write access]** is enabled, the Admin is able to post and get xAPI statements and documents.
+   * If **[!UICONTROL Admin role xAPI read and write access]** is enabled, the Admin is able to post and get xAPI statements and documents.
+   * If **[!UICONTROL Learner role xAPI read and write access]** is enabled, the Admin is able to post and get xAPI statements and documents.
 
 1. Save changes. You get your developer id and secret.
 
@@ -55,7 +57,7 @@ GET&nbsp;https://captivateprime.adobe.com/oauth/o/authorize?client_id=<Enter&nbs
 
 As an Author you can now choose xAPI module while creating courses to monitor user experience outside Prime. For example, you can use this feature to evaluate the activities of users on a third-party platform used for course consumption.
 
-1. While creating an **[!UICONTROL uicontrol Activity Module]**, in the  **[!UICONTROL uicontrol Type]**option, use the pop-up menu to select  **[!UICONTROL uicontrol xAPI-based Module.]**
+1. While creating an **[!UICONTROL Activity Module]**, in the  **[!UICONTROL Type]**option, use the pop-up menu to select  **[!UICONTROL xAPI-based Module.]**
 
    ![](assets/xapimodulecreation.png)
 
@@ -86,7 +88,7 @@ As an Author you can now choose xAPI module while creating courses to monitor us
 
 # Generate reports {#generatereports}
 
-xAPI  reports can be generated as excel reports. As an Administrator, open **[!UICONTROL uicontrol Reports > Excel reports > xAPI activity report]**.
+xAPI  reports can be generated as excel reports. As an Administrator, open **[!UICONTROL Reports > Excel reports > xAPI activity report]**.
 
 The downloaded report&nbsp;fetches all the information posted by the Learner and Administrator for any statement.
 
@@ -102,4 +104,4 @@ Log in as Integration Admin > Open FTP/Box connector > Select xAPI Activity repo
 
 # Sample report {#samplereport}
 
-`<download_section>  <download text="Sample xAPI report." filereference="/content/dam/help/en/captivate-prime/administrators/feature-summary/xapi/jcr:content/main-pars/download_section/download-1/xapireport8842560559890766717csv.zip"></download> </download_section>`  
+[Sample xAPI report.](/content/dam/help/en/captivate-prime/administrators/feature-summary/xapi/jcr:content/main-pars/download_section/download-1/xapireport8842560559890766717csv.zip)  

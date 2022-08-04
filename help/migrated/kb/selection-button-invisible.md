@@ -5,6 +5,8 @@ contentowner: nluke
 ---
 
 
+# Selection buttons do not appear in Learning Manager {#selection-buttons-do-not-appear-in-learning-manager}
+
 # **Issue**
 
 Due to missing radio buttons, an Administrator&nbsp; cannot perform the following (not an exhaustive list):

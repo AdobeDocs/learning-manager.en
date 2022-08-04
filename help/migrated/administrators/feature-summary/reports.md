@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Reports
 contentowner: manochan
 ---
+
+
+# Reports {#reports}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Learn about the Reports associated with Administrator role in Learning Manager application.
@@ -231,11 +235,11 @@ A dashboard is a collection of reports. Reports can be grouped into a dashboard&
 
 ## Sample Reports {#samplereports}
 
-The **[!UICONTROL uicontrol Sample Reports]** tab to show some indicative reports which are based on sample data points. Explore these reports to get an idea of different types of feature-rich reports that you can generate using your account data.
+The **[!UICONTROL Sample Reports]** tab to show some indicative reports which are based on sample data points. Explore these reports to get an idea of different types of feature-rich reports that you can generate using your account data.
 
 ## Dashboard Reports {#DashboardReports-1}
 
-To view all the boards that you created, click this board tab. From the **[!UICONTROL uicontrol View Dashboard]** drop-down list, you can&nbsp;select the default board or a dashboard you created.
+To view all the boards that you created, click this board tab. From the **[!UICONTROL View Dashboard]** drop-down list, you can&nbsp;select the default board or a dashboard you created.
 
 ## Create a dashboard {#createadashboard}
 
@@ -247,7 +251,7 @@ To view all the boards that you created, click this board tab. From the **[!UICO
 1. If you want to share the dashboard with&nbsp;any Manager, choose them in&nbsp;**Share With**&nbsp;field. You can use any normal selection criteria for this operation.
 1. Click&nbsp;****Save.****
 
-You can view the recently created board in the **[!UICONTROL uicontrol Dashboard Reports]** tab.
+You can view the recently created board in the **[!UICONTROL Dashboard Reports]** tab.
 
 To add reports to your board, click the drop-down at the upper right corner of your board window and click&nbsp;**Add Report**. The report you create in this way is associated with your dashboard.
 
@@ -365,7 +369,7 @@ You can resize your reports in 1×1 (medium) and 1×2 (large) sizes. This gives 
 
 # Filters {#filters}
 
-Filters appear in **[!UICONTROL uicontrol Add]** report dialog at the bottom based on types of reports you have chosen. Some of the prominent filters are mentioned below.&nbsp;
+Filters appear in **[!UICONTROL Add]** report dialog at the bottom based on types of reports you have chosen. Some of the prominent filters are mentioned below.&nbsp;
 
 ** Manager **&nbsp;You can choose any one of the managers based on hierarchy. For some managers, there can be subordinate managers and multiple employees reporting to each subordinate manager.
 
@@ -467,7 +471,7 @@ To view drop-down options as Edit/Move to Dashboard/Create a copy/Delete/Resize,
 
 As an administrator, apart from generating reports for your account, you can also generate and view reports for peer accounts that you have set.
 
-When you have established a peer account with another user, you can view the reports for that peer account from the **[!UICONTROL uicontrol Reports]** page. When you create a report, you find the **[!UICONTROL uicontrol Select Account]** field. From the drop-down list, that lists all the peer account with which you are associated, select the account for which you want to view the shared reports.
+When you have established a peer account with another user, you can view the reports for that peer account from the **[!UICONTROL Reports]** page. When you create a report, you find the **[!UICONTROL Select Account]** field. From the drop-down list, that lists all the peer account with which you are associated, select the account for which you want to view the shared reports.
 
 While creating a peer account, if the&nbsp;Share Catalog&nbsp;option had not been selected, you cannot view that peer account in this list.
 
@@ -490,7 +494,7 @@ While creating a peer account, if the&nbsp;Share Catalog&nbsp;option had not bee
 
 You can get your favorite reports in an email by subscribing to them.
 
-In **[!UICONTROL uicontrol Reports]** page, click the  **[!UICONTROL uicontrol Subscription]**&nbsp;tab. Reports subscription page appears.
+In **[!UICONTROL Reports]** page, click the  **[!UICONTROL Subscription]**&nbsp;tab. Reports subscription page appears.
 
 To select the report name from the drop-down list, start typing the report name in the&nbsp;Reports&nbsp;field. Choose the frequency of email from the drop-down. You can add the subject of the email and provide an alternate email id.
 
@@ -498,7 +502,7 @@ You can Edit and Delete subscriptions.
 
 # Excel Reports {#excelreports}
 
-The **[!UICONTROL uicontrol Excel Reports]** tab allows you to export reports in XLS file format.
+The **[!UICONTROL Excel Reports]** tab allows you to export reports in XLS file format.
 
 The following are the report types available for download.
 
@@ -519,13 +523,13 @@ The Learner Transcripts in Excel reports displays the columns Credits Required a
 
 As an administrator, you can download reports for courses. Follow these steps:
 
-1. Open **[!UICONTROL uicontrol Reports > Excel Reports > Course Reports]**.
-1. The **[!UICONTROL uicontrol Course Report]** dialogue appears. Select the course you want to fetch the report of and click **[!UICONTROL uicontrol Show]**.
+1. Open **[!UICONTROL Reports > Excel Reports > Course Reports]**.
+1. The **[!UICONTROL Course Report]** dialogue appears. Select the course you want to fetch the report of and click **[!UICONTROL Show]**.
 
    ![](assets/course-reports.png)
 
 1. You are redirected to the course page. You can export quiz score by  user  and  by    question &nbsp;based  on each enrollment by choosing the specific enrollment type.
-1. Select **[!UICONTROL uicontrol Export Quiz Score]** to export the report. A **[!UICONTROL uicontrol Generating Report Request]** dialogue box appears. Click **[!UICONTROL uicontrol OK]** to confirm.
+1. Select **[!UICONTROL Export Quiz Score]** to export the report. A **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL OK]** to confirm.
 
    ![](assets/generating-reportrequest.png)
 
@@ -584,19 +588,19 @@ The extracted report includes information about the following:
 
 To download a report, do one of the following:
 
-* Open  **[!UICONTROL uicontrol Reports > Excel Reports > Job Aid Reports]**. The **[!UICONTROL uicontrol Generating Report Request]** dialogue box appears. Click **[!UICONTROL uicontrol Ok]**.
+* Open  **[!UICONTROL Reports > Excel Reports > Job Aid Reports]**. The **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL Ok]**.
 
-* Open **[!UICONTROL uicontrol Job Aid > Actions > Export Report]**.
+* Open **[!UICONTROL Job Aid > Actions > Export Report]**.
 
 ![](assets/job-aids.png)
 
-* You can also extract a report for a specific Job Aid by clicking **[!UICONTROL uicontrol Export Report]** under the settings icon.
+* You can also extract a report for a specific Job Aid by clicking **[!UICONTROL Export Report]** under the settings icon.
 
 ![](assets/job-aid-specific-download.png) 
 
 # Content audit trail reports {#contentaudittrailreports}
 
-Use the **[!UICONTROL uicontrol Content Audit Trail]** report generator to generate a report of all the changes and edits made to a course during its life in the system. The generated report has the following information fetched.
+Use the **[!UICONTROL Content Audit Trail]** report generator to generate a report of all the changes and edits made to a course during its life in the system. The generated report has the following information fetched.
 
 * Object id
 * Object name
@@ -614,12 +618,12 @@ Information regarding metadata is not fetched in the generated report.
 
 To generate a Course trail audit report, follow these steps.
 
-1. Select **[!UICONTROL uicontrol Report > Excel reports> Course Audit Trail]**. The **[!UICONTROL uicontrol Content Audit Trail]** dialog box appears.
+1. Select **[!UICONTROL Report > Excel reports> Course Audit Trail]**. The **[!UICONTROL Content Audit Trail]** dialog box appears.
 
    ![](assets/course-audit-trial.png)
 
 1. Select the course, learning program and certification that you want to download the report of. If not specified, all reports are downloaded by default.
-1. Select a date range for the report and click **[!UICONTROL uicontrol Generate.]**
+1. Select a date range for the report and click **[!UICONTROL Generate.]**
 1. The report is generated and you are notified that the content audit report is ready. You can download the report.
 
 # User audit trail reports {#useraudittrailreports}
@@ -628,12 +632,12 @@ User audit trail captures the life cycle of users, user groups,&nbsp;and self-re
 
 You can Add, Enable, Disable, Pause, or Resume for External profiles while you can Add, Delete, Pause, or Resume for self-registration. CSV uploads are also captured.
 
-1. Select  **[!UICONTROL uicontrol Report > Excel report > User Trail]**. The&nbsp;User Audit Trail&nbsp; dialo g box appears.
+1. Select  **[!UICONTROL Report > Excel report > User Trail]**. The&nbsp;User Audit Trail&nbsp; dialo g box appears.
 1. The User Audit Trail dialog box appears. Select the date range from the pop-up menu. You can either choose to generate report for last one week, last one month, or select custom date.
 
    ![](assets/user-audit-trail.png)
 
-1. Click **[!UICONTROL uicontrol Generate]** to generate the report.
+1. Click **[!UICONTROL Generate]** to generate the report.
 
 There are two filters on the **User Audit Trail Report** dialog.
 
@@ -661,7 +665,7 @@ Administrators can download gamification transcript in CSV format. You can eithe
 
    ![](assets/gamification-transcriptsdialog.png)
 
-1. Click  **[!UICONTROL uicontrol Generate]**&nbsp;to generate the report.
+1. Click  **[!UICONTROL Generate]**&nbsp;to generate the report.
 
    After you generate the report of a learner, you must be able to export the current and achieved-level information&nbsp;for all the users (internal, external, or deleted) in the account. You can also check the dates for the levels achieved by a learner:
 
@@ -678,7 +682,7 @@ Administrators can download gamification transcript in CSV format. You can eithe
 
 Administrators and managers can extract a report of the learners who have been enrolled&nbsp;and unenrolled. As an administrator, you can see any of the learner, administrator, or manager who has been enrolled or unenrolled from an instance of a course, learning program or certification and export the report. While, as a Manager, you can only fetch a report of your team members.&nbsp;As a manger, you are not able to see the deleted learners or your&nbsp;own name in the manager application as an enrolled or an unenrolled learner.
 
-To download a report, follow these steps: Open the  **[!UICONTROL uicontrol Course/ Learning program/ Certification > Learners > Action > Export report.]**
+To download a report, follow these steps: Open the  **[!UICONTROL Course/ Learning program/ Certification > Learners > Action > Export report.]**
 
 ![](assets/unenrollment.png) 
 

@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Certifications
 contentowner: manochan
 ---
+
+
+# Certifications {#certifications}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Learn how to create certifications, enroll learners, and edit published certifications.
@@ -126,12 +130,12 @@ While creating certifications, Administrator has an option to select whether lea
 
 Administrators can mark a Certification complete using the option available to them. To mark the completion of a certification, use the following steps.
 
-1. Open **[!UICONTROL uicontrol Certification > Learners]**.
+1. Open **[!UICONTROL Certification > Learners]**.
 
    The&nbsp;Learners&nbsp;page opens with the list of enrolled learners.
 
 1. Select one/multiple/all learners to mark Certification completion using the checkbox available for each learner.
-1. Click  **[!UICONTROL uicontrol Action > Mark completion.]**
+1. Click  **[!UICONTROL Action > Mark completion.]**
 
    Note that if a certification has multiple courses, completion will be marked for all the courses.
 

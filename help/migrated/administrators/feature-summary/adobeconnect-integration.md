@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Adobe Connect integration
 contentowner: jayakarr
 ---
+
+
+# Adobe Connect integration {#adobe-connect-integration}
+
 Administrators of an organization can configure the settings of Learning Manager account to enable Adobe Connect integration.
 
 # Configure Adobe Connect {#configureadobeconnect}

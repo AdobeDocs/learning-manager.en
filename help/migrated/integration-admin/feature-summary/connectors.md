@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Learning Manager Connectors
 contentowner: jayakarr
 ---
+
+
+# Learning Manager Connectors {#learning-manager-connectors}
+
 Learn on how to integrate various connectors in Learning Manager
 
 # Overview {#overview}
@@ -34,14 +38,15 @@ On this page:
 * [BlueJeans Event](connectors.md#connector_bj_events)
 * [Power BI](connectors.md#connector_powerbi)
 * [LinkedIn](connectors.md#connector_linkedin)
-* [ADFS](connectors.md#connector_adfs)
+* [ADFS](#connector_adfs)
 * [BlueJeans Meeting](connectors.md#connector_bjm_zoom)
 * [Zoom](connectors.md#connector_bjm_zoom)
 * [Custom FTP](connectors.md#connector_custom_ftp)
 * [Adobe Connect](connectors.md#connector_adobe_connect)
 * [Marketo Engage](connectors.md#connector_marketo)
 * [Microsoft Teams](connectors.md#connector_msteams)
-* [Training Metadata](#connector_trgmetadata)
+* [Training Data Access](connectors.md#connector_trgmetadata)
+* [Adobe Commerce Connector](connectors.md#adobe-commerce)
 
 # Salesforce connector {#sfconnector}
 
@@ -146,9 +151,9 @@ Here's how you'll create the objects:
 
 1. Download and install the packages to create the Custom Objects.
 
-   1. [Package 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000004XDf)
-   1. [Package 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000004XDu)
-   1. [Package 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000004XE4)
+   1. [Package 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)
+   1. [Package 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)
+   1. [Package 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)
 
 1. Rename the names of the Custom Objects in Salesforce.
 1. Select the events and click **Save**.
@@ -206,7 +211,7 @@ If you want to install the package, you must first delete the existing package i
    * **ClientID**: Enter the value that you’d obtained from the first section.
    * **ClientSecret:** Enter the value that you’d obtained from the first section.
    * **RefreshToken:** Enter the value that you’d obtained from the first section.
-   * **PrimeBaseURL:** The URL of the site where Learning Manager is hosted.
+   * **LearningManagerBaseURL:** The URL of the site where Learning Manager is hosted.
 
 ### Add Remote Site Settings
 
@@ -229,8 +234,9 @@ If you want to install the package, you must first delete the existing package i
 1. `Click **New**.`
 1. `Enter the following details:`
 
-   1. `**Custom Notification Name:** PrimeNotification `
-   1. `**API Name:** PrimeNotification`
+   1. `**Custom Notification Name:** LearningManagerNotification `
+   1. `**API Name:**&nbsp;LearningManagerNotification  
+      `
 
 1. `Select both **Desktop **and **Mobile **as Supported channels.`
 1. `Click **Save**.`
@@ -263,7 +269,7 @@ Click **Configure > New**, and then add the following:
 * Config Name
 * ClientID
 * ClientSecret
-* PrimeBaseURL
+* LearningManagerBaseURL
 * Disable Redirect
 
 **Note:** You can only create a single configuration. If you try to add another configuration, you will see an error message. The configuration maps the Salesforce account with the Learner account.
@@ -457,11 +463,11 @@ The import xAPI options allows you to schedule the import of xAPI statements fro
 
 There are two options to export&nbsp;User skill reports.
 
-**[!UICONTROL uicontrol User Skills - On Demand]**: You can specify the &nbsp;start date and export the report using the option. The report is extracted from the date entered until present.
+**[!UICONTROL User Skills - On Demand]**: You can specify the &nbsp;start date and export the report using the option. The report is extracted from the date entered until present.
 
 ![](assets/export-on-demand2x.png)
 
-**[!UICONTROL uicontrol User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
+**[!UICONTROL User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/user-skills-configure.png)
 
@@ -613,7 +619,7 @@ The getAbstract connector is used by enterprise customers of getAbstract.com, wh
    For any type of synchronization to work, ensure that the user feed is present in the getAbstract FTP folder for the dates specified in the synchronization.
 
    See the following excel sheet, which is a sample user feed file from getAbstract. The filename must follow the format: **report_export_yyyy_MM_dd_HHmmss.xlsx** or **report_export_yyyy_MM_dd.xlsx**.
-   `<download_section>  <download text="getAbstract user feed sample excel sheet" filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_528613433/proc_par/step_4/step_par/download_section/download-1/report_export_20170401175342.xlsx"></download> </download_section>`
+   [getAbstract user feed sample excel sheet](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_528613433/proc_par/step_4/step_par/download_section/download-1/report_export_20170401175342.xlsx)
 
 # Harvard ManageMentor connector {#hmmconnector}
 
@@ -663,7 +669,7 @@ The Harvard ManageMentor connector is used by enterprise customers of Harvard Ma
    client_hmm12_20150125.xlsx: It is the user feed for the Harvard ManageMentor connector. The file naming convention that follows is **client_hmm12_yyyyMMdd.xlsx.**
 
    See the following two sample user feed and course feed files for this connector:
-   `<download_section>  <download text="Course metadata file for the Harvard ManageMentor connector" filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_7345933/proc_par/step_546211159/step_par/download_section/download-1/hmm12_metadata.xlsx"></download>  <download text="User feed for the Harvard ManageMentor connector" filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_7345933/proc_par/step_546211159/step_par/download_section/download-2/client_hmm12_20170304.xlsx"></download> </download_section>`
+   [Course metadata file for the Harvard ManageMentor connector](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_7345933/proc_par/step_546211159/step_par/download_section/download-1/hmm12_metadata.xlsx) [User feed for the Harvard ManageMentor connector](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_7345933/proc_par/step_546211159/step_par/download_section/download-2/client_hmm12_20170304.xlsx)
 
 # Workday connector {#workdayconnector}
 
@@ -687,7 +693,7 @@ Learning Manager Administrator can apply filtering to the users before importing
 
 The User-skill Export allows users to export user skills to Workday automatically.
 
-Skills from multiple prime accounts cannot be exported simultaneously using the same Workday account.
+Skills from multiple Learning Manager accounts cannot be exported simultaneously using the same Workday account.
 
 ## Scheduling {#Scheduling-1}
 
@@ -696,9 +702,9 @@ Administrator can set up scheduling tasks as per organization's requirements and
 ## Configure Workday connector {#configureworkdayconnector}
 
 **Prerequisite**: Request the Workday Administrator of your organization, to create an Integration System User (ISU) with the permissions as defined in the ISU_Permissions document. Download a copy from the link below.
-`<download_section>  <download text="Download a copy of integration system user (ISU) security." filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_1659635486/proc_par/step_1/step_par/download_section/download-1/isu_permissions_v1.pdf"></download> </download_section>` To integrate Workday connector with&nbsp;Learning Manager, learn the process.
+[Download a copy of integration system user (ISU) security.](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_1659635486/proc_par/step_1/step_par/download_section/download-1/isu_permissions_v1.pdf) To integrate Workday connector with&nbsp;Learning Manager, learn the process.
 
-1. In Learning Manager home page, hover your mouse over the Workday tile. A menu appears. Click **[!UICONTROL uicontrol Connect]** item in the menu.
+1. In Learning Manager home page, hover your mouse over the Workday tile. A menu appears. Click **[!UICONTROL Connect]** item in the menu.
 
    ![](assets/workday-tile.png)
 
@@ -733,9 +739,9 @@ You can use Workday connector to integrate Learning Manager and Workday to autom
 
 Before importing users, the user attributes from Learning Manager and Workday have to be mapped. In the Overview page, use the Internal Users option under Import to provide the map attributes.
 
-Enter the Adobe Captivate&nbsp;Prime credentials under Adobe Learning Manager column. Use the drop downs to select the correct credentials for the columns under Workday.
+Enter the Adobe Learning Manager credentials under Adobe Learning Manager column. Use the drop downs to select the correct credentials for the columns under Workday.
 
-Currently, Learning Manager supports the import of 44 user attributes from Workday. Add more attributes using the Active Fields in Prime.
+Currently, Learning Manager supports the import of 44 user attributes from Workday. Add more attributes using the Active Fields in Learning Manager.
 
 ![](assets/workday.png)
 
@@ -799,7 +805,8 @@ wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Manageme
 
 ## Export {#Export-1}
 
-You can export all the skills achieved by a user from Learning Manager to Workday. Only all active user skills are exported and Learning Manager does not export retired skills. You can also connect multiple prime accounts to the same Workday connector.&nbsp;In case the skill names are same in two Learning Manager accounts, they are mapped to the same skill in Workday. Before updating the skill in Workday, in case two Prime accounts are using the same Workday account, it is advisable to update skill names in all Learning Manager Accounts.
+You can export all the skills achieved by a user from Learning Manager to Workday. Only all active user skills are exported and Learning Manager does not export retired skills. You can also connect multiple&nbsp;Learning Manager  
+accounts to the same Workday connector.&nbsp;In case the skill names are same in two Learning Manager accounts, they are mapped to the same skill in Workday. Before updating the skill in Workday, in case two&nbsp;Learning Manager accounts are using the same Workday account, it is advisable to update skill names in all Learning Manager Accounts.
 
 +++User Skills - Configure
 
@@ -847,7 +854,7 @@ To set up   miniOrange   connector, contact the Learning Manager CSM team.
 
 ## Configure miniOrange connector {#configureminiorangeconnector}
 
-1. In Learning Manager home page, hover  mouse  over the  miniOrange  card/thumbnail. A menu appears. Click  **[!UICONTROL uicontrol Connect]**&nbsp;option in the menu.
+1. In Learning Manager home page, hover  mouse  over the  miniOrange  card/thumbnail. A menu appears. Click  **[!UICONTROL Connect]**&nbsp;option in the menu.
 
    ![](assets/miniorange-tile.png)
 
@@ -855,7 +862,7 @@ To set up   miniOrange   connector, contact the Learning Manager CSM team.
 
    ![](assets/establish-connection.png)
 
-1. If you want to import miniOrnage user directly as a Prime internal user, use the **[!UICONTROL uicontrol Import Internal Users]** option.
+1. If you want to import miniOrnage user directly as a Learning Manager internal user, use the **[!UICONTROL Import Internal Users]** option.
 
    ![](assets/import-users.png)
 
@@ -863,13 +870,13 @@ To set up   miniOrange   connector, contact the Learning Manager CSM team.
 
    ![](assets/map-attributes.png)
 
-1. To view and edit data source, as an Administrator, click **[!UICONTROL uicontrol Settings > Data Source]**.
+1. To view and edit data source, as an Administrator, click **[!UICONTROL Settings > Data Source]**.
 
-   The established  miniOrange  source would be listed. If you require to edit the filter, click **[!UICONTROL uicontrol Edit]**.
+   The established  miniOrange  source would be listed. If you require to edit the filter, click **[!UICONTROL Edit]**.
 
    ![](assets/data-source.png)
 
-1. You receive a notification upon completion of import. To view or edit the import log, click **[!UICONTROL uicontrol Users > Import log.]**
+1. You receive a notification upon completion of import. To view or edit the import log, click **[!UICONTROL Users > Import log.]**
 
 ### Delete a connection {#deleteaconnection}
 
@@ -881,7 +888,7 @@ You can now integrate&nbsp;Learning Manager with BlueJeans and Zoom connectors a
 
 To set up and use the connector, follow these steps.
 
-1. In Learning Manager  home page , hover the mouse over the BlueJeans/Zoom thumbnail. A menu appears. Click  **[!UICONTROL uicontrol Connect]**&nbsp;option from the menu.
+1. In Learning Manager  home page , hover the mouse over the BlueJeans/Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]**&nbsp;option from the menu.
 
    ![](assets/connectors.png)
 
@@ -1047,7 +1054,7 @@ There are two options to export&nbsp;User skill reports.
 
 User Skills - On Demand: You can specify the start date and export the report using the option. The report is extracted from the date  entered  until present
 
-**[!UICONTROL uicontrol User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
+**[!UICONTROL User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 +++
 
@@ -1077,7 +1084,7 @@ The csv for the content connectors, for example, LinkedIn, will be deleted after
 
 # LinkedIn Learning connector {#linkedinlearningconnector}
 
-The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com who would like their learners to discover and consume courses from within Learning Manager. The connector can be configured to fetch courses periodically with your API key. Once a course is created within Prime, users can search for them and consume them. Learner progress can then be tracked within Learning Manager.
+The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com who would like their learners to discover and consume courses from within Learning Manager. The connector can be configured to fetch courses periodically with your API key. Once a course is created within Learning Manager, users can search for them and consume them. Learner progress can then be tracked within Learning Manager.
 
 The learning time spent in LinkedIn Learning courses is communicated by the LinkedIn content/LinkedIn platform to Learning Manager learning platform. If LinkedIn learning does not send the learning time, it cannot be recorded by our learning platform. In such case, learning time spent displayed by Learning Manager is zero.
 
@@ -1170,11 +1177,11 @@ The&nbsp;content is saved only after migration. The content will be saved in res
 
 Learning Manager supports integration with only commercial license of Microsoft Power BI. It does not integrate with Microsoft Power BI on Government cloud.
 
-You can use integration with this connector to take advantage of your existing Power BI accounts to analyze and visualize learning data from Prime within Power BI. During configuration, the integration administrator can set up their Power BI workspace to be incrementally populated with two live data sets - learner transcript and user skill reports. You can then use all the features and power of PowerBI to develop, deploy, and distribute custom dashboards as they desire in their organizations.
+You can use integration with this connector to take advantage of your existing Power BI accounts to analyze and visualize learning data from&nbsp;Learning Manager within Power BI. During configuration, the integration administrator can set up their Power BI workspace to be incrementally populated with two live data sets - learner transcript and user skill reports. You can then use all the features and power of PowerBI to develop, deploy, and distribute custom dashboards as they desire in their organizations.
 
 ## Configuring the connector {#configuringtheconnector}
 
-To configure the connector,  in  the **[!UICONTROL uicontrol Connectors]** page, hover over the **[!UICONTROL uicontrol Power BI]** tile and click **[!UICONTROL uicontrol Connect]**. The Power BI page opens. To establish a connection, you provide the App Client Id, App Client secret, Tenant name, and Workspace Id (optional). To obtain these credentials, follow these steps.
+To configure the connector,  in  the **[!UICONTROL Connectors]** page, hover over the **[!UICONTROL Power BI]** tile and click **[!UICONTROL Connect]**. The Power BI page opens. To establish a connection, you provide the App Client Id, App Client secret, Tenant name, and Workspace Id (optional). To obtain these credentials, follow these steps.
 
 ![](assets/power-bi-configurepage.png)
 
@@ -1203,9 +1210,9 @@ If you want to authorize the connection again, you must create another Power App
 
 You can export Learner Transcripts, User Skills, and xAPI Activity Report using the same method. Choose Learner Transcripts/ User Skills from the left panel. The Export page opens.
 
-Enable the **[!UICONTROL uicontrol Enable User-Skill/ Learner Transcript export using this connection check box]**. Save changes.
+Enable the **[!UICONTROL Enable User-Skill/ Learner Transcript export using this connection check box]**. Save changes.
 
-**Export configure**: If you want to schedule the extraction of the report. Select the **[!UICONTROL uicontrol Enable Schedule]** check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
+**Export configure**: If you want to schedule the extraction of the report. Select the **[!UICONTROL Enable Schedule]** check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/power-bi-configureuserskillpage.png)
 
@@ -1427,24 +1434,69 @@ Prerequisites to establish an ADFS connection:
 
 ## Steps to register your application {#stepstoregisteryourapplication}
 
-1. Click **[!UICONTROL uicontrol App Registrations > New Application registrations.]**
-1. Enter **[!UICONTROL uicontrol Name]** and **[!UICONTROL uicontrol Sign-on URL]**. In Learning Manager, there is no specific URL requirement. You can use any URL. Create the application.
-1. Go to **[!UICONTROL uicontrol Settings > Keys.]**
-1. Enter a key name and the expiry date. The **[!UICONTROL uicontrol App Secret]**&nbsp;is displayed. Make sure that you save it since it appears only once.
-1. Grant permission to the app using the following steps:
+1. Click Azure Active Directory. Click **Add > App registration**.
 
-   1. Select the newly created Application.
-   1. Open **[!UICONTROL uicontrol Settings > API Access]** (Permission required).
-   1. Select **[!UICONTROL uicontrol Add > Select API > Microsoft Graph API.]**
-   1. Select the following permissions:
+   ![](assets/add-app-registration.png)
 
-   * Minimum Permissions Required for Learning Manager:
+1. Enter the name of the application.
 
-   A) **[!UICONTROL uicontrol Read Directory Data]** (in Application Permissions).
+   ![](assets/register-app.png)
 
-   B) **[!UICONTROL uicontrol Read All User's full Profile]** (in Application Permissions).
+   Click **Register**.
 
-1. After Selecting Permissions for Microsoft Graph API, Click **[!UICONTROL uicontrol Grant Permissions.]**
+1. On the right pane, select **Certificates and Secrets**.
+
+   ![](assets/add-client-secret.png)
+
+1. Add a client secret.
+
+   ![](assets/add-description.png)
+
+1. Add a description to the secret and set its expiry to 24 months.
+
+   ![](assets/copy-values.png)
+
+1. Copy the value and the secret to, for example, notepad.
+
+   ![](assets/copy-secret.png)
+
+1. Select **API Permissions**.
+
+   ![](assets/click-api-permission.png)
+
+1. Select **Add Permissions**. Also, enable the option, **Grant Admin consent**.
+
+   ![](assets/add-permission.png)
+
+1. Select **Microsoft Graph**.
+
+   ![](assets/ms-graph.png)
+
+1. Select **Application permissions**.
+
+   ![](assets/request-api-permission.png)
+
+1. Search for *directory* and select **Read directory data**.
+
+   ![](assets/read-directory-data.png)
+
+1. Enter *user* as the search term.
+
+   ![](assets/search-user.png)
+
+1. Select **Read all users' full profiles**.
+
+   ![](assets/select-read-all.png)
+
+1. Select **Add Permissions**.
+
+   ![](assets/select-add-permission.png)
+
+1. In the ADFS configuration page in Adobe Learning Manager, enter the Client ID and the Client Secret that you had obtained earlier.
+
+   Click **Connect**.
+
+1. Log in to&nbsp;**portal.azure.com**. The values will be populated in the Tenant ID and the Primary Domain fields.
 
 ## Import {#Import-3}
 
@@ -1472,7 +1524,7 @@ To set up&nbsp;ADFS connector ,&nbsp; contact the Learning Manager CSM team.
 
    ![](assets/adfs2.jpg)
 
-1. If you want to import ADFS user directly as a Prime internal user, use the&nbsp;Import Internal Users&nbsp;option.
+1. If you want to import ADFS user directly as a&nbsp;Learning Manager internal user, use the&nbsp;Import Internal Users&nbsp;option.
 
    ![](assets/adfs3.jpg)
 
@@ -1518,7 +1570,7 @@ If the author of a virtual classroom course has not provided the session informa
 
 In Administrator login, click the VC course name. Click&nbsp;Instances&nbsp;on the left pane and&nbsp;Session Details. &nbsp;Click the Edit icon at the right corner of the Session Details page to add the session information.
 
-With the integration of Adobe Learning Manager and Adobe Connect for creating virtual classroom modules or sessions, your Connect account should support Meeting rooms with adequate number of rooms and concurrent users for your use case. These meeting rooms are used to host Learning Manager virtual classroom modules. A new Connect meeting room is dynamically created by Prime for each virtual classroom module or session within Prime.
+With the integration of Adobe Learning Manager and Adobe Connect for creating virtual classroom modules or sessions, your Connect account should support Meeting rooms with adequate number of rooms and concurrent users for your use case. These meeting rooms are used to host Learning Manager virtual classroom modules. A new Connect meeting room is dynamically created by&nbsp;Learning Manager for each virtual classroom module or session within Learning Manager.
 
 You must purchase Adobe Connect separately, apart from Adobe Learning Manager.
 
@@ -1542,7 +1594,7 @@ Once a learner takes a course via Adobe Connect and completes the course, after 
 
 ## Import quiz scores from Adobe Connect {#quiz-adobe-connect}
 
-Import Connect quiz data into Prime and integrate it with existing reporting workflow&nbsp;so that Prime users can get quiz data, user responses and scores from Adobe Connect sessions within report, like the way it is available for self-paced modules having quizzes.
+Import Connect quiz data into&nbsp;Learning Manager and integrate it with existing reporting workflow&nbsp;so that&nbsp;Learning Manager users can get quiz data, user responses and scores from Adobe Connect sessions within report, like the way it is available for self-paced modules having quizzes.
 
 In the Connect section, if any learner takes a quiz course or any interactions that supports quiz reporting, all interactions by the learners are tracked in addition to completion. The course must be a Connect VC training.
 
@@ -1555,7 +1607,7 @@ Here is a brief workflow of the process.
 
 **Learning Manager - Author**
 
-* The Author creates a course in Prime with the module type as **Virtual Classroom.**
+* The Author creates a course in&nbsp;Learning Manager with the module type as **Virtual Classroom.**
 * From the **Conferencing System** drop-down list, choose Connect as the VC Provider.
 * Choose the Persistent Meeting course and select the VC Classroom created by the host in Connect. Choose the Instructor. Save and Publish the course.
 
@@ -1581,7 +1633,7 @@ Here is a brief workflow of the process.
 * Once the session has expired, the quiz import workflow will be triggered after the scheduled duration.
 * Wait until the schedule is triggered and the processing is complete. To check the processing status from the Integration admin side, you can view the **Execution Status** within the Adobe Connect connector to watch the progress. Once the execution is successful, the status will change to&nbsp;**Completed**.
 
-* The admin then choose the Prime Course created previously. The admin sees the following:
+* The admin then choose the&nbsp;Learning Manager Course created previously. The admin sees the following:
 
    * **Attendance & Scoring** -Displays the final quiz score and the attendance status.
    * **L2 Quiz Score**
@@ -1594,7 +1646,7 @@ Here is a brief workflow of the process.
 
 Learning Manager now offers integration with Marketo Engage, a marketing automation software that helps run marketing campaigns.
 
-The Marketo Engage Connector is designed to add (or update) leads in the Marketo Engage database, when a new user is added to the Prime Account. It also associates learning behaviors of the user in Prime (course enrollment, course completion, skill assignment and skill accomplishment) as custom objects with the corresponding leads in Marketo Engage. This enables a marketer to use this information to target audiences based on their learning behaviors captured from Prime and use features of Marketo Engage like "Smart Lists".
+The Marketo Engage Connector is designed to add (or update) leads in the Marketo Engage database, when a new user is added to the&nbsp;Learning Manager Account. It also associates learning behaviors of the user in&nbsp;Learning Manager (course enrollment, course completion, skill assignment and skill accomplishment) as custom objects with the corresponding leads in Marketo Engage. This enables a marketer to use this information to target audiences based on their learning behaviors captured from&nbsp;Learning Manager and use features of Marketo Engage like "Smart Lists".
 
 As an Integration Admin, you can integrate Learning Manager with a Marketo Engage instance to automate data synchronization. You can export internal users and export training enrollments and skill completion events. The operations can be performed on a schedule, and these can be configured, on demand.
 
@@ -1617,9 +1669,9 @@ When you create a Marketo&nbsp;Engage&nbsp;connection, you must provide the foll
 
 You can get the Client Id and secret from the Marketo Engage app. On the Marketo app, you can get the Client id and secret from the **LaunchPoint **section, and the Marketo Domain from the **WebServices **section.
 
-On the **Unified Reports** section of the Markeo Engage connection in the Prime app, you can create campaigns based on the following:
+On the **Unified Reports** section of the Markeo Engage connection in the&nbsp;Learning Manager app, you can create campaigns based on the following:
 
-* A new user is added to Prime
+* A new user is added to&nbsp;Learning Manager  
 * A new user is enrolled to a course
 * A new user has completed a course
 * A learner is enrolled into a skill
@@ -1636,11 +1688,22 @@ In Marketo, there are two types of databases:
 
 Column mapping is used to create lead database. Leads are users that you’ve exported from the User Report.
 
-The fields from the User Report are listed under the column Adobe Learning Manager. The fields under the column Marketo are what Marketo provides. Using both the columns, you can map any field in Prime to that from Marketo. From a Prime column you join a related column from Marketo. After joining the columns, a lead database gets created.
+The fields from the User Report are listed under the column Adobe Learning Manager. The fields under the column Marketo are what Marketo provides. Using both the columns, you can map any field in&nbsp;Learning Manager to that from Marketo. From a&nbsp;Learning Manager column you join a related column from Marketo. After joining the columns, a lead database gets created.
 
 You can then view all the exported users in Marketo.
 
 In the **Marketo Custom Objects** section in the Marketo app, you can see that all the three reports, Learner Transcript, User Skill, and User Report, are present. These reports have the string **“cp_”** prepended to each. Each new user who gets exported to Marketo is considered as a lead.
+
+## Events
+
+Export data from Learning&nbsp;Manager events to a Marketo Engage instance. Select the events to export to the Marketo Engage database either on demand or on a schedule.
+
+* New user addition
+* Update user metadata
+* Update user activity
+* Training enrollment
+* Self enrollment
+* Skill completion
 
 # BlueJeans Events {#bj-events}
 
@@ -1680,7 +1743,7 @@ When you enable the check-box **Fetch Events created by the other users**, you c
 
 If the **Additional Event Creators** field is left blank, all events created in BlueJeans will be available for searching in the Author App.
 
-The Author, in the Author app, then selects an event from the list of available events. In addition, the Author can add instructors to the event.&nbsp;These instructors in Prime would become the presenters within BlueJeans events.
+The Author, in the Author app, then selects an event from the list of available events. In addition, the Author can add instructors to the event.&nbsp;These instructors in&nbsp;Learning Manager would become the presenters within BlueJeans events.
 
 All users must belong&nbsp;to the same enterprise in BlueJeans Events App.
 
@@ -1708,5 +1771,225 @@ The automated user completion syncing process allows a Learning Manager Administ
 
 For more information, see&nbsp; [**Install Microsoft Teams connector in Adobe Learning Manager**](install-microsoft-teams-connector.md).
 
-# Training Metadata
+# Training Data Access
 
+**This specific functionality is available only if Adobe Learning Manager is sold as an Add on to Adobe Experience Manager.**
+
+The Training Data Access connector enables your AEM Sites-based custom-made user interface to retrieve and render training information to learners and helps easy and faster search.
+
+The connector exports training metadata to a data storage and retrieval solution. You can then configure your AEM Sites-based interface to use these two services to retrieve training data, render web pages, and provide optimized training search functionality to the learners.&nbsp;
+
+For example, a non-logged in AEM Sites-based interface can use the exported metadata to help a learner search, browse, and access training pages that show training information&nbsp;
+
+Enable this connector to build and render your AEM Sites-based web pages and deliver customized experiences to your learners from AEM, where the course information is fetched by using a public API (headless LMS).
+
+## Configure the connector
+
+Use Training Data Access connector to integrate your Adobe Learning Manager account with data storage and retrieval service as well as search enablement system to enable your AEM Sites-based interface to retrieve training data, render web pages, and provide optimized training search functionality to the learners.
+
+Export training metadata from Adobe Learning Manager to the data retrieval and search enablement services. You can also create a schedule to automate these exports.
+
+1. Enter the name of the connection and a valid domain name.
+
+   ![](assets/create-connection-training-data.png)
+
+1. Click **Connect**. The base URL and the retrieval URL get generated.
+
+   ![](assets/base-url.png)
+
+1. Enable the connection.
+
+   ![](assets/enable-connection.png)
+
+1. Once you enable the connection, the images of all the Courses, Learning Paths, and Certificates get migrated to the CDN.
+1. Export the metadata of the Courses, Learning paths, and Certificates into the search and retrieval service.
+
+## Create website in AEM
+
+**Pre-requisite:&nbsp;**Install the AEM package from the&nbsp; [**GitHub repository**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+
+1. Use the base and retrieval URLs, Client ID, Client Secret, and Admin Refresh Token and create a configuration in AEM.&nbsp;
+1. Create the website using the AEM components.
+1. Publish the website.
+
+For more information, see this&nbsp; [**document**](../../adobe-learning-manager-integration-aem.md).
+
+## Learners
+
+The published website displays a list of all migrated Courses, Certificates, and Learning Paths that are retrieved from the search service for non-logged in learners.
+
+When a learner clicks Course or Certificate or Learning Path, the Overview page launches. On the page, when the learner enrolls, they must log in first, and then take the Course.
+
+# Adobe Commerce connector
+
+**NOTE: This specific functionality is available only if Adobe Learning Manager is sold as an Add-on to Adobe Experience Manager**
+
+**Note:&nbsp;**This connector can be enabled for trial accounts also.
+
+Adobe Learning Manager now offers integration with Adobe Commerce, a platform to build eCommerce experiences for B2B and B2C customers.
+
+Adobe Commerce is an extensible and scalable commerce enablement solution that enables you to build multi-channel commerce experiences for B2B and B2C customers on a single platform. Use the Adobe Commerce connector to connect your Adobe Learning Manager account with Adobe Commerce and realize e-commerce capabilities on the learning platform.&nbsp;
+
+Enable this connector and utilize the Adobe Commerce features to provide the learning offerings as paid training. Note that you need to purchase Adobe Commerce separately before you can integrate it with Adobe Learning Manager using this connector.
+
+The connector integrates with Adobe Commerce by sending training data to the commerce platform, which then enables learners to make a payment and purchase training.&nbsp;
+
+In addition to initiating a purchase, the connector also collects purchase details from Adobe Commerce, which is used by Adobe Learning Manager to validate the purchase and unlock access to the training.
+
+**Pre-requisites**
+
+1. Enable&nbsp; [RabbitMq](https://devdocs.magento.com/cloud/project/services-rabbit.html)&nbsp;or any other messaging broker.
+1. Enable&nbsp; [CRON](https://devdocs.magento.com/cloud/env/variables-deploy.html#cron_consumers_runner).
+1. For steps 1 and 2, edit the following files:
+
+   1. .magento.app.yaml
+   1. .magento/services.yaml
+   1. .magento.env.yaml&nbsp;&nbsp;&nbsp;&nbsp;
+
+1. Override options limit via custom module. This is an optional step but highly recommended for large datasets.
+1. Enable all async APIs on the page. Since there may be a lot of data, the export happens asynchronously. The APIs from Adobe Commerce are called the request payload is sent.&nbsp;The request pushes the messages to a queue and there is a consumer to this queue, which processes these messages and creates products on the commerce side. Adobe Commerce does not provide this async processing by default. That is why you must enable this option.  
+1. Add a link to return to ALM on the payment success page. This return URL must be configured in Adobe Commerce. The URL to be used for the link. -&nbsp; [https://learningmanagerqe.adobe.com/app/learner#/postPayment](https://captivateprimeqe.adobe.com/app/learner#/postPayment)
+1. Change indexing from "On save" to "Scheduled".&nbsp; For more information, see this&nbsp; [KB](https://support.magento.com/hc/en-us/articles/360040227191).
+1. Apply the following patches. For more information, see&nbsp; [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html).
+1. Configure Fastly.&nbsp;&nbsp;Fastly is required for Adobe Commerce on cloud infrastructure, and is used in Staging and Production environments. For more information, see [Set up Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html).
+
+## Configure the connector
+
+As an Integration Administrator, in the Adobe Commerce connector, click **Connect**.
+
+On the configuration page, enter the following details. These details, the authorization keys, are available in Adobe Commerce. Once you create an integration in Adobe Commerce, the credentials will be available there.&nbsp;
+
+![](assets/adobe-commerce-configuration.png)
+
+Once Adobe Commerce connector connection is enabled, an author can set the price for a course, Learning path, or a certificate.
+
+After the course, Learning Path, or certificate is published, a learner can buy courses the learner app.
+
+* **Native Learning Manager:** The learner can purchase a course, Learning Plan, or a certificate from within Learning Manager. This is only applicable where the author has added a price.
+* **Custom-made using AEM sites:** The learner can purchase a course from an AEM site.
+
+### Workflow&nbsp;
+
+The Adobe Commerce Administrator configures Learning Manager as an integration.
+
+The Author marks the courses, Learning Paths, or certificates as premium and assigns prices. This option comes only if ecommerce is enabled for the account. For more information, see [Create courses](../../authors/feature-summary/courses.md).
+
+The course or Learning Path will not be available for purchase until the data is synchronized in Adobe Commerce.&nbsp;
+
+### Export courses to Adobe Commerce
+
+After an author has set the prices on various courses, Learning Paths, or certifications, you, as the Integration Administrator, will export the courses, Learning Paths, or certifications into Adobe Commerce.
+
+1. Click **Export Training Metadata > On Demand**.  
+
+1. Select the dates.  
+
+1. Click **Execute**. Upon successful execution, all courses or Learning Paths that are priced, will be moved to Adobe Commerce. The learner can then buy the course from Learning Manager.&nbsp;
+
+## Native Learning Manager with Adobe Commerce&nbsp;
+
+### Learner&nbsp;
+
+As a learner, you must be logged in to buy a course, certificate, or a Learning Path.
+
+To purchase the course, click Buy now. You are redirected to Adobe Commerce to complete the purchase. Once the payment is successful, you can see a message that prompts you to return to Learning Manager and start the course.&nbsp;You must also log in to Adobe Commerce separately to complete the purchase.
+
+When you purchase a Course, Certificate, or Learning Path from ALM Native or AEM, you get emails from ALM as well as Adobe Commerce.
+
+In addition, you can enable/disable emails from Adobe Commerce as well.
+
+## AEM sites with Adobe Commerce&nbsp;
+
+When the Custom-made using AEM sites option is enabled, you, as a learner, can buy courses from a custom-built AEM site.&nbsp;
+
+The AEM site will have all the metadata from Learning Manager for enabling search through Adobe Commerce. The courses are fetched from Adobe Commerce in non-logged in cases.
+
+Both logged in and non-logged in experience is possible. Non-logged in users can search and browse the course catalog, Learning Plan, and Certificates. However, if you want to purchase a course, you must log in to the AEM site.
+
+As with native Learning Manager, after logging in, you can add a course to the cart and then preview or buy the course.&nbsp;
+
+## Set up the Adobe Commerce connector
+
+### Pre-requisite
+
+The Administrator enables the checkbox,&nbsp;**Enable pricing for trainings**, in **Settings > General** in the Admin app.&nbsp;If the option is enabled, Authors can specify prices for trainings. When you add an Adobe Commerce connection, this checkbox is automatically selected and enforced.
+
+Adobe Learning Manager supports eCommerce to buy and sell training. Here, users can sell training to promote the up-selling and cross-selling of their products.&nbsp;
+
+With the integration of Adobe Commerce, Adobe Learning Manager supports buying and selling of training to provide a more complete customer experience in Customer Partner Education scenarios.
+
+The primary objectives of this integration are as follows:
+
+* Users can generate revenue by selling courses on Adobe Learning Manager or on a Headless learning interface.  
+* Enable Adobe Commerce integration to the platform to sell courses using Learning Manager’s native app and AEM.  
+* Allow Learning Manager’s customers to offer formal learning in the form of paid courses.&nbsp;  
+* Enable learners to preview courses before deciding to purchase the training.
+
+### Adobe Learning Manager native
+
+**Integration Administrator**
+
+1. On the Integration Administrator page, add the Adobe Commerce connector. Get the authentications from the application that was created in Adobe Commerce.
+1. Once Adobe Commerce is enabled, eCommerce is enabled on Adobe Learning Manager. The data from Learning Manager to Adobe Commerce is synced according to a schedule. The data includes all the training (paid) along with the metadata (users, skills, author name, price etc.).
+
+**Note: ** `Adobe Learning manager and Adobe Commerce have different logins.`
+
+## AEM
+
+In this mode, a Learner takes the course off an AEM-based site, which is built by using AEM-based templates and components.
+
+On the AEM site, the learner has support for shopping cart, add to cart button, deleting courses from the shopping cart, and so on.
+
+If the user is not logged in, they can still search for course catalogs and view course details but cannot purchase a course. As a learner, you must be logged in if you want to purchase a course.
+
+After the Learner purchases the course, they are redirected to the course overview page in the enrolled state, where they can take the purchased training.
+
+### Headless- Non-logged in
+
+A Learner can:
+
+* Search for any training from the search bar.
+* Filter any training by price range.
+
+A learner cannot:
+
+* Purchase a course from the Overview page.
+* Preview paid content.
+
+### Headless- Logged in
+
+A Learner can:
+
+* Explore, view, search, and filter paid or free training courses.
+
+* Add a course to a cart and then check out for purchase.
+* Add, update, or delete training courses in the cart.
+* Simultaneously pay for multiple training courses.
+* Preview a paid course in the Player.
+* See messages if there is a payment error.
+
+* See the invoice as an attachment in the email after purchasing the course.
+
+### **On-demand sync**
+
+The sync between Learning Manager and Adobe Commerce happens twice daily. After the Administrator enables an account for e-commerce, the&nbsp;**Enable training metadata export using this connection**&nbsp;option, when enabled, stores the images of the Course, Learning Path, and Certificates in a public CDN.
+
+If the data remains unsynchronized, the pricing information do not appear for a learner.
+
+For native Learning Manager,&nbsp;if e-commerce is enabled and sync between Learning Manager and Adobe Commerce is completed, learners can view or search free or paid training.
+
+For AEM, there is no Buy Now, only an **Add to Cart **button. This button also remains disabled if the sync is not performed.
+
+### Frequently Asked Questions
+
+**What courses cannot be purchased?**
+
+Courses, such as, recurring certifications, content marketplace training, acquired training, training from connectors, Job Aids, and Manager approved/nominated courses cannot be purchased by a learner.
+
+**Is there any change in the Learner Transcript and Trainings Report?**
+
+These reports display the price and the date of purchase for all purchased training in the account.
+
+**Can a learner enroll in a free training?**
+
+Yes, a learner can enroll in free training. Free training displays the Preview and Enroll button on the Training Overview page.

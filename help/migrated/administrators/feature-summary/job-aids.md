@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Job Aids
 contentowner: jayakarr
 ---
+
+
+# Job Aids {#job-aids}
+
 Job Aids for Administrators in Learning Manager.
 
 Job Aids is&nbsp;a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.

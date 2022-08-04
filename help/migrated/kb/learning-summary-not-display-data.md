@@ -5,6 +5,8 @@ contentowner: saghosh
 ---
 
 
+# Learning Summary does not display current data {#learning-summary-does-not-display-current-data}
+
 # Issue
 
 In Adobe Learning Manager,&nbsp;Learning Summary does not display current data for Enrollment, Completion, or Progressions.

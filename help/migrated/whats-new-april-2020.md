@@ -4,6 +4,10 @@ jcr-language: en_us
 title: New features summary
 contentowner: jayakarr
 ---
+
+
+# New features summary {#new-features-summary}
+
 Learn about the new features and enhancements in Adobe Learning Manager
 
 The April 2020 release of Adobe Learning Manager consists of performance enhancements, API changes, manager workflows, social learning, reporting, bug fixes, and other enhancements. Read on to know more about the changes in this release.

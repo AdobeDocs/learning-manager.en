@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Interpret the Learner Transcript CSV
 contentowner: saghosh
 ---
+
+
+# Interpret the Learner Transcript CSV {#interpret-the-learner-transcript-csv}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 # Overview {#overview}

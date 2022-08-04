@@ -3,6 +3,10 @@ description: Learn how to download learner transcript based on users, learning o
 jcr-language: en_us
 title: Learner transcripts
 ---
+
+
+# Learner transcripts {#learner-transcripts}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Learn how to download learner transcript based on users, learning objects, or skills in Learning Manager.

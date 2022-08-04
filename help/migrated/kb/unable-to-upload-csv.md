@@ -6,6 +6,8 @@ contentowner: saghosh
 ---
 
 
+# Unable to upload CSV {#unable-to-upload-csv}
+
 # Error: Data truncation: Data too long for column
 
 When trying to upload a CSV in Adobe Learning Manager, you see the following error message.

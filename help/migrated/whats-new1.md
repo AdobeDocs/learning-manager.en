@@ -4,6 +4,10 @@ jcr-language: en_us
 title: New features summary
 contentowner: jayakarr
 ---
+
+
+# New features summary {#new-features-summary}
+
 Learn about the new features and enhancements in Adobe Learning Manager
 
 The **December 2020** **release of Adobe Learning Manager**&nbsp;features an&nbsp;all-new&nbsp;Learner Homepage experience, that is driven by:

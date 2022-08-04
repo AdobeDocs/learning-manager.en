@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Frequently Asked Questions for Instructors
 contentowner: shhivkum
 ---
+
+
+# Frequently Asked Questions for Instructors {#frequently-asked-questions-for-instructors}
+
 Read on to know the frequently asked questions for instructors in Learning Manager.
 
 +++How can I access the Instructor app?

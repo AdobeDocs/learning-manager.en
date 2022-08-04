@@ -2,6 +2,10 @@
 jcr-language: en_us
 title: Announcements
 ---
+
+
+# Announcements {#announcements}
+
 An announcement is a multimedia message (text, image or video) that an Administrator broadcasts to a defined set of users.
 
 Administrator can broadcast announcements to learners informing them about the occurrence of an event or an activity.&nbsp;Announcement can be a combination of text, images, or&nbsp;videos. You can link learning objects like courses, learning programs and certifications to an announcement.

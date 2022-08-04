@@ -4,6 +4,10 @@ jcr-language: en_us
 title: What's new in the October 2021 release of Adobe Learning Manager
 contentowner: jayakarr
 ---
+
+
+# What's new in the October 2021 release of Adobe Learning Manager {#whats-new-in-the-october-release-of-adobe-learning-manager}
+
 Learn about the new features and enhancements in Adobe Learning Manager
 
 # What's new and changed {#whatsnewandchanged}

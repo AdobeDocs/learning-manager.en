@@ -4,11 +4,15 @@ jcr-language: en_us
 title: Catalogs
 contentowner: manochan
 ---
+
+
+# Catalogs {#catalogs}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Catalogs in Learning Manager consists of the courses, learning programs and certifications for learner role in Learning Manager account.
 
-# Catalogs {#catalogs}
+# Catalogs {#Catalogs-1}
 
 All the courses available in Learning Manager are available in the courses section. The same is applicable to Learning Program , Certificate, and so on.
 

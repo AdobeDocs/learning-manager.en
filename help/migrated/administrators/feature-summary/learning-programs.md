@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Learning Programs
 contentowner: manochan
 ---
+
+
+# Learning Programs {#learning-programs}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Read this article to learn how to create and manage learning programs in Learning Manager
@@ -119,13 +123,13 @@ While creating learning programs, Administrator has an option to select whether 
 
 Administrators can mark a Learning Program as complete using the option available to them. To mark the completion of Learning Program, use the following steps.
 
-1. Open the **[!UICONTROL uicontrol Learning Program]**.
-1. Open the **[!UICONTROL uicontrol Learners]** page from the menu on your left.
+1. Open the **[!UICONTROL Learning Program]**.
+1. Open the **[!UICONTROL Learners]** page from the menu on your left.
 
-   The **[!UICONTROL uicontrol Learners]** page opens with the list of enrolled learners.
+   The **[!UICONTROL Learners]** page opens with the list of enrolled learners.
 
 1. Select one/multiple/all learners to mark LP completion using the checkbox available for each learner.
-1. Click **[!UICONTROL uicontrol Users]** > **[!UICONTROL uicontrol Action]** > **[!UICONTROL uicontrol Mark completion]**.
+1. Click **[!UICONTROL Users]** > **[!UICONTROL Action]** > **[!UICONTROL Mark completion]**.
 
    If the LP has multiple courses, all the courses will be marked complete.
 

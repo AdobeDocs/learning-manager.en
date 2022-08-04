@@ -5,6 +5,8 @@ contentowner: saghosh
 ---
 
 
+# Unable to view certain courses under catalog while creating a Certification {#unable-to-view-certain-courses-under-catalog-while-creating-a-certification}
+
 # Issue
 
 While searching for a particular course to add it to a Certification, you are unable to view the course under the catalog.

@@ -4,6 +4,10 @@ title: Learning Manager Deployment Guide – Section 2
 contentowner: sanm
 preview: true
 ---
+
+
+# Learning Manager Deployment Guide – Section 2 {#learning-manager-deployment-guide-section}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 # Technical Set up {#technicalsetup}
@@ -14,30 +18,30 @@ The technical set up for your Prime account is required mainly for enterprise us
 
 As a system admin on the Admin Console, one of your first tasks is to define and set up an identity system against which your end users will be authenticated. As your organization purchases licenses for Learning Manager, you will need to provision those licenses to your end users. And for this, you will need a way to authenticate these users. Perform the following procedure to configure SSO for your users.
 
-1. From the Learning Manager Home page, click **[!UICONTROL uicontrol **Settings** > **Login Methods**.]**
+1. From the Learning Manager Home page, click **[!UICONTROL **Settings** > **Login Methods**.]**
 
    ![](assets/configure-sso-step1.png)
 
-1. Depending on your user type, select either **[!UICONTROL uicontrol **Internal Users** or **External Users**.]**
+1. Depending on your user type, select either **[!UICONTROL **Internal Users** or **External Users**.]**
 
    &nbsp;
 
-1. From the **[!UICONTROL uicontrol **Login**]**drop-down field, select **[!UICONTROL uicontrol **Single Sign-On**.]**
+1. From the **[!UICONTROL **Login**]**drop-down field, select **[!UICONTROL **Single Sign-On**.]**
 
    ![](assets/configure-sso-step3.png)
 
-1. To configure the Single Sign-On settings, click **[!UICONTROL uicontrol **Change**.]**
+1. To configure the Single Sign-On settings, click **[!UICONTROL **Change**.]**
 
    ![](assets/configure-sso-step4.png)
 
-1. In the ****[!UICONTROL uicontrol IDP-Initiated Authentication URL]**** field, enter the authentication URL given by your service provider.
+1. In the ****[!UICONTROL IDP-Initiated Authentication URL]**** field, enter the authentication URL given by your service provider.
 
    &nbsp;
 
    ![](assets/configure-sso-step5.png)
 
-1. Click **[!UICONTROL uicontrol **Upload**]**next to the **[!UICONTROL uicontrol  **IDP Metadata XML File**]**** **field, and upload your XML file.
-1. Click **[!UICONTROL uicontrol **Save**.]**
+1. Click **[!UICONTROL **Upload**]**next to the **[!UICONTROL  **IDP Metadata XML File**]**** **field, and upload your XML file.
+1. Click **[!UICONTROL **Save**.]**
 1. The SSO authentication is successfully configured for your account. You should be able to login to your Learning Manager account using SSO.
 
    ***The SSO you configure in Learning Manager should support SAML 2.0.***
@@ -262,7 +266,7 @@ Before you plan and start your actual migration of all the content, you must set
 
 ### Set up an FTP account {#setupanftpaccount}
 
-In the Integration Admin Home page, click **[!UICONTROL uicontrol **Request for CSV FTP Folder**.]** In the pop-up dialog box that appears, enter your email ID. Go through the online wizard to create the Exavault FTP account. As soon as you create your account, you can view your migration project and sprint project folders in Exavault FTP.&nbsp;
+In the Integration Admin Home page, click **[!UICONTROL **Request for CSV FTP Folder**.]** In the pop-up dialog box that appears, enter your email ID. Go through the online wizard to create the Exavault FTP account. As soon as you create your account, you can view your migration project and sprint project folders in Exavault FTP.&nbsp;
 
 See a sample snapshot of the project files and folder of ExaVault as shown here:
 
@@ -280,9 +284,9 @@ In the Setup section, click Request for a Box folder.
 
 ![](assets/set-up-a-box-account.png)
 
-In the ****[!UICONTROL uicontrol Enter Email]**** field, enter the email ID where you would like to receive the log in instructions for connecting to Box.
+In the ****[!UICONTROL Enter Email]**** field, enter the email ID where you would like to receive the log in instructions for connecting to Box.
 
-Click **[!UICONTROL uicontrol **Connect**.]**
+Click **[!UICONTROL **Connect**.]**
 
 You would receive an email from Box with a link to the shared folder. If you do not have a box account, click SignUp and create an account. Login instructions are then sent to the Integration Admin Email ID.
 
@@ -299,21 +303,21 @@ As soon as the migration project starts, the project moves into a state of ‘Un
 
 Upload training content to Content folders:
 
-In the Integration Admin Home page, click **[!UICONTROL uicontrol Migration.]**
+In the Integration Admin Home page, click **[!UICONTROL Migration.]**
 
 In the Migration Home page, the system displays the migration projects that are already created in your organization.
 
-Click **[!UICONTROL uicontrol **New**]**in the upper-right corner of the page, to create a migration project.
+Click **[!UICONTROL **New**]**in the upper-right corner of the page, to create a migration project.
 
 ***If you have not created an FTP folder already, you will be prompted to create an FTP folder Exavault account. This is mandatory step before you start creating a migration project.&nbsp;***
 
-In the ****[!UICONTROL uicontrol Create a New Migration Project]**** page, specify the name for your project.
+In the ****[!UICONTROL Create a New Migration Project]**** page, specify the name for your project.
 
 ![](assets/migrating-the-content-1.png)
 
 Specify a tag for your project, the course catalog, and provide a description for the migration project. Your migration data items are identified using the Migration Project Tag. If you do not have any specific course catalog choose the default catalog from the drop-down, all the courses that you migrate using a migration project will be included in the catalog that you choose at this stage. If you do not choose any catalog, all the migrated courses will be part of the default catalog.
 
-Click **[!UICONTROL uicontrol Create.]**
+Click **[!UICONTROL Create.]**
 
 In the Sprint Configuration page, create a sprint for your migration project. A Sprint, in Learning Manager migration process, defines a set of migration items that you have chosen to migrate from the existing LMS.
 
@@ -321,17 +325,17 @@ In the Sprint Configuration page, create a sprint for your migration project. A 
 
 Specify a name for the sprint, and provide a description for the sprint.
 
-Select the ****[!UICONTROL uicontrol Users have been added or modified since the last run check box]****,&nbsp;to synchronize the list of users with the Learning Manager application. If you are migrating content and data into Learning Manager application, this may not be required. But, if there is a time lapse between your earlier sprint migration to the latest sprint migration, it is recommended that you choose to synchronize the list of users. This step enables the Learning Manager database to be in sync with your LMS users.
+Select the ****[!UICONTROL Users have been added or modified since the last run check box]****,&nbsp;to synchronize the list of users with the Learning Manager application. If you are migrating content and data into Learning Manager application, this may not be required. But, if there is a time lapse between your earlier sprint migration to the latest sprint migration, it is recommended that you choose to synchronize the list of users. This step enables the Learning Manager database to be in sync with your LMS users.
 
 ***The Synchronization step is recommended when enrollment.csv and user_course_grade.csv are migrated. This step enables the Learning Manager database to be in sync with your Migration database and ensures that all users whose records to be migrated in the Sprint are available in the Migration database.***
 
-Click **[!UICONTROL uicontrol **Next**.]**
+Click **[!UICONTROL **Next**.]**
 
-Click **[!UICONTROL uicontrol **Start**]**to start the Sprint migration with your uploaded data and content. Click ****[!UICONTROL uicontrol Refresh]**** before you start the Sprint Run to sync up the FTP and Content folders with Learning Manager.&nbsp;
+Click **[!UICONTROL **Start**]**to start the Sprint migration with your uploaded data and content. Click ****[!UICONTROL Refresh]**** before you start the Sprint Run to sync up the FTP and Content folders with Learning Manager.&nbsp;
 
 ![](assets/migrating-the-content-3.png)
 
-You can click ****[!UICONTROL uicontrol Stop]****at any point in time during Sprint migration process to abort the sprint migration.&nbsp;
+You can click ****[!UICONTROL Stop]****at any point in time during Sprint migration process to abort the sprint migration.&nbsp;
 
 The system displays the Migration status against each of the sprint data items and content. Check the number of success and failed items as part of migration sprint run.
 
@@ -341,13 +345,13 @@ A sample snapshot of the migration progress is provided below for your reference
 
 ![](assets/migrating-the-content-4.png)
 
-To view the list of all the sprints of a migration project, click **[!UICONTROL uicontrol **Sprint**]**in the left navigation pane. You can view a list of all the sprints, the number of Runs you executed for each sprint, the start date, duration and completion status as shown in the sample snapshot below.
+To view the list of all the sprints of a migration project, click **[!UICONTROL **Sprint**]**in the left navigation pane. You can view a list of all the sprints, the number of Runs you executed for each sprint, the start date, duration and completion status as shown in the sample snapshot below.
 
 ![](assets/migrating-the-content-5.png)
 
-To view the list of all the sprints of a migration project, click **[!UICONTROL uicontrol **Sprint**]**in the left navigation pane. You can view a list of all the sprints, the number of Runs you executed for each sprint, the start date, duration and completion status as shown in the sample snapshot below.
+To view the list of all the sprints of a migration project, click **[!UICONTROL **Sprint**]**in the left navigation pane. You can view a list of all the sprints, the number of Runs you executed for each sprint, the start date, duration and completion status as shown in the sample snapshot below.
 
-To view the list of all the sprints of a migration project, click **[!UICONTROL uicontrol **Sprint**]**in the left navigation pane. You can view a list of all the sprints, the number of Runs you executed for each sprint, the start date, duration and completion status as shown in the sample snapshot below.
+To view the list of all the sprints of a migration project, click **[!UICONTROL **Sprint**]**in the left navigation pane. You can view a list of all the sprints, the number of Runs you executed for each sprint, the start date, duration and completion status as shown in the sample snapshot below.
 
 ***Before marking the migration project as complete ensure that all the sprints in the project are complete. Once you mark the migration project as complete, you cannot go back and create any sprints in that project. You cannot make any modifications to that project. You can only create another migration project and add sprints to it.***
 

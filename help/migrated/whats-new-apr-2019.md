@@ -4,6 +4,10 @@ jcr-language: en_us
 title: New feature summary
 contentowner: kuppan
 ---
+
+
+# New feature summary {#new-feature-summary}
+
 Learn about the new features and enhancements in Adobe Learning Manager
 
 The April 2019 release of Adobe Learning Manager rolls out exciting new features and enhancements. It introduces Social Learning feature, manager dashboard, multiple attempts configuration for a learning object, importing and exporting xAPI statements, and other enhancements. Read on to know the new features and enhancements that are available in this release.

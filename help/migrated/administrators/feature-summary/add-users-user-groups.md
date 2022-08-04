@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Add users and create user groups
 contentowner: manochan
 ---
+
+
+# Add users and create user groups {#add-users-and-create-user-groups}
+
 Learn how to add users or user groups in Learning Manager application.
 
 ![](assets/user-mgmt-new.png) 
@@ -246,6 +250,10 @@ Choose a user, and from the upper-right corner, click **Actions > Assign Role** 
 
 Choose a user, and from the upper-right corner, click **Actions > Remove Role** > **Remove <role>**. The selected role gets removed from the list of roles that were assigned to the user.
 
+## Search for external users
+
+In the list of external users, search for a user by typing the name of the user in the search bar. The top five matching names will be listed and you can choose any.
+
 # Create user groups {#createusergroups}
 
 A User Group is a set of users who are related to a category. User Groups help administrators to select learners in their organization based on their attributes, and then assign learning content to them. Also, these User Groups enable administrators to assign customized logos and catalogs to learners and show customized reports on their progress.
@@ -309,7 +317,7 @@ You can add custom value for user fields for internal users.
 
 To add&nbsp; custom values, follow these steps:
 
-1. Click  **[!UICONTROL uicontrol Modify Values]** for an Internal user.&nbsp;
+1. Click  **[!UICONTROL Modify Values]** for an Internal user.&nbsp;
 
    ![](assets/modify-values.png)
 
@@ -317,10 +325,10 @@ To add&nbsp; custom values, follow these steps:
 
    ![](assets/values-in-customfields.png)
 
-1. Select the value to add from the **[!UICONTROL uicontrol Select Field]** drop-down menu.
-1. Enter new values in the **[!UICONTROL uicontrol New Value]** field.
-1. Click **[!UICONTROL uicontrol Done]**.&nbsp;
-1. Click Save on the top right corner to **[!UICONTROL uicontrol Save]** changes.
+1. Select the value to add from the **[!UICONTROL Select Field]** drop-down menu.
+1. Enter new values in the **[!UICONTROL New Value]** field.
+1. Click **[!UICONTROL Done]**.&nbsp;
+1. Click Save on the top right corner to **[!UICONTROL Save]** changes.
 
 **External users**
 
@@ -401,7 +409,7 @@ Custom fields can be added and deleted, they are applicable to all users. CSV fi
 
 ## Values for CSV fields {#valuesforcsvfields}
 
-Users can only choose from predefined fields for CSV fields if the **[!UICONTROL uicontrol Restrict Selection]** check-box is enabled.
+Users can only choose from predefined fields for CSV fields if the **[!UICONTROL Restrict Selection]** check-box is enabled.
 
 ![](assets/value-field-for-csv.png) 
 
@@ -428,11 +436,15 @@ To create a multi-valued active field, follow the steps below:
 
    ![](assets/mark-multi-valued.png)
 
+   There is another checkbox,&nbsp;**Learner Configurable, **which**&nbsp;w**hen disabled, the learner will not be able to see the field on the Profile page.
+
 1. Add the values using a CSV or by clicking **Modify Values**.
 
    ![](assets/add-values.png)
 
 1. Click **Done**.
+
+**Note:&nbsp;**Once is the user group is created and the field is populated, multi values cannot be converted to single values, and vice versa.
 
 ## Add multi-valued active field via CSV
 

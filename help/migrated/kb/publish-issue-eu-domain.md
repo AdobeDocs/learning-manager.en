@@ -5,6 +5,8 @@ contentowner: nluke
 ---
 
 
+# Unable to publish to Learning Manager EU domain {#unable-to-publish-to-learning-manager-eu-domain}
+
 # Issue
 
 Unable to publish from Adobe Captivate to Adobe Learning Manager EU domain.

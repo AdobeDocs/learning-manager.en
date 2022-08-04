@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Modules
 contentowner: shhivkum
 ---
+
+
+# Modules {#modules}
+
 Read this article to learn how to manage modules as an instructor in Learning Manager.
 
 # View session overview {#viewsessionoverview}
@@ -56,7 +60,7 @@ As an instructor, you can upload resource files such as assignment files or pres
 
 # File submission for activity modules {#filesubmissionforactivitymodules}
 
-Activity Module supports File Submission workflow. As an Author, create an activity module and select the  **[!UICONTROL uicontrol File Submission]**&nbsp;option. This allows learners to submit a file.
+Activity Module supports File Submission workflow. As an Author, create an activity module and select the  **[!UICONTROL File Submission]**&nbsp;option. This allows learners to submit a file.
 
 These files can be Approved/Rejected by the module Instructors. The module gets completed only after the Instructor approves the submission.
 

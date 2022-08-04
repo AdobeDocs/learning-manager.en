@@ -4,6 +4,8 @@ title: Integration Admin
 ---
 
 
+# Integration Admin {#integration-admin}
+
 <table> 
  <tbody>
   <tr> 

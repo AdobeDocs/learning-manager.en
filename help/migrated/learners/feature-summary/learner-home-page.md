@@ -5,6 +5,8 @@ contentowner: saghosh
 ---
 
 
+# Learner home page {#learner-home-page}
+
 # Overview {#overview}
 
 After the Administrator enables Immersive layout, the learner, after signing&nbsp;into&nbsp;the app,&nbsp;is greeted with a completely revamped User Interface.&nbsp;

@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Add learning objects in different locales
 contentowner: shhivkum
 ---
+
+
+# Add learning objects in different locales {#add-learning-objects-in-different-locales}
+
 Read this topic to know how to add courses, certifications, and learning plans in different languages.
 
 As authors, you have the ability to create learning objects such as courses, certifications, learning plans. You can also create these learning objects in different languages.

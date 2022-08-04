@@ -3,6 +3,10 @@ description: Read this article to know how to get started as an instructor in Le
 jcr-language: en_us
 title: Getting started as an instructor in Learning Manager
 ---
+
+
+# Getting started as an instructor in Learning Manager {#getting-started-as-an-instructor-in-learning-manager}
+
 Read this article to know how to get started as an instructor in Learning Manager.
 
 # Log in as an instructor {#loginasaninstructor}

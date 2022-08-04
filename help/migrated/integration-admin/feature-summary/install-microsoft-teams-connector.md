@@ -6,6 +6,8 @@ contentowner: saghosh
 ---
 
 
+# Install Microsoft Teams connector in Adobe Learning Manager {#install-microsoft-teams-connector-in-adobe-learning-manager}
+
 # Overview
 
 Microsoft® Teams® is a persistent chat-based collaboration platform that completely supports document sharing, online meetings, and other features for business communications.

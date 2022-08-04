@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Monitoring and moderating Social Learning as an admin
 contentowner: kuppan
 ---
+
+
+# Monitoring and moderating Social Learning as an admin {#monitoring-and-moderating-social-learning-as-an-admin}
+
 As an administrator, you can enable, disable, and monitor activities performed in Social Learning. Once the Social Learning feature is enabled, learners can view it and they can start participating in Social Learning.
 
 # Enable and configure settings in social learning {#enableandconfiguresettingsinsociallearning}

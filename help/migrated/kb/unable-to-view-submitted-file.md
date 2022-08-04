@@ -5,6 +5,8 @@ contentowner: nluke
 ---
 
 
+# Unable to view file submissions in Adobe Learning Manager {#unable-to-view-file-submissions-in-adobe-learning-manager}
+
 # **Issue**
 
 An instructor is unable to view the file submissions that a learner has uploaded.

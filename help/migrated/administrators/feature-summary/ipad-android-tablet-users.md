@@ -3,6 +3,10 @@ jcr-language: en_us
 title: iPad & Android tablet users
 contentowner: manochan
 ---
+
+
+# iPad & Android tablet users {#ipad-android-tablet-users}
+
 In Learning Manager app on iPad or Google Nexus 9 Android tablet, after you log in as a learner, you can see the following&nbsp;**Home&nbsp;**screen:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)

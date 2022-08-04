@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Embeddable fluidic player
 contentowner: dvenkate
 ---
+
+
+# Embeddable fluidic player {#embeddable-fluidic-player}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Read this article to learn how to embed the fluidic player in a custom application.
@@ -38,12 +42,12 @@ Building a custom application for embedding fluidic player in your website invol
 
 This step is required to create an application/client id and application/client secret which is used to retrieve refresh token and access token. For more information on creating an application, see&nbsp; [Application development process.](developer-manual.md#main-pars_header_994876235)
 
-1. Go to **[!UICONTROL uicontrol IntegrationAdmin]** app and open **[!UICONTROL uicontrol Applications]**.  
+1. Go to **[!UICONTROL IntegrationAdmin]** app and open **[!UICONTROL Applications]**.  
 
-1. Select **[!UICONTROL uicontrol Register]** from the top right corner of the page.
-1. The **[!UICONTROL uicontrol Register a new application]** window opens. Fill in the required fields.
-1. If  custom  application needs to be shared across multiple accounts, select **[!UICONTROL uicontrol No]** in the  option  field  **[!UICONTROL uicontrol For this account only?]**
-1. To save the application and generate your application id and secret, click **[!UICONTROL uicontrol Save]**.
+1. Select **[!UICONTROL Register]** from the top right corner of the page.
+1. The **[!UICONTROL Register a new application]** window opens. Fill in the required fields.
+1. If  custom  application needs to be shared across multiple accounts, select **[!UICONTROL No]** in the  option  field  **[!UICONTROL For this account only?]**
+1. To save the application and generate your application id and secret, click **[!UICONTROL Save]**.
 
 ### 2. Retrieving access token {#2retrievingaccesstoken}
 
@@ -64,12 +68,12 @@ client_id= <application_id>
 &account=<account_id>  
 &email=<email_id>`
 
-Here, **[!UICONTROL uicontrol client id]** is the application id obtained in step 1. 
-**[!UICONTROL uicontrol redirect_url]** is the redirect_url set in step 1. 
-**[!UICONTROL uicontrol state]** is any dummy data based on which we need to filter redirect URL to get OAuth code. Scope is learner scope set in Step 1. 
-**[!UICONTROL uicontrol response_typ]**e is always “CODE”.  
-**[!UICONTROL uicontrol account]**is an optional field  
-**[!UICONTROL uicontrol email]** is an optional field  
+Here, **[!UICONTROL client id]** is the application id obtained in step 1. 
+**[!UICONTROL redirect_url]** is the redirect_url set in step 1. 
+**[!UICONTROL state]** is any dummy data based on which we need to filter redirect URL to get OAuth code. Scope is learner scope set in Step 1. 
+**[!UICONTROL response_typ]**e is always “CODE”.  
+**[!UICONTROL account]**is an optional field  
+**[!UICONTROL email]** is an optional field  
 &#42; If both account id and email are provided, the above URL will allow the user to log in to the same account. This endpoint example is depicted in “index.html” file in the sample application.
 
 * Retrieve Refresh Token
@@ -142,7 +146,7 @@ https://captivateprime.adobe.com/app/player?lo_id=jobAid:1234&access_token=c1a48
 # Sample application tutorial {#sampleapplicationtutorial}
 
 The attached pdf document contains a sample application tutorial.
-`<download_section>  <download text="Sample tutorial and tutorial source to embed fluidic player." filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/fluidic-player/jcr:content/main-pars/download_section/download-1/sample_applicationtutorial.zip"></download> </download_section>` Alternative contents
+[Sample tutorial and tutorial source to embed fluidic player.](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/fluidic-player/jcr:content/main-pars/download_section/download-1/sample_applicationtutorial.zip) Alternative contents
 
 If you are an administrator, you can set up your course material in a way that you can offer alternative content to your learners within the fluidic player. For example, if you have learners across geographies who might want to use multiple languages, you can create the same content in multiple languages. The fluidic player will offer the learner the language that they might be set up for, but the learner also has the choice to switch to alternative language right from within the player.
 

@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Troubleshooting Migration issues
 contentowner: jayakarr
 ---
+
+
+# Troubleshooting Migration issues {#troubleshooting-migration-issues}
+
 This document contains basic troubleshooting tips to solve some of the typical problems that you may encounter while migrating data and content from existing LMS to Learning Manager.
 
 # Generic migration issues {#genericmigrationissues}
@@ -63,7 +67,7 @@ If you forget to select **Yes**, and proceed further in this sprint, then you ha
 ### enrollment.csv or user_course_grade.csv records fail with an error message 'Not a valid PrimeId' {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 
 Ensure that the email id provided as part of userId, assignedByUserID fields belong to valid Learning Manager users. If not, please add the user, create a new Sprint with **Sync Users** option selected. In case&nbsp; the user is not part of the organization, add the user as a deleted user in Prime by using Add users CSV specification. A sample CSV specification to add deleted users is provided below for your reference.&nbsp;
-`<download_section>  <download text="Users.csv" filereference="/content/dam/help/en/captivate-prime/kb/troubleshooting-migration/jcr:content/main-pars/download_section/download-1/Users.zip"></download> </download_section>` Refer to **CSV specifications and sample CSVs **section in [Migration manual](../integration-admin/feature-summary/migration-manual.md) to download complete set of CSV specifications and sample CSV files.&nbsp;
+[Users.csv](/content/dam/help/en/captivate-prime/kb/troubleshooting-migration/jcr:content/main-pars/download_section/download-1/Users.zip) Refer to **CSV specifications and sample CSVs **section in [Migration manual](../integration-admin/feature-summary/migration-manual.md) to download complete set of CSV specifications and sample CSV files.&nbsp;
 
 ### Courses appear blank or incorrect modules play for a migrated course {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 

@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Learning Manager compliance to GDPR
 contentowner: dvenkate
 ---
+
+
+# Learning Manager compliance to GDPR {#learning-manager-compliance-to-gdpr}
+
 **Important:&nbsp;The contents of this document are not legal advice and are not meant to substitute for legal advice. Please consult your company's legal department for advice concerning GDPR.**
 
 +++What is GDPR?

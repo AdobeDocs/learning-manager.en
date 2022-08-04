@@ -4,9 +4,13 @@ jcr-language: en_us
 title: Badges
 contentowner: manochan
 ---
+
+
+# Badges {#badges}
+
 Learn how to view and download badges using the Learning Manager Learner app.
 
-# Badges  {#badges}
+# Badges  {#Badges-1}
 
 Badges are a measure of achievement that your employee can earn upon completing a course.&nbsp;Adobe Learning Manager introduces one of the latest e-learning concepts called Badges. Professionals across the globe use these badges as a representation of particular skill or a learning achievement.
 

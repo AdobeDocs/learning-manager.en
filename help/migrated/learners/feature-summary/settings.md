@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Profile Settings
 contentowner: manochan
 ---
+
+
+# Profile Settings {#profile-settings}
+
 Read this article to know how to set learner profile settings and add a profile photo. Learn how to download the learner transcript for your profile.
 
 # Configuring profile settings {#configuringprofilesettings}

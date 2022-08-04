@@ -4,6 +4,10 @@ jcr-language: en_us
 title: New features summary
 contentowner: jayakarr
 ---
+
+
+# New features summary {#new-features-summary}
+
 Learn about the new features and enhancements in Adobe Learning Manager
 
 The August 2018 release of Adobe Learning Manager rolls out exciting new features and enhancements. It introduces configurable roles, custom fields, Zoom connector integration, learning program leaderboard, xAPI support, and other enhancements. Read on to know the new features and enhancements that are available in this release.

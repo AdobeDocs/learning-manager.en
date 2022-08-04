@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Issues with retiring a Learning Program
 contentowner: nluke
 ---
+
+
+# Issues with retiring a Learning Program {#issues-with-retiring-a-learning-program}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 # **Issue**

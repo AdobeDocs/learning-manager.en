@@ -5,16 +5,65 @@ contentowner: jayakarr
 ---
 
 
-<table> 
- <tbody>
-  <tr> 
-   <td><img src="assets/cp-prime-appicon-88x84.png"></td> 
-   <td><p><a href="http://www.adobe.com/in/products/captivateprime.html">Adobe Learning Manager</a>&nbsp;was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br> </p></td> 
-  </tr> 
- </tbody>
-</table>
+# Adobe Learning Manager | Product updates | Release notes {#adobe-learning-manager-product-updates-release-notes}
 
 # Latest update release {#latestupdaterelease}
+
+**Update 78**
+
+**Release date:** 5 August 2022
+
+## Bugs fixed in this update
+
+* If you've a course that contains a module with a preview and then use an API to retrieve the resources from the course,&nbsp; then the response will not contain any data from&nbsp;location, contentZipUrl, and contentStructureInfoUrl.
+
+**Update 77 - July 2022 release of Adobe Learning Manager**
+
+Release date:&nbsp;23 July, 2022
+
+## What's new in this release
+
+* Rebranding of Adobe Captivate Prime to Adobe Learning Manager
+* Out of the Box Integration with AEM Sites and Adobe Commerce
+* Adobe Commerce Connector
+* Training Data Access connector
+* ...and others
+
+For more information, see [**What's new in Adobe Learning Manager**](../whats-new.md).
+
+## Bugs fixed in this release
+
+* After you create a course in Adobe Connect as VC module and remove the connector, then in the created course, you cannot add a new session on the Instance page or add instructors to the existing session.
+* An incorrect error message displays when a learner removes a Job Aid and tries to access it again. We have modified the error message and made it more intuitive.
+* New courses do not honor the sequence in Salesforce app. If you alter the sequence, the course fails to display in the intended sequence.
+* Custom Admin has restricted access to the PDF that contains the list of learners.
+* In some cases, a user cannot save a dashboard report.
+* The Dashboards subscription mail for a Custom Admin does not contain a URL to download the Learner Transcripts.
+* You are unable to remove a locale from a content group, which is already a part of a course.
+* In some cases, a Learning Plan does not start as expected on a specified date.
+* A learner is unable to post an L1 feedback after completing a course, even though the L1 feedback option is enabled.
+* When you try to mark a course as complete for a learner, you are unable to do so. The state still shows itself as In Progress.
+* In certain scenarios, the Learning Time Spent report incorrectly displays the data for a month.
+* In the Email Templates page, if you change the language of the template Before deadline email, you are unable to edit the template after it loads.
+* You are unable to delete unregistered internal users in some cases.
+* A course enrollment report fails to generate when course_instance_Id is NULL.
+* The Skills Assigned and Achieved report displays incorrect data for a selected date. The report displays data from the beginning till the date selected.
+* The API privateapi/account/{accountId}/bulkApi/moduleVersion does not update the details of a module.
+* The Course Statistics report incorrectly displays the data of a deleted course.
+* In some scenarios, opening a catalog via the Learner app results in a permission-related error.
+* If you click on the Learning Manager app on Salesforce, the app starts to flicker.
+* In some scenarios, when creating a course, an author is unable to add or edit a URL for a VC.
+* Upon exiting a course, the course progress incorrectly shows 100% and completed.
+* If the name of an external user contains trailing spaces, two user groups get created.
+* In some cases, you are unable to mark a learner as certified even after the learner completes a certification.
+* In certain scenarios, the Learning Time Spent report incorrectly displays the data for a month.
+* In the Email Templates page, if you change the language of the template Before deadline email, you are unable to edit the template after it loads.
+* You are unable to delete unregistered internal users in some cases.
+* A learner can click a VC URL even though they did not complete the mandatory pre-requisites.  
+* There was an issue in migrating LinkedIn Learning courses with LinkedIn Learning tags, which resulted in the player displaying a black screen.
+* In case there is an activity module sub type and later if you try to change to another sub type, it was causing an issue with the module.  
+* When a user group is added to a session, calendar invites do not go out to users who are instructors.  
+* A Training Report incorrectly calculates the duration of all the versions of a module instead of the latest module.
 
 **Update 76**
 
@@ -1754,11 +1803,11 @@ Release date: June 30, 2017
 
 **Multiple learning objects support in learning plan**
 
-As an administrator or author, you can now assign multiple learning objects to a Learning Plan. If any of the learning object's instance retires or expires, the whole learning plan gets disabled automatically. With this enhancement, you can also search **[!UICONTROL uicontrol Completed Learning]** and **[!UICONTROL uicontrol Assign Learning]** fields using learning objects unique IDs.
+As an administrator or author, you can now assign multiple learning objects to a Learning Plan. If any of the learning object's instance retires or expires, the whole learning plan gets disabled automatically. With this enhancement, you can also search **[!UICONTROL Completed Learning]** and **[!UICONTROL Assign Learning]** fields using learning objects unique IDs.
 
 **Accessibility**
 
-With this update Learning Manager Learner Experience now supports section 508 Standard of accessibility. Learning Manager is also compatible with the latest version of **[!UICONTROL uicontrol JAWS]**. This feature is only supported for the Learner application. Use Internet Explorer 11, Windows Chrome, or macOS Safari to access this feature.
+With this update Learning Manager Learner Experience now supports section 508 Standard of accessibility. Learning Manager is also compatible with the latest version of **[!UICONTROL JAWS]**. This feature is only supported for the Learner application. Use Internet Explorer 11, Windows Chrome, or macOS Safari to access this feature.
 
 ## Issues Fixed {#IssuesFixed-5}
 
@@ -1822,7 +1871,7 @@ To know how to create and manage peer accounts, see&nbsp; [Peer accounts](../adm
 
 **Course equivalency offerings**
 
-Use **[!UICONTROL uicontrol Add New Language]** option when you add a module or a course to make it available in  multiple&nbsp;&nbsp;language  and format.
+Use **[!UICONTROL Add New Language]** option when you add a module or a course to make it available in  multiple&nbsp;&nbsp;language  and format.
 
 **Learner Transcript**
 

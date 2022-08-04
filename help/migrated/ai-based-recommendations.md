@@ -5,6 +5,8 @@ contentowner: saghosh
 ---
 
 
+# AI-based recommendation  {#ai-based-recommendation}
+
 # Overview {#overview}
 
 Learning Manager includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner’s preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.

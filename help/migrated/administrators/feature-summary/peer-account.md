@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Peer accounts
 contentowner: shhivkum
 ---
+
+
+# Peer accounts {#peer-accounts}
+
 Read this article to know how to create and manage peer accounts in Learning Manager.
 
 Learning Manager offers the ability to share purchased seats using the Peer account feature. With peer accounts in Learning Manager, an administrator can share the purchased seats with the peer accounts that the administrator is associated with. In addition, the administrator who has initiated the sharing of seats can view the reports of the peer accounts.

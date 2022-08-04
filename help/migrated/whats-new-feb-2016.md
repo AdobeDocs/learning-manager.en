@@ -4,6 +4,10 @@ title: What's New in Adobe Learning Manager Feb 2016 release
 contentowner: jayakarr
 preview: true
 ---
+
+
+# What's New in Adobe Learning Manager Feb 2016 release {#whats-new-in-adobe-learning-manager-feb-release}
+
 Adobe Learning Manager has launched a new release on February 28, 2016. We have&nbsp;introduced new features and made significant enhancements to the existing features. Read on to know the features.
 
 # New features {#newfeatures}

@@ -5,7 +5,9 @@ contentowner: manochan
 ---
 
 
-# Settings  {#settings}
+# Settings {#settings}
+
+# Settings  {#Settings-1}
 
 View your profile information, add/change profile photo, and modify&nbsp;**About me&nbsp;**content.
 

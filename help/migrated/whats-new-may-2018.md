@@ -3,6 +3,10 @@ description: Learn about the new features and enhancements in Adobe Learning Man
 jcr-language: en_us
 title: New features summary
 ---
+
+
+# New features summary {#new-features-summary}
+
 Learn about the new features and enhancements in Adobe Learning Manager
 
 The May 2018 release of Adobe Learning Manager rolls out exciting new features and enhancements. It brings to you the capacity to purge users, manage tags, rename Learning Objects,&nbsp;Slack integration, and much more. Read on to know the new features and enhancements that are available in this release.

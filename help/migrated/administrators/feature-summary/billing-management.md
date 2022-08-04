@@ -4,11 +4,15 @@ jcr-language: en_us
 title: Manage Learning Manager orders and billing
 contentowner: manochan
 ---
+
+
+# Manage Learning Manager orders and billing {#manage-learning-manager-orders-and-billing}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Credit card-based purchase is only available in the [US region](http://captivateprime.adobe.com/).
 
-**The prices of Adobe Learning Manager subscriptions will increase starting&nbsp; <Date>**
+**The prices of Adobe Learning Manager subscriptions will increase.**
 
 **The price of a new subscription order will be $9 per month per learner. All new subscriptions will be $9.**
 

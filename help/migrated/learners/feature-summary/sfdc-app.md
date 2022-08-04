@@ -5,6 +5,8 @@ contentowner: jayakarr
 ---
 
 
+# Learning Manager app for Salesforce {#learning-manager-app-for-salesforce}
+
 # Overview {#overview}
 
 Salesforce™ is the most popular CRM solution among sales and marketing teams. Using Adobe Learning Manager app in Salesforce, learners can access all of their learning content from within their Salesforce interface. Learners can access their assigned learning content such as courses, learning programs, and job aids from within the Salesforce. Users can also receive notifications about their enrollments and announcements from the Administrator.

@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Notifications
 contentowner: manochan
 ---
+
+
+# Notifications {#notifications}
+
 Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 
 # Access notifications  {#accessnotifications}
@@ -35,11 +39,11 @@ Click&nbsp;**Show all notifications**&nbsp;link at the bottom of the notificatio
 Escalation emails when learners miss deadlines can be sent to the manager and a skip manager. You can set up multi-level escalation notifications for the non-completion of the course during the process of creating a course, or even after it has been created. Escalation notifications can be set up to be sent at a set frequency to be sent to a manager or a skip manager.
 
 1. Log in as Administrator or Author and click on Courses.
-1. Select the Course for which you want to modify the escalation notifications and click on **[!UICONTROL uicontrol View Course.]**
+1. Select the Course for which you want to modify the escalation notifications and click on **[!UICONTROL View Course.]**
 
    ![](assets/view-courses.png)
 
-1. Click on **[!UICONTROL uicontrol Instances > Notification Alerts]**.
+1. Click on **[!UICONTROL Instances > Notification Alerts]**.
 
    ![](assets/notification-alert.png)
 

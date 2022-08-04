@@ -5,6 +5,8 @@ contentowner: nluke
 ---
 
 
+# Default allocation of instructor roles to user groups in Learning Manager  {#default-allocation-of-instructor-roles-to-user-groups-in-learning-manager}
+
 # Issue
 
 All users who are allocated to a session are assigned the role of an instructor.

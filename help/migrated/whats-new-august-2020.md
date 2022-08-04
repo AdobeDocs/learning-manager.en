@@ -4,6 +4,10 @@ jcr-language: en_us
 title: New features summary
 contentowner: jayakarr
 ---
+
+
+# New features summary {#new-features-summary}
+
 Learn about the new features and enhancements in Adobe Learning Manager
 
 The **August 2020** **release of Adobe Learning Manager**&nbsp;focuses on enhancing Administrator’s reporting capabilities by offering pre-configured reports that cover important aspects of the platform.

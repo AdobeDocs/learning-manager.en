@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Instructors
 contentowner: shhivkum
 ---
+
+
+# Instructors {#instructors}
+
 Click the links in this topic to learn about Instructors in Learning Manager
 
 <table> 

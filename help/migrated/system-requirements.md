@@ -5,6 +5,8 @@ contentowner: dvenkate
 ---
 
 
+# System requirements | Adobe Learning Manager {#system-requirements-adobe-learning-manager}
+
 # Windows {#windows}
 
 &nbsp;Microsoft&nbsp;Windows 7, 8, 10 (64-bit versions only).
@@ -288,4 +290,4 @@ Ensure that the following third-party domains are whitelisted if you are on any 
 
 # Technical overview {#technicaloverview}
 
-`<download_section>  <download text="Learning Manager technical overview" filereference="/content/dam/help/en/captivate-prime/system-requirements/jcr_content/main-pars/download_section/download-1/captivate_prime_technicaloverview.pdf"></download> </download_section>`  
+[Learning Manager technical overview](/content/dam/help/en/captivate-prime/system-requirements/jcr_content/main-pars/download_section/download-1/captivate_prime_technicaloverview.pdf)  

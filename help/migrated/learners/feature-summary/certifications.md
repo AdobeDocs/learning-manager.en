@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Certifications
 contentowner: manochan
 ---
+
+
+# Certifications {#certifications}
+
 Learn how to take up certifications using the Learning Manager Learners app.
 
 Certify your learners on a one time basis or on a recurring time frame using this feature. Only administrators can define the certifications for learners.

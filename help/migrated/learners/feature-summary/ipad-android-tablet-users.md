@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Learner App for mobiles and tablets
 contentowner: manochan
 ---
+
+
+# Learner App for mobiles and tablets {#learner-app-for-mobiles-and-tablets}
+
 Read this article to know how to download Learning Manager Learner app for smartphones and tablets. Learn how to consume courses using your mobile or tablet.
 
 # Overview {#overview}

@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Unable to view certain course under catalog while creating a Learning Program
 contentowner: saghosh
 ---
+
+
+# Unable to view certain course under catalog while creating a Learning Program {#unable-to-view-certain-course-under-catalog-while-creating-a-learning-program}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 # Issue

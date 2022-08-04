@@ -4,6 +4,10 @@ title: Known issues in Learning Manager
 contentowner: saghosh
 preview: {Boolean}true
 ---
+
+
+# Known issues in Learning Manager {#known-issues-in-learning-manager}
+
 The following are a compilation of known issues for each update of Learning Manager. The list is cumulative and contains known issues of previous updates.
 
 <table> 

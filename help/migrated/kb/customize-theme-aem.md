@@ -5,6 +5,8 @@ contentowner: saghosh
 ---
 
 
+# Customize theme for AEM components {#customize-theme-for-aem-components}
+
 # Theme customizations
 
 Use the JSON below to customize the catalog widget.

@@ -4,7 +4,9 @@ jcr-language: en_us
 title: Creating, modify, and publish courses
 contentowner: manochan
 ---
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+
+
+# Creating, modify, and publish courses {#creating-modify-and-publish-courses}
 
 To learn how to create courses, certifications, and learning programs in Learning Manager, read this article.
 
@@ -56,6 +58,10 @@ To create a course, follow the steps below:
    * **Manager nominated:**&nbsp;Only managers can nominate these courses. A learner cannot enroll to these types of courses.
    * **Manager approved:**&nbsp;Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager’s approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
    * **Self-enrolled:**&nbsp;Learners can directly enroll themselves to these types of courses.
+
+1. Choose if you want to set a price for your course or make it free. If you want to make the course paid, choose the option **Paid**, and specify a price. The price then appears on the Course card and the Coure overview page for a learner.
+
+   **NOTE:** This is only enabled when Adobe Commerce connector is configured.
 
 1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box&nbsp;**Learners can unenroll themselves**.
 1. Select the pre-requisite courses that must be completed before taking up your course. Click the Courses field and choose from the list of courses.
@@ -110,7 +116,7 @@ The default styling may not meet everyone's needs. The customisations can be don
 * background: **ql-bg-$color**. $color = black, red, orange, yellow, green, blue, purple
 * html tags: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
-`<download_section>  <download text="CSS file to be used for customization." filereference="/content/dam/help/en/captivate-prime/authors/feature-summary/courses/jcr_content/root/content/flex/items/position/position-par/download_section/download-1/ql-headless.css"></download> </download_section>` 
+[CSS file to be used for customization.](/content/dam/help/en/captivate-prime/authors/feature-summary/courses/jcr_content/root/content/flex/items/position/position-par/download_section/download-1/ql-headless.css) 
 
 ### **API CHANGES TO ENABLE RENDERING RICH TEXT OVERVIEWS**
 
@@ -223,6 +229,22 @@ To add a content module, perform the steps below:
 
    You can specify the duration&nbsp;while adding an activity module in a course for activity type File Submission and&nbsp;xAPI-based modules.&nbsp;
 
+1. After you've added a module, you can mark the module as previewable by a learner. Enable the checkbox, **Learner Preview**. When a learner visits the course, they can preview the course.
+
+   An Author, while creating a course, can mark a course as free or paid.
+
+   The data about the courses are copied to Adobe Commerce. The data is synced on demand.
+
+   Unless the data is synced, a learner cannot buy a course. The **Buy Now** or **Add to Cart **button is disabled.
+
+   ### UNSUPPORTED FEATURES
+
+   * Recurred Certifications.
+   * A manager approved/nominated courses.
+   * LinkedIn Content Marketplace courses.
+   * Harvard Manage Mentor courses are not available for purchase.
+   * Acquired courses are not available for purchase.
+
 1. Similarly, add modules for Prework and Testout modes.
 1. Choose the sequencing type for modules as Ordered or Unordered based on your preference.
 
@@ -288,6 +310,8 @@ On this page, enter the following details:
 1. Choose the course skills, level, and set the credits for the skill. Add more skills, if required.
 
    ![](assets/course-skills.png)
+
+   When adding a course skill,&nbsp;you can set maximum credits for a particular skills level in a course. You can either use the new checkbox to select maximum credits for a specific skill level, or manually enter the credits.
 
 1. Choose the type of enrollment. The following are the options:
 

@@ -5,6 +5,8 @@ contentowner: nluke
 ---
 
 
+# User gets auto deleted in Learning Manager {#user-gets-auto-deleted-in-learning-manager}
+
 # Issue
 
 A user gets deleted from Learning Manager, however, the Administrator never performed any such action.

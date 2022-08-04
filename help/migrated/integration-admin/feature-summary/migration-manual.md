@@ -3,6 +3,10 @@ description: Reference manual for Integration Administrators who want to migrate
 jcr-language: en_us
 title: Migration manual
 ---
+
+
+# Migration manual {#migration-manual}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
@@ -147,7 +151,7 @@ Find below, the standard CSV specifications that you can use to map with your ex
    <td><p>3</p> </td> 
    <td><p>course.xlsx</p> </td> 
    <td><p>Metadata for course.csv</p> </td> 
-   <td><p>Mention one author name for a given course as sometimes multiple author names are not displayed accurately in the application after migration.&nbsp;</p> </td> 
+   <td><p>Mention one author name for a given course as sometimes multiple author names are not displayed accurately in the application after migration. The courseCreationDate field is removed.</p> </td> 
   </tr> 
   <tr> 
    <td><p>4</p> </td> 
@@ -195,7 +199,7 @@ Find below, the standard CSV specifications that you can use to map with your ex
    <td><p>11</p> </td> 
    <td><p>certification.xlsx</p> </td> 
    <td><p>Metadata for&nbsp;Certification.csv</p> </td> 
-   <td>&nbsp;</td> 
+   <td>The&nbsp;certificationCreationDate field is now removed.<br> </td> 
   </tr> 
   <tr> 
    <td><p>12</p> </td> 
@@ -213,7 +217,7 @@ Find below, the standard CSV specifications that you can use to map with your ex
    <td><p>14</p> </td> 
    <td><p>learning_program.xlsx</p> </td> 
    <td><p>Metadata for&nbsp;learning_program.csv</p> </td> 
-   <td>&nbsp;</td> 
+   <td>The&nbsp;dateAdded field is removed.<br> </td> 
   </tr> 
   <tr> 
    <td><p>15</p> </td> 
@@ -291,7 +295,7 @@ Find below, the standard CSV specifications that you can use to map with your ex
 </table>
 
 Learning Manager supports date and time values in UTF 8 and 32 bit format only. You may get errors during migration if you mention date in CSV files with an out of range date as 2038-07-17T08:53:21.000Z or 1980-04-17T08:13:25.322Z.&nbsp;
-`<download_section>` `<download_section>  <download text="" filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/migration-manual/jcr_content/main-pars/download_section_654561273/download-1/sample-csvs.zip"></download>  <download text="" filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/migration-manual/jcr_content/main-pars/download_section_654561273/download-2/csv_specifications.zip"></download> </download_section>` You need to be aware of the following dependencies on CSV files during import:
+[sample-csvs.zip](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/migration-manual/jcr_content/main-pars/download_section_654561273/download-1/sample-csvs.zip) [CSV-Spec.zip](/content/dam/help/en/learning-manager/integration-admin/feature-summary/migration-manual/jcr_content/root/content/flex/items/position/position-par/download_section_654561273/download-2/CSV-Spec.zip) You need to be aware of the following dependencies on CSV files during import:
 
 * module_version.csv is dependent on module.csv
 * course_instance.csv is dependent on course.csv
@@ -429,7 +433,7 @@ Find below, the standard CSV specifications that you can use to map with your ex
 3-learning_program_enrollment.xlsx-contains descriptions of metadata required for retrofit_learning_program_enrollment.csv file.
 
 4-user_course_grades.xlsx-contains descriptions of metadata required for retrofit_user_course_grades.csv file.
-`<download_section>  <download text="csv-specifications.zip" filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/migration-manual/jcr_content/main-pars/download_section/download-1/csv_specifications.zip"></download> </download_section>` 
+[csv-specifications.zip](/content/dam/help/en/learning-manager/integration-admin/feature-summary/migration-manual/jcr_content/root/content/flex/items/position/position-par/download_section/download-1/CSV-Spec.zip) 
 
 # Troubleshooting migration issues {#troubleshootingmigrationissues}
 

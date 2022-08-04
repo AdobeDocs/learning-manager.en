@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Getting started for Managers
 contentowner: manochan
 ---
+
+
+# Getting started for Managers {#getting-started-for-managers}
+
 Getting started as a Manager in Learning Manager.
 
 The getting started page aids you to traverse through the key features of the application.

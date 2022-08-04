@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Create course modules, instances, and learning programs
 contentowner: manochan
 ---
+
+
+# Create course modules, instances, and learning programs {#create-course-modules-instances-and-learning-programs}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 This document consists of Help to create course modules, instances and courses for Administrator role.
@@ -387,7 +391,7 @@ Select the user groups and individual learners (using email id or name) that you
 
 +++Email ID
 
-Copy-paste Email IDs of Learners you want to enroll, separated by semi-colons, commas or line spacing. Use the **[!UICONTROL uicontrol Validate Email Ids]** option to validate the entries. All invalid entries would appear marked in red. Remove or correct those entries and proceed by clicking on **[!UICONTROL uicontrol Proceed.]**
+Copy-paste Email IDs of Learners you want to enroll, separated by semi-colons, commas or line spacing. Use the **[!UICONTROL Validate Email Ids]** option to validate the entries. All invalid entries would appear marked in red. Remove or correct those entries and proceed by clicking on **[!UICONTROL Proceed.]**
 
 ![](assets/email-id-option.png)
 

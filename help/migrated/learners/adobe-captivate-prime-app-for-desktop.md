@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager desktop application
 contentowner: kuppan
 ---
+
+
+# Adobe Learning Manager desktop application {#adobe-learning-manager-desktop-application}
+
 Learn how to use Adobe Learning Manager's desktop application to create and enrich content that can be shared on Social Learning.
 
 The Adobe Learning Manager desktop application is primarily meant for learners who use Learning Manager Social Learning. Once installed on a desktop, the application enables learners to create content and post them to boards in Learning Manager to facilitate informal, collaborative, and social learnings among peers. In addition, the desktop application also ensures that learners get Social Learning notifications on their desktop, even if they are not necessarily logged into Learning Manager's web application.&nbsp;

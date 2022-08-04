@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Manager dashboard
 contentowner: kuppan
 ---
+
+
+# Manager dashboard {#manager-dashboard}
+
 Learn how to view and track learnings from the manager dashboard.
 
 Managers play an important role in a team’s learning initiatives. To guide them better, the learning platform provides the manager with a dashboard view to track the learnings in his team.
@@ -195,5 +199,33 @@ On selecting the values for a team under the enrollment, achieved, and in progre
 
 * Click **Actions **> **Export** to export the data as an excel file.&nbsp;
 
-![](assets/export-report.png)
+![](assets/export-report.png) 
 
+# Multi-Manager Support in Manager App and Manager Dashboard
+
+## Multiple Manager
+
+A user may have multiple managers apart from their hierarchy manager. These managers have the same capabilities as a regular manager. If a manager is both a hierarchy manager and a store manager, both of them are listed in the dropdown. On choosing a store, managers will have the scope restricted to that store users only.
+
+To set up a manager for a store or organization, use a CSV with the additional columns:
+
+* Active field.
+* Active field appended with "managed by user". Users can be assigned as store/organization managers using this field.
+
+## Dashboard
+
+Multi-manager reports are available as the following dashboards:
+
+* **Dashboard - Learning Summary: **Enrollments, Views and Completion counts will be shown for that store users only
+* **Dashboard - Compliance Dashboard: **Graph should show the count and the percentages for the lo added based on users belonging to that store only. ‘Reset To Default Learnings’ option will not be available for store managers.
+* **Dashboard – Skill Status: **A**&nbsp;**graph would show the “In Progress” and “Achieved” percentages considering the progress of users of only that store for that skill. ‘Reset to Top Skills’ will not be seen for store managers.
+
+## Reports
+
+Reports include the multi-valued active fields and the values are comma separated. The store managers can download the Learning summary reports.
+
+### Dashboard reports
+
+A dashboard report created for one store/organization will be common for all the stores/organizations. When you switch to another manager, the reports for other stores are also displayed.
+
+If a store has multiple managers, the report created by one store manager cannot be viewed by other store managers. Every manager will have their own set of reports.

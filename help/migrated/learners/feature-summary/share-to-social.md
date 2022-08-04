@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Share to Social Learning
 contentowner: kuppan
 ---
+
+
+# Share to Social Learning {#share-to-social-learning}
+
 Learn how to use Social bookmark-let to instantly share a user's online learnings onto the social web.
 
 Share to social learning is a bookmarklet that allows learners to share their online learnings like web pages and blogs with their peers. This feature is supported only on desktop browsers.

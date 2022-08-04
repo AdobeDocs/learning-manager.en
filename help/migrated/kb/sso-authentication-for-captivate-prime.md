@@ -4,24 +4,28 @@ jcr-language: en_us
 title: Log in to Learning Manager using SSO authentication
 contentowner: dvenkate
 ---
+
+
+# Log in to Learning Manager using SSO authentication {#log-in-to-learning-manager-using-sso-authentication}
+
 This document helps you configure SSO authentication to log in to your Learning Manager account.
 
 To configure SSO authentication, perform the following steps:
 
-1. Open **[!UICONTROL uicontrol Settings]** > **[!UICONTROL uicontrol Login Methods.]**
+1. Open **[!UICONTROL Settings]** > **[!UICONTROL Login Methods.]**
 
    ![](assets/login-methods.png)
 
-1. Choose **[!UICONTROL uicontrol Internal Users]** or **[!UICONTROL uicontrol External Users]** depending on your requirement.
-1. Click the drop-down next to  **[!UICONTROL uicontrol login]** option and select **[!UICONTROL uicontrol Single Sign-On]**.
+1. Choose **[!UICONTROL Internal Users]** or **[!UICONTROL External Users]** depending on your requirement.
+1. Click the drop-down next to  **[!UICONTROL login]** option and select **[!UICONTROL Single Sign-On]**.
 
    ![](assets/single-sign-on.png)
 
-1. To adjust Single Sign-On (SSO) Settings, click  **[!UICONTROL uicontrol Change.]**
+1. To adjust Single Sign-On (SSO) Settings, click  **[!UICONTROL Change.]**
 
    ![](assets/change.png)
 
-1. Enter  **[!UICONTROL uicontrol IDP-initiated Authentication URL]** given by your service provider and upload your XML file by clicking **[!UICONTROL uicontrol IDP Metadata XML File.]**
+1. Enter  **[!UICONTROL IDP-initiated Authentication URL]** given by your service provider and upload your XML file by clicking **[!UICONTROL IDP Metadata XML File.]**
 
    ![](assets/sso-configuration.png)
 

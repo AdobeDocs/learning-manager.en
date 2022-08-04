@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Support for custom domain
 contentowner: saghosh
 ---
+
+
+# Support for custom domain {#support-for-custom-domain}
+
 Custom Domains are not supported in an Azure instance of Learning Manager.
 
 # Overview {#overview}

@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Frequently Asked Questions for Learners
 contentowner: admin
 ---
+
+
+# Frequently Asked Questions for Learners {#frequently-asked-questions-for-learners}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 +++How do I enroll for a course offering?

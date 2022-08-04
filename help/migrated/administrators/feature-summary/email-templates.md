@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Email templates
 contentowner: manochan
 ---
+
+
+# Email templates {#email-templates}
+
 The events in your training activity trigger emails that are sent to learners. You as an administrator can easily enable, disable, or modify these email templates.
 
 Learning Manager application sends email notifications to multiple roles of users based on events.

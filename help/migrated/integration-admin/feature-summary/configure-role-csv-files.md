@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Manage custom roles via CSV files
 contentowner: saghosh
 ---
+
+
+# Manage custom roles via CSV files {#manage-custom-roles-via-csv-files}
+
 The Integration admin can add number of custom roles to his/her account in bulk via CSV as well as can assign the same to various users. This approach automates the process of creation of custom roles.
 
 You can configure roles via the Learning Manager FTP and Box connectors.
@@ -15,7 +19,7 @@ After you sign in to your Box or ExaVault storage account, the Integration admin
 To get started, download the csvs and change the values according to your requirements.
 
 **role.csv**
-`<download_section>  <download text="Sample file- role.csv" filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/configure-role-csv-files/jcr_content/main-pars/download_section/download-1/role.csv"></download>  <download text="Sample file- user_role.csv" filereference="/content/dam/help/en/captivate-prime/integration-admin/feature-summary/configure-role-csv-files/jcr_content/main-pars/download_section/download-2/user_role.csv"></download> </download_section>` 
+[Sample file- role.csv](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/configure-role-csv-files/jcr_content/main-pars/download_section/download-1/role.csv) [Sample file- user_role.csv](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/configure-role-csv-files/jcr_content/main-pars/download_section/download-2/user_role.csv) 
 
 <table> 
  <tbody>

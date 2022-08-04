@@ -5,6 +5,8 @@ contentowner: nluke
 ---
 
 
+# Email links triggered from modified templates throw an error in Learning Manager {#email-links-triggered-from-modified-templates-throw-an-error-in-learning-manager}
+
 # **Issue**
 
 An error occurs after clicking a link for an automated email/welcome email/enrollment mail.

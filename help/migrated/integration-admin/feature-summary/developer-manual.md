@@ -3,6 +3,10 @@ jcr-language: en_us
 title: Application developer manual
 contentowner: jayakarr
 ---
+
+
+# Application developer manual {#application-developer-manual}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Learning Manager.
@@ -58,7 +62,7 @@ client_id:
 
 URL to obtain access token:&nbsp;
 
-POST [https://captivateprime.adobe.com/oauth/token/refresh](https://captivateprime.adobe.com/oauth/token/refresh) Content-Type: application/x-www-form-urlencoded
+POST [https://learningmanager.adobe.com/oauth/token/refresh](https://captivateprime.adobe.com/oauth/token/refresh) Content-Type: application/x-www-form-urlencoded
 
 Body of the post request:
 
@@ -76,7 +80,7 @@ client_id:
 
 **URL to verify access token details**
 
-GET&nbsp;https://captivateprime.adobe.com/oauth/token/check?access_token=<access_token>
+GET&nbsp;https://learningmanager.adobe.com/oauth/token/check?access_token=<access_token>
 
 **Usage limitation**
 

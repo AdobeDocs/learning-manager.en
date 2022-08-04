@@ -5,6 +5,8 @@ contentowner: admin
 ---
 
 
+# Frequently Asked Questions for Managers {#frequently-asked-questions-for-managers}
+
 +++How can a Manager access courses?
 
 In Manager log in mode, you would not be able to access courses. You need to switch your log in to learner mode in order to take up courses.

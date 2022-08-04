@@ -5,6 +5,8 @@ contentowner: kuppan
 ---
 
 
+# System requirements | Adobe Learning Manager desktop application {#system-requirements-adobe-learning-manager-desktop-application}
+
 # System requirements and language versions {#systemrequirementsandlanguageversions}
 
 ## Windows {#windows}

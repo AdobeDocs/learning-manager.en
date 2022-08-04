@@ -2,6 +2,10 @@
 jcr-language: en_us
 title: Job Aids
 ---
+
+
+# Job Aids {#job-aids}
+
 Job Aids is&nbsp;a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
 
 Job Aids can be consumed independently or along with course consumption in Learning Manager.

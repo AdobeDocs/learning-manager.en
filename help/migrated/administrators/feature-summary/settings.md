@@ -4,7 +4,9 @@ jcr-language: en_us
 title: Settings
 contentowner: manochan
 ---
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+
+
+# Settings {#settings}
 
 Learn about the Learning Manager account settings that you can configure as an administrator.
 
@@ -376,6 +378,14 @@ Enable or disable the following settings:
    <td><p>Instructor Management<br> </p> </td> 
    <td><p>Enable this setting to restrict the list of instructors which can be selected while creating classroom/virtual classroom sessions. All users having the instructor privileged can only be assigned as an instructor to any session. This restriction does not apply to migration workflows.<br> </p> </td> 
   </tr> 
+  <tr> 
+   <td><p>Enable Price at trainings</p> </td> 
+   <td><p>If enabled, an author can specify a price for a course. The learner can then see the price on their course card and choose to buy the course.&nbsp;When you add an Adobe Commerce connection, this checkbox is automatically selected and enforced.<br> </p> </td> 
+  </tr> 
+  <tr> 
+   <td><p>Module Preview<br> </p> </td> 
+   <td><p>If enabled, an Administrator or Author will be able to select the modules that are available for learners to preview without enrollment.<br> </p> </td> 
+  </tr> 
  </tbody>
 </table>
 
@@ -424,15 +434,15 @@ Activity
 
 To rename the terminologies, follow these steps.
 
-1. As an Administrator, click **[!UICONTROL uicontrol Settings]** > **[!UICONTROL uicontrol General]** > **[!UICONTROL uicontrol Product Terminology]**.&nbsp;The product terminology option opens.&nbsp;
+1. As an Administrator, click **[!UICONTROL Settings]** > **[!UICONTROL General]** > **[!UICONTROL Product Terminology]**.&nbsp;The product terminology option opens.&nbsp;
 
    ![](assets/product-terminology.png)
 
-1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL uicontrol Download here]**option.
+1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL Download here]**option.
 1. The downloaded CSV file contains the name of the objects in  coloum &nbsp;A. In  coloumn &nbsp;B, choose the name you want to assign to the respective object. Note that you need to update the singular and plural form of the name separated by a (|).
 1. You can choose to modify&nbsp;one or more rows. You can either retain the non-modified rows or remove them from the CSV file before uploading them.
-1. Upload the modified CSV file and click **[!UICONTROL uicontrol Save]**. Learning Manager refreshes reflecting your changes.
-1. To reset to default terminologies, click **[!UICONTROL uicontrol Reset Product Terminology.]**
+1. Upload the modified CSV file and click **[!UICONTROL Save]**. Learning Manager refreshes reflecting your changes.
+1. To reset to default terminologies, click **[!UICONTROL Reset Product Terminology.]**
 
    ![](assets/with-reset-option.png)
 

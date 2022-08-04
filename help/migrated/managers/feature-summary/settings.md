@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Settings
 contentowner: manochan
 ---
+
+
+# Settings {#settings}
+
 Account settings for Managers in Learning Manager.
 
 View your profile information, add/change profile photo, and modify&nbsp;**About me**&nbsp;content.

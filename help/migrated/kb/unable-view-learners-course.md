@@ -5,6 +5,8 @@ contentowner: saghosh
 ---
 
 
+# Unable to view learners in a course {#unable-to-view-learners-in-a-course}
+
 # Issue
 
 You are unable to view learners enrolled in a course.

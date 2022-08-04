@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Courses
 contentowner: manochan
 ---
+
+
+# Courses {#courses}
+
 `Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
 
 Read this article to know how to view and consume courses in Learning Manager. Participate in discussions and provide feedback.
@@ -219,7 +223,7 @@ To change course instance, follow these steps:
 
    ![](assets/instance-drop-down.png)
 
-1. To apply the selected instance, click **[!UICONTROL uicontrol Update Enrollment]**. Update Enrollment option is available on the right-top of the page.
+1. To apply the selected instance, click **[!UICONTROL Update Enrollment]**. Update Enrollment option is available on the right-top of the page.
 
    The newly selected instance is enrolled.&nbsp;If a learner is enrolled to a course instance which is a part of another LO, and he updates the course instance which is a part of the flexible Learning Program, he will automatically be unenrolled from the other&nbsp;Learning Objects after a warning.
 

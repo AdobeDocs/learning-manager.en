@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Color themes
 contentowner: jayakarr
 ---
+
+
+# Color themes {#color-themes}
+
 Color themes and Branding in Learning Manager
 
 Learning Manager enables you to change the appearance of the application to match your organization's branding requirements.&nbsp;

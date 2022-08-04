@@ -4,6 +4,10 @@ jcr-language: en_us
 title: Social Learning in Learning Manager
 contentowner: kuppan
 ---
+
+
+# Social Learning in Learning Manager {#social-learning-in-learning-manager}
+
 Learn how to use Social Learning web as a learner
 
 Social learning is a platform in Learning Manager which engages users to share ideas and meaningful insights in an informal environment. It is a methodology which supplements the idea of traditional learning. Completing an online course does not give an advantage to users to interact with their peers at a social level.
