@@ -19,9 +19,8 @@ Install ALM reference site package
 
 ### Pre-requisites
 
-* Licenses for AEM Sites and Adobe Commerce.
-
-* AEM on-premise 6.5 or AEM Skyline
+* Licenses for AEM Sites and Adobe Commerce
+* AEM on-premise 6.5 or Adobe Experience Manager – Cloud Service
 * Adobe Commerce 2.4.3
 
 After you secure your environment of AEM Sites, you must install the ALM reference site package. This package includes AEM web pages and website components that help construct the learning platform.
@@ -183,7 +182,7 @@ Apart from the templates that you can use that are provided by the reference sit
 
 # Create site from Blueprint
 
-The ALM reference site package provides a “Learning Site Blueprint,” which enables you to create a website for your learning platform. AEM blueprints allow you to build webpages directly from AEM Sites components. You need not use any templates.&nbsp;
+The ALM reference site package provides a "Learning Site Blueprint," which enables you to create a website for your learning platform. AEM blueprints allow you to build webpages directly from AEM Sites components. You need not use any templates.&nbsp;
 
 1. On the AEM start page, click **Sites**.  
 
