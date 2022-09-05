@@ -41,12 +41,12 @@ Follow the steps below:
 1. To create a new application, on the upper-right corner of the page, click **Register**.
 1. In the Register a new application screen, enter the following details:
 
-   1. Application Name: The name of the application that you are creating.
-   1. URL: The URL of your organization.
-   1. Redirect Domains: The hosting domains of the AEM website. You can also specify wildcards.
-   1. Description: The description of the application.
-   1. Scopes: Select Learner role read access and Learner role write access.
-   1. For this account only?: Select Yes if you want to use the application for the existing ALM account.
+   * Application Name: The name of the application that you are creating.
+   * URL: The URL of your organization.
+   * Redirect Domains: The hosting domains of the AEM website. You can also specify wildcards.
+   * Description: The description of the application.
+   * Scopes: Select Learner role read access and Learner role write access.
+   * For this account only?: Select Yes if you want to use the application for the existing ALM account.
 
 1. After making the changes, click Save.
 
