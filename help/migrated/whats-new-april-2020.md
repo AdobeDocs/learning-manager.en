@@ -85,7 +85,21 @@ The **stats** API helps you to fetch summary information for a specified LO Inst
 **Response**
 
 ```
-\{ "links":{ "self":"http://localhost:8080/primeapi/v2/learningObjects/course:874326/instances/course:874326_1087084/summary" }, "data":{ "id":"course:874326_1087084_summary", "type":"loInstanceSummary", "attributes":{ "completionCount":0, "enrollmentCount":1, "waitlistCount":0, "seatLimit":0 } } }
+\{ 
+ "links":{ 
+ "self":"http://localhost:8080/primeapi/v2/learningObjects/course:874326/instances/course:874326_1087084/summary" 
+ }, 
+ "data":{ 
+ "id":"course:874326_1087084_summary", 
+ "type":"loInstanceSummary", 
+ "attributes":{ 
+ "completionCount":0, 
+ "enrollmentCount":1, 
+ "waitlistCount":0, 
+ "seatLimit":0 
+ } 
+ } 
+}
 ```
 
 ## Jobs {#jobs}

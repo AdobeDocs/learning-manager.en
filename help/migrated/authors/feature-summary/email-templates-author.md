@@ -7,7 +7,7 @@ title: Email templates
 
 # Email templates {#email-templates}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Read this article to know how to configure email templates for events related to all the learning objects.
 
@@ -17,7 +17,7 @@ As an author, you can customize e-mail templates by adding or modifying content 
 
 You can also choose not to send e-mail notifications for certain events by disabling the email template option.
 
-# Setting email notifications  {#settingemailnotifications}
+# Setting email notifications {#settingemailnotifications}
 
 1. From the Author app, click the learning object for which you want to configure the email template. For example, Courses.
 1. From the Learning Object page, click the course, certification, or learning program that you want to configure the email settings.

@@ -1,12 +1,12 @@
 ---
 description:  Log in as a learner in Learning Manager.
 jcr-language: en_us
-title: Log in
+title:  Log in as a learner in Adobe Learning Manager
 contentowner: manochan
 ---
 
 
-# Log in {#log-in}
+#  Log in as a learner in Adobe Learning Manager {#log-in-as-a-learner-in-adobe-learning-manager}
 
 Log in as a learner in Learning Manager.
 

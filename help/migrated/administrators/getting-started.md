@@ -8,7 +8,7 @@ contentowner: jayakarr
 
 # Best practices guide to set up Learning Manager  {#best-practices-guide-to-set-up-learning-manager}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 This document provides a recommended approach for organizations to set-up and configure Adobe Learning Manager. Learning Manager team suggests a phased approach to get started with the application. It is not mandatory for you to follow all the phases in a specific sequence.
 

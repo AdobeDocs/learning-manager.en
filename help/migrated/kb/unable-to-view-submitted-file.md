@@ -27,7 +27,7 @@ When the instructor tries to approve the submission, the instructor is unable to
 
 # **Cause**
 
-`If there is no instructor in the course instance in which the learner is enrolled, the issue appears.`
+If there is no instructor in the course instance in which the learner is enrolled, the issue appears.
 
 # Resolution
 

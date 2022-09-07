@@ -116,14 +116,39 @@ The default styling may not meet everyone's needs. The customisations can be don
 * background: **ql-bg-$color**. $color = black, red, orange, yellow, green, blue, purple
 * html tags: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
-[CSS file to be used for customization.](/content/dam/help/en/captivate-prime/authors/feature-summary/courses/jcr_content/root/content/flex/items/position/position-par/download_section/download-1/ql-headless.css) 
+[CSS file to be used for customization.](assets/ql-headless.css) 
 
 ### **API CHANGES TO ENABLE RENDERING RICH TEXT OVERVIEWS**
 
 When customers build a headless interface, they have a need to display the learning objects in that custom user interface they are developing. For doing this, one would typically use the [GET /learningObjects](https://captivateprimeeu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) API that is exposed. Now that Prime supports capturing “rich text” for the overview field, the data model of Learning Objects in the API responses also exposes the same. See the field named “richTextOverview” in the fragment of the model in the API response below. Also note that the field exposed earlier (“overview”) remains unchanged for backward compatibility.
 
 ```
-\{ "data": [ { "id": "string", "type": "string", "attributes": { … “localizedMetadata": [ { "description": "string", "locale": "string", "name": "string", "overview": "string", "richTextOverview": "string" } ], … }, "relationships": { … } } } ] }
+\{ 
+ "data": [ 
+ { 
+ "id": "string", 
+ "type": "string", 
+ "attributes": { 
+ … 
+ “localizedMetadata": [ 
+ { 
+ "description": "string", 
+ "locale": "string", 
+ "name": "string", 
+ "overview": "string", 
+ "richTextOverview": "string" 
+ } 
+ ], 
+ … 
+ }, 
+ "relationships": { 
+ … 
+ } 
+ } 
+ } 
+ ] 
+} 
+
 ```
 
 Customers who are already using the overview field remain unaffected in their headless interface will see just plain text as before. If customers want to take advantage of the rich text overview, they will have to create richly formatted overviews for their learning objects in the Author UI and after that Prime will start returning the rich text overview as well, in addition to the plain text (as before) in the API response model.
@@ -152,7 +177,7 @@ Once the admin has enabled multi attempts, as an author you can configure multi 
   </tr> 
   <tr> 
    <td><p>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</p></td> 
-   <td><p>You can lock modules for a specific time between attempts, by enabling the check-box “<b>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</b>”. When a module is locked, the learner cannot visit the module until the lock time provided elapses.&nbsp;</p> <p>ou can define the end criteria of an attempt by selecting the ‘<b>Player close</b>’ or ‘<b>Completion</b>’ check-boxes.</p> </td> 
+   <td><p>You can lock modules for a specific time between attempts, by enabling the check-box “<b>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</b>”. When a module is locked, the learner cannot visit the module until the lock time provided elapses.&nbsp;</p><p>ou can define the end criteria of an attempt by selecting the ‘<b>Player close</b>’ or ‘<b>Completion</b>’ check-boxes.</p></td> 
   </tr> 
   <tr> 
    <td><p>Player Close</p></td> 
@@ -164,7 +189,7 @@ Once the admin has enabled multi attempts, as an author you can configure multi 
   </tr> 
   <tr> 
    <td><p>Set time limit to complete module</p></td> 
-   <td><p>Authors can set a time limit to complete a module by the enabling the check-box, “<b>Set time limit to complete module</b>”.</p> <p>Every player launch is considered as a new attempt and the learner is prompted with the time details during launch.</p> <p><b>Note:</b><span style="font-size: 0.8125rem;">The attempt will end automatically once the time elapses. Closing the player as well will end the current attempt.</span></p> </td> 
+   <td><p>Authors can set a time limit to complete a module by the enabling the check-box, “<b>Set time limit to complete module</b>”.</p><p>Every player launch is considered as a new attempt and the learner is prompted with the time details during launch.</p><p><b>Note:</b><span style="font-size: 0.8125rem;">The attempt will end automatically once the time elapses. Closing the player as well will end the current attempt.</span></p></td> 
   </tr> 
   <tr> 
    <td><p>Multi attempts at Module level</p></td> 
@@ -281,12 +306,12 @@ Once you choose the option **Checklist**, you see a few additional options.
 <table> 
  <tbody>
   <tr> 
-   <td><p>If you had chosen <b>Yes/No</b>, then...</p> </td> 
-   <td><p>If you had chosen <b>1-5</b>, then...</p> </td> 
+   <td><p>If you had chosen <b>Yes/No</b>, then...</p></td> 
+   <td><p>If you had chosen <b>1-5</b>, then...</p></td> 
   </tr> 
   <tr> 
-   <td><p>Set the pass criteria as the number of responses as Yes. For example, if you enter 3, then the learner passes the course, if he/she receives at least three <b>Yes </b>responses, when evaluated by an Instructor.</p> </td> 
-   <td><p>Set the pass criteria as a threshold of any number between 1-5. For example, if you enter 2 and 4, then the learner passes the course, if he/she attains at least <b>two </b>evaluations that have score greater than or equal to <b>four</b>.</p> </td> 
+   <td><p>Set the pass criteria as the number of responses as Yes. For example, if you enter 3, then the learner passes the course, if he/she receives at least three <b>Yes </b>responses, when evaluated by an Instructor.</p></td> 
+   <td><p>Set the pass criteria as a threshold of any number between 1-5. For example, if you enter 2 and 4, then the learner passes the course, if he/she attains at least <b>two </b>evaluations that have score greater than or equal to <b>four</b>.</p></td> 
   </tr> 
  </tbody>
 </table>

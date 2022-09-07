@@ -151,20 +151,20 @@ There are a few differences between internal and external registrations.
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>Internal users</b></p> </td> 
-   <td><p><b>External users</b></p> </td> 
+   <td><p><b>Internal users</b></p></td> 
+   <td><p><b>External users</b></p></td> 
   </tr> 
   <tr> 
-   <td><p>Log in using Adobe ID or SSO credentials.</p> </td> 
-   <td><p>Log in using any email ID.</p> </td> 
+   <td><p>Log in using Adobe ID or SSO credentials.</p></td> 
+   <td><p>Log in using any email ID.</p></td> 
   </tr> 
   <tr> 
-   <td><p>Gamification is available.</p> </td> 
-   <td><p>Gamification is not available.</p> </td> 
+   <td><p>Gamification is available.</p></td> 
+   <td><p>Gamification is not available.</p></td> 
   </tr> 
   <tr> 
-   <td><p>Learner hierarchies are available.</p> </td> 
-   <td><p>Learner hierarchies are not available.</p> </td> 
+   <td><p>Learner hierarchies are available.</p></td> 
+   <td><p>Learner hierarchies are not available.</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -366,7 +366,7 @@ You can only delete a custom Active Field.
 
 You can hide the entire ‘Complete your profile’ page from the learners.&nbsp;The page will not pop up once the learner logs in.
 
-`Note that the existing default behavior does not change. This is an optional capability now available to Administrators.`
+Note that the existing default&nbsp;behavior&nbsp;does not change. This is an optional capability now available to Administrators.&nbsp;
 
 Enable the options below:
 

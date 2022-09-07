@@ -12,7 +12,7 @@ Account settings for Managers in Learning Manager.
 
 View your profile information, add/change profile photo, and modify&nbsp;**About me**&nbsp;content.
 
-# Account settings  {#accountsettings}
+# Account settings {#accountsettings}
 
 1. Click the drop-down arrow at the upper-right corner, adjacent to your photo/account and choose Profile **Settings** `.`
 

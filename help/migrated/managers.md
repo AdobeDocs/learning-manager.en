@@ -16,11 +16,11 @@ contentowner: manochan
  </tbody>
 </table>
 
-# Frequently Asked Questions (FAQ)  {#frequentlyaskedquestionsfaq}
+# Frequently Asked Questions (FAQ) {#frequentlyaskedquestionsfaq}
 
 [Frequently asked questions for Manager role](managers/frequently-asked-questions-for-managers.md)
 
-# Features  {#features}
+# Features {#features}
 
 * [Getting started](managers/feature-summary/learning-objects.md#main-pars_header)
 * [iPad and Android tablet users](managers/feature-summary/ipad-android-tablet-users.md)

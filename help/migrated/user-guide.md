@@ -14,8 +14,8 @@ Read on to know what is the latest offering in Adobe Learning Manager.&nbsp;Star
 <table> 
  <tbody>
   <tr> 
-   <td><img src="/content/dam/help/en/adobe-connect/using/welcome/jcr_content/main-pars/imageandtext/imageandtextimage/community.png"></td> 
-   <td><p>Visit the <a disablelinktracking="false" href="https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all">Adobe Learning Manager User Community</a>&nbsp;to be inspired and get answers to top questions.<br> </p> </td> 
+   <td><img src="assets/community.png"></td> 
+   <td><p>Visit the <a disablelinktracking="false" href="https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all">Adobe Learning Manager User Community</a>&nbsp;to be inspired and get answers to top questions.<br></p></td> 
   </tr> 
  </tbody>
 </table>

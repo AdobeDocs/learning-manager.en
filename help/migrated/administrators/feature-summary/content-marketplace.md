@@ -13,7 +13,7 @@ In the Administrator app, there is a new option&nbsp;**Content&nbsp;Marketplace*
 
 Users can purchase from curated playlists covering various topics or purchase the entire catalog.&nbsp;
 
-`On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.`
+On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.
 
 The&nbsp;Enterprise Training&nbsp;page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.
 
@@ -70,7 +70,7 @@ To support this workflow, there are three email templates that you can use:
 
 # Content Hub in Content Marketplace
 
-`Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists from learner app. Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.`
+Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists&nbsp;from learner app.&nbsp;Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.
 
 An Admin can invite SMEs to shortlist the playlist which they are interested in.&nbsp;
 

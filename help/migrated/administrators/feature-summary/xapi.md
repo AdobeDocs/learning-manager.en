@@ -105,4 +105,4 @@ Log in as Integration Admin > Open FTP/Box connector > Select xAPI Activity repo
 
 # Sample report {#samplereport}
 
-[Sample xAPI report.](/content/dam/help/en/captivate-prime/administrators/feature-summary/xapi/jcr:content/main-pars/download_section/download-1/xapireport8842560559890766717csv.zip)  
+[Sample xAPI report.](assets/xapireport8842560559890766717csv.zip)  

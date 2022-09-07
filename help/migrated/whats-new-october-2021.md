@@ -210,7 +210,18 @@ There is a filter&nbsp;ignoreEnhancedLP,&nbsp;added in GET /learningObjects&nbsp
 To maintain backward compatibility, we’ve&nbsp;provided&nbsp;subLOs&nbsp;for&nbsp;ordered Learning&nbsp;Paths. For&nbsp;previously created Learning Programs,&nbsp;we will continue to&nbsp;provide&nbsp;subLOs&nbsp;in order.&nbsp;
 
 ```
-"subLOs": { "data": [ { "id": "course:3978316", "type": "learningObject" }, { "id": "learningProgram:3978316", "type": "learningObject" } ] }
+"subLOs": { 
+ "data": [ 
+ { 
+ "id": "course:3978316", 
+ "type": "learningObject" 
+ }, 
+ { 
+ "id": "learningProgram:3978316", 
+ "type": "learningObject" 
+ } 
+ ] 
+}
 ```
 
 **Sections**
@@ -218,7 +229,32 @@ To maintain backward compatibility, we’ve&nbsp;provided&nbsp;subLOs&nbsp;for&n
 The information in the sections&nbsp;is&nbsp;added in the response.
 
 ```
-"sections:[ { id: setion_01, mandatory = true; mandatoryLOCount:2, loIds: [course:1125882,course:11258827], "localizedMetadata": [ { "name": "section name", "locale": "en-US" } ], }, { id: section_02, mandatory = true; mandatoryLOCount:1 loIds: [learningProgram:123], "localizedMetadata": [ { "name": "LP2", "locale": "en-US" } ], } ]
+"sections:[ 
+ { 
+ id: setion_01, 
+ mandatory = true; 
+ mandatoryLOCount:2, 
+ loIds: [course:1125882,course:11258827], 
+ "localizedMetadata": [ 
+ { 
+ "name": "section name", 
+ "locale": "en-US" 
+ } 
+ ], 
+ }, 
+ { 
+ id: section_02, 
+ mandatory = true; 
+ mandatoryLOCount:1 
+ loIds: [learningProgram:123], 
+ "localizedMetadata": [ 
+ { 
+ "name": "LP2", 
+ "locale": "en-US" 
+ } 
+ ], 
+ } 
+]
 ```
 
 **userBadges**
@@ -234,48 +270,47 @@ This is a new API. The API is for both Administrators and Learners.&nbsp;Here ar
 The /skillinterest/search allows you to retrieve a list of&nbsp;skill interest that contains the input query name.&nbsp;You can also search based on Admin-defined or Industry-aligned skills.
 
 GET /skillinterest/search&nbsp;returns&nbsp;the following response:
-<pre>{ "data": [&nbsp;{ "id": "string", "type": "string", "attributes":&nbsp;{ "name": "string" }&nbsp;} ]&nbsp;}
-</pre>The parameters are as follows:
+<pre>{ "data": [&nbsp;{ "id": "string", "type": "string", "attributes":&nbsp;{ "name": "string" }&nbsp;} ]&nbsp;}</pre>The parameters are as follows:
 
 <table border="0" cellpadding="0" cellspacing="0" width="403"> 
  <tbody> 
   <tr> 
-   <td height="21" width="147"><p>&nbsp;</p> <p>Parameter&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p>Value&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p>Description&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p>Type&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p>Data type&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21" width="147"><p>&nbsp;</p><p>Parameter&nbsp;</p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p>Value&nbsp;</p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p>Description&nbsp;</p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p>Type&nbsp;</p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p>Data type&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="21"><p>&nbsp;</p> <p>page[cursor]&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>The last cursor till the records is fetched.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21"><p>&nbsp;</p><p>page[cursor]&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>The last cursor till the records is fetched.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="21"><p>&nbsp;</p> <p>page[limit]&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>10&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>Maximum number of records that are displayed on a page. The maximum value is 10.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>integer&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21"><p>&nbsp;</p><p>page[limit]&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>10&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>Maximum number of records that are displayed on a page. The maximum value is 10.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>integer&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="21"><p>&nbsp;</p> <p>nameStartsWith&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>&lt;skill&gt;&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>The skill interest to search for.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21"><p>&nbsp;</p><p>nameStartsWith&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>&lt;skill&gt;&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>The skill interest to search for.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td rowspan="2" height="124"><p>&nbsp;</p> <p>filter.skillInterestTypes&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>ADMIN_DEFINED&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>The type of skill interest. Choose if the type is external or internal.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td rowspan="2" height="124"><p>&nbsp;</p><p>filter.skillInterestTypes&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>ADMIN_DEFINED&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>The type of skill interest. Choose if the type is external or internal.&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="20"><p>INDUSTRY_ALIGNED&nbsp;</p> </td> 
+   <td height="20"><p>INDUSTRY_ALIGNED&nbsp;</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -289,35 +324,35 @@ DELETE /users/{userId}/skillInterest/{id}&nbsp;contains the following parameters
 <table border="0" cellpadding="0" cellspacing="0" width="403"> 
  <tbody> 
   <tr> 
-   <td height="21" width="147"><p>&nbsp;</p> <p><b>Parameter&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Value&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Description&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Type&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Data type</b>&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21" width="147"><p>&nbsp;</p><p><b>Parameter&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Value&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Description&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Type&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Data type</b>&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="21"><p>&nbsp;</p> <p>id&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>The id of the skill for which the skill interest must be deleted.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21"><p>&nbsp;</p><p>id&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>The id of the skill for which the skill interest must be deleted.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td rowspan="2" height="124"><p>&nbsp;</p> <p>filter.skillInterestTypes&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>ADMIN_DEFINED&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>The type of skill interest. Choose if the type is external or internal.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td rowspan="2" height="124"><p>&nbsp;</p><p>filter.skillInterestTypes&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>ADMIN_DEFINED&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>The type of skill interest. Choose if the type is external or internal.&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="21"><p>INDUSTRY_ALIGNED&nbsp;</p> </td> 
+   <td height="21"><p>INDUSTRY_ALIGNED&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="20"><p>&nbsp;</p> <p>userId&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>The Id of the user for whom&nbsp;the skill interest is removed.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="20"><p>&nbsp;</p><p>userId&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>The Id of the user for whom&nbsp;the skill interest is removed.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -331,35 +366,35 @@ POST /users/{userId}/skillInterest/{id}&nbsp;contains the following parameters:
 <table border="0" cellpadding="0" cellspacing="0" width="403"> 
  <tbody> 
   <tr> 
-   <td height="21" width="147"><p>&nbsp;</p> <p><b>Parameter&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Value&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Description&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Type&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Data type</b>&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21" width="147"><p>&nbsp;</p><p><b>Parameter&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Value&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Description&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Type&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Data type</b>&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="21"><p>&nbsp;</p> <p>id&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>The id of the skill for which the skill interest must be&nbsp;added.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21"><p>&nbsp;</p><p>id&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>The id of the skill for which the skill interest must be&nbsp;added.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td rowspan="2" height="124"><p>&nbsp;</p> <p>filter.skillInterestTypes&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>ADMIN_DEFINED&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>The type of skill interest. Choose if the type is external or internal.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td rowspan="2" height="124"><p>&nbsp;</p><p>filter.skillInterestTypes&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>ADMIN_DEFINED&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>The type of skill interest. Choose if the type is external or internal.&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="21"><p>INDUSTRY_ALIGNED&nbsp;</p> </td> 
+   <td height="21"><p>INDUSTRY_ALIGNED&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="20"><p>&nbsp;</p> <p>userId&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>The Id of the user for&nbsp;whom&nbsp;the skill interest is&nbsp;added.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="20"><p>&nbsp;</p><p>userId&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>The Id of the user for&nbsp;whom&nbsp;the skill interest is&nbsp;added.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -373,49 +408,49 @@ GET /users/{userId}/skillInterests&nbsp;has the following parameters:
 <table border="0" cellpadding="0" cellspacing="0" width="403"> 
  <tbody> 
   <tr> 
-   <td height="21" width="147"><p>&nbsp;</p> <p><b>Parameter&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Value&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Description&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Type&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Data type</b>&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21" width="147"><p>&nbsp;</p><p><b>Parameter&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Value&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Description&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Type&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Data type</b>&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="21"><p>&nbsp;</p> <p>page[offset]&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>The starting value of the records to be displayed in page&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21"><p>&nbsp;</p><p>page[offset]&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>The starting value of the records to be displayed in page&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="21"><p>&nbsp;</p> <p>page[limit]&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>10&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>Maximum number of records that are displayed on a page. The maximum value is 10.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>integer&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21"><p>&nbsp;</p><p>page[limit]&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>10&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>Maximum number of records that are displayed on a page. The maximum value is 10.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>integer&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="21"><p>&nbsp;</p> <p>sort&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>dateCreated&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>The sort type to be applied.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21"><p>&nbsp;</p><p>sort&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>dateCreated&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>The sort type to be applied.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="21"><p>&nbsp;</p> <p>userId&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>The Id of the user whose data is being requested.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>path&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21"><p>&nbsp;</p><p>userId&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>The Id of the user whose data is being requested.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>path&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td rowspan="2" height="124"><p>&nbsp;</p> <p>filter.skillInterestTypes&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>ADMIN_DEFINED&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>The type of skill interest. Choose if the type is external or internal.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>query&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="2"><p>&nbsp;</p> <p>string&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td rowspan="2" height="124"><p>&nbsp;</p><p>filter.skillInterestTypes&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>ADMIN_DEFINED&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>The type of skill interest. Choose if the type is external or internal.&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>query&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="2"><p>&nbsp;</p><p>string&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="20"><p>INDUSTRY_ALIGNED&nbsp;</p> </td> 
+   <td height="20"><p>INDUSTRY_ALIGNED&nbsp;</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -429,7 +464,19 @@ Job API&nbsp;supports&nbsp;new&nbsp;jobType&nbsp;named&nbsp;“generateSessionRe
 The payload also supports either&nbsp;courseIds&nbsp;or&nbsp;instructorIds&nbsp;as property, but&nbsp;**NOT&nbsp;**both.
 
 ```
-\{ "data": { "type": "job", "attributes": { "description": "description of your choice", "jobType": "generateSessionReport", "payload":{ "fromDate": "2021-08-24T09:00:00.000Z", "toDate": "2021-08-31T18:00:59.999Z", "courseIds" :"course:4992782,course:4992811,course:5071907" } } } }
+\{ 
+ "data": { 
+ "type": "job", 
+ "attributes": { 
+ "description": "description of your choice", 
+ "jobType": "generateSessionReport", 
+ "payload":{ 
+ "fromDate": "2021-08-24T09:00:00.000Z", 
+ "toDate": "2021-08-31T18:00:59.999Z", 
+ "courseIds" :"course:4992782,course:4992811,course:5071907" 
+ } } 
+ } 
+}
 ```
 
 # Enhanced features in this release {#Whatsnewandchanged-1}
@@ -449,20 +496,20 @@ The changes depend on the&nbsp;flag Learning Paths in&nbsp;**Settings > General*
 <table border="0" cellpadding="0" cellspacing="0" width="339"> 
  <tbody> 
   <tr> 
-   <td height="21" width="147"><p>&nbsp;</p> <p><b>Report&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Changes in the report immediately after the release (with&nbsp;check-box is&nbsp;unchecked)&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Changes in report after&nbsp;checking&nbsp;the check-box. i.e.&nbsp;once new Learning Path capabilities are enabled.&nbsp;</b></p> <p>&nbsp;</p> </td> 
-   <td width="64"><p>&nbsp;</p> <p><b>Changes in report&nbsp;that will be made&nbsp;after 30 days after the release.&nbsp;</b></p> <p>&nbsp;</p> </td> 
+   <td height="21" width="147"><p>&nbsp;</p><p><b>Report&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Changes in the report immediately after the release (with&nbsp;check-box is&nbsp;unchecked)&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Changes in report after&nbsp;checking&nbsp;the check-box. i.e.&nbsp;once new Learning Path capabilities are enabled.&nbsp;</b></p><p>&nbsp;</p></td> 
+   <td width="64"><p>&nbsp;</p><p><b>Changes in report&nbsp;that will be made&nbsp;after 30 days after the release.&nbsp;</b></p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td rowspan="7" height="141"><p>&nbsp;</p> <p>Learner&nbsp;Transcript&nbsp;&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>A new column will be introduced:&nbsp;Embedded_Course_IDThis&nbsp;column will have values populated when course is part of a Learning Program&nbsp;Or&nbsp;Certification.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>Column 'Type' = 'Learning Path (Higher Level)' will be displayed when Learner is enrolled to a Learning Path&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="7"><p>&nbsp;</p> <p>Under&nbsp;‘Type’&nbsp;column, 'Learning Program' will be renamed as 'Learning Path'. This is irrespective&nbsp;of the status of the Learning Path&nbsp;check-box,&nbsp;if&nbsp;enabled/disabled.&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td rowspan="7" height="141"><p>&nbsp;</p><p>Learner&nbsp;Transcript&nbsp;&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>A new column will be introduced:&nbsp;Embedded_Course_IDThis&nbsp;column will have values populated when course is part of a Learning Program&nbsp;Or&nbsp;Certification.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>Column 'Type' = 'Learning Path (Higher Level)' will be displayed when Learner is enrolled to a Learning Path&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="7"><p>&nbsp;</p><p>Under&nbsp;‘Type’&nbsp;column, 'Learning Program' will be renamed as 'Learning Path'. This is irrespective&nbsp;of the status of the Learning Path&nbsp;check-box,&nbsp;if&nbsp;enabled/disabled.&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
    <td height="20">It will be seen towards the extreme right end of the report.&nbsp;</td> 
-   <td><p>1. In addition, there are two new columns:&nbsp;</p> </td> 
+   <td><p>1. In addition, there are two new columns:&nbsp;</p></td> 
   </tr> 
   <tr> 
    <td height="20">&nbsp;</td> 
@@ -470,7 +517,7 @@ The changes depend on the&nbsp;flag Learning Paths in&nbsp;**Settings > General*
   </tr> 
   <tr> 
    <td height="20">&nbsp;</td> 
-   <td><p>2. This column will be displayed after the 'Type' column&nbsp;</p> </td> 
+   <td><p>2. This column will be displayed after the 'Type' column&nbsp;</p></td> 
   </tr> 
   <tr> 
    <td height="20">&nbsp;</td> 
@@ -485,16 +532,16 @@ The changes depend on the&nbsp;flag Learning Paths in&nbsp;**Settings > General*
    <td>Note:&nbsp;The&nbsp;Embedded_Course_ID&nbsp;column will be displayed irrespective of&nbsp;the status of the Learning Path&nbsp;check-box,&nbsp;checked/unchecked.&nbsp;</td> 
   </tr> 
   <tr> 
-   <td height="21"><p>&nbsp;</p> <p>Learners’&nbsp;Learner&nbsp;Transcript&nbsp;&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>Same as above.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>Same as above,&nbsp;except there&nbsp;will be&nbsp;no 'Type' column in&nbsp;the&nbsp;Learner&nbsp;Transcript.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>Not&nbsp;Applicable&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="21"><p>&nbsp;</p><p>Learners’&nbsp;Learner&nbsp;Transcript&nbsp;&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>Same as above.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>Same as above,&nbsp;except there&nbsp;will be&nbsp;no 'Type' column in&nbsp;the&nbsp;Learner&nbsp;Transcript.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>Not&nbsp;Applicable&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td rowspan="6" height="121"><p>&nbsp;</p> <p>Training Report&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="6"><p>&nbsp;</p> <p>Same as above.&nbsp;&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>There are three new columns:&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td rowspan="6"><p>&nbsp;</p> <p>Under Type column, 'Learning Program' will be renamed as 'Learning Path'. This is irrespective of the status of the Learning Path check-box, if enabled/disabled.&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td rowspan="6" height="121"><p>&nbsp;</p><p>Training Report&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="6"><p>&nbsp;</p><p>Same as above.&nbsp;&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>There are three new columns:&nbsp;</p><p>&nbsp;</p></td> 
+   <td rowspan="6"><p>&nbsp;</p><p>Under Type column, 'Learning Program' will be renamed as 'Learning Path'. This is irrespective of the status of the Learning Path check-box, if enabled/disabled.&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
    <td height="20">Embedded Path:&nbsp;These rows will show the&nbsp;name of the&nbsp;embedded Learning Program.&nbsp;</td> 
@@ -509,13 +556,13 @@ The changes depend on the&nbsp;flag Learning Paths in&nbsp;**Settings > General*
    <td height="20">&nbsp;</td> 
   </tr> 
   <tr> 
-   <td height="21"><p>Also,&nbsp;Column 'Type' = 'Learning Path (Higher Level)' will be displayed when Learner is enrolled to a Learning Path.&nbsp;</p> </td> 
+   <td height="21"><p>Also,&nbsp;Column 'Type' = 'Learning Path (Higher Level)' will be displayed when Learner is enrolled to a Learning Path.&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td height="20"><p>&nbsp;</p> <p>Content Audit Trail&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>Learning Path' will be shown for LPs (irrespective of flag is enabled or disabled)&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>Learning Path (Higher Level)' will be shown wherever enhanced&nbsp;Learning&nbsp; Path&nbsp;is referred.&nbsp;</p> <p>&nbsp;</p> </td> 
-   <td><p>&nbsp;</p> <p>NA&nbsp;</p> <p>&nbsp;</p> </td> 
+   <td height="20"><p>&nbsp;</p><p>Content Audit Trail&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>Learning Path' will be shown for LPs (irrespective of flag is enabled or disabled)&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>Learning Path (Higher Level)' will be shown wherever enhanced&nbsp;Learning&nbsp; Path&nbsp;is referred.&nbsp;</p><p>&nbsp;</p></td> 
+   <td><p>&nbsp;</p><p>NA&nbsp;</p><p>&nbsp;</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -552,7 +599,7 @@ Learner Transcript report will contain a new column&nbsp;Unenrollment&nbsp;Date 
 
 ### Language information gets added
 
-Two new columns Training language and Sub Training language gets added to the Training Report. This report gets added only when a new connection is established for - `Power BI (unified report)`
+Two new columns&nbsp;Training language&nbsp;and&nbsp;Sub Training language&nbsp;gets added to the&nbsp;Training Report.&nbsp;This&nbsp;report gets added only when a new connection is established for -Power BI (unified report)
 
 &nbsp;
 
@@ -616,7 +663,7 @@ To see the known issues in this update, refer to [***Known issues***](release-no
  <tbody>
   <tr> 
    <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br> </p></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
   </tr> 
  </tbody>
 </table>

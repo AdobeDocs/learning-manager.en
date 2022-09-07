@@ -8,7 +8,7 @@ contentowner: dvenkate
 
 # Embeddable fluidic player {#embeddable-fluidic-player}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Read this article to learn how to embed the fluidic player in a custom application.
 
@@ -146,7 +146,7 @@ https://captivateprime.adobe.com/app/player?lo_id=jobAid:1234&access_token=c1a48
 # Sample application tutorial {#sampleapplicationtutorial}
 
 The attached pdf document contains a sample application tutorial.
-[Sample tutorial and tutorial source to embed fluidic player.](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/fluidic-player/jcr:content/main-pars/download_section/download-1/sample_applicationtutorial.zip) Alternative contents
+[Sample tutorial and tutorial source to embed fluidic player.](assets/sample-applicationtutorial.zip) Alternative contents
 
 If you are an administrator, you can set up your course material in a way that you can offer alternative content to your learners within the fluidic player. For example, if you have learners across geographies who might want to use multiple languages, you can create the same content in multiple languages. The fluidic player will offer the learner the language that they might be set up for, but the learner also has the choice to switch to alternative language right from within the player.
 

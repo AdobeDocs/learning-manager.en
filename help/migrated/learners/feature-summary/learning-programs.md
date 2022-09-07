@@ -8,26 +8,26 @@ contentowner: manochan
 
 # Learning Programs {#learning-programs}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Learn how to view and consume learning programs using the Learner app in Learning Manager.
 
 Learning programs are a set of uniquely designed courses meeting specific learner goals. Administrators create these learning programs for learners. You can view these learning programs as a learner.
 
-# Overview  {#overview}
+# Overview {#overview}
 
 Adobe Learning Manager enables learners to access the courses and learning programs. Learners can browse through all the available learning programs by using catalog or enroll themselves to learning programs of their choice. Learners can view all the enrolled courses and the courses assigned to them in Courses.
 
 **Note** 
 Learners can also install Learning Manager iPad app from apple store and Learning Manager Android app from Google Play and access courses on mobile devices. All the learners role features are also available in the app. Learners can also take courses offline and get a seamless access after going online.&nbsp;
 
-# Learning program  {#learningprogram}
+# Learning program {#learningprogram}
 
 Learning programs are a set of uniquely designed courses meeting specific learner goals. You can view the learning programs that are assigned to you, under My Learning.
 
 The Author and Administrator can create learning programs.
 
-# Viewing learning programs  {#viewinglearningprograms}
+# Viewing learning programs {#viewinglearningprograms}
 
 You can view a list of all available learning programs as a learner. The Learning Object widget show all the enrolled and assigned learning programs to a learner. From the left pane, click Catalog and filter Learning Programs to view all the available learning programs.
 
@@ -35,7 +35,7 @@ On the **My Learning** page, you can filter the training that you're enroled in,
 
 You can see course effectiveness percentage of each course from the Catalog page. There can be multiple instances/sessions to a course/learning program. Click the course or the learning program to view the details. You can also see the deadline date for each instance of the course/learning program.
 
-# Searching courses and learning programs  {#searchingcoursesandlearningprograms}
+# Searching courses and learning programs {#searchingcoursesandlearningprograms}
 
 Adobe Learning Manager makes it easier for you to find the courses of your choice quickly. You can search for your learning programs in the following ways:
 
@@ -45,7 +45,7 @@ Adobe Learning Manager makes it easier for you to find the courses of your choic
 
 You can search based on competencies by clicking Competencies and choosing them. You can sort the courses by clicking Sort by and choosing one of the options available.
 
-# Enrolling for learning programs  {#enrollingforlearningprograms}
+# Enrolling for learning programs {#enrollingforlearningprograms}
 
 Learners are enrolled to learning programs in the following possible ways:
 

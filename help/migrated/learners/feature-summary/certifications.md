@@ -19,7 +19,7 @@ Learners can take up the certifications which are assigned to them by the admini
 1. Internal  
    These certificates can be obtained by completing certain courses prescribed as part of the curriculum. Your organization issues these certifications after completion.
 
-# Taking up internal certifications  {#takingupinternalcertifications}
+# Taking up internal certifications {#takingupinternalcertifications}
 
 1. From the Learners home page, in the My Learning widget, click Certifications.
 

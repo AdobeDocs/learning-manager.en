@@ -32,5 +32,5 @@ Reload the themes and fix the&nbsp;appearance of the radio buttons. Perform the 
    ![](assets/set-themes.png)
 
 1. Revert to the previous theme and save the changes.
-1. `Log out of Adobe Learning Manager and sign in again.`
+1. Log out of Adobe Learning Manager and sign in again.&nbsp;
 

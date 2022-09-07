@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Getting started as a Learner {#getting-started-as-a-learner}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Get started with the Learner app in Learning Manager
 
@@ -42,7 +42,7 @@ Click each learning object on the left tile to view the corresponding informatio
 
 Hover the mouse on the timeline area to view the scroll bar at the right-side. Use the scroll bar to move up or down and view more alerts.
 
-# iPad and Android app users  {#ipadandandroidappusers}
+# iPad and Android app users {#ipadandandroidappusers}
 
 In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the information in&nbsp;Home&nbsp;tab as follows:
 

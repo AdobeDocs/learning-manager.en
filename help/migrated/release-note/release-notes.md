@@ -11,11 +11,15 @@ contentowner: jayakarr
 
 **Update 78**
 
-**Release date:** 5 August 2022
+**Release date:** 4 August 2022
 
 ## Bugs fixed in this update
 
-* If you've a course that contains a module with a preview and then use an API to retrieve the resources from the course,&nbsp; then the response will not contain any data from&nbsp;location, contentZipUrl, and contentStructureInfoUrl.
+* If you've a course that contains a module with a preview and then use an API to retrieve the resources from the course,&nbsp; then the response will not contain any data from&nbsp;location, contentZipUrl, and contentStructureInfoUrl.  
+* Incorrect response after sending a XAPI request from Swagger document, where the domain name is learningmanager.&nbsp;  
+* In the /boards/{id}/posts API response, the "post.attributes.myPoll" property appears as an empty object.  
+* In some cases, for a non-logged-in user, the Add to cart button is disabled for some courses or Learning Paths.  
+* Incorrect sub-domain url on the branding page.
 
 **Update 77 - July 2022 release of Adobe Learning Manager**
 
@@ -95,11 +99,9 @@ An [instance](https://captivateprimeapac.adobe.com/acapindex.html) of Learning M
 
 Adobe Learning Manager India instance is at par with other instances like EU and US regions in terms of feature capabilities. There are a few features which are not supported in India instance. These are:
 
-* `Credit card payment for purchase of seats`  
-
-* `Creative Cloud content catalog`  
-
-* `Slack App`
+* Credit card payment for purchase of seats  
+* Creative Cloud content catalog  
+* Slack App
 * **&#42;** Awaiting certification for SOC2 compliance
 
 ## Frequently Asked Questions
@@ -296,8 +298,7 @@ For more information, see [***What's New in the October 2021 release of Learning
 * A Learning Transcript does not display the completion date for an external certificate if a mandatory course is added after external certificate is created, and a user is enrolled to it. This is now fixed.  
 * A certificate does not display the localized name of the learner as expected. This is now fixed.  
 * In case of Zoom VC sessions, an instructor does not always receive the invite for the session. This is now fixed. The instructor now receives the required communication.  
-* `A learner does not receive invites for a session if course level templates is enabled but account level templates are disabled. This is now fixed.`  
-
+* A learner does not receive invites for a session if course level templates is enabled but account level templates are disabled. This is now fixed.  
 * For specific time zones, email reminders were delivered a day later than expected. This is now fixed.  
 * Learners do not receive session notification mails if certain email templates are disabled.  
 * Incase a BlueJeans meeting is updated by Authors, Admins, BJ meeting URL was becoming unusable. This is now fixed.  
@@ -547,7 +548,7 @@ In this release, Learning Manager prompts the user to provide feedback about the
 
 This update allows learners to download their badges in PDF and Image format.
 
-# Previous update releases  {#previousupdatereleases}
+# Previous update releases {#previousupdatereleases}
 
 +++Update 60 - February 2021 release of Learning Manager
 
@@ -1340,7 +1341,7 @@ Release date: Aug 02, 2019
 
 ## New and enhanced features {#Newandenhancedfeatures-5}
 
-**Separation of scope in Social learning for internal and external users** An Administrator can define separate scopes for internal and external learners. There are two new sections for internal and external users. In both sections, you can define the scopes for the learner groups. For internal users, you can define the values of the User Characteristic. For external users, you can define the external profile, within which learners can share the same social space. For more information, see [***Scope settings***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings). &nbsp; **Social-Restrict creation of social boards** To restrict the creation of boards by all learners and to moderate the boards effectively, an Administrator can grant permissions&nbsp;to create boards to a select group of users. The Administrator can restrict the creation of a board to only a selected group and not every learner who participates in social learning. For more information, see [***Board creation permissions***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission). &nbsp; **Display only empty Active fields to learners** An Administrator can choose to display the Active fields or hide the fields after the values have been populated. For more information, see [***User display***](../administrators/feature-summary/add-users-user-groups.md#activefields). &nbsp; **Internal users get deleted upon a specified duration of inactivity** An Administrator can set the duration (in days) within which an internal learner gets deleted if the learner stays inactive for the specified duration. For more information, see *** [Auto delete users](../administrators/feature-summary/settings.md#autodelete)***. &nbsp; **Customize links on the footer** An Administrator can add and customize links on the footer. The links can also be customized for various locales. The existing method of adding the Contact Admin link on the footer is also available in the **Footer Links** section.&nbsp;For more information, see [***Customize footer links***](../administrators/feature-summary/settings.md#footer). 
+**Separation of scope in Social learning for internal and external users**An Administrator can define separate scopes for internal and external learners. There are two new sections for internal and external users. In both sections, you can define the scopes for the learner groups. For internal users, you can define the values of the User Characteristic. For external users, you can define the external profile, within which learners can share the same social space. For more information, see [***Scope settings***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).&nbsp; **Social-Restrict creation of social boards**To restrict the creation of boards by all learners and to moderate the boards effectively, an Administrator can grant permissions&nbsp;to create boards to a select group of users. The Administrator can restrict the creation of a board to only a selected group and not every learner who participates in social learning. For more information, see [***Board creation permissions***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).&nbsp; **Display only empty Active fields to learners**An Administrator can choose to display the Active fields or hide the fields after the values have been populated. For more information, see [***User display***](../administrators/feature-summary/add-users-user-groups.md#activefields).&nbsp; **Internal users get deleted upon a specified duration of inactivity**An Administrator can set the duration (in days) within which an internal learner gets deleted if the learner stays inactive for the specified duration. For more information, see *** [Auto delete users](../administrators/feature-summary/settings.md#autodelete)***.&nbsp; **Customize links on the footer**An Administrator can add and customize links on the footer. The links can also be customized for various locales. The existing method of adding the Contact Admin link on the footer is also available in the **Footer Links** section.&nbsp;For more information, see [***Customize footer links***](../administrators/feature-summary/settings.md#footer). 
 
 ### Known issues in this release {#Knownissuesinthisrelease-2}
 
@@ -1523,7 +1524,7 @@ Release date: January 11, 2019.
 
 +++Update 41
 
-Update 41 Release date: December 1, 2018.
+Update 41Release date: December 1, 2018.
 
 * Administrators can control the permission given to Learners to view Quiz Scores in Learner Transcripts. This can be enabled/disabled from the Settings page.
 * Insertion of user notifications may fail randomly, resulting in&nbsp;associated emails not getting delivered. This issue is fixed.
@@ -2447,7 +2448,7 @@ Some customers faced problems in using Single sign-on feature in Learning Manage
 
 Release date: May 25, 2016
 
-## Enhancements  {#Enhancements-10}
+## Enhancements {#Enhancements-10}
 
 **Certifications/Learning programs**
 
@@ -2462,7 +2463,7 @@ For auto upload feature of CSV using FTP, Administrators receive e-mail notifica
 
 When external learners visit the registration page using an external profile URL, the name of external profile is displayed in the registration page for better identification.&nbsp;
 
-## Issues fixed  {#Issuesfixed-9}
+## Issues fixed {#Issuesfixed-9}
 
 **Preview and publish courses**
 
@@ -2490,7 +2491,7 @@ The deadline does not appear for default learning program instances. Earlier, a 
 
 Release date: May 04, 2016
 
-## Enhancements  {#Enhancements-11}
+## Enhancements {#Enhancements-11}
 
 **Catalogs**
 
@@ -2500,7 +2501,7 @@ When a learner accesses catalog, the default focus shifts across tabs based on t
 
 A feedback option is provided in the confirmation dialog of Account de-activation when an Administrator chooses to de-activate an account.&nbsp;
 
-## Issues fixed  {#Issuesfixed-10}
+## Issues fixed {#Issuesfixed-10}
 
 **Export reports**
 
@@ -2517,7 +2518,7 @@ When a large number of learners are enrolled to learning objects such as learnin
 
 Release date: April 20, 2016
 
-## Issues fixed  {#Issuesfixed-11}
+## Issues fixed {#Issuesfixed-11}
 
 **Create courses using modules**
 
@@ -2544,7 +2545,7 @@ Export of enrollment data used to fail if one of the enrolled learners is delete
 
 Release date: April 07, 2016
 
-## Enhancements  {#Enhancements-12}
+## Enhancements {#Enhancements-12}
 
 **Job Aids**
 
@@ -2566,7 +2567,7 @@ Learning Manager application does not allow external learners to log into the ap
 
 You can renew certifications in terms of months by mentioning the value in **Validity** field. Earlier, the certification renewal was allowed only in terms of years.&nbsp;
 
-## Issues fixed  {#Issuesfixed-12}
+## Issues fixed {#Issuesfixed-12}
 
 **Announcements**
 
@@ -2616,7 +2617,7 @@ If a question text contains more than 255 characters and enabled for SCORM 1.2 f
 
 Release date: March 15, 2016
 
-## Issues fixed  {#Issuesfixed-13}
+## Issues fixed {#Issuesfixed-13}
 
 **Create courses with modules**
 
@@ -2655,7 +2656,7 @@ In Internet Explorer 11 browser, Job Aid name and icon were appearing as distort
 
 Release date: February 28, 2016.
 
-## New features  {#Newfeatures-2}
+## New features {#Newfeatures-2}
 
 ##### Job Aids
 
@@ -2693,7 +2694,7 @@ Administrators can define the scope of gamification by changing the scope settin
 
 Learning Manager application is available in French and German languages. You can customize the language for feedback, course instances and communication.
 
-## Enhancements  {#Enhancements-13}
+## Enhancements {#Enhancements-13}
 
 There are significant enhancements to the existing features of Learning Manager. Some of the predominant enhancements are as follows:
 
@@ -2741,7 +2742,7 @@ Learners report has been enhanced. You can view name, e-mail,  status  of  learn
 
 After enrolling the external learners to Learning Manager account, you can also downsize the number of learners, if required. However, you cannot downsize the learners beyond the used number of seats. As a workaround, you can delete the registered learners first and then enroll again with the required number of seats.&nbsp;
 
-## Issues fixed  {#Issuesfixed-14}
+## Issues fixed {#Issuesfixed-14}
 
 **Learners attendance**
 
@@ -2773,7 +2774,7 @@ The typos in the e-mail templates are fixed.&nbsp;
 
 Release date: February 09, 2016.
 
-# Sign Out behavior updated  {#signoutbehaviorupdated}
+# Sign Out behavior updated {#signoutbehaviorupdated}
 
 When users click&nbsp;**Sign Out**&nbsp;in Learning Manager, they are now logged out of the Learning Manager application and also they are logged out of their Adobe IDs.
 
@@ -2783,7 +2784,7 @@ When users click&nbsp;**Sign Out**&nbsp;in Learning Manager, they are now logged
 
 Release date: January 20, 2016.
 
-## Enhancements  {#Enhancements-14}
+## Enhancements {#Enhancements-14}
 
 **Customizable e-mails**
 
@@ -2821,7 +2822,7 @@ Release date: January 20, 2016.
 
 Release date: January 13, 2016. 
 
-## Issues fixed  {#Issuesfixed-15}
+## Issues fixed {#Issuesfixed-15}
 
 **Course taking**
 
@@ -2838,13 +2839,13 @@ Release date: January 13, 2016.
 
 Release date: December 22, 2015
 
-## Enhancements  {#Enhancements-15}
+## Enhancements {#Enhancements-15}
 
 **Personal dashboard**
 
 * While accessing courses, catalogs, and learning programs in Administrator and Author roles, the ordering of tabs is changed to&nbsp;**Published - Draft - All - Retired**. The default selection is&nbsp;**Published.**
 
-## Issues fixed  {#Issuesfixed-16}
+## Issues fixed {#Issuesfixed-16}
 
 **Course taking**
 
@@ -2868,7 +2869,7 @@ Release date: December 22, 2015
 
 Release date: December 11, 2015
 
-## Issues fixed  {#Issuesfixed-17}
+## Issues fixed {#Issuesfixed-17}
 
 **User login**
 
@@ -2884,7 +2885,7 @@ Release date: December 11, 2015
 
 Release date: December 09, 2015
 
-## Enhancements  {#Enhancements-16}
+## Enhancements {#Enhancements-16}
 
 **Add users**
 
@@ -2895,7 +2896,7 @@ Release date: December 09, 2015
 
 * If any user accesses Learning Manager application in unsupported browsers, the user receives an alert with the list of white-listed browsers.&nbsp;
 
-## Issues fixed  {#Issuesfixed-18}
+## Issues fixed {#Issuesfixed-18}
 
 **Reports**
 
@@ -2929,7 +2930,7 @@ Release date: December 09, 2015
 
 Release date: October 26, 2015.
 
-## Enhancements  {#Enhancements-17}
+## Enhancements {#Enhancements-17}
 
 **Add users**
 
@@ -2943,7 +2944,7 @@ Release date: October 26, 2015.
 
 * In Administrator role, when a user enters number of learners and clicks&nbsp;**Place order,**&nbsp;a dialog appears with details about monthly and annual subscription charges per user.&nbsp;
 
-## Issues fixed  {#Issuesfixed-19}
+## Issues fixed {#Issuesfixed-19}
 
 **Create courses using modules**
 
@@ -2961,7 +2962,7 @@ Release date: October 26, 2015.
 
 Release date: September 28, 2015
 
-## Enhancements  {#Enhancements-18}
+## Enhancements {#Enhancements-18}
 
 **Create courses using modules**
 
@@ -2980,7 +2981,7 @@ Release date: September 28, 2015
 
 * In Administrator role, adding users using CSV upload option directly from Exavault account did not work for some customers. This issue is fixed.&nbsp;
 
-## Issues fixed  {#Issuesfixed-20}
+## Issues fixed {#Issuesfixed-20}
 
 **Learning programs and plans**
 

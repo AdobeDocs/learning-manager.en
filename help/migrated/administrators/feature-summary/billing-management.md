@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Manage Learning Manager orders and billing {#manage-learning-manager-orders-and-billing}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Credit card-based purchase is only available in the [US region](http://captivateprime.adobe.com/).
 
@@ -127,7 +127,7 @@ o&nbsp;&nbsp; Administrator deactivates the account, which results in canceling 
 
 o&nbsp;&nbsp; Payment is declined for active orders in an account even after reminders.
 
-An inactive state does not cancel your account with immediate effect. You receive at least a couple of reminders from the Learning Manager team asking you to provide the latest information about  `your credit card if it has expired. In an inactive state, only an administrator can log in to the Learning Manager account. All other users cannot access the account.`
+An inactive state does not cancel your account with immediate effect. You receive at least a couple of reminders from the Learning Manager team asking you to provide the latest information about&nbsp;your credit card if it has expired.&nbsp;In an inactive state, only an administrator can log in to the Learning Manager&nbsp;account. All other users cannot access the account.
 
 * **Activation required** – Your account moves into this state when the Learning Manager administrator chooses to deactivate the account. All the orders of this account get canceled. The collection of payment for these orders does not happen from the next billing cycle. The status of the account remains in this state until the day of the last billing cycle. In this state, all users can continue to use the application without any impact until the end of the last recurring payment date.
 

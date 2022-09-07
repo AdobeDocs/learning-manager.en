@@ -9,13 +9,13 @@ contentowner: manochan
 
 Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 
-# Access notifications  {#accessnotifications}
+# Access notifications {#accessnotifications}
 
 Users can see notifications by clicking notifications icon at the upper right corner of the window.&nbsp;This pop-up dialog displays highlights of all the notifications along with time of occurrence with a scroll bar. To view more information about all the notifications, click Show All Notifications at the bottom of the pop-up dialog. Notifications page appears.
 
 You can know the number of latest notifications by the highlighted number on top of the notifications icon. For example, if there are five latest notifications after your previous login, you can see the number 5 being displayed on top of the notifications icon. These numbers disappear once you read all the latest notifications.
 
-# Types of notifications for Administrators  {#typesofnotificationsforadministrators}
+# Types of notifications for Administrators {#typesofnotificationsforadministrators}
 
 Administrators get notifications under following instances:
 

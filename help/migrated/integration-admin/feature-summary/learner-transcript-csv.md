@@ -7,7 +7,7 @@ contentowner: saghosh
 
 # Interpret the Learner Transcript CSV {#interpret-the-learner-transcript-csv}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 # Overview {#overview}
 
@@ -70,19 +70,19 @@ The columns of the Learner Transcript provide various pieces of information pert
 <table width="100%" cellspacing="0" cellpadding="1" border="1"> 
  <tbody> 
   <tr> 
-   <th width="158" valign="bottom"><p><b>Column Name</b></p> </th> 
-   <th width="160" valign="bottom"><p><b>Type of value</b></p> </th> 
-   <th width="306" valign="bottom"><p><b>Description</b></p> </th> 
+   <th width="158" valign="bottom"><p><b>Column Name</b></p></th> 
+   <th width="160" valign="bottom"><p><b>Type of value</b></p></th> 
+   <th width="306" valign="bottom"><p><b>Description</b></p></th> 
   </tr> 
   <tr> 
-   <td><p><b>Name</b></p> </td> 
-   <td><p>Never empty</p> </td> 
-   <td><p>Name of the learner</p> </td> 
+   <td><p><b>Name</b></p></td> 
+   <td><p>Never empty</p></td> 
+   <td><p>Name of the learner</p></td> 
   </tr> 
   <tr> 
-   <td width="158" valign="bottom"><p><b>email</b></p> </td> 
-   <td width="160" valign="bottom"><p>Never empty</p> </td> 
-   <td width="306" valign="bottom"><p>Email address of the learner</p> </td> 
+   <td width="158" valign="bottom"><p><b>email</b></p></td> 
+   <td width="160" valign="bottom"><p>Never empty</p></td> 
+   <td width="306" valign="bottom"><p>Email address of the learner</p></td> 
   </tr> 
   <tr> 
    <td valign="bottom"><b>Adobe ID</b></td> 
@@ -95,23 +95,23 @@ The columns of the Learner Transcript provide various pieces of information pert
    <td height="19" width="728">User Unique Id of the Learner. This column is based on the backend setting whether enabled/ disabled at account level.</td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>Learning plan Name</b></p> </td> 
-   <td valign="middle"><p>Can be empty</p> </td> 
+   <td valign="middle"><p><b>Learning plan Name</b></p></td> 
+   <td valign="middle"><p>Can be empty</p></td> 
    <td valign="middle">Name of the learning plan (if any), through which the user has been automatically assigned to.</td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>LP/Certification/Course</b></p> </td> 
-   <td valign="middle"><p>Never empty</p> </td> 
-   <td valign="middle"><p>Name of the learning pogram, Certification or Course</p> </td> 
+   <td valign="middle"><p><b>LP/Certification/Course</b></p></td> 
+   <td valign="middle"><p>Never empty</p></td> 
+   <td valign="middle"><p>Name of the learning pogram, Certification or Course</p></td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>Type</b></p> </td> 
+   <td valign="middle"><p><b>Type</b></p></td> 
    <td valign="middle">Never Empty</td> 
-   <td valign="middle"><p>The type of the learning object, the user was enrolled into.</p> </td> 
+   <td valign="middle"><p>The type of the learning object, the user was enrolled into.</p></td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>Course</b></p> </td> 
-   <td valign="middle"><p>Can be empty</p> </td> 
+   <td valign="middle"><p><b>Course</b></p></td> 
+   <td valign="middle"><p>Can be empty</p></td> 
    <td valign="middle">Name of course in which user is enrolled to. When it is empty, the row represents either a Certification or Learning Program.&nbsp;</td> 
   </tr> 
   <tr> 
@@ -120,18 +120,18 @@ The columns of the Learner Transcript provide various pieces of information pert
    <td height="19" width="728">Learnig Object Unique Id of the LO. This column is based on the setting whether enabled/ disabled at account level</td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>Instance&nbsp; </b></p> </td> 
+   <td valign="middle"><p><b>Instance&nbsp; </b></p></td> 
    <td valign="middle">Never Empty</td> 
    <td valign="middle">Name of the instance of the LO user is enrolled into.&nbsp;</td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>Selection Criteria</b></p> </td> 
-   <td valign="middle"><p>Never empty</p> </td> 
-   <td valign="middle"><p>Basis of enrollment (how this learner got enrolled to this LO).</p> </td> 
+   <td valign="middle"><p><b>Selection Criteria</b></p></td> 
+   <td valign="middle"><p>Never empty</p></td> 
+   <td valign="middle"><p>Basis of enrollment (how this learner got enrolled to this LO).</p></td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>Module</b></p> </td> 
-   <td valign="middle"><p>Can be empty</p> </td> 
+   <td valign="middle"><p><b>Module</b></p></td> 
+   <td valign="middle"><p>Can be empty</p></td> 
    <td valign="middle">Name of module inside the Courses. When empty, this row represents either a course, learning program or certification.</td> 
   </tr> 
   <tr> 
@@ -161,17 +161,17 @@ The columns of the Learner Transcript provide various pieces of information pert
   </tr> 
   <tr> 
    <td height="19" width="283"><b>Started Date (Asia/Calcutta TimeZone)</b></td> 
-   <td width="160" valign="bottom"><p>Can be empty</p> </td> 
+   <td width="160" valign="bottom"><p>Can be empty</p></td> 
    <td height="19" width="728">Date on which learner started the LO. Empty implies the learner has not yet started this.</td> 
   </tr> 
   <tr> 
    <td height="19" width="283"><b>Completion Date (Asia/Calcutta TimeZone)</b></td> 
-   <td width="160" valign="bottom"><p>Can be empty</p> </td> 
-   <td width="306" valign="bottom"><p>Date on which learner completed this. Empty implies the learner has not yet completed this.</p> </td> 
+   <td width="160" valign="bottom"><p>Can be empty</p></td> 
+   <td width="306" valign="bottom"><p>Date on which learner completed this. Empty implies the learner has not yet completed this.</p></td> 
   </tr> 
   <tr> 
    <td height="19" width="283"><b>Deadline (Asia/Calcutta TimeZone)</b></td> 
-   <td width="160" valign="bottom"><p>Can be empty</p> </td> 
+   <td width="160" valign="bottom"><p>Can be empty</p></td> 
    <td height="19" width="728">Date on which learner is expected to complete this LO. Empty implies that there is no deadline for this.</td> 
   </tr> 
   <tr> 
@@ -180,14 +180,14 @@ The columns of the Learner Transcript provide various pieces of information pert
    <td height="19" width="728">Current overdue status of the Learner enrolled to the LO. Yes/No</td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>Status</b></p> </td> 
+   <td valign="middle"><p><b>Status</b></p></td> 
    <td valign="middle">Not started/Completed/In Progress/Unenrolled</td> 
    <td valign="middle">Current Progress % of the Learner enrolled to the LO.</td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>Progress %</b></p> </td> 
+   <td valign="middle"><p><b>Progress %</b></p></td> 
    <td valign="middle">Can be empty</td> 
-   <td valign="middle"><p>Indicates the extent to which learner has completed this.</p> </td> 
+   <td valign="middle"><p>Indicates the extent to which learner has completed this.</p></td> 
   </tr> 
   <tr> 
    <td height="38" width="283"><b>Time Spent(minutes)</b></td> 
@@ -195,12 +195,12 @@ The columns of the Learner Transcript provide various pieces of information pert
    <td height="38" width="728">Learning time spent by the learner in the LO, the module level rows displays the individual module wise Learning Time Spent. The Course / Program / Certificate level rows displays the aggregated learning time spent.</td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>Grade</b></p> </td> 
+   <td valign="middle"><p><b>Grade</b></p></td> 
    <td valign="middle">Pass/ Fail</td> 
    <td valign="middle">Indicates success of learner. 'Pass', if user has met success criteria for this, 'Fail' otherwise.</td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>Quiz Score</b></p> </td> 
+   <td valign="middle"><p><b>Quiz Score</b></p></td> 
    <td valign="middle">Can be empty</td> 
    <td valign="middle">The latest quiz score obtained by learner. Can be empty, if learner has not attempted the quiz or content doesn't have any quiz in it or Admin/ Instructor haven't assigned any score.</td> 
   </tr> 
@@ -230,7 +230,7 @@ The columns of the Learner Transcript provide various pieces of information pert
    <td height="19" width="728">The maximum number of allowed attempts for the learner to consume the module.</td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>userState</b></p> </td> 
+   <td valign="middle"><p><b>userState</b></p></td> 
    <td valign="middle">Never Empty</td> 
    <td valign="middle">User state of the learner: Active / Deleted / Suspended.</td> 
   </tr> 
@@ -240,8 +240,8 @@ The columns of the Learner Transcript provide various pieces of information pert
    <td height="38" width="728">For each groupable Active Field in account, there will be a column, where the column name is that of Active Field and the value will be the specific value the learner has for that field.</td> 
   </tr> 
   <tr> 
-   <td width="158" valign="bottom"><p><b>Manager Name</b></p> </td> 
-   <td width="160" valign="bottom"><p><i>Can be empty</i></p> </td> 
+   <td width="158" valign="bottom"><p><b>Manager Name</b></p></td> 
+   <td width="160" valign="bottom"><p><i>Can be empty</i></p></td> 
    <td height="19" width="728">Manager Name of the learner</td> 
   </tr> 
   <tr> 
@@ -297,7 +297,7 @@ The columns of the Learner Transcript provide various pieces of information pert
 <table cellpadding="1" cellspacing="0" border="1"> 
  <tbody> 
   <tr> 
-   <th>Column name<br> </th> 
+   <th>Column name<br></th> 
    <th>Type of value</th> 
    <th>Description</th> 
   </tr> 

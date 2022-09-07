@@ -22,55 +22,55 @@ The table below shows the type of interactive and static file types that you can
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>Interactive content</b></p> </td> 
-   <td><p><b>Content type</b></p> </td> 
-   <td><p><b>Extensions</b></p> </td> 
+   <td><p><b>Interactive content</b></p></td> 
+   <td><p><b>Content type</b></p></td> 
+   <td><p><b>Extensions</b></p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p> </td> 
+   <td><p>&nbsp;</p></td> 
    <td><p> </p> 
     <ul> 
      <li>SCORM 1.2</li> 
      <li>SCORM 2004</li> 
      <li>AICC</li> 
      <li>TinCan</li> 
-    </ul> <p></p></td> 
-   <td><p>zip</p> </td> 
+    </ul><p></p></td> 
+   <td><p>zip</p></td> 
   </tr> 
   <tr> 
-   <td><p><b>Static content</b></p> </td> 
-   <td><p><b>Content type</b></p> </td> 
-   <td><p><b>Extensions</b></p> </td> 
+   <td><p><b>Static content</b></p></td> 
+   <td><p><b>Content type</b></p></td> 
+   <td><p><b>Extensions</b></p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p> </td> 
-   <td><p>Video</p> </td> 
-   <td><p>mp4, wmv, 3gp, 3g2, 3gp2, asf, avi, f4v h264, mpe, mpeg, mpg, mpg2, m4v, mov, wmv</p> </td> 
+   <td><p>&nbsp;</p></td> 
+   <td><p>Video</p></td> 
+   <td><p>mp4, wmv, 3gp, 3g2, 3gp2, asf, avi, f4v h264, mpe, mpeg, mpg, mpg2, m4v, mov, wmv</p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p> </td> 
-   <td><p>Audio</p> </td> 
-   <td><p>mp3, wav, aac, m4a, wma, vorbis, pcm, eac3, amr, ac3</p> </td> 
+   <td><p>&nbsp;</p></td> 
+   <td><p>Audio</p></td> 
+   <td><p>mp3, wav, aac, m4a, wma, vorbis, pcm, eac3, amr, ac3</p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p> </td> 
-   <td><p>PDF</p> </td> 
-   <td><p>pdf</p> </td> 
+   <td><p>&nbsp;</p></td> 
+   <td><p>PDF</p></td> 
+   <td><p>pdf</p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p> </td> 
-   <td><p>MS PowerPoint</p> </td> 
-   <td><p>pptx, ppt</p> </td> 
+   <td><p>&nbsp;</p></td> 
+   <td><p>MS PowerPoint</p></td> 
+   <td><p>pptx, ppt</p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p> </td> 
-   <td><p>MS Word</p> </td> 
-   <td><p>docx, doc</p> </td> 
+   <td><p>&nbsp;</p></td> 
+   <td><p>MS Word</p></td> 
+   <td><p>docx, doc</p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p> </td> 
-   <td><p>MS Excel</p> </td> 
-   <td><p>xlsx, xls</p> </td> 
+   <td><p>&nbsp;</p></td> 
+   <td><p>MS Excel</p></td> 
+   <td><p>xlsx, xls</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -254,21 +254,21 @@ Content can be unlinked from a specified folder **ONLY **if it is also associate
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>Static content</b></p> </td> 
-   <td><p><b>Interactive content</b></p> </td> 
+   <td><p><b>Static content</b></p></td> 
+   <td><p><b>Interactive content</b></p></td> 
   </tr> 
   <tr> 
    <td><p>You can only set the <b>Completion</b> Criteria for the content for the following options:</p> 
     <ul> 
      <li>On Launching content</li> 
      <li>Based on the Minimum percent required</li> 
-    </ul> </td> 
+    </ul></td> 
    <td><p>You can set both <b>Completion</b> and <b>Success</b> criteria for the content for the following options:</p> 
     <ul> 
      <li>On Launching content</li> 
      <li>Based on the Minimum percent required</li> 
      <li>Quiz passed or attempted options</li> 
-    </ul> <p><b>NOTE:</b>&nbsp;Only HTML content from Captivate, Presenter Video Express, or Presenter can be edited.</p> </td> 
+    </ul><p><b>NOTE:</b>&nbsp;Only HTML content from Captivate, Presenter Video Express, or Presenter can be edited.</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -362,5 +362,5 @@ Note that existing courses that use the content, which are deleted from the cont
 
 # Frequently Asked Questions {#frequentlyaskedquestions}
 
-1. **How to upload a SCORM content in Adobe Learning Manager?** &nbsp; Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Learning Manager, upload the zip file in the catalog, and set the completion and success criteria. &nbsp; 2.&nbsp;**How do I upload a new version of the same content to Learning Manager?** &nbsp; In Learning Manager, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation&nbsp;in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course. &nbsp; 3. **How to edit the details of a course in a different language?** &nbsp; After adding a language/languages, as described in an earlier section, click each language tab, and then add/edit the course information. ![](assets/edit-course-language.png)
+1. **How to upload a SCORM content in Adobe Learning Manager?**&nbsp;Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Learning Manager, upload the zip file in the catalog, and set the completion and success criteria.&nbsp;2.&nbsp;**How do I upload a new version of the same content to Learning Manager?**&nbsp;In Learning Manager, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation&nbsp;in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course.&nbsp;3. **How to edit the details of a course in a different language?**&nbsp;After adding a language/languages, as described in an earlier section, click each language tab, and then add/edit the course information. ![](assets/edit-course-language.png)
 

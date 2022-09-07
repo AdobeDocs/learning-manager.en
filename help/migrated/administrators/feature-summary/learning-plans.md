@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Learning plans {#learning-plans}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Creating Learning Plans for Administrators in Learning Manager.
 
@@ -22,7 +22,7 @@ For example, when an employee joins an organization, the New Employee Orientatio
 
 You can enroll learners to any courses and learning programs automatically based on a predefined set of events. You can create learning paths to the learners by automatically assigning a follow-up learning activity after a learner completes a skill, course, or a learning program.
 
-# Create learning plans  {#createlearningplans}
+# Create learning plans {#createlearningplans}
 
 To create a learning plan, you must log in as an Administrator.
 

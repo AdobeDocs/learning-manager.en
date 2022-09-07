@@ -364,6 +364,7 @@ To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed
 
 # Previous releases of Learning Manager {#previousreleasesofcaptivateprime}
 
+* [Learning Manager | January 2022 release](whats-new-jan-2022.md)
 * [Learning Manager | October 2021 release](whats-new-october-2021.md)
 * [Learning Manager | August 2021 release](whats-new-august-2021.md)
 * [Learning Manager | February 2021 release](whats-new-february-2021.md)
@@ -375,7 +376,7 @@ To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed
  <tbody>
   <tr> 
    <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br> </p></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
   </tr> 
  </tbody>
 </table>

@@ -15,7 +15,7 @@ title: Integration Admin
  </tbody>
 </table>
 
-# Features  {#features}
+# Features {#features}
 
 * [Migration manual](integration-admin/feature-summary/migration-manual.md)  
 

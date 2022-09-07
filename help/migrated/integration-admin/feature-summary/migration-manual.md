@@ -7,7 +7,7 @@ title: Migration manual
 
 # Migration manual {#migration-manual}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
 
@@ -130,172 +130,172 @@ Find below, the standard CSV specifications that you can use to map with your ex
 <table border="1" cellspacing="0" cellpadding="0" width="100%"> 
  <tbody> 
   <tr> 
-   <th><p>Sl.no</p> </th> 
-   <th><p>File Name</p> </th> 
-   <th><p>Description of contents</p> </th> 
-   <th><p>Notes</p> </th> 
+   <th><p>Sl.no</p></th> 
+   <th><p>File Name</p></th> 
+   <th><p>Description of contents</p></th> 
+   <th><p>Notes</p></th> 
   </tr> 
   <tr> 
-   <td><p>1</p> </td> 
-   <td><p>module.xlsx</p> </td> 
-   <td><p>Metadata for module.csv</p> </td> 
+   <td><p>1</p></td> 
+   <td><p>module.xlsx</p></td> 
+   <td><p>Metadata for module.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>2</p> </td> 
-   <td><p>badge.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;badge.xlsx</p> </td> 
+   <td><p>2</p></td> 
+   <td><p>badge.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;badge.xlsx</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>3</p> </td> 
-   <td><p>course.xlsx</p> </td> 
-   <td><p>Metadata for course.csv</p> </td> 
-   <td><p>Mention one author name for a given course as sometimes multiple author names are not displayed accurately in the application after migration. The courseCreationDate field is removed.</p> </td> 
+   <td><p>3</p></td> 
+   <td><p>course.xlsx</p></td> 
+   <td><p>Metadata for course.csv</p></td> 
+   <td><p>Mention one author name for a given course as sometimes multiple author names are not displayed accurately in the application after migration. The courseCreationDate field is removed.</p></td> 
   </tr> 
   <tr> 
-   <td><p>4</p> </td> 
-   <td><p>module_version.xlsx&nbsp;</p> </td> 
-   <td><p>Metadata for&nbsp;module_version.csv</p> </td> 
-   <td><p>Ensure that you provide the URL path of Box account folder where you uploaded the content.&nbsp;</p> </td> 
+   <td><p>4</p></td> 
+   <td><p>module_version.xlsx&nbsp;</p></td> 
+   <td><p>Metadata for&nbsp;module_version.csv</p></td> 
+   <td><p>Ensure that you provide the URL path of Box account folder where you uploaded the content.&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td><p>5</p> </td> 
-   <td><p>course_instance.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;course_instance.csv&nbsp;</p> </td> 
+   <td><p>5</p></td> 
+   <td><p>course_instance.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;course_instance.csv&nbsp;</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>6</p> </td> 
-   <td><p>session.xlsx</p> </td> 
-   <td><p>Metadata for session.csv</p> </td> 
-   <td><p>Ensure that every entry in the session csv is associated with at least one Classroom/Virtual Classroom module</p> </td> 
+   <td><p>6</p></td> 
+   <td><p>session.xlsx</p></td> 
+   <td><p>Metadata for session.csv</p></td> 
+   <td><p>Ensure that every entry in the session csv is associated with at least one Classroom/Virtual Classroom module</p></td> 
   </tr> 
   <tr> 
-   <td><p>7</p> </td> 
-   <td><p>course_module.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;course_module.csv</p> </td> 
+   <td><p>7</p></td> 
+   <td><p>course_module.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;course_module.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>8</p> </td> 
-   <td><p>skill.xlsx</p> </td> 
-   <td><p>Metadata for skill.csv</p> </td> 
+   <td><p>8</p></td> 
+   <td><p>skill.xlsx</p></td> 
+   <td><p>Metadata for skill.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>9</p> </td> 
-   <td><p>skill_level.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;skill_level.csv</p> </td> 
+   <td><p>9</p></td> 
+   <td><p>skill_level.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;skill_level.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>10</p> </td> 
-   <td><p>skill_course.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;skill_course.csv</p> </td> 
+   <td><p>10</p></td> 
+   <td><p>skill_course.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;skill_course.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>11</p> </td> 
-   <td><p>certification.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;Certification.csv</p> </td> 
-   <td>The&nbsp;certificationCreationDate field is now removed.<br> </td> 
+   <td><p>11</p></td> 
+   <td><p>certification.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;Certification.csv</p></td> 
+   <td>The&nbsp;certificationCreationDate field is now removed.<br></td> 
   </tr> 
   <tr> 
-   <td><p>12</p> </td> 
-   <td><p>certification_course.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;certification_course.csv</p> </td> 
+   <td><p>12</p></td> 
+   <td><p>certification_course.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;certification_course.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>13</p> </td> 
-   <td><p>certification_commit.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;certification_commit.csv</p> </td> 
+   <td><p>13</p></td> 
+   <td><p>certification_commit.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;certification_commit.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>14</p> </td> 
-   <td><p>learning_program.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;learning_program.csv</p> </td> 
-   <td>The&nbsp;dateAdded field is removed.<br> </td> 
+   <td><p>14</p></td> 
+   <td><p>learning_program.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;learning_program.csv</p></td> 
+   <td>The&nbsp;dateAdded field is removed.<br></td> 
   </tr> 
   <tr> 
-   <td><p>15</p> </td> 
-   <td><p>learning_program_course.xls&nbsp;</p> </td> 
-   <td><p>Metadata for&nbsp;learning_program_course.csv&nbsp;</p> </td> 
+   <td><p>15</p></td> 
+   <td><p>learning_program_course.xls&nbsp;</p></td> 
+   <td><p>Metadata for&nbsp;learning_program_course.csv&nbsp;</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>16</p> </td> 
-   <td><p>learning_program_instance.xlsx&nbsp;</p> </td> 
-   <td><p>Metadata for learning_program_instance.csv</p> </td> 
+   <td><p>16</p></td> 
+   <td><p>learning_program_instance.xlsx&nbsp;</p></td> 
+   <td><p>Metadata for learning_program_instance.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>17</p> </td> 
-   <td><p>learning_program_instance_course_instance.xlsx&nbsp;</p> </td> 
-   <td><p>Metadata for learning_program_instance_course_instance.csv</p> </td> 
+   <td><p>17</p></td> 
+   <td><p>learning_program_instance_course_instance.xlsx&nbsp;</p></td> 
+   <td><p>Metadata for learning_program_instance_course_instance.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>18</p> </td> 
-   <td><p>job_aid.xlsx</p> </td> 
-   <td><p>Metadata for job_aid.csv</p> </td> 
-   <td><p>Every job_aid migrated requires to have one or more job_aid versions.</p> </td> 
+   <td><p>18</p></td> 
+   <td><p>job_aid.xlsx</p></td> 
+   <td><p>Metadata for job_aid.csv</p></td> 
+   <td><p>Every job_aid migrated requires to have one or more job_aid versions.</p></td> 
   </tr> 
   <tr> 
-   <td><p>19</p> </td> 
-   <td><p>Job_aid_version.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;job_aid_version.csv</p> </td> 
+   <td><p>19</p></td> 
+   <td><p>Job_aid_version.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;job_aid_version.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>20</p> </td> 
-   <td><p>job_aid_course.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;job_aid_course.csv</p> </td> 
+   <td><p>20</p></td> 
+   <td><p>job_aid_course.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;job_aid_course.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>21</p> </td> 
-   <td><p>job_aid_skills.xlsx</p> </td> 
-   <td><p>Metadata for job_aid_skills.csv</p> </td> 
+   <td><p>21</p></td> 
+   <td><p>job_aid_skills.xlsx</p></td> 
+   <td><p>Metadata for job_aid_skills.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>22</p> </td> 
-   <td><p>enrollments.xlsx</p> </td> 
-   <td><p>Metadata for &nbsp;enrollments.csv</p> </td> 
+   <td><p>22</p></td> 
+   <td><p>enrollments.xlsx</p></td> 
+   <td><p>Metadata for &nbsp;enrollments.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>23</p> </td> 
-   <td><p>certification_enrollement.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;certification_enrollement.csv</p> </td> 
+   <td><p>23</p></td> 
+   <td><p>certification_enrollement.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;certification_enrollement.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>24</p> </td> 
-   <td><p>learning_program_enrollment.xlsx</p> </td> 
-   <td><p>Metadata for learning_program_enrollment.csv<br> <br> </p> </td> 
+   <td><p>24</p></td> 
+   <td><p>learning_program_enrollment.xlsx</p></td> 
+   <td><p>Metadata for learning_program_enrollment.csv<br><br></p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>25</p> </td> 
-   <td><p>job_aid_enrollment.xlsx</p> </td> 
-   <td><p>Metadata for&nbsp;job_aid_enrollment.csv</p> </td> 
+   <td><p>25</p></td> 
+   <td><p>job_aid_enrollment.xlsx</p></td> 
+   <td><p>Metadata for&nbsp;job_aid_enrollment.csv</p></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><p>26</p> </td> 
-   <td><p>user_course_grade.xlsx</p> </td> 
-   <td><p><br> Metadata for user_course_grade.csv</p> </td> 
-   <td><p>Provide the required learner records data in the .csv file even though they are not mandatory. Without this info, even if the .csv is processed for migration, the Learning Manager application may not reflect any data.&nbsp;sample-csvs.zip&nbsp;file contains seven .csv files with the similar naming convention as above.</p> </td> 
+   <td><p>26</p></td> 
+   <td><p>user_course_grade.xlsx</p></td> 
+   <td><p><br>Metadata for user_course_grade.csv</p></td> 
+   <td><p>Provide the required learner records data in the .csv file even though they are not mandatory. Without this info, even if the .csv is processed for migration, the Learning Manager application may not reflect any data.&nbsp;sample-csvs.zip&nbsp;file contains seven .csv files with the similar naming convention as above.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 Learning Manager supports date and time values in UTF 8 and 32 bit format only. You may get errors during migration if you mention date in CSV files with an out of range date as 2038-07-17T08:53:21.000Z or 1980-04-17T08:13:25.322Z.&nbsp;
-[sample-csvs.zip](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/migration-manual/jcr_content/main-pars/download_section_654561273/download-1/sample-csvs.zip) [CSV-Spec.zip](/content/dam/help/en/learning-manager/integration-admin/feature-summary/migration-manual/jcr_content/root/content/flex/items/position/position-par/download_section_654561273/download-2/CSV-Spec.zip) You need to be aware of the following dependencies on CSV files during import:
+[sample-csvs.zip](assets/sample-csvs.zip) [CSV-Spec.zip](/content/dam/help/en/learning-manager/integration-admin/feature-summary/migration-manual/jcr_content/root/content/flex/items/position/position-par/download_section_654561273/download-2/CSV-Spec.zip) You need to be aware of the following dependencies on CSV files during import:
 
 * module_version.csv is dependent on module.csv
 * course_instance.csv is dependent on course.csv

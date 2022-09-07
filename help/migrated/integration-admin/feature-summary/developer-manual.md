@@ -7,7 +7,7 @@ contentowner: jayakarr
 
 # Application developer manual {#application-developer-manual}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Learning Manager.
 
@@ -50,10 +50,13 @@ Body of the post request:
 ```
 client_id: 
 <enter your clientid>
-  & client_secret: 
+  & 
+ client_secret: 
  <enter your clientsecret>
-   & code: 
-  <code from step 1> </code> 
+   & 
+  code: 
+  <code from step 1> 
+   </code> 
  </enter> 
 </enter>
 ```
@@ -69,10 +72,13 @@ Body of the post request:
 ```
 client_id: 
 <enter your clientid>
-  & client_secret: 
+  & 
+ client_secret: 
  <enter your clientsecret>
-   & refresh_token: 
+   & 
+  refresh_token: 
   <refresh token> 
+    
   </refresh> 
  </enter> 
 </enter>
@@ -135,7 +141,29 @@ For example userId can be 746783 and the userSkills id: 746783_4426_1.&nbsp;
 **Response of API call**
 
 ```
-\{ "links": {"self": "https://captivateprime.adobe.com/primeapi/v2/users/746783/userSkills/746783_4426_1?include=skillLevel.skill&fields[userSkill]=pointsEarned&fields[skillLevel]=maxCredits&fields[skill]=name"}, "data": { "id": "746783_4426_1", "type": "userSkill", "attributes": {"pointsEarned": 5}, "links": {"self": "https://captivateprime.adobe.com/primeapi/v2/users/746783/userSkills/746783_4426_1"} }, "included": [ { "id": "4426", "type": "skill", "attributes": {"name": "Java"}, "links": {"self": "https://captivateprime.adobe.com/primeapi/v2/skills/4426"} }, { "id": "4426_1", "type": "skillLevel", "attributes": {"maxCredits": 10} } ] }
+\{ 
+ "links": {"self": "https://captivateprime.adobe.com/primeapi/v2/users/746783/userSkills/746783_4426_1?include=skillLevel.skill&fields[userSkill]=pointsEarned&fields[skillLevel]=maxCredits&fields[skill]=name"}, 
+ "data": { 
+ "id": "746783_4426_1", 
+ "type": "userSkill", 
+ "attributes": {"pointsEarned": 5}, 
+ "links": {"self": "https://captivateprime.adobe.com/primeapi/v2/users/746783/userSkills/746783_4426_1"} 
+ }, 
+ "included": [ 
+ { 
+ "id": "4426", 
+ "type": "skill", 
+ "attributes": {"name": "Java"}, 
+ "links": {"self": "https://captivateprime.adobe.com/primeapi/v2/skills/4426"} 
+ }, 
+ { 
+ "id": "4426_1", 
+ "type": "skillLevel", 
+ "attributes": {"maxCredits": 10} 
+ } 
+ ] 
+} 
+
 ```
 
 ## Learning Manager models {#models}
@@ -282,7 +310,7 @@ Following are the various elements of the Learning Manager class diagram in V2 A
    <td> <g class="gr_ gr_64 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling only-del replaceWithoutSep" id="64" data-gr-id="64">
       badge 
     </g></td> 
-   <td>Badge is a token of accomplishment that learners get when they reach specific milestones as they progress within a course.&nbsp;<br> </td> 
+   <td>Badge is a token of accomplishment that learners get when they reach specific milestones as they progress within a course.&nbsp;<br></td> 
   </tr> 
   <tr> 
    <td> <g class="gr_ gr_66 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling only-del replaceWithoutSep" id="66" data-gr-id="66">
@@ -302,15 +330,15 @@ Following are the various elements of the Learning Manager class diagram in V2 A
       an 
     </g> <g class="gr_ gr_54 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="54" data-gr-id="54">
       loResource 
-    </g> are equivalent in terms of the learning objective, but they differ from each other in terms of delivery type or content locale.<br> </td> 
+    </g> are equivalent in terms of the learning objective, but they differ from each other in terms of delivery type or content locale.<br></td> 
   </tr> 
   <tr> 
    <td>userNotification</td> 
-   <td>This model contains notification information pertaining to a learner.<br> </td> 
+   <td>This model contains notification information pertaining to a learner.<br></td> 
   </tr> 
   <tr> 
    <td>userSkill</td> 
-   <td>UserSkill indicates how much of a&nbsp;single skill level is achieved by a single user.<br> </td> 
+   <td>UserSkill indicates how much of a&nbsp;single skill level is achieved by a single user.<br></td> 
   </tr> 
   <tr> 
    <td>userBadge</td> 
@@ -318,25 +346,25 @@ Following are the various elements of the Learning Manager class diagram in V2 A
       with 
     </g> a single user. It contains details such as when was it achieved, <g class="gr_ gr_58 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="58" data-gr-id="58">
       assertionUrl 
-    </g> and so on.&nbsp;<br> </td> 
+    </g> and so on.&nbsp;<br></td> 
   </tr> 
   <tr> 
    <td>skill</td> 
-   <td>Skills model consists of levels and credits. Skills can be acquired by learners after relevant course completion.&nbsp;<br> </td> 
+   <td>Skills model consists of levels and credits. Skills can be acquired by learners after relevant course completion.&nbsp;<br></td> 
   </tr> 
   <tr> 
    <td>skillLevel</td> 
-   <td>A skill level comprises of one or many courses to be consumed in order to acquire a level along with its associated credits.&nbsp;<br> </td> 
+   <td>A skill level comprises of one or many courses to be consumed in order to acquire a level along with its associated credits.&nbsp;<br></td> 
   </tr> 
   <tr> 
    <td>learningObject</td> 
    <td>A Learning Object is an abstraction for various kinds of objects which users can enroll into and learn from. Currently Prime has the four types of Learning Objects – Course, Certification, Learning Program <g class="gr_ gr_82 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-ins replaceWithoutSep" id="82" data-gr-id="82">
       and 
-    </g> Job Aid.<br> </td> 
+    </g> Job Aid.<br></td> 
   </tr> 
   <tr> 
-   <td>learningObjectInstance<br> </td> 
-   <td>A specific instance of a learning object.<br> </td> 
+   <td>learningObjectInstance<br></td> 
+   <td>A specific instance of a learning object.<br></td> 
   </tr> 
   <tr> 
    <td>learningObjectResource</td> 
@@ -346,27 +374,27 @@ Following are the various elements of the Learning Manager class diagram in V2 A
       of 
     </g> more modules. In Prime, a module can be delivered in a variety of equivalent ways. Therefore the <g class="gr_ gr_53 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="53" data-gr-id="53">
       loResource 
-    </g> essentially encapsulates all those equivalent resources.<br> </td> 
+    </g> essentially encapsulates all those equivalent resources.<br></td> 
   </tr> 
   <tr> 
-   <td>loResourceGrade<br> </td> 
+   <td>loResourceGrade<br></td> 
    <td>This encapsulates the outcome of the user consuming a specific resource in the context of a learning object he is enrolled into. It has information such as the duration spent by <g class="gr_ gr_48 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" id="48" data-gr-id="48">
       user 
-    </g> in the resource, percentage progress made by the user, pass/fail status and the score obtained by the user in any associated quiz.<br> </td> 
+    </g> in the resource, percentage progress made by the user, pass/fail status and the score obtained by the user in any associated quiz.<br></td> 
   </tr> 
   <tr> 
-   <td>calendar<br> </td> 
+   <td>calendar<br></td> 
    <td>A calendar object is a list of <g class="gr_ gr_42 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" id="42" data-gr-id="42">
       upcoming classroom 
-    </g> or virtual classroom courses that the user can enroll into.<br> </td> 
+    </g> or virtual classroom courses that the user can enroll into.<br></td> 
   </tr> 
   <tr> 
-   <td>l1FeedbackInfo<br> </td> 
-   <td>L1 Feedback encapsulates the answers provided by a learner for the feedback questions associated with Learning Objects. Typically this is collected after the user completes a Learning Object&nbsp;if configured&nbsp;to collect such feedback from learners.<br> </td> 
+   <td>l1FeedbackInfo<br></td> 
+   <td>L1 Feedback encapsulates the answers provided by a learner for the feedback questions associated with Learning Objects. Typically this is collected after the user completes a Learning Object&nbsp;if configured&nbsp;to collect such feedback from learners.<br></td> 
   </tr> 
   <tr> 
-   <td>enrollment<br> </td> 
-   <td>This abstraction encapsulates the details pertaining to the transaction representing the assignment of a specific user to a specific learning object instance.<br> </td> 
+   <td>enrollment<br></td> 
+   <td>This abstraction encapsulates the details pertaining to the transaction representing the assignment of a specific user to a specific learning object instance.<br></td> 
   </tr> 
  </tbody> 
 </table>

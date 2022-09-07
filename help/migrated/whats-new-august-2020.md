@@ -21,9 +21,9 @@ In addition, there are many useful features around content management, APIs and 
   <tr> 
    <td> <img src="assets/reporting-enhancements-100.jpg"><h3 id="Reportingenhancements">Reporting enhancements</h3><p>Administrators can now view ready-made reports to view the overall activity in the account. It helps the Administrator immensely to gauge the health of the account in three major aspects:&nbsp;&nbsp;</p> 
     <ul> 
-     <li>Learning Summary&nbsp;<br> </li> 
-     <li>User Activity&nbsp;<br> </li> 
-     <li>Training content&nbsp;<br> </li> 
+     <li>Learning Summary&nbsp;<br></li> 
+     <li>User Activity&nbsp;<br></li> 
+     <li>Training content&nbsp;<br></li> 
     </ul> <p>For more information, see <a disablelinktracking="false" href="administrators/feature-summary/reports.md#dashboards" target="_blank"><em><strong>Dashboards in Learning Manager</strong></em></a>.</p></td> 
    <td> <img src="assets/private-content-folders-100.jpg"><h3 id="PrivateContentFolders">Private Content Folders</h3><p>All contents of the Content Library in Learning Manager&nbsp;are&nbsp;always visible to all authors, including custom authors. With this release,&nbsp;Administrator can configure private content folders and provide its access to specific custom-authors using Custom Roles.&nbsp;Thus, an Administrator can control the visibility of the content in the Content Library to specific authors as needed.</p> <p>For more information, see the following:</p> 
     <ul> 
@@ -170,7 +170,22 @@ Export feedback report
 **Sample body**
 
 ```
-\{ "data": { "type": "job", "attributes": { "description": "Tesing callback url", "jobType": "generateFeedbackReport", "callbackUrl" : "http://callback/url", "payload":{ "fromDate": "2020-05-05T18:30:00.000Z", "toDate": "2020-05-13T18:29:59.999Z", "courseIds": "123,456", "learningProgramIds": "1245,15", } } } }
+\{ 
+ "data": { 
+ "type": "job", 
+ "attributes": { 
+ "description": "Tesing callback url", 
+ "jobType": "generateFeedbackReport", 
+ "callbackUrl" : "http://callback/url", 
+ "payload":{ 
+ "fromDate": "2020-05-05T18:30:00.000Z", 
+ "toDate": "2020-05-13T18:29:59.999Z", 
+ "courseIds": "123,456", 
+ "learningProgramIds": "1245,15", 
+ } 
+ } 
+ } 
+}
 ```
 
 **Method**
@@ -186,7 +201,20 @@ Export gamification report
 *primeapi/v2/jobs*
 
 ```
-\{ "data": { "type": "job", "attributes": { "description": "Tesing callback url", "jobType": "generateGamificationTranscript", "callbackUrl" : " http://callback/url ", "payload":{ "userGroups": "593664,593662", "users": "7442858" } } } }
+\{ 
+ "data": { 
+ "type": "job", 
+ "attributes": { 
+ "description": "Tesing callback url", 
+ "jobType": "generateGamificationTranscript", 
+ "callbackUrl" : " http://callback/url ", 
+ "payload":{ 
+ "userGroups": "593664,593662", 
+ "users": "7442858" 
+ } 
+ } 
+ } 
+}
 ```
 
 **Method**
@@ -202,7 +230,20 @@ Export login/access report
 *primeapi/v2/jobs*
 
 ```
-\{ "data": { "type": "job", "attributes": { "description": "Tesing callback url", "jobType": "generateLoginAccessReport", "callbackUrl" : http://callback/url ", "payload":{ "fromDate": "2020-05-05T18:30:00.000Z", "toDate": "2020-05-13T18:29:59.999Z" } } } }
+\{ 
+ "data": { 
+ "type": "job", 
+ "attributes": { 
+ "description": "Tesing callback url", 
+ "jobType": "generateLoginAccessReport", 
+ "callbackUrl" : http://callback/url ", 
+ "payload":{ 
+ "fromDate": "2020-05-05T18:30:00.000Z", 
+ "toDate": "2020-05-13T18:29:59.999Z" 
+ } 
+ } 
+ } 
+}
 ```
 
 **Method**
@@ -218,7 +259,24 @@ Export Learner Transcript
 *primeapi/v2/jobs*
 
 ```
-\{ "data": { "type": "job", "attributes": { "description": "description of your choice", "jobType": "generateLearnerTranscript", "payload":{ "userGroups": "349562", "users": "1,3", "fromDate": "2020-05-05T18:30:00.000Z", "toDate": "2020-05-13T18:29:59.999Z", "catalogIds" :"1,3,45", "includeModuleLevelDetails": "true", "includeDeletedLearners": "true" } } } }
+\{ 
+ "data": { 
+ "type": "job", 
+ "attributes": { 
+ "description": "description of your choice", 
+ "jobType": "generateLearnerTranscript", 
+ "payload":{ 
+ "userGroups": "349562", 
+ "users": "1,3", 
+ "fromDate": "2020-05-05T18:30:00.000Z", 
+ "toDate": "2020-05-13T18:29:59.999Z", 
+ "catalogIds" :"1,3,45", 
+ "includeModuleLevelDetails": "true", 
+ "includeDeletedLearners": "true" 
+ } 
+ } 
+ } 
+}
 ```
 
 **Method**
@@ -234,7 +292,18 @@ User export
 *primeapi/v2/jobs*
 
 ```
-\{ "data": { "type": "job", "attributes": { "description": "description of your choice", "jobType": "generateUsers", "payload":{ "expandMetadata": "true" } } } }
+\{ 
+ "data": { 
+ "type": "job", 
+ "attributes": { 
+ "description": "description of your choice", 
+ "jobType": "generateUsers", 
+ "payload":{ 
+ "expandMetadata": "true" 
+ } 
+ } 
+ } 
+}
 ```
 
 The Job API for user export also exports the metadata as csv fields.
@@ -261,7 +330,9 @@ POST
 **Payload**
 
 ```
-\{ “enroll”:{“course_id”:”course_id_instanceid”} }
+\{ 
+ “enroll”:{“course_id”:”course_id_instanceid”} 
+}
 ```
 
 **Method**
@@ -279,7 +350,9 @@ enrollmentId
 **Payload**
 
 ```
-\{ “enroll”:{“course_id”:”course_id_instanceid”} }
+\{ 
+ “enroll”:{“course_id”:”course_id_instanceid”} 
+}
 ```
 
 The learner should also provide LP id and LP instance&nbsp;id in&nbsp;the&nbsp;query. This&nbsp;operation is only limited to flexi Learning Plans.
@@ -303,7 +376,12 @@ In an L1 feedback payload, provide these responses:
 For example,
 
 ```
-\{ "questionId": "2", "questionText": "[{\\"locale\\":\\"en_US\\",\\"text\\":\\"The training subject matter was relevant to me.\\"},{\\"locale\\":\\"zz_ZZ\\",\\"text\\":\\"The training subject matter was relevant to me.\\"},{\\"locale\\":\\"zh_CN\\",\\"text\\":\\"CN The training subject matter was relevant to me.\\"},{\\"locale\\":\\"es_ES\\",\\"text\\":\\"ES The training subject matter was relevant to me.\\"},{\\"locale\\":\\"fr_FR\\",\\"text\\":\\"Pour moi, le sujet de la formation était pertinent.\\"},{\\"locale\\":\\"de_DE\\",\\"text\\":\\"Der Inhalt der Schulung war für meine Zwecke relevant.\\"},{\\"locale\\":\\"it_IT\\",\\"text\\":\\"L’argomento della formazione era a mio parere rilevante.\\"},{\\"locale\\":\\"pt_BR\\",\\"text\\":\\"A temática do treinamento era interessante para mim.\\"}]", "questionType": "likeability", "userResponse": "Disagree" }
+\{ 
+"questionId": "2", 
+"questionText": "[{\\"locale\\":\\"en_US\\",\\"text\\":\\"The training subject matter was relevant to me.\\"},{\\"locale\\":\\"zz_ZZ\\",\\"text\\":\\"The training subject matter was relevant to me.\\"},{\\"locale\\":\\"zh_CN\\",\\"text\\":\\"CN The training subject matter was relevant to me.\\"},{\\"locale\\":\\"es_ES\\",\\"text\\":\\"ES The training subject matter was relevant to me.\\"},{\\"locale\\":\\"fr_FR\\",\\"text\\":\\"Pour moi, le sujet de la formation était pertinent.\\"},{\\"locale\\":\\"de_DE\\",\\"text\\":\\"Der Inhalt der Schulung war für meine Zwecke relevant.\\"},{\\"locale\\":\\"it_IT\\",\\"text\\":\\"L’argomento della formazione era a mio parere rilevante.\\"},{\\"locale\\":\\"pt_BR\\",\\"text\\":\\"A temática do treinamento era interessante para mim.\\"}]", 
+"questionType": "likeability", 
+"userResponse": "Disagree" 
+}
 ```
 
 **enableFeedbackSource**
@@ -315,7 +393,45 @@ There is a field ***enableFeedbackCource*** in an instance of a Learning Program
 New question type- ***likeability***.
 
 ```
-\{ "mandatory": false, "questionId": "9", "questionType": "likeability", "localizedMetadata": [ { "locale": "en-US", "name": "I had enough opportunity to ask questions during the session." }, { "locale": "zz-ZZ", "name": "I had enough opportunity to ask questions during the session." }, { "locale": "zh-CN", "name": "CN I had enough opportunity to ask questions during the session." }, { "locale": "es-ES", "name": "ES I had enough opportunity to ask questions during the session." }, { "locale": "fr-FR", "name": "J’ai eu suffisamment d’occasions de poser des questions lors de la séance." }, { "locale": "de-DE", "name": "Ich hatte ausreichend Gelegenheit, während der Sitzung Fragen zu stellen." }, { "locale": "it-IT", "name": "Ho avuto opportunità sufficienti per porre domande durante la sessione." }, { "locale": "pt-BR", "name": "Tive bastantes oportunidades de fazer perguntas durante a sessão." } ] }
+\{ 
+ "mandatory": false, 
+ "questionId": "9", 
+ "questionType": "likeability", 
+ "localizedMetadata": [ 
+ { 
+ "locale": "en-US", 
+ "name": "I had enough opportunity to ask questions during the session." 
+ }, 
+ { 
+ "locale": "zz-ZZ", 
+ "name": "I had enough opportunity to ask questions during the session." 
+ }, 
+ { 
+ "locale": "zh-CN", 
+ "name": "CN I had enough opportunity to ask questions during the session." 
+ }, 
+ { 
+ "locale": "es-ES", 
+ "name": "ES I had enough opportunity to ask questions during the session." 
+ }, 
+ { 
+ "locale": "fr-FR", 
+ "name": "J’ai eu suffisamment d’occasions de poser des questions lors de la séance." 
+ }, 
+ { 
+ "locale": "de-DE", 
+ "name": "Ich hatte ausreichend Gelegenheit, während der Sitzung Fragen zu stellen." 
+ }, 
+ { 
+ "locale": "it-IT", 
+ "name": "Ho avuto opportunità sufficienti per porre domande durante la sessione." 
+ }, 
+ { 
+ "locale": "pt-BR", 
+ "name": "Tive bastantes oportunidades de fazer perguntas durante a sessão." 
+ } 
+ ] 
+ }
 ```
 
 **Enrollment ID**
@@ -325,7 +441,66 @@ Provide enrollment ids for L1 feedback.
 **POST /enrollments/{id}/l1Feedback**
 
 ```
-\{ "data": { "type": "feedbackInfo", "attributes": { "showAutomatically": false, "score": 40, "questions": [ { "mandatory": true, "questionId": "1", "questionType": "scaleTen", "answer": "4" }, { "mandatory": false, "questionId": "7", "questionType": "likeability", "answer": "7" }, { "mandatory": false, "questionId": "8", "questionType": "likeability", "answer": "8" }, { "mandatory": false, "questionId": "9", "questionType": "likeability", "answer": "9" }, { "mandatory": false, "questionId": "10", "questionType": "likeability", "answer": "10" }, { "mandatory": false, "questionId": "11", "questionType": "likeability", "answer": "11" }, { "mandatory": true, "questionId": "l1Qualitative1", "questionType": "l1Qualitative", "answer": "l1Qualitative1" }, { "mandatory": false, "questionId": "l1Qualitative2", "questionType": "l1Qualitative", "answer": "l1Qualitativ2" } ] } } }
+\{ 
+"data": 
+{ 
+"type": "feedbackInfo", 
+"attributes": { 
+"showAutomatically": false, 
+"score": 40, 
+"questions": [ 
+{ 
+"mandatory": true, 
+"questionId": "1", 
+"questionType": "scaleTen", 
+"answer": "4" 
+}, 
+{ 
+"mandatory": false, 
+"questionId": "7", 
+"questionType": "likeability", 
+"answer": "7" 
+}, 
+{ 
+"mandatory": false, 
+"questionId": "8", 
+"questionType": "likeability", 
+"answer": "8" 
+}, 
+{ 
+"mandatory": false, 
+"questionId": "9", 
+"questionType": "likeability", 
+"answer": "9" 
+}, 
+{ 
+"mandatory": false, 
+"questionId": "10", 
+"questionType": "likeability", 
+"answer": "10" 
+}, 
+{ 
+"mandatory": false, 
+"questionId": "11", 
+"questionType": "likeability", 
+"answer": "11" 
+}, 
+{ 
+"mandatory": true, 
+"questionId": "l1Qualitative1", 
+"questionType": "l1Qualitative", 
+"answer": "l1Qualitative1" 
+}, 
+{ 
+"mandatory": false, 
+"questionId": "l1Qualitative2", 
+"questionType": "l1Qualitative", 
+"answer": "l1Qualitativ2" 
+} 
+] 
+} 
+} 
+}
 ```
 
 **Other enhancements**
@@ -428,7 +603,7 @@ To see the known issues in this update, refer to [***Known issues***](release-no
  <tbody>
   <tr> 
    <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br> </p></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
   </tr> 
  </tbody>
 </table>

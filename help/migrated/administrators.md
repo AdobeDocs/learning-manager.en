@@ -20,11 +20,11 @@ contentowner: manochan
 
 [Best practices guide for Administrators to set up and get started with Learning Manager](administrators/getting-started.md)
 
-# Frequently asked questions (FAQ)  {#frequentlyaskedquestionsfaq}
+# Frequently asked questions (FAQ) {#frequentlyaskedquestionsfaq}
 
 [Frequently asked questions for Administrator role](administrators/frequently-asked-questions-for-administrators.md)
 
-# Features  {#features}
+# Features {#features}
 
 * [Color themes and branding](administrators/feature-summary/themes.md)
 * [Adobe Connect integration](administrators/feature-summary/adobeconnect-integration.md)
@@ -51,4 +51,4 @@ contentowner: manochan
 
 # Technical Reference {#technicalreference}
 
-[You can download the Adobe Learning Manager Technical Reference guide here.](/content/dam/help/en/captivate-prime/administrators/jcr:content/main-pars/download_section/download-1/Technical Overview.pdf)  
+[You can download the Adobe Learning Manager Technical Reference guide here.](assets/technicaloverview.pdf)  

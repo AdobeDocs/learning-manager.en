@@ -10,13 +10,13 @@ contentowner: manochan
 
 Learn how to view and download badges using the Learning Manager Learner app.
 
-# Badges  {#Badges-1}
+# Badges {#Badges-1}
 
 Badges are a measure of achievement that your employee can earn upon completing a course.&nbsp;Adobe Learning Manager introduces one of the latest e-learning concepts called Badges. Professionals across the globe use these badges as a representation of particular skill or a learning achievement.
 
 Badges help learners to better define themselves and showcase their granular set of skills in addition to bringing credibility and good visibility for learners.
 
-# Viewing and downloading badges  {#viewinganddownloadingbadges}
+# Viewing and downloading badges {#viewinganddownloadingbadges}
 
 As a learner, you can view badges from the My Achievements widget on the Learners Home page. A list of badges appears at the top of the page adjacent to your profile. At a time, you can view only up to seven&nbsp;Badges&nbsp;on the home page. However, you can view complete list of badges in dialog, when you click&nbsp;any badge.
 
@@ -37,7 +37,7 @@ You can also download a set of badges or an individual badge in PDF format.
 
 **For certificates with expiry i.e., recurring certificates, Prime mentions the validity date for the certificate. The dates will appear in the UI and on the certificate PDF.**
 
-# Open badges  {#openbadges}
+# Open badges {#openbadges}
 
 The Open Badges backpack platform, which Learning Manager supports, is being **retired**. At present, Learning Manager does&nbsp;not support Open Badges.
 

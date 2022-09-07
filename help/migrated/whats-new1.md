@@ -25,7 +25,7 @@ The **December 2020** **release of Adobe Learning Manager**&nbsp;features an&nbs
     <ul> 
      <li><a disablelinktracking="false" href="administrators/feature-summary/customize-learner-homepage.md">Customize a learner's homepage</a></li> 
     </ul></td> 
-   <td> <img src="assets/responsive.png"><h3 id="Mobilewebresponsivelayout">Mobile web responsive layout</h3><p>A completely responsive mobile web experience that ensures that learners use their devices to consume training even if they haven’t installed the mobile app.</p> <p>For more information, see&nbsp;<a disablelinktracking="false" href="learners/feature-summary/ipad-android-tablet-users.md#responsive">Mobile web responsive layout</a>.<br> </p></td> 
+   <td> <img src="assets/responsive.png"><h3 id="Mobilewebresponsivelayout">Mobile web responsive layout</h3><p>A completely responsive mobile web experience that ensures that learners use their devices to consume training even if they haven’t installed the mobile app.</p> <p>For more information, see&nbsp;<a disablelinktracking="false" href="learners/feature-summary/ipad-android-tablet-users.md#responsive">Mobile web responsive layout</a>.<br></p></td> 
   </tr> 
  </tbody>
 </table>
@@ -159,8 +159,8 @@ For more information, see [Learning Manager connectors](integration-admin/featur
 <table> 
  <tbody>
   <tr> 
-   <td> <p style="text-align: center;"><strong>Learner Transcripts</strong><br> </p><img src="assets/zip-lt.png"></td> 
-   <td> <p style="text-align: center;"><strong>xAPI</strong><br> </p><img src="assets/zip-xapi.png"></td> 
+   <td> <p style="text-align: center;"><strong>Learner Transcripts</strong><br></p><img src="assets/zip-lt.png"></td> 
+   <td> <p style="text-align: center;"><strong>xAPI</strong><br></p><img src="assets/zip-xapi.png"></td> 
   </tr> 
  </tbody>
 </table>
@@ -250,7 +250,7 @@ To see the known issues in this update, refer to [***Known issues***](release-no
  <tbody>
   <tr> 
    <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br> </p></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
   </tr> 
  </tbody>
 </table>

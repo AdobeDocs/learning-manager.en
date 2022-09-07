@@ -19,19 +19,15 @@ For example, when on-boarding new employees, an organization conducts training o
 
 Learning paths makes the delivery of a training program convenient and hassle-free. Here are some of the key benefits of a Learning Path:
 
-1. `Assign a skill and skill level to a Learning Path directly. No need to match skill credits. Once learner completes a Learning Path, he/she achieves the mentioned skill level.`  
-
-1. `Ability to embed an existing Learning Path into a new Learning Path. Embedding capability is available only for 1 level of embedding. Thus, a Learning Path already containing an embedded Path, cannot be embedded in a new Path.`  
-
-1. `Ability to add Pre-requisites, Job Aids and resources at a Learning Path level.`  
-
-1. `Ability to create sections. Each section can have a title.`  
-
-1. `Ability to make sections mandatory and setup completion criteria.`
+1. Assign a skill and skill level to a Learning Path directly. No need&nbsp;to match&nbsp;skill credits. Once&nbsp;learner&nbsp;completes a Learning Path, he/she achieves the mentioned skill level.&nbsp;  
+1. Ability to embed an existing Learning Path into a new Learning Path. Embedding capability is available only for 1 level of embedding.&nbsp;Thus,&nbsp;a Learning Path already containing an embedded&nbsp;Path,&nbsp;cannot be embedded in a new Path.&nbsp;  
+1. Ability to add Pre-requisites, Job Aids and resources at a Learning Path level.&nbsp;  
+1. Ability to create sections. Each section can have a title.&nbsp;  
+1. Ability to make sections mandatory and setup completion criteria.
 
 # Add a Learning Path in Learning Manager&nbsp;
 
-`In Learning Manager, in the Admin app, click **Learning Path** on the left panel.`
+In Learning Manager, in the&nbsp;Admin&nbsp;app, click&nbsp;**Learning Path**&nbsp;on the left panel.
 
 In the **Learning Path** page, click&nbsp;**Add**. Enter the details.
 
@@ -109,7 +105,7 @@ There are three options:
 1. **Root Learning Path:** The learner gets notifications for any incomplete course belonging to a parent Learning Path.
 1. **Learning Path and first level child only:** The learner gets notifications of any incomplete course that is a first child of a parent Learning Path.
 
-The notification reminders are triggered based on the option. By default, the option  `**All Levels Courses and Learning Paths** is enabled for an instance.`
+The notification reminders are triggered based on the option. By default, the option&nbsp;**All Levels Courses and Learning Paths** is enabled for an instance.
 
 ## Important Note
 
@@ -123,7 +119,7 @@ The&nbsp;**Settings&nbsp;> General**&nbsp;page has a new option to enable Learni
 
 ## Other Learning Path-related&nbsp;details&nbsp;
 
-### `Learning Path option is disabled/unchecked in Admin Settings`
+### Learning Path option is disabled/unchecked in Admin Settings
 
 **Accounts using Native Web apps**
 

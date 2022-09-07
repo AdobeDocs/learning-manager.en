@@ -8,13 +8,13 @@ contentowner: manochan
 
 # Reports {#reports}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Learn about the Reports associated with Administrator role in Learning Manager application.
 
 Adobe Learning Manager enables you to create varied reports to track, monitor, and control learner activities. Learners activities are tracked and captured automatically into the database. Manager and Administrator reports are generated from the database.
 
-# Overview  {#overview}
+# Overview {#overview}
 
 Reports generation process is similar for both Administrator and Manager. Managers can view reports corresponding to their subordinates whereas Administrator can view all organization-wide reports.
 
@@ -202,17 +202,17 @@ The data does not display as expected when **All Users** and** 12 months** filte
   <tr> 
    <td><p>2</p></td> 
    <td><p>Completion Ratio (%)</p></td> 
-   <td><p>Ratio of total users who have completed the course to the total users who have started the course.<br> </p></td> 
+   <td><p>Ratio of total users who have completed the course to the total users who have started the course.<br></p></td> 
   </tr> 
   <tr> 
    <td><p>3</p></td> 
    <td><p>Learner Feedback</p></td> 
-   <td><p>Average of all L1 feedback responses received on a scale of 1 to 10 rounded to the nearest integer.<br> </p></td> 
+   <td><p>Average of all L1 feedback responses received on a scale of 1 to 10 rounded to the nearest integer.<br></p></td> 
   </tr> 
   <tr> 
    <td><p>4</p></td> 
    <td><p>Manager Feedback</p></td> 
-   <td><p>Average of all L3 feedback responses received on a scale of 1 to 5 rounded to the nearest integer<br> </p></td> 
+   <td><p>Average of all L3 feedback responses received on a scale of 1 to 5 rounded to the nearest integer<br></p></td> 
   </tr> 
  </tbody>
 </table>
@@ -409,7 +409,7 @@ You can also create customized user groups using Add users/user groups feature i
 
 In x-axis, choose the user attribute option and select the attribute from the **select **drop-down next to it. To create a customized user group report based on these attributes, you also have to choose the appropriate user group in the filter.&nbsp;
 
-# Types of reports  {#typesofreports}
+# Types of reports {#typesofreports}
 
 Adobe Learning Manager supports four major types of reports such as completion, time spent, skills, and effectiveness. You can use the&nbsp;following report types to generate reports of 300+ variations:
 
@@ -421,7 +421,7 @@ Adobe Learning Manager supports four major types of reports such as completion, 
 * Learner count
 * Certification completion
 
-# Viewing reports  {#viewingreports}
+# Viewing reports {#viewingreports}
 
 On the Reports page, you can view all the reports. You can minimize each report by clicking minus (-) icon at the upper right corner of each report. Click (+) icon to view your report again.
 
@@ -439,7 +439,7 @@ If there are multiple managers reporting to you, you can view the reports quickl
 
 The manager values that you use to view the report are temporary. This view of report is not downloaded when you choose the download option. This view is only temporary view.
 
-# View course reports  {#viewcoursereports}
+# View course reports {#viewcoursereports}
 
 You can view the reports specific to each course by following the below steps:
 

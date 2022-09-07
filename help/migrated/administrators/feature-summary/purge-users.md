@@ -55,7 +55,7 @@ You can select the first 50 users and purge the users in one shot. This allows A
    <th>&nbsp;</th> 
   </tr> 
   <tr> 
-   <td>Delete selected user from the requesting enterprise account.<br> </td> 
+   <td>Delete selected user from the requesting enterprise account.<br></td> 
    <td>Yes</td> 
   </tr> 
   <tr> 

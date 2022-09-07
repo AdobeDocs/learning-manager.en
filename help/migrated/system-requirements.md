@@ -290,4 +290,4 @@ Ensure that the following third-party domains are whitelisted if you are on any 
 
 # Technical overview {#technicaloverview}
 
-[Learning Manager technical overview](/content/dam/help/en/captivate-prime/system-requirements/jcr_content/main-pars/download_section/download-1/captivate_prime_technicaloverview.pdf)  
+[Learning Manager technical overview](assets/captivate-prime-technicaloverview.pdf)  

@@ -10,7 +10,7 @@ contentowner: manochan
 
 Gamification is the use of game thinking and game mechanics in non-game contexts to engage users in earning points while learning.
 
-# Overview  {#overview}
+# Overview {#overview}
 
 Learning Manager allows you to apply a structural gamification layer to the content to engage learners and motivate them to achieve their learning goals. It allows the learners to score points for various learning activities and achieve bronze, silver, gold and platinum levels.
 
@@ -33,7 +33,7 @@ Administrator can create a list of confidential users, reset gamification points
 
 ![](assets/gamification-actions.png) 
 
-# Confidentiality settings  {#confidentialitysettings}
+# Confidentiality settings {#confidentialitysettings}
 
 If required, you can make some higher management users as confidential users. Confidential user's gamification activities are not visible to other learners in the leaderboard.
 
@@ -50,7 +50,7 @@ Confidentiality settings can be applied for both internal and external users.
 1. Click Confidential Users tab to view the list of confidential users. By default, they are not visible. Click the drop-down arrow icon to view the list.
 1. Click the check box against the user name in the confidential users list and click Add to remove the users from the confidential list.
 
-# Reset gamification  {#resetgamification}
+# Reset gamification {#resetgamification}
 
 You can reset the gamification points earned by learner and also reset the configuration settings. If you choose to reset user scores, all the points earned by users are erased and reset to zero. If you choose to reset user scores and configuration settings, then all the default points assigned to levels and tasks are reset to zero.
 
@@ -60,7 +60,7 @@ To reset learner score and configuration, click Reset Gamification and choose an
 
 ![](assets/reset-gamification.png) 
 
-# Disable gamification  {#disablegamification}
+# Disable gamification {#disablegamification}
 
 Click Gamification > Gamification Feature. This allows you to enable the gamification feature and the leaderboard separately for your Learners. Select between Enable for Internal Learners and Enable for External Learners as per the requirement and click OK. All the points are retained when you enable the gamification again.
 
@@ -68,7 +68,7 @@ Click Gamification > Gamification Feature. This allows you to enable the gamific
 
 You can disable gamification for both internal and external users.
 
-# Set up points  {#setuppoints}
+# Set up points {#setuppoints}
 
 Administrators can set up gamification points for learners by following the steps below:
 
@@ -78,7 +78,7 @@ Administrators can set up gamification points for learners by following the step
 1. Modify the frequency of occurrence for tasks such as completing a specific number of courses per month or quarter or a year.
 1. Click Save.
 
-# Tasks  {#tasks}
+# Tasks {#tasks}
 
 There are five gamification tasks of learners for which Administrator can set the points.&nbsp;An illustration depicting all the learners tasks and points is shown below:
 

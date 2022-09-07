@@ -27,34 +27,34 @@ Here is the screen reader and browser combination that we support on desktop:
 <table> 
  <tbody>
   <tr> 
-   <td><p style="text-align: left;">Operating System</p> </td> 
-   <td><p style="text-align: left;">Browser</p> </td> 
-   <td><p style="text-align: left;">Screen reader</p> </td> 
+   <td><p style="text-align: left;">Operating System</p></td> 
+   <td><p style="text-align: left;">Browser</p></td> 
+   <td><p style="text-align: left;">Screen reader</p></td> 
   </tr> 
   <tr> 
-   <td><p>Windows</p> </td> 
-   <td><p>Chrome</p> </td> 
-   <td><p>NVDA</p> </td> 
+   <td><p>Windows</p></td> 
+   <td><p>Chrome</p></td> 
+   <td><p>NVDA</p></td> 
   </tr> 
   <tr> 
-   <td><p>Windows</p> </td> 
-   <td><p>Firefox</p> </td> 
-   <td><p>Jaws</p> </td> 
+   <td><p>Windows</p></td> 
+   <td><p>Firefox</p></td> 
+   <td><p>Jaws</p></td> 
   </tr> 
   <tr> 
-   <td><p>macOS</p> </td> 
-   <td><p>Safari</p> </td> 
-   <td><p>VoiceOver</p> </td> 
+   <td><p>macOS</p></td> 
+   <td><p>Safari</p></td> 
+   <td><p>VoiceOver</p></td> 
   </tr> 
   <tr> 
-   <td><p>Android</p> </td> 
-   <td><p>Chrome</p> </td> 
-   <td><p>Talkback</p> </td> 
+   <td><p>Android</p></td> 
+   <td><p>Chrome</p></td> 
+   <td><p>Talkback</p></td> 
   </tr> 
   <tr> 
-   <td><p>iOS</p> </td> 
-   <td><p>Safari</p> </td> 
-   <td><p>VoiceOver</p> </td> 
+   <td><p>iOS</p></td> 
+   <td><p>Safari</p></td> 
+   <td><p>VoiceOver</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -68,39 +68,39 @@ In addition, Learning Manager supports the following keyboard shortcuts:
 <table> 
  <tbody>
   <tr> 
-   <td><p>Feature</p> </td> 
-   <td><p>Windows</p> </td> 
-   <td><p>macOS</p> </td> 
+   <td><p>Feature</p></td> 
+   <td><p>Windows</p></td> 
+   <td><p>macOS</p></td> 
   </tr> 
   <tr> 
-   <td><p>Skip navigation</p> </td> 
-   <td><p>Alt+1</p> </td> 
-   <td><p>Option+1</p> </td> 
+   <td><p>Skip navigation</p></td> 
+   <td><p>Alt+1</p></td> 
+   <td><p>Option+1</p></td> 
   </tr> 
   <tr> 
-   <td><p>Feature<br> </p> </td> 
-   <td><p>Windows<br> </p> </td> 
-   <td><p>macOS<br> </p> </td> 
+   <td><p>Feature<br></p></td> 
+   <td><p>Windows<br></p></td> 
+   <td><p>macOS<br></p></td> 
   </tr> 
   <tr> 
-   <td><p>User notification<br> </p> </td> 
-   <td><p>Alt+2<br> </p> </td> 
-   <td><p>Option+2<br> </p> </td> 
+   <td><p>User notification<br></p></td> 
+   <td><p>Alt+2<br></p></td> 
+   <td><p>Option+2<br></p></td> 
   </tr> 
   <tr> 
-   <td><p>Profile settings<br> </p> </td> 
-   <td><p>Alt+3<br> </p> </td> 
-   <td><p>Option+3<br> </p> </td> 
+   <td><p>Profile settings<br></p></td> 
+   <td><p>Alt+3<br></p></td> 
+   <td><p>Option+3<br></p></td> 
   </tr> 
   <tr> 
-   <td><p>Global search<br> </p> </td> 
-   <td><p>Alt+4<br> </p> </td> 
-   <td><p>Option+4<br> </p> </td> 
+   <td><p>Global search<br></p></td> 
+   <td><p>Alt+4<br></p></td> 
+   <td><p>Option+4<br></p></td> 
   </tr> 
   <tr> 
-   <td><p>Skip navigation<br> </p> </td> 
-   <td><p>Alt+1<br> </p> </td> 
-   <td><p>Option+1<br> </p> </td> 
+   <td><p>Skip navigation<br></p></td> 
+   <td><p>Alt+1<br></p></td> 
+   <td><p>Option+1<br></p></td> 
   </tr> 
  </tbody>
 </table>
@@ -110,24 +110,24 @@ In addition, Learning Manager supports the following keyboard shortcuts:
 <table> 
  <tbody>
   <tr> 
-   <td><p>Feature</p> </td> 
-   <td><p>Windows</p> </td> 
-   <td><p>macOS</p> </td> 
+   <td><p>Feature</p></td> 
+   <td><p>Windows</p></td> 
+   <td><p>macOS</p></td> 
   </tr> 
   <tr> 
-   <td><p>Play/pause</p> </td> 
-   <td><p>Alt+P</p> </td> 
-   <td><p>Option+P</p> </td> 
+   <td><p>Play/pause</p></td> 
+   <td><p>Alt+P</p></td> 
+   <td><p>Option+P</p></td> 
   </tr> 
   <tr> 
-   <td><p>Alt+V</p> </td> 
-   <td><p>Option+V</p> </td> 
-   <td><p>Volume</p> </td> 
+   <td><p>Alt+V</p></td> 
+   <td><p>Option+V</p></td> 
+   <td><p>Volume</p></td> 
   </tr> 
   <tr> 
-   <td><p>Alt+M</p> </td> 
-   <td><p>Option+M</p> </td> 
-   <td><p>Full screen</p> </td> 
+   <td><p>Alt+M</p></td> 
+   <td><p>Option+M</p></td> 
+   <td><p>Full screen</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -139,7 +139,7 @@ The Learning Manager Learner role supports several other accessibility features 
 1. Semantic structure to the learner role pages including heading, list markup, descriptive titles etc are provided.
 1. Support for browser zoom up to 200% without loss of content or functionality is maintained through-out the learner role.
 1. Colour contrast for text and non-text elements is maintained on learner role. For a better experience use the [Vivid](https://helpx.adobe.com/in/captivate-prime/administrators/feature-summary/themes.html) theme.
-1. `Support of W3C’s WAI ARIA design patterns to maintain consistency and industry best practices.`
+1. Support of W3C’s WAI ARIA design patterns to maintain consistency and industry best practices.
 
 For more information, see:
 
@@ -211,7 +211,7 @@ For a better experience on the learner page, use the [Vivid theme](https://helpx
 
 Adobe Learning Manager continues to focus on Accessibility and plans to improve the current capabilities which will allow learners of the system to navigate through the 'Learner' role better.
 
-### `Closed captioning support for videos`
+### Closed captioning support for videos
 
 While creating a course, authors can upload webVTT files along with the video files. Learners can then view the closed captions when they watch the videos.
 

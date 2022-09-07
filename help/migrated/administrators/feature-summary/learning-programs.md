@@ -8,13 +8,13 @@ contentowner: manochan
 
 # Learning Programs {#learning-programs}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Read this article to learn how to create and manage learning programs in Learning Manager
 
 Learning programs are a set of uniquely designed courses meeting specific learner goals. Administrators create these learning programs for learners. You can view these learning programs as a learner.
 
-# Create a learning program  {#createalearningprogram}
+# Create a learning program {#createalearningprogram}
 
 Administrators can create learning programs. To create a learning program, follow the steps below:
 
@@ -38,7 +38,7 @@ Administrators can create learning programs. To create a learning program, follo
 1. Click **Back to programs**&nbsp;on top of left pane, to view a list of all the learning programs. You can see your newly added learning program being listed there.
 1. You can publish the learning program by clicking Overview in the left pane and choosing Actions>Publish. You can also publish the learning program through Courses and Instances view by clicking Publish at the upper-right corner of the page.
 
-# Add learners to a learning program  {#addlearnerstoalearningprogram}
+# Add learners to a learning program {#addlearnerstoalearningprogram}
 
 For more information on enrolling learners and the steps to follow, see&nbsp; [Enrolling Learners.](courses.md#main-pars_header_1058138132)
 
@@ -60,7 +60,7 @@ Learners can now launch the modules of the selected courses from the start.
 
 **Note: Only failed and incomplete modules of the course will be reset.**
 
-# Create multiple instances of learning programs  {#createmultipleinstancesoflearningprograms}
+# Create multiple instances of learning programs {#createmultipleinstancesoflearningprograms}
 
 You can create multiple instances of a course or learning program.
 
@@ -98,7 +98,7 @@ An admin can fetch quiz score and learner status reports. They can set the repor
 
 ![](assets/report-subscription.jpeg) 
 
-# View quiz scores  {#viewquizscores}
+# View quiz scores {#viewquizscores}
 
 1. Click any learning program tile
 1. Click Quiz Score on the left pane.

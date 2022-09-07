@@ -30,6 +30,6 @@ From this page, you can click each of your skills to view the corresponding data
 
 Only administrators can create and assign skill to learners. Learners are automatically assigned to skill corresponding to the enrolled courses/learning programs.
 
-# Achieve skill  {#achieveskill}
+# Achieve skill {#achieveskill}
 
 A learner can achieve skill as and when they complete the assigned courses/learning programs with skill credits assigned to it. Learners can also achieve skill by self-enrolling to the courses that belong to a particular skill and completing it.

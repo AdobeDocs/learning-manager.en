@@ -8,19 +8,19 @@ contentowner: manochan
 
 # Gamification {#gamification}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Engage users using gamification techniques in Learning Manager.
 
 Gamification is the use of game thinking and game mechanics in non-game contexts to engage&nbsp;users in earning points while learning.
 
-# Overview  {#overview}
+# Overview {#overview}
 
 To engage learners and motivate them to achieve their goals by using gaming techniques, use the gamification feature in Learning Manager. Learners can compete with their colleagues to score points for various learning activities and achieve bronze, silver, gold, and platinum levels.
 
 Learners can also see the achievement level based on the points that they have earned. The levels include Fast learner, Self driven, and so on. **Both internal learners and external learners can access this feature.**
 
-# Leaderboard  {#leaderboard}
+# Leaderboard {#leaderboard}
 
 Leaderboard  is a gamification feature which acts as a scoreboard to showcase the ranking scores of leading competitors. Learners can see their gamification points using Leaderboard.
 
@@ -59,7 +59,7 @@ Adobe Learning Manager now enables an Administrator to activate a gamification c
 
 This feature encourages the users to actively provide feedback, which benefits Learners as well as the Administrators, who now better understand the Learner’s point of view and can better evaluate the efficiency of a course.
 
-# Tasks  {#tasks}
+# Tasks {#tasks}
 
 There are five gamification tasks of learners. You can view gamification points inside the circle at the upper-right corner of the window in the Learners home page. To view the allocation for each task, click Gamification. &nbsp;
 

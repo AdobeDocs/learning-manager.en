@@ -7,7 +7,7 @@ contentowner: manochan
 
 # Settings {#settings}
 
-# Account settings  {#accountsettings}
+# Account settings {#accountsettings}
 
 1. Click the drop-down arrow at the upper-right corner, adjacent to your photo/account and choose Profile **Settings** `.`
 

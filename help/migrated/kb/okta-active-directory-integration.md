@@ -7,7 +7,7 @@ contentowner: nluke
 
 # Okta Active Directory integration with Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
-In this document, you will learn how to integrate Adobe Learning Manager with Okta Active Directory (AD).  `When you integrate Adobe Learning Manager with Okta AD, you can:`
+In this document, you will learn how to integrate Adobe Learning Manager with Okta Active Directory (AD).&nbsp;When you integrate Adobe Learning Manager with Okta AD, you can:
 
 * Check and control Learning Manager user's access in Okta AD.
 * Enable users to be automatically signed in to Adobe Learning Manager with their Okta AD accounts.&nbsp;
@@ -32,7 +32,7 @@ In this document, you will learn how to integrate Adobe Learning Manager with Ok
 
 1. Choose **Create SAML integration** > **General settings page.&nbsp;**Enter an Application Name.
 
-   `Note that this can be any name to uniquely identify your application. Once done, click`**Next** `.`
+   Note that this can be any name to uniquely identify your application. Once done, click **Next**.
 
    ![](assets/cp-saml-integration.png)
 

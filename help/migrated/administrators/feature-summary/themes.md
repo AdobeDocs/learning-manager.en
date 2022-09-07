@@ -80,16 +80,16 @@ The list below displays the components that can be customized. To customize the 
      <li>Only up to 12 custom colors.&nbsp;</li> 
      <li>Colors are applied to all Learning Objects.&nbsp;The colors will be sequentially applied to all the learning objects (trainings) and the hex color code is the required format for all colors, for example,#ffffff.</li> 
      <li>If only one color is provided, that color is applied to all Learning Objects.</li> 
-    </ul> <p>&nbsp;</p> </td> 
+    </ul><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
    <td><p>Cursor pointer image</p></td> 
    <td><p>The custom image appears when a user hovers upon any Learning Object.&nbsp;</p> 
     <ul> 
-     <li>Custom image applied will be shown once a user mouse overs on the Learning Manager web page.<br> </li> 
+     <li>Custom image applied will be shown once a user mouse overs on the Learning Manager web page.<br></li> 
      <li>Recommended size –16x16 or 24x24 px</li> 
      <li>Recommended image format – PNG, JPG</li> 
-    </ul> </td> 
+    </ul></td> 
   </tr> 
   <tr> 
    <td><p>Progress icon image</p></td> 
@@ -97,19 +97,19 @@ The list below displays the components that can be customized. To customize the 
     <ul> 
      <li>Recommended size – less than or equal to 32x32 px</li> 
      <li>Recommended image format – GIF, PNG, JPG</li> 
-    </ul> <p>&nbsp;</p> </td> 
+    </ul><p>&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td><p>Fonts</p> </td> 
-   <td><p>For applying the fonts, a CDN is required. Also, you must share the font family to be applied.</p> <p><b>Note:</b> The font family must be supported on all browsers.</p> </td> 
+   <td><p>Fonts</p></td> 
+   <td><p>For applying the fonts, a CDN is required. Also, you must share the font family to be applied.</p><p><b>Note:</b> The font family must be supported on all browsers.</p></td> 
   </tr> 
   <tr> 
    <td><p>Background image</p></td> 
-   <td><p>A background image is only visible in a learner role.&nbsp;</p> <p>You must have the image that you need to apply to the learner's background.</p> 
+   <td><p>A background image is only visible in a learner role.&nbsp;</p><p>You must have the image that you need to apply to the learner's background.</p> 
     <ul> 
      <li><b>Recommended Image format:</b> PNG, JPG, JPEG</li> 
      <li><b>Recommended Size: </b>1400x908 px</li> 
-    </ul> </td> 
+    </ul></td> 
   </tr> 
  </tbody>
 </table>

@@ -298,7 +298,7 @@ The getAbstract connector can be used by enterprise customers of getAbstract.com
    For any type of synchronization to work, you must ensure that the user feed is present in the getAbstract FTP folder for the dates specified in the synchronization.
 
    See the following excel sheet, which is a sample user feed file from getAbstract. The file name should follow the format: **report_export_yyyy_MM_dd_HHmmss.xlsx** or **report_export_yyyy_MM_dd.xlsx**.
-   [getAbstract user feed sample excel sheet](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_528613433/proc_par/step_4/step_par/download_section/download-1/report_export_20170401175342.xlsx)
+   [getAbstract user feed sample excel sheet](assets/report-export-20170401175342.xlsx)
 
 # Harvard ManageMentor connector {#hmmconnector}
 
@@ -348,7 +348,7 @@ The Harvard ManageMentor connector can be used by enterprise customers of Harvar
    client_hmm12_20150125.xlsx: This is the user feed for the Harvard ManageMentor connector. The file naming convention that you must follow is **client_hmm12_yyyyMMdd.xlsx.**
 
    See the following two sample user feed and course feed files for this connector:
-   [Course metadata file for the Harvard ManageMentor connector](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_7345933/proc_par/step_546211159/step_par/download_section/download-1/hmm12_metadata.xlsx) [User feed for the Harvard ManageMentor connector](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_7345933/proc_par/step_546211159/step_par/download_section/download-2/client_hmm12_20170304.xlsx)
+   [Course metadata file for the Harvard ManageMentor connector](assets/hmm12-metadata.xlsx) [User feed for the Harvard ManageMentor connector](assets/client-hmm12-20170304.xlsx)
 
 # Workday connector {#workdayconnector}
 
@@ -381,7 +381,7 @@ Administrator can set up scheduling tasks as per organization's requirements and
 ## Configure Workday connector {#configureworkdayconnector}
 
 **Prerequisite**: Request the Workday Administrator of your organization, to create an Integration System User (ISU) with the permissions as defined in the ISU_Permissions document. Download a copy from the link below.
-[Download a copy of integration system user (ISU) security.](/content/dam/help/en/captivate-prime/integration-admin/feature-summary/connectors/jcr:content/main-pars/procedure_1659635486/proc_par/step_1/step_par/download_section/download-1/isu_permissions_v1.pdf) Learn the process to integrate Learning Manager with Workday connector.&nbsp;
+[Download a copy of integration system user (ISU) security.](assets/isu-permissions-v1.pdf) Learn the process to integrate Learning Manager with Workday connector.&nbsp;
 
 1. In Learning Manager home page, hover your mouse over the Workday tile. A menu appears. Click **[!UICONTROL Connect]** item in the menu.
 

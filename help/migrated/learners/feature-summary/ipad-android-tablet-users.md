@@ -228,32 +228,32 @@ The following screen appears.
 <table> 
  <tbody>
   <tr> 
-   <td><p style="text-align: center;"><img src="/content/dam/help/icons/prime-write-1.png" alt=""></p> </td> 
-   <td><p>Write a post or paste any URL.</p> </td> 
+   <td><p style="text-align: center;"><img src="/content/dam/help/icons/prime-write-1.png" alt=""></p></td> 
+   <td><p>Write a post or paste any URL.</p></td> 
   </tr> 
   <tr> 
-   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-camera.png" alt=""></p> </td> 
-   <td><p>Take a picture with your mobile camera and upload it with your post.</p> </td> 
+   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-camera.png" alt=""></p></td> 
+   <td><p>Take a picture with your mobile camera and upload it with your post.</p></td> 
   </tr> 
   <tr> 
-   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-video.png" alt=""></p> </td> 
-   <td><p>Record a video with your mobile camera.</p> </td> 
+   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-video.png" alt=""></p></td> 
+   <td><p>Record a video with your mobile camera.</p></td> 
   </tr> 
   <tr> 
-   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-record.png" alt="">&nbsp;</p> </td> 
-   <td><p>Record audio with your mobile.</p> </td> 
+   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-record.png" alt="">&nbsp;</p></td> 
+   <td><p>Record audio with your mobile.</p></td> 
   </tr> 
   <tr> 
-   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-upload.png" alt=""></p> </td> 
-   <td><p>Upload any document or file in the board.</p> </td> 
+   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-upload.png" alt=""></p></td> 
+   <td><p>Upload any document or file in the board.</p></td> 
   </tr> 
   <tr> 
-   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-ask.png" alt="">&nbsp;</p> </td> 
-   <td><p>Ask a question.</p> </td> 
+   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-ask.png" alt="">&nbsp;</p></td> 
+   <td><p>Ask a question.</p></td> 
   </tr> 
   <tr> 
-   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-poll.png" alt="">&nbsp;</p> </td> 
-   <td><p>Create a poll with your post.</p> </td> 
+   <td><p style="text-align: center;"><img src="/content/dam/help/icons/_prime-poll.png" alt="">&nbsp;</p></td> 
+   <td><p>Create a poll with your post.</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -420,24 +420,24 @@ Upload any file and click the **Submit **button.
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>Content type</b></p> </td> 
-   <td><p><b>Extensions</b></p> </td> 
+   <td><p><b>Content type</b></p></td> 
+   <td><p><b>Extensions</b></p></td> 
   </tr> 
   <tr> 
-   <td><p>Video</p> </td> 
-   <td><p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p> </td> 
+   <td><p>Video</p></td> 
+   <td><p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p></td> 
   </tr> 
   <tr> 
-   <td><p>Audio</p> </td> 
-   <td><p>mp3, amr, m4a, wav, wma, aac</p> </td> 
+   <td><p>Audio</p></td> 
+   <td><p>mp3, amr, m4a, wav, wma, aac</p></td> 
   </tr> 
   <tr> 
-   <td><p>Static Files</p> </td> 
-   <td><p>PDF, ppt, pptx, doc, docx, xls, xlsx</p> </td> 
+   <td><p>Static Files</p></td> 
+   <td><p>PDF, ppt, pptx, doc, docx, xls, xlsx</p></td> 
   </tr> 
   <tr> 
-   <td><p>Image</p> </td> 
-   <td><p>jpg, jpeg, png, bmp, gif</p> </td> 
+   <td><p>Image</p></td> 
+   <td><p>jpg, jpeg, png, bmp, gif</p></td> 
   </tr> 
  </tbody>
 </table>

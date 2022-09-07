@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Certifications {#certifications}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Learn how to create certifications, enroll learners, and edit published certifications.
 
@@ -16,7 +16,7 @@ Certify your learners on a one time basis or on a recurring time frame using thi
 
 As an Admin, you can create a certification program either hosted internally or conducted by a 3rd party. In case of Internal certification, define the courses that a learner has to complete to get certified. Publish the program and then assign it to learners.
 
-# Create a certification  {#createacertification}
+# Create a certification {#createacertification}
 
 1. Click&nbsp;**Certification&nbsp;**on the left pane.  
    A page appears with a list of all the draft, and published state of certifications.
@@ -51,31 +51,31 @@ As an Admin, you can create a certification program either hosted internally or 
     <ul> 
      <li><b>Recurring</b>- Choose this option if the certification needs to occur after every year, two years, or three years.</li> 
      <li><b>Perpetual</b>- Choose this option if the certification needs to be a one time requirement.</li> 
-    </ul> </td> 
+    </ul></td> 
   </tr> 
   <tr> 
    <td>Reassignment</td> 
-   <td>Choose if you want the certificate to be reassigned based on completion date or on the basis&nbsp;on&nbsp;enrolment date.<br> </td> 
+   <td>Choose if you want the certificate to be reassigned based on completion date or on the basis&nbsp;on&nbsp;enrolment date.<br></td> 
   </tr> 
   <tr> 
-   <td>Validity (in months)&nbsp;<br> </td> 
+   <td>Validity (in months)&nbsp;<br></td> 
    <td>Specify how long can the certification remain valid.</td> 
   </tr> 
   <tr> 
-   <td>Sequencing of Courses<br> </td> 
-   <td>Decide if learners should take the courses in an ordered or unordered manner.<br> </td> 
+   <td>Sequencing of Courses<br></td> 
+   <td>Decide if learners should take the courses in an ordered or unordered manner.<br></td> 
   </tr> 
   <tr> 
-   <td>Unenrollment<br> </td> 
+   <td>Unenrollment<br></td> 
    <td>Enable or disable the option to let learners unenroll themselves.</td> 
   </tr> 
   <tr> 
-   <td>Certification Issuer<br> </td> 
-   <td><p>Choose <b>Internal</b>&nbsp;if it belongs to your organization, or choose <b>External</b>&nbsp;for outside organization certifications.</p> <p>When you choose <b>External Certification</b>, you see two more options-</p> 
+   <td>Certification Issuer<br></td> 
+   <td><p>Choose <b>Internal</b>&nbsp;if it belongs to your organization, or choose <b>External</b>&nbsp;for outside organization certifications.</p><p>When you choose <b>External Certification</b>, you see two more options-</p> 
     <ul> 
-     <li>Same as Approved Date<br> </li> 
-     <li>Submitted by Learner<br> </li> 
-    </ul> <p>Learners can specify the correct completion date for external certifications. In&nbsp;previous versions, the completion date was set by default by Prime, based on the date of&nbsp;Manager’s approval date. Completion date provided by the learner should be greater than the certificate creation date<span>.</span></p> </td> 
+     <li>Same as Approved Date<br></li> 
+     <li>Submitted by Learner<br></li> 
+    </ul><p>Learners can specify the correct completion date for external certifications. In&nbsp;previous versions, the completion date was set by default by Prime, based on the date of&nbsp;Manager’s approval date. Completion date provided by the learner should be greater than the certificate creation date<span>.</span></p></td> 
   </tr> 
   <tr> 
    <td>Duration</td> 
@@ -86,7 +86,7 @@ As an Admin, you can create a certification program either hosted internally or 
    <td>Enter the tags that you want to associate with the certificate. Tags are helpful when you want to search for the certificate.</td> 
   </tr> 
   <tr> 
-   <td>Select Catalogs<br> </td> 
+   <td>Select Catalogs<br></td> 
    <td>Choose the catalog where the certificate is a part of.</td> 
   </tr> 
  </tbody> 

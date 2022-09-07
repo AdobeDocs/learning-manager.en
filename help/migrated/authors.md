@@ -16,11 +16,11 @@ contentowner: manochan
  </tbody>
 </table>
 
-# Frequently Asked Questions (FAQ)  {#frequentlyaskedquestionsfaq}
+# Frequently Asked Questions (FAQ) {#frequentlyaskedquestionsfaq}
 
 [Frequently asked questions for Authors role.](authors/frequently-asked-questions-for-authors.md)
 
-# Features  {#features}
+# Features {#features}
 
 * [Getting started](authors/feature-summary/getting-started.md)
 * [Catalogs](authors/feature-summary/catalogs.md)

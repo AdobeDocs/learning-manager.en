@@ -16,9 +16,9 @@ Learn about the new features and enhancements in Adobe Learning Manager
  <tbody>
   <tr> 
    <td><img src="assets/classroom1.jpeg"></td> 
-   <td><p><b><a disablelinktracking="false" href="#classroom">Classroom</a></b><br> </p> </td> 
+   <td><p><b><a disablelinktracking="false" href="#classroom">Classroom</a></b><br></p></td> 
    <td><img src="assets/gamification.jpeg"></td> 
-   <td><p><b><a disablelinktracking="false" href="#gamification">Gamification</a></b></p> </td> 
+   <td><p><b><a disablelinktracking="false" href="#gamification">Gamification</a></b></p></td> 
   </tr> 
  </tbody>
 </table>
@@ -27,9 +27,9 @@ Learn about the new features and enhancements in Adobe Learning Manager
  <tbody>
   <tr> 
    <td><img src="assets/teams.jpeg"></td> 
-   <td><p><b><a disablelinktracking="false" href="#teams">Microsoft Teams</a></b></p> </td> 
+   <td><p><b><a disablelinktracking="false" href="#teams">Microsoft Teams</a></b></p></td> 
    <td><img src="assets/api.jpeg"></td> 
-   <td><p><b><a disablelinktracking="false" href="#api">API changes</a></b></p> </td> 
+   <td><p><b><a disablelinktracking="false" href="#api">API changes</a></b></p></td> 
   </tr> 
  </tbody>
 </table>
@@ -74,9 +74,9 @@ When an instructor has multiple sessions or submissions, searching for and sorti
 
 To search for a particular session or module name, follow the steps below:
 
-1. `In the Instructor app (UI for Instructor role), search for the upcoming and past sessions. You can view the list of instances for the selected page.`
+1. In the Instructor app (UI for Instructor role), search for the upcoming and past sessions.&nbsp;You can view the list of instances for the selected page.
 1. Enter the session or module name in the search field available at the upper-right corner.
-1. `Locate the learning object from the search results.`
+1. Locate the learning object from the search results.
 
 **Note: **The search results show not only the courses or modules assigned to the instructor, but all the courses or modules that match the search criteria. Select the course or module to which you are assigned.****
 
@@ -92,17 +92,16 @@ With this release, the Administrators can now change the default Social Learning
 
 **Follow these steps to change the default Social Learning view for Learners**
 
-1. `In the Admin app, click`**Social Learning** `under`**MANAGE ** `in the left pane.`
+1. In the Admin app, click **Social Learning** under **MANAGE **in the left pane.
 
-1. `In the`**Settings ** `tab,`** ** `click`** Edit ** `for`** Social Learning view. ** `You can see that by default, the system selects`**Post View** `.`
+1. In the **Settings **tab,** **click** Edit **for** Social Learning view. **You can see that by default, the system selects **Post View**.
 
-1. `Select one of these options to set your preferred default Social Learning view`
+1. Select one of these options to set your preferred default Social Learning view
 
-   1. **Post View** `— Displays all individual posts from all Discussion boards.`
-   
-   1. **Board View** `— Displays all Discussion boards.`
+   1. **Post View** — Displays all individual posts from all Discussion boards.
+   1. **Board View** — Displays all Discussion boards.
 
-1. `Click`**Save** `to save the changes.`
+1. Click **Save** to save the changes.
 
 **Note:** Although the Administrators can alter the Social Learning view, the selected default view preference remains in effect only until a Learner changes it. A Learner can change the view type overriding the default view setting (that is configured by the Administrator) by using the Social Learning page. However, the Social Learning view reverts to the default view type configured by the Administrator when you perform page-refresh or navigate away.
 
@@ -114,13 +113,13 @@ With this release, an Administrator can now set the Learners’ default view typ
 
 Follow these steps to change the default view for Learners:
 
-1. `In the Admin app, click`**Settings** `under`**CONFIGURE ** `in the left pane.`
+1. In the Admin app, click **Settings** under **CONFIGURE **in the left pane.
 
-1. `Click`**General** `under`**BASICS** `to access the General settings page.`
+1. Click **General** under **BASICS** to access the General settings page.
 
-1. `Select the`**List view** `option alongside`**Default view (Learner role)** `to change the Learners’ default view from Grid to List. If you clear`**List view** `option, the system sets the Learners’ default view back to Grid.`
+1. Select the **List view** option alongside **Default view (Learner role)** to change the Learners’ default view from Grid to List.&nbsp;If you clear **List view** option, the system sets the Learners’ default view back to Grid.
 
-1. `After you select (or clear) the`**List view** `option, the system displays the following confirmation message.`
+1. After you select (or clear) the **List view** option, the system displays the following confirmation message.
 
 After selecting **List view**, when a learner signs into the Learner app, by default, My Learning and Catalog pages appear using list view.
 
@@ -145,7 +144,18 @@ This is an admin API, using which the administrator can download a badge in the 
 #### Download all badges by training id
 
 ```
-\{ "data”: { "type":"job", "attributes”: { "description":"description of your choice", "jobType":"generateUserBadge", "payload”: { "trainingId":"course: XXXX" } } } }
+\{ 
+ "data”: { 
+ "type":"job", 
+ "attributes”: { 
+ "description":"description of your choice", 
+ "jobType":"generateUserBadge", 
+ "payload”: { 
+ "trainingId":"course: XXXX" 
+ } 
+ } 
+ } 
+}
 ```
 
 There is pagination when downloading badges by training id. The maximum limit per page is 1000.
@@ -153,7 +163,18 @@ There is pagination when downloading badges by training id. The maximum limit pe
 #### Download all badges by userid
 
 ```
-\{ "data”: { "type":"job", "attributes”: { "description":"description of your choice", "jobType":"generateUserBadge", "payload”: { "userId":"1234" } } } }
+\{ 
+ "data”: { 
+ "type":"job", 
+ "attributes”: { 
+ "description":"description of your choice", 
+ "jobType":"generateUserBadge", 
+ "payload”: { 
+ "userId":"1234" 
+ } 
+ } 
+ } 
+}
 ```
 
 There is no pagination when downloading badges via userid.
@@ -168,10 +189,16 @@ The API includes the capability for awarding points for the external events.
 
 **POST /users/externalGamificationPoint**
 
-`Request Body:`
+Request Body:
 
 ```
-\{ "userId": userId in the account "eventTime": Time in "2020-01-01T18:30:00.000Z" format "points": points earned; it should be < 100000 "source": Source where these points are achieved (String limited to 128 chars) }
+\{ 
+ "userId": userId in the account 
+ "eventTime": Time in "2020-01-01T18:30:00.000Z" format 
+ "points": points earned; it should be < 100000 
+ "source": Source where these points are achieved (String limited to 128 chars) 
+} 
+
 ```
 
 ## Mark a board as favorite
@@ -223,7 +250,7 @@ The following fields are added in the relationship:
 Here are the changes in this release:
 
 * Workday® supports a wide range of attributes to add data. Different organizations use these attributes differently. Therefore, exposing these attributes and allowing the Administrators to map them with Learning Manager would have increased product complexity and affected usability. If you want to map any attribute that is not listed in Learning Manager, contact your CSAM with the details. The CSAM Support team of Learning Manager will investigate the requirement and help you based on the technical feasibility.
-* `We have added a checkbox`**Exclude Contingent Workers** `. When you select this checkbox, the system does not import any temp workers available under a manager.`
+* We have added a checkbox **Exclude Contingent Workers**. When you select this checkbox, the system does not import any temp workers available under a manager.
 
 ## Calendar widget enhancements
 
@@ -283,15 +310,39 @@ In this release, the&nbsp;‘learningObject’&nbsp;in relationship of&nbsp;lear
 * LearningPath&nbsp;(API terminology:&nbsp;learningProgram)
 * Jobaid
 
-`The deprecated data will be completely removed from the response as a part of our next release. **This will take place after 3 months (anytime after 30**``<sup style="color: rgb(50, 50, 50);"><b>th</b></sup>` `** April 2022)**. Make the required changes to your implementation to fetch the data according to the the new design.`
+The deprecated data will be completely removed from the response as a part of our next release. **This will take place&nbsp;after&nbsp;3 months&nbsp;(anytime&nbsp;after 30**`<sup style="color: rgb(50, 50, 50);"><b>th</b></sup>`**&nbsp;April 2022)**.&nbsp;Make the required changes to your implementation to&nbsp;fetch the data according to the the new design.
 
 Here is a sample LO skill model:
 
 ```
-Model: { "id": "course:5627858_51096" "type": "learningObjectSkill", "attributes": { "credits": 19.7 "learningObjectId": "course:5627858" << new attribute added. }, "relationships": { "learningObject": { "data": { "id": "course:5627858", "type": "learningObject" } }, "skillLevel": { "data": { "id": "51096_1", "type": "skillLevel" } } } }
+Model: 
+ 
+{ 
+ "id": "course:5627858_51096" 
+ "type": "learningObjectSkill", 
+ "attributes": { 
+ "credits": 19.7 
+ "learningObjectId": "course:5627858" << new attribute added. 
+ }, 
+ "relationships": { 
+ "learningObject": { 
+ "data": { 
+ "id": "course:5627858", 
+ "type": "learningObject" 
+ } 
+ }, 
+ "skillLevel": { 
+ "data": { 
+ "id": "51096_1", 
+ "type": "skillLevel" 
+ } 
+ } 
+ } 
+ } 
+
 ```
 
-We plan to change the ID format of learningObjectResourceGrade.  `The id format for the learningObjectResourceGrade model currently follows the following format:`
+We plan to change the&nbsp;ID&nbsp;format&nbsp;of&nbsp;learningObjectResourceGrade.&nbsp;The id format for the&nbsp;learningObjectResourceGrade&nbsp;model&nbsp;currently follows the following format:
 
 * *course:courseid_instanceid_moduleid_version_uuid1_uuid2*
 
@@ -303,7 +354,7 @@ Thus, only one&nbsp;uuid&nbsp;will be used to construct the&nbsp;learningObjectR
 
 In general,&nbsp;Learning Manager&nbsp;recommends to&nbsp;not&nbsp;interpret&nbsp;the ID of any model.
 
-**Note: ** `This change will come into effect as a part of our next release (any time after **30 April 2022**). In case you are using this format in any way, make the required changes. `
+**Note: **This change will come into effect as a part of our next release (any time&nbsp;after **30 April 2022**).&nbsp;In case&nbsp;you are using this format in any way, make the required changes.&nbsp;
 
 # Release Notes {#releasenotes}
 
@@ -334,7 +385,7 @@ To see the known issues in this update, refer to [***Known issues***](release-no
  <tbody>
   <tr> 
    <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br> </p></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
   </tr> 
  </tbody>
 </table>

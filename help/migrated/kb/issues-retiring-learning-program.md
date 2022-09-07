@@ -7,7 +7,7 @@ contentowner: nluke
 
 # Issues with retiring a Learning Program {#issues-with-retiring-a-learning-program}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 # **Issue**
 
@@ -41,4 +41,4 @@ To check the course that contains a retired instance, follow the steps below:
 
 1. Visit the relevant Learning Program. Click **Instances **and execute the previous step to reopen the instance of the Learning Program.
 
-&nbsp; &nbsp; &nbsp;  
+&nbsp;&nbsp;&nbsp;  

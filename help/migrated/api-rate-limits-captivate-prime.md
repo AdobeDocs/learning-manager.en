@@ -25,7 +25,8 @@ Although we have always had rate limits for Public API in Prime; we have been qu
 For each request, the response headers contain the following&nbsp;information:&nbsp;
 
 ```
-x-rate-limit: 600r/m x-burst: 10
+x-rate-limit: 600r/m 
+x-burst: 10
 ```
 
 * x-rate-limit specifies the base request rate threshold in terms of requests per minute.
@@ -40,13 +41,29 @@ It is best practice to include code in your script that catches 429 responses. I
 For example, a curl request that bumps into the rate limit might return the following response:
 
 ```
-< HTTP/2 429 < date: Wed, 04 Nov 2020 06:53:04 GMT < content-type: application/json; charset=utf-8 < server: openresty < x-rate-limit: 60r/m < x-burst: 10 < retry-after: 10.752 < access-control-allow-credentials: true < access-control-allow-methods: GET, POST, OPTIONS, PUT, HEAD, DELETE, PATCH < access-control-allow-headers: X-acap-all-roles, X-acap-account,X-acap-user,X-acap-caller-role,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type, x-experience-api-version, Authorization, X-CSRF-TOKEN, X-HTTP-Method-Override < strict-transport-security: max-age=31536000; includeSubDomains < x-frame-options: SAMEORIGIN < x-xss-protection: 1 < x-content-type-options: nosniff < x-request-id: gwBBFC9741-58A5-43B1-B1FE-7D14275961E7 < strict-transport-security: max-age=31536000; includeSubDomains
+< HTTP/2 429 
+< date: Wed, 04 Nov 2020 06:53:04 GMT 
+< content-type: application/json; charset=utf-8 
+< server: openresty 
+< x-rate-limit: 60r/m 
+< x-burst: 10 
+< retry-after: 10.752 
+< access-control-allow-credentials: true 
+< access-control-allow-methods: GET, POST, OPTIONS, PUT, HEAD, DELETE, PATCH 
+< access-control-allow-headers: X-acap-all-roles, X-acap-account,X-acap-user,X-acap-caller-role,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type, x-experience-api-version, Authorization, X-CSRF-TOKEN, X-HTTP-Method-Override 
+< strict-transport-security: max-age=31536000; includeSubDomains 
+< x-frame-options: SAMEORIGIN 
+< x-xss-protection: 1 
+< x-content-type-options: nosniff 
+< x-request-id: gwBBFC9741-58A5-43B1-B1FE-7D14275961E7 
+< strict-transport-security: max-age=31536000; includeSubDomains
 ```
 
 The response contains information about the following keys:&nbsp;
 
 ```
-status: 429 retry-after: 10.752
+status: 429 
+retry-after: 10.752
 ```
 
 The status code&nbsp;of 429 means&nbsp;“too many requests”&nbsp;and&nbsp;that&nbsp;the&nbsp;current&nbsp;request&nbsp;isn't&nbsp;processed. The retry-after header specifies that you can retry the API call in 10.752 seconds. Your code should stop making additional API requests until enough time has passed to retry.
@@ -54,7 +71,11 @@ The status code&nbsp;of 429 means&nbsp;“too many requests”&nbsp;and&nbsp;tha
 The following pseudo-code shows a simple way to catch rate-limit errors:
 
 ```
-response = request.get(url) if response.status equals 429:     alert('Rate limited. Waiting to retry…')     wait(response.retry-after)     retry(url)
+response = request.get(url) 
+if response.status equals 429: 
+    alert('Rate limited. Waiting to retry…') 
+    wait(response.retry-after) 
+    retry(url)
 ```
 
 In fact, we’ve even created a Learning Manager dummy API for you to play around and get comfortable with handling the&nbsp;429 status&nbsp;code.&nbsp;
@@ -69,7 +90,8 @@ curl -X GET --header 'Accept: application/json' --header 'Authorization: oauth <
 This dummy API has a limit of:
 
 ```
-x-rate-limit: 5r/m x-burst: 2
+x-rate-limit: 5r/m 
+x-burst: 2
 ```
 
 The limit for the dummy API is intentionally low so that you bump into the rate limits very quickly and can then focus more on&nbsp;developing&nbsp;the code to catch and handle the rate limit errors.&nbsp;
@@ -119,28 +141,28 @@ The following table provides the limits for the various V2 endpoints. At present
   </tr> 
   <tr> 
    <td><p>DELETE</p></td> 
-   <td><p>(25, 10)&nbsp;<br> </p></td> 
-   <td><p>(20, 10)<br> </p></td> 
+   <td><p>(25, 10)&nbsp;<br></p></td> 
+   <td><p>(20, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>PATCH</p></td> 
    <td><p>(60, 20)</p></td> 
-   <td><p>(15, 5)&nbsp;<br> </p></td> 
+   <td><p>(15, 5)&nbsp;<br></p></td> 
   </tr> 
   <tr> 
    <td><p>POST</p></td> 
-   <td><p>(30, 10)<br> </p></td> 
-   <td><p>(30, 10)<br> </p></td> 
+   <td><p>(30, 10)<br></p></td> 
+   <td><p>(30, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>PUT</p></td> 
-   <td><p>(20, 10)<br> </p></td> 
-   <td><p>(20, 10)<br> </p></td> 
+   <td><p>(20, 10)<br></p></td> 
+   <td><p>(20, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>GET</p></td> 
-   <td><p>(100, 100)<br> </p></td> 
-   <td><p>(100, 30)<br> </p></td> 
+   <td><p>(100, 100)<br></p></td> 
+   <td><p>(100, 30)<br></p></td> 
   </tr> 
  </tbody>
 </table>

@@ -45,7 +45,7 @@ The option&nbsp;**Enable learner to explore Areas of Interest **is available to 
  <tbody>
   <tr> 
    <td><p>If you choose Custom...</p></td> 
-   <td><p>If you choose&nbsp;Industry Aligned...<br> </p></td> 
+   <td><p>If you choose&nbsp;Industry Aligned...<br></p></td> 
   </tr> 
   <tr> 
    <td><p>You can choose at most one Internal and External active field.</p></td> 
@@ -80,16 +80,16 @@ For existing accounts, the option **Immersive **will be **OFF**. It is enabled f
   </tr> 
   <tr> 
    <td><p>Masthead</p></td> 
-   <td><p><b>What is a Masthead and how do I customize the Learners Masthead? </b><br> </p> <p>It’s a welcome banner for learners.&nbsp;The banner can be an image or a video.&nbsp;You can target the masthead to specific user groups and a learner views the Masthead as soon as he/she lands on the homepage.&nbsp;A User Group may see multiple hero images or videos according to the target plan set by the Admin.&nbsp;</p> <p>Here's how an Administrator uploads a banner:</p> 
+   <td><p><b>What is a Masthead and how do I customize the Learners Masthead? </b><br></p><p>It’s a welcome banner for learners.&nbsp;The banner can be an image or a video.&nbsp;You can target the masthead to specific user groups and a learner views the Masthead as soon as he/she lands on the homepage.&nbsp;A User Group may see multiple hero images or videos according to the target plan set by the Admin.&nbsp;</p><p>Here's how an Administrator uploads a banner:</p> 
     <ol> 
-     <li>On the left panel, click <b>Announcements</b>.<br> </li> 
+     <li>On the left panel, click <b>Announcements</b>.<br></li> 
      <li>On the upper-right corner of the page, click <b>Add</b>.</li> 
      <li>From the <b>Type </b>drop-down list, choose <b>As Masthead</b>.</li> 
      <li>Write a message that will feature in the masthead.</li> 
      <li>Upload an image or a video.</li> 
      <li>Choose target audience. Select a user group or training where the masthead will be displayed.</li> 
      <li>Save the masthead announcement.</li> 
-    </ol> </td> 
+    </ol></td> 
   </tr> 
   <tr> 
    <td><p>My Learning</p></td> 
@@ -109,22 +109,22 @@ For existing accounts, the option **Immersive **will be **OFF**. It is enabled f
   </tr> 
   <tr> 
    <td><p>Recommended by organization</p></td> 
-   <td><p>When enabled, this widget recommends trainings to specific user groups. Each User group can be targeted one or more trainings and the target plan would be based on a&nbsp;time frame.&nbsp;<br> </p> 
+   <td><p>When enabled, this widget recommends trainings to specific user groups. Each User group can be targeted one or more trainings and the target plan would be based on a&nbsp;time frame.&nbsp;<br></p> 
     <ul> 
-     <li><p>Firstly, the Admin <a disablelinktracking="false" href="announcements.md#recommendation">creates&nbsp;an announcement</a> of type&nbsp;<b>As Recommendation</b>&nbsp;and then selects the requisite training and uses groups. A learner&nbsp;belonging to a user group will get to see the recommended training.</p> </li> 
-     <li><p>Secondly, the Admin can also decide if the recommendations kick in immediately or on a specified date.</p> </li> 
-    </ul> </td> 
+     <li><p>Firstly, the Admin <a disablelinktracking="false" href="announcements.md#recommendation">creates&nbsp;an announcement</a> of type&nbsp;<b>As Recommendation</b>&nbsp;and then selects the requisite training and uses groups. A learner&nbsp;belonging to a user group will get to see the recommended training.</p></li> 
+     <li><p>Secondly, the Admin can also decide if the recommendations kick in immediately or on a specified date.</p></li> 
+    </ul></td> 
   </tr> 
   <tr> 
    <td><p>Recommendation&nbsp;based on area of interest</p></td> 
    <td><p>Displays Learning Objects based on&nbsp;the learner’s&nbsp;chosen area of interest. The recommendation is driven by a Machine Learning&nbsp;algorithm.</p></td> 
   </tr> 
   <tr> 
-   <td><p>Browse by catalog<br> </p></td> 
+   <td><p>Browse by catalog<br></p></td> 
    <td><p>Displays catalogs as tiles on the homepage.&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td><p>Recommendation based on peer activity<br> </p></td> 
+   <td><p>Recommendation based on peer activity<br></p></td> 
    <td><p>Displays training based on what a learner’s peers are taking. This is again driven by a Machine Learning&nbsp;algorithm.</p></td> 
   </tr> 
  </tbody>
@@ -168,7 +168,7 @@ On the&nbsp;**General&nbsp;**page, you have the following options:
   </tr> 
   <tr> 
    <td><p>Logo Styling</p></td> 
-   <td><p>This is how your logo and company name will appear on Learning Manager.<br> </p></td> 
+   <td><p>This is how your logo and company name will appear on Learning Manager.<br></p></td> 
   </tr> 
   <tr> 
    <td><p>Themes</p></td> 
@@ -176,27 +176,27 @@ On the&nbsp;**General&nbsp;**page, you have the following options:
   </tr> 
   <tr> 
    <td><p>Customize</p></td> 
-   <td><p>Adobe Learning Manager allows you to customize your account to provide a richer experience to your users.<br> </p></td> 
+   <td><p>Adobe Learning Manager allows you to customize your account to provide a richer experience to your users.<br></p></td> 
   </tr> 
   <tr> 
    <td><p>Learner Homepage</p></td> 
    <td><p>Choose either <b>Classic </b>or <b>Immersive</b>. If you choose Immersive, then other options appear.</p></td> 
   </tr> 
   <tr> 
-   <td><p>Training type<br> </p></td> 
-   <td><p>Choose either <b>Custom </b>or <b>Industry Aligned</b>. If there are less than 1000 learners, the entire account is considered as a single scope. The recommendation is based on all learners.<br> </p></td> 
+   <td><p>Training type<br></p></td> 
+   <td><p>Choose either <b>Custom </b>or <b>Industry Aligned</b>. If there are less than 1000 learners, the entire account is considered as a single scope. The recommendation is based on all learners.<br></p></td> 
   </tr> 
   <tr> 
-   <td><p>Recommendation Scope Setting<br> </p></td> 
-   <td><p>Choose one or more active fields. For <b>Custom</b>, you can choose at most one active field. For <b>Industry Aligned</b>, you can choose at most five active fields.<br> </p></td> 
+   <td><p>Recommendation Scope Setting<br></p></td> 
+   <td><p>Choose one or more active fields. For <b>Custom</b>, you can choose at most one active field. For <b>Industry Aligned</b>, you can choose at most five active fields.<br></p></td> 
   </tr> 
   <tr> 
    <td><p>Enable learner to explore Areas of Interest</p></td> 
-   <td><p>Only for Classic experience. Choose <b>Yes </b>or <b>No</b>.<br> </p></td> 
+   <td><p>Only for Classic experience. Choose <b>Yes </b>or <b>No</b>.<br></p></td> 
   </tr> 
   <tr> 
-   <td><p>Prompt users to select Areas of Interest (Skills)&nbsp;<br> </p></td> 
-   <td><p>Only for immersive experience. Choose <b>Yes</b> or <b>No</b>.&nbsp;<br> </p></td> 
+   <td><p>Prompt users to select Areas of Interest (Skills)&nbsp;<br></p></td> 
+   <td><p>Only for immersive experience. Choose <b>Yes</b> or <b>No</b>.&nbsp;<br></p></td> 
   </tr> 
  </tbody>
 </table>

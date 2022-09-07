@@ -16,11 +16,11 @@ contentowner: manochan
  </tbody>
 </table>
 
-# Frequently Asked Questions (FAQ)  {#frequentlyaskedquestionsfaq}
+# Frequently Asked Questions (FAQ) {#frequentlyaskedquestionsfaq}
 
 [Frequently Asked Questions for Learner role](learners/frequently-asked-questions-for-learners.md)
 
-# Features  {#features}
+# Features {#features}
 
 * [Getting started](learners/feature-summary/getting-started.md)
 * [Salesforce app](learners/feature-summary/sfdc-app.md)&nbsp;

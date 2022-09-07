@@ -8,13 +8,13 @@ contentowner: manochan
 
 # Create course modules, instances, and learning programs {#create-course-modules-instances-and-learning-programs}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 This document consists of Help to create course modules, instances and courses for Administrator role.
 
 Authors create courses. Learners can take up the courses and Administrators can track the performance of learners based on course consumption.
 
-# Overview  {#overview}
+# Overview {#overview}
 
 Authors create courses. Learners then take the courses and Administrators can track the performance of learners based on course consumption. Administrators can view the courses created by authors and perform some activities as explained in this section. As an administrator, you can create unique learning programs with a predefined set of courses for learners.
 
@@ -99,7 +99,7 @@ Click on the notification to view the changes the author has made to the course.
 
 If there are multiple authors who are updating the same course, the latest or the last performed change will reflect in the administrator's notification. You can then approve or reject the latest changes.
 
-# Add L1 and L3 feedback  {#addl1andl3feedback}
+# Add L1 and L3 feedback {#addl1andl3feedback}
 
 You can add L1 and L3 feedback options while you create the courses:
 
@@ -203,7 +203,7 @@ A sample output of the L3 questionnaire is provided below for your reference. Le
 
 ![](assets/l3-output.png) 
 
-# Set up L1 and L3 feedback questionnaire  {#setupl1andl3feedbackquestionnaire}
+# Set up L1 and L3 feedback questionnaire {#setupl1andl3feedbackquestionnaire}
 
 You can set up L1 and L3 feedback questionnaire and also set reminders at the account level.&nbsp;
 
@@ -250,14 +250,14 @@ The CSV report contains the following fields:
 
 When you download a report after selecting a status filter, the downloaded Learner Transcript report will contain the learner data based on the status filter applied. This added filter will also be displayed to Custom Admin and Manager when they are about to generate a Learner Transcript.
 
-# Viewing courses  {#viewingcourses}
+# Viewing courses {#viewingcourses}
 
 As an administrator, you can view a list of all available courses. &nbsp; Click&nbsp;**Courses&nbsp;**on the left pane to view the list of courses with search and filter options. You can also view the course effectiveness percentage for each course on the course thumbnails.
 
 **Note** 
 You can retire a course after the course is consumed by learners or when&nbsp;you want to hold up any particular course after publishing it. You can retire a course only when it is in a published state. List of all the retired courses can be viewed by clicking the&nbsp;**Retired&nbsp;**tab.
 
-# View quiz scores  {#viewquizscores}
+# View quiz scores {#viewquizscores}
 
 1. Click course name on the course thumbnail.
 1. Click Quiz Score on the left pane.
@@ -309,7 +309,7 @@ The report contains data of active, deleted, and suspended users if they are pen
 
 If a learner who was earlier in pending approval state, unenrolls, then his/her record will not be present in the report. Also if a learner who was earlier in pending approval state, is enrolled to the course by admin/manager/custom admin enrollment, then his/her record is present in the report.
 
-# View L1 and L3 feedback  {#viewl1andl3feedback}
+# View L1 and L3 feedback {#viewl1andl3feedback}
 
 You can view the L1 feedback provided by learners for a course and the L3 feedback provided by Managers for learners.
 
@@ -317,7 +317,7 @@ You can view the L1 feedback provided by learners for a course and the L3 feedba
 1. Click L1 Feedback or L3 Feedback on the left pane to view the feedback received.
 1. Select the instance from the drop-down list to view the feedback for that particular instance.
 
-# Preview courses  {#previewcourses}
+# Preview courses {#previewcourses}
 
 Administrator can preview courses by clicking the&nbsp;**Preview as learner**&nbsp;option while viewing the course modules.
 
@@ -325,7 +325,7 @@ Administrator can preview courses by clicking the&nbsp;**Preview as learner**&nb
 1. Click any course tile from the list of courses on the page.
 1. Click Preview as learner from the left pane and click the module name on the page to preview the course module in the player.
 
-# Course effectiveness  {#courseeffectiveness}
+# Course effectiveness {#courseeffectiveness}
 
 Course effectiveness is evaluated to understand the usefulness of a course to the learner. It is a combination of results from learner feedback on the course content, the course quiz results for a learner and the manager’s feedback evaluating a learner based on learnings from the course.
 
@@ -343,7 +343,7 @@ In this sample snapshot, 1 out 1 users received all the three feedbacks, hence t
 
 As per the pie-chart shown above, more weightage is given to L3 feedback from manager.
 
-# Searching courses and learning programs  {#searchingcoursesandlearningprograms}
+# Searching courses and learning programs {#searchingcoursesandlearningprograms}
 
 Adobe Learning Manager makes it easier for you to find the courses/learning programs of your choice quickly. You can search for your courses in two ways:
 
@@ -462,7 +462,7 @@ Learners can simply use the Adobe Learning Manager device app to scan the respec
 
    ![](assets/qr-code-download-01.png)
 
-# Course life cycle  {#courselifecycle}
+# Course life cycle {#courselifecycle}
 
 A typical course life cycle looks as follows:
 

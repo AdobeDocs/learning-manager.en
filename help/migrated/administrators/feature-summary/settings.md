@@ -71,7 +71,7 @@ Enable or disable the following settings:
 <table width="100%" cellspacing="0" cellpadding="1" border="1"> 
  <tbody> 
   <tr> 
-   <th><p>Name</p> </th> 
+   <th><p>Name</p></th> 
    <th>Description</th> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ Enable or disable the following settings:
      <li>Skills</li> 
      <li>Skill Levels</li> 
      <li>Tags</li> 
-    </ul> <p>When the learner launches the learner app, in the My Learning and Catalog sections, the learner can see the filters in their respective panels.</p> <p><b>Note: </b>The filters <b>Format </b>and <b>Duration </b>are switched off by default and do not appear to the learners immediately after the release. The Administrator should enable them.&nbsp;<br> </p> </td> 
+    </ul><p>When the learner launches the learner app, in the My Learning and Catalog sections, the learner can see the filters in their respective panels.</p><p><b>Note: </b>The filters <b>Format </b>and <b>Duration </b>are switched off by default and do not appear to the learners immediately after the release. The Administrator should enable them.&nbsp;<br></p></td> 
   </tr> 
   <tr> 
    <td>Show Catalog Listing</td> 
@@ -133,7 +133,7 @@ Enable or disable the following settings:
   </tr> 
   <tr> 
    <td><a id="autodelete"></a>Auto-delete Internal Users</td> 
-   <td>If enabled, Internal users get deleted automatically if they do not access the system for specified number of days. This feature is applicable to users who only have the role <b>Learner</b>. To restore the access, users must contact the Administrator.<br> </td> 
+   <td>If enabled, Internal users get deleted automatically if they do not access the system for specified number of days. This feature is applicable to users who only have the role <b>Learner</b>. To restore the access, users must contact the Administrator.<br></td> 
   </tr> 
   <tr> 
    <td>Show Catalog Labels</td> 
@@ -144,45 +144,45 @@ Enable or disable the following settings:
    <td>If enabled, the learners can view their scores in the learner transcript.</td> 
   </tr> 
   <tr> 
-   <td><a id="digest-email-admin-settings"></a>Digest Email<br> </td> 
+   <td><a id="digest-email-admin-settings"></a>Digest Email<br></td> 
    <td><p>An Administrator can enable or disable sending an email to learners. The Admin will also be able to control the frequency of the emails sent.</p> 
     <ul> 
      <li>For <b>active accounts</b>, digest emails will be disabled by default, which the Admin can enable it manually.</li> 
      <li>For <b>trial accounts</b>, the option for digest emails will remain disabled and the Admin cannot enable the option.</li> 
-    </ul> <p>If the feature is disabled, then:</p> 
+    </ul><p>If the feature is disabled, then:</p> 
     <ul> 
      <li>The option <b>Digest Email</b> will be disabled.</li> 
      <li>A learner cannot see the user setting for digest email subscription.</li> 
-    </ul> <p>&nbsp;If the feature is enabled, then:</p> 
+    </ul><p>&nbsp;If the feature is enabled, then:</p> 
     <ul> 
      <li>The Admin can enable and modify the Digest Email option.</li> 
      <li>From the <b>Profile Settings </b>on the learber app, a learner (not in the DND list) can opt to subscribe/unsubscribe to the digest email.</li> 
-    </ul> </td> 
+    </ul></td> 
   </tr> 
   <tr> 
-   <td>Enable Training Card Icons<br> </td> 
-   <td>If enabled, icons will be seen on Training Cards on the Learner app.<br> </td> 
+   <td>Enable Training Card Icons<br></td> 
+   <td>If enabled, icons will be seen on Training Cards on the Learner app.<br></td> 
   </tr> 
   <tr> 
    <td><a id="footer"></a>Footer Links</td> 
-   <td><p>Add links or email ids that appear as footers. You can add a maximum of three footer links.</p> <p>To customize the links on the footer, perform the following steps:</p> 
+   <td><p>Add links or email ids that appear as footers. You can add a maximum of three footer links.</p><p>To customize the links on the footer, perform the following steps:</p> 
     <ol> 
      <li>Click <b>Add More</b>, enter the name, and the URL or email id in the fields specified. Prefix the URL with http:// or https://.</li> 
      <li>To cascade the change across all locales, click <b>Replicate</b>. This ensures that all languages get the name and the url.</li> 
      <li>To save the changes, click <b>Save</b>. You can see a pop-up message confirming the change. After you click OK, the footer gets populated with the newly added links.</li> 
-    </ol> <p>Additionally, you can:</p> 
+    </ol><p>Additionally, you can:</p> 
     <ul> 
      <li>Click the&nbsp;<b>Reset</b>&nbsp;icon to reset the default values in the <b>Help</b> and <b>Contact Admin</b> fields.</li> 
-     <li>Customize the link on the footer for all languages. Click the <b>Language</b> drop-down list, select the language, and add the <b>Name</b> and <b>URL</b> in the specified fields. After you save the changes, the updated links appear on the footer.<br> </li> 
-    </ul> </td> 
+     <li>Customize the link on the footer for all languages. Click the <b>Language</b> drop-down list, select the language, and add the <b>Name</b> and <b>URL</b> in the specified fields. After you save the changes, the updated links appear on the footer.<br></li> 
+    </ul></td> 
   </tr> 
   <tr> 
-   <td>Report Timezone<br> </td> 
+   <td>Report Timezone<br></td> 
    <td><p><a id="report_timezone"></a>&nbsp;Set an account level preference to export the Learning Transcript in the following time zones:</p> 
     <ul> 
      <li>UTC (Default behavior)</li> 
      <li>Account-level time zone preference</li> 
-    </ul> <p>The Learner Transcript downloaded using Jobs API also downloads the data in the selected&nbsp;timezone.</p> <p><b>Note:&nbsp;</b>There is no change expected in the Learner Transcript by default immediately after the release. Administrators can configure this setting from Admin &gt; Settings &gt; General &gt; Report&nbsp;Timezone.</p> </td> 
+    </ul><p>The Learner Transcript downloaded using Jobs API also downloads the data in the selected&nbsp;timezone.</p><p><b>Note:&nbsp;</b>There is no change expected in the Learner Transcript by default immediately after the release. Administrators can configure this setting from Admin &gt; Settings &gt; General &gt; Report&nbsp;Timezone.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -358,12 +358,12 @@ Enable or disable the following settings:
    <td>If enabled, the learners will be able to upload their badges to the Badgr website. In customer education scenarios, organizations want to be able to "certify" their customers and give them an opportunity to display those credentials over social media. This motivates the learner to take a training and share his/her achievements with others.&nbsp;</td> 
   </tr> 
   <tr> 
-   <td height="135"><p>Show rating</p> </td> 
+   <td height="135"><p>Show rating</p></td> 
    <td width="1562"> 
     <ul> 
      <li>If the option <b>Course Effectiveness</b> is enabled, learners will be able to see only the value of the course effectiveness.</li> 
-     <li>If the option <b>Star rating</b> is enabled, learners will be able to view only the average star rating and the number of learners who have rated the course.<br> </li> 
-    </ul> <p>This feature is only for available for courses. Star rating is not supported for Learning Programs or Certificates.<br> <br> <b>Note: </b>This change affects the learner app only.&nbsp;</p> <p>In all other apps (admin, author, manager, custom admin, custom author), changes in the settings (star rating/course effectiveness/disabling show rating) will not have any affect.&nbsp;</p> <p>For new accounts, the&nbsp;<b>Show Ratings</b>&nbsp;section will have the option&nbsp;<b>Star rating</b>&nbsp;enabled by default.</p> <p>For existing accounts,&nbsp;if the account previously had the option&nbsp;<b>Course effectiveness</b>&nbsp;enabled, then the&nbsp;<b>Show Ratings</b>&nbsp;section will be enabled with the option&nbsp;Course effectiveness&nbsp;selected.&nbsp;If the option&nbsp;<b>Course effectivenes</b>s&nbsp;is disabled, then the&nbsp;<b>Show Ratings</b>&nbsp;section will also be disabled. When the&nbsp;<b>Show Ratings</b>&nbsp;section is enabled, the option&nbsp;<b>Star rating</b>&nbsp;will be enabled by default.</p> </td> 
+     <li>If the option <b>Star rating</b> is enabled, learners will be able to view only the average star rating and the number of learners who have rated the course.<br></li> 
+    </ul><p>This feature is only for available for courses. Star rating is not supported for Learning Programs or Certificates.<br><br><b>Note: </b>This change affects the learner app only.&nbsp;</p><p>In all other apps (admin, author, manager, custom admin, custom author), changes in the settings (star rating/course effectiveness/disabling show rating) will not have any affect.&nbsp;</p><p>For new accounts, the&nbsp;<b>Show Ratings</b>&nbsp;section will have the option&nbsp;<b>Star rating</b>&nbsp;enabled by default.</p><p>For existing accounts,&nbsp;if the account previously had the option&nbsp;<b>Course effectiveness</b>&nbsp;enabled, then the&nbsp;<b>Show Ratings</b>&nbsp;section will be enabled with the option&nbsp;Course effectiveness&nbsp;selected.&nbsp;If the option&nbsp;<b>Course effectivenes</b>s&nbsp;is disabled, then the&nbsp;<b>Show Ratings</b>&nbsp;section will also be disabled. When the&nbsp;<b>Show Ratings</b>&nbsp;section is enabled, the option&nbsp;<b>Star rating</b>&nbsp;will be enabled by default.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -371,20 +371,20 @@ Enable or disable the following settings:
 <table> 
  <tbody>
   <tr> 
-   <td><p>Learning Paths</p> </td> 
-   <td><p><span style="color: rgb(50, 50, 50);">If the option <b>Enable Extended features of Learning Path</b> is enabled, Admins will be able to include Learning Paths inside Learning Paths, and combine those Learning Paths with Courses. The option is irreversible.</span><br> </p> </td> 
+   <td><p>Learning Paths</p></td> 
+   <td><p>If the option <b>Enable Extended features of Learning Path</b> is enabled, Admins will be able to include Learning Paths inside Learning Paths, and combine those Learning Paths with Courses. The option is irreversible.<br></p></td> 
   </tr> 
   <tr> 
-   <td><p>Instructor Management<br> </p> </td> 
-   <td><p>Enable this setting to restrict the list of instructors which can be selected while creating classroom/virtual classroom sessions. All users having the instructor privileged can only be assigned as an instructor to any session. This restriction does not apply to migration workflows.<br> </p> </td> 
+   <td><p>Instructor Management<br></p></td> 
+   <td><p>Enable this setting to restrict the list of instructors which can be selected while creating classroom/virtual classroom sessions. All users having the instructor privileged can only be assigned as an instructor to any session. This restriction does not apply to migration workflows.<br></p></td> 
   </tr> 
   <tr> 
-   <td><p>Enable Price at trainings</p> </td> 
-   <td><p>If enabled, an author can specify a price for a course. The learner can then see the price on their course card and choose to buy the course.&nbsp;When you add an Adobe Commerce connection, this checkbox is automatically selected and enforced.<br> </p> </td> 
+   <td><p>Enable Price at trainings</p></td> 
+   <td><p>If enabled, an author can specify a price for a course. The learner can then see the price on their course card and choose to buy the course.&nbsp;When you add an Adobe Commerce connection, this checkbox is automatically selected and enforced.<br></p></td> 
   </tr> 
   <tr> 
-   <td><p>Module Preview<br> </p> </td> 
-   <td><p>If enabled, an Administrator or Author will be able to select the modules that are available for learners to preview without enrollment.<br> </p> </td> 
+   <td><p>Module Preview<br></p></td> 
+   <td><p>If enabled, an Administrator or Author will be able to select the modules that are available for learners to preview without enrollment.<br></p></td> 
   </tr> 
  </tbody>
 </table>

@@ -9,7 +9,7 @@ contentowner: manochan
 
 Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 
-# Access notifications  {#accessnotifications}
+# Access notifications {#accessnotifications}
 
 Users can see notifications by clicking notifications icon at the upper right corner of the window.
 
@@ -25,7 +25,7 @@ Click&nbsp;**Show all notifications&nbsp;**link at the bottom of the notificatio
 
 ![](assets/author-notifications-page.png) 
 
-# Types of notifications for authors  {#typesofnotificationsforauthors}
+# Types of notifications for authors {#typesofnotificationsforauthors}
 
 ##### `Authors get notifications when the following events trigger:`
 

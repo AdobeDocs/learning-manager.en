@@ -8,20 +8,20 @@ contentowner: manochan
 
 # Courses {#courses}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Read this article to know how to view and consume courses in Learning Manager. Participate in discussions and provide feedback.
 
 Authors create courses. Learners can take up the courses and Administrators can track the performance of learners based on course consumption.
 
-# Overview  {#overview}
+# Overview {#overview}
 
 Adobe Learning Manager enables learners to access the courses, learning programs and certifications. Learners can browse through all the available courses by using catalog or enroll themselves to courses of their choice. Learners can view all the enrolled courses and the courses assigned to them in&nbsp;Learning&nbsp;tab.
 
 **Note** 
 Learners can also install Learning Manager iPad app from apple store and Learning Manager Android app from Google Play and access courses on mobile devices. All the learners role features are also available in the app. Learners can also take courses offline and get a seamless access after going online. Refer to&nbsp; [iPad & Android tablet users](ipad-android-tablet-users.md)&nbsp;feature for more information.&nbsp;
 
-# Viewing courses  {#viewingcourses}
+# Viewing courses {#viewingcourses}
 
 You can view a list of all available courses as a learner. Click My Learning&nbsp;from the Home page, or from the left pane to view all the courses that you have enrolled in.
 
@@ -35,7 +35,7 @@ There can be multiple instances to a course. Click the course name to view the d
 
 ![](assets/learner-course2.png) 
 
-# Course effectiveness  {#courseeffectiveness}
+# Course effectiveness {#courseeffectiveness}
 
 Course effectiveness score helps the learners to pick up the courses with most effective scores for their learning needs. Course effectiveness is evaluated to understand the usefulness of a course to the learner. It is calculated based on the feedback received by number of users for a particular course. If the percentage of learners giving feedback is more, the course effectiveness rating is high.
 
@@ -53,7 +53,7 @@ Click the down-arrow at the lower-right corner of the pop-up to view how course 
 
 ![](assets/course-effectiveness-calculations.png) 
 
-# Searching courses and learning programs  {#searchingcoursesandlearningprograms}
+# Searching courses and learning programs {#searchingcoursesandlearningprograms}
 
 Adobe Learning Manager makes it easier for you to find the courses of your choice quickly. You can search for your courses in the following ways:
 
@@ -112,7 +112,7 @@ As a Learner you will be allowed to rate a course only post enrolment. You can s
 
 Courses can be sorted based on the average ratings provided. You can sort the cases from the&nbsp;Sort By&nbsp;drop-down in the top right corner, available in&nbsp;**Catalog**.
 
-# Consuming&nbsp;a course  {#consumingnbspacourse}
+# Consuming&nbsp;a course {#consumingnbspacourse}
 
 After enrolling to a course, you can start taking up the course, by clicking Start on the course. Alternatively, click **Courses **in** Learning **tab. Choose a course that you would like to start taking up.
 
@@ -165,7 +165,7 @@ For all existing accounts, this feature is disabled. Administrators can enable i
 
 The Content Marketplace option features on the left pane in the Learner app. When you click the option, you can see&nbsp;all courses/Entire Catalog and Curated playlists.
 
-`In the page below, you can see the courses that are present in the entire catalog. Each course displays its duration and the broader topic it belongs to. You can choose the topic from the filter on the left of the page.`
+In the page below, you can see the courses that are present in the entire catalog. Each course displays its duration and the broader topic it belongs to. You can choose the topic from the filter on the left of the page.
 
 You can preview a course for exactly two minutes.&nbsp;
 
@@ -253,7 +253,7 @@ The Discussion tab is not enabled for external users.
 
 ![](assets/learning-program200s.jpg) 
 
-# Course life cycle  {#courselifecycle}
+# Course life cycle {#courselifecycle}
 
 A typical course life cycle looks as follows:
 

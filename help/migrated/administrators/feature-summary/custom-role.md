@@ -7,7 +7,7 @@ contentowner: dvenkate
 
 # Custom roles {#custom-roles}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 This feature helps you define custom roles and assign specific responsibilities to  set  of users. This feature enables you to assign responsibilities outside the purview of the individual’s existing role.
 
@@ -235,37 +235,37 @@ When a user is given a role with a specific entity, there might be cases where t
   <tr> 
    <td>Enroll</td> 
    <td>All los (course, job aid, learning program, certification)</td> 
-   <td>User<br> Learning plan</td> 
+   <td>User<br>Learning plan</td> 
    <td>Read</td> 
   </tr> 
   <tr> 
    <td>Create</td> 
-   <td><p>Content group<br> Job aid<br> </p> </td> 
+   <td><p>Content group<br>Job aid<br></p></td> 
    <td>Tag</td> 
    <td>Read</td> 
   </tr> 
   <tr> 
    <td>Create</td> 
    <td>Course</td> 
-   <td>Content group<br> Tag<br> Skill<br> Badge<br> Job aid</td> 
+   <td>Content group<br>Tag<br>Skill<br>Badge<br>Job aid</td> 
    <td>Read on all</td> 
   </tr> 
   <tr> 
    <td>Create</td> 
-   <td>Learning program<br> Certification<br> </td> 
-   <td>Course<br> Tag<br> Skill<br> Badge</td> 
+   <td>Learning program<br>Certification<br></td> 
+   <td>Course<br>Tag<br>Skill<br>Badge</td> 
    <td>Read</td> 
   </tr> 
   <tr> 
    <td>Create</td> 
    <td>Learning plan</td> 
-   <td>Catalog<br> Group<br> Skill<br> All los (course, job aid, learning program, certification)</td> 
+   <td>Catalog<br>Group<br>Skill<br>All los (course, job aid, learning program, certification)</td> 
    <td>Read</td> 
   </tr> 
   <tr> 
    <td>Create</td> 
    <td>Announcement</td> 
-   <td>User<br> Group<br> All los (course, job aid, learning program, certification)</td> 
+   <td>User<br>Group<br>All los (course, job aid, learning program, certification)</td> 
    <td>Read</td> 
   </tr> 
   <tr> 
@@ -283,13 +283,13 @@ When a user is given a role with a specific entity, there might be cases where t
   <tr> 
    <td>*</td> 
    <td>Catalog</td> 
-   <td>Group<br> All los (course, job aid, learning program, certification)</td> 
+   <td>Group<br>All los (course, job aid, learning program, certification)</td> 
    <td>Read</td> 
   </tr> 
   <tr> 
    <td>*</td> 
    <td>Setting</td> 
-   <td>Branding<br> User</td> 
+   <td>Branding<br>User</td> 
    <td>Read</td> 
   </tr> 
   <tr> 
@@ -300,7 +300,7 @@ When a user is given a role with a specific entity, there might be cases where t
   </tr> 
   <tr> 
    <td>*</td> 
-   <td>Billing<br> Gamification</td> 
+   <td>Billing<br>Gamification</td> 
    <td>User</td> 
    <td>Read</td> 
   </tr> 

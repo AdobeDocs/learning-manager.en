@@ -79,7 +79,7 @@ The widget summarizes activity for a period. It:
 
 Profile skills are used for course recommendations. If the Administrator assigns a skill to a user or group of users, the skill gets added to the profile skills of the learner. If the learner adds a skill to his/her profile, all levels of the skill get added to the learner's profile skills. When a learner hovers on a skill, he/can see the name of the skill, method of addition of the skill, level, percent of completion of the skill, and credits.
 
-![](assets/profile-skills.png) If a learner enrolls in a course, only the external skills that are based on a score get added to the profile skills. In addition, a learner can&nbsp;search, select, and add external skills to his/her profile. If a learner has logged in to the learner app for the first time, and if the learner's skills are already present, the skills appear on My Profile. 
+![](assets/profile-skills.png) If a learner enrolls in a course, only the external skills that are based on a score get added to the profile skills. In addition, a learner can&nbsp;search, select, and add external skills to his/her profile.If a learner has logged in to the learner app for the first time, and if the learner's skills are already present, the skills appear on My Profile. 
 
 # Recommendation based on your area of interest {#recommendationbasedonyourareaofinterest}
 

@@ -8,13 +8,13 @@ contentowner: manochan
 
 # Reports {#reports}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Creating and managing reports for Managers.
 
 Adobe Learning Manager enables you to create varied reports to track, monitor, and control learner activities. Learners activities are tracked and captured automatically into the database. Manager and Administrator reports are generated from the database.
 
-# Overview  {#overview}
+# Overview {#overview}
 
 Reports generation process is same for both Administrator and Manager. Managers can view reports corresponding to their subordinates whereas Administrator can view all organization-wide reports.
 
@@ -50,7 +50,7 @@ Based on historical data, you can see a graphical representation of the skill co
 
 ![](assets/historical-data.png) 
 
-# Creating reports  {#creatingreports}
+# Creating reports {#creatingreports}
 
 1. Click Reports on the left pane. Report summary page appears.  
    **Note** 
@@ -86,7 +86,7 @@ Report Name&nbsp;Type a title for your report.
 
 **To**&nbsp;Choose the end date for your report.
 
-# Filters  {#filters}
+# Filters {#filters}
 
 Filters appear in Add report dialog at the bottom based on types of reports you have chosen. Some of the prominent filters are mentioned below.&nbsp;
 
@@ -129,7 +129,7 @@ In X-axis, choose the user attribute option and select the attribute the from **
 
 Managers can create user group reports only for their own team members as learners.&nbsp;
 
-# Types of reports  {#typesofreports}
+# Types of reports {#typesofreports}
 
 * Course delivery statistics for learners
 * Effectiveness of courses report
@@ -175,7 +175,7 @@ You can subsribe to your favorite reports by providing your email id here. Your 
 
 Click the **Edit** icon at the right corner of your report name from the reports list to modify your subscription any time.&nbsp;
 
-# Viewing reports  {#viewingreports}
+# Viewing reports {#viewingreports}
 
 On the Report summary page, you can view all the reports. You can minimize each report by clicking minus (-) icon at the upper right corner of each report. Click + icon to view your report again.
 
@@ -202,7 +202,7 @@ If there are multiple managers reporting to you, you can view the reports quickl
 
 **Resize**&nbsp;You can re-size your reports in 1×1(medium) and 2×2(large) sizes.
 
-# E-mail subscriptions  {#emailsubscriptions}
+# E-mail subscriptions {#emailsubscriptions}
 
 You can get your favorite reports in e-mail by subscribing to them.
 

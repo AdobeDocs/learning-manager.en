@@ -14,21 +14,20 @@ Learning Manager offers a Salesforce&nbsp;App package. Once installed and config
 ### Set up in Learning Manager app
 
 1. Log in to your Learning Manager Admin account as Integration Admin.
-1. `Click **Applications > Featured Apps**.`
-1. `Click **Salesforce**.`
-1. `On the Salesforce app page, note the Application id (also known as client id) and the client secret mentioned in the description.`
-1. `Click **Approve **and your app must be approved successfully.`
-1. `Click **Developer Resources > Access Tokens for Testing and Development**.`
-1. `In the Get OAuth Code section, the Client ID and scope must be set to – admin:read,admin:write. Click **Submit**.`
-1. `In Get Refresh Token, enter the Client ID and Client secret. Click **Submit **and note the refresh token.`
+1. Click **Applications > Featured Apps**.
+1. Click&nbsp;**Salesforce**.
+1. On the Salesforce app page, note the&nbsp;Application id&nbsp;(also known as client id) and the client secret mentioned in the description.
+1. Click&nbsp;**Approve&nbsp;**and your app must be approved successfully.
+1. Click&nbsp;**Developer Resources > Access Tokens for Testing and Development**.
+1. In the Get OAuth Code section, the Client ID and scope must be set to –&nbsp;admin:read,admin:write.&nbsp;Click&nbsp;**Submit**.
+1. In Get Refresh Token, enter the Client ID and Client secret. Click&nbsp;**Submit&nbsp;**and note the refresh token.
 
 ### Create account in Salesforce app
 
-1. Create an account on the Salesforce sign-up page. You must create a Salesforce account in developer or enterprise edition.  [Developer signup URL](https://developer.salesforce.com/signup).  `Ensure that you must use the email ID to sign up for Salesforce that you’d used for Learning Manager.`
-
-1. `Verify your account via the verification email.`
-1. `Create a password and sign into Salesforce.`
-1. `Note the Salesforce url after login (For eg, site.lightning.force.com)`
+1. Create an account on the Salesforce sign-up page. You must create a Salesforce account in developer or enterprise edition.&nbsp; [Developer signup URL](https://developer.salesforce.com/signup).&nbsp;Ensure that you must use the email ID to sign up for Salesforce that you’d used for Learning Manager.&nbsp;
+1. Verify your account via the verification email.&nbsp;
+1. Create a password and sign into Salesforce.
+1. Note the Salesforce&nbsp;url&nbsp;after login (For&nbsp;eg, site.lightning.force.com)
 
 ### Install Learning Manager package
 
@@ -38,14 +37,14 @@ If you want to install the package, you must first delete the existing package i
 
 **Note:**&nbsp;The Adobe Learning Manager app is only supported in Salesforce Lightning view.
 
-1. `Launch the` [**Learning Manager package url**](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008gQb&isdtp=p1) `.`
+1. Launch the&nbsp; [**Learning Manager package url**](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008gQb&isdtp=p1).&nbsp;&nbsp;
+1. In the **Login **page, click&nbsp;**Use Custom Domain**.
 
-1. `In the **Login **page, click **Use Custom Domain**.`
-1. `Enter the package URL and click **Continue**. The installation page must have the option Install for Admins Only selected. Do not change this option.`
-1. `Click **Install**. Once the package is installed, click **Done**. You are guided to the Installed Packages page, and you can see the Adobe Learning Manager installed package.`
-1. `Go to the App Launcher (next to Setup) and search for Adobe Learning Manager.`
-1. `To configure the app, click&nbsp;**Configure**.
-   `
+1. Enter the package URL and click&nbsp;**Continue**.&nbsp;The installation page must have the option&nbsp;Install for Admins Only&nbsp;selected. Do not change this option.
+1. Click&nbsp;**Install**.&nbsp;Once the package is installed, click&nbsp;**Done**. You are guided to the Installed Packages page, and you can see the Adobe Learning Manager installed package.
+
+1. Go to the App Launcher (next to Setup) and search for Adobe Learning Manager.
+1. To configure the app, click&nbsp;**Configure**.
 1. Click&nbsp;**New&nbsp;**and add the following details:
 
    * **Config:** Enter a name of your choice.
@@ -59,10 +58,8 @@ If you want to install the package, you must first delete the existing package i
 
 ### Add Remote Site Settings
 
-1. `In the top-right corner of the page, click`**Setup** `.`
-
-1. In **Quick Find** `, search for Remote Site Settings.`
-
+1. In the top-right corner of the page, click **Setup**.
+1. In **Quick Find**, search for&nbsp;Remote Site Settings.
 1. Click&nbsp;**New Remote Site**.
 1. Enter the details:
 
@@ -74,26 +71,27 @@ If you want to install the package, you must first delete the existing package i
 ### Enable Notifications for Learning Manager app
 
 1. In the upper-right corner, click&nbsp;**Setup**.&nbsp;
-1. `Search for Custom Notifications.`
-1. `Click **New**.`
-1. `Enter the following details:`
+1. Search for Custom Notifications.&nbsp;
+1. Click&nbsp;**New**.
+1. Enter the following details:&nbsp;&nbsp;
 
-   1. `**Custom Notification Name:** PrimeNotification `
-   1. `**API Name:** PrimeNotification`
+   1. **Custom Notification Name:** PrimeNotification&nbsp;
+   1. **API Name:** PrimeNotification
 
-1. `Select both **Desktop **and **Mobile **as Supported channels.`
-1. `Click **Save**.`
-1. `To enable push notifications for mobile devices, follow the steps below:`
+1. Select both **Desktop **and **Mobile **as Supported channels.
 
-   1. `Install Salesforce mobile app in your mobile phone.`
-   1. `Log in to the app using your credentials.`
-   1. `Go to **Setup > Notification Delivery Settings**.`
-   1. `Add Salesforce for iOS and Android.`
+1. Click&nbsp;**Save**.
+1. To enable push notifications for mobile devices, follow the steps below:
+
+   1. Install Salesforce mobile app in your mobile phone.
+   1. Log in to the app using your credentials.
+   1. Go to&nbsp;**Setup > Notification Delivery Settings**.
+   1. Add Salesforce for iOS and Android.
 
 ### Uninstall Learning Manager from Salesforce
 
-1. `In Salesforce app, go to Installed packages.`
-1. `Click **Uninstall**.`
+1. In Salesforce app, go to&nbsp;Installed packages.
+1. Click&nbsp;**Uninstall**.
 
 ## Configure Learning Manager for Salesforce users
 
@@ -107,9 +105,9 @@ As a Salesforce admin, you can either assign the profiles to users or create a c
 
 ![](assets/create-profile.png)
 
-`Whle adding a learner, you must assign a specific profile to the learner. Then go to that profile and grant the required access.`
+Whle adding a learner, you must assign a specific profile to the learner. Then go to that profile and grant the required access.
 
-`For Learners to view the Learning Manager app, you must enable the app for all learners.`
+For Learners to view the Learning Manager app, you must enable the app for all learners.
 
 The next step is to provide the permission to access the Learning Manager app.
 

@@ -7,7 +7,7 @@ contentowner: saghosh
 
 # Integrate Learning Manager with AEM {#integrate-learning-manager-with-aem}
 
-`Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.`
+Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 # Overview {#overview}
 
@@ -135,7 +135,7 @@ The Catalog widget&nbsp;contains&nbsp;the following&nbsp;options:
 * **Skill name:**&nbsp;The skill used to filter exact&nbsp;training.
 * **Tag name:**&nbsp;The tag used to filter exact results.
 
-`Here are a few additional components that you can customize:`
+Here are a few&nbsp;additional&nbsp;components that you can customize:
 
 **Learning Object Types:&nbsp;**Filter according to the type of the Learning Object.&nbsp;The supported types are- course, certification,&nbsp;jobAid,and&nbsp;learningProgram.
 
@@ -148,7 +148,24 @@ You can customize the look and feel of the layout using widgets.html.&nbsp;You c
 In the **General Settings**&nbsp;section, you can choose the primary and secondary colors for the&nbsp;cards and&nbsp;specify the properties to customize the theme.
 
 ```
-\{ "globalCssText":"@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');", "fontNames":"Grandstander", "cardLayout":{ "cardLayoutName":"compact", "cardPrimaryColor":"#376BA4", "cardSecondaryColor":"#F98EB0", "startedStateTextColor":"#ffffff", "continueStateTextColor":"#ffffff", "revisitStateTextColor":"#ffffff", "startedStateColor":"#a0a0a0", "continueStateColor":"#f9a122", "revisitedStateColor":"#7fbc64", "textPrimaryColor":"#ffffff", "textSecondaryColor":"#d93f3f", "navIconColor":"#a0a0a0" } }
+\{ 
+ "globalCssText":"@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');", 
+ "fontNames":"Grandstander", 
+ "cardLayout":{ 
+ "cardLayoutName":"compact", 
+ "cardPrimaryColor":"#376BA4", 
+ "cardSecondaryColor":"#F98EB0", 
+ "startedStateTextColor":"#ffffff", 
+ "continueStateTextColor":"#ffffff", 
+ "revisitStateTextColor":"#ffffff", 
+ "startedStateColor":"#a0a0a0", 
+ "continueStateColor":"#f9a122", 
+ "revisitedStateColor":"#7fbc64", 
+ "textPrimaryColor":"#ffffff", 
+ "textSecondaryColor":"#d93f3f", 
+ "navIconColor":"#a0a0a0" 
+ } 
+}
 ```
 
 ### Ignore higher order&nbsp;LO&nbsp;enrollment

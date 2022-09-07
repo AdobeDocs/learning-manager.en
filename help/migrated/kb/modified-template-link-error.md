@@ -36,9 +36,9 @@ To avoid any errors that are related to broken links, which may appear due to cu
 
    Note the points when editing an email template:
 
-   * `We recommend that you modify an email template from within the Learning Manager interface.`
+   * We recommend that you modify an email template from within the Learning Manager interface.
    * Copy-paste the modified template on to a Notepad/Word file to store a copy of the changes made.
-   * Avoid replacing any dynamic text in the template which is highlighted in blue. For example, “**OrganizationName** `”, “`**Learner** `”, “`**click here** `”, “`**CertificateName** `”, and so on.`
+   * Avoid replacing any dynamic text in the template which is highlighted in blue. For example, “**OrganizationName**”, “**Learner**”, “**click here**”, “**CertificateName**”, and so on.
 
 1. Click **Save** to confirm the changes applied to the template.&nbsp;
 1. Trigger the email to verify if the links work as expected.

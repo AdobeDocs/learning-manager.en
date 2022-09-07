@@ -27,61 +27,61 @@ Only if the administrator enables Social Learning, the feature is visible to a l
 <table width="100%" cellspacing="0" cellpadding="1" border="1"> 
  <tbody> 
   <tr> 
-   <td width="48"><p style="text-align: center;"><b>Sl. No.</b></p> </td> 
-   <td width="174"><p style="text-align: center;"><b>Terminology or Concept</b></p> </td> 
-   <td width="402"><p style="text-align: center;"><b>Brief Explanation</b></p> </td> 
+   <td width="48"><p style="text-align: center;"><b>Sl. No.</b></p></td> 
+   <td width="174"><p style="text-align: center;"><b>Terminology or Concept</b></p></td> 
+   <td width="402"><p style="text-align: center;"><b>Brief Explanation</b></p></td> 
   </tr> 
   <tr> 
-   <td width="48"><p style="text-align: center;">1</p> </td> 
-   <td width="174"><p style="text-align: center;">My Boards</p> </td> 
+   <td width="48"><p style="text-align: center;">1</p></td> 
+   <td width="174"><p style="text-align: center;">My Boards</p></td> 
    <td width="402"><p style="text-align: justify;">A board is <g class="gr_ gr_58 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" id="58" data-gr-id="58">
        collection 
-     </g> of posts created by a user. My boards display all the posts that the user has participated, created, and followed.</p> </td> 
+     </g> of posts created by a user. My boards display all the posts that the user has participated, created, and followed.</p></td> 
   </tr> 
   <tr> 
-   <td width="48"><p style="text-align: center;">2</p> </td> 
-   <td width="174"><p style="text-align: center;">All Boards</p> </td> 
-   <td width="402"><p style="text-align: justify;">In the All boards page, users can view the boards created by all learners that share activity scope.</p> </td> 
+   <td width="48"><p style="text-align: center;">2</p></td> 
+   <td width="174"><p style="text-align: center;">All Boards</p></td> 
+   <td width="402"><p style="text-align: justify;">In the All boards page, users can view the boards created by all learners that share activity scope.</p></td> 
   </tr> 
   <tr> 
-   <td width="48"><p style="text-align: center;">3</p> </td> 
-   <td width="174"><p style="text-align: center;">Comment</p> </td> 
-   <td width="402"><p style="text-align: justify;">Users can comment and view posts that are created in boards.&nbsp;</p> </td> 
+   <td width="48"><p style="text-align: center;">3</p></td> 
+   <td width="174"><p style="text-align: center;">Comment</p></td> 
+   <td width="402"><p style="text-align: justify;">Users can comment and view posts that are created in boards.&nbsp;</p></td> 
   </tr> 
   <tr> 
-   <td width="48"><p style="text-align: center;">4</p> </td> 
-   <td width="174"><p style="text-align: center;">Reply</p> </td> 
-   <td width="402"><p style="text-align: justify;">Users can reply to comments that are made on posts inside a board.</p> </td> 
+   <td width="48"><p style="text-align: center;">4</p></td> 
+   <td width="174"><p style="text-align: center;">Reply</p></td> 
+   <td width="402"><p style="text-align: justify;">Users can reply to comments that are made on posts inside a board.</p></td> 
   </tr> 
   <tr> 
-   <td width="48"><p style="text-align: center;">5</p> </td> 
-   <td width="174"><p style="text-align: center;">Upvote/Downvote</p> </td> 
-   <td width="402"><p style="text-align: justify;">Click the upvote and downvote button to like or dislike a post.</p> </td> 
+   <td width="48"><p style="text-align: center;">5</p></td> 
+   <td width="174"><p style="text-align: center;">Upvote/Downvote</p></td> 
+   <td width="402"><p style="text-align: justify;">Click the upvote and downvote button to like or dislike a post.</p></td> 
   </tr> 
   <tr> 
-   <td width="48"><p style="text-align: center;">6</p> </td> 
-   <td width="174"><p style="text-align: center;">Social Leaderboard</p> </td> 
-   <td width="402"><p style="text-align: justify;">In social leaderboard, users can view the names of learners with the number of points they have gained by participating in Social Learning.</p> </td> 
+   <td width="48"><p style="text-align: center;">6</p></td> 
+   <td width="174"><p style="text-align: center;">Social Leaderboard</p></td> 
+   <td width="402"><p style="text-align: justify;">In social leaderboard, users can view the names of learners with the number of points they have gained by participating in Social Learning.</p></td> 
   </tr> 
   <tr> 
-   <td width="48"><p style="text-align: center;">7</p> </td> 
-   <td width="174"><p style="text-align: center;">People I follow</p> </td> 
-   <td width="402"><p style="text-align: justify;">Here users can view the names of other learners they follow and the number of posts they have created.</p> </td> 
+   <td width="48"><p style="text-align: center;">7</p></td> 
+   <td width="174"><p style="text-align: center;">People I follow</p></td> 
+   <td width="402"><p style="text-align: justify;">Here users can view the names of other learners they follow and the number of posts they have created.</p></td> 
   </tr> 
   <tr> 
-   <td width="48"><p style="text-align: center;">8</p> </td> 
-   <td width="174"><p style="text-align: center;">Popular Skills</p> </td> 
-   <td width="402"><p style="text-align: justify;">In the All boards sections, the skills that have been frequently used by learners can be viewed along with the number of posts they have created using that skill.</p> </td> 
+   <td width="48"><p style="text-align: center;">8</p></td> 
+   <td width="174"><p style="text-align: center;">Popular Skills</p></td> 
+   <td width="402"><p style="text-align: justify;">In the All boards sections, the skills that have been frequently used by learners can be viewed along with the number of posts they have created using that skill.</p></td> 
   </tr> 
   <tr> 
-   <td width="48"><p style="text-align: center;">9</p> </td> 
-   <td width="174"><p style="text-align: center;">Share to social</p> </td> 
-   <td width="402"><p style="text-align: justify;">Share to Social is a bookmarklet that allows users to share their online learnings like web pages and blogs directly to Learning Manager Social Learning.</p> </td> 
+   <td width="48"><p style="text-align: center;">9</p></td> 
+   <td width="174"><p style="text-align: center;">Share to social</p></td> 
+   <td width="402"><p style="text-align: justify;">Share to Social is a bookmarklet that allows users to share their online learnings like web pages and blogs directly to Learning Manager Social Learning.</p></td> 
   </tr> 
   <tr> 
-   <td width="48"><p style="text-align: center;">10</p> </td> 
-   <td width="174"><p style="text-align: center;">New Post</p> </td> 
-   <td width="402"><p style="text-align: justify;">New post button allows users to create and post content inside boards.</p> </td> 
+   <td width="48"><p style="text-align: center;">10</p></td> 
+   <td width="174"><p style="text-align: center;">New Post</p></td> 
+   <td width="402"><p style="text-align: justify;">New post button allows users to create and post content inside boards.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -220,24 +220,24 @@ You cannot, yet, download a post in the device app. This feature will be availab
 <table> 
  <tbody>
   <tr> 
-   <td><p><span style="font-weight: normal;"><b>Content type</b></span></p> </td> 
-   <td><p><b>Extensions</b></p> </td> 
+   <td><p><span style="font-weight: normal;"><b>Content type</b></span></p></td> 
+   <td><p><b>Extensions</b></p></td> 
   </tr> 
   <tr> 
-   <td><p>Video</p> </td> 
-   <td><p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p> </td> 
+   <td><p>Video</p></td> 
+   <td><p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p></td> 
   </tr> 
   <tr> 
-   <td><p>Audio</p> </td> 
-   <td><p>mp3, amr, m4a, wav, wma, aac</p> </td> 
+   <td><p>Audio</p></td> 
+   <td><p>mp3, amr, m4a, wav, wma, aac</p></td> 
   </tr> 
   <tr> 
-   <td><p>Static Files</p> </td> 
-   <td><p>PDF, ppt, pptx, doc, docx, xls, xlsx</p> </td> 
+   <td><p>Static Files</p></td> 
+   <td><p>PDF, ppt, pptx, doc, docx, xls, xlsx</p></td> 
   </tr> 
   <tr> 
-   <td><p>Image</p> </td> 
-   <td><p>jpg, jpeg, png, bmp, gif</p> </td> 
+   <td><p>Image</p></td> 
+   <td><p>jpg, jpeg, png, bmp, gif</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -263,34 +263,34 @@ Only some users have permissions to perform particular tasks. The following type
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>Sl. No.</b></p> </td> 
-   <td><p><b>Action</b></p> </td> 
-   <td><p><b>Explanation</b></p> </td> 
+   <td><p><b>Sl. No.</b></p></td> 
+   <td><p><b>Action</b></p></td> 
+   <td><p><b>Explanation</b></p></td> 
   </tr> 
   <tr> 
-   <td><p>1</p> </td> 
-   <td><p>Edit</p> </td> 
-   <td><p>Edit allows the creator of content to correct or modify their post.</p> </td> 
+   <td><p>1</p></td> 
+   <td><p>Edit</p></td> 
+   <td><p>Edit allows the creator of content to correct or modify their post.</p></td> 
   </tr> 
   <tr> 
-   <td><p>2</p> </td> 
-   <td><p>Add to my story</p> </td> 
-   <td><p>A story is a collection of content curated by a user. Users can set the visibility of the content to Private or Public.</p> </td> 
+   <td><p>2</p></td> 
+   <td><p>Add to my story</p></td> 
+   <td><p>A story is a collection of content curated by a user. Users can set the visibility of the content to Private or Public.</p></td> 
   </tr> 
   <tr> 
-   <td><p>3</p> </td> 
-   <td><p>Copy URL</p> </td> 
-   <td><p>This option allows all users to copy the URL of a board or post and share it.</p> </td> 
+   <td><p>3</p></td> 
+   <td><p>Copy URL</p></td> 
+   <td><p>This option allows all users to copy the URL of a board or post and share it.</p></td> 
   </tr> 
   <tr> 
-   <td><p>4</p> </td> 
-   <td><p>Delete</p> </td> 
-   <td><p>Delete option removes&nbsp; the post after user’s confirmation.</p> </td> 
+   <td><p>4</p></td> 
+   <td><p>Delete</p></td> 
+   <td><p>Delete option removes&nbsp; the post after user’s confirmation.</p></td> 
   </tr> 
   <tr> 
-   <td><p>5</p> </td> 
-   <td><p>Report</p> </td> 
-   <td><p>Every user has permissions to report an abuse of a post if it violates their privacy, or its content is inappropriate.</p> <p>Once a post is reported, a notification is sent to the board administrator and moderators for further actions.</p> </td> 
+   <td><p>5</p></td> 
+   <td><p>Report</p></td> 
+   <td><p>Every user has permissions to report an abuse of a post if it violates their privacy, or its content is inappropriate.</p><p>Once a post is reported, a notification is sent to the board administrator and moderators for further actions.</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -320,46 +320,46 @@ To add a post to a story, follow the below steps:
 <table> 
  <tbody>
   <tr> 
-   <td><p>&nbsp;</p> </td> 
-   <td><p><b>Content owner</b></p> </td> 
-   <td><p><b>Any user</b></p> </td> 
-   <td><p><b>Board moderators</b></p> </td> 
-   <td><p><b>Administrator</b></p> </td> 
+   <td><p>&nbsp;</p></td> 
+   <td><p><b>Content owner</b></p></td> 
+   <td><p><b>Any user</b></p></td> 
+   <td><p><b>Board moderators</b></p></td> 
+   <td><p><b>Administrator</b></p></td> 
   </tr> 
   <tr> 
-   <td><p><b>Edit</b></p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>No</p> </td> 
-   <td><p>No</p> </td> 
-   <td><p>No</p> </td> 
+   <td><p><b>Edit</b></p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>No</p></td> 
+   <td><p>No</p></td> 
+   <td><p>No</p></td> 
   </tr> 
   <tr> 
-   <td><p><b>Add to my Story</b></p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>Yes</p> </td> 
+   <td><p><b>Add to my Story</b></p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>Yes</p></td> 
   </tr> 
   <tr> 
-   <td><p><b>Copy URL</b></p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>Yes</p> </td> 
+   <td><p><b>Copy URL</b></p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>Yes</p></td> 
   </tr> 
   <tr> 
-   <td><p><b>Delete</b></p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>No</p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>Yes</p> </td> 
+   <td><p><b>Delete</b></p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>No</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>Yes</p></td> 
   </tr> 
   <tr> 
-   <td><p><b>Report</b></p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>Yes</p> </td> 
-   <td><p>Yes</p> </td> 
+   <td><p><b>Report</b></p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>Yes</p></td> 
   </tr> 
  </tbody>
 </table>
