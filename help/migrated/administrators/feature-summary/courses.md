@@ -12,13 +12,9 @@ Learning Manager Learning Programs are renamed to Learning Paths. This change ha
 
 This document consists of Help to create course modules, instances and courses for Administrator role.
 
-Authors create courses. Learners can take up the courses and Administrators can track the performance of learners based on course consumption.
-
-# Overview {#overview}
-
 Authors create courses. Learners then take the courses and Administrators can track the performance of learners based on course consumption. Administrators can view the courses created by authors and perform some activities as explained in this section. As an administrator, you can create unique learning programs with a predefined set of courses for learners.
 
-# Create instance of a course {#createinstanceofacourse}
+## Create instance of a course {#createinstanceofacourse}
 
 After an author has created a course, you can create instances of the course. By creating Instances of a course, you can offer the same course to your learners at different time periods. Learners can choose any instance and enroll. You can configure each instance to have its own set of badges, feedback, and other settings.
 
@@ -33,21 +29,17 @@ To create an instance,
 1. To create an instance, click **Add New Instance** on the upper-right corner of the course information. A new instance of the course is displayed.
 1. Enter the properties of the instance:
 
-   a.      In the **Instance Name** field, enter the name of the instance you want to associate with the course. Ensure that you use a unique name for the instance.
-
-   b.      Specify the completion deadline for the instance. Learners must achieve course completion status by this date.
-
-   c.      Click **Show More Options** to display other deadline options.
-
-   d.     **Enrollment Deadline:** This is the date by which a learner is expected to enroll into a learning object in case of self-enrollment.
-
-   `e.`**Unenrollment deadline:** You can choose to restrict unenrollment by learner himself by having an unenrollment deadline.
+   * In the **Instance Name** field, enter the name of the instance you want to associate with the course. Ensure that you use a unique name for the instance.
+   * Specify the completion deadline for the instance. Learners must achieve course completion status by this date.
+   * Click **Show More Options** to display other deadline options.
+   * **Enrollment Deadline:** This is the date by which a learner is expected to enroll into a learning object in case of self-enrollment.
+   * **Unenrollment deadline:** You can choose to restrict unenrollment by learner himself by having an unenrollment deadline.
 
    An Administrator can decide to have completion deadlines for a course or learning program based on requirements. However, it is recommended to have one for Classroom/Virtual classroom-based trainings.
 
    ![](assets/create-an-instance.png)
 
-# View properties of the instance {#viewpropertiesoftheinstance}
+## View properties of the instance {#viewpropertiesoftheinstance}
 
 ![](assets/properties-of-aninstance.png)
 
@@ -56,7 +48,7 @@ To create an instance,
 1. **Sessions:** The number of Virtual Classroom and Classroom modules in the course.
 1. **Feedback Enabled:** Displays whether L1, L2, and L3 feedbacks are enabled for this course.
 
-# Retire an instance {#retireaninstance}
+## Retire an instance {#retireaninstance}
 
 To retire an instance, perform the steps below;
 
@@ -66,7 +58,7 @@ To retire an instance, perform the steps below;
 
 1. To search for all retired instances, click the tab **Retired** on the Instances page.
 
-# Restore an instance {#restoreaninstance}
+## Restore an instance {#restoreaninstance}
 
 To restore a retired instance to an activate state, perform the following steps:
 
@@ -76,7 +68,7 @@ To restore a retired instance to an activate state, perform the following steps:
 
 1. The instance now gets restored to an active mode.
 
-# Set escalation level {#escalation}
+## Set escalation level {#escalation}
 
 For sending the email notifications, an Admin must explicitly choose the escalation level to:
 
@@ -85,7 +77,7 @@ For sending the email notifications, an Admin must explicitly choose the escalat
 
 ![](assets/escalation-notification.png) 
 
-# Course moderation {#coursemoderation}
+## Course moderation {#coursemoderation}
 
 Whenever an author adds, updates, or deletes modules and republishes a course, all the administrators receive notification about the same. As an administrator, you can then view the changes, compare the old and new content by clicking on the link, and either approve or reject the changes accordingly.
 
@@ -99,7 +91,7 @@ Click on the notification to view the changes the author has made to the course.
 
 If there are multiple authors who are updating the same course, the latest or the last performed change will reflect in the administrator's notification. You can then approve or reject the latest changes.
 
-# Add L1 and L3 feedback {#addl1andl3feedback}
+## Add L1 and L3 feedback {#addl1andl3feedback}
 
 You can add L1 and L3 feedback options while you create the courses:
 
@@ -109,7 +101,7 @@ You can add L1 and L3 feedback options while you create the courses:
 1. Click the circle on toggle button adjacent to L1 or L3 feedback to enable it.
 1. Add the L3 feedback question in the text area below L3 Question.
 
-# Mandatory L1 feedback {#mandatory-l1-feedback}
+## Mandatory L1 feedback {#mandatory-l1-feedback}
 
 You can make all questions or the first question mandatory in an L1 feedback. 
 
@@ -119,24 +111,24 @@ Now, you can create the questions, which now become mandatory.
 
 ![](assets/create-mandatoryquestions.png)
 
-If the two mandatory questions, for some reason, doesn’t have any text, the questions will not appear in the feedback form.
+If the two mandatory questions, for some reason, doesn't have any text, the questions will not appear in the feedback form.
 
-**Note:** It is not enough that you enable these settings at the Learning Program instance. You must also enable these settings at the Course Instance level for each course in the Learning Program.
+>[!NOTE]
+>
+>It is not enough that you enable these settings at the Learning Program instance. You must also enable these settings at the Course Instance level for each course in the Learning Program.
 
 In Instance Defaults page, if you enable **Make All Questions Mandatory**, then all new instances created thereafter will inherit these settings.
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png) 
 
-# L1 feedback at course level {#l1-feedback-course-level}
+## L1 feedback at course level {#l1-feedback-course-level}
 
 In previous versions of Learning Manager, an Administrator could enable L1 feedback for the Learning Program.
 
 In this release of Learning Manager, the Administrator can send L1 feedback for all the courses that are part of the Learning Program. The Administrator must ensure that L1 feedback is enabled for all the courses at the course instance level.
 
 1. To enable L1 feedback for each course, in the Admin app, click **Learning Programs > View Learning Program**.   
-
 1. Click **Instances > L1 Feedback Enabled**.   
-
 1. Enable the option **Enable for Each Course**.
 
    ![](assets/enable-l1-feedbackforcourse.png)
@@ -147,7 +139,7 @@ In this release of Learning Manager, the Administrator can send L1 feedback for 
 
    If L1 feedback is enabled for all courses, but is disabled in the learning Program instance, then the L1 feedback will not be triggered for the courses.
 
-# Language specific quiz reports
+## Language specific quiz reports
 
 Quiz reports help in evaluating the performance of a learner post completion of a Learning program or course. 
 
@@ -157,7 +149,7 @@ Quiz reports, display data in different languages provided the course is being o
 
 This is now rectified as the Admin is now able to view all the reports in the respective language which the learner attempted all at once, regardless of the content locale chosen. Quiz attempted in different languages will be added as additional columns in the quiz report.
 
-# Enable L1 feedback at account level {#l1-feedback-account-level}
+## Enable L1 feedback at account level {#l1-feedback-account-level}
 
 An Admin will be able to enable L1 feedback for newly created courses and Learning Program by turning on this setting at account level. However, turning on this setting doesn't impact the existing courses and Learning Programs
 
@@ -203,7 +195,7 @@ A sample output of the L3 questionnaire is provided below for your reference. Le
 
 ![](assets/l3-output.png) 
 
-# Set up L1 and L3 feedback questionnaire {#setupl1andl3feedbackquestionnaire}
+## Set up L1 and L3 feedback questionnaire {#setupl1andl3feedbackquestionnaire}
 
 You can set up L1 and L3 feedback questionnaire and also set reminders at the account level. 
 
@@ -220,7 +212,7 @@ You can set up L1 and L3 feedback questionnaire and also set reminders at the ac
 
 In L1 feedback, you can see two sets of questionnaire along with a default question. First set of questionnaire refers to self paced courses which can also be used for activity based courses. Second set of questionnaire can be used for Class room and virtual class room type of courses.
 
-# Export checklist data {#export-checklist-data}
+## Export checklist data {#export-checklist-data}
 
 From the list of courses, open a course that contains a checklist. On the left pane, you will see an option **Checklist**.
 
@@ -231,7 +223,7 @@ Click the option and on the course page, perform the following:
 1. Select the instance and the module.
 1. Click **Actions > Export**, and then export the learner checklist report.
 
-On the **Checklist **page, an Instructor can export the checklist report from the **Actions **drop-down list.
+On the **Checklist** page, an Instructor can export the checklist report from the **Actions** drop-down list.
 
 The CSV report contains the following fields:
 
@@ -250,14 +242,15 @@ The CSV report contains the following fields:
 
 When you download a report after selecting a status filter, the downloaded Learner Transcript report will contain the learner data based on the status filter applied. This added filter will also be displayed to Custom Admin and Manager when they are about to generate a Learner Transcript.
 
-# Viewing courses {#viewingcourses}
+## Viewing courses {#viewingcourses}
 
 As an administrator, you can view a list of all available courses.   Click **Courses **on the left pane to view the list of courses with search and filter options. You can also view the course effectiveness percentage for each course on the course thumbnails.
 
-**Note** 
-You can retire a course after the course is consumed by learners or when you want to hold up any particular course after publishing it. You can retire a course only when it is in a published state. List of all the retired courses can be viewed by clicking the **Retired **tab.
+>[!NOTE]
+>
+>You can retire a course after the course is consumed by learners or when you want to hold up any particular course after publishing it. You can retire a course only when it is in a published state. List of all the retired courses can be viewed by clicking the **Retired **tab.
 
-# View quiz scores {#viewquizscores}
+## View quiz scores {#viewquizscores}
 
 1. Click course name on the course thumbnail.
 1. Click Quiz Score on the left pane.
@@ -266,7 +259,7 @@ You can view the quiz scores of any particular course based on user name or base
 
 Choose the instance type from the drop-down list to view the scores based on each instance of the course.
 
-# Manage learners list for a course {#managelearnerslistforacourse}
+## Manage learners list for a course {#managelearnerslistforacourse}
 
 1. Click course name on the course thumbnail.
 1. From the left pane, click Learners.
@@ -282,10 +275,11 @@ To allow learners to reset a module and consume the module again, click Reset. F
 
 You can also export the learners list in an excel sheet. To export the learners list, click Actions > Export.
 
-**Note** 
-If there are multiple instances for a course, the learners list in excel is provided in each tab separately. The learners list consists of learner name, status and selection criteria. Learners status can be **Not started**, or **In progress**, or **Completed**. 
+>[!NOTE]
+>
+>If there are multiple instances for a course, the learners list in excel is provided in each tab separately. The learners list consists of learner name, status and selection criteria. Learners status can be **Not started**, or **In progress**, or **Completed**. 
 
-# Export learners' attendance {#attendance}
+## Export learners' attendance {#attendance}
 
 For any classroom and VC course, you can download the list of learners who have attended this course, for any instance.
 
@@ -299,9 +293,9 @@ On the PDF, you can view the same set of learners as an instructor does.
 
 When you download the PDF, you can see the time zone (in UTC) that was used when creating the course.
 
-# Export learners in pending approval state
+## Export learners in pending approval state
 
-An Administrator, Manager, or Custom Admin can export data of learners who are in pending approval enrollment state. You can export the data via **Course > Learner** tab, and click the Action drop-down list.
+An Administrator, Manager, or Custom Admin can export data of learners who are in pending approval enrollment state. You can export the data via **Course** > **Learner** tab, and click the Action drop-down list.
 
 The option will be present when no learner is enrolled/pending approval to the manager approved course and an empty report will be generated. You can also export when learners are in pending approval state, enrolled state, pending state, and unenrolled state.
 
@@ -309,7 +303,7 @@ The report contains data of active, deleted, and suspended users if they are pen
 
 If a learner who was earlier in pending approval state, unenrolls, then his/her record will not be present in the report. Also if a learner who was earlier in pending approval state, is enrolled to the course by admin/manager/custom admin enrollment, then his/her record is present in the report.
 
-# View L1 and L3 feedback {#viewl1andl3feedback}
+## View L1 and L3 feedback {#viewl1andl3feedback}
 
 You can view the L1 feedback provided by learners for a course and the L3 feedback provided by Managers for learners.
 
@@ -317,17 +311,17 @@ You can view the L1 feedback provided by learners for a course and the L3 feedba
 1. Click L1 Feedback or L3 Feedback on the left pane to view the feedback received.
 1. Select the instance from the drop-down list to view the feedback for that particular instance.
 
-# Preview courses {#previewcourses}
+## Preview courses {#previewcourses}
 
 Administrator can preview courses by clicking the **Preview as learner** option while viewing the course modules.
 
-1. Click **Courses **on the left pane after you log in as an administrator.
+1. Click **Courses** on the left pane after you log in as an administrator.
 1. Click any course tile from the list of courses on the page.
 1. Click Preview as learner from the left pane and click the module name on the page to preview the course module in the player.
 
-# Course effectiveness {#courseeffectiveness}
+## Course effectiveness {#courseeffectiveness}
 
-Course effectiveness is evaluated to understand the usefulness of a course to the learner. It is a combination of results from learner feedback on the course content, the course quiz results for a learner and the manager’s feedback evaluating a learner based on learnings from the course.
+Course effectiveness is evaluated to understand the usefulness of a course to the learner. It is a combination of results from learner feedback on the course content, the course quiz results for a learner and the manager's feedback evaluating a learner based on learnings from the course.
 
 Administrator can view the course effectiveness rating on the course thumbnails as shown in the below snapshot. You can see the rating for this course as 100.
 
@@ -343,7 +337,7 @@ In this sample snapshot, 1 out 1 users received all the three feedbacks, hence t
 
 As per the pie-chart shown above, more weightage is given to L3 feedback from manager.
 
-# Searching courses and learning programs {#searchingcoursesandlearningprograms}
+## Searching courses and learning programs {#searchingcoursesandlearningprograms}
 
 Adobe Learning Manager makes it easier for you to find the courses/learning programs of your choice quickly. You can search for your courses in two ways:
 
@@ -356,7 +350,7 @@ You can search based on competencies by clicking Competencies and choosing them.
 
 You can sort learning programs in three ways: alphabetical ascending order, alphabetical descending order and based on updated date.
 
-# Enrolling learners {#enrollinglearners}
+## Enrolling learners {#enrollinglearners}
 
 You can follow the same steps to enroll learners into course, learning program and certifications. Managers can also enroll learners under him using the following steps.
 
@@ -368,8 +362,9 @@ Administrator enrolls some learners to mandatory courses as per organization req
 
 1. Select the instance from the select instance drop-down. The drop-down lists all instances including active,  retired  ,  and expired instances.
 
-**Note** 
-Admin can remove any registered learners of a course by clicking the drop-down arrow on learners page and by clicking **Actions > Remove**.
+>[!NOTE]
+>
+>Admin can remove any registered learners of a course by clicking the drop-down arrow on learners page and by clicking **Actions > Remove**.
 
 ![](assets/enroll-learners.png) 
 
@@ -413,7 +408,7 @@ On the **Enroll Learners** dialog, expand the option **Advanced Options**. In th
 
 ![](assets/comment-for-learner.png) 
 
-# Search for enrolled users {#searchforusers}
+## Search for enrolled users {#searchforusers}
 
 Search for enrolled users on the Learning Object's Learner section using type-ahead search. Using type-ahead search, you can progressively search for enrolled users using name, email id, and uuid.
 
@@ -444,9 +439,9 @@ In addition, using the search results, you can choose a learner or user group, a
 
 While performing a search,  the option Unenroll > Bulk in the  Actions drop-down list is disabled for the  Course/Learning Program.
 
-# Share QR code with learners to enroll, complete or both {#shareqrcodewithlearnerstoenrollcompleteorboth}
+## Share QR code with learners to enroll, complete or both {#shareqrcodewithlearnerstoenrollcompleteorboth}
 
-Administrators in Adobe Learning Manager can share the QR codes with learners to quickly enroll into the course. The three different QR codes are used to mark the ‘enrollment’, ‘completion’ or ‘enrollment & completion’ of a course.
+Administrators in Adobe Learning Manager can share the QR codes with learners to quickly enroll into the course. The three different QR codes are used to mark the 'enrollment', 'completion' or 'enrollment & completion' of a course.
 
 Learners can simply use the Adobe Learning Manager device app to scan the respective QR code.
 
@@ -462,25 +457,25 @@ Learners can simply use the Adobe Learning Manager device app to scan the respec
 
    ![](assets/qr-code-download-01.png)
 
-# Course life cycle {#courselifecycle}
+## Course life cycle {#courselifecycle}
 
 A typical course life cycle looks as follows:
 
-**Draft **-When an author completes creating a course and saving it. At this state, course is not available yet for learners. You can delete a course at this state.
+**Draft** - When an author completes creating a course and saving it. At this state, course is not available yet for learners. You can delete a course at this state.
 
-**Published **-When an author completes publishing a course. At this state, the course is available for learners to enroll.
+**Published** - When an author completes publishing a course. At this state, the course is available for learners to enroll.
 
-**Retired **- After publishing a course, an author can move it to a retired state if he doesn’t want the course to appear in course catalog for learners. You can re-publish or delete a course at this state.
+**Retired** - After publishing a course, an author can move it to a retired state if he doesn't want the course to appear in course catalog for learners. You can re-publish or delete a course at this state.
 
-**Deleted **- A course under deleted state is when it is removed completely from the Adobe Learning Manager application. Courses can be deleted by authors only when they are in draft state. You can also delete courses from retired state. 
+**Deleted** - A course under deleted state is when it is removed completely from the Adobe Learning Manager application. Courses can be deleted by authors only when they are in draft state. You can also delete courses from retired state. 
 
 ![](assets/lifecycle-03.png) 
 
-# Notification settings {#notificationsettings}
+## Notification settings {#notificationsettings}
 
 As an Administrator you can adjust the notification settings. For more information, see [Notifications.](user-notifications.md)
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 **1. How to reset module as an Admin?**
 

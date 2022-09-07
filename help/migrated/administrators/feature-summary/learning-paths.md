@@ -1,13 +1,14 @@
 ---
 jcr-language: en_us
 title: Learning Paths
+description: A Learning Path is a journey that a learner must go through to master some subject over time. Learners are in control over their training experience and can acquire and retain knowledge in a self-paced manner with greater effectiveness.
 contentowner: saghosh
 ---
 
 
 # Learning Paths {#learning-paths}
 
-# What is a Learning Path?
+## What is a Learning Path?
 
 Often, Administrators are interested in building a detailed curriculum which offers in-depth knowledge of a particular topic or an area of expertise. It can also be a sequence of training courses which the employees or customers are expected to complete. This requires bundling a set of courses and Programs together to create a complete training package. 
 
@@ -15,7 +16,7 @@ This is where Learning Path comes into picture. A Learning Path is a journey tha
 
 For example, when on-boarding new employees, an organization conducts training on policies and procedures, culture, history, and so on. A Learning Path sets up the courses according to the needs of the employees, so that employees can enroll on the courses according to the learning path set for them. you choose, and you can enroll users on this path so they can progress from course to course.
 
-# Advantages of a Learning Path
+## Advantages of a Learning Path
 
 Learning paths makes the delivery of a training program convenient and hassle-free. Here are some of the key benefits of a Learning Path:
 
@@ -25,7 +26,7 @@ Learning paths makes the delivery of a training program convenient and hassle-fr
 1. Ability to create sections. Each section can have a title.   
 1. Ability to make sections mandatory and setup completion criteria.
 
-# Add a Learning Path in Learning Manager 
+## Add a Learning Path in Learning Manager 
 
 In Learning Manager, in the Admin app, click **Learning Path** on the left panel.
 
@@ -71,7 +72,7 @@ In the Learning Path, you can perform the following:
 
 ![](assets/remove-course.png)
 
-After you’ve made the changes, to publish the Learning Path, click Publish.
+After you've made the changes, to publish the Learning Path, click Publish.
 
 ## Nested Leaning Path
 
@@ -91,7 +92,7 @@ In the Settings section, you can add the pre-requisites and the Job Aids that a 
 
 The Learning Path instances displays an additional tile, **Learning Paths**. The tile displays the number. of learning programs added to a Learning Path.
 
-In the **Courses **tile, you can see the course instances that are visible to the learners who are enrolled in this instance.
+In the **Courses** tile, you can see the course instances that are visible to the learners who are enrolled in this instance.
 
 The **Enable Learners to Choose instances (Flexible Learning Path)** check-box is only applicable to courses. All child Learning Paths will get an option to map a Learning Program instance with Learning Path. By default, the mapping is set to Default Instance.
 
@@ -109,11 +110,11 @@ The notification reminders are triggered based on the option. By default, the op
 
 ## Important Note
 
-Please note that the existing feature of Learning Programs will be renamed to Learning Path immediately after the release. In case you wish to continue calling it as Learning Programs, we recommend you to use the ‘Terminologies’ feature to apply the required terminology. This way you can consume to use the word Learning Program.
+Please note that the existing feature of Learning Programs will be renamed to Learning Path immediately after the release. In case you wish to continue calling it as Learning Programs, we recommend you to use the 'Terminologies' feature to apply the required terminology. This way you can consume to use the word Learning Program.
 
-Learning Paths bring to you a range of functionalities. Some of them are available immediately after the release. Admins/Authors can start using them. Extended capabilities like “Sections”, “adding Learning Path in another Path” etc. are disabled and can be enabled by checking the check-box mentioned below.
+Learning Paths bring to you a range of functionalities. Some of them are available immediately after the release. Admins/Authors can start using them. Extended capabilities like "Sections", "adding Learning Path in another Path" etc. are disabled and can be enabled by checking the check-box mentioned below.
 
- Learners can continue to consume Learning Programs (now called Learning Paths) and Authors/Admins can continue to create them as well. To take benefit of extended functionalities of Learning Path mentioned above, Administrator should enable the setting as mentioned below. Once enabled, all the new extended capabilities of Learning Path will become available. 
+Learners can continue to consume Learning Programs (now called Learning Paths) and Authors/Admins can continue to create them as well. To take benefit of extended functionalities of Learning Path mentioned above, Administrator should enable the setting as mentioned below. Once enabled, all the new extended capabilities of Learning Path will become available. 
 
 The **Settings > General** page has a new option to enable Learning Paths. If this option is enabled, you can add courses and Learning Programs in a Learning Path. You cannot change the option once it is enabled.
 
@@ -125,19 +126,19 @@ The **Settings > General** page has a new option to enable Learning Paths. If th
 
 **Learners**
 
-* By default, learners will notice a change in terminology from “Learning Program” to Learning Path”. This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* This change however will not be reflected in the UI if you have already used the ‘Custom Terminology” function to replace the terminology “Learning Programs” with some custom text. 
-* In case you had not used the Custom Terminology function yet but now wish to retain “Learning Programs” as the terminology, you can do so via the ‘Custom Terminology’ feature post the release.
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* The overall cosmetic look and feel of erstwhile ‘Learning Programs’ will get updated to a more visually rich look and feel.
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
 **Authors and Admins**
 
 * The terminology within the Admin/Author apps is the same as that of learners.
-* The UI for Authors and Admins to create, update the erstwhile ‘Learning Program’ objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable ‘Extended Features of Learning Path’, with no loss in functionality. 
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called “Section” within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven’t used it yet, it will not create any impact on the learner side till you actually start using it.
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
 **Reporting**
 
@@ -174,7 +175,7 @@ The **Settings > General** page has a new option to enable Learning Paths. If th
 
 **Reporting**
 
-* A few new columns will get added to the ‘Learner Transcript’ and ‘Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Prime. This information is communicated in the table provided in earlier communication.
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Prime. This information is communicated in the table provided in earlier communication.
 
 **Accounts using Headless LMS**
 
@@ -190,4 +191,3 @@ The **Settings > General** page has a new option to enable Learning Paths. If th
 **Reporting**
 
 * Same changes as that of Reporting stated above.
-

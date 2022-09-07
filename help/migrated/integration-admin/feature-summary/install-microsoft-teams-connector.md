@@ -58,9 +58,9 @@ You can access Microsoft Teams connector if you have Office 365 E3 or Office 365
 1. Click **App Registrations**. 
 1. Click **New Registration**, enter the following details, and register the application:
 
-   1. **Name **— Any name of your choice.
-   1. **Supported account types** — Accounts in any organizational directory (Any Azure Active Directory - Multitenant). 
-   1. **Redirect URI (optional)** — Optional field indicating the reply URL.
+   1. **Name **- Any name of your choice.
+   1. **Supported account types** - Accounts in any organizational directory (Any Azure Active Directory - Multitenant). 
+   1. **Redirect URI (optional)** - Optional field indicating the reply URL.
 
 1. In the **Essentials **column, note the following IDs, which will be further used during the integration: 
 
@@ -70,8 +70,8 @@ You can access Microsoft Teams connector if you have Office 365 E3 or Office 365
 1. Search for client credentials and click **Add a certificate or secret**.
 1. Click **New Client secret** and add the following details:  
 
-   1. **Description **— Enter any name.
-   1. **Expires **— Set to any value (recommended value is 24 months. Ensure that new client credentials are generated once the previous one expires).
+   1. **Description **- Enter any name.
+   1. **Expires **- Set to any value (recommended value is 24 months. Ensure that new client credentials are generated once the previous one expires).
 
 Note the client secret, which will be further used during the integration.
 
@@ -102,11 +102,11 @@ Note the client secret, which will be further used during the integration.
 1. Click **App roles > Create app role**. 
 1. Enter the following values: 
 
-   1. **Display name** — Name of the API/Permission name (For example, Calendars.ReadWrite).
-   1. **Allowed member types** — Specify both users and applications (Users/Groups + Applications). 
-   1. **Value **— Name of the API/Permission name (For example, Calendars.ReadWrite).
-   1. **Description **— Name of the API/Permission name (For example, Calendars.ReadWrite).
-   1. **Do you want to enable this app role? **— Select this checkbox.
+   1. **Display name** - Name of the API/Permission name (For example, Calendars.ReadWrite).
+   1. **Allowed member types** - Specify both users and applications (Users/Groups + Applications). 
+   1. **Value **- Name of the API/Permission name (For example, Calendars.ReadWrite).
+   1. **Description **- Name of the API/Permission name (For example, Calendars.ReadWrite).
+   1. **Do you want to enable this app role? **- Select this checkbox.
 
 1.  Repeat the preceding steps for all the nine API/Permissions that were added.
 
@@ -127,15 +127,15 @@ This enables the connector to access Microsoft Teams online meetings.
 
 1. `Enter these values:`
 
-   1. `**Connection Name** — Give the name that author will see while creating the session.`  
+   1. `**Connection Name** - Give the name that author will see while creating the session.`  
    
-   1. `**Microsoft Teams Tenant Id** — Enter the value determined earlier.`  
+   1. `**Microsoft Teams Tenant Id** - Enter the value determined earlier.`  
    
-   1. `**Microsoft Teams Client Id** — Enter the value determined earlier.`  
+   1. `**Microsoft Teams Client Id** - Enter the value determined earlier.`  
    
-   1. `**Microsoft Teams Client Secret** — Enter the value determined earlier.`  
+   1. `**Microsoft Teams Client Secret** - Enter the value determined earlier.`  
    
-   1. `**Microsoft Teams Admin User Email **— Enter the default organizer email. This user (typically a service user) would be the meeting creator in case no explicit organizer is selected from the Learning Manager Author app.`
+   1. `**Microsoft Teams Admin User Email **- Enter the default organizer email. This user (typically a service user) would be the meeting creator in case no explicit organizer is selected from the Learning Manager Author app.`
 
 # Allocate licenses to users <Developer/Optional>
 

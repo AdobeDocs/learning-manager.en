@@ -12,7 +12,7 @@ Learn how to add users or user groups in Learning Manager application.
 
 ![](assets/user-mgmt-new.png) 
 
-# Overview {#overview}
+## Overview {#overview}
 
 In Adobe Learning Manager, you can assume the following roles:
 
@@ -27,7 +27,7 @@ As an Administrator, you can add users in three ways:
 * External
 * User groups
 
-# Add a single user {#addasingleuser}
+## Add a single user {#addasingleuser}
 
 To add users,
 
@@ -43,7 +43,7 @@ To add users,
 
 1. To add the new user in Prime, click **Add**. After the user is added, the user receives a verification mail. The Learner then activates the account and starts using Learning Manager. This workflow is helpful if you need to add limited number of learners to your Prime Account. But if you're planning to enroll all the employees of a large organization, you can add them in a singe attempt. For more information, see the next section.
 
-# Add users in bulk {#addusersinbulk}
+## Add users in bulk {#addusersinbulk}
 
 Typically, most organizations work with an HR Management System (HRMS), which maintains all employee records, such as, designation, location, date of joining, or employee hierarchy. You can export this data in a CSV format. To import a CSV, follow the steps below:
 
@@ -68,7 +68,7 @@ Typically, most organizations work with an HR Management System (HRMS), which ma
 
    ![](assets/upload-a-csv-dialog.png)
 
-1. Choose the CSV or drag-and-drop the file. After you’ve chosen the file, map the data fields with the ones in the CSV file. Click the required drop-down and choose the right field.
+1. Choose the CSV or drag-and-drop the file. After you've chosen the file, map the data fields with the ones in the CSV file. Click the required drop-down and choose the right field.
 
    ![](assets/map-data-fields.png)
 
@@ -114,11 +114,11 @@ On the list of users, choose a user, and click the user. On the user details, cl
 
 ![](assets/edit-user.png) 
 
-# Workflows for active fields and active field values preserving case sensitivity
+## Workflows for active fields and active field values preserving case sensitivity
 
-In this release, Learning Manager preserves the case sensitivity of the user attribute and its value. **For example**, the case sensitivity of a user attribute is ‘location’ and its value as ‘PARIS’ will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
+In this release, Learning Manager preserves the case sensitivity of the user attribute and its value. **For example**, the case sensitivity of a user attribute is 'location' and its value as 'PARIS' will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
 
-The Administrator can do this by visiting **Admin app** > **Users **> **User groups **and clicking on the group name.  
+The Administrator can do this by visiting **Admin app** > **Users** > **User groups** and clicking on the group name.  
 
 Admin can add and update allowed attribute values for a learner through UI.
 
@@ -128,7 +128,7 @@ Types of active fields:
 * Reportable: Reporting user groups would be created based on the active fields
 * Exportable: The fields will be seen in exported in user group report.
 
-# Create a self-registration link {#createaselfregistrationlink}
+## Create a self-registration link {#createaselfregistrationlink}
 
 You can also enable employees in your organization to register themselves as Learners to Adobe Learning Manager Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Prime using their Adobe credentials.
 
@@ -142,32 +142,17 @@ The **Add Self-Registration Profile** dialog appears. Give this profile a name. 
 
 After you click **Save**, a URL gets generated, which you can share with the learners, so that they can click the URL and self-register themselves.
 
-# Enroll external learners {#enrollexternallearners}
+## Enroll external learners {#enrollexternallearners}
 
 In Adobe Learning Manager, you can also create Registration links for external partners or agencies with limited access to your account and provide them learning material.
 
 There are a few differences between internal and external registrations.
 
-<table> 
- <tbody>
-  <tr> 
-   <td><p><b>Internal users</b></p></td> 
-   <td><p><b>External users</b></p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Log in using Adobe ID or SSO credentials.</p></td> 
-   <td><p>Log in using any email ID.</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Gamification is available.</p></td> 
-   <td><p>Gamification is not available.</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Learner hierarchies are available.</p></td> 
-   <td><p>Learner hierarchies are not available.</p></td> 
-  </tr> 
- </tbody>
-</table>
+| Internal users | External users |
+|---|---|
+| Log in using Adobe ID or SSO credentials. | Log in using any email ID. |
+| Gamification is available. | Gamification is not available. |
+| Learner hierarchies are available. | Learner hierarchies are not available. |
 
 To enroll external users, follow the steps below:
 
@@ -178,23 +163,18 @@ To enroll external users, follow the steps below:
 1. On the upper-right corner of the page, click **Add**.
 1. On the **Add External Registration Profile** dialog, add the following details:
 
-   a.      The profile name of the partner organization.
-
-   b.      The email address of the manager of the partner organization.
-
-   c.      Seat limit for external enrollment for this partner.
-
-   d.      Expiry date to set a deadline to stop allowing new registrations to this group. After the Expiry date, only the existing registered users can access this training.
+   * The profile name of the partner organization.
+   * The email address of the manager of the partner organization.
+   * Seat limit for external enrollment for this partner.
+   * Expiry date to set a deadline to stop allowing new registrations to this group. After the Expiry date, only the existing registered users can access this training.
 
    ![](assets/map-data-fields-2.png)
 
-   e.      In the Advanced Settings section, enter the following:
+   * In the Advanced Settings section, enter the following:
 
-                i.     **Login Requirement:** Specify a value in days. Learners get deleted if they do not login for the above duration.
-
-                ii.     **Allowed Domains:** A comma-separated list of whitelisted email domain names.
-
-                iii.     **Email Verification Required:** Select this option to make email verification mandatory for a learner.
+     * **Login Requirement:** Specify a value in days. Learners get deleted if they do not login for the above duration.
+     * **Allowed Domains:** A comma-separated list of whitelisted email domain names.
+     * **Email Verification Required:** Select this option to make email verification mandatory for a learner.
 
    ![](assets/email-verificationrequired.png)
 
@@ -214,7 +194,7 @@ The partner manager can share the link with the employees who must take the trai
 
 ## Pause an external profile {#pause}
 
-After adding an external user group to Learning Manager, you can also pause the external users’ registration process. When you pause, the external users’ registration process is blocked. However, this process works only when the users haven't registered yet by accepting the invitation.
+After adding an external user group to Learning Manager, you can also pause the external users' registration process. When you pause, the external users' registration process is blocked. However, this process works only when the users haven't registered yet by accepting the invitation.
 
 To pause the external user groups, choose a group or groups, click **Actions** from the upper-right corner of the page, and click **Pause**.
 
@@ -224,7 +204,7 @@ At any time, you can always revoke the paused state of an external partner and r
 
 The following states are applicable for external users:
 
-* **Inactive state** - In this state, the external users’ registration is expired. Administrators set the expiry date for the external users while adding them through the add user workflow.
+* **Inactive state** - In this state, the external users' registration is expired. Administrators set the expiry date for the external users while adding them through the add user workflow.
 * **Active state** - In this state, the external users can register to the Learning Manager application, and log in to the application.
 * **Pause** - In this state, the registration process for external users is blocked. However, the existing users can continue to log in.
 
@@ -254,7 +234,7 @@ Choose a user, and from the upper-right corner, click **Actions > Remove Role** 
 
 In the list of external users, search for a user by typing the name of the user in the search bar. The top five matching names will be listed and you can choose any.
 
-# Create user groups {#createusergroups}
+## Create user groups {#createusergroups}
 
 A User Group is a set of users who are related to a category. User Groups help administrators to select learners in their organization based on their attributes, and then assign learning content to them. Also, these User Groups enable administrators to assign customized logos and catalogs to learners and show customized reports on their progress.
 
@@ -279,7 +259,7 @@ In addition to Auto-generated groups, you can create Custom groups. To add a new
 
 This Custom Group is now created and added to the profile. The User Groups that you create are dynamic in nature. If new users are added with similar attributes, they're automatically added to the User Group.
 
-# Exclusion of user groups
+## Exclusion of user groups
 
 At times you would want to exclude a small set of users from a large user group. This is required to enroll this specific set of users into training via Learning Plans or to setup the correct visibility of catalogs. In this release of Learning Manager, you can exclude learners or User Groups when you create a custom user group. In the Add User Group dialog, the Exclude Learners section enables you to achieve so.
 
@@ -287,7 +267,7 @@ At times you would want to exclude a small set of users from a large user group.
 
 For example, if you want to set up a Learning Plan so that all users belonging to location = California except Store-5 (located in California) get enrolled. 
 
-# Advanced settings {#advancedsettings}
+## Advanced settings {#advancedsettings}
 
 ## Data Sources {#datasources}
 
@@ -346,7 +326,7 @@ If the option **Show only unfilled fields on Learner login** is enabled, a user 
 
 Using this option, an Administrator can decide whether he/she wants to show the fields or hide them once these have been populated.
 
-## Restrict Active Fields in reports {#restrictactivefields}
+### Restrict Active Fields in reports {#restrictactivefields}
 
 Learning Manager 27.7 introduces two new options- **Reportable** and **Exportable, **for Active Fields.
 
@@ -364,7 +344,7 @@ You can only delete a custom Active Field.
 
 ## User Display
 
-You can hide the entire ‘Complete your profile’ page from the learners. The page will not pop up once the learner logs in.
+You can hide the entire 'Complete your profile' page from the learners. The page will not pop up once the learner logs in.
 
 Note that the existing default behavior does not change. This is an optional capability now available to Administrators. 
 
@@ -380,9 +360,9 @@ The CSV may not contain all the Active fields. For all the Active fields that ar
 
 Presently, all Active fields must be mapped to some field from the source CSV.
 
-It so happens that sometimes a user does not want to map an Active field to a field specified in the CSV. In such cases, the user can map the Active field to the value **DontImportFromSource***. *Select this value from the drop-down list, when importing users from FTP and Box connectors.
+It so happens that sometimes a user does not want to map an Active field to a field specified in the CSV. In such cases, the user can map the Active field to the value **DontImportFromSource**. Select this value from the drop-down list, when importing users from FTP and Box connectors.
 
-# Custom Roles {#customroles}
+## Custom Roles {#customroles}
 
 Add any field of your choice as part of your user information and click **Save**. After adding the fields, you can also cross check the availabilities of the fields in the **Edit users** dialog. 
 
@@ -417,7 +397,7 @@ Users can only choose from predefined fields for CSV fields if the **[!UICONTROL
 
 In this space, you can view the CSV import history for the users the administrator has added using bulk import feature. You can also click **Add **at the upper-right corner of the page to add users using CSV upload feature. 
 
-# Multi-valued Active Fields
+## Multi-valued Active Fields
 
 With this feature, you can have more than one field for an active field. In an account, there can be at most three multi-valued active fields. The multi-valued active fields are available for both external and internal users.
 
@@ -472,7 +452,7 @@ The Administrator can add auto-generated active fields, and configure user activ
 
 The Learner Transcript report contains all the active fields and comma-separated values. The Administrator can then filter the data accordingly.
 
-# Frequently Asked Questions {#faq}
+## Frequently Asked Questions {#faq}
 
 +++How to register users in Learning Manager?
 
@@ -533,7 +513,7 @@ If you want learners to only see the active fields that are not filled by them, 
 
 1. Click **Users > Active Fields**.  
 
-1. Click **Settings **and enable the option **Show only unfilled fields on Learner login**.
+1. Click **Settings** and enable the option **Show only unfilled fields on Learner login**.
 
 1. Click **Save**.
 
@@ -556,4 +536,3 @@ You can restrict the selection for learners so that they can only select the val
 You can only enable or disable CSV active fields, but cannot delete them. On the other hand, you cannot enable or disable custom active fields.
 
 +++
-

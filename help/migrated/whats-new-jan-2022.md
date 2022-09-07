@@ -98,8 +98,8 @@ With this release, the Administrators can now change the default Social Learning
 
 1. Select one of these options to set your preferred default Social Learning view
 
-   1. **Post View** — Displays all individual posts from all Discussion boards.
-   1. **Board View** — Displays all Discussion boards.
+   1. **Post View** - Displays all individual posts from all Discussion boards.
+   1. **Board View** - Displays all Discussion boards.
 
 1. Click **Save** to save the changes.
 

@@ -12,7 +12,7 @@ Learning Manager Learning Programs are renamed to Learning Paths. This change ha
 
 Creating Learning Plans for Administrators in Learning Manager.
 
-# Overview {#overview}
+## Overview {#overview}
 
 A Learning Plan is a set of rules, which enrol learners to specified trainings based on certain criteria.
 
@@ -22,7 +22,7 @@ For example, when an employee joins an organization, the New Employee Orientatio
 
 You can enroll learners to any courses and learning programs automatically based on a predefined set of events. You can create learning paths to the learners by automatically assigning a follow-up learning activity after a learner completes a skill, course, or a learning program.
 
-# Create learning plans {#createlearningplans}
+## Create learning plans {#createlearningplans}
 
 To create a learning plan, you must log in as an Administrator.
 
@@ -73,7 +73,7 @@ To create a learning plan, you must log in as an Administrator.
 
 1. To save the Learning Plan, click **Save**.
 
-# Unenroll from training {#unenroll-training}
+## Unenroll from training {#unenroll-training}
 
 When adding a Learning Plan, an Administrator can unenroll users from specific trainings based on certain triggers.
 
@@ -129,11 +129,11 @@ The next sections represent the triggers where the option **Unenroll from Traini
 
 ![](assets/image047.png) 
 
-# Edit a learning plan {#editalearningplan}
+## Edit a learning plan {#editalearningplan}
 
 After creating a learning plan, Administrator can edit/update the learning plan at any point in time. To Edit, click the name of the learning plan and modify the values in the **Edit Learning Plan** pop-up dialog that appears. Click **Save**. 
 
-# Enable a learning plan {#enablealearningplan}
+## Enable a learning plan {#enablealearningplan}
 
 By default, all new Learning Plans that you have created are in a disabled state. You must enable a plan for a learner to be assigned to. When you enable the check-box **Current Learners**, the event gets enabled by itself. 
 
@@ -145,14 +145,14 @@ To enable a learning plan,
 
 1. On the top-right corner of the page, click **Actions > Enable**. This enables the Learning Plan.
 
-# Delete a learning plan {#deletealearningplan}
+## Delete a learning plan {#deletealearningplan}
 
 To delete a Learning Plan,
 
 1. From the list of Learning Plans, choose the plan that you want to delete.
 1. On the top-right corner of the page, click **Actions > Delete**.
 
-# Disable a learning plan {#disablealearningplan}
+## Disable a learning plan {#disablealearningplan}
 
 To disable a Learning Plan,
 
@@ -160,22 +160,22 @@ To disable a Learning Plan,
 1. From the list of Learning Plans, choose the plan that you want to disable.
 1. On the top-right corner of the page, click **Actions > Disable**. This moves the plan to the **Disabled** tab.
 
-# Filter a learning plan {#filteralearningplan}
+## Filter a learning plan {#filteralearningplan}
 
 You can filter Learning Plans according to the type of event that was used while creating a Learning Plan. Click **Type** and choose any option to display Learning Plans that match the selection.
 
 ![](assets/filter-a-learningplan.png) 
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 1. How do I setup Learning Manager to configure auto enrollments for on-boarding of new hires?
 
-In the **Occurs when** drop-down list, choose the option **New Learner is added**. Then assign the Learning Objects, the instance, and the completion date for the learner. Both Administrators and Authors can create auto enrollment events. Enable the event after creating it.
+   In the **Occurs when** drop-down list, choose the option **New Learner is added**. Then assign the Learning Objects, the instance, and the completion date for the learner. Both Administrators and Authors can create auto enrollment events. Enable the event after creating it.
 
-2. How do I set up a learning plan/auto enrollment for classroom and virtual classroom course?
+1. How do I set up a learning plan/auto enrollment for classroom and virtual classroom course?
 
-It is recommended that you setup the course instance with required session details. Then set up a learning plan and map it to the course instance, which has already been created.
+   It is recommended that you setup the course instance with required session details. Then set up a learning plan and map it to the course instance, which has already been created.
 
-3. How do I view the list of learners enrolled into a specific learning plan?
+1. How do I view the list of learners enrolled into a specific learning plan?
 
-When the instance, Auto, gets created, click** Course > Learners**, and choose the required instance from the **Instance** drop-down list.
+When the instance, Auto, gets created, click **Course** > **Learners**, and choose the required instance from the **Instance** drop-down list.
