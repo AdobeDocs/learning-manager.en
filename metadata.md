@@ -1,11 +1,11 @@
 ---
 cloud: Experience Cloud
-solution: Experience Cloud
+solution: Experience Manager
 product: experience cloud
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/learning-manager.en
-index: no
+hide: yes
 ---
 
 # Metadata for internal use

@@ -1,17 +1,17 @@
 ---
 jcr-language: en_us
 title: Welcome to the Adobe Learning Manager User Guide
+description: Learn the latest offering in Adobe Learning Manager. Start at the beginning, visit each section individually, or connect with the Community to work your way through a project.
 contentowner: dhv
 ---
 
-
 # Welcome to the Adobe Learning Manager User Guide {#welcome-to-the-adobe-learning-manager-user-guide}
 
-Read on to know what is the latest offering in Adobe Learning Manager.&nbsp;Start at the beginning, visit each section individually, or connect with the Community to work your way through a project.
+Read on to know what is the latest offering in Adobe Learning Manager. Start at the beginning, visit each section individually, or connect with the Community to work your way through a project.
 
-# Join the conversation {#jointheconversation}
+## Join the conversation {#jointheconversation}
 
-<table> 
+<table>
  <tbody>
   <tr> 
    <td><img src="assets/community.png"></td> 
@@ -20,7 +20,7 @@ Read on to know what is the latest offering in Adobe Learning Manager.&nbsp;Star
  </tbody>
 </table>
 
-# Popular topics {#populartopics}
+## Popular topics {#populartopics}
 
 <table> 
  <tbody>

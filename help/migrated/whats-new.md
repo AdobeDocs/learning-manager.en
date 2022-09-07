@@ -10,45 +10,45 @@ contentowner: jayakarr
 
 Learn about the new features and enhancements in Adobe Learning Manager
 
-# New features and enhancements
+## New features and enhancements
 
-## Rebranding of Adobe Captivate Prime to Adobe Learning Manager
+### Rebranding of Adobe Captivate Prime to Adobe Learning Manager
 
 As has been previously communicated, Adobe Captivate Prime will be rebranded to Adobe Learning Manager with the various UI elements in the product reflecting the change.
 
-## Out of the Box Integration with AEM Sites and Adobe Commerce
+### Out of the Box Integration with AEM Sites and Adobe Commerce
 
 Adobe Learning Manager (ALM) integrates with Adobe Experience Manager (AEM) sites. This enables you to create your own website and responsive mobile interfaces for Adobe Learning Manager with minimum coding effort. With this integration, you can create customized learning experiences for your users.
 
 For more information, see&nbsp; [**Adobe Learning Manager reference site (ALM reference site) package for AEM Sites**](adobe-learning-manager-integration-aem.md).
 
-## Adobe Commerce Connector
+### Adobe Commerce Connector
 
 Adobe Commerce is an extensible and scalable commerce enablement solution that enables you to build multi-channel commerce experiences for B2B and B2C customers on a single platform. Use the Adobe Commerce connector to connect your Adobe Learning Manager account with Adobe Commerce and realize ecommerce capabilities on the learning platform.
 
 For more information, see [**Adobe Commerce connector**](integration-admin/feature-summary/connectors.md#adobe-commerce).
 
-## Training Data Access connector
+### Training Data Access connector
 
 The Training Data Access connector enables your AEM Sites-based custom-made user interface to retrieve and render training information to learners and helps easy and faster search.
 
 For more information, see [**Training Data connector**](integration-admin/feature-summary/connectors.md#connector_trgmetadata).
 
-# Other enhancements
+## Other enhancements
 
-#### Optional skill points in a course
+### Optional skill points in a course
 
 Authors will now be provided with an option to set maximum credits for a particular skills level in a course. Authors can either use the new checkbox to select maximum credits for a specific skill level, or manually enter the credits.
 
-#### Notifications for reply on a social post
+### Notifications for reply on a social post
 
 In Social Learning, a Learner now gets an email notification for every reply on their community post.
 
-#### Search for external users
+### Search for external users
 
 As an Administrators, search for external profiles in the External Users page. In the search bar, enter the profile name of the user. At a time, five matching profiles appear.
 
-#### Export feedback
+### Export feedback
 
 The generateFeedbackReport API produces a feedback report that contains six new fields. They are&nbsp;
 
@@ -59,36 +59,36 @@ The generateFeedbackReport API produces a feedback report that contains six new 
 * L3 feedback question
 * L3 feedback response
 
-#### Instructor comments in exported reports
+### Instructor comments in exported reports
 
-An instructor’s comments can now be included as a new column in the exported Excel.
+An instructor's comments can now be included as a new column in the exported Excel.
 
-#### Extension of character limits
+### Extension of character limits
 
 In this release, we have extended the limit to the number of characters in the Title field of a&nbsp;Course, Certificate, and Learning Path to 255.
 
-#### Alert message when a message is deleted
+### Alert message when a message is deleted
 
 An alert message appears when authors try to&nbsp;republish courses/Learning Paths/certifications when the content is modified (added/deleted).
 
-#### New column with the comments in excel
+### New column with the comments in excel
 
 As an instructor, you can mark the attendance, provide scores, add and edit comments for a Learner.&nbsp; You can also capture this information as a PDF report once the attendee list is confirmed for any upcoming and past sessions.
 
- The easy-to-print pdf displays information as a table with the Learner’ name, Email, attendance status, marks scored, and comments.&nbsp;
+The easy-to-print pdf displays information as a table with the Learner' name, Email, attendance status, marks scored, and comments.
 
 There are two types of reports that can be exported:
 
-* Export Learner List (PDF): This report displays the list of all the Learner’s information to capture attendance, marks, and comments manually in a physical classroom session. To export this list, click **Actions > Export Learner List (PDF)**.
-* Export Attendance Report (PDF): This is a newly added report that displays the list of all the Learner’s information with the attendance, marks and comments filled out. To export this list, click **Actions > Export Attendance Report (PDF)**.&nbsp;
+* Export Learner List (PDF): This report displays the list of all the Learner's information to capture attendance, marks, and comments manually in a physical classroom session. To export this list, click **Actions** > **Export Learner List (PDF)**.
+* Export Attendance Report (PDF): This is a newly added report that displays the list of all the Learner's information with the attendance, marks and comments filled out. To export this list, click **Actions** > **Export Attendance Report (PDF)**.
 
-The Comments column is a new addition to add or edit any observations on Learner’s attendance and scoring. It appears as the last column in the end of the exported report.&nbsp;
+The Comments column is a new addition to add or edit any observations on Learner's attendance and scoring. It appears as the last column in the end of the exported report.
 
 An Instructor can add comments for a Learner, only after marking attendance for the completed module. By default, the Comments field is disabled.
 
-To add a comment for a Learner, click **Actions > Edit Scores & Comments**. This enables the Comments field.
+To add a comment for a Learner, click **Actions** > **Edit Scores & Comments**. This enables the Comments field.
 
-#### Share Monthly Active User (MAU) licenses
+### Share Monthly Active User (MAU) licenses
 
 If you are using the MAU licensing model with ALM, you can share licenses in your peer accounts. This enables more flexibility and better utilization of licenses across partner organizations.
 
@@ -100,7 +100,7 @@ To share the seats,
 
 After you share the seats, the details are listed on the report.
 
-#### Support for Multi-manager
+### Support for Multi-manager
 
 In ALM, a learner can now manage multiple user groups. This is made possible by using Active Fields, where an Active Field can now store multiple values.
 
@@ -110,7 +110,7 @@ For example, in a retail setup, a store supervisor may manage more than one reta
 
 The [Manager dashboard](managers/feature-summary/manager-dashboard.md#multi-manager-dashboard) also reflects the changes.
 
-#### Recommendation based on areas of interest
+### Recommendation based on areas of interest
 
 In this release of ALM, an Administrator can switch between single and multiple Areas of Interest recommendation strips for a learner.
 
@@ -122,14 +122,14 @@ The recommendations are based on a combination of rule-based logic and ML-based 
 
 On the **Administrator app > Branding** page, the Administrator can toggle between the interest widgets that will ultimately appear on the learner's page.
 
-#### Marketo Engage enhancements
+### Marketo Engage enhancements
 
 This release of ALM adds two new events to be exported to Marketo.
 
 * **Update User Metadata:** Metadata of existing users, for example, name, profile, etc., will be updated.
-* **Update User Activity: **Updates last login and social activity timestamp.
+* **Update User Activity:** Updates last login and social activity timestamp.
 
-#### Preview a module
+### Preview a module
 
 An Administrator can mark any module inside a course for preview. Learners can preview the course before deciding to purchase the course.
 
@@ -139,15 +139,15 @@ An Author, while creating a course, can mark a module as preview able.&nbsp;
 
 The Learner Preview checkbox enables the modules to be marked for preview.
 
-#### Connectors
+### Connectors
 
 Marketo and Adobe Commerce connectors are not supported in FedRamp instances (CoSo).
 
-#### Feedback report
+### Feedback report
 
-When an Administrator downloads the Feedback Report from Reports – Custom Reports, the report does not show the feedback for subjective questions.&nbsp;To get the subjective feedback responses, the admin must go to the course and export responses from Export Feedback Scores.
+When an Administrator downloads the Feedback Report from Reports - Custom Reports, the report does not show the feedback for subjective questions. To get the subjective feedback responses, the admin must go to the course and export responses from Export Feedback Scores.
 
-#### Nomenclature changes
+### Nomenclature changes
 
 The CSV has three new columns:
 
@@ -157,13 +157,13 @@ The CSV has three new columns:
 
 However, the title inside the social page does not change with nomenclature.
 
-#### Learner-related changes
+### Learner-related changes
 
 On a training card, a Learner can see the price of the course, if the price has been set by the Author or the Administrator. The learner can then filter training according to the price range.
 
 If the learner wants to buy a course, they select **Buy Now**. They are redirected to Adobe Commerce and when they complete the purchase, they can then take the course.
 
-# API changes and enhancements
+## API changes and enhancements
 
 ### Enhancement of Public APIs
 
@@ -180,40 +180,51 @@ Entity caching helps when there are concurrent and bulk calls to the learner API
 ### E-Commerce
 
 **API models Changes:** 
-1. Get user include account -  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Additional boolean flag "enableEcommerce", takes value from DB column  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - lastSyncedDateCreatedForMagento  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- headlessLmsBaseUrl  
-2. learningObject- price  
-3. enrollment - purchasedPrice  
-&nbsp;  
+
+* Get user include account
+
+  * Additional boolean flag "enableEcommerce", takes value from DB column  
+  * lastSyncedDateCreatedForMagento  
+  * headlessLmsBaseUrl  
+
+* learningObject- price  
+* enrollment - purchasedPrice  
+
 **API Changes:** 
-1. Get /learningObjects (Learner):  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - price range filter.  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- price filter for free and paid  
-2. search - same as /learningObjects  
-3.&nbsp;Additional apis for ecommerce:  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- GET /maxPrice  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- &nbsp;POST /ecommerce/purhcaseInitiated  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - /ecommerce/purhcaseCompleted
+
+* Get /learningObjects (Learner):
+
+  * price range filter
+  * price filter for free and paid  
+
+* search - same as /learningObjects  
+* Additional apis for ecommerce:
+
+  * GET /maxPrice  
+  * POST /ecommerce/purhcaseInitiated  
+  * /ecommerce/purhcaseCompleted
 
 ### Multi-valued active fields
 
-For multi-valued active fields, the **fields**&nbsp;property can store values of type integer or string. For example,
+For multi-valued active fields, the **fields** property can store values of type integer or string. For example,
 
-**"fields":{** 
-&nbsp; &nbsp;**"office": [ "store1", "store2", "store3" ]** 
-**}**
+```
+"fields":{
+  "office": [ "store1", "store2", "store3" ] 
+}
+```
 
 If fields is a single valued active field, then:
 
-**"fields":{** 
-&nbsp; &nbsp;**"location": "london"** 
-**}**
+```
+"fields":{
+  "location": "london"** 
+}
+```
 
 ### Feedback reports
 
-The L1&nbsp;feedback report that contains six new fields. They are:
+The L1 feedback report that contains six new fields. They are:
 
 * L1 feedback question #1
 * L1 feedback response #1
@@ -228,7 +239,10 @@ The terminologies of Skill levels and Social Learning are added and the changes 
 
 ### Buy courses in mobile immersive
 
-**Note: **Only applicable to mobile immersive app, not the native mobile app.&nbsp;
+>[!NOTE]
+>
+>Only applicable to mobile immersive app, not the native mobile app.
+
 
 After an author adds a price to a course, in the mobile immersive app, a learner can see the price on the cards on the Homepage, Catalog Page, and the search result pages. The learner can purchase a course and after the learner purchases the course, a Start button appears on the course overview page.
 
@@ -299,7 +313,7 @@ With the help loResourceCompletionCount&nbsp; API, you can build a workflow with
 
 The primeapi API now enables you to mark User Notifications as read in bulk.&nbsp;
 
-primeapi/v2/users/<user>/userNotificationsMarkRead
+`primeapi/v2/users/<user>/userNotificationsMarkRead`
 
 ### Changes in learningObjects and Search APIs
 
@@ -343,26 +357,26 @@ In this update, we have changed the format of the ID for the loResourceGrades AP
 
 &nbsp;
 
-# Release Notes {#releasenotes}
+## Release Notes {#releasenotes}
 
 For information regarding current and previous releases of Learning Manager web app and device app, see the&nbsp; [***Release notes***](release-note/release-notes.md).
 
-# Bug fixes {#bugfixes}
+## Bug fixes {#bugfixes}
 
 To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed***](release-note/release-notes.md#bug-fixes-alm)&nbsp;list.
 
-# Known issues {#knownissues}
+## Known issues {#knownissues}
 
 * In an AEM website, a flexible Learning Program always appears as a fixed Learning Program. This is as designed since a flexible Learning Program is not supported in AEM.
 * Unable to retake a course with multiple attempts&nbsp;if you have failed the course.
 * If the value of a multi-valued active field contains a delimiter, for example, comma, the value gets separated as two distinct values, and the user will be present in both the user groups.
 * In the Learner app, redirection from the calendar widget does not always occur as expected. Instead of the user getting navigated to an instance, they are unable to do so.
 
-# System Requirements {#systemrequirements}
+## System Requirements {#systemrequirements}
 
 [Learning Manager system requirements](system-requirements.md)
 
-# Previous releases of Learning Manager {#previousreleasesofcaptivateprime}
+## Previous releases of Learning Manager {#previousreleasesofcaptivateprime}
 
 * [Learning Manager | January 2022 release](whats-new-jan-2022.md)
 * [Learning Manager | October 2021 release](whats-new-october-2021.md)
@@ -370,7 +384,7 @@ To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed
 * [Learning Manager | February 2021 release](whats-new-february-2021.md)
 * [Learning Manager | December 2020 release](whats-new-december-2020.md)
 
-# Have a question or an idea? {#haveaquestionoranidea}
+## Have a question or an idea? {#haveaquestionoranidea}
 
 <table> 
  <tbody>
@@ -381,10 +395,9 @@ To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed
  </tbody>
 </table>
 
-### More like this
+## More like this
 
 * [Adobe Learning Manager product guide](https://www.adobe.com/products/captivateprime.html)
 * [Adobe Learning Manager playlist](https://www.youtube.com/playlist?list=PLq21ukQtk0URntzGmTxsx7Qt8z9b9Elth)
 * [Organize your training in Adobe Learning Manager | Ashwini Jaisim](https://elearning.adobe.com/2020/07/organize-your-trainings-in-adobe-captivate-prime/)
 * [Add your Adobe Learning Manager Account URL to your Adobe Connect Central Account Summary Page](https://elearning.adobe.com/2019/10/add-adobe-captivate-prime-account-url-adobe-connect-central-account-summary-page/)
-

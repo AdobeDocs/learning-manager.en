@@ -1,31 +1,31 @@
 ---
 jcr-language: en_us
-title: Adobe Learning Manager | Product updates | Release notes
+title: Release notes
+description: Release notes for Adobe Learning Manager
 contentowner: jayakarr
 ---
 
-
 # Adobe Learning Manager | Product updates | Release notes {#adobe-learning-manager-product-updates-release-notes}
 
-# Latest update release {#latestupdaterelease}
+## Latest update release {#latestupdaterelease}
 
 **Update 78**
 
 **Release date:** 4 August 2022
 
-## Bugs fixed in this update
+### Bugs fixed in this update
 
-* If you've a course that contains a module with a preview and then use an API to retrieve the resources from the course,&nbsp; then the response will not contain any data from&nbsp;location, contentZipUrl, and contentStructureInfoUrl.  
-* Incorrect response after sending a XAPI request from Swagger document, where the domain name is learningmanager.&nbsp;  
+* If you've a course that contains a module with a preview and then use an API to retrieve the resources from the course, then the response will not contain any data from location, contentZipUrl, and contentStructureInfoUrl.  
+* Incorrect response after sending a XAPI request from Swagger document, where the domain name is learningmanager.  
 * In the /boards/{id}/posts API response, the "post.attributes.myPoll" property appears as an empty object.  
 * In some cases, for a non-logged-in user, the Add to cart button is disabled for some courses or Learning Paths.  
 * Incorrect sub-domain url on the branding page.
 
-**Update 77 - July 2022 release of Adobe Learning Manager**
+## Update 77 - July 2022 release of Adobe Learning Manager
 
-Release date:&nbsp;23 July, 2022
+Release date: 23 July, 2022
 
-## What's new in this release
+### What's new in this release
 
 * Rebranding of Adobe Captivate Prime to Adobe Learning Manager
 * Out of the Box Integration with AEM Sites and Adobe Commerce
@@ -35,7 +35,7 @@ Release date:&nbsp;23 July, 2022
 
 For more information, see [**What's new in Adobe Learning Manager**](../whats-new.md).
 
-## Bugs fixed in this release
+### Bugs fixed in this release
 
 * After you create a course in Adobe Connect as VC module and remove the connector, then in the created course, you cannot add a new session on the Instance page or add instructors to the existing session.
 * An incorrect error message displays when a learner removes a Job Aid and tries to access it again. We have modified the error message and made it more intuitive.
@@ -69,7 +69,7 @@ For more information, see [**What's new in Adobe Learning Manager**](../whats-ne
 * When a user group is added to a session, calendar invites do not go out to users who are instructors.  
 * A Training Report incorrectly calculates the duration of all the versions of a module instead of the latest module.
 
-**Update 76**
+## Update 76
 
 Release date: April 20, 2022
 
@@ -80,22 +80,22 @@ Release date: April 20, 2022
 * A&nbsp;Custom Admin was able to add all users as instructors even though he/she was permitted to add only one user.  
 * On a badge PDF, an incorrect completion date was displayed.
 
-**Update 75**
+## Update 75
 
 Release date: March 29, 2022
 
 * In some accounts, after copying the raw csv in the FTP location, the user import does not take place as expected, and there are multiple notifications of errors.
 * In previous releases of Learning Manager, to configure a Zoom connector, you had to configure Exavault FTP first for copying the csv file. In this release, the FTP connector will no longer be used for the csv file, and hence, you need not configure the FTP first.
 
-**Update 74: Learning Manager AWS India instance**
+## Update 74: Learning Manager AWS India instance
 
 Release date: 15 February, 2022
 
-## Overview
+### Overview
 
-An [instance](https://captivateprimeapac.adobe.com/acapindex.html) of Learning Manager will now be hosted on AWS in Mumbai (ap-south-1).&nbsp;For customers using this India instance, will have their user’s personally identified information (PII) and user’s learning records stored in India region only.&nbsp;
+An [instance](https://captivateprimeapac.adobe.com/acapindex.html) of Learning Manager will now be hosted on AWS in Mumbai (ap-south-1).&nbsp;For customers using this India instance, will have their user's personally identified information (PII) and user's learning records stored in India region only.&nbsp;
 
-## What is supported
+### What is supported
 
 Adobe Learning Manager India instance is at par with other instances like EU and US regions in terms of feature capabilities. There are a few features which are not supported in India instance. These are:
 
@@ -104,7 +104,7 @@ Adobe Learning Manager India instance is at par with other instances like EU and
 * Slack App
 * **&#42;** Awaiting certification for SOC2 compliance
 
-## Frequently Asked Questions
+### Frequently Asked Questions
 
 **How is this instance in Mumbai different from other AWS-only environments?**
 
@@ -119,7 +119,7 @@ There is no difference. The instance in Mumbai is the same as [AWS US](http://ca
 
 Yes. The new instance is Common Control Framework (CCF)-compliant.
 
-**Update 73**
+## Update 73
 
 Release date: February 05, 2022
 
@@ -154,7 +154,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 * The waitlist&nbsp;page was displaying a&nbsp;misleading&nbsp;banner&nbsp;message on registered users, which&nbsp;is removed&nbsp;now.  
 * In the case of bulk unenrollment for courses, the pop up to enter email&nbsp;ids&nbsp;was not showing up, which is now fixed.  
 * The option to send email to learners from attendance & scoring tab in admin and instructor app was not excluding unchecked learners after performing select all operation. Hence Learning Manager was sending email to all learners. This issue is now fixed.  
-* The enrollment report shows as “Not Started”, even though a learner has already completed the course.
+* The enrollment report shows as "Not Started", even though a learner has already completed the course.
 
 **SSO**
 
@@ -167,7 +167,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 **Email template**
 
 * Session invites spanning across multiple days where the invites did not reflect the correct information on&nbsp;days are blocked in some email&nbsp;clients. This is now fixed.  
-* “Venue Name”&nbsp;variable was&nbsp;missing in&nbsp;“Reminder of upcoming session” email template for learners in&nbsp;German locale. This is now added.  
+* "Venue Name"&nbsp;variable was&nbsp;missing in&nbsp;"Reminder of upcoming session" email template for learners in&nbsp;German locale. This is now added.  
 * The link to create account as part of the welcome email to user was not considering the user locale which is now fixed.
 
 **Email reminders**
@@ -202,7 +202,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **Manager dashboard**
 
-* A manager was unable to export report for his direct team&nbsp;from&nbsp;Manager Dashboard’s team skills page. This&nbsp;issue is now fixed.
+* A manager was unable to export report for his direct team&nbsp;from&nbsp;Manager Dashboard's team skills page. This&nbsp;issue is now fixed.
 
 **Publish**
 
@@ -233,7 +233,7 @@ Release date: November 17, 2021
 
 Learning Manager offers compliance dashboard to all Administrators and Managers.&nbsp;Managers find it&nbsp;very useful&nbsp;to track compliance of&nbsp;their team members for a particular training.&nbsp;At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it.&nbsp;
 
-In&nbsp;Learning Manager, the&nbsp;**Share with Managers**&nbsp;workflow&nbsp;allows Administrators to share&nbsp;training&nbsp;with Managers,&nbsp;so that they&nbsp;can&nbsp;get added to&nbsp;a manager’s Compliance Dashboard.&nbsp;Thus,&nbsp;Managers do not need to take any&nbsp;action and can start tracking compliance&nbsp;immediately.&nbsp;
+In&nbsp;Learning Manager, the&nbsp;**Share with Managers**&nbsp;workflow&nbsp;allows Administrators to share&nbsp;training&nbsp;with Managers,&nbsp;so that they&nbsp;can&nbsp;get added to&nbsp;a manager's Compliance Dashboard.&nbsp;Thus,&nbsp;Managers do not need to take any&nbsp;action and can start tracking compliance&nbsp;immediately.&nbsp;
 
 For more information, see&nbsp; [**Share training with managers**](../administrators/feature-summary/reports.md#share_training_managers).
 
@@ -388,7 +388,7 @@ For more information, see [***What's new and changed in the August 2021 release 
 * Values in active fields displays in lower case in the Edit User dialog even though a user had previously added the values in upper case.
 * Ability for Administrators and management to view pending approvals for courses. This allows management to ensure that managers track employee learning and training, and also allow Prime administrators to approve course enrollment as needed.
 * A user who has an author or custom admin/author permission cannot edit a Job Aid that is created by another user.
-* From Admin role, when user navigates to Course > Instance and select the ‘Learners enrolled’ for any instance, earlier it used to show the learners from ‘Default instance’. Admin needed to change the instance from the dropdown manually. Now Prime correctly navigates user to the learners page with the correct instance selected.
+* From Admin role, when user navigates to Course > Instance and select the 'Learners enrolled' for any instance, earlier it used to show the learners from 'Default instance'. Admin needed to change the instance from the dropdown manually. Now Prime correctly navigates user to the learners page with the correct instance selected.
 
 **Device app**
 
@@ -618,7 +618,7 @@ For more information, see What's new in the [February 2021 update of Learning Ma
 
 **Search**
 
-* In a specific scenario, Manager was not able to search for a manager’s group of users earlier. This issue is now fixed for the Manager role.
+* In a specific scenario, Manager was not able to search for a manager's group of users earlier. This issue is now fixed for the Manager role.
 
 **User Group**
 
@@ -663,7 +663,7 @@ For more information, see What's new in the [February 2021 update of Learning Ma
 
 * When using the **Duration **filter in the Learner app, the content and filter may not be in sync if the learner uses some other content locale and is not a part of the default instance in terms of enrolment.
 
-**Note:**&nbsp;The training ‘**Duration**’ and ‘**Format**’ filters are identified based on the training content available for default instance and for account preferred locale.
+**Note:**&nbsp;The training '**Duration**' and '**Format**' filters are identified based on the training content available for default instance and for account preferred locale.
 
 +++
 
@@ -784,7 +784,7 @@ Push notification is now also supported for Announcements.
 
 ## Mandatory L1 feedback {#mandatoryl1feedback}
 
-In its latest August 2020 release, Learning Manager allows Administrators to configure L1 feedback such that all questions become mandatory. Same is now supported from learner’s perspective in the mobile app.
+In its latest August 2020 release, Learning Manager allows Administrators to configure L1 feedback such that all questions become mandatory. Same is now supported from learner's perspective in the mobile app.
 
 ## User Interface enhancements {#userinterfaceenhancements}
 
@@ -796,7 +796,7 @@ By default, there will be two links and the administrator can add another three 
 
 **Card view for Learning Objects**
 
-By default, on the My Learning and Catalog sections of the app, the trainings appear as cards instead of lists. This is a change for learners as earlier the default view was “List View”.
+By default, on the My Learning and Catalog sections of the app, the trainings appear as cards instead of lists. This is a change for learners as earlier the default view was "List View".
 
 Learners can however toggle the view between List view and Card view.
 
@@ -944,7 +944,7 @@ To get the latest features, updates, and a better experience, we recommend that 
 
 ## New and enhanced features {#newandenhancedfeatures}
 
-An Administrator can communicate important information to all users of the app. Announcements can be of type video or image or a simple text message. With this device app release, we now support announcements in the device app. A new announcement will pop up as soon as the app is launched, so that learners don’t miss any important communication sent by the Administrators. Learners can read it instantly or read later by visiting the **Announcements** tab.
+An Administrator can communicate important information to all users of the app. Announcements can be of type video or image or a simple text message. With this device app release, we now support announcements in the device app. A new announcement will pop up as soon as the app is launched, so that learners don't miss any important communication sent by the Administrators. Learners can read it instantly or read later by visiting the **Announcements** tab.
 
 When there is any announcement or multiple announcements, you can see the announcements in the **Announcements** section.
 
@@ -1049,7 +1049,7 @@ For more information, see [***Learning plans scoped by configurable roles***](..
 
 ### Restrict Active Fields in reports {#restrictactivefieldsinreports}
 
-For Active Fields, we’ve added two new options- **Reportable** and **Exportable**.
+For Active Fields, we've added two new options- **Reportable** and **Exportable**.
 
 For CSV fields and manually added fields, if an Active Field is marked as **Reportable**, the Active Field becomes searchable in a filter inside a dashboard report.
 
@@ -1069,7 +1069,7 @@ As an instructor, you can see session and course names in the Attendance view. Y
 
 Learners can now view an announcement in full view instead of a list view. This happens when the learner has one unread announcement. This enhances the learners experience in viewing the announcement.
 
-Adobe Learning Manager now allows you to customize your account to provide a richer experience to your users. Here’s a list of elements that can be customized. Contact [Learning Manager support](mailto:captivateprimesupport@adobe.com)to make these changes.
+Adobe Learning Manager now allows you to customize your account to provide a richer experience to your users. Here's a list of elements that can be customized. Contact [Learning Manager support](mailto:captivateprimesupport@adobe.com)to make these changes.
 
 * Training card colors.
 * Progress icon
@@ -1357,7 +1357,7 @@ Release date: July 24, 2019
 
 Android users:
 
-This update also supports necessary changes to adhere to Google’s revised recommendations to implement push-notifications. Hence you will no longer receive **notifications** if you are using version 2.7.4 or older.
+This update also supports necessary changes to adhere to Google's revised recommendations to implement push-notifications. Hence you will no longer receive **notifications** if you are using version 2.7.4 or older.
 
 To receive notifications, we recommend upgrading to version 2.8.
 
@@ -1440,7 +1440,7 @@ Release date: May 30, 2019
 
 **New and enhanced features**
 
-* Consolidated search across all instances for enrolled learners on the Learning Object’s learner section. Search for enrolled users on the Learning Object's Learner section using type-ahead search. For more information, see [***Search for enrolled users***](../administrators/feature-summary/courses.md#searchforusers).
+* Consolidated search across all instances for enrolled learners on the Learning Object's learner section. Search for enrolled users on the Learning Object's Learner section using type-ahead search. For more information, see [***Search for enrolled users***](../administrators/feature-summary/courses.md#searchforusers).
 * Complete editing capabilities of learning objects acquired via shared catalog.&nbsp;For more information, see [***Shared catalog control***](../administrators/feature-summary/shared-catalog-full-control.md). To enable the feature, contact Learning Manager support.
 * Instructors can now identify the sessions and modules with pending reviews easily.&nbsp;For more information, see [***Pending reviews***](../instructors/feature-summary/learners.md#pending).  
 
@@ -1968,10 +1968,10 @@ As an Administrator, when you click External Profile and chose Actions > Change 
 
 ### Course life cycle {#courselifecycle}
 
-* When you launch a course that was created using the Biz library e-learning tool, the “Resume” action did not work. This issue is fixed.
+* When you launch a course that was created using the Biz library e-learning tool, the "Resume" action did not work. This issue is fixed.
 * Some users were unable to launch a course in iPad using the course link in Announcements. This is now fixed.
-* When you click the Continue button in Learner’s Program, you could not access the courses in order. This is now fixed.
-* The Course Overview label for courses in Learner’s Program was earlier misplaced. This issue is now fixed.
+* When you click the Continue button in Learner's Program, you could not access the courses in order. This is now fixed.
+* The Course Overview label for courses in Learner's Program was earlier misplaced. This issue is now fixed.
 
 ### Learner app {#learnerapp}
 
@@ -2609,7 +2609,7 @@ When an Administrator tries to enroll learners to a blended course that contains
 
 **Export reports**
 
-If a question text contains more than 255 characters and enabled for SCORM 1.2 format, then quiz reporting of such questions didn’t work. This issue is fixed.&nbsp;
+If a question text contains more than 255 characters and enabled for SCORM 1.2 format, then quiz reporting of such questions didn't work. This issue is fixed.&nbsp;
 
 +++
 
