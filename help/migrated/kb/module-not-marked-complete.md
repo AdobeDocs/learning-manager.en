@@ -13,11 +13,11 @@ Even after a learner completes a course in Adobe Learning Manager, the module is
 
 # **Cause**
 
-SCORM 2004 defines&nbsp;the success and completion criteria and sends the statements for both separately.
+SCORM 2004 defines the success and completion criteria and sends the statements for both separately.
 
-For example, let there be a content set with a&nbsp;**Completion Criteria** of 100% slide views and **Success Criteria** set as "Quiz is Passed".
+For example, let there be a content set with a **Completion Criteria** of 100% slide views and **Success Criteria** set as "Quiz is Passed".
 
-A learner, completes the course, but fails the quiz. In this case, the progress is 100%,&nbsp;but the module is marked as incomplete as the learner fails to meet the **Success Criteria**.
+A learner, completes the course, but fails the quiz. In this case, the progress is 100%, but the module is marked as incomplete as the learner fails to meet the **Success Criteria**.
 
 # **Solution**
 

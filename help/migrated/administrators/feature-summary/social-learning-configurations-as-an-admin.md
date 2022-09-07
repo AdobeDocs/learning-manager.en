@@ -14,28 +14,28 @@ As an administrator, you can enable, disable, and monitor activities performed i
 
 To enable and configure the Social Learning feature, do the following:
 
-1. Click **Social Learning** from the left navigation panel. You are redirected to the activity page.&nbsp;
-1. Enable **Social Learning** feature using the** Enable** button in the Activity page if you are turning it on for the first time. Otherwise it can be enabled from the **Settings** page.&nbsp;
+1. Click **Social Learning** from the left navigation panel. You are redirected to the activity page. 
+1. Enable **Social Learning** feature using the** Enable** button in the Activity page if you are turning it on for the first time. Otherwise it can be enabled from the **Settings** page. 
 
    A pop-up dialog box appears like the screenshot below.
 
    ![](assets/artboard-20-2x.png) ![](assets/enable-social-learningforthefirsttime.png) ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)
 
-1. The admin can configure&nbsp; settings for Social Learning. Settings include types of Content Curations like **Manual-Only Curation** and **No Curation.&nbsp;**Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Learning Manager desktop application.
+1. The admin can configure  settings for Social Learning. Settings include types of Content Curations like **Manual-Only Curation** and **No Curation. **Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Learning Manager desktop application.
 
 # Content curation {#contentcuration}
 
-Since Social Learning is an informal learning, its functionality is similar to other social media platforms. People often find social media distracting because&nbsp; they frequently consume irrelevant content which affects their productivity. This thought can be catered by content moderation and curation.
+Since Social Learning is an informal learning, its functionality is similar to other social media platforms. People often find social media distracting because  they frequently consume irrelevant content which affects their productivity. This thought can be catered by content moderation and curation.
 
-**Manual-Only Curation&nbsp;**and **No Curation **are two curation options that can be selected by the admin.
+**Manual-Only Curation **and **No Curation **are two curation options that can be selected by the admin.
 
-**Auto-assisted Manual Curation:&nbsp;**Learning Manager has an artificial intelligence-based auto curation engine that can intelligently find out the essence of the content of any format that can later be served to the desired learners. It can also approve or reject a content from being posted based on its given confidence score.
+**Auto-assisted Manual Curation:** Learning Manager has an artificial intelligence-based auto curation engine that can intelligently find out the essence of the content of any format that can later be served to the desired learners. It can also approve or reject a content from being posted based on its given confidence score.
 
-For example, Adarsh is a learner and he found a blog interesting, so he posts it on Adobe Learning Manager’s Social Learning platform. The post is then fed to the AI-powered Content Curation Engine which predicts the skills present in the content and compares those skills with the associated board skills. If any of the skills match, then the content is posted otherwise it is sent for manual-only curation.&nbsp;
+For example, Adarsh is a learner and he found a blog interesting, so he posts it on Adobe Learning Manager’s Social Learning platform. The post is then fed to the AI-powered Content Curation Engine which predicts the skills present in the content and compares those skills with the associated board skills. If any of the skills match, then the content is posted otherwise it is sent for manual-only curation. 
 
-The minimum confidence score required for posting is 50%.&nbsp;
+The minimum confidence score required for posting is 50%. 
 
-**Manual-Only Curation:**&nbsp;To check the authenticity of the content before it goes live, Administrator can enable Manual-Only Curation setting. Once Manual-Only curation setting is enabled, it goes to the Top SMEs (Maximum 3) for curation. Based on the average response,&nbsp; the post is approved/rejected accordingly. If the response is greater than equal to 50 percent, the post goes live else rejected. For more information on SMEs, [click here](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+**Manual-Only Curation:** To check the authenticity of the content before it goes live, Administrator can enable Manual-Only Curation setting. Once Manual-Only curation setting is enabled, it goes to the Top SMEs (Maximum 3) for curation. Based on the average response,  the post is approved/rejected accordingly. If the response is greater than equal to 50 percent, the post goes live else rejected. For more information on SMEs, [click here](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
 
 ## Auto-curation of content {#autocuration}
 
@@ -50,7 +50,7 @@ In auto-curation, the following types of content are allowed:
 * Presentations- PPT or PPTX
 * Documents- .doc, .docx
 
-An Administrator can enable the option to curate content automatically from within the Administrator app.&nbsp;
+An Administrator can enable the option to curate content automatically from within the Administrator app. 
 
 1. On the left pane of the Admin app, click **Social Learning**.
 1. On the page, click the tab **Settings**.
@@ -60,13 +60,13 @@ An Administrator can enable the option to curate content automatically from with
 
 When a user uploads a content in a board, an AI-based algorithm scrapes the text from the content, and the text is then passed onto the curation engine. The curation engine tries to find the skills present in the content.
 
-The predicted skills from the uploaded content are matched with the ones with the board in which the content was uploaded.&nbsp; If any skill matches with a confidence score of more than 50% of the board skill, the content is posted in the board. If the confidence score is less than 50%, the content is sent for manual curation.
+The predicted skills from the uploaded content are matched with the ones with the board in which the content was uploaded.  If any skill matches with a confidence score of more than 50% of the board skill, the content is posted in the board. If the confidence score is less than 50%, the content is sent for manual curation.
 
 Whenever a content gets auto-curated, the user gets a notification that the content is available in the board where it was previously uploaded.
 
 ![](assets/only-ai-based.png)
 
-It is recommended that the Administrator adds SMEs for skills if Manual-Only curation is ON. Administrator can add SMEs by providing SME points in advance to users with expertise in a skill. To know more about how to provide points to&nbsp; SMEs,&nbsp; [click here](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+It is recommended that the Administrator adds SMEs for skills if Manual-Only curation is ON. Administrator can add SMEs by providing SME points in advance to users with expertise in a skill. To know more about how to provide points to  SMEs,  [click here](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
 
 **No Curation:** All learner’s post gets posted automatically without any content moderation.
 
@@ -76,7 +76,7 @@ It is recommended that the Administrator adds SMEs for skills if Manual-Only cur
 
 +++How much time does a SME get to curate a post?
 
-An SME gets a minimum of 24 hours to curate a post.&nbsp;Due to timezone differences, it may be increase to 47 hours.
+An SME gets a minimum of 24 hours to curate a post. Due to timezone differences, it may be increase to 47 hours.
 
 +++
 
@@ -121,7 +121,7 @@ SMEs are added/assigned based on skill, not skill level. This is as designed.
 
 **Moderators:** Secondary owners of the board. They are added by the creators while board creation of the board so that they can control the board in absence of creator. By default, the creator of the board is the moderator.
 
-**SME: **Subject Matter Experts are experts in specific skills. Admin can assign SMEs to a particular skill to curate content of that skill. SMEs receive the curation requests for boards linked to their skills. Learners can also become SMEs by gaining SME points.
+**SME:** Subject Matter Experts are experts in specific skills. Admin can assign SMEs to a particular skill to curate content of that skill. SMEs receive the curation requests for boards linked to their skills. Learners can also become SMEs by gaining SME points.
 
 +++
 
@@ -135,9 +135,9 @@ If it does not reach 50% after one day, then it is sent to the next set of SMEs 
 
 # Scope settings {#scopesettings}
 
-In Social Learning, a Scope determines the boards you that you see, which controls the visibility of the content. If a user has a&nbsp; scope, for example, ***Vendor_A***, he/she can only see boards and associated posts that have been created by others belonging to the same scope ***Vendor_A***.
+In Social Learning, a Scope determines the boards you that you see, which controls the visibility of the content. If a user has a  scope, for example, ***Vendor_A***, he/she can only see boards and associated posts that have been created by others belonging to the same scope ***Vendor_A***.
 
-This allows the Administrators to maintain a cohort of users, for example, vendors, partners or departments in an organization separate.&nbsp;
+This allows the Administrators to maintain a cohort of users, for example, vendors, partners or departments in an organization separate. 
 
 Enable social learning and leaderboard for both internal and external users.
 
@@ -145,13 +145,13 @@ There are separate sections to enable internal and external users.
 
 **Enable for Internal learners**
 
-In this section,&nbsp;you can choose the user characteristic to define the scope of social learning for internal users.&nbsp;Users with the same characteristics **value** share the same Social Learning space.
+In this section, you can choose the user characteristic to define the scope of social learning for internal users. Users with the same characteristics **value** share the same Social Learning space.
 
-From the&nbsp;**User characteristic**&nbsp;drop-down list, choose the required option.
+From the **User characteristic** drop-down list, choose the required option.
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
-By default, the option **All Internal Users**&nbsp;in the User characteristic drop-down list option is always selected.
+By default, the option **All Internal Users** in the User characteristic drop-down list option is always selected.
 
 You can scope internal users based on their active fields.
 
@@ -167,11 +167,11 @@ For example, from the list above, if you enable **Acme Corp**, all learners belo
 
 Admin can scope the visibility of the content based on active field displayed in the **User characteristic** field.
 
-For example, the admin can set the scope to **User Type (Internal/External)** users. On setting the scope to User Type, the content shared on the Social Learning platform by any internal learner is only visible to other internal learners &nbsp;in the organization and not the external users and conversely.
+For example, the admin can set the scope to **User Type (Internal/External)** users. On setting the scope to User Type, the content shared on the Social Learning platform by any internal learner is only visible to other internal learners  in the organization and not the external users and conversely.
 
-After a User Characteristic is selected by the Admin, he or she can limit Social Learning feature to Learners and Learner groups by selecting the check box below the User characteristic field. Click the value field to select the learner or learner groups for whom you want to enable the Social Learning feature.&nbsp;
+After a User Characteristic is selected by the Admin, he or she can limit Social Learning feature to Learners and Learner groups by selecting the check box below the User characteristic field. Click the value field to select the learner or learner groups for whom you want to enable the Social Learning feature. 
 
-By default, the scope is set by the **User Type **that is&nbsp;Internal or external learners.
+By default, the scope is set by the **User Type **that is Internal or external learners.
 
 If the active field does not contain any value, then the **Value** field drop-down list will not be visible to the admin.
 
@@ -187,9 +187,9 @@ To restrict the creation of boards by all learners and to moderate the boards ef
 
 By default, the option **All Learners** is enabled.
 
-**All Learners:&nbsp;**If you choose this option, all internal and external users can create boards.&nbsp;
+**All Learners:** If you choose this option, all internal and external users can create boards. 
 
-**A group of learners:** If you choose this option, only users having permissions to create a board see the **Create New Board** link in Social Learning. Choose the user group that must be granted permission to create a board.&nbsp;You can also add auto generated as well as custom user groups.
+**A group of learners:** If you choose this option, only users having permissions to create a board see the **Create New Board** link in Social Learning. Choose the user group that must be granted permission to create a board. You can also add auto generated as well as custom user groups.
 
 ![](assets/grant-permissiontoausergroup.png)
 
@@ -219,20 +219,20 @@ On the Social leader-board sections, a user can see all users of his/her scope a
 
 If you have been granted special user privileges, you can see all users in the account in your leader-board, irrespective of the users' scopes.
 
-If special users become SMEs by gaining sufficient points, they appear in the&nbsp;**Top Subject Matter Experts** list in the social leader-board.
+If special users become SMEs by gaining sufficient points, they appear in the **Top Subject Matter Experts** list in the social leader-board.
 
 For any changes to take effect, wait for 60 minutes.
 
 # Customize the social banner {#customize-social-banner}
 
-The Administrator&nbsp;can customize the title and the subtitle&nbsp;that appear on the header image on the Social Learning homepage. Whatever the Administrator decides to enter as title and subtitle, the same features on the Learner's social learning homepage.
+The Administrator can customize the title and the subtitle that appear on the header image on the Social Learning homepage. Whatever the Administrator decides to enter as title and subtitle, the same features on the Learner's social learning homepage.
 
-1. On the Admin app,&nbsp;click&nbsp;**Social Learning > Settings**.
-1. Click&nbsp;**Customize**.  
+1. On the Admin app, click **Social Learning > Settings**.
+1. Click **Customize**.  
 
 1. Change the banner image. The dimensions of the image must be at least **1600 px X 240 px**.  
 
-1. Toggle the option to hide or display the&nbsp;**Know More**&nbsp;link on the banner.&nbsp;  
+1. Toggle the option to hide or display the **Know More** link on the banner.   
 
 1. Enter the title and the subtitle in the fields specified below:
 
@@ -240,10 +240,10 @@ The Administrator&nbsp;can customize the title and the subtitle&nbsp;that appear
 
    You have a few other options:
 
-   * **Language:**&nbsp;From the drop-down list, choose the language to translate the title and subtitle to. You can also add custom text for different languages.&nbsp;  
+   * **Language:** From the drop-down list, choose the language to translate the title and subtitle to. You can also add custom text for different languages.   
    
-   * **Replicate:**&nbsp;Click this button to replicate the title and subtitle across all languages.
-   * **Reset:**&nbsp;Click this button to revert to the original title and subtitle.
+   * **Replicate:** Click this button to replicate the title and subtitle across all languages.
+   * **Reset:** Click this button to revert to the original title and subtitle.
 
    On the Social Learning homepage, the information provided by the Administrator displays as the page header.
 
@@ -261,7 +261,7 @@ The first visual provides the admin with the following information for the time 
 
 1. **New Posts**: Displays the number of new posts created within the date period. Also displayed is the total number of posts for the entire period.
 1. **Percentage of Active users**: Displays the total percentage of active users in social learning compared to the total number of users available in the account.
-1. **New Boards**: Displays the number of new boards that have been created.&nbsp;Also displayed is the total number of boards for the entire period.
+1. **New Boards**: Displays the number of new boards that have been created. Also displayed is the total number of boards for the entire period.
 
 The second visual is a line graph displaying the trend of number of boards or posts created based on the time period selected from the date filter. Click the filter to view the different time options like last seven days, last month, last three months, and all time.
 
@@ -269,7 +269,7 @@ The second visual is a line graph displaying the trend of number of boards or po
 
 # Skills {#skills}
 
-You can view all the skills that have been used in the social activity platform in this section. The admin can use the search field to look for a skill that is not used yet while creating a board and mapping SMEs to it. By performing this, SMEs would get a notification when a board is created using this skill and they can review the post as part of the manual curation workflow.&nbsp;
+You can view all the skills that have been used in the social activity platform in this section. The admin can use the search field to look for a skill that is not used yet while creating a board and mapping SMEs to it. By performing this, SMEs would get a notification when a board is created using this skill and they can review the post as part of the manual curation workflow. 
 
 For an account with Social Learning disabled, no skills are displayed. The search bar is available for such accounts as well so that the admin has the functionality to search for a skill and add SMEs to it.
 
@@ -357,13 +357,13 @@ Based on the skills mostly used by Learning Manager end users, Adobe Learning Ma
 
 ## Requirements to be an SME {#requirementstobeansme}
 
-SME status can only be gained by earning SME points through activities in Social Learning. The administrator can award points to a SME based on their expertise in the skill level. &nbsp;
+SME status can only be gained by earning SME points through activities in Social Learning. The administrator can award points to a SME based on their expertise in the skill level.  
 
 ## Adding SMEs to a skill {#addingsmestoaskill}
 
 To add SMEs to a skill, follow the given steps:
 
-1. Click&nbsp;**Add SMEs or Modify SMEs**.
+1. Click **Add SMEs or Modify SMEs**.
 
    ![](assets/add-smes-06.png)
 
@@ -371,7 +371,7 @@ To add SMEs to a skill, follow the given steps:
 
    ![](assets/advanced-optionssmes.png)
 
-1. Search for the user with expertise in the skill. Once the user is found, type the number of points you want to give him or her in the **Add Points **input box.&nbsp;
+1. Search for the user with expertise in the skill. Once the user is found, type the number of points you want to give him or her in the **Add Points **input box. 
 
    If the user already has points, then the number of new points given to the user is added to the current number of points.
 
@@ -381,7 +381,7 @@ To add SMEs to a skill, follow the given steps:
 
 1. By selecting the **Enable Minimum SME Points** check box, you can set a limit to the minimum number of points a user requires to be displayed as an SME in Top SMEs list. Once the threshold value is set, SMEs with points less than or equal to the minimum point value required is not listed in the SME lists.
 
-   If the&nbsp;**Enable Minimum SME Points** check box is not selected then the top three users with highest points are considered as the SMEs for that particular skill.
+   If the **Enable Minimum SME Points** check box is not selected then the top three users with highest points are considered as the SMEs for that particular skill.
 
 1. Click** Save** button to display the changes that have been made.
 
@@ -412,13 +412,13 @@ Enterprise Server URL must be publicly hosted.
 
 # Social activities for Monthly Active Users billing plan {#socialactivitiesformonthlyactiveusersbillingplan}
 
-Every time a user creates a new social board, social post or social comment, it would count as valid activity to be counted against the&nbsp;**Monthly Activation User**(MAU) plan if the account follows the MAU billing model. For more information, refer to [billing management](billing-management.md).
+Every time a user creates a new social board, social post or social comment, it would count as valid activity to be counted against the **Monthly Activation User**(MAU) plan if the account follows the MAU billing model. For more information, refer to [billing management](billing-management.md).
 
 # Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1.&nbsp;How to enable social learning for external learners?**
+**1. How to enable social learning for external learners?**
 
-In **Social Learning > Settings**, in the section Scope Settings, enable the option&nbsp;**Enable for External learners**. From the drop-down, choose an external profile and define the scope of learning for that profile.
+In **Social Learning > Settings**, in the section Scope Settings, enable the option **Enable for External learners**. From the drop-down, choose an external profile and define the scope of learning for that profile.
 
 ![](assets/social-scope-external-users.png)
 

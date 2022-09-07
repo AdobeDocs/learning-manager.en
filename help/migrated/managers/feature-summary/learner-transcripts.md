@@ -7,39 +7,39 @@ title: Learner transcripts
 
 # Learner transcripts {#learner-transcripts}
 
-Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Learn how to download learner transcript based on users, learning objects, or skills in Learning Manager.
 
-Adobe Learning Manager enables the Managers of an organization to generate the transcripts associated with learners.&nbsp;
+Adobe Learning Manager enables the Managers of an organization to generate the transcripts associated with learners. 
 
 # Generate learner transcripts {#generatelearnertranscripts}
 
 1. To generate learner transcripts, click **Reports **on the left pane in Manager login.
 
-2. Click **My Reports** tab on the page. &nbsp;
+2. Click **My Reports** tab on the page.  
 
-3. Click** Learner Transcripts** link.&nbsp;
+3. Click** Learner Transcripts** link. 
 
 ![](assets/learner-transcripts.png)
 
-&nbsp;4.&nbsp;A Learner transcripts dialog appears. Choose the date range for which you need the transcript generated.
+ 4. A Learner transcripts dialog appears. Choose the date range for which you need the transcript generated.
 
 **Note:** By default, from start date is the learner's registration date and the to date is always the current date. You can modify only the start date from when you need the data.
 
-&nbsp;5. Choose the learners names from the Select Learners field, and click **Generate.**
+ 5. Choose the learners names from the Select Learners field, and click **Generate.**
 
 You can choose single learner or groups of learners. To add more than one learner, click Add More Learners.
 
-Transcripts are generated and downloaded to your computer as .xls files. Each .xls excel file has seven sheets, the details of which are mentioned below:&nbsp;
+Transcripts are generated and downloaded to your computer as .xls files. Each .xls excel file has seven sheets, the details of which are mentioned below: 
 
 ## Download Learner Transcript based on timezone {#lt-timezone}
 
-Like an Administrator, a Manager can also choose the columns to export. In addition, a Manager can&nbsp;download the Learner Transcript based on the&nbsp;timezone&nbsp;that he/she had selected in the profile settings.&nbsp;
+Like an Administrator, a Manager can also choose the columns to export. In addition, a Manager can download the Learner Transcript based on the timezone that he/she had selected in the profile settings. 
 
-If the Manager enables this option, the&nbsp;timezone&nbsp;is picked from the one set in the profile settings page, shown below.
+If the Manager enables this option, the timezone is picked from the one set in the profile settings page, shown below.
 
-**Note:**&nbsp;For a new&nbsp;Manager, the&nbsp;Timezone&nbsp;checkbox is disabled.
+**Note:** For a new Manager, the Timezone checkbox is disabled.
 
 ![](assets/image030.png) 
 
@@ -49,7 +49,7 @@ A typical learner transcript file consists of six excel sheets in a single file.
 
 **Learner Transcript**
 
-In the learner transcript excel sheet, along with profile details about the learner, a learning object wise consumption details are provided such as enrollment date, started date, grade achieved, quiz score obtained and so on. If courses are part of any learning program, they are listed separtely apart from individual course consumption details.&nbsp;
+In the learner transcript excel sheet, along with profile details about the learner, a learning object wise consumption details are provided such as enrollment date, started date, grade achieved, quiz score obtained and so on. If courses are part of any learning program, they are listed separtely apart from individual course consumption details. 
 
 **1- Learning Activity Dashboard**
 

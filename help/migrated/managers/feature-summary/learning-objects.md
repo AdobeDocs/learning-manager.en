@@ -7,7 +7,7 @@ title: Learning Objects
 
 # Learning Objects {#learning-objects}
 
-Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 This document consists of information about learning objects for managers.
 
@@ -17,10 +17,10 @@ A Manager can enroll the learners under him in courses, learning programs and ce
 
 ## Viewing courses {#viewingcourses}
 
-As a manager, you can view a list of all available courses. Click&nbsp;**Courses&nbsp;**on the left pane to view the list of courses with search and filter options. You can also view the course effectiveness percentage for each course on the course thumbnails. Note that you can only enroll team members to courses which are visible to you under the learner application.
+As a manager, you can view a list of all available courses. Click **Courses **on the left pane to view the list of courses with search and filter options. You can also view the course effectiveness percentage for each course on the course thumbnails. Note that you can only enroll team members to courses which are visible to you under the learner application.
 
 **Note** 
-List of all the retired courses can be viewed by clicking the&nbsp;**Retired&nbsp;**tab.
+List of all the retired courses can be viewed by clicking the **Retired **tab.
 
 ## View quiz scores {#viewquizscores}
 
@@ -50,7 +50,7 @@ To allow learners to reset a module and consume the module again, click Reset. F
 You can also export the learners list in an excel sheet. To export the learners list, click Actions > Export.
 
 **Note** 
-If there are multiple instances for a course, the learners list in excel is provided in each tab separately. The learners list consists of learner name, status and selection criteria. Learners status can be&nbsp;**Not started**, or&nbsp;**In progress**, or&nbsp;**Completed**.&nbsp;
+If there are multiple instances for a course, the learners list in excel is provided in each tab separately. The learners list consists of learner name, status and selection criteria. Learners status can be **Not started**, or **In progress**, or **Completed**. 
 
 ## View L1 and L3 feedback {#viewl1andl3feedback}
 
@@ -62,9 +62,9 @@ You can view the L1 feedback provided by learners for a course and the L3 feedba
 
 ## Preview courses {#previewcourses}
 
-Manager can preview courses by clicking the&nbsp;**Preview as learner**&nbsp;option while viewing the course modules.
+Manager can preview courses by clicking the **Preview as learner** option while viewing the course modules.
 
-1. Click&nbsp;**Courses&nbsp;**on the left pane after you log in.
+1. Click **Courses **on the left pane after you log in.
 1. Click any course tile from the list of courses on the page.
 1. Click Preview as learner from the left pane and click the module name on the page to preview the course module in the player.
 
@@ -90,10 +90,10 @@ As per the pie-chart shown above, more weightage is given to L3 feedback from ma
 
 Adobe Learning Manager makes it easier for you to find the courses/learning programs of your choice quickly. You can search for your courses in two ways:
 
-1. Using Search field. Click search icon displayed at the upper-right corner. A search field appears. Type the course name or any keywords associated with your courses to locate your courses/learning programs.&nbsp;You can also search using predefined tags like Captivate, C, Java, and HTML. Tags are searchable inside Search field, which means the tags are displayed in  search  field as you type. Search can be executed by using unique id as well.
+1. Using Search field. Click search icon displayed at the upper-right corner. A search field appears. Type the course name or any keywords associated with your courses to locate your courses/learning programs. You can also search using predefined tags like Captivate, C, Java, and HTML. Tags are searchable inside Search field, which means the tags are displayed in  search  field as you type. Search can be executed by using unique id as well.
 1. By filtering list of courses/learning programs/Certifications using the filters. You can filter the courses by the state such as All, published and Retired.
 
-You can search based on competencies by clicking Competencies and choosing them.&nbsp;As a manager you can sort the courses in four ways, to better locate your required course. Click Sort By and choose alphabetical ascending order, alphabetical descending order, course updated date, or effectiveness of courses:
+You can search based on competencies by clicking Competencies and choosing them. As a manager you can sort the courses in four ways, to better locate your required course. Click Sort By and choose alphabetical ascending order, alphabetical descending order, course updated date, or effectiveness of courses:
 
 ![](assets/admin-sortby.png)
 
@@ -103,7 +103,7 @@ You can sort learning programs in three ways: alphabetical ascending order, alph
 
 Managers enrolls some learners to mandatory courses as per organization requirements:
 
-1. Hover your mouse on&nbsp;any published course tiles and click Enroll learners.  
+1. Hover your mouse on any published course tiles and click Enroll learners.  
    Alternatively, click any published course tile and click learners on the left pane. A page appears with a list of learners. Click Enroll.  
    Enroll learners dialog appears.
 
@@ -146,12 +146,12 @@ A manager can mark  a LP  complete for learners. For more information, see [Mark
 
 You can enroll learners to the certification in two ways. Follow the steps below to enroll learners.
 
-1. Click&nbsp;Certifications&nbsp;on the left pane after you log in as a Manager. From&nbsp;the&nbsp;Published&nbsp;tab list, hover the mouse on each certification and click&nbsp;Enroll learners. Alternatively, click any published certification tile and click&nbsp;Learners&nbsp;from the left pane. Click&nbsp;+&nbsp;Enroll&nbsp;on the right side of learners page to start adding the learners.
-1. You can view&nbsp;Enroll Learners&nbsp;pop-up dialog after clicking enroll learners option from each of the above two steps. Start typing the learner name, profile and choose the name of the learner from the drop-down list, and click&nbsp;Save.
+1. Click Certifications on the left pane after you log in as a Manager. From the Published tab list, hover the mouse on each certification and click Enroll learners. Alternatively, click any published certification tile and click Learners from the left pane. Click + Enroll on the right side of learners page to start adding the learners.
+1. You can view Enroll Learners pop-up dialog after clicking enroll learners option from each of the above two steps. Start typing the learner name, profile and choose the name of the learner from the drop-down list, and click Save.
 
 ## Unenrollment for learners {#Unenrollmentforlearners-1}
 
-Manager can unenroll a learner if the learner has not yet started the Certification.&nbsp;
+Manager can unenroll a learner if the learner has not yet started the Certification. 
 
 ## Mark completion {#Markcompletion-1}
 
@@ -159,11 +159,11 @@ A Manager can mark the completion of Certification. For more information, see [M
 
 # Manager Notifications for Learner course Approval {#manager-notifications-course-approval}
 
-When attempting to accept&nbsp;or reject a learner for enrollment, a&nbsp;manager&nbsp;can now view the details of the session&nbsp;(**Video Conferencing** or **Classroom**)&nbsp;on the&nbsp;pop&nbsp;window.&nbsp;
+When attempting to accept or reject a learner for enrollment, a manager can now view the details of the session (**Video Conferencing** or **Classroom**) on the pop window. 
 
 ![](assets/approve-a-learner.png)
 
-The following session details&nbsp;are displayed:
+The following session details are displayed:
 
 * Session name
 * Instructor name
@@ -172,17 +172,17 @@ The following session details&nbsp;are displayed:
 
 Here’s the workflow:
 
-1. The&nbsp;manager&nbsp;sees a notification after a learner requests for approval of a course.  
+1. The manager sees a notification after a learner requests for approval of a course.  
 
-1. The&nbsp;manager&nbsp;clicks&nbsp;**Session Details**.
+1. The manager clicks **Session Details**.
 
    ![](assets/pending-tasks.png)
 
-1. The&nbsp;manager&nbsp;then approves or rejects the request.  
+1. The manager then approves or rejects the request.  
 
-1. The&nbsp;manager&nbsp;gets a confirmation or error message if approval&nbsp;or&nbsp;rejection didn’t&nbsp;happen as expected.  
+1. The manager gets a confirmation or error message if approval or rejection didn’t happen as expected.  
 
-1. The learner gets a notification&nbsp;or approval or rejection to the course enrollment.
+1. The learner gets a notification or approval or rejection to the course enrollment.
 
 # Optional submission for external certifications {#optional}
 
@@ -190,11 +190,11 @@ In earlier releases of Learning Manager, for an external certification to be com
 
 A Manager can now see a list of learners who have enrolled into the External certification on a Submission page present inside the External Certification and can Accept or Reject from the page itself without waiting for a notification.
 
-&nbsp;
+ 
 
 When the Manager accepts without waiting for the file submission, the learner is shown a new message that the Manager has accepted, and the learner need not submit the file. In case Manager rejects without the file submission, the Manager has the option to again accept without waiting for the file.
 
-&nbsp;
+ 
 
 If learner submits the file, Manager can view the file from the submission page and can Accept or Reject based on the submitted file.
 

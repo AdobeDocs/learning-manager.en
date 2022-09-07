@@ -14,7 +14,7 @@ Rich text is composed of HTML markup. Rendering the markup as-is would result in
 
 # Default style
 
-The attached CSS stylesheet contains the styling that is applied by Learning Manager. The styling is tweaked considering majority of the usecases. Download the attached CSS file and import it to your webapp according to your conventions and build system. The CSS classes defined are namespaced under&nbsp;ql-editor&nbsp;class and they don't interfere with your existing styles.
+The attached CSS stylesheet contains the styling that is applied by Learning Manager. The styling is tweaked considering majority of the usecases. Download the attached CSS file and import it to your webapp according to your conventions and build system. The CSS classes defined are namespaced under ql-editor class and they don't interfere with your existing styles.
 
 # **Customize styles**
 

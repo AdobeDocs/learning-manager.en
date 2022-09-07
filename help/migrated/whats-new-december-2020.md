@@ -10,22 +10,22 @@ contentowner: jayakarr
 
 Learn about the new features and enhancements in Adobe Learning Manager
 
-The **December 2020** **release of Adobe Learning Manager**&nbsp;features an&nbsp;all-new&nbsp;Learner Homepage experience, that is driven by:
+The **December 2020** **release of Adobe Learning Manager** features an all-new Learner Homepage experience, that is driven by:
 
 * Immersive experience powered by responsive and personalized HTML widgets, which are managed by Administrator.  
 * Customization of the homepage via two new types of Announcements.  
-* Personalized training recommendations from an AI-driven algorithm that analyses&nbsp;third-party content for industry skills, incorporates peer activity, and learners’ areas of interest using explicit and implicit data.
+* Personalized training recommendations from an AI-driven algorithm that analyses third-party content for industry skills, incorporates peer activity, and learners’ areas of interest using explicit and implicit data.
 
 # What's new and changed {#whatsnewandchanged}
 
 <table> 
  <tbody>
   <tr> 
-   <td> <img src="assets/new-dashboard.png"><h3 id="Personalizedlearnerhomepage">Personalized learner homepage</h3><p>Transform every learner's experience with personalized dashboards and customizable drag-and-drop widgets. Provide them with an overview of completed, pending, and recommended courses, alongside their badges and other milestones.&nbsp;</p> <p>For more information, see:</p> 
+   <td> <img src="assets/new-dashboard.png"><h3 id="Personalizedlearnerhomepage">Personalized learner homepage</h3><p>Transform every learner's experience with personalized dashboards and customizable drag-and-drop widgets. Provide them with an overview of completed, pending, and recommended courses, alongside their badges and other milestones. </p> <p>For more information, see:</p> 
     <ul> 
      <li><a disablelinktracking="false" href="administrators/feature-summary/customize-learner-homepage.md">Customize a learner's homepage</a></li> 
     </ul></td> 
-   <td> <img src="assets/responsive.png"><h3 id="Mobilewebresponsivelayout">Mobile web responsive layout</h3><p>A completely responsive mobile web experience that ensures that learners use their devices to consume training even if they haven’t installed the mobile app.</p> <p>For more information, see&nbsp;<a disablelinktracking="false" href="learners/feature-summary/ipad-android-tablet-users.md#responsive">Mobile web responsive layout</a>.<br></p></td> 
+   <td> <img src="assets/responsive.png"><h3 id="Mobilewebresponsivelayout">Mobile web responsive layout</h3><p>A completely responsive mobile web experience that ensures that learners use their devices to consume training even if they haven’t installed the mobile app.</p> <p>For more information, see <a disablelinktracking="false" href="learners/feature-summary/ipad-android-tablet-users.md#responsive">Mobile web responsive layout</a>.<br></p></td> 
   </tr> 
  </tbody>
 </table>
@@ -34,7 +34,7 @@ The **December 2020** **release of Adobe Learning Manager**&nbsp;features an&nbs
  <tbody>
   <tr> 
    <td> <img src="assets/custom-domain.png"><h3 id="CustomDomain">Custom Domain</h3><p>Give a new brand to your learning academy. You can customize the domain name to be consistent with your organizational brand presence on the web.</p> <p>For more information, see <a disablelinktracking="false" href="custom-domain.md">Support for custom domain</a>.</p></td> 
-   <td> <img src="assets/ai-recommended.png"><h3 id="AIbasedcourserecommendation">AI-based course recommendation</h3><p>Stay ahead of your competition with a workforce that’s skilled and informed. The AI-powered recommendation engine promotes skill-based learning plans to employee cohorts. Also, encourage proactive reskilling initiatives with gamification points, certifications and badges.&nbsp;</p> <p>For more information, see <a disablelinktracking="false" href="AI-based-recommendations.md">AI-based recommendation</a>.</p></td> 
+   <td> <img src="assets/ai-recommended.png"><h3 id="AIbasedcourserecommendation">AI-based course recommendation</h3><p>Stay ahead of your competition with a workforce that’s skilled and informed. The AI-powered recommendation engine promotes skill-based learning plans to employee cohorts. Also, encourage proactive reskilling initiatives with gamification points, certifications and badges. </p> <p>For more information, see <a disablelinktracking="false" href="AI-based-recommendations.md">AI-based recommendation</a>.</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -53,7 +53,7 @@ For more information, see:
 
 ## Learning Checklist {#learningchecklist}
 
-Authors can now create a checklist course designed to evaluate the completion and success of mandatory steps in real-life work processes. Instructors can evaluate learners based on their demonstration and successful completion of each of the steps by providing a score or updating the pass/fail criteria.&nbsp;
+Authors can now create a checklist course designed to evaluate the completion and success of mandatory steps in real-life work processes. Instructors can evaluate learners based on their demonstration and successful completion of each of the steps by providing a score or updating the pass/fail criteria. 
 
 For more information, see:
 
@@ -71,7 +71,7 @@ For more information, see [Configure Marketo engage connector](integration-admin
 
 Now integrate Learning Manager courses right within Adobe Experience Manager (AEM) Sites by taking advantage of the new learning component. Elements of the learner home page such as My Learning and course recommendations can automatically be synched to the AEM Sites front end using a nifty drag-and-drop workflow that avoids complex coding and expensive implementation costs.
 
-For more information, see&nbsp; [Integrate Learning Manager with AEM](integrate-aem-captivate-prime.md).
+For more information, see  [Integrate Learning Manager with AEM](integrate-aem-captivate-prime.md).
 
 # Enhanced features in this release {#enhancedfeaturesinthisrelease}
 
@@ -79,7 +79,7 @@ For more information, see&nbsp; [Integrate Learning Manager with AEM](integrate-
 
 Import Connect quiz data into Prime and integrate it with existing reporting workflows so that Prime users can get quiz data, user responses and scores from Adobe Connect sessions within report, like the way it is available for self-paced modules having quizzes.
 
-For more information, see&nbsp; [Import quiz scores from Adobe Connect.](integration-admin/feature-summary/connectors.md#quiz-adobe-connect)
+For more information, see  [Import quiz scores from Adobe Connect.](integration-admin/feature-summary/connectors.md#quiz-adobe-connect)
 
 ## Badge PDF Enhancements {#badgepdfenhancements}
 
@@ -94,7 +94,7 @@ For more information, see&nbsp; [Import quiz scores from Adobe Connect.](integra
 
 ## Scrollable My Catalog page {#scrollablemycatalogpage}
 
-My learning and Catalog pages for Learner role always shows 6 trainings cards at a time. Learner needs to click “Show more results” to view more. This experience is now enhanced by providing an infinite scroll whenever learner is viewing a single catalog or catalog visibility is disabled by the Administrator.&nbsp;
+My learning and Catalog pages for Learner role always shows 6 trainings cards at a time. Learner needs to click “Show more results” to view more. This experience is now enhanced by providing an infinite scroll whenever learner is viewing a single catalog or catalog visibility is disabled by the Administrator. 
 
 ![](assets/show-more-results.png) 
 
@@ -169,7 +169,7 @@ For more information, see [Learning Manager connectors](integration-admin/featur
 
 In this release of Learning Manager, we’ve added filters to LinkedIn connectors to segregate content based on LinkedIn Learning Libraries. In addition, you can also filter content based on language and import only the courses in required languages. Once imported, content gets segregated to multiple catalogs based on the import configuration.
 
-For more information, see&nbsp; [Filter LinkedIn Learning content](integration-admin/feature-summary/connectors.md#filter-linkedin).
+For more information, see  [Filter LinkedIn Learning content](integration-admin/feature-summary/connectors.md#filter-linkedin).
 
 ## Limit duration of time filter in Power BI {#limitdurationoftimefilterinpowerbi}
 
@@ -182,8 +182,8 @@ If you require to export the data for more than 5 years, the Job API / Power BI 
 * Learners can now copy the training URL from the training page. Learning Manager now provides a **Share **icon on the training page. It contains options like **Copy URL** and **Send via email**, which opens the email client.  
 
 * Learning Manager now also allows learners to quickly enroll to trainings while browsing through their training catalogs. Look for the **Add to my list** button on the training cards. Clicking on it, enrolls you to the respective training.
-* My learning and Catalog pages for Learner role always shows 6 trainings cards at a time. A learner needs to click **Show more results** to view more. This experience is now enhanced by providing an&nbsp;infinite&nbsp;scroll whenever&nbsp;learner is viewing a single catalog or catalog visibility is&nbsp;disabled by the Administrator.&nbsp;
-* A&nbsp;learner now can&nbsp;click on an individual module to enroll and start.&nbsp;&nbsp;Clicking on a module (before enrollment) launches a popup- “Clicking on a module will enroll you in the training and launch. This behavior will be remembered and can be modified from Profile Settings. Do you wish to continue?”
+* My learning and Catalog pages for Learner role always shows 6 trainings cards at a time. A learner needs to click **Show more results** to view more. This experience is now enhanced by providing an infinite scroll whenever learner is viewing a single catalog or catalog visibility is disabled by the Administrator. 
+* A learner now can click on an individual module to enroll and start.  Clicking on a module (before enrollment) launches a popup- “Clicking on a module will enroll you in the training and launch. This behavior will be remembered and can be modified from Profile Settings. Do you wish to continue?”
 
 # Changes to existing features {#changestoexistingfeatures}
 
@@ -196,7 +196,7 @@ When you create an announcement, in the **Type **drop-down list, there are two n
 
 Depending on your choice, the announcement is in the form of a targeted masthead or a targeted training recommendation for the Learner experience homepage.
 
-This feature is available only when the Immersive layout is selected.&nbsp;
+This feature is available only when the Immersive layout is selected. 
 
 ## Learner home page settings {#learnerhomepagesettings}
 
@@ -207,7 +207,7 @@ This feature is available only when the Immersive layout is selected.&nbsp;
 
 * From the Excel/CSV reports, the score column in x/y format has been removed. The Score and Highest Score columns no longer exist. This change was already planned and communicated in the previous release. This feature is supported by four columns available since the last release, which provided the score and total score in separate columns.
 * In the Admin > Reports > Learner Transcript page, a column that has a filter on it is now modified to display **Yes **or None. Clicking on it opens a pop-up, which provides more details.
-* The Learner Transcript User Interface now contains additional filter based on Status. With this filter, Learner transcript report can be downloaded which contains only the learning records with the selected status.&nbsp;
+* The Learner Transcript User Interface now contains additional filter based on Status. With this filter, Learner transcript report can be downloaded which contains only the learning records with the selected status. 
 
 # Data retention updates {#dataretentionupdates}
 
@@ -224,11 +224,11 @@ The Migration feature provided in Prime also relies on FTP/Box connector to tran
 
 # Release Notes {#releasenotes}
 
-For information regarding current and previous releases of Learning Manager web app and device app, see the&nbsp; [***Release notes***](release-note/release-notes.md).
+For information regarding current and previous releases of Learning Manager web app and device app, see the  [***Release notes***](release-note/release-notes.md).
 
 # Bug fixes {#bugfixes}
 
-To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed***](release-note/release-notes.md#bug-fixes)&nbsp;list.
+To see the bugs that are fixed in this update, refer to the  [***Bugs fixed***](release-note/release-notes.md#bug-fixes) list.
 
 # Known issues {#knownissues}
 
@@ -250,7 +250,7 @@ To see the known issues in this update, refer to [***Known issues***](release-no
  <tbody>
   <tr> 
    <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
   </tr> 
  </tbody>
 </table>

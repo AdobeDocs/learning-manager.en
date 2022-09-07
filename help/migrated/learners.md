@@ -11,7 +11,7 @@ contentowner: manochan
  <tbody>
   <tr> 
    <td><img src="assets/learner2.png"></td> 
-   <td><p>Read on to know the Learning Manager features and frequently asked questions associated with Learner role.&nbsp;</p></td> 
+   <td><p>Read on to know the Learning Manager features and frequently asked questions associated with Learner role. </p></td> 
   </tr> 
  </tbody>
 </table>
@@ -23,7 +23,7 @@ contentowner: manochan
 # Features {#features}
 
 * [Getting started](learners/feature-summary/getting-started.md)
-* [Salesforce app](learners/feature-summary/sfdc-app.md)&nbsp;
+* [Salesforce app](learners/feature-summary/sfdc-app.md) 
 * [Gamification](learners/feature-summary/gamification.md)
 * [Badges](learners/feature-summary/badges.md)
 * [Catalogs](learners/feature-summary/catalogs.md)
@@ -38,4 +38,4 @@ contentowner: manochan
 * [User notifications](learners/feature-summary/user-notifications.md)
 * [Waitlist and attendance management](learners/feature-summary/waitlist-attendance-management.md)
 
-&nbsp;
+ 

@@ -22,13 +22,13 @@ You can create a custom role to provide authoring capabilities limited to a part
 
 .If you have a configurable role assigned, you can switch between your existing role and configurable role. To switch between roles, click your profile icon on the upper-right corner of Prime and select the role.
 
-For more information, see&nbsp; [Custom roles](administrators/feature-summary/custom-role.md).
+For more information, see  [Custom roles](administrators/feature-summary/custom-role.md).
 
 # Catalog labels {#cataloglabels}
 
-This feature allows you to tag learning objects with specific fields and apply one or multiple values. These fields and values are displayed only to the Admin and Authors. They are not visible to Learners. Custom fields are added on account level and then applied to Catalogs. When a custom field is added to the catalog, it applies to all Learning Objects that are a part of the catalog. Use this feature to easily categorize data.&nbsp;For example, if you want to categorize Learning Objects based on their location, department, skills you could apply these fields and filter data.&nbsp; [](administrators/feature-summary/custom-role.md)
+This feature allows you to tag learning objects with specific fields and apply one or multiple values. These fields and values are displayed only to the Admin and Authors. They are not visible to Learners. Custom fields are added on account level and then applied to Catalogs. When a custom field is added to the catalog, it applies to all Learning Objects that are a part of the catalog. Use this feature to easily categorize data. For example, if you want to categorize Learning Objects based on their location, department, skills you could apply these fields and filter data.  [](administrators/feature-summary/custom-role.md)
 
-For more information, see&nbsp; [Catalog labels](administrators/feature-summary/catalog-labels.md).
+For more information, see  [Catalog labels](administrators/feature-summary/catalog-labels.md).
 
 # Zoom connector integration {#zoomconnectorintegration}
 
@@ -48,7 +48,7 @@ This release of Prime introduces support for xAPI to monitor user experience out
 
 ![](assets/activity-module.jpg)
 
-For more information, see&nbsp; [xAPI in Learning Manager](administrators/feature-summary/xapi.md).
+For more information, see  [xAPI in Learning Manager](administrators/feature-summary/xapi.md).
 
 # Other enhancements {#otherenhancements}
 
@@ -56,7 +56,7 @@ This release introduces the following enhancements in Learning Manager:
 
 * Learner Transcript Enhancements: While downloading Learner Transcripts, you can now choose specific catalogs by enabling the check box. Transcript is only downloaded for the specified catalogs. If no catalog is selected, data is downloaded for all catalogs. This update also allows you to enable the download of module level information in the Learner transcript. Module names and the time spent on each module is fetched as a part of the transcript if this option is enabled. The Enable module level information check box is disabled by default.
 
-For more information, see [Learner transcripts](administrators/feature-summary/learner-transcripts.md).&nbsp;
+For more information, see [Learner transcripts](administrators/feature-summary/learner-transcripts.md). 
 
 * Module update configuration: As an Administrator you can control the settings for module version updates. Use radio buttons to choose if you want changes to be applicable to all Learners or only to new enrolments.
 

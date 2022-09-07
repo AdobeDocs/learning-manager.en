@@ -14,11 +14,11 @@ Social learning is a platform in Learning Manager which engages users to share i
 
 By simply attending a training, does not guarantee that users retain everything that is taught. On the other hand, social learning allows users to use the expertise around them to get exactly the information they need. In turn users can quickly apply that information to complete a task, and achieve a goal.
 
-Similarly, Learning Manager Social Learning feature allows users to be able to interact with one another by being able to share and learn from content. &nbsp;
+Similarly, Learning Manager Social Learning feature allows users to be able to interact with one another by being able to share and learn from content.  
 
-On this platform, the different type of content that can be shared are video, audio, screenshot, text, question, and poll. Users can also share their online learnings with their peers by using the&nbsp;**Share to Social bookmarklet**.&nbsp;For more information, see&nbsp; [Share to Social Learning](share-to-social.md).
+On this platform, the different type of content that can be shared are video, audio, screenshot, text, question, and poll. Users can also share their online learnings with their peers by using the **Share to Social bookmarklet**. For more information, see  [Share to Social Learning](share-to-social.md).
 
-Content can also be posted inside a board with the help of the **Adobe Learning Manager desktop application**.&nbsp;For more information, see&nbsp; [Adobe Learning Manager app for desktop](../adobe-captivate-prime-app-for-desktop.md).
+Content can also be posted inside a board with the help of the **Adobe Learning Manager desktop application**. For more information, see  [Adobe Learning Manager app for desktop](../adobe-captivate-prime-app-for-desktop.md).
 
 Only if the administrator enables Social Learning, the feature is visible to a learner .
 
@@ -46,7 +46,7 @@ Only if the administrator enables Social Learning, the feature is visible to a l
   <tr> 
    <td width="48"><p style="text-align: center;">3</p></td> 
    <td width="174"><p style="text-align: center;">Comment</p></td> 
-   <td width="402"><p style="text-align: justify;">Users can comment and view posts that are created in boards.&nbsp;</p></td> 
+   <td width="402"><p style="text-align: justify;">Users can comment and view posts that are created in boards. </p></td> 
   </tr> 
   <tr> 
    <td width="48"><p style="text-align: center;">4</p></td> 
@@ -96,21 +96,21 @@ Content is created as a post inside a board. To create a post, follow the below 
 
 1. Select any of the following types of contents to be posted: Text, question, video, audio, poll, and screenshot. Existing content can be uploaded from users system or from the Adobe Learning Manager desktop application's gallery.
 
-   Use Adobe Learning Manager desktop app to record a video or screen, audio, and take a screenshot. For more information, see [Adobe Learning Manager desktop application](../adobe-captivate-prime-app-for-desktop.md).&nbsp;
+   Use Adobe Learning Manager desktop app to record a video or screen, audio, and take a screenshot. For more information, see [Adobe Learning Manager desktop application](../adobe-captivate-prime-app-for-desktop.md). 
 
    ![](assets/types-of-post-03.png)
 
-1. Search for a board or skill that relates to the post. If the board does not exist, click **Create a New Board**.&nbsp;
+1. Search for a board or skill that relates to the post. If the board does not exist, click **Create a New Board**. 
 
    ![](assets/create-a-new-board-04.png)
 
-   If you are an external or internal user, and if the Administrator has granted you access to create a board, you can ceate a board. If you do not have the permissions to create a board, the link **Create a New Board **does not appear.&nbsp;
+   If you are an external or internal user, and if the Administrator has granted you access to create a board, you can ceate a board. If you do not have the permissions to create a board, the link **Create a New Board **does not appear. 
 
 1. From the pop-up dialog box, fill in the details, select the following type of board:
 
-   * **Public** – Participation and visibility of posts is available to all users.
+   * **Public** - Participation and visibility of posts is available to all users.
    * **Private**- Post is only visible to the creator of the board, moderators, and user(s) added to the board.
-   * **Restricted**- Only board owner, administrator, and board moderators can create post. Other users can participate by commenting/replying, upvoting/downvoting and so forth.&nbsp;
+   * **Restricted**- Only board owner, administrator, and board moderators can create post. Other users can participate by commenting/replying, upvoting/downvoting and so forth. 
 
    ![](assets/new-board-05.png)
 
@@ -118,15 +118,15 @@ Content is created as a post inside a board. To create a post, follow the below 
 
    *In Social Learner app, only an **Admin **has the capability to create private board with user groups (internal/external).*
 
-   *Any other user except Admin, Author, Learner, manager, instructor, etc. **cannot **create private boards with user groups. They cannot see the section of&nbsp;**user groups**&nbsp;in while creation of private board.*
+   *Any other user except Admin, Author, Learner, manager, instructor, etc. **cannot **create private boards with user groups. They cannot see the section of **user groups** in while creation of private board.*
 
    Admin only- When you choose **Private**, you see two options- **Users** and **User Groups**. Choose the option **User Groups**, and then add the user groups with who you want to share the private board.
 
    In the User Groups field, you can choose internal, external, or custom groups. Your private board will then be visible to all the specified user groups, irrespective of scope settings.
 
-1. To share content, click&nbsp;**Post**. On clicking Post the user gets a notification.
+1. To share content, click **Post**. On clicking Post the user gets a notification.
 
-   The content is posted based on the curation setting set by the administrator for Social Learning content which can be curated by&nbsp; [Board Moderators/Subject Matter Experts](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
+   The content is posted based on the curation setting set by the administrator for Social Learning content which can be curated by  [Board Moderators/Subject Matter Experts](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
 
    ![](assets/pop-up-dialog-before-sending-for-curation.png)
 
@@ -136,11 +136,11 @@ Content is created as a post inside a board. To create a post, follow the below 
 
    ![](assets/after-rejection-clickreview.png)
 
-When creating or replying to a post in Social Learning, you can compose a post using the Rich Text Editor and apply different types of formatting.&nbsp;
+When creating or replying to a post in Social Learning, you can compose a post using the Rich Text Editor and apply different types of formatting. 
 
 ![](assets/rte-learner.png)
 
-In addition, when creating a board, you have access to the same set of options in the Rich Text Editor.&nbsp;
+In addition, when creating a board, you have access to the same set of options in the Rich Text Editor. 
 
 ![](assets/create-board.png) 
 
@@ -148,7 +148,7 @@ In addition, when creating a board, you have access to the same set of options i
 
 Once a post is approved, it is displayed in a Social Learning board. Users can now, comment, reply, upvote/downvote on the post.
 
-Users can use the following type of content to make a comment: Record Screen, webcam, or both, Record Audio, Take Screenshot, Upload File, Learning Manager Gallery.&nbsp;
+Users can use the following type of content to make a comment: Record Screen, webcam, or both, Record Audio, Take Screenshot, Upload File, Learning Manager Gallery. 
 
 ![](assets/comment-options-21.png) 
 
@@ -156,7 +156,7 @@ Users can use the following type of content to make a comment: Record Screen, we
 
 In Learning Manager, videos, static content like presentations and images are posted inside Social player in a board. You can uploading a file from your system, recording a video/screen, and capture a screenshot with the assistance of Adobe Learning Manager desktop application.
 
-Once the user has finished posting some content, it can be viewed by other learners in their activity scope. On Social player learners can view, comment/reply, upvote/downvote, and report abuse.&nbsp;
+Once the user has finished posting some content, it can be viewed by other learners in their activity scope. On Social player learners can view, comment/reply, upvote/downvote, and report abuse. 
 
 ![](assets/social-player.png)
 
@@ -170,11 +170,11 @@ Once the user has finished posting some content, it can be viewed by other learn
 
 # Board view in social {#board-view-social}
 
-A&nbsp;Learner&nbsp;can see all boards in a list view. Sign in to your learner app and in your Social&nbsp;Learning&nbsp;page,&nbsp;click the button, as shown below:&nbsp;
+A Learner can see all boards in a list view. Sign in to your learner app and in your Social Learning page, click the button, as shown below: 
 
 ![](assets/image002.png)
 
-When you view the posts in a board format,&nbsp;you can then sort the posts according to&nbsp;**Post&nbsp;**and&nbsp;**Contributor**.&nbsp;
+When you view the posts in a board format, you can then sort the posts according to **Post **and **Contributor**. 
 
 ![](assets/image004.png)
 
@@ -197,21 +197,21 @@ Using the Activity filter, you can sort the boards according to the magnitude of
 * Normal activity
 * Low activity
 
-In the board view,&nbsp;you can perform the usual board-level actions.
+In the board view, you can perform the usual board-level actions.
 
 ![](assets/image010.png) 
 
 # Download posts {#downloadposts}
 
-Learners can&nbsp;download&nbsp;the content, with attachments, from Social Learning Platform, so that they can use this content offline.
+Learners can download the content, with attachments, from Social Learning Platform, so that they can use this content offline.
 
 ![](assets/download-posts-insocial.png)
 
-You can&nbsp;download&nbsp;the content&nbsp;from the Posts or Comments or the Replies sections. You can&nbsp;download&nbsp;only&nbsp;one file at a time.
+You can download the content from the Posts or Comments or the Replies sections. You can download only one file at a time.
 
-Both types of users (Internal or&nbsp;External)&nbsp;must&nbsp;be able to&nbsp;download&nbsp;the content.&nbsp;
+Both types of users (Internal or External) must be able to download the content. 
 
-The&nbsp;Download&nbsp;button&nbsp;can&nbsp;also be seen in search results for posts&nbsp;or&nbsp;comments or&nbsp;replies.
+The Download button can also be seen in search results for posts or comments or replies.
 
 You cannot, yet, download a post in the device app. This feature will be available soon.
 
@@ -250,7 +250,7 @@ If a new user are added to the user group, both users can see the private board.
 
 If any user is removed from the private board, the user can no longer see the private board.
 
-If multiple user groups are added to the private board, all the users&nbsp;of both the groups get access to the private boards.
+If multiple user groups are added to the private board, all the users of both the groups get access to the private boards.
 
 ![](assets/choose-private-board.png) 
 
@@ -258,7 +258,7 @@ If multiple user groups are added to the private board, all the users&nbsp;of bo
 
 Click the collapsed menu icon from the upper right corner of a post to view its options. The following menu list is displayed: Edit, add to my story, copy URL, delete and report.
 
-Only some users have permissions to perform particular tasks. The following types of users are content owners, board moderators, and the administrator of the organization.&nbsp;
+Only some users have permissions to perform particular tasks. The following types of users are content owners, board moderators, and the administrator of the organization. 
 
 <table> 
  <tbody>
@@ -285,7 +285,7 @@ Only some users have permissions to perform particular tasks. The following type
   <tr> 
    <td><p>4</p></td> 
    <td><p>Delete</p></td> 
-   <td><p>Delete option removes&nbsp; the post after user’s confirmation.</p></td> 
+   <td><p>Delete option removes  the post after user’s confirmation.</p></td> 
   </tr> 
   <tr> 
    <td><p>5</p></td> 
@@ -301,7 +301,7 @@ Social story allows users to add or create stories with posts created by them or
 
 To add a post to a story, follow the below steps:
 
-1. Click the collapsed menu icon from the upper right corner of a post and click&nbsp;**Add to my Story**.
+1. Click the collapsed menu icon from the upper right corner of a post and click **Add to my Story**.
 
    ![](assets/add-to-my-story-05.png)
 
@@ -320,7 +320,7 @@ To add a post to a story, follow the below steps:
 <table> 
  <tbody>
   <tr> 
-   <td><p>&nbsp;</p></td> 
+   <td><p> </p></td> 
    <td><p><b>Content owner</b></p></td> 
    <td><p><b>Any user</b></p></td> 
    <td><p><b>Board moderators</b></p></td> 
@@ -370,7 +370,7 @@ Boards are a collection of posts. Every board in Social Learning is created base
 
 In the All Boards page, posts or boards created by all users in a activity scope are visible. But in the My boards page, only boards created, followed and participated by a user is visible.
 
-In the My Boards Page, the boards visible can be filtered according to the following: **All**, **Created by me**,** Commented by me**, **Followed by me**.&nbsp;
+In the My Boards Page, the boards visible can be filtered according to the following: **All**, **Created by me**,** Commented by me**, **Followed by me**. 
 
 ![](assets/board-filter-07.png)
 
@@ -378,7 +378,7 @@ In both, My Boards and All boards, users can sort the boards by **Relevance** or
 
 ![](assets/sort-board-by-08.png)
 
-While creating a post, if there are no relevant boards to the post, click [Create a new board](social-learning-web-user.md#Creatingcontentasapost).&nbsp; To view, edit, delete, report, copy URL and add a board to your favorite board list, follow the below steps:
+While creating a post, if there are no relevant boards to the post, click [Create a new board](social-learning-web-user.md#Creatingcontentasapost).  To view, edit, delete, report, copy URL and add a board to your favorite board list, follow the below steps:
 
 1. Click the board name or click **Go to board**.
 1. From the boards page, click the collapsed menu icon and select an option from the drop-down list.
@@ -449,7 +449,7 @@ The administrator of the organization also has the privilege to add more points 
 
 ## How to curate content as a SME? {#howtocuratecontentasasme}
 
-1. On creation of a new post or board by a user, the SME gets a notification displaying that a post on a board is awaiting curation.&nbsp;
+1. On creation of a new post or board by a user, the SME gets a notification displaying that a post on a board is awaiting curation. 
 
    ![](assets/curation-awaitingnotification.png)
 
@@ -457,7 +457,7 @@ The administrator of the organization also has the privilege to add more points 
 
    ![](assets/sme-moderation-page.png)
 
-1. To rate content based on percentage of relevancy it has to a board's skill, select the color in the relevancy scale. The first color is rated as irrelevant (10% relevancy) and the last color represents very relevant(100% relevancy).&nbsp;
+1. To rate content based on percentage of relevancy it has to a board's skill, select the color in the relevancy scale. The first color is rated as irrelevant (10% relevancy) and the last color represents very relevant(100% relevancy). 
 1. It is recommended that the SME types a comment based on a particular relevancy score given. Users get a better understanding of why their post is rejected on reading the comment.
 
 # AI-enabled auto curation {#autocuration}
@@ -468,7 +468,7 @@ Every page in Social Learning has the search field which allows users to look fo
 
 ![](assets/search-16.png)
 
-The following pages in informal learning have a search field:&nbsp;**My boards**,&nbsp;**All boards**,&nbsp;**Boards page**, user's**&nbsp;Profile page**, and&nbsp;**other learner’s profile page**.
+The following pages in informal learning have a search field: **My boards**, **All boards**, **Boards page**, user's** Profile page**, and **other learner’s profile page**.
 
 When a user search's for content in the Informal Learning , the total number of search results for the content in the informal and formal learning of Learning Manager is displayed.
 
@@ -488,11 +488,11 @@ In the profile page, learners can view the total number of points gained, number
 
 Learners can also view the skills for which they are designated as a Subject Matter Expert.
 
-The learner’s page&nbsp; also displays the learner’s **curated stories**, **recent activities** performed, and the **people followed **by them.
+The learner’s page  also displays the learner’s **curated stories**, **recent activities** performed, and the **people followed **by them.
 
 # Notifications {#notifications}
 
-On approval or rejection of a post by SME, users receive a notification which can be viewed on clicking the notifications icon at the upper right corner of the window. Users are able to view notifications Social Learning and Formal Learning activities.&nbsp;
+On approval or rejection of a post by SME, users receive a notification which can be viewed on clicking the notifications icon at the upper right corner of the window. Users are able to view notifications Social Learning and Formal Learning activities. 
 
 ![](assets/notification-18.png)
 

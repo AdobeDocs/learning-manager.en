@@ -7,7 +7,7 @@ contentowner: dvenkate
 
 # Custom roles {#custom-roles}
 
-Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 This feature helps you define custom roles and assign specific responsibilities to  set  of users. This feature enables you to assign responsibilities outside the purview of the individual’s existing role.
 
@@ -15,7 +15,7 @@ You can create a custom role to provide authoring capabilities limited to a part
 
 # Create a custom role {#create-role}
 
-1. Log in as an Administrator. Open&nbsp;**Users > Custom Role**.
+1. Log in as an Administrator. Open **Users > Custom Role**.
 1. Select  Create  Role. The Create New Role tab opens.
 
    ![](assets/create-new-role.png)
@@ -35,7 +35,7 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    ![](assets/core-features.png)
 
-1. **Feature privileges- Learning Objects:**&nbsp; Use this option to provide access to  LOs  related features. You can provide access to the following  LOs .
+1. **Feature privileges- Learning Objects:**  Use this option to provide access to  LOs  related features. You can provide access to the following  LOs .
 
    * Certifications
    * Courses
@@ -51,15 +51,15 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    ![](assets/learning-objects.png)
 
-1. **Scope for feature privileges: **The scope of Feature privileges allocated to this role can be restricted to a specific User Group or one or more Catalogs.
+1. **Scope for feature privileges:** The scope of Feature privileges allocated to this role can be restricted to a specific User Group or one or more Catalogs.
 
    Catalogs: Use the radio button to provide control over **All catalogs** or use the **Set access per Catalog** option to provide access to specific catalogs. You can also select multiple catalogs.
 
    User Groups: Provide access to **All User Groups** or use the **Set access per user group** option to provide access to specific user groups. Only a single user group can be specified.
 
-   **Note: **If you have selected Announcement, Gamification, Email Templates, Skills, and Users under Account Privileges, the User Group access is provided to all user groups by default and this option is disabled.
+   **Note:** If you have selected Announcement, Gamification, Email Templates, Skills, and Users under Account Privileges, the User Group access is provided to all user groups by default and this option is disabled.
 
-   If you have selected Learning Plans under Account Privileges, access to all Catalogs and User Groups is provided by default and these options under Scope is disabled.&nbsp;
+   If you have selected Learning Plans under Account Privileges, access to all Catalogs and User Groups is provided by default and these options under Scope is disabled. 
 
    ![](assets/define-scope-of-privileges.png)
 
@@ -128,7 +128,7 @@ You can create a custom role to provide authoring capabilities limited to a part
    <table width="100%" cellspacing="0" cellpadding="1" border="1"> 
     <tbody> 
      <tr> 
-      <td width="177" valign="top"><p><strong>&nbsp;</strong></p> </td> 
+      <td width="177" valign="top"><p><strong> </strong></p> </td> 
       <td width="446" colspan="4" valign="top"><p><strong>Catalog Level Permission</strong></p> </td> 
      </tr> 
      <tr> 
@@ -173,50 +173,50 @@ You can create a custom role to provide authoring capabilities limited to a part
 1. 
 1. 
 1. 
-1. **Users:** Use this option to determine which users are assigned this role. You can choose&nbsp;one or more users using the search box.
+1. **Users:** Use this option to determine which users are assigned this role. You can choose one or more users using the search box.
 
-   **Add users to custom role CSV upload: **To add users via CSV updalod, add a CustomRole column to the .csv file that the Administrator used to import users. Enter the role of the user under the CustomRole coloumn for the users to whom you wish to assign a cusrom role. To upload the CSV file, click  **[!UICONTROL Add > Upload a CSV]**.
+   **Add users to custom role CSV upload:** To add users via CSV updalod, add a CustomRole column to the .csv file that the Administrator used to import users. Enter the role of the user under the CustomRole coloumn for the users to whom you wish to assign a cusrom role. To upload the CSV file, click  **[!UICONTROL Add > Upload a CSV]**.
 
    CustomRole columnNote:
 
    * You cannot search User Groups.
    * You cannot search users who already have Admin role assigned to them.
-   * Assigning a new custom role to a user overrides&nbsp; user's  previous custom role.
+   * Assigning a new custom role to a user overrides  user's  previous custom role.
 
    ![](assets/users.png)
 
-* A custom admin having permission to&nbsp;&nbsp;Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
+* A custom admin having permission to  Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
 * If a custom admin has permission on the Users entity, they can assign Admin role to themselves and become a standard Admin.
 
 # Restrict folder access for custom authors {#folder-custom-author}
 
-Learning Manager already supports an ability to give access to content Library using&nbsp;custom roles. All custom&nbsp;authors who already have access to&nbsp;the&nbsp;content library, will continue to have access to all content files even after content folders are configured. This is to maintain the legacy behavior. Administrators need not make any changes&nbsp;in case&nbsp;they wish to continue to current behavior.&nbsp;&nbsp;
+Learning Manager already supports an ability to give access to content Library using custom roles. All custom authors who already have access to the content library, will continue to have access to all content files even after content folders are configured. This is to maintain the legacy behavior. Administrators need not make any changes in case they wish to continue to current behavior.  
 
-In case&nbsp;they wish to restrict access to these custom&nbsp;authors, Administrators need to edit the existing custom role and configure them by providing access to only specific content folders.&nbsp;
+In case they wish to restrict access to these custom authors, Administrators need to edit the existing custom role and configure them by providing access to only specific content folders. 
 
 ![](assets/folder-access-forcustomauthors.png)
 
-While creating a custom author, you can now assign content folders to the author. Choose the option&nbsp;**Selected Folders**.
+While creating a custom author, you can now assign content folders to the author. Choose the option **Selected Folders**.
 
 After you click the option, a new dialog opens, where you can assign the folders to the custom author.
 
 ![](assets/choose-folder.png)
 
-Choose the folders and click&nbsp;**OK**.&nbsp;
+Choose the folders and click **OK**. 
 
 # Learning Summary Dashboard for Custom Admin {#custom-admin-dashboard}
 
-Custom&nbsp;admins can see the same view as what an Admin&nbsp;sees.&nbsp;A&nbsp;custom admin&nbsp;may&nbsp;data outside his scope.&nbsp;This is only&nbsp;applicable if&nbsp;the&nbsp;custom admin has full scope. To grant full scope, while creating a custom admin,&nbsp;enable the option&nbsp;**Full&nbsp;Control**&nbsp;in Account Summary Report.
+Custom admins can see the same view as what an Admin sees. A custom admin may data outside his scope. This is only applicable if the custom admin has full scope. To grant full scope, while creating a custom admin, enable the option **Full Control** in Account Summary Report.
 
 ![](assets/create-custom-role.png)
 
-As a result,&nbsp;the options,&nbsp;**All Catalogs**&nbsp;and&nbsp;**All User&nbsp;Groups**&nbsp;will&nbsp;get selected and the rest disabled.
+As a result, the options, **All Catalogs** and **All User Groups** will get selected and the rest disabled.
 
 ![](assets/scope-of-featureprivileges.png) 
 
 # Implicit permissions {#implicitpermissions}
 
-When a user is given a role with a specific entity, there might be cases where they need&nbsp;access to other entities as well to be able to perform tasks on the granted entity. For Instance, if a user is given Create access on Course entity, they need access to Skill and Tag entities so that they can associate them with the course being created.  This tables  gives you information  of  such implicit permissions.
+When a user is given a role with a specific entity, there might be cases where they need access to other entities as well to be able to perform tasks on the granted entity. For Instance, if a user is given Create access on Course entity, they need access to Skill and Tag entities so that they can associate them with the course being created.  This tables  gives you information  of  such implicit permissions.
 
 <table width="100%" cellspacing="0" cellpadding="1" border="1"> 
  <tbody> 
@@ -309,7 +309,7 @@ When a user is given a role with a specific entity, there might be cases where t
 
 # Access a custom role {#accessacustomrole}
 
-When an Administrator assigns a custom role, you receive an email notification.&nbsp;
+When an Administrator assigns a custom role, you receive an email notification. 
 
 Note: If you are already logged in to Prime under a custom role, you would require to relogin to Prime to access the new role.
 
@@ -319,7 +319,7 @@ To switch between roles, click your profile icon on the upper-right corner of Pr
 
 In earlier versions of Learning Manager, any Custom Role with permission to create learning plans could scope the learning plan for all types of user groups and Learning Objects.
 
-The&nbsp;scope setting used to be disabled when learning plan access was granted, which gave the user access to All Catalogs and All User Groups by default.
+The scope setting used to be disabled when learning plan access was granted, which gave the user access to All Catalogs and All User Groups by default.
 
 All learning plans created by an Admin, by default, are applicable to all users. Users can also be assigned any Learning Object. On the other hand, users with Custom Roles have access to full scopes, for example, all catalogs, Learning Objects, or User Groups. This meant that admins were unable to create Custom Roles as expected that allowed access to Learning Plans for users with limited scope.
 
@@ -374,7 +374,7 @@ Clicking **Yes** updates the scope.
 An administrator can enable gamification reports for a custom user.
 
 1. In the **Custom Roles** page, enter the name of the custom role.
-1. In the&nbsp;**Feature Privileges: Core Features** section,&nbsp; enable the option **Full Control** for the category **Reports**.  
+1. In the **Feature Privileges: Core Features** section,  enable the option **Full Control** for the category **Reports**.  
 
 1. In the section **Users**, select the user that will be assigned the newly created custom role.
 1. Click **Save**.
@@ -391,7 +391,7 @@ Resetting gamification does not reset the level achieved date.
 
 # Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1.&nbsp;How to create a Custom Role?**
+**1. How to create a Custom Role?**
 
 A Custom Role is like a subset of an Author or Administrator role. Allow one or multiple privileges, define the scope, and assign the role to a user.
 

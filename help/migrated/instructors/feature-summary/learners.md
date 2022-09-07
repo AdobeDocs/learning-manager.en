@@ -12,9 +12,9 @@ Read this article to know how to manage the attendees, send course related email
 
 # See sessions or modules with pending reviews {#pending}
 
-As an instructor, you can see the sessions or modules with pending reviews.&nbsp;
+As an instructor, you can see the sessions or modules with pending reviews. 
 
-On the Sessions/Modules page,&nbsp;you can see a column **Reviews Pending** that shows the number of pending reviews for the corresponding session/activity.
+On the Sessions/Modules page, you can see a column **Reviews Pending** that shows the number of pending reviews for the corresponding session/activity.
 
 # Manage waitlist for your session {#managewaitlistforyoursession}
 
@@ -61,11 +61,11 @@ To send emails to learners, from the Learners page in the Instructor app, do one
 
 # Exporting learners list {#exportinglearnerslist}
 
-As an instructor, you can easily mark the attendance for all your learners by exporting the attendee list as a pdf. To export the attendee list, from the Learner from the left pane. Click Actions > Export Learner List (PDF).&nbsp;
+As an instructor, you can easily mark the attendance for all your learners by exporting the attendee list as a pdf. To export the attendee list, from the Learner from the left pane. Click Actions > Export Learner List (PDF). 
 
-After the attendee list is confirmed for your session, you can export the list as a PDF. This easy-to-print pdf displays the learners as a table. You can then mark the attendance or provide scores, and make or provide notes for the learner, all in the same PDF.&nbsp;
+After the attendee list is confirmed for your session, you can export the list as a PDF. This easy-to-print pdf displays the learners as a table. You can then mark the attendance or provide scores, and make or provide notes for the learner, all in the same PDF. 
 
-Notice a QR code at the top right corner of this PDF. This functionality allows individual learners to scan the code using the Learning Manager mobile app for learners to mark their attendance.&nbsp;
+Notice a QR code at the top right corner of this PDF. This functionality allows individual learners to scan the code using the Learning Manager mobile app for learners to mark their attendance. 
 
 ![](assets/exportpdf.png) 
 

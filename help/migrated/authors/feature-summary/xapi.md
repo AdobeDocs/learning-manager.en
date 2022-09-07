@@ -10,7 +10,7 @@ title: xAPI in Learning Manager
 
 The Experience API (xAPI), is an e-learning software specification that allows learning content and learning systems to speak to each other in a manner that records and tracks all types of learning experiences. Learning experiences are recorded in a Learning Record Store (LRS). LRSs can exist within traditional learning management systems (LMSs) or on their own.
 
-For&nbsp;more information on xAPI,  see: &nbsp; [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
+For more information on xAPI,  see:   [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
 
 # How does Learning Manager support xAPI? {#howdoescaptivateprimesupportxapi}
 
@@ -18,7 +18,7 @@ Learning Manager has an inbuilt Learning Record Store. This LRS has the full cap
 
 # When do you use xAPI? {#whendoyouusexapi}
 
-Increasingly there is a need to capture learning experiences of the end user which span across multiple systems.&nbsp; There is also a need to track the exact engagement of the learner with training content. It goes beyond Start, In Progress and Completion (which are the only attributes captured by SCORM).
+Increasingly there is a need to capture learning experiences of the end user which span across multiple systems.  There is also a need to track the exact engagement of the learner with training content. It goes beyond Start, In Progress and Completion (which are the only attributes captured by SCORM).
 
 # Using xAPI in Prime {#usingxapiinprime}
 
@@ -32,7 +32,7 @@ Increasingly there is a need to capture learning experiences of the end user whi
 
    ![](assets/appregistration.png)
 
-1. Define the&nbsp;scope for the application.
+1. Define the scope for the application.
 
    * If **[!UICONTROL Admin role xAPI read and write access]** is enabled, the Admin is able to post and get xAPI statements and documents.
    * If **[!UICONTROL Learner role xAPI read and write access]** is enabled, the Admin is able to post and get xAPI statements and documents.
@@ -49,9 +49,9 @@ Note:  xAPI  version supported in Prime is 1.0.3.
 
 ## API authentication {#apiauthentication}
 
-Learning Manager xAPI use OAuth 2.0 framework to authenticate and authorize your client applications.&nbsp;Once you register your application, you can get the clientId and clientSecret. Get URL is used in  browser  as it authenticates the Learning Manager users using their pre-configured accounts such as SSO, Adobe ID.&nbsp;
+Learning Manager xAPI use OAuth 2.0 framework to authenticate and authorize your client applications. Once you register your application, you can get the clientId and clientSecret. Get URL is used in  browser  as it authenticates the Learning Manager users using their pre-configured accounts such as SSO, Adobe ID. 
 
-GET&nbsp;https://captivateprime.adobe.com/oauth/o/authorize?client_id=<Enter&nbsp;your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<admin:xapi or learner:xapi>&response_type=CODE.
+GET https://captivateprime.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<admin:xapi or learner:xapi>&response_type=CODE.
 
 ## Tracking xAPI statements as Prime LO {#trackingxapistatementsasprimelo}
 
@@ -68,21 +68,21 @@ As an Author you can now choose xAPI module while creating courses to monitor us
    * When a course with  xAPI  module is shared across accounts.
    * When a certification with xAPI module recurs
 
-   &nbsp;
+    
 
-   Any xAPI&nbsp;statement&nbsp;with the mentioned IRI&nbsp;is&nbsp;tracked in the above module and are reflected in the Prime reports.&nbsp;
+   Any xAPI statement with the mentioned IRI is tracked in the above module and are reflected in the Prime reports. 
 
 1. To copy the auto-generated IRI, revisit the Activity Module page.
 1. Publish the Module.
 
 **Points to note:**
 
-* Captivate&nbsp;Prime currently supports  only   mbox  as an identifier. Other identifiers including&nbsp;mboz_sha1,  openid , account are not supported.
+* Captivate Prime currently supports  only   mbox  as an identifier. Other identifiers including mboz_sha1,  openid , account are not supported.
 
-* The&nbsp;stateId and profileId is a UUID when used with Prime.
-* PUT request does not overwrite the document for xAPIs&nbsp;agents/profile, activity/profile, and&nbsp; activity/state
+* The stateId and profileId is a UUID when used with Prime.
+* PUT request does not overwrite the document for xAPIs agents/profile, activity/profile, and  activity/state
 * Unidentified  group is not supported in Actor.
-* The parameter "related_activities"&nbsp;is not supported in&nbsp; GET  statement.
+* The parameter "related_activities" is not supported in  GET  statement.
 * The parameters 'format=ids' & 'format=canonical' is not supported in GET statements.
 * Voiding of  xAPI  statement does not undo any actions that happened in Prime when the statement was posted.
 
@@ -90,7 +90,7 @@ As an Author you can now choose xAPI module while creating courses to monitor us
 
 xAPI  reports can be generated as excel reports. As an Administrator, open **[!UICONTROL Reports > Excel reports > xAPI activity report]**.
 
-The downloaded report&nbsp;fetches all the information posted by the Learner and Administrator for any statement.
+The downloaded report fetches all the information posted by the Learner and Administrator for any statement.
 
 Same reports can be  gernerated / scheduled using FTP and Box connectors for any  third- party integration. Follow these steps:
 

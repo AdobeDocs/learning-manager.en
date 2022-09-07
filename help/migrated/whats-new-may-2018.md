@@ -9,9 +9,9 @@ title: New features summary
 
 Learn about the new features and enhancements in Adobe Learning Manager
 
-The May 2018 release of Adobe Learning Manager rolls out exciting new features and enhancements. It brings to you the capacity to purge users, manage tags, rename Learning Objects,&nbsp;Slack integration, and much more. Read on to know the new features and enhancements that are available in this release.
+The May 2018 release of Adobe Learning Manager rolls out exciting new features and enhancements. It brings to you the capacity to purge users, manage tags, rename Learning Objects, Slack integration, and much more. Read on to know the new features and enhancements that are available in this release.
 
-For a summary of features introduced in earlier releases of Learning Manager, see&nbsp; [Feature summary | earlier releases.](whats-new-march-2018.md#main-pars_text)
+For a summary of features introduced in earlier releases of Learning Manager, see  [Feature summary | earlier releases.](whats-new-march-2018.md#main-pars_text)
 
 # GDPR compliance {#gdprcompliance}
 
@@ -61,10 +61,10 @@ Learning Manager app for Slack is currently supported only in US instance and no
 
 ![](assets/primebot.png)
 
-For more information, see&nbsp; [Learning Manager integration with Slack.](integration-admin/feature-summary/integration-with-slack.md)
+For more information, see  [Learning Manager integration with Slack.](integration-admin/feature-summary/integration-with-slack.md)
 
 # Learning Manager integration with PowerBI {#captivateprimeintegrationwithpowerbi}
 
 Use the integration with Power BI connector to take advantage of your existing Power BI accounts to analyze and visualize learning data from Prime within Power BI. During configuration, the integration administrator can set up their Power BI workspace to be incrementally populated with two live datasets - learner transcript and user skill reports. You can then use all the features and power of Power BI to develop, deploy, and distribute custom dashboards as you desire in their organizations.
 
-For more information, see&nbsp; [Power BI connector](integration-admin/feature-summary/connectors.md#main-pars_header_349639618).
+For more information, see  [Power BI connector](integration-admin/feature-summary/connectors.md#main-pars_header_349639618).

@@ -8,7 +8,7 @@ title: Announcements
 
 An announcement is a multimedia message (text, image or video) that an Administrator broadcasts to a defined set of users.
 
-Administrator can broadcast announcements to learners informing them about the occurrence of an event or an activity.&nbsp;When an announcement is broadcast to a particular group or learning object users, all the learners associated with the target group receive notifications.
+Administrator can broadcast announcements to learners informing them about the occurrence of an event or an activity. When an announcement is broadcast to a particular group or learning object users, all the learners associated with the target group receive notifications.
 
 # Announcements notification {#announcementsnotification}
 

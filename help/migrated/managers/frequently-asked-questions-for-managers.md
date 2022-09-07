@@ -19,13 +19,13 @@ Administrators can enable/disable L3 feedback provision for appropriate courses 
 
 1. Click Notifications on the left pane.
 1. Click Pending Tasks tab.
-1. Click the notifications in the page under&nbsp;Provide feedback&nbsp;category and provide L3 feedback.
+1. Click the notifications in the page under Provide feedback category and provide L3 feedback.
 
 +++
 
 +++Do I get notified when my team completes courses?
 
-You can see the notifications icon highlighted with the number of pending messages.&nbsp;When your team member enrolls or completes a course, it appears to you as notification.&nbsp;When you click Show All Notifications in the pop-up menu, you can view all notifications and pending tasks in a page.
+You can see the notifications icon highlighted with the number of pending messages. When your team member enrolls or completes a course, it appears to you as notification. When you click Show All Notifications in the pop-up menu, you can view all notifications and pending tasks in a page.
 
 +++
 
@@ -33,7 +33,7 @@ You can see the notifications icon highlighted with the number of pending messag
 
 You can only nominate your team members to courses. Only administrators can assign courses in bulk to learners and import a set of learners.
 
-In the left pane of the application, click&nbsp;Notifications.
+In the left pane of the application, click Notifications.
 
 1. A detailed list of notifications appear.
 1. In pending tasks tab, choose a course for which you would like to assign your team members and click Nominate.  
@@ -62,9 +62,9 @@ You can click drop-down icon to modify the date range, save, and view the report
 
 +++Can I see my team members’ current skill levels?
 
-You can create reports for your team members&nbsp;to view the list of skills assigned and achieved by each one of them. ClickReports&nbsp;on the left pane and click&nbsp;Sample Reports&nbsp;tab to view a Skills vs Managers sample report.
+You can create reports for your team members to view the list of skills assigned and achieved by each one of them. ClickReports on the left pane and click Sample Reports tab to view a Skills vs Managers sample report.
 
-For more information, refer to&nbsp; [Reports](feature-summary/reports.md)&nbsp;feature in the Learning Manager Help.
+For more information, refer to  [Reports](feature-summary/reports.md) feature in the Learning Manager Help.
 
 +++
 
@@ -82,13 +82,13 @@ You can add new reports by selecting Reports and then clicking Add at the upper 
 
 Modify / Resize reports  
   
-To modify a report, click drop-down arrow on the upper right corner of a report and then click Edit.&nbsp;Make the changes in the report and click Save.
+To modify a report, click drop-down arrow on the upper right corner of a report and then click Edit. Make the changes in the report and click Save.
 
 To cancel the changes, you can click Reset.
 
 To resize the report, click Resize and choose one of the two options: 1×1 is small, and 1×2 is large.
 
-For more information, refer to&nbsp; [Reports feature.](feature-summary/reports.md)
+For more information, refer to  [Reports feature.](feature-summary/reports.md)
 
 +++
 
@@ -110,7 +110,7 @@ You can view all these reports with a date range.
 
 +++Can I view all the available courses? How?
 
-You can switch over to learner role to view all the available courses. Refer to&nbsp; [Courses](../learners/feature-summary/courses.md)&nbsp;feature for&nbsp;more information
+You can switch over to learner role to view all the available courses. Refer to  [Courses](../learners/feature-summary/courses.md) feature for more information
 
 +++
 

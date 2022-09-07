@@ -11,7 +11,7 @@ contentowner: manochan
  <tbody>
   <tr> 
    <td><img src="assets/administrator2.png"></td> 
-   <td><p>Read on to know the Learning Manager features and frequently asked questions associated with Administrator role.&nbsp;</p></td> 
+   <td><p>Read on to know the Learning Manager features and frequently asked questions associated with Administrator role. </p></td> 
   </tr> 
  </tbody>
 </table>

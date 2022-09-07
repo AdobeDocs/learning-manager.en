@@ -7,11 +7,11 @@ contentowner: admin
 
 # Frequently Asked Questions for Learners {#frequently-asked-questions-for-learners}
 
-Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 +++How do I enroll for a course offering?
 
-Course Catalog&nbsp;displays all the courses that you are eligible for. If your Manager nominates courses for you, you get a notification with an option to accept or reject the course.
+Course Catalog displays all the courses that you are eligible for. If your Manager nominates courses for you, you get a notification with an option to accept or reject the course.
 
 However, you have an option to go through any of the courses listed under CATALOG by following the steps below:
 
@@ -26,13 +26,13 @@ However, you have an option to go through any of the courses listed under CATALO
 
 Yes, you can access the offline content through IPad, Android tabs, and Smartphones.
 
-For more information on offline access, refer to&nbsp; [iPad and Android tablet users](feature-summary/ipad-android-tablet-users.md)&nbsp;feature.
+For more information on offline access, refer to  [iPad and Android tablet users](feature-summary/ipad-android-tablet-users.md) feature.
 
 +++
 
 +++How do I search for courses?
 
-You can search for any of the learning objects using free text search field in&nbsp;Catalog&nbsp;and&nbsp;Learning&nbsp;content tabs.
+You can search for any of the learning objects using free text search field in Catalog and Learning content tabs.
 
 Click the search field. You can search-as-you-type in this field. View the search results in the drop-down and choose the appropriate option to view the results.
 
@@ -40,9 +40,9 @@ Click the search field. You can search-as-you-type in this field. View the searc
 
 +++Can I view learning points of my peers?
 
-Yes, you can compare your learning points with your peers. Hover the mouse over the profile circle. You can view your own points here. To view the Leaderboard dialog, click&nbsp;Go to Leaderboard. In this dialog, you can view the list of your peers around the similar rank as you.
+Yes, you can compare your learning points with your peers. Hover the mouse over the profile circle. You can view your own points here. To view the Leaderboard dialog, click Go to Leaderboard. In this dialog, you can view the list of your peers around the similar rank as you.
 
-For more information, refer to&nbsp; [Leaderboard](feature-summary/gamification.md)feature.
+For more information, refer to  [Leaderboard](feature-summary/gamification.md)feature.
 
 +++
 
@@ -52,7 +52,7 @@ Course effectiveness is evaluated to understand the usefulness of a course to th
 
 It is a combination of results from learner feedback on the course content, the course quiz results for a learner and the manager’s feedback evaluating a learner based on learnings from the course.
 
-In Courses tab, a learner can view the course effectiveness rating on the course thumbnails&nbsp;
+In Courses tab, a learner can view the course effectiveness rating on the course thumbnails 
 
 To view the details of course effectiveness rating, click the course effectiveness value. A pop-up appears.
 
@@ -62,9 +62,9 @@ Click the down-arrow at the lower-right corner of the pop-up to view how course 
 
 +++What is the difference between Learning and Catalog?
 
-In&nbsp;Learning&nbsp;tab, you can view all the&nbsp; [courses](feature-summary/courses.md),&nbsp; [learning programs](feature-summary/learning-programs.md)&nbsp;and&nbsp; [certifications](feature-summary/certifications.md)&nbsp;that are enrolled by you or assigned to you. You can also move to learning tab by clicking the&nbsp;Go to Learning&nbsp;link.
+In Learning tab, you can view all the  [courses](feature-summary/courses.md),  [learning programs](feature-summary/learning-programs.md) and  [certifications](feature-summary/certifications.md) that are enrolled by you or assigned to you. You can also move to learning tab by clicking the Go to Learning link.
 
-In&nbsp;Catalog&nbsp;tab, you can see all the courses, learning programs and certifications that are available for your role in the company account. You can also move to&nbsp;Catalog&nbsp;tab, by clicking&nbsp;Go To Catalog&nbsp;link.
+In Catalog tab, you can see all the courses, learning programs and certifications that are available for your role in the company account. You can also move to Catalog tab, by clicking Go To Catalog link.
 
 +++
 
@@ -72,7 +72,7 @@ In&nbsp;Catalog&nbsp;tab, you can see all the courses, learning programs and cer
 
 In this section, you can see the alerts for all courses, certifications, and learning programs in ascending order of the deadlines. The deadlines for each of your learning activities are displayed at the left pane.
 
-Click each learning object to view the corresponding information at the right pane. You can click the course/learning program/certification tile to view the complete information of each&nbsp;learning object.
+Click each learning object to view the corresponding information at the right pane. You can click the course/learning program/certification tile to view the complete information of each learning object.
 
 Hover the mouse on the timeline area to view the scroll bar at the right-side. Use the scroll bar to move up or down and view more alerts.
 
@@ -82,21 +82,21 @@ Hover the mouse on the timeline area to view the scroll bar at the right-side. U
 
 Skills map is a grouping of skill sets, knowledge, and traits of an employee in an organization. These skills maps help companies/organizations to set or raise the performance expectations for its employees. Skills enable employees to align their behaviors to organizational expectations.
 
-When learners complete taking up some courses, learners can know their standing against each skill&nbsp;by viewing the skill&nbsp;maps.
+When learners complete taking up some courses, learners can know their standing against each skill by viewing the skill maps.
 
 ##### View skill maps
 
 To view the skills, click any one of the skill names in the skills map area at the upper-right corner of your landing page. Skills are displayed along with their levels next to them.
 
-For more information, refer to&nbsp; [Skills and levels](feature-summary/skills-levels.md)&nbsp;feature.
+For more information, refer to  [Skills and levels](feature-summary/skills-levels.md) feature.
 
 +++
 
 +++Can I access Learning Manager using smartphone?
 
-Yes, you can access Learning Manager on smartphones, iPads,&nbsp; or any other Android tablets.
+Yes, you can access Learning Manager on smartphones, iPads,  or any other Android tablets.
 
-For more information on this feature, refer&nbsp; [iPad and Android app users](feature-summary/ipad-android-tablet-users.md)&nbsp;feature.
+For more information on this feature, refer  [iPad and Android app users](feature-summary/ipad-android-tablet-users.md) feature.
 
 +++
 
@@ -104,25 +104,25 @@ For more information on this feature, refer&nbsp; [iPad and Android app users](f
 
 Yes, Learning Manager can be accessed using an iPad. You can download the app from app store or from Google Play.
 
-Only learner role features can be accessed using an iPad or any Android tablet. You can also consume courses offline and sync up with the app when you are back online. For more information, refer&nbsp; [iPad and Android app users](feature-summary/ipad-android-tablet-users.md)&nbsp;feature
+Only learner role features can be accessed using an iPad or any Android tablet. You can also consume courses offline and sync up with the app when you are back online. For more information, refer  [iPad and Android app users](feature-summary/ipad-android-tablet-users.md) feature
 
 +++
 
 +++Unable to log in to Learning Manager. What to do?
 
-If you have Adobe Id, you can log in to Learning Manager. Follow the instructions at&nbsp; [user login](feature-summary/user-login.md)&nbsp;feature for more information on how to log in to the application. If the problem persists, contact our support team.
+If you have Adobe Id, you can log in to Learning Manager. Follow the instructions at  [user login](feature-summary/user-login.md) feature for more information on how to log in to the application. If the problem persists, contact our support team.
 
 +++
 
 +++How to achieve a skill level?
 
-You acquire credits whenever you acquire a new skill level. Credits are associated to skill levels. For more information on skills and levels refer to&nbsp; [skills and levels](feature-summary/skills-levels.md)&nbsp;feature.
+You acquire credits whenever you acquire a new skill level. Credits are associated to skill levels. For more information on skills and levels refer to  [skills and levels](feature-summary/skills-levels.md) feature.
 
 +++
 
 +++Where can I see history/reports of all my learnings?
 
-You can view the history of all learnings in the home page. Click&nbsp;Learning&nbsp;tab and on each of the Courses, Programs and Certifications tabs you can choose&nbsp;Completed&nbsp;to view the list of all completed learnings.&nbsp;
+You can view the history of all learnings in the home page. Click Learning tab and on each of the Courses, Programs and Certifications tabs you can choose Completed to view the list of all completed learnings. 
 
 +++
 
@@ -134,9 +134,9 @@ You can express interest to join any classroom courses that do not have any plan
 
 +++What is the difference between credits and gamification points?
 
-You acquire credits whenever you acquire a new skill level. Credits are associated to skill levels. For more information on credits, skills and levels refer to&nbsp; [skills and levels](feature-summary/skills-levels.md)&nbsp;feature.
+You acquire credits whenever you acquire a new skill level. Credits are associated to skill levels. For more information on credits, skills and levels refer to  [skills and levels](feature-summary/skills-levels.md) feature.
 
-You get gamification points&nbsp;whenever you complete a task. Currently, there are six gamification tasks available in Learning Manager.&nbsp;On completion of each task you acquire a specific number of points associated with that task. For more information, refer to&nbsp; [gamification](feature-summary/gamification.md)&nbsp;feature.
+You get gamification points whenever you complete a task. Currently, there are six gamification tasks available in Learning Manager. On completion of each task you acquire a specific number of points associated with that task. For more information, refer to  [gamification](feature-summary/gamification.md) feature.
 
 +++
 
@@ -148,17 +148,17 @@ A list of badges acquired by the learner appears at the top of the page.
 
 Badges are assigned to learners based on a specific criteria defined by your organization, which is generally a successful completion of a course or any learning object.
 
-For more information, refer to&nbsp; [badges](feature-summary/badges.md)&nbsp;feature.
+For more information, refer to  [badges](feature-summary/badges.md) feature.
 
 +++
 
 +++What is a learning program?
 
-Learning programs are a set of uniquely designed courses meeting specific learner goals. Only administrators can create learning programs for learners. When an Administrator assigns a learning program instance to learners, they see that&nbsp;**program **in&nbsp;Programs&nbsp;tab. Learners can also view and enroll themselves to all self-enrolled type of learning programs.
+Learning programs are a set of uniquely designed courses meeting specific learner goals. Only administrators can create learning programs for learners. When an Administrator assigns a learning program instance to learners, they see that **program **in Programs tab. Learners can also view and enroll themselves to all self-enrolled type of learning programs.
 
 To start taking up the learning program, click the program assigned to you. You can view detailed information of that particular program.
 
-A&nbsp;**Start Program**&nbsp;button appears on the upper-right corner of the learning program page. Click&nbsp;**Start Program**&nbsp;to start taking up the course.
+A **Start Program** button appears on the upper-right corner of the learning program page. Click **Start Program** to start taking up the course.
 
 +++
 
@@ -168,33 +168,33 @@ Upon completion of each course you would receive online points.
 
 Based on the points you achieved by completing the courses, you are rewarded with Levels as follows:
 
-1. 1500 – Bronze level
-1. 2500 points – Silver level
-1. 3500 points – Gold level
-1. 5000 points – Platinum level
+1. 1500 - Bronze level
+1. 2500 points - Silver level
+1. 3500 points - Gold level
+1. 5000 points - Platinum level
 
-You can view your current level points in your profile and&nbsp;target to achieve higher points, if necessary.
+You can view your current level points in your profile and target to achieve higher points, if necessary.
 
-Refer&nbsp; [Gamification feature](feature-summary/gamification.md)&nbsp;for more information.
+Refer  [Gamification feature](feature-summary/gamification.md) for more information.
 
 +++
 
 +++Can I play my training content in full screen?
 
-All courses in Learning Manager are played in browsers.&nbsp;You can view the courses in full screen using Learning Manager’s Fluidic player.
+All courses in Learning Manager are played in browsers. You can view the courses in full screen using Learning Manager’s Fluidic player.
 
-Refer&nbsp; [Fluidic player feature](feature-summary/fluidic-player.md)&nbsp;for more information on Player.
+Refer  [Fluidic player feature](feature-summary/fluidic-player.md) for more information on Player.
 
 [Can I export my personal notes?](frequently-asked-questions-for-learners.md)
 
 Yes, you can export notes content as pdf by following the steps below:
 
-1. In the Home page, click any course card for which you want to export the Notes.&nbsp;
+1. In the Home page, click any course card for which you want to export the Notes. 
 1. Click Notes tab.
 1. Click Email notes option to send notes to your registered email-id.
 1. Click Download notes to download the notes as pdf.
 
-&nbsp;
+ 
 
 +++
 
@@ -207,7 +207,7 @@ Click ribbon icon adjacent to the listed topic names to bookmark your content.
 You can make notes while reading your course content by following these steps:
 
 1. Click the course tile that you would like to take up.
-1. At the bottom of course player screen click&nbsp;+&nbsp;Notes icon to open Notes section.
+1. At the bottom of course player screen click + Notes icon to open Notes section.
 1. Add the Notes and click Add. Your notes are saved.
 
 **Note** 
@@ -217,10 +217,10 @@ Bookmarking feature is supported for Captivate 9 and above versions, Presenter 1
 You have an option to download or email your course notes by following the steps below:
 
 1. Click the course tile for which you want to view the notes.
-1. Click the&nbsp;**Notes**&nbsp;tab adjacent to&nbsp;**Modules**&nbsp;tab.
+1. Click the **Notes** tab adjacent to **Modules** tab.
 
-1. Click&nbsp;**Download Notes**&nbsp;to download as pdf.
-1. Click&nbsp;**Email Notes**&nbsp;to receive the notes as an email to your email account.
+1. Click **Download Notes** to download as pdf.
+1. Click **Email Notes** to receive the notes as an email to your email account.
 
 +++
 
@@ -251,7 +251,7 @@ You will receive notification for the completion of course along with the link t
 
 As part of reward and recognition of learner’s achievements, Learning Manager introduces online badges for learners. Badges are awarded based on a set criteria and are then displayed on a learner’s profile on the top of the learners home page.
 
-Refer&nbsp; [Certifications feature](feature-summary/certifications.md)&nbsp;for more information on certifications for learners.
+Refer  [Certifications feature](feature-summary/certifications.md) for more information on certifications for learners.
 
 +++
 
@@ -300,8 +300,8 @@ Based on your choice, you can view the filtered list of courses and choose accor
 
 +++How do I access my courses in Learning Manager?
 
-1. Log in to Learning Manager as a learner. If you forgot password, click&nbsp;**Forgot** password&nbsp;link provided in the login page to get it back to your email id.
-1. Once you log in, you can see the COURSES tab at the top. Click&nbsp;**COURSES&nbsp;**tab to display the list of courses assigned to you.
+1. Log in to Learning Manager as a learner. If you forgot password, click **Forgot** password link provided in the login page to get it back to your email id.
+1. Once you log in, you can see the COURSES tab at the top. Click **COURSES **tab to display the list of courses assigned to you.
 
 +++
 
@@ -309,7 +309,7 @@ Based on your choice, you can view the filtered list of courses and choose accor
 
 Other than class room courses, all the other three types of courses (blended, self-paced and virtual classroom) available in Learning Manager can be considered as online courses.
 
-On some occasions you are automatically enrolled for training. These courses will appear in COURSES tab.&nbsp;You can search for the course you wish to take and then click Explore and Enroll button on the page.
+On some occasions you are automatically enrolled for training. These courses will appear in COURSES tab. You can search for the course you wish to take and then click Explore and Enroll button on the page.
 
 **Note** 
 In some courses you have to complete initial modules in the designated order as some of them are pre-requisites for the lateral modules.
@@ -338,7 +338,7 @@ In this module, learners can begin and complete a course module according to the
 
 Yes, you can export notes content as pdf by following the steps below:
 
-1. In the Home page, click any course card for which you want to export the Notes.&nbsp;
+1. In the Home page, click any course card for which you want to export the Notes. 
 1. Click Notes tab.
 1. To send notes to your registered email-id, click Email notes option.
 1. To download the notes as pdf, click Download notes.

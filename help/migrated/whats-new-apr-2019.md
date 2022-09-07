@@ -16,11 +16,11 @@ The April 2019 release of Adobe Learning Manager rolls out exciting new features
 
 Adobe Learning Manager introduces Social Learning to its vast repertoire of features. Social learning incorporates the element of peer learning using discussion boards. A feature that allows you with the flexibility to control which users have visibility of which boards and how they participate in them.
 
-The Adobe Learning Manager Desktop App helps learners create content easily from their desktops – webcam videos, audio recordings, screenshots and screen capture recordings. Once learners install the social bookmarklet in their desktop browsers, they can share relevant content that they discover on the Web to these boards with ease.
+The Adobe Learning Manager Desktop App helps learners create content easily from their desktops - webcam videos, audio recordings, screenshots and screen capture recordings. Once learners install the social bookmarklet in their desktop browsers, they can share relevant content that they discover on the Web to these boards with ease.
 
 The app uses gamification to motivate learners and encourage participation.
 
-The AI-powered content moderation is an&nbsp;industry first that you can leverage to drive learning within your organization.
+The AI-powered content moderation is an industry first that you can leverage to drive learning within your organization.
 
 For more information, see [Social Learning](learners/feature-summary/social-learning-web-user.md).
 
@@ -58,13 +58,13 @@ Adobe Learning Manager now allows you to configure multiple attempts for your in
 1. Set a time limit to complete the module.
 1. Lock the content for a specified time between each attempt.
 1. Allow improvement of scores through multiple attempts even after completion.
-1. Stop new attempts once learner completes a module.&nbsp;
+1. Stop new attempts once learner completes a module. 
 
 ![](assets/author-config.png) 
 
 # Import/ Export xAPI statements {#importexportxapistatements}
 
-Capture your learning events from third party services in CSV format and then import them into Learning Manager as xAPI statements. Use FTP connector or Box connector to import xAPI statements into Learning Manager.&nbsp;
+Capture your learning events from third party services in CSV format and then import them into Learning Manager as xAPI statements. Use FTP connector or Box connector to import xAPI statements into Learning Manager. 
 
 To export xAPI statements in Learning Manager use PowerBI connector.
 
@@ -72,7 +72,7 @@ For more information, see [Learning Manager connectors](integration-admin/featur
 
 # QR code to enroll, complete, enroll & complete a course {#qrcodetoenrollcompleteenrollampcompleteacourse}
 
-Adobe Learning Manager provides QR codes for courses. The administrator can print the QR codes to help learners quickly enroll into a course. Similarly, QR codes are available to mark enrollment, completion, and both.&nbsp;
+Adobe Learning Manager provides QR codes for courses. The administrator can print the QR codes to help learners quickly enroll into a course. Similarly, QR codes are available to mark enrollment, completion, and both. 
 
 Learners can simply use the Adobe Learning Manager device application to scan the respective QR code.
 

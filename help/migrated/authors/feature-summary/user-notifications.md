@@ -21,7 +21,7 @@ This pop-up window displays highlights of all the notifications along with time 
 
 You can know the number of latest notifications by the highlighted number displayed on top of the notifications icon. For example, if there are five latest notifications after your previous login, you can see the number five being displayed on top of the notifications icon. These numbers disappear once you read all the latest notifications.
 
-Click&nbsp;**Show all notifications&nbsp;**link at the bottom of the notifications pop-up window to view all the notifications in a separate page.
+Click **Show all notifications **link at the bottom of the notifications pop-up window to view all the notifications in a separate page.
 
 ![](assets/author-notifications-page.png) 
 
@@ -29,6 +29,6 @@ Click&nbsp;**Show all notifications&nbsp;**link at the bottom of the notificatio
 
 ##### `Authors get notifications when the following events trigger:`
 
-1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When the module upload is successful
+1.      When the module upload is successful
 
-2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When a module version is changed
+2.      When a module version is changed

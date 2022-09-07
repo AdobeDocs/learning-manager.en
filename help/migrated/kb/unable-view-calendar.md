@@ -20,7 +20,7 @@ When an Administrator tries to edit the expiry date of an External Enrollment Pr
 The issue occurs due to the following:
 
 * The zoom level of the browser is more than 100%.
-* &nbsp;The scale and layout in the display settings is more than 100%.
+*  The scale and layout in the display settings is more than 100%.
 
 # Resolution
 

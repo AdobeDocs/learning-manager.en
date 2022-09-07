@@ -8,11 +8,11 @@ contentowner: dvenkate
 
 # Embeddable fluidic player {#embeddable-fluidic-player}
 
-Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Read this article to learn how to embed the fluidic player in a custom application.
 
-As an enterprise, you can now provide a custom experience for your learners even outside Learning Manager. Using the public API, you can fetch all the information related to learning objects, learners’ enrollments and learning progress and display them on your website. More importantly, you can even embed the fluidic player of Prime in your website, so that the learner can consume the content right within your website. The fluidic player gives you the power to play any content that Learning Manager supports. When&nbsp;embedded on your own website, it has the exact same capabilities as when used within Learning Manager.
+As an enterprise, you can now provide a custom experience for your learners even outside Learning Manager. Using the public API, you can fetch all the information related to learning objects, learners’ enrollments and learning progress and display them on your website. More importantly, you can even embed the fluidic player of Prime in your website, so that the learner can consume the content right within your website. The fluidic player gives you the power to play any content that Learning Manager supports. When embedded on your own website, it has the exact same capabilities as when used within Learning Manager.
 
 **Play any eLearning content [](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
@@ -20,15 +20,15 @@ The Fluidic player plays virtually any type of eLearning content in the same con
 
 **Notes and Bookmarking**
 
-You can take notes and bookmark any content irrespective of its file type. If you want&nbsp;to make a certain selection from a long file or video, you can bookmark&nbsp;the very points where you have found the information that is relevant to your needs.&nbsp;The notes and bookmarks can be searched or sent  as  email. Clicking on them lands you in the fluidic player exactly at that point of the video, or page of the document.
+You can take notes and bookmark any content irrespective of its file type. If you want to make a certain selection from a long file or video, you can bookmark the very points where you have found the information that is relevant to your needs. The notes and bookmarks can be searched or sent  as  email. Clicking on them lands you in the fluidic player exactly at that point of the video, or page of the document.
 
 For more information on  fluidic  player, see [Fluidic player](../../learners/feature-summary/fluidic-player.md).
 
-Here are some&nbsp;examples of where you can use the&nbsp;embeddable fluidic player.
+Here are some examples of where you can use the embeddable fluidic player.
 
-* You can use the embeddable fluidic player in your** **website to list down the&nbsp;enrolled courses of your employee and also provide a link to launch a training on the same page. This would mean that your learners can consume  trainings &nbsp;on your intranet website.
+* You can use the embeddable fluidic player in your** **website to list down the enrolled courses of your employee and also provide a link to launch a training on the same page. This would mean that your learners can consume  trainings  on your intranet website.
 
-* If you are in the business of training, you may perhaps have a website where your customers purchase courses. You can integrate the embeddable player with the same website so that your customers can consume the content they buy within your&nbsp;website.
+* If you are in the business of training, you may perhaps have a website where your customers purchase courses. You can integrate the embeddable player with the same website so that your customers can consume the content they buy within your website.
 
 ## Steps to embed fluidic player in your website {#stepstoembedfluidicplayerinyourwebsite}
 
@@ -40,7 +40,7 @@ Building a custom application for embedding fluidic player in your website invol
 
 ### 1. Create an application in integration admin {#1createanapplicationinintegrationadmin}
 
-This step is required to create an application/client id and application/client secret which is used to retrieve refresh token and access token. For more information on creating an application, see&nbsp; [Application development process.](developer-manual.md#main-pars_header_994876235)
+This step is required to create an application/client id and application/client secret which is used to retrieve refresh token and access token. For more information on creating an application, see  [Application development process.](developer-manual.md#main-pars_header_994876235)
 
 1. Go to **[!UICONTROL IntegrationAdmin]** app and open **[!UICONTROL Applications]**.  
 
@@ -78,7 +78,7 @@ Here, **[!UICONTROL client id]** is the application id obtained in step 1.
 
 * Retrieve Refresh Token
 
-Once OAuth code is received, refresh token can be retrieved using the received&nbsp;OAuth code, client&nbsp;id, and client secret from the below endpoint:
+Once OAuth code is received, refresh token can be retrieved using the received OAuth code, client id, and client secret from the below endpoint:
 
 **https://captivateprime.adobe.com/oauth/token**
 
@@ -93,7 +93,7 @@ vi. account_id
 
 **2.2 Retrieving access token from refresh token**
 
-To retrieve your access token, send another request with your&nbsp;refresh_token, client_id, and client_secret as a post body to the below URL:
+To retrieve your access token, send another request with your refresh_token, client_id, and client_secret as a post body to the below URL:
 
 **https://captivateprime.adobe.com/oauth/token/refresh**
 
@@ -107,7 +107,7 @@ vi. account_id
 
 ### 3. Retrieve resources using public api {#3retrieveresourcesusingpublicapi}
 
-As the third step, you need to use the access token to retrieve resources from Learning Manager using public  api .&nbsp; Access token  is required to make any public  api  call and is required to be added in the header as exemplified in the sample application.
+As the third step, you need to use the access token to retrieve resources from Learning Manager using public  api .  Access token  is required to make any public  api  call and is required to be added in the header as exemplified in the sample application.
 
 ## Embeddable player {#embeddableplayer}
 
@@ -127,20 +127,20 @@ Example: **https://captivateprime.adobe.com/app/player?lo_id=course:123456&acces
 
 Certifications,  learningPrograms , and  jobAids  can also be played in the embeddable player.
 
-Examples:&nbsp;**https://captivateprime.adobe.com/app/player?lo_id=certification:12345&access_token=c1a4847dfbf4007826a027d481b93c1e  
+Examples: **https://captivateprime.adobe.com/app/player?lo_id=certification:12345&access_token=c1a4847dfbf4007826a027d481b93c1e  
   
 https://captivateprime.adobe.com/app/player?lo_id=learningProgram:12345&access_token=c1a4847dfbf4007826a027d481b93c1e  
   
 https://captivateprime.adobe.com/app/player?lo_id=jobAid:1234&access_token=c1a4847dfbf4007826a027d481b93c1e**
 
-&nbsp; &nbsp; &nbsp;2. Set this URL in the “src” attribute of iframe.
+     2. Set this URL in the “src” attribute of iframe.
 
 **Closing embeddable player**
 
 `code window.addEventListener("message", function closePlayer(){  
-&nbsp; &nbsp;if(event.data === "status:close"){  
-&nbsp; &nbsp; &nbsp;//handle closing event  
-&nbsp; &nbsp;}  
+   if(event.data === "status:close"){  
+     //handle closing event  
+   }  
 });`
 
 # Sample application tutorial {#sampleapplicationtutorial}
@@ -158,27 +158,27 @@ This is an effort that needs to be undertaken by someone from your IT team or an
 
 1. Modify the Learning Manager embedded player URL with parameters which point to the exact learning object that needs to be taken.
 
-   URL:&nbsp; [https://captivateprime.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
+   URL:  [https://captivateprime.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
 
-1. Use any one&nbsp;of these parameters to launch a course:
+1. Use any one of these parameters to launch a course:
 
    * course_id :  This is the id of course to launch
    * learning_program_id :  This is the id of learning program to launch
    * certification_id :  This is the id of certification to launch
    * lo_id : The id of the learning object( course/learning program/certification/job aid) to play  
-     &nbsp;
+      
 
-1. Use&nbsp;access token as a mandatory parameter.
+1. Use access token as a mandatory parameter.
 
-   * access_token : &nbsp;This is the security parameter, use the public API&nbsp; oauth &nbsp; access token
+   * access_token :  This is the security parameter, use the public API  oauth   access token
 
    You can get your token by setting up your embeddable fluidic player in your integration admin. You can get your authentication token which you can be used as your access token.
 
-   Example of created URL;&nbsp;https://captivateprime.adobe.com/app/player?lo_id=”+lo_id+”&access_token=”+accToken
+   Example of created URL; https://captivateprime.adobe.com/app/player?lo_id=”+lo_id+”&access_token=”+accToken
 
-   Here,&nbsp;lo_id will be the id of the course, learning Program,  certification  and  jobAid .
+   Here, lo_id will be the id of the course, learning Program,  certification  and  jobAid .
 
-   Examples of lo_id -&nbsp; course:21324, learningProgram:2143, certification:23432, jobAid:237
+   Examples of lo_id -  course:21324, learningProgram:2143, certification:23432, jobAid:237
 
 1. Make Learning Manager API calls to retrieve the above-mentioned parameters.
 
@@ -188,13 +188,13 @@ This is an effort that needs to be undertaken by someone from your IT team or an
 
    Learning Manager V1 API - [https://captivateprime.adobe.com/docs/primeapi/v1/](https://captivateprime.adobe.com/docs/primeapi/v1/)
 
-   &nbsp;
+    
 
    Learning Manager V2 API - [https://captivateprime.adobe.com/docs/primeapi/v2/](https://captivateprime.adobe.com/docs/primeapi/v2/)
 
    The IDs of the objects differ from the V1 and the V2 API. The embeddable player expects IDs in the v2 format. Use the ID-mapping API in V2 to convert from V1 IDs to V2 IDs.
 
-   After constructing the URL, one way the application would use it for displaying to the learner is by putting it inside an iFrame. Clicking on this link would lead to the fluidic player being launched with the particular course in context.&nbsp;
+   After constructing the URL, one way the application would use it for displaying to the learner is by putting it inside an iFrame. Clicking on this link would lead to the fluidic player being launched with the particular course in context. 
 
    ![](assets/salesforce-player.png)
 
@@ -204,7 +204,7 @@ This is an effort that needs to be undertaken by someone from your IT team or an
 
 Modify the Learning Manager embedded player URL with parameters which point to the exact learning object that needs to be taken.
 
-URL:&nbsp; [https://captivateprime.adobe.com/app/player](https://captivateprime.adobe.com/app/player )
+URL:  [https://captivateprime.adobe.com/app/player](https://captivateprime.adobe.com/app/player )
 
 Any one of these parameters can be used to launch a course:
 
@@ -215,7 +215,7 @@ Any one of these parameters can be used to launch a course:
 
 Mandatory parameter:
 
-* access_token :  This is the security parameter, use the public API  oauth &nbsp; access token
+* access_token :  This is the security parameter, use the public API  oauth   access token
 
 Make Learning Manager API calls to retrieve the above-mentioned parameters. These API calls are to be made by the application that your IT team/consultant would write and host on your site.
 
@@ -223,8 +223,8 @@ More details on using the API can be found here:
 
 Learning Manager V1 API - [https://captivateprime.adobe.com/docs/primeapi/v1/](https://captivateprime.adobe.com/docs/primeapi/v1/)
 
-&nbsp;
+ 
 
-Learning Manager V2 API -&nbsp; [https://captivateprime.adobe.com/docs/primeapi/v2/](https://captivateprime.adobe.com/docs/primeapi/v2/)
+Learning Manager V2 API -  [https://captivateprime.adobe.com/docs/primeapi/v2/](https://captivateprime.adobe.com/docs/primeapi/v2/)
 
-&nbsp;
+ 

@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Authors
+description: Read on to know the Learning Manager features and frequently asked questions associated with Author role.
 contentowner: manochan
 ---
 
@@ -11,16 +12,16 @@ contentowner: manochan
  <tbody>
   <tr> 
    <td><img src="assets/authors2.png"></td> 
-   <td><p>Read on to know the Learning Manager features and frequently asked questions associated with Author role.&nbsp;</p></td> 
+   <td><p>Read on to know the Learning Manager features and frequently asked questions associated with Author role. </p></td> 
   </tr> 
  </tbody>
 </table>
 
-# Frequently Asked Questions (FAQ) {#frequentlyaskedquestionsfaq}
+## Frequently Asked Questions (FAQ) {#frequentlyaskedquestionsfaq}
 
 [Frequently asked questions for Authors role.](authors/frequently-asked-questions-for-authors.md)
 
-# Features {#features}
+## Features {#features}
 
 * [Getting started](authors/feature-summary/getting-started.md)
 * [Catalogs](authors/feature-summary/catalogs.md)

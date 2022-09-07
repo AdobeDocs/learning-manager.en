@@ -20,7 +20,7 @@ As has been previously communicated, Adobe Captivate Prime will be rebranded to 
 
 Adobe Learning Manager (ALM) integrates with Adobe Experience Manager (AEM) sites. This enables you to create your own website and responsive mobile interfaces for Adobe Learning Manager with minimum coding effort. With this integration, you can create customized learning experiences for your users.
 
-For more information, see&nbsp; [**Adobe Learning Manager reference site (ALM reference site) package for AEM Sites**](adobe-learning-manager-integration-aem.md).
+For more information, see  [**Adobe Learning Manager reference site (ALM reference site) package for AEM Sites**](adobe-learning-manager-integration-aem.md).
 
 ### Adobe Commerce Connector
 
@@ -50,7 +50,7 @@ As an Administrators, search for external profiles in the External Users page. I
 
 ### Export feedback
 
-The generateFeedbackReport API produces a feedback report that contains six new fields. They are&nbsp;
+The generateFeedbackReport API produces a feedback report that contains six new fields. They are 
 
 * L1 feedback question #1
 * L1 feedback response #1
@@ -65,15 +65,15 @@ An instructor's comments can now be included as a new column in the exported Exc
 
 ### Extension of character limits
 
-In this release, we have extended the limit to the number of characters in the Title field of a&nbsp;Course, Certificate, and Learning Path to 255.
+In this release, we have extended the limit to the number of characters in the Title field of a Course, Certificate, and Learning Path to 255.
 
 ### Alert message when a message is deleted
 
-An alert message appears when authors try to&nbsp;republish courses/Learning Paths/certifications when the content is modified (added/deleted).
+An alert message appears when authors try to republish courses/Learning Paths/certifications when the content is modified (added/deleted).
 
 ### New column with the comments in excel
 
-As an instructor, you can mark the attendance, provide scores, add and edit comments for a Learner.&nbsp; You can also capture this information as a PDF report once the attendee list is confirmed for any upcoming and past sessions.
+As an instructor, you can mark the attendance, provide scores, add and edit comments for a Learner.  You can also capture this information as a PDF report once the attendee list is confirmed for any upcoming and past sessions.
 
 The easy-to-print pdf displays information as a table with the Learner' name, Email, attendance status, marks scored, and comments.
 
@@ -96,7 +96,7 @@ To share the seats,
 
 1. On the Peer Accounts page, click **Add**.
 1. Enable the checkbox **Share Seats**.
-1. Enter the number of seats that you want to share.&nbsp;This field is optional. If you do not enter the number of seats, then all seats are shared.
+1. Enter the number of seats that you want to share. This field is optional. If you do not enter the number of seats, then all seats are shared.
 
 After you share the seats, the details are listed on the report.
 
@@ -135,7 +135,7 @@ An Administrator can mark any module inside a course for preview. Learners can p
 
 A new setting has been introduced in this release. In the **Admin app > Settings > General**, enable **Module Preview**.
 
-An Author, while creating a course, can mark a module as preview able.&nbsp;
+An Author, while creating a course, can mark a module as preview able. 
 
 The Learner Preview checkbox enables the modules to be marked for preview.
 
@@ -167,11 +167,11 @@ If the learner wants to buy a course, they select **Buy Now**. They are redirect
 
 ### Enhancement of Public APIs
 
-This release significantly enhances all the public learner APIs to support entity caching.&nbsp;
+This release significantly enhances all the public learner APIs to support entity caching. 
 
 Entity caching is a technique to store recently read or written entity instance in memory, which minimizes database access and improves the application performance.
 
-ALM learner APIs now use enhanced caching techniques, and therefore, are more performant. This also means that the response times of the GET APIs are less than what used to be.&nbsp;
+ALM learner APIs now use enhanced caching techniques, and therefore, are more performant. This also means that the response times of the GET APIs are less than what used to be. 
 
 Customers use the learners APIs to create custom headless interfaces. These APIs typically fetch a lot of learner-related data, such as, enrollment, available courses, and so on.
 
@@ -250,18 +250,18 @@ After an author adds a price to a course, in the mobile immersive app, a learner
 
 This update provides an ability to group users based on multi value active fields. This will not impact existing users and can continue to use single value active field.
 
-### Support for multi-value active fields&nbsp;
+### Support for multi-value active fields 
 
-This update introduces the following changes:&nbsp;
+This update introduces the following changes: 
 
-* Support of multi value active fields for User API.&nbsp;
-* The User Group API supports GET /user-groups corresponding to the multi-valued active fields.&nbsp;
+* Support of multi value active fields for User API. 
+* The User Group API supports GET /user-groups corresponding to the multi-valued active fields. 
 * Jobs API User report should have multi value active fields.
-* Add/edit the managed stores of a user.&nbsp;
-* List all managed stores of a user.&nbsp;
+* Add/edit the managed stores of a user. 
+* List all managed stores of a user. 
 * Remove office/store from a specified manage list.
 
-### ECommerce API changes&nbsp;
+### ECommerce API changes 
 
 This update includes the changes below for the responses of the following APIs:
 
@@ -283,7 +283,7 @@ This update includes the changes below for the responses of the following APIs:
 
 The GET /learningObjects API for learners adds two new filter parameters:
 
-* priceRange to return courses that satisfy a specified price range.&nbsp;
+* priceRange to return courses that satisfy a specified price range. 
 * priceFilter for free and paid courses.
 
 ### Recommendation API changes
@@ -292,26 +292,26 @@ The Recommendation API now includes a new filter. The filter.rectype property ha
 
 You must invoke the recommendation API with filter.recType=multi_skill_interest per strip to get all strips data. Within each strip, you can paginate using the next link. The maximum strip size is 5.
 
-For example,&nbsp;&nbsp;
+For example,  
 
 GET /recommendations?filter.loTypes=course&filter.recType=multi_skill_interest &strip=1&page[limit]=10
 
 ### Preview content in player
 
-The learningObjects/{id}&nbsp; API contains the following changes:
+The learningObjects/{id}  API contains the following changes:
 
 * account - Additional boolean flag "enableModulePreview", takes value from 'account_setting_extended.enable_preview'  
 * learningObject - Additional boolean flag "hasPreview", takes value from course.has_preview, certification.has_preview, learning_plan.has_preview
-* learningObjectResourse - Additional boolean flag "previewEnabled", takes value from 'course_module.is_preview'&nbsp;
+* learningObjectResourse - Additional boolean flag "previewEnabled", takes value from 'course_module.is_preview' 
 * resource - contentZipUrl, location and contentStructureInfoUrl will come in api response if 'account_setting_extended.enable_preview' is true and module is preview able regardless of enrollment.
 
 ### Information about mandatory modules
 
-With the help loResourceCompletionCount&nbsp; API, you can build a workflow with minimum completion criteria by defining the number of modules to be completed.
+With the help loResourceCompletionCount  API, you can build a workflow with minimum completion criteria by defining the number of modules to be completed.
 
 ### Mark User Notification in bulk
 
-The primeapi API now enables you to mark User Notifications as read in bulk.&nbsp;
+The primeapi API now enables you to mark User Notifications as read in bulk. 
 
 `primeapi/v2/users/<user>/userNotificationsMarkRead`
 
@@ -355,20 +355,20 @@ In this update, we have changed the format of the ID for the loResourceGrades AP
 
 * An Administrator can now search for all external users or partner accounts.
 
-&nbsp;
+ 
 
 ## Release Notes {#releasenotes}
 
-For information regarding current and previous releases of Learning Manager web app and device app, see the&nbsp; [***Release notes***](release-note/release-notes.md).
+For information regarding current and previous releases of Learning Manager web app and device app, see the  [***Release notes***](release-note/release-notes.md).
 
 ## Bug fixes {#bugfixes}
 
-To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed***](release-note/release-notes.md#bug-fixes-alm)&nbsp;list.
+To see the bugs that are fixed in this update, refer to the  [***Bugs fixed***](release-note/release-notes.md#bug-fixes-alm) list.
 
 ## Known issues {#knownissues}
 
 * In an AEM website, a flexible Learning Program always appears as a fixed Learning Program. This is as designed since a flexible Learning Program is not supported in AEM.
-* Unable to retake a course with multiple attempts&nbsp;if you have failed the course.
+* Unable to retake a course with multiple attempts if you have failed the course.
 * If the value of a multi-valued active field contains a delimiter, for example, comma, the value gets separated as two distinct values, and the user will be present in both the user groups.
 * In the Learner app, redirection from the calendar widget does not always occur as expected. Instead of the user getting navigated to an instance, they are unable to do so.
 
@@ -390,7 +390,7 @@ To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed
  <tbody>
   <tr> 
    <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
   </tr> 
  </tbody>
 </table>

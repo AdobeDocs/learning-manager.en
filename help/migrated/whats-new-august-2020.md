@@ -10,22 +10,22 @@ contentowner: jayakarr
 
 Learn about the new features and enhancements in Adobe Learning Manager
 
-The **August 2020** **release of Adobe Learning Manager**&nbsp;focuses on enhancing Administrator’s reporting capabilities by offering pre-configured reports that cover important aspects of the platform.
+The **August 2020** **release of Adobe Learning Manager** focuses on enhancing Administrator’s reporting capabilities by offering pre-configured reports that cover important aspects of the platform.
 
-In addition, there are many useful features around content management, APIs and more. Read on to find out more.&nbsp;
+In addition, there are many useful features around content management, APIs and more. Read on to find out more. 
 
 # What's new and changed {#whatsnewandchanged}
 
 <table> 
  <tbody>
   <tr> 
-   <td> <img src="assets/reporting-enhancements-100.jpg"><h3 id="Reportingenhancements">Reporting enhancements</h3><p>Administrators can now view ready-made reports to view the overall activity in the account. It helps the Administrator immensely to gauge the health of the account in three major aspects:&nbsp;&nbsp;</p> 
+   <td> <img src="assets/reporting-enhancements-100.jpg"><h3 id="Reportingenhancements">Reporting enhancements</h3><p>Administrators can now view ready-made reports to view the overall activity in the account. It helps the Administrator immensely to gauge the health of the account in three major aspects:  </p> 
     <ul> 
-     <li>Learning Summary&nbsp;<br></li> 
-     <li>User Activity&nbsp;<br></li> 
-     <li>Training content&nbsp;<br></li> 
+     <li>Learning Summary <br></li> 
+     <li>User Activity <br></li> 
+     <li>Training content <br></li> 
     </ul> <p>For more information, see <a disablelinktracking="false" href="administrators/feature-summary/reports.md#dashboards" target="_blank"><em><strong>Dashboards in Learning Manager</strong></em></a>.</p></td> 
-   <td> <img src="assets/private-content-folders-100.jpg"><h3 id="PrivateContentFolders">Private Content Folders</h3><p>All contents of the Content Library in Learning Manager&nbsp;are&nbsp;always visible to all authors, including custom authors. With this release,&nbsp;Administrator can configure private content folders and provide its access to specific custom-authors using Custom Roles.&nbsp;Thus, an Administrator can control the visibility of the content in the Content Library to specific authors as needed.</p> <p>For more information, see the following:</p> 
+   <td> <img src="assets/private-content-folders-100.jpg"><h3 id="PrivateContentFolders">Private Content Folders</h3><p>All contents of the Content Library in Learning Manager are always visible to all authors, including custom authors. With this release, Administrator can configure private content folders and provide its access to specific custom-authors using Custom Roles. Thus, an Administrator can control the visibility of the content in the Content Library to specific authors as needed.</p> <p>For more information, see the following:</p> 
     <ul> 
      <li><a disablelinktracking="false" href="administrators/feature-summary/settings.md#content-folder" target="_blank"><em><strong>Create a content folder</strong></em></a></li> 
      <li><a disablelinktracking="false" href="authors/feature-summary/content-library.md#add-folder" target="_blank"><strong><em>Add content to folder</em></strong></a></li> 
@@ -38,22 +38,22 @@ In addition, there are many useful features around content management, APIs and 
 <table> 
  <tbody>
   <tr> 
-   <td> <img src="assets/custom-ftp-100.jpg"><h3 id="CustomFTP">Custom FTP</h3><p>Learning Manager already supports FTP services&nbsp;like&nbsp;Exavault and Box. In this update, Learning Manager provides the ability to connect to a customer’s own custom FTP location.&nbsp;Custom&nbsp;FTP will support these:</p> 
+   <td> <img src="assets/custom-ftp-100.jpg"><h3 id="CustomFTP">Custom FTP</h3><p>Learning Manager already supports FTP services like Exavault and Box. In this update, Learning Manager provides the ability to connect to a customer’s own custom FTP location. Custom FTP will support these:</p> 
     <ul> 
-     <li><strong>Data Import:</strong>&nbsp;The Data import process allows Learning Manager Administrator to fetch employee details,&nbsp;xAPI&nbsp;activity statements from customers FTP location, and import them into Learning Manager automatically.</li> 
-     <li><strong>Data Export:</strong>&nbsp;The Data Export allows users to export user skills, learner transcript, and&nbsp;xAPI&nbsp;activity report to customer FTP location.</li> 
-     <li><strong>Scheduling:</strong>&nbsp;The Administrator can set up scheduling tasks in the Learning Manager application to enable up-to-date user information.</li> 
+     <li><strong>Data Import:</strong> The Data import process allows Learning Manager Administrator to fetch employee details, xAPI activity statements from customers FTP location, and import them into Learning Manager automatically.</li> 
+     <li><strong>Data Export:</strong> The Data Export allows users to export user skills, learner transcript, and xAPI activity report to customer FTP location.</li> 
+     <li><strong>Scheduling:</strong> The Administrator can set up scheduling tasks in the Learning Manager application to enable up-to-date user information.</li> 
     </ul> <p>For more information, see <a disablelinktracking="false" href="integration-admin/feature-summary/connectors.md#custom-ftp" target="_blank"><strong><em>Configure custom FTP</em></strong></a>.</p></td> 
-   <td> <img src="assets/caption-support-forvideos-100.jpg"><h3 id="Captionsupportforvideos">Caption support for videos</h3><p>Learning Manager&nbsp;now&nbsp;supports captions for video content uploaded in Learning Manager. Now, authors can upload the file containing captions, along with the video file.&nbsp;Then, the learners can view the captions during the playback of the video module.&nbsp;</p> <p>The format supported is&nbsp;<a href="https://www.w3.org/TR/webvtt1/">Web Video Text Tracks (webVTT)</a>.</p> <p>Caption support is available for video&nbsp;and audio&nbsp;content&nbsp;files&nbsp;uploaded in Content library in Learning Manager.</p> <p>For more information, see <a disablelinktracking="false" href="authors/feature-summary/content-library.md#webvtt" target="_blank"><strong><em>Support for WebVTT format</em></strong></a>.</p></td> 
+   <td> <img src="assets/caption-support-forvideos-100.jpg"><h3 id="Captionsupportforvideos">Caption support for videos</h3><p>Learning Manager now supports captions for video content uploaded in Learning Manager. Now, authors can upload the file containing captions, along with the video file. Then, the learners can view the captions during the playback of the video module. </p> <p>The format supported is <a href="https://www.w3.org/TR/webvtt1/">Web Video Text Tracks (webVTT)</a>.</p> <p>Caption support is available for video and audio content files uploaded in Content library in Learning Manager.</p> <p>For more information, see <a disablelinktracking="false" href="authors/feature-summary/content-library.md#webvtt" target="_blank"><strong><em>Support for WebVTT format</em></strong></a>.</p></td> 
   </tr> 
  </tbody>
 </table>
 
 ## Power BI integration {#powerbiintegration}
 
-Learning Manager now provides a way to export multiple reports like User data, Learner Transcript, Gamification, Feedback reports and more, as a unified dataset to Power BI. This allows Power BI users to merge the data from multiple reports to present much powerful analytics and visualizations in Power BI.&nbsp;
+Learning Manager now provides a way to export multiple reports like User data, Learner Transcript, Gamification, Feedback reports and more, as a unified dataset to Power BI. This allows Power BI users to merge the data from multiple reports to present much powerful analytics and visualizations in Power BI. 
 
-To help you leverage the power of unified reports, Learning Manager also offers some examples of Power BI templates which you can readily download and use in Power BI. Note that these are example templates to get you started. Learning Manager may not add new templates in the future.&nbsp;
+To help you leverage the power of unified reports, Learning Manager also offers some examples of Power BI templates which you can readily download and use in Power BI. Note that these are example templates to get you started. Learning Manager may not add new templates in the future. 
 
 For more information, see [***Unified reports in Power BI***](integration-admin/feature-summary/connectors.md#unified-reports).
 
@@ -61,71 +61,71 @@ For more information, see [***Unified reports in Power BI***](integration-admin/
 
 ### Consolidated Feedback Reports {#consolidatedfeedbackreports}
 
-As an Administrator, you can now&nbsp;export&nbsp;both Learner feedback (L1) and Manager feedback (L3) for selected trainings for a specified period.&nbsp;
+As an Administrator, you can now export both Learner feedback (L1) and Manager feedback (L3) for selected trainings for a specified period. 
 
 You can export the data from the UI or to Power BI for more in-depth analysis. For more information, see [***Consolidated feedback reports***](administrators/feature-summary/reports.md#feedback-report).
 
 ### L1 feedback at account level {#l1feedbackataccountlevel}
 
-In earlier versions of Learning Manager, an Administrator had to enable L1 feedback for each&nbsp;course&nbsp;or Learning Program&nbsp;manually.
+In earlier versions of Learning Manager, an Administrator had to enable L1 feedback for each course or Learning Program manually.
 
-In this release, the Administrator can,&nbsp;by default&nbsp;enable L1 feedback for all newly created courses or Learning Programs.
+In this release, the Administrator can, by default enable L1 feedback for all newly created courses or Learning Programs.
 
 If enabled, all new trainings and new instances will have the feedback enabled by default. In case an author/admin visits the instance, instance defaults and switches it off manually, then it gets honored.
 
-For more information, see&nbsp; [***Enable L1 feedback at account level***](administrators/feature-summary/courses.md#L1-feedback-account-level).
+For more information, see  [***Enable L1 feedback at account level***](administrators/feature-summary/courses.md#L1-feedback-account-level).
 
 ### L1 feedback at course level {#l1feedbackatcourselevel}
 
 In previous versions of Learning Manager, an Administrator could enable L1 feedback for the Learning Program.
 
-In this release of Learning Manager, the Administrator can send L1 feedback for all the courses that are part of the Learning Program. The Administrator must ensure that L1 feedback is enabled for all the courses at the course instance level&nbsp;as well.
+In this release of Learning Manager, the Administrator can send L1 feedback for all the courses that are part of the Learning Program. The Administrator must ensure that L1 feedback is enabled for all the courses at the course instance level as well.
 
 For more information, see [***Enable L1 feedback at course level***](administrators/feature-summary/courses.md#L1-feedback-course-level).
 
 ### Mandatory L1 feedback {#mandatoryl1feedback}
 
-In earlier versions of Learning Manager, when a learner&nbsp;received&nbsp;an L1 feedback form, only the&nbsp;first&nbsp;question in the form was mandatory.
+In earlier versions of Learning Manager, when a learner received an L1 feedback form, only the first question in the form was mandatory.
 
 In this release of Learning Manager, you can make all questions or the first question mandatory in an L1 feedback.
 
-For more information, see&nbsp; [***Mandatory L1 feedback***](administrators/feature-summary/courses.md#mandatory-L1-feedback).
+For more information, see  [***Mandatory L1 feedback***](administrators/feature-summary/courses.md#mandatory-L1-feedback).
 
 ## Instructor comments for rejection of an activity {#instructorcommentsforrejectionofanactivity}
 
-In earlier versions of Learning Manager, instructors could mark activity submissions as accepted or rejected. An instructor can provide comments only if there is rejection and not on acceptance.&nbsp;
+In earlier versions of Learning Manager, instructors could mark activity submissions as accepted or rejected. An instructor can provide comments only if there is rejection and not on acceptance. 
 
 In this release of Learning Manager, a learner can see the comment of an instructor in the notification that is sent for rejection. The learner can then re-submit by providing more information in the form of comments.
 
-For more information, see&nbsp; [***Instructor comments for rejection of an activity***](instructors/feature-summary/modules.md#rejection-comments).
+For more information, see  [***Instructor comments for rejection of an activity***](instructors/feature-summary/modules.md#rejection-comments).
 
 ## Download posts in social {#downloadpostsinsocial}
 
 Learners can download the content, with attachments, from Social Learning Platform, so that they can use this content offline.
 
-For more information, see&nbsp; [***Download posts in social learning***](learners/feature-summary/social-learning-web-user.md#downloadposts).
+For more information, see  [***Download posts in social learning***](learners/feature-summary/social-learning-web-user.md#downloadposts).
 
 ## Manager Notifications for Learner course Approval {#managernotificationsforlearnercourseapproval}
 
-When attempting to approve or reject a learner’s request to enroll for a Manager Approval type course, a manager can now view the details of the&nbsp;exact&nbsp;session&nbsp;to which learner has enrolled into.&nbsp;
+When attempting to approve or reject a learner’s request to enroll for a Manager Approval type course, a manager can now view the details of the exact session to which learner has enrolled into. 
 
-This helps the Manager to take better decision of approving or rejecting&nbsp;the request.
+This helps the Manager to take better decision of approving or rejecting the request.
 
-For more information, see&nbsp; [***Manager Notifications for Learner course Approval***](managers/feature-summary/learning-objects.md#manager-notifications-course-approval).
+For more information, see  [***Manager Notifications for Learner course Approval***](managers/feature-summary/learning-objects.md#manager-notifications-course-approval).
 
 ## Export user Active Fields, metadata in user report {#exportuseractivefieldsmetadatainuserreport}
 
-In this update, you can export all user data that includes&nbsp;user attribute values and metadata as a csv.
+In this update, you can export all user data that includes user attribute values and metadata as a csv.
 
 ## Active Fields {#activefields}
 
-An Administrator can now configure the order in which Active Fields are populated to the learner post login.&nbsp;
+An Administrator can now configure the order in which Active Fields are populated to the learner post login. 
 
-Drag and drop the active fields in&nbsp;**Admin > Users > Active Fields**, to change the order.
+Drag and drop the active fields in **Admin > Users > Active Fields**, to change the order.
 
 ## Adobe Connect Connector {#adobeconnectconnector}
 
-While setting up Adobe Connect Virtual session in Learning Manager, Learning Manager fetches the list of Connect hosts from Adobe Connect,&nbsp;and makes&nbsp;it available as Instructors. This way, it was required that these users are also a part of Learning Manager so that they get the Instructor role.&nbsp;&nbsp;
+While setting up Adobe Connect Virtual session in Learning Manager, Learning Manager fetches the list of Connect hosts from Adobe Connect, and makes it available as Instructors. This way, it was required that these users are also a part of Learning Manager so that they get the Instructor role.  
 
 With this release, Learning Manager now also allows you to add Prime users as Instructors while setting up Connect session. This way, you can add multiple Instructors, one having Connect host access and other having Learning Manager access.
 
@@ -133,25 +133,25 @@ With this release, Learning Manager now also allows you to add Prime users as In
 
 Catalog Labels are custom fields that can be added to learning objects in Prime, when an Admin enables this feature. They are visible only to Admins and Authors.
 
-In this release of Learning Manager,&nbsp;Catalog Labels are returned in the response model of Learning Objects for both Admins and learners.
+In this release of Learning Manager, Catalog Labels are returned in the response model of Learning Objects for both Admins and learners.
 
 # API enhancements {#apienhancements}
 
 ## Social learning API {#sociallearningapi}
 
-Learning Manager already supports Social Learning, a way for learners to collaborate and share information with their peers.&nbsp;
+Learning Manager already supports Social Learning, a way for learners to collaborate and share information with their peers. 
 
 In this update, Learning Manager plans to make Social Learning APIs available publicly. It means users who have built custom (headless LMS) experience for their users can now also build Social Learning experience within their custom headless solutions.
 
 ## Redeem Gamification point API {#redeemgamificationpointapi}
 
-Learning Manager now provides an API to&nbsp;record&nbsp;the gamification points redeemed by the learner externally. This helps the Administrator to maintain a separate record of points redeemed. Now total points earned due to gamification and redeemed externally can thus be fetched using Learning Manager APIs.
+Learning Manager now provides an API to record the gamification points redeemed by the learner externally. This helps the Administrator to maintain a separate record of points redeemed. Now total points earned due to gamification and redeemed externally can thus be fetched using Learning Manager APIs.
 
-Note that posting a record of&nbsp;the points redeemed using API does not reduce the total gamification points earned by the learner in the Learning Manager platform.&nbsp;
+Note that posting a record of the points redeemed using API does not reduce the total gamification points earned by the learner in the Learning Manager platform. 
 
 ## Jobs API {#jobs-api-export}
 
-Learning Manager already supports Jobs API to export reports like badge PDF and learner transcript for learner role etc. Here are the new reports now available using the jobs API.&nbsp;
+Learning Manager already supports Jobs API to export reports like badge PDF and learner transcript for learner role etc. Here are the new reports now available using the jobs API. 
 
 Note that these are Admin level reports.
 
@@ -308,7 +308,7 @@ User export
 
 The Job API for user export also exports the metadata as csv fields.
 
-Each account admin is now limited to&nbsp;five&nbsp;API calls per day&nbsp;for a single job API.&nbsp;&nbsp;If a job&nbsp;API is in progress,&nbsp;you cannot submit&nbsp;another request.
+Each account admin is now limited to five API calls per day for a single job API.  If a job API is in progress, you cannot submit another request.
 
 ## Public API {#publicapi}
 
@@ -320,12 +320,12 @@ POST
 
 **Endpoint**
 
-*primeapi/v2/enrollment?loId=<>&loInstanceId=<>&nbsp;*
+*primeapi/v2/enrollment?loId=<>&loInstanceId=<> *
 
 **Query parameters**
 
-* **loId:&nbsp;**learningobject&nbsp;id according to public&nbsp;api&nbsp;conventions&nbsp;
-* **loInstanceId:&nbsp;**learningobject&nbsp;instance id according to public&nbsp;api&nbsp;conventions&nbsp;
+* **loId:** learningobject id according to public api conventions 
+* **loInstanceId:** learningobject instance id according to public api conventions 
 
 **Payload**
 
@@ -355,7 +355,7 @@ enrollmentId
 }
 ```
 
-The learner should also provide LP id and LP instance&nbsp;id in&nbsp;the&nbsp;query. This&nbsp;operation is only limited to flexi Learning Plans.
+The learner should also provide LP id and LP instance id in the query. This operation is only limited to flexi Learning Plans.
 
 ## Learner API {#learnerapi}
 
@@ -516,73 +516,73 @@ Provide enrollment ids for L1 feedback.
 
 ### Changes in column names {#changesincolumnnames}
 
-In earlier versions of Learning Manager, Learner Transcript columns&nbsp;Quiz score&nbsp;and&nbsp;Highest quiz score&nbsp;used to provide the score and maximum score in the format 25/100.
+In earlier versions of Learning Manager, Learner Transcript columns Quiz score and Highest quiz score used to provide the score and maximum score in the format 25/100.
 
-To support better readability and analysis, quiz score is now also exported as separate columns -&nbsp;**Quiz_score**,&nbsp;**Quiz_score_max**,&nbsp;**Highest_Quiz_score**, and **Highest_Quiz_score_max**. These allow Admins to make quick calculations and analysis.
+To support better readability and analysis, quiz score is now also exported as separate columns - **Quiz_score**, **Quiz_score_max**, **Highest_Quiz_score**, and **Highest_Quiz_score_max**. These allow Admins to make quick calculations and analysis.
 
-A future release will remove the legacy columns&nbsp;Quiz Score, Highest Quiz score,&nbsp;which export the data in the format 25/100, converted to a double or float. It's recommended to rely on newly added columns for any further analysis.&nbsp;
+A future release will remove the legacy columns Quiz Score, Highest Quiz score, which export the data in the format 25/100, converted to a double or float. It's recommended to rely on newly added columns for any further analysis. 
 
 ### Number of rows {#numberofrows}
 
-While generating a Skill transcript along with Learner transcript, if the number of rows in Learner Transcript and/or Skill transcript exceed&nbsp;500,000, then Prime will not generate an excel file of xlsx format.
+While generating a Skill transcript along with Learner transcript, if the number of rows in Learner Transcript and/or Skill transcript exceed 500,000, then Prime will not generate an excel file of xlsx format.
 
 Instead, Prime will generate a ZIP file containing multiple .csv files. In such a case, pivot tables will not be created.
 
 ## Content Library {#contentlibrary}
 
-This release introduces&nbsp;**Private Content Folder**.&nbsp;
+This release introduces **Private Content Folder**. 
 
 Immediately after the release, Authors can continue to use the features without any visible and functional changes. As soon as Administrators create a new private folder (**Administrator view > Settings > Content Folders**), Learning Manager creates a default folder called ‘Public’. All existing content in content library will now reside in ‘Public’ and will be visible to all authors, full authors, as well as custom authors.
 
 ## Data retention policy for Exavault and Box FTP services {#dataretentionpolicyforexavaultandboxftpservices}
 
-Learning Manager supports FTP (file storage and transfer) services provided by Exavault and Box. It provides out of the box connectors to establish a connection with these FTP servers. These connectors are used for importing user data or learning data from other connectors, like,&nbsp;GetAbstract. These connectors can also be used for exporting data from Prime to FTP locations.&nbsp;
+Learning Manager supports FTP (file storage and transfer) services provided by Exavault and Box. It provides out of the box connectors to establish a connection with these FTP servers. These connectors are used for importing user data or learning data from other connectors, like, GetAbstract. These connectors can also be used for exporting data from Prime to FTP locations. 
 
 As of today, the data which resides on Exavault / Box folders is not removed. With the new data retention policy, Learning Manager will be deleting the data available on these FTP locations according to the rules defined below:
 
-* **Data import:**&nbsp;Data will be removed from FTP locations&nbsp;as soon as the data gets imported&nbsp;successfully.&nbsp;
-* **Data export:&nbsp;**Data will be removed from the FTP location&nbsp;seven days after the file is exported.&nbsp;
-* **Migration:&nbsp;**Learning Manager will maintain a ‘Last used date’ for all files in the FTP location. Files having&nbsp;‘Last used date’ as 7 days from the current date,&nbsp;will be removed.&nbsp;
+* **Data import:** Data will be removed from FTP locations as soon as the data gets imported successfully. 
+* **Data export:** Data will be removed from the FTP location seven days after the file is exported. 
+* **Migration:** Learning Manager will maintain a ‘Last used date’ for all files in the FTP location. Files having ‘Last used date’ as 7 days from the current date, will be removed. 
 
-Data retention policy&nbsp;will be implemented from 31st October 2020.&nbsp;
+Data retention policy will be implemented from 31st October 2020. 
 
-Some of the implications of this policy are listed below.&nbsp;
+Some of the implications of this policy are listed below. 
 
 * All old files currently present in these FTP locations will be deleted as per the data retention policy. So, users are encouraged to back up any files in their Exavault/Box accounts, as required.
 * If you have any manual/automated process that places files in Exavault/Box for data import or migration, ensure that you have a backup before the file is imported into Prime, because Prime will delete the file. This is important if you want to retry the import for any reason later.
 * If you have any manual/automated process that reads exported data files in Exavault/Box, ensure that they are consumed within the time allowed by the data retention policy. You can copy these files into your own storage locations as a backup if required.
 
-## Custom Roles – via CSV import {#customrolesviacsvimport}
+## Custom Roles - via CSV import {#customrolesviacsvimport}
 
-If you are using the&nbsp;Custom Role creation and assignment through CSV, you must update your existing CSVs before uploading again.&nbsp;
+If you are using the Custom Role creation and assignment through CSV, you must update your existing CSVs before uploading again. 
 
-We have added a new entry “**Account Summary Report**” which can be offered to custom-role only if the user-group&nbsp;and Catalog&nbsp;scope&nbsp;is “**All user groups**” and “**All Catalogs**” respectively.&nbsp;
+We have added a new entry “**Account Summary Report**” which can be offered to custom-role only if the user-group and Catalog scope is “**All user groups**” and “**All Catalogs**” respectively. 
 
-“Account Summary Report” entry is now mandatory and supports a value of “FULL” or “NONE”.&nbsp;
+“Account Summary Report” entry is now mandatory and supports a value of “FULL” or “NONE”. 
 
 FULL indicates, enable this feature for the custom role.
 
-NONE indicates, do not enable this feature for the custom role.&nbsp;
+NONE indicates, do not enable this feature for the custom role. 
 
-To make sure the Custom Role CSV continues to work, please add “Account Summary Report” entry to the CSV file.&nbsp;
+To make sure the Custom Role CSV continues to work, please add “Account Summary Report” entry to the CSV file. 
 
 ## Reports {#reports}
 
-The&nbsp;**Learning Summary**&nbsp;will now appear when, as an Admin&nbsp;you click&nbsp;on&nbsp;Reports.&nbsp;Earlier it used to take Administrator to the ‘**Excel reports**’ tab. Legacy reports like the Dashboard reports, Excel reports are available in&nbsp;Custom Reports.&nbsp;
+The **Learning Summary** will now appear when, as an Admin you click on Reports. Earlier it used to take Administrator to the ‘**Excel reports**’ tab. Legacy reports like the Dashboard reports, Excel reports are available in Custom Reports. 
 
 ## Adobe Connect {#adobeconnect}
 
-While setting up Connect sessions, earlier Admin,&nbsp;Author were able to fetch only Connect host users to add as Instructors in Learning Manager. Now&nbsp;you can&nbsp;get two lists in the typeahead – Connect users and Learning Manager users.&nbsp;&nbsp;If the same user (email) is a part of both systems Adobe Connect and Learning Manager, then the user will reflect in both lists. Picking from any list will ensure he/she&nbsp;becomes&nbsp;Connect&nbsp;host as well as Instructor in Learning Manager.&nbsp;
+While setting up Connect sessions, earlier Admin, Author were able to fetch only Connect host users to add as Instructors in Learning Manager. Now you can get two lists in the typeahead - Connect users and Learning Manager users.  If the same user (email) is a part of both systems Adobe Connect and Learning Manager, then the user will reflect in both lists. Picking from any list will ensure he/she becomes Connect host as well as Instructor in Learning Manager. 
 
-As this functionality is enhanced,&nbsp;you&nbsp;should expect a modified type-ahead functionality.&nbsp;
+As this functionality is enhanced, you should expect a modified type-ahead functionality. 
 
 # Release Notes {#releasenotes}
 
-For information regarding current and previous releases of Learning Manager web app and device app, see the&nbsp; [***Release notes***](release-note/release-notes.md).
+For information regarding current and previous releases of Learning Manager web app and device app, see the  [***Release notes***](release-note/release-notes.md).
 
 # Bug fixes {#bugfixes}
 
-To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed***](release-note/release-notes.md#bug-fixes)&nbsp;list.
+To see the bugs that are fixed in this update, refer to the  [***Bugs fixed***](release-note/release-notes.md#bug-fixes) list.
 
 # Known issues {#knownissues}
 
@@ -603,7 +603,7 @@ To see the known issues in this update, refer to [***Known issues***](release-no
  <tbody>
   <tr> 
    <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
   </tr> 
  </tbody>
 </table>

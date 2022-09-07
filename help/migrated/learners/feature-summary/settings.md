@@ -37,7 +37,7 @@ Read this article to know how to set learner profile settings and add a profile 
 
 ## Unsubscribe from digest emails {#unsubscribefromdigestemails}
 
-When you receive a mail,&nbsp;you can unsubscribe from the digest email by clicking the **Unsubscribe **link at the bottom of the email.
+When you receive a mail, you can unsubscribe from the digest email by clicking the **Unsubscribe **link at the bottom of the email.
 
 After you click **Unsubscribe**, you are redirected to your **Profile Settings** page, where you can disable the option to receive emails.
 
@@ -53,11 +53,11 @@ A digest email consists of the following sections:
   </tr> 
   <tr> 
    <td><p>Personal Training Summary</p></td> 
-   <td><p>This section personalizes a learner’s training metrics by mentioning the number of minutes spent on trainings.</p><p>Based on the time spent by the learner, the content is customized according to the rules defined below:</p><p>If (time_spent) &gt;= 60 minutes, then the following text appears:</p><p><i>“During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are some recommendations to enable you to learn more.”&nbsp;</i></p><p>&nbsp;If (time_spent) &lt; 60 mins, then the following text appears:</p><p><i>“During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are a few recommendations that we hope you may find useful to get started and keep going.”</i></p></td> 
+   <td><p>This section personalizes a learner’s training metrics by mentioning the number of minutes spent on trainings.</p><p>Based on the time spent by the learner, the content is customized according to the rules defined below:</p><p>If (time_spent) &gt;= 60 minutes, then the following text appears:</p><p><i>“During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are some recommendations to enable you to learn more.” </i></p><p> If (time_spent) &lt; 60 mins, then the following text appears:</p><p><i>“During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are a few recommendations that we hope you may find useful to get started and keep going.”</i></p></td> 
   </tr> 
   <tr> 
    <td><p>Training Activity</p></td> 
-   <td><p>This section displays the organization-level summary of training activity for that account.</p><p>The training activity summary consists of the following:&nbsp;</p> 
+   <td><p>This section displays the organization-level summary of training activity for that account.</p><p>The training activity summary consists of the following: </p> 
     <ul> 
      <li>Number of trainings available in the account.</li> 
      <li>Number of co-learners who have been actively consuming the training activities.</li> 
@@ -67,7 +67,7 @@ A digest email consists of the following sections:
   </tr> 
   <tr> 
    <td><p>Recommended courses</p></td> 
-   <td><p>This is a personalized section that includes the recommended trainings for learners. In this section, a learner can see three trainings that were picked by the Recommendation engine.</p><p>Each training has an Explore button, which when clicked, will redirect to the home page of Learner app.&nbsp;&nbsp;</p></td> 
+   <td><p>This is a personalized section that includes the recommended trainings for learners. In this section, a learner can see three trainings that were picked by the Recommendation engine.</p><p>Each training has an Explore button, which when clicked, will redirect to the home page of Learner app.  </p></td> 
   </tr> 
   <tr> 
    <td><p>Leaderboard</p></td> 
@@ -86,9 +86,9 @@ A digest email consists of the following sections:
 
 # Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1.&nbsp;How to download a Learner Transcript as learner?**
+**1. How to download a Learner Transcript as learner?**
 
-On the upper-right corner, click your **user profile > Profile Settings**. On the dialog that appears, click&nbsp;**Download My Learning Transcript (XLS)**.
+On the upper-right corner, click your **user profile > Profile Settings**. On the dialog that appears, click **Download My Learning Transcript (XLS)**.
 
 ![](assets/dowload-lt.png)
 

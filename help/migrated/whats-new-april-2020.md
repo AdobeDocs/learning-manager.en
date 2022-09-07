@@ -17,13 +17,13 @@ The April 2020 release of Adobe Learning Manager consists of performance enhance
 This release focuses on performance and scalability of the entire platform. This release includes several architecture-level enhancements to boost the performance and reliability of the platform. Some of the areas where Administrators and Learners should see improvements are:
 
 * **Synchronous completion:** Sometimes learners used to experience a delay of few seconds in getting their training marked as completed. Learners can now see the completion information as soon as the training is completed.
-* **Faster bulk workflows: **Workflows like enrollments, unenrolments, mark-completion for many users in bulk are now processed faster. Enrollments are five times as faster depending on the scenario.
+* **Faster bulk workflows:** Workflows like enrollments, unenrolments, mark-completion for many users in bulk are now processed faster. Enrollments are five times as faster depending on the scenario.
 * **Faster email processing:** Emails are now processed faster. This means that users get their emails, like enrollment emails, reminder emails sooner once the action is triggered.
 
 # Classroom training {#classroom}
 
 * In the **Learner** page of the Instructor app, learners are now displayed in an ascending order. The list is also reversible. If the list is downloaded as PDF, the order is maintained.
-* As an Admin, you can now export the attendance details of a training as a PDF. For&nbsp; more information, see [***Export attendance***](administrators/feature-summary/courses.md#attendance).&nbsp;The session time mentioned in the Learner list PDF (roster sheet) for instructors was always in UTC. Now the session time is displayed as the time zone in which the session is configured.
+* As an Admin, you can now export the attendance details of a training as a PDF. For  more information, see [***Export attendance***](administrators/feature-summary/courses.md#attendance). The session time mentioned in the Learner list PDF (roster sheet) for instructors was always in UTC. Now the session time is displayed as the time zone in which the session is configured.
 * To avoid duplicate names, a learner’s email id now displays as tooltip in the instructor app.
 
 # Manager workflows {#manager}
@@ -33,7 +33,7 @@ This release focuses on performance and scalability of the entire platform. This
 
 # Social learning {#social}
 
-* A learner who also has an&nbsp;admin&nbsp;role can add a user group to a private board. Any user group can be added to the private board and the users belonging to the user group only has access to the board. For more information, see&nbsp; [***Board visible only to selected users***](learners/feature-summary/social-learning-web-user.md#selected-users).  
+* A learner who also has an admin role can add a user group to a private board. Any user group can be added to the private board and the users belonging to the user group only has access to the board. For more information, see  [***Board visible only to selected users***](learners/feature-summary/social-learning-web-user.md#selected-users).  
 
 * Admins can add dynamic user groups while setting up private boards. For more information, see [***Set up a private board***](learners/feature-summary/social-learning-web-user.md#createboard).  
 
@@ -41,8 +41,8 @@ This release focuses on performance and scalability of the entire platform. This
 
 # Reporting {#reporting}
 
-* Custom Admins and Administrators can now download gamification reports, which wasn’t the case in earlier versions. The Gamification transcript now contains the gamification level the user is at, and the date on which the user had achieved the level.&nbsp; The dates for the levels achieved would appear only if a learner completes any activity after this release. For more information, see&nbsp; [***Add gamification report to a custom role***](administrators/feature-summary/custom-role.md#gamification-custom).
-* Learning Manager now provides Administrators a history of the learner transcript downloads requests performed in the account. This allows Administrators to see historical requests,download the same transcript again from an already completed request, and even cancel a '**Queued**' or an '**In progress**' request if required.&nbsp;For more information, see&nbsp; [***History of Learner Transcript downloads***](administrators/feature-summary/learner-transcripts.md#ltdownload).
+* Custom Admins and Administrators can now download gamification reports, which wasn’t the case in earlier versions. The Gamification transcript now contains the gamification level the user is at, and the date on which the user had achieved the level.  The dates for the levels achieved would appear only if a learner completes any activity after this release. For more information, see  [***Add gamification report to a custom role***](administrators/feature-summary/custom-role.md#gamification-custom).
+* Learning Manager now provides Administrators a history of the learner transcript downloads requests performed in the account. This allows Administrators to see historical requests,download the same transcript again from an already completed request, and even cancel a '**Queued**' or an '**In progress**' request if required. For more information, see  [***History of Learner Transcript downloads***](administrators/feature-summary/learner-transcripts.md#ltdownload).
 
 # Learner experience {#learner}
 
@@ -53,11 +53,11 @@ This release focuses on performance and scalability of the entire platform. This
 
 Learning Manager already supports Adobe Connect’s persistent rooms. With this release, Admins/Authors can now create multiple instances of a single VC course using different persistent rooms for each session. Earlier only one already selected persistent room was available while setting up newer instances as well.
 
-For more information, see&nbsp; [***Changes to the Course Instance page for Connect VC modules***](authors/feature-summary/courses.md#connect-vc).
+For more information, see  [***Changes to the Course Instance page for Connect VC modules***](authors/feature-summary/courses.md#connect-vc).
 
 # Migration {#migration}
 
-Through migration, content type AUDIO is now supported. The file module_version.xlsx now mentions AUDIO as content type. Similarly, AUDIO as content type is specified in the file&nbsp;job_aid_version.xlsx.
+Through migration, content type AUDIO is now supported. The file module_version.xlsx now mentions AUDIO as content type. Similarly, AUDIO as content type is specified in the file job_aid_version.xlsx.
 
 The content can be updated both as module or job aid.
 
@@ -104,7 +104,7 @@ The **stats** API helps you to fetch summary information for a specified LO Inst
 
 ## Jobs {#jobs}
 
-The Jobs API allows an API client to create a Job and fetch the results for that job asynchronously.&nbsp;
+The Jobs API allows an API client to create a Job and fetch the results for that job asynchronously. 
 
 In this release, we have implemented a new job to get the list of all users in an account in CSV form along with active fields. The following fields are now available:
 
@@ -116,21 +116,21 @@ In this release, we have implemented a new job to get the list of all users in a
 * userType
 * profile
 * roles - available as JSON
-* Active fields -&nbsp;each active field will come as a column&nbsp;with prefix AF_
+* Active fields - each active field will come as a column with prefix AF_
 * metadata - as json string
-* dateCreated&nbsp;
+* dateCreated 
 * lastLoginDate
 * state
-* excludedFromGamfication&nbsp;
+* excludedFromGamfication 
 * pointsEarned
 * uiLocale
 * contentLocale
 * timeZoneCode
-* userSource - Possible values are&nbsp;('CSV','SU','SR','ER')
+* userSource - Possible values are ('CSV','SU','SR','ER')
 
 ## Learning object API {#learningobjectapi}
 
-Till now learners were able to unenroll themselves from job aids alone. In this release, we have added support for unenrollment from other Learning Objects – courses, certificates, and Learning Programs.
+Till now learners were able to unenroll themselves from job aids alone. In this release, we have added support for unenrollment from other Learning Objects - courses, certificates, and Learning Programs.
 
 The API below has been enhanced to accommodate the changes.
 

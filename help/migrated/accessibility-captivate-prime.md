@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Accessibility in Adobe Learning Manager
+description: This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
 contentowner: saghosh
 ---
 
@@ -9,9 +10,9 @@ contentowner: saghosh
 
 This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
 
-Learning Manager follows W3C’s WCAG 2.1 Level A and AA accessibility standards for the platform.
+Learning Manager follows W3C's WCAG 2.1 Level A and AA accessibility standards for the platform.
 
-Adobe Learning Manager Learner role allows learners to&nbsp;navigate through the platform and take advantage of following key accessibility capabilities:
+Adobe Learning Manager Learner role allows learners to navigate through the platform and take advantage of following key accessibility capabilities:
 
 * Screen Reader
 * Keyboard
@@ -61,7 +62,7 @@ Here is the screen reader and browser combination that we support on desktop:
 
 ## Support for Keyboard navigation {#supportforkeyboardnavigation}
 
-Learners can use standard keys to navigate through the pages with or without screen reader. This helps the learners to navigate elements on the page and read content using a screen reader.&nbsp;
+Learners can use standard keys to navigate through the pages with or without screen reader. This helps the learners to navigate elements on the page and read content using a screen reader. 
 
 In addition, Learning Manager supports the following keyboard shortcuts:
 
@@ -139,33 +140,33 @@ The Learning Manager Learner role supports several other accessibility features 
 1. Semantic structure to the learner role pages including heading, list markup, descriptive titles etc are provided.
 1. Support for browser zoom up to 200% without loss of content or functionality is maintained through-out the learner role.
 1. Colour contrast for text and non-text elements is maintained on learner role. For a better experience use the [Vivid](https://helpx.adobe.com/in/captivate-prime/administrators/feature-summary/themes.html) theme.
-1. Support of W3C’s WAI ARIA design patterns to maintain consistency and industry best practices.
+1. Support of W3C's WAI ARIA design patterns to maintain consistency and industry best practices.
 
 For more information, see:
 
 * [Accessibility Conformance Report for a learner](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
 * [Accessibility Conformance Report for all roles](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
 
-# Learning Manager Top workflows (Learner role) {#captivateprimetopworkflowslearnerrole}
+## Learning Manager Top workflows (Learner role) {#captivateprimetopworkflowslearnerrole}
 
-Let’s look at how Accessibility features help you to navigate through some key features for learners in Learning Manager.
+Let's look at how Accessibility features help you to navigate through some key features for learners in Learning Manager.
 
 Use the `kbd Tab`key to navigate through the elements on the page. Use the `kbd Shift + Tab` key to reverse the direction of navigation. Keyboard focus is indicated by a blue outline displayed around an element. A screen reader should read out the text of the element in focus.
 
 ## Search for a training in Learning Manager {#searchforatrainingincaptivateprime}
 
-1. Use these cues to navigate and reach the Search box in the upper right of the home page.&nbsp;
+1. Use these cues to navigate and reach the Search box in the upper right of the home page. 
 1. Type text using the keyboard. Search results will appear.
-1. Use the keyboard `kbd Up/Down` arrows to navigate through the results or hit `kbd ENTER`to see all results.&nbsp;
+1. Use the keyboard `kbd Up/Down` arrows to navigate through the results or hit `kbd ENTER`to see all results. 
 
-1. Once the training is identified, hit `kbd ENTER`to navigate to the training page.&nbsp;
+1. Once the training is identified, hit `kbd ENTER`to navigate to the training page. 
 
 ## Consume a training in Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
-1. Once a training is identified, use `kbd Tab`or `kbd Shift + Tab` to navigate to the Enroll/Start button. Button status depends on your enrollment status for that training.&nbsp;
+1. Once a training is identified, use `kbd Tab`or `kbd Shift + Tab` to navigate to the Enroll/Start button. Button status depends on your enrollment status for that training. 
 
 1. Hit `kbd ENTER`to start the training.
-1. Following are the controls which appear irrespective of the content type:&nbsp;
+1. Following are the controls which appear irrespective of the content type: 
 
    * Table of contents
    * Notes
@@ -177,28 +178,28 @@ Use the `kbd Tab`key to navigate through the elements on the page. Use the `kbd 
 
 1. Following are the controls which appear based on the content type:
 
-   * VIDEO content – Forward, Backward, Slider controls.
-   * DOCUMENT content – Page number, Page up, Page down, Zoom in, Zoom out.
-   * eLEARNING – Closed caption button.
+   * VIDEO content - Forward, Backward, Slider controls.
+   * DOCUMENT content - Page number, Page up, Page down, Zoom in, Zoom out.
+   * eLEARNING - Closed caption button.
 
 1. Hit keyboard controls `kbd Tab`or `kbd Shift + Tab` to navigate through the controls and hit `kbd ENTER`to enable/disable any control.
 
-1. For DOCUMENT type, use arrow controls like `kbd UP/DOWN` to scroll through the document.&nbsp;
+1. For DOCUMENT type, use arrow controls like `kbd UP/DOWN` to scroll through the document. 
 
 ## Accessibility support for specific needs
 
-Let’s look at the accessibility features learners can utilize based on their specific needs.
+Let's look at the accessibility features learners can utilize based on their specific needs.
 
 ### Users who are deaf or hard-of-hearing
 
 * Use closed captions available in content created using Adobe Captivate authoring tool.
 * For videos, authors can encode the videos with closed caption text. Such videos have closed captions embedded and can be consumed by the learners.
-* Learning Manager supports the ability to upload closed caption WebVTT files for video content. For more information, see&nbsp; [*Upload WebVTT file for closed captioning*](authors/feature-summary/content-library.md#webvtt).
+* Learning Manager supports the ability to upload closed caption WebVTT files for video content. For more information, see  [*Upload WebVTT file for closed captioning*](authors/feature-summary/content-library.md#webvtt).
 
 ### Users who are blind or with low-vision
 
 * Use the standard keyboard shortcuts and commands to browse through the page.
-* Use of screen readers, as mentioned above, to read out the information on the web page.&nbsp;
+* Use of screen readers, as mentioned above, to read out the information on the web page. 
 * Use of screen magnifiers to zoom the screen to improve readability and can zoom the browser to 200% to read the content.
 
 ### Users who have difficulty with color
@@ -218,4 +219,3 @@ While creating a course, authors can upload webVTT files along with the video fi
 ## What will be addressed in a future release {#whatwillbeaddressedinafuturerelease}
 
 * Closed captioning support for videos. Authors should get an ability to upload SRT files along with the video files. Learners should be able to view closed captions for videos.
-

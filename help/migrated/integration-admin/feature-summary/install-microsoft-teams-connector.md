@@ -12,7 +12,7 @@ contentowner: saghosh
 
 Microsoft® Teams® is a persistent chat-based collaboration platform that completely supports document sharing, online meetings, and other features for business communications.
 
-Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings&nbsp;with&nbsp;Learning Manager.
+Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings with Learning Manager.
 
 Microsoft Teams connector connects Learning Manager and Microsoft Teams systems to enable automatic virtual meeting synchronization. The following list describes the Microsoft Teams connector capabilities:
 
@@ -22,104 +22,104 @@ This connector helps integrate your Adobe Learning Manager account with your Mic
 
 **Allow Microsoft Teams to authenticate learners when entering virtual classroom**
 
-This connector helps setup Microsoft Teams meeting organizer from Learning Manager&nbsp;while&nbsp;creating a meeting. The Meeting Organizer can manage lobby to restrict or admit entry into a meeting as well as control other meeting options provided by Microsoft Teams.
+This connector helps setup Microsoft Teams meeting organizer from Learning Manager while creating a meeting. The Meeting Organizer can manage lobby to restrict or admit entry into a meeting as well as control other meeting options provided by Microsoft Teams.
 
-**Use&nbsp;automated user completion syncing**
+**Use automated user completion syncing**
 
-The automated user completion syncing process allows a Learning Manager Administrator to automatically fetch the completion records and recording URL for the&nbsp;Microsoft&nbsp;Teams meeting.
+The automated user completion syncing process allows a Learning Manager Administrator to automatically fetch the completion records and recording URL for the Microsoft Teams meeting.
 
 # Roles in Microsoft Teams
 
-If you're organizing a meeting with multiple participants, you can assign roles to each participant so that a participant can know what he/she can&nbsp;do&nbsp;in the meeting.
+If you're organizing a meeting with multiple participants, you can assign roles to each participant so that a participant can know what he/she can do in the meeting.
 
-There are two roles to choose from:&nbsp;**presenter&nbsp;**and&nbsp;**attendee**.
+There are two roles to choose from: **presenter **and **attendee**.
 
-For more information,&nbsp;see&nbsp; [Roles in a Teams Meeting- Microsoft](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+For more information, see  [Roles in a Teams Meeting- Microsoft](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
 # Set up Microsoft Teams connector
 
-**Note:** Items&nbsp;marked <Developer/Optional>&nbsp;below are optional and mostly for setting up trial/developer&nbsp;tenants&nbsp;with Microsoft&nbsp;in case the user&nbsp;does not&nbsp;have&nbsp;a&nbsp;production tenant.&nbsp;These are optional since they mostly would have already been performed by your Team’s Administrator.
+**Note:** Items marked <Developer/Optional> below are optional and mostly for setting up trial/developer tenants with Microsoft in case the user does not have a production tenant. These are optional since they mostly would have already been performed by your Team’s Administrator.
 
-## Create developer E5 Microsoft account&nbsp;<Developer/Optional>
+## Create developer E5 Microsoft account <Developer/Optional>
 
-You can access&nbsp;Microsoft&nbsp;Teams connector if you have&nbsp;Office 365 E3&nbsp;or&nbsp;Office 365 E5. The recommended option is&nbsp;Office 365 E5.&nbsp;
+You can access Microsoft Teams connector if you have Office 365 E3 or Office 365 E5. The recommended option is Office 365 E5. 
 
 * `Visit the` [Microsoft plans page](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE) `. On the webpage, you can either buy E3 or E5 account or click Try for Free.`
 
 * Provide the required information and create an account.
 
-**Note:**&nbsp;The account must&nbsp;use&nbsp;the format&nbsp;“<username>@<company name>.onmicrosoft.com.”
+**Note:** The account must use the format “<username>@<company name>.onmicrosoft.com.”
 
-# Create application for&nbsp;Microsoft&nbsp;Teams connector
+# Create application for Microsoft Teams connector
 
-1. Visit&nbsp;the&nbsp; [Microsoft Azure® portal](https://portal.azure.com/).
-1. Sign in with the Microsoft E5 account that&nbsp;you&nbsp;created in the previous section.
-1. Search for&nbsp;**Azure Active Directory**.&nbsp;
-1. Click&nbsp;**App Registrations**.&nbsp;
-1. Click&nbsp;**New Registration**,&nbsp;enter the following details, and register the application:
+1. Visit the  [Microsoft Azure® portal](https://portal.azure.com/).
+1. Sign in with the Microsoft E5 account that you created in the previous section.
+1. Search for **Azure Active Directory**. 
+1. Click **App Registrations**. 
+1. Click **New Registration**, enter the following details, and register the application:
 
-   1. **Name&nbsp;**—&nbsp;Any name of your choice.
-   1. **Supported account types**&nbsp;—&nbsp;Accounts in any organizational directory (Any Azure Active&nbsp;Directory - Multitenant).&nbsp;
-   1. **Redirect URI (optional)**&nbsp;—&nbsp;Optional&nbsp;field indicating the&nbsp;reply&nbsp;URL.
+   1. **Name **— Any name of your choice.
+   1. **Supported account types** — Accounts in any organizational directory (Any Azure Active Directory - Multitenant). 
+   1. **Redirect URI (optional)** — Optional field indicating the reply URL.
 
-1. In the&nbsp;**Essentials&nbsp;**column, note the following IDs, which will&nbsp;be further&nbsp;used during&nbsp;the integration:&nbsp;
+1. In the **Essentials **column, note the following IDs, which will be further used during the integration: 
 
    1. **Application (client) ID**
    1. **Directory (tenant) ID**
 
-1. Search for&nbsp;client credentials and click&nbsp;**Add a certificate or secret**.
-1. Click&nbsp;**New Client secret**&nbsp;and add the following details:&nbsp;&nbsp;
+1. Search for client credentials and click **Add a certificate or secret**.
+1. Click **New Client secret** and add the following details:  
 
-   1. **Description&nbsp;**—&nbsp;Enter any name.
-   1. **Expires&nbsp;**—&nbsp;Set to any value (recommended&nbsp;value is&nbsp;24&nbsp;months. Ensure that new client credentials are generated once the previous one expires).
+   1. **Description **— Enter any name.
+   1. **Expires **— Set to any value (recommended value is 24 months. Ensure that new client credentials are generated once the previous one expires).
 
-Note the&nbsp;client secret, which&nbsp;will be further used during the integration.
+Note the client secret, which will be further used during the integration.
 
-# Get access permission for&nbsp;Microsoft&nbsp;Teams connector
+# Get access permission for Microsoft Teams connector
 
-1. Visit the&nbsp; [Microsoft Azure portal](https://portal.azure.com/).&nbsp;
-1. Sign in with the Microsoft E5&nbsp;that you created earlier.&nbsp;
-1. Search for&nbsp;**Azure Active Directory**.
-1. Click&nbsp;**App Registrations**.
+1. Visit the  [Microsoft Azure portal](https://portal.azure.com/). 
+1. Sign in with the Microsoft E5 that you created earlier. 
+1. Search for **Azure Active Directory**.
+1. Click **App Registrations**.
 1. Click the app that you created in the previous section.
-1. Click&nbsp;**API permissions**.
-1. Click&nbsp;**Add a permission**.
-1. Select&nbsp;**Microsoft Graph > Application permissions**&nbsp;and add the following permissions:
+1. Click **API permissions**.
+1. Click **Add a permission**.
+1. Select **Microsoft Graph > Application permissions** and add the following permissions:
 
-   1. User.Read&nbsp;(This will&nbsp;be present by default)&nbsp;
-   1. Calendars.ReadWrite&nbsp;
-   1. Directory.Read.All&nbsp;&nbsp;
-   1. Directory.ReadWrite.All&nbsp;&nbsp;
-   1. OnlineMeetings.Read.All&nbsp;&nbsp;
-   1. OnlineMeetings.ReadWrite.All&nbsp;&nbsp;
-   1. OnlineMeetingArtifact.Read.All&nbsp;&nbsp;
-   1. User.Read.All&nbsp;&nbsp;
+   1. User.Read (This will be present by default) 
+   1. Calendars.ReadWrite 
+   1. Directory.Read.All  
+   1. Directory.ReadWrite.All  
+   1. OnlineMeetings.Read.All  
+   1. OnlineMeetings.ReadWrite.All  
+   1. OnlineMeetingArtifact.Read.All  
+   1. User.Read.All  
    1. User.ReadWrite.All
    1. Chat.Read.All
    1. Chat.ReadWrite.All
 
-1. Click&nbsp;**Grant admin access for Adobe**.&nbsp;
-1. Click&nbsp;**App roles > Create app role**.&nbsp;
-1. Enter the following values:&nbsp;
+1. Click **Grant admin access for Adobe**. 
+1. Click **App roles > Create app role**. 
+1. Enter the following values: 
 
-   1. **Display name**&nbsp;—&nbsp;Name of&nbsp;the&nbsp;API/Permission name (For example,&nbsp;Calendars.ReadWrite).
-   1. **Allowed member types**&nbsp;—&nbsp;Specify both&nbsp;users and applications&nbsp;(Users/Groups + Applications).&nbsp;
-   1. **Value&nbsp;**—&nbsp;Name of&nbsp;the&nbsp;API/Permission name (For example,&nbsp;Calendars.ReadWrite).
-   1. **Description&nbsp;**—&nbsp;Name of&nbsp;the&nbsp;API/Permission name (For example,&nbsp;Calendars.ReadWrite).
-   1. **Do you want to enable this app role?&nbsp;**—&nbsp;Select&nbsp;this checkbox.
+   1. **Display name** — Name of the API/Permission name (For example, Calendars.ReadWrite).
+   1. **Allowed member types** — Specify both users and applications (Users/Groups + Applications). 
+   1. **Value **— Name of the API/Permission name (For example, Calendars.ReadWrite).
+   1. **Description **— Name of the API/Permission name (For example, Calendars.ReadWrite).
+   1. **Do you want to enable this app role? **— Select this checkbox.
 
-1. &nbsp;Repeat the&nbsp;preceding&nbsp;steps for all the nine API/Permissions that were added.
+1.  Repeat the preceding steps for all the nine API/Permissions that were added.
 
-# **Configure access policy by using&nbsp;PowerShell scripts  
+# **Configure access policy by using PowerShell scripts  
 **
 
-To configure the application access policy for Microsoft Teams connector by running PowerShell scripts, follow the procedure described in this&nbsp; [document](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
+To configure the application access policy for Microsoft Teams connector by running PowerShell scripts, follow the procedure described in this  [document](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
 This enables the connector to access Microsoft Teams online meetings.
 
-**Note: **In the above document,&nbsp;execute Optional step 5&nbsp;as well&nbsp;to ensure that any active user can be granted the role of the organizer from&nbsp;within the Learning Manager&nbsp;Author app. If this step is not executed, users&nbsp;will&nbsp;not have&nbsp;the&nbsp;required&nbsp;access&nbsp;permissions&nbsp;to&nbsp;be&nbsp;organizers and the meeting creation will fail (Microsoft APIs consider the organizer to be the creator of&nbsp;a&nbsp;Teams meeting).
+**Note:** In the above document, execute Optional step 5 as well to ensure that any active user can be granted the role of the organizer from within the Learning Manager Author app. If this step is not executed, users will not have the required access permissions to be organizers and the meeting creation will fail (Microsoft APIs consider the organizer to be the creator of a Teams meeting).
 
-# Set up&nbsp;Microsoft&nbsp;Teams connector in Learning Manager
+# Set up Microsoft Teams connector in Learning Manager
 
 1. `Sign in to Learning Manager as an Integration Admin.`  
 
@@ -137,7 +137,7 @@ This enables the connector to access Microsoft Teams online meetings.
    
    1. `**Microsoft Teams Admin User Email **— Enter the default organizer email. This user (typically a service user) would be the meeting creator in case no explicit organizer is selected from the Learning Manager Author app.`
 
-# Allocate licenses to users&nbsp;<Developer/Optional>
+# Allocate licenses to users <Developer/Optional>
 
 1. `Visit` [https://admin.microsoft.com/#/homepage](https://admin.microsoft.com/#/homepage) `.`  
 
@@ -151,39 +151,39 @@ This enables the connector to access Microsoft Teams online meetings.
 
 # Record a session
 
-The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this&nbsp; [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
+The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
 In the document,
 
-*“To request access to these protected APIs, complete the following&nbsp; [request form](https://aka.ms/teamsgraph/requestaccess). We review access requests every Wednesday and deploy approvals every Friday, except during major holiday weeks in the U.S. Submissions during those weeks will be processed the following non-holiday week. To verify whether your request has been approved, test your application access on the next applicable Monday.”*
+*“To request access to these protected APIs, complete the following  [request form](https://aka.ms/teamsgraph/requestaccess). We review access requests every Wednesday and deploy approvals every Friday, except during major holiday weeks in the U.S. Submissions during those weeks will be processed the following non-holiday week. To verify whether your request has been approved, test your application access on the next applicable Monday.”*
 
 For learners, the recording URL is displayed on the VC course overview page.
 
 After 30 minutes of completing a course, the attendance for the learner gets marked.
 
-# Frequently Asked Questions&nbsp;
+# Frequently Asked Questions 
 
 +++Who is an Organizer and a Presenter?
 
-See the&nbsp; [documentation](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)&nbsp;from Microfsoft for different roles and capabilities that are supported by Microsoft Teams.
+See the  [documentation](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019) from Microfsoft for different roles and capabilities that are supported by Microsoft Teams.
 
 +++
 
 +++Should an organizer be a registered user in both Learning Manager and Microsoft Teams? 
 
-Yes, the organizer should also be part of both Learning Manager and Microsoft Teams. Moreover, the&nbsp;organizer must be a part of the same Microsoft tenant, which is configured in the Integration admin app.
+Yes, the organizer should also be part of both Learning Manager and Microsoft Teams. Moreover, the organizer must be a part of the same Microsoft tenant, which is configured in the Integration admin app.
 
 +++
 
 +++Should a presenter be a registered user in both Learning Manager and Microsoft Teams? 
 
-Yes, the presenter should also be part of both Learning Manager and Microsoft Teams.&nbsp;The presenter must have an Azure Active directory ID (can be part of the same tenant as the organizer or part of any other tenant). Moreover, even anonymous users (users who login with just the username and not part of Active Directory) can also be made presenters by the organizer/existing presenters&nbsp;during the meeting.&nbsp;
+Yes, the presenter should also be part of both Learning Manager and Microsoft Teams. The presenter must have an Azure Active directory ID (can be part of the same tenant as the organizer or part of any other tenant). Moreover, even anonymous users (users who login with just the username and not part of Active Directory) can also be made presenters by the organizer/existing presenters during the meeting. 
 
 +++
 
 +++Microsoft Teams has meetings, webinars, and live events. Which one does the Teams connector support? 
 
-At present, the&nbsp;Teams connector supports only Meetings&nbsp;in&nbsp;Microsoft Teams. For more information, see this&nbsp; [document](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).&nbsp;
+At present, the Teams connector supports only Meetings in Microsoft Teams. For more information, see this  [document](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events). 
 
 +++
 

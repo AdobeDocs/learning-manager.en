@@ -31,7 +31,7 @@ This issue occurs under one of the below scenarios:
 
 # Resolution:
 
-**Scenario 1:**&nbsp;The user is already registered to another External Profile.
+**Scenario 1:** The user is already registered to another External Profile.
 
 1. Log in as an Administrator.
 1. Under **Manage**, click **Users **> **External**.
@@ -49,7 +49,7 @@ This issue occurs under one of the below scenarios:
 
 1. Once selected, click **Change**.
 
-**Scenario 2:**&nbsp;The user is present as an Internal Learner.
+**Scenario 2:** The user is present as an Internal Learner.
 
 1. Log in as an Administrator.
 1. Under **Manage**, click **Users **> **Internal**.
@@ -57,9 +57,9 @@ This issue occurs under one of the below scenarios:
 
    ![](assets/cp-internal-learner.png)
 
-1. Change the email address of the Learner or add *_old*&nbsp;to the existing email address.&nbsp;This will free up the email address.
+1. Change the email address of the Learner or add *_old* to the existing email address. This will free up the email address.
 
-   For example, If the email address of the Learner is *abc@adobe.com,*&nbsp;change it to *abc_old@adobe.com&nbsp;*
+   For example, If the email address of the Learner is *abc@adobe.com,* change it to *abc_old@adobe.com *
 
 1. Click **Save **to retain the changes made.
 
@@ -71,7 +71,7 @@ This issue occurs under one of the below scenarios:
 
    ![](assets/cp-deleted-learner.png)
 
-1. Change the email address of the Learner or add&nbsp;*_old*&nbsp;to the existing email address.&nbsp;This will free up the email address.
+1. Change the email address of the Learner or add *_old* to the existing email address. This will free up the email address.
 
-   For example, If the email address of the Learner is&nbsp;*abc@adobe.com,*&nbsp;change it to&nbsp;*abc_old@adobe.com&nbsp;*
+   For example, If the email address of the Learner is *abc@adobe.com,* change it to *abc_old@adobe.com *
 

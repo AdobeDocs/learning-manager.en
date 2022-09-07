@@ -73,11 +73,11 @@ For more information, see [**What's new in Adobe Learning Manager**](../whats-ne
 
 Release date: April 20, 2022
 
-* Fixes to product terminologies&nbsp;on a few dashboard reports.
+* Fixes to product terminologies on a few dashboard reports.
 * A double slash ("//") in the URL of an endpoint resulted in validation errors.
 * After refreshing a page, the percentage completion and the last visited fields displayed incorrect information.
 * We've made some changes in how the value Certificate or a Learning Plan is calculated.
-* A&nbsp;Custom Admin was able to add all users as instructors even though he/she was permitted to add only one user.  
+* A Custom Admin was able to add all users as instructors even though he/she was permitted to add only one user.  
 * On a badge PDF, an incorrect completion date was displayed.
 
 ## Update 75
@@ -93,7 +93,7 @@ Release date: 15 February, 2022
 
 ### Overview
 
-An [instance](https://captivateprimeapac.adobe.com/acapindex.html) of Learning Manager will now be hosted on AWS in Mumbai (ap-south-1).&nbsp;For customers using this India instance, will have their user's personally identified information (PII) and user's learning records stored in India region only.&nbsp;
+An [instance](https://captivateprimeapac.adobe.com/acapindex.html) of Learning Manager will now be hosted on AWS in Mumbai (ap-south-1). For customers using this India instance, will have their user's personally identified information (PII) and user's learning records stored in India region only. 
 
 ### What is supported
 
@@ -113,7 +113,7 @@ There is no difference. The instance in Mumbai is the same as [AWS US](http://ca
 * Credit card payment for purchase of seats  
 * Creative Cloud content catalog  
 * Slack App
-* **&#42;**&nbsp;Awaiting certification for SOC2 compliance
+* **&#42;** Awaiting certification for SOC2 compliance
 
 **Will this environment be Common Controls Framework (CCF)-compliant?**
 
@@ -127,7 +127,7 @@ Release date: February 05, 2022
 
 **Update 72 - January 2022 release of Learning Manager**
 
-Release date:&nbsp;15 January, 2022
+Release date: 15 January, 2022
 
 ## What's new and changed
 
@@ -144,15 +144,15 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **Content Library**
 
-* Searching&nbsp;of&nbsp;content&nbsp;files&nbsp;in private content&nbsp;folders was&nbsp;not working for users having custom role privileges. This is now fixed.
+* Searching of content files in private content folders was not working for users having custom role privileges. This is now fixed.
 
 **Courses**
 
-* Deletion of a course or learning path was not possible&nbsp;if they had a&nbsp;historic association with a learning plan.&nbsp;This is now fixed. Users can now delete a course or a learning path&nbsp;if they are not presently associated with a learning plan.  
-* When previewing a course or learning path, if&nbsp;the resource&nbsp;file has&nbsp;a long&nbsp;name without spaces, the file name does not wrap as expected and overflows into the next line. This issue is fixed.  
-* In the case&nbsp;of virtual&nbsp;classroom,&nbsp;earlier you were able to create a module without&nbsp;selecting&nbsp;any VC conferencing system there by&nbsp;in&nbsp;a new instance&nbsp;VC URL did not&nbsp;have the required info. This is now avoided&nbsp;by an error message&nbsp;at module creation stage&nbsp;asking&nbsp;you&nbsp;to&nbsp;specify the VC conferencing system before you can save module.  
-* The waitlist&nbsp;page was displaying a&nbsp;misleading&nbsp;banner&nbsp;message on registered users, which&nbsp;is removed&nbsp;now.  
-* In the case of bulk unenrollment for courses, the pop up to enter email&nbsp;ids&nbsp;was not showing up, which is now fixed.  
+* Deletion of a course or learning path was not possible if they had a historic association with a learning plan. This is now fixed. Users can now delete a course or a learning path if they are not presently associated with a learning plan.  
+* When previewing a course or learning path, if the resource file has a long name without spaces, the file name does not wrap as expected and overflows into the next line. This issue is fixed.  
+* In the case of virtual classroom, earlier you were able to create a module without selecting any VC conferencing system there by in a new instance VC URL did not have the required info. This is now avoided by an error message at module creation stage asking you to specify the VC conferencing system before you can save module.  
+* The waitlist page was displaying a misleading banner message on registered users, which is removed now.  
+* In the case of bulk unenrollment for courses, the pop up to enter email ids was not showing up, which is now fixed.  
 * The option to send email to learners from attendance & scoring tab in admin and instructor app was not excluding unchecked learners after performing select all operation. Hence Learning Manager was sending email to all learners. This issue is now fixed.  
 * The enrollment report shows as "Not Started", even though a learner has already completed the course.
 
@@ -162,12 +162,12 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **Announcements**
 
-* As an admin, the start and end dates for an announcement&nbsp;were not getting saved if interface & content language was set to&nbsp;Deutsch/Espanol. This issue is now fixed.
+* As an admin, the start and end dates for an announcement were not getting saved if interface & content language was set to Deutsch/Espanol. This issue is now fixed.
 
 **Email template**
 
-* Session invites spanning across multiple days where the invites did not reflect the correct information on&nbsp;days are blocked in some email&nbsp;clients. This is now fixed.  
-* "Venue Name"&nbsp;variable was&nbsp;missing in&nbsp;"Reminder of upcoming session" email template for learners in&nbsp;German locale. This is now added.  
+* Session invites spanning across multiple days where the invites did not reflect the correct information on days are blocked in some email clients. This is now fixed.  
+* "Venue Name" variable was missing in "Reminder of upcoming session" email template for learners in German locale. This is now added.  
 * The link to create account as part of the welcome email to user was not considering the user locale which is now fixed.
 
 **Email reminders**
@@ -176,7 +176,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **User**
 
-* The message shown to user when his/her account is inactive/suspended&nbsp;has been improved&nbsp;indicating to reach out to their admin to have their accounts enabled&nbsp;again.
+* The message shown to user when his/her account is inactive/suspended has been improved indicating to reach out to their admin to have their accounts enabled again.
 
 **Activity**
 
@@ -185,15 +185,15 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 **Report**
 
 * An admin was unable to download the course enrolment report if it contains a learner who is indirectly enrolled into this course through a flexible learning path but is yet to choose an instance for this course in learning path. This issue is now fixed.  
-* Rearranging reports in reports dashboard for admin and manager roles, was not preserving the state of the&nbsp;reports&nbsp;order. This issue is now fixed.
+* Rearranging reports in reports dashboard for admin and manager roles, was not preserving the state of the reports order. This issue is now fixed.
 
 **Content**
 
-* Audio&nbsp;in training content&nbsp;was&nbsp;not auto&nbsp;playing&nbsp;in&nbsp;preview&nbsp;as learner&nbsp;mode due to browser&nbsp;auto play&nbsp;policies. This is now fixed for supported browsers except for Safari.
+* Audio in training content was not auto playing in preview as learner mode due to browser auto play policies. This is now fixed for supported browsers except for Safari.
 
 **Gamification**
 
-* If an external learner was converted as an internal learner in the same&nbsp;account,&nbsp;then he/she&nbsp;was unable to access the gamification leaderboard&nbsp;in learner app.&nbsp;This issue is now fixed.
+* If an external learner was converted as an internal learner in the same account, then he/she was unable to access the gamification leaderboard in learner app. This issue is now fixed.
 
 **Player**
 
@@ -202,11 +202,11 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **Manager dashboard**
 
-* A manager was unable to export report for his direct team&nbsp;from&nbsp;Manager Dashboard's team skills page. This&nbsp;issue is now fixed.
+* A manager was unable to export report for his direct team from Manager Dashboard's team skills page. This issue is now fixed.
 
 **Publish**
 
-* In the European instance of Learning Manager content that was directly published to Adobe Learning Manager from Adobe Captivate was&nbsp;getting published in&nbsp;Deutsch locale by default. This is now fixed.
+* In the European instance of Learning Manager content that was directly published to Adobe Learning Manager from Adobe Captivate was getting published in Deutsch locale by default. This is now fixed.
 
 **API**
 
@@ -220,7 +220,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 ## Known issues in this release
 
-* On the Social Learning page, when creating a post, you are unable to record an audio or upload the audio after tapping the mic button. This is a limitation of the browser.&nbsp;
+* On the Social Learning page, when creating a post, you are unable to record an audio or upload the audio after tapping the mic button. This is a limitation of the browser. 
 * In iOS, H264 and WMA audio files are unsupported in the mobile browser.
 * Learners who have a + in their email address do not have their progress marked. This is after they take a VC course in Microsoft Teams.
 * In Safari Mobile browser, learners will not be able to upload more than 200 mb file in Social Learning. This is browser limitation.
@@ -231,11 +231,11 @@ Release date: November 17, 2021
 
 ## Share training with managers
 
-Learning Manager offers compliance dashboard to all Administrators and Managers.&nbsp;Managers find it&nbsp;very useful&nbsp;to track compliance of&nbsp;their team members for a particular training.&nbsp;At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it.&nbsp;
+Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
 
-In&nbsp;Learning Manager, the&nbsp;**Share with Managers**&nbsp;workflow&nbsp;allows Administrators to share&nbsp;training&nbsp;with Managers,&nbsp;so that they&nbsp;can&nbsp;get added to&nbsp;a manager's Compliance Dashboard.&nbsp;Thus,&nbsp;Managers do not need to take any&nbsp;action and can start tracking compliance&nbsp;immediately.&nbsp;
+In Learning Manager, the **Share with Managers** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
 
-For more information, see&nbsp; [**Share training with managers**](../administrators/feature-summary/reports.md#share_training_managers).
+For more information, see  [**Share training with managers**](../administrators/feature-summary/reports.md#share_training_managers).
 
 ## Bugs fixed in this update
 
@@ -267,11 +267,11 @@ Release date: October 28, 2021
 
 ### Learning Path
 
-The&nbsp;**October 2021&nbsp;release of Adobe Learning Manager**&nbsp;introduces the concept of&nbsp;Learning Paths.&nbsp;
+The **October 2021 release of Adobe Learning Manager** introduces the concept of Learning Paths. 
 
-**Note:** The&nbsp;**Settings&nbsp;> General**&nbsp;page has a new option to enable&nbsp;extended capabilities of&nbsp;Learning Paths. If this option is enabled, you can add&nbsp;Learning Paths&nbsp;in another&nbsp;Learning Path. You cannot change the option once it is enabled.
+**Note:** The **Settings > General** page has a new option to enable extended capabilities of Learning Paths. If this option is enabled, you can add Learning Paths in another Learning Path. You cannot change the option once it is enabled.
 
-Learning Paths replace our existing feature of Learning Programs. Imagine Learning Programs getting powerful enhancements without dropping any existing capabilities.&nbsp;Also,&nbsp;the feature gets branded as a Learning Path.&nbsp;
+Learning Paths replace our existing feature of Learning Programs. Imagine Learning Programs getting powerful enhancements without dropping any existing capabilities. Also, the feature gets branded as a Learning Path. 
 
 For more information, see [***Learning Paths***](../administrators/feature-summary/learning-paths.md).
 
@@ -289,11 +289,11 @@ For more information, see [***What's New in the October 2021 release of Learning
 
 ## Bugs fixed in this update
 
-* Email templates, such as, Course Unenrollment, Learning Program Unenrollment, or Certification Unenrollment do not reflect the latest product terminologies as defined in the csv.&nbsp;Now the default text in email templates will support customized terminologies.
+* Email templates, such as, Course Unenrollment, Learning Program Unenrollment, or Certification Unenrollment do not reflect the latest product terminologies as defined in the csv. Now the default text in email templates will support customized terminologies.
 * The user language in Learning Manager is not supported in the Publish to Prime workflow. If the user language is different, Publish to Prime happens in English.
-* If you add many catalogs to a custom role, an error occurs when you update the role.&nbsp;Now the limit of number of catalogs is increased upto 50 catalogs.&nbsp;
+* If you add many catalogs to a custom role, an error occurs when you update the role. Now the limit of number of catalogs is increased upto 50 catalogs. 
 * In some cases, trainings that are deleted are still visible in a catalog. This issue occurred in the Admin app only and is fixed now.
-* When the manager role is changed from one user to another, the manager role from previous user was still reflected in the UI. This is now fixed.&nbsp;This issue was present only for external users and not for internal users.
+* When the manager role is changed from one user to another, the manager role from previous user was still reflected in the UI. This is now fixed. This issue was present only for external users and not for internal users.
 * In some specific scenarios for a large set of users getting imported via user csv, the import failed. This issue is fixed now.  
 * A Learning Transcript does not display the completion date for an external certificate if a mandatory course is added after external certificate is created, and a user is enrolled to it. This is now fixed.  
 * A certificate does not display the localized name of the learner as expected. This is now fixed.  
@@ -326,7 +326,7 @@ Release date: September 28, 2021
 * For accounts using custom domain, the Learner app does not display the favicon.
 * On AEM, the Learning Manager component deletes the configuration of other components.
 * The help page for AEM component redirects to an incorrect location.
-* Externalized getting and storing user emails/tokens so that users can implement their own storage backend&nbsp;instead of using AEM user nodes.  
+* Externalized getting and storing user emails/tokens so that users can implement their own storage backend instead of using AEM user nodes.  
 * When editing plain text description in Courses, Learning Programs, Certificates, and Job Aids, a warning message displays.
 * The reports from Manager Dashboard do not get downloaded when a user has both custom and manager roles.  
 * An email digest displays incorrect value of training activity.
@@ -350,14 +350,14 @@ This update introduces a new instance of Azure.
 
 **Update 66 - August 2021 release of Learning Manager**
 
-The&nbsp;**August 2021**&nbsp;**release of Adobe Learning Manager**&nbsp;focuses on improving Learner Experience, Reporting, and Administrative workflows. Some of the highlights include:
+The **August 2021** **release of Adobe Learning Manager** focuses on improving Learner Experience, Reporting, and Administrative workflows. Some of the highlights include:
 
-* **Content marketplace:**&nbsp;Learning Manager now&nbsp;offers&nbsp;more than 70000 courses&nbsp;from&nbsp;varied&nbsp;domains, such as,&nbsp;Technology, Management,&nbsp;Leadership, and so on.
-* **Enhanced&nbsp;Accessibility support:**&nbsp;Accessibility support for&nbsp;the learner&nbsp;role strengthens&nbsp;via enhanced&nbsp;keyboard navigation, screen reader capability,&nbsp;and contrast ratio compliance.&nbsp;
-* **Rich Text Formatting:**&nbsp;Learning Manager now offers rich text&nbsp;editing&nbsp;for descriptions in&nbsp;courses, programs, certificates,&nbsp;and Job Aids. This allows authors&nbsp;to&nbsp;specify&nbsp;descriptions&nbsp;in&nbsp;rich text including hyperlinks, images and other text formatting options, as opposed to plain text.
-* **Star Rating:**&nbsp;A learner can now rate a course&nbsp;on a 5-point scale. An&nbsp;Administrator can select between existing effectiveness rating or the&nbsp;5-star&nbsp;rating.&nbsp;
-* **Badgr&nbsp;Integration:**&nbsp;Learners can now authorize Prime to automatically push badges they have earned in Prime to their&nbsp;Badgr&nbsp;account, from where they can share their badges in their social networks.
-* **Export&nbsp;learning&nbsp;events to Salesforce:&nbsp;**Learning Manager&nbsp;now&nbsp;offers&nbsp;an ability to export some specific events in Prime like new user addition, enrollment and completion to a Salesforce tenant, and provide an ability to link these with the appropriate User object or Contact object in Salesforce.
+* **Content marketplace:** Learning Manager now offers more than 70000 courses from varied domains, such as, Technology, Management, Leadership, and so on.
+* **Enhanced Accessibility support:** Accessibility support for the learner role strengthens via enhanced keyboard navigation, screen reader capability, and contrast ratio compliance. 
+* **Rich Text Formatting:** Learning Manager now offers rich text editing for descriptions in courses, programs, certificates, and Job Aids. This allows authors to specify descriptions in rich text including hyperlinks, images and other text formatting options, as opposed to plain text.
+* **Star Rating:** A learner can now rate a course on a 5-point scale. An Administrator can select between existing effectiveness rating or the 5-star rating. 
+* **Badgr Integration:** Learners can now authorize Prime to automatically push badges they have earned in Prime to their Badgr account, from where they can share their badges in their social networks.
+* **Export learning events to Salesforce:** Learning Manager now offers an ability to export some specific events in Prime like new user addition, enrollment and completion to a Salesforce tenant, and provide an ability to link these with the appropriate User object or Contact object in Salesforce.
 
 For more information, see [***What's new and changed in the August 2021 release of Learning Manager***](../whats-new.md).
 
@@ -379,7 +379,7 @@ For more information, see [***What's new and changed in the August 2021 release 
 **Reporting**
 
 * When the interface is set to a few non-English locales, Learner Transcripts do not generate as expected.
-* Ability to reset the progress of a course inside a Learning Program and Certification.&nbsp;
+* Ability to reset the progress of a course inside a Learning Program and Certification. 
 * If a CSV contains active fields with the same name, but with different case sensitivity, the CSV produces an exception.
 
 **Others**
@@ -443,7 +443,7 @@ Release date: June 2021
 
 * Unable to log in to the app when the account is SP-login initiated.
 * Videos are not getting rendered from Brightcove as expected.
-* The&nbsp;userGroupInfo API is not visible while visiting the learning program in any of the apps.  
+* The userGroupInfo API is not visible while visiting the learning program in any of the apps.  
 * Unable to search a retired Learning Program and Certification while creating a Dashboard report.  
 * An author is unable to edit or update a Job Aid, which is created by another author.
 * The API for file submission does not work as expected in the EU cluster.
@@ -528,23 +528,23 @@ Release date: March 26, 2021
 
 ## What's new and changed {#whatsnewandchanged}
 
-Captivate&nbsp; Prime Mobile App update 3.3 introduces a&nbsp;brand new&nbsp;Home&nbsp;Page,&nbsp;which supports mastheads and AI-based&nbsp;training&nbsp;recommendations. This home page is available to all accounts&nbsp;that are&nbsp;configured for the new&nbsp;Immersive Layout&nbsp;option.&nbsp;The accounts configured with&nbsp;the&nbsp;Classic Layout continues to see the classic/legacy home page. They should not observe any changes in the home page.&nbsp;
+Captivate  Prime Mobile App update 3.3 introduces a brand new Home Page, which supports mastheads and AI-based training recommendations. This home page is available to all accounts that are configured for the new Immersive Layout option. The accounts configured with the Classic Layout continues to see the classic/legacy home page. They should not observe any changes in the home page. 
 
-In addition, this update also allows&nbsp;learners to download their badge&nbsp;as PDF and an image.&nbsp;The update&nbsp;also&nbsp;introduces a feedback po-pup,&nbsp;which allows learners to provide feedback about the app&nbsp;anonymously.&nbsp;
+In addition, this update also allows learners to download their badge as PDF and an image. The update also introduces a feedback po-pup, which allows learners to provide feedback about the app anonymously. 
 
-For more information, see&nbsp; [Learning Manager device app](../learners/feature-summary/ipad-android-tablet-users.md).
+For more information, see  [Learning Manager device app](../learners/feature-summary/ipad-android-tablet-users.md).
 
 Read on to know more.
 
 ### New home page
 
-For all&nbsp;accounts&nbsp;that have the option&nbsp;Immersive Layout&nbsp;enabled, there is a&nbsp;brand-new&nbsp;home page&nbsp;to support the Immersive Layout configuration.&nbsp;
+For all accounts that have the option Immersive Layout enabled, there is a brand-new home page to support the Immersive Layout configuration. 
 
 ### Feedback rating
 
-In this release, Learning Manager prompts the user to provide feedback about their experience with the Mobile App.&nbsp;
+In this release, Learning Manager prompts the user to provide feedback about their experience with the Mobile App. 
 
-### Download badge&nbsp;
+### Download badge 
 
 This update allows learners to download their badges in PDF and Image format.
 
@@ -578,9 +578,9 @@ For more information, see What's new in the [February 2021 update of Learning Ma
 
 **Course**
 
-* An L2&nbsp;Quiz Score&nbsp;report downloaded for an AICC content module shows incorrect score under the&nbsp;Total User Score /&nbsp;Quiz Score&nbsp;column.&nbsp;This issue has been fixed.  
-* Downloading resources from a course was not working if it is duplicated from another course&nbsp;if&nbsp;learner did&nbsp;not have access to the original&nbsp;course&nbsp;which used to create a duplicate course.&nbsp;  
-* Banner images where not getting&nbsp;deleted when author removes it while the course is in draft state.&nbsp;This issue has been fixed.
+* An L2 Quiz Score report downloaded for an AICC content module shows incorrect score under the Total User Score / Quiz Score column. This issue has been fixed.  
+* Downloading resources from a course was not working if it is duplicated from another course if learner did not have access to the original course which used to create a duplicate course.   
+* Banner images where not getting deleted when author removes it while the course is in draft state. This issue has been fixed.
 
 **AEM**
 
@@ -588,22 +588,22 @@ For more information, see What's new in the [February 2021 update of Learning Ma
 
 **Admin**
 
-* Courses that are retired do not appear in the search results as expected.&nbsp;This issue has been fixed.  
-* Admin was unable to search for retired courses&nbsp;in&nbsp;**Admin&nbsp;app&nbsp;->&nbsp;Custom reports ->&nbsp;Excel&nbsp; reports&nbsp;->&nbsp;Course Reports**, which&nbsp;is&nbsp;now fixed.&nbsp;  
+* Courses that are retired do not appear in the search results as expected. This issue has been fixed.  
+* Admin was unable to search for retired courses in **Admin app -> Custom reports -> Excel  reports -> Course Reports**, which is now fixed.   
 
 * Downloading a quiz report as excel does not work if the file contains learners who've consumed the trainings before and after content update. This issue has been fixed.  
-* A CSV upload fails if the&nbsp;active fields contain special characters. This has been fixed.  
+* A CSV upload fails if the active fields contain special characters. This has been fixed.  
 * In a few cases, when a learner takes a quiz, created in Captivate, the answers do not get captured the way they're expected to.  
 * After creating a subscription and attempting to edit the subscription, the **Save **and **Cancel **buttons do not appear as expected. This has been fixed.
 
 **Player**
 
-* For a specific type of content of SCORM-2004 resume scenario was not working.&nbsp;Hence, learners had to navigate to the point where they left off. This is now fixed.&nbsp;Content should now resume from the point where used left it earlier.&nbsp;&nbsp;  
-* After enrolling to a course, in some cases, content does not play as expected.&nbsp;This issue has been fixed.
+* For a specific type of content of SCORM-2004 resume scenario was not working. Hence, learners had to navigate to the point where they left off. This is now fixed. Content should now resume from the point where used left it earlier.    
+* After enrolling to a course, in some cases, content does not play as expected. This issue has been fixed.
 
 **Unenrollment**
 
-* An enrollment report only lists&nbsp;20&nbsp;unenrolled learners even when there are more learners unenrolled from the course/certification.&nbsp;This issue has been fixed.  
+* An enrollment report only lists 20 unenrolled learners even when there are more learners unenrolled from the course/certification. This issue has been fixed.  
 * There was an issue in exporting the list of unenrolled learners in Enrollment report in some cases. This is now fixed.
 
 **Learning Program**
@@ -622,9 +622,9 @@ For more information, see What's new in the [February 2021 update of Learning Ma
 
 **User Group**
 
-* When exporting user group report having more than 500 users, the data values & the&nbsp;column&nbsp;headers in the report were not matching which is now fixed.  
-* When Administrator edits Email signature in Email templates and adds multiple lines, he used to see html tags only in the Admin interface. This issue is fixed now.&nbsp;  
-* In&nbsp;**Admin App > Catalog > search for catalog**, you are unable to search.
+* When exporting user group report having more than 500 users, the data values & the column headers in the report were not matching which is now fixed.  
+* When Administrator edits Email signature in Email templates and adds multiple lines, he used to see html tags only in the Admin interface. This issue is fixed now.   
+* In **Admin App > Catalog > search for catalog**, you are unable to search.
 
 **Users**
 
@@ -636,11 +636,11 @@ For more information, see What's new in the [February 2021 update of Learning Ma
 
 **Activity Submission**
 
-* In the Instructor app - activity submissions page, the submitted date value used to overlap with the file name if it was a long one this UI issue is now resolved.&nbsp;
+* In the Instructor app - activity submissions page, the submitted date value used to overlap with the file name if it was a long one this UI issue is now resolved. 
 
 **Instructor**
 
-* An instructor receives session invites for all his/her sessions even though only a new session is added.&nbsp;This issue has been fixed.
+* An instructor receives session invites for all his/her sessions even though only a new session is added. This issue has been fixed.
 
 **SCORM**
 
@@ -663,7 +663,7 @@ For more information, see What's new in the [February 2021 update of Learning Ma
 
 * When using the **Duration **filter in the Learner app, the content and filter may not be in sync if the learner uses some other content locale and is not a part of the default instance in terms of enrolment.
 
-**Note:**&nbsp;The training '**Duration**' and '**Format**' filters are identified based on the training content available for default instance and for account preferred locale.
+**Note:** The training '**Duration**' and '**Format**' filters are identified based on the training content available for default instance and for account preferred locale.
 
 +++
 
@@ -677,10 +677,10 @@ Release date: December 18, 2020
 
 BlueJeans Events connector connects Learning Manager and BlueJeans systems to automate data synchronization. Using this connector, you can:
 
-* **Set up virtual sessions using BlueJeans Events:&nbsp;**Configure a new event in BlueJeans and setup a VC session in Learning Manager by selecting the appropriate BlueJeans event. Date and time details are picked automatically from the BlueJeans events.
-* **Automated User Completion Syncing:&nbsp;**An**&nbsp;**Automated user completion syncing process allows the Learning Manager Administrator to fetch completion records for BlueJeans events automatically.
+* **Set up virtual sessions using BlueJeans Events:** Configure a new event in BlueJeans and setup a VC session in Learning Manager by selecting the appropriate BlueJeans event. Date and time details are picked automatically from the BlueJeans events.
+* **Automated User Completion Syncing:** An** **Automated user completion syncing process allows the Learning Manager Administrator to fetch completion records for BlueJeans events automatically.
 
-This new connector requires a separate set of credentials to configure the connector.&nbsp;
+This new connector requires a separate set of credentials to configure the connector. 
 
 For more information, see [***BlueJeans Event connector***](../integration-admin/feature-summary/connectors.md#bj-events).
 
@@ -696,9 +696,9 @@ Release date: December 05, 2020
 
 This release focuses on the following:
 
-* Brand new learner homepage&nbsp;experience  
-* Mobile web responsive layout&nbsp;for learner role  
-* AI-based recommendation&nbsp;for learners  
+* Brand new learner homepage experience  
+* Mobile web responsive layout for learner role  
+* AI-based recommendation for learners  
 * Weekly digest emails  
 * Checklist  
 * Marketo engage integration  
@@ -708,24 +708,24 @@ This release focuses on the following:
 * LinkedIn Learning Enhancements  
 * ...and many more
 
-For more information, see&nbsp; [***What's new in the December 2020 release of Adobe Learning Manager***](../whats-new-december-2020.md).
+For more information, see  [***What's new in the December 2020 release of Adobe Learning Manager***](../whats-new-december-2020.md).
 
 ## Unsupported features in mobile immersive experience {#unsupportedfeaturesinmobileimmersiveexperience}
 
 The following features are not supported:
 
-* Social&nbsp;App: A learner is redirected to Classic experience if he/she clicks on Social widget on Home page
+* Social App: A learner is redirected to Classic experience if he/she clicks on Social widget on Home page
 * Profile Settings/Edit Profile
 * View Badge/Skills
-* Leaderboard: A learner is redirected to Classic experience if he clicks on&nbsp;Leaderboard&nbsp;widget on Home page
+* Leaderboard: A learner is redirected to Classic experience if he clicks on Leaderboard widget on Home page
 * Downloading Job Aids.
 * Filter options in Search.
 
 ## Bugs fixed in this update {#bug-fixes-1}
 
-* You are unable to delete a content folder if the content folder contains deleted content.&nbsp;
-* Learning Plan allows Admins to setup a course with auto-instance. For a course with Activity submission module, Instructor information was not setting up correctly earlier. Now Learning Manager assigns the Instructor from default instance to this auto instance automatically.&nbsp;
-* A custom badge&nbsp;with a catalog label with a space does not allow the pdf to download as expected.&nbsp;
+* You are unable to delete a content folder if the content folder contains deleted content. 
+* Learning Plan allows Admins to setup a course with auto-instance. For a course with Activity submission module, Instructor information was not setting up correctly earlier. Now Learning Manager assigns the Instructor from default instance to this auto instance automatically. 
+* A custom badge with a catalog label with a space does not allow the pdf to download as expected. 
 * A report downloaded from the dashboard is different from the subscription email received for the dashboard report.  
 * A Learner Transcript does not have updated data for a recurred certification.
 * After starting a course, if you let the course time out, then the number of attempts do not display as expected. Also there is a blank screen sometimes when you attempt a course multiple times.
@@ -746,12 +746,12 @@ Release date: September 23, 2020
 
 **Content library**
 
-* In the content library, retiring a content does not remove the content in the **Published **tab. When you refresh the page,&nbsp; the retired content no longer displays.
+* In the content library, retiring a content does not remove the content in the **Published **tab. When you refresh the page,  the retired content no longer displays.
 * When creating a content folder, the **Name **field is not marked as mandatory, which in fact is a mandatory field.
 
 **Customer request**
 
-* To identify all the courses that each learner is enrolled in and whether they have completed it, include the following fields in the dashboard,&nbsp;Subscription Report:
+* To identify all the courses that each learner is enrolled in and whether they have completed it, include the following fields in the dashboard, Subscription Report:
 
    * UUID
    * Email address
@@ -820,7 +820,7 @@ This release focuses on the following:
 * Data retention policy changes
 * ...and many more
 
-For more information, see&nbsp; [***What's new in the August 2020 release of Adobe Learning Manager***](../whats-new-august-2020.md).
+For more information, see  [***What's new in the August 2020 release of Adobe Learning Manager***](../whats-new-august-2020.md).
 
 ## Notes about this release {#notes}
 
@@ -831,67 +831,67 @@ For more information, see&nbsp; [***What's new in the August 2020 release of Ado
 
 **Connector**
 
-* A learner is unable to participate in two different meetings at the same time, which are created by two different authors.&nbsp;
-* Clicking on the option Manage connections from the Adobe Connect card navigates to the FTP connection page.&nbsp;
-* A scheduled FTP sync exits with an exception.&nbsp;
-* There are password-related issues when connecting to Exavault.&nbsp;
+* A learner is unable to participate in two different meetings at the same time, which are created by two different authors. 
+* Clicking on the option Manage connections from the Adobe Connect card navigates to the FTP connection page. 
+* A scheduled FTP sync exits with an exception. 
+* There are password-related issues when connecting to Exavault. 
 
-**Course&nbsp;**
+**Course **
 
-* You can create a VC module without selecting any conferencing system. As a side effect, the process of creating a course throws Error 500.&nbsp;
-* A learner is unable to download resources even though the learner is enrolled to a course, which has been duplicated.&nbsp;
+* You can create a VC module without selecting any conferencing system. As a side effect, the process of creating a course throws Error 500. 
+* A learner is unable to download resources even though the learner is enrolled to a course, which has been duplicated. 
 * When previewing a course as a learner, an admin or author cannot download resources unless he/she is enrolled to the course.
 
-**Device app&nbsp;**
+**Device app **
 
-* In specific enrollment cases, the Donut chart under My Pending Learning displays different values of Learner app from the browser to the Mobile app.&nbsp;
+* In specific enrollment cases, the Donut chart under My Pending Learning displays different values of Learner app from the browser to the Mobile app. 
 
-**Certification&nbsp;**
+**Certification **
 
-* The report filter Status does not work as expected when trying to download a dashboard report for certification.&nbsp;
+* The report filter Status does not work as expected when trying to download a dashboard report for certification. 
 
-**Search&nbsp;**
+**Search **
 
-* On the Learner catalog page, when you attempt to search a course by its note, no search results appear.&nbsp;
+* On the Learner catalog page, when you attempt to search a course by its note, no search results appear. 
 
 **SCORM**
 
-* For some content, the SCORM player displays a blank screen.&nbsp;
-* A Storyline content is identified as a Captivate content, if the published Storyline project contains a web object pointing to the published Captivate output.&nbsp;
+* For some content, the SCORM player displays a blank screen. 
+* A Storyline content is identified as a Captivate content, if the published Storyline project contains a web object pointing to the published Captivate output. 
 * SCORM content is unable to launch due to incorrect url.
 
 **Custom Role**
 
-* For certain scenarios, a custom admin is unable to see the complete list of Learning Objects.&nbsp;
-* A custom admin is unable to search for a Learning Program or Certification in the dashboard reports.&nbsp;
+* For certain scenarios, a custom admin is unable to see the complete list of Learning Objects. 
+* A custom admin is unable to search for a Learning Program or Certification in the dashboard reports. 
 * A custom admin is unable to search for a manager in a dashboard.
 * Learner Transcripts generated by a custom admin does not contain data of deleted users.
-* A custom author or custom admin is unable to duplicate a Learning Program or a course or a certification.&nbsp;
+* A custom author or custom admin is unable to duplicate a Learning Program or a course or a certification. 
 
-**Reports&nbsp;**
+**Reports **
 
-* The Type column in a Learner Transcript displays the value as course for the courses that are part of a certification, if the learner is un-enrolled from the certification.&nbsp;
+* The Type column in a Learner Transcript displays the value as course for the courses that are part of a certification, if the learner is un-enrolled from the certification. 
 
 **Skills**
 
-* While adding a skill for a course, there are a few issues when searching for a skill.&nbsp;
+* While adding a skill for a course, there are a few issues when searching for a skill. 
 
 **Gamification**
 
-* If many users are made confidential, then on clicking the confidential learner tab on Edge and Internet Example, the browser behaves unexpectedly.&nbsp;
-* When the frequency of a criteria is changed, the points calculated with older frequency is added to the current calculation.&nbsp;
+* If many users are made confidential, then on clicking the confidential learner tab on Edge and Internet Example, the browser behaves unexpectedly. 
+* When the frequency of a criteria is changed, the points calculated with older frequency is added to the current calculation. 
 
-**Administrator&nbsp;**
+**Administrator **
 
-* Learners cannot be marked as attended if the course instance that is mapped to a Learning Program is changed.&nbsp;
+* Learners cannot be marked as attended if the course instance that is mapped to a Learning Program is changed. 
 
 **Email templates**
 
-* For Learning Programs and Certifications, the toggle button in email template is missing.&nbsp;
+* For Learning Programs and Certifications, the toggle button in email template is missing. 
 
 **Content Library**
 
-* SCORM content does not get launched as expected due to incorrect url.&nbsp;
+* SCORM content does not get launched as expected due to incorrect url. 
 
 **Learner Transcripts**
 
@@ -904,7 +904,7 @@ For more information, see&nbsp; [***What's new in the August 2020 release of Ado
 **Excel reports**
 
 * If a user audit trail report takes more than one hour to download due to large data or slow processing, the connection times out, and the report never downloads.
-* In a Learner Transcript, the Type column displays as 'Course' instead of 'Certification' for the courses that are part of certification, if the learner is un-enrolled from the certification.&nbsp;
+* In a Learner Transcript, the Type column displays as 'Course' instead of 'Certification' for the courses that are part of certification, if the learner is un-enrolled from the certification. 
 
 **Learner app**
 
@@ -1016,7 +1016,7 @@ In this update, a learner can upload assets as proof of completion for an extern
 
 A learner can open an external certificate and upload assets, such as, pdf, text, or image files.
 
-For more information, see&nbsp; [***Upload assets in external certificate***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
+For more information, see  [***Upload assets in external certificate***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ## Issues fixed in this release {#issuesfixedinthisrelease}
 
@@ -1029,7 +1029,7 @@ For more information, see&nbsp; [***Upload assets in external certificate***](..
 
 +++Update 51
 
-In this update,&nbsp;you can also change the banner image for a Learning Object.
+In this update, you can also change the banner image for a Learning Object.
 
 You can also customize the banner in a Social Learning page.
 
@@ -1053,7 +1053,7 @@ For Active Fields, we've added two new options- **Reportable** and **Exportable*
 
 For CSV fields and manually added fields, if an Active Field is marked as **Reportable**, the Active Field becomes searchable in a filter inside a dashboard report.
 
-For more information, see&nbsp; [***Restrict Active Fields in reports***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)***.***
+For more information, see  [***Restrict Active Fields in reports***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)***.***
 
 ### View description of content module {#viewdescriptionofcontentmodule}
 
@@ -1080,7 +1080,7 @@ For more information, see [***Customize your account***](../administrators/featu
 
 ### Upload banner images {#uploadbannerimages}
 
-In this update,&nbsp;you can also change the banner image for a Learning Object.
+In this update, you can also change the banner image for a Learning Object.
 
 You can also customize the banner in a Social Learning page.
 
@@ -1104,12 +1104,12 @@ This update includes Admin API to allow downloading of quiz reports.
 
 Learner API now allows fetching of all learners and gamification points in the learner's scope. This helps in building a gamification leaderboard.
 
-***API: **GET /users*
+***API:** GET /users*
 
-***Request: **GET\\ users?page[offset]=0&page[limit]=10&sort=id&filter=gamification  
+***Request:** GET\\ users?page[offset]=0&page[limit]=10&sort=id&filter=gamification  
 *
 
-***Response: **The response will contain the users sorted in order of gamification points.*
+***Response:** The response will contain the users sorted in order of gamification points.*
 
 **Do Not Disturb**
 
@@ -1267,10 +1267,10 @@ In this update, a **warning message, which states that the session data is incom
 
 * On the browsers mentioned below, when you mouse over on the left pane, the text appears after a slight delay.
 
-   * Edge&nbsp;42.17134.1.0
-   * Edge&nbsp;44.17763.1.0
-   * Internet Explorer&nbsp;11.1006
-   * Internet Explorer&nbsp;11.615
+   * Edge 42.17134.1.0
+   * Edge 44.17763.1.0
+   * Internet Explorer 11.1006
+   * Internet Explorer 11.615
 
 * A learner is allowed to enter a Connect meeting room before and after the session.
 
@@ -1298,7 +1298,7 @@ An Administrator can grant special privileges to a user group, using which membe
 
 **Changes in User Interface**
 
-* In the **Add Report** dialog, the **Time Span** and **Filters**&nbsp;selectors appear as separate sections, which are in collapsed state, by default. For more information, see [***Create reports***](../administrators/feature-summary/reports.md#report).
+* In the **Add Report** dialog, the **Time Span** and **Filters** selectors appear as separate sections, which are in collapsed state, by default. For more information, see [***Create reports***](../administrators/feature-summary/reports.md#report).
 
 * In the **Add Report** dialog, for a user group, you can use type-ahead search to choose a single or multiple user groups. For more information, see [***User group reports***](../administrators/feature-summary/reports.md#user-group-reporting).
 
@@ -1310,9 +1310,9 @@ In the Learner Transcripts, in the time columns, the minutes are rounded to the 
 
 **Learner dashboard**
 
-* A Learning Calendar displayed the status **Session Enrolled**&nbsp;even when a Manager was yet to approve the enrollment.&nbsp;Now the correct status **Pending** gets displayed to the learner till the Manager approves the enrollment.
+* A Learning Calendar displayed the status **Session Enrolled** even when a Manager was yet to approve the enrollment. Now the correct status **Pending** gets displayed to the learner till the Manager approves the enrollment.
 
-* In a particular case, for a session, the Learning calendar displayed the status **Enrolled**&nbsp;even though the learner has completed a course.
+* In a particular case, for a session, the Learning calendar displayed the status **Enrolled** even though the learner has completed a course.
 
 **Manager dashboard**
 
@@ -1328,7 +1328,7 @@ In the Learner Transcripts, in the time columns, the minutes are rounded to the 
 
 ## Known issues in this release {#Knownissuesinthisrelease-1}
 
-* Using the search bar, you cannot search for deleted users in the External Users list. As a work-around,&nbsp; scroll down to view the list of all users and locate the required user manually.
+* Using the search bar, you cannot search for deleted users in the External Users list. As a work-around,  scroll down to view the list of all users and locate the required user manually.
 * If a Special User posts in an external board, the curation request is received by by SMEs in his/her scope.
 
 +++
@@ -1341,7 +1341,7 @@ Release date: Aug 02, 2019
 
 ## New and enhanced features {#Newandenhancedfeatures-5}
 
-**Separation of scope in Social learning for internal and external users**An Administrator can define separate scopes for internal and external learners. There are two new sections for internal and external users. In both sections, you can define the scopes for the learner groups. For internal users, you can define the values of the User Characteristic. For external users, you can define the external profile, within which learners can share the same social space. For more information, see [***Scope settings***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).&nbsp; **Social-Restrict creation of social boards**To restrict the creation of boards by all learners and to moderate the boards effectively, an Administrator can grant permissions&nbsp;to create boards to a select group of users. The Administrator can restrict the creation of a board to only a selected group and not every learner who participates in social learning. For more information, see [***Board creation permissions***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).&nbsp; **Display only empty Active fields to learners**An Administrator can choose to display the Active fields or hide the fields after the values have been populated. For more information, see [***User display***](../administrators/feature-summary/add-users-user-groups.md#activefields).&nbsp; **Internal users get deleted upon a specified duration of inactivity**An Administrator can set the duration (in days) within which an internal learner gets deleted if the learner stays inactive for the specified duration. For more information, see *** [Auto delete users](../administrators/feature-summary/settings.md#autodelete)***.&nbsp; **Customize links on the footer**An Administrator can add and customize links on the footer. The links can also be customized for various locales. The existing method of adding the Contact Admin link on the footer is also available in the **Footer Links** section.&nbsp;For more information, see [***Customize footer links***](../administrators/feature-summary/settings.md#footer). 
+**Separation of scope in Social learning for internal and external users**An Administrator can define separate scopes for internal and external learners. There are two new sections for internal and external users. In both sections, you can define the scopes for the learner groups. For internal users, you can define the values of the User Characteristic. For external users, you can define the external profile, within which learners can share the same social space. For more information, see [***Scope settings***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **Social-Restrict creation of social boards**To restrict the creation of boards by all learners and to moderate the boards effectively, an Administrator can grant permissions to create boards to a select group of users. The Administrator can restrict the creation of a board to only a selected group and not every learner who participates in social learning. For more information, see [***Board creation permissions***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).  **Display only empty Active fields to learners**An Administrator can choose to display the Active fields or hide the fields after the values have been populated. For more information, see [***User display***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **Internal users get deleted upon a specified duration of inactivity**An Administrator can set the duration (in days) within which an internal learner gets deleted if the learner stays inactive for the specified duration. For more information, see *** [Auto delete users](../administrators/feature-summary/settings.md#autodelete)***.  **Customize links on the footer**An Administrator can add and customize links on the footer. The links can also be customized for various locales. The existing method of adding the Contact Admin link on the footer is also available in the **Footer Links** section. For more information, see [***Customize footer links***](../administrators/feature-summary/settings.md#footer). 
 
 ### Known issues in this release {#Knownissuesinthisrelease-2}
 
@@ -1365,13 +1365,13 @@ To receive notifications, we recommend upgrading to version 2.8.
 
 **Social learning**
 
-Share your expertise with peers in the form of user-generated content posted on topic-based discussion boards. Other learners interested in similar skills can follow these boards to learn and even contribute to the topic, akin to a social media platform.&nbsp;
+Share your expertise with peers in the form of user-generated content posted on topic-based discussion boards. Other learners interested in similar skills can follow these boards to learn and even contribute to the topic, akin to a social media platform. 
 
 Share ideas and meaningful insights in an informal environment. Like, dislike a post, upload content, and comment on posts. For more information, see [***Social learning in the mobile app***](../learners/feature-summary/ipad-android-tablet-users.md#socialmobile).
 
 **Share media in a board**
 
-Share pictures, documents, or audio or videos files to any board, so that other board members can view your post and start an interaction.&nbsp; For more information, see [***Share post***](../learners/feature-summary/ipad-android-tablet-users.md#socialmobile).
+Share pictures, documents, or audio or videos files to any board, so that other board members can view your post and start an interaction.  For more information, see [***Share post***](../learners/feature-summary/ipad-android-tablet-users.md#socialmobile).
 
 **Submit file for classroom and activity modules**
 
@@ -1400,15 +1400,15 @@ Release date: June 20, 2019
 
 **Auto curation of content**
 
-Social Learning allows content posted by learners to be curated in two ways namely -&nbsp;**No Curation**&nbsp;and&nbsp;**Manual Curation**. In this release, Adobe Learning Manager enhances social learning by providing AI-enabled auto curation capabilities. Once content is posted, the content is analyzed to identify if the content belongs to the skill for which it is posted. Based on the confidence score, the content is either posted live or sent for manual curation.&nbsp;For more information, see&nbsp;* [**Auto-assisted curation**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Social Learning allows content posted by learners to be curated in two ways namely - **No Curation** and **Manual Curation**. In this release, Adobe Learning Manager enhances social learning by providing AI-enabled auto curation capabilities. Once content is posted, the content is analyzed to identify if the content belongs to the skill for which it is posted. Based on the confidence score, the content is either posted live or sent for manual curation. For more information, see * [**Auto-assisted curation**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Map skill with skill domains**
 
-Map skills in your account with the skill domains present in the Prime LMS. This helps in linking your account skills with the skill domains which Prime support for auto-assisted curation.&nbsp;For more information, see [***Map skill with domains***](../administrators/feature-summary/curation-skills.md).
+Map skills in your account with the skill domains present in the Prime LMS. This helps in linking your account skills with the skill domains which Prime support for auto-assisted curation. For more information, see [***Map skill with domains***](../administrators/feature-summary/curation-skills.md).
 
 **CSV specifications and sample CSVs**
 
-Updated CSV specifications that you can use to map your existing LMS migration data. Use the latest&nbsp;downloadable&nbsp;csv-specifications and sample-csvs&nbsp;zip files to understand the&nbsp;prescribed format of data to be entered. For more information, see&nbsp; [***Migration manual***.](../integration-admin/feature-summary/migration-manual.md)
+Updated CSV specifications that you can use to map your existing LMS migration data. Use the latest downloadable csv-specifications and sample-csvs zip files to understand the prescribed format of data to be entered. For more information, see  [***Migration manual***.](../integration-admin/feature-summary/migration-manual.md)
 
 ## Issues fixed in this release {#Issuesfixedinthisrelease-4}
 
@@ -1418,7 +1418,7 @@ Updated CSV specifications that you can use to map your existing LMS migration d
 
 **Manager dashboard**
 
-* When a manager selected the option&nbsp;**This quarter**, the enrollment, progression, and completion details of a Learning Object did not get displayed. In this release, these details now display as expected.
+* When a manager selected the option **This quarter**, the enrollment, progression, and completion details of a Learning Object did not get displayed. In this release, these details now display as expected.
 
 **Waitlisted learners**
 
@@ -1441,16 +1441,16 @@ Release date: May 30, 2019
 **New and enhanced features**
 
 * Consolidated search across all instances for enrolled learners on the Learning Object's learner section. Search for enrolled users on the Learning Object's Learner section using type-ahead search. For more information, see [***Search for enrolled users***](../administrators/feature-summary/courses.md#searchforusers).
-* Complete editing capabilities of learning objects acquired via shared catalog.&nbsp;For more information, see [***Shared catalog control***](../administrators/feature-summary/shared-catalog-full-control.md). To enable the feature, contact Learning Manager support.
-* Instructors can now identify the sessions and modules with pending reviews easily.&nbsp;For more information, see [***Pending reviews***](../instructors/feature-summary/learners.md#pending).  
+* Complete editing capabilities of learning objects acquired via shared catalog. For more information, see [***Shared catalog control***](../administrators/feature-summary/shared-catalog-full-control.md). To enable the feature, contact Learning Manager support.
+* Instructors can now identify the sessions and modules with pending reviews easily. For more information, see [***Pending reviews***](../instructors/feature-summary/learners.md#pending).  
 
-* Skills now support awarding credit values in decimal format. This allows authors to award decimal level credit value to a certain course.&nbsp;For more information, see [***Decimal support***](../administrators/feature-summary/skills-levels.md#decimal).
+* Skills now support awarding credit values in decimal format. This allows authors to award decimal level credit value to a certain course. For more information, see [***Decimal support***](../administrators/feature-summary/skills-levels.md#decimal).
 * Automate the creation of custom roles. For more information, see [***Configure roles via csv files***](../integration-admin/feature-summary/configure-role-csv-files.md).
-* Submissions required for external certifications and activity modules are now optional. This allows Managers and Instructors to evaluate without a submission.&nbsp;For more information, see [***Optional submission***](../managers/feature-summary/learning-objects.md#optional).
+* Submissions required for external certifications and activity modules are now optional. This allows Managers and Instructors to evaluate without a submission. For more information, see [***Optional submission***](../managers/feature-summary/learning-objects.md#optional).
 * Download Learner Transcripts for deleted users. For more information, see [***Learner Transcripts***](../administrators/feature-summary/learner-transcripts.md).
 * Support for the following languages:
 
-   * Korean&nbsp; &nbsp;&nbsp;
+   * Korean    
    * Turkish
    * Dutch
    * Polish
@@ -1474,15 +1474,15 @@ Release date: May 30, 2019
 
 Release date: April 26, 2019
 
-* **User Interface changes:**&nbsp;On the app, the&nbsp; ![](/content/dam/help/images/en/hamburger.jpg)&nbsp;and the&nbsp; ![](/content/dam/help/en/enterprise/search%20magnifying%20glass_icon.png)&nbsp;options now appear at the top.
+* **User Interface changes:** On the app, the  ![](/content/dam/help/images/en/hamburger.jpg) and the  ![](/content/dam/help/en/enterprise/search%20magnifying%20glass_icon.png) options now appear at the top.
 
 ![](assets/1.png)
 
-* **Scan QR code to enroll:&nbsp;**QR code capabilities are enhanced. In addition to supporting attendance marking using QR code, now it also supports enrolling to a course, completing a course using QR code.&nbsp;  
+* **Scan QR code to enroll:** QR code capabilities are enhanced. In addition to supporting attendance marking using QR code, now it also supports enrolling to a course, completing a course using QR code.   
   
-  To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. For more information on scanning QR codes in the web version of Learning Manager, see&nbsp; [***Scan QR code***](https://helpx.adobe.com/captivate-prime/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+  To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](https://helpx.adobe.com/captivate-prime/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
 
-* **Multiple attempts at course:&nbsp;**The Learning Manager app allows the learner to consume courses with multi attempts enabled. For more information on setting up multiple attempts, see&nbsp; [***Multiple attempts***](https://helpx.adobe.com/captivate-prime/authors/feature-summary/courses.html#Multiattempts).
+* **Multiple attempts at course:** The Learning Manager app allows the learner to consume courses with multi attempts enabled. For more information on setting up multiple attempts, see  [***Multiple attempts***](https://helpx.adobe.com/captivate-prime/authors/feature-summary/courses.html#Multiattempts).
 
 +++
 
@@ -1492,21 +1492,21 @@ Release date: April 26, 2019
 
 Release date: January 28, 2019
 
-* Learning time spent by a learner on a module may be counted multiple times on marking attendance more than once. This issue is fixed.&nbsp;
-* Marking attendance for a Learning Object within a&nbsp;multiday&nbsp;session may display the wrong session starting date for a learner in a Learning Transcript. This issue is fixed.&nbsp;
-* Users may be unable to view a course when the course is added to a completed Learning Program or Certification. This issue is fixed.&nbsp;
-* Enrollment of users may happen incorrectly&nbsp;when they are moved out of a user group. This issue is fixed.&nbsp;
-* Learner and Instructor may not receive an email when the session details are changed in the Instructor app. This issue is fixed.&nbsp;
-* Adobe Connect URL may not work properly when '/' is provided at the end of the url. This issue is fixed.&nbsp;
-* An error message may be displayed on selection of at least one mandatory module for an already published course. This issue is fixed.&nbsp;
-* When a learner has completed a course and&nbsp;latter&nbsp;it is marked mandatory by the author, then the completion of the course may not&nbsp;be&nbsp;marked as completed. This issue is fixed.&nbsp;
-* Checked value of a selected module for a duplicate course may not appear instantly. It is only displayed as a duplicate course when the page is refreshed. This issue is fixed.&nbsp;
-* All modules will be shown as unchecked in edit mode after publishing of a course. The page requires to be refreshed to see the changes. This issue is fixed.&nbsp;
-* Selection of a mandatory module may have been available for an ordered course when it should not have been. This issue is fixed.&nbsp;
-* A mandatory module continues to appear in the dropdown checkbox even after removing it while editing the course. This issue is fixed.&nbsp;
-* Prework and Test out modules might be marked mandatory by default. This issue is fixed.&nbsp;&nbsp;
+* Learning time spent by a learner on a module may be counted multiple times on marking attendance more than once. This issue is fixed. 
+* Marking attendance for a Learning Object within a multiday session may display the wrong session starting date for a learner in a Learning Transcript. This issue is fixed. 
+* Users may be unable to view a course when the course is added to a completed Learning Program or Certification. This issue is fixed. 
+* Enrollment of users may happen incorrectly when they are moved out of a user group. This issue is fixed. 
+* Learner and Instructor may not receive an email when the session details are changed in the Instructor app. This issue is fixed. 
+* Adobe Connect URL may not work properly when '/' is provided at the end of the url. This issue is fixed. 
+* An error message may be displayed on selection of at least one mandatory module for an already published course. This issue is fixed. 
+* When a learner has completed a course and latter it is marked mandatory by the author, then the completion of the course may not be marked as completed. This issue is fixed. 
+* Checked value of a selected module for a duplicate course may not appear instantly. It is only displayed as a duplicate course when the page is refreshed. This issue is fixed. 
+* All modules will be shown as unchecked in edit mode after publishing of a course. The page requires to be refreshed to see the changes. This issue is fixed. 
+* Selection of a mandatory module may have been available for an ordered course when it should not have been. This issue is fixed. 
+* A mandatory module continues to appear in the dropdown checkbox even after removing it while editing the course. This issue is fixed. 
+* Prework and Test out modules might be marked mandatory by default. This issue is fixed.  
 * On clicking the L3 feedback link in your email, the feedback modal may not open. This issue is fixed.
-* Certification is missing in the dashboard report dropdown although it is visible in the manager app and in the data API&nbsp;list. This issue is fixed.
+* Certification is missing in the dashboard report dropdown although it is visible in the manager app and in the data API list. This issue is fixed.
 * Few learning objects could not be retired by the administrator due to lack of permissions although shared catalogs are independent of prime accounts. This issue is fixed.
 
 +++
@@ -1517,7 +1517,7 @@ Update 42
 
 Release date: January 11, 2019.
 
-* Insertion of user notifications may fail randomly, resulting in&nbsp;associated emails not getting delivered. This issue is fixed.
+* Insertion of user notifications may fail randomly, resulting in associated emails not getting delivered. This issue is fixed.
 * `If a Learner is enrolled in Learning Program 1 and a Course in Learning Program 2, when the Learning Transcript is downloaded for a user group or more than one individual, the Learning Transcript may have missing data. This issue is fixed.`
 
 +++
@@ -1527,13 +1527,13 @@ Release date: January 11, 2019.
 Update 41Release date: December 1, 2018.
 
 * Administrators can control the permission given to Learners to view Quiz Scores in Learner Transcripts. This can be enabled/disabled from the Settings page.
-* Insertion of user notifications may fail randomly, resulting in&nbsp;associated emails not getting delivered. This issue is fixed.
+* Insertion of user notifications may fail randomly, resulting in associated emails not getting delivered. This issue is fixed.
 * Learning Time Spent data may not appear in Learner Transcript and Dashboard Reports. This issue is fixed.
-* Information about activities such as enrollment/completion may not be present in the Learner transcript&nbsp;downloaded by a Manager. This is fixed.
+* Information about activities such as enrollment/completion may not be present in the Learner transcript downloaded by a Manager. This is fixed.
 * Modules which are a part of a course still in progress may appear as completed in Learner Transcript. This issue is fixed.
 * Learner Transcript may not display the downloaded data as per the selected date range. This issue is fixed.
 * For users with only Author role assigned, Catalogs may not appear. This issue is fixed.
-* When a Custom Role Administrator, downloads the Learner Transcript, the downloaded report will not have information about the  LOs &nbsp;which were part of only default catalogs. This issue is fixed.
+* When a Custom Role Administrator, downloads the Learner Transcript, the downloaded report will not have information about the  LOs  which were part of only default catalogs. This issue is fixed.
 * There may occur mismatch in the total count of users and the list of users in the User Group page. This is fixed.
 * The Learning Program pop-up may not appear even when enabled and users may get redirected to the LO page. This issue is fixed.
 * When waitlist is cleared and Learners are enrolled into a Course, the Admin may receive an email notification with their name mentioned instead of the Learner's name being mentioned. This issue is fixed.
@@ -1561,13 +1561,13 @@ Performance enhancement
 
 Release date: May 19, 2018.
 
-* This release of Adobe Learning Manager rolls out new features and enhancements. It brings to you the ability to create custom roles, add catalog labels, capacity to purge users, manage tags, rename Learning Objects,&nbsp;Slack integration, new connector integrations, support to xAPI, and much more. For more information about the new features and enhancements, see&nbsp; [New feature's summary](../whats-new.md#main-pars_text).
+* This release of Adobe Learning Manager rolls out new features and enhancements. It brings to you the ability to create custom roles, add catalog labels, capacity to purge users, manage tags, rename Learning Objects, Slack integration, new connector integrations, support to xAPI, and much more. For more information about the new features and enhancements, see  [New feature's summary](../whats-new.md#main-pars_text).
 
 * Learning Manager is compliant with GDPR. For more information, see [Learning Manager compliance to GDPR.](../kb/prime-gdpr.md)
 
 ## Known Issue {#knownissue}
 
-* The hyperlink to the number of courses and certifications inside tags modal includes shadow&nbsp;courses and recurred&nbsp;certifications. When you click on the hyperlink, these courses and certifications may not be listed causing a discrepancy in numbers.
+* The hyperlink to the number of courses and certifications inside tags modal includes shadow courses and recurred certifications. When you click on the hyperlink, these courses and certifications may not be listed causing a discrepancy in numbers.
 
 +++
 
@@ -1588,7 +1588,7 @@ Release date: May 19, 2018.
 
 * Issue  for integrating new connect account has been fixed.
 * L1 Feedback auto pop might not appear if enabled at non-default instances.  Issue  has been fixed.
-* Instructor &nbsp;might not be able to mark attendance for all the users at one go for sessions which are part of Learning Program/Certification. This is fixed.
+* Instructor  might not be able to mark attendance for all the users at one go for sessions which are part of Learning Program/Certification. This is fixed.
 
 +++
 
@@ -1598,13 +1598,13 @@ Release date: March 25, 2018
 
 The March 2018 version of Adobe Learning Manager rolls out exciting new features and enhancements. It brings to you, generation of user audit trail reports and login/access  reports,  gives Learners the capacity to choose course instances, enhancements to classrooms and virtual classrooms, and much more. This release also brings to you bug fixes and performance enhancements.
 
-To read all that is new in this release, see&nbsp; [What's New in Adobe Learning Manager](../whats-new-march-2018.md#main-pars_text).
+To read all that is new in this release, see  [What's New in Adobe Learning Manager](../whats-new-march-2018.md#main-pars_text).
 
 ## Known Issue {#KnownIssue-1}
 
-**Issue:**&nbsp;Accessing a few specific Learning Objects using Internet Explorer v11.1478.10586.0 might lead Learning Manager to crash.
+**Issue:** Accessing a few specific Learning Objects using Internet Explorer v11.1478.10586.0 might lead Learning Manager to crash.
 
-**Workaround:**&nbsp;Update your Internet Explorer 11 browser to the latest version by reaching out to the IT team in your organization.
+**Workaround:** Update your Internet Explorer 11 browser to the latest version by reaching out to the IT team in your organization.
 
 +++
 
@@ -1625,8 +1625,8 @@ Release date: January 22, 2018.
 * As an administrator, you might be unable to use the check-box to select a learner inside certifications. This issue is fixed.
 * Creation and updating of user groups with more than 600 individual users might fail. This issue is fixed. You can now create user groups with more than 600 individual users.
 * If you delete a custom user group which is part of another custom user group, intersection rule might roll over the user number to the higher group. This issue is fixed.
-* When the default catalog is disabled, and a new&nbsp;catalog is created, and if the manager has access to this newly created catalog, he might not be able to search any course under that catalog. This issue is fixed.
-* Mobile application users might not receive&nbsp;L1 feedback as push notifications. This has been fixed.
+* When the default catalog is disabled, and a new catalog is created, and if the manager has access to this newly created catalog, he might not be able to search any course under that catalog. This issue is fixed.
+* Mobile application users might not receive L1 feedback as push notifications. This has been fixed.
 
 +++
 
@@ -1640,7 +1640,7 @@ This release of Learning Manager brings to you performance optimizations aimed t
 
 * Experience elastic search while searching for courses, and users across all applications. This includes Courses, User, and User Group search.
 * Support the use of Box connector to integrate Learning Manager with external systems to automate data synchronization. For more information, see [Box connector](../integration-admin/feature-summary/connectors.md#main-pars_header_302653946).
-* Updated CSV specifications that you can use to map your existing LMS migration data. Use the latest&nbsp;downloadable&nbsp; csv -specifications and sample- csvs &nbsp;zip files to understand the&nbsp;prescribed format of data to be entered. For more information, see [Migration manual.](../integration-admin/feature-summary/migration-manual.md)
+* Updated CSV specifications that you can use to map your existing LMS migration data. Use the latest downloadable  csv -specifications and sample- csvs  zip files to understand the prescribed format of data to be entered. For more information, see [Migration manual.](../integration-admin/feature-summary/migration-manual.md)
 
 +++
 
@@ -1654,7 +1654,7 @@ This release of Learning Manager brings to you performance optimizations aimed t
 
 * Unsupported browser version error message might not show up in unsupported versions of Internet Explorer ( IE 7, IE 8, IE 9, and IE 10) and Safari ( version 7, 8, and 9). This issue is fixed.
 
-&nbsp;
+ 
 
 +++
 
@@ -1664,17 +1664,17 @@ Release date: October 5, 2017.
 
 ## Issues Fixed {#IssuesFixed-2}
 
-* Changes to a shared course might not get propagated to the shared account if the author in origin&nbsp;account auto saves the course. This issue is fixed.
+* Changes to a shared course might not get propagated to the shared account if the author in origin account auto saves the course. This issue is fixed.
 * Sometimes, for specific Learning Manager projects, content used to freeze in  fluidic  player. This issue is fixed.  
 
 * The calendar listing under the Learning Calendar widget in the Learner Dashboard might appear in a random order. This issue is fixed. The listing will now appear in an orderly manner.
 * When marking attendance using select-all option, learners get marked as attended across the learning objects for the same session. This issue is fixed.
-* In certain high-resolution screens, the email received from Learning Manager had alignment and truncation issues for the banner image and text. This has been fixed.&nbsp;  
-* Certain emails from Learning Manager such as emails without any notification data were not getting triggered to the users. Example- Email received&nbsp;on creating and enabling external profile and Email received on configuring connect account. This issue has been fixed.
+* In certain high-resolution screens, the email received from Learning Manager had alignment and truncation issues for the banner image and text. This has been fixed.   
+* Certain emails from Learning Manager such as emails without any notification data were not getting triggered to the users. Example- Email received on creating and enabling external profile and Email received on configuring connect account. This issue has been fixed.
 * When you create  a LP , set a reminder, enroll users, and then change the deadline of the instance, the changed deadline might not be reflected for the reminders. This is fixed. The reminders would now carry the changed deadline.
 * In certain cases, for content created using Adobe Presenter, the total and the elapsed time in  fluidic  player was not in sync with the content. This issue is fixed.
-* In certain cases, after adding a learning program to a catalog, the option to add might still be&nbsp;enabled. This issue has been fixed.
-* Opening Learning Manager in a device browser displays an option to experience Prime&nbsp; on device  app. Clicking yes should launch the Play Store (Android) if  app  is not installed, or launch the app if&nbsp;installed (in Android and iOS). This workflow had issues and have been fixed.&nbsp;
+* In certain cases, after adding a learning program to a catalog, the option to add might still be enabled. This issue has been fixed.
+* Opening Learning Manager in a device browser displays an option to experience Prime  on device  app. Clicking yes should launch the Play Store (Android) if  app  is not installed, or launch the app if installed (in Android and iOS). This workflow had issues and have been fixed. 
 
 +++
 
@@ -1696,7 +1696,7 @@ Changes to a shared course might not get propagated to tenant account if the aut
 
 Users were unable to change deadline of an instance in activity courses as it would revert to the previous deadline date. This issue has been fixed.
 
-**Inability to use a unique id once removed from a learning&nbsp;object.**
+**Inability to use a unique id once removed from a learning object.**
 
 When you assign a unique id to a course and remove it, you would be unable to use the id again. This issue has been fixed.
 
@@ -1708,11 +1708,11 @@ If a learning program is already enrolled as part of one learning plan event, it
 
 Learners would often get emails with incorrect deadline reminders/ session time reminders due to  timezone  corrections. This issue has been fixed.
 
-**Gamification leaderboard timeline shows external learners if he gets converted from an external learner to an internal one.&nbsp;**
+**Gamification leaderboard timeline shows external learners if he gets converted from an external learner to an internal one. **
 
-An internal learner's gamification leaderboard timeline might show external learner when he is&nbsp;converted from external to an internal learner. This issue has been fixed.
+An internal learner's gamification leaderboard timeline might show external learner when he is converted from external to an internal learner. This issue has been fixed.
 
-**UUID field for a learner is shown&nbsp;in editable format while creating a single and CSV users in a UUID enabled account.**
+**UUID field for a learner is shown in editable format while creating a single and CSV users in a UUID enabled account.**
 
 UUID field was displayed to the learner while completing his profile even when the administrator has provided the UUID for single and CSV users. This issue is fixed.
 
@@ -1721,9 +1721,9 @@ UUID field was displayed to the learner while completing his profile even when t
 Learning time spent data was not showing up in reports for a learner,
 
 * If his/her attendance is auto-marked by the system for  connect  modules.
-* When a QR code is scanned&nbsp;for CR and VC modules using Learning Manager device application.
+* When a QR code is scanned for CR and VC modules using Learning Manager device application.
 
-**This release of Learning Manager also introduced enhancements and bug fixes related to  device &nbsp;player.**
+**This release of Learning Manager also introduced enhancements and bug fixes related to  device  player.**
 
 * Issues regarding completion of activity modules. This has been fixed.
 * When the learner is playing a video in portrait mode, +10 and -10 buttons might not work. This has been fixed  
@@ -1731,15 +1731,15 @@ Learning time spent data was not showing up in reports for a learner,
 * When you add a new note, the notes panel should close and the playback should resume in the player. This might not happen in certain cases. This has been fixed.
 * When you open the notes added to a module, the close button might not be displayed. This issue has been fixed.
 * When learner opens notes panel using Note marker, he might have to click the Notes icon twice to close the panel.  
-* When clicked on the table of content, it might not&nbsp;collapse automatically and needs manual closure to view the content. This issue is fixed.
+* When clicked on the table of content, it might not collapse automatically and needs manual closure to view the content. This issue is fixed.
 * A course which has a module with multiple languages might not display all the available languages as the scroll bar might not scale accordingly. This has been fixed.  
 * When you open a third party activity course module in a player in landscape mode, the text orientation might not adjust making it difficult to scroll. This has been fixed.
 * Increased the tap area for the close button of the player in both online and offline mode.
-* The TOC does not automatically close when the orientation of the device is changed.&nbsp;This has been fixed.
+* The TOC does not automatically close when the orientation of the device is changed. This has been fixed.
 * Some minor issues in relation to  user   interface  such as alignment of play button, radio button and other settings in landscape and portrait mode have been fixed.
 
 * The issue of  seek bar  being displayed even when the show playback control option is unchecked in content has been fixed.
-* The close button of the player was not visible for certain projects when the device orientation is changed.&nbsp;This has been fixed.  
+* The close button of the player was not visible for certain projects when the device orientation is changed. This has been fixed.  
 * The issue in regard to TOC section of module getting truncated in landscape mode on device player has been fixed. In certain cases, TOC was not visible for content in device player. This has also been corrected.
 
 **This release of Learning Manager also introduced enhancements and fixes listed below for the Device application**.
@@ -1751,10 +1751,10 @@ Learning time spent data was not showing up in reports for a learner,
 * There might not be an option to update the content when user transitions from offline to online mode.
 * Module ordering is now supported for courses in device application in online mode.
 
-* If a user has not downloaded any Job Aids, then clicking on My Job Aids tab in offline mode might crash the app in IOS and show a message saying error loading data&nbsp;in android. This has been resolved.
+* If a user has not downloaded any Job Aids, then clicking on My Job Aids tab in offline mode might crash the app in IOS and show a message saying error loading data in android. This has been resolved.
 * Learning Manager application closes or throws an error if we access the course immediately after switching off the internet even when it is a downloaded course. This issue is now fixed.  
 * Sometimes when you scan the QR code, it displays a captured image of the previous QR code scan. This has been corrected.
-* Trying to remove a Job Aid which is already added from my Job Aids tab on certain occasions&nbsp;would show an error message. This issue has been fixed.
+* Trying to remove a Job Aid which is already added from my Job Aids tab on certain occasions would show an error message. This issue has been fixed.
 
 +++
 
@@ -1766,7 +1766,7 @@ Release date: July 16, 2017
 
 **Gamification**
 
-This release enhances the scope of gamification. External Users can now take part in Gamification. As an administrator, you can define the scope of gamification by changing the scope settings. You can selectively enable gamification among similar profile users, groups&nbsp;or location.
+This release enhances the scope of gamification. External Users can now take part in Gamification. As an administrator, you can define the scope of gamification by changing the scope settings. You can selectively enable gamification among similar profile users, groups or location.
 
 **External user enhancements**
 
@@ -1774,15 +1774,15 @@ With this enhancement, you can set a time-range after which users get automatica
 
 **Job Aid, announcements, and unenrollment report**
 
-Job Aids are training content that a Learner can access without having to enroll for any specific learning object like a Course or Learning Program. With this enhancement, administrators can extract and download Job Aids report.&nbsp;As an administrator, you can also generate a report of all the announcements that have been sent by you.&nbsp;Administrators and managers can also extract a report of the learners who have been unenrolled.
+Job Aids are training content that a Learner can access without having to enroll for any specific learning object like a Course or Learning Program. With this enhancement, administrators can extract and download Job Aids report. As an administrator, you can also generate a report of all the announcements that have been sent by you. Administrators and managers can also extract a report of the learners who have been unenrolled.
 
 **Learning Manager connectors**
 
-You can now export user skills to an FTP location to integrate with any third party system using the Data Export option. You can specify the&nbsp;Connection Name for your integration and choose if you want to import internal users, or export user skills by configuring them or fetching it on demand.
+You can now export user skills to an FTP location to integrate with any third party system using the Data Export option. You can specify the Connection Name for your integration and choose if you want to import internal users, or export user skills by configuring them or fetching it on demand.
 
 **Copy course instances**
 
-You can now copy the instance URL by clicking the drop-down arrow at the upper-right corner of an&nbsp;instance.
+You can now copy the instance URL by clicking the drop-down arrow at the upper-right corner of an instance.
 
 ## Issues Fixed {#IssuesFixed-4}
 
@@ -1814,9 +1814,9 @@ With this update Learning Manager Learner Experience now supports section 508 St
 
 **Incorrect information in certain time zones**
 
-Deadline reminders mentioned the&nbsp;number of remaining days incorrectly for learners in certain time zones. This issue has been fixed.
+Deadline reminders mentioned the number of remaining days incorrectly for learners in certain time zones. This issue has been fixed.
 
-**Learning Program issues in the case of expired&nbsp;Program instance**
+**Learning Program issues in the case of expired Program instance**
 
 Launching of modules from Learning Program had issues if Program instance is expired. This led to the expansion of module not working and learners unable to launch the player and visit the content. This issue has been fixed.
 
@@ -1836,13 +1836,13 @@ Release date: April 9, 2017
 
 ## New features {#newfeatures}
 
-For a list of new features and enhancements in Learning Manager April release,&nbsp;refer to [What's New.](../whats-new-april-2017.md#main-pars_text)
+For a list of new features and enhancements in Learning Manager April release, refer to [What's New.](../whats-new-april-2017.md#main-pars_text)
 
 **Widget-based Learner App**
 
-Use widgets on the home page to manage&nbsp;your courses, skills, and achievements. Use the search bar to perform a search in your entire LMS that spans all the learning objects, catalogs, skills, notes, and discussions
+Use widgets on the home page to manage your courses, skills, and achievements. Use the search bar to perform a search in your entire LMS that spans all the learning objects, catalogs, skills, notes, and discussions
 
-For detailed information on the new home page, see&nbsp; [Learner  home page  in Learning Manager](../learners/feature-summary/getting-started.md#main-pars_text).
+For detailed information on the new home page, see  [Learner  home page  in Learning Manager](../learners/feature-summary/getting-started.md#main-pars_text).
 
 **Administrator settings for Learner Dashboard**
 
@@ -1852,7 +1852,7 @@ As an administrator, you can control the learner's home page by enabling and dis
 
 The new Learning Manager mobile app lets learners use the app to enroll and undertake courses. The app can also be used to manage dashboards.
 
-To know more about using Learning Manager in mobiles, see&nbsp; [Learning Manager leaner app for mobiles](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907).
+To know more about using Learning Manager in mobiles, see  [Learning Manager leaner app for mobiles](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907).
 
 **Marking attendance using QR code**
 
@@ -1862,17 +1862,17 @@ Use QR Scan Code to mark your attendance for classroom sessions using your mobil
 
 Learning Manager now introduces instructors for modules. Instructors can manage module sessions including the time, venue, and seat limit for the modules that are assigned to them.
 
-To view detailed information on Instructors, see&nbsp; [Instructors in Learning Manager](../instructors/feature-summary/getting-started.md#main-pars_header).
+To view detailed information on Instructors, see  [Instructors in Learning Manager](../instructors/feature-summary/getting-started.md#main-pars_header).
 
 **Peer account**
 
 If you are an administrator, you can create peer accounts with whom you can share your purchased seats.
 
-To know how to create and manage peer accounts, see&nbsp; [Peer accounts](../administrators/feature-summary/peer-account.md#main-pars_text).
+To know how to create and manage peer accounts, see  [Peer accounts](../administrators/feature-summary/peer-account.md#main-pars_text).
 
 **Course equivalency offerings**
 
-Use **[!UICONTROL Add New Language]** option when you add a module or a course to make it available in  multiple&nbsp;&nbsp;language  and format.
+Use **[!UICONTROL Add New Language]** option when you add a module or a course to make it available in  multiple  language  and format.
 
 **Learner Transcript**
 
@@ -1882,27 +1882,27 @@ Learning Manager offers managers and administrators the ability to download tran
 
 Learning Manager has introduced three new connectors in this  release,  so that learners can access and consume courses from the following content providers: Lynda.com, getAbstract, and Harvard ManageMentor.
 
-To know how to configure and use each of these connectors, see&nbsp; [Connectors](../integration-admin/feature-summary/connectors.md#main-pars_header).
+To know how to configure and use each of these connectors, see  [Connectors](../integration-admin/feature-summary/connectors.md#main-pars_header).
 
 **Unique ID for Learning Objects**
 
-While creating Learning Objects, now authors and administrators can specify unique IDs for the courses, learning programs, or certifications.&nbsp;If you want to enable unique ID when creating a learning object, click Settings > General. Select the Enable  check box  next to the Unique Learning Object Ids option.
+While creating Learning Objects, now authors and administrators can specify unique IDs for the courses, learning programs, or certifications. If you want to enable unique ID when creating a learning object, click Settings > General. Select the Enable  check box  next to the Unique Learning Object Ids option.
 
 **Discussion board for learners**
 
-Use the Discussion board in courses to&nbsp;interact with your peers and instructors.&nbsp;As a  learner  you can view all the posts for courses. However, you can also delete only those posts that you entered. For more information about Discussion board, see&nbsp; [Viewing and participating in discussions](../learners/feature-summary/courses.md#main-pars_header_1772461149).
+Use the Discussion board in courses to interact with your peers and instructors. As a  learner  you can view all the posts for courses. However, you can also delete only those posts that you entered. For more information about Discussion board, see  [Viewing and participating in discussions](../learners/feature-summary/courses.md#main-pars_header_1772461149).
 
 ## Enhancements {#Enhancements-3}
 
 **X out of Y courses**
 
-The completion criteria for learning objects such as courses, certifications, and learning plans can be set such that learners need to complete only X out of Y modules or courses.&nbsp;Authors can similarly set the completion criteria for certifications and learning plans as well.&nbsp;
+The completion criteria for learning objects such as courses, certifications, and learning plans can be set such that learners need to complete only X out of Y modules or courses. Authors can similarly set the completion criteria for certifications and learning plans as well. 
 
-For more information of this feature, see&nbsp; [Course completion criteria](../learners/feature-summary/courses.md#main-pars_image_1164377098).
+For more information of this feature, see  [Course completion criteria](../learners/feature-summary/courses.md#main-pars_image_1164377098).
 
 **Course Moderation**
 
-Administrators now receive notifications whenever an author edits or updates modules and republishes a course.&nbsp;
+Administrators now receive notifications whenever an author edits or updates modules and republishes a course. 
 
 **Administrator settings for resetting modules**
 
@@ -1910,11 +1910,11 @@ Now, administrators have the ability to configure the Reset Module option to all
 
 **Report Catalog**
 
-When you create reports in Learning Manager,&nbsp;you can generate reports and graphs for catalogs now.
+When you create reports in Learning Manager, you can generate reports and graphs for catalogs now.
 
 **Learning Plan enhancements**
 
-Administrators can now create Learning Plans of the types On Date. With the On Date Learning Plan, an administrator can specify the event name, choose the date for the event, and select the user group for whom the event belongs to.&nbsp;
+Administrators can now create Learning Plans of the types On Date. With the On Date Learning Plan, an administrator can specify the event name, choose the date for the event, and select the user group for whom the event belongs to. 
 
 **Course specific enrollment messages**
 
@@ -1926,11 +1926,11 @@ As an administrator, you can now enable Sticky feature for announcements.
 
 **Support for URL in announcements**
 
-You can add URLs as announcements by adding the URL in HTML.&nbsp;
+You can add URLs as announcements by adding the URL in HTML. 
 
 **Add New Delivery Types (Courses)**
 
-Adobe Learning Manager now lets you&nbsp;add delivery types for your courses.
+Adobe Learning Manager now lets you add delivery types for your courses.
 
 **Author role enhancements**
 
@@ -1942,7 +1942,7 @@ As an administrator, you can now assign author roles to external users.
 
 **Multiple authors**
 
-Learning Manager now lets&nbsp;multiple authors to simultaneously edit the same content group.
+Learning Manager now lets multiple authors to simultaneously edit the same content group.
 
 **Adobe Connect enhancements**
 
@@ -1952,7 +1952,7 @@ You can now configure a single Adobe Connect URL with multiple Prime accounts.
 
 Support for Japanese, Brazilian Portuguese, Italian is available from this release.
 
-&nbsp;
+ 
 
 +++
 
@@ -1994,11 +1994,11 @@ Release date: December 23, 2016.
 
 ## New features {#Newfeatures-1}
 
-Adobe enables enterprises to migrate their organization's training data and training content from their existing Learning Management Systems (LMS) to the Learning Manager LMS application.&nbsp;
+Adobe enables enterprises to migrate their organization's training data and training content from their existing Learning Management Systems (LMS) to the Learning Manager LMS application. 
 
-Learning Manager provides the necessary tools and templates so that your organization's integration Administrator can set up and perform the migration tasks.&nbsp;
+Learning Manager provides the necessary tools and templates so that your organization's integration Administrator can set up and perform the migration tasks. 
 
-For more information on Migration feature, refer to&nbsp; [Migration manual Help](../integration-admin/feature-summary/migration-manual.md)
+For more information on Migration feature, refer to  [Migration manual Help](../integration-admin/feature-summary/migration-manual.md)
 
 ## Enhancements {#Enhancements-4}
 
@@ -2006,13 +2006,13 @@ For more information on Migration feature, refer to&nbsp; [Migration manual Help
 
 As an administrator, you can now add specific domain names while adding external users. When learners register to the account, they can enter email addresses only from those domain names.
 
-You can also send email verification links to users' email when users register to the account. For more information on this enhancement, see&nbsp; [Add users/user groups](../administrators/feature-summary/add-users-user-groups.md#main-pars_header_1217981931).
+You can also send email verification links to users' email when users register to the account. For more information on this enhancement, see  [Add users/user groups](../administrators/feature-summary/add-users-user-groups.md#main-pars_header_1217981931).
 
 **Fluidic Player**
 
 Fluidic Player now allows you to modify the playback speed. You can choose from five speed variants that are available. Fluidic Player also allows you to control the volume settings when you take a course.
 
-As a learner, you can also skip forward or backward by 10 seconds using the new icons on either side of the play button in the Fluidic Player. For more information on these enhancements, see&nbsp; [Fluidic Player](../learners/feature-summary/fluidic-player.md).
+As a learner, you can also skip forward or backward by 10 seconds using the new icons on either side of the play button in the Fluidic Player. For more information on these enhancements, see  [Fluidic Player](../learners/feature-summary/fluidic-player.md).
 
 The Fluidic Player enhancements are applicable for video only.
 
@@ -2024,7 +2024,7 @@ Release date: December 06, 2016.
 
 ## Enhancement {#enhancement}
 
-As part of this update, Learning Manager provides an end point [PATCH/users/{id}](https://captivateprime.adobe.com/docs/primeapi/v1/#!/user/patch_users_id)&nbsp;to update users in an application. You can access this API end point in Admin role. Using**&nbsp;**this end point&nbsp;you can update the following information of Learning Manager users:
+As part of this update, Learning Manager provides an end point [PATCH/users/{id}](https://captivateprime.adobe.com/docs/primeapi/v1/#!/user/patch_users_id) to update users in an application. You can access this API end point in Admin role. Using** **this end point you can update the following information of Learning Manager users:
 
 * Name
 * Email
@@ -2036,7 +2036,7 @@ As part of this update, Learning Manager provides an end point [PATCH/users/{id}
 
 **Fluidic player**
 
-When you consume a course that was developed in Captivate using  `code cpQuizInfoStudentName` variable, the student name was not appearing as expected. This issue is fixed.&nbsp;
+When you consume a course that was developed in Captivate using  `code cpQuizInfoStudentName` variable, the student name was not appearing as expected. This issue is fixed. 
 
 +++
 
@@ -2050,40 +2050,40 @@ Release date: November 17, 2016.
 
 Shared Catalog feature enables Administrators across accounts to share or acquire Catalogs with learning objects. As an extension to this shared catalog feature we support propagation of the updates to learning objects such as Badges, Skills, Modules, Courses, Learning Programs, Certifications & Job Aids.
 
-For more information on this feature, refer to&nbsp; [Shared catalogs Help](../administrators/feature-summary/catalogs.md#propagation)
+For more information on this feature, refer to  [Shared catalogs Help](../administrators/feature-summary/catalogs.md#propagation)
 
 **L1 and L3 feedback**
 
-* L1 feedback dialog appears as soon as a learner completes course consumption. Also, the learner receives a notification about L1 feedback completion.&nbsp;
-* An option to add descriptive questions has been provided in L1 and L3 feedback feature. Administrators can add these descriptive questions to learners. This provision is in addition to the default set of questions provided by Learning Manager. You can add two descriptive questions for L1 feedback and one descriptive question for L3 feedback.&nbsp;  
+* L1 feedback dialog appears as soon as a learner completes course consumption. Also, the learner receives a notification about L1 feedback completion. 
+* An option to add descriptive questions has been provided in L1 and L3 feedback feature. Administrators can add these descriptive questions to learners. This provision is in addition to the default set of questions provided by Learning Manager. You can add two descriptive questions for L1 feedback and one descriptive question for L3 feedback.   
   For more information on this feature, refer to [L1 & L3 feedback descriptive questions Help](../administrators/feature-summary/courses.md#descriptive)
 
 **Export users**
 
-* Based on the request of some large enterprise users, a new option to download the list of all users in Learning Manager account is provided. In Administrator login, click&nbsp;**Users**&nbsp;on the left pane and click&nbsp;**Export user data&nbsp;**to download the list of users as an excel sheet.&nbsp;
+* Based on the request of some large enterprise users, a new option to download the list of all users in Learning Manager account is provided. In Administrator login, click **Users** on the left pane and click **Export user data **to download the list of users as an excel sheet. 
 
 ## Issues fixed {#Issuesfixed-1}
 
 **Course enrollments**
 
-* In some instances, when an Administrator tries to view course enrollments using learners tab, some of the enrolled learners names did not appear. This issue is fixed.&nbsp;
+* In some instances, when an Administrator tries to view course enrollments using learners tab, some of the enrolled learners names did not appear. This issue is fixed. 
 
 **Add courses**
 
-* While adding a skill to the course, if an author adds a skill which has a blank space at the end of the name then an error used to occur and the course was not saved. This issue is fixed.&nbsp;
+* While adding a skill to the course, if an author adds a skill which has a blank space at the end of the name then an error used to occur and the course was not saved. This issue is fixed. 
 
 **Consume courses**
 
-* In an ordered course, some learners were unable to move from one module to another while consuming a course as the modules were not being marked as completed. This issue is fixed.&nbsp;
-* In an ordered course, learners were unable to navigate among the modules within TOC during normal and revisit modes. This issue is fixed.&nbsp;
+* In an ordered course, some learners were unable to move from one module to another while consuming a course as the modules were not being marked as completed. This issue is fixed. 
+* In an ordered course, learners were unable to navigate among the modules within TOC during normal and revisit modes. This issue is fixed. 
 
 **Fluidic player**
 
-* In some instances, when a user uploads a module content with hidden frames/slides, the Table of Contents on the left pane used to display the hidden frames/slides. This issue is fixed.&nbsp;
+* In some instances, when a user uploads a module content with hidden frames/slides, the Table of Contents on the left pane used to display the hidden frames/slides. This issue is fixed. 
 
 **Reports**
 
-* The time taken to load reports is higher in the latest update of Learning Manager. This issue is fixed.&nbsp;
+* The time taken to load reports is higher in the latest update of Learning Manager. This issue is fixed. 
 
 +++
 
@@ -2095,56 +2095,56 @@ Release date: October 12, 2016.
 
 **Course reports**
 
-* For Universal Unique Identifier (UUID) enabled Learning Manager accounts, UUID appears in course enrollment report, learner transcripts, and Quiz score reports.&nbsp;
+* For Universal Unique Identifier (UUID) enabled Learning Manager accounts, UUID appears in course enrollment report, learner transcripts, and Quiz score reports. 
 
 ## Issues fixed {#Issuesfixed-2}
 
 **Job Aids**
 
-* In some instances, when a learner tries to navigate from Learning>Job Aids to Learning>Courses tab, courses were not loaded as expected in Learning>Courses tab. This issue is fixed.&nbsp;
+* In some instances, when a learner tries to navigate from Learning>Job Aids to Learning>Courses tab, courses were not loaded as expected in Learning>Courses tab. This issue is fixed. 
 
 **Add users**
 
 * In some instances, when a single user is added to Learning Manager application, an email notification is not received by the user. This issue is fixed.
-* Administrators were unable to download the CSV file if the CSV upload process fails. This issue is fixed, Administrators can download the latest CSV even if the CSV upload process fails.&nbsp;
-* If a CSV is imported after modifying self-registered user info with mixed case letters, then the self-registered user details were not displayed in Administrator user interface. This issue is fixed.&nbsp;
+* Administrators were unable to download the CSV file if the CSV upload process fails. This issue is fixed, Administrators can download the latest CSV even if the CSV upload process fails. 
+* If a CSV is imported after modifying self-registered user info with mixed case letters, then the self-registered user details were not displayed in Administrator user interface. This issue is fixed. 
 
 **Course reports**
 
-* In some instances, quiz scores did not appear for courses even though the scores appear in learner transcripts. This issue is fixed.&nbsp;
+* In some instances, quiz scores did not appear for courses even though the scores appear in learner transcripts. This issue is fixed. 
 
 **Enrollment reports**
 
-* In some instances, the learner's enrollment Excel reports were not being downloaded for the learning objects. This issue used to occur whenever non-ASCII or special characters were used in learning objects name. This issue is fixed.&nbsp;
+* In some instances, the learner's enrollment Excel reports were not being downloaded for the learning objects. This issue used to occur whenever non-ASCII or special characters were used in learning objects name. This issue is fixed. 
 
 **User login**
 
-* While setting up a password during registration or during reset, the error message did not appear even though the entered password is not adhering to the password policy. This issue is fixed.&nbsp;
+* While setting up a password during registration or during reset, the error message did not appear even though the entered password is not adhering to the password policy. This issue is fixed. 
 
 **Course effectiveness**
 
-* In learner role, course effectiveness was displayed as one of the&nbsp;**Sort By** filter options even when an Administrator disabled the course effectiveness for learners. This issue is fixed.&nbsp;
+* In learner role, course effectiveness was displayed as one of the **Sort By** filter options even when an Administrator disabled the course effectiveness for learners. This issue is fixed. 
 
 **Certifications**
 
-* When an Administrator removes learners from a recurring certification, an error used to occur and the Learning Manager application used to hang up. This issue is fixed.&nbsp;
+* When an Administrator removes learners from a recurring certification, an error used to occur and the Learning Manager application used to hang up. This issue is fixed. 
 
 **Reports**
 
-* When an Administrator tries to generate a certification report with **Till date **as an option, the inactive users were not displayed in the report. This issue is fixed.&nbsp;
-* When an Administrator clicks Course Reports link in Reports>MyReports tab, a pop-up dialog used to appear without a Close button. This issue is fixed.&nbsp;
+* When an Administrator tries to generate a certification report with **Till date **as an option, the inactive users were not displayed in the report. This issue is fixed. 
+* When an Administrator clicks Course Reports link in Reports>MyReports tab, a pop-up dialog used to appear without a Close button. This issue is fixed. 
 
 **Fluidic player**
 
-* While previewing courses as an Administrator or an Author, when a user chooses the Full-Screen mode in  Fluidic  player, the screen appears blank. This issue is fixed.&nbsp;
+* While previewing courses as an Administrator or an Author, when a user chooses the Full-Screen mode in  Fluidic  player, the screen appears blank. This issue is fixed. 
 
 **Multi-language support**
 
-* Question mark characters used to appear instead of Chinese characters in response to API calls by users. This issue is fixed.&nbsp;
+* Question mark characters used to appear instead of Chinese characters in response to API calls by users. This issue is fixed. 
 
 **API layer**
 
-* An error used to occur whenever a user tries to fetch default catalog  id  using&nbsp;get/catalog/catalog Id API. A default catalog id can be similar to '970_default'. This issue is fixed.&nbsp;
+* An error used to occur whenever a user tries to fetch default catalog  id  using get/catalog/catalog Id API. A default catalog id can be similar to '970_default'. This issue is fixed. 
 
 **User interface**
 
@@ -2160,12 +2160,12 @@ Release date: September 19, 2016.
 
 **Learner transcripts**
 
-* In some instances, if there are more than twenty inactive/deleted learners in an account, the inactive learners above twenty were not displayed in the search drop-down list of learner transcript dialog. This issue is fixed.&nbsp;
-* If an external user account is expired, then its learners were not listed in the generated learner transcript. This issue is fixed.&nbsp;
+* In some instances, if there are more than twenty inactive/deleted learners in an account, the inactive learners above twenty were not displayed in the search drop-down list of learner transcript dialog. This issue is fixed. 
+* If an external user account is expired, then its learners were not listed in the generated learner transcript. This issue is fixed. 
 
 **Catalogs**
 
-* Some of the customers were facing an issue with display of user groups in a Catalog. Even if there are more than twenty user groups in a catalog, only 20 user groups were displayed. We have fixed this issue by displaying 200 user groups in a page.&nbsp;
+* Some of the customers were facing an issue with display of user groups in a Catalog. Even if there are more than twenty user groups in a catalog, only 20 user groups were displayed. We have fixed this issue by displaying 200 user groups in a page. 
 
 +++
 
@@ -2173,12 +2173,12 @@ Release date: September 19, 2016.
 
 Release date: September 13, 2016.
 
-In this update release, we have fixed some of the product engineering backend issues to enhance customer experience.&nbsp;
+In this update release, we have fixed some of the product engineering backend issues to enhance customer experience. 
 
 ## Issues fixed {#Issuesfixed-4}
 
 * There was an issue with module data export in learner transcripts resulting in improper export data. This issue is fixed.
-* If a user uses an email id extension with more than four characters, it was not supported. For example, if an email id is abcd@company.world it was not supported as the extension world was more than four characters. We have fixed it to support the extension with more than four characters.&nbsp;
+* If a user uses an email id extension with more than four characters, it was not supported. For example, if an email id is abcd@company.world it was not supported as the extension world was more than four characters. We have fixed it to support the extension with more than four characters. 
 
 +++
 
@@ -2190,61 +2190,61 @@ Release date: September 01, 2016.
 
 **Course effectiveness**
 
-Now, Administrators can customize the course or learning program effectiveness feature to hide the effectiveness score from learners view.&nbsp;
+Now, Administrators can customize the course or learning program effectiveness feature to hide the effectiveness score from learners view. 
 
 **Add external users**
 
-Learning Manager has enhanced the maximum limit of external self registrations to 5 digits.&nbsp;
+Learning Manager has enhanced the maximum limit of external self registrations to 5 digits. 
 
 **Reports**
 
-All the downloaded reports and learners lists for all learning objects display deleted users now with clear demarcation for deleted users.&nbsp;
+All the downloaded reports and learners lists for all learning objects display deleted users now with clear demarcation for deleted users. 
 
 ## Issues fixed {#Issuesfixed-5}
 
 **Course life cycle**
 
-In some instances, when an author edits a shared course to update a modified module information, a warning message used to appear that user cannot edit as previous changes are being processed. This issue is fixed.&nbsp;
+In some instances, when an author edits a shared course to update a modified module information, a warning message used to appear that user cannot edit as previous changes are being processed. This issue is fixed. 
 
 **Multi-language support**
 
-In some of the features of Learning Manager user interface, the messages were not being translated and displayed to the user in appropriate locale sentences. This issue is fixed.&nbsp;
+In some of the features of Learning Manager user interface, the messages were not being translated and displayed to the user in appropriate locale sentences. This issue is fixed. 
 
 **Add users**
 
-* When a deleted user is added back as a single user, the user was not added to the 'all users' user group by default. This issue is fixed.&nbsp;
-* A limited number of profiles used to appear in external enrollment and self enrollment profile change dialogs. Pagination is implemented now.&nbsp;
+* When a deleted user is added back as a single user, the user was not added to the 'all users' user group by default. This issue is fixed. 
+* A limited number of profiles used to appear in external enrollment and self enrollment profile change dialogs. Pagination is implemented now. 
 
 **Job aids**
 
-Whenever a learner accesses Job Aids tab in the learner account, an error message used to appear as 'This job aid does not exist in your list anymore' before loading the content. This issue is fixed. &nbsp;
+Whenever a learner accesses Job Aids tab in the learner account, an error message used to appear as 'This job aid does not exist in your list anymore' before loading the content. This issue is fixed.  
 
 **Catalogs**
 
-During Catalog creation, while adding courses as content to the catalog, the Sort By filter was not working as expected. This issue is fixed.&nbsp;
+During Catalog creation, while adding courses as content to the catalog, the Sort By filter was not working as expected. This issue is fixed. 
 
 **Settings**
 
-In account settings, when an Administrator uses a sub domain which was already used by some other account, an error message was not appearing to the Administrator. This issue is fixed.&nbsp;
+In account settings, when an Administrator uses a sub domain which was already used by some other account, an error message was not appearing to the Administrator. This issue is fixed. 
 
 **API Layer**
 
-* When include manager is used while fetching users, complete hierarchy of managers was fetched instead of the user's immediate manager. This issue is fixed.&nbsp;
-* When a user with learner scope authorization permission tries to add users, a generic error message used to appear. This issue is fixed and an Unauthorized access message appears to the learner now.&nbsp;
-* When a user tries to delete a last existing user in a user group, a 204 error message used to appear to the user. This issue is fixed now by displaying a relevant error message to the user stating that the group should have at least one user.&nbsp;
-* The space, if exists at the beginning of the name, was trimmed while displaying the user name in GET/users API. This is fixed now.&nbsp;
+* When include manager is used while fetching users, complete hierarchy of managers was fetched instead of the user's immediate manager. This issue is fixed. 
+* When a user with learner scope authorization permission tries to add users, a generic error message used to appear. This issue is fixed and an Unauthorized access message appears to the learner now. 
+* When a user tries to delete a last existing user in a user group, a 204 error message used to appear to the user. This issue is fixed now by displaying a relevant error message to the user stating that the group should have at least one user. 
+* The space, if exists at the beginning of the name, was trimmed while displaying the user name in GET/users API. This is fixed now. 
 * The draft courses were also returned in response when Administrator tries to fetch all courses.These draft courses are supposed to be private to the author. This issue is fixed, draft courses do not return now.
 
 **Adobe Connect integration**
 
-* In some instances of Adobe Connect based virtual classroom sessions, the attendance was not being marked automatically after the session. This issue used to occur only when a login id was used by instructor to login instead of email id. It is fixed now.&nbsp;
-* In some instances, instructor name used to appear multiple times in the Instructor drop-down list during Adobe Connect based Virtual classroom module creation. This issue is fixed.&nbsp;
+* In some instances of Adobe Connect based virtual classroom sessions, the attendance was not being marked automatically after the session. This issue used to occur only when a login id was used by instructor to login instead of email id. It is fixed now. 
+* In some instances, instructor name used to appear multiple times in the Instructor drop-down list during Adobe Connect based Virtual classroom module creation. This issue is fixed. 
 
 +++
 
 +++Update 20
 
-Release date: August 22, 2016.&nbsp;
+Release date: August 22, 2016. 
 
 ## Enhancements {#Enhancements-8}
 
@@ -2260,57 +2260,57 @@ As part of this update, we have added the following new APIs to meet some of our
 1. POST userGroups /{id}/Users
 1. GET /users/userId/userGroups
 
-We have also enhanced the existing User model with the following additions:&nbsp;
+We have also enhanced the existing User model with the following additions: 
 
 1. Manager model is added as relationship to User model
 1. userGroupId is added as a new parameter to GetUsers
 
 **Learner Transcript**
 
-When a user generates Learner Transcript for a learner, the pop-up dialog used to appear for a very short time and disappear without prompting for user action. We have enhanced the user experience by providing a pop-up that pauses and prompts the user to click OK.&nbsp;
+When a user generates Learner Transcript for a learner, the pop-up dialog used to appear for a very short time and disappear without prompting for user action. We have enhanced the user experience by providing a pop-up that pauses and prompts the user to click OK. 
 
 **Adobe Connect integration**
 
-Login id is provided as a new optional field in Adobe Connect integration settings for the users who do not use their email id to log in.&nbsp;
+Login id is provided as a new optional field in Adobe Connect integration settings for the users who do not use their email id to log in. 
 
 ## Issues fixed {#Issuesfixed-6}
 
 **Course reports**
 
-* When a course module consists of open type questions or only survey questions, a blank quiz score report used to appear when it was exported. This issue is fixed.&nbsp;
-* In some instances, quiz score report was not getting downloaded when a user uses the Export quiz score link. This issue is fixed.&nbsp;
+* When a course module consists of open type questions or only survey questions, a blank quiz score report used to appear when it was exported. This issue is fixed. 
+* In some instances, quiz score report was not getting downloaded when a user uses the Export quiz score link. This issue is fixed. 
 
 **Create courses**
 
-The course Settings page in Author role was not appearing whenever a skill associated with that course is retired by the Administrator. This issue is fixed.&nbsp;
+The course Settings page in Author role was not appearing whenever a skill associated with that course is retired by the Administrator. This issue is fixed. 
 
 **Smart enroller**
 
-The search field was not supporting special characters as input, and as a result, the search results were not displayed. This issue is fixed.&nbsp;
+The search field was not supporting special characters as input, and as a result, the search results were not displayed. This issue is fixed. 
 
 +++
 
 +++Update 19
 
-Release date: August 11, 2016.&nbsp;
+Release date: August 11, 2016. 
 
 ## Enhancements {#Enhancements-9}
 
 **Smart enroller**
 
-The search engine performance has been enhanced to provide more accurate search results to users.&nbsp;
+The search engine performance has been enhanced to provide more accurate search results to users. 
 
 **Adobe Connect integration**
 
-The integration request verification/authentication process has been enhanced in Learning Manager application.&nbsp;
+The integration request verification/authentication process has been enhanced in Learning Manager application. 
 
 ## Issues fixed {#Issuesfixed-7}
 
 **Add users**
 
-* When there are large number of Learning Manager users, there was a delay in loading users and user groups page. This issue is fixed.&nbsp;
-* After Administrator completes uploading CSV file with new users, the list of users in the page was not updated with new users until the page was refreshed. This issue is fixed.&nbsp;
-* Sometimes, after importing users using CSV, the user id value in the page used to be replaced with email id. This issue is fixed.&nbsp;
+* When there are large number of Learning Manager users, there was a delay in loading users and user groups page. This issue is fixed. 
+* After Administrator completes uploading CSV file with new users, the list of users in the page was not updated with new users until the page was refreshed. This issue is fixed. 
+* Sometimes, after importing users using CSV, the user id value in the page used to be replaced with email id. This issue is fixed. 
 
 **Create user groups**
 
@@ -2318,50 +2318,50 @@ In some instances, user count was not displayed in default user groups page of L
 
 **Learner transcript**
 
-Attribute values of active fields were displayed incorrectly in learner transcripts for Certifications. This issue is fixed.&nbsp;
+Attribute values of active fields were displayed incorrectly in learner transcripts for Certifications. This issue is fixed. 
 
 **Multi-account sharing**
 
-In a scenario where an account administrator shared a course catalog with the receiver and updated test out or pre-work module later, pre-work or test out module content used to play in content module for the receiver. This issue is fixed.&nbsp;
+In a scenario where an account administrator shared a course catalog with the receiver and updated test out or pre-work module later, pre-work or test out module content used to play in content module for the receiver. This issue is fixed. 
 
 **Themes and branding**
 
-When an Administrator changes a theme to the application using Live preview widget and switches his/her role, the Live preview widget was not functioning as expected in a new role. This issue is fixed.&nbsp;
+When an Administrator changes a theme to the application using Live preview widget and switches his/her role, the Live preview widget was not functioning as expected in a new role. This issue is fixed. 
 
 **Multi-language support**
 
-When an Administrator changes the Locale of the application to Chinese Simplified or Spanish, some of the menu content in the left pane, online instructions and pop-up messages were not displayed in meaningful words or sentences. This issue is fixed.&nbsp;
+When an Administrator changes the Locale of the application to Chinese Simplified or Spanish, some of the menu content in the left pane, online instructions and pop-up messages were not displayed in meaningful words or sentences. This issue is fixed. 
 
 **Fluidic player**
 
-* When an author creates a course with AICC or Tin Can content and tries to preview the content, the content was not played. This issue is fixed.&nbsp;
-* Module preview was not functioning while creating a course or while editing the course by an author. This issue is fixed.&nbsp;
+* When an author creates a course with AICC or Tin Can content and tries to preview the content, the content was not played. This issue is fixed. 
+* Module preview was not functioning while creating a course or while editing the course by an author. This issue is fixed. 
 
 **Catalogs**
 
-When a learner tries to access catalogs/learning programs URL directly in the browser, it used to get redirected to courses. This issue is fixed.&nbsp;
+When a learner tries to access catalogs/learning programs URL directly in the browser, it used to get redirected to courses. This issue is fixed. 
 
 **Salesforce integration**
 
-* After establishing a Salesforce or FTP connection, in Map Attributes page the drop-down arrows for the fields were not displayed in IE, Edge and Safari browsers. Also, some of the pop-up messages were not displayed in the workflows. This issue is fixed.&nbsp;
-* In some cases, when an Administrator tries to sync the .csv imported data in FTP connector, the sync used to fail with replicated entries. This issue is fixed.&nbsp;
+* After establishing a Salesforce or FTP connection, in Map Attributes page the drop-down arrows for the fields were not displayed in IE, Edge and Safari browsers. Also, some of the pop-up messages were not displayed in the workflows. This issue is fixed. 
+* In some cases, when an Administrator tries to sync the .csv imported data in FTP connector, the sync used to fail with replicated entries. This issue is fixed. 
 
 **API Layer**
 
 * When an Administrator authorizes the external learner using OAuth authentication, sometimes the external learners were not able to log in to the application. This issue is fixed.
-* Sometimes, when there is an API call for learner Job Aids, unauthorized access error used to display. This issue is fixed.&nbsp;
+* Sometimes, when there is an API call for learner Job Aids, unauthorized access error used to display. This issue is fixed. 
 
 **Settings**
 
-In data sources page, when an auto schedule time is set and saved, sometimes it reverts to the old state. This issue is fixed.&nbsp;
+In data sources page, when an auto schedule time is set and saved, sometimes it reverts to the old state. This issue is fixed. 
 
 **User group reporting**
 
-User group values in filter were not being populated when report type is chosen as Custom. This issue is fixed.&nbsp;
+User group values in filter were not being populated when report type is chosen as Custom. This issue is fixed. 
 
 **Adobe Connect integration**
 
-Inappropriate heading title used to appear for Adobe Connect integration after completing the connection successfully. The page heading text is corrected.&nbsp;
+Inappropriate heading title used to appear for Adobe Connect integration after completing the connection successfully. The page heading text is corrected. 
 
 **Reports**
 
@@ -2371,50 +2371,50 @@ Sometimes, even if 'show data for current values'** **option is selected, the la
 
 +++Update 18
 
-Release date: July 31, 2016.&nbsp;
+Release date: July 31, 2016. 
 
 ## New features and enhancements {#newfeaturesandenhancements}
 
 For a list of new features and enhancements in Learning Manager July release, refer to [What's New](../whats-new-july-2017.md#main-pars_text).
 
-Some of the enhancement features are listed below for your reference.&nbsp;
+Some of the enhancement features are listed below for your reference. 
 
 **Learner transcript**
 
-Learning Manager provides you a feature to generate transcripts for your organization's Learning Manager learners. For more information, refer to&nbsp; [Learner Transcripts feature help content](../administrators/feature-summary/learner-transcripts.md).&nbsp;
+Learning Manager provides you a feature to generate transcripts for your organization's Learning Manager learners. For more information, refer to  [Learner Transcripts feature help content](../administrators/feature-summary/learner-transcripts.md). 
 
 ** Export  badge as PDF**
 
-Learning Manager allows you to export your badges as PDF files. For more information, refer to&nbsp; [Badges feature content](../administrators/feature-summary/badges.md).&nbsp;
+Learning Manager allows you to export your badges as PDF files. For more information, refer to  [Badges feature content](../administrators/feature-summary/badges.md). 
 
 **Quiz score for modules**
 
-You can add quiz score for Classroom, Virtual classroom and activity modules.&nbsp;
+You can add quiz score for Classroom, Virtual classroom and activity modules. 
 
 **Add users**
 
-* You can move learners from one  self registration  group to another group.&nbsp;
-* You can move users from one external group to another external group.&nbsp;
-* You can make a user of  external  group as Manager of the same external group.&nbsp;
-* After adding an external user group to Learning Manager, you can also pause the external  users  registration process.&nbsp;At any point in time, you can always revoke the blockage (pause) by choosing a Resume option.
+* You can move learners from one  self registration  group to another group. 
+* You can move users from one external group to another external group. 
+* You can make a user of  external  group as Manager of the same external group. 
+* After adding an external user group to Learning Manager, you can also pause the external  users  registration process. At any point in time, you can always revoke the blockage (pause) by choosing a Resume option.
 * Now, you can edit the name and email id of learners.
 
 **Self-enrollment**
 
-Learners can also unenroll themselves from the learning objects such as course, learning program or certification. However,  learner  cannot un-enroll from a learning object after completing a learning object.&nbsp;
+Learners can also unenroll themselves from the learning objects such as course, learning program or certification. However,  learner  cannot un-enroll from a learning object after completing a learning object. 
 
 **Consuming learning objects**
 
-Now, Administrators can mark a learning activity of learners as complete.&nbsp;
+Now, Administrators can mark a learning activity of learners as complete. 
 
 **Reports**
 
-* You can subscribe to course, learning  program  or certificate reports.&nbsp;You can also subscribe to individual course reports for data like quiz score and learner status.&nbsp;The subscriptions will be delivered to your email ID as registered in Learning Manager account. You can also change this email id. &nbsp;
-* When you export Certification enrollment report, a new column named&nbsp;**Due Date&nbsp;**is also exported. This column data enables Administrators to know the learners who missed their learning object consumption deadlines.&nbsp;
+* You can subscribe to course, learning  program  or certificate reports. You can also subscribe to individual course reports for data like quiz score and learner status. The subscriptions will be delivered to your email ID as registered in Learning Manager account. You can also change this email id.  
+* When you export Certification enrollment report, a new column named **Due Date **is also exported. This column data enables Administrators to know the learners who missed their learning object consumption deadlines. 
 
 **Email templates**
 
-Now, you can edit the header of email templates.&nbsp;
+Now, you can edit the header of email templates. 
 
 +++
 
@@ -2426,7 +2426,7 @@ Release date: June 15, 2016.
 
 **Add users**
 
-When there are large number of Learning Manager users, there was a delay in loading users and user groups page. This issue is fixed.&nbsp;
+When there are large number of Learning Manager users, there was a delay in loading users and user groups page. This issue is fixed. 
 
 **Create user groups**
 
@@ -2440,7 +2440,7 @@ Release date: June 10, 2016.
 
 ## Issue fixed {#Issuefixed-1}
 
-Some customers faced problems in using Single sign-on feature in Learning Manager. This issue has been fixed by referring Learning Manager's entityId to a URL (https://captivateprime.adobe.com) instead of a keyword. Learning Manager conforms to SAML 2.0 specification.&nbsp;
+Some customers faced problems in using Single sign-on feature in Learning Manager. This issue has been fixed by referring Learning Manager's entityId to a URL (https://captivateprime.adobe.com) instead of a keyword. Learning Manager conforms to SAML 2.0 specification. 
 
 +++
 
@@ -2461,29 +2461,29 @@ For auto upload feature of CSV using FTP, Administrators receive e-mail notifica
 
 **Add external partners**
 
-When external learners visit the registration page using an external profile URL, the name of external profile is displayed in the registration page for better identification.&nbsp;
+When external learners visit the registration page using an external profile URL, the name of external profile is displayed in the registration page for better identification. 
 
 ## Issues fixed {#Issuesfixed-9}
 
 **Preview and publish courses**
 
-* In author role, when you preview a course which was uploaded from Captivate as a SCORM+SWF content with `code $$cpQuizInfoStudentName$$`&nbsp;variable, null value was displayed for variable. This issue is fixed.&nbsp;
-* When a Presenter course with title containing apostrophe (') is published and viewed in Learning Manager, question marks (???) used to appear in TOC. This issue is fixed.&nbsp;
+* In author role, when you preview a course which was uploaded from Captivate as a SCORM+SWF content with `code $$cpQuizInfoStudentName$$` variable, null value was displayed for variable. This issue is fixed. 
+* When a Presenter course with title containing apostrophe (') is published and viewed in Learning Manager, question marks (???) used to appear in TOC. This issue is fixed. 
 
 **Certifications**
 
-* If a certification is associated with a catalog and when the certification recurs, it appears in all the associated catalogs. Earlier, there were some instances where users could not view the recurring certifications in their catalogs.&nbsp;
-* While creating certifications, if an administrator enters the **days to complete **value which is greater than or equal to validity period of the certification, a warning message appears. Earlier, the warning message was not shown to the administrators.&nbsp;
+* If a certification is associated with a catalog and when the certification recurs, it appears in all the associated catalogs. Earlier, there were some instances where users could not view the recurring certifications in their catalogs. 
+* While creating certifications, if an administrator enters the **days to complete **value which is greater than or equal to validity period of the certification, a warning message appears. Earlier, the warning message was not shown to the administrators. 
 * The certification **validity** is displayed to users in terms of months. Earlier, the base value was appearing in terms of years.
 
 **Define learning programs**
 
-The deadline does not appear for default learning program instances. Earlier, a pre-defined deadline used to appear which may not be relevant to users.&nbsp;
+The deadline does not appear for default learning program instances. Earlier, a pre-defined deadline used to appear which may not be relevant to users. 
 
 **Create courses using modules**
 
-* When an author updated a module of a blended course, the attendance page did not appear in administrator role. This issue is fixed.&nbsp;
-* When a course instance name contains colon (:), the export action for learners list failed. This issue is fixed.&nbsp;
+* When an author updated a module of a blended course, the attendance page did not appear in administrator role. This issue is fixed. 
+* When a course instance name contains colon (:), the export action for learners list failed. This issue is fixed. 
 
 +++
 
@@ -2495,22 +2495,22 @@ Release date: May 04, 2016
 
 **Catalogs**
 
-When a learner accesses catalog, the default focus shifts across tabs based on the availability of learning objects, in the following order: 1. Courses 2. Programs 3. Certifications and 4. Job Aids. For example, if the courses are not available in Courses tab for that learner, the focus shifts to the next learning object which is Programs if there are learning programs.&nbsp;
+When a learner accesses catalog, the default focus shifts across tabs based on the availability of learning objects, in the following order: 1. Courses 2. Programs 3. Certifications and 4. Job Aids. For example, if the courses are not available in Courses tab for that learner, the focus shifts to the next learning object which is Programs if there are learning programs. 
 
 **Account settings**
 
-A feedback option is provided in the confirmation dialog of Account de-activation when an Administrator chooses to de-activate an account.&nbsp;
+A feedback option is provided in the confirmation dialog of Account de-activation when an Administrator chooses to de-activate an account. 
 
 ## Issues fixed {#Issuesfixed-10}
 
 **Export reports**
 
-* Export of learners list used to fail when a large set of users are enrolled in a learning program. This issue is fixed.&nbsp;
+* Export of learners list used to fail when a large set of users are enrolled in a learning program. This issue is fixed. 
 * When a course has two instances with same name and the name of the instance is long, two worksheets were not created in the exported excel file. This issue is fixed.
 
 **Bulk enrollment**
 
-When a large number of learners are enrolled to learning objects such as learning programs, courses, certifications, job-aids and learning plans, the enrollment used to fail. This issue is fixed.&nbsp;
+When a large number of learners are enrolled to learning objects such as learning programs, courses, certifications, job-aids and learning plans, the enrollment used to fail. This issue is fixed. 
 
 +++
 
@@ -2522,22 +2522,22 @@ Release date: April 20, 2016
 
 **Create courses using modules**
 
-When a module content with long file name is uploaded, there were issues with appearance of buttons. Also, the module upload and delete options didn't work as expected. This issue is fixed.&nbsp;
+When a module content with long file name is uploaded, there were issues with appearance of buttons. Also, the module upload and delete options didn't work as expected. This issue is fixed. 
 
 **Import CSV**
 
-As per the request from US customers, the FTP CSV auto upload time has been changed from midnight GMT to midnight PST.&nbsp;
+As per the request from US customers, the FTP CSV auto upload time has been changed from midnight GMT to midnight PST. 
 
 **Export reports**
 
-Export of enrollment data used to fail if one of the enrolled learners is deleted after consuming the course. This issue is fixed.&nbsp;
+Export of enrollment data used to fail if one of the enrolled learners is deleted after consuming the course. This issue is fixed. 
 
 **E-mail templates**
 
-* The word&nbsp;**partners,&nbsp;**which was used to represent external groups,**&nbsp;**is**&nbsp;**removed from e-mail templates body and title. External groups are not necessarily called partners.  
-  **Note:&nbsp;**This updated template does not appear if the default template is modified already. To view the updated template click**&nbsp;Revert to Original&nbsp;**in&nbsp;**Template Preview**&nbsp;dialog.&nbsp;
+* The word **partners, **which was used to represent external groups,** **is** **removed from e-mail templates body and title. External groups are not necessarily called partners.  
+  **Note:** This updated template does not appear if the default template is modified already. To view the updated template click** Revert to Original **in **Template Preview** dialog. 
 
-* The URL is not clickable in the e-mail received by Administrators whenever&nbsp;**Profile Created(Self-Registration)&nbsp;**and**&nbsp;Profile Created(External/Partners)**&nbsp;email templates are edited. This issue is fixed.
+* The URL is not clickable in the e-mail received by Administrators whenever **Profile Created(Self-Registration) **and** Profile Created(External/Partners)** email templates are edited. This issue is fixed.
 
 +++
 
@@ -2549,59 +2549,59 @@ Release date: April 07, 2016
 
 **Job Aids**
 
-Create Job Aids using a URL. You can mention just a URL name in Job Aid creation workflow and create Job Aid if you want to use any existing online content as a Job Aid.&nbsp;
+Create Job Aids using a URL. You can mention just a URL name in Job Aid creation workflow and create Job Aid if you want to use any existing online content as a Job Aid. 
 
 **Add learners**
 
-Editing of single user's data such as name, e-mail, profile, and Manager's name is allowed. All the corresponding user groups are updated with the latest user data.&nbsp;
+Editing of single user's data such as name, e-mail, profile, and Manager's name is allowed. All the corresponding user groups are updated with the latest user data. 
 
 **Export reports**
 
-Manager name, learning object name, and user-defined non-unique value columns from CSV are added to the exported learners list for learning objects. Earlier, only the basic data of learners such as name, date, e-mail and status used to appear.&nbsp;
+Manager name, learning object name, and user-defined non-unique value columns from CSV are added to the exported learners list for learning objects. Earlier, only the basic data of learners such as name, date, e-mail and status used to appear. 
 
 **Add external partners**
 
-Learning Manager application does not allow external learners to log into the application after their account is expired. External partners can view their account status in the application.&nbsp;
+Learning Manager application does not allow external learners to log into the application after their account is expired. External partners can view their account status in the application. 
 
 **Certifications**
 
-You can renew certifications in terms of months by mentioning the value in **Validity** field. Earlier, the certification renewal was allowed only in terms of years.&nbsp;
+You can renew certifications in terms of months by mentioning the value in **Validity** field. Earlier, the certification renewal was allowed only in terms of years. 
 
 ## Issues fixed {#Issuesfixed-12}
 
 **Announcements**
 
-In Administrator login, pagination was not working in Announcements page. This issue is fixed.&nbsp;
+In Administrator login, pagination was not working in Announcements page. This issue is fixed. 
 
 **Learning programs and plans**
 
-* When a learner tries to skip an ordered course module in a learning program, an error message was not displayed. This issue is fixed now. An error message **Can't skip modules **appears.&nbsp;
-* Courses were not being added to learning programs whenever pagination is used on the course list. This issue is fixed.&nbsp;
-* **Retired **tab was appearing twice in Learning programs > instances. This issue is fixed.&nbsp;
+* When a learner tries to skip an ordered course module in a learning program, an error message was not displayed. This issue is fixed now. An error message **Can't skip modules **appears. 
+* Courses were not being added to learning programs whenever pagination is used on the course list. This issue is fixed. 
+* **Retired **tab was appearing twice in Learning programs > instances. This issue is fixed. 
 
 **Job Aids**
 
-* When a learner removes job aids from the **Learning** tab, **Name** sorting was not working as expected until the page is refreshed. This issue is fixed.&nbsp;
+* When a learner removes job aids from the **Learning** tab, **Name** sorting was not working as expected until the page is refreshed. This issue is fixed. 
 
-* If a Job Aid is part of multiple courses, the courses were not displayed in the Job Aids list. This issue is fixed.&nbsp;
-* If a learner zooms the browser in or out, the pagination for Job aids list was not working as expected. This issue is fixed.&nbsp;
+* If a Job Aid is part of multiple courses, the courses were not displayed in the Job Aids list. This issue is fixed. 
+* If a learner zooms the browser in or out, the pagination for Job aids list was not working as expected. This issue is fixed. 
 
 **Course taking**
 
-* If a learner zooms the browser in or out, the pagination for courses was not working as expected. This issue is fixed.&nbsp;
+* If a learner zooms the browser in or out, the pagination for courses was not working as expected. This issue is fixed. 
 
 **Create skills**
 
-In learners login, the skill name tool tip in **Skills map **was**&nbsp;**not displaying the**&nbsp;**full name. This issue is fixed.&nbsp;
+In learners login, the skill name tool tip in **Skills map **was** **not displaying the** **full name. This issue is fixed. 
 
 **Add external partners**
 
-* A text message has been included in the external users registration page as **Users must first register and create a username password for subsequent logins**.&nbsp;
+* A text message has been included in the external users registration page as **Users must first register and create a username password for subsequent logins**. 
 
 **User notifications**
 
-* When an external learner clicks the&nbsp;**Open Notes&nbsp;**link in Re-visit course email notification, player opens up but the notes panel was not working. This issue is fixed. &nbsp;
-* When an external learner tries to open the pre-work or test-out modules using&nbsp;**Open Notes**&nbsp;link in Re-visit course email notification, notes content was not visible. This issue is fixed.&nbsp;
+* When an external learner clicks the **Open Notes **link in Re-visit course email notification, player opens up but the notes panel was not working. This issue is fixed.  
+* When an external learner tries to open the pre-work or test-out modules using **Open Notes** link in Re-visit course email notification, notes content was not visible. This issue is fixed. 
 
 **Create courses using modules**
 
@@ -2609,7 +2609,7 @@ When an Administrator tries to enroll learners to a blended course that contains
 
 **Export reports**
 
-If a question text contains more than 255 characters and enabled for SCORM 1.2 format, then quiz reporting of such questions didn't work. This issue is fixed.&nbsp;
+If a question text contains more than 255 characters and enabled for SCORM 1.2 format, then quiz reporting of such questions didn't work. This issue is fixed. 
 
 +++
 
@@ -2621,34 +2621,34 @@ Release date: March 15, 2016
 
 **Create courses with modules**
 
-* In Administrator login, when you try to create new instance for courses from **Retired **tab, an error used to occur. This issue is fixed.&nbsp;
-* In Administrator login of localized content, while enrolling learners to course instance, the actions and enroll screen layouts were distorted. This issue is fixed.&nbsp;
-* When an author is creating Classroom or Virtual classroom modules, the date calendar's default month used to appear as Jan, 2015. This issue is fixed to reflect the current date by default.&nbsp;
-* When a course instance name consists of forward or backward slash, the export action of learners list used to fail. This issue is fixed.&nbsp;
+* In Administrator login, when you try to create new instance for courses from **Retired **tab, an error used to occur. This issue is fixed. 
+* In Administrator login of localized content, while enrolling learners to course instance, the actions and enroll screen layouts were distorted. This issue is fixed. 
+* When an author is creating Classroom or Virtual classroom modules, the date calendar's default month used to appear as Jan, 2015. This issue is fixed to reflect the current date by default. 
+* When a course instance name consists of forward or backward slash, the export action of learners list used to fail. This issue is fixed. 
 
 **Announcements**
 
-When a learner hovers mouse on a video announcement, the cursor was not changing to a pointed finger as expected. This issue is fixed.&nbsp;
+When a learner hovers mouse on a video announcement, the cursor was not changing to a pointed finger as expected. This issue is fixed. 
 
 **User notifications**
 
-When an external learner clicks the **Open Notes **link in Re-visit course email notification, it was not working. This issue is fixed now. This link opens up the Player with notes, even when the user is not logged in to Learning Manager. &nbsp;
+When an external learner clicks the **Open Notes **link in Re-visit course email notification, it was not working. This issue is fixed now. This link opens up the Player with notes, even when the user is not logged in to Learning Manager.  
 
 **French and German language support**
 
-The Help URLs in CSV upload feature were traversing to English help content. This issue is fixed.&nbsp;
+The Help URLs in CSV upload feature were traversing to English help content. This issue is fixed. 
 
 **Preview and Publish courses**
 
-In author login, when you preview Presenter 10 and 11 TinCan API (SWF/HTML) content, the content was not working. This issue is fixed.&nbsp;
+In author login, when you preview Presenter 10 and 11 TinCan API (SWF/HTML) content, the content was not working. This issue is fixed. 
 
 **Customizable emails**
 
-The title names in Email templates were not appropriate. The content is updated in these template titles to make them readable. &nbsp;
+The title names in Email templates were not appropriate. The content is updated in these template titles to make them readable.  
 
 **Job Aids**
 
-In Internet Explorer 11 browser, Job Aid name and icon were appearing as distorted in Author and Administrator's preview. This issue is fixed.&nbsp;
+In Internet Explorer 11 browser, Job Aid name and icon were appearing as distorted in Author and Administrator's preview. This issue is fixed. 
 
 +++
 
@@ -2660,15 +2660,15 @@ Release date: February 28, 2016.
 
 ##### Job Aids
 
-Job Aids is&nbsp;a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.  Administrator  can track the number of downloads per Job Aid.&nbsp;
+Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.  Administrator  can track the number of downloads per Job Aid. 
 
-For more information on this feature, refer to&nbsp; [Job Aids Help](../learners/feature-summary/job-aids.md).
+For more information on this feature, refer to  [Job Aids Help](../learners/feature-summary/job-aids.md).
 
 ##### Announcements
 
 An announcement is a multimedia message (text, image or video) that an Administrator can craft and broadcast to a defined set of users. Use Announcements to motivate learners to take up  trainings  and thus build a learning culture.
 
-For more information on this feature, refer to&nbsp; [Announcements Help](../learners/feature-summary/announcements.md).
+For more information on this feature, refer to  [Announcements Help](../learners/feature-summary/announcements.md).
 
 ##### Tin Can API support
 
@@ -2680,7 +2680,7 @@ For more information, contact Adobe support team.
 
 You can create a learning path by assigning a follow-up course or any learning activity automatically.
 
-Events for learning plans have been updated.  Couple  of new events have been added. Refer to&nbsp; [Learning plans](../learners/feature-summary/learning-programs.md)&nbsp;for more information.
+Events for learning plans have been updated.  Couple  of new events have been added. Refer to  [Learning plans](../learners/feature-summary/learning-programs.md) for more information.
 
 ##### Notes reminder
 
@@ -2688,7 +2688,7 @@ If you take any notes while consuming a course, Learning Manager reminds you aft
 
 ##### Group level gamification
 
-Administrators can define the scope of gamification by changing the scope settings. You can selectively enable gamification among similar profile users, groups&nbsp;or location. Refer to&nbsp; [Gamification](../learners/feature-summary/gamification.md)&nbsp;feature for more information.
+Administrators can define the scope of gamification by changing the scope settings. You can selectively enable gamification among similar profile users, groups or location. Refer to  [Gamification](../learners/feature-summary/gamification.md) feature for more information.
 
 ##### French and German language support
 
@@ -2700,7 +2700,7 @@ There are significant enhancements to the existing features of Learning Manager.
 
 ##### Import CSV
 
-If you delete users, you cannot add the same users back into the application again using single user addition. However, you can add back the deleted user using CSV upload process. There are significant changes to the mandatory fields restriction in CSV upload feature. Refer to&nbsp; [  FAQ  on CSV](../administrators/add-users-in-bulk.md)&nbsp;for more information.
+If you delete users, you cannot add the same users back into the application again using single user addition. However, you can add back the deleted user using CSV upload process. There are significant changes to the mandatory fields restriction in CSV upload feature. Refer to  [  FAQ  on CSV](../administrators/add-users-in-bulk.md) for more information.
 
 ##### Course List view
 
@@ -2708,65 +2708,65 @@ By default, you can view courses as cards. A list view has been introduced in th
 
 ##### Delete courses
 
-Now you can delete courses at  draft  and retired stages. Refer to&nbsp; [Courses](../administrators/feature-summary/courses.md)&nbsp;feature for more information. If a learning object is deleted, all of its reporting data also gets deleted. If a course is deleted and if it was part of any other learning object, then an appropriate message appears to the user.&nbsp;
+Now you can delete courses at  draft  and retired stages. Refer to  [Courses](../administrators/feature-summary/courses.md) feature for more information. If a learning object is deleted, all of its reporting data also gets deleted. If a course is deleted and if it was part of any other learning object, then an appropriate message appears to the user. 
 
 **Learning programs and plans**
 
-You can enforce the order in which learners can take up courses within learning programs. You can delete learning programs in  draft  and retired stages.&nbsp;If a learning object is deleted, all of its reporting data also gets deleted.
+You can enforce the order in which learners can take up courses within learning programs. You can delete learning programs in  draft  and retired stages. If a learning object is deleted, all of its reporting data also gets deleted.
 
-**Certifications&nbsp;**
+**Certifications **
 
-You can delete certifications in  draft  and retired stages.&nbsp;If a learning object is deleted, all of its reporting data also gets deleted.
+You can delete certifications in  draft  and retired stages. If a learning object is deleted, all of its reporting data also gets deleted.
 
 **Course effectiveness rating**
 
-In Administrator login, you can export L1 and L3 feedback data for any course.&nbsp;
+In Administrator login, you can export L1 and L3 feedback data for any course. 
 
 **Create courses with modules**
 
-You can enforce learners to complete pre-requisites before taking up the courses.&nbsp;
+You can enforce learners to complete pre-requisites before taking up the courses. 
 
 **User notifications**
 
-Learners get notifications whenever they are self-enrolled to a learning program.&nbsp;
+Learners get notifications whenever they are self-enrolled to a learning program. 
 
 **Classroom Modules (ILT)**
 
-You can create classroom courses for a past date. This feature enables the company administrators to feed older classroom courses information also into the Learning Manager and generate reports.&nbsp;
+You can create classroom courses for a past date. This feature enables the company administrators to feed older classroom courses information also into the Learning Manager and generate reports. 
 
 **Export reports**
 
-Learners report has been enhanced. You can view name, e-mail,  status  of  learning  object, enrollment criteria, enrollment date, completion date, and start date in the report.&nbsp;
+Learners report has been enhanced. You can view name, e-mail,  status  of  learning  object, enrollment criteria, enrollment date, completion date, and start date in the report. 
 
 **Add external partners**
 
-After enrolling the external learners to Learning Manager account, you can also downsize the number of learners, if required. However, you cannot downsize the learners beyond the used number of seats. As a workaround, you can delete the registered learners first and then enroll again with the required number of seats.&nbsp;
+After enrolling the external learners to Learning Manager account, you can also downsize the number of learners, if required. However, you cannot downsize the learners beyond the used number of seats. As a workaround, you can delete the registered learners first and then enroll again with the required number of seats. 
 
 ## Issues fixed {#Issuesfixed-14}
 
 **Learners attendance**
 
-Attendance sheet in Administrator view displays full name of the employee if it is available. Earlier, only first name of the learner used to appear.&nbsp;
+Attendance sheet in Administrator view displays full name of the employee if it is available. Earlier, only first name of the learner used to appear. 
 
 **Learning programs and plans**
 
-All the courses in learning programs are displayed in the expected order. Earlier, there were issues in the ordering of courses in a learning program. This issue is fixed.&nbsp;
+All the courses in learning programs are displayed in the expected order. Earlier, there were issues in the ordering of courses in a learning program. This issue is fixed. 
 
 **Add learners**
 
-If an existing self-registered user tries to register again using self-registration process, then an appropriate message appears. The format and the content of the message is fixed.&nbsp;
+If an existing self-registered user tries to register again using self-registration process, then an appropriate message appears. The format and the content of the message is fixed. 
 
 **Reports**
 
-If you want the content to identify the time spent by user in consuming content, you can identify it by using a variable, `code cmi.core.session_time`. The variable was not set earlier. This issue is fixed.&nbsp;
+If you want the content to identify the time spent by user in consuming content, you can identify it by using a variable, `code cmi.core.session_time`. The variable was not set earlier. This issue is fixed. 
 
 **Create courses with modules**
 
-Whenever an existing course module is replaced by another module, a new version of it is generated. If the quiz of this new module is exported, an exception used to occur and the quiz report was not generated. This issue is fixed now.&nbsp;
+Whenever an existing course module is replaced by another module, a new version of it is generated. If the quiz of this new module is exported, an exception used to occur and the quiz report was not generated. This issue is fixed now. 
 
 **E-mail templates**
 
-The typos in the e-mail templates are fixed.&nbsp;
+The typos in the e-mail templates are fixed. 
 
 +++
 
@@ -2776,7 +2776,7 @@ Release date: February 09, 2016.
 
 # Sign Out behavior updated {#signoutbehaviorupdated}
 
-When users click&nbsp;**Sign Out**&nbsp;in Learning Manager, they are now logged out of the Learning Manager application and also they are logged out of their Adobe IDs.
+When users click **Sign Out** in Learning Manager, they are now logged out of the Learning Manager application and also they are logged out of their Adobe IDs.
 
 +++
 
@@ -2792,29 +2792,29 @@ Release date: January 20, 2016.
 
 **Course taking**
 
-* The resource objects in preview mode of a course are listed one after the other in a new line. Earlier, there were instances where the resources in a course used to appear next to each other in a single line.&nbsp;
+* The resource objects in preview mode of a course are listed one after the other in a new line. Earlier, there were instances where the resources in a course used to appear next to each other in a single line. 
 
 **Direct link to learning objects**
 
-* You can access the learning objects (except Certification) using a direct URL. The&nbsp;**copy url**&nbsp;option is displayed on the tiles of learning objects. Users can click&nbsp;**copy url**&nbsp;and paste the link in a separate browser page to access the learning object directly.&nbsp;
+* You can access the learning objects (except Certification) using a direct URL. The **copy url** option is displayed on the tiles of learning objects. Users can click **copy url** and paste the link in a separate browser page to access the learning object directly. 
 
 **Create courses using modules**
 
-* While creating a course, authors can arrange pre-requisite courses in any order. Earlier, this option was not available in Learning Manager.&nbsp;
+* While creating a course, authors can arrange pre-requisite courses in any order. Earlier, this option was not available in Learning Manager. 
 
 * Authors can add or delete pre-requisite courses in Published courses. Earlier, this feature was available only to Draft courses.
 
 **User registration**
 
-* Users can log in to Learning Manager without any additional URL verification if their Adobe ID matches Learning Manager e-mail ID. While adding users into the account, the Administrator of an organization provides the Learning Manager e-mail ID.&nbsp;
+* Users can log in to Learning Manager without any additional URL verification if their Adobe ID matches Learning Manager e-mail ID. While adding users into the account, the Administrator of an organization provides the Learning Manager e-mail ID. 
 
 **Create catalog**
 
-* In Administrator role, while creating catalogs using&nbsp;**Add learning objects**&nbsp;dialog, the retired courses do not appear in the list of courses.&nbsp;
+* In Administrator role, while creating catalogs using **Add learning objects** dialog, the retired courses do not appear in the list of courses. 
 
 **Other fixes**
 
-* In Administrator role, full name of the learners is displayed in&nbsp;**Learners**&nbsp;tab. Earlier, only first name of the learner used to appear.&nbsp;
+* In Administrator role, full name of the learners is displayed in **Learners** tab. Earlier, only first name of the learner used to appear. 
 
 +++
 
@@ -2826,12 +2826,12 @@ Release date: January 13, 2016.
 
 **Course taking**
 
-* While accessing course contents, the content playbar appears always on the screen. There was an issue earlier with the content playbar as it used to disappear from the screen intermittently.&nbsp;
-* While accessing course content, if the content has a pop-up dialog that appears prompting users whether they really want to quit or stay on the page, hitting stay on such dialog takes the user back to the content. In some scenarios, clicking the stay button used to take the user out of the course content.&nbsp;
+* While accessing course contents, the content playbar appears always on the screen. There was an issue earlier with the content playbar as it used to disappear from the screen intermittently. 
+* While accessing course content, if the content has a pop-up dialog that appears prompting users whether they really want to quit or stay on the page, hitting stay on such dialog takes the user back to the content. In some scenarios, clicking the stay button used to take the user out of the course content. 
 
 **Other fixes**
 
-* Few issues related to content playback are resolved.&nbsp;
+* Few issues related to content playback are resolved. 
 
 +++
 
@@ -2843,7 +2843,7 @@ Release date: December 22, 2015
 
 **Personal dashboard**
 
-* While accessing courses, catalogs, and learning programs in Administrator and Author roles, the ordering of tabs is changed to&nbsp;**Published - Draft - All - Retired**. The default selection is&nbsp;**Published.**
+* While accessing courses, catalogs, and learning programs in Administrator and Author roles, the ordering of tabs is changed to **Published - Draft - All - Retired**. The default selection is **Published.**
 
 ## Issues fixed {#Issuesfixed-16}
 
@@ -2853,15 +2853,15 @@ Release date: December 22, 2015
 
 **User registration**
 
-* If a user registers a Learning Manager account using SSO enabled self-registration, the username in the users list appears correctly as per records. There were some instances where the username used to appear incorrectly.&nbsp;
+* If a user registers a Learning Manager account using SSO enabled self-registration, the username in the users list appears correctly as per records. There were some instances where the username used to appear incorrectly. 
 
 **Create courses using modules**
 
-* When an author duplicates a course, the resource files of the duplicated course can be removed or updated. In some scenarios, users faced issue in updating or removing the resources from duplicated courses.&nbsp;
+* When an author duplicates a course, the resource files of the duplicated course can be removed or updated. In some scenarios, users faced issue in updating or removing the resources from duplicated courses. 
 
 **Create custom catalog for user group**
 
-* While using&nbsp;**Add learning objects&nbsp;**dialog in Administrator role, you can filter courses, choose a course, and add using&nbsp;**Add**&nbsp;button at the bottom of the dialog. In some instances,&nbsp;**Add&nbsp;**button was not appearing for some users.&nbsp;
+* While using **Add learning objects **dialog in Administrator role, you can filter courses, choose a course, and add using **Add** button at the bottom of the dialog. In some instances, **Add **button was not appearing for some users. 
 
 +++
 
@@ -2877,7 +2877,7 @@ Release date: December 11, 2015
 
 **App for tablets**
 
-* After installing Learning Manager in Android or iPhone tablet, browser compatibility messages do not appear. Earlier, a browser compatibility message used to appear for users. This issue is fixed.&nbsp;
+* After installing Learning Manager in Android or iPhone tablet, browser compatibility messages do not appear. Earlier, a browser compatibility message used to appear for users. This issue is fixed. 
 
 +++
 
@@ -2889,36 +2889,36 @@ Release date: December 09, 2015
 
 **Add users**
 
-* In Administrator role, when Administrator registers users or completes adding a single user, a message appears indicating successful completion of the workflow along with the next steps to follow.&nbsp;
-* When a user tries to log in to Learning Manager application directly without using the user activation link, an error message appears prompting users to use the activation link.&nbsp;
+* In Administrator role, when Administrator registers users or completes adding a single user, a message appears indicating successful completion of the workflow along with the next steps to follow. 
+* When a user tries to log in to Learning Manager application directly without using the user activation link, an error message appears prompting users to use the activation link. 
 
 **Supported browsers**
 
-* If any user accesses Learning Manager application in unsupported browsers, the user receives an alert with the list of white-listed browsers.&nbsp;
+* If any user accesses Learning Manager application in unsupported browsers, the user receives an alert with the list of white-listed browsers. 
 
 ## Issues fixed {#Issuesfixed-18}
 
 **Reports**
 
-* In Administrator or Manager role, when you create a Report with secondary axis as learning time spent, apply Manager filter, and save the report, the user was unable to download such reports. You can download all types of reports.&nbsp;
+* In Administrator or Manager role, when you create a Report with secondary axis as learning time spent, apply Manager filter, and save the report, the user was unable to download such reports. You can download all types of reports. 
 
 **Add users**
 
-* There were some typos in the alert message displayed while enabling external learners in Administrator role. The issue is fixed.&nbsp;
-* In Administrator role, an appropriate error message appears when Manager field is not properly selected during single user addition.&nbsp;
+* There were some typos in the alert message displayed while enabling external learners in Administrator role. The issue is fixed. 
+* In Administrator role, an appropriate error message appears when Manager field is not properly selected during single user addition. 
 
 **User registration**
 
-* Welcome e-mail received by new users highlights the importance of linking Adobe ID with the Learning Manager ID for successful login.&nbsp;
+* Welcome e-mail received by new users highlights the importance of linking Adobe ID with the Learning Manager ID for successful login. 
 
 **Customizable emails**
 
-* When you add multiple learners to the classroom courses which have sessions as attachments, some learners were not receiving e-mail notifications. This issue is fixed.&nbsp;
-* E-mails to learners regarding learning objects enrollments and other events contain the specific learning object name in the e-mail subject.&nbsp;
+* When you add multiple learners to the classroom courses which have sessions as attachments, some learners were not receiving e-mail notifications. This issue is fixed. 
+* E-mails to learners regarding learning objects enrollments and other events contain the specific learning object name in the e-mail subject. 
 
 **Other fixes**
 
-* The issues related to URL links in e-mail templates are fixed.&nbsp;
+* The issues related to URL links in e-mail templates are fixed. 
 * Support provided for
 
    * Publish to Prime
@@ -2934,27 +2934,27 @@ Release date: October 26, 2015.
 
 **Add users**
 
-* Online Help link provided in Add users > CSV upload dialog for better understanding of the users while uploading the CSV file.&nbsp;
+* Online Help link provided in Add users > CSV upload dialog for better understanding of the users while uploading the CSV file. 
 
 **Fluidic player**
 
-* When you upload Captivate course content with more than 500 MB size, the content was not playing in Fluidic player. This restriction is removed. Currently, the size limit has been changed to 2 GB.&nbsp;
+* When you upload Captivate course content with more than 500 MB size, the content was not playing in Fluidic player. This restriction is removed. Currently, the size limit has been changed to 2 GB. 
 
 **Billing**
 
-* In Administrator role, when a user enters number of learners and clicks&nbsp;**Place order,**&nbsp;a dialog appears with details about monthly and annual subscription charges per user.&nbsp;
+* In Administrator role, when a user enters number of learners and clicks **Place order,** a dialog appears with details about monthly and annual subscription charges per user. 
 
 ## Issues fixed {#Issuesfixed-19}
 
 **Create courses using modules**
 
-* While creating courses with activity modules, authors can choose valid external URLs even if they contain folder paths in the URL. Earlier, the URLs with folder paths were not supported. This issue is fixed. &nbsp;
-* If the course content is a project which is uploaded with a zip file in Learning Manager and if that zip file contains folder paths, as Zip>folder>content, this type of content was not supported. This issue is fixed.&nbsp;
+* While creating courses with activity modules, authors can choose valid external URLs even if they contain folder paths in the URL. Earlier, the URLs with folder paths were not supported. This issue is fixed.  
+* If the course content is a project which is uploaded with a zip file in Learning Manager and if that zip file contains folder paths, as Zip>folder>content, this type of content was not supported. This issue is fixed. 
 
 **App for tablets**
 
-* When a user tries to download the resource files of a course in Learning Manager Android app, the resource files were not downloadable. This issue is fixed.&nbsp;
-* While consuming a course using Fluidic player, when a user records Note and tries to download it from the course later, it was not downloadable. This issue is fixed.&nbsp;
+* When a user tries to download the resource files of a course in Learning Manager Android app, the resource files were not downloadable. This issue is fixed. 
+* While consuming a course using Fluidic player, when a user records Note and tries to download it from the course later, it was not downloadable. This issue is fixed. 
 
 +++
 
@@ -2966,39 +2966,39 @@ Release date: September 28, 2015
 
 **Create courses using modules**
 
-* Learning Manager application supports uploading of SCORM content even if the version is not mentioned in manifest.xml file. By default, the version is considered as 1.2. &nbsp;
+* Learning Manager application supports uploading of SCORM content even if the version is not mentioned in manifest.xml file. By default, the version is considered as 1.2.  
 * When you upload Captivate course content with more than 500 MB size, the content was not playing in Fluidic player. As part of Update 2, the size limit has been changed to 800 MB.
 
 **Billing**
 
-* In Administrator role, while purchasing a subscription using credit card, the user can choose the first order starting with 10 learners. The minimum learners required for the first order have been reduced from 100 to 10.&nbsp;
+* In Administrator role, while purchasing a subscription using credit card, the user can choose the first order starting with 10 learners. The minimum learners required for the first order have been reduced from 100 to 10. 
 
 **User registration**
 
-* A URL link to create Adobe ID has been provided in welcome e-mail received by learners after their registration.&nbsp;
+* A URL link to create Adobe ID has been provided in welcome e-mail received by learners after their registration. 
 
 **Add users**
 
-* In Administrator role, adding users using CSV upload option directly from Exavault account did not work for some customers. This issue is fixed.&nbsp;
+* In Administrator role, adding users using CSV upload option directly from Exavault account did not work for some customers. This issue is fixed. 
 
 ## Issues fixed {#Issuesfixed-20}
 
 **Learning programs and plans**
 
-* Learners can be auto enrolled to same learning program as part of multiple learning plans. Earlier there were some exceptions to this workflow. This issue is fixed.&nbsp;
+* Learners can be auto enrolled to same learning program as part of multiple learning plans. Earlier there were some exceptions to this workflow. This issue is fixed. 
 
 **View leaderboard and badges**
 
-* In learner role, after consuming a course that contains a badge, the badge image was not showing up in learner dashboard's badge map and in the downloaded file. This issue is fixed.&nbsp;
+* In learner role, after consuming a course that contains a badge, the badge image was not showing up in learner dashboard's badge map and in the downloaded file. This issue is fixed. 
 
 **App for tablets**
 
-* A pop-up appears to indicate learner app availability when learner app url is opened in a browser on android device.&nbsp;
+* A pop-up appears to indicate learner app availability when learner app url is opened in a browser on android device. 
 
 **Other fixes**
 
-* An issue with user account creation due to Akamai net storage support has been resolved.&nbsp;
-* An issue related to SCORM 1.2 content upload containing a zip file with multiple folders has been resolved.&nbsp;
+* An issue with user account creation due to Akamai net storage support has been resolved. 
+* An issue related to SCORM 1.2 content upload containing a zip file with multiple folders has been resolved. 
 
 +++
 

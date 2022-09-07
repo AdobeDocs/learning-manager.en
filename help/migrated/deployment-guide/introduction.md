@@ -8,7 +8,7 @@ preview: true
 
 # Learning Manager Deployment Guide {#learning-manager-deployment-guide}
 
-Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 # Introduction {#introduction}
 
@@ -20,16 +20,16 @@ This guide provides step-by-step instructions on how to get up and running with 
 
 As a Learning Manager user, you can wear the hat of an administrator, author, instructor, manager, or a learner. This guide is meant for users who are likely to be involved in setting up an LMS for an organization or a client:
 
-* **IT Administrator&nbsp;**- &nbsp;As an IT Administrator, you might activate or integrate Learning Manager in your organization. An IT Administrator can also add single or multiple users, and can perform the role of an Integration Administrator or an administrator who integrates Learning Manager with third-party applications.
-* **Author –&nbsp;**As a Learning Manager author, you can create learning content that are required for an organization's learning requirements**.&nbsp;**An author is involved in creating the basic content that is uploaded in Learning Manager.&nbsp;
+* **IT Administrator **-  As an IT Administrator, you might activate or integrate Learning Manager in your organization. An IT Administrator can also add single or multiple users, and can perform the role of an Integration Administrator or an administrator who integrates Learning Manager with third-party applications.
+* **Author - **As a Learning Manager author, you can create learning content that are required for an organization's learning requirements**. **An author is involved in creating the basic content that is uploaded in Learning Manager. 
 
-* **Learning Manager Administrator&nbsp;**– A Learning Manager Administrator performs the configuration and set-up activities related to the application. In some companies, an IT Administrator may also play the role of a Learning Manager Administrator.
+* **Learning Manager Administrator **- A Learning Manager Administrator performs the configuration and set-up activities related to the application. In some companies, an IT Administrator may also play the role of a Learning Manager Administrator.
 
 # Get started with Learning Manager deployment {#getstartedwithcaptivateprimedeployment}
 
 After you purchase Learning Manager, activate your Learning Manager account using the license key that you received. Proceed on to the following configurations, as indicated in the following visual:
 
-&nbsp;
+ 
 
 ![](assets/getting-started-withcaptivateprime.jpg) 
 
@@ -81,13 +81,13 @@ You can choose one of the color schemes to align with your corporate branding.
 
 1. From the Learning Manager left navigation pane, click **Branding**.
 
-   &nbsp;
+    
 
 1. In the **Themes** section, click **Edit**. The application allows you to pick a new theme. As you select a theme, you can immediately see the color schemes that are used for the key interface elements.
 
    ![](assets/setting-the-themesforyoursite.png)
 
-1. Further, you can edit the **Top Bar Color**, **Accent Color**, and the **Sidebar Brightness**.&nbsp; You can use your own brand colors for these key interface elements.
+1. Further, you can edit the **Top Bar Color**, **Accent Color**, and the **Sidebar Brightness**.  You can use your own brand colors for these key interface elements.
 1. To reset the values to the default color scheme for your theme, click **Reset Theme**. The colors for the key UI elements are set to the default options for the chosen theme.
 1. After you choose the theme, click **Show Hints** to view the labels or hints in the preview.
 
@@ -114,14 +114,14 @@ You can enable and configure any of these email notifications from the Administr
 
 1. In the left navigation pane, click **[!UICONTROL **Email Templates**.]**
 1. Click one of the following tabs: **[!UICONTROL **General**/**Learning Activity**/**Reminders & Updates**.]** As an example, let us assume you click **[!UICONTROL **Learning Activity**.]**
-1. Click the toggle button for whichever activity you want to trigger an email. In this example, let us assume you click **[!UICONTROL **Learning Program – Enrolled by Admin/Manager**.]**
+1. Click the toggle button for whichever activity you want to trigger an email. In this example, let us assume you click **[!UICONTROL **Learning Program - Enrolled by Admin/Manager**.]**
 
    ![](assets/configure-email-templates-step3.png)
 
    The system displays the “Enabled Successfully” pop-up message. Now, whenever a manager or an administrator enrolls a learner for a course, the learner receives an email from this Learning Manager account.
 
-1. You can modify the default email template. To do so, click on the event. In this example, click **[!UICONTROL  **Learning Program – Enrolled by Admin/Manager.**]**
-1. In the ****[!UICONTROL Template Preview]**** pop-up dialog box, notice that there are two tabs: **[!UICONTROL **Learner**]**and ****[!UICONTROL Manager]****.
+1. You can modify the default email template. To do so, click on the event. In this example, click **[!UICONTROL  **Learning Program - Enrolled by Admin/Manager.**]**
+1. In the ****[!UICONTROL Template Preview]**** pop-up dialog box, notice that there are two tabs:** [!UICONTROL **Learner**]**and ****[!UICONTROL Manager]****.
 
    ![](assets/configure-email-templates-step5.png)
 
@@ -162,7 +162,7 @@ To configure email templates for a learning object:
 
 ### Restrict users from receiving emails {#restrictusersfromreceivingemails}
 
-As an Administrator, you can select who will receive emails from Learning Manager and who will not. You can achieve this using the ****[!UICONTROL Restricted User]**** option under the ****[!UICONTROL Settings]**&nbsp;**tab. Users can be added to this list using their name, email id, or unique user id. The users listed under this option will be restricted from receiving any email communication from Learning Manager.
+As an Administrator, you can select who will receive emails from Learning Manager and who will not. You can achieve this using the ****[!UICONTROL Restricted User]**** option under the ****[!UICONTROL Settings]** **tab. Users can be added to this list using their name, email id, or unique user id. The users listed under this option will be restricted from receiving any email communication from Learning Manager.
 
 # Configure your account settings {#configureyouraccountsettings}
 
@@ -176,10 +176,10 @@ Learning Manager allows you to configure some account settings such as basic set
 
    * **Country**: Select the country from this drop-down field.
    * **Timezone**: Set the appropriate Timezone for your location.
-   * **Locale**: Select the language of your choice. If you change the language in this field, the change is applied for all the users who use this application. However, individually, each user can modify the language of preference.&nbsp;&nbsp;&nbsp;
+   * **Locale**: Select the language of your choice. If you change the language in this field, the change is applied for all the users who use this application. However, individually, each user can modify the language of preference.   
    * **Financial year starts from**: Select the month when the financial year for your organization starts.
 
-   &nbsp;
+    
 
    ![](assets/configure-basic-settings-step3.png)
 
@@ -191,7 +191,7 @@ L3 feedback is the feedback that a manager provides about a learner. You can use
 
 As an administrator, you can configure the feedback settings globally. To do so, follow this procedure:
 
-1. &nbsp;
+1.  
 
    In the Learning Manager Home page, click ****[!UICONTROL Settings]****.
 
@@ -200,7 +200,7 @@ As an administrator, you can configure the feedback settings globally. To do so,
 
    `The first part of the L1 feedback is a mandatory question on how it is for a learner to recommend this course to a friend or a colleague.`
 
-   &nbsp;
+    
 
    ***Note: You cannot edit or modify the mandatory question.***
 
@@ -208,7 +208,7 @@ As an administrator, you can configure the feedback settings globally. To do so,
 
 1. To configure the other questions for your feedback questionnaire, click the questions in the ****[!UICONTROL Self-Paced Courses]****, or ****[!UICONTROL Classroom Courses]****. When you click a question, the system allows you to edit the default questions.
 
-   &nbsp;
+    
 
    ![](assets/configure-feedbacksettings-step4.png)
 
@@ -224,17 +224,17 @@ As an administrator, you can configure the feedback settings globally. To do so,
    
    * **Recurrence**: Specify whether you want to send the feedback reminder every day, every week, or every month. You can also specify for how many weeks you want the reminder to be sent.
 
-   &nbsp;
+    
 
 1. Click the tick mark to save your reminder settings.
 
-   &nbsp;
+    
 
 1. After you finalize all the feedback settings, click **[!UICONTROL **Save**]**on the upper-right corner of the page.
 
 ## Configure L3 Feedback: {#configurel3feedback}
 
-L3 Feedback contains the questions that are sent to a learner’s manager after the learner completes a course. L3 Feedback enables an administrator to track changes in the behavior or skill of a learner over time. To configure this feedback, on the Feedback page, click the ****[!UICONTROL L3 Feedback]**** tab. You see one, default question. The manager must answer this question&nbsp;using a five-point rating scale. 
+L3 Feedback contains the questions that are sent to a learner’s manager after the learner completes a course. L3 Feedback enables an administrator to track changes in the behavior or skill of a learner over time. To configure this feedback, on the Feedback page, click the ****[!UICONTROL L3 Feedback]**** tab. You see one, default question. The manager must answer this question using a five-point rating scale. 
 
 ![](assets/configure-l3-feedback.png)
 
@@ -253,7 +253,7 @@ To configure the feedback settings at an instance level:
 
    ![](assets/configure-feedbackataninstancelevel.png)
 
-1. In the course details page, click ****[!UICONTROL Instance Defaults]**** in the Configure section.&nbsp;
+1. In the course details page, click ****[!UICONTROL Instance Defaults]**** in the Configure section. 
 1. In the **[!UICONTROL **Language**]**drop-down list, select the language in which you want the feedback questionnaire to be displayed.
 1. Enable the L1 Reaction Feedback if you want to solicit feedback from learners. You can add up to two questions in this section. Leaners can provide descriptive answers to these questions.
 1. Select the ****[!UICONTROL Make Mandatory]**** check box if you want to make either or both questions mandatory.
@@ -261,7 +261,7 @@ To configure the feedback settings at an instance level:
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
-1. To configure the L3 Behavior Change feedback at an instance level, ****[!UICONTROL Enable]****&nbsp;the L3 Feedback. The application displays a predefined, mandatory question and a blank question where you can enter a question of your choice.
+1. To configure the L3 Behavior Change feedback at an instance level, ****[!UICONTROL Enable]**** the L3 Feedback. The application displays a predefined, mandatory question and a blank question where you can enter a question of your choice.
 1. For the predefined question on the learner’s improvement after taking the course, the answer is in the Likert Scale format. That is, managers must choose an option on a scale of Strongly Agree to Strongly Disagree.
 1. Specify the second question for the manager. Managers can provide a descriptive answer to this question.
 1. Select the ****[!UICONTROL Make Mandatory]**** check box if you want to make the second question mandatory.
@@ -292,7 +292,7 @@ The general settings in Learning Manager allows administrators to configure gene
    * **Unique Learning Objects IDs**: Enable this option if you want to provide authors the ability to add unique IDs to learning objects.
    * **Show Catalog Listing**: Enable this option if you want learners to see all the catalogs that are available. This option helps learners refine their learning object listing.
 
-   &nbsp;
+    
 
    ![](assets/configure-generalsettings-step3.png)
 

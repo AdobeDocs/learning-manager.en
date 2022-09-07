@@ -25,7 +25,7 @@ To add Catalog labels, follow this step:
    ![](assets/catalog-labels-page.png)
 
 1. Click **[!UICONTROL Add Catalog Label]** or **[!UICONTROL Add]** on the upper-right corner. The **[!UICONTROL Add Catalog Label]** dialogue box appears.
-1. Add Catalog Label and their values in the fields.&nbsp;One custom field can have multiple values. Authors can select from these values during the Course creation process.
+1. Add Catalog Label and their values in the fields. One custom field can have multiple values. Authors can select from these values during the Course creation process.
 
    ![](assets/add-labels.png)
 

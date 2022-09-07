@@ -74,11 +74,11 @@ When an instructor has multiple sessions or submissions, searching for and sorti
 
 To search for a particular session or module name, follow the steps below:
 
-1. In the Instructor app (UI for Instructor role), search for the upcoming and past sessions.&nbsp;You can view the list of instances for the selected page.
+1. In the Instructor app (UI for Instructor role), search for the upcoming and past sessions. You can view the list of instances for the selected page.
 1. Enter the session or module name in the search field available at the upper-right corner.
 1. Locate the learning object from the search results.
 
-**Note: **The search results show not only the courses or modules assigned to the instructor, but all the courses or modules that match the search criteria. Select the course or module to which you are assigned.****
+**Note:** The search results show not only the courses or modules assigned to the instructor, but all the courses or modules that match the search criteria. Select the course or module to which you are assigned.****
 
 To reset the search filter, you can use the **Clear** link available next to the course or module name.
 
@@ -117,13 +117,13 @@ Follow these steps to change the default view for Learners:
 
 1. Click **General** under **BASICS** to access the General settings page.
 
-1. Select the **List view** option alongside **Default view (Learner role)** to change the Learners’ default view from Grid to List.&nbsp;If you clear **List view** option, the system sets the Learners’ default view back to Grid.
+1. Select the **List view** option alongside **Default view (Learner role)** to change the Learners’ default view from Grid to List. If you clear **List view** option, the system sets the Learners’ default view back to Grid.
 
 1. After you select (or clear) the **List view** option, the system displays the following confirmation message.
 
 After selecting **List view**, when a learner signs into the Learner app, by default, My Learning and Catalog pages appear using list view.
 
-**Note: **Although Administrators can alter the Learners’ view, the selected default view preference remains in effect only until a Learner changes it. A Learner can override the default view preference for the My Learning and Catalog pages (that is configured by the Administrator) by switching between the Grid and List views.
+**Note:** Although Administrators can alter the Learners’ view, the selected default view preference remains in effect only until a Learner changes it. A Learner can override the default view preference for the My Learning and Catalog pages (that is configured by the Administrator) by switching between the Grid and List views.
 
 # Mobile immersive web changes
 
@@ -217,7 +217,7 @@ If you want to report a board, provide the board id.
 
 If you want to remove a board from favorites, provide the board id.
 
-*DELETE&nbsp;&nbsp; /boards/{id}/favorite*
+*DELETE   /boards/{id}/favorite*
 
 ## Board API changes
 
@@ -295,7 +295,7 @@ The following fields are added to the payload:
 
 *filter.allSession* is added in the query parameter to get all the sessions related to all instances and all sessions in a course.
 
-&nbsp;The following fields are added in relationship:
+ The following fields are added in relationship:
 
 1. *instructors*
 1. *room*
@@ -304,13 +304,13 @@ The resources model corresponding to classroom module appears in the relationshi
 
 # Deprecated features in this release
 
-In this release, the&nbsp;‘learningObject’&nbsp;in relationship of&nbsp;learningObjectSkill&nbsp;model has been deprecated.&nbsp;We have added a new key,&nbsp;"learningObjectId"&nbsp;in the attribute section of&nbsp;learningObjectSkill&nbsp;model&nbsp;to fetch the same information. The value corresponding to this key will be the id of&nbsp;learningObject.&nbsp;This change will&nbsp;affect&nbsp;the&nbsp;following&nbsp;LO&nbsp;types:
+In this release, the ‘learningObject’ in relationship of learningObjectSkill model has been deprecated. We have added a new key, "learningObjectId" in the attribute section of learningObjectSkill model to fetch the same information. The value corresponding to this key will be the id of learningObject. This change will affect the following LO types:
 
-* Course&nbsp;
-* LearningPath&nbsp;(API terminology:&nbsp;learningProgram)
+* Course 
+* LearningPath (API terminology: learningProgram)
 * Jobaid
 
-The deprecated data will be completely removed from the response as a part of our next release. **This will take place&nbsp;after&nbsp;3 months&nbsp;(anytime&nbsp;after 30**`<sup style="color: rgb(50, 50, 50);"><b>th</b></sup>`**&nbsp;April 2022)**.&nbsp;Make the required changes to your implementation to&nbsp;fetch the data according to the the new design.
+The deprecated data will be completely removed from the response as a part of our next release. **This will take place after 3 months (anytime after 30**`<sup style="color: rgb(50, 50, 50);"><b>th</b></sup>`** April 2022)**. Make the required changes to your implementation to fetch the data according to the the new design.
 
 Here is a sample LO skill model:
 
@@ -342,27 +342,27 @@ Model:
 
 ```
 
-We plan to change the&nbsp;ID&nbsp;format&nbsp;of&nbsp;learningObjectResourceGrade.&nbsp;The id format for the&nbsp;learningObjectResourceGrade&nbsp;model&nbsp;currently follows the following format:
+We plan to change the ID format of learningObjectResourceGrade. The id format for the learningObjectResourceGrade model currently follows the following format:
 
 * *course:courseid_instanceid_moduleid_version_uuid1_uuid2*
 
-Once&nbsp;changed, the format will be:
+Once changed, the format will be:
 
 * *course:courseid_instanceid_moduleid_version_uuid*
 
-Thus, only one&nbsp;uuid&nbsp;will be used to construct the&nbsp;learningObjectResourceGrade’s&nbsp;id.
+Thus, only one uuid will be used to construct the learningObjectResourceGrade’s id.
 
-In general,&nbsp;Learning Manager&nbsp;recommends to&nbsp;not&nbsp;interpret&nbsp;the ID of any model.
+In general, Learning Manager recommends to not interpret the ID of any model.
 
-**Note: **This change will come into effect as a part of our next release (any time&nbsp;after **30 April 2022**).&nbsp;In case&nbsp;you are using this format in any way, make the required changes.&nbsp;
+**Note:** This change will come into effect as a part of our next release (any time after **30 April 2022**). In case you are using this format in any way, make the required changes. 
 
 # Release Notes {#releasenotes}
 
-For information regarding current and previous releases of Learning Manager web app and device app, see the&nbsp; [***Release notes***](release-note/release-notes.md).
+For information regarding current and previous releases of Learning Manager web app and device app, see the  [***Release notes***](release-note/release-notes.md).
 
 # Bug fixes {#bugfixes}
 
-To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed***](release-note/release-notes.md#bug-fixes-jan-22)&nbsp;list.
+To see the bugs that are fixed in this update, refer to the  [***Bugs fixed***](release-note/release-notes.md#bug-fixes-jan-22) list.
 
 # Known issues {#knownissues}
 
@@ -385,7 +385,7 @@ To see the known issues in this update, refer to [***Known issues***](release-no
  <tbody>
   <tr> 
    <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
   </tr> 
  </tbody>
 </table>

@@ -10,14 +10,14 @@ contentowner: jayakarr
 
 Learn about the new features and enhancements in Adobe Learning Manager
 
-The&nbsp;**August 2021**&nbsp;**release of Adobe Learning Manager**&nbsp;focuses on improving Learner Experience, Reporting, and Administrative workflows. Some of the highlights include:
+The **August 2021** **release of Adobe Learning Manager** focuses on improving Learner Experience, Reporting, and Administrative workflows. Some of the highlights include:
 
-* **Content marketplace:**&nbsp;Learning Manager now&nbsp;offers&nbsp;more than 70000 courses&nbsp;from&nbsp;varied&nbsp;domains, such as,&nbsp;Technology, Management,&nbsp;Leadership, and so on.
-* **Enhanced&nbsp;Accessibility support:**&nbsp;Accessibility support for&nbsp;the learner&nbsp;role strengthens&nbsp;via enhanced&nbsp;keyboard navigation, screen reader capability,&nbsp;and contrast ratio compliance.&nbsp;
-* **Rich Text Formatting:**&nbsp;Learning Manager now offers rich text&nbsp;editing&nbsp;for descriptions in&nbsp;courses, programs, certificates,&nbsp;and Job Aids. This allows authors&nbsp;to&nbsp;specify&nbsp;descriptions&nbsp;in&nbsp;rich text including hyperlinks, images and other text formatting options, as opposed to plain text.
-* **Star Rating:**&nbsp;A learner can now rate a course&nbsp;on a 5-point scale. An&nbsp;Administrator can select between existing effectiveness rating or the&nbsp;5-star&nbsp;rating.&nbsp;
-* **Badgr&nbsp;Integration:**&nbsp;Learners can now authorize Prime to automatically push badges they have earned in Prime to their&nbsp;Badgr&nbsp;account, from where they can share their badges in their social networks.
-* **Export&nbsp;learning&nbsp;events to Salesforce:&nbsp;**Learning Manager&nbsp;now&nbsp;offers&nbsp;an ability to export some specific events in Prime like new user addition, enrollment and completion to a Salesforce tenant, and provide an ability to link these with the appropriate User object or Contact object in Salesforce.
+* **Content marketplace:** Learning Manager now offers more than 70000 courses from varied domains, such as, Technology, Management, Leadership, and so on.
+* **Enhanced Accessibility support:** Accessibility support for the learner role strengthens via enhanced keyboard navigation, screen reader capability, and contrast ratio compliance. 
+* **Rich Text Formatting:** Learning Manager now offers rich text editing for descriptions in courses, programs, certificates, and Job Aids. This allows authors to specify descriptions in rich text including hyperlinks, images and other text formatting options, as opposed to plain text.
+* **Star Rating:** A learner can now rate a course on a 5-point scale. An Administrator can select between existing effectiveness rating or the 5-star rating. 
+* **Badgr Integration:** Learners can now authorize Prime to automatically push badges they have earned in Prime to their Badgr account, from where they can share their badges in their social networks.
+* **Export learning events to Salesforce:** Learning Manager now offers an ability to export some specific events in Prime like new user addition, enrollment and completion to a Salesforce tenant, and provide an ability to link these with the appropriate User object or Contact object in Salesforce.
 
 Read on to know more.
 
@@ -25,13 +25,13 @@ Read on to know more.
 
 ## Content marketplace
 
-Learning Manager now offer Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.&nbsp;
+Learning Manager now offer Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs. 
 
 For more information, see [***Content marketplace***](administrators/feature-summary/content-marketplace.md).
 
 ## Star rating
 
-A Learner can rate courses on a 5-point scale. If star rating is enabled for an account,&nbsp;learners can then rate a course on a scale of 1-5.&nbsp;The option to enable&nbsp;the rating is&nbsp;provided as a setting to&nbsp;the Administrator.&nbsp;The rating of the course will be visible to&nbsp;the Learner in all pages in&nbsp;the&nbsp;learner app. The Learner can also then sort the trainings based on the ratings.&nbsp;
+A Learner can rate courses on a 5-point scale. If star rating is enabled for an account, learners can then rate a course on a scale of 1-5. The option to enable the rating is provided as a setting to the Administrator. The rating of the course will be visible to the Learner in all pages in the learner app. The Learner can also then sort the trainings based on the ratings. 
 
 For more information, see [***Star rating***](learners/feature-summary/courses.md#star-rating).
 
@@ -49,7 +49,7 @@ For more information, see Support for [***Rich Text Formatting***](authors/featu
 
 ## Badges from Badgr
 
-Learners&nbsp;can&nbsp;integrate their learning platform account with their&nbsp;Badgr&nbsp;account. This&nbsp;enables learners to&nbsp;share badges to social websites via their&nbsp;Badgr&nbsp;account.&nbsp;Badgr&nbsp;also offers authenticable badges based on the&nbsp;backpack standard,&nbsp;which means the badges are verified.
+Learners can integrate their learning platform account with their Badgr account. This enables learners to share badges to social websites via their Badgr account. Badgr also offers authenticable badges based on the backpack standard, which means the badges are verified.
 
 For more information, see [***Badgr integration***](learners/feature-summary/badges.md).
 
@@ -57,16 +57,16 @@ For more information, see [***Badgr integration***](learners/feature-summary/bad
 
 ## Exclusion of user groups {#importusersfromsalesforcecontacts}
 
-At times you would want to exclude a small set of users from a large&nbsp;user&nbsp;group. This is required to enroll this specific set of users into training via Learning Plans or to setup the correct visibility of catalogs.&nbsp;In this release of Learning Manager, you can exclude learners or User Groups&nbsp;when you create a custom user group.
+At times you would want to exclude a small set of users from a large user group. This is required to enroll this specific set of users into training via Learning Plans or to setup the correct visibility of catalogs. In this release of Learning Manager, you can exclude learners or User Groups when you create a custom user group.
 
 For more information, see [***Exclude user groups***](administrators/feature-summary/add-users-user-groups.md#exclusion).
 
 ## Immersive mobile web UI
 
-Here’s what&nbsp;is new for the immersive mobile UI experience in this release:
+Here’s what is new for the immersive mobile UI experience in this release:
 
 * The Home, Catalog page, and the player are accessible.  
-* Support for rich&nbsp;text&nbsp;in the course description.  
+* Support for rich text in the course description.  
 * Rate courses on a 5-point scale (1-lowest, 5-highest).
 * Duration and format filters in Catalog.
 
@@ -80,7 +80,7 @@ For more information, see [***Rest a course***](administrators/feature-summary/l
 
 ## Pending approvals for courses
 
-In this release of Learning Manager, Administrators can view pending approvals for courses. This allows stakeholders to track Managers if they are compliant with their employees' learnings.&nbsp;
+In this release of Learning Manager, Administrators can view pending approvals for courses. This allows stakeholders to track Managers if they are compliant with their employees' learnings. 
 
 Also, Administrators can approve course enrollment as needed.
 
@@ -99,25 +99,25 @@ The Training Report will have two additional fields:
 
 The User Audit Trail Report is a report, which contains the details of all operations done on a user, including addition, deletion, role changes, manager changes, etc.
 
-In earlier releases of Learning Manager, the report consisted of filtering on dates. In this release, we’ve added filters for user and user groups in this report, so that you can customize and manage the data to be exported.&nbsp;
+In earlier releases of Learning Manager, the report consisted of filtering on dates. In this release, we’ve added filters for user and user groups in this report, so that you can customize and manage the data to be exported. 
 
 For more information, see [***User Audit Trail***](administrators/feature-summary/reports.md#user-audit-trail).
 
 ## Support for HTML packages in Job Aids
 
-Job Aids now support standard HTML packages as a new type of content. With this enhancement, learners can open view and download the HTML package from within the Job Aid player.&nbsp;
+Job Aids now support standard HTML packages as a new type of content. With this enhancement, learners can open view and download the HTML package from within the Job Aid player. 
 
 For more information, see [***HTML support in Job Aids***](authors/feature-summary/job-aids.md#html).
 
 ## Quiz report
 
-A Quiz report will contain data in different languages if the course is offered in multiple languages. Until now responses from different users were exported one below the other irrespective of the language in which the response is provided. In this release, in case the course is available in multiple languages, quiz responses provided in different languages will be added as additional columns in the Quiz Report. Thus, all responses of each language will be in separate columns.&nbsp;
+A Quiz report will contain data in different languages if the course is offered in multiple languages. Until now responses from different users were exported one below the other irrespective of the language in which the response is provided. In this release, in case the course is available in multiple languages, quiz responses provided in different languages will be added as additional columns in the Quiz Report. Thus, all responses of each language will be in separate columns. 
 
-Note that this does not affect the courses which are offered in&nbsp;one&nbsp;language only. Quiz report should export as it exports today. No change expected for such courses.
+Note that this does not affect the courses which are offered in one language only. Quiz report should export as it exports today. No change expected for such courses.
 
 ## Bulk purge of users
 
-You can select the first 50 users and purge the users in one go. This allows Administrators to select 50 users at once and purge them together. This helps Administrators when they wish to purge users in bulk. It's always a best practice to check the users who are selected for purging. This is important to ensure only the correct set of users are getting purged.&nbsp; For more information, see the [***document***](administrators/feature-summary/purge-users.md).
+You can select the first 50 users and purge the users in one go. This allows Administrators to select 50 users at once and purge them together. This helps Administrators when they wish to purge users in bulk. It's always a best practice to check the users who are selected for purging. This is important to ensure only the correct set of users are getting purged.  For more information, see the [***document***](administrators/feature-summary/purge-users.md).
 
 # Enhanced features in this release {#enhanced}
 
@@ -125,7 +125,7 @@ You can select the first 50 users and purge the users in one go. This allows Adm
 
 ### Course card
 
-Clicking on a card opens&nbsp;the course&nbsp;overview page. In earlier releases of Learning Manager, only a specific area on the card was clickable.&nbsp;Now the entire card is clickable.&nbsp;The change is applicable to all courses, programs, and certificate cards.
+Clicking on a card opens the course overview page. In earlier releases of Learning Manager, only a specific area on the card was clickable. Now the entire card is clickable. The change is applicable to all courses, programs, and certificate cards.
 
 ### Leaderboard
 
@@ -133,7 +133,7 @@ To enhance the accessibility support to add colleagues in the leaderboard timeli
 
 ### Accessibility support for learner app
 
-Multiple enhancements are implemented to strengthen the accessibility support for Learning Manager Learner role. As a part of these implementation, once user lands on the learner role and hits keyboard&nbsp;‘Tab’ button a&nbsp;quick navigation menu opens up. This allows learners relying on keyboard tabbing to navigate to a particular section of the page quickly. The navigation menu looks, as shown below:
+Multiple enhancements are implemented to strengthen the accessibility support for Learning Manager Learner role. As a part of these implementation, once user lands on the learner role and hits keyboard ‘Tab’ button a quick navigation menu opens up. This allows learners relying on keyboard tabbing to navigate to a particular section of the page quickly. The navigation menu looks, as shown below:
 
 ![](assets/accessibility-navigation.png) 
 
@@ -143,61 +143,61 @@ A Job Aid now gets added to a Learner's list when the Learner downloads the Job 
 
 ## Administrator experience
 
-### Exclusion&nbsp;of user groups
+### Exclusion of user groups
 
-At times you would want to exclude a set of users from getting enrolled to a course or getting access to a catalog.&nbsp;In this release of Learning Manager, you can exclude learners&nbsp;or User Groups. In the Add&nbsp;User Group&nbsp;dialog, the Exclude Learners&nbsp;section enables you to achieve so.
+At times you would want to exclude a set of users from getting enrolled to a course or getting access to a catalog. In this release of Learning Manager, you can exclude learners or User Groups. In the Add User Group dialog, the Exclude Learners section enables you to achieve so.
 
-For example, if you want to set up a Learning Plan so that all users belonging to location = California except Store-5 (located in California) get enrolled.&nbsp;You can achieve this by creating a Custom User group which includes all users from group “California” and exclude “Store-5”. Then you can use such a custom group in Learning Plans, catalog visibility settings etc.&nbsp;
+For example, if you want to set up a Learning Plan so that all users belonging to location = California except Store-5 (located in California) get enrolled. You can achieve this by creating a Custom User group which includes all users from group “California” and exclude “Store-5”. Then you can use such a custom group in Learning Plans, catalog visibility settings etc. 
 
 ### Quiz report
 
-A&nbsp;Quiz report will&nbsp;contain data in&nbsp;different languages if the course is offered in multiple languages.&nbsp;Until&nbsp;now responses from different users were exported one below the other irrespective of the language in which the response is provided. In this release,&nbsp;in case&nbsp;the course is available in multiple languages, quiz responses provided in different languages will be added as additional columns in the Quiz Report.&nbsp;Thus,&nbsp;all responses of each language will be in separate columns.&nbsp;
+A Quiz report will contain data in different languages if the course is offered in multiple languages. Until now responses from different users were exported one below the other irrespective of the language in which the response is provided. In this release, in case the course is available in multiple languages, quiz responses provided in different languages will be added as additional columns in the Quiz Report. Thus, all responses of each language will be in separate columns. 
 
-Note that this does not affect the courses which are offered in&nbsp;one language only. Quiz report should export as it exports today. No change expected for such&nbsp;trainings.&nbsp;&nbsp;
+Note that this does not affect the courses which are offered in one language only. Quiz report should export as it exports today. No change expected for such trainings.  
 
 ### Bulk purge of users
 
-You can select the first&nbsp;50 users and purge the users in one go.&nbsp;This allows Administrators to select 50 users at once and purge them together. This helps Administrators when they wish to purge users in bulk.&nbsp;It's&nbsp;always a best practice to check the users who are selected for purging. This is important to ensure only the correct set of users are getting purged.&nbsp;
+You can select the first 50 users and purge the users in one go. This allows Administrators to select 50 users at once and purge them together. This helps Administrators when they wish to purge users in bulk. It's always a best practice to check the users who are selected for purging. This is important to ensure only the correct set of users are getting purged. 
 
-### Rich Text Editor&nbsp;support
+### Rich Text Editor support
 
-Rich Text Editor support is extended&nbsp;for training, Job Aids for Authors and Admins.&nbsp;Learners can take advantage of Rich Text Editor&nbsp;while commenting on a social post or post in a board.
+Rich Text Editor support is extended for training, Job Aids for Authors and Admins. Learners can take advantage of Rich Text Editor while commenting on a social post or post in a board.
 
-Descriptions added to trainings already continue to work without any impact. This release should not impact the existing descriptions.&nbsp;
+Descriptions added to trainings already continue to work without any impact. This release should not impact the existing descriptions. 
 
-Customers who have built custom visual interface&nbsp;should not see any impact to their existing descriptions. To utilize the new rich text formatted text, they should apply/load&nbsp;a CSS file provided by Learning Manager team. This will be made available on Learning Manager Help documentation after the release.&nbsp;&nbsp;
+Customers who have built custom visual interface should not see any impact to their existing descriptions. To utilize the new rich text formatted text, they should apply/load a CSS file provided by Learning Manager team. This will be made available on Learning Manager Help documentation after the release.  
 
 ### Copy-paste email ids
 
-In the Learner Transcripts dialog, you can generate Learner Transcripts&nbsp;for the email ids that you specify in the Email IDs section. Validate the email ids as well.
+In the Learner Transcripts dialog, you can generate Learner Transcripts for the email ids that you specify in the Email IDs section. Validate the email ids as well.
 
-An additional tab, Email IDs tab is provided to copy paste email&nbsp;ids&nbsp;of learners to generate Learner Transcripts for those learners.
+An additional tab, Email IDs tab is provided to copy paste email ids of learners to generate Learner Transcripts for those learners.
 
-### Case-sensitivity&nbsp;changes
+### Case-sensitivity changes
 
-We have observed issues when user attributes&nbsp;are imported with different case sensitivity.&nbsp;For example,&nbsp;a user&nbsp;attribute ‘Location’ gets imported as “Location” and later gets imported as “location”. Note that the&nbsp;case of the&nbsp;letter&nbsp;“L” is different. In such cases, two user attributes are created in Learning Manager.&nbsp;
+We have observed issues when user attributes are imported with different case sensitivity. For example, a user attribute ‘Location’ gets imported as “Location” and later gets imported as “location”. Note that the case of the letter “L” is different. In such cases, two user attributes are created in Learning Manager. 
 
-In&nbsp;this release, Learning Manager analyzes such incoming attributes and does not create&nbsp;two&nbsp;attributes because the case is different. In the above example,&nbsp;the name of the attribute remains&nbsp;“location” as that’s the label&nbsp;that&nbsp;was most recently imported.
+In this release, Learning Manager analyzes such incoming attributes and does not create two attributes because the case is different. In the above example, the name of the attribute remains “location” as that’s the label that was most recently imported.
 
-Note that accounts having such attributes present in their accounts&nbsp;will observe their attributes getting merged once they import the user csv.&nbsp;In this release, for example, the attribute ‘Location’ will be removed as&nbsp;the&nbsp;CSV contains the label ‘location’. All values of ‘Location’,&nbsp;say ‘San Jose’, ‘Sydney’ will correctly get associated with the attribute name ‘location’.&nbsp;Therefore,&nbsp;there&nbsp;will not be any&nbsp;loss of data.
+Note that accounts having such attributes present in their accounts will observe their attributes getting merged once they import the user csv. In this release, for example, the attribute ‘Location’ will be removed as the CSV contains the label ‘location’. All values of ‘Location’, say ‘San Jose’, ‘Sydney’ will correctly get associated with the attribute name ‘location’. Therefore, there will not be any loss of data.
 
-Let’s understand this with an example -&nbsp;
+Let’s understand this with an example - 
 
-Let’s say, you imported an attribute “Location” with users having their values as “San Jose”, “Miami” etc. Later you imported the user csv again but this time the attribute was named “location”. Note that the case value of “l” has changed from “L” to “l”. In such case, platform would have created a different&nbsp;usergroup&nbsp;with attribute “location” which is different than previously created “Location”.&nbsp;Thus two groups would get created “Location -&nbsp;miami” and “location -&nbsp;miami”.&nbsp;Thus reports like Learner Transcript would also have 2 columns for the same attribute ‘Location’ and ‘location’.&nbsp;
+Let’s say, you imported an attribute “Location” with users having their values as “San Jose”, “Miami” etc. Later you imported the user csv again but this time the attribute was named “location”. Note that the case value of “l” has changed from “L” to “l”. In such case, platform would have created a different usergroup with attribute “location” which is different than previously created “Location”. Thus two groups would get created “Location - miami” and “location - miami”. Thus reports like Learner Transcript would also have 2 columns for the same attribute ‘Location’ and ‘location’. 
 
-With this release, platform understands that attributes are the same. Hence it retains the most recent case value provided&nbsp;i.e. ‘location’ in our example. Thus existing group of ‘Location - Miami’ would get modified to ‘location - Miami’ and users continue to exist in the same group.&nbsp;
+With this release, platform understands that attributes are the same. Hence it retains the most recent case value provided i.e. ‘location’ in our example. Thus existing group of ‘Location - Miami’ would get modified to ‘location - Miami’ and users continue to exist in the same group. 
 
-Same concept holds true for the attribute values like “Miami”, “San Jose” etc. Thus&nbsp;if&nbsp;the value of “Miami” changes to “miami”&nbsp;in the user csv, platform does not create a new user group for&nbsp;miami. Instead it changes the existing user group from&nbsp;“location - Miami” to “location -&nbsp;miami” and all users continue to remain in the same group.&nbsp;
+Same concept holds true for the attribute values like “Miami”, “San Jose” etc. Thus if the value of “Miami” changes to “miami” in the user csv, platform does not create a new user group for miami. Instead it changes the existing user group from “location - Miami” to “location - miami” and all users continue to remain in the same group. 
 
 ### Attribute values
 
-In&nbsp;this release, Learning Manager preserves the case&nbsp;sensitivity&nbsp;of the user attribute and its value.&nbsp;For example,&nbsp;the case sensitivity of&nbsp;a&nbsp;user attribute&nbsp;is&nbsp;‘location’ and its value as ‘PARIS’ will be preserved and displayed in the same manner.&nbsp;In case&nbsp;of any issues,&nbsp;the&nbsp;Administrator can now edit the attribute name and values to correct any case sensitivity errors.&nbsp;
+In this release, Learning Manager preserves the case sensitivity of the user attribute and its value. For example, the case sensitivity of a user attribute is ‘location’ and its value as ‘PARIS’ will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
 
-The Administrator can do this by&nbsp;visiting&nbsp;**Admin&nbsp;app&nbsp;> Users > User groups**&nbsp;and clicking on the group name.&nbsp;
+The Administrator can do this by visiting **Admin app > Users > User groups** and clicking on the group name. 
 
 ### Date range label changes
 
-While displaying dashboard reports&nbsp;for Administrator and Manager,&nbsp;the date ranges&nbsp;used to&nbsp;include the following duration filter:
+While displaying dashboard reports for Administrator and Manager, the date ranges used to include the following duration filter:
 
 * This month  
 * Last 3 full months  
@@ -209,15 +209,15 @@ In this release, the filters will feature exact dates, using which you can downl
 * 1 Feb 2021 to 30 April 2021  
 * 1 May 2020 to 30 April 2021
 
-This change will be visible in both Admin and Manager app.&nbsp;Note that the functionality remains the same. Providing the exact dates makes the functionality easy to understand.
+This change will be visible in both Admin and Manager app. Note that the functionality remains the same. Providing the exact dates makes the functionality easy to understand.
 
 # Release Notes {#releasenotes}
 
-For information regarding current and previous releases of Learning Manager web app and device app, see the&nbsp; [***Release notes***](release-note/release-notes.md).
+For information regarding current and previous releases of Learning Manager web app and device app, see the  [***Release notes***](release-note/release-notes.md).
 
 # Bug fixes {#bugfixes}
 
-To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed***](release-note/release-notes.md#bug-fixes)&nbsp;list.
+To see the bugs that are fixed in this update, refer to the  [***Bugs fixed***](release-note/release-notes.md#bug-fixes) list.
 
 # Known issues {#knownissues}
 
@@ -239,7 +239,7 @@ To see the known issues in this update, refer to [***Known issues***](release-no
  <tbody>
   <tr> 
    <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
   </tr> 
  </tbody>
 </table>

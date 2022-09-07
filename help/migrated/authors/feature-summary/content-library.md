@@ -27,7 +27,7 @@ The table below shows the type of interactive and static file types that you can
    <td><p><b>Extensions</b></p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p></td> 
+   <td><p> </p></td> 
    <td><p> </p> 
     <ul> 
      <li>SCORM 1.2</li> 
@@ -43,32 +43,32 @@ The table below shows the type of interactive and static file types that you can
    <td><p><b>Extensions</b></p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p></td> 
+   <td><p> </p></td> 
    <td><p>Video</p></td> 
    <td><p>mp4, wmv, 3gp, 3g2, 3gp2, asf, avi, f4v h264, mpe, mpeg, mpg, mpg2, m4v, mov, wmv</p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p></td> 
+   <td><p> </p></td> 
    <td><p>Audio</p></td> 
    <td><p>mp3, wav, aac, m4a, wma, vorbis, pcm, eac3, amr, ac3</p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p></td> 
+   <td><p> </p></td> 
    <td><p>PDF</p></td> 
    <td><p>pdf</p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p></td> 
+   <td><p> </p></td> 
    <td><p>MS PowerPoint</p></td> 
    <td><p>pptx, ppt</p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p></td> 
+   <td><p> </p></td> 
    <td><p>MS Word</p></td> 
    <td><p>docx, doc</p></td> 
   </tr> 
   <tr> 
-   <td><p>&nbsp;</p></td> 
+   <td><p> </p></td> 
    <td><p>MS Excel</p></td> 
    <td><p>xlsx, xls</p></td> 
   </tr> 
@@ -117,23 +117,23 @@ The content library also maintains versioning of your uploaded contents. If you 
 
    The interactive content can be a SCORM, AICC, or a Captivate published project. The file must be a zip file.
 
-   You can also add HTML content generated from Captivate, Presenter, or Presenter Video Express.&nbsp;
+   You can also add HTML content generated from Captivate, Presenter, or Presenter Video Express. 
 
    [Supported file types](content-library.md#supported)
 
-1. Learning Manager supports captions for video content uploaded in Learning Manager. Now, authors can upload the file containing captions, along with the video file.&nbsp;
+1. Learning Manager supports captions for video content uploaded in Learning Manager. Now, authors can upload the file containing captions, along with the video file. 
 
-   Then, the learners can view the captions during the playback of the video module.&nbsp;&nbsp;
+   Then, the learners can view the captions during the playback of the video module.  
 
-   The format supported is&nbsp; [Web Video Text Tracks (webVTT)](https://www.w3.org/TR/webvtt1/).
+   The format supported is  [Web Video Text Tracks (webVTT)](https://www.w3.org/TR/webvtt1/).
 
-   Caption support is available for video content uploaded in Content library in Learning Manager.&nbsp;
+   Caption support is available for video content uploaded in Content library in Learning Manager. 
 
-   As an&nbsp;author, when you’ll upload a video&nbsp;or audio&nbsp;content,&nbsp;you can also upload the .vtt&nbsp;file that contains the captions.
+   As an author, when you’ll upload a video or audio content, you can also upload the .vtt file that contains the captions.
 
-   The subtitles then appear in the Fluidic Player.&nbsp;The captions are also compliant to&nbsp; [WCAG2.0 standards](https://www.w3.org/TR/WCAG20/).&nbsp;
+   The subtitles then appear in the Fluidic Player. The captions are also compliant to  [WCAG2.0 standards](https://www.w3.org/TR/WCAG20/). 
 
-   When you add a video content to the library,&nbsp;you can also add the vtt&nbsp;file, which **must **be a valid file.
+   When you add a video content to the library, you can also add the vtt file, which **must **be a valid file.
 
    ![](assets/webvtt.png)
 
@@ -141,11 +141,11 @@ The content library also maintains versioning of your uploaded contents. If you 
 
    In case you are creating the content in different languages, you can upload a different webVTT file for each language. Learners will be able to see the captions corresponding to the language selected during playback.
 
-   **NOTE:&nbsp;**One VTT file supports one language. To support multiple languages, upload multiple video files for each content language and then upload its respective VTT file for each video file.
+   **NOTE:** One VTT file supports one language. To support multiple languages, upload multiple video files for each content language and then upload its respective VTT file for each video file.
 
-   As an author, every time you change the content, video or audio, Learning Manager prompts you for a new&nbsp;vtt&nbsp;file.
+   As an author, every time you change the content, video or audio, Learning Manager prompts you for a new vtt file.
 
-   After you add this content to a course, and when you preview the course as learner, you can&nbsp;see the captions on the video.
+   After you add this content to a course, and when you preview the course as learner, you can see the captions on the video.
 
    On the player, toggle the CC button on the Fluidic player to display or hide the captions.
 
@@ -166,9 +166,9 @@ The content library also maintains versioning of your uploaded contents. If you 
 
 ### Support for shared catalog
 
-If a seller account shares a catalog that contains the courses,&nbsp;and the courses contain the modules, audio or video with the subtitles,&nbsp;the courses must behave the same in the purchaser account.
+If a seller account shares a catalog that contains the courses, and the courses contain the modules, audio or video with the subtitles, the courses must behave the same in the purchaser account.
 
-Module propagation should work correctly from Seller to Purchaser account. This may include – edit/delete/addition of the&nbsp;vtt&nbsp;file in the module.
+Module propagation should work correctly from Seller to Purchaser account. This may include - edit/delete/addition of the vtt file in the module.
 
 Once you have uploaded the content, you can see a notification by clicking the Bell icon on top-right hand corner of the page. Each time you modify a content and re-upload it, you get a notification. If you make the changes, only you get the notification, not other authors.
 
@@ -178,19 +178,19 @@ After an Administrator creates the content folders, you, an author, can upload a
 
 **Example usage**
 
-For example,&nbsp;agencies&nbsp;want to maintain&nbsp;full control of the content&nbsp;and someone overlooking the content must have access to all content. At the same time, content creators in agencies must have access to their own content only, and in some cases, access to someone else’s content.
+For example, agencies want to maintain full control of the content and someone overlooking the content must have access to all content. At the same time, content creators in agencies must have access to their own content only, and in some cases, access to someone else’s content.
 
-Content library with existing content (i.e. content uploaded before configuring Content folders) gets defined as&nbsp;**Public folder**. This folder cannot be retired or deleted.&nbsp;Content that is part of Public folder is&nbsp;accessible to all types of authors.&nbsp;Once Content Folders are configured, standard authors and custom authors should select the folder where the content should be placed, while uploading new content.
+Content library with existing content (i.e. content uploaded before configuring Content folders) gets defined as **Public folder**. This folder cannot be retired or deleted. Content that is part of Public folder is accessible to all types of authors. Once Content Folders are configured, standard authors and custom authors should select the folder where the content should be placed, while uploading new content.
 
-**Note:**&nbsp;Public folder and private folders are mutually exclusive. This means that content&nbsp;**cannot&nbsp;**be associated with Public folder and private folder at the same time.&nbsp;It can either be associated to Public folder,&nbsp;**or&nbsp;**it can be associated with one or more private folders at any point of time.
+**Note:** Public folder and private folders are mutually exclusive. This means that content **cannot **be associated with Public folder and private folder at the same time. It can either be associated to Public folder, **or **it can be associated with one or more private folders at any point of time.
 
-When you add a content, you can choose the folder where the content will reside.&nbsp;
+When you add a content, you can choose the folder where the content will reside. 
 
 ![](assets/add-to-content-folder.png)
 
-If you choose&nbsp;**Public**,&nbsp;the content will be visible to all authors. All content that existed in the account that are not part of any folder will&nbsp;in the&nbsp;public&nbsp;folder, by default.
+If you choose **Public**, the content will be visible to all authors. All content that existed in the account that are not part of any folder will in the public folder, by default.
 
-Note that content folders are simply virtual compartments to link the content. In&nbsp;case one content is placed in two folders, it&nbsp;means&nbsp;that content file is always one single file but linked to multiple folders.&nbsp;Thus,&nbsp;in case&nbsp;the content is updated by the custom-author-1 having access to custom-folder-1,&nbsp;the&nbsp;same updated content will also reflect in custom-folder-2 accessed by custom-author-2.
+Note that content folders are simply virtual compartments to link the content. In case one content is placed in two folders, it means that content file is always one single file but linked to multiple folders. Thus, in case the content is updated by the custom-author-1 having access to custom-folder-1, the same updated content will also reflect in custom-folder-2 accessed by custom-author-2.
 
 In the Content Library, there are two options for managing the content folders:
 
@@ -202,7 +202,7 @@ It’s a list that displays all folders that were created in the account.
 
 **All Authors**
 
-It’s a list that displays the authors who’ve created content and&nbsp;uploaded&nbsp;it in the library.
+It’s a list that displays the authors who’ve created content and uploaded it in the library.
 
 ![](assets/list-of-all-authors.png)
 
@@ -210,31 +210,31 @@ This is available **only **when an Administrator creates a new folder.
 
 ## Move content to folder {#movecontenttofolder}
 
-To move a public folder&nbsp;content&nbsp;to any private folder,&nbsp;
+To move a public folder content to any private folder, 
 
 1. Select **Public **folder from the **All Folders** drop-down list.
 
    ![](assets/list-of-public-folders.png)
 
-1. Choose the content that you’d like to move it to a folder. Then click&nbsp;**Actions > Organize Content > Move Content to Folder**.&nbsp;
+1. Choose the content that you’d like to move it to a folder. Then click **Actions > Organize Content > Move Content to Folder**. 
 
    ![](assets/move-content-to-folder.png)
 
-1. Choose the folder where you want to move the content to. Click&nbsp;**Move**.
+1. Choose the folder where you want to move the content to. Click **Move**.
 
 ## Copy content to folder {#copycontenttofolder}
 
-Copying a folder means that you’d be adding a tag to the folder.&nbsp;The copy operation will not create copies of content, but only add an association with specified folders.
+Copying a folder means that you’d be adding a tag to the folder. The copy operation will not create copies of content, but only add an association with specified folders.
 
 ![](assets/copy-content-to-folder.png) 
 
 ## Unlink folder {#unlinkfolder}
 
-Unlinking means to remove the&nbsp;content&nbsp;from the selected folder.
+Unlinking means to remove the content from the selected folder.
 
-Content can be unlinked from a specified folder **ONLY **if it is also associated with other folders.&nbsp;If content being unlinked, is only&nbsp;associated with one folder, then it&nbsp;is advisable to use MOVE operation&nbsp;instead.
+Content can be unlinked from a specified folder **ONLY **if it is also associated with other folders. If content being unlinked, is only associated with one folder, then it is advisable to use MOVE operation instead.
 
-**NOTE: **The organize menu, under Actions, is disabled initially. To use that, you must first select a folder in the folder drop-down list.
+**NOTE:** The organize menu, under Actions, is disabled initially. To use that, you must first select a folder in the folder drop-down list.
 
 ![](assets/unlink-a-folder.png) 
 
@@ -268,14 +268,14 @@ Content can be unlinked from a specified folder **ONLY **if it is also associate
      <li>On Launching content</li> 
      <li>Based on the Minimum percent required</li> 
      <li>Quiz passed or attempted options</li> 
-    </ul><p><b>NOTE:</b>&nbsp;Only HTML content from Captivate, Presenter Video Express, or Presenter can be edited.</p></td> 
+    </ul><p><b>NOTE:</b> Only HTML content from Captivate, Presenter Video Express, or Presenter can be edited.</p></td> 
   </tr> 
  </tbody>
 </table>
 
-After you’ve added the content, you can modify the completion criteria for the content.&nbsp;
+After you’ve added the content, you can modify the completion criteria for the content. 
 
-In Prime, badges and skill are awarded based on Success&nbsp; and Completion. If the learner has completed a course but is not successful, then the learner does not receive the badge and skill corresponding to the LO.
+In Prime, badges and skill are awarded based on Success  and Completion. If the learner has completed a course but is not successful, then the learner does not receive the badge and skill corresponding to the LO.
 
 For example, if you had used Adobe Captivate to create your course and set the learning parameters on the Preferences dialog, the same settings get migrated to Learning Manager in the Completion Criteria options.
 
@@ -291,13 +291,13 @@ In the Completion Criteria section, you can set the options mentioned below:
 * **Quiz attempted:** The status is reported as Complete if learners attempt the quiz irrespective of whether they pass or fail the quiz.
 * **Quiz passed or limit reached:** The status is reported as Complete if learners pass the quiz or have taken all the attempts. For example, if the number of attempts set in the course is two, and:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp; If learners take the first attempt and pass, then the status is reported as Complete and Passed.
+            o   If learners take the first attempt and pass, then the status is reported as Complete and Passed.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp; If learners take the first attempt and fail, then the status is reported as Incomplete and Failed as the attempt limit is still not reached.
+            o   If learners take the first attempt and fail, then the status is reported as Incomplete and Failed as the attempt limit is still not reached.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp; If learners retake the quiz and fail, the status is reported as Complete and Failed.
+            o   If learners retake the quiz and fail, the status is reported as Complete and Failed.
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; o&nbsp;&nbsp;&nbsp;If learners attempt the quiz again and pass, the status is reported as Complete and Passed.
+            o   If learners attempt the quiz again and pass, the status is reported as Complete and Passed.
 
 # Set success criteria {#setsuccesscriteria}
 
@@ -362,5 +362,5 @@ Note that existing courses that use the content, which are deleted from the cont
 
 # Frequently Asked Questions {#frequentlyaskedquestions}
 
-1. **How to upload a SCORM content in Adobe Learning Manager?**&nbsp;Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Learning Manager, upload the zip file in the catalog, and set the completion and success criteria.&nbsp;2.&nbsp;**How do I upload a new version of the same content to Learning Manager?**&nbsp;In Learning Manager, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation&nbsp;in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course.&nbsp;3. **How to edit the details of a course in a different language?**&nbsp;After adding a language/languages, as described in an earlier section, click each language tab, and then add/edit the course information. ![](assets/edit-course-language.png)
+1. **How to upload a SCORM content in Adobe Learning Manager?** Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Learning Manager, upload the zip file in the catalog, and set the completion and success criteria. 2. **How do I upload a new version of the same content to Learning Manager?** In Learning Manager, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course. 3. **How to edit the details of a course in a different language?** After adding a language/languages, as described in an earlier section, click each language tab, and then add/edit the course information. ![](assets/edit-course-language.png)
 

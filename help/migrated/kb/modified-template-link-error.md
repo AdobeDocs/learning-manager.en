@@ -40,7 +40,7 @@ To avoid any errors that are related to broken links, which may appear due to cu
    * Copy-paste the modified template on to a Notepad/Word file to store a copy of the changes made.
    * Avoid replacing any dynamic text in the template which is highlighted in blue. For example, “**OrganizationName**”, “**Learner**”, “**click here**”, “**CertificateName**”, and so on.
 
-1. Click **Save** to confirm the changes applied to the template.&nbsp;
+1. Click **Save** to confirm the changes applied to the template. 
 1. Trigger the email to verify if the links work as expected.
 1. Revert the settings to original by clicking the option **Revert to Original **for the modified template.
 

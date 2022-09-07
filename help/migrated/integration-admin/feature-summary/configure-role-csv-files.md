@@ -35,7 +35,7 @@ To get started, download the csvs and change the values according to your requir
   </tr> 
   <tr> 
    <td><p>&lt;Entity&gt;</p></td> 
-   <td><p>Identify Access Type (FULL,&nbsp;WRITE,&nbsp;ENROLL,&nbsp;REPORT,&nbsp;NONE) for each entity type such as COURSE, CATALOG etc.</p></td> 
+   <td><p>Identify Access Type (FULL, WRITE, ENROLL, REPORT, NONE) for each entity type such as COURSE, CATALOG etc.</p></td> 
    <td><p>FULL</p><p>NONE</p><p>WRITE | REPORT</p><p>Column names will correspond to entity type names such as Catalog, Course, Learning Plan etc.</p><p>One column for each entity type will be present in the CSV. Entities, for which no permission is to be given, should be included with a value of NONE</p></td> 
   </tr> 
   <tr> 
@@ -111,13 +111,13 @@ In your Box account, choose **Import > user > internal**, and upload the files- 
 * The Custom Role CSVs must be copied in the folder “import->user->internal->user_role”
 * The Users CSV must be copied in the folder “import->user->internal”
 
-Both the CSVs must be uploaded via Box or FTP only and cannot be uploaded through UI.&nbsp;
+Both the CSVs must be uploaded via Box or FTP only and cannot be uploaded through UI. 
 
-**NOTE: **The Users CSV file is mandatory., but the Custom Role CSVs are optional. All the files that are present are processed, and others are skipped.
+**NOTE:** The Users CSV file is mandatory., but the Custom Role CSVs are optional. All the files that are present are processed, and others are skipped.
 
 The custom roles created using the csv file is not visible to Admins in the UI. These roles will not be related or affected by roles created (or to be created later) by UI.
 
-Custom roles that have been created by a csv can be entirely managed via the csv itself.&nbsp;This includes adding, modifying and deleting roles.
+Custom roles that have been created by a csv can be entirely managed via the csv itself. This includes adding, modifying and deleting roles.
 
 Assigned roles can be revoked by removing assignment entries from user_role csv. But assignments done via Admin UI are not affected by this.
 

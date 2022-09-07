@@ -19,4 +19,4 @@ Learning Manager uses peer activity data as another signal to drive the recommen
 
 Additionally, Learning Manager uses explicit and implicit information gathered from individual learners to further personalize recommendations. A learner will be able to indicate their areas of interest explicitly through enrollments and Learning Manager will receive this information implicitly based on how the Learner ends up taking up the trainings.
 
-Finally, the Admin will also be able to influence the recommendation algorithm using learner attributes that Learning Manager should look at when defining peer groups, and also by actually highlighting Trainings for specific user groups.&nbsp;&nbsp;
+Finally, the Admin will also be able to influence the recommendation algorithm using learner attributes that Learning Manager should look at when defining peer groups, and also by actually highlighting Trainings for specific user groups.  

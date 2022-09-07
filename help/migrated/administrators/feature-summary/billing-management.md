@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Manage Learning Manager orders and billing {#manage-learning-manager-orders-and-billing}
 
-Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Credit card-based purchase is only available in the [US region](http://captivateprime.adobe.com/).
 
@@ -62,8 +62,8 @@ You can buy a subscription for a maximum of 3500 learners through any single cre
 
    ![](assets/change-locale.png)
 
-1. Enter your contact information, choose the credit card type, and provide the details of the credit card. After you’ve entered the required details, click **Complete Order**.
-1. After you’ve placed the order, to see the recently ordered packages, click the **Order History** tab on the **Billing** page.
+1. Enter your contact information, choose the credit card type, and provide the details of the credit card. After you've entered the required details, click **Complete Order**.
+1. After you've placed the order, to see the recently ordered packages, click the **Order History** tab on the **Billing** page.
 
    ![](assets/order-history.png)
 
@@ -73,7 +73,7 @@ All orders can have one of the four statuses:
 
 **Active:** An order is active, and users are registered successfully.
 
-**Suspended: **An order moves into suspended state in the following scenarios:
+**Suspended:** An order moves into suspended state in the following scenarios:
 
 * Delay in receipt of payment from the credit card
 * Expiry of the credit card.
@@ -90,9 +90,9 @@ All orders can have one of the four statuses:
 1. In the Subscription details page, click **Edit Subscription**.
 1. Choose the item that you want to edit:
 
-   a.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Payment method: Use this option to update payment details, such as, credit card.
+   a.      Payment method: Use this option to update payment details, such as, credit card.
 
-   b.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Address: Use this option to update address details.
+   b.      Address: Use this option to update address details.
 
 ## Cancel a subscription {#cancelasubscription}
 
@@ -106,7 +106,7 @@ When an account is deactivated by the customer, it enters a trial state for the 
 
 # Place orders using Purchase Order {#placeordersusingpurchaseorder}
 
-You can choose purchase order process as an alternative mode of payment. As a pre-requisite, your organization’s account must be registered with Adobe. Your organization account is charged for this process. The account is charged based on a learner’s activities. Only Learning Object-level activities are charged. To place an order using PO:
+You can choose purchase order process as an alternative mode of payment. As a pre-requisite, your organization's account must be registered with Adobe. Your organization account is charged for this process. The account is charged based on a learner's activities. Only Learning Object-level activities are charged. To place an order using PO:
 
 1. Send an email to [learningmanagersales@adobe.com](mailto:captivateprimesales@adobe.com) and mention the number of required learners.
 1. The Learning Manager team sends you an activation key.
@@ -117,19 +117,19 @@ You can choose purchase order process as an alternative mode of payment. As a pr
 
 After an account gets activated, the account can be in any of the following states:
 
-* **Trial** – You can create an Adobe Learning Manager account and use it without any payment for a period of 30 days. There is no limit on the number of learners registered during the trial period.
-* **Active** – In this state, the account has active learner subscriptions with recurring monthly payment as per the subscription order.
-* **Inactive** – An account moves into inactive state in the following scenarios:
+* **Trial** - You can create an Adobe Learning Manager account and use it without any payment for a period of 30 days. There is no limit on the number of learners registered during the trial period.
+* **Active** - In this state, the account has active learner subscriptions with recurring monthly payment as per the subscription order.
+* **Inactive** - An account moves into inactive state in the following scenarios:
 
-o&nbsp;&nbsp; After the trial period if there are no active subscription orders in the account.
+o   After the trial period if there are no active subscription orders in the account.
 
-o&nbsp;&nbsp; Administrator deactivates the account, which results in canceling all the existing orders in an account from the next billing cycle of subscription.
+o   Administrator deactivates the account, which results in canceling all the existing orders in an account from the next billing cycle of subscription.
 
-o&nbsp;&nbsp; Payment is declined for active orders in an account even after reminders.
+o   Payment is declined for active orders in an account even after reminders.
 
-An inactive state does not cancel your account with immediate effect. You receive at least a couple of reminders from the Learning Manager team asking you to provide the latest information about&nbsp;your credit card if it has expired.&nbsp;In an inactive state, only an administrator can log in to the Learning Manager&nbsp;account. All other users cannot access the account.
+An inactive state does not cancel your account with immediate effect. You receive at least a couple of reminders from the Learning Manager team asking you to provide the latest information about your credit card if it has expired. In an inactive state, only an administrator can log in to the Learning Manager account. All other users cannot access the account.
 
-* **Activation required** – Your account moves into this state when the Learning Manager administrator chooses to deactivate the account. All the orders of this account get canceled. The collection of payment for these orders does not happen from the next billing cycle. The status of the account remains in this state until the day of the last billing cycle. In this state, all users can continue to use the application without any impact until the end of the last recurring payment date.
+* **Activation required** - Your account moves into this state when the Learning Manager administrator chooses to deactivate the account. All the orders of this account get canceled. The collection of payment for these orders does not happen from the next billing cycle. The status of the account remains in this state until the day of the last billing cycle. In this state, all users can continue to use the application without any impact until the end of the last recurring payment date.
 
 ## Cancel a subscription {#Cancelasubscription-1}
 
@@ -174,9 +174,9 @@ Any user who performs the following actions or achieves completions due to actio
 
 1. On the page that displays, you can view the following:
 
-   a.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Overall usage:** You can check the total number of active users, users who are consuming Learning Manager in a month, and the number of users who have not yet signed up for any course.
+   a.      **Overall usage:** You can check the total number of active users, users who are consuming Learning Manager in a month, and the number of users who have not yet signed up for any course.
 
-   b.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Monthly usage:** You can see a table of unique active users per month.
+   b.      **Monthly usage:** You can see a table of unique active users per month.
 
 ## Download usage report {#downloadusagereport}
 
@@ -200,7 +200,7 @@ To cancel an active subscription, contact the Learning Manager support team.
 
 To add subscriptions in an account, add the number of users for who you'd like to purchase subscriptions. Then on the upper-right corner, click **Place Order**. Review the estimate and click **Proceed**. Enter your account details and also your credit card details. Then to purchase the subscriptions, click **Complete Order**.
 
-To remove an active subscription,&nbsp;contact&nbsp;the Learning Manager support team.
+To remove an active subscription, contact the Learning Manager support team.
 
 **2. How to change a credit card for subscriptions?**
 
@@ -208,7 +208,7 @@ In the **Order History **tab, for an active account, click **Edit**. Then on the
 
 ![](assets/credit-card-details.png)
 
-**3.&nbsp;How to update the Billing information on Learning Manager?**
+**3. How to update the Billing information on Learning Manager?**
 
 To update the billing information, follow the steps below:
 
@@ -219,14 +219,14 @@ To update the billing information, follow the steps below:
 
 Choose the item that you want to edit:
 
-1. **Payment method: **Use this option to update payment details, such as, credit card.
+1. **Payment method:** Use this option to update payment details, such as, credit card.
 1. **Address:** Use this option to update address details.
 
 **4. Can I partially cancel a subscription?**
 
-No, you cannot cancel a subscription partially.&nbsp;If you need to reduce the number of seats that you have purchased, you can cancel the subscription at the end of the billing cycle and then purchase the number of seats required.
+No, you cannot cancel a subscription partially. If you need to reduce the number of seats that you have purchased, you can cancel the subscription at the end of the billing cycle and then purchase the number of seats required.
 
-**5.&nbsp;How do I get an Invoice for my Credit card payments?**
+**5. How do I get an Invoice for my Credit card payments?**
 
 Contact [FastSpring](https://fastspring.com/) to get an invoice for your payments, using one of the following ways:
 

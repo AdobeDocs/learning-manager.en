@@ -7,13 +7,13 @@ contentowner: nluke
 
 # Unable to search a course in Learning Manager {#unable-to-search-a-course-in-learning-manager}
 
-Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 # **Issue**
 
 A learner is unable to search a course in Learning Manager.
 
-# **Scenario 1: ** `Enrollment is through a higher Learning Object.`
+# **Scenario 1:**  `Enrollment is through a higher Learning Object.`
 
 ## **Summary**
 
@@ -25,9 +25,9 @@ In Learning Manager, when a learner is enrolled through a Learning Program/Certi
 
 Therefore, the learner is not able to search for the stand-alone Courses under **My Learning**.
 
-However, the learner cannot view the courses inside the&nbsp;Learning Program/Certification.
+However, the learner cannot view the courses inside the Learning Program/Certification.
 
-# **Scenario 2: ** `Learner does not have access to the Catalog that contains the Course.`
+# **Scenario 2:**  `Learner does not have access to the Catalog that contains the Course.`
 
 ## **Summary**
 
@@ -42,10 +42,10 @@ This issue occurs if:
 
 # **Resolution**
 
-1. Log in as administrator.&nbsp;  
+1. Log in as administrator.   
 
-1. Click&nbsp;**Catalog **and browse to the catalog that contains the course.&nbsp;
-1. Click&nbsp;**Share Internally** or **Content **(depending upon the scenario mentioned above).
+1. Click **Catalog **and browse to the catalog that contains the course. 
+1. Click **Share Internally** or **Content **(depending upon the scenario mentioned above).
 
    ![](assets/cp-share-internally.png)
 
@@ -53,13 +53,13 @@ This issue occurs if:
 
    ## A. Learner is not part of the catalog
 
-   To share the catalog, click&nbsp;**Add**,&nbsp;and add the user group that the user is a part of. Click&nbsp;**Save**.
+   To share the catalog, click **Add**, and add the user group that the user is a part of. Click **Save**.
 
    ![](assets/cp-add-user-group.png)
 
    ## **Course is not a part of the Catalog**
 
-   In the Content section, click&nbsp;**Add Content,**&nbsp;and select the course that you need to add to the catalog.
+   In the Content section, click **Add Content,** and select the course that you need to add to the catalog.
 
    ![](assets/cp-add-content.png)
 

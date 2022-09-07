@@ -23,7 +23,7 @@ Read on to know how to configure and use each of these connectors in Learning Ma
 
 # Salesforce connector {#sfconnector}
 
-Salesforce connector connects Learning Manager and Salesforce accounts to automate data synchronization. Salesforce connector capabilities are as follows:&nbsp;
+Salesforce connector connects Learning Manager and Salesforce accounts to automate data synchronization. Salesforce connector capabilities are as follows: 
 
 #### Map attributes
 
@@ -35,11 +35,11 @@ User import process allows Learning Manager Administrator to fetch employee deta
 
 #### Auto Schedule
 
-Using auto scheduling feature along with automated user import feature can be effective. Learning Manager Administrator can set up schedule according to organization's needs. Users in the Learning Manager application can be up-to-date according to the schedule.&nbsp;Sync can be performed on daily basis in Learning Manager application.&nbsp;
+Using auto scheduling feature along with automated user import feature can be effective. Learning Manager Administrator can set up schedule according to organization's needs. Users in the Learning Manager application can be up-to-date according to the schedule. Sync can be performed on daily basis in Learning Manager application. 
 
 #### Filtering users
 
-Learning Manager Administrator can apply filtering on the users before importing them. For example, Learning Manager Administrator can choose to import all users in the hierarchy under one or more specific Managers.&nbsp;
+Learning Manager Administrator can apply filtering on the users before importing them. For example, Learning Manager Administrator can choose to import all users in the hierarchy under one or more specific Managers. 
 
 ## Configure Salesforce connector {#configuresalesforceconnector}
 
@@ -57,35 +57,35 @@ Also make sure that you have the appropriate credentials to log in to the accoun
 
    ![](assets/mouserover-salesforce.png)
 
-1. A dialog appears prompting you to enter the org-url. Click&nbsp;**Connect**&nbsp;after providing the URL.&nbsp;
+1. A dialog appears prompting you to enter the org-url. Click **Connect** after providing the URL. 
 1. Upon successful connection, the overwiew page appears.
 
 ## Map attributes {#mapattributes}
 
-Once connection is successfully established, you can map Salesforce columns to the corresponding attributes of Learning Manager. This step is mandatory.&nbsp;
+Once connection is successfully established, you can map Salesforce columns to the corresponding attributes of Learning Manager. This step is mandatory. 
 
 1. In the mapping page, on left side you can see Learning Manager’s columns and on right side you can see the Salesforce columns. Select the appropriate column name that maps to the Learning Manager’s column name.
 
    ![](assets/sfdc-map-columns.png)
 
-   Learning Manager's column data shown on the left side are fetched from the active fields.&nbsp;The **manager** field must necessarily be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.
+   Learning Manager's column data shown on the left side are fetched from the active fields. The **manager** field must necessarily be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.
 
-1. Click** Save** after completing the mapping.&nbsp;
+1. Click** Save** after completing the mapping. 
 1. The connector is now ready for use. The account that has been configured now, appears as a data source within the Administrator app, for the administrator to schedule the import or for on-demand sync.
 
 ## Using Salesforce connector {#usingsalesforceconnector}
 
-Salesforce connector connects to Salesforce.com to fetch the users as configured and add them to Learning Manager.&nbsp;
+Salesforce connector connects to Salesforce.com to fetch the users as configured and add them to Learning Manager. 
 
 # Learning Manager FTP connector {#ftpconnector}
 
-Using the FTP connector, you can integrate Learning Manager with arbitrary external systems to automate data synchronization. It is expected that external systems can export data in a CSV format and place it in the appropriate folder of the Learning Manager FTP account. FTP connector capabilities are as follows:&nbsp;
+Using the FTP connector, you can integrate Learning Manager with arbitrary external systems to automate data synchronization. It is expected that external systems can export data in a CSV format and place it in the appropriate folder of the Learning Manager FTP account. FTP connector capabilities are as follows: 
 
 You can also use the Box connector for data migration, user  import  and data export. For more information, see [Box connector.](third-party-connectors.md#main-pars_header_302653946)
 
 ## Data import {#dataimport}
 
-User import process allows Learning Manager Administrator to fetch employee details from the Learning Manager FTP service and import them into Learning Manager automatically. Using this feature, you can integrate multiple systems by placing the CSV generated by those systems in the appropriate folders of the FTP accounts. Learning Manager picks up the CSV files, merges them, and imports the data according to the schedule. Refer to Scheduling feature for more information.&nbsp;
+User import process allows Learning Manager Administrator to fetch employee details from the Learning Manager FTP service and import them into Learning Manager automatically. Using this feature, you can integrate multiple systems by placing the CSV generated by those systems in the appropriate folders of the FTP accounts. Learning Manager picks up the CSV files, merges them, and imports the data according to the schedule. Refer to Scheduling feature for more information. 
 
 **Map attributes**
 
@@ -97,11 +97,11 @@ The Data Export allows users to export user skills to an FTP location to integra
 
 ## Scheduling {#scheduling}
 
-Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application.&nbsp;
+Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application. 
 
 ## Configure Learning Manager FTP connector {#configurecaptivateprimeftpconnector}
 
-Learn the process to integrate Learning Manager with FTP connector.&nbsp;
+Learn the process to integrate Learning Manager with FTP connector. 
 
 ### Create a connection {#Createaconnection-1}
 
@@ -109,12 +109,12 @@ Learn the process to integrate Learning Manager with FTP connector.&nbsp;
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization.&nbsp;Click&nbsp;**Connect**&nbsp;after providing the email id.&nbsp;
+1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **Connect** after providing the email id. 
 1. Learning Manager sends you an email prompting the user to reset the password before accessing the FTP for the first time. The user must reset the password and use this for accessing the Learning Manager FTP account.
 
    Only one Learning Manager FTP account can be created for a given Learning Manager account.
 
-   In the overview page, you can specify the&nbsp;Connection Name for your integration. Choose what action you want to take from the following options:
+   In the overview page, you can specify the Connection Name for your integration. Choose what action you want to take from the following options:
 
    * Import Internal Users  
    * Export User Skills - Configure a Schedule  
@@ -132,37 +132,37 @@ The import internal user option allows you to schedule the generation of user im
 
 +++Map Attributes
 
-Once connection is successfully established, you can map the columns of CSV files that will be placed in the FTP folder to the corresponding attributes of Learning Manager. This step is mandatory.&nbsp;
+Once connection is successfully established, you can map the columns of CSV files that will be placed in the FTP folder to the corresponding attributes of Learning Manager. This step is mandatory. 
 
-1. In the Map Attributes page, on left side you can see Learning Manager’s expected columns and on right side you can see the CSV column names. Initially, on the right side, you can see an empty select box. Import any template CSV by clicking&nbsp;**Choose File**.
+1. In the Map Attributes page, on left side you can see Learning Manager’s expected columns and on right side you can see the CSV column names. Initially, on the right side, you can see an empty select box. Import any template CSV by clicking **Choose File**.
 1. The above step populates the right side select drop-down list with all the CSV column names. Select the appropriate column name that maps to the Learning Manager’s column name.
 
    *The Manager field must necessarily be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.*
 
-1. Click&nbsp;**Save**&nbsp;after completing the mapping.&nbsp;
+1. Click **Save** after completing the mapping. 
 
    The connector is now ready for use. The just configured account will now appear as a data source within the Administrator app for the Administrator to schedule the import or for on-demand sync.
 
-   &nbsp;
+    
 
 +++
 
 +++Using the Learning Manager FTP connector
 
-1. The CSV files from external systems should be placed at the following path:&nbsp;
+1. The CSV files from external systems should be placed at the following path: 
 
 `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-**Note:&nbsp;**In the July 2016 Release, only import of users is allowed. Therefore to use the FTP connector, you must ensure that the CSV files are placed in the following folder:  
+**Note:** In the July 2016 Release, only import of users is allowed. Therefore to use the FTP connector, you must ensure that the CSV files are placed in the following folder:  
 `code Home/import/user/internal/*.csv`
 
 2. The FTP connector takes all rows from CSV files, so it is important that the row corresponding to a user in one CSV does not appear in any other CSVs.
 
 3. All CSVs should contain the columns specified in the mapping.
 
-4. All the required CSVs should be present in the folder before the process begins.&nbsp;
+4. All the required CSVs should be present in the folder before the process begins. 
 
-While importing users into Learning Manager, Administrator also need to know how users are managed in Learning Manager. Refer to [User Management Help](../integration-admin/feature-summary/migration-manual.md#usermanagement) to know more information.&nbsp;
+While importing users into Learning Manager, Administrator also need to know how users are managed in Learning Manager. Refer to [User Management Help](../integration-admin/feature-summary/migration-manual.md#usermanagement) to know more information. 
 
 +++
 
@@ -170,9 +170,9 @@ While importing users into Learning Manager, Administrator also need to know how
 
 +++Skills
 
-There are two options to export&nbsp;User skill reports.
+There are two options to export User skill reports.
 
-**[!UICONTROL User Skills - On Demand]**: You can specify the &nbsp;start date and export the report using the option .The report will be extracted from the date enterd till present.
+**[!UICONTROL User Skills - On Demand]**: You can specify the  start date and export the report using the option .The report will be extracted from the date enterd till present.
 
 ![](assets/user-skills-on-demand.png)
 
@@ -182,13 +182,13 @@ There are two options to export&nbsp;User skill reports.
 
 +++
 
-To open the Export folder where the&nbsp;exported files will be placed in your FTP location, open the link to&nbsp;FTP Folder provided in the User Skills page as shown below.
+To open the Export folder where the exported files will be placed in your FTP location, open the link to FTP Folder provided in the User Skills page as shown below.
 
 ![](assets/ftp-folder.png)
 
-The auto-exported files will be present in the location&nbsp;**Home/export/&#42;FTP_location&#42;**
+The auto-exported files will be present in the location **Home/export/&#42;FTP_location&#42;**
 
-The auto-exported files will be available with the title,&nbsp;**skill_achievements_&#42;date from&#42;_to_&#42;date to&#42;.csv**
+The auto-exported files will be available with the title, **skill_achievements_&#42;date from&#42;_to_&#42;date to&#42;.csv**
 
 ![](assets/exported-csvs.png) 
 
@@ -219,9 +219,9 @@ The Lynda connector can be used by enterprise customers of Lynda.com who would l
    Migration feature must be enabled for your account before you configure this connector.
 
 1. Click the connection that you want to edit.
-1. From the left pane, click Configure.&nbsp;Do one of the following:
+1. From the left pane, click Configure. Do one of the following:
 
-   * View or edit the details of your account, and the synchronization schedule from this window. You must select the Enable Connection checkbox if you want to enable this account.&nbsp;
+   * View or edit the details of your account, and the synchronization schedule from this window. You must select the Enable Connection checkbox if you want to enable this account. 
    * Click Edit and edit your credentials. Click Reset to undo your updates to this field.
    * Click Enable Schedule to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every 3 days.
 
@@ -270,13 +270,13 @@ The getAbstract connector can be used by enterprise customers of getAbstract.com
 
    Migration feature must be enabled for your account before you configure this connector.
 
-1. Click the connection whose configuration you want to view or edit.&nbsp;
+1. Click the connection whose configuration you want to view or edit. 
 
    ![](assets/getabstractschedulepage.png)
 
-1. From the left pane, click Configure.&nbsp;Do one of the following:
+1. From the left pane, click Configure. Do one of the following:
 
-   * View or edit the details of your account, and the synchronization schedule from this window. You must select the Enable Connection checkbox if you want to enable this account.&nbsp;
+   * View or edit the details of your account, and the synchronization schedule from this window. You must select the Enable Connection checkbox if you want to enable this account. 
    * Click Edit and edit your credentials. Click Reset to undo your updates to this field.
    * Click Enable Schedule to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every 3 days.
 
@@ -323,9 +323,9 @@ The Harvard ManageMentor connector can be used by enterprise customers of Harvar
 
    ![](assets/hmm.png)
 
-1. From the left pane, click Configure.&nbsp;Do one of the following:
+1. From the left pane, click Configure. Do one of the following:
 
-   * View or edit the details of your account, and the synchronization schedule from this window. You must select the Enable Connection checkbox if you want to enable this account.&nbsp;
+   * View or edit the details of your account, and the synchronization schedule from this window. You must select the Enable Connection checkbox if you want to enable this account. 
    * Click Enable Schedule to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every 3 days.
 
 1. From the left pane, click On Demand Execution. This option allows you to import user feeds and other relevant data from Harvard ManageMentor. Enter the Start Date for the on demand execution, and click Execute to execute the synchronization. All the data from the start date till present is imported for this connection.
@@ -366,7 +366,7 @@ User import process allows Learning Manager Administrator to fetch employee deta
 
 #### Filtering users
 
-Learning Manager Administrator can apply filtering to the users before importing them. For example, Learning Manager Administrator can choose to import all users in the hierarchy under one or more specific Managers.&nbsp;
+Learning Manager Administrator can apply filtering to the users before importing them. For example, Learning Manager Administrator can choose to import all users in the hierarchy under one or more specific Managers. 
 
 ## Export {#export}
 
@@ -376,12 +376,12 @@ Skills from multiple prime accounts cannot be exported simultaneously using the 
 
 ## Scheduling {#Scheduling-1}
 
-Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application.&nbsp;
+Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application. 
 
 ## Configure Workday connector {#configureworkdayconnector}
 
 **Prerequisite**: Request the Workday Administrator of your organization, to create an Integration System User (ISU) with the permissions as defined in the ISU_Permissions document. Download a copy from the link below.
-[Download a copy of integration system user (ISU) security.](assets/isu-permissions-v1.pdf) Learn the process to integrate Learning Manager with Workday connector.&nbsp;
+[Download a copy of integration system user (ISU) security.](assets/isu-permissions-v1.pdf) Learn the process to integrate Learning Manager with Workday connector. 
 
 1. In Learning Manager home page, hover your mouse over the Workday tile. A menu appears. Click **[!UICONTROL Connect]** item in the menu.
 
@@ -391,8 +391,8 @@ Administrator can set up scheduling tasks as per organization's requirements and
 
    * Connection name: Provide a connection name according to your preference.
    * Host URL: Integration admin can get the Host URL details from the corresponding Workday admin.
-   * Tenant: The tenant&nbsp;is internal to your company. Your Workday admin will provide you the tenant details.
-   * Username and password:&nbsp;The Workday admin creates an integrated system user (ISU) with the required security privileges and shares it with the integration&nbsp;admin.
+   * Tenant: The tenant is internal to your company. Your Workday admin will provide you the tenant details.
+   * Username and password: The Workday admin creates an integrated system user (ISU) with the required security privileges and shares it with the integration admin.
 
    Note: Learning Manager uses version 28.1 of Workday API.
 
@@ -402,7 +402,7 @@ Administrator can set up scheduling tasks as per organization's requirements and
 
    You can also have multiple Workday connections synced to your Learning Manager account.
 
-In the overview page, you can specify the&nbsp;Connection Name for your integration. Choose what action you want to take from the following options:
+In the overview page, you can specify the Connection Name for your integration. Choose what action you want to take from the following options:
 
 * Import Internal Users  
 * Export User Skills - Configure a Schedule  
@@ -418,13 +418,13 @@ You can use Workday connector to integrate Learning Manager and Workday to autom
 
 The user attributes from Learning Manager and Workday needs to be mapped before importing users. In the Overview page, use the Internal Users option under Import to provide the map attributes.
 
-Enter the Adobe Captivate&nbsp;Prime credentials under Adobe Learning Manager column. Use the drop downs to select the correct credentials for the columns under Workday.
+Enter the Adobe Captivate Prime credentials under Adobe Learning Manager column. Use the drop downs to select the correct credentials for the columns under Workday.
 
 Currently, Learning Manager supports the import of 44 user attributes from Workday. Add additional attributes using the Active Fields in Prime.
 
 ![](assets/map-attributes.png)
 
-Workday has four level of  hierarchy  while Learning Manager has two levels. The four levels in Workday are&nbsp;skill profile category, skill profile, skill item category, and skill item. Your skill  name,  and level from Learning Manager together will be mapped in Workday under the skill item.
+Workday has four level of  hierarchy  while Learning Manager has two levels. The four levels in Workday are skill profile category, skill profile, skill item category, and skill item. Your skill  name,  and level from Learning Manager together will be mapped in Workday under the skill item.
 
 +++List of supported Workday attributes
 
@@ -480,7 +480,7 @@ wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Manageme
 
 ## Export {#Export-1}
 
-You can export all the skills achieved by a user from Learning Manager to Workday. Note that only all active user skills are exported and Learning Manager does not export retired skills. You can also connect multiple prime accounts to the same Workday connector.&nbsp;In case the skill names are same in two Learning Manager accounts, they are mapped to the same skill in Workday.&nbsp;It is advisable to update skill names in all Learning Manager Accounts before updating the skill in Workday in case two Prime accounts are using the same Workday account.
+You can export all the skills achieved by a user from Learning Manager to Workday. Note that only all active user skills are exported and Learning Manager does not export retired skills. You can also connect multiple prime accounts to the same Workday connector. In case the skill names are same in two Learning Manager accounts, they are mapped to the same skill in Workday. It is advisable to update skill names in all Learning Manager Accounts before updating the skill in Workday in case two Prime accounts are using the same Workday account.
 
 +++User Skills - Configure
 
@@ -518,17 +518,17 @@ Integration Administrator can choose  miniOrange  attributes and map them to cor
 
 #### Automated user import
 
-User import process allows Learning Manager Administrator to fetch employee details from&nbsp; miniOrange  and import them into Learning Manager automatically.
+User import process allows Learning Manager Administrator to fetch employee details from  miniOrange  and import them into Learning Manager automatically.
 
 #### Filtering users
 
-Learning Manager Administrator can apply filtering to the users before importing them. For example, Learning Manager Administrator can choose to import all users in the hierarchy under one or more specific Managers.&nbsp;
+Learning Manager Administrator can apply filtering to the users before importing them. For example, Learning Manager Administrator can choose to import all users in the hierarchy under one or more specific Managers. 
 
 To set up   miniOrange   connector, please contact the Learning Manager CSM team.
 
 ## Configure miniOrange connector {#configureminiorangeconnector}
 
-1. In Learning Manager home page, hover  mouse  over the  miniOrange  card/thumbnail. A menu appears. Click  **[!UICONTROL Connect]**&nbsp;option in the menu.
+1. In Learning Manager home page, hover  mouse  over the  miniOrange  card/thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option in the menu.
 
    ![](assets/miniorange-tile.png)
 
@@ -558,15 +558,15 @@ Follow these steps to delete an established  miniOrange  connection.
 
 # BlueJeans connector {#bluejeansconnector}
 
-You can now integrate&nbsp;Learning Manager with BlueJeans connector and use BlueJeans to host classes. BlueJeans lets you launch audio and video conference calls, video chats, and webinars.
+You can now integrate Learning Manager with BlueJeans connector and use BlueJeans to host classes. BlueJeans lets you launch audio and video conference calls, video chats, and webinars.
 
 Follow these steps to set up and use the connector.
 
-1. In Learning Manager  home page , hover the mouse over the BlueJeans card/thumbnail. A menu appears. Click  **[!UICONTROL Connect]**&nbsp;option from the menu.
+1. In Learning Manager  home page , hover the mouse over the BlueJeans card/thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
 
    ![](assets/miniorange.png)
 
-1. The BlueJeans connector page opens. Enter the details of your account into respective fields to&nbsp;integrate Learning Manager and BlueJeans for synchronization of user feed. You can get the details from the administrator of your BlueJeans account.
+1. The BlueJeans connector page opens. Enter the details of your account into respective fields to integrate Learning Manager and BlueJeans for synchronization of user feed. You can get the details from the administrator of your BlueJeans account.
 
    ![](assets/bluejeans-connecotrpage.png)
 
@@ -583,13 +583,13 @@ Follow these steps to set up and use the connector.
 
 # Box connector {#boxconnector}
 
-Using the BOX connector, you can integrate Learning Manager with arbitrary external systems to automate data synchronization. It is expected that external systems can export data in a CSV format and place it in the appropriate folder of the Learning Manager Box account.&nbsp;Box connector capabilities are as follows:&nbsp;
+Using the BOX connector, you can integrate Learning Manager with arbitrary external systems to automate data synchronization. It is expected that external systems can export data in a CSV format and place it in the appropriate folder of the Learning Manager Box account. Box connector capabilities are as follows: 
 
-You can also use the FTP connector for data migration, user&nbsp; import &nbsp;and data export. For more information, [Learning Manager FTP connector.](third-party-connectors.md#main-pars_header_1427405935)
+You can also use the FTP connector for data migration, user  import  and data export. For more information, [Learning Manager FTP connector.](third-party-connectors.md#main-pars_header_1427405935)
 
 ## Data Import {#DataImport-1}
 
-User import process allows Learning Manager Administrator to fetch employee details from the Learning Manager Box service and import them into Learning Manager automatically. Using this feature, you can integrate multiple systems by placing the CSV generated by those systems in the appropriate folders of the Box accounts. Learning Manager picks up the CSV files, merges them, and imports the data according to the schedule. Refer to Scheduling feature for more information.&nbsp;
+User import process allows Learning Manager Administrator to fetch employee details from the Learning Manager Box service and import them into Learning Manager automatically. Using this feature, you can integrate multiple systems by placing the CSV generated by those systems in the appropriate folders of the Box accounts. Learning Manager picks up the CSV files, merges them, and imports the data according to the schedule. Refer to Scheduling feature for more information. 
 
 **Map attributes**
 
@@ -601,23 +601,23 @@ The Data Export allows users to export user skills to an Box location to integra
 
 ## Schedule reports {#schedulereports}
 
-Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application.&nbsp;
+Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application. 
 
 ## Configure Box connector {#configureboxconnector}
 
-Learn the process to integrate Learning Manager with Box connector.&nbsp;
+Learn the process to integrate Learning Manager with Box connector. 
 
-1. In Learning Manager home page, hover  mouse  over the Box card/thumbnail. A menu appears. Click&nbsp;Connect&nbsp;item in the menu.
+1. In Learning Manager home page, hover  mouse  over the Box card/thumbnail. A menu appears. Click Connect item in the menu.
 
    ![](assets/screen-shot-2017-10-25at54426pm.png)
 
-1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager Box account for the organization.&nbsp;Click&nbsp;Connect&nbsp;after providing the email id.&nbsp;  
+1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager Box account for the organization. Click Connect after providing the email id.   
 
 1. Learning Manager sends you an email prompting the user to reset the password before accessing the Box for the first time. The user must reset the password and use this for accessing the Learning Manager Box account.
 
-   Only one Learning Manager&nbsp;Box account can be created for a given Learning Manager account.
+   Only one Learning Manager Box account can be created for a given Learning Manager account.
 
-   In the overview page, you can specify the&nbsp;Connection Name for your integration. Choose what action you want to take from the following options:
+   In the overview page, you can specify the Connection Name for your integration. Choose what action you want to take from the following options:
 
    * Import Internal Users  
    * Export User Skills - Configure a Schedule  
@@ -633,15 +633,15 @@ The import internal user option allows you to schedule the generation of user im
 
 +++Map attributes
 
-Once a connection is successfully established, you can map the columns of CSV files that will be placed in the&nbsp;Box folder to the corresponding attributes of Learning Manager. This step is mandatory.
+Once a connection is successfully established, you can map the columns of CSV files that will be placed in the Box folder to the corresponding attributes of Learning Manager. This step is mandatory.
 
-1. In the Map Attributes page, on  left   side  you can see Learning Manager’s expected columns and on  right   side  you can see the CSV column names. Initially, on the right side, you can see an empty select box. Import any template CSV by clicking&nbsp;Choose File.  
+1. In the Map Attributes page, on  left   side  you can see Learning Manager’s expected columns and on  right   side  you can see the CSV column names. Initially, on the right side, you can see an empty select box. Import any template CSV by clicking Choose File.  
 
 1. The above step populates the right side select drop-down list with all the CSV column names. Select the appropriate column name that maps to the Learning Manager’s column name.
 
    *The Manager field must necessarily be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.*
 
-1. Click&nbsp;Save&nbsp;after completing the mapping.&nbsp;
+1. Click Save after completing the mapping. 
 
    The connector is now ready for use. The just configured account will now appear as a data source within the Administrator app for the Administrator to schedule the import or for on-demand sync.
 
@@ -649,20 +649,20 @@ Once a connection is successfully established, you can map the columns of CSV fi
 
 +++Using Learning Manager Box connector
 
-1. The CSV files from external systems should be placed  at  the following path:&nbsp;
+1. The CSV files from external systems should be placed  at  the following path: 
 
 `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-**Note:&nbsp;**In the July 2016 Release, only import of users is allowed. Therefore to use the Box connector, you must ensure that the CSV files are placed in the following folder:  
+**Note:** In the July 2016 Release, only import of users is allowed. Therefore to use the Box connector, you must ensure that the CSV files are placed in the following folder:  
 `code Home/import/user/internal/*.csv`
 
 2. The Box connector takes all rows from CSV files, so it is important that the row corresponding to a user in one CSV does not appear in any other CSVs.
 
 3. All CSVs should contain the columns specified in the mapping.
 
-4. All the required CSVs should be present in the folder before the process begins.&nbsp;
+4. All the required CSVs should be present in the folder before the process begins. 
 
-While importing users into Learning Manager, Administrator also need to know how users are managed in Learning Manager. Refer to [User Management Help](../integration-admin/feature-summary/migration-manual.md#usermanagement) to know more information.&nbsp;
+While importing users into Learning Manager, Administrator also need to know how users are managed in Learning Manager. Refer to [User Management Help](../integration-admin/feature-summary/migration-manual.md#usermanagement) to know more information. 
 
 +++
 
@@ -670,7 +670,7 @@ While importing users into Learning Manager, Administrator also need to know how
 
 +++Skills
 
-There are two options to export&nbsp;User skill reports.
+There are two options to export User skill reports.
 
 User Skills - On Demand: You can specify the start date and export the report using the option.The report will be extracted from the date  enterd  till present
 
@@ -678,13 +678,13 @@ User Skills - On Demand: You can specify the start date and export the report us
 
 +++
 
-To open the Export folder where the&nbsp;exported files will be placed in your&nbsp;Box location, open the link to&nbsp;Box Folder provided in the User Skills page as shown below.
+To open the Export folder where the exported files will be placed in your Box location, open the link to Box Folder provided in the User Skills page as shown below.
 
-The auto-exported files will be present in the location&nbsp;**Home/export/&#42;Box_location&#42;**
+The auto-exported files will be present in the location **Home/export/&#42;Box_location&#42;**
 
-The auto-exported files will be available with the title,&nbsp;**skill_achievements_&#42;date from&#42;_to_&#42;date to&#42;.csv**
+The auto-exported files will be available with the title, **skill_achievements_&#42;date from&#42;_to_&#42;date to&#42;.csv**
 
-The access permissions and the content in the&nbsp;Box folder shared by the Learning Manager team should be managed by the customer.  Also  note that the content in the folder would be physically stored in Frankfurt region.
+The access permissions and the content in the Box folder shared by the Learning Manager team should be managed by the customer.  Also  note that the content in the folder would be physically stored in Frankfurt region.
 
 # LinkedInLearning connector {#linkedinlearningconnector}
 
@@ -696,7 +696,7 @@ The LinkedInLearning connector can be used by enterprise customers of LinkedIn.c
 
    You will see the tile with three options: Getting Started, Connect, and Manage Connections.
 
-1. If you are configuring the&nbsp; LinkedInLearning  connector for the first time, click Connect.
+1. If you are configuring the  LinkedInLearning  connector for the first time, click Connect.
 
    You must configure the Exavault FTP account before you configure this connector.
 
@@ -706,16 +706,16 @@ The LinkedInLearning connector can be used by enterprise customers of LinkedIn.c
 
 1. Click Save.
 
-   The configuration is saved and the LinkedInLearning connection for your account is added. You can now click Manage Connections from the Home&nbsp; page, &nbsp;and edit your configuration anytime.
+   The configuration is saved and the LinkedInLearning connection for your account is added. You can now click Manage Connections from the Home  page,  and edit your configuration anytime.
 
 1. If you already have a connection established, click Manage Connections view all your connections.
 
    Migration feature must be enabled for your account before you configure this connector.
 
 1. Click the connection that you want to edit.
-1. From the left pane, click Configure.&nbsp;Do one of the following:
+1. From the left pane, click Configure. Do one of the following:
 
-   * View or edit the details of your account, and the synchronization schedule from this window. You must select the Enable Connection checkbox if you want to enable this account.&nbsp;
+   * View or edit the details of your account, and the synchronization schedule from this window. You must select the Enable Connection checkbox if you want to enable this account. 
    * Click Edit and edit your credentials. Click Reset to undo your updates to this field.
    * Click Enable Schedule to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every 3 days.
 

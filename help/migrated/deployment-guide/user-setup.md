@@ -41,11 +41,11 @@ As an administrator, you might want to add external users such as employees of p
    * **[!UICONTROL **Allowed Domains**:]** Specify the domains separated by a comma. Only those users with the specified domains can register to the account.
    * **[!UICONTROL **Email Verification Required**:]** Select this check box if you want a verification email to be sent to users
 
-   &nbsp;
+    
 
 1. Click **[!UICONTROL Save.]**
 
-   &nbsp;
+    
 
    ![](assets/set-up-external-users-step7.png)
 
@@ -59,21 +59,21 @@ As an administrator, you might want to add external users such as employees of p
 
 ## Pause the external user profile {#pausetheexternaluserprofile}
 
-After adding an external user group to Learning Manager, you can also pause the external users registration process. When you pause, the external users registration process is blocked. However, this process works only when the users haven't registered yet by accepting the invitation.&nbsp;
+After adding an external user group to Learning Manager, you can also pause the external users registration process. When you pause, the external users registration process is blocked. However, this process works only when the users haven't registered yet by accepting the invitation. 
 
 To pause the external user groups, click  **[!UICONTROL **Actions** ]**from the upper-right corner of the page and choose ****[!UICONTROL Pause]****.
 
 ## Resume external user profile {#resumeexternaluserprofile}
 
-At any point in time, you can always revoke the blockage (pause) by choosing a Resume option. Click  **[!UICONTROL **Actions** ]**at the upper-right corner of the page and choose ****[!UICONTROL Resume]****.&nbsp;
+At any point in time, you can always revoke the blockage (pause) by choosing a Resume option. Click  **[!UICONTROL **Actions** ]**at the upper-right corner of the page and choose ****[!UICONTROL Resume]****. 
 
 ****[!UICONTROL External user states]****
 
-In Learning Manager, the following states are applicable for external users:&nbsp;
+In Learning Manager, the following states are applicable for external users: 
 
-* **Inactive state -&nbsp;**In this state, the external users registration is expired. Administrators set the expiry date for the external users while adding them through the add user workflow.&nbsp;
-* **Active state -&nbsp;**In this state, the external users can register to the Learning Manager application, and also log in to the application.&nbsp;
-* **Pause -&nbsp;**In this state, the registration process for external users is blocked. However, the existing users can continue to login.&nbsp;
+* **Inactive state - **In this state, the external users registration is expired. Administrators set the expiry date for the external users while adding them through the add user workflow. 
+* **Active state - **In this state, the external users can register to the Learning Manager application, and also log in to the application. 
+* **Pause - **In this state, the registration process for external users is blocked. However, the existing users can continue to login. 
 
 # Set up internal users {#setupinternalusers}
 
@@ -83,7 +83,7 @@ As an administrator, you might want to set up users for your enterprise or organ
 * Adding users through self-registration
 * Adding a single internal user
 
-&nbsp;
+ 
 
 ## Adding users using a CSV file {#addingusersusingacsvfile}
 
@@ -96,7 +96,7 @@ You can choose this method to add internal users if the number of users are larg
 1. Import the CSV file, and map the contents of the CSV file with the application labels. This step is applicable only when you upload the CSV file for the first time.
 1. Click **[!UICONTROL **Save**]**to save the mapping.
 
-   &nbsp;
+    
 
 1. Click **[!UICONTROL **Add**]**to upload the CSV file that is already mapped to the application data.
 
@@ -149,7 +149,7 @@ Adding single users is the third method by which you can add internal users to y
 1. On the ****[!UICONTROL Administrator Home]**** page, click ****[!UICONTROL Users]**** in the left navigation pane.
 1. Click **[!UICONTROL **Add** > **Single User**.]**
 
-   &nbsp;
+    
 
 1. In the Add User pop-up dialog box, specify the following details for users:
 
@@ -163,7 +163,7 @@ Adding single users is the third method by which you can add internal users to y
    * **[!UICONTROL **DOJ**:]** Specify the date of joining of the employee.
    * **[!UICONTROL **Location**:]**Specify the location of the employee. For example, if you have your organization in several geographical locations, specify the location where the employee is located.
 
-   &nbsp;
+    
 
    ![](assets/add-single-usersincaptivateprime-step3.png)
 
@@ -174,15 +174,15 @@ Adding single users is the third method by which you can add internal users to y
 
 # Managing user groups in Learning Manager {#managingusergroupsincaptivateprime}
 
-User group is nothing but a set of users pertaining to a defined category.&nbsp;As an administrator, you can use user groups to select learners quickly based on their attributes.&nbsp;Further, you can quickly assign logos or catalogs to the group of users, and generate customized reports on their progress.&nbsp;
+User group is nothing but a set of users pertaining to a defined category. As an administrator, you can use user groups to select learners quickly based on their attributes. Further, you can quickly assign logos or catalogs to the group of users, and generate customized reports on their progress. 
 
-There are two types of user groups in Learning Manager:&nbsp;Custom and Auto-generated.&nbsp;When you add learners to your account,&nbsp;some default groups are automatically created&nbsp;based on the roles and properties of the users in your account. These groups are the auto-generated. For example, a group with all learners, or all authors.
+There are two types of user groups in Learning Manager: Custom and Auto-generated. When you add learners to your account, some default groups are automatically created based on the roles and properties of the users in your account. These groups are the auto-generated. For example, a group with all learners, or all authors.
 
 ***You cannot edit the name and the description of auto-generated groups.***
 
 To view the Auto-generated user groups in Learning Manager, in the left pane click ****[!UICONTROL Auto-generated]****. The application displays a list of all the auto-generated user groups that are available for your account.
 
-You can also create custom groups with a selected list of users in Learning Manager. Custom groups allow you to specify a name,&nbsp;description and the attributes for the user group.&nbsp;Custom groups that you create in Learning Manager&nbsp;are dynamic in nature. That is, if new users are added with similar attributes,&nbsp;they are automatically added to these user groups.&nbsp;
+You can also create custom groups with a selected list of users in Learning Manager. Custom groups allow you to specify a name, description and the attributes for the user group. Custom groups that you create in Learning Manager are dynamic in nature. That is, if new users are added with similar attributes, they are automatically added to these user groups. 
 
 ## Create custom user groups {#createcustomusergroups}
 

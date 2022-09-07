@@ -7,13 +7,13 @@ contentowner: dvenkate
 
 # Learning Manager integration with Slack {#learning-manager-integration-with-slack}
 
-As a Slack user, you can install the Adobe Learning Manager app from the Slack App Directory into your Slack teams, and explore Learning Manager content from right within Slack. You can interact with  Primebot  to search for new courses, view recommendations and get notified of upcoming deadlines in Learning Manager. You can also enroll and jump straight to your learning from within Slack.&nbsp;
+As a Slack user, you can install the Adobe Learning Manager app from the Slack App Directory into your Slack teams, and explore Learning Manager content from right within Slack. You can interact with  Primebot  to search for new courses, view recommendations and get notified of upcoming deadlines in Learning Manager. You can also enroll and jump straight to your learning from within Slack. 
 
 Learning Manager app for Slack is not supported in an Azure instance of Learning Manager.
 
 # Installing Adobe Learning Manager app {#installingadobecaptivateprimeapp}
 
-As a Learner, you can install the CP Prime app in your Slack Account. To install the app, in your Slack account open the App directory and search for Learning Manager. Download and install the App.&nbsp;If the app is not approved in your account, reach out to your Integration Admin for approval. If it is already approved, you will be able to sign in.
+As a Learner, you can install the CP Prime app in your Slack Account. To install the app, in your Slack account open the App directory and search for Learning Manager. Download and install the App. If the app is not approved in your account, reach out to your Integration Admin for approval. If it is already approved, you will be able to sign in.
 
 # Approving Learner sign in as an Integration Admin {#approvinglearnersigninasanintegrationadmin}
 
@@ -23,7 +23,7 @@ As an integration Admin, to approve the  permission  for a Learner to use  Prime
 
    ![](assets/featuredapps.jpg)
 
-1. Click on the **[!UICONTROL Slack]** tile > the slack integration page opens. Click **[!UICONTROL Approve]**&nbsp; on  the top right corner to approve the application.
+1. Click on the **[!UICONTROL Slack]** tile > the slack integration page opens. Click **[!UICONTROL Approve]**  on  the top right corner to approve the application.
 
    ![](assets/approval.png)
 
@@ -72,4 +72,4 @@ You can try phrases like `search for machine learning` or `search for artificial
 
 4. Deadlines
 
-Use&nbsp; phrase  like `show my deadlines` to get a list of overdue and upcoming deadlines from your Adobe Learning Manager account. You can filter out overdue or upcoming deadlines with phrases like `show my overdue deadlines` or `show my upcoming deadlines'.
+Use  phrase  like `show my deadlines` to get a list of overdue and upcoming deadlines from your Adobe Learning Manager account. You can filter out overdue or upcoming deadlines with phrases like `show my overdue deadlines` or `show my upcoming deadlines'.

@@ -15,7 +15,7 @@ An instructor is unable to view the file submissions that a learner has uploaded
 
 Instructors are unable to view files that learners have uploaded in the **Submission Activity Module**.
 
-For example, a learner had enrolled for an instance named **Test instance**&nbsp;of a course, as shown below:
+For example, a learner had enrolled for an instance named **Test instance** of a course, as shown below:
 
 ![](assets/test-instance.png)
 
@@ -41,7 +41,7 @@ To check if an instructor is added to the course instance, perform the steps bel
 
    There is no instructor assigned to this session.
 
-1. Click **Edit. **Add the instructor**&nbsp;**who approves the file submission.
+1. Click **Edit. **Add the instructor** **who approves the file submission.
 
    ![](assets/assign-instructor.png)
 

@@ -1,9 +1,9 @@
 ---
 jcr-language: en_us
 title: Adobe Learning Manager reference site (ALM reference site) package for AEM Sites
+description: Adobe Learning Manager (ALM) integrates with Adobe Experience Manager (AEM) sites. This enables you to create your own website and responsive mobile interfaces for Adobe Learning Manager with minimum coding effort. With this integration, you can create customized learning experiences for your users.
 contentowner: saghosh
 ---
-
 
 # Adobe Learning Manager reference site (ALM reference site) package for AEM Sites {#adobe-learning-manager-reference-site-alm-reference-site-package-for-aem-sites}
 
@@ -17,11 +17,11 @@ After you install the ALM reference site package, you can start building a websi
 
 Install ALM reference site package
 
-### Pre-requisites
+## Pre-requisites
 
 * Licenses for AEM Sites and Adobe Commerce.
 
-* AEM on-premise 6.5 or&nbsp;Adobe Experience Manager – Cloud Service  
+* AEM on-premise 6.5 or Adobe Experience Manager - Cloud Service  
 
 * Adobe Commerce 2.4.3
 
@@ -31,7 +31,7 @@ The reference site package is hosted on the [**GitHub repository**](https://gith
 
 For more information, see the README.
 
-### Create an application in Adobe Learning Manager
+## Create an application in Adobe Learning Manager
 
 After you install the AEM site package, you must configure an ALM application to connect your learning portal with the AEM site.
 
@@ -58,9 +58,9 @@ Note the application credentials from the screen.
 
 To approve the application, click **Approve**.
 
-### Get the tokens
+## Get the tokens
 
-1. In the Developer Resources tab, click **Access Tokens for Testing and Development**.&nbsp;
+1. In the Developer Resources tab, click **Access Tokens for Testing and Development**. 
 
    ![](assets/access-tokens.png)
 
@@ -73,12 +73,12 @@ To approve the application, click **Approve**.
    1. Get Access Token: Enter the client ID and secret from the previous section. Also enter the Refresh token that you got from the previous step. Click Submit.  
    1. Get Access Token Details: Enter the access token that you got from the previous step. Click Submit.
 
-1. You can get the details from the JSON response that follows. The response consists of the access token, refresh token, user role, account id, user id, and the time to expire. Note the refresh token, as you will reuse that.&nbsp;
+1. You can get the details from the JSON response that follows. The response consists of the access token, refresh token, user role, account id, user id, and the time to expire. Note the refresh token, as you will reuse that. 
 
 ## Configure ALM account in AEM
 
 1. Launch your AEM instance.
-1. Click Settings > Cloud Services.&nbsp;  
+1. Click Settings > Cloud Services.   
 
 1. Click Adobe Learning Manager Configuration.
 
@@ -90,21 +90,21 @@ To approve the application, click **Approve**.
 
 1. In the learning project, select the configuration that you created.  
 
-1. Enter the details of the configuration.&nbsp;
+1. Enter the details of the configuration. 
 
    ![](assets/account-congiguration.png)
 
    1. Adobe Learning Manager mode: Choose how you want the learning experience for both logged-in and non-logged in learners.  
    1. Adobe Learning Manager URL: Enter the URL of the ALM instance where the learning services are hosted.  
    1. Account ID: The ID of the ALM account.  
-   1. Client ID, Client Secret, and Author Refresh Token: Enter the credentials that you got while creating the application in ALM.&nbsp;  
+   1. Client ID, Client Secret, and Author Refresh Token: Enter the credentials that you got while creating the application in ALM.   
    1. Customization of Widget: For more information, see [Integrate with AEM](https://helpx.adobe.com/learning-manager/integrate-aem-captivate-prime.html) `.`
 
 1. Save and close the configuration.
 
 ### AEM + Adobe Learning Manager (logged-in/non-logged-in users)
 
-Adobe Learning Manager now enables you to showcase your product and training to your existing and prospective customers and partners without mandating account creation or sign-in. This functionality will help you drive product and training adoption by providing learners with a quick and easy preview of the training, which helps highlight and promote product features. Therefore, you can effectively showcase your products and offerings, especially to prospective customers and partners resulting in increased product awareness. The ease of access and better reachability lead to heightened interest, which helps drive training enrollments and learning adoption.&nbsp;
+Adobe Learning Manager now enables you to showcase your product and training to your existing and prospective customers and partners without mandating account creation or sign-in. This functionality will help you drive product and training adoption by providing learners with a quick and easy preview of the training, which helps highlight and promote product features. Therefore, you can effectively showcase your products and offerings, especially to prospective customers and partners resulting in increased product awareness. The ease of access and better reachability lead to heightened interest, which helps drive training enrollments and learning adoption. 
 
 Using this workflow a learner can preview a training, access training information, or search for training without signing into Adobe Learning Manager. This workflow is not applicable for the native Learning Manager interface (applicable ONLY for AEM Sites, and other headless interfaces).
 
@@ -114,17 +114,17 @@ This section underlines the steps needed to configure and enable the following c
 
 **Training Data Access**
 
-This connector enables your AEM Sites-based or another custom-made headless user interface to retrieve and render training information to the learners and realize a seamless training information search either before or after a learner logs in.&nbsp;
+This connector enables your AEM Sites-based or another custom-made headless user interface to retrieve and render training information to the learners and realize a seamless training information search either before or after a learner logs in. 
 
-This connector is only required if you are using AEM Sites-based or other headless interfaces.&nbsp;
+This connector is only required if you are using AEM Sites-based or other headless interfaces. 
 
-The connector exports training metadata to a data storage and retrieval solution as well as a search enablement system. Therefore, you can configure your AEM Sites-based or another custom-made headless user interface to use these two services to retrieve training data, render web pages, and provide optimized training search functionality to the learners. For example, a non-logged in AEM Sites-based interface can use the exported metadata to help a learner search, browse, and access training pages that show training information.&nbsp;
+The connector exports training metadata to a data storage and retrieval solution as well as a search enablement system. Therefore, you can configure your AEM Sites-based or another custom-made headless user interface to use these two services to retrieve training data, render web pages, and provide optimized training search functionality to the learners. For example, a non-logged in AEM Sites-based interface can use the exported metadata to help a learner search, browse, and access training pages that show training information. 
 
 Enable this connector to build and render your AEM Sites-based web pages and deliver customized experiences to your learners both before and after login. Enable this connector to build and render your AEM Sites-based web pages and deliver customized experiences to your learners both before and after login.
 
-* Adobe Learning Manager cdn base URL – Enter the base URL of the data retrieval CDN service path from the Training Data Access connection page.  
-* Admin refresh token – Enter the refresh token that you determined in the earlier section.&nbsp;  
-* Training Metadata base URL – Enter the base URL of the search enablement and search data retrieval service path from the Training Data Access connection page.
+* Adobe Learning Manager cdn base URL - Enter the base URL of the data retrieval CDN service path from the Training Data Access connection page.  
+* Admin refresh token - Enter the refresh token that you determined in the earlier section.   
+* Training Metadata base URL - Enter the base URL of the search enablement and search data retrieval service path from the Training Data Access connection page.
 * Adobe Learning Manager Register URL - Enter the self-registration URL generated by the integration administrator for the account, which is used by learners to enroll in training.
 
 ### AEM + Adobe Learning Manager + Adobe Commerce (logged-in/ non-logged-in users)
@@ -133,22 +133,22 @@ Adobe Learning Manager now provides solutions to help you seamlessly integrate t
 
 A user can use the already AEM application and approve it, instead of creating one.
 
-* Adobe Learning Manager cdn base URL – Enter the base URL of the data retrieval CDN service path from the Adobe Commerce connection page.  
-* Adobe Commerce URL – Enter the URL of the Adobe Commerce instance that you are using.&nbsp;  
-* GraphQL proxy path – The client-side Learning Manager components access the Adobe Commerce GraphQL endpoint directly, and therefore, CORS error may occur. To avoid this error, all calls must either be served from the same endpoint as AEM or served via a proxy that adds CORS headers.  
-* Adobe Commerce store name – Enter the Adobe Commerce store name that you determined in the earlier section.&nbsp;  
-* Adobe Commerce customer token lifetime (in secs) – Enter the customer token lifetime indicating the pre-determined period for a login session.&nbsp;  
-* Admin refresh token – Enter the refresh token that you determined in the earlier section.
+* Adobe Learning Manager cdn base URL - Enter the base URL of the data retrieval CDN service path from the Adobe Commerce connection page.  
+* Adobe Commerce URL - Enter the URL of the Adobe Commerce instance that you are using.   
+* GraphQL proxy path - The client-side Learning Manager components access the Adobe Commerce GraphQL endpoint directly, and therefore, CORS error may occur. To avoid this error, all calls must either be served from the same endpoint as AEM or served via a proxy that adds CORS headers.  
+* Adobe Commerce store name - Enter the Adobe Commerce store name that you determined in the earlier section.   
+* Adobe Commerce customer token lifetime (in secs) - Enter the customer token lifetime indicating the pre-determined period for a login session.   
+* Admin refresh token - Enter the refresh token that you determined in the earlier section.
 
 ## Customize webpages
 
-Customize your webpages by using the AEM references site and the available widgets.&nbsp;
+Customize your webpages by using the AEM references site and the available widgets. 
 
 1. Launch your AEM instance.  
 
 1. Click Sites and open the configuration page.  
 
-1. Click **Learning Site > Language Masters > English**. All webpages in the project are included in the folder.&nbsp;
+1. Click **Learning Site > Language Masters > English**. All webpages in the project are included in the folder. 
 
    ![](assets/list-webpages.png)
 
@@ -158,17 +158,17 @@ Customize your webpages by using the AEM references site and the available widge
 
    ![](assets/settings-button.png)
 
-1. Preview your changes or you can publish the page.&nbsp;
+1. Preview your changes or you can publish the page. 
 
 ## Create webpages
 
 Apart from the templates that you can use that are provided by the reference site package, you can also create webpages based on the templates ibn AEM.
 
-1. On the main AEM page, click Create > Page.&nbsp;  
+1. On the main AEM page, click Create > Page.   
 
-1. Choose the template that you want to customize. Click Next.&nbsp;  
+1. Choose the template that you want to customize. Click Next.   
 
-1. Enter the page properties.&nbsp;
+1. Enter the page properties. 
 
    ![](assets/page-properties.png)
 
@@ -182,42 +182,42 @@ Apart from the templates that you can use that are provided by the reference sit
 
 1. Choose the required Catalog filters that will be displayed on the page.
 
-# Create site from Blueprint
+## Create site from Blueprint
 
-The ALM reference site package provides a “Learning Site Blueprint,” which enables you to create a website for your learning platform. AEM blueprints allow you to build webpages directly from AEM Sites components. You need not use any templates.&nbsp;
+The ALM reference site package provides a "Learning Site Blueprint," which enables you to create a website for your learning platform. AEM blueprints allow you to build webpages directly from AEM Sites components. You need not use any templates. 
 
 1. On the AEM start page, click **Sites**.  
 
-1. Click **Create > Site**.&nbsp;  
+1. Click **Create > Site**.   
 
-1. Click Learning Site Blueprint.&nbsp;
+1. Click Learning Site Blueprint. 
 
    ![](assets/learning-site-blueprint.png)
 
-1. Click Next.&nbsp;  
+1. Click Next.   
 
-1. On the properties page, enter the page metadata.&nbsp;Click Create.&nbsp;
+1. On the properties page, enter the page metadata. Click Create. 
 
    ![](assets/blueprint-properties.png)
 
 1. Click the Home hyperlink to navigate to the home page of the site that you have created. On this page, you can customize the widgets and catalog components.
 
-# Code your website
+## Code your website
 
 In addition to using the built-in templates and creating your website from scratch using the WYSIWYG components, you can also write code and build the site.
 
 The code is in the [Reference site GitHub repository](https://github.com/adobe/adobe-learning-manager-reference-site) for you to get started.
 
-The main parts of the template are:&nbsp;
+The main parts of the template are: 
 
 * core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.  
 * ui.apps: contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, templates.  
 * ui.content: contains sample content using the components from the ui.apps  
 * ui.frontend: contains React components.
 
-All the code is in the repo to get you up and running.&nbsp;
+All the code is in the repo to get you up and running. 
 
-# Import and add learning manager components to existing web-page or template
+## Import and add learning manager components to existing web-page or template
 
 Installing AEM reference site package adds the Learning Manager components to your AEM Sites instance. By default, you can add these components to the web project (website) Learning Site that we provide out-of-the-box. These components are also available in the website that you create from the Learning Site Blueprint.
 
@@ -230,9 +230,9 @@ However, if you want to use these newly added Learning Manager components to you
 
    Open the HTML file and add the following code snippets to the page component so that the code executes before the learning components present in the page render.
 
-   *<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>*
+   *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
 
-   *<meta name="cp-config" content="${configModel.config}" />*
+   *`<meta name="cp-config" content="${configModel.config}" />`*
 
    The preceding code adds the mapped configuration in the meta tag of the page, which is required for the learning components to render. For more details, see [https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 

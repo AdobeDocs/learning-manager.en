@@ -10,7 +10,7 @@ title: Integration Admin
  <tbody>
   <tr> 
    <td><img src="assets/integration-admin2.png"></td> 
-   <td><p>Read on to know the Learning Manager features associated with Integration Admin role.&nbsp;</p> <p>Integration Admin is an administrator who integrates the Adobe Learning Manager application with any third party applications or your organization's applications such as SalesForce or FTP. An Integration Admin of Learning Manager can also develop applications based on the Learning Manager APIs.&nbsp;</p></td> 
+   <td><p>Read on to know the Learning Manager features associated with Integration Admin role. </p> <p>Integration Admin is an administrator who integrates the Adobe Learning Manager application with any third party applications or your organization's applications such as SalesForce or FTP. An Integration Admin of Learning Manager can also develop applications based on the Learning Manager APIs. </p></td> 
   </tr> 
  </tbody>
 </table>

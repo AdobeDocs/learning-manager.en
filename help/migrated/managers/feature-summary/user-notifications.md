@@ -8,7 +8,7 @@ contentowner: manochan
 
 # User notifications {#user-notifications}
 
-Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Setting up User notifications for Managers.
 
@@ -22,9 +22,9 @@ Sample manager notifications snapshot:
 
 ![](assets/manager-notifications-2.png)
 
-This pop-up window displays highlights of all the notifications along with time of occurrence with a scroll bar. To view more information about all the notifications, click&nbsp;Show All Notifications&nbsp;at the bottom of the pop-up window. Notifications page appears.
+This pop-up window displays highlights of all the notifications along with time of occurrence with a scroll bar. To view more information about all the notifications, click Show All Notifications at the bottom of the pop-up window. Notifications page appears.
 
-A manager can see the pending tasks and all notifications in a tabbed form at the notifications page. Pending tasks notifications are categorized based on approvals, nominations and so on. To view all the notifications, click&nbsp;**All Notifications**&nbsp;tab. In all notifications tab, the notifications are ordered based on date and time and listed.
+A manager can see the pending tasks and all notifications in a tabbed form at the notifications page. Pending tasks notifications are categorized based on approvals, nominations and so on. To view all the notifications, click **All Notifications** tab. In all notifications tab, the notifications are ordered based on date and time and listed.
 
 ![](assets/manager-notifications-page.png)
 

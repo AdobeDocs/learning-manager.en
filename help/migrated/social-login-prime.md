@@ -26,5 +26,5 @@ You can use your Facebook, LinkedIn, or Twitter credentials to log in to Learnin
 
    If it is an incorrect JSON, there will be an exception.
 
-   This social login feature is&nbsp;only used for INTERNAL users.
+   This social login feature is only used for INTERNAL users.
 

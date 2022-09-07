@@ -6,7 +6,7 @@ title: Adobe Connect integration
 
 # Adobe Connect integration {#adobe-connect-integration}
 
-As a learner you can consume virtual class room courses using Adobe Connect if your company integrates Adobe Connect with your Learning Manager account.&nbsp;Contact the administrator of your company&nbsp;if you are unable to use Adobe Connect.
+As a learner you can consume virtual class room courses using Adobe Connect if your company integrates Adobe Connect with your Learning Manager account. Contact the administrator of your company if you are unable to use Adobe Connect.
 
 # Consume Adobe Connect virtual classroom courses {#consumeadobeconnectvirtualclassroomcourses}
 
@@ -27,4 +27,4 @@ If Administrator has enabled L1 feedback for you, Learning Manager application s
 
 If you want to listen to recorded virtual classroom sessions, click the Virtual classroom course. You can view all the recorded session URLs. This is applicable only if the host of the session records the sessions.
 
-Generally, recorded session URLs reflect in the Learning Manager application&nbsp;after two hours of session completion.
+Generally, recorded session URLs reflect in the Learning Manager application after two hours of session completion.

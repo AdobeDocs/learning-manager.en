@@ -7,7 +7,7 @@ title: Email templates
 
 # Email templates {#email-templates}
 
-Learning Manager&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Read this article to know how to configure email templates for events related to all the learning objects.
 
@@ -48,7 +48,7 @@ The following variables are available:
 * CourseBadge
 
 You can reset message to the default content by clicking Revert to Original link above the template.  
-As you see at the top of the template you can customize the template for multiple roles (Manager, Learner, and so on) &nbsp;depending upon the type of e-mail notification.
+As you see at the top of the template you can customize the template for multiple roles (Manager, Learner, and so on)  depending upon the type of e-mail notification.
 
 1. Click Save at the bottom of the templates page.
 1. From the Email Templates page, click the Yes/No circular toggle button to send or disable the notification.
