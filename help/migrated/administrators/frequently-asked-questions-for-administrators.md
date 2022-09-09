@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Frequently Asked Questions for Administrators
+description: Frequently Asked Questions for Adobe Learning Manager Administrators
 contentowner: manochan
 ---
 
@@ -20,7 +21,7 @@ Learning Manager Learning Programs are renamed to Learning Paths. This change ha
 
 +++Can I add users in bulk? How?
 
-Yes, you can add users in bulk by using CSV upload feature. Click  [here](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/add-users-in-bulk.html) for more information. 
+Yes, you can add users in bulk by using CSV upload feature. Click [here](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/add-users-in-bulk.html) for more information. 
 
 +++
 
@@ -28,7 +29,7 @@ Yes, you can add users in bulk by using CSV upload feature. Click  [here](https:
 
 In order to fix user log in, you have to import CSV in Prime. A sample CSV file is attached at the bottom of this page for your reference. Since email is considered as a unique identifier for a person, it cannot be edited. Follow these steps:
 
-1. Add the same user with correct e-mail id in CSV and ensure he remains as Manager of other users by adding his e-mail id to “Email of the Employee’s Manager” column in the sample CSV.
+1. Add the same user with correct e-mail id in CSV and ensure he remains as Manager of other users by adding his e-mail id to "Email of the Employee's Manager" column in the sample CSV.
 1. Add other users in your account to the CSV including yourself
 1. Import this file on Prime Admin app->Users->Add->Import CSV
 1. Map all fields, as prompted in dialog, to the corresponding CSV columns.
@@ -103,9 +104,9 @@ You can add L3 feedback while you enroll learners to the courses. Add L3 feedbac
 
 +++
 
-+++How do I seek Manager’s nomination for Manager nominated course?
++++How do I seek Manager's nomination for Manager nominated course?
 
-As an admin, you can seek Manager’s nomination for the courses by following the steps below:
+As an admin, you can seek Manager's nomination for the courses by following the steps below:
 
 1. Click Courses on the left pane
 1. Hover the mouse on any Manager nominated course and click **Seek Manager Nomination**.  
@@ -192,7 +193,7 @@ Based on your choice, you can view the filtered list of courses and select the r
 
 Yes, you can change the themes and branding of Learning Manager application as per the requirements of your organization. A set of five representative images is provided to preview your color theme changes before applying them to your application. Browse through these images by clicking < and > symbols on left and right side of the images respectively to preview. 
 
-Click **Branding **on the left pane to update your organization name, change the subdomain, log styles and themes. Click **Edit **adjacent to each of these topics to modify the content. 
+Click **Branding** on the left pane to update your organization name, change the subdomain, log styles and themes. Click **Edit** adjacent to each of these topics to modify the content. 
 
 Refer to  [Color themes and branding Help](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/themes.html) for more information. 
 
@@ -247,7 +248,7 @@ You can switch your account log in to other roles such as learner, manager and a
 Managers, Authors and learners can see notifications based on the course activities. Administrator can enable/disable notifications for all users by following the steps below:
 
 1. Click Email Templates at the left pane and choose General, User Enrollments, Completions and Feedback tabs.
-1. From the events listed below, click the No/Yes toggle buttons adjacent to **each **event and choose Yes to enable notification. Click No to disable sending notifications for a particular event.
+1. From the events listed below, click the No/Yes toggle buttons adjacent to **each** event and choose Yes to enable notification. Click No to disable sending notifications for a particular event.
 
 +++
 
@@ -272,7 +273,7 @@ Administrator can copy registration url and send it to the external enrollment g
 Create feedback questionnaire that can be used by learners after completing the courses. Three sample questions are available, by default. Follow the steps below to create questionnaire.
 
 1. Click Feedback at the left pane. A feedback questionnaire window appears.
-1. Click **Edit **to add/modify the questionnaire.
+1. Click **Edit** to add/modify the questionnaire.
 
 You can add a set of questionnaire and choose not to show them up if you do not need them. Click the check box to enable/disable a particular question.
 
@@ -292,7 +293,7 @@ Once the competency is saved, you cannot remove levels from the competency. Admi
 
 +++
 
-+++How do I set up billing system for my organization’s courses?
++++How do I set up billing system for my organization's courses?
 
 1. Click Billing at the left pane.  
    Billing information appears on the page.
@@ -323,7 +324,7 @@ In Adobe Learning Manager, you can recognize learners by issuing badges. Refer t
 
 To add courses you need to switch your role as Author. You can only view the list of available courses based on their state as **Complete, Published**, and **Retired**.
 
-To view courses, click **Courses **on left pane. Refer  [Creating courses](https://helpx.adobe.com/content/help/en/captivate-prime/authors/feature-summary/courses.html)for more information
+To view courses, click **Courses** on left pane. Refer  [Creating courses](https://helpx.adobe.com/content/help/en/captivate-prime/authors/feature-summary/courses.html)for more information
 
 +++
 
