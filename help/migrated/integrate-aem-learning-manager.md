@@ -33,7 +33,7 @@ Install the Learning Manager content package using the AEM Package Manager:
 
 1. Click the button **Upload Package**.  
 
-1. Click **Browse **and upload the content package.
+1. Click **Browse** and upload the content package.
 1. Click **Upload**.
 1. After the package uploads, install the content package by selecting it and clicking **Install**.
 
@@ -67,7 +67,7 @@ The AEM Admin requires a refresh token from the Prime account. The Prime Integra
    Get the OAuth code. You must use v2 API in the redirect URI.
 
 1. 
-1. Click **Submit **and get the refresh token.
+1. Click **Submit** and get the refresh token.
 
 # Configure the widget in AEM {#configurethewidgetinaem}
 
@@ -78,7 +78,7 @@ You can also set multiple account configurations in multiple pages.
 1. Click Tools -> Cloud Services -> Learning Manager Widget Configuration.
 1. Click **Create**.
 1. Enter the refresh token here. Set up the other settings.
-1. Hostname should be changed to “captivateprimeeu” for EU regions.
+1. Hostname should be changed to "captivateprimeeu" for EU regions.
 1. Save and close the configuration.
 1. Select a configuration and publish the configuration.
 
@@ -94,7 +94,7 @@ Learning Manager component requires the configuration created in above step to b
 
 The learner can take the courses from within the page.
 
-To be able to access the Learning Manager widget, Learner should be a logged in AEM user. Also, property **email** should be present in “/profile” node of Learner’s rep:User node. This email should be exactly same as the one present in Learning Manager account.
+To be able to access the Learning Manager widget, Learner should be a logged in AEM user. Also, property **email** should be present in "/profile" node of Learner's rep:User node. This email should be exactly same as the one present in Learning Manager account.
 
 The learner can take the courses from within the page.
 
@@ -115,7 +115,7 @@ If there are no recommendations, the widget appears blank.
 
 # Support for Skyline
 
-Skyline is the cloud version of AEM. You must first install Skyline from the package manager. To use the Skyline component in AEM, a user must be present in the Learning Manager account. In other words, the user’s email address must exist in the account.
+Skyline is the cloud version of AEM. You must first install Skyline from the package manager. To use the Skyline component in AEM, a user must be present in the Learning Manager account. In other words, the user's email address must exist in the account.
 
 ## Deploy Skyline
 

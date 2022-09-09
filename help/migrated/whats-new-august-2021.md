@@ -10,7 +10,7 @@ contentowner: jayakarr
 
 Learn about the new features and enhancements in Adobe Learning Manager
 
-The **August 2021** **release of Adobe Learning Manager** focuses on improving Learner Experience, Reporting, and Administrative workflows. Some of the highlights include:
+The **August 2021** release of Adobe Learning Manager focuses on improving Learner Experience, Reporting, and Administrative workflows. Some of the highlights include:
 
 * **Content marketplace:** Learning Manager now offers more than 70000 courses from varied domains, such as, Technology, Management, Leadership, and so on.
 * **Enhanced Accessibility support:** Accessibility support for the learner role strengthens via enhanced keyboard navigation, screen reader capability, and contrast ratio compliance. 
@@ -63,7 +63,7 @@ For more information, see [***Exclude user groups***](administrators/feature-sum
 
 ## Immersive mobile web UI
 
-Here’s what is new for the immersive mobile UI experience in this release:
+Here's what is new for the immersive mobile UI experience in this release:
 
 * The Home, Catalog page, and the player are accessible.  
 * Support for rich text in the course description.  
@@ -92,14 +92,14 @@ Training Reports can be exported to Power BI as part of the Unified Reports feat
 
 The Training Report will have two additional fields:
 
-* Count of users who’ve shared feedback on a course  
+* Count of users who've shared feedback on a course  
 * Average star rating for a course
 
 ## User Audit Trail Report filters
 
 The User Audit Trail Report is a report, which contains the details of all operations done on a user, including addition, deletion, role changes, manager changes, etc.
 
-In earlier releases of Learning Manager, the report consisted of filtering on dates. In this release, we’ve added filters for user and user groups in this report, so that you can customize and manage the data to be exported. 
+In earlier releases of Learning Manager, the report consisted of filtering on dates. In this release, we've added filters for user and user groups in this report, so that you can customize and manage the data to be exported. 
 
 For more information, see [***User Audit Trail***](administrators/feature-summary/reports.md#user-audit-trail).
 
@@ -133,7 +133,7 @@ To enhance the accessibility support to add colleagues in the leaderboard timeli
 
 ### Accessibility support for learner app
 
-Multiple enhancements are implemented to strengthen the accessibility support for Learning Manager Learner role. As a part of these implementation, once user lands on the learner role and hits keyboard ‘Tab’ button a quick navigation menu opens up. This allows learners relying on keyboard tabbing to navigate to a particular section of the page quickly. The navigation menu looks, as shown below:
+Multiple enhancements are implemented to strengthen the accessibility support for Learning Manager Learner role. As a part of these implementation, once user lands on the learner role and hits keyboard 'Tab' button a quick navigation menu opens up. This allows learners relying on keyboard tabbing to navigate to a particular section of the page quickly. The navigation menu looks, as shown below:
 
 ![](assets/accessibility-navigation.png) 
 
@@ -147,7 +147,7 @@ A Job Aid now gets added to a Learner's list when the Learner downloads the Job 
 
 At times you would want to exclude a set of users from getting enrolled to a course or getting access to a catalog. In this release of Learning Manager, you can exclude learners or User Groups. In the Add User Group dialog, the Exclude Learners section enables you to achieve so.
 
-For example, if you want to set up a Learning Plan so that all users belonging to location = California except Store-5 (located in California) get enrolled. You can achieve this by creating a Custom User group which includes all users from group “California” and exclude “Store-5”. Then you can use such a custom group in Learning Plans, catalog visibility settings etc. 
+For example, if you want to set up a Learning Plan so that all users belonging to location = California except Store-5 (located in California) get enrolled. You can achieve this by creating a Custom User group which includes all users from group "California" and exclude "Store-5". Then you can use such a custom group in Learning Plans, catalog visibility settings etc. 
 
 ### Quiz report
 
@@ -175,23 +175,23 @@ An additional tab, Email IDs tab is provided to copy paste email ids of learners
 
 ### Case-sensitivity changes
 
-We have observed issues when user attributes are imported with different case sensitivity. For example, a user attribute ‘Location’ gets imported as “Location” and later gets imported as “location”. Note that the case of the letter “L” is different. In such cases, two user attributes are created in Learning Manager. 
+We have observed issues when user attributes are imported with different case sensitivity. For example, a user attribute 'Location' gets imported as "Location" and later gets imported as "location". Note that the case of the letter "L" is different. In such cases, two user attributes are created in Learning Manager. 
 
-In this release, Learning Manager analyzes such incoming attributes and does not create two attributes because the case is different. In the above example, the name of the attribute remains “location” as that’s the label that was most recently imported.
+In this release, Learning Manager analyzes such incoming attributes and does not create two attributes because the case is different. In the above example, the name of the attribute remains "location" as that's the label that was most recently imported.
 
-Note that accounts having such attributes present in their accounts will observe their attributes getting merged once they import the user csv. In this release, for example, the attribute ‘Location’ will be removed as the CSV contains the label ‘location’. All values of ‘Location’, say ‘San Jose’, ‘Sydney’ will correctly get associated with the attribute name ‘location’. Therefore, there will not be any loss of data.
+Note that accounts having such attributes present in their accounts will observe their attributes getting merged once they import the user csv. In this release, for example, the attribute 'Location' will be removed as the CSV contains the label 'location'. All values of 'Location', say 'San Jose', 'Sydney' will correctly get associated with the attribute name 'location'. Therefore, there will not be any loss of data.
 
-Let’s understand this with an example - 
+Let's understand this with an example - 
 
-Let’s say, you imported an attribute “Location” with users having their values as “San Jose”, “Miami” etc. Later you imported the user csv again but this time the attribute was named “location”. Note that the case value of “l” has changed from “L” to “l”. In such case, platform would have created a different usergroup with attribute “location” which is different than previously created “Location”. Thus two groups would get created “Location - miami” and “location - miami”. Thus reports like Learner Transcript would also have 2 columns for the same attribute ‘Location’ and ‘location’. 
+Let's say, you imported an attribute "Location" with users having their values as "San Jose", "Miami" etc. Later you imported the user csv again but this time the attribute was named "location". Note that the case value of "l" has changed from "L" to "l". In such case, platform would have created a different usergroup with attribute "location" which is different than previously created "Location". Thus two groups would get created "Location - miami" and "location - miami". Thus reports like Learner Transcript would also have 2 columns for the same attribute 'Location' and 'location'. 
 
-With this release, platform understands that attributes are the same. Hence it retains the most recent case value provided i.e. ‘location’ in our example. Thus existing group of ‘Location - Miami’ would get modified to ‘location - Miami’ and users continue to exist in the same group. 
+With this release, platform understands that attributes are the same. Hence it retains the most recent case value provided i.e. 'location' in our example. Thus existing group of 'Location - Miami' would get modified to 'location - Miami' and users continue to exist in the same group. 
 
-Same concept holds true for the attribute values like “Miami”, “San Jose” etc. Thus if the value of “Miami” changes to “miami” in the user csv, platform does not create a new user group for miami. Instead it changes the existing user group from “location - Miami” to “location - miami” and all users continue to remain in the same group. 
+Same concept holds true for the attribute values like "Miami", "San Jose" etc. Thus if the value of "Miami" changes to "miami" in the user csv, platform does not create a new user group for miami. Instead it changes the existing user group from "location - Miami" to "location - miami" and all users continue to remain in the same group. 
 
 ### Attribute values
 
-In this release, Learning Manager preserves the case sensitivity of the user attribute and its value. For example, the case sensitivity of a user attribute is ‘location’ and its value as ‘PARIS’ will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
+In this release, Learning Manager preserves the case sensitivity of the user attribute and its value. For example, the case sensitivity of a user attribute is 'location' and its value as 'PARIS' will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
 
 The Administrator can do this by visiting **Admin app > Users > User groups** and clicking on the group name. 
 

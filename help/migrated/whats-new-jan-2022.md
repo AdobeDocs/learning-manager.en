@@ -48,7 +48,7 @@ For more information, see [**Gamification**](learners/feature-summary/gamificati
 
 # Microsoft Teams connector
 
-Microsoft® Teams® is a persistent chat-based collaboration platform that supports document sharing, online meetings, and other features for business communications.
+Microsoft&reg; Teams&reg; is a persistent chat-based collaboration platform that supports document sharing, online meetings, and other features for business communications.
 
 Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings into Learning Manager.
 
@@ -88,13 +88,13 @@ To reset the search filter, you can use the **Clear** link available next to the
 
 Previously, although only Administrators were permitted to enable and configure the Social Learning settings for a Learner, the post view was the only default option for viewing the social learning forum.
 
-With this release, the Administrators can now change the default Social Learning view as per the preferences. The default post view can now be changed by utilizing the Social Learning dashboard view setting. The setting enables the Administrator to set the Learners’ default Social Learning view to either post view or board view.
+With this release, the Administrators can now change the default Social Learning view as per the preferences. The default post view can now be changed by utilizing the Social Learning dashboard view setting. The setting enables the Administrator to set the Learners' default Social Learning view to either post view or board view.
 
 **Follow these steps to change the default Social Learning view for Learners**
 
-1. In the Admin app, click **Social Learning** under **MANAGE **in the left pane.
+1. In the Admin app, click **Social Learning** under **MANAGE** in the left pane.
 
-1. In the **Settings **tab,** **click** Edit **for** Social Learning view. **You can see that by default, the system selects **Post View**.
+1. In the **Settings **tab, click **Edit** for **Social Learning view**. You can see that by default, the system selects **Post View**.
 
 1. Select one of these options to set your preferred default Social Learning view
 
@@ -109,7 +109,7 @@ With this release, the Administrators can now change the default Social Learning
 
 For every Learner, by default, the Learning objects appear using the grid view. Previously, in the absence of a configurable setting, the Administrators could not change the default viewing preference for the learners to list view.
 
-With this release, an Administrator can now set the Learners’ default view type (for My Learning and Catalog pages) to list view. The objects such as available courses, learning paths, and certifications can now appear in a list view layout by default. The Administrator can now use the newly added setting to set the default view type for the Learners to either grid or list view.
+With this release, an Administrator can now set the Learners' default view type (for My Learning and Catalog pages) to list view. The objects such as available courses, learning paths, and certifications can now appear in a list view layout by default. The Administrator can now use the newly added setting to set the default view type for the Learners to either grid or list view.
 
 Follow these steps to change the default view for Learners:
 
@@ -117,13 +117,13 @@ Follow these steps to change the default view for Learners:
 
 1. Click **General** under **BASICS** to access the General settings page.
 
-1. Select the **List view** option alongside **Default view (Learner role)** to change the Learners’ default view from Grid to List. If you clear **List view** option, the system sets the Learners’ default view back to Grid.
+1. Select the **List view** option alongside **Default view (Learner role)** to change the Learners' default view from Grid to List. If you clear **List view** option, the system sets the Learners' default view back to Grid.
 
 1. After you select (or clear) the **List view** option, the system displays the following confirmation message.
 
 After selecting **List view**, when a learner signs into the Learner app, by default, My Learning and Catalog pages appear using list view.
 
-**Note:** Although Administrators can alter the Learners’ view, the selected default view preference remains in effect only until a Learner changes it. A Learner can override the default view preference for the My Learning and Catalog pages (that is configured by the Administrator) by switching between the Grid and List views.
+**Note:** Although Administrators can alter the Learners' view, the selected default view preference remains in effect only until a Learner changes it. A Learner can override the default view preference for the My Learning and Catalog pages (that is configured by the Administrator) by switching between the Grid and List views.
 
 # Mobile immersive web changes
 
@@ -145,12 +145,12 @@ This is an admin API, using which the administrator can download a badge in the 
 
 ```
 \{ 
- "data”: { 
+ "data": { 
  "type":"job", 
- "attributes”: { 
+ "attributes": { 
  "description":"description of your choice", 
  "jobType":"generateUserBadge", 
- "payload”: { 
+ "payload": { 
  "trainingId":"course: XXXX" 
  } 
  } 
@@ -164,12 +164,12 @@ There is pagination when downloading badges by training id. The maximum limit pe
 
 ```
 \{ 
- "data”: { 
+ "data": { 
  "type":"job", 
- "attributes”: { 
+ "attributes": { 
  "description":"description of your choice", 
  "jobType":"generateUserBadge", 
- "payload”: { 
+ "payload": { 
  "userId":"1234" 
  } 
  } 
@@ -181,7 +181,7 @@ There is no pagination when downloading badges via userid.
 
 ## GET learningObjects for classroom management
 
-This release features a change in the resource model. The relationships object has a new field named “*room*.” This change is only applicable to a classroom module.
+This release features a change in the resource model. The relationships object has a new field named "*room*." This change is only applicable to a classroom module.
 
 ## Gamification API
 
@@ -249,7 +249,7 @@ The following fields are added in the relationship:
 
 Here are the changes in this release:
 
-* Workday® supports a wide range of attributes to add data. Different organizations use these attributes differently. Therefore, exposing these attributes and allowing the Administrators to map them with Learning Manager would have increased product complexity and affected usability. If you want to map any attribute that is not listed in Learning Manager, contact your CSAM with the details. The CSAM Support team of Learning Manager will investigate the requirement and help you based on the technical feasibility.
+* Workday&reg; supports a wide range of attributes to add data. Different organizations use these attributes differently. Therefore, exposing these attributes and allowing the Administrators to map them with Learning Manager would have increased product complexity and affected usability. If you want to map any attribute that is not listed in Learning Manager, contact your CSAM with the details. The CSAM Support team of Learning Manager will investigate the requirement and help you based on the technical feasibility.
 * We have added a checkbox **Exclude Contingent Workers**. When you select this checkbox, the system does not import any temp workers available under a manager.
 
 ## Calendar widget enhancements
@@ -278,7 +278,7 @@ On the **Content Marketplace** page, the **Express Interest** button will now be
 
 ## Language support in email templates
 
-In this release of Learning Manager, we’ve added support for Hungarian and Finnish languages in email templates.
+In this release of Learning Manager, we've added support for Hungarian and Finnish languages in email templates.
 
 ## Classroom enhancement API changes
 
@@ -304,7 +304,7 @@ The resources model corresponding to classroom module appears in the relationshi
 
 # Deprecated features in this release
 
-In this release, the ‘learningObject’ in relationship of learningObjectSkill model has been deprecated. We have added a new key, "learningObjectId" in the attribute section of learningObjectSkill model to fetch the same information. The value corresponding to this key will be the id of learningObject. This change will affect the following LO types:
+In this release, the 'learningObject' in relationship of learningObjectSkill model has been deprecated. We have added a new key, "learningObjectId" in the attribute section of learningObjectSkill model to fetch the same information. The value corresponding to this key will be the id of learningObject. This change will affect the following LO types:
 
 * Course 
 * LearningPath (API terminology: learningProgram)
@@ -350,7 +350,7 @@ Once changed, the format will be:
 
 * *course:courseid_instanceid_moduleid_version_uuid*
 
-Thus, only one uuid will be used to construct the learningObjectResourceGrade’s id.
+Thus, only one uuid will be used to construct the learningObjectResourceGrade's id.
 
 In general, Learning Manager recommends to not interpret the ID of any model.
 

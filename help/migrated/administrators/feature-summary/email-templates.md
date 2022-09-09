@@ -16,7 +16,7 @@ As an administrator, you can customize email templates by adding or modifying co
 
 Administrators can also choose not to send email notifications for certain events.
 
-# Configure email templates {#configureemailtemplates}
+## Configure email templates {#configureemailtemplates}
 
 You as an administrator can easily enable, disable, or modify these email templates.
 
@@ -44,7 +44,7 @@ You as an administrator can easily enable, disable, or modify these email templa
 
 1. To confirm the changes applied to this template, click save. Now users can receive email notifications using the modified email template.
 
-# Customize settings of an email template {#customizesettingsofanemailtemplate}
+## Customize settings of an email template {#customizesettingsofanemailtemplate}
 
 1. To open the settings page, click **Settings**. You can now customize your email templates.
 1. To customize the name and email id from which the learners receive emails, edit the **Sender Name  and Address.**
@@ -69,15 +69,15 @@ You as an administrator can easily enable, disable, or modify these email templa
 
    ![](assets/customize-accounturl.png)
 
-1. Configure whether managers must also receive emails that are sent to their direct reports using the check box under **Optional Manager Email **option.
+1. Configure whether managers must also receive emails that are sent to their direct reports using the check box under **Optional Manager Email** option.
 
-# Set frequency of digest emails {#setfrequencyofdigestemails}
+## Set frequency of digest emails {#setfrequencyofdigestemails}
 
 On the **Email templates > Settings** page, the Admin can change the frequency of Digest Emails to be sent to learners.
 
 In the **Digest Email Settings** section, click **Edit**.
 
-In the drop-down, choose either **Biweekly **or **Monthly**.
+In the drop-down, choose either **Biweekly** or **Monthly**.
 
 * **Biweekly:** If you set the frequency to **Biweekly**, learners receive the email once every two weeks. ****
 
@@ -85,13 +85,13 @@ In the drop-down, choose either **Biweekly **or **Monthly**.
 
 ![](assets/digest-email-settings.png)
 
-When you enable this option, the frequency is set to **Biweekly **for existing/new active accounts by default.
+When you enable this option, the frequency is set to **Biweekly** for existing/new active accounts by default.
 
 ### DND list of learners
 
 Learners in a DND list cannot see user settings for digest emails. The option will remain disabled and learners will not receive any mails.
 
-# Sample digest email to learners {#digest-email}
+## Sample digest email to learners {#digest-email}
 
 The following samples represent the mail that a learner receives.
 
@@ -115,15 +115,15 @@ Latest posts
 
 ### Download email access report
 
-You can download the email access report by clicking the **Download **button. This report contains the number of users who have received the email, and the number of users who’ve opened and clicked on the links.
+You can download the email access report by clicking the **Download **button. This report contains the number of users who have received the email, and the number of users who've opened and clicked on the links.
 
-# Customize email domain {#customizeemaildomain}
+## Customize email domain {#customizeemaildomain}
 
-To customize the email domain and email id from which your learners receive notifications, contact the [***Learning Manager support***](https://helpx.adobe.com/contact/enterprise-support.other.html#captivate-prime) and provide the details of the domain you would like to add, and your new email id.
+To customize the email domain and email id from which your learners receive notifications, contact the [Learning Manager support](https://helpx.adobe.com/contact/enterprise-support.other.html#captivate-prime) and provide the details of the domain you would like to add, and your new email id.
 
 Your request would be processed and an email with confirmation link would be sent to you on the new email address which you specify. Click the verification link provided in the email to confirm and complete the verification process.
 
-# Configure Do Not Disturb email {#dnd}
+## Configure Do Not Disturb email {#dnd}
 
 As an Administrator, you can select users who can receive emails from Learning Manager and who cannot.
 
@@ -157,13 +157,13 @@ You can add users to DND list using CSVs. Include True/False/Blank values for ea
 
 Enter true in the value field to block users from receiving emails for that selected option. If false is entered as the value, blocked users are unblocked. No changes to previous selections are done if the column is left blank.
 
-# Inline invitations {#inlineinvitations}
+## Inline invitations {#inlineinvitations}
 
 Learning Manager users will now receive inline email invites. ICS attachments are no longer used to send invitations. Any changes in the invite will automatically reflect  in  your calendar.
 
 ![](assets/outlook-style-invite.png) 
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 +++How to disable Help in email templates?
 
@@ -198,4 +198,3 @@ To turn off the e-mail template, select the template that needs to be disabled, 
 To change the sender name and e-mail address, contact [Adobe Learning Manager support](https://helpx.adobe.com/contact/enterprise-support.other.html#captivate-prime). 
 
 +++
-

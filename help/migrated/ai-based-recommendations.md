@@ -1,17 +1,16 @@
 ---
 jcr-language: en_us
-title: AI-based recommendation 
+title: AI-based recommendation
+description: Learning Manager includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner's preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.
 contentowner: saghosh
 ---
 
 
 # AI-based recommendation  {#ai-based-recommendation}
 
-# Overview {#overview}
+Learning Manager includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner's preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.
 
-Learning Manager includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner’s preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.
-
-The recommendation algorithm is designed to take in multiple sources of input including Industry data on Job roles, titles and descriptions that Adobe has sourced from its partners. This data is then used to train Adobe’s AI algorithms so that Learning Manager can come up with a map that connects industry aligned skills to job titles and/or designations. This then becomes one input to the recommendation algorithm
+The recommendation algorithm is designed to take in multiple sources of input including Industry data on Job roles, titles and descriptions that Adobe has sourced from its partners. This data is then used to train Adobe's AI algorithms so that Learning Manager can come up with a map that connects industry aligned skills to job titles and/or designations. This then becomes one input to the recommendation algorithm
 
 Learning Manager then uses topic modeling algorithms to analyze the training content within an account and map them to the skills.
 

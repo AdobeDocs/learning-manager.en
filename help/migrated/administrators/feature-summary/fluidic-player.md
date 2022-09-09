@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Fluidic player
+description: Fluidic player is a platform for learners to consume content with uninterrupted and blended learning experience. All the supported formats are played consistently in this player. Authors and Administrators can preview the content using the player.
 contentowner: manochan
 ---
 
@@ -13,7 +14,7 @@ Administrators have an option to preview the course.
 
 **Player features in preview mode**
 
-**TOC **- While previewing a course, the player displays a table of contents for that particular course on the left pane of the window. You can click each topic and navigate to it directly.
+**TOC**- While previewing a course, the player displays a table of contents for that particular course on the left pane of the window. You can click each topic and navigate to it directly.
 
 **Full screen** Click Full screen icon at the lower-right corner of the player to view the course in full screen window.
 

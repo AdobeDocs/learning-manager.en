@@ -12,13 +12,13 @@ Color themes and Branding in Learning Manager
 
 Learning Manager enables you to change the appearance of the application to match your organization's branding requirements. 
 
-# Branding {#branding}
+## Branding {#branding}
 
-Click **Branding **on the left pane to update your organization name, change the subdomain, log styles and themes. Click **Edit **adjacent to each of these topics to modify the content. 
+Click **Branding** on the left pane to update your organization name, change the subdomain, log styles and themes. Click **Edit** adjacent to each of these topics to modify the content. 
 
 ## Logo styling {#logostyling}
 
-Click **Edit **to set the appearance of your logo and company name on Learning Manager application. 
+Click **Edit** to set the appearance of your logo and company name on Learning Manager application. 
 
 Click **Upload new logo** and choose the logo from your computer to upload. You can preview the appearance of the logo and your organization name below. Choose the header style of your choice and click **Save**. 
 
@@ -45,11 +45,11 @@ Learning Manager application provides five color theme options to its users:
 
 You can customize the top bar color, Accent color (for example, icons color in left pane), primary color, and sidebar brightness of Themes except for the Prime Default theme. 
 
-In the **Primary color **picker, you can choose the color that is used for the Immersive UI.
+In the **Primary color** picker, you can choose the color that is used for the Immersive UI.
 
 To customize, choose the theme type on the left pane and click the squares adjacent to brand color and sidebar icon colors. Click the side bar in sidebar brightness, drag forward or backward to adjust the brightness. Observe the preview in the above images as you modify these options.
 
-Click **Reset Theme **to restore the orignal settings of the theme. Click **Save **after completing the changes. 
+Click **Reset Theme** to restore the orignal settings of the theme. Click **Save **after completing the changes. 
 
 **Live Preview**
 
@@ -93,7 +93,7 @@ The list below displays the components that can be customized. To customize the 
   </tr> 
   <tr> 
    <td><p>Progress icon image</p></td> 
-   <td>Displayed while navigating between pages. Present in places where you see the ‘4-square’ progress gif. 
+   <td>Displayed while navigating between pages. Present in places where you see the '4-square' progress gif. 
     <ul> 
      <li>Recommended size - less than or equal to 32x32 px</li> 
      <li>Recommended image format - GIF, PNG, JPG</li> 
@@ -118,7 +118,7 @@ The list below displays the components that can be customized. To customize the 
 
 On **Branding > General**, you can configure recommendation scopes for internal and external learners, and enable learners choose skills on the learner homepage.
 
-On the **General **page, you have the following options:
+On the **General** page, you have the following options:
 
 <table> 
  <tbody>
@@ -144,4 +144,3 @@ On the **General **page, you have the following options:
   </tr> 
  </tbody>
 </table>
-

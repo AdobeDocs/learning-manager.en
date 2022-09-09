@@ -18,7 +18,7 @@ Adobe Learning Manager enables you to map the performance of learners based on t
 
 The fundamental purpose of Skills in the Learning Manager LMS is to provide the Administrator with a tool that aligns learning with business goals.
 
-# Add a skill {#addaskill}
+## Add a skill {#addaskill}
 
 As an Administrator, you can perform the following:
 
@@ -32,7 +32,7 @@ To add a skill, follow the steps below:
 
    ![](assets/add-skill-name-anddescription.png)
 
-1. Assign a domain to the skill. While creating a skill, you can map it with the most relevant skill domains that Learning Manager supports. For more information, see [***Map skill with domains***](https://helpx.adobe.com//captivate-prime/administrators/feature-summary/curation-skills.html).
+1. Assign a domain to the skill. While creating a skill, you can map it with the most relevant skill domains that Learning Manager supports. For more information, see [Map skill with domains](https://helpx.adobe.com//captivate-prime/administrators/feature-summary/curation-skills.html).
 
    Start typing the domain in the field and you can see recommendations. Pick the option or options that is/are relevant to the skill.
 
@@ -59,7 +59,7 @@ To add a skill, follow the steps below:
 
    ![](assets/list-of-skills.png)
 
-# Assign the skill to learners {#assigntheskilltolearners}
+## Assign the skill to learners {#assigntheskilltolearners}
 
 Administrators can assign the skills to learners.
 
@@ -93,7 +93,7 @@ After you create your skills and save them, they get listed in the skills page. 
 
    ![](assets/learners-assignedtoaskill.png)
 
-# Assign the skill to a course {#assignskilltocourse}
+## Assign the skill to a course {#assignskilltocourse}
 
 Once you create the skill, an author can create a course, and assign the skill to the course.
 
@@ -103,7 +103,7 @@ After the author publishes the course, on the **Skill** page, you can see the co
 
 ![](assets/skill-assigned-tothecourse.png) 
 
-# Assign a job aid to the skill {#assignajobaidtotheskill}
+## Assign a job aid to the skill {#assignajobaidtotheskill}
 
 Job aids are training content that a learner can access without enrolling in any specific learning object like a Course or Learning Program.
 
@@ -115,13 +115,13 @@ On the **Skill** page, you can see the number of job aids associated with that s
 
 ![](assets/job-aid-assignedtotheskill.png) 
 
-# Search a skill {#searchskill}
+## Search a skill {#searchskill}
 
 Search for any skill by typing the name of the skill and choosing the skill from the options present. Type-ahead search is also applicable here.
 
 You can search for skills in both the **Active** and **Retired** sections of the Skills page.
 
-# Edit a skill {#editaskill}
+## Edit a skill {#editaskill}
 
 On the **Skill** page, click the skill that you want to modify. In the **Edit Skill** dialog, make the required changes, for example, 
 
@@ -132,7 +132,7 @@ On the **Skill** page, click the skill that you want to modify. In the **Edit Sk
 
 After you have made the changes, click **Save**.
 
-# Retire a skill {#retireaskill}
+## Retire a skill {#retireaskill}
 
 To retire a skill, on the **Skill** page, select the skill that you want to retire.
 
@@ -142,7 +142,7 @@ When you retire a skill, the skill no longer appears on the course.
 
 When a skill is retired, it cannot be associated with any more courses or job aids or assigned to learners until it is republished. The existing associations and assignments are not affected by retirement of the skill.
 
-# Republish a skill {#republishaskill}
+## Republish a skill {#republishaskill}
 
 Once you have retired a skill, the retired skill appears in the **Retired** tab. The tab displays the list of all skills that are retired.
 
@@ -150,7 +150,7 @@ To republish a retired skill, choose the skill, and from the **Actions** menu, c
 
 This restores the skill and you can see the skill again in the **Active** tab.
 
-# Delete a skill {#deleteaskill}
+## Delete a skill {#deleteaskill}
 
 You can only delete a skill that has been previously retired.
 
@@ -158,7 +158,7 @@ In the **Retired** tab, select the skill that you want to delete, and from the *
 
 You can delete a skill only when it is not associated with any learners, courses, or job aids.
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 1. How can I remove a learner from a skill?
 
@@ -200,7 +200,7 @@ You can delete a skill only when it is not associated with any learners, courses
 
    In other words, to achieve the badge, **one must complete the associated Learning Object**.
 
-### More like this
+## More like this
 
 * [Skills and Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
 * [Adobe Learning Manager LMS for Employee Skill Development](https://www.youtube.com/watch?v=FSLHlsYzyHA)

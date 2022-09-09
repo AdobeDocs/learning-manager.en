@@ -10,8 +10,6 @@ contentowner: manochan
 
 Gamification is the use of game thinking and game mechanics in non-game contexts to engage users in earning points while learning.
 
-# Overview {#overview}
-
 Learning Manager allows you to apply a structural gamification layer to the content to engage learners and motivate them to achieve their learning goals. It allows the learners to score points for various learning activities and achieve bronze, silver, gold and platinum levels.
 
 By default, some sample gamification points and data is available for users to understand the pattern. You can modify the points accordingly.
@@ -20,20 +18,20 @@ A sample illustration is provided below that shows all the tasks and points.
 
 ![](assets/gamification-feb12-e1439214291423.png) 
 
-# Gamification settings {#gamificationsettings}
+## Gamification settings {#gamificationsettings}
 
 To access the settings, follow the steps below:
 
 1. Log in as an Administrator and on the left pane, click **Gamification**.
 1. When you create a new Learning Manager account, gamification is disabled by default. To enable it, click **Enable** on the upper- right corner of the page.
 
-# Administrator actions {#administratoractions}
+## Administrator actions {#administratoractions}
 
 Administrator can create a list of confidential users, reset gamification points, and disable/enable gamification feature for learners. Click the Actions drop-down list at the upper-right corner of the page to view the actions as shown in the below snapshot.
 
 ![](assets/gamification-actions.png) 
 
-# Confidentiality settings {#confidentialitysettings}
+## Confidentiality settings {#confidentialitysettings}
 
 If required, you can make some higher management users as confidential users. Confidential user's gamification activities are not visible to other learners in the leaderboard.
 
@@ -43,14 +41,17 @@ Confidentiality settings can be applied for both internal and external users.
 
 ![](assets/confidentiality-settings.png)
 
-1. From the listed users, click the check-box against user name and click Hide to make the user as confidential user.  
-   **Note** 
-   You can identify the confidential users in the listed users by the tick mark in check box against the user name.
+1. From the listed users, click the check-box against user name and click Hide to make the user as confidential user. 
+
+   >[!NOTE]
+   >
+   >You can identify the confidential users in the listed users by the tick mark in check box against the user name.
+
 
 1. Click Confidential Users tab to view the list of confidential users. By default, they are not visible. Click the drop-down arrow icon to view the list.
 1. Click the check box against the user name in the confidential users list and click Add to remove the users from the confidential list.
 
-# Reset gamification {#resetgamification}
+## Reset gamification {#resetgamification}
 
 You can reset the gamification points earned by learner and also reset the configuration settings. If you choose to reset user scores, all the points earned by users are erased and reset to zero. If you choose to reset user scores and configuration settings, then all the default points assigned to levels and tasks are reset to zero.
 
@@ -60,7 +61,7 @@ To reset learner score and configuration, click Reset Gamification and choose an
 
 ![](assets/reset-gamification.png) 
 
-# Disable gamification {#disablegamification}
+## Disable gamification {#disablegamification}
 
 Click Gamification > Gamification Feature. This allows you to enable the gamification feature and the leaderboard separately for your Learners. Select between Enable for Internal Learners and Enable for External Learners as per the requirement and click OK. All the points are retained when you enable the gamification again.
 
@@ -68,7 +69,7 @@ Click Gamification > Gamification Feature. This allows you to enable the gamific
 
 You can disable gamification for both internal and external users.
 
-# Set up points {#setuppoints}
+## Set up points {#setuppoints}
 
 Administrators can set up gamification points for learners by following the steps below:
 
@@ -78,12 +79,13 @@ Administrators can set up gamification points for learners by following the step
 1. Modify the frequency of occurrence for tasks such as completing a specific number of courses per month or quarter or a year.
 1. Click Save.
 
-# Tasks {#tasks}
+## Tasks {#tasks}
 
 There are five gamification tasks of learners for which Administrator can set the points. An illustration depicting all the learners tasks and points is shown below:
 
-**Note** 
-Gamification points for learners within a particular task are not cumulative. But, the points are added to learners account cumulatively if the learners get these points across different tasks. 
+>[!NOTE]
+>
+>Gamification points for learners within a particular task are not cumulative. But, the points are added to learners account cumulatively if the learners get these points across different tasks. 
 
 While assigning courses to points, administrator has to ensure that the learners get the points progressively.
 
@@ -98,8 +100,9 @@ You can see the following possible scenarios:
 1. When learners complete eight courses, they get 300 points.
 1. When learners complete ten courses, they get 500 points.
 
-**Note** 
-Administrator can modify the time period and the number of courses required to complete to earn corresponding points.
+>[!NOTE]
+>
+>Administrator can modify the time period and the number of courses required to complete to earn corresponding points.
 
 Within a task, points are not accorded to learners cumulatively. For example, say that a learner completes couple of courses and get 20 points. When learners complete four courses, they get 100 points but the existing 20 points are not considered.
 
@@ -112,8 +115,9 @@ Possible scenarios:
 1. When learners enroll for one course within a month/quarter/year, they get 50 points.
 1. When learners enroll for two courses within a month/quarter/year, they get 150 points.
 
-**Note** 
-Administrator can modify the time period and the number of courses.
+>[!NOTE]
+>
+>Administrator can modify the time period and the number of courses.
 
 **For Self driven learner (b)**
 
@@ -126,8 +130,9 @@ Possible scenarios for learners enrollment of courses in addition to their allot
 1. When learners enroll for three courses within a month/quarter/year, they get 300 points.
 1. When learners enroll for four courses within a month/quarter/year, they get 500 points.
 
-**Note** 
-Administrator can modify the time period and the number of courses. For example, the third scenario can be modified to five courses instead of three to gain 80 points.
+>[!NOTE]
+>
+>Administrator can modify the time period and the number of courses. For example, the third scenario can be modified to five courses instead of three to gain 80 points.
 
 **For Upskill (a)**
 
@@ -140,8 +145,9 @@ Possible scenarios for Upskill in competencies:
 1. When a learner achieves three competencies, they gain 600 points.
 1. When a learner achieves four competencies, they gain 900 points.
 
-**Note** 
-The time period is not applicable for this task. The administrator can modify the number of courses for each scenario.
+>[!NOTE]
+>
+>The time period is not applicable for this task. The administrator can modify the number of courses for each scenario.
 
 **For Upskill (b)**
 
@@ -153,8 +159,9 @@ Possible scenarios for upskill in levels within a particular competency:
 1. When learners achieve two levels, they get 200 points.
 1. When learners achieve three levels, they get 500 points.
 
-**Note** 
-Time period is not applicable for this task. If learners achieve higher level and then achieve lower level of a competency, then they gain points only for the higher level.
+>[!NOTE]
+>
+>Time period is not applicable for this task. If learners achieve higher level and then achieve lower level of a competency, then they gain points only for the higher level.
 
 **Early completion points**
 
@@ -170,7 +177,7 @@ This task is applicable for learners when they complete a course within a stipul
 Possible scenario:  
 When learners complete a course within 10 days of course commencement, they get 100 points.
 
-# Group level gamification {#grouplevelgamification}
+## Group level gamification {#grouplevelgamification}
 
 Administrators can define the scope of gamification by changing the scope settings. You can selectively enable gamification among similar profile users, groups or location.
 
@@ -179,8 +186,7 @@ Administrators can define the scope of gamification by changing the scope settin
 
    ![](assets/scope-settings.png)
 
-1. 
-   Click the option Enable Scope Settings. 
+1. Click the option Enable Scope Settings. 
 
 1. Select the User Characteristic from the drop-down list. A sample screenshot is shown as follows: 
 
@@ -191,4 +197,3 @@ Administrators can define the scope of gamification by changing the scope settin
    ![](assets/value.png)
 
 1. Click **Save.**
-

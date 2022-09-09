@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Announcements
+description: An announcement is a multimedia message (text, image or video) that an Administrator broadcasts to a defined set of users.
 ---
 
 
@@ -16,7 +17,7 @@ There are three types of announcements:
 * Masthead
 * Recommendation
 
-# Notification {#notification}
+## Notification {#notification}
 
 1. As an Administrator user, click Announcements at the left pane.
 1. Click Add at the upper-right corner of the page.
@@ -43,7 +44,7 @@ There are three types of announcements:
 
 If the multimedia attachment is of large size, it may take time to upload. After you click Save, you would receive a pop-up with a message as your upload is being processed. You will receive a notification after the attachment is uploaded successfully.
 
-# Masthead {#masthead}
+## Masthead {#masthead}
 
 When you choose this option, any media file that you choose features as a masthead on the Learner homepage. The masthead acts as a call to action for the learners it is intended for.
 
@@ -58,9 +59,9 @@ When you choose this option, any media file that you choose features as a masthe
 
 1. In the Advanced Settings section, you have the following options:
 
-   * Click **Immediately **if you want the announcement to be posted right then.
-   * Click **Never **if you do not want your announcement to expire.
-   * Select the **Start **and **End **dates for the announcement.
+   * Click **Immediately** if you want the announcement to be posted right then.
+   * Click **Never** if you do not want your announcement to expire.
+   * Select the **Start** and **End** dates for the announcement.
 
    ![](assets/advanced-settings.png)
 
@@ -68,7 +69,7 @@ When you choose this option, any media file that you choose features as a masthe
 
 You will only see the most recent 10 Masthead announcements.
 
-# Recommendation {#recommendation}
+## Recommendation {#recommendation}
 
 When you choose this option, any training that you choose gets recommended to specified user groups. The recommendations are driven by a Machine learning algorithm.
 
@@ -84,9 +85,9 @@ When you choose this option, any training that you choose gets recommended to sp
 
 1. In the Advanced Settings section, you have the following options:
 
-   * Click **Immediately **if you want the announcement to be posted right then.
-   * Click **Never **if you do not want your announcement to expire.
-   * Select the **Start **and **End **dates for the announcement.
+   * Click **Immediately** if you want the announcement to be posted right then.
+   * Click **Never** if you do not want your announcement to expire.
+   * Select the **Start** and **End** dates for the announcement.
 
    ![](assets/advanced-settings.png)
 
@@ -95,7 +96,7 @@ When you click **Save**, you can either publish the announcement right away or p
 * Mastheads/Recommendations do not trigger any notifications.
 * Mastheads/Recommendations do not appear in announcements report.
 
-# Draft, scheduled and sent list {#draftscheduledandsentlist}
+## Draft, scheduled and sent list {#draftscheduledandsentlist}
 
 In Administrator login, you can view all the announcements in three tabs such as Drafts, Scheduled and Sent.
 

@@ -10,11 +10,11 @@ contentowner: jayakarr
 
 Learn about the new features and enhancements in Adobe Learning Manager
 
-The **February 2021** **release of Adobe Learning Manager** focuses on improving Learner Experience, Reporting and Administrative workflows. Some of the highlights include:
+The **February 2021** release of Adobe Learning Manager focuses on improving Learner Experience, Reporting and Administrative workflows. Some of the highlights include:
 
 * New filters to assist learners in searching for Trainings.
 * A brand-new Training Report for Administrators.
-* A new ‘trigger’ and ‘action’ in Learning Plans.
+* A new 'trigger' and 'action' in Learning Plans.
 
 Read on to know more.
 
@@ -191,7 +191,7 @@ In the Immersive view, a Learner can now see a pop-up of L1 feedback form upon c
 
 ### Connector changes
 
-You can now increase the frequency for importing users for all connectors that support importing of users. Contact your **CSAM **for more details.
+You can now increase the frequency for importing users for all connectors that support importing of users. Contact your **CSAM** for more details.
 
 ### Duration
 
@@ -219,15 +219,15 @@ After adding an audio or video content, you can also specify the duration. Howev
 
 Learning Manager allows Administrators to export L2 Quiz score report. This report contains Quiz score and Score percentage for each user. In this release, we are modifying the header of existing column and adding new columns for better readability and analysis.
 
-We’ve added the following columns:
+We've added the following columns:
 
-* **Interaction Score** - It’s the sum of all interaction scores received from the content.
-* **Quiz Score** - It’s the quiz score grade received from the content.
-* **Quiz Score Max** - It’s the maximum quiz score grade received from the content.
+* **Interaction Score** - It's the sum of all interaction scores received from the content.
+* **Quiz Score** - It's the quiz score grade received from the content.
+* **Quiz Score Max** - It's the maximum quiz score grade received from the content.
 
-**Note:** The column Quiz Score percentage is calculated as the percentage value of ‘Quiz Score’ and ‘Quiz Score Max’.
+**Note:** The column Quiz Score percentage is calculated as the percentage value of 'Quiz Score' and 'Quiz Score Max'.
 
-We plan to remove the column ‘Total User Score/Quiz Score’ from the next release as all the information is now available as separate columns for better readability and analysis.
+We plan to remove the column 'Total User Score/Quiz Score' from the next release as all the information is now available as separate columns for better readability and analysis.
 
 ### Other enhancements
 

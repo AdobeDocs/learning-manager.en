@@ -28,7 +28,7 @@ Only the Administrators of your organization can manage billing.
 
 If you want to contact Adobe for more information about Learning Manager subscription and billing, write to us at [learningmanagersales@adobe.com](mailto:captivateprimesales@adobe.com).
 
-# Place orders using credit cards {#placeordersusingcreditcards}
+## Place orders using credit cards {#placeordersusingcreditcards}
 
 You can buy a subscription for a maximum of 3500 learners through any single credit card payment order. The first order in the account must be for a minimum of 10 learners.
 
@@ -104,7 +104,7 @@ To cancel an order:
 
 When an account is deactivated by the customer, it enters a trial state for the next 30 days. The account owner receives three reminder emails to revive the account. If the owner does not reactivate the account, none of the users are able to access Learning Manager apart from the owner.
 
-# Place orders using Purchase Order {#placeordersusingpurchaseorder}
+## Place orders using Purchase Order {#placeordersusingpurchaseorder}
 
 You can choose purchase order process as an alternative mode of payment. As a pre-requisite, your organization's account must be registered with Adobe. Your organization account is charged for this process. The account is charged based on a learner's activities. Only Learning Object-level activities are charged. To place an order using PO:
 
@@ -121,11 +121,9 @@ After an account gets activated, the account can be in any of the following stat
 * **Active** - In this state, the account has active learner subscriptions with recurring monthly payment as per the subscription order.
 * **Inactive** - An account moves into inactive state in the following scenarios:
 
-o   After the trial period if there are no active subscription orders in the account.
-
-o   Administrator deactivates the account, which results in canceling all the existing orders in an account from the next billing cycle of subscription.
-
-o   Payment is declined for active orders in an account even after reminders.
+  * After the trial period if there are no active subscription orders in the account.
+  * Deactivates the account, which results in canceling all the existing orders in an account from the next billing cycle of subscription.
+  * Payment is declined for active orders in an account even after reminders.
 
 An inactive state does not cancel your account with immediate effect. You receive at least a couple of reminders from the Learning Manager team asking you to provide the latest information about your credit card if it has expired. In an inactive state, only an administrator can log in to the Learning Manager account. All other users cannot access the account.
 
@@ -135,11 +133,11 @@ An inactive state does not cancel your account with immediate effect. You receiv
 
 To cancel an active subscription, contact the Learning Manager support team.
 
-## Account termination fee {#accountterminationfee}
+### Account termination fee {#accountterminationfee}
 
 If you want to cancel the subscription before the completion of the annual term, an early termination fee is charged. The termination fee is equivalent to 50% of the subscription price of the remaining commitment period.
 
-# Monthly Active Users (MAU) plan {#monthlyactiveusersmauplan}
+## Monthly Active Users (MAU) plan {#monthlyactiveusersmauplan}
 
 You can choose a MAU plan as your preferred way of billing. This option generates billing based on the number of monthly unique active users. The monthly unique active users are added cumulatively for a period of 12 months starting from the month of plan activation. This number is used for billing for the period.
 
@@ -174,9 +172,9 @@ Any user who performs the following actions or achieves completions due to actio
 
 1. On the page that displays, you can view the following:
 
-   a.      **Overall usage:** You can check the total number of active users, users who are consuming Learning Manager in a month, and the number of users who have not yet signed up for any course.
+   * **Overall usage:** You can check the total number of active users, users who are consuming Learning Manager in a month, and the number of users who have not yet signed up for any course.
 
-   b.      **Monthly usage:** You can see a table of unique active users per month.
+   * **Monthly usage:** You can see a table of unique active users per month.
 
 ## Download usage report {#downloadusagereport}
 
@@ -190,11 +188,7 @@ If you close the browser window, the download starts the next time you visit Lea
 
 The reports are saved in the Downloads folder of your browser.
 
-# Cancel a subscription
-
-To cancel an active subscription, contact the Learning Manager support team.
-
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 **1. How to add/remove subscriptions from an account?**
 
@@ -212,8 +206,7 @@ In the **Order History **tab, for an active account, click **Edit**. Then on the
 
 To update the billing information, follow the steps below:
 
-1. Log in as **Admin **and click **Billing**.
-
+1. Log in as **Admin** and click **Billing**.
 1. In the list of orders, click **Edit**.
 1. In the Subscription details page, click **Edit Subscription**.
 
@@ -230,6 +223,5 @@ No, you cannot cancel a subscription partially. If you need to reduce the number
 
 Contact [FastSpring](https://fastspring.com/) to get an invoice for your payments, using one of the following ways:
 
-* Create a service request with FastSpring using the link **https://questionacharge.com**.
+* Create a service request with FastSpring using the link <https://questionacharge.com>.
 * Send an email to FastSpring on **orders@fastspring**.com requesting for the invoice.
-

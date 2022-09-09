@@ -1,21 +1,20 @@
 ---
 jcr-language: en_us
 title: Customize learner homepage
+description: An Administrator can customize the learner's home page and make it more modern, content driven, and personalized to a learner.
 contentowner: saghosh
 ---
 
 
 # Customize learner homepage {#customize-learner-homepage}
 
-# Overview {#overview}
-
 An Administrator can customize the learner's home page and make it more modern, content driven, and personalized to a learner.
 
-The personalized approach offers a widgetised way of building a Learner Home page, which the admin of the organization can configure in the admin user interface in a WYSIWYG manner.
+The personalized approach offers a widgetised way of building a Learner Home page, which the admin of the organization can configure in the admin user interface in a WYSIWYG manner.
 
-The experience is driven by a personalized training recommendations from an AI-driven algorithm that analyses third-party content for industry skills, incorporates peer activity, and learners’ areas of interest using explicit and implicit data. 
+The experience is driven by a personalized training recommendations from an AI-driven algorithm that analyses third-party content for industry skills, incorporates peer activity, and learners' areas of interest using explicit and implicit data. 
 
-# Configure the learner homepage {#configurethelearnerhomepage}
+## Configure the learner homepage {#configurethelearnerhomepage}
 
 On the **Branding > Learner Homepage** page, an Administrator can customize the homepage experience of a learner, so that when the learner signs into the learner app, he/she sees a completely revamped look and feel.
 
@@ -25,7 +24,7 @@ Admins can switch to Immersive UI Widget view, customize widgets/features accord
 
 The **Learner Homepage** screen contains these sections:
 
-## Immersive layout option {#immersivelayoutoption}
+### Immersive layout option {#immersivelayoutoption}
 
 To view the layout of an immersive-driven page, enable the option **Immersive**. You can toggle this option in **Branding > General**.
 
@@ -56,7 +55,9 @@ The option **Enable learner to explore Areas of Interest **is available to both 
 
 If there are less than 1000 learners, the entire account is considered as a single scope. This is specifically for the Custom Training type. If the account has less than 1000 users, it considers the complete account as its scope.
 
-**Note:** The check-box **Explore skills** has been moved to Settings > General.
+>[!NOTE]
+>
+>The check-box **Explore skills** has been moved to Settings > General.
 
 This will be enabled and grayed out if Immersive experience is chosen. This check-box will be enabled only for Classic experience.
 
@@ -68,7 +69,7 @@ Here are the widgets that you can enable/disable.
 
 Using this, you can preview the Learner UI before the learner UI goes live.
 
-For existing accounts, the option **Immersive **will be **OFF**. It is enabled for new account with Social and Gamification ON.
+For existing accounts, the option **Immersive** will be **OFF**. It is enabled for new account with Social and Gamification ON.
 
 ![](assets/immersive-layout-widgets.png) 
 
@@ -80,7 +81,7 @@ For existing accounts, the option **Immersive **will be **OFF**. It is enabled f
   </tr> 
   <tr> 
    <td><p>Masthead</p></td> 
-   <td><p><b>What is a Masthead and how do I customize the Learners Masthead? </b><br></p><p>It’s a welcome banner for learners. The banner can be an image or a video. You can target the masthead to specific user groups and a learner views the Masthead as soon as he/she lands on the homepage. A User Group may see multiple hero images or videos according to the target plan set by the Admin. </p><p>Here's how an Administrator uploads a banner:</p> 
+   <td><p><b>What is a Masthead and how do I customize the Learners Masthead? </b><br></p><p>It's a welcome banner for learners. The banner can be an image or a video. You can target the masthead to specific user groups and a learner views the Masthead as soon as he/she lands on the homepage. A User Group may see multiple hero images or videos according to the target plan set by the Admin. </p><p>Here's how an Administrator uploads a banner:</p> 
     <ol> 
      <li>On the left panel, click <b>Announcements</b>.<br></li> 
      <li>On the upper-right corner of the page, click <b>Add</b>.</li> 
@@ -117,7 +118,7 @@ For existing accounts, the option **Immersive **will be **OFF**. It is enabled f
   </tr> 
   <tr> 
    <td><p>Recommendation based on area of interest</p></td> 
-   <td><p>Displays Learning Objects based on the learner’s chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td> 
+   <td><p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td> 
   </tr> 
   <tr> 
    <td><p>Browse by catalog<br></p></td> 
@@ -125,7 +126,7 @@ For existing accounts, the option **Immersive **will be **OFF**. It is enabled f
   </tr> 
   <tr> 
    <td><p>Recommendation based on peer activity<br></p></td> 
-   <td><p>Displays training based on what a learner’s peers are taking. This is again driven by a Machine Learning algorithm.</p></td> 
+   <td><p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -144,13 +145,13 @@ When the learner signs in to the learner app via a browser, he/she can see the f
  </tbody>
 </table>
 
-## Classic layout option {#classiclayoutoption}
+### Classic layout option {#classiclayoutoption}
 
 The User Interface layout that has always existed till now, is now referred to as Classic Layout. When you choose this option, the learner homepage view reverts to the classic layout. 
 
 ![](assets/classic-layout.png) 
 
-# Configure recommendation settings {#configurerecommendationsettings}
+## Configure recommendation settings {#configurerecommendationsettings}
 
 On **Branding > General**, you can configure recommendation scopes for internal and external learners, and enable learners choose skills on the learner homepage.
 
@@ -200,4 +201,3 @@ On the **General **page, you have the following options:
   </tr> 
  </tbody>
 </table>
-

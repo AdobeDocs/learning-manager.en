@@ -10,11 +10,11 @@ contentowner: jayakarr
 
 Learn about the new features and enhancements in Adobe Learning Manager
 
-The **December 2020** **release of Adobe Learning Manager** features an all-new Learner Homepage experience, that is driven by:
+The **December 2020** release of Adobe Learning Manager features an all-new Learner Homepage experience, that is driven by:
 
 * Immersive experience powered by responsive and personalized HTML widgets, which are managed by Administrator.  
 * Customization of the homepage via two new types of Announcements.  
-* Personalized training recommendations from an AI-driven algorithm that analyses third-party content for industry skills, incorporates peer activity, and learners’ areas of interest using explicit and implicit data.
+* Personalized training recommendations from an AI-driven algorithm that analyses third-party content for industry skills, incorporates peer activity, and learners' areas of interest using explicit and implicit data.
 
 # What's new and changed {#whatsnewandchanged}
 
@@ -25,7 +25,7 @@ The **December 2020** **release of Adobe Learning Manager** features an all-new 
     <ul> 
      <li><a disablelinktracking="false" href="administrators/feature-summary/customize-learner-homepage.md">Customize a learner's homepage</a></li> 
     </ul></td> 
-   <td> <img src="assets/responsive.png"><h3 id="Mobilewebresponsivelayout">Mobile web responsive layout</h3><p>A completely responsive mobile web experience that ensures that learners use their devices to consume training even if they haven’t installed the mobile app.</p> <p>For more information, see <a disablelinktracking="false" href="learners/feature-summary/ipad-android-tablet-users.md#responsive">Mobile web responsive layout</a>.<br></p></td> 
+   <td> <img src="assets/responsive.png"><h3 id="Mobilewebresponsivelayout">Mobile web responsive layout</h3><p>A completely responsive mobile web experience that ensures that learners use their devices to consume training even if they haven't installed the mobile app.</p> <p>For more information, see <a disablelinktracking="false" href="learners/feature-summary/ipad-android-tablet-users.md#responsive">Mobile web responsive layout</a>.<br></p></td> 
   </tr> 
  </tbody>
 </table>
@@ -34,7 +34,7 @@ The **December 2020** **release of Adobe Learning Manager** features an all-new 
  <tbody>
   <tr> 
    <td> <img src="assets/custom-domain.png"><h3 id="CustomDomain">Custom Domain</h3><p>Give a new brand to your learning academy. You can customize the domain name to be consistent with your organizational brand presence on the web.</p> <p>For more information, see <a disablelinktracking="false" href="custom-domain.md">Support for custom domain</a>.</p></td> 
-   <td> <img src="assets/ai-recommended.png"><h3 id="AIbasedcourserecommendation">AI-based course recommendation</h3><p>Stay ahead of your competition with a workforce that’s skilled and informed. The AI-powered recommendation engine promotes skill-based learning plans to employee cohorts. Also, encourage proactive reskilling initiatives with gamification points, certifications and badges. </p> <p>For more information, see <a disablelinktracking="false" href="AI-based-recommendations.md">AI-based recommendation</a>.</p></td> 
+   <td> <img src="assets/ai-recommended.png"><h3 id="AIbasedcourserecommendation">AI-based course recommendation</h3><p>Stay ahead of your competition with a workforce that's skilled and informed. The AI-powered recommendation engine promotes skill-based learning plans to employee cohorts. Also, encourage proactive reskilling initiatives with gamification points, certifications and badges. </p> <p>For more information, see <a disablelinktracking="false" href="AI-based-recommendations.md">AI-based recommendation</a>.</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -94,7 +94,7 @@ For more information, see  [Import quiz scores from Adobe Connect.](integration-
 
 ## Scrollable My Catalog page {#scrollablemycatalogpage}
 
-My learning and Catalog pages for Learner role always shows 6 trainings cards at a time. Learner needs to click “Show more results” to view more. This experience is now enhanced by providing an infinite scroll whenever learner is viewing a single catalog or catalog visibility is disabled by the Administrator. 
+My learning and Catalog pages for Learner role always shows 6 trainings cards at a time. Learner needs to click "Show more results" to view more. This experience is now enhanced by providing an infinite scroll whenever learner is viewing a single catalog or catalog visibility is disabled by the Administrator. 
 
 ![](assets/show-more-results.png) 
 
@@ -102,7 +102,7 @@ My learning and Catalog pages for Learner role always shows 6 trainings cards at
 
 A learner now can click on an individual module to enroll and start.
 
-Clicking on a module (before enrollment) launches a popup- “Clicking on a module will enroll you in the training and launch. This behavior will be remembered and can be modified from Profile Settings. Do you wish to continue?”
+Clicking on a module (before enrollment) launches a popup- "Clicking on a module will enroll you in the training and launch. This behavior will be remembered and can be modified from Profile Settings. Do you wish to continue?"
 
 ## View individual LO data in Compliance Dashboard {#viewindividuallodataincompliancedashboard}
 
@@ -128,7 +128,7 @@ For more information, see [Download Learner Transcripts](administrators/feature-
 
 An Admin can generate a deep link for a catalog that can take the learners to the specific catalog page.
 
-On the **Catalogs **page, mouse over on the catalog that you the deep link for and click the highlighted icon.
+On the **Catalogs** page, mouse over on the catalog that you the deep link for and click the highlighted icon.
 
 ## A new theme- Vivid {#anewthemevivid}
 
@@ -152,7 +152,7 @@ The getAbstract APIs GA v1 APIs will be removed by December 2020. Learning Manag
 
 ## Support for enabling/disabling data compression {#supportforenablingdisablingdatacompression}
 
-For **FTP**, **Box**, and **Custom FTP** connectors, while exporting Learner Transcript or xAPI, you can also export the data as a **zip **file.
+For **FTP**, **Box**, and **Custom FTP** connectors, while exporting Learner Transcript or xAPI, you can also export the data as a **zip** file.
 
 For more information, see [Learning Manager connectors](integration-admin/feature-summary/connectors.md).
 
@@ -167,7 +167,7 @@ For more information, see [Learning Manager connectors](integration-admin/featur
 
 ## LinkedIn Learning Enhancements {#linkedinlearningenhancements}
 
-In this release of Learning Manager, we’ve added filters to LinkedIn connectors to segregate content based on LinkedIn Learning Libraries. In addition, you can also filter content based on language and import only the courses in required languages. Once imported, content gets segregated to multiple catalogs based on the import configuration.
+In this release of Learning Manager, we've added filters to LinkedIn connectors to segregate content based on LinkedIn Learning Libraries. In addition, you can also filter content based on language and import only the courses in required languages. Once imported, content gets segregated to multiple catalogs based on the import configuration.
 
 For more information, see  [Filter LinkedIn Learning content](integration-admin/feature-summary/connectors.md#filter-linkedin).
 
@@ -179,17 +179,17 @@ If you require to export the data for more than 5 years, the Job API / Power BI 
 
 # Enhancements to the learner role {#enhancementstothelearnerrole}
 
-* Learners can now copy the training URL from the training page. Learning Manager now provides a **Share **icon on the training page. It contains options like **Copy URL** and **Send via email**, which opens the email client.  
+* Learners can now copy the training URL from the training page. Learning Manager now provides a **Share** icon on the training page. It contains options like **Copy URL** and **Send via email**, which opens the email client.  
 
 * Learning Manager now also allows learners to quickly enroll to trainings while browsing through their training catalogs. Look for the **Add to my list** button on the training cards. Clicking on it, enrolls you to the respective training.
 * My learning and Catalog pages for Learner role always shows 6 trainings cards at a time. A learner needs to click **Show more results** to view more. This experience is now enhanced by providing an infinite scroll whenever learner is viewing a single catalog or catalog visibility is disabled by the Administrator. 
-* A learner now can click on an individual module to enroll and start.  Clicking on a module (before enrollment) launches a popup- “Clicking on a module will enroll you in the training and launch. This behavior will be remembered and can be modified from Profile Settings. Do you wish to continue?”
+* A learner now can click on an individual module to enroll and start.  Clicking on a module (before enrollment) launches a popup- "Clicking on a module will enroll you in the training and launch. This behavior will be remembered and can be modified from Profile Settings. Do you wish to continue?"
 
 # Changes to existing features {#changestoexistingfeatures}
 
 ## Changes to announcements {#changestoannouncements}
 
-When you create an announcement, in the **Type **drop-down list, there are two new options-
+When you create an announcement, in the **Type** drop-down list, there are two new options-
 
 * As Masthead
 * As Recommendation
@@ -201,12 +201,12 @@ This feature is available only when the Immersive layout is selected.
 ## Learner home page settings {#learnerhomepagesettings}
 
 * The Learner Home Page settings have now moved into the Branding section of the Admin app. In the previous versions of Learning Manager, the Learner Home Page was in **Admin > Settings**.
-* The option **Enable learner to explore Areas of Interest** has now moved in the Branding > General section of the Admin app. This option previously was in **Admin > Settings**.
+* The option **Enable learner to explore Areas of Interest** has now moved in the Branding > General section of the Admin app. This option previously was in **Admin** > **Settings**.
 
 ## Changes in Learning Transcripts {#changesinlearningtranscripts}
 
 * From the Excel/CSV reports, the score column in x/y format has been removed. The Score and Highest Score columns no longer exist. This change was already planned and communicated in the previous release. This feature is supported by four columns available since the last release, which provided the score and total score in separate columns.
-* In the Admin > Reports > Learner Transcript page, a column that has a filter on it is now modified to display **Yes **or None. Clicking on it opens a pop-up, which provides more details.
+* In the Admin > Reports > Learner Transcript page, a column that has a filter on it is now modified to display **Yes** or None. Clicking on it opens a pop-up, which provides more details.
 * The Learner Transcript User Interface now contains additional filter based on Status. With this filter, Learner transcript report can be downloaded which contains only the learning records with the selected status. 
 
 # Data retention updates {#dataretentionupdates}
@@ -220,7 +220,7 @@ The new data retention policy is as follows:
 * All CSV files used while importing data using FTP/Box Connector (directly or indirectly) are deleted once the import completes. So, users/application uploading data cannot assume that the file will be present after Prime has ingested the data.
 * All CSV files created during data exports will get deleted automatically after 7 days from export. So, users and applications must ensure they consume this export before that.
 
-The Migration feature provided in Prime also relies on FTP/Box connector to transfer data to Prime. All CSV’s used during migration will be automatically deleted 7 days after its most recent use.
+The Migration feature provided in Prime also relies on FTP/Box connector to transfer data to Prime. All CSV's used during migration will be automatically deleted 7 days after its most recent use.
 
 # Release Notes {#releasenotes}
 

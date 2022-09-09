@@ -16,26 +16,27 @@ Certify your learners on a one time basis or on a recurring time frame using thi
 
 As an Admin, you can create a certification program either hosted internally or conducted by a 3rd party. In case of Internal certification, define the courses that a learner has to complete to get certified. Publish the program and then assign it to learners.
 
-# Create a certification {#createacertification}
+## Create a certification {#createacertification}
 
 1. Click **Certification **on the left pane.  
    A page appears with a list of all the draft, and published state of certifications.
 
-1. View certifications in various modes:* *
+1. View certifications in various modes:
 
-   1. Click **draft **tab to see all the certifications that are in draft state. You need to complete creating them.
-   1. Click **Published **to see all the certifications published  by you.
-   1. Click **All **to view the certifications in all states.
+   1. Click **draft** tab to see all the certifications that are in draft state. You need to complete creating them.
+   1. Click **Published** to see all the certifications published  by you.
+   1. Click **All** to view the certifications in all states.
    1. Sort and view the list of certifications in ascending order, or descending order or based on the date you updated them.
 
-1. Click **Add**.  
+1. Click **Add**.
+
    A new certification page appears.
 
-![](assets/add-new-certification.png)
+   ![](assets/add-new-certification.png)
 
 1. Add  certificate   name,  and description.
 
-<table width="100%" cellspacing="0" cellpadding="1" border="1"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Field</th> 
@@ -75,7 +76,7 @@ As an Admin, you can create a certification program either hosted internally or 
     <ul> 
      <li>Same as Approved Date<br></li> 
      <li>Submitted by Learner<br></li> 
-    </ul><p>Learners can specify the correct completion date for external certifications. In previous versions, the completion date was set by default by Prime, based on the date of Manager’s approval date. Completion date provided by the learner should be greater than the certificate creation date<span>.</span></p></td> 
+    </ul><p>Learners can specify the correct completion date for external certifications. In previous versions, the completion date was set by default by Prime, based on the date of Manager's approval date. Completion date provided by the learner should be greater than the certificate creation date<span>.</span></p></td> 
   </tr> 
   <tr> 
    <td>Duration</td> 
@@ -92,11 +93,11 @@ As an Admin, you can create a certification program either hosted internally or 
  </tbody> 
 </table>
 
-Choose the courses to be added to the certification from **Courses > Catalog** tab.
+Choose the courses to be added to the certification from **Courses** > **Catalog** tab.
 
 Hover the mouse on each course tile, click + to add them to the certification. Click **Preview** to view the course as learner before adding it.
 
-1. Click **Curriculum **tab to view/verify the list of courses that you added.
+1. Click **Curriculum** tab to view/verify the list of courses that you added.
 1. Click **Publish**.
 
 ## Course instance mapping for certifications {#courseinstancemappingforcertifications}
@@ -112,11 +113,11 @@ To map the course and instance for certifications:
 
 An admin can add class room and virtual class room type courses to a Learning Program. Whatever session the author has given during the creation of the course becomes the default instance. When admin adds courses to a learning program, by default it is mapped to the default instance of all the courses but admin can change the instance mapping. The number of courses added into a learning program is also visible in instances page as shown below.
 
-# Enable full catalog control {#catalog}
+## Enable full catalog control {#catalog}
 
 Like granting full [catalog control for learning(s) or modules](shared-catalog-full-control.md), you can also enable full catalog control for certifications.
 
-# Enroll or unenroll learners to the certification {#enrollorunenrolllearnerstothecertification}
+## Enroll or unenroll learners to the certification {#enrollorunenrolllearnerstothecertification}
 
 For more information on enrolling learners and the steps to follow, see [Enrolling Learners](courses.md#main-pars_header_1058138132).
 
@@ -126,7 +127,7 @@ While creating certifications, Administrator has an option to select whether lea
 
 ![](assets/unenrollment.png) 
 
-# Mark completion {#markcompletion}
+## Mark completion {#markcompletion}
 
 Administrators can mark a Certification complete using the option available to them. To mark the completion of a certification, use the following steps.
 
@@ -139,13 +140,13 @@ Administrators can mark a Certification complete using the option available to t
 
    Note that if a certification has multiple courses, completion will be marked for all the courses.
 
-# Mandatory courses for external certification {#mandatory}
+## Mandatory courses for external certification {#mandatory}
 
 In earlier releases of Learning Manager, course completion from learner in External certification was not mandatory to complete a Certificate.
 
 You can now make courses mandatory by enabling the option **Set required courses as Mandatory for Certificate Completion** in the Curriculum tab while editing the cerification.
 
-# Editing a published Certification {#editingapublishedcertification}
+## Editing a published Certification {#editingapublishedcertification}
 
 A certification can be edited by an Administrator at a published state. At this state, the Administrator can edit all the sections of a certification and re-publish. 
 
@@ -153,9 +154,8 @@ To edit a published certification, click the certification card and click **Edit
 
 While editing the sections of a certification, if you have to move out of the page, you need to re-publish the certification. You get a dialog confirmation asking you to re-publish the certification.
 
-# Subscription {#subscription}
+## Subscription {#subscription}
 
 An admin can fetch quiz score and learner status reports. They can set the report frequency, email subject, and recipients email id. Depending on the set frequency, the recipient will get an email with the report attached.
 
 ![](assets/report-subscription.jpeg)
-

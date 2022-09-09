@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-solution: Experience Manager
+solution: Learning Manager
 product: experience cloud
 type: Documentation
 mini-toc-levels: 2

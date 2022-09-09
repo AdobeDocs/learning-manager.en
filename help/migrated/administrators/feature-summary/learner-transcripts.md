@@ -14,66 +14,63 @@ Download learner transcript and manage reports using Learning Manager.
 
 Adobe Learning Manager enables the administrators of an organization to generate the transcripts associated with learners. 
 
-# Generate Learner transcripts {#generatelearnertranscripts}
+## Generate Learner transcripts {#generatelearnertranscripts}
 
 1. To generate learner transcripts, click **Reports **on the left pane in Administrator login.
 
-The Administrator navigates to the Excel Reports tab inside the **Reports** page.
+   The Administrator navigates to the Excel Reports tab inside the **Reports** page.
 
-2. Click the link** Learner Transcripts.**
+1. Click the link **Learner Transcripts**.
 
-The **Learner Transcript** history page displays with the message- **No Learner Transcripts have been generated yet ** or a list of downloads that have been triggered post Learning Transcripts history page implementation.
+The **Learner Transcript** history page displays with the message- **No Learner Transcripts have been generated yet** or a list of downloads that have been triggered post Learning Transcripts history page implementation.
 
-![](assets/learner-transcripts.png)
+   ![](assets/learner-transcripts.png)
 
- 4. A Learner transcripts dialog appears. Choose the date range for which you need the transcript generated.
+1. A Learner transcripts dialog appears. Choose the date range for which you need the transcript generated.
 
-**Note:** By default, from  start  date is the learner's registration date and the to date is always the current date. You can modify only the start date from when you need the data.
+   >[!NOTE]
+   >
+   >By default, from  start  date is the learner's registration date and the to date is always the current date. You can modify only the start date from when you need the data.
 
-5. Choose the learners names from the Select Learners field, and click **Generate.**
 
-6. You can choose  single  learner or groups of learners. To add more than one learner, click **Add More Learners**.
+1. Choose the learners names from the Select Learners field, and click **Generate.**
+1. You can choose  single  learner or groups of learners. To add more than one learner, click **Add More Learners**.
 
-![](assets/add-learners-lt.png)
+   ![](assets/add-learners-lt.png)
 
-7. You can choose specific catalogs by enabling the check box. Transcript is only downloaded for the specified catalogs. You can choose specific catalogs by selecting the catalog from the 'Select Catalogs' drop-down list.
+1. You can choose specific catalogs by enabling the check box. Transcript is only downloaded for the specified catalogs. You can choose specific catalogs by selecting the catalog from the 'Select Catalogs' drop-down list.
 
-![](assets/select-catalogs-lt.png)
+   ![](assets/select-catalogs-lt.png)
 
-8. When exporting Learner Transcripts, there is an option, **Enrollment Status**. This drop-down contains the following options:
+1. When exporting Learner Transcripts, there is an option, **Enrollment Status**. This drop-down contains the following options:
 
-* Select All
-* Completed
-* In Progress
-* Not Started
-* Unenrolled
+   * Select All
+   * Completed
+   * In Progress
+   * Not Started
+   * Unenrolled
 
-![](assets/add-enrollment-status-lt.png)
+   ![](assets/add-enrollment-status-lt.png)
 
-9.  You can also download transcripts for learners who have been deleted from an account.
+1. You can also download transcripts for learners who have been deleted from an account.
 
-To download Learner Transcripts of deleted users, click the **Advanced Options** arrow, and enable the check-box **Include data of Deleted Learners**.
+   To download Learner Transcripts of deleted users, click the **Advanced Options** arrow, and enable the check-box **Include data of Deleted Learners**.
 
-![](assets/data-deleted-learners.png)
+   ![](assets/data-deleted-learners.png)
 
-10. You can choose to download module level information in the Learner transcript by enabling the "**Enable module level information**" check-box. In this case module names and the time spent on each module is fetched as a part of the transcript if this option is enabled.
+1. You can choose to download module level information in the Learner transcript by enabling the "**Enable module level information**" check-box. In this case module names and the time spent on each module is fetched as a part of the transcript if this option is enabled.
+1. You can choose to download skills data and summary sheets by enabling the option "**Include skills data and summary sheets**" check-box.
 
-11. You can choose to download skills data and summary sheets by enabling the option "**Include skills data and summary sheets**" check-box.
+   Transcripts are generated and downloaded to your computer as .csv files when the skills data is not included. If the Skills data checkbox is enabled transcripts are generated and downloaded .xls files.
 
-Transcripts are generated and downloaded to your computer as .csv files when the skills data is not included. If the Skills data checkbox is enabled transcripts are generated and downloaded .xls files.
-
-# Generate Learner transcript using copy-paste
+## Generate Learner transcript using copy-paste
 
 Fetching Learner transcripts becomes a tedious process as it can be obtained only for a learner or user group one at a time. Here, with the copy-paste feature you can copy the list of Learner email ids and paste it at once. 
 
-1. Log in as an **Administrator **or **Manager**.  
-
-1. Go to **Reports **under **Manage**, it loads the **User Activity** page.  
-
+1. Log in as an **Administrator** or **Manager**.  
+1. Go to **Reports** under **Manage**, it loads the **User Activity** page.  
 1. Click **Custom Reports** in the left pane and select **Learner Transcripts** from the list.  
-
 1. On the **Learner Transcripts** page, click **Generate New** button in the upper-left corner.  
-
 1. Select the preferred dates by clicking from **Select date range** drop-down. Click **Email IDs** tab to enter the copied list of unique email ids.
 
    ![](assets/cp-copy-paste-feature.png)
@@ -84,17 +81,17 @@ Fetching Learner transcripts becomes a tedious process as it can be obtained onl
 
    In case the entered email id is incorrect, it would be highlighted in red along with a validation message as above.
 
-   **Generate **Button will not be available unless all the email IDs entered are correct.
+   **Generate** Button will not be available unless all the email IDs entered are correct.
 
    ![](assets/cp-copy-paste-generate.png)
 
-1. Click **Generate **button to generate Learner Transcripts for all the mentioned email ids. You will receive a confirmation message as below stating report generation.
+1. Click **Generate** button to generate Learner Transcripts for all the mentioned email ids. You will receive a confirmation message as below stating report generation.
 
    ![](assets/cp-copy-paste-gmessage.png)
 
-   Generating Learner Transcripts can be combined for Email IDs entered under both **Users **and **Email IDs** tab.
+   Generating Learner Transcripts can be combined for Email IDs entered under both **Users** and **Email IDs** tab.
 
-# History of Learner Transcript downloads {#ltdownload}
+## History of Learner Transcript downloads {#ltdownload}
 
 On the **Learner Transcript** download page, to generate  a report, when you click the **Generate New** button, the Learner Transcripts dialog displays.
 
@@ -118,7 +115,6 @@ The download list displays the following attributes:
 * **Additional Data Included:** Depends on the additional data admin wants to download from the Advanced option in the Add learner transcript modal
 * **Status:** Downloaded, queued, or in progress.
 * **From** and **To**: Duration of the transcripts to be downloaded.
-
 * **Filters Applied:** Whether you'd applied the filters for Enrollment Status.
 * **Generated by:** The user id of the Prime user who has requested the download.
 * **Status:** Downloaded, queued, or in progress.
@@ -137,17 +133,17 @@ After enabling the option and clicking **Generate**, the deleted learners' data 
 
 ![](assets/deleted-learnersondownloadpage.png) 
 
-# Customize columns {#customize-columns-lt}
+## Customize columns {#customize-columns-lt}
 
 An Administrator can customize the columns exported in a Learner Transcript report. Admins, Custom Admins, and Managers can configure the columns before exporting the report. 
 
-On the **Learner Transcripts** dialog, click **Advanced Options**. In the **Configure Export Format **section, choose the columns that you want to export.
+On the **Learner Transcripts** dialog, click **Advanced Options**. In the **Configure Export Format** section, choose the columns that you want to export.
 
 ![](assets/image024.png)
 
 Customization is allowed only when a user downloads the Learner Transcript in .CSV format. When downloaded in .XLSX format, the column preference selection will not be honored and all the default columns will be exported.
 
-# Learner transcript file content {#learnertranscriptfilecontent}
+## Learner transcript file content {#learnertranscriptfilecontent}
 
 A typical learner transcript file consists of six excel sheets in a single file. The learner transcript sheets give an overall insight into data including the number of learners involved per course, their skills, the completion percentage based on course or learner, and a compliance dashboard. The following are the dashboards available in learner transcripts:
 
@@ -218,4 +214,3 @@ The Learner Transcript also displays the columns-** Module Duration** and **ID**
 | Embedded Path | These rows will show the name of the embedded Learning Program.   |
 | Embedded Path ID |These rows will show the ids of the embedded Learning Program   |
 | Embedded Path Language |These rows will display the language in which the Learning Program was created.  |
-

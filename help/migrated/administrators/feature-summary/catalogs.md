@@ -13,7 +13,7 @@ Catalogs are a collection of learning - Courses, Learning Programs, and Certific
 
 As an administrator, you can create custom catalogs, if you want to make selective courses available for different learners in your account or across accounts.
 
-# Create a catalog {#createacatalog}
+## Create a catalog {#createacatalog}
 
 To create a catalog, perform the following steps:
 
@@ -23,7 +23,7 @@ To create a catalog, perform the following steps:
 
    ![](assets/create-catalog.png)
 
-   To proceed, click **Next**.
+1. To proceed, click **Next**.
 
    The thumbnails can only be viewed in the Immersive UI, not in the Classic UI.
 
@@ -75,15 +75,15 @@ To create a catalog, perform the following steps:
 
 The content appears in each of these tabs if it is already available in the account. Otherwise, you need to create the content first. For example, if you have not added any of the courses or learning programs already in Learning Manager application, then you have to start creating them first. 
 
-# Deep link to catalog for learners {#deep-link}
+## Deep link to catalog for learners {#deep-link}
 
 An Admin can generate a deep link for a catalog that can take the learners to the specific catalog page.
 
-On the **Catalogs **page, mouse over on the catalog that you the deep link for and click the highlighted icon.
+On the **Catalogs** page, mouse over on the catalog that you the deep link for and click the highlighted icon.
 
 ![](assets/catalog-deep-link.png) 
 
-# Enable the catalog {#enablethecatalog}
+## Enable the catalog {#enablethecatalog}
 
 Once you create a catalog and add Learning Objects to it, to make the catalog visible to learners, you must enable the catalog.
 
@@ -93,7 +93,7 @@ To enable the catalog,
 
 1. You can also enable multiple catalogs in the list. Select the catalogs, and from the **Action** menu, choose the option **Enable**.
 
-# Disable the catalog {#disablethecatalog}
+## Disable the catalog {#disablethecatalog}
 
 To disable a catalog, toggle off the option near the catalog.
 
@@ -101,19 +101,19 @@ Alternatively, you can select the check-box near the catalog, click Actions on t
 
 You can also disable multiple catalogs in the list. Select the catalogs, and from the Action menu, choose the option **Disable**.
 
-# Delete the catalog {#deletethecatalog}
+## Delete the catalog {#deletethecatalog}
 
 To delete a catalog, select a catalog in the list. Either click the Delete button near the catalog or click **Actions > Delete**.
 
 You can also delete multiple catalogs.
 
-# Share the catalog {#shared}
+## Share the catalog {#shared}
 
 An Administrator can share the catalogs with internal users of an organization or with any external users. However, sharing is exclusive. In other words, an internally shared catalog cannot be shared with external groups and vice versa.
 
 Courses, Learning programs, Job Aids, and certifications are the supported learning objects in a catalog that you want to share.
 
-## Share the catalog internally {#int}
+### Share the catalog internally {#int}
 
 Choose a catalog that you want to share internally. 
 
@@ -127,7 +127,7 @@ To add an internal user group, click **Add User Groups**.
 
 There is no option available to enable/disable a shared user group. To disable, you have to delete the user group. To delete, hover the mouse over the triple dots and click delete icon. Alternatively, click Actions drop-down at the upper-right corner of the page and click Delete. 
 
-## Share the catalog externally {#ext}
+### Share the catalog externally {#ext}
 
 In Catalogs page, click the catalog you want to share. In the left panel click **Share Externally**.
 
@@ -141,7 +141,7 @@ You can set the limit for number of enrollments per course on the shared catalog
 
 **Expiry**
 
-You can set the validity of the shared catalog by setting up an expiry date in **Expiry **field. After the expiry date of shared catalog, enrollments are not allowed for courses. Existing learners can still have access to the content. Learning objects are retired but the badges and skills are active. At this state, the shared catalog receiver cannot un-retire the retired learning objects. 
+You can set the validity of the shared catalog by setting up an expiry date in **Expiry** field. After the expiry date of shared catalog, enrollments are not allowed for courses. Existing learners can still have access to the content. Learning objects are retired but the badges and skills are active. At this state, the shared catalog receiver cannot un-retire the retired learning objects. 
 
 Click **Save** after adding all the required information. Click **Actions** drop-down at the upper-right corner of the page and click **Share** to share the catalog with external accounts. 
 
@@ -155,7 +155,7 @@ The learning objects with open/active state for enrollment are only added to sha
 
 **Unshare catalogs**
 
-Unsharing a catalog is to disable an external account in the application. To unshare a catalog, click **Actions **at the upper-right corner of the page and click **Unshare**. You can Unshare a catalog anytime. When a catalog is unshared, all the learning objects in that shared catalog moves into retired state. The disabled catalogs appear as retired in receiver's application. 
+Unsharing a catalog is to disable an external account in the application. To unshare a catalog, click **Actions** at the upper-right corner of the page and click **Unshare**. You can Unshare a catalog anytime. When a catalog is unshared, all the learning objects in that shared catalog moves into retired state. The disabled catalogs appear as retired in receiver's application. 
 
 You can remove an external account from a shared list only before the receiver accepts the request. 
 
@@ -167,13 +167,13 @@ To delete a shared catalog, click **Actions** drop-down and click **Delete**.
 * You cannot delete a catalog that has been shared externally by you. 
 * You cannot delete a catalog which was shared to you from other accounts. 
 
-# Enable full control of shared catalog {#enablefullcontrolofsharedcatalog}
+## Enable full control of shared catalog {#enablefullcontrolofsharedcatalog}
 
 You can grant full access to your catalog to external accounts. The administrator of the account can then accept the catalog and can accordingly add or delete learning(s) or modules.
 
 For more information, see [Full control of shared catalog](shared-catalog-full-control.md).
 
-## Shared catalog learning objects properties {#sharedcataloglearningobjectsproperties}
+### Shared catalog learning objects properties {#sharedcataloglearningobjectsproperties}
 
 Any modifications performed for learning objects at the owner application are carried forward to the shared catalog receiver. A list of learning object properties that reflect in the receiver application are shown as follows: 
 
@@ -210,7 +210,7 @@ Any modifications performed for learning objects at the owner application are ca
  </tbody>
 </table>
 
-## Shared catalog features in receiver application {#sharedcatalogfeaturesinreceiverapplication}
+### Shared catalog features in receiver application {#sharedcatalogfeaturesinreceiverapplication}
 
 * Learning objects from shared catalog appear in Author and Admin application but modules are not listed. They are hidden. 
 * Shared Learning objects can be used for all workflows in receiver's account. For example, adding shared course to Learning programs, certifications, catalogs, but those Learning programs, certifications & catalogs cannot be shared again (as they already have a shared Learning object from another account).
@@ -227,7 +227,7 @@ Any modifications performed for learning objects at the owner application are ca
 
 Recurring certifications cannot be part of an externally shared catalog. Receiver cannot use acquired learning objects in recurring certifications if they have enrollment limit or expiry date set on the catalog. 
 
-## Propagation of shared catalog features {#propagation}
+### Propagation of shared catalog features {#propagation}
 
 Administrators across the accounts in an organization can share the catalogs to multiple accounts. The receivers of the shared catalogs can acquire the learning objects associated with the shared catalogs. In addition to this feature, from November 2016 release of Learning Manager, the receivers can acquire the properties of learning objects shared through the Catalogs. 
 
@@ -244,7 +244,7 @@ The learning objects that are supported as part of this propagation feature are 
 
 If the receivers of shared catalogs modify any of the received learning object fields in Learning Manager application, then further propagation of updates to those fields do not take place for such learning objects. For example, if the receiver edits the course fields such as Course Name or Short Description, then propagation does not occur when owner changes these fields. In other words, such edited learning object fields become local to receiver's Learning Manager account. 
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 +++How to add courses, LP,  and, Certifications to a Catalog?
 
@@ -302,4 +302,3 @@ Once you have created catalog labels, you can apply them to specific catalogs by
 Disable the default catalog and enable only the catalog that was created and granted access to external users.
 
 +++
-
