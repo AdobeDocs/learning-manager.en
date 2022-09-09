@@ -8,10 +8,6 @@ contentowner: dvenkate
 
 # Purge users {#purge-users}
 
-Know more about purging user data in Learning Manager.
-
-# Overview {#overview}
-
 Use the purge user feature to remove personal identifiable information and learning records of the user from Learning Manager. Note that Delete and Purge User are two different features. While a deleted user can be restored, all user data and learning records associated with a purged user cannot be restored.
 
 Purge user action can have the following results:
@@ -40,7 +36,7 @@ To purge users, follow these steps:
 
 1. Once you confirm and click Purge, the purge request is accepted. You receive a notification once the action is complete. A purge request ID is also provided. You can provide this ID to the CSM to track the request.
 
-# Bulk purge of users
+## Bulk purge of users
 
 You can select the first 50 users and purge the users in one shot. This allows Administrators to select 50 users at once and purge them together. This helps Administrators when they wish to purge users in bulk. It's always a best practice to check the users who are selected for purging. This is important to ensure only the correct set of users are getting purged. 
 
@@ -67,7 +63,7 @@ You can select the first 50 users and purge the users in one shot. This allows A
    <td>No</td> 
   </tr> 
   <tr> 
-   <td>Delete User’s email from all the other fields of the requesting Enterprise account and All Trial Accounts.</td> 
+   <td>Delete User's email from all the other fields of the requesting Enterprise account and All Trial Accounts.</td> 
    <td>Yes</td> 
   </tr> 
   <tr> 
@@ -91,7 +87,7 @@ You can select the first 50 users and purge the users in one shot. This allows A
    <td>No</td> 
   </tr> 
   <tr> 
-   <td>Delete User’s email from all the other fields of the All Trial Accounts.</td> 
+   <td>Delete User's email from all the other fields of the All Trial Accounts.</td> 
    <td>Yes</td> 
   </tr> 
   <tr> 
@@ -163,9 +159,9 @@ You can select the first 50 users and purge the users in one shot. This allows A
 
 +++
 
-Prime is now GDPR compliant. For more information on GDPR compliance, see  [Learning Manager compliance to GDPR.](../../kb/prime-gdpr.md)
+Learning Manager is now GDPR compliant. For more information on GDPR compliance, see  [Learning Manager compliance to GDPR.](../../kb/prime-gdpr.md)
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 **1. How many days does it take for a purge request to complete?**
 

@@ -1,9 +1,9 @@
 ---
 jcr-language: en_us
 title: Catalog labels
+description: Catalog labels allow you to tag learning objects with specific fields and apply one or multiple values. If enabled, Administrators and Authors can set Catalog Labels and values and link them to learning objects.
 contentowner: dvenkate
 ---
-
 
 # Catalog labels {#catalog-labels}
 

@@ -12,7 +12,7 @@ Learn about the Learning Manager account settings that you can configure as an a
 
 You can change your Administrator profile settings and update your Account settings. View your profile information, add/change profile photo, and modify **About me** content. Update your company info, set up log in methods for users, and set up connect integration through account settings.
 
-# Account settings {#accountsettings}
+## Account settings {#accountsettings}
 
 To update your organization's account settings, click **Settings **on the left pane. 
 
@@ -32,7 +32,9 @@ Add additional email-ids with semi-colon as a separator.
 
 * **External users:** For external users, you can set Adobe ID or Single Sign-On or Learning Manager ID.** **If you choose, Learning Manager ID, external users can log into this account after creating their Learning Manager username and password.
 
-**Note:** If there are multiple external profiles set, all profiles can have any one type of login. For example, if login type is Adobe ID, all profiles have to login using Adobe ID only. Each profile cannot have its individual login type.
+>[!NOTE]
+>
+>If there are multiple external profiles set, all profiles can have any one type of login. For example, if login type is Adobe ID, all profiles have to login using Adobe ID only. Each profile cannot have its individual login type.
 
 You can access Learning Manager application using Adobe ID or by using Single Sign-On. Single sign‑on is a mechanism that allows a user to authenticate once and gain access to multiple applications many number of times. This configuration is not mandatory for the organization. If your organization has SAML 2.0 based SSO provider, you can use it to configure Learning Manager application. The configuration is required at your organization level and at Learning Manager application. If you choose to use SSO, contact Adobe support to receive configuration instructions
 
@@ -42,9 +44,9 @@ Click **Feedback** on the left pane to set up the questionnaire to get feedback 
 
 **Multi attempts**
 
-Select **Settings** > **General** > **Multiple Attempts. **
+Select **Settings** > **General** > **Multiple Attempts**.
 
-If you enable the ‘Multi Attempts’ check box, then the Authors can set ‘Multiple attempts’ for interactive e-learning courses or modules .On selecting the second checkbox, administrators can set ‘Infinite attempts’ by default for any newly created interactive e-learning courses.
+If you enable the 'Multi Attempts' check box, then the Authors can set 'Multiple attempts' for interactive e-learning courses or modules .On selecting the second checkbox, administrators can set 'Infinite attempts' by default for any newly created interactive e-learning courses.
 
 ![](assets/admin-config.png)
 
@@ -64,7 +66,7 @@ From the left pane, click Learner Dashboard. This page allows you to choose the 
 
 Click **Adobe Connect** on the left pane to configure Adobe Connect account to host virtual classroom sessions. For more information, refer to  [Adobe Connect](adobeconnect-integration.md) feature help. 
 
-# General settings {#general}
+## General settings {#general}
 
 Enable or disable the following settings:
 
@@ -391,9 +393,9 @@ Enable or disable the following settings:
 
 ## AI-based recommendation
 
-Learning Manager includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner’s preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.
+Learning Manager includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner's preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.
 
-The recommendation algorithm is designed to take in multiple sources of input including Industry data on Job roles, titles and descriptions that Adobe has sourced from its partners. This data is then used to train Adobe’s AI algorithms so that Learning Manager can come up with a map that connects industry aligned skills to job titles and/or designations. This then becomes one input to the recommendation algorithm
+The recommendation algorithm is designed to take in multiple sources of input including Industry data on Job roles, titles and descriptions that Adobe has sourced from its partners. This data is then used to train Adobe's AI algorithms so that Learning Manager can come up with a map that connects industry aligned skills to job titles and/or designations. This then becomes one input to the recommendation algorithm
 
 Learning Manager then uses topic modeling algorithms to analyze the training content within an account and map them to the skills.
 
@@ -403,7 +405,7 @@ Additionally, Learning Manager uses explicit and implicit information gathered f
 
 Finally, the Admin will also be able to influence the recommendation algorithm using learner attributes that Learning Manager should look at when defining peer groups, and also by actually highlighting Trainings for specific user groups.  
 
-# Renaming Learning objects {#renaminglearningobjects}
+## Renaming Learning objects {#renaminglearningobjects}
 
 This feature is only available in  English  language.
 
@@ -438,7 +440,7 @@ To rename the terminologies, follow these steps.
 
    ![](assets/product-terminology.png)
 
-1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL Download here]**option.
+1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL Download here]** option.
 1. The downloaded CSV file contains the name of the objects in  coloum  A. In  coloumn  B, choose the name you want to assign to the respective object. Note that you need to update the singular and plural form of the name separated by a (|).
 1. You can choose to modify one or more rows. You can either retain the non-modified rows or remove them from the CSV file before uploading them.
 1. Upload the modified CSV file and click **[!UICONTROL Save]**. Learning Manager refreshes reflecting your changes.
@@ -446,14 +448,14 @@ To rename the terminologies, follow these steps.
 
    ![](assets/with-reset-option.png)
 
-# Profile settings {#profilesettings}
+## Profile settings {#profilesettings}
 
 1. Click the drop-down arrow at the upper-right corner, adjacent to your photo/account and choose **Profile Settings**.
 1. From the pop-up dialog, you can add/change a photo by hovering the mouse and by clicking **Edit** in the profile photo area.
 1. Add/modify **About** content by clicking **Edit** adjacent to it. 
 1. Click **Save.**
 
-# Content Folder {#content-folder}
+## Content Folder {#content-folder}
 
 Learning Manager supports private content folders. An Administrator can configure private content folders and provide its access to specific custom-authors using Custom Roles. Note that Standard Authors (also called as Full Authors) continue to have access to all the content in the account. Hence Full Authors have access to all folders and all the content. 
 
@@ -498,9 +500,11 @@ To add a folder, click **Add **on the upper-right corner of the window.
 
 You can also delete a folder. Select the folder to delete, click the Actions menu, and click **Delete Folder**.
 
-**NOTE:** Folders can be deleted when all of its associated content is also associated with other folders. If there is content that is linked with only the folder being deleted, first move the content to another folder, and then delete the folder.
+>[!NOTE]
+>
+>Folders can be deleted when all of its associated content is also associated with other folders. If there is content that is linked with only the folder being deleted, first move the content to another folder, and then delete the folder.
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 **1. How to create different folders for content library?**
 

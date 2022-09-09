@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Custom roles
+description: The Learning Paths feature helps you define custom roles and assign specific responsibilities to  set  of users. This feature enables you to assign responsibilities outside the purview of the individual's existing role.
 contentowner: dvenkate
 ---
 
@@ -9,11 +10,11 @@ contentowner: dvenkate
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-This feature helps you define custom roles and assign specific responsibilities to  set  of users. This feature enables you to assign responsibilities outside the purview of the individual’s existing role.
+This feature helps you define custom roles and assign specific responsibilities to  set  of users. This feature enables you to assign responsibilities outside the purview of the individual's existing role.
 
 You can create a custom role to provide authoring capabilities limited to a particular catalog. You can also create a role dedicated to   manage    reporting . Such roles can then be assigned to individuals who are supposed to take up these specific responsibilities.
 
-# Create a custom role {#create-role}
+## Create a custom role {#create-role}
 
 1. Log in as an Administrator. Open **Users > Custom Role**.
 1. Select  Create  Role. The Create New Role tab opens.
@@ -67,43 +68,37 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    To grant various permissions to the catalogs, follow the steps below:
 
-   1. 
-   1. 
-   1. 
-   1.
+   1. Click the option **Set access per Catalog**.
 
-   Click the option **Set access per Catalog**.
+      Choose the catalogs and you can see the level of permission for each catalog. The permissions are as follows:
 
-   Choose the catalogs and you can see the level of permission for each catalog. The permissions are as follows:
+      <table> 
+      <tbody>
+      <tr> 
+         <td><p>Permission</p></td> 
+         <td><p>Description</p></td> 
+      </tr> 
+      <tr> 
+         <td><p>Full Control</p></td> 
+         <td><p>Grants Full Control on all Learning Objects. Permissions include Add, Edit, Delete, Read, Enroll, and Report.<br> </p></td> 
+      </tr> 
+      <tr> 
+         <td><p>Report</p></td> 
+         <td><p>Grants access to the Reports tab only of the Learning Object.</p></td> 
+      </tr> 
+      <tr> 
+         <td><p>Enroll</p></td> 
+         <td><p>Grants permission to only enroll for the Learning Object.</p></td> 
+      </tr> 
+      <tr> 
+         <td><p>Read Only</p></td> 
+         <td><p>Grants permission to only view the Learning Objects in the Catalog.</p></td> 
+      </tr> 
+      </tbody>
+      </table>
 
-   <table> 
-    <tbody>
-     <tr> 
-      <td><p>Permission</p></td> 
-      <td><p>Description</p></td> 
-     </tr> 
-     <tr> 
-      <td><p>Full Control</p></td> 
-      <td><p>Grants Full Control on all Learning Objects. Permissions include Add, Edit, Delete, Read, Enroll, and Report.<br> </p></td> 
-     </tr> 
-     <tr> 
-      <td><p>Report</p></td> 
-      <td><p>Grants access to the Reports tab only of the Learning Object.</p></td> 
-     </tr> 
-     <tr> 
-      <td><p>Enroll</p></td> 
-      <td><p>Grants permission to only enroll for the Learning Object.</p></td> 
-     </tr> 
-     <tr> 
-      <td><p>Read Only</p></td> 
-      <td><p>Grants permission to only view the Learning Objects in the Catalog.</p></td> 
-     </tr> 
-    </tbody>
-   </table>
-
-   Enable or disable the permissions according to your requirements.
-
-   To save the changes, click **OK**. Then, to save the changes for the Custom Role, click **Save**.
+   1. Enable or disable the permissions according to your requirements.
+   1. To save the changes, click **OK**. Then, to save the changes for the Custom Role, click **Save**.
 
    For example, consider the following scenario.
 
@@ -169,10 +164,6 @@ You can create a custom role to provide authoring capabilities limited to a part
     </tbody> 
    </table>
 
-1. 
-1. 
-1. 
-1. 
 1. **Users:** Use this option to determine which users are assigned this role. You can choose one or more users using the search box.
 
    **Add users to custom role CSV upload:** To add users via CSV updalod, add a CustomRole column to the .csv file that the Administrator used to import users. Enter the role of the user under the CustomRole coloumn for the users to whom you wish to assign a cusrom role. To upload the CSV file, click  **[!UICONTROL Add > Upload a CSV]**.
@@ -188,7 +179,7 @@ You can create a custom role to provide authoring capabilities limited to a part
 * A custom admin having permission to  Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
 * If a custom admin has permission on the Users entity, they can assign Admin role to themselves and become a standard Admin.
 
-# Restrict folder access for custom authors {#folder-custom-author}
+## Restrict folder access for custom authors {#folder-custom-author}
 
 Learning Manager already supports an ability to give access to content Library using custom roles. All custom authors who already have access to the content library, will continue to have access to all content files even after content folders are configured. This is to maintain the legacy behavior. Administrators need not make any changes in case they wish to continue to current behavior.  
 
@@ -204,7 +195,7 @@ After you click the option, a new dialog opens, where you can assign the folders
 
 Choose the folders and click **OK**. 
 
-# Learning Summary Dashboard for Custom Admin {#custom-admin-dashboard}
+## Learning Summary Dashboard for Custom Admin {#custom-admin-dashboard}
 
 Custom admins can see the same view as what an Admin sees. A custom admin may data outside his scope. This is only applicable if the custom admin has full scope. To grant full scope, while creating a custom admin, enable the option **Full Control** in Account Summary Report.
 
@@ -214,7 +205,7 @@ As a result, the options, **All Catalogs** and **All User Groups** will get sele
 
 ![](assets/scope-of-featureprivileges.png) 
 
-# Implicit permissions {#implicitpermissions}
+## Implicit permissions {#implicitpermissions}
 
 When a user is given a role with a specific entity, there might be cases where they need access to other entities as well to be able to perform tasks on the granted entity. For Instance, if a user is given Create access on Course entity, they need access to Skill and Tag entities so that they can associate them with the course being created.  This tables  gives you information  of  such implicit permissions.
 
@@ -307,7 +298,7 @@ When a user is given a role with a specific entity, there might be cases where t
  </tbody> 
 </table>
 
-# Access a custom role {#accessacustomrole}
+## Access a custom role {#accessacustomrole}
 
 When an Administrator assigns a custom role, you receive an email notification. 
 
@@ -315,7 +306,7 @@ Note: If you are already logged in to Prime under a custom role, you would requi
 
 To switch between roles, click your profile icon on the upper-right corner of Prime and select the role.
 
-# Learning plans scoped by configurable roles {#scopeconfigure}
+## Learning plans scoped by configurable roles {#scopeconfigure}
 
 In earlier versions of Learning Manager, any Custom Role with permission to create learning plans could scope the learning plan for all types of user groups and Learning Objects.
 
@@ -345,9 +336,9 @@ The user now logs in to Learning Manager as Custom Admin and now adds a Learning
 
 When a new learner is added, the Custom Admin can select a training from the configurable role's scoped catalogs only.
 
-This learning plan is now applicable to the learner only if the user is also added to the group within the learning plan’s scoped user group. All other learners get exempted from this learning plan.
+This learning plan is now applicable to the learner only if the user is also added to the group within the learning plan's scoped user group. All other learners get exempted from this learning plan.
 
-## Learner gets added to the group {#learnergetsaddedtothegroup}
+### Learner gets added to the group {#learnergetsaddedtothegroup}
 
 ![](assets/add-learner-to-thegroup.png)
 
@@ -355,7 +346,7 @@ The custom admin can select any user group that has users from within the role's
 
 When a user is added to the specified group, only users that are already part of the learning plan's scoped user group and got added to the specified user group will be assigned the Learning Object.
 
-## Change in scope {#changeinscope}
+### Change in scope {#changeinscope}
 
 When the Admin changes the scope of the custom role, the change also cascades to the Custom Admin. When the Custom Admin chooses a Learning Plan that was already scoped by a previous custom role, a message is displayed, as shown below:
 
@@ -369,7 +360,7 @@ Clicking **Refresh Scope** updates the scope. There is a warning message that di
 
 Clicking **Yes** updates the scope.
 
-# Add gamification report to a custom role {#gamification-custom}
+## Add gamification report to a custom role {#gamification-custom}
 
 An administrator can enable gamification reports for a custom user.
 
@@ -389,7 +380,7 @@ If an Administrator changes the level points, the reports show levels according 
 
 Resetting gamification does not reset the level achieved date.
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 **1. How to create a Custom Role?**
 

@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Adobe Connect integration
+description: Administrators of an organization can configure the settings of Learning Manager account to enable Adobe Connect integration.
 contentowner: jayakarr
 ---
 
@@ -9,9 +10,10 @@ contentowner: jayakarr
 
 Administrators of an organization can configure the settings of Learning Manager account to enable Adobe Connect integration.
 
-# Configure Adobe Connect {#configureadobeconnect}
+## Configure Adobe Connect {#configureadobeconnect}
 
-1. In Administrator login, click **Settings** at the left pane to view the basic information about your company. Click **Adobe Connect **on the left pane.   
+1. In Administrator login, click **Settings** at the left pane to view the basic information about your company. Click **Adobe Connect** on the left pane.
+
    ![](assets/left-pane.png)
 
 1. Click **configure Now **link in **Adobe Connect Configuration** section.
@@ -35,7 +37,7 @@ Administrators of an organization can configure the settings of Learning Manager
 
    ![](assets/mail-confirmation.png)
 
-# Add virtual classroom session information {#addvirtualclassroomsessioninformation}
+## Add virtual classroom session information {#addvirtualclassroomsessioninformation}
 
 If the author of a virtual classroom course has not provided the session information, then Administrator can include the session details.
 
@@ -47,7 +49,7 @@ With the integration of Adobe Learning Manager and Adobe Connect for creating vi
 
 You must purchase Adobe Connect separately, apart from Adobe Learning Manager.
 
-# Learners attendance {#learnersattendance}
+## Learners attendance {#learnersattendance}
 
 If the host of Virtual classroom course do not attend the session, then attendance does not register automatically for learners who attended the session. In such scenarios, Administrator can record the attendance manually.
 

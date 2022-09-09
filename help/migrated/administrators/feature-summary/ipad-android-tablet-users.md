@@ -1,25 +1,26 @@
 ---
 jcr-language: en_us
 title: iPad & Android tablet users
+description: Settings for iPad and Android tablet users
 contentowner: manochan
 ---
 
 
 # iPad & Android tablet users {#ipad-android-tablet-users}
 
-In Learning Manager app on iPad or Google Nexus 9 Android tablet, after you log in as a learner, you can see the following **Home **screen:
+In Learning Manager app on iPad or Google Nexus 9 Android tablet, after you log in as a learner, you can see the following **Home** screen:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-To navigate to learning and catalog features, tap the **Menu **drop-down and choose appropriate option.
+To navigate to learning and catalog features, tap the **Menu** drop-down and choose appropriate option.
 
 ![](assets/menu-ipad.png) 
 
-# Access the app off-line {#accesstheappoffline}
+## Access the app off-line {#accesstheappoffline}
 
 You can access the Learning Manager app off-line in iPad and Google Nexus 9 Android tablet. Download and take courses in off-line mode, and synchronize the content back with online app when you connect to the network.
 
-1. Tap **Menu **drop-down at the top and tap **Learning **option. A list of all the available courses is displayed in tiles.
+1. Tap **Menu** drop-down at the top and tap **Learning** option. A list of all the available courses is displayed in tiles.
 
 1. Tap the download icon at the bottom of each learning object tile, to download the learning content.
 
@@ -27,7 +28,7 @@ You can access the Learning Manager app off-line in iPad and Google Nexus 9 Andr
 
 1. When you are online, a prompt appears in a bar at the top of the app to check if you want to synchronize your content online. Tap the red-colored bar if your answer is yes. A green colored bar indicates your content is in sync with the online app.
 
-# Track device storage {#trackdevicestorage}
+## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 
