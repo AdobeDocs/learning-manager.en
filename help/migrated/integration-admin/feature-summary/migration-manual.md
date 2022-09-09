@@ -11,8 +11,6 @@ Learning Manager Learning Programs are renamed to Learning Paths. This change ha
 
 Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
 
-# Overview {#overview}
-
 <table> 
  <tbody>
   <tr> 
@@ -22,7 +20,7 @@ Reference manual for Integration Administrators who want to migrate an existing 
  </tbody>
 </table>
 
-### Usage scenario {#usagescenario}
+## Usage scenario {#usagescenario}
 
 In general, large enterprises have their in-house LMS or any vendor provided legacy Learning Management Systems. LMS consists of your enterprise training content and training data. As an enterprise when you purchase the Learning Manager, you may want to move your existing LMS content and data to Learning Manager so you can leverage the benefits of modern and intuitive LMS without losing any of your organization's legacy data.
 
@@ -30,7 +28,7 @@ Learning Manager provides the necessary tools and specifications so that your or
 
 As of today, the Migration feature in Learning Manager can be accessed by an organization's Administrators by contacting Adobe support team. To enable Migration feature in your account, you can reach out to the Adobe Learning Manager support team.
 
-# Migration process {#apidescription}
+## Migration process {#apidescription}
 
 Pre-requisites for migration, key steps involved in migration process, migration sprints, specifications, data and content migration steps are explained in this section as follows: 
 
@@ -123,7 +121,7 @@ Adobe Systems recommends that you use a set of keywords as tags to identify your
 
 Learning Manager allows you to upload a module without content. Adobe Systems considers it as a contentless module in Learning Manager. In a scenario where you want to migrate some of the legacy data from your existing LMS without the need for any content, you can upload the module_version.csv file without URL reference. 
 
-# CSV specifications and sample CSVs {#csv}
+## CSV specifications and sample CSVs {#csv}
 
 Find below, the standard CSV specifications that you can use to map with your existing LMS migration data. Click  csv -specifications and sample- csvs  to download zip files. The downloaded  csv -specifications.zip contains seven Excel sheet files. These excel sheet files are specifications with descriptions to make you understand how to fill up the .csv files. The corresponding .csv files should contain the data for each field in the prescribed format as explained in these .xlsx files. 
 
@@ -314,13 +312,13 @@ Learning Manager supports date and time values in UTF 8 and 32 bit format only. 
 * certification_commit.csv is dependent on certification.csv and certification_course.csv 
 * certification_enrollment.csv is dependent on certification.csv, certification_course.csv and certification_enrollment.csv
 
-# Migration procedure {#migrationprocedure}
+## Migration procedure {#migrationprocedure}
 
 Before you start with the migration procedure, it is important to note the following points: 
 
 * Only one migration project can be active in an account at any given point in time. Within a project, only one sprint can be active at any given point in time.
 * You cannot undo a Run that is already in migration process. However, you can use the existing delete option within each feature of Learning Manager to undo any data or content migration. 
-* As soon as the migration project starts, it moves into a state of ‘Under Migration’. During migration, no other role other than integration administrator role can log in to Learning Manager. 
+* As soon as the migration project starts, it moves into a state of 'Under Migration'. During migration, no other role other than integration administrator role can log in to Learning Manager. 
 
 ### Creating FTP and Box accounts {#creatingftpandboxaccounts}
 
@@ -398,7 +396,7 @@ Go through the pre-requisites of migration process before you start with the mig
 
    ![](assets/sprint1-filesupload.png)
 
-   Click **Start **at the upper-right corner of the page. You can click **Stop **at any point in time during Sprint migration process to abort the sprint migration. 
+   Click **Start** at the upper-right corner of the page. You can click **Stop** at any point in time during Sprint migration process to abort the sprint migration. 
 
    Migration status is displayed on each of the sprint data items and content. Check the number of success and failed items as part of migration sprint run.
 
@@ -416,11 +414,11 @@ Go through the pre-requisites of migration process before you start with the mig
 
    Before marking the migration project as complete you have to ensure that all the sprints of the project are complete. Once you mark the migration project as complete you cannot go back and create any sprints in that project or make any modifications to that project. You have to create another migration project and add sprints to it.
 
-## Migration verification {#registration}
+### Migration verification {#registration}
 
 After migrating the learning data and content from your organization's legacy LMS, you can verify the imported data and content using various learning object features. For example, you can log in to Learning Manager application as Administrator and verify the availability of imported modules and courses data and content. 
 
-# Retrofitting in migration {#retrofittinginmigration}
+## Retrofitting in migration {#retrofittinginmigration}
 
 This integration feature allows you to retrofit historical data for a learning object from a legacy learning management system to an active course that is created in Learning Manager.
 
@@ -435,11 +433,11 @@ Find below, the standard CSV specifications that you can use to map with your ex
 4-user_course_grades.xlsx-contains descriptions of metadata required for retrofit_user_course_grades.csv file.
 [csv-specifications.zip](/content/dam/help/en/learning-manager/integration-admin/feature-summary/migration-manual/jcr_content/root/content/flex/items/position/position-par/download_section/download-1/CSV-Spec.zip) 
 
-# Troubleshooting migration issues {#troubleshootingmigrationissues}
+## Troubleshooting migration issues {#troubleshootingmigrationissues}
 
 [Click here](../../kb/troubleshooting-migration.md) to learn about the workaround/solution to the problems faced by Integration Administrators while migrating data and content from their existing LMS to Learning Manager application.
 
-# Tips for User Management {#usermanagement}
+## Tips for User Management {#usermanagement}
 
 In this topic, you can find some of the tips for you to understand how users are considered and managed in Learning Manager. These concepts would aid you to manage the users better while using CSV import, Connectors and migration features of Learning Manager. 
 
@@ -475,4 +473,3 @@ For more information on this topic, refer to the following Help content:
 
 * [FAQ on uploading CSVs](https://helpx.adobe.com/captivate-prime/administrators/add-users-in-bulk.html)
 * [Feature Help on adding users](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/add-users-user-groups.html)
-

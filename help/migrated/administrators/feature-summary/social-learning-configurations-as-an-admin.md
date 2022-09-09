@@ -10,28 +10,28 @@ contentowner: kuppan
 
 As an administrator, you can enable, disable, and monitor activities performed in Social Learning. Once the Social Learning feature is enabled, learners can view it and they can start participating in Social Learning.
 
-# Enable and configure settings in social learning {#enableandconfiguresettingsinsociallearning}
+## Enable and configure settings in social learning {#enableandconfiguresettingsinsociallearning}
 
 To enable and configure the Social Learning feature, do the following:
 
 1. Click **Social Learning** from the left navigation panel. You are redirected to the activity page. 
-1. Enable **Social Learning** feature using the** Enable** button in the Activity page if you are turning it on for the first time. Otherwise it can be enabled from the **Settings** page. 
+1. Enable **Social Learning** feature using the **Enable** button in the Activity page if you are turning it on for the first time. Otherwise it can be enabled from the **Settings** page. 
 
    A pop-up dialog box appears like the screenshot below.
 
    ![](assets/artboard-20-2x.png) ![](assets/enable-social-learningforthefirsttime.png) ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)
 
-1. The admin can configure  settings for Social Learning. Settings include types of Content Curations like **Manual-Only Curation** and **No Curation. **Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Learning Manager desktop application.
+1. The admin can configure  settings for Social Learning. Settings include types of Content Curations like **Manual-Only Curation** and **No Curation**. Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Learning Manager desktop application.
 
-# Content curation {#contentcuration}
+## Content curation {#contentcuration}
 
 Since Social Learning is an informal learning, its functionality is similar to other social media platforms. People often find social media distracting because  they frequently consume irrelevant content which affects their productivity. This thought can be catered by content moderation and curation.
 
-**Manual-Only Curation **and **No Curation **are two curation options that can be selected by the admin.
+**Manual-Only Curation** and **No Curation** are two curation options that can be selected by the admin.
 
 **Auto-assisted Manual Curation:** Learning Manager has an artificial intelligence-based auto curation engine that can intelligently find out the essence of the content of any format that can later be served to the desired learners. It can also approve or reject a content from being posted based on its given confidence score.
 
-For example, Adarsh is a learner and he found a blog interesting, so he posts it on Adobe Learning Manager’s Social Learning platform. The post is then fed to the AI-powered Content Curation Engine which predicts the skills present in the content and compares those skills with the associated board skills. If any of the skills match, then the content is posted otherwise it is sent for manual-only curation. 
+For example, Adarsh is a learner and he found a blog interesting, so he posts it on Adobe Learning Manager's Social Learning platform. The post is then fed to the AI-powered Content Curation Engine which predicts the skills present in the content and compares those skills with the associated board skills. If any of the skills match, then the content is posted otherwise it is sent for manual-only curation. 
 
 The minimum confidence score required for posting is 50%. 
 
@@ -68,7 +68,7 @@ Whenever a content gets auto-curated, the user gets a notification that the cont
 
 It is recommended that the Administrator adds SMEs for skills if Manual-Only curation is ON. Administrator can add SMEs by providing SME points in advance to users with expertise in a skill. To know more about how to provide points to  SMEs,  [click here](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
 
-**No Curation:** All learner’s post gets posted automatically without any content moderation.
+**No Curation:** All learner's post gets posted automatically without any content moderation.
 
 ![](assets/artboard-6-2x.png) 
 
@@ -106,7 +106,7 @@ The following are the responsibilities of a Social Board moderator:
 
 * Ability to edit the board name, description, board visibility settings, and other configuration.
 * Ability to delete a post on the board in case the post is not suitable to the audience.
-* Moderator receives ‘Report Abuse’ notifications for the board.
+* Moderator receives 'Report Abuse' notifications for the board.
 * Moderator receives curation requests if no SME is present for the board.
 
 +++
@@ -133,7 +133,7 @@ If it does not reach 50% after one day, then it is sent to the next set of SMEs 
 
 +++
 
-# Scope settings {#scopesettings}
+## Scope settings {#scopesettings}
 
 In Social Learning, a Scope determines the boards you that you see, which controls the visibility of the content. If a user has a  scope, for example, ***Vendor_A***, he/she can only see boards and associated posts that have been created by others belonging to the same scope ***Vendor_A***.
 
@@ -171,7 +171,7 @@ For example, the admin can set the scope to **User Type (Internal/External)** us
 
 After a User Characteristic is selected by the Admin, he or she can limit Social Learning feature to Learners and Learner groups by selecting the check box below the User characteristic field. Click the value field to select the learner or learner groups for whom you want to enable the Social Learning feature. 
 
-By default, the scope is set by the **User Type **that is Internal or external learners.
+By default, the scope is set by the **User Type** that is Internal or external learners.
 
 If the active field does not contain any value, then the **Value** field drop-down list will not be visible to the admin.
 
@@ -179,7 +179,7 @@ If the active field does not contain any value, then the **Value** field drop-do
 
 Users can also post their content by using Adobe Learning Manager desktop application. Depending on whether you are a Mac or Windows user, click the given links to download the desktop application and follow the given steps to install it onto your system. If you are facing any difficulties in installation, [click here](../../kb/troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md).
 
-# Board Creation Permissions {#permission}
+## Board Creation Permissions {#permission}
 
 To restrict the creation of boards by all learners and to moderate the boards effectively, an Administrator can grant permissions to create boards to a select group of users.
 
@@ -197,7 +197,7 @@ Users who share the same scope can only see the board. For users who do not have
 
 For any changes to take effect, wait for 60 minutes.
 
-# Special Users {#privilege}
+## Special Users {#privilege}
 
 An Administrator can grant special privileges to a user group, using which members of the group can participate in all boards. Any restrictions that were set in the Scope Settings section is bypassed by the special user group.
 
@@ -223,7 +223,7 @@ If special users become SMEs by gaining sufficient points, they appear in the **
 
 For any changes to take effect, wait for 60 minutes.
 
-# Customize the social banner {#customize-social-banner}
+## Customize the social banner {#customize-social-banner}
 
 The Administrator can customize the title and the subtitle that appear on the header image on the Social Learning homepage. Whatever the Administrator decides to enter as title and subtitle, the same features on the Learner's social learning homepage.
 
@@ -249,9 +249,9 @@ The Administrator can customize the title and the subtitle that appear on the he
 
    ![](assets/banner-learner.png)
 
-# Trends {#trends}
+## Trends {#trends}
 
-Learner’s social activity trends can be viewed and tracked in the Activity tab in trends section. This data can be viewed for different time periods like last seven days, last month, last three months, and all time.
+Learner's social activity trends can be viewed and tracked in the Activity tab in trends section. This data can be viewed for different time periods like last seven days, last month, last three months, and all time.
 
 Last seven days is the default value in the date filter.
 
@@ -267,7 +267,7 @@ The second visual is a line graph displaying the trend of number of boards or po
 
 ![](assets/trends.png) 
 
-# Skills {#skills}
+## Skills {#skills}
 
 You can view all the skills that have been used in the social activity platform in this section. The admin can use the search field to look for a skill that is not used yet while creating a board and mapping SMEs to it. By performing this, SMEs would get a notification when a board is created using this skill and they can review the post as part of the manual curation workflow. 
 
@@ -317,11 +317,11 @@ The administrator can view the Activity Score, number of posts, boards, users, a
  </tbody>
 </table>
 
-# Skill domain {#skilldomain}
+## Skill domain {#skilldomain}
 
 Based on the skills mostly used by Learning Manager end users, Adobe Learning Manager has categorized a list of 25 skill domains that the auto curation system uses to curate content. The admin must map the configured enterprise skills to the skill domains provided by Prime. The mapping of skills can be done from the admin skill page while creating a skill or by modifying an existing skill. For more information on how to map or add a skill, [click here](skills-levels.md#Createaskillandalevel).
 
-+++List of skill domains that is used by Learning Manager’s curation system
++++List of skill domains that is used by Learning Manager's curation system
 
 1. Accounting
 1. Analytics
@@ -351,9 +351,9 @@ Based on the skills mostly used by Learning Manager end users, Adobe Learning Ma
 
 +++
 
-# Subject Matter Experts (SMEs) {#subjectmatterexpertssmes}
+## Subject Matter Experts (SMEs) {#subjectmatterexpertssmes}
 
-**Subject Matter Experts **are people who have a considerable knowledge and expertise in a skill. An **SME **plays an important role in social learning when the admin has set the curation settings as manual or when the auto-curation method fails to curate the content. Only top three SMEs are displayed in the SMEs column.
+**Subject Matter Experts** are people who have a considerable knowledge and expertise in a skill. An **SME** plays an important role in social learning when the admin has set the curation settings as manual or when the auto-curation method fails to curate the content. Only top three SMEs are displayed in the SMEs column.
 
 ## Requirements to be an SME {#requirementstobeansme}
 
@@ -367,11 +367,11 @@ To add SMEs to a skill, follow the given steps:
 
    ![](assets/add-smes-06.png)
 
-1. Click **Advanced Options **from the pop-up dialog box.
+1. Click **Advanced Options** from the pop-up dialog box.
 
    ![](assets/advanced-optionssmes.png)
 
-1. Search for the user with expertise in the skill. Once the user is found, type the number of points you want to give him or her in the **Add Points **input box. 
+1. Search for the user with expertise in the skill. Once the user is found, type the number of points you want to give him or her in the **Add Points** input box. 
 
    If the user already has points, then the number of new points given to the user is added to the current number of points.
 
@@ -383,9 +383,9 @@ To add SMEs to a skill, follow the given steps:
 
    If the **Enable Minimum SME Points** check box is not selected then the top three users with highest points are considered as the SMEs for that particular skill.
 
-1. Click** Save** button to display the changes that have been made.
+1. Click **Save** button to display the changes that have been made.
 
-# SME point system {#smepointsystem}
+## SME point system {#smepointsystem}
 
 **SMEs are awarded number of points based on the following:**
 
@@ -400,7 +400,7 @@ To add SMEs to a skill, follow the given steps:
 
 * When a post is sent for manual curation because the auto curation is not sure if content is relevant or not, the SME gains 5 points on submission of moderation.
 
-# Download configurations {#downloadconfigurations}
+## Download configurations {#downloadconfigurations}
 
 ![](assets/download-config.png)
 
@@ -410,11 +410,11 @@ For Enterprise Servers, admin can change the location from where learners can do
 
 Enterprise Server URL must be publicly hosted.
 
-# Social activities for Monthly Active Users billing plan {#socialactivitiesformonthlyactiveusersbillingplan}
+## Social activities for Monthly Active Users billing plan {#socialactivitiesformonthlyactiveusersbillingplan}
 
 Every time a user creates a new social board, social post or social comment, it would count as valid activity to be counted against the **Monthly Activation User**(MAU) plan if the account follows the MAU billing model. For more information, refer to [billing management](billing-management.md).
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 **1. How to enable social learning for external learners?**
 

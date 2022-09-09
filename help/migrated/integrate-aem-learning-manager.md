@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Integrate Learning Manager with AEM
+description: Learning Manager is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Prime, so that Prime performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.
 contentowner: saghosh
 ---
 
@@ -9,37 +10,35 @@ contentowner: saghosh
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-# Overview {#overview}
-
 Learning Manager is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Prime, so that Prime performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.
 
 However there are users who store and manage their content on asset management systems. The content then gets repurposed for various other functions.
 
 The various strips present in the learner app can be embedded in the AEM sites. Any learner who signs into the AEM site will see his/her specific training data in these strips.
 
-# Download the content package {#downloadthecontentpackage}
+## Download the content package {#downloadthecontentpackage}
 
 The installer is shipped as an AEM content package. [***Download the package***](https://github.com/adobe/adobe-learning-manager-reference-site).
 
 The content package, is available as a zip file, and** **is compatible with AEM 6.4 and AEM 6.5.
 
-# Install Learning Manager component {#installcaptivateprimecomponent}
+## Install Learning Manager component {#installcaptivateprimecomponent}
 
 Install the Learning Manager content package using the AEM Package Manager:
 
-**Note:** For information on instaling packages, see  [***How to Work With Packages***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>[!NOTE]
+>
+>For information on instaling packages, see  [***How to Work With Packages***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. As AEM Author, open the AEM Package Manager.  
-
 1. Click the button **Upload Package**.  
-
 1. Click **Browse** and upload the content package.
 1. Click **Upload**.
 1. After the package uploads, install the content package by selecting it and clicking **Install**.
 
    ![](assets/install-package.jpg)
 
-# Generate the refresh token {#generatetherefreshtoken}
+## Generate the refresh token {#generatetherefreshtoken}
 
 The AEM Admin requires a refresh token from the Prime account. The Prime Integration Admin will generate the refresh token.
 
@@ -62,27 +61,23 @@ The AEM Admin requires a refresh token from the Prime account. The Prime Integra
    * Client ID, which is the Application ID.
    * Client secret, which is present in Description.
 
-   1.
-
-   Get the OAuth code. You must use v2 API in the redirect URI.
-
-1. 
+1. Get the OAuth code. You must use v2 API in the redirect URI.
 1. Click **Submit** and get the refresh token.
 
-# Configure the widget in AEM {#configurethewidgetinaem}
+## Configure the widget in AEM {#configurethewidgetinaem}
 
 For widget configuration, the AEM author only requires the refresh token provided by the Prime Integration Admin.
 
 You can also set multiple account configurations in multiple pages.
 
-1. Click Tools -> Cloud Services -> Learning Manager Widget Configuration.
+1. Click **Tools** > **Cloud Services** > **Learning Manager Widget Configuration**.
 1. Click **Create**.
 1. Enter the refresh token here. Set up the other settings.
 1. Hostname should be changed to "captivateprimeeu" for EU regions.
 1. Save and close the configuration.
 1. Select a configuration and publish the configuration.
 
-# AEM Author {#aemauthor}
+## AEM Author {#aemauthor}
 
 The AEM author must first add the component in AEM template
 
@@ -90,7 +85,7 @@ The AEM author then will be able to drag and drop the Adobe Learning Manager com
 
 Learning Manager component requires the configuration created in above step to be mapped to the Page.  Author can map the configuration by Editing Page Properties under **Advanced > Configuration > Cloud Configuration** and provide path of configuration. In this way, Author can create configurations for multiple Learning Manager accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
 
-# Learner {#learner}
+## Learner {#learner}
 
 The learner can take the courses from within the page.
 
@@ -113,15 +108,15 @@ The following widgets are provided:
 
 If there are no recommendations, the widget appears blank.
 
-# Support for Skyline
+## Support for Skyline
 
 Skyline is the cloud version of AEM. You must first install Skyline from the package manager. To use the Skyline component in AEM, a user must be present in the Learning Manager account. In other words, the user's email address must exist in the account.
 
-## Deploy Skyline
+### Deploy Skyline
 
 The steps to configure Skyline are mentioned in the  [GitHub repo](https://github.com/adobe/captivate-prime-aem-components).
 
-# Catalog widget
+## Catalog widget
 
 The Catalog widget displays training from a specific or a set of catalogs to a user. In the Properties section in the page properties, select Catalog from the options listed. 
 

@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Enable full control of shared catalog
+description: Enable full control of shared catalog in Adobe Learning Manager
 contentowner: saghosh
 ---
 
@@ -9,13 +10,13 @@ contentowner: saghosh
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-# Create Catalog {#createcatalog}
+## Create Catalog {#createcatalog}
 
 As an Administrator, you can create a catalog of courses, Learning Programs, Job Aids, and Certifications.
 
 For more information, see [Catalogs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/catalogs.html).
 
-# Share Catalog {#sharecatalog}
+## Share Catalog {#sharecatalog}
 
 You can share the catalogs with internal users of an organization or with any external users. However, the sharing is exclusive. In other words, an internally shared catalog cannot be shared with external groups and vice versa.
 
@@ -23,7 +24,7 @@ Courses, Learning programs, Job-Aids, and certifications are the supported learn
 
 For more information, see [Share Catalogs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/catalogs.html#shared).
 
-# Enable full control of shared catalog {#fullcontrol}
+## Enable full control of shared catalog {#fullcontrol}
 
 You can grant full access to your catalog to external accounts. The administrator of the account can then accept the catalog and can accordingly add or delete learning(s) or modules.
 
@@ -39,7 +40,7 @@ To grant full control to an external account,
 
    See the sections below for more information.
 
-# Administrator of external organization {#administratorofexternalorganization}
+## Administrator of external organization {#administratorofexternalorganization}
 
 Once the Administrator of the previous organization enables full control of the catalog, the Administrator of the external organization accepts the request accepts the catalog and views it.
 
@@ -54,7 +55,7 @@ Once the Administrator of the previous organization enables full control of the 
 
 1. You can modify the name of the catalog and description.
 
-# Share catalog for Learning program, Certification, and Job aids {#sharecatalogforlearningprogramcertificationandjobaids}
+## Share catalog for Learning program, Certification, and Job aids {#sharecatalogforlearningprogramcertificationandjobaids}
 
 Like granting full catalog control for courses, the Administrator can also grant full catalog control for the following:
 
@@ -62,7 +63,7 @@ Like granting full catalog control for courses, the Administrator can also grant
 * Certifications
 * Job Aids
 
-# Reset course {#resetcourse}
+## Reset course {#resetcourse}
 
 1. On the catalog card that has a broken link, click Reset Course.
 
@@ -81,7 +82,7 @@ Like granting full catalog control for courses, the Administrator can also grant
 
    When you view the catalog details, you can see that the catalog is now restored to its original state.
 
-# Re-add a Learning Object {#readdalearningobject}
+## Re-add a Learning Object {#readdalearningobject}
 
 If you have removed a course, learning program, certification, or job aid inadvertantly, you can restore it.
 
@@ -93,7 +94,7 @@ This action reverses the action and restores the Learning Object in the catalog 
 
 After clicking the Re-add button, there is a confirmaton message that the Learning Object has been successfully added to the catalog.
 
-# External organization {#externalorganization}
+## External organization {#externalorganization}
 
 Once the Administrator of the externsal account has accepted the catalog, the author can now add courses and Learning Programs.
 

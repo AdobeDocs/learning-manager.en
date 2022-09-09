@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Application developer manual
+description: Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Learning Manager.
 contentowner: jayakarr
 ---
 
@@ -11,21 +12,19 @@ Learning Manager Learning Programs are renamed to Learning Paths. This change ha
 
 Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Learning Manager.
 
-# Overview {#overview}
-
 [Adobe Learning Manager](http://www.adobe.com/in/products/captivateprime.html) is a cloud-hosted, learner-centric, and self-service learning management solution. Customers can access Learning Manager resources programmatically using the Learning Manager API to integrate it with other enterprise applications. The API can also be used by Adobe partners to enhance the value proposition of Learning Manager, by extending its functionality or by integrating it with other applications or services.
 
-### Usage scenario {#usagescenario}
+## Usage scenario {#usagescenario}
 
 Using Learning Manager API, developers can build self-contained applications that extend the functionality of Learning Manager or integrate Learning Manager with other enterprise applications workflows. You can develop a web application, desktop client or a mobile app using any technology of your choice. As a developer you can access your application data from within Learning Manager. The deployment of the application that you develop is external to the Learning Manager platform and you have full control over the software development lifecycle as the application evolves. Typically, applications are developed by a customer organization for use with their Learning Manager account, and these applications are private to that specific customer organization. Also, Adobe partners can build generic applications with Learning Manager API, that can be used by a large set of Learning Manager customers.
 
-# Learning Manager API {#apidescription}
+## Learning Manager API {#apidescription}
 
 The Learning Manager API is based on principles of REST, and exposes key elements of the Learning Manager Object Model to application developers through HTTP. Before knowing the details of the API endpoints and the HTTP methods, developers can become familiar with the various Learning Manager objects, their attributes and inter-relationships. Once the models are understood, it will be useful to get a basic understanding of the structure of API requests and responses, and a few common programming terms that we use generically across the API.
 
 For details of the various API endpoints and methods, refer to the  [Learning Manager API documentation](https://captivateprime.adobe.com/docs/primeapi/v2/).
 
-## API authentication {#apiauthentication}
+### API authentication {#apiauthentication}
 
 When writing an application that makes API calls to Prime, you have to register your application using the Integration Admin app. 
 
@@ -33,17 +32,21 @@ Learning Manager APIs use OAuth 2.0 framework to authenticate and authorize your
 
 **Procedure**
 
-**1. Set up your application **
+**1. Set up your application**
 
 You can set up your application with client id and client secret to use the proper end points. Once you register your application, you can get the clientId and clientSecret. Get URL should be used in browser as it authenticates the Learning Manager users using their pre-configured accounts such as SSO, Adobe ID, and so on. 
 
+```
 GET https://captivateprime.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE.
+```
 
 After successful authentication, your browser redirects to the redirect_uri mentioned in the above URL. A parameter **code** is appended along with the redirect uri.
 
 **2. Get refresh token from code**
 
+```
 POST https://captivateprime.adobe.com/oauth/token Content-Type: application/x-www-form-urlencoded
+```
 
 Body of the post request:
 
@@ -61,11 +64,13 @@ client_id:
 </enter>
 ```
 
-**3.** **Obtain an access token from refresh token**
+**3. Obtain an access token from refresh token**
 
 URL to obtain access token: 
 
+```
 POST [https://learningmanager.adobe.com/oauth/token/refresh](https://captivateprime.adobe.com/oauth/token/refresh) Content-Type: application/x-www-form-urlencoded
+```
 
 Body of the post request:
 
@@ -86,7 +91,9 @@ client_id:
 
 **URL to verify access token details**
 
+```
 GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_token>
+```
 
 **Usage limitation**
 
@@ -96,7 +103,7 @@ Some of the frequently used terms in Learning Manager API are explained below fo
 
 **Includes**
 
-Developers can access a single API object model and also multiple models associated with that model. To access the subsequent related models, you need to understand the relationship of each model with other models. **Includes **parameter enables developers to access the dependant models. You can use comma separator to access multiple models. For sample usage and more details on **includes**, refer to sample API model section in this page. 
+Developers can access a single API object model and also multiple models associated with that model. To access the subsequent related models, you need to understand the relationship of each model with other models. **Includes** parameter enables developers to access the dependant models. You can use comma separator to access multiple models. For sample usage and more details on **includes**, refer to sample API model section in this page. 
 
 **API request**
 
@@ -104,7 +111,7 @@ The API requests can be made by making a HTTP Request. Depending upon the end po
 
 **API response**
 
-When an API request is made by a client, a SON document is obtained according to the JSON API specification. The response also contains the HTTP Status code, which the developer can verify to perform the appropriate next steps in his application logic. The structure of a typical API Response is described in  [sample model usage](#main-pars_header_1415780624).
+When an API request is made by a client, a SON document is obtained according to the JSON API specification. The response also contains the HTTP Status code, which the developer can verify to perform the appropriate next steps in his application logic. The structure of a typical API Response is described in [sample model usage](#main-pars_header_1415780624).
 
 **Errors**
 
@@ -114,7 +121,7 @@ When an API request fails, an Error response is obtained. The HTTP Status code r
 
 API object's attributes and its relationships are collectively called Fields. Refer to [JSON API for more information.](http://jsonapi.org/format/#document-resource-object-fields) You can use Fields as a parameter while making API calls to fetch one or more speicific attributes from the model. In absence of the Fields parameter, the API call fetches all the available attributes from the model. For example, in the following API call, fields[skill]=name fetches you the name attribute of the skill model alone. 
 
-https://captivateprime.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name 
+`https://captivateprime.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name`
 
 **Pagination**
 
@@ -737,19 +744,19 @@ user(user)
 
 +++
 
-# Application development process {#registration}
+## Application development process {#registration}
 
-## Pre-requisites {#prerequisites}
+### Pre-requisites {#prerequisites}
 
 As a developer you have to create a trial account on Prime, so that you can have full access to all the roles within that account. To be able to write an application, a developer has to create some users and courses and get the account to a reasonable state so that the application being developed can have access to some sample data.
 
-## Create client id and secret {#createclientidandsecret}
+### Create client id and secret {#createclientidandsecret}
 
 1. In Integration Admin login, click **Applications** on the left pane. 
 
    ![](assets/application-development-menu.png)
 
-1. Click **Register **at the upper-right corner of the page to register your application details. Registration page appears. 
+1. Click **Register** at the upper-right corner of the page to register your application details. Registration page appears. 
 
    ![](assets/register-application.png)
 
@@ -759,17 +766,19 @@ As a developer you have to create a trial account on Prime, so that you can have
 
    **URL**: If you know the exact URL where the application is hosted, you can mention it. If you are not aware, then you can mention your company URL. Valid URL name is mandatory in this field. 
 
-   **Redirect Domains**: Enter the domain name of the application where you want the Learning Manager application to redirect after OAuth authentication. You can mention multiple URLs here but you have to use the valid URLs such as http://google.com, http://yahoo.com and so on. 
+   **Redirect Domains**: Enter the domain name of the application where you want the Learning Manager application to redirect after OAuth authentication. You can mention multiple URLs here but you have to use the valid URLs such as `http://google.com`, `http://yahoo.com` and so on. 
 
    **Description:** Enter the brief description for your application. 
 
-   **Scopes:** Choose one of the four available options to define the scope of your application. Based on your choice mentioned here, Learning Manager API endpoint are accessible for your application. For example, If you chose **Learner role read access, **then all the Learning Manager learner API end points are read-only accessible to your application. 
+   **Scopes:** Choose one of the four available options to define the scope of your application. Based on your choice mentioned here, Learning Manager API endpoint are accessible for your application. For example, If you chose **Learner role read access**, then all the Learning Manager learner API end points are read-only accessible to your application. 
 
-   **For this account only?**   
+   **For this account only?** 
+
    **Yes** - if you choose Yes, then the application is not visible to other account administrators.  
-   **No - **if you choose No, other account admins can also access this application but they need to use the application id to access this application. Application id is generated and displayed in Learning Manager application Edit mode. 
+   
+   **No** - if you choose No, other account admins can also access this application but they need to use the application id to access this application. Application id is generated and displayed in Learning Manager application Edit mode. 
 
-   If you choose **Admin role read and write access** as scope while registering the application and choose **Admin role read access **while authoring the APIs, you can still have write access for the application as the app registration scope supersedes the authorization workflow. 
+   If you choose **Admin role read and write access** as scope while registering the application and choose **Admin role read access** while authoring the APIs, you can still have write access for the application as the app registration scope supersedes the authorization workflow. 
 
 1. Click **Register** at the upper-right corner after filling up the details in the registration page.
 
@@ -783,11 +792,11 @@ We recommend that the Learning Manager Administrator or an Integration Administr
 
 ## External application approval {#externalapplicationapproval}
 
-You can add external applications by clicking Approve** **at the upper-right corner of the **Applications **page. Provide the external application id and click **Save.**
+You can add external applications by clicking **Approve** at the upper-right corner of the **Applications** page. Provide the external application id and click **Save.**
 
 ![](assets/add-external-application.png) 
 
-# Frequently Asked Questions
+## Frequently Asked Questions
 
 **1. Does Learning Manager have an E-commerce integration?**
 

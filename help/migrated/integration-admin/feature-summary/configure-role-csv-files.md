@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Manage custom roles via CSV files
+description: The Integration admin can add number of custom roles to his/her account in bulk via CSV as well as can assign the same to various users. This approach automates the process of creation of custom roles.
 contentowner: saghosh
 ---
 
@@ -19,6 +20,7 @@ After you sign in to your Box or ExaVault storage account, the Integration admin
 To get started, download the csvs and change the values according to your requirements.
 
 **role.csv**
+
 [Sample file- role.csv](assets/role.csv) [Sample file- user_role.csv](assets/user-role.csv) 
 
 <table> 
@@ -58,7 +60,7 @@ To get started, download the csvs and change the values according to your requir
 
 All columns except Description are mandatory.
 
-# Define scope of user groups {#definescopeofusergroups}
+## Define scope of user groups {#definescopeofusergroups}
 
 You can specify scopes for user groups for various types of groups in the following ways:
 
@@ -66,8 +68,8 @@ You can specify scopes for user groups for various types of groups in the follow
 * Leaf attribute and value (for example, Department=HR)
 * Self-registration profile groups (self_registration=profilename)
 * External registration profile groups (ext_registration=profilename)
-* A manager's team of direct reportee (manager_direct=<emailid>)
-* A manager's complete org (manager_org=<emailid>)
+* A manager's team of direct reportee (manager_direct=`<emailid>`)
+* A manager's complete org (manager_org=`<emailid>`)
 
 **user_role.csv**
 
@@ -104,16 +106,18 @@ If any Catalog Names or User Group names are provided in the CSV, they are overr
 * Learning Plans
 * Email Templates
 
-# Add the role-CSVs in the account {#addtherolecsvsintheaccount}
+## Add the role-CSVs in the account {#addtherolecsvsintheaccount}
 
 In your Box account, choose **Import > user > internal**, and upload the files- role.csv and user_role.csv.
 
-* The Custom Role CSVs must be copied in the folder “import->user->internal->user_role”
-* The Users CSV must be copied in the folder “import->user->internal”
+* The Custom Role CSVs must be copied in the folder "import->user->internal->user_role"
+* The Users CSV must be copied in the folder "import->user->internal"
 
 Both the CSVs must be uploaded via Box or FTP only and cannot be uploaded through UI. 
 
-**NOTE:** The Users CSV file is mandatory., but the Custom Role CSVs are optional. All the files that are present are processed, and others are skipped.
+>[!NOTE]
+>
+>The Users CSV file is mandatory, but the Custom Role CSVs are optional. All the files that are present are processed, and others are skipped.
 
 The custom roles created using the csv file is not visible to Admins in the UI. These roles will not be related or affected by roles created (or to be created later) by UI.
 
@@ -123,7 +127,7 @@ Assigned roles can be revoked by removing assignment entries from user_role csv.
 
 To assign and revoke a custom role, update the csv files.
 
-# Synchronization of custom roles {#synchronizationofcustomroles}
+## Synchronization of custom roles {#synchronizationofcustomroles}
 
 After the Integration Admin uploads the role-based CSVs in the Connector storage, the Admin can enable synchronization to the CSVs. Each time a custom role is updated, added, or deleted in the CSVs, the Admin can synch the information in the files and make the list of roles current.
 
@@ -137,7 +141,7 @@ When you choose this option, you can schedule the time for synchronization at th
 
 If you want to synchronize the data on demand, click **Sync Now**.
 
-# Constraints while configuring roles {#constraintswhileconfiguringroles}
+## Constraints while configuring roles {#constraintswhileconfiguringroles}
 
 In any account, the name of a Role must be unique. Therefore, a role created via UI or CSV must not have the same name as another role already created by UI or CSV.
 
