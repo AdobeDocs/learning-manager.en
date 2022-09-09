@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: iPad & Android tablet users
+description: iPad and Android tablet users
 contentowner: manochan
+preview: true
 ---
 
 
 # iPad & Android tablet users {#ipad-android-tablet-users}
-
-# iPad & Android tablet users {#ipadampandroidtabletusers}
 
 In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the following Home screen:
 
@@ -26,7 +26,7 @@ You can access the Learning Manager app off-line in iPad and Android tablets. Do
 
 1. When you are online, a prompt appears in a bar at the top of the app to check if you want to synchronize your content online. Tap the red-colored bar if your answer is yes. A green colored bar indicates your content is in sync with the online app.
 
-# Track device storage {#trackdevicestorage}
+## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 

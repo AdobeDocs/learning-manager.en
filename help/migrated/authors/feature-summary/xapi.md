@@ -79,7 +79,6 @@ As an Author you can now choose xAPI module while creating courses to monitor us
 **Points to note:**
 
 * Captivate Prime currently supports  only   mbox  as an identifier. Other identifiers including mboz_sha1,  openid , account are not supported.
-
 * The stateId and profileId is a UUID when used with Prime.
 * PUT request does not overwrite the document for xAPIs agents/profile, activity/profile, and  activity/state
 * Unidentified  group is not supported in Actor.

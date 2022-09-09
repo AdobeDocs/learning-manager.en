@@ -21,9 +21,7 @@ Authors can create Job Aids for learners. Use Job Aids to provide learners with 
 
    Only existing skills can be used for job aids. Skills are not mandatory.
 
-1.
-
-   Upload the job aid content at the content section.
+1. Upload the job aid content at the content section.
 
    Videos, pdf, pptx and docx are the supported file formats for upload. Project zip files or any interactive content is not supported for upload.
 

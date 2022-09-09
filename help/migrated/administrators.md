@@ -1,7 +1,9 @@
 ---
 jcr-language: en_us
 title: Administrators
+description: Read on to know the Learning Manager features and frequently asked questions associated with Administrator role.
 contentowner: manochan
+preview: true
 ---
 
 
@@ -16,15 +18,15 @@ contentowner: manochan
  </tbody>
 </table>
 
-# Best practices guide for Administrators {#bestpracticesguideforadministrators}
+## Best practices guide for Administrators {#bestpracticesguideforadministrators}
 
 [Best practices guide for Administrators to set up and get started with Learning Manager](administrators/getting-started.md)
 
-# Frequently asked questions (FAQ) {#frequentlyaskedquestionsfaq}
+## Frequently asked questions (FAQ) {#frequentlyaskedquestionsfaq}
 
 [Frequently asked questions for Administrator role](administrators/frequently-asked-questions-for-administrators.md)
 
-# Features {#features}
+## Features {#features}
 
 * [Color themes and branding](administrators/feature-summary/themes.md)
 * [Adobe Connect integration](administrators/feature-summary/adobeconnect-integration.md)
@@ -49,6 +51,6 @@ contentowner: manochan
 * [Waitlist and attendance management](administrators/feature-summary/waitlist-attendance-management.md)
 * [Peer accounts](administrators/feature-summary/peer-account.md)
 
-# Technical Reference {#technicalreference}
+## Technical Reference {#technicalreference}
 
-[You can download the Adobe Learning Manager Technical Reference guide here.](assets/technicaloverview.pdf)  
+[You can download the Adobe Learning Manager Technical Reference guide here.](assets/technicaloverview.pdf)

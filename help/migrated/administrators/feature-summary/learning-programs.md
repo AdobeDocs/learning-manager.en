@@ -3,6 +3,7 @@ description: Read this article to learn how to create and manage learning progra
 jcr-language: en_us
 title: Learning Programs
 contentowner: manochan
+preview: true
 ---
 
 
@@ -14,7 +15,7 @@ Read this article to learn how to create and manage learning programs in Learnin
 
 Learning programs are a set of uniquely designed courses meeting specific learner goals. Administrators create these learning programs for learners. You can view these learning programs as a learner.
 
-# Create a learning program {#createalearningprogram}
+## Create a learning program {#createalearningprogram}
 
 Administrators can create learning programs. To create a learning program, follow the steps below:
 
@@ -38,15 +39,15 @@ Administrators can create learning programs. To create a learning program, follo
 1. Click **Back to programs** on top of left pane, to view a list of all the learning programs. You can see your newly added learning program being listed there.
 1. You can publish the learning program by clicking Overview in the left pane and choosing Actions>Publish. You can also publish the learning program through Courses and Instances view by clicking Publish at the upper-right corner of the page.
 
-# Add learners to a learning program {#addlearnerstoalearningprogram}
+## Add learners to a learning program {#addlearnerstoalearningprogram}
 
 For more information on enrolling learners and the steps to follow, see  [Enrolling Learners.](courses.md#main-pars_header_1058138132)
 
-# Enable full catalog control for learning programs {#catalog}
+## Enable full catalog control for learning programs {#catalog}
 
-`Like granting full` [catalog control for learning(s) or modules](shared-catalog-full-control.md) `, you can also enable full catalog control for learning programs.`******`<sub>``<sup>``<strike>`
+Like granting full [catalog control for learning(s) or modules](shared-catalog-full-control.md), you can also enable full catalog control for learning programs.
 
-# Reset course
+## Reset course
 
 An Administrator can reset the progress of a course inside a Learning Program.
 
@@ -60,7 +61,7 @@ Learners can now launch the modules of the selected courses from the start.
 
 **Note: Only failed and incomplete modules of the course will be reset.**
 
-# Create multiple instances of learning programs {#createmultipleinstancesoflearningprograms}
+## Create multiple instances of learning programs {#createmultipleinstancesoflearningprograms}
 
 You can create multiple instances of a course or learning program.
 
@@ -79,7 +80,7 @@ To change instance mapping, click on the course count in the Instance page. A co
 
 ![](assets/change-instance-mapping.jpeg) 
 
-# Create Flexible Learning Programs {#flexible}
+## Create Flexible Learning Programs {#flexible}
 
 Using Flexible Learning programs, learners can take trainings that are not restricted to what the default instance offers. An Admin creates different Instances to accommodate the learners' needs. This type of learning program is typically a classroom or VC session. To ensure that all learners are presented with the opportunity to attend, an Admin may create more than one Instance of a Course session to accommodate different time zones.
 
@@ -92,13 +93,13 @@ An Admin can also map an instance of a Learning program to an instance of a cour
 1. Create instances of the Learning Program.
 1. Enroll the Learners.
 
-# Subscription {#subscription}
+## Subscription {#subscription}
 
 An admin can fetch quiz score and learner status reports. They can set the report frequency, email subject, and recipients email id. Depending on the set frequency, the recipient will get an email with the report attached.
 
 ![](assets/report-subscription.jpeg) 
 
-# View quiz scores {#viewquizscores}
+## View quiz scores {#viewquizscores}
 
 1. Click any learning program tile
 1. Click Quiz Score on the left pane.
@@ -109,17 +110,17 @@ Quiz scores appear for one course at a time. Change the course name from the dro
 
 Choose the instance type from the drop-down list to view the scores based on each instance of the learning program.
 
-# View L1 and L3 feedback {#viewl1andl3feedback}
+## View L1 and L3 feedback {#viewl1andl3feedback}
 
 As an admin, you can enable L1 and L3 feedback for a Learning Program. The L1 feedback given by the learner will be visible under the L1 feedback tab and the L3 feedback given by the manager will be seen under the L3 feedback tab.
 
-# Unenrollment for learners {#unenrollmentforlearners}
+## Unenrollment for learners {#unenrollmentforlearners}
 
 While creating learning programs, Administrator has an option to select whether learners can unenroll themselves from the learning programs. If Administrator selects the option, then learner can unenroll themselves. 
 
 ![](assets/unenrollment.png) 
 
-# Mark completion {#markcompletion}
+## Mark completion {#markcompletion}
 
 Administrators can mark a Learning Program as complete using the option available to them. To mark the completion of Learning Program, use the following steps.
 
@@ -133,19 +134,19 @@ Administrators can mark a Learning Program as complete using the option availabl
 
    If the LP has multiple courses, all the courses will be marked complete.
 
-# Ordering of courses in learning program {#orderingofcoursesinlearningprogram}
+## Ordering of courses in learning program {#orderingofcoursesinlearningprogram}
 
 Administrators can set the order in which learners shall take up the courses in learning program. After creating a learning program you can update this order of courses at any point in time. 
 
 To update the order of courses in a learning program,
 
-1. Click the learning program card of your choice and click **Courses **on the left pane**.** 
+1. Click the learning program card of your choice and click **Courses** on the left pane.
 
-1. A list of course cards associated with the learning program is displayed. Click **Edit **at the upper-right corner of the page. 
+1. A list of course cards associated with the learning program is displayed. Click **Edit** at the upper-right corner of the page. 
 1. You can change the order of the list by clicking and dragging each course card to the appropriate position. 
-1. Click **Republish. **
+1. Click **Republish**.
 
-# Editing a published learning program {#editingapublishedlearningprogram}
+## Editing a published learning program {#editingapublishedlearningprogram}
 
 A learning program can be edited by an Administrator at a published state. At this state, the Administrator can edit all the sections of a learning program and re-publish. 
 

@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Learning Manager Deployment Guide
+description: Learning Manager is a Learning Management System (LMS) that allows training professionals to deliver engaging and trackable learning materials that can contribute to an organization's needs or goals. Learning Manager primarily allows trainers or managers to assign courses and other learning objects, in a specific order, for learners.
 contentowner: shhivkum
 preview: true
 ---
@@ -10,30 +11,28 @@ preview: true
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-# Introduction {#introduction}
+## Introduction {#introduction}
 
-Learning Manager is a Learning Management System (LMS) that allows training professionals to deliver engaging and trackable learning materials that can contribute to an organization’s needs or goals. Learning Manager primarily allows trainers or managers to assign courses and other learning objects, in a specific order, for learners. This tool also offers several powerful features including a multi-format fluidic player, gamification, badges, easy-to-use learner dashboard. However, to leverage all these features, it is essential to first configure and setup Learning Manager.
+Learning Manager is a Learning Management System (LMS) that allows training professionals to deliver engaging and trackable learning materials that can contribute to an organization's needs or goals. Learning Manager primarily allows trainers or managers to assign courses and other learning objects, in a specific order, for learners. This tool also offers several powerful features including a multi-format fluidic player, gamification, badges, easy-to-use learner dashboard. However, to leverage all these features, it is essential to first configure and setup Learning Manager.
 
 This guide provides step-by-step instructions on how to get up and running with Learning Manager. This document also provides the configuration and setup information, in detail. Read on to know how to get started with Learning Manager.
 
-# Who is this guide intended for? {#whoisthisguideintendedfor}
+## Who is this guide intended for? {#whoisthisguideintendedfor}
 
 As a Learning Manager user, you can wear the hat of an administrator, author, instructor, manager, or a learner. This guide is meant for users who are likely to be involved in setting up an LMS for an organization or a client:
 
-* **IT Administrator **-  As an IT Administrator, you might activate or integrate Learning Manager in your organization. An IT Administrator can also add single or multiple users, and can perform the role of an Integration Administrator or an administrator who integrates Learning Manager with third-party applications.
-* **Author - **As a Learning Manager author, you can create learning content that are required for an organization's learning requirements**. **An author is involved in creating the basic content that is uploaded in Learning Manager. 
+* **IT Administrator** -  As an IT Administrator, you might activate or integrate Learning Manager in your organization. An IT Administrator can also add single or multiple users, and can perform the role of an Integration Administrator or an administrator who integrates Learning Manager with third-party applications.
+* **Author** - As a Learning Manager author, you can create learning content that are required for an organization's learning requirements. An author is involved in creating the basic content that is uploaded in Learning Manager. 
 
-* **Learning Manager Administrator **- A Learning Manager Administrator performs the configuration and set-up activities related to the application. In some companies, an IT Administrator may also play the role of a Learning Manager Administrator.
+* **Learning Manager Administrator** - A Learning Manager Administrator performs the configuration and set-up activities related to the application. In some companies, an IT Administrator may also play the role of a Learning Manager Administrator.
 
-# Get started with Learning Manager deployment {#getstartedwithcaptivateprimedeployment}
+## Get started with Learning Manager deployment {#getstartedwithcaptivateprimedeployment}
 
 After you purchase Learning Manager, activate your Learning Manager account using the license key that you received. Proceed on to the following configurations, as indicated in the following visual:
 
- 
-
 ![](assets/getting-started-withcaptivateprime.jpg) 
 
-# Configure your site in Learning Manager {#configureyoursiteincaptivateprime}
+## Configure your site in Learning Manager {#configureyoursiteincaptivateprime}
 
 Before you start adding and implementing learning objects in Learning Manager, there are a few key configurations that are required. Start by configuring your site to suit your organization. Site configuration comprises of the following steps:
 
@@ -43,27 +42,27 @@ Before you start adding and implementing learning objects in Learning Manager, t
 * Configuring feedback settings
 * Configuring learner dashboard settings
 
-## Set up branding and logo {#setupbrandingandlogo}
+### Set up branding and logo {#setupbrandingandlogo}
 
-As the administrator, you can set the branding and themes to match your organization’s branding requirements. To set the branding and themes for your site, do the following:
+As the administrator, you can set the branding and themes to match your organization's branding requirements. To set the branding and themes for your site, do the following:
 
 ### Setting the logo and banner: {#settingthelogoandbanner}
 
-Use the logo and banner settings to display your company’s logo in Learning Manager. Configure the branding options to set the company’s domain in the URL, display the organization name, and display color schemes that match the organization’s brand. To configure the branding settings:
+Use the logo and banner settings to display your company's logo in Learning Manager. Configure the branding options to set the company's domain in the URL, display the organization name, and display color schemes that match the organization's brand. To configure the branding settings:
 
 * Log in to your Learning Manager account as an administrator.
 * From the left pane, click **Branding**.
 * On the Branding page, you can configure the following options by clicking **Edit** against the option that you want to modify:
 
-` `o ````**`Organization Name`** `: The value that you specify here will determine the name that appears on the banner on each page of your site.`
-
-` `o ````**`Subdomain`** `: This value determines the URL for your site.`
-
-` `o ````**`Logo Styling`** `: The image in this field appears as the logo in the upper-right corner of each page. Here, you can either choose to display only the logo, or the name of your organization, or the logo and the name of the organization.`
+  * **Organization Name** : The value that you specify here will determine the name that appears on the banner on each page of your site.
+  * **Subdomain**: This value determines the URL for your site.
+  * **Logo Styling**: The image in this field appears as the logo in the upper-right corner of each page. Here, you can either choose to display only the logo, or the name of your organization, or the logo and the name of the organization.
 
 ![](assets/setting-the-themesforyoursite.png)
 
-***Note: You can only configure the name and the logo using Branding. You cannot change the position of the logo or the image.***
+>[!NOTE]
+>
+>You can only configure the name and the logo using Branding. You cannot change the position of the logo or the image.
 
 ***Learning Manager supports the following file formats for logo images: .png, .jpeg, .jpg, .gif, .bmp***
 
@@ -80,9 +79,6 @@ Learning Manager allows you to change the look and feel of your site using Theme
 You can choose one of the color schemes to align with your corporate branding.
 
 1. From the Learning Manager left navigation pane, click **Branding**.
-
-    
-
 1. In the **Themes** section, click **Edit**. The application allows you to pick a new theme. As you select a theme, you can immediately see the color schemes that are used for the key interface elements.
 
    ![](assets/setting-the-themesforyoursite.png)
@@ -118,24 +114,24 @@ You can enable and configure any of these email notifications from the Administr
 
    ![](assets/configure-email-templates-step3.png)
 
-   The system displays the “Enabled Successfully” pop-up message. Now, whenever a manager or an administrator enrolls a learner for a course, the learner receives an email from this Learning Manager account.
+   The system displays the "Enabled Successfully" pop-up message. Now, whenever a manager or an administrator enrolls a learner for a course, the learner receives an email from this Learning Manager account.
 
-1. You can modify the default email template. To do so, click on the event. In this example, click **[!UICONTROL  **Learning Program - Enrolled by Admin/Manager.**]**
-1. In the ****[!UICONTROL Template Preview]**** pop-up dialog box, notice that there are two tabs:** [!UICONTROL **Learner**]**and ****[!UICONTROL Manager]****.
+1. You can modify the default email template. To do so, click on the event. In this example, click **[!UICONTROL  Learning Program - Enrolled by Admin/Manager.]**
+1. In the **[!UICONTROL Template Preview]** pop-up dialog box, notice that there are two tabs: [!UICONTROL Learner] and [!UICONTROL Manager].
 
    ![](assets/configure-email-templates-step5.png)
 
-   For each of these tabs, click on the email body to modify the content. To save the changes to the email template, click ****[!UICONTROL Save]****.
+   For each of these tabs, click on the email body to modify the content. To save the changes to the email template, click **[!UICONTROL Save]**.
 
    Now, whenever a learner is enrolled to a course by the manager or the administrator, the learner and his manager receive an email notification.
 
    ***Note: The modifications are applicable only for the email template associated with the selected event.***
 
-1. Notice that you could not modify the Account URL or the Signature in the email template. To modify the ****[!UICONTROL Account URL]**** or ****[!UICONTROL Signature]****, click the ****[!UICONTROL Settings]**** tab. In this tab, you can modify the Email banner, Email Signature, the Account URL.
+1. Notice that you could not modify the Account URL or the Signature in the email template. To modify the **[!UICONTROL Account URL]** or **[!UICONTROL Signature]**, click the **[!UICONTROL Settings]** tab. In this tab, you can modify the Email banner, Email Signature, the Account URL.
 
-   The account URL link is shown in all emails, just before the signature. Enter your preferred URL and click ****[!UICONTROL Save]****. This URL is visible only to the internal users.
+   The account URL link is shown in all emails, just before the signature. Enter your preferred URL and click **[!UICONTROL Save]**. This URL is visible only to the internal users.
 
-   For Email banner, you can change the color of the banner by selecting  **[!UICONTROL **Banner Background**.]** You can also use a custom image as a banner by selecting the ****[!UICONTROL Custom Image]**** option. Click  **[!UICONTROL **Save** ]**after making the changes.
+   For Email banner, you can change the color of the banner by selecting  **[!UICONTROL **Banner Background**.]** You can also use a custom image as a banner by selecting the **[!UICONTROL Custom Image]** option. Click  **[!UICONTROL Save]** after making the changes.
 
    ***Note: The custom image size for the Email banner must be 1240x200px. Images bigger than the recommended size are cropped.***
 
@@ -143,7 +139,7 @@ You can enable and configure any of these email notifications from the Administr
 
    ![](assets/configure-email-templates-step6.png)
 
-1. You can also choose to enable Optional Manager Emails. If you select the **[!UICONTROL **Enable**]**checkbox, whenever a direct report receives an email from this Prime account, the manager is also included in the mailing list.
+1. You can also choose to enable Optional Manager Emails. If you select the **[!UICONTROL Enable]** checkbox, whenever a direct report receives an email from this Prime account, the manager is also included in the mailing list.
 
    ***Note: The settings in this tab are applicable for all the templates, globally.***
 
@@ -164,11 +160,11 @@ To configure email templates for a learning object:
 
 As an Administrator, you can select who will receive emails from Learning Manager and who will not. You can achieve this using the ****[!UICONTROL Restricted User]**** option under the ****[!UICONTROL Settings]** **tab. Users can be added to this list using their name, email id, or unique user id. The users listed under this option will be restricted from receiving any email communication from Learning Manager.
 
-# Configure your account settings {#configureyouraccountsettings}
+## Configure your account settings {#configureyouraccountsettings}
 
 Learning Manager allows you to configure some account settings such as basic settings, feedback settings, general settings, and settings for the Learner dashboard. The following procedures tell you how to configure each of these settings:
 
-## Configure basic settings {#configurebasicsettings}
+### Configure basic settings {#configurebasicsettings}
 
 1. In the Learning Manager Home page, click ****[!UICONTROL Settings]****. By default, the system displays the Basic Info page, with the default language and location fields.
 1. Click ****[!UICONTROL Change]**** at the upper-right corner of the page to edit the Basic Info.
@@ -187,20 +183,15 @@ Learning Manager allows you to configure some account settings such as basic set
 
 Learning Manager allows you to gather feedback for a course from learners. It is also possible to gather feedback about learners using Learning Manager. To solicit feedback, you must first configure L1 and L3 types of feedback.
 
-L3 feedback is the feedback that a manager provides about a learner. You can use this type feedback to track learners’ performance over time. L1 feedback is the feedback that a learner provides about a course. This type of feedback helps an administrator gather direct feedback about a course.
+L3 feedback is the feedback that a manager provides about a learner. You can use this type feedback to track learners' performance over time. L1 feedback is the feedback that a learner provides about a course. This type of feedback helps an administrator gather direct feedback about a course.
 
 As an administrator, you can configure the feedback settings globally. To do so, follow this procedure:
 
-1.  
-
-   In the Learning Manager Home page, click ****[!UICONTROL Settings]****.
-
+1. In the Learning Manager Home page, click **[!UICONTROL Settings]**.
 1. In the left pane, click **General**.
-1. `To configure L1 feedback, click the`****[!UICONTROL L1 Feedback]**** `tab. You see the options to configure one mandatory question and several optional questions. These are the questions that a learner views while provide feedback after completing a course. The questions are worded as statements so that learners can select their response on a scale of 1 to 5.`
+1. To configure L1 feedback, click the`****[!UICONTROL L1 Feedback]**** `tab. You see the options to configure one mandatory question and several optional questions. These are the questions that a learner views while provide feedback after completing a course. The questions are worded as statements so that learners can select their response on a scale of 1 to 5.
 
-   `The first part of the L1 feedback is a mandatory question on how it is for a learner to recommend this course to a friend or a colleague.`
-
-    
+   The first part of the L1 feedback is a mandatory question on how it is for a learner to recommend this course to a friend or a colleague.
 
    ***Note: You cannot edit or modify the mandatory question.***
 
@@ -212,7 +203,7 @@ As an administrator, you can configure the feedback settings globally. To do so,
 
    ![](assets/configure-feedbacksettings-step4.png)
 
-1. You can either enable or disable the default questions, or completely modify the default questions to suit your requirement. For example, you can remove the default question “The training matter was relevant to me.”, and add replace the question with “I found the training to be useful and relevant.”
+1. You can either enable or disable the default questions, or completely modify the default questions to suit your requirement. For example, you can remove the default question "The training matter was relevant to me.", and add replace the question with "I found the training to be useful and relevant."
 1. After you finalize the questions for learners, you can configure the reminder settings. By default, there is an existing reminder, where the application sends automatic reminders to learners on successful completion of a course. This reminder is also set to recur every two weeks until the learner responds. You can either modify the existing reminder by clicking on the reminder, or add a new reminder.
 
    ![](assets/configure-feedbacksettings-step6.png)
@@ -224,17 +215,12 @@ As an administrator, you can configure the feedback settings globally. To do so,
    
    * **Recurrence**: Specify whether you want to send the feedback reminder every day, every week, or every month. You can also specify for how many weeks you want the reminder to be sent.
 
-    
-
 1. Click the tick mark to save your reminder settings.
-
-    
-
 1. After you finalize all the feedback settings, click **[!UICONTROL **Save**]**on the upper-right corner of the page.
 
 ## Configure L3 Feedback: {#configurel3feedback}
 
-L3 Feedback contains the questions that are sent to a learner’s manager after the learner completes a course. L3 Feedback enables an administrator to track changes in the behavior or skill of a learner over time. To configure this feedback, on the Feedback page, click the ****[!UICONTROL L3 Feedback]**** tab. You see one, default question. The manager must answer this question using a five-point rating scale. 
+L3 Feedback contains the questions that are sent to a learner's manager after the learner completes a course. L3 Feedback enables an administrator to track changes in the behavior or skill of a learner over time. To configure this feedback, on the Feedback page, click the ****[!UICONTROL L3 Feedback]**** tab. You see one, default question. The manager must answer this question using a five-point rating scale. 
 
 ![](assets/configure-l3-feedback.png)
 
@@ -248,21 +234,21 @@ The previous procedure outlined the steps to configure the feedback settings at 
 
 To configure the feedback settings at an instance level:
 
-1. On the Learning Manager Home page, click ****[!UICONTROL Courses]****.
-1. Hover over the course where you want to configure the feedback settings. Click **[!UICONTROL **View Course**.]**
+1. On the Learning Manager Home page, click **[!UICONTROL Courses]**.
+1. Hover over the course where you want to configure the feedback settings. Click [!UICONTROL **View Course**.]
 
    ![](assets/configure-feedbackataninstancelevel.png)
 
-1. In the course details page, click ****[!UICONTROL Instance Defaults]**** in the Configure section. 
-1. In the **[!UICONTROL **Language**]**drop-down list, select the language in which you want the feedback questionnaire to be displayed.
+1. In the course details page, click **[!UICONTROL Instance Defaults]** in the Configure section. 
+1. In the [!UICONTROL **Language**] drop-down list, select the language in which you want the feedback questionnaire to be displayed.
 1. Enable the L1 Reaction Feedback if you want to solicit feedback from learners. You can add up to two questions in this section. Leaners can provide descriptive answers to these questions.
-1. Select the ****[!UICONTROL Make Mandatory]**** check box if you want to make either or both questions mandatory.
-1. Select the ****[!UICONTROL Show questionnaire immediately after course completion]**** if you want learners to view the feedback questionnaire immediately after they complete the course.
+1. Select the **[!UICONTROL Make Mandatory]** check box if you want to make either or both questions mandatory.
+1. Select the **[!UICONTROL Show questionnaire immediately after course completion]** if you want learners to view the feedback questionnaire immediately after they complete the course.
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
 1. To configure the L3 Behavior Change feedback at an instance level, ****[!UICONTROL Enable]**** the L3 Feedback. The application displays a predefined, mandatory question and a blank question where you can enter a question of your choice.
-1. For the predefined question on the learner’s improvement after taking the course, the answer is in the Likert Scale format. That is, managers must choose an option on a scale of Strongly Agree to Strongly Disagree.
+1. For the predefined question on the learner's improvement after taking the course, the answer is in the Likert Scale format. That is, managers must choose an option on a scale of Strongly Agree to Strongly Disagree.
 1. Specify the second question for the manager. Managers can provide a descriptive answer to this question.
 1. Select the ****[!UICONTROL Make Mandatory]**** check box if you want to make the second question mandatory.
 
@@ -300,14 +286,14 @@ The general settings in Learning Manager allows administrators to configure gene
 
 Learner Dashboard in Learning Manager allows learners to view their mandatory and recommended courses apart from their achievements, skills, and announcements. Administrators can decide how this Learner Dashboard should appear, by configuring the Learner Dashboard settings. These settings decide allows administrators to set the widgets on the Learner page. These settings also specify how and where the widgets are placed on the Learner Dashboard. As an administrator, you can preview the layout of the Learner Dashboard before applying the settings.
 
-1. In the Learning Manager Home page, click ****[!UICONTROL Settings]****.
+1. In the Learning Manager Home page, click **[!UICONTROL Settings]**.
 1. In the left navigation pane, click **[!UICONTROL **Learner Dashboard**.]**
 1. Select the widgets that you want to enable. If you deselect a widget, the widget is immediately removed from the preview. Learners cannot see this widget in their dashboard.
 1. Click ****[!UICONTROL Save]**** to apply the settings.
 
    ![](assets/configure-learnerdashboardsettings-step4.png)
 
-1. To apply the default settings, click **[!UICONTROL **Restore to Default**.]** In this case, all the widgets except ****[!UICONTROL Welcome and Sticky Announcements]**** are visible.
+1. To apply the default settings, click **[!UICONTROL Restore to Default.]** In this case, all the widgets except **[!UICONTROL Welcome and Sticky Announcements]** are visible.
 
    ***Even after you enable the Learner Dashboard settings, learners can modify and move around widgets in their respective dashboards.***
 

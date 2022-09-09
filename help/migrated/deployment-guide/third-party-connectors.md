@@ -2,14 +2,13 @@
 description: Learn on how to integrate Salesforce with Learning Manager using connectors, how to integrate FTP with Learning Manager and upload CSV automatically using FTP connector.
 jcr-language: en_us
 title: Learning Manager Connectors
+preview: true
 ---
 
 
 # Learning Manager Connectors {#learning-manager-connectors}
 
 Learn on how to integrate Salesforce with Learning Manager using connectors, how to integrate FTP with Learning Manager and upload CSV automatically using FTP connector.
-
-# Overview {#overview}
 
 Enterprises have other applications and systems which may need to be integrated with Learning Manager. Connectors are utilities that help in performing data-based integrations such as importing data into Learning Manager from external  systems,  or exporting data to external systems from Learning Manager. In the July 2016 release, the connectors have only the capability of bulk importing users for Learning Manager from external systems.
 
@@ -21,23 +20,23 @@ Read on to know how to configure and use each of these connectors in Learning Ma
 
 ![](assets/connectorslist.jpg) 
 
-# Salesforce connector {#sfconnector}
+## Salesforce connector {#sfconnector}
 
 Salesforce connector connects Learning Manager and Salesforce accounts to automate data synchronization. Salesforce connector capabilities are as follows: 
 
-#### Map attributes
+### Map attributes
 
 Integration Administrator can choose Salesforce columns and map them to corresponding Learning Manager's group-able attributes. This is a one time effort. Once the mapping is completed, the same mapping is used in subsequent user imports. It can be reconfigured if Administrator wants to have a different mapping for importing users.
 
-#### Automated user import
+### Automated user import
 
 User import process allows Learning Manager Administrator to fetch employee details from Salesforce and import them into Learning Manager automatically. This automation avoids the manual effort involved in creating CSV and uploading into Prime.
 
-#### Auto Schedule
+### Auto Schedule
 
 Using auto scheduling feature along with automated user import feature can be effective. Learning Manager Administrator can set up schedule according to organization's needs. Users in the Learning Manager application can be up-to-date according to the schedule. Sync can be performed on daily basis in Learning Manager application. 
 
-#### Filtering users
+### Filtering users
 
 Learning Manager Administrator can apply filtering on the users before importing them. For example, Learning Manager Administrator can choose to import all users in the hierarchy under one or more specific Managers. 
 
@@ -51,9 +50,9 @@ Ensure that you have your Salesforce organization URL with you. For example, if 
 
 Also make sure that you have the appropriate credentials to log in to the account.
 
-### Create a connection {#createaconnection}
+## Create a connection {#createaconnection}
 
-1. In Learning Manager home page, hover mouse over the Salesforce card/thumbnail. A menu appears. Click **Connect **item in the menu.
+1. In Learning Manager home page, hover mouse over the Salesforce card/thumbnail. A menu appears. Click **Connect** item in the menu.
 
    ![](assets/mouserover-salesforce.png)
 
@@ -64,20 +63,20 @@ Also make sure that you have the appropriate credentials to log in to the accoun
 
 Once connection is successfully established, you can map Salesforce columns to the corresponding attributes of Learning Manager. This step is mandatory. 
 
-1. In the mapping page, on left side you can see Learning Manager’s columns and on right side you can see the Salesforce columns. Select the appropriate column name that maps to the Learning Manager’s column name.
+1. In the mapping page, on left side you can see Learning Manager's columns and on right side you can see the Salesforce columns. Select the appropriate column name that maps to the Learning Manager's column name.
 
    ![](assets/sfdc-map-columns.png)
 
    Learning Manager's column data shown on the left side are fetched from the active fields. The **manager** field must necessarily be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.
 
-1. Click** Save** after completing the mapping. 
+1. Click **Save** after completing the mapping. 
 1. The connector is now ready for use. The account that has been configured now, appears as a data source within the Administrator app, for the administrator to schedule the import or for on-demand sync.
 
 ## Using Salesforce connector {#usingsalesforceconnector}
 
 Salesforce connector connects to Salesforce.com to fetch the users as configured and add them to Learning Manager. 
 
-# Learning Manager FTP connector {#ftpconnector}
+## Learning Manager FTP connector {#ftpconnector}
 
 Using the FTP connector, you can integrate Learning Manager with arbitrary external systems to automate data synchronization. It is expected that external systems can export data in a CSV format and place it in the appropriate folder of the Learning Manager FTP account. FTP connector capabilities are as follows: 
 
@@ -134,8 +133,8 @@ The import internal user option allows you to schedule the generation of user im
 
 Once connection is successfully established, you can map the columns of CSV files that will be placed in the FTP folder to the corresponding attributes of Learning Manager. This step is mandatory. 
 
-1. In the Map Attributes page, on left side you can see Learning Manager’s expected columns and on right side you can see the CSV column names. Initially, on the right side, you can see an empty select box. Import any template CSV by clicking **Choose File**.
-1. The above step populates the right side select drop-down list with all the CSV column names. Select the appropriate column name that maps to the Learning Manager’s column name.
+1. In the Map Attributes page, on left side you can see Learning Manager's expected columns and on right side you can see the CSV column names. Initially, on the right side, you can see an empty select box. Import any template CSV by clicking **Choose File**.
+1. The above step populates the right side select drop-down list with all the CSV column names. Select the appropriate column name that maps to the Learning Manager's column name.
 
    *The Manager field must necessarily be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.*
 
@@ -151,16 +150,15 @@ Once connection is successfully established, you can map the columns of CSV file
 
 1. The CSV files from external systems should be placed at the following path: 
 
-`code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
+   `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-**Note:** In the July 2016 Release, only import of users is allowed. Therefore to use the FTP connector, you must ensure that the CSV files are placed in the following folder:  
-`code Home/import/user/internal/*.csv`
+   **Note:** In the July 2016 Release, only import of users is allowed. Therefore to use the FTP connector, you must ensure that the CSV files are placed in the following folder:
 
-2. The FTP connector takes all rows from CSV files, so it is important that the row corresponding to a user in one CSV does not appear in any other CSVs.
+   `code Home/import/user/internal/*.csv`
 
-3. All CSVs should contain the columns specified in the mapping.
-
-4. All the required CSVs should be present in the folder before the process begins. 
+1. The FTP connector takes all rows from CSV files, so it is important that the row corresponding to a user in one CSV does not appear in any other CSVs.
+1. All CSVs should contain the columns specified in the mapping.
+1. All the required CSVs should be present in the folder before the process begins. 
 
 While importing users into Learning Manager, Administrator also need to know how users are managed in Learning Manager. Refer to [User Management Help](../integration-admin/feature-summary/migration-manual.md#usermanagement) to know more information. 
 
@@ -192,11 +190,11 @@ The auto-exported files will be available with the title, **skill_achievements_&
 
 ![](assets/exported-csvs.png) 
 
-# Lynda connector {#lyndaconnector}
+## Lynda connector {#lyndaconnector}
 
 The Lynda connector can be used by enterprise customers of Lynda.com who would like their learners to discover and consume Lynda courses from within Learning Manager. The connector can be configured to fetch courses from Lynda.com periodically with your API key. Once a course is created within Prime, users can search for them and consume them. Learner progress can then be tracked within Learning Manager.
 
-## Configure the Lynda connector {#configurethelyndaconnector}
+### Configure the Lynda connector {#configurethelyndaconnector}
 
 1. From the Integrated Admin dashboard, click Lynda.
 
@@ -244,11 +242,11 @@ The Lynda connector can be used by enterprise customers of Lynda.com who would l
 
    ![](assets/lynda-executionstatus.png)
 
-# getAbstract connector {#getabstractconnector}
+## getAbstract connector {#getabstractconnector}
 
 The getAbstract connector can be used by enterprise customers of getAbstract.com, who would like their learners to discover and consume getAbstract summaries. The connector can be configured to fetch usage data periodically, based on which learner completion records are created within Learning Manager. Read on to know how to configure this connector in Learning Manager.
 
-## Configure the getAbstract connector {#configurethegetabstractconnector}
+### Configure the getAbstract connector {#configurethegetabstractconnector}
 
 1. From the Integrated Admin dashboard, click getAbstract.
 
@@ -300,11 +298,11 @@ The getAbstract connector can be used by enterprise customers of getAbstract.com
    See the following excel sheet, which is a sample user feed file from getAbstract. The file name should follow the format: **report_export_yyyy_MM_dd_HHmmss.xlsx** or **report_export_yyyy_MM_dd.xlsx**.
    [getAbstract user feed sample excel sheet](assets/report-export-20170401175342.xlsx)
 
-# Harvard ManageMentor connector {#hmmconnector}
+## Harvard ManageMentor connector {#hmmconnector}
 
 The Harvard ManageMentor connector can be used by enterprise customers of Harvard ManageMentor, who would like their learners to discover and consume Harvard ManageMentor courses. The connector helps create courses within Prime, and can be configured to fetch learner progress data periodically. To configure this connector, perform the following procedure:
 
-## Configure the Harvard ManagerMentor connector {#configuretheharvardmanagermentorconnector}
+### Configure the Harvard ManagerMentor connector {#configuretheharvardmanagermentorconnector}
 
 1. From the Integrated Admin dashboard, click Harvard ManageMentor.
 
@@ -350,11 +348,11 @@ The Harvard ManageMentor connector can be used by enterprise customers of Harvar
    See the following two sample user feed and course feed files for this connector:
    [Course metadata file for the Harvard ManageMentor connector](assets/hmm12-metadata.xlsx) [User feed for the Harvard ManageMentor connector](assets/client-hmm12-20170304.xlsx)
 
-# Workday connector {#workdayconnector}
+## Workday connector {#workdayconnector}
 
 Using the Workday connector, you can integrate Learning Manager with Workday tenant to automate data synchronization.
 
-## Import {#import}
+### Import {#import}
 
 #### Map attributes
 
@@ -506,11 +504,11 @@ Here, you can view the summary of all the Tasks and get their status report. you
 
 +++
 
-# miniOrange connector {#miniorangeconnector}
+## miniOrange connector {#miniorangeconnector}
 
 Using the miniOrange connector, you can integrate Learning Manager with miniOrange tenant to automate data synchronization.
 
-## Import {#Import-2}
+### Import {#Import-2}
 
 #### Map attributes
 
@@ -540,7 +538,7 @@ To set up   miniOrange   connector, please contact the Learning Manager CSM team
 
    ![](assets/import-users.png)
 
-1. In the mapping page, on  left   side  you can see Learning Manager’s columns and on  right   side  you can see the  miniOrnage  columns. Select the appropriate column name that maps to the Learning Manager’s column name.
+1. In the mapping page, on  left   side  you can see Learning Manager's columns and on  right   side  you can see the  miniOrnage  columns. Select the appropriate column name that maps to the Learning Manager's column name.
 
    ![](assets/map-attributes.png)
 
@@ -556,7 +554,7 @@ To set up   miniOrange   connector, please contact the Learning Manager CSM team
 
 Follow these steps to delete an established  miniOrange  connection.
 
-# BlueJeans connector {#bluejeansconnector}
+## BlueJeans connector {#bluejeansconnector}
 
 You can now integrate Learning Manager with BlueJeans connector and use BlueJeans to host classes. BlueJeans lets you launch audio and video conference calls, video chats, and webinars.
 
@@ -581,7 +579,7 @@ Follow these steps to set up and use the connector.
 
    ![](assets/-attendence-and-scoringreport.png)
 
-# Box connector {#boxconnector}
+## Box connector {#boxconnector}
 
 Using the BOX connector, you can integrate Learning Manager with arbitrary external systems to automate data synchronization. It is expected that external systems can export data in a CSV format and place it in the appropriate folder of the Learning Manager Box account. Box connector capabilities are as follows: 
 
@@ -635,9 +633,9 @@ The import internal user option allows you to schedule the generation of user im
 
 Once a connection is successfully established, you can map the columns of CSV files that will be placed in the Box folder to the corresponding attributes of Learning Manager. This step is mandatory.
 
-1. In the Map Attributes page, on  left   side  you can see Learning Manager’s expected columns and on  right   side  you can see the CSV column names. Initially, on the right side, you can see an empty select box. Import any template CSV by clicking Choose File.  
+1. In the Map Attributes page, on  left   side  you can see Learning Manager's expected columns and on  right   side  you can see the CSV column names. Initially, on the right side, you can see an empty select box. Import any template CSV by clicking Choose File.  
 
-1. The above step populates the right side select drop-down list with all the CSV column names. Select the appropriate column name that maps to the Learning Manager’s column name.
+1. The above step populates the right side select drop-down list with all the CSV column names. Select the appropriate column name that maps to the Learning Manager's column name.
 
    *The Manager field must necessarily be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.*
 
@@ -651,16 +649,14 @@ Once a connection is successfully established, you can map the columns of CSV fi
 
 1. The CSV files from external systems should be placed  at  the following path: 
 
-`code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
+   `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-**Note:** In the July 2016 Release, only import of users is allowed. Therefore to use the Box connector, you must ensure that the CSV files are placed in the following folder:  
-`code Home/import/user/internal/*.csv`
+   **Note:** In the July 2016 Release, only import of users is allowed. Therefore to use the Box connector, you must ensure that the CSV files are placed in the following folder:  
+   `code Home/import/user/internal/*.csv`
 
-2. The Box connector takes all rows from CSV files, so it is important that the row corresponding to a user in one CSV does not appear in any other CSVs.
-
-3. All CSVs should contain the columns specified in the mapping.
-
-4. All the required CSVs should be present in the folder before the process begins. 
+1. The Box connector takes all rows from CSV files, so it is important that the row corresponding to a user in one CSV does not appear in any other CSVs.
+1. All CSVs should contain the columns specified in the mapping.
+1. All the required CSVs should be present in the folder before the process begins. 
 
 While importing users into Learning Manager, Administrator also need to know how users are managed in Learning Manager. Refer to [User Management Help](../integration-admin/feature-summary/migration-manual.md#usermanagement) to know more information. 
 
@@ -686,11 +682,11 @@ The auto-exported files will be available with the title, **skill_achievements_&
 
 The access permissions and the content in the Box folder shared by the Learning Manager team should be managed by the customer.  Also  note that the content in the folder would be physically stored in Frankfurt region.
 
-# LinkedInLearning connector {#linkedinlearningconnector}
+## LinkedInLearning connector {#linkedinlearningconnector}
 
 The LinkedInLearning connector can be used by enterprise customers of LinkedIn.com who would like their learners to discover and consume courses from within Learning Manager. The connector can be configured to fetch courses periodically with your API key. Once a course is created within Prime, users can search for them and consume them. Learner progress can then be tracked within Learning Manager.
 
-## Configure LinkedIn connector {#configurelinkedinconnector}
+### Configure LinkedIn connector {#configurelinkedinconnector}
 
 1. From the Integrated Admin dashboard, click LinkedInLearning.
 

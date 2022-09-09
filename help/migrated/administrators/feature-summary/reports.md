@@ -516,7 +516,7 @@ Adobe Learning Manager enables the administrators of an organization to generate
 1. Skill: Skill Dashboard
 1. Compliance Dashboard
 
-`The Learner Transcripts in Excel reports displays the columns Credits Required and Credits Earned in decimal numbers.`
+The Learner Transcripts in Excel reports displays the columns Credits Required and Credits Earned in decimal numbers.
 
 For information on generating Learner Transcript reports and more information, see [Learner Transcripts.](learner-transcripts.md)
 
@@ -556,13 +556,12 @@ The extracted report includes information about the following:
 * Learner name 
 * Manager name
 * Created by
-d
 
 To download a report, do one of the following:
 
 * Open  **[!UICONTROL Reports] > [!UICONTROL Excel Reports] > [!UICONTROL Job Aid Reports]**. The **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL Ok]**.
 
-* Open **[!UICONTROL Job Aid > [!UICONTROL Actions] > [!UICONTROL Export Report]**.
+* Open **[!UICONTROL Job Aid] > [!UICONTROL Actions] > [!UICONTROL Export Report]**.
 
 ![](assets/job-aids.png)
 

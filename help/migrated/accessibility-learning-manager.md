@@ -1,7 +1,9 @@
 ---
 jcr-language: en_us
 title: Accessibility in Adobe Learning Manager
+description: This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
 contentowner: saghosh
+preview: true
 ---
 
 
@@ -9,7 +11,7 @@ contentowner: saghosh
 
 This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
 
-Learning Manager follows W3C’s WCAG 2.1 Level A and AA accessibility standards for the platform.
+Learning Manager follows W3C's WCAG 2.1 Level A and AA accessibility standards for the platform.
 
 Adobe Learning Manager Learner role allows learners to navigate through the platform and take advantage of following key accessibility capabilities:
 
@@ -139,16 +141,16 @@ The Learning Manager Learner role supports several other accessibility features 
 1. Semantic structure to the learner role pages including heading, list markup, descriptive titles etc are provided.
 1. Support for browser zoom up to 200% without loss of content or functionality is maintained through-out the learner role.
 1. Colour contrast for text and non-text elements is maintained on learner role. For a better experience use the [Vivid](https://helpx.adobe.com/in/captivate-prime/administrators/feature-summary/themes.html) theme.
-1. Support of W3C’s WAI ARIA design patterns to maintain consistency and industry best practices.
+1. Support of W3C's WAI ARIA design patterns to maintain consistency and industry best practices.
 
 For more information, see:
 
 * [Accessibility Conformance Report for a learner](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
 * [Accessibility Conformance Report for all roles](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
 
-# Learning Manager Top workflows (Learner role) {#captivateprimetopworkflowslearnerrole}
+## Learning Manager Top workflows (Learner role) {#captivateprimetopworkflowslearnerrole}
 
-Let’s look at how Accessibility features help you to navigate through some key features for learners in Learning Manager.
+Let's look at how Accessibility features help you to navigate through some key features for learners in Learning Manager.
 
 Use the `kbd Tab`key to navigate through the elements on the page. Use the `kbd Shift + Tab` key to reverse the direction of navigation. Keyboard focus is indicated by a blue outline displayed around an element. A screen reader should read out the text of the element in focus.
 
@@ -187,7 +189,7 @@ Use the `kbd Tab`key to navigate through the elements on the page. Use the `kbd 
 
 ## Accessibility support for specific needs
 
-Let’s look at the accessibility features learners can utilize based on their specific needs.
+Let's look at the accessibility features learners can utilize based on their specific needs.
 
 ### Users who are deaf or hard-of-hearing
 
@@ -218,4 +220,3 @@ While creating a course, authors can upload webVTT files along with the video fi
 ## What will be addressed in a future release {#whatwillbeaddressedinafuturerelease}
 
 * Closed captioning support for videos. Authors should get an ability to upload SRT files along with the video files. Learners should be able to view closed captions for videos.
-
