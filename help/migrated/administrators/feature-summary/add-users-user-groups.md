@@ -224,11 +224,11 @@ To move a user to another external profile, choose a user, from the upper-right 
 
 ## Assign a role {#Assignarole-1}
 
-Choose a user, and from the upper-right corner, click **Actions > Assign Role** > **Make <role>**. The user gets a new role.
+Choose a user, and from the upper-right corner, click **Actions > Assign Role** > **Make `<role>`**. The user gets a new role.
 
 ## Remove a role {#Removearole-1}
 
-Choose a user, and from the upper-right corner, click **Actions > Remove Role** > **Remove <role>**. The selected role gets removed from the list of roles that were assigned to the user.
+Choose a user, and from the upper-right corner, click **Actions > Remove Role** > **Remove `<role>`**. The selected role gets removed from the list of roles that were assigned to the user.
 
 ## Search for external users
 
@@ -277,7 +277,7 @@ Click **Data Sources** on the left pane under **Advanced** section.
 
 ![](assets/data-sources-add-users.png)
 
-Choose the data source type from the **Source** drop-down, select the update frequency, and click **Sync now** if you need to sync immediately or click **Save. **Data source types are SFDC, FTP, and so on for internal users. 
+Choose the data source type from the **Source** drop-down, select the update frequency, and click **Sync now** if you need to sync immediately or click **Save.** Data source types are SFDC, FTP, and so on for internal users. 
 
 You can add multiple data sources. 
 
@@ -285,7 +285,7 @@ You can add multiple data sources.
 
 This feature enables administrators to add more active fields in addition to what has been provided during user registration. 
 
-Click **Active Fields **available inside users page. Learners can only choose from the values given in custom values.
+Click **Active Fields** available inside users page. Learners can only choose from the values given in custom values.
 
 ![](assets/active-fields.png) 
 
@@ -328,7 +328,7 @@ Using this option, an Administrator can decide whether he/she wants to show the 
 
 ### Restrict Active Fields in reports {#restrictactivefields}
 
-Learning Manager 27.7 introduces two new options- **Reportable** and **Exportable, **for Active Fields.
+Learning Manager 27.7 introduces two new options- **Reportable** and **Exportable,** for Active Fields.
 
 ![](assets/options-in-activefields.png)
 
@@ -416,7 +416,7 @@ To create a multi-valued active field, follow the steps below:
 
    ![](assets/mark-multi-valued.png)
 
-   There is another checkbox, **Learner Configurable, **which** w**hen disabled, the learner will not be able to see the field on the Profile page.
+   There is another checkbox, **Learner Configurable,** which when disabled, the learner will not be able to see the field on the Profile page.
 
 1. Add the values using a CSV or by clicking **Modify Values**.
 

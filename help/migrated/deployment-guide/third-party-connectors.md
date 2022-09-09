@@ -352,7 +352,7 @@ The Harvard ManageMentor connector can be used by enterprise customers of Harvar
 
 Using the Workday connector, you can integrate Learning Manager with Workday tenant to automate data synchronization.
 
-### Import {#import}
+### Import
 
 #### Map attributes
 
@@ -366,7 +366,7 @@ User import process allows Learning Manager Administrator to fetch employee deta
 
 Learning Manager Administrator can apply filtering to the users before importing them. For example, Learning Manager Administrator can choose to import all users in the hierarchy under one or more specific Managers. 
 
-## Export {#export}
+## Export
 
 The User-skill Export allows users to export user skills to Workday automatically.
 
@@ -408,7 +408,7 @@ In the overview page, you can specify the Connection Name for your integration. 
 
 ![](assets/overview.png) 
 
-## Import {#Import-1}
+## Import
 
 ### Map Attributes {#MapAttributes-1}
 
@@ -476,7 +476,7 @@ wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Manageme
 
 +++
 
-## Export {#Export-1}
+## Export
 
 You can export all the skills achieved by a user from Learning Manager to Workday. Note that only all active user skills are exported and Learning Manager does not export retired skills. You can also connect multiple prime accounts to the same Workday connector. In case the skill names are same in two Learning Manager accounts, they are mapped to the same skill in Workday. It is advisable to update skill names in all Learning Manager Accounts before updating the skill in Workday in case two Prime accounts are using the same Workday account.
 
@@ -508,7 +508,7 @@ Here, you can view the summary of all the Tasks and get their status report. you
 
 Using the miniOrange connector, you can integrate Learning Manager with miniOrange tenant to automate data synchronization.
 
-### Import {#Import-2}
+### Import
 
 #### Map attributes
 

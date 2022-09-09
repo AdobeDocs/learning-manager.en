@@ -1,6 +1,8 @@
 ---
 jcr-language: en_us
 title: Integration Admin
+description: Integration Admin
+preview: true
 ---
 
 
@@ -15,7 +17,7 @@ title: Integration Admin
  </tbody>
 </table>
 
-# Features {#features}
+## Features {#features}
 
 * [Migration manual](integration-admin/feature-summary/migration-manual.md)  
 

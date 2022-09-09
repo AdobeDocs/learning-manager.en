@@ -3,6 +3,7 @@ description: Click the links in this topic to learn about Instructors in Learnin
 jcr-language: en_us
 title: Instructors
 contentowner: shhivkum
+preview: true
 ---
 
 
@@ -19,11 +20,11 @@ Click the links in this topic to learn about Instructors in Learning Manager
  </tbody>
 </table>
 
-# Frequently Asked Questions (FAQ) {#frequentlyaskedquestionsfaq}
+## Frequently Asked Questions (FAQ) {#frequentlyaskedquestionsfaq}
 
 [Frequently Asked Questions](instructors/frequently-asked-questions-for-instructors.md)
 
-# Features {#features}
+## Features {#features}
 
 [Getting Started](instructors/feature-summary/getting-started.md)
 

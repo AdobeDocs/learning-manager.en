@@ -8,7 +8,7 @@ preview: true
 
 # Set up users in Learning Manager {#set-up-users-in-learning-manager}
 
-# Internal and external users {#internalandexternalusers}
+## Internal and external users {#internalandexternalusers}
 
 In any LMS, including Learning Manager, managing users is an important aspect. Learning Manager allows you to classify users as internal and external. Internal users are those users that belong to a specific organization or a group. Generally, users within an enterprise are internal users. These users have specific learning objects with specific deadlines, as assigned by their managers or the administrator.
 
@@ -16,7 +16,7 @@ In contrast, external users are generally temporary users of a specific Prime ac
 
 Read on to know how to add internal users and external users in Prime.
 
-# Set up external users {#setupexternalusers}
+## Set up external users {#setupexternalusers}
 
 As an administrator, you might want to add external users such as employees of partner organizations to your Learning Manager account. To add external users:
 
@@ -102,11 +102,11 @@ You can choose this method to add internal users if the number of users are larg
 
 ### Considerations when creating the CSV file for upload: {#considerationswhencreatingthecsvfileforupload}
 
-When you create the CSV file for uploading internal users, the following are some of the mandatory fields for which you must enter data: Employee’s Name, Employee’s Email, Employee’s Profile or Designation, and Manager Hierarchy.
+When you create the CSV file for uploading internal users, the following are some of the mandatory fields for which you must enter data: Employee's Name, Employee's Email, Employee's Profile or Designation, and Manager Hierarchy.
 
 The name and email of each employee can be mapped directly to the application data. Note that you must specify an email that is specified in the CSV file, as the Manager Email. You can either define the Manager ID when you create the CSV file, or you can specify the email ID that corresponds to the Manager ID when you upload the CSV file.
 
-***Before you add an ID as an employee’s Manager ID, ensure that the Manager is added as an employee in the CSV file.***
+***Before you add an ID as an employee's Manager ID, ensure that the Manager is added as an employee in the CSV file.***
 
 ***Ensure that there are no extra spaces between entries to successfully upload the CSV file.***
 
@@ -130,7 +130,7 @@ Apart from adding internal users in bulk, you can also add users by self-registr
    ![](assets/adding-users-throughself-registration-step2.png)
 
 1. In the ****[!UICONTROL Add User]**** pop-up dialog box, specify the name of the employee in the ****[!UICONTROL Profile Name]**** field.
-1. In the ****[!UICONTROL Manager’s Name]**** field, enter the name of the employee’s manager.
+1. In the ****[!UICONTROL Manager's Name]**** field, enter the name of the employee's manager.
 1. Optionally, you can add the profile picture of the employee using the ****[!UICONTROL Add Image]**** field.
 1. Click ****[!UICONTROL Save]****.
 
@@ -159,7 +159,7 @@ Adding single users is the third method by which you can add internal users to y
    
    * ****[!UICONTROL Profile]**** **[!UICONTROL :]** Specify the designation or the job title of the employee.
    
-   * **[!UICONTROL **Manager’s Name**:]** Specify the name of the Manager. The Manager should already be added in the database to be specified here.
+   * **[!UICONTROL **Manager's Name**:]** Specify the name of the Manager. The Manager should already be added in the database to be specified here.
    * **[!UICONTROL **DOJ**:]** Specify the date of joining of the employee.
    * **[!UICONTROL **Location**:]**Specify the location of the employee. For example, if you have your organization in several geographical locations, specify the location where the employee is located.
 
@@ -172,7 +172,7 @@ Adding single users is the third method by which you can add internal users to y
 
    ![](assets/add-single-usersincaptivateprime-step5.png)
 
-# Managing user groups in Learning Manager {#managingusergroupsincaptivateprime}
+## Managing user groups in Learning Manager {#managingusergroupsincaptivateprime}
 
 User group is nothing but a set of users pertaining to a defined category. As an administrator, you can use user groups to select learners quickly based on their attributes. Further, you can quickly assign logos or catalogs to the group of users, and generate customized reports on their progress. 
 

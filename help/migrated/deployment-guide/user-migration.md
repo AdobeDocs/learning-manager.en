@@ -10,11 +10,11 @@ preview: true
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-# Technical Set up {#technicalsetup}
+## Technical Set up {#technicalsetup}
 
 The technical set up for your Prime account is required mainly for enterprise users. This document talks about configuring single sign on for your organization, and integrating Prime with third-party connectors.
 
-## Configure Single Sign-On {#configuresinglesignon}
+### Configure Single Sign-On {#configuresinglesignon}
 
 As a system admin on the Admin Console, one of your first tasks is to define and set up an identity system against which your end users will be authenticated. As your organization purchases licenses for Learning Manager, you will need to provision those licenses to your end users. And for this, you will need a way to authenticate these users. Perform the following procedure to configure SSO for your users.
 
@@ -46,7 +46,7 @@ As a system admin on the Admin Console, one of your first tasks is to define and
 
    ***The SSO you configure in Learning Manager should support SAML 2.0.***
 
-# Migration of user data {#migrationofuserdata}
+## Migration of user data {#migrationofuserdata}
 
 As an administrator, when your enterprise purchases Learning Manager, one of the crucial steps that you need to perform is migration. It is imperative that you move your existing training content and user data to Learning Manager. The following migration workflow helps you leverage the benefits of modern and intuitive LMS without losing any of your organization's legacy data.
 
@@ -54,7 +54,7 @@ Learning Manager allows you to migrate from your existing LMS through a step-by-
 
 To perform the migration workflow, you need the Integration Admin privileges. As an administrator, you can either take up the role of an Integration Admin, or assign this role to another user.
 
-**We can take Shaleen’s help here to create a visual.**
+**We can take Shaleen's help here to create a visual.**
 
 1. Prerequisite
 1. Evaluation of the existing content and user data
@@ -66,7 +66,7 @@ To perform the migration workflow, you need the Integration Admin privileges. As
 
  
 
-## Prerequisite {#prerequisite}
+### Prerequisite {#prerequisite}
 
 Before you start the migration process, you must perform the following prerequisite:
 
@@ -77,7 +77,7 @@ Before you start the migration process, you must perform the following prerequis
 
 ***It is recommended that Administrators try out the migration process in a trial account before migrating the data and content into the Learning Manager production environment. ***
 
-## Evaluating and exporting data {#evaluatingandexportingdata}
+### Evaluating and exporting data {#evaluatingandexportingdata}
 
 The Integration Admin should first look at the data that is available in the current LMS. As the Integration Admin, you can migrate only the following learning objects:
 
@@ -105,7 +105,9 @@ The Integration Admin should first look at the data that is available in the cur
 
 After you evaluate your existing data, you must map this data with the standard CSV specifications in Learning Manager. Download the following sample ***csv-specifications.zip*** file which contains seven excel sheets that are required for this migration. These excel sheets contain specifications with descriptions to make you understand how to map the existing data with the fields in the .csv files.
 
+<!--
 <Download link to the zip file>
+-->
 
 Ensure that each .csv file contains the data for each field in the prescribed format:
 
@@ -272,7 +274,7 @@ See a sample snapshot of the project files and folder of ExaVault as shown here:
 
 ![](assets/set-up-an-ftp-account.png)
 
-When you successfully set up the FTP folder, the system displays the “FTP folder setup is complete” message.
+When you successfully set up the FTP folder, the system displays the "FTP folder setup is complete" message.
 
 ## Set up a BOX account {#setupaboxaccount}
 
@@ -290,7 +292,7 @@ Click **[!UICONTROL **Connect**.]**
 
 You would receive an email from Box with a link to the shared folder. If you do not have a box account, click SignUp and create an account. Login instructions are then sent to the Integration Admin Email ID.
 
-After you save the connection, the migration page displays the message: “Box folder setup is complete”.
+After you save the connection, the migration page displays the message: "Box folder setup is complete".
 
 ## Migrating the content to Learning Manager {#migratingthecontenttocaptivateprime}
 
@@ -299,7 +301,7 @@ Before you start the migration, it is important to note the following:
 * Only one migration project can be active in an account at any given point in time. Within a project, only one sprint can be active at any given point in time.
 * You cannot undo a Run that is already in process. However, you can use the existing delete option within each feature of Learning Manager to undo any data or content migration. 
 
-As soon as the migration project starts, the project moves into a state of ‘Under Migration’. In this state, no other user other than the Integration Admin can log in to Learning Manager. 
+As soon as the migration project starts, the project moves into a state of 'Under Migration'. In this state, no other user other than the Integration Admin can log in to Learning Manager. 
 
 Upload training content to Content folders:
 

@@ -303,7 +303,7 @@ Following are the various elements of the Learning Manager class diagram in V2 A
 
 ![](assets/v2api-class-diagram.jpg) 
 
-<table width="100%" cellspacing="0" cellpadding="1" border="1"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Learning Manager Object</th> 
@@ -314,30 +314,20 @@ Following are the various elements of the Learning Manager class diagram in V2 A
    <td>Encapsulates the details of a prime customer.</td> 
   </tr> 
   <tr> 
-   <td> <g class="gr_ gr_64 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling only-del replaceWithoutSep" id="64" data-gr-id="64">
-      badge 
-    </g></td> 
+   <td> badge</td> 
    <td>Badge is a token of accomplishment that learners get when they reach specific milestones as they progress within a course. <br></td> 
   </tr> 
   <tr> 
-   <td> <g class="gr_ gr_66 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling only-del replaceWithoutSep" id="66" data-gr-id="66">
-      catalog 
-    </g></td> 
+   <td> catalog</td> 
    <td>Catalog is a collection of learning objects.</td> 
   </tr> 
   <tr> 
-   <td> <g class="gr_ gr_68 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling only-del replaceWithoutSep" id="68" data-gr-id="68">
-      user 
-    </g></td> 
+   <td> user</td> 
    <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td> 
   </tr> 
   <tr> 
    <td>resource</td> 
-   <td>This is used to model each content resource that a module seeks to encapsulate. All resources encapsulated within <g class="gr_ gr_72 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" id="72" data-gr-id="72">
-      an 
-    </g> <g class="gr_ gr_54 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="54" data-gr-id="54">
-      loResource 
-    </g> are equivalent in terms of the learning objective, but they differ from each other in terms of delivery type or content locale.<br></td> 
+   <td>This is used to model each content resource that a module seeks to encapsulate. All resources encapsulated within an loResource are equivalent in terms of the learning objective, but they differ from each other in terms of delivery type or content locale.<br></td> 
   </tr> 
   <tr> 
    <td>userNotification</td> 
@@ -349,11 +339,7 @@ Following are the various elements of the Learning Manager class diagram in V2 A
   </tr> 
   <tr> 
    <td>userBadge</td> 
-   <td>UserBadge relates a single badge <g class="gr_ gr_76 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" id="76" data-gr-id="76">
-      with 
-    </g> a single user. It contains details such as when was it achieved, <g class="gr_ gr_58 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="58" data-gr-id="58">
-      assertionUrl 
-    </g> and so on. <br></td> 
+   <td>UserBadge relates a single badge with a single user. It contains details such as when was it achieved, assertionUrl and so on. <br></td> 
   </tr> 
   <tr> 
    <td>skill</td> 
@@ -365,9 +351,7 @@ Following are the various elements of the Learning Manager class diagram in V2 A
   </tr> 
   <tr> 
    <td>learningObject</td> 
-   <td>A Learning Object is an abstraction for various kinds of objects which users can enroll into and learn from. Currently Prime has the four types of Learning Objects - Course, Certification, Learning Program <g class="gr_ gr_82 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-ins replaceWithoutSep" id="82" data-gr-id="82">
-      and 
-    </g> Job Aid.<br></td> 
+   <td>A Learning Object is an abstraction for various kinds of objects which users can enroll into and learn from. Currently Prime has the four types of Learning Objects - Course, Certification, Learning Program and Job Aid.<br></td> 
   </tr> 
   <tr> 
    <td>learningObjectInstance<br></td> 
@@ -375,25 +359,15 @@ Following are the various elements of the Learning Manager class diagram in V2 A
   </tr> 
   <tr> 
    <td>learningObjectResource</td> 
-   <td>This is equivalent to the concept of <g class="gr_ gr_62 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" id="62" data-gr-id="62">
-      module 
-    </g>. A course is composed of one <g class="gr_ gr_52 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del" id="52" data-gr-id="52">
-      of 
-    </g> more modules. In Prime, a module can be delivered in a variety of equivalent ways. Therefore the <g class="gr_ gr_53 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="53" data-gr-id="53">
-      loResource 
-    </g> essentially encapsulates all those equivalent resources.<br></td> 
+   <td>This is equivalent to the concept of module. A course is composed of one of more modules. In Prime, a module can be delivered in a variety of equivalent ways. Therefore the loResource essentially encapsulates all those equivalent resources.<br></td> 
   </tr> 
   <tr> 
    <td>loResourceGrade<br></td> 
-   <td>This encapsulates the outcome of the user consuming a specific resource in the context of a learning object he is enrolled into. It has information such as the duration spent by <g class="gr_ gr_48 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" id="48" data-gr-id="48">
-      user 
-    </g> in the resource, percentage progress made by the user, pass/fail status and the score obtained by the user in any associated quiz.<br></td> 
+   <td>This encapsulates the outcome of the user consuming a specific resource in the context of a learning object he is enrolled into. It has information such as the duration spent by user in the resource, percentage progress made by the user, pass/fail status and the score obtained by the user in any associated quiz.<br></td> 
   </tr> 
   <tr> 
    <td>calendar<br></td> 
-   <td>A calendar object is a list of <g class="gr_ gr_42 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" id="42" data-gr-id="42">
-      upcoming classroom 
-    </g> or virtual classroom courses that the user can enroll into.<br></td> 
+   <td>A calendar object is a list of upcoming classroom or virtual classroom courses that the user can enroll into.<br></td> 
   </tr> 
   <tr> 
    <td>l1FeedbackInfo<br></td> 

@@ -3,6 +3,7 @@ description: Read this article to learn how to embed the fluidic player in a cus
 jcr-language: en_us
 title: Embeddable fluidic player
 contentowner: dvenkate
+preview: true
 ---
 
 
@@ -12,7 +13,7 @@ Learning Manager Learning Programs are renamed to Learning Paths. This change ha
 
 Read this article to learn how to embed the fluidic player in a custom application.
 
-As an enterprise, you can now provide a custom experience for your learners even outside Learning Manager. Using the public API, you can fetch all the information related to learning objects, learners’ enrollments and learning progress and display them on your website. More importantly, you can even embed the fluidic player of Prime in your website, so that the learner can consume the content right within your website. The fluidic player gives you the power to play any content that Learning Manager supports. When embedded on your own website, it has the exact same capabilities as when used within Learning Manager.
+As an enterprise, you can now provide a custom experience for your learners even outside Learning Manager. Using the public API, you can fetch all the information related to learning objects, learners' enrollments and learning progress and display them on your website. More importantly, you can even embed the fluidic player of Prime in your website, so that the learner can consume the content right within your website. The fluidic player gives you the power to play any content that Learning Manager supports. When embedded on your own website, it has the exact same capabilities as when used within Learning Manager.
 
 **Play any eLearning content [](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
@@ -57,24 +58,26 @@ As Learning Manager uses OAUTH2.0.,  access token  is required to retrieve resou
 
 * Retrieve OAuth Code
 
-OAuth code is required to retrieve refresh token. Learning Manager redirects the user to the redirection URL with the OAuth code when signed-in using the below url (OAuth code extraction is exemplified in the “oauthredirect.html” file in the sample application):
+OAuth code is required to retrieve refresh token. Learning Manager redirects the user to the redirection URL with the OAuth code when signed-in using the below url (OAuth code extraction is exemplified in the "oauthredirect.html" file in the sample application):
 
-`code https://captivateprime.adobe.com/oauth/o/authorize  
+```
+code https://captivateprime.adobe.com/oauth/o/authorize  
 client_id= <application_id>  
 &redirect_uri=<redirect_uri>  
 &state=<dummy_data>  
 &scope=learner:read,learner:write  
 &response_type=CODE  
 &account=<account_id>  
-&email=<email_id>`
+&email=<email_id>
+```
 
 Here, **[!UICONTROL client id]** is the application id obtained in step 1. 
 **[!UICONTROL redirect_url]** is the redirect_url set in step 1. 
 **[!UICONTROL state]** is any dummy data based on which we need to filter redirect URL to get OAuth code. Scope is learner scope set in Step 1. 
-**[!UICONTROL response_typ]**e is always “CODE”.  
+**[!UICONTROL response_typ]**e is always "CODE".  
 **[!UICONTROL account]**is an optional field  
 **[!UICONTROL email]** is an optional field  
-&#42; If both account id and email are provided, the above URL will allow the user to log in to the same account. This endpoint example is depicted in “index.html” file in the sample application.
+&#42; If both account id and email are provided, the above URL will allow the user to log in to the same account. This endpoint example is depicted in "index.html" file in the sample application.
 
 * Retrieve Refresh Token
 
@@ -117,33 +120,35 @@ Third-party applications can make use of embeddable player to play the content o
 
 1. Create an embeddable URL
 
-To open a course using  embeddable  player, you need to create an embeddable URL as shown below:
+   To open a course using  embeddable  player, you need to create an embeddable URL as shown below:
 
-**https://captivateprime.adobe.com/app/player?lo_id=<v2-api course id>&access_token=<access_token>**
+   `https://captivateprime.adobe.com/app/player?lo_id=<v2-api course id>&access_token=<access_token>`
 
-Here, lo_id needs to comply with the V2 API course id format.
+   Here, lo_id needs to comply with the V2 API course id format.
 
-Example: **https://captivateprime.adobe.com/app/player?lo_id=course:123456&access_token=45b269b75ac65d6696d53617f512450f**
+   Example: `https://captivateprime.adobe.com/app/player?lo_id=course:123456&access_token=45b269b75ac65d6696d53617f512450f`
 
-Certifications,  learningPrograms , and  jobAids  can also be played in the embeddable player.
+   Certifications,  learningPrograms , and  jobAids  can also be played in the embeddable player.
 
-Examples: **https://captivateprime.adobe.com/app/player?lo_id=certification:12345&access_token=c1a4847dfbf4007826a027d481b93c1e  
-  
-https://captivateprime.adobe.com/app/player?lo_id=learningProgram:12345&access_token=c1a4847dfbf4007826a027d481b93c1e  
-  
-https://captivateprime.adobe.com/app/player?lo_id=jobAid:1234&access_token=c1a4847dfbf4007826a027d481b93c1e**
+   Examples: `https://captivateprime.adobe.com/app/player?lo_id=certification:12345&access_token=c1a4847dfbf4007826a027d481b93c1e`
+   
+   `https://captivateprime.adobe.com/app/player?lo_id=learningProgram:12345&access_token=c1a4847dfbf4007826a027d481b93c1e`  
+   
+   `https://captivateprime.adobe.com/app/player?lo_id=jobAid:1234&access_token=c1a4847dfbf4007826a027d481b93c1e`
 
-     2. Set this URL in the “src” attribute of iframe.
+1. Set this URL in the "src" attribute of iframe.
 
 **Closing embeddable player**
 
-`code window.addEventListener("message", function closePlayer(){  
+```
+code window.addEventListener("message", function closePlayer(){  
    if(event.data === "status:close"){  
      //handle closing event  
    }  
-});`
+});
+```
 
-# Sample application tutorial {#sampleapplicationtutorial}
+## Sample application tutorial {#sampleapplicationtutorial}
 
 The attached pdf document contains a sample application tutorial.
 [Sample tutorial and tutorial source to embed fluidic player.](assets/sample-applicationtutorial.zip) Alternative contents
@@ -174,7 +179,7 @@ This is an effort that needs to be undertaken by someone from your IT team or an
 
    You can get your token by setting up your embeddable fluidic player in your integration admin. You can get your authentication token which you can be used as your access token.
 
-   Example of created URL; https://captivateprime.adobe.com/app/player?lo_id=”+lo_id+”&access_token=”+accToken
+   Example of created URL; https://captivateprime.adobe.com/app/player?lo_id="+lo_id+"&access_token="+accToken
 
    Here, lo_id will be the id of the course, learning Program,  certification  and  jobAid .
 
