@@ -13,21 +13,21 @@ Learn how to download learner transcript based on users, learning objects, or sk
 
 Adobe Learning Manager enables the Managers of an organization to generate the transcripts associated with learners. 
 
-# Generate learner transcripts {#generatelearnertranscripts}
+## Generate learner transcripts {#generatelearnertranscripts}
 
-1. To generate learner transcripts, click **Reports **on the left pane in Manager login.
+1. To generate learner transcripts, click **Reports** on the left pane in Manager login.
+1. Click **My Reports** tab on the page.  
+1. Click **Learner Transcripts** link. 
 
-2. Click **My Reports** tab on the page.  
+   ![](assets/learner-transcripts.png)
 
-3. Click** Learner Transcripts** link. 
+1. A Learner transcripts dialog appears. Choose the date range for which you need the transcript generated.
 
-![](assets/learner-transcripts.png)
+   >[!NOTE]
+   >
+   >By default, from start date is the learner's registration date and the to date is always the current date. You can modify only the start date from when you need the data.
 
- 4. A Learner transcripts dialog appears. Choose the date range for which you need the transcript generated.
-
-**Note:** By default, from start date is the learner's registration date and the to date is always the current date. You can modify only the start date from when you need the data.
-
- 5. Choose the learners names from the Select Learners field, and click **Generate.**
+1. Choose the learners names from the Select Learners field, and click **Generate.**
 
 You can choose single learner or groups of learners. To add more than one learner, click Add More Learners.
 
@@ -39,7 +39,9 @@ Like an Administrator, a Manager can also choose the columns to export. In addit
 
 If the Manager enables this option, the timezone is picked from the one set in the profile settings page, shown below.
 
-**Note:** For a new Manager, the Timezone checkbox is disabled.
+>[!NOTE]
+>
+>For a new Manager, the Timezone checkbox is disabled.
 
 ![](assets/image030.png) 
 
@@ -51,7 +53,7 @@ A typical learner transcript file consists of six excel sheets in a single file.
 
 In the learner transcript excel sheet, along with profile details about the learner, a learning object wise consumption details are provided such as enrollment date, started date, grade achieved, quiz score obtained and so on. If courses are part of any learning program, they are listed separtely apart from individual course consumption details. 
 
-**1- Learning Activity Dashboard**
+**1 - Learning Activity Dashboard**
 
 In this LO-specific dashboard, you can view the number of learners for each course, learning program, or certification. You can view the progress sheet for learners for a particular learning object. This sheet displays data like the number of learners who have completed the course or learning program, learners in progress, and learners' due dates.
 

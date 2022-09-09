@@ -14,7 +14,7 @@ Setting up User notifications for Managers.
 
 Notifications feature is applicable to all the users of Adobe Learning Manager 1.0. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 
-# Access notifications {#accessnotifications}
+## Access notifications {#accessnotifications}
 
 Users can see notifications by clicking notifications icon at the upper right corner of the window. In Manager login, you can also click Notifications at the left pane to access these notifications.
 
@@ -30,7 +30,7 @@ A manager can see the pending tasks and all notifications in a tabbed form at th
 
 You can get to know the number of latest notifications by the highlighted number on top of the notifications icon. For example, if there are five latest notifications after your previous login, you can see the number five being displayed on top of the notifications icon. These numbers disappear once you read all the latest notifications.
 
-# Nominate learners for courses {#nominatelearnersforcourses}
+## Nominate learners for courses {#nominatelearnersforcourses}
 
 In the notifications window, as shown in the snapshot above, click the Nominate link. A pop-up dialog appears. Click Nominate.
 
@@ -47,14 +47,14 @@ Managers can get notifications when the following events trigger:
 1. A manager is required to nominate learners to a course
 1. A manager is required to approve a learner for a course.
 1. A manager is required to approve the certification proof document uploaded by the learner
-1. A learner does not complete the course even after the deadline date. (this event triggers only when the notification reminder for the course instance is set with escalation level to the learner’s manager)
+1. A learner does not complete the course even after the deadline date. (this event triggers only when the notification reminder for the course instance is set with escalation level to the learner's manager)
 
-**Note** 
 Managers can also receive notifications when they play the role of a learner. Refer to learner notifications for more information.
 
-# Provide feedback {#providefeedback}
+## Provide feedback {#providefeedback}
 
-#### `As shown in the above snapshot, managers can click Provide Feedback to provide L3 feedback for the learners of each courses or learning programs.`
+As shown in the above snapshot, managers can click Provide Feedback to provide L3 feedback for the learners of each courses or learning programs.
 
-**Note** 
-Learners and Managers can get the feedback option for courses only when an administrator enables it for a particular course.
+>[!NOTE]
+>
+>Learners and Managers can get the feedback option for courses only when an administrator enables it for a particular course.

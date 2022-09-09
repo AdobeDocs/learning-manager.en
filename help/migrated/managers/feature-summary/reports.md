@@ -14,35 +14,33 @@ Creating and managing reports for Managers.
 
 Adobe Learning Manager enables you to create varied reports to track, monitor, and control learner activities. Learners activities are tracked and captured automatically into the database. Manager and Administrator reports are generated from the database.
 
-# Overview {#overview}
-
 Reports generation process is same for both Administrator and Manager. Managers can view reports corresponding to their subordinates whereas Administrator can view all organization-wide reports.
 
 Reports are aggregated in a dashboard. A report has to exist inside a dashboard. A **Default Dashboard** exists by default in the reports page. Any report added by you moves into this default dashboard. To add reports to individual dashboards, use the drop-down arrow and choose Add Report. For more information on creating dashboards, refer to Dashboards section on this page.
 
-# Manager dashboards {#manager-dashboards}
+## Manager dashboards {#manager-dashboards}
 
 A manager can view information about his/her direct or indirect team, as a summary.
 
 The manager can then filter the report according to ranges like, quarter, this month, last three full months, and last 12 full months.
 
-## Learning Summary {#learningsummary}
+### Learning Summary {#learningsummary}
 
 ![](assets/manager-learningsummary.png) ![](assets/manager-dashboard.jpg) 
 
-## Compliance Dashboard {#compliancedashboard}
+### Compliance Dashboard {#compliancedashboard}
 
-See your team’s compliance and which team member is bordering on non-compliance. Choose the Learning Objects and see the status of each. 
+See your team's compliance and which team member is bordering on non-compliance. Choose the Learning Objects and see the status of each. 
 
 ![](assets/compliance-dashboard.png) 
 
-## Skills Status {#skillsstatus}
+### Skills Status {#skillsstatus}
 
 See the percentage of learners for each skill. Choose at most five skills for which you want to see the skills for learners. The visualization is in the form of a stacked bar chart. When you mouse over each bar, you can see the break-up of the status for that skill. 
 
 ![](assets/manager-skills-status.png) 
 
-## Skils Tracker {#skilstracker}
+### Skils Tracker {#skilstracker}
 
 See a projection of skill completion across a team. Choose the target completion percentage and date of a skill. 
 
@@ -50,11 +48,13 @@ Based on historical data, you can see a graphical representation of the skill co
 
 ![](assets/historical-data.png) 
 
-# Creating reports {#creatingreports}
+## Creating reports {#creatingreports}
 
 1. Click Reports on the left pane. Report summary page appears.  
-   **Note** 
-   By default, at least three sample reports appear in the report summary page. You can only view these sample reports to get an idea as to how you could create and customize them.
+
+  >[!NOTE]
+  >
+  >By default, at least three sample reports appear in the report summary page. You can only view these sample reports to get an idea as to how you could create and customize them.
 
 1. On the Report summary page, click Add. Report creation dialog appears.
 1. Click Save to complete creating a report. A sample report is shown below for reference.
@@ -86,7 +86,7 @@ Report Name Type a title for your report.
 
 **To** Choose the end date for your report.
 
-# Filters {#filters}
+## Filters {#filters}
 
 Filters appear in Add report dialog at the bottom based on types of reports you have chosen. Some of the prominent filters are mentioned below. 
 
@@ -96,16 +96,17 @@ Filters appear in Add report dialog at the bottom based on types of reports you 
 
 **User Group** Choose the user group based on which you want to filter the reports. Learning Manager fetches the user groups defined for your account from Users feature. 
 
-**Course **You can filter your report based on any course by choosing them from the drop-down.
+**Course** You can filter your report based on any course by choosing them from the drop-down.
 
 ![](assets/sample-report-admin.png)
 
-**Note** 
-Above the legend for the graph, you can view a zoom box. You can move cursor over it, click, and drag the crossbar over any part of the zoom box area you want to zoom in.
+>[!NOTE]
+>
+>Above the legend for the graph, you can view a zoom box. You can move cursor over it, click, and drag the crossbar over any part of the zoom box area you want to zoom in.
 
 You can view the secondary y-axis values in the form of a line across the graph bars. For example, in the above sample, you can see the values for Effectiveness in gray line across the graph.
 
-# User group reports {#user-group-reporting}
+## User group reports {#user-group-reporting}
 
 Track how user groups such as departments, external partners, and roles are performing in comparison with other user groups or against other learning objectives.
 
@@ -129,7 +130,7 @@ In X-axis, choose the user attribute option and select the attribute the from **
 
 Managers can create user group reports only for their own team members as learners. 
 
-# Types of reports {#typesofreports}
+## Types of reports {#typesofreports}
 
 * Course delivery statistics for learners
 * Effectiveness of courses report
@@ -138,7 +139,7 @@ Managers can create user group reports only for their own team members as learne
 * Learning time spent by learners
 * Certification completion
 
-# My reports {#myreports}
+## My reports {#myreports}
 
 A dashboard is a collection of reports. Reports can be grouped into a dashboard as per your choice.
 
@@ -154,7 +155,7 @@ Click this board tab to view all the boards that you created. From the view boar
 
 1. Click Add dashboard on the right side of the page, to start creating your own boards.
 
-![](assets/add-dashboard.png)
+   ![](assets/add-dashboard.png)
 
 1. Provide the name and description of the dashboard and click **Save**.
 
@@ -162,8 +163,9 @@ You can view the recently created board in the My dashboards list.
 
 To add reports to your board, click the drop-down at the upper right corner of your board window and click Add Report. The report you create in this way is associated to your dashboard.
 
-**Note** 
-The reports you create by clicking Add on the upper right corner of Reports page, are added to your default dashboard.
+>[!NOTE]
+>
+>The reports you create by clicking Add on the upper right corner of Reports page, are added to your default dashboard.
 
 **Shared reports**
 
@@ -175,7 +177,7 @@ You can subsribe to your favorite reports by providing your email id here. Your 
 
 Click the **Edit** icon at the right corner of your report name from the reports list to modify your subscription any time. 
 
-# Viewing reports {#viewingreports}
+## Viewing reports {#viewingreports}
 
 On the Report summary page, you can view all the reports. You can minimize each report by clicking minus (-) icon at the upper right corner of each report. Click + icon to view your report again.
 
@@ -202,7 +204,7 @@ If there are multiple managers reporting to you, you can view the reports quickl
 
 **Resize** You can re-size your reports in 1×1(medium) and 2×2(large) sizes.
 
-# E-mail subscriptions {#emailsubscriptions}
+## E-mail subscriptions {#emailsubscriptions}
 
 You can get your favorite reports in e-mail by subscribing to them.
 

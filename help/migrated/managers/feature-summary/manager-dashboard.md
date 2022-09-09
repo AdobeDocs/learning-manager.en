@@ -10,13 +10,13 @@ contentowner: kuppan
 
 Learn how to view and track learnings from the manager dashboard.
 
-Managers play an important role in a team’s learning initiatives. To guide them better, the learning platform provides the manager with a dashboard view to track the learnings in his team.
+Managers play an important role in a team's learning initiatives. To guide them better, the learning platform provides the manager with a dashboard view to track the learnings in his team.
 
 ![](assets/dashboard-final.png)
 
 To view the details of a graph, click the graph or click **Details** hyper link.
 
-# Learning Summary {#learningsummary}
+## Learning Summary {#learningsummary}
 
 A manager can view the summary of learning activities for his team over a selected time period. Select month, quarter, or year from the drop-down menu.
 
@@ -24,7 +24,7 @@ A manager can view the summary of learning activities for his team over a select
 
 ![](assets/learning-summarydashboard.png) 
 
-## Team view {#teamview}
+### Team view {#teamview}
 
 The Team View displays the teams, their members, and their respective enrollments, progressions, and completions for learning objects.
 
@@ -46,7 +46,7 @@ On further clicking  the number of enrollments, progressions, or completions for
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png) 
 
-## Learnings View {#learningsview}
+### Learnings View {#learningsview}
 
 Learnings View displays the number of Enrollments, Progressions, and Completions for a Learning Object.
 
@@ -56,13 +56,13 @@ To view details including people, enrollment dates, due dates, and progress for 
 
 ![](assets/ls-learnings-view-onfurtherclickingvalues.png) 
 
-## Export report {#exportreport}
+### Export report {#exportreport}
 
 To generate an excel report, click **Actions > Report** 
 
-# Compliance Status {#compliancestatus}
+## Compliance Status {#compliancestatus}
 
-Managers can view the team’s overall compliance status for configured learnings in compliance dashboard. The learnings list is configurable, and the manager can select the learnings to track the compliance status.
+Managers can view the team's overall compliance status for configured learnings in compliance dashboard. The learnings list is configurable, and the manager can select the learnings to track the compliance status.
 
 On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
@@ -78,7 +78,7 @@ Learning Objects with completion deadlines can be configured in compliance dashb
 
 ![](assets/cs-dashboard.png) 
 
-## Team View {#TeamView-1}
+### Team View {#TeamView-1}
 
 Displays the compliance status of a course for respective teams. Compliant, Safe Deadline, Upcoming Deadline, and Non-Compliant are columns in the Team View table.
 
@@ -92,7 +92,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-team-view-on-furtherclickingvaluesincompliantstatus.png) ![](assets/cs-team-view-on-furtherclickingvaluesinsafedeadlinestatus.png) 
 
-## Learnings View {#LearningsView-1}
+### Learnings View {#LearningsView-1}
 
 In the Compliance Status Learnings View, the list of Learning Objects and the corresponding number of team members that are Compliant, within a Safe Deadline, have an Upcoming Deadline, or are Non Compliant is displayed.
 
@@ -102,7 +102,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-learnings-view-onfurtherclickingvalues.png) 
 
-## Export data & send emails {#exportdataampsendemails}
+### Export data & send emails {#exportdataampsendemails}
 
 * To export the compliance status for team and learnings view, click **Actions** > **Export**.
 
@@ -110,7 +110,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png) 
 
-# Team Skills {#teamskills}
+## Team Skills {#teamskills}
 
 Managers can view the skill completion graph and configure a skill completion forecast at different levels. Five skills are listed in the skill drop-down list. The manager gets to know the expertise gained by the team members and identify strong talent in certain skills.
 
@@ -120,7 +120,7 @@ This forecasting is based on system calculations which gives a view in the futur
 
 ![](assets/ts-dashboard-02.png)
 
-To view a team’s skill status, follow the below steps:
+To view a team's skill status, follow the below steps:
 
 1. Click **Team Skills** from the left pane under My Team View section. 
 1. To view the skills displayed, click the skill filter and select one from the drop-down list. 
@@ -129,7 +129,7 @@ To view a team’s skill status, follow the below steps:
 
    ![](assets/first-graph.png)
 
-# How to forecast the team completion % for a skill {#howtoforecasttheteamcompletionforaskill}
+## How to forecast the team completion % for a skill {#howtoforecasttheteamcompletionforaskill}
 
 To forecast the team completion % for a skill, follow the below steps:
 
@@ -145,7 +145,7 @@ To forecast the team completion % for a skill, follow the below steps:
 
    ![](assets/skill-tracker-output.png)
 
-# Skill level completion forecast {#skilllevelcompletionforecast}
+## Skill level completion forecast {#skilllevelcompletionforecast}
 
 The manager of a team can view and configure the team completion percentage of a skill for a particular time period based on the target completion % and date time provided in the skill tracker.
 
@@ -163,7 +163,7 @@ The third point on the line shows the expected target completion % and target co
 
 ![](assets/3-solid-line.png) 
 
-## Forecast line {#forecastline}
+### Forecast line {#forecastline}
 
 The dotted line is the forecast line that displays the forecast depending on the current team completion % for a skill in a given time period.
 
@@ -195,15 +195,15 @@ On selecting the values for a team under the enrollment, achieved, and in progre
 
 ![](assets/ts-click-on-valuesunderskillstatus.png) ![](assets/1-solid-line.png) 
 
-## Export report {#Exportreport-1}
+### Export report {#Exportreport-1}
 
 * Click **Actions **> **Export** to export the data as an excel file. 
 
 ![](assets/export-report.png) 
 
-# Multi-Manager Support in Manager App and Manager Dashboard
+## Multi-Manager Support in Manager App and Manager Dashboard
 
-## Multiple Manager
+### Multiple Manager
 
 A user may have multiple managers apart from their hierarchy manager. These managers have the same capabilities as a regular manager. If a manager is both a hierarchy manager and a store manager, both of them are listed in the dropdown. On choosing a store, managers will have the scope restricted to that store users only.
 
@@ -212,19 +212,19 @@ To set up a manager for a store or organization, use a CSV with the additional c
 * Active field.
 * Active field appended with "managed by user". Users can be assigned as store/organization managers using this field.
 
-## Dashboard
+### Dashboard
 
 Multi-manager reports are available as the following dashboards:
 
 * **Dashboard - Learning Summary:** Enrollments, Views and Completion counts will be shown for that store users only
-* **Dashboard - Compliance Dashboard:** Graph should show the count and the percentages for the lo added based on users belonging to that store only. ‘Reset To Default Learnings’ option will not be available for store managers.
-* **Dashboard - Skill Status:** A** **graph would show the “In Progress” and “Achieved” percentages considering the progress of users of only that store for that skill. ‘Reset to Top Skills’ will not be seen for store managers.
+* **Dashboard - Compliance Dashboard:** Graph should show the count and the percentages for the lo added based on users belonging to that store only. 'Reset To Default Learnings' option will not be available for store managers.
+* **Dashboard - Skill Status:** A** **graph would show the "In Progress" and "Achieved" percentages considering the progress of users of only that store for that skill. 'Reset to Top Skills' will not be seen for store managers.
 
-## Reports
+### Reports
 
 Reports include the multi-valued active fields and the values are comma separated. The store managers can download the Learning summary reports.
 
-### Dashboard reports
+#### Dashboard reports
 
 A dashboard report created for one store/organization will be common for all the stores/organizations. When you switch to another manager, the reports for other stores are also displayed.
 
