@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: Social login in Learning Manager
 contentowner: saghosh
-preview: {Boolean}true
+preview: true
 ---
 
 

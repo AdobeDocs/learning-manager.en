@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: Adobe Learning Manager Cloud Manager
 contentowner: saghosh
-preview: {Boolean}true
+preview: true
 ---
 
 

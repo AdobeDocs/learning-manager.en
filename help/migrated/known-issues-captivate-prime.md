@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: Known issues in Learning Manager
 contentowner: saghosh
-preview: {Boolean}true
+preview: true
 ---
 
 

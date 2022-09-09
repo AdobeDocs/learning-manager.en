@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: Set up users in Learning Manager
 contentowner: shhivkum
-preview: {Boolean}true
+preview: true
 ---
 
 

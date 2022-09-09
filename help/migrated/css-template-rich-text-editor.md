@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: CSS template for Rich Text Editor
 contentowner: saghosh
-preview: {Boolean}true
+preview: true
 ---
 
 
