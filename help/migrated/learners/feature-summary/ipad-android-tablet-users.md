@@ -10,61 +10,41 @@ contentowner: manochan
 
 Read this article to know how to download Learning Manager Learner app for smartphones and tablets. Learn how to consume courses using your mobile or tablet.
 
-# Overview {#overview}
-
 Learning Manager app for learners is available for both Android phone users and iPhone users. Go to either Google Play Store (Android OS) or iTunes (macOS), and download the Learning Manager app.
 
 After you download and install this app, log in to the app using your learner credentials. When you open the Learning Manager mobile app, the following screen is displayed by default.
 
 ![](assets/1.png) 
 
-# Home page {#homepage}
+## Home page {#homepage}
 
 For all accounts that have the option Immersive Layout enabled, there is a brand-new home page to support the Immersive Layout configuration. The home page is organized as a list of cards for the following:
 
-|  ![](assets/image002.png)
-
-| ![](assets/image005.png)
-
-|
+|  ![](assets/image002.png)| ![](assets/image005.png)|
 |---|---|
+|  ![](assets/image006.png)| ![](assets/image008.png)| ![](assets/image010.png)|
 
-|  ![](assets/image006.png)
-
-| ![](assets/image008.png)
-
-| ![](assets/image010.png)
-
-|
-|---|---|---|
-
-# Feedback rating {#feedbackrating}
+## Feedback rating {#feedbackrating}
 
 Learning Manager prompts the learner to provide feedback about their experience with the Mobile App. This feedback appears once in a month and gives enough time interval for users to experience the app and then provide the feedback.
 
-|  ![](assets/image013.png)
+![](assets/image013.png)
 
-| ![](assets/image014.png)
-
-|
-|---|---|
+![](assets/image014.png)
 
 For existing users, they should see the feedback popup once they close the Player for the first time after updating the app to latest version.
 
-Note that the feedback collection is anonymous and appears only for users who’ve enabled the option **Share Usage Data** via a configuration in App settings.
+Note that the feedback collection is anonymous and appears only for users who've enabled the option **Share Usage Data** via a configuration in App settings.
 
-# Download badge {#downloadbadge}
+## Download badge {#downloadbadge}
 
 Learners can download their badges in PDF and Image format. In the User profile section, scroll down, and click any link to download a badge. The downloaded badge is saved in the default device folder. The app allows you to open the folder or the file immediately after the download completes.  
 
-|  ![](assets/image016.png)
+![](assets/image016.png)
 
-|
-|---|
+## Mobile web responsive layout {#responsive}
 
-# Mobile web responsive layout {#responsive}
-
-A completely responsive mobile web experience that ensures that learners use their devices to consume training even if they haven’t installed the mobile app.
+A completely responsive mobile web experience that ensures that learners use their devices to consume training even if they haven't installed the mobile app.
 
 When you first sign into the learner app via the browser on your device, the learner app shows up in the form of a mobile-friendly, responsive layout.
 
@@ -110,27 +90,21 @@ There are some features, which are not supported Mobile Immersive App. These are
 | Media |Capture Audio; only uploading of audio file |
 | Others |Notifications, Post View, Social Leaderboard, People I follow, User Profile |
 
-# Enable learners to download Job Aid {#download-job-aid}
+## Enable learners to download Job Aid {#download-job-aid}
 
 In the mobile immersive mode, a learner can download a Job Aid. Tap **Settings **and then tap **Catalogs**. Download a Job Aid from the list that appears.
 
-|  ![](assets/image018.jpg)
+![](assets/image018.jpg)
 
-|
-|---|
-
-# Enable learners to download Learner Transcript {#download-learner-transcript}
+## Enable learners to download Learner Transcript {#download-learner-transcript}
 
 In the mobile immersive mode, a learner can download the Learner Transcripts.
 
-|  ![](assets/image021.jpg)
+![](assets/image021.jpg)
 
-| ![](assets/image022.jpg)
+![](assets/image022.jpg)
 
-|
-|---|---|
-
-# View badges and skills {#viewbadgesandskills}
+## View badges and skills {#viewbadgesandskills}
 
 **Viewing badges, skills, and gamification points**
 
@@ -150,7 +124,7 @@ Tap the icon next to the book icon at the bottom of the screen. You can immediat
 
 ![](assets/4.png) 
 
-# Sort and filter learning objects {#sortandfilterlearningobjects}
+## Sort and filter learning objects {#sortandfilterlearningobjects}
 
 **Sorting and filtering**
 
@@ -172,7 +146,7 @@ All you need to do is, tap the **Scan QR Code** option and scan the code.
 
 When you consume downloaded courses while you are online, Prime will access the downloaded course instead of making server calls.
 
-# Scan QR code to enroll {#qrcode}
+## Scan QR code to enroll {#qrcode}
 
 You can scan a QR code and enroll for a course. After the learning Administrator generates a QR code, you can scan the QR code from the app and get enrolled in a course.
 
@@ -186,11 +160,11 @@ The scan QR feature allows a learner to perform one of the actions mentioned bel
 * **Enrollment and Completion:** This allows the learner to enroll and mark completion at the same time by scanning the QR code.
 * **Mark Attendance:** This allows the learner to mark attendance for a particular session by scanning the QR code.
 
-## Renaming Learning Objects {#renaminglearningobjects}
+### Renaming Learning Objects {#renaminglearningobjects}
 
 Administrators can rename Learning Objects terminology. To rename, see [Renaming Learning Objects](../../administrators/feature-summary/settings.md#main-pars_header_1570157145).
 
-# Social learning {#socialmobile}
+## Social learning {#socialmobile}
 
 In this update, the following features are not supported. You cannot:
 
@@ -209,13 +183,13 @@ On this platform, the different type of content that can be shared are video, au
 
 This feature is only available on the device app once the Admin enables **Social Learning** for the account.
 
-## Launch social learning on the app {#launchsociallearningontheapp}
+### Launch social learning on the app {#launchsociallearningontheapp}
 
 Upon launching the app, tap the **Social** icon.
 
 ![](assets/home.png) 
 
-## Create a post in a board {#createapostinaboard}
+### Create a post in a board {#createapostinaboard}
 
 Like any other social platform, in the Learning Manager mobile app, you can create a post in a board, so that all learners who are part of the same board can view your post, comment, and upload a file along with the comment.
 
@@ -258,7 +232,7 @@ The following screen appears.
  </tbody>
 </table>
 
-## Supported content format {#supportedcontentformat}
+### Supported content format {#supportedcontentformat}
 
 <table> 
  <tbody>
@@ -287,11 +261,11 @@ The following screen appears.
 
 After creating a post, choose the board where you want to upload the post. Tap Select Board and search for the required board.
 
-After you’ve created a post, tap Post and post your comment for other learners to view your post.
+After you've created a post, tap Post and post your comment for other learners to view your post.
 
 In the mobile app, you cannot create a board. To create a board, you must log in to the web app as a learner. For more information on creating a board, see Social learning in [Learning Manager](https://helpx.adobe.com/captivate-prime/learners/feature-summary/social-learning-web-user.html).
 
-## Actions that can be performed on a post {#actionsthatcanbeperformedonapost}
+### Actions that can be performed on a post {#actionsthatcanbeperformedonapost}
 
 * Comment on a post and based on the permission, view post in a board.
 * Edit or delete comments in a board.
@@ -301,7 +275,7 @@ In the mobile app, you cannot create a board. To create a board, you must log in
 
 * Like  ![](/content/dam/help/icons/_prime-like.png) or dislike ![](/content/dam/help/icons/_prime-dislike.png) a comment.
 
-## Create a post in other boards {#createapostinotherboards}
+### Create a post in other boards {#createapostinotherboards}
 
 You can create a post in other boards as well.
 
@@ -311,7 +285,7 @@ Tap **All Boards** and you can view the activities in the board performed by oth
 
 Navigate to the required board and post your comment.
 
-## Share media in a board {#sharemedia}
+### Share media in a board {#sharemedia}
 
 ![](assets/cp-prime-share.png)
 
@@ -327,7 +301,7 @@ Share pictures, documents, or audio or videos files to any board, so that other 
 
 You can also post any content from an external app, for example, you can share a comment from Reddit or Quora.
 
-# Upload assets in external certificate as proof of completion {#externalcert}
+## Upload assets in external certificate as proof of completion {#externalcert}
 
 Follow the steps below:
 
@@ -336,12 +310,9 @@ Follow the steps below:
 1. From the list of external certificates, choose the required certificate, and enrol for the certificate.      
 1. Tap **Proof of Completion** and upload a file, for example, a pdf or an image.
 
-   |  ![](assets/screenshot-3.png)
+   ![](assets/screenshot-3.png)
 
-   | ![](assets/screenshot-4.png)
-
-   |
-   |---|---|
+   ![](assets/screenshot-4.png)
 
 1. After uploading a file, tab **Submit**. A confirmation message appears.
 
@@ -361,45 +332,40 @@ After the Manager approves the submission, the status changes to **Approved**, c
 
 If the Manager rejects the submission, the status changes to **Rejected**, colored in red.
 
-|  ![](assets/screenshot-7.png)
+![](assets/screenshot-7.png)
 
-| ![](assets/screenshot-9.png)
+![](assets/screenshot-9.png)
 
-| ![](assets/screenshot-8.png)
-
-|
-|---|---|---|
+![](assets/screenshot-8.png)
 
 After rejection, you are allowed to upload a file as proof of completion.
 
 * You can only submit a file when the status is **Pending Submission and Rejected**.  
-
 * You cannot submit a file when the status is **Pending Approval and Approved**.
 
-# Take courses from LinkedIn Learning {#linkedin}
+## Take courses from LinkedIn Learning {#linkedin}
 
 Learning Manager already supports LinkedIn Learning courses within the learning platform. Now learners can take up such LinkedIn Learning courses within the Learning Manager mobile app. In the device app, search for a course, and then start the course.
 
 If you have the LinkedIn app already installed, the course will open in the app, or else the course will open in the default browser, where you must log in using your LinkedIn credentials. 
 
-If you are taking the course via the LinkedIn app, your progress will not be tracked inside Learning Manager. Hence, it’s recommended that the course is launched in the browser instead of the LinkedIn Learning app. 
+If you are taking the course via the LinkedIn app, your progress will not be tracked inside Learning Manager. Hence, it's recommended that the course is launched in the browser instead of the LinkedIn Learning app. 
 
-**Note:** You can only take the courses if you have an active internet connection.
+>[!NOTE]
+>
+>you can only take the courses if you have an active internet connection.
 
-|  ![](assets/start-course.jpg)
+![](assets/start-course.jpg)
 
-| ![](assets/enroll-course.jpg)
+![](assets/enroll-course.jpg)
 
-| ![](assets/sign-in.jpg)
-
-|
-|---|---|---|
+![](assets/sign-in.jpg)
 
 Learning time spent in LinkedIn Learning courses is communicated by the LinkedIn content/LinkedIn platform to Learning Manager learning platform.
 
 In case LinkedIn learning does not send the learning time, it cannot be recorded by our learning platform. In such case, learning time spent displayed by Learning Manager is zero.
 
-# Submit file for classroom and activity modules {#submitfile}
+## Submit file for classroom and activity modules {#submitfile}
 
 As a learner, you can submit files as proof of course completion to your instructor. The instructor can then approve or reject your submission, based on the contents of the file.
 
@@ -411,7 +377,7 @@ After the learner starts a course, the learner can see the status **File Submiss
 
 To upload the file, click **Upload File**.
 
-Upload any file and click the **Submit **button.
+Upload any file and click the **Submit** button.
 
 ![](assets/upload-file.png) ![](assets/pending-file-approval.png) 
 
@@ -456,13 +422,13 @@ When the instructor rejects the submission, the status on the Learner mobile app
 
 To submit the file again, click the link **Upload File**.
 
-# Learning Manager for iPad and tablets {#captivateprimeforipadandtablets}
+## Learning Manager for iPad and tablets {#captivateprimeforipadandtablets}
 
-In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the following **Home **screen:
+In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the following **Home** screen:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-To navigate to learning and catalog features, tap the **Menu **drop-down and choose appropriate option.
+To navigate to learning and catalog features, tap the **Menu** drop-down and choose appropriate option.
 
 ![](assets/menu-ipad.png)
 
@@ -472,19 +438,18 @@ You have an option to view the set of courses in a list view instead of tiled/ca
 
 You can access the Learning Manager app off-line in iPad and Android tablets. You can download courses and learning programs. Take courses, consume the Learning programs in off-line mode and synchronize the content back with online app when you connect to the network.
 
-1. Tap **Menu **drop-down at the top and tap **Learning **option. A list of all the available courses is displayed in tiles.
+1. Tap **Menu** drop-down at the top and tap **Learning** option. A list of all the available courses is displayed in tiles.
 
 1. Tap the download icon at the bottom of each learning object tile, to download the learning content.
 
-![](assets/download-cards.png)
+   ![](assets/download-cards.png)
 
-    3. A prompt appears in a bar at the top of the app denoting the network status of the device. 
+1. A prompt appears in a bar at the top of the app denoting the network status of the device. 
 
-a. Red bar indicates that the network is not available for the device. 
+   * Red bar indicates that the network is not available for the device. 
+   * Green bar indicates network is back online. 
 
-b. Green bar indicates network is back online. 
-
-User can switch back to online mode by clicking **view online content **button on the green bar. Content in the device is synchronized when the user switches to online mode. 
+User can switch back to online mode by clicking **view online content** button on the green bar. Content in the device is synchronized when the user switches to online mode. 
 
 ## Track device storage {#trackdevicestorage}
 

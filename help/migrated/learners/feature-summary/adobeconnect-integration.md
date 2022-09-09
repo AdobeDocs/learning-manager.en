@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Adobe Connect integration
+description: As a learner you can consume virtual class room courses using Adobe Connect if your company integrates Adobe Connect with your Learning Manager account. Contact the administrator of your company if you are unable to use Adobe Connect.
 ---
 
 
@@ -8,9 +9,9 @@ title: Adobe Connect integration
 
 As a learner you can consume virtual class room courses using Adobe Connect if your company integrates Adobe Connect with your Learning Manager account. Contact the administrator of your company if you are unable to use Adobe Connect.
 
-# Consume Adobe Connect virtual classroom courses {#consumeadobeconnectvirtualclassroomcourses}
+## Consume Adobe Connect virtual classroom courses {#consumeadobeconnectvirtualclassroomcourses}
 
-Log in to Learning Manager as a Learner and click the virtual classroom course card from the My Learning widget.** **Alternatively, you can choose Catalog from the left pane, filter courses, and click the required virtual classroom course.
+Log in to Learning Manager as a Learner and click the virtual classroom course card from the **My Learning** widget.Alternatively, you can choose Catalog from the left pane, filter courses, and click the required virtual classroom course.
 
 If you have enrolled to an Adobe Connect virtual classroom session then you will receive a notification prior to beginning of the session with your account URL.
 
@@ -23,7 +24,7 @@ After completing the course, you will receive a successful course completion not
 
 If Administrator has enabled L1 feedback for you, Learning Manager application sends a reminder to provide L1 feedback.
 
-# View recorded virtual classroom sessions {#viewrecordedvirtualclassroomsessions}
+## View recorded virtual classroom sessions {#viewrecordedvirtualclassroomsessions}
 
 If you want to listen to recorded virtual classroom sessions, click the Virtual classroom course. You can view all the recorded session URLs. This is applicable only if the host of the session records the sessions.
 

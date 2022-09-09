@@ -104,7 +104,7 @@ Content is created as a post inside a board. To create a post, follow the below 
 
    ![](assets/create-a-new-board-04.png)
 
-   If you are an external or internal user, and if the Administrator has granted you access to create a board, you can ceate a board. If you do not have the permissions to create a board, the link **Create a New Board **does not appear. 
+   If you are an external or internal user, and if the Administrator has granted you access to create a board, you can ceate a board. If you do not have the permissions to create a board, the link **Create a New Board** does not appear. 
 
 1. From the pop-up dialog box, fill in the details, select the following type of board:
 
@@ -168,7 +168,7 @@ Once the user has finished posting some content, it can be viewed by other learn
 1. Users can comment/reply, upvote/downvote, and report abuse.
 1. Click the Esc key to exit full screen mode.
 
-# Board view in social {#board-view-social}
+## Board view in social {#board-view-social}
 
 A Learner can see all boards in a list view. Sign in to your learner app and in your Social Learning page, click the button, as shown below: 
 
@@ -201,7 +201,7 @@ In the board view, you can perform the usual board-level actions.
 
 ![](assets/image010.png) 
 
-# Download posts {#downloadposts}
+## Download posts {#downloadposts}
 
 Learners can download the content, with attachments, from Social Learning Platform, so that they can use this content offline.
 
@@ -215,7 +215,7 @@ The Download button can also be seen in search results for posts or comments or 
 
 You cannot, yet, download a post in the device app. This feature will be available soon.
 
-# Supported content formats {#supportedcontentformats}
+## Supported content formats {#supportedcontentformats}
 
 <table> 
  <tbody>
@@ -242,7 +242,7 @@ You cannot, yet, download a post in the device app. This feature will be availab
  </tbody>
 </table>
 
-# Board visible only to selected users {#selected-users}
+## Board visible only to selected users {#selected-users}
 
 A learner who also has an **admin** role can add a user group to a private board. Any user group can be added to the private board and the users belonging to the user group only has access to the board.
 
@@ -254,7 +254,7 @@ If multiple user groups are added to the private board, all the users of both th
 
 ![](assets/choose-private-board.png) 
 
-# Actions that can be done on a post {#actionsthatcanbedoneonapost}
+## Actions that can be done on a post {#actionsthatcanbedoneonapost}
 
 Click the collapsed menu icon from the upper right corner of a post to view its options. The following menu list is displayed: Edit, add to my story, copy URL, delete and report.
 
@@ -285,7 +285,7 @@ Only some users have permissions to perform particular tasks. The following type
   <tr> 
    <td><p>4</p></td> 
    <td><p>Delete</p></td> 
-   <td><p>Delete option removes  the post after user’s confirmation.</p></td> 
+   <td><p>Delete option removes  the post after user's confirmation.</p></td> 
   </tr> 
   <tr> 
    <td><p>5</p></td> 
@@ -364,13 +364,13 @@ To add a post to a story, follow the below steps:
  </tbody>
 </table>
 
-# Viewing Content in boards {#viewingcontentinboards}
+## Viewing Content in boards {#viewingcontentinboards}
 
 Boards are a collection of posts. Every board in Social Learning is created based on a skill. In Social Learning, users can view the **All Boards** page and **My Boards** page.
 
 In the All Boards page, posts or boards created by all users in a activity scope are visible. But in the My boards page, only boards created, followed and participated by a user is visible.
 
-In the My Boards Page, the boards visible can be filtered according to the following: **All**, **Created by me**,** Commented by me**, **Followed by me**. 
+In the My Boards Page, the boards visible can be filtered according to the following: **All**, **Created by me**, **Commented by me**, **Followed by me**. 
 
 ![](assets/board-filter-07.png)
 
@@ -418,7 +418,7 @@ To follow other users, follow the below steps:
 
    ![](assets/follow-unfollow-peers-14.png)
 
-# Social Leader board {#socialleaderboard}
+## Social Leader board {#socialleaderboard}
 
 Social leaderboard enhances gamification. Activity points are awarded to users on creation of a new post/board, on getting an upvote for his/her post, on providing the right answer to a question and other participations in Social Learning.
 
@@ -428,7 +428,7 @@ Click **Go to Leaderboard** in the **My Boards** page to view all learners and t
 
 ![](assets/social-leaderboard-15.png) 
 
-# Activity points {#activitypoints}
+## Activity points {#activitypoints}
 
 The number of activity points given to users are based on Social activities performed.
 
@@ -439,15 +439,15 @@ The number of activity points given to users are based on Social activities perf
 * 2 points for commenting on any post.
 * 1 point is awarded to the user who is the first to start using a board. Users gain a total of 20 points for the first 20 new posts posted in that board.
 
-# How to become a Subject Matter Expert (SME) {#howtobecomeasubjectmatterexpertsme}
+## How to become a Subject Matter Expert (SME) {#howtobecomeasubjectmatterexpertsme}
 
-A subject matter expert (SME) is a person with the expertise in a particular skill. In Learning Manager Social Learning, users are designated as SME’s based on the maximum number of activity points awarded to them for a skill.
+A subject matter expert (SME) is a person with the expertise in a particular skill. In Learning Manager Social Learning, users are designated as SME's based on the maximum number of activity points awarded to them for a skill.
 
-Top SMEs have the privilege to curate learner’s content before it gets posted in a board in Social Learning.
+Top SMEs have the privilege to curate learner's content before it gets posted in a board in Social Learning.
 
 The administrator of the organization also has the privilege to add more points to a learner to make them a SME for a skill.
 
-## How to curate content as a SME? {#howtocuratecontentasasme}
+### How to curate content as a SME? {#howtocuratecontentasasme}
 
 1. On creation of a new post or board by a user, the SME gets a notification displaying that a post on a board is awaiting curation. 
 
@@ -460,15 +460,15 @@ The administrator of the organization also has the privilege to add more points 
 1. To rate content based on percentage of relevancy it has to a board's skill, select the color in the relevancy scale. The first color is rated as irrelevant (10% relevancy) and the last color represents very relevant(100% relevancy). 
 1. It is recommended that the SME types a comment based on a particular relevancy score given. Users get a better understanding of why their post is rejected on reading the comment.
 
-# AI-enabled auto curation {#autocuration}
+## AI-enabled auto curation {#autocuration}
 
-# Search in formal and informal learning {#searchinformalandinformallearning}
+### Search in formal and informal learning {#searchinformalandinformallearning}
 
 Every page in Social Learning has the search field which allows users to look for any board, skill, or content. Search by typing in the search field and click the search icon or press the Enter key on the keyboard.
 
 ![](assets/search-16.png)
 
-The following pages in informal learning have a search field: **My boards**, **All boards**, **Boards page**, user's** Profile page**, and **other learner’s profile page**.
+The following pages in informal learning have a search field: **My boards**, **All boards**, **Boards page**, user's **Profile page**, and **other learner's profile page**.
 
 When a user search's for content in the Informal Learning , the total number of search results for the content in the informal and formal learning of Learning Manager is displayed.
 
@@ -478,7 +478,7 @@ Similarly, the number of search results found in informal learning is displayed 
 
 In informal learning board's page, only board-related searches can be made. Any search not related to a board is not displayed.
 
-# View user profile {#viewuserprofile}
+## View user profile {#viewuserprofile}
 
 If Social Learning is enabled for a learner, then the user can view their profile on clicking their profile image in the upper-right corner of Social Learning and clicking their name from the drop-down list.
 
@@ -488,7 +488,7 @@ In the profile page, learners can view the total number of points gained, number
 
 Learners can also view the skills for which they are designated as a Subject Matter Expert.
 
-The learner’s page  also displays the learner’s **curated stories**, **recent activities** performed, and the **people followed **by them.
+The learner's page  also displays the learner's **curated stories**, **recent activities** performed, and the **people followed **by them.
 
 # Notifications {#notifications}
 

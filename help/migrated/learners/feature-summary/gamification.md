@@ -14,13 +14,11 @@ Engage users using gamification techniques in Learning Manager.
 
 Gamification is the use of game thinking and game mechanics in non-game contexts to engage users in earning points while learning.
 
-# Overview {#overview}
-
 To engage learners and motivate them to achieve their goals by using gaming techniques, use the gamification feature in Learning Manager. Learners can compete with their colleagues to score points for various learning activities and achieve bronze, silver, gold, and platinum levels.
 
 Learners can also see the achievement level based on the points that they have earned. The levels include Fast learner, Self driven, and so on. **Both internal learners and external learners can access this feature.**
 
-# Leaderboard {#leaderboard}
+## Leaderboard {#leaderboard}
 
 Leaderboard  is a gamification feature which acts as a scoreboard to showcase the ranking scores of leading competitors. Learners can see their gamification points using Leaderboard.
 
@@ -28,14 +26,14 @@ From the Learner's h ome page , click **[!UICONTROL Gamification]** from the lef
 
 Some of the features of Leaderboard for learners:
 
-* Learners enrolled in a Learning Program instance can see each other’s’ points if gamification is enabled for that instance.
-* Click **[!UICONTROL Add colleagues]** to include team member that you want to compare against. Your team member’s profile picture is added to the timeline scale at the top of the leaderboard page. This timeline scale shows your points at the beginning and moves your position to the right when you achieve more points than your team members. You can only compare it against other members of the same group.
+* Learners enrolled in a Learning Program instance can see each other's' points if gamification is enabled for that instance.
+* Click **[!UICONTROL Add colleagues]** to include team member that you want to compare against. Your team member's profile picture is added to the timeline scale at the top of the leaderboard page. This timeline scale shows your points at the beginning and moves your position to the right when you achieve more points than your team members. You can only compare it against other members of the same group.
 * **User groups:** At any time you can choose your team members profiles that you want to compare your rank with, using the **[!UICONTROL Rank Me With]** option. From the Select User Groups field, type and choose the group. The list of all the team members along with their latest points are listed below. Both internal and external users can view the list but only internal users are enabled to search other  internal  learners.
 
 * Also, the People Around Your Rank dialog box displays the names of team members who are above, below or at the same level as you.
 * When an external user converts  in to  an internal user, the timeline is automatically updated.
 
-# Points for consistent learning
+## Points for consistent learning
 
 Adobe Learning Manager introduces a new gamification task that encourages users to access the learning platform consistently and engage in the learning activities. To support this task, the Administrator can now setup a new rule that awards points if the learner carries out learning activities for 1, 2, 3, or 4 days in a week, month, or quarter.
 
@@ -57,19 +55,19 @@ Adobe Learning Manager now enables an Administrator to activate a gamification c
 
 ![](assets/feedback-rating.png)
 
-This feature encourages the users to actively provide feedback, which benefits Learners as well as the Administrators, who now better understand the Learner’s point of view and can better evaluate the efficiency of a course.
+This feature encourages the users to actively provide feedback, which benefits Learners as well as the Administrators, who now better understand the Learner's point of view and can better evaluate the efficiency of a course.
 
-# Tasks {#tasks}
+## Tasks {#tasks}
 
 There are five gamification tasks of learners. You can view gamification points inside the circle at the upper-right corner of the window in the Learners home page. To view the allocation for each task, click Gamification.  
 
 The system displays the Gamification page, depicting all the learners tasks and points is shown below:
 
-**Note**
-
-Gamification points within a particular task are not cumulative. But, the points are added to learners account cumulatively if the learners get across these points across different tasks. 
-
-While assigning courses to points, administrator has to ensure that the learners get the points progressively.
+>[!NOTE]
+>
+>Gamification points within a particular task are not cumulative. But, the points are added to learners account cumulatively if the learners get across these points across different tasks. 
+>
+>While assigning courses to points, administrator has to ensure that the learners get the points progressively.
 
 **For Fast learner**
 
@@ -82,10 +80,11 @@ You can see the following possible scenarios:
 1. When learners complete eight courses, they get 300 points.
 1. When learners complete ten courses, they get 500 points.
 
-**Note**
-
-Administrator can modify the time period and the number of courses required to complete to earn corresponding points.  
-Within a task, points are not accorded to learners cumulatively. For example, assume that a learner completes single course and gets 20 points. When learners complete two courses, they get 100 points but the existing 20 points are not considered.
+>[!NOTE]
+>
+>Administrator can modify the time period and the number of courses required to complete to earn corresponding points.
+>
+>Within a task, points are not accorded to learners cumulatively. For example, assume that a learner completes single course and gets 20 points. When learners complete two courses, they get 100 points but the existing 20 points are not considered.
 
 **For Self driven learner (a)**
 
@@ -96,8 +95,9 @@ Possible scenarios:
 1. When learners enroll for one course within a month/quarter/year, they get 50 points.
 1. When learners enroll for two courses within a month/quarter/year, they get 150 points.
 
-**Note** 
-Administrator can modify the time period and the number of courses.
+>[!NOTE]
+>
+>Administrator can modify the time period and the number of courses.
 
 **For Self driven learner(b)**
 
@@ -109,9 +109,10 @@ Possible scenarios for learners enrollment of courses in addition to their allot
 1. When learners enroll for two courses within a month/quarter/year, they get 100 points.
 1. When learners enroll for three courses within a month/quarter/year, they get extra 300 points.
 1. When learners enroll for four courses within a month/quarter/year, they get extra 500 points.
-
-**Note** 
-Administrator can modify the time period and the number of courses. For example, the third scenario can be modified to five courses instead of three to gain 80 points.
+ 
+>[!NOTE]
+>
+>Administrator can modify the time period and the number of courses. For example, the third scenario can be modified to five courses instead of three to gain 80 points.
 
 **For Upskill (a)**
 
@@ -124,8 +125,9 @@ Possible scenarios for Upskill in competencies:
 1. When learners achieve three competencies, they gain 600 points.
 1. When learners achieve four competencies, they gain 900 points.
 
-**Note** 
-Time period is not applicable for this task. Administrator can modify the number of courses for each scenario.
+>[!NOTE]
+>
+>Time period is not applicable for this task. Administrator can modify the number of courses for each scenario.
 
 **For Upskill (b)**
 
@@ -137,8 +139,9 @@ Possible scenarios for upskill in levels within a particular competency:
 1. When learners achieve two levels, they get 200 points.
 1. When learners achieve three levels, they get 500 points.
 
-**Note** 
-Time period is not applicable for this task. Administrator can modify the number of levels for each scenario. If learners achieve higher level and then  achieve lower level of a competency, then they gain points only for the higher level.
+>[!NOTE]
+>
+>Time period is not applicable for this task. Administrator can modify the number of levels for each scenario. If learners achieve higher level and then  achieve lower level of a competency, then they gain points only for the higher level.
 
 **Early completion points**
 
@@ -163,7 +166,7 @@ Learners status of Level is displayed at the upper-right corner of the page in a
 1. Gold - when learner achieves 3000 points.
 1. Platinum - when learner achieves 5000 points.
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 **1. How to see the Leaderboard as a learner?**
 

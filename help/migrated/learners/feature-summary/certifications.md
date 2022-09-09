@@ -14,32 +14,32 @@ Certify your learners on a one time basis or on a recurring time frame using thi
 
 Learners can take up the certifications which are assigned to them by the administrators of the organization. There are two types of certifications in Learning Manager.
 
-1. External  
-   These certificates can be obtained from outside of your organization. Your organization recommends you to take up these certifications and submit proof.
-1. Internal  
-   These certificates can be obtained by completing certain courses prescribed as part of the curriculum. Your organization issues these certifications after completion.
+* **External** - These certificates can be obtained from outside of your organization. Your organization recommends you to take up these certifications and submit proof.
+* **Internal** - These certificates can be obtained by completing certain courses prescribed as part of the curriculum. Your organization issues these certifications after completion.
 
-# Taking up internal certifications {#takingupinternalcertifications}
+## Taking up internal certifications {#takingupinternalcertifications}
 
 1. From the Learners home page, in the My Learning widget, click Certifications.
 
 A page appears with a list of all certifications that are relevant to you. 
 
-1. View certifications in various modes:* *
+1. View certifications in various modes:
 
    1. Click Pending widget to see all the certifications that you need to complete.
    1. Click My Learning from the left pane, and select Certifications to view all the certifications.  
    1. Sort and view the list of certifications based on relevance and published date.
 
-1. In Pending widget from the Home page, click the internal certification that you have to take.  
+1. In Pending widget from the Home page, click the internal certification that you have to take.
+
    The certifications that are pending, appear below the widget.  
 
 1. Click Start to take up certification.
 
-**Note** 
-If you have multiple courses in the certification, the latest pending course shows up in a player followed by other pending courses. Alternatively, you can also click on each associated pending certification course and take up the course.
+>[!NOTE]
+>
+>If you have multiple courses in the certification, the latest pending course shows up in a player followed by other pending courses. Alternatively, you can also click on each associated pending certification course and take up the course.
 
-# Taking up external certifications {#takingupexternalcertifications}
+## Taking up external certifications {#takingupexternalcertifications}
 
 You have to take up the external certification outside of your organization and submit the proof.
 
@@ -49,7 +49,7 @@ You have to take up the external certification outside of your organization and 
    A certification page appears with the certification overview, the certification validity date, issuer, completion date, type (recurring or perpetual), and, badge.
 1. To submit the proof of completion for your certification, click Browse, select the file from your local path and click **Upload**.
 
-# Completing certifications {#completingcertifications}
+## Completing certifications {#completingcertifications}
 
 The certification completion criteria depends on how many courses the author or the administrator has set as mandatory. For example, for a certification containing four courses, if the author or administrator has set two courses as mandatory, then when a learner completes two courses out of four, the learner achives completion status.
 

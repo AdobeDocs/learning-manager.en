@@ -1,27 +1,28 @@
 ---
 jcr-language: en_us
 title: Learner home page
+description: After the Administrator enables Immersive layout, the learner, after signing into the app, is greeted with a completely revamped User Interface.
 contentowner: saghosh
 ---
 
 
 # Learner home page {#learner-home-page}
 
-# Overview {#overview}
-
 After the Administrator enables Immersive layout, the learner, after signing into the app, is greeted with a completely revamped User Interface. 
 
-**Note:** The Immersive Layout is not supported on the IE11 browser.
+>[!NOTE]
+>
+>he Immersive Layout is not supported on the IE11 browser.
 
 Based on whether a widget was enabled, the learner sees the following: 
 
-# Masthead {#masthead}
+## Masthead {#masthead}
 
 Features a video or image carousel with an embedded URL. The [Administrator can upload any image or video](../../administrators/feature-summary/announcements.md#masthead) asset as a masthead and set its visibility for a group of learners.
 
 ![](assets/learner-masthead.png) 
 
-# My Learning List {#mylearninglist}
+## My Learning List {#mylearninglist}
 
 Displays the training that the learner had taken. These trainings are displayed as cards lined up horizontally. You can click the right or left button to browse the courses. 
 
@@ -29,7 +30,7 @@ Displays the training that the learner had taken. These trainings are displayed 
 
 You can also can also swipe left and right to navigate through the list.
 
-To resume a course, click **Continue **on a card, and the player will launch. 
+To resume a course, click **Continue** on a card, and the player will launch. 
 
 The appearance of icons on each training card is enabled/disabled by the Admin via the Admin app (**Settings > General > Enable Training Card Icons**).
 
@@ -39,7 +40,7 @@ If you hover on any course card in the **Recommended based on your areas of inte
 
 ![](assets/add-my-learning.png) 
 
-# Choose skill levels {#chooseskilllevels}
+## Choose skill levels {#chooseskilllevels}
 
 As a learner, you can filter the course catalog according to these levels:
 
@@ -51,7 +52,7 @@ Choose an option and you can then see the course catalog according to the select
 
 ![](assets/skill-levels.png) 
 
-# Calendar {#calendar}
+## Calendar {#calendar}
 
 Shows your scheduled sessions and training. Browse the calendar to see training for subsequent months. 
 
@@ -64,7 +65,7 @@ The Calendar widget has the following features. You can view:
 * Upcoming classroom or VC training you have enrolled in.
 * Manager-approved classroom or VC training.
 
-# Social feed {#socialfeed}
+## Social feed {#socialfeed}
 
 ![](assets/social-feed.png)
 
@@ -75,13 +76,13 @@ The widget summarizes activity for a period. It:
 * Displays active users and their activities of the users who are in your scope or group.
 * Displays posts made in the last two weeks.
 
-# Profile Skills {#profileskills}
+## Profile Skills {#profileskills}
 
 Profile skills are used for course recommendations. If the Administrator assigns a skill to a user or group of users, the skill gets added to the profile skills of the learner. If the learner adds a skill to his/her profile, all levels of the skill get added to the learner's profile skills. When a learner hovers on a skill, he/can see the name of the skill, method of addition of the skill, level, percent of completion of the skill, and credits.
 
 ![](assets/profile-skills.png) If a learner enrolls in a course, only the external skills that are based on a score get added to the profile skills. In addition, a learner can search, select, and add external skills to his/her profile.If a learner has logged in to the learner app for the first time, and if the learner's skills are already present, the skills appear on My Profile. 
 
-# Recommendation based on your area of interest {#recommendationbasedonyourareaofinterest}
+## Recommendation based on your area of interest {#recommendationbasedonyourareaofinterest}
 
 Displays training based on your chosen area of interest. The recommendation is driven by a Machine Learning algorithm. 
 
@@ -117,7 +118,7 @@ The skills that you chose also displays in the **Selected Skills** section.
 
 To add the skills, click **Add**.
 
-# Recommendation based on peer activity {#recommendationbasedonpeeractivity}
+## Recommendation based on peer activity {#recommendationbasedonpeeractivity}
 
 Displays training based on what your peers are taking. This is again driven by a Machine Learning algorithm. The recommendations are based on training for both Custom and Industry Aligned learners.   
 

@@ -14,7 +14,7 @@ Skills map is a grouping of skill sets, knowledge, and traits of an employee in 
 
 Adobe Learning Manager enables you to map the performance of learners based on their skill sets using the Skills widget. When learners complete taking up some courses, learners can know their standing against each skill by clicking on Skills from the Learners Home page.
 
-# View skills {#viewskills}
+## View skills {#viewskills}
 
 To view the skills, click any one of the skill names in the Skills widget on the Learner page. Skills are displayed along with their levels adjacent to them.
 
@@ -30,6 +30,6 @@ From this page, you can click each of your skills to view the corresponding data
 
 Only administrators can create and assign skill to learners. Learners are automatically assigned to skill corresponding to the enrolled courses/learning programs.
 
-# Achieve skill {#achieveskill}
+## Achieve skill {#achieveskill}
 
 A learner can achieve skill as and when they complete the assigned courses/learning programs with skill credits assigned to it. Learners can also achieve skill by self-enrolling to the courses that belong to a particular skill and completing it.

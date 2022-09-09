@@ -14,7 +14,7 @@ User notifications for Learners in Learning Manager.
 
 Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 
-# Access notifications {#accessnotifications}
+## Access notifications {#accessnotifications}
 
 Users can see notifications by clicking notifications icon at the upper right corner of the window.
 
@@ -28,7 +28,7 @@ You can know the number of latest notifications based on the highlighted number 
 
 Learners can reject a course assigned to them by Managers by clicking Reject in notifications pop up window.
 
-# Show all notifications {#showallnotifications}
+## Show all notifications {#showallnotifications}
 
 Click **Show all notifications** link at the bottom of the notifications pop-up window to view all the notifications in a separate page.
 
@@ -55,11 +55,12 @@ Learners get notifications whenever the following events trigger:
 1. Manager approves/rejects the proof of certification completion document uploaded by the learner
 1. When the deadline for a particular course instance is approaching. (Administrator can set the date from which reminder notifications can appear for learner).
 
-# Provide feedback {#providefeedback}
+## Provide feedback {#providefeedback}
 
 Learners can provide L1 feedback after completing a course which has a feedback option to it. To provide feedback, click feedback link as shown below, after you complete the course.
 
 ![](assets/feedback.png)
 
-**Note** 
-Learners get the feedback option for courses only when an administrator enables it for a particular course.
+>[!NOTE]
+>
+>Learners get the feedback option for courses only when an administrator enables it for a particular course.

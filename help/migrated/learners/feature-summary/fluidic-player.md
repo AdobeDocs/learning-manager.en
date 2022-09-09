@@ -12,11 +12,11 @@ Read this article to know how to use the Fluidic Player for courses.
 
 Fluidic player is a platform for learners to consume content with uninterrupted and blended learning experience. All the supported formats are played consistently in this player. Authors and Administrators can preview the content using the player.
 
-# Player features {#playerfeatures}
+## Player features {#playerfeatures}
 
 ![](assets/fluidicplayer-callout.png)
 
-**TOC **- While taking up a course, the player displays a table of contents for that course on the left pane of the window. You can click each topic and navigate to it directly. 
+**TOC** - While taking up a course, the player displays a table of contents for that course on the left pane of the window. You can click each topic and navigate to it directly. 
 
 **Bookmarks** - If any of the course modules has a module TOC, then topics in module TOC can be bookmarked to refer later. When bookmarked, a star icon appears next to the TOC entry. Bookmarks can be deleted by clicking the star again.
 

@@ -15,7 +15,7 @@ Job Aids can be consumed independently or along with course consumption in Learn
 
 An Administrator of your organization can assign job aids to learners. In learner login you can view Job Aids in the My Job Aids widget on the Home page. If there are any job aids assigned to you, you can view them in the My Job Aids widget at the bottom of the Learner's page.  
 
-# Consume job aids {#consumejobaids}
+## Consume job aids {#consumejobaids}
 
 From the My Job Aids widget, click the Job Aid name. The job aid opens up in a fluidic player for your consumption. You can also download job aids by clicking the download icon at the left-lower corner of the player window.
 

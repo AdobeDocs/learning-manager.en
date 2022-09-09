@@ -24,7 +24,7 @@ Learners will not be able to use the desktop application if Social Learning is d
 
 ![](assets/homepage-13.png) 
 
-# Creating a video {#creatingavideo}
+## Creating a video {#creatingavideo}
 
 The desktop application allows a user to record web, screen and both.
 
@@ -39,17 +39,17 @@ Do the following to make a video recording and post it onto the social learning 
 1. To create a post, you can choose one of the three options provided in the home page. To launch the recording window, click the Record video icon.
 1. As per the requirement, you can choose webcam, Screen or both. 
 
-   **Webcam **The webcam captures the narrator who is demonstrating or presenting a project or application including audio. Select the webcam icon  from the above options for the Live window to appear.
+   **Webcam** The webcam captures the narrator who is demonstrating or presenting a project or application including audio. Select the webcam icon  from the above options for the Live window to appear.
 
-   **Screen **Record actions performed on the monitor screen. By selecting the screen icon, the screen gets highlighted with a record dialog at the center of your screen.
+   **Screen** Record actions performed on the monitor screen. By selecting the screen icon, the screen gets highlighted with a record dialog at the center of your screen.
 
-   **Both **Records both the narrator and screen actions. By selecting the last icon, the screen gets highlighted and the user gets a Live window along with it. 
+   **Both** Records both the narrator and screen actions. By selecting the last icon, the screen gets highlighted and the user gets a Live window along with it. 
 
 1. Set recording preferences.
 
    **Select Camera** Click the video camera icon at the bottom of the record video window. Select a camera that the user would like to use from the given options.
 
-   **Select Microphone **Click the microphone icon at the bottom of the video or audio window and select a microphone that the user would like to use from the given options. 
+   **Select Microphone** Click the microphone icon at the bottom of the video or audio window and select a microphone that the user would like to use from the given options. 
 
    If the user does not want to record audio with screen or video, select the **None** option from the drop-down list that is displayed on the clicking the audio icon.
 
@@ -58,7 +58,7 @@ Do the following to make a video recording and post it onto the social learning 
 1. Use the record button to start recording. The recording begins after the countdown(3 seconds). 
 1. Click the pause or resume button to pause while recording and then resume if wanted. To edit the recording, see [Editing a recording](adobe-captivate-prime-app-for-desktop.md#Editing) and to publish see [Publishing a recording](adobe-captivate-prime-app-for-desktop.md#Publishing).
 
-# Creating an audio {#creatinganaudio}
+## Creating an audio {#creatinganaudio}
 
 ![](assets/record-audio-2x.png)
 
@@ -69,10 +69,10 @@ To record an audio, do the following:
 1. Click the record button to start recording.
 1. Once users are done recording the audio, click the pause button to stop recording.
 1. To preview the recording, click the play button.
-1. If users want to record an additional audio to the same file, click **Resume**. Once the desired recording is met, click **Next **to save the file to a desired location. The recording is saved in the Adobe Learning Manager app for desktop gallery where users can view their recordings and screenshots.
+1. If users want to record an additional audio to the same file, click **Resume**. Once the desired recording is met, click **Next** to save the file to a desired location. The recording is saved in the Adobe Learning Manager app for desktop gallery where users can view their recordings and screenshots.
 1. To edit the recording, see [Editing a recording](adobe-captivate-prime-app-for-desktop.md#Editing) and to publish see [Publishing a recording](adobe-captivate-prime-app-for-desktop.md#Publishing).
 
-# Creating a screenshot {#creatingascreenshot}
+## Creating a screenshot {#creatingascreenshot}
 
 To take a screenshot, do the following:
 
@@ -84,7 +84,7 @@ To take a screenshot, do the following:
 1. To help other learners comprehend and retain the presentation or static  content better, add annotations to the content.  
 1. To edit  the screenshot, [click here](adobe-captivate-prime-app-for-desktop.md#Editing), and to publish a screenshot [click here](adobe-captivate-prime-app-for-desktop.md#Publishing).
 
-# Editing a video, an audio, and screenshot {#editing}
+## Editing a video, an audio, and screenshot {#editing}
 
 Once a file is saved, the edit window instantly appears on system where recordings can be made to look perfect and professional by using below options:
 
@@ -96,7 +96,7 @@ For video, users can only annotate on top of the screen.
 
 * The different annotations that can be selected are **ellipse**, **line**, **arrow**, **highlight**, and **text**.
 
-* Choose a color for each annotation from the colors panel in the annotation’s properties panel.
+* Choose a color for each annotation from the colors panel in the annotation's properties panel.
 * For **Text**, choose the following properties: Font, bold, italic, heading, alignment, color, and background color.
 
 To view the background color for text, enable background color to yes.
@@ -105,9 +105,9 @@ To view the background color for text, enable background color to yes.
 
 To trim or remove parts of a video or audio that is not required use the trim tool.
 
-To trim, click **Start Trim **button or click the plus icon on the timeline to start trimming. Then click the pause button on the player to stop the trim. Click the **Confirm** button to complete the trim.
+To trim, click **Start Trim** button or click the plus icon on the timeline to start trimming. Then click the pause button on the player to stop the trim. Click the **Confirm** button to complete the trim.
 
-Recordings can be trimmed by entering the time in the **Start time** and **End time** input fields after enabling **Change Timing.    **
+Recordings can be trimmed by entering the time in the **Start time** and **End time** input fields after enabling **Change Timing**.
 
 ![](assets/start-trim-05.png) ![](assets/confirm-trim-06.png) 
 
@@ -124,7 +124,7 @@ To create a unique name for a video along with a consistent theme, select the br
 To add a brand or theme to a video, do the following:
 
 1. Click the branding icon from the left navigation panel in the editing window.
-1. Select a **Theme **from the given options or users can customize their own theme by adding a **start**, **background,** and **end** video from their system.
+1. Select a **Theme** from the given options or users can customize their own theme by adding a **start**, **background,** and **end** video from their system.
 
    To download more themes, click the **Get more assets** button.
 
@@ -133,24 +133,24 @@ To add a brand or theme to a video, do the following:
    Title text can only be added as part of a branding video. A theme is required before giving a title to the branding video.
 
 1. Add a presenter name and presenter title to the video if necessary. Type a number within the video time range in the Display at playhead field for the presenter name and title to be displayed while playing the video.
-1. Add a branding icon on the left or right side of the video screen if necessary. To select a branding icon, click **select **> **browse from system**.
+1. Add a branding icon on the left or right side of the video screen if necessary. To select a branding icon, click **select** > **browse from system**.
 1. To preview the video, click the play button in the preview screen. 
 
    ![](assets/branding-options.png)
 
-## Recording additional clips (all types of video and audio recordings) {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
+### Recording additional clips (all types of video and audio recordings) {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
 
 Additional audio and video clips can be recorded to an existing video or audio file.
 
-To start a new recording, click the record additional clip icon. The new recording gets inserted at the playhead position in the recording that’s being edited.
+To start a new recording, click the record additional clip icon. The new recording gets inserted at the playhead position in the recording that's being edited.
 
-# Publishing a video recording, an audio recording and screenshot {#publishing}
+## Publishing a video recording, an audio recording and screenshot {#publishing}
 
 Once all changes and edits are made, click **Share** > type or search for a **skill or board **that best relates to the post > **Post.**
 
 ![](assets/share-after-editing-07.png) 
 
-# Browsing Learning Manager desktop gallery {#browsingcaptivateprimedesktopgallery}
+## Browsing Learning Manager desktop gallery {#browsingcaptivateprimedesktopgallery}
 
 All recordings and screenshots are saved in Adobe Learning Manager desktop application. To browse these files, click **Gallery** from the left navigation panel in the home page. 
 
@@ -162,13 +162,13 @@ To create a new recording from the gallery window, click the **Record New** butt
 
 To edit or delete a file from the gallery, click the three dots from bottom of the file and select your option from the pop-up list.
 
-# Notifications {#notifications}
+## Notifications {#notifications}
 
 Notifications in Learning Manager appear in the notifications window regardless of whether the learner is logged into Learning Manager web application. Notifications include posts or boards that users have created, or are following, or have participated in. Clicking the notification will navigate the user to Learning Manager Social Learning web.
 
 To mute notifications, click **profile menu > Settings > Mute notifications**.
 
-# Settings in Adobe Learning Manager desktop application {#settingsinadobecaptivateprimedesktopapplication}
+## Settings in Adobe Learning Manager desktop application {#settingsinadobecaptivateprimedesktopapplication}
 
 In the **Settings** page, change the following settings:
 

@@ -10,7 +10,7 @@ contentowner: manochan
 
 Read this article to know how to set learner profile settings and add a profile photo. Learn how to download the learner transcript for your profile.
 
-# Configuring profile settings {#configuringprofilesettings}
+## Configuring profile settings {#configuringprofilesettings}
 
 1. At the upper-right corner of the page, click the drop-down arrow next to your profile or photo.
 1. Select Profile Settings.
@@ -53,7 +53,7 @@ A digest email consists of the following sections:
   </tr> 
   <tr> 
    <td><p>Personal Training Summary</p></td> 
-   <td><p>This section personalizes a learner’s training metrics by mentioning the number of minutes spent on trainings.</p><p>Based on the time spent by the learner, the content is customized according to the rules defined below:</p><p>If (time_spent) &gt;= 60 minutes, then the following text appears:</p><p><i>“During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are some recommendations to enable you to learn more.” </i></p><p> If (time_spent) &lt; 60 mins, then the following text appears:</p><p><i>“During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are a few recommendations that we hope you may find useful to get started and keep going.”</i></p></td> 
+   <td><p>This section personalizes a learner's training metrics by mentioning the number of minutes spent on trainings.</p><p>Based on the time spent by the learner, the content is customized according to the rules defined below:</p><p>If (time_spent) &gt;= 60 minutes, then the following text appears:</p><p><i>"During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are some recommendations to enable you to learn more." </i></p><p> If (time_spent) &lt; 60 mins, then the following text appears:</p><p><i>"During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are a few recommendations that we hope you may find useful to get started and keep going."</i></p></td> 
   </tr> 
   <tr> 
    <td><p>Training Activity</p></td> 
@@ -84,7 +84,7 @@ A digest email consists of the following sections:
  </tbody>
 </table>
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 **1. How to download a Learner Transcript as learner?**
 
