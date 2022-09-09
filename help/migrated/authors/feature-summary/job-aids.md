@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Job Aids
+description: Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
 ---
 
 
@@ -12,7 +13,7 @@ Job Aids can be consumed independently or along with course consumption in Learn
 
 Authors can create Job Aids for learners. Use Job Aids to provide learners with reference material like tips, checklists, guides that they can use on an ongoing basis to complete their tasks.
 
-# Create job aid {#createjobaid}
+## Create job aid {#createjobaid}
 
 1. In author login, click Job Aids at the left pane. 
 1. Click Create at the upper-right corner of the page that appears.
@@ -30,7 +31,7 @@ Authors can create Job Aids for learners. Use Job Aids to provide learners with 
 1. Click **Save**.  
    The Job Aid is published.
 
-# Types of supported job aids {#typesofsupportedjobaids}
+## Types of supported job aids {#typesofsupportedjobaids}
 
 The following are the file formats supported for job aids.
 
@@ -45,7 +46,7 @@ The following are the file formats supported for job aids.
 
 Note: Zip files and image files are not supported.
 
-# Withdraw/re-publish job aids {#withdrawrepublishjobaids}
+## Withdraw/re-publish job aids {#withdrawrepublishjobaids}
 
 You can withdraw the published job aid by clicking settings icon adjacent to the job aid and choosing withdraw.
 
@@ -53,7 +54,7 @@ You can withdraw the published job aid by clicking settings icon adjacent to the
 
 View withdrawn job aids by clicking the withdrawn tab. You can re-publish the withdrawn jobs by clicking settings icon and choosing Publish.
 
-# Support for HTML packages in Job Aids
+## Support for HTML packages in Job Aids
 
 Job Aids now support standard HTML packages as a new type of content. With this enhancement, learners can open view and download the HTML package from within the Job Aid player. 
 
@@ -70,7 +71,7 @@ Specify the content to be uploaded as a zip file, within which the Index.html fi
 
 All the contents, resources and assets must be referenced within the HTML package and be accessible through Index.html.
 
-# Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently Asked Questions {#frequentlyaskedquestions}
 
 +++How to create a job aid?
 
@@ -84,4 +85,3 @@ After you create the Job Aid, you can add the Job Aid to a course, while creatin
 
 * [Job Aids for Administrators](../../administrators/feature-summary/job-aids.md)
 * [Job Aids for Learners](../../learners/feature-summary/job-aids.md)
-

@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: User login
+description: When you are using Adobe Learning Manager for the first time, you need to create your account.
 contentowner: manochan
 ---
 
@@ -15,10 +16,12 @@ When you are using Adobe Learning Manager for the first time, you need to create
 
 ![](assets/adobeid-signin.png)
 
-1. Enter Adobe ID, password and click Sign in.  
-   If you forgot password, click **Forgot password? **link and provide your email-id that you used for creating Adobe ID.
+1. Enter Adobe ID, password and click Sign in.
+
+   If you forgot password, click **Forgot password?** link and provide your email-id that you used for creating Adobe ID.
 
 1. Alternatively, you can use Enterprise ID by clicking **Sign in with an Enterprise ID link**.
 
-**Note  
-**Once you log in for the first time, your Adobe ID is associated with your company account. For any subsequent logins, you can bookmark your account url (second url) that you received in welcome mail.
+>[!NOTE]
+>
+>Once you log in for the first time, your Adobe ID is associated with your company account. For any subsequent logins, you can bookmark your account url (second url) that you received in welcome mail.

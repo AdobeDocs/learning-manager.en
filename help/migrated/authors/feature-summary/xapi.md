@@ -44,7 +44,9 @@ Click the link below to view the xAPI swagger document:
 
 [https://captivateprimeeu.adobe.com/docs/primeapi/xapi/](https://captivateprimeeu.adobe.com/docs/primeapi/xapi/)
 
-Note:  xAPI  version supported in Prime is 1.0.3.
+>[!NOTE]
+>
+>xAPI  version supported in Prime is 1.0.3.
 
 ### API authentication {#apiauthentication}
 
