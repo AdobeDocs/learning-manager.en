@@ -10,7 +10,7 @@ contentowner: jayakarr
 
 This document contains basic troubleshooting tips to solve some of the typical problems that you may encounter while migrating data and content from existing LMS to Learning Manager.
 
-# Generic migration issues {#genericmigrationissues}
+## Generic migration issues {#genericmigrationissues}
 
 ### Unable to log in to FTP folder or content folder {#unabletologintoftpfolderorcontentfolder}
 
@@ -56,18 +56,18 @@ Ensure that the current Sprint is marked as complete, before creating a Sprint. 
 
 Ensure that the current Sprint is marked as complete, before marking the migration project completion. Click **Mark Sprint Complete** at the top of the page to complete a Sprint migration. 
 
-# CSV issues {#csvissues}
+## CSV issues {#csvissues}
 
 ### module_version.csv file migration is failing and content is not migrated yet {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-Ensure that the content is available in Content folder (Box account under the specified migration project, sprint path). Also, ensure that you have selected the option **Yes **for **Will you be migrating content for this Sprint? **question in the Sprint creating page. 
+Ensure that the content is available in Content folder (Box account under the specified migration project, sprint path). Also, ensure that you have selected the option **Yes** for **Will you be migrating content for this Sprint?** question in the Sprint creating page. 
 
-If you forget to select **Yes**, and proceed further in this sprint, then you have to wait till you complete this sprint. Create another sprint and ensure to click **Yes. **
+If you forget to select **Yes**, and proceed further in this sprint, then you have to wait till you complete this sprint. Create another sprint and ensure to click **Yes**.
 
 ### enrollment.csv or user_course_grade.csv records fail with an error message 'Not a valid PrimeId' {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 
 Ensure that the email id provided as part of userId, assignedByUserID fields belong to valid Learning Manager users. If not, please add the user, create a new Sprint with **Sync Users** option selected. In case  the user is not part of the organization, add the user as a deleted user in Prime by using Add users CSV specification. A sample CSV specification to add deleted users is provided below for your reference. 
-[Users.csv](assets/users.zip) Refer to **CSV specifications and sample CSVs **section in [Migration manual](../integration-admin/feature-summary/migration-manual.md) to download complete set of CSV specifications and sample CSV files. 
+[Users.csv](assets/users.zip) Refer to **CSV specifications and sample CSVs** section in [Migration manual](../integration-admin/feature-summary/migration-manual.md) to download complete set of CSV specifications and sample CSV files. 
 
 ### Courses appear blank or incorrect modules play for a migrated course {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
@@ -87,14 +87,14 @@ Versioning of Activity, Classroom, and Virtual classroom modules is not supporte
 
 Desired duration is not a valid entry for Activity/VC/Classroom module.
 
-### Hyperlink URL doesn’t open up in Learning Manager {#hyperlinkurldoesntopenupincaptivateprime}
+### Hyperlink URL doesn't open up in Learning Manager {#hyperlinkurldoesntopenupincaptivateprime}
 
-Ensure that that the provided links are pre-fixed with ‘http://' or 'https://'
+Ensure that that the provided links are pre-fixed with 'http://' or 'https://'
 
-### moduleVersion migration fails with ‘File not found’ errors {#moduleversionmigrationfailswithfilenotfounderrors}
+### moduleVersion migration fails with 'File not found' errors {#moduleversionmigrationfailswithfilenotfounderrors}
 
 Ensure that the referred file is present in the content folder and it is migrated successfully.
 
-### moduleVersion migration fails with an error message as ‘An Internal Error has occurred - for Module : x and moduleVersion : y’ {#moduleversionmigrationfailswithanerrormessageasaninternalerrorhasoccurredformodulexandmoduleversiony}
+### moduleVersion migration fails with an error message as 'An Internal Error has occurred - for Module : x and moduleVersion : y' {#moduleversionmigrationfailswithanerrormessageasaninternalerrorhasoccurredformodulexandmoduleversiony}
 
 Re-run the Sprint to resolve the issue.

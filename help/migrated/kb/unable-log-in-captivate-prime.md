@@ -8,7 +8,7 @@ contentowner: saghosh
 
 # Unable to log in to Learning Manager {#unable-to-log-in-to-learning-manager}
 
-# Issue
+## Issue
 
 When trying to log in to Adobe Learning Manager, you see the error below:
 
@@ -16,13 +16,13 @@ When trying to log in to Adobe Learning Manager, you see the error below:
 
 ![](assets/prime-error-message.png) 
 
-# Cause
+## Cause
 
 Browser cache and cookies may prevent you from accessing the Adobe Learning Manager platform.
 
-# Resolution
+## Resolution
 
-## Clean the browsing history/cache
+### Clean the browsing history/cache
 
 The links below are browser-specific guides to clean the cache:
 
@@ -32,19 +32,21 @@ The links below are browser-specific guides to clean the cache:
 * [Firefox](https://kb.iu.edu/d/ahic)
 * [Safari](https://oit.colorado.edu/tutorial/clear-web-browser-cache-safari-6)
 
-## Use incognito mode
+### Use incognito mode
 
 Use incognito mode in your browser and then sign in to Adobe Learning Manager. See [instructions](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en&oco=0).
 
-## Contact Administrator
+### Contact Administrator
 
 If you are still unable to log in, contact the Administrator of the account. The Administrator can verify whether you are a registered learner in the account.
 
 If you are a part of the account and still unable to log in,  the Administrator must verify if your Adobe ID is the same with which you are trying to log in. 
 
-**Note:** Sometimes the Adobe ID is different that the Adobe Learning Manager ID on the account.
+>[!NOTE]
+>
+>Sometimes the Adobe ID is different that the Adobe Learning Manager ID on the account.
 
-# What's next
+## What's next
 
 After performing the above steps, if you are still unable to log in, the Administrator can collect the HAR logs for the login. For more information, see [Generate a HAR file](https://helpx.adobe.com/captivate-prime/kb/generate-HAR-file.html).
 

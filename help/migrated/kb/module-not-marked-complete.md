@@ -1,17 +1,18 @@
 ---
 jcr-language: en_us
 title: Module is marked incomplete on course completion in Adobe Learning Manager
+solution: Even after a learner completes a course in Adobe Learning Manager, the module is marked as incomplete.
 contentowner: nluke
 ---
 
 
 # Module is marked incomplete on course completion in Adobe Learning Manager {#module-is-marked-incomplete-on-course-completion-in-adobe-learning-manager}
 
-# **Issue**
+## Issue
 
 Even after a learner completes a course in Adobe Learning Manager, the module is marked as incomplete.
 
-# **Cause**
+## Cause
 
 SCORM 2004 defines the success and completion criteria and sends the statements for both separately.
 
@@ -19,7 +20,7 @@ For example, let there be a content set with a **Completion Criteria** of 100% s
 
 A learner, completes the course, but fails the quiz. In this case, the progress is 100%, but the module is marked as incomplete as the learner fails to meet the **Success Criteria**.
 
-# **Solution**
+## Solution
 
 The issue is related to the reporting **Preferences** set for the project. The author must verify the criteria set for the completion and success of the course.
 

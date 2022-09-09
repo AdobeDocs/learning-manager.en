@@ -10,7 +10,7 @@ contentowner: kuppan
 
 This document contains basic troubleshooting tips to solve some of the typical problems that encounter while installing and using Adobe Learning Manager desktop application.
 
-# I am unable to do the following {#iamunabletodothefollowing}
+## I am unable to do the following {#iamunabletodothefollowing}
 
 +++I am unable to download Adobe Learning Manager desktop application
 
@@ -71,115 +71,115 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 +++
 
-# How to reset application preferences? {#howtoresetapplicationpreferences}
+## How to reset application preferences? {#howtoresetapplicationpreferences}
 
 ### Windows {#windows}
 
 1. To open the Run dialog, press the **Windows + R** keys.
-1. Type “**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**” (without quotes) and press Enter.
+1. Type "**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**" (without quotes) and press Enter.
 1. Delete the files named **preferences.json** and **preferences.xml**.
 
 ### Mac OS X {#macosx}
 
 1. Open Finder.
 1. To open the **Go To** folder dialog, Press **Cmd + Shift + G** keys.
-1. Type “**~/Library/Application Support/Adobe/Learning Manager 1.0**” (without quotes) and press Enter.
+1. Type "**~/Library/Application Support/Adobe/Learning Manager 1.0**" (without quotes) and press Enter.
 1. Delete the files named **preferences.json** and **preferences.xml**.
 
-# How to find application logs? {#howtofindapplicationlogs}
+## How to find application logs? {#howtofindapplicationlogs}
 
 ### Windows {#application-logs}
 
 1. To open the Run dialog box, Press **Windows + R** keys.
-1. Type “**%TEMP%\\elthor**” (without quotes) and press Enter.
+1. Type "**%TEMP%\\elthor**" (without quotes) and press Enter.
 1. Sort the folders by the **Date Modified** and open the most recent folder. This folder contains the latest application logs.
 
 ### Mac OS X {#MacOSX-1}
 
 1. Open **Finder**.
 1. To open the **Go To Folder** dialog box, press **Cmd + Shift + G** keys.
-1. Type “**/var/folders**” (without quotes) and press Enter.
-1. Search for “**elthor**” in the search bar and open the folder.
+1. Type "**/var/folders**" (without quotes) and press Enter.
+1. Search for "**elthor**" in the search bar and open the folder.
 1. Sort the folders by the **Date Modified **and open the most recent folder. This folder contains the latest application logs.
 
-# How to enable advanced logging? {#howtoenableadvancedlogging}
+## How to enable advanced logging? {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
 1. To open the Run dialog, press **Windows key + R**.****
-1. Type “**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**” (without quotes) and press Enter.****
+1. Type "**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**" (without quotes) and press Enter.****
 1. Take a backup of file **preferences.json**, and then open it in a text editor.****
-1. Search for the key **debugMode** and change the value property of this key to “**true**” (without quotes).
+1. Search for the key **debugMode** and change the value property of this key to "**true**" (without quotes).
 
 ### Mac OS X {#MacOSX-2}
 
 1. Open Finder.
 1. To open the **Go To Folder** dialog, press **Cmd + Shift + G**.
-1. Type “**~/Library/Application Support/Adobe/Learning Manager 1.0**” (without quotes) and press Enter.
+1. Type "**~/Library/Application Support/Adobe/Learning Manager 1.0**" (without quotes) and press Enter.
 1. Take a backup of file **preferences.json**, and then open it in a text editor.
-1. Search for the key **debugMode** and change the value property of this key to “**true**” (without quotes)
+1. Search for the key **debugMode** and change the value property of this key to "**true**" (without quotes)
 
-# How to set webcam / microphone permissions on Mac OS X Mojave? {#howtosetwebcammicrophonepermissionsonmacosxmojave}
+## How to set webcam / microphone permissions on Mac OS X Mojave? {#howtosetwebcammicrophonepermissionsonmacosxmojave}
 
 1. Click **System Preferences** icon in Dock.
 1. Click **Security & Privacy** > **Privacy.**
 1. Click **Webcam and Microphone options** and ensure that Adobe Learning Manager check box is selected. If you do not see Adobe Learning Manager listed, first install and launch Adobe Learning Manager desktop application.
 
-# How to clean up Adobe Learning Manager for desktop updates cache? {#howtocleanupadobecaptivateprimefordesktopupdatescache}
+## How to clean up Adobe Learning Manager for desktop updates cache? {#howtocleanupadobecaptivateprimefordesktopupdatescache}
 
 ### Windows {#clean-previous-installation}
 
 1. To open the Run dialog, press **Windows key + R**.
-1. Type “**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**” (without quotes) and press Enter.
+1. Type "**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**" (without quotes) and press Enter.
 1. Delete the folder named **updates**.
 
 ### Mac OS X {#MacOSX-3}
 
 1. Open Finder.
 1. To open the **Go To Folder** dialog, press **Cmd + Shift + G**.
-1. Type “**~/Library/Application Support/Adobe/Learning Manager 1.0**” (without quotes) and press Enter.
+1. Type "**~/Library/Application Support/Adobe/Learning Manager 1.0**" (without quotes) and press Enter.
 1. Delete the folder named **updates**.
 
-# How to clean up Adobe Learning Manager for desktop temp folder? {#howtocleanupadobecaptivateprimefordesktoptempfolder}
+## How to clean up Adobe Learning Manager for desktop temp folder? {#howtocleanupadobecaptivateprimefordesktoptempfolder}
 
-### Windows {##clean-previous-installation-1}
+### Windows {#clean-previous-installation-1}
 
 1. To open the Run dialog, Press **Windows key + R**.
-1. Type “**%TEMP%**” (without quotes) and press Enter.
-1. Delete the folder named “**elthor**”.
+1. Type "**%TEMP%**" (without quotes) and press Enter.
+1. Delete the folder named "**elthor**".
 
 ### Mac OS X {#MacOSX-4}
 
 1. Open Finder.****
 1. To open the **Go To Folder** dialog, press **Cmd + Shift + G** keys.
-1. Type “**/var/folders**” (without quotes) and press Enter.
-1. Search for “**elthor**” in the search bar.
-1. Delete the folder named “**elthor**”.
+1. Type "**/var/folders**" (without quotes) and press Enter.
+1. Search for "**elthor**" in the search bar.
+1. Delete the folder named "**elthor**".
 
-# How to locate Adobe Learning Manager for desktop projects? {#howtolocateadobecaptivateprimefordesktopprojects}
+## How to locate Adobe Learning Manager for desktop projects? {#howtolocateadobecaptivateprimefordesktopprojects}
 
 ### Windows {#Windows-2}
 
 1. To open the Run dialog, press **Windows key + R**.
-1. Type “**~/Documents/My Adobe Learning Manager Projects**” (without quotes) and press Enter.
+1. Type "**~/Documents/My Adobe Learning Manager Projects**" (without quotes) and press Enter.
 1. You or your Adobe Learning Manager administrator might have changed the default projects folder location. Contact your administrator for more help to locate and clean up projects.
 
 ### Mac OS X {#MacOSX-5}
 
 1. Open Finder.
 1. To open the **Go To Folder** dialog, press **Cmd + Shift + G** keys.
-1. Type “**~/Documents/My Adobe Learning Manager Projects**” (without quotes) and press Enter.
+1. Type "**~/Documents/My Adobe Learning Manager Projects**" (without quotes) and press Enter.
 
    You or your Adobe Learning Manager administrator might have changed the default projects folder location. Contact your administrator for more Help to locate and clean up projects.
 
-# How to clean up previous installations of Adobe Learning Manager desktop app? {#howtocleanuppreviousinstallationsofadobecaptivateprimedesktopapp}
+## How to clean up previous installations of Adobe Learning Manager desktop app? {#howtocleanuppreviousinstallationsofadobecaptivateprimedesktopapp}
 
 ### Windows {#Windows-3}
 
-1. To open the **Run dialog, **press** Windows keys + R**.
-1. Type regedit and search “**HKEY_LOCAL_MACHINE \\SOFTWARE\\Classes\\Installer\\**” (without quotes) or “**HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\**”  (without quotes) and press Enter.
+1. To open the **Run** dialog, press **Windows keys + R**.
+1. Type regedit and search `HKEY_LOCAL_MACHINE \\SOFTWARE\\Classes\\Installer\\` or `HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\` and press Enter.
 1. Find the folder named Adobe Learning Manager and find the previous installation. Delete the registry entry.  You can find the key by pressing the F3 key.
 
 ### Mac OS X {#MacOSX-6}
 
-Move the files from the following path “**/Applications/Adobe Learning Manager/Users/Shared/Adobe/Learning Manager Assets/1.0**” to trash and then empty the trash.
+Move the files from the following path "**/Applications/Adobe Learning Manager/Users/Shared/Adobe/Learning Manager Assets/1.0**" to trash and then empty the trash.
