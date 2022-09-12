@@ -3,16 +3,19 @@ description: Learn about the new features and enhancements in Adobe Learning Man
 jcr-language: en_us
 title: New feature summary
 contentowner: kuppan
+preview: true
 ---
 
 
 # New feature summary {#new-feature-summary}
 
+<!--Not sure if you still need these what's new files?-->
+
 Learn about the new features and enhancements in Adobe Learning Manager
 
 The April 2019 release of Adobe Learning Manager rolls out exciting new features and enhancements. It introduces Social Learning feature, manager dashboard, multiple attempts configuration for a learning object, importing and exporting xAPI statements, and other enhancements. Read on to know the new features and enhancements that are available in this release.
 
-# Social Learning {#sociallearning}
+## Social Learning {#sociallearning}
 
 Adobe Learning Manager introduces Social Learning to its vast repertoire of features. Social learning incorporates the element of peer learning using discussion boards. A feature that allows you with the flexibility to control which users have visibility of which boards and how they participate in them.
 
@@ -26,9 +29,9 @@ For more information, see [Social Learning](learners/feature-summary/social-lear
 
 ![](assets/social-learning-dashboard-02.png) 
 
-# Manager Dashboard {#managerdashboard}
+## Manager Dashboard {#managerdashboard}
 
-Managers play an important role in a team’s learning initiatives.
+Managers play an important role in a team's learning initiatives.
 
 With the introduction of a dashboard, managers can keep track of learning activities and the performance of their respective teams.
 
@@ -38,7 +41,7 @@ Managers can view the summary of learning activities that the team undertakes in
 
 ## Compliance Status {#compliancestatus}
 
-Managers now see a Compliance dashboard that details the team’s overall compliance status. Managers can view learners who are non-compliant in selected learning objects. They can also identify those learners whose compliance deadlines are close.
+Managers now see a Compliance dashboard that details the team's overall compliance status. Managers can view learners who are non-compliant in selected learning objects. They can also identify those learners whose compliance deadlines are close.
 
 ## Team Skills {#teamskills}
 
@@ -50,7 +53,7 @@ For more information, see [Manager dashboard](managers/feature-summary/manager-d
 
 ![](assets/manager-dashboard-02.png) 
 
-# Multiple attempts configuration {#multipleattemptsconfiguration}
+## Multiple attempts configuration {#multipleattemptsconfiguration}
 
 Adobe Learning Manager now allows you to configure multiple attempts for your interactive eLearning content. Previously learners could reset the progress; now it allows authors to:
 

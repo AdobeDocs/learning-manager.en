@@ -9,7 +9,7 @@ preview: true
 
 # Email links triggered from modified templates throw an error in Learning Manager {#email-links-triggered-from-modified-templates-throw-an-error-in-learning-manager}
 
-#3 **Issue**
+## Issue
 
 An error occurs after clicking a link for an automated email/welcome email/enrollment mail.
 
@@ -19,7 +19,7 @@ HTTP Status 400 - Bad request
 
 ![](assets/email-404.png) 
 
-## **Cause**
+## Cause
 
 This usually happens when the email templates are incorrectly customized.
 
