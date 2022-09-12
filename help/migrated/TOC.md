@@ -38,7 +38,7 @@ user-guide-description: Documentation for Adobe Learning Manager
   * [Add users in bulk](administrators/add-users-in-bulk.md)
   * [Peer accounts](administrators/feature-summary/peer-account.md)
   * [Create and modify skills and levels](administrators/feature-summary/skills-levels.md)
-  * [AI-based recommendation of courses](AI-based-recommendations.md)
+  * [AI-based recommendation of courses](ai-based-recommendations.md)
   * [Gamification](administrators/feature-summary/gamification.md)
   * [Customize learner homepage](administrators/feature-summary/customize-learner-homepage.md)
   * [Badges](administrators/feature-summary/badges.md)
@@ -52,13 +52,10 @@ user-guide-description: Documentation for Adobe Learning Manager
   * [Settings](administrators/feature-summary/settings.md)
   * [Notifications](administrators/feature-summary/user-notifications.md)
   * [iPad & Android tablet users](administrators/feature-summary/ipad-android-tablet-users.md)
-  * [Getting started as Administrator](administrators/feature-summary/getting-started.md)
   * [Purge users](administrators/feature-summary/purge-users.md)
   * [Tags](administrators/feature-summary/tags.md)
-  * [Learning Manager Content Catalog](administrators/feature-summary/content-catalogs.md)
   * [Custom roles](administrators/feature-summary/custom-role.md)
   * [Catalog labels](administrators/feature-summary/catalog-labels.md)
-  * [xAPI in Learning Manager](authors/feature-summary/xapi.md)
   * [Monitoring and moderating Social Learning as an admin](administrators/feature-summary/social-learning-configurations-as-an-admin.md)
   * [Enable full control of shared catalog](administrators/feature-summary/shared-catalog-full-control.md)
   * [Map skill with skill domains](administrators/feature-summary/curation-skills.md)
@@ -130,8 +127,8 @@ user-guide-description: Documentation for Adobe Learning Manager
   * [Unable to log in to Learning Manager](kb/unable-log-in-captivate-prime.md)
   * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md) 
   * [Unable to upload a CSV](kb/unable-to-upload-csv.md)
-  * [Generate a HAR file](kb/generate-HAR-file.md)
-  * [L1 feedback auto popup does not appear](kb/L1-feedback-auto-popup-does-not-appear.md) 
+  * [Generate a HAR file](kb/generate-har-file.md)
+  * [L1 feedback auto popup does not appear](kb/l1-feedback-auto-popup-does-not-appear.md) 
   * [Unable to view certain courses under catalog while creating a Certification](kb/unable-to-view-certain-courses.md) 
   * [Unable to view certain course under catalog while creating a Learning Program](kb/unable-view-course-catalog.md) 
   * [Issues in retiring a Learning Program](kb/issues-retiring-learning-program.md)
@@ -141,7 +138,7 @@ user-guide-description: Documentation for Adobe Learning Manager
   * [Troubleshoot migration issues](kb/troubleshooting-migration.md)
   * [Troubleshoot Learning Manager app issues](kb/troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md)
   * [Users get auto deleted in Learning Manager](kb/auto-delete.md)
-  * [Publishing issues in the EU domain](kb/publish-issue-EU-domain.md)
+  * [Publishing issues in the EU domain](kb/publish-issue-eu-domain.md)
   * [Unable to register as external user](kb/register-issue-external-user.md)
   * [Okta Active Directory integration with Adobe Learning Manager](kb/okta-active-directory-integration.md)
   * [Unable to view learners in a course](kb/unable-view-learners-course.md)
@@ -150,3 +147,12 @@ user-guide-description: Documentation for Adobe Learning Manager
   * [Unable to achieve a skill after completing a course](kb/skill-not-achieved.md)
   * [Radio buttons are missing](kb/selection-button-invisible.md)
   * [Unable to view file submissions in Learning Manager](kb/unable-to-view-submitted-file.md)
+
+<!--
+DUPLICATE TOC entries
+
+  * [Getting started as Administrator](administrators/feature-summary/getting-started.md)
+  * [Learning Manager Content Catalog](administrators/feature-summary/content-catalogs.md)
+  * [xAPI in Learning Manager](authors/feature-summary/xapi.md)
+
+-->

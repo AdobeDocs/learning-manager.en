@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Module is marked incomplete on course completion in Adobe Learning Manager
-solution: Even after a learner completes a course in Adobe Learning Manager, the module is marked as incomplete.
+description: Even after a learner completes a course in Adobe Learning Manager, the module is marked as incomplete.
 contentowner: nluke
 ---
 

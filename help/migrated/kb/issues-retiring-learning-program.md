@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Issues with retiring a Learning Program
+description: Issues with retiring a Learning Program in Adobe Learning Manager
 contentowner: nluke
 ---
 

@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Learning Summary does not display current data
+description: Learning Summary does not display current data in Adobe Learning Manager
 contentowner: saghosh
 ---
 

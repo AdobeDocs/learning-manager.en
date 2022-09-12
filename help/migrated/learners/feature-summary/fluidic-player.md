@@ -49,4 +49,4 @@ Fluidic player is a platform for learners to consume content with uninterrupted 
 
 After exiting from the course, you can revisit the course by clicking the **Revisit** /**Continue** button on the course description page.
 
-The fluidic player can also be embedded in an external website or application using the Learning Manager API. For more information, see [Embeddable Fluidic player.](../../integration-admin/feature-summary/fluidic-player.md)
+The fluidic player can also be embedded in an external website or application using the Learning Manager API. <!-- For more information, see FILE NOT IN TOC [Embeddable Fluidic player.](../../integration-admin/feature-summary/fluidic-player.md)-->

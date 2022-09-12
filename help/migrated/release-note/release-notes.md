@@ -349,7 +349,9 @@ This update introduces a new instance of Azure.
 
 * [Custom domain](../custom-domain.md)
 * [Credit card purchase](../administrators/feature-summary/billing-management.md)
-* [Slack integration](../integration-admin/feature-summary/integration-with-slack.md)
+<!-- FILE NOT IN TOC
+* [Slack integration](../integration-admin/feature-summary/integration-with-slack.md) 
+-->
 * [Content catalog](../administrators/feature-summary/content-catalogs.md)
 
 **Update 66 - August 2021 release of Learning Manager**

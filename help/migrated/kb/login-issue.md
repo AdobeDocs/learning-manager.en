@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Login issues in Learning Manager
+description: Login issues in Adobe Learning Manager
 contentowner: nluke
 ---
 

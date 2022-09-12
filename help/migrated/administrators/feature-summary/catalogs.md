@@ -1,7 +1,9 @@
 ---
 jcr-language: en_us
 title: Catalogs
+description: Catalogs are a collection of learning - Courses, Learning Programs, and Certifications. Use Catalogs to provide Learners with access to a customized set of learning. You can associate learning with a Catalog during the creation of a new Catalog.
 contentowner: manochan
+preview: true
 ---
 
 
