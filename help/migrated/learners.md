@@ -24,7 +24,7 @@ preview: true
 
 ## Features {#features}
 
-* [Getting started](learners/feature-summary/getting-started.md)
+* [Getting started](learners/feature-summary/getting-started-learner.md)
 * [Salesforce app](learners/feature-summary/sfdc-app.md) 
 * [Gamification](learners/feature-summary/gamification.md)
 * [Badges](learners/feature-summary/badges.md)

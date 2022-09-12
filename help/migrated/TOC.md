@@ -16,10 +16,10 @@ user-guide-description: Documentation for Adobe Learning Manager
   * [Accessibility in Learning Manager](accessibility-captivate-prime.md)
   * [Support for custom domain](custom-domain.md)
 * Get Started {#get-started}
-  * [Getting started as Administrator](administrators/feature-summary/getting-started.md)
-  * [Getting started as an Author](authors/feature-summary/getting-started.md)
-  * [Getting started as a Learner](learners/feature-summary/getting-started.md)
-  * [Getting started for Managers](managers/feature-summary/getting-started.md)
+  * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
+  * [Getting started as an Author](authors/feature-summary/getting-started-author.md)
+  * [Getting started as a Learner](learners/feature-summary/getting-started-learner.md)
+  * [Getting started for Managers](managers/feature-summary/getting-started-manager.md)
   * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
 * Administrator {#administrator}
   * [User log in](administrators/feature-summary/user-login.md)

@@ -23,7 +23,7 @@ contentowner: manochan
 
 ## Features {#features}
 
-* [Getting started](authors/feature-summary/getting-started.md)
+* [Getting started](authors/feature-summary/getting-started-author.md)
 * [Catalogs](authors/feature-summary/catalogs.md)
 * [Learning objects](authors/feature-summary/courses.md)
 * [Add new languages](authors/feature-summary/add-new-language-learning-objects.md)

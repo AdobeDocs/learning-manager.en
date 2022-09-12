@@ -1848,7 +1848,7 @@ For a list of new features and enhancements in Learning Manager April release, r
 
 Use widgets on the home page to manage your courses, skills, and achievements. Use the search bar to perform a search in your entire LMS that spans all the learning objects, catalogs, skills, notes, and discussions
 
-For detailed information on the new home page, see  [Learner  home page  in Learning Manager](../learners/feature-summary/getting-started.md#main-pars_text).
+For detailed information on the new home page, see  [Learner  home page  in Learning Manager](../learners/feature-summary/getting-started-learner.md#main-pars_text).
 
 **Administrator settings for Learner Dashboard**
 
