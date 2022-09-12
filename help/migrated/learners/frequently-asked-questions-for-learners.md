@@ -1,7 +1,9 @@
 ---
 jcr-language: en_us
 title: Frequently Asked Questions for Learners
+description: Frequently Asked Questions for Learners of Adobe Learning Manager
 contentowner: admin
+preview: true
 ---
 
 
@@ -50,7 +52,7 @@ For more information, refer to  [Leaderboard](feature-summary/gamification.md)fe
 
 Course effectiveness is evaluated to understand the usefulness of a course to the learner. It is calculated based on the feedback received by number of users for a particular course. If the percentage of learners giving feedback is more, the course effectiveness rating is high.
 
-It is a combination of results from learner feedback on the course content, the course quiz results for a learner and the manager’s feedback evaluating a learner based on learnings from the course.
+It is a combination of results from learner feedback on the course content, the course quiz results for a learner and the manager's feedback evaluating a learner based on learnings from the course.
 
 In Courses tab, a learner can view the course effectiveness rating on the course thumbnails 
 
@@ -84,7 +86,7 @@ Skills map is a grouping of skill sets, knowledge, and traits of an employee in 
 
 When learners complete taking up some courses, learners can know their standing against each skill by viewing the skill maps.
 
-##### View skill maps
+## View skill maps
 
 To view the skills, click any one of the skill names in the skills map area at the upper-right corner of your landing page. Skills are displayed along with their levels next to them.
 
@@ -181,7 +183,7 @@ Refer  [Gamification feature](feature-summary/gamification.md) for more informat
 
 +++Can I play my training content in full screen?
 
-All courses in Learning Manager are played in browsers. You can view the courses in full screen using Learning Manager’s Fluidic player.
+All courses in Learning Manager are played in browsers. You can view the courses in full screen using Learning Manager's Fluidic player.
 
 Refer  [Fluidic player feature](feature-summary/fluidic-player.md) for more information on Player.
 
@@ -210,10 +212,12 @@ You can make notes while reading your course content by following these steps:
 1. At the bottom of course player screen click + Notes icon to open Notes section.
 1. Add the Notes and click Add. Your notes are saved.
 
-**Note** 
-Bookmarking feature is supported for Captivate 9 and above versions, Presenter 11 and above versions’ HTML output content only.
+>[!NOTE]
+>
+>Bookmarking feature is supported for Captivate 9 and above versions, Presenter 11 and above versions' HTML output content only.
 
 **Download/Email course notes** 
+
 You have an option to download or email your course notes by following the steps below:
 
 1. Click the course tile for which you want to view the notes.
@@ -226,7 +230,7 @@ You have an option to download or email your course notes by following the steps
 
 +++Can I add my self-reported trainings to Learning Manager? How?
 
-Currently, we do not support this feature in Learning Manager 1.0. However, there is a provision to take up external certifications. These external certifications are assigned to you by your organization’s Administrator. Contact your Manager to enroll into external certifications.
+Currently, we do not support this feature in Learning Manager 1.0. However, there is a provision to take up external certifications. These external certifications are assigned to you by your organization's Administrator. Contact your Manager to enroll into external certifications.
 
 +++
 
@@ -249,7 +253,7 @@ You will receive notification for the completion of course along with the link t
 
 +++How do I get my certificates?
 
-As part of reward and recognition of learner’s achievements, Learning Manager introduces online badges for learners. Badges are awarded based on a set criteria and are then displayed on a learner’s profile on the top of the learners home page.
+As part of reward and recognition of learner's achievements, Learning Manager introduces online badges for learners. Badges are awarded based on a set criteria and are then displayed on a learner's profile on the top of the learners home page.
 
 Refer  [Certifications feature](feature-summary/certifications.md) for more information on certifications for learners.
 
@@ -301,7 +305,7 @@ Based on your choice, you can view the filtered list of courses and choose accor
 +++How do I access my courses in Learning Manager?
 
 1. Log in to Learning Manager as a learner. If you forgot password, click **Forgot** password link provided in the login page to get it back to your email id.
-1. Once you log in, you can see the COURSES tab at the top. Click **COURSES **tab to display the list of courses assigned to you.
+1. Once you log in, you can see the COURSES tab at the top. Click **COURSES** tab to display the list of courses assigned to you.
 
 +++
 
@@ -330,7 +334,7 @@ Blended Learning is an approach to learning and teaching which combines and alig
 
 +++What is self-paced module?
 
-In this module, learners can begin and complete a course module according to their own schedule at one’s own pace. For example, videos, audio files, prerecorded classroom lectures.
+In this module, learners can begin and complete a course module according to their own schedule at one's own pace. For example, videos, audio files, prerecorded classroom lectures.
 
 +++
 

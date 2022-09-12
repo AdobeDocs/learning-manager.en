@@ -52,7 +52,7 @@ As an administrator, you might want to add external users such as employees of p
    A pop-up dialog box with the URL is displayed. You can copy this URL and send it to the external users. By default, an email with this URL is sent to the user.
 
 1. As you add external profiles, they are displayed in the **[!UICONTROL **External Users page** (**Administrator** > **Users** > **External**). ]** The seat limit, expiry date, and login requirement are also displayed for these users.
-1. To edit the settings of an external user anytime, click on the user name. The ****[!UICONTROL Edit External Enrollment]**** dialog box appears. Modify the settings, and click **[!UICONTROL **Save**.]**
+1. To edit the settings of an external user anytime, click on the user name. The **[!UICONTROL Edit External Enrollment]** dialog box appears. Modify the settings, and click **[!UICONTROL **Save**.]**
 1. You can also resend the Welcome email or copy the URL anytime by clicking the email/copy URL icons next to the external profile.
 
    ![](assets/set-up-external-users-step10.png)
@@ -61,21 +61,21 @@ As an administrator, you might want to add external users such as employees of p
 
 After adding an external user group to Learning Manager, you can also pause the external users registration process. When you pause, the external users registration process is blocked. However, this process works only when the users haven't registered yet by accepting the invitation. 
 
-To pause the external user groups, click  **[!UICONTROL **Actions** ]**from the upper-right corner of the page and choose ****[!UICONTROL Pause]****.
+To pause the external user groups, click  **[!UICONTROL **Actions** ]**from the upper-right corner of the page and choose **[!UICONTROL Pause]**.
 
 ## Resume external user profile {#resumeexternaluserprofile}
 
-At any point in time, you can always revoke the blockage (pause) by choosing a Resume option. Click  **[!UICONTROL **Actions** ]**at the upper-right corner of the page and choose ****[!UICONTROL Resume]****. 
+At any point in time, you can always revoke the blockage (pause) by choosing a Resume option. Click  **[!UICONTROL **Actions** ]**at the upper-right corner of the page and choose **[!UICONTROL Resume]**. 
 
-****[!UICONTROL External user states]****
+**[!UICONTROL External user states]**
 
 In Learning Manager, the following states are applicable for external users: 
 
-* **Inactive state - **In this state, the external users registration is expired. Administrators set the expiry date for the external users while adding them through the add user workflow. 
-* **Active state - **In this state, the external users can register to the Learning Manager application, and also log in to the application. 
-* **Pause - **In this state, the registration process for external users is blocked. However, the existing users can continue to login. 
+* **Inactive state** - In this state, the external users registration is expired. Administrators set the expiry date for the external users while adding them through the add user workflow. 
+* **Active state** - In this state, the external users can register to the Learning Manager application, and also log in to the application. 
+* **Pause** - In this state, the registration process for external users is blocked. However, the existing users can continue to login. 
 
-# Set up internal users {#setupinternalusers}
+## Set up internal users {#setupinternalusers}
 
 As an administrator, you might want to set up users for your enterprise or organization. These users are also called as internal users. Internal users can login to the application either using Single Sign On or using Adobe ID. These users can then access and consume the learning objects as per their requirements. To set up internal users for an organization, there are three possible ways:
 
@@ -89,15 +89,12 @@ As an administrator, you might want to set up users for your enterprise or organ
 
 You can choose this method to add internal users if the number of users are large. When you use a CSV to add users for the first time, you must map the csv data contents to the application labels. Subsequently when you add new users or update the user data, the same mapping is retained. To add internal users in bulk:
 
-1. On the ****[!UICONTROL Administrator Home]**** page, click **[!UICONTROL **Users**]**in the left navigation pane.
+1. On the **[!UICONTROL Administrator Home]** page, click **[!UICONTROL **Users**]**in the left navigation pane.
 1. Click **[!UICONTROL **Add** > **Upload a CSV**.]**
 1. In the pop-up dialog box, click **[!UICONTROL **Import**. ]**
-1. Browse to the location where you have saved your CSV file. Click ****[!UICONTROL Open]****.
+1. Browse to the location where you have saved your CSV file. Click **[!UICONTROL Open]**.
 1. Import the CSV file, and map the contents of the CSV file with the application labels. This step is applicable only when you upload the CSV file for the first time.
 1. Click **[!UICONTROL **Save**]**to save the mapping.
-
-    
-
 1. Click **[!UICONTROL **Add**]**to upload the CSV file that is already mapped to the application data.
 
 ### Considerations when creating the CSV file for upload: {#considerationswhencreatingthecsvfileforupload}
@@ -114,7 +111,9 @@ See a sample snapshot of a CSV file here:
 
 ![](assets/considerations-whencreatingthecsvfileforupload.png)
 
-To download a sample CSV file, download <give link to zip file>.
+To download a sample CSV file, download `<give link to zip file>`.
+
+<!--Zip file reference, no source file-->
 
 ### Setting up root user {#settinguprootuser}
 
@@ -124,15 +123,15 @@ Automating the bulk import of users.
 
 Apart from adding internal users in bulk, you can also add users by self-registration. You can use self-registration to enable employees to register themselves as learners to your Learning Manager account. When you create a self-registration profile, a unique URL is created. Share this URL with the employee to enable them to register in Learning Manager.
 
-1. On the ****[!UICONTROL Administrator Home]**** page, click ****[!UICONTROL Users]**** in the left navigation pane.
+1. On the **[!UICONTROL Administrator Home]** page, click **[!UICONTROL Users]** in the left navigation pane.
 1. Click **[!UICONTROL **Add** > **Self-Registration**.]**
 
    ![](assets/adding-users-throughself-registration-step2.png)
 
-1. In the ****[!UICONTROL Add User]**** pop-up dialog box, specify the name of the employee in the ****[!UICONTROL Profile Name]**** field.
-1. In the ****[!UICONTROL Manager's Name]**** field, enter the name of the employee's manager.
-1. Optionally, you can add the profile picture of the employee using the ****[!UICONTROL Add Image]**** field.
-1. Click ****[!UICONTROL Save]****.
+1. In the **[!UICONTROL Add User]** pop-up dialog box, specify the name of the employee in the **[!UICONTROL Profile Name]** field.
+1. In the **[!UICONTROL Manager's Name]** field, enter the name of the employee's manager.
+1. Optionally, you can add the profile picture of the employee using the **[!UICONTROL Add Image]** field.
+1. Click **[!UICONTROL Save]**.
 
    ![](assets/adding-users-throughself-registration-step6.png)
 
@@ -146,18 +145,18 @@ Apart from adding internal users in bulk, you can also add users by self-registr
 
 Adding single users is the third method by which you can add internal users to your account. When you want to add a few users, this procedure is ideal. To add a single user:
 
-1. On the ****[!UICONTROL Administrator Home]**** page, click ****[!UICONTROL Users]**** in the left navigation pane.
+1. On the **[!UICONTROL Administrator Home]** page, click **[!UICONTROL Users]** in the left navigation pane.
 1. Click **[!UICONTROL **Add** > **Single User**.]**
 
     
 
 1. In the Add User pop-up dialog box, specify the following details for users:
 
-   * ****[!UICONTROL Name]**** **[!UICONTROL :]** Specify the name of the employee or internal user. This field is mandatory.
+   * **[!UICONTROL Name]** **[!UICONTROL :]** Specify the name of the employee or internal user. This field is mandatory.
    
-   * ****[!UICONTROL Email]**** **[!UICONTROL :]** Specify the email ID of the employee. This field is mandatory.
+   * **[!UICONTROL Email]** **[!UICONTROL :]** Specify the email ID of the employee. This field is mandatory.
    
-   * ****[!UICONTROL Profile]**** **[!UICONTROL :]** Specify the designation or the job title of the employee.
+   * **[!UICONTROL Profile]** **[!UICONTROL :]** Specify the designation or the job title of the employee.
    
    * **[!UICONTROL **Manager's Name**:]** Specify the name of the Manager. The Manager should already be added in the database to be specified here.
    * **[!UICONTROL **DOJ**:]** Specify the date of joining of the employee.
@@ -167,7 +166,7 @@ Adding single users is the third method by which you can add internal users to y
 
    ![](assets/add-single-usersincaptivateprime-step3.png)
 
-1. Click ****[!UICONTROL Add]****.
+1. Click **[!UICONTROL Add]**.
 1. The system displays a message that the user has been added successfully. The user receives a verification link in the specified email ID. The user can click this link to activate his account, and start accessing Learning Manager.
 
    ![](assets/add-single-usersincaptivateprime-step5.png)
@@ -180,21 +179,21 @@ There are two types of user groups in Learning Manager: Custom and Auto-generate
 
 ***You cannot edit the name and the description of auto-generated groups.***
 
-To view the Auto-generated user groups in Learning Manager, in the left pane click ****[!UICONTROL Auto-generated]****. The application displays a list of all the auto-generated user groups that are available for your account.
+To view the Auto-generated user groups in Learning Manager, in the left pane click **[!UICONTROL Auto-generated]**. The application displays a list of all the auto-generated user groups that are available for your account.
 
 You can also create custom groups with a selected list of users in Learning Manager. Custom groups allow you to specify a name, description and the attributes for the user group. Custom groups that you create in Learning Manager are dynamic in nature. That is, if new users are added with similar attributes, they are automatically added to these user groups. 
 
 ## Create custom user groups {#createcustomusergroups}
 
-1. In the Learning Manager Administrator Home page, click ****[!UICONTROL Users]****.
+1. In the Learning Manager Administrator Home page, click **[!UICONTROL Users]**.
 1. In the Custom User Groups page, click **[!UICONTROL **Add**]**from the upper-right corner of the page.
 
-   The system displays the ****[!UICONTROL Add User Group]**** dialog box.
+   The system displays the **[!UICONTROL Add User Group]** dialog box.
 
    ![](assets/creating-custom-usergroups.png)
 
 1. Specify the name and the description for your user group. For example, Dev-Users which includes users from the product development team.
 1. Add users to the custom user group by entering the user name or the profile of the user in the **[!UICONTROL **Add Users** field.]**
 1. To add more users to the custom group, click **[!UICONTROL **Add More Users**.]**
-1. After adding all the users, click ****[!UICONTROL Save]****to save the custom user group.
+1. After adding all the users, click **[!UICONTROL Save]**to save the custom user group.
 

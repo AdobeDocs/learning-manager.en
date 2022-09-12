@@ -34,9 +34,7 @@ Only if the administrator enables Social Learning, the feature is visible to a l
   <tr> 
    <td width="48"><p style="text-align: center;">1</p></td> 
    <td width="174"><p style="text-align: center;">My Boards</p></td> 
-   <td width="402"><p style="text-align: justify;">A board is <g class="gr_ gr_58 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" id="58" data-gr-id="58">
-       collection 
-     </g> of posts created by a user. My boards display all the posts that the user has participated, created, and followed.</p></td> 
+   <td width="402"><p style="text-align: justify;">A board is collection of posts created by a user. My boards display all the posts that the user has participated, created, and followed.</p></td> 
   </tr> 
   <tr> 
    <td width="48"><p style="text-align: center;">2</p></td> 
@@ -86,7 +84,7 @@ Only if the administrator enables Social Learning, the feature is visible to a l
  </tbody> 
 </table>
 
-# Creating content as a post {#creatingcontentasapost}
+## Creating content as a post {#creatingcontentasapost}
 
 Content is created as a post inside a board. To create a post, follow the below steps:
 
@@ -453,7 +451,7 @@ The administrator of the organization also has the privilege to add more points 
 
    ![](assets/curation-awaitingnotification.png)
 
-1. To moderate the post, click the **Click to review **link. This action navigates the SME to the content moderation page which looks like the below screenshot.
+1. To moderate the post, click the **Click to review** link. This action navigates the SME to the content moderation page which looks like the below screenshot.
 
    ![](assets/sme-moderation-page.png)
 
@@ -488,11 +486,10 @@ In the profile page, learners can view the total number of points gained, number
 
 Learners can also view the skills for which they are designated as a Subject Matter Expert.
 
-The learner's page  also displays the learner's **curated stories**, **recent activities** performed, and the **people followed **by them.
+The learner's page  also displays the learner's **curated stories**, **recent activities** performed, and the **people followed** by them.
 
-# Notifications {#notifications}
+## Notifications {#notifications}
 
 On approval or rejection of a post by SME, users receive a notification which can be viewed on clicking the notifications icon at the upper right corner of the window. Users are able to view notifications Social Learning and Formal Learning activities. 
 
 ![](assets/notification-18.png)
-

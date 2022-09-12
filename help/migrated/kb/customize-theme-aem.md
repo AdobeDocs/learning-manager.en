@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Customize theme for AEM components
+description: Customize theme for AEM components
 contentowner: saghosh
+preview: true
 ---
 
 
 # Customize theme for AEM components {#customize-theme-for-aem-components}
-
-# Theme customizations
 
 Use the JSON below to customize the catalog widget.
 
@@ -33,4 +33,3 @@ Use the JSON below to customize the catalog widget.
 ```
 
 ![](assets/catalog-widget1.png)
-

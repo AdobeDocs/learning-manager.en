@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Social login in Learning Manager
+description: Social login in Learning Manager
 contentowner: saghosh
 preview: true
 ---
@@ -8,9 +9,9 @@ preview: true
 
 # Social login in Learning Manager {#social-login-in-learning-manager}
 
-# Set up Social Login {#setupsociallogin}
-
 You can use your Facebook, LinkedIn, or Twitter credentials to log in to Learning Manager.
+
+## Set up Social Login {#setupsociallogin}
 
 1. Reach out to your Customer Success Manager, if you'd like him/her to set up the account.
 

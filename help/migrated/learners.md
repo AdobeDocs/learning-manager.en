@@ -1,7 +1,9 @@
 ---
 jcr-language: en_us
 title: Learners
+description: Learners for Adobe Learning Manager
 contentowner: manochan
+preview: true
 ---
 
 
@@ -16,11 +18,11 @@ contentowner: manochan
  </tbody>
 </table>
 
-# Frequently Asked Questions (FAQ) {#frequentlyaskedquestionsfaq}
+## Frequently Asked Questions (FAQ) {#frequentlyaskedquestionsfaq}
 
 [Frequently Asked Questions for Learner role](learners/frequently-asked-questions-for-learners.md)
 
-# Features {#features}
+## Features {#features}
 
 * [Getting started](learners/feature-summary/getting-started.md)
 * [Salesforce app](learners/feature-summary/sfdc-app.md) 
@@ -37,5 +39,3 @@ contentowner: manochan
 * [User login](learners/feature-summary/user-login.md)
 * [User notifications](learners/feature-summary/user-notifications.md)
 * [Waitlist and attendance management](learners/feature-summary/waitlist-attendance-management.md)
-
- 

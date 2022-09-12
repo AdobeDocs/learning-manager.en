@@ -7,6 +7,10 @@ contentowner: jayakarr
 
 # Adobe Learning Manager | Product updates | Release notes {#adobe-learning-manager-product-updates-release-notes}
 
+<!--
+LONG article. check heading levels
+-->
+
 ## Latest update release {#latestupdaterelease}
 
 **Update 78**
@@ -548,13 +552,13 @@ In this release, Learning Manager prompts the user to provide feedback about the
 
 This update allows learners to download their badges in PDF and Image format.
 
-# Previous update releases {#previousupdatereleases}
+## Previous update releases {#previousupdatereleases}
 
 +++Update 60 - February 2021 release of Learning Manager
 
 Release date: February 20, 2021
 
-## What's new and changed {#Whatsnewandchanged-1}
+### What's new and changed {#Whatsnewandchanged-1}
 
 * Board view in social.
 * Customizing the social banner.
@@ -565,7 +569,7 @@ Release date: February 20, 2021
 
 For more information, see What's new in the [February 2021 update of Learning Manager](../whats-new.md).
 
-## Bugs fixed in this update {#bug-fixes}
+### Bugs fixed in this update {#bug-fixes}
 
 **Certification**
 
@@ -614,7 +618,7 @@ For more information, see What's new in the [February 2021 update of Learning Ma
 
 * A few learners, whose user names have special characters, do not receive email notifications as expected.
 * In the immersive view, in some cases, the Calendar widget does not display upcoming VC sessions as expected.  
-* In the Learner App, the **Skill **filter did not work as expected. This issue has been fixed.
+* In the Learner App, the **Skill** filter did not work as expected. This issue has been fixed.
 
 **Search**
 
@@ -2592,7 +2596,7 @@ In Administrator login, pagination was not working in Announcements page. This i
 
 **Create skills**
 
-In learners login, the skill name tool tip in **Skills map **was** **not displaying the** **full name. This issue is fixed. 
+In learners login, the skill name tool tip in **Skills map** was not displaying the full name. This issue is fixed. 
 
 **Add external partners**
 
@@ -2600,7 +2604,7 @@ In learners login, the skill name tool tip in **Skills map **was** **not display
 
 **User notifications**
 
-* When an external learner clicks the **Open Notes **link in Re-visit course email notification, player opens up but the notes panel was not working. This issue is fixed.  
+* When an external learner clicks the **Open Notes** link in Re-visit course email notification, player opens up but the notes panel was not working. This issue is fixed.  
 * When an external learner tries to open the pre-work or test-out modules using **Open Notes** link in Re-visit course email notification, notes content was not visible. This issue is fixed. 
 
 **Create courses using modules**
@@ -2621,7 +2625,7 @@ Release date: March 15, 2016
 
 **Create courses with modules**
 
-* In Administrator login, when you try to create new instance for courses from **Retired **tab, an error used to occur. This issue is fixed. 
+* In Administrator login, when you try to create new instance for courses from **Retired** tab, an error used to occur. This issue is fixed. 
 * In Administrator login of localized content, while enrolling learners to course instance, the actions and enroll screen layouts were distorted. This issue is fixed. 
 * When an author is creating Classroom or Virtual classroom modules, the date calendar's default month used to appear as Jan, 2015. This issue is fixed to reflect the current date by default. 
 * When a course instance name consists of forward or backward slash, the export action of learners list used to fail. This issue is fixed. 
@@ -2632,7 +2636,7 @@ When a learner hovers mouse on a video announcement, the cursor was not changing
 
 **User notifications**
 
-When an external learner clicks the **Open Notes **link in Re-visit course email notification, it was not working. This issue is fixed now. This link opens up the Player with notes, even when the user is not logged in to Learning Manager.  
+When an external learner clicks the **Open Notes** link in Re-visit course email notification, it was not working. This issue is fixed now. This link opens up the Player with notes, even when the user is not logged in to Learning Manager.  
 
 **French and German language support**
 
@@ -2658,39 +2662,39 @@ Release date: February 28, 2016.
 
 ## New features {#Newfeatures-2}
 
-##### Job Aids
+### Job Aids
 
 Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.  Administrator  can track the number of downloads per Job Aid. 
 
 For more information on this feature, refer to  [Job Aids Help](../learners/feature-summary/job-aids.md).
 
-##### Announcements
+### Announcements
 
 An announcement is a multimedia message (text, image or video) that an Administrator can craft and broadcast to a defined set of users. Use Announcements to motivate learners to take up  trainings  and thus build a learning culture.
 
 For more information on this feature, refer to  [Announcements Help](../learners/feature-summary/announcements.md).
 
-##### Tin Can API support
+### Tin Can API support
 
 Adobe Learning Manager supports the Tin Can API (also known as Experience API or xAPI) specification. You can upload and track Tin Can API compatible content similar to how you track SCORM and AICC content.
 
 For more information, contact Adobe support team.
 
-##### Course sequencing
+### Course sequencing
 
 You can create a learning path by assigning a follow-up course or any learning activity automatically.
 
 Events for learning plans have been updated.  Couple  of new events have been added. Refer to  [Learning plans](../learners/feature-summary/learning-programs.md) for more information.
 
-##### Notes reminder
+### Notes reminder
 
 If you take any notes while consuming a course, Learning Manager reminds you after 15 days by sending a notification to review the notes.
 
-##### Group level gamification
+### Group level gamification
 
 Administrators can define the scope of gamification by changing the scope settings. You can selectively enable gamification among similar profile users, groups or location. Refer to  [Gamification](../learners/feature-summary/gamification.md) feature for more information.
 
-##### French and German language support
+### French and German language support
 
 Learning Manager application is available in French and German languages. You can customize the language for feedback, course instances and communication.
 
@@ -2698,15 +2702,15 @@ Learning Manager application is available in French and German languages. You ca
 
 There are significant enhancements to the existing features of Learning Manager. Some of the predominant enhancements are as follows:
 
-##### Import CSV
+### Import CSV
 
 If you delete users, you cannot add the same users back into the application again using single user addition. However, you can add back the deleted user using CSV upload process. There are significant changes to the mandatory fields restriction in CSV upload feature. Refer to  [  FAQ  on CSV](../administrators/add-users-in-bulk.md) for more information.
 
-##### Course List view
+### Course List view
 
 By default, you can view courses as cards. A list view has been introduced in this release. You can click the triple bar icon adjacent to search field to change the view.
 
-##### Delete courses
+### Delete courses
 
 Now you can delete courses at  draft  and retired stages. Refer to  [Courses](../administrators/feature-summary/courses.md) feature for more information. If a learning object is deleted, all of its reporting data also gets deleted. If a course is deleted and if it was part of any other learning object, then an appropriate message appears to the user. 
 
@@ -2714,7 +2718,7 @@ Now you can delete courses at  draft  and retired stages. Refer to  [Courses](..
 
 You can enforce the order in which learners can take up courses within learning programs. You can delete learning programs in  draft  and retired stages. If a learning object is deleted, all of its reporting data also gets deleted.
 
-**Certifications **
+**Certifications**
 
 You can delete certifications in  draft  and retired stages. If a learning object is deleted, all of its reporting data also gets deleted.
 
@@ -2774,7 +2778,7 @@ The typos in the e-mail templates are fixed.
 
 Release date: February 09, 2016.
 
-# Sign Out behavior updated {#signoutbehaviorupdated}
+## Sign Out behavior updated {#signoutbehaviorupdated}
 
 When users click **Sign Out** in Learning Manager, they are now logged out of the Learning Manager application and also they are logged out of their Adobe IDs.
 

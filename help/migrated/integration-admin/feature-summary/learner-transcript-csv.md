@@ -1,15 +1,15 @@
 ---
 jcr-language: en_us
 title: Interpret the Learner Transcript CSV
+description: Interpret the Learner Transcript CSV
 contentowner: saghosh
+preview: true
 ---
 
 
 # Interpret the Learner Transcript CSV {#interpret-the-learner-transcript-csv}
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
-# Overview {#overview}
 
 The Learner Transcript is one of the most popular reports used in Adobe Learning Manager. The report enables one to get nearly every possible detail in a single report in CSV format.
 
@@ -23,31 +23,33 @@ In the rest of the document, we briefly describe how one can fetch the Learner T
 
 This information may be useful for any developer who intends to integrate Prime with other systems by way of processing the exported learner transcript data.
 
-# Fetch Learner Transcript from the User Interface {#fetchlearnertranscriptfromtheuserinterface}
+## Fetch Learner Transcript from the User Interface {#fetchlearnertranscriptfromtheuserinterface}
 
 From the Profile Settings, a learner can download his/her transcript. For more information,  see *** [Download Learner Transcript](../../administrators/feature-summary/learner-transcripts.md)***.
 
 Administrators can generate Learner Transcripts for the whole organization, a specific set of users or a specific set of learning objects, or a specific set of users and learning objects. They can also get all learning records for a time interval duration and indicate if module level information is required (by default, module level information is omitted). For more details, see [***Download Learner Transcripts***](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/learner-transcripts.html).
 
+<!--Update above link?-->
+
 Administrators can also set up the system to email the Learner Transcript periodically.
 
-The Learner Transcript generated via the UI will be an Excel file, which also contains the “Skill Transcript”. In this document, we will refer to what is generated in the CSV format, a report containing learning activities pertaining to enrollment, starting, progress or completion of a learning object.
+The Learner Transcript generated via the UI will be an Excel file, which also contains the "Skill Transcript". In this document, we will refer to what is generated in the CSV format, a report containing learning activities pertaining to enrollment, starting, progress or completion of a learning object.
 
-# Export Learner Transcript {#exportlearnertranscript}
+## Export Learner Transcript {#exportlearnertranscript}
 
 When the Learner Transcript has to be consumed by an external system, Prime provides a feature called Export Data, where Learner Transcript is one of the types of data that can be exported. As explained in the Preamble, this is required for integration of Prime with an external system that needs to process learning behavior data or for populating an enterprise data warehouse with learning behavior data.
 
 For details of how the connectors that supporting Export of Learner Transcript, see the [Export Data section](https://helpx.adobe.com/captivate-prime/integration-admin/feature-summary/connectors.html) in the FTP, Box and PowerBI Connectors.
 
-The purpose served by these connectors is to export data to a downstream application periodically (once in N days). So, these connectors export only the incremental learning behavior data in every run. Note that these connectors don’t allow for fetching records pertaining to specific subset of users or learning objects - it is always data about all users and all learning objects in that account.
+The purpose served by these connectors is to export data to a downstream application periodically (once in N days). So, these connectors export only the incremental learning behavior data in every run. Note that these connectors don't allow for fetching records pertaining to specific subset of users or learning objects - it is always data about all users and all learning objects in that account.
 
 In the case of PowerBI, the customer should provide a workspace where Prime can keep exporting this data incrementally into a dynamically created dataset. This connector merely exports data, and the customers must build their own reports/dashboards based on this dataset as need be.
 
 The next section provides the details on how a downstream system should interpret the records in the learner transcript.
 
-# Interpret the Learner Transcript {#interpretthelearnertranscript}
+## Interpret the Learner Transcript {#interpretthelearnertranscript}
 
-Each row in a Learner Transcript can be thought of as some learning behavior that was captured in Prime in a specific time period. Typically, the connectors export “incremental data” and so the rows represent learning activities that happened between the last run of the connector and the current run.
+Each row in a Learner Transcript can be thought of as some learning behavior that was captured in Prime in a specific time period. Typically, the connectors export "incremental data" and so the rows represent learning activities that happened between the last run of the connector and the current run.
 
 Of course, the connectors also allow you to fetch the learner transcript on demand, and in this case the user can specify a start date and the end date is assumed to be now. Usually one would do this once initially and then set up the connector for exporting the incremental learner transcript at a specific time of day, once in N days (the default value of N, being 1).
 
@@ -57,11 +59,11 @@ In the learner transcript, every row represents a specific activity involving a 
 
 Now there are three types of learning objects, where Prime tracks learner progress; and the exported data contains progress information at the module level, which is the most granular unit of content that a learner can experience in Prime.
 
-* **Course **- a composition of one or more modules
+* **Course** - a composition of one or more modules
 * **Learning Program** - a composition of one or more courses
-* **Certification **- a composition of one or more courses.
+* **Certification** - a composition of one or more courses.
 
-Every row in the Learner Transcript could be pertaining to a specific user’s engagement with a Module, Course, Learning Program or Certification. When a user is enrolled to a Learning Program, the transcript will indicate that the user is e
+Every row in the Learner Transcript could be pertaining to a specific user's engagement with a Module, Course, Learning Program or Certification. When a user is enrolled to a Learning Program, the transcript will indicate that the user is e
 
 The columns of the Learner Transcript provide various pieces of information pertaining to each learning activity, and the following tables describe the semantics of each column.
 
@@ -292,7 +294,7 @@ The columns of the Learner Transcript provide various pieces of information pert
  </tbody> 
 </table>
 
-## Learning summary I
+### Learning summary I
 
 <table cellpadding="1" cellspacing="0" border="1"> 
  <tbody> 
@@ -349,7 +351,7 @@ The columns of the Learner Transcript provide various pieces of information pert
  </tbody> 
 </table>
 
-## Learning summary II
+### Learning summary II
 
 | Column name |Type of value |Description |
 |---|---|---|
@@ -363,7 +365,7 @@ The columns of the Learner Transcript provide various pieces of information pert
 | Number of Learning Objects which have progressed >= N % |Never Empty |Number of Learners Objects learner have progressed >= N %. |
 | Number of Learning Objects with due date in N days |Never Empty |Number of Learning Objects with due date in N days. |
 
-## Compliance Summary
+### Compliance Summary
 
 | Column name  |Type of value |Description |
 |---|---|---|
@@ -371,7 +373,7 @@ The columns of the Learner Transcript provide various pieces of information pert
 | Row Labels (Left side column) |Never Empty |The Learner name with the list of LOs learner is enrolled to. |
 | Row Labels (Left side column) |Never Empty |The Learner name with the list of LOs learner is enrolled to. |
 
-## Skill Transcript
+### Skill Transcript
 
 | .Column name |Type of value   |Description |
 |---|---|---|
@@ -390,7 +392,7 @@ The columns of the Learner Transcript provide various pieces of information pert
 | Groupable Active Field |Can be empty |For each groupable Active Field in account, there will be a column, where the column name is that of Active Field and the value will be the specific value the learner has for that field. |
 | Manager Name |Can be empty |Manager Name of the learner. |
 
-## Skill Summary I
+### Skill Summary I
 
 | Column name |Type of value |Description |
 |---|---|---|
@@ -403,7 +405,7 @@ The columns of the Learner Transcript provide various pieces of information pert
 | Number of learners whose skill needs refreshing |Never Empty |Number of learners whose Skill needs refreshing. |
 | Percentage of Compliance (Based on skill achieved) |Never Empty |The progress percentage of the assigned Skill. |
 
-## Skill summary II
+### Skill summary II
 
 | Column name |Type of value |Description |
 |---|---|---|
@@ -416,6 +418,5 @@ The columns of the Learner Transcript provide various pieces of information pert
 | Number of Skills that need Refreshing |Never Empty |Number of learners whose Skill needs refreshing. |
 | Percentage of Compliance |Never Empty |The progress percentage of the assigned Skill. |
 
-* Sometimes administrators may mark completion for a Learning Object manually (especially for Class Room courses) much after the class. In such a scenario, if Export Data is set up to export LT daily, the actual date of completion may have passed already and so the export will never get such completion records that were marked as completed much after the class happened. When this is detected, consider exporting the transcript from a given start date till date (on demand) in the UI; and then take it to the downstream application for “late processing”. While doing  this, you may have to ignore records that have already been processed.
+* Sometimes administrators may mark completion for a Learning Object manually (especially for Class Room courses) much after the class. In such a scenario, if Export Data is set up to export LT daily, the actual date of completion may have passed already and so the export will never get such completion records that were marked as completed much after the class happened. When this is detected, consider exporting the transcript from a given start date till date (on demand) in the UI; and then take it to the downstream application for "late processing". While doing  this, you may have to ignore records that have already been processed.
 * Multiple Attempts for a module depends on whether that is enabled for that LO. When enabled, what you now see in a CSV row related to a module is one attempt. Not all attempts in a day may be reported and so you may see the total number of attempts see increment by more than one. Also an attempt may not necessarily improve a score, and at any given point you will only the best score. 
-

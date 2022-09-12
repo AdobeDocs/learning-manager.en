@@ -73,4 +73,4 @@ You can now start interacting with the  Primebot . The following are the functio
 
 1. Deadlines
 
-   Use  phrase  like `show my deadlines` to get a list of overdue and upcoming deadlines from your Adobe Learning Manager account. You can filter out overdue or upcoming deadlines with phrases like `show my overdue deadlines` or `show my upcoming deadlines'.
+   Use  phrase  like `show my deadlines` to get a list of overdue and upcoming deadlines from your Adobe Learning Manager account. You can filter out overdue or upcoming deadlines with phrases like `show my overdue deadlines` or `show my upcoming deadlines`.
