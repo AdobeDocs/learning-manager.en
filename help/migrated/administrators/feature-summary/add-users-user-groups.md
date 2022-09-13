@@ -110,7 +110,7 @@ To delete a user, click **Actions**, and choose **Delete User**. On the confirma
 
 ## Edit a user {#editauser}
 
-On the list of users, choose a user, and click the user. On the user details, click the **Edit** ( ![](/content/dam/help/icons/edit_pen.png)) button. On the **Edit User** dialog, make the necessary edits and to save the changes, click **Save**.
+On the list of users, choose a user, and click the user. On the user details, click the **Edit** ( ![](assets/edit-pen.png)) button. On the **Edit User** dialog, make the necessary edits and to save the changes, click **Save**.
 
 ![](assets/edit-user.png) 
 
