@@ -1418,7 +1418,7 @@ There are two types of authentications:
 
 ![](assets/ssh-public-key.png)
 
-You must place this public key in your FTP server before you add the below details. Once you set the given key as the public key of your FTP, provide the FTP domain url and the username and click on **Connect **button to set up the connection.
+You must place this public key in your FTP server before you add the below details. Once you set the given key as the public key of your FTP, provide the FTP domain url and the username and click on **Connect** button to set up the connection.
 
 Once connection set up is done then automatically folders for import and export are created in the ftp location. After that import/export functionality is provided by Custom FTP.
 

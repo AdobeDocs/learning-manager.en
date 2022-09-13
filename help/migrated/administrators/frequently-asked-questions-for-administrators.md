@@ -37,7 +37,7 @@ In order to fix user log in, you have to import CSV in Prime. A sample CSV file 
 
 Users should get added on Learners page.
 
-[Learning Manager Sample CSV.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/Captivate-Prime-Sample-CSV.zip)
+[Learning Manager Sample CSV.csv](/help/migrated/administrators/assets/CaptivatePrimeSampleCSV.csv)
 
 +++
 
