@@ -378,11 +378,13 @@ To see the bugs that are fixed in this update, refer to the  [***Bugs fixed***](
 
 ## Previous releases of Learning Manager {#previousreleasesofcaptivateprime}
 
+<!-- These files aren't in TOC and haven't been cleaned up. If you need them, clean them up, change .draft to .md, and add to TOC.
 * [Learning Manager | January 2022 release](whats-new-jan-2022.md)
 * [Learning Manager | October 2021 release](whats-new-october-2021.md)
 * [Learning Manager | August 2021 release](whats-new-august-2021.md)
 * [Learning Manager | February 2021 release](whats-new-february-2021.md)
 * [Learning Manager | December 2020 release](whats-new-december-2020.md)
+-->
 
 ## Have a question or an idea? {#haveaquestionoranidea}
 
