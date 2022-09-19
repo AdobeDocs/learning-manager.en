@@ -1480,7 +1480,7 @@ Release date: May 30, 2019
 
 Release date: April 26, 2019
 
-* **User Interface changes:** On the app, the  ![](/content/dam/help/images/en/hamburger.jpg) and the  ![](/content/dam/help/en/enterprise/search%20magnifying%20glass_icon.png) options now appear at the top.
+* **User Interface changes:** On the app, the  ![](assets/hamburger.jpg) and the  ![](assets/search-magnifying-glass-icon.png) options now appear at the top.
 
 ![](assets/1.png)
 

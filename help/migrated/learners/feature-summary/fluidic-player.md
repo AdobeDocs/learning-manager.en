@@ -35,10 +35,10 @@ Fluidic player is a platform for learners to consume content with uninterrupted 
 
 **Navigation buttons** Use the Up or Down arrows to move across slides in pdf, docx, and pptx content. Slide arrows can be used to move to next topics for all types of content.
 
-**Skip Forward/Backward** While playing a course, you can use the  ![](/content/dam/help/icons/Asset%201.png) icon to skip back by ten seconds and the  ![](/content/dam/help/icons/Asset%202.png) icon to skip forward by ten seconds.
+**Skip Forward/Backward** While playing a course, you can use the  ![](assets/asset-1.png) icon to skip back by ten seconds and the  ![](assets/asset-2.png) icon to skip forward by ten seconds.
 
-**Modify playback speed** Click the ![](/content/dam/help/icons/SpeedIcon.PNG) icon to open the settings dialog box. You can see a pop-up that displays "Speed". Click Speed to view the five available speed settings: 0.25x, 0.5x, 1x, 1.5x, and 2x. 1x is the default, normal playback speed.
-
+**Modify playback speed** Click the ![](assets/speed-icon.png) icon to open the settings dialog box. You can see a pop-up that displays "Speed". Click Speed to view the five available speed settings: 0.25x, 0.5x, 1x, 1.5x, and 2x. 1x is the default, normal playback speed.
+sp
 ![](assets/speedvariants.png)
 
 **Modify Volume settings:** Use the Volume control button to modify the volume when you take a course. Drag the volume control up or down to change the volume settings.

@@ -292,8 +292,8 @@ Find below, the standard CSV specifications that you can use to map with your ex
  </tbody> 
 </table>
 
-Learning Manager supports date and time values in UTF 8 and 32 bit format only. You may get errors during migration if you mention date in CSV files with an out of range date as 2038-07-17T08:53:21.000Z or 1980-04-17T08:13:25.322Z. 
-[sample-csvs.zip](assets/sample-csvs.zip) [CSV-Spec.zip](/content/dam/help/en/learning-manager/integration-admin/feature-summary/migration-manual/jcr_content/root/content/flex/items/position/position-par/download_section_654561273/download-2/CSV-Spec.zip) You need to be aware of the following dependencies on CSV files during import:
+Learning Manager supports date and time values in UTF 8 and 32 bit format only. You may get errors during migration if you mention date in CSV files with an out of range date as 2038-07-17T08:53:21.000Z or 1980-04-17T08:13:25.322Z.&nbsp;
+[sample-csvs.zip](assets/sample-csvs.zip) [CSV-Spec.zip](assets/csv-spec.zip)You need to be aware of the following dependencies on CSV files during import:
 
 * module_version.csv is dependent on module.csv
 * course_instance.csv is dependent on course.csv
@@ -431,7 +431,7 @@ Find below, the standard CSV specifications that you can use to map with your ex
 3-learning_program_enrollment.xlsx-contains descriptions of metadata required for retrofit_learning_program_enrollment.csv file.
 
 4-user_course_grades.xlsx-contains descriptions of metadata required for retrofit_user_course_grades.csv file.
-[csv-specifications.zip](/content/dam/help/en/learning-manager/integration-admin/feature-summary/migration-manual/jcr_content/root/content/flex/items/position/position-par/download_section/download-1/CSV-Spec.zip) 
+[csv-specifications.zip](assets/csv-spec.zip) 
 
 ## Troubleshooting migration issues {#troubleshootingmigrationissues}
 
