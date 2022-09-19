@@ -25,10 +25,10 @@ Read on to know what is the latest offering in Adobe Learning Manager. Start at 
 <table>
  <tbody>
   <tr>
-   <td><img src="assets/prime-new.jpeg"><p>New features summary</p><a href="whats-new"></a></td>
-   <td><img src="assets/prime-reqs.jpeg"><p>System requirements | Adobe Learning Manager</p><a href="system-requirements"></a></td>
-   <td><img src="assets/prime-connector.jpeg"><p>Learning Manager Connectors</p><a href="integration-admin/feature-summary/connectors"></a></td>
-   <td><img src="assets/prime-accessibility.jpeg"><p>Accessibility in Adobe Learning Manager</p><a href="accessibility-captivate-prime"></a></td>
+   <td><img src="assets/prime-new.jpeg"><p>New features summary</p><a href="whats-new.md"></a></td>
+   <td><img src="assets/prime-reqs.jpeg"><p>System requirements | Adobe Learning Manager</p><a href="system-requirements.md"></a></td>
+   <td><img src="assets/prime-connector.jpeg"><p>Learning Manager Connectors</p><a href="integration-admin/feature-summary/connectors.md"></a></td>
+   <td><img src="assets/prime-accessibility.jpeg"><p>Accessibility in Adobe Learning Manager</p><a href="accessibility-learning-manager.md"></a></td>
   </tr>
  </tbody>
 </table>
