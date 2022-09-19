@@ -13,7 +13,7 @@ user-guide-description: Documentation for Adobe Learning Manager
   * [System requirements | Adobe Learning Manager](system-requirements.md) 
   * [Adobe Learning Manager reference site (ALM reference site) package for AEM Sites](adobe-learning-manager-integration-aem.md)
   * [Learning Manager compliance to GDPR](kb/prime-gdpr.md)
-  * [Accessibility in Learning Manager](accessibility-captivate-prime.md)
+  * [Accessibility in Learning Manager](accessibility-learning-manager.md)
   * [Support for custom domain](custom-domain.md)
 * Get Started {#get-started}
   * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
