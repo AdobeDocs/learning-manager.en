@@ -901,7 +901,7 @@ To set up and use the connector, follow these steps.
 1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
 1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
 
-   ![](assets/-attendence-and-scoringreport.png)
+   ![](assets/attendence-and-scoringreport.png)
 
 ## Box connector {#boxconnector}
 
