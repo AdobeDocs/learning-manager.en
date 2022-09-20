@@ -15,20 +15,51 @@ Read on to know what is the latest offering in Adobe Learning Manager. Start at 
  <tbody>
   <tr> 
    <td><img src="assets/community.png"></td> 
-   <td><p>Visit the <a disablelinktracking="false" href="https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all">Adobe Learning Manager User Community</a> to be inspired and get answers to top questions.<br></p></td> 
+   <td><p>Visit the <a disablelinktracking="false" href="https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all">Adobe Learning Manager User Community</a> to be inspired and get answers to top questions.<br></p></td> 
   </tr> 
  </tbody>
 </table>
 
 ## Popular topics {#populartopics}
 
-<table>
+<table style="table-layout:fixed">
  <tbody>
   <tr>
-   <td><img src="assets/prime-new.jpeg"><p>New features summary</p><a href="whats-new.md"></a></td>
-   <td><img src="assets/prime-reqs.jpeg"><p>System requirements | Adobe Learning Manager</p><a href="system-requirements.md"></a></td>
-   <td><img src="assets/prime-connector.jpeg"><p>Learning Manager Connectors</p><a href="integration-admin/feature-summary/connectors.md"></a></td>
-   <td><img src="assets/prime-accessibility.jpeg"><p>Accessibility in Adobe Learning Manager</p><a href="accessibility-learning-manager.md"></a></td>
+   <td>
+    <a href="whats-new.md">
+    <img alt="new features" src="assets/prime-reqs.jpeg">
+    </a>
+    <div>
+    <a href="system-requirements.md"><strong>New features summary</strong></a>
+    </div>
+   </td>
+   <td>
+   <td>
+    <a href="system-requirements.md">
+    <img alt="system requirements" src="assets/prime-reqs.jpeg">
+    </a>
+    <div>
+    <a href="whats-new.md"><strong>System requirements | Adobe Learning Manager</strong></a>
+    </div>
+   </td>
+   <td>
+   <td>
+    <a href="integration-admin/feature-summary/connectors.md">
+    <img alt="connector" src="assets/prime-connector.jpeg">
+    </a>
+    <div>
+    <a href="integration-admin/feature-summary/connectors.md"><strong>Learning Manager Connectors</strong></a>
+    </div>
+   </td>
+   <td>
+   <td>
+    <a href="accessibility-learning-manager.md">
+    <img alt="accessibility" src="assets/prime-accessibility.jpeg">
+    </a>
+    <div>
+    <a href="accessibility-learning-manager.md"><strong>Accessibility in Adobe Learning Manager</strong></a>
+    </div>
+   </td>
   </tr>
  </tbody>
 </table>
