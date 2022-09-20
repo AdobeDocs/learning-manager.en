@@ -34,15 +34,13 @@ Read on to know what is the latest offering in Adobe Learning Manager. Start at 
     </div>
    </td>
    <td>
-   <td>
     <a href="system-requirements.md">
     <img alt="system requirements" src="assets/prime-reqs.jpeg">
     </a>
-    <div>
+    <p>
     <a href="whats-new.md"><strong>System requirements </strong></a>
-    </div>
+    </p>
    </td>
-   <td>
    <td>
     <a href="integration-admin/feature-summary/connectors.md">
     <img alt="connector" src="assets/prime-connector.jpeg">
@@ -51,7 +49,6 @@ Read on to know what is the latest offering in Adobe Learning Manager. Start at 
     <a href="integration-admin/feature-summary/connectors.md"><strong>Learning Manager Connectors</strong></a>
     </div>
    </td>
-   <td>
    <td>
     <a href="accessibility-learning-manager.md">
     <img alt="accessibility" src="assets/prime-accessibility.jpeg">
