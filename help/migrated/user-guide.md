@@ -27,10 +27,10 @@ Read on to know what is the latest offering in Adobe Learning Manager. Start at 
   <tr>
    <td>
     <a href="whats-new.md">
-    <img alt="new features" src="assets/prime-reqs.jpeg">
+    <img alt="new features" src="assets/prime-new.jpeg">
     </a>
     <div>
-    <a href="system-requirements.md"><strong>New features summary</strong></a>
+    <a href="whats-new.md"><strong>New features summary</strong></a>
     </div>
    </td>
    <td>
@@ -39,7 +39,7 @@ Read on to know what is the latest offering in Adobe Learning Manager. Start at 
     <img alt="system requirements" src="assets/prime-reqs.jpeg">
     </a>
     <div>
-    <a href="whats-new.md"><strong>System requirements | Adobe Learning Manager</strong></a>
+    <a href="whats-new.md"><strong>System requirements </strong></a>
     </div>
    </td>
    <td>
