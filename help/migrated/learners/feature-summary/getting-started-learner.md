@@ -1,5 +1,4 @@
 ---
-description: Get started with the Learner app in Learning Manager
 jcr-language: en_us
 title: Getting started as a Learner
 description: Use the getting started page to traverse through the key learning paths of Adobe Learning Manager.
