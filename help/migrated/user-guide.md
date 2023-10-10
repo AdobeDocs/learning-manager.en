@@ -1,5 +1,4 @@
 ---
-jcr-language: en_us
 title: Welcome to the Adobe Learning Manager User Guide
 description: Learn the latest offering in Adobe Learning Manager. Start at the beginning, visit each section individually, or connect with the Community to work your way through a project.
 contentowner: dhv
