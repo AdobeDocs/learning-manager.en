@@ -1,5 +1,5 @@
 ---
-description: Learn how to view and consume job aids in Learning Manager.
+description: Learn how to view and consume job aids in Captivate Prime.
 jcr-language: en_us
 title: Job Aids
 ---
@@ -7,13 +7,13 @@ title: Job Aids
 
 # Job Aids {#job-aids}
 
-Learn how to view and consume job aids in Learning Manager.
+Learn how to view and consume job aids in Captivate Prime.
 
-Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
+Job Aids is&nbsp;a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
 
-Job Aids can be consumed independently or along with course consumption in Learning Manager.
+Job Aids can be consumed independently or along with course consumption in Captivate Prime.
 
-An Administrator of your organization can assign job aids to learners. In learner login you can view Job Aids in the My Job Aids widget on the Home page. If there are any job aids assigned to you, you can view them in the My Job Aids widget at the bottom of the Learner's page.  
+An Administrator of your organization can assign job aids to learners. In learner login you can view Job Aids in the My Job Aids widget on the Home page. If there are any job aids assigned to you, you can view them in the My Job Aids widget at the bottom of the Learner's page. &nbsp;
 
 ## Consume job aids {#consumejobaids}
 

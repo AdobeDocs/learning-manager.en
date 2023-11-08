@@ -1,14 +1,13 @@
 ---
 jcr-language: en_us
 title: Enable full control of shared catalog
-description: Enable full control of shared catalog in Adobe Learning Manager
 contentowner: saghosh
 ---
 
 
 # Enable full control of shared catalog {#enable-full-control-of-shared-catalog}
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 ## Create Catalog {#createcatalog}
 
@@ -20,7 +19,7 @@ For more information, see [Catalogs](https://helpx.adobe.com/captivate-prime/adm
 
 You can share the catalogs with internal users of an organization or with any external users. However, the sharing is exclusive. In other words, an internally shared catalog cannot be shared with external groups and vice versa.
 
-Courses, Learning programs, Job-Aids, and certifications are the supported learning objects for shared catalog. 
+Courses, Learning programs, Job-Aids, and certifications are the supported learning objects for shared catalog.&nbsp;
 
 For more information, see [Share Catalogs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/catalogs.html#shared).
 

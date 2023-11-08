@@ -1,36 +1,35 @@
 ---
 jcr-language: en_us
-title: System requirements for Adobe Learning Manager desktop application
-description: System requirements for Adobe Learning Manager desktop application
+title: System requirements | Adobe Captivate Prime desktop application
 contentowner: kuppan
 ---
 
 
-# System requirements | Adobe Learning Manager desktop application {#system-requirements-adobe-learning-manager-desktop-application}
+# System requirements | Adobe Captivate Prime desktop application {#system-requirements-adobe-captivate-prime-desktop-application}
 
-System requirements and language versions for Adobe Learning Manager.
+## System requirements and language versions {#systemrequirementsandlanguageversions}
 
 ## Windows {#windows}
 
 **Authoring**
 
 * Operating System: Windows 7, Windows 8.1, and Windows 10 (only on 64 bit versions)
-* Processor: Intel&reg; CoreTM i5 and above
+* Processor: Intel®&nbsp;CoreTM i5 and above
 * Ram: Minimum 8 GB
 * Display: Minimum 1024 x 768 resolution, Recommended - 1366 x 768
 * Storage: Minimum 5 GB of available hard disk space
-* Internet connection 
+* Internet connection&nbsp;
 
 ## Mac OS {#macos}
 
 **Authoring**
 
-* Operating System: Mac OSX 10.12, 10.13, 10.14 (only 64 bit version)
-* Processor: Intel&reg; CoreTM i5 and above
+* Operating System:&nbsp;Mac OSX 10.12, 10.13, 10.14 (only 64 bit version)
+* Processor: Intel®&nbsp;CoreTM i5 and above
 * Ram: Minimum 8 GB
 * Display: Minimum 1024 x 768 resolution, Recommended - 1366 x 768
 * Storage: Minimum 5 GB of available hard disk space
-* Internet connection 
+* Internet connection&nbsp;
 
 ## Language versions {#languageversions}
 
@@ -49,3 +48,4 @@ This application is available in the following languages:
 
 * Blue microphones (Yeti/Snowball/Snowflake)
 * Logitech HD Webcams (930/920/910)
+

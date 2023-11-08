@@ -1,5 +1,5 @@
 ---
-description: To learn how to create courses, certifications, and learning programs in Learning Manager, read this article.
+description: To learn how to create courses, certifications, and learning programs in Captivate Prime, read this article.
 jcr-language: en_us
 title: Creating, modify, and publish courses
 contentowner: manochan
@@ -8,11 +8,15 @@ contentowner: manochan
 
 # Creating, modify, and publish courses {#creating-modify-and-publish-courses}
 
+Captivate Prime&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+
+To learn how to create courses, certifications, and learning programs in Captivate Prime, read this article.
+
 Authors can create learning objects such as courses, certifications, and learning plans. Learners can consume these learning objects, while administrators can track learners' progress.
 
-## Courses in Learning Manager {#coursesincaptivateprime}
+## Courses in Captivate Prime {#coursesincaptivateprime}
 
-Adobe Learning Manager enables authors to create courses using one or more modules related to virtual training, self-paced training, classroom training, and activities. Administrators can further use these courses to create course instances, enroll learners, assign badges, and enable feedback for these courses. They can also create learning programs, learning plans, and certifications using these courses.
+Adobe Captivate Prime enables authors to create courses using one or more modules related to virtual training, self-paced training, classroom training, and activities. Administrators can further use these courses to create course instances, enroll learners, assign badges, and enable feedback for these courses. They can also create learning programs, learning plans, and certifications using these courses.
 
 Authors can use e-learning content that is created using any eLearning tool. Other supported course formats include video files, PDF, doc, docx, PPT, and PPTX.
 
@@ -20,7 +24,7 @@ Authors can use e-learning content that is created using any eLearning tool. Oth
 
 To create a course, follow the steps below:
 
-1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **Create Courses**.
+1. Log in to Adobe Captivate Prime as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **Create Courses**.
 1. On the **Course Overview** page, enter the name of the course. Now, enter a short description for this course, which is displayed on the course card. This description must not be more than 140 characters. Then enter the detailed overview for the course, which is displayed on the Course Details page. The description must not exceed 1500 characters.
 
    As an author, you can see the description of the modules while adding the module to a course.
@@ -34,15 +38,15 @@ To create a course, follow the steps below:
 
    The following are the types of enrollments:
 
-   * **Manager nominated:** Only managers can nominate these courses. A learner cannot enroll to these types of courses.
-   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager's approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
-   * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
+   * **Manager nominated:**&nbsp;Only managers can nominate these courses. A learner cannot enroll to these types of courses.
+   * **Manager approved:**&nbsp;Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager’s approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
+   * **Self-enrolled:**&nbsp;Learners can directly enroll themselves to these types of courses.
 
-1. To save the changes, click **Save**. To publish the course, click **Publish**.
+1. To save the changes, click **Save**. To publish the course, click&nbsp;**Publish**.
 
 ## Create a course - Advanced workflow {#createacourseadvancedworkflow}
 
-1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **Create Courses**.
+1. Log in to Adobe Captivate Prime as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **Create Courses**.
 1. On the **Course Overview** page, enter the name of the course. Now, enter a short description for this course, which is displayed on the course card. This description must not be more than 140 characters. Then enter the detailed overview for the course, which is displayed on the Course Details page. The description must not exceed 1500 characters.
 1. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **Save**. For more information, see [Add content for different languages](https://helpx.adobe.com/captivate-prime/authors/feature-summary/content-library.html#Addcontentfordifferentlanguages).
 1. **Modify course settings**-
@@ -53,27 +57,21 @@ To create a course, follow the steps below:
 
    The following are the types of enrollments:
 
-   * **Manager nominated:** Only managers can nominate these courses. A learner cannot enroll to these types of courses.
-   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager's approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
-   * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
+   * **Manager nominated:**&nbsp;Only managers can nominate these courses. A learner cannot enroll to these types of courses.
+   * **Manager approved:**&nbsp;Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager’s approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
+   * **Self-enrolled:**&nbsp;Learners can directly enroll themselves to these types of courses.
 
-1. Choose if you want to set a price for your course or make it free. If you want to make the course paid, choose the option **Paid**, and specify a price. The price then appears on the Course card and the Coure overview page for a learner.
-
-   >[!NOTE]
-   >
-   >This is only enabled when Adobe Commerce connector is configured.
-
-1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box **Learners can unenroll themselves**.
+1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box&nbsp;**Learners can unenroll themselves**.
 1. Select the pre-requisite courses that must be completed before taking up your course. Click the Courses field and choose from the list of courses.
-1. Enable the **Enable** **Prerequisites** check-box if you want the pre-requisite courses to me made mandatory.
+1. Enable the **Enable**&nbsp;**Prerequisites**&nbsp;check-box if you want the pre-requisite courses to me made mandatory.
 1. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
-1. To save the changes, click **Save**. To publish the course, click **Publish**.
+1. To save the changes, click&nbsp;**Save**. To publish the course, click&nbsp;**Publish**.
 
 ## Rich Text Formatting
 
-While creating a Course, Learning Program, Certification, or Job Aid, Authors can input different types of content such as text, image, or apply various text formatting options.
+While creating a Course, Learning&nbsp;Program,&nbsp;Certification, or Job Aid, Authors can&nbsp;input different types of content such as text, image, or apply various text formatting options.
 
-When creating a course, you can see the Rich Text Editor in the Course Overview field. You can format your content, add images, add hyperlinks, and so on.
+When creating a course,&nbsp;you can see the Rich Text Editor in the Course Overview field. You can format your content, add images,&nbsp;add hyperlinks, and so on.
 
 ![](assets/rich-text-editor-author.png)
 
@@ -91,7 +89,7 @@ Similarly, you can use the Rich Text Editor to modify the description when creat
 
 ![](assets/job-aid-rte-new.png)
 
-In addition, you can use the Rich Text Editor for other languages. 
+In addition, you can use the Rich Text Editor for other languages.&nbsp;
 
 ## Rich text description support for headless user Interface
 
@@ -101,7 +99,7 @@ Rich text is composed of HTML markup. Rendering the markup as-is would result in
 
 ### Default style
 
-The attached CSS stylesheet contains the styling that is applied by Learning Manager. The styling is tweaked considering majority of the usecases. Download the attached CSS file and import it to your webapp according to your conventions and build system. The CSS classes defined are namespaced under ql-editor class and they don't interfere with your existing styles.
+The attached CSS stylesheet contains the styling that is applied by Captivate Prime. The styling is tweaked considering majority of the usecases. Download the attached CSS file and import it to your webapp according to your conventions and build system. The CSS classes defined are namespaced under&nbsp;ql-editor&nbsp;class and they don't interfere with your existing styles.
 
 ### Customize styles
 
@@ -116,11 +114,11 @@ The default styling may not meet everyone's needs. The customisations can be don
 * background: **ql-bg-$color**. $color = black, red, orange, yellow, green, blue, purple
 * html tags: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
-[CSS file to be used for customization.](assets/ql-headless.css) 
+[CSS file to be used for customization.](assets/ql-headless.css)
 
-### API CHANGES TO ENABLE RENDERING RICH TEXT OVERVIEWS
+### **API CHANGES TO ENABLE RENDERING RICH TEXT OVERVIEWS**
 
-When customers build a headless interface, they have a need to display the learning objects in that custom user interface they are developing. For doing this, one would typically use the [GET /learningObjects](https://captivateprimeeu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) API that is exposed. Now that Prime supports capturing "rich text" for the overview field, the data model of Learning Objects in the API responses also exposes the same. See the field named "richTextOverview" in the fragment of the model in the API response below. Also note that the field exposed earlier ("overview") remains unchanged for backward compatibility.
+When customers build a headless interface, they have a need to display the learning objects in that custom user interface they are developing. For doing this, one would typically use the [GET /learningObjects](https://captivateprimeeu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) API that is exposed. Now that Prime supports capturing “rich text” for the overview field, the data model of Learning Objects in the API responses also exposes the same. See the field named “richTextOverview” in the fragment of the model in the API response below. Also note that the field exposed earlier (“overview”) remains unchanged for backward compatibility.
 
 ```
 \{ 
@@ -130,7 +128,7 @@ When customers build a headless interface, they have a need to display the learn
  "type": "string", 
  "attributes": { 
  … 
- "localizedMetadata": [ 
+ “localizedMetadata": [ 
  { 
  "description": "string", 
  "locale": "string", 
@@ -159,42 +157,61 @@ However, to render this rich text in their UI, the customer will need to include
 
 Once the admin has enabled multi attempts, as an author you can configure multi attempts for an interactive e-learning module at a course or module level.
 
-![](assets/allow-multipe-attempts.png) 
+![](assets/allow-multipe-attempts.png)
 
-<table> 
+<table>
  <tbody>
-  <tr> 
-   <td><p>Option</p></td> 
-   <td><p>Description</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Set Attempts at</p></td> 
-   <td><p>You can set the number of attempts for a module to infinite or provide a definite limit.<span style="font-size: 0.8125rem;">The attempt information will be shown to the learner once it is enabled. The learner can choose to reattempt the module by clicking on the 'Reattempt' button.</span></p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Stop new attempt once module is completed or passed</p></td> 
-   <td><p>To configure when to stop learners from selecting the new attempt option, enable the check-box "Stop new attempt once module is completed or passed". The 'Reattempt' option will be removed from the learner view once they successfully complete the module.</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</p></td> 
-   <td><p>You can lock modules for a specific time between attempts, by enabling the check-box "<b>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</b>". When a module is locked, the learner cannot visit the module until the lock time provided elapses. </p><p>ou can define the end criteria of an attempt by selecting the '<b>Player close</b>' or '<b>Completion</b>' check-boxes.</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Player Close</p></td> 
-   <td><p>Every module launch is treated as a new attempt if the criteria is selected as '<b>Player Close</b>'. A learner is prompted with module lock details and attempt details on closing the player.</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Completion</p></td> 
-   <td><p>If the end of an attempt is based on <b>Completion</b>, then it will be calculated based on the content success criteria. Learners are not allowed to re-attempt the module until the content sends the completion information. Module lock and attempt details are communicated to the learner once an attempt ends.</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Set time limit to complete module</p></td> 
-   <td><p>Authors can set a time limit to complete a module by the enabling the check-box, "<b>Set time limit to complete module</b>".</p><p>Every player launch is considered as a new attempt and the learner is prompted with the time details during launch.</p><p><b>Note:</b><span style="font-size: 0.8125rem;">The attempt will end automatically once the time elapses. Closing the player as well will end the current attempt.</span></p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Multi attempts at Module level</p></td> 
-   <td><p>Selecting an attempt at 'Module level' from the 'Set Attempt at' drop-down list allows you to configure the options at individual module level.</p></td> 
-  </tr> 
+  <tr>
+   <td>
+    <p>Option</p></td>
+   <td>
+    <p>Description</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Set Attempts at</p></td>
+   <td>
+    <p>You can set the number of attempts for a module to infinite or provide a definite limit.<span style="font-size: 0.8125rem;">The attempt information will be shown to the learner once it is enabled. The learner can choose to reattempt&nbsp;the module by clicking on the ‘Reattempt’ button.</span></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Stop new attempt once module is completed or passed</p></td>
+   <td>
+    <p>To configure when to stop learners from selecting the new attempt option, enable the check-box “Stop new attempt once module is completed or passed”. The ‘Reattempt’ option will be removed from the learner view once they successfully complete the module.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</p></td>
+   <td>
+    <p>You can lock modules for a specific time between attempts, by enabling the check-box “<b>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</b>”. When a module is locked, the learner cannot visit the module until the lock time provided elapses.&nbsp;</p>
+    <p>ou can define the end criteria of an attempt by selecting the ‘<b>Player close</b>’ or ‘<b>Completion</b>’ check-boxes.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Player Close</p></td>
+   <td>
+    <p>Every module launch is treated as a new attempt if the criteria is selected as '<b>Player Close</b>'. A learner is prompted with module lock details and attempt details on closing the player.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Completion</p></td>
+   <td>
+    <p>If the end of an attempt is based on&nbsp;<b>Completion</b>, then it will be calculated based on the content success criteria. Learners are not allowed to re-attempt the module until the content sends the completion information. Module lock and attempt details are communicated to the learner once an attempt ends.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Set time limit to complete module</p></td>
+   <td>
+    <p>Authors can set a time limit to complete a module by the enabling the check-box, “<b>Set time limit to complete module</b>”.</p>
+    <p>Every player launch is considered as a new attempt and the learner is prompted with the time details during launch.</p>
+    <p><b>Note:</b><span style="font-size: 0.8125rem;">The attempt will end automatically once the time elapses. Closing the player as well will end the current attempt.</span></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Multi attempts at Module level</p></td>
+   <td>
+    <p>Selecting an attempt at 'Module level' from the 'Set Attempt at' drop-down list allows you to configure the options at individual module level.</p></td>
+  </tr>
  </tbody>
 </table>
 
@@ -206,7 +223,7 @@ You can now add Content, Prework, and Testout modules. **Content** modules are t
 
 To add a content module, perform the steps below:
 
-1. Click **Add Modules**. You can see four options to add modules. The first option is to add Self Paced Modules. These are the modules that you create and add to the module library in Adobe Learning Manager. These second option is to set up the Virtual Classroom. The third one is to set up a Classroom Module, and the fourth is Activity Module.
+1. Click **Add Modules**. You can see four options to add modules. The first option is to add Self Paced Modules. These are the modules that you create and add to the module library in Adobe Captivate Prime. These second option is to set up the Virtual Classroom. The third one is to set up a Classroom Module, and the fourth is Activity Module.
 
    ![](assets/select-module-type.png)
 
@@ -224,55 +241,35 @@ To add a content module, perform the steps below:
 
    When creating a course using the Virtual Classroom configuration dialog box, set the **Conferencing System** to the Teams connection that you created. Select whether you want a meeting organizer for the event.
 
-   If you select **Yes** for a meeting organizer, you must enter the name of the organizer. Type the name and select the organizer.
+   If you select **Yes **for a meeting organizer, you must enter the name of the organizer. Type the name and select the organizer.
 
    **Lobby bypassing**
 
    * If you select **Yes**, any learner can join the meeting.
    * If you select **No**, a request is sent to the organizer to allow or prevent the learner from joining the meeting.
 
-   >[!NOTE]
-   >
-   >   A learner must be available on Microsoft Teams. However, the learner can join Learning Manager as a guest.
+   **Note:** A learner must be available on Microsoft Teams. However, the learner can join Captivate Prime as a guest.
 
    **Classroom Module:** In this mode, learners attend in-person lectures, facilitated by a trained instructor. Enter the title, description, and set the duration of the session. You can also specify the location of the class and the instructors to conduct the session. To save the changes, click **Done**.
 
    ![](assets/classroom-module.png)
 
-   When creating a course, in the Virtual Classroom configuration dialog box, set the conferencing system to the Microsoft Teams connection that you created. Select whether you want a meeting organizer for the event.
+   When&nbsp;creating a course, in the Virtual Classroom configuration dialog&nbsp;box, set the conferencing system&nbsp;to&nbsp;the&nbsp;Microsoft&nbsp;Teams connection&nbsp;that you created.&nbsp;Select&nbsp;whether you want a meeting organizer for the event.
 
-   If you select Yes for a meeting organizer, you must enter the name of the organizer. Type the name of the organizer and select the organizer.
+   If you&nbsp;select&nbsp;Yes&nbsp;for a meeting organizer, you must enter the name of the organizer. Type the name of the organizer and select the organizer.
 
    **Lobby bypassing**
 
-   * If you select Yes, any learner can join the meeting.
-   * If you select No, a request is sent to the organizer to allow or prevent the learner from joining the meeting.
+   * If you select&nbsp;Yes, any learner can join the meeting.
+   * If you select&nbsp;No, a request is sent to the organizer to allow or prevent the learner from joining the meeting.
 
-   >[!NOTE]
-   >
-   >If a learner wants to join Microsoft Teams as guest, he/she must enter the email. The email must be present in Captivate Prime.
+   **Note:**&nbsp;If a learner wants to join Microsoft Teams as guest, he/she must enter&nbsp;the&nbsp;email. The&nbsp;email must be present in&nbsp;Captivate&nbsp;Prime.
 
    **Activity Module:** In this mode, learners must complete a set of activities, such as, workshops, exercises, questionnaire, and other learning activities. Enter the title, description, and the external url for reference. To save the changes, click **Done**.
 
    ![](assets/activity-module.png)
 
-   You can specify the duration while adding an activity module in a course for activity type File Submission and xAPI-based modules. 
-
-1. After you've added a module, you can mark the module as previewable by a learner. Enable the checkbox, **Learner Preview**. When a learner visits the course, they can preview the course.
-
-   An Author, while creating a course, can mark a course as free or paid.
-
-   The data about the courses are copied to Adobe Commerce. The data is synced on demand.
-
-   Unless the data is synced, a learner cannot buy a course. The **Buy Now** or **Add to Cart **button is disabled.
-
-## Unsupported features
-
-* Recurred Certifications.
-* A manager approved/nominated courses.
-* LinkedIn Content Marketplace courses.
-* Harvard Manage Mentor courses are not available for purchase.
-* Acquired courses are not available for purchase.
+   You can specify the duration&nbsp;while adding an activity module in a course for activity type File Submission and&nbsp;xAPI-based modules.&nbsp;
 
 1. Similarly, add modules for Prework and Testout modes.
 1. Choose the sequencing type for modules as Ordered or Unordered based on your preference.
@@ -282,24 +279,22 @@ To add a content module, perform the steps below:
 1. From the Mandatory Modules drop-down list, choose the number of modules that the learner must take to complete the course.
 1. Add a cover image and the banner image for the course. The catalogs are created by the administrator. For more information, see [Catalogs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/catalogs.html).
 
-   >[!NOTE]
-   >
-   >The recommended dimensions are:
+   **Note:** The recommended dimensions are:
 
-   * **Cover image:** 300 px x 300 px
+   * **Cover image: **300 px x 300 px
    * **Banner image:** 1600 px x 140 px
 
 1. On the top-right corner of the page, click **Save**.
 
 ## Checklist {#create-checklist}
 
-Evaluation is an important aspect of any LMS. Online assessments are one of the top ways of evaluating a learner's understanding of a topic. But often, it's necessary to evaluate a person's understanding while she's/he's on the job by observing him/her carry out the necessary tasks.
+Evaluation is an important aspect of any LMS. Online assessments are one of the top ways of evaluating a learner’s understanding of a topic. But often, it’s necessary to evaluate a person’s understanding while she’s/he’s on the job by observing him/her carry out the necessary tasks.
 
 Consider store employees or warehouse workers undergoing evaluation for the tasks they are supposed to carry out on a day to day basis. It could be the steps carried out to repair a coffee machine or the steps involved in packing a material. Instructors can evaluate employees for such tasks based on a checklist and evaluate them as Pass or Fail in the evaluation activity.
 
 ### Create a checklist {#createachecklist}
 
-Only an Author can create a checklist. A checklist is a type of Activity module. While setting up an Activity module, you, an Author, can select an Activity as **Checklist**, as shown below: 
+Only an Author can create a checklist. A checklist is a type of Activity module. While setting up an Activity module, you, an Author, can select an Activity as **Checklist**, as shown below:&nbsp;
 
 ![](assets/checklist-option.png)
 
@@ -309,16 +304,20 @@ Once you choose the option **Checklist**, you see a few additional options.
 
 **Pass Criteria:**
 
-<table> 
+<table>
  <tbody>
-  <tr> 
-   <td><p>If you had chosen <b>Yes/No</b>, then...</p></td> 
-   <td><p>If you had chosen <b>1-5</b>, then...</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Set the pass criteria as the number of responses as Yes. For example, if you enter 3, then the learner passes the course, if he/she receives at least three <b>Yes </b>responses, when evaluated by an Instructor.</p></td> 
-   <td><p>Set the pass criteria as a threshold of any number between 1-5. For example, if you enter 2 and 4, then the learner passes the course, if he/she attains at least <b>two </b>evaluations that have score greater than or equal to <b>four</b>.</p></td> 
-  </tr> 
+  <tr>
+   <td>
+    <p>If you had chosen <b>Yes/No</b>, then...</p></td>
+   <td>
+    <p>If you had chosen <b>1-5</b>, then...</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Set the pass criteria as the number of responses as Yes. For example, if you enter 3, then the learner passes the course, if he/she receives at least three <b>Yes </b>responses, when evaluated by an Instructor.</p></td>
+   <td>
+    <p>Set the pass criteria as a threshold of any number between 1-5. For example, if you enter 2 and 4, then the learner passes the course, if he/she attains at least <b>two </b>evaluations that have score greater than or equal to <b>four</b>.</p></td>
+  </tr>
  </tbody>
 </table>
 
@@ -342,12 +341,10 @@ On this page, enter the following details:
 
    ![](assets/course-skills.png)
 
-   When adding a course skill, you can set maximum credits for a particular skills level in a course. You can either use the new checkbox to select maximum credits for a specific skill level, or manually enter the credits.
-
 1. Choose the type of enrollment. The following are the options:
 
    * **Manager nominated:** Only managers can nominate these courses. A learner cannot enroll to these types of courses.
-   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager's approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
+   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager’s approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
    * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
 
 1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box **Learners can unenroll themselves**.
@@ -392,10 +389,10 @@ After previewing the course as a learner, you can publish the course, so that it
 
 A typical course life cycle looks as follows:
 
-* **Draft** -When an author completes creating a course and saving it. At this state, course is not available yet for learners.
-* **Published** -When an author completes publishing a course. At this state, the course is available for learners to enroll. You can also edit a course at this state.
-* **Retired** - After publishing a course, an author can move it to a retired state if the author doesn't want the course to appear in course catalog for learners.
-* **Deleted** - A course under deleted state is when it is removed completely from the Adobe Learning Manager application. Only authors can delete courses when they are in Draft or Retired states. 
+* **Draft** –When an author completes creating a course and saving it. At this state, course is not available yet for learners.
+* **Published** –When an author completes publishing a course. At this state, the course is available for learners to enroll. You can also edit a course at this state.
+* **Retired** – After publishing a course, an author can move it to a retired state if the author doesn’t want the course to appear in course catalog for learners.
+* **Deleted** – A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Only authors can delete courses when they are in Draft or Retired states.&nbsp;
 
 ![](assets/typical-course-lifecycle.png)
 
@@ -409,7 +406,7 @@ The course is now available in the course catalog.
 
 ## View a course {#viewacourse}
 
-You can view a list of all available courses as an author. To view all the courses in Learning Manager account, click Course Catalog. To view all your authored courses in Learning Manager, click **My Courses**.
+You can view a list of all available courses as an author. To view all the courses in Captivate Prime account, click Course Catalog. To view all your authored courses in Captivate Prime, click **My Courses**.
 
 On the course card, hover on the options, and click **View Course**.
 
@@ -433,7 +430,7 @@ You can create a copy of the course and then modify the course. If you want to b
 
 ## Search for courses {#searchforcourses}
 
-Adobe Learning Manager makes it easier for you to find the courses of your choice quickly. You can search for your courses in the following ways:
+Adobe Captivate Prime makes it easier for you to find the courses of your choice quickly. You can search for your courses in the following ways:
 
 **Search field:** Click the search bar on the upper-right corner of the **Course Catalog** page. Type the course name or any keywords associated with your courses. You can also search using tags that are added during course creation. Tags are searchable inside Search Courses field, which means the tags are displayed in search field as you type.
 
@@ -443,7 +440,7 @@ Adobe Learning Manager makes it easier for you to find the courses of your choic
 
 As an author, you can also sort the courses to better locate your required course. Click **Sort b**y and choose alphabetical ascending order, alphabetical descending order, course created date, course updated date, and effectiveness of courses.
 
-![](assets/filter-list-of-courses.png) 
+![](assets/filter-list-of-courses.png)
 
 ## Enroll learners in a course {#enrolllearnersinacourse}
 
@@ -457,7 +454,7 @@ To switch to the Admin mode,
 
    ![](assets/enroll-learners.png)
 
-1. On the Enroll Learners dialog box, on the top-right corner you an see that the option **Default Instance** is selected. As soon as a course is created by an author, a default instance of the course is created. 
+1. On the Enroll Learners dialog box, on the top-right corner you an see that the option **Default Instance** is selected. As soon as a course is created by an author, a default instance of the course is created.&nbsp;
 
    ![](assets/default-instance.png)
 
@@ -485,9 +482,12 @@ A persistent url is always fixed. But for users who do not have Connect and thei
 
 You can now change the url of the persistent room on the **Course Instance** page.
 
-![](assets/persistentroomdropdown.png)
+| ![](assets/persistentroomdropdown.png)
 
-![](assets/courseinstancepage-persistentroom.png)
+| ![](assets/courseinstancepage-persistentroom.png)
+
+|
+|---|---|
 
 ## Unenroll learners from a course {#unenrolllearnersfromacourse}
 
@@ -501,18 +501,18 @@ For more information see [Unenrolling learners](https://helpx.adobe.com/captivat
 
 ## Add course modules for Captivate and Presenter {#addcoursemodulesforcaptivateandpresenter}
 
-You can also publish the course modules to Learning Manager from Adobe Captivate and Adobe Presenter software using the Publish menu.
+You can also publish the course modules to Captivate Prime from Adobe Captivate and Adobe Presenter software using the Publish menu.
 
-1. In Captivate, click **Publish > Publish to Learning Manager**.
+1. In Captivate, click **Publish > Publish to Captivate Prime**.
 1. Provide the sub-domain name or email id and click **Submit**. If you have multiple accounts, you are prompted to choose the account.
 1. Log in with Adobe credentials. If you do not have an Adobe id, click **Create Account**. After authorization, you are directed to module publishing page.
 1. Provide all the basic information about the module and click Publish.
 
-You can see the published module on the Learning Manager modules page. For more information, see [Publish project to Adobe Learning Manager](https://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html).
+You can see the published module on the Captivate Prime modules page. For more information, see [Publish project to Adobe Captivate Prime](https://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html).
 
 ## Course effectiveness {#courseeffectiveness}
 
-Course effectiveness score helps the authors to evaluate the courses which are not working as per learners needs and modify them accordingly. Course effectiveness is evaluated to understand the usefulness of a course to the learner. It is a combination of results from learner feedback on the course content. The course quiz results for a learner and the manager's feedback evaluating a learner based on learning from the course.
+Course effectiveness score helps the authors to evaluate the courses which are not working as per learners needs and modify them accordingly. Course effectiveness is evaluated to understand the usefulness of a course to the learner. It is a combination of results from learner feedback on the course content. The course quiz results for a learner and the manager’s feedback evaluating a learner based on learning from the course.
 
 In **My Courses**, an author can view the course effectiveness rating on the course thumbnails as shown in the below snapshot. You can see the rating for this course as 100.
 
@@ -532,11 +532,11 @@ As per the pie-chart shown above, more weightage is given to L3 feedback from ma
 
 Both Author and Admin can create certifications and learning programs for learners from the Author app. From the home page, click either Certifications, or Learning Programs to create the respective learning objects.
 
-To know how to create and manage certifications and learning programs, see  [Certifications](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/certifications.html) and  [Learning Programs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/learning-programs.html).
+To know how to create and manage certifications and learning programs, see&nbsp; [Certifications](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/certifications.html)&nbsp;and&nbsp; [Learning Programs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/learning-programs.html).
 
 ## Mandatory courses for external certification {#mandatorycoursesforexternalcertification}
 
-In earlier releases of Learning Manager, course completion from learner in External certification was not mandatory to complete a Certificate.
+In earlier releases of Captivate Prime, course completion from learner in External certification was not mandatory to complete a Certificate.
 
 You can now make courses mandatory by enabling the option **Set required courses as Mandatory for Certificate Completion** in the Curriculum tab.
 
@@ -553,7 +553,7 @@ When courses are set as mandatory:
 
 Perform the following steps:
 
-1. Log into Learning Manager as an Author.
+1. Log into Captivate Prime as an Author.
 1. Open the course.
 1. On the left pane, click **Settings > Edit**.
 1. On the **Enrollment Type** drop-down list, change the enrollment type from **Manager Nominated** to **Manager Approved** or **Self Enrolled**.
@@ -566,7 +566,7 @@ Perform the following steps:
 
 You can combine courses via a Learning Program.
 
-1. Log in to Learning Manager as an Administrator.
+1. Log in to Captivate Prime as an Administrator.
 1. On the left pane, click **Learning Programs**.
 1. To add a Learning Program, click **Add**.
 1. Enter the details of the Learning Program and to save the Learning Program, click **Save**.
@@ -577,7 +577,7 @@ You can combine courses via a Learning Program.
 
 Once you have added all the courses required in the Learning Program, click **Publish**.
 
-In a Learning program, you can only add self-enrolled courses and not Manager Nominated or Manager Approved courses. This is a default behavior in Learning Manager.
+In a Learning program, you can only add self-enrolled courses and not Manager Nominated or Manager Approved courses. This is a default behavior in Captivate Prime.
 
 +++
 
@@ -587,11 +587,11 @@ You can achieve this via catalogs.. A default catalog contains all courses added
 
 You must disable the default catalog and create custom catalogs.
 
-1. Log in to Learning Manager as an Administrator.
+1. Log in to Captivate Prime as an Administrator.
 1. On the left pane, click **Catalogs**.
 1. Create a Catalog by clicking **Create**. Enter the details and click **Save**.
 
-1. On the newly created Catalog options, you can select different types of learning that you can add, for example, Learning Program, certification, or course.
+1. On the newly created Catalog options,&nbsp;you can select different types of learning that you can add, for example, Learning Program, certification, or course.
 1. In the Learning Program section, click **Add Content**.
 1. On the left pane, click **Share Internally** or **Share Externally** depending on the audience that you want to target.
 
@@ -630,7 +630,7 @@ While creating a course, you can add video, audio, pdf, or text files to the cou
 
 +++How to set multiple attempts on module?
 
-**Pre-requisite:** The Administrator must enable the option **Multiple Attempts** in **Settings > General** in the Admin app.
+**Pre-requisite:** The Administrator must enable the option&nbsp;**Multiple Attempts** in **Settings > General** in the Admin app.
 
 As an Author, on the Course overview page, enable the option **Allow multiple attempts**.
 
@@ -638,8 +638,9 @@ For more information, see the [section on multiple attempts](courses.md#Allowmul
 
 +++
 
-+++Can you download the content that has been uploaded on Adobe Learning Manager to modify the content?
++++Can you download the content that has been uploaded on Adobe Captivate Prime to modify the content?
 
 No, the content uploaded on Prime is a published zip file and is not the source file. Therefore, even if the content is downloaded, the content cannot be edited in an authoring tool. You would require a source file to edit the content.
 
 +++
+

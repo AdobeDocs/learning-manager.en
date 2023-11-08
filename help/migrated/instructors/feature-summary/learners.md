@@ -12,9 +12,9 @@ Read this article to know how to manage the attendees, send course related email
 
 ## See sessions or modules with pending reviews {#pending}
 
-As an instructor, you can see the sessions or modules with pending reviews. 
+As an instructor, you can see the sessions or modules with pending reviews.&nbsp;
 
-On the Sessions/Modules page, you can see a column **Reviews Pending** that shows the number of pending reviews for the corresponding session/activity.
+On the Sessions/Modules page,&nbsp;you can see a column **Reviews Pending** that shows the number of pending reviews for the corresponding session/activity.
 
 ## Manage waitlist for your session {#managewaitlistforyoursession}
 
@@ -33,7 +33,7 @@ As the Learners register for your module, you can see the latest status of the e
 
 Instructors have the capability to unenroll learners from sessions. This also unenrolls them from corresponding learnings. Select **[!UICONTROL Waitlist]** tab. Select the learners to unenroll using the checkbox. To unenroll, select **[!UICONTROL Actions > Unenroll learners]**.
 
-![](assets/unenroll-learners.png) 
+![](assets/unenroll-learners.png)
 
 ## Mark attendance for your session {#markattendanceforyoursession}
 
@@ -61,13 +61,13 @@ To send emails to learners, from the Learners page in the Instructor app, do one
 
 ## Exporting learners list {#exportinglearnerslist}
 
-As an instructor, you can easily mark the attendance for all your learners by exporting the attendee list as a pdf. To export the attendee list, from the Learner from the left pane. Click Actions > Export Learner List (PDF). 
+As an instructor, you can easily mark the attendance for all your learners by exporting the attendee list as a pdf. To export the attendee list, from the Learner from the left pane. Click Actions > Export Learner List (PDF).&nbsp;
 
-After the attendee list is confirmed for your session, you can export the list as a PDF. This easy-to-print pdf displays the learners as a table. You can then mark the attendance or provide scores, and make or provide notes for the learner, all in the same PDF. 
+After the attendee list is confirmed for your session, you can export the list as a PDF. This easy-to-print pdf displays the learners as a table. You can then mark the attendance or provide scores, and make or provide notes for the learner, all in the same PDF.&nbsp;
 
-Notice a QR code at the top right corner of this PDF. This functionality allows individual learners to scan the code using the Learning Manager mobile app for learners to mark their attendance. 
+Notice a QR code at the top right corner of this PDF. This functionality allows individual learners to scan the code using the Captivate Prime mobile app for learners to mark their attendance.&nbsp;
 
-![](assets/exportpdf.png) 
+![](assets/exportpdf.png)
 
 ## Approve or reject submissions {#approveorrejectsubmissions}
 
@@ -90,6 +90,8 @@ If leaners have uploaded documents like assignments, reports, or assessments for
 
    ![](assets/setreminder.png)
 
+1.
+
    * In the Reminder Settings dialog box, set the option on when to send the reminder to learners: Before deadline, On deadline, or After deadline.
    * In the days before deadline field, set the number of days prior to the deadline when you want to send the reminder to learners.
    * Set the recurrence for your reminder.
@@ -106,3 +108,4 @@ If leaners have uploaded documents like assignments, reports, or assessments for
    If you have already set reminders for your sessions, you can see them under the Existing Reminder tiles. Further, you can also add additional reminders to your existing reminders.
 
    To delete an existing reminder, click on the reminder. From the pop-up that appears, click the Delete icon (Trash icon) to delete the reminder.
+

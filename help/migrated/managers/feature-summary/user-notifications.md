@@ -8,11 +8,11 @@ contentowner: manochan
 
 # User notifications {#user-notifications}
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Setting up User notifications for Managers.
 
-Notifications feature is applicable to all the users of Adobe Learning Manager 1.0. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
+Notifications feature is applicable to all the users of Adobe Captivate Prime 1.0. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 
 ## Access notifications {#accessnotifications}
 
@@ -22,9 +22,9 @@ Sample manager notifications snapshot:
 
 ![](assets/manager-notifications-2.png)
 
-This pop-up window displays highlights of all the notifications along with time of occurrence with a scroll bar. To view more information about all the notifications, click Show All Notifications at the bottom of the pop-up window. Notifications page appears.
+This pop-up window displays highlights of all the notifications along with time of occurrence with a scroll bar. To view more information about all the notifications, click&nbsp;Show All Notifications&nbsp;at the bottom of the pop-up window. Notifications page appears.
 
-A manager can see the pending tasks and all notifications in a tabbed form at the notifications page. Pending tasks notifications are categorized based on approvals, nominations and so on. To view all the notifications, click **All Notifications** tab. In all notifications tab, the notifications are ordered based on date and time and listed.
+A manager can see the pending tasks and all notifications in a tabbed form at the notifications page. Pending tasks notifications are categorized based on approvals, nominations and so on. To view all the notifications, click&nbsp;**All Notifications**&nbsp;tab. In all notifications tab, the notifications are ordered based on date and time and listed.
 
 ![](assets/manager-notifications-page.png)
 
@@ -47,14 +47,14 @@ Managers can get notifications when the following events trigger:
 1. A manager is required to nominate learners to a course
 1. A manager is required to approve a learner for a course.
 1. A manager is required to approve the certification proof document uploaded by the learner
-1. A learner does not complete the course even after the deadline date. (this event triggers only when the notification reminder for the course instance is set with escalation level to the learner's manager)
+1. A learner does not complete the course even after the deadline date. (this event triggers only when the notification reminder for the course instance is set with escalation level to the learner’s manager)
 
+**Note** 
 Managers can also receive notifications when they play the role of a learner. Refer to learner notifications for more information.
 
 ## Provide feedback {#providefeedback}
 
-As shown in the above snapshot, managers can click Provide Feedback to provide L3 feedback for the learners of each courses or learning programs.
+#### `As shown in the above snapshot, managers can click Provide Feedback to provide L3 feedback for the learners of each courses or learning programs.`
 
->[!NOTE]
->
->Learners and Managers can get the feedback option for courses only when an administrator enables it for a particular course.
+**Note** 
+Learners and Managers can get the feedback option for courses only when an administrator enables it for a particular course.

@@ -1,18 +1,17 @@
 ---
 jcr-language: en_us
 title: Notifications
-description: Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios.
 contentowner: manochan
 ---
 
 
 # Notifications {#notifications}
 
-Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
+Notifications feature is applicable to all the users of Adobe Captivate Prime. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 
 ## Access notifications {#accessnotifications}
 
-Users can see notifications by clicking notifications icon at the upper right corner of the window. This pop-up dialog displays highlights of all the notifications along with time of occurrence with a scroll bar. To view more information about all the notifications, click Show All Notifications at the bottom of the pop-up dialog. Notifications page appears.
+Users can see notifications by clicking notifications icon at the upper right corner of the window.&nbsp;This pop-up dialog displays highlights of all the notifications along with time of occurrence with a scroll bar. To view more information about all the notifications, click Show All Notifications at the bottom of the pop-up dialog. Notifications page appears.
 
 You can know the number of latest notifications by the highlighted number on top of the notifications icon. For example, if there are five latest notifications after your previous login, you can see the number 5 being displayed on top of the notifications icon. These numbers disappear once you read all the latest notifications.
 
@@ -22,19 +21,18 @@ Administrators get notifications under following instances:
 
 * Whenever a csv list of users is successfully uploaded.
 * Whenever the upload of a csv list of users is unsuccessful. The Admin gets a message with the reason for failure.
-* Administrator can also set up instance level notification alerts for courses and learning programs. In this case, Administrator gets the notifications based on the frequency selected at instance level. 
+* Administrator can also set up instance level notification alerts for courses and learning programs. In this case, Administrator gets the notifications based on the frequency selected at instance level.&nbsp;
 
->[!NOTE]
->
->If an administrator has author or manager privileges in addition to his role, then the administrator gets notifications pertaining to each role.
+**Note*** 
+*If an administrator has author or manager privileges in addition to his role, then the administrator gets notifications pertaining to each role.
 
 A sample notification window for admin role is shown in the following screenshot:
 
 ![](assets/admin-notification.png)
 
-This pop-up window displays highlights of all the notifications along with time of occurrence and a scroll bar. You can know the number of latest notifications based on the highlighted number on top of the notifications icon. For example, if there are five latest notifications after your previous login, you can see the number 5 being displayed on top of the notifications icon. These numbers disappear once you read all the latest notifications.
+This pop-up window displays highlights of all the notifications along with time of occurrence and a scroll bar.&nbsp;You can know the number of latest notifications based on the highlighted number on top of the notifications icon. For example, if there are five latest notifications after your previous login, you can see the number 5 being displayed on top of the notifications icon. These numbers disappear once you read all the latest notifications.
 
-Click **Show all notifications** link at the bottom of the notifications pop-up window to view all the notifications in a separate page.
+Click&nbsp;**Show all notifications**&nbsp;link at the bottom of the notifications pop-up window to view all the notifications in a separate page.
 
 ## Set up multi level escalation notifications {#setupmultilevelescalationnotifications}
 
@@ -61,12 +59,12 @@ Escalation emails when learners miss deadlines can be sent to the manager and a 
 
    ![](assets/set-reminders-andescalation.png)
 
-1. If the learner still fails to complete the course even after escalation to the manager, settings allow you to escalate to the learner's skip manager. Click on a date after the extended deadline, select the recurrence of reminders, the number of days for the schedule and select Manager & Skip Level Manager under the Escalation drop down. Click on the blue checkmark to save notification settings.
+1. If the learner still fails to complete the course even after escalation to the manager, settings allow you to escalate to the learner’s skip manager. Click on a date after the extended deadline, select the recurrence of reminders, the number of days for the schedule&nbsp;and select Manager & Skip Level Manager under the Escalation drop down. Click on the blue checkmark to save notification settings.
 
    ![](assets/reminder-to-managerandskipmanager.png)
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1. How to setup reminder notifications on the instance?**
+**1.&nbsp;How to setup reminder notifications on the instance?**
 
-On an instance, click Notification Alerts. A calendar opens indicating the deadline set for the course highlighted in red. Click on the highlighted date to see the reminders are set for the learner. Set the reminders, as explained in this [section](user-notifications.md#Setupmultilevelescalationnotifications).
+On an instance, click Notification Alerts.&nbsp;A calendar opens indicating the deadline set for the course highlighted in red. Click on the highlighted date to see the reminders are set for the learner. Set the reminders, as explained in this [section](user-notifications.md#Setupmultilevelescalationnotifications).

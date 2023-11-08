@@ -1,22 +1,21 @@
 ---
 jcr-language: en_us
-title: Unable to view file submissions in Adobe Learning Manager
-description: Instructors are unable to view files that learners have uploaded in the Submission Activity Module.
+title: Unable to view file submissions in Adobe Captivate Prime
 contentowner: nluke
 ---
 
 
-# Unable to view file submissions in Adobe Learning Manager {#unable-to-view-file-submissions-in-adobe-learning-manager}
+# Unable to view file submissions in Adobe Captivate Prime {#unable-to-view-file-submissions-in-adobe-captivate-prime}
 
-## Issue 
+## **Issue**
 
 An instructor is unable to view the file submissions that a learner has uploaded.
 
-## Description 
+## **Description**
 
 Instructors are unable to view files that learners have uploaded in the **Submission Activity Module**.
 
-For example, a learner had enrolled for an instance named **Test instance** of a course, as shown below:
+For example, a learner had enrolled for an instance named **Test instance**&nbsp;of a course, as shown below:
 
 ![](assets/test-instance.png)
 
@@ -24,9 +23,9 @@ The learner then opens the course and uploads a file in the Activity module.
 
 When the instructor tries to approve the submission, the instructor is unable to do so.
 
-![](assets/activity.png) 
+![](assets/activity.png)
 
-## Cause 
+## **Cause**
 
 If there is no instructor in the course instance in which the learner is enrolled, the issue appears.
 
@@ -35,14 +34,14 @@ If there is no instructor in the course instance in which the learner is enrolle
 To check if an instructor is added to the course instance, perform the steps below:
 
 1. Navigate to the course settings.
-1. In the **Manage** section, click **Instances.**
-1. In the instance where the learner is enrolled, click **Sessions**.
+1. In the **Manage **section, click **Instances.**
+1. In the instance** **where the learner is enrolled, click **Sessions**.
 
    ![](assets/check-instructor.png)
 
    There is no instructor assigned to this session.
 
-1. Click **Edit**. Add the instructor who approves the file submission.
+1. Click **Edit. **Add the instructor**&nbsp;**who approves the file submission.
 
    ![](assets/assign-instructor.png)
 

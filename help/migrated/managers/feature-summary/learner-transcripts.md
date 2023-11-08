@@ -1,5 +1,5 @@
 ---
-description: Learn how to download learner transcript based on users, learning objects, or skills in Learning Manager.
+description: Learn how to download learner transcript based on users, learning objects, or skills in Captivate Prime.
 jcr-language: en_us
 title: Learner transcripts
 ---
@@ -7,43 +7,41 @@ title: Learner transcripts
 
 # Learner transcripts {#learner-transcripts}
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
-Learn how to download learner transcript based on users, learning objects, or skills in Learning Manager.
+Learn how to download learner transcript based on users, learning objects, or skills in Captivate Prime.
 
-Adobe Learning Manager enables the Managers of an organization to generate the transcripts associated with learners. 
+Adobe Captivate Prime enables the Managers of an organization to generate the transcripts associated with learners.&nbsp;
 
 ## Generate learner transcripts {#generatelearnertranscripts}
 
-1. To generate learner transcripts, click **Reports** on the left pane in Manager login.
-1. Click **My Reports** tab on the page.  
-1. Click **Learner Transcripts** link. 
+1. To generate learner transcripts, click **Reports **on the left pane in Manager login.
 
-   ![](assets/learner-transcripts.png)
+2. Click **My Reports** tab on the page. &nbsp;
 
-1. A Learner transcripts dialog appears. Choose the date range for which you need the transcript generated.
+3. Click** Learner Transcripts** link.&nbsp;
 
-   >[!NOTE]
-   >
-   >By default, from start date is the learner's registration date and the to date is always the current date. You can modify only the start date from when you need the data.
+![](assets/learner-transcripts.png)
 
-1. Choose the learners names from the Select Learners field, and click **Generate.**
+&nbsp;4.&nbsp;A Learner transcripts dialog appears. Choose the date range for which you need the transcript generated.
+
+**Note:** By default, from start date is the learner's registration date and the to date is always the current date. You can modify only the start date from when you need the data.
+
+&nbsp;5. Choose the learners names from the Select Learners field, and click **Generate.**
 
 You can choose single learner or groups of learners. To add more than one learner, click Add More Learners.
 
-Transcripts are generated and downloaded to your computer as .xls files. Each .xls excel file has seven sheets, the details of which are mentioned below: 
+Transcripts are generated and downloaded to your computer as .xls files. Each .xls excel file has seven sheets, the details of which are mentioned below:&nbsp;
 
 ## Download Learner Transcript based on timezone {#lt-timezone}
 
-Like an Administrator, a Manager can also choose the columns to export. In addition, a Manager can download the Learner Transcript based on the timezone that he/she had selected in the profile settings. 
+Like an Administrator, a Manager can also choose the columns to export. In addition, a Manager can&nbsp;download the Learner Transcript based on the&nbsp;timezone&nbsp;that he/she had selected in the profile settings.&nbsp;
 
-If the Manager enables this option, the timezone is picked from the one set in the profile settings page, shown below.
+If the Manager enables this option, the&nbsp;timezone&nbsp;is picked from the one set in the profile settings page, shown below.
 
->[!NOTE]
->
->For a new Manager, the Timezone checkbox is disabled.
+**Note:**&nbsp;For a new&nbsp;Manager, the&nbsp;Timezone&nbsp;checkbox is disabled.
 
-![](assets/image030.png) 
+![](assets/image030.png)
 
 ## Learner Transcript file content {#learnertranscriptfilecontent}
 
@@ -51,9 +49,9 @@ A typical learner transcript file consists of six excel sheets in a single file.
 
 **Learner Transcript**
 
-In the learner transcript excel sheet, along with profile details about the learner, a learning object wise consumption details are provided such as enrollment date, started date, grade achieved, quiz score obtained and so on. If courses are part of any learning program, they are listed separtely apart from individual course consumption details. 
+In the learner transcript excel sheet, along with profile details about the learner, a learning object wise consumption details are provided such as enrollment date, started date, grade achieved, quiz score obtained and so on. If courses are part of any learning program, they are listed separtely apart from individual course consumption details.&nbsp;
 
-**1 - Learning Activity Dashboard**
+**1- Learning Activity Dashboard**
 
 In this LO-specific dashboard, you can view the number of learners for each course, learning program, or certification. You can view the progress sheet for learners for a particular learning object. This sheet displays data like the number of learners who have completed the course or learning program, learners in progress, and learners' due dates.
 

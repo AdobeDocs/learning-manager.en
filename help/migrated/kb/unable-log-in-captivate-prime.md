@@ -1,28 +1,28 @@
 ---
-description: What to do when you're unable to log in to Learning Manager.
+description: What to do when you're unable to log in to Captivate Prime.
 jcr-language: en_us
-title: Unable to log in to Learning Manager
+title: Unable to log in to Captivate Prime
 contentowner: saghosh
 ---
 
 
-# Unable to log in to Learning Manager {#unable-to-log-in-to-learning-manager}
+# Unable to log in to Captivate Prime {#unable-to-log-in-to-captivate-prime}
 
 ## Issue
 
-When trying to log in to Adobe Learning Manager, you see the error below:
+When trying to log in to Adobe Captivate Prime, you see the error below:
 
 *No user found for the given adobeid email in this account. Please link your adobe id to your Prime account before logging in.*
 
-![](assets/prime-error-message.png) 
+![](assets/prime-error-message.png)
 
 ## Cause
 
-Browser cache and cookies may prevent you from accessing the Adobe Learning Manager platform.
+Browser cache and cookies may prevent you from accessing the Adobe Captivate Prime platform.
 
 ## Resolution
 
-### Clean the browsing history/cache
+## Clean the browsing history/cache
 
 The links below are browser-specific guides to clean the cache:
 
@@ -32,22 +32,20 @@ The links below are browser-specific guides to clean the cache:
 * [Firefox](https://kb.iu.edu/d/ahic)
 * [Safari](https://oit.colorado.edu/tutorial/clear-web-browser-cache-safari-6)
 
-### Use incognito mode
+## Use incognito mode
 
-Use incognito mode in your browser and then sign in to Adobe Learning Manager. See [instructions](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en&oco=0).
+Use incognito mode in your browser and then sign in to Adobe Captivate Prime. See [instructions](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en&oco=0).
 
-### Contact Administrator
+## Contact Administrator
 
-If you are still unable to log in, contact the Administrator of the account. The Administrator can verify whether you are a registered learner in the account.
+If you are still unable to log in,&nbsp;contact the Administrator of the account. The Administrator can verify whether you are a registered learner in the account.
 
-If you are a part of the account and still unable to log in,  the Administrator must verify if your Adobe ID is the same with which you are trying to log in. 
+If you are a part of the account and still unable to log in,&nbsp;&nbsp;the Administrator must verify if your Adobe ID is the same with which you are trying to log in.&nbsp;
 
->[!NOTE]
->
->Sometimes the Adobe ID is different that the Adobe Learning Manager ID on the account.
+**Note:**&nbsp;Sometimes the Adobe ID is different that the Adobe Captivate Prime ID on the account.
 
 ## What's next
 
 After performing the above steps, if you are still unable to log in, the Administrator can collect the HAR logs for the login. For more information, see [Generate a HAR file](https://helpx.adobe.com/captivate-prime/kb/generate-HAR-file.html).
 
-Also, contact the Adobe Learning Manager support team so that we can debug the issue further.
+Also, contact the Adobe Captivate Prime support team so that we can debug the issue further.

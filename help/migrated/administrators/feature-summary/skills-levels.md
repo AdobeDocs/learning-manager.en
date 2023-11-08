@@ -8,15 +8,15 @@ contentowner: manochan
 
 # Create and modify skills and levels {#create-and-modify-skills-and-levels}
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
 
 Create, assign, and modify skills and levels.
 
 Skills map is a grouping of skill sets, knowledge, and traits of an employee in an organization. These skills maps help companies/organizations to set or raise the performance expectations for its employees. Skills enable employees to align their behaviors to organizational expectations.
 
-Adobe Learning Manager enables you to map the performance of learners based on their skill sets using skills map. When learners complete taking up some courses, learners can know their standing against each skill by viewing the skill maps.
+Adobe Captivate Prime enables you to map the performance of learners based on their skill sets using skills map. When learners complete taking up some courses, learners can know their standing against each skill&nbsp;by viewing the skill&nbsp;maps.
 
-The fundamental purpose of Skills in the Learning Manager LMS is to provide the Administrator with a tool that aligns learning with business goals.
+The fundamental purpose of Skills in the Captivate Prime LMS is to provide the Administrator with a tool that aligns learning with business goals.
 
 ## Add a skill {#addaskill}
 
@@ -32,7 +32,7 @@ To add a skill, follow the steps below:
 
    ![](assets/add-skill-name-anddescription.png)
 
-1. Assign a domain to the skill. While creating a skill, you can map it with the most relevant skill domains that Learning Manager supports. For more information, see [Map skill with domains](https://helpx.adobe.com//captivate-prime/administrators/feature-summary/curation-skills.html).
+1. Assign a domain to the skill.&nbsp;While creating a skill, you can map it with the most relevant skill domains that Captivate Prime supports. For more information, see [***Map skill with domains***](https://helpx.adobe.com//captivate-prime/administrators/feature-summary/curation-skills.html).
 
    Start typing the domain in the field and you can see recommendations. Pick the option or options that is/are relevant to the skill.
 
@@ -101,7 +101,7 @@ Once you create the skill, an author can create a course, and assign the skill t
 
 After the author publishes the course, on the **Skill** page, you can see the count of the courses associated with a skill level, which is incremented when you assign the skill to a new course.
 
-![](assets/skill-assigned-tothecourse.png) 
+![](assets/skill-assigned-tothecourse.png)
 
 ## Assign a job aid to the skill {#assignajobaidtotheskill}
 
@@ -113,7 +113,7 @@ While creating a job aid, an author can associate a skill level with it. Creatin
 
 On the **Skill** page, you can see the number of job aids associated with that skill level.
 
-![](assets/job-aid-assignedtotheskill.png) 
+![](assets/job-aid-assignedtotheskill.png)
 
 ## Search a skill {#searchskill}
 
@@ -123,7 +123,7 @@ You can search for skills in both the **Active** and **Retired** sections of the
 
 ## Edit a skill {#editaskill}
 
-On the **Skill** page, click the skill that you want to modify. In the **Edit Skill** dialog, make the required changes, for example, 
+On the **Skill** page, click the skill that you want to modify. In the **Edit Skill** dialog, make the required changes, for example,&nbsp;
 
 * Adding or deleting a skill domain.
 * Editing the name and description of the skill.
@@ -200,8 +200,8 @@ You can delete a skill only when it is not associated with any learners, courses
 
    In other words, to achieve the badge, **one must complete the associated Learning Object**.
 
-## More like this
+### More like this
 
-* [Skills and Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
-* [Adobe Learning Manager LMS for Employee Skill Development](https://www.youtube.com/watch?v=FSLHlsYzyHA)
+* [Skills and Adobe Captivate Prime](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
+* [Adobe Captivate Prime LMS for Employee Skill Development](https://www.youtube.com/watch?v=FSLHlsYzyHA)
 
