@@ -44,7 +44,7 @@ For more information,&nbsp;see&nbsp; [Roles in a Teams Meeting- Microsoft](https
 
 You can access&nbsp;Microsoft&nbsp;Teams connector if you have&nbsp;Office 365 E3&nbsp;or&nbsp;Office 365 E5. The recommended option is&nbsp;Office 365 E5.&nbsp;
 
-* `Visit the` [Microsoft plans page](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE) `. On the webpage, you can either buy E3 or E5 account or click Try for Free.`
+* Visit the [Microsoft plans page](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE) . On the webpage, you can either buy E3 or E5 account or click Try for Free.
 
 * Provide the required information and create an account.
 
@@ -97,15 +97,15 @@ Note the&nbsp;client secret, which&nbsp;will be further used during the integrat
 1. Click&nbsp;**App roles > Create app role**.&nbsp;
 1. Enter the following values:&nbsp;
 
-   1. **Display name** `— Name of the API/Permission name (For example, Calendars.ReadWrite).`
+   1. **Display name** — Name of the API/Permission name (For example, Calendars.ReadWrite).
    
-   1. **Allowed member types** `— Specify both users and applications (Users/Groups + Applications).`
+   1. **Allowed member types** — Specify both users and applications (Users/Groups + Applications).
    
-   1. **Value ** `— Name of the API/Permission name (For example, Calendars.ReadWrite).`
+   1. **Value ** — Name of the API/Permission name (For example, Calendars.ReadWrite).
    
-   1. **Description ** `— Name of the API/Permission name (For example, Calendars.ReadWrite).`
+   1. **Description ** — Name of the API/Permission name (For example, Calendars.ReadWrite).
    
-   1. **Do you want to enable this app role? ** `— Select this checkbox.`
+   1. **Do you want to enable this app role? ** — Select this checkbox.
 
 1. &nbsp;Repeat the&nbsp;preceding&nbsp;steps for all the nine API/Permissions that were added.
 
@@ -120,33 +120,33 @@ This enables the connector to access Microsoft Teams online meetings.
 
 ## Set up&nbsp;Microsoft&nbsp;Teams connector in Captivate Prime
 
-1. `Sign in to Captivate Prime as an Integration Admin.`  
+1. Sign in to Captivate Prime as an Integration Admin.  
 
-1. `In the Connectors page, select Microsoft Teams connector and click **Connect**.`  
+1. In the Connectors page, select Microsoft Teams connector and click **Connect**.  
 
-1. `Enter these values:`
+1. Enter these values:
 
-   1. `**Connection Name** — Give the name that author will see while creating the session.`  
+   1. **Connection Name** — Give the name that author will see while creating the session.  
    
-   1. `**Microsoft Teams Tenant Id** — Enter the value determined earlier.`  
+   1. **Microsoft Teams Tenant Id** — Enter the value determined earlier.  
    
-   1. `**Microsoft Teams Client Id** — Enter the value determined earlier.`  
+   1. **Microsoft Teams Client Id** — Enter the value determined earlier.  
    
-   1. `**Microsoft Teams Client Secret** — Enter the value determined earlier.`  
+   1. **Microsoft Teams Client Secret** — Enter the value determined earlier.  
    
-   1. `**Microsoft Teams Admin User Email **— Enter the default organizer email. This user (typically a service user) would be the meeting creator in case no explicit organizer is selected from the Captivate Prime Author app.`
+   1. **Microsoft Teams Admin User Email **— Enter the default organizer email. This user (typically a service user) would be the meeting creator in case no explicit organizer is selected from the Captivate Prime Author app.
 
 ## Allocate licenses to users&nbsp;<Developer/Optional>
 
-1. `Visit` [https://admin.microsoft.com/#/homepage](https://admin.microsoft.com/#/homepage) `.`  
+1. Visit [https://admin.microsoft.com/#/homepage](https://admin.microsoft.com/#/homepage) .  
 
-1. `Click **Users > Active Users**.`  
+1. Click **Users > Active Users**.  
 
-1. `Click **More actions for Users** for the users to whom you want to provide access to Microsoft Teams. `  
+1. Click **More actions for Users** for the users to whom you want to provide access to Microsoft Teams.   
 
-1. `Click **Manage Product Licenses**. `  
+1. Click **Manage Product Licenses**.   
 
-1. `Enable License for Office 365 E5 without audio conferencing.`
+1. Enable License for Office 365 E5 without audio conferencing.
 
 ## Record a session
 

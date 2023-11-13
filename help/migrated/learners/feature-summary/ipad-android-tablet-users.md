@@ -228,7 +228,7 @@ Upon launching the app, tap the **Social** icon.
 
 Like any other social platform, in the Captivate Prime mobile app, you can create a post in a board, so that all learners who are part of the same board can view your post, comment, and upload a file along with the comment.
 
-To create a post, tap the ( ![](/content/dam/help/icons/_prime-add.png)) icon on the bottom-right of the screen.&nbsp;
+To create a post, tap the ( ![](assets/prime-add.png)) icon on the bottom-right of the screen.&nbsp;
 
 The following screen appears.
 
@@ -238,43 +238,43 @@ The following screen appears.
  <tbody>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="/content/dam/help/icons/prime-write-1.png" alt=""></p></td>
+    <p style="text-align: center;"><img src="assets/prime-write-1.png" alt=""></p></td>
    <td>
     <p>Write a post or paste any URL.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="/content/dam/help/icons/_prime-camera.png" alt=""></p></td>
+    <p style="text-align: center;"><img src="assets/prime-camera.png" alt=""></p></td>
    <td>
     <p>Take a picture with your mobile camera and upload it with your post.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="/content/dam/help/icons/_prime-video.png" alt=""></p></td>
+    <p style="text-align: center;"><img src="assets/prime-video.png" alt=""></p></td>
    <td>
     <p>Record a video with your mobile camera.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="/content/dam/help/icons/_prime-record.png" alt="">&nbsp;</p></td>
+    <p style="text-align: center;"><img src="assets/prime-record.png" alt="">&nbsp;</p></td>
    <td>
     <p>Record audio with your mobile.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="/content/dam/help/icons/_prime-upload.png" alt=""></p></td>
+    <p style="text-align: center;"><img src="assets/prime-upload.png" alt=""></p></td>
    <td>
     <p>Upload any document or file in the board.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="/content/dam/help/icons/_prime-ask.png" alt="">&nbsp;</p></td>
+    <p style="text-align: center;"><img src="assets/prime-ask.png" alt="">&nbsp;</p></td>
    <td>
     <p>Ask a question.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="/content/dam/help/icons/_prime-poll.png" alt="">&nbsp;</p></td>
+    <p style="text-align: center;"><img src="assets/prime-poll.png" alt="">&nbsp;</p></td>
    <td>
     <p>Create a poll with your post.</p></td>
   </tr>
@@ -330,9 +330,9 @@ In the mobile app, you cannot create a board. To create a board, you must log in
 * Edit or delete comments in a board.
 * Edit or delete a post based on permissions.
 * Report an abuse of a post if it violates their privacy, or its content is inappropriate. Once a post is reported, a notification is sent to the board administrator and moderators for further actions.
-* Like&nbsp; ![](/content/dam/help/icons/_prime-like.png) &nbsp;or dislike&nbsp; ![](/content/dam/help/icons/_prime-dislike.png) &nbsp; a post.
+* Like&nbsp; ![](assets/prime-like.png) &nbsp;or dislike&nbsp; ![](assets/prime-dislike.png) &nbsp; a post.
 
-* Like&nbsp; ![](/content/dam/help/icons/_prime-like.png)&nbsp;or dislike ![](/content/dam/help/icons/_prime-dislike.png)&nbsp;a comment.
+* Like&nbsp; ![](assets/prime-like.png)&nbsp;or dislike ![](assets/prime-dislike.png)&nbsp;a comment.
 
 ## Create a post in other boards {#createapostinotherboards}
 
