@@ -12,9 +12,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Release Notes](release-note/release-notes.md)
    * [System requirements](system-requirements.md)
    * [ALM reference site package for AEM Sites](adobe-learning-manager-integration-aem.md)
-
-   ? [Adobe Learning Manager App for Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
-
+   * [Adobe Learning Manager App for Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Learning Manager compliance to GDPR](kb/prime-gdpr.md)
    * [Accessibility in Learning Manager](accessibility-captivate-prime.md)
    * [Support for custom domain](custom-domain.md)
@@ -24,7 +22,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Getting started as a Learner](learners/feature-summary/getting-started.md)
    * [Getting started for Managers](managers/feature-summary/getting-started.md)
    * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
-
 * Administrator {#admin}
    * [User log in](administrators/feature-summary/user-login.md)
    * [Add users and create user groups](administrators/feature-summary/add-users-user-groups.md)
@@ -38,8 +35,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Certifications](administrators/feature-summary/certifications.md)
    * [Catalogs](administrators/feature-summary/catalogs.md)
    * [Add users in bulk](administrators/add-users-in-bulk.md)
-   ? [Impersonate a Learner and Manager](administrators/feature-summary/impersonation-learner-manager.md)
-   ? [Multiple SSO Logins](administrators/feature-summary/multiple-sso-logins.md)
+   * [Impersonate a Learner and Manager](administrators/feature-summary/impersonation-learner-manager.md)
+   * [Multiple SSO Logins](administrators/feature-summary/multiple-sso-logins.md)
    * [Peer accounts](administrators/feature-summary/peer-account.md)
    * [Create and modify skills and levels](administrators/feature-summary/skills-levels.md)
    * [AI-based recommendation of courses](AI-based-recommendations.md)
@@ -92,11 +89,9 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Preview as learner](authors/feature-summary/fluidic-player.md)
    * [Settings](authors/feature-summary/settings.md)
    * [DUPE? xAPI in Learning Manager](authors/feature-summary/xapi.md)
-
 * Instructor {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
    * [Managing learners for your session](instructors/feature-summary/learners.md)
-
 * Learner {#learner}
    * [Log in](learners/feature-summary/user-login.md)
    * [Profile Settings](learners/feature-summary/settings.md)
@@ -130,13 +125,11 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learner transcripts](managers/feature-summary/learner-transcripts.md)
    * [Settings](managers/feature-summary/settings.md)
    * [iPad & Android tablet users](managers/feature-summary/ipad-android-tablet-users.md)
-
 * Frequently Asked Questions {#faq}
    * [Frequently Asked Questions for Administrators](administrators/frequently-asked-questions-for-administrators.md)
    * [Frequently Asked Questions for Authors](authors/frequently-asked-questions-for-authors.md)
    * [Frequently Asked Questions for Instructors](instructors/frequently-asked-questions-for-instructors.md)
    * [Frequently Asked Questions for Managers](managers/frequently-asked-questions-for-managers.md)
-
 * Knowledge Base {#knowledge-base}
    * [Unable to log in to Learning Manager](kb/unable-log-in-captivate-prime.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
