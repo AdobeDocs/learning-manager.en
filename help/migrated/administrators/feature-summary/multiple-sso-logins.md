@@ -1,7 +1,5 @@
 ---
-description: Adobe Learning Manager supports multiple login methods through multiple SSO
-configurations for both internal and external users.
-jcr-language: en_us
+description: Adobe Learning Manager supports multiple login methods through multiple SSO configurations for both internal and external users.
 title: Multiple SSO logins
 contentowner: saghosh
 ---
