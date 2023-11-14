@@ -6,7 +6,6 @@ title: Multiple SSO logins
 contentowner: saghosh
 ---
 
-
 # Multiple SSO logins {#multiple-sso-logins}
 
 An Administrator can configure multiple login methods for both internal and external users. Adobe Learning Manager supports multiple SSO logins that will help admins to configure the login method based on their needs and use cases.
