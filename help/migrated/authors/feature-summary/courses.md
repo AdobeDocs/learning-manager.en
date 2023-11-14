@@ -39,7 +39,7 @@ To create a course, follow the steps below:
    The following are the types of enrollments:
 
    * **Manager nominated:** Only managers can nominate these courses. A learner cannot enroll to these types of courses.
-   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager’s approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
+   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager's approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
    * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
 
 1. To save the changes, click **Save**. To publish the course, click **Publish**.
@@ -58,7 +58,7 @@ To create a course, follow the steps below:
    The following are the types of enrollments:
 
    * **Manager nominated:** Only managers can nominate these courses. A learner cannot enroll to these types of courses.
-   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager’s approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
+   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager's approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
    * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
 
 1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box **Learners can unenroll themselves**.
@@ -118,7 +118,7 @@ The default styling may not meet everyone's needs. The customisations can be don
 
 ### API CHANGES TO ENABLE RENDERING RICH TEXT OVERVIEWS
 
-When customers build a headless interface, they have a need to display the learning objects in that custom user interface they are developing. For doing this, one would typically use the [GET /learningObjects](https://captivateprimeeu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) API that is exposed. Now that Prime supports capturing “rich text” for the overview field, the data model of Learning Objects in the API responses also exposes the same. See the field named “richTextOverview” in the fragment of the model in the API response below. Also note that the field exposed earlier (“overview”) remains unchanged for backward compatibility.
+When customers build a headless interface, they have a need to display the learning objects in that custom user interface they are developing. For doing this, one would typically use the [GET /learningObjects](https://captivateprimeeu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) API that is exposed. Now that Prime supports capturing "rich text" for the overview field, the data model of Learning Objects in the API responses also exposes the same. See the field named "richTextOverview" in the fragment of the model in the API response below. Also note that the field exposed earlier ("overview") remains unchanged for backward compatibility.
 
 ```
 \{ 
@@ -128,7 +128,7 @@ When customers build a headless interface, they have a need to display the learn
  "type": "string", 
  "attributes": { 
  … 
- “localizedMetadata": [ 
+ "localizedMetadata": [ 
  { 
  "description": "string", 
  "locale": "string", 
@@ -171,20 +171,20 @@ Once the admin has enabled multi attempts, as an author you can configure multi 
    <td>
     <p>Set Attempts at</p></td>
    <td>
-    <p>You can set the number of attempts for a module to infinite or provide a definite limit.<span style="font-size: 0.8125rem;">The attempt information will be shown to the learner once it is enabled. The learner can choose to reattempt the module by clicking on the ‘Reattempt’ button.</span></p></td>
+    <p>You can set the number of attempts for a module to infinite or provide a definite limit.<span style="font-size: 0.8125rem;">The attempt information will be shown to the learner once it is enabled. The learner can choose to reattempt the module by clicking on the 'Reattempt' button.</span></p></td>
   </tr>
   <tr>
    <td>
     <p>Stop new attempt once module is completed or passed</p></td>
    <td>
-    <p>To configure when to stop learners from selecting the new attempt option, enable the check-box “Stop new attempt once module is completed or passed”. The ‘Reattempt’ option will be removed from the learner view once they successfully complete the module.</p></td>
+    <p>To configure when to stop learners from selecting the new attempt option, enable the check-box "Stop new attempt once module is completed or passed". The 'Reattempt' option will be removed from the learner view once they successfully complete the module.</p></td>
   </tr>
   <tr>
    <td>
     <p>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</p></td>
    <td>
-    <p>You can lock modules for a specific time between attempts, by enabling the check-box “<b>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</b>”. When a module is locked, the learner cannot visit the module until the lock time provided elapses. </p>
-    <p>ou can define the end criteria of an attempt by selecting the ‘<b>Player close</b>’ or ‘<b>Completion</b>’ check-boxes.</p></td>
+    <p>You can lock modules for a specific time between attempts, by enabling the check-box "<b>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</b>". When a module is locked, the learner cannot visit the module until the lock time provided elapses. </p>
+    <p>ou can define the end criteria of an attempt by selecting the '<b>Player close</b>' or '<b>Completion</b>' check-boxes.</p></td>
   </tr>
   <tr>
    <td>
@@ -202,7 +202,7 @@ Once the admin has enabled multi attempts, as an author you can configure multi 
    <td>
     <p>Set time limit to complete module</p></td>
    <td>
-    <p>Authors can set a time limit to complete a module by the enabling the check-box, “<b>Set time limit to complete module</b>”.</p>
+    <p>Authors can set a time limit to complete a module by the enabling the check-box, "<b>Set time limit to complete module</b>".</p>
     <p>Every player launch is considered as a new attempt and the learner is prompted with the time details during launch.</p>
     <p><b>Note:</b><span style="font-size: 0.8125rem;">The attempt will end automatically once the time elapses. Closing the player as well will end the current attempt.</span></p></td>
   </tr>
@@ -241,7 +241,7 @@ To add a content module, perform the steps below:
 
    When creating a course using the Virtual Classroom configuration dialog box, set the **Conferencing System** to the Teams connection that you created. Select whether you want a meeting organizer for the event.
 
-   If you select **Yes **for a meeting organizer, you must enter the name of the organizer. Type the name and select the organizer.
+   If you select **Yes** for a meeting organizer, you must enter the name of the organizer. Type the name and select the organizer.
 
    **Lobby bypassing**
 
@@ -288,7 +288,7 @@ To add a content module, perform the steps below:
 
 ## Checklist {#create-checklist}
 
-Evaluation is an important aspect of any LMS. Online assessments are one of the top ways of evaluating a learner’s understanding of a topic. But often, it’s necessary to evaluate a person’s understanding while she’s/he’s on the job by observing him/her carry out the necessary tasks.
+Evaluation is an important aspect of any LMS. Online assessments are one of the top ways of evaluating a learner's understanding of a topic. But often, it's necessary to evaluate a person's understanding while she's/he's on the job by observing him/her carry out the necessary tasks.
 
 Consider store employees or warehouse workers undergoing evaluation for the tasks they are supposed to carry out on a day to day basis. It could be the steps carried out to repair a coffee machine or the steps involved in packing a material. Instructors can evaluate employees for such tasks based on a checklist and evaluate them as Pass or Fail in the evaluation activity.
 
@@ -323,7 +323,7 @@ Once you choose the option **Checklist**, you see a few additional options.
 
 Choose an instructor or instructors who will evaluate the learner.
 
-Also, if you have anything to comment or a note, you can add that in the **Note to instructor **text field.
+Also, if you have anything to comment or a note, you can add that in the **Note to instructor** text field.
 
 Now, add the checklist questions. Click **Add**. You can only add up to 150 questions.
 
@@ -344,7 +344,7 @@ On this page, enter the following details:
 1. Choose the type of enrollment. The following are the options:
 
    * **Manager nominated:** Only managers can nominate these courses. A learner cannot enroll to these types of courses.
-   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager’s approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
+   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager's approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
    * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
 
 1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box **Learners can unenroll themselves**.
@@ -389,10 +389,10 @@ After previewing the course as a learner, you can publish the course, so that it
 
 A typical course life cycle looks as follows:
 
-* **Draft** –When an author completes creating a course and saving it. At this state, course is not available yet for learners.
-* **Published** –When an author completes publishing a course. At this state, the course is available for learners to enroll. You can also edit a course at this state.
-* **Retired** – After publishing a course, an author can move it to a retired state if the author doesn’t want the course to appear in course catalog for learners.
-* **Deleted** – A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Only authors can delete courses when they are in Draft or Retired states. 
+* **Draft** - When an author completes creating a course and saving it. At this state, course is not available yet for learners.
+* **Published** - When an author completes publishing a course. At this state, the course is available for learners to enroll. You can also edit a course at this state.
+* **Retired** - After publishing a course, an author can move it to a retired state if the author doesn't want the course to appear in course catalog for learners.
+* **Deleted** - A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Only authors can delete courses when they are in Draft or Retired states. 
 
 ![](assets/typical-course-lifecycle.png)
 
@@ -482,11 +482,7 @@ A persistent url is always fixed. But for users who do not have Connect and thei
 
 You can now change the url of the persistent room on the **Course Instance** page.
 
-| ![](assets/persistentroomdropdown.png)
-
-| ![](assets/courseinstancepage-persistentroom.png)
-
-|
+| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
 |---|---|
 
 ## Unenroll learners from a course {#unenrolllearnersfromacourse}
@@ -512,7 +508,7 @@ You can see the published module on the Captivate Prime modules page. For more i
 
 ## Course effectiveness {#courseeffectiveness}
 
-Course effectiveness score helps the authors to evaluate the courses which are not working as per learners needs and modify them accordingly. Course effectiveness is evaluated to understand the usefulness of a course to the learner. It is a combination of results from learner feedback on the course content. The course quiz results for a learner and the manager’s feedback evaluating a learner based on learning from the course.
+Course effectiveness score helps the authors to evaluate the courses which are not working as per learners needs and modify them accordingly. Course effectiveness is evaluated to understand the usefulness of a course to the learner. It is a combination of results from learner feedback on the course content. The course quiz results for a learner and the manager's feedback evaluating a learner based on learning from the course.
 
 In **My Courses**, an author can view the course effectiveness rating on the course thumbnails as shown in the below snapshot. You can see the rating for this course as 100.
 

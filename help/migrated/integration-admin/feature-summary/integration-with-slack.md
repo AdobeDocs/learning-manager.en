@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Captivate Prime integration with Slack
+description: Captivate Prime integration with Slack
 contentowner: dvenkate
 ---
 
@@ -36,13 +37,13 @@ As an integration Admin, to approve the permission for a Learner to use Prime ap
 
 You can now start interacting with the Primebot. The following are the functionalities of the bot.
 
-1. Command
+1 - Command
 
 &#42;/prime&#42; can be used for one-off, pointed queries regarding your Adobe Captivate Prime account.
 
 The available subcommands are:
 
-/prime find <query> - search for courses, certifications, etc.
+/prime find `<query>` - search for courses, certifications, etc.
 
 /prime recommend - show recommendations
 
@@ -64,14 +65,14 @@ The available subcommands are:
 
 /prime help - show help message
 
-2. Recommend
+2 - Recommend
 
 You can try a phrase like `show my recommendations` to get a personalized list of recommended courses, certifications and learning programs from your Adobe Captivate Prime account.
 
-3. Search
+3 - Search
 
 You can try phrases like `search for machine learning` or `search for artificial intelligence`. You can specify the kind of learning object using phrases like `search for machine learning certifications`, `search for artificial intelligence courses` or `search for adobe photoshop job aids`. You can also search within a catalog using phrases like `search for machine learning in Lynda catalog`.
 
-4. Deadlines
+4 - Deadlines
 
-Use phrase like `show my deadlines` to get a list of overdue and upcoming deadlines from your Adobe Captivate Prime account. You can filter out overdue or upcoming deadlines with phrases like `show my overdue deadlines` or `show my upcoming deadlines'.
+Use phrase like `show my deadlines` to get a list of overdue and upcoming deadlines from your Adobe Captivate Prime account. You can filter out overdue or upcoming deadlines with phrases like `show my overdue deadlines` or `show my upcoming deadlines`.

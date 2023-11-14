@@ -5,7 +5,6 @@ title: Learning plans
 contentowner: manochan
 ---
 
-
 # Learning plans
 
 Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
@@ -37,21 +36,21 @@ To create a learning plan, you must log in as an Administrator.
 
    The events are:
 
-   **1. New Learner is added:** When a new user or an employee joins the organization.
+   **1 - New Learner is added:** When a new user or an employee joins the organization.
 
    ![](assets/new-learner-is-added.png)
 
-   **2. Learner gets added to a group:** When a new user or an employee joins a group.  Enter and select the user group from drop-down list, to which this event is applicable. You can choose multiple groups. Also, you can assign this event to all the existing members of these groups by selecting the option.
+   **2 - Learner gets added to a group:** When a new user or an employee joins a group.  Enter and select the user group from drop-down list, to which this event is applicable. You can choose multiple groups. Also, you can assign this event to all the existing members of these groups by selecting the option.
 
    ![](assets/learner-gets-addedtoagroup.png)
 
    This Learning Plan is specifically designed for ***Custom- Groupe*** users. Type the name of the group in the field, and using type-ahead search, choose the group or groups.
 
-   **3. Learner completes a learning object:** The event gets trigerred when a learner completes any learning object such as course, learning program, and so on. Select the learning object for which this event is applicable. Select the completion status for the event. Optionally, you can also choose the user group to which this learner belongs to. Enter the number of days, after completing the learning object, this event gets triggered. Select the option if you want to assign this event to existing users who already completed this learning object. 
+   **3 - Learner completes a learning object:** The event gets trigerred when a learner completes any learning object such as course, learning program, and so on. Select the learning object for which this event is applicable. Select the completion status for the event. Optionally, you can also choose the user group to which this learner belongs to. Enter the number of days, after completing the learning object, this event gets triggered. Select the option if you want to assign this event to existing users who already completed this learning object. 
 
    ![](assets/learner-completealearningobject.png)
 
-   **4. Learner achieves a skill level:** Enter the skill name and select the skill level. You can also choose the user group to which this learner belongs to. It is optional. Enter the number of days, after achieving the skill, this event gets triggered. Select the option if you want to assign this event to existing learners who have already achieved this skill.
+   **4 - Learner achieves a skill level:** Enter the skill name and select the skill level. You can also choose the user group to which this learner belongs to. It is optional. Enter the number of days, after achieving the skill, this event gets triggered. Select the option if you want to assign this event to existing learners who have already achieved this skill.
 
    ![](assets/learner-achievesaskilllevel.png)
 
@@ -59,7 +58,7 @@ To create a learning plan, you must log in as an Administrator.
 
    ![](assets/assign-learning.png)
 
-   **5.** **On a specific date:** When the events must occur on a specific date. Select the date on which the event must be assigned. Select the user groups for whom the event needs to be auto assigned. Select the instances that need to be assigned, and optionally enter after how many days the event needs to be triggered.
+   **5 - On a specific date:** When the events must occur on a specific date. Select the date on which the event must be assigned. Select the user groups for whom the event needs to be auto assigned. Select the instances that need to be assigned, and optionally enter after how many days the event needs to be triggered.
 
    ![](assets/on-a-specific-date.png)
 
@@ -170,12 +169,12 @@ You can filter Learning Plans according to the type of event that was used while
 
 1. How do I setup Captivate Prime to configure auto enrollments for on-boarding of new hires?
 
-In the **Occurs when** drop-down list, choose the option **New Learner is added**. Then assign the Learning Objects, the instance, and the completion date for the learner. Both Administrators and Authors can create auto enrollment events. Enable the event after creating it.
+   In the **Occurs when** drop-down list, choose the option **New Learner is added**. Then assign the Learning Objects, the instance, and the completion date for the learner. Both Administrators and Authors can create auto enrollment events. Enable the event after creating it.
 
-2. How do I set up a learning plan/auto enrollment for classroom and virtual classroom course?
+1. How do I set up a learning plan/auto enrollment for classroom and virtual classroom course?
 
-It is recommended that you setup the course instance with required session details. Then set up a learning plan and map it to the course instance, which has already been created.
+   It is recommended that you setup the course instance with required session details. Then set up a learning plan and map it to the course instance, which has already been created.
 
-3. How do I view the list of learners enrolled into a specific learning plan?
+1. How do I view the list of learners enrolled into a specific learning plan?
 
-When the instance, Auto, gets created, click** Course > Learners**, and choose the required instance from the **Instance** drop-down list.
+   When the instance, Auto, gets created, click **Course** > **Learners**, and choose the required instance from the **Instance** drop-down list.

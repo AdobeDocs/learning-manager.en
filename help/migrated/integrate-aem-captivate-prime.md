@@ -1,11 +1,12 @@
 ---
 jcr-language: en_us
-title: Integrate Captivate Prime with AEM
+title: Integrate Adobe Learning Manager with AEM
+description: Learn to integrate Adobe Learning Manager with Adobe Experience Manager (AEM)
 contentowner: saghosh
 ---
 
 
-# Integrate Captivate Prime with AEM
+# Integrate Learning Manager with AEM
 
 Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
@@ -21,7 +22,7 @@ The various strips present in the learner app can be embedded in the AEM sites. 
 
 The installer is shipped as an AEM content package. [***Download the package***](https://github.com/adobe/captivate-prime-aem-components/releases).
 
-The content package, is available as a zip file, and** **is compatible with AEM 6.4 and AEM 6.5.
+The content package, is available as a zip file, and is compatible with AEM 6.4 and AEM 6.5.
 
 ## Install Captivate Prime component {#installcaptivateprimecomponent}
 
@@ -35,7 +36,7 @@ Install the Captivate Prime content package using the AEM Package Manager:
 
 1. Click the button **Upload Package**.  
 
-1. Click **Browse **and upload the content package.
+1. Click **Browse** and upload the content package.
 1. Click **Upload**.
 1. After the package uploads, install the content package by selecting it and clicking **Install**.
 
@@ -47,15 +48,15 @@ The AEM Admin requires a refresh token from the Prime account. The Prime Integra
 
 1. Approve the AEM Sites featured app.
 
-   Click **Applications > Featured Apps > Adobe Experience Manager – Sites.**
+   Click **Applications** > **Featured Apps** > **Adobe Experience Manager - Sites.**
 
    ![](assets/launch-aem.jpg)
 
-1. Click **Applications > Featured Apps**, and open the AEM sites application.
+1. Click **Applications** > **Featured Apps**, and open the AEM sites application.
 
    Copy the Application ID and the description.
 
-1. Click **Developer Resources > Access Tokens**.
+1. Click **Developer Resources** > **Access Tokens**.
 
    ![](assets/click-tokens.jpg)
 
@@ -64,12 +65,8 @@ The AEM Admin requires a refresh token from the Prime account. The Prime Integra
    * Client ID, which is the Application ID.
    * Client secret, which is present in Description.
 
-   1.
-
-   Get the OAuth code. You must use v2 API in the redirect URI.
-
-1. 
-1. Click **Submit **and get the refresh token.
+1. Get the OAuth code. You must use v2 API in the redirect URI.
+1. Click **Submit** and get the refresh token.
 
 ## Configure the widget in AEM {#configurethewidgetinaem}
 
@@ -80,7 +77,7 @@ You can also set multiple account configurations in multiple pages.
 1. Click Tools -> Cloud Services -> Captivate Prime Widget Configuration.
 1. Click **Create**.
 1. Enter the refresh token here. Set up the other settings.
-1. Hostname should be changed to “captivateprimeeu” for EU regions.
+1. Hostname should be changed to "captivateprimeeu" for EU regions.
 1. Save and close the configuration.
 1. Select a configuration and publish the configuration.
 
@@ -90,13 +87,13 @@ The AEM author must first add the component in AEM template
 
 The AEM author then will be able to drag and drop the Adobe Captivate Prime component and configure accordingly.
 
-Captivate Prime component requires the configuration created in above step to be mapped to the Page.  Author can map the configuration by Editing Page Properties under **Advanced > Configuration > Cloud Configuration** and provide path of configuration. In this way, Author can create configurations for multiple Captivate Prime accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
+Captivate Prime component requires the configuration created in above step to be mapped to the Page.  Author can map the configuration by Editing Page Properties under **Advanced** > **Configuration** > **Cloud Configuration** and provide path of configuration. In this way, Author can create configurations for multiple Captivate Prime accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
 
 ## Learner {#learner}
 
 The learner can take the courses from within the page.
 
-To be able to access the Captivate Prime widget, Learner should be a logged in AEM user. Also, property **email** should be present in “/profile” node of Learner’s rep:User node. This email should be exactly same as the one present in Captivate Prime account.
+To be able to access the Captivate Prime widget, Learner should be a logged in AEM user. Also, property **email** should be present in "/profile" node of Learner's rep:User node. This email should be exactly same as the one present in Captivate Prime account.
 
 The learner can take the courses from within the page.
 
@@ -117,7 +114,7 @@ If there are no recommendations, the widget appears blank.
 
 ## Support for Skyline
 
-Skyline is the cloud version of AEM. You must first install Skyline from the package manager. To use the Skyline component in AEM, a user must be present in the Captivate Prime account. In other words, the user’s email address must exist in the account.
+Skyline is the cloud version of AEM. You must first install Skyline from the package manager. To use the Skyline component in AEM, a user must be present in the Captivate Prime account. In other words, the user's email address must exist in the account.
 
 ## Deploy Skyline
 
