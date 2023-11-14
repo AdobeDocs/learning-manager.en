@@ -195,7 +195,9 @@ Note that the existing default behavior does not change. This is an optional cap
 
 ### Learning Path-related changes
 
-**Note:** The APIs still use the terminology Learning Program instead of Learning Path to maintain backward compatibility. By default, Get/LOs will not return the enhanced Learning Paths. You must use an extra parameter to get those Learning Objects.
+>[!NOTE]
+>
+>The APIs still use the terminology Learning Program instead of Learning Path to maintain backward compatibility. By default, Get/LOs will not return the enhanced Learning Paths. You must use an extra parameter to get those Learning Objects.
 
 **Learning Objects API**
 

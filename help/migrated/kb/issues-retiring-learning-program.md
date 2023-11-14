@@ -5,9 +5,9 @@ contentowner: nluke
 ---
 
 
-# Issues with retiring a Learning Program {#issues-with-retiring-a-learning-program}
+# Issues with retiring a Learning Program
 
-Captivate Prime&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 ## **Issue**
 
@@ -25,13 +25,13 @@ To check the course that contains a retired instance, follow the steps below:
 
 1. Log in as an administrator and launch the relevant Learning Program.  
 
-1. Click **Instances **> **Courses**. The page lists all the courses that are a part of this Learning Program. You will be able to see the course that contains a retired instance.&nbsp;
+1. Click **Instances **> **Courses**. The page lists all the courses that are a part of this Learning Program. You will be able to see the course that contains a retired instance. 
 
    ![](assets/retired-instance.png)
 
-1. Once you have figured out the course instance that has retired, click&nbsp;**Courses **> **Open the course**.&nbsp;  
+1. Once you have figured out the course instance that has retired, click **Courses **> **Open the course**.   
 
-1. Click **Instances. **On the retired instance, click **Edit **and then edit the completion date to a future date to which you want the instance to retire.&nbsp;
+1. Click **Instances. **On the retired instance, click **Edit **and then edit the completion date to a future date to which you want the instance to retire. 
 
    ![](assets/completion-date.png)
 
@@ -41,4 +41,4 @@ To check the course that contains a retired instance, follow the steps below:
 
 1. Visit the relevant Learning Program. Click **Instances **and execute the previous step to reopen the instance of the Learning Program.
 
-&nbsp;&nbsp;&nbsp;
+   

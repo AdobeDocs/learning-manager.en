@@ -6,7 +6,7 @@ contentowner: shhivkum
 ---
 
 
-# Add learning objects in different locales {#add-learning-objects-in-different-locales}
+# Add learning objects in different locales
 
 Read this topic to know how to add courses, certifications, and learning plans in different languages.
 

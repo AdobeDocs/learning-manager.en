@@ -6,7 +6,7 @@ contentowner: dvenkate
 ---
 
 
-# Log in to Learning Manager using SSO authentication {#log-in-to-learning-manager-using-sso-authentication}
+# Log in to Learning Manager using SSO authentication
 
 This document helps you configure SSO authentication to log in to your Learning Manager account.
 

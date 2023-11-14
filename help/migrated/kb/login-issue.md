@@ -5,11 +5,11 @@ contentowner: nluke
 ---
 
 
-# Login issues in Captivate Prime {#login-issues-in-captivate-prime}
+# Login issues in Captivate Prime
 
 ## **Issue**
 
-Unable to log in to Adobe Captivate Prime.&nbsp;
+Unable to log in to Adobe Captivate Prime. 
 
 ## **Error**
 
@@ -19,7 +19,7 @@ When trying to log in to Adobe Captivate Prime, the error message, shown below, 
 
 ## **Reason**
 
-When a user logs in through SSO, it creates a session cookie that gets stored in the browser. It also enables the user to log in to other applications. Most SSOs are configured to log out after 24 hours. The user has to authenticate again for a new session.&nbsp;
+When a user logs in through SSO, it creates a session cookie that gets stored in the browser. It also enables the user to log in to other applications. Most SSOs are configured to log out after 24 hours. The user has to authenticate again for a new session. 
 
 In certain instances, a user is unable to access the system because of stale SSO cookies. These cookies are forwarded to Adobe Captivate Prime for authentication. The session does not end if a user does not close the browser for a long time or has not logged out.
 

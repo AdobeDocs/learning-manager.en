@@ -6,5 +6,5 @@ preview: true
 ---
 
 
-# Adobe Learning Manager Cloud Manager {#adobe-learning-manager-cloud-manager}
+# Adobe Learning Manager Cloud Manager
 

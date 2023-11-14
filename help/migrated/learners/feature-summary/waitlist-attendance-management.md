@@ -5,7 +5,7 @@ contentowner: manochan
 ---
 
 
-# Waitlist & attendance management {#waitlist-attendance-management}
+# Waitlist & attendance management
 
 Administrators can manage attendance and waitlisting of courses for learners.
 

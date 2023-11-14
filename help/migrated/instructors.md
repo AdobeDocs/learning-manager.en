@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Instructors {#instructors}
+# Instructors
 
 Click the links in this topic to learn about Instructors in Learning Manager
 

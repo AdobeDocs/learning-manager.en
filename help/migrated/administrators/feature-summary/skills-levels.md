@@ -6,15 +6,15 @@ contentowner: manochan
 ---
 
 
-# Create and modify skills and levels {#create-and-modify-skills-and-levels}
+# Create and modify skills and levels
 
-Captivate Prime&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Create, assign, and modify skills and levels.
 
 Skills map is a grouping of skill sets, knowledge, and traits of an employee in an organization. These skills maps help companies/organizations to set or raise the performance expectations for its employees. Skills enable employees to align their behaviors to organizational expectations.
 
-Adobe Captivate Prime enables you to map the performance of learners based on their skill sets using skills map. When learners complete taking up some courses, learners can know their standing against each skill&nbsp;by viewing the skill&nbsp;maps.
+Adobe Captivate Prime enables you to map the performance of learners based on their skill sets using skills map. When learners complete taking up some courses, learners can know their standing against each skill by viewing the skill maps.
 
 The fundamental purpose of Skills in the Captivate Prime LMS is to provide the Administrator with a tool that aligns learning with business goals.
 
@@ -32,7 +32,7 @@ To add a skill, follow the steps below:
 
    ![](assets/add-skill-name-anddescription.png)
 
-1. Assign a domain to the skill.&nbsp;While creating a skill, you can map it with the most relevant skill domains that Captivate Prime supports. For more information, see [***Map skill with domains***](https://helpx.adobe.com//captivate-prime/administrators/feature-summary/curation-skills.html).
+1. Assign a domain to the skill. While creating a skill, you can map it with the most relevant skill domains that Captivate Prime supports. For more information, see [***Map skill with domains***](https://helpx.adobe.com//captivate-prime/administrators/feature-summary/curation-skills.html).
 
    Start typing the domain in the field and you can see recommendations. Pick the option or options that is/are relevant to the skill.
 
@@ -123,7 +123,7 @@ You can search for skills in both the **Active** and **Retired** sections of the
 
 ## Edit a skill {#editaskill}
 
-On the **Skill** page, click the skill that you want to modify. In the **Edit Skill** dialog, make the required changes, for example,&nbsp;
+On the **Skill** page, click the skill that you want to modify. In the **Edit Skill** dialog, make the required changes, for example, 
 
 * Adding or deleting a skill domain.
 * Editing the name and description of the skill.
@@ -154,7 +154,7 @@ This restores the skill and you can see the skill again in the **Active** tab.
 
 You can only delete a skill that has been previously retired.
 
-In the **Retired** tab, select the skill that you want to delete, and from the **Actions** menu, click **Delete**.`<sup>`
+In the **Retired** tab, select the skill that you want to delete, and from the **Actions** menu, click **Delete**.
 
 You can delete a skill only when it is not associated with any learners, courses, or job aids.
 
@@ -205,3 +205,6 @@ You can delete a skill only when it is not associated with any learners, courses
 * [Skills and Adobe Captivate Prime](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
 * [Adobe Captivate Prime LMS for Employee Skill Development](https://www.youtube.com/watch?v=FSLHlsYzyHA)
 
+<!--
+Saurav: FYI, Adobe employees should not post Adobe content to YouTube. Videos should be added to MPC. Contact Sean Schnoor for more information.
+-->

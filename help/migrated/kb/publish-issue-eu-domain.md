@@ -5,7 +5,7 @@ contentowner: nluke
 ---
 
 
-# Unable to publish to Captivate Prime EU domain {#unable-to-publish-to-captivate-prime-eu-domain}
+# Unable to publish to Captivate Prime EU domain
 
 ## Issue
 
@@ -32,7 +32,7 @@ This issue occurs because Adobe Captivate is by default configured to publish co
 
 #### Perform the below steps:
 
-1. Go to the installation directory for Adobe Captivate.&nbsp;
+1. Go to the installation directory for Adobe Captivate. 
 
    For example,  `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64` (2019 is the Captivate version. Differs if you are using a different version of Adobe Captivate).
 
@@ -41,7 +41,7 @@ This issue occurs because Adobe Captivate is by default configured to publish co
    ![](assets/cp-captivate.ini.png)
 
 1. Open the copied file from your desktop onto a Notepad.
-1. Change the value of PrimeBaseUrl = [https://captivateprime.adobe.com/inappstarter](https://captivateprime.adobe.com/inappstarter)&nbsp;to PrimeBaseUrl = [https://captivateprimeeu.adobe.com/inappstarter](https://captivateprimeeu.adobe.com/inappstarter)
+1. Change the value of PrimeBaseUrl = [https://captivateprime.adobe.com/inappstarter](https://captivateprime.adobe.com/inappstarter) to PrimeBaseUrl = [https://captivateprimeeu.adobe.com/inappstarter](https://captivateprimeeu.adobe.com/inappstarter)
 
    ![](assets/cp-primebaseurl.png)
 

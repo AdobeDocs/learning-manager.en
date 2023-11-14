@@ -5,7 +5,7 @@ contentowner: saghosh
 ---
 
 
-# Unable to view certain courses under catalog while creating a Certification {#unable-to-view-certain-courses-under-catalog-while-creating-a-certification}
+# Unable to view certain courses under catalog while creating a Certification
 
 ## Issue
 
@@ -35,7 +35,7 @@ These courses can only be nominated by managers. A Learner cannot enroll to thes
 
 In a Certification, you can only add self-enrolled courses and not Manager nominated or Manager approved courses.
 
-* **Perpetual Certifications: **&nbsp;You can add a CR or VC session courses in a certification.
+* **Perpetual Certifications:**  You can add a CR or VC session courses in a certification.
 * **Recurring Certifications:** You cannot add a CR or VC session courses in a certification.
 
 This is a default behavior in Captivate Prime.

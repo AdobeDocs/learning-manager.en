@@ -6,7 +6,7 @@ contentowner: shhivkum
 ---
 
 
-# Modules {#modules}
+# Modules
 
 Read this article to learn how to manage modules as an instructor in Captivate Prime.
 
@@ -37,7 +37,7 @@ Read this article to learn how to manage modules as an instructor in Captivate P
 
 1. Click Save.
 
-   You cannot edit the Instructor field from this page.&nbsp;
+   You cannot edit the Instructor field from this page. 
 
 ## Upload resource files for your session {#uploadresourcefilesforyoursession}
 
@@ -60,7 +60,7 @@ As an instructor, you can upload resource files such as assignment files or pres
 
 ## File submission for activity modules {#filesubmissionforactivitymodules}
 
-Activity Module supports File Submission workflow. As an Author, create an activity module and select the  **[!UICONTROL File Submission]**&nbsp;option. This allows learners to submit a file.
+Activity Module supports File Submission workflow. As an Author, create an activity module and select the  **[!UICONTROL File Submission]** option. This allows learners to submit a file.
 
 These files can be Approved/Rejected by the module Instructors. The module gets completed only after the Instructor approves the submission.
 
@@ -68,14 +68,14 @@ These files can be Approved/Rejected by the module Instructors. The module gets 
 
 ## Evaluate checklist module {#evaluate-checklist-module}
 
-After the learner takes the course, the Instructor sees the checklist module on the Submissions/Checklists page in the&nbsp;**Modules **section.&nbsp;This page contains all the activity checklist modules along with the activity submission modules  
+After the learner takes the course, the Instructor sees the checklist module on the Submissions/Checklists page in the **Modules **section. This page contains all the activity checklist modules along with the activity submission modules  
 for which reviews are due. For each module, the number of learners is displayed for who the evaluation is due.
 
 On the page below, you can view modules of type **Submission **and **Checklist**. For this example, we shall use Checklist module.
 
 ![](assets/modules-list.png)
 
-Click on the Checklist module.&nbsp;On the **Checklist **page, you see the following:
+Click on the Checklist module. On the **Checklist **page, you see the following:
 
 * The name of the module
 * The name of the course
@@ -97,35 +97,35 @@ A checklist, once evaluated, cannot be re-evaluated.
 
 An Instructor can also view the responses submitted by other instructors of the module.
 
-You can export the learners as a csv based on&nbsp;based on the search filter applied.
+You can export the learners as a csv based on based on the search filter applied.
 
 After the instructor evaluates the course using the Checklist, the learner sees module status as **Pass **and course status as **Completed**, or the module status as **Fail**, and course status as **Completed**.
 
 ## Instructor comments for rejection of an activity {#rejection-comments}
 
-A learner&nbsp;can&nbsp;see the comment of&nbsp;an&nbsp;instructor in the notification that is sent for rejection.&nbsp;The learner&nbsp;can then&nbsp;re-submit by&nbsp;providing&nbsp;more information&nbsp;in the form of comments.&nbsp;
+A learner can see the comment of an instructor in the notification that is sent for rejection. The learner can then re-submit by providing more information in the form of comments. 
 
 Here’s the workflow:
 
-1. An author creates a course&nbsp;with an activity module, assigns an instructor, and then publishes the course.  
+1. An author creates a course with an activity module, assigns an instructor, and then publishes the course.  
 
-1. A learner consumes the course, and after completing the course, submits&nbsp;proof&nbsp;of completion.&nbsp;
+1. A learner consumes the course, and after completing the course, submits proof of completion. 
 
    ![](assets/proof-of-completion.png)
 
-1. The instructor&nbsp;then&nbsp;selects the activity module that is assigned to him/her. In the Submissions&nbsp;page for the module, the instructor clicks&nbsp;**Edit**.&nbsp;He/she can then enter the comments for rejection and enable the option Show comment, so that the learner can view the comment in the notification.&nbsp;
+1. The instructor then selects the activity module that is assigned to him/her. In the Submissions page for the module, the instructor clicks **Edit**. He/she can then enter the comments for rejection and enable the option Show comment, so that the learner can view the comment in the notification. 
 
    ![](assets/enter-comments.png)
 
-1. The instructor can clicks&nbsp;**Reject**. The status of the submission changes to&nbsp;**Marked for Rejection**.&nbsp;
+1. The instructor can clicks **Reject**. The status of the submission changes to **Marked for Rejection**. 
 
    ![](assets/marked-for-rejection.png)
 
-1. After submission,&nbsp;the status changes to&nbsp;**Rejected**.&nbsp;
+1. After submission, the status changes to **Rejected**. 
 
    ![](assets/rejected-status.png)
 
-1. The learner now sees a notification&nbsp;that his/her submission has been rejected. The comments from the instructor also appears in the notification.
+1. The learner now sees a notification that his/her submission has been rejected. The comments from the instructor also appears in the notification.
 
    ![](assets/notification-of-rejection.png)
 

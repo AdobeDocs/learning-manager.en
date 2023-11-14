@@ -5,13 +5,13 @@ contentowner: saghosh
 ---
 
 
-# Integrate Captivate Prime with AEM {#integrate-captivate-prime-with-aem}
+# Integrate Captivate Prime with AEM
 
-Captivate Prime&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 ## Overview {#overview}
 
-Captivate Prime is&nbsp;Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Prime, so that Prime performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.
+Captivate Prime is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Prime, so that Prime performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.
 
 However there are users who store and manage their content on asset management systems. The content then gets repurposed for various other functions.
 
@@ -21,13 +21,15 @@ The various strips present in the learner app can be embedded in the AEM sites. 
 
 The installer is shipped as an AEM content package. [***Download the package***](https://github.com/adobe/captivate-prime-aem-components/releases).
 
-The content package, is available as a zip file, and**&nbsp;**is compatible with AEM 6.4 and AEM 6.5.
+The content package, is available as a zip file, and** **is compatible with AEM 6.4 and AEM 6.5.
 
 ## Install Captivate Prime component {#installcaptivateprimecomponent}
 
 Install the Captivate Prime content package using the AEM Package Manager:
 
-**Note:** For information on instaling packages, see&nbsp; [***How to Work With Packages***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>[!NOTE]
+>
+>For information on instaling packages, see  [***How to Work With Packages***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. As AEM Author, open the AEM Package Manager.  
 
@@ -49,7 +51,7 @@ The AEM Admin requires a refresh token from the Prime account. The Prime Integra
 
    ![](assets/launch-aem.jpg)
 
-1. Click&nbsp;**Applications > Featured Apps**, and open the AEM sites application.
+1. Click **Applications > Featured Apps**, and open the AEM sites application.
 
    Copy the Application ID and the description.
 
@@ -64,7 +66,7 @@ The AEM Admin requires a refresh token from the Prime account. The Prime Integra
 
    1.
 
-   Get the OAuth&nbsp;code. You must use v2 API in the redirect URI.
+   Get the OAuth code. You must use v2 API in the redirect URI.
 
 1. 
 1. Click **Submit **and get the refresh token.
@@ -88,7 +90,7 @@ The AEM author must first add the component in AEM template
 
 The AEM author then will be able to drag and drop the Adobe Captivate Prime component and configure accordingly.
 
-Captivate Prime component requires the configuration created in above step to be mapped to the Page. &nbsp;Author can map the configuration by Editing Page Properties under **Advanced > Configuration > Cloud Configuration** and provide path of configuration. In this way, Author can create configurations for multiple Captivate Prime accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
+Captivate Prime component requires the configuration created in above step to be mapped to the Page.  Author can map the configuration by Editing Page Properties under **Advanced > Configuration > Cloud Configuration** and provide path of configuration. In this way, Author can create configurations for multiple Captivate Prime accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
 
 ## Learner {#learner}
 
@@ -115,37 +117,37 @@ If there are no recommendations, the widget appears blank.
 
 ## Support for Skyline
 
-Skyline is the cloud version of AEM.&nbsp;You must first install Skyline from the package manager. To use the Skyline&nbsp;component&nbsp;in AEM,&nbsp;a user must&nbsp;be present in the Captivate Prime account.&nbsp;In other words, the user’s email address must exist in the account.
+Skyline is the cloud version of AEM. You must first install Skyline from the package manager. To use the Skyline component in AEM, a user must be present in the Captivate Prime account. In other words, the user’s email address must exist in the account.
 
 ## Deploy Skyline
 
-The steps to&nbsp;configure&nbsp;Skyline are mentioned in the&nbsp; [GitHub repo](https://github.com/adobe/captivate-prime-aem-components).
+The steps to configure Skyline are mentioned in the  [GitHub repo](https://github.com/adobe/captivate-prime-aem-components).
 
 ## Catalog widget
 
-The Catalog widget displays training from a specific or a set of catalogs to a user.&nbsp;In the Properties section in the page properties, select&nbsp;Catalog&nbsp;from the options listed.&nbsp;
+The Catalog widget displays training from a specific or a set of catalogs to a user. In the Properties section in the page properties, select Catalog from the options listed. 
 
 ![](assets/catalog-widget.png)
 
-The Catalog widget&nbsp;contains&nbsp;the following&nbsp;options:
+The Catalog widget contains the following options:
 
-* **Catalog ids:**&nbsp;Comma-separated catalog ids for which the&nbsp;training&nbsp;need&nbsp;to be displayed.
-* **Sort:**&nbsp;Sort order for the training. The options are-&nbsp;name, date,&nbsp;dateCreated,&nbsp;dateEnrolled, and so on.
-* **Learner State:**&nbsp;Returns all training that&nbsp;uses&nbsp;the following as filters- enrolled, started, completed, and&nbsp;notenrolled.&nbsp;The search results will not&nbsp;be displayed&nbsp;if&nbsp;the sort option is&nbsp;dateEnrolled,&nbsp;dueDate, or&nbsp;dateEnrolled.
-* **Skill name:**&nbsp;The skill used to filter exact&nbsp;training.
-* **Tag name:**&nbsp;The tag used to filter exact results.
+* **Catalog ids:** Comma-separated catalog ids for which the training need to be displayed.
+* **Sort:** Sort order for the training. The options are- name, date, dateCreated, dateEnrolled, and so on.
+* **Learner State:** Returns all training that uses the following as filters- enrolled, started, completed, and notenrolled. The search results will not be displayed if the sort option is dateEnrolled, dueDate, or dateEnrolled.
+* **Skill name:** The skill used to filter exact training.
+* **Tag name:** The tag used to filter exact results.
 
-Here are a few&nbsp;additional&nbsp;components that you can customize:
+Here are a few additional components that you can customize:
 
-**Learning Object Types:&nbsp;**Filter according to the type of the Learning Object.&nbsp;The supported types are- course, certification,&nbsp;jobAid,and&nbsp;learningProgram.
+**Learning Object Types:** Filter according to the type of the Learning Object. The supported types are- course, certification, jobAid,and learningProgram.
 
-In AEM, the title of a card in a strip will be empty&nbsp;initially.&nbsp;In properties, type the name of the title in widgets.html.
+In AEM, the title of a card in a strip will be empty initially. In properties, type the name of the title in widgets.html.
 
 **Customization**
 
-You can customize the look and feel of the layout using widgets.html.&nbsp;You can change the appearance of the cards that appear&nbsp;and&nbsp;customize the theme.
+You can customize the look and feel of the layout using widgets.html. You can change the appearance of the cards that appear and customize the theme.
 
-In the **General Settings**&nbsp;section, you can choose the primary and secondary colors for the&nbsp;cards and&nbsp;specify the properties to customize the theme.
+In the **General Settings** section, you can choose the primary and secondary colors for the cards and specify the properties to customize the theme.
 
 ```
 \{ 
@@ -168,11 +170,11 @@ In the **General Settings**&nbsp;section, you can choose the primary and seconda
 }
 ```
 
-### Ignore higher order&nbsp;LO&nbsp;enrollment
+### Ignore higher order LO enrollment
 
-If the **Ignore Higher Order LO Enrollment**&nbsp;check-box&nbsp;is enabled and a user is enrolled directly into a Learning Program or Certification, the courses for that certification or Learning Program&nbsp;will show up for the user in the widgets.
+If the **Ignore Higher Order LO Enrollment** check-box is enabled and a user is enrolled directly into a Learning Program or Certification, the courses for that certification or Learning Program will show up for the user in the widgets.
 
-If the&nbsp;check-box&nbsp;is disabled, the courses&nbsp;present in the Learning Program or Certification where user has not enrolled directly will not show up.
+If the check-box is disabled, the courses present in the Learning Program or Certification where user has not enrolled directly will not show up.
 
 ![](assets/higher-order-lo.png)
 
@@ -180,4 +182,4 @@ The setting is then applied on the widget.
 
 ### Security
 
-The fields Client ID and Client Secret are added. In addition, the refresh token gets masked. After&nbsp;a&nbsp;user creates the entire configuration, if&nbsp;the user&nbsp;opens the configuration again to edit it, or if some other user opens this configuration, the&nbsp;refresh token will be masked.
+The fields Client ID and Client Secret are added. In addition, the refresh token gets masked. After a user creates the entire configuration, if the user opens the configuration again to edit it, or if some other user opens this configuration, the refresh token will be masked.

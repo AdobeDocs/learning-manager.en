@@ -5,7 +5,7 @@ contentowner: kuppan
 ---
 
 
-# System requirements | Adobe Captivate Prime desktop application {#system-requirements-adobe-captivate-prime-desktop-application}
+# System requirements | Adobe Captivate Prime desktop application
 
 ## System requirements and language versions {#systemrequirementsandlanguageversions}
 
@@ -14,22 +14,22 @@ contentowner: kuppan
 **Authoring**
 
 * Operating System: Windows 7, Windows 8.1, and Windows 10 (only on 64 bit versions)
-* Processor: Intel®&nbsp;CoreTM i5 and above
+* Processor: Intel® CoreTM i5 and above
 * Ram: Minimum 8 GB
 * Display: Minimum 1024 x 768 resolution, Recommended - 1366 x 768
 * Storage: Minimum 5 GB of available hard disk space
-* Internet connection&nbsp;
+* Internet connection 
 
 ## Mac OS {#macos}
 
 **Authoring**
 
-* Operating System:&nbsp;Mac OSX 10.12, 10.13, 10.14 (only 64 bit version)
-* Processor: Intel®&nbsp;CoreTM i5 and above
+* Operating System: Mac OSX 10.12, 10.13, 10.14 (only 64 bit version)
+* Processor: Intel® CoreTM i5 and above
 * Ram: Minimum 8 GB
 * Display: Minimum 1024 x 768 resolution, Recommended - 1366 x 768
 * Storage: Minimum 5 GB of available hard disk space
-* Internet connection&nbsp;
+* Internet connection 
 
 ## Language versions {#languageversions}
 

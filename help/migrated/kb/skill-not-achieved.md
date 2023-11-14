@@ -5,27 +5,27 @@ contentowner: nluke
 ---
 
 
-# Unable to achieve a skill after completing a course {#unable-to-achieve-a-skill-after-completing-a-course}
+# Unable to achieve a skill after completing a course
 
 ## **Issue**
 
-A learner, even after completing a course, does not obtain a skill. The skills&nbsp;that are assigned to that course remain as **In Progress** for the learner.
+A learner, even after completing a course, does not obtain a skill. The skills that are assigned to that course remain as **In Progress** for the learner.
 
 ## **Cause**
 
-This issue occurs if the **Credits Required** to achieve this skill is greater than the **Credits Earned** by the learner after completing the course.&nbsp;
+This issue occurs if the **Credits Required** to achieve this skill is greater than the **Credits Earned** by the learner after completing the course. 
 
 ## **Solution**
 
 Check the current **Skill Credits **and **Point **required information to achieve the skill. Follow the steps below:
 
 1. For the learner, generate a **Learner Transcript** report.
-1. While generating the Learner Transcript, click **Advanced** **Options**,&nbsp;and check the option **Include Skills data and summary sheets**.
+1. While generating the Learner Transcript, click **Advanced** **Options**, and check the option **Include Skills data and summary sheets**.
 
    ![](assets/advanced-options.png)
 
-1. Open the downloaded Learner Transcript report.&nbsp;
-1. Navigate to the **Skills transcript** sheet. Here, you can view the **Credits Required** and **Credits Earned** by the Learner.&nbsp;
+1. Open the downloaded Learner Transcript report. 
+1. Navigate to the **Skills transcript** sheet. Here, you can view the **Credits Required** and **Credits Earned** by the Learner. 
 
    For example, in the example below, the credits required to achieve the skill for a course is 50. But, the learner has achieved only one credit.
 

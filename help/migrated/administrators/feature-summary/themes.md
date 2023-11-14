@@ -6,21 +6,21 @@ contentowner: jayakarr
 ---
 
 
-# Color themes {#color-themes}
+# Color themes
 
 Color themes and Branding in Captivate Prime
 
-Captivate Prime enables you to change the appearance of the application to match your organization's branding requirements.&nbsp;
+Captivate Prime enables you to change the appearance of the application to match your organization's branding requirements. 
 
 ## Branding {#branding}
 
-Click **Branding **on the left pane to update your organization name, change the subdomain, log styles and themes. Click **Edit **adjacent to each of these topics to modify the content.&nbsp;
+Click **Branding** on the left pane to update your organization name, change the subdomain, log styles and themes. Click **Edit** adjacent to each of these topics to modify the content. 
 
 ## Logo styling {#logostyling}
 
-Click **Edit **to set the appearance of your logo and company name on Captivate Prime application.&nbsp;
+Click **Edit** to set the appearance of your logo and company name on Captivate Prime application. 
 
-Click **Upload new logo** and choose the logo from your computer to upload. You can preview the appearance of the logo and your organization name below. Choose the header style of your choice and click **Save**.&nbsp;
+Click **Upload new logo** and choose the logo from your computer to upload. You can preview the appearance of the logo and your organization name below. Choose the header style of your choice and click **Save**. 
 
 ## Themes {#themes}
 
@@ -28,11 +28,11 @@ A set of five representative images is provided to preview your color theme chan
 
 **Pick a theme**
 
-Click the **Show hints**&nbsp;below this section to display the hints on the image as shown below.&nbsp;
+Click the **Show hints** below this section to display the hints on the image as shown below. 
 
 ![](assets/themes-preview-images.png)
 
-Captivate Prime application provides five color theme options to its users:&nbsp;
+Captivate Prime application provides five color theme options to its users: 
 
 * Prime Default
 * Pebbles
@@ -43,29 +43,29 @@ Captivate Prime application provides five color theme options to its users:&nbsp
 
 ![](assets/prime-customize-theme.png)
 
-You can customize the top bar color, Accent color (for example, icons color in left pane), primary color, and sidebar brightness of Themes except for the Prime Default theme.&nbsp;
+You can customize the top bar color, Accent color (for example, icons color in left pane), primary color, and sidebar brightness of Themes except for the Prime Default theme. 
 
-In the **Primary color **picker, you can choose the color that is used for the Immersive UI.
+In the **Primary color** picker, you can choose the color that is used for the Immersive UI.
 
 To customize, choose the theme type on the left pane and click the squares adjacent to brand color and sidebar icon colors. Click the side bar in sidebar brightness, drag forward or backward to adjust the brightness. Observe the preview in the above images as you modify these options.
 
-Click **Reset Theme **to restore the orignal settings of the theme. Click **Save **after completing the changes.&nbsp;
+Click **Reset Theme** to restore the orignal settings of the theme. Click **Save** after completing the changes. 
 
 **Live Preview**
 
-Click **Live Preview** at the bottom left corner of the Themes section. A pop-up appears as shown below:&nbsp;
+Click **Live Preview** at the bottom left corner of the Themes section. A pop-up appears as shown below: 
 
 ![](assets/live-theme-preview.png)
 
-Choose the theme of your choice from the drop-down list, adjust the settings and click **Preview** to view the changes Live in your application. Now, you can go through all the features of the application and witness the changes. You can also change your roles while going through live preview. Once you are satisfied with the changes, you can come back to the Live theme preview pop-up feature and click **Apply Theme**.&nbsp;
+Choose the theme of your choice from the drop-down list, adjust the settings and click **Preview** to view the changes Live in your application. Now, you can go through all the features of the application and witness the changes. You can also change your roles while going through live preview. Once you are satisfied with the changes, you can come back to the Live theme preview pop-up feature and click **Apply Theme**. 
 
-While you are previewing the changes Live, the Live theme preview pop-up still appears at the bottom of the screen. You can choose to minimize the pop-up.&nbsp;
+While you are previewing the changes Live, the Live theme preview pop-up still appears at the bottom of the screen. You can choose to minimize the pop-up. 
 
 ## Customize your account {#customize}
 
 Adobe Captivate Prime allows you to customize your account to provide enhanced user experience.
 
-The list below displays the components that can be customized. To customize the account, contact Captivate Prime&nbsp; [support](mailto:captivateprimesupport@adobe.com).
+The list below displays the components that can be customized. To customize the account, contact Captivate Prime  [support](mailto:captivateprimesupport@adobe.com).
 
 <table>
  <tbody>
@@ -79,34 +79,34 @@ The list below displays the components that can be customized. To customize the 
    <td>
     <p>Customize training card colors</p></td>
    <td>
-    <p>&nbsp;</p>
+    <p> </p>
     <ul>
-     <li>Only up to 12 custom colors.&nbsp;</li>
-     <li>Colors are applied to all Learning Objects.&nbsp;The colors will be sequentially applied to all the learning objects (trainings) and the hex color code is the required format for all colors, for example,#ffffff.</li>
+     <li>Only up to 12 custom colors. </li>
+     <li>Colors are applied to all Learning Objects. The colors will be sequentially applied to all the learning objects (trainings) and the hex color code is the required format for all colors, for example,#ffffff.</li>
      <li>If only one color is provided, that color is applied to all Learning Objects.</li>
     </ul>
-    <p>&nbsp;</p></td>
+    <p> </p></td>
   </tr>
   <tr>
    <td>
     <p>Cursor pointer image</p></td>
    <td>
-    <p>The custom image appears when a user hovers upon any Learning Object.&nbsp;</p>
+    <p>The custom image appears when a user hovers upon any Learning Object. </p>
     <ul>
      <li>Custom image applied will be shown once a user mouse overs on the Captivate Prime web page.<br></li>
-     <li>Recommended size –16x16 or 24x24 px</li>
-     <li>Recommended image format – PNG, JPG</li>
+     <li>Recommended size - 16x16 or 24x24 px</li>
+     <li>Recommended image format - PNG, JPG</li>
     </ul></td>
   </tr>
   <tr>
    <td>
     <p>Progress icon image</p></td>
-   <td>Displayed while navigating between pages. Present in places where you see the ‘4-square’ progress gif. 
+   <td>Displayed while navigating between pages. Present in places where you see the '4-square' progress gif. 
     <ul>
-     <li>Recommended size – less than or equal to 32x32 px</li>
-     <li>Recommended image format – GIF, PNG, JPG</li>
+     <li>Recommended size - less than or equal to 32x32 px</li>
+     <li>Recommended image format - GIF, PNG, JPG</li>
     </ul>
-    <p>&nbsp;</p></td>
+    <p> </p></td>
   </tr>
   <tr>
    <td>
@@ -119,7 +119,7 @@ The list below displays the components that can be customized. To customize the 
    <td>
     <p>Background image</p></td>
    <td>
-    <p>A background image is only visible in a learner role.&nbsp;</p>
+    <p>A background image is only visible in a learner role. </p>
     <p>You must have the image that you need to apply to the learner's background.</p>
     <ul>
      <li><b>Recommended Image format:</b> PNG, JPG, JPEG</li>
@@ -131,9 +131,9 @@ The list below displays the components that can be customized. To customize the 
 
 ## Configure recommendation settings {#configurerecommendationsettings}
 
-On&nbsp;**Branding > General**, you can configure recommendation scopes for internal and external learners, and&nbsp;enable learners choose skills on the learner homepage.
+On **Branding** > **General**, you can configure recommendation scopes for internal and external learners, and enable learners choose skills on the learner homepage.
 
-On the&nbsp;**General&nbsp;**page, you have the following options:
+On the **General** page, you have the following options:
 
 <table>
  <tbody>
@@ -141,32 +141,31 @@ On the&nbsp;**General&nbsp;**page, you have the following options:
    <td>
     <p>Learner Homepage</p></td>
    <td>
-    <p>Choose either&nbsp;<strong>Classic&nbsp;</strong>or&nbsp;<strong>Immersive</strong>. If you choose Immersive, then other options appear.</p></td>
+    <p>Choose either <strong>Classic </strong>or <strong>Immersive</strong>. If you choose Immersive, then other options appear.</p></td>
   </tr>
   <tr>
    <td>
     <p>Training type<br></p></td>
    <td>
-    <p>Choose either&nbsp;<strong>Custom&nbsp;</strong>or&nbsp;<strong>Industry Aligned</strong>. If there are less than 1000 learners, the entire account is considered as a single scope. The recommendation is based on all learners.<br></p></td>
+    <p>Choose either <strong>Custom </strong>or <strong>Industry Aligned</strong>. If there are less than 1000 learners, the entire account is considered as a single scope. The recommendation is based on all learners.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Recommendation Scope Setting<br></p></td>
    <td>
-    <p>Choose one or more active fields. For&nbsp;<strong>Custom</strong>, you can choose at most one active field. For&nbsp;<strong>Industry Aligned</strong>, you can choose at most five active fields.<br></p></td>
+    <p>Choose one or more active fields. For <strong>Custom</strong>, you can choose at most one active field. For <strong>Industry Aligned</strong>, you can choose at most five active fields.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Enable learner to explore Areas of Interest</p></td>
    <td>
-    <p>Only for Classic experience. Choose&nbsp;<strong>Yes&nbsp;</strong>or&nbsp;<strong>No</strong>.<br></p></td>
+    <p>Only for Classic experience. Choose <strong>Yes </strong>or <strong>No</strong>.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Prompt users to select Areas of Interest (Skills)&nbsp;<br></p></td>
+    <p>Prompt users to select Areas of Interest (Skills) <br></p></td>
    <td>
-    <p>Only for immersive experience. Choose&nbsp;<strong>Yes</strong>&nbsp;or&nbsp;<strong>No</strong>.&nbsp;</p></td>
+    <p>Only for immersive experience. Choose <strong>Yes</strong> or <strong>No</strong>. </p></td>
   </tr>
  </tbody>
 </table>
-

@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Default allocation of instructor roles to user groups in Learning Manager  {#default-allocation-of-instructor-roles-to-user-groups-in-learning-manager}
+# Default allocation of instructor roles to user groups in Learning Manager 
 
 ## Issue
 

@@ -1,11 +1,12 @@
 ---
 jcr-language: en_us
 title: Catalog labels
+description: Catalog labels allow you to tag learning objects with specific fields and apply one or multiple values. If enabled, Administrators and Authors can set Catalog Labels and values and link them to learning objects.
 contentowner: dvenkate
 ---
 
 
-# Catalog labels {#catalog-labels}
+# Catalog labels
 
 Catalog labels allow you to tag learning objects with specific fields and apply one or multiple values. If enabled, Administrators and Authors can set Catalog Labels and values and link them to learning objects.
 
@@ -13,23 +14,23 @@ Use this feature to easily categorize data. For example, if you want to categori
 
 To enable catalog labels, follow these steps:
 
-* As an Administrator, open **[!UICONTROL Settings > General > Show catalog label.]**
+* As an Administrator, open **[!UICONTROL Settings]** > **[!UICONTROL General]** > **[!UICONTROL Show catalog label]**.
 * Use the check box to enable the label.
 
 ## Add catalog labels {#addcataloglabels}
 
 To add Catalog labels, follow this step:
 
-1. Open  **[!UICONTROL Settings > Catalog Labels]**under the  **[!UICONTROL Advanced]** option. The **[!UICONTROL Catalog Labels]** page opens.
+1. Open  **[!UICONTROL Settings]** > **[!UICONTROL Catalog Labels]** under the **[!UICONTROL Advanced]** option. The [!UICONTROL Catalog Labels] page opens.
 
    ![](assets/catalog-labels-page.png)
 
 1. Click **[!UICONTROL Add Catalog Label]** or **[!UICONTROL Add]** on the upper-right corner. The **[!UICONTROL Add Catalog Label]** dialogue box appears.
-1. Add Catalog Label and their values in the fields.&nbsp;One custom field can have multiple values. Authors can select from these values during the Course creation process.
+1. Add Catalog Label and their values in the fields. One custom field can have multiple values. Authors can select from these values during the Course creation process.
 
    ![](assets/add-labels.png)
 
-1. Click **[!UICONTROL Save.]**
+1. Click **[!UICONTROL Save]**.
 1. When you save the label, it appears on the Catalog Labels page. You can choose if you want to make it a mandatory value or not.
 
    ![](assets/catalog-label.png)
@@ -43,6 +44,6 @@ Once you have created catalog labels, you can apply them to specific catalogs by
 1. Open Catalog labels from the left pane.
 1. Click **[!UICONTROL Edit]** on the upper-right corner. The page shows the list of available Catalog Labels.
 1. To add a label to the Catalog, click **[!UICONTROL Add to Catalog]**.
-1. To remove existing labels added to a Catalog, click **[!UICONTROL Remove.]**
+1. To remove existing labels added to a Catalog, click **[!UICONTROL Remove]**.
 
 When the custom field is added to the catalog, it applies to all Learning Objects that are a part of the catalog.

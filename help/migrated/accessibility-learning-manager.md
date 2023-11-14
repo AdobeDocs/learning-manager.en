@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Accessibility in Adobe Learning Manager {#accessibility-in-adobe-learning-manager}
+# Accessibility in Adobe Learning Manager
 
 This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
 

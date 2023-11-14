@@ -6,7 +6,7 @@ contentowner: manochan
 ---
 
 
-# Getting started as an Author {#getting-started-as-an-author}
+# Getting started as an Author
 
 The getting started page aids you to traverse through the key features of the application.  
   

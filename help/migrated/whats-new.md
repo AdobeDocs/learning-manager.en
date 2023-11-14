@@ -52,7 +52,7 @@ For more information, see [**Gamification**](learners/feature-summary/gamificati
 
 ## Microsoft Teams connector
 
-Microsoft® Teams® is a persistent chat-based collaboration platform that supports document sharing, online meetings, and other features for business communications.
+Microsoft&reg; Teams&reg; is a persistent chat-based collaboration platform that supports document sharing, online meetings, and other features for business communications.
 
 Adobe Captivate Prime uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings into Captivate Prime.
 
@@ -78,11 +78,13 @@ When an instructor has multiple sessions or submissions, searching for and sorti
 
 To search for a particular session or module name, follow the steps below:
 
-1. In the Instructor app (UI for Instructor role), search for the upcoming and past sessions.&nbsp;You can view the list of instances for the selected page.
+1. In the Instructor app (UI for Instructor role), search for the upcoming and past sessions. You can view the list of instances for the selected page.
 1. Enter the session or module name in the search field available at the upper-right corner.
 1. Locate the learning object from the search results.
 
-**Note: **The search results show not only the courses or modules assigned to the instructor, but all the courses or modules that match the search criteria. Select the course or module to which you are assigned.****
+>[!NOTE]
+>
+>The search results show not only the courses or modules assigned to the instructor, but all the courses or modules that match the search criteria. Select the course or module to which you are assigned.****
 
 To reset the search filter, you can use the **Clear** link available next to the course or module name.
 
@@ -92,7 +94,7 @@ To reset the search filter, you can use the **Clear** link available next to the
 
 Previously, although only Administrators were permitted to enable and configure the Social Learning settings for a Learner, the post view was the only default option for viewing the social learning forum.
 
-With this release, the Administrators can now change the default Social Learning view as per the preferences. The default post view can now be changed by utilizing the Social Learning dashboard view setting. The setting enables the Administrator to set the Learners’ default Social Learning view to either post view or board view.
+With this release, the Administrators can now change the default Social Learning view as per the preferences. The default post view can now be changed by utilizing the Social Learning dashboard view setting. The setting enables the Administrator to set the Learners' default Social Learning view to either post view or board view.
 
 **Follow these steps to change the default Social Learning view for Learners**
 
@@ -107,13 +109,15 @@ With this release, the Administrators can now change the default Social Learning
 
 1. Click **Save** to save the changes.
 
-**Note:** Although the Administrators can alter the Social Learning view, the selected default view preference remains in effect only until a Learner changes it. A Learner can change the view type overriding the default view setting (that is configured by the Administrator) by using the Social Learning page. However, the Social Learning view reverts to the default view type configured by the Administrator when you perform page-refresh or navigate away.
+>[!NOTE]
+>
+>Although the Administrators can alter the Social Learning view, the selected default view preference remains in effect only until a Learner changes it. A Learner can change the view type overriding the default view setting (that is configured by the Administrator) by using the Social Learning page. However, the Social Learning view reverts to the default view type configured by the Administrator when you perform page-refresh or navigate away.
 
 ## Set default My Learning and Catalog view for Learners
 
 For every Learner, by default, the Learning objects appear using the grid view. Previously, in the absence of a configurable setting, the Administrators could not change the default viewing preference for the learners to list view.
 
-With this release, an Administrator can now set the Learners’ default view type (for My Learning and Catalog pages) to list view. The objects such as available courses, learning paths, and certifications can now appear in a list view layout by default. The Administrator can now use the newly added setting to set the default view type for the Learners to either grid or list view.
+With this release, an Administrator can now set the Learners' default view type (for My Learning and Catalog pages) to list view. The objects such as available courses, learning paths, and certifications can now appear in a list view layout by default. The Administrator can now use the newly added setting to set the default view type for the Learners to either grid or list view.
 
 Follow these steps to change the default view for Learners:
 
@@ -121,13 +125,13 @@ Follow these steps to change the default view for Learners:
 
 1. Click **General** under **BASICS** to access the General settings page.
 
-1. Select the **List view** option alongside **Default view (Learner role)** to change the Learners’ default view from Grid to List.&nbsp;If you clear **List view** option, the system sets the Learners’ default view back to Grid.
+1. Select the **List view** option alongside **Default view (Learner role)** to change the Learners' default view from Grid to List. If you clear **List view** option, the system sets the Learners' default view back to Grid.
 
 1. After you select (or clear) the **List view** option, the system displays the following confirmation message.
 
 After selecting **List view**, when a learner signs into the Learner app, by default, My Learning and Catalog pages appear using list view.
 
-**Note: **Although Administrators can alter the Learners’ view, the selected default view preference remains in effect only until a Learner changes it. A Learner can override the default view preference for the My Learning and Catalog pages (that is configured by the Administrator) by switching between the Grid and List views.
+Although Administrators can alter the Learners' view, the selected default view preference remains in effect only until a Learner changes it. A Learner can override the default view preference for the My Learning and Catalog pages (that is configured by the Administrator) by switching between the Grid and List views.
 
 ## Mobile immersive web changes
 
@@ -149,12 +153,12 @@ This is an admin API, using which the administrator can download a badge in the 
 
 ```
 \{ 
- "data”: { 
+ "data": { 
  "type":"job", 
- "attributes”: { 
+ "attributes": { 
  "description":"description of your choice", 
  "jobType":"generateUserBadge", 
- "payload”: { 
+ "payload": { 
  "trainingId":"course: XXXX" 
  } 
  } 
@@ -168,12 +172,12 @@ There is pagination when downloading badges by training id. The maximum limit pe
 
 ```
 \{ 
- "data”: { 
+ "data": { 
  "type":"job", 
- "attributes”: { 
+ "attributes": { 
  "description":"description of your choice", 
  "jobType":"generateUserBadge", 
- "payload”: { 
+ "payload": { 
  "userId":"1234" 
  } 
  } 
@@ -185,7 +189,7 @@ There is no pagination when downloading badges via userid.
 
 ## GET learningObjects for classroom management
 
-This release features a change in the resource model. The relationships object has a new field named “*room*.” This change is only applicable to a classroom module.
+This release features a change in the resource model. The relationships object has a new field named "*room*." This change is only applicable to a classroom module.
 
 ## Gamification API
 
@@ -221,7 +225,7 @@ If you want to report a board, provide the board id.
 
 If you want to remove a board from favorites, provide the board id.
 
-*DELETE&nbsp;&nbsp; /boards/{id}/favorite*
+*DELETE   /boards/{id}/favorite*
 
 ## Board API changes
 
@@ -236,11 +240,11 @@ The following fields are added to the payload:
 1. *courseInstanceName*
 1. *courseName*
 1. *enrolledToCourseInstance*
-1. *"instructorNames": ["string"]*
+1. *"instructorNames": `["string"]`*
 
-**Note:** The *enrolled *and *enrolledToCourseInstance *fields are added to determine if a learner is enrolled to the course and if the learner is enrolled to the course instance in a calendar model.
+The *enrolled* and *enrolledToCourseInstance* fields are added to determine if a learner is enrolled to the course and if the learner is enrolled to the course instance in a calendar model.
 
-*filter. allSession* is added in the query parameter to get all the sessions related to all instances and all sessions in a course.
+`filter. allSession` is added in the query parameter to get all the sessions related to all instances and all sessions in a course.
 
 The following fields are added in the relationship:
 
@@ -253,7 +257,7 @@ The following fields are added in the relationship:
 
 Here are the changes in this release:
 
-* Workday® supports a wide range of attributes to add data. Different organizations use these attributes differently. Therefore, exposing these attributes and allowing the Administrators to map them with Captivate Prime would have increased product complexity and affected usability. If you want to map any attribute that is not listed in Captivate Prime, contact your CSAM with the details. The CSAM Support team of Captivate Prime will investigate the requirement and help you based on the technical feasibility.
+* Workday&reg; supports a wide range of attributes to add data. Different organizations use these attributes differently. Therefore, exposing these attributes and allowing the Administrators to map them with Captivate Prime would have increased product complexity and affected usability. If you want to map any attribute that is not listed in Captivate Prime, contact your CSAM with the details. The CSAM Support team of Captivate Prime will investigate the requirement and help you based on the technical feasibility.
 * We have added a checkbox **Exclude Contingent Workers**. When you select this checkbox, the system does not import any temp workers available under a manager.
 
 ## Calendar widget enhancements
@@ -282,24 +286,26 @@ On the **Content Marketplace** page, the **Express Interest** button will now be
 
 ## Language support in email templates
 
-In this release of Captivate Prime, we’ve added support for Hungarian and Finnish languages in email templates.
+In this release of Captivate Prime, we've added support for Hungarian and Finnish languages in email templates.
 
 ## Classroom enhancement API changes
 
-GET /users/{id}/calendar
+`GET /users/{id}/calendar`
 
 The following fields are added to the payload:
 
 1. *courseInstanceName*
 1. *courseName*
 1. *enrolledToCourseInstance*
-1. *"instructorNames": ["string"]*
+1. *`"instructorNames": ["string"]`*
 
-**Note:** The *enrolled *and *enrolledToCourseInstance *fields are added to determine if a learner is enrolled in the course and if the learner is enrolled in the course instance in a calendar model.
+>[!NOTE]
+>
+>The *enrolled* and *enrolledToCourseInstance* fields are added to determine if a learner is enrolled in the course and if the learner is enrolled in the course instance in a calendar model.
 
-*filter.allSession* is added in the query parameter to get all the sessions related to all instances and all sessions in a course.
+*`filter.allSession`* is added in the query parameter to get all the sessions related to all instances and all sessions in a course.
 
-&nbsp;The following fields are added in relationship:
+ The following fields are added in relationship:
 
 1. *instructors*
 1. *room*
@@ -308,13 +314,13 @@ The resources model corresponding to classroom module appears in the relationshi
 
 ## Deprecated features in this release
 
-In this release, the&nbsp;‘learningObject’&nbsp;in relationship of&nbsp;learningObjectSkill&nbsp;model has been deprecated.&nbsp;We have added a new key,&nbsp;"learningObjectId"&nbsp;in the attribute section of&nbsp;learningObjectSkill&nbsp;model&nbsp;to fetch the same information. The value corresponding to this key will be the id of&nbsp;learningObject.&nbsp;This change will&nbsp;affect&nbsp;the&nbsp;following&nbsp;LO&nbsp;types:
+In this release, the `learningObject` in relationship of `learningObjectSkill` model has been deprecated. We have added a new key, `learningObjectId` in the attribute section of `learningObjectSkill` model to fetch the same information. The value corresponding to this key will be the id of learningObject. This change will affect the following LO types:
 
-* Course&nbsp;
-* LearningPath&nbsp;(API terminology:&nbsp;learningProgram)
+* Course 
+* LearningPath (API terminology: learningProgram)
 * Jobaid
 
-The deprecated data will be completely removed from the response as a part of our next release. **This will take place&nbsp;after&nbsp;3 months&nbsp;(anytime&nbsp;after 30**`<sup style="color: rgb(50, 50, 50);"><b>th</b></sup>`**&nbsp;April 2022)**.&nbsp;Make the required changes to your implementation to&nbsp;fetch the data according to the the new design.
+The deprecated data will be completely removed from the response as a part of our next release. **This will take place after 3 months (anytime after 30 April 2022)**. Make the required changes to your implementation to fetch the data according to the the new design.
 
 Here is a sample LO skill model:
 
@@ -346,27 +352,29 @@ Model:
 
 ```
 
-We plan to change the&nbsp;ID&nbsp;format&nbsp;of&nbsp;learningObjectResourceGrade.&nbsp;The id format for the&nbsp;learningObjectResourceGrade&nbsp;model&nbsp;currently follows the following format:
+We plan to change the ID format of learningObjectResourceGrade. The id format for the learningObjectResourceGrade model currently follows the following format:
 
 * *course:courseid_instanceid_moduleid_version_uuid1_uuid2*
 
-Once&nbsp;changed, the format will be:
+Once changed, the format will be:
 
 * *course:courseid_instanceid_moduleid_version_uuid*
 
-Thus, only one&nbsp;uuid&nbsp;will be used to construct the&nbsp;learningObjectResourceGrade’s&nbsp;id.
+Thus, only one uuid will be used to construct the learningObjectResourceGrade's id.
 
-In general,&nbsp;Captivate Prime&nbsp;recommends to&nbsp;not&nbsp;interpret&nbsp;the ID of any model.
+In general, Captivate Prime recommends to not interpret the ID of any model.
 
-**Note: **This change will come into effect as a part of our next release (any time&nbsp;after **30 April 2022**).&nbsp;In case&nbsp;you are using this format in any way, make the required changes.&nbsp;
+>[!NOTE]
+>
+>This change will come into effect as a part of our next release (any time after **30 April 2022**). In case you are using this format in any way, make the required changes. 
 
 ## Release Notes {#releasenotes}
 
-For information regarding current and previous releases of Captivate Prime web app and device app, see the&nbsp; [***Release notes***](release-note/release-notes.md).
+For information regarding current and previous releases of Captivate Prime web app and device app, see the  [***Release notes***](release-note/release-notes.md).
 
 ## Bug fixes {#bugfixes}
 
-To see the bugs that are fixed in this update, refer to the&nbsp; [***Bugs fixed***](release-note/release-notes.md#bug-fixes-jan-22)&nbsp;list.
+To see the bugs that are fixed in this update, refer to the  [***Bugs fixed***](release-note/release-notes.md#bug-fixes-jan-22) list.
 
 ## Known issues {#knownissues}
 
@@ -390,7 +398,7 @@ To see the known issues in this update, refer to [***Known issues***](release-no
   <tr>
    <td><img src="assets/ask-the-community.svg"></td>
    <td>
-    <p>If you have a question to ask or an idea to share, come and participate in the&nbsp;<a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Captivate Prime Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td>
+    <p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Captivate Prime Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -401,4 +409,3 @@ To see the known issues in this update, refer to [***Known issues***](release-no
 * [Adobe Captivate Prime playlist](https://www.youtube.com/playlist?list=PLq21ukQtk0URntzGmTxsx7Qt8z9b9Elth)
 * [Organize your training in Adobe Captivate Prime | Ashwini Jaisim](https://elearning.adobe.com/2020/07/organize-your-trainings-in-adobe-captivate-prime/)
 * [Add your Adobe Captivate Prime Account URL to your Adobe Connect Central Account Summary Page](https://elearning.adobe.com/2019/10/add-adobe-captivate-prime-account-url-adobe-connect-central-account-summary-page/)
-

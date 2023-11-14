@@ -6,9 +6,9 @@ contentowner: manochan
 ---
 
 
-# Creating, modify, and publish courses {#creating-modify-and-publish-courses}
+# Creating, modify, and publish courses
 
-Captivate Prime&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 To learn how to create courses, certifications, and learning programs in Captivate Prime, read this article.
 
@@ -38,11 +38,11 @@ To create a course, follow the steps below:
 
    The following are the types of enrollments:
 
-   * **Manager nominated:**&nbsp;Only managers can nominate these courses. A learner cannot enroll to these types of courses.
-   * **Manager approved:**&nbsp;Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager’s approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
-   * **Self-enrolled:**&nbsp;Learners can directly enroll themselves to these types of courses.
+   * **Manager nominated:** Only managers can nominate these courses. A learner cannot enroll to these types of courses.
+   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager’s approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
+   * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
 
-1. To save the changes, click **Save**. To publish the course, click&nbsp;**Publish**.
+1. To save the changes, click **Save**. To publish the course, click **Publish**.
 
 ## Create a course - Advanced workflow {#createacourseadvancedworkflow}
 
@@ -57,21 +57,21 @@ To create a course, follow the steps below:
 
    The following are the types of enrollments:
 
-   * **Manager nominated:**&nbsp;Only managers can nominate these courses. A learner cannot enroll to these types of courses.
-   * **Manager approved:**&nbsp;Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager’s approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
-   * **Self-enrolled:**&nbsp;Learners can directly enroll themselves to these types of courses.
+   * **Manager nominated:** Only managers can nominate these courses. A learner cannot enroll to these types of courses.
+   * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager’s approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
+   * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
 
-1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box&nbsp;**Learners can unenroll themselves**.
+1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box **Learners can unenroll themselves**.
 1. Select the pre-requisite courses that must be completed before taking up your course. Click the Courses field and choose from the list of courses.
-1. Enable the **Enable**&nbsp;**Prerequisites**&nbsp;check-box if you want the pre-requisite courses to me made mandatory.
+1. Enable the **Enable** **Prerequisites** check-box if you want the pre-requisite courses to me made mandatory.
 1. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
-1. To save the changes, click&nbsp;**Save**. To publish the course, click&nbsp;**Publish**.
+1. To save the changes, click **Save**. To publish the course, click **Publish**.
 
 ## Rich Text Formatting
 
-While creating a Course, Learning&nbsp;Program,&nbsp;Certification, or Job Aid, Authors can&nbsp;input different types of content such as text, image, or apply various text formatting options.
+While creating a Course, Learning Program, Certification, or Job Aid, Authors can input different types of content such as text, image, or apply various text formatting options.
 
-When creating a course,&nbsp;you can see the Rich Text Editor in the Course Overview field. You can format your content, add images,&nbsp;add hyperlinks, and so on.
+When creating a course, you can see the Rich Text Editor in the Course Overview field. You can format your content, add images, add hyperlinks, and so on.
 
 ![](assets/rich-text-editor-author.png)
 
@@ -89,7 +89,7 @@ Similarly, you can use the Rich Text Editor to modify the description when creat
 
 ![](assets/job-aid-rte-new.png)
 
-In addition, you can use the Rich Text Editor for other languages.&nbsp;
+In addition, you can use the Rich Text Editor for other languages. 
 
 ## Rich text description support for headless user Interface
 
@@ -99,19 +99,19 @@ Rich text is composed of HTML markup. Rendering the markup as-is would result in
 
 ### Default style
 
-The attached CSS stylesheet contains the styling that is applied by Captivate Prime. The styling is tweaked considering majority of the usecases. Download the attached CSS file and import it to your webapp according to your conventions and build system. The CSS classes defined are namespaced under&nbsp;ql-editor&nbsp;class and they don't interfere with your existing styles.
+The attached CSS stylesheet contains the styling that is applied by Captivate Prime. The styling is tweaked considering majority of the usecases. Download the attached CSS file and import it to your webapp according to your conventions and build system. The CSS classes defined are namespaced under ql-editor class and they don't interfere with your existing styles.
 
 ### Customize styles
 
 The default styling may not meet everyone's needs. The customisations can be done by overiding CSS supplied. All the styling is wrapped under ql-editor as descendant selectors. The following classes are used:
 
-* Indenting: **li.ql-indent-$number**. $number varies from 1-9
-* size: **ql-size-small**, **ql-size-large**, **ql-size-huge**
+* Indenting:** li.ql-indent-$number**. $number varies from 1-9
+* size:** ql-size-small**, **ql-size-large**, **ql-size-huge**
 
-* alignment: **ql-align-center**, **ql-align-justify**, **ql-align-right**
+* alignment:** ql-align-center**, **ql-align-justify**, **ql-align-right**
 
-* color: **ql-color-$color**. $color = white, red, orange, yellow, green, blue, purple
-* background: **ql-bg-$color**. $color = black, red, orange, yellow, green, blue, purple
+* color:** ql-color-$color**. $color = white, red, orange, yellow, green, blue, purple
+* background:** ql-bg-$color**. $color = black, red, orange, yellow, green, blue, purple
 * html tags: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
 [CSS file to be used for customization.](assets/ql-headless.css)
@@ -171,7 +171,7 @@ Once the admin has enabled multi attempts, as an author you can configure multi 
    <td>
     <p>Set Attempts at</p></td>
    <td>
-    <p>You can set the number of attempts for a module to infinite or provide a definite limit.<span style="font-size: 0.8125rem;">The attempt information will be shown to the learner once it is enabled. The learner can choose to reattempt&nbsp;the module by clicking on the ‘Reattempt’ button.</span></p></td>
+    <p>You can set the number of attempts for a module to infinite or provide a definite limit.<span style="font-size: 0.8125rem;">The attempt information will be shown to the learner once it is enabled. The learner can choose to reattempt the module by clicking on the ‘Reattempt’ button.</span></p></td>
   </tr>
   <tr>
    <td>
@@ -183,7 +183,7 @@ Once the admin has enabled multi attempts, as an author you can configure multi 
    <td>
     <p>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</p></td>
    <td>
-    <p>You can lock modules for a specific time between attempts, by enabling the check-box “<b>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</b>”. When a module is locked, the learner cannot visit the module until the lock time provided elapses.&nbsp;</p>
+    <p>You can lock modules for a specific time between attempts, by enabling the check-box “<b>Lock module between attempts 0:0:1 Format: Days/Hours/Minutes</b>”. When a module is locked, the learner cannot visit the module until the lock time provided elapses. </p>
     <p>ou can define the end criteria of an attempt by selecting the ‘<b>Player close</b>’ or ‘<b>Completion</b>’ check-boxes.</p></td>
   </tr>
   <tr>
@@ -196,7 +196,7 @@ Once the admin has enabled multi attempts, as an author you can configure multi 
    <td>
     <p>Completion</p></td>
    <td>
-    <p>If the end of an attempt is based on&nbsp;<b>Completion</b>, then it will be calculated based on the content success criteria. Learners are not allowed to re-attempt the module until the content sends the completion information. Module lock and attempt details are communicated to the learner once an attempt ends.</p></td>
+    <p>If the end of an attempt is based on <b>Completion</b>, then it will be calculated based on the content success criteria. Learners are not allowed to re-attempt the module until the content sends the completion information. Module lock and attempt details are communicated to the learner once an attempt ends.</p></td>
   </tr>
   <tr>
    <td>
@@ -254,22 +254,22 @@ To add a content module, perform the steps below:
 
    ![](assets/classroom-module.png)
 
-   When&nbsp;creating a course, in the Virtual Classroom configuration dialog&nbsp;box, set the conferencing system&nbsp;to&nbsp;the&nbsp;Microsoft&nbsp;Teams connection&nbsp;that you created.&nbsp;Select&nbsp;whether you want a meeting organizer for the event.
+   When creating a course, in the Virtual Classroom configuration dialog box, set the conferencing system to the Microsoft Teams connection that you created. Select whether you want a meeting organizer for the event.
 
-   If you&nbsp;select&nbsp;Yes&nbsp;for a meeting organizer, you must enter the name of the organizer. Type the name of the organizer and select the organizer.
+   If you select Yes for a meeting organizer, you must enter the name of the organizer. Type the name of the organizer and select the organizer.
 
    **Lobby bypassing**
 
-   * If you select&nbsp;Yes, any learner can join the meeting.
-   * If you select&nbsp;No, a request is sent to the organizer to allow or prevent the learner from joining the meeting.
+   * If you select Yes, any learner can join the meeting.
+   * If you select No, a request is sent to the organizer to allow or prevent the learner from joining the meeting.
 
-   **Note:**&nbsp;If a learner wants to join Microsoft Teams as guest, he/she must enter&nbsp;the&nbsp;email. The&nbsp;email must be present in&nbsp;Captivate&nbsp;Prime.
+   **Note:** If a learner wants to join Microsoft Teams as guest, he/she must enter the email. The email must be present in Captivate Prime.
 
    **Activity Module:** In this mode, learners must complete a set of activities, such as, workshops, exercises, questionnaire, and other learning activities. Enter the title, description, and the external url for reference. To save the changes, click **Done**.
 
    ![](assets/activity-module.png)
 
-   You can specify the duration&nbsp;while adding an activity module in a course for activity type File Submission and&nbsp;xAPI-based modules.&nbsp;
+   You can specify the duration while adding an activity module in a course for activity type File Submission and xAPI-based modules. 
 
 1. Similarly, add modules for Prework and Testout modes.
 1. Choose the sequencing type for modules as Ordered or Unordered based on your preference.
@@ -281,7 +281,7 @@ To add a content module, perform the steps below:
 
    **Note:** The recommended dimensions are:
 
-   * **Cover image: **300 px x 300 px
+   * **Cover image:** 300 px x 300 px
    * **Banner image:** 1600 px x 140 px
 
 1. On the top-right corner of the page, click **Save**.
@@ -294,7 +294,7 @@ Consider store employees or warehouse workers undergoing evaluation for the task
 
 ### Create a checklist {#createachecklist}
 
-Only an Author can create a checklist. A checklist is a type of Activity module. While setting up an Activity module, you, an Author, can select an Activity as **Checklist**, as shown below:&nbsp;
+Only an Author can create a checklist. A checklist is a type of Activity module. While setting up an Activity module, you, an Author, can select an Activity as **Checklist**, as shown below: 
 
 ![](assets/checklist-option.png)
 
@@ -392,7 +392,7 @@ A typical course life cycle looks as follows:
 * **Draft** –When an author completes creating a course and saving it. At this state, course is not available yet for learners.
 * **Published** –When an author completes publishing a course. At this state, the course is available for learners to enroll. You can also edit a course at this state.
 * **Retired** – After publishing a course, an author can move it to a retired state if the author doesn’t want the course to appear in course catalog for learners.
-* **Deleted** – A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Only authors can delete courses when they are in Draft or Retired states.&nbsp;
+* **Deleted** – A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Only authors can delete courses when they are in Draft or Retired states. 
 
 ![](assets/typical-course-lifecycle.png)
 
@@ -454,7 +454,7 @@ To switch to the Admin mode,
 
    ![](assets/enroll-learners.png)
 
-1. On the Enroll Learners dialog box, on the top-right corner you an see that the option **Default Instance** is selected. As soon as a course is created by an author, a default instance of the course is created.&nbsp;
+1. On the Enroll Learners dialog box, on the top-right corner you an see that the option **Default Instance** is selected. As soon as a course is created by an author, a default instance of the course is created. 
 
    ![](assets/default-instance.png)
 
@@ -532,7 +532,7 @@ As per the pie-chart shown above, more weightage is given to L3 feedback from ma
 
 Both Author and Admin can create certifications and learning programs for learners from the Author app. From the home page, click either Certifications, or Learning Programs to create the respective learning objects.
 
-To know how to create and manage certifications and learning programs, see&nbsp; [Certifications](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/certifications.html)&nbsp;and&nbsp; [Learning Programs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/learning-programs.html).
+To know how to create and manage certifications and learning programs, see  [Certifications](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/certifications.html) and  [Learning Programs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/learning-programs.html).
 
 ## Mandatory courses for external certification {#mandatorycoursesforexternalcertification}
 
@@ -591,7 +591,7 @@ You must disable the default catalog and create custom catalogs.
 1. On the left pane, click **Catalogs**.
 1. Create a Catalog by clicking **Create**. Enter the details and click **Save**.
 
-1. On the newly created Catalog options,&nbsp;you can select different types of learning that you can add, for example, Learning Program, certification, or course.
+1. On the newly created Catalog options, you can select different types of learning that you can add, for example, Learning Program, certification, or course.
 1. In the Learning Program section, click **Add Content**.
 1. On the left pane, click **Share Internally** or **Share Externally** depending on the audience that you want to target.
 
@@ -630,7 +630,7 @@ While creating a course, you can add video, audio, pdf, or text files to the cou
 
 +++How to set multiple attempts on module?
 
-**Pre-requisite:** The Administrator must enable the option&nbsp;**Multiple Attempts** in **Settings > General** in the Admin app.
+**Pre-requisite:** The Administrator must enable the option **Multiple Attempts** in **Settings > General** in the Admin app.
 
 As an Author, on the Course overview page, enable the option **Allow multiple attempts**.
 

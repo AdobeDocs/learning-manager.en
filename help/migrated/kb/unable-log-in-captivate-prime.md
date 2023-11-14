@@ -6,7 +6,7 @@ contentowner: saghosh
 ---
 
 
-# Unable to log in to Captivate Prime {#unable-to-log-in-to-captivate-prime}
+# Unable to log in to Captivate Prime
 
 ## Issue
 
@@ -38,11 +38,11 @@ Use incognito mode in your browser and then sign in to Adobe Captivate Prime. Se
 
 ## Contact Administrator
 
-If you are still unable to log in,&nbsp;contact the Administrator of the account. The Administrator can verify whether you are a registered learner in the account.
+If you are still unable to log in, contact the Administrator of the account. The Administrator can verify whether you are a registered learner in the account.
 
-If you are a part of the account and still unable to log in,&nbsp;&nbsp;the Administrator must verify if your Adobe ID is the same with which you are trying to log in.&nbsp;
+If you are a part of the account and still unable to log in, the Administrator must verify if your Adobe ID is the same with which you are trying to log in. 
 
-**Note:**&nbsp;Sometimes the Adobe ID is different that the Adobe Captivate Prime ID on the account.
+Sometimes the Adobe ID is different that the Adobe Captivate Prime ID on the account.
 
 ## What's next
 

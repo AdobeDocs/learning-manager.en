@@ -6,7 +6,7 @@ contentowner: shhivkum
 ---
 
 
-# Frequently Asked Questions for Instructors {#frequently-asked-questions-for-instructors}
+# Frequently Asked Questions for Instructors
 
 Read on to know the frequently asked questions for instructors in Captivate Prime.
 

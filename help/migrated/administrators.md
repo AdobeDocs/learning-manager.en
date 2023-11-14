@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Administrators {#administrators}
+# Administrators
 
 <table> 
  <tbody>

@@ -6,7 +6,7 @@ contentowner: manochan
 ---
 
 
-# Getting started as a Learner {#getting-started-as-a-learner}
+# Getting started as a Learner
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 

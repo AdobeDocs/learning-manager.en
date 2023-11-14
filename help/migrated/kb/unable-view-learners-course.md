@@ -5,7 +5,7 @@ contentowner: saghosh
 ---
 
 
-# Unable to view learners in a course {#unable-to-view-learners-in-a-course}
+# Unable to view learners in a course
 
 ## Issue
 

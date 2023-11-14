@@ -1,11 +1,12 @@
 ---
 jcr-language: en_us
 title: Classroom
+description: Administrators can now set up a library of classroom locations. For each Classroom Location, the administrators can set the metadata that includes Location Name, Seat Limit as well as additional information such as the Location URL. Authors and Administrators can then use these pre-configured classroom locations for setting up instructor-led training events (classroom modules).
 contentowner: saghosh
 ---
 
 
-# Classroom {#classroom}
+# Classroom
 
 ## Overview
 
@@ -17,9 +18,9 @@ You can use the following two ways to add a classroom location.
 
 You can add a classroom location by using the UI:
 
-1. In the Admin app (the UI for administrator roles), click **Settings > Classroom Locations**.  
+1. In the Admin app (the UI for administrator roles), click **Settings** > **Classroom Locations**.  
 
-1. Click the **Add More **button.  
+1. Click the **Add More** button.  
 
 1. In the **Classroom Location** dialog box, enter the following details:
 
@@ -36,25 +37,25 @@ After adding the location, the **Settings > Classroom Locations** page lists the
 
 The list has the following fields:
 
-**Location Name — **Name of the classroom location.
+**Location Name** - Name of the classroom location.
 
-**Future Sessions — **Number of events that will occur in the corresponding location. Click the number to view the details in a dialog box.
+**Future Sessions** - Number of events that will occur in the corresponding location. Click the number to view the details in a dialog box.
 
 ![](assets/sessions-list.png)
 
 The dialog box displays the details of each session including the name of the session, name of the training that includes the session, and session schedule. The displayed time aligns with the system time zone of the learner.
 
-The **Future Sessions** field displays **zero **when the classroom is not used for any session or when the classroom is associated with past sessions.
+The **Future Sessions** field displays **zero** when the classroom is not used for any session or when the classroom is associated with past sessions.
 
-**Location URL — **URL that you provided when creating the classroom location.
+**Location URL** - URL that you provided when creating the classroom location.
 
-**Location Information — **The classroom information that you provided when creating the classroom.
+**Location Information** - The classroom information that you provided when creating the classroom.
 
 ## Add classroom using CSV
 
 Alternatively, you can add one or more classroom locations by importing a CSV that contains the classroom information.
 
-In **Admin app > Settings > Classroom Locations**, click the **Import Locations CSV **button. Browse to the location containing the CSV file and select the file.
+In **Admin app** > **Settings** > **Classroom Locations**, click the **Import Locations CSV** button. Browse to the location containing the CSV file and select the file.
 
 The CSV file uses these fields to store details about one or more classroom locations:
 
@@ -87,7 +88,7 @@ However, Administrators now have an additional option to further control who get
 
 An Administrator can select the **Instructor Management** option (available under **Admin app > Settings > General**) to ensure that only the users who are pre-determined Instructors can be added as an instructor for a session.
 
-To set up an Instructor, Administrators can select **MANAGE > Users** to open the User management page, select a user, and then assign the instructor role to the user (using **Actions > Assign Role**).
+To set up an Instructor, Administrators can select **MANAGE** > **Users** to open the User management page, select a user, and then assign the instructor role to the user (using **Actions > Assign Role**).
 
 ## Author
 
@@ -100,11 +101,11 @@ In addition, an author can:
 
 Therefore, after an Administrator enables the **Instructor Management** option, only the users with Instructor role can be added as an instructor.
 
-**Note:** This is not applicable when you migrate sessions using the sessions CSV file. In this case, a user who does not have the instructor role can be added as an instructor.
+>[!NOTE]
+>
+>This is not applicable when you migrate sessions using the sessions CSV file. In this case, a user who does not have the instructor role can be added as an instructor.
 
 ## Cancel existing session
-
-## Overview
 
 An Author or Administrator can cancel a session and reschedule it, if required.
 
@@ -144,11 +145,10 @@ In addition, an Administrator can:
 * Reschedule a session that was cancelled.
 * Add an instructor to a cancelled session when rescheduling it.
 
-Note that even after cancellation, the learners enrolled in the training instance continue to stay enrolled. Their enrollment statuses — including confirmed enrollment, waitlisted, and awaiting manager approval — does not change. This is useful because the Administrator can setup and reschedule the cancelled session in the future.
+Note that even after cancellation, the learners enrolled in the training instance continue to stay enrolled. Their enrollment statuses - including confirmed enrollment, waitlisted, and awaiting manager approval - does not change. This is useful because the Administrator can setup and reschedule the cancelled session in the future.
 
 ## Author
 
 On the **Course Instance** page, an Author can cancel one or more sessions. After the Author cancels a session, the system clears all the session details except the seat limit.
 
 Therefore, an Author can use the **Cancel Session** links to cancel one or more classroom sessions or virtual classroom sessions available in the same or different course instances.  
-

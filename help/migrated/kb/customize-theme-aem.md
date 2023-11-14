@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Customize theme for AEM components {#customize-theme-for-aem-components}
+# Customize theme for AEM components
 
 Use the JSON below to customize the catalog widget.
 

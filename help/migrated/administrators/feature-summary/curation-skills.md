@@ -1,11 +1,12 @@
 ---
 jcr-language: en_us
 title: Map skill with skill domains
+description: To auto curate a post that is posted by a user by the AI-enabled Curation Engine for a particular skill domain, the user's enterprise must have their customized skills to be mapped to the supported skill domains present in the Prime LMS.
 contentowner: kuppan
 ---
 
 
-# Map skill with skill domains {#map-skill-with-skill-domains}
+# Map skill with skill domains
 
 To auto curate a post that is posted by a user by the AI-enabled Curation Engine for a particular skill domain, the user's enterprise must have their customized skills to be mapped to the supported skill domains present in the Prime LMS.
 

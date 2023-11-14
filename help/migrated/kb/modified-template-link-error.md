@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Email links triggered from modified templates throw an error in Learning Manager {#email-links-triggered-from-modified-templates-throw-an-error-in-learning-manager}
+# Email links triggered from modified templates throw an error in Learning Manager
 
 ## Issue
 

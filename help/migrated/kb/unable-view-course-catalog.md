@@ -5,9 +5,9 @@ contentowner: saghosh
 ---
 
 
-# Unable to view certain course under catalog while creating a Learning Program {#unable-to-view-certain-course-under-catalog-while-creating-a-learning-program}
+# Unable to view certain course under catalog while creating a Learning Program
 
-Captivate Prime&nbsp;Learning Programs&nbsp;are renamed to&nbsp;Learning Paths.&nbsp;This change happens immediately&nbsp;after the October 2021 release and&nbsp;the terminology of&nbsp;Learning Path&nbsp;is&nbsp;reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 ## Issue
 

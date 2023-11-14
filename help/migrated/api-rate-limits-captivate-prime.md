@@ -6,7 +6,7 @@ preview: true
 ---
 
 
-# API Rate Limits in Learning Manager {#api-rate-limits-in-learning-manager}
+# API Rate Limits in Learning Manager
 
 ## Introduction to rate limiting {#introductiontoratelimiting}
 

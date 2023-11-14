@@ -5,7 +5,7 @@ contentowner: nluke
 ---
 
 
-# User gets auto deleted in Captivate Prime {#user-gets-auto-deleted-in-captivate-prime}
+# User gets auto deleted in Captivate Prime
 
 ## Issue
 
@@ -22,7 +22,7 @@ In Adobe Captivate Prime, there is an option that allows you to delete a user if
 1. Log in as an **Administrator**.
 1. Under **Configure**, click **Settings **> **General**.
 1. In the General settings page, see for the option **Auto-delete Internal Users**.
-1. Click **Edit **to enter the number of days in the field, to auto delete a Learner if they have not accessed the system.&nbsp;
+1. Click **Edit **to enter the number of days in the field, to auto delete a Learner if they have not accessed the system. 
 
    ![](assets/cp-autodelete-internal.png)
 
@@ -42,6 +42,6 @@ In Adobe Captivate Prime, there is an option that allows you to delete a user if
 
    ![](assets/cp-autodelete-external.png)
 
-1. In the **Login Requirement** field, enter the number of days to auto delete a learner if they have not accessed the system.&nbsp;
+1. In the **Login Requirement** field, enter the number of days to auto delete a learner if they have not accessed the system. 
 1. Click **Save **to retain the settings made.
 

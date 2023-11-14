@@ -78,7 +78,9 @@ To search for a particular session or module name, follow the steps below:
 1. Enter the session or module name in the search field available at the upper-right corner.
 1. Locate the learning object from the search results.
 
-**Note:** The search results show not only the courses or modules assigned to the instructor, but all the courses or modules that match the search criteria. Select the course or module to which you are assigned.****
+>[!NOTE]
+>
+>The search results show not only the courses or modules assigned to the instructor, but all the courses or modules that match the search criteria. Select the course or module to which you are assigned.****
 
 To reset the search filter, you can use the **Clear** link available next to the course or module name.
 
@@ -103,7 +105,9 @@ With this release, the Administrators can now change the default Social Learning
 
 1. Click **Save** to save the changes.
 
-**Note:** Although the Administrators can alter the Social Learning view, the selected default view preference remains in effect only until a Learner changes it. A Learner can change the view type overriding the default view setting (that is configured by the Administrator) by using the Social Learning page. However, the Social Learning view reverts to the default view type configured by the Administrator when you perform page-refresh or navigate away.
+>[!NOTE]
+>
+>Although the Administrators can alter the Social Learning view, the selected default view preference remains in effect only until a Learner changes it. A Learner can change the view type overriding the default view setting (that is configured by the Administrator) by using the Social Learning page. However, the Social Learning view reverts to the default view type configured by the Administrator when you perform page-refresh or navigate away.
 
 # Set default My Learning and Catalog view for Learners
 
@@ -123,7 +127,9 @@ Follow these steps to change the default view for Learners:
 
 After selecting **List view**, when a learner signs into the Learner app, by default, My Learning and Catalog pages appear using list view.
 
-**Note:** Although Administrators can alter the Learners' view, the selected default view preference remains in effect only until a Learner changes it. A Learner can override the default view preference for the My Learning and Catalog pages (that is configured by the Administrator) by switching between the Grid and List views.
+>[!NOTE]
+>
+>Although Administrators can alter the Learners' view, the selected default view preference remains in effect only until a Learner changes it. A Learner can override the default view preference for the My Learning and Catalog pages (that is configured by the Administrator) by switching between the Grid and List views.
 
 # Mobile immersive web changes
 
@@ -234,7 +240,9 @@ The following fields are added to the payload:
 1. *enrolledToCourseInstance*
 1. *"instructorNames": ["string"]*
 
-**Note:** The *enrolled *and *enrolledToCourseInstance *fields are added to determine if a learner is enrolled to the course and if the learner is enrolled to the course instance in a calendar model.
+>[!NOTE]
+>
+>The *enrolled *and *enrolledToCourseInstance *fields are added to determine if a learner is enrolled to the course and if the learner is enrolled to the course instance in a calendar model.
 
 *filter. allSession* is added in the query parameter to get all the sessions related to all instances and all sessions in a course.
 
@@ -291,7 +299,9 @@ The following fields are added to the payload:
 1. *enrolledToCourseInstance*
 1. *"instructorNames": ["string"]*
 
-**Note:** The *enrolled *and *enrolledToCourseInstance *fields are added to determine if a learner is enrolled in the course and if the learner is enrolled in the course instance in a calendar model.
+>[!NOTE]
+>
+>The *enrolled *and *enrolledToCourseInstance *fields are added to determine if a learner is enrolled in the course and if the learner is enrolled in the course instance in a calendar model.
 
 *filter.allSession* is added in the query parameter to get all the sessions related to all instances and all sessions in a course.
 
@@ -354,7 +364,9 @@ Thus, only one uuid will be used to construct the learningObjectResourceGrade's 
 
 In general, Learning Manager recommends to not interpret the ID of any model.
 
-**Note:** This change will come into effect as a part of our next release (any time after **30 April 2022**). In case you are using this format in any way, make the required changes. 
+>[!NOTE]
+>
+>This change will come into effect as a part of our next release (any time after **30 April 2022**). In case you are using this format in any way, make the required changes. 
 
 # Release Notes {#releasenotes}
 

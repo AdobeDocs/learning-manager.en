@@ -6,7 +6,7 @@ contentowner: manochan
 ---
 
 
-# Getting started for Managers {#getting-started-for-managers}
+# Getting started for Managers
 
 Getting started as a Manager in Learning Manager.
 

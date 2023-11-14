@@ -6,7 +6,7 @@ contentowner: jayakarr
 ---
 
 
-# Learning Manager Connectors {#learning-manager-connectors}
+# Learning Manager Connectors
 
 Enterprises have other applications and systems which have to be integrated with Learning Manager. Connectors are utilities that Help in performing data-based integrations such as importing data into Learning Manager from external  systems.  It also performs exporting of data to external systems from Learning Manager.
 
@@ -18,7 +18,7 @@ Read on to know how to configure and use each of these connectors in Learning Ma
 
 **Update:** December 2020 update of Learning Manager
 
-For **FTP**, **Box**, and **Custom FTP** connectors, while exporting Learner Transcript or xAPI, you can also export the data as a **zip **file, for:
+For **FTP**, **Box**, and **Custom FTP** connectors, while exporting Learner Transcript or xAPI, you can also export the data as a **zip** file, for:
 
 * Learner Transcripts
 * xAPI
@@ -70,7 +70,7 @@ To integrate Salesforce with Learning Manager, learn the process
 
 ### Pre-requisites {#prerequisites}
 
-Ensure that you have your Salesforce organization URL with you. For example, if your organization name is **myorg**, the Salesforce URL could be https://myorg.salesforce.com. It is the only input which is required to connect Salesforce account with Learning Manager.
+Ensure that you have your Salesforce organization URL with you. For example, if your organization name is **myorg**, the Salesforce URL could be `https://myorg.salesforce.com`. It is the only input which is required to connect Salesforce account with Learning Manager.
 
 Also make sure that you have the appropriate credentials to log in to the account.
 
@@ -114,7 +114,7 @@ Choose the Salesforce columns and map them to corresponding Learning Manager's g
 
    ![](assets/image048.png)
 
-1. On the **Import Users** page, there is a new option, Contacts. Click the radio button **Contacts **and you will see the following options.
+1. On the **Import Users** page, there is a new option, Contacts. Click the radio button **Contacts** and you will see the following options.
 
    ![](assets/image050.png)
 
@@ -175,7 +175,7 @@ Learning Manager offers a Salesforce App package. Once installed and configured 
 1. Click **Approve** and your app must be approved successfully.
 1. Click **Developer Resources > Access Tokens for Testing and Development**.
 1. In the Get OAuth Code section, the Client ID and scope must be set to - admin:read,admin:write. Click **Submit**.
-1. In Get Refresh Token, enter the Client ID and Client secret. Click **Submit **and note the refresh token.
+1. In Get Refresh Token, enter the Client ID and Client secret. Click **Submit** and note the refresh token.
 
 ### Create account in Salesforce app
 
@@ -192,7 +192,7 @@ If you want to install the package, you must first delete the existing package i
 >
 >The Adobe Learning Manager app is only supported in Salesforce Lightning view.
 
-1. Launch the  [Learning Manager package url](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).  
+1. Launch the [Learning Manager package url](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).  
 1. In the **Login** page, click **Use Custom Domain**.
 1. Enter the package URL and click **Continue**. The installation page must have the option Install for Admins Only selected. Do not change this option.
 1. Click **Install**. Once the package is installed, click **Done**. You are guided to the Installed Packages page, and you can see the Adobe Learning Manager installed package.
@@ -934,7 +934,6 @@ To integrate Box connector with Learning Manager, learn the process.
    ![](assets/screen-shot-2017-10-25at54426pm.png)
 
 1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager Box account for the organization. Click Connect after providing the email id.   
-
 1. Learning Manager sends you an email prompting the user to reset the password before accessing the Box for the first time. The user must reset the password and use it for accessing the Learning Manager Box account.
 
    Only one Learning Manager Box account can be created for a given Learning Manager account.
@@ -961,7 +960,6 @@ The import internal user option allows you to schedule the generation of user im
 Once a connection is successfully established, you can map the columns of CSV files that are placed in the Box folder to the corresponding attributes of Learning Manager. This step is mandatory.
 
 1. In the Map Attributes page, on  left   side  you can see Learning Manager's expected columns and on  right   side  you can see the CSV column names. Initially, on the right side, you can see an empty select box. Import any template CSV by clicking Choose File.  
-
 1. The above step populates the right side select drop-down list with all the CSV column names. Select the appropriate column name that maps to the Learning Manager's column name.
 
    *The Manager field has to be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.*
@@ -1094,7 +1092,7 @@ The learning time spent in LinkedIn Learning courses is communicated by the Link
 1. Click **settings** tab from the next window.
 1. Select **Playback Integration** from the left navigation panel and then click the **Integration** tab.
 1. Click **LMS Content Launch Settings** to expand its settings.
-1. Add the following three host names: **learningmanager.adobe.com**, **learningmanagerlrs.adobe.com**, **cpcontents.adobe.com**
+1. Add the following three host names:** learningmanager.adobe.com**, **learningmanagerlrs.adobe.com**, **cpcontents.adobe.com**
 1. Select **Enable AICC Integration**.
 
    ![](assets/linkedin-learning.png)
@@ -1193,10 +1191,9 @@ To configure the connector,  in  the **[!UICONTROL Connectors]** page, hover ove
 
 1. In the **Redirect URL** section, select the option **Use a custom URL** (Choose this if you know the target application's URL). Enter the following URL:
 
-   [https://learningmanager.adobe.com/ctr/app/azure/_callback](https://captivateprime.adobe.com/ctr/app/azure/_callback) (update the domain based on the environment)
+   `https://captivateprime.adobe.com/ctr/app/azure/_callback` (update the domain based on the environment)
 
-1. In the Home URL field, enter the following URL,  [https://learningmanager.adobe.com](https://captivateprime.adobe.com/).  
-
+1. In the Home URL field, enter the following URL, `https://captivateprime.adobe.com/`
 1. In the permissions section, select **Read All data set** and **Read and Write all data set**.
 
    Obtaining Tenant: Contact your Power BI admin to provide the tenant name. 
@@ -1407,7 +1404,7 @@ The Data Export allows users to export user skills and Learner Transcripts to th
 
 Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application. 
 
-To configure your own FTP, sign in as an Integration Admin, and click **Custom FTP > Connect**.
+To configure your own FTP, sign in as an Integration Admin, and click **Custom FTP** > **Connect**.
 
 There are two types of authentications:
 
@@ -1433,7 +1430,7 @@ Prerequisites to establish an ADFS connection:
 
 ## Steps to register your application {#stepstoregisteryourapplication}
 
-1. Click Azure Active Directory. Click **Add > App registration**.
+1. Click Azure Active Directory. Click **Add** > **App registration**.
 
    ![](assets/add-app-registration.png)
 
@@ -1637,7 +1634,7 @@ Here is a brief workflow of the process.
    * **Attendance & Scoring** -Displays the final quiz score and the attendance status.
    * **L2 Quiz Score**
 
-     * **By User** - Displays the final quiz score displayed as **Points **and **Percentage**.
+     * **By User** - Displays the final quiz score displayed as **Points** and **Percentage**.
      * **By Question** - Displays the quiz information as a report chart.
 
 ## Marketo Engage connector {#marketo}
@@ -1665,7 +1662,7 @@ When you create a Marketo Engage connection, you must provide the following deta
 
 ![](assets/marketo-creds.png)
 
-You can get the Client Id and secret from the Marketo Engage app. On the Marketo app, you can get the Client id and secret from the **LaunchPoint** section, and the Marketo Domain from the **WebServices **section.
+You can get the Client Id and secret from the Marketo Engage app. On the Marketo app, you can get the Client id and secret from the **LaunchPoint** section, and the Marketo Domain from the **WebServices** section.
 
 On the **Unified Reports** section of the Markeo Engage connection in the Learning Manager app, you can create campaigns based on the following:
 
@@ -1708,7 +1705,7 @@ Export data from Learning Manager events to a Marketo Engage instance. Select th
 BlueJeans Events connector connects Learning Manager and BlueJeans systems to automate data synchronization. Using this connector, you can:
 
 * **Set up virtual sessions using BlueJeans Events:** Configure a new event in BlueJeans and setup a VC session in Learning Manager by selecting the appropriate BlueJeans event. Date and time details are picked automatically from the BlueJeans events.
-* **Automated User Completion Syncing:** An** **Automated user completion syncing process allows the Learning Manager Administrator to fetch completion records for BlueJeans events automatically.
+* **Automated User Completion Syncing:** An Automated user completion syncing process allows the Learning Manager Administrator to fetch completion records for BlueJeans events automatically.
 
 This new connector requires a separate set of credentials to configure the connector. The credentials of the existing BlueJeans Meetings connector will not work for BlueJeans Events connector.
 
@@ -1848,7 +1845,7 @@ In addition to initiating a purchase, the connector also collects purchase detai
 
 1. Override options limit via custom module. This is an optional step but highly recommended for large datasets.
 1. Enable all async APIs on the page. Since there may be a lot of data, the export happens asynchronously. The APIs from Adobe Commerce are called the request payload is sent. The request pushes the messages to a queue and there is a consumer to this queue, which processes these messages and creates products on the commerce side. Adobe Commerce does not provide this async processing by default. That is why you must enable this option.  
-1. Add a link to return to ALM on the payment success page. This return URL must be configured in Adobe Commerce. The URL to be used for the link. -  [https://learningmanagerqe.adobe.com/app/learner#/postPayment](https://captivateprimeqe.adobe.com/app/learner#/postPayment)
+1. Add a link to return to ALM on the payment success page. This return URL must be configured in Adobe Commerce. The URL to be used for the link. -  `https://captivateprimeqe.adobe.com/app/learner#/postPayment`
 1. Change indexing from "On save" to "Scheduled".  For more information, see this  [KB](https://support.magento.com/hc/en-us/articles/360040227191).
 1. Apply the following patches. For more information, see  [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html).
 1. Configure Fastly.  Fastly is required for Adobe Commerce on cloud infrastructure, and is used in Staging and Production environments. For more information, see [Set up Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html).

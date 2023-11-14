@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# CSS template for Rich Text Editor {#css-template-for-rich-text-editor}
+# CSS template for Rich Text Editor
 
 ## **Why is CSS required?**
 

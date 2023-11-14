@@ -6,7 +6,7 @@ contentowner: kuppan
 ---
 
 
-# Troubleshooting issues with Adobe Captivate Prime desktop app {#troubleshooting-issues-with-adobe-captivate-prime-desktop-app}
+# Troubleshooting issues with Adobe Captivate Prime desktop app
 
 This document contains basic troubleshooting tips to solve some of the typical problems that encounter while installing and using Adobe Captivate Prime desktop application.
 
@@ -15,7 +15,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 +++I am unable to download Adobe Captivate Prime desktop application
 
 1. Check your Internet connection and firewall settings.
-1. In Social Learning, click **New Post** to create a post. If you do not have a board, create a board first.&nbsp;
+1. In Social Learning, click **New Post** to create a post. If you do not have a board, create a board first. 
 1. Click any one of the following post button options that appear to create content like Screen Shot, Record Audio, Record Video, Captivate Prime Gallery. You are redirected to Adobe Captivate Prime desktop application page from where you can download Adobe Captivate Prime desktop application for your desktop.
 1. You require a valid Adobe Captivate Prime account that has Social Learning enabled by your administrator. Your administrator might have also disabled downloads through the web browser. Contact your Adobe Captivate Prime administrator for more information on downloading the Adobe Captivate Prime desktop app.
 
@@ -24,7 +24,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 +++I am unable to install Adobe Captivate Prime desktop application
 
 1. Make sure that your system meets the minimum system requirements. See [System requirements for Adobe Captivate Prime App for desktop](../learners/adobe-captivate-prime-app-for-desktop/adobe-captivate-prime-desktop-app-system-requirements.md).
-1. Clean up any previous installation of Adobe Captivate Prime desktop application. For more information, see&nbsp; [How to clean previous installations](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#HowtocleanuppreviousinstallationsofAdobeCaptivatePrimedesktopapp) for more information.
+1. Clean up any previous installation of Adobe Captivate Prime desktop application. For more information, see  [How to clean previous installations](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#HowtocleanuppreviousinstallationsofAdobeCaptivatePrimedesktopapp) for more information.
 1. For errors during installation process, see [How to find application logs](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtofindapplicationlogs). Contact your Adobe Captivate Prime desktop application administrator for more help.
 
 +++
@@ -75,14 +75,14 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 ### Windows {#windows}
 
-1. To open the Run dialog, press the&nbsp;**Windows + R**&nbsp;keys.
+1. To open the Run dialog, press the **Windows + R** keys.
 1. Type “**%APPDATA%\\..\\Local\\Adobe\\Captivate Prime 1.0**” (without quotes) and press Enter.
 1. Delete the files named **preferences.json** and **preferences.xml**.
 
 ### Mac OS X {#macosx}
 
 1. Open Finder.
-1. To open the **Go To** folder dialog, Press&nbsp;**Cmd + Shift + G**&nbsp;keys.
+1. To open the **Go To** folder dialog, Press **Cmd + Shift + G** keys.
 1. Type “**~/Library/Application Support/Adobe/Captivate Prime 1.0**” (without quotes) and press Enter.
 1. Delete the files named **preferences.json** and **preferences.xml**.
 
@@ -90,14 +90,14 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 ### Windows {#application-logs}
 
-1. To open the Run dialog box, Press&nbsp;**Windows + R**&nbsp;keys.
+1. To open the Run dialog box, Press **Windows + R** keys.
 1. Type “**%TEMP%\\elthor**” (without quotes) and press Enter.
 1. Sort the folders by the **Date Modified** and open the most recent folder. This folder contains the latest application logs.
 
 ### Mac OS X {#MacOSX-1}
 
 1. Open **Finder**.
-1. To open the **Go To Folder** dialog box, press&nbsp;**Cmd + Shift + G**&nbsp;keys.
+1. To open the **Go To Folder** dialog box, press **Cmd + Shift + G** keys.
 1. Type “**/var/folders**” (without quotes) and press Enter.
 1. Search for “**elthor**” in the search bar and open the folder.
 1. Sort the folders by the **Date Modified **and open the most recent folder. This folder contains the latest application logs.
@@ -106,7 +106,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 ### Windows {#Windows-1}
 
-1. To open the Run dialog, press&nbsp;**Windows key + R**.****
+1. To open the Run dialog, press **Windows key + R**.****
 1. Type “**%APPDATA%\\..\\Local\\Adobe\\Captivate Prime 1.0**” (without quotes) and press Enter.****
 1. Take a backup of file **preferences.json**, and then open it in a text editor.****
 1. Search for the key **debugMode** and change the value property of this key to “**true**” (without quotes).
@@ -114,7 +114,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 ### Mac OS X {#MacOSX-2}
 
 1. Open Finder.
-1. To open the **Go To Folder** dialog, press&nbsp;**Cmd + Shift + G**.
+1. To open the **Go To Folder** dialog, press **Cmd + Shift + G**.
 1. Type “**~/Library/Application Support/Adobe/Captivate Prime 1.0**” (without quotes) and press Enter.
 1. Take a backup of file **preferences.json**, and then open it in a text editor.
 1. Search for the key **debugMode** and change the value property of this key to “**true**” (without quotes)
@@ -129,14 +129,14 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 ### Windows {#clean-previous-installation}
 
-1. To open the Run dialog, press&nbsp;**Windows key + R**.
+1. To open the Run dialog, press **Windows key + R**.
 1. Type “**%APPDATA%\\..\\Local\\Adobe\\Captivate Prime 1.0**” (without quotes) and press Enter.
 1. Delete the folder named **updates**.
 
 ### Mac OS X {#MacOSX-3}
 
 1. Open Finder.
-1. To open the **Go To Folder** dialog, press&nbsp;**Cmd + Shift + G**.
+1. To open the **Go To Folder** dialog, press **Cmd + Shift + G**.
 1. Type “**~/Library/Application Support/Adobe/Captivate Prime 1.0**” (without quotes) and press Enter.
 1. Delete the folder named **updates**.
 
@@ -144,14 +144,14 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 ### Windows {##clean-previous-installation-1}
 
-1. To open the Run dialog, Press&nbsp;**Windows key + R**.
+1. To open the Run dialog, Press **Windows key + R**.
 1. Type “**%TEMP%**” (without quotes) and press Enter.
 1. Delete the folder named “**elthor**”.
 
 ### Mac OS X {#MacOSX-4}
 
 1. Open Finder.****
-1. To open the **Go To Folder** dialog, press&nbsp;**Cmd + Shift + G**&nbsp;keys.
+1. To open the **Go To Folder** dialog, press **Cmd + Shift + G** keys.
 1. Type “**/var/folders**” (without quotes) and press Enter.
 1. Search for “**elthor**” in the search bar.
 1. Delete the folder named “**elthor**”.
@@ -160,14 +160,14 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 ### Windows {#Windows-2}
 
-1. To open the Run dialog, press&nbsp;**Windows key + R**.
+1. To open the Run dialog, press **Windows key + R**.
 1. Type “**~/Documents/My Adobe Captivate Prime Projects**” (without quotes) and press Enter.
 1. You or your Adobe Captivate Prime administrator might have changed the default projects folder location. Contact your administrator for more help to locate and clean up projects.
 
 ### Mac OS X {#MacOSX-5}
 
 1. Open Finder.
-1. To open the **Go To Folder** dialog, press&nbsp;**Cmd + Shift + G**&nbsp;keys.
+1. To open the **Go To Folder** dialog, press **Cmd + Shift + G** keys.
 1. Type “**~/Documents/My Adobe Captivate Prime Projects**” (without quotes) and press Enter.
 
    You or your Adobe Captivate Prime administrator might have changed the default projects folder location. Contact your administrator for more Help to locate and clean up projects.
@@ -176,9 +176,9 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 ### Windows {#Windows-3}
 
-1. To open the **Run dialog, **press**&nbsp;Windows keys + R**.
-1. Type regedit and search “**HKEY_LOCAL_MACHINE \\SOFTWARE\\Classes\\Installer\\**” (without quotes) or&nbsp;“**HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\**”&nbsp; (without quotes) and press Enter.
-1. Find the folder named Adobe Captivate Prime and find the previous installation. Delete the registry entry.&nbsp; You can find the key by pressing the F3 key.
+1. To open the **Run dialog, **press** Windows keys + R**.
+1. Type regedit and search “**HKEY_LOCAL_MACHINE \\SOFTWARE\\Classes\\Installer\\**” (without quotes) or “**HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\**”  (without quotes) and press Enter.
+1. Find the folder named Adobe Captivate Prime and find the previous installation. Delete the registry entry.  You can find the key by pressing the F3 key.
 
 ### Mac OS X {#MacOSX-6}
 

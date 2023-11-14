@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Managers {#managers}
+# Managers
 
 <table> 
  <tbody>
