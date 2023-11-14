@@ -17,10 +17,10 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Accessibility in Learning Manager](accessibility-captivate-prime.md)
    * [Support for custom domain](custom-domain.md)
 * Get Started {#get-started}
-   * [Getting started as Administrator](administrators/feature-summary/getting-started.md)
-   * [Getting started as an Author](authors/feature-summary/getting-started.md)
-   * [Getting started as a Learner](learners/feature-summary/getting-started.md)
-   * [Getting started for Managers](managers/feature-summary/getting-started.md)
+   * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
+   * [Getting started as an Author](authors/feature-summary/getting-started-author.md)
+   * [Getting started as a Learner](learners/feature-summary/getting-started-learner.md)
+   * [Getting started for Managers](managers/feature-summary/getting-started-manager.md)
    * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
 * Administrator {#admin}
    * [User log in](administrators/feature-summary/user-login.md)
@@ -39,7 +39,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Multiple SSO Logins](administrators/feature-summary/multiple-sso-logins.md)
    * [Peer accounts](administrators/feature-summary/peer-account.md)
    * [Create and modify skills and levels](administrators/feature-summary/skills-levels.md)
-   * [AI-based recommendation of courses](AI-based-recommendations.md)
+   * [AI-based recommendation of courses](ai-based-recommendations.md)
    * [Gamification](administrators/feature-summary/gamification.md)
    * [Customize learner homepage](administrators/feature-summary/customize-learner-homepage.md)
    * [Badges](administrators/feature-summary/badges.md)
