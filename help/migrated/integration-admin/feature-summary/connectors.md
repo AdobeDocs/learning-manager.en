@@ -1969,7 +1969,7 @@ A Learner can:
 
 * See the invoice as an attachment in the email after purchasing the course.
 
-#### **On-demand sync**
+#### On-demand sync
 
 The sync between Learning Manager and Adobe Commerce happens twice daily. After the Administrator enables an account for e-commerce, the **Enable training metadata export using this connection** option, when enabled, stores the images of the Course, Learning Path, and Certificates in a public CDN.
 

@@ -157,11 +157,11 @@ The content library also maintains versioning of your uploaded contents. If you 
 
    Caption support is available for video content uploaded in Content library in Captivate Prime. 
 
-   As an author, when you’ll upload a video or audio content, you can also upload the .vtt file that contains the captions.
+   As an author, when you'll upload a video or audio content, you can also upload the .vtt file that contains the captions.
 
-   The subtitles then appear in the Fluidic Player. The captions are also compliant to  [WCAG2.0 standards](https://www.w3.org/TR/WCAG20/). 
+   The subtitles then appear in the Fluidic Player. The captions are also compliant to [WCAG2.0 standards](https://www.w3.org/TR/WCAG20/). 
 
-   When you add a video content to the library, you can also add the vtt file, which **must **be a valid file.
+   When you add a video content to the library, you can also add the vtt file, which **must** be a valid file.
 
    ![](assets/webvtt.png)
 
@@ -169,7 +169,9 @@ The content library also maintains versioning of your uploaded contents. If you 
 
    In case you are creating the content in different languages, you can upload a different webVTT file for each language. Learners will be able to see the captions corresponding to the language selected during playback.
 
-   **NOTE:** One VTT file supports one language. To support multiple languages, upload multiple video files for each content language and then upload its respective VTT file for each video file.
+   >[!NOTE]
+   >
+   >   One VTT file supports one language. To support multiple languages, upload multiple video files for each content language and then upload its respective VTT file for each video file.
 
    As an author, every time you change the content, video or audio, Captivate Prime prompts you for a new vtt file.
 
@@ -179,7 +181,7 @@ The content library also maintains versioning of your uploaded contents. If you 
 
    The same view is present in the **learner app** as well as in **Preview as learner**.
 
-   When you **add, update, or delete **the vtt file, you receive a notification.
+   When you **add, update, or delete** the vtt file, you receive a notification.
    WebVTT support is not available for:
 
    1. Video announcements.
@@ -196,7 +198,7 @@ The content library also maintains versioning of your uploaded contents. If you 
 
 If a seller account shares a catalog that contains the courses, and the courses contain the modules, audio or video with the subtitles, the courses must behave the same in the purchaser account.
 
-Module propagation should work correctly from Seller to Purchaser account. This may include – edit/delete/addition of the vtt file in the module.
+Module propagation should work correctly from Seller to Purchaser account. This may include - edit/delete/addition of the vtt file in the module.
 
 Once you have uploaded the content, you can see a notification by clicking the Bell icon on top-right hand corner of the page. Each time you modify a content and re-upload it, you get a notification. If you make the changes, only you get the notification, not other authors.
 
@@ -206,13 +208,13 @@ After an Administrator creates the content folders, you, an author, can upload a
 
 **Example usage**
 
-For example, agencies want to maintain full control of the content and someone overlooking the content must have access to all content. At the same time, content creators in agencies must have access to their own content only, and in some cases, access to someone else’s content.
+For example, agencies want to maintain full control of the content and someone overlooking the content must have access to all content. At the same time, content creators in agencies must have access to their own content only, and in some cases, access to someone else's content.
 
 Content library with existing content (i.e. content uploaded before configuring Content folders) gets defined as **Public folder**. This folder cannot be retired or deleted. Content that is part of Public folder is accessible to all types of authors. Once Content Folders are configured, standard authors and custom authors should select the folder where the content should be placed, while uploading new content.
 
 >[!NOTE]
 >
->Public folder and private folders are mutually exclusive. This means that content **cannot **be associated with Public folder and private folder at the same time. It can either be associated to Public folder, **or **it can be associated with one or more private folders at any point of time.
+>Public folder and private folders are mutually exclusive. This means that content **cannot** be associated with Public folder and private folder at the same time. It can either be associated to Public folder, **or** it can be associated with one or more private folders at any point of time.
 
 When you add a content, you can choose the folder where the content will reside. 
 
@@ -226,27 +228,27 @@ In the Content Library, there are two options for managing the content folders:
 
 **All Folders**
 
-It’s a list that displays all folders that were created in the account.
+It's a list that displays all folders that were created in the account.
 
 ![](assets/list-of-all-folders.png)
 
 **All Authors**
 
-It’s a list that displays the authors who’ve created content and uploaded it in the library.
+It's a list that displays the authors who've created content and uploaded it in the library.
 
 ![](assets/list-of-all-authors.png)
 
-This is available **only **when an Administrator creates a new folder.
+This is available **only** when an Administrator creates a new folder.
 
 ## Move content to folder {#movecontenttofolder}
 
 To move a public folder content to any private folder, 
 
-1. Select **Public **folder from the **All Folders** drop-down list.
+1. Select **Public** folder from the **All Folders** drop-down list.
 
    ![](assets/list-of-public-folders.png)
 
-1. Choose the content that you’d like to move it to a folder. Then click **Actions > Organize Content > Move Content to Folder**. 
+1. Choose the content that you'd like to move it to a folder. Then click **Actions > Organize Content > Move Content to Folder**. 
 
    ![](assets/move-content-to-folder.png)
 
@@ -254,7 +256,7 @@ To move a public folder content to any private folder,
 
 ## Copy content to folder {#copycontenttofolder}
 
-Copying a folder means that you’d be adding a tag to the folder. The copy operation will not create copies of content, but only add an association with specified folders.
+Copying a folder means that you'd be adding a tag to the folder. The copy operation will not create copies of content, but only add an association with specified folders.
 
 ![](assets/copy-content-to-folder.png)
 
@@ -279,7 +281,7 @@ Content can be unlinked from a specified folder **ONLY **if it is also associate
 1. Repeat the content upload process for the new languages.
 1. If you want to remove a language, click the Add New Language tab, and clear your selection.
 
-   After you’ve made the changes, click Save. In the library, the new content now is available for consumption.
+   After you've made the changes, click Save. In the library, the new content now is available for consumption.
 
 ## Set completion criteria {#setcompletioncriteria}
 
@@ -310,7 +312,7 @@ Content can be unlinked from a specified folder **ONLY **if it is also associate
  </tbody>
 </table>
 
-After you’ve added the content, you can modify the completion criteria for the content. 
+After you've added the content, you can modify the completion criteria for the content. 
 
 In Prime, badges and skill are awarded based on Success  and Completion. If the learner has completed a course but is not successful, then the learner does not receive the badge and skill corresponding to the LO.
 
@@ -328,17 +330,14 @@ In the Completion Criteria section, you can set the options mentioned below:
 * **Quiz attempted:** The status is reported as Complete if learners attempt the quiz irrespective of whether they pass or fail the quiz.
 * **Quiz passed or limit reached:** The status is reported as Complete if learners pass the quiz or have taken all the attempts. For example, if the number of attempts set in the course is two, and:
 
-            o   If learners take the first attempt and pass, then the status is reported as Complete and Passed.
-
-            o   If learners take the first attempt and fail, then the status is reported as Incomplete and Failed as the attempt limit is still not reached.
-
-            o   If learners retake the quiz and fail, the status is reported as Complete and Failed.
-
-            o   If learners attempt the quiz again and pass, the status is reported as Complete and Passed.
+  * If learners take the first attempt and pass, then the status is reported as Complete and Passed.
+  * If learners take the first attempt and fail, then the status is reported as Incomplete and Failed as the attempt limit is still not reached.
+  * If learners retake the quiz and fail, the status is reported as Complete and Failed.
+  * If learners attempt the quiz again and pass, the status is reported as Complete and Passed.
 
 ## Set success criteria {#setsuccesscriteria}
 
-Similarly, you can define the success criteria for the course. A success criterion indicates a learner’s performance as Passed or Failed. If you had created a course in Captivate, you can set the success criteria for the course in the Preferences dialog, as shown below:
+Similarly, you can define the success criteria for the course. A success criterion indicates a learner's performance as Passed or Failed. If you had created a course in Captivate, you can set the success criteria for the course in the Preferences dialog, as shown below:
 
 For example, you have uploaded a module that has a quiz in it. Now, you have set the Completion Criteria for that module to On Launching content and Success Criteria to Quiz Passed.
 
@@ -384,7 +383,7 @@ Once you retire a content, you can republish the content and make the content ap
 To republish the retired content,
 
 1. Navigate to the **Retired** tab and select the content that you want to republish.
-1. Select **Action > Republish**.
+1. Select **Action** > **Republish**.
 
 The content now appears in the Published list.
 
@@ -399,5 +398,10 @@ Note that existing courses that use the content, which are deleted from the cont
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-1. **How to upload a SCORM content in Adobe Captivate Prime?** Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Captivate Prime, upload the zip file in the catalog, and set the completion and success criteria. 2. **How do I upload a new version of the same content to Captivate Prime?** In Captivate Prime, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course. 3. **How to edit the details of a course in a different language?** After adding a language/languages, as described in an earlier section, click each language tab, and then add/edit the course information. ![](assets/edit-course-language.png)
+1 - **How to upload a SCORM content in Adobe Captivate Prime?** Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Captivate Prime, upload the zip file in the catalog, and set the completion and success criteria. 
 
+2 - **How do I upload a new version of the same content to Captivate Prime?** In Captivate Prime, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course. 
+
+3 - **How to edit the details of a course in a different language?** After adding a language/languages, as described in an earlier section, click each language tab, and then add/edit the course information. 
+
+![](assets/edit-course-language.png)

@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Unable to view calendar
+description: When an Administrator tries to edit the expiry date of an External Enrollment Profile and clicks the calendar to edit the expiry date, the calendar does not appear.
 contentowner: saghosh
 ---
 
@@ -20,7 +21,7 @@ When an Administrator tries to edit the expiry date of an External Enrollment Pr
 The issue occurs due to the following:
 
 * The zoom level of the browser is more than 100%.
-*  The scale and layout in the display settings is more than 100%.
+* The scale and layout in the display settings is more than 100%.
 
 ## Resolution
 
@@ -29,18 +30,15 @@ The issue occurs due to the following:
 1. Launch the browser.
 1. Log in to Adobe Captivate Prime.
 1. On the address bar, click the zoom icon.  
-
 1. Click **Reset**.
 1. Change the expiry date of the enrollment profile.
 
 ### Display Settings
 
-1. Click **Start > Settings > System**.  
-
+1. Click **Start** > **Settings** > **System**.  
 1. Click **Display**.
 1. Under the **Scale and layout** section, use the drop-down list. Change the settings to 100%.
 
    ![](assets/scale-layout.png)
 
 1. Restart the computer.
-

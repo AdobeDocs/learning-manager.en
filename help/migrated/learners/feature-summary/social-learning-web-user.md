@@ -24,97 +24,97 @@ Only if the administrator enables Social Learning, the feature is visible to a l
 
 ![](assets/social-dashboarddashboard.png) ![](assets/social-learning-dashboard.png)
 
-<table width="100%" cellspacing="0" cellpadding="1" border="1">
+<table>
  <tbody>
   <tr>
-   <td width="48">
-    <p style="text-align: center;"><b>Sl. No.</b></p></td>
-   <td width="174">
-    <p style="text-align: center;"><b>Terminology or Concept</b></p></td>
-   <td width="402">
-    <p style="text-align: center;"><b>Brief Explanation</b></p></td>
+   <td>
+    <p><b>Sl. No.</b></p></td>
+   <td>
+    <p><b>Terminology or Concept</b></p></td>
+   <td>
+    <p><b>Brief Explanation</b></p></td>
   </tr>
   <tr>
-   <td width="48">
-    <p style="text-align: center;">1</p></td>
-   <td width="174">
-    <p style="text-align: center;">My Boards</p></td>
-   <td width="402">
-    <p style="text-align: justify;">A board is <g class="gr_ gr_58 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" id="58" data-gr-id="58">
+   <td>
+    <p>1</p></td>
+   <td>
+    <p>My Boards</p></td>
+   <td>
+    <p>A board is <code>
       collection
-     </g> of posts created by a user. My boards display all the posts that the user has participated, created, and followed.</p></td>
+     </code> of posts created by a user. My boards display all the posts that the user has participated, created, and followed.</p></td>
   </tr>
   <tr>
-   <td width="48">
-    <p style="text-align: center;">2</p></td>
-   <td width="174">
-    <p style="text-align: center;">All Boards</p></td>
-   <td width="402">
-    <p style="text-align: justify;">In the All boards page, users can view the boards created by all learners that share activity scope.</p></td>
+   <td>
+    <p>2</p></td>
+   <td>
+    <p>All Boards</p></td>
+   <td>
+    <p>In the All boards page, users can view the boards created by all learners that share activity scope.</p></td>
   </tr>
   <tr>
-   <td width="48">
-    <p style="text-align: center;">3</p></td>
-   <td width="174">
-    <p style="text-align: center;">Comment</p></td>
-   <td width="402">
-    <p style="text-align: justify;">Users can comment and view posts that are created in boards. </p></td>
+   <td>
+    <p>3</p></td>
+   <td>
+    <p>Comment</p></td>
+   <td>
+    <p>Users can comment and view posts that are created in boards. </p></td>
   </tr>
   <tr>
-   <td width="48">
-    <p style="text-align: center;">4</p></td>
-   <td width="174">
-    <p style="text-align: center;">Reply</p></td>
-   <td width="402">
-    <p style="text-align: justify;">Users can reply to comments that are made on posts inside a board.</p></td>
+   <td>
+    <p>4</p></td>
+   <td>
+    <p>Reply</p></td>
+   <td>
+    <p>Users can reply to comments that are made on posts inside a board.</p></td>
   </tr>
   <tr>
-   <td width="48">
-    <p style="text-align: center;">5</p></td>
-   <td width="174">
-    <p style="text-align: center;">Upvote/Downvote</p></td>
-   <td width="402">
-    <p style="text-align: justify;">Click the upvote and downvote button to like or dislike a post.</p></td>
+   <td>
+    <p>5</p></td>
+   <td>
+    <p>Upvote/Downvote</p></td>
+   <td>
+    <p>Click the upvote and downvote button to like or dislike a post.</p></td>
   </tr>
   <tr>
-   <td width="48">
-    <p style="text-align: center;">6</p></td>
-   <td width="174">
-    <p style="text-align: center;">Social Leaderboard</p></td>
-   <td width="402">
-    <p style="text-align: justify;">In social leaderboard, users can view the names of learners with the number of points they have gained by participating in Social Learning.</p></td>
+   <td>
+    <p>6</p></td>
+   <td>
+    <p>Social Leaderboard</p></td>
+   <td>
+    <p>In social leaderboard, users can view the names of learners with the number of points they have gained by participating in Social Learning.</p></td>
   </tr>
   <tr>
-   <td width="48">
-    <p style="text-align: center;">7</p></td>
-   <td width="174">
-    <p style="text-align: center;">People I follow</p></td>
-   <td width="402">
-    <p style="text-align: justify;">Here users can view the names of other learners they follow and the number of posts they have created.</p></td>
+   <td>
+    <p>7</p></td>
+   <td>
+    <p>People I follow</p></td>
+   <td>
+    <p>Here users can view the names of other learners they follow and the number of posts they have created.</p></td>
   </tr>
   <tr>
-   <td width="48">
-    <p style="text-align: center;">8</p></td>
-   <td width="174">
-    <p style="text-align: center;">Popular Skills</p></td>
-   <td width="402">
-    <p style="text-align: justify;">In the All boards sections, the skills that have been frequently used by learners can be viewed along with the number of posts they have created using that skill.</p></td>
+   <td>
+    <p>8</p></td>
+   <td>
+    <p>Popular Skills</p></td>
+   <td>
+    <p>In the All boards sections, the skills that have been frequently used by learners can be viewed along with the number of posts they have created using that skill.</p></td>
   </tr>
   <tr>
-   <td width="48">
-    <p style="text-align: center;">9</p></td>
-   <td width="174">
-    <p style="text-align: center;">Share to social</p></td>
-   <td width="402">
-    <p style="text-align: justify;">Share to Social is a bookmarklet that allows users to share their online learnings like web pages and blogs directly to Captivate Prime Social Learning.</p></td>
+   <td>
+    <p>9</p></td>
+   <td>
+    <p>Share to social</p></td>
+   <td>
+    <p>Share to Social is a bookmarklet that allows users to share their online learnings like web pages and blogs directly to Captivate Prime Social Learning.</p></td>
   </tr>
   <tr>
-   <td width="48">
-    <p style="text-align: center;">10</p></td>
-   <td width="174">
-    <p style="text-align: center;">New Post</p></td>
-   <td width="402">
-    <p style="text-align: justify;">New post button allows users to create and post content inside boards.</p></td>
+   <td>
+    <p>10</p></td>
+   <td>
+    <p>New Post</p></td>
+   <td>
+    <p>New post button allows users to create and post content inside boards.</p></td>
   </tr>
  </tbody>
 </table>
@@ -137,21 +137,21 @@ Content is created as a post inside a board. To create a post, follow the below 
 
    ![](assets/create-a-new-board-04.png)
 
-   If you are an external or internal user, and if the Administrator has granted you access to create a board, you can ceate a board. If you do not have the permissions to create a board, the link **Create a New Board **does not appear. 
+   If you are an external or internal user, and if the Administrator has granted you access to create a board, you can ceate a board. If you do not have the permissions to create a board, the link **Create a New Board** does not appear. 
 
 1. From the pop-up dialog box, fill in the details, select the following type of board:
 
-   * **Public** – Participation and visibility of posts is available to all users.
-   * **Private**- Post is only visible to the creator of the board, moderators, and user(s) added to the board.
-   * **Restricted**- Only board owner, administrator, and board moderators can create post. Other users can participate by commenting/replying, upvoting/downvoting and so forth. 
+   * **Public** - Participation and visibility of posts is available to all users.
+   * **Private** - Post is only visible to the creator of the board, moderators, and user(s) added to the board.
+   * **Restricted** - Only board owner, administrator, and board moderators can create post. Other users can participate by commenting/replying, upvoting/downvoting and so forth. 
 
    ![](assets/new-board-05.png)
 
-1. **Note:**
-
-   *In Social Learner app, only an **Admin **has the capability to create private board with user groups (internal/external).*
-
-   *Any other user except Admin, Author, Learner, manager, instructor, etc. **cannot **create private boards with user groups. They cannot see the section of **user groups** in while creation of private board.*
+   >[!NOTE]
+   >
+   >In Social Learner app, only an **Admin** has the capability to create private board with user groups (internal/external).
+   >
+   >Any other user except Admin, Author, Learner, manager, instructor, etc. **cannot** create private boards with user groups. They cannot see the section of **user groups** in while creation of private board.
 
    Admin only- When you choose **Private**, you see two options- **Users** and **User Groups**. Choose the option **User Groups**, and then add the user groups with who you want to share the private board.
 
@@ -207,7 +207,7 @@ A Learner can see all boards in a list view. Sign in to your learner app and in 
 
 ![](assets/image002.png)
 
-When you view the posts in a board format, you can then sort the posts according to **Post **and **Contributor**. 
+When you view the posts in a board format, you can then sort the posts according to **Post** and **Contributor**. 
 
 ![](assets/image004.png)
 
@@ -343,7 +343,7 @@ Only some users have permissions to perform particular tasks. The following type
    <td>
     <p>Delete</p></td>
    <td>
-    <p>Delete option removes  the post after user’s confirmation.</p></td>
+    <p>Delete option removes  the post after user's confirmation.</p></td>
   </tr>
   <tr>
    <td>
@@ -375,7 +375,7 @@ To add a post to a story, follow the below steps:
 
    ![](assets/new-story-1-2x.png)
 
-   To view stories created by users, click user's name from the profile menu options.****
+   To view stories created by users, click user's name from the profile menu options.
 
 ## User privileges for performing the actions on a post {#userprivilegesforperformingtheactionsonapost}
 
@@ -462,7 +462,7 @@ Boards are a collection of posts. Every board in Social Learning is created base
 
 In the All Boards page, posts or boards created by all users in a activity scope are visible. But in the My boards page, only boards created, followed and participated by a user is visible.
 
-In the My Boards Page, the boards visible can be filtered according to the following:** All**, **Created by me**,** Commented by me**, **Followed by me**. 
+In the My Boards Page, the boards visible can be filtered according to the following: **All**, **Created by me**, **Commented by me**, **Followed by me**. 
 
 ![](assets/board-filter-07.png)
 
@@ -533,9 +533,9 @@ The number of activity points given to users are based on Social activities perf
 
 ## How to become a Subject Matter Expert (SME) {#howtobecomeasubjectmatterexpertsme}
 
-A subject matter expert (SME) is a person with the expertise in a particular skill. In Captivate Prime Social Learning, users are designated as SME’s based on the maximum number of activity points awarded to them for a skill.
+A subject matter expert (SME) is a person with the expertise in a particular skill. In Captivate Prime Social Learning, users are designated as SME's based on the maximum number of activity points awarded to them for a skill.
 
-Top SMEs have the privilege to curate learner’s content before it gets posted in a board in Social Learning.
+Top SMEs have the privilege to curate learner's content before it gets posted in a board in Social Learning.
 
 The administrator of the organization also has the privilege to add more points to a learner to make them a SME for a skill.
 
@@ -560,7 +560,7 @@ Every page in Social Learning has the search field which allows users to look fo
 
 ![](assets/search-16.png)
 
-The following pages in informal learning have a search field:** My boards**, **All boards**, **Boards page**, user's** Profile page**, and **other learner’s profile page**.
+The following pages in informal learning have a search field: **My boards**, **All boards**, **Boards page**, user's **Profile page**, and **other learner's profile page**.
 
 When a user search's for content in the Informal Learning , the total number of search results for the content in the informal and formal learning of Captivate Prime is displayed.
 
@@ -580,11 +580,10 @@ In the profile page, learners can view the total number of points gained, number
 
 Learners can also view the skills for which they are designated as a Subject Matter Expert.
 
-The learner’s page  also displays the learner’s **curated stories**, **recent activities** performed, and the **people followed **by them.
+The learner's page also displays the learner's **curated stories**, **recent activities** performed, and the **people followed** by them.
 
 ## Notifications {#notifications}
 
 On approval or rejection of a post by SME, users receive a notification which can be viewed on clicking the notifications icon at the upper right corner of the window. Users are able to view notifications Social Learning and Formal Learning activities. 
 
 ![](assets/notification-18.png)
-

@@ -73,7 +73,7 @@ Click **Adobe Connect** on the left pane to configure Adobe Connect account to h
 
 Enable or disable the following settings:
 
-<table width="100%" cellspacing="0" cellpadding="1" border="1">
+<table>
  <tbody>
   <tr>
    <th>
@@ -209,7 +209,7 @@ Enable or disable the following settings:
  <tbody>
   <tr>
    <td height="20" width="147">Name</td>
-   <td width="1562">Description</td>
+   <td>Description</td>
   </tr>
   <tr>
    <td height="20">Show Course Effectiveness</td>
@@ -378,7 +378,7 @@ Enable or disable the following settings:
   <tr>
    <td height="135">
     <p>Show rating</p></td>
-   <td width="1562">
+   <td>
     <ul>
      <li>If the option <b>Course Effectiveness</b> is enabled, learners will be able to see only the value of the course effectiveness.</li>
      <li>If the option <b>Star rating</b> is enabled, learners will be able to view only the average star rating and the number of learners who have rated the course.<br></li>
@@ -482,7 +482,7 @@ To add a content folder, in the Administrator app, click **Settings > Content Fo
 
 ![](assets/manage-content-folders.png)
 
-### **Folder**
+### Folder
 
 A folder is a repository of content, which is a subset of the entire content library available in an account with the following properties:
 

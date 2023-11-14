@@ -75,4 +75,4 @@ This process of updating the page is called Manual rebake. In this case, the bad
 
 **1. How to download Badge as learner?**
 
-On the badges page, You can download a Badge as an image or in PDF format. Choose a skill or a course, and click either **PDF **or **Badge**.
+On the badges page, You can download a Badge as an image or in PDF format. Choose a skill or a course, and click either **PDF** or **Badge**.

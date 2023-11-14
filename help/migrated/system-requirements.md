@@ -280,7 +280,7 @@ Ensure that the following third-party domains are whitelisted if you are on any 
 
 ### Specific extended cases {#specificextendedcases}
 
-<table width="100%" cellspacing="0" cellpadding="1" border="1">
+<table>
  <tbody>
   <tr>
    <th>Feature</th>

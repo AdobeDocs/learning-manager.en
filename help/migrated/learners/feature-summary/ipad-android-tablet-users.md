@@ -22,49 +22,33 @@ After you download and install this app, log in to the app using your learner cr
 
 For all accounts that have the option Immersive Layout enabled, there is a brand-new home page to support the Immersive Layout configuration. The home page is organized as a list of cards for the following:
 
-| ![](assets/image002.png)
-
-| ![](assets/image005.png)
-
-|
+| ![](assets/image002.png) | ![](assets/image005.png)|
 |---|---|
+| ![](assets/image006.png) | ![](assets/image008.png) |
 
-| ![](assets/image006.png)
-
-| ![](assets/image008.png)
-
-| ![](assets/image010.png)
-
-|
-|---|---|---|
+![](assets/image010.png)
 
 ## Feedback rating {#feedbackrating}
 
 Captivate Prime prompts the learner to provide feedback about their experience with the Mobile App. This feedback appears once in a month and gives enough time interval for users to experience the app and then provide the feedback.
 
-| ![](assets/image013.png)
-
-| ![](assets/image014.png)
-
-|
+| ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
 
 For existing users, they should see the feedback popup once they close the Player for the first time after updating the app to latest version.
 
-Note that the feedback collection is anonymous and appears only for users who’ve enabled the option **Share Usage Data** via a configuration in App settings.
+Note that the feedback collection is anonymous and appears only for users who've enabled the option **Share Usage Data** via a configuration in App settings.
 
 ## Download badge {#downloadbadge}
 
 Learners can download their badges in PDF and Image format. In the User profile section, scroll down, and click any link to download a badge. The downloaded badge is saved in the default device folder. The app allows you to open the folder or the file immediately after the download completes.  
 
-| ![](assets/image016.png)
-
-|
+| ![](assets/image016.png)|
 |---|
 
 ## Mobile web responsive layout {#responsive}
 
-A completely responsive mobile web experience that ensures that learners use their devices to consume training even if they haven’t installed the mobile app.
+A completely responsive mobile web experience that ensures that learners use their devices to consume training even if they haven't installed the mobile app.
 
 When you first sign into the learner app via the browser on your device, the learner app shows up in the form of a mobile-friendly, responsive layout.
 
@@ -74,17 +58,17 @@ The mobile web responsive UI support is only available when an account **is conf
  <tbody>
   <tr>
    <td>
-    <p style="text-align: center;"><strong>Home page</strong></p><img src="assets/home-page1.png">
-    <p style="text-align: center;"><strong>View options</strong></p><img src="assets/view-options.jpg">
-    <p style="text-align: center;"><strong>Start course</strong></p><img src="assets/start-course.jpg"></td>
+    <p><strong>Home page</strong></p><img src="assets/home-page1.png">
+    <p><strong>View options</strong></p><img src="assets/view-options.jpg">
+    <p><strong>Start course</strong></p><img src="assets/start-course.jpg"></td>
    <td>
-    <p style="text-align: center;"><strong>My Learning List</strong></p><img src="assets/learning-list.jpg">
-    <p style="text-align: center;"><strong>View catalog</strong></p><img src="assets/catalog-new.jpg">
-    <p style="text-align: center;"><strong>Apply filters</strong></p><img src="assets/apply-filters.jpg"></td>
+    <p><strong>My Learning List</strong></p><img src="assets/learning-list.jpg">
+    <p><strong>View catalog</strong></p><img src="assets/catalog-new.jpg">
+    <p><strong>Apply filters</strong></p><img src="assets/apply-filters.jpg"></td>
    <td>
-    <p style="text-align: center;"><strong>Recommendations based on interest</strong></p><img src="assets/rec-area-interest.jpg">
-    <p style="text-align: center;"><strong>View notifications</strong></p><img src="assets/notifications.jpg">
-    <p style="text-align: center;"><strong>Share url</strong></p><img src="assets/share-url.jpg"></td>
+    <p><strong>Recommendations based on interest</strong></p><img src="assets/rec-area-interest.jpg">
+    <p><strong>View notifications</strong></p><img src="assets/notifications.jpg">
+    <p><strong>Share url</strong></p><img src="assets/share-url.jpg"></td>
   </tr>
  </tbody>
 </table>
@@ -121,22 +105,16 @@ There are some features, which are not supported Mobile Immersive App. These are
 
 ## Enable learners to download Job Aid {#download-job-aid}
 
-In the mobile immersive mode, a learner can download a Job Aid. Tap **Settings **and then tap **Catalogs**. Download a Job Aid from the list that appears.
+In the mobile immersive mode, a learner can download a Job Aid. Tap **Settings** and then tap **Catalogs**. Download a Job Aid from the list that appears.
 
-| ![](assets/image018.jpg)
-
-|
+| ![](assets/image018.jpg)|
 |---|
 
 ## Enable learners to download Learner Transcript {#download-learner-transcript}
 
 In the mobile immersive mode, a learner can download the Learner Transcripts.
 
-| ![](assets/image021.jpg)
-
-| ![](assets/image022.jpg)
-
-|
+| ![](assets/image021.jpg) | ![](assets/image022.jpg)|
 |---|---|
 
 ## View badges and skills {#viewbadgesandskills}
@@ -171,7 +149,7 @@ At the top right of your phone screen, you can see a search icon. Tap that icon 
 
 **Managing profile, settings, and notification**
 
-Tap ![](/content/dam/help/images/en/hamburger.jpg)  menu at the top left corner of the screen to view your profile, notifications as well as account settings. 
+Tap ![](/content/dam/help/images/en/hamburger.jpg) menu at the top left corner of the screen to view your profile, notifications as well as account settings. 
 
 This menu also allows you to scan the QR code for marking attendance for courses.
 
@@ -228,7 +206,7 @@ Upon launching the app, tap the **Social** icon.
 
 Like any other social platform, in the Captivate Prime mobile app, you can create a post in a board, so that all learners who are part of the same board can view your post, comment, and upload a file along with the comment.
 
-To create a post, tap the ( ![](assets/prime-add.png)) icon on the bottom-right of the screen. 
+To create a post, tap the (![](assets/prime-add.png)) icon on the bottom-right of the screen. 
 
 The following screen appears.
 
@@ -238,43 +216,43 @@ The following screen appears.
  <tbody>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="assets/prime-write-1.png" alt=""></p></td>
+    <p><img src="assets/prime-write-1.png" alt=""></p></td>
    <td>
     <p>Write a post or paste any URL.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="assets/prime-camera.png" alt=""></p></td>
+    <p><img src="assets/prime-camera.png" alt=""></p></td>
    <td>
     <p>Take a picture with your mobile camera and upload it with your post.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="assets/prime-video.png" alt=""></p></td>
+    <p><img src="assets/prime-video.png" alt=""></p></td>
    <td>
     <p>Record a video with your mobile camera.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="assets/prime-record.png" alt=""> </p></td>
+    <p><img src="assets/prime-record.png" alt=""> </p></td>
    <td>
     <p>Record audio with your mobile.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="assets/prime-upload.png" alt=""></p></td>
+    <p><img src="assets/prime-upload.png" alt=""></p></td>
    <td>
     <p>Upload any document or file in the board.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="assets/prime-ask.png" alt=""> </p></td>
+    <p><img src="assets/prime-ask.png" alt=""> </p></td>
    <td>
     <p>Ask a question.</p></td>
   </tr>
   <tr>
    <td>
-    <p style="text-align: center;"><img src="assets/prime-poll.png" alt=""> </p></td>
+    <p><img src="assets/prime-poll.png" alt=""> </p></td>
    <td>
     <p>Create a poll with your post.</p></td>
   </tr>
@@ -320,7 +298,7 @@ The following screen appears.
 
 After creating a post, choose the board where you want to upload the post. Tap Select Board and search for the required board.
 
-After you’ve created a post, tap Post and post your comment for other learners to view your post.
+After you've created a post, tap Post and post your comment for other learners to view your post.
 
 In the mobile app, you cannot create a board. To create a board, you must log in to the web app as a learner. For more information on creating a board, see Social learning in [Captivate Prime](https://helpx.adobe.com/captivate-prime/learners/feature-summary/social-learning-web-user.html).
 
@@ -351,12 +329,9 @@ Navigate to the required board and post your comment.
 Share pictures, documents, or audio or videos files to any board, so that other board members can view your post and start an interaction. To share any media,
 
 1. Open the media that you want to share.
-
-2. Tap the share button and choose Captivate Prime.
-
-3. Choose the board in which you want to share the media.
-
-4. Tap **Post**.
+1. Tap the share button and choose Captivate Prime.
+1. Choose the board in which you want to share the media.
+1. Tap **Post**.
 
 You can also post any content from an external app, for example, you can share a comment from Reddit or Quora.
 
@@ -369,11 +344,7 @@ Follow the steps below:
 1. From the list of external certificates, choose the required certificate, and enrol for the certificate.      
 1. Tap **Proof of Completion** and upload a file, for example, a pdf or an image.
 
-   | ![](assets/screenshot-3.png)
-
-   | ![](assets/screenshot-4.png)
-
-   |
+   | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png)|
    |---|---|
 
 1. After uploading a file, tab **Submit**. A confirmation message appears.
@@ -394,19 +365,12 @@ After the Manager approves the submission, the status changes to **Approved**, c
 
 If the Manager rejects the submission, the status changes to **Rejected**, colored in red.
 
-| ![](assets/screenshot-7.png)
-
-| ![](assets/screenshot-9.png)
-
-| ![](assets/screenshot-8.png)
-
-|
+| ![](assets/screenshot-7.png) | ![](assets/screenshot-9.png) | ![](assets/screenshot-8.png) |
 |---|---|---|
 
 After rejection, you are allowed to upload a file as proof of completion.
 
 * You can only submit a file when the status is **Pending Submission and Rejected**.  
-
 * You cannot submit a file when the status is **Pending Approval and Approved**.
 
 ## Take courses from LinkedIn Learning {#linkedin}
@@ -415,19 +379,13 @@ Captivate Prime already supports LinkedIn Learning courses within the learning p
 
 If you have the LinkedIn app already installed, the course will open in the app, or else the course will open in the default browser, where you must log in using your LinkedIn credentials. 
 
-If you are taking the course via the LinkedIn app, your progress will not be tracked inside Captivate Prime. Hence, it’s recommended that the course is launched in the browser instead of the LinkedIn Learning app. 
+If you are taking the course via the LinkedIn app, your progress will not be tracked inside Captivate Prime. Hence, it's recommended that the course is launched in the browser instead of the LinkedIn Learning app. 
 
 >[!NOTE]
 >
 >You can only take the courses if you have an active internet connection.
 
-| ![](assets/start-course.jpg)
-
-| ![](assets/enroll-course.jpg)
-
-| ![](assets/sign-in.jpg)
-
-|
+| ![](assets/start-course.jpg) | ![](assets/enroll-course.jpg) | ![](assets/sign-in.jpg) |
 |---|---|---|
 
 Learning time spent in LinkedIn Learning courses is communicated by the LinkedIn content/LinkedIn platform to Captivate Prime learning platform.
@@ -446,7 +404,7 @@ After the learner starts a course, the learner can see the status **File Submiss
 
 To upload the file, click **Upload File**.
 
-Upload any file and click the **Submit **button.
+Upload any file and click the **Submit** button.
 
 ![](assets/upload-file.png) ![](assets/pending-file-approval.png)
 
@@ -503,11 +461,11 @@ To submit the file again, click the link **Upload File**.
 
 ## Captivate Prime for iPad and tablets {#captivateprimeforipadandtablets}
 
-In Captivate Prime app on iPad or Android tablet, after you log in as a learner, you can see the following **Home **screen:
+In Captivate Prime app on iPad or Android tablet, after you log in as a learner, you can see the following **Home** screen:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-To navigate to learning and catalog features, tap the **Menu **drop-down and choose appropriate option.
+To navigate to learning and catalog features, tap the **Menu** drop-down and choose appropriate option.
 
 ![](assets/menu-ipad.png)
 
@@ -517,19 +475,17 @@ You have an option to view the set of courses in a list view instead of tiled/ca
 
 You can access the Captivate Prime app off-line in iPad and Android tablets. You can download courses and learning programs. Take courses, consume the Learning programs in off-line mode and synchronize the content back with online app when you connect to the network.
 
-1. Tap **Menu **drop-down at the top and tap **Learning **option. A list of all the available courses is displayed in tiles.
-
+1. Tap **Menu** drop-down at the top and tap **Learning** option. A list of all the available courses is displayed in tiles.
 1. Tap the download icon at the bottom of each learning object tile, to download the learning content.
 
-![](assets/download-cards.png)
+   ![](assets/download-cards.png)
 
-    3. A prompt appears in a bar at the top of the app denoting the network status of the device. 
+   A prompt appears in a bar at the top of the app denoting the network status of the device. 
 
-a. Red bar indicates that the network is not available for the device. 
+   * Red bar indicates that the network is not available for the device. 
+   * Green bar indicates network is back online. 
 
-b. Green bar indicates network is back online. 
-
-User can switch back to online mode by clicking **view online content **button on the green bar. Content in the device is synchronized when the user switches to online mode. 
+User can switch back to online mode by clicking **view online content** button on the green bar. Content in the device is synchronized when the user switches to online mode. 
 
 ## Track device storage {#trackdevicestorage}
 

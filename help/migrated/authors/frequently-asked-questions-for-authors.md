@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Frequently Asked Questions for Authors
+description: Frequently Asked Questions for Adobe Learning Manager Authors
 contentowner: admin
 ---
 
@@ -23,19 +24,19 @@ Captivate Prime Learning Programs are renamed to Learning Paths. This change hap
 
 A typical course life cycle looks as follows:
 
-**Draft **–When an author completes creating a course and saving it. At this state, course is not available yet for learners.
+**Draft** - When an author completes creating a course and saving it. At this state, course is not available yet for learners.
 
-**Published **–When an author completes publishing a course. At this state, the course is available for learners to enroll.
+**Published** - When an author completes publishing a course. At this state, the course is available for learners to enroll.
 
-**Retired **– After publishing a course, you can move it to a retired state if you don’t want the course to appear in course catalog for learners.
+**Retired** - After publishing a course, you can move it to a retired state if you don't want the course to appear in course catalog for learners.
 
-**Deleted **– A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Authors can delete the course only when they are in draft or retired states.
+**Deleted** - A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Authors can delete the course only when they are in draft or retired states.
 
 +++
 
 +++How do I publish a Captivate project to Captivate Prime?
 
-You can publish your completed Captivate 9 project to Adobe Captivate Prime as a module. In an open Captivate 9 project, use **Publish > Publish to Adobe Captivate Prime** and follow the instructions to publish a module.
+You can publish your completed Captivate 9 project to Adobe Captivate Prime as a module. In an open Captivate 9 project, use **Publish** > **Publish to Adobe Captivate Prime** and follow the instructions to publish a module.
 
 Refer to  [Adobe Captivate Prime: Publish Modules from Adobe Captivate 9](http://primehelp.adobe.com/publish-modules-from-adobe-captivate9/)video for more information. 
 
@@ -58,7 +59,7 @@ While creating the course, you can choose Enrollment type as self-enrolled, mana
 
 **Manager nominated** These courses can only be nominated by managers. Learner cannot enroll to these type of courses.
 
-**Manager approval required** These courses should be approved by Managers. Learners can sign-up for these courses but they are not enrolled directly to these type of courses without Manager’s approval. A notification request is sent to Managers when learners sign-up for these type of courses. Upon Manager approval, these courses will be listed as enrolled for learners.
+**Manager approval required** These courses should be approved by Managers. Learners can sign-up for these courses but they are not enrolled directly to these type of courses without Manager's approval. A notification request is sent to Managers when learners sign-up for these type of courses. Upon Manager approval, these courses will be listed as enrolled for learners.
 
 **Self-enrolled** Learners can directly enroll themselves to these type of courses.
 
@@ -86,13 +87,13 @@ Authors can delete unpublished or retired courses. After publishing a course, yo
 
 A typical course life cycle appears as follows:
 
-**Draft **–When an author completes creating a course and saving it. At this state, course is not available yet for learners.
+**Draft** - When an author completes creating a course and saving it. At this state, course is not available yet for learners.
 
-**Published **–When an author completes publishing a course. At this state, the course is available for learners to enroll.
+**Published** - When an author completes publishing a course. At this state, the course is available for learners to enroll.
 
-**Retired** – After publishing a course, you can move it to a retired state if you don’t want the course to appear in course catalog for learners.
+**Retired** - After publishing a course, you can move it to a retired state if you don't want the course to appear in course catalog for learners.
 
-**Deleted** – A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Courses can be deleted by authors only when they are in draft or retired states.
+**Deleted** - A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Courses can be deleted by authors only when they are in draft or retired states.
 
 +++
 
@@ -100,9 +101,9 @@ A typical course life cycle appears as follows:
 
 Create a library of modules that can be aligned to courses as self-paced modules. Authors can create modules by following the steps below:
 
-1.  Click Module Library on the left pane after your log in as Author.
+1. Click Module Library on the left pane after your log in as Author.
 1. Click Add on the upper-right corner of the page.
-1.  Fill in the Module name, description, module tags.
+1. Fill in the Module name, description, module tags.
 1. Choose the module type as **Shared** if you wish to share your module to all authors. Choose private otherwise.
 1. Click the Upload Module icon and upload the module content.
 1. Click Save.
@@ -115,7 +116,7 @@ Your module will be listed in the Module library after it has been successfully 
 
 Author would come across these terms while creating courses.
 
-**Test out modules** represent the core modules of the course. If a learner completes this important module, then it can be considered as course completion even though the learner doesn’t complete the actual contents of the course.
+**Test out modules** represent the core modules of the course. If a learner completes this important module, then it can be considered as course completion even though the learner doesn't complete the actual contents of the course.
 
 **Content modules** represent actual course curriculum. Learner can better understand the complete contents of the course by going through these contents.
 
@@ -139,9 +140,9 @@ Learning programs can be created only by Administrator of the company. Contact t
 
 +++
 
-+++How do I view learners’ skills, course completion status?
++++How do I view learners' skills, course completion status?
 
-Author cannot view Learners’ skills and their course completion status. Only Admin has the rights to view reports for a particular course. Author can contact Admin for the reports.
+Author cannot view Learners' skills and their course completion status. Only Admin has the rights to view reports for a particular course. Author can contact Admin for the reports.
 
 +++
 
@@ -153,7 +154,7 @@ Author cannot view the list of Learners who take up the course. Only Admin has t
 
 +++Can I sequence the modules of any course? How?
 
-Author can change the sequence of modules by drag-drop over other modules. He can also compel the learners to take modules in sequence by selecting **Ordered **option in sequencing for modules during course creation.
+Author can change the sequence of modules by drag-drop over other modules. He can also compel the learners to take modules in sequence by selecting **Ordered** option in sequencing for modules during course creation.
 
 +++
 
@@ -165,7 +166,7 @@ You can use the Filter Courses by State option to filter courses. For more infor
 
 +++What type of reports can I access?
 
-As an author you cannot access any reports. Only Administrator has rights to view/generate various reports. Contact your company’s Administrator for reports.
+As an author you cannot access any reports. Only Administrator has rights to view/generate various reports. Contact your company's Administrator for reports.
 
 +++
 
@@ -176,7 +177,7 @@ You can search courses in two ways:
 1. Using Search field displayed at the upper-right corner. Type the course name or any key words associated with your courses to locate your courses.
 1. By filtering list of courses using the filters. You can filter the courses by state such as **All, Published, Draft** and **Retired** by clicking each of these options.
 
-   You can also search based on skill sets by clicking **Skills **and choosing each of them.
+   You can also search based on skill sets by clicking **Skills** and choosing each of them.
 
    Based on your choice, you can view the filtered list of courses and choose accordingly.
 
@@ -186,8 +187,8 @@ You can search courses in two ways:
 
 There are two types of modules:
 
-1. Shared – available to all authors for use
-1. Private – available only to the author who created it.
+1. Shared - available to all authors for use
+1. Private - available only to the author who created it.
 
 So, you can add only shared modules of other authors to your courses.
 
@@ -256,4 +257,3 @@ You can also publish a draft listed course by following the steps below:
 Authors can import the existing e-learning courses that are created using Adobe Captivate and Adobe Presenter. Other supported course formats include video files, pdf, docx and pptx. You can also import AICC compliant course content.
 
 +++
-

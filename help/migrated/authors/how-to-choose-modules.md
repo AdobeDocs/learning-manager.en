@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: How to choose course modules?
+description: Adobe Learning Manager supports four types of course modules. If you are responsible for creating a training program, you may be wondering which type of module you need to choose to suit your organization's requirements. Based on your organization's budget and audience needs, you can choose the course modules. Some of the typical use cases for each type of module are explained below for your reference.
 contentowner: jayakarr
 ---
 
@@ -40,7 +41,7 @@ Captivate Prime supports four types of course modules. If you are responsible fo
  </tbody>
 </table>
 
-**When to choose classroom modules? **
+**When to choose classroom modules?**
 
 <table>
  <tbody>
@@ -58,7 +59,7 @@ Captivate Prime supports four types of course modules. If you are responsible fo
  </tbody>
 </table>
 
-**When to choose self-paced modules? **
+**When to choose self-paced modules?**
 
 <table>
  <tbody>
@@ -95,7 +96,7 @@ Captivate Prime supports four types of course modules. If you are responsible fo
  </tbody>
 </table>
 
-**When to choose virtual classroom modules? **
+**When to choose virtual classroom modules?**
 
 <table>
  <tbody>
@@ -115,7 +116,7 @@ Captivate Prime supports four types of course modules. If you are responsible fo
  </tbody>
 </table>
 
-## **Captivate Prime course modules comparison chart** {#strongcaptivateprimecoursemodulescomparisonchartstrong}
+## Captivate Prime course modules comparison chart {#strongcaptivateprimecoursemodulescomparisonchartstrong}
 
 <table>
  <tbody>
@@ -205,4 +206,3 @@ Captivate Prime supports four types of course modules. If you are responsible fo
   </tr>
  </tbody>
 </table>
-

@@ -116,7 +116,7 @@ The default styling may not meet everyone's needs. The customisations can be don
 
 [CSS file to be used for customization.](assets/ql-headless.css)
 
-### **API CHANGES TO ENABLE RENDERING RICH TEXT OVERVIEWS**
+### API CHANGES TO ENABLE RENDERING RICH TEXT OVERVIEWS
 
 When customers build a headless interface, they have a need to display the learning objects in that custom user interface they are developing. For doing this, one would typically use the [GET /learningObjects](https://captivateprimeeu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) API that is exposed. Now that Prime supports capturing “rich text” for the overview field, the data model of Learning Objects in the API responses also exposes the same. See the field named “richTextOverview” in the fragment of the model in the API response below. Also note that the field exposed earlier (“overview”) remains unchanged for backward compatibility.
 

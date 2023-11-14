@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Job Aids
+description: Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
 ---
 
 
@@ -20,14 +21,13 @@ Authors can create Job Aids for learners. Use Job Aids to provide learners with 
 
    Only existing skills can be used for job aids. Skills are not mandatory.
 
-1.
-
-   Upload the job aid content at the content section.
+1. Upload the job aid content at the content section.
 
    Videos, pdf, pptx and docx are the supported file formats for upload. Project zip files or any interactive content is not supported for upload.
 
 1. Enter the duration, in minutes, for the job aid.
 1. Click **Save**.  
+
    The Job Aid is published.
 
 ## Types of supported job aids {#typesofsupportedjobaids}
@@ -43,7 +43,9 @@ The following are the file formats supported for job aids.
 * DOCX
 * All video file formats
 
-Note: Zip files and image files are not supported.
+>[!NOTE]
+>
+>Zip files and image files are not supported.
 
 ## Withdraw/re-publish job aids {#withdrawrepublishjobaids}
 
@@ -84,4 +86,3 @@ After you create the Job Aid, you can add the Job Aid to a course, while creatin
 
 * [Job Aids for Administrators](../../administrators/feature-summary/job-aids.md)
 * [Job Aids for Learners](../../learners/feature-summary/job-aids.md)
-

@@ -143,7 +143,7 @@ Social Learning now supports the mobile immersive web experiences.
 
 ### Download all badges
 
-#### **GET jobs/**
+#### GET jobs/
 
 This is an admin API, using which the administrator can download a badge in the PDF format for a user or training.
 

@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Frequently Asked Questions for Managers
+description: Frequently Asked Questions for Adobe Learning Manager Managers
 contentowner: admin
 ---
 
@@ -52,19 +53,19 @@ Administrator of your organization configures the notifications.
 
 +++
 
-+++Can I see learners’ activities for a specific period? How?
++++Can I see learners' activities for a specific period? How?
 
-Yes. You can view the learners’ status with their courses within a specific period by creating reports based on learners’ course completion status within a given date range.
+Yes. You can view the learners' status with their courses within a specific period by creating reports based on learners' course completion status within a given date range.
 
 You can click drop-down icon to modify the date range, save, and view the reports.
 
 +++
 
-+++Can I see my team members’ current skill levels?
++++Can I see my team members' current skill levels?
 
 You can create reports for your team members to view the list of skills assigned and achieved by each one of them. ClickReports on the left pane and click Sample Reports tab to view a Skills vs Managers sample report.
 
-For more information, refer to  [Reports](feature-summary/reports.md) feature in the Captivate Prime Help.
+For more information, refer to [Reports](feature-summary/reports.md) feature in the Captivate Prime Help.
 
 +++
 
@@ -134,4 +135,3 @@ When you are using Captivate Prime for the first time, you have three options:
 Managers can directly nominate team members for a particular course only when an Administrator has sought Manager nomination for that course.
 
 +++
-

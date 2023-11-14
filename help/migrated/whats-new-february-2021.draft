@@ -157,7 +157,7 @@ For more information, see [Download user report for peer accounts](administrator
 
 # Enhanced features in this release {#enhanced}
 
-### **Support for accent characters**
+### Support for accent characters
 
 In this release, we've added support for accent and diacritical characters in table columns. The following are the areas of impact:
 
@@ -165,7 +165,7 @@ In this release, we've added support for accent and diacritical characters in ta
 * An email with accent characters should be treated different from the normal character email id. For example, Stéphane.Lancè@junk.com and Stephane.Lance@junk.com are treated as different email ids and should not show email id present.
 * User group names having same attribute value with and without accent characters should be treated as different user groups. For example, Lôcation and Location with value Bengaluru are treated as different user groups.
 
-### **Changes in columns in Learner Transcripts**
+### Changes in columns in Learner Transcripts
 
 The following are the changes in the Learner Transcripts fields.
 

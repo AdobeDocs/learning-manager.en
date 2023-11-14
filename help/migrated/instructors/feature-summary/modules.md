@@ -68,14 +68,13 @@ These files can be Approved/Rejected by the module Instructors. The module gets 
 
 ## Evaluate checklist module {#evaluate-checklist-module}
 
-After the learner takes the course, the Instructor sees the checklist module on the Submissions/Checklists page in the **Modules **section. This page contains all the activity checklist modules along with the activity submission modules  
-for which reviews are due. For each module, the number of learners is displayed for who the evaluation is due.
+After the learner takes the course, the Instructor sees the checklist module on the Submissions/Checklists page in the **Modules**section. This page contains all the activity checklist modules along with the activity submission modules for which reviews are due. For each module, the number of learners is displayed for who the evaluation is due.
 
-On the page below, you can view modules of type **Submission **and **Checklist**. For this example, we shall use Checklist module.
+On the page below, you can view modules of type **Submission** and **Checklist**. For this example, we shall use Checklist module.
 
 ![](assets/modules-list.png)
 
-Click on the Checklist module. On the **Checklist **page, you see the following:
+Click on the Checklist module. On the **Checklist** page, you see the following:
 
 * The name of the module
 * The name of the course
@@ -85,7 +84,7 @@ Click on the Checklist module. On the **Checklist **page, you see the following:
 
 ![](assets/checklist-page.png)
 
-To evaluate a learner, click **Evaluate **in the **Checklist **column. You can also see that the status of the review is **Pending**.
+To evaluate a learner, click **Evaluate** in the **Checklist** column. You can also see that the status of the review is **Pending**.
 
 Evaluate the learner and click **Submit**. As an instructor, you must respond to all the evaluation questions.
 
@@ -99,13 +98,13 @@ An Instructor can also view the responses submitted by other instructors of the 
 
 You can export the learners as a csv based on based on the search filter applied.
 
-After the instructor evaluates the course using the Checklist, the learner sees module status as **Pass **and course status as **Completed**, or the module status as **Fail**, and course status as **Completed**.
+After the instructor evaluates the course using the Checklist, the learner sees module status as **Pass** and course status as **Completed**, or the module status as **Fail**, and course status as **Completed**.
 
 ## Instructor comments for rejection of an activity {#rejection-comments}
 
 A learner can see the comment of an instructor in the notification that is sent for rejection. The learner can then re-submit by providing more information in the form of comments. 
 
-Here’s the workflow:
+Here's the workflow:
 
 1. An author creates a course with an activity module, assigns an instructor, and then publishes the course.  
 
@@ -148,4 +147,3 @@ To add scores and comments for activity modules that have been sent for submissi
    ![](assets/editing-scores-andcomments.png)
 
 1. Click **Save.**
-

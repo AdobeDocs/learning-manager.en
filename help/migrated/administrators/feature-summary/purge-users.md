@@ -48,7 +48,7 @@ You can select the first 50 users and purge the users in one shot. This allows A
 
 +++Read about the results of Purge User action
 
-<table width="100%" cellspacing="0" cellpadding="1" border="1">
+<table>
  <tbody>
   <tr>
    <th><strong>Purge using CaptivatePrime UI- Enterprise</strong></th>

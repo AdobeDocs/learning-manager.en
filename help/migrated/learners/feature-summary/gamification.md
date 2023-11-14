@@ -28,8 +28,8 @@ From the Learner's home page, click **[!UICONTROL Gamification]** from the left 
 
 Some of the features of Leaderboard for learners:
 
-* Learners enrolled in a Learning Program instance can see each other’s’ points if gamification is enabled for that instance.
-* Click **[!UICONTROL Add colleagues]** to include team member that you want to compare against. Your team member’s profile picture is added to the timeline scale at the top of the leaderboard page. This timeline scale shows your points at the beginning and moves your position to the right when you achieve more points than your team members. You can only compare it against other members of the same group.
+* Learners enrolled in a Learning Program instance can see each other's' points if gamification is enabled for that instance.
+* Click **[!UICONTROL Add colleagues]** to include team member that you want to compare against. Your team member's profile picture is added to the timeline scale at the top of the leaderboard page. This timeline scale shows your points at the beginning and moves your position to the right when you achieve more points than your team members. You can only compare it against other members of the same group.
 * **User groups:** At any time you can choose your team members profiles that you want to compare your rank with, using the **[!UICONTROL Rank Me With]** option. From the Select User Groups field, type and choose the group. The list of all the team members along with their latest points are listed below. Both internal and external users can view the list but only internal users are enabled to search other internal learners.
 
 * Also, the People Around Your Rank dialog box displays the names of team members who are above, below or at the same level as you.
@@ -57,7 +57,7 @@ Adobe Captivate Prime now enables an Administrator to activate a gamification cr
 
 ![](assets/feedback-rating.png)
 
-This feature encourages the users to actively provide feedback, which benefits Learners as well as the Administrators, who now better understand the Learner’s point of view and can better evaluate the efficiency of a course.
+This feature encourages the users to actively provide feedback, which benefits Learners as well as the Administrators, who now better understand the Learner's point of view and can better evaluate the efficiency of a course.
 
 ## Tasks {#tasks}
 
@@ -65,11 +65,11 @@ There are five gamification tasks of learners. You can view gamification points 
 
 The system displays the Gamification page, depicting all the learners tasks and points is shown below:
 
-**Note**
-
-Gamification points within a particular task are not cumulative. But, the points are added to learners account cumulatively if the learners get across these points across different tasks. 
-
-While assigning courses to points, administrator has to ensure that the learners get the points progressively.
+>[!NOTE]
+>
+>Gamification points within a particular task are not cumulative. But, the points are added to learners account cumulatively if the learners get across these points across different tasks. 
+>
+>While assigning courses to points, administrator has to ensure that the learners get the points progressively.
 
 **For Fast learner**
 
@@ -82,10 +82,11 @@ You can see the following possible scenarios:
 1. When learners complete eight courses, they get 300 points.
 1. When learners complete ten courses, they get 500 points.
 
-**Note**
-
-Administrator can modify the time period and the number of courses required to complete to earn corresponding points.  
-Within a task, points are not accorded to learners cumulatively. For example, assume that a learner completes single course and gets 20 points. When learners complete two courses, they get 100 points but the existing 20 points are not considered.
+>[!NOTE]
+>
+>Administrator can modify the time period and the number of courses required to complete to earn corresponding points.  
+>
+>Within a task, points are not accorded to learners cumulatively. For example, assume that a learner completes single course and gets 20 points. When learners complete two courses, they get 100 points but the existing 20 points are not considered.
 
 **For Self driven learner (a)**
 
@@ -162,10 +163,10 @@ When learners complete a course within 10 days of course commencement, they get 
 
 Learners status of Level is displayed at the upper-right corner of the page in a circle, at the My Courses page. Learners can achieve the following different levels based on the number of points achieved during learning period:
 
-1. Bronze – when learner achieves 1500 points.
-1. Silver – when learner achieves 2500 points.
-1. Gold – when learner achieves 3000 points.
-1. Platinum – when learner achieves 5000 points.
+1. Bronze - when learner achieves 1500 points.
+1. Silver - when learner achieves 2500 points.
+1. Gold - when learner achieves 3000 points.
+1. Platinum - when learner achieves 5000 points.
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 

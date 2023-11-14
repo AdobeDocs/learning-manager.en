@@ -37,7 +37,7 @@ Read this article to know how to set learner profile settings and add a profile 
 
 ## Unsubscribe from digest emails {#unsubscribefromdigestemails}
 
-When you receive a mail, you can unsubscribe from the digest email by clicking the **Unsubscribe **link at the bottom of the email.
+When you receive a mail, you can unsubscribe from the digest email by clicking the **Unsubscribe** link at the bottom of the email.
 
 After you click **Unsubscribe**, you are redirected to your **Profile Settings** page, where you can disable the option to receive emails.
 
@@ -57,12 +57,12 @@ A digest email consists of the following sections:
    <td>
     <p>Personal Training Summary</p></td>
    <td>
-    <p>This section personalizes a learner’s training metrics by mentioning the number of minutes spent on trainings.</p>
+    <p>This section personalizes a learner's training metrics by mentioning the number of minutes spent on trainings.</p>
     <p>Based on the time spent by the learner, the content is customized according to the rules defined below:</p>
     <p>If (time_spent) &gt;= 60 minutes, then the following text appears:</p>
-    <p><i>“During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are some recommendations to enable you to learn more.” </i></p>
+    <p><i>"During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are some recommendations to enable you to learn more." </i></p>
     <p> If (time_spent) &lt; 60 mins, then the following text appears:</p>
-    <p><i>“During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are a few recommendations that we hope you may find useful to get started and keep going.”</i></p></td>
+    <p><i>"During the past two weeks/1-month, you have taken up <b>(time_spent)</b> minutes of training for upskilling yourself. Listed below are a few recommendations that we hope you may find useful to get started and keep going."</i></p></td>
   </tr>
   <tr>
    <td>
@@ -113,7 +113,6 @@ A digest email consists of the following sections:
 
 **1. How to download a Learner Transcript as learner?**
 
-On the upper-right corner, click your **user profile > Profile Settings**. On the dialog that appears, click **Download My Learning Transcript (XLS)**.
+On the upper-right corner, click your **user profile** > **Profile Settings**. On the dialog that appears, click **Download My Learning Transcript (XLS)**.
 
 ![](assets/dowload-lt.png)
-

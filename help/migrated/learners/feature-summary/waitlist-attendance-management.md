@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Waitlist & attendance management
+description: Administrators can manage attendance and waitlisting of courses for Adobe Learning Manager learners.
 contentowner: manochan
 ---
 

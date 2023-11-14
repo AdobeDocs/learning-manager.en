@@ -159,8 +159,8 @@ For more information, see [Learning Manager connectors](integration-admin/featur
 <table> 
  <tbody>
   <tr> 
-   <td> <p style="text-align: center;"><strong>Learner Transcripts</strong><br></p><img src="assets/zip-lt.png"></td> 
-   <td> <p style="text-align: center;"><strong>xAPI</strong><br></p><img src="assets/zip-xapi.png"></td> 
+   <td> <p><strong>Learner Transcripts</strong><br></p><img src="assets/zip-lt.png"></td> 
+   <td> <p><strong>xAPI</strong><br></p><img src="assets/zip-xapi.png"></td> 
   </tr> 
  </tbody>
 </table>

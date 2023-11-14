@@ -28,11 +28,13 @@ The manager can then filter the report according to ranges like, quarter, this m
 
 ## Learning Summary {#learningsummary}
 
-![](assets/manager-learningsummary.png) ![](assets/manager-dashboard.jpg)
+![](assets/manager-learningsummary.png)
+
+![](assets/manager-dashboard.jpg)
 
 ## Compliance Dashboard {#compliancedashboard}
 
-See your team’s compliance and which team member is bordering on non-compliance. Choose the Learning Objects and see the status of each. 
+See your team's compliance and which team member is bordering on non-compliance. Choose the Learning Objects and see the status of each. 
 
 ![](assets/compliance-dashboard.png)
 
@@ -96,7 +98,7 @@ Filters appear in Add report dialog at the bottom based on types of reports you 
 
 **User Group** Choose the user group based on which you want to filter the reports. Captivate Prime fetches the user groups defined for your account from Users feature. 
 
-**Course **You can filter your report based on any course by choosing them from the drop-down.
+**Course** You can filter your report based on any course by choosing them from the drop-down.
 
 ![](assets/sample-report-admin.png)
 
@@ -126,7 +128,7 @@ This user group report enables you to compare the performance of one department/
 
 You can also create customized user groups using Add users/user groups feature in Captivate Prime. After creating the user groups you can generate reports for those customized userg groups with the help of a list of attributes such as location, branch, and so on. 
 
-In X-axis, choose the user attribute option and select the attribute the from **select **drop-down next to it. To create a customized user group report based on these attributes, you also need to choose the appropriate user group in the filter. 
+In X-axis, choose the user attribute option and select the attribute the from **select** drop-down next to it. To create a customized user group report based on these attributes, you also need to choose the appropriate user group in the filter. 
 
 Managers can create user group reports only for their own team members as learners. 
 
@@ -155,7 +157,7 @@ Click this board tab to view all the boards that you created. From the view boar
 
 1. Click Add dashboard on the right side of the page, to start creating your own boards.
 
-![](assets/add-dashboard.png)
+   ![](assets/add-dashboard.png)
 
 1. Provide the name and description of the dashboard and click **Save**.
 

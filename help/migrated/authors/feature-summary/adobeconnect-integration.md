@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Adobe Connect integration
+description: Authors can create virtual classroom courses with Adobe Connect during course creation process. To enable Adobe Connect for your Learning Manager account, you need to contact the Administrator of your organization.
 ---
 
 

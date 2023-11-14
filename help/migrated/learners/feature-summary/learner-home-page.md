@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Learner home page
+description: After the Administrator enables Immersive layout, the learner, after signing into the app, is greeted with a completely revamped User Interface.
 contentowner: saghosh
 ---
 
@@ -31,9 +32,9 @@ Displays the training that the learner had taken. These trainings are displayed 
 
 You can also can also swipe left and right to navigate through the list.
 
-To resume a course, click **Continue **on a card, and the player will launch. 
+To resume a course, click **Continue** on a card, and the player will launch. 
 
-The appearance of icons on each training card is enabled/disabled by the Admin via the Admin app (**Settings > General > Enable Training Card Icons**).
+The appearance of icons on each training card is enabled/disabled by the Admin via the Admin app (**Settings** > **General** > **Enable Training Card Icons**).
 
 **Add to My learning List**
 
@@ -122,4 +123,3 @@ To add the skills, click **Add**.
 ## Recommendation based on peer activity {#recommendationbasedonpeeractivity}
 
 Displays training based on what your peers are taking. This is again driven by a Machine Learning algorithm. The recommendations are based on training for both Custom and Industry Aligned learners.   
-

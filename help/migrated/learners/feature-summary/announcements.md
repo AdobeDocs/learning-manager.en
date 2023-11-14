@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Announcements
+description: An announcement is a multimedia message (text, image or video) that an Administrator broadcasts to a defined set of users.
 ---
 
 
@@ -12,7 +13,7 @@ Administrator can broadcast announcements to learners informing them about the o
 
 ## Announcements notification {#announcementsnotification}
 
-A notification broadcast message appears on the learner’s dashboard as a highlighted title bar. If the learner is not online at the time of announcement, the notification appears whenever a learner logs into the Captivate Prime application. Learners can also view old announcements from notifications.
+A notification broadcast message appears on the learner's dashboard as a highlighted title bar. If the learner is not online at the time of announcement, the notification appears whenever a learner logs into the Captivate Prime application. Learners can also view old announcements from notifications.
 
 ![](assets/pending-announcements.png)
 

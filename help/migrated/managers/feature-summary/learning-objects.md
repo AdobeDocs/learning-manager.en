@@ -17,11 +17,11 @@ A Manager can enroll the learners under him in courses, learning programs and ce
 
 ## Viewing courses {#viewingcourses}
 
-As a manager, you can view a list of all available courses. Click **Courses **on the left pane to view the list of courses with search and filter options. You can also view the course effectiveness percentage for each course on the course thumbnails. Note that you can only enroll team members to courses which are visible to you under the learner application.
+As a manager, you can view a list of all available courses. Click **Courses** on the left pane to view the list of courses with search and filter options. You can also view the course effectiveness percentage for each course on the course thumbnails. Note that you can only enroll team members to courses which are visible to you under the learner application.
 
 >[!NOTE]
 >
->List of all the retired courses can be viewed by clicking the **Retired **tab.
+>List of all the retired courses can be viewed by clicking the **Retired** tab.
 
 ## View quiz scores {#viewquizscores}
 
@@ -66,13 +66,13 @@ You can view the L1 feedback provided by learners for a course and the L3 feedba
 
 Manager can preview courses by clicking the **Preview as learner** option while viewing the course modules.
 
-1. Click **Courses **on the left pane after you log in.
+1. Click **Courses** on the left pane after you log in.
 1. Click any course tile from the list of courses on the page.
 1. Click Preview as learner from the left pane and click the module name on the page to preview the course module in the player.
 
 ## Course effectiveness {#courseeffectiveness}
 
-Course effectiveness is evaluated to understand the usefulness of a course to the learner. It is a combination of results from learner feedback on the course content, the course quiz results for a learner and the manager’s feedback evaluating a learner based on learnings from the course.
+Course effectiveness is evaluated to understand the usefulness of a course to the learner. It is a combination of results from learner feedback on the course content, the course quiz results for a learner and the manager's feedback evaluating a learner based on learnings from the course.
 
 You can view the course effectiveness rating on the course thumbnails as shown in the below snapshot. You can see the rating for this course as 100.
 
@@ -106,6 +106,7 @@ You can sort learning programs in three ways: alphabetical ascending order, alph
 Managers enrolls some learners to mandatory courses as per organization requirements:
 
 1. Hover your mouse on any published course tiles and click Enroll learners.  
+
    Alternatively, click any published course tile and click learners on the left pane. A page appears with a list of learners. Click Enroll.  
    Enroll learners dialog appears.
 
@@ -130,8 +131,7 @@ Manager can enroll, view quiz scores, L1 & L3 feedback and unenroll only his rep
 ## View quiz scores {#Viewquizscores-1}
 
 1. Click any learning program tile.
-
-2. Click Quiz Score on the left pane.
+1. Click Quiz Score on the left pane.
 
 You can view the quiz scores of any particular learning program based on user name or based on each question. Choose By User or By Question tabs accordingly. Quiz scores appear for one course at a time. Change the course name from the drop-down to view the quiz scores for other courses. You can also export quiz scores of each course. Choose the instance type from the drop-down list to view the scores based on each instance of the learning program.
 
@@ -173,7 +173,7 @@ The following session details are displayed:
 * Location
 * Date and time
 
-Here’s the workflow:
+Here's the workflow:
 
 1. The manager sees a notification after a learner requests for approval of a course.  
 
@@ -182,9 +182,7 @@ Here’s the workflow:
    ![](assets/pending-tasks.png)
 
 1. The manager then approves or rejects the request.  
-
-1. The manager gets a confirmation or error message if approval or rejection didn’t happen as expected.  
-
+1. The manager gets a confirmation or error message if approval or rejection didn't happen as expected.  
 1. The learner gets a notification or approval or rejection to the course enrollment.
 
 ## Optional submission for external certifications {#optional}
@@ -193,11 +191,7 @@ In earlier releases of Captivate Prime, for an external certification to be comp
 
 A Manager can now see a list of learners who have enrolled into the External certification on a Submission page present inside the External Certification and can Accept or Reject from the page itself without waiting for a notification.
 
- 
-
 When the Manager accepts without waiting for the file submission, the learner is shown a new message that the Manager has accepted, and the learner need not submit the file. In case Manager rejects without the file submission, the Manager has the option to again accept without waiting for the file.
-
- 
 
 If learner submits the file, Manager can view the file from the submission page and can Accept or Reject based on the submitted file.
 

@@ -10,7 +10,7 @@ contentowner: kuppan
 
 Learn how to view and track learnings from the manager dashboard.
 
-Managers play an important role in a team’s learning initiatives. To guide them better, the learning platform provides the manager with a dashboard view to track the learnings in his team.
+Managers play an important role in a team's learning initiatives. To guide them better, the learning platform provides the manager with a dashboard view to track the learnings in his team.
 
 ![](assets/dashboard-final.png)
 
@@ -62,7 +62,7 @@ To generate an excel report, click **Actions > Report**
 
 ## Compliance Status {#compliancestatus}
 
-Managers can view the team’s overall compliance status for configured learnings in compliance dashboard. The learnings list is configurable, and the manager can select the learnings to track the compliance status.
+Managers can view the team's overall compliance status for configured learnings in compliance dashboard. The learnings list is configurable, and the manager can select the learnings to track the compliance status.
 
 On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
@@ -120,12 +120,12 @@ This forecasting is based on system calculations which gives a view in the futur
 
 ![](assets/ts-dashboard-02.png)
 
-To view a team’s skill status, follow the below steps:
+To view a team's skill status, follow the below steps:
 
 1. Click **Team Skills** from the left pane under My Team View section. 
 1. To view the skills displayed, click the skill filter and select one from the drop-down list. 
 1. To select a level(Level 1, Level 2, or Level 3), click the level drop-down menu.
-1. Based on the skill and level selected, a graph with its skill status is displayed. On hovering the graph, you can view the following percentages of the skill status:** In progress** and **Achieved**.
+1. Based on the skill and level selected, a graph with its skill status is displayed. On hovering the graph, you can view the following percentages of the skill status: **In progress** and **Achieved**.
 
    ![](assets/first-graph.png)
 
@@ -141,7 +141,7 @@ To forecast the team completion % for a skill, follow the below steps:
 
    ![](assets/configure-tracker.png)
 
-1. To view the output for your forecast, click the **Estimate** button. The output looks like the below screenshot. ****
+1. To view the output for your forecast, click the **Estimate** button. The output looks like the below screenshot.
 
    ![](assets/skill-tracker-output.png)
 
@@ -197,7 +197,6 @@ On selecting the values for a team under the enrollment, achieved, and in progre
 
 ## Export report {#Exportreport-1}
 
-* Click **Actions **> **Export** to export the data as an excel file. 
+* Click **Actions** > **Export** to export the data as an excel file. 
 
 ![](assets/export-report.png)
-

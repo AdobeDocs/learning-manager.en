@@ -23,32 +23,33 @@ You can also choose not to send e-mail notifications for certain events by disab
 1. From the Learning Object page, click the course, certification, or learning program that you want to configure the email settings.
 1. From the learning object details page, click Email Templates.
 
-You can see the list of templates that are available for the learning object that you chose.
+   You can see the list of templates that are available for the learning object that you chose.
 
-![](assets/email-templates-forlearningprograms.png)
+   ![](assets/email-templates-forlearningprograms.png)
 
 1. Click the event name to view the template in the preview mode.
 
-![](assets/preview-the-emailtemplateforyourlearningobject.png)
+   ![](assets/preview-the-emailtemplateforyourlearningobject.png)
 
-You can customize each template by clicking the text in the body of the template. You can insert variables in the text by clicking the appropriate icons as shown in the snapshot. Hover your mouse over each icon to view the names.
+   You can customize each template by clicking the text in the body of the template. You can insert variables in the text by clicking the appropriate icons as shown in the snapshot. Hover your mouse over each icon to view the names.
 
-![](assets/insert-variable.png)
+   ![](assets/insert-variable.png)
 
-The following variables are available:
+   The following variables are available:
 
-* LPName
-* LPCompletionDeadline
-* LearnerName
-* LearnerEmail
-* CourseName
-* CourseDescription
-* CourseCompletionDeadline
-* CourseSkillDetails
-* CourseBadge
+   * LPName
+   * LPCompletionDeadline
+   * LearnerName
+   * LearnerEmail
+   * CourseName
+   * CourseDescription
+   * CourseCompletionDeadline
+   * CourseSkillDetails
+   * CourseBadge
 
-You can reset message to the default content by clicking Revert to Original link above the template.  
-As you see at the top of the template you can customize the template for multiple roles (Manager, Learner, and so on)  depending upon the type of e-mail notification.
+   You can reset message to the default content by clicking Revert to Original link above the template.
+
+   As you see at the top of the template you can customize the template for multiple roles (Manager, Learner, and so on)  depending upon the type of e-mail notification.
 
 1. Click Save at the bottom of the templates page.
 1. From the Email Templates page, click the Yes/No circular toggle button to send or disable the notification.

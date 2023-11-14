@@ -41,7 +41,7 @@ The issue occurs when the CSV is saved as a UTF-8 format in Excel. When you save
    1. Open the CSV in Excel.
    1. Save the file as a normal CSV.
 
-* **B:** Saving via Notepad or Notepad ++:
+* **B:** Saving via Notepad or Notepad++:
 
    * Open the CSV in Notepad or Notepad++.
    * Save the file in a UTF-8 format.
@@ -58,16 +58,16 @@ This issue occurs if there is a user who is already present in the system with t
 
 ## Resolution
 
-### **Scenario 1**
+### Scenario 1
 
 **Accounts on which UUID is not enabled.**
 
 In this scenario, there are two reasons for this error:
 
-1. The user that you are trying to add is a Manager of an External profile. To resolve this, open the external profile the user is a part of, select the user, click **Actions > Assign Role > Manager**, and change the Manager of the profile.
+1. The user that you are trying to add is a Manager of an External profile. To resolve this, open the external profile the user is a part of, select the user, click **Actions** > **Assign Role** > **Manager**, and change the Manager of the profile.
 1. The user that you are trying to add has been purged. In this scenario, you will not be able to add the user with the same email address until the purge process is completed. As a workaround**, a**dd the user with a secondary email address to provide access to the platform. Once the purge process is complete, edit the user and change the email address to the correct email address.
 
-### **Scenario 2**
+### Scenario 2
 
 **UUID-enabled accounts.**
 
@@ -77,4 +77,4 @@ For example, let there be two users, A and B, with email addresses,  a@xyz.com a
 
 Now, if you upload a CSV that has user A's UUID as 3 and user B's UUID as 2, then you will see an error.
 
-To resolve this issue, **you must have the same email address and UUID for the user on the CSV and the system. **
+To resolve this issue, **you must have the same email address and UUID for the user on the CSV and the system.**

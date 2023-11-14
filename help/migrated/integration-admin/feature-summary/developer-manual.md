@@ -183,169 +183,169 @@ The following table describes various elements of the Captivate Prime V1 object 
 <table border="1" cellspacing="0" cellpadding="0">
  <tbody>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p><strong>Serial No</strong></p></td>
-   <td width="150" valign="top">
+   <td>
     <p><strong>Captivate Prime Object</strong></p></td>
-   <td width="550" valign="top">
+   <td>
     <p><strong>Description</strong></p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>1.      </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>user</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>User is the key model in Captivate Prime. Users are typically the internal or external learners of an organization who consume learning objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>2.      </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>course</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>Course is one of the learning objects supported in Captivate Prime, that consists of one or more modules. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>3.      </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>module</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>Module is a building block to create learning objects in Captivate Prime. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>4.      </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>certification</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>Certification is awarded to learners based on successful completion of courses. Courses are required in the application before you use certifications. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>5.      </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>learning program</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>Learning programs are uniquely designed courses meeting specific learning requirements of users. Typically, learning programs are used to drive learning goals spanning across individual courses. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>6.      </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>badge</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>Badge is a token of accomplishment that learners get when they reach specific milestones as they progress within a course. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>7.      </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>skill</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>Skills model consists of levels and credits. Skills can be acquired by learners after relevant course completion. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>8.      </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>certificationEnrollment</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>This model provides details of an enrollment by a user to a single certification.</p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>9.  </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>courseEnrollment</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>This model provides details of an enrollment by a user to a single course. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>10.  </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>courseInstance</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>A course can have one or many instances associated with it. You can get Course instance </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>11.  </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>courseSkill</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>A courseSkill model specifies the progress of a single skill that is achieved by completing a course.</p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>12.  </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>courseModule</p></td>
-   <td width="306" valign="top">A courseModule model specifies how a module is included  in a course. For instance, whether the module is used for pretest or for content.</td>
+   <td>A courseModule model specifies how a module is included  in a course. For instance, whether the module is used for pretest or for content.</td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>13.  </p></td>
-   <td width="246" valign="top">learningProgramInstance</td>
-   <td width="306" valign="top">
+   <td>learningProgramInstance</td>
+   <td>
     <p>A learning program can consist of multiple instances imbibing similar properties of a learning program or customized instances. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>14.  </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>job aid</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>Job aid is a learning content accessible to learners without any enrollment or completion criteria. You can fetch, updated date, state, id information along with its related models such as job aid version, authors and skill level. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>15.  </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>jobAidVersion</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>Job aid can have one or many versions associated to it based on number revisions in content and number of uploads. This model provides details of a single job aid version. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>16.  </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>learningProgramInstanceEnrollment</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>Learning program consists of one or many instances. Learners can enroll to a learning program instance by themselves or assigned by administrator. This model provides details of an enrollment by a user to a single learning program instance. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>17.  </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>moduleVersion</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>A module can have one or many versions based on its revised content uploads. Use this model to obtain specific info about any single module version. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>18.  </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>skillLevel</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>A skill level comprises of one or many courses to be consumed in order to acquire a level along with its associated credits. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>19.  </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>userBadge</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>UserBadge relates a single badge with a single user. It contains details such as when was it achieved, assertionUrl and so on. </p></td>
   </tr>
   <tr>
-   <td width="72" valign="top">
+   <td>
     <p>20.  </p></td>
-   <td width="246" valign="top">
+   <td>
     <p>userSkill</p></td>
-   <td width="306" valign="top">
+   <td>
     <p>UserSkill indicates how much of a single skill level is achieved by a single user.</p></td>
   </tr>
  </tbody>
@@ -359,7 +359,7 @@ Following are the various elements of the Captivate Prime class diagram in V2 AP
 
 ![](assets/v2api-class-diagram.jpg)
 
-<table width="100%" cellspacing="0" cellpadding="1" border="1">
+<table>
  <tbody>
   <tr>
    <th>Captivate Prime Object</th>
@@ -370,30 +370,30 @@ Following are the various elements of the Captivate Prime class diagram in V2 AP
    <td>Encapsulates the details of a prime customer.</td>
   </tr>
   <tr>
-   <td><g class="gr_ gr_64 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling only-del replaceWithoutSep" id="64" data-gr-id="64">
+   <td><code>
      badge
-    </g></td>
+    </code></td>
    <td>Badge is a token of accomplishment that learners get when they reach specific milestones as they progress within a course. <br></td>
   </tr>
   <tr>
-   <td><g class="gr_ gr_66 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling only-del replaceWithoutSep" id="66" data-gr-id="66">
+   <td><code>
      catalog
-    </g></td>
+    </code></td>
    <td>Catalog is a collection of learning objects.</td>
   </tr>
   <tr>
-   <td><g class="gr_ gr_68 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling only-del replaceWithoutSep" id="68" data-gr-id="68">
+   <td><code>
      user
-    </g></td>
+    </code></td>
    <td>User is the key model in Captivate Prime. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
   </tr>
   <tr>
    <td>resource</td>
-   <td>This is used to model each content resource that a module seeks to encapsulate. All resources encapsulated within <g class="gr_ gr_72 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" id="72" data-gr-id="72">
+   <td>This is used to model each content resource that a module seeks to encapsulate. All resources encapsulated within <code>
      an
-    </g> <g class="gr_ gr_54 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="54" data-gr-id="54">
+    </code> <code>
      loResource
-    </g> are equivalent in terms of the learning objective, but they differ from each other in terms of delivery type or content locale.<br></td>
+    </code> are equivalent in terms of the learning objective, but they differ from each other in terms of delivery type or content locale.<br></td>
   </tr>
   <tr>
    <td>userNotification</td>
@@ -405,11 +405,11 @@ Following are the various elements of the Captivate Prime class diagram in V2 AP
   </tr>
   <tr>
    <td>userBadge</td>
-   <td>UserBadge relates a single badge <g class="gr_ gr_76 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" id="76" data-gr-id="76">
+   <td>UserBadge relates a single badge <code>
      with
-    </g> a single user. It contains details such as when was it achieved, <g class="gr_ gr_58 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="58" data-gr-id="58">
+    </code> a single user. It contains details such as when was it achieved, <code>
      assertionUrl
-    </g> and so on. <br></td>
+    </code> and so on. <br></td>
   </tr>
   <tr>
    <td>skill</td>
@@ -421,9 +421,9 @@ Following are the various elements of the Captivate Prime class diagram in V2 AP
   </tr>
   <tr>
    <td>learningObject</td>
-   <td>A Learning Object is an abstraction for various kinds of objects which users can enroll into and learn from. Currently Prime has the four types of Learning Objects – Course, Certification, Learning Program <g class="gr_ gr_82 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-ins replaceWithoutSep" id="82" data-gr-id="82">
+   <td>A Learning Object is an abstraction for various kinds of objects which users can enroll into and learn from. Currently Prime has the four types of Learning Objects – Course, Certification, Learning Program <code>
      and
-    </g> Job Aid.<br></td>
+    </code> Job Aid.<br></td>
   </tr>
   <tr>
    <td>learningObjectInstance<br></td>
@@ -431,25 +431,25 @@ Following are the various elements of the Captivate Prime class diagram in V2 AP
   </tr>
   <tr>
    <td>learningObjectResource</td>
-   <td>This is equivalent to the concept of <g class="gr_ gr_62 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" id="62" data-gr-id="62">
+   <td>This is equivalent to the concept of <code>
      module
-    </g>. A course is composed of one <g class="gr_ gr_52 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del" id="52" data-gr-id="52">
+    </code>. A course is composed of one <code>
      of
-    </g> more modules. In Prime, a module can be delivered in a variety of equivalent ways. Therefore the <g class="gr_ gr_53 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="53" data-gr-id="53">
+    </code> more modules. In Prime, a module can be delivered in a variety of equivalent ways. Therefore the <code>
      loResource
-    </g> essentially encapsulates all those equivalent resources.<br></td>
+    </code> essentially encapsulates all those equivalent resources.<br></td>
   </tr>
   <tr>
    <td>loResourceGrade<br></td>
-   <td>This encapsulates the outcome of the user consuming a specific resource in the context of a learning object he is enrolled into. It has information such as the duration spent by <g class="gr_ gr_48 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" id="48" data-gr-id="48">
+   <td>This encapsulates the outcome of the user consuming a specific resource in the context of a learning object he is enrolled into. It has information such as the duration spent by <code>
      user
-    </g> in the resource, percentage progress made by the user, pass/fail status and the score obtained by the user in any associated quiz.<br></td>
+    </code> in the resource, percentage progress made by the user, pass/fail status and the score obtained by the user in any associated quiz.<br></td>
   </tr>
   <tr>
    <td>calendar<br></td>
-   <td>A calendar object is a list of <g class="gr_ gr_42 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" id="42" data-gr-id="42">
+   <td>A calendar object is a list of <code>
      upcoming classroom
-    </g> or virtual classroom courses that the user can enroll into.<br></td>
+    </code> or virtual classroom courses that the user can enroll into.<br></td>
   </tr>
   <tr>
    <td>l1FeedbackInfo<br></td>

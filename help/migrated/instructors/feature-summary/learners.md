@@ -31,7 +31,7 @@ As the Learners register for your module, you can see the latest status of the e
 
    The learners whom you have confirmed, are added to the Confirmed Learners list.
 
-Instructors have the capability to unenroll learners from sessions. This also unenrolls them from corresponding learnings. Select **[!UICONTROL Waitlist]** tab. Select the learners to unenroll using the checkbox. To unenroll, select **[!UICONTROL Actions > Unenroll learners]**.
+Instructors have the capability to unenroll learners from sessions. This also unenrolls them from corresponding learnings. Select **[!UICONTROL Waitlist]** tab. Select the learners to unenroll using the checkbox. To unenroll, select **[!UICONTROL Actions]** > **[!UICONTROL Unenroll learners]**.
 
 ![](assets/unenroll-learners.png)
 
@@ -90,7 +90,7 @@ If leaners have uploaded documents like assignments, reports, or assessments for
 
    ![](assets/setreminder.png)
 
-1.
+1. Do the following:
 
    * In the Reminder Settings dialog box, set the option on when to send the reminder to learners: Before deadline, On deadline, or After deadline.
    * In the days before deadline field, set the number of days prior to the deadline when you want to send the reminder to learners.
@@ -108,4 +108,3 @@ If leaners have uploaded documents like assignments, reports, or assessments for
    If you have already set reminders for your sessions, you can see them under the Existing Reminder tiles. Further, you can also add additional reminders to your existing reminders.
 
    To delete an existing reminder, click on the reminder. From the pop-up that appears, click the Delete icon (Trash icon) to delete the reminder.
-

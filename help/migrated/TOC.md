@@ -78,11 +78,10 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Settings](integration-admin/feature-summary/settings.md)
    * [Manage custom roles via CSV files](integration-admin/feature-summary/configure-role-csv-files.md)
 
-* Authors
-
+* Authors {#authors}
    * [User login](authors/feature-summary/user-login.md)
    * [Content library](authors/feature-summary/content-library.md)
-   * [Creating, modify, and publish courses](authors/feature-summary/courses.md)
+   * [DUPE Creating, modify, and publish courses](authors/feature-summary/courses.md)
    * [Catalogs](authors/feature-summary/catalogs.md)
    * [Job Aids](authors/feature-summary/job-aids.md)
    * [Adobe Connect integration](authors/feature-summary/adobeconnect-integration.md)
@@ -92,19 +91,17 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [How to choose course modules?](authors/how-to-choose-modules.md)
    * [Preview as learner](authors/feature-summary/fluidic-player.md)
    * [Settings](authors/feature-summary/settings.md)
-   * [xAPI in Learning Manager](authors/feature-summary/xapi.md)
+   * [DUPE? xAPI in Learning Manager](authors/feature-summary/xapi.md)
 
-* Instructor
-
+* Instructor {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
    * [Managing learners for your session](instructors/feature-summary/learners.md)
 
-* Learner
-
+* Learner {#learner}
    * [Log in](learners/feature-summary/user-login.md)
    * [Profile Settings](learners/feature-summary/settings.md)
    * [Catalogs](learners/feature-summary/catalogs.md)
-   * [Courses](learners/feature-summary/courses.md)
+   * [DUPE? Courses](learners/feature-summary/courses.md)
    * [Fluidic player](learners/feature-summary/fluidic-player.md)
    * [Learning Programs](learners/feature-summary/learning-programs.md)
    * [Certifications](learners/feature-summary/certifications.md)
@@ -124,8 +121,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Share to Social Learning](learners/feature-summary/share-to-social.md)
    * [System requirements | Adobe Learning Manager desktop application](learners/adobe-captivate-prime-app-for-desktop/adobe-captivate-prime-desktop-app-system-requirements.md)
 
-* Manager
-
+* Manager {#manager}
    * [User log in](managers/feature-summary/user-login.md)
    * [Manager dashboard](managers/feature-summary/manager-dashboard.md)
    * [Reports](managers/feature-summary/reports.md)
@@ -135,19 +131,17 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Settings](managers/feature-summary/settings.md)
    * [iPad & Android tablet users](managers/feature-summary/ipad-android-tablet-users.md)
 
-* Frequently Asked Questions
-
+* Frequently Asked Questions {#faq}
    * [Frequently Asked Questions for Administrators](administrators/frequently-asked-questions-for-administrators.md)
    * [Frequently Asked Questions for Authors](authors/frequently-asked-questions-for-authors.md)
    * [Frequently Asked Questions for Instructors](instructors/frequently-asked-questions-for-instructors.md)
    * [Frequently Asked Questions for Managers](managers/frequently-asked-questions-for-managers.md)
 
-* Knowledge Base
-
+* Knowledge Base {#knowledge-base}
    * [Unable to log in to Learning Manager](kb/unable-log-in-captivate-prime.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
    * [Unable to upload a CSV](kb/unable-to-upload-csv.md)
-   * [Generate a HAR file](kb/generate-HAR-file.md)
+   * [Generate a HAR file](kb/generate-har-file.md)
    * [L1 feedback auto popup does not appear](kb/L1-feedback-auto-popup-does-not-appear.md)
    * [Unable to view certain courses under catalog while creating a Certification](kb/unable-to-view-certain-courses.md)
    * [Unable to view certain course under catalog while creating a Learning Program](kb/unable-view-course-catalog.md)
@@ -158,7 +152,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Troubleshoot migration issues](kb/troubleshooting-migration.md)
    * [Troubleshoot Learning Manager app issues](kb/troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md)
    * [Users get auto deleted in Learning Manager](kb/auto-delete.md)
-   * [Publishing issues in the EU domain](kb/publish-issue-EU-domain.md)
+   * [Publishing issues in the EU domain](kb/publish-issue-eu-domain.md)
    * [Unable to register as external user](kb/register-issue-external-user.md)
    * [Okta Active Directory integration with Adobe Learning Manager](kb/okta-active-directory-integration.md)
    * [Unable to view learners in a course](kb/unable-view-learners-course.md)
@@ -167,4 +161,3 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Unable to achieve a skill after completing a course](kb/skill-not-achieved.md)
    * [Radio buttons are missing](kb/selection-button-invisible.md)
    * [Unable to view file submissions in Learning Manager](kb/unable-to-view-submitted-file.md)
-

@@ -32,7 +32,7 @@ The Author and Administrator can create learning programs.
 
 You can view a list of all available learning programs as a learner. The Learning Object widget show all the enrolled and assigned learning programs to a learner. From the left pane, click Catalog and filter Learning Programs to view all the available learning programs.
 
-On the **My Learning** page, you can filter the training that you're enroled in, according to **duration **of the training and the **format **of the training.
+On the **My Learning** page, you can filter the training that you're enroled in, according to **duration** of the training and the **format** of the training.
 
 You can see course effectiveness percentage of each course from the Catalog page. There can be multiple instances/sessions to a course/learning program. Click the course or the learning program to view the details. You can also see the deadline date for each instance of the course/learning program.
 

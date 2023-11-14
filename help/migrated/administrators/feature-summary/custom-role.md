@@ -131,73 +131,73 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    The table below illustrates how permissions are granted.
 
-   <table width="100%" cellspacing="0" cellpadding="1" border="1">
+   <table>
     <tbody>
      <tr>
-      <td width="177" valign="top">
+      <td>
        <p><strong> </strong></p></td>
-      <td width="446" colspan="4" valign="top">
+      <td>
        <p><strong>Catalog Level Permission</strong></p></td>
      </tr>
      <tr>
-      <td width="177" valign="top">
+      <td>
        <p><strong>Learning Object- Level Permission</strong></p>
        <p><strong>(Ex: Courses)</strong></p></td>
-      <td width="106" valign="top">
+      <td>
        <p>Full Control</p></td>
-      <td width="104" valign="top">
+      <td>
        <p>Enrol</p></td>
-      <td width="104" valign="top">
+      <td>
        <p>Report</p></td>
-      <td width="132" valign="top">
+      <td>
        <p>Read Only</p></td>
      </tr>
      <tr>
-      <td width="177" valign="top">
+      <td>
        <p>Full Control</p></td>
-      <td width="106" valign="top">
+      <td>
        <p>Full Control</p></td>
-      <td width="104" valign="top">
+      <td>
        <p>Enrol</p></td>
-      <td width="104" valign="top">
+      <td>
        <p>Report</p></td>
-      <td width="132" valign="top">
+      <td>
        <p>Read Only</p></td>
      </tr>
      <tr>
-      <td width="177" valign="top">
+      <td>
        <p>Enrol</p></td>
-      <td width="106" valign="top">
+      <td>
        <p>Enrol</p></td>
-      <td width="104" valign="top">
+      <td>
        <p>Enrol</p></td>
-      <td width="104" valign="top">
+      <td>
        <p>Read Only</p></td>
-      <td width="132" valign="top">
+      <td>
        <p>Read Only</p></td>
      </tr>
      <tr>
-      <td width="177" valign="top">
+      <td>
        <p>Edit &amp; Delete</p></td>
-      <td width="106" valign="top">
+      <td>
        <p>Edit &amp; Delete</p></td>
-      <td width="104" valign="top">
+      <td>
        <p>Read Only</p></td>
-      <td width="104" valign="top">
+      <td>
        <p>Read Only</p></td>
-      <td width="132" valign="top">
+      <td>
        <p>Read Only</p></td>
      </tr>
      <tr>
-      <td width="177" valign="top">
+      <td>
        <p>Report</p></td>
-      <td width="106" valign="top">
+      <td>
        <p>Report</p></td>
-      <td width="104" valign="top">
+      <td>
        <p>Read Only</p></td>
-      <td width="104" valign="top">
+      <td>
        <p>Report</p></td>
-      <td width="132" valign="top">
+      <td>
        <p>Read Only</p></td>
      </tr>
     </tbody>
@@ -247,7 +247,7 @@ As a result, the options, **All Catalogs** and **All User Groups** will get sele
 
 When a user is given a role with a specific entity, there might be cases where they need access to other entities as well to be able to perform tasks on the granted entity. For Instance, if a user is given Create access on Course entity, they need access to Skill and Tag entities so that they can associate them with the course being created. This tables gives you information of such implicit permissions.
 
-<table width="100%" cellspacing="0" cellpadding="1" border="1">
+<table>
  <tbody>
   <tr>
    <th>Access Type</th>

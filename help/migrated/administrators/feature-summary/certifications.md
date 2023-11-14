@@ -36,7 +36,7 @@ As an Admin, you can create a certification program either hosted internally or 
 
 1. Add certificate name, and description.
 
-<table width="100%" cellspacing="0" cellpadding="1" border="1">
+<table>
  <tbody>
   <tr>
    <th>Field</th>

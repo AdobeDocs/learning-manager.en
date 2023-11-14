@@ -15,8 +15,11 @@ Certify your learners on a one time basis or on a recurring time frame using thi
 Learners can take up the certifications which are assigned to them by the administrators of the organization. There are two types of certifications in Captivate Prime.
 
 1. External  
+
    These certificates can be obtained from outside of your organization. Your organization recommends you to take up these certifications and submit proof.
+
 1. Internal  
+
    These certificates can be obtained by completing certain courses prescribed as part of the curriculum. Your organization issues these certifications after completion.
 
 ## Taking up internal certifications {#takingupinternalcertifications}
@@ -25,7 +28,7 @@ Learners can take up the certifications which are assigned to them by the admini
 
 A page appears with a list of all certifications that are relevant to you. 
 
-1. View certifications in various modes:* *
+1. View certifications in various modes:
 
    1. Click Pending widget to see all the certifications that you need to complete.
    1. Click My Learning from the left pane, and select Certifications to view all the certifications.  
@@ -45,9 +48,13 @@ A page appears with a list of all certifications that are relevant to you.
 You have to take up the external certification outside of your organization and submit the proof.
 
 1. From the left pane, click My Learning.  
+
    A page appears with a list of all learning objects relevant to you.
+
 1. Click the external certification that you need to take.  
+
    A certification page appears with the certification overview, the certification validity date, issuer, completion date, type (recurring or perpetual), and, badge.
+
 1. To submit the proof of completion for your certification, click Browse, select the file from your local path and click **Upload**.
 
 ## Completing certifications {#completingcertifications}

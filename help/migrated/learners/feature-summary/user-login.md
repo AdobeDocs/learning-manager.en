@@ -1,5 +1,5 @@
 ---
-description:  Log in as a learner in Captivate Prime.
+description:  Log in as a learner in Learning Manager.
 jcr-language: en_us
 title: Log in
 contentowner: manochan
@@ -12,14 +12,18 @@ Log in as a learner in Captivate Prime.
 
 When you are using Adobe Captivate Prime for the first time, you need to create your account, by following the steps below:
 
-1. Launch Adobe Captivate Prime using the secure link you received by welcome e-mail from your Administrator.  
+1. Launch Adobe Captivate Prime using the secure link you received by welcome e-mail from your Administrator.
+
    Login screen appears.
+
 1. Click Log in.
 
-![](assets/adobeid-signin.png)
+   ![](assets/adobeid-signin.png)
 
 1. Enter Adobe ID, password and click Sign in.  
+
    If you forgot password, click Forgot password? link and provide your email-id that you used for creating Adobe ID.  
+
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
 
 1. Alternatively, you can use Enterprise ID by clicking Sign in with an Enterprise ID link.

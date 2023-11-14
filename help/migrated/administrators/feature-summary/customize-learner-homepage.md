@@ -169,11 +169,11 @@ When the learner signs in to the learner app via a browser, he/she can see the f
  <tbody>
   <tr>
    <td>
-    <p style="text-align: center;"><strong>Home page</strong></p><img src="assets/home-page1.png"></td>
+    <p><strong>Home page</strong></p><img src="assets/home-page1.png"></td>
    <td>
-    <p style="text-align: center;"><strong>My Learning List</strong></p><img src="assets/learning-list.jpg"></td>
+    <p><strong>My Learning List</strong></p><img src="assets/learning-list.jpg"></td>
    <td>
-    <p style="text-align: center;"><strong>View catalog</strong></p><img src="assets/catalog-new.jpg"></td>
+    <p><strong>View catalog</strong></p><img src="assets/catalog-new.jpg"></td>
   </tr>
  </tbody>
 </table>

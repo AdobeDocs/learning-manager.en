@@ -14,7 +14,7 @@ Learn how to use Catalogs in Captivate Prime to view the eligible learning objec
 
 Learners can view all the assigned and eligible learning objects (learning programs, courses and certifications) in the **Default Catalog**. These learning objects are unique to each learner based on his role, designation, user group, profile, and so on.
 
-You can filter the list of learning objects by using skills and type of the learning objects (self-paced, blended, classroom, virtual classroom, activity) . You can also filter using** **the options in the left pane: by Learning Objects, by skills, and by completion status.
+You can filter the list of learning objects by using skills and type of the learning objects (self-paced, blended, classroom, virtual classroom, activity) . You can also filter using the options in the left pane: by Learning Objects, by skills, and by completion status.
 
 Use the search bar on top of the page to enter the names of your familiar learning objects.
 
@@ -28,7 +28,6 @@ You can also filter according to the duration of a training. The duration filter
 
 ![](assets/image015.png)
 
-The training **Duration **and **Format **filters are identified based on the training content available for default instance and for the account preferred locale.
+The training **Duration** and **Format** filters are identified based on the training content available for default instance and for the account preferred locale.
 
 Once a training is published, the training may take up to one hour for the data to be available as a filter.   
-

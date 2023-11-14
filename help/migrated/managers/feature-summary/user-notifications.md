@@ -47,7 +47,7 @@ Managers can get notifications when the following events trigger:
 1. A manager is required to nominate learners to a course
 1. A manager is required to approve a learner for a course.
 1. A manager is required to approve the certification proof document uploaded by the learner
-1. A learner does not complete the course even after the deadline date. (this event triggers only when the notification reminder for the course instance is set with escalation level to the learner’s manager)
+1. A learner does not complete the course even after the deadline date. (this event triggers only when the notification reminder for the course instance is set with escalation level to the learner's manager)
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Managers can get notifications when the following events trigger:
 
 ## Provide feedback {#providefeedback}
 
-#### `As shown in the above snapshot, managers can click Provide Feedback to provide L3 feedback for the learners of each courses or learning programs.`
+As shown in the above snapshot, managers can click Provide Feedback to provide L3 feedback for the learners of each courses or learning programs.
 
 >[!NOTE]
 >
