@@ -322,11 +322,10 @@ This update introduces a new instance of Azure.
 >[!NOTE]
 >
 >The following are not supported in the instance:
-
-* [Custom domain](../custom-domain.md)
-* [Credit card purchase](../administrators/feature-summary/billing-management.md)
-* [Slack integration](../integration-admin/feature-summary/integration-with-slack.md)
-* [Content catalog](../administrators/feature-summary/content-catalogs.md)
+>
+>* [Custom domain](../custom-domain.md)
+>* [Credit card purchase](../administrators/feature-summary/billing-management.md)
+>* [Content catalog](../administrators/feature-summary/content-catalogs.md)
 
 ## Update 66 - August 2021 release of Captivate Prime
 
@@ -1823,7 +1822,7 @@ For a list of new features and enhancements in Captivate Prime April release, re
 
 Use widgets on the home page to manage your courses, skills, and achievements. Use the search bar to perform a search in your entire LMS that spans all the learning objects, catalogs, skills, notes, and discussions
 
-For detailed information on the new home page, see  [Learner home page in Captivate Prime](../learners/feature-summary/getting-started.md#main-pars_text).
+For detailed information on the new home page, see  [Learner home page in Captivate Prime](../learners/feature-summary/getting-started-learner.md).
 
 **Administrator settings for Learner Dashboard**
 

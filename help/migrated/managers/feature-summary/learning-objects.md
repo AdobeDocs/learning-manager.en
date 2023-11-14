@@ -141,7 +141,7 @@ Manager can unenroll a learner if the learner has not yet started the learning p
 
 ## Mark completion {#markcompletion}
 
-A manager can mark a LP complete for learners. For more information, see [Mark completion](../../administrators/feature-summary/learning-programs.md#main-pars_header_917619869).
+A manager can mark a LP complete for learners. For more information, see [Mark completion](../../administrators/feature-summary/learning-paths.md).
 
 ## Certifications {#certifications}
 

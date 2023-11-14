@@ -14,7 +14,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [ALM reference site package for AEM Sites](adobe-learning-manager-integration-aem.md)
    * [Adobe Learning Manager App for Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Learning Manager compliance to GDPR](kb/prime-gdpr.md)
-   * [Accessibility in Learning Manager](accessibility-captivate-prime.md)
+   * [Accessibility in Learning Manager](accessibility-learning-manager.md)
    * [Support for custom domain](custom-domain.md)
 * Get Started {#get-started}
    * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
@@ -53,7 +53,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Settings](administrators/feature-summary/settings.md)
    * [Notifications](administrators/feature-summary/user-notifications.md)
    * [iPad & Android tablet users](administrators/feature-summary/ipad-android-tablet-users.md)
-   * [DUPE - Getting started as Administrator](administrators/feature-summary/getting-started.md)
+   * [Getting started as Administrator](administrators/feature-summary/getting-started.md)
    * [Purge users](administrators/feature-summary/purge-users.md)
    * [Tags](administrators/feature-summary/tags.md)
    * [Learning Manager Content Catalog](administrators/feature-summary/content-catalogs.md)
@@ -63,7 +63,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Monitoring and moderating Social Learning as an admin](administrators/feature-summary/social-learning-configurations-as-an-admin.md)
    * [Enable full control of shared catalog](administrators/feature-summary/shared-catalog-full-control.md)
    * [Map skill with skill domains](administrators/feature-summary/curation-skills.md)
-
 * Integration Admin {#integration}
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager Connectors](integration-admin/feature-summary/connectors.md)
@@ -78,7 +77,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 * Authors {#authors}
    * [User login](authors/feature-summary/user-login.md)
    * [Content library](authors/feature-summary/content-library.md)
-   * [DUPE Creating, modify, and publish courses](authors/feature-summary/courses.md)
+   * [Creating, modify, and publish courses](authors/feature-summary/courses.md)
    * [Catalogs](authors/feature-summary/catalogs.md)
    * [Job Aids](authors/feature-summary/job-aids.md)
    * [Adobe Connect integration](authors/feature-summary/adobeconnect-integration.md)
@@ -88,7 +87,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [How to choose course modules?](authors/how-to-choose-modules.md)
    * [Preview as learner](authors/feature-summary/fluidic-player.md)
    * [Settings](authors/feature-summary/settings.md)
-   * [DUPE? xAPI in Learning Manager](authors/feature-summary/xapi.md)
 * Instructor {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
    * [Managing learners for your session](instructors/feature-summary/learners.md)
@@ -96,7 +94,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Log in](learners/feature-summary/user-login.md)
    * [Profile Settings](learners/feature-summary/settings.md)
    * [Catalogs](learners/feature-summary/catalogs.md)
-   * [DUPE? Courses](learners/feature-summary/courses.md)
+   * [Courses](learners/feature-summary/courses.md)
    * [Fluidic player](learners/feature-summary/fluidic-player.md)
    * [Learning Programs](learners/feature-summary/learning-programs.md)
    * [Certifications](learners/feature-summary/certifications.md)
@@ -135,7 +133,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
    * [Unable to upload a CSV](kb/unable-to-upload-csv.md)
    * [Generate a HAR file](kb/generate-har-file.md)
-   * [L1 feedback auto popup does not appear](kb/L1-feedback-auto-popup-does-not-appear.md)
+   * [L1 feedback auto popup does not appear](kb/l1-feedback-auto-popup-does-not-appear.md)
    * [Unable to view certain courses under catalog while creating a Certification](kb/unable-to-view-certain-courses.md)
    * [Unable to view certain course under catalog while creating a Learning Program](kb/unable-view-course-catalog.md)
    * [Issues in retiring a Learning Program](kb/issues-retiring-learning-program.md)
