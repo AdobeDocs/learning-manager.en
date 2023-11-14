@@ -27,9 +27,9 @@ The MS Teams Admin in their Admin Center should pin the ALM app for all their us
 
 Follow the steps below: 
 
-1. On the Integration Administrator app, select **[!UICONTROL Applications> Featured Apps]**, and select **[!UICONTROL ALM Teams app]**. 
+1. On the Integration Administrator app, select **[!UICONTROL Applications] > **[!UICONTROL Featured Apps]**, and select **[!UICONTROL ALM Teams app]**. 
 
-   ![](assets/integration_admin_featured_apps.jpg)
+   ![](assets/featuredapps.jpg)
 
 1. On the upper-right corner of the screen, select **[!UICONTROL Approve]**. 
 
