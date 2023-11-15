@@ -14,7 +14,7 @@ Learn how to add users or user groups in Captivate Prime application.
 
 ## Overview {#overview}
 
-In Adobe Captivate Prime, you can assume the following roles:
+In Adobe Learning Manager, you can assume the following roles:
 
 * **Administrator:** An Administrator defines the training strategy for the organization. An Administrator can add learners, search required skills for learners, manage and assign courses, create learning plans, certifications, and learning programs, and manage reports for the entire organization.
 * **Author:** Authors are Instructional Designers and content creators. An Author can add modules and courses to Captivate Prime.
@@ -31,7 +31,7 @@ As an Administrator, you can add users in three ways:
 
 To add users,
 
-1. Log into Adobe Captivate Prime as an Administrator. 
+1. Log into Adobe Learning Manager as an Administrator. 
 1. On the home page, click **Add Users**. On this page, you can add a single user or multiple users at a time using a CSV. You can also create a self-registration link for internal employees or create an external learner profile.
 1. To add a single user, click **Add** on the upper-right corner and choose the option **Single User**.
 
@@ -76,7 +76,7 @@ Typically, most organizations work with an HR Management System (HRMS), which ma
 
    ![](assets/save-csv.png)
 
-1. The new users are now added to your Adobe Captivate Prime account. To select the new users, select the check-box next to the names so that everybody is selected. 
+1. The new users are now added to your Adobe Learning Manager account. To select the new users, select the check-box next to the names so that everybody is selected. 
 
    ![](assets/select-new-users.png)
 
@@ -92,7 +92,7 @@ The selected users receive a Welcome email. If the learners have an existing Ado
 
 ## Assign a role {#assignarole}
 
-After adding learners to the Adobe Captivate Prime account, if you want to change their roles, click Actions on the upper-right corner of the page. Choose the option **Assign Role**. Here you can decide whether you want to give Author access or Admin access to the learner. After you have assigned a role, this learner has Author access to the account and can add modules and create courses. 
+After adding learners to the Adobe Learning Manager account, if you want to change their roles, click Actions on the upper-right corner of the page. Choose the option **Assign Role**. Here you can decide whether you want to give Author access or Admin access to the learner. After you have assigned a role, this learner has Author access to the account and can add modules and create courses. 
 
 ![](assets/assign-a-role.png)
 
@@ -130,7 +130,7 @@ Types of active fields:
 
 ## Create a self-registration link {#createaselfregistrationlink}
 
-You can also enable employees in your organization to register themselves as Learners to Adobe Captivate Prime Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Prime using their Adobe credentials.
+You can also enable employees in your organization to register themselves as Learners to Adobe Learning Manager Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Prime using their Adobe credentials.
 
 On the upper-right corner of the page, click **Add**, and choose **Self-Registration**.
 
@@ -144,7 +144,7 @@ After you click **Save**, a URL gets generated, which you can share with the lea
 
 ## Enroll external learners {#enrollexternallearners}
 
-In Adobe Captivate Prime, you can also create Registration links for external partners or agencies with limited access to your account and provide them learning material.
+In Adobe Learning Manager, you can also create Registration links for external partners or agencies with limited access to your account and provide them learning material.
 
 There are a few differences between internal and external registrations.
 
@@ -261,7 +261,7 @@ To access User Groups, on the left navigation pane, click **User Groups**.
 
 ![](assets/user-groups.png)
 
-There are two types of groups in Adobe Captivate Prime, Custom and Auto-generated. When you add learners to your account, some groups are automatically created based on their common properties.
+There are two types of groups in Adobe Learning Manager, Custom and Auto-generated. When you add learners to your account, some groups are automatically created based on their common properties.
 
 To see the automatically created groups, click the tab **Auto-generated**.
 

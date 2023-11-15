@@ -1,24 +1,24 @@
 ---
-description: Install Microsoft Teams connector in Adobe Captivate Prime
+description: Install Microsoft Teams connector in Adobe Learning Manager
 jcr-language: en_us
-title: Install Microsoft Teams connector in Adobe Captivate Prime
+title: Install Microsoft Teams connector in Adobe Learning Manager
 contentowner: saghosh
 ---
 
 
-# Install Microsoft Teams connector in Adobe Captivate Prime
+# Install Microsoft Teams connector in Adobe Learning Manager
 
 ## Overview
 
 Microsoft&reg; Teams&reg; is a persistent chat-based collaboration platform that completely supports document sharing, online meetings, and other features for business communications.
 
-Adobe Captivate Prime uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings with Captivate Prime.
+Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings with Captivate Prime.
 
 Microsoft Teams connector connects Captivate Prime and Microsoft Teams systems to enable automatic virtual meeting synchronization. The following list describes the Microsoft Teams connector capabilities:
 
 **Set up virtual sessions using Microsoft Teams**
 
-This connector helps integrate your Adobe Captivate Prime account with your Microsoft Teams account. Once integrated, the connector enables an Author in Captivate Prime to use Microsoft Teams as the technology service provider for the Virtual Classroom modules created in Captivate Prime.
+This connector helps integrate your Adobe Learning Manager account with your Microsoft Teams account. Once integrated, the connector enables an Author in Captivate Prime to use Microsoft Teams as the technology service provider for the Virtual Classroom modules created in Captivate Prime.
 
 **Allow Microsoft Teams to authenticate learners when entering virtual classroom**
 

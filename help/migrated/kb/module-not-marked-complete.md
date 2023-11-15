@@ -6,11 +6,11 @@ contentowner: nluke
 ---
 
 
-# Module is marked incomplete on course completion in Adobe Captivate Prime
+# Module is marked incomplete on course completion in Adobe Learning Manager
 
 ## Issue
 
-Even after a learner completes a course in Adobe Captivate Prime, the module is marked as incomplete.
+Even after a learner completes a course in Adobe Learning Manager, the module is marked as incomplete.
 
 ## Cause
 

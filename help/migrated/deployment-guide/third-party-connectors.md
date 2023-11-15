@@ -416,7 +416,7 @@ You can use Workday connector to integrate Learning Manager and Workday to autom
 
 The user attributes from Learning Manager and Workday needs to be mapped before importing users. In the Overview page, use the Internal Users option under Import to provide the map attributes.
 
-Enter the Adobe Captivate Prime credentials under Adobe Learning Manager column. Use the drop downs to select the correct credentials for the columns under Workday.
+Enter the Adobe Learning Manager credentials under Adobe Learning Manager column. Use the drop downs to select the correct credentials for the columns under Workday.
 
 Currently, Learning Manager supports the import of 44 user attributes from Workday. Add additional attributes using the Active Fields in Prime.
 

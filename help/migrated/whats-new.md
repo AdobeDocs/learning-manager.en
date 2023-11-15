@@ -1,5 +1,5 @@
 ---
-description: Learn about the new features and enhancements in Adobe Captivate Prime
+description: Learn about the new features and enhancements in Adobe Learning Manager
 jcr-language: en_us
 title: New features summary
 contentowner: jayakarr
@@ -8,7 +8,7 @@ contentowner: jayakarr
 
 # New features summary {#new-features-summary}
 
-Learn about the new features and enhancements in Adobe Captivate Prime
+Learn about the new features and enhancements in Adobe Learning Manager
 
 ## What's new in this release {#whatsnewandchanged}
 
@@ -42,11 +42,11 @@ Learn about the new features and enhancements in Adobe Captivate Prime
 
 Administrators can now set up a library of classroom locations. For each Classroom Location, the administrators can set the metadata that includes Location Name, Seat Limit as well as additional information such as the Location URL. Authors and Administrators can then use these pre-configured classroom locations for setting up instructor-led training events (classroom modules).
 
-For more information, see [**Classroom in Adobe Captivate Prime**](administrators/feature-summary/classroom.md).
+For more information, see [**Classroom in Adobe Learning Manager**](administrators/feature-summary/classroom.md).
 
 ## Gamification
 
-In this release, Adobe Captivate Prime introduces a new gamification task that encourages users to access the learning platform consistently and engage in the learning activities. To support this task, the Administrator can now setup a new rule that awards points if the learner carries out learning activities for 1, 2, 3, or 4 days in a week, month, or quarter.
+In this release, Adobe Learning Manager introduces a new gamification task that encourages users to access the learning platform consistently and engage in the learning activities. To support this task, the Administrator can now setup a new rule that awards points if the learner carries out learning activities for 1, 2, 3, or 4 days in a week, month, or quarter.
 
 For more information, see [**Gamification**](learners/feature-summary/gamification.md).
 
@@ -54,7 +54,7 @@ For more information, see [**Gamification**](learners/feature-summary/gamificati
 
 Microsoft&reg; Teams&reg; is a persistent chat-based collaboration platform that supports document sharing, online meetings, and other features for business communications.
 
-Adobe Captivate Prime uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings into Captivate Prime.
+Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings into Captivate Prime.
 
 Microsoft Teams connector connects the Captivate Prime and Microsoft Teams systems to enable automatic data synchronization.
 
@@ -64,7 +64,7 @@ For more information, see [**Install Microsoft Teams connector**](integration-ad
 
 ## Performance improvements
 
-This release of Adobe Captivate Prime introduces significant performance enhancements for the fluidic player table of contents (TOC). Some of the changes include faster rendering of content, displaying course completion information in the TOC after the player is closed, displaying a tick mark in TOC after a module or course is completed, better support for the content types, such as PDF, video, and audio formats, and so on.
+This release of Adobe Learning Manager introduces significant performance enhancements for the fluidic player table of contents (TOC). Some of the changes include faster rendering of content, displaying course completion information in the TOC after the player is closed, displaying a tick mark in TOC after a module or course is completed, better support for the content types, such as PDF, video, and audio formats, and so on.
 
 ![](assets/player-toc.png)
 
@@ -400,14 +400,14 @@ To see the known issues in this update, refer to [***Known issues***](release-no
   <tr>
    <td><img src="assets/ask-the-community.svg"></td>
    <td>
-    <p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Captivate Prime Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td>
+    <p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td>
   </tr>
  </tbody>
 </table>
 
 ### More like this
 
-* [Adobe Captivate Prime product guide](https://www.adobe.com/products/captivateprime.html)
-* [Adobe Captivate Prime playlist](https://www.youtube.com/playlist?list=PLq21ukQtk0URntzGmTxsx7Qt8z9b9Elth)
-* [Organize your training in Adobe Captivate Prime | Ashwini Jaisim](https://elearning.adobe.com/2020/07/organize-your-trainings-in-adobe-captivate-prime/)
-* [Add your Adobe Captivate Prime Account URL to your Adobe Connect Central Account Summary Page](https://elearning.adobe.com/2019/10/add-adobe-captivate-prime-account-url-adobe-connect-central-account-summary-page/)
+* [Adobe Learning Manager product guide](https://www.adobe.com/products/captivateprime.html)
+* [Adobe Learning Manager playlist](https://www.youtube.com/playlist?list=PLq21ukQtk0URntzGmTxsx7Qt8z9b9Elth)
+* [Organize your training in Adobe Learning Manager | Ashwini Jaisim](https://elearning.adobe.com/2020/07/organize-your-trainings-in-adobe-captivate-prime/)
+* [Add your Adobe Learning Manager Account URL to your Adobe Connect Central Account Summary Page](https://elearning.adobe.com/2019/10/add-adobe-captivate-prime-account-url-adobe-connect-central-account-summary-page/)

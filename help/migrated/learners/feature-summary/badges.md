@@ -12,7 +12,7 @@ Learn how to view and download badges using the Captivate Prime Learner app.
 
 ## Badges {#Badges-1}
 
-Badges are a measure of achievement that your employee can earn upon completing a course. Adobe Captivate Prime introduces one of the latest e-learning concepts called Badges. Professionals across the globe use these badges as a representation of particular skill or a learning achievement.
+Badges are a measure of achievement that your employee can earn upon completing a course. Adobe Learning Manager introduces one of the latest e-learning concepts called Badges. Professionals across the globe use these badges as a representation of particular skill or a learning achievement.
 
 Badges help learners to better define themselves and showcase their granular set of skills in addition to bringing credibility and good visibility for learners.
 

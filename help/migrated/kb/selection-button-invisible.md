@@ -33,4 +33,4 @@ Reload the themes and fix the appearance of the radio buttons. Perform the follo
    ![](assets/set-themes.png)
 
 1. Revert to the previous theme and save the changes.
-1. Log out of Adobe Captivate Prime and sign in again. 
+1. Log out of Adobe Learning Manager and sign in again. 

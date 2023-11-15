@@ -13,7 +13,7 @@ contentowner: jayakarr
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="http://www.adobe.com/in/products/captivateprime.html">Adobe Captivate Prime</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -29,11 +29,11 @@ contentowner: jayakarr
 * HTML code displays when learners check their notifications, which adversely impacts the experience.
 * On the dashboard, the learning spent time is incorrectly displayed as zero hours.
 
-## UPDATE: Adobe Captivate Prime will be rebranded to Adobe Learning Manager
+## UPDATE: Adobe Learning Manager will be rebranded to Adobe Learning Manager
 
 This is an update about an upcoming change and help you prepare for it.
 
-**Adobe Captivate Prime as a product will be rebranded to Adobe Learning Manager in July 2022**. This is a strategic effort being done to more accurately reflect alignment of the product with certain business priorities.
+**Adobe Learning Manager as a product will be rebranded to Adobe Learning Manager in July 2022**. This is a strategic effort being done to more accurately reflect alignment of the product with certain business priorities.
 
 The product team is taking all steps to ensure that there is no impact on your usage of the platform. You can continue to use the product as usual. The Administrators of the platform may notice the new brand name in certain screens in July.
 
@@ -73,7 +73,7 @@ An [instance](https://captivateprimeapac.adobe.com/acapindex.html) of Captivate 
 
 ### What is supported
 
-Adobe Captivate Prime India instance is at par with other instances like EU and US regions in terms of feature capabilities. There are a few features which are not supported in India instance. These are:
+Adobe Learning Manager India instance is at par with other instances like EU and US regions in terms of feature capabilities. There are a few features which are not supported in India instance. These are:
 
 * Credit card payment for purchase of seats  
 * Creative Cloud content catalog  
@@ -115,7 +115,7 @@ Release date: 15 January, 2022
 * ...and many more
 
 <!--
-For more information, see What's new in the [**January 2022 release of Adobe Captivate Prime**](../whats-new.md).
+For more information, see What's new in the [**January 2022 release of Adobe Learning Manager**](../whats-new.md).
 -->
 
 ### Bugs fixed in this release
@@ -184,7 +184,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Cap
 
 **Publish**
 
-* In the European instance of Captivate Prime content that was directly published to Adobe Captivate Prime from Adobe Captivate was getting published in Deutsch locale by default. This is now fixed.
+* In the European instance of Captivate Prime content that was directly published to Adobe Learning Manager from Adobe Captivate was getting published in Deutsch locale by default. This is now fixed.
 
 **API**
 
@@ -243,7 +243,7 @@ Release date: October 28, 2021
 
 ### Learning Path
 
-The **October 2021 release of Adobe Captivate Prime** introduces the concept of Learning Paths. 
+The **October 2021 release of Adobe Learning Manager** introduces the concept of Learning Paths. 
 
 >[!NOTE]
 >
@@ -329,7 +329,7 @@ This update introduces a new instance of Azure.
 
 ## Update 66 - August 2021 release of Captivate Prime
 
-The **August 2021** **release of Adobe Captivate Prime** focuses on improving Learner Experience, Reporting, and Administrative workflows. Some of the highlights include:
+The **August 2021** **release of Adobe Learning Manager** focuses on improving Learner Experience, Reporting, and Administrative workflows. Some of the highlights include:
 
 * **Content marketplace:** Captivate Prime now offers more than 70000 courses from varied domains, such as, Technology, Management, Leadership, and so on.
 * **Enhanced Accessibility support:** Accessibility support for the learner role strengthens via enhanced keyboard navigation, screen reader capability, and contrast ratio compliance. 
@@ -689,7 +689,7 @@ This release focuses on the following:
 * LinkedIn Learning Enhancements  
 * ...and many more
 
-For more information, see  [***What's new in the December 2020 release of Adobe captivate Prime***](../whats-new.md).
+For more information, see  [***What's new in the December 2020 release of Adobe Learning Manager***](../whats-new.md).
 
 ### Unsupported features in mobile immersive experience {#unsupportedfeaturesinmobileimmersiveexperience}
 
@@ -801,7 +801,7 @@ This release focuses on the following:
 * Data retention policy changes
 * ...and many more
 
-For more information, see  [***What's new in the August 2020 release of Adobe captivate Prime***](../whats-new.md).
+For more information, see  [***What's new in the August 2020 release of Adobe Learning Manager***](../whats-new.md).
 
 ### Notes about this release {#notes}
 
@@ -1050,7 +1050,7 @@ As an instructor, you can see session and course names in the Attendance view. Y
 
 Learners can now view an announcement in full view instead of a list view. This happens when the learner has one unread announcement. This enhances the learners experience in viewing the announcement.
 
-Adobe Captivate Prime now allows you to customize your account to provide a richer experience to your users. Here's a list of elements that can be customized. Contact [Captivate Prime support](mailto:captivateprimesupport@adobe.com)to make these changes.
+Adobe Learning Manager now allows you to customize your account to provide a richer experience to your users. Here's a list of elements that can be customized. Contact [Captivate Prime support](mailto:captivateprimesupport@adobe.com)to make these changes.
 
 * Training card colors.
 * Progress icon
@@ -1380,7 +1380,7 @@ Release date: June 20, 2019
 
 **Auto curation of content**
 
-Social Learning allows content posted by learners to be curated in two ways namely - **No Curation** and **Manual Curation**. In this release, Adobe Captivate Prime enhances social learning by providing AI-enabled auto curation capabilities. Once content is posted, the content is analyzed to identify if the content belongs to the skill for which it is posted. Based on the confidence score, the content is either posted live or sent for manual curation. For more information, see * [**Auto-assisted curation**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Social Learning allows content posted by learners to be curated in two ways namely - **No Curation** and **Manual Curation**. In this release, Adobe Learning Manager enhances social learning by providing AI-enabled auto curation capabilities. Once content is posted, the content is analyzed to identify if the content belongs to the skill for which it is posted. Based on the confidence score, the content is either posted live or sent for manual curation. For more information, see * [**Auto-assisted curation**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Map skill with skill domains**
 
@@ -1541,7 +1541,7 @@ Performance enhancement
 
 Release date: May 19, 2018.
 
-* This release of Adobe Captivate Prime rolls out new features and enhancements. It brings to you the ability to create custom roles, add catalog labels, capacity to purge users, manage tags, rename Learning Objects, Slack integration, new connector integrations, support to xAPI, and much more. For more information about the new features and enhancements, see  [New feature's summary](../whats-new.md#main-pars_text).
+* This release of Adobe Learning Manager rolls out new features and enhancements. It brings to you the ability to create custom roles, add catalog labels, capacity to purge users, manage tags, rename Learning Objects, Slack integration, new connector integrations, support to xAPI, and much more. For more information about the new features and enhancements, see  [New feature's summary](../whats-new.md#main-pars_text).
 
 * Captivate Prime is compliant with GDPR. For more information, see [Captivate Prime compliance to GDPR.](../kb/prime-gdpr.md)
 
@@ -1576,9 +1576,9 @@ Release date: May 19, 2018.
 
 Release date: March 25, 2018
 
-The March 2018 version of Adobe Captivate Prime rolls out exciting new features and enhancements. It brings to you, generation of user audit trail reports and login/access reports, gives Learners the capacity to choose course instances, enhancements to classrooms and virtual classrooms, and much more. This release also brings to you bug fixes and performance enhancements.
+The March 2018 version of Adobe Learning Manager rolls out exciting new features and enhancements. It brings to you, generation of user audit trail reports and login/access reports, gives Learners the capacity to choose course instances, enhancements to classrooms and virtual classrooms, and much more. This release also brings to you bug fixes and performance enhancements.
 
-To read all that is new in this release, see  [What's New in Adobe Captivate Prime](../whats-new.md).
+To read all that is new in this release, see  [What's New in Adobe Learning Manager](../whats-new.md).
 
 ### Known Issue {#KnownIssue-1}
 
@@ -1910,7 +1910,7 @@ You can add URLs as announcements by adding the URL in HTML.
 
 **Add New Delivery Types (Courses)**
 
-Adobe Captivate Prime now lets you add delivery types for your courses.
+Adobe Learning Manager now lets you add delivery types for your courses.
 
 **Author role enhancements**
 
@@ -2652,7 +2652,7 @@ For more information on this feature, refer to  [Announcements Help](../learners
 
 ### Tin Can API support
 
-Adobe Captivate Prime supports the Tin Can API (also known as Experience API or xAPI) specification. You can upload and track Tin Can API compatible content similar to how you track SCORM and AICC content.
+Adobe Learning Manager supports the Tin Can API (also known as Experience API or xAPI) specification. You can upload and track Tin Can API compatible content similar to how you track SCORM and AICC content.
 
 For more information, contact Adobe support team.
 

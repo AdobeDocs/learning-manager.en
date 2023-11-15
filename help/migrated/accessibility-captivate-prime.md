@@ -5,13 +5,13 @@ description: This document outlines the accessibility support provided by Learni
 contentowner: saghosh
 ---
 
-# Accessibility in Adobe Captivate Prime
+# Accessibility in Adobe Learning Manager
 
 This document outlines the accessibility support provided by Captivate Prime Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
 
 Captivate Prime follows W3C's WCAG 2.1 Level A and AA accessibility standards for the platform.
 
-Adobe Captivate Prime Learner role allows learners to navigate through the platform and take advantage of following key accessibility capabilities:
+Adobe Learning Manager Learner role allows learners to navigate through the platform and take advantage of following key accessibility capabilities:
 
 * Screen Reader
 * Keyboard
@@ -20,7 +20,7 @@ Adobe Captivate Prime Learner role allows learners to navigate through the platf
 
 ## Support for Screen Readers {#supportforscreenreaders}
 
-Adobe Captivate Prime supports screen readers like NVDA, JAWS, and Voice-over on desktop, Talkback and Voice-over on mobile, which enable learners to read out the text on Captivate Prime platform and navigate accordingly.
+Adobe Learning Manager supports screen readers like NVDA, JAWS, and Voice-over on desktop, Talkback and Voice-over on mobile, which enable learners to read out the text on Captivate Prime platform and navigate accordingly.
 
 Here is the screen reader and browser combination that we support on desktop:
 
@@ -211,7 +211,7 @@ Use the `kbd Tab`key to navigate through the elements on the page. Use the `kbd 
 
 1. Once the training is identified, hit `kbd ENTER`to navigate to the training page. 
 
-## Consume a training in Adobe Captivate Prime {#consumeatraininginadobecaptivateprime}
+## Consume a training in Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
 1. Once a training is identified, use `kbd Tab`or `kbd Shift + Tab` to navigate to the Enroll/Start button. Button status depends on your enrollment status for that training. 
 
@@ -254,13 +254,13 @@ Let's look at the accessibility features learners can utilize based on their spe
 
 ### Users who have difficulty with color
 
-Adobe Captivate Prime Learner role strives to provide users with a User Interface that is clear and readable in accordance with WCAG 2.1 standards.
+Adobe Learning Manager Learner role strives to provide users with a User Interface that is clear and readable in accordance with WCAG 2.1 standards.
 
 For a better experience on the learner page, use the [Vivid theme](https://helpx.adobe.com/in/captivate-prime/administrators/feature-summary/themes.html).
 
 ### Users who have limited mobility and reach
 
-Adobe Captivate Prime continues to focus on Accessibility and plans to improve the current capabilities which will allow learners of the system to navigate through the 'Learner' role better.
+Adobe Learning Manager continues to focus on Accessibility and plans to improve the current capabilities which will allow learners of the system to navigate through the 'Learner' role better.
 
 ### Closed captioning support for videos
 

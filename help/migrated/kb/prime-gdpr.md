@@ -18,7 +18,7 @@ GDPR is a new regulation by the European Union that comes into effect on 25 May 
 
 +++
 
-+++How or Why does it apply to you as an Adobe Captivate Prime customer?
++++How or Why does it apply to you as an Adobe Learning Manager customer?
 
 While GDPR is a EU regulation, it is applicable to business entities worldwide, that collects personal information for any user who may be EU resident.  As a Captivate Prime customer, evaluate if GDPR is applicable to your organization.
 
@@ -26,9 +26,9 @@ While GDPR is a EU regulation, it is applicable to business entities worldwide, 
 
 +++What role does Adobe play in this as a vendor of Captivate Prime?
 
-As per GDPR, If your business provides a product or service to EU residents, and determines how and why to collect, track, and monitor their data, you're considered a [data controller](https://gdpr-info.eu/art-24-gdpr/). As an Adobe Captivate Prime customer, if you perform one of these activities you are considered as a data controller.
+As per GDPR, If your business provides a product or service to EU residents, and determines how and why to collect, track, and monitor their data, you're considered a [data controller](https://gdpr-info.eu/art-24-gdpr/). As an Adobe Learning Manager customer, if you perform one of these activities you are considered as a data controller.
 
-Businesses that process data on behalf of controllers are considered  [data processors](https://gdpr-info.eu/art-28-gdpr/). As a vendor of cloud-hosted LMS Adobe Captivate Prime, Adobe plays the role of a data processor. Here are some more details about  [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Businesses that process data on behalf of controllers are considered  [data processors](https://gdpr-info.eu/art-28-gdpr/). As a vendor of cloud-hosted LMS Adobe Learning Manager, Adobe plays the role of a data processor. Here are some more details about  [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
 +++
 

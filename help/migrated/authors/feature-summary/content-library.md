@@ -398,7 +398,7 @@ Note that existing courses that use the content, which are deleted from the cont
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-1 - **How to upload a SCORM content in Adobe Captivate Prime?** Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Captivate Prime, upload the zip file in the catalog, and set the completion and success criteria. 
+1 - **How to upload a SCORM content in Adobe Learning Manager?** Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Captivate Prime, upload the zip file in the catalog, and set the completion and success criteria. 
 
 2 - **How do I upload a new version of the same content to Captivate Prime?** In Captivate Prime, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course. 
 

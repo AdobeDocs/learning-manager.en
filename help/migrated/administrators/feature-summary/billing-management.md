@@ -14,7 +14,7 @@ Credit card-based purchase is only available in the [US region](http://captivate
 
 Manage Captivate Prime billing, place orders by using a credit card, subscribe using a Purchase Order, or via a Monthly Active Users plan.
 
-Adobe Captivate Prime has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Captivate Prime](https://www.adobe.com/products/captivateprime.html) page.
+Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Captivate Prime](https://www.adobe.com/products/captivateprime.html) page.
 
 Only the Administrators of your organization can manage billing.
 
@@ -108,7 +108,7 @@ You can choose purchase order process as an alternative mode of payment. As a pr
 
 After an account gets activated, the account can be in any of the following states:
 
-* **Trial** - You can create an Adobe Captivate Prime account and use it without any payment for a period of 30 days. There is no limit on the number of learners registered during the trial period.
+* **Trial** - You can create an Adobe Learning Manager account and use it without any payment for a period of 30 days. There is no limit on the number of learners registered during the trial period.
 * **Active** - In this state, the account has active learner subscriptions with recurring monthly payment as per the subscription order.
 * **Inactive** - An account moves into inactive state in the following scenarios:
 

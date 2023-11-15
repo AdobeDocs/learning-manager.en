@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Badges
 
-Badges are a measure of achievement that your employee can earn upon completing a course. Adobe Captivate Prime introduces one of the latest e-learning concepts called Badges. Professionals across the globe use these badges as a representation of particular skill or a learning achievement.
+Badges are a measure of achievement that your employee can earn upon completing a course. Adobe Learning Manager introduces one of the latest e-learning concepts called Badges. Professionals across the globe use these badges as a representation of particular skill or a learning achievement.
 
 You can define Badges that could serve as a motivation to users.
 

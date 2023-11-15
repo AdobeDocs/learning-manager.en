@@ -85,7 +85,7 @@ You can also set multiple account configurations in multiple pages.
 
 The AEM author must first add the component in AEM template
 
-The AEM author then will be able to drag and drop the Adobe Captivate Prime component and configure accordingly.
+The AEM author then will be able to drag and drop the Adobe Learning Manager component and configure accordingly.
 
 Captivate Prime component requires the configuration created in above step to be mapped to the Page.  Author can map the configuration by Editing Page Properties under **Advanced** > **Configuration** > **Cloud Configuration** and provide path of configuration. In this way, Author can create configurations for multiple Captivate Prime accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
 

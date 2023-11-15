@@ -63,7 +63,7 @@ While you are previewing the changes Live, the Live theme preview pop-up still a
 
 ## Customize your account {#customize}
 
-Adobe Captivate Prime allows you to customize your account to provide enhanced user experience.
+Adobe Learning Manager allows you to customize your account to provide enhanced user experience.
 
 The list below displays the components that can be customized. To customize the account, contact Captivate Prime  [support](mailto:captivateprimesupport@adobe.com).
 

@@ -195,6 +195,6 @@ To turn off the e-mail template, select the template that needs to be disabled, 
 
 +++How to change the Sender Name and Address in the template?
 
-To change the sender name and e-mail address, contact [Adobe Captivate Prime support](https://helpx.adobe.com/contact/enterprise-support.other.html#captivate-prime). 
+To change the sender name and e-mail address, contact [Adobe Learning Manager support](https://helpx.adobe.com/contact/enterprise-support.other.html#captivate-prime). 
 
 +++

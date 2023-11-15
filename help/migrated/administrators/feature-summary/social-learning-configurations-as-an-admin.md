@@ -21,7 +21,7 @@ To enable and configure the Social Learning feature, do the following:
 
    ![](assets/artboard-20-2x.png) ![](assets/enable-social-learningforthefirsttime.png) ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)
 
-1. The admin can configure  settings for Social Learning. Settings include types of Content Curations like **Manual-Only Curation** and **No Curation**. Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Captivate Prime desktop application.
+1. The admin can configure  settings for Social Learning. Settings include types of Content Curations like **Manual-Only Curation** and **No Curation**. Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Learning Manager desktop application.
 
 ## Content curation {#contentcuration}
 
@@ -31,7 +31,7 @@ Since Social Learning is an informal learning, its functionality is similar to o
 
 **Auto-assisted Manual Curation:** Captivate Prime has an artificial intelligence-based auto curation engine that can intelligently find out the essence of the content of any format that can later be served to the desired learners. It can also approve or reject a content from being posted based on its given confidence score.
 
-For example, Adarsh is a learner and he found a blog interesting, so he posts it on Adobe Captivate Prime's Social Learning platform. The post is then fed to the AI-powered Content Curation Engine which predicts the skills present in the content and compares those skills with the associated board skills. If any of the skills match, then the content is posted otherwise it is sent for manual-only curation. 
+For example, Adarsh is a learner and he found a blog interesting, so he posts it on Adobe Learning Manager's Social Learning platform. The post is then fed to the AI-powered Content Curation Engine which predicts the skills present in the content and compares those skills with the associated board skills. If any of the skills match, then the content is posted otherwise it is sent for manual-only curation. 
 
 The minimum confidence score required for posting is 50%. 
 
@@ -177,7 +177,7 @@ If the active field does not contain any value, then the **Value** field drop-do
 
 ![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)
 
-Users can also post their content by using Adobe Captivate Prime desktop application. Depending on whether you are a Mac or Windows user, click the given links to download the desktop application and follow the given steps to install it onto your system. If you are facing any difficulties in installation, [click here](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
+Users can also post their content by using Adobe Learning Manager desktop application. Depending on whether you are a Mac or Windows user, click the given links to download the desktop application and follow the given steps to install it onto your system. If you are facing any difficulties in installation, [click here](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
 
 ## Board Creation Permissions {#permission}
 
@@ -342,7 +342,7 @@ The administrator can view the Activity Score, number of posts, boards, users, a
 
 ## Skill domain {#skilldomain}
 
-Based on the skills mostly used by Captivate Prime end users, Adobe Captivate Prime has categorized a list of 25 skill domains that the auto curation system uses to curate content. The admin must map the configured enterprise skills to the skill domains provided by Prime. The mapping of skills can be done from the admin skill page while creating a skill or by modifying an existing skill. For more information on how to map or add a skill, [click here](skills-levels.md#Createaskillandalevel).
+Based on the skills mostly used by Captivate Prime end users, Adobe Learning Manager has categorized a list of 25 skill domains that the auto curation system uses to curate content. The admin must map the configured enterprise skills to the skill domains provided by Prime. The mapping of skills can be done from the admin skill page while creating a skill or by modifying an existing skill. For more information on how to map or add a skill, [click here](skills-levels.md#Createaskillandalevel).
 
 +++List of skill domains that is used by Captivate Prime's curation system
 

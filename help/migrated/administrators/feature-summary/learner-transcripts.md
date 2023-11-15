@@ -12,7 +12,7 @@ Captivate Prime Learning Programs are renamed to Learning Paths. This change hap
 
 Download learner transcript and manage reports using Captivate Prime.
 
-Adobe Captivate Prime enables the administrators of an organization to generate the transcripts associated with learners. 
+Adobe Learning Manager enables the administrators of an organization to generate the transcripts associated with learners. 
 
 ## Generate Learner transcripts {#generatelearnertranscripts}
 

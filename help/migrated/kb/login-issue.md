@@ -10,11 +10,11 @@ contentowner: nluke
 
 ## Issue
 
-Unable to log in to Adobe Captivate Prime. 
+Unable to log in to Adobe Learning Manager. 
 
 ## Error
 
-When trying to log in to Adobe Captivate Prime, the error message, shown below, displays:
+When trying to log in to Adobe Learning Manager, the error message, shown below, displays:
 
 ![](assets/cp-error.png)
 
@@ -22,13 +22,13 @@ When trying to log in to Adobe Captivate Prime, the error message, shown below, 
 
 When a user logs in through SSO, it creates a session cookie that gets stored in the browser. It also enables the user to log in to other applications. Most SSOs are configured to log out after 24 hours. The user has to authenticate again for a new session. 
 
-In certain instances, a user is unable to access the system because of stale SSO cookies. These cookies are forwarded to Adobe Captivate Prime for authentication. The session does not end if a user does not close the browser for a long time or has not logged out.
+In certain instances, a user is unable to access the system because of stale SSO cookies. These cookies are forwarded to Adobe Learning Manager for authentication. The session does not end if a user does not close the browser for a long time or has not logged out.
 
-Adobe Captivate Prime rejects these stale cookies resulting in an error.
+Adobe Learning Manager rejects these stale cookies resulting in an error.
 
 ## Resolution
 
-If a stale cookie gets rejected by Adobe Captivate Prime, try the below options:
+If a stale cookie gets rejected by Adobe Learning Manager, try the below options:
 
 1. Clear the browser cookies and cache. For more information, see this [document](unable-log-in-learning-manager.md).  
 

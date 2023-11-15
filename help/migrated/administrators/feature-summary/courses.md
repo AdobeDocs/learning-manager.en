@@ -345,7 +345,7 @@ As per the pie-chart shown above, more weightage is given to L3 feedback from ma
 
 ## Searching courses and learning programs {#searchingcoursesandlearningprograms}
 
-Adobe Captivate Prime makes it easier for you to find the courses/learning programs of your choice quickly. You can search for your courses in two ways:
+Adobe Learning Manager makes it easier for you to find the courses/learning programs of your choice quickly. You can search for your courses in two ways:
 
 1. Using Search field. Click search icon displayed at the upper-right corner. A search field appears. Type the course name or any keywords associated with your courses to locate your courses/learning programs. You can also search using predefined tags like Captivate, C, Java, and HTML. Tags are searchable inside Search field, which means the tags are displayed in search field as you type.
 1. By filtering list of courses/learning programs using the filters. You can filter the courses by state such as All, published, draft, and Retired. In Administrator mode, draft filter does not appear.
@@ -447,9 +447,9 @@ While performing a search,  the option Unenroll > Bulk in the  Actions drop-down
 
 ## Share QR code with learners to enroll, complete or both {#shareqrcodewithlearnerstoenrollcompleteorboth}
 
-Administrators in Adobe Captivate prime can share the QR codes with learners to quickly enroll into the course. The three different QR codes are used to mark the 'enrollment', 'completion' or 'enrollment & completion' of a course.
+Administrators in Adobe Learning Manager can share the QR codes with learners to quickly enroll into the course. The three different QR codes are used to mark the 'enrollment', 'completion' or 'enrollment & completion' of a course.
 
-Learners can simply use the Adobe Captivate Prime device app to scan the respective QR code.
+Learners can simply use the Adobe Learning Manager device app to scan the respective QR code.
 
 **To download the QR code, do the following**:
 
@@ -473,7 +473,7 @@ A typical course life cycle looks as follows:
 
 **Retired** -  After publishing a course, an author can move it to a retired state if he doesn't want the course to appear in course catalog for learners. You can re-publish or delete a course at this state.
 
-**Deleted** -  A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Courses can be deleted by authors only when they are in draft state. You can also delete courses from retired state. 
+**Deleted** -  A course under deleted state is when it is removed completely from the Adobe Learning Manager application. Courses can be deleted by authors only when they are in draft state. You can also delete courses from retired state. 
 
 ![](assets/lifecycle-03.png)
 

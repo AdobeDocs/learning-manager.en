@@ -34,7 +34,7 @@ Use the filter options as shown in the snapshot below to locate the courses in t
 
    If Adobe Connect is not configured for your account, a warning message appears as shown in the screenshot above. Template, instructors and other Adobe Connect options are disabled. You need to contact your Administrator to configure Adobe Connect for your account. 
 
-1. Adobe Captivate Prime application fetches the default templates (meeting, training and event) and instructors list (users with host permissions) from Adobe Connect. Choose the template of your choice.
+1. Adobe Learning Manager application fetches the default templates (meeting, training and event) and instructors list (users with host permissions) from Adobe Connect. Choose the template of your choice.
 
 1. Choose the instructor for your VC course from the list of instructors.
 

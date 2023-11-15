@@ -90,7 +90,7 @@ As per the pie-chart shown above, more weightage is given to L3 feedback from ma
 
 ## Searching courses, learning Programs and Certifications {#searchingcourseslearningprogramsandcertifications}
 
-Adobe Captivate Prime makes it easier for you to find the courses/learning programs of your choice quickly. You can search for your courses in two ways:
+Adobe Learning Manager makes it easier for you to find the courses/learning programs of your choice quickly. You can search for your courses in two ways:
 
 1. Using Search field. Click search icon displayed at the upper-right corner. A search field appears. Type the course name or any keywords associated with your courses to locate your courses/learning programs. You can also search using predefined tags like Captivate, C, Java, and HTML. Tags are searchable inside Search field, which means the tags are displayed in search field as you type. Search can be executed by using unique id as well.
 1. By filtering list of courses/learning programs/Certifications using the filters. You can filter the courses by the state such as All, published and Retired.

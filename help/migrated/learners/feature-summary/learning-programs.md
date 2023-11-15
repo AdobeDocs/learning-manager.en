@@ -16,7 +16,7 @@ Learning programs are a set of uniquely designed courses meeting specific learne
 
 ## Overview {#overview}
 
-Adobe Captivate Prime enables learners to access the courses and learning programs. Learners can browse through all the available learning programs by using catalog or enroll themselves to learning programs of their choice. Learners can view all the enrolled courses and the courses assigned to them in Courses.
+Adobe Learning Manager enables learners to access the courses and learning programs. Learners can browse through all the available learning programs by using catalog or enroll themselves to learning programs of their choice. Learners can view all the enrolled courses and the courses assigned to them in Courses.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ You can see course effectiveness percentage of each course from the Catalog page
 
 ## Searching courses and learning programs {#searchingcoursesandlearningprograms}
 
-Adobe Captivate Prime makes it easier for you to find the courses of your choice quickly. You can search for your learning programs in the following ways:
+Adobe Learning Manager makes it easier for you to find the courses of your choice quickly. You can search for your learning programs in the following ways:
 
 1. Using Search field. Click on the search bar displayed on top of the page. Type the course/learning program name or any keywords associated with your courses to locate your learning programs. You can also search using predefined tags like Captivate, C, Java, HTML, and so on. Tags are searchable inside search field, which means the tags are displayed in search field as you type.
 1. Learner can search for learning objects based on the course completion status: All, yet to start, completed, in progress.

@@ -1,22 +1,22 @@
 ---
-description: Learn how to use Adobe Captivate Prime's desktop application to create and enrich content that can be shared on Social Learning.
+description: Learn how to use Adobe Learning Manager's desktop application to create and enrich content that can be shared on Social Learning.
 jcr-language: en_us
-title: Adobe Captivate Prime desktop application
+title: Adobe Learning Manager desktop application
 contentowner: kuppan
 ---
 
 
-# Adobe Captivate Prime desktop application
+# Adobe Learning Manager desktop application
 
-Learn how to use Adobe Captivate Prime's desktop application to create and enrich content that can be shared on Social Learning.
+Learn how to use Adobe Learning Manager's desktop application to create and enrich content that can be shared on Social Learning.
 
-The Adobe Captivate Prime desktop application is primarily meant for learners who use Captivate Prime Social Learning. Once installed on a desktop, the application enables learners to create content and post them to boards in Captivate Prime to facilitate informal, collaborative, and social learnings among peers. In addition, the desktop application also ensures that learners get Social Learning notifications on their desktop, even if they are not necessarily logged into Captivate Prime's web application. 
+The Adobe Learning Manager desktop application is primarily meant for learners who use Captivate Prime Social Learning. Once installed on a desktop, the application enables learners to create content and post them to boards in Captivate Prime to facilitate informal, collaborative, and social learnings among peers. In addition, the desktop application also ensures that learners get Social Learning notifications on their desktop, even if they are not necessarily logged into Captivate Prime's web application. 
 
 Learners can create rich content including video, audio, and screenshots and share them with other learners. The content could literally be anything - a software demo or walkthrough, a presentation, a podcast, or an annotated screenshot of something that can be shared.
 
 On Captivate Prime Social Learning web page, click new Post and select record video, or record audio, or take a screenshot, or Captivate Prime gallery to launch the desktop application. For more information on Social Learning, [click here](feature-summary/social-learning-web-user.md).
 
-If users do not have the desktop application, you can download it from the Adobe Captivate Prime desktop page. If you are unable to download, [click here](../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
+If users do not have the desktop application, you can download it from the Adobe Learning Manager desktop page. If you are unable to download, [click here](../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
 
 Once the user has finished installing the application, he/she must sign into it using their Captivate Prime learner credentials. The home page appears like the below screenshot. 
 
@@ -69,7 +69,7 @@ To record an audio, do the following:
 1. Click the record button to start recording.
 1. Once users are done recording the audio, click the pause button to stop recording.
 1. To preview the recording, click the play button.
-1. If users want to record an additional audio to the same file, click **Resume**. Once the desired recording is met, click **Next** to save the file to a desired location. The recording is saved in the Adobe Captivate Prime app for desktop gallery where users can view their recordings and screenshots.
+1. If users want to record an additional audio to the same file, click **Resume**. Once the desired recording is met, click **Next** to save the file to a desired location. The recording is saved in the Adobe Learning Manager app for desktop gallery where users can view their recordings and screenshots.
 1. To edit the recording, see [Editing a recording](adobe-learning-manager-app-for-desktop.md#Editing) and to publish see [Publishing a recording](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Creating a screenshot {#creatingascreenshot}
@@ -152,7 +152,7 @@ Once all changes and edits are made, click **Share** > type or search for a **sk
 
 ## Browsing Captivate Prime desktop gallery {#browsingcaptivateprimedesktopgallery}
 
-All recordings and screenshots are saved in Adobe Captivate Prime desktop application. To browse these files, click **Gallery** from the left navigation panel in the home page. 
+All recordings and screenshots are saved in Adobe Learning Manager desktop application. To browse these files, click **Gallery** from the left navigation panel in the home page. 
 
 The gallery can also be launched from Social Learning by clicking the **Captivate Prime Gallery** icon while creating a post.
 
@@ -168,7 +168,7 @@ Notifications in Captivate Prime appear in the notifications window regardless o
 
 To mute notifications, click **profile menu** > **Settings > **Mute notifications**.
 
-## Settings in Adobe Captivate Prime desktop application {#settingsinadobecaptivateprimedesktopapplication}
+## Settings in Adobe Learning Manager desktop application {#settingsinadobecaptivateprimedesktopapplication}
 
 In the **Settings** page, change the following settings:
 

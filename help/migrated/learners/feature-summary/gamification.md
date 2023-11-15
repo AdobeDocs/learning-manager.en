@@ -37,7 +37,7 @@ Some of the features of Leaderboard for learners:
 
 ## Points for consistent learning
 
-Adobe Captivate Prime introduces a new gamification task that encourages users to access the learning platform consistently and engage in the learning activities. To support this task, the Administrator can now setup a new rule that awards points if the learner carries out learning activities for 1, 2, 3, or 4 days in a week, month, or quarter.
+Adobe Learning Manager introduces a new gamification task that encourages users to access the learning platform consistently and engage in the learning activities. To support this task, the Administrator can now setup a new rule that awards points if the learner carries out learning activities for 1, 2, 3, or 4 days in a week, month, or quarter.
 
 Note that the gamification points for this rule are awarded once every 24 hours. For example, if a learner performs a learning activity today at 8AM Pacific Standard Time (PST) and has received gamification points for today, then tomorrow he will be considered for gamification points only if he performs a learning activity any time after 8AM PST.
 
@@ -53,7 +53,7 @@ The following activities are considered as learning activities:
 
 **Gamification points for providing L1 and L3 feedback and star rating**
 
-Adobe Captivate Prime now enables an Administrator to activate a gamification criterion that awards points to users when they provide an L1 feedback, L3 feedback, and a star rating.
+Adobe Learning Manager now enables an Administrator to activate a gamification criterion that awards points to users when they provide an L1 feedback, L3 feedback, and a star rating.
 
 ![](assets/feedback-rating.png)
 

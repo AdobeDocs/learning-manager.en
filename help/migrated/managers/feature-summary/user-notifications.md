@@ -12,7 +12,7 @@ Captivate Prime Learning Programs are renamed to Learning Paths. This change hap
 
 Setting up User notifications for Managers.
 
-Notifications feature is applicable to all the users of Adobe Captivate Prime 1.0. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
+Notifications feature is applicable to all the users of Adobe Learning Manager 1.0. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 
 ## Access notifications {#accessnotifications}
 

@@ -38,15 +38,15 @@ If you want to install the package, you must first delete the existing package i
 
 >[!NOTE]
 >
->The Adobe Captivate Prime app is only supported in Salesforce Lightning view.
+>The Adobe Learning Manager app is only supported in Salesforce Lightning view.
 
 1. Launch the  [Captivate Prime package url](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftest.salesforce.com%2Fpackaging%2FinstallPackage.apexp%3Fp0%3D04t1k0000008YWn&data=04%7C01%7Ckillamse%40adobe.com%7Cf588f553fc694d2edee108d9a5c74711%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637723097572585825%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=mhYKVdwvS4F7WPruy0Kvw%2FsqgWxzTQpaZJyEACu8CNw%3D&reserved=0).  
 1. In the **Login** page, click **Use Custom Domain**.
 
 1. Enter the package URL and click **Continue**. The installation page must have the option Install for Admins Only selected. Do not change this option.
-1. Click **Install**. Once the package is installed, click **Done**. You are guided to the Installed Packages page, and you can see the Adobe Captivate Prime installed package.
+1. Click **Install**. Once the package is installed, click **Done**. You are guided to the Installed Packages page, and you can see the Adobe Learning Manager installed package.
 
-1. Go to the App Launcher (next to Setup) and search for Adobe Captivate Prime.
+1. Go to the App Launcher (next to Setup) and search for Adobe Learning Manager.
 1. To configure the app, click **Configure**.
 1. Click **New** and add the following details:
 
@@ -120,11 +120,11 @@ The next step is to provide the permission to access the Captivate Prime app.
 
 ![](assets/permission-set.png)
 
-When you install the package, a new permission set is created, **Adobe Captivate Prime User**. Go to the permission set and then add the users.
+When you install the package, a new permission set is created, **Adobe Learning Manager User**. Go to the permission set and then add the users.
 
 Select the users and assign the permissions accordingly. The learners can now access the Captivate Prime app.
 
-Now, select a profile, for example, Standard Profile of a user, and click the profile. Click **Edit** and in the **Custom App Settings** section, enable the check-box **Adobe Captivate Prime**. This makes the app accessible to the user.
+Now, select a profile, for example, Standard Profile of a user, and click the profile. Click **Edit** and in the **Custom App Settings** section, enable the check-box **Adobe Learning Manager**. This makes the app accessible to the user.
 
 In the **Custom Tab Settings** section, in the **Learner Home** drop-down list, select the option **Default On**.
 

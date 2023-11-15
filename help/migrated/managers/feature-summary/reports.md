@@ -12,7 +12,7 @@ Captivate Prime Learning Programs are renamed to Learning Paths. This change hap
 
 Creating and managing reports for Managers.
 
-Adobe Captivate Prime enables you to create varied reports to track, monitor, and control learner activities. Learners activities are tracked and captured automatically into the database. Manager and Administrator reports are generated from the database.
+Adobe Learning Manager enables you to create varied reports to track, monitor, and control learner activities. Learners activities are tracked and captured automatically into the database. Manager and Administrator reports are generated from the database.
 
 ## Overview {#overview}
 

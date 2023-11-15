@@ -28,7 +28,7 @@ The issue occurs due to the following:
 ### Browser
 
 1. Launch the browser.
-1. Log in to Adobe Captivate Prime.
+1. Log in to Adobe Learning Manager.
 1. On the address bar, click the zoom icon.  
 1. Click **Reset**.
 1. Change the expiry date of the enrollment profile.

@@ -10,7 +10,7 @@ contentowner: saghosh
 
 ## Issue
 
-In Adobe Captivate Prime, Learning Summary does not display current data for Enrollment, Completion, or Progressions.
+In Adobe Learning Manager, Learning Summary does not display current data for Enrollment, Completion, or Progressions.
 
 There are situations when a learner completes a course. However, the data is not visible in the Learning Summary when viewed by an Administrator or Manager. 
 

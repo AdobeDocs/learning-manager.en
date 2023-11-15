@@ -34,7 +34,7 @@ Minimum 5 GB of available hard-disk space.
 
 ## Miscellaneous
 
-An active Internet connection and Adobe Captivate Prime learner account required to use the application.
+An active Internet connection and Adobe Learning Manager learner account required to use the application.
 
 ## Browser specifications
 
@@ -241,7 +241,7 @@ Captivate Prime requires these two cookies to authorize and authenticate every A
 * **Display:** Minimum supported resolution is 1024x720 display. 
 * **Disk space:** Minimum 5 GB of available hard-disk space.
 * **Recording:** Microphone required for audio recording; webcam required for video recording.
-* **Miscellaneous:** Internet connection and Adobe Captivate Prime learner account required for using the application.
+* **Miscellaneous:** Internet connection and Adobe Learning Manager learner account required for using the application.
 
 ## Accessibility
 

@@ -12,7 +12,7 @@ Captivate Prime Learning Programs are renamed to Learning Paths. This change hap
 
 Learn about the Reports associated with Administrator role in Captivate Prime application.
 
-Adobe Captivate Prime enables you to create varied reports to track, monitor, and control learner activities. Learners activities are tracked and captured automatically into the database. Manager and Administrator reports are generated from the database.
+Adobe Learning Manager enables you to create varied reports to track, monitor, and control learner activities. Learners activities are tracked and captured automatically into the database. Manager and Administrator reports are generated from the database.
 
 ## Overview {#overview}
 
@@ -426,7 +426,7 @@ In x-axis, choose the user attribute option and select the attribute from the **
 
 ## Types of reports {#typesofreports}
 
-Adobe Captivate Prime supports four major types of reports such as completion, time spent, skills, and effectiveness. You can use the following report types to generate reports of 300+ variations:
+Adobe Learning Manager supports four major types of reports such as completion, time spent, skills, and effectiveness. You can use the following report types to generate reports of 300+ variations:
 
 * Course delivery statistics for learners
 * Effectiveness of courses report
@@ -552,7 +552,7 @@ As an administrator, you can download reports for courses. Follow these steps:
 
 ## Learner Transcripts {#LearnerTranscripts-1}
 
-Adobe Captivate Prime enables the administrators of an organization to generate the transcripts associated with learners. The Learner Transcript report carries the following:
+Adobe Learning Manager enables the administrators of an organization to generate the transcripts associated with learners. The Learner Transcript report carries the following:
 
 1. Learner Transcript: Learning Activity Dashboard
 1. Skill: Skill Dashboard

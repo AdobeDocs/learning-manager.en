@@ -12,7 +12,7 @@ Read this article to know how to achieve skills in Captivate Prime, as a learner
 
 Skills map is a grouping of skill sets, knowledge, and traits of an employee in an organization. These skills help companies/organizations to set or raise the performance expectations for its employees. Skills enable employees to align their behaviors to organizational expectations.
 
-Adobe Captivate Prime enables you to map the performance of learners based on their skill sets using the Skills widget. When learners complete taking up some courses, learners can know their standing against each skill by clicking on Skills from the Learners Home page.
+Adobe Learning Manager enables you to map the performance of learners based on their skill sets using the Skills widget. When learners complete taking up some courses, learners can know their standing against each skill by clicking on Skills from the Learners Home page.
 
 ## View skills {#viewskills}
 

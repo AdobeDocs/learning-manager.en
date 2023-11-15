@@ -10,7 +10,7 @@ contentowner: saghosh
 
 ## Error: Data truncation: Data too long for column
 
-When trying to upload a CSV in Adobe Captivate Prime, you see the following error message.
+When trying to upload a CSV in Adobe Learning Manager, you see the following error message.
 
 ![](assets/csv-upload-failed.png)
 

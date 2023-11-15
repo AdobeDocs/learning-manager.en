@@ -10,7 +10,7 @@ contentowner: jayakarr
 
 ## Overview {#overview}
 
-Salesforce&trade; is one of the most popular CRM solutions among sales and marketing teams. Using Adobe Captivate Prime app in Salesforce you can allow its users to access all of their learning content right from their Salesforce interface. Users can access their assigned learning content such as courses, learning programs, job aids, and so on from within the Salesforce. Users can also receive notifications about their enrollments and announcements from the Administrator. 
+Salesforce&trade; is one of the most popular CRM solutions among sales and marketing teams. Using Adobe Learning Manager app in Salesforce you can allow its users to access all of their learning content right from their Salesforce interface. Users can access their assigned learning content such as courses, learning programs, job aids, and so on from within the Salesforce. Users can also receive notifications about their enrollments and announcements from the Administrator. 
 
 At the moment, Salesforce app is not available as the approval is pending from Salesforce App Exchange. If you are interested to take a preview of beta version of the app, contact your Account Manager or Captivate Prime support team. 
 
@@ -52,7 +52,7 @@ To add the Captivate Prime notification component to the Home page layout, follo
    ![](assets/homepage-component.png)
 
 1. Choose the layout of your choice and click **Edit**. 
-1. Select the Adobe Captivate Prime notifications option that appears on the page and Click **Next**. 
+1. Select the Adobe Learning Manager notifications option that appears on the page and Click **Next**. 
 1. Choose the order of the components that appear on the left pane, preview, and click **Save**. 
 
 To learn the instructions on how to log in to Captivate Prime app and use it in Salesforce as a learner, refer to the [Salesforce app Help content](../../learners/feature-summary/sfdc-app.md). 

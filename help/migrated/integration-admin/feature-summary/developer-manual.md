@@ -14,7 +14,7 @@ Captivate Prime V1 API is now deprecated. The V1 APIs will stop working from 28t
 
 ## Overview {#overview}
 
-[Adobe Captivate Prime](http://www.adobe.com/in/products/captivateprime.html) is a cloud-hosted, learner-centric, and self-service learning management solution. Customers can access Captivate Prime resources programmatically using the Captivate Prime API to integrate it with other enterprise applications. The API can also be used by Adobe partners to enhance the value proposition of Captivate Prime, by extending its functionality or by integrating it with other applications or services.
+[Adobe Learning Manager](http://www.adobe.com/in/products/captivateprime.html) is a cloud-hosted, learner-centric, and self-service learning management solution. Customers can access Captivate Prime resources programmatically using the Captivate Prime API to integrate it with other enterprise applications. The API can also be used by Adobe partners to enhance the value proposition of Captivate Prime, by extending its functionality or by integrating it with other applications or services.
 
 ### Usage scenario {#usagescenario}
 
@@ -854,4 +854,4 @@ You can add external applications by clicking **Approve** at the upper-right cor
 
 **1. Does Captivate Prime have an E-commerce integration?**
 
-Adobe Captivate Prime does not have an E-commerce integration. However, we provide APIs so that you can create your own headless LMS and implement E-commerce features. 
+Adobe Learning Manager does not have an E-commerce integration. However, we provide APIs so that you can create your own headless LMS and implement E-commerce features. 

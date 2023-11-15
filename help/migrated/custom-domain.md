@@ -14,7 +14,7 @@ Custom Domains are not supported in an Azure instance of Captivate Prime.
 
 Custom Domain support allows the customers to gain complete control over the domain name that they can use for their account in Captivate Prime. A customer needs to purchase the custom domain separately and work with Adobe team to set it up as their login URL for their learning platform. 
 
-This allows the customer to white label the login and access experience, such that the users do not see any presence of Adobe or Adobe Captivate Prime. 
+This allows the customer to white label the login and access experience, such that the users do not see any presence of Adobe or Adobe Learning Manager. 
 
 For instance, you'd like to customize your domain such that your users get the same experience as if they are on the Adobe domain. If ABC Inc wants to train their customers, it would like them to land on a domain called `abc.com/mylearning`, instead of `captivateprime.adobe.com/abc-inc/mylearning`. 
 

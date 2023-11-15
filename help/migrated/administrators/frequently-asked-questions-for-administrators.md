@@ -44,25 +44,25 @@ Users should get added on Learners page.
 
 +++How do I set up alerts?
 
-In Adobe Captivate Prime 1.0 release, you can create notifications. Refer  [notifications question](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/user-notifications.html) for more information.
+In Adobe Learning Manager 1.0 release, you can create notifications. Refer  [notifications question](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/user-notifications.html) for more information.
 
 +++
 
 +++How do I add certificates for the courses?
 
-Adobe Captivate Prime does not provide certificates for the courses. However, Administrator can create badges for each course by clicking Badges tab in the left panel. When Administrator is enrolling learners to a course, he can also associate a badge along with it.
+Adobe Learning Manager does not provide certificates for the courses. However, Administrator can create badges for each course by clicking Badges tab in the left panel. When Administrator is enrolling learners to a course, he can also associate a badge along with it.
 
 +++
 
 +++How do I import signatures for the certificates?
 
-In Adobe Captivate Prime there is no feature to import signatures for the certification or badge.
+In Adobe Learning Manager there is no feature to import signatures for the certification or badge.
 
 +++
 
 +++Can I set up a calendar for the courses? How?
 
-In Adobe Captivate Prime 1.0 release, we do not have any provision to set up calendar for the courses.
+In Adobe Learning Manager 1.0 release, we do not have any provision to set up calendar for the courses.
 
 +++
 
@@ -259,7 +259,7 @@ Managers, Authors and learners can see notifications based on the course activit
 
 +++How do I allow external enrollment for the courses?
 
-Adobe Captivate Prime provides you the facility to enroll external department members or external employees of your organization to the application.
+Adobe Learning Manager provides you the facility to enroll external department members or external employees of your organization to the application.
 
 1. Click **Users** on the left pane.
 1. Click **External** on the left pane.
@@ -315,7 +315,7 @@ Refer [Billing management](https://helpx.adobe.com/content/help/en/captivate-pri
 
 +++Can I customize the certificate design? How?
 
-In Adobe Captivate Prime, you can recognize learners by issuing badges. Refer to Badges feature for more information.  Also, refer to Certification feature.
+In Adobe Learning Manager, you can recognize learners by issuing badges. Refer to Badges feature for more information.  Also, refer to Certification feature.
 
 +++
 

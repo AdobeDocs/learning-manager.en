@@ -16,7 +16,7 @@ Authors can create learning objects such as courses, certifications, and learnin
 
 ## Courses in Captivate Prime {#coursesincaptivateprime}
 
-Adobe Captivate Prime enables authors to create courses using one or more modules related to virtual training, self-paced training, classroom training, and activities. Administrators can further use these courses to create course instances, enroll learners, assign badges, and enable feedback for these courses. They can also create learning programs, learning plans, and certifications using these courses.
+Adobe Learning Manager enables authors to create courses using one or more modules related to virtual training, self-paced training, classroom training, and activities. Administrators can further use these courses to create course instances, enroll learners, assign badges, and enable feedback for these courses. They can also create learning programs, learning plans, and certifications using these courses.
 
 Authors can use e-learning content that is created using any eLearning tool. Other supported course formats include video files, PDF, doc, docx, PPT, and PPTX.
 
@@ -24,7 +24,7 @@ Authors can use e-learning content that is created using any eLearning tool. Oth
 
 To create a course, follow the steps below:
 
-1. Log in to Adobe Captivate Prime as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **Create Courses**.
+1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **Create Courses**.
 1. On the **Course Overview** page, enter the name of the course. Now, enter a short description for this course, which is displayed on the course card. This description must not be more than 140 characters. Then enter the detailed overview for the course, which is displayed on the Course Details page. The description must not exceed 1500 characters.
 
    As an author, you can see the description of the modules while adding the module to a course.
@@ -46,7 +46,7 @@ To create a course, follow the steps below:
 
 ## Create a course - Advanced workflow {#createacourseadvancedworkflow}
 
-1. Log in to Adobe Captivate Prime as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **Create Courses**.
+1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **Create Courses**.
 1. On the **Course Overview** page, enter the name of the course. Now, enter a short description for this course, which is displayed on the course card. This description must not be more than 140 characters. Then enter the detailed overview for the course, which is displayed on the Course Details page. The description must not exceed 1500 characters.
 1. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **Save**. For more information, see [Add content for different languages](https://helpx.adobe.com/captivate-prime/authors/feature-summary/content-library.html#Addcontentfordifferentlanguages).
 1. **Modify course settings**-
@@ -223,7 +223,7 @@ You can now add Content, Prework, and Testout modules. **Content** modules are t
 
 To add a content module, perform the steps below:
 
-1. Click **Add Modules**. You can see four options to add modules. The first option is to add Self Paced Modules. These are the modules that you create and add to the module library in Adobe Captivate Prime. These second option is to set up the Virtual Classroom. The third one is to set up a Classroom Module, and the fourth is Activity Module.
+1. Click **Add Modules**. You can see four options to add modules. The first option is to add Self Paced Modules. These are the modules that you create and add to the module library in Adobe Learning Manager. These second option is to set up the Virtual Classroom. The third one is to set up a Classroom Module, and the fourth is Activity Module.
 
    ![](assets/select-module-type.png)
 
@@ -392,7 +392,7 @@ A typical course life cycle looks as follows:
 * **Draft** - When an author completes creating a course and saving it. At this state, course is not available yet for learners.
 * **Published** - When an author completes publishing a course. At this state, the course is available for learners to enroll. You can also edit a course at this state.
 * **Retired** - After publishing a course, an author can move it to a retired state if the author doesn't want the course to appear in course catalog for learners.
-* **Deleted** - A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Only authors can delete courses when they are in Draft or Retired states. 
+* **Deleted** - A course under deleted state is when it is removed completely from the Adobe Learning Manager application. Only authors can delete courses when they are in Draft or Retired states. 
 
 ![](assets/typical-course-lifecycle.png)
 
@@ -430,7 +430,7 @@ You can create a copy of the course and then modify the course. If you want to b
 
 ## Search for courses {#searchforcourses}
 
-Adobe Captivate Prime makes it easier for you to find the courses of your choice quickly. You can search for your courses in the following ways:
+Adobe Learning Manager makes it easier for you to find the courses of your choice quickly. You can search for your courses in the following ways:
 
 **Search field:** Click the search bar on the upper-right corner of the **Course Catalog** page. Type the course name or any keywords associated with your courses. You can also search using tags that are added during course creation. Tags are searchable inside Search Courses field, which means the tags are displayed in search field as you type.
 
@@ -504,7 +504,7 @@ You can also publish the course modules to Captivate Prime from Adobe Captivate 
 1. Log in with Adobe credentials. If you do not have an Adobe id, click **Create Account**. After authorization, you are directed to module publishing page.
 1. Provide all the basic information about the module and click Publish.
 
-You can see the published module on the Captivate Prime modules page. For more information, see [Publish project to Adobe Captivate Prime](https://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html).
+You can see the published module on the Captivate Prime modules page. For more information, see [Publish project to Adobe Learning Manager](https://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html).
 
 ## Course effectiveness {#courseeffectiveness}
 
@@ -634,7 +634,7 @@ For more information, see the [section on multiple attempts](courses.md#Allowmul
 
 +++
 
-+++Can you download the content that has been uploaded on Adobe Captivate Prime to modify the content?
++++Can you download the content that has been uploaded on Adobe Learning Manager to modify the content?
 
 No, the content uploaded on Prime is a published zip file and is not the source file. Therefore, even if the content is downloaded, the content cannot be edited in an authoring tool. You would require a source file to edit the content.
 

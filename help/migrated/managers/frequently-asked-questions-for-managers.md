@@ -117,7 +117,7 @@ You can switch over to learner role to view all the available courses. Refer to 
 
 +++How do I get Manager role access?
 
-Administrator of your company will assign manager role to you based on your eligibility and designation in your organization. When you log in, you see the Manager role home page in Adobe Captivate Prime.
+Administrator of your company will assign manager role to you based on your eligibility and designation in your organization. When you log in, you see the Manager role home page in Adobe Learning Manager.
 
 +++
 
@@ -126,7 +126,7 @@ Administrator of your company will assign manager role to you based on your elig
 When you are using Captivate Prime for the first time, you have three options:
 
 * Log in with Adobe ID and password. If you do not have an Adobe ID, you can create one by clicking the log in with Adobe ID link and following the instructions.
-* If you have not yet created account in Adobe Captivate Prime, create your account by clicking Create Account on the log in screen.
+* If you have not yet created account in Adobe Learning Manager, create your account by clicking Create Account on the log in screen.
 
 +++
 

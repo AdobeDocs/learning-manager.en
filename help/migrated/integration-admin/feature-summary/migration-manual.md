@@ -18,7 +18,7 @@ Reference manual for Integration Administrators who want to migrate an existing 
   <tr>
    <td><img src="assets/migration.jpg"></td>
    <td>
-    <p><a href="http://www.adobe.com/in/products/captivateprime.html">Adobe Captivate Prime</a> is a cloud-hosted, learner-centric, and self-service learning management solution. Adobe enables enterprises with the existing Learning Management Systems (LMS) to migrate their organization's training data and training content to the Captivate Prime LMS application. </p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> is a cloud-hosted, learner-centric, and self-service learning management solution. Adobe enables enterprises with the existing Learning Management Systems (LMS) to migrate their organization's training data and training content to the Captivate Prime LMS application. </p></td>
   </tr>
  </tbody>
 </table>
@@ -29,7 +29,7 @@ In general, large enterprises have their in-house LMS or any vendor provided leg
 
 Captivate Prime provides the necessary tools and specifications so that your organization's integration Administrator can set up and perform the migration tasks. 
 
-As of today, the Migration feature in Captivate Prime can be accessed by an organization's Administrators by contacting Adobe support team. To enable Migration feature in your account, you can reach out to the Adobe Captivate Prime support team.
+As of today, the Migration feature in Captivate Prime can be accessed by an organization's Administrators by contacting Adobe support team. To enable Migration feature in your account, you can reach out to the Adobe Learning Manager support team.
 
 ## Migration process {#apidescription}
 

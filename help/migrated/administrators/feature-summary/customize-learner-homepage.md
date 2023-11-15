@@ -220,7 +220,7 @@ On the **General** page, you have the following options:
    <td>
     <p>Customize</p></td>
    <td>
-    <p>Adobe Captivate Prime allows you to customize your account to provide a richer experience to your users.<br></p></td>
+    <p>Adobe Learning Manager allows you to customize your account to provide a richer experience to your users.<br></p></td>
   </tr>
   <tr>
    <td>

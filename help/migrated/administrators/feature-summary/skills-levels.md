@@ -14,7 +14,7 @@ Create, assign, and modify skills and levels.
 
 Skills map is a grouping of skill sets, knowledge, and traits of an employee in an organization. These skills maps help companies/organizations to set or raise the performance expectations for its employees. Skills enable employees to align their behaviors to organizational expectations.
 
-Adobe Captivate Prime enables you to map the performance of learners based on their skill sets using skills map. When learners complete taking up some courses, learners can know their standing against each skill by viewing the skill maps.
+Adobe Learning Manager enables you to map the performance of learners based on their skill sets using skills map. When learners complete taking up some courses, learners can know their standing against each skill by viewing the skill maps.
 
 The fundamental purpose of Skills in the Captivate Prime LMS is to provide the Administrator with a tool that aligns learning with business goals.
 
@@ -202,8 +202,8 @@ You can delete a skill only when it is not associated with any learners, courses
 
 ### More like this
 
-* [Skills and Adobe Captivate Prime](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
-* [Adobe Captivate Prime LMS for Employee Skill Development](https://www.youtube.com/watch?v=FSLHlsYzyHA)
+* [Skills and Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
+* [Adobe Learning Manager LMS for Employee Skill Development](https://www.youtube.com/watch?v=FSLHlsYzyHA)
 
 <!--
 Saurav: FYI, Adobe employees should not post Adobe content to YouTube. Videos should be added to MPC. Contact Sean Schnoor for more information.

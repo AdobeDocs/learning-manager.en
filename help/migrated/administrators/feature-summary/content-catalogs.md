@@ -12,8 +12,8 @@ Captivate Prime introduces Content Catalog
 
 Content Catalog is not supported in an Azure instance of Captivate Prime.
 
-* **Course** means a single consolidation of Work(s) and eLearning modules on a specific topic that is created and supplied to the Customer with Adobe Captivate Prime.
-* **Content Contributor** is the proprietary owner of Courses who has authorized Adobe to exhibit and sublicense such Courses on Adobe Captivate Prime.
+* **Course** means a single consolidation of Work(s) and eLearning modules on a specific topic that is created and supplied to the Customer with Adobe Learning Manager.
+* **Content Contributor** is the proprietary owner of Courses who has authorized Adobe to exhibit and sublicense such Courses on Adobe Learning Manager.
 
 Captivate Prime introduces Content Catalog, a set of ready to use content base that you can purchase. You can buy off the shelf courses such as courses in business skills, workplace compliance, Adobe creative cloud, and technology in our curated content marketplace.
 

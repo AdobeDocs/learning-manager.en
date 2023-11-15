@@ -18,7 +18,7 @@ Similarly, Captivate Prime Social Learning feature allows users to be able to in
 
 On this platform, the different type of content that can be shared are video, audio, screenshot, text, question, and poll. Users can also share their online learnings with their peers by using the **Share to Social bookmarklet**. For more information, see  [Share to Social Learning](share-to-social.md).
 
-Content can also be posted inside a board with the help of the **Adobe Captivate Prime desktop application**. For more information, see  [Adobe Captivate Prime app for desktop](../adobe-learning-manager-app-for-desktop.md).
+Content can also be posted inside a board with the help of the **Adobe Learning Manager desktop application**. For more information, see  [Adobe Learning Manager app for desktop](../adobe-learning-manager-app-for-desktop.md).
 
 Only if the administrator enables Social Learning, the feature is visible to a learner .
 
@@ -127,9 +127,9 @@ Content is created as a post inside a board. To create a post, follow the below 
 
    ![](assets/new-post-01.png)
 
-1. Select any of the following types of contents to be posted: Text, question, video, audio, poll, and screenshot. Existing content can be uploaded from users system or from the Adobe Captivate Prime desktop application's gallery.
+1. Select any of the following types of contents to be posted: Text, question, video, audio, poll, and screenshot. Existing content can be uploaded from users system or from the Adobe Learning Manager desktop application's gallery.
 
-   Use Adobe Captivate Prime desktop app to record a video or screen, audio, and take a screenshot. For more information, see [Adobe Captivate Prime desktop application](../adobe-learning-manager-app-for-desktop.md). 
+   Use Adobe Learning Manager desktop app to record a video or screen, audio, and take a screenshot. For more information, see [Adobe Learning Manager desktop application](../adobe-learning-manager-app-for-desktop.md). 
 
    ![](assets/types-of-post-03.png)
 
@@ -187,7 +187,7 @@ Users can use the following type of content to make a comment: Record Screen, we
 
 ## Content in Social player {#contentinsocialplayer}
 
-In Captivate Prime, videos, static content like presentations and images are posted inside Social player in a board. You can uploading a file from your system, recording a video/screen, and capture a screenshot with the assistance of Adobe Captivate Prime desktop application.
+In Captivate Prime, videos, static content like presentations and images are posted inside Social player in a board. You can uploading a file from your system, recording a video/screen, and capture a screenshot with the assistance of Adobe Learning Manager desktop application.
 
 Once the user has finished posting some content, it can be viewed by other learners in their activity scope. On Social player learners can view, comment/reply, upvote/downvote, and report abuse. 
 
