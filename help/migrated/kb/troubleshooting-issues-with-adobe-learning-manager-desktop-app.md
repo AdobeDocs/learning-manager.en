@@ -24,8 +24,8 @@ This document contains basic troubleshooting tips to solve some of the typical p
 +++I am unable to install Adobe Captivate Prime desktop application
 
 1. Make sure that your system meets the minimum system requirements. See [System requirements for Adobe Captivate Prime App for desktop](../learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md).
-1. Clean up any previous installation of Adobe Captivate Prime desktop application. For more information, see  [How to clean previous installations](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#HowtocleanuppreviousinstallationsofAdobeCaptivatePrimedesktopapp) for more information.
-1. For errors during installation process, see [How to find application logs](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtofindapplicationlogs). Contact your Adobe Captivate Prime desktop application administrator for more help.
+1. Clean up any previous installation of Adobe Captivate Prime desktop application. For more information, see  [How to clean previous installations](#howtocleanuppreviousinstallationsofadobelearningmanagerdesktopapp) for more information.
+1. For errors during installation process, see [How to find application logs](#howtofindapplicationlogs). Contact your Adobe Captivate Prime desktop application administrator for more help.
 
 +++
 
@@ -59,7 +59,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 1. Make sure that you have a valid Adobe Captivate Prime learner account with Social Learning enabled by your Adobe Captivate Prime administrator.
 1. Reset application preferences, and then relaunch Adobe Captivate Prime desktop application and retry. For more info, see [How to reset application preferences](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtoresetapplicationpreferences).
-1. For errors while publishing, enable advanced logging. For more information, see [How to enable advanced logging](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtoenableadvancedlogging), restart Adobe Captivate Prime desktop application, redo the above steps that cause the error. Send the latest application logs to your Adobe Captivate Prime administrator for Help. For more information, see [How to find application logs](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtofindapplicationlogs).****
+1. For errors while publishing, enable advanced logging. For more information, see [How to enable advanced logging](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtoenableadvancedlogging), restart Adobe Captivate Prime desktop application, redo the above steps that cause the error. Send the latest application logs to your Adobe Captivate Prime administrator for Help. For more information, see [How to find application logs](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#howtofindapplicationlogs).****
 
 +++
 
@@ -67,7 +67,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 1. You can only see projects created with your Adobe Captivate Prime account, on the same computer on which they were created.
 1. Reset application preferences, and then relaunch Adobe Captivate Prime desktop application and retry. For Help, see [How to reset application preferences](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtoresetapplicationpreferences).
-1. For errors while opening projects, enable advanced logging. For more information, see [How to enable advanced logging](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtoenableadvancedlogging). Restart Adobe Captivate Prime desktop application and redo the steps that cause the error. Send the latest application logs to your Adobe Captivate Prime administrator for Help. For more information, see [How to find application logs](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtofindapplicationlogs).****
+1. For errors while opening projects, enable advanced logging. For more information, see [How to enable advanced logging](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtoenableadvancedlogging). Restart Adobe Captivate Prime desktop application and redo the steps that cause the error. Send the latest application logs to your Adobe Captivate Prime administrator for Help. For more information, see [How to find application logs](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#howtofindapplicationlogs).****
 
 +++
 
@@ -172,7 +172,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
    You or your Adobe Captivate Prime administrator might have changed the default projects folder location. Contact your administrator for more Help to locate and clean up projects.
 
-## How to clean up previous installations of Adobe Captivate Prime desktop app? {#howtocleanuppreviousinstallationsofadobecaptivateprimedesktopapp}
+## How to clean up previous installations of Adobe Learning Manager desktop app? {#howtocleanuppreviousinstallationsofadobelearningmanagerdesktopapp}
 
 ### Windows {#Windows-3}
 
