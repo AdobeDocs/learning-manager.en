@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Learning Paths
-description: A Learning Path is a journey that a learner must go through to master some subject over time. Learners are in control over their training experience and can acquire and retain knowledge in a self-paced manner with greater effectiveness.
+description: Creating Learning Plans for Administrators in Learning Manager.
 contentowner: saghosh
 ---
 
 
-# Learning Paths {#learning-paths}
+# Learning Paths
 
 ## What is a Learning Path?
 
@@ -26,9 +26,9 @@ Learning paths makes the delivery of a training program convenient and hassle-fr
 1. Ability to create sections. Each section can have a title.   
 1. Ability to make sections mandatory and setup completion criteria.
 
-## Add a Learning Path in Learning Manager 
+## Add a Learning Path in Captivate Prime 
 
-In Learning Manager, in the Admin app, click **Learning Path** on the left panel.
+In Captivate Prime, in the Admin app, click **Learning Path** on the left panel.
 
 In the **Learning Path** page, click **Add**. Enter the details.
 
@@ -80,13 +80,13 @@ You can include a Learning Path inside a Learning Path, but you can nest at most
 
 Insert the Learning Path like inserting a course. 
 
-![](assets/nested-learning-path.png) 
+![](assets/nested-learning-path.png)
 
 ## Learning Path Settings
 
 In the Settings section, you can add the pre-requisites and the Job Aids that a learner must take before starting the Learning Path. You can also add resources that are helpful to the learner.
 
-![](assets/learing-path-settings.png) 
+![](assets/learing-path-settings.png)
 
 ## Instances
 
@@ -96,7 +96,7 @@ In the **Courses** tile, you can see the course instances that are visible to th
 
 The **Enable Learners to Choose instances (Flexible Learning Path)** check-box is only applicable to courses. All child Learning Paths will get an option to map a Learning Program instance with Learning Path. By default, the mapping is set to Default Instance.
 
-![](assets/default-instance.png) 
+![](assets/default-instance.png)
 
 ## Notifications
 
@@ -114,9 +114,9 @@ Please note that the existing feature of Learning Programs will be renamed to Le
 
 Learning Paths bring to you a range of functionalities. Some of them are available immediately after the release. Admins/Authors can start using them. Extended capabilities like "Sections", "adding Learning Path in another Path" etc. are disabled and can be enabled by checking the check-box mentioned below.
 
-Learners can continue to consume Learning Programs (now called Learning Paths) and Authors/Admins can continue to create them as well. To take benefit of extended functionalities of Learning Path mentioned above, Administrator should enable the setting as mentioned below. Once enabled, all the new extended capabilities of Learning Path will become available. 
+ Learners can continue to consume Learning Programs (now called Learning Paths) and Authors/Admins can continue to create them as well. To take benefit of extended functionalities of Learning Path mentioned above, Administrator should enable the setting as mentioned below. Once enabled, all the new extended capabilities of Learning Path will become available. 
 
-The **Settings > General** page has a new option to enable Learning Paths. If this option is enabled, you can add courses and Learning Programs in a Learning Path. You cannot change the option once it is enabled.
+The **Settings** > **General** page has a new option to enable Learning Paths. If this option is enabled, you can add courses and Learning Programs in a Learning Path. You cannot change the option once it is enabled.
 
 ## Other Learning Path-related details 
 

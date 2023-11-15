@@ -6,7 +6,7 @@ preview: true
 ---
 
 
-# Learning Manager Deployment Guide - Section 2 {#learning-manager-deployment-guide-section}
+# Learning Manager Deployment Guide - Section 2
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
@@ -111,7 +111,7 @@ After you evaluate your existing data, you must map this data with the standard 
 
 Ensure that each .csv file contains the data for each field in the prescribed format:
 
-<table width="100%" cellspacing="0" cellpadding="1" border="1"> 
+<table> 
  <tbody> 
   <tr> 
    <th width="7%" valign="top"><p><strong>No.</strong></p></th> 
@@ -120,118 +120,118 @@ Ensure that each .csv file contains the data for each field in the prescribed fo
    <th width="31%" valign="top"><p><strong>Notes</strong></p></th> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>1</p></td> 
-   <td width="29%" valign="top"><p>module.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for module.csv</p></td> 
-   <td width="31%" valign="top"><p> </p></td> 
+   <td><p>1</p></td> 
+   <td><p>module.xlsx</p></td> 
+   <td><p>Metadata for module.csv</p></td> 
+   <td><p> </p></td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>2</p></td> 
-   <td width="29%" valign="top"><p>course.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for course.csv</p></td> 
-   <td width="31%" valign="top"><p>Mention one author name for a given course as sometimes multiple author names are not displayed accurately in the application after migration. </p></td> 
+   <td><p>2</p></td> 
+   <td><p>course.xlsx</p></td> 
+   <td><p>Metadata for course.csv</p></td> 
+   <td><p>Mention one author name for a given course as sometimes multiple author names are not displayed accurately in the application after migration. </p></td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>3</p></td> 
-   <td width="29%" valign="top"><p>module_version.xlsx </p></td> 
-   <td width="31%" valign="top"><p>Metadata for module_version.csv</p></td> 
-   <td width="31%" valign="top"><p>Ensure that you provide the URL path of the Box account folder where you uploaded the content. </p></td> 
+   <td><p>3</p></td> 
+   <td><p>module_version.xlsx </p></td> 
+   <td><p>Metadata for module_version.csv</p></td> 
+   <td><p>Ensure that you provide the URL path of the Box account folder where you uploaded the content. </p></td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>4</p></td> 
-   <td width="29%" valign="top"><p>course_instance.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for course_instance.csv </p></td> 
+   <td><p>4</p></td> 
+   <td><p>course_instance.xlsx</p></td> 
+   <td><p>Metadata for course_instance.csv </p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>5</p></td> 
-   <td width="29%" valign="top"><p>course_module.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for course_module.csv</p></td> 
+   <td><p>5</p></td> 
+   <td><p>course_module.xlsx</p></td> 
+   <td><p>Metadata for course_module.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>6</p></td> 
-   <td width="29%" valign="top"><p>skill.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for skill.csv</p></td> 
+   <td><p>6</p></td> 
+   <td><p>skill.xlsx</p></td> 
+   <td><p>Metadata for skill.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>7</p></td> 
-   <td width="29%" valign="top"><p>skill_level.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for skill_level.csv</p></td> 
+   <td><p>7</p></td> 
+   <td><p>skill_level.xlsx</p></td> 
+   <td><p>Metadata for skill_level.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>8</p></td> 
-   <td width="29%" valign="top"><p>skill_course.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for skill_course.csv</p></td> 
+   <td><p>8</p></td> 
+   <td><p>skill_course.xlsx</p></td> 
+   <td><p>Metadata for skill_course.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>9</p></td> 
-   <td width="29%" valign="top"><p>Certification.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for Certification.csv</p></td> 
+   <td><p>9</p></td> 
+   <td><p>Certification.xlsx</p></td> 
+   <td><p>Metadata for Certification.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>10</p></td> 
-   <td width="29%" valign="top"><p>certification_course.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for certification_course.csv</p></td> 
+   <td><p>10</p></td> 
+   <td><p>certification_course.xlsx</p></td> 
+   <td><p>Metadata for certification_course.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>11</p></td> 
-   <td width="29%" valign="top"><p>certification_commit.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for certification_commit.csv</p></td> 
+   <td><p>11</p></td> 
+   <td><p>certification_commit.xlsx</p></td> 
+   <td><p>Metadata for certification_commit.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>12</p></td> 
-   <td width="29%" valign="top"><p>learning_program.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for learning_program.csv</p></td> 
+   <td><p>12</p></td> 
+   <td><p>learning_program.xlsx</p></td> 
+   <td><p>Metadata for learning_program.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>13</p></td> 
-   <td width="29%" valign="top"><p>learning_program_course.xls </p></td> 
-   <td width="31%" valign="top"><p>Metadata for learning_program_course.csv </p></td> 
+   <td><p>13</p></td> 
+   <td><p>learning_program_course.xls </p></td> 
+   <td><p>Metadata for learning_program_course.csv </p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>14</p></td> 
-   <td width="29%" valign="top"><p>learning_program_instance.xlsx </p></td> 
-   <td width="31%" valign="top"><p>Metadata for learning_program_instance.csv</p></td> 
+   <td><p>14</p></td> 
+   <td><p>learning_program_instance.xlsx </p></td> 
+   <td><p>Metadata for learning_program_instance.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>15</p></td> 
-   <td width="29%" valign="top"><p>learning_program_instance_course_instance.xlsx </p></td> 
-   <td width="31%" valign="top"><p>Metadata for learning_program_instance_course_instance.csv</p></td> 
+   <td><p>15</p></td> 
+   <td><p>learning_program_instance_course_instance.xlsx </p></td> 
+   <td><p>Metadata for learning_program_instance_course_instance.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>16</p></td> 
-   <td width="29%" valign="top"><p>enrollments.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for  enrollments.csv</p></td> 
+   <td><p>16</p></td> 
+   <td><p>enrollments.xlsx</p></td> 
+   <td><p>Metadata for  enrollments.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>17</p></td> 
-   <td width="29%" valign="top"><p>certification_enrollment.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for certification_enrollment.csv</p></td> 
+   <td><p>17</p></td> 
+   <td><p>certification_enrollment.xlsx</p></td> 
+   <td><p>Metadata for certification_enrollment.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>18</p></td> 
-   <td width="29%" valign="top"><p>learning_program_enrollment.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for learning_program_enrollment.csv</p></td> 
+   <td><p>18</p></td> 
+   <td><p>learning_program_enrollment.xlsx</p></td> 
+   <td><p>Metadata for learning_program_enrollment.csv</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="7%" valign="top"><p>19</p></td> 
-   <td width="29%" valign="top"><p>User_course_grade.xlsx</p></td> 
-   <td width="31%" valign="top"><p>Metadata for User_course_grade.csv</p></td> 
-   <td width="31%" valign="top"><p>Provide the required learner records data in the .csv file even though they are not mandatory. Without this info, even if the .csv is processed for migration, the Learning Manager application may not reflect any data. </p></td> 
+   <td><p>19</p></td> 
+   <td><p>User_course_grade.xlsx</p></td> 
+   <td><p>Metadata for User_course_grade.csv</p></td> 
+   <td><p>Provide the required learner records data in the .csv file even though they are not mandatory. Without this info, even if the .csv is processed for migration, the Learning Manager application may not reflect any data. </p></td> 
   </tr> 
  </tbody> 
 </table>

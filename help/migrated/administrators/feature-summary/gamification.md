@@ -6,30 +6,32 @@ contentowner: manochan
 ---
 
 
-# Gamification {#gamification}
+# Gamification
 
 Gamification is the use of game thinking and game mechanics in non-game contexts to engage users in earning points while learning.
 
-Learning Manager allows you to apply a structural gamification layer to the content to engage learners and motivate them to achieve their learning goals. It allows the learners to score points for various learning activities and achieve bronze, silver, gold and platinum levels.
+## Overview {#overview}
+
+Captivate Prime allows you to apply a structural gamification layer to the content to engage learners and motivate them to achieve their learning goals. It allows the learners to score points for various learning activities and achieve bronze, silver, gold and platinum levels.
 
 By default, some sample gamification points and data is available for users to understand the pattern. You can modify the points accordingly.
 
 A sample illustration is provided below that shows all the tasks and points.
 
-![](assets/gamification-feb12-e1439214291423.png) 
+![](assets/gamification-feb12-e1439214291423.png)
 
 ## Gamification settings {#gamificationsettings}
 
 To access the settings, follow the steps below:
 
 1. Log in as an Administrator and on the left pane, click **Gamification**.
-1. When you create a new Learning Manager account, gamification is disabled by default. To enable it, click **Enable** on the upper- right corner of the page.
+1. When you create a new Captivate Prime account, gamification is disabled by default. To enable it, click **Enable** on the upper- right corner of the page.
 
 ## Administrator actions {#administratoractions}
 
 Administrator can create a list of confidential users, reset gamification points, and disable/enable gamification feature for learners. Click the Actions drop-down list at the upper-right corner of the page to view the actions as shown in the below snapshot.
 
-![](assets/gamification-actions.png) 
+![](assets/gamification-actions.png)
 
 ## Confidentiality settings {#confidentialitysettings}
 
@@ -41,12 +43,11 @@ Confidentiality settings can be applied for both internal and external users.
 
 ![](assets/confidentiality-settings.png)
 
-1. From the listed users, click the check-box against user name and click Hide to make the user as confidential user. 
+1. From the listed users, click the check-box against user name and click Hide to make the user as confidential user.
 
    >[!NOTE]
    >
    >You can identify the confidential users in the listed users by the tick mark in check box against the user name.
-
 
 1. Click Confidential Users tab to view the list of confidential users. By default, they are not visible. Click the drop-down arrow icon to view the list.
 1. Click the check box against the user name in the confidential users list and click Add to remove the users from the confidential list.
@@ -59,7 +60,7 @@ Reset gamification settings can be applied for both internal and external users.
 
 To reset learner score and configuration, click Reset Gamification and choose an option as per your requirement. You can choose between Reset Learner Scores only and Reset Learner Scores & the Configuration Settings. Once selected, click OK.
 
-![](assets/reset-gamification.png) 
+![](assets/reset-gamification.png)
 
 ## Disable gamification {#disablegamification}
 

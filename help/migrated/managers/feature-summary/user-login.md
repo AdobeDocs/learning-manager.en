@@ -1,18 +1,18 @@
 ---
-description: User log in as Manager in Learning Manager.
+description: User log in as Manager in Captivate Prime.
 jcr-language: en_us
 title: User log in
 contentowner: manochan
 ---
 
 
-# User log in {#user-log-in}
+# User log in
 
-User log in as Manager in Learning Manager.
+User log in as Manager in Captivate Prime.
 
-When you are using Adobe Learning Manager for the first time, you need to create your account, by following the steps below:
+When you are using Adobe Captivate Prime for the first time, you need to create your account, by following the steps below:
 
-1. Launch Adobe Learning Manager using the secure link you received by welcome e-mail from your Administrator.  
+1. Launch Adobe Captivate Prime using the secure link you received by welcome e-mail from your Administrator.  
 
    Login screen appears.
 

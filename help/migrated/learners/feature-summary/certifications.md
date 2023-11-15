@@ -1,21 +1,26 @@
 ---
-description: Learn how to take up certifications using the Learning Manager Learners app.
+description: Learn how to take up certifications using the Captivate Prime Learners app.
 jcr-language: en_us
 title: Certifications
 contentowner: manochan
 ---
 
 
-# Certifications {#certifications}
+# Certifications
 
-Learn how to take up certifications using the Learning Manager Learners app.
+Learn how to take up certifications using the Captivate Prime Learners app.
 
 Certify your learners on a one time basis or on a recurring time frame using this feature. Only administrators can define the certifications for learners.
 
-Learners can take up the certifications which are assigned to them by the administrators of the organization. There are two types of certifications in Learning Manager.
+Learners can take up the certifications which are assigned to them by the administrators of the organization. There are two types of certifications in Captivate Prime.
 
-* **External** - These certificates can be obtained from outside of your organization. Your organization recommends you to take up these certifications and submit proof.
-* **Internal** - These certificates can be obtained by completing certain courses prescribed as part of the curriculum. Your organization issues these certifications after completion.
+1. External  
+
+   These certificates can be obtained from outside of your organization. Your organization recommends you to take up these certifications and submit proof.
+
+1. Internal  
+
+   These certificates can be obtained by completing certain courses prescribed as part of the curriculum. Your organization issues these certifications after completion.
 
 ## Taking up internal certifications {#takingupinternalcertifications}
 
@@ -29,8 +34,7 @@ A page appears with a list of all certifications that are relevant to you.
    1. Click My Learning from the left pane, and select Certifications to view all the certifications.  
    1. Sort and view the list of certifications based on relevance and published date.
 
-1. In Pending widget from the Home page, click the internal certification that you have to take.
-
+1. In Pending widget from the Home page, click the internal certification that you have to take.  
    The certifications that are pending, appear below the widget.  
 
 1. Click Start to take up certification.
@@ -44,9 +48,13 @@ A page appears with a list of all certifications that are relevant to you.
 You have to take up the external certification outside of your organization and submit the proof.
 
 1. From the left pane, click My Learning.  
+
    A page appears with a list of all learning objects relevant to you.
+
 1. Click the external certification that you need to take.  
+
    A certification page appears with the certification overview, the certification validity date, issuer, completion date, type (recurring or perpetual), and, badge.
+
 1. To submit the proof of completion for your certification, click Browse, select the file from your local path and click **Upload**.
 
 ## Completing certifications {#completingcertifications}

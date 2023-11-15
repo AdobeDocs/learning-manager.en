@@ -5,17 +5,17 @@ description: Job Aids is a repository of training content that is accessible to 
 ---
 
 
-# Job Aids {#job-aids}
+# Job Aids
 
 Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
 
-Job Aids can be consumed independently or along with course consumption in Learning Manager.
+Job Aids can be consumed independently or along with course consumption in Captivate Prime.
 
 Authors can create Job Aids for learners. Use Job Aids to provide learners with reference material like tips, checklists, guides that they can use on an ongoing basis to complete their tasks.
 
 ## Create job aid {#createjobaid}
 
-1. In author login, click Job Aids at the left pane. 
+1. In author login, click Job Aids at the left pane.
 1. Click Create at the upper-right corner of the page that appears.
 1. Provide the name, description, and tags. Choose the skills and associated levels. Select the content as private if you do not want the job aid to be accessed by any other authors for assigning to their respective courses.
 
@@ -27,6 +27,7 @@ Authors can create Job Aids for learners. Use Job Aids to provide learners with 
 
 1. Enter the duration, in minutes, for the job aid.
 1. Click **Save**.  
+
    The Job Aid is published.
 
 ## Types of supported job aids {#typesofsupportedjobaids}
@@ -42,7 +43,9 @@ The following are the file formats supported for job aids.
 * DOCX
 * All video file formats
 
-Note: Zip files and image files are not supported.
+>[!NOTE]
+>
+>Zip files and image files are not supported.
 
 ## Withdraw/re-publish job aids {#withdrawrepublishjobaids}
 

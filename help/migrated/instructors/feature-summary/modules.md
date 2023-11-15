@@ -1,14 +1,14 @@
 ---
-description: Read this article to learn how to manage modules as an instructor in Learning Manager.
+description: Read this article to learn how to manage modules as an instructor in Captivate Prime.
 jcr-language: en_us
 title: Modules
 contentowner: shhivkum
 ---
 
 
-# Modules {#modules}
+# Modules
 
-Read this article to learn how to manage modules as an instructor in Learning Manager.
+Read this article to learn how to manage modules as an instructor in Captivate Prime.
 
 ## View session overview {#viewsessionoverview}
 
@@ -64,18 +64,17 @@ Activity Module supports File Submission workflow. As an Author, create an activ
 
 These files can be Approved/Rejected by the module Instructors. The module gets completed only after the Instructor approves the submission.
 
-![](assets/activity-modules.png) ![](assets/approve-reject-option.png) 
+![](assets/activity-modules.png) ![](assets/approve-reject-option.png)
 
 ## Evaluate checklist module {#evaluate-checklist-module}
 
-After the learner takes the course, the Instructor sees the checklist module on the Submissions/Checklists page in the **Modules** section. This page contains all the activity checklist modules along with the activity submission modules  
-for which reviews are due. For each module, the number of learners is displayed for who the evaluation is due.
+After the learner takes the course, the Instructor sees the checklist module on the Submissions/Checklists page in the **Modules**section. This page contains all the activity checklist modules along with the activity submission modules for which reviews are due. For each module, the number of learners is displayed for who the evaluation is due.
 
 On the page below, you can view modules of type **Submission** and **Checklist**. For this example, we shall use Checklist module.
 
 ![](assets/modules-list.png)
 
-Click on the Checklist module. On the **Checklist **page, you see the following:
+Click on the Checklist module. On the **Checklist** page, you see the following:
 
 * The name of the module
 * The name of the course

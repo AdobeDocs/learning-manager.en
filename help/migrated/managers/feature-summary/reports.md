@@ -6,13 +6,15 @@ contentowner: manochan
 ---
 
 
-# Reports {#reports}
+# Reports
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Creating and managing reports for Managers.
 
-Adobe Learning Manager enables you to create varied reports to track, monitor, and control learner activities. Learners activities are tracked and captured automatically into the database. Manager and Administrator reports are generated from the database.
+Adobe Captivate Prime enables you to create varied reports to track, monitor, and control learner activities. Learners activities are tracked and captured automatically into the database. Manager and Administrator reports are generated from the database.
+
+## Overview {#overview}
 
 Reports generation process is same for both Administrator and Manager. Managers can view reports corresponding to their subordinates whereas Administrator can view all organization-wide reports.
 
@@ -24,37 +26,37 @@ A manager can view information about his/her direct or indirect team, as a summa
 
 The manager can then filter the report according to ranges like, quarter, this month, last three full months, and last 12 full months.
 
-### Learning Summary {#learningsummary}
+## Learning Summary {#learningsummary}
 
-![](assets/manager-learningsummary.png) ![](assets/manager-dashboard.jpg) 
+![](assets/manager-learningsummary.png)
 
-### Compliance Dashboard {#compliancedashboard}
+![](assets/manager-dashboard.jpg)
+
+## Compliance Dashboard {#compliancedashboard}
 
 See your team's compliance and which team member is bordering on non-compliance. Choose the Learning Objects and see the status of each. 
 
-![](assets/compliance-dashboard.png) 
+![](assets/compliance-dashboard.png)
 
-### Skills Status {#skillsstatus}
+## Skills Status {#skillsstatus}
 
 See the percentage of learners for each skill. Choose at most five skills for which you want to see the skills for learners. The visualization is in the form of a stacked bar chart. When you mouse over each bar, you can see the break-up of the status for that skill. 
 
-![](assets/manager-skills-status.png) 
+![](assets/manager-skills-status.png)
 
-### Skils Tracker {#skilstracker}
+## Skils Tracker {#skilstracker}
 
 See a projection of skill completion across a team. Choose the target completion percentage and date of a skill. 
 
 Based on historical data, you can see a graphical representation of the skill completion projection on the selected date. 
 
-![](assets/historical-data.png) 
+![](assets/historical-data.png)
 
 ## Creating reports {#creatingreports}
 
 1. Click Reports on the left pane. Report summary page appears.  
-
-  >[!NOTE]
-  >
-  >By default, at least three sample reports appear in the report summary page. You can only view these sample reports to get an idea as to how you could create and customize them.
+   **Note** 
+   By default, at least three sample reports appear in the report summary page. You can only view these sample reports to get an idea as to how you could create and customize them.
 
 1. On the Report summary page, click Add. Report creation dialog appears.
 1. Click Save to complete creating a report. A sample report is shown below for reference.
@@ -94,7 +96,7 @@ Filters appear in Add report dialog at the bottom based on types of reports you 
 
 **Profile** Choose the designation of your employee. It would help in viewing reports of employees based on their profile/designation. For example, computer scientist, engineer, and so on.
 
-**User Group** Choose the user group based on which you want to filter the reports. Learning Manager fetches the user groups defined for your account from Users feature. 
+**User Group** Choose the user group based on which you want to filter the reports. Captivate Prime fetches the user groups defined for your account from Users feature. 
 
 **Course** You can filter your report based on any course by choosing them from the drop-down.
 
@@ -124,9 +126,9 @@ This user group report enables you to compare the performance of one department/
 
 ### Custom user groups/user attributes {#customusergroupsuserattributes}
 
-You can also create customized user groups using Add users/user groups feature in Learning Manager. After creating the user groups you can generate reports for those customized userg groups with the help of a list of attributes such as location, branch, and so on. 
+You can also create customized user groups using Add users/user groups feature in Captivate Prime. After creating the user groups you can generate reports for those customized userg groups with the help of a list of attributes such as location, branch, and so on. 
 
-In X-axis, choose the user attribute option and select the attribute the from **select **drop-down next to it. To create a customized user group report based on these attributes, you also need to choose the appropriate user group in the filter. 
+In X-axis, choose the user attribute option and select the attribute the from **select** drop-down next to it. To create a customized user group report based on these attributes, you also need to choose the appropriate user group in the filter. 
 
 Managers can create user group reports only for their own team members as learners. 
 
@@ -190,7 +192,7 @@ You can change the date range/value for any report and view quickly for differen
 **Quick view with different managers**
 
 If there are multiple managers reporting to you, you can view the reports quickly for each manager. Choose the manager name from the drop-down list to display unique report for each manager.
-**Edit/Move to board/Create a Copy/Delete/Re-size reports** Click the drop-down arrow at the upper-right corner of each report to view drop-down options as Edit/Move to Dashboard/Create a copy/Delete/Resize.
+**Edit/Move to board/Create a Copy/Delete/Re-size reports**Click the drop-down arrow at the upper-right corner of each report to view drop-down options as Edit/Move to Dashboard/Create a copy/Delete/Resize.
 
 ![](assets/edit-options-dashboard-300x126.png)
 

@@ -1,23 +1,23 @@
 ---
-description: Learn how to add users or user groups in Learning Manager application.
+description: Learn how to add users or user groups in Captivate Prime application.
 jcr-language: en_us
 title: Add users and create user groups
 contentowner: manochan
 ---
 
 
-# Add users and create user groups {#add-users-and-create-user-groups}
+# Add users and create user groups
 
-Learn how to add users or user groups in Learning Manager application.
+Learn how to add users or user groups in Captivate Prime application.
 
-![](assets/user-mgmt-new.png) 
+![](assets/user-mgmt-new.png)
 
 ## Overview {#overview}
 
-In Adobe Learning Manager, you can assume the following roles:
+In Adobe Captivate Prime, you can assume the following roles:
 
 * **Administrator:** An Administrator defines the training strategy for the organization. An Administrator can add learners, search required skills for learners, manage and assign courses, create learning plans, certifications, and learning programs, and manage reports for the entire organization.
-* **Author:** Authors are Instructional Designers and content creators. An Author can add modules and courses to Learning Manager.
+* **Author:** Authors are Instructional Designers and content creators. An Author can add modules and courses to Captivate Prime.
 * **Manager:** A Manager manages the learning activities of a team. A Manager can nominate team members to take a course, approve requests from team members, and provide feedback on performance of their team members post-completion of training. Managers can also view reports for their team to track their performance.
 * **Learner:** Learners can access courses, learning programs, and certifications assigned to them. Learners can also browse through all the available courses by using a catalog and enroll themselves for either courses, learning programs, or certifications.
 
@@ -31,7 +31,7 @@ As an Administrator, you can add users in three ways:
 
 To add users,
 
-1. Log into Adobe Learning Manager as an Administrator. 
+1. Log into Adobe Captivate Prime as an Administrator. 
 1. On the home page, click **Add Users**. On this page, you can add a single user or multiple users at a time using a CSV. You can also create a self-registration link for internal employees or create an external learner profile.
 1. To add a single user, click **Add** on the upper-right corner and choose the option **Single User**.
 
@@ -41,7 +41,7 @@ To add users,
 
    ![](assets/manager.png)
 
-1. To add the new user in Prime, click **Add**. After the user is added, the user receives a verification mail. The Learner then activates the account and starts using Learning Manager. This workflow is helpful if you need to add limited number of learners to your Prime Account. But if you're planning to enroll all the employees of a large organization, you can add them in a singe attempt. For more information, see the next section.
+1. To add the new user in Prime, click **Add**. After the user is added, the user receives a verification mail. The Learner then activates the account and starts using Captivate Prime. This workflow is helpful if you need to add limited number of learners to your Prime Account. But if you're planning to enroll all the employees of a large organization, you can add them in a singe attempt. For more information, see the next section.
 
 ## Add users in bulk {#addusersinbulk}
 
@@ -76,11 +76,11 @@ Typically, most organizations work with an HR Management System (HRMS), which ma
 
    ![](assets/save-csv.png)
 
-1. The new users are now added to your Adobe Learning Manager account. To select the new users, select the check-box next to the names so that everybody is selected. 
+1. The new users are now added to your Adobe Captivate Prime account. To select the new users, select the check-box next to the names so that everybody is selected. 
 
    ![](assets/select-new-users.png)
 
-For more information, see the FAQ, [***Add users in bulk***](../add-users-in-bulk.md).
+For more information, see the FAQ, [Add users in bulk](../add-users-in-bulk.md).
 
 After you have selected the users, you can perform the following:
 
@@ -92,9 +92,9 @@ The selected users receive a Welcome email. If the learners have an existing Ado
 
 ## Assign a role {#assignarole}
 
-After adding learners to the Adobe Learning Manager account, if you want to change their roles, click Actions on the upper-right corner of the page. Choose the option **Assign Role**. Here you can decide whether you want to give Author access or Admin access to the learner. After you have assigned a role, this learner has Author access to the account and can add modules and create courses. 
+After adding learners to the Adobe Captivate Prime account, if you want to change their roles, click Actions on the upper-right corner of the page. Choose the option **Assign Role**. Here you can decide whether you want to give Author access or Admin access to the learner. After you have assigned a role, this learner has Author access to the account and can add modules and create courses. 
 
-![](assets/assign-a-role.png) 
+![](assets/assign-a-role.png)
 
 ## Remove a role {#removearole}
 
@@ -106,17 +106,17 @@ You cannot manually assign a Manager role to someone in the system. They automat
 
 To delete a user, click **Actions**, and choose **Delete User**. On the confirmation dialog, click **Yes**, and the learner gets deleted.
 
-![](assets/delete-a-role.png) 
+![](assets/delete-a-role.png)
 
 ## Edit a user {#editauser}
 
 On the list of users, choose a user, and click the user. On the user details, click the **Edit** ( ![](assets/edit-pen.png)) button. On the **Edit User** dialog, make the necessary edits and to save the changes, click **Save**.
 
-![](assets/edit-user.png) 
+![](assets/edit-user.png)
 
 ## Workflows for active fields and active field values preserving case sensitivity
 
-In this release, Learning Manager preserves the case sensitivity of the user attribute and its value. **For example**, the case sensitivity of a user attribute is 'location' and its value as 'PARIS' will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
+In this release, Captivate Prime preserves the case sensitivity of the user attribute and its value. **For example**, the case sensitivity of a user attribute is 'location' and its value as 'PARIS' will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
 
 The Administrator can do this by visiting **Admin app** > **Users** > **User groups** and clicking on the group name.  
 
@@ -130,7 +130,7 @@ Types of active fields:
 
 ## Create a self-registration link {#createaselfregistrationlink}
 
-You can also enable employees in your organization to register themselves as Learners to Adobe Learning Manager Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Prime using their Adobe credentials.
+You can also enable employees in your organization to register themselves as Learners to Adobe Captivate Prime Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Prime using their Adobe credentials.
 
 On the upper-right corner of the page, click **Add**, and choose **Self-Registration**.
 
@@ -144,15 +144,38 @@ After you click **Save**, a URL gets generated, which you can share with the lea
 
 ## Enroll external learners {#enrollexternallearners}
 
-In Adobe Learning Manager, you can also create Registration links for external partners or agencies with limited access to your account and provide them learning material.
+In Adobe Captivate Prime, you can also create Registration links for external partners or agencies with limited access to your account and provide them learning material.
 
 There are a few differences between internal and external registrations.
 
-| Internal users | External users |
-|---|---|
-| Log in using Adobe ID or SSO credentials. | Log in using any email ID. |
-| Gamification is available. | Gamification is not available. |
-| Learner hierarchies are available. | Learner hierarchies are not available. |
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p><b>Internal users</b></p></td>
+   <td>
+    <p><b>External users</b></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Log in using Adobe ID or SSO credentials.</p></td>
+   <td>
+    <p>Log in using any email ID.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Gamification is available.</p></td>
+   <td>
+    <p>Gamification is not available.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Learner hierarchies are available.</p></td>
+   <td>
+    <p>Learner hierarchies are not available.</p></td>
+  </tr>
+ </tbody>
+</table>
 
 To enroll external users, follow the steps below:
 
@@ -194,7 +217,7 @@ The partner manager can share the link with the employees who must take the trai
 
 ## Pause an external profile {#pause}
 
-After adding an external user group to Learning Manager, you can also pause the external users' registration process. When you pause, the external users' registration process is blocked. However, this process works only when the users haven't registered yet by accepting the invitation.
+After adding an external user group to Captivate Prime, you can also pause the external users' registration process. When you pause, the external users' registration process is blocked. However, this process works only when the users haven't registered yet by accepting the invitation.
 
 To pause the external user groups, choose a group or groups, click **Actions** from the upper-right corner of the page, and click **Pause**.
 
@@ -205,14 +228,14 @@ At any time, you can always revoke the paused state of an external partner and r
 The following states are applicable for external users:
 
 * **Inactive state** - In this state, the external users' registration is expired. Administrators set the expiry date for the external users while adding them through the add user workflow.
-* **Active state** - In this state, the external users can register to the Learning Manager application, and log in to the application.
+* **Active state** - In this state, the external users can register to the Captivate Prime application, and log in to the application.
 * **Pause** - In this state, the registration process for external users is blocked. However, the existing users can continue to log in.
 
 ## Check used seats {#checkusedseats}
 
 On the list of external profiles, click **Seats Used**. You can view the number of learners in the partner organization who have been added.
 
-![](assets/seats-used.png) 
+![](assets/seats-used.png)
 
 ## Delete a user {#Deleteauser-1}
 
@@ -230,10 +253,6 @@ Choose a user, and from the upper-right corner, click **Actions > Assign Role** 
 
 Choose a user, and from the upper-right corner, click **Actions > Remove Role** > **Remove `<role>`**. The selected role gets removed from the list of roles that were assigned to the user.
 
-## Search for external users
-
-In the list of external users, search for a user by typing the name of the user in the search bar. The top five matching names will be listed and you can choose any.
-
 ## Create user groups {#createusergroups}
 
 A User Group is a set of users who are related to a category. User Groups help administrators to select learners in their organization based on their attributes, and then assign learning content to them. Also, these User Groups enable administrators to assign customized logos and catalogs to learners and show customized reports on their progress.
@@ -242,7 +261,7 @@ To access User Groups, on the left navigation pane, click **User Groups**.
 
 ![](assets/user-groups.png)
 
-There are two types of groups in Adobe Learning Manager, Custom and Auto-generated. When you add learners to your account, some groups are automatically created based on their common properties.
+There are two types of groups in Adobe Captivate Prime, Custom and Auto-generated. When you add learners to your account, some groups are automatically created based on their common properties.
 
 To see the automatically created groups, click the tab **Auto-generated**.
 
@@ -261,7 +280,7 @@ This Custom Group is now created and added to the profile. The User Groups that 
 
 ## Exclusion of user groups
 
-At times you would want to exclude a small set of users from a large user group. This is required to enroll this specific set of users into training via Learning Plans or to setup the correct visibility of catalogs. In this release of Learning Manager, you can exclude learners or User Groups when you create a custom user group. In the Add User Group dialog, the Exclude Learners section enables you to achieve so.
+At times you would want to exclude a small set of users from a large user group. This is required to enroll this specific set of users into training via Learning Plans or to setup the correct visibility of catalogs. In this release of Captivate Prime, you can exclude learners or User Groups when you create a custom user group. In the Add User Group dialog, the Exclude Learners section enables you to achieve so.
 
 ![](assets/exclude-user-groups.png)
 
@@ -271,7 +290,7 @@ For example, if you want to set up a Learning Plan so that all users belonging t
 
 ## Data Sources {#datasources}
 
-You can use this feature when you want to import/sync the users or learning data from your organization's database in to the Learning Manager application. You can also set up the frequency of this sync. 
+You can use this feature when you want to import/sync the users or learning data from your organization's database in to the Captivate Prime application. You can also set up the frequency of this sync. 
 
 Click **Data Sources** on the left pane under **Advanced** section. 
 
@@ -287,7 +306,7 @@ This feature enables administrators to add more active fields in addition to wha
 
 Click **Active Fields** available inside users page. Learners can only choose from the values given in custom values.
 
-![](assets/active-fields.png) 
+![](assets/active-fields.png)
 
 ### Configure Fields {#configurefields}
 
@@ -314,7 +333,7 @@ To add  custom values, follow these steps:
 
 Add custom values similar to that for internal users.
 
-![](assets/modify-values-forexternalusers.png) 
+![](assets/modify-values-forexternalusers.png)
 
 ### Settings {#settings}
 
@@ -326,9 +345,9 @@ If the option **Show only unfilled fields on Learner login** is enabled, a user 
 
 Using this option, an Administrator can decide whether he/she wants to show the fields or hide them once these have been populated.
 
-### Restrict Active Fields in reports {#restrictactivefields}
+## Restrict Active Fields in reports {#restrictactivefields}
 
-Learning Manager 27.7 introduces two new options- **Reportable** and **Exportable,** for Active Fields.
+Captivate Prime 27.7 introduces two new options- **Reportable** and **Exportable, **for Active Fields.
 
 ![](assets/options-in-activefields.png)
 
@@ -350,11 +369,11 @@ Note that the existing default behavior does not change. This is an optional cap
 
 Enable the options below:
 
-![](assets/user-display.png) 
+![](assets/user-display.png)
 
 ## Support for manual csv fields by FTP and Box connectors {#import-connector}
 
-Often, users want Active fields to be manually provided when a learner logs in to Prime. This is possible in Learning Manager at present, when the user imports a CSV manually.
+Often, users want Active fields to be manually provided when a learner logs in to Prime. This is possible in Captivate Prime at present, when the user imports a CSV manually.
 
 The CSV may not contain all the Active fields. For all the Active fields that are not updated in the uploaded CSV, the user needs to enter the data for such Active fields.
 
@@ -368,16 +387,16 @@ Add any field of your choice as part of your user information and click **Save**
 
 After adding the fields, you can notice that the fields marked with tick mark are sourced from data source or CSV as mentioned in the below snapshot. Administrator can edit these sourced fields by enabling or disabling the fields. 
 
-**Values for active fields in Learning Manager**
+**Values for active fields in Captivate Prime**
 
 The values for active fields are fetched in the following ways: 
 
-1. Learning Manager application imports metadata from data sources associated with your account. 
+1. Captivate Prime application imports metadata from data sources associated with your account. 
 1. Metadata captured from the manually imported CSV file. 
 1. Learners fill up metadata when they log in
 1. Administrator enters data for the users. 
 
-Learning Manager application creates user groups automatically, from these metadata. 
+Captivate Prime application creates user groups automatically, from these metadata. 
 
 **Add custom value**
 
@@ -391,70 +410,15 @@ Custom fields can be added and deleted, they are applicable to all users. CSV fi
 
 Users can only choose from predefined fields for CSV fields if the **[!UICONTROL Restrict Selection]** check-box is enabled.
 
-![](assets/value-field-for-csv.png) 
+![](assets/value-field-for-csv.png)
 
 ## Import Logs {#importlogs}
 
-In this space, you can view the CSV import history for the users the administrator has added using bulk import feature. You can also click **Add **at the upper-right corner of the page to add users using CSV upload feature. 
-
-## Multi-valued Active Fields
-
-With this feature, you can have more than one field for an active field. In an account, there can be at most three multi-valued active fields. The multi-valued active fields are available for both external and internal users.
-
-Once you mark an active field as multi-valued, you cannot convert it back to single valued. This is irreversible.
-
-An existing single valued field cannot be marked as multi-valued field.
-
-To create a multi-valued active field, follow the steps below:
-
-1. Add an active field.
-
-   ![](assets/add-active-field.png)
-
-1. Click **Add**.
-1. In the **Settings** tab, mark the new field as multi-valued.
-
-   ![](assets/mark-multi-valued.png)
-
-   There is another checkbox, **Learner Configurable,** which when disabled, the learner will not be able to see the field on the Profile page.
-
-1. Add the values using a CSV or by clicking **Modify Values**.
-
-   ![](assets/add-values.png)
-
-1. Click **Done**.
-
-**Note:** Once is the user group is created and the field is populated, multi values cannot be converted to single values, and vice versa.
-
-## Add multi-valued active field via CSV
-
-Follow the steps below:
-
-1. Create a CSV with the new active fields as columns (comma-separated or single values).
-1. Import the CSV.
-1. Mark the fields as multi-valued in the **Values in Custom Fields** dialog.
-1. Import the CSV again.
-
-The CSV must have a column with the same name as that of an active field that was marked as multi-valued.
-
-The CSV contains the fields:
-
-* **User:** User groups created as roles.
-* **Roles:** Multi-valued active field with values.
-
-If the CSV is re-uploaded with new values or deleted values, the active fields and groups also get updated accordingly.
-
-## Reports
-
-All reports include the multi-valued active fields and their values.
-
-The Administrator can add auto-generated active fields, and configure user activity and training reports.
-
-The Learner Transcript report contains all the active fields and comma-separated values. The Administrator can then filter the data accordingly.
+In this space, you can view the CSV import history for the users the administrator has added using bulk import feature. You can also click **Add** at the upper-right corner of the page to add users using CSV upload feature. 
 
 ## Frequently Asked Questions {#faq}
 
-+++How to register users in Learning Manager?
++++How to register users in Captivate Prime?
 
 After adding a user and assigning a role to the user, you can register the user by performing the steps below:
 
@@ -481,7 +445,7 @@ In the **Edit User** dialog, update the fields accordingly. To save the changes,
 
 +++
 
-+++How to pause and resume an external user in Learning Manager?
++++How to pause and resume an external user in Captivate Prime?
 
 In the list of External Users, choose the user that you want to delete. On the upper-right corner, click **Actions > Pause**.
 
@@ -511,7 +475,7 @@ Click **Users > User Groups** and on the User Groups page, click **Add**. In the
 
 If you want learners to only see the active fields that are not filled by them, then follow the steps below:
 
-1. Click **Users > Active Fields**.  
+1. Click **Users** > **Active Fields**.  
 
 1. Click **Settings** and enable the option **Show only unfilled fields on Learner login**.
 
@@ -523,7 +487,7 @@ If you want learners to only see the active fields that are not filled by them, 
 
 You can restrict the selection for learners so that they can only select the values that are pre-defined and not enter any random values. Follow the steps below:
 
-1. Click **Users > Active Fields**.
+1. Click **Users** > **Active Fields**.
 1. In the section **Configure fields**, click **Modify Values**.
 
 1. Enable the option **Restrict Selection**.

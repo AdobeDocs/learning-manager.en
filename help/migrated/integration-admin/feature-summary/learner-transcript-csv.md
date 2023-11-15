@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Interpret the Learner Transcript CSV {#interpret-the-learner-transcript-csv}
+# Interpret the Learner Transcript CSV
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
@@ -69,7 +69,7 @@ The columns of the Learner Transcript provide various pieces of information pert
 
 ## Learner Transcript
 
-<table width="100%" cellspacing="0" cellpadding="1" border="1"> 
+<table> 
  <tbody> 
   <tr> 
    <th width="158" valign="bottom"><p><b>Column Name</b></p></th> 
@@ -82,9 +82,9 @@ The columns of the Learner Transcript provide various pieces of information pert
    <td><p>Name of the learner</p></td> 
   </tr> 
   <tr> 
-   <td width="158" valign="bottom"><p><b>email</b></p></td> 
-   <td width="160" valign="bottom"><p>Never empty</p></td> 
-   <td width="306" valign="bottom"><p>Email address of the learner</p></td> 
+   <td><p><b>email</b></p></td> 
+   <td><p>Never empty</p></td> 
+   <td><p>Email address of the learner</p></td> 
   </tr> 
   <tr> 
    <td valign="bottom"><b>Adobe ID</b></td> 
@@ -163,17 +163,17 @@ The columns of the Learner Transcript provide various pieces of information pert
   </tr> 
   <tr> 
    <td height="19" width="283"><b>Started Date (Asia/Calcutta TimeZone)</b></td> 
-   <td width="160" valign="bottom"><p>Can be empty</p></td> 
+   <td><p>Can be empty</p></td> 
    <td height="19" width="728">Date on which learner started the LO. Empty implies the learner has not yet started this.</td> 
   </tr> 
   <tr> 
    <td height="19" width="283"><b>Completion Date (Asia/Calcutta TimeZone)</b></td> 
-   <td width="160" valign="bottom"><p>Can be empty</p></td> 
-   <td width="306" valign="bottom"><p>Date on which learner completed this. Empty implies the learner has not yet completed this.</p></td> 
+   <td><p>Can be empty</p></td> 
+   <td><p>Date on which learner completed this. Empty implies the learner has not yet completed this.</p></td> 
   </tr> 
   <tr> 
    <td height="19" width="283"><b>Deadline (Asia/Calcutta TimeZone)</b></td> 
-   <td width="160" valign="bottom"><p>Can be empty</p></td> 
+   <td><p>Can be empty</p></td> 
    <td height="19" width="728">Date on which learner is expected to complete this LO. Empty implies that there is no deadline for this.</td> 
   </tr> 
   <tr> 
@@ -242,8 +242,8 @@ The columns of the Learner Transcript provide various pieces of information pert
    <td height="38" width="728">For each groupable Active Field in account, there will be a column, where the column name is that of Active Field and the value will be the specific value the learner has for that field.</td> 
   </tr> 
   <tr> 
-   <td width="158" valign="bottom"><p><b>Manager Name</b></p></td> 
-   <td width="160" valign="bottom"><p><i>Can be empty</i></p></td> 
+   <td><p><b>Manager Name</b></p></td> 
+   <td><p><i>Can be empty</i></p></td> 
    <td height="19" width="728">Manager Name of the learner</td> 
   </tr> 
   <tr> 

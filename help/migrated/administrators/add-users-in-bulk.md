@@ -6,12 +6,14 @@ contentowner: jayakarr
 ---
 
 
-# Add users in bulk {#add-users-in-bulk}
+# Add users in bulk
 
 Yes, you can add multiple users at a time by following the below steps:
 
-1. Click **Users** on the left pane in Administrator login, and then click **Add** > **Upload a csv**. A pop-up dialog appears.   
+1. Click **Users** on the left pane in Administrator login, and then click **Add>Upload a csv.** A pop-up dialog appears.   
+
 1. You can add multiple users using a .CSV file. Click **Import** and select/open the .csv file from your computer.   
+
 1. After importing the file, map the contents of .csv file with the application labels when you upload .csv file first time.
 
    For all the subsequent uploads, previous settings for labels are considered. Click **Save** after completing the mapping of data and click **Add** to upload the mapped .csv file.
@@ -26,8 +28,8 @@ In this case, by default your company's Administrator is treated as the Manager 
 
 **Sample CSV**
 
-Learning Manager sample CSV is available below with mandatory fields.
-[Sample-CSV-name-email.zip](assets/sample-csv-name-email.zip) 
+Captivate Prime sample CSV is available below with mandatory fields.
+[Sample-CSV-name-email.zip](assets/sample-csv-name-email.zip)
 
 ## CSV upload with all the fields {#csvuploadwithallthefields}
 
@@ -39,5 +41,5 @@ Also, Administrators of an organization can add themselves as employees and ment
 
 **Sample CSV**
 
-Learning Manager sample CSV is available below with all the fields.
-[Captivate-Prime-Sample-CSV.zip](assets/captivate-prime-sample-csv.zip) Refer to  [Using CSV upload](feature-summary/add-users-user-groups.md) feature help content for more information.
+Captivate Prime sample CSV is available below with all the fields.
+[Captivate-Prime-Sample-CSV.zip](assets/captivate-prime-sample-csv.zip)Refer to  [Using CSV upload](feature-summary/add-users-user-groups.md) feature help content for more information.

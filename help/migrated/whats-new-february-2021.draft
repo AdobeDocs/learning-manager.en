@@ -145,7 +145,9 @@ On the other hand, for Managers, there is an option to download the Learner Tran
 
 If the Manager enables this option, the timezone is picked from the one set in the profile settings page, shown below.
 
-**Note:** For a new Manager, the Timezone checkbox is disabled.
+>[!NOTE]
+>
+>For a new Manager, the Timezone checkbox is disabled.
 
 ## User report for Peer accounts {#userreportforpeeraccounts}
 
@@ -155,7 +157,7 @@ For more information, see [Download user report for peer accounts](administrator
 
 # Enhanced features in this release {#enhanced}
 
-### **Support for accent characters**
+### Support for accent characters
 
 In this release, we've added support for accent and diacritical characters in table columns. The following are the areas of impact:
 
@@ -163,7 +165,7 @@ In this release, we've added support for accent and diacritical characters in ta
 * An email with accent characters should be treated different from the normal character email id. For example, Stéphane.Lancè@junk.com and Stephane.Lance@junk.com are treated as different email ids and should not show email id present.
 * User group names having same attribute value with and without accent characters should be treated as different user groups. For example, Lôcation and Location with value Bengaluru are treated as different user groups.
 
-### **Changes in columns in Learner Transcripts**
+### Changes in columns in Learner Transcripts
 
 The following are the changes in the Learner Transcripts fields.
 
@@ -225,7 +227,9 @@ We've added the following columns:
 * **Quiz Score** - It's the quiz score grade received from the content.
 * **Quiz Score Max** - It's the maximum quiz score grade received from the content.
 
-**Note:** The column Quiz Score percentage is calculated as the percentage value of 'Quiz Score' and 'Quiz Score Max'.
+>[!NOTE]
+>
+>The column Quiz Score percentage is calculated as the percentage value of 'Quiz Score' and 'Quiz Score Max'.
 
 We plan to remove the column 'Total User Score/Quiz Score' from the next release as all the information is now available as separate columns for better readability and analysis.
 

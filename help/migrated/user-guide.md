@@ -4,7 +4,7 @@ description: Learn the latest offering in Adobe Learning Manager. Start at the b
 contentowner: dhv
 ---
 
-# Welcome to the Adobe Learning Manager User Guide {#welcome-to-the-adobe-learning-manager-user-guide}
+# Welcome to the Adobe Learning Manager User Guide
 
 Read on to know what is the latest offering in Adobe Learning Manager. Start at the beginning, visit each section individually, or connect with the Community to work your way through a project. 
 

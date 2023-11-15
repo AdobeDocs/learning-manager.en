@@ -1,14 +1,14 @@
 ---
-description: Learn how to use Catalogs in Learning Manager to view the eligible learning objects
+description: Learn how to use Catalogs in Captivate Prime to view the eligible learning objects
 jcr-language: en_us
 title: Catalogs
 contentowner: manochan
 ---
 
 
-# Catalogs {#catalogs}
+# Catalogs
 
-Learn how to use Catalogs in Learning Manager to view the eligible learning objects
+Learn how to use Catalogs in Captivate Prime to view the eligible learning objects
 
 **Catalog** consists of all the courses, learning programs, certifications and job aids that are available for a learner role in the company account.
 
@@ -31,4 +31,3 @@ You can also filter according to the duration of a training. The duration filter
 The training **Duration** and **Format** filters are identified based on the training content available for default instance and for the account preferred locale.
 
 Once a training is published, the training may take up to one hour for the data to be available as a filter.   
-

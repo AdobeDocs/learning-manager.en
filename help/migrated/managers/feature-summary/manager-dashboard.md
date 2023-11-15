@@ -6,7 +6,7 @@ contentowner: kuppan
 ---
 
 
-# Manager dashboard {#manager-dashboard}
+# Manager dashboard
 
 Learn how to view and track learnings from the manager dashboard.
 
@@ -22,9 +22,9 @@ A manager can view the summary of learning activities for his team over a select
 
 'Month' and 'Year' are based on the calendar year while 'Quarter' is based on the financial year as configured by the Admin in account settings.
 
-![](assets/learning-summarydashboard.png) 
+![](assets/learning-summarydashboard.png)
 
-### Team view {#teamview}
+## Team view {#teamview}
 
 The Team View displays the teams, their members, and their respective enrollments, progressions, and completions for learning objects.
 
@@ -44,9 +44,9 @@ Similarly, you can view the learning objects along with the number of enrollment
 
 On further clicking  the number of enrollments, progressions, or completions for each learning, you can view the following details: People, enrollment/completion date, due date, and progress made.
 
-![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png) 
+![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
-### Learnings View {#learningsview}
+## Learnings View {#learningsview}
 
 Learnings View displays the number of Enrollments, Progressions, and Completions for a Learning Object.
 
@@ -54,9 +54,9 @@ Learnings View displays the number of Enrollments, Progressions, and Completions
 
 To view details including people, enrollment dates, due dates, and progress for respective Learning Objects, click the corresponding values in the enrollments, progressions, and completions columns.
 
-![](assets/ls-learnings-view-onfurtherclickingvalues.png) 
+![](assets/ls-learnings-view-onfurtherclickingvalues.png)
 
-### Export report {#exportreport}
+## Export report {#exportreport}
 
 To generate an excel report, click **Actions > Report** 
 
@@ -76,9 +76,9 @@ Learning Objects with completion deadlines can be configured in compliance dashb
 
 **Non-compliant**: Displays the number of learners who did not complete the learning object within the completion deadline.
 
-![](assets/cs-dashboard.png) 
+![](assets/cs-dashboard.png)
 
-### Team View {#TeamView-1}
+## Team View {#TeamView-1}
 
 Displays the compliance status of a course for respective teams. Compliant, Safe Deadline, Upcoming Deadline, and Non-Compliant are columns in the Team View table.
 
@@ -90,9 +90,9 @@ To display names of the members in a team and the individual number of courses f
 
 On further clicking the values in the compliant, safe deadline, upcoming deadline, and non-compliant column, the corresponding course details are displayed: Learning object name, enrollment/ completion date, due date, and progress in percentage.
 
-![](assets/cs-team-view-on-furtherclickingvaluesincompliantstatus.png) ![](assets/cs-team-view-on-furtherclickingvaluesinsafedeadlinestatus.png) 
+![](assets/cs-team-view-on-furtherclickingvaluesincompliantstatus.png) ![](assets/cs-team-view-on-furtherclickingvaluesinsafedeadlinestatus.png)
 
-### Learnings View {#LearningsView-1}
+## Learnings View {#LearningsView-1}
 
 In the Compliance Status Learnings View, the list of Learning Objects and the corresponding number of team members that are Compliant, within a Safe Deadline, have an Upcoming Deadline, or are Non Compliant is displayed.
 
@@ -100,15 +100,15 @@ In the Compliance Status Learnings View, the list of Learning Objects and the co
 
 On further clicking the values in the compliant, safe deadline, upcoming deadline, and non compliant columns, the following data is displayed: People, Enrollment Date, Completion date, and Progress.
 
-![](assets/cs-learnings-view-onfurtherclickingvalues.png) 
+![](assets/cs-learnings-view-onfurtherclickingvalues.png)
 
-### Export data & send emails {#exportdataampsendemails}
+## Export data & send emails {#exportdataampsendemails}
 
 * To export the compliance status for team and learnings view, click **Actions** > **Export**.
 
 * To send an email to team members, click **Actions** > **Send Email**.
 
-![](assets/cs-send-email-andexport.png) 
+![](assets/cs-send-email-andexport.png)
 
 ## Team Skills {#teamskills}
 
@@ -141,7 +141,7 @@ To forecast the team completion % for a skill, follow the below steps:
 
    ![](assets/configure-tracker.png)
 
-1. To view the output for your forecast, click the **Estimate** button. The output looks like the below screenshot. ****
+1. To view the output for your forecast, click the **Estimate** button. The output looks like the below screenshot.
 
    ![](assets/skill-tracker-output.png)
 
@@ -161,9 +161,9 @@ The second point shows the current date and team completion % level of the skill
 
 The third point on the line shows the expected target completion % and target completion date.
 
-![](assets/3-solid-line.png) 
+![](assets/3-solid-line.png)
 
-### Forecast line {#forecastline}
+## Forecast line {#forecastline}
 
 The dotted line is the forecast line that displays the forecast depending on the current team completion % for a skill in a given time period.
 
@@ -193,39 +193,10 @@ On clicking the team, you can view the members in it and the corresponding detai
 
 On selecting the values for a team under the enrollment, achieved, and in progress column, you can view the number of users who have enrolled to the skill. You can also view the date on which the user had enrolled to the skill, the status, and completion date if the skill was completed by the user. 
 
-![](assets/ts-click-on-valuesunderskillstatus.png) ![](assets/1-solid-line.png) 
+![](assets/ts-click-on-valuesunderskillstatus.png) ![](assets/1-solid-line.png)
 
-### Export report {#Exportreport-1}
+## Export report {#Exportreport-1}
 
-* Click **Actions **> **Export** to export the data as an excel file. 
+* Click **Actions** > **Export** to export the data as an excel file. 
 
-![](assets/export-report.png) 
-
-## Multi-Manager Support in Manager App and Manager Dashboard
-
-### Multiple Manager
-
-A user may have multiple managers apart from their hierarchy manager. These managers have the same capabilities as a regular manager. If a manager is both a hierarchy manager and a store manager, both of them are listed in the dropdown. On choosing a store, managers will have the scope restricted to that store users only.
-
-To set up a manager for a store or organization, use a CSV with the additional columns:
-
-* Active field.
-* Active field appended with "managed by user". Users can be assigned as store/organization managers using this field.
-
-### Dashboard
-
-Multi-manager reports are available as the following dashboards:
-
-* **Dashboard - Learning Summary:** Enrollments, Views and Completion counts will be shown for that store users only
-* **Dashboard - Compliance Dashboard:** Graph should show the count and the percentages for the lo added based on users belonging to that store only. 'Reset To Default Learnings' option will not be available for store managers.
-* **Dashboard - Skill Status:** A** **graph would show the "In Progress" and "Achieved" percentages considering the progress of users of only that store for that skill. 'Reset to Top Skills' will not be seen for store managers.
-
-### Reports
-
-Reports include the multi-valued active fields and the values are comma separated. The store managers can download the Learning summary reports.
-
-#### Dashboard reports
-
-A dashboard report created for one store/organization will be common for all the stores/organizations. When you switch to another manager, the reports for other stores are also displayed.
-
-If a store has multiple managers, the report created by one store manager cannot be viewed by other store managers. Every manager will have their own set of reports.
+![](assets/export-report.png)

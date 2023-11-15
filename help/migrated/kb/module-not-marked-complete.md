@@ -6,11 +6,11 @@ contentowner: nluke
 ---
 
 
-# Module is marked incomplete on course completion in Adobe Learning Manager {#module-is-marked-incomplete-on-course-completion-in-adobe-learning-manager}
+# Module is marked incomplete on course completion in Adobe Captivate Prime
 
 ## Issue
 
-Even after a learner completes a course in Adobe Learning Manager, the module is marked as incomplete.
+Even after a learner completes a course in Adobe Captivate Prime, the module is marked as incomplete.
 
 ## Cause
 
@@ -27,4 +27,3 @@ The issue is related to the reporting **Preferences** set for the project. The a
 If there are any changes required, the author can do so using a content authoring tool, such as Adobe Captivate. The author can then update the module accordingly.
 
 ![](assets/scorm.png)
-

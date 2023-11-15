@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Best practices guide to set up Learning Manager  {#best-practices-guide-to-set-up-learning-manager}
+# Best practices guide to set up Learning Manager 
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 

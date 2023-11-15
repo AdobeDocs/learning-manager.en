@@ -6,7 +6,7 @@ contentowner: nluke
 ---
 
 
-# Unable to register as an External User {#unable-to-register-as-an-external-user}
+# Unable to register as an External User
 
 ## Issue
 
@@ -16,7 +16,7 @@ External learners are unable to register to a profile.
 
 Email id is already registered. Please use a different email.
 
-![](assets/cp-register-profile.png) 
+![](assets/cp-register-profile.png)
 
 ## Description
 
@@ -60,9 +60,9 @@ This issue occurs under one of the below scenarios:
 
 1. Change the email address of the Learner or add *_old* to the existing email address. This will free up the email address.
 
-   For example, If the email address of the Learner is *abc@adobe.com,* change it to *abc_old@adobe.com *
+   For example, If the email address of the Learner is *abc@adobe.com,* change it to *abc_old@adobe.com*
 
-1. Click **Save**  to retain the changes made.
+1. Click **Save** to retain the changes made.
 
 **Scenario 3**: The user is in a deleted state.
 

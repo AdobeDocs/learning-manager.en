@@ -6,13 +6,15 @@ contentowner: saghosh
 ---
 
 
-# Learner home page {#learner-home-page}
+# Learner home page
+
+## Overview {#overview}
 
 After the Administrator enables Immersive layout, the learner, after signing into the app, is greeted with a completely revamped User Interface. 
 
 >[!NOTE]
 >
->he Immersive Layout is not supported on the IE11 browser.
+>The Immersive Layout is not supported on the IE11 browser.
 
 Based on whether a widget was enabled, the learner sees the following: 
 
@@ -20,7 +22,7 @@ Based on whether a widget was enabled, the learner sees the following:
 
 Features a video or image carousel with an embedded URL. The [Administrator can upload any image or video](../../administrators/feature-summary/announcements.md#masthead) asset as a masthead and set its visibility for a group of learners.
 
-![](assets/learner-masthead.png) 
+![](assets/learner-masthead.png)
 
 ## My Learning List {#mylearninglist}
 
@@ -32,13 +34,13 @@ You can also can also swipe left and right to navigate through the list.
 
 To resume a course, click **Continue** on a card, and the player will launch. 
 
-The appearance of icons on each training card is enabled/disabled by the Admin via the Admin app (**Settings > General > Enable Training Card Icons**).
+The appearance of icons on each training card is enabled/disabled by the Admin via the Admin app (**Settings** > **General** > **Enable Training Card Icons**).
 
 **Add to My learning List**
 
 If you hover on any course card in the **Recommended based on your areas of interest** and **Recommended based on peer activity lists**, you can see an option to add the course to the **My Learning List**. Click **+** on the course card and the course will get added to the **My Learning List**.
 
-![](assets/add-my-learning.png) 
+![](assets/add-my-learning.png)
 
 ## Choose skill levels {#chooseskilllevels}
 
@@ -50,7 +52,7 @@ As a learner, you can filter the course catalog according to these levels:
 
 Choose an option and you can then see the course catalog according to the selection.
 
-![](assets/skill-levels.png) 
+![](assets/skill-levels.png)
 
 ## Calendar {#calendar}
 
@@ -121,4 +123,3 @@ To add the skills, click **Add**.
 ## Recommendation based on peer activity {#recommendationbasedonpeeractivity}
 
 Displays training based on what your peers are taking. This is again driven by a Machine Learning algorithm. The recommendations are based on training for both Custom and Industry Aligned learners.   
-

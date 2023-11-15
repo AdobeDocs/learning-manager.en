@@ -6,13 +6,13 @@ contentowner: manochan
 ---
 
 
-# User notifications {#user-notifications}
+# User notifications
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Setting up User notifications for Managers.
 
-Notifications feature is applicable to all the users of Adobe Learning Manager 1.0. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
+Notifications feature is applicable to all the users of Adobe Captivate Prime 1.0. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 
 ## Access notifications {#accessnotifications}
 
@@ -49,7 +49,9 @@ Managers can get notifications when the following events trigger:
 1. A manager is required to approve the certification proof document uploaded by the learner
 1. A learner does not complete the course even after the deadline date. (this event triggers only when the notification reminder for the course instance is set with escalation level to the learner's manager)
 
-Managers can also receive notifications when they play the role of a learner. Refer to learner notifications for more information.
+>[!NOTE]
+>
+>Managers can also receive notifications when they play the role of a learner. Refer to learner notifications for more information.
 
 ## Provide feedback {#providefeedback}
 

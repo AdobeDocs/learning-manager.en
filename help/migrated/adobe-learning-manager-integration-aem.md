@@ -5,7 +5,7 @@ description: Adobe Learning Manager (ALM) integrates with Adobe Experience Manag
 contentowner: saghosh
 ---
 
-# Adobe Learning Manager reference site (ALM reference site) package for AEM Sites {#adobe-learning-manager-reference-site-alm-reference-site-package-for-aem-sites}
+# Adobe Learning Manager reference site (ALM reference site) package for AEM Sites
 
 Adobe Learning Manager (ALM) integrates with Adobe Experience Manager (AEM) sites. This enables you to create your own website and responsive mobile interfaces for Adobe Learning Manager with minimum coding effort. With this integration, you can create customized learning experiences for your users.
 
@@ -20,9 +20,7 @@ Install ALM reference site package
 ## Pre-requisites
 
 * Licenses for AEM Sites and Adobe Commerce.
-
 * AEM on-premise 6.5 or Adobe Experience Manager - Cloud Service  
-
 * Adobe Commerce 2.4.3
 
 After you secure your environment of AEM Sites, you must install the ALM reference site package. This package includes AEM web pages and website components that help construct the learning platform.
@@ -79,7 +77,6 @@ To approve the application, click **Approve**.
 
 1. Launch your AEM instance.
 1. Click Settings > Cloud Services.   
-
 1. Click Adobe Learning Manager Configuration.
 
    ![](assets/alm-configuration.png)
@@ -145,10 +142,8 @@ A user can use the already AEM application and approve it, instead of creating o
 Customize your webpages by using the AEM references site and the available widgets. 
 
 1. Launch your AEM instance.  
-
 1. Click Sites and open the configuration page.  
-
-1. Click **Learning Site > Language Masters > English**. All webpages in the project are included in the folder. 
+1. Click **Learning Site** > **Language Masters** > **English**. All webpages in the project are included in the folder. 
 
    ![](assets/list-webpages.png)
 
@@ -174,7 +169,7 @@ Apart from the templates that you can use that are provided by the reference sit
 
 1. To create the page, click **Create**.  
 
-1. Select the new page and click Edit.  
+1. Select the new page and click **Edit**.  
 
 1. Insert a component on the page, for example, **Learning- Content**.
 
@@ -188,7 +183,7 @@ The ALM reference site package provides a "Learning Site Blueprint," which enabl
 
 1. On the AEM start page, click **Sites**.  
 
-1. Click **Create > Site**.   
+1. Click **Create** > **Site**.   
 
 1. Click Learning Site Blueprint. 
 
@@ -231,15 +226,12 @@ However, if you want to use these newly added Learning Manager components to you
    Open the HTML file and add the following code snippets to the page component so that the code executes before the learning components present in the page render.
 
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
-
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
    The preceding code adds the mapped configuration in the meta tag of the page, which is required for the learning components to render. For more details, see [https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Ensure that you have mapped the configuration with the web project.  
-
 1. Open the AEM Sites template where you want to import the Learning Manager components.  
-
 1. On the template page editor, navigate to the Allowed Components container and select **Policy**.
 1. In the Policy page, navigate to Properties > Allowed Components and select the following components "Learning - Content," "Learning - Form," and "Learning - Structure"
 

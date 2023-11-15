@@ -6,9 +6,9 @@ contentowner: manochan
 ---
 
 
-# User notifications {#user-notifications}
+# User notifications
 
-Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
+Notifications feature is applicable to all the users of Adobe Captivate Prime. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 
 ## Access notifications {#accessnotifications}
 
@@ -24,7 +24,7 @@ You can know the number of latest notifications by the highlighted number displa
 
 Click **Show all notifications** link at the bottom of the notifications pop-up window to view all the notifications in a separate page.
 
-![](assets/author-notifications-page.png) 
+![](assets/author-notifications-page.png)
 
 ## Types of notifications for authors {#typesofnotificationsforauthors}
 

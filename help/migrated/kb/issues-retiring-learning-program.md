@@ -6,21 +6,21 @@ contentowner: nluke
 ---
 
 
-# Issues with retiring a Learning Program {#issues-with-retiring-a-learning-program}
+# Issues with retiring a Learning Program
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 ## Issue
 
 A Learning Program automatically gets retired.
 
-## Cause 
+## Cause
 
 There are situations where a Learning Program has retired without an Administrator/Author retiring the LP explicitly.
 
 This issue occurs because a Learning Program is a collection of courses. The higher order trainings retire, if any of the courses within it contains a retired instance or the course instance retires.
 
-## Resolution 
+## Resolution
 
 To check the course that contains a retired instance, follow the steps below:
 

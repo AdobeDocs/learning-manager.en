@@ -6,7 +6,7 @@ preview: true
 ---
 
 
-# Set up users in Learning Manager {#set-up-users-in-learning-manager}
+# Set up users in Learning Manager
 
 ## Internal and external users {#internalandexternalusers}
 

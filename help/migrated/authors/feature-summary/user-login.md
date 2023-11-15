@@ -6,17 +6,19 @@ contentowner: manochan
 ---
 
 
-# User login {#user-login}
+# User login
 
-When you are using Adobe Learning Manager for the first time, you need to create your account, by following the steps below:
+When you are using Adobe Captivate Prime for the first time, you need to create your account, by following the steps below:
 
-1. Launch Adobe Learning Manager using the secure link you received by welcome e-mail from your Administrator.  
+1. Launch Adobe Captivate Prime using the secure link you received by welcome e-mail from your Administrator.  
+
    Login screen appears.
+
 1. Click Login.
 
 ![](assets/adobeid-signin.png)
 
-1. Enter Adobe ID, password and click Sign in.
+1. Enter Adobe ID, password and click Sign in.  
 
    If you forgot password, click **Forgot password?** link and provide your email-id that you used for creating Adobe ID.
 

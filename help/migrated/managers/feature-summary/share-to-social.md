@@ -6,5 +6,5 @@ preview: true
 ---
 
 
-# Share to Social  {#share-to-social}
+# Share to Social 
 

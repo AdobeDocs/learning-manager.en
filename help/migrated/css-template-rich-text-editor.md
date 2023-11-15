@@ -7,9 +7,9 @@ preview: true
 ---
 
 
-# CSS template for Rich Text Editor {#css-template-for-rich-text-editor}
+# CSS template for Rich Text Editor
 
-## **Why is CSS required?**
+## Why is CSS required?
 
 Rich text is composed of HTML markup. Rendering the markup as-is would result in default styling applied by the browser. This often doesn't go well with the style guidelines of the company. A CSS is required to meet the guidelines.
 

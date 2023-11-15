@@ -6,9 +6,9 @@ contentowner: saghosh
 ---
 
 
-# Enable full control of shared catalog {#enable-full-control-of-shared-catalog}
+# Enable full control of shared catalog
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 ## Create Catalog {#createcatalog}
 

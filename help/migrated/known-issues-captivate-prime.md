@@ -6,7 +6,7 @@ preview: true
 ---
 
 
-# Known issues in Learning Manager {#known-issues-in-learning-manager}
+# Known issues in Learning Manager
 
 The following are a compilation of known issues for each update of Learning Manager. The list is cumulative and contains known issues of previous updates.
 

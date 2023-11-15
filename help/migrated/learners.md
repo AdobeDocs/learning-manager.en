@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Learners {#learners}
+# Learners
 
 <table> 
  <tbody>

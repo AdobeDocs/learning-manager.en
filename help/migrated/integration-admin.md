@@ -6,7 +6,7 @@ preview: true
 ---
 
 
-# Integration Admin {#integration-admin}
+# Integration Admin
 
 <table> 
  <tbody>

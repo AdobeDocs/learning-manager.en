@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Embeddable fluidic player {#embeddable-fluidic-player}
+# Embeddable fluidic player
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 

@@ -6,7 +6,7 @@ contentowner: manochan
 ---
 
 
-# Authors {#authors}
+# Authors
 
 <table> 
  <tbody>

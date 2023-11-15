@@ -1,17 +1,17 @@
 ---
-description: Learn how to download learner transcript based on users, learning objects, or skills in Learning Manager.
+description: Learn how to download learner transcript based on users, learning objects, or skills in Captivate Prime.
 jcr-language: en_us
 title: Learner transcripts
 ---
 
 
-# Learner transcripts {#learner-transcripts}
+# Learner transcripts
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Learn how to download learner transcript based on users, learning objects, or skills in Learning Manager.
+Learn how to download learner transcript based on users, learning objects, or skills in Captivate Prime.
 
-Adobe Learning Manager enables the Managers of an organization to generate the transcripts associated with learners. 
+Adobe Captivate Prime enables the Managers of an organization to generate the transcripts associated with learners. 
 
 ## Generate learner transcripts {#generatelearnertranscripts}
 
@@ -43,7 +43,7 @@ If the Manager enables this option, the timezone is picked from the one set in t
 >
 >For a new Manager, the Timezone checkbox is disabled.
 
-![](assets/image030.png) 
+![](assets/image030.png)
 
 ## Learner Transcript file content {#learnertranscriptfilecontent}
 

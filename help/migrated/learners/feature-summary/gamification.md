@@ -1,41 +1,43 @@
 ---
-description: Engage users using gamification techniques in Learning Manager.
+description: Engage users using gamification techniques in Captivate Prime.
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
 ---
 
 
-# Gamification {#gamification}
+# Gamification
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Engage users using gamification techniques in Learning Manager.
+Engage users using gamification techniques in Captivate Prime.
 
 Gamification is the use of game thinking and game mechanics in non-game contexts to engage users in earning points while learning.
 
-To engage learners and motivate them to achieve their goals by using gaming techniques, use the gamification feature in Learning Manager. Learners can compete with their colleagues to score points for various learning activities and achieve bronze, silver, gold, and platinum levels.
+## Overview {#overview}
+
+To engage learners and motivate them to achieve their goals by using gaming techniques, use the gamification feature in Captivate Prime. Learners can compete with their colleagues to score points for various learning activities and achieve bronze, silver, gold, and platinum levels.
 
 Learners can also see the achievement level based on the points that they have earned. The levels include Fast learner, Self driven, and so on. **Both internal learners and external learners can access this feature.**
 
 ## Leaderboard {#leaderboard}
 
-Leaderboard  is a gamification feature which acts as a scoreboard to showcase the ranking scores of leading competitors. Learners can see their gamification points using Leaderboard.
+Leaderboard is a gamification feature which acts as a scoreboard to showcase the ranking scores of leading competitors. Learners can see their gamification points using Leaderboard.
 
-From the Learner's h ome page , click **[!UICONTROL Gamification]** from the left pane. To view the leaderboard, click Leaderboard link. This feature enables the learners to understand how they are faring against a particular team member. It also shows their ranking position relative to other members of the team.
+From the Learner's home page, click **[!UICONTROL Gamification]** from the left pane. To view the leaderboard, click Leaderboard link. This feature enables the learners to understand how they are faring against a particular team member. It also shows their ranking position relative to other members of the team.
 
 Some of the features of Leaderboard for learners:
 
 * Learners enrolled in a Learning Program instance can see each other's' points if gamification is enabled for that instance.
 * Click **[!UICONTROL Add colleagues]** to include team member that you want to compare against. Your team member's profile picture is added to the timeline scale at the top of the leaderboard page. This timeline scale shows your points at the beginning and moves your position to the right when you achieve more points than your team members. You can only compare it against other members of the same group.
-* **User groups:** At any time you can choose your team members profiles that you want to compare your rank with, using the **[!UICONTROL Rank Me With]** option. From the Select User Groups field, type and choose the group. The list of all the team members along with their latest points are listed below. Both internal and external users can view the list but only internal users are enabled to search other  internal  learners.
+* **User groups:** At any time you can choose your team members profiles that you want to compare your rank with, using the **[!UICONTROL Rank Me With]** option. From the Select User Groups field, type and choose the group. The list of all the team members along with their latest points are listed below. Both internal and external users can view the list but only internal users are enabled to search other internal learners.
 
 * Also, the People Around Your Rank dialog box displays the names of team members who are above, below or at the same level as you.
-* When an external user converts  in to  an internal user, the timeline is automatically updated.
+* When an external user converts in to an internal user, the timeline is automatically updated.
 
 ## Points for consistent learning
 
-Adobe Learning Manager introduces a new gamification task that encourages users to access the learning platform consistently and engage in the learning activities. To support this task, the Administrator can now setup a new rule that awards points if the learner carries out learning activities for 1, 2, 3, or 4 days in a week, month, or quarter.
+Adobe Captivate Prime introduces a new gamification task that encourages users to access the learning platform consistently and engage in the learning activities. To support this task, the Administrator can now setup a new rule that awards points if the learner carries out learning activities for 1, 2, 3, or 4 days in a week, month, or quarter.
 
 Note that the gamification points for this rule are awarded once every 24 hours. For example, if a learner performs a learning activity today at 8AM Pacific Standard Time (PST) and has received gamification points for today, then tomorrow he will be considered for gamification points only if he performs a learning activity any time after 8AM PST.
 
@@ -51,7 +53,7 @@ The following activities are considered as learning activities:
 
 **Gamification points for providing L1 and L3 feedback and star rating**
 
-Adobe Learning Manager now enables an Administrator to activate a gamification criterion that awards points to users when they provide an L1 feedback, L3 feedback, and a star rating.
+Adobe Captivate Prime now enables an Administrator to activate a gamification criterion that awards points to users when they provide an L1 feedback, L3 feedback, and a star rating.
 
 ![](assets/feedback-rating.png)
 
@@ -82,7 +84,7 @@ You can see the following possible scenarios:
 
 >[!NOTE]
 >
->Administrator can modify the time period and the number of courses required to complete to earn corresponding points.
+>Administrator can modify the time period and the number of courses required to complete to earn corresponding points.  
 >
 >Within a task, points are not accorded to learners cumulatively. For example, assume that a learner completes single course and gets 20 points. When learners complete two courses, they get 100 points but the existing 20 points are not considered.
 
@@ -109,7 +111,7 @@ Possible scenarios for learners enrollment of courses in addition to their allot
 1. When learners enroll for two courses within a month/quarter/year, they get 100 points.
 1. When learners enroll for three courses within a month/quarter/year, they get extra 300 points.
 1. When learners enroll for four courses within a month/quarter/year, they get extra 500 points.
- 
+
 >[!NOTE]
 >
 >Administrator can modify the time period and the number of courses. For example, the third scenario can be modified to five courses instead of three to gain 80 points.

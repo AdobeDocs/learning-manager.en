@@ -6,7 +6,7 @@ contentowner: manochan
 ---
 
 
-# Getting started as Administrator {#getting-started-as-administrator}
+# Getting started as Administrator
 
 The getting started page aids you to traverse through the key features of the application.
 

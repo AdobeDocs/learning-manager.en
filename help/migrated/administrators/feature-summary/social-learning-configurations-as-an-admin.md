@@ -6,7 +6,7 @@ contentowner: kuppan
 ---
 
 
-# Monitoring and moderating Social Learning as an admin {#monitoring-and-moderating-social-learning-as-an-admin}
+# Monitoring and moderating Social Learning as an admin
 
 As an administrator, you can enable, disable, and monitor activities performed in Social Learning. Once the Social Learning feature is enabled, learners can view it and they can start participating in Social Learning.
 
@@ -21,7 +21,7 @@ To enable and configure the Social Learning feature, do the following:
 
    ![](assets/artboard-20-2x.png) ![](assets/enable-social-learningforthefirsttime.png) ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)
 
-1. The admin can configure  settings for Social Learning. Settings include types of Content Curations like **Manual-Only Curation** and **No Curation**. Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Learning Manager desktop application.
+1. The admin can configure  settings for Social Learning. Settings include types of Content Curations like **Manual-Only Curation** and **No Curation**. Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Captivate Prime desktop application.
 
 ## Content curation {#contentcuration}
 
@@ -29,9 +29,9 @@ Since Social Learning is an informal learning, its functionality is similar to o
 
 **Manual-Only Curation** and **No Curation** are two curation options that can be selected by the admin.
 
-**Auto-assisted Manual Curation:** Learning Manager has an artificial intelligence-based auto curation engine that can intelligently find out the essence of the content of any format that can later be served to the desired learners. It can also approve or reject a content from being posted based on its given confidence score.
+**Auto-assisted Manual Curation:** Captivate Prime has an artificial intelligence-based auto curation engine that can intelligently find out the essence of the content of any format that can later be served to the desired learners. It can also approve or reject a content from being posted based on its given confidence score.
 
-For example, Adarsh is a learner and he found a blog interesting, so he posts it on Adobe Learning Manager's Social Learning platform. The post is then fed to the AI-powered Content Curation Engine which predicts the skills present in the content and compares those skills with the associated board skills. If any of the skills match, then the content is posted otherwise it is sent for manual-only curation. 
+For example, Adarsh is a learner and he found a blog interesting, so he posts it on Adobe Captivate Prime's Social Learning platform. The post is then fed to the AI-powered Content Curation Engine which predicts the skills present in the content and compares those skills with the associated board skills. If any of the skills match, then the content is posted otherwise it is sent for manual-only curation. 
 
 The minimum confidence score required for posting is 50%. 
 
@@ -41,7 +41,7 @@ The minimum confidence score required for posting is 50%.
 
 Moderating content manually is often prone to errors and time-intensive. In addition, the process is not scalable and is unsuitable for high volume of social activities. Therefore, curating content automatically becomes critical when serving many users who are active socially.
 
-In Learning Manager, there is an option to curate content automatically. The curation is driven by an AI-enabled engine, which maps works with the pre-defined skills, after the Admin maps the pre-defined skills with a skill. For more information, see [Skill domain mapping](curation-skills.md).
+In Captivate Prime, there is an option to curate content automatically. The curation is driven by an AI-enabled engine, which maps works with the pre-defined skills, after the Admin maps the pre-defined skills with a skill. For more information, see [Skill domain mapping](curation-skills.md).
 
 In auto-curation, the following types of content are allowed:
 
@@ -70,7 +70,7 @@ It is recommended that the Administrator adds SMEs for skills if Manual-Only cur
 
 **No Curation:** All learner's post gets posted automatically without any content moderation.
 
-![](assets/artboard-6-2x.png) 
+![](assets/artboard-6-2x.png)
 
 ## Frequently asked questions on auto curation of content {#faq-auto-curation}
 
@@ -177,7 +177,7 @@ If the active field does not contain any value, then the **Value** field drop-do
 
 ![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)
 
-Users can also post their content by using Adobe Learning Manager desktop application. Depending on whether you are a Mac or Windows user, click the given links to download the desktop application and follow the given steps to install it onto your system. If you are facing any difficulties in installation, [click here](../../kb/troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md).
+Users can also post their content by using Adobe Captivate Prime desktop application. Depending on whether you are a Mac or Windows user, click the given links to download the desktop application and follow the given steps to install it onto your system. If you are facing any difficulties in installation, [click here](../../kb/troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md).
 
 ## Board Creation Permissions {#permission}
 
@@ -255,7 +255,9 @@ Learner's social activity trends can be viewed and tracked in the Activity tab i
 
 Last seven days is the default value in the date filter.
 
-**Note:** Last seven days is the default value in the date filter.
+>[!NOTE]
+>
+>Last seven days is the default value in the date filter.
 
 The first visual provides the admin with the following information for the time period selected from the date filter:
 
@@ -265,7 +267,7 @@ The first visual provides the admin with the following information for the time 
 
 The second visual is a line graph displaying the trend of number of boards or posts created based on the time period selected from the date filter. Click the filter to view the different time options like last seven days, last month, last three months, and all time.
 
-![](assets/trends.png) 
+![](assets/trends.png)
 
 ## Skills {#skills}
 
@@ -275,53 +277,74 @@ For an account with Social Learning disabled, no skills are displayed. The searc
 
 The administrator can view the Activity Score, number of posts, boards, users, and name of SMEs for each skill that was used while creating a board or post.
 
-![](assets/modify-smes-2.png) 
+![](assets/modify-smes-2.png)
 
-<table> 
+<table>
  <tbody>
-  <tr> 
-   <td><p>Sl. No.</p> </td> 
-   <td><p>Column Name</p> </td> 
-   <td><p>Explanation</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>1</p> </td> 
-   <td><p>Skill Name</p> </td> 
-   <td><p>Displays names of skills that are used in Social Learning.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>2</p> </td> 
-   <td><p>Activity Score</p> </td> 
-   <td><p>Displays the sum of activity points of all the boards that belong to the skill.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>3</p> </td> 
-   <td><p>Posts</p> </td> 
-   <td><p>Displays the total number of posts created using a skill.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>4</p> </td> 
-   <td><p>Boards</p> </td> 
-   <td><p>Displays the total number of boards created using a skill.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>5</p> </td> 
-   <td><p>Users</p> </td> 
-   <td><p>Displays the total number of learners that have used that skill.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>6</p> </td> 
-   <td><p>SMEs</p> </td> 
-   <td><p>Displays the current top 3 SMEs for that skill. Admin can add or modify SMEs by clicking the link.</p> </td> 
-  </tr> 
+  <tr>
+   <td>
+    <p>Sl. No.</p></td>
+   <td>
+    <p>Column Name</p></td>
+   <td>
+    <p>Explanation</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>1</p></td>
+   <td>
+    <p>Skill Name</p></td>
+   <td>
+    <p>Displays names of skills that are used in Social Learning.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>2</p></td>
+   <td>
+    <p>Activity Score</p></td>
+   <td>
+    <p>Displays the sum of activity points of all the boards that belong to the skill.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>3</p></td>
+   <td>
+    <p>Posts</p></td>
+   <td>
+    <p>Displays the total number of posts created using a skill.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>4</p></td>
+   <td>
+    <p>Boards</p></td>
+   <td>
+    <p>Displays the total number of boards created using a skill.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>5</p></td>
+   <td>
+    <p>Users</p></td>
+   <td>
+    <p>Displays the total number of learners that have used that skill.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>6</p></td>
+   <td>
+    <p>SMEs</p></td>
+   <td>
+    <p>Displays the current top 3 SMEs for that skill. Admin can add or modify SMEs by clicking the link.</p></td>
+  </tr>
  </tbody>
 </table>
 
 ## Skill domain {#skilldomain}
 
-Based on the skills mostly used by Learning Manager end users, Adobe Learning Manager has categorized a list of 25 skill domains that the auto curation system uses to curate content. The admin must map the configured enterprise skills to the skill domains provided by Prime. The mapping of skills can be done from the admin skill page while creating a skill or by modifying an existing skill. For more information on how to map or add a skill, [click here](skills-levels.md#Createaskillandalevel).
+Based on the skills mostly used by Captivate Prime end users, Adobe Captivate Prime has categorized a list of 25 skill domains that the auto curation system uses to curate content. The admin must map the configured enterprise skills to the skill domains provided by Prime. The mapping of skills can be done from the admin skill page while creating a skill or by modifying an existing skill. For more information on how to map or add a skill, [click here](skills-levels.md#Createaskillandalevel).
 
-+++List of skill domains that is used by Learning Manager's curation system
++++List of skill domains that is used by Captivate Prime's curation system
 
 1. Accounting
 1. Analytics
@@ -353,7 +376,7 @@ Based on the skills mostly used by Learning Manager end users, Adobe Learning Ma
 
 ## Subject Matter Experts (SMEs) {#subjectmatterexpertssmes}
 
-**Subject Matter Experts** are people who have a considerable knowledge and expertise in a skill. An **SME** plays an important role in social learning when the admin has set the curation settings as manual or when the auto-curation method fails to curate the content. Only top three SMEs are displayed in the SMEs column.
+**Subject Matter Experts **are people who have a considerable knowledge and expertise in a skill. An **SME **plays an important role in social learning when the admin has set the curation settings as manual or when the auto-curation method fails to curate the content. Only top three SMEs are displayed in the SMEs column.
 
 ## Requirements to be an SME {#requirementstobeansme}
 
@@ -421,4 +444,3 @@ Every time a user creates a new social board, social post or social comment, it 
 In **Social Learning > Settings**, in the section Scope Settings, enable the option **Enable for External learners**. From the drop-down, choose an external profile and define the scope of learning for that profile.
 
 ![](assets/social-scope-external-users.png)
-

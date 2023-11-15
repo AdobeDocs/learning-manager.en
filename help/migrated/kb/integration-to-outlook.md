@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# View learner's response to an outlook calendar invite on Learning Manager {#view-learners-response-to-an-outlook-calendar-invite-on-learning-manager}
+# View learner's response to an outlook calendar invite on Learning Manager
 
 Learn how an admin and an instructor can view a learner's response to a calendar invite.
 

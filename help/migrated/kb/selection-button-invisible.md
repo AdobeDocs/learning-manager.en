@@ -6,9 +6,9 @@ contentowner: nluke
 ---
 
 
-# Selection buttons do not appear in Learning Manager {#selection-buttons-do-not-appear-in-learning-manager}
+# Selection buttons do not appear in Learning Manager
 
-## Issue 
+## Issue
 
 Due to missing radio buttons, an Administrator  cannot perform the following (not an exhaustive list):
 
@@ -16,13 +16,13 @@ Due to missing radio buttons, an Administrator  cannot perform the following (no
 * Send a welcome mail.
 * Delete a user.
 
-## Cause 
+## Cause
 
 The issue occurs because of incorrect themes in the account.
 
-![](assets/radio-buttons.png) 
+![](assets/radio-buttons.png)
 
-## Resolution 
+## Resolution
 
 Reload the themes and fix the appearance of the radio buttons. Perform the following steps:
 
@@ -33,5 +33,4 @@ Reload the themes and fix the appearance of the radio buttons. Perform the follo
    ![](assets/set-themes.png)
 
 1. Revert to the previous theme and save the changes.
-1. Log out of Adobe Learning Manager and sign in again. 
-
+1. Log out of Adobe Captivate Prime and sign in again. 

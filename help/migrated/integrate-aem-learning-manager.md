@@ -6,7 +6,7 @@ contentowner: saghosh
 ---
 
 
-# Integrate Learning Manager with AEM {#integrate-learning-manager-with-aem}
+# Integrate Learning Manager with AEM
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
@@ -20,7 +20,7 @@ The various strips present in the learner app can be embedded in the AEM sites. 
 
 The installer is shipped as an AEM content package. [***Download the package***](https://github.com/adobe/adobe-learning-manager-reference-site).
 
-The content package, is available as a zip file, and** **is compatible with AEM 6.4 and AEM 6.5.
+The content package, is available as a zip file, and is compatible with AEM 6.4 and AEM 6.5.
 
 ## Install Learning Manager component {#installcaptivateprimecomponent}
 

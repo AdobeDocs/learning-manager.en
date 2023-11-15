@@ -1,14 +1,12 @@
 ---
 jcr-language: en_us
-title: System requirements for Adobe Learning Manager desktop application
+title: System requirements | Adobe Captivate Prime desktop application
 description: System requirements for Adobe Learning Manager desktop application
 contentowner: kuppan
 ---
 
 
-# System requirements | Adobe Learning Manager desktop application {#system-requirements-adobe-learning-manager-desktop-application}
-
-System requirements and language versions for Adobe Learning Manager.
+# System requirements for Adobe Learning Manager desktop application
 
 ## Windows {#windows}
 

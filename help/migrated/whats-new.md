@@ -1,404 +1,413 @@
 ---
-description: Learn about the new features and enhancements in Adobe Learning Manager
+description: Learn about the new features and enhancements in Adobe Captivate Prime
 jcr-language: en_us
 title: New features summary
 contentowner: jayakarr
 ---
 
+
 # New features summary {#new-features-summary}
 
-Learn about the new features and enhancements in Adobe Learning Manager
+Learn about the new features and enhancements in Adobe Captivate Prime
 
-## New features and enhancements
+## What's new in this release {#whatsnewandchanged}
 
-### Rebranding of Adobe Captivate Prime to Adobe Learning Manager
+<table>
+ <tbody>
+  <tr>
+   <td><img src="assets/classroom1.jpeg"></td>
+   <td>
+    <p><b><a disablelinktracking="false" href="whats-new.md#classroom">Classroom</a></b><br></p></td>
+   <td><img src="assets/gamification.jpeg"></td>
+   <td>
+    <p><b><a disablelinktracking="false" href="whats-new.md#gamification">Gamification</a></b></p></td>
+  </tr>
+ </tbody>
+</table>
 
-As has been previously communicated, Adobe Captivate Prime will be rebranded to Adobe Learning Manager with the various UI elements in the product reflecting the change.
+<table>
+ <tbody>
+  <tr>
+   <td><img src="assets/teams.jpeg"></td>
+   <td>
+    <p><b><a disablelinktracking="false" href="whats-new.md#teams">Microsoft Teams</a></b></p></td>
+   <td><img src="assets/api.jpeg"></td>
+   <td>
+    <p><b><a disablelinktracking="false" href="whats-new.md#api">API changes</a></b></p></td>
+  </tr>
+ </tbody>
+</table>
 
-### Out of the Box Integration with AEM Sites and Adobe Commerce
+## Classroom locations
 
-Adobe Learning Manager (ALM) integrates with Adobe Experience Manager (AEM) sites. This enables you to create your own website and responsive mobile interfaces for Adobe Learning Manager with minimum coding effort. With this integration, you can create customized learning experiences for your users.
+Administrators can now set up a library of classroom locations. For each Classroom Location, the administrators can set the metadata that includes Location Name, Seat Limit as well as additional information such as the Location URL. Authors and Administrators can then use these pre-configured classroom locations for setting up instructor-led training events (classroom modules).
 
-For more information, see  [**Adobe Learning Manager reference site (ALM reference site) package for AEM Sites**](adobe-learning-manager-integration-aem.md).
+For more information, see [**Classroom in Adobe Captivate Prime**](administrators/feature-summary/classroom.md).
 
-### Adobe Commerce Connector
+## Gamification
 
-Adobe Commerce is an extensible and scalable commerce enablement solution that enables you to build multi-channel commerce experiences for B2B and B2C customers on a single platform. Use the Adobe Commerce connector to connect your Adobe Learning Manager account with Adobe Commerce and realize ecommerce capabilities on the learning platform.
+In this release, Adobe Captivate Prime introduces a new gamification task that encourages users to access the learning platform consistently and engage in the learning activities. To support this task, the Administrator can now setup a new rule that awards points if the learner carries out learning activities for 1, 2, 3, or 4 days in a week, month, or quarter.
 
-For more information, see [**Adobe Commerce connector**](integration-admin/feature-summary/connectors.md#adobe-commerce).
+For more information, see [**Gamification**](learners/feature-summary/gamification.md).
 
-### Training Data Access connector
+## Microsoft Teams connector
 
-The Training Data Access connector enables your AEM Sites-based custom-made user interface to retrieve and render training information to learners and helps easy and faster search.
+Microsoft&reg; Teams&reg; is a persistent chat-based collaboration platform that supports document sharing, online meetings, and other features for business communications.
 
-For more information, see [**Training Data connector**](integration-admin/feature-summary/connectors.md#connector_trgmetadata).
+Adobe Captivate Prime uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings into Captivate Prime.
 
-## Other enhancements
+Microsoft Teams connector connects the Captivate Prime and Microsoft Teams systems to enable automatic data synchronization.
 
-### Optional skill points in a course
+For more information, see [**Install Microsoft Teams connector**](integration-admin/feature-summary/install-microsoft-teams-connector.md).
 
-Authors will now be provided with an option to set maximum credits for a particular skills level in a course. Authors can either use the new checkbox to select maximum credits for a specific skill level, or manually enter the credits.
+## Player TOC changes
 
-### Notifications for reply on a social post
+## Performance improvements
 
-In Social Learning, a Learner now gets an email notification for every reply on their community post.
+This release of Adobe Captivate Prime introduces significant performance enhancements for the fluidic player table of contents (TOC). Some of the changes include faster rendering of content, displaying course completion information in the TOC after the player is closed, displaying a tick mark in TOC after a module or course is completed, better support for the content types, such as PDF, video, and audio formats, and so on.
 
-### Search for external users
+![](assets/player-toc.png)
 
-As an Administrators, search for external profiles in the External Users page. In the search bar, enter the profile name of the user. At a time, five matching profiles appear.
+## Accessibility improvements
 
-### Export feedback
+We have made several accessibility enhancements to the fluidic player TOC. Few of these changes include support for better color and sharp contrast, as well as more prominent TOC labels.
 
-The generateFeedbackReport API produces a feedback report that contains six new fields. They are 
+## Search and sort modules
 
-* L1 feedback question #1
-* L1 feedback response #1
-* L1 feedback question #2
-* L1 feedback response #2
-* L3 feedback question
-* L3 feedback response
+When an instructor has multiple sessions or submissions, searching for and sorting through these sessions and submissions can become difficult and tedious. With this release, the modules, and sessions available on the instructor page are now searchable using the name of a course, session, or module. Captivate Prime now provides a search field that is available for all the upcoming sessions, past sessions, and review activities including checklists and submissions.
 
-### Instructor comments in exported reports
+To search for a particular session or module name, follow the steps below:
 
-An instructor's comments can now be included as a new column in the exported Excel.
-
-### Extension of character limits
-
-In this release, we have extended the limit to the number of characters in the Title field of a Course, Certificate, and Learning Path to 255.
-
-### Alert message when a message is deleted
-
-An alert message appears when authors try to republish courses/Learning Paths/certifications when the content is modified (added/deleted).
-
-### New column with the comments in excel
-
-As an instructor, you can mark the attendance, provide scores, add and edit comments for a Learner.  You can also capture this information as a PDF report once the attendee list is confirmed for any upcoming and past sessions.
-
-The easy-to-print pdf displays information as a table with the Learner' name, Email, attendance status, marks scored, and comments.
-
-There are two types of reports that can be exported:
-
-* Export Learner List (PDF): This report displays the list of all the Learner's information to capture attendance, marks, and comments manually in a physical classroom session. To export this list, click **Actions** > **Export Learner List (PDF)**.
-* Export Attendance Report (PDF): This is a newly added report that displays the list of all the Learner's information with the attendance, marks and comments filled out. To export this list, click **Actions** > **Export Attendance Report (PDF)**.
-
-The Comments column is a new addition to add or edit any observations on Learner's attendance and scoring. It appears as the last column in the end of the exported report.
-
-An Instructor can add comments for a Learner, only after marking attendance for the completed module. By default, the Comments field is disabled.
-
-To add a comment for a Learner, click **Actions** > **Edit Scores & Comments**. This enables the Comments field.
-
-### Share Monthly Active User (MAU) licenses
-
-If you are using the MAU licensing model with ALM, you can share licenses in your peer accounts. This enables more flexibility and better utilization of licenses across partner organizations.
-
-To share the seats,
-
-1. On the Peer Accounts page, click **Add**.
-1. Enable the checkbox **Share Seats**.
-1. Enter the number of seats that you want to share. This field is optional. If you do not enter the number of seats, then all seats are shared.
-
-After you share the seats, the details are listed on the report.
-
-### Support for Multi-manager
-
-In ALM, a learner can now manage multiple user groups. This is made possible by using Active Fields, where an Active Field can now store multiple values.
-
-There is a new checkbox, **Learner-Configurable**, which, when unchecked, the active field will be hidden from the learner on the profile page.
-
-For example, in a retail setup, a store supervisor may manage more than one retail store. In previous versions of ALM, assigning a supervisor to multiple stores was not possible. In this release, a user can be assigned multiple active fields.
-
-The [Manager dashboard](managers/feature-summary/manager-dashboard.md#multi-manager-dashboard) also reflects the changes.
-
-### Recommendation based on areas of interest
-
-In this release of ALM, an Administrator can switch between single and multiple Areas of Interest recommendation strips for a learner.
-
-In the previous release, there used to be only one strip that displayed all your recommendations.
-
-There will be at most five such strips with each strip representing a particular area of interest.
-
-The recommendations are based on a combination of rule-based logic and ML-based recommendation logic.
-
-On the **Administrator app > Branding** page, the Administrator can toggle between the interest widgets that will ultimately appear on the learner's page.
-
-### Marketo Engage enhancements
-
-This release of ALM adds two new events to be exported to Marketo.
-
-* **Update User Metadata:** Metadata of existing users, for example, name, profile, etc., will be updated.
-* **Update User Activity:** Updates last login and social activity timestamp.
-
-### Preview a module
-
-An Administrator can mark any module inside a course for preview. Learners can preview the course before deciding to purchase the course.
-
-A new setting has been introduced in this release. In the **Admin app > Settings > General**, enable **Module Preview**.
-
-An Author, while creating a course, can mark a module as preview able. 
-
-The Learner Preview checkbox enables the modules to be marked for preview.
-
-### Connectors
-
-Marketo and Adobe Commerce connectors are not supported in FedRamp instances (CoSo).
-
-### Feedback report
-
-When an Administrator downloads the Feedback Report from Reports - Custom Reports, the report does not show the feedback for subjective questions. To get the subjective feedback responses, the admin must go to the course and export responses from Export Feedback Scores.
-
-### Nomenclature changes
-
-The CSV has three new columns:
-
-* Skill level
-* Social
-* Social Learning
-
-However, the title inside the social page does not change with nomenclature.
-
-### Learner-related changes
-
-On a training card, a Learner can see the price of the course, if the price has been set by the Author or the Administrator. The learner can then filter training according to the price range.
-
-If the learner wants to buy a course, they select **Buy Now**. They are redirected to Adobe Commerce and when they complete the purchase, they can then take the course.
-
-## API changes and enhancements
-
-### Enhancement of Public APIs
-
-This release significantly enhances all the public learner APIs to support entity caching. 
-
-Entity caching is a technique to store recently read or written entity instance in memory, which minimizes database access and improves the application performance.
-
-ALM learner APIs now use enhanced caching techniques, and therefore, are more performant. This also means that the response times of the GET APIs are less than what used to be. 
-
-Customers use the learners APIs to create custom headless interfaces. These APIs typically fetch a lot of learner-related data, such as, enrollment, available courses, and so on.
-
-Entity caching helps when there are concurrent and bulk calls to the learner APIs. This technique also manages load balancing and makes the APIs more scalable.
-
-### E-Commerce
-
-**API models Changes:** 
-
-* Get user include account
-
-  * Additional boolean flag "enableEcommerce", takes value from DB column  
-  * lastSyncedDateCreatedForMagento  
-  * headlessLmsBaseUrl  
-
-* learningObject- price  
-* enrollment - purchasedPrice  
-
-**API Changes:** 
-
-* Get /learningObjects (Learner):
-
-  * price range filter
-  * price filter for free and paid  
-
-* search - same as /learningObjects  
-* Additional apis for ecommerce:
-
-  * GET /maxPrice  
-  * POST /ecommerce/purhcaseInitiated  
-  * /ecommerce/purhcaseCompleted
-
-### Multi-valued active fields
-
-For multi-valued active fields, the **fields** property can store values of type integer or string. For example,
-
-```
-"fields":{
-  "office": [ "store1", "store2", "store3" ] 
-}
-```
-
-If fields is a single valued active field, then:
-
-```
-"fields":{
-  "location": "london"** 
-}
-```
-
-### Feedback reports
-
-The L1 feedback report that contains six new fields. They are:
-
-* L1 feedback question #1
-* L1 feedback response #1
-* L1 feedback question #2
-* L1 feedback response #2
-* L3 feedback question
-* L3 feedback response
-
-### API nomenclature changes
-
-The terminologies of Skill levels and Social Learning are added and the changes are displayed on the Learning overview page, Social widget, and the Social learning page. The changes also reflect in the mobile immersive pages.
-
-### Buy courses in mobile immersive
+1. In the Instructor app (UI for Instructor role), search for the upcoming and past sessions. You can view the list of instances for the selected page.
+1. Enter the session or module name in the search field available at the upper-right corner.
+1. Locate the learning object from the search results.
 
 >[!NOTE]
 >
->Only applicable to mobile immersive app, not the native mobile app.
+>The search results show not only the courses or modules assigned to the instructor, but all the courses or modules that match the search criteria. Select the course or module to which you are assigned.****
 
+To reset the search filter, you can use the **Clear** link available next to the course or module name.
 
-After an author adds a price to a course, in the mobile immersive app, a learner can see the price on the cards on the Homepage, Catalog Page, and the search result pages. The learner can purchase a course and after the learner purchases the course, a Start button appears on the course overview page.
+![](assets/reset-search-filter.png)
 
-### Group users
+## Set default Social Learning view for Learners
 
-This update provides an ability to group users based on multi value active fields. This will not impact existing users and can continue to use single value active field.
+Previously, although only Administrators were permitted to enable and configure the Social Learning settings for a Learner, the post view was the only default option for viewing the social learning forum.
 
-### Support for multi-value active fields 
+With this release, the Administrators can now change the default Social Learning view as per the preferences. The default post view can now be changed by utilizing the Social Learning dashboard view setting. The setting enables the Administrator to set the Learners' default Social Learning view to either post view or board view.
 
-This update introduces the following changes: 
+**Follow these steps to change the default Social Learning view for Learners**
 
-* Support of multi value active fields for User API. 
-* The User Group API supports GET /user-groups corresponding to the multi-valued active fields. 
-* Jobs API User report should have multi value active fields.
-* Add/edit the managed stores of a user. 
-* List all managed stores of a user. 
-* Remove office/store from a specified manage list.
+1. In the Admin app, click **Social Learning** under **MANAGE **in the left pane.
 
-### ECommerce API changes 
+1. In the **Settings **tab,** **click** Edit **for** Social Learning view. **You can see that by default, the system selects **Post View**.
 
-This update includes the changes below for the responses of the following APIs:
+1. Select one of these options to set your preferred default Social Learning view
 
-**Account**
+   1. **Post View** — Displays all individual posts from all Discussion boards.
+   1. **Board View** — Displays all Discussion boards.
 
-* enableEcommerce
-* lastSyncedDateCreatedForMagento  
-* headlessLmsBaseUrl
+1. Click **Save** to save the changes.
 
-**learningObject**
+>[!NOTE]
+>
+>Although the Administrators can alter the Social Learning view, the selected default view preference remains in effect only until a Learner changes it. A Learner can change the view type overriding the default view setting (that is configured by the Administrator) by using the Social Learning page. However, the Social Learning view reverts to the default view type configured by the Administrator when you perform page-refresh or navigate away.
 
-* price
+## Set default My Learning and Catalog view for Learners
 
-**enrollment**
+For every Learner, by default, the Learning objects appear using the grid view. Previously, in the absence of a configurable setting, the Administrators could not change the default viewing preference for the learners to list view.
 
-* PurchasedPrice
+With this release, an Administrator can now set the Learners' default view type (for My Learning and Catalog pages) to list view. The objects such as available courses, learning paths, and certifications can now appear in a list view layout by default. The Administrator can now use the newly added setting to set the default view type for the Learners to either grid or list view.
 
-### Filter prices
+Follow these steps to change the default view for Learners:
 
-The GET /learningObjects API for learners adds two new filter parameters:
+1. In the Admin app, click **Settings** under **CONFIGURE **in the left pane.
 
-* priceRange to return courses that satisfy a specified price range. 
-* priceFilter for free and paid courses.
+1. Click **General** under **BASICS** to access the General settings page.
 
-### Recommendation API changes
+1. Select the **List view** option alongside **Default view (Learner role)** to change the Learners' default view from Grid to List. If you clear **List view** option, the system sets the Learners' default view back to Grid.
 
-The Recommendation API now includes a new filter. The filter.rectype property has a new filter multi_skill_interest.
+1. After you select (or clear) the **List view** option, the system displays the following confirmation message.
 
-You must invoke the recommendation API with filter.recType=multi_skill_interest per strip to get all strips data. Within each strip, you can paginate using the next link. The maximum strip size is 5.
+After selecting **List view**, when a learner signs into the Learner app, by default, My Learning and Catalog pages appear using list view.
 
-For example,  
+Although Administrators can alter the Learners' view, the selected default view preference remains in effect only until a Learner changes it. A Learner can override the default view preference for the My Learning and Catalog pages (that is configured by the Administrator) by switching between the Grid and List views.
 
-GET /recommendations?filter.loTypes=course&filter.recType=multi_skill_interest &strip=1&page[limit]=10
+## Mobile immersive web changes
 
-### Preview content in player
+## Social Learning
 
-The learningObjects/{id}  API contains the following changes:
+Social Learning now supports the mobile immersive web experiences.
 
-* account - Additional boolean flag "enableModulePreview", takes value from 'account_setting_extended.enable_preview'  
-* learningObject - Additional boolean flag "hasPreview", takes value from course.has_preview, certification.has_preview, learning_plan.has_preview
-* learningObjectResourse - Additional boolean flag "previewEnabled", takes value from 'course_module.is_preview' 
-* resource - contentZipUrl, location and contentStructureInfoUrl will come in api response if 'account_setting_extended.enable_preview' is true and module is preview able regardless of enrollment.
+![](assets/mobile-immersive.png)
 
-### Information about mandatory modules
+## API changes
 
-With the help loResourceCompletionCount  API, you can build a workflow with minimum completion criteria by defining the number of modules to be completed.
+### Download all badges
 
-### Mark User Notification in bulk
+#### GET jobs/
 
-The primeapi API now enables you to mark User Notifications as read in bulk. 
+This is an admin API, using which the administrator can download a badge in the PDF format for a user or training.
 
-`primeapi/v2/users/<user>/userNotificationsMarkRead`
+#### Download all badges by training id
 
-### Changes in learningObjects and Search APIs
+```
+\{ 
+ "data": { 
+ "type":"job", 
+ "attributes": { 
+ "description":"description of your choice", 
+ "jobType":"generateUserBadge", 
+ "payload": { 
+ "trainingId":"course: XXXX" 
+ } 
+ } 
+ } 
+}
+```
 
-A new filter skillLevel is added to the APIs. The values are 1,2, or 3.
+There is pagination when downloading badges by training id. The maximum limit per page is 1000.
 
-### Social boards filtered by skills
+#### Download all badges by userid
 
-You can retrieve a list of social boards that are attached to specified skills.
+```
+\{ 
+ "data": { 
+ "type":"job", 
+ "attributes": { 
+ "description":"description of your choice", 
+ "jobType":"generateUserBadge", 
+ "payload": { 
+ "userId":"1234" 
+ } 
+ } 
+ } 
+}
+```
 
-Example request URL:
+There is no pagination when downloading badges via userid.
 
-[https://examplre.com/primeapi/v2/boards?page[offset]=0&page[limit]=10&sort=name&filter.board.skills=SKILLA](https://examplre.com/primeapi/v2/boards?page%5boffset%5d=0&page%5blimit%5d=10&sort=name&filter.board.skills=SKILLA)
+## GET learningObjects for classroom management
 
-### Zoom/BlueJeans login
+This release features a change in the resource model. The relationships object has a new field named "*room*." This change is only applicable to a classroom module.
 
-Licensed users and existing accounts will get start url so that they can join the meeting directly. There is no impact on guest users. They continue to fill registration form and then log in.
+## Gamification API
 
-### ID format change for loResourceGrades
+The API includes the capability for awarding points for the external events.
 
-In this update, we have changed the format of the ID for the loResourceGrades API by removing the uuids. The ID remains as unique ID.
+**POST /users/externalGamificationPoint**
 
-### Other enhancements
+Request Body:
 
-* You can search for a course with the help of these additional filters:
+```
+\{ 
+ "userId": userId in the account 
+ "eventTime": Time in "2020-01-01T18:30:00.000Z" format 
+ "points": points earned; it should be < 100000 
+ "source": Source where these points are achieved (String limited to 128 chars) 
+} 
 
-   * effectiveModifiedDate
-   * dateCreated
-   * DateUpdated
+```
 
-* The"effectiveModifiedDate" property displays the loModifedDate.modifiedDate value.
-* An instructor gets notified in both the Mobile and Immersive apps when an activity module is submitted. The instructor then can check and act accordingly.
-* In the mobile immersive app, if you click Skills in the Overview pages, you are taken to the catalog page with that skill filter checked.
-* The learningObject relationship has been removed from the LoSkill API.
-* Removed the following from the migrations csvs:
+## Mark a board as favorite
 
-   * course.csv - courseCreationDate
-   * certification.csv - certificationCreationDate
-   * learning_program.csv - dateAdded
+If you want to mark a board as favorite, provide the board id.
 
-* An Administrator can now search for all external users or partner accounts.
+*POST /boards/{id}/favorite*
 
- 
+## Report a board
+
+If you want to report a board, provide the board id.
+
+*POST /boards/{id}/reportAbuse*
+
+## Remove a board from favorites
+
+If you want to remove a board from favorites, provide the board id.
+
+*DELETE   /boards/{id}/favorite*
+
+## Board API changes
+
+The field *isFavorite* is added in the model.
+
+## Calendar API
+
+*GET /users/{id}/calendar*
+
+The following fields are added to the payload:
+
+1. *courseInstanceName*
+1. *courseName*
+1. *enrolledToCourseInstance*
+1. *"instructorNames": `["string"]`*
+
+The *enrolled* and *enrolledToCourseInstance* fields are added to determine if a learner is enrolled to the course and if the learner is enrolled to the course instance in a calendar model.
+
+`filter. allSession` is added in the query parameter to get all the sessions related to all instances and all sessions in a course.
+
+The following fields are added in the relationship:
+
+1. *instructors*
+1. *Room*
+
+## What's changed in this release {#Whatsnewandchanged-1}
+
+## Workday enhancements
+
+Here are the changes in this release:
+
+* Workday&reg; supports a wide range of attributes to add data. Different organizations use these attributes differently. Therefore, exposing these attributes and allowing the Administrators to map them with Captivate Prime would have increased product complexity and affected usability. If you want to map any attribute that is not listed in Captivate Prime, contact your CSAM with the details. The CSAM Support team of Captivate Prime will investigate the requirement and help you based on the technical feasibility.
+* We have added a checkbox **Exclude Contingent Workers**. When you select this checkbox, the system does not import any temp workers available under a manager.
+
+## Calendar widget enhancements
+
+In the previous releases of Captivate Prime, the Calendar widget consisted of the name and state of a course. Starting this release, the Calendar widget displays the session name, course name, course type, and the session time.
+
+![](assets/calendar-widget.png)
+
+The calendar widget now displays the session name first (with higher prominence) followed by the course name and other details.
+
+Earlier the widget showed only one session from the entire course. The widget is now enhanced to show all the sessions from all the instances available in the course. This provides complete information for all sessions available in the course that enables the learner to enroll in any instance that they want.
+
+When the calendar widget loads the next month, a loader icon now appears when the data is being fetched.
+
+## Content language options
+
+In this update, we added support for the following content languages:
+
+* Serbian
+* Slovenian
+* Slovak
+
+## Express interest
+
+On the **Content Marketplace** page, the **Express Interest** button will now be disabled to prevent learners from expressing interest for a playlist/entire catalog for which they have already expressed interest.
+
+## Language support in email templates
+
+In this release of Captivate Prime, we've added support for Hungarian and Finnish languages in email templates.
+
+## Classroom enhancement API changes
+
+`GET /users/{id}/calendar`
+
+The following fields are added to the payload:
+
+1. *courseInstanceName*
+1. *courseName*
+1. *enrolledToCourseInstance*
+1. *`"instructorNames": ["string"]`*
+
+>[!NOTE]
+>
+>The *enrolled* and *enrolledToCourseInstance* fields are added to determine if a learner is enrolled in the course and if the learner is enrolled in the course instance in a calendar model.
+
+*`filter.allSession`* is added in the query parameter to get all the sessions related to all instances and all sessions in a course.
+
+ The following fields are added in relationship:
+
+1. *instructors*
+1. *room*
+
+The resources model corresponding to classroom module appears in the relationship.
+
+## Deprecated features in this release
+
+In this release, the `learningObject` in relationship of `learningObjectSkill` model has been deprecated. We have added a new key, `learningObjectId` in the attribute section of `learningObjectSkill` model to fetch the same information. The value corresponding to this key will be the id of learningObject. This change will affect the following LO types:
+
+* Course 
+* LearningPath (API terminology: learningProgram)
+* Jobaid
+
+The deprecated data will be completely removed from the response as a part of our next release. **This will take place after 3 months (anytime after 30 April 2022)**. Make the required changes to your implementation to fetch the data according to the the new design.
+
+Here is a sample LO skill model:
+
+```
+Model: 
+
+{ 
+ "id": "course:5627858_51096" 
+ "type": "learningObjectSkill", 
+ "attributes": { 
+ "credits": 19.7 
+ "learningObjectId": "course:5627858" << new attribute added. 
+ }, 
+ "relationships": { 
+ "learningObject": { 
+ "data": { 
+ "id": "course:5627858", 
+ "type": "learningObject" 
+ } 
+ }, 
+ "skillLevel": { 
+ "data": { 
+ "id": "51096_1", 
+ "type": "skillLevel" 
+ } 
+ } 
+ } 
+ } 
+
+```
+
+We plan to change the ID format of learningObjectResourceGrade. The id format for the learningObjectResourceGrade model currently follows the following format:
+
+* *course:courseid_instanceid_moduleid_version_uuid1_uuid2*
+
+Once changed, the format will be:
+
+* *course:courseid_instanceid_moduleid_version_uuid*
+
+Thus, only one uuid will be used to construct the learningObjectResourceGrade's id.
+
+In general, Captivate Prime recommends to not interpret the ID of any model.
+
+>[!NOTE]
+>
+>This change will come into effect as a part of our next release (any time after **30 April 2022**). In case you are using this format in any way, make the required changes. 
 
 ## Release Notes {#releasenotes}
 
-For information regarding current and previous releases of Learning Manager web app and device app, see the  [***Release notes***](release-note/release-notes.md).
+For information regarding current and previous releases of Captivate Prime web app and device app, see the  [***Release notes***](release-note/release-notes.md).
 
 ## Bug fixes {#bugfixes}
 
-To see the bugs that are fixed in this update, refer to the  [***Bugs fixed***](release-note/release-notes.md#bug-fixes-alm) list.
+To see the bugs that are fixed in this update, refer to the  [***Bugs fixed***](release-note/release-notes.md#bug-fixes-jan-22) list.
 
 ## Known issues {#knownissues}
 
-* In an AEM website, a flexible Learning Program always appears as a fixed Learning Program. This is as designed since a flexible Learning Program is not supported in AEM.
-* Unable to retake a course with multiple attempts if you have failed the course.
-* If the value of a multi-valued active field contains a delimiter, for example, comma, the value gets separated as two distinct values, and the user will be present in both the user groups.
-* In the Learner app, redirection from the calendar widget does not always occur as expected. Instead of the user getting navigated to an instance, they are unable to do so.
+To see the known issues in this update, refer to [***Known issues***](release-note/release-notes.md#known-issues) list.
 
 ## System Requirements {#systemrequirements}
 
-[Learning Manager system requirements](system-requirements.md)
+[Captivate Prime system requirements](system-requirements.md)
 
-## Previous releases of Learning Manager {#previousreleasesofcaptivateprime}
+<!--
+## Previous releases of Captivate Prime {#previousreleasesofcaptivateprime}
 
-<!-- These files aren't in TOC and haven't been cleaned up. If you need them, clean them up, change .draft to .md, and add to TOC.
-* [Learning Manager | January 2022 release](whats-new-jan-2022.md)
-* [Learning Manager | October 2021 release](whats-new-october-2021.md)
-* [Learning Manager | August 2021 release](whats-new-august-2021.md)
-* [Learning Manager | February 2021 release](whats-new-february-2021.md)
-* [Learning Manager | December 2020 release](whats-new-december-2020.md)
+* [Captivate Prime | October 2021 release](whats-new-october-2021.md)
+* [Captivate Prime | August 2021 release](whats-new-august-2021.md)
+* [Captivate Prime | February 2021 release](whats-new-february-2021.md)
+* [Captivate Prime | December 2020 release](whats-new-december-2020.md)
 -->
 
 ## Have a question or an idea? {#haveaquestionoranidea}
 
-<table> 
+<table>
  <tbody>
-  <tr> 
-   <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
-  </tr> 
+  <tr>
+   <td><img src="assets/ask-the-community.svg"></td>
+   <td>
+    <p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Captivate Prime Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td>
+  </tr>
  </tbody>
 </table>
 
-## More like this
+### More like this
 
-* [Adobe Learning Manager product guide](https://www.adobe.com/products/captivateprime.html)
-* [Adobe Learning Manager playlist](https://www.youtube.com/playlist?list=PLq21ukQtk0URntzGmTxsx7Qt8z9b9Elth)
-* [Organize your training in Adobe Learning Manager | Ashwini Jaisim](https://elearning.adobe.com/2020/07/organize-your-trainings-in-adobe-captivate-prime/)
-* [Add your Adobe Learning Manager Account URL to your Adobe Connect Central Account Summary Page](https://elearning.adobe.com/2019/10/add-adobe-captivate-prime-account-url-adobe-connect-central-account-summary-page/)
+* [Adobe Captivate Prime product guide](https://www.adobe.com/products/captivateprime.html)
+* [Adobe Captivate Prime playlist](https://www.youtube.com/playlist?list=PLq21ukQtk0URntzGmTxsx7Qt8z9b9Elth)
+* [Organize your training in Adobe Captivate Prime | Ashwini Jaisim](https://elearning.adobe.com/2020/07/organize-your-trainings-in-adobe-captivate-prime/)
+* [Add your Adobe Captivate Prime Account URL to your Adobe Connect Central Account Summary Page](https://elearning.adobe.com/2019/10/add-adobe-captivate-prime-account-url-adobe-connect-central-account-summary-page/)

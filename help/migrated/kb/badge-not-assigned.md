@@ -6,17 +6,19 @@ contentowner: nluke
 ---
 
 
-# Unable to assign a badge {#unable-to-assign-a-badge}
+# Unable to assign a badge
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-## Issue 
+## Issue
 
 Even after completing a course or training, a badge does not get awarded as expected.
 
+## Description
+
 After a learner completes a Course/Learning Program/Certification, the badge does not get awarded to the learner.
 
-## Cause 
+## Cause
 
 The badge that is assigned to the Learning Object is added after the learner has completed the Learning Object.
 
@@ -24,11 +26,11 @@ In the earlier version, a badge could not be added later, if there was no badge 
 
 In current versions, the feature is available.
 
-## Resolution 
+## Resolution
 
 If a learner experiences the issue, try the steps below:
 
-### Course/Learning Program 
+## Course/Learning Program
 
 1. Log in as administrator.  
 
@@ -46,12 +48,10 @@ If a learner experiences the issue, try the steps below:
 
    This step will assign the badge to all learners enrolled for the Learning Object.
 
-## Certification 
+## Certification
 
 1. Log in as Admin.  
-
 1. Open the Certification.  
-
 1. Click **Overview** > **Badge**.
 1. Remove the badge from the Certification and click **Save**.
 

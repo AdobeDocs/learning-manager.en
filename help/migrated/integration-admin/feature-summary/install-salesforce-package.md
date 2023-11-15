@@ -6,13 +6,15 @@ contentowner: saghosh
 ---
 
 
-# Install Salesforce Package {#install-salesforce-package}
+# Install Salesforce Package
 
-Learning Manager offers a Salesforce App package. Once installed and configured in SFDC, sales employees can perform their training activities within the SFDC portal. This app allows SFDC users to explore new trainings, view recommendations and consume them right inside the SFDC portal. Users also get the announcements sent by Administrators in the form of mastheads right inside the app within the SFDC portal.  
+## Overview
 
-## Set up in Learning Manager app
+Captivate Prime offers a Salesforce App package. Once installed and configured in SFDC, sales employees can perform their training activities within the SFDC portal. This app allows SFDC users to explore new trainings, view recommendations and consume them right inside the SFDC portal. Users also get the announcements sent by Administrators in the form of mastheads right inside the app within the SFDC portal.  
 
-1. Log in to your Learning Manager Admin account as Integration Admin.
+### Set up in Captivate Prime app
+
+1. Log in to your Captivate Prime Admin account as Integration Admin.
 1. Click **Applications > Featured Apps**.
 1. Click **Salesforce**.
 1. On the Salesforce app page, note the Application id (also known as client id) and the client secret mentioned in the description.
@@ -21,14 +23,14 @@ Learning Manager offers a Salesforce App package. Once installed and configured 
 1. In the Get OAuth Code section, the Client ID and scope must be set to - admin:read,admin:write. Click **Submit**.
 1. In Get Refresh Token, enter the Client ID and Client secret. Click **Submit** and note the refresh token.
 
-## Create account in Salesforce app
+### Create account in Salesforce app
 
-1. Create an account on the Salesforce sign-up page. You must create a Salesforce account in developer or enterprise edition.  [Developer signup URL](https://developer.salesforce.com/signup). Ensure that you must use the email ID to sign up for Salesforce that you'd used for Learning Manager. 
+1. Create an account on the Salesforce sign-up page. You must create a Salesforce account in developer or enterprise edition.  [Developer signup URL](https://developer.salesforce.com/signup). Ensure that you must use the email ID to sign up for Salesforce that you'd used for Captivate Prime. 
 1. Verify your account via the verification email. 
 1. Create a password and sign into Salesforce.
 1. Note the Salesforce url after login (For eg, site.lightning.force.com)
 
-## Install Learning Manager package
+### Install Captivate Prime package
 
 If you want to install the package, you must first delete the existing package in Salesforce. Before uninstalling, you must enable the settings, as shown below. Applying these settings is mandatory, otherwise you will be unable to install the package. 
 
@@ -36,13 +38,15 @@ If you want to install the package, you must first delete the existing package i
 
 >[!NOTE]
 >
->The Adobe Learning Manager app is only supported in Salesforce Lightning view.
+>The Adobe Captivate Prime app is only supported in Salesforce Lightning view.
 
-1. Launch the  [Learning Manager package url](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008gQb&isdtp=p1).  
+1. Launch the  [Captivate Prime package url](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftest.salesforce.com%2Fpackaging%2FinstallPackage.apexp%3Fp0%3D04t1k0000008YWn&data=04%7C01%7Ckillamse%40adobe.com%7Cf588f553fc694d2edee108d9a5c74711%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637723097572585825%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=mhYKVdwvS4F7WPruy0Kvw%2FsqgWxzTQpaZJyEACu8CNw%3D&reserved=0).  
 1. In the **Login** page, click **Use Custom Domain**.
+
 1. Enter the package URL and click **Continue**. The installation page must have the option Install for Admins Only selected. Do not change this option.
-1. Click **Install**. Once the package is installed, click **Done**. You are guided to the Installed Packages page, and you can see the Adobe Learning Manager installed package.
-1. Go to the App Launcher (next to Setup) and search for Adobe Learning Manager.
+1. Click **Install**. Once the package is installed, click **Done**. You are guided to the Installed Packages page, and you can see the Adobe Captivate Prime installed package.
+
+1. Go to the App Launcher (next to Setup) and search for Adobe Captivate Prime.
 1. To configure the app, click **Configure**.
 1. Click **New** and add the following details:
 
@@ -50,14 +54,14 @@ If you want to install the package, you must first delete the existing package i
    * **ClientID**: Enter the value that you'd obtained from the first section.
    * **ClientSecret:** Enter the value that you'd obtained from the first section.
    * **RefreshToken:** Enter the value that you'd obtained from the first section.
-   * **PrimeBaseURL:** The URL of the site where Learning Manager is hosted.
-   * **Disable Redirect:** Disable redirection to the learner home page in Learning Manager.
+   * **PrimeBaseURL:** The URL of the site where Captivate Prime is hosted.
+   * **Disable Redirect:** Disable redirection to the learner home page in Captivate Prime.
 
 >[!NOTE]
 >
 >You can only create a single configuration. If you try to add another configuration, you will see an error message. The configuration maps the Salesforce account with the Learner account.
 
-## Add Remote Site Settings
+### Add Remote Site Settings
 
 1. In the top-right corner of the page, click **Setup**.
 1. In **Quick Find**, search for Remote Site Settings.
@@ -65,11 +69,11 @@ If you want to install the package, you must first delete the existing package i
 1. Enter the details:
 
    1. **Remote Site Name:** Enter a name of your choice.
-   1. **Remote Site URL:** The URL of the site where Learning Manager is hosted.
+   1. **Remote Site URL:** The URL of the site where Captivate Prime is hosted.
 
-1. Launch Learning Manager.
+1. Launch Captivate Prime.
 
-## Enable Notifications for Learning Manager app
+### Enable Notifications for Captivate Prime app
 
 1. In the upper-right corner, click **Setup**. 
 1. Search for Custom Notifications. 
@@ -80,22 +84,23 @@ If you want to install the package, you must first delete the existing package i
    1. **API Name:** PrimeNotification
 
 1. Select both **Desktop** and **Mobile** as Supported channels.
+
 1. Click **Save**.
 1. To enable push notifications for mobile devices, follow the steps below:
 
    1. Install Salesforce mobile app in your mobile phone.
    1. Log in to the app using your credentials.
-   1. Go to **Setup > Notification Delivery Settings**.
+   1. Go to **Setup** > **Notification Delivery Settings**.
    1. Add Salesforce for iOS and Android.
 
-## Uninstall Learning Manager from Salesforce
+### Uninstall Captivate Prime from Salesforce
 
 1. In Salesforce app, go to Installed packages.
 1. Click **Uninstall**.
 
-## Configure Learning Manager for Salesforce users
+## Configure Captivate Prime for Salesforce users
 
-The Learning Manager app is also available to users, who are present in any Salesforce account. The Salesforce admin can add users based on the profiles. The Salesforce profiles are similar to what they are in Learning Manager. For example, Administrator, Integration Admin, Instructor, and so on. The Salesforce admin can also create a custom profile.
+The Captivate Prime app is also available to users, who are present in any Salesforce account. The Salesforce admin can add users based on the profiles. The Salesforce profiles are similar to what they are in Captivate Prime. For example, Administrator, Integration Admin, Instructor, and so on. The Salesforce admin can also create a custom profile.
 
 ### Profile
 
@@ -103,26 +108,26 @@ As a Salesforce admin, you can either assign the profiles to users or create a c
 
 >[!NOTE]
 >
->The users must be present in both Salesforce and Learning Manager.
+>The users must be present in both Salesforce and Captivate Prime.
 
 ![](assets/create-profile.png)
 
 Whle adding a learner, you must assign a specific profile to the learner. Then go to that profile and grant the required access.
 
-For Learners to view the Learning Manager app, you must enable the app for all learners.
+For Learners to view the Captivate Prime app, you must enable the app for all learners.
 
-The next step is to provide the permission to access the Learning Manager app.
+The next step is to provide the permission to access the Captivate Prime app.
 
 ![](assets/permission-set.png)
 
-When you install the package, a new permission set is created, **Adobe Learning Manager User**. Go to the permission set and then add the users.
+When you install the package, a new permission set is created, **Adobe Captivate Prime User**. Go to the permission set and then add the users.
 
-Select the users and assign the permissions accordingly. The learners can now access the Learning Manager app.
+Select the users and assign the permissions accordingly. The learners can now access the Captivate Prime app.
 
-Now, select a profile, for example, Standard Profile of a user, and click the profile. Click **Edit** and in the **Custom App Settings** section, enable the check-box **Adobe Learning Manager**. This makes the app accessible to the user.
+Now, select a profile, for example, Standard Profile of a user, and click the profile. Click **Edit** and in the **Custom App Settings** section, enable the check-box **Adobe Captivate Prime**. This makes the app accessible to the user.
 
 In the **Custom Tab Settings** section, in the **Learner Home** drop-down list, select the option **Default On**.
 
 You must make the app visible to all the profiles.
 
-Click **Save** and the learners belonging to all the profiles will access Learning Manager app.
+Click **Save** and the learners belonging to all the profiles will access Captivate Prime app.

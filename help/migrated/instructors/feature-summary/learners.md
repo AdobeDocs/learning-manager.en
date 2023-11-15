@@ -6,7 +6,7 @@ contentowner: shhivkum
 ---
 
 
-# Managing learners for your session {#managing-learners-for-your-session}
+# Managing learners for your session
 
 Read this article to know how to manage the attendees, send course related emails and reminders for your sessions.
 
@@ -31,9 +31,9 @@ As the Learners register for your module, you can see the latest status of the e
 
    The learners whom you have confirmed, are added to the Confirmed Learners list.
 
-Instructors have the capability to unenroll learners from sessions. This also unenrolls them from corresponding learnings. Select **[!UICONTROL Waitlist]** tab. Select the learners to unenroll using the checkbox. To unenroll, select **[!UICONTROL Actions > Unenroll learners]**.
+Instructors have the capability to unenroll learners from sessions. This also unenrolls them from corresponding learnings. Select **[!UICONTROL Waitlist]** tab. Select the learners to unenroll using the checkbox. To unenroll, select **[!UICONTROL Actions]** > **[!UICONTROL Unenroll learners]**.
 
-![](assets/unenroll-learners.png) 
+![](assets/unenroll-learners.png)
 
 ## Mark attendance for your session {#markattendanceforyoursession}
 
@@ -65,9 +65,9 @@ As an instructor, you can easily mark the attendance for all your learners by ex
 
 After the attendee list is confirmed for your session, you can export the list as a PDF. This easy-to-print pdf displays the learners as a table. You can then mark the attendance or provide scores, and make or provide notes for the learner, all in the same PDF. 
 
-Notice a QR code at the top right corner of this PDF. This functionality allows individual learners to scan the code using the Learning Manager mobile app for learners to mark their attendance. 
+Notice a QR code at the top right corner of this PDF. This functionality allows individual learners to scan the code using the Captivate Prime mobile app for learners to mark their attendance. 
 
-![](assets/exportpdf.png) 
+![](assets/exportpdf.png)
 
 ## Approve or reject submissions {#approveorrejectsubmissions}
 
@@ -89,6 +89,8 @@ If leaners have uploaded documents like assignments, reports, or assessments for
 1. From the Select Reminder tile, click Set Reminder.
 
    ![](assets/setreminder.png)
+
+1. Do the following:
 
    * In the Reminder Settings dialog box, set the option on when to send the reminder to learners: Before deadline, On deadline, or After deadline.
    * In the days before deadline field, set the number of days prior to the deadline when you want to send the reminder to learners.

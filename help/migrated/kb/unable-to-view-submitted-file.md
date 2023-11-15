@@ -6,13 +6,13 @@ contentowner: nluke
 ---
 
 
-# Unable to view file submissions in Adobe Learning Manager {#unable-to-view-file-submissions-in-adobe-learning-manager}
+# Unable to view file submissions in Adobe Learning Manager
 
-## Issue 
+## Issue
 
 An instructor is unable to view the file submissions that a learner has uploaded.
 
-## Description 
+## Description
 
 Instructors are unable to view files that learners have uploaded in the **Submission Activity Module**.
 
@@ -24,9 +24,9 @@ The learner then opens the course and uploads a file in the Activity module.
 
 When the instructor tries to approve the submission, the instructor is unable to do so.
 
-![](assets/activity.png) 
+![](assets/activity.png)
 
-## Cause 
+## Cause
 
 If there is no instructor in the course instance in which the learner is enrolled, the issue appears.
 

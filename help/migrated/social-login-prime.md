@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Social login in Learning Manager {#social-login-in-learning-manager}
+# Social login in Learning Manager
 
 You can use your Facebook, LinkedIn, or Twitter credentials to log in to Learning Manager.
 

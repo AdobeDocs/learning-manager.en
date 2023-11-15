@@ -195,7 +195,9 @@ Note that the existing default behavior does not change. This is an optional cap
 
 ### Learning Path-related changes
 
-**Note:** The APIs still use the terminology Learning Program instead of Learning Path to maintain backward compatibility. By default, Get/LOs will not return the enhanced Learning Paths. You must use an extra parameter to get those Learning Objects.
+>[!NOTE]
+>
+>The APIs still use the terminology Learning Program instead of Learning Path to maintain backward compatibility. By default, Get/LOs will not return the enhanced Learning Paths. You must use an extra parameter to get those Learning Objects.
 
 **Learning Objects API**
 
@@ -276,10 +278,10 @@ GET /skillinterest/search returns the following response:
  <tbody> 
   <tr> 
    <td height="21" width="147"><p> </p><p>Parameter </p><p> </p></td> 
-   <td width="64"><p> </p><p>Value </p><p> </p></td> 
-   <td width="64"><p> </p><p>Description </p><p> </p></td> 
-   <td width="64"><p> </p><p>Type </p><p> </p></td> 
-   <td width="64"><p> </p><p>Data type </p><p> </p></td> 
+   <td><p> </p><p>Value </p><p> </p></td> 
+   <td><p> </p><p>Description </p><p> </p></td> 
+   <td><p> </p><p>Type </p><p> </p></td> 
+   <td><p> </p><p>Data type </p><p> </p></td> 
   </tr> 
   <tr> 
    <td height="21"><p> </p><p>page[cursor] </p><p> </p></td> 
@@ -325,10 +327,10 @@ DELETE /users/{userId}/skillInterest/{id} contains the following parameters:
  <tbody> 
   <tr> 
    <td height="21" width="147"><p> </p><p><b>Parameter </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Value </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Description </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Type </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Data type</b> </p><p> </p></td> 
+   <td><p> </p><p><b>Value </b></p><p> </p></td> 
+   <td><p> </p><p><b>Description </b></p><p> </p></td> 
+   <td><p> </p><p><b>Type </b></p><p> </p></td> 
+   <td><p> </p><p><b>Data type</b> </p><p> </p></td> 
   </tr> 
   <tr> 
    <td height="21"><p> </p><p>id </p><p> </p></td> 
@@ -367,10 +369,10 @@ POST /users/{userId}/skillInterest/{id} contains the following parameters:
  <tbody> 
   <tr> 
    <td height="21" width="147"><p> </p><p><b>Parameter </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Value </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Description </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Type </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Data type</b> </p><p> </p></td> 
+   <td><p> </p><p><b>Value </b></p><p> </p></td> 
+   <td><p> </p><p><b>Description </b></p><p> </p></td> 
+   <td><p> </p><p><b>Type </b></p><p> </p></td> 
+   <td><p> </p><p><b>Data type</b> </p><p> </p></td> 
   </tr> 
   <tr> 
    <td height="21"><p> </p><p>id </p><p> </p></td> 
@@ -409,10 +411,10 @@ GET /users/{userId}/skillInterests has the following parameters:
  <tbody> 
   <tr> 
    <td height="21" width="147"><p> </p><p><b>Parameter </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Value </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Description </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Type </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Data type</b> </p><p> </p></td> 
+   <td><p> </p><p><b>Value </b></p><p> </p></td> 
+   <td><p> </p><p><b>Description </b></p><p> </p></td> 
+   <td><p> </p><p><b>Type </b></p><p> </p></td> 
+   <td><p> </p><p><b>Data type</b> </p><p> </p></td> 
   </tr> 
   <tr> 
    <td height="21"><p> </p><p>page[offset] </p><p> </p></td> 
@@ -497,9 +499,9 @@ The changes depend on the flag Learning Paths in **Settings > General** in the A
  <tbody> 
   <tr> 
    <td height="21" width="147"><p> </p><p><b>Report </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Changes in the report immediately after the release (with check-box is unchecked) </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Changes in report after checking the check-box. i.e. once new Learning Path capabilities are enabled. </b></p><p> </p></td> 
-   <td width="64"><p> </p><p><b>Changes in report that will be made after 30 days after the release. </b></p><p> </p></td> 
+   <td><p> </p><p><b>Changes in the report immediately after the release (with check-box is unchecked) </b></p><p> </p></td> 
+   <td><p> </p><p><b>Changes in report after checking the check-box. i.e. once new Learning Path capabilities are enabled. </b></p><p> </p></td> 
+   <td><p> </p><p><b>Changes in report that will be made after 30 days after the release. </b></p><p> </p></td> 
   </tr> 
   <tr> 
    <td rowspan="7" height="141"><p> </p><p>Learner Transcript  </p><p> </p></td> 

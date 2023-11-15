@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# iPad & Android tablet users {#ipad-android-tablet-users}
+# iPad & Android tablet users
 
 In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the following Home screen:
 

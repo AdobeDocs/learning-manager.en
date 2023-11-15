@@ -6,22 +6,22 @@ contentowner: nluke
 ---
 
 
-# Unable to achieve a skill after completing a course {#unable-to-achieve-a-skill-after-completing-a-course}
+# Unable to achieve a skill after completing a course
 
-## Issue 
+## Issue
 
 A learner, even after completing a course, does not obtain a skill. The skills that are assigned to that course remain as **In Progress** for the learner.
 
-## Cause 
+## Cause
 
 This issue occurs if the **Credits Required** to achieve this skill is greater than the **Credits Earned** by the learner after completing the course. 
 
-## Solution 
+## Solution
 
 Check the current **Skill Credits** and **Point** required information to achieve the skill. Follow the steps below:
 
 1. For the learner, generate a **Learner Transcript** report.
-1. While generating the Learner Transcript, click **Advanced** **Options**, and check the option **Include Skills data and summary sheets**.
+1. While generating the Learner Transcript, click **Advanced Options**, and check the option **Include Skills data and summary sheets**.
 
    ![](assets/advanced-options.png)
 
@@ -39,4 +39,3 @@ Check the current **Skill Credits** and **Point** required information to achiev
 1. To check the number of credits assigned to a course, log in as an author, and open the course. Click **Settings** > **Course Skills** as shown below:
 
    ![](assets/course-skills.png)
-

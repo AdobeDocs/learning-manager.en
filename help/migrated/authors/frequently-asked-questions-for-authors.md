@@ -6,47 +6,48 @@ contentowner: admin
 ---
 
 
-# Frequently Asked Questions for Authors {#frequently-asked-questions-for-authors}
+# Frequently Asked Questions for Authors
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-<table> 
+<table>
  <tbody>
-  <tr> 
-   <td><img src="assets/authors2.png"></td> 
-   <td><p>Read on to know the Learning Manager frequently asked questions that are associated with Author role. </p></td> 
-  </tr> 
+  <tr>
+   <td><img src="assets/authors2.png"></td>
+   <td>
+    <p>Read on to know the Captivate Prime frequently asked questions that are associated with Author role. </p></td>
+  </tr>
  </tbody>
 </table>
 
-+++What is a typical course life cycle in Learning Manager?
++++What is a typical course life cycle in Captivate Prime?
 
 A typical course life cycle looks as follows:
 
-**Draft** -When an author completes creating a course and saving it. At this state, course is not available yet for learners.
+**Draft** - When an author completes creating a course and saving it. At this state, course is not available yet for learners.
 
-**Published** -When an author completes publishing a course. At this state, the course is available for learners to enroll.
+**Published** - When an author completes publishing a course. At this state, the course is available for learners to enroll.
 
 **Retired** - After publishing a course, you can move it to a retired state if you don't want the course to appear in course catalog for learners.
 
-**Deleted** - A course under deleted state is when it is removed completely from the Adobe Learning Manager application. Authors can delete the course only when they are in draft or retired states.
+**Deleted** - A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Authors can delete the course only when they are in draft or retired states.
 
 +++
 
-+++How do I publish a Captivate project to Learning Manager?
++++How do I publish a Captivate project to Captivate Prime?
 
-You can publish your completed Captivate 9 project to Adobe Learning Manager as a module. In an open Captivate 9 project, use **Publish > Publish to Adobe Learning Manager** and follow the instructions to publish a module.
+You can publish your completed Captivate 9 project to Adobe Captivate Prime as a module. In an open Captivate 9 project, use **Publish** > **Publish to Adobe Captivate Prime** and follow the instructions to publish a module.
 
-Refer to  [Adobe Learning Manager: Publish Modules from Adobe Captivate 9](http://primehelp.adobe.com/publish-modules-from-adobe-captivate9/)video for more information. 
+Refer to  [Adobe Captivate Prime: Publish Modules from Adobe Captivate 9](http://primehelp.adobe.com/publish-modules-from-adobe-captivate9/)video for more information. 
 
 You can also refer to Adobe Captivate 9  [help content](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) for detailed procedure.
 
 Note  
-The Adobe Captivate 9  [help content](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) is external to Learning Manager Help application.
+The Adobe Captivate 9  [help content](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) is external to Captivate Prime Help application.
 
 +++
 
-+++How to choose course modules in Learning Manager?
++++How to choose course modules in Captivate Prime?
 
 Click  [here](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html) to learn about how to choose course modules. 
 
@@ -64,7 +65,7 @@ While creating the course, you can choose Enrollment type as self-enrolled, mana
 
 +++
 
-+++Is there pagination support in Learning Manager?
++++Is there pagination support in Captivate Prime?
 
 Yes. In author mode, the courses are displayed page-wise in Catalog and My Courses views. Also, the modules are displayed page wise in Module Library view. As and when you scroll down the page, more set of courses will be displayed for the next page.
 
@@ -78,20 +79,21 @@ Authors can delete unpublished or retired courses. After publishing a course, yo
 1. Hover the mouse over the course that you want to delete and click Delete Course.
 1. Respond to the confirmation dialog by clicking OK.
 
-**Note** 
-A course cannot be deleted if it is part of a Learning plan or Program or Certification or added as a pre-requisite to another course.
+>[!NOTE]
+>
+>A course cannot be deleted if it is part of a Learning plan or Program or Certification or added as a pre-requisite to another course.
 
 **Course life cycle**
 
 A typical course life cycle appears as follows:
 
-**Draft** -When an author completes creating a course and saving it. At this state, course is not available yet for learners.
+**Draft** - When an author completes creating a course and saving it. At this state, course is not available yet for learners.
 
-**Published** -When an author completes publishing a course. At this state, the course is available for learners to enroll.
+**Published** - When an author completes publishing a course. At this state, the course is available for learners to enroll.
 
 **Retired** - After publishing a course, you can move it to a retired state if you don't want the course to appear in course catalog for learners.
 
-**Deleted** - A course under deleted state is when it is removed completely from the Adobe Learning Manager application. Courses can be deleted by authors only when they are in draft or retired states.
+**Deleted** - A course under deleted state is when it is removed completely from the Adobe Captivate Prime application. Courses can be deleted by authors only when they are in draft or retired states.
 
 +++
 
@@ -210,7 +212,7 @@ Author are not notified when Learners take courses. Author can contact the Admin
 
 +++Can I create reports for the courses? How?
 
-In Adobe Learning Manager 1.0 release, only Administrators and Managers can view/create reports.
+In Adobe Captivate Prime 1.0 release, only Administrators and Managers can view/create reports.
 
 +++
 
@@ -232,7 +234,7 @@ Authors need not create a learning program for the courses. Learning programs ar
 
 To create a course, follow the steps:
 
-1. Log in to Adobe Learning Manager as an author.
+1. Log in to Adobe Captivate Prime as an author.
 1. Click **Create courses** in the getting-started page.  
    Basic Info page appears.
 
@@ -250,7 +252,7 @@ You can also publish a draft listed course by following the steps below:
 
 +++
 
-+++What course formats are supported in Learning Manager?
++++What course formats are supported in Captivate Prime?
 
 Authors can import the existing e-learning courses that are created using Adobe Captivate and Adobe Presenter. Other supported course formats include video files, pdf, docx and pptx. You can also import AICC compliant course content.
 

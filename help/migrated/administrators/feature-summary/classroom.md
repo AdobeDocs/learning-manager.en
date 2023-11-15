@@ -6,7 +6,9 @@ contentowner: saghosh
 ---
 
 
-# Classroom {#classroom}
+# Classroom
+
+## Overview
 
 Administrators can now set up a library of classroom locations. For each Classroom Location, the administrators can set the metadata that includes Location Name, Seat Limit as well as additional information such as the Location URL. Authors and Administrators can then use these pre-configured classroom locations for setting up instructor-led training events (classroom modules).
 
@@ -16,11 +18,13 @@ You can use the following two ways to add a classroom location.
 
 You can add a classroom location by using the UI:
 
-1. In the Admin app (the UI for administrator roles), click **Settings > Classroom Locations**.  
+1. In the Admin app (the UI for administrator roles), click **Settings** > **Classroom Locations**.  
+
 1. Click the **Add More** button.  
+
 1. In the **Classroom Location** dialog box, enter the following details:
 
-   * Type the **Classroom Location Name**. Use a unique name. Otherwise, Learning Manager displays an error message.
+   * Type the **Classroom Location Name**. Use a unique name. Otherwise, Captivate Prime displays an error message.
    * Type the location description in the **Location Information** field. This field is optional.
    * Type the **Location URL**. Learner can see this information in the classroom details. The URL can also be a maps location URL, if required. This is an optional field.
    * Type the number of available seats in the **Seat Limit** field. This indicates the seat capacity of the classroom. This value can be changed when creating the actual instructor-led training event.
@@ -51,7 +55,7 @@ The **Future Sessions** field displays **zero** when the classroom is not used f
 
 Alternatively, you can add one or more classroom locations by importing a CSV that contains the classroom information.
 
-In **Admin app > Settings > Classroom Locations**, click the **Import Locations CSV** button. Browse to the location containing the CSV file and select the file.
+In **Admin app** > **Settings** > **Classroom Locations**, click the **Import Locations CSV** button. Browse to the location containing the CSV file and select the file.
 
 The CSV file uses these fields to store details about one or more classroom locations:
 
@@ -72,7 +76,7 @@ An Author or Administrator can start typing the location name to see the relevan
 
 When a classroom is added, the learning platform also indicates if the classroom is already booked for the mentioned time-period. It even provides alternate time slots as suggestions. Therefore, this enables the Author to adjust the meeting time if he decides to use the same classroom location.
 
-![](assets/classroom-search.png) 
+![](assets/classroom-search.png)
 
 ## Confine to pre-determined list of instructors
 
@@ -80,13 +84,13 @@ Presently, the users can add any registered user as an instructor when creating 
 
 However, Administrators now have an additional option to further control who gets assigned as an instructor on the learning platform. This prevents any accidental addition of a new Instructor when creating a session.
 
-### Administrator
+## Administrator
 
 An Administrator can select the **Instructor Management** option (available under **Admin app > Settings > General**) to ensure that only the users who are pre-determined Instructors can be added as an instructor for a session.
 
-To set up an Instructor, Administrators can select **MANAGE > Users** to open the User management page, select a user, and then assign the instructor role to the user (using **Actions > Assign Role**).
+To set up an Instructor, Administrators can select **MANAGE** > **Users** to open the User management page, select a user, and then assign the instructor role to the user (using **Actions > Assign Role**).
 
-### Author
+## Author
 
 If the Administrator selects the **Instructor Management** option, an author can only search for and add the users with Instructor role to the classroom sessions, virtual classroom sessions, checklists, and the file submission modules.
 
@@ -128,7 +132,7 @@ The system also clears the following details after cancelling a session:
 * Location/venue added to the session
 * Waitlist limit added by the instructor
 
-### Administrator
+## Administrator
 
 On the **Course Instance** page, an Administrator can cancel one or more sessions. After the Administrator cancels a session, the system clears all the session details except the seat limit.
 
@@ -143,7 +147,7 @@ In addition, an Administrator can:
 
 Note that even after cancellation, the learners enrolled in the training instance continue to stay enrolled. Their enrollment statuses - including confirmed enrollment, waitlisted, and awaiting manager approval - does not change. This is useful because the Administrator can setup and reschedule the cancelled session in the future.
 
-### Author
+## Author
 
 On the **Course Instance** page, an Author can cancel one or more sessions. After the Author cancels a session, the system clears all the session details except the seat limit.
 

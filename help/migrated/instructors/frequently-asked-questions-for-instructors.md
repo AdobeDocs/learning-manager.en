@@ -1,24 +1,24 @@
 ---
-description: Read on to know the frequently asked questions for instructors in Learning Manager.
+description: Read on to know the frequently asked questions for instructors in Captivate Prime.
 jcr-language: en_us
 title: Frequently Asked Questions for Instructors
 contentowner: shhivkum
 ---
 
 
-# Frequently Asked Questions for Instructors {#frequently-asked-questions-for-instructors}
+# Frequently Asked Questions for Instructors
 
-Read on to know the frequently asked questions for instructors in Learning Manager.
+Read on to know the frequently asked questions for instructors in Captivate Prime.
 
 +++How can I access the Instructor app?
 
 If an author has granted you Instructor privileges, you will receive an email along with a link to log in to the Instructor app.
 
-If you are already signed into the Learning Manager app in another role, you can click Profile Settings and select Instructor. The screen immediately refreshes to display the Instructor app.
+If you are already signed into the Captivate Prime app in another role, you can click Profile Settings and select Instructor. The screen immediately refreshes to display the Instructor app.
 
 +++
 
-+++What are the capabilities of an instructor in Learning Manager?
++++What are the capabilities of an instructor in Captivate Prime?
 
 Instructors of modules or sessions can manage the date, time, and venue of the session. Instructors can also manage the seat limit for modules, managing the waitlist limit as well. They can clear waitlist and confirm the attendee list for a session.Instructors can also approve submissions from learners and set reminders for courses that houses the sessions of the instructor.
 

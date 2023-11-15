@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Frequently Asked Questions for Learners {#frequently-asked-questions-for-learners}
+# Frequently Asked Questions for Learners
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
@@ -315,8 +315,9 @@ Other than class room courses, all the other three types of courses (blended, se
 
 On some occasions you are automatically enrolled for training. These courses will appear in COURSES tab. You can search for the course you wish to take and then click Explore and Enroll button on the page.
 
-**Note** 
-In some courses you have to complete initial modules in the designated order as some of them are pre-requisites for the lateral modules.
+>[!NOTE]
+>
+>In some courses you have to complete initial modules in the designated order as some of them are pre-requisites for the lateral modules.
 
 Click Start in COURSES section to launch and complete the online course. You can stop in between and always come back and resume the course any time later by clicking Continue button.
 

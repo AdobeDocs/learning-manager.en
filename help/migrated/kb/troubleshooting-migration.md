@@ -1,14 +1,14 @@
 ---
-description: This document contains basic troubleshooting tips to solve some of the typical problems that you may encounter while migrating data and content from existing LMS to Learning Manager.
+description: This document contains basic troubleshooting tips to solve some of the typical problems that you may encounter while migrating data and content from existing LMS to Captivate Prime.
 jcr-language: en_us
 title: Troubleshooting Migration issues
 contentowner: jayakarr
 ---
 
 
-# Troubleshooting Migration issues {#troubleshooting-migration-issues}
+# Troubleshooting Migration issues
 
-This document contains basic troubleshooting tips to solve some of the typical problems that you may encounter while migrating data and content from existing LMS to Learning Manager.
+This document contains basic troubleshooting tips to solve some of the typical problems that you may encounter while migrating data and content from existing LMS to Captivate Prime.
 
 ## Generic migration issues {#genericmigrationissues}
 
@@ -40,7 +40,7 @@ Ensure that your accounts have been created in the FTP and Box services. When yo
 
 Best practice is to run modified CSVs in a new Sprint when the number of changes are less as compared to the total number of records.
 
-### Unable to log in to Learning Manager application even after stopping the Sprint migration {#unabletologintocaptivateprimeapplicationevenafterstoppingthesprintmigration}
+### Unable to log in to Captivate Prime application even after stopping the Sprint migration {#unabletologintocaptivateprimeapplicationevenafterstoppingthesprintmigration}
 
 It may take 10-15 mins to unlock an account once a Sprint run is stopped or completed. Try to access the application after 15 minutes.
 
@@ -66,7 +66,8 @@ If you forget to select **Yes**, and proceed further in this sprint, then you ha
 
 ### enrollment.csv or user_course_grade.csv records fail with an error message 'Not a valid PrimeId' {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 
-Ensure that the email id provided as part of userId, assignedByUserID fields belong to valid Learning Manager users. If not, please add the user, create a new Sprint with **Sync Users** option selected. In case  the user is not part of the organization, add the user as a deleted user in Prime by using Add users CSV specification. A sample CSV specification to add deleted users is provided below for your reference. 
+Ensure that the email id provided as part of userId, assignedByUserID fields belong to valid Captivate Prime users. If not, please add the user, create a new Sprint with **Sync Users** option selected. In case  the user is not part of the organization, add the user as a deleted user in Prime by using Add users CSV specification. A sample CSV specification to add deleted users is provided below for your reference. 
+
 [Users.csv](assets/users.zip) Refer to **CSV specifications and sample CSVs** section in [Migration manual](../integration-admin/feature-summary/migration-manual.md) to download complete set of CSV specifications and sample CSV files. 
 
 ### Courses appear blank or incorrect modules play for a migrated course {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
@@ -77,17 +78,17 @@ Also, make sure that two versions of Activity, Classroom, and VC are not linked 
 
 ### Receiving a message as 'Module is already linked with an existing course' {#receivingamessageasmoduleisalreadylinkedwithanexistingcourse}
 
-Learning Manager does not allow linking Activity/VC/Classroom module to more than one course. Ensure that the module is not linked with any other courses.
+Captivate Prime does not allow linking Activity/VC/Classroom module to more than one course. Ensure that the module is not linked with any other courses.
 
 ### All the courses show the latest version of Activity/VC/Classroom modules even though the courses are linked with different module versions {#allthecoursesshowthelatestversionofactivityvcclassroommoduleseventhoughthecoursesarelinkedwithdifferentmoduleversions}
 
-Versioning of Activity, Classroom, and Virtual classroom modules is not supported in Learning Manager. If you provide versions through moduleVersion.csv file, it updates the existing file instead of creating a new verison. 
+Versioning of Activity, Classroom, and Virtual classroom modules is not supported in Captivate Prime. If you provide versions through moduleVersion.csv file, it updates the existing file instead of creating a new verison. 
 
 ### Desired duration does not appear for a migrated Activity/VC/Classroom module {#desireddurationdoesnotappearforamigratedactivityvcclassroommodule}
 
 Desired duration is not a valid entry for Activity/VC/Classroom module.
 
-### Hyperlink URL doesn't open up in Learning Manager {#hyperlinkurldoesntopenupincaptivateprime}
+### Hyperlink URL doesn't open up in Captivate Prime {#hyperlinkurldoesntopenupincaptivateprime}
 
 Ensure that that the provided links are pre-fixed with 'http://' or 'https://'
 

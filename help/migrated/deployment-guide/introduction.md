@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# Learning Manager Deployment Guide {#learning-manager-deployment-guide}
+# Learning Manager Deployment Guide
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
@@ -109,7 +109,7 @@ As an administrator, your next step would be to configure email templates for va
 You can enable and configure any of these email notifications from the Administrator dashboard. To learn how to set email templates, perform the following steps:
 
 1. In the left navigation pane, click **[!UICONTROL **Email Templates**.]**
-1. Click one of the following tabs: **[!UICONTROL **General**/**Learning Activity**/**Reminders & Updates**.]** As an example, let us assume you click **[!UICONTROL **Learning Activity**.]**
+1. Click one of the following tabs:** [!UICONTROL **General**/**Learning Activity**/**Reminders & Updates**.]** As an example, let us assume you click **[!UICONTROL **Learning Activity**.]**
 1. Click the toggle button for whichever activity you want to trigger an email. In this example, let us assume you click **[!UICONTROL **Learning Program - Enrolled by Admin/Manager**.]**
 
    ![](assets/configure-email-templates-step3.png)

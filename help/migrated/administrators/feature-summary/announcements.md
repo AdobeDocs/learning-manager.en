@@ -5,7 +5,7 @@ description: An announcement is a multimedia message (text, image or video) that
 ---
 
 
-# Announcements {#announcements}
+# Announcements
 
 An announcement is a multimedia message (text, image or video) that an Administrator broadcasts to a defined set of users.
 
@@ -39,7 +39,7 @@ There are three types of announcements:
    * Select the delivery time for the announcement.
 
 1. Choose **On a date** if you want to schedule announcement for a later date and click the text area adjacent to it. A calendar pop-up appears, from which you can choose the start date. Choose the end date by following the same steps.
-1. Click **Save.**
+1. Click **Save**.
 1. In Drafts tab, click settings icon  adjacent to an announcement and click send.
 
 If the multimedia attachment is of large size, it may take time to upload. After you click Save, you would receive a pop-up with a message as your upload is being processed. You will receive a notification after the attachment is uploaded successfully.
@@ -100,7 +100,7 @@ When you click **Save**, you can either publish the announcement right away or p
 
 In Administrator login, you can view all the announcements in three tabs such as Drafts, Scheduled and Sent.
 
-![](assets/three-tabs-announcement1.png) 
+![](assets/three-tabs-announcement1.png)
 
 ### Draft {#draft}
 

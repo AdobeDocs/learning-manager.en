@@ -1,18 +1,18 @@
 ---
-description: User notifications for Learners in Learning Manager.
+description: User notifications for Learners in Captivate Prime.
 jcr-language: en_us
 title: User notifications
 contentowner: manochan
 ---
 
 
-# User notifications {#user-notifications}
+# User notifications
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-User notifications for Learners in Learning Manager.
+User notifications for Learners in Captivate Prime.
 
-Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
+Notifications feature is applicable to all the users of Adobe Captivate Prime. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 
 ## Access notifications {#accessnotifications}
 

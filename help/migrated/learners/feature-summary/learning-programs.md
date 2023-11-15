@@ -1,24 +1,26 @@
 ---
-description: Learn how to view and consume learning programs using the Learner app in Learning Manager.
+description: Learn how to view and consume learning programs using the Learner app in Captivate Prime.
 jcr-language: en_us
 title: Learning Programs
 contentowner: manochan
 ---
 
 
-# Learning Programs {#learning-programs}
+# Learning Programs
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Learn how to view and consume learning programs using the Learner app in Learning Manager.
+Learn how to view and consume learning programs using the Learner app in Captivate Prime.
 
 Learning programs are a set of uniquely designed courses meeting specific learner goals. Administrators create these learning programs for learners. You can view these learning programs as a learner.
 
-Adobe Learning Manager enables learners to access the courses and learning programs. Learners can browse through all the available learning programs by using catalog or enroll themselves to learning programs of their choice. Learners can view all the enrolled courses and the courses assigned to them in Courses.
+## Overview {#overview}
+
+Adobe Captivate Prime enables learners to access the courses and learning programs. Learners can browse through all the available learning programs by using catalog or enroll themselves to learning programs of their choice. Learners can view all the enrolled courses and the courses assigned to them in Courses.
 
 >[!NOTE]
 >
->Learners can also install Learning Manager iPad app from apple store and Learning Manager Android app from Google Play and access courses on mobile devices. All the learners role features are also available in the app. Learners can also take courses offline and get a seamless access after going online. 
+>Learners can also install Captivate Prime iPad app from apple store and Captivate Prime Android app from Google Play and access courses on mobile devices. All the learners role features are also available in the app. Learners can also take courses offline and get a seamless access after going online. 
 
 ## Learning program {#learningprogram}
 
@@ -36,7 +38,7 @@ You can see course effectiveness percentage of each course from the Catalog page
 
 ## Searching courses and learning programs {#searchingcoursesandlearningprograms}
 
-Adobe Learning Manager makes it easier for you to find the courses of your choice quickly. You can search for your learning programs in the following ways:
+Adobe Captivate Prime makes it easier for you to find the courses of your choice quickly. You can search for your learning programs in the following ways:
 
 1. Using Search field. Click on the search bar displayed on top of the page. Type the course/learning program name or any keywords associated with your courses to locate your learning programs. You can also search using predefined tags like Captivate, C, Java, HTML, and so on. Tags are searchable inside search field, which means the tags are displayed in search field as you type.
 1. Learner can search for learning objects based on the course completion status: All, yet to start, completed, in progress.

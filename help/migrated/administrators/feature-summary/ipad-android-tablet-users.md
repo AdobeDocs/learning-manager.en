@@ -6,25 +6,24 @@ contentowner: manochan
 ---
 
 
-# iPad & Android tablet users {#ipad-android-tablet-users}
+# iPad & Android tablet users
 
-In Learning Manager app on iPad or Google Nexus 9 Android tablet, after you log in as a learner, you can see the following **Home** screen:
+In Captivate Prime app on iPad or Google Nexus 9 Android tablet, after you log in as a learner, you can see the following **Home** screen:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
 To navigate to learning and catalog features, tap the **Menu** drop-down and choose appropriate option.
 
-![](assets/menu-ipad.png) 
+![](assets/menu-ipad.png)
 
 ## Access the app off-line {#accesstheappoffline}
 
-You can access the Learning Manager app off-line in iPad and Google Nexus 9 Android tablet. Download and take courses in off-line mode, and synchronize the content back with online app when you connect to the network.
+You can access the Captivate Prime app off-line in iPad and Google Nexus 9 Android tablet. Download and take courses in off-line mode, and synchronize the content back with online app when you connect to the network.
 
 1. Tap **Menu** drop-down at the top and tap **Learning** option. A list of all the available courses is displayed in tiles.
-
 1. Tap the download icon at the bottom of each learning object tile, to download the learning content.
 
-![](assets/download-ipad.png)
+   ![](assets/download-ipad.png)
 
 1. When you are online, a prompt appears in a bar at the top of the app to check if you want to synchronize your content online. Tap the red-colored bar if your answer is yes. A green colored bar indicates your content is in sync with the online app.
 

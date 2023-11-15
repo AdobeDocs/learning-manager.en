@@ -6,16 +6,18 @@ contentowner: manochan
 ---
 
 
-# Waitlist & attendance management {#waitlist-attendance-management}
+# Waitlist & attendance management
 
 Administrators can manage attendance and waitlisting of courses for learners.
+
+## Waitlist management {#waitlistmanagement}
 
 Learners are waitlisted for any classroom course when the seats are limited, based on the order of their enrollment. Administrators can select the waitlisted learners and allocate seats superseding the seats limit for any classroom course. Learners get enrolled into the course as soon as Administrator allocates a seat.
 
 1. Click Courses on the left pane after you log in as Administrator.
 1. From the list of available courses, click the course name of any class room course of your choice. A new page appears with detailed information on the course.
 
-   ![](assets/waitlist-and-attendance-mgmnt.png)
+![](assets/waitlist-and-attendance-mgmnt.png)
 
 1. Click Waitlist on the left pane of the course detail page. Waitlisted learners list appears on the page.
 1. Select the learners and click Allocate seats to enroll the learners directly to the courses superseding the seats limit.

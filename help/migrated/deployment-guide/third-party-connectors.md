@@ -6,7 +6,7 @@ preview: true
 ---
 
 
-# Learning Manager Connectors {#learning-manager-connectors}
+# Learning Manager Connectors
 
 Learn on how to integrate Salesforce with Learning Manager using connectors, how to integrate FTP with Learning Manager and upload CSV automatically using FTP connector.
 
@@ -295,7 +295,7 @@ The getAbstract connector can be used by enterprise customers of getAbstract.com
 
    For any type of synchronization to work, you must ensure that the user feed is present in the getAbstract FTP folder for the dates specified in the synchronization.
 
-   See the following excel sheet, which is a sample user feed file from getAbstract. The file name should follow the format: **report_export_yyyy_MM_dd_HHmmss.xlsx** or **report_export_yyyy_MM_dd.xlsx**.
+   See the following excel sheet, which is a sample user feed file from getAbstract. The file name should follow the format:** report_export_yyyy_MM_dd_HHmmss.xlsx** or **report_export_yyyy_MM_dd.xlsx**.
    [getAbstract user feed sample excel sheet](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor connector {#hmmconnector}

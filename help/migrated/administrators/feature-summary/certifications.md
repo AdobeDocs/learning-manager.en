@@ -6,9 +6,9 @@ contentowner: manochan
 ---
 
 
-# Certifications {#certifications}
+# Certifications
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Learn how to create certifications, enroll learners, and edit published certifications.
 
@@ -18,7 +18,7 @@ As an Admin, you can create a certification program either hosted internally or 
 
 ## Create a certification {#createacertification}
 
-1. Click **Certification **on the left pane.  
+1. Click **Certification** on the left pane.  
    A page appears with a list of all the draft, and published state of certifications.
 
 1. View certifications in various modes:
@@ -32,68 +32,72 @@ As an Admin, you can create a certification program either hosted internally or 
 
    A new certification page appears.
 
-   ![](assets/add-new-certification.png)
+![](assets/add-new-certification.png)
 
-1. Add  certificate   name,  and description.
+1. Add certificate name, and description.
 
-<table> 
- <tbody> 
-  <tr> 
-   <th>Field</th> 
-   <th>Description</th> 
-  </tr> 
-  <tr> 
-   <td>Days to complete</td> 
-   <td>The deadline for the certification. Enter a numeric value.</td> 
-  </tr> 
-  <tr> 
-   <td>Type</td> 
-   <td><p>The type of certification:</p> 
-    <ul> 
-     <li><b>Recurring</b>- Choose this option if the certification needs to occur after every year, two years, or three years.</li> 
-     <li><b>Perpetual</b>- Choose this option if the certification needs to be a one time requirement.</li> 
-    </ul></td> 
-  </tr> 
-  <tr> 
-   <td>Reassignment</td> 
-   <td>Choose if you want the certificate to be reassigned based on completion date or on the basis on enrolment date.<br></td> 
-  </tr> 
-  <tr> 
-   <td>Validity (in months) <br></td> 
-   <td>Specify how long can the certification remain valid.</td> 
-  </tr> 
-  <tr> 
-   <td>Sequencing of Courses<br></td> 
-   <td>Decide if learners should take the courses in an ordered or unordered manner.<br></td> 
-  </tr> 
-  <tr> 
-   <td>Unenrollment<br></td> 
-   <td>Enable or disable the option to let learners unenroll themselves.</td> 
-  </tr> 
-  <tr> 
-   <td>Certification Issuer<br></td> 
-   <td><p>Choose <b>Internal</b> if it belongs to your organization, or choose <b>External</b> for outside organization certifications.</p><p>When you choose <b>External Certification</b>, you see two more options-</p> 
-    <ul> 
-     <li>Same as Approved Date<br></li> 
-     <li>Submitted by Learner<br></li> 
-    </ul><p>Learners can specify the correct completion date for external certifications. In previous versions, the completion date was set by default by Prime, based on the date of Manager's approval date. Completion date provided by the learner should be greater than the certificate creation date<span>.</span></p></td> 
-  </tr> 
-  <tr> 
-   <td>Duration</td> 
-   <td>If you've chosen External Certification, then specify the duration in minutes.</td> 
-  </tr> 
-  <tr> 
-   <td>Tags</td> 
-   <td>Enter the tags that you want to associate with the certificate. Tags are helpful when you want to search for the certificate.</td> 
-  </tr> 
-  <tr> 
-   <td>Select Catalogs<br></td> 
-   <td>Choose the catalog where the certificate is a part of.</td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <th>Field</th>
+   <th>Description</th>
+  </tr>
+  <tr>
+   <td>Days to complete</td>
+   <td>The deadline for the certification. Enter a numeric value.</td>
+  </tr>
+  <tr>
+   <td>Type</td>
+   <td>
+    <p>The type of certification:</p>
+    <ul>
+     <li><b>Recurring</b>- Choose this option if the certification needs to occur after every year, two years, or three years.</li>
+     <li><b>Perpetual</b>- Choose this option if the certification needs to be a one time requirement.</li>
+    </ul></td>
+  </tr>
+  <tr>
+   <td>Reassignment</td>
+   <td>Choose if you want the certificate to be reassigned based on completion date or on the basis on enrolment date.<br></td>
+  </tr>
+  <tr>
+   <td>Validity (in months) <br></td>
+   <td>Specify how long can the certification remain valid.</td>
+  </tr>
+  <tr>
+   <td>Sequencing of Courses<br></td>
+   <td>Decide if learners should take the courses in an ordered or unordered manner.<br></td>
+  </tr>
+  <tr>
+   <td>Unenrollment<br></td>
+   <td>Enable or disable the option to let learners unenroll themselves.</td>
+  </tr>
+  <tr>
+   <td>Certification Issuer<br></td>
+   <td>
+    <p>Choose <b>Internal</b> if it belongs to your organization, or choose <b>External</b> for outside organization certifications.</p>
+    <p>When you choose <b>External Certification</b>, you see two more options-</p>
+    <ul>
+     <li>Same as Approved Date<br></li>
+     <li>Submitted by Learner<br></li>
+    </ul>
+    <p>Learners can specify the correct completion date for external certifications. In previous versions, the completion date was set by default by Prime, based on the date of Manager's approval date. Completion date provided by the learner should be greater than the certificate creation date<span>.</span></p></td>
+  </tr>
+  <tr>
+   <td>Duration</td>
+   <td>If you've chosen External Certification, then specify the duration in minutes.</td>
+  </tr>
+  <tr>
+   <td>Tags</td>
+   <td>Enter the tags that you want to associate with the certificate. Tags are helpful when you want to search for the certificate.</td>
+  </tr>
+  <tr>
+   <td>Select Catalogs<br></td>
+   <td>Choose the catalog where the certificate is a part of.</td>
+  </tr>
+ </tbody>
 </table>
 
-Choose the courses to be added to the certification from **Courses** > **Catalog** tab.
+Choose the courses to be added to the certification from **Courses > Catalog** tab.
 
 Hover the mouse on each course tile, click + to add them to the certification. Click **Preview** to view the course as learner before adding it.
 
@@ -125,24 +129,24 @@ For more information on enrolling learners and the steps to follow, see [Enrolli
 
 While creating certifications, Administrator has an option to select whether learners can unenroll themselves from the certification. If Administrator selects the option, then learner can unenroll themselves. 
 
-![](assets/unenrollment.png) 
+![](assets/unenrollment.png)
 
 ## Mark completion {#markcompletion}
 
 Administrators can mark a Certification complete using the option available to them. To mark the completion of a certification, use the following steps.
 
-1. Open **[!UICONTROL Certification > Learners]**.
+1. Open **[!UICONTROL Certification]** > **[!UICONTROL Learners]**.
 
    The Learners page opens with the list of enrolled learners.
 
 1. Select one/multiple/all learners to mark Certification completion using the checkbox available for each learner.
-1. Click  **[!UICONTROL Action > Mark completion.]**
+1. Click  **[!UICONTROL Action]** > **[!UICONTROL Mark completion.]**
 
    Note that if a certification has multiple courses, completion will be marked for all the courses.
 
 ## Mandatory courses for external certification {#mandatory}
 
-In earlier releases of Learning Manager, course completion from learner in External certification was not mandatory to complete a Certificate.
+In earlier releases of Captivate Prime, course completion from learner in External certification was not mandatory to complete a Certificate.
 
 You can now make courses mandatory by enabling the option **Set required courses as Mandatory for Certificate Completion** in the Curriculum tab while editing the cerification.
 

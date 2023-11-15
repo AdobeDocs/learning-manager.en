@@ -1,36 +1,39 @@
 ---
-description: Read this article to know how to download Learning Manager Learner app for smartphones and tablets. Learn how to consume courses using your mobile or tablet.
+description: Read this article to know how to download Captivate Prime Learner app for smartphones and tablets. Learn how to consume courses using your mobile or tablet.
 jcr-language: en_us
 title: Learner App for mobiles and tablets
 contentowner: manochan
 ---
 
 
-# Learner App for mobiles and tablets {#learner-app-for-mobiles-and-tablets}
+# Learner App for mobiles and tablets
 
-Read this article to know how to download Learning Manager Learner app for smartphones and tablets. Learn how to consume courses using your mobile or tablet.
+Read this article to know how to download Captivate Prime Learner app for smartphones and tablets. Learn how to consume courses using your mobile or tablet.
 
-Learning Manager app for learners is available for both Android phone users and iPhone users. Go to either Google Play Store (Android OS) or iTunes (macOS), and download the Learning Manager app.
+## Overview {#overview}
 
-After you download and install this app, log in to the app using your learner credentials. When you open the Learning Manager mobile app, the following screen is displayed by default.
+Captivate Prime app for learners is available for both Android phone users and iPhone users. Go to either Google Play Store (Android OS) or iTunes (macOS), and download the Captivate Prime app.
 
-![](assets/1.png) 
+After you download and install this app, log in to the app using your learner credentials. When you open the Captivate Prime mobile app, the following screen is displayed by default.
+
+![](assets/1.png)
 
 ## Home page {#homepage}
 
 For all accounts that have the option Immersive Layout enabled, there is a brand-new home page to support the Immersive Layout configuration. The home page is organized as a list of cards for the following:
 
-|  ![](assets/image002.png)| ![](assets/image005.png)|
+| ![](assets/image002.png) | ![](assets/image005.png)|
 |---|---|
-|  ![](assets/image006.png)| ![](assets/image008.png)| ![](assets/image010.png)|
+| ![](assets/image006.png) | ![](assets/image008.png) |
+
+![](assets/image010.png)
 
 ## Feedback rating {#feedbackrating}
 
-Learning Manager prompts the learner to provide feedback about their experience with the Mobile App. This feedback appears once in a month and gives enough time interval for users to experience the app and then provide the feedback.
+Captivate Prime prompts the learner to provide feedback about their experience with the Mobile App. This feedback appears once in a month and gives enough time interval for users to experience the app and then provide the feedback.
 
-![](assets/image013.png)
-
-![](assets/image014.png)
+| ![](assets/image013.png) | ![](assets/image014.png)|
+|---|---|
 
 For existing users, they should see the feedback popup once they close the Player for the first time after updating the app to latest version.
 
@@ -40,7 +43,8 @@ Note that the feedback collection is anonymous and appears only for users who've
 
 Learners can download their badges in PDF and Image format. In the User profile section, scroll down, and click any link to download a badge. The downloaded badge is saved in the default device folder. The app allows you to open the folder or the file immediately after the download completes.  
 
-![](assets/image016.png)
+| ![](assets/image016.png)|
+|---|
 
 ## Mobile web responsive layout {#responsive}
 
@@ -53,9 +57,18 @@ The mobile web responsive UI support is only available when an account **is conf
 <table>
  <tbody>
   <tr>
-   <td><p style="text-align: center;"><strong>Home page</strong></p><img src="assets/home-page1.png"><p style="text-align: center;"><strong>View options</strong></p><img src="assets/view-options.jpg"><p style="text-align: center;"><strong>Start course</strong></p><img src="assets/start-course.jpg"></td>
-   <td><p style="text-align: center;"><strong>My Learning List</strong></p><img src="assets/learning-list.jpg"><p style="text-align: center;"><strong>View catalog</strong></p><img src="assets/catalog-new.jpg"><p style="text-align: center;"><strong>Apply filters</strong></p><img src="assets/apply-filters.jpg"></td>
-   <td><p style="text-align: center;"><strong>Recommendations based on interest</strong></p><img src="assets/rec-area-interest.jpg"><p style="text-align: center;"><strong>View notifications</strong></p><img src="assets/notifications.jpg"><p style="text-align: center;"><strong>Share url</strong></p><img src="assets/share-url.jpg"></td>
+   <td>
+    <p><strong>Home page</strong></p><img src="assets/home-page1.png">
+    <p><strong>View options</strong></p><img src="assets/view-options.jpg">
+    <p><strong>Start course</strong></p><img src="assets/start-course.jpg"></td>
+   <td>
+    <p><strong>My Learning List</strong></p><img src="assets/learning-list.jpg">
+    <p><strong>View catalog</strong></p><img src="assets/catalog-new.jpg">
+    <p><strong>Apply filters</strong></p><img src="assets/apply-filters.jpg"></td>
+   <td>
+    <p><strong>Recommendations based on interest</strong></p><img src="assets/rec-area-interest.jpg">
+    <p><strong>View notifications</strong></p><img src="assets/notifications.jpg">
+    <p><strong>Share url</strong></p><img src="assets/share-url.jpg"></td>
   </tr>
  </tbody>
 </table>
@@ -94,15 +107,15 @@ There are some features, which are not supported Mobile Immersive App. These are
 
 In the mobile immersive mode, a learner can download a Job Aid. Tap **Settings** and then tap **Catalogs**. Download a Job Aid from the list that appears.
 
-![](assets/image018.jpg)
+| ![](assets/image018.jpg)|
+|---|
 
 ## Enable learners to download Learner Transcript {#download-learner-transcript}
 
 In the mobile immersive mode, a learner can download the Learner Transcripts.
 
-![](assets/image021.jpg)
-
-![](assets/image022.jpg)
+| ![](assets/image021.jpg) | ![](assets/image022.jpg)|
+|---|---|
 
 ## View badges and skills {#viewbadgesandskills}
 
@@ -114,15 +127,15 @@ The default screen displays your recently achieved badges, skills, and gamificat
 
 By default, the screen displays the courses that you are enrolled in. The donut chart displays the learning overdue, learnings nearing deadline, and learnings on track.
 
-Tap a course to view the details of the course, your completio n da te (if applicable). You can either Continue or Revisit the course from this screen, depending on your completion status.
+Tap a course to view the details of the course, your completion date (if applicable). You can either Continue or Revisit the course from this screen, depending on your completion status.
 
 ![](assets/2.png)
 
 **Viewing catalogs**
 
-Tap the icon next to the book icon at the bottom of the screen. You can immediately view the catalog with all the associated learning objects. You can choose to view them in  grid  layout or choose the detailed view. Select recommendations to see course recommendations based on your learning history.
+Tap the icon next to the book icon at the bottom of the screen. You can immediately view the catalog with all the associated learning objects. You can choose to view them in grid layout or choose the detailed view. Select recommendations to see course recommendations based on your learning history.
 
-![](assets/4.png) 
+![](assets/4.png)
 
 ## Sort and filter learning objects {#sortandfilterlearningobjects}
 
@@ -136,7 +149,7 @@ At the top right of your phone screen, you can see a search icon. Tap that icon 
 
 **Managing profile, settings, and notification**
 
-Tap ![](assets/hamburger.jpg)&nbsp; menu at the top left corner of the screen to view your profile, notifications as well as account settings.&nbsp;
+Tap ![](assets/hamburger.jpg) menu at the top left corner of the screen to view your profile, notifications as well as account settings. 
 
 This menu also allows you to scan the QR code for marking attendance for courses.
 
@@ -160,7 +173,7 @@ The scan QR feature allows a learner to perform one of the actions mentioned bel
 * **Enrollment and Completion:** This allows the learner to enroll and mark completion at the same time by scanning the QR code.
 * **Mark Attendance:** This allows the learner to mark attendance for a particular session by scanning the QR code.
 
-### Renaming Learning Objects {#renaminglearningobjects}
+## Renaming Learning Objects {#renaminglearningobjects}
 
 Administrators can rename Learning Objects terminology. To rename, see [Renaming Learning Objects](../../administrators/feature-summary/settings.md#main-pars_header_1570157145).
 
@@ -173,7 +186,7 @@ In this update, the following features are not supported. You cannot:
 * Add post as story or add  as post as favorite or pin to top.
 * View a social leaderboard.
 
-Social learning is a platform in the Learning Manager mobile app, which engages users to share ideas and meaningful insights in an informal environment. It is a methodology that supplements the idea of traditional learning. 
+Social learning is a platform in the Captivate Prime mobile app, which engages users to share ideas and meaningful insights in an informal environment. It is a methodology that supplements the idea of traditional learning. 
 
 Social learning allows users to use the expertise around them to get correct and concise information. Learners can quickly apply that information to complete a task and achieve a goal.
 
@@ -183,17 +196,17 @@ On this platform, the different type of content that can be shared are video, au
 
 This feature is only available on the device app once the Admin enables **Social Learning** for the account.
 
-### Launch social learning on the app {#launchsociallearningontheapp}
+## Launch social learning on the app {#launchsociallearningontheapp}
 
 Upon launching the app, tap the **Social** icon.
 
-![](assets/home.png) 
+![](assets/home.png)
 
-### Create a post in a board {#createapostinaboard}
+## Create a post in a board {#createapostinaboard}
 
-Like any other social platform, in the Learning Manager mobile app, you can create a post in a board, so that all learners who are part of the same board can view your post, comment, and upload a file along with the comment.
+Like any other social platform, in the Captivate Prime mobile app, you can create a post in a board, so that all learners who are part of the same board can view your post, comment, and upload a file along with the comment.
 
-To create a post, tap the ( ![](assets/prime-add.png)) icon on the bottom-right of the screen.&nbsp;
+To create a post, tap the (![](assets/prime-add.png)) icon on the bottom-right of the screen. 
 
 The following screen appears.
 
@@ -202,60 +215,84 @@ The following screen appears.
 <table>
  <tbody>
   <tr>
-   <td><p style="text-align: center;"><img src="assets/prime-write-1.png" alt=""></p></td>
-   <td><p>Write a post or paste any URL.</p></td>
+   <td>
+    <p><img src="assets/prime-write-1.png" alt=""></p></td>
+   <td>
+    <p>Write a post or paste any URL.</p></td>
   </tr>
   <tr>
-   <td><p style="text-align: center;"><img src="assets/prime-camera.png" alt=""></p></td>
-   <td><p>Take a picture with your mobile camera and upload it with your post.</p></td>
+   <td>
+    <p><img src="assets/prime-camera.png" alt=""></p></td>
+   <td>
+    <p>Take a picture with your mobile camera and upload it with your post.</p></td>
   </tr>
   <tr>
-   <td><p style="text-align: center;"><img src="assets/prime-video.png" alt=""></p></td>
-   <td><p>Record a video with your mobile camera.</p></td>
+   <td>
+    <p><img src="assets/prime-video.png" alt=""></p></td>
+   <td>
+    <p>Record a video with your mobile camera.</p></td>
   </tr>
   <tr>
-   <td><p style="text-align: center;"><img src="assets/prime-record.png" alt="">&nbsp;</p></td>
-   <td><p>Record audio with your mobile.</p></td>
+   <td>
+    <p><img src="assets/prime-record.png" alt=""> </p></td>
+   <td>
+    <p>Record audio with your mobile.</p></td>
   </tr>
   <tr>
-   <td><p style="text-align: center;"><img src="assets/prime-upload.png" alt=""></p></td>
-   <td><p>Upload any document or file in the board.</p></td>
+   <td>
+    <p><img src="assets/prime-upload.png" alt=""></p></td>
+   <td>
+    <p>Upload any document or file in the board.</p></td>
   </tr>
   <tr>
-   <td><p style="text-align: center;"><img src="assets/prime-ask.png" alt="">&nbsp;</p></td>
-   <td><p>Ask a question.</p></td>
+   <td>
+    <p><img src="assets/prime-ask.png" alt=""> </p></td>
+   <td>
+    <p>Ask a question.</p></td>
   </tr>
   <tr>
-   <td><p style="text-align: center;"><img src="assets/prime-poll.png" alt="">&nbsp;</p></td>
-   <td><p>Create a poll with your post.</p></td>
+   <td>
+    <p><img src="assets/prime-poll.png" alt=""> </p></td>
+   <td>
+    <p>Create a poll with your post.</p></td>
   </tr>
  </tbody>
 </table>
 
-### Supported content format {#supportedcontentformat}
+## Supported content format {#supportedcontentformat}
 
-<table> 
+<table>
  <tbody>
-  <tr> 
-   <td><p><strong>Content type</strong></p> </td> 
-   <td><p><strong>Extensions</strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Video</p> </td> 
-   <td><p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Audio</p> </td> 
-   <td><p>mp3, amr, m4a, wav, wma, aac</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Static Files</p> </td> 
-   <td><p>PDF, ppt, pptx, doc, docx, xls, xlsx</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Image</p> </td> 
-   <td><p>jpg, jpeg, png, bmp, gif</p> </td> 
-  </tr> 
+  <tr>
+   <td>
+    <p><strong>Content type</strong></p></td>
+   <td>
+    <p><strong>Extensions</strong></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Video</p></td>
+   <td>
+    <p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Audio</p></td>
+   <td>
+    <p>mp3, amr, m4a, wav, wma, aac</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Static Files</p></td>
+   <td>
+    <p>PDF, ppt, pptx, doc, docx, xls, xlsx</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Image</p></td>
+   <td>
+    <p>jpg, jpeg, png, bmp, gif</p></td>
+  </tr>
  </tbody>
 </table>
 
@@ -263,18 +300,19 @@ After creating a post, choose the board where you want to upload the post. Tap S
 
 After you've created a post, tap Post and post your comment for other learners to view your post.
 
-In the mobile app, you cannot create a board. To create a board, you must log in to the web app as a learner. For more information on creating a board, see Social learning in [Learning Manager](https://helpx.adobe.com/captivate-prime/learners/feature-summary/social-learning-web-user.html).
+In the mobile app, you cannot create a board. To create a board, you must log in to the web app as a learner. For more information on creating a board, see Social learning in [Captivate Prime](https://helpx.adobe.com/captivate-prime/learners/feature-summary/social-learning-web-user.html).
 
-### Actions that can be performed on a post {#actionsthatcanbeperformedonapost}
+## Actions that can be performed on a post {#actionsthatcanbeperformedonapost}
 
 * Comment on a post and based on the permission, view post in a board.
 * Edit or delete comments in a board.
 * Edit or delete a post based on permissions.
 * Report an abuse of a post if it violates their privacy, or its content is inappropriate. Once a post is reported, a notification is sent to the board administrator and moderators for further actions.
-* Like ![](assets/prime-like.png) or dislike ![](assets/prime-dislike.png) a post.
-* Like ![](assets/prime-like.png) or dislike ![](assets/prime-dislike.png) a comment.
+* Like  ![](assets/prime-like.png)  or dislike  ![](assets/prime-dislike.png)   a post.
 
-### Create a post in other boards {#createapostinotherboards}
+* Like  ![](assets/prime-like.png) or dislike ![](assets/prime-dislike.png) a comment.
+
+## Create a post in other boards {#createapostinotherboards}
 
 You can create a post in other boards as well.
 
@@ -284,19 +322,16 @@ Tap **All Boards** and you can view the activities in the board performed by oth
 
 Navigate to the required board and post your comment.
 
-### Share media in a board {#sharemedia}
+## Share media in a board {#sharemedia}
 
 ![](assets/cp-prime-share.png)
 
 Share pictures, documents, or audio or videos files to any board, so that other board members can view your post and start an interaction. To share any media,
 
 1. Open the media that you want to share.
-
-2. Tap the share button and choose Learning Manager.
-
-3. Choose the board in which you want to share the media.
-
-4. Tap **Post**.
+1. Tap the share button and choose Captivate Prime.
+1. Choose the board in which you want to share the media.
+1. Tap **Post**.
 
 You can also post any content from an external app, for example, you can share a comment from Reddit or Quora.
 
@@ -309,9 +344,8 @@ Follow the steps below:
 1. From the list of external certificates, choose the required certificate, and enrol for the certificate.      
 1. Tap **Proof of Completion** and upload a file, for example, a pdf or an image.
 
-   ![](assets/screenshot-3.png)
-
-   ![](assets/screenshot-4.png)
+   | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png)|
+   |---|---|
 
 1. After uploading a file, tab **Submit**. A confirmation message appears.
 
@@ -331,11 +365,8 @@ After the Manager approves the submission, the status changes to **Approved**, c
 
 If the Manager rejects the submission, the status changes to **Rejected**, colored in red.
 
-![](assets/screenshot-7.png)
-
-![](assets/screenshot-9.png)
-
-![](assets/screenshot-8.png)
+| ![](assets/screenshot-7.png) | ![](assets/screenshot-9.png) | ![](assets/screenshot-8.png) |
+|---|---|---|
 
 After rejection, you are allowed to upload a file as proof of completion.
 
@@ -344,25 +375,22 @@ After rejection, you are allowed to upload a file as proof of completion.
 
 ## Take courses from LinkedIn Learning {#linkedin}
 
-Learning Manager already supports LinkedIn Learning courses within the learning platform. Now learners can take up such LinkedIn Learning courses within the Learning Manager mobile app. In the device app, search for a course, and then start the course.
+Captivate Prime already supports LinkedIn Learning courses within the learning platform. Now learners can take up such LinkedIn Learning courses within the Captivate Prime mobile app. In the device app, search for a course, and then start the course.
 
 If you have the LinkedIn app already installed, the course will open in the app, or else the course will open in the default browser, where you must log in using your LinkedIn credentials. 
 
-If you are taking the course via the LinkedIn app, your progress will not be tracked inside Learning Manager. Hence, it's recommended that the course is launched in the browser instead of the LinkedIn Learning app. 
+If you are taking the course via the LinkedIn app, your progress will not be tracked inside Captivate Prime. Hence, it's recommended that the course is launched in the browser instead of the LinkedIn Learning app. 
 
 >[!NOTE]
 >
->you can only take the courses if you have an active internet connection.
+>You can only take the courses if you have an active internet connection.
 
-![](assets/start-course.jpg)
+| ![](assets/start-course.jpg) | ![](assets/enroll-course.jpg) | ![](assets/sign-in.jpg) |
+|---|---|---|
 
-![](assets/enroll-course.jpg)
+Learning time spent in LinkedIn Learning courses is communicated by the LinkedIn content/LinkedIn platform to Captivate Prime learning platform.
 
-![](assets/sign-in.jpg)
-
-Learning time spent in LinkedIn Learning courses is communicated by the LinkedIn content/LinkedIn platform to Learning Manager learning platform.
-
-In case LinkedIn learning does not send the learning time, it cannot be recorded by our learning platform. In such case, learning time spent displayed by Learning Manager is zero.
+In case LinkedIn learning does not send the learning time, it cannot be recorded by our learning platform. In such case, learning time spent displayed by Captivate Prime is zero.
 
 ## Submit file for classroom and activity modules {#submitfile}
 
@@ -378,32 +406,42 @@ To upload the file, click **Upload File**.
 
 Upload any file and click the **Submit** button.
 
-![](assets/upload-file.png) ![](assets/pending-file-approval.png) 
+![](assets/upload-file.png) ![](assets/pending-file-approval.png)
 
 ## Supported file types for upload {#supportedfiletypesforupload}
 
-<table> 
+<table>
  <tbody>
-  <tr> 
-   <td><p><b>Content type</b></p></td> 
-   <td><p><b>Extensions</b></p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Video</p></td> 
-   <td><p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Audio</p></td> 
-   <td><p>mp3, amr, m4a, wav, wma, aac</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Static Files</p></td> 
-   <td><p>PDF, ppt, pptx, doc, docx, xls, xlsx</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Image</p></td> 
-   <td><p>jpg, jpeg, png, bmp, gif</p></td> 
-  </tr> 
+  <tr>
+   <td>
+    <p><b>Content type</b></p></td>
+   <td>
+    <p><b>Extensions</b></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Video</p></td>
+   <td>
+    <p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Audio</p></td>
+   <td>
+    <p>mp3, amr, m4a, wav, wma, aac</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Static Files</p></td>
+   <td>
+    <p>PDF, ppt, pptx, doc, docx, xls, xlsx</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Image</p></td>
+   <td>
+    <p>jpg, jpeg, png, bmp, gif</p></td>
+  </tr>
  </tbody>
 </table>
 
@@ -421,9 +459,9 @@ When the instructor rejects the submission, the status on the Learner mobile app
 
 To submit the file again, click the link **Upload File**.
 
-## Learning Manager for iPad and tablets {#captivateprimeforipadandtablets}
+## Captivate Prime for iPad and tablets {#captivateprimeforipadandtablets}
 
-In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the following **Home** screen:
+In Captivate Prime app on iPad or Android tablet, after you log in as a learner, you can see the following **Home** screen:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
@@ -435,15 +473,14 @@ You have an option to view the set of courses in a list view instead of tiled/ca
 
 ## Access the app off-line {#accesstheappoffline}
 
-You can access the Learning Manager app off-line in iPad and Android tablets. You can download courses and learning programs. Take courses, consume the Learning programs in off-line mode and synchronize the content back with online app when you connect to the network.
+You can access the Captivate Prime app off-line in iPad and Android tablets. You can download courses and learning programs. Take courses, consume the Learning programs in off-line mode and synchronize the content back with online app when you connect to the network.
 
 1. Tap **Menu** drop-down at the top and tap **Learning** option. A list of all the available courses is displayed in tiles.
-
 1. Tap the download icon at the bottom of each learning object tile, to download the learning content.
 
    ![](assets/download-cards.png)
 
-1. A prompt appears in a bar at the top of the app denoting the network status of the device. 
+   A prompt appears in a bar at the top of the app denoting the network status of the device. 
 
    * Red bar indicates that the network is not available for the device. 
    * Green bar indicates network is back online. 

@@ -1,18 +1,18 @@
 ---
-description: Job Aids for Administrators in Learning Manager.
+description: Job Aids for Administrators in Captivate prime.
 jcr-language: en_us
 title: Job Aids
 contentowner: jayakarr
 ---
 
 
-# Job Aids {#job-aids}
+# Job Aids
 
-Job Aids for Administrators in Learning Manager.
+Job Aids for Administrators in Captivate prime.
 
 Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
 
-Job Aids can be consumed independently or along with course consumption in Learning Manager.
+Job Aids can be consumed independently or along with course consumption in Captivate Prime.
 
 Administrators of an organization can manage job aids assignment to learners and also withdraw or re-publish job aids.
 
@@ -28,9 +28,10 @@ View withdrawn job aids by clicking the Withdrawn tab. You can re-publish the wi
 
 ## Manage job aid assignments {#managejobaidassignments}
 
-1. In Published tab, click the settings icon adjacent to a job aid.
-1. Click Manage Assignment.
+1. In Published tab, click the settings icon adjacent to a job aid.   
+    
 
+1. Click Manage Assignment.  
    An Enroll Learners pop-up dialog appears. 
 
    ![](assets/enroll-learners-job-aids.png)
@@ -58,4 +59,3 @@ In **Published** tab, click the settings icon near a job aid. Add a learner and 
 In **Published** tab, click the settings icon near a job aid. Click **Withdraw**. The Job Aid now no longer appears in the Published tab. To view the withdrawn Job Aid, click the Withdrawn tab.
 
 +++
-

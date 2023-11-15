@@ -6,17 +6,17 @@ contentowner: saghosh
 ---
 
 
-# Support for custom domain {#support-for-custom-domain}
+# Support for custom domain
 
-Custom Domains are not supported in an Azure instance of Learning Manager.
+Custom Domains are not supported in an Azure instance of Captivate Prime.
 
 ## Overview {#overview}
 
-Custom Domain support allows the customers to gain complete control over the domain name that they can use for their account in Learning Manager. A customer needs to purchase the custom domain separately and work with Adobe team to set it up as their login URL for their learning platform. 
+Custom Domain support allows the customers to gain complete control over the domain name that they can use for their account in Captivate Prime. A customer needs to purchase the custom domain separately and work with Adobe team to set it up as their login URL for their learning platform. 
 
-This allows the customer to white label the login and access experience, such that the users do not see any presence of Adobe or Adobe Learning Manager. 
+This allows the customer to white label the login and access experience, such that the users do not see any presence of Adobe or Adobe Captivate Prime. 
 
-For instance, you'd like to customize your domain such that your users get the same experience as if they are on the Adobe domain. If ABC Inc wants to train their customers, it would like them to land on a domain called **abc.com/mylearning**, instead of **captivateprime.adobe.com/abc-inc/mylearning**. 
+For instance, you'd like to customize your domain such that your users get the same experience as if they are on the Adobe domain. If ABC Inc wants to train their customers, it would like them to land on a domain called `abc.com/mylearning`, instead of `captivateprime.adobe.com/abc-inc/mylearning`. 
 
 As a pre-requisite, you must register the domain and then Adobe will guide you through customizing the url.
 
@@ -31,16 +31,14 @@ Custom domain feature is available at an additional cost. Please contact your Cu
 
 As a pre-requisite, a customer must own a domain name and purchase the domain from a provider.
 
-As an example, let us consider that a customer owns a fictitious domain, **acme.com**. The customer wishes Learning Manager content to be served from **learning.acme.com**.
+As an example, let us consider that a customer owns a fictitious domain, **acme.com**. The customer wishes Captivate Prime content to be served from **learning.acme.com**.
 
 Follow the steps below to set up a custom domain.
 
 1. The customer has to **add three CNAME** records in the domain:
 
-   * **learning.acme.com:** ALB public endpoint of Learning Manager shared by Adobe  
-   
+   * **learning.acme.com:** ALB public endpoint of Captivate Prime shared by Adobe  
    * **lrs.learning.acme.com:** ALB public endpoint pointed by learning.acme.com  
-   
    * **cdn.learning.acme.com:** CDN endpoint shared by Adobe
 
 1. The customer must provide SSL certificates for these domains:
@@ -57,4 +55,3 @@ Follow the steps below to set up a custom domain.
    * If the customer has enabled SSO, then the customer must work with their IDP to include their domains in the redirect urls. The customer must share the IDP metadata XML with Adobe. Adobe then must update the SSO settings of the customer's account.
 
 1. Adobe will then modify the S3 CORS rules to include the customer's domain.
-

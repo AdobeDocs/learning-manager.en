@@ -1,14 +1,14 @@
 ---
 jcr-language: en_us
 title: Adobe Connect integration
-description: Administrators of an organization can configure the settings of Learning Manager account to enable Adobe Connect integration.
+description: Authors can create virtual classroom courses with Adobe Connect during course creation process. To enable Adobe Connect for your Learning Manager account, you need to contact the Administrator of your organization.
 contentowner: jayakarr
 ---
 
 
-# Adobe Connect integration {#adobe-connect-integration}
+# Adobe Connect integration
 
-Administrators of an organization can configure the settings of Learning Manager account to enable Adobe Connect integration.
+Administrators of an organization can configure the settings of Captivate Prime account to enable Adobe Connect integration.
 
 ## Configure Adobe Connect {#configureadobeconnect}
 
@@ -16,7 +16,7 @@ Administrators of an organization can configure the settings of Learning Manager
 
    ![](assets/left-pane.png)
 
-1. Click **configure Now **link in **Adobe Connect Configuration** section.
+1. Click **Configure Now** link in **Adobe Connect Configuration** section.
 
    ![](assets/configure-now-connect.png)
 
@@ -27,11 +27,11 @@ Administrators of an organization can configure the settings of Learning Manager
    A sample Adobe Connect URL: mycompany.adobeconnect.com  
    You need to provide email id of the Adobe connect account's Administrator. 
 
-   Only Adobe hosted connect accounts are supported in Learning Manager. Example; '.adobeconnect.com'.
+   Only Adobe hosted connect accounts are supported in Captivate Prime. Example; '.adobeconnect.com'.
 
 1. Click **Integrate.**
 
-   After authenticating the email id, Learning Manager displays the message as Connect is successfully integrated. You can start viewing your virtual classroom courses using Adobe Connect automatically.
+   After authenticating the email id, Captivate Prime displays the message as Connect is successfully integrated. You can start viewing your virtual classroom courses using Adobe Connect automatically.
 
    Adobe Connect account administrator should accept the Terms and Conditions of using Adobe Connect. If this is not accepted, your login authentication may fail. After creating the Adobe Connect account, log in to the account once. During first time login, a terms and conditions page appears.
 
@@ -45,9 +45,9 @@ In Administrator login, click the VC course name. Click **Instances** on the lef
 
 ![](assets/session-creation-admin.png)
 
-With the integration of Adobe Learning Manager and Adobe Connect for creating virtual classroom modules or sessions, your Connect account should support Meeting rooms with adequate number of rooms and concurrent users for your use case. These meeting rooms are used to host Learning Manager virtual classroom modules. A new Connect meeting room is dynamically created by Prime for each virtual classroom module or session within Prime.
+With the integration of Adobe Captivate Prime and Adobe Connect for creating virtual classroom modules or sessions, your Connect account should support Meeting rooms with adequate number of rooms and concurrent users for your use case. These meeting rooms are used to host Captivate Prime virtual classroom modules. A new Connect meeting room is dynamically created by Prime for each virtual classroom module or session within Prime.
 
-You must purchase Adobe Connect separately, apart from Adobe Learning Manager.
+You must purchase Adobe Connect separately, apart from Adobe Captivate Prime.
 
 ## Learners attendance {#learnersattendance}
 

@@ -7,7 +7,7 @@ preview: true
 ---
 
 
-# xAPI in Learning Manager {#xapi-in-learning-manager}
+# xAPI in Learning Manager
 
 ## What is xAPI? {#whatisxapi}
 
