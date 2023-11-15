@@ -50,24 +50,24 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 1. Ensure that your webcam / microphone is properly plugged-in to the system and is functioning properly.
 1. Ensure that you have installed the latest drivers for your webcam / microphone. Some devices do not function properly without dedicated drivers.
-1. Reset application preferences, and then relaunch Adobe Captivate Prime desktop application and retry. For more information, see [How to reset application preferences](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtoresetapplicationpreferences).
-1. If you are on Mac OS X Mojave 10.14, grant permissions to Adobe Captivate Prime desktop application to access your webcam / microphone. For more information, see [How to set webcam / microphone permissions on OSX Mojave](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#HowtosetwebcammicrophonepermissionsonMacOSXMojave).
+1. Reset application preferences, and then relaunch Adobe Captivate Prime desktop application and retry. For more information, see [How to reset application preferences](#howtoresetapplicationpreferences).
+1. If you are on Mac OS X Mojave 10.14, grant permissions to Adobe Captivate Prime desktop application to access your webcam / microphone. For more information, see [How to set webcam / microphone permissions on OSX Mojave](#howtosetwebcammicrophonepermissionsonMacOSXMojave).
 
 +++
 
 +++I am unable to publish my posts from Adobe Captivate Prime desktop application
 
 1. Make sure that you have a valid Adobe Captivate Prime learner account with Social Learning enabled by your Adobe Captivate Prime administrator.
-1. Reset application preferences, and then relaunch Adobe Captivate Prime desktop application and retry. For more info, see [How to reset application preferences](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtoresetapplicationpreferences).
-1. For errors while publishing, enable advanced logging. For more information, see [How to enable advanced logging](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtoenableadvancedlogging), restart Adobe Captivate Prime desktop application, redo the above steps that cause the error. Send the latest application logs to your Adobe Captivate Prime administrator for Help. For more information, see [How to find application logs](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#howtofindapplicationlogs).****
+1. Reset application preferences, and then relaunch Adobe Captivate Prime desktop application and retry. For more info, see [How to reset application preferences](#howtoresetapplicationpreferences).
+1. For errors while publishing, enable advanced logging. For more information, see [How to enable advanced logging](#howtoenableadvancedlogging), restart Adobe Captivate Prime desktop application, redo the above steps that cause the error. Send the latest application logs to your Adobe Captivate Prime administrator for Help. For more information, see [How to find application logs](#howtofindapplicationlogs).
 
 +++
 
 +++I am unable to see or open my older projects
 
 1. You can only see projects created with your Adobe Captivate Prime account, on the same computer on which they were created.
-1. Reset application preferences, and then relaunch Adobe Captivate Prime desktop application and retry. For Help, see [How to reset application preferences](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtoresetapplicationpreferences).
-1. For errors while opening projects, enable advanced logging. For more information, see [How to enable advanced logging](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtoenableadvancedlogging). Restart Adobe Captivate Prime desktop application and redo the steps that cause the error. Send the latest application logs to your Adobe Captivate Prime administrator for Help. For more information, see [How to find application logs](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#howtofindapplicationlogs).****
+1. Reset application preferences, and then relaunch Adobe Captivate Prime desktop application and retry. For Help, see [How to reset application preferences](#howtoresetapplicationpreferences).
+1. For errors while opening projects, enable advanced logging. For more information, see [How to enable advanced logging](#howtoenableadvancedlogging). Restart Adobe Captivate Prime desktop application and redo the steps that cause the error. Send the latest application logs to your Adobe Captivate Prime administrator for Help. For more information, see [How to find application logs](#howtofindapplicationlogs).
 
 +++
 
