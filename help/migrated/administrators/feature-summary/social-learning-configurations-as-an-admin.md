@@ -177,7 +177,7 @@ If the active field does not contain any value, then the **Value** field drop-do
 
 ![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)
 
-Users can also post their content by using Adobe Captivate Prime desktop application. Depending on whether you are a Mac or Windows user, click the given links to download the desktop application and follow the given steps to install it onto your system. If you are facing any difficulties in installation, [click here](../../kb/troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md).
+Users can also post their content by using Adobe Captivate Prime desktop application. Depending on whether you are a Mac or Windows user, click the given links to download the desktop application and follow the given steps to install it onto your system. If you are facing any difficulties in installation, [click here](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
 
 ## Board Creation Permissions {#permission}
 

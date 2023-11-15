@@ -23,7 +23,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 +++I am unable to install Adobe Captivate Prime desktop application
 
-1. Make sure that your system meets the minimum system requirements. See [System requirements for Adobe Captivate Prime App for desktop](../learners/adobe-captivate-prime-app-for-desktop/adobe-captivate-prime-desktop-app-system-requirements.md).
+1. Make sure that your system meets the minimum system requirements. See [System requirements for Adobe Captivate Prime App for desktop](../learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md).
 1. Clean up any previous installation of Adobe Captivate Prime desktop application. For more information, see  [How to clean previous installations](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#HowtocleanuppreviousinstallationsofAdobeCaptivatePrimedesktopapp) for more information.
 1. For errors during installation process, see [How to find application logs](troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md#Howtofindapplicationlogs). Contact your Adobe Captivate Prime desktop application administrator for more help.
 

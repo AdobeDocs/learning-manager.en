@@ -18,7 +18,7 @@ Similarly, Captivate Prime Social Learning feature allows users to be able to in
 
 On this platform, the different type of content that can be shared are video, audio, screenshot, text, question, and poll. Users can also share their online learnings with their peers by using the **Share to Social bookmarklet**. For more information, see  [Share to Social Learning](share-to-social.md).
 
-Content can also be posted inside a board with the help of the **Adobe Captivate Prime desktop application**. For more information, see  [Adobe Captivate Prime app for desktop](../adobe-captivate-prime-app-for-desktop.md).
+Content can also be posted inside a board with the help of the **Adobe Captivate Prime desktop application**. For more information, see  [Adobe Captivate Prime app for desktop](../adobe-learning-manager-app-for-desktop.md).
 
 Only if the administrator enables Social Learning, the feature is visible to a learner .
 
@@ -129,7 +129,7 @@ Content is created as a post inside a board. To create a post, follow the below 
 
 1. Select any of the following types of contents to be posted: Text, question, video, audio, poll, and screenshot. Existing content can be uploaded from users system or from the Adobe Captivate Prime desktop application's gallery.
 
-   Use Adobe Captivate Prime desktop app to record a video or screen, audio, and take a screenshot. For more information, see [Adobe Captivate Prime desktop application](../adobe-captivate-prime-app-for-desktop.md). 
+   Use Adobe Captivate Prime desktop app to record a video or screen, audio, and take a screenshot. For more information, see [Adobe Captivate Prime desktop application](../adobe-learning-manager-app-for-desktop.md). 
 
    ![](assets/types-of-post-03.png)
 

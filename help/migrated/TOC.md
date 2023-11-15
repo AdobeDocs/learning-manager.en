@@ -109,10 +109,10 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Adobe Connect integration](learners/feature-summary/adobeconnect-integration.md)
    * [Learner App for mobiles and tablets](learners/feature-summary/ipad-android-tablet-users.md)
    * [Social Learning in Learning Manager](learners/feature-summary/social-learning-web-user.md)
-   * [Adobe Learning Manager desktop application](learners/adobe-captivate-prime-app-for-desktop.md)
+   * [Adobe Learning Manager desktop application](learners/adobe-learning-manager-app-for-desktop.md)
    * [Learner home page](learners/feature-summary/learner-home-page.md)
    * [Share to Social Learning](learners/feature-summary/share-to-social.md)
-   * [System requirements | Adobe Learning Manager desktop application](learners/adobe-captivate-prime-app-for-desktop/adobe-captivate-prime-desktop-app-system-requirements.md)
+   * [System requirements | Adobe Learning Manager desktop application](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
 
 * Manager {#manager}
    * [User log in](managers/feature-summary/user-login.md)
@@ -129,7 +129,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Frequently Asked Questions for Instructors](instructors/frequently-asked-questions-for-instructors.md)
    * [Frequently Asked Questions for Managers](managers/frequently-asked-questions-for-managers.md)
 * Knowledge Base {#knowledge-base}
-   * [Unable to log in to Learning Manager](kb/unable-log-in-captivate-prime.md)
+   * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
    * [Unable to upload a CSV](kb/unable-to-upload-csv.md)
    * [Generate a HAR file](kb/generate-har-file.md)
@@ -141,7 +141,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Session expires in Learning Manager](kb/login-issue.md)
    * [Unable to search a course](kb/unable-to-search-course.md)
    * [Troubleshoot migration issues](kb/troubleshooting-migration.md)
-   * [Troubleshoot Learning Manager app issues](kb/troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md)
+   * [Troubleshoot Learning Manager app issues](kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md)
    * [Users get auto deleted in Learning Manager](kb/auto-delete.md)
    * [Publishing issues in the EU domain](kb/publish-issue-eu-domain.md)
    * [Unable to register as external user](kb/register-issue-external-user.md)

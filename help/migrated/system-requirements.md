@@ -331,4 +331,4 @@ Ensure that the following third-party domains are whitelisted if you are on any 
 
 ## Technical overview {#technicaloverview}
 
-[Captivate Prime technical overview](assets/captivate-prime-technicaloverview.pdf)
+[Captivate Prime technical overview](assets/learning-manager-technicaloverview.pdf)

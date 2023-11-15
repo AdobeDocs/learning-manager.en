@@ -21,7 +21,7 @@ These phases can be performed by three different roles, by one or more individua
 
 You can go through the infographic provided below to get an overview of the phases and corresponding tasks. 
 
-![](assets/captivate-prime-getting-started.jpg)
+![](assets/learning-manager-getting-started.jpg)
 
 At this stage, we assume that your organization has already received the license key and you have activated the Learning Manager account. As mentioned in the infographic, the three tracks are explained as follows:
 

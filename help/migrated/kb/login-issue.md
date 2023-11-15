@@ -30,7 +30,7 @@ Adobe Captivate Prime rejects these stale cookies resulting in an error.
 
 If a stale cookie gets rejected by Adobe Captivate Prime, try the below options:
 
-1. Clear the browser cookies and cache. For more information, see this [document](unable-log-in-captivate-prime.md).  
+1. Clear the browser cookies and cache. For more information, see this [document](unable-log-in-learning-manager.md).  
 
    Alternatively, the IDP Administrator can define a force logout after a particular set time. This step authenticates the user again to begin a new session.
 

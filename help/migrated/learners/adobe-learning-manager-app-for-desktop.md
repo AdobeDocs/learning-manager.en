@@ -16,7 +16,7 @@ Learners can create rich content including video, audio, and screenshots and sha
 
 On Captivate Prime Social Learning web page, click new Post and select record video, or record audio, or take a screenshot, or Captivate Prime gallery to launch the desktop application. For more information on Social Learning, [click here](feature-summary/social-learning-web-user.md).
 
-If users do not have the desktop application, you can download it from the Adobe Captivate Prime desktop page. If you are unable to download, [click here](../kb/troubleshooting-issues-with-adobe-captivate-prime-desktop-app.md).
+If users do not have the desktop application, you can download it from the Adobe Captivate Prime desktop page. If you are unable to download, [click here](../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
 
 Once the user has finished installing the application, he/she must sign into it using their Captivate Prime learner credentials. The home page appears like the below screenshot. 
 
@@ -56,7 +56,7 @@ Do the following to make a video recording and post it onto the social learning 
    When users start recording their screen or themselves, a pop-up dialog box appears asking them to confirm if they want to continue to record without an audio support. Click yes to continue.
 
 1. Use the record button to start recording. The recording begins after the countdown(3 seconds). 
-1. Click the pause or resume button to pause while recording and then resume if wanted. To edit the recording, see [Editing a recording](adobe-captivate-prime-app-for-desktop.md#Editing) and to publish see [Publishing a recording](adobe-captivate-prime-app-for-desktop.md#Publishing).
+1. Click the pause or resume button to pause while recording and then resume if wanted. To edit the recording, see [Editing a recording](adobe-learning-manager-app-for-desktop.md#Editing) and to publish see [Publishing a recording](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Creating an audio {#creatinganaudio}
 
@@ -70,7 +70,7 @@ To record an audio, do the following:
 1. Once users are done recording the audio, click the pause button to stop recording.
 1. To preview the recording, click the play button.
 1. If users want to record an additional audio to the same file, click **Resume**. Once the desired recording is met, click **Next** to save the file to a desired location. The recording is saved in the Adobe Captivate Prime app for desktop gallery where users can view their recordings and screenshots.
-1. To edit the recording, see [Editing a recording](adobe-captivate-prime-app-for-desktop.md#Editing) and to publish see [Publishing a recording](adobe-captivate-prime-app-for-desktop.md#Publishing).
+1. To edit the recording, see [Editing a recording](adobe-learning-manager-app-for-desktop.md#Editing) and to publish see [Publishing a recording](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Creating a screenshot {#creatingascreenshot}
 
@@ -82,7 +82,7 @@ To take a screenshot, do the following:
    ![](assets/capture-screenshot.png)
 
 1. To help other learners comprehend and retain the presentation or static  content better, add annotations to the content.  
-1. To edit  the screenshot, [click here](adobe-captivate-prime-app-for-desktop.md#Editing), and to publish a screenshot [click here](adobe-captivate-prime-app-for-desktop.md#Publishing).
+1. To edit  the screenshot, [click here](adobe-learning-manager-app-for-desktop.md#Editing), and to publish a screenshot [click here](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Editing a video, an audio, and screenshot {#editing}
 

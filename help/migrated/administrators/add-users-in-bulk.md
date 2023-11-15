@@ -42,4 +42,4 @@ Also, Administrators of an organization can add themselves as employees and ment
 **Sample CSV**
 
 Captivate Prime sample CSV is available below with all the fields.
-[Captivate-Prime-Sample-CSV.zip](assets/captivate-prime-sample-csv.zip)Refer to  [Using CSV upload](feature-summary/add-users-user-groups.md) feature help content for more information.
+[learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip)Refer to  [Using CSV upload](feature-summary/add-users-user-groups.md) feature help content for more information.
