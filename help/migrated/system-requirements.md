@@ -61,7 +61,7 @@ The immersive layout home page is not supported on IE 11 browsers.
 * **Android:** Version 9 and above.
 
 1. Mobile browser supports only learner role in **immersive layout**.
-1. Captivate Prime mobile app only supports the learner role.
+1. Learning Manager mobile app only supports the learner role.
 
 ## Supported browsers on Mobile {#supportedbrowsersonmobile}
 
@@ -70,7 +70,7 @@ The immersive layout home page is not supported on IE 11 browsers.
 
 ## Number of users {#numberofusers}
 
-Captivate Prime supports importing upto **one million** (1,000,000) users in the system.
+Learning Manager supports importing upto **one million** (1,000,000) users in the system.
 
 ## Maximum content size {#maximumcontentsize}
 
@@ -82,9 +82,9 @@ We recommend importing large size *user.csv* files using the automated Box/Exava
 
 ## Cookies {#supportedcontentformats}
 
-Captivate Prime uses cookies to provide seamless login and content consumption experience. Captivate Prime stores two cookies, APRIMEID and PRIMEC, which enable a user to be remembered on a particular device, and allows the user to resume any trainings from the point where they were left off, and other such experiential benefits.
+Learning Manager uses cookies to provide seamless login and content consumption experience. Learning Manager stores two cookies, APRIMEID and PRIMEC, which enable a user to be remembered on a particular device, and allows the user to resume any trainings from the point where they were left off, and other such experiential benefits.
 
-Captivate Prime requires these two cookies to authorize and authenticate every API call to ensure appropriate data access and seamless learning experience.
+Learning Manager requires these two cookies to authorize and authenticate every API call to ensure appropriate data access and seamless learning experience.
 
 ## Supported content formats
 
@@ -233,7 +233,7 @@ Captivate Prime requires these two cookies to authorize and authenticate every A
  </tbody>
 </table>
 
-## Captivate Prime Desktop App
+## Learning Manager Desktop App
 
 * **Supported OS:** Windows 7, 8, 10 (64-bit versions only), macOS X 10.12, 10.13, 10.14, 10.15
 * **Processor:** Intel&reg; CoreTM i5 or faster.
@@ -331,4 +331,4 @@ Ensure that the following third-party domains are whitelisted if you are on any 
 
 ## Technical overview {#technicaloverview}
 
-[Captivate Prime technical overview](assets/learning-manager-technicaloverview.pdf)
+[Learning Manager technical overview](assets/learning-manager-technicaloverview.pdf)

@@ -1,5 +1,5 @@
 ---
-description: Read this article to know how to view and consume courses in Captivate Prime. Participate in discussions and provide feedback.
+description: Read this article to know how to view and consume courses in Learning Manager. Participate in discussions and provide feedback.
 jcr-language: en_us
 title: Courses
 contentowner: manochan
@@ -8,9 +8,9 @@ contentowner: manochan
 
 # Courses
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Read this article to know how to view and consume courses in Captivate Prime. Participate in discussions and provide feedback.
+Read this article to know how to view and consume courses in Learning Manager. Participate in discussions and provide feedback.
 
 Authors create courses. Learners can take up the courses and Administrators can track the performance of learners based on course consumption.
 
@@ -20,7 +20,7 @@ Adobe Learning Manager enables learners to access the courses, learning programs
 
 >[!NOTE]
 >
->Learners can also install Captivate Prime iPad app from apple store and Captivate Prime Android app from Google Play and access courses on mobile devices. All the learners role features are also available in the app. Learners can also take courses offline and get a seamless access after going online. Refer to  [iPad & Android tablet users](ipad-android-tablet-users.md) feature for more information. 
+>Learners can also install Learning Manager iPad app from apple store and Learning Manager Android app from Google Play and access courses on mobile devices. All the learners role features are also available in the app. Learners can also take courses offline and get a seamless access after going online. Refer to  [iPad & Android tablet users](ipad-android-tablet-users.md) feature for more information. 
 
 ## Viewing courses {#viewingcourses}
 

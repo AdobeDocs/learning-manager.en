@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Certifications
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Learn how to create certifications, enroll learners, and edit published certifications.
 
@@ -146,7 +146,7 @@ Administrators can mark a Certification complete using the option available to t
 
 ## Mandatory courses for external certification {#mandatory}
 
-In earlier releases of Captivate Prime, course completion from learner in External certification was not mandatory to complete a Certificate.
+In earlier releases of Learning Manager, course completion from learner in External certification was not mandatory to complete a Certificate.
 
 You can now make courses mandatory by enabling the option **Set required courses as Mandatory for Certificate Completion** in the Curriculum tab while editing the cerification.
 

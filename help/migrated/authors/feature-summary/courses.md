@@ -1,5 +1,5 @@
 ---
-description: To learn how to create courses, certifications, and learning programs in Captivate Prime, read this article.
+description: To learn how to create courses, certifications, and learning programs in Learning Manager, read this article.
 jcr-language: en_us
 title: Creating, modify, and publish courses
 contentowner: manochan
@@ -8,13 +8,13 @@ contentowner: manochan
 
 # Creating, modify, and publish courses
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-To learn how to create courses, certifications, and learning programs in Captivate Prime, read this article.
+To learn how to create courses, certifications, and learning programs in Learning Manager, read this article.
 
 Authors can create learning objects such as courses, certifications, and learning plans. Learners can consume these learning objects, while administrators can track learners' progress.
 
-## Courses in Captivate Prime {#coursesincaptivateprime}
+## Courses in Learning Manager {#coursesincaptivateprime}
 
 Adobe Learning Manager enables authors to create courses using one or more modules related to virtual training, self-paced training, classroom training, and activities. Administrators can further use these courses to create course instances, enroll learners, assign badges, and enable feedback for these courses. They can also create learning programs, learning plans, and certifications using these courses.
 
@@ -99,19 +99,19 @@ Rich text is composed of HTML markup. Rendering the markup as-is would result in
 
 ### Default style
 
-The attached CSS stylesheet contains the styling that is applied by Captivate Prime. The styling is tweaked considering majority of the usecases. Download the attached CSS file and import it to your webapp according to your conventions and build system. The CSS classes defined are namespaced under ql-editor class and they don't interfere with your existing styles.
+The attached CSS stylesheet contains the styling that is applied by Learning Manager. The styling is tweaked considering majority of the usecases. Download the attached CSS file and import it to your webapp according to your conventions and build system. The CSS classes defined are namespaced under ql-editor class and they don't interfere with your existing styles.
 
 ### Customize styles
 
 The default styling may not meet everyone's needs. The customisations can be done by overiding CSS supplied. All the styling is wrapped under ql-editor as descendant selectors. The following classes are used:
 
-* Indenting:** li.ql-indent-$number**. $number varies from 1-9
-* size:** ql-size-small**, **ql-size-large**, **ql-size-huge**
+* Indenting: **li.ql-indent-$number**. $number varies from 1-9
+* size: **ql-size-small**, **ql-size-large**, **ql-size-huge**
 
-* alignment:** ql-align-center**, **ql-align-justify**, **ql-align-right**
+* alignment: **ql-align-center**, **ql-align-justify**, **ql-align-right**
 
-* color:** ql-color-$color**. $color = white, red, orange, yellow, green, blue, purple
-* background:** ql-bg-$color**. $color = black, red, orange, yellow, green, blue, purple
+* color: **ql-color-$color**. $color = white, red, orange, yellow, green, blue, purple
+* background: **ql-bg-$color**. $color = black, red, orange, yellow, green, blue, purple
 * html tags: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
 [CSS file to be used for customization.](assets/ql-headless.css)
@@ -248,7 +248,7 @@ To add a content module, perform the steps below:
    * If you select **Yes**, any learner can join the meeting.
    * If you select **No**, a request is sent to the organizer to allow or prevent the learner from joining the meeting.
 
-   **Note:** A learner must be available on Microsoft Teams. However, the learner can join Captivate Prime as a guest.
+   **Note:** A learner must be available on Microsoft Teams. However, the learner can join Learning Manager as a guest.
 
    **Classroom Module:** In this mode, learners attend in-person lectures, facilitated by a trained instructor. Enter the title, description, and set the duration of the session. You can also specify the location of the class and the instructors to conduct the session. To save the changes, click **Done**.
 
@@ -263,7 +263,7 @@ To add a content module, perform the steps below:
    * If you select Yes, any learner can join the meeting.
    * If you select No, a request is sent to the organizer to allow or prevent the learner from joining the meeting.
 
-   **Note:** If a learner wants to join Microsoft Teams as guest, he/she must enter the email. The email must be present in Captivate Prime.
+   **Note:** If a learner wants to join Microsoft Teams as guest, he/she must enter the email. The email must be present in Learning Manager.
 
    **Activity Module:** In this mode, learners must complete a set of activities, such as, workshops, exercises, questionnaire, and other learning activities. Enter the title, description, and the external url for reference. To save the changes, click **Done**.
 
@@ -406,7 +406,7 @@ The course is now available in the course catalog.
 
 ## View a course {#viewacourse}
 
-You can view a list of all available courses as an author. To view all the courses in Captivate Prime account, click Course Catalog. To view all your authored courses in Captivate Prime, click **My Courses**.
+You can view a list of all available courses as an author. To view all the courses in Learning Manager account, click Course Catalog. To view all your authored courses in Learning Manager, click **My Courses**.
 
 On the course card, hover on the options, and click **View Course**.
 
@@ -497,14 +497,14 @@ For more information see [Unenrolling learners](https://helpx.adobe.com/captivat
 
 ## Add course modules for Captivate and Presenter {#addcoursemodulesforcaptivateandpresenter}
 
-You can also publish the course modules to Captivate Prime from Adobe Captivate and Adobe Presenter software using the Publish menu.
+You can also publish the course modules to Learning Manager from Adobe Captivate and Adobe Presenter software using the Publish menu.
 
 1. In Captivate, click **Publish > Publish to Captivate Prime**.
 1. Provide the sub-domain name or email id and click **Submit**. If you have multiple accounts, you are prompted to choose the account.
 1. Log in with Adobe credentials. If you do not have an Adobe id, click **Create Account**. After authorization, you are directed to module publishing page.
 1. Provide all the basic information about the module and click Publish.
 
-You can see the published module on the Captivate Prime modules page. For more information, see [Publish project to Adobe Learning Manager](https://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html).
+You can see the published module on the Learning Manager modules page. For more information, see [Publish project to Adobe Learning Manager](https://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html).
 
 ## Course effectiveness {#courseeffectiveness}
 
@@ -532,7 +532,7 @@ To know how to create and manage certifications and learning programs, see  [Cer
 
 ## Mandatory courses for external certification {#mandatorycoursesforexternalcertification}
 
-In earlier releases of Captivate Prime, course completion from learner in External certification was not mandatory to complete a Certificate.
+In earlier releases of Learning Manager, course completion from learner in External certification was not mandatory to complete a Certificate.
 
 You can now make courses mandatory by enabling the option **Set required courses as Mandatory for Certificate Completion** in the Curriculum tab.
 
@@ -549,7 +549,7 @@ When courses are set as mandatory:
 
 Perform the following steps:
 
-1. Log into Captivate Prime as an Author.
+1. Log into Learning Manager as an Author.
 1. Open the course.
 1. On the left pane, click **Settings > Edit**.
 1. On the **Enrollment Type** drop-down list, change the enrollment type from **Manager Nominated** to **Manager Approved** or **Self Enrolled**.
@@ -562,7 +562,7 @@ Perform the following steps:
 
 You can combine courses via a Learning Program.
 
-1. Log in to Captivate Prime as an Administrator.
+1. Log in to Learning Manager as an Administrator.
 1. On the left pane, click **Learning Programs**.
 1. To add a Learning Program, click **Add**.
 1. Enter the details of the Learning Program and to save the Learning Program, click **Save**.
@@ -573,7 +573,7 @@ You can combine courses via a Learning Program.
 
 Once you have added all the courses required in the Learning Program, click **Publish**.
 
-In a Learning program, you can only add self-enrolled courses and not Manager Nominated or Manager Approved courses. This is a default behavior in Captivate Prime.
+In a Learning program, you can only add self-enrolled courses and not Manager Nominated or Manager Approved courses. This is a default behavior in Learning Manager.
 
 +++
 
@@ -583,7 +583,7 @@ You can achieve this via catalogs.. A default catalog contains all courses added
 
 You must disable the default catalog and create custom catalogs.
 
-1. Log in to Captivate Prime as an Administrator.
+1. Log in to Learning Manager as an Administrator.
 1. On the left pane, click **Catalogs**.
 1. Create a Catalog by clicking **Create**. Enter the details and click **Save**.
 

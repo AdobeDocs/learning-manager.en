@@ -1,5 +1,5 @@
 ---
-description: Color themes and Branding in Captivate Prime
+description: Color themes and Branding in Learning Manager
 jcr-language: en_us
 title: Color themes
 contentowner: jayakarr
@@ -8,9 +8,9 @@ contentowner: jayakarr
 
 # Color themes
 
-Color themes and Branding in Captivate Prime
+Color themes and Branding in Learning Manager
 
-Captivate Prime enables you to change the appearance of the application to match your organization's branding requirements. 
+Learning Manager enables you to change the appearance of the application to match your organization's branding requirements. 
 
 ## Branding {#branding}
 
@@ -18,7 +18,7 @@ Click **Branding** on the left pane to update your organization name, change the
 
 ## Logo styling {#logostyling}
 
-Click **Edit** to set the appearance of your logo and company name on Captivate Prime application. 
+Click **Edit** to set the appearance of your logo and company name on Learning Manager application. 
 
 Click **Upload new logo** and choose the logo from your computer to upload. You can preview the appearance of the logo and your organization name below. Choose the header style of your choice and click **Save**. 
 
@@ -32,7 +32,7 @@ Click the **Show hints** below this section to display the hints on the image as
 
 ![](assets/themes-preview-images.png)
 
-Captivate Prime application provides five color theme options to its users: 
+Learning Manager application provides five color theme options to its users: 
 
 * Prime Default
 * Pebbles
@@ -65,7 +65,7 @@ While you are previewing the changes Live, the Live theme preview pop-up still a
 
 Adobe Learning Manager allows you to customize your account to provide enhanced user experience.
 
-The list below displays the components that can be customized. To customize the account, contact Captivate Prime  [support](mailto:captivateprimesupport@adobe.com).
+The list below displays the components that can be customized. To customize the account, contact Learning Manager  [support](mailto:captivateprimesupport@adobe.com).
 
 <table>
  <tbody>
@@ -93,7 +93,7 @@ The list below displays the components that can be customized. To customize the 
    <td>
     <p>The custom image appears when a user hovers upon any Learning Object. </p>
     <ul>
-     <li>Custom image applied will be shown once a user mouse overs on the Captivate Prime web page.<br></li>
+     <li>Custom image applied will be shown once a user mouse overs on the Learning Manager web page.<br></li>
      <li>Recommended size - 16x16 or 24x24 px</li>
      <li>Recommended image format - PNG, JPG</li>
     </ul></td>

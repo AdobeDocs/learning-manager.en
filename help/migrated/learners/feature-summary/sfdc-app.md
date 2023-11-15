@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: Captivate Prime app for Salesforce
+title: Learning Manager app for Salesforce
 description: Salesforce&trade; is the most popular CRM solution among sales and marketing teams. Using Adobe Learning Manager app in Salesforce, learners can access all of their learning content from within their Salesforce interface. Learners can access their assigned learning content such as courses, learning programs, and job aids from within the Salesforce. Users can also receive notifications about their enrollments and announcements from the Administrator.
 contentowner: jayakarr
 ---
 
 
-# Captivate Prime app for Salesforce
+# Learning Manager app for Salesforce
 
 ## Overview {#overview}
 
 Salesforce&trade; is the most popular CRM solution among sales and marketing teams. Using Adobe Learning Manager app in Salesforce, learners can access all of their learning content from within their Salesforce interface. Learners can access their assigned learning content such as courses, learning programs, and job aids from within the Salesforce. Users can also receive notifications about their enrollments and announcements from the Administrator.
 
-This app will be available to you in Salesforce only when the Admin of your Prime account has completed the setup activities required. For more details, see [Captivate Prime App for Salesforce](../../integration-admin/feature-summary/sfdc-app.md), and request your Admin to install the Prime App for Salesforce.
+This app will be available to you in Salesforce only when the Admin of your Prime account has completed the setup activities required. For more details, see [Learning Manager App for Salesforce](../../integration-admin/feature-summary/sfdc-app.md), and request your Admin to install the Prime App for Salesforce.
 
 ## Locate app in Salesforce {#locateappinsalesforce}
 
@@ -26,11 +26,11 @@ Once you select the app, you can switch over to Adobe Learning Manager app as sh
 
 ## Login and usage instructions {#loginandusageinstructions}
 
-Click **Connect to Prime** in the Adobe Learning Manager as shown in the above snapshot, and log in with your Captivate Prime account credentials. 
+Click **Connect to Prime** in the Adobe Learning Manager as shown in the above snapshot, and log in with your Learning Manager account credentials. 
 
-You can connect to Captivate Prime app and use it from within the Salesforce. 
+You can connect to Learning Manager app and use it from within the Salesforce. 
 
-Alternatively, you can also log in to Captivate Prime account within Salesforce using the Adobe Learning Manager Notifications component in the Home Page at the left pane. Learners can see this component only when the Administrator configures the Adobe Learning Manager Notifications component in Salesforce. 
+Alternatively, you can also log in to Learning Manager account within Salesforce using the Adobe Learning Manager Notifications component in the Home Page at the left pane. Learners can see this component only when the Administrator configures the Adobe Learning Manager Notifications component in Salesforce. 
 
 A representative snapshot of Learner view of the Adobe Learning Manager app is shown below for your reference. 
 

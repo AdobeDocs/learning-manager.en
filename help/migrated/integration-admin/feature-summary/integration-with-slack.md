@@ -1,22 +1,22 @@
 ---
 jcr-language: en_us
-title: Captivate Prime integration with Slack
-description: Captivate Prime integration with Slack
+title: Learning Manager integration with Slack
+description: Learning Manager integration with Slack
 contentowner: dvenkate
 ---
 
 
-# Captivate Prime integration with Slack
+# Learning Manager integration with Slack
 
 We have **removed** **Slack** as a connector in Learning Manager. You will no longer have access to Slack connector.
 
-As a Slack user, you can install the Adobe Learning Manager app from the Slack App Directory into your Slack teams, and explore Captivate Prime content from right within Slack. You can interact with Primebot to search for new courses, view recommendations and get notified of upcoming deadlines in Captivate Prime. You can also enroll and jump straight to your learning from within Slack. 
+As a Slack user, you can install the Adobe Learning Manager app from the Slack App Directory into your Slack teams, and explore Learning Manager content from right within Slack. You can interact with Primebot to search for new courses, view recommendations and get notified of upcoming deadlines in Learning Manager. You can also enroll and jump straight to your learning from within Slack. 
 
-Captivate Prime app for Slack is not supported in an Azure instance of Captivate Prime.
+Learning Manager app for Slack is not supported in an Azure instance of Learning Manager.
 
 ## Installing Adobe Learning Manager app {#installingadobecaptivateprimeapp}
 
-As a Learner, you can install the CP Prime app in your Slack Account. To install the app, in your Slack account open the App directory and search for Captivate Prime. Download and install the App. If the app is not approved in your account, reach out to your Integration Admin for approval. If it is already approved, you will be able to sign in.
+As a Learner, you can install the CP Prime app in your Slack Account. To install the app, in your Slack account open the App directory and search for Learning Manager. Download and install the App. If the app is not approved in your account, reach out to your Integration Admin for approval. If it is already approved, you will be able to sign in.
 
 ## Approving Learner sign in as an Integration Admin {#approvinglearnersigninasanintegrationadmin}
 

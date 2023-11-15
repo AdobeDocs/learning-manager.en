@@ -1,5 +1,5 @@
 ---
-description: Reference manual for Integration Administrators who want to migrate an existing LMS to Captivate Prime LMS
+description: Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
 jcr-language: en_us
 title: Migration manual
 ---
@@ -7,9 +7,9 @@ title: Migration manual
 
 # Migration manual
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Reference manual for Integration Administrators who want to migrate an existing LMS to Captivate Prime LMS
+Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
 
 ## Overview {#overview}
 
@@ -18,18 +18,18 @@ Reference manual for Integration Administrators who want to migrate an existing 
   <tr>
    <td><img src="assets/migration.jpg"></td>
    <td>
-    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> is a cloud-hosted, learner-centric, and self-service learning management solution. Adobe enables enterprises with the existing Learning Management Systems (LMS) to migrate their organization's training data and training content to the Captivate Prime LMS application. </p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> is a cloud-hosted, learner-centric, and self-service learning management solution. Adobe enables enterprises with the existing Learning Management Systems (LMS) to migrate their organization's training data and training content to the Learning Manager LMS application. </p></td>
   </tr>
  </tbody>
 </table>
 
 ### Usage scenario {#usagescenario}
 
-In general, large enterprises have their in-house LMS or any vendor provided legacy Learning Management Systems. LMS consists of your enterprise training content and training data. As an enterprise when you purchase the Captivate Prime, you may want to move your existing LMS content and data to Captivate Prime so you can leverage the benefits of modern and intuitive LMS without losing any of your organization's legacy data.
+In general, large enterprises have their in-house LMS or any vendor provided legacy Learning Management Systems. LMS consists of your enterprise training content and training data. As an enterprise when you purchase the Learning Manager, you may want to move your existing LMS content and data to Learning Manager so you can leverage the benefits of modern and intuitive LMS without losing any of your organization's legacy data.
 
-Captivate Prime provides the necessary tools and specifications so that your organization's integration Administrator can set up and perform the migration tasks. 
+Learning Manager provides the necessary tools and specifications so that your organization's integration Administrator can set up and perform the migration tasks. 
 
-As of today, the Migration feature in Captivate Prime can be accessed by an organization's Administrators by contacting Adobe support team. To enable Migration feature in your account, you can reach out to the Adobe Learning Manager support team.
+As of today, the Migration feature in Learning Manager can be accessed by an organization's Administrators by contacting Adobe support team. To enable Migration feature in your account, you can reach out to the Adobe Learning Manager support team.
 
 ## Migration process {#apidescription}
 
@@ -37,28 +37,28 @@ Pre-requisites for migration, key steps involved in migration process, migration
 
 ### Pre-requisites {#prerequisites}
 
-Captivate Prime team expects that the following tasks are performed by your organization's Integration Administrators before undertaking the migration process:
+Learning Manager team expects that the following tasks are performed by your organization's Integration Administrators before undertaking the migration process:
 
-* The Integration Administrator extracts data and content from the incumbent LMS, and transforms the data to the file formats as defined by Captivate Prime. 
-* Captivate Prime does not support importing of users as part of migration process and expects the organization to import users using connectors. Adobe Systems expect that these connectors are configured prior to the migration process. Refer to [Captivate Prime connectors Help](connectors.md) for more information. 
+* The Integration Administrator extracts data and content from the incumbent LMS, and transforms the data to the file formats as defined by Learning Manager. 
+* Learning Manager does not support importing of users as part of migration process and expects the organization to import users using connectors. Adobe Systems expect that these connectors are configured prior to the migration process. Refer to [Learning Manager connectors Help](connectors.md) for more information. 
 
-Captivate Prime recommends that Administrators can try out the migration process in a trial account before migrating the data and content into the Captivate Prime production environment. 
+Learning Manager recommends that Administrators can try out the migration process in a trial account before migrating the data and content into the Learning Manager production environment. 
 
 ### Key steps of migration process {#keystepsofmigrationprocess}
 
-The key steps involved in migrating content and data from an existing LMS to Captivate Prime are as follows: 
+The key steps involved in migrating content and data from an existing LMS to Learning Manager are as follows: 
 
 1. The Integration Administrator or partner evaluates the existing LMS data and content that needs to be migrated.
-1. Integration Administrator evaluates the tools and specifications that Captivate Prime provides for ingesting data and content. 
+1. Integration Administrator evaluates the tools and specifications that Learning Manager provides for ingesting data and content. 
 1. Integration Administrator writes code or undertakes manual work to export the training data and content from the older LMS based on the functionality provided by the older LMS. 
-1. Once the training data and content is available, the Integration Administrator analyzes and maps the data and content to match the Captivate Prime migration specifications. 
-1. Integration Administrator uses the tools provided by Captivate Prime to migrate in the following order: 
+1. Once the training data and content is available, the Integration Administrator analyzes and maps the data and content to match the Learning Manager migration specifications. 
+1. Integration Administrator uses the tools provided by Learning Manager to migrate in the following order: 
 
-   1. Transfer the learners over to Captivate Prime
+   1. Transfer the learners over to Learning Manager
    1. Transfer training content into Prime and 
-   1. Finally, transfer training Data into Captivate Prime.
+   1. Finally, transfer training Data into Learning Manager.
 
-The organization can start using Captivate Prime LMS along with the legacy content. 
+The organization can start using Learning Manager LMS along with the legacy content. 
 
 ### Scope of migration objects {#scopeofmigrationobjects}
 
@@ -94,15 +94,15 @@ You can migrate content only for the following learning objects:
 
 ### Key concepts of migration {#keyconceptsofmigration}
 
-Some of the key concepts of Captivate Prime migration process are explained briefly for your quick reference, as follows: 
+Some of the key concepts of Learning Manager migration process are explained briefly for your quick reference, as follows: 
 
 **Migration project**
 
-In Captivate Prime, a migration project consists of one or more sprints. You can also have multiple migration projects for your account. Your migration process in Captivate Prime starts with creating a migration project. 
+In Learning Manager, a migration project consists of one or more sprints. You can also have multiple migration projects for your account. Your migration process in Learning Manager starts with creating a migration project. 
 
 **Sprint**
 
-A Sprint, in Captivate Prime migration process, defines a set of migration items that you have chosen to migrate from the existing LMS. A migration item can be a course module, learner records, or a set of courses. You can have multiple learning data items in a sprint. You can execute migration jobs in each sprint. 
+A Sprint, in Learning Manager migration process, defines a set of migration items that you have chosen to migrate from the existing LMS. A migration item can be a course module, learner records, or a set of courses. You can have multiple learning data items in a sprint. You can execute migration jobs in each sprint. 
 
 **Sprint Runs**
 
@@ -114,15 +114,15 @@ You can re-execute a migration sprint after its completion at any point in time.
 
 **CSV specification**
 
-Captivate Prime provides you a set of [standard CSV specifications](migration-manual.md#main-pars_header_140933605). Best practice is to go through these CSV specifications before starting with the migration process. Integration Administrator of your organization can analyze the existing data formats and map them to match with the Captivate Prime provided CSV template items.  
+Learning Manager provides you a set of [standard CSV specifications](migration-manual.md#main-pars_header_140933605). Best practice is to go through these CSV specifications before starting with the migration process. Integration Administrator of your organization can analyze the existing data formats and map them to match with the Learning Manager provided CSV template items.  
 
 **Migration project tags**
 
-Adobe Systems recommends that you use a set of keywords as tags to identify your migration projects easily within the Captivate Prime application. These tags enable you to identify your projects internally in the Captivate Prime application at any given point in time. 
+Adobe Systems recommends that you use a set of keywords as tags to identify your migration projects easily within the Learning Manager application. These tags enable you to identify your projects internally in the Learning Manager application at any given point in time. 
 
 **Contentless module**
 
-Captivate Prime allows you to upload a module without content. Adobe Systems considers it as a contentless module in Captivate Prime. In a scenario where you want to migrate some of the legacy data from your existing LMS without the need for any content, you can upload the module_version.csv file without URL reference. 
+Learning Manager allows you to upload a module without content. Adobe Systems considers it as a contentless module in Learning Manager. In a scenario where you want to migrate some of the legacy data from your existing LMS without the need for any content, you can upload the module_version.csv file without URL reference. 
 
 ## CSV specifications and sample CSVs {#csv}
 
@@ -378,12 +378,12 @@ Find below, the standard CSV specifications that you can use to map with your ex
     <p><br>
       Metadata for user_course_grade.csv</p></td>
    <td>
-    <p>Provide the required learner records data in the .csv file even though they are not mandatory. Without this info, even if the .csv is processed for migration, the Captivate Prime application may not reflect any data. sample-csvs.zip file contains seven .csv files with the similar naming convention as above.</p></td>
+    <p>Provide the required learner records data in the .csv file even though they are not mandatory. Without this info, even if the .csv is processed for migration, the Learning Manager application may not reflect any data. sample-csvs.zip file contains seven .csv files with the similar naming convention as above.</p></td>
   </tr>
  </tbody>
 </table>
 
-Captivate Prime supports date and time values in UTF 8 and 32 bit format only. You may get errors during migration if you mention date in CSV files with an out of range date as 2038-07-17T08:53:21.000Z or 1980-04-17T08:13:25.322Z. 
+Learning Manager supports date and time values in UTF 8 and 32 bit format only. You may get errors during migration if you mention date in CSV files with an out of range date as 2038-07-17T08:53:21.000Z or 1980-04-17T08:13:25.322Z. 
 [sample-csvs.zip](assets/sample-csvs.zip) [csv_specifications.zip](assets/csv-specifications.zip)You need to be aware of the following dependencies on CSV files during import:
 
 * module_version.csv is dependent on module.csv
@@ -408,8 +408,8 @@ Captivate Prime supports date and time values in UTF 8 and 32 bit format only. Y
 Before you start with the migration procedure, it is important to note the following points: 
 
 * Only one migration project can be active in an account at any given point in time. Within a project, only one sprint can be active at any given point in time.
-* You cannot undo a Run that is already in migration process. However, you can use the existing delete option within each feature of Captivate Prime to undo any data or content migration. 
-* As soon as the migration project starts, it moves into a state of 'Under Migration'. During migration, no other role other than integration administrator role can log in to Captivate Prime. 
+* You cannot undo a Run that is already in migration process. However, you can use the existing delete option within each feature of Learning Manager to undo any data or content migration. 
+* As soon as the migration project starts, it moves into a state of 'Under Migration'. During migration, no other role other than integration administrator role can log in to Learning Manager. 
 
 ### Creating FTP and Box accounts {#creatingftpandboxaccounts}
 
@@ -431,13 +431,13 @@ You would receive an email from Box with a link to the shared folder. If you do 
 
 **Uploading data (.csv files) to FTP folders or Box folders**
 
-Creating an FTP or Box account is a pre-requisite before you create a migration project. So, at this stage you can create a Migration Project and Sprint in Captivate Prime application.  Refer to **Data and content migration procedure** section in this page to create migration project. 
+Creating an FTP or Box account is a pre-requisite before you create a migration project. So, at this stage you can create a Migration Project and Sprint in Learning Manager application.  Refer to **Data and content migration procedure** section in this page to create migration project. 
 
 In FTP or Box account, click your project folder name and click the Sprint name. Inside the sprint folder, you can upload the .csv data files you intend to migrate. To upload, click Upload Files button at the top in Exavault FTP or Box server and drop the .csv files. A sample snapshot after uploading into ExaVault, is shown below for your reference. 
 
 ![](assets/exavault-upload.png)
 
-You can come back to Captivate Prime migration project, click **Refresh **and view all the .csv data types being listed in your migration Sprint.
+You can come back to Learning Manager migration project, click **Refresh **and view all the .csv data types being listed in your migration Sprint.
 
 **Upload training content to Content folders**
 
@@ -451,17 +451,17 @@ A sample snapshot of Box account after uploading content to it is shown below fo
 
 After the files are uploaded to your Box account, ensure that you mention the relative path of this Box content file in module_version.csv file. This is a mandatory step for you to indicate the path of the module content. 
 
-Once you log in to the FTP and Box servers and upload the content, the CSV locations appear as shown in the snapshot below in Captivate Prime. 
+Once you log in to the FTP and Box servers and upload the content, the CSV locations appear as shown in the snapshot below in Learning Manager. 
 
 ![](assets/after-setup.jpg)
 
 ## Data and content migration procedure {#dataandcontentmigrationprocedure}
 
-The procedure to migrate your enterprise LMS data and content to Captivate Prime is explained as follows: 
+The procedure to migrate your enterprise LMS data and content to Learning Manager is explained as follows: 
 
 Go through the pre-requisites of migration process before you start with the migration. Refer to [CSV specifications and sample CSVs](migration-manual.md#main-pars_header_140933605) section in this page and prepare the CSVs for data and content migration. 
 
-1. Log in to Captivate Prime application as an Integration Administrator and click **Migration** at the left pane. 
+1. Log in to Learning Manager application as an Integration Administrator and click **Migration** at the left pane. 
 
    Migration Projects home page appears. If your organization has created migration projects already, you can view the list of all migration projects in this page. 
 
@@ -479,11 +479,11 @@ Go through the pre-requisites of migration process before you start with the mig
 
    ![](assets/users-modified-sprint.png)
 
-   Select the checkbox with title **Users have been added or modified since the last run**, to synchronize the list of users with the Captivate Prime application. If you are migrating the content and data into Captivate Prime application, this may not be required. But, if there is a time lapse between your earlier sprint migration to the latest sprint migration, then best practice is that you choose to synchronize the list of users. This step enables the Captivate Prime database to be in sync with your LMS users. 
+   Select the checkbox with title **Users have been added or modified since the last run**, to synchronize the list of users with the Learning Manager application. If you are migrating the content and data into Learning Manager application, this may not be required. But, if there is a time lapse between your earlier sprint migration to the latest sprint migration, then best practice is that you choose to synchronize the list of users. This step enables the Learning Manager database to be in sync with your LMS users. 
 
-   This Synchronization step is recommended when enrollment.csv and user_course_grade.csv are migrated. This step enables the Captivate Prime database to be in sync with your Migration database and ensures that all users whose records to be migrated in the Sprint are available in Migration database.
+   This Synchronization step is recommended when enrollment.csv and user_course_grade.csv are migrated. This step enables the Learning Manager database to be in sync with your Migration database and ensures that all users whose records to be migrated in the Sprint are available in Migration database.
 
-1. You can start the Sprint migration with your uploaded data and content. Click **Refresh** link before starting the Sprint Run to sync up the FTP and Content folders with Captivate Prime application. 
+1. You can start the Sprint migration with your uploaded data and content. Click **Refresh** link before starting the Sprint Run to sync up the FTP and Content folders with Learning Manager application. 
 
    ![](assets/sprint1-filesupload.png)
 
@@ -507,11 +507,11 @@ Go through the pre-requisites of migration process before you start with the mig
 
 ## Migration verification {#registration}
 
-After migrating the learning data and content from your organization's legacy LMS, you can verify the imported data and content using various learning object features. For example, you can log in to Captivate Prime application as Administrator and verify the availability of imported modules and courses data and content. 
+After migrating the learning data and content from your organization's legacy LMS, you can verify the imported data and content using various learning object features. For example, you can log in to Learning Manager application as Administrator and verify the availability of imported modules and courses data and content. 
 
 ## Retrofitting in migration {#retrofittinginmigration}
 
-This integration feature allows you to retrofit historical data for a learning object from a legacy learning management system to an active course that is created in Captivate Prime.
+This integration feature allows you to retrofit historical data for a learning object from a legacy learning management system to an active course that is created in Learning Manager.
 
 Find below, the standard CSV specifications that you can use to map with your existing LMS migration data. Click csv-specifications and sample-csvs to download zip files. The downloaded csv-specifications.zip contains four Excel sheet files. These excel sheet files are specifications with descriptions to make you understand how to fill up the .csv files. The corresponding .csv files should contain the data for each field in the prescribed format as explained in these .xlsx files.
 
@@ -526,20 +526,20 @@ Find below, the standard CSV specifications that you can use to map with your ex
 
 ## Troubleshooting migration issues {#troubleshootingmigrationissues}
 
-[Click here](../../kb/troubleshooting-migration.md) to learn about the workaround/solution to the problems faced by Integration Administrators while migrating data and content from their existing LMS to Captivate Prime application.
+[Click here](../../kb/troubleshooting-migration.md) to learn about the workaround/solution to the problems faced by Integration Administrators while migrating data and content from their existing LMS to Learning Manager application.
 
 ## Tips for User Management {#usermanagement}
 
-In this topic, you can find some of the tips for you to understand how users are considered and managed in Captivate Prime. These concepts would aid you to manage the users better while using CSV import, Connectors and migration features of Captivate Prime. 
+In this topic, you can find some of the tips for you to understand how users are considered and managed in Learning Manager. These concepts would aid you to manage the users better while using CSV import, Connectors and migration features of Learning Manager. 
 
-## Captivate Prime Ids {#captivateprimeids}
+## Learning Manager Ids {#captivateprimeids}
 
-Captivate Prime provides two types of unique Ids for users:
+Learning Manager provides two types of unique Ids for users:
 
 * Email id 
 * UUID (Universally Unique Id)
 
-Captivate Prime supports UUID to provide flexibility to organizations in controlling user accounts. As an Administrator, if you have UUID of users in an account, you can modify the email ids of users for that account.  
+Learning Manager supports UUID to provide flexibility to organizations in controlling user accounts. As an Administrator, if you have UUID of users in an account, you can modify the email ids of users for that account.  
 
 **Usage scenario of UUID in an organization**
 
@@ -549,14 +549,14 @@ Having UUID access to user account will benefit the company Prime in the above m
 
 ## Single user identification {#singleuseridentification}
 
-Captivate Prime identifies and remembers how a single user is added to it, say, using self registration, using CSV upload, or a single user added using the user interface or by means of API. 
+Learning Manager identifies and remembers how a single user is added to it, say, using self registration, using CSV upload, or a single user added using the user interface or by means of API. 
 
 * If a single user is added using User interface (UI) or through API, you can delete such type of single users using UI or through API. 
 * You can update single users using CSV upload process but you need to remember that these single users are treated as the CSV users and the CSV workflows are applicable to such users. 
 
 ## Assigning Manager role {#assigningmanagerrole}
 
-You cannot assign a Manager role directly to any user in Captivate Prime. A user X can become a Captivate Prime Manager only when you set a Manager attribute of any user (say, Y) in that account as X. 
+You cannot assign a Manager role directly to any user in Learning Manager. A user X can become a Learning Manager Manager only when you set a Manager attribute of any user (say, Y) in that account as X. 
 
 In a scenario where X is the Manager of users, say, A, B and C, if X leaves the organization then you need to ensure that the Manager attribute of A, B, and C are set to the new Manager. Alternatively, you can also set the Manager attribute of these users as ROOT temporarily and assign with the new Manager name later. 
 

@@ -1,12 +1,12 @@
 ---
 title: Welcome to the Adobe Learning Manager User Guide
-description: Learn the latest offering in Adobe Learning Manager. Start at the beginning, visit each section individually, or connect with the Community to work your way through a project.
+description: Learn the latest offering in Adobe Learning Manager (previously Adobe Captivate Prime). Start at the beginning, visit each section individually, or connect with the Community to work your way through a project.
 contentowner: dhv
 ---
 
 # Welcome to the Adobe Learning Manager User Guide
 
-Read on to know what is the latest offering in Adobe Learning Manager. Start at the beginning, visit each section individually, or connect with the Community to work your way through a project. 
+Read on to know what is the latest offering in Adobe Learning Manager (previously Adobe Captivate Prime). Start at the beginning, visit each section individually, or connect with the Community to work your way through a project. 
 
 ## Join the conversation {#jointheconversation}
 

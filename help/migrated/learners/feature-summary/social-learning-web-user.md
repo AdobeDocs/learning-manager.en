@@ -1,20 +1,20 @@
 ---
 description: Learn how to use Social Learning web as a learner
 jcr-language: en_us
-title: Social Learning in Captivate Prime
+title: Social Learning in Learning Manager
 contentowner: kuppan
 ---
 
 
-# Social Learning in Captivate Prime
+# Social Learning in Learning Manager
 
 Learn how to use Social Learning web as a learner
 
-Social learning is a platform in Captivate Prime which engages users to share ideas and meaningful insights in an informal environment. It is a methodology which supplements the idea of traditional learning. Completing an online course does not give an advantage to users to interact with their peers at a social level.
+Social learning is a platform in Learning Manager which engages users to share ideas and meaningful insights in an informal environment. It is a methodology which supplements the idea of traditional learning. Completing an online course does not give an advantage to users to interact with their peers at a social level.
 
 By simply attending a training, does not guarantee that users retain everything that is taught. On the other hand, social learning allows users to use the expertise around them to get exactly the information they need. In turn users can quickly apply that information to complete a task, and achieve a goal.
 
-Similarly, Captivate Prime Social Learning feature allows users to be able to interact with one another by being able to share and learn from content.  
+Similarly, Learning Manager Social Learning feature allows users to be able to interact with one another by being able to share and learn from content.  
 
 On this platform, the different type of content that can be shared are video, audio, screenshot, text, question, and poll. Users can also share their online learnings with their peers by using the **Share to Social bookmarklet**. For more information, see  [Share to Social Learning](share-to-social.md).
 
@@ -106,7 +106,7 @@ Only if the administrator enables Social Learning, the feature is visible to a l
    <td>
     <p>Share to social</p></td>
    <td>
-    <p>Share to Social is a bookmarklet that allows users to share their online learnings like web pages and blogs directly to Captivate Prime Social Learning.</p></td>
+    <p>Share to Social is a bookmarklet that allows users to share their online learnings like web pages and blogs directly to Learning Manager Social Learning.</p></td>
   </tr>
   <tr>
    <td>
@@ -181,13 +181,13 @@ In addition, when creating a board, you have access to the same set of options i
 
 Once a post is approved, it is displayed in a Social Learning board. Users can now, comment, reply, upvote/downvote on the post.
 
-Users can use the following type of content to make a comment: Record Screen, webcam, or both, Record Audio, Take Screenshot, Upload File, Captivate Prime Gallery. 
+Users can use the following type of content to make a comment: Record Screen, webcam, or both, Record Audio, Take Screenshot, Upload File, Learning Manager Gallery. 
 
 ![](assets/comment-options-21.png)
 
 ## Content in Social player {#contentinsocialplayer}
 
-In Captivate Prime, videos, static content like presentations and images are posted inside Social player in a board. You can uploading a file from your system, recording a video/screen, and capture a screenshot with the assistance of Adobe Learning Manager desktop application.
+In Learning Manager, videos, static content like presentations and images are posted inside Social player in a board. You can uploading a file from your system, recording a video/screen, and capture a screenshot with the assistance of Adobe Learning Manager desktop application.
 
 Once the user has finished posting some content, it can be viewed by other learners in their activity scope. On Social player learners can view, comment/reply, upvote/downvote, and report abuse. 
 
@@ -533,7 +533,7 @@ The number of activity points given to users are based on Social activities perf
 
 ## How to become a Subject Matter Expert (SME) {#howtobecomeasubjectmatterexpertsme}
 
-A subject matter expert (SME) is a person with the expertise in a particular skill. In Captivate Prime Social Learning, users are designated as SME's based on the maximum number of activity points awarded to them for a skill.
+A subject matter expert (SME) is a person with the expertise in a particular skill. In Learning Manager Social Learning, users are designated as SME's based on the maximum number of activity points awarded to them for a skill.
 
 Top SMEs have the privilege to curate learner's content before it gets posted in a board in Social Learning.
 
@@ -562,7 +562,7 @@ Every page in Social Learning has the search field which allows users to look fo
 
 The following pages in informal learning have a search field: **My boards**, **All boards**, **Boards page**, user's **Profile page**, and **other learner's profile page**.
 
-When a user search's for content in the Informal Learning , the total number of search results for the content in the informal and formal learning of Captivate Prime is displayed.
+When a user search's for content in the Informal Learning , the total number of search results for the content in the informal and formal learning of Learning Manager is displayed.
 
 Similarly, the number of search results found in informal learning is displayed while searching content in a Formal Learning page.
 

@@ -65,7 +65,7 @@ As an instructor, you can easily mark the attendance for all your learners by ex
 
 After the attendee list is confirmed for your session, you can export the list as a PDF. This easy-to-print pdf displays the learners as a table. You can then mark the attendance or provide scores, and make or provide notes for the learner, all in the same PDF. 
 
-Notice a QR code at the top right corner of this PDF. This functionality allows individual learners to scan the code using the Captivate Prime mobile app for learners to mark their attendance. 
+Notice a QR code at the top right corner of this PDF. This functionality allows individual learners to scan the code using the Learning Manager mobile app for learners to mark their attendance. 
 
 ![](assets/exportpdf.png)
 

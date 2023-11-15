@@ -1,5 +1,5 @@
 ---
-description: Catalogs in Captivate Prime consists of the courses, learning programs and certifications for learner role in Captivate Prime account. 
+description: Catalogs in Learning Manager consists of the courses, learning programs and certifications for learner role in Learning Manager account. 
 jcr-language: en_us
 title: Catalogs
 contentowner: manochan
@@ -8,19 +8,19 @@ contentowner: manochan
 
 # Catalogs
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Catalogs in Captivate Prime consists of the courses, learning programs and certifications for learner role in Captivate Prime account.
+Catalogs in Learning Manager consists of the courses, learning programs and certifications for learner role in Learning Manager account.
 
 ## Catalogs {#Catalogs-1}
 
-All the courses available in Captivate Prime are available in the courses section. The same is applicable to Learning Program , Certificate, and so on.
+All the courses available in Learning Manager are available in the courses section. The same is applicable to Learning Program , Certificate, and so on.
 
 To view only the courses, which an author has created, navigate to the section **My Courses**.
 
 As an author, you can view course catalog which is a collection of all the courses in the account. 
 
-After you log in as an Author, click **Course Catalog** at the left pane to view the list of all the courses available in Captivate Prime for your organization.
+After you log in as an Author, click **Course Catalog** at the left pane to view the list of all the courses available in Learning Manager for your organization.
 
 Use the filter options as shown in the snapshot below to locate the courses in the catalog.
 

@@ -7,11 +7,11 @@ title: Email templates
 
 # Email templates
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Read this article to know how to configure email templates for events related to all the learning objects.
 
-Captivate Prime application sends email notifications to multiple roles of users based on events.
+Learning Manager application sends email notifications to multiple roles of users based on events.
 
 As an author, you can customize e-mail templates by adding or modifying content and sending notifications to users for various events triggered by learners, managers and author activities. For example, you can send a customized email whenever a learner enrolls into your course. On enrolling, the learner will receive the course specific email automatically.
 

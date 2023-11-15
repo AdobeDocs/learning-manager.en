@@ -8,11 +8,11 @@ contentowner: saghosh
 
 # Integrate Learning Manager with AEM
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 ## Overview {#overview}
 
-Captivate Prime is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Prime, so that Prime performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.
+Learning Manager is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Prime, so that Prime performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.
 
 However there are users who store and manage their content on asset management systems. The content then gets repurposed for various other functions.
 
@@ -24,9 +24,9 @@ The installer is shipped as an AEM content package. [***Download the package***]
 
 The content package, is available as a zip file, and is compatible with AEM 6.4 and AEM 6.5.
 
-## Install Captivate Prime component {#installcaptivateprimecomponent}
+## Install Learning Manager component {#installcaptivateprimecomponent}
 
-Install the Captivate Prime content package using the AEM Package Manager:
+Install the Learning Manager content package using the AEM Package Manager:
 
 >[!NOTE]
 >
@@ -87,13 +87,13 @@ The AEM author must first add the component in AEM template
 
 The AEM author then will be able to drag and drop the Adobe Learning Manager component and configure accordingly.
 
-Captivate Prime component requires the configuration created in above step to be mapped to the Page.  Author can map the configuration by Editing Page Properties under **Advanced** > **Configuration** > **Cloud Configuration** and provide path of configuration. In this way, Author can create configurations for multiple Captivate Prime accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
+Learning Manager component requires the configuration created in above step to be mapped to the Page.  Author can map the configuration by Editing Page Properties under **Advanced** > **Configuration** > **Cloud Configuration** and provide path of configuration. In this way, Author can create configurations for multiple Learning Manager accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
 
 ## Learner {#learner}
 
 The learner can take the courses from within the page.
 
-To be able to access the Captivate Prime widget, Learner should be a logged in AEM user. Also, property **email** should be present in "/profile" node of Learner's rep:User node. This email should be exactly same as the one present in Captivate Prime account.
+To be able to access the Learning Manager widget, Learner should be a logged in AEM user. Also, property **email** should be present in "/profile" node of Learner's rep:User node. This email should be exactly same as the one present in Learning Manager account.
 
 The learner can take the courses from within the page.
 
@@ -114,7 +114,7 @@ If there are no recommendations, the widget appears blank.
 
 ## Support for Skyline
 
-Skyline is the cloud version of AEM. You must first install Skyline from the package manager. To use the Skyline component in AEM, a user must be present in the Captivate Prime account. In other words, the user's email address must exist in the account.
+Skyline is the cloud version of AEM. You must first install Skyline from the package manager. To use the Skyline component in AEM, a user must be present in the Learning Manager account. In other words, the user's email address must exist in the account.
 
 ## Deploy Skyline
 

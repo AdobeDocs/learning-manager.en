@@ -10,7 +10,7 @@ contentowner: kuppan
 
 To auto curate a post that is posted by a user by the AI-enabled Curation Engine for a particular skill domain, the user's enterprise must have their customized skills to be mapped to the supported skill domains present in the Prime LMS.
 
-While creating a skill, an Administrator can map it with the most relevant skill domains that Captivate Prime supports. This will further be considered in Auto Curation process. Captivate Prime LMS lists the following skills:
+While creating a skill, an Administrator can map it with the most relevant skill domains that Learning Manager supports. This will further be considered in Auto Curation process. Learning Manager LMS lists the following skills:
 
 * Supply chain management
 * Accounting

@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: Unable to search a course in Captivate Prime
+title: Unable to search a course in Learning Manager
 description: A learner is unable to search a course in Learning Manager.
 contentowner: nluke
 ---
 
 
-# Unable to search a course in Captivate Prime
+# Unable to search a course in Learning Manager
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 ## Issue
 
-A learner is unable to search a course in Captivate Prime.
+A learner is unable to search a course in Learning Manager.
 
 ## Scenario 1: Enrollment is through a higher Learning Object
 
@@ -22,7 +22,7 @@ There are scenarios, where, a learner searches a course and the course is not li
 
 ### Why does this happen?
 
-In Captivate Prime, when a learner is enrolled through a Learning Program/Certification, the enrollment for that course is through the Learning Program/Certification.
+In Learning Manager, when a learner is enrolled through a Learning Program/Certification, the enrollment for that course is through the Learning Program/Certification.
 
 Therefore, the learner is not able to search for the stand-alone Courses under **My Learning**.
 

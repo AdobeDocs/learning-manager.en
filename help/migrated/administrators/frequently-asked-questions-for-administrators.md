@@ -8,14 +8,14 @@ contentowner: manochan
 
 # Frequently Asked Questions for Administrators
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 <table>
  <tbody>
   <tr>
    <td><img src="assets/administrator2.png"></td>
    <td>
-    <p>Read on to know the Captivate Prime frequently asked questions that are associated with Administrator role. </p></td>
+    <p>Read on to know the Learning Manager frequently asked questions that are associated with Administrator role. </p></td>
   </tr>
  </tbody>
 </table>
@@ -38,7 +38,7 @@ In order to fix user log in, you have to import CSV in Prime. A sample CSV file 
 
 Users should get added on Learners page.
 
-[Captivate Prime Sample CSV.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
+[Learning Manager Sample CSV.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
 
 +++
 
@@ -196,9 +196,9 @@ Based on your choice, you can view the filtered list of courses and select the r
 
 +++Can I change the themes for the application? How?
 
-Yes, you can change the themes and branding of Captivate Prime application as per the requirements of your organization. A set of five representative images is provided to preview your color theme changes before applying them to your application. Browse through these images by clicking < and > symbols on left and right side of the images respectively to preview. 
+Yes, you can change the themes and branding of Learning Manager application as per the requirements of your organization. A set of five representative images is provided to preview your color theme changes before applying them to your application. Browse through these images by clicking < and > symbols on left and right side of the images respectively to preview. 
 
-Click **Branding **on the left pane to update your organization name, change the subdomain, log styles and themes. Click **Edit **adjacent to each of these topics to modify the content. 
+Click **Branding** on the left pane to update your organization name, change the subdomain, log styles and themes. Click **Edit** adjacent to each of these topics to modify the content. 
 
 Refer to  [Color themes and branding Help](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/themes.html) for more information. 
 
@@ -269,7 +269,7 @@ Adobe Learning Manager provides you the facility to enroll external department m
 1. Add the profile name, Manager email, seats allotted, expiry information. You can also add image to the external profile. 
 1. Click **Save**.
 
-Administrator can copy registration url and send it to the external enrollment group. The external users can register, log in to the Captivate Prime application and access their courses.
+Administrator can copy registration url and send it to the external enrollment group. The external users can register, log in to the Learning Manager application and access their courses.
 
 +++
 
@@ -349,13 +349,13 @@ Refer  [Add new users](https://helpx.adobe.com/content/help/en/captivate-prime/a
 
 +++How to change a background image for a learner?
 
-Contact the Captivate Prime support team.
+Contact the Learning Manager support team.
 
 +++
 
-+++Where do I find my Captivate Prime account ID?
++++Where do I find my Learning Manager account ID?
 
-You can get the account ID from the browser where Captivate Prime is open. 
+You can get the account ID from the browser where Learning Manager is open. 
 
 */app/admin?i_qp_user_id=12761637&**accountId=6849***
 

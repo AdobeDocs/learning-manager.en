@@ -7,7 +7,7 @@ title: Learning Objects
 
 # Learning Objects
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 This document consists of information about learning objects for managers.
 
@@ -187,7 +187,7 @@ Here's the workflow:
 
 ## Optional submission for external certifications {#optional}
 
-In earlier releases of Captivate Prime, for an external certification to be completed, a Manager accepted the file that a learner had submitted. The Manager gets a notifications only after the learner submits the file.
+In earlier releases of Learning Manager, for an external certification to be completed, a Manager accepted the file that a learner had submitted. The Manager gets a notifications only after the learner submits the file.
 
 A Manager can now see a list of learners who have enrolled into the External certification on a Submission page present inside the External Certification and can Accept or Reject from the page itself without waiting for a notification.
 

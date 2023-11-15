@@ -1,5 +1,5 @@
 ---
-description: Engage users using gamification techniques in Captivate Prime.
+description: Engage users using gamification techniques in Learning Manager.
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
@@ -8,15 +8,15 @@ contentowner: manochan
 
 # Gamification
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Engage users using gamification techniques in Captivate Prime.
+Engage users using gamification techniques in Learning Manager.
 
 Gamification is the use of game thinking and game mechanics in non-game contexts to engage users in earning points while learning.
 
 ## Overview {#overview}
 
-To engage learners and motivate them to achieve their goals by using gaming techniques, use the gamification feature in Captivate Prime. Learners can compete with their colleagues to score points for various learning activities and achieve bronze, silver, gold, and platinum levels.
+To engage learners and motivate them to achieve their goals by using gaming techniques, use the gamification feature in Learning Manager. Learners can compete with their colleagues to score points for various learning activities and achieve bronze, silver, gold, and platinum levels.
 
 Learners can also see the achievement level based on the points that they have earned. The levels include Fast learner, Self driven, and so on. **Both internal learners and external learners can access this feature.**
 

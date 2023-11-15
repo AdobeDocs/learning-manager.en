@@ -37,7 +37,7 @@ This is an update about an upcoming change and help you prepare for it.
 
 The product team is taking all steps to ensure that there is no impact on your usage of the platform. You can continue to use the product as usual. The Administrators of the platform may notice the new brand name in certain screens in July.
 
-As part of this change, the access URLs for Captivate Prime are affected.
+As part of this change, the access URLs for Learning Manager are affected.
 
 For example, if the access URL for your account is `https://captivateprime.adobe.com/XYZ`, then the new URL will be `https://learningmanager.adobe.com/XYZ`.
 
@@ -61,15 +61,15 @@ Release date: April 20, 2022
 Release date: March 29, 2022
 
 * In some accounts, after copying the raw csv in the FTP location, the user import does not take place as expected, and there are multiple notifications of errors.
-* In previous releases of Captivate Prime, to configure a Zoom connector, you had to configure Exavault FTP first for copying the csv file. In this release, the FTP connector will no longer be used for the csv file, and hence, you need not configure the FTP first.
+* In previous releases of Learning Manager, to configure a Zoom connector, you had to configure Exavault FTP first for copying the csv file. In this release, the FTP connector will no longer be used for the csv file, and hence, you need not configure the FTP first.
 
-## Update 74: Captivate Prime AWS India instance
+## Update 74: Learning Manager AWS India instance
 
 Release date: 15 February, 2022
 
 ### Overview
 
-An [instance](https://captivateprimeapac.adobe.com/acapindex.html) of Captivate Prime will now be hosted on AWS in Mumbai (ap-south-1). For customers using this India instance, will have their user's personally identified information (PII) and user's learning records stored in India region only. 
+An [instance](https://captivateprimeapac.adobe.com/acapindex.html) of Learning Manager will now be hosted on AWS in Mumbai (ap-south-1). For customers using this India instance, will have their user's personally identified information (PII) and user's learning records stored in India region only. 
 
 ### What is supported
 
@@ -101,7 +101,7 @@ Release date: February 05, 2022
 
 * Email template support is now available for content languages, including Hungarian and Finnish.
 
-## Update 72 - January 2022 release of Captivate Prime
+## Update 72 - January 2022 release of Learning Manager
 
 Release date: 15 January, 2022
 
@@ -131,7 +131,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 * In the case of virtual classroom, earlier you were able to create a module without selecting any VC conferencing system there by in a new instance VC URL did not have the required info. This is now avoided by an error message at module creation stage asking you to specify the VC conferencing system before you can save module.  
 * The waitlist page was displaying a misleading banner message on registered users, which is removed now.  
 * In the case of bulk unenrollment for courses, the pop up to enter email ids was not showing up, which is now fixed.  
-* The option to send email to learners from attendance & scoring tab in admin and instructor app was not excluding unchecked learners after performing select all operation. Hence Captivate Prime was sending email to all learners. This issue is now fixed.  
+* The option to send email to learners from attendance & scoring tab in admin and instructor app was not excluding unchecked learners after performing select all operation. Hence Learning Manager was sending email to all learners. This issue is now fixed.  
 * The enrollment report shows as "Not Started", even though a learner has already completed the course.
 
 **SSO**
@@ -184,7 +184,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **Publish**
 
-* In the European instance of Captivate Prime content that was directly published to Adobe Learning Manager from Adobe Captivate was getting published in Deutsch locale by default. This is now fixed.
+* In the European instance of Learning Manager content that was directly published to Adobe Learning Manager from Adobe Captivate was getting published in Deutsch locale by default. This is now fixed.
 
 **API**
 
@@ -209,9 +209,9 @@ Release date: November 17, 2021
 
 ### Share training with managers
 
-Captivate Prime offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
 
-In Captivate Prime, the **Share with Managers** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+In Learning Manager, the **Share with Managers** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
 
 For more information, see  [**Share training with managers**](../administrators/feature-summary/reports.md#share_training_managers).
 
@@ -237,7 +237,7 @@ Release date: October 28, 2021
 * The text inside the **Mark Completion** dialog is updated to reflect that the operation is irreversible.
 * The Learning Objects API, in some cases, returned metadata error.
 
-## Update 69 - October 2021 release of Captivate Prime
+## Update 69 - October 2021 release of Learning Manager
 
 **Release date:** 09 October, 2021
 
@@ -263,12 +263,12 @@ For more information, see [***Learning Paths***](../administrators/feature-summa
 * API changes
 * Connector-related changes
 
-For more information, see [***What's New in the October 2021 release of Captivate Prime***](../whats-new.md).
+For more information, see [***What's New in the October 2021 release of Learning Manager***](../whats-new.md).
 
 ### Bugs fixed in this update
 
 * Email templates, such as, Course Unenrollment, Learning Program Unenrollment, or Certification Unenrollment do not reflect the latest product terminologies as defined in the csv. Now the default text in email templates will support customized terminologies.
-* The user language in Captivate Prime is not supported in the Publish to Prime workflow. If the user language is different, Publish to Prime happens in English.
+* The user language in Learning Manager is not supported in the Publish to Prime workflow. If the user language is different, Publish to Prime happens in English.
 * If you add many catalogs to a custom role, an error occurs when you update the role. Now the limit of number of catalogs is increased upto 50 catalogs. 
 * In some cases, trainings that are deleted are still visible in a catalog. This issue occurred in the Admin app only and is fixed now.
 * When the manager role is changed from one user to another, the manager role from previous user was still reflected in the UI. This is now fixed. This issue was present only for external users and not for internal users.
@@ -302,16 +302,16 @@ Release date: September 28, 2021
    * Social User Profile
 
 * For accounts using custom domain, the Learner app does not display the favicon.
-* On AEM, the Captivate Prime component deletes the configuration of other components.
+* On AEM, the Learning Manager component deletes the configuration of other components.
 * The help page for AEM component redirects to an incorrect location.
 * Externalized getting and storing user emails/tokens so that users can implement their own storage backend instead of using AEM user nodes.  
 * When editing plain text description in Courses, Learning Programs, Certificates, and Job Aids, a warning message displays.
 * The reports from Manager Dashboard do not get downloaded when a user has both custom and manager roles.  
 * An email digest displays incorrect value of training activity.
-* In some cases, Captivate Prime behaves unexpectedly when you move from the Content Marketplace to the Learner page.
+* In some cases, Learning Manager behaves unexpectedly when you move from the Content Marketplace to the Learner page.
 * On the Social app, the filters do not work as expected in the list view.
 * The welcome e-mail that internal users receive are also received by external users.  
-* Add the Captivate Prime widget in the page template in AEM.
+* Add the Learning Manager widget in the page template in AEM.
 * If you want to republish a certificate after removing a course, you are unable to do so.
 * Learners do not receive mails that contain details of a session.
 
@@ -327,18 +327,18 @@ This update introduces a new instance of Azure.
 >* [Credit card purchase](../administrators/feature-summary/billing-management.md)
 >* [Content catalog](../administrators/feature-summary/content-catalogs.md)
 
-## Update 66 - August 2021 release of Captivate Prime
+## Update 66 - August 2021 release of Learning Manager
 
 The **August 2021** **release of Adobe Learning Manager** focuses on improving Learner Experience, Reporting, and Administrative workflows. Some of the highlights include:
 
-* **Content marketplace:** Captivate Prime now offers more than 70000 courses from varied domains, such as, Technology, Management, Leadership, and so on.
+* **Content marketplace:** Learning Manager now offers more than 70000 courses from varied domains, such as, Technology, Management, Leadership, and so on.
 * **Enhanced Accessibility support:** Accessibility support for the learner role strengthens via enhanced keyboard navigation, screen reader capability, and contrast ratio compliance. 
-* **Rich Text Formatting:** Captivate Prime now offers rich text editing for descriptions in courses, programs, certificates, and Job Aids. This allows authors to specify descriptions in rich text including hyperlinks, images and other text formatting options, as opposed to plain text.
+* **Rich Text Formatting:** Learning Manager now offers rich text editing for descriptions in courses, programs, certificates, and Job Aids. This allows authors to specify descriptions in rich text including hyperlinks, images and other text formatting options, as opposed to plain text.
 * **Star Rating:** A learner can now rate a course on a 5-point scale. An Administrator can select between existing effectiveness rating or the 5-star rating. 
 * **Badgr Integration:** Learners can now authorize Prime to automatically push badges they have earned in Prime to their Badgr account, from where they can share their badges in their social networks.
-* **Export learning events to Salesforce:** Captivate Prime now offers an ability to export some specific events in Prime like new user addition, enrollment and completion to a Salesforce tenant, and provide an ability to link these with the appropriate User object or Contact object in Salesforce.
+* **Export learning events to Salesforce:** Learning Manager now offers an ability to export some specific events in Prime like new user addition, enrollment and completion to a Salesforce tenant, and provide an ability to link these with the appropriate User object or Contact object in Salesforce.
 
-For more information, see [***What's new and changed in the August 2021 release of Captivate Prime***](../whats-new.md).
+For more information, see [***What's new and changed in the August 2021 release of Learning Manager***](../whats-new.md).
 
 **Release date:** 7 August, 2021
 
@@ -434,7 +434,7 @@ Release date: May 2021
 ### Bugs fixed in this update
 
 * Performance improvement on userGroupInfo calls.  
-* After enabling new Brightcove profiles, Captivate Prime supports contents with video and audio modules.  
+* After enabling new Brightcove profiles, Learning Manager supports contents with video and audio modules.  
 * Learning Transcripts fail to capture the data if a narrow date range is selected.
 * A session invite is sent to the enrolled learners for all the sessions even when only one new session is added.  
 * Audio modules are not getting uploaded as expected.
@@ -511,7 +511,7 @@ Captivate  Prime Mobile App update 3.3 introduces a brand new Home Page, which s
 
 In addition, this update also allows learners to download their badge as PDF and an image. The update also introduces a feedback po-pup, which allows learners to provide feedback about the app anonymously. 
 
-For more information, see  [Captivate Prime device app](../learners/feature-summary/ipad-android-tablet-users.md).
+For more information, see  [Learning Manager device app](../learners/feature-summary/ipad-android-tablet-users.md).
 
 Read on to know more.
 
@@ -521,7 +521,7 @@ For all accounts that have the option Immersive Layout enabled, there is a brand
 
 #### Feedback rating
 
-In this release, Captivate Prime prompts the user to provide feedback about their experience with the Mobile App. 
+In this release, Learning Manager prompts the user to provide feedback about their experience with the Mobile App. 
 
 #### Download badge 
 
@@ -529,7 +529,7 @@ This update allows learners to download their badges in PDF and Image format.
 
 ## Previous update releases {#previousupdatereleases}
 
-+++Update 60 - February 2021 release of Captivate Prime
++++Update 60 - February 2021 release of Learning Manager
 
 Release date: February 20, 2021
 
@@ -542,7 +542,7 @@ Release date: February 20, 2021
 * Import users from Salesforce contacts.
 * ...and many more.
 
-For more information, see What's new in the [February 2021 update of Captivate Prime](../whats-new.md).
+For more information, see What's new in the [February 2021 update of Learning Manager](../whats-new.md).
 
 ### Bugs fixed in this update {#bug-fixes}
 
@@ -563,7 +563,7 @@ For more information, see What's new in the [February 2021 update of Captivate P
 
 **AEM**
 
-* After inserting the Captivate Prime component in AEM, the page was taking a long time to load preventing access to the other components. This issue has been fixed.
+* After inserting the Learning Manager component in AEM, the page was taking a long time to load preventing access to the other components. This issue has been fixed.
 
 **Admin**
 
@@ -629,7 +629,7 @@ For more information, see What's new in the [February 2021 update of Captivate P
 
 * We've updated the error message that you see when the SSO credentials are expired.
 
-**Captivate Prime API**
+**Learning Manager API**
 
 * The getlearningObject API returned incorrect enrollment data due to issues in caching. This issue has been fixed.
 * A VC session now displays the meeting URL in the Location field in a meeting invite.
@@ -656,10 +656,10 @@ Release date: December 18, 2020
 
 ### BlueJeans Event connector {#bluejeanseventconnector}
 
-BlueJeans Events connector connects Captivate Prime and BlueJeans systems to automate data synchronization. Using this connector, you can:
+BlueJeans Events connector connects Learning Manager and BlueJeans systems to automate data synchronization. Using this connector, you can:
 
-* **Set up virtual sessions using BlueJeans Events:** Configure a new event in BlueJeans and setup a VC session in Captivate Prime by selecting the appropriate BlueJeans event. Date and time details are picked automatically from the BlueJeans events.
-* **Automated User Completion Syncing:** An Automated user completion syncing process allows the Captivate Prime Administrator to fetch completion records for BlueJeans events automatically.
+* **Set up virtual sessions using BlueJeans Events:** Configure a new event in BlueJeans and setup a VC session in Learning Manager by selecting the appropriate BlueJeans event. Date and time details are picked automatically from the BlueJeans events.
+* **Automated User Completion Syncing:** An Automated user completion syncing process allows the Learning Manager Administrator to fetch completion records for BlueJeans events automatically.
 
 This new connector requires a separate set of credentials to configure the connector. 
 
@@ -667,9 +667,9 @@ For more information, see [***BlueJeans Event connector***](../integration-admin
 
 +++
 
-+++Update 58- December 2020 release of Captivate Prime
++++Update 58- December 2020 release of Learning Manager
 
-## Update 58- December 2020 release of Captivate Prime
+## Update 58- December 2020 release of Learning Manager
 
 Release date: December 05, 2020
 
@@ -705,7 +705,7 @@ The following features are not supported:
 ### Bugs fixed in this update {#bug-fixes-1}
 
 * You are unable to delete a content folder if the content folder contains deleted content. 
-* Learning Plan allows Admins to setup a course with auto-instance. For a course with Activity submission module, Instructor information was not setting up correctly earlier. Now Captivate Prime assigns the Instructor from default instance to this auto instance automatically. 
+* Learning Plan allows Admins to setup a course with auto-instance. For a course with Activity submission module, Instructor information was not setting up correctly earlier. Now Learning Manager assigns the Instructor from default instance to this auto instance automatically. 
 * A custom badge with a catalog label with a space does not allow the pdf to download as expected. 
 * A report downloaded from the dashboard is different from the subscription email received for the dashboard report.  
 * A Learner Transcript does not have updated data for a recurred certification.
@@ -753,7 +753,7 @@ Release date: August 25, 2020
 
 ### Take courses from LinkedIn Learning {#takecoursesfromlinkedinlearning}
 
-Captivate Prime already supports LinkedIn Learning courses within the learning platform. Now learners can take up such LinkedIn Learning courses within the Captivate Prime mobile app. In the device app, search for a course, and then start the course.
+Learning Manager already supports LinkedIn Learning courses within the learning platform. Now learners can take up such LinkedIn Learning courses within the Learning Manager mobile app. In the device app, search for a course, and then start the course.
 
 For more information, see Take courses from [***LinkedIn Learning***](../learners/feature-summary/ipad-android-tablet-users.md#linkedin).
 
@@ -765,7 +765,7 @@ Push notification is now also supported for Announcements.
 
 ### Mandatory L1 feedback {#mandatoryl1feedback}
 
-In its latest August 2020 release, Captivate Prime allows Administrators to configure L1 feedback such that all questions become mandatory. Same is now supported from learner's perspective in the mobile app.
+In its latest August 2020 release, Learning Manager allows Administrators to configure L1 feedback such that all questions become mandatory. Same is now supported from learner's perspective in the mobile app.
 
 ### User Interface enhancements {#userinterfaceenhancements}
 
@@ -783,7 +783,7 @@ Learners can however toggle the view between List view and Card view.
 
 +++
 
-+++Update 55- August 2020 release of Captivate Prime
++++Update 55- August 2020 release of Learning Manager
 
 Release date: 23 August, 2020
 
@@ -806,7 +806,7 @@ For more information, see  [***What's new in the August 2020 release of Adobe Le
 ### Notes about this release {#notes}
 
 * Generating a Learner Transcript (~1 GB) takes less than 15 minutes.
-* In earlier versions of Captivate Prime, Learner Transcript columns Quiz score and Highest quiz score used to provide the score and maximum score in the format 25/100. To support better readability and analysis, quiz score is now also exported as separate columns - **Quiz_score, Quiz_score_max, Highest_Quiz_score, and Highest_Quiz_score_max**. These allow Admins to make quick calculations and analysis.
+* In earlier versions of Learning Manager, Learner Transcript columns Quiz score and Highest quiz score used to provide the score and maximum score in the format 25/100. To support better readability and analysis, quiz score is now also exported as separate columns - **Quiz_score, Quiz_score_max, Highest_Quiz_score, and Highest_Quiz_score_max**. These allow Admins to make quick calculations and analysis.
 
 ### Bugs fixed in this update {#bug-fixes-2}
 
@@ -946,13 +946,13 @@ If you do not want to read the announcement at that moment, you can always opt t
 
 +++
 
-+++Update 53 - April 2020 release of Captivate Prime
++++Update 53 - April 2020 release of Learning Manager
 
 Update 53
 
 Release date: April 04, 2020
 
-The April 2020 release of Captivate Prime focused on the following:
+The April 2020 release of Learning Manager focused on the following:
 
 * [Performance enhancements](../whats-new.md#performance)
 * [Classroom training](../whats-new.md#classroom)
@@ -962,7 +962,7 @@ The April 2020 release of Captivate Prime focused on the following:
 * [Learner experience](../whats-new.md#learner)
 * [API-level changes](../whats-new.md#api)
 
-For more information, see [***What's new in April 2020 release of Captivate Prime***](../whats-new.md).
+For more information, see [***What's new in April 2020 release of Learning Manager***](../whats-new.md).
 
 +++
 
@@ -980,7 +980,7 @@ The App now has the capability to display either the Brand name, Brand logo or b
 
 #### Deep links {#deeplinks}
 
-Captivate Prime now launches the the device app as soon as you click a Captivate Prime supported link/URL. In case the app is not installed on the device, the URL opens in the browser.
+Learning Manager now launches the the device app as soon as you click a Learning Manager supported link/URL. In case the app is not installed on the device, the URL opens in the browser.
 
 Here are a few use cases, which will be supported in this update.
 
@@ -1050,7 +1050,7 @@ As an instructor, you can see session and course names in the Attendance view. Y
 
 Learners can now view an announcement in full view instead of a list view. This happens when the learner has one unread announcement. This enhances the learners experience in viewing the announcement.
 
-Adobe Learning Manager now allows you to customize your account to provide a richer experience to your users. Here's a list of elements that can be customized. Contact [Captivate Prime support](mailto:captivateprimesupport@adobe.com)to make these changes.
+Adobe Learning Manager now allows you to customize your account to provide a richer experience to your users. Here's a list of elements that can be customized. Contact [Learning Manager support](mailto:captivateprimesupport@adobe.com)to make these changes.
 
 * Training card colors.
 * Progress icon
@@ -1067,7 +1067,7 @@ You can also customize the banner in a Social Learning page.
 
 ### API support {#apisupport}
 
-This update of Captivate Prime includes API for the following operations:
+This update of Learning Manager includes API for the following operations:
 
 **Download badge PDF**
 
@@ -1100,7 +1100,7 @@ Currently only admins can add users to a Do Not Disturb list via the UI. After t
 * About direct reports
 * About skip level reports
 
-For more informaton about Captivate Prime APIs, see the following:
+For more informaton about Learning Manager APIs, see the following:
 
 * [***API reference***](https://captivateprime.adobe.com/docs/primeapi/v2/)
 * [***API developer guide***](https://helpx.adobe.com/captivate-prime/integration-admin/feature-summary/developer-manual.html)
@@ -1133,9 +1133,9 @@ Release date: Oct 24, 2019
 
 As an Administrator, you can restrict a custom role based on Catalogs and User Groups. All users belonging to such roles can only see Learning objects from the Catalog in their scope. These users can only perform actions that were defined in the scope of their User Groups.
 
-So far in Captivate Prime, a custom role could be scoped on multiple catalogs for a single User Group with full permissions.
+So far in Learning Manager, a custom role could be scoped on multiple catalogs for a single User Group with full permissions.
 
-In this update of Captivate Prime, you can create a custom role to be scoped over multiple catalogs with each catalog being granted different set of permissions. For more information, see [***Custom role scoping over multiple catalogs***](../administrators/feature-summary/custom-role.md#multi-scope).
+In this update of Learning Manager, you can create a custom role to be scoped over multiple catalogs with each catalog being granted different set of permissions. For more information, see [***Custom role scoping over multiple catalogs***](../administrators/feature-summary/custom-role.md#multi-scope).
 
 ### Enhancements to search {#enhancementstosearch}
 
@@ -1147,7 +1147,7 @@ On the Learning Plans page for Administrators and Authors, there is now a search
 
 **Administrator and Author apps**
 
-In this update of Captivate Prime, as an Administrator or an Author, in addition to executing a type-ahead search, you can execute free search to search any Learning Object.
+In this update of Learning Manager, as an Administrator or an Author, in addition to executing a type-ahead search, you can execute free search to search any Learning Object.
 
 ### Search filter is preserved {#searchfilterispreserved}
 
@@ -1161,7 +1161,7 @@ When the learner comes back to the **Catalog** or **My Learning** pages using th
 
 ### Control visibility of search filters {#controlvisibilityofsearchfilters}
 
-In earlier versions of Captivate Prime, Administrators do not have control over visibility options of a catalog filter, so that learners do not see the skills and tags. In this release of Captivate Prime, and Admin can filter types, skills, and tags of a catalog.
+In earlier versions of Learning Manager, Administrators do not have control over visibility options of a catalog filter, so that learners do not see the skills and tags. In this release of Learning Manager, and Admin can filter types, skills, and tags of a catalog.
 
 In the **Settings** page, for the category Show Filter Panels, when you click **Edit**, you can see the following options. The options determine the filter panels that are visible to learners, so that the learners can fine tune the search results.
 
@@ -1169,7 +1169,7 @@ For more information, see [***Show filter panels***](../administrators/feature-s
 
 ### Download QR code from Administrator app {#downloadqrcodefromadministratorapp}
 
-In previous updates of Captivate Prime, a Custom Administrator faced issues while downloading a QR code. In this update, a Custom Administrator who had access to **All Learners** and permission for **Course Enrollment** can download the QR code.
+In previous updates of Learning Manager, a Custom Administrator faced issues while downloading a QR code. In this update, a Custom Administrator who had access to **All Learners** and permission for **Course Enrollment** can download the QR code.
 
 QR code is still unavailable for custom role users in case they have permissions for limited scope of users.
 
@@ -1183,9 +1183,9 @@ For more information, see [***Add comments while enrolling learners***](../admin
 
 In Adobe Connect, customers use existing meeting rooms that they have already created in Connect. All meeting rooms in Connect are persistent and the meeting room templates are carefully set up to provide a unified experience for each persistent room.
 
-In this release of Captivate Prime, integration with Adobe Connect is now enhanced to support persistent room as well. It means that you can now create a virtual classroom session using one of the already created room in Adobe Connect.
+In this release of Learning Manager, integration with Adobe Connect is now enhanced to support persistent room as well. It means that you can now create a virtual classroom session using one of the already created room in Adobe Connect.
 
-Captivate Prime now also allows learners to enter the connect room for their virtual session using SSO authentication.
+Learning Manager now also allows learners to enter the connect room for their virtual session using SSO authentication.
 
 For more information, see [***Persistent room support in Adobe Connect***](../integration-admin/feature-summary/connectors.md#persistent).
 
@@ -1359,7 +1359,7 @@ Submit files as proof of course completion to your instructor. The instructor ca
 
 **Updated platform support**
 
-Captivate Prime mobile app is now supported on devices with Android 7 and above, and iOS 10 and above. For more information,, see [***System requirements***](../system-requirements.md).
+Learning Manager mobile app is now supported on devices with Android 7 and above, and iOS 10 and above. For more information,, see [***System requirements***](../system-requirements.md).
 
 ### Known issues in this release {#Knownissuesinthisrelease-3}
 
@@ -1392,7 +1392,7 @@ Updated CSV specifications that you can use to map your existing LMS migration d
 
 ### Issues fixed in this release {#Issuesfixedinthisrelease-4}
 
-**Captivate Prime API**
+**Learning Manager API**
 
 * When an external profile is added using the POST method of the API *externalProfile*, the welcome mail does not get displayed.
 
@@ -1402,7 +1402,7 @@ Updated CSV specifications that you can use to map your existing LMS migration d
 
 **Waitlisted learners**
 
-* In earlier releases of Captivate Prime, after a manager enrolled learners, when an instructor wanted to check for waitlisted learners, an error message displayed. In this release, an instructor can browse the list of waitlisted learners without encountering any error message.
+* In earlier releases of Learning Manager, after a manager enrolled learners, when an instructor wanted to check for waitlisted learners, an error message displayed. In this release, an instructor can browse the list of waitlisted learners without encountering any error message.
 
 **Certification overview**
 
@@ -1421,7 +1421,7 @@ Release date: May 30, 2019
 **New and enhanced features**
 
 * Consolidated search across all instances for enrolled learners on the Learning Object's learner section. Search for enrolled users on the Learning Object's Learner section using type-ahead search. For more information, see [***Search for enrolled users***](../administrators/feature-summary/courses.md#searchforusers).
-* Complete editing capabilities of learning objects acquired via shared catalog. For more information, see [***Shared catalog control***](../administrators/feature-summary/shared-catalog-full-control.md). To enable the feature, contact Captivate Prime support.
+* Complete editing capabilities of learning objects acquired via shared catalog. For more information, see [***Shared catalog control***](../administrators/feature-summary/shared-catalog-full-control.md). To enable the feature, contact Learning Manager support.
 * Instructors can now identify the sessions and modules with pending reviews easily. For more information, see [***Pending reviews***](../instructors/feature-summary/learners.md#pending).  
 
 * Skills now support awarding credit values in decimal format. This allows authors to award decimal level credit value to a certain course. For more information, see [***Decimal support***](../administrators/feature-summary/skills-levels.md#decimal).
@@ -1460,9 +1460,9 @@ Release date: April 26, 2019
 
 * **Scan QR code to enroll:** QR code capabilities are enhanced. In addition to supporting attendance marking using QR code, now it also supports enrolling to a course, completing a course using QR code.   
   
-  To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. For more information on scanning QR codes in the web version of Captivate Prime, see  [***Scan QR code***](https://helpx.adobe.com/captivate-prime/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+  To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](https://helpx.adobe.com/captivate-prime/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
 
-* **Multiple attempts at course:** The Captivate Prime app allows the learner to consume courses with multi attempts enabled. For more information on setting up multiple attempts, see  [***Multiple attempts***](https://helpx.adobe.com/captivate-prime/authors/feature-summary/courses.html#Multiattempts).
+* **Multiple attempts at course:** The Learning Manager app allows the learner to consume courses with multi attempts enabled. For more information on setting up multiple attempts, see  [***Multiple attempts***](https://helpx.adobe.com/captivate-prime/authors/feature-summary/courses.html#Multiattempts).
 
 +++
 
@@ -1543,7 +1543,7 @@ Release date: May 19, 2018.
 
 * This release of Adobe Learning Manager rolls out new features and enhancements. It brings to you the ability to create custom roles, add catalog labels, capacity to purge users, manage tags, rename Learning Objects, Slack integration, new connector integrations, support to xAPI, and much more. For more information about the new features and enhancements, see  [New feature's summary](../whats-new.md#main-pars_text).
 
-* Captivate Prime is compliant with GDPR. For more information, see [Captivate Prime compliance to GDPR.](../kb/prime-gdpr.md)
+* Learning Manager is compliant with GDPR. For more information, see [Learning Manager compliance to GDPR.](../kb/prime-gdpr.md)
 
 ## Known Issue {#knownissue}
 
@@ -1582,7 +1582,7 @@ To read all that is new in this release, see  [What's New in Adobe Learning Mana
 
 ### Known Issue {#KnownIssue-1}
 
-**Issue:** Accessing a few specific Learning Objects using Internet Explorer v11.1478.10586.0 might lead Captivate Prime to crash.
+**Issue:** Accessing a few specific Learning Objects using Internet Explorer v11.1478.10586.0 might lead Learning Manager to crash.
 
 **Workaround:** Update your Internet Explorer 11 browser to the latest version by reaching out to the IT team in your organization.
 
@@ -1614,12 +1614,12 @@ Release date: January 22, 2018.
 
 Release date: January 7, 2018.
 
-This release of Captivate Prime brings to you performance optimizations aimed to improve scalability, performance, and security.
+This release of Learning Manager brings to you performance optimizations aimed to improve scalability, performance, and security.
 
 ### Enhancements {#enhancements}
 
 * Experience elastic search while searching for courses, and users across all applications. This includes Courses, User, and User Group search.
-* Support the use of Box connector to integrate Captivate Prime with external systems to automate data synchronization. For more information, see [Box connector](../integration-admin/feature-summary/connectors.md#main-pars_header_302653946).
+* Support the use of Box connector to integrate Learning Manager with external systems to automate data synchronization. For more information, see [Box connector](../integration-admin/feature-summary/connectors.md#main-pars_header_302653946).
 * Updated CSV specifications that you can use to map your existing LMS migration data. Use the latest downloadable csv-specifications and sample-csvs zip files to understand the prescribed format of data to be entered. For more information, see [Migration manual.](../integration-admin/feature-summary/migration-manual.md)
 
 +++
@@ -1629,7 +1629,7 @@ This release of Captivate Prime brings to you performance optimizations aimed to
 ### Issues Fixed {#IssuesFixed-1}
 
 * Announcements might fail when the number of users are high. This issue is resolved.
-* Accessing Captivate Prime account using the subdomain URL in EU could redirect users to a different page. This issue is resolved.
+* Accessing Learning Manager account using the subdomain URL in EU could redirect users to a different page. This issue is resolved.
 * When a LP is ordered, a learner should be able to consume the LP only in the specified order. Learners were able to consume courses which were not listed first using the course hyperlinks. This issue is fixed. Learners can no longer start a course until he finishes the previous one.  
 
 * Unsupported browser version error message might not show up in unsupported versions of Internet Explorer ( IE 7, IE 8, IE 9, and IE 10) and Safari ( version 7, 8, and 9). This issue is fixed.
@@ -1645,16 +1645,16 @@ Release date: October 5, 2017.
 ### Issues Fixed {#IssuesFixed-2}
 
 * Changes to a shared course might not get propagated to the shared account if the author in origin account auto saves the course. This issue is fixed.
-* Sometimes, for specific Captivate Prime projects, content used to freeze in fluidic player. This issue is fixed.  
+* Sometimes, for specific Learning Manager projects, content used to freeze in fluidic player. This issue is fixed.  
 
 * The calendar listing under the Learning Calendar widget in the Learner Dashboard might appear in a random order. This issue is fixed. The listing will now appear in an orderly manner.
 * When marking attendance using select-all option, learners get marked as attended across the learning objects for the same session. This issue is fixed.
-* In certain high-resolution screens, the email received from Captivate Prime had alignment and truncation issues for the banner image and text. This has been fixed.   
-* Certain emails from Captivate Prime such as emails without any notification data were not getting triggered to the users. Example- Email received on creating and enabling external profile and Email received on configuring connect account. This issue has been fixed.
+* In certain high-resolution screens, the email received from Learning Manager had alignment and truncation issues for the banner image and text. This has been fixed.   
+* Certain emails from Learning Manager such as emails without any notification data were not getting triggered to the users. Example- Email received on creating and enabling external profile and Email received on configuring connect account. This issue has been fixed.
 * When you create a LP, set a reminder, enroll users, and then change the deadline of the instance, the changed deadline might not be reflected for the reminders. This is fixed. The reminders would now carry the changed deadline.
 * In certain cases, for content created using Adobe Presenter, the total and the elapsed time in fluidic player was not in sync with the content. This issue is fixed.
 * In certain cases, after adding a learning program to a catalog, the option to add might still be enabled. This issue has been fixed.
-* Opening Captivate Prime in a device browser displays an option to experience Prime on device app. Clicking yes should launch the Play Store (Android) if app is not installed, or launch the app if installed (in Android and iOS). This workflow had issues and have been fixed. 
+* Opening Learning Manager in a device browser displays an option to experience Prime on device app. Clicking yes should launch the Play Store (Android) if app is not installed, or launch the app if installed (in Android and iOS). This workflow had issues and have been fixed. 
 
 +++
 
@@ -1701,9 +1701,9 @@ UUID field was displayed to the learner while completing his profile even when t
 Learning time spent data was not showing up in reports for a learner,
 
 * If his/her attendance is auto-marked by the system for connect modules.
-* When a QR code is scanned for CR and VC modules using Captivate Prime device application.
+* When a QR code is scanned for CR and VC modules using Learning Manager device application.
 
-**This release of Captivate prime also introduced enhancements and bug fixes related to device player.**
+**This release of Learning Manager also introduced enhancements and bug fixes related to device player.**
 
 * Issues regarding completion of activity modules. This has been fixed.
 * When the learner is playing a video in portrait mode, +10 and -10 buttons might not work. This has been fixed  
@@ -1722,17 +1722,17 @@ Learning time spent data was not showing up in reports for a learner,
 * The close button of the player was not visible for certain projects when the device orientation is changed. This has been fixed.  
 * The issue in regard to TOC section of module getting truncated in landscape mode on device player has been fixed. In certain cases, TOC was not visible for content in device player. This has also been corrected.
 
-**This release of Captivate prime also introduced enhancements and fixes listed below for the Device application**.
+**This release of Learning Manager also introduced enhancements and fixes listed below for the Device application**.
 
 * Push notification related to completion deadlines might not get delivered on certain devices. This issue has been resolved.
 * We now support learning object lifecycle on device application as well. Learners can now access the latest content in learning objects if they have been edited by the author.  
 
-* Application orientation issues (including default orientation- portrait mode) of the Captivate Prime application has been fixed.
+* Application orientation issues (including default orientation- portrait mode) of the Learning Manager application has been fixed.
 * There might not be an option to update the content when user transitions from offline to online mode.
 * Module ordering is now supported for courses in device application in online mode.
 
 * If a user has not downloaded any Job Aids, then clicking on My Job Aids tab in offline mode might crash the app in IOS and show a message saying error loading data in android. This has been resolved.
-* Captivate Prime application closes or throws an error if we access the course immediately after switching off the internet even when it is a downloaded course. This issue is now fixed.  
+* Learning Manager application closes or throws an error if we access the course immediately after switching off the internet even when it is a downloaded course. This issue is now fixed.  
 * Sometimes when you scan the QR code, it displays a captured image of the previous QR code scan. This has been corrected.
 * Trying to remove a Job Aid which is already added from my Job Aids tab on certain occasions would show an error message. This issue has been fixed.
 
@@ -1756,7 +1756,7 @@ With this enhancement, you can set a time-range after which users get automatica
 
 Job Aids are training content that a Learner can access without having to enroll for any specific learning object like a Course or Learning Program. With this enhancement, administrators can extract and download Job Aids report. As an administrator, you can also generate a report of all the announcements that have been sent by you. Administrators and managers can also extract a report of the learners who have been unenrolled.
 
-**Captivate Prime connectors**
+**Learning Manager connectors**
 
 You can now export user skills to an FTP location to integrate with any third party system using the Data Export option. You can specify the Connection Name for your integration and choose if you want to import internal users, or export user skills by configuring them or fetching it on demand.
 
@@ -1788,7 +1788,7 @@ As an administrator or author, you can now assign multiple learning objects to a
 
 **Accessibility**
 
-With this update Captivate Prime Learner Experience now supports section 508 Standard of accessibility. Captivate Prime is also compatible with the latest version of **[!UICONTROL JAWS]**. This feature is only supported for the Learner application. Use Internet Explorer 11, Windows Chrome, or macOS Safari to access this feature.
+With this update Learning Manager Learner Experience now supports section 508 Standard of accessibility. Learning Manager is also compatible with the latest version of **[!UICONTROL JAWS]**. This feature is only supported for the Learner application. Use Internet Explorer 11, Windows Chrome, or macOS Safari to access this feature.
 
 ### Issues Fixed {#IssuesFixed-5}
 
@@ -1802,7 +1802,7 @@ Launching of modules from Learning Program had issues if Program instance is exp
 
 **Translation issues in Learner application**
 
-Captivate Prime users experienced certain translation issues in Learner app. These issues have been fixed.
+Learning Manager users experienced certain translation issues in Learner app. These issues have been fixed.
 
 **Issues regarding subscription to a skill**
 
@@ -1816,23 +1816,23 @@ Release date: April 9, 2017
 
 ### New features {#newfeatures}
 
-For a list of new features and enhancements in Captivate Prime April release, refer to [What's New.](../whats-new.md)
+For a list of new features and enhancements in Learning Manager April release, refer to [What's New.](../whats-new.md)
 
 **Widget-based Learner App**
 
 Use widgets on the home page to manage your courses, skills, and achievements. Use the search bar to perform a search in your entire LMS that spans all the learning objects, catalogs, skills, notes, and discussions
 
-For detailed information on the new home page, see  [Learner home page in Captivate Prime](../learners/feature-summary/getting-started-learner.md).
+For detailed information on the new home page, see  [Learner home page in Learning Manager](../learners/feature-summary/getting-started-learner.md).
 
 **Administrator settings for Learner Dashboard**
 
 As an administrator, you can control the learner's home page by enabling and disabling different widgets.
 
-**Captivate Prime mobile app for learners**
+**Learning Manager mobile app for learners**
 
-The new Captivate Prime mobile app lets learners use the app to enroll and undertake courses. The app can also be used to manage dashboards.
+The new Learning Manager mobile app lets learners use the app to enroll and undertake courses. The app can also be used to manage dashboards.
 
-To know more about using Captivate Prime in mobiles, see  [Captivate Prime leaner app for mobiles](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907).
+To know more about using Learning Manager in mobiles, see  [Learning Manager leaner app for mobiles](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907).
 
 **Marking attendance using QR code**
 
@@ -1840,9 +1840,9 @@ Use QR Scan Code to mark your attendance for classroom sessions using your mobil
 
 **Instructor role**
 
-Captivate Prime now introduces instructors for modules. Instructors can manage module sessions including the time, venue, and seat limit for the modules that are assigned to them.
+Learning Manager now introduces instructors for modules. Instructors can manage module sessions including the time, venue, and seat limit for the modules that are assigned to them.
 
-To view detailed information on Instructors, see  [Instructors in Captivate Prime](../instructors/feature-summary/getting-started.md#main-pars_header).
+To view detailed information on Instructors, see  [Instructors in Learning Manager](../instructors/feature-summary/getting-started.md#main-pars_header).
 
 **Peer account**
 
@@ -1856,11 +1856,11 @@ Use **[!UICONTROL Add New Language]** option when you add a module or a course t
 
 **Learner Transcript**
 
-Captivate Prime offers managers and administrators the ability to download transcript data to track the learning history of individuals as well as teams.
+Learning Manager offers managers and administrators the ability to download transcript data to track the learning history of individuals as well as teams.
 
 **Integration with other content providers**
 
-Captivate Prime has introduced three new connectors in this release, so that learners can access and consume courses from the following content providers: Lynda.com, getAbstract, and Harvard ManageMentor.
+Learning Manager has introduced three new connectors in this release, so that learners can access and consume courses from the following content providers: Lynda.com, getAbstract, and Harvard ManageMentor.
 
 To know how to configure and use each of these connectors, see  [Connectors](../integration-admin/feature-summary/connectors.md#main-pars_header).
 
@@ -1890,7 +1890,7 @@ Now, administrators have the ability to configure the Reset Module option to all
 
 **Report Catalog**
 
-When you create reports in Captivate Prime, you can generate reports and graphs for catalogs now.
+When you create reports in Learning Manager, you can generate reports and graphs for catalogs now.
 
 **Learning Plan enhancements**
 
@@ -1922,7 +1922,7 @@ As an administrator, you can now assign author roles to external users.
 
 **Multiple authors**
 
-Captivate Prime now lets multiple authors to simultaneously edit the same content group.
+Learning Manager now lets multiple authors to simultaneously edit the same content group.
 
 **Adobe Connect enhancements**
 
@@ -1960,7 +1960,7 @@ As an Administrator, when you click External Profile and chose Actions > Change 
 
 #### Course reports {#coursereports}
 
-Incorrect learner transcript reports are generated in Captivate Prime when the course has multiple versions of modules. This is now fixed.
+Incorrect learner transcript reports are generated in Learning Manager when the course has multiple versions of modules. This is now fixed.
 
 #### API layer {#apilayer}
 
@@ -1974,9 +1974,9 @@ Release date: December 23, 2016.
 
 ### New features {#Newfeatures-1}
 
-Adobe enables enterprises to migrate their organization's training data and training content from their existing Learning Management Systems (LMS) to the Captivate Prime LMS application. 
+Adobe enables enterprises to migrate their organization's training data and training content from their existing Learning Management Systems (LMS) to the Learning Manager LMS application. 
 
-Captivate Prime provides the necessary tools and templates so that your organization's integration Administrator can set up and perform the migration tasks. 
+Learning Manager provides the necessary tools and templates so that your organization's integration Administrator can set up and perform the migration tasks. 
 
 For more information on Migration feature, refer to  [Migration manual Help](../integration-admin/feature-summary/migration-manual.md)
 
@@ -2004,7 +2004,7 @@ Release date: December 06, 2016.
 
 ### Enhancement {#enhancement}
 
-As part of this update, Captivate Prime provides an end point [PATCH/users/{id}](https://captivateprime.adobe.com/docs/primeapi/v1/#!/user/patch_users_id) to update users in an application. You can access this API end point in Admin role. Using** **this end point you can update the following information of Captivate Prime users:
+As part of this update, Learning Manager provides an end point [PATCH/users/{id}](https://captivateprime.adobe.com/docs/primeapi/v1/#!/user/patch_users_id) to update users in an application. You can access this API end point in Admin role. Using** **this end point you can update the following information of Learning Manager users:
 
 * Name
 * Email
@@ -2035,12 +2035,12 @@ For more information on this feature, refer to  [Shared catalogs Help](../admini
 **L1 and L3 feedback**
 
 * L1 feedback dialog appears as soon as a learner completes course consumption. Also, the learner receives a notification about L1 feedback completion. 
-* An option to add descriptive questions has been provided in L1 and L3 feedback feature. Administrators can add these descriptive questions to learners. This provision is in addition to the default set of questions provided by Captivate Prime. You can add two descriptive questions for L1 feedback and one descriptive question for L3 feedback.   
+* An option to add descriptive questions has been provided in L1 and L3 feedback feature. Administrators can add these descriptive questions to learners. This provision is in addition to the default set of questions provided by Learning Manager. You can add two descriptive questions for L1 feedback and one descriptive question for L3 feedback.   
   For more information on this feature, refer to [L1 & L3 feedback descriptive questions Help](../administrators/feature-summary/courses.md#descriptive)
 
 **Export users**
 
-* Based on the request of some large enterprise users, a new option to download the list of all users in Captivate Prime account is provided. In Administrator login, click **Users** on the left pane and click **Export user data **to download the list of users as an excel sheet. 
+* Based on the request of some large enterprise users, a new option to download the list of all users in Learning Manager account is provided. In Administrator login, click **Users** on the left pane and click **Export user data** to download the list of users as an excel sheet. 
 
 ### Issues fixed {#Issuesfixed-1}
 
@@ -2063,7 +2063,7 @@ For more information on this feature, refer to  [Shared catalogs Help](../admini
 
 **Reports**
 
-* The time taken to load reports is higher in the latest update of Captivate Prime. This issue is fixed. 
+* The time taken to load reports is higher in the latest update of Learning Manager. This issue is fixed. 
 
 +++
 
@@ -2075,7 +2075,7 @@ Release date: October 12, 2016.
 
 **Course reports**
 
-* For Universal Unique Identifier (UUID) enabled Captivate Prime accounts, UUID appears in course enrollment report, learner transcripts, and Quiz score reports. 
+* For Universal Unique Identifier (UUID) enabled Learning Manager accounts, UUID appears in course enrollment report, learner transcripts, and Quiz score reports. 
 
 ### Issues fixed {#Issuesfixed-2}
 
@@ -2085,7 +2085,7 @@ Release date: October 12, 2016.
 
 **Add users**
 
-* In some instances, when a single user is added to Captivate Prime application, an email notification is not received by the user. This issue is fixed.
+* In some instances, when a single user is added to Learning Manager application, an email notification is not received by the user. This issue is fixed.
 * Administrators were unable to download the CSV file if the CSV upload process fails. This issue is fixed, Administrators can download the latest CSV even if the CSV upload process fails. 
 * If a CSV is imported after modifying self-registered user info with mixed case letters, then the self-registered user details were not displayed in Administrator user interface. This issue is fixed. 
 
@@ -2107,7 +2107,7 @@ Release date: October 12, 2016.
 
 **Certifications**
 
-* When an Administrator removes learners from a recurring certification, an error used to occur and the Captivate Prime application used to hang up. This issue is fixed. 
+* When an Administrator removes learners from a recurring certification, an error used to occur and the Learning Manager application used to hang up. This issue is fixed. 
 
 **Reports**
 
@@ -2128,7 +2128,7 @@ Release date: October 12, 2016.
 
 **User interface**
 
-* Some minor typos are fixed in the Captivate Prime application user interface for learner role.
+* Some minor typos are fixed in the Learning Manager application user interface for learner role.
 
 +++
 
@@ -2174,7 +2174,7 @@ Now, Administrators can customize the course or learning program effectiveness f
 
 **Add external users**
 
-Captivate Prime has enhanced the maximum limit of external self registrations to 5 digits. 
+Learning Manager has enhanced the maximum limit of external self registrations to 5 digits. 
 
 **Reports**
 
@@ -2188,7 +2188,7 @@ In some instances, when an author edits a shared course to update a modified mod
 
 **Multi-language support**
 
-In some of the features of Captivate Prime user interface, the messages were not being translated and displayed to the user in appropriate locale sentences. This issue is fixed. 
+In some of the features of Learning Manager user interface, the messages were not being translated and displayed to the user in appropriate locale sentences. This issue is fixed. 
 
 **Add users**
 
@@ -2282,19 +2282,19 @@ The search engine performance has been enhanced to provide more accurate search 
 
 **Adobe Connect integration**
 
-The integration request verification/authentication process has been enhanced in Captivate Prime application. 
+The integration request verification/authentication process has been enhanced in Learning Manager application. 
 
 ### Issues fixed {#Issuesfixed-7}
 
 **Add users**
 
-* When there are large number of Captivate Prime users, there was a delay in loading users and user groups page. This issue is fixed. 
+* When there are large number of Learning Manager users, there was a delay in loading users and user groups page. This issue is fixed. 
 * After Administrator completes uploading CSV file with new users, the list of users in the page was not updated with new users until the page was refreshed. This issue is fixed. 
 * Sometimes, after importing users using CSV, the user id value in the page used to be replaced with email id. This issue is fixed. 
 
 **Create user groups**
 
-In some instances, user count was not displayed in default user groups page of Captivate Prime. This issue is fixed.
+In some instances, user count was not displayed in default user groups page of Learning Manager. This issue is fixed.
 
 **Learner transcript**
 
@@ -2355,17 +2355,17 @@ Release date: July 31, 2016.
 
 ## New features and enhancements {#newfeaturesandenhancements}
 
-For a list of new features and enhancements in Captivate Prime July release, refer to [What's New](../whats-new.md).
+For a list of new features and enhancements in Learning Manager July release, refer to [What's New](../whats-new.md).
 
 Some of the enhancement features are listed below for your reference. 
 
 **Learner transcript**
 
-Captivate Prime provides you a feature to generate transcripts for your organization's Captivate Prime learners. For more information, refer to  [Learner Transcripts feature help content](../administrators/feature-summary/learner-transcripts.md). 
+Learning Manager provides you a feature to generate transcripts for your organization's Learning Manager learners. For more information, refer to  [Learner Transcripts feature help content](../administrators/feature-summary/learner-transcripts.md). 
 
 **Export badge as PDF**
 
-Captivate Prime allows you to export your badges as PDF files. For more information, refer to  [Badges feature content](../administrators/feature-summary/badges.md). 
+Learning Manager allows you to export your badges as PDF files. For more information, refer to  [Badges feature content](../administrators/feature-summary/badges.md). 
 
 **Quiz score for modules**
 
@@ -2376,7 +2376,7 @@ You can add quiz score for Classroom, Virtual classroom and activity modules.
 * You can move learners from one self registration group to another group. 
 * You can move users from one external group to another external group. 
 * You can make a user of external group as Manager of the same external group. 
-* After adding an external user group to Captivate Prime, you can also pause the external users registration process. At any point in time, you can always revoke the blockage (pause) by choosing a Resume option.
+* After adding an external user group to Learning Manager, you can also pause the external users registration process. At any point in time, you can always revoke the blockage (pause) by choosing a Resume option.
 * Now, you can edit the name and email id of learners.
 
 **Self-enrollment**
@@ -2389,8 +2389,8 @@ Now, Administrators can mark a learning activity of learners as complete.
 
 **Reports**
 
-* You can subscribe to course, learning program or certificate reports. You can also subscribe to individual course reports for data like quiz score and learner status. The subscriptions will be delivered to your email ID as registered in Captivate Prime account. You can also change this email id.  
-* When you export Certification enrollment report, a new column named **Due Date **is also exported. This column data enables Administrators to know the learners who missed their learning object consumption deadlines. 
+* You can subscribe to course, learning program or certificate reports. You can also subscribe to individual course reports for data like quiz score and learner status. The subscriptions will be delivered to your email ID as registered in Learning Manager account. You can also change this email id.  
+* When you export Certification enrollment report, a new column named **Due Date** is also exported. This column data enables Administrators to know the learners who missed their learning object consumption deadlines. 
 
 **Email templates**
 
@@ -2406,11 +2406,11 @@ Release date: June 15, 2016.
 
 **Add users**
 
-When there are large number of Captivate Prime users, there was a delay in loading users and user groups page. This issue is fixed. 
+When there are large number of Learning Manager users, there was a delay in loading users and user groups page. This issue is fixed. 
 
 **Create user groups**
 
-In some instances, user count was not displayed in default user groups page of Captivate Prime. This issue is fixed.
+In some instances, user count was not displayed in default user groups page of Learning Manager. This issue is fixed.
 
 +++
 
@@ -2420,7 +2420,7 @@ Release date: June 10, 2016.
 
 ## Issue fixed {#Issuefixed-1}
 
-Some customers faced problems in using Single sign-on feature in Captivate Prime. This issue has been fixed by referring Captivate Prime's entityId to a URL (https://captivateprime.adobe.com) instead of a keyword. Captivate Prime conforms to SAML 2.0 specification. 
+Some customers faced problems in using Single sign-on feature in Learning Manager. This issue has been fixed by referring Learning Manager's entityId to a URL (https://captivateprime.adobe.com) instead of a keyword. Learning Manager conforms to SAML 2.0 specification. 
 
 +++
 
@@ -2448,12 +2448,12 @@ When external learners visit the registration page using an external profile URL
 **Preview and publish courses**
 
 * In author role, when you preview a course which was uploaded from Captivate as a SCORM+SWF content with `code $$cpQuizInfoStudentName$$` variable, null value was displayed for variable. This issue is fixed. 
-* When a Presenter course with title containing apostrophe (') is published and viewed in Captivate Prime, question marks (???) used to appear in TOC. This issue is fixed. 
+* When a Presenter course with title containing apostrophe (') is published and viewed in Learning Manager, question marks (???) used to appear in TOC. This issue is fixed. 
 
 **Certifications**
 
 * If a certification is associated with a catalog and when the certification recurs, it appears in all the associated catalogs. Earlier, there were some instances where users could not view the recurring certifications in their catalogs. 
-* While creating certifications, if an administrator enters the **days to complete **value which is greater than or equal to validity period of the certification, a warning message appears. Earlier, the warning message was not shown to the administrators. 
+* While creating certifications, if an administrator enters the **days to complete** value which is greater than or equal to validity period of the certification, a warning message appears. Earlier, the warning message was not shown to the administrators. 
 * The certification **validity** is displayed to users in terms of months. Earlier, the base value was appearing in terms of years.
 
 **Define learning programs**
@@ -2541,7 +2541,7 @@ Manager name, learning object name, and user-defined non-unique value columns fr
 
 **Add external partners**
 
-Captivate Prime application does not allow external learners to log into the application after their account is expired. External partners can view their account status in the application. 
+Learning Manager application does not allow external learners to log into the application after their account is expired. External partners can view their account status in the application. 
 
 **Certifications**
 
@@ -2612,7 +2612,7 @@ When a learner hovers mouse on a video announcement, the cursor was not changing
 
 **User notifications**
 
-When an external learner clicks the **Open Notes **link in Re-visit course email notification, it was not working. This issue is fixed now. This link opens up the Player with notes, even when the user is not logged in to Captivate Prime.  
+When an external learner clicks the **Open Notes **link in Re-visit course email notification, it was not working. This issue is fixed now. This link opens up the Player with notes, even when the user is not logged in to Learning Manager.  
 
 **French and German language support**
 
@@ -2664,7 +2664,7 @@ Events for learning plans have been updated. Couple of new events have been adde
 
 ### Notes reminder
 
-If you take any notes while consuming a course, Captivate Prime reminds you after 15 days by sending a notification to review the notes.
+If you take any notes while consuming a course, Learning Manager reminds you after 15 days by sending a notification to review the notes.
 
 ### Group level gamification
 
@@ -2672,11 +2672,11 @@ Administrators can define the scope of gamification by changing the scope settin
 
 ### French and German language support
 
-Captivate Prime application is available in French and German languages. You can customize the language for feedback, course instances and communication.
+Learning Manager application is available in French and German languages. You can customize the language for feedback, course instances and communication.
 
 ### Enhancements {#Enhancements-13}
 
-There are significant enhancements to the existing features of Captivate Prime. Some of the predominant enhancements are as follows:
+There are significant enhancements to the existing features of Learning Manager. Some of the predominant enhancements are as follows:
 
 ### Import CSV
 
@@ -2712,7 +2712,7 @@ Learners get notifications whenever they are self-enrolled to a learning program
 
 **Classroom Modules (ILT)**
 
-You can create classroom courses for a past date. This feature enables the company administrators to feed older classroom courses information also into the Captivate Prime and generate reports. 
+You can create classroom courses for a past date. This feature enables the company administrators to feed older classroom courses information also into the Learning Manager and generate reports. 
 
 **Export reports**
 
@@ -2720,7 +2720,7 @@ Learners report has been enhanced. You can view name, e-mail, status of learning
 
 **Add external partners**
 
-After enrolling the external learners to Captivate Prime account, you can also downsize the number of learners, if required. However, you cannot downsize the learners beyond the used number of seats. As a workaround, you can delete the registered learners first and then enroll again with the required number of seats. 
+After enrolling the external learners to Learning Manager account, you can also downsize the number of learners, if required. However, you cannot downsize the learners beyond the used number of seats. As a workaround, you can delete the registered learners first and then enroll again with the required number of seats. 
 
 ### Issues fixed {#Issuesfixed-14}
 
@@ -2756,7 +2756,7 @@ Release date: February 09, 2016.
 
 ## Sign Out behavior updated {#signoutbehaviorupdated}
 
-When users click **Sign Out** in Captivate Prime, they are now logged out of the Captivate Prime application and also they are logged out of their Adobe IDs.
+When users click **Sign Out** in Learning Manager, they are now logged out of the Learning Manager application and also they are logged out of their Adobe IDs.
 
 +++
 
@@ -2780,13 +2780,13 @@ Release date: January 20, 2016.
 
 **Create courses using modules**
 
-* While creating a course, authors can arrange pre-requisite courses in any order. Earlier, this option was not available in Captivate Prime. 
+* While creating a course, authors can arrange pre-requisite courses in any order. Earlier, this option was not available in Learning Manager. 
 
 * Authors can add or delete pre-requisite courses in Published courses. Earlier, this feature was available only to Draft courses.
 
 **User registration**
 
-* Users can log in to Captivate Prime without any additional URL verification if their Adobe ID matches Captivate Prime e-mail ID. While adding users into the account, the Administrator of an organization provides the Captivate Prime e-mail ID. 
+* Users can log in to Learning Manager without any additional URL verification if their Adobe ID matches Learning Manager e-mail ID. While adding users into the account, the Administrator of an organization provides the Learning Manager e-mail ID. 
 
 **Create catalog**
 
@@ -2833,7 +2833,7 @@ Release date: December 22, 2015
 
 **User registration**
 
-* If a user registers a Captivate Prime account using SSO enabled self-registration, the username in the users list appears correctly as per records. There were some instances where the username used to appear incorrectly. 
+* If a user registers a Learning Manager account using SSO enabled self-registration, the username in the users list appears correctly as per records. There were some instances where the username used to appear incorrectly. 
 
 **Create courses using modules**
 
@@ -2841,7 +2841,7 @@ Release date: December 22, 2015
 
 **Create custom catalog for user group**
 
-* While using **Add learning objects **dialog in Administrator role, you can filter courses, choose a course, and add using **Add** button at the bottom of the dialog. In some instances, **Add **button was not appearing for some users. 
+* While using **Add learning objects** dialog in Administrator role, you can filter courses, choose a course, and add using **Add** button at the bottom of the dialog. In some instances, **Add** button was not appearing for some users. 
 
 +++
 
@@ -2853,11 +2853,11 @@ Release date: December 11, 2015
 
 **User login**
 
-* When a user tries to log in to Captivate Prime application without using activation link, the error message was appearing in wrong format. This issue is fixed.
+* When a user tries to log in to Learning Manager application without using activation link, the error message was appearing in wrong format. This issue is fixed.
 
 **App for tablets**
 
-* After installing Captivate Prime in Android or iPhone tablet, browser compatibility messages do not appear. Earlier, a browser compatibility message used to appear for users. This issue is fixed. 
+* After installing Learning Manager in Android or iPhone tablet, browser compatibility messages do not appear. Earlier, a browser compatibility message used to appear for users. This issue is fixed. 
 
 +++
 
@@ -2870,11 +2870,11 @@ Release date: December 09, 2015
 **Add users**
 
 * In Administrator role, when Administrator registers users or completes adding a single user, a message appears indicating successful completion of the workflow along with the next steps to follow. 
-* When a user tries to log in to Captivate Prime application directly without using the user activation link, an error message appears prompting users to use the activation link. 
+* When a user tries to log in to Learning Manager application directly without using the user activation link, an error message appears prompting users to use the activation link. 
 
 **Supported browsers**
 
-* If any user accesses Captivate Prime application in unsupported browsers, the user receives an alert with the list of white-listed browsers. 
+* If any user accesses Learning Manager application in unsupported browsers, the user receives an alert with the list of white-listed browsers. 
 
 ### Issues fixed {#Issuesfixed-18}
 
@@ -2889,7 +2889,7 @@ Release date: December 09, 2015
 
 **User registration**
 
-* Welcome e-mail received by new users highlights the importance of linking Adobe ID with the Captivate Prime ID for successful login. 
+* Welcome e-mail received by new users highlights the importance of linking Adobe ID with the Learning Manager ID for successful login. 
 
 **Customizable emails**
 
@@ -2929,11 +2929,11 @@ Release date: October 26, 2015.
 **Create courses using modules**
 
 * While creating courses with activity modules, authors can choose valid external URLs even if they contain folder paths in the URL. Earlier, the URLs with folder paths were not supported. This issue is fixed.  
-* If the course content is a project which is uploaded with a zip file in Captivate Prime and if that zip file contains folder paths, as Zip>folder>content, this type of content was not supported. This issue is fixed. 
+* If the course content is a project which is uploaded with a zip file in Learning Manager and if that zip file contains folder paths, as Zip>folder>content, this type of content was not supported. This issue is fixed. 
 
 **App for tablets**
 
-* When a user tries to download the resource files of a course in Captivate Prime Android app, the resource files were not downloadable. This issue is fixed. 
+* When a user tries to download the resource files of a course in Learning Manager Android app, the resource files were not downloadable. This issue is fixed. 
 * While consuming a course using Fluidic player, when a user records Note and tries to download it from the course later, it was not downloadable. This issue is fixed. 
 
 +++
@@ -2946,7 +2946,7 @@ Release date: September 28, 2015
 
 **Create courses using modules**
 
-* Captivate Prime application supports uploading of SCORM content even if the version is not mentioned in manifest.xml file. By default, the version is considered as 1.2.  
+* Learning Manager application supports uploading of SCORM content even if the version is not mentioned in manifest.xml file. By default, the version is considered as 1.2.  
 * When you upload Captivate course content with more than 500 MB size, the content was not playing in Fluidic player. As part of Update 2, the size limit has been changed to 800 MB.
 
 **Billing**

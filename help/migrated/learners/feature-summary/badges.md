@@ -1,5 +1,5 @@
 ---
-description: Learn how to view and download badges using the Captivate Prime Learner app.
+description: Learn how to view and download badges using the Learning Manager Learner app.
 jcr-language: en_us
 title: Badges
 contentowner: manochan
@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Badges
 
-Learn how to view and download badges using the Captivate Prime Learner app.
+Learn how to view and download badges using the Learning Manager Learner app.
 
 ## Badges {#Badges-1}
 
@@ -39,11 +39,11 @@ You can also download a set of badges or an individual badge in PDF format.
 
 ## Open badges {#openbadges}
 
-The Open Badges backpack platform, which Captivate Prime supports, is being **retired**. At present, Captivate Prime does not support Open Badges.
+The Open Badges backpack platform, which Learning Manager supports, is being **retired**. At present, Learning Manager does not support Open Badges.
 
 Open badges is a standard to recognize and verify learning for the learners. You can use these badges to showcase your achievements online.
 
-Captivate Prime supports open badges concept for its learners. You can use the downloaded badges as open badges. Each badge that you download has the metadata information that supports the new open badge standard.
+Learning Manager supports open badges concept for its learners. You can use the downloaded badges as open badges. Each badge that you download has the metadata information that supports the new open badge standard.
 
 ## Support for Badgr badges
 
@@ -51,11 +51,11 @@ Learners can integrate their learning platform account with their Badgr account.
 
 Open badges are badges which have some metadata embedded into the badge image. This metadata gives information about the issuer, the recipient, the task achieved, validity of the badge etc. Badgr backpack will be accessible directly from Prime for providing a central place to store all badges and share them. Learners can login to their Badgr account and establish the integration. From then on, badges achieved in Prime get uploaded to Badgr account automatically.
 
-Once the Administrator enables the option **Badgr Integration**, a learner can then integrate with Badgr and configure his/her badge. To integrate, learner need to login to the Badgr account from Captivate Prime. 
+Once the Administrator enables the option **Badgr Integration**, a learner can then integrate with Badgr and configure his/her badge. To integrate, learner need to login to the Badgr account from Learning Manager. 
 
 >[!NOTE]
 >
->Captivate Prime does not offer a Badgr account as a part of this integration. Learner should create his/her own account and integrate with Captivate Prime. 
+>Learning Manager does not offer a Badgr account as a part of this integration. Learner should create his/her own account and integrate with Learning Manager. 
 
 A Learner must have a Badgr account created before establishing a connection from Prime.
 

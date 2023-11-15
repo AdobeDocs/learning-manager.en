@@ -8,7 +8,7 @@ contentowner: dvenkate
 
 # Custom roles
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 This feature helps you define custom roles and assign specific responsibilities to set of users. This feature enables you to assign responsibilities outside the purview of the individual's existing role.
 
@@ -66,7 +66,7 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    ![](assets/define-scope-of-privileges.png)
 
-   In Captivate Prime 27.6, you can create a custom role to be scoped over multiple catalogs with each catalog being granted different set of permissions.
+   In Learning Manager 27.6, you can create a custom role to be scoped over multiple catalogs with each catalog being granted different set of permissions.
 
    To grant various permissions to the catalogs, follow the steps below:
 
@@ -219,7 +219,7 @@ You can create a custom role to provide authoring capabilities limited to a part
 
 ## Restrict folder access for custom authors {#folder-custom-author}
 
-Captivate Prime already supports an ability to give access to content Library using custom roles. All custom authors who already have access to the content library, will continue to have access to all content files even after content folders are configured. This is to maintain the legacy behavior. Administrators need not make any changes in case they wish to continue to current behavior.  
+Learning Manager already supports an ability to give access to content Library using custom roles. All custom authors who already have access to the content library, will continue to have access to all content files even after content folders are configured. This is to maintain the legacy behavior. Administrators need not make any changes in case they wish to continue to current behavior.  
 
 In case they wish to restrict access to these custom authors, Administrators need to edit the existing custom role and configure them by providing access to only specific content folders. 
 
@@ -365,13 +365,13 @@ To switch between roles, click your profile icon on the upper-right corner of Pr
 
 ## Learning plans scoped by configurable roles {#scopeconfigure}
 
-In earlier versions of Captivate Prime, any Custom Role with permission to create learning plans could scope the learning plan for all types of user groups and Learning Objects.
+In earlier versions of Learning Manager, any Custom Role with permission to create learning plans could scope the learning plan for all types of user groups and Learning Objects.
 
 The scope setting used to be disabled when learning plan access was granted, which gave the user access to All Catalogs and All User Groups by default.
 
 All learning plans created by an Admin, by default, are applicable to all users. Users can also be assigned any Learning Object. On the other hand, users with Custom Roles have access to full scopes, for example, all catalogs, Learning Objects, or User Groups. This meant that admins were unable to create Custom Roles as expected that allowed access to Learning Plans for users with limited scope.
 
-In this update of Captivate Prime, you can create Custom Roles for Learning Plans that allow scoping of users and Learning Objects. In other words, Learning Plans can be created with a limited scope that is derived from a custom admin's role scope.
+In this update of Learning Manager, you can create Custom Roles for Learning Plans that allow scoping of users and Learning Objects. In other words, Learning Plans can be created with a limited scope that is derived from a custom admin's role scope.
 
 Now, an Admin can define or restrict the scope while granting learning plan management access.
 
@@ -389,7 +389,7 @@ Assign a user to the Custom Role.
 
 ![](assets/assign-users-to-customrole.png)
 
-The user now logs in to Captivate Prime as Custom Admin and now adds a Learning Plan.
+The user now logs in to Learning Manager as Custom Admin and now adds a Learning Plan.
 
 When a new learner is added, the Custom Admin can select a training from the configurable role's scoped catalogs only.
 

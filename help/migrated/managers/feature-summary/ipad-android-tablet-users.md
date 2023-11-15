@@ -8,7 +8,7 @@ contentowner: manochan
 
 # iPad & Android tablet users
 
-In Captivate Prime app on iPad or Android tablet, after you log in as a learner, you can see the following **Home** screen:
+In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the following **Home** screen:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
@@ -18,7 +18,7 @@ To navigate to learning and catalog features, tap the **Menu** drop-down and cho
 
 ## Access the app off-line {#accesstheappoffline}
 
-You can access the Captivate Prime app off-line in iPad and Android tablets. Download and take courses in off-line mode, and synchronize the content back with online app when you connect to the network.
+You can access the Learning Manager app off-line in iPad and Android tablets. Download and take courses in off-line mode, and synchronize the content back with online app when you connect to the network.
 
 1. Tap Menu drop-down at the top and tap Learning option. A list of all the available courses is displayed in tiles.
 1. Tap the download icon at the bottom of each learning object tile, to download the learning content.

@@ -47,7 +47,7 @@ In the left pane of the application, click Notifications.
 
 +++Can I configure notifications to learners? How?
 
-When you assign courses to learners, they get notified through the Captivate Prime application.
+When you assign courses to learners, they get notified through the Learning Manager application.
 
 Administrator of your organization configures the notifications.
 
@@ -65,7 +65,7 @@ You can click drop-down icon to modify the date range, save, and view the report
 
 You can create reports for your team members to view the list of skills assigned and achieved by each one of them. ClickReports on the left pane and click Sample Reports tab to view a Skills vs Managers sample report.
 
-For more information, refer to [Reports](feature-summary/reports.md) feature in the Captivate Prime Help.
+For more information, refer to [Reports](feature-summary/reports.md) feature in the Learning Manager Help.
 
 +++
 
@@ -121,9 +121,9 @@ Administrator of your company will assign manager role to you based on your elig
 
 +++
 
-+++How do I log in to the Captivate Prime first time?
++++How do I log in to the Learning Manager first time?
 
-When you are using Captivate Prime for the first time, you have three options:
+When you are using Learning Manager for the first time, you have three options:
 
 * Log in with Adobe ID and password. If you do not have an Adobe ID, you can create one by clicking the log in with Adobe ID link and following the instructions.
 * If you have not yet created account in Adobe Learning Manager, create your account by clicking Create Account on the log in screen.

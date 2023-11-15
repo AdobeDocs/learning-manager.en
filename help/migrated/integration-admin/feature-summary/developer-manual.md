@@ -8,35 +8,35 @@ contentowner: jayakarr
 
 # Application developer manual
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Captivate Prime V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Captivate Prime.
+Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Learning Manager.
 
 ## Overview {#overview}
 
-[Adobe Learning Manager](http://www.adobe.com/in/products/captivateprime.html) is a cloud-hosted, learner-centric, and self-service learning management solution. Customers can access Captivate Prime resources programmatically using the Captivate Prime API to integrate it with other enterprise applications. The API can also be used by Adobe partners to enhance the value proposition of Captivate Prime, by extending its functionality or by integrating it with other applications or services.
+[Adobe Learning Manager](http://www.adobe.com/in/products/captivateprime.html) is a cloud-hosted, learner-centric, and self-service learning management solution. Customers can access Learning Manager resources programmatically using the Learning Manager API to integrate it with other enterprise applications. The API can also be used by Adobe partners to enhance the value proposition of Learning Manager, by extending its functionality or by integrating it with other applications or services.
 
 ### Usage scenario {#usagescenario}
 
-Using Captivate Prime API, developers can build self-contained applications that extend the functionality of Captivate Prime or integrate Captivate Prime with other enterprise applications workflows. You can develop a web application, desktop client or a mobile app using any technology of your choice. As a developer you can access your application data from within Captivate Prime. The deployment of the application that you develop is external to the Captivate Prime platform and you have full control over the software development lifecycle as the application evolves. Typically, applications are developed by a customer organization for use with their Captivate Prime account, and these applications are private to that specific customer organization. Also, Adobe partners can build generic applications with Captivate Prime API, that can be used by a large set of Captivate Prime customers.
+Using Learning Manager API, developers can build self-contained applications that extend the functionality of Learning Manager or integrate Learning Manager with other enterprise applications workflows. You can develop a web application, desktop client or a mobile app using any technology of your choice. As a developer you can access your application data from within Learning Manager. The deployment of the application that you develop is external to the Learning Manager platform and you have full control over the software development lifecycle as the application evolves. Typically, applications are developed by a customer organization for use with their Learning Manager account, and these applications are private to that specific customer organization. Also, Adobe partners can build generic applications with Learning Manager API, that can be used by a large set of Learning Manager customers.
 
-## Captivate Prime API {#apidescription}
+## Learning Manager API {#apidescription}
 
-The Captivate Prime API is based on principles of REST, and exposes key elements of the Captivate Prime Object Model to application developers through HTTP. Before knowing the details of the API endpoints and the HTTP methods, developers can become familiar with the various Captivate Prime objects, their attributes and inter-relationships. Once the models are understood, it will be useful to get a basic understanding of the structure of API requests and responses, and a few common programming terms that we use generically across the API.
+The Learning Manager API is based on principles of REST, and exposes key elements of the Learning Manager Object Model to application developers through HTTP. Before knowing the details of the API endpoints and the HTTP methods, developers can become familiar with the various Learning Manager objects, their attributes and inter-relationships. Once the models are understood, it will be useful to get a basic understanding of the structure of API requests and responses, and a few common programming terms that we use generically across the API.
 
-For details of the various API endpoints and methods, refer to the  [Captivate Prime API documentation](https://captivateprime.adobe.com/docs/primeapi/v2/).
+For details of the various API endpoints and methods, refer to the  [Learning Manager API documentation](https://captivateprime.adobe.com/docs/primeapi/v2/).
 
 ## API authentication {#apiauthentication}
 
 When writing an application that makes API calls to Prime, you have to register your application using the Integration Admin app. 
 
-Captivate Prime APIs use OAuth 2.0 framework to authenticate and authorize your client applications. 
+Learning Manager APIs use OAuth 2.0 framework to authenticate and authorize your client applications. 
 
 **Procedure**
 
 **1. Set up your application**
 
-You can set up your application with client id and client secret to use the proper end points. Once you register your application, you can get the clientId and clientSecret. Get URL should be used in browser as it authenticates the Captivate Prime users using their pre-configured accounts such as SSO, Adobe ID, and so on. 
+You can set up your application with client id and client secret to use the proper end points. Once you register your application, you can get the clientId and clientSecret. Get URL should be used in browser as it authenticates the Learning Manager users using their pre-configured accounts such as SSO, Adobe ID, and so on. 
 
 ```
 GET https://captivateprime.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE.
@@ -94,7 +94,7 @@ client_id:
 
 An access token is valid for seven days. After a day, you have to generate a new access token using refresh token. If you generate a new access token from refresh token while an existing access token is still valid, the existing token is returned. 
 
-Some of the frequently used terms in Captivate Prime API are explained below for your reference. 
+Some of the frequently used terms in Learning Manager API are explained below for your reference. 
 
 **Includes**
 
@@ -120,7 +120,7 @@ https://captivateprime.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?incl
 
 **Pagination**
 
-Sometimes, an API request results in a long list of objects to be returned in the response. In such cases, the pagination attribute enables the developer to fetch the results sequentially in terms of multiple pages, where each page contains a range of records. For example, pagination attribute in Captivate Prime enables you to set the maximum number of records to be displayed in a page. Also, you can define the range value of records to be displayed on page. 
+Sometimes, an API request results in a long list of objects to be returned in the response. In such cases, the pagination attribute enables the developer to fetch the results sequentially in terms of multiple pages, where each page contains a range of records. For example, pagination attribute in Learning Manager enables you to set the maximum number of records to be displayed in a page. Also, you can define the range value of records to be displayed on page. 
 
 **Sorting**
 
@@ -130,9 +130,9 @@ Sorting is allowed in API models. Based on the model, choose the type of sorting
 
 Let us consider a scenario where a developer wants to get skill name, max points assigned for skill level and points earned by the learner for that skill.
 
-A userSkill model in Captivate Prime APIs consists of id, type, dateAchieved, dateCreated, pointsEarned as default attributes. So, when a developer uses GET method to acquire details of userSkill model, the current data pertaining to the default attributes is shown in the response output. 
+A userSkill model in Learning Manager APIs consists of id, type, dateAchieved, dateCreated, pointsEarned as default attributes. So, when a developer uses GET method to acquire details of userSkill model, the current data pertaining to the default attributes is shown in the response output. 
 
-But, in this scenario, the developer wants to get the skill name, and points of skill level for the user. Captivate Prime API enables you to access this related information using relationship fields and include parameter. The associated models for userSkill are obtained in relatioships tag. You can get the details of each associated models by calling these models along with the userSkill. To get this information, use **`code include`** parameter with dot (period) separated values for each of the associated models. You can use comma as separator to request another model like user include=skillLevel.skill,course
+But, in this scenario, the developer wants to get the skill name, and points of skill level for the user. Learning Manager API enables you to access this related information using relationship fields and include parameter. The associated models for userSkill are obtained in relatioships tag. You can get the details of each associated models by calling these models along with the userSkill. To get this information, use **`code include`** parameter with dot (period) separated values for each of the associated models. You can use comma as separator to request another model like user include=skillLevel.skill,course
 
 **API Call**
 
@@ -168,17 +168,17 @@ For example userId can be 746783 and the userSkills id: 746783_4426_1.
 
 ```
 
-## Captivate Prime models {#models}
+## Learning Manager models {#models}
 
-The Captivate Prime API allows developers to access Captivate Prime objects as RESTful resources. Each API endpoint represents a resource, typically an object instance like Badge, or a collection of such objects. The developers then use the HTTP verbs such as PUT, GET, POST and DELETE to perform the CRUD operations on those objects (collections).
+The Learning Manager API allows developers to access Learning Manager objects as RESTful resources. Each API endpoint represents a resource, typically an object instance like Badge, or a collection of such objects. The developers then use the HTTP verbs such as PUT, GET, POST and DELETE to perform the CRUD operations on those objects (collections).
 
 +++V1 API
 
-The following diagram represents the various elements of the Captivate Prime Object Model in V1 API.
+The following diagram represents the various elements of the Learning Manager Object Model in V1 API.
 
 ![](assets/er-diag-primemodels.png)
 
-The following table describes various elements of the Captivate Prime V1 object model: 
+The following table describes various elements of the Learning Manager V1 object model: 
 
 <table border="1" cellspacing="0" cellpadding="0">
  <tbody>
@@ -186,7 +186,7 @@ The following table describes various elements of the Captivate Prime V1 object 
    <td>
     <p><strong>Serial No</strong></p></td>
    <td>
-    <p><strong>Captivate Prime Object</strong></p></td>
+    <p><strong>Learning Manager Object</strong></p></td>
    <td>
     <p><strong>Description</strong></p></td>
   </tr>
@@ -196,7 +196,7 @@ The following table describes various elements of the Captivate Prime V1 object 
    <td>
     <p>user</p></td>
    <td>
-    <p>User is the key model in Captivate Prime. Users are typically the internal or external learners of an organization who consume learning objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
+    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
   </tr>
   <tr>
    <td>
@@ -204,7 +204,7 @@ The following table describes various elements of the Captivate Prime V1 object 
    <td>
     <p>course</p></td>
    <td>
-    <p>Course is one of the learning objects supported in Captivate Prime, that consists of one or more modules. </p></td>
+    <p>Course is one of the learning objects supported in Learning Manager, that consists of one or more modules. </p></td>
   </tr>
   <tr>
    <td>
@@ -212,7 +212,7 @@ The following table describes various elements of the Captivate Prime V1 object 
    <td>
     <p>module</p></td>
    <td>
-    <p>Module is a building block to create learning objects in Captivate Prime. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
+    <p>Module is a building block to create learning objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
   </tr>
   <tr>
    <td>
@@ -355,14 +355,14 @@ The following table describes various elements of the Captivate Prime V1 object 
 
 +++V2 API
 
-Following are the various elements of the Captivate Prime class diagram in V2 API.
+Following are the various elements of the Learning Manager class diagram in V2 API.
 
 ![](assets/v2api-class-diagram.jpg)
 
 <table>
  <tbody>
   <tr>
-   <th>Captivate Prime Object</th>
+   <th>Learning Manager Object</th>
    <th>Description</th>
   </tr>
   <tr>
@@ -385,7 +385,7 @@ Following are the various elements of the Captivate Prime class diagram in V2 AP
    <td><code>
      user
     </code></td>
-   <td>User is the key model in Captivate Prime. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
+   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
   </tr>
   <tr>
    <td>resource</td>
@@ -822,15 +822,15 @@ As a developer you have to create a trial account on Prime, so that you can have
 
    **URL**: If you know the exact URL where the application is hosted, you can mention it. If you are not aware, then you can mention your company URL. Valid URL name is mandatory in this field. 
 
-   **Redirect Domains**: Enter the domain name of the application where you want the Captivate Prime application to redirect after OAuth authentication. You can mention multiple URLs here but you have to use the valid URLs such as http://google.com, http://yahoo.com and so on. 
+   **Redirect Domains**: Enter the domain name of the application where you want the Learning Manager application to redirect after OAuth authentication. You can mention multiple URLs here but you have to use the valid URLs such as `http://google.com`, `http://yahoo.com` and so on. 
 
    **Description:** Enter the brief description for your application. 
 
-   **Scopes:** Choose one of the four available options to define the scope of your application. Based on your choice mentioned here, Captivate Prime API endpoint are accessible for your application. For example, If you chose **Learner role read access**, then all the Captivate Prime learner API end points are read-only accessible to your application. 
+   **Scopes:** Choose one of the four available options to define the scope of your application. Based on your choice mentioned here, Learning Manager API endpoint are accessible for your application. For example, If you chose **Learner role read access**, then all the Learning Manager learner API end points are read-only accessible to your application. 
 
    **For this account only?**   
    **Yes** - if you choose Yes, then the application is not visible to other account administrators.  
-   **No** - if you choose No, other account admins can also access this application but they need to use the application id to access this application. Application id is generated and displayed in Captivate Prime application Edit mode. 
+   **No** - if you choose No, other account admins can also access this application but they need to use the application id to access this application. Application id is generated and displayed in Learning Manager application Edit mode. 
 
    If you choose **Admin role read and write access** as scope while registering the application and choose **Admin role read access** while authoring the APIs, you can still have write access for the application as the app registration scope supersedes the authorization workflow. 
 
@@ -838,11 +838,11 @@ As a developer you have to create a trial account on Prime, so that you can have
 
 ## Application development and testing {#applicationdevelopmentandtesting}
 
-The Captivate Prime API can be used by developers to build any application. Developers have to ensure that their accounts consist of some valid users and courses. They can create a few dummy users and courses and simulate activity in the trial account, so that they can test functionality of the application.
+The Learning Manager API can be used by developers to build any application. Developers have to ensure that their accounts consist of some valid users and courses. They can create a few dummy users and courses and simulate activity in the trial account, so that they can test functionality of the application.
 
 ## Application deployment {#applicationdeployment}
 
-We recommend that the Captivate Prime Administrator or an Integration Administrator for the production account, to take ownership of making the application available to users within their organization. Once the application has been tested and is considered ready for production, inform the administrator of the production account. Ideally, the administrators want to generate a new client-id and client-secret for the application in the production account, and perform the necessary steps to incorporate them inside the application in a secure manner. The actual procedure for deploying applications varies from enterprise to enterprise, and the Captivate Prime Administrator of your organization has to take support from the IT/IS department within your organization to complete the deployment.
+We recommend that the Learning Manager Administrator or an Integration Administrator for the production account, to take ownership of making the application available to users within their organization. Once the application has been tested and is considered ready for production, inform the administrator of the production account. Ideally, the administrators want to generate a new client-id and client-secret for the application in the production account, and perform the necessary steps to incorporate them inside the application in a secure manner. The actual procedure for deploying applications varies from enterprise to enterprise, and the Learning Manager Administrator of your organization has to take support from the IT/IS department within your organization to complete the deployment.
 
 ## External application approval {#externalapplicationapproval}
 
@@ -852,6 +852,6 @@ You can add external applications by clicking **Approve** at the upper-right cor
 
 ## Frequently Asked Questions
 
-**1. Does Captivate Prime have an E-commerce integration?**
+**1. Does Learning Manager have an E-commerce integration?**
 
 Adobe Learning Manager does not have an E-commerce integration. However, we provide APIs so that you can create your own headless LMS and implement E-commerce features. 

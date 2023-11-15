@@ -1,5 +1,5 @@
 ---
-description: Learn about the Captivate Prime account settings that you can configure as an administrator. 
+description: Learn about the Learning Manager account settings that you can configure as an administrator. 
 jcr-language: en_us
 title: Settings
 contentowner: manochan
@@ -8,9 +8,9 @@ contentowner: manochan
 
 # Settings
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Learn about the Captivate Prime account settings that you can configure as an administrator.
+Learn about the Learning Manager account settings that you can configure as an administrator.
 
 You can change your Administrator profile settings and update your Account settings. View your profile information, add/change profile photo, and modify **About me** content. Update your company info, set up log in methods for users, and set up connect integration through account settings.
 
@@ -31,15 +31,15 @@ Add additional email-ids with semi-colon as a separator.
 **Login methods** - Administrators can choose the mode using which your internal or external users can access the account. 
 
 * **Internal users:** For internal users, you can set Adobe ID or Single Sign-on as a log in mode. 
-* **External users:** For external users, you can set Adobe ID or Single Sign-On or Captivate Prime ID.
+* **External users:** For external users, you can set Adobe ID or Single Sign-On or Learning Manager ID.
 
-If you choose, Captivate Prime ID, external users can log into this account after creating their Captivate Prime username and password.
+If you choose, Learning Manager ID, external users can log into this account after creating their Learning Manager username and password.
 
 >[!NOTE]
 >
 >If there are multiple external profiles set, all profiles can have any one type of login. For example, if login type is Adobe ID, all profiles have to login using Adobe ID only. Each profile cannot have its individual login type.
 
-You can access Captivate Prime application using Adobe ID or by using Single Sign-On. Single sign‑on is a mechanism that allows a user to authenticate once and gain access to multiple applications many number of times. This configuration is not mandatory for the organization. If your organization has SAML 2.0 based SSO provider, you can use it to configure Captivate Prime application. The configuration is required at your organization level and at Captivate Prime application. If you choose to use SSO, contact Adobe support to receive configuration instructions
+You can access Learning Manager application using Adobe ID or by using Single Sign-On. Single sign‑on is a mechanism that allows a user to authenticate once and gain access to multiple applications many number of times. This configuration is not mandatory for the organization. If your organization has SAML 2.0 based SSO provider, you can use it to configure Learning Manager application. The configuration is required at your organization level and at Learning Manager application. If you choose to use SSO, contact Adobe support to receive configuration instructions
 
 **Feedback**
 
@@ -130,7 +130,7 @@ Enable or disable the following settings:
   </tr>
   <tr>
    <td>Product Terminology</td>
-   <td>Captivate Prime has a standard terminology that is used across the product. Modify the terminology to match your organization's needs.</td>
+   <td>Learning Manager has a standard terminology that is used across the product. Modify the terminology to match your organization's needs.</td>
   </tr>
   <tr>
    <td>Module Version Update</td>
@@ -138,7 +138,7 @@ Enable or disable the following settings:
   </tr>
   <tr>
    <td>Auto-register Users</td>
-   <td>If enabled, newly imported Users are auto-registered. By default, users must be registered manually before they can start using Captivate Prime.</td>
+   <td>If enabled, newly imported Users are auto-registered. By default, users must be registered manually before they can start using Learning Manager.</td>
   </tr>
   <tr>
    <td><a id="autodelete"></a>Auto-delete Internal Users</td>
@@ -276,7 +276,7 @@ Enable or disable the following settings:
   </tr>
   <tr>
    <td height="20">Product Terminology</td>
-   <td>Captivate Prime has a standard terminology that is used across the product. Modify the terminology to match your organization's needs.</td>
+   <td>Learning Manager has a standard terminology that is used across the product. Modify the terminology to match your organization's needs.</td>
   </tr>
   <tr>
    <td height="20">Module Version Update</td>
@@ -284,7 +284,7 @@ Enable or disable the following settings:
   </tr>
   <tr>
    <td height="20">Auto-register Users</td>
-   <td>If enabled, newly imported Users are auto-registered. By default, users must be registered manually before they can start using Captivate Prime.</td>
+   <td>If enabled, newly imported Users are auto-registered. By default, users must be registered manually before they can start using Learning Manager.</td>
   </tr>
   <tr>
    <td height="20">Auto-delete Internal Users</td>
@@ -410,23 +410,23 @@ Enable or disable the following settings:
 
 ## AI-based recommendation
 
-Captivate Prime includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner's preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.
+Learning Manager includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner's preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.
 
-The recommendation algorithm is designed to take in multiple sources of input including Industry data on Job roles, titles and descriptions that Adobe has sourced from its partners. This data is then used to train Adobe's AI algorithms so that Captivate Prime can come up with a map that connects industry aligned skills to job titles and/or designations. This then becomes one input to the recommendation algorithm
+The recommendation algorithm is designed to take in multiple sources of input including Industry data on Job roles, titles and descriptions that Adobe has sourced from its partners. This data is then used to train Adobe's AI algorithms so that Learning Manager can come up with a map that connects industry aligned skills to job titles and/or designations. This then becomes one input to the recommendation algorithm
 
-Captivate Prime then uses topic modeling algorithms to analyze the training content within an account and map them to the skills.
+Learning Manager then uses topic modeling algorithms to analyze the training content within an account and map them to the skills.
 
-Captivate Prime uses peer activity data as another signal to drive the recommendation algorithm in a personalized manner. Activities like enrollment, completion and any explicit feedback provided by learners is used here.
+Learning Manager uses peer activity data as another signal to drive the recommendation algorithm in a personalized manner. Activities like enrollment, completion and any explicit feedback provided by learners is used here.
 
-Additionally, Captivate Prime uses explicit and implicit information gathered from individual learners to further personalize recommendations. A learner will be able to indicate their areas of interest explicitly through enrollments and Captivate Prime will receive this information implicitly based on how the Learner ends up taking up the trainings.
+Additionally, Learning Manager uses explicit and implicit information gathered from individual learners to further personalize recommendations. A learner will be able to indicate their areas of interest explicitly through enrollments and Learning Manager will receive this information implicitly based on how the Learner ends up taking up the trainings.
 
-Finally, the Admin will also be able to influence the recommendation algorithm using learner attributes that Captivate Prime should look at when defining peer groups, and also by actually highlighting Trainings for specific user groups.  
+Finally, the Admin will also be able to influence the recommendation algorithm using learner attributes that Learning Manager should look at when defining peer groups, and also by actually highlighting Trainings for specific user groups.  
 
 ## Renaming Learning objects {#renaminglearningobjects}
 
 This feature is only available in English language.
 
-Administrators can now rename Learning Objects in Captivate Prime. The following are the terminologies that can be renamed.
+Administrators can now rename Learning Objects in Learning Manager. The following are the terminologies that can be renamed.
 
 Module  
 Course  
@@ -460,7 +460,7 @@ To rename the terminologies, follow these steps.
 1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL Download here]**option.
 1. The downloaded CSV file contains the name of the objects in coloum A. In coloumn B, choose the name you want to assign to the respective object. Note that you need to update the singular and plural form of the name separated by a (|).
 1. You can choose to modify one or more rows. You can either retain the non-modified rows or remove them from the CSV file before uploading them.
-1. Upload the modified CSV file and click **[!UICONTROL Save]**. Captivate Prime refreshes reflecting your changes.
+1. Upload the modified CSV file and click **[!UICONTROL Save]**. Learning Manager refreshes reflecting your changes.
 1. To reset to default terminologies, click **[!UICONTROL Reset Product Terminology.]**
 
    ![](assets/with-reset-option.png)
@@ -474,7 +474,7 @@ To rename the terminologies, follow these steps.
 
 ## Content Folder {#content-folder}
 
-Captivate Prime supports private content folders. An Administrator can configure private content folders and provide its access to specific custom-authors using Custom Roles. Note that Standard Authors (also called as Full Authors) continue to have access to all the content in the account. Hence Full Authors have access to all folders and all the content. 
+Learning Manager supports private content folders. An Administrator can configure private content folders and provide its access to specific custom-authors using Custom Roles. Note that Standard Authors (also called as Full Authors) continue to have access to all the content in the account. Hence Full Authors have access to all folders and all the content. 
 
 Content Folders can be configured by Administrators. Only once configured, content folders become visible to authors and they get an ability to place the content in one or multiple folders. 
 

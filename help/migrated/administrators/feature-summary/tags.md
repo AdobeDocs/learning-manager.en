@@ -1,5 +1,5 @@
 ---
-description: Learn how to manage tags on Captivate Prime.
+description: Learn how to manage tags on Learning Manager.
 jcr-language: en_us
 title: Tags
 contentowner: dvenkate
@@ -8,9 +8,9 @@ contentowner: dvenkate
 
 # Tags
 
-Learn how to manage tags on Captivate Prime.
+Learn how to manage tags on Learning Manager.
 
-Administrators can now manage tags in Captivate Prime. Use better tagging and manageable data base to help learners search better and get to appropriate search results quickly. You can manage redundant, misspelled, and irrelevant tags using this feature. You can also add, edit, delete, append, or replace tags.
+Administrators can now manage tags in Learning Manager. Use better tagging and manageable data base to help learners search better and get to appropriate search results quickly. You can manage redundant, misspelled, and irrelevant tags using this feature. You can also add, edit, delete, append, or replace tags.
 
 The list of Learning Objects associated with the tag can be viewed by clicking on the count provided next to each tag. The list shows the number of Courses, Learning Programs, Certificates, Job Aids, and Content Groups. Click on any of these options to view the list.
 
@@ -52,7 +52,7 @@ In case of Append operation for tags, the new/existing tag will be appended to a
 
 1. Select the tags you want to append. You can select up to 50 tags at once. Open the Actions drop-down menu and select **[!UICONTROL Append]**.
 1. The  **[!UICONTROL Append Tags]** dialogue box appears showing the selected tags.
-1. You can append an additional tag to all the learning with the selected tags by entering the name of the **[!UICONTROL New Tag]** or from the drop-down list of the existing tags. The new tag will be appended to all the associated learning across Captivate Prime.
+1. You can append an additional tag to all the learning with the selected tags by entering the name of the **[!UICONTROL New Tag]** or from the drop-down list of the existing tags. The new tag will be appended to all the associated learning across Learning Manager.
 
    Semicolon or comma cannot be a part of the tag name. If used, Prime will show an error message. Note that tags without semicolons and display of error messages while using such tags as part of some LO will not be handled for migration scenarios.
 

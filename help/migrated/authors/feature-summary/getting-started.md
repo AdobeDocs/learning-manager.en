@@ -29,7 +29,7 @@ From the getting started page, you can perform the following activities:
 * Create modules
 * Create courses
 
-You can also learn more about the Captivate Prime application by choosing to view tutorial videos, help content and learn about different roles.
+You can also learn more about the Learning Manager application by choosing to view tutorial videos, help content and learn about different roles.
 
 ![](assets/author-experienceprime.png)
 

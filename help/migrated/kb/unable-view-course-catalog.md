@@ -8,7 +8,7 @@ contentowner: saghosh
 
 # Unable to view certain course under catalog while creating a Learning Program
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 ## Issue
 
@@ -16,7 +16,7 @@ While searching for a particular course to add it to a Learning Program, you are
 
 ## Types of enrollment
 
-There are three enrollment type in Captivate Prime:
+There are three enrollment type in Learning Manager:
 
 * Self-enrolled
 * Manager nominated
@@ -38,4 +38,4 @@ These courses can only be nominated by managers. A Learner cannot enroll to thes
 
 In a Learning program, you can only add self enrolled courses and not Manager nominated or Manager approved courses.
 
-This is a default behavior in Captivate Prime.
+This is a default behavior in Learning Manager.

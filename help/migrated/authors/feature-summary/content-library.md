@@ -149,13 +149,13 @@ The content library also maintains versioning of your uploaded contents. If you 
 
    [Supported file types](content-library.md#supported)
 
-1. Captivate Prime supports captions for video content uploaded in Captivate Prime. Now, authors can upload the file containing captions, along with the video file. 
+1. Learning Manager supports captions for video content uploaded in Learning Manager. Now, authors can upload the file containing captions, along with the video file. 
 
    Then, the learners can view the captions during the playback of the video module.  
 
    The format supported is  [Web Video Text Tracks (webVTT)](https://www.w3.org/TR/webvtt1/).
 
-   Caption support is available for video content uploaded in Content library in Captivate Prime. 
+   Caption support is available for video content uploaded in Content library in Learning Manager. 
 
    As an author, when you'll upload a video or audio content, you can also upload the .vtt file that contains the captions.
 
@@ -173,7 +173,7 @@ The content library also maintains versioning of your uploaded contents. If you 
    >
    >   One VTT file supports one language. To support multiple languages, upload multiple video files for each content language and then upload its respective VTT file for each video file.
 
-   As an author, every time you change the content, video or audio, Captivate Prime prompts you for a new vtt file.
+   As an author, every time you change the content, video or audio, Learning Manager prompts you for a new vtt file.
 
    After you add this content to a course, and when you preview the course as learner, you can see the captions on the video.
 
@@ -187,7 +187,7 @@ The content library also maintains versioning of your uploaded contents. If you 
    1. Video announcements.
    1. Video played within the eLlearningcontent. This is driven by the content.
    1. Video uploaded in Social Learning.
-   1. Video created in Captivate Prime desktop app.
+   1. Video created in Learning Manager desktop app.
    1. Video content created using migration process.
    1. Video playback in mobile app in offline mode.
 
@@ -316,7 +316,7 @@ After you've added the content, you can modify the completion criteria for the c
 
 In Prime, badges and skill are awarded based on Success  and Completion. If the learner has completed a course but is not successful, then the learner does not receive the badge and skill corresponding to the LO.
 
-For example, if you had used Adobe Captivate to create your course and set the learning parameters on the Preferences dialog, the same settings get migrated to Captivate Prime in the Completion Criteria options.
+For example, if you had used Adobe Captivate to create your course and set the learning parameters on the Preferences dialog, the same settings get migrated to Learning Manager in the Completion Criteria options.
 
 In the Completion Criteria section, you can set the options mentioned below:
 
@@ -398,9 +398,9 @@ Note that existing courses that use the content, which are deleted from the cont
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-1 - **How to upload a SCORM content in Adobe Learning Manager?** Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Captivate Prime, upload the zip file in the catalog, and set the completion and success criteria. 
+1 - **How to upload a SCORM content in Adobe Learning Manager?** Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Learning Manager, upload the zip file in the catalog, and set the completion and success criteria. 
 
-2 - **How do I upload a new version of the same content to Captivate Prime?** In Captivate Prime, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course. 
+2 - **How do I upload a new version of the same content to Learning Manager?** In Learning Manager, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course. 
 
 3 - **How to edit the details of a course in a different language?** After adding a language/languages, as described in an earlier section, click each language tab, and then add/edit the course information. 
 

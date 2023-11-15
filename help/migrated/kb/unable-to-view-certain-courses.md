@@ -14,7 +14,7 @@ While searching for a particular course to add it to a Certification, you are un
 
 ## Types of enrollment
 
-There are three enrollment type in Captivate Prime:
+There are three enrollment type in Learning Manager:
 
 * Self-enrolled
 * Manager nominated
@@ -39,4 +39,4 @@ In a Certification, you can only add self-enrolled courses and not Manager nomin
 * **Perpetual Certifications:**  You can add a CR or VC session courses in a certification.
 * **Recurring Certifications:** You cannot add a CR or VC session courses in a certification.
 
-This is a default behavior in Captivate Prime.
+This is a default behavior in Learning Manager.

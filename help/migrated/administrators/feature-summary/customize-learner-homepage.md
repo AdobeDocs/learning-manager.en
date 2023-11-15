@@ -208,13 +208,13 @@ On the **General** page, you have the following options:
    <td>
     <p>Logo Styling</p></td>
    <td>
-    <p>This is how your logo and company name will appear on Captivate Prime.<br></p></td>
+    <p>This is how your logo and company name will appear on Learning Manager.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Themes</p></td>
    <td>
-    <p>The theme applied to Captivate Prime.</p></td>
+    <p>The theme applied to Learning Manager.</p></td>
   </tr>
   <tr>
    <td>

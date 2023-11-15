@@ -18,7 +18,7 @@ On clicking this bookmarklet from the bookmark bar, it opens as a pop-up window 
 
 Ensure that you allow pop-up windows in your browser. 
 
-If you are logged into Captivate Prime, then the bookmarklet automatically logs into your account, otherwise, you have to sign in using your Captivate Prime credentials as a learner.
+If you are logged into Learning Manager, then the bookmarklet automatically logs into your account, otherwise, you have to sign in using your Learning Manager credentials as a learner.
 
 Add a description for your post and then select the board in which you want to post to and click **Post**. The board is posted on your dashboard which can be viewed by clicking **Go to Post**.
 
@@ -27,7 +27,7 @@ Add a description for your post and then select the board in which you want to p
 **To add this bookmarklet to the bookmarks bar on your browser, do the following:**
 
 1. Ensure that the bookmarks tab is enabled in the browser. 
-1. Log in to Captivate Prime as a learner. 
+1. Log in to Learning Manager as a learner. 
 1. Click Social Learning from the left navigation panel. If it is not visible, then contact your administrator. 
 1. Drag the **Share to Social** icon to the bookmarks bar in your browser.
 

@@ -1,5 +1,5 @@
 ---
-description: Download learner transcript and manage reports using Captivate Prime.
+description: Download learner transcript and manage reports using Learning Manager.
 jcr-language: en_us
 title: Learner transcripts
 contentowner: jayakarr
@@ -8,9 +8,9 @@ contentowner: jayakarr
 
 # Learner transcripts
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Download learner transcript and manage reports using Captivate Prime.
+Download learner transcript and manage reports using Learning Manager.
 
 Adobe Learning Manager enables the administrators of an organization to generate the transcripts associated with learners. 
 

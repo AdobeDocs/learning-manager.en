@@ -1,5 +1,5 @@
 ---
-description: Read this article to know how to achieve skills in Captivate Prime, as a learner.
+description: Read this article to know how to achieve skills in Learning Manager, as a learner.
 jcr-language: en_us
 title: Skills & Levels
 contentowner: manochan
@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Skills & Levels
 
-Read this article to know how to achieve skills in Captivate Prime, as a learner.
+Read this article to know how to achieve skills in Learning Manager, as a learner.
 
 Skills map is a grouping of skill sets, knowledge, and traits of an employee in an organization. These skills help companies/organizations to set or raise the performance expectations for its employees. Skills enable employees to align their behaviors to organizational expectations.
 

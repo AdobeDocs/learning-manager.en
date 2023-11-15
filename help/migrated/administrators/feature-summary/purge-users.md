@@ -1,5 +1,5 @@
 ---
-description: Know more about purging user data in Captivate Prime.
+description: Know more about purging user data in Learning Manager.
 jcr-language: en_us
 title: Purge users
 contentowner: dvenkate
@@ -8,11 +8,11 @@ contentowner: dvenkate
 
 # Purge users
 
-Know more about purging user data in Captivate Prime.
+Know more about purging user data in Learning Manager.
 
 ## Overview {#overview}
 
-Use the purge user feature to remove personal identifiable information and learning records of the user from Captivate Prime. Note that Delete and Purge User are two different features. While a deleted user can be restored, all user data and learning records associated with a purged user cannot be restored.
+Use the purge user feature to remove personal identifiable information and learning records of the user from Learning Manager. Note that Delete and Purge User are two different features. While a deleted user can be restored, all user data and learning records associated with a purged user cannot be restored.
 
 Purge user action can have the following results:
 
@@ -163,7 +163,7 @@ You can select the first 50 users and purge the users in one shot. This allows A
 
 +++
 
-Prime is now GDPR compliant. For more information on GDPR compliance, see  [Captivate Prime compliance to GDPR.](../../kb/prime-gdpr.md)
+Prime is now GDPR compliant. For more information on GDPR compliance, see  [Learning Manager compliance to GDPR](../../kb/prime-gdpr.md).
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
@@ -171,6 +171,6 @@ Prime is now GDPR compliant. For more information on GDPR compliance, see  [Capt
 
 A request to purge users takes a maximum of 30 days to complete.
 
-**2. Can you perform a bulk purge in Captivate Prime?**
+**2. Can you perform a bulk purge in Learning Manager?**
 
 Yes, you can perform a purge in bulk. However, you can only perform a bulk purge of 50 users.

@@ -10,7 +10,7 @@ contentowner: saghosh
 
 The Integration admin can add number of custom roles to his/her account in bulk via CSV as well as can assign the same to various users. This approach automates the process of creation of custom roles.
 
-You can configure roles via the Captivate Prime FTP and Box connectors.
+You can configure roles via the Learning Manager FTP and Box connectors.
 
 After you sign in to your Box or ExaVault storage account, the Integration admin can add the following csvs in the account:
 

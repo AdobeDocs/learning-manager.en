@@ -1,11 +1,11 @@
 ---
 jcr-language: en_us
-title: xAPI in Captivate Prime
+title: xAPI in Learning Manager
 description: The Experience API (xAPI), is an e-learning software specification that allows learning content and learning systems to speak to each other in a manner that records and tracks all types of learning experiences.
 ---
 
 
-# xAPI in Captivate Prime
+# xAPI in Learning Manager
 
 ## What is xAPI? {#whatisxapi}
 
@@ -13,9 +13,9 @@ The Experience API (xAPI), is an e-learning software specification that allows l
 
 For more information on xAPI, see:  [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
 
-## How does Captivate Prime support xAPI? {#howdoescaptivateprimesupportxapi}
+## How does Learning Manager support xAPI? {#howdoescaptivateprimesupportxapi}
 
-Captivate Prime has an inbuilt Learning Record Store. This LRS has the full capability of accepting xAPI statements from content that has been hosted within Captivate Prime. It even accepts xAPI statements that third parties generate. These xAPI statements are stored within Prime and they can then be exported outside Prime to be visualized into any third-party data warehousing system.
+Learning Manager has an inbuilt Learning Record Store. This LRS has the full capability of accepting xAPI statements from content that has been hosted within Learning Manager. It even accepts xAPI statements that third parties generate. These xAPI statements are stored within Prime and they can then be exported outside Prime to be visualized into any third-party data warehousing system.
 
 ## When do you use xAPI? {#whendoyouusexapi}
 
@@ -50,7 +50,7 @@ Note: xAPI version supported in Prime is 1.0.3.
 
 ## API authentication {#apiauthentication}
 
-Captivate Prime xAPI use OAuth 2.0 framework to authenticate and authorize your client applications. Once you register your application, you can get the clientId and clientSecret. Get URL is used in browser as it authenticates the Captivate Prime users using their pre-configured accounts such as SSO, Adobe ID. 
+Learning Manager xAPI use OAuth 2.0 framework to authenticate and authorize your client applications. Once you register your application, you can get the clientId and clientSecret. Get URL is used in browser as it authenticates the Learning Manager users using their pre-configured accounts such as SSO, Adobe ID. 
 
 ```
 GET https://captivateprime.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<admin:xapi or learner:xapi>&response_type=CODE.
@@ -66,7 +66,7 @@ As an Author you can now choose xAPI module while creating courses to monitor us
 
 1. You are requested to provide an IRI. If not provided, prime generates one automatically.
 
-   IRI for an activity is unique across an account. That means, two modules in Captivate Prime cannot have same IRI. A new IRI is generated in the following cases:
+   IRI for an activity is unique across an account. That means, two modules in Learning Manager cannot have same IRI. A new IRI is generated in the following cases:
 
    * When a course with xAPI module is shared across accounts.
    * When a certification with xAPI module recurs
@@ -80,7 +80,7 @@ As an Author you can now choose xAPI module while creating courses to monitor us
 
 **Points to note:**
 
-* Captivate Prime currently supports only mbox as an identifier. Other identifiers including mboz_sha1, openid, account are not supported.
+* Learning Manager currently supports only mbox as an identifier. Other identifiers including mboz_sha1, openid, account are not supported.
 
 * The stateId and profileId is a UUID when used with Prime.
 * PUT request does not overwrite the document for xAPIs agents/profile, activity/profile, and  activity/state

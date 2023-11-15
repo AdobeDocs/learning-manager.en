@@ -27,6 +27,6 @@ When you are using Adobe Learning Manager for the first time, you need to create
 
 ## User login methods {#userloginmethods}
 
-If you are an internal user to the organization, then you can log in to Captivate Prime either by using Adobe ID or by using Single sign-on method. 
+If you are an internal user to the organization, then you can log in to Learning Manager either by using Adobe ID or by using Single sign-on method. 
 
-If you are an external user to the organization, then you can log in to Captivate Prime either by using Adobe ID, Single sign-on or by using Captivate Prime ID. 
+If you are an external user to the organization, then you can log in to Learning Manager either by using Adobe ID, Single sign-on or by using Learning Manager ID. 

@@ -7,7 +7,7 @@ description: Authors can create virtual classroom courses with Adobe Connect dur
 
 # Adobe Connect integration
 
-Authors can create virtual classroom courses with Adobe Connect during course creation process. To enable Adobe Connect for your Captivate Prime account, you need to contact the Administrator of your organization. 
+Authors can create virtual classroom courses with Adobe Connect during course creation process. To enable Adobe Connect for your Learning Manager account, you need to contact the Administrator of your organization. 
 
 ## Create Virtual Classroom (VC) course with Adobe Connect {#createvirtualclassroomvccoursewithadobeconnect}
 
@@ -30,4 +30,4 @@ Authors can create virtual classroom courses with Adobe Connect during course cr
 
 ## Shared templates of Adobe Connect {#sharedtemplatesofadobeconnect}
 
-By default, all the shared templates created in Adobe Connect account are fetched into Captivate Prime application. You can add customized templates by making them as shared templates in Adobe Connect account.
+By default, all the shared templates created in Adobe Connect account are fetched into Learning Manager application. You can add customized templates by making them as shared templates in Adobe Connect account.

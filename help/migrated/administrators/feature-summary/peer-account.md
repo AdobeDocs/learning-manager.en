@@ -1,5 +1,5 @@
 ---
-description: Read this article to know how to create and manage peer accounts in Captivate Prime.
+description: Read this article to know how to create and manage peer accounts in Learning Manager.
 jcr-language: en_us
 title: Peer accounts
 contentowner: shhivkum
@@ -8,9 +8,9 @@ contentowner: shhivkum
 
 # Peer accounts
 
-Read this article to know how to create and manage peer accounts in Captivate Prime.
+Read this article to know how to create and manage peer accounts in Learning Manager.
 
-Captivate Prime offers the ability to share purchased seats using the Peer account feature. With peer accounts in Captivate Prime, an administrator can share the purchased seats with the peer accounts that the administrator is associated with. In addition, the administrator who has initiated the sharing of seats can view the reports of the peer accounts.
+Learning Manager offers the ability to share purchased seats using the Peer account feature. With peer accounts in Learning Manager, an administrator can share the purchased seats with the peer accounts that the administrator is associated with. In addition, the administrator who has initiated the sharing of seats can view the reports of the peer accounts.
 
 ## Add a peer account {#addapeeraccount}
 
@@ -24,7 +24,7 @@ Captivate Prime offers the ability to share purchased seats using the Peer accou
    ![](assets/addpeer.png)
 
 1. Enter the email ID of the administrator who either accepts or rejects the peer account request.
-1. Specify the number of seats you want to share with your peer. When you share seats with the peer account, the peer account goes into Active state with the received seats, or with the peer’s own purchased seats.
+1. Specify the number of seats you want to share with your peer. When you share seats with the peer account, the peer account goes into Active state with the received seats, or with the peer's own purchased seats.
 
    If you enter a number that is more than the available seats, the system displays a warning.
 
@@ -45,7 +45,7 @@ To know how to generate and view the shared catalogs for the peer account, see [
 
 If you no longer wish to share seats or purchases with an account, you can delete the peer account.
 
-1. From the Captivate Prime administrator app, click Settings > Peer Accounts.
+1. From the Learning Manager administrator app, click Settings > Peer Accounts.
 1. Select the peer account or accounts that you want to delete.   
 1. Do one of the following:
 

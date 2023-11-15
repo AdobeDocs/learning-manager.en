@@ -1,5 +1,5 @@
 ---
-description: Learn how to take up certifications using the Captivate Prime Learners app.
+description: Learn how to take up certifications using the Learning Manager Learners app.
 jcr-language: en_us
 title: Certifications
 contentowner: manochan
@@ -8,11 +8,11 @@ contentowner: manochan
 
 # Certifications
 
-Learn how to take up certifications using the Captivate Prime Learners app.
+Learn how to take up certifications using the Learning Manager Learners app.
 
 Certify your learners on a one time basis or on a recurring time frame using this feature. Only administrators can define the certifications for learners.
 
-Learners can take up the certifications which are assigned to them by the administrators of the organization. There are two types of certifications in Captivate Prime.
+Learners can take up the certifications which are assigned to them by the administrators of the organization. There are two types of certifications in Learning Manager.
 
 1. External  
 

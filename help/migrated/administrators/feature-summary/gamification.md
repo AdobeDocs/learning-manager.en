@@ -12,7 +12,7 @@ Gamification is the use of game thinking and game mechanics in non-game contexts
 
 ## Overview {#overview}
 
-Captivate Prime allows you to apply a structural gamification layer to the content to engage learners and motivate them to achieve their learning goals. It allows the learners to score points for various learning activities and achieve bronze, silver, gold and platinum levels.
+Learning Manager allows you to apply a structural gamification layer to the content to engage learners and motivate them to achieve their learning goals. It allows the learners to score points for various learning activities and achieve bronze, silver, gold and platinum levels.
 
 By default, some sample gamification points and data is available for users to understand the pattern. You can modify the points accordingly.
 
@@ -25,7 +25,7 @@ A sample illustration is provided below that shows all the tasks and points.
 To access the settings, follow the steps below:
 
 1. Log in as an Administrator and on the left pane, click **Gamification**.
-1. When you create a new Captivate Prime account, gamification is disabled by default. To enable it, click **Enable** on the upper- right corner of the page.
+1. When you create a new Learning Manager account, gamification is disabled by default. To enable it, click **Enable** on the upper- right corner of the page.
 
 ## Administrator actions {#administratoractions}
 

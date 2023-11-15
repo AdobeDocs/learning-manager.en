@@ -24,7 +24,7 @@ You can add a classroom location by using the UI:
 
 1. In the **Classroom Location** dialog box, enter the following details:
 
-   * Type the **Classroom Location Name**. Use a unique name. Otherwise, Captivate Prime displays an error message.
+   * Type the **Classroom Location Name**. Use a unique name. Otherwise, Learning Manager displays an error message.
    * Type the location description in the **Location Information** field. This field is optional.
    * Type the **Location URL**. Learner can see this information in the classroom details. The URL can also be a maps location URL, if required. This is an optional field.
    * Type the number of available seats in the **Seat Limit** field. This indicates the seat capacity of the classroom. This value can be changed when creating the actual instructor-led training event.

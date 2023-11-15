@@ -1,24 +1,24 @@
 ---
-description: Manage Captivate Prime billing, place orders by using a credit card, subscribe using a Purchase Order, or via a Monthly Active Users plan.
+description: Manage Learning Manager billing, place orders by using a credit card, subscribe using a Purchase Order, or via a Monthly Active Users plan.
 jcr-language: en_us
-title: Manage Captivate Prime orders and billing
+title: Manage Learning Manager orders and billing
 contentowner: manochan
 ---
 
 
-# Manage Captivate Prime orders and billing
+# Manage Learning Manager orders and billing
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Credit card-based purchase is only available in the [US region](http://captivateprime.adobe.com/).
 
-Manage Captivate Prime billing, place orders by using a credit card, subscribe using a Purchase Order, or via a Monthly Active Users plan.
+Manage Learning Manager billing, place orders by using a credit card, subscribe using a Purchase Order, or via a Monthly Active Users plan.
 
-Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Captivate Prime](https://www.adobe.com/products/captivateprime.html) page.
+Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Learning Manager](https://www.adobe.com/products/captivateprime.html) page.
 
 Only the Administrators of your organization can manage billing.
 
-If you want to contact Adobe for more information about Captivate Prime subscription and billing, write to us at [captivateprimesales@adobe.com](mailto:captivateprimesales@adobe.com).
+If you want to contact Adobe for more information about Learning Manager subscription and billing, write to us at [captivateprimesales@adobe.com](mailto:captivateprimesales@adobe.com).
 
 ## Place orders using credit cards {#placeordersusingcreditcards}
 
@@ -71,7 +71,7 @@ All orders can have one of the four statuses:
 * Expiry of the credit card.
 * Payment is declined for any recurring payment cycle.
 
-**Canceled initiated:** An order moves into this state when the Captivate Prime Administrator deactivates the account. The order then moves into a canceled state after receiving the cancellation confirmation of the order.
+**Canceled initiated:** An order moves into this state when the Learning Manager Administrator deactivates the account. The order then moves into a canceled state after receiving the cancellation confirmation of the order.
 
 ## Update subscription details {#updatesubscriptiondetails}
 
@@ -93,14 +93,14 @@ To cancel an order:
 1. In the Billing page, on the upper-right corner, choose **Actions** > **Deactivate Account**.
 1. Once the Administrator deactivates the account, all existing orders in the account are canceled from the next billing cycle.
 
-When an account is deactivated by the customer, it enters a trial state for the next 30 days. The account owner receives three reminder emails to revive the account. If the owner does not reactivate the account, none of the users are able to access Captivate Prime apart from the owner.
+When an account is deactivated by the customer, it enters a trial state for the next 30 days. The account owner receives three reminder emails to revive the account. If the owner does not reactivate the account, none of the users are able to access Learning Manager apart from the owner.
 
 ## Place orders using Purchase Order {#placeordersusingpurchaseorder}
 
 You can choose purchase order process as an alternative mode of payment. As a pre-requisite, your organization's account must be registered with Adobe. Your organization account is charged for this process. The account is charged based on a learner's activities. Only Learning Object-level activities are charged. To place an order using PO:
 
 1. Send an email to [captivateprimesales@adobe.com](mailto:captivateprimesales@adobe.com) and mention the number of required learners.
-1. The Captivate Prime team sends you an activation key.
+1. The Learning Manager team sends you an activation key.
 1. In the Billing page of the Administrator app, enter the activation key.
 1. Click Activate in the upper-right corner of the page.
 
@@ -116,17 +116,17 @@ After an account gets activated, the account can be in any of the following stat
   * Administrator deactivates the account, which results in canceling all the existing orders in an account from the next billing cycle of subscription.
   * Payment is declined for active orders in an account even after reminders.
 
-An inactive state does not cancel your account with immediate effect. You receive at least a couple of reminders from the Captivate Prime team asking you to provide the latest information about
+An inactive state does not cancel your account with immediate effect. You receive at least a couple of reminders from the Learning Manager team asking you to provide the latest information about
 
 your credit card if it has expired. In an inactive state, only an administrator can log in to the Captivate
 
 Prime account. All other users cannot access the account.
 
-* **Activation required** - Your account moves into this state when the Captivate Prime administrator chooses to deactivate the account. All the orders of this account get canceled. The collection of payment for these orders does not happen from the next billing cycle. The status of the account remains in this state until the day of the last billing cycle. In this state, all users can continue to use the application without any impact until the end of the last recurring payment date.
+* **Activation required** - Your account moves into this state when the Learning Manager administrator chooses to deactivate the account. All the orders of this account get canceled. The collection of payment for these orders does not happen from the next billing cycle. The status of the account remains in this state until the day of the last billing cycle. In this state, all users can continue to use the application without any impact until the end of the last recurring payment date.
 
 ## Cancel a subscription {#Cancelasubscription-1}
 
-To cancel an active subscription, contact the Captivate Prime support team.
+To cancel an active subscription, contact the Learning Manager support team.
 
 ## Account termination fee {#accountterminationfee}
 
@@ -167,7 +167,7 @@ Any user who performs the following actions or achieves completions due to actio
 
 1. On the page that displays, you can view the following:
 
-   * **Overall usage:** You can check the total number of active users, users who are consuming Captivate Prime in a month, and the number of users who have not yet signed up for any course.
+   * **Overall usage:** You can check the total number of active users, users who are consuming Learning Manager in a month, and the number of users who have not yet signed up for any course.
 
    * **Monthly usage:** You can see a table of unique active users per month.
 
@@ -185,7 +185,7 @@ The reports are saved in the Downloads folder of your browser.
 
 ## Cancel a subscription
 
-To cancel an active subscription, contact the Captivate Prime support team.
+To cancel an active subscription, contact the Learning Manager support team.
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
@@ -193,7 +193,7 @@ To cancel an active subscription, contact the Captivate Prime support team.
 
 To add subscriptions in an account, add the number of users for who you'd like to purchase subscriptions. Then on the upper-right corner, click **Place Order**. Review the estimate and click **Proceed**. Enter your account details and also your credit card details. Then to purchase the subscriptions, click **Complete Order**.
 
-To remove an active subscription, contact the Captivate Prime support team.
+To remove an active subscription, contact the Learning Manager support team.
 
 **2. How to change a credit card for subscriptions?**
 
@@ -201,7 +201,7 @@ In the **Order History** tab, for an active account, click **Edit**. Then on the
 
 ![](assets/credit-card-details.png)
 
-**3. How to update the Billing information on Captivate Prime?**
+**3. How to update the Billing information on Learning Manager?**
 
 To update the billing information, follow the steps below:
 

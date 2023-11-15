@@ -8,13 +8,13 @@ contentowner: manochan
 
 # Getting started as a Learner
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Get started with the Learner app in Captivate Prime
+Get started with the Learner app in Learning Manager
 
-The Learner App in Captivate Prime is completely widget based, helping you traverse through the various features in one or two clicks.
+The Learner App in Learning Manager is completely widget based, helping you traverse through the various features in one or two clicks.
 
-In Captivate Prime web application, after you log in as a learner, you can see the following widgets in the Home page:
+In Learning Manager web application, after you log in as a learner, you can see the following widgets in the Home page:
 
 ![](assets/l-1.png)
 
@@ -32,7 +32,7 @@ In Captivate Prime web application, after you log in as a learner, you can see t
 
 This widget also displays the Gamification points for the learner. Click the Gamification link to see the detailed points, and other features in Gamification. For more information on gamification points and leader board, refer to  [Gamification](gamification.md) feature.
 
-If you are accessing Captivate Prime using an iPad or Android tablet, refer to the iPad and Android Tabs app topic section in this page.
+If you are accessing Learning Manager using an iPad or Android tablet, refer to the iPad and Android Tabs app topic section in this page.
 
 ## Learning Timeline {#learningtimeline}
 
@@ -44,17 +44,17 @@ Hover the mouse on the timeline area to view the scroll bar at the right-side. U
 
 ## iPad and Android app users {#ipadandandroidappusers}
 
-In Captivate Prime app on iPad or Android tablet, after you log in as a learner, you can see the information in Home tab as follows:
+In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the information in Home tab as follows:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-To navigate to learning and catalog features, tap the **Menu **drop-down and choose appropriate option.
+To navigate to learning and catalog features, tap the **Menu** drop-down and choose appropriate option.
 
 ![](assets/menu-ipad.png)
 
 ### Access the app off-line
 
-You can access the Captivate Prime app off-line in iPad and Android tablets. Download and take courses in off-line mode, and synchronize the content back with online app when you connect to the network.
+You can access the Learning Manager app off-line in iPad and Android tablets. Download and take courses in off-line mode, and synchronize the content back with online app when you connect to the network.
 
 1. Tap Menu drop-down at the top and tap Learning option. A list of all the available courses is displayed in tiles.
 1. Tap the download icon at the bottom of each learning object tile, to download the learning content.

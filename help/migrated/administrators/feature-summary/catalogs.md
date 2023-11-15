@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Catalogs
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Catalogs are a collection of learning - Courses, Learning Programs, and Certifications. Use Catalogs to provide Learners with access to a customized set of learning. You can associate learning with a Catalog during the creation of a new Catalog.
 
@@ -74,7 +74,7 @@ To create a catalog, perform the following steps:
 
    The  Job Aid that you have added appears in the **Job Aids** tab.
 
-The content appears in each of these tabs if it is already available in the account. Otherwise, you need to create the content first. For example, if you have not added any of the courses or learning programs already in Captivate Prime application, then you have to start creating them first. 
+The content appears in each of these tabs if it is already available in the account. Otherwise, you need to create the content first. For example, if you have not added any of the courses or learning programs already in Learning Manager application, then you have to start creating them first. 
 
 ## Deep link to catalog for learners {#deep-link}
 
@@ -134,7 +134,7 @@ In Catalogs page, click the catalog you want to share. In the left panel click *
 
 ![](assets/shared-catalog-external.png)
 
-Enter the subdomain associated with your Captivate Prime account. Click **How to get subdomain?** to learn about the subdomain usage. You can also click **Branding** on the left pane in Administrator home page to view the subdomain associated with your organization account.
+Enter the subdomain associated with your Learning Manager account. Click **How to get subdomain?** to learn about the subdomain usage. You can also click **Branding** on the left pane in Administrator home page to view the subdomain associated with your organization account.
 
 **Enrollments limit**
 
@@ -244,7 +244,7 @@ Recurring certifications cannot be part of an externally shared catalog. Receive
 
 ## Propagation of shared catalog features {#propagation}
 
-Administrators across the accounts in an organization can share the catalogs to multiple accounts. The receivers of the shared catalogs can acquire the learning objects associated with the shared catalogs. In addition to this feature, from November 2016 release of Captivate Prime, the receivers can acquire the properties of learning objects shared through the Catalogs. 
+Administrators across the accounts in an organization can share the catalogs to multiple accounts. The receivers of the shared catalogs can acquire the learning objects associated with the shared catalogs. In addition to this feature, from November 2016 release of Learning Manager, the receivers can acquire the properties of learning objects shared through the Catalogs. 
 
 After sharing the Catalogs, if an Administrator of an account makes any changes to the learning objects the same changes will be propagated to all the learning objects acquired by the receiver of shared catalogs.
 
@@ -257,7 +257,7 @@ The learning objects that are supported as part of this propagation feature are 
 * Job Aids
 * Default instances of Courses and Learning Programs
 
-If the receivers of shared catalogs modify any of the received learning object fields in Captivate Prime application, then further propagation of updates to those fields do not take place for such learning objects. For example, if the receiver edits the course fields such as Course Name or Short Description, then propagation does not occur when owner changes these fields. In other words, such edited learning object fields become local to receiver's Captivate Prime account. 
+If the receivers of shared catalogs modify any of the received learning object fields in Learning Manager application, then further propagation of updates to those fields do not take place for such learning objects. For example, if the receiver edits the course fields such as Course Name or Short Description, then propagation does not occur when owner changes these fields. In other words, such edited learning object fields become local to receiver's Learning Manager account. 
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
@@ -285,7 +285,7 @@ Catalogs can be shared with Learners inside your organization by using the User 
 1. On the **User Groups** dialog, start adding learners.
 1. Click **Save**.
 
-When a learner logs in to Captivate Prime, he/she has view the Catalogs that were shared with him/her. 
+When a learner logs in to Learning Manager, he/she has view the Catalogs that were shared with him/her. 
 
 +++
 

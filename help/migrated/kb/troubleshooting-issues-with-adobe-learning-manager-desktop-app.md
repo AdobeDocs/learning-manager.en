@@ -16,7 +16,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 1. Check your Internet connection and firewall settings.
 1. In Social Learning, click **New Post** to create a post. If you do not have a board, create a board first. 
-1. Click any one of the following post button options that appear to create content like Screen Shot, Record Audio, Record Video, Captivate Prime Gallery. You are redirected to Adobe Learning Manager desktop application page from where you can download Adobe Learning Manager desktop application for your desktop.
+1. Click any one of the following post button options that appear to create content like Screen Shot, Record Audio, Record Video, Learning Manager Gallery. You are redirected to Adobe Learning Manager desktop application page from where you can download Adobe Learning Manager desktop application for your desktop.
 1. You require a valid Adobe Learning Manager account that has Social Learning enabled by your administrator. Your administrator might have also disabled downloads through the web browser. Contact your Adobe Learning Manager administrator for more information on downloading the Adobe Learning Manager desktop app.
 
 +++

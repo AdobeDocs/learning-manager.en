@@ -1,5 +1,5 @@
 ---
-description: Learn about the Reports associated with Administrator role in Captivate Prime application.
+description: Learn about the Reports associated with Administrator role in Learning Manager application.
 jcr-language: en_us
 title: Reports
 contentowner: manochan
@@ -8,9 +8,9 @@ contentowner: manochan
 
 # Reports
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Learn about the Reports associated with Administrator role in Captivate Prime application.
+Learn about the Reports associated with Administrator role in Learning Manager application.
 
 Adobe Learning Manager enables you to create varied reports to track, monitor, and control learner activities. Learners activities are tracked and captured automatically into the database. Manager and Administrator reports are generated from the database.
 
@@ -56,7 +56,7 @@ In the final visualization, you can check the compliance status of learners, and
 
 Also, an Admin can view individual training data in the Compliance Dashboard.
 
-For instance, the Administrator has identified three trainings to track compliance. Captivate Prime provides the compliance snapshot for all three trainings at once.
+For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
 
 Now an Admin can click on any training and quickly view the compliance for the selected training.
 
@@ -72,9 +72,9 @@ You can see that, for a team, the number of learners in the team are violating o
 
 ## Share training with managers
 
-Captivate Prime offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
 
-In Captivate Prime, the **Share with Managers** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+In Learning Manager, the **Share with Managers** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
 
 An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
 
@@ -120,7 +120,7 @@ The user activity dashboard displays the activity of users in the account. The t
 
 ## Registered Users {#registeredusers}
 
-Captivate Prime records the number of users registered in the system every week. Administrators can view this report to understand the registered count of users on that day of the week. Registered count once stored for a week does not change. Hence historical registered count is not related to the current set of learners in the system. 
+Learning Manager records the number of users registered in the system every week. Administrators can view this report to understand the registered count of users on that day of the week. Registered count once stored for a week does not change. Hence historical registered count is not related to the current set of learners in the system. 
 
 This report provides information of the number of users registered in your account week over week.
 
@@ -138,11 +138,11 @@ The monthly active count once counted and stored for a month, does not change. H
 
 ## User Visits {#uservisits}
 
-This report shows the total learners accessing the system in a day or month period. Browsing the learning platform without consuming any learning is also considered as 'accessing' the learning platform. This helps the Administrator understand the total set of users accessing the system. On the first of the month, captivate prime creates a record of total users accessing the platform for the previous month. It also captures the usergroup information for these users.
+This report shows the total learners accessing the system in a day or month period. Browsing the learning platform without consuming any learning is also considered as 'accessing' the learning platform. This helps the Administrator understand the total set of users accessing the system. On the first of the month, Learning Manager creates a record of total users accessing the platform for the previous month. It also captures the usergroup information for these users.
 
-Only those usergroups configured by the Administrator are recorded. This allows the Administrators to apply filter on usergroups for historical monthly data as well. Note that incase usergroups configuration is modified and Captivate Prime has not recorded data for this usergroup in earlier months, then Captivate Prime cannot display the data for this newly configured usergroups for previous months. 
+Only those usergroups configured by the Administrator are recorded. This allows the Administrators to apply filter on usergroups for historical monthly data as well. Note that incase usergroups configuration is modified and Learning Manager has not recorded data for this usergroup in earlier months, then Learning Manager cannot display the data for this newly configured usergroups for previous months. 
 
-This report contains users accessing the platform using all formats like web, mobile app, headless custom solutions, and so on. The device app usage graph specifically mentions only the users accessing the platform using Captivate Prime's device app. This helps Administrators identify the usage of mobile app in their account. 
+This report contains users accessing the platform using all formats like web, mobile app, headless custom solutions, and so on. The device app usage graph specifically mentions only the users accessing the platform using Learning Manager's device app. This helps Administrators identify the usage of mobile app in their account. 
 
 ![](assets/user-visit-report.png)
 
@@ -331,7 +331,7 @@ The exported sheet of dashboard reports provides detailed information instead of
 
    * **Manager:** You can choose any one of the managers based on hierarchy. For some managers, there can be subordinate managers and multiple employees reporting to each subordinate manager.
    * **Profile:** Choose the designation of your employee. It would help in viewing reports of employees based on their profile/designation. For example, computer scientist, engineer.
-   * **User Group:** Choose the user group based on which you want to filter the reports. Captivate Prime fetches the user groups defined for your account from Users feature.
+   * **User Group:** Choose the user group based on which you want to filter the reports. Learning Manager fetches the user groups defined for your account from Users feature.
    * **Content:** You can filter your report based on any course by choosing them from the drop-down.
 
    Expand this section and choose the required filters.
@@ -390,7 +390,7 @@ Filters appear in **[!UICONTROL Add]** report dialog at the bottom based on type
 
 **Profile** Choose the designation of your employee. It would help in viewing reports of employees based on their profile/designation. For example, computer scientist, engineer.
 
-**User Group **Choose the user group based on which you want to filter the reports. Captivate Prime fetches the user groups defined for your account from Users feature. 
+**User Group** Choose the user group based on which you want to filter the reports. Learning Manager fetches the user groups defined for your account from Users feature. 
 
 **Course** You can filter your report based on any course by choosing them from the drop-down.
 
@@ -420,9 +420,9 @@ This user group report enables you to compare the performance of one department/
 
 ### Custom user groups/user attributes {#customusergroupsuserattributes}
 
-You can also create customized user groups using Add users/user groups feature in Captivate Prime. After creating the user groups you can generate reports for those customized user groups with the help of a list of attributes like location, branch. 
+You can also create customized user groups using Add users/user groups feature in Learning Manager. After creating the user groups you can generate reports for those customized user groups with the help of a list of attributes like location, branch. 
 
-In x-axis, choose the user attribute option and select the attribute from the **select **drop-down next to it. To create a customized user group report based on these attributes, you also have to choose the appropriate user group in the filter. 
+In x-axis, choose the user attribute option and select the attribute from the **select** drop-down next to it. To create a customized user group report based on these attributes, you also have to choose the appropriate user group in the filter. 
 
 ## Types of reports {#typesofreports}
 
@@ -723,7 +723,7 @@ You can also export the data from the UI or to Power BI, which supports all trai
 
 ## Trainings Report {#training-report}
 
-Captivate Prime supports Training Report which allows Administrators to download training details and its associated metadata like author, published date, skills, Catalog labels etc. 
+Learning Manager supports Training Report which allows Administrators to download training details and its associated metadata like author, published date, skills, Catalog labels etc. 
 
 On the Admin app, click **Reports > Custom Reports > Excel Reports > Trainings Report**. 
 

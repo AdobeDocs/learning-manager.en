@@ -7,9 +7,9 @@ contentowner: saghosh
 
 # Accessibility in Adobe Learning Manager
 
-This document outlines the accessibility support provided by Captivate Prime Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
+This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
 
-Captivate Prime follows W3C's WCAG 2.1 Level A and AA accessibility standards for the platform.
+Learning Manager follows W3C's WCAG 2.1 Level A and AA accessibility standards for the platform.
 
 Adobe Learning Manager Learner role allows learners to navigate through the platform and take advantage of following key accessibility capabilities:
 
@@ -20,7 +20,7 @@ Adobe Learning Manager Learner role allows learners to navigate through the plat
 
 ## Support for Screen Readers {#supportforscreenreaders}
 
-Adobe Learning Manager supports screen readers like NVDA, JAWS, and Voice-over on desktop, Talkback and Voice-over on mobile, which enable learners to read out the text on Captivate Prime platform and navigate accordingly.
+Adobe Learning Manager supports screen readers like NVDA, JAWS, and Voice-over on desktop, Talkback and Voice-over on mobile, which enable learners to read out the text on Learning Manager platform and navigate accordingly.
 
 Here is the screen reader and browser combination that we support on desktop:
 
@@ -81,7 +81,7 @@ Here is the screen reader and browser combination that we support on desktop:
 
 Learners can use standard keys to navigate through the pages with or without screen reader. This helps the learners to navigate elements on the page and read content using a screen reader. 
 
-In addition, Captivate Prime supports the following keyboard shortcuts:
+In addition, Learning Manager supports the following keyboard shortcuts:
 
 <table>
  <tbody>
@@ -185,7 +185,7 @@ In addition, Captivate Prime supports the following keyboard shortcuts:
 
 ## Other support {#supportforcolorcontrast}
 
-The Captivate Prime Learner role supports several other accessibility features including but not limited to:
+The Learning Manager Learner role supports several other accessibility features including but not limited to:
 
 1. Semantic structure to the learner role pages including heading, list markup, descriptive titles etc are provided.
 1. Support for browser zoom up to 200% without loss of content or functionality is maintained through-out the learner role.
@@ -197,13 +197,13 @@ For more information, see:
 * [Accessibility Conformance Report for a learner](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
 * [Accessibility Conformance Report for all roles](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
 
-## Captivate Prime Top workflows (Learner role) {#captivateprimetopworkflowslearnerrole}
+## Learning Manager Top workflows (Learner role) {#captivateprimetopworkflowslearnerrole}
 
-Let's look at how Accessibility features help you to navigate through some key features for learners in Captivate Prime.
+Let's look at how Accessibility features help you to navigate through some key features for learners in Learning Manager.
 
 Use the `kbd Tab`key to navigate through the elements on the page. Use the `kbd Shift + Tab` key to reverse the direction of navigation. Keyboard focus is indicated by a blue outline displayed around an element. A screen reader should read out the text of the element in focus.
 
-## Search for a training in Captivate Prime {#searchforatrainingincaptivateprime}
+## Search for a training in Learning Manager {#searchforatrainingincaptivateprime}
 
 1. Use these cues to navigate and reach the Search box in the upper right of the home page. 
 1. Type text using the keyboard. Search results will appear.
@@ -244,7 +244,7 @@ Let's look at the accessibility features learners can utilize based on their spe
 
 * Use closed captions available in content created using Adobe Captivate authoring tool.
 * For videos, authors can encode the videos with closed caption text. Such videos have closed captions embedded and can be consumed by the learners.
-* Captivate Prime supports the ability to upload closed caption WebVTT files for video content. For more information, see  [*Upload WebVTT file for closed captioning*](authors/feature-summary/content-library.md#webvtt).
+* Learning Manager supports the ability to upload closed caption WebVTT files for video content. For more information, see  [*Upload WebVTT file for closed captioning*](authors/feature-summary/content-library.md#webvtt).
 
 ### Users who are blind or with low-vision
 

@@ -28,7 +28,7 @@ In this case, by default your company's Administrator is treated as the Manager 
 
 **Sample CSV**
 
-Captivate Prime sample CSV is available below with mandatory fields.
+Learning Manager sample CSV is available below with mandatory fields.
 [Sample-CSV-name-email.zip](assets/sample-csv-name-email.zip)
 
 ## CSV upload with all the fields {#csvuploadwithallthefields}
@@ -41,5 +41,5 @@ Also, Administrators of an organization can add themselves as employees and ment
 
 **Sample CSV**
 
-Captivate Prime sample CSV is available below with all the fields.
+Learning Manager sample CSV is available below with all the fields.
 [learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip)Refer to  [Using CSV upload](feature-summary/add-users-user-groups.md) feature help content for more information.

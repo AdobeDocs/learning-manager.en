@@ -26,9 +26,9 @@ Learning paths makes the delivery of a training program convenient and hassle-fr
 1. Ability to create sections. Each section can have a title.   
 1. Ability to make sections mandatory and setup completion criteria.
 
-## Add a Learning Path in Captivate Prime 
+## Add a Learning Path in Learning Manager 
 
-In Captivate Prime, in the Admin app, click **Learning Path** on the left panel.
+In Learning Manager, in the Admin app, click **Learning Path** on the left panel.
 
 In the **Learning Path** page, click **Add**. Enter the details.
 

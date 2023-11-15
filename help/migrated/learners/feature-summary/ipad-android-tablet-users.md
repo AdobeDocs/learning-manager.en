@@ -1,5 +1,5 @@
 ---
-description: Read this article to know how to download Captivate Prime Learner app for smartphones and tablets. Learn how to consume courses using your mobile or tablet.
+description: Read this article to know how to download Learning Manager Learner app for smartphones and tablets. Learn how to consume courses using your mobile or tablet.
 jcr-language: en_us
 title: Learner App for mobiles and tablets
 contentowner: manochan
@@ -8,13 +8,13 @@ contentowner: manochan
 
 # Learner App for mobiles and tablets
 
-Read this article to know how to download Captivate Prime Learner app for smartphones and tablets. Learn how to consume courses using your mobile or tablet.
+Read this article to know how to download Learning Manager Learner app for smartphones and tablets. Learn how to consume courses using your mobile or tablet.
 
 ## Overview {#overview}
 
-Captivate Prime app for learners is available for both Android phone users and iPhone users. Go to either Google Play Store (Android OS) or iTunes (macOS), and download the Captivate Prime app.
+Learning Manager app for learners is available for both Android phone users and iPhone users. Go to either Google Play Store (Android OS) or iTunes (macOS), and download the Learning Manager app.
 
-After you download and install this app, log in to the app using your learner credentials. When you open the Captivate Prime mobile app, the following screen is displayed by default.
+After you download and install this app, log in to the app using your learner credentials. When you open the Learning Manager mobile app, the following screen is displayed by default.
 
 ![](assets/1.png)
 
@@ -30,7 +30,7 @@ For all accounts that have the option Immersive Layout enabled, there is a brand
 
 ## Feedback rating {#feedbackrating}
 
-Captivate Prime prompts the learner to provide feedback about their experience with the Mobile App. This feedback appears once in a month and gives enough time interval for users to experience the app and then provide the feedback.
+Learning Manager prompts the learner to provide feedback about their experience with the Mobile App. This feedback appears once in a month and gives enough time interval for users to experience the app and then provide the feedback.
 
 | ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
@@ -186,7 +186,7 @@ In this update, the following features are not supported. You cannot:
 * Add post as story or add  as post as favorite or pin to top.
 * View a social leaderboard.
 
-Social learning is a platform in the Captivate Prime mobile app, which engages users to share ideas and meaningful insights in an informal environment. It is a methodology that supplements the idea of traditional learning. 
+Social learning is a platform in the Learning Manager mobile app, which engages users to share ideas and meaningful insights in an informal environment. It is a methodology that supplements the idea of traditional learning. 
 
 Social learning allows users to use the expertise around them to get correct and concise information. Learners can quickly apply that information to complete a task and achieve a goal.
 
@@ -204,7 +204,7 @@ Upon launching the app, tap the **Social** icon.
 
 ## Create a post in a board {#createapostinaboard}
 
-Like any other social platform, in the Captivate Prime mobile app, you can create a post in a board, so that all learners who are part of the same board can view your post, comment, and upload a file along with the comment.
+Like any other social platform, in the Learning Manager mobile app, you can create a post in a board, so that all learners who are part of the same board can view your post, comment, and upload a file along with the comment.
 
 To create a post, tap the (![](assets/prime-add.png)) icon on the bottom-right of the screen. 
 
@@ -300,7 +300,7 @@ After creating a post, choose the board where you want to upload the post. Tap S
 
 After you've created a post, tap Post and post your comment for other learners to view your post.
 
-In the mobile app, you cannot create a board. To create a board, you must log in to the web app as a learner. For more information on creating a board, see Social learning in [Captivate Prime](https://helpx.adobe.com/captivate-prime/learners/feature-summary/social-learning-web-user.html).
+In the mobile app, you cannot create a board. To create a board, you must log in to the web app as a learner. For more information on creating a board, see Social learning in [Learning Manager](https://helpx.adobe.com/captivate-prime/learners/feature-summary/social-learning-web-user.html).
 
 ## Actions that can be performed on a post {#actionsthatcanbeperformedonapost}
 
@@ -329,7 +329,7 @@ Navigate to the required board and post your comment.
 Share pictures, documents, or audio or videos files to any board, so that other board members can view your post and start an interaction. To share any media,
 
 1. Open the media that you want to share.
-1. Tap the share button and choose Captivate Prime.
+1. Tap the share button and choose Learning Manager.
 1. Choose the board in which you want to share the media.
 1. Tap **Post**.
 
@@ -375,11 +375,11 @@ After rejection, you are allowed to upload a file as proof of completion.
 
 ## Take courses from LinkedIn Learning {#linkedin}
 
-Captivate Prime already supports LinkedIn Learning courses within the learning platform. Now learners can take up such LinkedIn Learning courses within the Captivate Prime mobile app. In the device app, search for a course, and then start the course.
+Learning Manager already supports LinkedIn Learning courses within the learning platform. Now learners can take up such LinkedIn Learning courses within the Learning Manager mobile app. In the device app, search for a course, and then start the course.
 
 If you have the LinkedIn app already installed, the course will open in the app, or else the course will open in the default browser, where you must log in using your LinkedIn credentials. 
 
-If you are taking the course via the LinkedIn app, your progress will not be tracked inside Captivate Prime. Hence, it's recommended that the course is launched in the browser instead of the LinkedIn Learning app. 
+If you are taking the course via the LinkedIn app, your progress will not be tracked inside Learning Manager. Hence, it's recommended that the course is launched in the browser instead of the LinkedIn Learning app. 
 
 >[!NOTE]
 >
@@ -388,9 +388,9 @@ If you are taking the course via the LinkedIn app, your progress will not be tra
 | ![](assets/start-course.jpg) | ![](assets/enroll-course.jpg) | ![](assets/sign-in.jpg) |
 |---|---|---|
 
-Learning time spent in LinkedIn Learning courses is communicated by the LinkedIn content/LinkedIn platform to Captivate Prime learning platform.
+Learning time spent in LinkedIn Learning courses is communicated by the LinkedIn content/LinkedIn platform to Learning Manager learning platform.
 
-In case LinkedIn learning does not send the learning time, it cannot be recorded by our learning platform. In such case, learning time spent displayed by Captivate Prime is zero.
+In case LinkedIn learning does not send the learning time, it cannot be recorded by our learning platform. In such case, learning time spent displayed by Learning Manager is zero.
 
 ## Submit file for classroom and activity modules {#submitfile}
 
@@ -459,9 +459,9 @@ When the instructor rejects the submission, the status on the Learner mobile app
 
 To submit the file again, click the link **Upload File**.
 
-## Captivate Prime for iPad and tablets {#captivateprimeforipadandtablets}
+## Learning Manager for iPad and tablets {#captivateprimeforipadandtablets}
 
-In Captivate Prime app on iPad or Android tablet, after you log in as a learner, you can see the following **Home** screen:
+In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the following **Home** screen:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
@@ -473,7 +473,7 @@ You have an option to view the set of courses in a list view instead of tiled/ca
 
 ## Access the app off-line {#accesstheappoffline}
 
-You can access the Captivate Prime app off-line in iPad and Android tablets. You can download courses and learning programs. Take courses, consume the Learning programs in off-line mode and synchronize the content back with online app when you connect to the network.
+You can access the Learning Manager app off-line in iPad and Android tablets. You can download courses and learning programs. Take courses, consume the Learning programs in off-line mode and synchronize the content back with online app when you connect to the network.
 
 1. Tap **Menu** drop-down at the top and tap **Learning** option. A list of all the available courses is displayed in tiles.
 1. Tap the download icon at the bottom of each learning object tile, to download the learning content.

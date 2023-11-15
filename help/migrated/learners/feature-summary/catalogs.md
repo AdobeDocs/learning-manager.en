@@ -1,5 +1,5 @@
 ---
-description: Learn how to use Catalogs in Captivate Prime to view the eligible learning objects
+description: Learn how to use Catalogs in Learning Manager to view the eligible learning objects
 jcr-language: en_us
 title: Catalogs
 contentowner: manochan
@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Catalogs
 
-Learn how to use Catalogs in Captivate Prime to view the eligible learning objects
+Learn how to use Catalogs in Learning Manager to view the eligible learning objects
 
 **Catalog** consists of all the courses, learning programs, certifications and job aids that are available for a learner role in the company account.
 

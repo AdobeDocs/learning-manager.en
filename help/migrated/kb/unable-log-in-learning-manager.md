@@ -1,12 +1,12 @@
 ---
-description: What to do when you're unable to log in to Captivate Prime.
+description: What to do when you're unable to log in to Learning Manager.
 jcr-language: en_us
-title: Unable to log in to Captivate Prime
+title: Unable to log in to Learning Manager
 contentowner: saghosh
 ---
 
 
-# Unable to log in to Captivate Prime
+# Unable to log in to Learning Manager
 
 ## Issue
 

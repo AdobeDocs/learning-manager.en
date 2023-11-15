@@ -8,9 +8,9 @@ contentowner: jayakarr
 
 # How to choose course modules?
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Captivate Prime supports four types of course modules. If you are responsible for creating a training program, you may be wondering which type of module you need to choose to suit your organization's requirements. Based on your organization's budget and audience needs, you can choose the course modules. Some of the typical use cases for each type of module are explained below for your reference.
+Learning Manager supports four types of course modules. If you are responsible for creating a training program, you may be wondering which type of module you need to choose to suit your organization's requirements. Based on your organization's budget and audience needs, you can choose the course modules. Some of the typical use cases for each type of module are explained below for your reference.
 
 <table>
  <tbody>
@@ -116,7 +116,7 @@ Captivate Prime supports four types of course modules. If you are responsible fo
  </tbody>
 </table>
 
-## Captivate Prime course modules comparison chart {#strongcaptivateprimecoursemodulescomparisonchartstrong}
+## Learning Manager course modules comparison chart {#strongcaptivateprimecoursemodulescomparisonchartstrong}
 
 <table>
  <tbody>

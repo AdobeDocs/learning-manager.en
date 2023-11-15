@@ -1,5 +1,5 @@
 ---
-description: Job Aids for Administrators in Captivate prime.
+description: Job Aids for Administrators in Learning Manager.
 jcr-language: en_us
 title: Job Aids
 contentowner: jayakarr
@@ -8,11 +8,11 @@ contentowner: jayakarr
 
 # Job Aids
 
-Job Aids for Administrators in Captivate prime.
+Job Aids for Administrators in Learning Manager.
 
 Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
 
-Job Aids can be consumed independently or along with course consumption in Captivate Prime.
+Job Aids can be consumed independently or along with course consumption in Learning Manager.
 
 Administrators of an organization can manage job aids assignment to learners and also withdraw or re-publish job aids.
 

@@ -1,5 +1,5 @@
 ---
-description: Read this article to learn how to manage modules as an instructor in Captivate Prime.
+description: Read this article to learn how to manage modules as an instructor in Learning Manager.
 jcr-language: en_us
 title: Modules
 contentowner: shhivkum
@@ -8,7 +8,7 @@ contentowner: shhivkum
 
 # Modules
 
-Read this article to learn how to manage modules as an instructor in Captivate Prime.
+Read this article to learn how to manage modules as an instructor in Learning Manager.
 
 ## View session overview {#viewsessionoverview}
 

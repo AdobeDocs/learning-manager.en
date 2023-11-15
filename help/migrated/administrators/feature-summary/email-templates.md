@@ -10,7 +10,7 @@ contentowner: manochan
 
 The events in your training activity trigger emails that are sent to learners. You as an administrator can easily enable, disable, or modify these email templates.
 
-Captivate Prime application sends email notifications to multiple roles of users based on events.
+Learning Manager application sends email notifications to multiple roles of users based on events.
 
 As an administrator, you can customize email templates by adding or modifying content and sending notifications to users for various events triggered by learners, managers, and authors.
 
@@ -119,13 +119,13 @@ You can download the email access report by clicking the **Download **button. Th
 
 ## Customize email domain {#customizeemaildomain}
 
-To customize the email domain and email id from which your learners receive notifications, contact the [***Captivate Prime support***](https://helpx.adobe.com/contact/enterprise-support.other.html#captivate-prime) and provide the details of the domain you would like to add, and your new email id.
+To customize the email domain and email id from which your learners receive notifications, contact the [***Learning Manager support***](https://helpx.adobe.com/contact/enterprise-support.other.html#captivate-prime) and provide the details of the domain you would like to add, and your new email id.
 
 Your request would be processed and an email with confirmation link would be sent to you on the new email address which you specify. Click the verification link provided in the email to confirm and complete the verification process.
 
 ## Configure Do Not Disturb email {#dnd}
 
-As an Administrator, you can select users who can receive emails from Captivate Prime and who cannot.
+As an Administrator, you can select users who can receive emails from Learning Manager and who cannot.
 
 You can perform this by using the **Do Not Disturb** option under the **Settings** tab. Users can be added to this list using their name, email id, or unique user id.
 
@@ -159,7 +159,7 @@ Enter true in the value field to block users from receiving emails for that sele
 
 ## Inline invitations {#inlineinvitations}
 
-Captivate Prime users will now receive inline email invites. ICS attachments are no longer used to send invitations. Any changes in the invite will automatically reflect in your calendar.
+Learning Manager users will now receive inline email invites. ICS attachments are no longer used to send invitations. Any changes in the invite will automatically reflect in your calendar.
 
 ![](assets/outlook-style-invite.png)
 
@@ -167,13 +167,13 @@ Captivate Prime users will now receive inline email invites. ICS attachments are
 
 +++How to disable Help in email templates?
 
-At present, in Captivate Prime, it is not possible to disable **Help** in email templates.
+At present, in Learning Manager, it is not possible to disable **Help** in email templates.
 
 +++
 
 +++How to modify email templates?
 
-1. As an Administrator, log in to your Captivate Prime account.
+1. As an Administrator, log in to your Learning Manager account.
 1. On the left panel, click **Email Templates** and select the e-mail template that you want to modify.
 1. To customize each template, click the text in the body of the template. You can insert variables in the text by clicking the appropriate icons as shown in the snapshot. Mouse over each icon to view the names and apply it to the template.
 1. After making changes to the template, click **Save**.   

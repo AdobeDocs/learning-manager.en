@@ -6,7 +6,7 @@ contentowner: nluke
 ---
 
 
-# Login issues in Captivate Prime
+# Login issues in Learning Manager
 
 ## Issue
 

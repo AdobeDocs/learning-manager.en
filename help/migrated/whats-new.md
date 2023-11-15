@@ -54,9 +54,9 @@ For more information, see [**Gamification**](learners/feature-summary/gamificati
 
 Microsoft&reg; Teams&reg; is a persistent chat-based collaboration platform that supports document sharing, online meetings, and other features for business communications.
 
-Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings into Captivate Prime.
+Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings into Learning Manager.
 
-Microsoft Teams connector connects the Captivate Prime and Microsoft Teams systems to enable automatic data synchronization.
+Microsoft Teams connector connects the Learning Manager and Microsoft Teams systems to enable automatic data synchronization.
 
 For more information, see [**Install Microsoft Teams connector**](integration-admin/feature-summary/install-microsoft-teams-connector.md).
 
@@ -74,7 +74,7 @@ We have made several accessibility enhancements to the fluidic player TOC. Few o
 
 ## Search and sort modules
 
-When an instructor has multiple sessions or submissions, searching for and sorting through these sessions and submissions can become difficult and tedious. With this release, the modules, and sessions available on the instructor page are now searchable using the name of a course, session, or module. Captivate Prime now provides a search field that is available for all the upcoming sessions, past sessions, and review activities including checklists and submissions.
+When an instructor has multiple sessions or submissions, searching for and sorting through these sessions and submissions can become difficult and tedious. With this release, the modules, and sessions available on the instructor page are now searchable using the name of a course, session, or module. Learning Manager now provides a search field that is available for all the upcoming sessions, past sessions, and review activities including checklists and submissions.
 
 To search for a particular session or module name, follow the steps below:
 
@@ -257,12 +257,12 @@ The following fields are added in the relationship:
 
 Here are the changes in this release:
 
-* Workday&reg; supports a wide range of attributes to add data. Different organizations use these attributes differently. Therefore, exposing these attributes and allowing the Administrators to map them with Captivate Prime would have increased product complexity and affected usability. If you want to map any attribute that is not listed in Captivate Prime, contact your CSAM with the details. The CSAM Support team of Captivate Prime will investigate the requirement and help you based on the technical feasibility.
+* Workday&reg; supports a wide range of attributes to add data. Different organizations use these attributes differently. Therefore, exposing these attributes and allowing the Administrators to map them with Learning Manager would have increased product complexity and affected usability. If you want to map any attribute that is not listed in Learning Manager, contact your CSAM with the details. The CSAM Support team of Learning Manager will investigate the requirement and help you based on the technical feasibility.
 * We have added a checkbox **Exclude Contingent Workers**. When you select this checkbox, the system does not import any temp workers available under a manager.
 
 ## Calendar widget enhancements
 
-In the previous releases of Captivate Prime, the Calendar widget consisted of the name and state of a course. Starting this release, the Calendar widget displays the session name, course name, course type, and the session time.
+In the previous releases of Learning Manager, the Calendar widget consisted of the name and state of a course. Starting this release, the Calendar widget displays the session name, course name, course type, and the session time.
 
 ![](assets/calendar-widget.png)
 
@@ -286,7 +286,7 @@ On the **Content Marketplace** page, the **Express Interest** button will now be
 
 ## Language support in email templates
 
-In this release of Captivate Prime, we've added support for Hungarian and Finnish languages in email templates.
+In this release of Learning Manager, we've added support for Hungarian and Finnish languages in email templates.
 
 ## Classroom enhancement API changes
 
@@ -362,7 +362,7 @@ Once changed, the format will be:
 
 Thus, only one uuid will be used to construct the learningObjectResourceGrade's id.
 
-In general, Captivate Prime recommends to not interpret the ID of any model.
+In general, Learning Manager recommends to not interpret the ID of any model.
 
 >[!NOTE]
 >
@@ -370,7 +370,7 @@ In general, Captivate Prime recommends to not interpret the ID of any model.
 
 ## Release Notes {#releasenotes}
 
-For information regarding current and previous releases of Captivate Prime web app and device app, see the  [***Release notes***](release-note/release-notes.md).
+For information regarding current and previous releases of Learning Manager web app and device app, see the  [***Release notes***](release-note/release-notes.md).
 
 ## Bug fixes {#bugfixes}
 
@@ -382,15 +382,15 @@ To see the known issues in this update, refer to [***Known issues***](release-no
 
 ## System Requirements {#systemrequirements}
 
-[Captivate Prime system requirements](system-requirements.md)
+[Learning Manager system requirements](system-requirements.md)
 
 <!--
-## Previous releases of Captivate Prime {#previousreleasesofcaptivateprime}
+## Previous releases of Learning Manager {#previousreleasesofcaptivateprime}
 
-* [Captivate Prime | October 2021 release](whats-new-october-2021.md)
-* [Captivate Prime | August 2021 release](whats-new-august-2021.md)
-* [Captivate Prime | February 2021 release](whats-new-february-2021.md)
-* [Captivate Prime | December 2020 release](whats-new-december-2020.md)
+* [Learning Manager | October 2021 release](whats-new-october-2021.md)
+* [Learning Manager | August 2021 release](whats-new-august-2021.md)
+* [Learning Manager | February 2021 release](whats-new-february-2021.md)
+* [Learning Manager | December 2020 release](whats-new-december-2020.md)
 -->
 
 ## Have a question or an idea? {#haveaquestionoranidea}

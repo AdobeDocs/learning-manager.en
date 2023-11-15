@@ -8,7 +8,7 @@ contentowner: manochan
 
 # Reports
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Creating and managing reports for Managers.
 
@@ -96,7 +96,7 @@ Filters appear in Add report dialog at the bottom based on types of reports you 
 
 **Profile** Choose the designation of your employee. It would help in viewing reports of employees based on their profile/designation. For example, computer scientist, engineer, and so on.
 
-**User Group** Choose the user group based on which you want to filter the reports. Captivate Prime fetches the user groups defined for your account from Users feature. 
+**User Group** Choose the user group based on which you want to filter the reports. Learning Manager fetches the user groups defined for your account from Users feature. 
 
 **Course** You can filter your report based on any course by choosing them from the drop-down.
 
@@ -126,7 +126,7 @@ This user group report enables you to compare the performance of one department/
 
 ### Custom user groups/user attributes {#customusergroupsuserattributes}
 
-You can also create customized user groups using Add users/user groups feature in Captivate Prime. After creating the user groups you can generate reports for those customized userg groups with the help of a list of attributes such as location, branch, and so on. 
+You can also create customized user groups using Add users/user groups feature in Learning Manager. After creating the user groups you can generate reports for those customized userg groups with the help of a list of attributes such as location, branch, and so on. 
 
 In X-axis, choose the user attribute option and select the attribute the from **select** drop-down next to it. To create a customized user group report based on these attributes, you also need to choose the appropriate user group in the filter. 
 

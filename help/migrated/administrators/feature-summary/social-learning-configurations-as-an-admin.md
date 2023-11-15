@@ -29,7 +29,7 @@ Since Social Learning is an informal learning, its functionality is similar to o
 
 **Manual-Only Curation** and **No Curation** are two curation options that can be selected by the admin.
 
-**Auto-assisted Manual Curation:** Captivate Prime has an artificial intelligence-based auto curation engine that can intelligently find out the essence of the content of any format that can later be served to the desired learners. It can also approve or reject a content from being posted based on its given confidence score.
+**Auto-assisted Manual Curation:** Learning Manager has an artificial intelligence-based auto curation engine that can intelligently find out the essence of the content of any format that can later be served to the desired learners. It can also approve or reject a content from being posted based on its given confidence score.
 
 For example, Adarsh is a learner and he found a blog interesting, so he posts it on Adobe Learning Manager's Social Learning platform. The post is then fed to the AI-powered Content Curation Engine which predicts the skills present in the content and compares those skills with the associated board skills. If any of the skills match, then the content is posted otherwise it is sent for manual-only curation. 
 
@@ -41,7 +41,7 @@ The minimum confidence score required for posting is 50%.
 
 Moderating content manually is often prone to errors and time-intensive. In addition, the process is not scalable and is unsuitable for high volume of social activities. Therefore, curating content automatically becomes critical when serving many users who are active socially.
 
-In Captivate Prime, there is an option to curate content automatically. The curation is driven by an AI-enabled engine, which maps works with the pre-defined skills, after the Admin maps the pre-defined skills with a skill. For more information, see [Skill domain mapping](curation-skills.md).
+In Learning Manager, there is an option to curate content automatically. The curation is driven by an AI-enabled engine, which maps works with the pre-defined skills, after the Admin maps the pre-defined skills with a skill. For more information, see [Skill domain mapping](curation-skills.md).
 
 In auto-curation, the following types of content are allowed:
 
@@ -342,9 +342,9 @@ The administrator can view the Activity Score, number of posts, boards, users, a
 
 ## Skill domain {#skilldomain}
 
-Based on the skills mostly used by Captivate Prime end users, Adobe Learning Manager has categorized a list of 25 skill domains that the auto curation system uses to curate content. The admin must map the configured enterprise skills to the skill domains provided by Prime. The mapping of skills can be done from the admin skill page while creating a skill or by modifying an existing skill. For more information on how to map or add a skill, [click here](skills-levels.md#Createaskillandalevel).
+Based on the skills mostly used by Learning Manager end users, Adobe Learning Manager has categorized a list of 25 skill domains that the auto curation system uses to curate content. The admin must map the configured enterprise skills to the skill domains provided by Prime. The mapping of skills can be done from the admin skill page while creating a skill or by modifying an existing skill. For more information on how to map or add a skill, [click here](skills-levels.md#Createaskillandalevel).
 
-+++List of skill domains that is used by Captivate Prime's curation system
++++List of skill domains that is used by Learning Manager's curation system
 
 1. Accounting
 1. Analytics

@@ -9,7 +9,7 @@ description: Job Aids is a repository of training content that is accessible to 
 
 Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
 
-Job Aids can be consumed independently or along with course consumption in Captivate Prime.
+Job Aids can be consumed independently or along with course consumption in Learning Manager.
 
 Authors can create Job Aids for learners. Use Job Aids to provide learners with reference material like tips, checklists, guides that they can use on an ongoing basis to complete their tasks.
 

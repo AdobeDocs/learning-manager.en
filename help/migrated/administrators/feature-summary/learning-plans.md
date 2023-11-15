@@ -1,5 +1,5 @@
 ---
-description: Creating Learning Plans for Administrators in Captivate Prime.
+description: Creating Learning Plans for Administrators in Learning Manager.
 jcr-language: en_us
 title: Learning plans
 contentowner: manochan
@@ -7,9 +7,9 @@ contentowner: manochan
 
 # Learning plans
 
-Captivate Prime Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Creating Learning Plans for Administrators in Captivate Prime.
+Creating Learning Plans for Administrators in Learning Manager.
 
 ## Overview {#overview}
 
@@ -66,7 +66,7 @@ To create a learning plan, you must log in as an Administrator.
 
    ![](assets/choose-instance.png)
 
-   In Captivate Prime, a Learning Plan creates its own instance, Auto. When you choose a group, for example, All Learners, then by default, all learners in the Learning Plan get enrolled in the instance Auto.
+   In Learning Manager, a Learning Plan creates its own instance, Auto. When you choose a group, for example, All Learners, then by default, all learners in the Learning Plan get enrolled in the instance Auto.
 
    When you save the learning Plan, the instance Auto appears as an option in the **Select Instance** drop-down list in the Learners section of a course.
 
@@ -167,7 +167,7 @@ You can filter Learning Plans according to the type of event that was used while
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-1. How do I setup Captivate Prime to configure auto enrollments for on-boarding of new hires?
+1. How do I setup Learning Manager to configure auto enrollments for on-boarding of new hires?
 
    In the **Occurs when** drop-down list, choose the option **New Learner is added**. Then assign the Learning Objects, the instance, and the completion date for the learner. Both Administrators and Authors can create auto enrollment events. Enable the event after creating it.
 

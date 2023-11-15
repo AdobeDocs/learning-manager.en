@@ -12,21 +12,21 @@ contentowner: saghosh
 
 Microsoft&reg; Teams&reg; is a persistent chat-based collaboration platform that completely supports document sharing, online meetings, and other features for business communications.
 
-Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings with Captivate Prime.
+Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings with Learning Manager.
 
-Microsoft Teams connector connects Captivate Prime and Microsoft Teams systems to enable automatic virtual meeting synchronization. The following list describes the Microsoft Teams connector capabilities:
+Microsoft Teams connector connects Learning Manager and Microsoft Teams systems to enable automatic virtual meeting synchronization. The following list describes the Microsoft Teams connector capabilities:
 
 **Set up virtual sessions using Microsoft Teams**
 
-This connector helps integrate your Adobe Learning Manager account with your Microsoft Teams account. Once integrated, the connector enables an Author in Captivate Prime to use Microsoft Teams as the technology service provider for the Virtual Classroom modules created in Captivate Prime.
+This connector helps integrate your Adobe Learning Manager account with your Microsoft Teams account. Once integrated, the connector enables an Author in Learning Manager to use Microsoft Teams as the technology service provider for the Virtual Classroom modules created in Learning Manager.
 
 **Allow Microsoft Teams to authenticate learners when entering virtual classroom**
 
-This connector helps setup Microsoft Teams meeting organizer from Captivate Prime while creating a meeting. The Meeting Organizer can manage lobby to restrict or admit entry into a meeting as well as control other meeting options provided by Microsoft Teams.
+This connector helps setup Microsoft Teams meeting organizer from Learning Manager while creating a meeting. The Meeting Organizer can manage lobby to restrict or admit entry into a meeting as well as control other meeting options provided by Microsoft Teams.
 
 **Use automated user completion syncing**
 
-The automated user completion syncing process allows a Captivate Prime Administrator to automatically fetch the completion records and recording URL for the Microsoft Teams meeting.
+The automated user completion syncing process allows a Learning Manager Administrator to automatically fetch the completion records and recording URL for the Microsoft Teams meeting.
 
 ## Roles in Microsoft Teams
 
@@ -121,11 +121,11 @@ This enables the connector to access Microsoft Teams online meetings.
 
 >[!NOTE]
 >
->In the above document, execute Optional step 5 as well to ensure that any active user can be granted the role of the organizer from within the Captivate Prime Author app. If this step is not executed, users will not have the required access permissions to be organizers and the meeting creation will fail (Microsoft APIs consider the organizer to be the creator of a Teams meeting).
+>In the above document, execute Optional step 5 as well to ensure that any active user can be granted the role of the organizer from within the Learning Manager Author app. If this step is not executed, users will not have the required access permissions to be organizers and the meeting creation will fail (Microsoft APIs consider the organizer to be the creator of a Teams meeting).
 
-## Set up Microsoft Teams connector in Captivate Prime
+## Set up Microsoft Teams connector in Learning Manager
 
-1. Sign in to Captivate Prime as an Integration Admin.  
+1. Sign in to Learning Manager as an Integration Admin.  
 
 1. In the Connectors page, select Microsoft Teams connector and click **Connect**.  
 
@@ -139,7 +139,7 @@ This enables the connector to access Microsoft Teams online meetings.
    
    1. **Microsoft Teams Client Secret** - Enter the value determined earlier.  
    
-   1. **Microsoft Teams Admin User Email** - Enter the default organizer email. This user (typically a service user) would be the meeting creator in case no explicit organizer is selected from the Captivate Prime Author app.
+   1. **Microsoft Teams Admin User Email** - Enter the default organizer email. This user (typically a service user) would be the meeting creator in case no explicit organizer is selected from the Learning Manager Author app.
 
 ## Allocate licenses to users <Developer/Optional>
 
@@ -169,15 +169,15 @@ See the  [documentation](https://support.microsoft.com/en-us/office/roles-in-a-t
 
 +++
 
-+++Should an organizer be a registered user in both Captivate Prime and Microsoft Teams? 
++++Should an organizer be a registered user in both Learning Manager and Microsoft Teams? 
 
-Yes, the organizer should also be part of both Captivate Prime and Microsoft Teams. Moreover, the organizer must be a part of the same Microsoft tenant, which is configured in the Integration admin app.
+Yes, the organizer should also be part of both Learning Manager and Microsoft Teams. Moreover, the organizer must be a part of the same Microsoft tenant, which is configured in the Integration admin app.
 
 +++
 
-+++Should a presenter be a registered user in both Captivate Prime and Microsoft Teams? 
++++Should a presenter be a registered user in both Learning Manager and Microsoft Teams? 
 
-Yes, the presenter should also be part of both Captivate Prime and Microsoft Teams. The presenter must have an Azure Active directory ID (can be part of the same tenant as the organizer or part of any other tenant). Moreover, even anonymous users (users who login with just the username and not part of Active Directory) can also be made presenters by the organizer/existing presenters during the meeting. 
+Yes, the presenter should also be part of both Learning Manager and Microsoft Teams. The presenter must have an Azure Active directory ID (can be part of the same tenant as the organizer or part of any other tenant). Moreover, even anonymous users (users who login with just the username and not part of Active Directory) can also be made presenters by the organizer/existing presenters during the meeting. 
 
 +++
 
