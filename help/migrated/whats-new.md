@@ -384,12 +384,14 @@ To see the known issues in this update, refer to [***Known issues***](release-no
 
 [Captivate Prime system requirements](system-requirements.md)
 
+<!--
 ## Previous releases of Captivate Prime {#previousreleasesofcaptivateprime}
 
 * [Captivate Prime | October 2021 release](whats-new-october-2021.md)
 * [Captivate Prime | August 2021 release](whats-new-august-2021.md)
 * [Captivate Prime | February 2021 release](whats-new-february-2021.md)
 * [Captivate Prime | December 2020 release](whats-new-december-2020.md)
+-->
 
 ## Have a question or an idea? {#haveaquestionoranidea}
 

@@ -689,7 +689,7 @@ This release focuses on the following:
 * LinkedIn Learning Enhancements  
 * ...and many more
 
-For more information, see  [***What's new in the December 2020 release of Adobe captivate Prime***](../whats-new-december-2020.md).
+For more information, see  [***What's new in the December 2020 release of Adobe captivate Prime***](../whats-new.md).
 
 ### Unsupported features in mobile immersive experience {#unsupportedfeaturesinmobileimmersiveexperience}
 
@@ -801,7 +801,7 @@ This release focuses on the following:
 * Data retention policy changes
 * ...and many more
 
-For more information, see  [***What's new in the August 2020 release of Adobe captivate Prime***](../whats-new-august-2020.md).
+For more information, see  [***What's new in the August 2020 release of Adobe captivate Prime***](../whats-new.md).
 
 ### Notes about this release {#notes}
 
@@ -962,7 +962,7 @@ The April 2020 release of Captivate Prime focused on the following:
 * [Learner experience](../whats-new.md#learner)
 * [API-level changes](../whats-new.md#api)
 
-For more information, see [***What's new in April 2020 release of Captivate Prime***](../whats-new-april-2020.md).
+For more information, see [***What's new in April 2020 release of Captivate Prime***](../whats-new.md).
 
 +++
 
@@ -1578,7 +1578,7 @@ Release date: March 25, 2018
 
 The March 2018 version of Adobe Captivate Prime rolls out exciting new features and enhancements. It brings to you, generation of user audit trail reports and login/access reports, gives Learners the capacity to choose course instances, enhancements to classrooms and virtual classrooms, and much more. This release also brings to you bug fixes and performance enhancements.
 
-To read all that is new in this release, see  [What's New in Adobe Captivate Prime](../whats-new-march-2018.md#main-pars_text).
+To read all that is new in this release, see  [What's New in Adobe Captivate Prime](../whats-new.md).
 
 ### Known Issue {#KnownIssue-1}
 
@@ -1816,7 +1816,7 @@ Release date: April 9, 2017
 
 ### New features {#newfeatures}
 
-For a list of new features and enhancements in Captivate Prime April release, refer to [What's New.](../whats-new-april-2017.md#main-pars_text)
+For a list of new features and enhancements in Captivate Prime April release, refer to [What's New.](../whats-new.md)
 
 **Widget-based Learner App**
 
@@ -2345,7 +2345,7 @@ Inappropriate heading title used to appear for Adobe Connect integration after c
 
 **Reports**
 
-Sometimes, even if 'show data for current values'** **option is selected, the latest data was not shown in the reports. This issue is fixed.
+Sometimes, even if 'show data for current values' option is selected, the latest data was not shown in the reports. This issue is fixed.
 
 +++
 
@@ -2355,7 +2355,7 @@ Release date: July 31, 2016.
 
 ## New features and enhancements {#newfeaturesandenhancements}
 
-For a list of new features and enhancements in Captivate Prime July release, refer to [What's New](../whats-new-july-2017.md#main-pars_text).
+For a list of new features and enhancements in Captivate Prime July release, refer to [What's New](../whats-new.md).
 
 Some of the enhancement features are listed below for your reference. 
 
@@ -2363,7 +2363,7 @@ Some of the enhancement features are listed below for your reference.
 
 Captivate Prime provides you a feature to generate transcripts for your organization's Captivate Prime learners. For more information, refer to  [Learner Transcripts feature help content](../administrators/feature-summary/learner-transcripts.md). 
 
-** Export badge as PDF**
+**Export badge as PDF**
 
 Captivate Prime allows you to export your badges as PDF files. For more information, refer to  [Badges feature content](../administrators/feature-summary/badges.md). 
 

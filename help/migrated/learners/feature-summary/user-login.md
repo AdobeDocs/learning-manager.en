@@ -24,7 +24,9 @@ When you are using Adobe Captivate Prime for the first time, you need to create 
 
    If you forgot password, click Forgot password? link and provide your email-id that you used for creating Adobe ID.  
 
+<!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
+-->
 
 1. Alternatively, you can use Enterprise ID by clicking Sign in with an Enterprise ID link.
 
