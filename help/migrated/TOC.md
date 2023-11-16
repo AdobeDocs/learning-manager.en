@@ -73,7 +73,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Manager App for Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Settings](integration-admin/feature-summary/settings.md)
    * [Manage custom roles via CSV files](integration-admin/feature-summary/configure-role-csv-files.md)
-
 * Authors {#authors}
    * [User login](authors/feature-summary/user-login.md)
    * [Content library](authors/feature-summary/content-library.md)
@@ -113,7 +112,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learner home page](learners/feature-summary/learner-home-page.md)
    * [Share to Social Learning](learners/feature-summary/share-to-social.md)
    * [System requirements | Adobe Learning Manager desktop application](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-
 * Manager {#manager}
    * [User log in](managers/feature-summary/user-login.md)
    * [Manager dashboard](managers/feature-summary/manager-dashboard.md)

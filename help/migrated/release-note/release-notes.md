@@ -907,7 +907,7 @@ For more information, see  [***What's new in the August 2020 release of Adobe Le
 * For some scenarios, the Connect admin receives incorrect alerts.
 * LinkedIn Learning migration produces a few errors.
 
-## Known issues in this update {#known-issues-2}
+### Known issues in this update {#known-issues-2}
 
 **Dashboard reports**
 
@@ -947,8 +947,6 @@ If you do not want to read the announcement at that moment, you can always opt t
 +++
 
 +++Update 53 - April 2020 release of Learning Manager
-
-Update 53
 
 Release date: April 04, 2020
 

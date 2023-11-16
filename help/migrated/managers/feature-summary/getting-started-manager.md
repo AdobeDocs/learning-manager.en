@@ -8,8 +8,6 @@ contentowner: manochan
 
 # Getting started for Managers
 
-Getting started as a Manager in Learning Manager.
-
 The getting started page aids you to traverse through the key features of the application.
 
 As soon as you log in as a Manager, you can view the pop-up window with a list of videos.

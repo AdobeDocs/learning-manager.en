@@ -121,7 +121,7 @@ With this release, an Administrator can now set the Learners' default view type 
 
 Follow these steps to change the default view for Learners:
 
-1. In the Admin app, click **Settings** under **CONFIGURE **in the left pane.
+1. In the Admin app, click **Settings** under **CONFIGURE** in the left pane.
 
 1. Click **General** under **BASICS** to access the General settings page.
 
@@ -394,6 +394,11 @@ To see the known issues in this update, refer to [***Known issues***](release-no
 -->
 
 ## Have a question or an idea? {#haveaquestionoranidea}
+
+<!--
+Saurav:
+This .svg file fails to render properly
+-->
 
 <table>
  <tbody>

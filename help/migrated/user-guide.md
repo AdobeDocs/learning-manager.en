@@ -36,7 +36,6 @@ Read on to know what is the latest offering in Adobe Learning Manager (previousl
     <a href="system-requirements.md">
     <img alt="system requirements" src="assets/prime-reqs.jpeg">
     </a>
-    <p>
     <a href="whats-new.md"><strong>System requirements </strong></a>
     </p>
    </td>

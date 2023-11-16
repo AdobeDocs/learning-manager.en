@@ -1,6 +1,6 @@
 ---
 jcr-language: en_us
-title: Classroom
+title: Add classroom locations
 description: Administrators can now set up a library of classroom locations. For each Classroom Location, the administrators can set the metadata that includes Location Name, Seat Limit as well as additional information such as the Location URL. Authors and Administrators can then use these pre-configured classroom locations for setting up instructor-led training events (classroom modules).
 contentowner: saghosh
 ---

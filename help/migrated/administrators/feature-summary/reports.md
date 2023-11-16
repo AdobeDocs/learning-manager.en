@@ -707,7 +707,7 @@ As an Administrator, you can now fetch both Learner feedback (L1) and Manager fe
 
 You can export the data from the UI or through PowerBI connector for more in-depth analysis.
 
-L1 and L3 feedback reports provide an option to download a consolidated feedback report for the L1 and L3 responses for selected trainings for a **one-year **range or for up to 10 Selected trainings for any date range.
+L1 and L3 feedback reports provide an option to download a consolidated feedback report for the L1 and L3 responses for selected trainings for a **one-year** range or for up to 10 Selected trainings for any date range.
 
 Sign in as an Administrator, click **Reports > Custom Reports**, and in the list of reports, click **Feedback Report**.
 
