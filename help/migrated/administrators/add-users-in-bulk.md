@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: Add users in bulk
 description: Learn to add multiple users at a time.
-contentowner: jayakarr
+contentowner: saghosh
 ---
 
 
