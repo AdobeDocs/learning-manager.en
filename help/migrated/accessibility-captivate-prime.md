@@ -189,7 +189,7 @@ The Learning Manager Learner role supports several other accessibility features 
 
 1. Semantic structure to the learner role pages including heading, list markup, descriptive titles etc are provided.
 1. Support for browser zoom up to 200% without loss of content or functionality is maintained through-out the learner role.
-1. Colour contrast for text and non-text elements is maintained on learner role. For a better experience use the [Vivid](https://helpx.adobe.com/in/captivate-prime/administrators/feature-summary/themes.html) theme.
+1. Colour contrast for text and non-text elements is maintained on learner role. For a better experience use the [Vivid](/help/migrated/administrators/feature-summary/themes.md) theme.
 1. Support of W3C's WAI ARIA design patterns to maintain consistency and industry best practices.
 
 For more information, see:
