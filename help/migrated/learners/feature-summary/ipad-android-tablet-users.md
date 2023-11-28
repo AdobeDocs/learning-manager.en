@@ -459,7 +459,7 @@ When the instructor rejects the submission, the status on the Learner mobile app
 
 To submit the file again, click the link **Upload File**.
 
-## Learning Manager for iPad and tablets {#captivateLearning Managerforipadandtablets}
+## Learning Manager for iPad and tablets {#captivateforipadandtablets}
 
 In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the following **Home** screen:
 
