@@ -32,7 +32,7 @@ You are unable to upload a CSV because the first column displays a special chara
 
 ## Cause
 
-The issue occurs when the CSV is saved as a UTF-8 format in Excel. When you save a CSV in Excel as UTF-8, the file is saved in a UTF-BOM format. You can either verify this using Notepad++ or when you upload a CSV to Prime, while mapping the columns, the first column displays a special character.
+The issue occurs when the CSV is saved as a UTF-8 format in Excel. When you save a CSV in Excel as UTF-8, the file is saved in a UTF-BOM format. You can either verify this using Notepad++ or when you upload a CSV to Learning Manager, while mapping the columns, the first column displays a special character.
 
 ## Resolution
 

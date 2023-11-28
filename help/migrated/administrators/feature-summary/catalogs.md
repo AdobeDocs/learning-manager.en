@@ -18,7 +18,7 @@ As an administrator, you can create custom catalogs, if you want to make selecti
 
 To create a catalog, perform the following steps:
 
-1. As an Admin, on the left pane, click Catalogs. On this page, there is a default catalog, which is automatically created when you create a Prime account. And by default, all the learning objects in this catalog are shared with all the learners. 
+1. As an Admin, on the left pane, click Catalogs. On this page, there is a default catalog, which is automatically created when you create a Learning Manager account. And by default, all the learning objects in this catalog are shared with all the learners. 
 1. To create a catalog, on the upper-right corner of the page, click **Create**. Optionally, you can also click **Create Catalog**, which is located below the list of catalogs.
 1. On the **Create Catalog** page, enter the name and description of the catalog that you want to create.
 
@@ -291,7 +291,7 @@ When a learner logs in to Learning Manager, he/she has view the Catalogs that we
 
 +++How to create and use Catalog labels?
 
-Catalog Labels allow you to associate learning objects with relevant field-value information. Catalog Labels and values are visible only to Administrators and Authors. For more information, see [***Catalog labels***](https://helpx.adobe.com//captivate-prime/administrators/feature-summary/catalog-labels.html).
+Catalog Labels allow you to associate learning objects with relevant field-value information. Catalog Labels and values are visible only to Administrators and Authors. For more information, see [***Catalog labels***](/help/migrated/administrators/feature-summary/catalog-labels.md).
 
 Once you have created catalog labels, you can apply them to specific catalogs by following these steps:
 

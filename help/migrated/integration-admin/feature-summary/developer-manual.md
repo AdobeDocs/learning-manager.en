@@ -14,7 +14,7 @@ Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28
 
 ## Overview {#overview}
 
-[Adobe Learning Manager](http://www.adobe.com/in/products/captivateprime.html) is a cloud-hosted, learner-centric, and self-service learning management solution. Customers can access Learning Manager resources programmatically using the Learning Manager API to integrate it with other enterprise applications. The API can also be used by Adobe partners to enhance the value proposition of Learning Manager, by extending its functionality or by integrating it with other applications or services.
+[Adobe Learning Manager](http://www.adobe.com/in/products/learningmanager.html) is a cloud-hosted, learner-centric, and self-service learning management solution. Customers can access Learning Manager resources programmatically using the Learning Manager API to integrate it with other enterprise applications. The API can also be used by Adobe partners to enhance the value proposition of Learning Manager, by extending its functionality or by integrating it with other applications or services.
 
 ### Usage scenario {#usagescenario}
 
@@ -24,11 +24,11 @@ Using Learning Manager API, developers can build self-contained applications tha
 
 The Learning Manager API is based on principles of REST, and exposes key elements of the Learning Manager Object Model to application developers through HTTP. Before knowing the details of the API endpoints and the HTTP methods, developers can become familiar with the various Learning Manager objects, their attributes and inter-relationships. Once the models are understood, it will be useful to get a basic understanding of the structure of API requests and responses, and a few common programming terms that we use generically across the API.
 
-For details of the various API endpoints and methods, refer to the  [Learning Manager API documentation](https://captivateprime.adobe.com/docs/primeapi/v2/).
+For details of the various API endpoints and methods, refer to the  [Learning Manager API documentation](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
 ## API authentication {#apiauthentication}
 
-When writing an application that makes API calls to Prime, you have to register your application using the Integration Admin app. 
+When writing an application that makes API calls to Learning Manager, you have to register your application using the Integration Admin app. 
 
 Learning Manager APIs use OAuth 2.0 framework to authenticate and authorize your client applications. 
 
@@ -39,14 +39,14 @@ Learning Manager APIs use OAuth 2.0 framework to authenticate and authorize your
 You can set up your application with client id and client secret to use the proper end points. Once you register your application, you can get the clientId and clientSecret. Get URL should be used in browser as it authenticates the Learning Manager users using their pre-configured accounts such as SSO, Adobe ID, and so on. 
 
 ```
-GET https://captivateprime.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE.
+GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE.
 ```
 
 After successful authentication, your browser redirects to the redirect_uri mentioned in the above URL. A parameter **code** is appended along with the redirect uri.
 
 **2. Get refresh token from code**
 
-`POST https://captivateprime.adobe.com/oauth/token Content-Type: application/x-www-form-urlencoded`
+`POST https://learningmanager.adobe.com/oauth/token Content-Type: application/x-www-form-urlencoded`
 
 Body of the post request:
 
@@ -67,7 +67,7 @@ client_id:
 
 URL to obtain access token: 
 
-POST [https://captivateprime.adobe.com/oauth/token/refresh](https://captivateprime.adobe.com/oauth/token/refresh) Content-Type: application/x-www-form-urlencoded
+POST [https://learningmanager.adobe.com/oauth/token/refresh](https://learningmanager.adobe.com/oauth/token/refresh) Content-Type: application/x-www-form-urlencoded
 
 Body of the post request:
 
@@ -88,7 +88,7 @@ client_id:
 
 **URL to verify access token details**
 
-`GET https://captivateprime.adobe.com/oauth/token/check?access_token=<access_token>`
+`GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_token>`
 
 **Usage limitation**
 
@@ -116,7 +116,7 @@ When an API request fails, an Error response is obtained. The HTTP Status code r
 
 API object's attributes and its relationships are collectively called Fields. Refer to [JSON API for more information.](http://jsonapi.org/format/#document-resource-object-fields) You can use Fields as a parameter while making API calls to fetch one or more speicific attributes from the model. In absence of the Fields parameter, the API call fetches all the available attributes from the model. For example, in the following API call, fields[skill]=name fetches you the name attribute of the skill model alone. 
 
-https://captivateprime.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name 
+https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name 
 
 **Pagination**
 
@@ -136,7 +136,7 @@ But, in this scenario, the developer wants to get the skill name, and points of 
 
 **API Call**
 
-`https://captivateprimeqe1.adobe.com/primeapi/v1/users/%7buserId%7d/userSkills/%7bid%7d?include=skillLevel.skill&fields%5bskill%5d=name&fields%5bskillLevel%5d=maxCredits&fields%5buserSkill%5d=pointsEarned`
+`https://learningmanagerqe1.adobe.com/primeapi/v1/users/%7buserId%7d/userSkills/%7bid%7d?include=skillLevel.skill&fields%5bskill%5d=name&fields%5bskillLevel%5d=maxCredits&fields%5buserSkill%5d=pointsEarned`
 
 For example userId can be 746783 and the userSkills id: 746783_4426_1. 
 
@@ -144,19 +144,19 @@ For example userId can be 746783 and the userSkills id: 746783_4426_1.
 
 ```
 \{ 
- "links": {"self": "https://captivateprime.adobe.com/primeapi/v2/users/746783/userSkills/746783_4426_1?include=skillLevel.skill&fields[userSkill]=pointsEarned&fields[skillLevel]=maxCredits&fields[skill]=name"}, 
+ "links": {"self": "https://learningmanager.adobe.com/primeapi/v2/users/746783/userSkills/746783_4426_1?include=skillLevel.skill&fields[userSkill]=pointsEarned&fields[skillLevel]=maxCredits&fields[skill]=name"}, 
  "data": { 
  "id": "746783_4426_1", 
  "type": "userSkill", 
  "attributes": {"pointsEarned": 5}, 
- "links": {"self": "https://captivateprime.adobe.com/primeapi/v2/users/746783/userSkills/746783_4426_1"} 
+ "links": {"self": "https://learningmanager.adobe.com/primeapi/v2/users/746783/userSkills/746783_4426_1"} 
  }, 
  "included": [ 
  { 
  "id": "4426", 
  "type": "skill", 
  "attributes": {"name": "Java"}, 
- "links": {"self": "https://captivateprime.adobe.com/primeapi/v2/skills/4426"} 
+ "links": {"self": "https://learningmanager.adobe.com/primeapi/v2/skills/4426"} 
  }, 
  { 
  "id": "4426_1", 
@@ -367,7 +367,7 @@ Following are the various elements of the Learning Manager class diagram in V2 A
   </tr>
   <tr>
    <td>account</td>
-   <td>Encapsulates the details of a prime customer.</td>
+   <td>Encapsulates the details of a Learning Manager customer.</td>
   </tr>
   <tr>
    <td><code>
@@ -421,7 +421,7 @@ Following are the various elements of the Learning Manager class diagram in V2 A
   </tr>
   <tr>
    <td>learningObject</td>
-   <td>A Learning Object is an abstraction for various kinds of objects which users can enroll into and learn from. Currently Prime has the four types of Learning Objects – Course, Certification, Learning Program <code>
+   <td>A Learning Object is an abstraction for various kinds of objects which users can enroll into and learn from. Currently Learning Manager has the four types of Learning Objects – Course, Certification, Learning Program <code>
      and
     </code> Job Aid.<br></td>
   </tr>
@@ -435,7 +435,7 @@ Following are the various elements of the Learning Manager class diagram in V2 A
      module
     </code>. A course is composed of one <code>
      of
-    </code> more modules. In Prime, a module can be delivered in a variety of equivalent ways. Therefore the <code>
+    </code> more modules. In Learning Manager, a module can be delivered in a variety of equivalent ways. Therefore the <code>
      loResource
     </code> essentially encapsulates all those equivalent resources.<br></td>
   </tr>
@@ -804,7 +804,7 @@ user(user)
 
 ## Pre-requisites {#prerequisites}
 
-As a developer you have to create a trial account on Prime, so that you can have full access to all the roles within that account. To be able to write an application, a developer has to create some users and courses and get the account to a reasonable state so that the application being developed can have access to some sample data.
+As a developer you have to create a trial account on Learning Manager, so that you can have full access to all the roles within that account. To be able to write an application, a developer has to create some users and courses and get the account to a reasonable state so that the application being developed can have access to some sample data.
 
 ## Create client id and secret {#createclientidandsecret}
 

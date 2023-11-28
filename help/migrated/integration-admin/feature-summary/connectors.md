@@ -1191,9 +1191,9 @@ To configure the connector,  in  the **[!UICONTROL Connectors]** page, hover ove
 
 1. In the **Redirect URL** section, select the option **Use a custom URL** (Choose this if you know the target application's URL). Enter the following URL:
 
-   `https://captivateprime.adobe.com/ctr/app/azure/_callback` (update the domain based on the environment)
+   `https://learningmanager.adobe.com/ctr/app/azure/_callback` (update the domain based on the environment)
 
-1. In the Home URL field, enter the following URL, `https://captivateprime.adobe.com/`
+1. In the Home URL field, enter the following URL, `https://learningmanager.adobe.com/`
 1. In the permissions section, select **Read All data set** and **Read and Write all data set**.
 
    Obtaining Tenant: Contact your Power BI admin to provide the tenant name. 
@@ -1845,7 +1845,7 @@ In addition to initiating a purchase, the connector also collects purchase detai
 
 1. Override options limit via custom module. This is an optional step but highly recommended for large datasets.
 1. Enable all async APIs on the page. Since there may be a lot of data, the export happens asynchronously. The APIs from Adobe Commerce are called the request payload is sent. The request pushes the messages to a queue and there is a consumer to this queue, which processes these messages and creates products on the commerce side. Adobe Commerce does not provide this async processing by default. That is why you must enable this option.  
-1. Add a link to return to ALM on the payment success page. This return URL must be configured in Adobe Commerce. The URL to be used for the link. -  `https://captivateprimeqe.adobe.com/app/learner#/postPayment`
+1. Add a link to return to ALM on the payment success page. This return URL must be configured in Adobe Commerce. The URL to be used for the link. -  `https://learningmanager.adobe.com/app/learner#/postPayment`
 1. Change indexing from "On save" to "Scheduled".  For more information, see this  [KB](https://support.magento.com/hc/en-us/articles/360040227191).
 1. Apply the following patches. For more information, see  [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html).
 1. Configure Fastly.  Fastly is required for Adobe Commerce on cloud infrastructure, and is used in Staging and Production environments. For more information, see [Set up Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html).

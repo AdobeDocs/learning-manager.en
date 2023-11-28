@@ -226,7 +226,7 @@ Learning Manager requires these two cookies to authorize and authenticate every 
   </tr>
   <tr>
    <td>
-    <p>Company Logo on Prime Home Page</p></td>
+    <p>Company Logo on Learning Manager Home Page</p></td>
    <td>
     <p>100 pixels in height, width is calculated accordingly.</p></td>
   </tr>

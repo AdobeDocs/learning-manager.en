@@ -77,7 +77,7 @@ For more information, see  [Integrate Learning Manager with AEM](integrate-aem-c
 
 ## Import of quiz scores from Adobe Connect {#importofquizscoresfromadobeconnect}
 
-Import Connect quiz data into Prime and integrate it with existing reporting workflows so that Prime users can get quiz data, user responses and scores from Adobe Connect sessions within report, like the way it is available for self-paced modules having quizzes.
+Import Connect quiz data into Learning Manager and integrate it with existing reporting workflows so that Learning Manager users can get quiz data, user responses and scores from Adobe Connect sessions within report, like the way it is available for self-paced modules having quizzes.
 
 For more information, see  [Import quiz scores from Adobe Connect.](integration-admin/feature-summary/connectors.md#quiz-adobe-connect)
 
@@ -90,7 +90,7 @@ For more information, see  [Import quiz scores from Adobe Connect.](integration-
    * Learner UUID
    * Training author's name
 
-* In this release of Learning Manager, for certificates with expiry, that is, recurring certificates, Prime will now mention the validity date for the certificate. The dates will appear in the UI and on the certificate PDF.
+* In this release of Learning Manager, for certificates with expiry, that is, recurring certificates, Learning Manager will now mention the validity date for the certificate. The dates will appear in the UI and on the certificate PDF.
 
 ## Scrollable My Catalog page {#scrollablemycatalogpage}
 
@@ -213,14 +213,14 @@ This feature is available only when the Immersive layout is selected.
 
 In this update of Learning Manager, we have updated our data retention policies for the following features:
 
-The FTP and Box connectors we provide are meant to help in transfer of data between Prime and its users, and not as storage. These connectors are also used internally by other connectors that we ship for Adobe Connect, BlueJeans, getAbstract, Harvard Manage Mentor, and Zoom.
+The FTP and Box connectors we provide are meant to help in transfer of data between Learning Manager and its users, and not as storage. These connectors are also used internally by other connectors that we ship for Adobe Connect, BlueJeans, getAbstract, Harvard Manage Mentor, and Zoom.
 
 The new data retention policy is as follows:
 
 * All CSV files used while importing data using FTP/Box Connector (directly or indirectly) are deleted once the import completes. So, users/application uploading data cannot assume that the file will be present after Prime has ingested the data.
 * All CSV files created during data exports will get deleted automatically after 7 days from export. So, users and applications must ensure they consume this export before that.
 
-The Migration feature provided in Prime also relies on FTP/Box connector to transfer data to Prime. All CSV's used during migration will be automatically deleted 7 days after its most recent use.
+The Migration feature provided in Learning Manager also relies on FTP/Box connector to transfer data to Learning Manager. All CSV's used during migration will be automatically deleted 7 days after its most recent use.
 
 # Release Notes {#releasenotes}
 

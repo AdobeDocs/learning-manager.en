@@ -12,7 +12,7 @@ Learning Manager Learning Programs are renamed to Learning Paths. This change ha
 
 ## Technical Set up {#technicalsetup}
 
-The technical set up for your Prime account is required mainly for enterprise users. This document talks about configuring single sign on for your organization, and integrating Prime with third-party connectors.
+The technical set up for your Learning Manager account is required mainly for enterprise users. This document talks about configuring single sign on for your organization, and integrating Learning Manager with third-party connectors.
 
 ### Configure Single Sign-On {#configuresinglesignon}
 
@@ -264,7 +264,7 @@ After you export the data, save the .csv files in your local computer. The files
 
 ## Set up FTP and BOX folders for the migration {#setupftpandboxfoldersforthemigration}
 
-Before you plan and start your actual migration of all the content, you must set up the FTP and BOX folders first. You need these folders to drop your .csv files in these folders. Once your legacy content, in the form of .csv files, are available in the FTP and BOX folders, Prime can consume the data.
+Before you plan and start your actual migration of all the content, you must set up the FTP and BOX folders first. You need these folders to drop your .csv files in these folders. Once your legacy content, in the form of .csv files, are available in the FTP and BOX folders, Learning Manager can consume the data.
 
 ### Set up an FTP account {#setupanftpaccount}
 

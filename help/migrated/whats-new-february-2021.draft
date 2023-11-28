@@ -241,15 +241,15 @@ We plan to remove the column 'Total User Score/Quiz Score' from the next release
 
 # Data retention updates {#data-retention-updates}
 
-Learning Manager provides you with FTP and Box connectors to help transfer of data to/from Prime. The storage provided by these connectors is meant to be an intermediate temporary buffer space between Prime and an external system, and they are not supposed to be used as storage for the CSV files that flow between Prime and the external system. In addition to User data import, these connectors are also used internally by other connectors that we ship for Adobe Connect, BlueJeans, getAbstract, Harvard Manage Mentor, and Zoom.  
+Learning Manager provides you with FTP and Box connectors to help transfer of data to/from Learning Manager. The storage provided by these connectors is meant to be an intermediate temporary buffer space between Learning Manager and an external system, and they are not supposed to be used as storage for the CSV files that flow between Learning Manager and the external system. In addition to User data import, these connectors are also used internally by other connectors that we ship for Adobe Connect, BlueJeans, getAbstract, Harvard Manage Mentor, and Zoom.  
 
-In this update of Learning Manager, we will be enforcing the following policies with respect to how long the data (CSV files) used in the context of various workflows are retained, before they are auto-deleted. It is important to take note of this, especially if you have written upstream applications (for data that is inbound to Prime) or downstream applications (for consuming outbound data from Prime). It is also a good idea to back up any files that you already have in Box/FTP folders, if you need them for reference or any other purpose.  
+In this update of Learning Manager, we will be enforcing the following policies with respect to how long the data (CSV files) used in the context of various workflows are retained, before they are auto-deleted. It is important to take note of this, especially if you have written upstream applications (for data that is inbound to Learning Manager) or downstream applications (for consuming outbound data from Learning Manager). It is also a good idea to back up any files that you already have in Box/FTP folders, if you need them for reference or any other purpose.  
 
 The new data retention policy is as follows:  
 
-* All CSV files used while importing data using FTP/Box Connector (directly or indirectly) will be deleted 7 days after the import completes. So, users/application uploading data cannot assume that the file will be present after Prime has ingested the data. This policy will also apply on user CSV import workflow.  
+* All CSV files used while importing data using FTP/Box Connector (directly or indirectly) will be deleted 7 days after the import completes. So, users/application uploading data cannot assume that the file will be present after Learning Manager has ingested the data. This policy will also apply on user CSV import workflow.  
 * All CSV files created during data exports will get deleted automatically after seven days from export. So, users and applications must ensure they consume this export before that.  
-* The Migration feature provided in Prime also relies on FTP/Box connector to transfer data to Prime. All CSVs used during migration will be automatically deleted after seven days of its most recent use.
+* The Migration feature provided in Learning Manager also relies on FTP/Box connector to transfer data to Learning Manager. All CSVs used during migration will be automatically deleted after seven days of its most recent use.
 
 # Release Notes {#releasenotes}
 

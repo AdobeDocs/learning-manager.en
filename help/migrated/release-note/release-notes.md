@@ -11,7 +11,7 @@ contentowner: jayakarr
 <table>
  <tbody>
   <tr>
-   <td><img src="assets/cp-prime-appicon-88x84.png"></td>
+   <td><img src="assets/cp-Learning Manager-appicon-88x84.png"></td>
    <td>
     <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
@@ -39,11 +39,11 @@ The product team is taking all steps to ensure that there is no impact on your u
 
 As part of this change, the access URLs for Learning Manager are affected.
 
-For example, if the access URL for your account is `https://captivateprime.adobe.com/XYZ`, then the new URL will be `https://learningmanager.adobe.com/XYZ`.
+For example, if the access URL for your account is `https://learningmanager.adobe.com/XYZ`, then the new URL will be `https://learningmanager.adobe.com/XYZ`.
 
 All exisiting URLs will continue to work.
 
-To complete this action, work with your IT department of your organization. For more information, contact us at `captivateprimesupport@adobe.com`.
+To complete this action, work with your IT department of your organization. For more information, contact us at `learningmanagersupport@adobe.com`.
 
 ## Update 76
 
@@ -69,7 +69,7 @@ Release date: 15 February, 2022
 
 ### Overview
 
-An [instance](https://captivateprimeapac.adobe.com/acapindex.html) of Learning Manager will now be hosted on AWS in Mumbai (ap-south-1). For customers using this India instance, will have their user's personally identified information (PII) and user's learning records stored in India region only. 
+An [instance](https://learningmanagerapac.adobe.com/acapindex.html) of Learning Manager will now be hosted on AWS in Mumbai (ap-south-1). For customers using this India instance, will have their user's personally identified information (PII) and user's learning records stored in India region only. 
 
 ### What is supported
 
@@ -84,7 +84,7 @@ Adobe Learning Manager India instance is at par with other instances like EU and
 
 **How is this instance in Mumbai different from other AWS-only environments?**
 
-There is no difference. The instance in Mumbai is the same as [AWS US](http://captivateprime.adobe.com/) or [AWS EU](http://captivateprimeeu.adobe.com/) instances. This instance is hosted in India, and all the learning records and user data stay in India. The following features are unsupported in the India instance:
+There is no difference. The instance in Mumbai is the same as [AWS US](http://learningmanager.adobe.com/) or [AWS EU](http://learningmanagereu.adobe.com/) instances. This instance is hosted in India, and all the learning records and user data stay in India. The following features are unsupported in the India instance:
 
 * Credit card payment for purchase of seats  
 * Creative Cloud content catalog  
@@ -268,7 +268,7 @@ For more information, see [***What's New in the October 2021 release of Learning
 ### Bugs fixed in this update
 
 * Email templates, such as, Course Unenrollment, Learning Program Unenrollment, or Certification Unenrollment do not reflect the latest product terminologies as defined in the csv. Now the default text in email templates will support customized terminologies.
-* The user language in Learning Manager is not supported in the Publish to Prime workflow. If the user language is different, Publish to Prime happens in English.
+* The user language in Learning Manager is not supported in the Publish to Learning Manager workflow. If the user language is different, Publish to Learning Manager happens in English.
 * If you add many catalogs to a custom role, an error occurs when you update the role. Now the limit of number of catalogs is increased upto 50 catalogs. 
 * In some cases, trainings that are deleted are still visible in a catalog. This issue occurred in the Admin app only and is fixed now.
 * When the manager role is changed from one user to another, the manager role from previous user was still reflected in the UI. This is now fixed. This issue was present only for external users and not for internal users.
@@ -335,8 +335,8 @@ The **August 2021** **release of Adobe Learning Manager** focuses on improving L
 * **Enhanced Accessibility support:** Accessibility support for the learner role strengthens via enhanced keyboard navigation, screen reader capability, and contrast ratio compliance. 
 * **Rich Text Formatting:** Learning Manager now offers rich text editing for descriptions in courses, programs, certificates, and Job Aids. This allows authors to specify descriptions in rich text including hyperlinks, images and other text formatting options, as opposed to plain text.
 * **Star Rating:** A learner can now rate a course on a 5-point scale. An Administrator can select between existing effectiveness rating or the 5-star rating. 
-* **Badgr Integration:** Learners can now authorize Prime to automatically push badges they have earned in Prime to their Badgr account, from where they can share their badges in their social networks.
-* **Export learning events to Salesforce:** Learning Manager now offers an ability to export some specific events in Prime like new user addition, enrollment and completion to a Salesforce tenant, and provide an ability to link these with the appropriate User object or Contact object in Salesforce.
+* **Badgr Integration:** Learners can now authorize Learning Manager to automatically push badges they have earned in Learning Manager to their Badgr account, from where they can share their badges in their social networks.
+* **Export learning events to Salesforce:** Learning Manager now offers an ability to export some specific events in Learning Manager like new user addition, enrollment and completion to a Salesforce tenant, and provide an ability to link these with the appropriate User object or Contact object in Salesforce.
 
 For more information, see [***What's new and changed in the August 2021 release of Learning Manager***](../whats-new.md).
 
@@ -365,9 +365,9 @@ For more information, see [***What's new and changed in the August 2021 release 
 
 * The option to edit scores and comments must be disabled when no learner is selected or if the attendance of selected learner is not marked.
 * Values in active fields displays in lower case in the Edit User dialog even though a user had previously added the values in upper case.
-* Ability for Administrators and management to view pending approvals for courses. This allows management to ensure that managers track employee learning and training, and also allow Prime administrators to approve course enrollment as needed.
+* Ability for Administrators and management to view pending approvals for courses. This allows management to ensure that managers track employee learning and training, and also allow Learning Manager administrators to approve course enrollment as needed.
 * A user who has an author or custom admin/author permission cannot edit a Job Aid that is created by another user.
-* From Admin role, when user navigates to Course > Instance and select the 'Learners enrolled' for any instance, earlier it used to show the learners from 'Default instance'. Admin needed to change the instance from the dropdown manually. Now Prime correctly navigates user to the learners page with the correct instance selected.
+* From Admin role, when user navigates to Course > Instance and select the 'Learners enrolled' for any instance, earlier it used to show the learners from 'Default instance'. Admin needed to change the instance from the dropdown manually. Now Learning Manager correctly navigates user to the learners page with the correct instance selected.
 
 **Device app**
 
@@ -507,7 +507,7 @@ Release date: March 26, 2021
 
 ### What's new and changed {#whatsnewandchanged}
 
-Captivate  Prime Mobile App update 3.3 introduces a brand new Home Page, which supports mastheads and AI-based training recommendations. This home page is available to all accounts that are configured for the new Immersive Layout option. The accounts configured with the Classic Layout continues to see the classic/legacy home page. They should not observe any changes in the home page. 
+Captivate  Learning Manager Mobile App update 3.3 introduces a brand new Home Page, which supports mastheads and AI-based training recommendations. This home page is available to all accounts that are configured for the new Immersive Layout option. The accounts configured with the Classic Layout continues to see the classic/legacy home page. They should not observe any changes in the home page. 
 
 In addition, this update also allows learners to download their badge as PDF and an image. The update also introduces a feedback po-pup, which allows learners to provide feedback about the app anonymously. 
 
@@ -987,7 +987,7 @@ Here are a few use cases, which will be supported in this update.
 * Account URL which appear in the email templates.
 * My Learning and Catalog go-URLs.
 
-In addition, any URL with domain *captivateprime.adobe.com* opens in the device app.
+In addition, any URL with domain *learningmanager.adobe.com* opens in the device app.
 
 #### Upload assets in external certificate as proof of completion {#uploadassetsinexternalcertificateasproofofcompletion}
 
@@ -1048,7 +1048,7 @@ As an instructor, you can see session and course names in the Attendance view. Y
 
 Learners can now view an announcement in full view instead of a list view. This happens when the learner has one unread announcement. This enhances the learners experience in viewing the announcement.
 
-Adobe Learning Manager now allows you to customize your account to provide a richer experience to your users. Here's a list of elements that can be customized. Contact [Learning Manager support](mailto:captivateprimesupport@adobe.com)to make these changes.
+Adobe Learning Manager now allows you to customize your account to provide a richer experience to your users. Here's a list of elements that can be customized. Contact [Learning Manager support](mailto:learningmanagersupport@adobe.com)to make these changes.
 
 * Training card colors.
 * Progress icon
@@ -1100,8 +1100,8 @@ Currently only admins can add users to a Do Not Disturb list via the UI. After t
 
 For more informaton about Learning Manager APIs, see the following:
 
-* [***API reference***](https://captivateprime.adobe.com/docs/primeapi/v2/)
-* [***API developer guide***](https://helpx.adobe.com/captivate-prime/integration-admin/feature-summary/developer-manual.html)
+* [***API reference***](https://learningmanager.adobe.com/docs/Learning Managerapi/v2/)
+* [***API developer guide***](https://helpx.adobe.com/captivate-Learning Manager/integration-admin/feature-summary/developer-manual.html)
 
 ### Issues fixed in this release {#Issuesfixedinthisrelease-1}
 
@@ -1382,7 +1382,7 @@ Social Learning allows content posted by learners to be curated in two ways name
 
 **Map skill with skill domains**
 
-Map skills in your account with the skill domains present in the Prime LMS. This helps in linking your account skills with the skill domains which Prime support for auto-assisted curation. For more information, see [***Map skill with domains***](../administrators/feature-summary/curation-skills.md).
+Map skills in your account with the skill domains present in the Learning Manager LMS. This helps in linking your account skills with the skill domains which Learning Manager support for auto-assisted curation. For more information, see [***Map skill with domains***](../administrators/feature-summary/curation-skills.md).
 
 **CSV specifications and sample CSVs**
 
@@ -1458,9 +1458,9 @@ Release date: April 26, 2019
 
 * **Scan QR code to enroll:** QR code capabilities are enhanced. In addition to supporting attendance marking using QR code, now it also supports enrolling to a course, completing a course using QR code.   
   
-  To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](https://helpx.adobe.com/captivate-prime/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+  To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](https://helpx.adobe.com/captivate-Learning Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
 
-* **Multiple attempts at course:** The Learning Manager app allows the learner to consume courses with multi attempts enabled. For more information on setting up multiple attempts, see  [***Multiple attempts***](https://helpx.adobe.com/captivate-prime/authors/feature-summary/courses.html#Multiattempts).
+* **Multiple attempts at course:** The Learning Manager app allows the learner to consume courses with multi attempts enabled. For more information on setting up multiple attempts, see  [***Multiple attempts***](https://helpx.adobe.com/captivate-Learning Manager/authors/feature-summary/courses.html#Multiattempts).
 
 +++
 
@@ -1485,7 +1485,7 @@ Release date: January 28, 2019
 * Prework and Test out modules might be marked mandatory by default. This issue is fixed.  
 * On clicking the L3 feedback link in your email, the feedback modal may not open. This issue is fixed.
 * Certification is missing in the dashboard report dropdown although it is visible in the manager app and in the data API list. This issue is fixed.
-* Few learning objects could not be retired by the administrator due to lack of permissions although shared catalogs are independent of prime accounts. This issue is fixed.
+* Few learning objects could not be retired by the administrator due to lack of permissions although shared catalogs are independent of Learning Manager accounts. This issue is fixed.
 
 +++
 
@@ -1541,7 +1541,7 @@ Release date: May 19, 2018.
 
 * This release of Adobe Learning Manager rolls out new features and enhancements. It brings to you the ability to create custom roles, add catalog labels, capacity to purge users, manage tags, rename Learning Objects, Slack integration, new connector integrations, support to xAPI, and much more. For more information about the new features and enhancements, see  [New feature's summary](../whats-new.md#main-pars_text).
 
-* Learning Manager is compliant with GDPR. For more information, see [Learning Manager compliance to GDPR.](../kb/prime-gdpr.md)
+* Learning Manager is compliant with GDPR. For more information, see [Learning Manager compliance to GDPR.](../kb/Learning Manager-gdpr.md)
 
 ## Known Issue {#knownissue}
 
@@ -1553,8 +1553,8 @@ Release date: May 19, 2018.
 
 * Learners in Pending state or in state of awaiting acceptance were being marked complete. This issue is fixed.
 * When an instructor searches and selects all learners, the number of learners selected and the count shown have disparities. This issue is fixed.
-* When you search and select any learner and mark attendance, Prime could mark attendance for all learners. This is fixed.
-* Prime would display time in emails in 24 hours format. This has been fixed. Time is now displayed in 12 hours format.
+* When you search and select any learner and mark attendance, Learning Manager could mark attendance for all learners. This is fixed.
+* Learning Manager would display time in emails in 24 hours format. This has been fixed. Time is now displayed in 12 hours format.
 * When a Manager nominates a Learner for a course using the nominate button available in the notifications page, the nominate modal would not load. This has been fixed.
 * In exported excel reports, the deadline date, which should be enrollment date + days to complete value set in auto instance of the LOs, would be displayed wrong. This issue is fixed.
 
@@ -1652,7 +1652,7 @@ Release date: October 5, 2017.
 * When you create a LP, set a reminder, enroll users, and then change the deadline of the instance, the changed deadline might not be reflected for the reminders. This is fixed. The reminders would now carry the changed deadline.
 * In certain cases, for content created using Adobe Presenter, the total and the elapsed time in fluidic player was not in sync with the content. This issue is fixed.
 * In certain cases, after adding a learning program to a catalog, the option to add might still be enabled. This issue has been fixed.
-* Opening Learning Manager in a device browser displays an option to experience Prime on device app. Clicking yes should launch the Play Store (Android) if app is not installed, or launch the app if installed (in Android and iOS). This workflow had issues and have been fixed. 
+* Opening Learning Manager in a device browser displays an option to experience Learning Manager on device app. Clicking yes should launch the Play Store (Android) if app is not installed, or launch the app if installed (in Android and iOS). This workflow had issues and have been fixed. 
 
 +++
 
@@ -1924,7 +1924,7 @@ Learning Manager now lets multiple authors to simultaneously edit the same conte
 
 **Adobe Connect enhancements**
 
-You can now configure a single Adobe Connect URL with multiple Prime accounts.
+You can now configure a single Adobe Connect URL with multiple Learning Manager accounts.
 
 **Support for new languages**
 
@@ -2002,7 +2002,7 @@ Release date: December 06, 2016.
 
 ### Enhancement {#enhancement}
 
-As part of this update, Learning Manager provides an end point [PATCH/users/{id}](https://captivateprime.adobe.com/docs/primeapi/v1/#!/user/patch_users_id) to update users in an application. You can access this API end point in Admin role. Using** **this end point you can update the following information of Learning Manager users:
+As part of this update, Learning Manager provides an end point [PATCH/users/{id}](https://learningmanager.adobe.com/docs/Learning Managerapi/v1/#!/user/patch_users_id) to update users in an application. You can access this API end point in Admin role. Using** **this end point you can update the following information of Learning Manager users:
 
 * Name
 * Email
@@ -2418,7 +2418,7 @@ Release date: June 10, 2016.
 
 ## Issue fixed {#Issuefixed-1}
 
-Some customers faced problems in using Single sign-on feature in Learning Manager. This issue has been fixed by referring Learning Manager's entityId to a URL (https://captivateprime.adobe.com) instead of a keyword. Learning Manager conforms to SAML 2.0 specification. 
+Some customers faced problems in using Single sign-on feature in Learning Manager. This issue has been fixed by referring Learning Manager's entityId to a URL (https://learningmanager.adobe.com) instead of a keyword. Learning Manager conforms to SAML 2.0 specification. 
 
 +++
 
@@ -2899,7 +2899,7 @@ Release date: December 09, 2015
 * The issues related to URL links in e-mail templates are fixed. 
 * Support provided for
 
-   * Publish to Prime
+   * Publish to Learning Manager
    * Faster content upload support for CP 8 version (CP803 patch is required)
 
 +++

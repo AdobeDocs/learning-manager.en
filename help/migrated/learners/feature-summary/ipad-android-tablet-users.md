@@ -157,7 +157,7 @@ All you need to do is, tap the **Scan QR Code** option and scan the code.
 
 **Offline consumption of courses**
 
-When you consume downloaded courses while you are online, Prime will access the downloaded course instead of making server calls.
+When you consume downloaded courses while you are online, Learning Manager will access the downloaded course instead of making server calls.
 
 ## Scan QR code to enroll {#qrcode}
 
@@ -206,7 +206,7 @@ Upon launching the app, tap the **Social** icon.
 
 Like any other social platform, in the Learning Manager mobile app, you can create a post in a board, so that all learners who are part of the same board can view your post, comment, and upload a file along with the comment.
 
-To create a post, tap the (![](assets/prime-add.png)) icon on the bottom-right of the screen. 
+To create a post, tap the (![](assets/Learning Manager-add.png)) icon on the bottom-right of the screen. 
 
 The following screen appears.
 
@@ -216,43 +216,43 @@ The following screen appears.
  <tbody>
   <tr>
    <td>
-    <p><img src="assets/prime-write-1.png" alt=""></p></td>
+    <p><img src="assets/Learning Manager-write-1.png" alt=""></p></td>
    <td>
     <p>Write a post or paste any URL.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/prime-camera.png" alt=""></p></td>
+    <p><img src="assets/Learning Manager-camera.png" alt=""></p></td>
    <td>
     <p>Take a picture with your mobile camera and upload it with your post.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/prime-video.png" alt=""></p></td>
+    <p><img src="assets/Learning Manager-video.png" alt=""></p></td>
    <td>
     <p>Record a video with your mobile camera.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/prime-record.png" alt=""> </p></td>
+    <p><img src="assets/Learning Manager-record.png" alt=""> </p></td>
    <td>
     <p>Record audio with your mobile.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/prime-upload.png" alt=""></p></td>
+    <p><img src="assets/Learning Manager-upload.png" alt=""></p></td>
    <td>
     <p>Upload any document or file in the board.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/prime-ask.png" alt=""> </p></td>
+    <p><img src="assets/Learning Manager-ask.png" alt=""> </p></td>
    <td>
     <p>Ask a question.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/prime-poll.png" alt=""> </p></td>
+    <p><img src="assets/Learning Manager-poll.png" alt=""> </p></td>
    <td>
     <p>Create a poll with your post.</p></td>
   </tr>
@@ -300,7 +300,7 @@ After creating a post, choose the board where you want to upload the post. Tap S
 
 After you've created a post, tap Post and post your comment for other learners to view your post.
 
-In the mobile app, you cannot create a board. To create a board, you must log in to the web app as a learner. For more information on creating a board, see Social learning in [Learning Manager](https://helpx.adobe.com/captivate-prime/learners/feature-summary/social-learning-web-user.html).
+In the mobile app, you cannot create a board. To create a board, you must log in to the web app as a learner. For more information on creating a board, see Social learning in [Learning Manager](https://helpx.adobe.com/captivate-Learning Manager/learners/feature-summary/social-learning-web-user.html).
 
 ## Actions that can be performed on a post {#actionsthatcanbeperformedonapost}
 
@@ -308,9 +308,9 @@ In the mobile app, you cannot create a board. To create a board, you must log in
 * Edit or delete comments in a board.
 * Edit or delete a post based on permissions.
 * Report an abuse of a post if it violates their privacy, or its content is inappropriate. Once a post is reported, a notification is sent to the board administrator and moderators for further actions.
-* Like  ![](assets/prime-like.png)  or dislike  ![](assets/prime-dislike.png)   a post.
+* Like  ![](assets/Learning Manager-like.png)  or dislike  ![](assets/Learning Manager-dislike.png)   a post.
 
-* Like  ![](assets/prime-like.png) or dislike ![](assets/prime-dislike.png) a comment.
+* Like  ![](assets/Learning Manager-like.png) or dislike ![](assets/Learning Manager-dislike.png) a comment.
 
 ## Create a post in other boards {#createapostinotherboards}
 
@@ -324,7 +324,7 @@ Navigate to the required board and post your comment.
 
 ## Share media in a board {#sharemedia}
 
-![](assets/cp-prime-share.png)
+![](assets/cp-Learning Manager-share.png)
 
 Share pictures, documents, or audio or videos files to any board, so that other board members can view your post and start an interaction. To share any media,
 
@@ -447,7 +447,7 @@ Upload any file and click the **Submit** button.
 
 ## Approval or rejection of submission {#approvalorrejectionofsubmission}
 
-After you upload the file, the status changes to **Pending Approval. **The instructor then views the list of [pending submissions](https://helpx.adobe.com/captivate-prime/instructors/feature-summary/learners.html#Approveorrejectsubmissions) and approves or rejects the submission via the Instructor web app.
+After you upload the file, the status changes to **Pending Approval. **The instructor then views the list of [pending submissions](https://helpx.adobe.com/captivate-Learning Manager/instructors/feature-summary/learners.html#Approveorrejectsubmissions) and approves or rejects the submission via the Instructor web app.
 
 When the instructor approves the submission, the status on the Learner mobile app changes to **Approved**.
 
@@ -459,7 +459,7 @@ When the instructor rejects the submission, the status on the Learner mobile app
 
 To submit the file again, click the link **Upload File**.
 
-## Learning Manager for iPad and tablets {#captivateprimeforipadandtablets}
+## Learning Manager for iPad and tablets {#captivateLearning Managerforipadandtablets}
 
 In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the following **Home** screen:
 

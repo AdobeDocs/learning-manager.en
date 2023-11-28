@@ -76,14 +76,14 @@ This document contains basic troubleshooting tips to solve some of the typical p
 ### Windows {#windows}
 
 1. To open the Run dialog, press the **Windows + R** keys.
-1. Type `**%APPDATA%\\..\\Local\\Adobe\\Captivate Prime 1.0**` and press Enter.
+1. Type `**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**` and press Enter.
 1. Delete the files named **preferences.json** and **preferences.xml**.
 
 ### Mac OS X {#macosx}
 
 1. Open Finder.
 1. To open the **Go To** folder dialog, Press **Cmd + Shift + G** keys.
-1. Type `**~/Library/Application Support/Adobe/Captivate Prime 1.0**` and press Enter.
+1. Type `**~/Library/Application Support/Adobe/Learning Manager 1.0**` and press Enter.
 1. Delete the files named **preferences.json** and **preferences.xml**.
 
 ## How to find application logs? {#howtofindapplicationlogs}
@@ -107,7 +107,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 ### Windows {#Windows-1}
 
 1. To open the Run dialog, press **Windows key + R**.****
-1. Type "**%APPDATA%\\..\\Local\\Adobe\\Captivate Prime 1.0**" (without quotes) and press Enter.****
+1. Type "**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**" (without quotes) and press Enter.****
 1. Take a backup of file **preferences.json**, and then open it in a text editor.****
 1. Search for the key **debugMode** and change the value property of this key to "**true**" (without quotes).
 
@@ -115,7 +115,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 1. Open Finder.
 1. To open the **Go To Folder** dialog, press **Cmd + Shift + G**.
-1. Type "**~/Library/Application Support/Adobe/Captivate Prime 1.0**" (without quotes) and press Enter.
+1. Type "**~/Library/Application Support/Adobe/Learning Manager 1.0**" (without quotes) and press Enter.
 1. Take a backup of file **preferences.json**, and then open it in a text editor.
 1. Search for the key **debugMode** and change the value property of this key to "**true**" (without quotes)
 
@@ -130,14 +130,14 @@ This document contains basic troubleshooting tips to solve some of the typical p
 ### Windows {#clean-previous-installation}
 
 1. To open the Run dialog, press **Windows key + R**.
-1. Type `**%APPDATA%\\..\\Local\\Adobe\\Captivate Prime 1.0**` and press Enter.
+1. Type `**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**` and press Enter.
 1. Delete the folder named **updates**.
 
 ### Mac OS X {#MacOSX-3}
 
 1. Open Finder.
 1. To open the **Go To Folder** dialog, press **Cmd + Shift + G**.
-1. Type `**~/Library/Application Support/Adobe/Captivate Prime 1.0**` and press Enter.
+1. Type `**~/Library/Application Support/Adobe/Learning Manager 1.0**` and press Enter.
 1. Delete the folder named **updates**.
 
 ## How to clean up Adobe Learning Manager for desktop temp folder? {#howtocleanupadobecaptivateprimefordesktoptempfolder}
@@ -161,14 +161,14 @@ This document contains basic troubleshooting tips to solve some of the typical p
 ### Windows {#Windows-2}
 
 1. To open the Run dialog, press **Windows key + R**.
-1. Type "**~/Documents/My Adobe Captivate Prime Projects**" (without quotes) and press Enter.
+1. Type "**~/Documents/My Adobe Learning Manager Projects**" (without quotes) and press Enter.
 1. You or your Adobe Learning Manager administrator might have changed the default projects folder location. Contact your administrator for more help to locate and clean up projects.
 
 ### Mac OS X {#MacOSX-5}
 
 1. Open Finder.
 1. To open the **Go To Folder** dialog, press **Cmd + Shift + G** keys.
-1. Type "**~/Documents/My Adobe Captivate Prime Projects**" (without quotes) and press Enter.
+1. Type "**~/Documents/My Adobe Learning Manager Projects**" (without quotes) and press Enter.
 
    You or your Adobe Learning Manager administrator might have changed the default projects folder location. Contact your administrator for more Help to locate and clean up projects.
 
@@ -182,4 +182,4 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 ### Mac OS X {#MacOSX-6}
 
-Move the files from the following path "**/Applications/Adobe Captivate Prime/Users/Shared/Adobe/Captivate Prime Assets/1.0**" to trash and then empty the trash.
+Move the files from the following path "**/Applications/Adobe Learning Manager/Users/Shared/Adobe/Learning Manager Assets/1.0**" to trash and then empty the trash.

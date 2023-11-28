@@ -54,7 +54,7 @@ If you want to install the package, you must first delete the existing package i
    * **ClientID**: Enter the value that you'd obtained from the first section.
    * **ClientSecret:** Enter the value that you'd obtained from the first section.
    * **RefreshToken:** Enter the value that you'd obtained from the first section.
-   * **PrimeBaseURL:** The URL of the site where Learning Manager is hosted.
+   * **LearningManagerBaseURL:** The URL of the site where Learning Manager is hosted.
    * **Disable Redirect:** Disable redirection to the learner home page in Learning Manager.
 
 >[!NOTE]
@@ -80,8 +80,8 @@ If you want to install the package, you must first delete the existing package i
 1. Click **New**.
 1. Enter the following details:  
 
-   1. **Custom Notification Name:** PrimeNotification 
-   1. **API Name:** PrimeNotification
+   1. **Custom Notification Name:** LearningManagerNotification 
+   1. **API Name:** LearningManagerNotification
 
 1. Select both **Desktop** and **Mobile** as Supported channels.
 

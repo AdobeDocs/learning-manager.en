@@ -22,17 +22,17 @@ Learning Manager Learning Programs are renamed to Learning Paths. This change ha
 
 +++Can I add users in bulk? How?
 
-Yes, you can add users in bulk by using CSV upload feature. Click  [here](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/add-users-in-bulk.html) for more information. 
+Yes, you can add users in bulk by using CSV upload feature. Click  [here](/help/migrated/administrators/add-users-in-bulk.md) for more information. 
 
 +++
 
 +++I mis-typed email-id while creating log in for my learners, how do I correct it?
 
-In order to fix user log in, you have to import CSV in Prime. A sample CSV file is attached at the bottom of this page for your reference. Since email is considered as a unique identifier for a person, it cannot be edited. Follow these steps:
+In order to fix user log in, you have to import CSV in Learning Manager. A sample CSV file is attached at the bottom of this page for your reference. Since email is considered as a unique identifier for a person, it cannot be edited. Follow these steps:
 
 1. Add the same user with correct e-mail id in CSV and ensure he remains as Manager of other users by adding his e-mail id to "Email of the Employee's Manager" column in the sample CSV.
 1. Add other users in your account to the CSV including yourself
-1. Import this file on Prime Admin app->Users->Add->Import CSV
+1. Import this file on Learning Manager Admin app->Users->Add->Import CSV
 1. Map all fields, as prompted in dialog, to the corresponding CSV columns.
 1. Click Save. 
 
@@ -44,7 +44,7 @@ Users should get added on Learners page.
 
 +++How do I set up alerts?
 
-In Adobe Learning Manager 1.0 release, you can create notifications. Refer  [notifications question](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/user-notifications.html) for more information.
+In Adobe Learning Manager 1.0 release, you can create notifications. Refer  [notifications question](/help/migrated/administrators/feature-summary/user-notifications.md) for more information.
 
 +++
 
@@ -75,7 +75,7 @@ Learners are wait listed for any classroom course when the seats are limited, ba
 1. Click Waitlist on the left pane of the course detail page. A list of wait listed learners appear on the page.
 1. Select the learners and click Allocate seats to enroll the learners directly to the courses, superseding the seats limit.
 
-For more information, refer  [waitlisting and attendance](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/waitlist-attendance-management.html) feature.
+For more information, refer  [waitlisting and attendance](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) feature.
 
 +++
 
@@ -89,7 +89,7 @@ Yes, you can record attendance by following the steps below:
 
 If there are multiple modules in a course and the learner completed only one of them, you can select a single module and click Save to mark the completion for the learner. If the learner completes all modules of a course, you can click Select All option and click Save.
 
-For more information, refer  [waitlisting and attendance](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/waitlist-attendance-management.html) feature.
+For more information, refer  [waitlisting and attendance](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) feature.
 
 +++
 
@@ -161,7 +161,7 @@ To create a learning program, follow the steps below:
 
 1. Click Instances on the left pane and click **Add new instances** on the right corner of the page to include details of the instance.
 
-For more information on learning programs, refer  [Learning programs feature.](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/learning-programs.html)
+For more information on learning programs, refer  [Learning programs feature.](/help/migrated/administrators/feature-summary/learning-programs.md)
 
 +++
 
@@ -173,7 +173,7 @@ Click the drop-down arrow at the upper-right corner of each report to edit/modif
 
 +++How do I modify courses, learning programs and company profile?
 
-You can edit courses or learning programs even after you publish them. For more information, refer to  [Courses](https://helpx.adobe.com/content/help/en/captivate-prime/authors/feature-summary/courses.html) and  [learning programs](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/learning-programs.html) Help content. 
+You can edit courses or learning programs even after you publish them. For more information, refer to  [Courses](/help/migrated/administrators/feature-summary/courses.md) and  [learning programs](/help/migrated/administrators/feature-summary/learning-programs.md) Help content. 
 
 To modify company profile, click **Settings** at the left pane and click **Change** on the upper-right corner of the page. 
 
@@ -200,7 +200,7 @@ Yes, you can change the themes and branding of Learning Manager application as p
 
 Click **Branding** on the left pane to update your organization name, change the subdomain, log styles and themes. Click **Edit** adjacent to each of these topics to modify the content. 
 
-Refer to  [Color themes and branding Help](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/themes.html) for more information. 
+Refer to  [Color themes and branding Help](/help/migrated/administrators/feature-summary/themes.md) for more information. 
 
 +++
 
@@ -220,7 +220,7 @@ You can set up gamification points for learners by following the steps below:
 1. Click Gamification after you log in as an Administrator. A page appears with a list of bronze, silver, gold, and platinum levels and the required points to achieve corresponding to each level. A list of tasks and corresponding points are available.
 1. Click Edit icon adjacent to each task to setup/modify the points.
 
-Refer  [Gamification feature](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/gamification.html) for more information.
+Refer  [Gamification feature](/help/migrated/administrators/feature-summary/gamification.md) for more information.
 
 +++
 
@@ -234,7 +234,7 @@ You can create reports by following the steps below:
 
 1. Fill up all the mandatory fields, and click Save.
 
-Only Administrators and Managers can create or view reports. Refer  [reports feature](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/reports.html) for more information.
+Only Administrators and Managers can create or view reports. Refer  [reports feature](/help/migrated/administrators/feature-summary/reports.md) for more information.
 
 +++
 
@@ -305,11 +305,11 @@ Once the competency is saved, you cannot remove levels from the competency. Admi
 1. Click Subscribe tab.
 1. Type the number of packs you want to order in Learner packs field, and click Place Order at the upper-right corner of the page.  
 
-   Choose the number of packs based on the number of learners in your organization and place your order. For a purchase order driven process, write to us at  [captivateprimesales@adobe.com](mailto:captivateprimesales@adobe.com).
+   Choose the number of packs based on the number of learners in your organization and place your order. For a purchase order driven process, write to us at  [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
 
 1. Enter your contact information, choose the credit card type, provide credit card details and click Complete Order.
 
-Refer [Billing management](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/billing-management.html) feature for more information.
+Refer [Billing management](/help/migrated/administrators/feature-summary/billing-management.md) feature for more information.
 
 +++
 
@@ -330,7 +330,7 @@ In Adobe Learning Manager, you can recognize learners by issuing badges. Refer t
 
 To add courses you need to switch your role as Author. You can only view the list of available courses based on their state as **Complete, Published**, and **Retired**.
 
-To view courses, click **Courses** on left pane. Refer  [Creating courses](https://helpx.adobe.com/content/help/en/captivate-prime/authors/feature-summary/courses.html)for more information
+To view courses, click **Courses** on left pane. Refer  [Creating courses](/help/migrated/administrators/feature-summary/courses.md)for more information
 
 +++
 
@@ -343,7 +343,7 @@ To add new users, follow the steps below:
 
 By default, all the new users are assigned with a learner role. You can assign Admin or Author roles to the learners by clicking **Actions** at the upper-right corner of the page and choosing **Assign Role** > **Make Author or Make Admin**.
 
-Refer  [Add new users](https://helpx.adobe.com/content/help/en/captivate-prime/administrators/feature-summary/add-users-user-groups.html) feature for detailed information on adding learners, authors and administrators.
+Refer  [Add new users](/help/migrated/administrators/feature-summary/add-users-user-groups.md) feature for detailed information on adding learners, authors and administrators.
 
 +++
 

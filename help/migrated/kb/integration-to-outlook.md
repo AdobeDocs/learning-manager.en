@@ -19,7 +19,7 @@ If a learner responds to the same invite more than once, then the latest respons
 
 ## Enabling the invite-reply-tracking feature {#enablingtheinvitereplytrackingfeature}
 
-* Contact Adobe Prime Support to enable the invite-reply-tracking feature. 
+* Contact Adobe Learning Manager Support to enable the invite-reply-tracking feature. 
 * Once the feature is enabled for the account, all future Virtual Class/Class Room sessions created by an author can record the learner's response to the calendar invite.
 
 If learners are enrolled to a Virtual Class/Class Room session created before the invite-reply-tracking feature being enabled, then learner's responses to the calendar invite are not recorded.

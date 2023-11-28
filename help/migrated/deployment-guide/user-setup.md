@@ -12,9 +12,9 @@ preview: true
 
 In any LMS, including Learning Manager, managing users is an important aspect. Learning Manager allows you to classify users as internal and external. Internal users are those users that belong to a specific organization or a group. Generally, users within an enterprise are internal users. These users have specific learning objects with specific deadlines, as assigned by their managers or the administrator.
 
-In contrast, external users are generally temporary users of a specific Prime account. These users might access specific learning objects by clicking a temporary, external link that they receive over email. The external user profiles usually have an expiry date. For example, an organization that conducts certifications for Java may have any user who temporarily logs in to complete relevant courses and then attempt the certification. Usually, classroom trainings and courses meant for external users also have limited capacity.
+In contrast, external users are generally temporary users of a specific Learning Manager account. These users might access specific learning objects by clicking a temporary, external link that they receive over email. The external user profiles usually have an expiry date. For example, an organization that conducts certifications for Java may have any user who temporarily logs in to complete relevant courses and then attempt the certification. Usually, classroom trainings and courses meant for external users also have limited capacity.
 
-Read on to know how to add internal users and external users in Prime.
+Read on to know how to add internal users and external users in Learning Manager.
 
 ## Set up external users {#setupexternalusers}
 

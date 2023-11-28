@@ -42,7 +42,7 @@ This issue occurs because Adobe Captivate is by default configured to publish co
    ![](assets/cp-captivate.ini.png)
 
 1. Open the copied file from your desktop onto a Notepad.
-1. Change the value of PrimeBaseUrl = [https://captivateprime.adobe.com/inappstarter](https://captivateprime.adobe.com/inappstarter) to PrimeBaseUrl = [https://captivateprimeeu.adobe.com/inappstarter](https://captivateprimeeu.adobe.com/inappstarter)
+1. Change the value of LearningManagerBaseUrl = [https://learningmanager.adobe.com/inappstarter](https://learningmanager.adobe.com/inappstarter) to LearningManagerBaseUrl = [https://learningmanagereu.adobe.com/inappstarter](https://learningmanagereu.adobe.com/inappstarter)
 
    ![](assets/cp-primebaseurl.png)
 

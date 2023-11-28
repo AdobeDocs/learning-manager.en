@@ -16,7 +16,7 @@ Custom Domain support allows the customers to gain complete control over the dom
 
 This allows the customer to white label the login and access experience, such that the users do not see any presence of Adobe or Adobe Learning Manager. 
 
-For instance, you'd like to customize your domain such that your users get the same experience as if they are on the Adobe domain. If ABC Inc wants to train their customers, it would like them to land on a domain called `abc.com/mylearning`, instead of `captivateprime.adobe.com/abc-inc/mylearning`. 
+For instance, you'd like to customize your domain such that your users get the same experience as if they are on the Adobe domain. If ABC Inc wants to train their customers, it would like them to land on a domain called `abc.com/mylearning`, instead of `learningmanager.adobe.com/abc-inc/mylearning`. 
 
 As a pre-requisite, you must register the domain and then Adobe will guide you through customizing the url.
 

@@ -14,7 +14,7 @@ Learning Manager Learning Programs are renamed to Learning Paths. This change ha
 
 As an Administrator, you can create a catalog of courses, Learning Programs, Job Aids, and Certifications.
 
-For more information, see [Catalogs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/catalogs.html).
+For more information, see [Catalogs](/help/migrated/administrators/feature-summary/catalogs.md).
 
 ## Share Catalog {#sharecatalog}
 
@@ -22,7 +22,7 @@ You can share the catalogs with internal users of an organization or with any ex
 
 Courses, Learning programs, Job-Aids, and certifications are the supported learning objects for shared catalog. 
 
-For more information, see [Share Catalogs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/catalogs.html#shared).
+For more information, see [Share Catalogs](/help/migrated/administrators/feature-summary/catalogs.md).
 
 ## Enable full control of shared catalog {#fullcontrol}
 

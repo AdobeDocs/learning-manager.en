@@ -359,9 +359,9 @@ When a user is given a role with a specific entity, there might be cases where t
 
 When an Administrator assigns a custom role, you receive an email notification. 
 
-Note: If you are already logged in to Prime under a custom role, you would require to relogin to Prime to access the new role.
+Note: If you are already logged in to Learning Manager under a custom role, you would require to relogin to Learning Manager to access the new role.
 
-To switch between roles, click your profile icon on the upper-right corner of Prime and select the role.
+To switch between roles, click your profile icon on the upper-right corner of Learning Manager and select the role.
 
 ## Learning plans scoped by configurable roles {#scopeconfigure}
 

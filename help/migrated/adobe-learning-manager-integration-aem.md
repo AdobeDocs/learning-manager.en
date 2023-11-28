@@ -95,7 +95,7 @@ To approve the application, click **Approve**.
    1. Adobe Learning Manager URL: Enter the URL of the ALM instance where the learning services are hosted.  
    1. Account ID: The ID of the ALM account.  
    1. Client ID, Client Secret, and Author Refresh Token: Enter the credentials that you got while creating the application in ALM.   
-   1. Customization of Widget: For more information, see [Integrate with AEM](https://helpx.adobe.com/learning-manager/integrate-aem-captivate-prime.html) `.`
+   1. Customization of Widget: For more information, see [Integrate with AEM](/help/migrated/integrate-aem-captivate-prime.md) `.`
 
 1. Save and close the configuration.
 

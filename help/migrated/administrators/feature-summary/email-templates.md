@@ -49,7 +49,7 @@ You as an administrator can easily enable, disable, or modify these email templa
 1. To open the settings page, click **Settings**. You can now customize your email templates.
 1. To customize the name and email id from which the learners receive emails, edit the **Sender Name and Address.**
 
-   Contact [***Adobe Support***](https://helpx.adobe.com/contact/enterprise-support.other.html#captivate-prime) to configure or change these details.
+   Contact [***Adobe Support***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) to configure or change these details.
 
 1. Customize your email banner from the **Email Banner** option. Change the color of the banner by selecting **Banner Background**.
 
@@ -119,7 +119,7 @@ You can download the email access report by clicking the **Download **button. Th
 
 ## Customize email domain {#customizeemaildomain}
 
-To customize the email domain and email id from which your learners receive notifications, contact the [***Learning Manager support***](https://helpx.adobe.com/contact/enterprise-support.other.html#captivate-prime) and provide the details of the domain you would like to add, and your new email id.
+To customize the email domain and email id from which your learners receive notifications, contact the [***Learning Manager support***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) and provide the details of the domain you would like to add, and your new email id.
 
 Your request would be processed and an email with confirmation link would be sent to you on the new email address which you specify. Click the verification link provided in the email to confirm and complete the verification process.
 
@@ -195,6 +195,6 @@ To turn off the e-mail template, select the template that needs to be disabled, 
 
 +++How to change the Sender Name and Address in the template?
 
-To change the sender name and e-mail address, contact [Adobe Learning Manager support](https://helpx.adobe.com/contact/enterprise-support.other.html#captivate-prime). 
+To change the sender name and e-mail address, contact [Adobe Learning Manager support](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager). 
 
 +++

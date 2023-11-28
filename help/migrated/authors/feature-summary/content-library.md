@@ -314,7 +314,7 @@ Content can be unlinked from a specified folder **ONLY **if it is also associate
 
 After you've added the content, you can modify the completion criteria for the content. 
 
-In Prime, badges and skill are awarded based on Success  and Completion. If the learner has completed a course but is not successful, then the learner does not receive the badge and skill corresponding to the LO.
+In Learning Manager, badges and skill are awarded based on Success  and Completion. If the learner has completed a course but is not successful, then the learner does not receive the badge and skill corresponding to the LO.
 
 For example, if you had used Adobe Captivate to create your course and set the learning parameters on the Preferences dialog, the same settings get migrated to Learning Manager in the Completion Criteria options.
 

@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Integrate Learning Manager with AEM
-description: Learning Manager is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Prime, so that Prime performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.
+description: Learning Manager is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Learning Manager, so that Learning Manager performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.
 contentowner: saghosh
 ---
 
@@ -10,7 +10,7 @@ contentowner: saghosh
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Learning Manager is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Prime, so that Prime performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.
+Learning Manager is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Learning Manager, so that Learning Manager performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.
 
 However there are users who store and manage their content on asset management systems. The content then gets repurposed for various other functions.
 
@@ -40,7 +40,7 @@ Install the Learning Manager content package using the AEM Package Manager:
 
 ## Generate the refresh token {#generatetherefreshtoken}
 
-The AEM Admin requires a refresh token from the Prime account. The Prime Integration Admin will generate the refresh token.
+The AEM Admin requires a refresh token from the Learning Manager account. The Learning Manager Integration Admin will generate the refresh token.
 
 1. Approve the AEM Sites featured app.
 
@@ -66,14 +66,14 @@ The AEM Admin requires a refresh token from the Prime account. The Prime Integra
 
 ## Configure the widget in AEM {#configurethewidgetinaem}
 
-For widget configuration, the AEM author only requires the refresh token provided by the Prime Integration Admin.
+For widget configuration, the AEM author only requires the refresh token provided by the Learning Manager Integration Admin.
 
 You can also set multiple account configurations in multiple pages.
 
 1. Click **Tools** > **Cloud Services** > **Learning Manager Widget Configuration**.
 1. Click **Create**.
 1. Enter the refresh token here. Set up the other settings.
-1. Hostname should be changed to "captivateprimeeu" for EU regions.
+1. Hostname should be changed to "learningmanagereu" for EU regions.
 1. Save and close the configuration.
 1. Select a configuration and publish the configuration.
 

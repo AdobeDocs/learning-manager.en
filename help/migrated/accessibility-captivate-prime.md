@@ -256,7 +256,7 @@ Let's look at the accessibility features learners can utilize based on their spe
 
 Adobe Learning Manager Learner role strives to provide users with a User Interface that is clear and readable in accordance with WCAG 2.1 standards.
 
-For a better experience on the learner page, use the [Vivid theme](https://helpx.adobe.com/in/captivate-prime/administrators/feature-summary/themes.html).
+For a better experience on the learner page, use the [Vivid theme](/help/migrated/administrators/feature-summary/themes.md).
 
 ### Users who have limited mobility and reach
 

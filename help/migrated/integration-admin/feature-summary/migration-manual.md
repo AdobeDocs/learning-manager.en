@@ -55,7 +55,7 @@ The key steps involved in migrating content and data from an existing LMS to Lea
 1. Integration Administrator uses the tools provided by Learning Manager to migrate in the following order: 
 
    1. Transfer the learners over to Learning Manager
-   1. Transfer training content into Prime and 
+   1. Transfer training content into Learning Manager and 
    1. Finally, transfer training Data into Learning Manager.
 
 The organization can start using Learning Manager LMS along with the legacy content. 
@@ -543,9 +543,9 @@ Learning Manager supports UUID to provide flexibility to organizations in contro
 
 **Usage scenario of UUID in an organization**
 
-Consider a scenario where an employee A joins a company named Prime, as a contractor. During contract period, Prime company may not provide company email id as A@prime.com, instead the company may consider only the employee's personal email account, say, A@gmail.com. After completing 6 months of contract period, if the same employee A joins Prime as full time employee, then Prime may want to change his email id to his company email id: A@prime.com. 
+Consider a scenario where an employee A joins a company named Learning Manager, as a contractor. During contract period, Learning Manager company may not provide company email id as A@example.com, instead the company may consider only the employee's personal email account, say, A@gmail.com. After completing 6 months of contract period, if the same employee A joins Learning Manager as full time employee, then Learning Manager may want to change his email id to his company email id: A@example.com. 
 
-Having UUID access to user account will benefit the company Prime in the above mentioned scenario. Prime company can easily replace the personal email id of employee A with an official email id. The employee's records relevant to this account remain unaffected by this change. 
+Having UUID access to user account will benefit the company Learning Manager in the above mentioned scenario. Learning Manager company can easily replace the personal email id of employee A with an official email id. The employee's records relevant to this account remain unaffected by this change. 
 
 ## Single user identification {#singleuseridentification}
 
@@ -562,6 +562,6 @@ In a scenario where X is the Manager of users, say, A, B and C, if X leaves the 
 
 For more information on this topic, refer to the following Help content: 
 
-* [FAQ on uploading CSVs](https://helpx.adobe.com/captivate-prime/administrators/add-users-in-bulk.html)
-* [Feature Help on adding users](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/add-users-user-groups.html)
+* [FAQ on uploading CSVs](/help/migrated/administrators/add-users-in-bulk.md)
+* [Feature Help on adding users](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
 

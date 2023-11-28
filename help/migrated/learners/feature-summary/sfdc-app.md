@@ -12,7 +12,7 @@ contentowner: jayakarr
 
 Salesforce&trade; is the most popular CRM solution among sales and marketing teams. Using Adobe Learning Manager app in Salesforce, learners can access all of their learning content from within their Salesforce interface. Learners can access their assigned learning content such as courses, learning programs, and job aids from within the Salesforce. Users can also receive notifications about their enrollments and announcements from the Administrator.
 
-This app will be available to you in Salesforce only when the Admin of your Prime account has completed the setup activities required. For more details, see [Learning Manager App for Salesforce](../../integration-admin/feature-summary/sfdc-app.md), and request your Admin to install the Prime App for Salesforce.
+This app will be available to you in Salesforce only when the Admin of your Learning Manager account has completed the setup activities required. For more details, see [Learning Manager App for Salesforce](../../integration-admin/feature-summary/sfdc-app.md), and request your Admin to install the Learning Manager App for Salesforce.
 
 ## Locate app in Salesforce {#locateappinsalesforce}
 
@@ -26,7 +26,7 @@ Once you select the app, you can switch over to Adobe Learning Manager app as sh
 
 ## Login and usage instructions {#loginandusageinstructions}
 
-Click **Connect to Prime** in the Adobe Learning Manager as shown in the above snapshot, and log in with your Learning Manager account credentials. 
+Click **Connect to Learning Manager** in the Adobe Learning Manager as shown in the above snapshot, and log in with your Learning Manager account credentials. 
 
 You can connect to Learning Manager app and use it from within the Salesforce. 
 

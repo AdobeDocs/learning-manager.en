@@ -30,7 +30,7 @@ preview: true
 
 * [Color themes and branding](administrators/feature-summary/themes.md)
 * [Adobe Connect integration](administrators/feature-summary/adobeconnect-integration.md)
-* [Learner transcripts](/captivate-prime/administrators/feature-summary/learner-transcripts.html)
+* [Learner transcripts](/help/migrated/administrators/feature-summary/learner-transcripts.md)
 * [Gamification](administrators/feature-summary/gamification.md)
 * [Add users/user groups](administrators/feature-summary/add-users-user-groups.md)
 * [Badges](administrators/feature-summary/badges.md)

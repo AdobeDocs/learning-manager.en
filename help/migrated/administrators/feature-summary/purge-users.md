@@ -19,7 +19,7 @@ Purge user action can have the following results:
 * If a user is purged, the links in import logs does not work to avoid the download of old CSVs and bringing back the user data again into the system.
 * If an Author is purged, his name is replaced by the name of the Admin who purged that user.
 * If Instructors are purged, they are removed from sessions. Admin has to replace/add instructors for such sessions.
-* Purging a user in Prime does not remove the user in any external applications (third-party systems or other applications written by you). Contact external application owners to get the users removed from such applications.
+* Purging a user in Learning Manager does not remove the user in any external applications (third-party systems or other applications written by you). Contact external application owners to get the users removed from such applications.
 * If a purged user is referred in the configuration settings of a connector, the connector is disabled. The connector needs to be reconfigured by the Admin to resume.
 
 To purge users, follow these steps:
@@ -51,7 +51,7 @@ You can select the first 50 users and purge the users in one shot. This allows A
 <table>
  <tbody>
   <tr>
-   <th><strong>Purge using CaptivatePrime UI- Enterprise</strong></th>
+   <th><strong>Purge using Learning Manager UI- Enterprise</strong></th>
    <th> </th>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ You can select the first 50 users and purge the users in one shot. This allows A
    <td>Yes</td>
   </tr>
   <tr>
-   <td><strong>Purge using CaptivatePrime UI- Non-Enterprise</strong></td>
+   <td><strong>Purge using Learning Manager UI- Non-Enterprise</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -99,7 +99,7 @@ You can select the first 50 users and purge the users in one shot. This allows A
    <td>Yes</td>
   </tr>
   <tr>
-   <td><strong>Purge other users- Enterprise (individuals who are not internal or external Prime users)</strong></td>
+   <td><strong>Purge other users- Enterprise (individuals who are not internal or external Learning Manager users)</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -115,7 +115,7 @@ You can select the first 50 users and purge the users in one shot. This allows A
    <td>Yes</td>
   </tr>
   <tr>
-   <td><strong>Purge</strong> <strong>other users- Non-Enterprise (individuals who are not internal or external Prime users)</strong></td>
+   <td><strong>Purge</strong> <strong>other users- Non-Enterprise (individuals who are not internal or external Learning Manager users)</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -163,7 +163,7 @@ You can select the first 50 users and purge the users in one shot. This allows A
 
 +++
 
-Prime is now GDPR compliant. For more information on GDPR compliance, see  [Learning Manager compliance to GDPR](../../kb/prime-gdpr.md).
+Learning Manager is now GDPR compliant. For more information on GDPR compliance, see  [Learning Manager compliance to GDPR](../../kb/prime-gdpr.md).
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 

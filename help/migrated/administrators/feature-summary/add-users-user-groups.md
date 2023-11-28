@@ -41,7 +41,7 @@ To add users,
 
    ![](assets/manager.png)
 
-1. To add the new user in Prime, click **Add**. After the user is added, the user receives a verification mail. The Learner then activates the account and starts using Learning Manager. This workflow is helpful if you need to add limited number of learners to your Prime Account. But if you're planning to enroll all the employees of a large organization, you can add them in a singe attempt. For more information, see the next section.
+1. To add the new user in Learning Manager, click **Add**. After the user is added, the user receives a verification mail. The Learner then activates the account and starts using Learning Manager. This workflow is helpful if you need to add limited number of learners to your Learning Manager Account. But if you're planning to enroll all the employees of a large organization, you can add them in a singe attempt. For more information, see the next section.
 
 ## Add users in bulk {#addusersinbulk}
 
@@ -88,7 +88,7 @@ After you have selected the users, you can perform the following:
 
 With the user selected, click **Actions** on the upper-right corner and click **Register**.
 
-The selected users receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Prime account.
+The selected users receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Learning Manager account.
 
 ## Assign a role {#assignarole}
 
@@ -130,13 +130,13 @@ Types of active fields:
 
 ## Create a self-registration link {#createaselfregistrationlink}
 
-You can also enable employees in your organization to register themselves as Learners to Adobe Learning Manager Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Prime using their Adobe credentials.
+You can also enable employees in your organization to register themselves as Learners to Adobe Learning Manager Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Learning Manager using their Adobe credentials.
 
 On the upper-right corner of the page, click **Add**, and choose **Self-Registration**.
 
 ![](assets/self-registration.png)
 
-The **Add Self-Registration Profile** dialog appears. Give this profile a name. Then add the manager's name. It's important to know that the manager must already be registered Learner in Prime.
+The **Add Self-Registration Profile** dialog appears. Give this profile a name. Then add the manager's name. It's important to know that the manager must already be registered learner in Learning Manager.
 
 ![](assets/add-self-registrationprofile.png)
 
@@ -213,7 +213,7 @@ After an external profile has been created, you must enable its status. From the
 
 This enables the External Enrollment link. A welcome email is automatically be sent to the partner. You can also copy the link and share with them by clicking the Copy URL icon (), or you can resend the welcome email to the partner organization by clicking the Mail icon ().
 
-The partner manager can share the link with the employees who must take the training in Prime. When they click the link, they can self-enroll themselves after filling out some details to create their profile on Prime. These users will not appear on the Learners tab along with the internal employees. You can see their names under the **External Learners** tab.
+The partner manager can share the link with the employees who must take the training in PrLearning Managerime. When they click the link, they can self-enroll themselves after filling out some details to create their profile on Learning Manager. These users will not appear on the Learners tab along with the internal employees. You can see their names under the **External Learners** tab.
 
 ## Pause an external profile {#pause}
 
@@ -373,7 +373,7 @@ Enable the options below:
 
 ## Support for manual csv fields by FTP and Box connectors {#import-connector}
 
-Often, users want Active fields to be manually provided when a learner logs in to Prime. This is possible in Learning Manager at present, when the user imports a CSV manually.
+Often, users want Active fields to be manually provided when a learner logs in to Learning Manager. This is possible in Learning Manager at present, when the user imports a CSV manually.
 
 The CSV may not contain all the Active fields. For all the Active fields that are not updated in the uploaded CSV, the user needs to enter the data for such Active fields.
 
@@ -426,9 +426,9 @@ After adding a user and assigning a role to the user, you can register the user 
 
 1. On the pop-up window, click **Yes**.
 
-The selected user(s) receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Prime account.
+The selected user(s) receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Learning Manager account.
 
-Clicking one of these links in the email is mandatory for the learners as it helps Prime to verify the learner's account.
+Clicking one of these links in the email is mandatory for the learners as it helps Learning Manager to verify the learner's account.
 
 +++
 

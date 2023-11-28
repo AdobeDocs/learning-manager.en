@@ -35,7 +35,7 @@ You can also download a set of badges or an individual badge in PDF format.
 
 ![](assets/badges.png)
 
-**For certificates with expiry i.e., recurring certificates, Prime mentions the validity date for the certificate. The dates will appear in the UI and on the certificate PDF.**
+**For certificates with expiry i.e., recurring certificates, Learning Manager mentions the validity date for the certificate. The dates will appear in the UI and on the certificate PDF.**
 
 ## Open badges {#openbadges}
 
@@ -49,7 +49,7 @@ Learning Manager supports open badges concept for its learners. You can use the 
 
 Learners can integrate their learning platform account with their Badgr account. This enables learners to share badges to social websites via their Badgr account. Badgr also offers authenticable badges based on the backpack standard, which means the badges are verified.
 
-Open badges are badges which have some metadata embedded into the badge image. This metadata gives information about the issuer, the recipient, the task achieved, validity of the badge etc. Badgr backpack will be accessible directly from Prime for providing a central place to store all badges and share them. Learners can login to their Badgr account and establish the integration. From then on, badges achieved in Prime get uploaded to Badgr account automatically.
+Open badges are badges which have some metadata embedded into the badge image. This metadata gives information about the issuer, the recipient, the task achieved, validity of the badge etc. Badgr backpack will be accessible directly from Learning Manager for providing a central place to store all badges and share them. Learners can login to their Badgr account and establish the integration. From then on, badges achieved in Learning Manager get uploaded to Badgr account automatically.
 
 Once the Administrator enables the option **Badgr Integration**, a learner can then integrate with Badgr and configure his/her badge. To integrate, learner need to login to the Badgr account from Learning Manager. 
 
@@ -57,7 +57,7 @@ Once the Administrator enables the option **Badgr Integration**, a learner can t
 >
 >Learning Manager does not offer a Badgr account as a part of this integration. Learner should create his/her own account and integrate with Learning Manager. 
 
-A Learner must have a Badgr account created before establishing a connection from Prime.
+A Learner must have a Badgr account created before establishing a connection from Learning Manager.
 
 In the Learner app, in Badges page, there is an option called Configure Badgr. If the option is clicked, a dialog will launch, where the status of the connection should be displayed as Connected/Not Connected.
 

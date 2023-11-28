@@ -45,7 +45,7 @@ In Administrator login, click the VC course name. Click **Instances** on the lef
 
 ![](assets/session-creation-admin.png)
 
-With the integration of Adobe Learning Manager and Adobe Connect for creating virtual classroom modules or sessions, your Connect account should support Meeting rooms with adequate number of rooms and concurrent users for your use case. These meeting rooms are used to host Learning Manager virtual classroom modules. A new Connect meeting room is dynamically created by Prime for each virtual classroom module or session within Prime.
+With the integration of Adobe Learning Manager and Adobe Connect for creating virtual classroom modules or sessions, your Connect account should support Meeting rooms with adequate number of rooms and concurrent users for your use case. These meeting rooms are used to host Learning Manager virtual classroom modules. A new Connect meeting room is dynamically created by Learning Manager for each virtual classroom module or session within Learning Manager.
 
 You must purchase Adobe Connect separately, apart from Adobe Learning Manager.
 

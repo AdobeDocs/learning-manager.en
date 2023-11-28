@@ -127,11 +127,11 @@ Drag and drop the active fields in **Admin > Users > Active Fields**, to change 
 
 While setting up Adobe Connect Virtual session in Learning Manager, Learning Manager fetches the list of Connect hosts from Adobe Connect, and makes it available as Instructors. This way, it was required that these users are also a part of Learning Manager so that they get the Instructor role.  
 
-With this release, Learning Manager now also allows you to add Prime users as Instructors while setting up Connect session. This way, you can add multiple Instructors, one having Connect host access and other having Learning Manager access.
+With this release, Learning Manager now also allows you to add Learning Manager users as Instructors while setting up Connect session. This way, you can add multiple Instructors, one having Connect host access and other having Learning Manager access.
 
 ## Catalog labels {#cataloglabels}
 
-Catalog Labels are custom fields that can be added to learning objects in Prime, when an Admin enables this feature. They are visible only to Admins and Authors.
+Catalog Labels are custom fields that can be added to learning objects in Learning Manager, when an Admin enables this feature. They are visible only to Admins and Authors.
 
 In this release of Learning Manager, Catalog Labels are returned in the response model of Learning Objects for both Admins and learners.
 
@@ -165,7 +165,7 @@ Export feedback report
 
 **Endpoint**
 
-*primeapi/v2/jobs*
+*learningmanagerapi/v2/jobs*
 
 **Sample body**
 
@@ -198,7 +198,7 @@ Export gamification report
 
 **Endpoint**
 
-*primeapi/v2/jobs*
+*learningmanagerapi/v2/jobs*
 
 ```
 \{ 
@@ -227,7 +227,7 @@ Export login/access report
 
 **Endpoint**
 
-*primeapi/v2/jobs*
+*learningmanagerapi/v2/jobs*
 
 ```
 \{ 
@@ -256,7 +256,7 @@ Export Learner Transcript
 
 **Endpoint**
 
-*primeapi/v2/jobs*
+*learningmanagerapi/v2/jobs*
 
 ```
 \{ 
@@ -289,7 +289,7 @@ User export
 
 **Endpoint**
 
-*primeapi/v2/jobs*
+*learningmanagerapi/v2/jobs*
 
 ```
 \{ 
@@ -320,7 +320,7 @@ POST
 
 **Endpoint**
 
-*primeapi/v2/enrollment?loId=<>&loInstanceId=<> *
+*learningmanagerapi/v2/enrollment?loId=<>&loInstanceId=<> *
 
 **Query parameters**
 
@@ -341,7 +341,7 @@ PATCH
 
 **Endpoint**
 
-*primeapi/v2/enrollment/{enrollment_id}*
+*learningmanagerapi/v2/enrollment/{enrollment_id}*
 
 **Query parameters**
 
@@ -524,9 +524,9 @@ A future release will remove the legacy columns Quiz Score, Highest Quiz score, 
 
 ### Number of rows {#numberofrows}
 
-While generating a Skill transcript along with Learner transcript, if the number of rows in Learner Transcript and/or Skill transcript exceed 500,000, then Prime will not generate an excel file of xlsx format.
+While generating a Skill transcript along with Learner transcript, if the number of rows in Learner Transcript and/or Skill transcript exceed 500,000, then Learning Manager will not generate an excel file of xlsx format.
 
-Instead, Prime will generate a ZIP file containing multiple .csv files. In such a case, pivot tables will not be created.
+Instead, Learning Manager will generate a ZIP file containing multiple .csv files. In such a case, pivot tables will not be created.
 
 ## Content Library {#contentlibrary}
 
@@ -536,7 +536,7 @@ Immediately after the release, Authors can continue to use the features without 
 
 ## Data retention policy for Exavault and Box FTP services {#dataretentionpolicyforexavaultandboxftpservices}
 
-Learning Manager supports FTP (file storage and transfer) services provided by Exavault and Box. It provides out of the box connectors to establish a connection with these FTP servers. These connectors are used for importing user data or learning data from other connectors, like, GetAbstract. These connectors can also be used for exporting data from Prime to FTP locations. 
+Learning Manager supports FTP (file storage and transfer) services provided by Exavault and Box. It provides out of the box connectors to establish a connection with these FTP servers. These connectors are used for importing user data or learning data from other connectors, like, GetAbstract. These connectors can also be used for exporting data from Learning Manager to FTP locations. 
 
 As of today, the data which resides on Exavault / Box folders is not removed. With the new data retention policy, Learning Manager will be deleting the data available on these FTP locations according to the rules defined below:
 
@@ -549,7 +549,7 @@ Data retention policy will be implemented from 31st October 2020.
 Some of the implications of this policy are listed below. 
 
 * All old files currently present in these FTP locations will be deleted as per the data retention policy. So, users are encouraged to back up any files in their Exavault/Box accounts, as required.
-* If you have any manual/automated process that places files in Exavault/Box for data import or migration, ensure that you have a backup before the file is imported into Prime, because Prime will delete the file. This is important if you want to retry the import for any reason later.
+* If you have any manual/automated process that places files in Exavault/Box for data import or migration, ensure that you have a backup before the file is imported into Learning Manager, because Learning Manager will delete the file. This is important if you want to retry the import for any reason later.
 * If you have any manual/automated process that reads exported data files in Exavault/Box, ensure that they are consumed within the time allowed by the data retention policy. You can copy these files into your own storage locations as a backup if required.
 
 ## Custom Roles - via CSV import {#customrolesviacsvimport}
@@ -592,7 +592,7 @@ To see the known issues in this update, refer to [***Known issues***](release-no
 
 [Learning Manager system requirements](system-requirements.md)
 
-# Previous releases of Learning Manager {#previousreleasesofcaptivateprime}
+# Previous releases of Learning Manager {#previousreleasesofcaptivateLearning Manager}
 
 * [Learning Manager | April 2020 release](whats-new-april-2020.md)
 * [Learning Manager | April 2019 release](whats-new-Apr-2019.md)
@@ -603,16 +603,16 @@ To see the known issues in this update, refer to [***Known issues***](release-no
  <tbody>
   <tr> 
    <td><img src="assets/ask-the-community.svg"></td> 
-   <td><p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-Learning Manager/bd-p/captivate-Learning Manager?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
   </tr> 
  </tbody>
 </table>
 
 ### More like this
 
-* [Adobe Learning Manager product guide](https://www.adobe.com/products/captivateprime.html)
+* [Adobe Learning Manager product guide](https://www.adobe.com/products/captivateLearning Manager.html)
 * [Adobe Learning Manager playlist](https://www.youtube.com/playlist?list=PLq21ukQtk0URntzGmTxsx7Qt8z9b9Elth)
-* [Organize your training in Adobe Learning Manager | Ashwini Jaisim](https://elearning.adobe.com/2020/07/organize-your-trainings-in-adobe-captivate-prime/)
-* [Drive & Reward Learning Behavior with Adobe Learning Manager | Ashwini Jaisim](https://elearning.adobe.com/2020/07/drive-reward-learning-behavior-with-adobe-captivate-prime/)
-* [Add your Adobe Learning Manager Account URL to your Adobe Connect Central Account Summary Page](https://elearning.adobe.com/2019/10/add-adobe-captivate-prime-account-url-adobe-connect-central-account-summary-page/)
+* [Organize your training in Adobe Learning Manager | Ashwini Jaisim](https://elearning.adobe.com/2020/07/organize-your-trainings-in-adobe-captivate-Learning Manager/)
+* [Drive & Reward Learning Behavior with Adobe Learning Manager | Ashwini Jaisim](https://elearning.adobe.com/2020/07/drive-reward-learning-behavior-with-adobe-captivate-Learning Manager/)
+* [Add your Adobe Learning Manager Account URL to your Adobe Connect Central Account Summary Page](https://elearning.adobe.com/2019/10/add-adobe-captivate-Learning Manager-account-url-adobe-connect-central-account-summary-page/)
 

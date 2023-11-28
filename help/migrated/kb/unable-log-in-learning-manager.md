@@ -12,7 +12,7 @@ contentowner: saghosh
 
 When trying to log in to Adobe Learning Manager, you see the error below:
 
-*No user found for the given adobeid email in this account. Please link your adobe id to your Prime account before logging in.*
+*No user found for the given adobeid email in this account. Please link your adobe id to your Learning Manager account before logging in.*
 
 ![](assets/prime-error-message.png)
 
@@ -46,6 +46,6 @@ Sometimes the Adobe ID is different that the Adobe Learning Manager ID on the ac
 
 ## What's next
 
-After performing the above steps, if you are still unable to log in, the Administrator can collect the HAR logs for the login. For more information, see [Generate a HAR file](https://helpx.adobe.com/captivate-prime/kb/generate-HAR-file.html).
+After performing the above steps, if you are still unable to log in, the Administrator can collect the HAR logs for the login. For more information, see [Generate a HAR file](/help/migrated/kb/generate-har-file.md).
 
 Also, contact the Adobe Learning Manager support team so that we can debug the issue further.

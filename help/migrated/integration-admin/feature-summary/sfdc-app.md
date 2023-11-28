@@ -25,11 +25,11 @@ Learn to install and set up the Learning Manager app for Salesforce by following
 
 ### Installation steps {#installationsteps}
 
-1. Request your Account Manager or Customer Success Manager to enable your account for usage of this app by providing your Prime account id. Also, request the CSM for the installable package of the Learning Manager Learner app for Salesforce.  
+1. Request your Account Manager or Customer Success Manager to enable your account for usage of this app by providing your Learning Manager account id. Also, request the CSM for the installable package of the Learning Manager Learner app for Salesforce.  
 
 1. Log in to your Learning Manager account as the Integration Administrator and make sure that the Salesforce app is enabled for your account.  
 
-1. To install the Prime app in your Salesforce account, use the installable package provided by your Account Manager or Customer Success Manager. You need to have admin privileges for Salesforce account where you intend to install this app.  
+1. To install the Learning Manager app in your Salesforce account, use the installable package provided by your Account Manager or Customer Success Manager. You need to have admin privileges for Salesforce account where you intend to install this app.  
 
 1. Choose the appropriate option for you as shown in the snapshot and click **Install**. 
 

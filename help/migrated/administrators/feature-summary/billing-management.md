@@ -10,15 +10,15 @@ contentowner: manochan
 
 Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
-Credit card-based purchase is only available in the [US region](http://captivateprime.adobe.com/).
+Credit card-based purchase is only available in the [US region](http://learningmanager.adobe.com/).
 
 Manage Learning Manager billing, place orders by using a credit card, subscribe using a Purchase Order, or via a Monthly Active Users plan.
 
-Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Learning Manager](https://www.adobe.com/products/captivateprime.html) page.
+Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Learning Manager](https://www.adobe.com/products/learningmanager.html) page.
 
 Only the Administrators of your organization can manage billing.
 
-If you want to contact Adobe for more information about Learning Manager subscription and billing, write to us at [captivateprimesales@adobe.com](mailto:captivateprimesales@adobe.com).
+If you want to contact Adobe for more information about Learning Manager subscription and billing, write to us at [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
 
 ## Place orders using credit cards {#placeordersusingcreditcards}
 
@@ -99,7 +99,7 @@ When an account is deactivated by the customer, it enters a trial state for the 
 
 You can choose purchase order process as an alternative mode of payment. As a pre-requisite, your organization's account must be registered with Adobe. Your organization account is charged for this process. The account is charged based on a learner's activities. Only Learning Object-level activities are charged. To place an order using PO:
 
-1. Send an email to [captivateprimesales@adobe.com](mailto:captivateprimesales@adobe.com) and mention the number of required learners.
+1. Send an email to [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com) and mention the number of required learners.
 1. The Learning Manager team sends you an activation key.
 1. In the Billing page of the Administrator app, enter the activation key.
 1. Click Activate in the upper-right corner of the page.
@@ -120,7 +120,7 @@ An inactive state does not cancel your account with immediate effect. You receiv
 
 your credit card if it has expired. In an inactive state, only an administrator can log in to the Captivate
 
-Prime account. All other users cannot access the account.
+Learning Manager account. All other users cannot access the account.
 
 * **Activation required** - Your account moves into this state when the Learning Manager administrator chooses to deactivate the account. All the orders of this account get canceled. The collection of payment for these orders does not happen from the next billing cycle. The status of the account remains in this state until the day of the last billing cycle. In this state, all users can continue to use the application without any impact until the end of the last recurring payment date.
 
@@ -179,7 +179,7 @@ On the **Generate Report Request** dialog, enter the required months and year, a
 
 ![](assets/generate-report-request.png)
 
-If you close the browser window, the download starts the next time you visit Prime.
+If you close the browser window, the download starts the next time you visit Learning Manager.
 
 The reports are saved in the Downloads folder of your browser.
 

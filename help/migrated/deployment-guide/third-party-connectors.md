@@ -30,7 +30,7 @@ Integration Administrator can choose Salesforce columns and map them to correspo
 
 ### Automated user import
 
-User import process allows Learning Manager Administrator to fetch employee details from Salesforce and import them into Learning Manager automatically. This automation avoids the manual effort involved in creating CSV and uploading into Prime.
+User import process allows Learning Manager Administrator to fetch employee details from Salesforce and import them into Learning Manager automatically. This automation avoids the manual effort involved in creating CSV and uploading into Learning Manager.
 
 ### Auto Schedule
 
@@ -192,7 +192,7 @@ The auto-exported files will be available with the title, **skill_achievements_&
 
 ## Lynda connector {#lyndaconnector}
 
-The Lynda connector can be used by enterprise customers of Lynda.com who would like their learners to discover and consume Lynda courses from within Learning Manager. The connector can be configured to fetch courses from Lynda.com periodically with your API key. Once a course is created within Prime, users can search for them and consume them. Learner progress can then be tracked within Learning Manager.
+The Lynda connector can be used by enterprise customers of Lynda.com who would like their learners to discover and consume Lynda courses from within Learning Manager. The connector can be configured to fetch courses from Lynda.com periodically with your API key. Once a course is created within Learning Manager, users can search for them and consume them. Learner progress can then be tracked within Learning Manager.
 
 ### Configure the Lynda connector {#configurethelyndaconnector}
 
@@ -300,7 +300,7 @@ The getAbstract connector can be used by enterprise customers of getAbstract.com
 
 ## Harvard ManageMentor connector {#hmmconnector}
 
-The Harvard ManageMentor connector can be used by enterprise customers of Harvard ManageMentor, who would like their learners to discover and consume Harvard ManageMentor courses. The connector helps create courses within Prime, and can be configured to fetch learner progress data periodically. To configure this connector, perform the following procedure:
+The Harvard ManageMentor connector can be used by enterprise customers of Harvard ManageMentor, who would like their learners to discover and consume Harvard ManageMentor courses. The connector helps create courses within Learning Manager, and can be configured to fetch learner progress data periodically. To configure this connector, perform the following procedure:
 
 ### Configure the Harvard ManagerMentor connector {#configuretheharvardmanagermentorconnector}
 
@@ -370,7 +370,7 @@ Learning Manager Administrator can apply filtering to the users before importing
 
 The User-skill Export allows users to export user skills to Workday automatically.
 
-Skills from multiple prime accounts cannot be exported simultaneously using the same Workday account.
+Skills from multiple Learning Manager accounts cannot be exported simultaneously using the same Workday account.
 
 ## Scheduling {#Scheduling-1}
 
@@ -418,7 +418,7 @@ The user attributes from Learning Manager and Workday needs to be mapped before 
 
 Enter the Adobe Learning Manager credentials under Adobe Learning Manager column. Use the drop downs to select the correct credentials for the columns under Workday.
 
-Currently, Learning Manager supports the import of 44 user attributes from Workday. Add additional attributes using the Active Fields in Prime.
+Currently, Learning Manager supports the import of 44 user attributes from Workday. Add additional attributes using the Active Fields in Learning Manager.
 
 ![](assets/map-attributes.png)
 
@@ -478,7 +478,7 @@ wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Manageme
 
 ## Export
 
-You can export all the skills achieved by a user from Learning Manager to Workday. Note that only all active user skills are exported and Learning Manager does not export retired skills. You can also connect multiple prime accounts to the same Workday connector. In case the skill names are same in two Learning Manager accounts, they are mapped to the same skill in Workday. It is advisable to update skill names in all Learning Manager Accounts before updating the skill in Workday in case two Prime accounts are using the same Workday account.
+You can export all the skills achieved by a user from Learning Manager to Workday. Note that only all active user skills are exported and Learning Manager does not export retired skills. You can also connect multiple Learning Manager accounts to the same Workday connector. In case the skill names are same in two Learning Manager accounts, they are mapped to the same skill in Workday. It is advisable to update skill names in all Learning Manager Accounts before updating the skill in Workday in case two Learning Manager accounts are using the same Workday account.
 
 +++User Skills - Configure
 
@@ -534,7 +534,7 @@ To set up   miniOrange   connector, please contact the Learning Manager CSM team
 
    ![](assets/establish-connection.png)
 
-1. If you wish to import miniOrnage user directly as a Prime internal user, use the **[!UICONTROL Import Internal Users]** option.
+1. If you wish to import miniOrnage user directly as a Learning Manager internal user, use the **[!UICONTROL Import Internal Users]** option.
 
    ![](assets/import-users.png)
 
@@ -684,7 +684,7 @@ The access permissions and the content in the Box folder shared by the Learning 
 
 ## LinkedInLearning connector {#linkedinlearningconnector}
 
-The LinkedInLearning connector can be used by enterprise customers of LinkedIn.com who would like their learners to discover and consume courses from within Learning Manager. The connector can be configured to fetch courses periodically with your API key. Once a course is created within Prime, users can search for them and consume them. Learner progress can then be tracked within Learning Manager.
+The LinkedInLearning connector can be used by enterprise customers of LinkedIn.com who would like their learners to discover and consume courses from within Learning Manager. The connector can be configured to fetch courses periodically with your API key. Once a course is created within Learning Manager, users can search for them and consume them. Learner progress can then be tracked within Learning Manager.
 
 ### Configure LinkedIn connector {#configurelinkedinconnector}
 

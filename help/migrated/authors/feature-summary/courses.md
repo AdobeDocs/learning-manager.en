@@ -1,7 +1,7 @@
 ---
 description: To learn how to create courses, certifications, and learning programs in Learning Manager, read this article.
 jcr-language: en_us
-title: Creating, modify, and publish courses
+title: Creating, modifying, and publishing courses
 contentowner: manochan
 ---
 
@@ -29,7 +29,7 @@ To create a course, follow the steps below:
 
    As an author, you can see the description of the modules while adding the module to a course.
 
-1. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **Save**. For more information, see [Add content for different languages](https://helpx.adobe.com/captivate-prime/authors/feature-summary/content-library.html#Addcontentfordifferentlanguages).
+1. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **Save**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
 1. **Modify course settings**-
 
    1. On the Course Settings page, choose a skill for the course. From the Skill drop-down list, choose the required skill. Then, from the Level drop-down list, choose the required level.
@@ -48,7 +48,7 @@ To create a course, follow the steps below:
 
 1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **Create Courses**.
 1. On the **Course Overview** page, enter the name of the course. Now, enter a short description for this course, which is displayed on the course card. This description must not be more than 140 characters. Then enter the detailed overview for the course, which is displayed on the Course Details page. The description must not exceed 1500 characters.
-1. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **Save**. For more information, see [Add content for different languages](https://helpx.adobe.com/captivate-prime/authors/feature-summary/content-library.html#Addcontentfordifferentlanguages).
+1. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **Save**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
 1. **Modify course settings**-
 
    1. On the Course Settings page, choose a skill for the course. From the Skill drop-down list, choose the required skill. Then, from the Level drop-down list, choose the required level.
@@ -118,7 +118,7 @@ The default styling may not meet everyone's needs. The customisations can be don
 
 ### API CHANGES TO ENABLE RENDERING RICH TEXT OVERVIEWS
 
-When customers build a headless interface, they have a need to display the learning objects in that custom user interface they are developing. For doing this, one would typically use the [GET /learningObjects](https://captivateprimeeu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) API that is exposed. Now that Prime supports capturing "rich text" for the overview field, the data model of Learning Objects in the API responses also exposes the same. See the field named "richTextOverview" in the fragment of the model in the API response below. Also note that the field exposed earlier ("overview") remains unchanged for backward compatibility.
+When customers build a headless interface, they have a need to display the learning objects in that custom user interface they are developing. For doing this, one would typically use the [GET /learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) API that is exposed. Now that Learning Manager supports capturing "rich text" for the overview field, the data model of Learning Objects in the API responses also exposes the same. See the field named "richTextOverview" in the fragment of the model in the API response below. Also note that the field exposed earlier ("overview") remains unchanged for backward compatibility.
 
 ```
 \{ 
@@ -149,7 +149,7 @@ When customers build a headless interface, they have a need to display the learn
 
 ```
 
-Customers who are already using the overview field remain unaffected in their headless interface will see just plain text as before. If customers want to take advantage of the rich text overview, they will have to create richly formatted overviews for their learning objects in the Author UI and after that Prime will start returning the rich text overview as well, in addition to the plain text (as before) in the API response model.
+Customers who are already using the overview field remain unaffected in their headless interface will see just plain text as before. If customers want to take advantage of the rich text overview, they will have to create richly formatted overviews for their learning objects in the Author UI and after that Learning Manager will start returning the rich text overview as well, in addition to the plain text (as before) in the API response model.
 
 However, to render this rich text in their UI, the customer will need to include a CSS. This is explained in detail in the following sections.
 
@@ -277,7 +277,7 @@ To add a content module, perform the steps below:
    If you choose **Ordered**, the modules appear in the same sequence as you created them. If you choose **Unordered**, the modules are not sequenced. Learners can complete the modules in any order.
 
 1. From the Mandatory Modules drop-down list, choose the number of modules that the learner must take to complete the course.
-1. Add a cover image and the banner image for the course. The catalogs are created by the administrator. For more information, see [Catalogs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/catalogs.html).
+1. Add a cover image and the banner image for the course. The catalogs are created by the administrator. For more information, see [Catalogs](/help/migrated/administrators/feature-summary/catalogs.md).
 
    **Note:** The recommended dimensions are:
 
@@ -449,7 +449,7 @@ To enroll learners to the courses, or to allow managers to nominate learners for
 To switch to the Admin mode,
 
 1. Click your profile picture and then select Administrator.
-1. In the Admin mode, click **Courses** on the left pane. On this page, you can see all the courses created by all the authors in your Prime account.
+1. In the Admin mode, click **Courses** on the left pane. On this page, you can see all the courses created by all the authors in your Learning Manager account.
 1. To enroll the learners, hover over the course card, and you can see the option **Enroll Learners**. Click this option.
 
    ![](assets/enroll-learners.png)
@@ -458,7 +458,7 @@ To switch to the Admin mode,
 
    ![](assets/default-instance.png)
 
-1. Start typing the name of a learner in the Include Learners field and choose a learner. You can also add user groups here. If you want to enroll all the learners in your Prime account, start typing all. You can also enroll learners in a team.
+1. Start typing the name of a learner in the Include Learners field and choose a learner. You can also add user groups here. If you want to enroll all the learners in your Learning Manager account, start typing all. You can also enroll learners in a team.
 
    ![](assets/include-learners.png)
 
@@ -493,18 +493,18 @@ An Administrator can also unenroll learners from the course.
 
 ![](assets/unenroll-learners.png)
 
-For more information see [Unenrolling learners](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/courses.html#Enrollinglearners).
+For more information see [Unenrolling learners](/help/migrated/administrators/feature-summary/courses.md).
 
 ## Add course modules for Captivate and Presenter {#addcoursemodulesforcaptivateandpresenter}
 
 You can also publish the course modules to Learning Manager from Adobe Captivate and Adobe Presenter software using the Publish menu.
 
-1. In Captivate, click **Publish > Publish to Captivate Prime**.
+1. In Captivate, click **Publish > Publish to Learning Manager**.
 1. Provide the sub-domain name or email id and click **Submit**. If you have multiple accounts, you are prompted to choose the account.
 1. Log in with Adobe credentials. If you do not have an Adobe id, click **Create Account**. After authorization, you are directed to module publishing page.
 1. Provide all the basic information about the module and click Publish.
 
-You can see the published module on the Learning Manager modules page. For more information, see [Publish project to Adobe Learning Manager](https://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html).
+You can see the published module on the Learning Manager modules page. For more information, see [Publish project to Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Course effectiveness {#courseeffectiveness}
 
@@ -528,7 +528,7 @@ As per the pie-chart shown above, more weightage is given to L3 feedback from ma
 
 Both Author and Admin can create certifications and learning programs for learners from the Author app. From the home page, click either Certifications, or Learning Programs to create the respective learning objects.
 
-To know how to create and manage certifications and learning programs, see  [Certifications](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/certifications.html) and  [Learning Programs](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/learning-programs.html).
+To know how to create and manage certifications and learning programs, see  [Certifications](/help/migrated/administrators/feature-summary/certifications.md) and  [Learning Programs](/help/migrated/administrators/feature-summary/learning-programs.md).
 
 ## Mandatory courses for external certification {#mandatorycoursesforexternalcertification}
 
@@ -579,7 +579,7 @@ In a Learning program, you can only add self-enrolled courses and not Manager No
 
 +++How to make sure that all learners cannot see all courses?
 
-You can achieve this via catalogs.. A default catalog contains all courses added to Prime by default.
+You can achieve this via catalogs.. A default catalog contains all courses added to Learning Manager by default.
 
 You must disable the default catalog and create custom catalogs.
 
@@ -636,7 +636,7 @@ For more information, see the [section on multiple attempts](courses.md#Allowmul
 
 +++Can you download the content that has been uploaded on Adobe Learning Manager to modify the content?
 
-No, the content uploaded on Prime is a published zip file and is not the source file. Therefore, even if the content is downloaded, the content cannot be edited in an authoring tool. You would require a source file to edit the content.
+No, the content uploaded on Learning Manager is a published zip file and is not the source file. Therefore, even if the content is downloaded, the content cannot be edited in an authoring tool. You would require a source file to edit the content.
 
 +++
 

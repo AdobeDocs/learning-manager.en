@@ -13,21 +13,21 @@ Learning Manager Learning Programs are renamed to Learning Paths. This change ha
 
 The Learner Transcript is one of the most popular reports used in Adobe Learning Manager. The report enables one to get nearly every possible detail in a single report in CSV format.
 
-Apart from being a report that users can fetch to track and analyze learning behaviors, the report can also be viewed as the format in which Prime can be set up to export data about learning behaviors to external applications/systems.
+Apart from being a report that users can fetch to track and analyze learning behaviors, the report can also be viewed as the format in which Learning Manager can be set up to export data about learning behaviors to external applications/systems.
 
-A typical enterprise scenario is to take a periodic export of learner transcript for Prime, analyze it to extract learners completing an important learning program, and placing an order for a gift voucher to recognize and reward timely completions.
+A typical enterprise scenario is to take a periodic export of learner transcript for Learning Manager, analyze it to extract learners completing an important learning program, and placing an order for a gift voucher to recognize and reward timely completions.
 
 Another use case is to add the learning behavior data to an enterprise data warehouse, where one may want to combine learning data with other enterprise data to analyze correlations between learning behavior and other process data.
 
-In the rest of the document, we briefly describe how one can fetch the Learner Transcript from Prime; and then proceed to providing the details on how each row and column of the report needs to be interpreted.
+In the rest of the document, we briefly describe how one can fetch the Learner Transcript from Learning Manager; and then proceed to providing the details on how each row and column of the report needs to be interpreted.
 
-This information may be useful for any developer who intends to integrate Prime with other systems by way of processing the exported learner transcript data.
+This information may be useful for any developer who intends to integrate Learning Manager with other systems by way of processing the exported learner transcript data.
 
 ## Fetch Learner Transcript from the User Interface {#fetchlearnertranscriptfromtheuserinterface}
 
 From the Profile Settings, a learner can download his/her transcript. For more information,  see *** [Download Learner Transcript](../../administrators/feature-summary/learner-transcripts.md)***.
 
-Administrators can generate Learner Transcripts for the whole organization, a specific set of users or a specific set of learning objects, or a specific set of users and learning objects. They can also get all learning records for a time interval duration and indicate if module level information is required (by default, module level information is omitted). For more details, see [***Download Learner Transcripts***](https://helpx.adobe.com/captivate-prime/administrators/feature-summary/learner-transcripts.html).
+Administrators can generate Learner Transcripts for the whole organization, a specific set of users or a specific set of learning objects, or a specific set of users and learning objects. They can also get all learning records for a time interval duration and indicate if module level information is required (by default, module level information is omitted). For more details, see [***Download Learner Transcripts***](../../administrators/feature-summary/learner-transcripts.md).
 
 <!--Update above link?-->
 
@@ -37,19 +37,19 @@ The Learner Transcript generated via the UI will be an Excel file, which also co
 
 ## Export Learner Transcript {#exportlearnertranscript}
 
-When the Learner Transcript has to be consumed by an external system, Prime provides a feature called Export Data, where Learner Transcript is one of the types of data that can be exported. As explained in the Preamble, this is required for integration of Prime with an external system that needs to process learning behavior data or for populating an enterprise data warehouse with learning behavior data.
+When the Learner Transcript has to be consumed by an external system, Learning Manager provides a feature called Export Data, where Learner Transcript is one of the types of data that can be exported. As explained in the Preamble, this is required for integration of Learning Manager with an external system that needs to process learning behavior data or for populating an enterprise data warehouse with learning behavior data.
 
-For details of how the connectors that supporting Export of Learner Transcript, see the [Export Data section](https://helpx.adobe.com/captivate-prime/integration-admin/feature-summary/connectors.html) in the FTP, Box and PowerBI Connectors.
+For details of how the connectors that supporting Export of Learner Transcript, see the [Export Data section](/help/migrated/integration-admin/feature-summary/connectors.md) in the FTP, Box and PowerBI Connectors.
 
 The purpose served by these connectors is to export data to a downstream application periodically (once in N days). So, these connectors export only the incremental learning behavior data in every run. Note that these connectors don't allow for fetching records pertaining to specific subset of users or learning objects - it is always data about all users and all learning objects in that account.
 
-In the case of PowerBI, the customer should provide a workspace where Prime can keep exporting this data incrementally into a dynamically created dataset. This connector merely exports data, and the customers must build their own reports/dashboards based on this dataset as need be.
+In the case of PowerBI, the customer should provide a workspace where Learning Manager can keep exporting this data incrementally into a dynamically created dataset. This connector merely exports data, and the customers must build their own reports/dashboards based on this dataset as need be.
 
 The next section provides the details on how a downstream system should interpret the records in the learner transcript.
 
 ## Interpret the Learner Transcript {#interpretthelearnertranscript}
 
-Each row in a Learner Transcript can be thought of as some learning behavior that was captured in Prime in a specific time period. Typically, the connectors export "incremental data" and so the rows represent learning activities that happened between the last run of the connector and the current run.
+Each row in a Learner Transcript can be thought of as some learning behavior that was captured in Learning Manager in a specific time period. Typically, the connectors export "incremental data" and so the rows represent learning activities that happened between the last run of the connector and the current run.
 
 Of course, the connectors also allow you to fetch the learner transcript on demand, and in this case the user can specify a start date and the end date is assumed to be now. Usually one would do this once initially and then set up the connector for exporting the incremental learner transcript at a specific time of day, once in N days (the default value of N, being 1).
 
@@ -57,7 +57,7 @@ Let us now define what is meant by Incremental Learner Transcript
 
 In the learner transcript, every row represents a specific activity involving a specific learner and a specific learning object. We are primarily interested in what state a learner is with respect to the learning object - **Enrolled**, **Started**, **In Progress**, and **Completed**. Therefore, the learner transcript captures four corresponding dates as well.
 
-Now there are three types of learning objects, where Prime tracks learner progress; and the exported data contains progress information at the module level, which is the most granular unit of content that a learner can experience in Prime.
+Now there are three types of learning objects, where Learning Manager tracks learner progress; and the exported data contains progress information at the module level, which is the most granular unit of content that a learner can experience in Learning Manager.
 
 * **Course** - a composition of one or more modules
 * **Learning Program** - a composition of one or more courses

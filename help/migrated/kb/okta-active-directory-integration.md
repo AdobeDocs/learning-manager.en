@@ -41,8 +41,8 @@ Adobe Learning Manager supports Identity Provider (IdP) and Service Provider (SP
 
    **For IDP setup:**
 
-   1. In the Single Sign-on URL field, type the URL: [https://captivateprime.adobe.com/saml/SSO](https://captivateprime.adobe.com/saml/SSO)
-   1. In the Audience URL field, type the URL: [https://captivateprime.adobe.com](https://captivateprime.adobe.com/)
+   1. In the Single Sign-on URL field, type the URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. In the Audience URL field, type the URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
    1. In the **Name ID Format** drop-down box, select **Email Address**. 
    1. In the **Application username** drop-down, select Okta username.
    1. In case you want to pass any additional attributes, you can add the attributes under the **Attributes Statement** (Optional)
@@ -51,8 +51,8 @@ Adobe Learning Manager supports Identity Provider (IdP) and Service Provider (SP
 
    **For SP setup:**
 
-   1. In the Single Sign-on URL field, type the URL: [https://captivateprime.adobe.com/saml/SSO](https://captivateprime.adobe.com/saml/SSO)
-   1. In the Audience URL field, type the URL: [https://captivateprime.adobe.com](https://captivateprime.adobe.com/)
+   1. In the Single Sign-on URL field, type the URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. In the Audience URL field, type the URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
    1. In the Name ID Format drop-down box, select **Email Address**.
    1. In the Application, username drop-down select Okta username.
    1. Click on **Show Advanced Settings**.
@@ -103,4 +103,4 @@ To view the IdP/SP initiated URL and Metadata file, perform the below steps:
 
 To configure Adobe Learning Manager SSO, perform the steps mentioned in the below article.
 
-[https://helpx.adobe.com/in/captivate-prime/kb/sso-authentication-for-captivate-prime.html](https://helpx.adobe.com/in/captivate-prime/kb/sso-authentication-for-captivate-prime.html)
+[SSO Authentication](/help/migrated/kb/sso-authentication-for-learning-manager.md)

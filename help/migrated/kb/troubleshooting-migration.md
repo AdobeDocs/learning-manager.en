@@ -64,9 +64,9 @@ Ensure that the content is available in Content folder (Box account under the sp
 
 If you forget to select **Yes**, and proceed further in this sprint, then you have to wait till you complete this sprint. Create another sprint and ensure to click **Yes**.
 
-### enrollment.csv or user_course_grade.csv records fail with an error message 'Not a valid PrimeId' {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
+### enrollment.csv or user_course_grade.csv records fail with an error message 'Not a valid Learning Manager Id' {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 
-Ensure that the email id provided as part of userId, assignedByUserID fields belong to valid Learning Manager users. If not, please add the user, create a new Sprint with **Sync Users** option selected. In case  the user is not part of the organization, add the user as a deleted user in Prime by using Add users CSV specification. A sample CSV specification to add deleted users is provided below for your reference. 
+Ensure that the email id provided as part of userId, assignedByUserID fields belong to valid Learning Manager users. If not, please add the user, create a new Sprint with **Sync Users** option selected. In case  the user is not part of the organization, add the user as a deleted user in Learning Manager by using Add users CSV specification. A sample CSV specification to add deleted users is provided below for your reference. 
 
 [Users.csv](assets/users.zip) Refer to **CSV specifications and sample CSVs** section in [Migration manual](../integration-admin/feature-summary/migration-manual.md) to download complete set of CSV specifications and sample CSV files. 
 

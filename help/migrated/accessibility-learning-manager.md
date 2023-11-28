@@ -140,7 +140,7 @@ The Learning Manager Learner role supports several other accessibility features 
 
 1. Semantic structure to the learner role pages including heading, list markup, descriptive titles etc are provided.
 1. Support for browser zoom up to 200% without loss of content or functionality is maintained through-out the learner role.
-1. Colour contrast for text and non-text elements is maintained on learner role. For a better experience use the [Vivid](https://helpx.adobe.com/in/captivate-prime/administrators/feature-summary/themes.html) theme.
+1. Colour contrast for text and non-text elements is maintained on learner role. For a better experience use the [Vivid](help/migrated/administrators/feature-summary/themes.md) theme.
 1. Support of W3C's WAI ARIA design patterns to maintain consistency and industry best practices.
 
 For more information, see:
@@ -195,7 +195,7 @@ Let's look at the accessibility features learners can utilize based on their spe
 
 * Use closed captions available in content created using Adobe Captivate authoring tool.
 * For videos, authors can encode the videos with closed caption text. Such videos have closed captions embedded and can be consumed by the learners.
-* Learning Manager supports the ability to upload closed caption WebVTT files for video content. For more information, see  [*Upload WebVTT file for closed captioning*](https://helpx.adobe.com/learning-manager/authors/feature-summary/content-library.html#webvtt).
+* Learning Manager supports the ability to upload closed caption WebVTT files for video content. For more information, see  [*Upload WebVTT file for closed captioning*](/help/migrated/authors/feature-summary/content-library.md).
 
 ### Users who are blind or with low-vision
 
@@ -207,7 +207,7 @@ Let's look at the accessibility features learners can utilize based on their spe
 
 Adobe Learning Manager Learner role strives to provide users with a User Interface that is clear and readable in accordance with WCAG 2.1 standards.
 
-For a better experience on the learner page, use the [Vivid theme](https://helpx.adobe.com/in/captivate-prime/administrators/feature-summary/themes.html).
+For a better experience on the learner page, use the [Vivid theme](/help/migrated/administrators/feature-summary/themes.md).
 
 ### Users who have limited mobility and reach
 
