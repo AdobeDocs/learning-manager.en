@@ -11,7 +11,7 @@ contentowner: jayakarr
 <table>
  <tbody>
   <tr>
-   <td><img src="assets/cp-Learning Manager-appicon-88x84.png"></td>
+   <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
     <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>

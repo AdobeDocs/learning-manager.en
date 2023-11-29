@@ -216,43 +216,43 @@ The following screen appears.
  <tbody>
   <tr>
    <td>
-    <p><img src="assets/Learning Manager-write-1.png" alt=""></p></td>
+    <p><img src="assets/prime-write-1.png" alt=""></p></td>
    <td>
     <p>Write a post or paste any URL.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/Learning Manager-camera.png" alt=""></p></td>
+    <p><img src="assets/prime-camera.png" alt=""></p></td>
    <td>
     <p>Take a picture with your mobile camera and upload it with your post.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/Learning Manager-video.png" alt=""></p></td>
+    <p><img src="assets/prime-video.png" alt=""></p></td>
    <td>
     <p>Record a video with your mobile camera.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/Learning Manager-record.png" alt=""> </p></td>
+    <p><img src="assets/prime-record.png" alt=""> </p></td>
    <td>
     <p>Record audio with your mobile.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/Learning Manager-upload.png" alt=""></p></td>
+    <p><img src="assets/prime-upload.png" alt=""></p></td>
    <td>
     <p>Upload any document or file in the board.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/Learning Manager-ask.png" alt=""> </p></td>
+    <p><img src="assets/prime-ask.png" alt=""> </p></td>
    <td>
     <p>Ask a question.</p></td>
   </tr>
   <tr>
    <td>
-    <p><img src="assets/Learning Manager-poll.png" alt=""> </p></td>
+    <p><img src="assets/prime-poll.png" alt=""> </p></td>
    <td>
     <p>Create a poll with your post.</p></td>
   </tr>
