@@ -30,6 +30,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Content marketplace](administrators/feature-summary/content-marketplace.md)
    * [Reports](administrators/feature-summary/reports.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
+   * [Learning Programs] (administrators/feature-summary/learning-programs.md)
    * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
    * [Job Aids](administrators/feature-summary/job-aids.md)
    * [Certifications](administrators/feature-summary/certifications.md)
