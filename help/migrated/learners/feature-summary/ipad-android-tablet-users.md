@@ -300,7 +300,7 @@ After creating a post, choose the board where you want to upload the post. Tap S
 
 After you've created a post, tap Post and post your comment for other learners to view your post.
 
-In the mobile app, you cannot create a board. To create a board, you must log in to the web app as a learner. For more information on creating a board, see Social learning in [Learning Manager](https://helpx.adobe.com/captivate-Learning Manager/learners/feature-summary/social-learning-web-user.html).
+In the mobile app, you cannot create a board. To create a board, you must log in to the web app as a learner. For more information on creating a board, see Social learning in [Learning Manager](/help/migrated/learners/feature-summary/social-learning-web-user.md).
 
 ## Actions that can be performed on a post {#actionsthatcanbeperformedonapost}
 
