@@ -103,4 +103,9 @@ To view the IdP/SP initiated URL and Metadata file, perform the below steps:
 
 To configure Adobe Learning Manager SSO, perform the steps mentioned in the below article.
 
+<!--
+
+article not in TOC
+
 [SSO Authentication](/help/migrated/kb/sso-authentication-for-learning-manager.md)
+-->
