@@ -9,6 +9,9 @@ user-guide-description: Documentation for Adobe Learning Manager
 * [Learning Manager User Guide](user-guide.md)
 * Introduction {#introduction}
    * [New features summary](whats-new.md)
+   * [New features July 2023](whats-new-2023-july.md)
+   * [New features April 2023](whats-new-2023-april.md)
+   * [New features November 2022](whats-new-2023-november.md)
    * [Release Notes](release-note/release-notes.md)
    * [System requirements](system-requirements.md)
    * [ALM reference site package for AEM Sites](adobe-learning-manager-integration-aem.md)
@@ -64,6 +67,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Monitoring and moderating Social Learning as an admin](administrators/feature-summary/social-learning-configurations-as-an-admin.md)
    * [Enable full control of shared catalog](administrators/feature-summary/shared-catalog-full-control.md)
    * [Map skill with skill domains](administrators/feature-summary/curation-skills.md)
+   * [Native extensibility](administrators/feature-summary/native-extensibility.md)
+   * [Multiple enrollment](administrators/feature-summary/multiple-enrollment.md)
 * Integration Admin {#integration}
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager Connectors](integration-admin/feature-summary/connectors.md)
