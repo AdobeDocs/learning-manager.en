@@ -5,3 +5,6 @@ hidefromtoc: yes
 ---
 # What's new in this release (November 2022)
 
+IN-PROGRESS
+
+<https://helpx.adobe.com/learning-manager/whats-new-nov-2022.html>
