@@ -11,7 +11,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [New features summary](whats-new.md)
    * [New features July 2023](whats-new-2023-july.md)
    * [New features April 2023](whats-new-2023-april.md)
-   * [New features November 2022](whats-new-2023-november.md)
+   * [New features November 2022](whats-new-2022-november.md)
    * [Release Notes](release-note/release-notes.md)
    * [System requirements](system-requirements.md)
    * [ALM reference site package for AEM Sites](adobe-learning-manager-integration-aem.md)
