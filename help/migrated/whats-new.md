@@ -1,418 +1,244 @@
 ---
+title: What's new in this release
 description: Learn about the new features and enhancements in Adobe Learning Manager
-jcr-language: en_us
-title: New features summary
-contentowner: jayakarr
 ---
+# What's new in this release
 
+## Revamped User Interface
 
-# New features summary {#new-features-summary}
+The Adobe Learning Manager User Interface has undergone a few updates to offer a cleaner and more modern experience. The landing pages for Admin and Author roles have been revamped, and UI theme updates have been made for all roles. However, no changes have been made to the location of menus, buttons, or links and you'll be able to find these exactly where they were located before. 
 
-Learn about the new features and enhancements in Adobe Learning Manager
+The theme updates will apply automatically to accounts that use the default theme. The UI theme updates will not impact accounts that have made modifications to use a custom theme. Such accounts need to switch back to the default theme to get the new theme updates.
 
-## What's new in this release {#whatsnewandchanged}
+![UI image](assets/refreshed-ui.png)
 
-<table>
- <tbody>
-  <tr>
-   <td><img src="assets/classroom1.jpeg"></td>
-   <td>
-    <p><b><a disablelinktracking="false" href="whats-new.md#classroom">Classroom</a></b><br></p></td>
-   <td><img src="assets/gamification.jpeg"></td>
-   <td>
-    <p><b><a disablelinktracking="false" href="whats-new.md#gamification">Gamification</a></b></p></td>
-  </tr>
- </tbody>
-</table>
+### About this change
 
-<table>
- <tbody>
-  <tr>
-   <td><img src="assets/teams.jpeg"></td>
-   <td>
-    <p><b><a disablelinktracking="false" href="whats-new.md#teams">Microsoft Teams</a></b></p></td>
-   <td><img src="assets/api.jpeg"></td>
-   <td>
-    <p><b><a disablelinktracking="false" href="whats-new.md#api">API changes</a></b></p></td>
-  </tr>
- </tbody>
-</table>
+**What changes in this release?**
 
-## Classroom locations
+There is a new template in the header, which auto-resizes the logo to a fixed size and position while maintaining the logo's aspect ratio. The change intends to enhance the visual appeal of the learner experience.
 
-Administrators can now set up a library of classroom locations. For each Classroom Location, the administrators can set the metadata that includes Location Name, Seat Limit as well as additional information such as the Location URL. Authors and Administrators can then use these pre-configured classroom locations for setting up instructor-led training events (classroom modules).
+The organization's name in the header also auto resizes to 336 (minimum) x 680 (maximum) px for learners.
 
-For more information, see [**Classroom in Adobe Learning Manager**](administrators/feature-summary/classroom.md).
+**What is the recommended size of the logo?**
 
-## Gamification
+The maximum width of the logo is 210px. Logos with a width of more than 210px or a height of more than 42px are resized to 42x210px.
 
-In this release, Adobe Learning Manager introduces a new gamification task that encourages users to access the learning platform consistently and engage in the learning activities. To support this task, the Administrator can now setup a new rule that awards points if the learner carries out learning activities for 1, 2, 3, or 4 days in a week, month, or quarter.
+If the logo size is less than the recommended size, the logo is uploaded without any change, and is center-aligned.
 
-For more information, see [**Gamification**](learners/feature-summary/gamification.md).
+**What is the impact?**
 
-## Microsoft Teams connector
+Company names that are longer will be trimmed, and an ellipsis will fill the space.
 
-Microsoft&reg; Teams&reg; is a persistent chat-based collaboration platform that supports document sharing, online meetings, and other features for business communications.
+**What do we recommend?**
 
-Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings into Learning Manager.
+* Resize the image keeping the aspect ratio intact. Recommended max logo size is 42 px (vertical) x 210 px (horizontal).
+* For many accounts, this would automatically apply; no change is required.
 
-Microsoft Teams connector connects the Learning Manager and Microsoft Teams systems to enable automatic data synchronization.
+## Native extensibility
 
-For more information, see [**Install Microsoft Teams connector**](integration-admin/feature-summary/install-microsoft-teams-connector.md).
+Set up custom experiences within the native version of Adobe Learning Manager, allowing you not to use headless for less complicated cases. You can also create custom apps and place them at various points in the native version of the learner, manager, admin, author, or instructor workflows.
 
-## Player TOC changes
+A Learner can use a custom-built app or an extension, which an Admin had created.
 
-## Performance improvements
+View [Native extensibility](/help/migrated/administrators/feature-summary/native-extensibility.md) to learn more.
 
-This release of Adobe Learning Manager introduces significant performance enhancements for the fluidic player table of contents (TOC). Some of the changes include faster rendering of content, displaying course completion information in the TOC after the player is closed, displaying a tick mark in TOC after a module or course is completed, better support for the content types, such as PDF, video, and audio formats, and so on.
+## Reporting changes in this release
 
-![](assets/player-toc.png)
+### Changes in job aid enrollment report
 
-## Accessibility improvements
+In earlier versions of Adobe Learning Manager, the Job Aid enrollment report had no filters. Adobe Learning Manager downloaded all the data of an account.
 
-We have made several accessibility enhancements to the fluidic player TOC. Few of these changes include support for better color and sharp contrast, as well as more prominent TOC labels.
+In this release, we've added a dropdown in the Job Aids Report dialog.
 
-## Search and sort modules
+### Changes in notifications announcement report
 
-When an instructor has multiple sessions or submissions, searching for and sorting through these sessions and submissions can become difficult and tedious. With this release, the modules, and sessions available on the instructor page are now searchable using the name of a course, session, or module. Learning Manager now provides a search field that is available for all the upcoming sessions, past sessions, and review activities including checklists and submissions.
+In earlier releases of Adobe Learning Manager, the Notification Announcement report didn't have any filters. Adobe Learning Manager downloaded all notifications in the account.
 
-To search for a particular session or module name, follow the steps below:
+In this release, we've added a date filter, using which you can download the notifications within a specified period.  You can, however, download the report for the last six months only.
 
-1. In the Instructor app (UI for Instructor role), search for the upcoming and past sessions. You can view the list of instances for the selected page.
-1. Enter the session or module name in the search field available at the upper-right corner.
-1. Locate the learning object from the search results.
+### Changes in course revisit data in enrollment report
+
+In this release, you can download the course revisit information in an Enrollment report by specifying a time. The download period will be limited to six months for accounts with more than five million enrollments. For all other accounts, the period will be 15 months.
+
+You can download the report from **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]** > **[!UICONTROL Course Access Report]**.
+
+### Changes in learner transcript
+
+In earlier releases of Adobe Learning Manager, if a Custom Admin had User scope, the Learning Transcript contained the deleted users. In this release, the Learning Transcript will contain the deleted users if the Custom Admin has either the User scope or access to all user groups.
+
+### Changes in attendance report
+
+The Attendance report on the attendance page of Courses in the Admin app and on the Session Learners page of the Instructor app used to get downloaded synchronously. In this release, this report will be downloaded asynchronously via a notification.
+
+For more information on reports, see [Reports](/help/migrated/administrators/feature-summary/reports.md) in Adobe Learning Manager.
+
+## Decommissioning of Content Marketplace
+
+The courses that have expired in the imported content marketplace catalog (Enterprise training) will be auto-deleted once they expire. The courses will be set to retire when the content is marked for decommissioning. Existing enrolled learners can consume them within a limited timeframe after which they will be deleted. This will keep the catalog clean and not show users any expired courses.
+
+## Skill-based new recommendations
+
+Adobe Learning Manager improves the recommendations for Customer and Partner-enabled accounts. This improvement in the recommendation algorithm with the change in the ranking algorithm for course, learning path, and certification provides a better user experience in content discovery.
+
+The algorithm will no longer allow peer-based recommendations. The change will not affect the existing users, but the Industry Aligned option will continue to exist. For the Custom option, Adobe Learning Manager will no longer allow custom peer-based selection.
+
+The peer group now becomes an account, and learners will see a string that shows the trending topics in the group. All recommendations are explainable. For example, if you are viewing something on a subject, the card on the strip will display the reason for the course.
+
+## Custom Admin workflow enhancements
+
+Custom Admins will now have more parity with Admin roles regarding access to reports. Admins will be able to configure reporting access with better control.
+
+In Adobe Learning Manager, only Learning Transcript and Gamification Transcript are available to a Custom Admin. In this release, a Custom Admin can access all custom reports except for xAPI and email reports, which are still available only to the admin. Access to all the reports is subject to the catalog and user scope which the custom admin has. There are few reports which are available only with full scope. They are:
+
+| Report | Available | Scope |
+|--- |--- |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |
+
+**New Read-Only controls**
+
+In the Custom Roles page, we've added the following Read Only options to enable admins to provide more flexible options to the Custom Admin: Custom admin will now have additional Read Only permission for Users, Email templates, and Learning Plans.
+
+**Users**:
+
+If you select Read Only, the Custom Admin will be able to view all users but will not be able to edit user data, and create a self-registration portal for users.
+
+**Learning Plans**: 
+
+If you select Read Only, a Custom Admin cannot add or edit a Learning Plan. They can download a Learning Plan report and view its details. But they cannot change the course details.
 
 >[!NOTE]
 >
->The search results show not only the courses or modules assigned to the instructor, but all the courses or modules that match the search criteria. Select the course or module to which you are assigned.****
+>Learning Plans will be additional read-only along with full control.
 
-To reset the search filter, you can use the **Clear** link available next to the course or module name.
+**Email Templates**
 
-![](assets/reset-search-filter.png)
+If you select Read Only, a Custom Admin can view the email templates. They cannot enable or disable email template settings but can download email access reports.
 
-## Set default Social Learning view for Learners
+### Learner transcripts
 
-Previously, although only Administrators were permitted to enable and configure the Social Learning settings for a Learner, the post view was the only default option for viewing the social learning forum.
+If User permission or All user group is selected, and custom admin tries to download Learner Transcripts, the Include deleted learner option will return all deleted learners in the report.
 
-With this release, the Administrators can now change the default Social Learning view as per the preferences. The default post view can now be changed by utilizing the Social Learning dashboard view setting. The setting enables the Administrator to set the Learners' default Social Learning view to either post view or board view.
+### Reports
 
-**Follow these steps to change the default Social Learning view for Learners**
+A Custom Admin can access the following reports according to the defined scope:
 
-1. In the Admin app, click **Social Learning** under **MANAGE **in the left pane.
+| Report | Available | Scope |
+|--- |--- |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |
 
-1. In the **Settings **tab,** **click** Edit **for** Social Learning view. **You can see that by default, the system selects **Post View**.
+## Enhanced Connect Integration
 
-1. Select one of these options to set your preferred default Social Learning view
+Instructors can personalize their session experience by selecting instructor-specific rooms. In this release, we've made the following enhancements:
 
-   1. **Post View** — Displays all individual posts from all Discussion boards.
-   1. **Board View** — Displays all Discussion boards.
+### Import transcripts
 
-1. Click **Save** to save the changes.
+You'll be able to import session transcripts from Connect and analyze the transcripts. Learners will receive the transcript after the recording, which they can download later.
 
->[!NOTE]
->
->Although the Administrators can alter the Social Learning view, the selected default view preference remains in effect only until a Learner changes it. A Learner can change the view type overriding the default view setting (that is configured by the Administrator) by using the Social Learning page. However, the Social Learning view reverts to the default view type configured by the Administrator when you perform page-refresh or navigate away.
+### Edit videos
 
-## Set default My Learning and Catalog view for Learners
+Instructors can edit the video and enhance the learners' viewing experience. Instructors will see a link on the Session overview page to take them to Adobe Connect login page. After logging in, the instructor will see the recording link. Clicking the link will redirect them to the video, which they can trim.
 
-For every Learner, by default, the Learning objects appear using the grid view. Previously, in the absence of a configurable setting, the Administrators could not change the default viewing preference for the learners to list view.
+## Restricting dashboard reports to users with manager role
 
-With this release, an Administrator can now set the Learners' default view type (for My Learning and Catalog pages) to list view. The objects such as available courses, learning paths, and certifications can now appear in a list view layout by default. The Administrator can now use the newly added setting to set the default view type for the Learners to either grid or list view.
+Admins can search only managers in Dashboard reports.
 
-Follow these steps to change the default view for Learners:
+## Limit legacy dashboard report processing
 
-1. In the Admin app, click **Settings** under **CONFIGURE** in the left pane.
+When an Administrator attempts to plot a dashboard report, and the report takes too long to plot (more than 2.5 min), Adobe Learning Manager displays the following message:
 
-1. Click **General** under **BASICS** to access the General settings page.
+![legacy report image](assets/error-message.png)
 
-1. Select the **List view** option alongside **Default view (Learner role)** to change the Learners' default view from Grid to List. If you clear **List view** option, the system sets the Learners' default view back to Grid.
+Reports of such magnitude cannot be displayed on the User Interface, but the Administrator can download them.
 
-1. After you select (or clear) the **List view** option, the system displays the following confirmation message.
+## Migration Support for Catalog Labels
 
-After selecting **List view**, when a learner signs into the Learner app, by default, My Learning and Catalog pages appear using list view.
+The migration workflow now supports catalog labels. Migration CSVs can be used to import catalog label keys and catalog label values and attach them to courses, learning paths, certifications, and job-aids. The workflow can also be used to delete incorrect values and keys if required.
 
-Although Administrators can alter the Learners' view, the selected default view preference remains in effect only until a Learner changes it. A Learner can override the default view preference for the My Learning and Catalog pages (that is configured by the Administrator) by switching between the Grid and List views.
+## API Enhancements for Complex Course Filtering
 
-## Mobile immersive web changes
+Advanced filtering of courses by Tags and Catalog-labels (using a combination of "AND" and "OR" conditions) will now be possible via Learning Manager APIs.
 
-## Social Learning
+## API changes in this release
 
-Social Learning now supports the mobile immersive web experiences.
+### Validation in job API
 
-![](assets/mobile-immersive.png)
+In this release, if the Job aid report exceeds 10 million generated using the Job API, the response will have the message, "Requested report has too much data to generate, consider applying job aid filters!".
 
-## API changes
+### Notification for a deleted post
 
-### Download all badges
+In previous releases of Adobe Learning Manager, if any Course, Certification, or Learning Plan is deleted and its notification is present, then you could still access the Course, Certification, or Learning Plan by visiting its notification.
 
-#### GET jobs/
+In this release, we'll ensure that a deleted post is no longer accessible. If you specify the id in the /posts/{id} API, and the id for the post is no longer available, the API displays the message, "Post not found for the specified resource".
 
-This is an admin API, using which the administrator can download a badge in the PDF format for a user or training.
+### Learner API completion deadline
 
-#### Download all badges by training id
+In previous releases, Adobe Learning Manager fetched the deadline from the enrollment table. In this release, Adobe Learning Manager will calculate the deadline from the course instance table. If the deadline is unavailable, it will fall back to the enrollment table.
 
-```
-\{ 
- "data": { 
- "type":"job", 
- "attributes": { 
- "description":"description of your choice", 
- "jobType":"generateUserBadge", 
- "payload": { 
- "trainingId":"course: XXXX" 
- } 
- } 
- } 
-}
-```
+### Override flag
 
-There is pagination when downloading badges by training id. The maximum limit per page is 1000.
+In the November 2023 release of Adobe Learning Manager, we are discontinuing the override flag from the APIs. The override flag is not a part of the public API specification and is intended for backend testing. The flag is now discontinued for Learner APIs. However, the flag is still valid for Admin APIs.
 
-#### Download all badges by userid
+The reason we're deprecating the flag for the Learner APIs is because the override flag was fetching a large amount of data via the Learner APIs.
 
-```
-\{ 
- "data": { 
- "type":"job", 
- "attributes": { 
- "description":"description of your choice", 
- "jobType":"generateUserBadge", 
- "payload": { 
- "userId":"1234" 
- } 
- } 
- } 
-}
-```
+Going forward, the following Learner API will stop working because it has the override flag.
 
-There is no pagination when downloading badges via userid.
+`https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&page[limit]=10&sort=id&override=TRUE`
 
-## GET learningObjects for classroom management
+### Highlight results
 
-This release features a change in the resource model. The relationships object has a new field named "*room*." This change is only applicable to a classroom module.
+In the upcoming release of Adobe Learning Manager, for example, in /search API, we're changing the default for highlightResults to false.
 
-## Gamification API
+Additionally, we'll change the default of snippetTypes to courseName. Doing so will only highlight the course names in the search if highlightResults is True.
 
-The API includes the capability for awarding points for the external events.
+### New resource type for quiz
 
-**POST /users/externalGamificationPoint**
+The `instances.loResources.resources` endpoint will return `ResourceContentType` with Quiz.
 
-Request Body:
+## Deprecation notice
 
-```
-\{ 
- "userId": userId in the account 
- "eventTime": Time in "2020-01-01T18:30:00.000Z" format 
- "points": points earned; it should be < 100000 
- "source": Source where these points are achieved (String limited to 128 chars) 
-} 
+On November 30, 2023, LinkedIn Learning will deprecate the usage of the HTTP GET method for obtaining an OAuth token. After the deprecation, you'll only be able to generate an OAuth token using the HTTP POST method.
+Adobe Learning Manager will discontinue BlueJeans in February 2024. All new accounts after February 2024 will not include the BlueJeans connector.
 
-```
+## Release Notes
 
-## Mark a board as favorite
+For information regarding current and previous releases of Learning Manager web app and device app, see the [Release notes](release-note/release-notes.md).
 
-If you want to mark a board as favorite, provide the board id.
+## Bugs fixed in this release
 
-*POST /boards/{id}/favorite*
-
-## Report a board
-
-If you want to report a board, provide the board id.
-
-*POST /boards/{id}/reportAbuse*
-
-## Remove a board from favorites
-
-If you want to remove a board from favorites, provide the board id.
-
-*DELETE   /boards/{id}/favorite*
-
-## Board API changes
-
-The field *isFavorite* is added in the model.
-
-## Calendar API
-
-*GET /users/{id}/calendar*
-
-The following fields are added to the payload:
-
-1. *courseInstanceName*
-1. *courseName*
-1. *enrolledToCourseInstance*
-1. *"instructorNames": `["string"]`*
-
-The *enrolled* and *enrolledToCourseInstance* fields are added to determine if a learner is enrolled to the course and if the learner is enrolled to the course instance in a calendar model.
-
-`filter. allSession` is added in the query parameter to get all the sessions related to all instances and all sessions in a course.
-
-The following fields are added in the relationship:
-
-1. *instructors*
-1. *Room*
-
-## What's changed in this release {#Whatsnewandchanged-1}
-
-## Workday enhancements
-
-Here are the changes in this release:
-
-* Workday&reg; supports a wide range of attributes to add data. Different organizations use these attributes differently. Therefore, exposing these attributes and allowing the Administrators to map them with Learning Manager would have increased product complexity and affected usability. If you want to map any attribute that is not listed in Learning Manager, contact your CSAM with the details. The CSAM Support team of Learning Manager will investigate the requirement and help you based on the technical feasibility.
-* We have added a checkbox **Exclude Contingent Workers**. When you select this checkbox, the system does not import any temp workers available under a manager.
-
-## Calendar widget enhancements
-
-In the previous releases of Learning Manager, the Calendar widget consisted of the name and state of a course. Starting this release, the Calendar widget displays the session name, course name, course type, and the session time.
-
-![](assets/calendar-widget.png)
-
-The calendar widget now displays the session name first (with higher prominence) followed by the course name and other details.
-
-Earlier the widget showed only one session from the entire course. The widget is now enhanced to show all the sessions from all the instances available in the course. This provides complete information for all sessions available in the course that enables the learner to enroll in any instance that they want.
-
-When the calendar widget loads the next month, a loader icon now appears when the data is being fetched.
-
-## Content language options
-
-In this update, we added support for the following content languages:
-
-* Serbian
-* Slovenian
-* Slovak
-
-## Express interest
-
-On the **Content Marketplace** page, the **Express Interest** button will now be disabled to prevent learners from expressing interest for a playlist/entire catalog for which they have already expressed interest.
-
-## Language support in email templates
-
-In this release of Learning Manager, we've added support for Hungarian and Finnish languages in email templates.
-
-## Classroom enhancement API changes
-
-`GET /users/{id}/calendar`
-
-The following fields are added to the payload:
-
-1. *courseInstanceName*
-1. *courseName*
-1. *enrolledToCourseInstance*
-1. *`"instructorNames": ["string"]`*
-
->[!NOTE]
->
->The *enrolled* and *enrolledToCourseInstance* fields are added to determine if a learner is enrolled in the course and if the learner is enrolled in the course instance in a calendar model.
-
-*`filter.allSession`* is added in the query parameter to get all the sessions related to all instances and all sessions in a course.
-
- The following fields are added in relationship:
-
-1. *instructors*
-1. *room*
-
-The resources model corresponding to classroom module appears in the relationship.
-
-## Deprecated features in this release
-
-In this release, the `learningObject` in relationship of `learningObjectSkill` model has been deprecated. We have added a new key, `learningObjectId` in the attribute section of `learningObjectSkill` model to fetch the same information. The value corresponding to this key will be the id of learningObject. This change will affect the following LO types:
-
-* Course 
-* LearningPath (API terminology: learningProgram)
-* Jobaid
-
-The deprecated data will be completely removed from the response as a part of our next release. **This will take place after 3 months (anytime after 30 April 2022)**. Make the required changes to your implementation to fetch the data according to the the new design.
-
-Here is a sample LO skill model:
-
-```
-Model: 
-
-{ 
- "id": "course:5627858_51096" 
- "type": "learningObjectSkill", 
- "attributes": { 
- "credits": 19.7 
- "learningObjectId": "course:5627858" << new attribute added. 
- }, 
- "relationships": { 
- "learningObject": { 
- "data": { 
- "id": "course:5627858", 
- "type": "learningObject" 
- } 
- }, 
- "skillLevel": { 
- "data": { 
- "id": "51096_1", 
- "type": "skillLevel" 
- } 
- } 
- } 
- } 
-
-```
-
-We plan to change the ID format of learningObjectResourceGrade. The id format for the learningObjectResourceGrade model currently follows the following format:
-
-* *course:courseid_instanceid_moduleid_version_uuid1_uuid2*
-
-Once changed, the format will be:
-
-* *course:courseid_instanceid_moduleid_version_uuid*
-
-Thus, only one uuid will be used to construct the learningObjectResourceGrade's id.
-
-In general, Learning Manager recommends to not interpret the ID of any model.
-
->[!NOTE]
->
->This change will come into effect as a part of our next release (any time after **30 April 2022**). In case you are using this format in any way, make the required changes. 
-
-## Release Notes {#releasenotes}
-
-For information regarding current and previous releases of Learning Manager web app and device app, see the  [***Release notes***](release-note/release-notes.md).
-
-## Bug fixes {#bugfixes}
-
-To see the bugs that are fixed in this update, refer to the  [***Bugs fixed***](release-note/release-notes.md#bug-fixes-jan-22) list.
-
-## Known issues {#knownissues}
-
-To see the known issues in this update, refer to [***Known issues***](release-note/release-notes.md#known-issues) list.
-
-## System Requirements {#systemrequirements}
+* A thumbnail for a course, which is a pre-requisite for a Learning Path or another course does not display when a learner opens the preview page of the Learning Path or the course.
+* If Calendar, Gamification, and Social Learning options are not selected, the learner dashboard setting does not retain the next setting. The options like Recommended in your areas of interest and Browse by Catalog do not appear as selected but show in the preview.
+* Even after a learner completes a VC course, they receive a reminder mail to complete the course.
+* For peer accounts, you are unable to download dashboard reports.
+* Deleting and adding a checklist module in a course produces an internal error.
+* In the case of Session Invite templates, the sender's email ID has the text captivatePrime instead of AdobeLearningManager.
+* When you use Course effectiveness as secondary Y-axis, the report download fails with a Null Pointer Exception.
+* If a learner is assigned a Custom Admin role, they navigate to the Custom Admin profile by default. However, when a Learner redirect URL is set on the account, the custom admin is taken to a different destination, not the Custom Admin Role profile.
+* The gamification scope does not work as expected if disabled_sub_groups are set to a large number.
+* In some cases, deleted users trigger a migration.
+* A learner cannot play LinkedIn courses on the MS Teams app.
+* The Enrollment API doesn't return the enrollments in a Flex Learning Plan or Embedded Learning Plan as expected.
+* In the mobile app, the names of a Course, Certification, or Learning Plan appear in lowercase.
+* In previous releases of Adobe Learning Manager, if any Course, Certification, or Learning Plan is deleted and its notification is present, then you could still access the Course, Certification, or Learning Plan by visiting its notification. In this release, we'll ensure that a deleted post is no longer accessible. If you specify the id in the /posts/{id} API, and the id for the post is no longer available, the API displays the message, "Post not found for the specified resource".
+* In the Learner API, the completion deadline field isn't displayed in the response of the Enrollment API.
+* In the Get Enrollment API for learners, the enrollment details appear even after you specify an incorrect Instance ID.
+
+## Known issues in this release
+
+* A new enrollment or updating an enrollment fails when a Flex Learning Plan is inside another Flex Learning Plan.
+* The transcript URL does not display the session recordings in Adobe Connect sessions.
+* A learner can take an offline quiz in the mobile app even if they fail it.
+
+## System Requirements
 
 [Learning Manager system requirements](system-requirements.md)
 
-<!--
-## Previous releases of Learning Manager {#previousreleasesofcaptivateprime}
+## Previous releases of Adobe Learning Manager
 
-* [Learning Manager | October 2021 release](whats-new-october-2021.md)
-* [Learning Manager | August 2021 release](whats-new-august-2021.md)
-* [Learning Manager | February 2021 release](whats-new-february-2021.md)
-* [Learning Manager | December 2020 release](whats-new-december-2020.md)
--->
-
-## Have a question or an idea? {#haveaquestionoranidea}
-
-<!--
-Saurav:
-This .svg file fails to render properly
--->
-
-<table>
- <tbody>
-  <tr>
-   <td><img src="assets/ask-the-community.svg"></td>
-   <td>
-    <p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td>
-  </tr>
- </tbody>
-</table>
-
-### More like this
-
-* [Adobe Learning Manager product guide](https://www.adobe.com/products/captivateprime.html)
-* [Adobe Learning Manager playlist](https://www.youtube.com/playlist?list=PLq21ukQtk0URntzGmTxsx7Qt8z9b9Elth)
-* [Organize your training in Adobe Learning Manager | Ashwini Jaisim](https://elearning.adobe.com/2020/07/organize-your-trainings-in-adobe-captivate-prime/)
-* [Add your Adobe Learning Manager Account URL to your Adobe Connect Central Account Summary Page](https://elearning.adobe.com/2019/10/add-adobe-captivate-prime-account-url-adobe-connect-central-account-summary-page/)
+* July 2023 release
+* April 2023 release
+* November 2022 release

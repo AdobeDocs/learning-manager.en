@@ -206,7 +206,7 @@ Upon launching the app, tap the **Social** icon.
 
 Like any other social platform, in the Learning Manager mobile app, you can create a post in a board, so that all learners who are part of the same board can view your post, comment, and upload a file along with the comment.
 
-To create a post, tap the (![](assets/Learning Manager-add.png)) icon on the bottom-right of the screen. 
+To create a post, tap the ![add icon](/help/migrated/learners/feature-summary/assets/prime-add.png) icon on the bottom-right of the screen. 
 
 The following screen appears.
 
@@ -308,9 +308,8 @@ In the mobile app, you cannot create a board. To create a board, you must log in
 * Edit or delete comments in a board.
 * Edit or delete a post based on permissions.
 * Report an abuse of a post if it violates their privacy, or its content is inappropriate. Once a post is reported, a notification is sent to the board administrator and moderators for further actions.
-* Like  ![](assets/Learning Manager-like.png)  or dislike  ![](assets/Learning Manager-dislike.png)   a post.
-
-* Like  ![](assets/Learning Manager-like.png) or dislike ![](assets/Learning Manager-dislike.png) a comment.
+* Like  ![](assets/prime-like.png)  or dislike  ![](assets/prime-dislike.png)   a post.
+* Like  ![](assets/prime-like.png) or dislike ![](assets/prime-dislike.png) a comment.
 
 ## Create a post in other boards {#createapostinotherboards}
 
@@ -324,7 +323,7 @@ Navigate to the required board and post your comment.
 
 ## Share media in a board {#sharemedia}
 
-![](assets/cp-Learning Manager-share.png)
+![](assets/cp-prime-share.png)
 
 Share pictures, documents, or audio or videos files to any board, so that other board members can view your post and start an interaction. To share any media,
 

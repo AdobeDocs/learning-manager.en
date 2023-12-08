@@ -1541,7 +1541,7 @@ Release date: May 19, 2018.
 
 * This release of Adobe Learning Manager rolls out new features and enhancements. It brings to you the ability to create custom roles, add catalog labels, capacity to purge users, manage tags, rename Learning Objects, Slack integration, new connector integrations, support to xAPI, and much more. For more information about the new features and enhancements, see  [New feature's summary](../whats-new.md#main-pars_text).
 
-* Learning Manager is compliant with GDPR. For more information, see [Learning Manager compliance to GDPR.](../kb/Learning Manager-gdpr.md)
+* Learning Manager is compliant with GDPR. For more information, see [Learning Manager compliance to GDPR](/help/migrated/kb/prime-gdpr.md).
 
 ## Known Issue {#knownissue}
 
