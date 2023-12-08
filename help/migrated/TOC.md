@@ -19,6 +19,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Manager compliance to GDPR](kb/prime-gdpr.md)
    * [Accessibility in Learning Manager](accessibility-learning-manager.md)
    * [Support for custom domain](custom-domain.md)
+   * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
+   * [Transition from Adobe FTP Manager](transition-from-ftp-manager.md)
 * Get Started {#get-started}
    * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
    * [Getting started as an Author](authors/feature-summary/getting-started-author.md)
