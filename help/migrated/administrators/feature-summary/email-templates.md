@@ -157,6 +157,25 @@ You can add users to DND list using CSVs. Include True/False/Blank values for ea
 
 Enter true in the value field to block users from receiving emails for that selected option. If false is entered as the value, blocked users are unblocked. No changes to previous selections are done if the column is left blank.
 
+## Flexibility in customizing the templates
+
+Email templates in Learning Manager now include fully editable sections, providing greater flexibility to customize email communications based on messaging and branding preferences.
+
+The key enhancements to customizing email templates include the following:
+
+### Customize email salutation at account-level
+
+Select **[!UICONTROL Email Templates]** > **[!UICONTROL Settings]**. Select **[!UICONTROL Edit]** in the **[!UICONTROL Email Salutation]** section.
+
+![customize email](assets/email-salutation.png)
+
+You can also customize the following:
+
+* Email banner and email signature both at the Course-level and the Instance-level.
+* Edit the email footer. The footer area contains predefined variables for the account URL, the Signature, and any free-form text the user adds.
+
+The templates also support advanced editing capabilities such that formatting is retained when content is copied and pasted from and to Microsoft Word.
+
 ## Inline invitations {#inlineinvitations}
 
 Learning Manager users will now receive inline email invites. ICS attachments are no longer used to send invitations. Any changes in the invite will automatically reflect in your calendar.

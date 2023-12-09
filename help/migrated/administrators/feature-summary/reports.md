@@ -386,7 +386,7 @@ You can resize your reports in 1×1 (medium) and 1×2 (large) sizes. This gives 
 
 Filters appear in **[!UICONTROL Add]** report dialog at the bottom based on types of reports you have chosen. Some of the prominent filters are mentioned below. 
 
-** Manager** You can choose any one of the managers based on hierarchy. For some managers, there can be subordinate managers and multiple employees reporting to each subordinate manager.
+**Manager** You can choose any one of the managers based on hierarchy. For some managers, there can be subordinate managers and multiple employees reporting to each subordinate manager.
 
 **Profile** Choose the designation of your employee. It would help in viewing reports of employees based on their profile/designation. For example, computer scientist, engineer.
 
@@ -472,7 +472,7 @@ To view drop-down options as Edit/Move to Dashboard/Create a copy/Delete/Resize,
 
 ![](assets/edit-options-dashboard-300x126.png)
 
-**Edit **To go back to initial values while modifying data, click Reset. Click Save after modifying the values.
+**Edit** To go back to initial values while modifying data, click Reset. Click Save after modifying the values.
 
 **Move to Dashboard** You can move the current report to another dashboard, which is chosen from the list of dashboards.
 
@@ -574,7 +574,7 @@ As an administrator, you can generate a report of all the announcements that you
 
 To download a report, follow any one of these steps:
 
-1. Open **Reports **> **Excel Reports** > **Announcements Report**. The **Generating Report Request** dialogue box opens. Click Ok.
+1. Open **Reports** > **Excel Reports** > **Announcements Report**. The **Generating Report Request** dialogue box opens. Click Ok.
 1. Announcements > Actions > Export Report.
 
    ![](assets/announcements.png)
@@ -613,7 +613,69 @@ To download a report, do one of the following:
 
 ![](assets/job-aid-specific-download.png)
 
-## Content audit trail reports {#contentaudittrailreports}
+### Job Aids Report
+
+After you select Job Aids Report on the list, you see two options:
+
+![job aids report](assets/job-aids-new.png)
+
+**All Job Aids**: If the number of job aids in the account is fewer than 10 million, the generated report will contain enrollment information of all job aids. This will be the default selection. If the number of rows exceeds 10 million, an error will display, and you must select the required job aids manually.
+
+**Selected Job Aids**: If you select this option, you can enter the job aids for which you want to generate the report. You can select at most 10 job aids. Adobe Learning Manager checks if the number of job aids exceeds 10 million.
+
+![job aids report enroll](assets/job-aids-2-new.png)
+
+**Job Aids Report**
+
+If you select this option, the details of all the job aids present in the system along with their metadata and training are downloaded.
+
+The downloaded report consists of the following fields:
+
+* Job Aid Name
+* Language(s)
+* ID
+* Type
+* Duration (minutes)
+* State
+* Date Published (UTC TimeZone)
+* Created By Name
+* Created By Email
+* Created By User Unique ID
+* Catalog(s)
+* Learning Path(s)
+* Course(s)
+* Tag(s)
+* Skill(s)
+
+**Job Aids User Enrollment Report**
+
+The enrollment report contains details about user enrollment and other information.
+
+The downloaded report consists of the following fields: 
+
+* Job Aid Name
+* Type
+* State
+* Date Enrolled (UTC timezone)
+* Date Completed (UTC timezone)
+* Download Date (UTC timezone)
+* Learner Name
+* Email
+* User Unique ID
+* Manager Name
+* Manager Email
+* Manager User Unique ID
+* Assigned by name
+* Assigned by Email
+* Assigned by User Unique ID
+* Created by name
+* Created by Email
+* Created by User Unique ID
+* Job Code
+* New Field
+* Profile
+
+### Content audit trail reports {#contentaudittrailreports}
 
 Use the **[!UICONTROL Content Audit Trail]** report generator to generate a report of all the changes and edits made to a course during its life in the system. The generated report has the following information fetched.
 
@@ -783,6 +845,70 @@ The downloaded csv contains the following fields:
 * Waitlist Limit
 * Waitlist count 
 * Waitlist user emails
+
+## Instructor Utilization Report
+
+This report captures the time (in minutes) spent daily by an instructor teaching assigned sessions. The report can be downloaded for a period of three months from the selected start date.
+
+To download the report, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **Instructor Utilization Report**.
+
+Select an instructor or multiple instructors and the date range.
+
+![Download Instructor Utilization Report](assets/utilization-report.png)
+
+*Download Instructor Utilization Report*
+
+The downloaded report contains the following fields:
+
+* Instructor name
+* Instructor ID
+* Competence level
+* Dates as columns. If the instructor is utilized on a date, the number of sessions is listed. If the instructor is not utilized on a day, the value displays zero.
+
+The report contains records for three months from the selected month.
+
+To retrieve records of all instructors, leave the Instructor field blank.
+
+Also, a Custom Admin with permission to generate reports can retrieve this report.
+
+## User Audit Trail Report
+
+This report captures information about the learners that switched instances, "from instance" to "to instance", switched by time, date, etc..
+
+Select the learners or a user group.
+
+To download the report, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL User Audit Trail Report]**.
+
+![Download User Audit Trail Report](assets/user-audit-report.png)
+
+*Download User Audit Trail Report*
+
+## Learning Plan Report
+
+This report contains details of all the Learning Plans in an account, for example, related user groups, status, and trigger information.
+
+The report contains the following:
+
+* Name of the Learning Plan
+* Type (occurs when)
+* Training (completed)
+* Skill (achieved)
+* Date (on date)
+* Action
+* Status, created by
+* Creation date
+* Last modified date
+* User group (applies to)
+* User group (add to)
+* Enroll after
+* Learning element type(s)
+* Learning element(s)
+* Learning element instance(s)
+* Learning element
+* Completion date
+* Learning element reminder
+* Scope-Catalog
+* Scope-Usergroup
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 

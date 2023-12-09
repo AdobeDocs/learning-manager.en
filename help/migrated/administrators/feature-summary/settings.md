@@ -521,6 +521,38 @@ You can also delete a folder. Select the folder to delete, click the Actions men
 >
 >Folders can be deleted when all of its associated content is also associated with other folders. If there is content that is linked with only the folder being deleted, first move the content to another folder, and then delete the folder.
 
+## Classroom locations
+
+Administrators can use this setting to create and configure a library of classroom locations. Authors can select a pre-configured location to set up their classroom event. Select a location from the library to automatically populate the location information, URL, and seat limit. 
+
+As an admin, you can either:
+
+### Import locations CSV
+
+Add locations in your account by importing a CSV file of locations. The CSV file must contain the column City.
+
+### Add a location
+
+Add the following:
+
+1. Location Name: Enter the name of the classroom.
+2. Location Information: Enter the information about the location.
+3. Location Region: The entered value appears as Training Locations filter for learners.
+4. Location URL: Enter the URL of the location.
+5. Seat Limit: Enter the seating capacity of the room.
+
+![classroom location](assets/location-alm.gif)
+
+You can also add the location with the help of a CSV. The CSV must contain the fields:
+
+* name
+* info
+* url
+* seatlimit
+* region
+
+![Add classroom locations](assets/add-classroom-csv.png)
+
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
 **1. How to create different folders for content library?**

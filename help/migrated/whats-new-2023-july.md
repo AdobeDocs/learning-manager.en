@@ -9,7 +9,7 @@ hidefromtoc: yes
 
 Adobe Learning Manager has introduced a new and revamped recommendation system for courses. This recommendations feature uses AI algorithms and users' interests like Products, Roles, and Levels to provide personalized content recommendations.
 
-For more information, see Recommendations in Adobe Learning Manager.
+For more information, see [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md).
 
 ## Multi-enrollment
 
@@ -49,7 +49,7 @@ argument_object=
 
 This release of Adobe Learning Manager will include a new connector, which will use AWS Transfer family's SFTP protocol. 
 
-This change will also replace the ExaVault connector, which will no longer be available for new users. You may use any open-source FTP client as a replacement for ExaVault. For more information, see Transition from Adobe FTP Manager.
+This change will also replace the ExaVault connector, which will no longer be available for new users. You may use any open-source FTP client as a replacement for ExaVault. For more information, see [Transition from Adobe FTP Manager](transition-from-ftp-manager.md).
 
 ## Reminders in outlook for classroom and virtual sessions
 
@@ -85,17 +85,13 @@ A pop-up to capture the star rating for a course displays as soon as the user co
 
 Email templates in Learning Manager now include fully editable sections, providing greater flexibility to customize email communications based on messaging and branding preferences.
 
-For more information, see [Customize email template](/help/migrated/administrators/feature-summary/email-templates.md).
+For more information, see [Customize email template](/help/migrated/administrators/feature-summary/email-templates.md#flexibility-in-customizing-the-templates).
 
 ## Enhancements to scheduling assistant
 
 Fine-tune the process of selecting an instructor for classroom or virtual sessions. A User Group filter has been added to the Instructor field in the Scheduling Assistant. Authors can now filter instructors based on 'Instructor Skills' and any additional parameter such as location, language, designation, and so on.
 
-<!--
-There is no User Group Filter section on this page: help/migrated/authors/feature-summary/courses.md
-
-For more information, see User Group filter in Scheduling Assistant.
---> 
+For more information, see [User Group filter in Scheduling Assistant](/help/migrated/authors/feature-summary/courses.md#user-group-filter).
 
 ## Enhancements to the learning object retiring workflow
 
