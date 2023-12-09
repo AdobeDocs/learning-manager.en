@@ -72,6 +72,79 @@ To restore a retired instance to an activate state, perform the following steps:
 
 1. The instance now gets restored to an active mode.
 
+## Send instance-level emails
+
+To send instance-level emails to enrolled learners:
+
+1. On the Instances page, select the options on any instance, and then click **[!UICONTROL Email Enrolled Learners]**.
+
+![instance level emails](assets/adhoc-email.png)
+
+1. On the Create Announcement dialog, select Type as Email. Specify the subject, type the message, and click Save. The training is selected automatically.
+
+   ![Create announcement as email](assets/email-announcement.png)
+
+   *Create announcement as email*
+
+1. After you click **[!UICONTROL Save]**, you see a confirmation message for the successful creation of the announcement. To publish the announcement, click **[!UICONTROL Publish Now]**.
+
+   ![Announcement created successfully](assets/announcement-successful.png)
+
+### Enroll learners in various instances
+
+1. Select a course from the list of courses.
+1. Select **[!UICONTROL Learners]** on the left panel.
+1. Select **[!UICONTROL Enroll]**.
+
+   ![Enroll learners](assets/enroll-learners-new.png)
+
+1. In the [!UICONTROL **Enroll Learners**] dialog, you can:
+
+   * Select an instance to enroll a learner from the Select Instance dropdown.
+   * Select the user or user groups or both in the Include Learners field.
+   * Select the learners you want to be excluded from the instance in the Exclude Learners field.
+   * At the bottom of the dialog, select Yes if you want a learner or learners enrolled in the selected instance.
+
+1. Select **[!UICONTROL Proceed]**.
+
+   ![proceed](assets/proceed.png)
+
+### View enrollment report of an instance
+
+1. Select a course from the list of courses.
+1. Select **[!UICONTROL Learners]** on the left panel.
+1. Select **[!UICONTROL Actions]** > **[!UICONTROL Export]**.
+
+The Excel file contains worksheets for each instance. A worksheet consists of the fields:
+
+* Learners
+* Email
+* User Unique ID
+* Course Name
+* LO Unique ID
+* Status
+* Selection Criteria
+* Enrollment Date / Unenrollment Date (UTC TimeZone)
+* Completion Date (UTC TimeZone)
+* Due Date (UTC TimeZone)
+* Started Date (UTC TimeZone)
+* Quiz Score
+* Manager Name
+* Address
+* userState
+* Area of Expertise
+* Comments
+* Number of Visits
+* Visit Dates
+* Timestamps (UTC TimeZone)
+* Time Spent (mins)
+
+>[!NOTE]
+>
+>Note: Enabling Multi-Enrollment results in multiple rows being added to the Learner Transcript Report for each course (one row for each instance).
+>
+>If you've reporting automation set up that anticipates only one row per course, you must make the necessary adjustments to the reporting automation before enabling the Multi-Enrollment feature.
+
 ## Set escalation level {#escalation}
 
 For sending the email notifications, an Admin must explicitly choose the escalation level to:

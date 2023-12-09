@@ -158,6 +158,45 @@ In the **Retired** tab, select the skill that you want to delete, and from the *
 
 You can delete a skill only when it is not associated with any learners, courses, or job aids.
 
+## Assign skills to instructors
+
+Add a CSV file that consists of the skills of instructors. These skills are then added to the list of skills.
+
+1. On the upper-right corner of the screen, select **[!UICONTROL Add]** > **[!UICONTROL Assign skills to instructor]**.
+1. Upload a csv. The columns in the CSV are:
+
+   * Skill Name
+   * Skill Level
+   * Instructor Email or Instructor UUID
+
+   For UUID-enabled accounts, replace the Instructor Email column with Instructor UUID.
+
+   Click Save.
+
+   ![Add instructor skills CSV](assets/instructor-skills.png)
+
+1. You'll see a confirmation pop-up message.
+
+   Note: The following error message pops up if the CSV has incorrect fields.
+
+   ![Error message if CSV has incorrect fields](assets/error-csv-upload.png)
+
+### Skills page
+
+On the Skills page, there is a column called Instructors, which denotes the number of instructors assigned to a skill. If you click the number of instructors, you see a pop-up, which displays the instructors assigned to the skill.
+
+![Skills assigned to instructors](assets/instructor-skill-assigned.png)
+
+### Download the skill assignment CSV
+
+1. On the Skills page, click **[!UICONTROL Add]** > **[!UICONTROL Assign Skills to instructor]**.
+1. On the dialog, click **[!UICONTROL Previously Added Assignment]**.
+1. The CSV that you uploaded last will be downloaded.
+
+>[!NOTE]
+>
+>We recommend that you download the skill assignment CSV first, edit it, and then upload the file.
+
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
 1. How can I remove a learner from a skill?

@@ -20,7 +20,7 @@ Several enhancements have been made to the Instructor Led Training (ILT) experie
 * The Skills page of the Admin app has the option to upload Skill-Instructor mapping.
 * On the Skills page, there is a new column, Instructors. The column shows the number of instructors against the skill. If you click the number in the Instructors column, you'll be redirected to a pop-up, which shows the number of instructors assigned to a skill.
 
-For more information, see [Assign skills to instructors](/help/migrated/administrators/feature-summary/skills-levels.md).
+For more information, see [Assign skills to instructors](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
 
 ![Instructor CSV](assets/instructor-csv-new.png)
 
@@ -30,7 +30,7 @@ Manage conflicts in booking instructors and classrooms or Virtual Classrooms. If
 
 Authors, Administrators, and Custom Admins/Authors can use the Scheduling Assistant.
 
-For more information, see [Scheduling Assistant](/help/migrated/authors/feature-summary/courses.md).
+For more information, see [Scheduling Assistant](/help/migrated/authors/feature-summary/courses.md#scheduling-assistant).
 
 ## New Adobe Learning Manager Mobile App
 
@@ -117,16 +117,13 @@ Sometimes, you want a learner to filter a session on the calendar based on locat
 
 ![Add classroom locations](assets/add-classroom-locations.png)
 
-For more information, see [Add classroom locations](/help/migrated/administrators/feature-summary/settings.md).
-
-<!-- The above link doesn't seem to have an Add classroom locations section. -->
+For more information, see [Add classroom locations](/help/migrated/administrators/feature-summary/settings.md#classroom-locations).
 
 ### Calendar widget
 
 As a learner, you can filter sessions that are assigned to you by location. Go to the calendar widget, select Filter Sessions, and select the location.
 
 ![No filters applied](assets/no-filters-applied.png)
-
 
 ![Sessions on calendar with no filters applied](assets/sessions-on-calendar-no-filters.png)
 
@@ -165,7 +162,7 @@ Authors can now select Managers and Store/Location Managers as the Reviewers for
 
 If a manager is added as a reviewer in the checklist module, they will be able to review the checklist in the Manager app. Instructors shall continue to review the checklist as expected.
 
-For more information, see [Observation checklist](/help/migrated/authors/feature-summary/courses.md).
+For more information, see [Observation checklist](/help/migrated/authors/feature-summary/courses.md#observation-checklist).
 
 ## Other enhancements
 
@@ -244,13 +241,13 @@ The User Audit Trail report will capture information about the learners that swi
 
 ![View User Audit Trail Report](assets/user-audit-trail.png)
 
-For more information, see [User Audit Trail Report](/help/migrated/administrators/feature-summary/reports.md).
+For more information, see [User Audit Trail Report](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports).
 
 ### Instructor utilization report
 
 This report captures the time (in minutes) spent daily by an instructor teaching assigned sessions. The report can be downloaded for a period of three months from the selected start date.
 
-For more information, see [Instructor Utilization Report](/help/migrated/administrators/feature-summary/reports.md).
+For more information, see [Instructor Utilization Report](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
 ![instructor utilization report](assets/instructor-utilization.png)
 
@@ -266,13 +263,19 @@ Administrators and Authors will be able to send targeted ad-hoc email communicat
 
 ![Send instance-level emails](assets/adhoc-email.png)
 
+*Send instance-level emails*
+
+On the Create Announcement dialog, the option Type as Email and Training, along with instance, are selected by default. Specify the subject, type the message, and click Save.
+
+For more information, see [Instance level emails](/help/migrated/administrators/feature-summary/courses.md#send-instance-level-emails).
+
 ### Targeted ad-hoc emails to learners via announcements by admin
 
 For Administrators, a new type of Announcement -"As Email" has been added. This can be used to send targeted ad-hoc emails to learners of a selected user group or to learners enrolled in specific training.
 
 Custom Admin and Authors can also view this option at the instance level if they have the necessary access.
 
-For more information, see [Announcements](/help/migrated/administrators/feature-summary/announcements.md).
+For more information, see [Announcements](/help/migrated/administrators/feature-summary/announcements.md#as-email).
 
 ### New email templates
 
@@ -626,10 +629,8 @@ For information regarding current and previous releases of Learning Manager web 
 
 ## Bug fixes
 
-To see the bugs that are fixed in this update, refer to the Bugs fixed list.
+To see the bugs that are fixed in this update, refer to the [Bugs fixed list](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## System Requirements
 
 [Learning Manager system requirements](/help/migrated/system-requirements.md)
-
-Learning Manager system requirements

@@ -71,6 +71,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Map skill with skill domains](administrators/feature-summary/curation-skills.md)
    * [Native extensibility](administrators/feature-summary/native-extensibility.md)
    * [Multiple enrollment](administrators/feature-summary/multiple-enrollment.md)
+   * [Non-logged in experience for learners](administrators/feature-summary/non-logged-in-experience-learners.md)
 * Integration Admin {#integration}
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager Connectors](integration-admin/feature-summary/connectors.md)

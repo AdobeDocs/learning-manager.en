@@ -61,11 +61,147 @@ To create a course, follow the steps below:
    * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager's approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
    * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
 
+1. Choose if you want to set a price for your course or make it free. If you want to make the course paid, choose the option **[!UICONTROL Paid]**, and specify a price. The price then appears on the Course card and the Coure overview page for a learner.
+
+   NOTE: This is only enabled when Adobe Commerce connector is configured.
+
 1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box **Learners can unenroll themselves**.
+1. **Instance Configuration**
+
+   If you enable this option, learners who are in the state, In Progress,  can visit other instances and enroll there. A learner can then retain the progress of the previous instance.
+
+   After publishing the course, if you come back to the Settings page, the option is no longer editable.
+
+   You can enable the option for the following course types:
+
+   * Self-paced
+   * Classroom
+   * Activity
+   * Blended
+
+   Note: While duplicating a course, if you had enabled the option Instance Configuration in the source course, the option remains disabled in the destination course.
+
+   **Instance Switch isn't supported for**:
+
+   * Paid courses
+   * Manager-nominated enrollment-type courses.
+
+   Instance switch configuration will not be propagated to peer accounts if shared through the catalog, the option remains disabled in the destination course.
+
+1. **Multiple enrollments**
+
+   Using this, you can enroll learners in more than one course instance at one or different periods.
+
+   Enable the toggle **Multiple Enrollment** to switch between various course enrollments of a learner. If you've enabled Instance Switch, you cannot use Multiple Enrollment.
+
 1. Select the pre-requisite courses that must be completed before taking up your course. Click the Courses field and choose from the list of courses.
 1. Enable the **Enable** **Prerequisites** check-box if you want the pre-requisite courses to me made mandatory.
 1. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
+1. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
+1. In the Auto Retire field, select a date when the course retires. The Administrator must enable the Auto Retire option first.
 1. To save the changes, click **Save**. To publish the course, click **Publish**.
+
+## Gamification points
+
+You can allocate gamification points at the course and course instance levels. With this, you can award points to different courses or instances. Learners are incentivized to take specific courses or prefer a particular course instance over others.
+
+1. At the course instance level, select **[!UICONTROL Gamification Points]**.
+
+![gamification points](assets/select-gamification-points-new.png)
+
+1. Select **[!UICONTROL Edit]**.
+1. If you select Use course level settings, the following options display: 
+
+   * **[!UICONTROL On completion]**: Select this toggle if you want the learner to get 100 points when they complete a course.
+   * **More rules**
+
+     * **[!UICONTROL Early completion]**: If you select this, the first 30 learners are awarded 100 points when they complete a course.
+     * **[!UICONTROL Timely completion]**: If you select this, learners are awarded 100 points if they complete a course within 999 days.
+
+1. If you select **[!UICONTROL Use custom settings]**, the following options display:
+
+   * **[!UICONTROL On completion]**: Select this toggle if you want the learner to get 100 points when they complete a course.
+   * **More rules**
+
+      * **[!UICONTROL Early completion]**: If you select this, you can determine how many learners will be awarded specified points.
+      * **[!UICONTROL Timely completion]**: If you select this, you can determine the number of points learners will be awarded if they complete a course within a specified time.
+
+   ![gamification points](assets/gamification-custom-settings.png)
+
+1. Select **[!UICONTROL Save]**.
+
+## Aggregate learning resources
+
+An author can decide if they want to aggregate the learning resources at the Learning Plan level or let them remain at an individual course level.
+
+As an author, select **[!UICONTROL Learning Path]** > **[!UICONTROL Settings]**. Click **[!UICONTROL Edit]**.
+
+In the **[!UICONTROL Resources]** section, the checkbox, Show constituent course resources aggregated at Learning Path level, when enabled displays whether resources present at course level would be shown on Learning Path level.
+
+>[!NOTE]
+>
+>On the Settings page of a Learning Path, an Admin can also enable this option, which displays resources present at the course level that would be shown on the Learning Path level.
+
+## Scheduling Assistant
+
+Manage conflicts in booking instructors and classrooms. If you want to know at what time and date any instructor is available before assigning him to the course, use the Scheduling Assistant.
+
+While creating a course, for a VC or CR course, click Scheduling Assistant.
+
+![Select Scheduling Assistant](assets/scheduling-assistant.png)
+
+The Scheduling Assistant window launches.
+
+![Scheduling Assistant screen](assets/scheduling-assistant-window.png)
+
+On the Scheduling Assistant, you can:
+
+* Search instructors by their names.
+* Search instructors by their skills.
+
+### Search instructors by their names
+
+On the Instructor field, type the name of the instructor or search for a partial instructor name. A list of instructors appear, from which you can choose an instructor.
+
+![Search instructors by name](assets/search-instructor.png)
+
+Multiple instructors can be selected but only one instructor can be assigned at a time. The selected time will be highlighted in the time conflict window. Near the instructor, a cross icon appears, which you click to remove the instructor.
+
+![Select multiple instructors](assets/busy-times.png)
+
+### Search instructors by skills
+
+Search for an instructor with single or multiple skills. The search uses the AND operator.
+
+Skills can be searched by partial or complete skill name only, not by skill level.
+
+On the Assistant, enter the name of the instructor, location, and seat limit.
+
+Also, you can search skill, which would be displayed after clicking on the filter icon present on the right side of Instructor search box. The screenshot below displays the button.
+
+![Enter skills for instructor](assets/scheduling-assistant-instructor-skill.png)
+
+### User group filter
+
+Select the filter in the Instructor field. There is a **[!UICONTROL User Group]** filter an Author or Custom Author can find the right instructor by using the values in the User Group.
+
+If both filters are applied, a list of instructors displays who belong to the user group and has the selected skills.
+
+This applies to Scheduling Assistant on the Courses or Instances page.
+
+![scheduling assistant](assets/scheduling-assistant-2.png)
+
+### Instance page
+
+You can also access the Scheduling Assistant from the Instance page, as shown below.
+
+The Scheduling Assistant is also available on the Instance page as well for admins, and custom admin/author. 
+
+![Scheduling Assistant from the Instance page](assets/instances-scheduling.png)
+
+### Search for a location
+
+You can search for a location by specifying both the classroom name and the location region name on both the module and the Scheduling Assistant pages.
 
 ## Rich Text Formatting
 
@@ -368,6 +504,44 @@ On this page, enter the following details:
    ![](assets/instructor-field.png)
 
 1. To republish the course with the updates, click **Republish.**
+
+## Observation checklist
+
+A Checklist module can now be reviewed by managers in addition to instructors. People managers, as well as non-hierarchical managers, such as store managers or location managers, can review and complete the checklist. 
+
+Course authors can add people managers as well as non-hierarchical managers (if applicable) as reviewers by selecting these role options in the "Reviewers" section while setting up a Checklist module. This can be done at a course instance level.
+
+![Checklist for managers](assets/manager-checklist.png)
+
+Selecting the "**[!UICONTROL +Managers]**" option will automatically enable a learner's manager in the organization hierarchy to review the checklist. You don't need to search and add manager names individually. 
+
+If your account administrator has set up non-hierarchical manager roles (such as location managers or site managers) by using the Active Fields option, those manager roles will be available for you to select and enable them to review the checklist.
+
+You don't need to search and add manager names individually. When learners enroll in the checklist course, it will automatically send a notification to their managers/store managers for review along with any selected Instructor. This workflow makes it simple for authors to not mention individual managers' names.
+
+In the sample screenshot provided above, selecting the "**[!UICONTROL +Store Managers]**" option will automatically enable the non-hierarchial manager aligned to the learner to review the checklist. Note that "store" here will be replaced by the active field defined by the administrator.
+
+Updates to the checklist module also include notifications to instructors and managers when a learner is enrolled in a course that has a checklist module in it. The reviewer gets a notification in the Learning Manager notification center as well as in the instructor/manager dashboard that checklist action is due.
+
+![View notification for enrollment](assets/checklist-notification.png)
+
+The reviewer will be able to view information about all pending checklist review items from the Checklists menu as well as the Notifications menu when they log in as an instructor/manager.
+
+![cert approvals](assets/pending-task-managers.png)
+
+After clicking Review Checklist, the reviewer can complete the evaluation.
+
+![Review pending checklist review items](assets/evaluation-checklist.png)
+
+*Review pending checklist review items*
+
+Reporting can be downloaded on checklists, which include detailed information on learner evaluation, reviewer name, role, and e-mail.
+
+The Checklist Report csv has the new and updated fields:
+
+* Reviewer Name instead of Instructor Name
+* Reviewer Email instead of Instructor Email
+* Reviewer Role- Possible values are Manager, Store/Location Manager, Instructor
 
 ## Preview a course {#previewacourse}
 

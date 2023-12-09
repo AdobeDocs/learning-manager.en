@@ -115,3 +115,20 @@ In Scheduled tab, you can view all the announcements that are scheduled for broa
 ### Sent {#sent}
 
 In Sent tab, you can view all the announcements that are broadcast already.
+
+## As Email
+
+Use this option to send targeted ad-hoc emails to learners of a selected user group or to learners enrolled in specific training.
+
+![Admin creates an email announcement](assets/email-announcement-admin.png)
+
+*Admin creates an email announcement*
+
+1. Select **[!UICONTROL Type as Email]**.
+1. Enter the email subject and the message body.
+1. In the Target section, you can either:
+
+   * Select a user group OR
+   * Select a course. If the course has multiple instances, you can select the required instance.
+
+1. Click **[!UICONTROL Save]**.
