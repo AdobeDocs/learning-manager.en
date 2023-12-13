@@ -202,6 +202,36 @@ Module propagation should work correctly from Seller to Purchaser account. This 
 
 Once you have uploaded the content, you can see a notification by clicking the Bell icon on top-right hand corner of the page. Each time you modify a content and re-upload it, you get a notification. If you make the changes, only you get the notification, not other authors.
 
+## Create a quiz
+
+Create assessments within Adobe Learning Manager with the new quiz creation tool on the Content Library page. The assessments created become part of the Content Library and can be added to a "public" folder for course reusability.
+
+1. Select Content Library in the left panel.
+1. In the upper-right corner of the screen, select **Add > Quiz**.
+1. In the Create Quiz page, type the quiz's name and description.
+1. In the Quiz Content section, select **Add quiz question**.
+1. In the Quiz question dialog, select the type of question. There are three types of questions:
+   * Multiple choice question
+   * True or false
+   * Fill in the blank
+1. Enter the question and select the correct answer.
+1. Set the points for the quiz.
+1. If you want the question to be answered correctly to pass the quiz, select the checkbox **Compulsorily to answer correctly to pass the quiz**.
+1. Select **Save and close**.
+1. Enter the points to pass the quiz in the **Passing criteria** field.
+1. If you want a learner to view a correct answer, enable the toggle **Show correct answers** to learners after the quiz.
+1. If you want the questions and answers to appear randomly, enable the toggles:
+   * Randomize question order
+   * Randomize answer option order
+1. Specify a folder to add the quiz to make the quiz available to all authors.
+1. In the **Duration** field, specify the time the learner must spend on the quiz.
+1. Specify a tag from the list of already created tags.
+1. Add a logo and background to the quiz.
+1. On the upper-right corner of the page, select **Publish**.
+
+The quiz is added to the Content Library. Like any content in the Content Library, you can retire a quiz and then delete it.
+
+
 ## Add to folder {#add-folder}
 
 After an Administrator creates the content folders, you, an author, can upload a content to a content folder, so that the content is only visible to you or a select group of authors in the account. You can also make the content public and make it visible to all authors in the account.
