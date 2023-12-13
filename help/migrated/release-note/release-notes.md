@@ -53,7 +53,7 @@ In this release of Adobe Learning Manager, we are introducing multi-enrollment f
 
 This release of Adobe Learning Manager will include a new connector, which will use AWS Transfer family's SFTP protocol. 
 
-For more information, see [What's new in the July 2023 release of Adobe Learning Manager](help/migrated/whats-new-2023-july.md).
+For more information, see [What's new in the July 2023 release of Adobe Learning Manager](/help/migrated/whats-new-2023-july.md).
 
 Update: 92
 
