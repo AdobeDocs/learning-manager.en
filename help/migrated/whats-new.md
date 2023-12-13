@@ -43,6 +43,12 @@ A Learner can use a custom-built app or an extension, which an Admin had created
 
 View [Native extensibility](/help/migrated/administrators/feature-summary/native-extensibility.md) to learn more.
 
+## Quiz creation tool
+
+You'll now be able to create assessments within Learning Manager with the new quiz creation tool on the Content Library page. The assessments created become part of the Content Library and can be added to a "public" folder for course reusability. 
+
+View [Create a course](/help/migrated/authors/feature-summary/courses.md) to learn more.
+
 ## Reporting changes in this release
 
 ### Changes in job aid enrollment report

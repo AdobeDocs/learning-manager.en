@@ -34,6 +34,6 @@ To see the details of the course, click **[!UICONTROL Visit]**. Use the checkbox
 
 Your email client opens by default in both instances. If you have selected specific courses using the checkboxes, their URLs are automatically added to the email body.
 
-If your email client does not open by default, you can email your interest to `primecontentadmin@adobe.com`.
+If your email client does not open by default, you can email your interest to `learningmanagercontentcontentadmin@adobe.com`.
 
 You have to be logged in to Learning Manager to access the content catalog.
