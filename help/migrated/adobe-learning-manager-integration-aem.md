@@ -53,6 +53,7 @@ Follow the steps below:
 Note the application credentials from the screen.
 
 ![](assets/application-credentials.png)
+*Application credentials*
 
 To approve the application, click **Approve**.
 
@@ -84,6 +85,7 @@ To approve the application, click **Approve**.
 1. Click Create > Configuration Folder. Name your folder.
 
    ![](assets/create-folder.png)
+   *Create configuration*
 
 1. In the learning project, select the configuration that you created.  
 
@@ -166,6 +168,7 @@ Apart from the templates that you can use that are provided by the reference sit
 1. Enter the page properties. 
 
    ![](assets/page-properties.png)
+   *Page properties*
 
 1. To create the page, click **Create**.  
 
