@@ -413,15 +413,15 @@ Before you start with the migration procedure, it is important to note the follo
 
 ### Creating FTP and Box accounts {#creatingftpandboxaccounts}
 
-Planning your migration project is very important. It is recommended that you break your projects into multiple sprints, and clearly identify what you would like to migrate in each sprint. It may even be a good idea to do some validation after each sprint to feel confident about the data migrated in that sprint, instead of one grand validation phase at the end of the project. Before you start the Sprint as part of your migration project, you need to upload data and content CSV files in FTP and Box servers respectively. If you do not have accounts for Exavault FTP and Box, you can create them. 
+Planning your migration project is very important. It is recommended that you break your projects into multiple sprints, and clearly identify what you would like to migrate in each sprint. It may even be a good idea to do some validation after each sprint to feel confident about the data migrated in that sprint, instead of one grand validation phase at the end of the project. Before you start the Sprint as part of your migration project, you need to upload data and content CSV files in FTP and Box servers respectively. If you do not have accounts for Custom FTP and Box, you can create them. 
 
 **Create FTP account**
 
-Click **Request for CSV FTP folder**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an Exavault FTP account. As soon as you create your account, you can view your migration project and sprint project folders in Exavault FTP. 
+Click **Request for CSV FTP folder**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-A sample snapshot of project files and folder of ExaVault is shown below for your reference. 
+A sample snapshot of project files and folder of FTP is shown below for your reference. 
 
-![](assets/exavault-migration-upload-folders.png)
+<!--![](assets/exavault-migration-upload-folders.png)-->
 
 **Create Box account**
 
@@ -433,9 +433,9 @@ You would receive an email from Box with a link to the shared folder. If you do 
 
 Creating an FTP or Box account is a pre-requisite before you create a migration project. So, at this stage you can create a Migration Project and Sprint in Learning Manager application.  Refer to **Data and content migration procedure** section in this page to create migration project. 
 
-In FTP or Box account, click your project folder name and click the Sprint name. Inside the sprint folder, you can upload the .csv data files you intend to migrate. To upload, click Upload Files button at the top in Exavault FTP or Box server and drop the .csv files. A sample snapshot after uploading into ExaVault, is shown below for your reference. 
+In FTP or Box account, click your project folder name and click the Sprint name. Inside the sprint folder, you can upload the .csv data files you intend to migrate. To upload, click Upload Files button at the top in FTP or Box server and drop the .csv files. A sample snapshot after uploading into FTP, is shown below for your reference. 
 
-![](assets/exavault-upload.png)
+<!--![](assets/exavault-upload.png)-->
 
 You can come back to Learning Manager migration project, click **Refresh **and view all the .csv data types being listed in your migration Sprint.
 
@@ -467,7 +467,7 @@ Go through the pre-requisites of migration process before you start with the mig
 
 1. Click **New** at the upper-right corner of the page to create a migration project. Alternatively, you can click **Create a migration project** link on the page to create a migration project. Create a migration project page appears. 
 
-   If you have not created an FTP folder already, you will be prompted to create an FTP folder Exavault account. This is mandatory step before you start creating a migration project. 
+   If you have not created an FTP folder already, you will be prompted to create an FTP folder in the account. This is mandatory step before you start creating a migration project. 
 
    ![](assets/create-project.png)
 
