@@ -24,7 +24,7 @@ contentowner: jayakarr
 
 ### What's new in this release
 
-View [What's new in Adobe Learning Manager](help/migrated/whats-new.md) for more information.
+View [What's new in Adobe Learning Manager](/help/migrated/whats-new.md) for more information.
 
 ## Update 94
 
