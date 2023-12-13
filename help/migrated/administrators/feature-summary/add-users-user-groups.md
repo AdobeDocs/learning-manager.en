@@ -381,7 +381,7 @@ Presently, all Active fields must be mapped to some field from the source CSV.
 
 It so happens that sometimes a user does not want to map an Active field to a field specified in the CSV. In such cases, the user can map the Active field to the value **DontImportFromSource**. Select this value from the drop-down list, when importing users from FTP and Box connectors.
 
-## Custom Roles {#customroles}
+## Custom Fields {#customroles}
 
 Add any field of your choice as part of your user information and click **Save**. After adding the fields, you can also cross check the availabilities of the fields in the **Edit users** dialog. 
 
