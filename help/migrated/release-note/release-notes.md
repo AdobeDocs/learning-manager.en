@@ -18,6 +18,413 @@ contentowner: jayakarr
  </tbody>
 </table>
 
+## Update 95: The November 2023 release of Adobe Learning Manager
+
+**Release date:** 18 November, 2023
+
+### What's new in this release
+
+View [What's new in Adobe Learning Manager](help/migrated/whats-new.md) for more information.
+
+## Update 94
+
+**Release date:** 23 August, 2023
+
+### What's new in this update
+
+* Select the player's gear icon to change the video's quality.
+* Change the quality and speed of a video on social.
+
+## Update 93: The July 2023 release of Adobe Learning Manager
+
+**Release date:** 10 Jul, 2023
+
+What's new in this release
+
+### IMPROVED RECOMMENDATIONS
+
+Adobe Learning Manager has introduced a new and revamped recommendation system for courses. This recommendations feature uses AI algorithms and users' interests like Products, Roles, and Levels to provide personalized content recommendations.
+
+### MULTI-ENROLLMENT
+
+In this release of Adobe Learning Manager, we are introducing multi-enrollment for learners that allow learners to enroll in more than one instance of a course at one or different time periods. 
+
+### DEPRECATION OF EXAVAULT CONNECTOR
+
+This release of Adobe Learning Manager will include a new connector, which will use AWS Transfer family's SFTP protocol. 
+
+For more information, see [What's new in the July 2023 release of Adobe Learning Manager](help/migrated/whats-new-2023-july.md).
+
+Update: 92
+
+**Release date:** 23 June, 2023
+
+**Bugs fixed in this update**
+
+* After completing a module, the Grade API isn't triggered automatically, which results in the green tick mark not being displayed as expected on the User Interface.
+* After completing a few modules in a Learning Path or a Certification, the green tick mark, which indicates successful completion, does not display as expected.
+* Adobe Learning Manager does not launch as expected after uploading a user CSV with incorrect fields.
+* The warning popup on how to contact Admin also displays other email addresses.
+* All badges earned by a learner don't display in the response.
+* During user registration, a user name with " " must be accepted.
+
+#### Player
+
+* Add a menu to select screen resolution when playing a video.
+
+## Update 91
+
+**Release date:** 01 June, 2023
+
+### Connectors
+
+* The Adobe Connect connector requires APIs to send CSRF tokens. For more information, see Enhance Adobe Connect account security.
+
+### String change
+
+* We have renamed the string Rate this training to Rate this Course, Rate this Learning Path, or Rate this Certification, based on the training a learner takes. Depending on the type of training, a learner sees the string accordingly.
+
+### Bugs fixed in this update
+
+* The Play Store's Adobe Learning Manager mobile app description incorrectly says that a learner can take a course offline.
+* There were issues when migrating content (module_version.csv and course_module.csv) from LinkedIn to Adobe Learning Manager.
+* If an account is in an inactive state and created more than three years ago, then all the users of the account are GDPR-deleted irrespective of the status of the users.
+* In the Instructor app, when you set the waitlist limit to zero in a session, and save the session, the User Interface incorrectly displays "Not applicable" instead of zero.
+* When generating Learner Transcripts for the Power BI connector, the Training or Module duration (mins) column displays null values for certain classroom or VC modules.
+* After you mark a course as complete for learners in an instance or multiple instances, all learners in the course get marked as complete, not just the learners in the current instance or instances.
+
+## Update 90
+
+**Release date:** 04 April, 2023
+
+### BUGS FIXED IN THIS UPDATE
+
+SAML login fails if the SSO login URL contains the entity_id.
+
+## Update 89: The March 2023 release of Adobe Learning Manager
+
+**Release date:** 01 April, 2023
+
+### What's new in this update
+
+**Enhancements to the Instructor Led Training (ILT) Experience**
+
+Several enhancements have been made to the Instructor-Led Training (ILT) experience. Key enhancements include—ability to filter classroom sessions based on location, ability to switch instances (VILT) without losing progress, a new "Scheduling Assistant" for managing conflicts in booking instructors and classrooms, ability to attach "Skills" to Instructors and choose Instructors based on skills.
+
+**Improvements to the Observation Checklist**: 
+
+Authors now can select "Manager" and "Store Manager" as the Observer for checklists. Managers can view and complete the checklists within the Manager interface without having to switch role to an instructor. Notification is sent to a manager when a checklist is assigned to him/her.
+
+**Use Any App/Smartphone Camera to Scan Learning Manager QR Codes** 
+
+Learners will now be able to use any QR Code scanning app or their smartphone camera to scan the Learning Manager generated QR codes for course enrolment, completion and more.
+
+**Reporting Enhancements**
+
+A new Instructor Utilization report, Trainings Revisit report, Job-Aids report, and other reporting enhancements.
+
+**Support for 'Hybrid' Sessions** 
+
+Adobe Learning Manager now supports the ability to create "hybrid" Instructor Led Training (ILT) sessions. Virtual ILT sessions can be created with optional location information so that learners can attend the session in-person as well if they are available at the location.
+
+**Better Progress Tracking for Classroom and Virtual ILT** 
+
+Classroom and virtual ILT modules now provide the ability to report a learner's quiz status (pass or fail) along with the attendance status. Hence, both attendance and quiz success can be considered to decide learner progress.
+
+**Adobe Learning Manager App for Microsoft Teams**
+
+The new Adobe Learning Manager app on Microsoft Teams is designed to foster learning in the flow of work and boost social learning. Learners will be able to access learning content within the Microsoft Teams platform without the need to switch over to a browser. Please contact your CSAM for the beta release of Adobe Learning Manager app on MS Teams.
+
+### Bugs fixed in this update
+
+**Course**
+
+* A Custom author cannot preview a module when the course is in "UNDER_CONSTRUCTION" state. The response shows Error 404.
+* The Course title on the course/add page of an author app overflows when course title cross certain character limit.
+
+**Author**
+
+* In the Author app, the title of the course (if its lengthy) exceeds the page boundaries while creating a course.
+* Sometimes, a course gets added, even though no author is selected.
+
+**Dashboard reports**
+
+* Tooltips display fine when the interface language is English, but throws a console error when the interface language is different.
+* Rename "Mandatory" to "Required" in Learner Dashboard.
+
+**Instructor app**
+
+* The time format in the instructor app is not consistent with the other apps.
+
+**Social**
+
+* For certain types of posts, after posting, the social board does not open as expected.
+
+**Admin**
+
+* A user with a custom role is unable to download resources when previewing a course.
+
+**Email templates**
+
+* When a learner unenrolls from a Learning Program that contains a Classroom/VC course, he/she does not receive any cancellation email.
+
+**Job Aids**
+
+* You are unable to see the name of the course on the Job Aid widget.
+
+**Publishing**
+
+* The module description added in Adobe Captivate is not visible in Learning Manager when the module is published in ALM.
+
+**Active fields**
+
+* When a CSV with a large number of records is under process, it takes a significant amount of time, during which, if a user logs in and enters a value for one of the attributes, it might create a new user group that might result in CSV errors. To fix that, when the CSV import is in progress, Active Fields attribute pop-up message is disabled and its re-enabled once the CSV upload is complete.
+* If the column in the Users csv file has the same name as the external users active field, the csv upload fails.
+
+**API-related fixes**
+
+* In the learningObjects reponse, the bookmark attribute is missing.
+* An access entry gets created while generating an oauth refresh tokens for deleted users.
+* The LO API returns incorrect loFormat, as pre-work modules were considered for calculating the course type along with the core content.
+
+**Known issues in this update**
+
+* The Share button on the Learner catalog does not work as expected on safari browser, Mobile & iPad MS Teams app.
+* Notifications do not display in the Activity tab once the app is removed in other machines.
+Nothing happens when you click the notifications in the Activity tab of the app on iPhone 14.
+* On MS Teams app, the Learning Manager notifications (completed, enrolled, deadline, and overdue) do not display the status and the name of the course in the Activity tab.
+* A pop-up with XML content displays when the Integration Admin does not approve the MS Teams app.
+* The User Interface language on the Adobe Learning Manager app on MS Teams don't sometimes change as expected when the language is changed.
+* You're unable to interact with the first notification when the focus is within the Iframe (Home & Catalog tabs).
+
+**Limitations of the Adobe Learning Manager mobile app**
+
+* Viewing of offline content.
+* Grid/List view on the Catalog/My Learning page.
+* Multiple attempts of taking a course.
+* Enrolment deadline on a course card.
+* On iOS devices, push notifications don't appear when the app is in the foreground.
+* Deep links in push notifications don't redirect to the intended landing page.
+* Clicking on the Register Interest button will redirect to the web.
+* While replying or commenting in Social Learning, you will not be able to attach a file.
+* You'll be unable to log in to LinkedIn Learning.
+
+## Update 88
+
+**Release date:** 7 March, 2023
+
+### PERFORMANCE IMPROVEMENTS IN THIS RELEASE
+
+When a bulk enrollment of learners is performed, there will not be any log file generated for each learner.
+We have optimized the processing of Learning Plans for large accounts. Doing so avoids any search issues or lags.
+
+## Update 87
+
+**Release date:** 1 March, 2023
+
+## BUGS FIXED IN THIS UPDATE
+
+* A learner does not receive the session cancellation email if the CR/VC module is removed from the enrolled course.
+* Change GetNotificationData from GET to POST. The original implementation produced the error, **IllegalArgumentException: Request header is too large**, that led to failed notifications.
+
+## Update: 86
+
+**Release date:** 17 February, 2023
+
+### BUG FIXED IN THIS RELEASE
+
+In the learner app, searching for users and user groups are failing due to some issues with locale settings.
+
+## Update 85
+
+**Release date:** 13 February, 2023
+
+### WHAT'S CHANGED IN THIS UPDATE
+
+Added support for four letter language code while filtering languages in GET learningmanagerapi/v2/learningObjects.
+
+### BUGS FIXED IN THIS UPDATE
+
+For some locales, the search returns incorrect results.
+The course metadata gets overwritten when the course has more than one variant of the same locale.
+
+## Update 84
+
+**Release date:** February 2, 2023
+
+### WHAT'S CHANGED IN THIS UPDATE
+
+**Job Aid report**
+
+This update features a new Job Aid report that lists all job aids in the account. 
+
+**Version control**
+
+We've added version control for resources when adding the resources while creating a course.
+
+**Report for attempts**
+
+You can view a report of all reattempts and revisits by a learner for every training.
+
+**Module reset API**
+
+An administrator can now reset a module by using the Module reset API. For more information, see [Adobe Learning Manager API reference](https://captivateprime.adobe.com/docs/primeapi/v2/).
+
+**Email template**
+
+For a few email templates, you can now add a pre-requisite to the template.
+
+**Other changes**
+
+* You can add a manager-approved course as a pre-requisite.
+* Performance improvement when refreshing the learning summary dashboard.
+* Email ids and Account ids are verified before sending a bounce report.
+
+### BUGS FIXED IN THIS UPDATE
+
+* Duplicate author names appear on the Course overview page.
+* A hyperlink on the account creation page led to Error 404.
+* The Czech locale did not reflect as expected in player settings.
+* In some cases, skills are displayed as undefined for in-progress and not started learners.
+* Time spent across multiple days shows different time spent in Learner Transcript and Enrollment reports.
+* The Back button is unresponsive for Administrator and Manager profiles in Course > L2 Quiz Score > By Question tab and Attendance & Scoring respectively.
+* For a few locales, in an email template, some content in the email body is missing, and the language translation in the template isn't consistent.
+
+## Update 83
+
+**Release date:** 18 January, 2023
+
+### WHAT'S CHANGED IN THIS UPDATE
+
+**New column**
+
+A new column, **unenrollmentAllowed**, is added to course.xlsx. Download the file from this manual.
+
+**Linkedin Learning connector**
+
+For Linked in learning connector, there is a new checkbox introduced Learner can Unenroll on the Filters page. For more information, see [LinkedIn Learning connector](/help/migrated/integration-admin/feature-summary/connectors.md).
+
+### BUGS FIXED IN THIS UPDATE
+
+* When hovering on the bar charts, the dashboard report tooltip appears as expected.
+* In Reports under User activity, the Learning Time Spent report displays incorrect data for daily/monthly data.
+* In some cases, the quiz score graph displays incorrect values.
+* In a course with SCORM content with multiple attempts set, when a learner attempts the course, the Revisit button is disabled.
+* In some cases, after enrolling a learner in a course and downloading an email audit log, the email is delivered, but it does not appear in the log.
+* The calendar invite for an instructor must include the text instructor in the subject.
+* The Training card icon does not reflect on related courses recommendation and Learning Path cards present on the course overview page.
+* On the Learner homepage settings, add a Saved by Me section.
+* For certain accounts, a user is prompted for SSO login for an account where Adobe id is required.
+* In timezones with Daylight Savings, the 'start_time' field is calculated based on the time difference currently, not based on the time difference in the actual start date and time. This caused invites with incorrect times.
+* Whenever a certification recurs, a copy of the underlying courses gets created internally in the database. These courses then appear in search, contrary to the expected behavior.
+* When uploading a CSV fails, you do not receive any email notification.
+* If the names of the Active fields are lengthy, the names disappear when dragged and dropped. Following that, the Save button also does not work as expected.
+* A session report does not get exported via a course's attendance and scoring page if the first user in the report has a record in the activity grade table with the comment as null.
+* When you use the admin account to retrieve the badges, you can get the list sorted as expected. But when you perform the same for a learner, the results are not sorted.
+* If you choose a course from your search results and then try to go back to the search results using the back button, the search results disappear.
+* Not all users are added to a user group as instructors in a session.
+* Templates that have multiple user templates inside, their subject is overridden with some values.
+
+## Update 82
+
+**Release date:** 15 December 2022
+
+* The GET LO API now includes pricing information, if available.
+* A new column, Completed by, is added to LT reports. This helps admin identify the completion source of an LO. 
+* We've added a new ILT module that can record learner pass / fail status along with attendance. Instructors can now mark a learner as attended with pass or attended with fail option.
+* An Admin can now require learners to complete and pass before consuming next module / course. This is applicable for pre-requisites, ordered courses & LPs. 
+
+**Bug fixes**
+
+* Bahasa language issues of immersive mobile experience on the sidebar and footer.
+* Immersive view fixes related to module previewing.
+* A course search in admin & author returns results in a different locale than the typed one.
+* Changes to welcome email templates were not saving after editing.
+* Users having different email IDs and adobe IDs were not able to log in to the mobile app. 
+* Users were incorrectly identified while joining Zoom / BJ VC sessions.
+
+## Update 81 - November 2022 release of Adobe Learning Manager
+
+**Release date:** 05 November 2022
+
+**Note:** With this release of Adobe Learning Manager, users with inactive accounts can no longer access their accounts using subdomains. The accounts can be accessed using the account id or by using the acapindex.html page and entering the email id.
+
+### What's new in this release
+
+The November 2022 release of Adobe Learning Manager consists of the following:
+
+* Multiple SSO Configuration
+* Non-logged-in feature support
+* Training Overview Page Enhancements
+* Player customization
+* Impersonation of Learner and Manager
+
+For more information, see [What's New in the Adobe Learning Manager November 2022 release](/help/migrated/whats-new-2022-november.md).
+
+**Note:** With the November 2022 release of Adobe Learning Manager, Zoom will deprecate [JWT authentication by June 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Accordingly, the Zoom connector with JWT will continue to work until mentioned date, but we recommend users to create Server-to-Server OAuth app to replace the functionality in their account. Any new connection will have Zoom OAuth authentication by default.
+
+### Bugs fixed in this update
+
+* As a learner, when you attempt to access a Learning Program with more than 10 courses on mobile, an error message appears.
+* If a course has set a reminder to be sent n days after missing the deadline, the email is being sent after n days as expected but the number of days the deadline is missed is n-1 instead of n.
+* A video does not load in the player if L1 feedback is enabled for the course in the learner app and the user has only a learner role.
+* A completion reminder email does not display the time in the user's timezone as expected.
+* Learner Transcripts which are generated via dashboard reports do not honor the filters and display more information than required.
+* You are unable to select content where the interface language is not added as the content language.
+* When self-registering for a course for a second time, the URL that appeared was incorrect.
+* When an instructor gets removed from a VC session, they do not receive any mail notifying them of the cancellation of the session.
+* The text "minute" on a tile on the learner training page does not get translated to Bahasa Indonesian as expected.
+* The Compliance dashboard displays incorrect data for non-compliant learners.
+* While adding a report, you are unable to select courses or catalogs where the interface language wasn't added the content language.
+* We've added the following content languages in this release:
+   * Bulgarian
+   * Flemish
+   * Portuguese (Brazil)
+
+### Known issues in this update
+
+* In some cases, the quiz score graph does not display as expected. When you resize the graph, a blank space appears at the beginning. In addition, not all questions appear, and incorrect data display intermittently.
+
+## Update 80
+
+**Release date:** 20 September 2022
+
+* Login issues on the mobile app on iOS now have been fixed.
+* Fixed an issue with bounced emails.
+* Instructors were incorrectly notified even before submissions were made by learners.
+* An instructor gets an email notification even though a learner has not submitted an activity.
+* After creating a VC session on MS Teams or Adobe Connect, instructors don't receive the session invites.
+* Incorrect status in a Learning Path.
+* Enhanced the performance of the app.
+
+## Update 79
+
+**Release date:** 18 August, 2022
+
+* Calendar invite confirmation for ILT / VILT sessions now works with Google calendar.
+* A store manager now can see notifications for users under them even if they are removed as a people manager.
+* In some cases, course enrollment fails, and displays Error 500.
+* In some cases, you're unable to modify a virtual course instance for Teams.
+* Admins and instructors can add comments for users who have not attended ILT / VILT sessions.
+* Improvements in performance when downloading large-sized reports.
+* When a user's email gets bounced, the Admin receives an email notification. The email contains a link, which when clicked, downloads a CSV with the list of users whose email got bounced. The Admin then can take necessary action.
+   * The email triggers when an email bounces or drops.
+   * The email triggers once a day to all the admins who are added to the list.
+   * The link expires in seven days.
+* An error message displays while trying to integrate an already integrated Adobe Connect account with another Learning Manager account
+
+## Update 78
+
+**Release date:** 4 August, 2022
+
+### Bugs fixed in this update
+
+* If you've a course that contains a module with a preview and then use an API to retrieve the resources from the course,  then the response will not contain any data from location, contentZipUrl, and contentStructureInfoUrl.
+* Incorrect response after sending a XAPI request from Swagger document, where the domain name is learningmanager. 
+* In the /boards/{id}/posts API response, the "post.attributes.myPoll" property appears as an empty object.
+* In some cases, for a non-logged-in user, the Add to cart button is disabled for some courses or Learning Paths.
+* Incorrect sub-domain url on the branding page.
+
 ## Update 77
 
 **Release Date:** 24 May, 2022
@@ -47,7 +454,7 @@ To complete this action, work with your IT department of your organization. For 
 
 ## Update 76
 
-Release date: April 20, 2022
+**Release date:** April 20, 2022
 
 * Fixes to product terminologies on a few dashboard reports.
 * A double slash ("//") in the URL of an endpoint resulted in validation errors.
@@ -58,14 +465,14 @@ Release date: April 20, 2022
 
 ## Update 75
 
-Release date: March 29, 2022
+**Release date:** March 29, 2022
 
 * In some accounts, after copying the raw csv in the FTP location, the user import does not take place as expected, and there are multiple notifications of errors.
 * In previous releases of Learning Manager, to configure a Zoom connector, you had to configure Exavault FTP first for copying the csv file. In this release, the FTP connector will no longer be used for the csv file, and hence, you need not configure the FTP first.
 
 ## Update 74: Learning Manager AWS India instance
 
-Release date: 15 February, 2022
+**Release date:** 15 February, 2022
 
 ### Overview
 
