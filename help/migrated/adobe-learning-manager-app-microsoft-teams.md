@@ -30,18 +30,22 @@ Follow the steps below:
 1. On the Integration Administrator app, select **[!UICONTROL Applications] > **[!UICONTROL Featured Apps]**, and select **[!UICONTROL ALM Teams app]**. 
 
    ![](assets/featuredapps.jpg)
+   *Select ALM Teams app*
 
 1. On the upper-right corner of the screen, select **[!UICONTROL Approve]**. 
 
    ![](assets/integration_admin_approval_form.jpg)
+   *Select Approve on the app settings page*
 
 1. Select **[!UICONTROL OK]**on the dialog box that appears. 
 
    ![](assets/integration_admin_approved_dialog_box.jpg)
+   *Select OK after approval*
 
 1. Once approved, you will be able to see 'ALM Teams App' in the External Apps section. 
 
    ![](assets/integration_admin_external_apps.jpg)
+   *ALM Teams app appears on the Apps page*
 
 Now, users can access the ALM app on MS Teams. 
 
@@ -52,6 +56,7 @@ Follow the steps below:
 1. As an Azure Admin, navigate to the Manage Azure Active Directory section in the Azure dashboard. 
 
    ![](assets/microsoft_azure.jpg)
+   *Launch Azure dashboard*
 
 1. Paste the following link in a separate browser window:  
 
@@ -62,10 +67,12 @@ Follow the steps below:
 1. Add Adobe Learning Manager app to your Azure applications. 
 
    ![](assets/microsoft_azure_dashboard.jpg)
+   *Add to Azure*
 
 1. Select the Enterprise Applications tab and select All Applications. You will see ALMTeamsApp listed there. 
 
    ![](assets/microsoft_azure_enterprise_applications.jpg)
+   *View the ALM app*
 
 1. Click the app and navigate to the Permissions tab. 
 
@@ -74,14 +81,17 @@ Follow the steps below:
 1. In the Permissions tab, select ' **[!UICONTROL Grant admin consent for MSFT]**' to give ALM teams app permissions. 
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permissions.jpg)
+   *Select Permissions*
 
 1. Select **[!UICONTROL Accept]**.
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request.jpg)
+   *Select Accept*
 
 1. Once granted, these permissions will give the ALM app to allow silent logins and send notifications to the learners in the MS Teams app. 
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request_granted.jpg)
+   *Access is granted*
 
 ## MS Teams admin creates a policy for Teams app
 
@@ -90,14 +100,17 @@ Follow the steps below:
 1. As an MS Teams admin, in the Admin Center, create a policy for adding the Teams app to your learners' Teams app. 
 
    ![](assets/microsoft_teams_admin_center.png)
+   *Create a policy*
 
 1. Navigate to the section, Setup Policies. Create a Global policy and select **[!UICONTROL Add apps]** in Pinned Apps sub-section. 
 
    ![](assets/microsoft_teams_admin_center_add_installed_apps.png)
+   *Add the policy*
 
 1. In the dialog that follows, search for **[!UICONTROL Adobe Learning Manager]**, and add the app. This adds Adobe Learning Manager in the Installed Apps section. 
 
    ![](assets/microsoft_teams_admin_center_installed_apps.png)
+   *Install the app*
 
 1. Save this policy. This makes the app available to everyone in the organization. 
 
