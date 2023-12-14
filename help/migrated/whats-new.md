@@ -158,6 +158,7 @@ Admins can search only managers in Dashboard reports.
 When an Administrator attempts to plot a dashboard report, and the report takes too long to plot (more than 2.5 min), Adobe Learning Manager displays the following message:
 
 ![legacy report image](assets/error-message.png)
+*Error message when report takes too long*
 
 Reports of such magnitude cannot be displayed on the User Interface, but the Administrator can download them.
 
