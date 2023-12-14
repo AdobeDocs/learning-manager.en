@@ -36,10 +36,12 @@ To add users,
 1. To add a single user, click **Add** on the upper-right corner and choose the option **Single User**.
 
    ![](assets/single-user.png)
+   *Add a single internal user*
 
 1. On the **Add User** dialog, enter the details of the learner. For the field **Manager's Name**, pick the name of an existing user in the system.
 
    ![](assets/manager.png)
+   *Add user dialog box*
 
 1. To add the new user in Learning Manager, click **Add**. After the user is added, the user receives a verification mail. The Learner then activates the account and starts using Learning Manager. This workflow is helpful if you need to add limited number of learners to your Learning Manager Account. But if you're planning to enroll all the employees of a large organization, you can add them in a singe attempt. For more information, see the next section.
 
@@ -50,10 +52,12 @@ Typically, most organizations work with an HR Management System (HRMS), which ma
 1. Click **Add** on the upper-right corner, and choose the option **Upload a CSV**.
 
    ![](assets/upload-a-csv.png)
+   *Upload a CSV to add users in bulk*
 
 1. The CSV that you upload consists of the fields, as shown below:
 
    ![](assets/csv.png)
+   *Structure of the CSV*
 
    You must maintain a master CSV and perform perform all additions and deletions on the master CSV. The master CSV contains the following fields:
 
@@ -67,20 +71,26 @@ Typically, most organizations work with an HR Management System (HRMS), which ma
 1. After you click the option **Upload a CSV**, the following dialog displays.
 
    ![](assets/upload-a-csv-dialog.png)
+   *Upload a CSV dialog*
 
 1. Choose the CSV or drag-and-drop the file. After you've chosen the file, map the data fields with the ones in the CSV file. Click the required drop-down and choose the right field.
 
    ![](assets/map-data-fields.png)
+   *Map fields in CSV*
 
 1. To start importing the users, click **Save**. You can see a confirmation message.
 
    ![](assets/save-csv.png)
+   *Confirmation message for successful upload of the CSV*
 
 1. The new users are now added to your Adobe Learning Manager account. To select the new users, select the check-box next to the names so that everybody is selected. 
 
    ![](assets/select-new-users.png)
+   *New users added*
 
-For more information, see the FAQ, [Add users in bulk](../add-users-in-bulk.md).
+>[!NOTE]
+>
+>For more information, see the FAQ, [Add users in bulk](../add-users-in-bulk.md).
 
 After you have selected the users, you can perform the following:
 
@@ -95,24 +105,29 @@ The selected users receive a Welcome email. If the learners have an existing Ado
 After adding learners to the Adobe Learning Manager account, if you want to change their roles, click Actions on the upper-right corner of the page. Choose the option **Assign Role**. Here you can decide whether you want to give Author access or Admin access to the learner. After you have assigned a role, this learner has Author access to the account and can add modules and create courses. 
 
 ![](assets/assign-a-role.png)
+*Assign a role to a user*
 
 ## Remove a role {#removearole}
 
 You can also remove Author or Admin access for the users. Select one or more learners, click **Actions**, and select **Remove Role**. Choose an option, for example, **Remove Author**, and the author access gets revoked for this learner. 
 
-You cannot manually assign a Manager role to someone in the system. They automatically get access to the Manager dashboard when one or more employees are added under them.
+>[!NOTE]
+>
+>You cannot manually assign a Manager role to someone in the system. They automatically get access to the Manager dashboard when one or more employees are added under them.
 
 ## Delete a user {#deleteauser}
 
 To delete a user, click **Actions**, and choose **Delete User**. On the confirmation dialog, click **Yes**, and the learner gets deleted.
 
 ![](assets/delete-a-role.png)
+*Confirmation message to delete a user*
 
 ## Edit a user {#editauser}
 
 On the list of users, choose a user, and click the user. On the user details, click the **Edit** ( ![](assets/edit-pen.png)) button. On the **Edit User** dialog, make the necessary edits and to save the changes, click **Save**.
 
 ![](assets/edit-user.png)
+*Edit User dialog*
 
 ## Workflows for active fields and active field values preserving case sensitivity
 
@@ -135,10 +150,12 @@ You can also enable employees in your organization to register themselves as Lea
 On the upper-right corner of the page, click **Add**, and choose **Self-Registration**.
 
 ![](assets/self-registration.png)
+*Create link to self-register as learner*
 
 The **Add Self-Registration Profile** dialog appears. Give this profile a name. Then add the manager's name. It's important to know that the manager must already be registered learner in Learning Manager.
 
 ![](assets/add-self-registrationprofile.png)
+*Add profile for self-registration*
 
 After you click **Save**, a URL gets generated, which you can share with the learners, so that they can click the URL and self-register themselves.
 
@@ -182,6 +199,7 @@ To enroll external users, follow the steps below:
 1. In the left navigation pane, click **External**.
 
    ![](assets/click-external.png)
+   *Enroll external users*
 
 1. On the upper-right corner of the page, click **Add**.
 1. On the **Add External Registration Profile** dialog, add the following details:
@@ -210,6 +228,7 @@ To enroll external users, follow the steps below:
 After an external profile has been created, you must enable its status. From the list of external profiles, choose the required profile, and toggle the status button.
 
 ![](assets/choose-required-profiles.png)
+*Enable an external profile*
 
 This enables the External Enrollment link. A welcome email is automatically be sent to the partner. You can also copy the link and share with them by clicking the Copy URL icon (), or you can resend the welcome email to the partner organization by clicking the Mail icon ().
 
@@ -236,6 +255,7 @@ The following states are applicable for external users:
 On the list of external profiles, click **Seats Used**. You can view the number of learners in the partner organization who have been added.
 
 ![](assets/seats-used.png)
+*Check used seats*
 
 ## Delete a user {#Deleteauser-1}
 
@@ -260,12 +280,14 @@ A User Group is a set of users who are related to a category. User Groups help a
 To access User Groups, on the left navigation pane, click **User Groups**.
 
 ![](assets/user-groups.png)
+*Create user groups*
 
 There are two types of groups in Adobe Learning Manager, Custom and Auto-generated. When you add learners to your account, some groups are automatically created based on their common properties.
 
 To see the automatically created groups, click the tab **Auto-generated**.
 
 ![](assets/auto-generated.png)
+*View Auto-generated groups*
 
 You can see that there are different groups, like All Internal Users, All Managers, groups based on the Cost Center, based on the department, and based on the teams of the managers.
 
@@ -283,6 +305,7 @@ This Custom Group is now created and added to the profile. The User Groups that 
 At times you would want to exclude a small set of users from a large user group. This is required to enroll this specific set of users into training via Learning Plans or to setup the correct visibility of catalogs. In this release of Learning Manager, you can exclude learners or User Groups when you create a custom user group. In the Add User Group dialog, the Exclude Learners section enables you to achieve so.
 
 ![](assets/exclude-user-groups.png)
+*Exclude user groups*
 
 For example, if you want to set up a Learning Plan so that all users belonging to location = California except Store-5 (located in California) get enrolled. 
 
@@ -307,6 +330,7 @@ This feature enables administrators to add more active fields in addition to wha
 Click **Active Fields** available inside users page. Learners can only choose from the values given in custom values.
 
 ![](assets/active-fields.png)
+*Active fields*
 
 ### Configure Fields {#configurefields}
 
@@ -319,10 +343,12 @@ To add  custom values, follow these steps:
 1. Click  **[!UICONTROL Modify Values]** for an Internal user. 
 
    ![](assets/modify-values.png)
+   *Modify values for internal users*
 
 1. The **Values in Custom field** dialog box appears.
 
    ![](assets/values-in-customfields.png)
+   *Values in Custom Fields dialog box*
 
 1. Select the value to add from the **[!UICONTROL Select Field]** drop-down menu.
 1. Enter new values in the **[!UICONTROL New Value]** field.
@@ -334,6 +360,7 @@ To add  custom values, follow these steps:
 Add custom values similar to that for internal users.
 
 ![](assets/modify-values-forexternalusers.png)
+*Modify values for external users*
 
 ### Settings {#settings}
 
@@ -342,6 +369,7 @@ Add custom values similar to that for internal users.
 If the option **Show only unfilled fields on Learner login** is enabled, a user only sees the blank fields upon login.
 
 ![](assets/settings-tab.png)
+*Show unfilled fields*
 
 Using this option, an Administrator can decide whether he/she wants to show the fields or hide them once these have been populated.
 
@@ -350,10 +378,12 @@ Using this option, an Administrator can decide whether he/she wants to show the 
 Learning Manager 27.7 introduces two new options- **Reportable** and **Exportable**, for Active Fields.
 
 ![](assets/options-in-activefields.png)
+*Options in Active Fields*
 
 For CSV fields and manually added fields, if an Active Field is marked as **Reportable**, the Active Field becomes searchable in a filter inside a dashboard report.
 
 ![](assets/filters-in-a-dashboardreport.png)
+*Filters in a dashboard report*
 
 If an Active Field is marked as **Exportable**, then the Active Field appears in the Excel file upon downloading any Excel report.
 
@@ -370,8 +400,9 @@ Note that the existing default behavior does not change. This is an optional cap
 Enable the options below:
 
 ![](assets/user-display.png)
+*User Display section*
 
-## Support for manual csv fields by FTP and Box connectors {#import-connector}
+## Support for manual CSV fields by FTP and Box connectors {#import-connector}
 
 Often, users want Active fields to be manually provided when a learner logs in to Learning Manager. This is possible in Learning Manager at present, when the user imports a CSV manually.
 
@@ -381,7 +412,7 @@ Presently, all Active fields must be mapped to some field from the source CSV.
 
 It so happens that sometimes a user does not want to map an Active field to a field specified in the CSV. In such cases, the user can map the Active field to the value **DontImportFromSource**. Select this value from the drop-down list, when importing users from FTP and Box connectors.
 
-## Custom Fields {#customroles}
+## Custom Roles {#customroles}
 
 Add any field of your choice as part of your user information and click **Save**. After adding the fields, you can also cross check the availabilities of the fields in the **Edit users** dialog. 
 
@@ -396,7 +427,9 @@ The values for active fields are fetched in the following ways:
 1. Learners fill up metadata when they log in
 1. Administrator enters data for the users. 
 
-Learning Manager application creates user groups automatically, from these metadata. 
+>[!NOTE]
+>
+>Learning Manager application creates user groups automatically, from these metadata. 
 
 **Add custom value**
 
@@ -411,10 +444,71 @@ Custom fields can be added and deleted, they are applicable to all users. CSV fi
 Users can only choose from predefined fields for CSV fields if the **[!UICONTROL Restrict Selection]** check-box is enabled.
 
 ![](assets/value-field-for-csv.png)
+*Restrict selection check-box*
 
 ## Import Logs {#importlogs}
 
 In this space, you can view the CSV import history for the users the administrator has added using bulk import feature. You can also click **Add** at the upper-right corner of the page to add users using CSV upload feature. 
+
+## Multi-valued Active Fields
+
+With this feature, you can have more than one field for an active field. In an account, there can be at most three multi-valued active fields. The multi-valued active fields are available for both external and internal users.
+
+Once you mark an active field as multi-valued, you cannot convert it back to single valued. This is irreversible.
+
+An existing single valued field cannot be marked as multi-valued field.
+
+To create a multi-valued active field, follow the steps below:
+
+1. Add an active field.
+
+   ![Add an active field](assets/add-active-field.png)
+   *Add an active field*
+
+1. Click Add.
+1. In the Settings tab, mark the new field as multi-valued.
+
+   ![Mark as multi-valued](assets/mark-multi-valued.png)
+   *Mark as multi-valued*
+
+   There is another checkbox, **Learner Configurable**, which when disabled, the learner will not be able to see the field on the Profile page.
+
+1. Add the values using a CSV or by clicking Modify Values.
+
+   ![Add values](assets/add-values.png)
+   *Add values*
+
+1. Click Done.
+
+>[!NOTE]
+>
+>Once is the user group is created and the field is populated, multi values cannot be converted to single values, and vice versa.
+
+### Add multi-valued active field via CSV
+
+Follow the steps below:
+
+1. Create a CSV with the new active fields as columns (comma-separated or single values).
+1. Import the CSV.
+1. Mark the fields as multi-valued in the Values in Custom Fields dialog.
+1. Import the CSV again.
+
+The CSV must have a column with the same name as that of an active field that was marked as multi-valued.
+
+The CSV contains the fields:
+
+* **User**: User groups created as roles.
+* **Roles**: Multi-valued active field with values.
+
+If the CSV is re-uploaded with new values or deleted values, the active fields and groups also get updated accordingly.
+
+### Reports
+
+All reports include the multi-valued active fields and their values.
+
+The Administrator can add auto-generated active fields, and configure user activity and training reports.
+
+The Learner Transcript report contains all the active fields and comma-separated values. The Administrator can then filter the data accordingly.
 
 ## Frequently Asked Questions {#faq}
 

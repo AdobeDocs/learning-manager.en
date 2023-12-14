@@ -7,7 +7,9 @@ title: Migration manual
 
 # Migration manual
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+>[!CAUTION]
+>
+>Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
 

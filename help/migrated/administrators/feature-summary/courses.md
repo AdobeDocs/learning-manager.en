@@ -8,7 +8,9 @@ contentowner: manochan
 
 # Create course modules, instances, and learning programs
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+>[!CAUTION]
+>
+>Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 This document consists of Help to create course modules, instances and courses for Administrator role.
 

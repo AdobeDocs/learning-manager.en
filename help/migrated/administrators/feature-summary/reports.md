@@ -8,7 +8,9 @@ contentowner: manochan
 
 # Reports
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+>[!CAUTION]
+>
+>Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Learn about the Reports associated with Administrator role in Learning Manager application.
 
@@ -29,6 +31,7 @@ See a summary report of all the learning activities in the platform. On this pag
 * Compliance summary 
 
 ![](assets/summary-charts.png)
+*Summary charts*
 
 If there are internal root level managers, they will be displayed one after another. 
 
@@ -41,16 +44,19 @@ If not, then all individual user details will be displayed in the list.
 To see more granular details of enrollments of various internal teams, click **Learning Summary Details**.
 
 ![](assets/learning-sunnarydetails.png)
+*Learning Summary details*
 
 When you click any enrollment, you can see the learners for each manager, and enrollment to which Learning Objects. You can also see the progression and completion details of each learner. 
 
 ![](assets/learners-for-a-manager.png)
+*Learners for a manager*
 
 Click any team and export its report as a csv. An Admin can export the report for any of the User Group or individual user by selecting the User Group or individual user, and then export details from the Action drop-down list.
 
 Also, you can see a bar chart view of skills that are in progress and have been achieved. You can add/remove skills that you want to feature in the graph.
 
 ![](assets/skill-status-stackedbarchart.png)
+*Skill status stacked bar chart*
 
 In the final visualization, you can check the compliance status of learners, and take appropriate action.
 
@@ -61,6 +67,7 @@ For instance, the Administrator has identified three trainings to track complian
 Now an Admin can click on any training and quickly view the compliance for the selected training.
 
 ![](assets/compliance-dashboard.png)
+*Compliance dashboard*
 
 You can also see the compliance status for each internal team.
 
@@ -69,6 +76,7 @@ Click the link **Compliance Status Details** on the bottom of the visualization.
 You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
 
 ![](assets/compliance-statusofateam.png)
+*Compliance status of a team*
 
 ## Share training with managers
 
@@ -80,17 +88,19 @@ An Administrator can share a set of training courses with managers individually 
 
 The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
 
-### Share  training
+### Share training
 
-1. In **Reports > Learning Summary**, scroll down, and click the tab **Share with Managers**. 
+1. In **Reports** > **Learning Summary**, scroll down, and click the tab **Share with Managers**. 
 
    ![](assets/share-with-managers.png)
+   *Share training with managers*
 
 1. To add training or multiple training, click **Share more**.   
 
 1. In the **Share with Managers** dialog, choose the training(s) and the manager(s).
 
    ![](assets/select-training.png)
+   *Select training to share with managers*
 
 1. Click **Share**.
 
@@ -127,6 +137,7 @@ This report provides information of the number of users registered in your accou
 For accounts with Monthly Active Units licensing, the report shows the MAU units instead.
 
 ![](assets/registered-usersreport.png)
+*Registered Users report*
 
 ***For Monthly Access Unit accounts:***
 
@@ -145,6 +156,7 @@ Only those usergroups configured by the Administrator are recorded. This allows 
 This report contains users accessing the platform using all formats like web, mobile app, headless custom solutions, and so on. The device app usage graph specifically mentions only the users accessing the platform using Learning Manager's device app. This helps Administrators identify the usage of mobile app in their account. 
 
 ![](assets/user-visit-report.png)
+*User Visit report*
 
 ## Learning Time Spent Report {#learningtimespentreport}
 
@@ -157,7 +169,7 @@ The time spent for different Learning Objects, such as, Learning Programs and Ce
 * Weekend sessions with the weekend flag enabled. 
 * VC connect session where attendance is auto marked.
 * The time spent for different Learning Objects, such as, Learning Programs and Certifications
-*  xAPI statements for an xAPI activity course.
+* xAPI statements for an xAPI activity course.
 
 You can further export the graph as an Excel spreadsheet.
 
@@ -165,7 +177,9 @@ A filter to choose User group configuration is provided which will help in viewi
 
 The selected date and user group filter is applied to all the relevant graphs in the dashboard. 
 
-For **User Visits** and **Learning Time Spent** reports, the default data (when no user group is configured) shown will be for the entire account.
+>[!NOTE]
+>
+>For **User Visits** and **Learning Time Spent** reports, the default data (when no user group is configured) shown will be for the entire account.
 
 ## Training Content dashboard {#trainingcontentdashboard}
 
@@ -176,6 +190,7 @@ The Training content dashboard offers insights into trainings available on the p
 This report provides information of the total trainings available in the platform (in published state) month over month. It gives an indication of the number of trainings offered over time. 
 
 ![](assets/training-report.png)
+*Training report*
 
 ## Active Trainings Report {#activetrainingsreport}
 
@@ -184,8 +199,11 @@ This report provides information of the trainings which are active over the sele
 For active trainings, data of all root user (with manager role) internal groups will be available for selection when no user group configuration is done. Apart from the root user user groups, you can configure 10 more user groups if needed.
 
 ![](assets/active-trainingsreport.png)
+*Active trainings report*
 
-The data does not display as expected when **All Users** and **12 months** filters are selected, but the data displays when you select **All internal user group.**
+>[!NOTE]
+>
+>The data does not display as expected when **All Users** and **12 months** filters are selected, but the data displays when you select **All internal user group.**
 
 <table>
  <tbody>
@@ -240,9 +258,13 @@ The training report has two additional columns:
 1. Embedded Path ID 
 1. Embedded Course ID
 
-Start ratio, Completion ratio, Learner Feedback, and Manager Feedback are not affected by the filters applied. The filters affect only enrollment, views, and completions.
+>[!NOTE]
+>
+>Start ratio, Completion ratio, Learner Feedback, and Manager Feedback are not affected by the filters applied. The filters affect only enrollment, views, and completions.
 
-For both the reports (Training Content, User Activity), you can configure a maximum 10 user groups. It may take upto 24 hours for the processing to complete and make the newly configured filters available.
+>[!NOTE]
+>
+>For both the reports (Training Content, User Activity), you can configure a maximum 10 user groups. It may take upto 24 hours for the processing to complete and make the newly configured filters available.
 
 ## Dashboard Reports {#dashboardreports}
 
@@ -261,6 +283,7 @@ To view all the boards that you created, click this board tab. From the **[!UICO
 1. To start creating your own boards, click Add Dashboard on the right side of the page.
 
    ![](assets/add-dashboards.png)
+   *Add dashboards*
 
 1. Provide the name and description of the dashboard.
 1. If you want to share the dashboard with any Manager, choose them in **Share With** field. You can use any normal selection criteria for this operation.
@@ -270,7 +293,9 @@ You can view the recently created board in the **[!UICONTROL Dashboard Reports]*
 
 To add reports to your board, click the drop-down at the upper right corner of your board window and click **Add Report**. The report you create in this way is associated with your dashboard.
 
-The reports that you create by clicking Add on the upper right corner of Reports page, are added to your default dashboard.
+>[!NOTE]
+>
+>The reports that you create by clicking Add on the upper right corner of Reports page, are added to your default dashboard.
 
 ## Shared dashboards {#shareddashboards}
 
@@ -281,7 +306,9 @@ You can share the board by following two ways:
 * By entering users in **Share With** field with whom dashboard is shared.
 * Choose Edit Board in the drop-down list and enter user details for sharing the dashboard.
 
-A manager can only view the reports of their team members from a shared dashboard.
+>[!NOTE]
+>
+>A manager can only view the reports of their team members from a shared dashboard.
 
 ## Downloads {#downloads}
 
@@ -291,12 +318,15 @@ The exported sheet of dashboard reports provides detailed information instead of
 
 1. Click Reports on the left pane. Report summary page appears.
 
-   By default, at least three sample reports appear in the sample board tab. You can only view the sample reports to get an idea as to how you could create and customize them. 
+   >[!NOTE]
+   >
+   >By default, at least three sample reports appear in the sample board tab. You can only view the sample reports to get an idea as to how you could create and customize them. 
 
 1. On the top-right corner of the page, click **Add**.
 1. In the **Add Report** dialog box, in the Type drop-down list, you can choose either one of the pre-defined reports or you can select **Custom**. If you select a pre-defined report, you can see that the form is pre-populated. You can further make changes to some of the fields and click **Save**. This adds the report to your default dashboard.
 
    ![](assets/create-report.png)
+   *Create report*
 
    In **Report Type**, you can choose a pre-defined set of reports or choose custom values. You can view the following reports as part of a pre-defined set of reports:
 
@@ -311,6 +341,7 @@ The exported sheet of dashboard reports provides detailed information instead of
 1. Choose the **Y-axis** for your report from the drop-down options. For some of the selected criteria, you can choose one or multiple states from the States options. For example, for a course enrollment statistics primary criterion, the states can be completed, incomplete, and enrolled. Primary range data is represented in the form of bar graphs in the report.
 
    ![](assets/axes-for-reports.png)
+   *Axes for reports*
 
 1. Choose the secondary **Y-axis** criteria/range for your report from the drop-down options. For example, for a learning program enrollment option, choose one or multiple states from the States drop-down. Secondary range data is represented in the form of line graphs.
 1. Choose the appropriate X**-axis** criteria for your report from the drop-down options. If x-axis is chosen as date, then an option to group your x-axis criterion by day, month, quarter, and the year is available.
@@ -337,10 +368,12 @@ The exported sheet of dashboard reports provides detailed information instead of
    Expand this section and choose the required filters.
 
    ![](assets/choose-filters.png)
+   *Choose filters*
 
 1. Click **Save** to complete creating a report. 
 
    ![](assets/sample-report.png)
+   *Sample report*
 
 ## Edit a report {#editareport}
 
@@ -409,6 +442,7 @@ Track how user groups such as departments, external partners, and roles are perf
 To generate reports based on user groups, choose **User Group **in the x-axis from the list of drop-down options as shown in the screenshot below. 
 
 ![](assets/user-group-reports.png)
+*User group reports*
 
 To choose a user group, type the name of the group. You can see the suggested groups that are displayed according to the string you enter. Once you see a list of groups, choose the required user group.
 
@@ -444,15 +478,20 @@ On the Reports page, you can view all the reports. You can minimize each report 
 
 You can change the date range/value for any report and view quickly for a different date without modifying and saving the report. Click the edit icon (as shown with an arrow in the snapshot below) next to the date range, such as QTD, last one year. To confirm the change, choose the new value from the pop-up menu and click tick mark. You can cancel the change by clicking X mark.
 
-The date values that you use to view the report are temporary. This view of the report is not downloaded when you choose the download option. This view is only temporary view.
+>[!NOTE]
+>
+>The date values that you use to view the report are temporary. This view of the report is not downloaded when you choose the download option. This view is only temporary view.
 
 ![](assets/learner-count-report.png)
+*Learner count*
 
 ## Quick view with different managers {#quickviewwithdifferentmanagers}
 
 If there are multiple managers reporting to you, you can view the reports quickly for each manager. To display unique report for each manager, choose the manager name from the drop-down list.
 
-The manager values that you use to view the report are temporary. This view of report is not downloaded when you choose the download option. This view is only temporary view.
+>[!NOTE]
+>
+>The manager values that you use to view the report are temporary. This view of report is not downloaded when you choose the download option. This view is only temporary view.
 
 ## View course reports {#viewcoursereports}
 
@@ -462,6 +501,7 @@ You can view the reports specific to each course by following the below steps:
    A pop-up dialog appears. A text input field appears where you can enter the required course and suggested  course names appear in the drop-down list. Choose the course from the list shown.
 
    ![](assets/view-course-report-300x117.png)
+   *View course reports*
 
 1. Select the course of your choice from the drop-down list and click Show.
 1. You are redirected to the Quiz score results page of the selected course to view the course-specific report.
@@ -471,6 +511,7 @@ You can view the reports specific to each course by following the below steps:
 To view drop-down options as Edit/Move to Dashboard/Create a copy/Delete/Resize, click the drop-down arrow at the upper-right corner of each report.
 
 ![](assets/edit-options-dashboard-300x126.png)
+*Edit/Move to board/Create a Copy/Delete/Resize reports*
 
 **Edit** To go back to initial values while modifying data, click Reset. Click Save after modifying the values.
 
@@ -491,6 +532,7 @@ When you have established a peer account with another user, you can view the rep
 While creating a peer account, if the Share Catalog option had not been selected, you cannot view that peer account in this list.
 
 ![](assets/acc1-jpg.png)
+*Manage reports for peer account*
 
 1. Select the x-axis and y-axis for this report, and select the date for this report.
 1. Notice the filters field, the Shared Catalogs button is auto-enabled. It is mandatory. If Shared Catalog is not enabled, it implies that you cannot generate or view reports for the peer account.
@@ -498,12 +540,15 @@ While creating a peer account, if the Share Catalog option had not been selected
 1. Click Save.
 
    ![](assets/acc2.png)
+   *Select Shared Catalog for peer account*
 
 1. After you click Save, you can view the graphical representation of your reports in your default dashboard. From this dashboard, you can further filter the report by the manager for the specific peer account.
 1. If there are any changes to the catalog from your side, the changes are immediately reflected in the reports and dashboard generated by the peer. However, when the peer modifies the catalog, the changes do not appear in your dashboard automatically. 
 1. If you want your dashboard to be updated automatically, your peer must send a new peer request to you.
 
-   Managers cannot view peer reports.
+   >[!NOTE]
+   >
+   >Managers cannot view peer reports.
 
 ## Email subscriptions {#emailsubscriptions}
 
@@ -542,13 +587,17 @@ As an administrator, you can download reports for courses. Follow these steps:
 1. The **[!UICONTROL Course Report]** dialogue appears. Select the course you want to fetch the report of and click **[!UICONTROL Show]**.
 
    ![](assets/course-reports.png)
+   *Course reports*
 
 1. You are redirected to the course page. You can export quiz score by user and by question based on each enrollment by choosing the specific enrollment type.
 1. Select **[!UICONTROL Export Quiz Score]** to export the report. A **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL OK]** to confirm.
 
    ![](assets/generating-reportrequest.png)
+   *Generating Report Request*
 
-   Exported quiz score report will contain the score details for every attempt if the multi attempt option is configured for the module.
+   >[!NOTE]
+   >
+   >Exported quiz score report will contain the score details for every attempt if the multi attempt option is configured for the module.
 
 ## Learner Transcripts {#LearnerTranscripts-1}
 
@@ -558,9 +607,9 @@ Adobe Learning Manager enables the administrators of an organization to generate
 1. Skill: Skill Dashboard
 1. Compliance Dashboard
 
-`The Learner Transcripts in Excel reports displays the columns Credits Required and Credits Earned in decimal numbers.`
+The Learner Transcripts in Excel reports displays the columns Credits Required and Credits Earned in decimal numbers.
 
-For information on generating Learner Transcript reports and more information, see [Learner Transcripts.](learner-transcripts.md)
+For information on generating Learner Transcript reports and more information, see [Learner Transcripts](learner-transcripts.md).
 
 ## Announcements Reports {#announcementsreports}
 
@@ -578,10 +627,12 @@ To download a report, follow any one of these steps:
 1. Announcements > Actions > Export Report.
 
    ![](assets/announcements.png)
+   *Announcements report*
 
 1. You can extract a report for a specific announcement by clicking Export Report under the settings icon.
 
    ![](assets/announcements-specific-report.png)
+   *Report for specific announcements*
 
 ## Job Aids Report {#jobaidsreport}
 
@@ -599,19 +650,18 @@ The extracted report includes information about the following:
 * Manager name
 * Created by
 
- 
-
 To download a report, do one of the following:
 
-* Open  **[!UICONTROL Reports > Excel Reports > Job Aid Reports]**. The **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL Ok]**.
-
-* Open **[!UICONTROL Job Aid > Actions > Export Report]**.
+* Open  **[!UICONTROL Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. The **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL Ok]**.
+* Open **[!UICONTROL Job Aid]** > **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**.
 
 ![](assets/job-aids.png)
+*Job Aids report*
 
 * You can also extract a report for a specific Job Aid by clicking **[!UICONTROL Export Report]** under the settings icon.
 
 ![](assets/job-aid-specific-download.png)
+*Report for specific Job Aid*
 
 ### Job Aids Report
 
@@ -687,7 +737,6 @@ Use the **[!UICONTROL Content Audit Trail]** report generator to generate a repo
 * Referenced object ID  
 * Referenced object name  
 * Modified by user name  
-
 * Modified by user ID  
 * Modified date (UTC Timezone)
 
@@ -695,12 +744,13 @@ Information regarding metadata is not fetched in the generated report.
 
 To generate a Course trail audit report, follow these steps.
 
-1. Select **[!UICONTROL Report > Excel reports> Course Audit Trail]**. The **[!UICONTROL Content Audit Trail]** dialog box appears.
+1. Select **[!UICONTROL Report]** > **[!UICONTROL Excel reports]** > **[!UICONTROL Course Audit Trail]**. The **[!UICONTROL Content Audit Trail]** dialog box appears.
 
    ![](assets/course-audit-trial.png)
+   *Course audit trail*
 
 1. Select the course, learning program and certification that you want to download the report of. If not specified, all reports are downloaded by default.
-1. Select a date range for the report and click **[!UICONTROL Generate.]**
+1. Select a date range for the report and click **[!UICONTROL Generate]**.
 1. The report is generated and you are notified that the content audit report is ready. You can download the report.
 
 ## User audit trail reports {#useraudittrailreports}
@@ -713,6 +763,7 @@ You can Add, Enable, Disable, Pause, or Resume for External profiles while you c
 1. The User Audit Trail dialog box appears. Select the date range from the pop-up menu. You can either choose to generate report for last one week, last one month, or select custom date.
 
    ![](assets/user-audit-trail.png)
+   *User audit trail*
 
 1. Click **[!UICONTROL Generate]** to generate the report.
 
@@ -729,6 +780,11 @@ Select Learners filter:  Search for a user or a user group.
 The exported report will contain data of the users who meet both the search criteria specified.
 
 ![](assets/user-audit-trail.png)
+*User audit trail*
+
+>[!NOTE]
+>
+>When a skill is assigned or removed, the skill can be tracked for the User Audit Report for both assigned or removed.
 
 ## Gamification reports {#gamification}
 
@@ -737,10 +793,12 @@ Administrators can download gamification transcript in CSV format. You can eithe
 1. Select Report > Excel report > Gamification report.
 
    ![](assets/gamification.png)
+   *Gamification report*
 
 1. The Gamification Transcripts dialog box appears. Select learners using their Name, Profile, User Groups, Email Id, or UUID.
 
    ![](assets/gamification-transcriptsdialog.png)
+   *Gamification transcripts dialog*
 
 1. Click  **[!UICONTROL Generate]** to generate the report.
 
@@ -762,6 +820,7 @@ Administrators and managers can extract a report of the learners who have been e
 To download a report, follow these steps: Open the  **[!UICONTROL Course/ Learning program/ Certification > Learners > Action > Export report.]**
 
 ![](assets/unenrollment.png)
+*Unenrollment report*
 
 ## Feedback Report {#feedback-report}
 
@@ -774,6 +833,7 @@ L1 and L3 feedback reports provide an option to download a consolidated feedback
 Sign in as an Administrator, click **Reports > Custom Reports**, and in the list of reports, click **Feedback Report**.
 
 ![](assets/download-feedbackreport.png)
+*Download feedback report*
 
 Clicking on download after selecting the filters, you will receive a notification to download the report in CSV format.
 
@@ -796,6 +856,7 @@ You can download reports for the following:
 * All trainings - (all trainings in the account)
 
 ![](assets/download-trainingreport.png)
+*Download training report*
 
 In the Advanced Options section, the following options are available:
 
@@ -809,6 +870,7 @@ The report will have the following fields:
 *Catalog Name, Training Type, Training Id, Training unique id, Training Name, Sub Trainings, Modules, Training or Module Duration, Format, Status of Training, Skills, Author, Last Published Date, Last completed Date, Instructors Enrollment Count, Started count, Completion count, Avg L1 score, Avg L2 score, Avg L3 score, L1 responses received, L2 responses received, L3 responses received, Catalog labels & Tags.*
 
 ![](assets/more-options.png)
+*Additional options*
 
 ## Session Summary Report
 
@@ -823,6 +885,7 @@ As an Administrator, click **Custom Reports > Session Summary Report**.
 In the dialog box that follows, choose the date range, and either the training or instructor for a summary.
 
 ![](assets/session-summary-report.png)
+*Session Summary Report*
 
 The downloaded csv contains the following fields:
 
@@ -855,7 +918,6 @@ To download the report, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Re
 Select an instructor or multiple instructors and the date range.
 
 ![Download Instructor Utilization Report](assets/utilization-report.png)
-
 *Download Instructor Utilization Report*
 
 The downloaded report contains the following fields:
@@ -917,4 +979,3 @@ The report contains the following:
 When creating a dashboard, enter the name and description. To share with managers, enter the manager's name in the **Share With** field.
 
 ![](assets/share-dashboard-manager.png)
-
