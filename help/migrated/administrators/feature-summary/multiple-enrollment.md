@@ -15,6 +15,7 @@ Adobe Learning Manager's multi-enrollment feature helps an Admin avoid such scen
 Multi-enrollment enrolls a learner multiple times in a course through various available instances.  A learner can enroll in multiple course instances irrespective of the state they're in-enrolled, completed, or yet to start. When the Author enables the [!UICONTROL Multiple Enrollment] toggle, a learner can then enroll in multiple instances of the course.
 
 ![multi-enrollment image](assets/multi-enrollment-author.png)
+*Launch Multiple Enrollment from Settings*
 
 The progress of each instance can be tracked individually, and a report can be exported to track the progress of each instance.
 
@@ -31,6 +32,7 @@ The progress of each instance can be tracked individually, and a report can be e
 1. In the left panel, select **[!UICONTROL Settings]** > **[!UICONTROL Edit]** > **[!UICONTROL Instance configuration]** > **[!UICONTROL Enable Multiple Enrollment]**.
 
 ![multi-enrollment image](assets/multi-enrollment-author.png)
+*Enable Multi-Enrollment*
 
 >[!NOTE]
 >
@@ -43,14 +45,17 @@ Multiple enrollments are helpful when a learner wants to enroll in a Classroom o
 For learners who didn't enroll, when they select a course, they will view the screen under the course with multiple instances. Then, they can select each instance and enroll.
 
 ![learner view image](assets/learner-view.png)
+*View the instances*
 
 After enrolling in one instance, they can enroll in other instances by selecting the View All Instances option in the right pane.
 
 ![multi-enrollment course image](assets/enroll-instance.png)
+*Enroll into an instance*
 
 The progress on each instance can be tracked as below:
 
 ![track progress](assets/check-progress.png)
+*Track progress of each instance*
 
 ## Multi-Enrollment changes in the administrator
 
@@ -61,6 +66,7 @@ While enrolling the learners, you can enable the following checkbox:
 *"Selected learner(s) might already be enrolled in other instance(s) of this course. Allow these learner(s) to also be enrolled on the instance …"*
 
 ![admin changes](assets/admin-changes.png)
+*Enrollment option for Admins*
 
 If the learner is already enrolled in one instance and you, as an administrator, are trying to enroll the learner in a different course instance, select Yes.
 
