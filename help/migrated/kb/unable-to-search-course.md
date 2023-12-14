@@ -8,10 +8,6 @@ contentowner: nluke
 
 # Unable to search a course in Learning Manager
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 ## Issue
 
 A learner is unable to search a course in Learning Manager.

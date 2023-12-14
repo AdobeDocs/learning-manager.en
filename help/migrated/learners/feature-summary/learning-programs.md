@@ -8,10 +8,6 @@ contentowner: manochan
 
 # Learning Programs
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Learn how to view and consume learning programs using the Learner app in Learning Manager.
 
 Learning programs are a set of uniquely designed courses meeting specific learner goals. Administrators create these learning programs for learners. You can view these learning programs as a learner.

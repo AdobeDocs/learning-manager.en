@@ -9,10 +9,6 @@ preview: true
 
 # Learning Manager Deployment Guide
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 ## Introduction {#introduction}
 
 Learning Manager is a Learning Management System (LMS) that allows training professionals to deliver engaging and trackable learning materials that can contribute to an organization's needs or goals. Learning Manager primarily allows trainers or managers to assign courses and other learning objects, in a specific order, for learners. This tool also offers several powerful features including a multi-format fluidic player, gamification, badges, easy-to-use learner dashboard. However, to leverage all these features, it is essential to first configure and setup Learning Manager.

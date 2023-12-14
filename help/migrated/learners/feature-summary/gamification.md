@@ -8,10 +8,6 @@ contentowner: manochan
 
 # Gamification
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Engage users using gamification techniques in Learning Manager.
 
 Gamification is the use of game thinking and game mechanics in non-game contexts to engage users in earning points while learning.

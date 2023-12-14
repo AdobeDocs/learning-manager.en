@@ -8,10 +8,6 @@ contentowner: saghosh
 
 # Enable full control of shared catalog
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 ## Create Catalog {#createcatalog}
 
 As an Administrator, you can create a catalog of courses, Learning Programs, Job Aids, and Certifications.

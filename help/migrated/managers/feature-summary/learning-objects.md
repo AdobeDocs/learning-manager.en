@@ -7,10 +7,6 @@ title: Learning Objects
 
 # Learning Objects
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 This document consists of information about learning objects for managers.
 
 A Manager can enroll the learners under him in courses, learning programs and certifications. For more information and steps to follow to enroll, see [Enroll Learners.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)

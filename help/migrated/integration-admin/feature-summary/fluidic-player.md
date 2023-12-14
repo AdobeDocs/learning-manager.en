@@ -9,10 +9,6 @@ preview: true
 
 # Embeddable fluidic player
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Read this article to learn how to embed the fluidic player in a custom application.
 
 As an enterprise, you can now provide a custom experience for your learners even outside Learning Manager. Using the public API, you can fetch all the information related to learning objects, learners' enrollments and learning progress and display them on your website. More importantly, you can even embed the fluidic player of Learning Manager in your website, so that the learner can consume the content right within your website. The fluidic player gives you the power to play any content that Learning Manager supports. When embedded on your own website, it has the exact same capabilities as when used within Learning Manager.

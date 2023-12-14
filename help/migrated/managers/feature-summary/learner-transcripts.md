@@ -7,10 +7,6 @@ title: Learner transcripts
 
 # Learner transcripts
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Learn how to download learner transcript based on users, learning objects, or skills in Learning Manager.
 
 Adobe Learning Manager enables the Managers of an organization to generate the transcripts associated with learners. 

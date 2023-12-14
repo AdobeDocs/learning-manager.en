@@ -9,10 +9,6 @@ preview: true
 
 # Frequently Asked Questions for Learners
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 +++How do I enroll for a course offering?
 
 Course Catalog displays all the courses that you are eligible for. If your Manager nominates courses for you, you get a notification with an option to accept or reject the course.

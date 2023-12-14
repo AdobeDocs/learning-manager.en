@@ -8,10 +8,6 @@ preview: true
 
 # Learning Manager Deployment Guide - Section 2
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 ## Technical Set up {#technicalsetup}
 
 The technical set up for your Learning Manager account is required mainly for enterprise users. This document talks about configuring single sign on for your organization, and integrating Learning Manager with third-party connectors.
