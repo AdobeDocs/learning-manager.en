@@ -9,7 +9,9 @@ preview: true
 
 # Interpret the Learner Transcript CSV
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+>[!CAUTION]
+>
+>Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 The Learner Transcript is one of the most popular reports used in Adobe Learning Manager. The report enables one to get nearly every possible detail in a single report in CSV format.
 

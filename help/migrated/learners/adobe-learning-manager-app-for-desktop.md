@@ -20,15 +20,19 @@ If users do not have the desktop application, you can download it from the Adobe
 
 Once the user has finished installing the application, he/she must sign into it using their Learning Manager learner credentials. The home page appears like the below screenshot. 
 
-Learners will not be able to use the desktop application if Social Learning is disabled for their account.
+>[!NOTE]
+>
+>Learners will not be able to use the desktop application if Social Learning is disabled for their account.
 
 ![](assets/homepage-13.png)
+*Home page*
 
 ## Creating a video {#creatingavideo}
 
 The desktop application allows a user to record web, screen and both.
 
 ![](assets/video-recordings-08.png)
+*Record web, screen, or both*
 
 Do the following to make a video recording and post it onto the social learning web platform:
 
@@ -51,9 +55,11 @@ Do the following to make a video recording and post it onto the social learning 
 
    **Select Microphone** Click the microphone icon at the bottom of the video or audio window and select a microphone that the user would like to use from the given options. 
 
-   If the user does not want to record audio with screen or video, select the **None** option from the drop-down list that is displayed on the clicking the audio icon.
-
-   When users start recording their screen or themselves, a pop-up dialog box appears asking them to confirm if they want to continue to record without an audio support. Click yes to continue.
+   >[!NOTE]
+   >
+   >If the user does not want to record audio with screen or video, select the **None** option from the drop-down list that is displayed on the clicking the audio icon.
+   >
+   >When users start recording their screen or themselves, a pop-up dialog box appears asking them to confirm if they want to continue to record without an audio support. Click yes to continue.
 
 1. Use the record button to start recording. The recording begins after the countdown(3 seconds). 
 1. Click the pause or resume button to pause while recording and then resume if wanted. To edit the recording, see [Editing a recording](adobe-learning-manager-app-for-desktop.md#Editing) and to publish see [Publishing a recording](adobe-learning-manager-app-for-desktop.md#Publishing).
@@ -61,6 +67,7 @@ Do the following to make a video recording and post it onto the social learning 
 ## Creating an audio {#creatinganaudio}
 
 ![](assets/record-audio-2x.png)
+*Record audio*
 
 To record an audio, do the following:
 
@@ -80,6 +87,7 @@ To take a screenshot, do the following:
 1. To capture only part of the screen, click the snip partial screen icon. To capture the entire screen, click the capture full screen icon.
 
    ![](assets/capture-screenshot.png)
+   *Capture a screenshot*
 
 1. To help other learners comprehend and retain the presentation or static  content better, add annotations to the content.  
 1. To edit  the screenshot, [click here](adobe-learning-manager-app-for-desktop.md#Editing), and to publish a screenshot [click here](adobe-learning-manager-app-for-desktop.md#Publishing).
@@ -92,14 +100,18 @@ Once a file is saved, the edit window instantly appears on system where recordin
 
 Annotations can be used on video recordings and screenshots to highlight specific details or write some text for the other users to read. 
 
-For video, users can only annotate on top of the screen.
+>[!NOTE]
+>
+>For video, users can only annotate on top of the screen.
 
 * The different annotations that can be selected are **ellipse**, **line**, **arrow**, **highlight**, and **text**.
 
 * Choose a color for each annotation from the colors panel in the annotation's properties panel.
 * For **Text**, choose the following properties: Font, bold, italic, heading, alignment, color, and background color.
 
-To view the background color for text, enable background color to yes.
+>[!NOTE]
+>
+>To view the background color for text, enable background color to yes.
 
 ## Trim (all types of video and audio recordings) {#trimalltypesofvideoandaudiorecordings}
 
@@ -109,13 +121,18 @@ To trim, click **Start Trim** button or click the plus icon on the timeline to s
 
 Recordings can be trimmed by entering the time in the **Start time** and **End time** input fields after enabling **Change Timing**.
 
-![](assets/start-trim-05.png) ![](assets/confirm-trim-06.png)
+![](assets/start-trim-05.png) 
+*Start trim*
+
+![](assets/confirm-trim-06.png)
+*Confirm trim*
 
 ## Pan & Zoom (any video recording) {#panampzoomanyvideorecording}
 
 Pan & Zoom action can only be done on **Both** (webcam and screen) video recordings. By default, the entire webcam or screen is selected. Select the corner handle and drag to select the part of screen that is to be displayed or focused. Double click the window for full screen. 
 
 ![](assets/pan-zoom-artboard10.png)
+*Pan and Zoom*
 
 ## Branding (all types of video recordings) {#brandingalltypesofvideorecordings}
 
@@ -126,17 +143,22 @@ To add a brand or theme to a video, do the following:
 1. Click the branding icon from the left navigation panel in the editing window.
 1. Select a **Theme** from the given options or users can customize their own theme by adding a **start**, **background,** and **end** video from their system.
 
-   To download more themes, click the **Get more assets** button.
+   >[!NOTE]
+   >
+   >To download more themes, click the **Get more assets** button.
 
 1. Add a video title text and select a location on the **Display at** grid for it to be displayed.
 
-   Title text can only be added as part of a branding video. A theme is required before giving a title to the branding video.
+   >[!NOTE]
+   >
+   >Title text can only be added as part of a branding video. A theme is required before giving a title to the branding video.
 
 1. Add a presenter name and presenter title to the video if necessary. Type a number within the video time range in the Display at playhead field for the presenter name and title to be displayed while playing the video.
 1. Add a branding icon on the left or right side of the video screen if necessary. To select a branding icon, click **select** > **browse from system**.
 1. To preview the video, click the play button in the preview screen. 
 
    ![](assets/branding-options.png)
+   *Branding*
 
 ## Recording additional clips (all types of video and audio recordings) {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
 
@@ -149,12 +171,15 @@ To start a new recording, click the record additional clip icon. The new recordi
 Once all changes and edits are made, click **Share** > type or search for a **skill or board** that best relates to the post > **Post**.
 
 ![](assets/share-after-editing-07.png)
+*Publishing to web*
 
 ## Browsing Learning Manager desktop gallery {#browsingcaptivateprimedesktopgallery}
 
 All recordings and screenshots are saved in Adobe Learning Manager desktop application. To browse these files, click **Gallery** from the left navigation panel in the home page. 
 
-The gallery can also be launched from Social Learning by clicking the **Learning Manager Gallery** icon while creating a post.
+>[!NOTE]
+>
+>The gallery can also be launched from Social Learning by clicking the **Learning Manager Gallery** icon while creating a post.
 
 From the gallery window, type the name of the file you are looking for in the search field.
 
@@ -177,3 +202,4 @@ Mute notifications, Auto-launch application, Auto-update application, enable pro
 Users can also change the gallery location by clicking the **Change** hyperlink.
 
 ![](assets/app-settings.png)
+*Adobe Learning Manager app settings*

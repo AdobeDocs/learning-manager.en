@@ -28,4 +28,6 @@ If Administrator has enabled L1 feedback for you, Learning Manager application s
 
 If you want to listen to recorded virtual classroom sessions, click the Virtual classroom course. You can view all the recorded session URLs. This is applicable only if the host of the session records the sessions.
 
-Generally, recorded session URLs reflect in the Learning Manager application after two hours of session completion.
+>[!NOTE]
+>
+>Generally, recorded session URLs reflect in the Learning Manager application after two hours of session completion.

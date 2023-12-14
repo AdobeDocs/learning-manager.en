@@ -105,9 +105,9 @@ The selected users receive a Welcome email. If the learners have an existing Ado
 After adding learners to the Adobe Learning Manager account, if you want to change their roles, click Actions on the upper-right corner of the page. Choose the option **Assign Role**. Here you can decide whether you want to give Author access or Admin access to the learner. After you have assigned a role, this learner has Author access to the account and can add modules and create courses. 
 
 ![](assets/assign-a-role.png)
+*Assign a role to a user*
 
 ## Remove a role {#removearole}
-*Assign a role to a user*
 
 You can also remove Author or Admin access for the users. Select one or more learners, click **Actions**, and select **Remove Role**. Choose an option, for example, **Remove Author**, and the author access gets revoked for this learner. 
 

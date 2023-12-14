@@ -26,12 +26,12 @@ This issue occurs because Adobe Captivate is by default configured to publish co
 
 ## Resolution:
 
-### Things to note:
+Things to note:
 
 * If open, close the Adobe Captivate application.
 * You would require Administrator access on your machine to perform the below steps. In case you do not have Admin access, please reach out to your IT team for assistance.
 
-### Perform the below steps:
+Perform the below steps:
 
 1. Go to the installation directory for Adobe Captivate. 
 
@@ -40,11 +40,13 @@ This issue occurs because Adobe Captivate is by default configured to publish co
 1. Copy the configuration file **AdobeCaptivate.ini** to your desktop.
 
    ![](assets/cp-captivate.ini.png)
+   *View the configuration file*
 
 1. Open the copied file from your desktop onto a Notepad.
-1. Change the value of LearningManagerBaseUrl = [https://learningmanager.adobe.com/inappstarter](https://learningmanager.adobe.com/inappstarter) to LearningManagerBaseUrl = [https://learningmanagereu.adobe.com/inappstarter](https://learningmanagereu.adobe.com/inappstarter)
+1. Change the value of LearningManagerBaseUrl = `https://learningmanager.adobe.com/inappstarter` to LearningManagerBaseUrl = `https://learningmanagereu.adobe.com/inappstarter`
 
    ![](assets/cp-primebaseurl.png)
+   *View PrimeBaseURL*
 
 1. Save changes made to the Notepad.
 1. Copy the saved file that you edited and paste it back to the file path. Replace the original file in  `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64`

@@ -10,7 +10,7 @@ contentowner: kuppan
 
 ## Windows {#windows}
 
-**Authoring**
+### Authoring
 
 * Operating System: Windows 7, Windows 8.1, and Windows 10 (only on 64 bit versions)
 * Processor: Intel&reg; CoreTM i5 and above
@@ -21,7 +21,7 @@ contentowner: kuppan
 
 ## Mac OS {#macos}
 
-**Authoring**
+### Authoring
 
 * Operating System: Mac OSX 10.12, 10.13, 10.14 (only 64 bit version)
 * Processor: Intel&reg; CoreTM i5 and above

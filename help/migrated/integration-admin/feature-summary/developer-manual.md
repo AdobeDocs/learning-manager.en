@@ -8,7 +8,9 @@ contentowner: jayakarr
 
 # Application developer manual
 
-Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
+>[!CAUTION]
+>
+>Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
 
 Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Learning Manager.
 
