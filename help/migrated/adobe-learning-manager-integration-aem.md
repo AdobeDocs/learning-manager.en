@@ -66,6 +66,7 @@ To approve the application, click **Approve**.
 1. Enter the following details:
 
    ![](assets/access-token-details.png)
+   *Enter the token details*
 
    1. Get OAuth Code: Enter the client ID from the previous section and change the scope. Click Submit to get the Oauth code.  
    1. Get Refresh Token: Enter the client ID and secret from the previous section. Also enter the OAuth code that you got from the previous step. Click Submit.  
@@ -81,6 +82,7 @@ To approve the application, click **Approve**.
 1. Click Adobe Learning Manager Configuration.
 
    ![](assets/alm-configuration.png)
+   *Select Adobe Learning Manager configuration*
 
 1. Click Create > Configuration Folder. Name your folder.
 
@@ -92,6 +94,7 @@ To approve the application, click **Approve**.
 1. Enter the details of the configuration. 
 
    ![](assets/account-congiguration.png)
+   *Create configuration folder*
 
    1. Adobe Learning Manager mode: Choose how you want the learning experience for both logged-in and non-logged in learners.  
    1. Adobe Learning Manager URL: Enter the URL of the ALM instance where the learning services are hosted.  
@@ -148,12 +151,14 @@ Customize your webpages by using the AEM references site and the available widge
 1. Click **Learning Site** > **Language Masters** > **English**. All webpages in the project are included in the folder. 
 
    ![](assets/list-webpages.png)
+   *View all webpages*
 
 1. Select any template and click **Edit**.  
 
 1. On the page, click the component settings button and change the properties of the component.
 
    ![](assets/settings-button.png)
+   *Select Settings button*
 
 1. Preview your changes or you can publish the page. 
 
@@ -177,6 +182,7 @@ Apart from the templates that you can use that are provided by the reference sit
 1. Insert a component on the page, for example, **Learning- Content**.
 
    ![](assets/learning-content.png)
+   *Filter by site*
 
 1. Choose the required Catalog filters that will be displayed on the page.
 
@@ -197,6 +203,7 @@ The ALM reference site package provides a "Learning Site Blueprint," which enabl
 1. On the properties page, enter the page metadata. Click Create. 
 
    ![](assets/blueprint-properties.png)
+   *Select Learning Site Blueprint*
 
 1. Click the Home hyperlink to navigate to the home page of the site that you have created. On this page, you can customize the widgets and catalog components.
 
