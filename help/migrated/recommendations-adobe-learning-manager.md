@@ -48,18 +48,24 @@ Admins are provided a guided workflow in Learning Manager to optimally set up th
 1. Select **[!UICONTROL Recommendations]** on the Admin app.
 
    ![Select Recommendations on the Admin app](assets/image831538.png)
+   
+   *Select the Recommendations option*
 
 1. Click **[!UICONTROL Upgrade]**.
 
    ![Upgrade to the new system](assets/image784236.png)
 
+   *Select the Upgrade option*
+
 1. Click **[!UICONTROL Proceed]** to upgrade to the new recommendation system.
 
    ![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*
 
 1. Create the recommendation parameters for Products and Roles.
 
    ![Create the parameters](assets/image43406.png)
+   *Create parameters for recommendation*
 
 1. Click **[!UICONTROL Add more values]**.
 1. Add the products. Type the name of a product and hit Enter.
@@ -67,16 +73,19 @@ Admins are provided a guided workflow in Learning Manager to optimally set up th
    You must add at least two products to get started with.
 
    ![add products](assets/image623058.png)
+   *Add products*
 
 1. Add the roles. Type the names of the roles and hit Enter.
 
    ![add roles](assets/image156786.png)
+   *Add the roles*
 
 1. Click **[!UICONTROL Continue]**.
 
    The Products and the Roles now feature in the list of Parameters.
 
    ![products and roles](assets/image266930.png)
+   *List of products and roles*
 
 ## Data preparation
 
@@ -137,6 +146,7 @@ Populate these CSVs and get in touch with your Customer Success team to download
 After both the CSVs have been uploaded, click Go live. This will make the new recommendation system visible to learners.
 
 ![go live](assets/computerdescription-automatically.png)
+*Make the recommendations live*
 
 The recommendation system is now available to your learners.
 
@@ -149,18 +159,21 @@ The recommendation system is now available to your learners.
 1. Change the name of the parameter and click **[!UICONTROL Save]**.
 
    ![results](assets/image688522.png)
+   *Edit the parameter*
 
 ## Delete a parameter
 
 1. In the list of parameters, select the three dots icon, and select **[!UICONTROL Delete parameter]**.
 
 ![delete parameter](assets/delete-parameter.png)
+*Delete the parameter*
 
 ## Course settings page
 
 In the settings page of a course, the recommendation for Products and Roles are listed. Learners will be recommended this Course if they have expressed interest in these Products and Roles.
 
 ![setting image](assets/course-settings-image.png)
+*Course settings page*
 
 ## Learner view
 
@@ -180,18 +193,22 @@ The learners can see the following:
 After selecting Recommendations on the left panel, the learner sees a popup to set up the recommendations.
 
 ![setup recommendations](assets/image575540.png)
+*Learner sets up the recommendation*
 
 Clicking Setup Recommendations takes the learner to the product selection popup.
 
 ![product selection popup](assets/product-selection-popup.png)
+*Select products*
 
 Then in the next popup, the learner can select the role.
 
 ![select role](assets/image270860.png)
+*Select roles*
 
 The learner can then add the levels.
 
 ![add levels](assets/image650040.png)
+*Select levels*
 
 ## Learning strips on the learner app
 
@@ -210,12 +227,14 @@ A learner can see the following strips on the app:
 ### Cards on my learning strip
 
 ![learning strip cards](assets/image770606.png)
+*Cards on learning strip*
 
 Each card has Rating, Card image, Title, Skill, published date, Author, Duration, progress bar , and Continue or Explore button.
 
 ### Cards on saved by me strip
 
 ![saved cards](assets/cards-saved-by-me.png)
+*Saved cards*
 
 Each card has Rating, Card image, Title, Skill, published date, Author, Duration, progress bar , and Start or Explore or Continue or Revisit button.
 
@@ -224,6 +243,7 @@ There is no progress bar on the card after a learner starts the course. A learne
 ### Cards on super relevant strip
 
 ![super relevant strip cards](assets/super-relevant-cards.png)
+*Relevant cards*
 
 Each card has Rating, Card image, Title, Skill, published date, Author, Duration, progress bar , and Start or Explore or Continue or Revisit button.
 
