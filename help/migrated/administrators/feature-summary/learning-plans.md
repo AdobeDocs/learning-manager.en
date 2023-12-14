@@ -7,10 +7,6 @@ contentowner: manochan
 
 # Learning plans
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Creating Learning Plans for Administrators in Learning Manager.
 
 ## Overview {#overview}

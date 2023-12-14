@@ -9,10 +9,6 @@ preview: true
 
 # Learning Programs
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Read this article to learn how to create and manage learning programs in Learning Manager
 
 Learning programs are a set of uniquely designed courses meeting specific learner goals. Administrators create these learning programs for learners. You can view these learning programs as a learner.

@@ -8,10 +8,6 @@ contentowner: nluke
 
 # Unable to assign a badge
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 ## Issue
 
 Even after completing a course or training, a badge does not get awarded as expected.

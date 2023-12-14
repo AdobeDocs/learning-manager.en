@@ -8,10 +8,6 @@ contentowner: manochan
 
 # Reports
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Creating and managing reports for Managers.
 
 Adobe Learning Manager enables you to create varied reports to track, monitor, and control learner activities. Learners activities are tracked and captured automatically into the database. Manager and Administrator reports are generated from the database.

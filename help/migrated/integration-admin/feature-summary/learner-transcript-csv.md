@@ -9,10 +9,6 @@ preview: true
 
 # Interpret the Learner Transcript CSV
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 The Learner Transcript is one of the most popular reports used in Adobe Learning Manager. The report enables one to get nearly every possible detail in a single report in CSV format.
 
 Apart from being a report that users can fetch to track and analyze learning behaviors, the report can also be viewed as the format in which Learning Manager can be set up to export data about learning behaviors to external applications/systems.
