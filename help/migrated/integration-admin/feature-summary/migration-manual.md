@@ -450,12 +450,14 @@ You can drag and drop the content files or click **Upload** and select the files
 A sample snapshot of Box account after uploading content to it is shown below for your reference: 
 
 ![](assets/box-account.png)
+*Files in Box account*
 
 After the files are uploaded to your Box account, ensure that you mention the relative path of this Box content file in module_version.csv file. This is a mandatory step for you to indicate the path of the module content. 
 
 Once you log in to the FTP and Box servers and upload the content, the CSV locations appear as shown in the snapshot below in Learning Manager. 
 
 ![](assets/after-setup.jpg)
+*CSV locations in Box account*
 
 ## Data and content migration procedure {#dataandcontentmigrationprocedure}
 
@@ -472,6 +474,7 @@ Go through the pre-requisites of migration process before you start with the mig
    If you have not created an FTP folder already, you will be prompted to create an FTP folder in the account. This is mandatory step before you start creating a migration project. 
 
    ![](assets/create-project.png)
+   *Create FTP folder*
 
    Provide the project name, project tag, course catalog and description for your migration project. Click **Create**. 
 
@@ -480,6 +483,7 @@ Go through the pre-requisites of migration process before you start with the mig
 1. Sprint configuration page appears as shown in the following snapshot. You need to create a sprint as part of your migration project. Choose Sprint name and provide brief description of the sprint. You can choose Yes if you want to migrate content as part of this sprint. Click **Next**. 
 
    ![](assets/users-modified-sprint.png)
+   *Sprint migration*
 
    Select the checkbox with title **Users have been added or modified since the last run**, to synchronize the list of users with the Learning Manager application. If you are migrating the content and data into Learning Manager application, this may not be required. But, if there is a time lapse between your earlier sprint migration to the latest sprint migration, then best practice is that you choose to synchronize the list of users. This step enables the Learning Manager database to be in sync with your LMS users. 
 
@@ -488,6 +492,7 @@ Go through the pre-requisites of migration process before you start with the mig
 1. You can start the Sprint migration with your uploaded data and content. Click **Refresh** link before starting the Sprint Run to sync up the FTP and Content folders with Learning Manager application. 
 
    ![](assets/sprint1-filesupload.png)
+   *Start sprint migration*
 
    Click **Start** at the upper-right corner of the page. You can click **Stop** at any point in time during Sprint migration process to abort the sprint migration. 
 
@@ -498,10 +503,12 @@ Go through the pre-requisites of migration process before you start with the mig
    A sample snapshot of progress dialog is provided below for your reference. As shown in the snapshot, you can view the number of records processed for each migration data item along with success and failed items status. Click Download error records against the failed items to download and view the error logs. You can fix the issues in CSV and upload again in FTP. 
 
    ![](assets/sample-sprint-progress-status.png)
+   *View sprint progress*
 
    Click Sprint list on the left pane if you want to view the list of all the sprints of a migration project. You can view a list of all the sprints, the number of Runs you executed for each sprint,  start date, duration and completion status as shown in the sample snapshot below. 
 
    ![](assets/sprint-list.png)
+   *View list of sprints*
 
 1. After uploading the latest updated CSVs you can click ReRun at the upper-right corner of the page. Rerun processes all the data items once again, ignoring the items that do not have any changes. Once you are satisfied with the migration of data items in a sprint, you can mark the spring migration as complete by clicking the button at the top of the page. You can start a new sprint with more data items later. Once a Sprint is marked complete you cannot ReRun it again. Similarly, in a migration project you can have any number of sprints. Once you are satisfied with the migration status of all Sprints, you can mark the Migration project as Complete by clicking **Mark Project Complete** link on the Sprint List page. 
 
