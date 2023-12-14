@@ -28,14 +28,17 @@ You can also choose not to send e-mail notifications for certain events by disab
    You can see the list of templates that are available for the learning object that you chose.
 
    ![](assets/email-templates-forlearningprograms.png)
+   *List of templates*
 
 1. Click the event name to view the template in the preview mode.
 
    ![](assets/preview-the-emailtemplateforyourlearningobject.png)
+   *See template preview*
 
    You can customize each template by clicking the text in the body of the template. You can insert variables in the text by clicking the appropriate icons as shown in the snapshot. Hover your mouse over each icon to view the names.
 
    ![](assets/insert-variable.png)
+   *Insert a variable*
 
    The following variables are available:
 
@@ -57,6 +60,7 @@ You can also choose not to send e-mail notifications for certain events by disab
 1. From the Email Templates page, click the Yes/No circular toggle button to send or disable the notification.
 
 ![](assets/email-notification-e1437624109719.png)
+*Enable or disable email notification*
 
 If the circle in the notification button against each event name is adjacent to Yes (with blue shade as background), then the notification is enabled. If it is in gray shade and the circle is adjacent to No, then the notification is disabled.
 
