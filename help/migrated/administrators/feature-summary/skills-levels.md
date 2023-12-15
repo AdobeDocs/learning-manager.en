@@ -29,12 +29,14 @@ To add a skill, follow the steps below:
 1. On the left pane, click **Skills**. Give the skill a name and description.
 
    ![](assets/add-skill-name-anddescription.png)
+   *Add name an description*
 
-1. Assign a domain to the skill. While creating a skill, you can map it with the most relevant skill domains that Learning Manager supports. For more information, see [***Map skill with domains***](https://helpx.adobe.com//captivate-prime/administrators/feature-summary/curation-skills.html).
+1. Assign a domain to the skill. While creating a skill, you can map it with the most relevant skill domains that Learning Manager supports. For more information, see [***Map skill with domains***](/help/migrated/administrators/feature-summary/curation-skills.md).
 
    Start typing the domain in the field and you can see recommendations. Pick the option or options that is/are relevant to the skill.
 
    ![](assets/map-domain-with-skills.png)
+   *Add domain*
 
 1. Assign the levels to the skill. To add a level, click **Add**.
 
@@ -45,6 +47,7 @@ To add a skill, follow the steps below:
    Once these Learning Objects (LOs) and levels have been achieved, the learner is now equipped to perform at a more productive level than before.
 
    ![](assets/add-skill-levels.png)
+   *Add skill levels*
 
    When you add a skill, you can also assign decimals to credits. The credits are displayed up to two decimal places.
 
@@ -56,6 +59,7 @@ To add a skill, follow the steps below:
    Once the skill has been created, you can locate the newly created skill on the **Skill** page. You can also see the domains and the brief description of the skill. You can also view the levels and the credits that have been assigned to each level.
 
    ![](assets/list-of-skills.png)
+   *View list oif skills*
 
 ## Assign the skill to learners {#assigntheskilltolearners}
 
@@ -66,22 +70,26 @@ After you create your skills and save them, they get listed in the skills page. 
 1. On the **Skill** page, click the hyperlink with the number of learners enrolled to the skill. For a newly created skill, the number of learners for all levels are zero.
 
    ![](assets/number-of-learnersenrolledtoaskill.png)
+   *View learners assigned to a skill*
 
    For this example, add learners for Level 1. Click the hyperlink adjacent to Level 1.
 
 1. On the Learners dialog, click **Add Learners**.
 
    ![](assets/add-learners.png)
+   *Add learners*
 
 1. Search for learners and add the learners. You can also add user groups.
 
    ![](assets/search-and-add-learners.png)
+   *Search and add learners*
 
 1. To save the changes, click **Save**.
 
    After you assign the learners, all learners in a user group, if any, are auto-enrolled to the skill, by default. You can make the learners opt out of auto-enrollment by clicking the **Auto Enroll** button.
 
    ![](assets/turn-off-auto-enrollment.png)
+   *Disable auto-enrollment*
 
    Individual learners can auto-enroll themselves or can be enrolled by the Administrator in a Learning Program.
 
@@ -90,16 +98,19 @@ After you create your skills and save them, they get listed in the skills page. 
    In this example, there are two individual learners and three learners in a user group.
 
    ![](assets/learners-assignedtoaskill.png)
+   *Number of learners assigned to a skill*
 
 ## Assign the skill to a course {#assignskilltocourse}
 
 Once you create the skill, an author can create a course, and assign the skill to the course.
 
 ![](assets/assign-skill-to-acourse.png)
+*Assign skills to a course*
 
 After the author publishes the course, on the **Skill** page, you can see the count of the courses associated with a skill level, which is incremented when you assign the skill to a new course.
 
 ![](assets/skill-assigned-tothecourse.png)
+*Number of the courses associated with a skill level*
 
 ## Assign a job aid to the skill {#assignajobaidtotheskill}
 
@@ -108,10 +119,12 @@ Job aids are training content that a learner can access without enrolling in any
 While creating a job aid, an author can associate a skill level with it. Creating a job aid with no skill and associating it to a course with a skill does not link the skill to the job aid.
 
 ![](assets/create-a-job-aid.png)
+*Create a Job Aid*
 
 On the **Skill** page, you can see the number of job aids associated with that skill level.
 
 ![](assets/job-aid-assignedtotheskill.png)
+*Number of Job Aids of a skill*
 
 ## Search a skill {#searchskill}
 
@@ -172,18 +185,21 @@ Add a CSV file that consists of the skills of instructors. These skills are then
    Click Save.
 
    ![Add instructor skills CSV](assets/instructor-skills.png)
+   *Add instructor skills from a CSV*
 
 1. You'll see a confirmation pop-up message.
 
    Note: The following error message pops up if the CSV has incorrect fields.
 
    ![Error message if CSV has incorrect fields](assets/error-csv-upload.png)
+   *Error message for incorrect fields*
 
 ### Skills page
 
 On the Skills page, there is a column called Instructors, which denotes the number of instructors assigned to a skill. If you click the number of instructors, you see a pop-up, which displays the instructors assigned to the skill.
 
 ![Skills assigned to instructors](assets/instructor-skill-assigned.png)
+*Skills page*
 
 ### Download the skill assignment CSV
 
@@ -197,45 +213,52 @@ On the Skills page, there is a column called Instructors, which denotes the numb
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-1. How can I remove a learner from a skill?
++++How can I remove a learner from a skill?
 
    You cannot remove a learner from a skill. You can however add new learners or user groups to the skill.
++++
 
-1. How to auto-enroll learners to a skill?
++++How to auto-enroll learners to a skill?
 
    Auto enrollment feature is for user groups only. When you enroll a user group, for example, All Authors, to a skill and save it, by default, Auto enrolment is enabled. So any new additions to the user group All Authors are also assigned the skill.
 
    If you stop auto enrollment for that skill level for All Authors, any new users that get added to the All Authors user group are not assigned the skill.
++++
 
-1. How to restart auto enrollment?
++++How to restart auto enrollment?
 
    Enroll the same user group to the skill level again for which Auto Enrollment had been stopped.
 
    Doing so restarts Auto Enrollment, and also the learners that were added to the group when this feature was Off, are assigned the skill now.
 
    That is, whenever you re-enroll a user group to start Auto Enrollment, it refreshes the user group members and assigns the skill to all current members.
++++
 
-1. How can I assign a skill to a course?
++++How can I assign a skill to a course?
 
    See the section [Assign skills to a course](skills-levels.md#assignskilltocourse) for more information on the procedure.
++++
 
-1. How do I change a skill level?
++++How do I change a skill level?
 
    To change a single or more levels in a skill, edit the skill, and modify the properties of the existing levels.
++++
 
-1. How do I enable badges and skills so that they are tied to course completion?
++++How do I enable badges and skills so that they are tied to course completion?
 
    Skills can be tied to course completion while creating a course as an author. In the Settings section, you can set the skill criteria for course completion.
 
    ![](assets/course-skills.png)
 
    To enable badges for course completion, in the **Instances** section of the Author app, enable the required badge.
++++
 
-1. Can an Admin mark a badge as complete even if the badge shows "In Progress"?
++++Can an Admin mark a badge as complete even if the badge shows "In Progress"?
 
    An Administrator can mark a Learning Object as complete. Skill and badges are associated with the Learning Object, and they cannot be marked **Complete** separately.
 
    In other words, to achieve the badge, **one must complete the associated Learning Object**.
++++
 
 ### More like this
 
