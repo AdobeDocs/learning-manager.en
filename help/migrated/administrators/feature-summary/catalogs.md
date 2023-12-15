@@ -8,10 +8,6 @@ contentowner: manochan
 
 # Catalogs
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Catalogs are a collection of learning - Courses, Learning Programs, and Certifications. Use Catalogs to provide Learners with access to a customized set of learning. You can associate learning with a Catalog during the creation of a new Catalog.
 
 As an administrator, you can create custom catalogs, if you want to make selective courses available for different learners in your account or across accounts.

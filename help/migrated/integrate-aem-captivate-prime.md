@@ -8,10 +8,6 @@ contentowner: saghosh
 
 # Integrate Learning Manager with AEM
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 ## Overview {#overview}
 
 Learning Manager is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Learning Manager, so that Learning Manager performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.

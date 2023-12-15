@@ -7,10 +7,6 @@ title: Email templates
 
 # Email templates
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Read this article to know how to configure email templates for events related to all the learning objects.
 
 Learning Manager application sends email notifications to multiple roles of users based on events.

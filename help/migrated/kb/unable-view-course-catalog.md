@@ -8,10 +8,6 @@ contentowner: saghosh
 
 # Unable to view certain course under catalog while creating a Learning Program
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 ## Issue
 
 While searching for a particular course to add it to a Learning Program, you are unable to view the course under the catalog.

@@ -8,10 +8,6 @@ contentowner: manochan
 
 # Creating, modify, and publish courses
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 To learn how to create courses, certifications, and learning programs in Learning Manager, read this article.
 
 Authors can create learning objects such as courses, certifications, and learning plans. Learners can consume these learning objects, while administrators can track learners' progress.

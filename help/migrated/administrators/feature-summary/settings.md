@@ -8,10 +8,6 @@ contentowner: manochan
 
 # Settings
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Learn about the Learning Manager account settings that you can configure as an administrator.
 
 You can change your Administrator profile settings and update your Account settings. View your profile information, add/change profile photo, and modify **About me** content. Update your company info, set up log in methods for users, and set up connect integration through account settings.

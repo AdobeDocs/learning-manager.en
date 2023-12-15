@@ -8,10 +8,6 @@ contentowner: manochan
 
 # Certifications
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Learn how to create certifications, enroll learners, and edit published certifications.
 
 Certify your learners on a one time basis or on a recurring time frame using this feature. Only administrators can define the certifications for learners.

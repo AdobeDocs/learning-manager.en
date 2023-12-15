@@ -8,10 +8,6 @@ contentowner: manochan
 
 # Manage Learning Manager orders and billing
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Credit card-based purchase is only available in the [US region](http://learningmanager.adobe.com/).
 
 Manage Learning Manager billing, place orders by using a credit card, subscribe using a Purchase Order, or via a Monthly Active Users plan.

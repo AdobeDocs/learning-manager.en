@@ -8,10 +8,6 @@ contentowner: manochan
 
 # Getting started as a Learner
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Get started with the Learner app in Learning Manager
 
 The Learner App in Learning Manager is completely widget based, helping you traverse through the various features in one or two clicks.

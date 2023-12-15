@@ -8,10 +8,6 @@ contentowner: manochan
 
 # Courses
 
->[!CAUTION]
->
->Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the October 2021 release and the terminology of Learning Path is reflected for all roles.
-
 Read this article to know how to view and consume courses in Learning Manager. Participate in discussions and provide feedback.
 
 Authors create courses. Learners can take up the courses and Administrators can track the performance of learners based on course consumption.
