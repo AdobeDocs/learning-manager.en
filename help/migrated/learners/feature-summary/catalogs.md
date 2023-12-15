@@ -19,14 +19,19 @@ You can filter the list of learning objects by using skills and type of the lear
 Use the search bar on top of the page to enter the names of your familiar learning objects.
 
 ![](assets/catalogs.png)
+*View catalogs*
 
 As a learner, you can  filter training based on the format of training, for example, Classroom, Self-paced, or Virtual Classroom. In addition, the learner can also filter the trainings based on Training Duration. Skill Levels filter which is already available, can now be enabled/disabled by Administrator. 
 
 ![](assets/image014.png)
 
+*Filter training based on the format of training*
+
 You can also filter according to the duration of a training. The duration filter does not include duration of pre-work and test-out.
 
 ![](assets/image015.png)
+
+*Filter by course duration*
 
 The training **Duration** and **Format** filters are identified based on the training content available for default instance and for the account preferred locale.
 

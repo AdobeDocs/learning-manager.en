@@ -26,12 +26,14 @@ Read this article to know how to set learner profile settings and add a profile 
    * Download the Learners Transcript with your data.
 
    ![](assets/learner-preferences.png)
+   *View learner preferences*
 
    When you click the Download my Learning Transcript XLS link, an excel sheet is downloaded to your system. This excel sheet contains details on the learning objects consumed by you, the completion status of each learning object, the corresponding due dates, skills achieved, and so on. Download this sheet to quickly get some overall data for your learning profile.
 
 1. If an Administrator has enabled Digest Email and you are not in the DND list, then you can subscribe or unsubscribe to digest emails. Enable th eoption below.
 
    ![](assets/digest-email-option-learner.png)
+   *Subscribe or unsubscribe to digest emails*
 
    Based on the frequency set by the Admin, you, the learner will receive the email on a biweekly or a monthly basis.
 
@@ -116,3 +118,4 @@ A digest email consists of the following sections:
 On the upper-right corner, click your **user profile** > **Profile Settings**. On the dialog that appears, click **Download My Learning Transcript (XLS)**.
 
 ![](assets/dowload-lt.png)
+*Download Learner Transcript*

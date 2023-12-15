@@ -25,6 +25,7 @@ Adobe Learning Manager enables learners to access the courses, learning programs
 You can view a list of all available courses as a learner. Click My Learning from the Home page, or from the left pane to view all the courses that you have enrolled in.
 
 ![](assets/view-courses.png)
+*View assigned courses*
 
 If you are yet to start the course, you can click the Start button next to the course. If you have already started consuming the course, you can click the Continue button.
 
@@ -33,6 +34,7 @@ To view a completed course, click the Revisit button next to the course.
 There can be multiple instances to a course. Click the course name to view the details. At the right pane, you can see the deadline date for each instance of the course.
 
 ![](assets/learner-course2.png)
+*View a completed course*
 
 ## Course effectiveness {#courseeffectiveness}
 
@@ -44,13 +46,17 @@ From the Courses page, a learner can view the course effectiveness rating on the
 
 ![](assets/learner-cour-eff-tag1.png)
 
+*View course effectiveness rating*
+
 To view the details of course effectiveness rating, click the course effectiveness value. A pop-up appears as shown below.
 
 ![](assets/learner-course-effectivenss1.png)
+*View course effectiveness*
 
 Click the down-arrow at the lower-right corner of the pop-up to view how course effectiveness calculations are done.
 
 ![](assets/course-effectiveness-calculations.png)
+*Calculation of course effectiveness*
 
 ## Searching courses and learning programs {#searchingcoursesandlearningprograms}
 
@@ -96,22 +102,25 @@ As a Learner you will be allowed to rate a course only post enrolment. You can s
 1. After selecting a course, click **Enroll**.
 
    ![](assets/cp-sr-enroll.png)
+   *Enroll in a course*
 
 1. Select the number of stars to rate a course accordingly, 1 being the least and 5 being the best. Then click **Submit**.
 
    ![](assets/cp-sr-srsubmitt.png)
+   *Submit course rating*
 
    A Learner can re-submit the feedback by providing Star Rating multiple times, as the most recent rating is considered.
 
 1. A confirmation message is displayed post submission.
 
    ![](assets/cp-sr-dm.png)
+   *Feedback confirmation message*
 
    If you want to re-submit the feedback, you can do so by clicking the message. Once the rating is submitted, the message is displayed for three seconds and then the rating is shown. If you want to change the rating, you can select a different star and submit.
 
 Courses can be sorted based on the average ratings provided. You can sort the cases from the Sort By drop-down in the top right corner, available in **Catalog**.
 
-## Consuming a course {#consumingnbspacourse}
+## Taking a course {#consumingnbspacourse}
 
 After enrolling to a course, you can start taking up the course, by clicking Start on the course. Alternatively, click **Courses **in** Learning** tab. Choose a course that you would like to start taking up.
 
@@ -128,6 +137,8 @@ You can view all the modules for the course in a browser window.
 **Notes** - A provision is available to record notes while you are taking up the course. After recording the notes, you can save and download it as PDF or e-mail the notes to e-mail ids of any registered learners. When you click Save, you get an option to choose the location for saving it as PDF file.
 
 ![](assets/notes.png)
+
+*Take course notes*
 
 **Closed captions** - For Adobe Captivate developed courses, if the closed captions is enabled during course development, then the learner can view the captions. Click CC at the bottom of the player. The closed captioning option is available only for Captivate 8.0.2 HTML content. For all other types of modules, the CC option does not appear on play bar.
 
@@ -149,6 +160,7 @@ You can view all the modules for the course in a browser window.
 Only after enrolling to a course, a Learner can provide a star feedback to the course. In the Course Overview page of a course, the Learner can rate the course as stars (1-lowest, 5-highest). 
 
 ![](assets/star-rating.png)
+*Provide star rating as feedback*
 
 A Learner will be able to select a particular star (out of 5) and submit the rating. The learner can also edit the selection by clicking on a different star. Once submitted, a Thank you for your feedback message will be displayed. 
 
@@ -157,6 +169,7 @@ If the Learner wants to re-submit the feedback, he/she can do so by clicking the
 Once the Learner provides a rating, the average star rating and the count of learners who've provided the star ratings feature in the **Course Overview** page.
 
 ![](assets/course-overview.png)
+*Course overview*
 
 For all existing accounts, this feature is disabled. Administrators can enable it from Settings. Only then star ratings will appear to the learners. 
 
@@ -169,12 +182,14 @@ In the page below, you can see the courses that are present in the entire catalo
 You can preview a course for exactly two minutes. 
 
 ![](assets/catalog.png)
+*Preview course in marketplace*
 
 When the Administrator invites you to explore and preview a wide range of courses, you see a notification.
 
 As a Learner, you can express interest for an entire catalog or any curated playlist in the **Curated Playlist** section.
 
 ![](assets/curated-playlist.png)
+*View curated playlist*
 
 After you express your interest for a course/training, the interest gets recorded, and the Administrator can then fetch the record.
 
@@ -193,6 +208,7 @@ All filters and other options are shown in the video below.
 You can explore and preview the course and see if the course suits your learning needs. Click the **Preview **button and see the course preview. The preview is available for two minutes.
 
 ![](assets/content-marketplace-learner.gif)
+*Preview content in the marketplace*
 
 ## Content Hub
 
@@ -215,14 +231,17 @@ To change course instance, follow these steps:
 1. Open Catalogs > Learning Program.
 
    ![](assets/learning-program200s.jpg)
+   *Select a learning program*
 
 1. Use the radio buttons to choose if you want to view all courses or courses with unselected instances. Note that if the learner has completed the instance, he cannot switch to another instance.
 
    ![](assets/radio-buttons.jpg)
+   *View all courses or courses with unselected instances*
 
 1. The instance drop-down menu for the course displays the available instances. Choose the instance from the drop-down list.
 
    ![](assets/instance-drop-down.png)
+   *Select an instance*
 
 1. To apply the selected instance, click **[!UICONTROL Update Enrollment]**. Update Enrollment option is available on the right-top of the page.
 
@@ -233,6 +252,7 @@ To change course instance, follow these steps:
 As a learner, you can complete the required number of modules in a course for course completion. The course completion criteria depends on how many modules have been set as mandatory by the author. When you enroll into a course with a minimum completion criteria, you can view the completion criteria on the right pane of the Course page.
 
 ![](assets/learner-xoutofy.png)
+*View completion criteria*
 
 For example, if a specific course has the completion criteria as one out of two modules, then completing just one module marks your completion of that course. In this case, when you complete the first module the progress bar displays 100% completion state.
 
@@ -249,10 +269,12 @@ When you click the Discussions tab, you can see the existing posts and comments 
 The post is immediately visible in the Discussions tab. You can sort the posts as Newset First or Oldest First, and delete those posts that you wrote. Even after you unenroll from the course, you can still view all the posts and delete the posts that you wrote.
 
 ![](assets/learner-discussion.png)
+*View participant discussions*
 
 The Discussion tab is not enabled for external users.
 
 ![](assets/learning-program200s.jpg)
+*Discussion tab*
 
 ## Course life cycle {#courselifecycle}
 
@@ -267,3 +289,4 @@ A typical course life cycle looks as follows:
 **Deleted** - A course under deleted state is when it is removed completely from the Adobe Learning Manager application. Courses can be deleted by authors only when they are in Draft or Retired states.
 
 ![](assets/lifecycle-03.png)
+*Overview of a course life cycle*
