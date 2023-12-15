@@ -21,10 +21,12 @@ Some AWS-recommended FTP clients are listed [here](https://docs.aws.amazon.com/t
 You must configure the new AWS-based FTP connector on the Integration Admin.
 
 ![connectors image](assets/alm-ftp.png)
+*Select the FTP option*
 
 Once you connect, you can see the Connection Details page.
 
 ![connect details page](assets/connection-name.png)
+*View the Connection details page*
 
 There are three authentication options: 
 
@@ -38,9 +40,10 @@ You've created an FTP connection.
 
 ### Create authentication by using existing SSH keys
 
-If you already have an SSH key, paste the public key in the FTP Publick Key field, and then click Connect. 
+If you already have an SSH key, paste the public key in the **[!UICONTROL FTP Public Key]** field, and then click Connect. 
 
 ![SSH keys](assets/ssh-keys.png)
+*Paste the keys*
 
 ### Create basic authentication using a password
 
@@ -75,18 +78,22 @@ Set up the connection on an FTP client (recommended in the section earlier) with
 1. Connect to new ALM FTP Connector. Click Connect.
 
    ![connect image](assets/connect-client.png)
+   *Connect to new ALM FTP Connector*
 
 1. To connect via basic authentication via password, enter the domain name, FTP user name, and set up password that matches the password validation criteria. Click Connect. The new FTP Connection will be created and can be accessed via any SFTP client.
 
    ![ftp settings](assets/connect-settings.png)
+   *via basic authentication via password*
 
 1. Install any SFTP client, for example, File Zilla. Launch File Zilla and click Open Site Manager at the upper-left corner.
 
    ![SFTP client](assets/sftp-client-install.png)
+   *Connect via SFTP c lient*
 
 1. Click **[!UICONTROL New site]** to create a new site. Rename the site as required.
 
    ![new site](assets/new-site.png)
+   *Create a site*
 
 1. Map the details from the Connector credentials page.
 
@@ -98,6 +105,7 @@ Set up the connection on an FTP client (recommended in the section earlier) with
 1. Click Connect.
 
    ![credentials](assets/connector-credentials.png)
+   *Enter credentials*
 
    >[!NOTE]
    >
@@ -108,12 +116,14 @@ Set up the connection on an FTP client (recommended in the section earlier) with
    (Optional) Select the Remember password checkbox to remember the password.
 
    ![password](assets/password.png)
+   *Enter password*
 
-   (Optional) Select the Always trust this host checkbox to trust the host.
+   (Optional) Select the **[!UICONTROL Always trust this host]** checkbox to trust the host.
 
 1. Click OK.
 
    ![unknown host key](assets/unknown-host-key.png)
+   *Host key*
 
 1. Check the status and progress of the connection on top.
 
@@ -125,6 +135,7 @@ Set up the connection on an FTP client (recommended in the section earlier) with
    * Double click on the file.
 
    ![connection status](assets/connection-status-progress.png)
+   *Check the connection status*
 
 At any point, you may change and update the authentication type.
 
@@ -135,6 +146,7 @@ Paste your public key in the text box to use existing SSH keys. Click Connect/Sa
 To generate new SSH keys, click the '**[!UICONTROL Generate SSH Key]**' button. The private key will be downloaded. Click **[!UICONTROL Connect/Save]**.
 
 ![generate ssh key](assets/ssh-key.png)
+*Generate SSH Key*
 
 Map the details. Select logon type as Key file. Select the private key file.
 
