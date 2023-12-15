@@ -24,15 +24,15 @@ Once the user has finished installing the application, he/she must sign into it 
 >
 >Learners will not be able to use the desktop application if Social Learning is disabled for their account.
 
-![](assets/homepage-13.png)
-*Home page*
+<!--![](assets/homepage-13.png)-->
+<!--*Home page*-->
 
 ## Creating a video {#creatingavideo}
 
 The desktop application allows a user to record web, screen and both.
 
-![](assets/video-recordings-08.png)
-*Record web, screen, or both*
+<!--![](assets/video-recordings-08.png)-->
+<!--*Record web, screen, or both*-->
 
 Do the following to make a video recording and post it onto the social learning web platform:
 
@@ -66,7 +66,7 @@ Do the following to make a video recording and post it onto the social learning 
 
 ## Creating an audio {#creatinganaudio}
 
-![](assets/record-audio-2x.png)
+<!--![](assets/record-audio-2x.png)-->
 *Record audio*
 
 To record an audio, do the following:
@@ -86,8 +86,8 @@ To take a screenshot, do the following:
 1. Click the screenshot icon from Learning Manager desktop application home page.
 1. To capture only part of the screen, click the snip partial screen icon. To capture the entire screen, click the capture full screen icon.
 
-   ![](assets/capture-screenshot.png)
-   *Capture a screenshot*
+   <!--![](assets/capture-screenshot.png)
+   *Capture a screenshot*-->
 
 1. To help other learners comprehend and retain the presentation or static  content better, add annotations to the content.  
 1. To edit  the screenshot, [click here](adobe-learning-manager-app-for-desktop.md#Editing), and to publish a screenshot [click here](adobe-learning-manager-app-for-desktop.md#Publishing).
@@ -158,6 +158,7 @@ To add a brand or theme to a video, do the following:
 1. To preview the video, click the play button in the preview screen. 
 
    ![](assets/branding-options.png)
+   
    *Branding*
 
 ## Recording additional clips (all types of video and audio recordings) {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
@@ -170,7 +171,7 @@ To start a new recording, click the record additional clip icon. The new recordi
 
 Once all changes and edits are made, click **Share** > type or search for a **skill or board** that best relates to the post > **Post**.
 
-![](assets/share-after-editing-07.png)
+<!--![](assets/share-after-editing-07.png)-->
 *Publishing to web*
 
 ## Browsing Learning Manager desktop gallery {#browsingcaptivateprimedesktopgallery}
