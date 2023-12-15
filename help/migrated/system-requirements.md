@@ -51,40 +51,74 @@ The immersive layout home page is not supported on IE 11 browsers.
 * Size of the training card: 300 x 240 px
 * Social Banner: 1600 x 240 px
 
-## Minimum screen resolution for desktop {#minimumscreenresolutionfordesktop}
+## Desktop
 
- 1366 x 768 pixels
+### Operating System
 
-## Device specifications for mobile {#devicespecificationsformobile}
+Windows 10 and 11, macOS X 10.12, 10.13, 10.14, 10.15
 
-* **iOS:** iOS 11 and above.
-* **Android:** Version 9 and above.
+### Processor
 
-1. Mobile browser supports only learner role in **immersive layout**.
-1. Learning Manager mobile app only supports the learner role.
+Intel&reg; CoreTM i5 or faster.
 
-## Supported browsers on Mobile {#supportedbrowsersonmobile}
+### RAM
 
-* Chrome on Android
-* Safari on iOS
+Minimum 8 GB required.
 
-## Number of users {#numberofusers}
+### Screen Resolution
 
-Learning Manager supports importing upto **one million** (1,000,000) users in the system.
+1366 x 768 pixels
+
+### Disk Space
+
+Minimum 5 GB of available hard-disk space.
+
+### Recording
+
+A microphone is required for audio recording; a webcam is required for video recording.
+
+## Mobile app
+
+### Devices
+
+* iOS: Last two major versions.
+* Android: Last two major versions.
+
+### Browsers
+
+* Chrome on Android.
+* Safari on iOS.
+
+### Network speed
+
+* 1 Mbps
+
+### CPU, Memory (min) devices
+
+* Qualcomm&reg; Snapdragon&trade; 695 5G or equivalent, 6GB memory
+
+### QR code scanner/disk space required
+
+* 250 MB
+
+>[!NOTE]
+>
+>Mobile browser supports only learner role in **immersive layout**.
+
+>[!NOTE]
+>
+>Learning Manager mobile app only supports the learner role.
 
 ## Maximum content size {#maximumcontentsize}
 
 The maximum file size that can be uploaded is 600 MB.
 
-If the size of the *user.csv* file exceeds 100 MB, importing this file may cause the browser to behave unexpectedly. The issue occurs because the browser runs out of memory.
+>[!NOTE]
+>
+>If the size of the *user.csv* file exceeds 100 MB, importing this file may cause the browser to behave unexpectedly. The issue occurs because the browser runs out of memory.
 
 We recommend importing large size *user.csv* files using the automated Box/Exavault workflow. To know more, see [Migrating files](/help/migrated/integration-admin/feature-summary/migration-manual.md). 
 
-## Cookies {#supportedcontentformats}
-
-Learning Manager uses cookies to provide seamless login and content consumption experience. Learning Manager stores two cookies, APRIMEID and PRIMEC, which enable a user to be remembered on a particular device, and allows the user to resume any trainings from the point where they were left off, and other such experiential benefits.
-
-Learning Manager requires these two cookies to authorize and authenticate every API call to ensure appropriate data access and seamless learning experience.
 
 ## Supported content formats
 
@@ -232,16 +266,6 @@ Learning Manager requires these two cookies to authorize and authenticate every 
   </tr>
  </tbody>
 </table>
-
-## Learning Manager Desktop App
-
-* **Supported OS:** Windows 7, 8, 10 (64-bit versions only), macOS X 10.12, 10.13, 10.14, 10.15
-* **Processor:** Intel&reg; CoreTM i5 or faster.
-* **RAM:** 8 GB
-* **Display:** Minimum supported resolution is 1024x720 display. 
-* **Disk space:** Minimum 5 GB of available hard-disk space.
-* **Recording:** Microphone required for audio recording; webcam required for video recording.
-* **Miscellaneous:** Internet connection and Adobe Learning Manager learner account required for using the application.
 
 ## Accessibility
 
