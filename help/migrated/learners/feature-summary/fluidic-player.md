@@ -14,7 +14,7 @@ Fluidic player is a platform for learners to consume content with uninterrupted 
 
 ## Player features {#playerfeatures}
 
-![](assets/fluidicplayer-callout.png)
+<!--![](assets/fluidicplayer-callout.png)-->
 
 **TOC** - While taking up a course, the player displays a table of contents for that course on the left pane of the window. You can click each topic and navigate to it directly. 
 
@@ -23,6 +23,8 @@ Fluidic player is a platform for learners to consume content with uninterrupted 
 **Notes** - A provision is available to record notes while you are taking up the course. After recording the notes, you can save and download it as PDF or e-mail the notes to e-mail ids of any registered learners. When you click Save, you get an option to choose the location for saving it as PDF file.
 
 ![](assets/notes.png)
+
+*Take course notes*
 
 **Closed captions** - For Adobe Captivate developed courses, if the closed captions is enabled during course development, then the learner can view the captions. Click CC at the bottom of the player.
 
@@ -41,9 +43,13 @@ Fluidic player is a platform for learners to consume content with uninterrupted 
 
 ![](assets/speedvariants.png)
 
+*Select the right playback speed*
+
 **Modify Volume settings:** Use the Volume control button to modify the volume when you take a course. Drag the volume control up or down to change the volume settings.
 
 ![](assets/volumecontrol.png)
+
+*Adjust the volume*
 
 **Close the course** Click close (x) icon at the upper-right corner of the player to exit the course.
 
