@@ -55,6 +55,8 @@ Adobe Learning Manager now enables an Administrator to activate a gamification c
 
 ![](assets/feedback-rating.png)
 
+*View feedback rating*
+
 This feature encourages the users to actively provide feedback, which benefits Learners as well as the Administrators, who now better understand the Learner's point of view and can better evaluate the efficiency of a course.
 
 ## Tasks {#tasks}

@@ -20,6 +20,8 @@ A sample notification window for learner role is shown in the following screensh
 
 ![](assets/learner-notifications.png)
 
+*View all notifications*
+
 This pop-up window displays highlights of all the notifications along with time of occurrence and a scroll bar.
 
 You can know the number of latest notifications based on the highlighted number on top of the notifications icon. For example, if there are five latest notifications after your previous login, you can see the number 5 being displayed on top of the notifications icon. These numbers disappear once you read all the latest notifications.
@@ -31,6 +33,8 @@ Learners can reject a course assigned to them by Managers by clicking Reject in 
 Click **Show all notifications** link at the bottom of the notifications pop-up window to view all the notifications in a separate page.
 
 ![](assets/notifications-page.png)
+
+*View all notifications in a separate page*
 
 **Types of notifications for learners**
 
@@ -58,6 +62,8 @@ Learners get notifications whenever the following events trigger:
 Learners can provide L1 feedback after completing a course which has a feedback option to it. To provide feedback, click feedback link as shown below, after you complete the course.
 
 ![](assets/feedback.png)
+
+*Provide course feedback*
 
 >[!NOTE]
 >

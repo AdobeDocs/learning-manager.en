@@ -22,7 +22,7 @@ If you are unable to locate the app in the drop-down, contact your Salesforce Ad
 
 Once you select the app, you can switch over to Adobe Learning Manager app as shown in the snapshot below. 
 
-![](assets/connect-to-prime.png)
+<!--![](assets/connect-to-prime.png)-->
 
 ## Login and usage instructions {#loginandusageinstructions}
 
@@ -35,6 +35,8 @@ Alternatively, you can also log in to Learning Manager account within Salesforce
 A representative snapshot of Learner view of the Adobe Learning Manager app is shown below for your reference. 
 
 ![](assets/learners-view.png)
+
+*view of the Adobe Learning Manager app*
 
 ## Disconnect from the app {#disconnectfromtheapp}
 

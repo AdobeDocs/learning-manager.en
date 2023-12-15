@@ -17,13 +17,19 @@ A notification broadcast message appears on the learner's dashboard as a highlig
 
 ![](assets/pending-announcements.png)
 
+*Notification of pending announcement*
+
 When you click View, you can see a list of announcements. A sample announcements list is as follows:
 
 ![](assets/learner-announcements-list.png)
+
+*View all announcements*
 
 ## A sample announcement {#asampleannouncement}
 
 A sample announcement is shown below for your reference.
 
 ![](assets/announcement-details.png)
+
+*View details of an announcement*
 

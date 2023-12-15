@@ -20,6 +20,8 @@ To view the skills, click any one of the skill names in the Skills widget on the
 
 ![](assets/learner-skills1.png)
 
+*View all skills*
+
 The percentage of completion for each skill is available next to the skill on the widget. When you click on each skill, the app takes you to the Skills page, where you can view the details of the skill that you clicked.
 
 The Skills page displays the Status of the skill that you clicked. For example, Java. The Skill page displays the Status - for example "In Progress", and the credits - for example "2 out of 10 achieved".
@@ -27,6 +29,8 @@ The Skills page displays the Status of the skill that you clicked. For example, 
 From this page, you can click each of your skills to view the corresponding data.
 
 ![](assets/learner-skills2.png)
+
+*View each skill*
 
 Only administrators can create and assign skill to learners. Learners are automatically assigned to skill corresponding to the enrolled courses/learning programs.
 

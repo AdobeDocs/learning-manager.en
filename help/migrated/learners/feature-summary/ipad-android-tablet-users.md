@@ -18,6 +18,8 @@ After you download and install this app, log in to the app using your learner cr
 
 ![](assets/1.png)
 
+*The home page of the Learning Manager app*
+
 ## Home page {#homepage}
 
 For all accounts that have the option Immersive Layout enabled, there is a brand-new home page to support the Immersive Layout configuration. The home page is organized as a list of cards for the following:
@@ -26,14 +28,20 @@ For all accounts that have the option Immersive Layout enabled, there is a brand
 |---|---|
 | ![](assets/image006.png) | ![](assets/image008.png) |
 
+*List of cards on the home page*
+
 ![](assets/image010.png)
+
+*Social feed of the learner*
 
 ## Feedback rating {#feedbackrating}
 
 Learning Manager prompts the learner to provide feedback about their experience with the Mobile App. This feedback appears once in a month and gives enough time interval for users to experience the app and then provide the feedback.
 
+<!--
 | ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
+-->
 
 For existing users, they should see the feedback popup once they close the Player for the first time after updating the app to latest version.
 
@@ -46,6 +54,8 @@ Learners can download their badges in PDF and Image format. In the User profile 
 | ![](assets/image016.png)|
 |---|
 
+*Download a badge*
+
 ## Mobile web responsive layout {#responsive}
 
 A completely responsive mobile web experience that ensures that learners use their devices to consume training even if they haven't installed the mobile app.
@@ -54,6 +64,7 @@ When you first sign into the learner app via the browser on your device, the lea
 
 The mobile web responsive UI support is only available when an account **is configured for immersive layout only**. The responsive UI is **not available for classic layout**.
 
+<!--
 <table>
  <tbody>
   <tr>
@@ -72,6 +83,7 @@ The mobile web responsive UI support is only available when an account **is conf
   </tr>
  </tbody>
 </table>
+-->
 
 ## Unsupported features in mobile immersive experience {#unsupportedfeaturesinmobileimmersiveexperience}
 
@@ -110,12 +122,16 @@ In the mobile immersive mode, a learner can download a Job Aid. Tap **Settings**
 | ![](assets/image018.jpg)|
 |---|
 
+*Download a Job Aid*
+
 ## Enable learners to download Learner Transcript {#download-learner-transcript}
 
 In the mobile immersive mode, a learner can download the Learner Transcripts.
 
 | ![](assets/image021.jpg) | ![](assets/image022.jpg)|
 |---|---|
+
+*Download Learner Transcripts*
 
 ## View badges and skills {#viewbadgesandskills}
 
@@ -131,11 +147,15 @@ Tap a course to view the details of the course, your completion date (if applica
 
 ![](assets/2.png)
 
+*View pending learnings*
+
 **Viewing catalogs**
 
 Tap the icon next to the book icon at the bottom of the screen. You can immediately view the catalog with all the associated learning objects. You can choose to view them in grid layout or choose the detailed view. Select recommendations to see course recommendations based on your learning history.
 
 ![](assets/4.png)
+
+*View course recommendations*
 
 ## Sort and filter learning objects {#sortandfilterlearningobjects}
 
@@ -202,6 +222,8 @@ Upon launching the app, tap the **Social** icon.
 
 ![](assets/home.png)
 
+*View social learning*
+
 ## Create a post in a board {#createapostinaboard}
 
 Like any other social platform, in the Learning Manager mobile app, you can create a post in a board, so that all learners who are part of the same board can view your post, comment, and upload a file along with the comment.
@@ -211,6 +233,8 @@ To create a post, tap the ![add icon](/help/migrated/learners/feature-summary/as
 The following screen appears.
 
 ![](assets/add-post.png)
+
+*Add a post*
 
 <table>
  <tbody>
@@ -319,11 +343,13 @@ Tap **All Boards** and you can view the activities in the board performed by oth
 
 ![](assets/all-boards-1.png)
 
+*View all board activities*
+
 Navigate to the required board and post your comment.
 
 ## Share media in a board {#sharemedia}
 
-![](assets/cp-prime-share.png)
+<!--![](assets/cp-prime-share.png)-->
 
 Share pictures, documents, or audio or videos files to any board, so that other board members can view your post and start an interaction. To share any media,
 
@@ -345,6 +371,7 @@ Follow the steps below:
 
    | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png)|
    |---|---|
+*Upload proof of completion*
 
 1. After uploading a file, tab **Submit**. A confirmation message appears.
 
@@ -367,6 +394,8 @@ If the Manager rejects the submission, the status changes to **Rejected**, color
 | ![](assets/screenshot-7.png) | ![](assets/screenshot-9.png) | ![](assets/screenshot-8.png) |
 |---|---|---|
 
+*View submission status*
+
 After rejection, you are allowed to upload a file as proof of completion.
 
 * You can only submit a file when the status is **Pending Submission and Rejected**.  
@@ -387,6 +416,8 @@ If you are taking the course via the LinkedIn app, your progress will not be tra
 | ![](assets/start-course.jpg) | ![](assets/enroll-course.jpg) | ![](assets/sign-in.jpg) |
 |---|---|---|
 
+*Enroll courses in LinkedIn Learning*
+
 Learning time spent in LinkedIn Learning courses is communicated by the LinkedIn content/LinkedIn platform to Learning Manager learning platform.
 
 In case LinkedIn learning does not send the learning time, it cannot be recorded by our learning platform. In such case, learning time spent displayed by Learning Manager is zero.
@@ -401,11 +432,15 @@ After the learner starts a course, the learner can see the status **File Submiss
 
 ![](assets/pending-approval.png)
 
+*Status of file submission*
+
 To upload the file, click **Upload File**.
 
 Upload any file and click the **Submit** button.
 
 ![](assets/upload-file.png) ![](assets/pending-file-approval.png)
+
+*Submit a file*
 
 ## Supported file types for upload {#supportedfiletypesforupload}
 
@@ -446,15 +481,15 @@ Upload any file and click the **Submit** button.
 
 ## Approval or rejection of submission {#approvalorrejectionofsubmission}
 
-After you upload the file, the status changes to **Pending Approval. **The instructor then views the list of [pending submissions](https://helpx.adobe.com/captivate-Learning Manager/instructors/feature-summary/learners.html#Approveorrejectsubmissions) and approves or rejects the submission via the Instructor web app.
+After you upload the file, the status changes to **Pending Approval.**. The instructor then views the list of [pending submissions](/help/migrated/instructors/feature-summary/learners.md) and approves or rejects the submission via the Instructor web app.
 
 When the instructor approves the submission, the status on the Learner mobile app changes to **Approved**.
 
-![](assets/approved.jpg)
+<!--![](assets/approved.jpg)-->
 
 When the instructor rejects the submission, the status on the Learner mobile app changes to **Rejected**. 
 
-![](assets/rejected.jpg)
+<!--![](assets/rejected.jpg)-->
 
 To submit the file again, click the link **Upload File**.
 
@@ -462,11 +497,11 @@ To submit the file again, click the link **Upload File**.
 
 In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the following **Home** screen:
 
-![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
+<!--![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)-->
 
 To navigate to learning and catalog features, tap the **Menu** drop-down and choose appropriate option.
 
-![](assets/menu-ipad.png)
+<!--![](assets/menu-ipad.png)-->
 
 You have an option to view the set of courses in a list view instead of tiled/cards view. 
 
@@ -479,6 +514,8 @@ You can access the Learning Manager app off-line in iPad and Android tablets. Yo
 
    ![](assets/download-cards.png)
 
+   *Download the content*
+
    A prompt appears in a bar at the top of the app denoting the network status of the device. 
 
    * Red bar indicates that the network is not available for the device. 
@@ -486,7 +523,7 @@ You can access the Learning Manager app off-line in iPad and Android tablets. Yo
 
 User can switch back to online mode by clicking **view online content** button on the green bar. Content in the device is synchronized when the user switches to online mode. 
 
-## Track device storage {#trackdevicestorage}
+<!--## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 
@@ -498,4 +535,4 @@ An app storage information dialog appears as shown below.
 
 ![](assets/app-storage.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.-->
