@@ -24,11 +24,15 @@ Features a video or image carousel with an embedded URL. The [Administrator can 
 
 ![](assets/learner-masthead.png)
 
+*View masthead*
+
 ## My Learning List {#mylearninglist}
 
 Displays the training that the learner had taken. These trainings are displayed as cards lined up horizontally. You can click the right or left button to browse the courses. 
 
 ![](assets/learner-my-learning-list.png)
+
+*View My Learning list*
 
 You can also can also swipe left and right to navigate through the list.
 
@@ -42,6 +46,8 @@ If you hover on any course card in the **Recommended based on your areas of inte
 
 ![](assets/add-my-learning.png)
 
+*Add to My learning List*
+
 ## Choose skill levels {#chooseskilllevels}
 
 As a learner, you can filter the course catalog according to these levels:
@@ -54,11 +60,15 @@ Choose an option and you can then see the course catalog according to the select
 
 ![](assets/skill-levels.png)
 
+*Select skill levels*
+
 ## Calendar {#calendar}
 
 Shows your scheduled sessions and training. Browse the calendar to see training for subsequent months. 
 
 ![](assets/learner-calendar.png)
+
+*View calendar for scheduled sessions*
 
 The Calendar widget has the following features. You can view:
 
@@ -71,6 +81,8 @@ The Calendar widget has the following features. You can view:
 
 ![](assets/social-feed.png)
 
+*View social feed*
+
 See what other users are talking about.
 
 The widget summarizes activity for a period. It:
@@ -82,13 +94,18 @@ The widget summarizes activity for a period. It:
 
 Profile skills are used for course recommendations. If the Administrator assigns a skill to a user or group of users, the skill gets added to the profile skills of the learner. If the learner adds a skill to his/her profile, all levels of the skill get added to the learner's profile skills. When a learner hovers on a skill, he/can see the name of the skill, method of addition of the skill, level, percent of completion of the skill, and credits.
 
-![](assets/profile-skills.png) If a learner enrolls in a course, only the external skills that are based on a score get added to the profile skills. In addition, a learner can search, select, and add external skills to his/her profile.If a learner has logged in to the learner app for the first time, and if the learner's skills are already present, the skills appear on My Profile. 
+![](assets/profile-skills.png) 
+*View profile skills*
+
+If a learner enrolls in a course, only the external skills that are based on a score get added to the profile skills. In addition, a learner can search, select, and add external skills to his/her profile.If a learner has logged in to the learner app for the first time, and if the learner's skills are already present, the skills appear on My Profile. 
 
 ## Recommendation based on your area of interest {#recommendationbasedonyourareaofinterest}
 
 Displays training based on your chosen area of interest. The recommendation is driven by a Machine Learning algorithm. 
 
 ![](assets/learner-recommendation.png)
+
+*View recommended courses*
 
 For more targeted recommendations, you can update your skills by clicking on **View/Update**. 
 
@@ -110,6 +127,8 @@ In the Skill Map visualization, you can search for a skill or skills and add tho
 
 ![](assets/learner-add-industry-skills.png)
 
+*Skill map visualization*
+
 Enable the option **Show Skills for which trainings are present in my account**, if you want to display all the skills that are in your account.
 
 After you add a skill, you can see the force directed graph with the selected skill as the primary vertex and the associated skills as smaller vertices.
@@ -117,6 +136,8 @@ After you add a skill, you can see the force directed graph with the selected sk
 The skills that you chose also displays in the **Selected Skills** section.
 
 ![](assets/learner-add-industry-skills-1.png)
+
+*Selected skills*
 
 To add the skills, click **Add**.
 
