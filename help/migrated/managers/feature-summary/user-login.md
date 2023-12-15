@@ -20,6 +20,8 @@ When you are using Adobe Learning Manager for the first time, you need to create
 
    ![](assets/adobeid-signin.png)
 
+   *Sign in to Adobe Learning Manager*
+
 1. Enter Adobe ID, password and click Sign in.  
 
    If you forgot password, click Forgot password? link and provide your email-id that you used for creating Adobe ID.
