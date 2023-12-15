@@ -25,6 +25,7 @@ As the Learners register for your module, you can see the latest status of the e
    You can view the Seat Limit, number of seats that are currently filled, and the number of seats vacant. A table also lists the Learners who have been waitlisted. This is blank if there are no waitlist queues.
 
    ![](assets/waitlist.png)
+   *View waitlisted learners*
 
 1. From the Waitlist table, select the Learner or Learners whom you want to confirm.
 1. Select Actions > Confirm Learners.
@@ -34,6 +35,7 @@ As the Learners register for your module, you can see the latest status of the e
 Instructors have the capability to unenroll learners from sessions. This also unenrolls them from corresponding learnings. Select **[!UICONTROL Waitlist]** tab. Select the learners to unenroll using the checkbox. To unenroll, select **[!UICONTROL Actions]** > **[!UICONTROL Unenroll learners]**.
 
 ![](assets/unenroll-learners.png)
+*Unenroll the learners*
 
 ## Mark attendance for your session {#markattendanceforyoursession}
 
@@ -49,6 +51,7 @@ You can view the number of confirmed Learners who are attending the session, the
    A Learner cannot complete a module until the Attendance status reads Attended.
 
    ![](assets/markattendance.png)
+   *Mark learner attendance*
 
 ## Send emails to learners {#sendemailstolearners}
 
@@ -68,6 +71,7 @@ After the attendee list is confirmed for your session, you can export the list a
 Notice a QR code at the top right corner of this PDF. This functionality allows individual learners to scan the code using the Learning Manager mobile app for learners to mark their attendance. 
 
 ![](assets/exportpdf.png)
+*Scan the QR code to mark attendence* 
 
 ## Approve or reject submissions {#approveorrejectsubmissions}
 
@@ -89,6 +93,7 @@ If leaners have uploaded documents like assignments, reports, or assessments for
 1. From the Select Reminder tile, click Set Reminder.
 
    ![](assets/setreminder.png)
+   *Configure reminders for your session*
 
 1. Do the following:
 
@@ -97,6 +102,7 @@ If leaners have uploaded documents like assignments, reports, or assessments for
    * Set the recurrence for your reminder.
 
    ![](assets/remindersettings.png)
+   *View reminder settings*
 
 1. Do one of the following:
 
