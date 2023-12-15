@@ -19,6 +19,7 @@ Adobe Learning Manager supports 15 invocation points across Admin, Author, Learn
    For this example, select **[!UICONTROL Admin]**, **[!UICONTROL Author: Course]**, **[!UICONTROL Learning Path]** - **[!UICONTROL Instances]** - **[!UICONTROL Instance row]**.
 
    ![extension image](assets/list-native-extensions.png)
+   *Select invocation point*
 
 1. Type the extension label that will appear on the UI in the **[!UICONTROL Extension Label]** field.
 1. Type the URL where you want to host the extension in the **[!UICONTROL URL]** field.
@@ -51,6 +52,7 @@ Adobe Learning Manager supports 15 invocation points across Admin, Author, Learn
 1. Select **[!UICONTROL More]** in the Instances section. The extension appears in the Instances section.
 
    ![instances image](assets/instances-extension.png)
+   *Select the extension*
 
    When you select the extension, the extension appears in the modal.
 
@@ -62,6 +64,7 @@ Adobe Learning Manager supports 15 invocation points across Admin, Author, Learn
 1. Select **[!UICONTROL More]** in the Instances section. The extension appears in the Instances section.
 
    ![instances image](assets/instances-extension.png)
+   *Access extension as an author*
 
    When you select the extension, the extension appears in the modal.
 
@@ -70,12 +73,14 @@ Adobe Learning Manager supports 15 invocation points across Admin, Author, Learn
 As an Admin, you can view all extensions on the Native Extensions page. To see the list, select Native Extensions in the left panel of the app.
 
 ![view extensions image](assets/view-extensions.png)
+*View all extensions*
 
 ## Enable or disable an extension
 
 As an Author, on the Settings page of a Course, you can enable or disable an extension for a Course, Certification, or a Learning Path.
 
 ![activate extension image](assets/activate-extension.png)
+*Activate an extension*
 
 ## Share an Access key
 
@@ -88,6 +93,7 @@ Access key must be shared for enrolling in course or Learning Path and certifica
 In the Settings tab, generate the key.
 
 ![share key image](assets/share-extension.png)
+*Share the access key*
 
 ## Download extension report
 
@@ -98,12 +104,14 @@ There are two ways to download this report.
 1. In the Native Extensions page, select **[!UICONTROL Extension Configuration Report]**.
 
    ![report image](assets/extension-config-report.png)
+   *Download extension report*
 
    The report gets generated. 
 
 1. Select OK.
 
    ![generating report image](assets/generating-report.png)
+   *Generating the report*
 
    The report contains the following fields:
 
@@ -123,5 +131,6 @@ There are two ways to download this report.
 1. In **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**, select **[!UICONTROL Extension Configuration Report]**.
 
    ![reports page image](assets/extension-report-page.png)
+   *Download teh report from Reports page*
 
 The state must be in the range **0 - 4294967295**, while configuring the enrollment state.
