@@ -14,7 +14,7 @@ Share to social learning is a bookmarklet that allows learners to share their on
 
 On clicking this bookmarklet from the bookmark bar, it opens as a pop-up window with or within the web page depending on the browser that is to be shared.
 
-![](assets/share-to-social-popup-23.png)
+<!--![](assets/share-to-social-popup-23.png)-->
 
 Ensure that you allow pop-up windows in your browser. 
 
@@ -33,7 +33,7 @@ Add a description for your post and then select the board in which you want to p
 
    Drag-and-drop does not work on few browsers like Chrome in Mac and  Microsoft Edge on Windows. For more information, [click here](share-to-social.md#add%20bookmarkl-let%20manually).
 
-   ![](assets/bookmarklet-2.gif)
+   <!--![](assets/bookmarklet-2.gif)-->
 
 ## Enabling the bookmarks bar on different browsers {#enablingthebookmarksbarondifferentbrowsers}
 
