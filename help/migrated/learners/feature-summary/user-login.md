@@ -19,6 +19,8 @@ When you are using Adobe Learning Manager for the first time, you need to create
 1. Click Log in.
 
    ![](assets/adobeid-signin.png)
+   
+   *Sign in with user name and password*
 
 1. Enter Adobe ID, password and click Sign in.  
 
