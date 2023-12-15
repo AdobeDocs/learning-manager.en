@@ -27,7 +27,12 @@ In Adobe Learning Manager, there is an option that allows you to delete a user i
 
    ![](assets/cp-autodelete-internal.png)
 
-   Leave the field blank in case you do not want to delete users automatically.
+   *Edit the number of days*
+
+>[!NOTE]
+>
+>   Leave the field blank in case you do not want to delete users automatically.
+
 
 1. Click **Save** to retain the settings made.
 
@@ -42,6 +47,8 @@ In Adobe Learning Manager, there is an option that allows you to delete a user i
 1. Click **Advanced Settings** at the bottom left corner.
 
    ![](assets/cp-autodelete-external.png)
+
+   *Select the option Advanced Settings*
 
 1. In the **Login Requirement** field, enter the number of days to auto delete a learner if they have not accessed the system. 
 1. Click **Save** to retain the settings made.

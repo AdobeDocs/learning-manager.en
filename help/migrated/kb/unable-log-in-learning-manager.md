@@ -14,7 +14,7 @@ When trying to log in to Adobe Learning Manager, you see the error below:
 
 *No user found for the given adobeid email in this account. Please link your adobe id to your Learning Manager account before logging in.*
 
-![](assets/prime-error-message.png)
+<!--![](assets/prime-error-message.png)-->
 
 ## Cause
 

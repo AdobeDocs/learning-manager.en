@@ -20,11 +20,15 @@ For example, a learner had enrolled for an instance named **Test instance** of a
 
 ![](assets/test-instance.png)
 
+*View instance*
+
 The learner then opens the course and uploads a file in the Activity module.
 
 When the instructor tries to approve the submission, the instructor is unable to do so.
 
 ![](assets/activity.png)
+
+*Upload a file in the Activity module*
 
 ## Cause
 
@@ -40,11 +44,14 @@ To check if an instructor is added to the course instance, perform the steps bel
 
    ![](assets/check-instructor.png)
 
+   *Select Sessions in the instance*
+
    There is no instructor assigned to this session.
 
 1. Click **Edit**. Add the instructor who approves the file submission.
 
    ![](assets/assign-instructor.png)
 
+   *Add the instructor*
 1. Save the changes.
 

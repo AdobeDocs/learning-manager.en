@@ -24,6 +24,8 @@ A learner, completes the course, but fails the quiz. In this case, the progress 
 
 The issue is related to the reporting **Preferences** set for the project. The author must verify the criteria set for the completion and success of the course.
 
-If there are any changes required, the author can do so using a content authoring tool, such as Adobe Captivate. The author can then update the module accordingly.
+If there are any changes required, the author can do so using a content authoring tool, such as Adobe Captivate Classic. The author can then update the module accordingly.
 
 ![](assets/scorm.png)
+
+*View Captivate Classic Reporting Preferences*

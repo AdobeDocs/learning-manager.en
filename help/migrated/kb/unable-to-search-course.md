@@ -48,6 +48,8 @@ This issue occurs if:
 
    ![](assets/cp-share-internally.png)
 
+   *Share the catalog internally*
+
 1. Review the scenarios below:
 
    * Learner is not part of the catalog
@@ -56,8 +58,12 @@ This issue occurs if:
 
      ![](assets/cp-add-user-group.png)
 
+     *Add the user group*
+
    * Course is not a part of the Catalog
 
      In the Content section, click **Add Content,** and select the course that you need to add to the catalog.
 
      ![](assets/cp-add-content.png)
+
+     *Add content to the course*

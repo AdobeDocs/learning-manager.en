@@ -18,11 +18,15 @@ To generate a HAR file, follow these steps:
 
    ![](assets/preserve-log-checkbox.png)
 
+   *Select the Preserve Log checkbox in the Network tab*
+
 1. Login to [Learning Manager](https://learningmanager.adobe.com/acapindex.html) using your credentials and take the course. Do all the operations which will result in the issue.
 1. In developer tools, right click and select **Save All as HAR with Content**.
 
    In some versions of Google Chrome, you might have to select **[!UICONTROL Copy]** > **[!UICONTROL Copy all as HAR]**.
 
    ![](assets/copy-hra.png)
+
+   *Copy all HAR files*
 
 1. Paste the copied content in a notepad file. Save it to Desktop as **logs.har** and email it to Adobe.

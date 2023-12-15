@@ -41,4 +41,6 @@ The issue occurs due to the following:
 
    ![](assets/scale-layout.png)
 
+   *Change Display settings*
+
 1. Restart the computer.

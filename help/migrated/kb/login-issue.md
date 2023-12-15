@@ -18,6 +18,8 @@ When trying to log in to Adobe Learning Manager, the error message, shown below,
 
 ![](assets/cp-error.png)
 
+*Error message for an expired session*
+
 ## Reason
 
 When a user logs in through SSO, it creates a session cookie that gets stored in the browser. It also enables the user to log in to other applications. Most SSOs are configured to log out after 24 hours. The user has to authenticate again for a new session. 
@@ -38,4 +40,4 @@ There are other reasons as to why this error occurs, but the one above is a comm
 
 ## Reference Links:
 
-[https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+[Microsoft: Conditional access session in a lifetime](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)

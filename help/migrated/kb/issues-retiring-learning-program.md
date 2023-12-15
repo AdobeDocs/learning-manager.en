@@ -28,14 +28,20 @@ To check the course that contains a retired instance, follow the steps below:
 
    ![](assets/retired-instance.png)
 
+   *View list of all courses*
+
 1. Once you have figured out the course instance that has retired, click **Courses** > **Open the course**.   
 
 1. Click **Instances**. On the retired instance, click **Edit** and then edit the completion date to a future date to which you want the instance to retire. 
 
    ![](assets/completion-date.png)
 
+   *Edit the completion date of a course*
+
 1. Once completed, click the drop-down as shown in the image below. Then click **Reopen Instance**.
 
    ![](assets/re-open-instance.png)
+
+   *Repoen the instance of a course*
 
 1. Visit the relevant Learning Program. Click **Instances** and execute the previous step to reopen the instance of the Learning Program.

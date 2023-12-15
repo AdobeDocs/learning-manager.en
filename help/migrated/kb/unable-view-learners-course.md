@@ -18,6 +18,8 @@ The Learners tab of a course does not display any learner enrolled. However, if 
 
 ![](assets/no-learners.png)
 
+*No learner displayed*
+
 ## Cause
 
 If a learner is enrolled through a higher Learning Object (Learning Program or Certification), then the learner will be visible on the higher Learning Object's Learner tab. The learner will not be searchable under the course's Learners tab.

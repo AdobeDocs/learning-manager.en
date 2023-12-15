@@ -25,6 +25,8 @@ Check the current **Skill Credits** and **Point** required information to achiev
 
    ![](assets/advanced-options.png)
 
+   *Select the option Include Skills data and summary sheets*
+
 1. Open the downloaded Learner Transcript report. 
 1. Navigate to the **Skills transcript** sheet. Here, you can view the **Credits Required** and **Credits Earned** by the Learner. 
 
@@ -32,10 +34,16 @@ Check the current **Skill Credits** and **Point** required information to achiev
 
    ![](assets/skill-transcript.png)
 
+   *View required credits*
+
 1. To check credits assigned to a particular skill, log in as an Admin, and navigate to **Skills** tab, as shown below:
 
    ![](assets/skill.png)
 
+   *Launch Skills tab*
+
 1. To check the number of credits assigned to a course, log in as an author, and open the course. Click **Settings** > **Course Skills** as shown below:
 
    ![](assets/course-skills.png)
+
+   *View Course Skills*

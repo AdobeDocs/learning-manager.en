@@ -14,6 +14,8 @@ When trying to upload a CSV in Adobe Learning Manager, you see the following err
 
 ![](assets/csv-upload-failed.png)
 
+*Error message that CSV processing has failed*
+
 ## Cause
 
 The error happens if the data present in the specified column exceeds the character limit that is defined for the column.
@@ -29,6 +31,8 @@ The error happens if the data present in the specified column exceeds the charac
 You are unable to upload a CSV because the first column displays a special character when mapping the columns.
 
 ![](assets/csv-2.png)
+
+*Special character in the Name column*
 
 ## Cause
 
@@ -52,6 +56,8 @@ You are unable to upload a CSV because CSV processing has failed. You see the er
 
 ![](assets/csv-3.png)
 
+*Error mesage for a dupliacet user*
+
 ## Cause
 
 This issue occurs if there is a user who is already present in the system with the same email address or UUID.
@@ -73,8 +79,11 @@ In this scenario, there are two reasons for this error:
 
 For UUID-enabled accounts, this issue can occur if a user has been assigned a UUID that is already being used by another user on the account or if the user has a different email address.
 
-For example, let there be two users, A and B, with email addresses,  a@xyz.com and b@xyz.com with UUID 1 and 2 respectively.
+For example, let there be two users, A and B, with email addresses,  <a@xyz.com> and <b@xyz.com> with UUID 1 and 2 respectively.
 
 Now, if you upload a CSV that has user A's UUID as 3 and user B's UUID as 2, then you will see an error.
 
-To resolve this issue, **you must have the same email address and UUID for the user on the CSV and the system.**
+>[!TIP]
+>
+>To resolve this issue, **you must have the same email address and UUID for the user on the CSV and the system.**
+

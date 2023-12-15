@@ -23,19 +23,27 @@ Adobe Learning Manager supports Identity Provider (IdP) and Service Provider (SP
 
    ![](assets/cp-application-store.png)
 
+   *View application store in Okta*
+
 1. Click **Create App Integration.**   
 
    ![](assets/cp-app-integrations.png)
 
+   *Select Create App Integration*
+
 1. Select **SAML 2.0.**  from the new app integration window. 
 
    ![](assets/cp-saml2.0.png)
+
+   *Select SAML2.0 option*
 
 1. Choose **Create SAML integration** > **General settings page**. Enter an Application Name.
 
    Note that this can be any name to uniquely identify your application. Once done, click **Next**.
 
    ![](assets/cp-saml-integration.png)
+
+   *Enter the name of the application*
 
 1. Perform the following steps on the Configure SAML settings page:
 
@@ -48,6 +56,8 @@ Adobe Learning Manager supports Identity Provider (IdP) and Service Provider (SP
    1. In case you want to pass any additional attributes, you can add the attributes under the **Attributes Statement** (Optional)
 
    ![](assets/cp-saml-integration-step1.png)
+
+   *Add SAML attributes*
 
    **For SP setup:**
 
@@ -65,11 +75,15 @@ Adobe Learning Manager supports Identity Provider (IdP) and Service Provider (SP
 
    ![](assets/cp-saml-integration-step2.png)
 
+   *Add additional attributes*
+
    Once done, click **Next**.
 
 1. The **Feedback**  tab is optional. Once you have selected the options and given your feedback, click **Finish**.
 
    ![](assets/cp-saml-integration-step3.png)
+
+   *Complete SAML setup*
 
 ## Extract IDP initiated URL and Metadata file
 
@@ -80,10 +94,12 @@ To view the IdP/SP initiated URL and Metadata file, perform the below steps:
 
    ![](assets/cp-prime-sso.png)
 
+   *Select SSO tab*
+
    **For IDP:** 
 
    1. The Identity Provider Single Sign-On URL is the IdP initiated URL.
-   1. Copy all the text that is present under the **Optional **field. 
+   1. Copy all the text that is present under the **Optional** field. 
    1. Open a new notepad document and paste the copied text. 
    1. Click **File** > **Save as** > "filename.xml". This will be the metadata file.
 
@@ -93,9 +109,11 @@ To view the IdP/SP initiated URL and Metadata file, perform the below steps:
    1. The Identity Provider Issuer is the Entity ID.
    1. Copy all the text that is present under the **Optional** field. 
    1. Open a new notepad document and paste the copied text. 
-   1. Click **File** > **Save as** > "filename**.xml**". This will be the metadata file.
+   1. Click **File** > **Save as** > **filename.xml**. This will be the metadata file.
 
    ![](assets/cp-saml-integration-step4.png)
+
+   *Save SP XML file*
 
    You need to save this file in an XML format.
 

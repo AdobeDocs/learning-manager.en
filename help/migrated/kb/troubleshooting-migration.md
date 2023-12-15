@@ -14,7 +14,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 ### Unable to log in to FTP folder or content folder {#unabletologintoftpfolderorcontentfolder}
 
-Ensure that your accounts have been created in the FTP and Box services. When you create a migration project, you request to set up these two services. As soon as you create the services, you receive emails from Exavault and Box to reset or set up the passwords. If you do not remember the passwords, you can reset them by visiting the Exavault and Box websites. 
+Ensure that your accounts have been created in the FTP and Box services. When you create a migration project, you request to set up these two services. As soon as you create the services, you receive emails from Exavault and Box to reset or set up the passwords. If you do not remember the passwords, you can reset them by visiting the Exavault and Box websites.
 
 ### Jobs are not reflected even after clicking Refresh button {#jobsarenotreflectedevenafterclickingrefreshbutton}
 
@@ -72,7 +72,7 @@ Ensure that the email id provided as part of userId, assignedByUserID fields bel
 
 ### Courses appear blank or incorrect modules play for a migrated course {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Ensure that the **moduleOrderInCourse** key value for a Course starts with **0** and is in continuous order. The order in terms of  courseModuleType should be PRETEST, TESTOUT, CONTENT.
+Ensure that the **moduleOrderInCourse** key value for a Course starts with **0** and is in continuous order. The order in terms of  courseModuleType should be PRETEST, TESTOUT, CONTENT
 
 Also, make sure that two versions of Activity, Classroom, and VC are not linked with the existing Course.
 

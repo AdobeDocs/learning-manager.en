@@ -28,3 +28,4 @@ The Learning Summary data refreshes according to the following schedules:
 
 ![](assets/learning-summary.png)
 
+*Data refresh message appears at the bottom of the page*
