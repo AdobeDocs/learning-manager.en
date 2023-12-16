@@ -28,7 +28,11 @@ The manager can then filter the report according to ranges like, quarter, this m
 
 ![](assets/manager-learningsummary.png)
 
+*View learning summary*
+
 ![](assets/manager-dashboard.jpg)
+
+*Filter learning summary by date*
 
 ## Compliance Dashboard {#compliancedashboard}
 
@@ -36,11 +40,15 @@ See your team's compliance and which team member is bordering on non-compliance.
 
 ![](assets/compliance-dashboard.png)
 
+*View compliance dashboard*
+
 ## Skills Status {#skillsstatus}
 
 See the percentage of learners for each skill. Choose at most five skills for which you want to see the skills for learners. The visualization is in the form of a stacked bar chart. When you mouse over each bar, you can see the break-up of the status for that skill. 
 
 ![](assets/manager-skills-status.png)
+
+*View status of skills of a learner*
 
 ## Skils Tracker {#skilstracker}
 
@@ -49,6 +57,8 @@ See a projection of skill completion across a team. Choose the target completion
 Based on historical data, you can see a graphical representation of the skill completion projection on the selected date. 
 
 ![](assets/historical-data.png)
+
+*View skill completion projection*
 
 ## Creating reports {#creatingreports}
 
@@ -60,6 +70,8 @@ Based on historical data, you can see a graphical representation of the skill co
 1. Click Save to complete creating a report. A sample report is shown below for reference.
 
 ![](assets/add-report.png)
+
+*Add Report dialog*
 
 In Report Type, you can choose a pre-defined set of reports or choose custom. You can view the following reports as part of pre-defined set of reports:
 
@@ -100,6 +112,8 @@ Filters appear in Add report dialog at the bottom based on types of reports you 
 
 ![](assets/sample-report-admin.png)
 
+*View graph of courses enrolled and completed*
+
 >[!NOTE]
 >
 >Above the legend for the graph, you can view a zoom box. You can move cursor over it, click, and drag the crossbar over any part of the zoom box area you want to zoom in.
@@ -112,9 +126,11 @@ Track how user groups such as departments, external partners, and roles are perf
 
 ### User groups {#usergroups}
 
-To generate reports based on user groups, choose **User Group **in the X-axis from the list of drop-down options as shown in the screenshot below. 
+To generate reports based on user groups, choose **User Group** in the X-axis from the list of drop-down options as shown in the screenshot below. 
 
 ![](assets/x-axis-reporting.png)
+
+*Generate User Group reports*
 
 Another **Select** drop-down appears adjacent to X-axis with a list of user groups available for your account. In this drop-down you can select one or multiple user groups. 
 
@@ -157,6 +173,8 @@ Click this board tab to view all the boards that you created. From the view boar
 
    ![](assets/add-dashboard.png)
 
+   *Create your own board*
+
 1. Provide the name and description of the dashboard and click **Save**.
 
 You can view the recently created board in the My dashboards list.
@@ -192,7 +210,7 @@ You can change the date range/value for any report and view quickly for differen
 If there are multiple managers reporting to you, you can view the reports quickly for each manager. Choose the manager name from the drop-down list to display unique report for each manager.
 **Edit/Move to board/Create a Copy/Delete/Re-size reports**Click the drop-down arrow at the upper-right corner of each report to view drop-down options as Edit/Move to Dashboard/Create a copy/Delete/Resize.
 
-![](assets/edit-options-dashboard-300x126.png)
+<!--![](assets/edit-options-dashboard-300x126.png)-->
 
 **Edit** While modifying data, to go back to initial values, click Reset. Click Save after modifying the values.
 
