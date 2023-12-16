@@ -77,6 +77,7 @@ Follow the steps below:
 1. Click the app and navigate to the Permissions tab. 
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp.jpg)
+   *View the Permissions tab*
 
 1. In the Permissions tab, select ' **[!UICONTROL Grant admin consent for MSFT]**' to give ALM teams app permissions. 
 
@@ -114,4 +115,4 @@ Follow the steps below:
 
 1. Save this policy. This makes the app available to everyone in the organization. 
 
-Alternatively, admins can create a custom policy instead of a global policy. Add Adobe Learning Manager to that custom policy, and then apply the custom policy to only those set of users who need to access ALM.   
+Alternatively, admins can create a custom policy instead of a global policy. Add Adobe Learning Manager to that custom policy, and then apply the custom policy to only those set of users who need to access Adobe Learning Manager.   
