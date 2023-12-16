@@ -35,9 +35,11 @@ Choose the instance type from the drop-down list to view the scores based on eac
 As a manager you can manage learners list for your team members.
 
 1. Click course name on the course thumbnail.
-1. From the left pane, click Learners.
+1. From the left pane, click **Learners**.
 
 ![](assets/courses-learners.png)
+
+*Select a learner action*
 
 You can perform the following actions from the Learners page:
 
@@ -74,15 +76,19 @@ Course effectiveness is evaluated to understand the usefulness of a course to th
 
 You can view the course effectiveness rating on the course thumbnails as shown in the below snapshot. You can see the rating for this course as 100.
 
-![](assets/course-effectiveness-tag1.png)
+<!--![](assets/course-effectiveness-tag1.png)-->
 
 The course effectiveness rating value is arrived considering L1, L2 & L3 feedback values. To view the breakup of each feedback, click the course effectiveness value. A pop-up appears as shown below.
 
 ![](assets/course-effectiveness.png)
 
+*View course effectiveness for feedback*
+
 In this sample snapshot, 1 out 1 users received all the three feedbacks, hence the score is 100/100. From this table, you can understand that if any of the three feedbacks (L1, L2 and L3 ) are not provided for a course, there is a negative impact on the overall effectiveness. Click the down-arrow at the lower-right corner of the pop-up to view how course effectiveness calculations are done.
 
 ![](assets/course-effectiveness-calculations.png)
+
+*Calculation of course effectiveness*
 
 As per the pie-chart shown above, more weightage is given to L3 feedback from manager.
 
@@ -96,6 +102,8 @@ Adobe Learning Manager makes it easier for you to find the courses/learning prog
 You can search based on competencies by clicking Competencies and choosing them. As a manager you can sort the courses in four ways, to better locate your required course. Click Sort By and choose alphabetical ascending order, alphabetical descending order, course updated date, or effectiveness of courses:
 
 ![](assets/admin-sortby.png)
+
+*Serach based on competencies*
 
 You can sort learning programs in three ways: alphabetical ascending order, alphabetical descending order and based on updated date.
 
@@ -164,6 +172,8 @@ When attempting to accept or reject a learner for enrollment, a manager can now 
 
 ![](assets/approve-a-learner.png)
 
+*Approve or reject a learner's enrollmebt request*
+
 The following session details are displayed:
 
 * Session name
@@ -178,6 +188,8 @@ Here's the workflow:
 1. The manager clicks **Session Details**.
 
    ![](assets/pending-tasks.png)
+
+   *View pending tasks*
 
 1. The manager then approves or rejects the request.  
 1. The manager gets a confirmation or error message if approval or rejection didn't happen as expected.  
@@ -194,6 +206,8 @@ When the Manager accepts without waiting for the file submission, the learner is
 If learner submits the file, Manager can view the file from the submission page and can Accept or Reject based on the submitted file.
 
 ![](assets/optional-submission.png)
+
+*Accept or reject based on file submission*
 
 When courses are set as mandatory:
 

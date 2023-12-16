@@ -19,13 +19,15 @@ Adobe Learning Manager enables the Managers of an organization to generate the t
 
    ![](assets/learner-transcripts.png)
 
+   *Create reports for learner transcripts*
+
 1. A Learner transcripts dialog appears. Choose the date range for which you need the transcript generated.
 
    >[!NOTE]
    >
    >By default, from start date is the learner's registration date and the to date is always the current date. You can modify only the start date from when you need the data.
 
-1. Choose the learners names from the Select Learners field, and click **Generate.**
+1. Choose the learners names from the Select Learners field, and click **Generate**.
 
 You can choose single learner or groups of learners. To add more than one learner, click Add More Learners.
 
@@ -42,6 +44,8 @@ If the Manager enables this option, the timezone is picked from the one set in t
 >For a new Manager, the Timezone checkbox is disabled.
 
 ![](assets/image030.png)
+
+*Download learner transcripts for a time zome*
 
 ## Learner Transcript file content {#learnertranscriptfilecontent}
 
