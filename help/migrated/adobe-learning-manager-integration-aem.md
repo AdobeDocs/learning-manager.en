@@ -63,6 +63,8 @@ To approve the application, click **Approve**.
 
    ![](assets/access-tokens.png)
 
+   *Select Access Tokens for Testing and Development*
+
 1. Enter the following details:
 
    ![](assets/access-token-details.png)
@@ -198,6 +200,8 @@ The ALM reference site package provides a "Learning Site Blueprint," which enabl
 
    ![](assets/learning-site-blueprint.png)
 
+   *Create site from blueprint*
+
 1. Click Next.   
 
 1. On the properties page, enter the page metadata. Click Create. 
@@ -238,7 +242,7 @@ However, if you want to use these newly added Learning Manager components to you
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   The preceding code adds the mapped configuration in the meta tag of the page, which is required for the learning components to render. For more details, see [https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   The preceding code adds the mapped configuration in the meta tag of the page, which is required for the learning components to render. For more details, see [Adobe Learning Manager reference sitr](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Ensure that you have mapped the configuration with the web project.  
 1. Open the AEM Sites template where you want to import the Learning Manager components.  
