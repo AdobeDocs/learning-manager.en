@@ -16,6 +16,8 @@ In Learning Manager web application, after you log in as a learner, you can see 
 
 ![](assets/l-1.png)
 
+*View widgets for learning*
+
 **My Learning**: You can view and click the learning objects by type and by deadline. Click the circle in the My Learning widget to directly go to the learning object type, or to view the learning objects by deadline.
 
 **My Skills**: You can also view skills map at the upper-right corner of the page. Refer  [skills map](skills-levels.md)feature for more information.
@@ -46,9 +48,13 @@ In Learning Manager app on iPad or Android tablet, after you log in as a learner
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-To navigate to learning and catalog features, tap the **Menu **drop-down and choose appropriate option.
+*Home tab on the app*
+
+To navigate to learning and catalog features, tap the **Menu** drop-down and choose appropriate option.
 
 ![](assets/menu-ipad.png) 
+
+*Items on the Menu drop-down*
 
 ### Access the app off-line
 
@@ -59,9 +65,11 @@ You can access the Learning Manager app off-line in iPad and Android tablets. Do
 
 ![](assets/download-ipad.png)
 
+*Download the courses*
+
 1. When you are online, a prompt appears in a bar at the top of the app to check if you want to synchronize your content online. Tap the red-colored bar if your answer is yes. A green colored bar indicates your content is in sync with the online app.
 
-### Track device storage
+<!--### Track device storage
 
 You can monitor your device storage periodically.
 
@@ -73,4 +81,4 @@ An app storage information dialog appears as shown below.
 
 ![](assets/device-storage-detailed-e1439211162955.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.-->

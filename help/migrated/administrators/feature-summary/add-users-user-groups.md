@@ -10,7 +10,7 @@ contentowner: manochan
 
 Learn how to add users or user groups in Learning Manager application.
 
-![](assets/user-mgmt-new.png)
+<!--![](assets/user-mgmt-new.png)-->
 
 ## Overview {#overview}
 
@@ -199,6 +199,7 @@ To enroll external users, follow the steps below:
 1. In the left navigation pane, click **External**.
 
    ![](assets/click-external.png)
+   
    *Enroll external users*
 
 1. On the upper-right corner of the page, click **Add**.
@@ -211,13 +212,17 @@ To enroll external users, follow the steps below:
 
    ![](assets/map-data-fields-2.png)
 
-   * In the Advanced Settings section, enter the following:
+   *Add External Registration Profile dialog*
+
+   * In the **Advanced Settings** section, enter the following:
 
      * **Login Requirement:** Specify a value in days. Learners get deleted if they do not login for the above duration.
      * **Allowed Domains:** A comma-separated list of whitelisted email domain names.
      * **Email Verification Required:** Select this option to make email verification mandatory for a learner.
 
    ![](assets/email-verificationrequired.png)
+
+   *Enter the details in the Advanced Settings section* 
 
 1. After you click **Save**, you can see the following confirmation message. You must share the URL with your external partner.
 
@@ -318,6 +323,8 @@ You can use this feature when you want to import/sync the users or learning data
 Click **Data Sources** on the left pane under **Advanced** section. 
 
 ![](assets/data-sources-add-users.png)
+
+*Data sources to iport or sync users*
 
 Choose the data source type from the **Source** drop-down, select the update frequency, and click **Sync now** if you need to sync immediately or click **Save.** Data source types are SFDC, FTP, and so on for internal users. 
 

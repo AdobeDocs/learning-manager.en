@@ -165,6 +165,8 @@ The content library also maintains versioning of your uploaded contents. If you 
 
    ![](assets/webvtt.png)
 
+   *Add a webvtt file*
+
    The uploaded VTT file corresponds to the existing version of the content. Thus uploaded webVTT file does not link to the older version of content.
 
    In case you are creating the content in different languages, you can upload a different webVTT file for each language. Learners will be able to see the captions corresponding to the language selected during playback.
@@ -250,6 +252,8 @@ When you add a content, you can choose the folder where the content will reside.
 
 ![](assets/add-to-content-folder.png)
 
+*Add content to folder*
+
 If you choose **Public**, the content will be visible to all authors. All content that existed in the account that are not part of any folder will in the public folder, by default.
 
 Note that content folders are simply virtual compartments to link the content. In case one content is placed in two folders, it means that content file is always one single file but linked to multiple folders. Thus, in case the content is updated by the custom-author-1 having access to custom-folder-1, the same updated content will also reflect in custom-folder-2 accessed by custom-author-2.
@@ -262,11 +266,15 @@ It's a list that displays all folders that were created in the account.
 
 ![](assets/list-of-all-folders.png)
 
+*View all folders*
+
 **All Authors**
 
 It's a list that displays the authors who've created content and uploaded it in the library.
 
 ![](assets/list-of-all-authors.png)
+
+*View all authors*
 
 This is available **only** when an Administrator creates a new folder.
 
@@ -278,9 +286,13 @@ To move a public folder content to any private folder,
 
    ![](assets/list-of-public-folders.png)
 
+   *View all uploaded content*
+
 1. Choose the content that you'd like to move it to a folder. Then click **Actions > Organize Content > Move Content to Folder**. 
 
    ![](assets/move-content-to-folder.png)
+
+   *Move a selected content to folder*
 
 1. Choose the folder where you want to move the content to. Click **Move**.
 
@@ -290,11 +302,13 @@ Copying a folder means that you'd be adding a tag to the folder. The copy operat
 
 ![](assets/copy-content-to-folder.png)
 
+*Copy a folder*
+
 ## Unlink folder {#unlinkfolder}
 
 Unlinking means to remove the content from the selected folder.
 
-Content can be unlinked from a specified folder **ONLY **if it is also associated with other folders. If content being unlinked, is only associated with one folder, then it is advisable to use MOVE operation instead.
+Content can be unlinked from a specified folder **ONLY** if it is also associated with other folders. If content being unlinked, is only associated with one folder, then it is advisable to use MOVE operation instead.
 
 >[!NOTE]
 >
@@ -302,11 +316,15 @@ Content can be unlinked from a specified folder **ONLY **if it is also associate
 
 ![](assets/unlink-a-folder.png)
 
+*Unlink a folder*
+
 ## Add content for different languages {#addcontentfordifferentlanguages}
 
-1. To add the content for different languages, click the Add New Language tab, and choose the required languages. Using this approach, you can add multi-lingual support for your content.
+1. To add the content for different languages, click the **Add New Language** tab, and choose the required languages. Using this approach, you can add multi-lingual support for your content.
 
    ![](assets/add-new-languagetab.png)
+
+   *Add new language for a content*
 
 1. Repeat the content upload process for the new languages.
 1. If you want to remove a language, click the Add New Language tab, and clear your selection.
@@ -375,17 +393,21 @@ If the learner has launched the course and failed the quiz, then the course will
 
 ## Content filter options {#contentfilteroptions}
 
-## Sort according to date {#sortaccordingtodate}
+### Sort according to date {#sortaccordingtodate}
 
 Arrange the content according to when the content was modified last. You can either sort the content in ascending or descending order.
 
 ![](assets/according-to-date.png)
 
-## Sort according to usage {#sortaccordingtousage}
+*Sort content by date*
+
+### Sort according to usage {#sortaccordingtousage}
 
 Arrange the content according to whether the content is being used in any course. In the Type drop-down, choose In Use or Unused.
 
 ![](assets/according-to-usage.png)
+
+*Sort content by usage*
 
 ## Search for content {#searchforcontent}
 
@@ -393,7 +415,7 @@ In the Content Library, you can search for a content by choosing either the name
 
 On the Search bar, enter the name of a course or a tag, and you can see the recommendations.
 
-![](assets/search-bar.png)
+<!--![](assets/search-bar.png)-->
 
 ## Retire content {#retirecontent}
 
@@ -428,10 +450,18 @@ Note that existing courses that use the content, which are deleted from the cont
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-1 - **How to upload a SCORM content in Adobe Learning Manager?** Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Learning Manager, upload the zip file in the catalog, and set the completion and success criteria. 
++++ How to upload a SCORM content in Adobe Learning Manager?
 
-2 - **How do I upload a new version of the same content to Learning Manager?** In Learning Manager, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course. 
+Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Learning Manager, upload the zip file in the catalog, and set the completion and success criteria.
++++
 
-3 - **How to edit the details of a course in a different language?** After adding a language/languages, as described in an earlier section, click each language tab, and then add/edit the course information. 
++++How do I upload a new version of the same content to Learning Manager?
 
-![](assets/edit-course-language.png)
+In Learning Manager, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course.
++++
+
++++How to edit the details of a course in a different language?
+After adding a language/languages, as described in an earlier section, click each language tab, and then add/edit the course information. 
+
+<!--![](assets/edit-course-language.png)--->
++++

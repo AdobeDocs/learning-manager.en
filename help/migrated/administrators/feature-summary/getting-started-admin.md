@@ -18,7 +18,7 @@ Browse through the sample video tutorials to understand the key features of your
 
 Click **Close Window** to close the pop-up.
 
-![](assets/welcome-videos-e1439961904106.png) 
+<!--![](assets/welcome-videos-e1439961904106.png)-->
 
 ## Getting started page {#gettingstartedpage}
 
@@ -31,4 +31,4 @@ From the getting started page, you can perform the following activities:
 
 You can also learn more about the Learning Manager application by choosing to view tutorial videos, help content and learn about different roles.
 
-![](assets/admin-landing-page-300x204.png)
+<!--![](assets/admin-landing-page-300x204.png)-->

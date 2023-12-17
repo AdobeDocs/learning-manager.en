@@ -18,7 +18,10 @@ This allows the customer to white label the login and access experience, such th
 
 For instance, you'd like to customize your domain such that your users get the same experience as if they are on the Adobe domain. If ABC Inc wants to train their customers, it would like them to land on a domain called `abc.com/mylearning`, instead of `learningmanager.adobe.com/abc-inc/mylearning`. 
 
-As a pre-requisite, you must register the domain and then Adobe will guide you through customizing the url.
+>[!NOTE]
+>
+>As a pre-requisite, you must register the domain and then Adobe will guide you through customizing the url.
+
 
 Custom domain feature is available at an additional cost. Please contact your Customer Success Manager to know more details. 
 

@@ -31,9 +31,13 @@ You can add a classroom location by using the UI:
 
    ![](assets/add-classroom-location.png)
 
+   *Add a classroom location*
+
 After adding the location, the **Settings > Classroom Locations** page lists the meeting rooms:
 
 ![](assets/list-meeting-rooms.png)
+
+*View all meeting rooms*
 
 The list has the following fields:
 
@@ -42,6 +46,8 @@ The list has the following fields:
 **Future Sessions** - Number of events that will occur in the corresponding location. Click the number to view the details in a dialog box.
 
 ![](assets/sessions-list.png)
+
+*View future sessions*
 
 The dialog box displays the details of each session including the name of the session, name of the training that includes the session, and session schedule. The displayed time aligns with the system time zone of the learner.
 
@@ -77,6 +83,8 @@ An Author or Administrator can start typing the location name to see the relevan
 When a classroom is added, the learning platform also indicates if the classroom is already booked for the mentioned time-period. It even provides alternate time slots as suggestions. Therefore, this enables the Author to adjust the meeting time if he decides to use the same classroom location.
 
 ![](assets/classroom-search.png)
+
+*Search for classrooms*
 
 ## Confine to pre-determined list of instructors
 
@@ -116,6 +124,8 @@ There is a template called **Session Cancellation** that helps in cancelling a s
 On the **Course Instance** page, every session listed under a course instance includes an option to cancel the session.
 
 ![](assets/cancel-session.png)
+
+*Cancel an existing session*
 
 When you click the **Cancel Session** link, a warning message appears.
 

@@ -27,6 +27,8 @@ To create an instance,
 
    ![](assets/view-course.png)
 
+   *View a course*
+
 1. To create instances, click **Instances** on the left pane. Every course has an instance by default. You can either modify the default instance or add instances. You cannot delete this course instance.
 1. To create an instance, click **Add New Instance** on the upper-right corner of the course information. A new instance of the course is displayed.
 1. Enter the properties of the instance:
@@ -41,9 +43,13 @@ To create an instance,
 
    ![](assets/create-an-instance.png)
 
+   *Set completion deadline*
+
 ## View properties of the instance {#viewpropertiesoftheinstance}
 
 ![](assets/properties-of-aninstance.png)
+
+*View properties of the instance*
 
 1. **Modules:** The number of modules created by the author of the course
 1. **Learners Enrolled:** The number of learners that were enrolled in the course by the Administrator.
@@ -58,6 +64,8 @@ To retire an instance, perform the steps below;
 
    ![](assets/retire-an-instance.png)
 
+   *Retire an instance*
+
 1. To search for all retired instances, click the tab **Retired** on the Instances page.
 
 ## Restore an instance {#restoreaninstance}
@@ -68,6 +76,8 @@ To restore a retired instance to an activate state, perform the following steps:
 
    ![](assets/restore-an-instance.png)
 
+   *Restore an instance*
+
 1. The instance now gets restored to an active mode.
 
 ## Send instance-level emails
@@ -77,6 +87,8 @@ To send instance-level emails to enrolled learners:
 1. On the Instances page, select the options on any instance, and then click **[!UICONTROL Email Enrolled Learners]**.
 
 ![instance level emails](assets/adhoc-email.png)
+
+*Email learners enrolled in the instance*
 
 1. On the Create Announcement dialog, select Type as Email. Specify the subject, type the message, and click Save. The training is selected automatically.
 
@@ -96,6 +108,8 @@ To send instance-level emails to enrolled learners:
 
    ![Enroll learners](assets/enroll-learners-new.png)
 
+   *Publish the course*
+
 1. In the [!UICONTROL **Enroll Learners**] dialog, you can:
 
    * Select an instance to enroll a learner from the Select Instance dropdown.
@@ -106,6 +120,8 @@ To send instance-level emails to enrolled learners:
 1. Select **[!UICONTROL Proceed]**.
 
    ![proceed](assets/proceed.png)
+
+   *Proceed to enrolling learners*
 
 ### View enrollment report of an instance
 
@@ -152,6 +168,8 @@ For sending the email notifications, an Admin must explicitly choose the escalat
 
 ![](assets/escalation-notification.png)
 
+*Set escalation level*
+
 ## Course moderation {#coursemoderation}
 
 Whenever an author adds, updates, or deletes modules and republishes a course, all the administrators receive notification about the same. As an administrator, you can then view the changes, compare the old and new content by clicking on the link, and either approve or reject the changes accordingly.
@@ -160,9 +178,13 @@ To enable Course Moderation, click **Settings > General**. Select the **Course M
 
 ![](assets/2.png)
 
+*Enable course moderation*
+
 Click on the notification to view the changes the author has made to the course. Then, either approve or reject the changes made by the author. If you choose to approve, the course will be republished. If you reject the updates, the previous version of the course will continue to exist. In either case, a notification is sent to the author.
 
 ![](assets/1.png)
+
+*Author requests for course updates*
 
 If there are multiple authors who are updating the same course, the latest or the last performed change will reflect in the administrator's notification. You can then approve or reject the latest changes.
 
@@ -182,9 +204,13 @@ You can make all questions or the first question mandatory in an L1 feedback.
 
 ![](assets/make-all-questionsmandatory.png)
 
+*Make all questions or the first question mandatory in an L1 feedback*
+
 Now, you can create the questions, which now become mandatory.
 
 ![](assets/create-mandatoryquestions.png)
+
+*Create the questions*
 
 If the two mandatory questions, for some reason, doesn't have any text, the questions will not appear in the feedback form.
 
@@ -195,6 +221,8 @@ If the two mandatory questions, for some reason, doesn't have any text, the ques
 In Instance Defaults page, if you enable **Make All Questions Mandatory**, then all new instances created thereafter will inherit these settings.
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png)
+
+*View the Instance Defaults page*
 
 ## L1 feedback at course level {#l1-feedback-course-level}
 
@@ -210,9 +238,13 @@ In this release of Learning Manager, the Administrator can send L1 feedback for 
 
    ![](assets/enable-l1-feedbackforcourse.png)
 
+   *Enable course feedback*
+
    Only enabling this toggle at the Learning Program level will not trigger the L1 feedback for the courses inside this program. For enabling the L1 feedback, go to each course in the Learning Program and enable the L1 Feedback toggle. 
 
    ![](assets/l1-reaction-feedback.png)
+
+   *Enable L1 feedback for each course*
 
    If L1 feedback is enabled for all courses, but is disabled in the learning Program instance, then the L1 feedback will not be triggered for the courses.
 
@@ -228,6 +260,8 @@ This is now rectified as the Admin is now able to view all the reports in the re
 
 ## Enable L1 feedback at account level {#l1-feedback-account-level}
 
+*Enable L1 feedback at account level*
+
 An Admin will be able to enable L1 feedback for newly created courses and Learning Program by turning on this setting at account level. However, turning on this setting doesn't impact the existing courses and Learning Programs
 
 If enabled, all new trainings and new instances will have the feedback enabled by default. In case an author/admin visits the instance, instance defaults and switches it off manually, then it gets honored.
@@ -236,15 +270,19 @@ To enable L1 feedback, in the Admin app, click **Settings > Feedback**.
 
 ![](assets/l1-feedback-settings.png)
 
+*View the Feedback Settings page*
+
 Click **Edit** on the upper-right corner and toggle the option to enable L1 feedback.
 
 When an author creates a course, on the Instance page of the Admin app, the **L1 feedback is automatically enabled** for the new course.
 
-![](assets/l1-feedback-enabled.png)
+<!--![](assets/l1-feedback-enabled.png)-->
 
 You can also disable the L1 feedback by toggling the **Enable** option, as shown below:
 
 ![](assets/disable-l1-feedback.png)
+
+*Enable or disable the L1 feedback*
 
 ## Add descriptive questions for L1 and L3 feeedback {#descriptive}
 
@@ -256,21 +294,29 @@ Once you enable L1 feedback, you can view the options as shown in the following 
 
 ![](assets/l1-feedback-desc-questions.png)
 
+*Add descriptive questions for L1 and L3 feeedback*
+
 If you want the questionnaire to appear to the learner immediately after course completion, you can choose the option accordingly.
 
 A sample output of the L1 questionnaire is provided below for your reference. Learners can view the questionnaire in the below format. Test-1 and Test-2 are the descriptive questions. 
 
 ![](assets/l1-output.png)
 
+*A sample course feedback questions*
+
 Once you enable the L3 feedback, you can view the options as shown in the below snapshot: 
 
 ![](assets/l3-feedback-desc-questions.png)
+
+*Enable L3 feedback*
 
 Question 2 is the descriptive question for L3 feedback. You can make it mandatory by clicking the option accordingly below the question. 
 
 A sample output of the L3 questionnaire is provided below for your reference. Learners can view the questionnaire in the below format. 
 
 ![](assets/l3-output.png)
+
+*View L3 feedback output*
 
 ## Set up L1 and L3 feedback questionnaire {#setupl1andl3feedbackquestionnaire}
 
@@ -294,6 +340,8 @@ In L1 feedback, you can see two sets of questionnaire along with a default quest
 From the list of courses, open a course that contains a checklist. On the left pane, you will see an option **Checklist**.
 
 ![](assets/export-checklist.png)
+
+*Export checklist data*
 
 Click the option and on the course page, perform the following:
 
@@ -339,9 +387,11 @@ Choose the instance type from the drop-down list to view the scores based on eac
 ## Manage learners list for a course {#managelearnerslistforacourse}
 
 1. Click course name on the course thumbnail.
-1. From the left pane, click Learners.
+1. From the left pane, click **Learners**.
 
 ![](assets/courses-learners.png)
+
+*Select learners in a  course*
 
 You can perform the following actions from the Learners page:
 
@@ -365,6 +415,8 @@ On the course details page, click **Attendance and Scoring** on the right pane.
 On the top right-corner of the page, click the **Actions** drop-down list. Then click the option **Export Learner List (PDF)**.
 
 ![](assets/export-list-of-learners.png)
+
+*Export list of learners as PDF*
 
 On the PDF, you can view the same set of learners as an instructor does.
 
@@ -402,15 +454,19 @@ Course effectiveness is evaluated to understand the usefulness of a course to th
 
 Administrator can view the course effectiveness rating on the course thumbnails as shown in the below snapshot. You can see the rating for this course as 100.
 
-![](assets/course-effectiveness-tag1.png)
+<!--![](assets/course-effectiveness-tag1.png)-->
 
 The course effectiveness rating value is arrived considering L1, L2 & L3 feedback values. To view the breakup of each feedback, click the course effectiveness value. A pop-up appears as shown below.
 
 ![](assets/course-effectiveness.png)
 
+*View course effectiveness for L1, L2, and L3 feedback*
+
 In this sample snapshot, 1 out 1 users received all the three feedbacks, hence the score is 100/100. From this table, you can understand that if any of the three feedbacks (L1, L2 and L3 )are not provided for a course, there is a negative impact on the overall effectiveness. Click the down-arrow at the lower-right corner of the pop-up to view how course effectiveness calculations are done.
 
 ![](assets/course-effectiveness-calculations.png)
+
+*Course effectiveness calculation*
 
 As per the pie-chart shown above, more weightage is given to L3 feedback from manager.
 
@@ -421,9 +477,9 @@ Adobe Learning Manager makes it easier for you to find the courses/learning prog
 1. Using Search field. Click search icon displayed at the upper-right corner. A search field appears. Type the course name or any keywords associated with your courses to locate your courses/learning programs. You can also search using predefined tags like Captivate, C, Java, and HTML. Tags are searchable inside Search field, which means the tags are displayed in search field as you type.
 1. By filtering list of courses/learning programs using the filters. You can filter the courses by state such as All, published, draft, and Retired. In Administrator mode, draft filter does not appear.
 
-You can search based on competencies by clicking Competencies and choosing them. As an admin you can sort the courses in four ways, to better locate your required course. Click Sort By and choose alphabetical ascending order, alphabetical descending order, course updated date, or effectiveness of courses:
+You can search based on competencies by clicking Competencies and choosing them. As an admin you can sort the courses in four ways, to better locate your required course. Click Sort By and choose alphabetical ascending order, alphabetical descending order, course updated date, or effectiveness of courses.
 
-![](assets/admin-sortby.png)
+<!--![](assets/admin-sortby.png)-->
 
 You can sort learning programs in three ways: alphabetical ascending order, alphabetical descending order and based on updated date.
 
@@ -444,6 +500,10 @@ Administrator enrolls some learners to mandatory courses as per organization req
 >Admin can remove any registered learners of a course by clicking the drop-down arrow on learners page and by clicking **Actions** > **Remove**.
 
 ![](assets/enroll-learners.png)
+
+*Add comments while enrolling learners*
+
+*Enroll learners*
 
 ## Users
 
@@ -467,13 +527,15 @@ Copy-paste Email IDs of Learners you want to enroll, separated by semi-colons, c
 
 ![](assets/email-id-option.png)
 
+*Enroll learners*
+
 The summary dialog box appears with the number of users from inclusion set, exclusion set and users already enrolled in the course instance.
 
 +++
 
 ### Add comments while enrolling learners {#enroll-comments}
 
-![](assets/enroll-learners-dialog.png)
+<!---![](assets/enroll-learners-dialog.png)-->
 
 As an Administrator or a Manager, you can add comments while enrolling learners in a course. You can mention additional information about the cohort of users who are getting enrolled. This data gets exported in course reports.
 
@@ -485,11 +547,15 @@ On the **Enroll Learners** dialog, expand the option **Advanced Options**. In th
 
 ![](assets/comment-for-learner.png)
 
+*Add comments for learners*
+
 ## Search for enrolled users {#searchforusers}
 
 Search for enrolled users on the Learning Object's Learner section using type-ahead search. Using type-ahead search, you can progressively search for enrolled users using name, email id, and uuid.
 
 ![](assets/typeahead.gif)
+
+*Walkthrough of searching for enrolled users*
 
 This type of search is also sometimes known as auto-complete, incremental search, search-as-you-type, inline search, or instant search.
 
@@ -497,9 +563,11 @@ As you type for a learner or a user group in the search field, one or more match
 
 The process allows you to find what you are looking for in a much faster and less cumbersome way than executing a number of searches in a row.
 
-Learners or user groups across all instances display after a search. For every learner, the instance in which the learner is enrolled displays in the Instance column.
+Learners or user groups across all instances display after a search. For every learner, the instance in which the learner is enrolled displays in the **Instance** column.
 
 ![](assets/search-result.png)
+
+*View search results*
 
 Using type-ahead look up, you can:
 
@@ -528,11 +596,13 @@ Learners can simply use the Adobe Learning Manager device app to scan the respec
 1. Select a course > **view course**.
 1. Click **Instances** > **More** > **QR code**.
 
-   ![](assets/admin-instance-edit.png)
+   <!--![](assets/admin-instance-edit.png)-->
 
 1. Enable QR code and then click the 'Enroll', 'Complete', and 'Enroll and Complete' download icons to download a pdf containing the QR code for each. The admin can then share the QR code with learners.
 
    ![](assets/qr-code-download-01.png)
+
+   *Share QR code with lkearhers*
 
 ## Course life cycle {#courselifecycle}
 
@@ -548,24 +618,34 @@ A typical course life cycle looks as follows:
 
 ![](assets/lifecycle-03.png)
 
+*Workflow of a course lifecycle*
+
 ## Notification settings {#notificationsettings}
 
 As an Administrator you can adjust the notification settings. For more information, see [Notifications.](user-notifications.md)
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1 - How to reset module as an Admin?**
++++How to reset module as an Admin?
 
 On the Learners page for a course, choose the learner or learners or a group, click **Actions** > **Reset Modules**.
 
 ![](assets/reset-modules.png)
 
+*View option to reset modules*
+
 After you click the option, the status of modules of all selected learners will be reset. The modules that are completed will not be reset.
 
-**2 - How to add course URL so that learners are redirected directly to course?**
++++
+
++++How to add course URL so that learners are redirected directly to course?
 
 Mouse over on a course card and click **Copy URL**. After you copy the URL, learners can access the course directly with the URL.
 
-**3 - How to reopen an instance?**
++++
+
++++How to reopen an instance?
 
 To reopen a retired instance, click the drop-down menu in the instance, and click **Reopen instance**.
+
++++

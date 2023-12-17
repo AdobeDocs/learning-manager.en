@@ -19,6 +19,8 @@ When an author adds you as an instructor for a module in a course, you receive a
 
    ![](assets/instructor-upcomingsession.png)
 
+   *View the Instructor App Home page*
+
 Administrators can also add a user as an author to a module while adding session data for a course instance.
 
 ## Managing modules as an instructor {#managingmodulesasaninstructor}
@@ -26,3 +28,5 @@ Administrators can also add a user as an author to a module while adding session
 See the following image to understand the instructor workflow in Learning Manager:
 
 ![](assets/instructor.jpg)
+
+*Workflow of an instructor*
