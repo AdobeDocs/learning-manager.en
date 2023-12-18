@@ -107,6 +107,8 @@ You can allocate gamification points at the course and course instance levels. W
 
 ![gamification points](assets/select-gamification-points-new.png)
 
+*Set points for gamification*
+
 1. Select **[!UICONTROL Edit]**.
 1. If you select Use course level settings, the following options display: 
 
@@ -125,6 +127,8 @@ You can allocate gamification points at the course and course instance levels. W
       * **[!UICONTROL Timely completion]**: If you select this, you can determine the number of points learners will be awarded if they complete a course within a specified time.
 
    ![gamification points](assets/gamification-custom-settings.png)
+
+   *Set early and timely completion*
 
 1. Select **[!UICONTROL Save]**.
 
@@ -148,9 +152,13 @@ While creating a course, for a VC or CR course, click Scheduling Assistant.
 
 ![Select Scheduling Assistant](assets/scheduling-assistant.png)
 
+*Launch scheduling assistant*
+
 The Scheduling Assistant window launches.
 
 ![Scheduling Assistant screen](assets/scheduling-assistant-window.png)
+
+*The Scheduling Assistant dialog*
 
 On the Scheduling Assistant, you can:
 
@@ -163,9 +171,13 @@ On the Instructor field, type the name of the instructor or search for a partial
 
 ![Search instructors by name](assets/search-instructor.png)
 
+*Search for instructors*
+
 Multiple instructors can be selected but only one instructor can be assigned at a time. The selected time will be highlighted in the time conflict window. Near the instructor, a cross icon appears, which you click to remove the instructor.
 
 ![Select multiple instructors](assets/busy-times.png)
+
+*Search for multiple instructors*
 
 ### Search instructors by skills
 
@@ -179,6 +191,8 @@ Also, you can search skill, which would be displayed after clicking on the filte
 
 ![Enter skills for instructor](assets/scheduling-assistant-instructor-skill.png)
 
+*Search for instructors by skills*
+
 ### User group filter
 
 Select the filter in the Instructor field. There is a **[!UICONTROL User Group]** filter an Author or Custom Author can find the right instructor by using the values in the User Group.
@@ -189,6 +203,8 @@ This applies to Scheduling Assistant on the Courses or Instances page.
 
 ![scheduling assistant](assets/scheduling-assistant-2.png)
 
+*Filter by User Groups*
+
 ### Instance page
 
 You can also access the Scheduling Assistant from the Instance page, as shown below.
@@ -196,6 +212,8 @@ You can also access the Scheduling Assistant from the Instance page, as shown be
 The Scheduling Assistant is also available on the Instance page as well for admins, and custom admin/author. 
 
 ![Scheduling Assistant from the Instance page](assets/instances-scheduling.png)
+
+*Schedule instructors from Instances page*
 
 ### Search for a location
 
@@ -209,19 +227,27 @@ When creating a course, you can see the Rich Text Editor in the Course Overview 
 
 ![](assets/rich-text-editor-author.png)
 
+*Launch the Rich Text Editor*
+
 Similarly, you can use the Rich Text Editor to modify the description when creating a:
 
 **Learning Program**
 
 ![](assets/lp-rte-new.png)
 
+*Use Rich Text Editor for a Learning Program*
+
 **Certification**
 
 ![](assets/cert-rte-new.png)
 
+*Use Rich Text Editor for a Certification*
+
 **Job Aid**
 
 ![](assets/job-aid-rte-new.png)
+
+*Use Rich Text Editor for a Job Aid*
 
 In addition, you can use the Rich Text Editor for other languages. 
 
@@ -255,7 +281,7 @@ The default styling may not meet everyone's needs. The customisations can be don
 When customers build a headless interface, they have a need to display the learning objects in that custom user interface they are developing. For doing this, one would typically use the [GET /learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) API that is exposed. Now that Learning Manager supports capturing "rich text" for the overview field, the data model of Learning Objects in the API responses also exposes the same. See the field named "richTextOverview" in the fragment of the model in the API response below. Also note that the field exposed earlier ("overview") remains unchanged for backward compatibility.
 
 ```
-\{ 
+{ 
  "data": [ 
  { 
  "id": "string", 
@@ -292,6 +318,8 @@ However, to render this rich text in their UI, the customer will need to include
 Once the admin has enabled multi attempts, as an author you can configure multi attempts for an interactive e-learning module at a course or module level.
 
 ![](assets/allow-multipe-attempts.png)
+
+*Configure multi attempts for an interactive e-learning module*
 
 <table>
  <tbody>
@@ -361,6 +389,8 @@ To add a content module, perform the steps below:
 
    ![](assets/select-module-type.png)
 
+   *Add a module for a course*
+
    **Self Paced Module:** In this mode, you can start and complete a course module at your own pace. You can set your own schedule.
 
    After you click the option, you can see the list of self-paced modules that have been already added to your module library. Here you can either scroll through the list and select the ones you want to add, or you can search for the modules by typing the module's name in the search field or the module tags.
@@ -372,6 +402,8 @@ To add a content module, perform the steps below:
    **Virtual Classroom Module:** In this mode, learners can attend live online lectures, facilitated by a trained instructor. Enter the title, description, and set the duration of the session. You can also specify the conference url and the instructors to conduct the session. To save the changes, click **Done**.
 
    ![](assets/1st-image.png)
+
+   *Add a VC module*
 
    When creating a course using the Virtual Classroom configuration dialog box, set the **Conferencing System** to the Teams connection that you created. Select whether you want a meeting organizer for the event.
 
@@ -388,6 +420,8 @@ To add a content module, perform the steps below:
 
    ![](assets/classroom-module.png)
 
+   *Add a classroom module*
+
    When creating a course, in the Virtual Classroom configuration dialog box, set the conferencing system to the Microsoft Teams connection that you created. Select whether you want a meeting organizer for the event.
 
    If you select Yes for a meeting organizer, you must enter the name of the organizer. Type the name of the organizer and select the organizer.
@@ -402,6 +436,8 @@ To add a content module, perform the steps below:
    **Activity Module:** In this mode, learners must complete a set of activities, such as, workshops, exercises, questionnaire, and other learning activities. Enter the title, description, and the external url for reference. To save the changes, click **Done**.
 
    ![](assets/activity-module.png)
+
+   *Add an activity module*
 
    You can specify the duration while adding an activity module in a course for activity type File Submission and xAPI-based modules. 
 
@@ -431,6 +467,8 @@ Consider store employees or warehouse workers undergoing evaluation for the task
 Only an Author can create a checklist. A checklist is a type of Activity module. While setting up an Activity module, you, an Author, can select an Activity as **Checklist**, as shown below: 
 
 ![](assets/checklist-option.png)
+
+*Create a checklist*
 
 Once you choose the option **Checklist**, you see a few additional options.
 
@@ -463,6 +501,8 @@ Now, add the checklist questions. Click **Add**. You can only add up to 150 ques
 
 ![](assets/add-checklist-questions.png)
 
+*Add checklist questions*
+
 To add more questions, click **Add more**.
 
 Save the changes, add the module, and publish the course.
@@ -475,6 +515,8 @@ On this page, enter the following details:
 
    ![](assets/course-skills.png)
 
+   *Add skills for a course*
+
 1. Choose the type of enrollment. The following are the options:
 
    * **Manager nominated:** Only managers can nominate these courses. A learner cannot enroll to these types of courses.
@@ -485,6 +527,8 @@ On this page, enter the following details:
 1. Select the pre-requisite courses that must be completed before taking up your course. Click the Courses field and choose from the list of courses.
 
    ![](assets/prerequisite-courses.png)
+
+   *Add pre-requisite courses*
 
 1. Enable the **Prerequisites** check-box if you want the pre-requisite courses to me made mandatory.
 1. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
@@ -501,6 +545,8 @@ On this page, enter the following details:
 
    ![](assets/instructor-field.png)
 
+   *Assign an instructor role to a user*
+
 1. To republish the course with the updates, click **Republish.**
 
 ## Observation checklist
@@ -510,6 +556,8 @@ A Checklist module can now be reviewed by managers in addition to instructors. P
 Course authors can add people managers as well as non-hierarchical managers (if applicable) as reviewers by selecting these role options in the "Reviewers" section while setting up a Checklist module. This can be done at a course instance level.
 
 ![Checklist for managers](assets/manager-checklist.png)
+
+*Add reviewers in an activity module*
 
 Selecting the "**[!UICONTROL +Managers]**" option will automatically enable a learner's manager in the organization hierarchy to review the checklist. You don't need to search and add manager names individually. 
 
@@ -521,11 +569,13 @@ In the sample screenshot provided above, selecting the "**[!UICONTROL +Store Man
 
 Updates to the checklist module also include notifications to instructors and managers when a learner is enrolled in a course that has a checklist module in it. The reviewer gets a notification in the Learning Manager notification center as well as in the instructor/manager dashboard that checklist action is due.
 
-![View notification for enrollment](assets/checklist-notification.png)
+<!--![View notification for enrollment](assets/checklist-notification.png)-->
 
 The reviewer will be able to view information about all pending checklist review items from the Checklists menu as well as the Notifications menu when they log in as an instructor/manager.
 
-![cert approvals](assets/pending-task-managers.png)
+![Cert approvals](assets/pending-task-managers.png)
+
+*Approvals for certification*
 
 After clicking Review Checklist, the reviewer can complete the evaluation.
 
@@ -547,11 +597,15 @@ Once the course is created and saved as a draft, you can preview the course as a
 
 To preview the course, click **Preview as learner**.
 
-![](assets/preview-as-a-learner.png)
+![Preview a course as learner](assets/preview-as-a-learner.png)
+
+*Preview a course as learner*
 
 This opens the course **Overview** page for you where you can see the modules, their order, and other details related to the course.
 
 ![](assets/overview-page.png)
+
+*View modules and other related details*
 
 To see how the learners can experience this course, click each of these modules to start playing it. This starts playing the course in the Fluidic Player.
 
@@ -568,9 +622,13 @@ A typical course life cycle looks as follows:
 
 ![](assets/typical-course-lifecycle.png)
 
+*Workflow of a course lifecycle*
+
 To publish the course that you had created, click **Publish** on the top-right corner of the page.
 
 ![](assets/publish-a-course.png)
+
+*Publish a course*
 
 On the confirmation pop-up message that appears, click **OK**.
 
@@ -584,6 +642,8 @@ On the course card, hover on the options, and click **View Course**.
 
 ![](assets/view-a-course.png)
 
+*View a course*
+
 The course information window displays. The course is in a read-only mode. To modify the course, click **Edit**.
 
 ## Retire a course {#retireacourse}
@@ -593,6 +653,8 @@ If you retire a course, you cannot enroll new learners to the course. Learners w
 To retire a course, on the course card, hover on the options, and click Retire Course.
 
 ![](assets/retiring-course.png)
+
+*Retire a course*
 
 On the confirmation pop-up that appears, click **Yes**.
 
@@ -608,11 +670,15 @@ Adobe Learning Manager makes it easier for you to find the courses of your choic
 
 ![](assets/search-field.png)
 
+*Search for courses*
+
 **Filter list of courses:** You can filter the courses by state such as All, Published, Draft, and Retired. Based on your choice, you can view the filtered list of courses and select the required courses.
 
 As an author, you can also sort the courses to better locate your required course. Click **Sort b**y and choose alphabetical ascending order, alphabetical descending order, course created date, course updated date, and effectiveness of courses.
 
 ![](assets/filter-list-of-courses.png)
+
+*Filter list of courses*
 
 ## Enroll learners in a course {#enrolllearnersinacourse}
 
@@ -626,18 +692,26 @@ To switch to the Admin mode,
 
    ![](assets/enroll-learners.png)
 
+   *Enroll learners to a course*
+
 1. On the Enroll Learners dialog box, on the top-right corner you an see that the option **Default Instance** is selected. As soon as a course is created by an author, a default instance of the course is created. 
 
    ![](assets/default-instance.png)
+
+   *View default instance of a course*
 
 1. Start typing the name of a learner in the Include Learners field and choose a learner. You can also add user groups here. If you want to enroll all the learners in your Learning Manager account, start typing all. You can also enroll learners in a team.
 
    ![](assets/include-learners.png)
 
+   *Add learhers to a course*
+
 1. If you want to exclude any learner from the course., enter the name of the learner in the **Exclude Learners** field.
 1. After you have enrolled the learners, click **Proceed**. On the Enroll Learners dialog box, you can view the summary of the enrollment.
 
    ![](assets/summary-of-enrollment.png)
+
+   *View course enrollment summary*
 
 1. To enroll all learners in the course, click **Enroll**. These learners are now successfully enrolled for this course. The learners get a notification to go ahead and take the course. To enroll more learners, repeat the enrollment procedure.
 
@@ -652,10 +726,12 @@ A persistent url is always fixed. But for users who do not have Connect and thei
 
 ![](assets/dynamic-room-options.png)
 
+*Dynamic meeting room options*
+
 You can now change the url of the persistent room on the **Course Instance** page.
 
-| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
-|---|---|
+<!--| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
+|---|---|-->
 
 ## Unenroll learners from a course {#unenrolllearnersfromacourse}
 
@@ -664,6 +740,8 @@ While creating a course, an author can enable the option **Learners can unenroll
 An Administrator can also unenroll learners from the course.
 
 ![](assets/unenroll-learners.png)
+
+*Unenroll learners from a course*
 
 For more information see [Unenrolling learners](/help/migrated/administrators/feature-summary/courses.md).
 
@@ -684,15 +762,17 @@ Course effectiveness score helps the authors to evaluate the courses which are n
 
 In **My Courses**, an author can view the course effectiveness rating on the course thumbnails as shown in the below snapshot. You can see the rating for this course as 100.
 
-![](assets/course-rating.png)
+<!--![](assets/course-rating.png)-->
 
 The course effectiveness rating value is arrived considering L1, L2 & L3 feedback values. To view the breakup of each feedback, click the course effectiveness value. A pop-up menu appears as shown below.
 
 ![](assets/how-course-effectivenessiscalculated.png)
 
+*Calculation of course effectiveness*
+
 In this sample snapshot, 1 out 1 user received all the three types of feedback, hence the score is 100/100. From this table, you can understand the missing feedback to improve overall effectiveness. To view how course effectiveness is calculated, click the down-arrow at the lower-right corner of the pop-up menu.
 
-![](assets/how-course-effectivenessiscalculated1.png)
+<!--![](assets/how-course-effectivenessiscalculated1.png)-->
 
 As per the pie-chart shown above, more weightage is given to L3 feedback from manager.
 
@@ -709,6 +789,8 @@ In earlier releases of Learning Manager, course completion from learner in Exter
 You can now make courses mandatory by enabling the option **Set required courses as Mandatory for Certificate Completion** in the Curriculum tab.
 
 ![](assets/set-required-coursesasmandatory.png)
+
+*Set mandatory courses to complete a certificate*
 
 When courses are set as mandatory:
 

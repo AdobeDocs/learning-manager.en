@@ -28,9 +28,11 @@ This option is selected by default for all new accounts. For existing accounts, 
 
 ## Purchase
 
-You get unlimited access to the entire library of courses. Click the **Purchase **button to download a Purchase Request form.
+You get unlimited access to the entire library of courses. Click the **Purchase** button to download a Purchase Request form.
 
 ![](assets/purchase-request.png)
+
+*Enter the number of seats to purchase*
 
 Specify the number of seats for which you want to purchase the courses for. Download the purchase request form and then send the form to the sales team of Learning Manager.
 
@@ -47,6 +49,8 @@ The Administrator can see the links of the purchased catalogs in the Catalog Ove
 Once the courses are added to the catalog, the Administrator can then grant access to the trainings to various user or user groups.
 
 ![](assets/licenses.png)
+
+*Grant access to training to users and user groups*
 
 ## Express interest report
 
@@ -77,16 +81,22 @@ An Admin can invite SMEs to shortlist the playlist which they are interested in.
 
 ![](assets/content-hub.png)
 
+*Launch Content Hub from the marketplace*
+
 Content Hub is available in Learner role for all Administrators. Administrators allow SMEs to shortlist the playlist which they are interested in purchasing.
 
 The Content Hub page is visible to Administrators in their learner role all the time as it allows them to shortlist playlists easily. To help you in shortlisting the right playlist, Admins can make this page accessible to limited Subject matter experts in their account. Just visit the Enterprise Training page on Admin side and take steps to provide access.  
 
 ![](assets/content-hub-resources.png)
 
+*View resources in the Content hub*
+
 Learning Manager also enables Administrators to download a shortlisted playlist and share it with Adobe Sales team. Before downloading the shortlist, visit the Content Hub and shortlist a playlist by adding a playlist to your library. 
 
 Then as Administrator, click **Content Marketplace** > **Enterprise Training** > **Purchase section** > **Curated Playlists**. Click the **Purchase** button to download the Purchase request form which contains the details of your shortlisted playlist.
 
 ![](assets/download-purchase-request.png)
+
+*Download the Purchase Request form*
 
 The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.    
