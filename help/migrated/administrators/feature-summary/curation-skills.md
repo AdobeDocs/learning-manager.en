@@ -47,13 +47,17 @@ To add a skill domain, follow the steps below:
 
    ![](assets/skill-domain-mapping.png)
 
+   *Add the skill domains in the Skill Domain section*
+
 1. To save the changes, click **Save**.
 
 When a user posts a content in a board, the content gets curated and is approved or rejected, depending on the confidence score against the mapped skill to the board.
 
-![](assets/content-uploaded.png)
+<!--![](assets/content-uploaded.png)-->
 
 Depending on whether the content being uploaded has a confidence score of more than 50%, the content gets uploaded in the board. If your content meets the criteria, then you get to see a notification that says that the content has been successfully curated and is now available in the board.
 
 ![](assets/curation-notification.png)
+
+*View notifications depending on the confidence score*
 

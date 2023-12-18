@@ -34,6 +34,8 @@ To grant full control to an external account,
 
    ![](assets/catalog-control.png)
 
+   *Allow full control of shared catalog*
+
    When you allow full catalog control, the Administrator of the external organization accepts the request to allow modifications to the catalog. The author of the external organization then can edit the courses or add modules.
 
    See the sections below for more information.
@@ -44,12 +46,14 @@ Once the Administrator of the previous organization enables full control of the 
 
 1. Click the notification icon to view the notification to accept the catalog.
 
-   ![](assets/notification-to-acceptcatalog.png)
+   <!--![](assets/notification-to-acceptcatalog.png)-->
 
 1. To accept the invitation for the catalog, click Accept.
 1. On the list of catalogs, if you launch the catalog that has been shared with you, you can see a message that the catalog now has full control.
 
    ![](assets/catalog-details.png)
+
+   *View catalog details*
 
 1. You can modify the name of the catalog and description.
 
@@ -63,9 +67,9 @@ Like granting full catalog control for courses, the Administrator can also grant
 
 ## Reset course {#resetcourse}
 
-1. On the catalog card that has a broken link, click Reset Course.
+1. On the catalog card that has a broken link, click **Reset Course**.
 
-   ![](assets/reset-course.png)
+  <!-- ![](assets/reset-course.png)-->
 
 1. You see an alert message after you click the Reset button. Resetting the course:
 
@@ -90,6 +94,8 @@ This action reverses the action and restores the Learning Object in the catalog 
 
 ![](assets/re-add-button.png)
 
+*Add a Learning Object again*
+
 After clicking the Re-add button, there is a confirmaton message that the Learning Object has been successfully added to the catalog.
 
 ## External organization {#externalorganization}
@@ -100,7 +106,7 @@ Once the Administrator of the externsal account has accepted the catalog, the au
 1. To see the list of courses, click **Courses** on the left navigation pane. You can see all courses created by you and shared with you.
 1. To view the course details, click **View Course** on the course card.
 
-   ![](assets/view-course.png)
+   <!--![](assets/view-course.png)-->
 
 1. In the course detail page, you can see information about the course and the shared modules. To add a module, click Add Modules. When you add modules to the existing modules, the new modules appear at the end of the existing modules. You can always rearrange the modules.
 1. After you have added the modules, click Republish.
@@ -111,6 +117,6 @@ Once the Administrator of the externsal account has accepted the catalog, the au
 
    The Learning Object will be out of sync with the source account as content of the Learning Object has been modified.
 
-   ![](assets/link-broken.png)
+   <!--![](assets/link-broken.png)-->
 
 After having added and republished the module, if you feel that you had inadvertently added or deleted a course in the catalog previously, you can reset the module and revert the module to its original state when it was first shared with full control.

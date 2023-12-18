@@ -13,7 +13,7 @@ preview: true
 
 The Experience API (xAPI), is an e-learning software specification that allows learning content and learning systems to speak to each other in a manner that records and tracks all types of learning experiences. Learning experiences are recorded in a Learning Record Store (LRS). LRSs can exist within traditional learning management systems (LMSs) or on their own.
 
-For more information on xAPI,  see:   [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
+For more information on xAPI,  see [xAPIc Specifications](https://github.com/adlnet/xAPI-Spec).
 
 ## How does Learning Manager support xAPI? {#howdoeslearningmanagersupportxapi}
 
@@ -25,15 +25,19 @@ Increasingly there is a need to capture learning experiences of the end user whi
 
 ## Using xAPI in Learning Manager {#usingxapiinprime}
 
-## Set up your application {#setupyourapplication}
+### Set up your application {#setupyourapplication}
 
 1. Log in as Integration Admin. Select **[!UICONTROL Applications > Register]**.
 
    ![](assets/appregistration.png)
 
+   *Launch page to register an application*
+
 1. Register a new application.
 
    ![](assets/appregistration.png)
+
+   *Register a new application*
 
 1. Define the scope for the application.
 
@@ -46,9 +50,12 @@ Increasingly there is a need to capture learning experiences of the end user whi
 
 Click the link below to view the xAPI swagger document:
 
-[https://learningmanagereu.adobe.com/docs/primeapi/xapi/](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
+[xAPI Swagger document](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
 
-Note:  xAPI  version supported in Learning Manager is 1.0.3.
+>[!NOTE]
+>
+>xAPI  version supported in Learning Manager is 1.0.3.
+
 
 ## API authentication {#apiauthentication}
 
@@ -65,6 +72,8 @@ As an Author you can now choose xAPI module while creating courses to monitor us
 1. While creating an **[!UICONTROL Activity Module]**, in the  **[!UICONTROL Type]**option, use the pop-up menu to select  **[!UICONTROL xAPI-based Module.]**
 
    ![](assets/xapimodulecreation.png)
+
+   *Select the option xAPI-based Module*
 
 1. You are requested to provide an IRI. If not provided, Learning Manager generates one automatically.
 
@@ -99,9 +108,11 @@ The downloaded report fetches all the information posted by the Learner and Admi
 
 Same reports can be  gernerated / scheduled using FTP and Box connectors for any  third- party integration. Follow these steps:
 
-Log in as Integration Admin > Open FTP/Box connector > Select xAPI Activity report from the left pane> Choose to schedule/ generate a report.
+Log in as **Integration Admin > Open FTP/Box connector > Select xAPI Activity report** from the left panel. Choose to schedule/ generate a report.
 
 ![](assets/xapischedule.png)
+
+*Schedule or generate a report*
 
 * When  only  raw score is sent in  xAPI  statement without  max  score, Quiz score is not shown in LT.
 

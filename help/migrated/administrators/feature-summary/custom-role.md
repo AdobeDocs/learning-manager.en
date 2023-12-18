@@ -15,16 +15,23 @@ You can create a custom role to provide authoring capabilities limited to a part
 ## Create a custom role {#create-role}
 
 1. Log in as an Administrator. Open **Users** > **Custom Role**.
-1. Select Create Role. The Create New Role tab opens.
+1. Select **Create Role**. The **Create New Role** tab opens.
 
    ![](assets/create-new-role.png)
 
-1. Enter the **Name of the Role**.
+   *Create a custom role*
+
+1. Enter the name in the **Name of the Role** field.
 1. **Account privileges**: These privileges give the role owners access to specific system configuration aspects and which act on the entire account. Choose the access permissions. The user gets full control over assigned permissions.
 
-   Note: Scope is not applicable on these privileges.
+>[!NOTE]
+>
+>   Scope is not applicable on these privileges.
+
 
    ![](assets/account-privileges.png)
+
+   *Set the scope*
 
 1. **Feature privileges - Core features**: Used to grant access to specific features for managing learning activities. Permissions to the following features can be given using this option.
 
@@ -33,6 +40,8 @@ You can create a custom role to provide authoring capabilities limited to a part
    * Tags
 
    ![](assets/core-features.png)
+
+   *Set scope for Catalogs, Reports, and Tags*
 
 1. **Feature privileges- Learning Objects:**  Use this option to provide access to LOs related features. You can provide access to the following LOs.
 
@@ -50,6 +59,8 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    ![](assets/learning-objects.png)
 
+   *Grant specific permissions*
+
 1. **Scope for feature privileges:** The scope of Feature privileges allocated to this role can be restricted to a specific User Group or one or more Catalogs.
 
    Catalogs: Use the radio button to provide control over **All catalogs** or use the **Set access per Catalog** option to provide access to specific catalogs. You can also select multiple catalogs.
@@ -64,7 +75,12 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    ![](assets/define-scope-of-privileges.png)
 
-   In Learning Manager 27.6, you can create a custom role to be scoped over multiple catalogs with each catalog being granted different set of permissions.
+   *Define scope of privileges*
+
+>[!NOTE]
+>
+>   In Learning Manager 27.6, you can create a custom role to be scoped over multiple catalogs with each catalog being granted different set of permissions.
+
 
    To grant various permissions to the catalogs, follow the steps below:
 
@@ -210,7 +226,7 @@ You can create a custom role to provide authoring capabilities limited to a part
    * You cannot search users who already have Admin role assigned to them.
    * Assigning a new custom role to a user overrides user's previous custom role.
 
-   ![](assets/users.png)
+   <!--![](assets/users.png)-->
 
 * A custom admin having permission to  Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
 * If a custom admin has permission on the Users entity, they can assign Admin role to themselves and become a standard Admin.
@@ -223,11 +239,15 @@ In case they wish to restrict access to these custom authors, Administrators nee
 
 ![](assets/folder-access-forcustomauthors.png)
 
+*Restrict folder access for custom authors*
+
 While creating a custom author, you can now assign content folders to the author. Choose the option **Selected Folders**.
 
 After you click the option, a new dialog opens, where you can assign the folders to the custom author.
 
 ![](assets/choose-folder.png)
+
+*Select the folders for the custom author*
 
 Choose the folders and click **OK**. 
 
@@ -237,9 +257,13 @@ Custom admins can see the same view as what an Admin sees. A custom admin may da
 
 ![](assets/create-custom-role.png)
 
+*Create a custom role*
+
 As a result, the options, **All Catalogs** and **All User Groups** will get selected and the rest disabled.
 
 ![](assets/scope-of-featureprivileges.png)
+
+*Define scope of privileges*
 
 ## Implicit permissions {#implicitpermissions}
 
@@ -383,9 +407,13 @@ In the section **Scope for Feature Privileges**, grant access to User Groups and
 
 ![](assets/scope-for-featureprivileges.png)
 
+*Grant  access to User Groups and/or Catalog for the Custom Role*
+
 Assign a user to the Custom Role.
 
 ![](assets/assign-users-to-customrole.png)
+
+*Assign a user to a Custom Role*
 
 The user now logs in to Learning Manager as Custom Admin and now adds a Learning Plan.
 
@@ -395,7 +423,7 @@ This learning plan is now applicable to the learner only if the user is also add
 
 ## Learner gets added to the group {#learnergetsaddedtothegroup}
 
-![](assets/add-learner-to-thegroup.png)
+<!--![](assets/add-learner-to-thegroup.png)-->
 
 The custom admin can select any user group that has users from within the role's scoped user group.
 
@@ -407,11 +435,15 @@ When the Admin changes the scope of the custom role, the change also cascades to
 
 ![](assets/change-scope.png)
 
+*Message after scope changes*
+
 The Custom Admin now must update or refresh the earlier scope to the new scope.
 
 Clicking **Refresh Scope** updates the scope. There is a warning message that displays.
 
 ![](assets/refresh-scope-message.png)
+
+*Warning message after refreshing a scope*
 
 Clicking **Yes** updates the scope.
 
@@ -429,6 +461,8 @@ When a user logs in as Custom Admin and clicks **Reports** on the left pane, the
 
 ![](assets/download-gamificationtranscripts.png)
 
+*Download the gamification transcripts*
+
 Click **Gamification Transcripts**, choose a user, and generate the report.
 
 If an Administrator changes the level points, the reports show levels according to the current points.
@@ -437,8 +471,9 @@ Resetting gamification does not reset the level achieved date.
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1. How to create a Custom Role?**
++++How to create a Custom Role?
 
 A Custom Role is like a subset of an Author or Administrator role. Allow one or multiple privileges, define the scope, and assign the role to a user.
 
 Click **Users > Custom Roles**. In the Custom Roles page, click **Create Role**. Enter the name of the custom role and set the privileges for the role. For more information, see [Create a custom role](custom-role.md#create-role).
++++

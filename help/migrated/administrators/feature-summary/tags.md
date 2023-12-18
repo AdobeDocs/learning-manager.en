@@ -8,8 +8,6 @@ contentowner: dvenkate
 
 # Tags
 
-Learn how to manage tags on Learning Manager.
-
 Administrators can now manage tags in Learning Manager. Use better tagging and manageable data base to help learners search better and get to appropriate search results quickly. You can manage redundant, misspelled, and irrelevant tags using this feature. You can also add, edit, delete, append, or replace tags.
 
 The list of Learning Objects associated with the tag can be viewed by clicking on the count provided next to each tag. The list shows the number of Courses, Learning Programs, Certificates, Job Aids, and Content Groups. Click on any of these options to view the list.
@@ -63,6 +61,8 @@ In case of Append operation for tags, the new/existing tag will be appended to a
 As an Administrator you can provide permission to the Author to create tags by clicking on the settings option.
 
 ![](assets/unknown-1.jpeg)
+
+*Settings page for creating a tag*
 
 * When a user has permission to create tags and selects existing tags which are invalid at present,  
 

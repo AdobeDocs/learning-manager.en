@@ -30,13 +30,19 @@ To purge users, follow these steps:
 
    ![](assets/purge-1.png)
 
+   *Select a user to purge*
+
 1. Open the **[!UICONTROL Actions]** drop-down menu and select **[!UICONTROL Purge User]**. 
 
    ![](assets/purge-2.png)
 
+   *Select the Purge User option*
+
 1. A dialogue box appears seeking confirmation. Once purged, all user data and learning records associated with the selected user is deleted permanently. Once purged the action cannot be undone. To confirm, click **[!UICONTROL Purge]**.
 
    ![](assets/purge-3.png)
+
+   *Confirmation message after purging a user*
 
 1. Once you confirm and click Purge, the purge request is accepted. You receive a notification once the action is complete. A purge request ID is also provided. You can provide this ID to the CSM to track the request.
 
@@ -45,6 +51,8 @@ To purge users, follow these steps:
 You can select the first 50 users and purge the users in one shot. This allows Administrators to select 50 users at once and purge them together. This helps Administrators when they wish to purge users in bulk. It's always a best practice to check the users who are selected for purging. This is important to ensure only the correct set of users are getting purged. 
 
 ![](assets/bulk-purge-users.png) 
+
+*Purge users in bulk*
 
 +++Read about the results of Purge User action
 
@@ -167,10 +175,12 @@ Learning Manager is now GDPR compliant. For more information on GDPR compliance,
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1. How many days does it take for a purge request to complete?**
++++How many days does it take for a purge request to complete?
 
 A request to purge users takes a maximum of 30 days to complete.
++++
 
-**2. Can you perform a bulk purge in Learning Manager?**
++++Can you perform a bulk purge in Learning Manager?
 
 Yes, you can perform a purge in bulk. However, you can only perform a bulk purge of 50 users.
++++

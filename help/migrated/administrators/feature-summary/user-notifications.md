@@ -32,6 +32,8 @@ A sample notification window for admin role is shown in the following screenshot
 
 ![](assets/admin-notification.png)
 
+*View admin notifications*
+
 This pop-up window displays highlights of all the notifications along with time of occurrence and a scroll bar. You can know the number of latest notifications based on the highlighted number on top of the notifications icon. For example, if there are five latest notifications after your previous login, you can see the number 5 being displayed on top of the notifications icon. These numbers disappear once you read all the latest notifications.
 
 Click **Show all notifications** link at the bottom of the notifications pop-up window to view all the notifications in a separate page.
@@ -45,28 +47,41 @@ Escalation emails when learners miss deadlines can be sent to the manager and a 
 
    ![](assets/view-courses.png)
 
+   *Select the option View Course*
+
 1. Click on **[!UICONTROL Instances]** > **[!UICONTROL Notification Alerts]**.
 
    ![](assets/notification-alert.png)
+
+   *Select the option Notification Alerts*
 
 1. A calendar opens indicating the deadline set for the course highlighted in red. Click on the highlighted date to see the reminders are set for the learner.
 
    ![](assets/deadline-calender.png)
 
+   *View deadline reminders*
+
 1. Set reminders by selecting dates prior to the deadline. This allows you to set up reminders for the learner about the approaching deadline.
 
    ![](assets/deadline-reminder.png)
+
+   *Set a deadline reminder date*
 
 1. Select a date after the deadline to set up a schedule of reminders for the learner and escalation notifications to the manager.
 
    ![](assets/set-reminders-andescalation.png)
 
-1. If the learner still fails to complete the course even after escalation to the manager, settings allow you to escalate to the learner's skip manager. Click on a date after the extended deadline, select the recurrence of reminders, the number of days for the schedule and select Manager & Skip Level Manager under the Escalation drop down. Click on the blue checkmark to save notification settings.
+   *Set reminders and escalation dates*
+
+1. If the learner still fails to complete the course even after escalation to the manager, settings allow you to escalate to the learner's skip manager. Click on a date after the extended deadline, select the recurrence of reminders, the number of days for the schedule and select **Manager & Skip Level Manager** in the **Escalation** dropdown. Click on the blue checkmark to save notification settings.
 
    ![](assets/reminder-to-managerandskipmanager.png)
 
+   *Save the notification settings*
+
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1. How to setup reminder notifications on the instance?**
++++How to setup reminder notifications on the instance?
 
 On an instance, click Notification Alerts. A calendar opens indicating the deadline set for the course highlighted in red. Click on the highlighted date to see the reminders are set for the learner. Set the reminders, as explained in this [section](user-notifications.md#Setupmultilevelescalationnotifications).
++++

@@ -8,7 +8,7 @@ contentowner: dvenkate
 
 # Learning Manager Content Catalog
 
-Learning Manager introduces Content Catalog
+<!--Learning Manager introduces Content Catalog-->
 
 Content Catalog is not supported in an Azure instance of Learning Manager.
 
@@ -19,18 +19,18 @@ Learning Manager introduces Content Catalog, a set of ready to use content base 
 
 In the left pane, click Content Marketplace, and then click **Creative Cloud Training**.
 
-![](assets/content-catalog.png)
+<!--![](assets/content-catalog.png)-->
 
 To see the catalog details and courses in each of the catalog, click **[!UICONTROL View]**. The new window shows all the courses.
 
-![](assets/course-details.png)
+<!--![](assets/course-details.png)-->
 
 To see the details of the course, click **[!UICONTROL Visit]**. Use the checkboxes to select the courses you are interested in.
 
 * You can share the selected courses with your peers by selecting  **[!UICONTROL Share]**. 
 * You can contact Adobe by selecting  **[!UICONTROL Contact Adobe]**.
 
-![](assets/course-details.png)
+<!--![](assets/course-details.png)-->
 
 Your email client opens by default in both instances. If you have selected specific courses using the checkboxes, their URLs are automatically added to the email body.
 

@@ -19,9 +19,13 @@ To enable and configure the Social Learning feature, do the following:
 
    A pop-up dialog box appears like the screenshot below.
 
-   ![](assets/artboard-20-2x.png) ![](assets/enable-social-learningforthefirsttime.png) ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)
+   ![](assets/artboard-20-2x.png) ![](assets/enable-social-learningforthefirsttime.png) 
+   
+   *Enable social learning*
+   
+  <!-- ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)-->
 
-1. The admin can configure  settings for Social Learning. Settings include types of Content Curations like **Manual-Only Curation** and **No Curation**. Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Learning Manager desktop application.
+The admin can configure  settings for Social Learning. Settings include types of Content Curations like **Manual-Only Curation** and **No Curation**. Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Learning Manager desktop application.
 
 ## Content curation {#contentcuration}
 
@@ -58,6 +62,8 @@ An Administrator can enable the option to curate content automatically from with
 
    ![](assets/auto-curation.png)
 
+   *Select the Auto-assisted Manual Curation option*
+
 When a user uploads a content in a board, an AI-based algorithm scrapes the text from the content, and the text is then passed onto the curation engine. The curation engine tries to find the skills present in the content.
 
 The predicted skills from the uploaded content are matched with the ones with the board in which the content was uploaded.  If any skill matches with a confidence score of more than 50% of the board skill, the content is posted in the board. If the confidence score is less than 50%, the content is sent for manual curation.
@@ -66,11 +72,13 @@ Whenever a content gets auto-curated, the user gets a notification that the cont
 
 ![](assets/only-ai-based.png)
 
+*Flowchart of curation settings*
+
 It is recommended that the Administrator adds SMEs for skills if Manual-Only curation is ON. Administrator can add SMEs by providing SME points in advance to users with expertise in a skill. To know more about how to provide points to  SMEs,  [click here](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
 
 **No Curation:** All learner's post gets posted automatically without any content moderation.
 
-![](assets/artboard-6-2x.png)
+<!--![](assets/artboard-6-2x.png)-->
 
 ## Frequently asked questions on auto curation of content {#faq-auto-curation}
 
@@ -151,6 +159,8 @@ From the **User characteristic** drop-down list, choose the required option.
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
+*Select the user characteristics to define the scope*
+
 By default, the option **All Internal Users** in the User characteristic drop-down list option is always selected.
 
 You can scope internal users based on their active fields.
@@ -160,6 +170,8 @@ You can scope internal users based on their active fields.
 To define the scope of learning for external users, use an external profile. Learners with the same external profile share a common Social Learning space.
 
 ![](assets/choose-an-externalprofile.png)
+
+*Enable scope for external learners*
 
 External users are scoped based on their external profiles.
 
@@ -175,7 +187,7 @@ By default, the scope is set by the **User Type** that is Internal or external l
 
 If the active field does not contain any value, then the **Value** field drop-down list will not be visible to the admin.
 
-![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)
+<!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
 
 Users can also post their content by using Adobe Learning Manager desktop application. Depending on whether you are a Mac or Windows user, click the given links to download the desktop application and follow the given steps to install it onto your system. If you are facing any difficulties in installation, [click here](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
 
@@ -185,13 +197,15 @@ To restrict the creation of boards by all learners and to moderate the boards ef
 
 ![](assets/grant-permissiontocreateboards.png)
 
+*Set permissions to create a board*
+
 By default, the option **All Learners** is enabled.
 
 **All Learners:** If you choose this option, all internal and external users can create boards. 
 
 **A group of learners:** If you choose this option, only users having permissions to create a board see the **Create New Board** link in Social Learning. Choose the user group that must be granted permission to create a board. You can also add auto generated as well as custom user groups.
 
-![](assets/grant-permissiontoausergroup.png)
+<!--![](assets/grant-permissiontoausergroup.png)-->
 
 Users who share the same scope can only see the board. For users who do not have permission, the **Create New Board** link remains invisible.
 
@@ -206,6 +220,8 @@ The user group can be either auto-generated or custom.
 A user who has been granted this privilege has access to all boards, except **private boards**.
 
 ![](assets/special-users.png)
+
+*Grant special privileges*
 
 When the Administrator selects a user group, by default, all users in the group can access all boards, irrespective of the scope of the user. Any user with these elevated privileges can view and participate in all internal and external boards.
 
@@ -238,7 +254,9 @@ The Administrator can customize the title and the subtitle that appear on the he
 
    ![](assets/image012.png)
 
-   You have a few other options:
+   *Customize the social banner*
+
+You have a few other options:
 
    * **Language:** From the drop-down list, choose the language to translate the title and subtitle to. You can also add custom text for different languages.   
    
@@ -247,7 +265,7 @@ The Administrator can customize the title and the subtitle that appear on the he
 
    On the Social Learning homepage, the information provided by the Administrator displays as the page header.
 
-   ![](assets/banner-learner.png)
+   <!--![](assets/banner-learner.png)-->
 
 ## Trends {#trends}
 
@@ -269,6 +287,8 @@ The second visual is a line graph displaying the trend of number of boards or po
 
 ![](assets/trends.png)
 
+*LIne graph displaying the trend*
+
 ## Skills {#skills}
 
 You can view all the skills that have been used in the social activity platform in this section. The admin can use the search field to look for a skill that is not used yet while creating a board and mapping SMEs to it. By performing this, SMEs would get a notification when a board is created using this skill and they can review the post as part of the manual curation workflow. 
@@ -277,7 +297,7 @@ For an account with Social Learning disabled, no skills are displayed. The searc
 
 The administrator can view the Activity Score, number of posts, boards, users, and name of SMEs for each skill that was used while creating a board or post.
 
-![](assets/modify-smes-2.png)
+<!--![](assets/modify-smes-2.png)-->
 
 <table>
  <tbody>
@@ -376,7 +396,7 @@ Based on the skills mostly used by Learning Manager end users, Adobe Learning Ma
 
 ## Subject Matter Experts (SMEs) {#subjectmatterexpertssmes}
 
-**Subject Matter Experts **are people who have a considerable knowledge and expertise in a skill. An **SME **plays an important role in social learning when the admin has set the curation settings as manual or when the auto-curation method fails to curate the content. Only top three SMEs are displayed in the SMEs column.
+**Subject Matter Experts** are people who have a considerable knowledge and expertise in a skill. An **SME** plays an important role in social learning when the admin has set the curation settings as manual or when the auto-curation method fails to curate the content. Only top three SMEs are displayed in the SMEs column.
 
 ## Requirements to be an SME {#requirementstobeansme}
 
@@ -390,9 +410,13 @@ To add SMEs to a skill, follow the given steps:
 
    ![](assets/add-smes-06.png)
 
+   *Add or modify SME*
+
 1. Click **Advanced Options** from the pop-up dialog box.
 
    ![](assets/advanced-optionssmes.png)
+
+   *View Advanced Options dialog*
 
 1. Search for the user with expertise in the skill. Once the user is found, type the number of points you want to give him or her in the **Add Points** input box. 
 
@@ -401,6 +425,8 @@ To add SMEs to a skill, follow the given steps:
    By default, for every new user to social learning, the current point is 0.
 
    ![](assets/advanced-options.png)
+
+   *Add points for a user*
 
 1. By selecting the **Enable Minimum SME Points** check box, you can set a limit to the minimum number of points a user requires to be displayed as an SME in Top SMEs list. Once the threshold value is set, SMEs with points less than or equal to the minimum point value required is not listed in the SME lists.
 
@@ -425,11 +451,13 @@ To add SMEs to a skill, follow the given steps:
 
 ## Download configurations {#downloadconfigurations}
 
-![](assets/download-config.png)
+<!--![](assets/download-config.png)-->
 
 For Enterprise Servers, admin can change the location from where learners can download the desktop application for both Windows and Mac.
 
 ![](assets/enterprise-servers.png)
+
+*Change the dowmload location*
 
 Enterprise Server URL must be publicly hosted.
 
@@ -439,8 +467,11 @@ Every time a user creates a new social board, social post or social comment, it 
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1. How to enable social learning for external learners?**
++++How to enable social learning for external learners?
 
 In **Social Learning > Settings**, in the section Scope Settings, enable the option **Enable for External learners**. From the drop-down, choose an external profile and define the scope of learning for that profile.
 
 ![](assets/social-scope-external-users.png)
+
+*Select the option Enable for External learners*
++++
