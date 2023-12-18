@@ -36,6 +36,8 @@ If you want to install the package, you must first delete the existing package i
 
 ![](assets/uninstall-package.png)
 
+*Install the Learning Manager package*
+
 >[!NOTE]
 >
 >The Adobe Learning Manager app is only supported in Salesforce Lightning view.
@@ -112,6 +114,8 @@ As a Salesforce admin, you can either assign the profiles to users or create a c
 
 ![](assets/create-profile.png)
 
+*Assign a profile to a learner*
+
 Whle adding a learner, you must assign a specific profile to the learner. Then go to that profile and grant the required access.
 
 For Learners to view the Learning Manager app, you must enable the app for all learners.
@@ -119,6 +123,8 @@ For Learners to view the Learning Manager app, you must enable the app for all l
 The next step is to provide the permission to access the Learning Manager app.
 
 ![](assets/permission-set.png)
+
+*Add permissions to access the Learning Manager app*
 
 When you install the package, a new permission set is created, **Adobe Learning Manager User**. Go to the permission set and then add the users.
 

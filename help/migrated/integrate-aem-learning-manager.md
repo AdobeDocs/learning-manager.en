@@ -36,6 +36,8 @@ Install the Learning Manager content package using the AEM Package Manager:
 
    ![](assets/install-package.jpg)
 
+   *Install the content package*
+
 ## Generate the refresh token {#generatetherefreshtoken}
 
 The AEM Admin requires a refresh token from the Learning Manager account. The Learning Manager Integration Admin will generate the refresh token.
@@ -46,6 +48,8 @@ The AEM Admin requires a refresh token from the Learning Manager account. The Le
 
    ![](assets/launch-aem.jpg)
 
+   *Approve the app*
+
 1. Click **Applications > Featured Apps**, and open the AEM sites application.
 
    Copy the Application ID and the description.
@@ -53,6 +57,8 @@ The AEM Admin requires a refresh token from the Learning Manager account. The Le
 1. Click **Developer Resources > Access Tokens**.
 
    ![](assets/click-tokens.jpg)
+
+   *Generate the access tokens*
 
 1. Enter the following details:
 
@@ -118,7 +124,7 @@ The steps to configure Skyline are mentioned in the  [GitHub repo](https://githu
 
 The Catalog widget displays training from a specific or a set of catalogs to a user. In the Properties section in the page properties, select Catalog from the options listed. 
 
-![](assets/catalog-widget.png)
+<!--![](assets/catalog-widget.png)-->
 
 The Catalog widget contains the following options:
 
@@ -141,7 +147,7 @@ You can customize the look and feel of the layout using widgets.html. You can ch
 In the **General Settings** section, you can choose the primary and secondary colors for the cards and specify the properties to customize the theme.
 
 ```
-\{ 
+{ 
  "globalCssText":"@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');", 
  "fontNames":"Grandstander", 
  "cardLayout":{ 
@@ -163,11 +169,13 @@ In the **General Settings** section, you can choose the primary and secondary co
 
 ### Ignore higher order LO enrollment
 
-If the **Ignore Higher Order LO Enrollment** check-box is enabled and a user is enrolled directly into a Learning Program or Certification, the courses for that certification or Learning Program will show up for the user in the widgets.
+If the **Ignore Higher Order LO Enrollment** checkbox is enabled and a user is enrolled directly into a Learning Program or Certification, the courses for that certification or Learning Program will show up for the user in the widgets.
 
 If the check-box is disabled, the courses present in the Learning Program or Certification where user has not enrolled directly will not show up.
 
 ![](assets/higher-order-lo.png)
+
+*Select the Ignore Higher Order LO Enrollment checkbox.
 
 The setting is then applied on the widget.
 

@@ -816,6 +816,8 @@ As a developer you have to create a trial account on Learning Manager, so that y
 
    ![](assets/register-application.png)
 
+   *Register the application*
+
    It is mandatory to fill up all the fields in this page. 
 
    **Application Name**: Enter your application name. It is not mandatory to use the same application name, it can be any valid name. 
@@ -849,6 +851,8 @@ We recommend that the Learning Manager Administrator or an Integration Administr
 You can add external applications by clicking **Approve** at the upper-right corner of the **Applications** page. Provide the external application id and click **Save.**
 
 ![](assets/add-external-application.png)
+
+*Add and approve an external application*
 
 ## Frequently Asked Questions
 
