@@ -32,6 +32,8 @@ As an Admin, you can create a certification program either hosted internally or 
 
 ![](assets/add-new-certification.png)
 
+*View the page to add a certification*
+
 1. Add certificate name, and description.
 
 <table>
@@ -129,6 +131,8 @@ While creating certifications, Administrator has an option to select whether lea
 
 ![](assets/unenrollment.png)
 
+*Choose to unenroll learners*
+
 ## Mark completion {#markcompletion}
 
 Administrators can mark a Certification complete using the option available to them. To mark the completion of a certification, use the following steps.
@@ -161,3 +165,5 @@ While editing the sections of a certification, if you have to move out of the pa
 An admin can fetch quiz score and learner status reports. They can set the report frequency, email subject, and recipients email id. Depending on the set frequency, the recipient will get an email with the report attached.
 
 ![](assets/report-subscription.jpeg)
+
+*Set report frequency and other properties*
