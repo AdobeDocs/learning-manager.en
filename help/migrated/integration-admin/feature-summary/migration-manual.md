@@ -446,6 +446,7 @@ You can drag and drop the content files or click **Upload** and select the files
 A sample snapshot of Box account after uploading content to it is shown below for your reference: 
 
 ![](assets/box-account.png)
+
 *Files in Box account*
 
 After the files are uploaded to your Box account, ensure that you mention the relative path of this Box content file in module_version.csv file. This is a mandatory step for you to indicate the path of the module content. 
@@ -453,6 +454,7 @@ After the files are uploaded to your Box account, ensure that you mention the re
 Once you log in to the FTP and Box servers and upload the content, the CSV locations appear as shown in the snapshot below in Learning Manager. 
 
 ![](assets/after-setup.jpg)
+
 *CSV locations in Box account*
 
 ## Data and content migration procedure {#dataandcontentmigrationprocedure}
