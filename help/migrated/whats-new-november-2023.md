@@ -6,13 +6,11 @@ description: Learn about the new features and enhancements in Adobe Learning Man
 
 ## Revamped User Interface
 
-The Adobe Learning Manager User Interface has undergone a few updates to offer a cleaner and more modern experience. The landing pages for Admin and Author roles have been revamped, and UI theme updates have been made for all roles. However, no changes have been made to the location of menus, buttons, or links and you'll be able to find these exactly where they were located before.
+The Adobe Learning Manager User Interface has undergone a few updates to offer a cleaner and more modern experience. The landing pages for Admin and Author roles have been revamped, and UI theme updates have been made for all roles. However, no changes have been made to the location of menus, buttons, or links and you'll be able to find these exactly where they were located before. 
 
 The theme updates will apply automatically to accounts that use the default theme. The UI theme updates will not impact accounts that have made modifications to use a custom theme. Such accounts need to switch back to the default theme to get the new theme updates.
 
 ![UI image](assets/refreshed-ui.png)
-
-*Revamped User Interface of Adobe Learning Manager*
 
 ### About this change
 

@@ -11,11 +11,12 @@ An announcement is a multimedia message (text, image or video) that an Administr
 
 Administrator can broadcast announcements to learners informing them about the occurrence of an event or an activity. Announcement can be a combination of text, images, or videos. You can link learning objects like courses, learning programs and certifications to an announcement.
 
-There are three types of announcements:
+There are four types of announcements:
 
 * Notification
 * Masthead
 * Recommendation
+* Email
 
 ## Notification {#notification}
 
