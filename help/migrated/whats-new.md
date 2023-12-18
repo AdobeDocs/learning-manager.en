@@ -97,11 +97,42 @@ Custom Admins will now have more parity with Admin roles regarding access to rep
 
 In Adobe Learning Manager, only Learning Transcript and Gamification Transcript are available to a Custom Admin. In this release, a Custom Admin can access all custom reports except for xAPI and email reports, which are still available only to the admin. Access to all the reports is subject to the catalog and user scope which the custom admin has. There are few reports which are available only with full scope. They are:
 
-| Report | Available | Scope |
-|--- |--- |
-| Content Audit Trail | Yes | Full Catalog |
-| User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Report</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Available</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Scope</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Content Audit Trail</p></td>
+   <td>
+    <p>Yes</p></td>
+   <td>
+    <p>Full Catalog</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>User Audit Trail</p></td>
+   <td>
+    <p>Yes</p></td>
+   <td>
+    <p>Full User</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Login Access</p></td>
+   <td>
+    <p>Yes</p></td>
+   <td>
+    <p>Full User</p></td>
+  </tr>
+    </tbody>
+</table>
 
 **New Read-Only controls**
 
