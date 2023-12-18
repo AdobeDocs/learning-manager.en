@@ -14,7 +14,7 @@ Fluidic player is a platform for learners to consume content with uninterrupted 
 
 While creating the courses, authors have an option to preview the course.
 
-**Player features in preview mode**
+## Player features in the preview mode
 
 **TOC** While previewing a course, the player displays a table of contents for that particular course on the left pane of the window. You can click each topic and navigate to it directly.
 

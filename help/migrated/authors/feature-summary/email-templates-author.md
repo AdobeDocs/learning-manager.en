@@ -29,6 +29,7 @@ You can also choose not to send e-mail notifications for certain events by disab
 1. Click the event name to view the template in the preview mode.
 
    ![](assets/preview-the-emailtemplateforyourlearningobject.png)
+   
    *See template preview*
 
    You can customize each template by clicking the text in the body of the template. You can insert variables in the text by clicking the appropriate icons as shown in the snapshot. Hover your mouse over each icon to view the names.
