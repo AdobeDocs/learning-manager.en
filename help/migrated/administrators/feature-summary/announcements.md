@@ -50,6 +50,8 @@ When you choose this option, any media file that you choose features as a masthe
 
 ![](assets/masthead-announcement.png)
 
+*Customize the masthead*
+
 1. Browse and choose an image that will represent the masthead. The recommended size is 1280 x 360 px.
 1. Choose the locale to which you want to add a masthead. For each language, you must choose a masthead asset.
 1. In the **Action Button** field, add a url so that when learners click the button on the masthead, they are redirected to the url. This is an optional field.
@@ -57,13 +59,15 @@ When you choose this option, any media file that you choose features as a masthe
 
    Start typing the user group name in the text box and choose from the drop-down list. Similarly, choose the training by typing the object name in the text-box.
 
-1. In the Advanced Settings section, you have the following options:
+1. In the **Advanced Settings** section, you have the following options:
 
    * Click **Immediately** if you want the announcement to be posted right then.
    * Click **Never** if you do not want your announcement to expire.
    * Select the **Start** and **End** dates for the announcement.
 
    ![](assets/advanced-settings.png)
+
+   *Set time for a masthead to display*
 
 **Is there a limit on the number of live Masthead Announcements?**
 
@@ -74,6 +78,8 @@ You will only see the most recent 10 Masthead announcements.
 When you choose this option, any training that you choose gets recommended to specified user groups. The recommendations are driven by a Machine learning algorithm.
 
 ![](assets/recommendation-announcement.png)
+
+*Select recommended training to be displayed to a learner*
 
 1. Choose the training that you'd like to recommend to learners. You can add upto 10 trainings.
 
@@ -89,7 +95,7 @@ When you choose this option, any training that you choose gets recommended to sp
    * Click **Never** if you do not want your announcement to expire.
    * Select the **Start** and **End** dates for the announcement.
 
-   ![](assets/advanced-settings.png)
+   <!--![](assets/advanced-settings.png)-->
 
 When you click **Save**, you can either publish the announcement right away or publish it later. The announcement, till then, will be in a draft state.
 
@@ -100,7 +106,7 @@ When you click **Save**, you can either publish the announcement right away or p
 
 In Administrator login, you can view all the announcements in three tabs such as Drafts, Scheduled and Sent.
 
-![](assets/three-tabs-announcement1.png)
+<!--![](assets/three-tabs-announcement1.png)-->
 
 ### Draft {#draft}
 
@@ -121,6 +127,8 @@ In Sent tab, you can view all the announcements that are broadcast already.
 Use this option to send targeted ad-hoc emails to learners of a selected user group or to learners enrolled in specific training.
 
 ![Admin creates an email announcement](assets/email-announcement-admin.png)
+
+*Wend targeted ad-hoc emails to learners*
 
 *Admin creates an email announcement*
 

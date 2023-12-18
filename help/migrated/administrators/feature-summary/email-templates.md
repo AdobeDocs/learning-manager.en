@@ -20,13 +20,17 @@ Administrators can also choose not to send email notifications for certain event
 
 You as an administrator can easily enable, disable, or modify these email templates.
 
-1. To access the templates, click **Email Templates** on the left pane. On this page you can see three different categories of templates, **General**, **Learning Activity**, and **Reminders and Updates**. There is a fourth tab, Settings, where you can configure the templates.
+1. To access the templates, click **Email Templates** on the left pane. On this page you can see three different categories of templates, **General**, **Learning Activity**, and **Reminders and Updates**. There is a fourth tab, **Settings**, where you can configure the templates.
 
    ![](assets/categories-of-emailtemplates.png)
+
+   *Select the General tab*
 
 1. To view the list of email templates, click any tab.
 
    ![](assets/email-templates-ingeneraltab.png)
+
+   *View the list of email templates*
 
    You can easily enable or disable any of these email alerts by clicking the toggle button.
 
@@ -34,11 +38,15 @@ You as an administrator can easily enable, disable, or modify these email templa
 
    ![](assets/preview-of-an-emailtemplate.png)
 
+   *View the template of an email*
+
 1. To modify the contents of this email template, click the body of the email. Now make the changes to the template. You can modify the text, and you can also use one of these variables in your email. The changes made to the body section can only be applied to this email template. However, if you make changes to the signature of this email, it can be applied globally to all the templates. 
 
    Hover your mouse over each icon to view the names.
 
    ![](assets/modify-the-emailtemplate.png)
+
+   *Modify the email template*
 
    You can reset the body of the message to the default content by clicking the link **Revert to Original** above the template.
 
@@ -57,17 +65,23 @@ You as an administrator can easily enable, disable, or modify these email templa
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
+   *Customize the image of a banner*
+
    The custom image size has to be 1240x200px and support .jpg, .jpeg and .png.
 
 1. Edit your email signature by clicking **Edit**. Make the necessary changes and save the change.
 
    ![](assets/customize-email-signature.png)
 
-1. Edit your account URL by clicking Edit on the option **Account URL** . 
+   *Customize your email signature*
+
+1. Edit your account URL by clicking Edit on the option **Account URL**. 
 
    The account URL link is shown in all emails, just before the signature. Enter the required URL and click **Save**. Note that this URL is only be visible to internal users.
 
    ![](assets/customize-accounturl.png)
+
+   *Customize the account URL*
 
 1. Configure whether managers must also receive emails that are sent to their direct reports using the check box under **Optional Manager Email** option.
 
@@ -85,6 +99,8 @@ In the drop-down, choose either **Biweekly** or **Monthly**.
 
 ![](assets/digest-email-settings.png)
 
+*Set frequency of digest emails*
+
 When you enable this option, the frequency is set to **Biweekly** for existing/new active accounts by default.
 
 ### DND list of learners
@@ -97,25 +113,35 @@ The following samples represent the mail that a learner receives.
 
 ![](assets/email-1.png)
 
-Training activity
+*Sample email*
+
+### Training activity
 
 ![](assets/email-2.png)
 
-Recommended Trainings
+*Email of training activity*
+
+### Recommended Trainings
 
 ![](assets/email3.png)
 
-Leaderboard
+*Email of recommened training*
+
+### Leaderboard
 
 ![](assets/email4.png)
 
-Latest posts
+*Email of leaderboard*
+
+### Latest posts
 
 ![](assets/email5.png)
 
+*Email of latest posts*
+
 ### Download email access report
 
-You can download the email access report by clicking the **Download **button. This report contains the number of users who have received the email, and the number of users who've opened and clicked on the links.
+You can download the email access report by clicking the **Download** button. This report contains the number of users who have received the email, and the number of users who've opened and clicked on the links.
 
 ## Customize email domain {#customizeemaildomain}
 
@@ -131,13 +157,13 @@ You can perform this by using the **Do Not Disturb** option under the **Settings
 
 Search for a user to add to the list.
 
-![](assets/add-users-for-donotdisturbemail.png)
+<!--![](assets/add-users-for-donotdisturbemail.png)-->
 
 ## Blocked emails {#blockedemails}
 
 From the **Blocked Emails** drop-down list for each user to select the types of email to block for them.
 
-![](assets/options-for-blockedemails.png)
+<!--![](assets/options-for-blockedemails.png)-->
 
 The following are the available options:
 
@@ -169,6 +195,8 @@ Select **[!UICONTROL Email Templates]** > **[!UICONTROL Settings]**. Select **[!
 
 ![customize email](assets/email-salutation.png)
 
+*Customize email salutation*
+
 You can also customize the following:
 
 * Email banner and email signature both at the Course-level and the Instance-level.
@@ -180,7 +208,7 @@ The templates also support advanced editing capabilities such that formatting is
 
 Learning Manager users will now receive inline email invites. ICS attachments are no longer used to send invitations. Any changes in the invite will automatically reflect in your calendar.
 
-![](assets/outlook-style-invite.png)
+<!--![](assets/outlook-style-invite.png)-->
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
