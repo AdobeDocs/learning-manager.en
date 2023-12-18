@@ -24,4 +24,6 @@ Administrators can create the badges for learners as follows:
 
    ![](assets/add-badge1.png)
 
+   *Add a badge name and its image*
+
 1. Enter Badge Name. Upload the badge by clicking **Upload Badge** and click **Save**.
