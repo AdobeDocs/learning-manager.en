@@ -40,15 +40,17 @@ Here are the options that you can set:
 
 ![](assets/select-homepage-experience.png)
 
+*Set the home page experience by selecting Industry or Custom Aligned*
+
 The option **Enable learner to explore Areas of Interest** is available to both Classic and Immersive experience.
 
 <table>
  <tbody>
   <tr>
    <td>
-    <p>If you choose Custom...</p></td>
+    <p><b>If you choose Custom...</b></p></td>
    <td>
-    <p>If you choose Industry Aligned...<br></p></td>
+    <p><b>If you choose Industry Aligned...</b><br></p></td>
   </tr>
   <tr>
    <td>
@@ -69,6 +71,8 @@ This will be enabled and grayed out if Immersive experience is chosen. This chec
 
 ![](assets/option-immersive.png)
 
+*Selection for Classic experience*
+
 The immersive layout is the default for all new accounts. The layout is controlled by widgets that an Admin can enable or disable. Based on how the widgets are positioned, the same is reflected on the learner homepage.
 
 Here are the widgets that you can enable/disable.
@@ -78,6 +82,8 @@ Using this, you can preview the Learner UI before the learner UI goes live.
 For existing accounts, the option **Immersive** will be **OFF**. It is enabled for new account with Social and Gamification ON.
 
 ![](assets/immersive-layout-widgets.png)
+
+*Preview the learner UI*
 
 <table>
  <tbody>
@@ -163,7 +169,7 @@ For existing accounts, the option **Immersive** will be **OFF**. It is enabled f
 
 After you save the changes, the learner homepage reflects all the changes. 
 
-When the learner signs in to the learner app via a browser, he/she can see the following immersive layout:
+When the learner signs in to the learner app via a browser, they can see the following immersive layout:
 
 <table>
  <tbody>
@@ -178,11 +184,15 @@ When the learner signs in to the learner app via a browser, he/she can see the f
  </tbody>
 </table>
 
+*View Immersive layout for various sections on the home page*
+
 ## Classic layout option {#classiclayoutoption}
 
 The User Interface layout that has always existed till now, is now referred to as Classic Layout. When you choose this option, the learner homepage view reverts to the classic layout. 
 
 ![](assets/classic-layout.png)
+
+*Preview the classic layout*
 
 ## Configure recommendation settings {#configurerecommendationsettings}
 
