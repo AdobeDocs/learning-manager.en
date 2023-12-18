@@ -16,13 +16,17 @@ Administrators of an organization can configure the settings of Learning Manager
 
    ![](assets/left-pane.png)
 
+   *Select Adobe Connect in the left pane*
+
 1. Click **Configure Now** link in **Adobe Connect Configuration** section.
 
-   ![](assets/configure-now-connect.png)
+   <!--![](assets/configure-now-connect.png)-->
 
 1. Provide your company's Adobe Connect domain name and log in credentials.
 
    ![](assets/adobeconnect-config.png)
+
+   *Add domain name and credentials*
 
    A sample Adobe Connect URL: mycompany.adobeconnect.com  
    You need to provide email id of the Adobe connect account's Administrator. 
@@ -35,7 +39,7 @@ Administrators of an organization can configure the settings of Learning Manager
 
    Adobe Connect account administrator should accept the Terms and Conditions of using Adobe Connect. If this is not accepted, your login authentication may fail. After creating the Adobe Connect account, log in to the account once. During first time login, a terms and conditions page appears.
 
-   ![](assets/mail-confirmation.png)
+   <!--![](assets/mail-confirmation.png)-->
 
 ## Add virtual classroom session information {#addvirtualclassroomsessioninformation}
 
@@ -44,6 +48,8 @@ If the author of a virtual classroom course has not provided the session informa
 In Administrator login, click the VC course name. Click **Instances** on the left pane and **Session Details**.  Click the Edit icon at the right corner of the Session Details page to add the session information.
 
 ![](assets/session-creation-admin.png)
+
+*Add virtual classroom session information*
 
 With the integration of Adobe Learning Manager and Adobe Connect for creating virtual classroom modules or sessions, your Connect account should support Meeting rooms with adequate number of rooms and concurrent users for your use case. These meeting rooms are used to host Learning Manager virtual classroom modules. A new Connect meeting room is dynamically created by Learning Manager for each virtual classroom module or session within Learning Manager.
 
