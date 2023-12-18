@@ -16,9 +16,9 @@ Learning Manager allows you to apply a structural gamification layer to the cont
 
 By default, some sample gamification points and data is available for users to understand the pattern. You can modify the points accordingly.
 
-A sample illustration is provided below that shows all the tasks and points.
+<!--A sample illustration is provided below that shows all the tasks and points.
 
-![](assets/gamification-feb12-e1439214291423.png)
+![](assets/gamification-feb12-e1439214291423.png)-->
 
 ## Gamification settings {#gamificationsettings}
 
@@ -33,15 +33,19 @@ Administrator can create a list of confidential users, reset gamification points
 
 ![](assets/gamification-actions.png)
 
+*Gamification options for an Admin*
+
 ## Confidentiality settings {#confidentialitysettings}
 
 If required, you can make some higher management users as confidential users. Confidential user's gamification activities are not visible to other learners in the leaderboard.
 
 Confidentiality settings can be applied for both internal and external users.
 
-1. Click Gamification > Settings > Confidentiality Settings.
+1. Click **Gamification > Settings > Confidentiality Settings**.
 
 ![](assets/confidentiality-settings.png)
+
+*View confidentiality settings*
 
 1. From the listed users, click the check-box against user name and click Hide to make the user as confidential user.
 
@@ -62,11 +66,15 @@ To reset learner score and configuration, click Reset Gamification and choose an
 
 ![](assets/reset-gamification.png)
 
+*Reset the gamification points*
+
 ## Disable gamification {#disablegamification}
 
 Click Gamification > Gamification Feature. This allows you to enable the gamification feature and the leaderboard separately for your Learners. Select between Enable for Internal Learners and Enable for External Learners as per the requirement and click OK. All the points are retained when you enable the gamification again.
 
 ![](assets/gamification-feature.png)
+
+*Disable gamification*
 
 You can disable gamification for both internal and external users.
 
@@ -182,19 +190,21 @@ When learners complete a course within 10 days of course commencement, they get 
 
 Administrators can define the scope of gamification by changing the scope settings. You can selectively enable gamification among similar profile users, groups or location.
 
-1. In Administrator login, click Gamification at the left pane.   
-1. Open Gamifications > Settings > Scope settings. Gamification Scope Settings dialog appears.
+1. In Administrator login, click **Gamification** at the left pane.   
+1. Open **Gamifications > Settings > Scope settings**. The Gamification Scope Settings dialog appears.
 
    ![](assets/scope-settings.png)
 
+   *View the Gamification Scope Settings dialog*
+
 1. Click the option Enable Scope Settings. 
 
-1. Select the User Characteristic from the drop-down list. A sample screenshot is shown as follows: 
+1. Select the User Characteristic from the drop-down list. 
 
-   ![](assets/user-charecteristic.png)
+   <!--![](assets/user-charecteristic.png)-->
 
 1. Select the value corresponding to the user characteristic you have chosen. For example, if you selected user characteristic as profile, then you need to select the value from the drop-down list. A sample profile values are shown in the screenshot below for your reference.
 
-   ![](assets/value.png)
+   <!--![](assets/value.png)-->
 
 1. Click **Save.**
