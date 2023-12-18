@@ -41,7 +41,7 @@ You can access Learning Manager application using Adobe ID or by using Single Si
 
 **Feedback**
 
-Click **Feedback** on the left pane to set up the questionnaire to get feedback from learners after completing a course. Refer to [courses feature help content](courses.md)on creating L1 and L3 feedback. 
+Click **Feedback** on the left pane to set up the questionnaire to get feedback from learners after completing a course. Refer to [courses feature help content](courses.md) on creating L1 and L3 feedback. 
 
 **Multi attempts**
 
@@ -50,6 +50,8 @@ Select **Settings** > **General** > **Multiple Attempts**.
 If you enable the 'Multi Attempts' check box, then the Authors can set 'Multiple attempts' for interactive e-learning courses or modules .On selecting the second checkbox, administrators can set 'Infinite attempts' by default for any newly created interactive e-learning courses.
 
 ![](assets/admin-config.png)
+
+*Select the Multiple Attempts checkbox*
 
 **Course Moderation**
 
@@ -455,6 +457,8 @@ To rename the terminologies, follow these steps.
 
    ![](assets/product-terminology.png)
 
+   *Rename product terminology*
+
 1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL Download here]**option.
 1. The downloaded CSV file contains the name of the objects in coloum A. In coloumn B, choose the name you want to assign to the respective object. Note that you need to update the singular and plural form of the name separated by a (|).
 1. You can choose to modify one or more rows. You can either retain the non-modified rows or remove them from the CSV file before uploading them.
@@ -462,6 +466,8 @@ To rename the terminologies, follow these steps.
 1. To reset to default terminologies, click **[!UICONTROL Reset Product Terminology.]**
 
    ![](assets/with-reset-option.png)
+
+   *Reset the product terminologies*
 
 ## Profile settings {#profilesettings}
 
@@ -479,6 +485,8 @@ Content Folders can be configured by Administrators. Only once configured, conte
 To add a content folder, in the Administrator app, click **Settings > Content Folder**.
 
 ![](assets/manage-content-folders.png)
+
+*Change Content Folder settings*
 
 ### Folder
 
@@ -541,6 +549,8 @@ Add the following:
 
 ![classroom location](assets/location-alm.gif)
 
+*Add classroom locations*
+
 You can also add the location with the help of a CSV. The CSV must contain the fields:
 
 * name
@@ -549,18 +559,20 @@ You can also add the location with the help of a CSV. The CSV must contain the f
 * seatlimit
 * region
 
-![Add classroom locations](assets/add-classroom-csv.png)
+<!--![Add classroom locations](assets/add-classroom-csv.png)-->
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1. How to create different folders for content library?**
++++How to create different folders for content library?
 
 Click **Settings > Content Folder**. To add a folder, click **Add** on the upper-right corner, and in the dialog, enter the name and description of the folder.
 
 Content Folders can be configured by Administrators. Only once configured, content folders become visible to authors and they get an ability to place the content in one or multiple folders. 
 
 For more information, see the section on [Content Folder](settings.md#content-folder).
++++
 
-**2. How to add financial year for the account?**
++++How to add financial year for the account?
 
 In **Settings** > **Basic Info**, click **Change**. From the **Financial year starts from** drop-down list, select the month.
++++
