@@ -18,11 +18,13 @@ Administrators of an organization can manage job aids assignment to learners and
 
 ## Withdraw/re-publish job aids {#withdrawrepublishjobaids}
 
-Under Administrator login, click Job Aids in the left pane to access job aids.
+Under Administrator login, click **Job Aids** in the left pane to access job aids.
 
-You can withdraw a published job aid by clicking settings icon adjacent to the job aid and choosing Withdraw.
+You can withdraw a published job aid by clicking settings icon adjacent to the job aid and selecting **Withdraw**.
 
 ![](assets/withdraw-job-aids-admin.png)
+
+*Manage Job Aids*
 
 View withdrawn job aids by clicking the Withdrawn tab. You can re-publish the withdrawn jobs by clicking settings icon and choosing Publish. Click Preview in settings to preview the job aid in the player.
 
@@ -31,12 +33,14 @@ View withdrawn job aids by clicking the Withdrawn tab. You can re-publish the wi
 1. In Published tab, click the settings icon adjacent to a job aid.   
     
 
-1. Click Manage Assignment.  
-   An Enroll Learners pop-up dialog appears. 
+1. Click **Manage Assignment**.  
+   The **Enroll Learners** pop-up dialog appears. 
 
    ![](assets/enroll-learners-job-aids.png)
 
-1. In Learners text-box, start typing the name of learners and choose the learners from the drop-down list. You can also find learners by name, profile and so on. 
+   *View the Enroll Learners dialog*
+
+1. In the **Learners** field, start typing the name of learners and choose the learners from the drop-down list. You can also find learners by name, profile and so on. 
 1. Click **Add.**
 1. Click **Save**
 

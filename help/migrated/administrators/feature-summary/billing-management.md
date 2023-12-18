@@ -26,9 +26,13 @@ You can buy a subscription for a maximum of 3500 learners through any single cre
 
    ![](assets/billing.png)
 
-1. On the Billing Information page, add the number of users in the **Add Users** field. When using a credit card for pre-paid subscriptions, you can see the number of users that you can add for the subscription. The number of users you can add must not exceed the number mentioned in the section Remaining.1. 
+   *Launch Adobe Learning Manager billing*
+
+1. On the **Billing Information** page, add the number of users in the **Add Users** field. When using a credit card for pre-paid subscriptions, you can see the number of users that you can add for the subscription. The number of users you can add must not exceed the number mentioned in the section Remaining.1. 
 
    ![](assets/billing-page-to-manageyoursubscriptionandorders.png)
+
+   *Add number of users*
 
 1. After specifying the number of users to add, click Place Order in the upper-right corner of the page.
 
@@ -38,24 +42,32 @@ You can buy a subscription for a maximum of 3500 learners through any single cre
 
    ![](assets/pricing-estimate.png)
 
+   *Place an order*
+
    The annual subscription fee is calculated based on the number of users who are added for the subscription. For example, if four users are being added, the annual fee is calculated using the expression 4 usersX$4X$12, which returns $192.
 
    Click **Proceed**.
 
-1. On the Payment Details page, you can view the estimated price of the order. The
+   *Review the estimate*
 
-   currency appears based on the current locale.
+1. On the Payment Details page, you can view the estimated price of the order. The currency appears based on the current locale.
 
    ![](assets/payment-details.png)
+
+   *View payment details*
 
    You can also change the locale by choosing the country from the drop-down list.
 
    ![](assets/change-locale.png)
 
+   *Select the country of billing*
+
 1. Enter your contact information, choose the credit card type, and provide the details of the credit card. After you've entered the required details, click **Complete Order**.
 1. After you've placed the order, to see the recently ordered packages, click the **Order History** tab on the **Billing** page.
 
    ![](assets/order-history.png)
+
+   *View order history*
 
 ## Check order status {#checkorderstatus}
 
@@ -76,6 +88,8 @@ All orders can have one of the four statuses:
 1. In the list of orders, click **Edit**.
 
    ![](assets/update-subsciptiondetailsclickedit.png)
+
+   *Update subscription details*
 
 1. In the Subscription details page, click **Edit Subscription**.
 1. Choose the item that you want to edit:
@@ -163,6 +177,8 @@ Any user who performs the following actions or achieves completions due to actio
 
    ![](assets/report-request-usage.png)
 
+   *View active users by month*
+
 1. On the page that displays, you can view the following:
 
    * **Overall usage:** You can check the total number of active users, users who are consuming Learning Manager in a month, and the number of users who have not yet signed up for any course.
@@ -177,6 +193,8 @@ On the **Generate Report Request** dialog, enter the required months and year, a
 
 ![](assets/generate-report-request.png)
 
+*Download acrtive usage report*
+
 If you close the browser window, the download starts the next time you visit Learning Manager.
 
 The reports are saved in the Downloads folder of your browser.
@@ -187,19 +205,23 @@ To cancel an active subscription, contact the Learning Manager support team.
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1. How to add/remove subscriptions from an account?**
++++How to add/remove subscriptions from an account?
 
 To add subscriptions in an account, add the number of users for who you'd like to purchase subscriptions. Then on the upper-right corner, click **Place Order**. Review the estimate and click **Proceed**. Enter your account details and also your credit card details. Then to purchase the subscriptions, click **Complete Order**.
 
 To remove an active subscription, contact the Learning Manager support team.
++++
 
-**2. How to change a credit card for subscriptions?**
++++How to change a credit card for subscriptions?
 
 In the **Order History** tab, for an active account, click **Edit**. Then on the Subscription Details page, click **Edit Subscription**. Enter your new credit card details and click **Update Payment Method**.
 
 ![](assets/credit-card-details.png)
 
-**3. How to update the Billing information on Learning Manager?**
+*View credit card details*
++++
+
++++How to update the Billing information on Learning Manager?
 
 To update the billing information, follow the steps below:
 
@@ -212,14 +234,17 @@ Choose the item that you want to edit:
 
 1. **Payment method:** Use this option to update payment details, such as, credit card.
 1. **Address:** Use this option to update address details.
++++
 
-**4. Can I partially cancel a subscription?**
++++Can I partially cancel a subscription?
 
 No, you cannot cancel a subscription partially. If you need to reduce the number of seats that you have purchased, you can cancel the subscription at the end of the billing cycle and then purchase the number of seats required.
++++
 
-**5. How do I get an Invoice for my Credit card payments?**
++++How do I get an Invoice for my Credit card payments?
 
 Contact [FastSpring](https://fastspring.com/) to get an invoice for your payments, using one of the following ways:
 
 * Create a service request with FastSpring using the link `https://questionacharge.com`.
 * Send an email to FastSpring on `orders@fastspring.com` requesting for the invoice.
++++
