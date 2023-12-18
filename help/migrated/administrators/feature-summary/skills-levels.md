@@ -29,14 +29,16 @@ To add a skill, follow the steps below:
 1. On the left pane, click **Skills**. Give the skill a name and description.
 
    ![](assets/add-skill-name-anddescription.png)
-   *Add name an description*
+   
+   *Add name and description of a skill*
 
 1. Assign a domain to the skill. While creating a skill, you can map it with the most relevant skill domains that Learning Manager supports. For more information, see [***Map skill with domains***](/help/migrated/administrators/feature-summary/curation-skills.md).
 
    Start typing the domain in the field and you can see recommendations. Pick the option or options that is/are relevant to the skill.
 
    ![](assets/map-domain-with-skills.png)
-   *Add domain*
+   
+   *Add a domain*
 
 1. Assign the levels to the skill. To add a level, click **Add**.
 
@@ -47,6 +49,7 @@ To add a skill, follow the steps below:
    Once these Learning Objects (LOs) and levels have been achieved, the learner is now equipped to perform at a more productive level than before.
 
    ![](assets/add-skill-levels.png)
+   
    *Add skill levels*
 
    When you add a skill, you can also assign decimals to credits. The credits are displayed up to two decimal places.
@@ -59,6 +62,7 @@ To add a skill, follow the steps below:
    Once the skill has been created, you can locate the newly created skill on the **Skill** page. You can also see the domains and the brief description of the skill. You can also view the levels and the credits that have been assigned to each level.
 
    ![](assets/list-of-skills.png)
+   
    *View list oif skills*
 
 ## Assign the skill to learners {#assigntheskilltolearners}
@@ -70,6 +74,7 @@ After you create your skills and save them, they get listed in the skills page. 
 1. On the **Skill** page, click the hyperlink with the number of learners enrolled to the skill. For a newly created skill, the number of learners for all levels are zero.
 
    ![](assets/number-of-learnersenrolledtoaskill.png)
+   
    *View learners assigned to a skill*
 
    For this example, add learners for Level 1. Click the hyperlink adjacent to Level 1.
@@ -77,11 +82,13 @@ After you create your skills and save them, they get listed in the skills page. 
 1. On the Learners dialog, click **Add Learners**.
 
    ![](assets/add-learners.png)
+   
    *Add learners*
 
 1. Search for learners and add the learners. You can also add user groups.
 
    ![](assets/search-and-add-learners.png)
+   
    *Search and add learners*
 
 1. To save the changes, click **Save**.
@@ -89,6 +96,7 @@ After you create your skills and save them, they get listed in the skills page. 
    After you assign the learners, all learners in a user group, if any, are auto-enrolled to the skill, by default. You can make the learners opt out of auto-enrollment by clicking the **Auto Enroll** button.
 
    ![](assets/turn-off-auto-enrollment.png)
+   
    *Disable auto-enrollment*
 
    Individual learners can auto-enroll themselves or can be enrolled by the Administrator in a Learning Program.
@@ -98,6 +106,7 @@ After you create your skills and save them, they get listed in the skills page. 
    In this example, there are two individual learners and three learners in a user group.
 
    ![](assets/learners-assignedtoaskill.png)
+   
    *Number of learners assigned to a skill*
 
 ## Assign the skill to a course {#assignskilltocourse}
@@ -105,11 +114,13 @@ After you create your skills and save them, they get listed in the skills page. 
 Once you create the skill, an author can create a course, and assign the skill to the course.
 
 ![](assets/assign-skill-to-acourse.png)
+
 *Assign skills to a course*
 
 After the author publishes the course, on the **Skill** page, you can see the count of the courses associated with a skill level, which is incremented when you assign the skill to a new course.
 
 ![](assets/skill-assigned-tothecourse.png)
+
 *Number of the courses associated with a skill level*
 
 ## Assign a job aid to the skill {#assignajobaidtotheskill}
@@ -119,11 +130,13 @@ Job aids are training content that a learner can access without enrolling in any
 While creating a job aid, an author can associate a skill level with it. Creating a job aid with no skill and associating it to a course with a skill does not link the skill to the job aid.
 
 ![](assets/create-a-job-aid.png)
+
 *Create a Job Aid*
 
 On the **Skill** page, you can see the number of job aids associated with that skill level.
 
 ![](assets/job-aid-assignedtotheskill.png)
+
 *Number of Job Aids of a skill*
 
 ## Search a skill {#searchskill}
@@ -185,6 +198,7 @@ Add a CSV file that consists of the skills of instructors. These skills are then
    Click Save.
 
    ![Add instructor skills CSV](assets/instructor-skills.png)
+   
    *Add instructor skills from a CSV*
 
 1. You'll see a confirmation pop-up message.
@@ -192,6 +206,7 @@ Add a CSV file that consists of the skills of instructors. These skills are then
    Note: The following error message pops up if the CSV has incorrect fields.
 
    ![Error message if CSV has incorrect fields](assets/error-csv-upload.png)
+   
    *Error message for incorrect fields*
 
 ### Skills page
@@ -199,6 +214,7 @@ Add a CSV file that consists of the skills of instructors. These skills are then
 On the Skills page, there is a column called Instructors, which denotes the number of instructors assigned to a skill. If you click the number of instructors, you see a pop-up, which displays the instructors assigned to the skill.
 
 ![Skills assigned to instructors](assets/instructor-skill-assigned.png)
+
 *Skills page*
 
 ### Download the skill assignment CSV
@@ -263,8 +279,9 @@ On the Skills page, there is a column called Instructors, which denotes the numb
 ### More like this
 
 * [Skills and Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
-* [Adobe Learning Manager LMS for Employee Skill Development](https://www.youtube.com/watch?v=FSLHlsYzyHA)
 
 <!--
 Saurav: FYI, Adobe employees should not post Adobe content to YouTube. Videos should be added to MPC. Contact Sean Schnoor for more information.
 -->
+
+<!-- Bob: Removed the YT link, as it has become obsolete. >
