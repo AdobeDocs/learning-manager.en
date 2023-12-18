@@ -14,14 +14,18 @@ Learning Manager offers the ability to share purchased seats using the Peer acco
 
 ## Add a peer account {#addapeeraccount}
 
-1. From the Administrator dashboard, click Settings > Peer Accounts.
-1. From the upper-right corner click Add.
+1. From the Administrator dashboard, click **Settings > Peer Accounts**.
+1. From the upper-right corner click **Add**.
 
    ![](assets/peeraccount.png)
 
-1. In the Account Subdomain field, specify the sub domain with whom you want to establish a peer account.
+   *Add peer account*
+
+1. In the **Account Subdomain** field, specify the sub-domain with whom you want to establish a peer account.
 
    ![](assets/addpeer.png)
+
+   *Add a sub-domain*
 
 1. Enter the email ID of the administrator who either accepts or rejects the peer account request.
 1. Specify the number of seats you want to share with your peer. When you share seats with the peer account, the peer account goes into Active state with the received seats, or with the peer's own purchased seats.
@@ -63,13 +67,18 @@ The Administrator can view the user report of the peer account. The parent accou
 
 ![](assets/image034.png)
 
+*View user report of a peer account*
+
 To download the reports for peer accounts, click **Download**. 
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1. How to share seats from one account to another?**
++++How to share seats from one account to another?
 
 When adding a peer account, specify the number of seats that you can share with another peer account.
 
 ![](assets/share-seats.png)
+
+*Share seats from one account to another*
++++
 
