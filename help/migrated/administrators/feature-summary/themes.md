@@ -32,6 +32,8 @@ Click the **Show hints** below this section to display the hints on the image as
 
 ![](assets/themes-preview-images.png)
 
+*View hints on a theme*
+
 Learning Manager application provides five color theme options to its users: 
 
 * Prime Default
@@ -42,6 +44,8 @@ Learning Manager application provides five color theme options to its users:
 * Vivid
 
 ![](assets/prime-customize-theme.png)
+
+*Customize colors of a theme*
 
 You can customize the top bar color, Accent color (for example, icons color in left pane), primary color, and sidebar brightness of Themes except for the Prime Default theme. 
 
@@ -56,6 +60,8 @@ Click **Reset Theme** to restore the orignal settings of the theme. Click **Save
 Click **Live Preview** at the bottom left corner of the Themes section. A pop-up appears as shown below: 
 
 ![](assets/live-theme-preview.png)
+
+*The Live Preview pop-up*
 
 Choose the theme of your choice from the drop-down list, adjust the settings and click **Preview** to view the changes Live in your application. Now, you can go through all the features of the application and witness the changes. You can also change your roles while going through live preview. Once you are satisfied with the changes, you can come back to the Live theme preview pop-up feature and click **Apply Theme**. 
 
