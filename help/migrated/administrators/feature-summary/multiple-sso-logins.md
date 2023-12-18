@@ -89,22 +89,27 @@ After saving the profile settings, Once saved, the External profile URL copied w
 
 ## Frequently Asked Questions
 
-1. Who can enable multiple SSOs for users?
++++ Who can enable multiple SSOs for users?
 
-   Both the Administrator and the Custom Administrator can enable multiple SSOs.
+Both the Administrator and the Custom Administrator can enable multiple SSOs.
++++
 
-1. Can I use an existing or a new single-valued active field?
++++Can I use an existing or a new single-valued active field?
 
-   Yes, you can use an existing or a new single valued active field to set up multiple SSOs.
+Yes, you can use an existing or a new single valued active field to set up multiple SSOs.
++++
 
-1. If there are disabled fields in a CSV, will the setting up of multiple SSOs fail?
++++If there are disabled fields in a CSV, will the setting up of multiple SSOs fail?
 
-   No, it will not affect setting up the SSOs. Users will be redirected to an already configured SSO.
+No, it will not affect setting up the SSOs. Users will be redirected to an already configured SSO.
++++
 
-1. Can an Admin add new values to the active field on the page while setting up Multi-SSO?
++++Can an Admin add new values to the active field on the page while setting up Multi-SSO?
 
-   Yes, an Admin can add new values to the active fields..
+Yes, an Admin can add new values to the active fields.
++++
 
-1. Can I disable or delete fields linked to SSO?
++++Can I disable or delete fields linked to SSO?
 
-   Yes, you can disable or delete fields linked to SSO until you unlink the fields from the SSO setup page.
+Yes, you can disable or delete fields linked to SSO until you unlink the fields from the SSO setup page.
++++

@@ -71,14 +71,17 @@ Each login is counted separately in the report.
 
 ## Frequently Asked Questions
 
-1. Can I log in to Adobe Learning Manager even when I am being impersonated?
++++Can I log in to Adobe Learning Manager even when I am being impersonated?
 
-   Yes, a user's login is independent of impersonation.
+Yes, a user's login is independent of impersonation.
++++
 
-1. Are impersonation events uniquely counted?
++++Are impersonation events uniquely counted?
 
-   Yes, each login access/visit by admin while impersonation will be counted separately.
+Yes, each login access/visit by admin while impersonation will be counted separately.
++++
 
-1. What is the impersonation timeout?  
++++What is the impersonation timeout?  
 
-   It's 60 minutes. If a user who is impersonating closes the browser window and then navigates to any prime URL within 60 minutes, the impersonation activity will be continued, and the banner message must be shown.
+It's 60 minutes. If a user who is impersonating closes the browser window and then navigates to any prime URL within 60 minutes, the impersonation activity will be continued, and the banner message must be shown.
++++

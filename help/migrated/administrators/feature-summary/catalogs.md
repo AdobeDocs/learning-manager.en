@@ -39,12 +39,16 @@ To create a catalog, perform the following steps:
 
    ![](assets/add-course-to-catalog.png)
 
+   *Create a catalog*
+
    You can add multiple courses to the catalog.
 
 1. Save the changes. Go back to the list of catalogs and click the new catalog in the list.
 1. In the page for the new catalog, on the left pane, click **Content**.
 
    ![](assets/click-content-inthecatalog.png)
+
+   *Select a course to add to the catalog*
 
    The course that you have added appears in the **Courses** tab.
 
@@ -81,6 +85,8 @@ An Admin can generate a deep link for a catalog that can take the learners to th
 On the **Catalogs** page, mouse over on the catalog that you the deep link for and click the highlighted icon.
 
 ![](assets/catalog-deep-link.png)
+
+*Generate a deep link for learners*
 
 ## Enable the catalog {#enablethecatalog}
 
@@ -124,6 +130,8 @@ To add an internal user group, click **Add User Groups**.
 
 ![](assets/internal-usergroups.png)
 
+*Share a catalog internally*
+
 There is no option available to enable/disable a shared user group. To disable, you have to delete the user group. To delete, hover the mouse over the triple dots and click delete icon. Alternatively, click Actions drop-down at the upper-right corner of the page and click Delete. 
 
 ## Share the catalog externally {#ext}
@@ -131,6 +139,8 @@ There is no option available to enable/disable a shared user group. To disable, 
 In Catalogs page, click the catalog you want to share. In the left panel click **Share Externally**.
 
 ![](assets/shared-catalog-external.png)
+
+*Share a catalog externally*
 
 Enter the subdomain associated with your Learning Manager account. Click **How to get subdomain?** to learn about the subdomain usage. You can also click **Branding** on the left pane in Administrator home page to view the subdomain associated with your organization account.
 

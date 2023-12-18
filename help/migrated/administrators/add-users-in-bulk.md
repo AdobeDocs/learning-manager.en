@@ -36,6 +36,7 @@ Learning Manager sample CSV is available below with mandatory fields.
 Before including Manager's email-id for any employee, ensure that the Manager is first added as an employee in CSV. For example, refer to the employee name, Howard Walters in the snapshot below:
 
 ![](assets/csv-example.png)
+
 *CSV template for upload*
 
 Also, Administrators of an organization can add themselves as employees and mention their Manager's email-id as root.
@@ -43,4 +44,6 @@ Also, Administrators of an organization can add themselves as employees and ment
 **Sample CSV**
 
 Learning Manager sample CSV is available below with all the fields.
-[learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip)Refer to  [Using CSV upload](feature-summary/add-users-user-groups.md) feature help content for more information.
+[learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip).
+
+Refer to  [Using CSV upload](/help/migrated/administrators/feature-summary/add-users-user-groups.md) feature help content for more information.
