@@ -806,9 +806,11 @@ As a developer you have to create a trial account on Learning Manager, so that y
 
 ## Create client id and secret {#createclientidandsecret}
 
-1. In Integration Admin login, click **Applications** on the left pane. 
+1. In **Integration Admin** login, click **Applications** on the left pane. 
 
    ![](assets/application-development-menu.png)
+
+   *Select Applications on Integration Admin*
 
 1. Click **Register** at the upper-right corner of the page to register your application details. Registration page appears. 
 
@@ -850,6 +852,7 @@ You can add external applications by clicking **Approve** at the upper-right cor
 
 ## Frequently Asked Questions
 
-**1. Does Learning Manager have an E-commerce integration?**
++++Does Learning Manager have an E-commerce integration?
 
-Adobe Learning Manager does not have an E-commerce integration. However, we provide APIs so that you can create your own headless LMS and implement E-commerce features. 
+Adobe Learning Manager does not have an E-commerce integration. However, we provide APIs so that you can create your own headless LMS and implement E-commerce features.
++++

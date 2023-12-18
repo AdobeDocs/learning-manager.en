@@ -24,6 +24,8 @@ Use the filter options as shown in the snapshot below to locate the courses in t
 
 ![](assets/search-options.png)
 
+*Locate the courses in the catalog*
+
 ## Create Virtual Classroom (VC) course with Adobe Connect {#createvirtualclassroomvccoursewithadobeconnect}
 
 1. In My Courses page, click Add Modules and choose Virtual Class room. Create Virtual Classroom dialog appears.
@@ -37,6 +39,8 @@ Use the filter options as shown in the snapshot below to locate the courses in t
 1. Choose the instructor for your VC course from the list of instructors.
 
    ![](assets/choose-instructor.png)
+
+   *Select the instructor from the list*
 
 1. Provide completion criteria for the VC course. Completion criteria is the percentage of total duration of the course a learner has to attend in order to be considered as course complete. For example, say, the duration of course is 1 hour. If you provide 50% as completion criteria, then if a learner attends the course even for 30 minutes, it is considered as course complete for the learner.
 

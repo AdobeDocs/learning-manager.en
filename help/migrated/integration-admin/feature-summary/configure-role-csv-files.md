@@ -168,6 +168,8 @@ In the Sync Settings section, enable the option **Enable Auto Sync**.
 
 ![](assets/sync-settings.png)
 
+*Select the opton Enable Auto Sync*
+
 When you choose this option, you can schedule the time for synchronization at the exact time that you specify in the Sync Time field. If you specify the sync time as 12:00 AM, the custom roles are updated at exactly the specified time every day.
 
 If you want to synchronize the data on demand, click **Sync Now**.

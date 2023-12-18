@@ -18,8 +18,12 @@ To add a new language, click the Course, certification, or learning plan for whi
 
 ![](assets/addnewlocale.png)
 
+*Add a new language*
+
 From the pop-up dialog box, select the additional language or languages that you want to offer to learners and click Save.
 
 ![](assets/selectlang.png)
+
+*Select a language*
 
 Republish your course for your changes to take effect.

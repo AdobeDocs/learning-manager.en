@@ -35,6 +35,8 @@ Learn to install and set up the Learning Manager app for Salesforce by following
 
    ![](assets/install-options.png)
 
+   *Select the option Install for Admins Only*
+
    If you opt for **Install for Specific Profiles**, choose one or more profiles from the list. 
 
 1. Click **Continue** on the pop-up that appears to confirm the third-party access. 
@@ -50,6 +52,8 @@ To add the Learning Manager notification component to the Home page layout, foll
 1. Click **Setup** on the upper-right corner. Home page layouts option appears on the left pane as shown in the below snapshot. 
 
    ![](assets/homepage-component.png)
+
+   *Select Home Page Layouts*
 
 1. Choose the layout of your choice and click **Edit**. 
 1. Select the Adobe Learning Manager notifications option that appears on the page and Click **Next**. 

@@ -53,6 +53,8 @@ You can withdraw the published job aid by clicking settings icon adjacent to the
 
 ![](assets/job-aid-withdraw.png)
 
+*Edit, withdraw, or preview a published Job Aid*
+
 View withdrawn job aids by clicking the withdrawn tab. You can re-publish the withdrawn jobs by clicking settings icon and choosing Publish.
 
 ## Support for HTML packages in Job Aids
@@ -62,6 +64,8 @@ Job Aids now support standard HTML packages as a new type of content. With this 
 When creating a Job Aid, an Author can upload a standard HTML package along with other supported file formats.
 
 ![](assets/html-job-aid.png)
+
+*Support for HTML packages*
 
 An HTML package must have the following:
 
