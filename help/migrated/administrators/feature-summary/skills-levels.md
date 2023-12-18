@@ -284,4 +284,4 @@ On the Skills page, there is a column called Instructors, which denotes the numb
 Saurav: FYI, Adobe employees should not post Adobe content to YouTube. Videos should be added to MPC. Contact Sean Schnoor for more information.
 -->
 
-<!-- Bob: Removed the YT link, as it has become obsolete. >
+<!-- Bob: Removed the YT link, as it has become obsolete. -->
