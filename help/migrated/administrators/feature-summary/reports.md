@@ -45,7 +45,7 @@ To see more granular details of enrollments of various internal teams, click **L
 When you click any enrollment, you can see the learners for each manager, and enrollment to which Learning Objects. You can also see the progression and completion details of each learner. 
 
 ![](assets/learners-for-a-manager.png)
-*Learners for a manager*
+*Aee learners assigned to a manager*
 
 Click any team and export its report as a csv. An Admin can export the report for any of the User Group or individual user by selecting the User Group or individual user, and then export details from the Action drop-down list.
 
@@ -63,7 +63,7 @@ For instance, the Administrator has identified three trainings to track complian
 Now an Admin can click on any training and quickly view the compliance for the selected training.
 
 ![](assets/compliance-dashboard.png)
-*Compliance dashboard*
+*View Compliance dashboard*
 
 You can also see the compliance status for each internal team.
 
@@ -376,6 +376,7 @@ The exported sheet of dashboard reports provides detailed information instead of
 On the report, click the drop-down arrow, and choose the option **Edit Report**.
 
 ![](assets/edit-a-report-1.png)
+*Edit a report*
 
 Make the required changes to the report. To save the changes, click **Save**.
 
@@ -384,6 +385,7 @@ Make the required changes to the report. To save the changes, click **Save**.
 Choose this option to move the current report to an existing dashboard. To move the report, click the option **Move to Dashboard**.
 
 ![](assets/move-a-report.png)
+*Move a report to a dashboard*
 
 Choose the dashboard where you want the report to move to and click **Move**.
 
@@ -392,6 +394,7 @@ Choose the dashboard where you want the report to move to and click **Move**.
 To create a copy of the report, choose the option **Create a Copy**.
 
 ![](assets/copy-a-report.png)
+*Create a copy of a report*
 
 Choose the dashboard where you want to copy the report to. To start copying, click **Copy**.
 
@@ -400,12 +403,14 @@ Choose the dashboard where you want to copy the report to. To start copying, cli
 To delete a report, choose the option **Delete Report**. After you delete the report, you cannot restore the report. The process is irreversible. Proceed with caution when deleting a report.
 
 ![](assets/delete-a-report.png)
+*Delete a report*
 
 ## Download a report {#downloadareport}
 
 To download the report, choose the option **Download Report**.
 
 ![](assets/download-a-report.png)
+*Download a report*
 
 ## Resize a report {#resizeareport}
 
@@ -424,6 +429,7 @@ Filters appear in **[!UICONTROL Add]** report dialog at the bottom based on type
 **Course** You can filter your report based on any course by choosing them from the drop-down.
 
 ![](assets/sample-report-admin.png)
+*Filter a report*
 
 Above the legend for the graph, you can view a zoom box. Move cursor over it, click, and drag the crossbar over any part of the zoom box graph area, to zoom in.
 
@@ -479,7 +485,7 @@ You can change the date range/value for any report and view quickly for a differ
 >The date values that you use to view the report are temporary. This view of the report is not downloaded when you choose the download option. This view is only temporary view.
 
 ![](assets/learner-count-report.png)
-*Learner count*
+*View learner count*
 
 ## Quick view with different managers {#quickviewwithdifferentmanagers}
 
@@ -497,6 +503,7 @@ You can view the reports specific to each course by following the below steps:
    A pop-up dialog appears. A text input field appears where you can enter the required course and suggested  course names appear in the drop-down list. Choose the course from the list shown.
 
    ![](assets/view-course-report-300x117.png)
+   
    *View course reports*
 
 1. Select the course of your choice from the drop-down list and click Show.
@@ -507,6 +514,7 @@ You can view the reports specific to each course by following the below steps:
 To view drop-down options as Edit/Move to Dashboard/Create a copy/Delete/Resize, click the drop-down arrow at the upper-right corner of each report.
 
 ![](assets/edit-options-dashboard-300x126.png)
+
 *Edit/Move to board/Create a Copy/Delete/Resize reports*
 
 **Edit** To go back to initial values while modifying data, click Reset. Click Save after modifying the values.
@@ -661,15 +669,17 @@ To download a report, do one of the following:
 
 ### Job Aids Report
 
-After you select Job Aids Report on the list, you see two options:
+After you select **Job Aids Report** on the list, you see two options:
 
 ![job aids report](assets/job-aids-new.png)
+*Download Job Aids USer Enrollment Report*
 
 **All Job Aids**: If the number of job aids in the account is fewer than 10 million, the generated report will contain enrollment information of all job aids. This will be the default selection. If the number of rows exceeds 10 million, an error will display, and you must select the required job aids manually.
 
 **Selected Job Aids**: If you select this option, you can enter the job aids for which you want to generate the report. You can select at most 10 job aids. Adobe Learning Manager checks if the number of job aids exceeds 10 million.
 
 ![job aids report enroll](assets/job-aids-2-new.png)
+*Select a Job Aid*
 
 **Job Aids Report**
 
@@ -970,8 +980,10 @@ The report contains the following:
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
-**1. How to share a custom dashboard with a manager?**
++++How to share a custom dashboard with a manager?
 
 When creating a dashboard, enter the name and description. To share with managers, enter the manager's name in the **Share With** field.
 
 ![](assets/share-dashboard-manager.png)
+*Share a dashboard*
++++
