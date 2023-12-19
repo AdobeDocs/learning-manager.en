@@ -20,15 +20,19 @@ The Administrator can modify and configure the homepage, which is meant for non-
 
 ## Launch the homepage options
 
-On the Adobe Learning Manager homepage, select Branding. Then, on the left pane, select Non-logged in Homepage.
+On the Adobe Learning Manager homepage, select **Branding**. Then, on the left pane, select Non-logged in Homepage.
 
 ![homepage options](assets/non-logged-in-homepage.png)
 
+*Select the option Non-logged in Homepage*
+
 ## Add a banner
 
-Add a banner for any marketing announcement or feature the trending topic of the day. Select Add banner.
+Add a banner for any marketing announcement or feature the trending topic of the day. Select **Add banner**.
 
 ![banner](assets/add-banner-image.png)
+
+*Add a banner*
 
 Browse to the location of the image to be used as the banner. Then provide a link as an action button on the banner image. 
 
@@ -40,6 +44,8 @@ Select **[!UICONTROL Add category]**. Then enter the details for the category.
 
 ![add category](assets/add-category.png)
 
+*Add the categories*
+
 Save the category. The category is added to the section.
 
 ## Add a catalog
@@ -47,6 +53,8 @@ Save the category. The category is added to the section.
 Add a catalog for non-logged in users so that they can browse all the training on the platform.
 
 ![add catalog](assets/add-catalog.png)
+
+*Add a catalog*
 
 All exported training will be present.
 
