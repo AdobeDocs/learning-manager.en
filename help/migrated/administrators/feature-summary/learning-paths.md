@@ -34,6 +34,8 @@ In the **Learning Path** page, click **Add**. Enter the details.
 
 ![](assets/add-learning-path.png)
 
+*Add a new Learning Path*
+
 After creating the Learning Path, select the newly created Learning Path, and add the courses in the path.
 
 You can add skills and assign a badge to the Learning Path. To add a skill, select the required skill or skills from the **Pick a Skill** drop-down list. Also select the level for the skill or skills.
@@ -52,6 +54,8 @@ In the dialog that appears, choose the training that you want to add to the Lear
 
 ![](assets/choose-training.png)
 
+*Add training to the Learning Path*
+
 You can further sort the courses according to the skills assigned, modified date, and course effectiveness.
 
 After selecting the courses or Learning Path, click **Save**.
@@ -64,13 +68,19 @@ In the Learning Path, you can perform the following:
 
 ![](assets/choose-mandatory.png)
 
+*Make the courses mandatory in each section*
+
 **Rearrange the order:** You can move the courses up or down and change their ordering. 
 
 ![](assets/rearrange.png)
 
+*Rearrange the order of the training*
+
 **Remove a course:** On the course card, click X, and remove the course from the Learning Path. 
 
 ![](assets/remove-course.png)
+
+*Remove a course from the Learning Path*
 
 After you've made the changes, to publish the Learning Path, click Publish.
 
@@ -82,11 +92,15 @@ Insert the Learning Path like inserting a course.
 
 ![](assets/nested-learning-path.png)
 
+*Add a Learning Path inside a Learning Path*
+
 ## Learning Path Settings
 
 In the Settings section, you can add the pre-requisites and the Job Aids that a learner must take before starting the Learning Path. You can also add resources that are helpful to the learner.
 
 ![](assets/learing-path-settings.png)
+
+*Change settings of a Learning Path*
 
 ## Instances
 
@@ -97,6 +111,8 @@ In the **Courses** tile, you can see the course instances that are visible to th
 The **Enable Learners to Choose instances (Flexible Learning Path)** check-box is only applicable to courses. All child Learning Paths will get an option to map a Learning Program instance with Learning Path. By default, the mapping is set to Default Instance.
 
 ![](assets/default-instance.png)
+
+*Learning Path instances*
 
 ## Notifications
 
