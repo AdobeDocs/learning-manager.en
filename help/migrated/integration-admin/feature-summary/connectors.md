@@ -1467,7 +1467,7 @@ You can download the templates, export relevant reports, and plot reports using 
 
 This allows users to download these templates and use it in Power BI application and customize these further, and make your reports tell a compelling story. 
 
-[**Download the templates**](ttps://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
+[**Download the templates**](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
 
 <!--<table> 
  <tbody>
