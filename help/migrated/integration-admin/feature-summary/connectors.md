@@ -16,6 +16,7 @@ Learning Manager also provides the Lynda, getAbstract, and the Harvard Managemen
 
 Read on to know how to configure and use each of these connectors in Learning Manager.
 
+<!--
 >[!NOTE]
 >
 >**Update:** December 2020 update of Learning Manager
@@ -24,10 +25,11 @@ Read on to know how to configure and use each of these connectors in Learning Ma
 >
 >* Learner Transcripts
 >* xAPI
+-->
 
 >[!NOTE]
 >
->With the November 2022 release of Adobe Learning Manager, Zoom will deprecate [JWT authentication by June 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Accordingly, the Zoom connector with JWT will continue to work until mentioned date, but we recommend users to create Server-to-Server OAuth app to replace the functionality in their account. Any new connection will have Zoom OAuth authentication by default.
+>With the November 2022 release of Adobe Learning Manager, Zoom has deprecated [JWT authentication by June 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Accordingly, the Zoom connector with JWT will continue to work until mentioned date, but we recommend users to create Server-to-Server OAuth app to replace the functionality in their account. Any new connection will have Zoom OAuth authentication by default.
 
 ## Salesforce connector {#sfconnector}
 
@@ -49,29 +51,30 @@ Using auto scheduling feature along with automated user import feature can be ef
 
 Learning Manager Administrator can apply filtering on the users before importing them. For example, Learning Manager Administrator can choose to import all users in the hierarchy under one or more specific Managers. 
 
-## Configure Salesforce connector {#configuresalesforceconnector}
+### Configure Salesforce connector {#configuresalesforceconnector}
 
 To integrate Salesforce with Learning Manager, learn the process 
 
-### Pre-requisites {#prerequisites}
+#### Pre-requisites {#prerequisites}
 
 Ensure that you have your Salesforce organization URL with you. For example, if your organization name is **myorg**, the Salesforce URL could be `https://myorg.salesforce.com`. It is the only input which is required to connect Salesforce account with Learning Manager.
 
 Also make sure that you have the appropriate credentials to log in to the account.
 
-### Create a connection {#createaconnection}
+#### Create a connection {#createaconnection}
 
 1. In Learning Manager home page, hover mouse over the Salesforce card/thumbnail. A menu appears. Click **Connect** item in the menu.
 
    ![](assets/mouserover-salesforce.png)
+   
    *Connect option*
 
 1. A dialog appears prompting you to enter the org-url. Click **Connect** after providing the URL. 
 1. Upon successful connection, the overview page appears.
 
-## Map attributes {#mapattributes}
+### Map attributes {#mapattributes}
 
-Once connection is successfully established, you can map Salesforce columns to the corresponding attributes of Learning Manager. This step is mandatory. 
+Once the connection is successfully established, you can map Salesforce columns to the corresponding attributes of Learning Manager. This step is mandatory. 
 
 1. In the mapping page, on left side you can see Learning Manager's columns and on right side you can see the Salesforce columns. Select the appropriate column name that maps to the Learning Manager's column name.
 
@@ -89,7 +92,7 @@ Once connection is successfully established, you can map Salesforce columns to t
 
 Salesforce connector connects to Salesforce.com to fetch the users as configured and add them to Learning Manager. 
 
-## Import users from Salesforce contacts {#import-salesforce-contacts}
+### Import users from Salesforce contacts {#import-salesforce-contacts}
 
 Learning Manager enhances the Salesforce connector to fetch Contacts as well as Salesforce Users and import them into Learning Manager automatically.
 
@@ -129,7 +132,7 @@ Learning Manager offers an ability to export learning records like transcript, u
 ![](assets/export-events-new.png) 
 *Exporting learning records*
 
-## Custom objects in Salesforce
+### Custom objects in Salesforce
 
 Before exporting learning records from Learning Manager, you must create custom objects in Salesforce. Custom objects are objects that you create to store information that's specific to your company or industry. For more information, see [Salesforce custom objects](https://trailhead.salesforce.com/en/content/learn/modules/data_modeling/objects_intro).
 
@@ -215,7 +218,7 @@ If you want to install the package, you must first delete the existing package i
 
 1. Launch Learning Manager.
 
-### Enable Notifications for Learning Manager app
+### Enable Notifications for the Learning Manager app
 
 1. In the upper-right corner, click **Setup**. 
 1. Search for Custom Notifications. 
@@ -268,6 +271,8 @@ The next step is to provide the permission to access the Learning Manager app.
 
 ![](assets/permission-set.png)
 
+*Set permissions to access the Learning Manager app*
+
 Select the users and assign the permissions accordingly. The learners can now access the Learning Manager app.
 
 Now, select a profile, for example, Standard Profile of a user, and click the profile. Click **Edit** and in the **Custom App Settings** section, enable the check-box **Adobe Learning Manager**. This makes the app accessible to the user.
@@ -278,9 +283,9 @@ You must make the app visible to all the profiles.
 
 Click **Save** and the learners belonging to all the profiles will access Learning Manager app.
 
-## Learning Path-related changes
+### Learning Path-related changes
 
-### Existing connections
+#### Existing connections
 
 If the option Learning Path is disabled in the Admin account, no rows and columns are added in the report.
 
@@ -290,7 +295,7 @@ If the option Learning Path is enabled in the Admin account, the column "Type" w
 >
 >If the flag is enabled and you use an existing connection, a few records may be missed.
 
-### New connections
+#### New connections
 
 If the option Learning Path is disabled in the Admin account, the training report will consist of the following columns, but will not contain any data.
 
@@ -308,7 +313,7 @@ In the Type column, the Learning Program will be renamed as Learning Path. For e
 
 Using the FTP connector, you can integrate Learning Manager with arbitrary external systems to automate data synchronization. It is expected that external systems can export data in a CSV format and place it in the appropriate folder of the Learning Manager FTP account. FTP connector capabilities are as follows: 
 
-You can also use the Box connector for data migration, user  import,  and data export. For more information, see [Box connector.](connectors.md#main-pars_header_302653946)
+You can also use the Box connector for data migration, user  import,  and data export. For more information, see Box connector.
 
 ### Data import {#dataimport}
 
@@ -318,11 +323,11 @@ User import process allows Learning Manager Administrator to fetch employee deta
 
 Integration Administrator can choose the columns of CSV and map them to Learning Manager's group-able attributes. This mapping is one time effort. Once the mapping is done, the same mapping is used in subsequent User imports. The mapping can be reconfigured if the Administrator wants to have a different mapping for importing users.
 
-### Export Data {#exportdata}
+#### Export Data {#exportdata}
 
 The Data Export allows users to export user skills and learner transcripts to an FTP location to integrate with any third-party system.
 
-### Scheduling {#scheduling}
+#### Scheduling {#scheduling}
 
 Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application. 
 
@@ -330,11 +335,12 @@ Administrator can set up scheduling tasks as per organization's requirements and
 
 To integrate FTP connector with Learning Manager, learn the process. 
 
-## Create a connection {#Createaconnection-1}
+#### Create a connection {#Createaconnection-1}
 
 1. In Learning Manager home page, hover mouse over the FTP card/thumbnail. A menu appears. Click **Connect** item in the menu.
 
    ![](assets/mouseover-ftpconnector.png)
+   
    *Connect option*
 
 1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **Connect** after providing the email id. 
@@ -356,7 +362,7 @@ To integrate FTP connector with Learning Manager, learn the process.
    ![](assets/ftp-connector-dashboard.png)
    *Export options*
 
-## Import
+### Import
 
 +++Internal User
 
@@ -462,7 +468,7 @@ The import xAPI options allows you to schedule the import of xAPI statements fro
 
 +++
 
-## Export
+### Export
 
 +++Skills
 
@@ -510,7 +516,7 @@ The auto-exported files are available with the title, **learner_transcript_&#42;
 
 ![](assets/exported-file.png) 
 
-## Support for manual csv fields {#supportformanualcsvfields}
+### Support for manual csv fields {#supportformanualcsvfields}
 
 While importing user data through FTP , an admin has to map all active field present in the system to corresponding field in the csv.
 
@@ -556,15 +562,16 @@ The Lynda connector is used by enterprise customers of Lynda.com who would like 
    >Migration feature must be enabled for your account before you configure this connector.
 
 1. Click the connection that you want to edit.
-1. From the left pane, click Configure. Do one of the following:
+1. From the left pane, click **Configure**. Do one of the following:
 
    * View or edit the details of your account, and the synchronization schedule from this window. Select the Enable Connection check box if you want to enable this account. 
    * Click Edit and edit your credentials. To undo your updates to this field click Reset
    * Click Enable Schedule to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every three days.
 
-   Click Save to save your changes.
+   Click **Save** to save your changes.
 
    ![](assets/lynda.png)
+   
    *Configure the Lynda connector for Learning Manager*
 
 1. From the left pane, click On-Demand Execution. This option allows you to import user feeds and other relevant data from Lynda. Enter the Start Date for the on demand execution, and click Execute to execute the synchronization. All the data from the start date until present is imported.
@@ -573,6 +580,7 @@ The Lynda connector is used by enterprise customers of Lynda.com who would like 
    * If you click Enable access to Learning Manager during execution, there is no disruption in service during synchronization.
 
    ![](assets/lynda-ondemand.png)
+   
    *Perform on-demand execution for Lynda connector*
 
 1. You can also click Execution Status from the left pane anytime to view the summary of all the runs for this connector, in a chronological order. You can view the start date and duration of the synchronization, the type of synchronization (whether it is on-demand synchronization) and status of the synchronization (whether the synchronization is in progress or is complete).
@@ -584,7 +592,8 @@ The Lynda connector is used by enterprise customers of Lynda.com who would like 
    You can perform a rerun only for the latest synchronization.
 
    ![](assets/lynda-ondemand.png)
-   *To view the summary of all runs click Execution Status*
+   
+   *View the summary of all runs click Execution Status*
 
 ## getAbstract connector {#getabstractconnector}
 
@@ -617,6 +626,7 @@ The getAbstract connector is used by enterprise customers of getAbstract.com, wh
 1. Click the connection whose configuration you want to view or edit. 
 
    ![](assets/getabstractschedulepage.png)
+   
    *Configure the getAbstract connector for Learning Manager*
 
 1. From the left pane, click Configure. Do one of the following:
@@ -625,7 +635,7 @@ The getAbstract connector is used by enterprise customers of getAbstract.com, wh
    * Click Edit and edit your credentials. To undo your updates to this field click Reset
    * Click Enable Schedule to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every three days.
 
-1. Click Save.
+1. Click **Save**.
 
    The configuration is saved and the getAbstract connection for your account is added.
 
@@ -671,6 +681,7 @@ The Harvard ManageMentor connector is used by enterprise customers of Harvard Ma
    >Migration feature must be enabled for your account before you configure this connector.
 
    ![](assets/hmm.png)
+   
    *Configure the HarvardManage Mentor connector for Learning Manager*
 
 1. From the left pane, click Configure. Do one of the following:
@@ -745,6 +756,7 @@ Administrator can set up scheduling tasks as per organization's requirements and
 1. In Learning Manager home page, hover your mouse over the Workday tile. A menu appears. Click **[!UICONTROL Connect]** item in the menu.
 
    ![](assets/workday-tile.png)
+   
    *Workday tile*
 
 1. A dialog appears prompting you to enter the credentials for the new connection. Before you make the connection, enter the following fields.
@@ -754,7 +766,10 @@ Administrator can set up scheduling tasks as per organization's requirements and
    * Tenant: The tenant is internal to your company. Your Workday admin provides you the tenant details.
    * User name and password: The Workday admin creates an integrated system user (ISU) with the required security privileges and shares it with the integration admin.
 
-   Note: Learning Manager uses version 28.1 of Workday API.
+>[!NOTE]
+>
+>   Learning Manager uses version 28.1 of Workday API.
+
 
    ![](assets/configure-connector.png)
    *Configure Workday connector*
@@ -909,23 +924,33 @@ To set up   miniOrange   connector, contact the Learning Manager CSM team.
 
    ![](assets/miniorange-tile.png)
 
-1. Click Connect to establish a new connection. The  miniOrange  connector page appears. Enter the details of your account you want to map.
+   *miniOrange connector tile*
+
+1. Click **Connect** to establish a new connection. The  miniOrange  connector page appears. Enter the details of your account you want to map.
 
    ![](assets/establish-connection.png)
+
+   *Create a connection*
 
 1. If you want to import miniOrnage user directly as a Learning Manager internal user, use the **[!UICONTROL Import Internal Users]** option.
 
    ![](assets/import-users.png)
 
+   *Import internal users*
+
 1. In the mapping page, on  left   side  you can see Learning Manager's columns and on  right   side  you can see the  miniOrnage  columns. Select the appropriate column name that maps to the Learning Manager's column name.
 
    ![](assets/map-attributes.png)
+
+   *Map attributes*
 
 1. To view and edit data source, as an Administrator, click **[!UICONTROL Settings > Data Source]**.
 
    The established  miniOrange  source would be listed. If you require to edit the filter, click **[!UICONTROL Edit]**.
 
    ![](assets/data-source.png)
+
+   *View and edit a data source*
 
 1. You receive a notification upon completion of import. To view or edit the import log, click **[!UICONTROL Users > Import log.]**
 
@@ -943,10 +968,12 @@ To set up and use the connector, follow these steps.
 
    ![](assets/connectors.png)
 
+   *Zoom connector tile*
+
 1. The BlueJeans/ Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
 
    ![](assets/bluejeans-connecotrpage.png)
-   *Connector page*
+   *Connect to BlueJeans/ Zoom*
 
    >[!NOTE]
    >
@@ -955,7 +982,8 @@ To set up and use the connector, follow these steps.
 1. Once the connection is established, as an Author, create a VC course with BlueJeans/ Zoom as the conferencing system.
 
    ![](assets/vc.jpg)
-   *Conferencing systems*
+   
+   *Create a VC course*
 
 1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
 1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
@@ -1004,7 +1032,8 @@ To integrate Box connector with Learning Manager, learn the process.
 1. In Learning Manager home page, hover  mouse  over the Box card/thumbnail. A menu appears. Click Connect item in the menu.
 
    ![](assets/screen-shot-2017-10-25at54426pm.png)
-   *Connect option*
+   
+   *Connect to Box*
 
 1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager Box account for the organization. Click Connect after providing the email id.   
 1. Learning Manager sends you an email prompting the user to reset the password before accessing the Box for the first time. The user must reset the password and use it for accessing the Learning Manager Box account.
@@ -1056,6 +1085,7 @@ The xAPI Report Activity option allows you to generate the import of xAPI statem
 1. From the configuration page,  select an existing configuration that is available in the configuration list to import xAPI statements from the CSV. Click edit or A**dd a new Configuration** link to navigate to the Import xAPI Statements-Configuration-Source File page.
 
    ![](assets/artboard-11-2x.png)
+   
    *Edit or Add a new configuration*
 
    **Configuration**
@@ -1064,6 +1094,7 @@ The xAPI Report Activity option allows you to generate the import of xAPI statem
    * Click **Save** to save your changes.
 
    ![](assets/configurations-main2x.png)
+   
    *Configure*
 
    **Filter**
@@ -1072,6 +1103,7 @@ The xAPI Report Activity option allows you to generate the import of xAPI statem
    * In the configure Import-Filter page, fill in the Name and conditions field to filter out the records. Click Add new filter to add another filter. You can save or delete a filter by clicking save or delete option under the Actions column.
 
    ![](assets/box-filter-2x.png)
+   
    *Filter*
 
    **Mapping**
@@ -1144,7 +1176,7 @@ The auto-exported files are available with the title, **skill_achievements_&#42;
 >
 >The customer manages the access permissions and the content in the Box folder shared by the Learning Manager team.  Also  the content in the folder would be physically stored in Frankfurt region.
 
-## Support for manual csv fields {#Supportformanualcsvfields-1}
+### Support for manual csv fields {#Supportformanualcsvfields-1}
 
 While importing user data through Box , an admin has to map all active field present in the system to corresponding field in the csv.
 
@@ -1184,7 +1216,8 @@ The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com 
 1. Select **Enable AICC Integration**.
 
    ![](assets/linkedin-learning.png)
-   *LinkedIn learning configurations*
+   
+   *LinkedIn Learning configuration*
 
 ### Configure LinkedIn Learning connector {#configurelinkedinlearningconnector}
 
@@ -1202,11 +1235,11 @@ The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com 
    >
    >The enterprise admin can generate a new application from the LinkedIn Learning Admin portal to get the Appkey and the Secret  key .
 
-1. Click Save.
+1. Click **Save**.
 
-   The configuration is saved and the LinkedIn Learning connection for your account is added. You can now click Manage Connections from the home page, and edit your configuration anytime.
+   The configuration is saved and the LinkedIn Learning connection for your account is added. You can now click **Manage Connections** from the home page, and edit your configuration anytime.
 
-1. If you already have a connection established, click Manage Connections view all your connections.
+1. If you already have a connection established, click **Manage Connections** view all your connections.
 
    >[!NOTE]
    >
@@ -1215,23 +1248,25 @@ The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com 
 1. Click the connection that you want to edit.
 1. From the left pane, click Configure. Do one of the following:
 
-   * View or edit the details of your account, and the synchronization schedule from this window. Select the Enable Connection check box if you want to enable this account. 
-   * Click Edit and edit your credentials. To undo your updates to this field click Reset.
-   * Click Enable Schedule to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every three days.
+   * View or edit the details of your account, and the synchronization schedule from this window. Select the **Enable Connection** check box if you want to enable this account. 
+   * Click **Edit** and edit your credentials. To undo your updates to this field click Reset.
+   * Click **Enable Schedule** to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every three days.
 
-   Click Save to save your changes.
+   Click **Save** to save your changes.
 
-1. From the left pane, click On-Demand Execution. This option allows you to import user feeds and other relevant data from LinkedIn. Enter the Start Date for the  on demand  execution, and click Execute to execute the synchronization. All the data from the start date until present is imported.
+1. From the left pane, click **On-Demand Execution**. This option allows you to import user feeds and other relevant data from LinkedIn. Enter the Start Date for the  on demand  execution, and click Execute to execute the synchronization. All the data from the start date until present is imported.
 
-   * You can click Disable access to Learning Manager during execution where the application has a downtime during the synchronization.
-   * If you click Enable access to Learning Manager during execution, there is no disruption in service during synchronization.
+   * You can click **Disable access** to Learning Manager during execution where the application has a downtime during the synchronization.
+   * If you click **Enable access** to Learning Manager during execution, there is no disruption in service during synchronization.
 
    ![](assets/ondemandexecution.jpg)
+   
    *On demand execution of report*
 
 1. You can also click Execution Status from the left pane anytime to view the summary of all the runs for this connector, in a chronological order. You can view the start date and duration of the synchronization, the type of synchronization (whether it is on-demand synchronization) and status of the synchronization (whether the synchronization is in progress or is complete).
 
    ![](assets/executionstatus.jpg)
+     
    *Report execution status*
 
    >[!NOTE]
@@ -1248,14 +1283,16 @@ The following are the filters:
 
 **Filter Training using:** Filters a subset of courses from LinkedIn into Learning Manager.
 
-* Based on language
+* **Based on language**
 
 ![](assets/filter-language.png)
+
 *Filter by language*
 
-* Based on Library from LinkedIn Learning
+* **Based on Library from LinkedIn Learning**
 
 ![](assets/filter-catalog.png)
+
 *Filter by catalog*
 
 **Import Trainings to**
@@ -1268,6 +1305,7 @@ The following are the filters:
 There is a tag type- **Custom Tag**, which you can use to add custom tags to your LinkedIn Learning courses. You can add as many tags as you want, separated by commas.
 
 ![](assets/add-custom-tags.png)
+
 *Add custom tags*
 
 The content is saved only after migration. The content will be saved in respective catalogs.
@@ -1285,7 +1323,8 @@ You can use integration with this connector to take advantage of your existing P
 To configure the connector,  in  the **[!UICONTROL Connectors]** page, hover over the **[!UICONTROL Power BI]** tile and click **[!UICONTROL Connect]**. The Power BI page opens. To establish a connection, you provide the App Client Id, App Client secret, Tenant name, and Workspace Id (optional). To obtain these credentials, follow these steps.
 
 ![](assets/power-bi-configurepage.png)
-*Configuration*
+
+*Configure the Power BI connector*
 
 1. Launch <https://app.powerbi.com/embedsetup>.
 1. Click **Embed for your organization** and sign in to your Microsoft account.  
@@ -1315,18 +1354,20 @@ Enable the **[!UICONTROL Enable User-Skill/ Learner Transcript export using this
 **Export configure**: If you want to schedule the extraction of the report. Select the **[!UICONTROL Enable Schedule]** check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/power-bi-configureuserskillpage.png)
-*Export configure*
+
+*Export configure to schedule the report*
 
 **Export on demand:** You can specify  the  start  date and export the report using the option . The  report is extracted from the date  entered  until present.
 
 ![](assets/power-bi-userskillondemandpage.png)
+
 *Export on demand*
 
 The exported data can be viewed by logging in to your Power BI account. The exported data is listed under the data sets option.
 
 ### Export xAPI Activity Reports in Learning Manager {#exportxapiactivityreportsincaptivateprime}
 
-From the PowerBI-xAPI capabilities page, click Export xAPI Activity Report.
+From the PowerBI-xAPI capabilities page, click **Export xAPI Activity Report**.
 
 ![](assets/powerbi-dashboard.png)
 *PowerBI - Export xAPI Activity Report*
@@ -1399,7 +1440,7 @@ The Training Report has two additional fields:
 * Count of users who've shared feedback on a course  
 * Average star rating for a course
 
-## Filter status of Learner Transcripts {#lt-status}
+### Filter status of Learner Transcripts {#lt-status}
 
 In the Unified Reports section of a Power BI connection, there is an option to export Learner Transcripts based on the status of the Learning Objects.
 
@@ -1426,18 +1467,20 @@ You can download the templates, export relevant reports, and plot reports using 
 
 This allows users to download these templates and use it in Power BI application and customize these further, and make your reports tell a compelling story. 
 
-<table> 
+[**Download the templates**](ttps://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
+
+<!--<table> 
  <tbody>
   <tr> 
    <td><img src="assets/download.png"></td> 
    <td><p> </p> <p><a disablelinktracking="false" href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a"><strong><em>Download the templates</em></strong></a></p></td> 
   </tr> 
  </tbody>
-</table>
+</table>-->
 
 You can also download the templates manually via the link above. Use the templates and customize your reports accordingly.
 
-## Export Training Report
+### Export Training Report
 
 The training reports can be exported to Power BI as part of the Unified Reports feature.
 
@@ -1451,7 +1494,7 @@ The Training Report has these additional fields:
 
 ### Learning Path-related changes
 
-### Admin: Learning Transcripts and Unified Report
+#### Admin: Learning Transcripts and Unified Report
 
 **Existing connections**
 
@@ -1471,7 +1514,7 @@ In addition, the report will contain the column type Learning Path (Higher Level
 
 In the Type column, Learning Program will be renamed as Learning Path. For existing connections, there will be no change. However, for new connections, the changes will be reflected after 30 days.
 
-### Training Report: Unified Report
+#### Training Report: Unified Report
 
 **Existing connections**
 
@@ -1493,7 +1536,7 @@ In the Type column, Learning Program will be renamed as Learning Path. For exist
 
 ## Custom FTP {#custom-ftp}
 
-**Pre-requisites:**
+**Pre-requisites**
 
 >[!NOTE]
 >
@@ -1567,49 +1610,73 @@ Prerequisites to establish an ADFS connection:
 
    ![](assets/add-client-secret.png)
 
+   *Select Certificates and Secrets*
+
 1. Add a client secret.
 
    ![](assets/add-description.png)
+
+   *Add a client secret*
 
 1. Add a description to the secret and set its expiry to 24 months.
 
    ![](assets/copy-values.png)
 
+   *Add description*
+
 1. Copy the value and the secret to, for example, notepad.
 
    ![](assets/copy-secret.png)
+
+   *Copy value and secret key*
 
 1. Select **API Permissions**.
 
    ![](assets/click-api-permission.png)
 
+   *Left pane containing API Permissions*
+
 1. Select **Add Permissions**. Also, enable the option, **Grant Admin consent**.
 
    ![](assets/add-permission.png)
+
+   *Add permissions*
 
 1. Select **Microsoft Graph**.
 
    ![](assets/ms-graph.png)
 
+   *Select Microsoft Graph*
+
 1. Select **Application permissions**.
 
    ![](assets/request-api-permission.png)
+
+   *Select Application permissions*
 
 1. Search for *directory* and select **Read directory data**.
 
    ![](assets/read-directory-data.png)
 
+   *Select Read directory data*
+
 1. Enter *user* as the search term.
 
    ![](assets/search-user.png)
+
+   *Enter the search term*
 
 1. Select **Read all users' full profiles**.
 
    ![](assets/select-read-all.png)
 
+   *Select Read all users' full profiles*
+
 1. Select **Add Permissions**.
 
    ![](assets/select-add-permission.png)
+
+   *Select Add Permissions*
 
 1. In the ADFS configuration page in Adobe Learning Manager, enter the Client ID and the Client Secret that you had obtained earlier.
 
@@ -1617,17 +1684,17 @@ Prerequisites to establish an ADFS connection:
 
 1. Log in to **portal.azure.com**. The values will be populated in the Tenant ID and the Primary Domain fields.
 
-## Import
+### Import
 
-### Map attributes
+#### Map attributes
 
-Integration Administrator can choose ADFS  attributes and map them to corresponding Learning Manager's group-able attributes. Once the mapping is completed, the same mapping is used in subsequent user imports. It can be reconfigured if  Administrator  wants to have a different mapping for importing users.
+The Integration Administrator can choose ADFS  attributes and map them to corresponding Learning Manager's group-able attributes. Once the mapping is completed, the same mapping is used in subsequent user imports. It can be reconfigured if  Administrator  wants to have a different mapping for importing users.
 
-### Automated user import
+#### Automated user import
 
 User import process allows Learning Manager Administrator to fetch employee details from ADFS and import them into Learning Manager automatically.
 
-### Filtering users
+#### Filtering users
 
 Learning Manager Administrator can apply  filtering  to the users before importing them. For example, Learning Manager Administrator can choose to import all users in the hierarchy under one or more specific Managers. 
 
@@ -1638,26 +1705,30 @@ To set up ADFS connector ,  contact the Learning Manager CSM team.
 1. In Learning Manager home page, hover  mouse  over the ADFS card/thumbnail. A menu appears. Click Connect option in the menu.
 
    ![](assets/adfs1.jpg)
+   
    *ADFS thumbnail*
 
 1. Click Connect to establish a new connection. The ADFS connector page appears. Enter the details of your account you want to map.
 
    ![](assets/adfs2.jpg)
+   
    *Establish connection*
 
 1. If you want to import ADFS user directly as a Learning Manager internal user, use the Import Internal Users option.
 
    ![](assets/adfs3.jpg)
+   
    *Import user to Learning Manager*
 
 1. In the mapping page, on  left   side  you can see Learning Manager's columns and on  right   side  you can see the ADFS columns. Select the appropriate column name that maps to the Learning Manager's column name.
 
    ![](assets/adfs4.jpg)
+   
    *Map attributes*
 
-1. To view and edit data source, as an Administrator, click Settings > Data Source.
+1. To view and edit data source, as an Administrator, click **Settings > Data Source**.
 
-   The established ADFS source would be listed. If you require to edit the filter, click Edit.
+   The established ADFS source would be listed. If you require to edit the filter, click **Edit**.
 
    ![](assets/datasource.jpg)
    *Data source setting*
@@ -1776,7 +1847,7 @@ Here is a brief workflow of the process.
 
 ## Marketo Engage connector {#marketo}
 
-Learning Manager now offers integration with Marketo Engage, a marketing automation software that helps run marketing campaigns.
+Learning Manager integrates with Marketo Engage, a marketing automation software that helps run marketing campaigns.
 
 The Marketo Engage Connector is designed to add (or update) leads in the Marketo Engage database, when a new user is added to the Learning Manager Account. It also associates learning behaviors of the user in Learning Manager (course enrollment, course completion, skill assignment and skill accomplishment) as custom objects with the corresponding leads in Marketo Engage. This enables a marketer to use this information to target audiences based on their learning behaviors captured from Learning Manager and use features of Marketo Engage like "Smart Lists".
 
@@ -1798,6 +1869,8 @@ When you create a Marketo Engage connection, you must provide the following deta
 * Marketo Engage Domain
 
 ![](assets/marketo-creds.png)
+
+*Enter credentials for Marketo*
 
 >[!NOTE]
 >
@@ -1851,7 +1924,7 @@ This new connector requires a separate set of credentials to configure the conne
 ![](assets/bj-event-connector.png) 
 *Credentials for BlueJeans Event Connector*
 
-## Workflow {#workflow}
+### Workflow {#workflow}
 
 1. The BlueJeans Event moderator creates an event from within BlueJeans.
 1. The author creates BlueJeans event course using the BlueJeans event url, which is created in future dates.
@@ -1936,13 +2009,19 @@ Export training metadata from Adobe Learning Manager to the data retrieval and s
 
    ![](assets/create-connection-training-data.png)
 
+   *Enter connection and domain names*
+
 1. Click **Connect**. The base URL and the retrieval URL get generated.
 
    ![](assets/base-url.png)
 
+   *Generate the URLs*
+
 1. Enable the connection.
 
    ![](assets/enable-connection.png)
+
+   *Enable the connection*
 
 1. Once you enable the connection, the images of all the Courses, Learning Paths, and Certificates get migrated to the CDN.
 1. Export the metadata of the Courses, Learning paths, and Certificates into the search and retrieval service.
@@ -2132,14 +2211,17 @@ For AEM, there is no Buy Now, only an **Add to Cart** button. This button also r
 
 #### Frequently Asked Questions
 
-**What courses cannot be purchased?**
++++What courses cannot be purchased?
 
 Courses, such as, recurring certifications, content marketplace training, acquired training, training from connectors, Job Aids, and Manager approved/nominated courses cannot be purchased by a learner.
++++
 
-**Is there any change in the Learner Transcript and Trainings Report?**
++++Is there any change in the Learner Transcript and Trainings Report?
 
 These reports display the price and the date of purchase for all purchased training in the account.
++++
 
-**Can a learner enroll in a free training?**
++++Can a learner enroll in a free training?
 
 Yes, a learner can enroll in free training. Free training displays the Preview and Enroll button on the Training Overview page.
++++
