@@ -31,7 +31,7 @@ You can sort the tags based on usage or alphabetical order using the **[!UICONTR
 
    The **[!UICONTROL Edit Tag]** dialogue box appears. Enter the new tag name and click **[!UICONTROL Save]**.
 
-   If the tag name you entered already exists, Prime shows a warning message. No two tags with the same name can exist.
+   If the tag name you entered already exists, Adobe Learning Manager displays a warning message. No two tags with the same name can exist.
 
 ## Replace tags {#replacetags}
 
