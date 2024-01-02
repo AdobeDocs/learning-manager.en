@@ -1,6 +1,6 @@
 ---
 title: What's new in this release
-description: Learn about the new features and enhancements in Adobe Learning Manager
+description: Learn about the new features and enhancements in the November 2023 release of Adobe Learning Manager.
 ---
 # What's new in this release
 
