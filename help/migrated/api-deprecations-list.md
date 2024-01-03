@@ -5,6 +5,8 @@ description: As the APIs in Adobe Learning Manager evolve, APIs are periodically
 contentowner: saghosh
 ---
 
+# API Deprecations in Adobe Learning Manager
+
 ## API deprecations in the March 2024 release of Adobe Learning Manager
 
 ### Changes in Rate Limits
