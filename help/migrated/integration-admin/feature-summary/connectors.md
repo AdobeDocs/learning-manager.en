@@ -543,7 +543,7 @@ The Lynda connector is used by enterprise customers of Lynda.com who would like 
 
 1. If you are configuring the Lynda connector for the first time, click Connect.
 
-   Configure the Exavault FTP account before you configure this connector.
+   <!--Configure the Exavault FTP account before you configure this connector.-->
 
 1. From the connection page, specify a name for your connector. Enter the Appkey and the Secret key for your connection.
 
@@ -607,9 +607,9 @@ The getAbstract connector is used by enterprise customers of getAbstract.com, wh
 
 1. If you are configuring the getAbstract connector for the first time, click Connect.
 
-   Configure the Exavault FTP account before you configure this connector.
+   <!--Configure the Exavault FTP account before you configure this connector.
 
-   Ensure that you share this FTP credentials with your content provider to access the feeds.
+   Ensure that you share this FTP credentials with your content provider to access the feeds.-->
 
 1. Enter a name for your connection in the Connection Name field.
 
@@ -669,9 +669,9 @@ The Harvard ManageMentor connector is used by enterprise customers of Harvard Ma
 
 1. If you are configuring the Harvard ManageMentor connector for the first time, click Connect.
 
-   Configure the Exavault FTP account before you configure this connector.
+   <!--Configure the Exavault FTP account before you configure this connector.
 
-   Ensure that you share this FTP credentials with your content provider to access the feeds.
+   Ensure that you share this FTP credentials with your content provider to access the feeds.-->
 
 1. In the Connection Name field, enter a name for your connection. Click Connect to save this connection.
 1. If you already have a connection established, from the home page, click Harvard ManageMentor > Manage Connections. Click the connection that you want to edit your existing configuration.
@@ -1221,13 +1221,13 @@ The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com 
 
 ### Configure LinkedIn Learning connector {#configurelinkedinlearningconnector}
 
-1. From the Integration Admin dashboard, click LinkedIn Learning. The Getting Started, Connect, and Manage Connections options are shown.
-1. If you are configuring the LinkedIn Learning connector for the first time, click Connect.
+1. From the Integration Admin dashboard, click [!UICONTROL LinkedIn Learning]. The Getting Started, Connect, and Manage Connections options are shown.
+1. If you are configuring the LinkedIn Learning connector for the first time, click [!UICONTROL Connect].
 
-   Configure the Exavault FTP account before you configure this connector.
+   <!--Configure the Exavault FTP account before you configure this connector.
 
    ![](assets/configure.jpg)
-   *Configure connection*
+   *Configure connection*-->
 
 1. From the connection page, specify a name for your connector. Enter the Appkey and the Secret key for your connection.
 

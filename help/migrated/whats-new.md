@@ -279,6 +279,6 @@ For information regarding current and previous releases of Learning Manager web 
 
 ## Previous releases of Adobe Learning Manager
 
-* [November 2023 release](whats-new-november-2023.md)
+<!--* [November 2023 release](whats-new-november-2023.md)-->
 * [July 2023 release](whats-new-2023-july.md)
 * [April 2023 release](whats-new-2023-april.md)
