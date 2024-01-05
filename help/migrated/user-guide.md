@@ -10,14 +10,7 @@ Read on to know what is the latest offering in Adobe Learning Manager (previousl
 
 ## Join the conversation {#jointheconversation}
 
-<table>
- <tbody>
-  <tr> 
-   <td><img src="assets/community.png"></td> 
-   <td><p>Visit the <a disablelinktracking="false" href="https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all">Adobe Learning Manager User Community</a> to be inspired and get answers to top questions.<br></p></td> 
-  </tr> 
- </tbody>
-</table>
+Visit the [Adobe Learning Manager User Community](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all) to be inspired and get answers to top questions.
 
 ## Popular topics {#populartopics}
 
