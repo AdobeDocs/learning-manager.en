@@ -128,9 +128,9 @@ We recommend importing large size *user.csv* files using the automated Box/Exava
  <tbody>
   <tr>
    <td>
-    <p>Content type</p></td>
+    <p><b>Content type</b></p></td>
    <td>
-    <p>Extensions</p></td>
+    <p><b>Extensions</b></p></td>
   </tr>
   <tr>
    <td>
@@ -224,9 +224,9 @@ We recommend importing large size *user.csv* files using the automated Box/Exava
  <tbody>
   <tr>
    <td>
-    <p>Elements</p></td>
+    <p><b>Elements</b></p></td>
    <td>
-    <p>Size</p></td>
+    <p><b>Size</b></p></td>
   </tr>
   <tr>
    <td>
@@ -269,7 +269,7 @@ We recommend importing large size *user.csv* files using the automated Box/Exava
 
 ## Accessibility
 
-## Supported browsers and screen readers
+### Supported browsers and screen readers
 
 The following combinations are supported:
 
@@ -277,7 +277,7 @@ The following combinations are supported:
 * Edge + Narrator
 * Mac Safari + VoiceOver
 
-## Support for immersive mobile
+### Support for immersive mobile
 
 The following are supported:
 
