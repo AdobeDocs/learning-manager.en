@@ -28,11 +28,11 @@ Here is the screen reader and browser combination that we support on desktop:
  <tbody>
   <tr>
    <td>
-    <p style="text-align: left;">Operating System</p></td>
+    <p style="text-align: left;"><b>Operating System</b></p></td>
    <td>
-    <p style="text-align: left;">Browser</p></td>
+    <p style="text-align: left;"><b>Browser</b></p></td>
    <td>
-    <p style="text-align: left;">Screen reader</p></td>
+    <p style="text-align: left;"><b>Screen reader</b></p></td>
   </tr>
   <tr>
    <td>
@@ -87,11 +87,11 @@ In addition, Learning Manager supports the following keyboard shortcuts:
  <tbody>
   <tr>
    <td>
-    <p>Feature</p></td>
+    <p><b>Feature</b></p></td>
    <td>
-    <p>Windows</p></td>
+    <p><b>Windows</b></p></td>
    <td>
-    <p>macOS</p></td>
+    <p><b>macOS</b></p></td>
   </tr>
   <tr>
    <td>
@@ -150,11 +150,11 @@ In addition, Learning Manager supports the following keyboard shortcuts:
  <tbody>
   <tr>
    <td>
-    <p>Feature</p></td>
+    <p><b>Feature</b></p></td>
    <td>
-    <p>Windows</p></td>
+    <p><b>Windows</b></p></td>
    <td>
-    <p>macOS</p></td>
+    <p><b>macOS</b></p></td>
   </tr>
   <tr>
    <td>
