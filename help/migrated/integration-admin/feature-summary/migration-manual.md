@@ -130,11 +130,11 @@ Find below, the standard CSV specifications that you can use to map with your ex
  <tbody>
   <tr>
    <th>
-    <p>Sl.no</p></th>
+    <p><b>Sl.no</b></p></th>
    <th>
-    <p>File Name</p></th>
+    <p><b>File Name</b></p></th>
    <th>
-    <p>Description of contents</p></th>
+    <p><b>Description of contents</b></p></th>
    <th>
     <p>Notes</p></th>
   </tr>
