@@ -205,11 +205,11 @@ For active trainings, data of all root user (with manager role) internal groups 
  <tbody>
   <tr>
    <td>
-    <p>Reference</p></td>
+    <p><b>Reference</b></p></td>
    <td>
-    <p>Metric</p></td>
+    <p><b>Metric</b></p></td>
    <td>
-    <p>Description</p></td>
+    <p><b>Description</b></p></td>
   </tr>
   <tr>
    <td>

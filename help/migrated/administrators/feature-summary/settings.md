@@ -77,8 +77,11 @@ Enable or disable the following settings:
  <tbody>
   <tr>
    <th>
-    <p>Name</p></th>
-   <th>Description</th>
+    <p><b>Name</b></p>
+    </th>
+   <th>
+    <p><b>Description</b></p>
+   </th>
   </tr>
   <tr>
    <td>Show Course Effectiveness</td>

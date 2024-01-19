@@ -77,9 +77,9 @@ The list below displays the components that can be customized. To customize the 
  <tbody>
   <tr>
    <td>
-    <p>Customize</p></td>
+    <p><b>Customize</b></p></td>
    <td>
-    <p>What is recommended</p></td>
+    <p><b>What is recommended</b></p></td>
   </tr>
   <tr>
    <td>

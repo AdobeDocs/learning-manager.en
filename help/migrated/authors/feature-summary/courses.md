@@ -325,9 +325,9 @@ Once the admin has enabled multi attempts, as an author you can configure multi 
  <tbody>
   <tr>
    <td>
-    <p>Option</p></td>
+    <p><b>Option</b></p></td>
    <td>
-    <p>Description</p></td>
+    <p><b>Description</b></p></td>
   </tr>
   <tr>
    <td>

@@ -303,11 +303,11 @@ The administrator can view the Activity Score, number of posts, boards, users, a
  <tbody>
   <tr>
    <td>
-    <p>Sl. No.</p></td>
+    <p><b>Sl. No.</b></p></td>
    <td>
-    <p>Column Name</p></td>
+    <p><b>Column Name</b></p></td>
    <td>
-    <p>Explanation</p></td>
+    <p><b>Explanation</b></p></td>
   </tr>
   <tr>
    <td>
