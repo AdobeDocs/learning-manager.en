@@ -360,8 +360,8 @@ Following are the various elements of the Learning Manager class diagram in V2 A
 <table>
  <tbody>
   <tr>
-   <th>Learning Manager Object</th>
-   <th>Description</th>
+   <th><b>Learning Manager Object</b></th>
+   <th><b>Description</b></th>
   </tr>
   <tr>
    <td>account</td>
