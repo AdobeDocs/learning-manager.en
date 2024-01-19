@@ -13,8 +13,8 @@ The following are a compilation of known issues for each update of Learning Mana
 <table> 
  <tbody>
   <tr> 
-   <td><p>Update</p></td> 
-   <td><p>Known issues</p></td> 
+   <td><p><b>Update</b></p></td> 
+   <td><p><b>Known issues</b></p></td> 
   </tr> 
   <tr> 
    <td><p>48</p></td> 
