@@ -29,9 +29,9 @@ Here is the screen reader and browser combination that we support on desktop:
 <table> 
  <tbody>
   <tr> 
-   <td><p style="text-align: left;">Operating System</p></td> 
-   <td><p style="text-align: left;">Browser</p></td> 
-   <td><p style="text-align: left;">Screen reader</p></td> 
+   <td><p style="text-align: left;"><b>Operating System</b></p></td> 
+   <td><p style="text-align: left;"><b>Browser</b></p></td> 
+   <td><p style="text-align: left;"><b>Screen reader</b></p></td> 
   </tr> 
   <tr> 
    <td><p>Windows</p></td> 
@@ -70,9 +70,9 @@ In addition, Learning Manager supports the following keyboard shortcuts:
 <table> 
  <tbody>
   <tr> 
-   <td><p>Feature</p></td> 
-   <td><p>Windows</p></td> 
-   <td><p>macOS</p></td> 
+   <td><p><b>Feature</b></p></td> 
+   <td><p><b>Windows</b></p></td> 
+   <td><p><b>macOS<</b>/p></td> 
   </tr> 
   <tr> 
    <td><p>Skip navigation</p></td> 
@@ -112,9 +112,9 @@ In addition, Learning Manager supports the following keyboard shortcuts:
 <table> 
  <tbody>
   <tr> 
-   <td><p>Feature</p></td> 
-   <td><p>Windows</p></td> 
-   <td><p>macOS</p></td> 
+   <td><p><b>Feature</b></p></td> 
+   <td><p><b>Windows</b></p></td> 
+   <td><p><b>macOS</b></p></td> 
   </tr> 
   <tr> 
    <td><p>Play/pause</p></td> 

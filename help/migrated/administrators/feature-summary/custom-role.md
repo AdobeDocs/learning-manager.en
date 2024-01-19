@@ -91,9 +91,9 @@ You can create a custom role to provide authoring capabilities limited to a part
         <tbody>
         <tr>
           <td>
-          <p>Permission</p></td>
+          <p><b>Permission</b></p></td>
           <td>
-          <p>Description</p></td>
+          <p><b>Description</b></p></td>
         </tr>
         <tr>
           <td>

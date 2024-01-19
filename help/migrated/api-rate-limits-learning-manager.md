@@ -135,9 +135,9 @@ The following table provides the limits for the various V2 endpoints. At present
 <table> 
  <tbody>
   <tr> 
-   <td><p>Verb</p></td> 
-   <td><p>Admin API</p></td> 
-   <td><p>Learner API</p></td> 
+   <td><p><b>Operation</b></p></td> 
+   <td><p><b>Admin API</b></p></td> 
+   <td><p><b>Learner API</b></p></td> 
   </tr> 
   <tr> 
    <td><p>DELETE</p></td> 

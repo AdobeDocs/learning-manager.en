@@ -192,7 +192,7 @@ Any modifications performed for learning objects at the owner application are ca
    <td>
     <p><strong>Course</strong></p></td>
    <td>
-    <p>name, description and other fields on Course object except gamification points, badgeId</p></td>
+    <p>Name, description and other fields on Course object except gamification points, badgeId</p></td>
   </tr>
   <tr>
    <td>
