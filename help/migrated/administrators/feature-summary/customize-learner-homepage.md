@@ -89,9 +89,9 @@ For existing accounts, the option **Immersive** will be **OFF**. It is enabled f
  <tbody>
   <tr>
    <td>
-    <p>Widget</p></td>
+    <p><b>Widget</b></p></td>
    <td>
-    <p>Description</p></td>
+    <p><b>Description</b></p></td>
   </tr>
   <tr>
    <td>
