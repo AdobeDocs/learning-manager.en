@@ -29,16 +29,16 @@ The reference site package is hosted on the [**GitHub repository**](https://gith
 
 For more information, see the README.
 
-## Create an application in Adobe Learning Manager
+## Create an application in [!DNL Adobe Learning Manager]
 
 After you install the AEM site package, you must configure an ALM application to connect your learning portal with the AEM site.
 
-This scenario is applicable when AEM is used with Adobe Learning Manager.
+This scenario is applicable when AEM is used with [!DNL Adobe Learning Manager].
 
 Follow the steps below:
 
-1. As an Integration Administrator, click **Applications**.
-1. To create a new application, on the upper-right corner of the page, click **Register**.
+1. As an Integration Administrator, click **[!UICONTROL Applications]**.
+1. To create a new application, on the upper-right corner of the page, click **[!UICONTROL Register]**.
 1. In the Register a new application screen, enter the following details:
 
    1. Application Name: The name of the application that you are creating.
@@ -55,11 +55,11 @@ Note the application credentials from the screen.
 ![](assets/application-credentials.png)
 *Application credentials*
 
-To approve the application, click **Approve**.
+To approve the application, click **[!UICONTROL Approve]**.
 
 ## Get the tokens
 
-1. In the Developer Resources tab, click **Access Tokens for Testing and Development**. 
+1. In the Developer Resources tab, click **[!UICONTROL Access Tokens for Testing and Development]**. 
 
    ![](assets/access-tokens.png)
 
@@ -150,12 +150,12 @@ Customize your webpages by using the AEM references site and the available widge
 
 1. Launch your AEM instance.  
 1. Click Sites and open the configuration page.  
-1. Click **Learning Site** > **Language Masters** > **English**. All webpages in the project are included in the folder. 
+1. Click **[!UICONTROL Learning Site]** > **[!UICONTROL Language Masters]** > **[!UICONTROL English]**. All webpages in the project are included in the folder. 
 
    ![](assets/list-webpages.png)
    *View all webpages*
 
-1. Select any template and click **Edit**.  
+1. Select any template and click **[!UICONTROL Edit]**.  
 
 1. On the page, click the component settings button and change the properties of the component.
 
@@ -177,9 +177,9 @@ Apart from the templates that you can use that are provided by the reference sit
    ![](assets/page-properties.png)
    *Page properties*
 
-1. To create the page, click **Create**.  
+1. To create the page, click **[!UICONTROL Create]**.  
 
-1. Select the new page and click **Edit**.  
+1. Select the new page and click **[!UICONTROL Edit]**.  
 
 1. Insert a component on the page, for example, **Learning- Content**.
 
@@ -192,9 +192,9 @@ Apart from the templates that you can use that are provided by the reference sit
 
 The ALM reference site package provides a "Learning Site Blueprint," which enables you to create a website for your learning platform. AEM blueprints allow you to build webpages directly from AEM Sites components. You need not use any templates. 
 
-1. On the AEM start page, click **Sites**.  
+1. On the AEM start page, click **[!UICONTROL Sites]**.  
 
-1. Click **Create** > **Site**.   
+1. Click **[!UICONTROL Create]** > **[!UICONTROL Site]**.   
 
 1. Click Learning Site Blueprint. 
 
