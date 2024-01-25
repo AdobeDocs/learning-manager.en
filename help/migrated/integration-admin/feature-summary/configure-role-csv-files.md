@@ -162,9 +162,9 @@ To assign and revoke a custom role, update the csv files.
 
 After the Integration Admin uploads the role-based CSVs in the Connector storage, the Admin can enable synchronization to the CSVs. Each time a custom role is updated, added, or deleted in the CSVs, the Admin can synch the information in the files and make the list of roles current.
 
-On the Getting Started page on the Administrator panel, click **Settings > Data Sources**.
+On the Getting Started page on the Administrator panel, click **[!UICONTROL Settings]** > **[!UICONTROL Data Sources]**.
 
-In the Sync Settings section, enable the option **Enable Auto Sync**.
+In the Sync Settings section, enable the option **[!UICONTROL Enable Auto Sync]**.
 
 ![](assets/sync-settings.png)
 
@@ -172,7 +172,7 @@ In the Sync Settings section, enable the option **Enable Auto Sync**.
 
 When you choose this option, you can schedule the time for synchronization at the exact time that you specify in the Sync Time field. If you specify the sync time as 12:00 AM, the custom roles are updated at exactly the specified time every day.
 
-If you want to synchronize the data on demand, click **Sync Now**.
+If you want to synchronize the data on demand, click **[!UICONTROL Sync Now]**.
 
 ## Constraints while configuring roles {#constraintswhileconfiguringroles}
 
