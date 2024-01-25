@@ -34,9 +34,9 @@ Install the Learning Manager content package using the AEM Package Manager:
 
 1. Click the button **Upload Package**.  
 
-1. Click **Browse** and upload the content package.
-1. Click **Upload**.
-1. After the package uploads, install the content package by selecting it and clicking **Install**.
+1. Click **[!UICONTROL Browse]** and upload the content package.
+1. Click **[!UICONTROL Upload]**.
+1. After the package uploads, install the content package by selecting it and clicking **[!UICONTROL Install]**.
 
    ![](assets/install-package.jpg)
 
@@ -46,15 +46,15 @@ The AEM Admin requires a refresh token from the Learning Manager account. The Le
 
 1. Approve the AEM Sites featured app.
 
-   Click **Applications** > **Featured Apps** > **Adobe Experience Manager - Sites.**
+   Click **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]** > **[!UICONTROL Adobe Experience Manager - Sites]**.
 
    ![](assets/launch-aem.jpg)
 
-1. Click **Applications** > **Featured Apps**, and open the AEM sites application.
+1. Click **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**, and open the AEM sites application.
 
    Copy the Application ID and the description.
 
-1. Click **Developer Resources** > **Access Tokens**.
+1. Click **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens]**.
 
    ![](assets/click-tokens.jpg)
 
@@ -64,7 +64,7 @@ The AEM Admin requires a refresh token from the Learning Manager account. The Le
    * Client secret, which is present in Description.
 
 1. Get the OAuth code. You must use v2 API in the redirect URI.
-1. Click **Submit** and get the refresh token.
+1. Click **[!UICONTROL Submit]** and get the refresh token.
 
 ## Configure the widget in AEM {#configurethewidgetinaem}
 
@@ -72,8 +72,8 @@ For widget configuration, the AEM author only requires the refresh token provide
 
 You can also set multiple account configurations in multiple pages.
 
-1. Click Tools -> Cloud Services -> Captivate Learning Manager Widget Configuration.
-1. Click **Create**.
+1. Click **[!UICONTROL Tools]** -> **[!UICONTROL Cloud Services]** -> **[!UICONTROL Captivate Learning Manager Widget Configuration]**.
+1. Click **[!UICONTROL Create]**.
 1. Enter the refresh token here. Set up the other settings.
 1. Hostname should be changed to "learningmanagereu" for EU regions.
 1. Save and close the configuration.
@@ -85,7 +85,7 @@ The AEM author must first add the component in AEM template
 
 The AEM author then will be able to drag and drop the Adobe Learning Manager component and configure accordingly.
 
-Learning Manager component requires the configuration created in above step to be mapped to the Page.  Author can map the configuration by Editing Page Properties under **Advanced** > **Configuration** > **Cloud Configuration** and provide path of configuration. In this way, Author can create configurations for multiple Learning Manager accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
+Learning Manager component requires the configuration created in above step to be mapped to the Page.  Author can map the configuration by Editing Page Properties under **[!UICONTROL Advanced]** > **[!UICONTROL Configuration]** > **[!UICONTROL Cloud Configuration]** and provide path of configuration. In this way, Author can create configurations for multiple Learning Manager accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
 
 ## Learner {#learner}
 
@@ -126,15 +126,15 @@ The Catalog widget displays training from a specific or a set of catalogs to a u
 
 The Catalog widget contains the following options:
 
-* **Catalog ids:** Comma-separated catalog ids for which the training need to be displayed.
-* **Sort:** Sort order for the training. The options are- name, date, dateCreated, dateEnrolled, and so on.
-* **Learner State:** Returns all training that uses the following as filters- enrolled, started, completed, and notenrolled. The search results will not be displayed if the sort option is dateEnrolled, dueDate, or dateEnrolled.
-* **Skill name:** The skill used to filter exact training.
-* **Tag name:** The tag used to filter exact results.
+* **[!UICONTROL Catalog ids]:** Comma-separated catalog ids for which the training need to be displayed.
+* **[!UICONTROL Sort]:** Sort order for the training. The options are- name, date, dateCreated, dateEnrolled, and so on.
+* **[!UICONTROL Learner State]:** Returns all training that uses the following as filters- enrolled, started, completed, and notenrolled. The search results will not be displayed if the sort option is dateEnrolled, dueDate, or dateEnrolled.
+* **[!UICONTROL Skill name]:** The skill used to filter exact training.
+* **[!UICONTROL Tag name]:** The tag used to filter exact results.
 
 Here are a few additional components that you can customize:
 
-**Learning Object Types:** Filter according to the type of the Learning Object. The supported types are- course, certification, jobAid,and learningProgram.
+**[!UICONTROL Learning Object Types]:** Filter according to the type of the Learning Object. The supported types are- course, certification, jobAid,and learningProgram.
 
 In AEM, the title of a card in a strip will be empty initially. In properties, type the name of the title in widgets.html.
 
@@ -142,7 +142,7 @@ In AEM, the title of a card in a strip will be empty initially. In properties, t
 
 You can customize the look and feel of the layout using widgets.html. You can change the appearance of the cards that appear and customize the theme.
 
-In the **General Settings** section, you can choose the primary and secondary colors for the cards and specify the properties to customize the theme.
+In the **[!UICONTROL General Settings]** section, you can choose the primary and secondary colors for the cards and specify the properties to customize the theme.
 
 ```
 \{ 
@@ -167,7 +167,7 @@ In the **General Settings** section, you can choose the primary and secondary co
 
 ### Ignore higher order LO enrollment
 
-If the **Ignore Higher Order LO Enrollment** check-box is enabled and a user is enrolled directly into a Learning Program or Certification, the courses for that certification or Learning Program will show up for the user in the widgets.
+If the **[!UICONTROL Ignore Higher Order LO Enrollment]** check-box is enabled and a user is enrolled directly into a Learning Program or Certification, the courses for that certification or Learning Program will show up for the user in the widgets.
 
 If the check-box is disabled, the courses present in the Learning Program or Certification where user has not enrolled directly will not show up.
 

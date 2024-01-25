@@ -14,16 +14,16 @@ You can define Badges that could serve as a motivation to users.
 
 Administrators can create the badges for learners as follows:
 
-1. Log in as Administrator and click **Badges** on the left pane. A list of badges for the learner appears.
+1. Log in as Administrator and click **[!UICONTROL Badges]** on the left pane. A list of badges for the learner appears.
 
    >[!NOTE]
    >
    >By default, a list of few sample badges are available.
 
-1. Click **Add Badge** at the upper-right corner of the page. Add Badge dialog appears.
+1. Click **[!UICONTROL Add Badge]** at the upper-right corner of the page. Add Badge dialog appears.
 
    ![](assets/add-badge1.png)
 
    *Add a badge name and its image*
 
-1. Enter Badge Name. Upload the badge by clicking **Upload Badge** and click **Save**.
+1. Enter Badge Name. Upload the badge by clicking **[!UICONTROL Upload Badge]** and click **[!UICONTROL Save]**.

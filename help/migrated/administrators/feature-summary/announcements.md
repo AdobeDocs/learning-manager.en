@@ -39,8 +39,8 @@ There are four types of announcements:
    * Make this announcement a sticky announcement by selecting the Enable Sticky Announcement checkbox.
    * Select the delivery time for the announcement.
 
-1. Choose **On a date** if you want to schedule announcement for a later date and click the text area adjacent to it. A calendar pop-up appears, from which you can choose the start date. Choose the end date by following the same steps.
-1. Click **Save**.
+1. Choose **[!UICONTROL On a date]** if you want to schedule announcement for a later date and click the text area adjacent to it. A calendar pop-up appears, from which you can choose the start date. Choose the end date by following the same steps.
+1. Click **[!UICONTROL Save]**.
 1. In Drafts tab, click settings icon  adjacent to an announcement and click send.
 
 If the multimedia attachment is of large size, it may take time to upload. After you click Save, you would receive a pop-up with a message as your upload is being processed. You will receive a notification after the attachment is uploaded successfully.
@@ -55,16 +55,16 @@ When you choose this option, any media file that you choose features as a masthe
 
 1. Browse and choose an image that will represent the masthead. The recommended size is 1280 x 360 px.
 1. Choose the locale to which you want to add a masthead. For each language, you must choose a masthead asset.
-1. In the **Action Button** field, add a url so that when learners click the button on the masthead, they are redirected to the url. This is an optional field.
+1. In the **[!UICONTROL Action Button]** field, add a url so that when learners click the button on the masthead, they are redirected to the url. This is an optional field.
 1. Choose the target user groups or the target learning objects. You can choose only one of them for an announcement.
 
    Start typing the user group name in the text box and choose from the drop-down list. Similarly, choose the training by typing the object name in the text-box.
 
-1. In the **Advanced Settings** section, you have the following options:
+1. In the **[!UICONTROL Advanced Settings]** section, you have the following options:
 
-   * Click **Immediately** if you want the announcement to be posted right then.
-   * Click **Never** if you do not want your announcement to expire.
-   * Select the **Start** and **End** dates for the announcement.
+   * Click **[!UICONTROL Immediately]** if you want the announcement to be posted right then.
+   * Click **[!UICONTROL Never]** if you do not want your announcement to expire.
+   * Select the **[!UICONTROL Start]** and **[!UICONTROL End]** dates for the announcement.
 
    ![](assets/advanced-settings.png)
 
@@ -92,13 +92,13 @@ When you choose this option, any training that you choose gets recommended to sp
 
 1. In the Advanced Settings section, you have the following options:
 
-   * Click **Immediately** if you want the announcement to be posted right then.
-   * Click **Never** if you do not want your announcement to expire.
-   * Select the **Start** and **End** dates for the announcement.
+   * Click **[!UICONTROL Immediately]** if you want the announcement to be posted right then.
+   * Click **[!UICONTROL Never]** if you do not want your announcement to expire.
+   * Select the **[!UICONTROL Start]** and **[!UICONTROL End]** dates for the announcement.
 
    <!--![](assets/advanced-settings.png)-->
 
-When you click **Save**, you can either publish the announcement right away or publish it later. The announcement, till then, will be in a draft state.
+When you click **[!UICONTROL Save]**, you can either publish the announcement right away or publish it later. The announcement, till then, will be in a draft state.
 
 * Mastheads/Recommendations do not trigger any notifications.
 * Mastheads/Recommendations do not appear in announcements report.

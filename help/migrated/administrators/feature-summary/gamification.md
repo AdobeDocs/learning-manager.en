@@ -24,8 +24,8 @@ By default, some sample gamification points and data is available for users to u
 
 To access the settings, follow the steps below:
 
-1. Log in as an Administrator and on the left pane, click **Gamification**.
-1. When you create a new Learning Manager account, gamification is disabled by default. To enable it, click **Enable** on the upper- right corner of the page.
+1. Log in as an Administrator and on the left pane, click **[!UICONTROL Gamification]**.
+1. When you create a new Learning Manager account, gamification is disabled by default. To enable it, click **[!UICONTROL Enable]** on the upper- right corner of the page.
 
 ## Administrator actions {#administratoractions}
 
@@ -41,7 +41,7 @@ If required, you can make some higher management users as confidential users. Co
 
 Confidentiality settings can be applied for both internal and external users.
 
-1. Click **Gamification > Settings > Confidentiality Settings**.
+1. Click **[!UICONTROL Gamification]** > **[!UICONTROL Settings]** > **[!UICONTROL Confidentiality Settings]**.
 
 ![](assets/confidentiality-settings.png)
 
@@ -70,7 +70,7 @@ To reset learner score and configuration, click Reset Gamification and choose an
 
 ## Disable gamification {#disablegamification}
 
-Click Gamification > Gamification Feature. This allows you to enable the gamification feature and the leaderboard separately for your Learners. Select between Enable for Internal Learners and Enable for External Learners as per the requirement and click OK. All the points are retained when you enable the gamification again.
+Click [!UICONTROL **Gamification**] > [!UICONTROL **Gamification Feature**]. This allows you to enable the gamification feature and the leaderboard separately for your Learners. Select between Enable for Internal Learners and Enable for External Learners as per the requirement and click OK. All the points are retained when you enable the gamification again.
 
 ![](assets/gamification-feature.png)
 
@@ -82,11 +82,11 @@ You can disable gamification for both internal and external users.
 
 Administrators can set up gamification points for learners by following the steps below:
 
-1. Click Gamification after you log in as an Administrator.  
+1. Click **[!UICONTROL Gamification]** after you log in as an Administrator.  
    A page appears with a list of bronze, silver, gold, and platinum levels and the required points to achieve each level. A list of tasks and corresponding points are displayed.
 1. Click Edit icon adjacent to each task to set up the points.
 1. Modify the frequency of occurrence for tasks such as completing a specific number of courses per month or quarter or a year.
-1. Click Save.
+1. Click **[!UICONTROL Save]**.
 
 ## Tasks {#tasks}
 
@@ -190,14 +190,14 @@ When learners complete a course within 10 days of course commencement, they get 
 
 Administrators can define the scope of gamification by changing the scope settings. You can selectively enable gamification among similar profile users, groups or location.
 
-1. In Administrator login, click **Gamification** at the left pane.   
-1. Open **Gamifications > Settings > Scope settings**. The Gamification Scope Settings dialog appears.
+1. In Administrator login, click **[!UICONTROL Gamification]** at the left pane.   
+1. Open **[!UICONTROL Gamifications]** > **[!UICONTROL Settings]** > **[!UICONTROL Scope Settings]**. The [!UICONTROL Gamification Scope Settings] dialog appears.
 
    ![](assets/scope-settings.png)
 
    *View the Gamification Scope Settings dialog*
 
-1. Click the option Enable Scope Settings. 
+1. Click the option **[!UICONTROL Enable Scope Settings]**. 
 
 1. Select the User Characteristic from the drop-down list. 
 
@@ -207,4 +207,4 @@ Administrators can define the scope of gamification by changing the scope settin
 
    <!--![](assets/value.png)-->
 
-1. Click **Save.**
+1. Click **[!UICONTROL Save].**

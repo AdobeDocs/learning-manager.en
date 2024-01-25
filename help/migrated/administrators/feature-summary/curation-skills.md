@@ -40,16 +40,16 @@ While creating a skill, an Administrator can map it with the most relevant skill
 
 To add a skill domain, follow the steps below:
 
-1. On the left pane of the Administrator app, click **Skills**.
-1. To add a skill, click **Add** on the top right of the page.
-1. In the **Add Skill** dialog, add a skill and a description of the skill.
-1. In the **Skill Domain** section, add the skill domains. As you enter a domain, the domains get added. These domains are populated from the list mentioned above.
+1. On the left pane of the Administrator app, click **[!UICONTROL Skills]**.
+1. To add a skill, click **[!UICONTROL Add]** on the top right of the page.
+1. In the **[!UICONTROL Add Skill]** dialog, add a skill and a description of the skill.
+1. In the **[!UICONTROL Skill Domain]** section, add the skill domains. As you enter a domain, the domains get added. These domains are populated from the list mentioned above.
 
    ![](assets/skill-domain-mapping.png)
 
    *Add the skill domains in the Skill Domain section*
 
-1. To save the changes, click **Save**.
+1. To save the changes, click **[!UICONTROL Save]**.
 
 When a user posts a content in a board, the content gets curated and is approved or rejected, depending on the confidence score against the mapped skill to the board.
 

@@ -22,22 +22,22 @@ After an author has created a course, you can create instances of the course. By
 
 To create an instance,
 
-1. On the Administrator web app, click **Courses** on the left pane.
-1. On the list of courses, choose the required course, and click **View Course**.
+1. On the Administrator web app, click **[!UICONTROL Courses]** on the left pane.
+1. On the list of courses, choose the required course, and click **[!UICONTROL View Course]**.
 
    ![](assets/view-course.png)
 
    *View a course*
 
-1. To create instances, click **Instances** on the left pane. Every course has an instance by default. You can either modify the default instance or add instances. You cannot delete this course instance.
-1. To create an instance, click **Add New Instance** on the upper-right corner of the course information. A new instance of the course is displayed.
+1. To create instances, click **[!UICONTROL Instances]** on the left pane. Every course has an instance by default. You can either modify the default instance or add instances. You cannot delete this course instance.
+1. To create an instance, click **[!UICONTROL Add New Instance]** on the upper-right corner of the course information. A new instance of the course is displayed.
 1. Enter the properties of the instance:
 
-   * In the **Instance Name** field, enter the name of the instance you want to associate with the course. Ensure that you use a unique name for the instance.
+   * In the **[!UICONTROL Instance Name]** field, enter the name of the instance you want to associate with the course. Ensure that you use a unique name for the instance.
    * Specify the completion deadline for the instance. Learners must achieve course completion status by this date.
-   * Click **Show More Options** to display other deadline options.
-   * **Enrollment Deadline:** This is the date by which a learner is expected to enroll into a learning object in case of self-enrollment.
-   * **Unenrollment deadline:** You can choose to restrict unenrollment by learner himself by having an unenrollment deadline.
+   * Click **[!UICONTROL Show More Options]** to display other deadline options.
+   * **[!UICONTROL Enrollment Deadline]:** This is the date by which a learner is expected to enroll into a learning object in case of self-enrollment.
+   * **[!UICONTROL Unenrollment deadline]:** You can choose to restrict unenrollment by learner himself by having an unenrollment deadline.
 
    An Administrator can decide to have completion deadlines for a course or learning program based on requirements. However, it is recommended to have one for Classroom/Virtual classroom-based trainings.
 
@@ -60,19 +60,19 @@ To create an instance,
 
 To retire an instance, perform the steps below;
 
-1. On the instance, click the drop-down menu and choose the option **Retire instance**.
+1. On the instance, click the drop-down menu and choose the option **[!UICONTROL Retire instance]**.
 
    ![](assets/retire-an-instance.png)
 
    *Retire an instance*
 
-1. To search for all retired instances, click the tab **Retired** on the Instances page.
+1. To search for all retired instances, click the tab **[!UICONTROL Retired]** on the Instances page.
 
 ## Restore an instance {#restoreaninstance}
 
 To restore a retired instance to an activate state, perform the following steps:
 
-1. On the instance, click the drop-down menu and choose the option **Reopen instance**.
+1. On the instance, click the drop-down menu and choose the option **[!UICONTROL Reopen instance]**.
 
    ![](assets/restore-an-instance.png)
 
@@ -174,7 +174,7 @@ For sending the email notifications, an Admin must explicitly choose the escalat
 
 Whenever an author adds, updates, or deletes modules and republishes a course, all the administrators receive notification about the same. As an administrator, you can then view the changes, compare the old and new content by clicking on the link, and either approve or reject the changes accordingly.
 
-To enable Course Moderation, click **Settings > General**. Select the **Course Moderation** check-box to enable this feature.
+To enable Course Moderation, click **[!UICONTROL Settings] > [!UICONTROL General]**. Select the **[!UICONTROL Course Moderation]** check-box to enable this feature.
 
 ![](assets/2.png)
 
@@ -218,7 +218,7 @@ If the two mandatory questions, for some reason, doesn't have any text, the ques
 >
 >It is not enough that you enable these settings at the Learning Program instance. You must also enable these settings at the Course Instance level for each course in the Learning Program.
 
-In Instance Defaults page, if you enable **Make All Questions Mandatory**, then all new instances created thereafter will inherit these settings.
+In Instance Defaults page, if you enable **[!UICONTROL Make All Questions Mandatory]**, then all new instances created thereafter will inherit these settings.
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png)
 
@@ -230,11 +230,11 @@ In previous versions of Learning Manager, an Administrator could enable L1 feedb
 
 In this release of Learning Manager, the Administrator can send L1 feedback for all the courses that are part of the Learning Program. The Administrator must ensure that L1 feedback is enabled for all the courses at the course instance level.
 
-1. To enable L1 feedback for each course, in the Admin app, click **Learning Programs > View Learning Program**.   
+1. To enable L1 feedback for each course, in the Admin app, click **[!UICONTROL Learning Programs]** > **[!UICONTROL View Learning Program]**.   
 
-1. Click **Instances > L1 Feedback Enabled**.   
+1. Click **[!UICONTROL Instances]** > **[!UICONTROL L1 Feedback Enabled]**.   
 
-1. Enable the option **Enable for Each Course**.
+1. Enable the option **[!UICONTROL Enable for Each Course]**.
 
    ![](assets/enable-l1-feedbackforcourse.png)
 
@@ -266,7 +266,7 @@ An Admin will be able to enable L1 feedback for newly created courses and Learni
 
 If enabled, all new trainings and new instances will have the feedback enabled by default. In case an author/admin visits the instance, instance defaults and switches it off manually, then it gets honored.
 
-To enable L1 feedback, in the Admin app, click **Settings > Feedback**.
+To enable L1 feedback, in the Admin app, click **[!UICONTROL Settings]** > **[!UICONTROL Feedback]**.
 
 ![](assets/l1-feedback-settings.png)
 
@@ -274,11 +274,11 @@ To enable L1 feedback, in the Admin app, click **Settings > Feedback**.
 
 Click **Edit** on the upper-right corner and toggle the option to enable L1 feedback.
 
-When an author creates a course, on the Instance page of the Admin app, the **L1 feedback is automatically enabled** for the new course.
+When an author creates a course, on the Instance page of the Admin app, the **[!UICONTROL L1 feedback]** is automatically enabled for the new course.
 
 <!--![](assets/l1-feedback-enabled.png)-->
 
-You can also disable the L1 feedback by toggling the **Enable** option, as shown below:
+You can also disable the L1 feedback by toggling the **[!UICONTROL Enable]** option, as shown below:
 
 ![](assets/disable-l1-feedback.png)
 
@@ -322,22 +322,22 @@ A sample output of the L3 questionnaire is provided below for your reference. Le
 
 You can set up L1 and L3 feedback questionnaire and also set reminders at the account level. 
 
-1. Click **Settings** and then **Feedback** on the left pane after you log in as Administrator.  
-   Feedback settings page appears with two tabs:** L1 Feedback** and **L3 Feedback**.  
-   **L1 Feedback** tab consists of a list of default **L1 feedback** questionnaire for class room and self-paced courses along with reminder settings. In **L3 Feedback** tab, you can view L3 feedback default statement and reminder settings.
+1. Click **[!UICONTROL Settings]** and then **[!UICONTROL Feedback]** on the left pane after you log in as Administrator.  
+   Feedback settings page appears with two tabs: **[!UICONTROL L1 Feedback]** and **[!UICONTROL L3 Feedback]**.  
+   **[!UICONTROL L1 Feedback]** tab consists of a list of default **[!UICONTROL L1 feedback]** questionnaire for class room and self-paced courses along with reminder settings. In **[!UICONTROL L3 Feedback]** tab, you can view L3 feedback default statement and reminder settings.
 
 1. Click Edit on the upper-right corner of the page, to modify the existing questionnaire.  
-   In **L1 Feedback** tab, you can enable/disable each question by clicking the Yes/No toggle button.  
-   In **L3 Feedback** tab, you can modify the default feedback statement.  
-   Click **Add New Reminder** at the bottom of the page and choose when to send the reminders.
+   In **[!UICONTROL L1 Feedback]** tab, you can enable/disable each question by clicking the Yes/No toggle button.  
+   In **[!UICONTROL L3 Feedback]** tab, you can modify the default feedback statement.  
+   Click **[!UICONTROL Add New Reminder]** at the bottom of the page and choose when to send the reminders.
 
-1. Click **Save** at the upper-right corner of the page.
+1. Click **[!UICONTROL Save]** at the upper-right corner of the page.
 
 In L1 feedback, you can see two sets of questionnaire along with a default question. First set of questionnaire refers to self paced courses which can also be used for activity based courses. Second set of questionnaire can be used for Class room and virtual class room type of courses.
 
 ## Export checklist data {#export-checklist-data}
 
-From the list of courses, open a course that contains a checklist. On the left pane, you will see an option **Checklist**.
+From the list of courses, open a course that contains a checklist. On the left pane, you will see an option **[!UICONTROL Checklist]**.
 
 ![](assets/export-checklist.png)
 
@@ -346,9 +346,9 @@ From the list of courses, open a course that contains a checklist. On the left p
 Click the option and on the course page, perform the following:
 
 1. Select the instance and the module.
-1. Click **Actions > Export**, and then export the learner checklist report.
+1. Click **[!UICONTROL Actions]** > **[!UICONTROL Export]**, and then export the learner checklist report.
 
-On the **Checklist **page, an Instructor can export the checklist report from the **Actions **drop-down list.
+On the **[!UICONTROL Checklist]** page, an Instructor can export the checklist report from the **[!UICONTROL Actions]** drop-down list.
 
 The CSV report contains the following fields:
 
@@ -369,11 +369,11 @@ When you download a report after selecting a status filter, the downloaded Learn
 
 ## Viewing courses {#viewingcourses}
 
-As an administrator, you can view a list of all available courses.   Click **Courses **on the left pane to view the list of courses with search and filter options. You can also view the course effectiveness percentage for each course on the course thumbnails.
+As an administrator, you can view a list of all available courses.   Click **[!UICONTROL Courses]** on the left pane to view the list of courses with search and filter options. You can also view the course effectiveness percentage for each course on the course thumbnails.
 
 >[!NOTE]
 >
->You can retire a course after the course is consumed by learners or when you want to hold up any particular course after publishing it. You can retire a course only when it is in a published state. List of all the retired courses can be viewed by clicking the **Retired** tab.
+>You can retire a course after the course is consumed by learners or when you want to hold up any particular course after publishing it. You can retire a course only when it is in a published state. List of all the retired courses can be viewed by clicking the **[!UICONTROL Retired]** tab.
 
 ## View quiz scores {#viewquizscores}
 
@@ -387,7 +387,7 @@ Choose the instance type from the drop-down list to view the scores based on eac
 ## Manage learners list for a course {#managelearnerslistforacourse}
 
 1. Click course name on the course thumbnail.
-1. From the left pane, click **Learners**.
+1. From the left pane, click **[!UICONTROL Learners]**.
 
 ![](assets/courses-learners.png)
 
@@ -395,12 +395,12 @@ Choose the instance type from the drop-down list to view the scores based on eac
 
 You can perform the following actions from the Learners page:
 
-* Select the Learner you want to remove, and click Actions > Remove.
-* Select the Learner whose attendance you want to mark, and click Actions > Mark Complete.
+* Select the Learner you want to remove, and click [!UICONTROL **Actions**] > [!UICONTROL **Remove**].
+* Select the Learner whose attendance you want to mark, and click [!UICONTROL **Actions**] > [!UICONTROL **Mark Complete**].
 
-To allow learners to reset a module and consume the module again, click Reset. From the pop-up dialog box, click Yes to confirm the Reset. Modules that have been completed cannot be reset. Only failed or incomplete modules can be reset.
+To allow learners to reset a module and consume the module again, click [!UICONTROL **Reset**]. From the pop-up dialog box, click Yes to confirm the Reset. Modules that have been completed cannot be reset. Only failed or incomplete modules can be reset.
 
-You can also export the learners list in an excel sheet. To export the learners list, click Actions > Export.
+You can also export the learners list in an excel sheet. To export the learners list, click [!UICONTROL **Actions**] > [!UICONTROL **Export**].
 
 >[!NOTE]
 >
@@ -410,9 +410,9 @@ You can also export the learners list in an excel sheet. To export the learners 
 
 For any classroom and VC course, you can download the list of learners who have attended this course, for any instance.
 
-On the course details page, click **Attendance and Scoring** on the right pane.
+On the course details page, click **[!UICONTROL Attendance and Scoring]** on the right pane.
 
-On the top right-corner of the page, click the **Actions** drop-down list. Then click the option **Export Learner List (PDF)**.
+On the top right-corner of the page, click the **[!UICONTROL Actions]** drop-down list. Then click the option **[!UICONTROL Export Learner List (PDF)]**.
 
 ![](assets/export-list-of-learners.png)
 
@@ -442,9 +442,9 @@ You can view the L1 feedback provided by learners for a course and the L3 feedba
 
 ## Preview courses {#previewcourses}
 
-Administrator can preview courses by clicking the **Preview as learner** option while viewing the course modules.
+Administrator can preview courses by clicking the **[!UICONTROL Preview as learner]** option while viewing the course modules.
 
-1. Click **Courses** on the left pane after you log in as an administrator.
+1. Click **[!UICONTROL Courses]** on the left pane after you log in as an administrator.
 1. Click any course tile from the list of courses on the page.
 1. Click Preview as learner from the left pane and click the module name on the page to preview the course module in the player.
 
@@ -497,7 +497,7 @@ Administrator enrolls some learners to mandatory courses as per organization req
 
 >[!NOTE] 
 >
->Admin can remove any registered learners of a course by clicking the drop-down arrow on learners page and by clicking **Actions** > **Remove**.
+>Admin can remove any registered learners of a course by clicking the drop-down arrow on learners page and by clicking **[!UICONTROL Actions]** > **[!UICONTROL Remove]**.
 
 ![](assets/enroll-learners.png)
 
@@ -543,7 +543,7 @@ The comment is **not** displayed to the learner.
 
 When an Administrator generates the course report of the learner, any comment, if added, appears in the report. The summary dialog box appears with the number of users from inclusion set, exclusion set and users already enrolled in the course instance.
 
-On the **Enroll Learners** dialog, expand the option **Advanced Options**. In the **Additional Comment** field, enter the required comment. 
+On the **[!UICONTROL Enroll Learners]** dialog, expand the option **[!UICONTROL Advanced Options]**. In the **[!UICONTROL Additional Comment]** field, enter the required comment. 
 
 ![](assets/comment-for-learner.png)
 
@@ -563,7 +563,7 @@ As you type for a learner or a user group in the search field, one or more match
 
 The process allows you to find what you are looking for in a much faster and less cumbersome way than executing a number of searches in a row.
 
-Learners or user groups across all instances display after a search. For every learner, the instance in which the learner is enrolled displays in the **Instance** column.
+Learners or user groups across all instances display after a search. For every learner, the instance in which the learner is enrolled displays in the **[!UICONTROL Instance]** column.
 
 ![](assets/search-result.png)
 
@@ -574,7 +574,7 @@ Using type-ahead look up, you can:
 * View all users, irrespective of instances, who are enrolled.
 * View all user groups that have one or more enrolled users.
 
-After a search is executed, you cannot filter learners by instances. The option to select an instance from the **Select Instance** drop-down list is disabled.
+After a search is executed, you cannot filter learners by instances. The option to select an instance from the **[!UICONTROL Select Instance]** drop-down list is disabled.
 
 In addition, using the search results, you can choose a learner or user group, and perform the following actions: 
 
@@ -592,9 +592,9 @@ Learners can simply use the Adobe Learning Manager device app to scan the respec
 
 **To download the QR code, do the following**:
 
-1. Click **Courses** from Learning section in the left navigation panel.
-1. Select a course > **view course**.
-1. Click **Instances** > **More** > **QR code**.
+1. Click **[!UICONTROL Courses]** from Learning section in the left navigation panel.
+1. Select a course > **[!UICONTROL view course]**.
+1. Click **[!UICONTROL Instances]** > **[!UICONTROL More]** > **[!UICONTROL QR code]**.
 
    <!--![](assets/admin-instance-edit.png)-->
 
@@ -628,7 +628,7 @@ As an Administrator you can adjust the notification settings. For more informati
 
 +++How to reset module as an Admin?
 
-On the Learners page for a course, choose the learner or learners or a group, click **Actions** > **Reset Modules**.
+On the Learners page for a course, choose the learner or learners or a group, click **[!UICONTROL Actions]** > **[!UICONTROL Reset Modules]**.
 
 ![](assets/reset-modules.png)
 
@@ -640,12 +640,12 @@ After you click the option, the status of modules of all selected learners will 
 
 +++How to add course URL so that learners are redirected directly to course?
 
-Mouse over on a course card and click **Copy URL**. After you copy the URL, learners can access the course directly with the URL.
+Mouse over on a course card and click **[!UICONTROL Copy URL]**. After you copy the URL, learners can access the course directly with the URL.
 
 +++
 
 +++How to reopen an instance?
 
-To reopen a retired instance, click the drop-down menu in the instance, and click **Reopen instance**.
+To reopen a retired instance, click the drop-down menu in the instance, and click **[!UICONTROL Reopen instance]**.
 
 +++

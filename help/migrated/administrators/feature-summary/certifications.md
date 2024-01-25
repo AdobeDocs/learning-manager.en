@@ -16,17 +16,17 @@ As an Admin, you can create a certification program either hosted internally or 
 
 ## Create a certification {#createacertification}
 
-1. Click **Certification** on the left pane.  
+1. Click **[!UICONTROL Certification]** on the left pane.  
    A page appears with a list of all the draft, and published state of certifications.
 
 1. View certifications in various modes:
 
-   1. Click **draft** tab to see all the certifications that are in draft state. You need to complete creating them.
-   1. Click **Published** to see all the certifications published  by you.
-   1. Click **All** to view the certifications in all states.
+   1. Click **[!UICONTROL draft]** tab to see all the certifications that are in draft state. You need to complete creating them.
+   1. Click **[!UICONTROL Published]** to see all the certifications published  by you.
+   1. Click **[!UICONTROL All]** to view the certifications in all states.
    1. Sort and view the list of certifications in ascending order, or descending order or based on the date you updated them.
 
-1. Click **Add**.
+1. Click **[!UICONTROL Add]**.
 
    A new certification page appears.
 
@@ -97,12 +97,12 @@ As an Admin, you can create a certification program either hosted internally or 
  </tbody>
 </table>
 
-Choose the courses to be added to the certification from **Courses > Catalog** tab.
+Choose the courses to be added to the certification from **[!UICONTROL Courses]** > **[!UICONTROL Catalog]** tab.
 
-Hover the mouse on each course tile, click + to add them to the certification. Click **Preview** to view the course as learner before adding it.
+Hover the mouse on each course tile, click + to add them to the certification. Click **[!UICONTROL Preview]** to view the course as learner before adding it.
 
-1. Click **Curriculum** tab to view/verify the list of courses that you added.
-1. Click **Publish**.
+1. Click **[!UICONTROL Curriculum]** tab to view/verify the list of courses that you added.
+1. Click **[!UICONTROL Publish]**.
 
 ## Course instance mapping for certifications {#courseinstancemappingforcertifications}
 
@@ -150,13 +150,13 @@ Administrators can mark a Certification complete using the option available to t
 
 In earlier releases of Learning Manager, course completion from learner in External certification was not mandatory to complete a Certificate.
 
-You can now make courses mandatory by enabling the option **Set required courses as Mandatory for Certificate Completion** in the Curriculum tab while editing the cerification.
+You can now make courses mandatory by enabling the option **[!UICONTROL Set required courses as Mandatory for Certificate Completion]** in the Curriculum tab while editing the cerification.
 
 ## Editing a published Certification {#editingapublishedcertification}
 
 A certification can be edited by an Administrator at a published state. At this state, the Administrator can edit all the sections of a certification and re-publish. 
 
-To edit a published certification, click the certification card and click **Edit** at the upper-right corner of the page. 
+To edit a published certification, click the certification card and click **[!UICONTROL Edit]** at the upper-right corner of the page. 
 
 While editing the sections of a certification, if you have to move out of the page, you need to re-publish the certification. You get a dialog confirmation asking you to re-publish the certification.
 

@@ -10,19 +10,19 @@ contentowner: manochan
 
 Learn about the Learning Manager account settings that you can configure as an administrator.
 
-You can change your Administrator profile settings and update your Account settings. View your profile information, add/change profile photo, and modify **About me** content. Update your company info, set up log in methods for users, and set up connect integration through account settings.
+You can change your Administrator profile settings and update your Account settings. View your profile information, add/change profile photo, and modify **[!UICONTROL About me]** content. Update your company info, set up log in methods for users, and set up connect integration through account settings.
 
 ## Account settings {#accountsettings}
 
-To update your organization's account settings, click **Settings** on the left pane. 
+To update your organization's account settings, click **[!UICONTROL Settings]** on the left pane. 
 
 **Basic info (Company info)**
 
-Click **Change** on the page and edit country, timezone, locale, and financial year settings. 
+Click **[!UICONTROL Change]** on the page and edit country, timezone, locale, and financial year settings. 
 
 **Configure contact admin**
 
-If you want to add or change the support administrators email addresses for your organization , you can configure by clicking **General** on the left pane. Click **Change** adjacent to **Support Email ID** and add the email ids. Email is sent to these administrators when learner clicks **Contact Admin** at the footer of the page. 
+If you want to add or change the support administrators email addresses for your organization , you can configure by clicking **[!UICONTROL General]** on the left pane. Click **[!UICONTROL Change]** adjacent to **[!UICONTROL Support Email ID]** and add the email ids. Email is sent to these administrators when learner clicks **[!UICONTROL Contact Admin]** at the footer of the page. 
 
 Add additional email-ids with semi-colon as a separator.  
 
@@ -41,11 +41,11 @@ You can access Learning Manager application using Adobe ID or by using Single Si
 
 **Feedback**
 
-Click **Feedback** on the left pane to set up the questionnaire to get feedback from learners after completing a course. Refer to [courses feature help content](courses.md) on creating L1 and L3 feedback. 
+Click **[!UICONTROL Feedback]** on the left pane to set up the questionnaire to get feedback from learners after completing a course. Refer to [courses feature help content](courses.md) on creating L1 and L3 feedback. 
 
 **Multi attempts**
 
-Select **Settings** > **General** > **Multiple Attempts**.
+Select **[!UICONTROL Settings]** > **[!UICONTROL General]** > **[!UICONTROL Multiple Attempts]**.
 
 If you enable the 'Multi Attempts' check box, then the Authors can set 'Multiple attempts' for interactive e-learning courses or modules .On selecting the second checkbox, administrators can set 'Infinite attempts' by default for any newly created interactive e-learning courses.
 
@@ -55,7 +55,7 @@ If you enable the 'Multi Attempts' check box, then the Authors can set 'Multiple
 
 **Course Moderation**
 
-Click **General** from the left pane, and select the Course Moderation option to enable the Course Moderation functionality. To know more about this feature, see [Course Moderation](courses.md#main-pars_header_1879001177).
+Click **[!UICONTROL General]** from the left pane, and select the Course Moderation option to enable the Course Moderation functionality. To know more about this feature, see [Course Moderation](courses.md#main-pars_header_1879001177).
 
 **Discussion Board**
 
@@ -67,7 +67,7 @@ From the left pane, click Learner Dashboard. This page allows you to choose the 
 
 **Adobe Connect**
 
-Click **Adobe Connect** on the left pane to configure Adobe Connect account to host virtual classroom sessions. For more information, refer to  [Adobe Connect](adobeconnect-integration.md) feature help. 
+Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect account to host virtual classroom sessions. For more information, refer to  [Adobe Connect](adobeconnect-integration.md) feature help. 
 
 ## General settings {#general}
 
@@ -462,11 +462,11 @@ To rename the terminologies, follow these steps.
 
    *Rename product terminology*
 
-1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL Download here]**option.
+1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL Download here]** option.
 1. The downloaded CSV file contains the name of the objects in coloum A. In coloumn B, choose the name you want to assign to the respective object. Note that you need to update the singular and plural form of the name separated by a (|).
 1. You can choose to modify one or more rows. You can either retain the non-modified rows or remove them from the CSV file before uploading them.
 1. Upload the modified CSV file and click **[!UICONTROL Save]**. Learning Manager refreshes reflecting your changes.
-1. To reset to default terminologies, click **[!UICONTROL Reset Product Terminology.]**
+1. To reset to default terminologies, click **[!UICONTROL Reset Product Terminology]**.
 
    ![](assets/with-reset-option.png)
 
@@ -474,10 +474,10 @@ To rename the terminologies, follow these steps.
 
 ## Profile settings {#profilesettings}
 
-1. Click the drop-down arrow at the upper-right corner, adjacent to your photo/account and choose **Profile Settings**.
-1. From the pop-up dialog, you can add/change a photo by hovering the mouse and by clicking **Edit** in the profile photo area.
-1. Add/modify **About** content by clicking **Edit** adjacent to it. 
-1. Click **Save.**
+1. Click the drop-down arrow at the upper-right corner, adjacent to your photo/account and choose **[!UICONTROL Profile Settings]**.
+1. From the pop-up dialog, you can add/change a photo by hovering the mouse and by clicking **[!UICONTROL Edit]** in the profile photo area.
+1. Add/modify **[!UICONTROL About]** content by clicking **[!UICONTROL Edit]** adjacent to it. 
+1. Click **[!UICONTROL Save].**
 
 ## Content Folder {#content-folder}
 
@@ -485,7 +485,7 @@ Learning Manager supports private content folders. An Administrator can configur
 
 Content Folders can be configured by Administrators. Only once configured, content folders become visible to authors and they get an ability to place the content in one or multiple folders. 
 
-To add a content folder, in the Administrator app, click **Settings > Content Folder**.
+To add a content folder, in the Administrator app, click **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**.
 
 ![](assets/manage-content-folders.png)
 
@@ -520,11 +520,11 @@ This folder cannot be part of configurable role definition. Consequently, not ha
 
 **Add a folder**
 
-To add a folder, click **Add** on the upper-right corner of the window.
+To add a folder, click **[!UICONTROL Add]** on the upper-right corner of the window.
 
 **Delete a folder**
 
-You can also delete a folder. Select the folder to delete, click the Actions menu, and click **Delete Folder**.
+You can also delete a folder. Select the folder to delete, click the Actions menu, and click **[!UICONTROL Delete Folder]**.
 
 >[!NOTE]
 >
@@ -568,7 +568,7 @@ You can also add the location with the help of a CSV. The CSV must contain the f
 
 +++How to create different folders for content library?
 
-Click **Settings > Content Folder**. To add a folder, click **Add** on the upper-right corner, and in the dialog, enter the name and description of the folder.
+Click **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**. To add a folder, click **[!UICONTROL Add]** on the upper-right corner, and in the dialog, enter the name and description of the folder.
 
 Content Folders can be configured by Administrators. Only once configured, content folders become visible to authors and they get an ability to place the content in one or multiple folders. 
 
@@ -577,5 +577,5 @@ For more information, see the section on [Content Folder](settings.md#content-fo
 
 +++How to add financial year for the account?
 
-In **Settings** > **Basic Info**, click **Change**. From the **Financial year starts from** drop-down list, select the month.
+In **[!UICONTROL Settings]** > **[!UICONTROL Basic Info]**, click **[!UICONTROL Change]**. From the **[!UICONTROL Financial year starts from]** drop-down list, select the month.
 +++
