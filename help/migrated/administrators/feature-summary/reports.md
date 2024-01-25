@@ -373,7 +373,7 @@ The exported sheet of dashboard reports provides detailed information instead of
 
 ## Edit a report {#editareport}
 
-On the report, click the drop-down arrow, and choose the option **[!UICONTROL Edit Report]**.
+On the report, click the drop-down arrow, and select the option **[!UICONTROL Edit Report]**.
 
 ![](assets/edit-a-report-1.png)
 *Edit a report*
@@ -391,7 +391,7 @@ Choose the dashboard where you want the report to move to and click **[!UICONTRO
 
 ## Create a copy of a report {#createacopyofareport}
 
-To create a copy of the report, choose the option **[!UICONTROL Create a Copy]**.
+To create a copy of the report, select the option **[!UICONTROL Create a Copy]**.
 
 ![](assets/copy-a-report.png)
 *Create a copy of a report*

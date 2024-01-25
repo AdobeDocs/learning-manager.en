@@ -91,9 +91,9 @@ Click on the Checklist module. On the **Checklist** page, you see the following:
 ![](assets/checklist-page.png)
 *Viedw the checklist page*
 
-To evaluate a learner, click **Evaluate** in the **Checklist** column. You can also see that the status of the review is **Pending**.
+To evaluate a learner, click **[!UICONTROL Evaluate]** in the **[!UICONTROL Checklist]** column. You can also see that the status of the review is **Pending**.
 
-Evaluate the learner and click **Submit**. As an instructor, you must respond to all the evaluation questions.
+Evaluate the learner and click **[!UICONTROL Submit]**. As an instructor, you must respond to all the evaluation questions.
 
 ![](assets/checklist-evaluation-screen.png)
 *Checklist for evaluation*
@@ -147,12 +147,12 @@ To accommodate the changes, Adobe has updated the email template for **Submissio
 
 To add scores and comments for activity modules that have been sent for submission, follow the below steps:
 
-1. From the left pane, click **Learner**.
+1. From the left pane, click **[!UICONTROL Learner]**.
 
    ![](assets/learners.png)
    *Select a learner*
 
-1. From the Learner's page, click **Actions** > **Edit Scores & Comments**.
+1. From the Learner's page, click **[!UICONTROL Actions]** > **[!UICONTROL Edit Scores & Comments]**.
 
    ![](assets/edit-scores-comments.png)
    *Add comments*
@@ -162,4 +162,4 @@ To add scores and comments for activity modules that have been sent for submissi
    ![](assets/editing-scores-andcomments.png)
    *Edit scores and comments*
 
-1. Click **Save.**
+1. Click **[!UICONTROL Save]**.

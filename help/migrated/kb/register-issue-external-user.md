@@ -37,14 +37,14 @@ This issue occurs under one of the below scenarios:
 **Scenario 1:** The user is already registered to another External Profile.
 
 1. Log in as an Administrator.
-1. Under **Manage**, click **Users** > **External**.
+1. Under **Manage**, click **[!UICONTROL Users]** > **[!UICONTROL External]**.
 1. Open the Profile which the user is already a part of by clicking the Seats Used
 
    ![](assets/cp-seats-used.png)
 
    *Open profile of user*
 
-1. Select the User, click **Actions** > **Change Profile.**
+1. Select the User, click **[!UICONTROL Actions]** > **[!UICONTROL Change Profile]**.
 
    ![](assets/cp-change-profile.png)
 
@@ -56,12 +56,12 @@ This issue occurs under one of the below scenarios:
 
    *Select user profile*
 
-1. Once selected, click **Change**.
+1. Once selected, click **[!UICONTROL Change]**.
 
 **Scenario 2:** The user is present as an Internal Learner.
 
 1. Log in as an Administrator.
-1. Under **Manage**, click **Users** > **Internal**.
+1. Under **Manage**, click **[!UICONTROL Users]** > **[!UICONTROL Internal]**.
 1. Click to open a Learner profile and click the Edit icon.
 
    ![](assets/cp-internal-learner.png)
@@ -77,7 +77,7 @@ This issue occurs under one of the below scenarios:
 **Scenario 3**: The user is in a deleted state.
 
 1. Log in as an Administrator.
-1. Under **Manage**, click **Users** > **User Cleanup**.
+1. Under **Manage**, click **[!UICONTROL Users]** > **[!UICONTROL User Cleanup]**.
 1. Select the Learner and click the Edit icon.
 
    ![](assets/cp-deleted-learner.png)
@@ -86,4 +86,4 @@ This issue occurs under one of the below scenarios:
 
 1. Change the email address of the Learner or add *_old* to the existing email address. This will free up the email address.
 
-   For example, If the email address of the Learner is *abc@adobe.com,* change it to *abc_old@adobe.com*
+   For example, If the email address of the Learner is **<abc@adobe.com>**, change it to **<abc_old@adobe.com>**.

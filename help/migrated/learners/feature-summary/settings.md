@@ -41,7 +41,7 @@ Read this article to know how to set learner profile settings and add a profile 
 
 When you receive a mail, you can unsubscribe from the digest email by clicking the **Unsubscribe** link at the bottom of the email.
 
-After you click **Unsubscribe**, you are redirected to your **Profile Settings** page, where you can disable the option to receive emails.
+After you click **[!UICONTROL Unsubscribe]**, you are redirected to your **Profile Settings** page, where you can disable the option to receive emails.
 
 ## Anatomy of a digest email {#anatomyofadigestemail}
 
@@ -115,7 +115,7 @@ A digest email consists of the following sections:
 
 **1. How to download a Learner Transcript as learner?**
 
-On the upper-right corner, click your **user profile** > **Profile Settings**. On the dialog that appears, click **Download My Learning Transcript (XLS)**.
+On the upper-right corner, click your **[!UICONTROL user profile]** > **[!UICONTROL Profile Settings]**. On the dialog that appears, click **Download My Learning Transcript (XLS)**.
 
 ![](assets/dowload-lt.png)
 *Download Learner Transcript*

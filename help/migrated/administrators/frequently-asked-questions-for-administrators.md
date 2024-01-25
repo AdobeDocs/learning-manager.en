@@ -132,7 +132,7 @@ Enroll learners to courses by following the steps below:
 
 Assign learners to competencies by following the steps as below:
 
-1. Click **Ski[!UICONTROL ]lls** at the left pane after you log in as Administrator.
+1. Click **[!UICONTROL Skills]** at the left pane after you log in as Administrator.
 1. Select one or multiple skills by clicking check boxes against each competency and click **[!UICONTROL Actions]** drop down at the upper-right corner of the page.
 1. Click Assign to users.
 1. Start typing the name of the user, choose from the drop-down list and click **[!UICONTROL Save]**.  
@@ -229,7 +229,7 @@ You can create reports by following the steps below:
 1. Click Reports on the left pane. Report summary page appears.
 1. On the Reports page, click **[!UICONTROL Add]** at the upper-right corner.  
 
-   **[!UICONTROL Add report]** dialog appears.
+   **[!UICONTROL Add Report]** dialog appears.
 
 1. Fill up all the mandatory fields, and click Save.
 
@@ -262,7 +262,7 @@ Adobe Learning Manager provides you the facility to enroll external department m
 
 1. Click **[!UICONTROL Users]** on the left pane.
 1. Click **[!UICONTROL External]** on the left pane.
-1. Click **[!UICONTROL Add]** at the upper-right corner of the page.  
+1. Click **[!UICONTROL Add]** at the upper-right corner of the page. 
 
    Add User dialog appears.
 

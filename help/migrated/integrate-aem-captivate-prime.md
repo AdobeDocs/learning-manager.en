@@ -72,7 +72,7 @@ For widget configuration, the AEM author only requires the refresh token provide
 
 You can also set multiple account configurations in multiple pages.
 
-1. Click **[!UICONTROL Tools]** -> **[!UICONTROL Cloud Services]** -> **[!UICONTROL Captivate Learning Manager Widget Configuration]**.
+1. Click **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Captivate Learning Manager Widget Configuration]**.
 1. Click **[!UICONTROL Create]**.
 1. Enter the refresh token here. Set up the other settings.
 1. Hostname should be changed to "learningmanagereu" for EU regions.

@@ -37,7 +37,7 @@ To create an instance,
    * Specify the completion deadline for the instance. Learners must achieve course completion status by this date.
    * Click **[!UICONTROL Show More Options]** to display other deadline options.
    * **[!UICONTROL Enrollment Deadline]:** This is the date by which a learner is expected to enroll into a learning object in case of self-enrollment.
-   * **[!UICONTROL Unenrollment deadline]:** You can choose to restrict unenrollment by learner himself by having an unenrollment deadline.
+   * **[!UICONTROL Unenrollment Deadline]:** You can choose to restrict unenrollment by learner himself by having an unenrollment deadline.
 
    An Administrator can decide to have completion deadlines for a course or learning program based on requirements. However, it is recommended to have one for Classroom/Virtual classroom-based trainings.
 
@@ -174,7 +174,7 @@ For sending the email notifications, an Admin must explicitly choose the escalat
 
 Whenever an author adds, updates, or deletes modules and republishes a course, all the administrators receive notification about the same. As an administrator, you can then view the changes, compare the old and new content by clicking on the link, and either approve or reject the changes accordingly.
 
-To enable Course Moderation, click **[!UICONTROL Settings] > [!UICONTROL General]**. Select the **[!UICONTROL Course Moderation]** check-box to enable this feature.
+To enable Course Moderation, click **[!UICONTROL Settings]** > **[!UICONTROL General]**. Select the **[!UICONTROL Course Moderation]** check-box to enable this feature.
 
 ![](assets/2.png)
 
@@ -272,7 +272,7 @@ To enable L1 feedback, in the Admin app, click **[!UICONTROL Settings]** > **[!U
 
 *View the Feedback Settings page*
 
-Click **Edit** on the upper-right corner and toggle the option to enable L1 feedback.
+Click **[!UICONTROL Edit]** on the upper-right corner and toggle the option to enable L1 feedback.
 
 When an author creates a course, on the Instance page of the Admin app, the **[!UICONTROL L1 feedback]** is automatically enabled for the new course.
 
@@ -593,7 +593,7 @@ Learners can simply use the Adobe Learning Manager device app to scan the respec
 **To download the QR code, do the following**:
 
 1. Click **[!UICONTROL Courses]** from Learning section in the left navigation panel.
-1. Select a course > **[!UICONTROL view course]**.
+1. Select a course > **[!UICONTROL View course]**.
 1. Click **[!UICONTROL Instances]** > **[!UICONTROL More]** > **[!UICONTROL QR code]**.
 
    <!--![](assets/admin-instance-edit.png)-->

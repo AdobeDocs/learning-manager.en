@@ -63,13 +63,13 @@ Also make sure that you have the appropriate credentials to log in to the accoun
 
 #### Create a connection {#createaconnection}
 
-1. In Learning Manager home page, hover mouse over the Salesforce card/thumbnail. A menu appears. Click **Connect** item in the menu.
+1. In Learning Manager home page, hover mouse over the Salesforce card/thumbnail. A menu appears. Click **[!UICONTROL Connect]** item in the menu.
 
    ![](assets/mouserover-salesforce.png)
    
    *Connect option*
 
-1. A dialog appears prompting you to enter the org-url. Click **Connect** after providing the URL. 
+1. A dialog appears prompting you to enter the org-url. Click **[!UICONTROL Connect]** after providing the URL. 
 1. Upon successful connection, the overview page appears.
 
 ### Map attributes {#mapattributes}
@@ -85,7 +85,7 @@ Once the connection is successfully established, you can map Salesforce columns 
    >
    >Learning Manager's column data shown on the left side are fetched from the active fields. The **manager** field must be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.
 
-1. Click **Save** after completing the mapping. 
+1. Click **[!UICONTROL Save]** after completing the mapping. 
 1. The connector is now ready for use. The account that has been configured and appears as a data source within the Administrator app. The administrator can schedule the import or for on-demand sync.
 
 ## Using Salesforce connector {#usingsalesforceconnector}
@@ -101,7 +101,7 @@ On the Salesforce connector page, enter the Salesforce url and complete the auth
 Choose the Salesforce columns and map them to corresponding Learning Manager's group-able attributes. Once the mapping is completed, the same mapping is used in subsequent user imports.
 
 1. Sign in to Salesforce.  
-1. On the connection page, click **Import Internal Users**. 
+1. On the connection page, click **[!UICONTROL Import Internal Users]**. 
 
    ![](assets/image048.png)
    *Import internal users*
@@ -111,7 +111,7 @@ Choose the Salesforce columns and map them to corresponding Learning Manager's g
    ![](assets/image050.png)
    *Map the contact attributes*
 
-1. If you click **Yes**, you can perform the following:
+1. If you click **[!UICONTROL Yes]**, you can perform the following:
 
    * **Choose Contacts column:** Select the field that you want to import to Learning Manager.
    * **Specify values:** Choose the values that represent the field selected.
@@ -120,10 +120,10 @@ Choose the Salesforce columns and map them to corresponding Learning Manager's g
    *Specify the values*
 
    * Map the Salesforce columns with that of Learning Manager.  
-   * To start importing, click **Save**.
+   * To start importing, click **[!UICONTROL Save]**.
 
-1. If you click **No. Import all Contacts**, you can map the fields directly without filtering the contacts. Here, you'd import all contacts from Salesforce.
-1. To start importing, click **Save**.
+1. If you click **[!UICONTROL No. Import all Contacts]**, you can map the fields directly without filtering the contacts. Here, you'd import all contacts from Salesforce.
+1. To start importing, click **[!UICONTROL Save]**.
 
 ## Export learning records
 
@@ -145,7 +145,7 @@ Here's how you'll create the objects:
    * [Package 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)
 
 1. Rename the names of the Custom Objects in Salesforce.
-1. Select the events and click **Save**.
+1. Select the events and click **[!UICONTROL Save]**.
 
 **Link events with:** Choose which section you want to export- User or Contact. If you choose Contact object, users who are present in Learning Manager but not in Salesforce, will be created in Salesforce. 
 
@@ -169,13 +169,13 @@ Learning Manager offers a Salesforce App package. Once installed and configured 
 ### Set up in Learning Manager app
 
 1. Log in to your Learning Manager Admin account as Integration Admin.
-1. Click **Applications > Featured Apps**.
-1. Click **Salesforce**.
+1. Click **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**.
+1. Click **[!UICONTROL Salesforce]**.
 1. On the Salesforce app page, note the Application id (also known as client id) and the client secret mentioned in the description.
-1. Click **Approve** and your app must be approved successfully.
-1. Click **Developer Resources > Access Tokens for Testing and Development**.
-1. In the Get OAuth Code section, the Client ID and scope must be set to - admin:read,admin:write. Click **Submit**.
-1. In Get Refresh Token, enter the Client ID and Client secret. Click **Submit** and note the refresh token.
+1. Click **[!UICONTROL Approve]** and your app must be approved successfully.
+1. Click **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**.
+1. In the Get OAuth Code section, the Client ID and scope must be set to - admin:read,admin:write. Click **[!UICONTROL Submit]**.
+1. In Get Refresh Token, enter the Client ID and Client secret. Click **[!UICONTROL Submit]** and note the refresh token.
 
 ### Create account in Salesforce app
 
@@ -193,12 +193,12 @@ If you want to install the package, you must first delete the existing package i
 >The Adobe Learning Manager app is only supported in Salesforce Lightning view.
 
 1. Launch the [Learning Manager package url](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).  
-1. In the **Login** page, click **Use Custom Domain**.
-1. Enter the package URL and click **Continue**. The installation page must have the option Install for Admins Only selected. Do not change this option.
-1. Click **Install**. Once the package is installed, click **Done**. You are guided to the Installed Packages page, and you can see the Adobe Learning Manager installed package.
+1. In the **Login** page, click **[!UICONTROL Use Custom Domain]**.
+1. Enter the package URL and click **[!UICONTROL Continue]**. The installation page must have the option Install for Admins Only selected. Do not change this option.
+1. Click **[!UICONTROL Install]**. Once the package is installed, click **[!UICONTROL Done]**. You are guided to the Installed Packages page, and you can see the Adobe Learning Manager installed package.
 1. Go to the App Launcher (next to Setup) and search for Adobe Learning Manager.
-1. To configure the app, click **Configure**.
-1. Click **New** and add the following details:
+1. To configure the app, click **[!UICONTROL Configure]**.
+1. Click **[!UICONTROL New]** and add the following details:
 
    * **Config:** Enter a name of your choice.
    * **ClientID**: Enter the value that you'd obtained from the first section.
@@ -208,9 +208,9 @@ If you want to install the package, you must first delete the existing package i
 
 ### Add Remote Site Settings
 
-1. In the top-right corner of the page, click **Setup**.
-1. In **Quick Find**, search for Remote Site Settings.
-1. Click **New Remote Site**.
+1. In the top-right corner of the page, click **[!UICONTROL Setup]**.
+1. In **[!UICONTROL Quick Find]**, search for Remote Site Settings.
+1. Click **[!UICONTROL New Remote Site]**.
 1. Enter the details:
 
    * **Remote Site Name:** Enter a name of your choice.
@@ -220,9 +220,9 @@ If you want to install the package, you must first delete the existing package i
 
 ### Enable Notifications for the Learning Manager app
 
-1. In the upper-right corner, click **Setup**. 
+1. In the upper-right corner, click **[!UICONTROL Setup]**. 
 1. Search for Custom Notifications. 
-1. Click **New**.
+1. Click **[!UICONTROL New]**.
 1. Enter the following details:  
 
    1. **Custom Notification Name:** LearningManagerNotification 
@@ -230,7 +230,7 @@ If you want to install the package, you must first delete the existing package i
 
 1. Select both **Desktop** and **Mobile** as Supported channels.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 1. To enable push notifications for mobile devices, follow the steps below:
 
    1. Install Salesforce mobile app in your mobile phone.
@@ -241,7 +241,7 @@ If you want to install the package, you must first delete the existing package i
 ### Uninstall Learning Manager from Salesforce
 
 1. In Salesforce app, go to Installed packages.
-1. Click **Uninstall**.
+1. Click **[!UICONTROL Uninstall]**.
 
 ## Configure Learning Manager for Salesforce users
 
@@ -255,7 +255,7 @@ When installing the package, you can assign the Salesforce profile to the learne
 
 After installing the package, you must configure the profile.
 
-Click **Configure** > **New**, and then add the following:
+Click **[!UICONTROL Configure]** > **[!UICONTROL New]**, and then add the following:
 
 * Config Name
 * ClientID
@@ -275,13 +275,13 @@ The next step is to provide the permission to access the Learning Manager app.
 
 Select the users and assign the permissions accordingly. The learners can now access the Learning Manager app.
 
-Now, select a profile, for example, Standard Profile of a user, and click the profile. Click **Edit** and in the **Custom App Settings** section, enable the check-box **Adobe Learning Manager**. This makes the app accessible to the user.
+Now, select a profile, for example, Standard Profile of a user, and click the profile. Click **[!UICONTROL Edit]** and in the **Custom App Settings** section, enable the check-box **Adobe Learning Manager**. This makes the app accessible to the user.
 
 In the **Custom Tab Settings** section, in the **Learner Home** drop-down list, select the option **Default On**.
 
 You must make the app visible to all the profiles.
 
-Click **Save** and the learners belonging to all the profiles will access Learning Manager app.
+Click **[!UICONTROL Save]** and the learners belonging to all the profiles will access Learning Manager app.
 
 ### Learning Path-related changes
 
@@ -337,13 +337,13 @@ To integrate FTP connector with Learning Manager, learn the process.
 
 #### Create a connection {#Createaconnection-1}
 
-1. In Learning Manager home page, hover mouse over the FTP card/thumbnail. A menu appears. Click **Connect** item in the menu.
+1. In Learning Manager home page, hover mouse over the FTP card/thumbnail. A menu appears. Click **[!UICONTROL Connect]** item in the menu.
 
    ![](assets/mouseover-ftpconnector.png)
    
    *Connect option*
 
-1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **Connect** after providing the email id. 
+1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
 1. Learning Manager sends you an email prompting the user to reset the password before accessing the FTP for the first time. The user must reset the password and use it for accessing the Learning Manager FTP account.
 
    >[!NOTE]
@@ -381,7 +381,7 @@ Once connection is successfully established, you can map the columns of CSV file
    >
    >The Manager field must be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.
 
-1. Click **Save** after completing the mapping. 
+1. Click **[!UICONTROL Save]** after completing the mapping. 
 
    The connector is now ready for use. The configured account appears as a data source within the Administrator app for the Administrator to schedule the import or for on-demand sync.
 
@@ -424,22 +424,22 @@ The import xAPI options allows you to schedule the import of xAPI statements fro
    **Configuration**
 
    * In the Configure Import-Sources page, fill in the two fields i.e. Name and Source File Name. The source file name should match the file name that is provided in the FTP folder location.
-   * Click **Save** to save your changes.
+   * Click **[!UICONTROL Save]** to save your changes.
 
    ![](assets/configurations.png)
    *Configure*
 
    **Filter**
 
-   * From the left pane, click **Filter**.
-   * In the configure Import-Filter page, fill in the Name and Conditions fields to filter out the records. Click **Add new Filter** to add another filter. You can save or delete a filter by clicking **Save** or **Delete** option under the Actions column.
+   * From the left pane, click **[!UICONTROL Filter]**.
+   * In the configure Import-Filter page, fill in the Name and Conditions fields to filter out the records. Click **[!UICONTROL Add new Filter]** to add another filter. You can save or delete a filter by clicking **Save** or **Delete** option under the Actions column.
 
    ![](assets/filter.png)
    *Filter*
 
    **Mapping**
 
-   * From the left pane, click **Mapping**.
+   * From the left pane, click **[!UICONTROL Mapping]**.
    * In the Import xAPI Statements-Configuration-Mapping page, on the left side you can see the xAPI JSON field path names which needs to be mapped with the CSV column names.
    * By default, the three JSON path field names that need to be mapped with the CSV column names are **actor.mbox**, **verb.id**, and **object.id**. You can add other fields to map by clicking **Add a new Mapping**.
    
@@ -449,19 +449,19 @@ The import xAPI options allows you to schedule the import of xAPI statements fro
    ![](assets/mapping.png)
    *Mapping*
 
-1. From the left pane, click **Configure Schedule**. Click **Enable Schedule** to schedule the import of xAPI statements.
+1. From the left pane, click **[!UICONTROL Configure Schedule]**. Click **[!UICONTROL Enable Schedule]** to schedule the import of xAPI statements.
 
    You can enter the start time and date, and then enter the frequency of your xAPI import schedule in days. For example, enabling xAPI import for every 3 days.
 
    ![](assets/configure-schedule2x.png)
    *Import xAPI statements - Configure Schedule*
 
-1. From the left pane, click **On Demand Execution**.  
+1. From the left pane, click **[!UICONTROL On Demand Execution]**.  
 
    ![](assets/on-demand.png)
    *Import xAPI statements- On Demand*
 
-1. From the left pane, click **Execution Status** to view the summary of all the runs for this connector, in a chronological order. You can view the start date and duration of the time taken to import xAPI, the type of import (whether it is on demand or scheduled) and the status of the import (whether the xAPI import is in progress or has completed or has failed).
+1. From the left pane, click **[!UICONTROL Execution Status]** to view the summary of all the runs for this connector, in a chronological order. You can view the start date and duration of the time taken to import xAPI, the type of import (whether it is on demand or scheduled) and the status of the import (whether the xAPI import is in progress or has completed or has failed).
 
    ![](assets/execution-status2x.png)
    *Import xAPI statements - Execution Status*
@@ -562,13 +562,13 @@ The Lynda connector is used by enterprise customers of Lynda.com who would like 
    >Migration feature must be enabled for your account before you configure this connector.
 
 1. Click the connection that you want to edit.
-1. From the left pane, click **Configure**. Do one of the following:
+1. From the left pane, click **[!UICONTROL Configure]**. Do one of the following:
 
    * View or edit the details of your account, and the synchronization schedule from this window. Select the Enable Connection check box if you want to enable this account. 
    * Click Edit and edit your credentials. To undo your updates to this field click Reset
    * Click Enable Schedule to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every three days.
 
-   Click **Save** to save your changes.
+   Click **[!UICONTROL Save]** to save your changes.
 
    ![](assets/lynda.png)
    
@@ -635,7 +635,7 @@ The getAbstract connector is used by enterprise customers of getAbstract.com, wh
    * Click Edit and edit your credentials. To undo your updates to this field click Reset
    * Click Enable Schedule to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every three days.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
    The configuration is saved and the getAbstract connection for your account is added.
 
@@ -926,7 +926,7 @@ To set up   miniOrange   connector, contact the Learning Manager CSM team.
 
    *miniOrange connector tile*
 
-1. Click **Connect** to establish a new connection. The  miniOrange  connector page appears. Enter the details of your account you want to map.
+1. Click **[!UICONTROL Connect]** to establish a new connection. The  miniOrange  connector page appears. Enter the details of your account you want to map.
 
    ![](assets/establish-connection.png)
 
@@ -1091,7 +1091,7 @@ The xAPI Report Activity option allows you to generate the import of xAPI statem
    **Configuration**
 
    * In the Configure Import-Sources page, fill in the two fields i.e. Name and Source File Name. The source file name should match the file name that is provided in the FTP folder location.
-   * Click **Save** to save your changes.
+   * Click **[!UICONTROL Save]** to save your changes.
 
    ![](assets/configurations-main2x.png)
    
@@ -1117,17 +1117,17 @@ The xAPI Report Activity option allows you to generate the import of xAPI statem
    ![](assets/box-mapping-2x.png)
    *Mapping*
 
-1. From the left pane, click **Configure Schedule**. Click Enable Schedule to schedule the import of xAPI statements. You can enter the start time and date, and then enter the frequency of your xAPI import schedule in days. For example, enabling xAPI import for every 3 days.
+1. From the left pane, click **[!UICONTROL Configure Schedule]**. Click Enable Schedule to schedule the import of xAPI statements. You can enter the start time and date, and then enter the frequency of your xAPI import schedule in days. For example, enabling xAPI import for every 3 days.
 
    ![](assets/configure-schedulebox2x.png)
    *Import xAPI statements - Configure Schedule*
 
-1. From the left pane, click **On Demand Execution**.  
+1. From the left pane, click **[!UICONTROL On Demand Execution]**.  
 
    ![](assets/box-on-demand-2x.png)
    *Import xAPI statements - On Demand*
 
-1. From the left pane, click **Execution Status** to view the summary of all the runs for this connector, in a chronological order. You can view the start date and duration of the time taken to import xAPI, the type of import (whether it is on demand or scheduled) and the status of the import (whether the xAPI import is in progress or has completed or has failed).
+1. From the left pane, click **[!UICONTROL Execution Status]** to view the summary of all the runs for this connector, in a chronological order. You can view the start date and duration of the time taken to import xAPI, the type of import (whether it is on demand or scheduled) and the status of the import (whether the xAPI import is in progress or has completed or has failed).
 
    ![](assets/box-execution-status2x.png)
    *Import xAPI statements - Execution Status*
@@ -1208,12 +1208,12 @@ The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com 
 ### Configure settings in Linkedln Learning portal {#configuresettingsinlinkedlnlearningportal}
 
 1. Login into Linkedln Learning LMS as an admininstrator.
-1. Click **admin** from the top navigation panel.
-1. Click **settings** tab from the next window.
-1. Select **Playback Integration** from the left navigation panel and then click the **Integration** tab.
-1. Click **LMS Content Launch Settings** to expand its settings.
+1. Click **[!UICONTROL admin]** from the top navigation panel.
+1. Click **[!UICONTROL settings]** tab from the next window.
+1. Select **[!UICONTROL Playback Integration]** from the left navigation panel and then click the **Integration** tab.
+1. Click **[!UICONTROL LMS Content Launch Settings]** to expand its settings.
 1. Add the following three host names: **learningmanager.adobe.com**, **learningmanagerlrs.adobe.com**, **cpcontents.adobe.com**
-1. Select **Enable AICC Integration**.
+1. Select **[!UICONTROL Enable AICC Integration]**.
 
    ![](assets/linkedin-learning.png)
    
@@ -1235,11 +1235,11 @@ The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com 
    >
    >The enterprise admin can generate a new application from the LinkedIn Learning Admin portal to get the Appkey and the Secret  key .
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
-   The configuration is saved and the LinkedIn Learning connection for your account is added. You can now click **Manage Connections** from the home page, and edit your configuration anytime.
+   The configuration is saved and the LinkedIn Learning connection for your account is added. You can now click **[!UICONTROL Manage Connections]** from the home page, and edit your configuration anytime.
 
-1. If you already have a connection established, click **Manage Connections** view all your connections.
+1. If you already have a connection established, click **[!UICONTROL Manage Connections]** view all your connections.
 
    >[!NOTE]
    >
@@ -1248,16 +1248,16 @@ The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com 
 1. Click the connection that you want to edit.
 1. From the left pane, click Configure. Do one of the following:
 
-   * View or edit the details of your account, and the synchronization schedule from this window. Select the **Enable Connection** check box if you want to enable this account. 
-   * Click **Edit** and edit your credentials. To undo your updates to this field click Reset.
-   * Click **Enable Schedule** to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every three days.
+   * View or edit the details of your account, and the synchronization schedule from this window. Select the **[!UICONTROL Enable Connection]** check box if you want to enable this account. 
+   * Click **[!UICONTROL Edit]** and edit your credentials. To undo your updates to this field click Reset.
+   * Click **[!UICONTROL Enable Schedule]** to schedule your synchronization. You can enter the start time and date, and then enter the frequency of your synchronization schedule in days. For example, enabling synchronization every three days.
 
-   Click **Save** to save your changes.
+   Click **[!UICONTROL Save]** to save your changes.
 
-1. From the left pane, click **On-Demand Execution**. This option allows you to import user feeds and other relevant data from LinkedIn. Enter the Start Date for the  on demand  execution, and click Execute to execute the synchronization. All the data from the start date until present is imported.
+1. From the left pane, click **[!UICONTROL On-Demand Execution]**. This option allows you to import user feeds and other relevant data from LinkedIn. Enter the Start Date for the  on demand  execution, and click Execute to execute the synchronization. All the data from the start date until present is imported.
 
-   * You can click **Disable access** to Learning Manager during execution where the application has a downtime during the synchronization.
-   * If you click **Enable access** to Learning Manager during execution, there is no disruption in service during synchronization.
+   * You can click **[!UICONTROL Disable access]** to Learning Manager during execution where the application has a downtime during the synchronization.
+   * If you click **[!UICONTROL Enable access]** to Learning Manager during execution, there is no disruption in service during synchronization.
 
    ![](assets/ondemandexecution.jpg)
    
@@ -1327,10 +1327,10 @@ To configure the connector,  in  the **[!UICONTROL Connectors]** page, hover ove
 *Configure the Power BI connector*
 
 1. Launch <https://app.powerbi.com/embedsetup>.
-1. Click **Embed for your organization** and sign in to your Microsoft account.  
+1. Click **[!UICONTROL Embed for your organization]** and sign in to your Microsoft account.  
 1. Enter the name of the app.  
 1. In the App type section, select the option Server-side Web app.  
-1. In the **Redirect URL** section, select the option **Use a custom URL** (Choose this if you know the target application's URL). Enter the following URL:
+1. In the **[!UICONTROL Redirect URL]** section, select the option **Use a custom URL** (Choose this if you know the target application's URL). Enter the following URL:
 
    `https://learningmanager.adobe.com/ctr/app/azure/_callback` (update the domain based on the environment)
 
@@ -1341,7 +1341,7 @@ To configure the connector,  in  the **[!UICONTROL Connectors]** page, hover ove
 
    Obtaining the Workplace Id: Workplace creation is possible for Power BI Pro users only. You can create a workplace in the Power BI and get the Id from the URL.
 
-1. Click **Register app** and store the Client Id and Client Secret.
+1. Click **[!UICONTROL Register app]** and store the Client Id and Client Secret.
 
 >[!NOTE]
 >
@@ -1367,7 +1367,7 @@ The exported data can be viewed by logging in to your Power BI account. The expo
 
 ### Export xAPI Activity Reports in Learning Manager {#exportxapiactivityreportsincaptivateprime}
 
-From the PowerBI-xAPI capabilities page, click **Export xAPI Activity Report**.
+From the PowerBI-xAPI capabilities page, click **[!UICONTROL Export xAPI Activity Report]**.
 
 ![](assets/powerbi-dashboard.png)
 *PowerBI - Export xAPI Activity Report*
@@ -1375,24 +1375,24 @@ From the PowerBI-xAPI capabilities page, click **Export xAPI Activity Report**.
 From the left pane, select **Configuration** and follow the below steps:
 
 * Fill in the JSON path field that matches the column name and string type.
-* To add more JSON paths, click **Add**.
-* You can edit the entries in the JSON path fields by clicking **Edit**.
-* Click **Save** to save your changes.
+* To add more JSON paths, click **[!UICONTROL Add]**.
+* You can edit the entries in the JSON path fields by clicking **[!UICONTROL Edit]**.
+* Click **[!UICONTROL Save]** to save your changes.
 
 **Configure Schedule**
 
-From the left pane, click **Configure Schedule** and do the following:
+From the left pane, click **[!UICONTROL Configure Schedule]** and do the following:
 
 * Click Enable xAPI statements export using this connection.
-* Click the **Enable Schedule** checkbox and specify the start date and time. You can also specify the interval of days at which you want the export to repeated and sent.
-* Click the **Save** button to save configure schedule settings.
+* Click the **[!UICONTROL Enable Schedule]** checkbox and specify the start date and time. You can also specify the interval of days at which you want the export to repeated and sent.
+* Click the **[!UICONTROL Save]** button to save configure schedule settings.
 
 ![](assets/configure-schedule.png)
 *xAPI Export Configure Schedule*
 
 **On Demand**
 
-From the left pane, click **On Demand** and specify the Start date in the Export xAPi statements-On Demand page.
+From the left pane, click **[!UICONTROL On Demand]** and specify the Start date in the Export xAPi statements-On Demand page.
 
 ![](assets/on-demand-2.png)
 *xAPI Export On Demand*
@@ -1564,7 +1564,7 @@ The Data Export allows users to export user skills and Learner Transcripts to th
 
 Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application. 
 
-To configure your own FTP, sign in as an Integration Admin, and click **Custom FTP** > **Connect**.
+To configure your own FTP, sign in as an Integration Admin, and click **[!UICONTROL Custom FTP]** > **[!UICONTROL Connect]**.
 
 There are two types of authentications:
 
@@ -1594,7 +1594,7 @@ Prerequisites to establish an ADFS connection:
 
 ## Steps to register your application {#stepstoregisteryourapplication}
 
-1. Click Azure Active Directory. Click **Add** > **App registration**.
+1. Click Azure Active Directory. Click **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
 
    ![](assets/add-app-registration.png)
    *Add app registration*
@@ -1604,9 +1604,9 @@ Prerequisites to establish an ADFS connection:
    ![](assets/register-app.png)
    *Enter the name of the application*
 
-   Click **Register**.
+   Click **[!UICONTROL Register]**.
 
-1. On the right pane, select **Certificates and Secrets**.
+1. On the right pane, select **[!UICONTROL Certificates and Secrets]**.
 
    ![](assets/add-client-secret.png)
 
@@ -1680,7 +1680,7 @@ Prerequisites to establish an ADFS connection:
 
 1. In the ADFS configuration page in Adobe Learning Manager, enter the Client ID and the Client Secret that you had obtained earlier.
 
-   Click **Connect**.
+   Click **[!UICONTROL Connect]**.
 
 1. Log in to **portal.azure.com**. The values will be populated in the Tenant ID and the Primary Domain fields.
 
@@ -1726,14 +1726,14 @@ To set up ADFS connector ,  contact the Learning Manager CSM team.
    
    *Map attributes*
 
-1. To view and edit data source, as an Administrator, click **Settings > Data Source**.
+1. To view and edit data source, as an Administrator, click **[!UICONTROL Settings]** > **[!UICONTROL Data Source]**.
 
-   The established ADFS source would be listed. If you require to edit the filter, click **Edit**.
+   The established ADFS source would be listed. If you require to edit the filter, click **[!UICONTROL Edit]**.
 
    ![](assets/datasource.jpg)
    *Data source setting*
 
-1. You receive a notification upon completion of import. To view or edit the import log, click Users > Import log.
+1. You receive a notification upon completion of import. To view or edit the import log, click **[!UICONTROL Users]** > **[!UICONTROL Import log]**.
 
 ### Delete a connection {#Deleteaconnection-1}
 
@@ -1753,7 +1753,7 @@ To delete an established miniOrange connection, follow these steps.
    >
    >Only Adobe hosted connect accounts are supported in Learning Manager. Example; '.adobeconnect.com'.
 
-1. Click **Integrate**.
+1. Click **[!UICONTROL Integrate]**.
 
    After authenticating the email id, Learning Manager displays the message as Connect is successfully integrated. You can start viewing your virtual classroom courses using Adobe Connect automatically.
 
@@ -2011,7 +2011,7 @@ Export training metadata from Adobe Learning Manager to the data retrieval and s
 
    *Enter connection and domain names*
 
-1. Click **Connect**. The base URL and the retrieval URL get generated.
+1. Click **[!UICONTROL Connect]**. The base URL and the retrieval URL get generated.
 
    ![](assets/base-url.png)
 
@@ -2081,7 +2081,7 @@ In addition to initiating a purchase, the connector also collects purchase detai
 
 ### Configure the connector
 
-As an Integration Administrator, in the Adobe Commerce connector, click **Connect**.
+As an Integration Administrator, in the Adobe Commerce connector, click **[!UICONTROL Connect]**.
 
 On the configuration page, enter the following details. These details, the authorization keys, are available in Adobe Commerce. Once you create an integration in Adobe Commerce, the credentials will be available there. 
 
@@ -2107,11 +2107,11 @@ The course or Learning Path will not be available for purchase until the data is
 
 After an author has set the prices on various courses, Learning Paths, or certifications, you, as the Integration Administrator, will export the courses, Learning Paths, or certifications into Adobe Commerce.
 
-1. Click **Export Training Metadata > On Demand**.  
+1. Click **[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**.  
 
 1. Select the dates.  
 
-1. Click **Execute**. Upon successful execution, all courses or Learning Paths that are priced, will be moved to Adobe Commerce. The learner can then buy the course from Learning Manager. 
+1. Click **[!UICONTROL Execute]**. Upon successful execution, all courses or Learning Paths that are priced, will be moved to Adobe Commerce. The learner can then buy the course from Learning Manager. 
 
 ### Native Learning Manager with Adobe Commerce 
 

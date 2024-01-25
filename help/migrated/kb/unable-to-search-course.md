@@ -43,8 +43,8 @@ This issue occurs if:
 
 1. Log in as administrator.   
 
-1. Click **Catalog** and browse to the catalog that contains the course. 
-1. Click **Share Internally** or **Content** (depending upon the scenario mentioned above).
+1. Click **[!UICONTROL Catalog]** and browse to the catalog that contains the course. 
+1. Click **[!UICONTROL Share Internally]** or **[!UICONTROL Content]** (depending upon the scenario mentioned above).
 
    ![](assets/cp-share-internally.png)
 
@@ -54,7 +54,7 @@ This issue occurs if:
 
    * Learner is not part of the catalog
 
-     To share the catalog, click **Add**, and add the user group that the user is a part of. Click **Save**.
+     To share the catalog, click **[!UICONTROL Add]**, and add the user group that the user is a part of. Click **[!UICONTROL Save]**.
 
      ![](assets/cp-add-user-group.png)
 
@@ -62,7 +62,7 @@ This issue occurs if:
 
    * Course is not a part of the Catalog
 
-     In the Content section, click **Add Content,** and select the course that you need to add to the catalog.
+     In the Content section, click **[!UICONTROL Add Content]** and select the course that you need to add to the catalog.
 
      ![](assets/cp-add-content.png)
 

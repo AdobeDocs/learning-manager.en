@@ -43,7 +43,7 @@ View withdrawn job aids by clicking the Withdrawn tab. You can re-publish the wi
 
 1. In the **[!UICONTROL Learners]** field, start typing the name of learners and choose the learners from the drop-down list. You can also find learners by name, profile and so on. 
 1. Click **[!UICONTROL Add].**
-1. Click **[!UICONTROL Save]**
+1. Click **[!UICONTROL Save]**.
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 

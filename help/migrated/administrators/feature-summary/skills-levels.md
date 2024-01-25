@@ -178,7 +178,7 @@ This restores the skill and you can see the skill again in the **[!UICONTROL Act
 
 You can only delete a skill that has been previously retired.
 
-In the **Retired** tab, select the skill that you want to delete, and from the **[!UICONTROL Actions]** menu, click **[!UICONTROL Delete]**.
+In the **[!UICONTROL Retired]** tab, select the skill that you want to delete, and from the **[!UICONTROL Actions]** menu, click **[!UICONTROL Delete]**.
 
 You can delete a skill only when it is not associated with any learners, courses, or job aids.
 

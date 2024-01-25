@@ -21,7 +21,7 @@ As an Admin, you can create a certification program either hosted internally or 
 
 1. View certifications in various modes:
 
-   1. Click **[!UICONTROL draft]** tab to see all the certifications that are in draft state. You need to complete creating them.
+   1. Click **[!UICONTROL Draft]** tab to see all the certifications that are in draft state. You need to complete creating them.
    1. Click **[!UICONTROL Published]** to see all the certifications published  by you.
    1. Click **[!UICONTROL All]** to view the certifications in all states.
    1. Sort and view the list of certifications in ascending order, or descending order or based on the date you updated them.

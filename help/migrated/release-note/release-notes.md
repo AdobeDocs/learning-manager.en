@@ -1605,7 +1605,7 @@ When the learner comes back to the **Catalog** or **My Learning** pages using th
 
 In earlier versions of Learning Manager, Administrators do not have control over visibility options of a catalog filter, so that learners do not see the skills and tags. In this release of Learning Manager, and Admin can filter types, skills, and tags of a catalog.
 
-In the **Settings** page, for the category Show Filter Panels, when you click **Edit**, you can see the following options. The options determine the filter panels that are visible to learners, so that the learners can fine tune the search results.
+In the **Settings** page, for the category Show Filter Panels, when you click **[!UICONTROL Edit]**, you can see the following options. The options determine the filter panels that are visible to learners, so that the learners can fine tune the search results.
 
 For more information, see [***Show filter panels***](../administrators/feature-summary/settings.md#filter-panels).
 
@@ -2482,7 +2482,7 @@ For more information on this feature, refer to  [Shared catalogs Help](../admini
 
 **Export users**
 
-* Based on the request of some large enterprise users, a new option to download the list of all users in Learning Manager account is provided. In Administrator login, click **Users** on the left pane and click **Export user data** to download the list of users as an excel sheet. 
+* Based on the request of some large enterprise users, a new option to download the list of all users in Learning Manager account is provided. In Administrator login, click **[!UICONTROL Users]** on the left pane and click **[!UICONTROL Export user data]** to download the list of users as an excel sheet. 
 
 ### Issues fixed {#Issuesfixed-1}
 
@@ -3198,7 +3198,7 @@ Release date: February 09, 2016.
 
 ## Sign Out behavior updated {#signoutbehaviorupdated}
 
-When users click **Sign Out** in Learning Manager, they are now logged out of the Learning Manager application and also they are logged out of their Adobe IDs.
+When users click **[!UICONTROL Sign Out]** in Learning Manager, they are now logged out of the Learning Manager application and also they are logged out of their Adobe IDs.
 
 +++
 
@@ -3218,7 +3218,7 @@ Release date: January 20, 2016.
 
 **Direct link to learning objects**
 
-* You can access the learning objects (except Certification) using a direct URL. The **copy url** option is displayed on the tiles of learning objects. Users can click **copy url** and paste the link in a separate browser page to access the learning object directly. 
+* You can access the learning objects (except Certification) using a direct URL. The **[!UICONTROL Copy url]** option is displayed on the tiles of learning objects. Users can click **[!UICONTROL Copy url]** and paste the link in a separate browser page to access the learning object directly. 
 
 **Create courses using modules**
 

@@ -175,7 +175,7 @@ Click this board tab to view all the boards that you created. From the view boar
 
    *Create your own board*
 
-1. Provide the name and description of the dashboard and click **Save**.
+1. Provide the name and description of the dashboard and click **[!UICONTROL Save]**.
 
 You can view the recently created board in the My dashboards list.
 

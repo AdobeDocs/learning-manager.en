@@ -15,7 +15,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 +++I am unable to download Adobe Learning Manager desktop application
 
 1. Check your Internet connection and firewall settings.
-1. In Social Learning, click **New Post** to create a post. If you do not have a board, create a board first. 
+1. In Social Learning, click **[!UICONTROL New Post]** to create a post. If you do not have a board, create a board first. 
 1. Click any one of the following post button options that appear to create content like Screen Shot, Record Audio, Record Video, Learning Manager Gallery. You are redirected to Adobe Learning Manager desktop application page from where you can download Adobe Learning Manager desktop application for your desktop.
 1. You require a valid Adobe Learning Manager account that has Social Learning enabled by your administrator. Your administrator might have also disabled downloads through the web browser. Contact your Adobe Learning Manager administrator for more information on downloading the Adobe Learning Manager desktop app.
 
@@ -32,7 +32,7 @@ This document contains basic troubleshooting tips to solve some of the typical p
 +++I am unable to launch Adobe Learning Manager desktop application
 
 1. Make sure that Adobe Learning Manager desktop application is downloaded and installed.
-1. In Social Learning, click **New Post** (if you do not have a board, then create a board). Click any one of the following post button options that appear - Take a Screenshot, Audio Recording, Video Recording, Adobe Learning Manager Gallery. You are redirected to a page from where you can launch Adobe Learning Manager desktop application.
+1. In Social Learning, click **[!UICONTROL New Post]** (if you do not have a board, then create a board). Click any one of the following post button options that appear - Take a Screenshot, Audio Recording, Video Recording, Adobe Learning Manager Gallery. You are redirected to a page from where you can launch Adobe Learning Manager desktop application.
 1. In case the app does not launch, you can also launch it from the Start Menu on Windows, or from Launchpad on Mac OS X.
 
 +++
@@ -121,9 +121,9 @@ This document contains basic troubleshooting tips to solve some of the typical p
 
 ## How to set webcam / microphone permissions on Mac OS X Mojave? {#howtosetwebcammicrophonepermissionsonmacosxmojave}
 
-1. Click **System Preferences** icon in Dock.
-1. Click **Security & Privacy** > **Privacy.**
-1. Click **Webcam and Microphone options** and ensure that Adobe Learning Manager check box is selected. If you do not see Adobe Learning Manager listed, first install and launch Adobe Learning Manager desktop application.
+1. Click **[!UICONTROL System Preferences]** icon in Dock.
+1. Click **[!UICONTROL Security & Privacy]** > **[!UICONTROL Privacy].**
+1. Click **[!UICONTROL Webcam and Microphone options]** and ensure that Adobe Learning Manager check box is selected. If you do not see Adobe Learning Manager listed, first install and launch Adobe Learning Manager desktop application.
 
 ## How to clean up Adobe Learning Manager for desktop updates cache? {#howtocleanupadobecaptivateprimefordesktopupdatescache}
 

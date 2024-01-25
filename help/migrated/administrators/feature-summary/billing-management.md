@@ -225,8 +225,7 @@ In the **[!UICONTROL Order History]** tab, for an active account, click **[!UICO
 
 To update the billing information, follow the steps below:
 
-1. Log in as **[!UICONTROL Admin]** and click **[!UICONTROL Billing]**.
-
+1. Log in as **Admin** and click **[!UICONTROL Billing]**.
 1. In the list of orders, click **[!UICONTROL Edit]**.
 1. In the Subscription details page, click **[!UICONTROL Edit Subscription]**.
 

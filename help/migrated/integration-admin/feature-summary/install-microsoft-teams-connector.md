@@ -59,8 +59,8 @@ You can access Microsoft Teams connector if you have Office 365 E3 or Office 365
 1. Visit the  [Microsoft Azure&reg; portal](https://portal.azure.com/).
 1. Sign in with the Microsoft E5 account that you created in the previous section.
 1. Search for **Azure Active Directory**. 
-1. Click **App Registrations**. 
-1. Click **New Registration**, enter the following details, and register the application:
+1. Click **[!UICONTROL App Registrations]**. 
+1. Click **[!UICONTROL New Registration]**, enter the following details, and register the application:
 
    1. **Name** - Any name of your choice.
    1. **Supported account types** - Accounts in any organizational directory (Any Azure Active Directory - Multitenant). 
@@ -71,8 +71,8 @@ You can access Microsoft Teams connector if you have Office 365 E3 or Office 365
    1. **Application (client) ID**
    1. **Directory (tenant) ID**
 
-1. Search for client credentials and click **Add a certificate or secret**.
-1. Click **New Client secret** and add the following details:  
+1. Search for client credentials and click **[!UICONTROL Add a certificate or secret]**.
+1. Click **[!UICONTROL New Client secret]** and add the following details:  
 
    1. **Description** - Enter any name.
    1. **Expires** - Set to any value (recommended value is 24 months. Ensure that new client credentials are generated once the previous one expires).
@@ -84,11 +84,11 @@ Note the client secret, which will be further used during the integration.
 1. Visit the  [Microsoft Azure portal](https://portal.azure.com/). 
 1. Sign in with the Microsoft E5 that you created earlier. 
 1. Search for **Azure Active Directory**.
-1. Click **App Registrations**.
+1. Click **[!UICONTROL App Registrations]**.
 1. Click the app that you created in the previous section.
-1. Click **API permissions**.
-1. Click **Add a permission.**
-1. Select **Microsoft Graph > Application permissions** and add the following permissions:
+1. Click **[!UICONTROL API permissions]**.
+1. Click **[!UICONTROL Add a permission]**.
+1. Select **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Application permissions]** and add the following permissions:
 
    1. Chat.Read.All
    1. Directory.Read.All
@@ -97,8 +97,8 @@ Note the client secret, which will be further used during the integration.
    1. OnlineMeetings.ReadWrite.All  
    1. User.Read.All
 
-1. Click **Grant admin access for Adobe**. 
-1. Click **App roles > Create app role**. 
+1. Click **[!UICONTROL Grant admin access for Adobe]**. 
+1. Click **[!UICONTROL App roles]** > **[!UICONTROL Create app role]**. 
 1. Enter the following values: 
 
    1. **Display name** - Name of the API/Permission name (For example, Calendars.ReadWrite).
@@ -127,7 +127,7 @@ This enables the connector to access Microsoft Teams online meetings.
 
 1. Sign in to Learning Manager as an Integration Admin.  
 
-1. In the Connectors page, select Microsoft Teams connector and click **Connect**.  
+1. In the Connectors page, select Microsoft Teams connector and click **[!UICONTROL Connect]**.  
 
 1. Enter these values:
 
@@ -144,9 +144,9 @@ This enables the connector to access Microsoft Teams online meetings.
 ## Allocate licenses to users <Developer/Optional>
 
 1. Visit [https://admin.microsoft.com/#/homepage](https://admin.microsoft.com/#/homepage).  
-1. Click **Users > Active Users**.  
-1. Click **More actions for Users** for the users to whom you want to provide access to Microsoft Teams.   
-1. Click **Manage Product Licenses**.   
+1. Click **[!UICONTROL Users]** > **[!UICONTROL Active Users]**.  
+1. Click **[!UICONTROL More actions for Users]** for the users to whom you want to provide access to Microsoft Teams.   
+1. Click **[!UICONTROL Manage Product Licenses]**.   
 1. Enable License for Office 365 E5 without audio conferencing.
 
 ## Record a session

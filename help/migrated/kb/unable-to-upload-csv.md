@@ -70,7 +70,7 @@ This issue occurs if there is a user who is already present in the system with t
 
 In this scenario, there are two reasons for this error:
 
-1. The user that you are trying to add is a Manager of an External profile. To resolve this, open the external profile the user is a part of, select the user, click **Actions** > **Assign Role** > **Manager**, and change the Manager of the profile.
+1. The user that you are trying to add is a Manager of an External profile. To resolve this, open the external profile the user is a part of, select the user, click **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]** > **[!UICONTROL Manager]**, and change the Manager of the profile.
 1. The user that you are trying to add has been purged. In this scenario, you will not be able to add the user with the same email address until the purge process is completed. As a workaround**, a**dd the user with a secondary email address to provide access to the platform. Once the purge process is complete, edit the user and change the email address to the correct email address.
 
 ### Scenario 2

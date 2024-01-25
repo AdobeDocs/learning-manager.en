@@ -152,7 +152,7 @@ You can set the limit for number of enrollments per course on the shared catalog
 
 You can set the validity of the shared catalog by setting up an expiry date in **[!UICONTROL Expiry]** field. After the expiry date of shared catalog, enrollments are not allowed for courses. Existing learners can still have access to the content. Learning objects are retired but the badges and skills are active. At this state, the shared catalog receiver cannot un-retire the retired learning objects. 
 
-Click **Save** after adding all the required information. Click **[!UICONTROL Actions]** drop-down at the upper-right corner of the page and click **[!UICONTROL Share]** to share the catalog with external accounts. 
+Click **[!UICONTROL Save]** after adding all the required information. Click **[!UICONTROL Actions]** drop-down at the upper-right corner of the page and click **[!UICONTROL Share]** to share the catalog with external accounts. 
 
 The catalogs owned by the sharing account holder are only allowed to be shared with external accounts. You cannot share the catalogs that are already shared by other accounts to you. 
 

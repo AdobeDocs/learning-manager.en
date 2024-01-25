@@ -26,7 +26,7 @@ Once you select the app, you can switch over to Adobe Learning Manager app as sh
 
 ## Login and usage instructions {#loginandusageinstructions}
 
-Click **Connect to Learning Manager** in the Adobe Learning Manager as shown in the above snapshot, and log in with your Learning Manager account credentials. 
+Click **[!UICONTROL Connect to Learning Manager]** in the Adobe Learning Manager as shown in the above snapshot, and log in with your Learning Manager account credentials. 
 
 You can connect to Learning Manager app and use it from within the Salesforce. 
 

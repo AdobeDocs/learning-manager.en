@@ -45,7 +45,7 @@ Administrators of an organization can configure the settings of Learning Manager
 
 If the author of a virtual classroom course has not provided the session information, then Administrator can include the session details.
 
-In Administrator login, click the VC course name. Click **[!UICONTROL Instances]** on the left pane and **[!UICONTROL Session Details]**.  Click the Edit icon at the right corner of the Session Details page to add the session information.
+In Administrator login, click the VC course name. Click **[!UICONTROL Instances]** on the left pane and click **[!UICONTROL Session Details]**.  Click the Edit icon at the right corner of the Session Details page to add the session information.
 
 ![](assets/session-creation-admin.png)
 

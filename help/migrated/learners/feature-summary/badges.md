@@ -24,13 +24,13 @@ Recently achieved badges are displayed at the left most part of the list followe
 
 Click any badge to get a list of all the badges acquired by you. You can also view all the available badges aligned to respective courses. In yet-to-achieve badges, click course name to view the course that is aligned to the badge. A sample snapshot is shown below for your reference.
 
-Click **Download All Badges** link to download all of your acquired badges in zip format. You can also download an individual badge by clicking the cube icon adjacent to each badge name.
+Click **[!UICONTROL Download All Badges]** link to download all of your acquired badges in zip format. You can also download an individual badge by clicking the cube icon adjacent to each badge name.
 
 **Download badge as PDF**
 
 You can also download a set of badges or an individual badge in PDF format.
 
-* Click **Download All Badge Records** to download the badges acquired by you as PDFs. 
+* Click **[!UICONTROL Download All Badge Records]** to download the badges acquired by you as PDFs. 
 * To download individual badges, select the badge and click the pdf icon adjacent to the badge name. 
 
 ![](assets/badges.png)

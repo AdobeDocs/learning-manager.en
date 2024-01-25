@@ -15,7 +15,7 @@ A Manager can enroll the learners under him in courses, learning programs and ce
 
 ## Viewing courses {#viewingcourses}
 
-As a manager, you can view a list of all available courses. Click **Courses** on the left pane to view the list of courses with search and filter options. You can also view the course effectiveness percentage for each course on the course thumbnails. Note that you can only enroll team members to courses which are visible to you under the learner application.
+As a manager, you can view a list of all available courses. Click **[!UICONTROL Courses]** on the left pane to view the list of courses with search and filter options. You can also view the course effectiveness percentage for each course on the course thumbnails. Note that you can only enroll team members to courses which are visible to you under the learner application.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Choose the instance type from the drop-down list to view the scores based on eac
 As a manager you can manage learners list for your team members.
 
 1. Click course name on the course thumbnail.
-1. From the left pane, click **Learners**.
+1. From the left pane, click **[!UICONTROL Learners]**.
 
 ![](assets/courses-learners.png)
 
@@ -66,7 +66,7 @@ You can view the L1 feedback provided by learners for a course and the L3 feedba
 
 Manager can preview courses by clicking the **Preview as learner** option while viewing the course modules.
 
-1. Click **Courses** on the left pane after you log in.
+1. Click **[!UICONTROL Courses]** on the left pane after you log in.
 1. Click any course tile from the list of courses on the page.
 1. Click Preview as learner from the left pane and click the module name on the page to preview the course module in the player.
 

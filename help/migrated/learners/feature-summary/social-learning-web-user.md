@@ -125,7 +125,7 @@ Only if the administrator enables Social Learning, the feature is visible to a l
 
 Content is created as a post inside a board. To create a post, follow the below steps:
 
-1. Click **New Post.**
+1. Click **[!UICONTROL New Post].**
 
    ![](assets/new-post-01.png)
    *Select New Post*
@@ -136,7 +136,7 @@ Content is created as a post inside a board. To create a post, follow the below 
 
    <!--![](assets/types-of-post-03.png)-->
 
-1. Search for a board or skill that relates to the post. If the board does not exist, click **Create a New Board**. 
+1. Search for a board or skill that relates to the post. If the board does not exist, click **[!UICONTROL Create a New Board]**. 
 
    ![](assets/create-a-new-board-04.png)
 
@@ -162,7 +162,7 @@ Content is created as a post inside a board. To create a post, follow the below 
 
    In the User Groups field, you can choose internal, external, or custom groups. Your private board will then be visible to all the specified user groups, irrespective of scope settings.
 
-1. To share content, click **Post**. On clicking Post the user gets a notification.
+1. To share content, click **[!UICONTROL Post]**. On clicking Post the user gets a notification.
 
    The content is posted based on the curation setting set by the administrator for Social Learning content which can be curated by  [Board Moderators/Subject Matter Experts](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
 
@@ -380,7 +380,7 @@ Social story allows users to add or create stories with posts created by them or
 
 To add a post to a story, follow the below steps:
 
-1. Click the collapsed menu icon from the upper right corner of a post and click **Add to my Story**.
+1. Click the collapsed menu icon from the upper right corner of a post and click **[!UICONTROL Add to my Story]**.
 
    ![](assets/add-to-my-story-05.png)
 
@@ -499,7 +499,7 @@ In both, My Boards and All boards, users can sort the boards by **Relevance** or
 
 While creating a post, if there are no relevant boards to the post, click [Create a new board](social-learning-web-user.md#Creatingcontentasapost).  To view, edit, delete, report, copy URL and add a board to your favorite board list, follow the below steps:
 
-1. Click the board name or click **Go to board**.
+1. Click the board name or click **[!UICONTROL Go to board]**.
 1. From the boards page, click the collapsed menu icon and select an option from the drop-down list.
 
    <!--![](assets/board-edit-options-10.png)-->
@@ -522,7 +522,7 @@ Share to Social is a bookmarklet that allows users to share their online learnin
 
 ## My Skills {#myskills}
 
-Users can view the skills and number of posts or boards created using a skill in the My Boards page. To view all skills used by the user while creating a board, click **See all Skills**.
+Users can view the skills and number of posts or boards created using a skill in the My Boards page. To view all skills used by the user while creating a board, click **[!UICONTROL See all Skills]**.
 
 ![](assets/my-skills-12.png)
 
@@ -551,7 +551,7 @@ Social leaderboard enhances gamification. Activity points are awarded to users o
 
 The total number of points and new posts for all users in the same scope is visible in the social leaderboard list. The learner with the maximum number of points appears on top of the social leaderboard list followed by the other learners accordingly.
 
-Click **Go to Leaderboard** in the **My Boards** page to view all learners and the number of points they have been awarded.
+Click **[!UICONTROL Go to Leaderboard]** in the **My Boards** page to view all learners and the number of points they have been awarded.
 
 ![](assets/social-leaderboard-15.png)
 

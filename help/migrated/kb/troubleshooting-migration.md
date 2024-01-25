@@ -50,11 +50,11 @@ It may take 10-15 minutes to stop executing all the jobs once it is in 'In Progr
 
 ### Unable to create a Sprint as the button is disabled {#unabletocreateasprintasthebuttonisdisabled}
 
-Ensure that the current Sprint is marked as complete, before creating a Sprint. Click **Mark Sprint Complete** at the top of the page to complete a Sprint migration. 
+Ensure that the current Sprint is marked as complete, before creating a Sprint. Click **[!UICONTROL Mark Sprint Complete]** at the top of the page to complete a Sprint migration. 
 
 ### Unable to mark a Migration Project as complete as the button is disabled {#unabletomarkamigrationprojectascompleteasthebuttonisdisabled}
 
-Ensure that the current Sprint is marked as complete, before marking the migration project completion. Click **Mark Sprint Complete** at the top of the page to complete a Sprint migration. 
+Ensure that the current Sprint is marked as complete, before marking the migration project completion. Click **[!UICONTROL Mark Sprint Complete]** at the top of the page to complete a Sprint migration. 
 
 ## CSV issues {#csvissues}
 
@@ -62,7 +62,7 @@ Ensure that the current Sprint is marked as complete, before marking the migrati
 
 Ensure that the content is available in Content folder (Box account under the specified migration project, sprint path). Also, ensure that you have selected the option **Yes** for **Will you be migrating content for this Sprint?** question in the Sprint creating page. 
 
-If you forget to select **Yes**, and proceed further in this sprint, then you have to wait till you complete this sprint. Create another sprint and ensure to click **Yes**.
+If you forget to select **Yes**, and proceed further in this sprint, then you have to wait till you complete this sprint. Create another sprint and ensure to click **[!UICONTROL Yes]**.
 
 ### enrollment.csv or user_course_grade.csv records fail with an error message 'Not a valid Learning Manager Id' {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 

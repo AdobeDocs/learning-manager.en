@@ -30,14 +30,14 @@ The issue occurs due to the following:
 1. Launch the browser.
 1. Log in to Adobe Learning Manager.
 1. On the address bar, click the zoom icon.  
-1. Click **Reset**.
+1. Click **[!UICONTROL Reset]**.
 1. Change the expiry date of the enrollment profile.
 
 ### Display Settings
 
-1. Click **Start** > **Settings** > **System**.  
-1. Click **Display**.
-1. Under the **Scale and layout** section, use the drop-down list. Change the settings to 100%.
+1. Click **[!UICONTROL Start]** > **[!UICONTROL Settings]** > **[!UICONTROL System]**.  
+1. Click **[!UICONTROL Display]**.
+1. Under the **[!UICONTROL Scale and layout]** section, use the drop-down list. Change the settings to 100%.
 
    ![](assets/scale-layout.png)
 

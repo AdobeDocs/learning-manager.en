@@ -806,13 +806,13 @@ As a developer you have to create a trial account on Learning Manager, so that y
 
 ## Create client id and secret {#createclientidandsecret}
 
-1. In **Integration Admin** login, click **Applications** on the left pane. 
+1. In **Integration Admin** login, click **[!UICONTROL Applications]** on the left pane. 
 
    ![](assets/application-development-menu.png)
 
    *Select Applications on Integration Admin*
 
-1. Click **Register** at the upper-right corner of the page to register your application details. Registration page appears. 
+1. Click **[!UICONTROL Register]** at the upper-right corner of the page to register your application details. Registration page appears. 
 
    ![](assets/register-application.png)
 
@@ -836,7 +836,7 @@ As a developer you have to create a trial account on Learning Manager, so that y
 
    If you choose **Admin role read and write access** as scope while registering the application and choose **Admin role read access** while authoring the APIs, you can still have write access for the application as the app registration scope supersedes the authorization workflow. 
 
-1. Click **Register** at the upper-right corner after filling up the details in the registration page.
+1. Click **[!UICONTROL Register]** at the upper-right corner after filling up the details in the registration page.
 
 ## Application development and testing {#applicationdevelopmentandtesting}
 

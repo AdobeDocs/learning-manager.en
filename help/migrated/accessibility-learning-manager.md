@@ -72,7 +72,7 @@ In addition, Learning Manager supports the following keyboard shortcuts:
   <tr> 
    <td><p><b>Feature</b></p></td> 
    <td><p><b>Windows</b></p></td> 
-   <td><p><b>macOS<</b></p></td> 
+   <td><p><b>macOS</b></p></td> 
   </tr> 
   <tr> 
    <td><p>Skip navigation</p></td> 

@@ -141,7 +141,7 @@ With the next major release, Adobe Learning Manager mobile app will support only
 
 LinkedIn content does not load as expected on the Immersive app on the Safari browser. As a workaround, do the following:
 
-1. On the device, select **Settings** > **Safari**.
+1. On the device, select **[!UICONTROL Settings]** > **[!UICONTROL Safari]**.
 1. Disable **Prevent Cross-Site Tracking**.
 1. Disable **Block all cookies**.
 1. Log in to the Immersive app.

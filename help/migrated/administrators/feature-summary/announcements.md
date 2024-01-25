@@ -39,7 +39,7 @@ There are four types of announcements:
    * Make this announcement a sticky announcement by selecting the Enable Sticky Announcement checkbox.
    * Select the delivery time for the announcement.
 
-1. Choose **[!UICONTROL On a date]** if you want to schedule announcement for a later date and click the text area adjacent to it. A calendar pop-up appears, from which you can choose the start date. Choose the end date by following the same steps.
+1. Select **[!UICONTROL On a date]** if you want to schedule announcement for a later date and click the text area adjacent to it. A calendar pop-up appears, from which you can choose the start date. Choose the end date by following the same steps.
 1. Click **[!UICONTROL Save]**.
 1. In Drafts tab, click settings icon  adjacent to an announcement and click send.
 
