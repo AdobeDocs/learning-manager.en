@@ -93,7 +93,7 @@ The Content Hub page is visible to Administrators in their learner role all the 
 
 Learning Manager also enables Administrators to download a shortlisted playlist and share it with Adobe Sales team. Before downloading the shortlist, visit the Content Hub and shortlist a playlist by adding a playlist to your library. 
 
-Then as Administrator, click **Content Marketplace** > **Enterprise Training** > **Purchase section** > **Curated Playlists**. Click the **Purchase** button to download the Purchase request form which contains the details of your shortlisted playlist.
+Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTROL Enterprise Training]** > **[!UICONTROL Purchase section]** > **[!UICONTROL Curated Playlists]**. Click the **[!UICONTROL Purchase]** button to download the Purchase request form which contains the details of your shortlisted playlist.
 
 ![](assets/download-purchase-request.png)
 

@@ -18,7 +18,7 @@ You can use the following two ways to add a classroom location.
 
 You can add a classroom location by using the UI:
 
-1. In the Admin app (the UI for administrator roles), click **Settings** > **Classroom Locations**.  
+1. In the Admin app (the UI for administrator roles), click **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]**.  
 
 1. Click the **Add More** button.  
 
@@ -129,7 +129,7 @@ On the **Course Instance** page, every session listed under a course instance in
 
 When you click the **Cancel Session** link, a warning message appears.
 
-On the warning message dialog box, if you click **Proceed**, the system cancels the session.
+On the warning message dialog box, if you click **[!UICONTROL Proceed]**, the system cancels the session.
 
 The system also clears the following details after cancelling a session:
 

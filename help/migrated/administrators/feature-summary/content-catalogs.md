@@ -17,7 +17,7 @@ Content Catalog is not supported in an Azure instance of Learning Manager.
 
 Learning Manager introduces Content Catalog, a set of ready to use content base that you can purchase. You can buy off the shelf courses such as courses in business skills, workplace compliance, Adobe creative cloud, and technology in our curated content marketplace.
 
-In the left pane, click Content Marketplace, and then click **Creative Cloud Training**.
+In the left pane, click Content Marketplace, and then click **[!UICONTROL Creative Cloud Training]**.
 
 <!--![](assets/content-catalog.png)-->
 
