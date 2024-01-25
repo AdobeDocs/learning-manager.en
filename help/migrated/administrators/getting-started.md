@@ -83,7 +83,7 @@ Learning Manager application generates default user groups based on similar attr
 
 ### Assign roles {#assignroles}
 
-After the users are added to Learning Manager, Administrator can start assigning Author, Administrator or Integration Admin roles to the users as per the organization requirements. To assign roles to users, in the Administrator login, you can click **Users**  on the left pane, select the checkbox against each user name, and click **Actions **drop-down to choose the role you want to assign. Manager roles are assigned to users by Adobe Learning Manager based on the roles/privileges mentioned by your organization in the CSV file. You can also change the roles of users as Managers using the Edit users workflow. Refer to [Add users Help](feature-summary/add-users-user-groups.md) for more information.
+After the users are added to Learning Manager, Administrator can start assigning Author, Administrator or Integration Admin roles to the users as per the organization requirements. To assign roles to users, in the Administrator login, you can click **[!UICONTROL Users]**  on the left pane, select the checkbox against each user name, and click **[!UICONTROL Actions]** drop-down to choose the role you want to assign. Manager roles are assigned to users by Adobe Learning Manager based on the roles/privileges mentioned by your organization in the CSV file. You can also change the roles of users as Managers using the Edit users workflow. Refer to [Add users Help](feature-summary/add-users-user-groups.md) for more information.
 
 ### Notification templates {#notificationtemplates}
 
@@ -95,7 +95,7 @@ By default, the notifications are enabled in Learning Manager application. You c
 
 ### Badges {#badges}
 
-Badges are a measure of achievement that your employee can earn upon completing a course. Professionals across the globe use these badges as a representation of particular skill or a learning achievement. You can create a collection of badges so that you can assign them to learners upon completion of learning content. To start creating badges, you can click **Badges** feature on the left pane. Refer to  [Badges Help](feature-summary/badges.md) for more information. 
+Badges are a measure of achievement that your employee can earn upon completing a course. Professionals across the globe use these badges as a representation of particular skill or a learning achievement. You can create a collection of badges so that you can assign them to learners upon completion of learning content. To start creating badges, you can click **[!UICONTROL Badges]** feature on the left pane. Refer to  [Badges Help](feature-summary/badges.md) for more information. 
 
 ### Feedback {#feedback}
 
