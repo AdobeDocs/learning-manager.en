@@ -288,13 +288,13 @@ To move a public folder content to any private folder,
 
    *View all uploaded content*
 
-1. Choose the content that you'd like to move it to a folder. Then click **Actions > Organize Content > Move Content to Folder**. 
+1. Choose the content that you'd like to move it to a folder. Then click **[!UICONTROL Actions]** > **[!UICONTROL Organize Content]** > **[!UICONTROL Move Content to Folder]**. 
 
    ![](assets/move-content-to-folder.png)
 
    *Move a selected content to folder*
 
-1. Choose the folder where you want to move the content to. Click **Move**.
+1. Choose the folder where you want to move the content to. Click **[!UICONTROL Move]**.
 
 ## Copy content to folder {#copycontenttofolder}
 

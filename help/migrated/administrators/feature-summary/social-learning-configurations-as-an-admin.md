@@ -14,8 +14,8 @@ As an administrator, you can enable, disable, and monitor activities performed i
 
 To enable and configure the Social Learning feature, do the following:
 
-1. Click **Social Learning** from the left navigation panel. You are redirected to the activity page. 
-1. Enable **Social Learning** feature using the **Enable** button in the Activity page if you are turning it on for the first time. Otherwise it can be enabled from the **Settings** page. 
+1. Click **[!UICONTROL Social Learning]** from the left navigation panel. You are redirected to the activity page. 
+1. Enable **[!UICONTROL Social Learning]** feature using the **Enable** button in the Activity page if you are turning it on for the first time. Otherwise it can be enabled from the **Settings** page. 
 
    A pop-up dialog box appears like the screenshot below.
 
@@ -56,7 +56,7 @@ In auto-curation, the following types of content are allowed:
 
 An Administrator can enable the option to curate content automatically from within the Administrator app. 
 
-1. On the left pane of the Admin app, click **Social Learning**.
+1. On the left pane of the Admin app, click **[!UICONTROL Social Learning]**.
 1. On the page, click the tab **Settings**.
 1. Enable the option **Auto-assisted Manual Curation**.
 
@@ -243,8 +243,8 @@ For any changes to take effect, wait for 60 minutes.
 
 The Administrator can customize the title and the subtitle that appear on the header image on the Social Learning homepage. Whatever the Administrator decides to enter as title and subtitle, the same features on the Learner's social learning homepage.
 
-1. On the Admin app, click **Social Learning > Settings**.
-1. Click **Customize**.  
+1. On the Admin app, click **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**.
+1. Click **[!UICONTROL Customize]**.  
 
 1. Change the banner image. The dimensions of the image must be at least **1600 px X 240 px**.  
 
@@ -406,13 +406,13 @@ SME status can only be gained by earning SME points through activities in Social
 
 To add SMEs to a skill, follow the given steps:
 
-1. Click **Add SMEs or Modify SMEs**.
+1. Click **[!UICONTROL Add SMEs or Modify SMEs]**.
 
    ![](assets/add-smes-06.png)
 
    *Add or modify SME*
 
-1. Click **Advanced Options** from the pop-up dialog box.
+1. Click **[!UICONTROL Advanced Options]** from the pop-up dialog box.
 
    ![](assets/advanced-optionssmes.png)
 
@@ -432,7 +432,7 @@ To add SMEs to a skill, follow the given steps:
 
    If the **Enable Minimum SME Points** check box is not selected then the top three users with highest points are considered as the SMEs for that particular skill.
 
-1. Click **Save** button to display the changes that have been made.
+1. Click **[!UICONTROL Save]** button to display the changes that have been made.
 
 ## SME point system {#smepointsystem}
 

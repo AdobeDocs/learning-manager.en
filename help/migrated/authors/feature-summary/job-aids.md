@@ -26,7 +26,7 @@ Authors can create Job Aids for learners. Use Job Aids to provide learners with 
    Videos, pdf, pptx and docx are the supported file formats for upload. Project zip files or any interactive content is not supported for upload.
 
 1. Enter the duration, in minutes, for the job aid.
-1. Click **Save**.  
+1. Click **[!UICONTROL Save]**.  
 
    The Job Aid is published.
 
@@ -80,7 +80,7 @@ All the contents, resources and assets must be referenced within the HTML packag
 
 +++How to create a job aid?
 
-As an author, on the Job Aid page, click **Create**. Add the required details and save the Job Aid.
+As an author, on the Job Aid page, click **[!UICONTROL Create]**. Add the required details and save the Job Aid.
 
 After you create the Job Aid, you can add the Job Aid to a course, while creating the course.
 

@@ -26,7 +26,7 @@ As an Administrator, you can perform the following:
 
 To add a skill, follow the steps below:
 
-1. On the left pane, click **Skills**. Give the skill a name and description.
+1. On the left pane, click **[!UICONTROL Skills]**. Give the skill a name and description.
 
    ![](assets/add-skill-name-anddescription.png)
    
@@ -40,7 +40,7 @@ To add a skill, follow the steps below:
    
    *Add a domain*
 
-1. Assign the levels to the skill. To add a level, click **Add**.
+1. Assign the levels to the skill. To add a level, click **[!UICONTROL Add]**.
 
    You can create and assign Skills to employees. There are various levels to skills and every level requires a certain number of credits to be earned.
 
@@ -57,7 +57,7 @@ To add a skill, follow the steps below:
    Decimal support is only available in English.
 
 1. Choose a badge for the level. From the **Badge** drop-down list, select an image that must be used as a badge for that level.
-1. To save the changes, click **Save**.
+1. To save the changes, click **[!UICONTROL Save]**.
 
    Once the skill has been created, you can locate the newly created skill on the **Skill** page. You can also see the domains and the brief description of the skill. You can also view the levels and the credits that have been assigned to each level.
 
@@ -79,7 +79,7 @@ After you create your skills and save them, they get listed in the skills page. 
 
    For this example, add learners for Level 1. Click the hyperlink adjacent to Level 1.
 
-1. On the Learners dialog, click **Add Learners**.
+1. On the Learners dialog, click **[!UICONTROL Add Learners]**.
 
    ![](assets/add-learners.png)
    
@@ -91,7 +91,7 @@ After you create your skills and save them, they get listed in the skills page. 
    
    *Search and add learners*
 
-1. To save the changes, click **Save**.
+1. To save the changes, click **[!UICONTROL Save]**.
 
    After you assign the learners, all learners in a user group, if any, are auto-enrolled to the skill, by default. You can make the learners opt out of auto-enrollment by clicking the **Auto Enroll** button.
 
@@ -101,7 +101,7 @@ After you create your skills and save them, they get listed in the skills page. 
 
    Individual learners can auto-enroll themselves or can be enrolled by the Administrator in a Learning Program.
 
-1. After you click **Close**, you can see the total number of learners who have been assigned to the skill that you had created.
+1. After you click **[!UICONTROL Close]**, you can see the total number of learners who have been assigned to the skill that you had created.
 
    In this example, there are two individual learners and three learners in a user group.
 
@@ -154,13 +154,13 @@ On the **Skill** page, click the skill that you want to modify. In the **Edit Sk
 * Adding a skill level or modifying an existing level.
 * Adding or deleting a badge for a skill.
 
-After you have made the changes, click **Save**.
+After you have made the changes, click **[!UICONTROL Save]**.
 
 ## Retire a skill {#retireaskill}
 
 To retire a skill, on the **Skill** page, select the skill that you want to retire.
 
-From the **Actions** menu, on the upper-right corner of the page, click **Retire**.
+From the **Actions** menu, on the upper-right corner of the page, click **[!UICONTROL Retire]**.
 
 When you retire a skill, the skill no longer appears on the course.
 
@@ -170,7 +170,7 @@ When a skill is retired, it cannot be associated with any more courses or job ai
 
 Once you have retired a skill, the retired skill appears in the **Retired** tab. The tab displays the list of all skills that are retired.
 
-To republish a retired skill, choose the skill, and from the **Actions** menu, click **Republish**.
+To republish a retired skill, choose the skill, and from the **[!UICONTROL Actions]** menu, click **[!UICONTROL Republish]**.
 
 This restores the skill and you can see the skill again in the **Active** tab.
 
@@ -178,7 +178,7 @@ This restores the skill and you can see the skill again in the **Active** tab.
 
 You can only delete a skill that has been previously retired.
 
-In the **Retired** tab, select the skill that you want to delete, and from the **Actions** menu, click **Delete**.
+In the **Retired** tab, select the skill that you want to delete, and from the **Actions** menu, click **[!UICONTROL Delete]**.
 
 You can delete a skill only when it is not associated with any learners, courses, or job aids.
 

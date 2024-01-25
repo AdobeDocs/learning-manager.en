@@ -14,13 +14,13 @@ Learning Manager enables you to change the appearance of the application to matc
 
 ## Branding {#branding}
 
-Click **Branding** on the left pane to update your organization name, change the subdomain, log styles and themes. Click **Edit** adjacent to each of these topics to modify the content. 
+Click **[!UICONTROL Branding]** on the left pane to update your organization name, change the subdomain, log styles and themes. Click **[!UICONTROL Edit]** adjacent to each of these topics to modify the content. 
 
 ## Logo styling {#logostyling}
 
-Click **Edit** to set the appearance of your logo and company name on Learning Manager application. 
+Click **[!UICONTROL Edit]** to set the appearance of your logo and company name on Learning Manager application. 
 
-Click **Upload new logo** and choose the logo from your computer to upload. You can preview the appearance of the logo and your organization name below. Choose the header style of your choice and click **Save**. 
+Click **[!UICONTROL Upload new logo]** and choose the logo from your computer to upload. You can preview the appearance of the logo and your organization name below. Choose the header style of your choice and click **[!UICONTROL Save]**. 
 
 ## Themes {#themes}
 
@@ -53,17 +53,17 @@ In the **Primary color** picker, you can choose the color that is used for the I
 
 To customize, choose the theme type on the left pane and click the squares adjacent to brand color and sidebar icon colors. Click the side bar in sidebar brightness, drag forward or backward to adjust the brightness. Observe the preview in the above images as you modify these options.
 
-Click **Reset Theme** to restore the orignal settings of the theme. Click **Save** after completing the changes. 
+Click **[!UICONTROL Reset Theme]** to restore the orignal settings of the theme. Click **[!UICONTROL Save]** after completing the changes. 
 
 **Live Preview**
 
-Click **Live Preview** at the bottom left corner of the Themes section. A pop-up appears as shown below: 
+Click **[!UICONTROL Live Preview]** at the bottom left corner of the Themes section. A pop-up appears as shown below: 
 
 ![](assets/live-theme-preview.png)
 
 *The Live Preview pop-up*
 
-Choose the theme of your choice from the drop-down list, adjust the settings and click **Preview** to view the changes Live in your application. Now, you can go through all the features of the application and witness the changes. You can also change your roles while going through live preview. Once you are satisfied with the changes, you can come back to the Live theme preview pop-up feature and click **Apply Theme**. 
+Choose the theme of your choice from the drop-down list, adjust the settings and click **[!UICONTROL Preview]** to view the changes Live in your application. Now, you can go through all the features of the application and witness the changes. You can also change your roles while going through live preview. Once you are satisfied with the changes, you can come back to the Live theme preview pop-up feature and click **[!UICONTROL Apply Theme]**. 
 
 While you are previewing the changes Live, the Live theme preview pop-up still appears at the bottom of the screen. You can choose to minimize the pop-up. 
 
