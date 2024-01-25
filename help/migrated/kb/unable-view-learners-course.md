@@ -29,10 +29,10 @@ If a learner is enrolled through a higher Learning Object (Learning Program or C
 You can check this information on the Learning Transcript report. To generate a Learner Transcript, follow the steps below:
 
 1. Log in as an Administrator.
-1. Click **Reports** > **Custom Reports** > **Excel Reports** > **Learner Transcript**.  
+1. Click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Learner Transcript]**.  
 
-1. Enter the name of the **Learner** and specify the **Date** range.
-1. Expand the section **Advanced Options** and select the option **Enable module level information**.  
-1. Click **Generate**.
+1. Enter the name of the **[!UICONTROL Learner]** and specify the **[!UICONTROL Date]** range.
+1. Expand the section **[!UICONTROL Advanced Options]** and select the option **[!UICONTROL Enable module level information]**.  
+1. Click **[!UICONTROL Generate]**.
 
    On the Learner Transcript, you can view which higher Learning Object the learner is enrolled through.

@@ -76,7 +76,7 @@ To record an audio, do the following:
 1. Click the record button to start recording.
 1. Once users are done recording the audio, click the pause button to stop recording.
 1. To preview the recording, click the play button.
-1. If users want to record an additional audio to the same file, click **Resume**. Once the desired recording is met, click **Next** to save the file to a desired location. The recording is saved in the Adobe Learning Manager app for desktop gallery where users can view their recordings and screenshots.
+1. If users want to record an additional audio to the same file, click **[!UICONTROL Resume]**. Once the desired recording is met, click **[!UICONTROL Next]** to save the file to a desired location. The recording is saved in the Adobe Learning Manager app for desktop gallery where users can view their recordings and screenshots.
 1. To edit the recording, see [Editing a recording](adobe-learning-manager-app-for-desktop.md#Editing) and to publish see [Publishing a recording](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Creating a screenshot {#creatingascreenshot}
@@ -117,9 +117,9 @@ Annotations can be used on video recordings and screenshots to highlight specifi
 
 To trim or remove parts of a video or audio that is not required use the trim tool.
 
-To trim, click **Start Trim** button or click the plus icon on the timeline to start trimming. Then click the pause button on the player to stop the trim. Click the **Confirm** button to complete the trim.
+To trim, click **[!UICONTROL Start Trim]** button or click the plus icon on the timeline to start trimming. Then click the pause button on the player to stop the trim. Click the **[!UICONTROL Confirm]** button to complete the trim.
 
-Recordings can be trimmed by entering the time in the **Start time** and **End time** input fields after enabling **Change Timing**.
+Recordings can be trimmed by entering the time in the **[!UICONTROL Start time]** and **[!UICONTROL End time]** input fields after enabling **[!UICONTROL Change Timing]**.
 
 ![](assets/start-trim-05.png) 
 *Start trim*
@@ -154,7 +154,7 @@ To add a brand or theme to a video, do the following:
    >Title text can only be added as part of a branding video. A theme is required before giving a title to the branding video.
 
 1. Add a presenter name and presenter title to the video if necessary. Type a number within the video time range in the Display at playhead field for the presenter name and title to be displayed while playing the video.
-1. Add a branding icon on the left or right side of the video screen if necessary. To select a branding icon, click **select** > **browse from system**.
+1. Add a branding icon on the left or right side of the video screen if necessary. To select a branding icon, click **[!UICONTROL Select]** > **[!UICONTROL Browse from system]**.
 1. To preview the video, click the play button in the preview screen. 
 
    ![](assets/branding-options.png)
@@ -169,14 +169,14 @@ To start a new recording, click the record additional clip icon. The new recordi
 
 ## Publishing a video recording, an audio recording and screenshot {#publishing}
 
-Once all changes and edits are made, click **Share** > type or search for a **skill or board** that best relates to the post > **Post**.
+Once all changes and edits are made, click **[!UICONTROL Share]** > type or search for a **skill or board** that best relates to the post > **Post**.
 
 <!--![](assets/share-after-editing-07.png)-->
 *Publishing to web*
 
 ## Browsing Learning Manager desktop gallery {#browsingcaptivateprimedesktopgallery}
 
-All recordings and screenshots are saved in Adobe Learning Manager desktop application. To browse these files, click **Gallery** from the left navigation panel in the home page. 
+All recordings and screenshots are saved in Adobe Learning Manager desktop application. To browse these files, click **[!UICONTROL Gallery]** from the left navigation panel in the home page. 
 
 >[!NOTE]
 >
@@ -192,7 +192,7 @@ To edit or delete a file from the gallery, click the three dots from bottom of t
 
 Notifications in Learning Manager appear in the notifications window regardless of whether the learner is logged into Learning Manager web application. Notifications include posts or boards that users have created, or are following, or have participated in. Clicking the notification will navigate the user to Learning Manager Social Learning web.
 
-To mute notifications, click **profile menu** > **Settings > **Mute notifications**.
+To mute notifications, click **[!UICONTROL Profile menu*]* > **[!UICONTROL Settings] > **[!UICONTROL Mute notifications]**.
 
 ## Settings in Adobe Learning Manager desktop application {#settingsinadobecaptivateprimedesktopapplication}
 

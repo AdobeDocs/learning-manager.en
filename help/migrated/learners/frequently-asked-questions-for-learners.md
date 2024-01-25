@@ -302,8 +302,8 @@ Based on your choice, you can view the filtered list of courses and choose accor
 
 +++How do I access my courses in Learning Manager?
 
-1. Log in to Learning Manager as a learner. If you forgot password, click **Forgot password** link provided in the login page to get it back to your email id.
-1. Once you log in, you can see the COURSES tab at the top. Click **COURSES** tab to display the list of courses assigned to you.
+1. Log in to Learning Manager as a learner. If you forgot password, click **[!UICONTROL Forgot password]** link provided in the login page to get it back to your email id.
+1. Once you log in, you can see the COURSES tab at the top. Click **[!UICONTROL COURSES]** tab to display the list of courses assigned to you.
 
 +++
 
