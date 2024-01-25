@@ -415,7 +415,7 @@ Planning your migration project is very important. It is recommended that you br
 
 **Create FTP account**
 
-Click **Request for CSV FTP folder**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
+Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
 A sample snapshot of project files and folder of FTP is shown below for your reference. 
 
@@ -435,13 +435,13 @@ In FTP or Box account, click your project folder name and click the Sprint name.
 
 <!--![](assets/exavault-upload.png)-->
 
-You can come back to Learning Manager migration project, click **Refresh **and view all the .csv data types being listed in your migration Sprint.
+You can come back to Learning Manager migration project, click **[!UICONTROL Refresh]** and view all the .csv data types being listed in your migration Sprint.
 
 **Upload training content to Content folders**
 
 Upload the training content of your existing LMS to your Box account. If you have created the Migration project and sprint already, then the Box account would populate the Migration project and Sprint name. You can upload the content in the same path. Refer to **Data and content migration procedure** section in this page to create migration project. 
 
-You can drag and drop the content files or click **Upload** and select the files from your desktop. If the file size of your content is huge, you may experience some time lag in uploading the files. Depending on the size of the file, the time taken for uploading the files to your Box account varies. 
+You can drag and drop the content files or click **[!UICONTROL Upload]** and select the files from your desktop. If the file size of your content is huge, you may experience some time lag in uploading the files. Depending on the size of the file, the time taken for uploading the files to your Box account varies. 
 
 A sample snapshot of Box account after uploading content to it is shown below for your reference: 
 
@@ -463,22 +463,22 @@ The procedure to migrate your enterprise LMS data and content to Learning Manage
 
 Go through the pre-requisites of migration process before you start with the migration. Refer to [CSV specifications and sample CSVs](migration-manual.md#main-pars_header_140933605) section in this page and prepare the CSVs for data and content migration. 
 
-1. Log in to Learning Manager application as an Integration Administrator and click **Migration** at the left pane. 
+1. Log in to Learning Manager application as an Integration Administrator and click **[!UICONTROL Migration]** on the left pane. 
 
    Migration Projects home page appears. If your organization has created migration projects already, you can view the list of all migration projects in this page. 
 
-1. Click **New** at the upper-right corner of the page to create a migration project. Alternatively, you can click **Create a migration project** link on the page to create a migration project. Create a migration project page appears. 
+1. Click **[!UICONTROL New]** at the upper-right corner of the page to create a migration project. Alternatively, you can click **[!UICONTROL Create a migration project]** link on the page to create a migration project. Create a migration project page appears. 
 
    If you have not created an FTP folder already, you will be prompted to create an FTP folder in the account. This is mandatory step before you start creating a migration project. 
 
    ![](assets/create-project.png)
    *Create FTP folder*
 
-   Provide the project name, project tag, course catalog and description for your migration project. Click **Create**. 
+   Provide the project name, project tag, course catalog and description for your migration project. Click **[!UICONTROL Create]**. 
 
    Your migration data items are identified using this Migration Project Tag. If you do not have any specific course catalog choose the default catalog from the drop-down. All the courses that you migrate using a migration project will be included in the catalog that you choose at this stage. If you do not choose any catalog, all the migrated courses will be part of the default catalog. 
 
-1. Sprint configuration page appears as shown in the following snapshot. You need to create a sprint as part of your migration project. Choose Sprint name and provide brief description of the sprint. You can choose Yes if you want to migrate content as part of this sprint. Click **Next**. 
+1. Sprint configuration page appears as shown in the following snapshot. You need to create a sprint as part of your migration project. Choose Sprint name and provide brief description of the sprint. You can choose Yes if you want to migrate content as part of this sprint. Click **[!UICONTROL Next]**. 
 
    ![](assets/users-modified-sprint.png)
    *Sprint migration*
@@ -487,12 +487,12 @@ Go through the pre-requisites of migration process before you start with the mig
 
    This Synchronization step is recommended when enrollment.csv and user_course_grade.csv are migrated. This step enables the Learning Manager database to be in sync with your Migration database and ensures that all users whose records to be migrated in the Sprint are available in Migration database.
 
-1. You can start the Sprint migration with your uploaded data and content. Click **Refresh** link before starting the Sprint Run to sync up the FTP and Content folders with Learning Manager application. 
+1. You can start the Sprint migration with your uploaded data and content. Click **[!UICONTROL Refresh]** link before starting the Sprint Run to sync up the FTP and Content folders with Learning Manager application. 
 
    ![](assets/sprint1-filesupload.png)
    *Start sprint migration*
 
-   Click **Start** at the upper-right corner of the page. You can click **Stop** at any point in time during Sprint migration process to abort the sprint migration. 
+   Click **[!UICONTROL Start]** at the upper-right corner of the page. You can click **[!UICONTROL Stop]** at any point in time during Sprint migration process to abort the sprint migration. 
 
    Migration status is displayed on each of the sprint data items and content. Check the number of success and failed items as part of migration sprint run.
 

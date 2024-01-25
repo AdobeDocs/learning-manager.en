@@ -34,15 +34,15 @@ If a learner experiences the issue, try the steps below:
 
 1. Open the relevant Learning Object (Course/Learning Program).  
 
-1. Click **Instances** > **Badge**.
+1. Click **[!UICONTROL Instances]** > **[!UICONTROL Badge]**.
 
    ![](assets/view-a-badge.png)
 
-1. Remove the badge from the Learning Object and click **Save**.
+1. Remove the badge from the Learning Object and click **[!UICONTROL Save]**.
 
    ![](assets/remove-a-badge.png)
 
-1. Reassign the badge to the Learning Object and click **Save**. 
+1. Reassign the badge to the Learning Object and click **[!UICONTROL Save]**. 
 
    This step will assign the badge to all learners enrolled for the Learning Object.
 
@@ -50,9 +50,9 @@ If a learner experiences the issue, try the steps below:
 
 1. Log in as Admin.  
 1. Open the Certification.  
-1. Click **Overview** > **Badge**.
-1. Remove the badge from the Certification and click **Save**.
+1. Click **[!UICONTROL Overview]** > **[!UICONTROL Badge]**.
+1. Remove the badge from the Certification and click **[!UICONTROL Save]**.
 
    ![](assets/remove-a-badge-cert.png)
 
-1. Reassign the badge to the certification and click **Save**. 
+1. Reassign the badge to the certification and click **[!UICONTROL Save]**. 
