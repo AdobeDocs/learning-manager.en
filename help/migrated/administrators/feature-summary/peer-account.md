@@ -14,8 +14,8 @@ Learning Manager offers the ability to share purchased seats using the Peer acco
 
 ## Add a peer account {#addapeeraccount}
 
-1. From the Administrator dashboard, click **Settings > Peer Accounts**.
-1. From the upper-right corner click **Add**.
+1. From the Administrator dashboard, click **[!UICONTROL Settings]** > **[!UICONTROL Peer Accounts]**.
+1. From the upper-right corner click **[!UICONTROL Add]**.
 
    ![](assets/peeraccount.png)
 
@@ -62,14 +62,14 @@ If you no longer wish to share seats or purchases with an account, you can delet
 
 The Administrator can view the user report of the peer account. The parent account admin can request to access the report and once the peer account admin accepts this, the parent admin will be able to view the number of registered users in the peer account and will be able to download the user report for peer account.
 
-1. On the Peer Accounts page, click **Add**.
+1. On the Peer Accounts page, click **[!UICONTROL Add]**.
 1. Enable the option, **Request permission to download user reports for entire account**.
 
 ![](assets/image034.png)
 
 *View user report of a peer account*
 
-To download the reports for peer accounts, click **Download**. 
+To download the reports for peer accounts, click **[!UICONTROL Download]**. 
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 

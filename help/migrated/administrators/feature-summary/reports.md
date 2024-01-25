@@ -37,7 +37,7 @@ If an external profile has a manager, then the manager hierarchy will be display
 
 If not, then all individual user details will be displayed in the list.
 
-To see more granular details of enrollments of various internal teams, click **Learning Summary Details**.
+To see more granular details of enrollments of various internal teams, click **[!UICONTROL Learning Summary Details]**.
 
 ![](assets/learning-sunnarydetails.png)
 *Learning Summary details*
@@ -91,26 +91,26 @@ The Administrator can "push" a default list of compliance training to be viewed 
    ![](assets/share-with-managers.png)
    *Share training with managers*
 
-1. To add training or multiple training, click **Share more**.   
+1. To add training or multiple training, click **[!UICONTROL Share more]**.   
 
 1. In the **Share with Managers** dialog, choose the training(s) and the manager(s).
 
    ![](assets/select-training.png)
    *Select training to share with managers*
 
-1. Click **Share**.
+1. Click **[!UICONTROL Share]**.
 
 The training is now shared with the specified manager.
 
 ### View training
 
-In the list of shared training, click **View**. You can view the training that is assigned to a manager or some managers.
+In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
 
 ### Withdraw training
 
-1. To withdraw training from a manager, click **Withdraw**.  
+1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
 
-1. Click **Proceed**. This withdraws previously shared training from the Manager's compliance dashboard.
+1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.
 
 ## User Activity dashboards {#useractivitydashboards}
 
@@ -283,11 +283,11 @@ To view all the boards that you created, click this board tab. From the **[!UICO
 
 1. Provide the name and description of the dashboard.
 1. If you want to share the dashboard with any Manager, choose them in **Share With** field. You can use any normal selection criteria for this operation.
-1. Click **Save.**
+1. Click **[!UICONTROL Save].**
 
 You can view the recently created board in the **[!UICONTROL Dashboard Reports]** tab.
 
-To add reports to your board, click the drop-down at the upper right corner of your board window and click **Add Report**. The report you create in this way is associated with your dashboard.
+To add reports to your board, click the drop-down at the upper right corner of your board window and click **[!UICONTROL Add Report]**. The report you create in this way is associated with your dashboard.
 
 >[!NOTE]
 >
@@ -318,8 +318,8 @@ The exported sheet of dashboard reports provides detailed information instead of
    >
    >By default, at least three sample reports appear in the sample board tab. You can only view the sample reports to get an idea as to how you could create and customize them. 
 
-1. On the top-right corner of the page, click **Add**.
-1. In the **Add Report** dialog box, in the Type drop-down list, you can choose either one of the pre-defined reports or you can select **Custom**. If you select a pre-defined report, you can see that the form is pre-populated. You can further make changes to some of the fields and click **Save**. This adds the report to your default dashboard.
+1. On the top-right corner of the page, click **[!UICONTROL Add]**.
+1. In the **Add Report** dialog box, in the Type drop-down list, you can choose either one of the pre-defined reports or you can select **[!UICONTROL Custom]**. If you select a pre-defined report, you can see that the form is pre-populated. You can further make changes to some of the fields and click **[!UICONTROL Save]**. This adds the report to your default dashboard.
 
    ![](assets/create-report.png)
    *Create report*
@@ -366,19 +366,19 @@ The exported sheet of dashboard reports provides detailed information instead of
    ![](assets/choose-filters.png)
    *Choose filters*
 
-1. Click **Save** to complete creating a report. 
+1. Click **[!UICONTROL Save]** to complete creating a report. 
 
    ![](assets/sample-report.png)
    *Sample report*
 
 ## Edit a report {#editareport}
 
-On the report, click the drop-down arrow, and choose the option **Edit Report**.
+On the report, click the drop-down arrow, and select the option **[!UICONTROL Edit Report]**.
 
 ![](assets/edit-a-report-1.png)
 *Edit a report*
 
-Make the required changes to the report. To save the changes, click **Save**.
+Make the required changes to the report. To save the changes, click **[!UICONTROL Save]**.
 
 ## Move a report to a dashboard {#moveareporttoadashboard}
 
@@ -387,16 +387,16 @@ Choose this option to move the current report to an existing dashboard. To move 
 ![](assets/move-a-report.png)
 *Move a report to a dashboard*
 
-Choose the dashboard where you want the report to move to and click **Move**.
+Choose the dashboard where you want the report to move to and click **[!UICONTROL Move]**.
 
 ## Create a copy of a report {#createacopyofareport}
 
-To create a copy of the report, choose the option **Create a Copy**.
+To create a copy of the report, select the option **[!UICONTROL Create a Copy]**.
 
 ![](assets/copy-a-report.png)
 *Create a copy of a report*
 
-Choose the dashboard where you want to copy the report to. To start copying, click **Copy**.
+Choose the dashboard where you want to copy the report to. To start copying, click **[!UICONTROL Copy]**.
 
 ## Delete a report {#deleteareport}
 
@@ -499,7 +499,7 @@ If there are multiple managers reporting to you, you can view the reports quickl
 
 You can view the reports specific to each course by following the below steps:
 
-1. Click **View course reports** link in My Dashboards tab on the Reports page.  
+1. Click **[!UICONTROL View course reports]** link in My Dashboards tab on the Reports page.  
    A pop-up dialog appears. A text input field appears where you can enter the required course and suggested  course names appear in the drop-down list. Choose the course from the list shown.
 
    ![](assets/view-course-report-300x117.png)
@@ -836,7 +836,7 @@ You can export the data from the UI or through PowerBI connector for more in-dep
 
 L1 and L3 feedback reports provide an option to download a consolidated feedback report for the L1 and L3 responses for selected trainings for a **one-year** range or for up to 10 Selected trainings for any date range.
 
-Sign in as an Administrator, click **Reports > Custom Reports**, and in the list of reports, click **Feedback Report**.
+Sign in as an Administrator, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**, and in the list of reports, click **[!UICONTROL Feedback Report]**.
 
 ![](assets/download-feedbackreport.png)
 *Download feedback report*
@@ -853,7 +853,7 @@ You can also export the data from the UI or to Power BI, which supports all trai
 
 Learning Manager supports Training Report which allows Administrators to download training details and its associated metadata like author, published date, skills, Catalog labels etc. 
 
-On the Admin app, click **Reports > Custom Reports > Excel Reports > Trainings Report**. 
+On the Admin app, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Trainings Report]**. 
 
 You can download reports for the following:
 
@@ -886,7 +886,7 @@ This allows the Administrator to export all the Virtual and Classroom session de
 
 This will also help the Administrator  to understand the sessions planned on a monthly basis and identify instructors' schedule and already delivered sessions.
 
-As an Administrator, click **Custom Reports > Session Summary Report**.
+As an Administrator, click **[!UICONTROL Custom Reports]** > **[!UICONTROL Session Summary Report]**.
 
 In the dialog box that follows, choose the date range, and either the training or instructor for a summary.
 
