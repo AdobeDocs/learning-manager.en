@@ -30,7 +30,7 @@ Learners can reject a course assigned to them by Managers by clicking Reject in 
 
 ## Show all notifications {#showallnotifications}
 
-Click **Show all notifications** link at the bottom of the notifications pop-up window to view all the notifications in a separate page.
+Click **[!UICONTROL Show all notifications]** link at the bottom of the notifications pop-up window to view all the notifications in a separate page.
 
 ![](assets/notifications-page.png)
 

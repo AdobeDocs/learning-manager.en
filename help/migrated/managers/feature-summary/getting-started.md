@@ -17,7 +17,7 @@ As soon as you log in as a Manager, you can view the pop-up window with a list o
 
 Browse through the sample video tutorials to understand the key features of your role as manager. If you do not want to make this pop-up window appear during login, you can disable it by clicking Do not show at login option at the bottom-right corner of the pop-up.
 
-Click **Close Window** to close the pop-up.
+Click **[!UICONTROL Close Window]** to close the pop-up.
 
 ![](assets/welcome-videos.png)
 

@@ -16,7 +16,7 @@ Managers play an important role in a team's learning initiatives. To guide them 
 
 *Dashboard report for a Manager*
 
-To view the details of a graph, click the graph or click **Details** hyper link.
+To view the details of a graph, click the graph or click **[!UICONTROL Details]** hyper link.
 
 ## Learning Summary {#learningsummary}
 
@@ -74,7 +74,7 @@ To view details including people, enrollment dates, due dates, and progress for 
 
 ## Export report {#exportreport}
 
-To generate an excel report, click **Actions > Report** 
+To generate an excel report, click **[!UICONTROL Actions] > [!UICONTROL Report]** 
 
 ## Compliance Status {#compliancestatus}
 
@@ -132,9 +132,9 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ## Export data & send emails {#exportdataampsendemails}
 
-* To export the compliance status for team and learnings view, click **Actions** > **Export**.
+* To export the compliance status for team and learnings view, click **[!UICONTROL Actions]** > **[!UICONTROL Export]**.
 
-* To send an email to team members, click **Actions** > **Send Email**.
+* To send an email to team members, click **[!UICONTROL Actions]** > **[!UICONTROL Send Email]**.
 
 ![](assets/cs-send-email-andexport.png)
 
@@ -154,7 +154,7 @@ This forecasting is based on system calculations which gives a view in the futur
 
 To view a team's skill status, follow the below steps:
 
-1. Click **Team Skills** from the left pane under My Team View section. 
+1. Click **[!UICONTROL Team Skills]** from the left pane under My Team View section. 
 1. To view the skills displayed, click the skill filter and select one from the drop-down list. 
 1. To select a level(Level 1, Level 2, or Level 3), click the level drop-down menu.
 1. Based on the skill and level selected, a graph with its skill status is displayed. On hovering the graph, you can view the following percentages of the skill status: **In progress** and **Achieved**.
@@ -255,7 +255,7 @@ On selecting the values for a team under the enrollment, achieved, and in progre
 
 ## Export report {#Exportreport-1}
 
-* Click **Actions** > **Export** to export the data as an excel file. 
+* Click **[!UICONTROL Actions]** > **[!UICONTROL Export]** to export the data as an excel file. 
 
 ![](assets/export-report.png)
 

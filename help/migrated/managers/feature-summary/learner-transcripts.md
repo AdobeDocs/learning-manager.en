@@ -13,9 +13,9 @@ Adobe Learning Manager enables the Managers of an organization to generate the t
 
 ## Generate learner transcripts {#generatelearnertranscripts}
 
-1. To generate learner transcripts, click **Reports** on the left pane in Manager login.
-1. Click **My Reports** tab on the page.  
-1. Click **Learner Transcripts** link. 
+1. To generate learner transcripts, click **[!UICONTROL Reports]** on the left pane in Manager login.
+1. Click **[!UICONTROL My Reports]** tab on the page.  
+1. Click **[!UICONTROL Learner Transcripts]** link. 
 
    ![](assets/learner-transcripts.png)
 
@@ -27,7 +27,7 @@ Adobe Learning Manager enables the Managers of an organization to generate the t
    >
    >By default, from start date is the learner's registration date and the to date is always the current date. You can modify only the start date from when you need the data.
 
-1. Choose the learners names from the Select Learners field, and click **Generate**.
+1. Choose the learners names from the Select Learners field, and click **[!UICONTROL Generate]**.
 
 You can choose single learner or groups of learners. To add more than one learner, click Add More Learners.
 

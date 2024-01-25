@@ -24,7 +24,7 @@ Sample manager notifications snapshot:
 
 This pop-up window displays highlights of all the notifications along with time of occurrence with a scroll bar. To view more information about all the notifications, click Show All Notifications at the bottom of the pop-up window. Notifications page appears.
 
-A manager can see the pending tasks and all notifications in a tabbed form at the notifications page. Pending tasks notifications are categorized based on approvals, nominations and so on. To view all the notifications, click **All Notifications** tab. In all notifications tab, the notifications are ordered based on date and time and listed.
+A manager can see the pending tasks and all notifications in a tabbed form at the notifications page. Pending tasks notifications are categorized based on approvals, nominations and so on. To view all the notifications, click **[!UICONTROL All Notifications]** tab. In all notifications tab, the notifications are ordered based on date and time and listed.
 
 ![](assets/manager-notifications-page.png)
 
