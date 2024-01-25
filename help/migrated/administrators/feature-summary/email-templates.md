@@ -20,7 +20,7 @@ Administrators can also choose not to send email notifications for certain event
 
 You as an administrator can easily enable, disable, or modify these email templates.
 
-1. To access the templates, click **Email Templates** on the left pane. On this page you can see three different categories of templates, **General**, **Learning Activity**, and **Reminders and Updates**. There is a fourth tab, **Settings**, where you can configure the templates.
+1. To access the templates, click **[!UICONTROL Email Templates]** on the left pane. On this page you can see three different categories of templates, **General**, **Learning Activity**, and **Reminders and Updates**. There is a fourth tab, **Settings**, where you can configure the templates.
 
    ![](assets/categories-of-emailtemplates.png)
 
@@ -54,14 +54,14 @@ You as an administrator can easily enable, disable, or modify these email templa
 
 ## Customize settings of an email template {#customizesettingsofanemailtemplate}
 
-1. To open the settings page, click **Settings**. You can now customize your email templates.
+1. To open the settings page, click **[!UICONTROL Settings]**. You can now customize your email templates.
 1. To customize the name and email id from which the learners receive emails, edit the **Sender Name and Address.**
 
    Contact [***Adobe Support***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) to configure or change these details.
 
 1. Customize your email banner from the **Email Banner** option. Change the color of the banner by selecting **Banner Background**.
 
-   You can use a custom image as banner by selecting the **Custom Image** option. Click **Save** after making the changes.
+   You can use a custom image as banner by selecting the **Custom Image** option. Click **[!UICONTROL Save]** after making the changes.
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
@@ -77,7 +77,7 @@ You as an administrator can easily enable, disable, or modify these email templa
 
 1. Edit your account URL by clicking Edit on the option **Account URL**. 
 
-   The account URL link is shown in all emails, just before the signature. Enter the required URL and click **Save**. Note that this URL is only be visible to internal users.
+   The account URL link is shown in all emails, just before the signature. Enter the required URL and click **[!UICONTROL Save]**. Note that this URL is only be visible to internal users.
 
    ![](assets/customize-accounturl.png)
 
@@ -89,7 +89,7 @@ You as an administrator can easily enable, disable, or modify these email templa
 
 On the **Email templates** > **Settings** page, the Admin can change the frequency of Digest Emails to be sent to learners.
 
-In the **Digest Email Settings** section, click **Edit**.
+In the **Digest Email Settings** section, click **[!UICONTROL Edit]**.
 
 In the drop-down, choose either **Biweekly** or **Monthly**.
 
@@ -221,9 +221,9 @@ At present, in Learning Manager, it is not possible to disable **Help** in email
 +++How to modify email templates?
 
 1. As an Administrator, log in to your Learning Manager account.
-1. On the left panel, click **Email Templates** and select the e-mail template that you want to modify.
+1. On the left panel, click **[!UICONTROL Email Templates]** and select the e-mail template that you want to modify.
 1. To customize each template, click the text in the body of the template. You can insert variables in the text by clicking the appropriate icons as shown in the snapshot. Mouse over each icon to view the names and apply it to the template.
-1. After making changes to the template, click **Save**.   
+1. After making changes to the template, click **[!UICONTROL Save]**.   
     
 
 +++

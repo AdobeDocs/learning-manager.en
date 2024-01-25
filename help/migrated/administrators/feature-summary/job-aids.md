@@ -18,9 +18,9 @@ Administrators of an organization can manage job aids assignment to learners and
 
 ## Withdraw/re-publish job aids {#withdrawrepublishjobaids}
 
-Under Administrator login, click **Job Aids** in the left pane to access job aids.
+Under Administrator login, click **[!UICONTROL Job Aids]** in the left pane to access job aids.
 
-You can withdraw a published job aid by clicking settings icon adjacent to the job aid and selecting **Withdraw**.
+You can withdraw a published job aid by clicking settings icon adjacent to the job aid and selecting **[!UICONTROL Withdraw]**.
 
 ![](assets/withdraw-job-aids-admin.png)
 
@@ -33,7 +33,7 @@ View withdrawn job aids by clicking the Withdrawn tab. You can re-publish the wi
 1. In Published tab, click the settings icon adjacent to a job aid.   
     
 
-1. Click **Manage Assignment**.  
+1. Click **[!UICONTROL Manage Assignment]**.  
    The **Enroll Learners** pop-up dialog appears. 
 
    ![](assets/enroll-learners-job-aids.png)
@@ -41,25 +41,25 @@ View withdrawn job aids by clicking the Withdrawn tab. You can re-publish the wi
    *View the Enroll Learners dialog*
 
 1. In the **Learners** field, start typing the name of learners and choose the learners from the drop-down list. You can also find learners by name, profile and so on. 
-1. Click **Add.**
-1. Click **Save**
+1. Click **[!UICONTROL Add]**.
+1. Click **[!UICONTROL Save]**.
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
 +++How to export Job Aid reports?
 
-On the upper right corner of the screen, click **Actions > Export Report**.
+On the upper right corner of the screen, click **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**.
 
 +++
 
 +++How to manage Job Aid assignments?
 
-In **Published** tab, click the settings icon near a job aid. Add a learner and click **Add**.
+In **Published** tab, click the settings icon near a job aid. Add a learner and click **[!UICONTROL Add]**.
 
 +++
 
 +++How to withdraw  a Job Aid?
 
-In **Published** tab, click the settings icon near a job aid. Click **Withdraw**. The Job Aid now no longer appears in the Published tab. To view the withdrawn Job Aid, click the Withdrawn tab.
+In **Published** tab, click the settings icon near a job aid. Click **[!UICONTROL Withdraw]**. The Job Aid now no longer appears in the Published tab. To view the withdrawn Job Aid, click the Withdrawn tab.
 
 +++

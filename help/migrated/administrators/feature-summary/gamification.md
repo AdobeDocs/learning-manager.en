@@ -24,8 +24,8 @@ By default, some sample gamification points and data is available for users to u
 
 To access the settings, follow the steps below:
 
-1. Log in as an Administrator and on the left pane, click **Gamification**.
-1. When you create a new Learning Manager account, gamification is disabled by default. To enable it, click **Enable** on the upper- right corner of the page.
+1. Log in as an Administrator and on the left pane, click **[!UICONTROL Gamification]**.
+1. When you create a new Learning Manager account, gamification is disabled by default. To enable it, click **[!UICONTROL Enable]** on the upper- right corner of the page.
 
 ## Administrator actions {#administratoractions}
 
@@ -41,7 +41,7 @@ If required, you can make some higher management users as confidential users. Co
 
 Confidentiality settings can be applied for both internal and external users.
 
-1. Click **Gamification > Settings > Confidentiality Settings**.
+1. Click **[!UICONTROL Gamification]** > **[!UICONTROL Settings] > **[!UICONTROL Confidentiality Settings]**.
 
 ![](assets/confidentiality-settings.png)
 
@@ -190,8 +190,8 @@ When learners complete a course within 10 days of course commencement, they get 
 
 Administrators can define the scope of gamification by changing the scope settings. You can selectively enable gamification among similar profile users, groups or location.
 
-1. In Administrator login, click **Gamification** at the left pane.   
-1. Open **Gamifications > Settings > Scope settings**. The Gamification Scope Settings dialog appears.
+1. In Administrator login, click **[!UICONTROL Gamification]** at the left pane.   
+1. Open **[!UICONTROL Gamifications]** > **[!UICONTROL Settings]** > **[!UICONTROL Scope settings]**. The Gamification Scope Settings dialog appears.
 
    ![](assets/scope-settings.png)
 
@@ -207,4 +207,4 @@ Administrators can define the scope of gamification by changing the scope settin
 
    <!--![](assets/value.png)-->
 
-1. Click **Save.**
+1. Click **[!UICONTROL Save].**

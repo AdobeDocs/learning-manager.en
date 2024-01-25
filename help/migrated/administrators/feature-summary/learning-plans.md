@@ -23,8 +23,8 @@ You can enroll learners to any courses and learning programs automatically based
 
 To create a learning plan, you must log in as an Administrator.
 
-1. On the left pane, click **Learning Plans**. If there are any existing events, they are listed on the page. However, if you are setting up the learning plan feature for the first time, then continue to the next step.
-1. On the top-right corner of the page, click **Add**. In the **Add Learning Plan** dialog, enter the name of the Learning Plan that an employee must take.
+1. On the left pane, click **[!UICONTROL Learning Plans]**. If there are any existing events, they are listed on the page. However, if you are setting up the learning plan feature for the first time, then continue to the next step.
+1. On the top-right corner of the page, click **[!UICONTROL Add]**. In the **Add Learning Plan** dialog, enter the name of the Learning Plan that an employee must take.
 
    ![](assets/add-learning-plandialog.png)
 
@@ -68,13 +68,13 @@ To create a learning plan, you must log in as an Administrator.
 
    When you save the learning Plan, the instance Auto appears as an option in the **Select Instance** drop-down list in the Learners section of a course.
 
-1. To save the Learning Plan, click **Save**.
+1. To save the Learning Plan, click **[!UICONTROL Save]**.
 
 ## Unenroll from training {#unenroll-training}
 
 When adding a Learning Plan, an Administrator can unenroll users from specific trainings based on certain triggers.
 
-On the Admin app, click **Learning Plans > Add**.
+On the Admin app, click **[!UICONTROL Learning Plans]** > **[!UICONTROL Add]**.
 
 The next sections represent the triggers where the option **Unenroll from Training** has been added.
 
@@ -128,7 +128,7 @@ The next sections represent the triggers where the option **Unenroll from Traini
 
 ## Edit a learning plan {#editalearningplan}
 
-After creating a learning plan, Administrator can edit/update the learning plan at any point in time. To Edit, click the name of the learning plan and modify the values in the **Edit Learning Plan** pop-up dialog that appears. Click **Save**. 
+After creating a learning plan, Administrator can edit/update the learning plan at any point in time. To Edit, click the name of the learning plan and modify the values in the **Edit Learning Plan** pop-up dialog that appears. Click **[!UICONTROL Save]**. 
 
 ## Enable a learning plan {#enablealearningplan}
 
@@ -140,14 +140,14 @@ To enable a learning plan,
 
    ![](assets/list-of-learningplans.png)
 
-1. On the top-right corner of the page, click **Actions > Enable**. This enables the Learning Plan.
+1. On the top-right corner of the page, click **[!UICONTROL Actions]** > **[!UICONTROL Enable]**. This enables the Learning Plan.
 
 ## Delete a learning plan {#deletealearningplan}
 
 To delete a Learning Plan,
 
 1. From the list of Learning Plans, choose the plan that you want to delete.
-1. On the top-right corner of the page, click **Actions > Delete**.
+1. On the top-right corner of the page, click **[!UICONTROL Actions]** > **[!UICONTROL Delete]**.
 
 ## Disable a learning plan {#disablealearningplan}
 
@@ -155,11 +155,11 @@ To disable a Learning Plan,
 
 1. Click the tab **Enabled**.
 1. From the list of Learning Plans, choose the plan that you want to disable.
-1. On the top-right corner of the page, click **Actions > Disable**. This moves the plan to the **Disabled** tab.
+1. On the top-right corner of the page, click **[!UICONTROL Actions]** > **[!UICONTROL Disable]**. This moves the plan to the **Disabled** tab.
 
 ## Filter a learning plan {#filteralearningplan}
 
-You can filter Learning Plans according to the type of event that was used while creating a Learning Plan. Click **Type** and choose any option to display Learning Plans that match the selection.
+You can filter Learning Plans according to the type of event that was used while creating a Learning Plan. Click **[!UICONTROL Type]** and choose any option to display Learning Plans that match the selection.
 
 ![](assets/filter-a-learningplan.png)
 
@@ -175,4 +175,4 @@ You can filter Learning Plans according to the type of event that was used while
 
 1. How do I view the list of learners enrolled into a specific learning plan?
 
-   When the instance, Auto, gets created, click **Course** > **Learners**, and choose the required instance from the **Instance** drop-down list.
+   When the instance, Auto, gets created, click **[!UICONTROL Course]** > **[!UICONTROL Learners]**, and choose the required instance from the **[!UICONTROL Instance]** drop-down list.

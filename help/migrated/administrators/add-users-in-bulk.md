@@ -10,15 +10,15 @@ contentowner: saghosh
 
 Yes, you can add multiple users at a time by following the below steps:
 
-1. Click **Users** on the left pane in Administrator login, and then click **Add>Upload a csv.** A pop-up dialog appears.   
+1. Click **[!UICONTROL Users]** on the left pane in Administrator login, and then click **[!UICONTROL Add]**>**[!UICONTROL Upload a csv]**. A pop-up dialog appears.   
 
-1. You can add multiple users using a .CSV file. Click **Import** and select/open the .csv file from your computer.   
+1. You can add multiple users using a .CSV file. Click **[!UICONTROL Import]** and select/open the .csv file from your computer.   
 
 1. After importing the file, map the contents of .csv file with the application labels when you upload .csv file first time.
 
-   For all the subsequent uploads, previous settings for labels are considered. Click **Save** after completing the mapping of data and click **Add** to upload the mapped .csv file.
+   For all the subsequent uploads, previous settings for labels are considered. Click **[!UICONTROL Save]** after completing the mapping of data and click **[!UICONTROL Add]** to upload the mapped .csv file.
 
-1. Click **Save** after completing the mapping of data and click **Add** to upload the mapped .csv file.
+1. Click **[!UICONTROL Save]** after completing the mapping of data and click **[!UICONTROL Add]** to upload the mapped .csv file.
 
 ## CSV upload with mandatory fields {#csvuploadwithmandatoryfields}
 

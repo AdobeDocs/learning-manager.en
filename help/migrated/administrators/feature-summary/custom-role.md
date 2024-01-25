@@ -123,7 +123,7 @@ You can create a custom role to provide authoring capabilities limited to a part
       </table>
 
    1. Enable or disable the permissions according to your requirements.
-   1. To save the changes, click **OK**. Then, to save the changes for the Custom Role, click **Save**.
+   1. To save the changes, click **[!UICONTROL OK]**. Then, to save the changes for the Custom Role, click **[!UICONTROL Save]**.
 
    For example, consider the following scenario.
 
@@ -249,7 +249,7 @@ After you click the option, a new dialog opens, where you can assign the folders
 
 *Select the folders for the custom author*
 
-Choose the folders and click **OK**. 
+Choose the folders and click **[!UICONTROL OK]**. 
 
 ## Learning Summary Dashboard for Custom Admin {#custom-admin-dashboard}
 
@@ -455,7 +455,7 @@ An administrator can enable gamification reports for a custom user.
 1. In the **Feature Privileges: Core Features** section,  enable the option **Full Control** for the category **Reports**.  
 
 1. In the section **Users**, select the user that will be assigned the newly created custom role.
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 When a user logs in as Custom Admin and clicks **Reports** on the left pane, the transcripts appear, as shown below:
 
@@ -463,7 +463,7 @@ When a user logs in as Custom Admin and clicks **Reports** on the left pane, the
 
 *Download the gamification transcripts*
 
-Click **Gamification Transcripts**, choose a user, and generate the report.
+Click **[!UICONTROL Gamification Transcripts]**, choose a user, and generate the report.
 
 If an Administrator changes the level points, the reports show levels according to the current points.
 
@@ -475,5 +475,5 @@ Resetting gamification does not reset the level achieved date.
 
 A Custom Role is like a subset of an Author or Administrator role. Allow one or multiple privileges, define the scope, and assign the role to a user.
 
-Click **Users > Custom Roles**. In the Custom Roles page, click **Create Role**. Enter the name of the custom role and set the privileges for the role. For more information, see [Create a custom role](custom-role.md#create-role).
+Click **[!UICONTROL Users]** > **[!UICONTROL Custom Roles]**. In the Custom Roles page, click **[!UICONTROL Create Role]**. Enter the name of the custom role and set the privileges for the role. For more information, see [Create a custom role](custom-role.md#create-role).
 +++

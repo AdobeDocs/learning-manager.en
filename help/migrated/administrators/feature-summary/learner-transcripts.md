@@ -14,7 +14,7 @@ Adobe Learning Manager enables the administrators of an organization to generate
 
 ## Generate Learner transcripts {#generatelearnertranscripts}
 
-1. To generate learner transcripts, click **Reports** on the left pane in Administrator login.
+1. To generate learner transcripts, click **[!UICONTROL Reports]** on the left pane in Administrator login.
 
    The Administrator navigates to the Excel Reports tab inside the **Reports** page.
 
@@ -30,8 +30,8 @@ Adobe Learning Manager enables the administrators of an organization to generate
    >
    >By default, from start date is the learner's registration date and the to date is always the current date. You can modify only the start date from when you need the data.
 
-1. Choose the learners names from the **Select Learners** field, and click **Generate.**
-1. You can choose single learner or groups of learners. To add more than one learner, click **Add More Learners**.
+1. Choose the learners names from the **Select Learners** field, and click **[!UICONTROL Generate].**
+1. You can choose single learner or groups of learners. To add more than one learner, click **[!UICONTROL Add More Learners]**.
 
    ![](assets/add-learners-lt.png)
 
@@ -72,9 +72,9 @@ Fetching Learner transcripts becomes a tedious process as it can be obtained onl
 
 1. Log in as an **Administrator** or **Manager**.  
 1. Go to **Reports** under **Manage**, it loads the **User Activity** page.  
-1. Click **Custom Reports** in the left pane and select **Learner Transcripts** from the list.  
-1. On the **Learner Transcripts** page, click **Generate New** button in the upper-left corner.  
-1. Select the preferred dates by clicking from **Select date range** drop-down. Click **Email IDs** tab to enter the copied list of unique email ids.
+1. Click **[!UICONTROL Custom Reports]** in the left pane and select **[!UICONTROL Learner Transcripts]** from the list.  
+1. On the **Learner Transcripts** page, click **[!UICONTROL Generate New]** button in the upper-left corner.  
+1. Select the preferred dates by clicking from **[!UICONTROL Select date range]** drop-down. Click **[!UICONTROL Email IDs]** tab to enter the copied list of unique email ids.
 
    ![](assets/cp-copy-paste-feature.png)
 
@@ -94,7 +94,7 @@ Fetching Learner transcripts becomes a tedious process as it can be obtained onl
 
    *Generate the Learner Transcripts*
 
-1. Click **Generate** button to generate Learner Transcripts for all the mentioned email ids. You will receive a confirmation message as below stating report generation.
+1. Click **[!UICONTROL Generate]** button to generate Learner Transcripts for all the mentioned email ids. You will receive a confirmation message as below stating report generation.
 
    ![](assets/cp-copy-paste-gmessage.png)
 
@@ -110,9 +110,9 @@ On the **Learner Transcript** download page, to generate  a report, when you cli
 
 *Generate a report of all Learner Transcripts*
 
-Click **Advanced Options** and expand the panel.
+Click **[!UICONTROL Advanced Options]** and expand the panel.
 
-Choose the users and the catalog they belong to. After clicking the **Generate** button, a dialog displays that mentions the approximate time that will be taken to download the report. To generate the report, click **Generate**.
+Choose the users and the catalog they belong to. After clicking the **[!UICONTROL Generate]** button, a dialog displays that mentions the approximate time that will be taken to download the report. To generate the report, click **[!UICONTROL Generate]**.
 
 ![](assets/download-learnertranscripts.png)
 
@@ -159,7 +159,7 @@ After enabling the option and clicking **Generate**, the deleted learners' data 
 
 An Administrator can customize the columns exported in a Learner Transcript report. Admins, Custom Admins, and Managers can configure the columns before exporting the report. 
 
-On the **Learner Transcripts** dialog, click **Advanced Options**. In the **Configure Export Format** section, choose the columns that you want to export.
+On the **Learner Transcripts** dialog, click **[!UICONTROL Advanced Options]**. In the **Configure Export Format** section, choose the columns that you want to export.
 
 ![](assets/image024.png)
 

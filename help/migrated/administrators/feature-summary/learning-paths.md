@@ -28,9 +28,9 @@ Learning paths makes the delivery of a training program convenient and hassle-fr
 
 ## Add a Learning Path in Learning Manager 
 
-In Learning Manager, in the Admin app, click **Learning Path** on the left panel.
+In Learning Manager, in the Admin app, click **[!UICONTROL Learning Path]** on the left panel.
 
-In the **Learning Path** page, click **Add**. Enter the details.
+In the **Learning Path** page, click **[!UICONTROL Add]**. Enter the details.
 
 ![](assets/add-learning-path.png)
 
@@ -48,7 +48,7 @@ Choose the sequencing type for the sections and training as Ordered or Unordered
 
 If you choose Ordered, the courses appear in the same sequence as you created them. If you choose Unordered, the courses are not sequenced. Learners can complete the courses in any order.
 
-To add a course in the Learning Path, click **Add Courses or Learning Paths**.
+To add a course in the Learning Path, click **[!UICONTROL Add Courses or Learning Paths]**.
 
 In the dialog that appears, choose the training that you want to add to the Learning Path.
 
@@ -58,7 +58,7 @@ In the dialog that appears, choose the training that you want to add to the Lear
 
 You can further sort the courses according to the skills assigned, modified date, and course effectiveness.
 
-After selecting the courses or Learning Path, click **Save**.
+After selecting the courses or Learning Path, click **[!UICONTROL Save]**.
 
 In the Learning Path, you can perform the following:
 
