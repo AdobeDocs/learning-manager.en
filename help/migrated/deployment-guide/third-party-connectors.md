@@ -52,11 +52,11 @@ Also make sure that you have the appropriate credentials to log in to the accoun
 
 ## Create a connection {#createaconnection}
 
-1. In Learning Manager home page, hover mouse over the Salesforce card/thumbnail. A menu appears. Click **Connect** item in the menu.
+1. In Learning Manager home page, hover mouse over the Salesforce card/thumbnail. A menu appears. Click **[!UICONTROL Connect]** item in the menu.
 
    ![](assets/mouserover-salesforce.png)
 
-1. A dialog appears prompting you to enter the org-url. Click **Connect** after providing the URL. 
+1. A dialog appears prompting you to enter the org-url. Click **[!UICONTROL Connect]** after providing the URL. 
 1. Upon successful connection, the overwiew page appears.
 
 ## Map attributes {#mapattributes}
@@ -69,7 +69,7 @@ Once connection is successfully established, you can map Salesforce columns to t
 
    Learning Manager's column data shown on the left side are fetched from the active fields. The **manager** field must necessarily be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.
 
-1. Click **Save** after completing the mapping. 
+1. Click **[!UICONTROL Save]** after completing the mapping. 
 1. The connector is now ready for use. The account that has been configured now, appears as a data source within the Administrator app, for the administrator to schedule the import or for on-demand sync.
 
 ## Using Salesforce connector {#usingsalesforceconnector}
@@ -104,11 +104,11 @@ Learn the process to integrate Learning Manager with FTP connector.
 
 ### Create a connection {#Createaconnection-1}
 
-1. In Learning Manager home page, hover mouse over the FTP card/thumbnail. A menu appears. Click **Connect **item in the menu.
+1. In Learning Manager home page, hover mouse over the FTP card/thumbnail. A menu appears. Click **[!UICONTROL Connect]** item in the menu.
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **Connect** after providing the email id. 
+1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
 1. Learning Manager sends you an email prompting the user to reset the password before accessing the FTP for the first time. The user must reset the password and use this for accessing the Learning Manager FTP account.
 
    Only one Learning Manager FTP account can be created for a given Learning Manager account.
@@ -138,7 +138,7 @@ Once connection is successfully established, you can map the columns of CSV file
 
    *The Manager field must necessarily be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.*
 
-1. Click **Save** after completing the mapping. 
+1. Click **[!UICONTROL Save]** after completing the mapping. 
 
    The connector is now ready for use. The just configured account will now appear as a data source within the Administrator app for the Administrator to schedule the import or for on-demand sync.
 
