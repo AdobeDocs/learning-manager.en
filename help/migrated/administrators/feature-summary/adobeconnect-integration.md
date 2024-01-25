@@ -12,7 +12,7 @@ Administrators of an organization can configure the settings of Learning Manager
 
 ## Configure Adobe Connect {#configureadobeconnect}
 
-1. In Administrator login, click **Settings** at the left pane to view the basic information about your company. Click **Adobe Connect** on the left pane.
+1. In Administrator login, click **[!UICONTROL Settings]** at the left pane to view the basic information about your company. Click **[!UICONTROL Adobe Connect]** on the left pane.
 
    ![](assets/left-pane.png)
 
@@ -33,7 +33,7 @@ Administrators of an organization can configure the settings of Learning Manager
 
    Only Adobe hosted connect accounts are supported in Learning Manager. Example; '.adobeconnect.com'.
 
-1. Click **Integrate.**
+1. Click **[!UICONTROL Integrate].**
 
    After authenticating the email id, Learning Manager displays the message as Connect is successfully integrated. You can start viewing your virtual classroom courses using Adobe Connect automatically.
 
@@ -45,7 +45,7 @@ Administrators of an organization can configure the settings of Learning Manager
 
 If the author of a virtual classroom course has not provided the session information, then Administrator can include the session details.
 
-In Administrator login, click the VC course name. Click **Instances** on the left pane and **Session Details**.  Click the Edit icon at the right corner of the Session Details page to add the session information.
+In Administrator login, click the VC course name. Click **[!UICONTROL Instances]** on the left pane and click **[!UICONTROL Session Details]**.  Click the Edit icon at the right corner of the Session Details page to add the session information.
 
 ![](assets/session-creation-admin.png)
 
