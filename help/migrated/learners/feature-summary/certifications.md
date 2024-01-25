@@ -55,7 +55,7 @@ You have to take up the external certification outside of your organization and 
 
    A certification page appears with the certification overview, the certification validity date, issuer, completion date, type (recurring or perpetual), and, badge.
 
-1. To submit the proof of completion for your certification, click Browse, select the file from your local path and click **Upload**.
+1. To submit the proof of completion for your certification, click Browse, select the file from your local path and click **[!UICONTROL Upload]**.
 
 ## Completing certifications {#completingcertifications}
 

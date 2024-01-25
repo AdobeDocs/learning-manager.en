@@ -158,7 +158,7 @@ Learning programs are a set of uniquely designed courses meeting specific learne
 
 To start taking up the learning program, click the program assigned to you. You can view detailed information of that particular program.
 
-A **Start Program** button appears on the upper-right corner of the learning program page. Click **Start Program** to start taking up the course.
+A **Start Program** button appears on the upper-right corner of the learning program page. Click **[!UICONTROL Start Program]** to start taking up the course.
 
 +++
 
@@ -221,8 +221,8 @@ You have an option to download or email your course notes by following the steps
 1. Click the course tile for which you want to view the notes.
 1. Click the **Notes** tab adjacent to **Modules** tab.
 
-1. Click **Download Notes** to download as pdf.
-1. Click **Email Notes** to receive the notes as an email to your email account.
+1. Click **[!UICONTROL Download Notes]** to download as pdf.
+1. Click **[!UICONTROL Email Notes]** to receive the notes as an email to your email account.
 
 +++
 
@@ -302,7 +302,7 @@ Based on your choice, you can view the filtered list of courses and choose accor
 
 +++How do I access my courses in Learning Manager?
 
-1. Log in to Learning Manager as a learner. If you forgot password, click **Forgot** password link provided in the login page to get it back to your email id.
+1. Log in to Learning Manager as a learner. If you forgot password, click **Forgot password** link provided in the login page to get it back to your email id.
 1. Once you log in, you can see the COURSES tab at the top. Click **COURSES** tab to display the list of courses assigned to you.
 
 +++

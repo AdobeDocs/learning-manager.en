@@ -172,4 +172,4 @@ Learners status of Level is displayed at the upper-right corner of the page in a
 
 **1. How to see the Leaderboard as a learner?**
 
-On the learner app, on the left pane, click **Social Learning**. You can see the social leaderboard on the bottom-right corner of the page.
+On the learner app, on the left pane, click **[!UICONTROL Social Learning]**. You can see the social leaderboard on the bottom-right corner of the page.
