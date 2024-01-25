@@ -36,13 +36,13 @@ Displays the training that the learner had taken. These trainings are displayed 
 
 You can also can also swipe left and right to navigate through the list.
 
-To resume a course, click **Continue** on a card, and the player will launch. 
+To resume a course, click **[!UICONTROL Continue]** on a card, and the player will launch. 
 
 The appearance of icons on each training card is enabled/disabled by the Admin via the Admin app (**Settings** > **General** > **Enable Training Card Icons**).
 
 **Add to My learning List**
 
-If you hover on any course card in the **Recommended based on your areas of interest** and **Recommended based on peer activity lists**, you can see an option to add the course to the **My Learning List**. Click **+** on the course card and the course will get added to the **My Learning List**.
+If you hover on any course card in the **Recommended based on your areas of interest** and **Recommended based on peer activity lists**, you can see an option to add the course to the **My Learning List**. Click **[!UICONTROL +]** on the course card and the course will get added to the **My Learning List**.
 
 ![](assets/add-my-learning.png)
 
@@ -139,7 +139,7 @@ The skills that you chose also displays in the **Selected Skills** section.
 
 *Selected skills*
 
-To add the skills, click **Add**.
+To add the skills, click **[!UICONTROL Add]**.
 
 ## Recommendation based on peer activity {#recommendationbasedonpeeractivity}
 
