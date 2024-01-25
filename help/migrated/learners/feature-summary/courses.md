@@ -99,12 +99,12 @@ As a Learner you will be allowed to rate a course only post enrolment. You can s
 
 1. Search a course by entering the course name in the search bar. Alternately, you can choose from the displayed course list by clicking **My Learning** or **Catalog** from the left pane.  
 
-1. After selecting a course, click **Enroll**.
+1. After selecting a course, click **[!UICONTROL Enroll]**.
 
    ![](assets/cp-sr-enroll.png)
    *Enroll in a course*
 
-1. Select the number of stars to rate a course accordingly, 1 being the least and 5 being the best. Then click **Submit**.
+1. Select the number of stars to rate a course accordingly, 1 being the least and 5 being the best. Then click **[!UICONTROL Submit]**.
 
    ![](assets/cp-sr-srsubmitt.png)
    *Submit course rating*
@@ -122,7 +122,7 @@ Courses can be sorted based on the average ratings provided. You can sort the ca
 
 ## Taking a course {#consumingnbspacourse}
 
-After enrolling to a course, you can start taking up the course, by clicking Start on the course. Alternatively, click **Courses **in** Learning** tab. Choose a course that you would like to start taking up.
+After enrolling to a course, you can start taking up the course, by clicking Start on the course. Alternatively, click **[!UICONTROL Courses]** in **[!UICONTROL Learning]** tab. Choose a course that you would like to start taking up.
 
 If you are yet to start a course, click the Start button next to the course title.
 

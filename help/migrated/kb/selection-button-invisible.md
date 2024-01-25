@@ -28,8 +28,8 @@ The issue occurs because of incorrect themes in the account.
 
 Reload the themes and fix the appearance of the radio buttons. Perform the following steps:
 
-1. As an Admin, click **Branding**.
-1. In the **Themes** section, click **Edit.**
+1. As an Admin, click **[!UICONTROL Branding]**.
+1. In the **Themes** section, click **[!UICONTROL Edit].**
 1. Pick any theme and save the changes.
 
    ![](assets/set-themes.png)
