@@ -56,10 +56,10 @@ To add a skill, follow the steps below:
 
    Decimal support is only available in English.
 
-1. Choose a badge for the level. From the **Badge** drop-down list, select an image that must be used as a badge for that level.
+1. Choose a badge for the level. From the **[!UICONTROL Badge]** drop-down list, select an image that must be used as a badge for that level.
 1. To save the changes, click **[!UICONTROL Save]**.
 
-   Once the skill has been created, you can locate the newly created skill on the **Skill** page. You can also see the domains and the brief description of the skill. You can also view the levels and the credits that have been assigned to each level.
+   Once the skill has been created, you can locate the newly created skill on the **[!UICONTROL Skill]** page. You can also see the domains and the brief description of the skill. You can also view the levels and the credits that have been assigned to each level.
 
    ![](assets/list-of-skills.png)
    
@@ -71,7 +71,7 @@ Administrators can assign the skills to learners.
 
 After you create your skills and save them, they get listed in the skills page. Now, you can start assigning these skills to learners as follows:
 
-1. On the **Skill** page, click the hyperlink with the number of learners enrolled to the skill. For a newly created skill, the number of learners for all levels are zero.
+1. On the **[!UICONTROL Skill]** page, click the hyperlink with the number of learners enrolled to the skill. For a newly created skill, the number of learners for all levels are zero.
 
    ![](assets/number-of-learnersenrolledtoaskill.png)
    
@@ -93,7 +93,7 @@ After you create your skills and save them, they get listed in the skills page. 
 
 1. To save the changes, click **[!UICONTROL Save]**.
 
-   After you assign the learners, all learners in a user group, if any, are auto-enrolled to the skill, by default. You can make the learners opt out of auto-enrollment by clicking the **Auto Enroll** button.
+   After you assign the learners, all learners in a user group, if any, are auto-enrolled to the skill, by default. You can make the learners opt out of auto-enrollment by clicking the **[!UICONTROL Auto Enroll]** button.
 
    ![](assets/turn-off-auto-enrollment.png)
    
@@ -117,7 +117,7 @@ Once you create the skill, an author can create a course, and assign the skill t
 
 *Assign skills to a course*
 
-After the author publishes the course, on the **Skill** page, you can see the count of the courses associated with a skill level, which is incremented when you assign the skill to a new course.
+After the author publishes the course, on the **[!UICONTROL Skill]** page, you can see the count of the courses associated with a skill level, which is incremented when you assign the skill to a new course.
 
 ![](assets/skill-assigned-tothecourse.png)
 
@@ -133,7 +133,7 @@ While creating a job aid, an author can associate a skill level with it. Creatin
 
 *Create a Job Aid*
 
-On the **Skill** page, you can see the number of job aids associated with that skill level.
+On the **[!UICONTROL Skill]** page, you can see the number of job aids associated with that skill level.
 
 ![](assets/job-aid-assignedtotheskill.png)
 
@@ -143,11 +143,11 @@ On the **Skill** page, you can see the number of job aids associated with that s
 
 Search for any skill by typing the name of the skill and choosing the skill from the options present. Type-ahead search is also applicable here.
 
-You can search for skills in both the **Active** and **Retired** sections of the Skills page.
+You can search for skills in both the **[!UICONTROL Active]** and **[!UICONTROL Retired]** sections of the Skills page.
 
 ## Edit a skill {#editaskill}
 
-On the **Skill** page, click the skill that you want to modify. In the **Edit Skill** dialog, make the required changes, for example, 
+On the **[!UICONTROL Skill]** page, click the skill that you want to modify. In the **[!UICONTROL Edit Skill]** dialog, make the required changes, for example, 
 
 * Adding or deleting a skill domain.
 * Editing the name and description of the skill.
@@ -158,9 +158,9 @@ After you have made the changes, click **[!UICONTROL Save]**.
 
 ## Retire a skill {#retireaskill}
 
-To retire a skill, on the **Skill** page, select the skill that you want to retire.
+To retire a skill, on the **[!UICONTROL Skill]** page, select the skill that you want to retire.
 
-From the **Actions** menu, on the upper-right corner of the page, click **[!UICONTROL Retire]**.
+From the **[!UICONTROL Actions]** menu, on the upper-right corner of the page, click **[!UICONTROL Retire]**.
 
 When you retire a skill, the skill no longer appears on the course.
 
@@ -168,17 +168,17 @@ When a skill is retired, it cannot be associated with any more courses or job ai
 
 ## Republish a skill {#republishaskill}
 
-Once you have retired a skill, the retired skill appears in the **Retired** tab. The tab displays the list of all skills that are retired.
+Once you have retired a skill, the retired skill appears in the **[!UICONTROL Retired]** tab. The tab displays the list of all skills that are retired.
 
 To republish a retired skill, choose the skill, and from the **[!UICONTROL Actions]** menu, click **[!UICONTROL Republish]**.
 
-This restores the skill and you can see the skill again in the **Active** tab.
+This restores the skill and you can see the skill again in the **[!UICONTROL Active]** tab.
 
 ## Delete a skill {#deleteaskill}
 
 You can only delete a skill that has been previously retired.
 
-In the **Retired** tab, select the skill that you want to delete, and from the **Actions** menu, click **[!UICONTROL Delete]**.
+In the **[!UICONTROL Retired]** tab, select the skill that you want to delete, and from the **[!UICONTROL Actions]** menu, click **[!UICONTROL Delete]**.
 
 You can delete a skill only when it is not associated with any learners, courses, or job aids.
 
@@ -266,12 +266,12 @@ On the Skills page, there is a column called Instructors, which denotes the numb
 
    ![](assets/course-skills.png)
 
-   To enable badges for course completion, in the **Instances** section of the Author app, enable the required badge.
+   To enable badges for course completion, in the **[!UICONTROL Instances]** section of the Author app, enable the required badge.
 +++
 
 +++Can an Admin mark a badge as complete even if the badge shows "In Progress"?
 
-   An Administrator can mark a Learning Object as complete. Skill and badges are associated with the Learning Object, and they cannot be marked **Complete** separately.
+   An Administrator can mark a Learning Object as complete. Skill and badges are associated with the Learning Object, and they cannot be marked **[!UICONTROL Complete]** separately.
 
    In other words, to achieve the badge, **one must complete the associated Learning Object**.
 +++
@@ -279,9 +279,3 @@ On the Skills page, there is a column called Instructors, which denotes the numb
 ### More like this
 
 * [Skills and Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
-
-<!--
-Saurav: FYI, Adobe employees should not post Adobe content to YouTube. Videos should be added to MPC. Contact Sean Schnoor for more information.
--->
-
-<!-- Bob: Removed the YT link, as it has become obsolete. -->

@@ -35,8 +35,8 @@ You can sort the tags based on usage or alphabetical order using the **[!UICONTR
 
 ## Replace tags {#replacetags}
 
-1. Select the tags you want to replace. You can select up to 50 tags at once. Open the **[!UICONTROL Actions]** drop-down menu and select **[!UICONTROL Replace.]**
-1. The **[!UICONTROL Replace Tags]**dialogue box appears showing the selected tags.  
+1. Select the tags you want to replace. You can select up to 50 tags at once. Open the **[!UICONTROL Actions]** drop-down menu and select **[!UICONTROL Replace]**.
+1. The **[!UICONTROL Replace Tags]** dialogue box appears showing the selected tags.  
 
 1. In the **[!UICONTROL Name for replaced tags]** option, enter the name of the new tag you wish to replace the selected tags with. You can either replace them with an existing tag from the drop-down or add a new tag.
 

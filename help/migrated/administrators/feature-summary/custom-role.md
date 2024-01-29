@@ -14,15 +14,15 @@ You can create a custom role to provide authoring capabilities limited to a part
 
 ## Create a custom role {#create-role}
 
-1. Log in as an Administrator. Open **Users** > **Custom Role**.
-1. Select **Create Role**. The **Create New Role** tab opens.
+1. Log in as an Administrator. Open **[!UICONTROL Users]** > **[!UICONTROL Custom Role]**.
+1. Select **[!UICONTROL Create Role]**. The **[!UICONTROL Create New Role]** tab opens.
 
    ![](assets/create-new-role.png)
 
    *Create a custom role*
 
-1. Enter the name in the **Name of the Role** field.
-1. **Account privileges**: These privileges give the role owners access to specific system configuration aspects and which act on the entire account. Choose the access permissions. The user gets full control over assigned permissions.
+1. Enter the name in the **[!UICONTROL Name of the Role]** field.
+1. **[!UICONTROL Account privileges]**: These privileges give the role owners access to specific system configuration aspects and which act on the entire account. Choose the access permissions. The user gets full control over assigned permissions.
 
 >[!NOTE]
 >
@@ -63,9 +63,9 @@ You can create a custom role to provide authoring capabilities limited to a part
 
 1. **Scope for feature privileges:** The scope of Feature privileges allocated to this role can be restricted to a specific User Group or one or more Catalogs.
 
-   Catalogs: Use the radio button to provide control over **All catalogs** or use the **Set access per Catalog** option to provide access to specific catalogs. You can also select multiple catalogs.
+   Catalogs: Use the radio button to provide control over **[!UICONTROL All catalogs]** or use the **[!UICONTROL Set access per Catalog]** option to provide access to specific catalogs. You can also select multiple catalogs.
 
-   User Groups: Provide access to **All User Groups** or use the **Set access per user group** option to provide access to specific user groups. Only a single user group can be specified.
+   User Groups: Provide access to **[!UICONTROL All User Groups]** or use the **[!UICONTROL Set access per user group]** option to provide access to specific user groups. Only a single user group can be specified.
 
    >[!NOTE]
    >
@@ -84,7 +84,7 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    To grant various permissions to the catalogs, follow the steps below:
 
-   1. Click the option **Set access per Catalog**.
+   1. Click the option **[!UICONTROL Set access per Catalog]**.
    1. Choose the catalogs and you can see the level of permission for each catalog. The permissions are as follows:
 
       <table>
@@ -253,13 +253,13 @@ Choose the folders and click **[!UICONTROL OK]**.
 
 ## Learning Summary Dashboard for Custom Admin {#custom-admin-dashboard}
 
-Custom admins can see the same view as what an Admin sees. A custom admin may data outside his scope. This is only applicable if the custom admin has full scope. To grant full scope, while creating a custom admin, enable the option **Full Control** in Account Summary Report.
+Custom admins can see the same view as what an Admin sees. A custom admin may data outside his scope. This is only applicable if the custom admin has full scope. To grant full scope, while creating a custom admin, enable the option **[!UICONTROL Full Control]** in Account Summary Report.
 
 ![](assets/create-custom-role.png)
 
 *Create a custom role*
 
-As a result, the options, **All Catalogs** and **All User Groups** will get selected and the rest disabled.
+As a result, the options, **[!UICONTROL All Catalogs]** and **[!UICONTROL All User Groups]** will get selected and the rest disabled.
 
 ![](assets/scope-of-featureprivileges.png)
 
@@ -439,25 +439,25 @@ When the Admin changes the scope of the custom role, the change also cascades to
 
 The Custom Admin now must update or refresh the earlier scope to the new scope.
 
-Clicking **Refresh Scope** updates the scope. There is a warning message that displays.
+Clicking **[!UICONTROL Refresh Scope]** updates the scope. There is a warning message that displays.
 
 ![](assets/refresh-scope-message.png)
 
 *Warning message after refreshing a scope*
 
-Clicking **Yes** updates the scope.
+Clicking **[!UICONTROL Yes]** updates the scope.
 
 ## Add gamification report to a custom role {#gamification-custom}
 
 An administrator can enable gamification reports for a custom user.
 
-1. In the **Custom Roles** page, enter the name of the custom role.
-1. In the **Feature Privileges: Core Features** section,  enable the option **Full Control** for the category **Reports**.  
+1. In the **[!UICONTROL Custom Roles]** page, enter the name of the custom role.
+1. In the **[!UICONTROL Feature Privileges: Core Features]** section,  enable the option **[!UICONTROL Full Control]** for the category **[!UICONTROL Reports]**.  
 
-1. In the section **Users**, select the user that will be assigned the newly created custom role.
+1. In the section **[!UICONTROL Users]**, select the user that will be assigned the newly created custom role.
 1. Click **[!UICONTROL Save]**.
 
-When a user logs in as Custom Admin and clicks **Reports** on the left pane, the transcripts appear, as shown below:
+When a user logs in as Custom Admin and clicks **[!UICONTROL Reports]** on the left pane, the transcripts appear, as shown below:
 
 ![](assets/download-gamificationtranscripts.png)
 

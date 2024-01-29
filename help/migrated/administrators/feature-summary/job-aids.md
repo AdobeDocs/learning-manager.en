@@ -33,15 +33,16 @@ View withdrawn job aids by clicking the Withdrawn tab. You can re-publish the wi
 1. In Published tab, click the settings icon adjacent to a job aid.   
     
 
-1. Click **[!UICONTROL Manage Assignment]**.  
-   The **Enroll Learners** pop-up dialog appears. 
+1. Click **[!UICONTROL Manage Assignment]**.
+
+   The **[!UICONTROL Enroll Learners]** pop-up dialog appears. 
 
    ![](assets/enroll-learners-job-aids.png)
 
    *View the Enroll Learners dialog*
 
-1. In the **Learners** field, start typing the name of learners and choose the learners from the drop-down list. You can also find learners by name, profile and so on. 
-1. Click **[!UICONTROL Add]**.
+1. In the **[!UICONTROL Learners]** field, start typing the name of learners and choose the learners from the drop-down list. You can also find learners by name, profile and so on. 
+1. Click **[!UICONTROL Add].**
 1. Click **[!UICONTROL Save]**.
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
@@ -54,12 +55,12 @@ On the upper right corner of the screen, click **[!UICONTROL Actions]** > **[!UI
 
 +++How to manage Job Aid assignments?
 
-In **Published** tab, click the settings icon near a job aid. Add a learner and click **[!UICONTROL Add]**.
+In **[!UICONTROL Published]** tab, click the settings icon near a job aid. Add a learner and click **[!UICONTROL Add]**.
 
 +++
 
 +++How to withdraw  a Job Aid?
 
-In **Published** tab, click the settings icon near a job aid. Click **[!UICONTROL Withdraw]**. The Job Aid now no longer appears in the Published tab. To view the withdrawn Job Aid, click the Withdrawn tab.
+In **[!UICONTROL Published]** tab, click the settings icon near a job aid. Click **[!UICONTROL Withdraw]**. The Job Aid now no longer appears in the Published tab. To view the withdrawn Job Aid, click the Withdrawn tab.
 
 +++

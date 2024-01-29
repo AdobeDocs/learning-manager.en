@@ -28,7 +28,7 @@ A set of five representative images is provided to preview your color theme chan
 
 **Pick a theme**
 
-Click the **Show hints** below this section to display the hints on the image as shown below. 
+Click the **[!UICONTROL Show hints]** below this section to display the hints on the image as shown below. 
 
 ![](assets/themes-preview-images.png)
 
@@ -49,7 +49,7 @@ Learning Manager application provides five color theme options to its users:
 
 You can customize the top bar color, Accent color (for example, icons color in left pane), primary color, and sidebar brightness of Themes except for the Prime Default theme. 
 
-In the **Primary color** picker, you can choose the color that is used for the Immersive UI.
+In the **[!UICONTROL Primary color]** picker, you can choose the color that is used for the Immersive UI.
 
 To customize, choose the theme type on the left pane and click the squares adjacent to brand color and sidebar icon colors. Click the side bar in sidebar brightness, drag forward or backward to adjust the brightness. Observe the preview in the above images as you modify these options.
 

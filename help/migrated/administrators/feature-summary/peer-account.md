@@ -21,7 +21,7 @@ Learning Manager offers the ability to share purchased seats using the Peer acco
 
    *Add peer account*
 
-1. In the **Account Subdomain** field, specify the sub-domain with whom you want to establish a peer account.
+1. In the **[!UICONTROL Account Subdomain]** field, specify the sub-domain with whom you want to establish a peer account.
 
    ![](assets/addpeer.png)
 
@@ -63,7 +63,7 @@ If you no longer wish to share seats or purchases with an account, you can delet
 The Administrator can view the user report of the peer account. The parent account admin can request to access the report and once the peer account admin accepts this, the parent admin will be able to view the number of registered users in the peer account and will be able to download the user report for peer account.
 
 1. On the Peer Accounts page, click **[!UICONTROL Add]**.
-1. Enable the option, **Request permission to download user reports for entire account**.
+1. Enable the option, **[!UICONTROL Request permission to download user reports for entire account]**.
 
 ![](assets/image034.png)
 
@@ -81,4 +81,3 @@ When adding a peer account, specify the number of seats that you can share with 
 
 *Share seats from one account to another*
 +++
-

@@ -18,7 +18,7 @@ To create a catalog, perform the following steps:
 
 1. As an Admin, on the left pane, click Catalogs. On this page, there is a default catalog, which is automatically created when you create a Learning Manager account. And by default, all the learning objects in this catalog are shared with all the learners. 
 1. To create a catalog, on the upper-right corner of the page, click **[!UICONTROL Create]**. Optionally, you can also click **[!UICONTROL Create Catalog]**, which is located below the list of catalogs.
-1. On the **Create Catalog** page, enter the name and description of the catalog that you want to create.
+1. On the **[!UICONTROL Create Catalog]** page, enter the name and description of the catalog that you want to create.
 
    ![](assets/create-catalog.png)
 
@@ -50,7 +50,7 @@ To create a catalog, perform the following steps:
 
    *Select a course to add to the catalog*
 
-   The course that you have added appears in the **Courses** tab.
+   The course that you have added appears in the **[!UICONTROL Courses]** tab.
 
 ## Add a Learning Program to the catalog {#lp}
 
@@ -58,7 +58,7 @@ To create a catalog, perform the following steps:
 1. Save the changes. Go back to the list of catalogs and click the new catalog in the list.
 1. In the page for the new catalog, on the left pane, click **[!UICONTROL Content]**.
 
-   The Learning Program that you have added appears in the **Learning Programs** tab.
+   The Learning Program that you have added appears in the **[!UICONTROL Learning Programs]** tab.
 
 ## Add a certification to the catalog {#cert}
 
@@ -66,7 +66,7 @@ To create a catalog, perform the following steps:
 1. Save the changes. Go back to the list of catalogs and click the new catalog in the list.
 1. In the page for the new catalog, on the left pane, click **[!UICONTROL Content]**.
 
-   The  Certification that you have added appears in the **Certifications** tab.
+   The  Certification that you have added appears in the **[!UICONTROL Certifications]** tab.
 
 ## Add a Job Aid to the catalog {#job}
 
@@ -74,7 +74,7 @@ To create a catalog, perform the following steps:
 1. Save the changes. Go back to the list of catalogs and click the new catalog in the list.
 1. In the page for the new catalog, on the left pane, click **[!UICONTROL Content]**.
 
-   The  Job Aid that you have added appears in the **Job Aids** tab.
+   The  Job Aid that you have added appears in the **[!UICONTROL Job Aids]** tab.
 
 The content appears in each of these tabs if it is already available in the account. Otherwise, you need to create the content first. For example, if you have not added any of the courses or learning programs already in Learning Manager application, then you have to start creating them first. 
 
@@ -82,7 +82,7 @@ The content appears in each of these tabs if it is already available in the acco
 
 An Admin can generate a deep link for a catalog that can take the learners to the specific catalog page.
 
-On the **Catalogs** page, mouse over on the catalog that you the deep link for and click the highlighted icon.
+On the **[!UICONTROL Catalogs]** page, mouse over on the catalog that you the deep link for and click the highlighted icon.
 
 ![](assets/catalog-deep-link.png)
 
@@ -96,7 +96,7 @@ To enable the catalog,
 
 1. In the list of catalogs, toggle the option near the catalog that you want to enable. Alternatively, you can select the check-box near the catalog, click **[!UICONTROL Actions]** on the upper-right corner, and click **[!UICONTROL Enable]**.
 
-1. You can also enable multiple catalogs in the list. Select the catalogs, and from the **[!UICONTROL Action]** menu, choose the option **Enable**.
+1. You can also enable multiple catalogs in the list. Select the catalogs, and from the **[!UICONTROL Action]** menu, choose the option **[!UICONTROL Enable]**.
 
 ## Disable the catalog {#disablethecatalog}
 
@@ -136,7 +136,7 @@ There is no option available to enable/disable a shared user group. To disable, 
 
 ## Share the catalog externally {#ext}
 
-In Catalogs page, click the catalog you want to share. In the left panel click **Share Externally**.
+In Catalogs page, click the catalog you want to share. In the left panel click **[!UICONTROL Share Externally]**.
 
 ![](assets/shared-catalog-external.png)
 
@@ -150,7 +150,7 @@ You can set the limit for number of enrollments per course on the shared catalog
 
 **Expiry**
 
-You can set the validity of the shared catalog by setting up an expiry date in **Expiry **field. After the expiry date of shared catalog, enrollments are not allowed for courses. Existing learners can still have access to the content. Learning objects are retired but the badges and skills are active. At this state, the shared catalog receiver cannot un-retire the retired learning objects. 
+You can set the validity of the shared catalog by setting up an expiry date in **[!UICONTROL Expiry]** field. After the expiry date of shared catalog, enrollments are not allowed for courses. Existing learners can still have access to the content. Learning objects are retired but the badges and skills are active. At this state, the shared catalog receiver cannot un-retire the retired learning objects. 
 
 Click **[!UICONTROL Save]** after adding all the required information. Click **[!UICONTROL Actions]** drop-down at the upper-right corner of the page and click **[!UICONTROL Share]** to share the catalog with external accounts. 
 
@@ -290,7 +290,7 @@ Catalogs can be shared with Learners inside your organization by using the User 
 
 1. Open a catalog and click **[!UICONTROL Share Internally]**.
 1. To add learners, on the upper-right corner of the page, click **[!UICONTROL Add]**.
-1. On the **User Groups** dialog, start adding learners.
+1. On the **[!UICONTROL User Groups]** dialog, start adding learners.
 1. Click **[!UICONTROL Save]**.
 
 When a learner logs in to Learning Manager, he/she has view the Catalogs that were shared with him/her. 

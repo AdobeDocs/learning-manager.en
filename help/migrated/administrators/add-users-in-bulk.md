@@ -10,7 +10,7 @@ contentowner: saghosh
 
 Yes, you can add multiple users at a time by following the below steps:
 
-1. Click **[!UICONTROL Users]** on the left pane in Administrator login, and then click **[!UICONTROL Add]**>**[!UICONTROL Upload a csv]**. A pop-up dialog appears.   
+1. Click **[!UICONTROL Users]** on the left pane in Administrator login, and then click **[!UICONTROL Add]** > **[!UICONTROL Upload a csv]**. A pop-up dialog appears.   
 
 1. You can add multiple users using a .CSV file. Click **[!UICONTROL Import]** and select/open the .csv file from your computer.   
 

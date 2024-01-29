@@ -20,7 +20,7 @@ Administrators can create the badges for learners as follows:
    >
    >By default, a list of few sample badges are available.
 
-1. Click **** at the upper-right corner of the page. Add Badge dialog appears.
+1. Click **[!UICONTROL Add Badge]** at the upper-right corner of the page. Add Badge dialog appears.
 
    ![](assets/add-badge1.png)
 

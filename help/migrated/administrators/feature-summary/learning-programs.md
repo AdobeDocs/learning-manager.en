@@ -23,16 +23,22 @@ Administrators can create learning programs. To create a learning program, follo
 1. To create the learning programs in other locales, click Add New Language on top of the page. Select the languages that you need, and click Add. You may need to add all the learning program metadata in all the chosen languages. Else, the English information is displayed for other locales.  
 1. Enter a unique Learning object Id for your learning program. The unique Id should contain only alphabets and numbers and no special characters. No two learning objects should have the same Id.
 1. Choose the enrollment type as admin enroll or self enroll, as per your choice. Select the unenrollment option and course ordering options, and click Save. If you choose self enroll, the learners can enroll themselves to learning program.  
+
    Courses page appears to add courses to the learning programs. You can see Curriculum and Catalog tabs in it.   
+
    **Note** 
+
    All types of courses can be added to a Learning Program. These include classroom and virtual classroom courses, activity, self-paced, and blended courses. Manager nominated and manager approved courses do not appear during course selection in learning programs.
 
 1. You have to add courses to learning program before publishing it. Click **[!UICONTROL Catalog]** tab to associate courses to the learning program. A list of all the available courses is displayed.  
 
 1. Choose the courses you want to add to the learning program by hovering mouse pointer over any course card and by clicking it. If the course is not yet added to the learning program, you can view a + symbol at the middle of that course card.  
+
    To include more courses, repeat this step.  
+
    **Note** 
-   View the list of all the added courses of your learning program in **Curriculum** tab. Added label can be seen for the added courses, at the bottom of the course card in **Catalog** tab.
+
+   View the list of all the added courses of your learning program in **[!UICONTROL Curriculum]** tab. Added label can be seen for the added courses, at the bottom of the course card in **[!UICONTROL Catalog]** tab.
 
 1. Click **[!UICONTROL Back to programs]** on top of left pane, to view a list of all the learning programs. You can see your newly added learning program being listed there.
 1. You can publish the learning program by clicking Overview in the left pane and choosing Actions>Publish. You can also publish the learning program through Courses and Instances view by clicking Publish at the upper-right corner of the page.

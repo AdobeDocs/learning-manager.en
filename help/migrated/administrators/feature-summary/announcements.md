@@ -55,12 +55,12 @@ When you choose this option, any media file that you choose features as a masthe
 
 1. Browse and choose an image that will represent the masthead. The recommended size is 1280 x 360 px.
 1. Choose the locale to which you want to add a masthead. For each language, you must choose a masthead asset.
-1. In the **Action Button** field, add a url so that when learners click the button on the masthead, they are redirected to the url. This is an optional field.
+1. In the **[!UICONTROL Action Button]** field, add a url so that when learners click the button on the masthead, they are redirected to the url. This is an optional field.
 1. Choose the target user groups or the target learning objects. You can choose only one of them for an announcement.
 
    Start typing the user group name in the text box and choose from the drop-down list. Similarly, choose the training by typing the object name in the text-box.
 
-1. In the **Advanced Settings** section, you have the following options:
+1. In the **[!UICONTROL Advanced Settings]** section, you have the following options:
 
    * Click **[!UICONTROL Immediately]** if you want the announcement to be posted right then.
    * Click **[!UICONTROL Never]** if you do not want your announcement to expire.

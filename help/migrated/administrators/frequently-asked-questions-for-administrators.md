@@ -98,7 +98,7 @@ You can add L3 feedback while you enroll learners to the courses. Add L3 feedbac
 1. Click Courses at the left pane after you log in as Administrator. Lists of all the courses appear on the right side page.
 1. Click the course tile for which you want to add L3 feedback
 1. Click instance default at the left pane.
-1. Click the circle on toggle button adjacent to L3 – Behavior change feedback to select it.
+1. Click the circle on toggle button adjacent to L3 - Behavior change feedback to select it.
 1. Add the L3 feedback question in the text area below L3 Question.
 
 +++
@@ -133,7 +133,7 @@ Enroll learners to courses by following the steps below:
 Assign learners to competencies by following the steps as below:
 
 1. Click **[!UICONTROL Skills]** at the left pane after you log in as Administrator.
-1. Select one or multiple skills by clicking check boxes against each competency and click**[!UICONTROL Actions]** drop down at the upper-right corner of the page.
+1. Select one or multiple skills by clicking check boxes against each competency and click **[!UICONTROL Actions]** drop down at the upper-right corner of the page.
 1. Click Assign to users.
 1. Start typing the name of the user, choose from the drop-down list and click **[!UICONTROL Save]**.  
 
@@ -228,11 +228,12 @@ You can create reports by following the steps below:
 
 1. Click Reports on the left pane. Report summary page appears.
 1. On the Reports page, click **[!UICONTROL Add]** at the upper-right corner.  
-   **Add report** dialog appears.
+
+   **[!UICONTROL Add Report]** dialog appears.
 
 1. Fill up all the mandatory fields, and click Save.
 
-Only Administrators and Managers can create or view reports. Refer  [reports feature](/help/migrated/administrators/feature-summary/reports.md) for more information.
+Only Administrators and Managers can create or view reports. Refer to [reports feature](/help/migrated/administrators/feature-summary/reports.md) for more information.
 
 +++
 
@@ -261,7 +262,8 @@ Adobe Learning Manager provides you the facility to enroll external department m
 
 1. Click **[!UICONTROL Users]** on the left pane.
 1. Click **[!UICONTROL External]** on the left pane.
-1. Click **[!UICONTROL Add]** at the upper-right corner of the page.  
+1. Click **[!UICONTROL Add]** at the upper-right corner of the page. 
+
    Add User dialog appears.
 
 1. Add the profile name, Manager email, seats allotted, expiry information. You can also add image to the external profile. 
@@ -288,9 +290,9 @@ You can add a set of questionnaire and choose not to show them up if you do not 
 1. Click Add to add new competencies.
 1. Add competency name, description and the corresponding credits accordingly to each level.
 
-By default, a single level with 0 credits will be available for each competency. 
+   By default, a single level with 0 credits will be available for each competency. 
 
-    4. Click Add level to add new level to each competency and click Save. You can add up to 5 levels.
+1. Click [!UICONTROL **Add level**] to add new level to each competency and click Save. You can add up to 5 levels.
 
 Once the competency is saved, you cannot remove levels from the competency. Administrator can also assign learners to a particular competency and level.
 
@@ -298,9 +300,11 @@ Once the competency is saved, you cannot remove levels from the competency. Admi
 
 +++How do I set up billing system for my organization's courses?
 
-1. Click Billing at the left pane.  
+1. Click [!UICONTROL **Billing**] at the left pane.  
+
    Billing information appears on the page.
-1. Click Subscribe tab.
+
+1. Click the [!UICONTROL **Subscribe**] tab.
 1. Type the number of packs you want to order in Learner packs field, and click Place Order at the upper-right corner of the page.  
 
    Choose the number of packs based on the number of learners in your organization and place your order. For a purchase order driven process, write to us at  [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
@@ -326,7 +330,7 @@ In Adobe Learning Manager, you can recognize learners by issuing badges. Refer t
 
 +++How do I add Courses?
 
-To add courses you need to switch your role as Author. You can only view the list of available courses based on their state as **Complete, Published**, and **Retired**.
+To add courses you need to switch your role as Author. You can only view the list of available courses based on their state as **[!UICONTROL Complete]**, **[!UICONTROL Published]**, and **[!UICONTROL Retired]**.
 
 To view courses, click **[!UICONTROL Courses]** on left pane. Refer  [Creating courses](/help/migrated/administrators/feature-summary/courses.md)for more information
 
@@ -339,7 +343,7 @@ To add new users, follow the steps below:
 1. Click Users on the left pane after you log in as Administrator. You can also add users by clicking Getting Started on the left pane of the window and by clicking Add Users.
 1. To add new users, click Add on the upper-right corner of the page.
 
-By default, all the new users are assigned with a learner role. You can assign Admin or Author roles to the learners by clicking **Actions** at the upper-right corner of the page and choosing **Assign Role** > **Make Author or Make Admin**.
+By default, all the new users are assigned with a learner role. You can assign Admin or Author roles to the learners by clicking **[!UICONTROL Actions]** at the upper-right corner of the page and choosing **[!UICONTROL Assign Role]** > **[!UICONTROL Make Author]** or **[!UICONTROL Make Admin]**.
 
 Refer  [Add new users](/help/migrated/administrators/feature-summary/add-users-user-groups.md) feature for detailed information on adding learners, authors and administrators.
 

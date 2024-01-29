@@ -10,7 +10,7 @@ contentowner: manochan
 
 Learn about the Learning Manager account settings that you can configure as an administrator.
 
-You can change your Administrator profile settings and update your Account settings. View your profile information, add/change profile photo, and modify **About me** content. Update your company info, set up log in methods for users, and set up connect integration through account settings.
+You can change your Administrator profile settings and update your Account settings. View your profile information, add/change profile photo, and modify **[!UICONTROL About me]** content. Update your company info, set up log in methods for users, and set up connect integration through account settings.
 
 ## Account settings {#accountsettings}
 
@@ -22,7 +22,7 @@ Click **[!UICONTROL Change]** on the page and edit country, timezone, locale, an
 
 **Configure contact admin**
 
-If you want to add or change the support administrators email addresses for your organization , you can configure by clicking **General** on the left pane. Click **[!UICONTROL Change]** adjacent to **Support Email ID** and add the email ids. Email is sent to these administrators when learner clicks **[!UICONTROL Contact Admin]** at the footer of the page. 
+If you want to add or change the support administrators email addresses for your organization , you can configure by clicking **[!UICONTROL General]** on the left pane. Click **[!UICONTROL Change]** adjacent to **[!UICONTROL Support Email ID]** and add the email ids. Email is sent to these administrators when learner clicks **[!UICONTROL Contact Admin]** at the footer of the page. 
 
 Add additional email-ids with semi-colon as a separator.  
 
@@ -45,7 +45,7 @@ Click **[!UICONTROL Feedback]** on the left pane to set up the questionnaire to 
 
 **Multi attempts**
 
-Select **Settings** > **General** > **Multiple Attempts**.
+Select **[!UICONTROL Settings]** > **[!UICONTROL General]** > **[!UICONTROL Multiple Attempts]**.
 
 If you enable the 'Multi Attempts' check box, then the Authors can set 'Multiple attempts' for interactive e-learning courses or modules .On selecting the second checkbox, administrators can set 'Infinite attempts' by default for any newly created interactive e-learning courses.
 
@@ -462,11 +462,11 @@ To rename the terminologies, follow these steps.
 
    *Rename product terminology*
 
-1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL Download here]**option.
+1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL Download here]** option.
 1. The downloaded CSV file contains the name of the objects in coloum A. In coloumn B, choose the name you want to assign to the respective object. Note that you need to update the singular and plural form of the name separated by a (|).
 1. You can choose to modify one or more rows. You can either retain the non-modified rows or remove them from the CSV file before uploading them.
 1. Upload the modified CSV file and click **[!UICONTROL Save]**. Learning Manager refreshes reflecting your changes.
-1. To reset to default terminologies, click **[!UICONTROL Reset Product Terminology.]**
+1. To reset to default terminologies, click **[!UICONTROL Reset Product Terminology]**.
 
    ![](assets/with-reset-option.png)
 
@@ -476,8 +476,8 @@ To rename the terminologies, follow these steps.
 
 1. Click the drop-down arrow at the upper-right corner, adjacent to your photo/account and choose **[!UICONTROL Profile Settings]**.
 1. From the pop-up dialog, you can add/change a photo by hovering the mouse and by clicking **[!UICONTROL Edit]** in the profile photo area.
-1. Add/modify **About** content by clicking **Edit** adjacent to it. 
-1. Click **[!UICONTROL Save]**.
+1. Add/modify **[!UICONTROL About]** content by clicking **[!UICONTROL Edit]** adjacent to it. 
+1. Click **[!UICONTROL Save].**
 
 ## Content Folder {#content-folder}
 
@@ -577,5 +577,5 @@ For more information, see the section on [Content Folder](settings.md#content-fo
 
 +++How to add financial year for the account?
 
-In **Settings** > **Basic Info**, click **[!UICONTROL Change]**. From the **Financial year starts from** drop-down list, select the month.
+In **[!UICONTROL Settings]** > **[!UICONTROL Basic Info]**, click **[!UICONTROL Change]**. From the **[!UICONTROL Financial year starts from]** drop-down list, select the month.
 +++

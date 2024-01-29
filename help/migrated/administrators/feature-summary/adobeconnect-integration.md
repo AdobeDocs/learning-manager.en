@@ -18,7 +18,7 @@ Administrators of an organization can configure the settings of Learning Manager
 
    *Select Adobe Connect in the left pane*
 
-1. Click **Configure Now** link in **Adobe Connect Configuration** section.
+1. Click **[!UICONTROL Configure Now]** link in **[!UICONTROL Adobe Connect Configuration]** section.
 
    <!--![](assets/configure-now-connect.png)-->
 

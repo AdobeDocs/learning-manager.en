@@ -97,7 +97,7 @@ As an Admin, you can create a certification program either hosted internally or 
  </tbody>
 </table>
 
-Choose the courses to be added to the certification from **Courses > Catalog** tab.
+Choose the courses to be added to the certification from **[!UICONTROL Courses]** > **[!UICONTROL Catalog]** tab.
 
 Hover the mouse on each course tile, click + to add them to the certification. Click **[!UICONTROL Preview]** to view the course as learner before adding it.
 
@@ -150,7 +150,7 @@ Administrators can mark a Certification complete using the option available to t
 
 In earlier releases of Learning Manager, course completion from learner in External certification was not mandatory to complete a Certificate.
 
-You can now make courses mandatory by enabling the option **Set required courses as Mandatory for Certificate Completion** in the Curriculum tab while editing the cerification.
+You can now make courses mandatory by enabling the option **[!UICONTROL Set required courses as Mandatory for Certificate Completion]** in the Curriculum tab while editing the cerification.
 
 ## Editing a published Certification {#editingapublishedcertification}
 

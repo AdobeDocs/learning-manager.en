@@ -16,7 +16,7 @@ Adobe Learning Manager enables you to create varied reports to track, monitor, a
 
 Reports generation process is similar for both Administrator and Manager. Managers can view reports corresponding to their subordinates whereas Administrator can view all organization-wide reports.
 
-Reports are aggregated in a dashboard. A report has to exist inside a dashboard. A **Default Dashboard** exists by default in the reports page. Any report added by you moves into this default dashboard. To add reports to individual dashboards, use the drop-down arrow and choose **Add Report**. For more information on creating dashboards, refer to Dashboards section on this page.
+Reports are aggregated in a dashboard. A report has to exist inside a dashboard. A **[!UICONTROL Default Dashboard]** exists by default in the reports page. Any report added by you moves into this default dashboard. To add reports to individual dashboards, use the drop-down arrow and choose **[!UICONTROL Add Report]**. For more information on creating dashboards, refer to Dashboards section on this page.
 
 ## Learning Summary dashboards {#dashboards}
 
@@ -33,7 +33,7 @@ If there are internal root level managers, they will be displayed one after anot
 
 All external profiles will be listed after internal profiles (Internal root level users).
 
-If an external profile has a manager, then the manager hierarchy will be displayed in the **Showing Data For** drop-down list. - User will be listed in manager hierarchy in all the details page (Learning summary, compliance, and skill status)
+If an external profile has a manager, then the manager hierarchy will be displayed in the **[!UICONTROL Showing Data For]** drop-down list. - User will be listed in manager hierarchy in all the details page (Learning summary, compliance, and skill status)
 
 If not, then all individual user details will be displayed in the list.
 
@@ -67,7 +67,7 @@ Now an Admin can click on any training and quickly view the compliance for the s
 
 You can also see the compliance status for each internal team.
 
-Click the link **Compliance Status Details** on the bottom of the visualization. 
+Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
 
 You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
 
@@ -78,7 +78,7 @@ You can see that, for a team, the number of learners in the team are violating o
 
 Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
 
-In Learning Manager, the **Share with Managers** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
 
 An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
 
@@ -86,14 +86,14 @@ The Administrator can "push" a default list of compliance training to be viewed 
 
 ### Share training
 
-1. In **Reports** > **Learning Summary**, scroll down, and click the tab **Share with Managers**. 
+1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
 
    ![](assets/share-with-managers.png)
    *Share training with managers*
 
 1. To add training or multiple training, click **[!UICONTROL Share more]**.   
 
-1. In the **Share with Managers** dialog, choose the training(s) and the manager(s).
+1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
 
    ![](assets/select-training.png)
    *Select training to share with managers*
@@ -175,7 +175,7 @@ The selected date and user group filter is applied to all the relevant graphs in
 
 >[!NOTE]
 >
->For **User Visits** and **Learning Time Spent** reports, the default data (when no user group is configured) shown will be for the entire account.
+>For **[!UICONTROL User Visits]** and **[!UICONTROL Learning Time Spent]** reports, the default data (when no user group is configured) shown will be for the entire account.
 
 ## Training Content dashboard {#trainingcontentdashboard}
 
@@ -199,7 +199,7 @@ For active trainings, data of all root user (with manager role) internal groups 
 
 >[!NOTE]
 >
->The data does not display as expected when **All Users** and **12 months** filters are selected, but the data displays when you select **All internal user group.**
+>The data does not display as expected when **[!UICONTROL All Users]** and **[!UICONTROL 12 months]** filters are selected, but the data displays when you select **[!UICONTROL All internal user group].**
 
 <table>
  <tbody>
@@ -282,7 +282,7 @@ To view all the boards that you created, click this board tab. From the **[!UICO
    *Add dashboards*
 
 1. Provide the name and description of the dashboard.
-1. If you want to share the dashboard with any Manager, choose them in **Share With** field. You can use any normal selection criteria for this operation.
+1. If you want to share the dashboard with any Manager, choose them in **[!UICONTROL Share With]** field. You can use any normal selection criteria for this operation.
 1. Click **[!UICONTROL Save].**
 
 You can view the recently created board in the **[!UICONTROL Dashboard Reports]** tab.
@@ -299,7 +299,7 @@ Shared boards are a collection of reports that have been shared with you by othe
 
 You can share the board by following two ways:
 
-* By entering users in **Share With** field with whom dashboard is shared.
+* By entering users in **[!UICONTROL Share With]** field with whom dashboard is shared.
 * Choose Edit Board in the drop-down list and enter user details for sharing the dashboard.
 
 >[!NOTE]
@@ -319,12 +319,12 @@ The exported sheet of dashboard reports provides detailed information instead of
    >By default, at least three sample reports appear in the sample board tab. You can only view the sample reports to get an idea as to how you could create and customize them. 
 
 1. On the top-right corner of the page, click **[!UICONTROL Add]**.
-1. In the **Add Report** dialog box, in the Type drop-down list, you can choose either one of the pre-defined reports or you can select **[!UICONTROL Custom]**. If you select a pre-defined report, you can see that the form is pre-populated. You can further make changes to some of the fields and click **[!UICONTROL Save]**. This adds the report to your default dashboard.
+1. In the **[!UICONTROL Add Report]** dialog box, in the Type drop-down list, you can choose either one of the pre-defined reports or you can select **[!UICONTROL Custom]**. If you select a pre-defined report, you can see that the form is pre-populated. You can further make changes to some of the fields and click **[!UICONTROL Save]**. This adds the report to your default dashboard.
 
    ![](assets/create-report.png)
    *Create report*
 
-   In **Report Type**, you can choose a pre-defined set of reports or choose custom values. You can view the following reports as part of a pre-defined set of reports:
+   In **[!UICONTROL Report Type]**, you can choose a pre-defined set of reports or choose custom values. You can view the following reports as part of a pre-defined set of reports:
 
    * Skills assigned and achieved
    * Course enrolled and completed
@@ -334,12 +334,12 @@ The exported sheet of dashboard reports provides detailed information instead of
    * Learning time spent per quarter
    * Certification completion
 
-1. Choose the **Y-axis** for your report from the drop-down options. For some of the selected criteria, you can choose one or multiple states from the States options. For example, for a course enrollment statistics primary criterion, the states can be completed, incomplete, and enrolled. Primary range data is represented in the form of bar graphs in the report.
+1. Choose the **[!UICONTROL Y-axis]** for your report from the drop-down options. For some of the selected criteria, you can choose one or multiple states from the States options. For example, for a course enrollment statistics primary criterion, the states can be completed, incomplete, and enrolled. Primary range data is represented in the form of bar graphs in the report.
 
    ![](assets/axes-for-reports.png)
    *Axes for reports*
 
-1. Choose the secondary **Y-axis** criteria/range for your report from the drop-down options. For example, for a learning program enrollment option, choose one or multiple states from the States drop-down. Secondary range data is represented in the form of line graphs.
+1. Choose the secondary **[!UICONTROL Y-axis]** criteria/range for your report from the drop-down options. For example, for a learning program enrollment option, choose one or multiple states from the States drop-down. Secondary range data is represented in the form of line graphs.
 1. Choose the appropriate X**-axis** criteria for your report from the drop-down options. If x-axis is chosen as date, then an option to group your x-axis criterion by day, month, quarter, and the year is available.
 1. In the Time Span section, choose the appropriate option from the drop-down. The available options are:
 
@@ -348,7 +348,7 @@ The exported sheet of dashboard reports provides detailed information instead of
    * Year
    * QTD (last 90 days)
    * YTD (last 365 days)
-   * Date range. Provide values in the **From** and **To** date fields.
+   * Date range. Provide values in the **[!UICONTROL From]** and **[!UICONTROL To]** date fields.
 
    ![](assets/time-filter-for-report.png)
 
@@ -382,7 +382,7 @@ Make the required changes to the report. To save the changes, click **[!UICONTRO
 
 ## Move a report to a dashboard {#moveareporttoadashboard}
 
-Choose this option to move the current report to an existing dashboard. To move the report, click the option **Move to Dashboard**.
+Choose this option to move the current report to an existing dashboard. To move the report, click the option **[!UICONTROL Move to Dashboard]**.
 
 ![](assets/move-a-report.png)
 *Move a report to a dashboard*
@@ -400,14 +400,14 @@ Choose the dashboard where you want to copy the report to. To start copying, cli
 
 ## Delete a report {#deleteareport}
 
-To delete a report, choose the option **Delete Report**. After you delete the report, you cannot restore the report. The process is irreversible. Proceed with caution when deleting a report.
+To delete a report, choose the option **[!UICONTROL Delete Report]**. After you delete the report, you cannot restore the report. The process is irreversible. Proceed with caution when deleting a report.
 
 ![](assets/delete-a-report.png)
 *Delete a report*
 
 ## Download a report {#downloadareport}
 
-To download the report, choose the option **Download Report**.
+To download the report, choose the option **[!UICONTROL Download Report]**.
 
 ![](assets/download-a-report.png)
 *Download a report*
@@ -441,7 +441,7 @@ Track how user groups such as departments, external partners, and roles are perf
 
 ### User groups {#usergroups}
 
-To generate reports based on user groups, choose **User Group **in the x-axis from the list of drop-down options as shown in the screenshot below. 
+To generate reports based on user groups, choose **[!UICONTROL User Group]** in the x-axis from the list of drop-down options as shown in the screenshot below. 
 
 ![](assets/user-group-reports.png)
 *User group reports*
@@ -517,15 +517,15 @@ To view drop-down options as Edit/Move to Dashboard/Create a copy/Delete/Resize,
 
 *Edit/Move to board/Create a Copy/Delete/Resize reports*
 
-**Edit** To go back to initial values while modifying data, click Reset. Click Save after modifying the values.
+**[!UICONTROL Edit]** To go back to initial values while modifying data, click Reset. Click Save after modifying the values.
 
-**Move to Dashboard** You can move the current report to another dashboard, which is chosen from the list of dashboards.
+**[!UICONTROL Move to Dashboard]** You can move the current report to another dashboard, which is chosen from the list of dashboards.
 
-**Create a Copy** You can copy the report to same or another dashboard, which is chosen from the list of dashboards.
+**[!UICONTROL Create a Copy]** You can copy the report to same or another dashboard, which is chosen from the list of dashboards.
 
-**Delete** Click Delete to remove the report. A warning/confirmation message appears before you can delete the report.
+**[!UICONTROL Delete]** Click Delete to remove the report. A warning/confirmation message appears before you can delete the report.
 
-**Resize** You can resize your reports in 1×1(medium) and 2×2(large) sizes.
+**[!UICONTROL Resize]** You can resize your reports in 1×1(medium) and 2×2(large) sizes.
 
 ## Generate and view reports for peer account {#generateandviewreportsforpeeraccount}
 
@@ -541,12 +541,12 @@ While creating a peer account, if the Share Catalog option had not been selected
 1. Select the x-axis and y-axis for this report, and select the date for this report.
 1. Notice the filters field, the Shared Catalogs button is auto-enabled. It is mandatory. If Shared Catalog is not enabled, it implies that you cannot generate or view reports for the peer account.
 1. From the drop-down list below Shared Catalog, select the shared catalog for which you want to view the report.
-1. Click Save.
+1. Click [!UICONTROL **Save**].
 
    ![](assets/acc2.png)
    *Select Shared Catalog for peer account*
 
-1. After you click Save, you can view the graphical representation of your reports in your default dashboard. From this dashboard, you can further filter the report by the manager for the specific peer account.
+1. After you click **[!UICONTROL Save]**, you can view the graphical representation of your reports in your default dashboard. From this dashboard, you can further filter the report by the manager for the specific peer account.
 1. If there are any changes to the catalog from your side, the changes are immediately reflected in the reports and dashboard generated by the peer. However, when the peer modifies the catalog, the changes do not appear in your dashboard automatically. 
 1. If you want your dashboard to be updated automatically, your peer must send a new peer request to you.
 
@@ -587,7 +587,7 @@ The Learner Transcripts in Excel reports displays the columns Credits Required a
 
 As an administrator, you can download reports for courses. Follow these steps:
 
-1. Open **[!UICONTROL Reports > Excel Reports > Course Reports]**.
+1. Open **[!UICONTROL Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Course Reports]**.
 1. The **[!UICONTROL Course Report]** dialogue appears. Select the course you want to fetch the report of and click **[!UICONTROL Show]**.
 
    ![](assets/course-reports.png)
@@ -627,8 +627,8 @@ As an administrator, you can generate a report of all the announcements that you
 
 To download a report, follow any one of these steps:
 
-1. Open **Reports** > **Excel Reports** > **Announcements Report**. The **Generating Report Request** dialogue box opens. Click Ok.
-1. Announcements > Actions > Export Report.
+1. Open **[!UICONTROL Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**. The **[!UICONTROL Generating Report Request]** dialogue box opens. Click Ok.
+1. [!UICONTROL **Announcements**] > [!UICONTROL **Actions**] > [!UICONTROL **Export Report**].
 
    ![](assets/announcements.png)
    *Announcements report*
@@ -669,7 +669,7 @@ To download a report, do one of the following:
 
 ### Job Aids Report
 
-After you select **Job Aids Report** on the list, you see two options:
+After you select **[!UICONTROL Job Aids Report]** on the list, you see two options:
 
 ![job aids report](assets/job-aids-new.png)
 *Download Job Aids USer Enrollment Report*
@@ -773,7 +773,7 @@ You can Add, Enable, Disable, Pause, or Resume for External profiles while you c
 
 1. Click **[!UICONTROL Generate]** to generate the report.
 
-There are two filters on the **User Audit Trail Report** dialog.
+There are two filters on the **[!UICONTROL User Audit Trail Report]** dialog.
 
 **Date rage filter:** Choose the date range for which you want to generate the report. There are three options:
 
@@ -815,7 +815,7 @@ Administrators can download gamification transcript in CSV format. You can eithe
    * Gold Achieved Date
    * Platinum Achieved Date
 
-   These columns contain the dates on which the level was achieved at the very first time. The column **Current Level** displays the current level of the learner. 
+   These columns contain the dates on which the level was achieved at the very first time. The column **[!UICONTROL Current Level]** displays the current level of the learner. 
 
    When the Admin resets the gamification, all points of the learner get reset accordingly.
 
@@ -823,7 +823,7 @@ Administrators can download gamification transcript in CSV format. You can eithe
 
 Administrators and managers can extract a report of the learners who have been enrolled and unenrolled. As an administrator, you can see any of the learner, administrator, or manager who has been enrolled or unenrolled from an instance of a course, learning program or certification and export the report. While, as a Manager, you can only fetch a report of your team members. As a manger, you are not able to see the deleted learners or your own name in the manager application as an enrolled or an unenrolled learner.
 
-To download a report, follow these steps: Open the  **[!UICONTROL Course/ Learning program/ Certification > Learners > Action > Export report.]**
+To download a report, follow these steps: Open the  **[!UICONTROL Course/ Learning program/ Certification]** > **[!UICONTROL Learners]** > **[!UICONTROL Action]** > **[!UICONTROL Export report]**.
 
 ![](assets/unenrollment.png)
 *Unenrollment report*
@@ -919,7 +919,7 @@ The downloaded csv contains the following fields:
 
 This report captures the time (in minutes) spent daily by an instructor teaching assigned sessions. The report can be downloaded for a period of three months from the selected start date.
 
-To download the report, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **Instructor Utilization Report**.
+To download the report, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Instructor Utilization Report]**.
 
 Select an instructor or multiple instructors and the date range.
 
@@ -982,7 +982,7 @@ The report contains the following:
 
 +++How to share a custom dashboard with a manager?
 
-When creating a dashboard, enter the name and description. To share with managers, enter the manager's name in the **Share With** field.
+When creating a dashboard, enter the name and description. To share with managers, enter the manager's name in the **[!UICONTROL Share With]** field.
 
 ![](assets/share-dashboard-manager.png)
 *Share a dashboard*

@@ -28,7 +28,7 @@ You can buy a subscription for a maximum of 3500 learners through any single cre
 
    *Launch Adobe Learning Manager billing*
 
-1. On the **Billing Information** page, add the number of users in the **Add Users** field. When using a credit card for pre-paid subscriptions, you can see the number of users that you can add for the subscription. The number of users you can add must not exceed the number mentioned in the section Remaining.1. 
+1. On the **[!UICONTROL Billing Information]** page, add the number of users in the **[!UICONTROL Add Users]** field. When using a credit card for pre-paid subscriptions, you can see the number of users that you can add for the subscription. The number of users you can add must not exceed the number mentioned in the section Remaining.1. 
 
    ![](assets/billing-page-to-manageyoursubscriptionandorders.png)
 
@@ -63,7 +63,7 @@ You can buy a subscription for a maximum of 3500 learners through any single cre
    *Select the country of billing*
 
 1. Enter your contact information, choose the credit card type, and provide the details of the credit card. After you've entered the required details, click **[!UICONTROL Complete Order]**.
-1. After you've placed the order, to see the recently ordered packages, click the *[!UICONTROL *Order History]** tab on the **Billing** page.
+1. After you've placed the order, to see the recently ordered packages, click the **[!UICONTROL Order History]** tab on the **[!UICONTROL Billing]** page.
 
    ![](assets/order-history.png)
 
@@ -102,7 +102,7 @@ All orders can have one of the four statuses:
 To cancel an order:
 
 1. In the left pane of the Administrator page, click Billing.
-1. In the Billing page, on the upper-right corner, choose **Actions** > **Deactivate Account**.
+1. In the Billing page, on the upper-right corner, choose **[!UICONTROL Actions]** > **[!UICONTROL Deactivate Account]**.
 1. Once the Administrator deactivates the account, all existing orders in the account are canceled from the next billing cycle.
 
 When an account is deactivated by the customer, it enters a trial state for the next 30 days. The account owner receives three reminder emails to revive the account. If the owner does not reactivate the account, none of the users are able to access Learning Manager apart from the owner.
@@ -214,7 +214,7 @@ To remove an active subscription, contact the Learning Manager support team.
 
 +++How to change a credit card for subscriptions?
 
-In the **Order History** tab, for an active account, click **[!UICONTROL Edit]**. Then on the Subscription Details page, click **[!UICONTROL Edit Subscription]**. Enter your new credit card details and click **[!UICONTROL Update Payment Method]**.
+In the **[!UICONTROL Order History]** tab, for an active account, click **[!UICONTROL Edit]**. Then on the Subscription Details page, click **[!UICONTROL Edit Subscription]**. Enter your new credit card details and click **[!UICONTROL Update Payment Method]**.
 
 ![](assets/credit-card-details.png)
 
@@ -226,14 +226,13 @@ In the **Order History** tab, for an active account, click **[!UICONTROL Edit]**
 To update the billing information, follow the steps below:
 
 1. Log in as **Admin** and click **[!UICONTROL Billing]**.
-
 1. In the list of orders, click **[!UICONTROL Edit]**.
 1. In the Subscription details page, click **[!UICONTROL Edit Subscription]**.
 
 Choose the item that you want to edit:
 
-1. **Payment method:** Use this option to update payment details, such as, credit card.
-1. **Address:** Use this option to update address details.
+1. **[!UICONTROL Payment method]:** Use this option to update payment details, such as, credit card.
+1. **[!UICONTROL Address]:** Use this option to update address details.
 +++
 
 +++Can I partially cancel a subscription?

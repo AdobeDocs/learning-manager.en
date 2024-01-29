@@ -20,20 +20,20 @@ You can add a classroom location by using the UI:
 
 1. In the Admin app (the UI for administrator roles), click **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]**.  
 
-1. Click the **Add More** button.  
+1. Click the **[!UICONTROL Add More]** button.  
 
-1. In the **Classroom Location** dialog box, enter the following details:
+1. In the **[!UICONTROL Classroom Location]** dialog box, enter the following details:
 
-   * Type the **Classroom Location Name**. Use a unique name. Otherwise, Learning Manager displays an error message.
-   * Type the location description in the **Location Information** field. This field is optional.
-   * Type the **Location URL**. Learner can see this information in the classroom details. The URL can also be a maps location URL, if required. This is an optional field.
-   * Type the number of available seats in the **Seat Limit** field. This indicates the seat capacity of the classroom. This value can be changed when creating the actual instructor-led training event.
+   * Type the **[!UICONTROL Classroom Location Name]**. Use a unique name. Otherwise, Learning Manager displays an error message.
+   * Type the location description in the **[!UICONTROL Location Information]** field. This field is optional.
+   * Type the **[!UICONTROL Location URL]**. Learner can see this information in the classroom details. The URL can also be a maps location URL, if required. This is an optional field.
+   * Type the number of available seats in the **[!UICONTROL Seat Limit]** field. This indicates the seat capacity of the classroom. This value can be changed when creating the actual instructor-led training event.
 
    ![](assets/add-classroom-location.png)
 
    *Add a classroom location*
 
-After adding the location, the **Settings > Classroom Locations** page lists the meeting rooms:
+After adding the location, the **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]** page lists the meeting rooms:
 
 ![](assets/list-meeting-rooms.png)
 
@@ -41,9 +41,9 @@ After adding the location, the **Settings > Classroom Locations** page lists the
 
 The list has the following fields:
 
-**Location Name** - Name of the classroom location.
+**[!UICONTROL Location Name]** - Name of the classroom location.
 
-**Future Sessions** - Number of events that will occur in the corresponding location. Click the number to view the details in a dialog box.
+**[!UICONTROL Future Sessions]** - Number of events that will occur in the corresponding location. Click the number to view the details in a dialog box.
 
 ![](assets/sessions-list.png)
 
@@ -51,7 +51,7 @@ The list has the following fields:
 
 The dialog box displays the details of each session including the name of the session, name of the training that includes the session, and session schedule. The displayed time aligns with the system time zone of the learner.
 
-The **Future Sessions** field displays **zero** when the classroom is not used for any session or when the classroom is associated with past sessions.
+The **[!UICONTROL Future Sessions]** field displays **zero** when the classroom is not used for any session or when the classroom is associated with past sessions.
 
 **Location URL** - URL that you provided when creating the classroom location.
 
@@ -61,7 +61,7 @@ The **Future Sessions** field displays **zero** when the classroom is not used f
 
 Alternatively, you can add one or more classroom locations by importing a CSV that contains the classroom information.
 
-In **Admin app** > **Settings** > **Classroom Locations**, click the **Import Locations CSV** button. Browse to the location containing the CSV file and select the file.
+In **[!UICONTROL Admin app]** > **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]**, click the **[!UICONTROL Import Locations CSV]** button. Browse to the location containing the CSV file and select the file.
 
 The CSV file uses these fields to store details about one or more classroom locations:
 
@@ -94,20 +94,20 @@ However, Administrators now have an additional option to further control who get
 
 ## Administrator
 
-An Administrator can select the **Instructor Management** option (available under **Admin app > Settings > General**) to ensure that only the users who are pre-determined Instructors can be added as an instructor for a session.
+An Administrator can select the **[!UICONTROL Instructor Management]** option (available under **[!UICONTROL Admin app]** > **[!UICONTROL Settings]** > **[!UICONTROL General]**) to ensure that only the users who are pre-determined Instructors can be added as an instructor for a session.
 
-To set up an Instructor, Administrators can select **MANAGE** > **Users** to open the User management page, select a user, and then assign the instructor role to the user (using **Actions > Assign Role**).
+To set up an Instructor, Administrators can select **[!UICONTROL MANAGE]** > **[!UICONTROL Users]** to open the User management page, select a user, and then assign the instructor role to the user (using **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]**).
 
 ## Author
 
-If the Administrator selects the **Instructor Management** option, an author can only search for and add the users with Instructor role to the classroom sessions, virtual classroom sessions, checklists, and the file submission modules.
+If the Administrator selects the **[!UICONTROL Instructor Management]** option, an author can only search for and add the users with Instructor role to the classroom sessions, virtual classroom sessions, checklists, and the file submission modules.
 
 In addition, an author can:
 
 * Add and remove instructors from the existing sessions.
 * Add instructors to the existing sessions that already have one or more instructors.
 
-Therefore, after an Administrator enables the **Instructor Management** option, only the users with Instructor role can be added as an instructor.
+Therefore, after an Administrator enables the **[!UICONTROL Instructor Management]** option, only the users with Instructor role can be added as an instructor.
 
 >[!NOTE]
 >
@@ -119,15 +119,15 @@ An Author or Administrator can cancel a session and reschedule it, if required.
 
 When a user cancels a session, the system sends a meeting cancellation email to all the enrolled learners and instructors. The email includes the updated session details.
 
-There is a template called **Session Cancellation** that helps in cancelling a session.
+There is a template called **[!UICONTROL Session Cancellation]** that helps in cancelling a session.
 
-On the **Course Instance** page, every session listed under a course instance includes an option to cancel the session.
+On the **[!UICONTROL Course Instance]** page, every session listed under a course instance includes an option to cancel the session.
 
 ![](assets/cancel-session.png)
 
 *Cancel an existing session*
 
-When you click the **Cancel Session** link, a warning message appears.
+When you click the **[!UICONTROL Cancel Session]** link, a warning message appears.
 
 On the warning message dialog box, if you click **[!UICONTROL Proceed]**, the system cancels the session.
 
@@ -144,7 +144,7 @@ The system also clears the following details after cancelling a session:
 
 ## Administrator
 
-On the **Course Instance** page, an Administrator can cancel one or more sessions. After the Administrator cancels a session, the system clears all the session details except the seat limit.
+On the **[!UICONTROL Course Instance]** page, an Administrator can cancel one or more sessions. After the Administrator cancels a session, the system clears all the session details except the seat limit.
 
 In addition, an Administrator can:
 
@@ -159,6 +159,6 @@ Note that even after cancellation, the learners enrolled in the training instanc
 
 ## Author
 
-On the **Course Instance** page, an Author can cancel one or more sessions. After the Author cancels a session, the system clears all the session details except the seat limit.
+On the **[!UICONTROL Course Instance]** page, an Author can cancel one or more sessions. After the Author cancels a session, the system clears all the session details except the seat limit.
 
-Therefore, an Author can use the **Cancel Session** links to cancel one or more classroom sessions or virtual classroom sessions available in the same or different course instances.  
+Therefore, an Author can use the **[!UICONTROL Cancel Session]** links to cancel one or more classroom sessions or virtual classroom sessions available in the same or different course instances.  

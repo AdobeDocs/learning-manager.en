@@ -16,11 +16,11 @@ Adobe Learning Manager enables the administrators of an organization to generate
 
 1. To generate learner transcripts, click **[!UICONTROL Reports]** on the left pane in Administrator login.
 
-   The Administrator navigates to the Excel Reports tab inside the **Reports** page.
+   The Administrator navigates to the Excel Reports tab inside the **[!UICONTROL Reports]** page.
 
-1. Click the link **Learner Transcripts**.
+1. Click the link **[!UICONTROL Learner Transcripts]**.
 
-   The **Learner Transcript** history page displays with the message- **No Learner Transcripts have been generated yet** or a list of downloads that have been triggered post Learning Transcripts history page implementation.
+   The **[!UICONTROL Learner Transcript]** history page displays with the message- **No Learner Transcripts have been generated yet** or a list of downloads that have been triggered post Learning Transcripts history page implementation.
 
    <!--[](assets/learner-transcripts.png)-->
 
@@ -30,18 +30,18 @@ Adobe Learning Manager enables the administrators of an organization to generate
    >
    >By default, from start date is the learner's registration date and the to date is always the current date. You can modify only the start date from when you need the data.
 
-1. Choose the learners names from the **Select Learners** field, and click **[!UICONTROL Generate].**
+1. Choose the learners names from the **[!UICONTROL Select Learners]** field, and click **[!UICONTROL Generate].**
 1. You can choose single learner or groups of learners. To add more than one learner, click **[!UICONTROL Add More Learners]**.
 
    ![](assets/add-learners-lt.png)
 
    *Add more learners*
 
-1. You can choose specific catalogs by enabling the check box. Transcript is only downloaded for the specified catalogs. You can choose specific catalogs by selecting the catalog from the **Select Catalogs** drop-down list.
+1. You can choose specific catalogs by enabling the check box. Transcript is only downloaded for the specified catalogs. You can choose specific catalogs by selecting the catalog from the **[!UICONTROL Select Catalogs]** drop-down list.
 
    ![](assets/select-catalogs-lt.png)
 
-1. When exporting Learner Transcripts, there is an option, **Enrollment Status**. This drop-down contains the following options:
+1. When exporting Learner Transcripts, there is an option, **[!UICONTROL Enrollment Status]**. This drop-down contains the following options:
 
    * Select All
    * Completed
@@ -55,14 +55,14 @@ Adobe Learning Manager enables the administrators of an organization to generate
 
 1. You can also download transcripts for learners who have been deleted from an account.
 
-   To download Learner Transcripts of deleted users, click the **Advanced Options** arrow, and enable the check-box **Include data of Deleted Learners**.
+   To download Learner Transcripts of deleted users, click the **[!UICONTROL Advanced Options]** arrow, and enable the check-box **[!UICONTROL Include data of Deleted Learners]**.
 
    ![](assets/data-deleted-learners.png)
 
    *Download Learner Transcripts of deleted learners*
 
-1. You can choose to download module level information in the Learner transcript by enabling the "**Enable module level information**" check-box. In this case module names and the time spent on each module is fetched as a part of the transcript if this option is enabled.
-1. You can choose to download skills data and summary sheets by enabling the option "**Include skills data and summary sheets**" check-box.
+1. You can choose to download module level information in the Learner transcript by enabling the "**[!UICONTROL Enable module level information]**" check-box. In this case module names and the time spent on each module is fetched as a part of the transcript if this option is enabled.
+1. You can choose to download skills data and summary sheets by enabling the option "**[!UICONTROL Include skills data and summary sheets]**" check-box.
 
    Transcripts are generated and downloaded to your computer as .csv files when the skills data is not included. If the Skills data checkbox is enabled transcripts are generated and downloaded .xls files.
 
@@ -70,17 +70,17 @@ Adobe Learning Manager enables the administrators of an organization to generate
 
 Fetching Learner transcripts becomes a tedious process as it can be obtained only for a learner or user group one at a time. Here, with the copy-paste feature you can copy the list of Learner email ids and paste it at once. 
 
-1. Log in as an **Administrator** or **Manager**.  
-1. Go to **Reports** under **Manage**, it loads the **User Activity** page.  
+1. Log in as an **[!UICONTROL Administrator]** or **[!UICONTROL Manager]**.  
+1. Go to **[!UICONTROL Reports]** under **[!UICONTROL Manage]**, it loads the **[!UICONTROL User Activity]** page.  
 1. Click **[!UICONTROL Custom Reports]** in the left pane and select **[!UICONTROL Learner Transcripts]** from the list.  
-1. On the **Learner Transcripts** page, click **[!UICONTROL Generate New]** button in the upper-left corner.  
+1. On the **[!UICONTROL Learner Transcripts]** page, click **[!UICONTROL Generate New]** button in the upper-left corner.  
 1. Select the preferred dates by clicking from **[!UICONTROL Select date range]** drop-down. Click **[!UICONTROL Email IDs]** tab to enter the copied list of unique email ids.
 
    ![](assets/cp-copy-paste-feature.png)
 
    *Copy-paste email IDs*
 
-1. Use **Validate Email Ids** to verify if the entered id is correct.
+1. Use **[!UICONTROL Validate Email Ids]** to verify if the entered id is correct.
 
    ![](assets/cp-learnertran-gdpr.png)
 
@@ -88,7 +88,7 @@ Fetching Learner transcripts becomes a tedious process as it can be obtained onl
 
    In case the entered email id is incorrect, it would be highlighted in red along with a validation message as above.
 
-   **Generate** Button will not be available unless all the email IDs entered are correct.
+   **[!UICONTROL Generate]** Button will not be available unless all the email IDs entered are correct.
 
    ![](assets/cp-copy-paste-generate.png)
 
@@ -100,11 +100,11 @@ Fetching Learner transcripts becomes a tedious process as it can be obtained onl
 
    *Confirmation message of report being generated*
 
-   Generating Learner Transcripts can be combined for Email IDs entered under both **Users** and **Email IDs** tab.
+   Generating Learner Transcripts can be combined for Email IDs entered under both **[!UICONTROL Users]** and **[!UICONTROL Email IDs]** tab.
 
 ## History of Learner Transcript downloads {#ltdownload}
 
-On the **Learner Transcript** download page, to generate  a report, when you click the **Generate New** button, the Learner Transcripts dialog displays.
+On the **[!UICONTROL Learner Transcript]** download page, to generate  a report, when you click the **[!UICONTROL Generate New]** button, the Learner Transcripts dialog displays.
 
 ![](assets/history-lt.png)
 
@@ -132,7 +132,6 @@ The download list displays the following attributes:
 * **Additional Data Included:** Depends on the additional data admin wants to download from the Advanced option in the Add learner transcript modal
 * **Status:** Downloaded, queued, or in progress.
 * **From** and **To**: Duration of the transcripts to be downloaded.
-
 * **Filters Applied:** Whether you'd applied the filters for Enrollment Status.
 * **Generated by:** The user id of the Learning Manager user who has requested the download.
 * **Status:** Downloaded, queued, or in progress.
@@ -147,9 +146,9 @@ You can **cancel** the download at any time. If a job is canceled, Learning Mana
 
 ## Data of deleted learners {#dataofdeletedlearners}
 
-You can include the data of deleted learners in the Learner Transcript list. On the Learner Transcripts dialog, enable the option **Include data of Deleted Learners**.
+You can include the data of deleted learners in the Learner Transcript list. On the Learner Transcripts dialog, enable the option **[!UICONTROL Include data of Deleted Learners]**.
 
-After enabling the option and clicking **Generate**, the deleted learners' data features in the Learner Transcript download page, as shown below:
+After enabling the option and clicking **[!UICONTROL Generate]**, the deleted learners' data features in the Learner Transcript download page, as shown below:
 
 ![](assets/deleted-learnersondownloadpage.png)
 
@@ -159,7 +158,7 @@ After enabling the option and clicking **Generate**, the deleted learners' data 
 
 An Administrator can customize the columns exported in a Learner Transcript report. Admins, Custom Admins, and Managers can configure the columns before exporting the report. 
 
-On the **Learner Transcripts** dialog, click **[!UICONTROL Advanced Options]**. In the **Configure Export Format** section, choose the columns that you want to export.
+On the **[!UICONTROL Learner Transcripts]** dialog, click **[!UICONTROL Advanced Options]**. In the **[!UICONTROL Configure Export Format]** section, choose the columns that you want to export.
 
 ![](assets/image024.png)
 
@@ -223,7 +222,7 @@ The values in the following columns have minutes rounded to the nearest minute a
 
 ### Module duration and ID columns in the transcript {#moduledurationandidcolumnsinthetranscript}
 
-The Learner Transcript also displays the columns- **Module Duration** and **ID**.
+The Learner Transcript also displays the columns- **[!UICONTROL Module Duration]** and **[!UICONTROL ID]**.
 
 ![](assets/lt-id-duration.png)
 

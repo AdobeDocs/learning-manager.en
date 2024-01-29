@@ -71,7 +71,7 @@ As learners are the primary users of your learning content, adding users in lear
 
 * **As a single user** - Adding single users into Learning Manager application enables you to try out with some of the users before adding them in bulk. Also, this option is useful when you want to add more single users on need basis, after bulk import of users. 
 * **Self-registration** - This option allows Administrators to enable their employees to register themselves into Learning Manager. 
-* **Bulk import **(using CSV upload) - Using this option you can import users in bulk into Learning Manager application. As a pre-requisite, you have to keep the list of users ready in CSV format before using this feature. 
+* **Bulk import** (using CSV upload) - Using this option you can import users in bulk into Learning Manager application. As a pre-requisite, you have to keep the list of users ready in CSV format before using this feature. 
 
 #### Add users (external profiles) {#addusersexternalprofiles}
 

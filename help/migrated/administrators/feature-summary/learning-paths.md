@@ -30,7 +30,7 @@ Learning paths makes the delivery of a training program convenient and hassle-fr
 
 In Learning Manager, in the Admin app, click **[!UICONTROL Learning Path]** on the left panel.
 
-In the **Learning Path** page, click **[!UICONTROL Add]**. Enter the details.
+In the **[!UICONTROL Learning Path]** page, click **[!UICONTROL Add]**. Enter the details.
 
 ![](assets/add-learning-path.png)
 
@@ -38,7 +38,7 @@ In the **Learning Path** page, click **[!UICONTROL Add]**. Enter the details.
 
 After creating the Learning Path, select the newly created Learning Path, and add the courses in the path.
 
-You can add skills and assign a badge to the Learning Path. To add a skill, select the required skill or skills from the **Pick a Skill** drop-down list. Also select the level for the skill or skills.
+You can add skills and assign a badge to the Learning Path. To add a skill, select the required skill or skills from the **[!UICONTROL Pick a Skill]** drop-down list. Also select the level for the skill or skills.
 
 ![](assets/add-skills.png)
 
@@ -104,11 +104,11 @@ In the Settings section, you can add the pre-requisites and the Job Aids that a 
 
 ## Instances
 
-The Learning Path instances displays an additional tile, **Learning Paths**. The tile displays the number. of learning programs added to a Learning Path.
+The Learning Path instances displays an additional tile, **[!UICONTROL Learning Paths]**. The tile displays the number. of learning programs added to a Learning Path.
 
 In the **Courses** tile, you can see the course instances that are visible to the learners who are enrolled in this instance.
 
-The **Enable Learners to Choose instances (Flexible Learning Path)** check-box is only applicable to courses. All child Learning Paths will get an option to map a Learning Program instance with Learning Path. By default, the mapping is set to Default Instance.
+The **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]** check-box is only applicable to courses. All child Learning Paths will get an option to map a Learning Program instance with Learning Path. By default, the mapping is set to Default Instance.
 
 ![](assets/default-instance.png)
 
@@ -118,11 +118,11 @@ The **Enable Learners to Choose instances (Flexible Learning Path)** check-box i
 
 There are three options:
 
-1. **All Levels Courses and Learning Paths (selected by default):** The learner gets notifications for any incomplete course irrespective of the level inside a Learning Path.
-1. **Root Learning Path:** The learner gets notifications for any incomplete course belonging to a parent Learning Path.
-1. **Learning Path and first level child only:** The learner gets notifications of any incomplete course that is a first child of a parent Learning Path.
+1. **[!UICONTROL All Levels Courses and Learning Paths (selected by default)]:** The learner gets notifications for any incomplete course irrespective of the level inside a Learning Path.
+1. **[!UICONTROL Root Learning Path]:** The learner gets notifications for any incomplete course belonging to a parent Learning Path.
+1. **[!UICONTROL Learning Path and first level child only]:** The learner gets notifications of any incomplete course that is a first child of a parent Learning Path.
 
-The notification reminders are triggered based on the option. By default, the option **All Levels Courses and Learning Paths** is enabled for an instance.
+The notification reminders are triggered based on the option. By default, the option **[!UICONTROL All Levels Courses and Learning Paths]** is enabled for an instance.
 
 ## Important Note
 
@@ -132,7 +132,7 @@ Learning Paths bring to you a range of functionalities. Some of them are availab
 
  Learners can continue to consume Learning Programs (now called Learning Paths) and Authors/Admins can continue to create them as well. To take benefit of extended functionalities of Learning Path mentioned above, Administrator should enable the setting as mentioned below. Once enabled, all the new extended capabilities of Learning Path will become available. 
 
-The **Settings** > **General** page has a new option to enable Learning Paths. If this option is enabled, you can add courses and Learning Programs in a Learning Path. You cannot change the option once it is enabled.
+The **[!UICONTROL Settings]** > **[!UICONTROL General]** page has a new option to enable Learning Paths. If this option is enabled, you can add courses and Learning Programs in a Learning Path. You cannot change the option once it is enabled.
 
 ## Other Learning Path-related details 
 
