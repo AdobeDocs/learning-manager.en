@@ -413,11 +413,11 @@ Before you start with the migration procedure, it is important to note the follo
 
 Planning your migration project is very important. It is recommended that you break your projects into multiple sprints, and clearly identify what you would like to migrate in each sprint. It may even be a good idea to do some validation after each sprint to feel confident about the data migrated in that sprint, instead of one grand validation phase at the end of the project. Before you start the Sprint as part of your migration project, you need to upload data and content CSV files in FTP and Box servers respectively. If you do not have accounts for Custom FTP and Box, you can create them. 
 
-**Create FTP account**
+<!--**Create FTP account**-->
 
-Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
+<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-A sample snapshot of project files and folder of FTP is shown below for your reference. 
+A sample snapshot of project files and folder of FTP is shown below for your reference. -->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 
