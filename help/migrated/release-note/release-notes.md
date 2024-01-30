@@ -1339,7 +1339,7 @@ For more information, see  [***What's new in the August 2020 release of Adobe Le
 
 **Announcements**
 
-* If an announcement contains the tag <a>, the announcement does not get created as expected.
+* If an announcement contains the tag `<a>`, the announcement does not get created as expected.
 
 **Account**
 
