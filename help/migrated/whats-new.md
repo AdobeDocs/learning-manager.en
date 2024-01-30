@@ -180,7 +180,7 @@ A Custom Admin can access the following reports according to the defined scope:
    <td>
     <p>Yes</p></td>
    <td>
-    <p>Full Catalog</p></td>
+    <p>Full catalog</p></td>
   </tr>
   <tr>
    <td>
