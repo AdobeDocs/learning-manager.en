@@ -10,7 +10,7 @@ contentowner: nluke
 
 ## Issue
 
-A **user** gets deleted from Learning Manager, however, the Administrator never performed any such action.
+A user gets deleted from Learning Manager, however, the Administrator never performed any such action.
 
 ## Cause
 
