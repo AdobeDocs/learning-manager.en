@@ -141,7 +141,7 @@ The content library also maintains versioning of your uploaded contents. If you 
 1. In the Description field, enter the description for the content. Make sure that the description you want to enter is meaningful. The character limit is 245 characters.
 1. To add the content, Click Add Content File, and upload your resource file. When you add content for multiple languages, you cannot combine static and interactive content in a single group. Either all your content in all the locales should be static, or all the content should be interactive.
 
-* [Supported file types](content-library.md#supported)*
+* [Supported file types](content-library.md#supported)
 
    The interactive content can be a SCORM, AICC, or a Captivate published project. The file must be a zip file.
 
