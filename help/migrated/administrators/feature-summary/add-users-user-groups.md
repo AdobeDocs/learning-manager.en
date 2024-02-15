@@ -18,30 +18,9 @@ In this training, you will learn how to create a user group by names, email IDs,
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)
 
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
 
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555694">
-   <button type="button">Launch training</button>
-</a>
-
-<br/>
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
@@ -64,30 +43,7 @@ As an Administrator, you can add users in three ways:
 
 Add internal learners to the Adobe Learning Manager using a single user option.
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
-
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
-
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555534">
-   <button type="button">Launch training</button>
-</a>
-
-<br/>
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QGMZPB2T&mv=display&mv2=display#/course/7555534)
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
