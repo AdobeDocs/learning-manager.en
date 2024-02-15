@@ -20,8 +20,6 @@ In this training, you will learn how to create a user group by names, email IDs,
 
 [![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)
 
-
-
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Overview {#overview}
