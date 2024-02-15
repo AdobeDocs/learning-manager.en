@@ -12,6 +12,15 @@ Learn about the Learning Manager account settings that you can configure as an a
 
 You can change your Administrator profile settings and update your Account settings. View your profile information, add/change profile photo, and modify **[!UICONTROL About me]** content. Update your company info, set up log in methods for users, and set up connect integration through account settings.
 
+## Configure your Adobe Learning Manager
+
+This training captures the basics of account-level settings. 
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PYPVPSZY&mv=display&mv2=display#/course/7476018)
+
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ## Account settings {#accountsettings}
 
 To update your organization's account settings, click **[!UICONTROL Settings]** on the left pane. 
