@@ -10,7 +10,15 @@ contentowner: jayakarr
 
 Color themes and Branding in Learning Manager
 
-Learning Manager enables you to change the appearance of the application to match your organization's branding requirements. 
+Learning Manager enables you to change the appearance of the application to match your organization's branding requirements.
+
+## Customize your user interface
+
+In this training, you will explore ways to customize the appearance of the interface to match it with an organization's branding requirements.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QBWYPFSV&mv=display&mv2=display#/course/8318823)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Branding {#branding}
 
