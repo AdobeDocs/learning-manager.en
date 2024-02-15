@@ -16,6 +16,16 @@ As an administrator, you can customize email templates by adding or modifying co
 
 Administrators can also choose not to send email notifications for certain events.
 
+## Introduction to email templates
+
+In this training, you will learn how to customize individual email templates and customize course-level and account-level settings for email templates.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QYL4NT4P&mv=display&mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ## Configure email templates {#configureemailtemplates}
 
 You as an administrator can easily enable, disable, or modify these email templates.
