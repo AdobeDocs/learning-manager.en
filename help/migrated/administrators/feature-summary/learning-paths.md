@@ -16,6 +16,14 @@ This is where Learning Path comes into picture. A Learning Path is a journey tha
 
 For example, when on-boarding new employees, an organization conducts training on policies and procedures, culture, history, and so on. A Learning Path sets up the courses according to the needs of the employees, so that employees can enroll on the courses according to the learning path set for them. you choose, and you can enroll users on this path so they can progress from course to course.
 
+## Create and configure Learning Paths
+
+In this training, you will learn how to create a Learning Path, add a course to it, publish and retire a Learning Path, and configure instances within a Learning Path.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QQ42P2LR&mv=display&mv2=display#/course/8318919)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ## Advantages of a Learning Path
 
 Learning paths makes the delivery of a training program convenient and hassle-free. Here are some of the key benefits of a Learning Path:
