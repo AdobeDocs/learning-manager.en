@@ -20,6 +20,14 @@ Reports are aggregated in a dashboard. A report has to exist inside a dashboard.
 
 ## Learning Summary dashboards {#dashboards}
 
+### Generate Dashboard Reports
+
+In this training, you will learn how to generate dashboard reports from the database.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=R3B5NPDN&mv=display&mv2=display#/course/8318854)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 See a summary report of all the learning activities in the platform. On this page, you can see the following summary information for the selected root user's team and external profiles. Time range can also be selected:
 
 * Learning Summary in form of Enrollments, Views, and Completions
@@ -496,6 +504,14 @@ If there are multiple managers reporting to you, you can view the reports quickl
 >The manager values that you use to view the report are temporary. This view of report is not downloaded when you choose the download option. This view is only temporary view.
 
 ## View course reports {#viewcoursereports}
+
+### Generate Course Reports
+
+In this training, you will learn how to export course reports and set up email subscriptions for these reports.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=R726NKNM&mv=display&mv2=display#/course/8318904)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 You can view the reports specific to each course by following the below steps:
 
