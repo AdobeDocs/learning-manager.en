@@ -12,6 +12,15 @@ Catalogs are a collection of learning - Courses, Learning Programs, and Certific
 
 As an administrator, you can create custom catalogs, if you want to make selective courses available for different learners in your account or across accounts.
 
+## Introduction to Catalogs
+
+In this training, you will learn how to create and manage catalogs.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QTV3NXVQ&mv=display&mv2=display#/course/8318922)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
+
 ## Create a catalog {#createacatalog}
 
 To create a catalog, perform the following steps:
