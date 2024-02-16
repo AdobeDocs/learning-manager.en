@@ -8,7 +8,10 @@ contentowner: jayakarr
 
 # Application developer manual
 
-Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Learning Manager.
+>[!NOTE]
+>
+>Learning Manager V1 API is now deprecated. We recommend that you use V2 APIs to interact with Learning Manager.
+
 
 ## Overview {#overview}
 
@@ -23,6 +26,10 @@ Using Learning Manager API, developers can build self-contained applications tha
 The Learning Manager API is based on principles of REST, and exposes key elements of the Learning Manager Object Model to application developers through HTTP. Before knowing the details of the API endpoints and the HTTP methods, developers can become familiar with the various Learning Manager objects, their attributes and inter-relationships. Once the models are understood, it will be useful to get a basic understanding of the structure of API requests and responses, and a few common programming terms that we use generically across the API.
 
 For details of the various API endpoints and methods, refer to the  [Learning Manager API documentation](https://learningmanager.adobe.com/docs/primeapi/v2/).
+
+>[!IMPORTANT]
+>
+>Adobe Learning Manager Learner APIs allow you to create a custom learning experience for your users. The usage of these APIs need a valid user token and are to be used only for the purpose of workflows where there is a fully licensed/registered Learner. They are not to be used, as is, for any sort of data retrieval to support any non-logged in user/shared users or any other such cases. Non logged in use cases require special handling. Reach out to the Solution Architecture team, in case you have any questions on the appropriate use of these APIs and ensure that a Solution Architect has vetted a solution before you deploy it.
 
 ## API authentication {#apiauthentication}
 
