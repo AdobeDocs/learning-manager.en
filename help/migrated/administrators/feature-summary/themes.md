@@ -51,6 +51,11 @@ Learning Manager application provides five color theme options to its users:
 * Winter Sky
 * Vivid
 
+>[!NOTE]
+>
+>The Vivid theme is accessibility compliant.
+
+
 ![](assets/prime-customize-theme.png)
 
 *Customize colors of a theme*
