@@ -2107,6 +2107,11 @@ The course or Learning Path will not be available for purchase until the data is
 
 After an author has set the prices on various courses, Learning Paths, or certifications, you, as the Integration Administrator, will export the courses, Learning Paths, or certifications into Adobe Commerce.
 
+>[!NOTE]
+>
+>In the March 2024 release of Adobe Learning Manager, we've introduced support for [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+
+
 1. Click **[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**.  
 
 1. Select the dates.  
