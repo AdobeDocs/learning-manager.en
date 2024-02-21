@@ -27,9 +27,17 @@ The Learning Manager API is based on principles of REST, and exposes key element
 
 For details of the various API endpoints and methods, refer to the  [Learning Manager API documentation](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
+## Learner APIs
+
+Adobe Learning Manager - Learner APIs allow you to create a custom learning experience for your users. The usage of these APIs need a valid user token and are to be used only for the purpose of workflows where there is a fully licensed/registered Learner.
+ 
 >[!IMPORTANT]
 >
->Adobe Learning Manager Learner APIs allow you to create a custom learning experience for your users. The usage of these APIs need a valid user token and are to be used only for the purpose of workflows where there is a fully licensed/registered Learner. They are not to be used, as is, for any sort of data retrieval to support any non-logged in user/shared users or any other such cases. Non logged in use cases require special handling. Reach out to the Solution Architecture team, in case you have any questions on the appropriate use of these APIs and ensure that a Solution Architect has vetted a solution before you deploy it.
+>They are not to be used, as is, for any sort of data retrieval to support any non-logged in user/shared users or any other such cases.
+ 
+The non-logged in use cases require special handling. 
+
+**Reach out to the Solution Architecture team, in case you have any questions on the appropriate use of these APIs and ensure that a Solution Architect has vetted a solution before you deploy it**.
 
 ## API authentication {#apiauthentication}
 
