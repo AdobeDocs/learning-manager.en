@@ -12,9 +12,17 @@ contentowner: saghosh
 
 An Administrator can customize the learner's home page and make it more modern, content driven, and personalized to a learner.
 
-The personalized approach offers a widgetised way of building a Learner Home page, which the admin of the organization can configure in the admin user interface in a WYSIWYG manner.
+The personalized approach offers a widget-based way of building a Learner Home page, which the admin of the organization can configure in the admin user interface in a WYSIWYG manner.
 
-The experience is driven by a personalized training recommendations from an AI-driven algorithm that analyses third-party content for industry skills, incorporates peer activity, and learners' areas of interest using explicit and implicit data. 
+The experience is driven by a personalized training recommendations from an AI-driven algorithm that analyses third-party content for industry skills, incorporates peer activity, and learners' areas of interest using explicit and implicit data.
+
+### Customize learner homepage
+
+In this training, you will explore ways to customize the Learner Homepage.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4SC98Z83&mv=display&mv2=display#/course/8318825)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Configure the learner homepage {#configurethelearnerhomepage}
 

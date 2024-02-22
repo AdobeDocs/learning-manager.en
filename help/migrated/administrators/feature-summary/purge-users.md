@@ -22,6 +22,16 @@ Purge user action can have the following results:
 * Purging a user in Learning Manager does not remove the user in any external applications (third-party systems or other applications written by you). Contact external application owners to get the users removed from such applications.
 * If a purged user is referred in the configuration settings of a connector, the connector is disabled. The connector needs to be reconfigured by the Admin to resume.
 
+### Manage users
+
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
+## How to purge users
+
 To purge users, follow these steps:
 
 1. As an Administrator, select **[!UICONTROL Users]** from the left pane. The **[!UICONTROL Internal Users]** page opens.

@@ -8,7 +8,15 @@ contentowner: saghosh
 
 # Add users in bulk
 
-Yes, you can add multiple users at a time by following the below steps:
+In this training, you will learn how to add users in bulk through a CSV. 
+
+[![button](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=51TC8QS1&mv=display&mv2=display#/course/7555555)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
+## How to add multiple users
+
+You can add multiple users at a time by following the below steps:
 
 1. Click **[!UICONTROL Users]** on the left pane in Administrator login, and then click **[!UICONTROL Add]** > **[!UICONTROL Upload a csv]**. A pop-up dialog appears.   
 

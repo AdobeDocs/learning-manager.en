@@ -14,6 +14,14 @@ The list of Learning Objects associated with the tag can be viewed by clicking o
 
 You can sort the tags based on usage or alphabetical order using the **[!UICONTROL Sort By]** option.
 
+## Introduction to Tags
+
+This training will teach you how to add, edit, replace, append, and delete tags. You will also learn how to change permission settings and use tag filters. 
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=5S7K7ZCT&mv=display&mv2=display#/course/8318920)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ## Add/ Delete/ Edit tags {#adddeleteedittags}
 
 1. As an Administrator, on the left navigation panel, click **[!UICONTROL Tags]**. The **[!UICONTROL Tag Management]** page opens.

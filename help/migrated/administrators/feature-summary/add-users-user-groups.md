@@ -149,13 +149,21 @@ On the list of users, choose a user, and click the user. On the user details, cl
 ![](assets/edit-user.png)
 *Edit User dialog*
 
-## Workflows for active fields and active field values preserving case sensitivity
+## Active fields
 
-In this release, Learning Manager preserves the case sensitivity of the user attribute and its value. **For example**, the case sensitivity of a user attribute is 'location' and its value as 'PARIS' will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
+### Manage user attributes
+
+In this training, you will learn how to add, customize, and configure Active Fields.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=55KD8M1Z&mv=display&mv2=display#/course/7555741)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
+Adobe Learning Manager preserves the case sensitivity of the user attribute and its value. **For example**, the case sensitivity of a user attribute is 'location' and its value as 'PARIS' will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
 
 The Administrator can do this by visiting **[!UICONTROL Admin app]** > **[!UICONTROL Users]** > **[!UICONTROL User groups]** and clicking on the group name.  
 
-Admin can add and update allowed attribute values for a learner through UI.
+An Admin can add and update allowed attribute values for a learner through UI.
 
 Types of active fields:
 
