@@ -5,11 +5,11 @@ description: As the APIs in Adobe Learning Manager evolve, APIs are periodically
 contentowner: saghosh
 ---
 
-# API Deprecations in Adobe Learning Manager
+# API deprecations and changes in Adobe Learning Manager
 
 ## API deprecations in the March 2024 release of Adobe Learning Manager
 
-### Changes in Rate Limits
+<!-- ### Changes in Rate Limits
 
 With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
@@ -45,6 +45,7 @@ The following table lists the rate and burst limits for the APIs.
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### Changes to offset limits 
 
