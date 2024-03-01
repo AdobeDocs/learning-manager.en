@@ -73,19 +73,22 @@ The following can be customized:
   <td>
   <p>App Icon</p></td>
   <td>
-  <p>The app icon as png. This icon displays on your app. The format to name is `<account-id>`_appIcon.png.</p></td>
+  <p>The app icon as png. This icon displays on your app. The format to name is account-id_appIcon.png.</p></td>
   </tr>
   <tr>
   <td>
   <p>App splash screen</p></td>
   <td>
-  <p>For the spalsh screen of your app, provide an image (png), that appears when your users launch the app. The format to name is `<account-id>`_splashIcon.png.</p></td>
+  <p>For the splash screen of your app, provide an image (png), that appears when your users launch the app. The format to name is account-id_splashIcon.png.</p></td>
   </tr>
   <tr>
   <td>
   <p>Client ID and Client Secret</p></td>
   <td>
-  <p>The Integration Admin of your account provides the details, while registering the app. The Integration Admin must use the following:<ul><li>"learner:read,learner:write" as role.</li><li>`<internal app name>`://redirect as redirect URL. </li></ul> </p></td>
+  <p>The Integration Admin of your account provides the details, while registering the app. The Integration Admin must use the following:
+  * learner:read,learner:write as role
+  * internal app name://redirect as redirect URL
+  </p></td>
   </tr>
   <tr>
   <td>
