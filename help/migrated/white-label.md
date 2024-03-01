@@ -208,7 +208,7 @@ After generating the binaries, push the binaries into Play Store or App Store.
 
 ## How do I apply the changes
 
-The customer sends the required assets and files to the CSM team. The CSM team then fills the [form](https://forms.office.com/r/bJRRaRBvSh) with the required changes and attaches the required assets. The team will then review and inform the engineering teams of the changes. The engineering team will then generate a build and share with the CSM team.
+Sends the required assets and files to the CSM team. The CSM team then fills the [form](https://forms.office.com/r/bJRRaRBvSh) with the required changes and attaches the required assets. The team will then review and inform the engineering teams of the changes. The engineering team will then generate a build and share with the CSM team.
 
 The CSM team will share the build with the customer.
 
