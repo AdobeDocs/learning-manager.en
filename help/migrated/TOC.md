@@ -21,6 +21,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Support for custom domain](custom-domain.md)
    * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Transition from Adobe FTP Manager](transition-from-ftp-manager.md)
+   * [API deprecations and changes in Adobe Learning Manager](api-deprecations-list.md)
+   * [Whitelabeling in Adobe Learning Manager](white-label.md)
 * Get Started {#get-started}
    * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
    * [Getting started as an Author](authors/feature-summary/getting-started-author.md)
