@@ -127,7 +127,7 @@ The reason we're deprecating the flag for the Learner APIs is because the overri
 
 Going forward, the following Learner API will stop working because it has the override flag.
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&page[limit]=10&sort=id&override=TRUE</code>
+_/primeapi/v2/users?page[offset]=0&page[limit]=10&sort=id&override=TRUE_
 
 ### API Changes for Skill based new recommendations
 
