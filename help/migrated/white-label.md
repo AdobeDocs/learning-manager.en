@@ -61,7 +61,7 @@ The following can be customized:
   <td>
   <p>Internal App Name</p></td>
   <td>
-  <p>The name with which the OS identifies the app. The format that is usually used is- com.`<company-name>`.`<product-name>`.</p></td>
+  <p>The name with which the OS identifies the app. The format that is usually used is: com.company-name.product-name.</p></td>
   </tr>
   <tr>
   <td>
