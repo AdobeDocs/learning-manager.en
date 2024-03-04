@@ -9,6 +9,11 @@ preview: true
 
 # Learning Programs
 
+>[!WARNING]
+>
+>Learning Programs is deprecated in Adobe Learning Manager.
+
+
 Read this article to learn how to create and manage learning programs in Learning Manager
 
 Learning programs are a set of uniquely designed courses meeting specific learner goals. Administrators create these learning programs for learners. You can view these learning programs as a learner.

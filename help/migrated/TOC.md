@@ -38,7 +38,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Content marketplace](administrators/feature-summary/content-marketplace.md)
    * [Reports](administrators/feature-summary/reports.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
-   * [Learning Programs](administrators/feature-summary/learning-programs.md)
+   * [Learning Plans](administrators/feature-summary/learning-plans.md)
    * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
    * [Job Aids](administrators/feature-summary/job-aids.md)
    * [Certifications](administrators/feature-summary/certifications.md)
@@ -75,6 +75,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Native extensibility](administrators/feature-summary/native-extensibility.md)
    * [Multiple enrollment](administrators/feature-summary/multiple-enrollment.md)
    * [Non-logged in experience for learners](administrators/feature-summary/non-logged-in-experience-learners.md)
+   * [Learning Programs](administrators/feature-summary/learning-programs.md)
 * Integration Admin {#integration}
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager Connectors](integration-admin/feature-summary/connectors.md)
