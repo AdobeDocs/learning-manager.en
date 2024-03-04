@@ -66,7 +66,7 @@ In the **[!UICONTROL Primary color]** picker, you can choose the color that is u
 
 To customize, choose the theme type on the left pane and click the squares adjacent to brand color and sidebar icon colors. Click the side bar in sidebar brightness, drag forward or backward to adjust the brightness. Observe the preview in the above images as you modify these options.
 
-Click **[!UICONTROL Reset Theme]** to restore the orignal settings of the theme. Click **[!UICONTROL Save]** after completing the changes. 
+Click **[!UICONTROL Reset Theme]** to restore the original settings of the theme. Click **[!UICONTROL Save]** after completing the changes. 
 
 **Live Preview**
 
@@ -78,7 +78,40 @@ Click **[!UICONTROL Live Preview]** at the bottom left corner of the Themes sect
 
 Choose the theme of your choice from the drop-down list, adjust the settings and click **[!UICONTROL Preview]** to view the changes Live in your application. Now, you can go through all the features of the application and witness the changes. You can also change your roles while going through live preview. Once you are satisfied with the changes, you can come back to the Live theme preview pop-up feature and click **[!UICONTROL Apply Theme]**. 
 
-While you are previewing the changes Live, the Live theme preview pop-up still appears at the bottom of the screen. You can choose to minimize the pop-up. 
+While you are previewing the changes Live, the Live theme preview pop-up still appears at the bottom of the screen. You can choose to minimize the pop-up.
+
+## Multiple branding {#multiple-branding}
+
+Here's how to implement multiple branding:
+
+1. On the Admin app, select **Branding** on the left pane.
+1. Select **Edit** in the Multiple Branding section.
+1. Select the toggle button and enable it.
+
+### Internal users
+
+1. Select an active field from the dropdown. 
+1. Based on the selection, you can change the name of the organization and upload a new logo for the users. 
+
+### External users
+
+1. Select an active field from the dropdown. 
+1. Based on the selection, you can change the name of the organization and upload a new logo for the users.
+
+>[!NOTE]
+>
+>Internal users can have active fields like External users (e.g., Admin must add the multi branding for the internal users and external users separately by selecting active field values separately.) 
+
+#### Points to note 
+
+* An Admin can add the multi-level branding for this active field value and the external user can login with different mechanisms (SSO Single (Okta, Mini orange), Social Login) and check if the multi branding is applicable.  
+* An External user has an active field and active field value like the internal user: Even though it is shared, it must be separately specified in the multi branding by the admin. Once applied, external user can login with different mechanisms (SSO Single (Okta, Mini orange), Social Login) and check if the multi branding is applicable. 
+* An External user moved from one profile to another profile: Moving the external user from one profile to another profile will not affect the active field value for the user unless the active field value is edited/ deleted by admin or the external user while logging in or registering 
+
+>[!NOTE]
+>
+>When multiple branding is set for both internal and external users, with same active field name, with same active field value but different configuration. In this case, recommendation to customers would be to use same configuration setting (logo, theme, org name) to avoid discrepancy.
+
 
 ## Customize your account {#customize}
 

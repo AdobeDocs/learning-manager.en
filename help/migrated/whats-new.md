@@ -1,321 +1,457 @@
 ---
-title: What's new in this release
-description: Learn about the new features and enhancements in Adobe Learning Manager
+description: Learn about the new features and enhancements in tne March 2024 release of Adobe Learning Manager
+jcr-language: en_us
+title: New features summary
+contentowner: jayakarr
 ---
-# What's new in this release
 
-## Revamped User Interface
 
-The Adobe Learning Manager User Interface has undergone a few updates to offer a cleaner and more modern experience. The landing pages for Admin and Author roles have been revamped, and UI theme updates have been made for all roles. However, no changes have been made to the location of menus, buttons, or links and you'll be able to find these exactly where they were located before.
+# New features summary {#new-features-summary}
 
-The theme updates will apply automatically to accounts that use the default theme. The UI theme updates will not impact accounts that have made modifications to use a custom theme. Such accounts need to switch back to the default theme to get the new theme updates.
+Learn about the new features and enhancements in Adobe Learning Manager
 
-![UI image](assets/refreshed-ui.png)
+## What's new in this release {#whatsnewandchanged}
 
-*Revamped User Interface of Adobe Learning Manager*
+### Import skills from external sources
 
-### About this change
+Import Skills from content providers, such as LinkedIn and Go1, by using the respective connectors. This enhancement is a part of the goal towards Learning Manager's ability to integrate with external Skills Clouds and Talent Management Systems. The imported skills will be added to the admin defined skills in Learning Manager and will be available to Authors during the course creation workflow. Enhancements have also been made to the skill search functionality across the platform to provide a better search experience when the account has an extensive number of skills.
 
-**What changes in this release?**
+View [Import skills](administrators/feature-summary/import-skills-external-sources.md) to know more.
 
-There is a new template in the header, which auto-resizes the logo to a fixed size and position while maintaining the logo's aspect ratio. The change intends to enhance the visual appeal of the learner experience.
+### Custom branding
 
-The organization's name in the header also auto resizes to 336 (minimum) x 680 (maximum) px for learners.
-
-**What is the recommended size of the logo?**
-
-The maximum width of the logo is 210px. Logos with a width of more than 210px or a height of more than 42px are resized to 42x210px.
-
-If the logo size is less than the recommended size, the logo is uploaded without any change, and is center-aligned.
-
-**What is the impact?**
-
-Company names that are longer will be trimmed, and an ellipsis will fill the space.
-
-**What do we recommend?**
-
-* Resize the image keeping the aspect ratio intact. Recommended max logo size is 42 px (vertical) x 210 px (horizontal).
-* For many accounts, this would automatically apply; no change is required.
-
-## Native extensibility
-
-Set up custom experiences within the native version of Adobe Learning Manager, allowing you not to use headless for less complicated cases. You can also create custom apps and place them at various points in the native version of the learner, manager, admin, author, or instructor workflows.
-
-A Learner can use a custom-built app or an extension, which an Admin had created.
-
-View [Native extensibility](/help/migrated/administrators/feature-summary/native-extensibility.md) to learn more.
-
-## Quiz creation tool
-
-You'll now be able to create assessments within Learning Manager with the new quiz creation tool on the Content Library page. The assessments created become part of the Content Library and can be added to a "public" folder for course reusability. 
-
-View [Create a quiz](/help/migrated/authors/feature-summary/content-library.md) to learn more.
-
-## Reporting changes in this release
-
-### Changes in job aid enrollment report
-
-In earlier versions of Adobe Learning Manager, the Job Aid enrollment report had no filters. Adobe Learning Manager downloaded all the data of an account.
-
-In this release, we've added a dropdown in the Job Aids Report dialog.
-
-### Changes in notifications announcement report
-
-In earlier releases of Adobe Learning Manager, the Notification Announcement report didn't have any filters. Adobe Learning Manager downloaded all notifications in the account.
-
-In this release, we've added a date filter, using which you can download the notifications within a specified period.  You can, however, download the report for the last six months only.
-
-### Changes in course revisit data in enrollment report
-
-In this release, you can download the course revisit information in an Enrollment report by specifying a time. The download period will be limited to six months for accounts with more than five million enrollments. For all other accounts, the period will be 15 months.
-
-You can download the report from **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]** > **[!UICONTROL Course Access Report]**.
-
-### Changes in learner transcript
-
-In earlier releases of Adobe Learning Manager, if a Custom Admin had User scope, the Learning Transcript contained the deleted users. In this release, the Learning Transcript will contain the deleted users if the Custom Admin has either the User scope or access to all user groups.
-
-### Changes in attendance report
-
-The Attendance report on the attendance page of Courses in the Admin app and on the Session Learners page of the Instructor app used to get downloaded synchronously. In this release, this report will be downloaded asynchronously via a notification.
-
-For more information on reports, see [Reports](/help/migrated/administrators/feature-summary/reports.md) in Adobe Learning Manager.
-
-## Decommissioning of Content Marketplace
-
-The courses that have expired in the imported content marketplace catalog (Enterprise training) will be auto-deleted once they expire. The courses will be set to retire when the content is marked for decommissioning. Existing enrolled learners can consume them within a limited timeframe after which they will be deleted. This will keep the catalog clean and not show users any expired courses.
-
-## Skill-based new recommendations
-
-Adobe Learning Manager improves the recommendations for Customer and Partner-enabled accounts. This improvement in the recommendation algorithm with the change in the ranking algorithm for course, learning path, and certification provides a better user experience in content discovery.
-
-The algorithm will no longer allow peer-based recommendations. The change will not affect the existing users, but the Industry Aligned option will continue to exist. For the Custom option, Adobe Learning Manager will no longer allow custom peer-based selection.
-
-The peer group now becomes an account, and learners will see a string that shows the trending topics in the group. All recommendations are explainable. For example, if you are viewing something on a subject, the card on the strip will display the reason for the course.
-
-## Custom Admin workflow enhancements
-
-Custom Admins will now have more parity with Admin roles regarding access to reports. Admins will be able to configure reporting access with better control.
-
-In Adobe Learning Manager, only Learning Transcript and Gamification Transcript are available to a Custom Admin. In this release, a Custom Admin can access all custom reports except for xAPI and email reports, which are still available only to the admin. Access to all the reports is subject to the catalog and user scope which the custom admin has. There are few reports which are available only with full scope. They are:
-
-<table>
-    <tbody>
-        <tr>
-            <td>
-    <p style="text-align: left;"><b>Report</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Available</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Scope</b></p></td>
-        </tr>
-    <tr>
-   <td>
-    <p>Content Audit Trail</p></td>
-   <td>
-    <p>Yes</p></td>
-   <td>
-    <p>Full Catalog</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>User Audit Trail</p></td>
-   <td>
-    <p>Yes</p></td>
-   <td>
-    <p>Full User</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>Login Access</p></td>
-   <td>
-    <p>Yes</p></td>
-   <td>
-    <p>Full User</p></td>
-  </tr>
-    </tbody>
-</table>
-
-**New Read-Only controls**
-
-In the Custom Roles page, we've added the following Read Only options to enable admins to provide more flexible options to the Custom Admin: Custom admin will now have additional Read Only permission for Users, Email templates, and Learning Plans.
-
-**Users**:
-
-If you select Read Only, the Custom Admin will be able to view all users but will not be able to edit user data, and create a self-registration portal for users.
-
-**Learning Plans**: 
-
-If you select Read Only, a Custom Admin cannot add or edit a Learning Plan. They can download a Learning Plan report and view its details. But they cannot change the course details.
+You will now be able to customize certain UI elements—the organization name, logo, and UI theme based on the user-groups available in the account. For example, an organization with multiple divisions can set up a custom logo and UI theme to be displayed for each division.
 
 >[!NOTE]
 >
->Learning Plans will be additional read-only along with full control.
+>This multiple branding feature does not apply to Admin's view. They will always see org-level branding in their account. This is because this is a learner facing feature, and admin's may not want it in their account.
 
-**Email Templates**
+View [Multiple custom branding](administrators/feature-summary/themes.md#multiple-branding) for more information.
 
-If you select Read Only, a Custom Admin can view the email templates. They cannot enable or disable email template settings but can download email access reports.
 
-### Learner transcripts
+## Changes for accounts with large user base
 
-If User permission or All user group is selected, and custom admin tries to download Learner Transcripts, the Include deleted learner option will return all deleted learners in the report.
+### Admin- Course or Learning Path pages
 
-### Reports
+If a large number of learners are enrolled to the course, for example, more than 50,000, the list of learners wil not be displayed. You can either search for a learner in the *Search Learners* search bar or select the **Download** link above the search bar to download the list of learners.
 
-A Custom Admin can access the following reports according to the defined scope:
+### Admin- Learners page
+
+When searching for any user, the **Download learner** and **Export** options download the same report. Meanwhile, while searching for a User Group, you can now download filtered users from that user group. When searching a User Group,
+the **Download learner list** changes to **Download leaner list for user group** The **Export** option again downloads the entire list.
+
+### Admin- Users page
+
+#### Internal users
+
+If the number of users exceed, for example, 50,000, there'll be a message to download the data for a more detailed analysis later. The search bar is now prominent and displays a user in the format *Name, email | UUID*.
+
+>[!NOTE]
+>
+>The UUID displays only if UUID is enabled for the account.
+
+#### External users
+
+For external users, the same behavior applies. If the number of users is large, you can download the users, and also retrieve the details of a user after a search in the format *Name, email | UUID*.
+
+#### User Cleanup page
+
+On the User Cleanup page, for deleted users, we've removed the sort capability on **Date deleted**. You can only sort on the UUIDs.
+
+### Admin- Instance pages
+
+#### Course or Learning Path
+
+If the number of enrollments is large, Adobe Learning Manager will not display the number of learners. Instead, there will be an icon, which you can select, and view the number of learners and navigate to the Learners page.
+
+The number of learners will be displayed as an approximate value. For example, if the number of learners is more than 50,000, the value will be displayed as 50K+.
+
+### Admin- L1/L3 pages
+
+On the L1 Feedback page, if the number of course enrollments is large, the list of learners is not displayed. Instead, you can export the list of users for a more detailed analysis later. 
+
+The search supports type-ahead and the results are restricted to the selected instance.
+
+#### Attendance and Scoring page
+
+On the page, when you search a user, the search executes across all available instances. However, the result is for the selected instance.
+
+On the Attendance page, if you search for a User Group and the number of users exceeds 10,000 in the User Group irrespective of enrollment, you can only perform bulk-level actions. You'll be unable to view the list of users.
+
+If the number of users in the User Group is fewer than 10,000, then you can perform individual user-level actions along with bulk-level actions. In this case, the listing of users is not disabled.
+
+### Admin- Certifications page
+
+In current versions of Adobe Learning Manager, if there is a large number of users enrolled to a certification, you're unable to view the unenrolled learners since the **Status** dropdown is disabled.
+
+In this release of Adobe Learning Manager, if the number of enrolled users is large, the **Status** dropdown only displays two options- **Enrolled** and **Unenrolled**. The option **Enrolled** is selected by default. If you select **Unenrolled**, the list of unenrolled learners displays.
+
+#### User Group changes
+
+In case of a User Group, if the number of users in the User Group is fewer than, for example, 50,000, the **Status** dropdown displays all options- Certified, Assigned, and Expiring.
+
+If the number of users in a User Group is large, the **Status** dropdown only displays two options- **Enrolled** and **Unenrolled**, according to the new design.
+
+### Comparison table
 
 <table>
     <tbody>
         <tr>
-            <td>
-    <p style="text-align: left;"><b>Report</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Available</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Scope</b></p></td>
+            <td><b>Page</b></td>
+            <td><b>Before threshold change</b></td>
+            <td><b>After threshold change</b></td>
         </tr>
-    <tr>
-   <td>
-    <p>Content Audit Trail</p></td>
-   <td>
-    <p>Yes</p></td>
-   <td>
-    <p>Full catalog</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>User Audit Trail</p></td>
-   <td>
-    <p>Yes</p></td>
-   <td>
-    <p>Full User</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>Login Access</p></td>
-   <td>
-    <p>Yes</p></td>
-   <td>
-    <p>Full User</p></td>
-  </tr>
+        <tr>
+            <td>Admin- Course Instance</td>
+            <td>Instances display as designed with the following:
+            <ul>
+                <li>Modules</li>
+                <li>Learners Enrolled</li>
+                <li>Sessions</li>
+                <li>Badge</li>
+                <li>L1 feedback enabled</li>
+                <li>Notification alerts</li>
+                <li>Gamification points</li>
+                <li>QR Code</li>
+                <li>Learning Path extension</li>
+            </ul>
+            <td>
+                <ul>
+                    <li>If the number of enrolments exceed the pre-defined threshold, ALM will not display the count; it will replace the count with an icon, which when clicked, displays the actual number of learners and a link to take you to the Learners page.</li>
+                    <li>The number of enrolments will be displayed in an approximate format. For example, if the number is more than 50,000, the count will be displayed as 50K+ at the course level.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Admin- Learners page</td>
+            <td>
+                    <ul>
+                        <li>The list of learners displays for each instance.</li>
+                        <li>You can search a user or User Group enrolled in a course.</li>
+                        <li>The exported report does not consist of any filter for User Group.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Selection of instance is disabled.</li>
+                    <li>Download learner list also downloads the same data except for one case. If you search for a user-group and then select the Download Learner List, it will download that user-group data.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Admin- L1/L3 feedback page</td>
+            <td>
+                <p>No change in existing behavior</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Selection of instance is disabled.</li>
+                    <li>If enrolment to a course is above 50K, ALM does not list learners and displays only the Search bar. If enrolment is fewer than 50K, ALM displays both learner list and search bar.</li>
+                    <li>Listing is disabled by default.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Admin- Attendance and Scoring page</td>
+            <td>
+                <p>No change in existing behavior</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Selection of instance is disabled when searching a user.</li>
+                    <li>If the number of users exceed, for example, 50,000, there'll be an additional message to download the data for a more detailed analysis later. The search bar is now prominent and displays a user in the format Name, email | UUID.</li>
+                    <li>If the number of users in the User Group is fewer than 10,000 irrespective of enrollment, then you can perform individual user-level actions along with bulk-level actions. In this case, the listing of users is not disabled.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Admin- L2 Quiz Score page</td>
+            <td>
+                    <ul>
+                        <li>User search is implemented as well.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>User search is implemented as well. While typeahead searches at LO level, listing is filtered to the currently selected instance.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Admin- Users page (Internal, External)</td>
+            <td>
+                    <ul>
+                        <li>The email id is displayed upon searching a user.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>If the number of users exceed, for example, 50,000, there'll be a additional message to download the data for a more detailed analysis later. The search bar is now prominent and displays a user in the format Name, email | UUID.</li>
+                    <li>On the User Cleanup page, for deleted users, we've removed the sort capability on **Date deleted**. You can only sort on the UUIDs.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Instructors- Submission</td>
+            <td>
+                    <ul>
+                        <li>Pagination of modules to be submitted.</li>
+                        <li>As an instructor, you can now filter file submissions from learners based on status, ending Review, Pending Submission, Passed, and Failed. </li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>You can only search users, not User Groups in that instance.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Count on preview as learner page</td>
+            <td>
+                    <ul>
+                        <li>Count includes the data from higher order enrollment.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Count excludes data from higher order enrollments.</li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 
-<!--| Report | Available | Scope |
-|--- |--- |
-| Content Audit Trail | Yes | Full Catalog |
-| User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |-->
+## Advanced searching capabilities
 
-## Enhanced Connect Integration
+In this release, we've enhanced the search experience. The search results are fetched based not only on the metadata, but also semantic, and in-content search to derive results based on precision, recency and relevant content. 
 
-Instructors can personalize their session experience by selecting instructor-specific rooms. In this release, we've made the following enhancements:
+This change reflects on the following:
+* Catalog and My Learning page: The hover action on course, learning path, and certification has been removed.
+* The appearance of the search bar.
+* Added filter tags in the learning app.
 
-### Import transcripts
+To enable the search capabilities, contact the CSAM team of Adobe Learning Manager.
 
-You'll be able to import session transcripts from Connect and analyze the transcripts. Learners will receive the transcript after the recording, which they can download later.
+## Changes to reports
 
-### Edit videos
+* Tag(s) and Skill(s) columns in Trainings Report are changed to Tag and Skills.
+* Added the report [Gamification Audit Trail](administrators/feature-summary/reports.md#gamification-audit-trail).
+* If an account contains more than 280000 learners assigned to a skill, then the skill-learner report gets downloaded as a zipped csv.
+If the account has fewer than 250000 learners, the same report gets downloaded as a CSV.
+On the Admin page, select **Admin** > **Skills** > **Skill** > **Learners**. The report gets downloaded as CSV.
+* The [Session Summary report](administrators/feature-summary/reports.md#session-summary-report) has two new columns- Location Information and Location region.
 
-Instructors can edit the video and enhance the learners' viewing experience. Instructors will see a link on the Session overview page to take them to Adobe Connect login page. After logging in, the instructor will see the recording link. Clicking the link will redirect them to the video, which they can trim.
+## Changes to classroom creation
 
-## Restricting dashboard reports to users with manager role
+Based on [Administrator settings](administrators/feature-summary/classroom.md#classroom-settings), you, as an Author, can [create,modify, and delete locations](administrators/feature-summary/classroom.md#add-classroom-location).
+>[!NOTE]
+>
+>While adding location and Catalog labels, authors (in course creation page) and admins (at instance page) will see an auto populated list of locations and catalog labels respectively.
 
-Admins can search only managers in Dashboard reports.
+As as Administrator, you can enforce restrictions on a Author to modify or delete a classroom location. View [Classroom settings](administrators/feature-summary/classroom.md#classroom-settings) for more information.
 
-## Limit legacy dashboard report processing
+## Changes to Flexible Learning Path
 
-When an Administrator attempts to plot a dashboard report, and the report takes too long to plot (more than 2.5 min), Adobe Learning Manager displays the following message:
+All accounts (old and new) in will start including Enrollment Deadline, Unenrollment Deadline, and Seat limit in the Learner app for a Flexible Learning Path.
+Learners now will be able to enroll to Flexible Learning Path without selecting any instance of the course.
 
-![legacy report image](assets/error-message.png)
-*Error message when report takes too long*
+## New trigger for Learning Plans 
 
-Reports of such magnitude cannot be displayed on the User Interface, but the Administrator can download them.
+A new trigger has been added to the Learning Plan setup page. Authors and Admins will now be able to trigger actions when a learner fails a module of a course.
 
-## Migration Support for Catalog Labels
+View [Learning Plans](administrators/feature-summary/learning-plans.md) for more information.
 
-The migration workflow now supports catalog labels. Migration CSVs can be used to import catalog label keys and catalog label values and attach them to courses, learning paths, certifications, and job-aids. The workflow can also be used to delete incorrect values and keys if required.
+## New submission status 
 
-## API Enhancements for Complex Course Filtering
+As an instructor, you can now filter file submissions from learners based on status, ending Review, Pending Submission, Passed, and Failed.
 
-Advanced filtering of courses by Tags and Catalog-labels (using a combination of "AND" and "OR" conditions) will now be possible via Learning Manager APIs.
+View [Submission status](instructors/feature-summary/learners.md#filter-file-submissions) for more information.
+
+### Checklist enhancements
+
+In current versions of Adobe Learning Manager, for a checklist, the progress of a module was allowed even if a reviewer has marked the modules as Failed. In this release, an Author can configure to prevent the progress of a learner of they fail the checklist.
+
+For more information, see [Checklist enhancements](authors/feature-summary/courses.md#mandatory-checklist) in Adobe Learning Manager.
+
+## Other enhancements
+
+### Changes in checklist
+
+While creating a checklist, you can select the **Mandatory Checklist** check-box. Doing so prevents the module or course to proceed if a learner fails the checklist.
+
+### AEM Reference site changes
+
+In an AEM Reference site, we've added support for adding Admin Refresh Token to Learner Access Token.
+
+### Hide submissions from instructors
+
+After learners upload their files using the file submission workflow, if an instructor does not take any action (approve or reject) on the submission, the submission URL is hidden from the view after a pre-defined number of days. Contact the CSAM teams of Adobe Learning Manager to set or change the number of days.
+
+### Product terminology changes
+
+We've added the columns *Instance* and *Learner* to the product terminology vocabulary.
+
+### Mobile app changes
+
+In this mobile app release, learners can schedule and manage overdue course reminders. Clicking on an overdue reminder notification allows you to access the following options:
+
+* Cancel
+* Go to course
+* Remind me again in 3 days
+* Remind me again in a week
+
+On Android: Clicking the push notification will direct you to the **Course Overview** page.
+On iOS: Clicking the push notification will direct you to the Home page of the app. This is a known limitation in iOS.
+
+### Checklist changes in Learner app on Salesforce
+
+If a learner fails a checklist, they cannot proceed to the next module or course. When the Mandatory Checklist checkbox is selected, the learner is unable to move ahead in a course if they fail the checklist.
+
+As with the web app, if a learner fails a checklist on the Salesforce app, they will see a message, and will not move ahead.
+
+### Changes in Connect VC
+
+In current releases of Adobe Learning Manager, a learner is marked **Not Attended** when they are enrolled for a Connect VC session, but didn't meet the completion criteria.
+
+In this release, the status changes to **Yet to mark**.
+
+### White labeling in Adobe Learning Manager
+
+Adobe Learning Manager mobile app now supports white labeling – which means that you can now release the app under your own branding.
+
+View White labeling in [Adobe Learning Manager mobile app](white-label.md) for more information.
+
+### App rating
+
+A learner can provide their feedback on the Adobe Learning Manager app to further enhance the app experience. If the learner rates four star or more, a pop-up displays that requests the learner to rate the app on Play Store or App Store.
 
 ## API changes in this release
 
-### Validation in job API
+### Learner APIs
 
-In this release, if the Job aid report exceeds 10 million generated using the Job API, the response will have the message, "Requested report has too much data to generate, consider applying job aid filters!".
+In this release, we've added API support for learners to view the branding logo and personalized themes in the User Group level.
 
-### Notification for a deleted post
+The APIs /account and /user?include=account returns four fields, which are overridden specific to the active field of the user belongs to logoUrl, logoStyling, and themeData.
 
-In previous releases of Adobe Learning Manager, if any Course, Certification, or Learning Plan is deleted and its notification is present, then you could still access the Course, Certification, or Learning Plan by visiting its notification.
+### New attributes
 
-In this release, we'll ensure that a deleted post is no longer accessible. If you specify the id in the /posts/{id} API, and the id for the post is no longer available, the API displays the message, "Post not found for the specified resource".
+A new attribute, isExpiredSubmission, in learningObjectResource, which shows whether the submission in the resource is expired or not.
 
-### Learner API completion deadline
+* GET /account API: Returns new attribute **expireSubmissionDuration** X, where X is the number of days set. If not set, 0 will be returned
+* GET /LO API with resource includes new attribute **isExpiredSubmission**" True or False.
+    * True, if the submission is expired and  "submissionUrl" is not displayed. 
+    * If False, the submission is not expired and "submissionUrl" is fetched.
 
-In previous releases, Adobe Learning Manager fetched the deadline from the enrollment table. In this release, Adobe Learning Manager will calculate the deadline from the course instance table. If the deadline is unavailable, it will fall back to the enrollment table.
+### API changes in Checklist
 
-### Override flag
+A course can consist of several modules of which Checklist is a type of module. This checklist module is evaluated by the instructor and can be marked as Failed  or Success based on evaluation.
 
-In the November 2023 release of Adobe Learning Manager, we are discontinuing the override flag from the APIs. The override flag is not a part of the public API specification and is intended for backend testing. The flag is now discontinued for Learner APIs. However, the flag is still valid for Admin APIs.
+But in both cases the checklist status is marked as Completed and this way, the course is marked as Completed.
 
-The reason we're deprecating the flag for the Learner APIs is because the override flag was fetching a large amount of data via the Learner APIs.
+In this release, the LO API includes the parameter *isChecklistMandatory*. If the value is True, the checklist is mandatory.
 
-Going forward, the following Learner API will stop working because it has the override flag.
+### Support for multiple locales
 
-`https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&page[limit]=10&sort=id&override=TRUE`
+An Administrator can now download L1 feedback report in the language of their choice. However, you cannot download L1 feedback reports for Power BI yet. In the API request, use the parameter preferredLocale to specify the locale of your choice.
 
-### Highlight results
+### Changes in the count of Instance summary
 
-In the upcoming release of Adobe Learning Manager, for example, in /search API, we're changing the default for highlightResults to false.
+This is applicable to accounts where the enrollments for a Classroom/VC course is more than 1000.
 
-Additionally, we'll change the default of snippetTypes to courseName. Doing so will only highlight the course names in the search if highlightResults is True.
+If the number is fewer than 1000, the enrollments invalidate the cache and returns the updated values in a GET Summary API call, such as, number of enrollment, completion, and seatLimit.
 
-### New resource type for quiz
+If the account is enabled for this feature and the number of enrollments is more than 1000, the values are retrieved from the cache.
 
-The `instances.loResources.resources` endpoint will return `ResourceContentType` with Quiz.
+### Deprecated paths
 
-## Deprecation notice
+At present, Learning Manager APIs follow a graph data structure, which allows you to fetch data by traversing the API model through includes. Even though you could traverse an API up to seven levels, fetching the data using a single API call is computationally expensive. 
 
-On November 30, 2023, LinkedIn Learning will deprecate the usage of the HTTP GET method for obtaining an OAuth token. After the deprecation, you'll only be able to generate an OAuth token using the HTTP POST method.
-Adobe Learning Manager will discontinue BlueJeans in February 2024. All new accounts after February 2024 will not include the BlueJeans connector.
+We recommend that all existing and new customers make small calls multiple times instead of one large call. This approach will prevent unwanted data from being loaded in the call.
 
-## Release Notes
+#### What paths are deprecated 
 
-For information regarding current and previous releases of Learning Manager web app and device app, see the [Release notes](release-note/release-notes.md).
+The following paths are deprecated: 
 
-## Bugs fixed in this release
+* /learningObjects 
+    * Deprecated paths:  
+        * enrollment.loInstance.loResources.resources 
+        * instances.loResources.resources 
+    * Existing paths: 
+        * enrollment.loInstance 
+        * instances.loResources 
+* /learningObjects/{id} 
+    * Deprecated path: 
+        * enrollment.instances.subLoInstances.learningObject 
+    * Existing path: 
+        * enrollment.instances.subLoInstances 
+* /enrollments 
+    * Deprecated path:  
+        * loInstance.learningObject.enrollment 
+    * New path: 
+        * loInstance.learningObject 
+* /learningObjects/{id} 
+    * Deprecated path: 
+        * instance.subLoInstances.learningObject.enrollment.loResourceGrades 
+    * New path: 
+        * instance.subLoInstances
 
-* A thumbnail for a course, which is a pre-requisite for a Learning Path or another course does not display when a learner opens the preview page of the Learning Path or the course.
-* If Calendar, Gamification, and Social Learning options are not selected, the learner dashboard setting does not retain the next setting. The options like Recommended in your areas of interest and Browse by Catalog do not appear as selected but show in the preview.
-* Even after a learner completes a VC course, they receive a reminder mail to complete the course.
-* For peer accounts, you are unable to download dashboard reports.
-* Deleting and adding a checklist module in a course produces an internal error.
-* In the case of Session Invite templates, the sender's email ID has the text captivatePrime instead of AdobeLearningManager.
-* When you use Course effectiveness as secondary Y-axis, the report download fails with a Null Pointer Exception.
-* If a learner is assigned a Custom Admin role, they navigate to the Custom Admin profile by default. However, when a Learner redirect URL is set on the account, the custom admin is taken to a different destination, not the Custom Admin Role profile.
-* The gamification scope does not work as expected if disabled_sub_groups are set to a large number.
-* In some cases, deleted users trigger a migration.
-* A learner cannot play LinkedIn courses on the MS Teams app.
-* The Enrollment API doesn't return the enrollments in a Flex Learning Plan or Embedded Learning Plan as expected.
-* In the mobile app, the names of a Course, Certification, or Learning Plan appear in lowercase.
-* In previous releases of Adobe Learning Manager, if any Course, Certification, or Learning Plan is deleted and its notification is present, then you could still access the Course, Certification, or Learning Plan by visiting its notification. In this release, we'll ensure that a deleted post is no longer accessible. If you specify the id in the /posts/{id} API, and the id for the post is no longer available, the API displays the message, "Post not found for the specified resource".
-* In the Learner API, the completion deadline field isn't displayed in the response of the Enrollment API.
-* In the Get Enrollment API for learners, the enrollment details appear even after you specify an incorrect Instance ID.
+### Login access and User audit report archival changes for Job API
 
-## Known issues in this release
+With this release, the Job API will retain Login Access Report up to five quarters and User Audit Report for six months. If you want to download the data older than this time period, you must pass the archive parameter, specifying quarter and year. Refer the sample payload.
 
-* A new enrollment or updating an enrollment fails when a Flex Learning Plan is inside another Flex Learning Plan.
-* The transcript URL does not display the session recordings in Adobe Connect sessions.
-* A learner can take an offline quiz in the mobile app even if they fail it.
+```
+{
+    "data": {
+        "type": "job",
+        "attributes": {
+            "description": "description of your choice",
+            "jobType": "generateLoginAccessReport",
+            "payload": {
+                "fromDate": "2023-04-01T18:30:00.000Z",
+                "toDate": "2023-04-30T18:30:00.000Z",
+                "archive": {
+                    "quarter": "4",
+                    "year": "2021"
+                }
+            }
+        }
+    }
+}
+```
 
-## System Requirements
+If you try to download the **Login Access** report that goes beyond five quarters, an error message displays. A similar error message displays if you try to download the **User Audit** report that goes beyond six months.
 
-[Learning Manager system requirements](system-requirements.md)
+## Bugs fixed in this update {#bug-fixes}
+
+* When a learner is enrolled in a course and then tries to enroll to another course, a warning message displays.
+* A User Group, even after being deleted, is visible in Search.
+* When users trigger a lot of Learner Transcripts with a large amount of data, the Learner Transcripts queue gets blocked, and prevents a new request.
+* If a child account requests its parent account to share a report, the parent account is unable to do so.
+* The URLs from a Course and a Learning Path redirect to incorrect locations.
+* A learner intermittently views the course instance of a different course on clicking the course link on the catalog page.
+* The **Unenroll** button does not display as expected after the first enrollment, but the button displays after a refresh.
+* You're unable to save Content or a Quiz that has a blank space in its name.
+* In manager-approved courses, you're able to re-enroll learners in a User Group.
+* In some cases, if you try to add an additional active field, the error message, "Active fields could not be saved.", displays.
+* The text overflows in the name of a course inside a course card in the Related Courses section.
+* After switching an instance and enrolling a learner to the instance, the old instances still exist in the Outlook calendar.
+* When a learner from a peer account tries to select the thumbnail of a course, an error message displays.
+* When learners enroll to a course, they receive multiple notifications for the enrollment.
+* If a user manually changes the name of the catalogs created in a connector, then new catalogs get created, and the courses are published to the incorrect catalogs.
+* Users belonging to inactive accounts still receive subscription emails.
+
+### API-related bug fixes
+
+* The API GET/users does not retrieve the details of a Manager.
+* In an account, users got created through a scheduled FTP user import during a scheduled downtime.
+* In the mobile app or immersive mode, after deleting or retiring a course instance, and selecting the next active instance, the **Register Interest** button displays instead of **Enroll**.
+* When a learner from a peer account tries to select the thumbnail of a course using the Learning Object API, the error 403 Forbidden displays.
+
+## System requirements
+
+View [Adobe Learning Manager system requirements](system-requirements.md).
 
 ## Previous releases of Adobe Learning Manager
 
-<!--* [November 2023 release](whats-new-november-2023.md)-->
+* [November 2023 release](whats-new-november-2023.md)
 * [July 2023 release](whats-new-2023-july.md)
-* [April 2023 release](whats-new-2023-april.md)
