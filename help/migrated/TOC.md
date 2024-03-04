@@ -49,6 +49,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Peer accounts](administrators/feature-summary/peer-account.md)
    * [Create and modify skills and levels](administrators/feature-summary/skills-levels.md)
    * [AI-based recommendation of courses](ai-based-recommendations.md)
+   * [Import skills](administrators/feature-summary/import-skills-external-sources.md)
    * [Gamification](administrators/feature-summary/gamification.md)
    * [Customize learner homepage](administrators/feature-summary/customize-learner-homepage.md)
    * [Badges](administrators/feature-summary/badges.md)
