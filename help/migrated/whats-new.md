@@ -33,7 +33,7 @@ View [Multiple custom branding](administrators/feature-summary/themes.md#multipl
 
 ### Admin- Course or Learning Path pages
 
-If a large number of learners are enrolled to the course, for example, more than 50,000, the list of learners wil not be displayed. You can either search for a learner in the *Search Learners* search bar or select the **Download** link above the search bar to download the list of learners.
+If a large number of learners are enrolled to the course, for example, more than 50,000, the list of learners wil not be displayed. You can either search for a learner in the *Search Learners* search bar or select the **Download** link at the top of the search bar to download the list of learners.
 
 ### Admin- Learners page
 
