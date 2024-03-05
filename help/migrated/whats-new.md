@@ -267,11 +267,13 @@ As an instructor, you can now filter file submissions from learners based on sta
 
 View [Submission status](instructors/feature-summary/learners.md#filter-file-submissions) for more information.
 
-### Checklist enhancements
+## Checklist enhancements
+
+### Mandatory checklist
 
 In current versions of Adobe Learning Manager, for a checklist, the progress of a module was allowed even if a reviewer has marked the modules as Failed. In this release, an Author can configure to prevent the progress of a learner of they fail the checklist.
 
-#### Checklist re-evaluation
+### Checklist re-evaluation
 
 In the same workflow, you, as an Author, can re-evaluate  a Learner who has failed a checklist. Select the **Enable** checkbox in the Re-evaluation section, while creating a checklist.
 
