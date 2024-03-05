@@ -9,19 +9,9 @@ title: Migration manual
 
 Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
 
-## Overview {#overview}
+<!-- ## Overview {#overview} -->
 
-<table>
- <tbody>
-  <tr>
-   <td><img src="assets/migration.jpg"></td>
-   <td>
-    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> is a cloud-hosted, learner-centric, and self-service learning management solution. Adobe enables enterprises with the existing Learning Management Systems (LMS) to migrate their organization's training data and training content to the Learning Manager LMS application. </p></td>
-  </tr>
- </tbody>
-</table>
-
-### Usage scenario {#usagescenario}
+## Usage scenario {#usagescenario}
 
 In general, large enterprises have their in-house LMS or any vendor provided legacy Learning Management Systems. LMS consists of your enterprise training content and training data. As an enterprise when you purchase the Learning Manager, you may want to move your existing LMS content and data to Learning Manager so you can leverage the benefits of modern and intuitive LMS without losing any of your organization's legacy data.
 
@@ -382,7 +372,11 @@ Find below, the standard CSV specifications that you can use to map with your ex
 </table>
 
 Learning Manager supports date and time values in UTF 8 and 32 bit format only. You may get errors during migration if you mention date in CSV files with an out of range date as 2038-07-17T08:53:21.000Z or 1980-04-17T08:13:25.322Z. 
-[sample-csvs.zip](assets/sample-csvs.zip) [csv_specifications.zip](assets/csv-specifications.zip)You need to be aware of the following dependencies on CSV files during import:
+
+* [sample-csvs.zip](assets/sample-csvs.zip) 
+* [csv_specifications.zip](assets/csv-specifications.zip)
+
+You need to be aware of the following dependencies on CSV files during import:
 
 * module_version.csv is dependent on module.csv
 * course_instance.csv is dependent on course.csv
@@ -530,6 +524,11 @@ Find below, the standard CSV specifications that you can use to map with your ex
 
 4-user_course_grades.xlsx-contains descriptions of metadata required for retrofit_user_course_grades.csv file.
 [csv-specifications.zip](assets/csv-specifications.zip)
+
+>[!NOTE]
+>
+>UUID (Universally Unique Id) is also a column in the migration csv.
+
 
 ## Troubleshooting migration issues {#troubleshootingmigrationissues}
 
