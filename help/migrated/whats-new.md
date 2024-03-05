@@ -421,6 +421,10 @@ With this release, the Job API will retain Login Access Report up to five quarte
 
 If you try to download the **Login Access** report that goes beyond five quarters, an error message displays. A similar error message displays if you try to download the **User Audit** report that goes beyond six months.
 
+### Deprecated APIs
+
+View [API deprecations in Adobe Learning Manager](api-deprecations-list.md) for a cumulative list of all deprecated APIs in the product.
+
 ## Bugs fixed in this update {#bug-fixes}
 
 * When a learner is enrolled in a course and then tries to enroll to another course, a warning message displays.
