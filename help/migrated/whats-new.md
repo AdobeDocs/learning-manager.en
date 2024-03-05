@@ -271,13 +271,33 @@ View [Submission status](instructors/feature-summary/learners.md#filter-file-sub
 
 In current versions of Adobe Learning Manager, for a checklist, the progress of a module was allowed even if a reviewer has marked the modules as Failed. In this release, an Author can configure to prevent the progress of a learner of they fail the checklist.
 
-For more information, see [Checklist enhancements](authors/feature-summary/courses.md#mandatory-checklist) in Adobe Learning Manager.
+#### Checklist re-evaluation
+
+In the same workflow, you, as an Author, can re-evaluate  a Learner who has failed a checklist. Select the **Enable** checkbox in the Re-evaluation section, while creating a checklist.
+
+View [Create a checklist](authors/feature-summary/courses.md#checklist-fail) for more information.
 
 ## Other enhancements
 
-### Changes in checklist
+### Session-related email notifications
 
-While creating a checklist, you can select the **Mandatory Checklist** check-box. Doing so prevents the module or course to proceed if a learner fails the checklist.
+In earlier releases of Adobe Learning Manager, a Learner did not session-related emails, Session Details Updated, Session Invite, and Session Reminder, when:
+
+* Learners have completed a course,
+* New sessions are added to a course, or
+* There are changes to existing sessions.
+
+In the March 2024 release of Adobe Learning Manager, the following are the new changes:
+
+* Session Details Updated and Session Invite (For Learner and Instructor)
+    * For future sessions, emails for **Session Details updated**, **Session Invite** for enrolled Learners  and current Instructors will be deprecated. For past sessions, emails for **Session Details updated** and **Session Invite** for enrolled Learners and current Instructors will stay as is.
+* Reminder Emails (For Admin and Learner)
+    * For future sessions, only **Session Reminder** emails will be sent.
+
+>[!NOTE]
+>
+>The mails do not depend on session and course completion.
+
 
 ### AEM Reference site changes
 
