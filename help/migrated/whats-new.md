@@ -347,6 +347,12 @@ View White labeling in [Adobe Learning Manager mobile app](white-label.md) for m
 
 A learner can provide their feedback on the Adobe Learning Manager app to further enhance the app experience. If the learner rates four star or more, a pop-up displays that requests the learner to rate the app on Play Store or App Store.
 
+### Bluejeans has reached its end of life (EOL) in February 2024
+
+We wanted to inform you that Bluejeans has reached its end of life (EOL) on February 2024. After February 2024, Bluejeans will no longer receive updates or support. Our CSAM and support teams will assist you with any questions or concerns you may have during this transition period.
+
+View [Connectors in Adobe Learning Manager](integration-admin/feature-summary/connectors.md) for more information on configuring connectors.
+
 ## API changes in this release
 
 ### Learner APIs
