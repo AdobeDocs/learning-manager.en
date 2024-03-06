@@ -958,7 +958,7 @@ To set up   miniOrange   connector, contact the Learning Manager CSM team.
 
 To delete an established  miniOrange  connection, follow these steps.
 
-## Video conferencing connectors (Bluejeans Meetings and Zoom) {#bluejeansconnector}
+<!---## Video conferencing connectors (Bluejeans Meetings and Zoom) {#bluejeansconnector}
 
 You can now integrate Learning Manager with BlueJeans and Zoom connectors and use them to host classes.  The connector enables you to set up video conferencing meetings/classes with the learners.
 
@@ -1001,7 +1001,7 @@ Adobe Learning Manager requires the scopes below and the scopes must be selected
 * View and manage all user meetings /meeting:write:admin
 * View report data /report:read:admin
 * View all user information /user:read:admin
-* View users' information and manage users /user:write:admin
+* View users' information and manage users /user:write:admin-->
 
 ## Box connector {#boxconnector}
 
@@ -1912,7 +1912,7 @@ Export data from Learning Manager events to a Marketo Engage instance. Select th
 * Self enrollment
 * Skill completion
 
-## BlueJeans Events {#bj-events}
+<!--## BlueJeans Events {#bj-events}
 
 BlueJeans Events connector connects Learning Manager and BlueJeans systems to automate data synchronization. Using this connector, you can:
 
@@ -1961,7 +1961,7 @@ The Author, in the Author app, then selects an event from the list of available 
 
 >[!NOTE]
 >
->We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.
+>We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
 ## Microsoft Teams Connector
 
