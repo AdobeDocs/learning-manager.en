@@ -38,6 +38,11 @@ While creating a skill, an Administrator can map it with the most relevant skill
 * Analytics
 * Sales
 
+>[!NOTE]
+>
+>According to the algorithm, if the confidence score is less than 50%, the content is marked for manual curation.
+
+
 To add a skill domain, follow the steps below:
 
 1. On the left pane of the Administrator app, click **[!UICONTROL Skills]**.
