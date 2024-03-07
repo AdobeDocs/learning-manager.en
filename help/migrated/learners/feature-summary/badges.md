@@ -3,9 +3,8 @@ description: Learn how to view and download badges using the Learning Manager Le
 jcr-language: en_us
 title: Badges
 contentowner: manochan
+exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
 ---
-
-
 # Badges
 
 Learn how to view and download badges using the Learning Manager Learner app.

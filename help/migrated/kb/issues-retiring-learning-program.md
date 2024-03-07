@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Issues with retiring a Learning Program
 description: Issues with retiring a Learning Program in Adobe Learning Manager
 contentowner: nluke
+exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
 ---
-
-
 # Issues with retiring a Learning Program
 
 ## Issue

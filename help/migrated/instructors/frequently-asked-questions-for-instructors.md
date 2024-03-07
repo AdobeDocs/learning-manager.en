@@ -3,9 +3,8 @@ description: Read on to know the frequently asked questions for instructors in L
 jcr-language: en_us
 title: Frequently Asked Questions for Instructors
 contentowner: shhivkum
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
 ---
-
-
 # Frequently Asked Questions for Instructors
 
 Read on to know the frequently asked questions for instructors in Learning Manager.
@@ -43,4 +42,3 @@ Yes, an author can assign several Instructors for a single module. In this case,
 As an instructor, you can only view and edit the details of those sessions that you have been assigned to. You cannot modify the session or attendee list of any other sessions.
 
 +++
-

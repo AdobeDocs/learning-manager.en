@@ -3,9 +3,8 @@ description: Learn how to use Adobe Learning Manager's desktop application to cr
 jcr-language: en_us
 title: Adobe Learning Manager desktop application
 contentowner: kuppan
+exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
 ---
-
-
 # Adobe Learning Manager desktop application
 
 Learn how to use Adobe Learning Manager's desktop application to create and enrich content that can be shared on Social Learning.

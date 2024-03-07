@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Catalogs
 description: Catalogs are a collection of learning - Courses, Learning Programs, and Certifications. Use Catalogs to provide Learners with access to a customized set of learning. You can associate learning with a Catalog during the creation of a new Catalog.
 contentowner: manochan
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
 ---
-
-
 # Catalogs
 
 Catalogs are a collection of learning - Courses, Learning Programs, and Certifications. Use Catalogs to provide Learners with access to a customized set of learning. You can associate learning with a Catalog during the creation of a new Catalog.
@@ -334,4 +333,3 @@ Once you have created catalog labels, you can apply them to specific catalogs by
 Disable the default catalog and enable only the catalog that was created and granted access to external users.
 
 +++
-

@@ -3,9 +3,8 @@ description: Read this article to know how to view and consume courses in Learni
 jcr-language: en_us
 title: Courses
 contentowner: manochan
+exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
 ---
-
-
 # Courses
 
 Read this article to know how to view and consume courses in Learning Manager. Participate in discussions and provide feedback.

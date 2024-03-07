@@ -3,9 +3,8 @@ description: Gamification is the use of game thinking and game mechanics in non-
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
+exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
 ---
-
-
 # Gamification
 
 Gamification is the use of game thinking and game mechanics in non-game contexts to engage users in earning points while learning.

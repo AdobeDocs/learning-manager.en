@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Learning Summary does not display current data
 description: Learning Summary does not display current data in Adobe Learning Manager
 contentowner: saghosh
+exl-id: 97a3435e-c447-41dd-b71f-46b58a7131ac
 ---
-
-
 # Learning Summary does not display current data
 
 ## Issue

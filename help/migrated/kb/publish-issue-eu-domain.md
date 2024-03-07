@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Unable to publish to Learning Manager EU domain
 description: Unable to publish from Adobe Captivate to Adobe Learning Manager EU domain in Adobe Learning Manager.
 contentowner: nluke
+exl-id: fb8ae1af-9902-4901-8263-fb3ebff98fbc
 ---
-
-
 # Unable to publish to Learning Manager EU domain {#unable-to-publish-to-learning-manager-eu-domain}
 
 ## Issue

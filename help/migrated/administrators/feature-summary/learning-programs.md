@@ -4,9 +4,8 @@ jcr-language: en_us
 title: Learning Programs
 contentowner: manochan
 preview: true
+exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
 ---
-
-
 # Learning Programs
 
 >[!WARNING]
@@ -161,4 +160,4 @@ A learning program can be edited by an Administrator at a published state. At th
 
 To edit a published learning program, click the learning program card and click **[!UICONTROL Edit]** at the upper-right corner of the page. 
 
-While editing the sections of a learning program, if you have to move out of the page, you need to re-publish the learning program. You get a dialog confirmation asking you to re-publish the learning program. 
+While editing the sections of a learning program, if you have to move out of the page, you need to re-publish the learning program. You get a dialog confirmation asking you to re-publish the learning program.

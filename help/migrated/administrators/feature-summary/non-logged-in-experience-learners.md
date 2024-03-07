@@ -1,6 +1,7 @@
 ---
 title: Non-logged in experience for learners
 description: Adobe Learning Manager native portal will support a non-logged way of accessing the training site. With this mode enabled, learners can discover and access the training site and check out various courses and content available. The non-logged in experience enables learners to browse courses without being logged in to a portal.
+exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
 ---
 # Non-logged in experience for learners
 

@@ -3,8 +3,8 @@ jcr-language: en_us
 title: Adobe Learning Manager reference site (ALM reference site) package for AEM Sites
 description: Adobe Learning Manager (ALM) integrates with Adobe Experience Manager (AEM) sites. This enables you to create your own website and responsive mobile interfaces for Adobe Learning Manager with minimum coding effort. With this integration, you can create customized learning experiences for your users.
 contentowner: saghosh
+exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
 ---
-
 # Adobe Learning Manager reference site (ALM reference site) package for AEM Sites
 
 Adobe Learning Manager (ALM) integrates with Adobe Experience Manager (AEM) sites. This enables you to create your own website and responsive mobile interfaces for Adobe Learning Manager with minimum coding effort. With this integration, you can create customized learning experiences for your users.

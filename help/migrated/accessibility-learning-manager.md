@@ -4,9 +4,8 @@ title: Accessibility in Adobe Learning Manager
 description: This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
 contentowner: saghosh
 preview: true
+exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
 ---
-
-
 # Accessibility in Adobe Learning Manager
 
 This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.

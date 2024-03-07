@@ -3,9 +3,8 @@ jcr-language: en_us
 title: User log in
 description: User log in for Adobe Learning Manager
 contentowner: manochan
+exl-id: c293c8b1-2a25-4b55-8715-43797049e17e
 ---
-
-
 # User log in
 
 When you are using Adobe Learning Manager for the first time, you need to create your account, by following the steps below:
@@ -31,4 +30,4 @@ When you are using Adobe Learning Manager for the first time, you need to create
 
 If you are an internal user to the organization, then you can log in to Learning Manager either by using Adobe ID or by using Single sign-on method. 
 
-If you are an external user to the organization, then you can log in to Learning Manager either by using Adobe ID, Single sign-on or by using Learning Manager ID. 
+If you are an external user to the organization, then you can log in to Learning Manager either by using Adobe ID, Single sign-on or by using Learning Manager ID.

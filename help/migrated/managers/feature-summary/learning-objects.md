@@ -2,9 +2,8 @@
 description: This document consists of information about learning objects for managers.
 jcr-language: en_us
 title: Learning Objects
+exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
 ---
-
-
 # Learning Objects
 
 This document consists of information about learning objects for managers.

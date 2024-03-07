@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Content marketplace
 description: Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
 contentowner: saghosh
+exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
 ---
-
-
 # Content marketplace
 
 Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
@@ -99,4 +98,4 @@ Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTRO
 
 *Download the Purchase Request form*
 
-The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.    
+The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.

@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Unable to assign a badge
 description: After a learner completes a Course/Learning Program/Certification, the badge does not get awarded to the learner.
 contentowner: nluke
+exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
 ---
-
-
 # Unable to assign a badge
 
 ## Issue
@@ -55,4 +54,4 @@ If a learner experiences the issue, try the steps below:
 
    ![](assets/remove-a-badge-cert.png)
 
-1. Reassign the badge to the certification and click **[!UICONTROL Save]**. 
+1. Reassign the badge to the certification and click **[!UICONTROL Save]**.

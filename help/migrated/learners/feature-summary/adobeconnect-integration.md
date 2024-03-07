@@ -2,9 +2,8 @@
 jcr-language: en_us
 title: Adobe Connect integration
 description: As a learner you can consume virtual class room courses using Adobe Connect if your company integrates Adobe Connect with your Learning Manager account. Contact the administrator of your company if you are unable to use Adobe Connect.
+exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
 ---
-
-
 # Adobe Connect integration
 
 As a learner you can consume virtual class room courses using Adobe Connect if your company integrates Adobe Connect with your Learning Manager account. Contact the administrator of your company if you are unable to use Adobe Connect.

@@ -1,11 +1,10 @@
 ---
-description: Learn about the Learning Manager account settings that you can configure as an administrator. 
+description: Learn about the Learning Manager account settings that you can configure as an administrator.
 jcr-language: en_us
 title: Settings
 contentowner: manochan
+exl-id: a563d955-f67e-4218-88df-625cde673601
 ---
-
-
 # Settings
 
 Learn about the Learning Manager account settings that you can configure as an administrator.

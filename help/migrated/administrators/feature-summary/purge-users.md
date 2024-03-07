@@ -3,9 +3,8 @@ description: Know more about purging user data in Learning Manager.
 jcr-language: en_us
 title: Purge users
 contentowner: dvenkate
+exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
 ---
-
-
 # Purge users
 
 Know more about purging user data in Learning Manager.

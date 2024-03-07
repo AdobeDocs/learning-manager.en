@@ -3,9 +3,8 @@ description: Learn how to take up certifications using the Learning Manager Lear
 jcr-language: en_us
 title: Certifications
 contentowner: manochan
+exl-id: e2869ee6-2c73-45c6-bb00-961e722367ff
 ---
-
-
 # Certifications
 
 Learn how to take up certifications using the Learning Manager Learners app.

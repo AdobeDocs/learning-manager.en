@@ -3,9 +3,8 @@ description: Read this article to know how to set learner profile settings and a
 jcr-language: en_us
 title: Profile Settings
 contentowner: manochan
+exl-id: 232f46c7-f9b4-430d-aa3e-e8a5d38390f4
 ---
-
-
 # Profile Settings
 
 Read this article to know how to set learner profile settings and add a profile photo. Learn how to download the learner transcript for your profile.

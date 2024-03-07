@@ -2,9 +2,8 @@
 description: Learn how to download learner transcript based on users, learning objects, or skills in Learning Manager.
 jcr-language: en_us
 title: Learner transcripts
+exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
 ---
-
-
 # Learner transcripts
 
 Learn how to download learner transcript based on users, learning objects, or skills in Learning Manager.

@@ -3,9 +3,8 @@ description: Read this article to know how to manage the attendees, send course 
 jcr-language: en_us
 title: Managing learners for your session
 contentowner: shhivkum
+exl-id: 2f4f8589-2350-4683-a141-809084d6309a
 ---
-
-
 # Managing learners for your session
 
 Read this article to know how to manage the attendees, send course related emails and reminders for your sessions.

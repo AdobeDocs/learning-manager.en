@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Learning Paths
 description: Creating Learning Plans for Administrators in Learning Manager.
 contentowner: saghosh
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
 ---
-
-
 # Learning Paths
 
 ## What is a Learning Path?

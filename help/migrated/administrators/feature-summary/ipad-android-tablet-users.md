@@ -3,9 +3,8 @@ jcr-language: en_us
 title: iPad & Android tablet users
 description: Settings for iPad and Android tablet users
 contentowner: manochan
+exl-id: 19abe9d6-b48e-4027-bb72-95d7c767c1ec
 ---
-
-
 # iPad & Android tablet users
 
 In Learning Manager app on iPad or Google Nexus 9 Android tablet, after you log in as a learner, you can see the following **Home** screen:

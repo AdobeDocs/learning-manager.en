@@ -3,9 +3,8 @@ description: Learn how to use Catalogs in Learning Manager to view the eligible 
 jcr-language: en_us
 title: Catalogs
 contentowner: manochan
+exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
 ---
-
-
 # Catalogs
 
 Learn how to use Catalogs in Learning Manager to view the eligible learning objects
@@ -35,4 +34,4 @@ You can also filter according to the duration of a training. The duration filter
 
 The training **Duration** and **Format** filters are identified based on the training content available for default instance and for the account preferred locale.
 
-Once a training is published, the training may take up to one hour for the data to be available as a filter.   
+Once a training is published, the training may take up to one hour for the data to be available as a filter.

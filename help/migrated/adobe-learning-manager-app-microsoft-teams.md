@@ -3,8 +3,8 @@ description: Adobe Learning Manager App for Microsoft Teams
 jcr-language: en_us
 title: Adobe Learning Manager App for Microsoft Teams
 contentowner: saghosh
+exl-id: 70c687ac-0ca6-4bc1-8c86-76943aeaf3e5
 ---
-
 # Adobe Learning Manager App for Microsoft Teams
 
 ## How to set up
@@ -115,4 +115,4 @@ Follow the steps below:
 
 1. Save this policy. This makes the app available to everyone in the organization. 
 
-Alternatively, admins can create a custom policy instead of a global policy. Add Adobe Learning Manager to that custom policy, and then apply the custom policy to only those set of users who need to access Adobe Learning Manager.   
+Alternatively, admins can create a custom policy instead of a global policy. Add Adobe Learning Manager to that custom policy, and then apply the custom policy to only those set of users who need to access Adobe Learning Manager.

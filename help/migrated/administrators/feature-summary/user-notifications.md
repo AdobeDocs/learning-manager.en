@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Notifications
 description: Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios.
 contentowner: manochan
+exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
 ---
-
-
 # Notifications
 
 Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.

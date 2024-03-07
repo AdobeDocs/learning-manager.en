@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Getting started as an Author
 description: Use the getting started page to traverse through the key authoring features of Adobe Learning Manager.
 contentowner: manochan
+exl-id: 9f6d4307-91c5-4c80-8e6d-aebfa6d4feaa
 ---
-
-
 # Getting started as an Author
 
 The getting started page aids you to traverse through the key features of the application.  
@@ -30,4 +29,3 @@ From the getting started page, you can perform the following activities:
 You can also learn more about the Learning Manager application by choosing to view tutorial videos, help content and learn about different roles.
 
 <!--![](assets/author-experienceprime.png)-->
-

@@ -2,9 +2,8 @@
 jcr-language: en_us
 title: Announcements
 description: An announcement is a multimedia message (text, image or video) that an Administrator broadcasts to a defined set of users.
+exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
 ---
-
-
 # Announcements
 
 An announcement is a multimedia message (text, image or video) that an Administrator broadcasts to a defined set of users.
@@ -32,4 +31,3 @@ A sample announcement is shown below for your reference.
 ![](assets/announcement-details.png)
 
 *View details of an announcement*
-

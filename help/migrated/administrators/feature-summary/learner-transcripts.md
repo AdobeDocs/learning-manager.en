@@ -3,9 +3,8 @@ description: Download learner transcript and manage reports using Learning Manag
 jcr-language: en_us
 title: Learner transcripts
 contentowner: jayakarr
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
 ---
-
-
 # Learner transcripts
 
 Download learner transcript and manage reports using Learning Manager.

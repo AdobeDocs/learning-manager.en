@@ -1,11 +1,10 @@
 ---
-description: Learn how to create certifications, enroll learners, and edit published certifications. 
+description: Learn how to create certifications, enroll learners, and edit published certifications.
 jcr-language: en_us
 title: Certifications
 contentowner: manochan
+exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
 ---
-
-
 # Certifications
 
 Learn how to create certifications, enroll learners, and edit published certifications.

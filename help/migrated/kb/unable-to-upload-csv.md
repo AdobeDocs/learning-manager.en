@@ -3,9 +3,8 @@ description: When uploading a CSV, an error appears. Read on to resolve the issu
 jcr-language: en_us
 title: Unable to upload CSV
 contentowner: saghosh
+exl-id: 10458499-1038-4c62-971f-f950d383e970
 ---
-
-
 # Unable to upload CSV
 
 ## Error: Data truncation: Data too long for column
@@ -86,4 +85,3 @@ Now, if you upload a CSV that has user A's UUID as 3 and user B's UUID as 2, the
 >[!TIP]
 >
 >To resolve this issue, **you must have the same email address and UUID for the user on the CSV and the system.**
-

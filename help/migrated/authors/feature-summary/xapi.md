@@ -2,9 +2,8 @@
 jcr-language: en_us
 title: xAPI in Learning Manager
 description: The Experience API (xAPI), is an e-learning software specification that allows learning content and learning systems to speak to each other in a manner that records and tracks all types of learning experiences.
+exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
 ---
-
-
 # xAPI in Learning Manager
 
 ## What is xAPI? {#whatisxapi}

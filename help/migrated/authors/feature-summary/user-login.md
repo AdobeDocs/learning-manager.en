@@ -3,9 +3,8 @@ jcr-language: en_us
 title: User login
 description: When you are using Adobe Learning Manager for the first time, you need to create your account.
 contentowner: manochan
+exl-id: f8f0ac74-606e-40ac-81c7-1c3d2fa9a0bf
 ---
-
-
 # User login
 
 When you are using Adobe Learning Manager for the first time, you need to create your account, by following the steps below:

@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Unable to register as an External User
 description: External learners are unable to register to a profile in Adobe Learning Manager.
 contentowner: nluke
+exl-id: b1a9ecb6-75a8-44f7-b169-f77d7a4f6c2c
 ---
-
-
 # Unable to register as an External User
 
 ## Issue

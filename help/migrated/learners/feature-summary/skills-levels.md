@@ -3,9 +3,8 @@ description: Read this article to know how to achieve skills in Learning Manager
 jcr-language: en_us
 title: Skills & Levels
 contentowner: manochan
+exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
 ---
-
-
 # Skills & Levels
 
 Read this article to know how to achieve skills in Learning Manager, as a learner.

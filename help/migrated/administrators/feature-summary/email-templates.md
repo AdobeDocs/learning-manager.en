@@ -1,11 +1,10 @@
 ---
-description: The events in your training activity trigger emails that are sent to learners. You as an administrator can easily enable, disable, or modify these email templates. 
+description: The events in your training activity trigger emails that are sent to learners. You as an administrator can easily enable, disable, or modify these email templates.
 jcr-language: en_us
 title: Email templates
 contentowner: manochan
+exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
 ---
-
-
 # Email templates
 
 The events in your training activity trigger emails that are sent to learners. You as an administrator can easily enable, disable, or modify these email templates.

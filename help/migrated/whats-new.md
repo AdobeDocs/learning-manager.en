@@ -3,9 +3,8 @@ description: Learn about the new features and enhancements in tne March 2024 rel
 jcr-language: en_us
 title: New features summary
 contentowner: jayakarr
+exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
 ---
-
-
 # New features summary {#new-features-summary}
 
 Learn about the new features and enhancements in Adobe Learning Manager

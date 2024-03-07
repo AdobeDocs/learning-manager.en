@@ -2,9 +2,8 @@
 jcr-language: en_us
 title: Job Aids
 description: Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
 ---
-
-
 # Job Aids
 
 Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.

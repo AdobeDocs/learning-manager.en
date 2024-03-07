@@ -3,9 +3,8 @@ description: This document contains basic troubleshooting tips to solve some of 
 jcr-language: en_us
 title: Troubleshooting issues with Adobe Learning Manager desktop app
 contentowner: kuppan
+exl-id: 68d40a52-e048-43af-a7aa-917b569b583d
 ---
-
-
 # Troubleshooting issues with Adobe Learning Manager desktop app
 
 This document contains basic troubleshooting tips to solve some of the typical problems that encounter while installing and using Adobe Learning Manager desktop application.

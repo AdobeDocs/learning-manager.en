@@ -1,11 +1,10 @@
 ---
-description:  Log in as a learner in Learning Manager.
+description: Log in as a learner in Learning Manager.
 jcr-language: en_us
 title: Log in
 contentowner: manochan
+exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
 ---
-
-
 # Log in
 
 Log in as a learner in Learning Manager.

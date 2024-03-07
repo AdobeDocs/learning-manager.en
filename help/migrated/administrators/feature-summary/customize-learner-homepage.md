@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Customize learner homepage
 description: An Administrator can customize the learner's home page and make it more modern, content driven, and personalized to a learner.
 contentowner: saghosh
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
 ---
-
-
 # Customize learner homepage
 
 ## Overview {#overview}

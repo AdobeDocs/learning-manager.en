@@ -3,9 +3,8 @@ description: Learn on how to integrate various connectors in Learning Manager
 jcr-language: en_us
 title: Learning Manager Connectors
 contentowner: jayakarr
+exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
 ---
-
-
 # Learning Manager Connectors
 
 Enterprises have other applications and systems which have to be integrated with Learning Manager. Connectors are utilities that Help in performing data-based integrations such as importing data into Learning Manager from external  systems.  It also performs exporting of data to external systems from Learning Manager.

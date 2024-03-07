@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Frequently Asked Questions for Authors
 description: Frequently Asked Questions for Adobe Learning Manager Authors
 contentowner: admin
+exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
 ---
-
-
 # Frequently Asked Questions for Authors
 
 <table>

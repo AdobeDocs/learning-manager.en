@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Login issues in Learning Manager
 description: Login issues in Adobe Learning Manager
 contentowner: nluke
+exl-id: 516c1a20-f185-4ace-a1e7-2cd89644863c
 ---
-
-
 # Login issues in Learning Manager
 
 ## Issue

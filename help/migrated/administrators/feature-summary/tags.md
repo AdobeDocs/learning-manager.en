@@ -3,9 +3,8 @@ description: Learn how to manage tags on Learning Manager.
 jcr-language: en_us
 title: Tags
 contentowner: dvenkate
+exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
 ---
-
-
 # Tags
 
 Administrators can now manage tags in Learning Manager. Use better tagging and manageable data base to help learners search better and get to appropriate search results quickly. You can manage redundant, misspelled, and irrelevant tags using this feature. You can also add, edit, delete, append, or replace tags.

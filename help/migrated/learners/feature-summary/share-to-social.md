@@ -3,9 +3,8 @@ description: Learn how to use Social bookmark-let to instantly share a user's on
 jcr-language: en_us
 title: Share to Social Learning
 contentowner: kuppan
+exl-id: 5fb10b4a-b927-4466-9e0a-e33d5938416c
 ---
-
-
 # Share to Social Learning
 
 Learn how to use Social bookmark-let to instantly share a user's online learnings onto the social web.

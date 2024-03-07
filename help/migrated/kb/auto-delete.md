@@ -3,9 +3,8 @@ jcr-language: en_us
 title: User gets auto deleted in Learning Manager
 description: A user gets deleted from Learning Manager, however, the Administrator never performed any such action.
 contentowner: nluke
+exl-id: 9e293da3-bcbf-4798-b391-aef53ef8d946
 ---
-
-
 # User gets auto deleted in Learning Manager {#user-gets-auto-deleted-in-learning-manager}
 
 ## Issue

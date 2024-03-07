@@ -1,11 +1,10 @@
 ---
 jcr-language: en_us
-title: AI-based recommendation 
+title: AI-based recommendation
 description: Learning Manager includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner's preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.
 contentowner: saghosh
+exl-id: 41d6576a-1b5e-40e2-9ab3-ffff5ebfb372
 ---
-
-
 # AI-based recommendation
 
 ## Overview {#overview}
@@ -20,4 +19,4 @@ Learning Manager uses peer activity data as another signal to drive the recommen
 
 Additionally, Learning Manager uses explicit and implicit information gathered from individual learners to further personalize recommendations. A learner will be able to indicate their areas of interest explicitly through enrollments and Learning Manager will receive this information implicitly based on how the Learner ends up taking up the trainings.
 
-Finally, the Admin will also be able to influence the recommendation algorithm using learner attributes that Learning Manager should look at when defining peer groups, and also by actually highlighting Trainings for specific user groups.  
+Finally, the Admin will also be able to influence the recommendation algorithm using learner attributes that Learning Manager should look at when defining peer groups, and also by actually highlighting Trainings for specific user groups.

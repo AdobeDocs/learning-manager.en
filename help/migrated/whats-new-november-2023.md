@@ -1,6 +1,7 @@
 ---
 title: What's new in this release
 description: Learn about the new features and enhancements in the November 2023 release of Adobe Learning Manager.
+exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
 ---
 # What's new in this release
 

@@ -3,9 +3,8 @@ description: Engage users using gamification techniques in Learning Manager.
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
+exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
 ---
-
-
 # Gamification
 
 Engage users using gamification techniques in Learning Manager.

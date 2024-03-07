@@ -3,9 +3,8 @@ description: Learn how to add users or user groups in Learning Manager applicati
 jcr-language: en_us
 title: Add users and create user groups
 contentowner: manochan
+exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
 ---
-
-
 # Add users and create user groups
 
 Learn how to add users or user groups in Learning Manager application.

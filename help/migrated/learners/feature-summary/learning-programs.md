@@ -3,9 +3,8 @@ description: Learn how to view and consume learning programs using the Learner a
 jcr-language: en_us
 title: Learning Programs
 contentowner: manochan
+exl-id: e2984b79-12a8-4748-bacc-58f8d967b6dd
 ---
-
-
 # Learning Programs
 
 Learn how to view and consume learning programs using the Learner app in Learning Manager.

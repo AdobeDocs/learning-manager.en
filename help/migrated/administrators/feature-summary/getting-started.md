@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Getting started as Administrator
 description: Use the getting started page to traverse through the key admin features of Adobe Learning Manager.
 contentowner: manochan
+exl-id: c1779a24-2236-41f4-99b0-a3529751a5c2
 ---
-
-
 # Getting started as Administrator
 
 The getting started page aids you to traverse through the key features of the application.
@@ -32,4 +31,3 @@ From the getting started page, you can perform the following activities:
 You can also learn more about the Learning Manager application by choosing to view tutorial videos, help content and learn about different roles.
 
 ![](assets/admin-landing-page-300x204.png)
-
