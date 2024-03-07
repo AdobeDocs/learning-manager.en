@@ -768,7 +768,7 @@ Administrator can set up scheduling tasks as per organization's requirements and
 
 >[!NOTE]
 >
->   Learning Manager uses version 28.1 of Workday API.
+>   Learning Manager uses version 40.1 of Workday API.
 
 
    ![](assets/configure-connector.png)
