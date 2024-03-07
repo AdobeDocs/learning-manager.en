@@ -269,13 +269,32 @@ View [Submission status](instructors/feature-summary/learners.md#filter-file-sub
 
 ## Checklist enhancements
 
-### Mandatory checklist
+In the March 2024 release of Adobe Learning Manager, the enhancements made to the checklist workflow are the following: 
 
-In current versions of Adobe Learning Manager, for a checklist, the progress of a module was allowed even if a reviewer has marked the modules as Failed. In this release, an Author can configure to prevent the progress of a learner of they fail the checklist.
+### Disallow progress on failing a checklist
 
-### Checklist re-evaluation
+When creating a checklist, an Author can select **Enable** in the Mandatory Checklist section. Doing so prevents a learner from proceeding in the module if they fail the checklist. They can only proceed if they pass the checklist. 
 
-In the same workflow, you, as an Author, can re-evaluate  a Learner who has failed a checklist. Select the **Enable** checkbox in the Re-evaluation section, while creating a checklist.
+The checklist reviewers, i.e. instructors or managers, can then check the status of the checklist. Reviewers can also review a learner's checklist out of order.
+
+### Re-evaluation of a checklist
+
+When creating a checklist, an Author can select **Enable** in the Re-evaluation section. Doing so allows a manager or instructor to re-evaluate a learner until they pass the checklist.
+
+If the module is mandatory, the re-evaluation checkbox is selected by default. 
+
+An instructor or manager can also change the status of a checklist from Failed to Passed when re-evaluation is enabled.  
+
+On the Checklist page, an instructor can see the number of learners in the Pending state. As an instructor, you can evaluate a learner and pass or fail them. If a learner is in a failed state, you can only view the checklist when re-evaluation is not enabled.
+
+This means that the **Enable** checkbox wasn't selected in the Re-evaluation section while creating the checklist. If this checkbox is selected, then you can see View/Re-evaluate button on the Instructor Checklist page. 
+
+Selecting the button allows you to re-evaluate a learner and mark them pass or failed.
+
+>[!NOTE]
+>
+>Both these features - Re-evaluation, and Making checklist as mandatory - only applies to newly created modules. Once a course is published, these cannot be toggled on/off.
+
 
 View [Create a checklist](authors/feature-summary/courses.md#checklist-fail) for more information.
 
