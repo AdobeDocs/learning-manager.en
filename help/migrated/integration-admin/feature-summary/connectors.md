@@ -1016,11 +1016,11 @@ When you create a Zoom Server-to-Server OAuth app to be used in Adobe Learning M
 
 Adobe Learning Manager requires the scopes below and the scopes must be selected in the OAuth app.
 
-* View all user meetings /meeting:read:admin
-* View and manage all user meetings /meeting:write:admin
-* View report data /report:read:admin
-* View all user information /user:read:admin
-* View users' information and manage users /user:write:admin-->
+* View all user meetings `/meeting:read:admin`
+* View and manage all user meetings `/meeting:write:admin`
+* View report data `/report:read:admin`
+* View all user information `/user:read:admin`
+* View users' information and manage users `/user:write:admin`-->
 
 ## Box connector {#boxconnector}
 
