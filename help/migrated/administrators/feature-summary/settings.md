@@ -415,10 +415,26 @@ Enable or disable the following settings:
    <td>
     <p>Instructor Management<br></p></td>
    <td>
-    <p>Enable this setting to restrict the list of instructors which can be selected while creating classroom/virtual classroom sessions. All users having the instructor privileged can only be assigned as an instructor to any session. This restriction does not apply to migration workflows.<br></p></td>
+    <p>Enable this setting to restrict the list of instructors which can be selected while creating classroom/virtual classroom sessions. All users having the instructor privileged can only be assigned as an instructor to any session. This restriction does not apply to migration workflows.<br></p>
+  </td>
+  <tr>
+    <td>
+      <p>Skills import</p>
+    </td>
+    <td>
+      <p>If enabled, you can choose an external source to import Skills. The skills for existing learning resources will be imported to the Skills repository one time during the initial run. For all subsequent imports of learning resources, the Skills will be imported into Skills repository only for newly imported items.
+      Once the option is enabled, the action is irreversible. You cannot disable or change to another source later.
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Once skill import setting is enabled, the account layout cannot be switched to Classic. i.e. Switching to Classic account is disabled after skill import enabled.
+
 
 ## AI-based recommendation
 
@@ -572,6 +588,14 @@ You can also add the location with the help of a CSV. The CSV must contain the f
 * region
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
+
+### Settings {#admin-classroom-settings}
+
+Select **Edit** to change the following:
+
+* **Allow authors to create locations**: Once enabled, all the locations created by authors will be listed under 'All Locations' tab. Learners will also see these locations under Catalog and calendar filters.
+* **Allow authors to modify and delete locations**:
+Once enabled, authors will be able to modify and delete all Classroom locations. The modifications by authors will be reflected across the platform, including reports.
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 

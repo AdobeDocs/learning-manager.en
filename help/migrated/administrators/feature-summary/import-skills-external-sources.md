@@ -18,6 +18,23 @@ Follow the steps in the procedure to enable skill import in the account.
 1. In the **Skills import** section, select **Enable**. If enabled, you can choose an external source to import **Skills**. The skills for existing learning resources will be imported to the Skills repository one time during the initial run. For all subsequent imports of learning resources, the Skills will be imported into Skills repository only for newly imported items. 
 1. Select a content provider from the the dropdown.
 
+As an Admin, you can only import one skill as Source.
+
+### Default skill level
+
+The default skill level is one and Credit is 10 after the skills are migrated. Later admin can change the credit.
+
+You cannot edit the name of the skill, description and add levels to external skills. You can, however, add domain, badges, and edit credits.
+
+#### Reporting changes
+
+We've added a new column **Source** with values- Internal, LinkedIn Learning, Go1, which indicates the source of skill import.
+
+The recently added skills will be at top.
+
+Om the Course setting page, we've added a new column **Assigned by** containing values, Internal, and Content Provider.
+
+
 ## Integration Admin workflow
 
 The Integration Admin uploads the CSVs (skill, skill-level, and course) and then migrates the courses into the account. For example, after the Admin selects LinkedIn Learning, the Integration Admin can schedule an activity where both skills and levels are imported to Adobe Learning Manager.
