@@ -432,7 +432,7 @@ Enable or disable the following settings:
 
 >[!NOTE]
 >
->Once skill import setting is enabled, the account layout cannot be switched to Classic. i.e. Switching to Classic account is disabled after skill import enabled.
+>Once skill import setting is enabled, the account layout cannot be switched to Classic. i.e. Switching to Classic account is disabled after the **Skill import** option is enabled.
 
 
 ## AI-based recommendation
