@@ -18,7 +18,7 @@ Follow the steps in the procedure to enable skill import in the account.
 1. In the **Skills import** section, select **Enable**. If enabled, you can choose an external source to import **Skills**. The skills for existing learning resources will be imported to the Skills repository one time during the initial run. For all subsequent imports of learning resources, the Skills will be imported into Skills repository only for newly imported items. 
 1. Select a content provider from the the dropdown.
 
-As an Admin, you can only import one skill as Source.
+As an Admin, you can only import one Skill as Source.
 
 ### Default skill level
 
