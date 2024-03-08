@@ -26,13 +26,13 @@ The default skill level is one and Credit is 10 after the skills are migrated. L
 
 You cannot edit the name of the skill, description and add levels to external skills. You can, however, add domain, badges, and edit credits.
 
-#### Reporting changes
+#### Reporting
 
-We've added a new column **Source** with values- Internal, LinkedIn Learning, Go1, which indicates the source of skill import.
+The column **Source** with values- Internal, LinkedIn Learning, Go1, which indicates the source of skill import.
 
 The recently added skills will be at top.
 
-Om the Course setting page, we've added a new column **Assigned by** containing values, Internal, and Content Provider.
+Om the Course setting page, the column **Assigned by** containing values, Internal, and Content Provider.
 
 
 ## Integration Admin workflow
