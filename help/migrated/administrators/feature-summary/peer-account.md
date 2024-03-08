@@ -3,9 +3,8 @@ description: Read this article to know how to create and manage peer accounts in
 jcr-language: en_us
 title: Peer accounts
 contentowner: shhivkum
+exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
 ---
-
-
 # Peer accounts
 
 Read this article to know how to create and manage peer accounts in Learning Manager.

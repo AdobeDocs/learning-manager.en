@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Map skill with skill domains
 description: To auto curate a post that is posted by a user by the AI-enabled Curation Engine for a particular skill domain, the user's enterprise must have their customized skills to be mapped to the supported skill domains present in the Learning Manager LMS.
 contentowner: kuppan
+exl-id: 46db9d92-fe88-4850-ae06-d434062fa2bf
 ---
-
-
 # Map skill with skill domains
 
 To auto curate a post that is posted by a user by the AI-enabled Curation Engine for a particular skill domain, the user's enterprise must have their customized skills to be mapped to the supported skill domains present in the Learning Manager LMS.
@@ -65,4 +64,3 @@ Depending on whether the content being uploaded has a confidence score of more t
 ![](assets/curation-notification.png)
 
 *View notifications depending on the confidence score*
-

@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Settings
 description: Account Settings
 contentowner: manochan
+exl-id: e93b580e-170c-40ea-99ef-d291852050bd
 ---
-
-
 # Account settings
 
 1. Click the drop-down arrow at the upper-right corner, adjacent to your photo/account and select **[!UICONTROL Profile Settings]**.

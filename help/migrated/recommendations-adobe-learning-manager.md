@@ -1,9 +1,8 @@
 ---
 title: Recommendations in Adobe Learning Manager
 description: The core of the recommendation engine is driven by Learning Manager's new Course Ranking Algorithm. The algorithm uses 50 million data points and five years of aggregated learning data across millions of users to rank courses based on their likelihood of enrolment. This ranking ensures that most enrollable courses are displayed upfront to the learners.
+exl-id: 42083095-60a0-4e20-9097-3344d290da1a
 ---
-
-
 # Recommendations in Adobe Learning Manager
 
 Adobe Learning Manager has introduced a new and revamped recommendation system for courses. This recommendations feature uses AI algorithms and users' interests like Products, Roles, and Levels to provide personalized content recommendations.

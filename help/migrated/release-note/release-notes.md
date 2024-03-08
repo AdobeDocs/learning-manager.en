@@ -3,9 +3,8 @@ description: Learn about the new features and enhancements in Adobe Learning Man
 jcr-language: en_us
 title: New features summary
 contentowner: jayakarr
+exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 ---
-
-
 # New features summary
 
 <!--<table>

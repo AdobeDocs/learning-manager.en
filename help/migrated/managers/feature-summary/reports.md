@@ -3,9 +3,8 @@ description: Creating and managing reports for Managers.
 jcr-language: en_us
 title: Reports
 contentowner: manochan
+exl-id: 5a59b56c-111b-46e4-95e5-60cc3af75c4d
 ---
-
-
 # Reports
 
 Creating and managing reports for Managers.

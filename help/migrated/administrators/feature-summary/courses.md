@@ -1,11 +1,10 @@
 ---
-description: This document consists of Help to create course modules, instances and courses for Administrator role. 
+description: This document consists of Help to create course modules, instances and courses for Administrator role.
 jcr-language: en_us
 title: Create course modules, instances, and learning programs
 contentowner: manochan
+exl-id: aba7417b-26a0-4160-878c-5814f84e5155
 ---
-
-
 # Create course modules, instances, and learning programs
 
 This document consists of Help to create course modules, instances and courses for Administrator role.

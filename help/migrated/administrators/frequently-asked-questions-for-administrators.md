@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Frequently Asked Questions for Administrators
 description: Frequently Asked Questions for Adobe Learning Manager Administrators
 contentowner: manochan
+exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
 ---
-
-
 # Frequently Asked Questions for Administrators
 
 <table>

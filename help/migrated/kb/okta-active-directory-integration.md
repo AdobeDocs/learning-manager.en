@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Okta Active Directory integration with Adobe Learning Manager
 description: Okta Active Directory integration with Adobe Learning Manager
 contentowner: nluke
+exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
 ---
-
-
 # Okta Active Directory integration with Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
 In this document, you will learn how to integrate Adobe Learning Manager with Okta Active Directory (AD). When you integrate Adobe Learning Manager with Okta AD, you can:

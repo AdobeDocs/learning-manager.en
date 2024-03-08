@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Manage custom roles via CSV files
 description: The Integration admin can add number of custom roles to his/her account in bulk via CSV as well as can assign the same to various users. This approach automates the process of creation of custom roles.
 contentowner: saghosh
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
 ---
-
-
 # Manage custom roles via CSV files
 
 The Integration admin can add number of custom roles to his/her account in bulk via CSV as well as can assign the same to various users. This approach automates the process of creation of custom roles.

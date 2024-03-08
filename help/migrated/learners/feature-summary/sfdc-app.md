@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Learning Manager app for Salesforce
 description: Salesforce&trade; is the most popular CRM solution among sales and marketing teams. Using Adobe Learning Manager app in Salesforce, learners can access all of their learning content from within their Salesforce interface. Learners can access their assigned learning content such as courses, learning programs, and job aids from within the Salesforce. Users can also receive notifications about their enrollments and announcements from the Administrator.
 contentowner: jayakarr
+exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
 ---
-
-
 # Learning Manager app for Salesforce
 
 ## Overview {#overview}
@@ -42,4 +41,4 @@ A representative snapshot of Learner view of the Adobe Learning Manager app is s
 
 You can click Disconnect link at the bottom of the learners page, as marked in the above snapshot, to **Disconnect** from the Adobe Learning Manager app. Once you disconnect, you are redirected to the welcome page of Adobe Learning Manager app. 
 
-You can connect or disconnect from the app any number of times. 
+You can connect or disconnect from the app any number of times.

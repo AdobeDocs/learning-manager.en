@@ -3,9 +3,8 @@ description: User notifications for Learners in Learning Manager.
 jcr-language: en_us
 title: User notifications
 contentowner: manochan
+exl-id: 2c775635-1e86-4bef-9ca1-b56fbc353ea8
 ---
-
-
 # User notifications
 
 <!--User notifications for Learners in Learning Manager.-->

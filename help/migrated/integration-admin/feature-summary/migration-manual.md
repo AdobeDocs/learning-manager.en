@@ -2,9 +2,8 @@
 description: Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
 jcr-language: en_us
 title: Migration manual
+exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
 ---
-
-
 # Migration manual
 
 Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
@@ -570,4 +569,3 @@ For more information on this topic, refer to the following Help content:
 
 * [FAQ on uploading CSVs](/help/migrated/administrators/add-users-in-bulk.md)
 * [Feature Help on adding users](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
-

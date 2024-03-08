@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Add classroom locations
 description: Administrators can now set up a library of classroom locations. For each Classroom Location, the administrators can set the metadata that includes Location Name, Seat Limit as well as additional information such as the Location URL. Authors and Administrators can then use these pre-configured classroom locations for setting up instructor-led training events (classroom modules).
 contentowner: saghosh
+exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
 ---
-
-
 # Classroom
 
 ## Overview
@@ -161,4 +160,4 @@ Note that even after cancellation, the learners enrolled in the training instanc
 
 On the **[!UICONTROL Course Instance]** page, an Author can cancel one or more sessions. After the Author cancels a session, the system clears all the session details except the seat limit.
 
-Therefore, an Author can use the **[!UICONTROL Cancel Session]** links to cancel one or more classroom sessions or virtual classroom sessions available in the same or different course instances.  
+Therefore, an Author can use the **[!UICONTROL Cancel Session]** links to cancel one or more classroom sessions or virtual classroom sessions available in the same or different course instances.

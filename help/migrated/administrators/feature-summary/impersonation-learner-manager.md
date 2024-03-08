@@ -3,9 +3,8 @@ description: Admins can launch an impersonated session where they can log in on 
 jcr-language: en_us
 title: Impersonation of Learner and Manager
 contentowner: saghosh
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
 ---
-
-
 # Impersonation of Learner and Manager {#impersonation-of-learner-and-manager}
 
 In large organizations, customer support personnel need impersonation capability to debug problems faced by learners.

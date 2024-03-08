@@ -3,9 +3,8 @@ description: Manage Learning Manager billing, place orders by using a credit car
 jcr-language: en_us
 title: Manage Learning Manager orders and billing
 contentowner: manochan
+exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 ---
-
-
 # Manage Learning Manager orders and billing
 
 Credit card-based purchase is only available in the [US region](http://learningmanager.adobe.com/).

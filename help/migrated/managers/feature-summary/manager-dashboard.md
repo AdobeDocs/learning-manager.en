@@ -3,9 +3,8 @@ description: Learn how to view and track learnings from the manager dashboard.
 jcr-language: en_us
 title: Manager dashboard
 contentowner: kuppan
+exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
 ---
-
-
 # Manager dashboard
 
 Learn how to view and track learnings from the manager dashboard.

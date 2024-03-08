@@ -2,8 +2,8 @@
 title: Welcome to the Adobe Learning Manager User Guide
 description: Learn the latest offering in Adobe Learning Manager (previously Adobe Captivate Prime). Start at the beginning, visit each section individually, or connect with the Community to work your way through a project.
 contentowner: dhv
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
 ---
-
 # Welcome to the Adobe Learning Manager User Guide
 
 Read on to know what is the latest offering in Adobe Learning Manager (previously Adobe Captivate Prime). Start at the beginning, visit each section individually, or connect with the Community to work your way through a project. 

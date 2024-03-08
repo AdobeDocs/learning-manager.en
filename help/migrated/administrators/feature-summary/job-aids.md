@@ -3,9 +3,8 @@ description: Job Aids for Administrators in Learning Manager.
 jcr-language: en_us
 title: Job Aids
 contentowner: jayakarr
+exl-id: 4881f7d0-27da-4c41-a8cd-ad937f913157
 ---
-
-
 # Job Aids
 
 Job Aids for Administrators in Learning Manager.

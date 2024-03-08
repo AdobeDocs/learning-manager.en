@@ -3,9 +3,8 @@ description: Read on to know how to generate HAR files on Google Chrome.
 jcr-language: en_us
 title: Generate a HAR file
 contentowner: dvenkate
+exl-id: 99fe78e8-b5e7-40a7-b9a5-efc2382de993
 ---
-
-
 # Generate a HAR file
 
 Read on to know how to generate HAR files on Google Chrome.

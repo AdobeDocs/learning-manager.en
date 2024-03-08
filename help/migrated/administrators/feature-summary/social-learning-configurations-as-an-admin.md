@@ -1,11 +1,10 @@
 ---
-description: As an administrator, you can enable, disable, and monitor activities performed in Social Learning. Once the Social Learning feature is enabled, learners can view it and they can start participating in Social Learning. 
+description: As an administrator, you can enable, disable, and monitor activities performed in Social Learning. Once the Social Learning feature is enabled, learners can view it and they can start participating in Social Learning.
 jcr-language: en_us
 title: Monitoring and moderating Social Learning as an admin
 contentowner: kuppan
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
 ---
-
-
 # Monitoring and moderating Social Learning as an admin
 
 As an administrator, you can enable, disable, and monitor activities performed in Social Learning. Once the Social Learning feature is enabled, learners can view it and they can start participating in Social Learning.

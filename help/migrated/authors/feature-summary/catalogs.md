@@ -1,11 +1,10 @@
 ---
-description: Catalogs in Learning Manager consists of the courses, learning programs and certifications for learner role in Learning Manager account. 
+description: Catalogs in Learning Manager consists of the courses, learning programs and certifications for learner role in Learning Manager account.
 jcr-language: en_us
 title: Catalogs
 contentowner: manochan
+exl-id: 35ff170f-fee6-4d28-8238-1a53568d99b3
 ---
-
-
 # Catalogs
 
 Catalogs in Learning Manager consists of the courses, learning programs and certifications for learner role in Learning Manager account.

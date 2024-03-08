@@ -3,9 +3,8 @@ description: Create, assign, and modify skills and levels.
 jcr-language: en_us
 title: Create and modify skills and levels
 contentowner: manochan
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
 ---
-
-
 # Create and modify skills and levels
 
 Create, assign, and modify skills and levels.

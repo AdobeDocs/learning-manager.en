@@ -3,9 +3,8 @@ description: Read this article to learn how to manage modules as an instructor i
 jcr-language: en_us
 title: Modules
 contentowner: shhivkum
+exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
 ---
-
-
 # Modules
 
 Read this article to learn how to manage modules as an instructor in Learning Manager.

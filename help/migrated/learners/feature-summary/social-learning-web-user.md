@@ -3,9 +3,8 @@ description: Learn how to use Social Learning web as a learner
 jcr-language: en_us
 title: Social Learning in Learning Manager
 contentowner: kuppan
+exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
 ---
-
-
 # Social Learning in Learning Manager
 
 Learn how to use Social Learning web as a learner

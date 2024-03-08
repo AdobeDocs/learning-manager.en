@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Waitlist & attendance management
 description: Administrators can manage attendance and waitlisting of courses for learners.
 contentowner: manochan
+exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
 ---
-
-
 # Waitlist & attendance management
 
 Administrators can manage attendance and waitlisting of courses for learners.
@@ -36,4 +35,4 @@ This feature is applicable to classroom and virtual classroom courses only. You 
 >
 >If there are multiple modules in a course and the learner completed only one of them, you can select a single module and click Save. If the learner completes all modules of a course, you can click Select All option and click Save.
 
-Attendance for Adobe Connect based Virtual Classroom session is marked automatically in 2-3 hours after the session. Learner's virtual classroom course completion is marked only after the attendance is marked. 
+Attendance for Adobe Connect based Virtual Classroom session is marked automatically in 2-3 hours after the session. Learner's virtual classroom course completion is marked only after the attendance is marked.

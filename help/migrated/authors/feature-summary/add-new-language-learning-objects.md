@@ -3,9 +3,8 @@ description: Read this topic to know how to add courses, certifications, and lea
 jcr-language: en_us
 title: Add learning objects in different locales
 contentowner: shhivkum
+exl-id: 566ecf70-31ba-423d-a61f-1fe3b7cce531
 ---
-
-
 # Add learning objects in different locales
 
 Read this topic to know how to add courses, certifications, and learning plans in different languages.

@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Selection buttons do not appear in Learning Manager
 description: Due to missing radio buttons, an Administrator  cannot ssign or remove roles, send a welcome mail, or delete a user.
 contentowner: nluke
+exl-id: d2c86f9f-3e79-4f1f-992e-f92873940061
 ---
-
-
 # Selection buttons do not appear in Learning Manager
 
 ## Issue
@@ -37,4 +36,4 @@ Reload the themes and fix the appearance of the radio buttons. Perform the follo
    *Select any theme*
 
 1. Revert to the previous theme and save the changes.
-1. Log out of Adobe Learning Manager and sign in again. 
+1. Log out of Adobe Learning Manager and sign in again.

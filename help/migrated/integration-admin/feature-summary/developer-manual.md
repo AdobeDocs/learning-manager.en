@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Application developer manual
 description: Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Learning Manager.
 contentowner: jayakarr
+exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
 ---
-
-
 # Application developer manual
 
 >[!NOTE]

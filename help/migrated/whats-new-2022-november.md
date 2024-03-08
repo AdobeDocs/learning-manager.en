@@ -2,6 +2,7 @@
 title: What's new in this release (November 2022)
 description: Learn about the new features and enhancements in Adobe Learning Manager
 hidefromtoc: yes
+exl-id: 2ccfb4e6-ba11-4657-8edb-3c527b4e5b9f
 ---
 # What's new in this release (November 2022)
 

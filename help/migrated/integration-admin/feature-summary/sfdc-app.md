@@ -1,11 +1,10 @@
 ---
 jcr-language: en_us
 title: Learning Manager App for Salesforce
-description: Salesforce is one of the most popular CRM solutions among sales and marketing teams. Using Adobe Learning Manager app in Salesforce you can allow its users to access all of their learning content right from their Salesforce interface. Users can access their assigned learning content such as courses, learning programs, job aids, and so on from within the Salesforce. Users can also receive notifications about their enrollments and announcements from the Administrator. 
+description: Salesforce is one of the most popular CRM solutions among sales and marketing teams. Using Adobe Learning Manager app in Salesforce you can allow its users to access all of their learning content right from their Salesforce interface. Users can access their assigned learning content such as courses, learning programs, job aids, and so on from within the Salesforce. Users can also receive notifications about their enrollments and announcements from the Administrator.
 contentowner: jayakarr
+exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
 ---
-
-
 # Learning Manager App for Salesforce
 
 ## Overview {#overview}
@@ -59,4 +58,4 @@ To add the Learning Manager notification component to the Home page layout, foll
 1. Select the Adobe Learning Manager notifications option that appears on the page and Click **[!UICONTROL Next]**. 
 1. Choose the order of the components that appear on the left pane, preview, and click **[!UICONTROL Save]**. 
 
-To learn the instructions on how to log in to Learning Manager app and use it in Salesforce as a learner, refer to the [Salesforce app Help content](../../learners/feature-summary/sfdc-app.md). 
+To learn the instructions on how to log in to Learning Manager app and use it in Salesforce as a learner, refer to the [Salesforce app Help content](../../learners/feature-summary/sfdc-app.md).

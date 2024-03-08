@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Unable to view certain course under catalog while creating a Learning Program
 description: While searching for a particular course to add it to a Learning Program, you are unable to view the course under the catalog.
 contentowner: saghosh
+exl-id: 5920b4e4-f552-4b89-9126-2f1bbf5c8e9b
 ---
-
-
 # Unable to view certain course under catalog while creating a Learning Program
 
 ## Issue

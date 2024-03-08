@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Add users in bulk
 description: Learn to add multiple users at a time.
 contentowner: saghosh
+exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
 ---
-
-
 # Add users in bulk
 
 In this training, you will learn how to add users in bulk through a CSV. 

@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Learner home page
 description: After the Administrator enables Immersive layout, the learner, after signing into the app, is greeted with a completely revamped User Interface.
 contentowner: saghosh
+exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
 ---
-
-
 # Learner home page
 
 ## Overview {#overview}
@@ -143,4 +142,4 @@ To add the skills, click **[!UICONTROL Add]**.
 
 ## Recommendation based on peer activity {#recommendationbasedonpeeractivity}
 
-Displays training based on what your peers are taking. This is again driven by a Machine Learning algorithm. The recommendations are based on training for both Custom and Industry Aligned learners.   
+Displays training based on what your peers are taking. This is again driven by a Machine Learning algorithm. The recommendations are based on training for both Custom and Industry Aligned learners.

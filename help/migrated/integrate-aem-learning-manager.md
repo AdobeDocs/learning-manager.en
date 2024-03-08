@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Integrate Learning Manager with AEM
 description: Learning Manager is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Learning Manager, so that Learning Manager performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.
 contentowner: saghosh
+exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
 ---
-
-
 # Integrate Learning Manager with AEM
 
 Learning Manager is Learning Management System with a built-in Learning Content Management System. Users manage their learning content by uploading it to Learning Manager, so that Learning Manager performs the versioning, allocation to courses, defining the visibility to learners , tracking the consumption and reporting back to administrators.

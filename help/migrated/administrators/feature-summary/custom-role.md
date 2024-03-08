@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Custom roles
 description: The Learning Paths feature helps you define custom roles and assign specific responsibilities to  set  of users. This feature enables you to assign responsibilities outside the purview of the individual's existing role.
 contentowner: dvenkate
+exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
 ---
-
-
 # Custom roles
 
 This feature helps you define custom roles and assign specific responsibilities to set of users. This feature enables you to assign responsibilities outside the purview of the individual's existing role.

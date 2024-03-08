@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Preview as learner
 description: Fluidic player is a platform for learners to consume content with uninterrupted and blended learning experience. All the supported formats are played consistently in this player. Authors and Administrators can preview the content using the player.
 contentowner: manochan
+exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
 ---
-
-
 # Preview as learner
 
 ## Fluidic player {#fluidicplayer}

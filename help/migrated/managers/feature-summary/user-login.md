@@ -3,9 +3,8 @@ description: User log in as Manager in Learning Manager.
 jcr-language: en_us
 title: User log in
 contentowner: manochan
+exl-id: 6e0c00fd-7964-43d9-ba95-3617dbc14f0f
 ---
-
-
 # User log in
 
 User log in as Manager in Learning Manager.

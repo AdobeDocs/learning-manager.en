@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Unable to search a course in Learning Manager
 description: A learner is unable to search a course in Learning Manager.
 contentowner: nluke
+exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
 ---
-
-
 # Unable to search a course in Learning Manager
 
 ## Issue

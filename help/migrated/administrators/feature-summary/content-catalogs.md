@@ -3,9 +3,8 @@ description: Learning Manager introduces Content Catalog
 jcr-language: en_us
 title: Learning Manager Content Catalog
 contentowner: dvenkate
+exl-id: 495f8b76-4496-422e-8b8d-9d3227a8a846
 ---
-
-
 # Learning Manager Content Catalog
 
 <!--Learning Manager introduces Content Catalog-->

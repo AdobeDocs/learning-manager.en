@@ -1,10 +1,10 @@
 ---
 jcr-language: en_us
-title: API Deprecations in Adobe Learning Manager 
+title: API Deprecations in Adobe Learning Manager
 description: As the APIs in Adobe Learning Manager evolve, APIs are periodically reorganized or upgraded. When APIs evolve, the old API is deprecated and eventually removed. This page contains information you need to know when migrating from deprecated API versions to newer and more stable API versions.
 contentowner: saghosh
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
 ---
-
 # API deprecations and changes in Adobe Learning Manager
 
 ## API deprecations in the March 2024 release of Adobe Learning Manager
@@ -141,4 +141,4 @@ The peer group now becomes an account, and learners will see a string that shows
 
 In earlier releases of Adobe Learning Manager, the Notification Announcement report didn't have any filters. Adobe Learning Manager downloaded all notifications in the account. 
 
-In the November 2023 release, we've added a date filter, using which you can download the notifications within a specified period.  You can, however, download the report for the last six months only. 
+In the November 2023 release, we've added a date filter, using which you can download the notifications within a specified period.  You can, however, download the report for the last six months only.

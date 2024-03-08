@@ -3,9 +3,8 @@ description: This document contains basic troubleshooting tips to solve some of 
 jcr-language: en_us
 title: Troubleshooting Migration issues
 contentowner: jayakarr
+exl-id: b9f17644-f237-4701-86e9-8496db941920
 ---
-
-
 # Troubleshooting Migration issues
 
 This document contains basic troubleshooting tips to solve some of the typical problems that you may encounter while migrating data and content from existing LMS to Learning Manager.

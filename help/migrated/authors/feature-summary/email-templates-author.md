@@ -2,9 +2,8 @@
 description: Read this article to know how to configure email templates for events related to all the learning objects.
 jcr-language: en_us
 title: Email templates
+exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
 ---
-
-
 # Email templates
 
 Read this article to know how to configure email templates for events related to all the learning objects.

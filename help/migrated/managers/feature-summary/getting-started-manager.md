@@ -3,9 +3,8 @@ description: Getting started as a Manager in Learning Manager.
 jcr-language: en_us
 title: Getting started for Managers
 contentowner: manochan
+exl-id: 122b2fca-ad7c-4799-9a2e-ced820780d3f
 ---
-
-
 # Getting started for Managers
 
 The getting started page aids you to traverse through the key features of the application.
@@ -30,4 +29,3 @@ From the getting started page, you can perform the following activities:
 You can also learn more about the Learning Manager application by choosing to view tutorial videos, help content and learn about different roles.
 
 <!--![](assets/manager-experienceprime.png)-->
-

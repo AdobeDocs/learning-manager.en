@@ -3,9 +3,8 @@ description: Setting up User notifications for Managers.
 jcr-language: en_us
 title: User notifications
 contentowner: manochan
+exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
 ---
-
-
 # User notifications
 
 Setting up User notifications for Managers.

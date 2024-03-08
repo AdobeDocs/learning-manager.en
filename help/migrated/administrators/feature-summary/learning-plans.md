@@ -3,8 +3,8 @@ description: Creating Learning Plans for Administrators in Learning Manager.
 jcr-language: en_us
 title: Learning plans
 contentowner: manochan
+exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
 ---
-
 # Learning plans
 
 Creating Learning Plans for Administrators in Learning Manager.

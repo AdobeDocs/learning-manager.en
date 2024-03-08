@@ -2,9 +2,8 @@
 description: Learn how to create content to align with courses as self-paced content.
 jcr-language: en_us
 title: Content library
+exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
 ---
-
-
 # Content library
 
 Learn how to create content to align with courses as self-paced content.

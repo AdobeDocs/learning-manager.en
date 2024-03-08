@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Enable full control of shared catalog
 description: Enable full control of shared catalog in Adobe Learning Manager
 contentowner: saghosh
+exl-id: 231ba348-d777-4b13-98b0-06572b0ac7ed
 ---
-
-
 # Enable full control of shared catalog
 
 ## Create Catalog {#createcatalog}

@@ -3,9 +3,8 @@ description: Install Microsoft Teams connector in Adobe Learning Manager
 jcr-language: en_us
 title: Install Microsoft Teams connector in Adobe Learning Manager
 contentowner: saghosh
+exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
 ---
-
-
 # Install Microsoft Teams connector in Adobe Learning Manager
 
 ## Overview

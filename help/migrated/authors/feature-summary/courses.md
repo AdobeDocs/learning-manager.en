@@ -3,9 +3,8 @@ description: To learn how to create courses, certifications, and learning progra
 jcr-language: en_us
 title: Creating, modifying, and publishing courses
 contentowner: manochan
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 ---
-
-
 # Creating, modify, and publish courses
 
 To learn how to create courses, certifications, and learning programs in Learning Manager, read this article.
@@ -893,4 +892,3 @@ For more information, see the [section on multiple attempts](courses.md#Allowmul
 No, the content uploaded on Learning Manager is a published zip file and is not the source file. Therefore, even if the content is downloaded, the content cannot be edited in an authoring tool. You would require a source file to edit the content.
 
 +++
-
