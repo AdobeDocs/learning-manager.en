@@ -573,6 +573,14 @@ While creating a peer account, if the Share Catalog option had not been selected
 
 You can get your favorite reports in an email by subscribing to them.
 
+### Set up Email subscriptions
+
+In this training, you will learn how to set up email subscriptions for dashboard reports.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PLHRQ62N&mv=display&mv2=display#/course/8318927)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 In **[!UICONTROL Reports]** page, click the  **[!UICONTROL Subscription]** tab. Reports subscription page appears.
 
 To select the report name from the drop-down list, start typing the report name in the Reports field. Choose the frequency of email from the drop-down. You can add the subject of the email and provide an alternate email id.
@@ -593,6 +601,7 @@ The following are the report types available for download.
 * User Audit Trail
 * Login/ Access Report
 * Gamification Transcripts
+* Gamification Audit Trail
 
 ## Learner transcripts {#learnertranscripts}
 
@@ -834,6 +843,33 @@ Administrators can download gamification transcript in CSV format. You can eithe
 
    When the Admin resets the gamification, all points of the learner get reset accordingly.
 
+## Gamification Audit Trail report {#gamification-audit-trail}
+
+   This report contains the history and reasons for Learners' gamification points earned for each rule.
+
+### Download the report
+
+   1. Select the Gamification Audit Trail URL.
+   1. On the **Gamification Audit Trail** pop-up, select the date range.
+   1. Select **Generate**.
+
+The report is downloaded as a CSV file. The file contains the following columns:
+
+* Name
+* Email/ UUID, 
+* Status
+* Action 
+* Points, 
+* Balance Points    
+* Rule/ Task
+* Rule/ Task Subtask, 
+* Rule/ Task Details    
+* Type, 
+* Name, 
+* Instance NameDate Achieved (UTC Timezone)
+* Rule/ Task Start Time
+* Rule/ Task End Time
+
 ## Enrollment and Unenrollment report {#enrollmentandunenrollmentreport}
 
 Administrators and managers can extract a report of the learners who have been enrolled and unenrolled. As an administrator, you can see any of the learner, administrator, or manager who has been enrolled or unenrolled from an instance of a course, learning program or certification and export the report. While, as a Manager, you can only fetch a report of your team members. As a manger, you are not able to see the deleted learners or your own name in the manager application as an enrolled or an unenrolled learner.
@@ -893,7 +929,7 @@ The report will have the following fields:
 ![](assets/more-options.png)
 *Additional options*
 
-## Session Summary Report
+## Session Summary Report {#session-summary-report}
 
 The Session Summary Report contains all sessions planned for a learner within a specified date.
 
@@ -917,18 +953,18 @@ The downloaded csv contains the following fields:
 * Session Duration (in minutes)
 * Seat count
 * Location
-* Instance Name 
-
+* Instance Name
 * Course Name
 * Course Id
 * Instructor Name
 * Instructor Email 
 * Enrollment Count
-
 * Session Type
 * Waitlist Limit
 * Waitlist count 
 * Waitlist user emails
+* Location Information
+* Location Region
 
 ## Instructor Utilization Report
 

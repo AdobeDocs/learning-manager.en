@@ -17,6 +17,16 @@ Authors create courses. Learners then take the courses and Administrators can tr
 
 ## Create instance of a course {#createinstanceofacourse}
 
+### Manage instances
+
+In this training, you will learn how to edit instance details and instance properties.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=P79NQK8R&mv=display&mv2=display#/course/8318912)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
+### How to create an instance
+
 After an author has created a course, you can create instances of the course. By creating Instances of a course, you can offer the same course to your learners at different time periods. Learners can choose any instance and enroll. You can configure each instance to have its own set of badges, feedback, and other settings.
 
 To create an instance,
@@ -98,6 +108,14 @@ To send instance-level emails to enrolled learners:
 1. After you click **[!UICONTROL Save]**, you see a confirmation message for the successful creation of the announcement. To publish the announcement, click **[!UICONTROL Publish Now]**.
 
    ![Announcement created successfully](assets/announcement-successful.png)
+
+### Enroll learners to courses
+
+In this training, you will learn how to enroll, unenroll, and re-enroll learners.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PC1PQFJQ&mv=display&mv2=display#/course/8318916)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ### Enroll learners in various instances
 

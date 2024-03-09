@@ -213,6 +213,14 @@ You can also customize the following:
 
 The templates also support advanced editing capabilities such that formatting is retained when content is copied and pasted from and to Microsoft Word.
 
+### Set up instances
+
+In this training, you will learn how to set up instance defaults, add a new instance, retire and reopen an instance, and configure email templates for an instance.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=P3KMQNZS&mv=display&mv2=display#/course/8318911)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ## Inline invitations {#inlineinvitations}
 
 Learning Manager users will now receive inline email invites. ICS attachments are no longer used to send invitations. Any changes in the invite will automatically reflect in your calendar.

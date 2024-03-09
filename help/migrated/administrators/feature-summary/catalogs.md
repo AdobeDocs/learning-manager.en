@@ -126,6 +126,14 @@ An Administrator can share the catalogs with internal users of an organization o
 
 Courses, Learning programs, Job Aids, and certifications are the supported learning objects in a catalog that you want to share.
 
+### Share Catalogs
+
+This training will teach you how to share catalogs with internal user groups and external Adobe Learning Manager accounts.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PGRQQ9SP&mv=display&mv2=display#/course/8318924)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ## Share the catalog internally {#int}
 
 Choose a catalog that you want to share internally. 
