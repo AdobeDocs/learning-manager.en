@@ -371,6 +371,14 @@ We wanted to inform you that Bluejeans has reached its end of life (EOL) on Febr
 
 View [Connectors in Adobe Learning Manager](integration-admin/feature-summary/connectors.md) for more information on configuring connectors.
 
+### Changes to Login Access report
+
+The Login Access report will be available only for the past five quarters. If any Integration Admin requests On Demand download of the Unified Export with **Login Access** checked, Adobe Learning Manager will display an error message. However, there is no impact on other reports.
+
+### ADFS changes
+
+The Employee Type and Employee ID fields from ADFS are now available on Adobe Learning Manager, based on the mappings. 
+
 ## API changes in this release
 
 ### Learner APIs
