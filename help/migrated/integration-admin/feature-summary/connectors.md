@@ -2006,15 +2006,22 @@ For more information, see  [**Install Microsoft Teams connector in Adobe Learnin
 
 ## Training Data Access
 
+
+>[!IMPORTANT]
+>
+>This specific functionality is available only if Adobe Learning Manager is sold as an Add on to Adobe Experience Manager. The course data would be stale in 24 hours.
+
+
 >[!NOTE]
 >
->**This specific functionality is available only if Adobe Learning Manager is sold as an Add on to Adobe Experience Manager.**
+>The section highlights how the infrastructure works but for building a headless or AEM based non logged in experience, please contact us. We will suggest the right approach basis your usecase. This functionality is not currently available as self-serve.
+
 
 The Training Data Access connector enables your AEM Sites-based custom-made user interface to retrieve and render training information to learners and helps easy and faster search.
 
 The connector exports training metadata to a data storage and retrieval solution. You can then configure your AEM Sites-based interface to use these two services to retrieve training data, render web pages, and provide optimized training search functionality to the learners. 
 
-For example, a non-logged in AEM Sites-based interface can use the exported metadata to help a learner search, browse, and access training pages that show training information 
+The article highlights how the infrastructure works but for building a headless or AEM based non logged in experience, please contact us. We will suggest the right approach basis your usecase. This functionality is not currently available as self-serve.
 
 Enable this connector to build and render your AEM Sites-based web pages and deliver customized experiences to your learners from AEM, where the course information is fetched by using a public API (headless LMS).
 

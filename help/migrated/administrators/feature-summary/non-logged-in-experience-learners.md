@@ -25,7 +25,7 @@ Adobe Learning Manager - Learner APIs allow you to create a custom learning expe
  
 >[!IMPORTANT]
 >
->They are not to be used, as is, for any sort of data retrieval to support any non-logged in user/shared users or any other such cases.
+>They are not to be used, as is, for any sort of data retrieval to support any non-logged in user/shared users or any other such cases. For building a headless or AEM based non logged in experience, please contact us. We will suggest the right approach based on your requirement.
  
 The non-logged in use cases require special handling. 
 
