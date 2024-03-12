@@ -740,6 +740,12 @@ The User-skill Export allows users to export user skills to Workday automaticall
 >
 >Skills from multiple Learning Manager accounts cannot be exported simultaneously using the same Workday account.
 
+#### Points to note
+
+* Ensure UUID, Email Address, and name of the employee is unique across multiple Workday Integrations. Incorrect values will result a connection failure.
+* The UUID field once populated via Workday on cannot be deleted by any client facing LMS Administrator. If you want to change the value, get in touch with the Adobe Learning Manager onboarding or support team.
+* The User Purge option may also not work since User Purge only supports 50 users to be purges per run. Exercise extreme caution while uploading the users via the UUIDs. 
+
 ### Scheduling {#Scheduling-1}
 
 Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application. 
