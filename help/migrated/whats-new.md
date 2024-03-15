@@ -361,6 +361,23 @@ Adobe Learning Manager mobile app now supports white labeling – which means th
 
 View White labeling in [Adobe Learning Manager mobile app](white-label.md) for more information.
 
+### New column in migration CSVs
+
+In this release, there is a new column (optional), uniqueLoId, in the following migration CSVs.
+
+ * certification.csv
+ * course.csv
+ * learning_program.csv
+
+The column, uniqueLoId, is not applicable to the Job Aid CSV.
+
+>[!IMPORTANT]
+>
+>The column values must be unique across the account. You cannot use the same value with a course or certification.
+
+Download the CSVs from the [Migration manual](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+
+
 ### App rating
 
 A learner can provide their feedback on the Adobe Learning Manager app to further enhance the app experience. If the learner rates four star or more, a pop-up displays that requests the learner to rate the app on Play Store or App Store.
