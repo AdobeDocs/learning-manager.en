@@ -363,7 +363,7 @@ View White labeling in [Adobe Learning Manager mobile app](white-label.md) for m
 
 ### New column in migration CSVs
 
-In this release, there is a new column (optional), uniqueLoId, in the following migration CSVs.
+In this release, there is a new, optional column, uniqueLoId, in the following migration CSVs.
 
  * certification.csv
  * course.csv
