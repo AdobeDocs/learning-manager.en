@@ -85,10 +85,7 @@ The following can be customized:
   <td>
   <p>Client ID and Client Secret</p></td>
   <td>
-  <p>The Integration Admin of your account provides the details, while registering the app. The Integration Admin must use the following:
-  * learner:read,learner:write as role
-  * internal app name://redirect as redirect URL
-  </p></td>
+  <p>The Integration Admin of your account provides the details, while registering the app. The Integration Admin must use the following:<ul><li>learner:read,learner:write as role</li><li>internal app name://redirect as redirect URL</li></ul></p></td>
   </tr>
   <tr>
   <td>
