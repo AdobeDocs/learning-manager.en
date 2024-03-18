@@ -1,5 +1,5 @@
 ---
-description: Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
+description: Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS.
 jcr-language: en_us
 title: Migration manual
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
