@@ -7,7 +7,7 @@ exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
 ---
 # New features summary {#new-features-summary}
 
-Learn about the new features and enhancements in Adobe Learning Manager
+Learn about the new features and enhancements in the March 2024 release of Adobe Learning Manager.
 
 ## What's new in this release {#whatsnewandchanged}
 
