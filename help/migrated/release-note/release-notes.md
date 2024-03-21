@@ -5,7 +5,7 @@ title: Adobe Learning Manager release notes
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 ---
-# New features summary
+# Adobe Learning Manager release notes
 
 <!--<table>
  <tbody>
