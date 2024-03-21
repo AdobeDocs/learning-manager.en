@@ -1659,7 +1659,7 @@ Prerequisites to establish an ADFS connection:
 
    <!--![](assets/click-api-permission.png)-->
 
-   *Left pane containing API Permissions*
+  <!-- *Left pane containing API Permissions*-->
 
 1. Select **Add Permissions**. Also, enable the option, **Grant Admin consent**.
 
@@ -1671,7 +1671,7 @@ Prerequisites to establish an ADFS connection:
 
    <!--![](assets/ms-graph.png)-->
 
-   *Select Microsoft Graph*
+   <!--*Select Microsoft Graph*-->
 
 1. Select **Application permissions**.
 
@@ -1701,7 +1701,9 @@ Prerequisites to establish an ADFS connection:
 
    <!--![](assets/select-add-permission.png)-->
 
-   *Select Add Permissions*
+  <!-- *Select Add Permissions*-->
+
+#### ADFS Configuration page
 
 1. In the ADFS configuration page in Adobe Learning Manager, enter the Client ID and the Client Secret that you had obtained earlier.
 
