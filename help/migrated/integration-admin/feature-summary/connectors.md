@@ -1621,43 +1621,43 @@ Prerequisites to establish an ADFS connection:
 
 1. Click Azure Active Directory. Click **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
 
-   ![](assets/add-app-registration.png)
+   <!--![](assets/add-app-registration.png)-->
    *Add app registration*
 
 1. Enter the name of the application.
 
-   ![](assets/register-app.png)
+   <!--![](assets/register-app.png)-->
    *Enter the name of the application*
 
    Click **[!UICONTROL Register]**.
 
 1. On the right pane, select **[!UICONTROL Certificates and Secrets]**.
 
-   ![](assets/add-client-secret.png)
+   <!--![](assets/add-client-secret.png)-->
 
    *Select Certificates and Secrets*
 
 1. Add a client secret.
 
-   ![](assets/add-description.png)
+   <!--![](assets/add-description.png)-->
 
    *Add a client secret*
 
 1. Add a description to the secret and set its expiry to 24 months.
 
-   ![](assets/copy-values.png)
+  <!-- ![](assets/copy-values.png)-->
 
    *Add description*
 
 1. Copy the value and the secret to, for example, notepad.
 
-   ![](assets/copy-secret.png)
+  <!-- ![](assets/copy-secret.png)-->
 
    *Copy value and secret key*
 
 1. Select **API Permissions**.
 
-   ![](assets/click-api-permission.png)
+   <!--![](assets/click-api-permission.png)-->
 
    *Left pane containing API Permissions*
 
@@ -1669,7 +1669,7 @@ Prerequisites to establish an ADFS connection:
 
 1. Select **Microsoft Graph**.
 
-   ![](assets/ms-graph.png)
+   <!--![](assets/ms-graph.png)-->
 
    *Select Microsoft Graph*
 
@@ -1699,7 +1699,7 @@ Prerequisites to establish an ADFS connection:
 
 1. Select **Add Permissions**.
 
-   ![](assets/select-add-permission.png)
+   <!--![](assets/select-add-permission.png)-->
 
    *Select Add Permissions*
 
