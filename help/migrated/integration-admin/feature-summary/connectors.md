@@ -1703,7 +1703,7 @@ Prerequisites to establish an ADFS connection:
 
   <!-- *Select Add Permissions*-->
 
-#### ADFS Configuration page
+### ADFS Configuration page
 
 1. In the ADFS configuration page in Adobe Learning Manager, enter the Client ID and the Client Secret that you had obtained earlier.
 
