@@ -1619,85 +1619,85 @@ Prerequisites to establish an ADFS connection:
 
 ## Steps to register your application {#stepstoregisteryourapplication}
 
-1. Click Azure Active Directory. Click **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
+* Click Azure Active Directory. Click **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
 
    <!--![](assets/add-app-registration.png)-->
-   *Add app registration*
+  <!-- *Add app registration*-->
 
-1. Enter the name of the application.
+* Enter the name of the application.
 
    <!--![](assets/register-app.png)-->
-   *Enter the name of the application*
+   <!--*Enter the name of the application*-->
 
    Click **[!UICONTROL Register]**.
 
-1. On the right pane, select **[!UICONTROL Certificates and Secrets]**.
+* On the right pane, select **[!UICONTROL Certificates and Secrets]**.
 
    <!--![](assets/add-client-secret.png)-->
 
-   *Select Certificates and Secrets*
+   <!--*Select Certificates and Secrets*-->
 
-1. Add a client secret.
+* Add a client secret.
 
    <!--![](assets/add-description.png)-->
 
-   *Add a client secret*
+   <!--*Add a client secret*-->
 
-1. Add a description to the secret and set its expiry to 24 months.
+* Add a description to the secret and set its expiry to 24 months.
 
   <!-- ![](assets/copy-values.png)-->
 
-   *Add description*
+   <!--*Add description*-->
 
-1. Copy the value and the secret to, for example, notepad.
+* Copy the value and the secret to, for example, notepad.
 
   <!-- ![](assets/copy-secret.png)-->
 
-   *Copy value and secret key*
+   <!--*Copy value and secret key*-->
 
-1. Select **API Permissions**.
+* Select **API Permissions**.
 
    <!--![](assets/click-api-permission.png)-->
 
   <!-- *Left pane containing API Permissions*-->
 
-1. Select **Add Permissions**. Also, enable the option, **Grant Admin consent**.
+* Select **Add Permissions**. Also, enable the option, **Grant Admin consent**.
 
    ![](assets/add-permission.png)
 
    *Add permissions*
 
-1. Select **Microsoft Graph**.
+* Select **Microsoft Graph**.
 
    <!--![](assets/ms-graph.png)-->
 
    <!--*Select Microsoft Graph*-->
 
-1. Select **Application permissions**.
+* Select **Application permissions**.
 
    ![](assets/request-api-permission.png)
 
    *Select Application permissions*
 
-1. Search for *directory* and select **Read directory data**.
+* Search for *directory* and select **Read directory data**.
 
    ![](assets/read-directory-data.png)
 
    *Select Read directory data*
 
-1. Enter *user* as the search term.
+* Enter *user* as the search term.
 
    ![](assets/search-user.png)
 
    *Enter the search term*
 
-1. Select **Read all users' full profiles**.
+* Select **Read all users' full profiles**.
 
    ![](assets/select-read-all.png)
 
    *Select Read all users' full profiles*
 
-1. Select **Add Permissions**.
+* Select **Add Permissions**.
 
    <!--![](assets/select-add-permission.png)-->
 
