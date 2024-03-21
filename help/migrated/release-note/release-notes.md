@@ -17,13 +17,22 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
  </tbody>
 </table>-->
 
-+++Update 95: The November 2023 release of Adobe Learning Manager
++++Update 96: The March 2024 release of Adobe Learning Manager
 
 **Release date:** 18 November, 2023
 
 ## What's new in this release
 
 View [What's new in Adobe Learning Manager](/help/migrated/whats-new.md) for more information.
++++
+
++++Update 95: The November 2023 release of Adobe Learning Manager
+
+**Release date:** 18 November, 2023
+
+## What's new in this release
+
+View [What's new in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023) for more information.
 +++
 
 +++Update 94
