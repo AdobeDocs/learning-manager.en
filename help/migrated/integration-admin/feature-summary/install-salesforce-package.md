@@ -41,7 +41,7 @@ If you want to install the package, you must first delete the existing package i
 >
 >The Adobe Learning Manager app is only supported in Salesforce Lightning view.
 
-1. Launch the  [Learning Manager package url](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftest.salesforce.com%2Fpackaging%2FinstallPackage.apexp%3Fp0%3D04t1k0000008YWn&data=04%7C01%7Ckillamse%40adobe.com%7Cf588f553fc694d2edee108d9a5c74711%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637723097572585825%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=mhYKVdwvS4F7WPruy0Kvw%2FsqgWxzTQpaZJyEACu8CNw%3D&reserved=0).  
+1. Launch the  [Learning Manager package url](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP).  
 1. In the **Login** page, click **[!UICONTROL Use Custom Domain]**.
 
 1. Enter the package URL and click **[!UICONTROL Continue]**. The installation page must have the option Install for Admins Only selected. Do not change this option.
