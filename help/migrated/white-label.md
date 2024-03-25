@@ -130,9 +130,8 @@ If you're using a custom domain or learningmanager\*.adobe.com as host, you need
 
 Refer the following links for more information:
 
-- [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
-
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## Generate push notifications
 
@@ -170,6 +169,7 @@ Follow the procedure:
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
+
 If you can connect to the server, the certificate you've created is valid. From the myapnappkey.pem file, copy the certificate and private key values.
 
 ### Push notifications on Android
