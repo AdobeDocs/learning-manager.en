@@ -17,9 +17,9 @@ To deploy and manage your own white labeled app, follow the steps:
 
   1. Assign a technical resource who is capable of:
   
-    * Generating the push notification certificate files.
-    * Signing the app binaries provided by the ALM team.
-    * Uploading and managing the publishing process. The publishing process requires communication between your app manager and app/play store teams that your app complies with all publishing guidelines. From ALM, you will receive a fully compliant app binary.
+  * Generating the push notification certificate files.
+  * Signing the app binaries provided by the ALM team.
+  * Uploading and managing the publishing process. The publishing process requires communication between your app manager and app/play store teams that your app complies with all publishing guidelines. From ALM, you will receive a fully compliant app binary.
 
 ## Overview
 
@@ -114,10 +114,19 @@ The following can be customized:
     </tbody>
 </table>
 
+>[!NOTE]
+>
+>Provide the data to your CSAMs so they can add it into your customized app binary.
 
-#### Update site association
+
+#### Update site association to handle custom deeplinks
 
 If you're using a custom domain or learningmanager\*.adobe.com as host, you need not take any action. However, if you use a custom solution or specific hostname for the URLs, add the site-association files.
+
+>[!CAUTION]
+>
+>If the files are not present, the deeplinks will not work. Ensure the files are present.
+
 
 Refer the following links for more information:
 
@@ -125,9 +134,16 @@ Refer the following links for more information:
 
 - [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
-## Generate push notifications certificate
+## Generate push notifications
 
-### Push notifications certificate on iOS
+Sending push notifications to Android and iOS apps require two different mechanisms.
+
+* For iOS, generate the push notification certificates.
+* For Android, provide a server key generated from the Firebase project. 
+
+Follow the instructions below to set up the projects in Firebase:
+
+### Push notifications on iOS
 
 In iOS app development, a push notification certificate is a cryptographic credential issued by Apple that allows a server to securely send push notifications to an iOS device through Apple's Push Notification service (APNs).
 
@@ -154,19 +170,24 @@ Follow the procedure:
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
-
 If you can connect to the server, the certificate you've created is valid. From the myapnappkey.pem file, copy the certificate and private key values.
 
-1. Contact the CSM team and get the files added to the SNS services on AWS. Users will have to get the entry registered in the SNS service for the push notification, which will require them to share the certificates generated above for validation.
+### Push notifications on Android
+
+Set up a project in Firebase and share the server key with the CSAM.
+
+Contact the CSM team and get the files added to the SNS services on AWS. Users will have to get the entry registered in the SNS service for the push notification, which will require them to share the certificates generated above for validation.
 
 >[!NOTE]
 >
 >For Android, the user needs to provide the server key from the Firebase project they create for Android for adding the entry in the SNS service.
 
 
-## Add the project to Firebase
+## Create project in Firebase
 
 ### Android
+
+Re-use the same project that you'd created in the steps above for push notifications.
 
 [Add the project](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase and retrieve the ***google-services.json*** file.
 
@@ -174,19 +195,24 @@ If you can connect to the server, the certificate you've created is valid. From 
 
 [Add the project](https://firebase.google.com/docs/ios/setup) to Firebase and retrieve the ***GoogleService-Info.plist*** file.
 
+>[!IMPORTANT]
+>
+>Send the files to the Adobe Learning Manager CSAM team to include to the build of your app binary file.
+
+
 ## Generate the signed binaries
 
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath ./mobile-app-embedding-immersive/build/ios/archive/Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
 
 >[!NOTE]
 >
->You'll need XCode 14.2 or higher to build the signed binaries.
+>You'll need XCode 15.2 or higher to build the signed binaries.
 
 
 ## Android
