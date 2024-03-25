@@ -237,5 +237,5 @@ The CSM team will share the build with the customer.
 
 ## What cannot be customized
 
-- Update Password screen
-- Creating an account screen
+* Update Password screen
+* Creating an account screen
