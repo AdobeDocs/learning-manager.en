@@ -132,15 +132,15 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    A user with a Custom Role can:
 
-   * Only view content from the catalogs he/she has access to.
-   * Access any Learning Object based on the permissions of the Catalog the Learning Object is a part of.
+* Only view content from the catalogs he/she has access to.
+* Access any Learning Object based on the permissions of the Catalog the Learning Object is a part of.
 
    As an Administrator, you can:
 
-   * Choose more than one catalog for a Custom Role.
-   * Modify the permissions of a catalog any time.
-   * Remove the catalogs from a scope to which you no longer want to grant permissions.
-   * Implicitly grant Read Only permission to a catalog, when you grant permissions to the catalog.
+* Choose more than one catalog for a Custom Role.
+* Modify the permissions of a catalog any time.
+* Remove the catalogs from a scope to which you no longer want to grant permissions.
+* Implicitly grant Read Only permission to a catalog, when you grant permissions to the catalog.
 
    The table below illustrates how permissions are granted.
 
@@ -221,9 +221,9 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    CustomRole columnNote:
 
-   * You cannot search User Groups.
-   * You cannot search users who already have Admin role assigned to them.
-   * Assigning a new custom role to a user overrides user's previous custom role.
+* You cannot search User Groups.
+* You cannot search users who already have Admin role assigned to them.
+* Assigning a new custom role to a user overrides user's previous custom role.
 
    <!--![](assets/users.png)-->
 

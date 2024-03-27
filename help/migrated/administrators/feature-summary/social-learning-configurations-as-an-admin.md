@@ -254,9 +254,9 @@ The Administrator can customize the title and the subtitle that appear on the he
 
 You have a few other options:
 
-   * **[!UICONTROL Language]:** From the drop-down list, choose the language to translate the title and subtitle to. You can also add custom text for different languages.   
-   * **[!UICONTROL Replicate]:** Click this button to replicate the title and subtitle across all languages.
-   * **[!UICONTROL Reset]:** Click this button to revert to the original title and subtitle.
+* **[!UICONTROL Language]:** From the drop-down list, choose the language to translate the title and subtitle to. You can also add custom text for different languages.   
+* **[!UICONTROL Replicate]:** Click this button to replicate the title and subtitle across all languages.
+* **[!UICONTROL Reset]:** Click this button to revert to the original title and subtitle.
 
    On the Social Learning homepage, the information provided by the Administrator displays as the page header.
 

@@ -17,9 +17,9 @@ To deploy and manage your own white labeled app, follow the steps:
 
   1. Assign a technical resource who is capable of:
   
-  * Generating the push notification certificate files.
-  * Signing the app binaries provided by the ALM team.
-  * Uploading and managing the publishing process. The publishing process requires communication between your app manager and app/play store teams that your app complies with all publishing guidelines. From ALM, you will receive a fully compliant app binary.
+* Generating the push notification certificate files.
+* Signing the app binaries provided by the ALM team.
+* Uploading and managing the publishing process. The publishing process requires communication between your app manager and app/play store teams that your app complies with all publishing guidelines. From ALM, you will receive a fully compliant app binary.
 
 ## Overview
 
