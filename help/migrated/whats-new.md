@@ -225,6 +225,7 @@ If the number of users in a User Group is large, the **Status** dropdown only di
 In this release, we've enhanced the search experience. The search results are fetched based not only on the metadata, but also semantic, and in-content search to derive results based on precision, recency and relevant content. 
 
 This change reflects on the following:
+
 * Catalog and My Learning page: The hover action on course, learning path, and certification has been removed.
 * The appearance of the search bar.
 * Added filter tags in the learning app.
@@ -243,6 +244,7 @@ On the Admin page, select **Admin** > **Skills** > **Skill** > **Learners**. The
 ## Changes to classroom creation
 
 Based on [Administrator settings](administrators/feature-summary/classroom.md#classroom-settings), you, as an Author, can [create,modify, and delete locations](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >While adding location and Catalog labels, authors (in course creation page) and admins (at instance page) will see an auto populated list of locations and catalog labels respectively.
