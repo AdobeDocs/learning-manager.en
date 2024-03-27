@@ -69,7 +69,7 @@ To reset learner score and configuration, click Reset Gamification and choose an
 
 ## Disable gamification {#disablegamification}
 
-Click [!UICONTROL **Gamification**] > [!UICONTROL **Gamification Feature**]. This allows you to enable the gamification feature and the leaderboard separately for your Learners. Select between Enable for Internal Learners and Enable for External Learners as per the requirement and click OK. All the points are retained when you enable the gamification again.
+Click [!UICONTROL **Gamification**] > **[!UICONTROL Settings]** > [!UICONTROL **Gamification Feature**]. This allows you to enable the gamification feature and the leaderboard separately for your Learners. Select between Enable for Internal Learners and Enable for External Learners as per the requirement and click OK. All the points are retained when you enable the gamification again.
 
 ![](assets/gamification-feature.png)
 

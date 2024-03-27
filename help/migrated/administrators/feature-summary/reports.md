@@ -40,7 +40,7 @@ If there are internal root level managers, they will be displayed one after anot
 
 All external profiles will be listed after internal profiles (Internal root level users).
 
-If an external profile has a manager, then the manager hierarchy will be displayed in the **[!UICONTROL Showing Data For]** drop-down list. - User will be listed in manager hierarchy in all the details page (Learning summary, compliance, and skill status)
+If an external profile has a manager, then the manager hierarchy will be displayed in the **[!UICONTROL Showing Data For]** drop-down list. User will be listed in manager hierarchy in all the details page (Learning summary, compliance, and skill status)
 
 If not, then all individual user details will be displayed in the list.
 
@@ -52,9 +52,9 @@ To see more granular details of enrollments of various internal teams, click **[
 When you click any enrollment, you can see the learners for each manager, and enrollment to which Learning Objects. You can also see the progression and completion details of each learner. 
 
 ![](assets/learners-for-a-manager.png)
-*Aee learners assigned to a manager*
+*learners assigned to a manager*
 
-Click any team and export its report as a csv. An Admin can export the report for any of the User Group or individual user by selecting the User Group or individual user, and then export details from the Action drop-down list.
+Click any team and export its report as a csv. An Admin can export the report for any of the User Group or individual user by selecting the User Group or individual user, and then export details from the **[!UICONTROL Action]** drop-down list.
 
 Also, you can see a bar chart view of skills that are in progress and have been achieved. You can add/remove skills that you want to feature in the graph.
 
@@ -63,7 +63,7 @@ Also, you can see a bar chart view of skills that are in progress and have been 
 
 In the final visualization, you can check the compliance status of learners, and take appropriate action.
 
-Also, an Admin can view individual training data in the Compliance Dashboard.
+Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
 
 For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
 
@@ -611,7 +611,7 @@ The Learner Transcripts in Excel reports displays the columns Credits Required a
 
 As an administrator, you can download reports for courses. Follow these steps:
 
-1. Open **[!UICONTROL Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Course Reports]**.
+1. Open **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Course Reports]**.
 1. The **[!UICONTROL Course Report]** dialogue appears. Select the course you want to fetch the report of and click **[!UICONTROL Show]**.
 
    ![](assets/course-reports.png)
@@ -651,13 +651,13 @@ As an administrator, you can generate a report of all the announcements that you
 
 To download a report, follow any one of these steps:
 
-1. Open **[!UICONTROL Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**. The **[!UICONTROL Generating Report Request]** dialogue box opens. Click Ok.
+1. Open **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**. The **[!UICONTROL Generating Report Request]** dialogue box opens. Click Ok.
 1. [!UICONTROL **Announcements**] > [!UICONTROL **Actions**] > [!UICONTROL **Export Report**].
 
    ![](assets/announcements.png)
    *Announcements report*
 
-1. You can extract a report for a specific announcement by clicking Export Report under the settings icon.
+1. You can extract a report for a specific announcement by clicking **[!UICONTROL Export Report]** under the settings icon.
 
    ![](assets/announcements-specific-report.png)
    *Report for specific announcements*
@@ -680,7 +680,7 @@ The extracted report includes information about the following:
 
 To download a report, do one of the following:
 
-* Open  **[!UICONTROL Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. The **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL Ok]**.
+* Open  **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. The **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL Ok]**.
 * Open **[!UICONTROL Job Aid]** > **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**.
 
 ![](assets/job-aids.png)

@@ -214,31 +214,31 @@ Any modifications performed for learning objects at the owner application are ca
    <td>
     <p><strong>Learning program</strong></p></td>
    <td>
-    <p>name, description and other fields on LP object except badgeId, retiring</p></td>
+    <p>Name, description and other fields on LP object except badgeId, retiring</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Certification</strong></p></td>
    <td>
-    <p>all properties of certification object except badgeId, retiring of certification</p></td>
+    <p>All properties of certification object except badgeId, retiring of certification</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Badge</strong></p></td>
    <td>
-    <p>name and retiring of badge</p></td>
+    <p>Name and retiring of badge</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Category </strong></p></td>
    <td>
-    <p>name, description, color and retiring of category, addition of new level</p></td>
+    <p>Name, description, color and retiring of category, addition of new level</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Job-Aid</strong></p></td>
    <td>
-    <p>all properties of jobAid object</p></td>
+    <p>All properties of jobAid object</p></td>
   </tr>
   <tr>
    <td>

@@ -192,7 +192,7 @@ On the **Generate Report Request** dialog, enter the required months and year, a
 
 ![](assets/generate-report-request.png)
 
-*Download acrtive usage report*
+*Download active usage report*
 
 If you close the browser window, the download starts the next time you visit Learning Manager.
 

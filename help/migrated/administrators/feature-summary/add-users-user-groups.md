@@ -603,7 +603,7 @@ When adding an external user, in the **[!UICONTROL Add External Registration Pro
 
 +++How to create Custom User Groups?
 
-Click **[!UICONTROL Users]** > **[!UICONTROL User Groups]** and on the User Groups page, click **[!UICONTROL Add]**. In the Add User Group dialog, add the users both indivdually and as a team.
+Click **[!UICONTROL Users]** > **[!UICONTROL User Groups]** and on the User Groups page, click **[!UICONTROL Add]**. In the Add User Group dialog, add the users both individually and as a team.
 
 ![](assets/custom-user-group.png)
 

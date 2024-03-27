@@ -25,7 +25,7 @@ As an Administrator, you can perform the following:
 
 To add a skill, follow the steps below:
 
-1. On the left pane, click **[!UICONTROL Skills]**. Give the skill a name and description.
+1. On the left pane, select **[!UICONTROL Skills]** > **[!UICONTROL Add]** > **[!UICONTROL Add SKills]**. Give the skill a name and description.
 
    ![](assets/add-skill-name-anddescription.png)
    
