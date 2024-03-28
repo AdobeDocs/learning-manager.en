@@ -240,7 +240,7 @@ While mapping the courses to a skill level, the list of skills is search-first. 
 
 ### User Groups
 
-#### Admin- Learners page
+#### Admin: Learners page
 
 When searching for any user, the **Download learner** and **Export** options download the same report. Meanwhile, while searching for a User Group, you can now download filtered users from that user group. When searching a User Group, the **Download learner list** changes to **Download learner list for user group** The **Export** option again downloads the entire list.
 
