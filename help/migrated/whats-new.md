@@ -37,7 +37,7 @@ If a large number of learners are enrolled to the course, for example, more than
 ### Admin- Learners page
 
 When searching for any user, the **Download learner** and **Export** options download the same report. Meanwhile, while searching for a User Group, you can now download filtered users from that user group. When searching a User Group,
-the **Download learner list** changes to **Download leaner list for user group** The **Export** option again downloads the entire list.
+the **Download learner list** changes to **Download learner list for user group** The **Export** option again downloads the entire list.
 
 ### Admin- Users page
 
@@ -225,11 +225,24 @@ If the number of users in a User Group is large, the **Status** dropdown only di
 In this release, we've enhanced the search experience. The search results are fetched based not only on the metadata, but also semantic, and in-content search to derive results based on precision, recency and relevant content. 
 
 This change reflects on the following:
+
 * Catalog and My Learning page: The hover action on course, learning path, and certification has been removed.
 * The appearance of the search bar.
 * Added filter tags in the learning app.
 
 To enable the search capabilities, contact the CSAM team of Adobe Learning Manager.
+
+## User Interface changes {#ui-changes}
+
+### Course creation page
+
+While mapping the courses to a skill level, the list of skills is search-first. In other words, search skills, and you'll see a list of skills matching the searched term.
+
+### User Groups
+
+#### Admin- Learners page
+
+When searching for any user, the **Download learner** and **Export** options download the same report. Meanwhile, while searching for a User Group, you can now download filtered users from that user group. When searching a User Group, the **Download learner list** changes to **Download learner list for user group** The **Export** option again downloads the entire list.
 
 ## Changes to reports
 
