@@ -125,9 +125,9 @@ The **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]*
 
 There are three options:
 
-1. **[!UICONTROL All Levels Courses and Learning Paths (selected by default)]:** The learner gets notifications for any incomplete course irrespective of the level inside a Learning Path.
+1. **[!UICONTROL All Skill Levels Courses and Learning Paths (selected by default)]:** The learner gets notifications for any incomplete course irrespective of the level inside a Learning Path.
 1. **[!UICONTROL Root Learning Path]:** The learner gets notifications for any incomplete course belonging to a parent Learning Path.
-1. **[!UICONTROL Learning Path and first level child only]:** The learner gets notifications of any incomplete course that is a first child of a parent Learning Path.
+1. **[!UICONTROL Learning Path + first Skill Level children only]:** The learner gets notifications of any incomplete course that is a first child of a parent Learning Path.
 
 The notification reminders are triggered based on the option. By default, the option **[!UICONTROL All Levels Courses and Learning Paths]** is enabled for an instance.
 

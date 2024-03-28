@@ -63,7 +63,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Settings](administrators/feature-summary/settings.md)
    * [Notifications](administrators/feature-summary/user-notifications.md)
    * [iPad & Android tablet users](administrators/feature-summary/ipad-android-tablet-users.md)
-   * [Getting started as Administrator](administrators/feature-summary/getting-started.md)
    * [Purge users](administrators/feature-summary/purge-users.md)
    * [Tags](administrators/feature-summary/tags.md)
    * [Learning Manager Content Catalog](administrators/feature-summary/content-catalogs.md)

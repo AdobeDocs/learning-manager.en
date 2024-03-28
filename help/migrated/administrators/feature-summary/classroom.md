@@ -19,13 +19,14 @@ You can add a classroom location by using the UI:
 
 1. In the Admin app (the UI for administrator roles), click **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]**.  
 
-1. Click the **[!UICONTROL Add More]** button.  
+1. Click **[!UICONTROL Add]** > **[!UICONTROL New Location]**.  
 
 1. In the **[!UICONTROL Classroom Location]** dialog box, enter the following details:
 
-   * Type the **[!UICONTROL Classroom Location Name]**. Use a unique name. Otherwise, Learning Manager displays an error message.
+   * Type the **[!UICONTROL Location Name]**. Use a unique name. Otherwise, Learning Manager displays an error message.
    * Type the location description in the **[!UICONTROL Location Information]** field. This field is optional.
    * Type the **[!UICONTROL Location URL]**. Learner can see this information in the classroom details. The URL can also be a maps location URL, if required. This is an optional field.
+   * Type and select the **[!UICONTROL Location Region]**. This field i optional.
    * Type the number of available seats in the **[!UICONTROL Seat Limit]** field. This indicates the seat capacity of the classroom. This value can be changed when creating the actual instructor-led training event.
 
    ![](assets/add-classroom-location.png)
@@ -52,6 +53,8 @@ The dialog box displays the details of each session including the name of the se
 
 The **[!UICONTROL Future Sessions]** field displays **zero** when the classroom is not used for any session or when the classroom is associated with past sessions.
 
+**[!UICONTROL Seat Limit]** - Displays the seat capacity of the classroom.
+
 **Location URL** - URL that you provided when creating the classroom location.
 
 **Location Information** - The classroom information that you provided when creating the classroom.
@@ -60,7 +63,7 @@ The **[!UICONTROL Future Sessions]** field displays **zero** when the classroom 
 
 Alternatively, you can add one or more classroom locations by importing a CSV that contains the classroom information.
 
-In **[!UICONTROL Admin app]** > **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]**, click the **[!UICONTROL Import Locations CSV]** button. Browse to the location containing the CSV file and select the file.
+In **[!UICONTROL Admin app]** > **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]** > **[!UICONTROL Add]**, click the **[!UICONTROL Bulk import locations]** button. Browse to the location containing the CSV file and select the file.
 
 The CSV file uses these fields to store details about one or more classroom locations:
 

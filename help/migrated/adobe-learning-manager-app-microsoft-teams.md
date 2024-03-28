@@ -96,7 +96,7 @@ Follow the steps below:
 
 ## MS Teams admin creates a policy for Teams app
 
-Follow the steps below: 
+Follow the steps below:
 
 1. As an MS Teams admin, in the Admin Center, create a policy for adding the Teams app to your learners' Teams app. 
 

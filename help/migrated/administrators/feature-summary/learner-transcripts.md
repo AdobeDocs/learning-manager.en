@@ -15,7 +15,7 @@ Adobe Learning Manager enables the administrators of an organization to generate
 
 1. To generate learner transcripts, click **[!UICONTROL Reports]** on the left pane in Administrator login.
 
-   The Administrator navigates to the Excel Reports tab inside the **[!UICONTROL Reports]** page.
+   The Administrator navigates to the **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** tab inside the **[!UICONTROL Reports]** page.
 
 1. Click the link **[!UICONTROL Learner Transcripts]**.
 

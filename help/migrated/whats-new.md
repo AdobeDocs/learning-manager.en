@@ -256,6 +256,7 @@ On the Admin page, select **Admin** > **Skills** > **Skill** > **Learners**. The
 ## Changes to classroom creation
 
 Based on [Administrator settings](administrators/feature-summary/classroom.md#classroom-settings), you, as an Author, can [create,modify, and delete locations](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >While adding location and Catalog labels, authors (in course creation page) and admins (at instance page) will see an auto populated list of locations and catalog labels respectively.
@@ -378,9 +379,9 @@ View White labeling in [Adobe Learning Manager mobile app](white-label.md) for m
 
 In this release, there is a new, optional column, uniqueLoId, in the following migration CSVs.
 
- * certification.csv
- * course.csv
- * learning_program.csv
+* certification.csv
+* course.csv
+* learning_program.csv
 
 The column, uniqueLoId, is not applicable to the Job Aid CSV.
 

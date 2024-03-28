@@ -47,6 +47,7 @@ To create an instance,
    * Click **[!UICONTROL Show More Options]** to display other deadline options.
    * **[!UICONTROL Enrollment Deadline]:** This is the date by which a learner is expected to enroll into a learning object in case of self-enrollment.
    * **[!UICONTROL Unenrollment Deadline]:** You can choose to restrict unenrollment by learner himself by having an unenrollment deadline.
+   * **[!UICONTROL Timezone]:** Search and then select the **[!UICONTROL Timezone]** from the dropdown.
 
    An Administrator can decide to have completion deadlines for a course or learning program based on requirements. However, it is recommended to have one for Classroom/Virtual classroom-based trainings.
 
@@ -93,13 +94,13 @@ To restore a retired instance to an activate state, perform the following steps:
 
 To send instance-level emails to enrolled learners:
 
-1. On the Instances page, select the options on any instance, and then click **[!UICONTROL Email Enrolled Learners]**.
+1. On the **[!UICONTROL Instances]** page, select the options on any instance, and then click **[!UICONTROL Email Enrolled Learners]**.
 
 ![instance level emails](assets/adhoc-email.png)
 
 *Email learners enrolled in the instance*
 
-1. On the Create Announcement dialog, select Type as Email. Specify the subject, type the message, and click Save. The training is selected automatically.
+1. On the **[!UICONTROL Create Announcement]** dialog, select Type as Email. Specify the subject, type the message, and click **[!UICONTROL Save]**. The training is selected automatically.
 
    ![Create announcement as email](assets/email-announcement.png)
 
@@ -172,7 +173,7 @@ The Excel file contains worksheets for each instance. A worksheet consists of th
 
 >[!NOTE]
 >
->Note: Enabling Multi-Enrollment results in multiple rows being added to the Learner Transcript Report for each course (one row for each instance).
+>Enabling Multi-Enrollment results in multiple rows being added to the Learner Transcript Report for each course (one row for each instance).
 >
 >If you've reporting automation set up that anticipates only one row per course, you must make the necessary adjustments to the reporting automation before enabling the Multi-Enrollment feature.
 
@@ -311,7 +312,7 @@ Once you enable L1 feedback, you can view the options as shown in the following 
 
 ![](assets/l1-feedback-desc-questions.png)
 
-*Add descriptive questions for L1 and L3 feeedback*
+*Add descriptive questions for L1 and L3 feedback*
 
 If you want the questionnaire to appear to the learner immediately after course completion, you can choose the option accordingly.
 
