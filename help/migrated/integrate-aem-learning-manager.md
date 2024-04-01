@@ -25,7 +25,7 @@ Install the Learning Manager content package using the AEM Package Manager:
 
 >[!NOTE]
 >
->For information on instaling packages, see  [***How to Work With Packages***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>For information on installing packages, see  [***How to Work With Packages***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. As AEM Author, open the AEM Package Manager.  
 1. Click the button **[!UICONTROL Upload Package]**.  
@@ -129,7 +129,7 @@ The Catalog widget contains the following options:
 
 * **[!UICONTROL Catalog ids]:** Comma-separated catalog ids for which the training need to be displayed.
 * **[!UICONTROL Sort]:** Sort order for the training. The options are- name, date, dateCreated, dateEnrolled, and so on.
-* **[!UICONTROL Learner State]:** Returns all training that uses the following as filters- enrolled, started, completed, and notenrolled. The search results will not be displayed if the sort option is dateEnrolled, dueDate, or dateEnrolled.
+* **[!UICONTROL Learner State]:** Returns all training that uses the following as filters- enrolled, started, completed, and not enrolled. The search results will not be displayed if the sort option is dateEnrolled, dueDate, or dateEnrolled.
 * **[!UICONTROL Skill name]:** The skill used to filter exact training.
 * **[!UICONTROL Tag name]:** The tag used to filter exact results.
 
