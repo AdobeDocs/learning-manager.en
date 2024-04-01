@@ -63,6 +63,7 @@ To create a course, follow the steps below:
    NOTE: This is only enabled when Adobe Commerce connector is configured.
 
 1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box **Learners can unenroll themselves**.
+
 1. **Instance Configuration**
 
    If you enable this option, learners who are in the state, In Progress,  can visit other instances and enroll there. A learner can then retain the progress of the previous instance.

@@ -163,11 +163,48 @@ If User permission or All user group is selected, and custom admin tries to down
 
 A Custom Admin can access the following reports according to the defined scope:
 
-| Report | Available | Scope |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Report</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Available</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Scope</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Content Audit Trail</p></td>
+   <td>
+    <p>Yes</p></td>
+   <td>
+    <p>Full Catalog</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>User Audit Trail</p></td>
+   <td>
+    <p>Yes</p></td>
+   <td>
+    <p>Full User</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Login Access</p></td>
+   <td>
+    <p>Yes</p></td>
+   <td>
+    <p>Full User</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
 | Content Audit Trail | Yes | Full Catalog |
 | User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Enhanced Connect Integration
 

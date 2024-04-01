@@ -528,7 +528,7 @@ By selecting this option, the manual active field values are not populated using
 >While mapping, if the option **DontImportFromSource** is selected for csv active field, then this field will be deleted from the system.
 
 ![](assets/ftp-conector-foractivefields.png)
-*FTP conector for Active fields*
+*FTP connector for Active fields*
 
 ## Lynda connector {#lyndaconnector}
 
@@ -957,7 +957,7 @@ To set up   miniOrange   connector, contact the Learning Manager CSM team.
 
    *Create a connection*
 
-1. If you want to import miniOrnage user directly as a Learning Manager internal user, use the **[!UICONTROL Import Internal Users]** option.
+1. If you want to import miniOrange user directly as a Learning Manager internal user, use the **[!UICONTROL Import Internal Users]** option.
 
    ![](assets/import-users.png)
 

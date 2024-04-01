@@ -163,7 +163,7 @@ Only after enrolling to a course, a Learner can provide a star feedback to the c
 
 A Learner will be able to select a particular star (out of 5) and submit the rating. The learner can also edit the selection by clicking on a different star. Once submitted, a Thank you for your feedback message will be displayed. 
 
-If the Learner wants to re-submit the feedback, he/she can do so by clicking the message. The **Submit **button gets re-enabled. A Learner can provide star rating multiple times after enrollment to a course. The most recent rating will be considered always.
+If the Learner wants to re-submit the feedback, he/she can do so by clicking the message. The **Submit** button gets re-enabled. A Learner can provide star rating multiple times after enrollment to a course. The most recent rating will be considered always.
 
 Once the Learner provides a rating, the average star rating and the count of learners who've provided the star ratings feature in the **Course Overview** page.
 
@@ -204,7 +204,7 @@ All filters and other options are shown in the video below.
 
 ### Preview content
 
-You can explore and preview the course and see if the course suits your learning needs. Click the **Preview **button and see the course preview. The preview is available for two minutes.
+You can explore and preview the course and see if the course suits your learning needs. Click the **Preview** button and see the course preview. The preview is available for two minutes.
 
 ![](assets/content-marketplace-learner.gif)
 *Preview content in the marketplace*
@@ -259,13 +259,13 @@ If the modules are set as ordered by the author, you must complete the required 
 
 After completing a course with the required number of modules, if you want to complete the optional modules, you can revisit the course.
 
-## Viewing and pariticpating in discussions {#viewingandpariticpatingindiscussions}
+## Viewing and participating in discussions {#viewingandpariticpatingindiscussions}
 
 As a learner, you can interact with other learners and your instructors using the Discussion tab. You can view the posts for any course that you view or enroll in. If an administrator has enabled discussions for a course, you can view the Discussion tab next to the Notes tab for that course.
 
 When you click the Discussions tab, you can see the existing posts and comments for that course. If you have already enrolled into the course, you can also start typing posts or comments for other users to see. After you type the message, click Post. Your post must at least contain 10 characters.
 
-The post is immediately visible in the Discussions tab. You can sort the posts as Newset First or Oldest First, and delete those posts that you wrote. Even after you unenroll from the course, you can still view all the posts and delete the posts that you wrote.
+The post is immediately visible in the Discussions tab. You can sort the posts as Newest First or Oldest First, and delete those posts that you wrote. Even after you unenroll from the course, you can still view all the posts and delete the posts that you wrote.
 
 ![](assets/learner-discussion.png)
 *View participant discussions*
