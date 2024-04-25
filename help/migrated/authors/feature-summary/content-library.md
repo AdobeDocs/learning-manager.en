@@ -108,26 +108,21 @@ As mentioned in the previous section, you can add both interactive and static co
 
 ## Add static content {#addstaticcontent}
 
-1. Select the **[!UICONTROL Content Library]** on the left pane after you log in as **Author** and select **[!UICONTROL Add]** > **[!UICONTROL Content]**.
+1. Click Content Library on the left pane after you log in as Author and click Add.
 
->[!NOTE]
->
->Selecting **[!UICONTROL Add]** will display two options. **[!UICONTROL Content]** and **[!UICONTROL Quiz]**: See [Create a quiz](content-library.md#createaquiz) for more details.
+   Alternatively, you can click Create Content from the Getting Started page.
 
-
-   Alternatively, you can select **[!UICONTROL Create Content]** from the **[!UICONTROL Getting Started]** page.
-
-1. In the **[!UICONTROL Name]** field, type a name for the content that you want to upload.
-1. In the **[!UICONTROL Description]** field, type the description for the content. Make sure that the description you want to enter is meaningful. The character limit is 400 characters.
-1. To add the content, select **[!UICONTROL Add Content File]**, and upload your resource file. When you add content for multiple languages, you cannot combine static and interactive content in a single group. Either all your content in all the locales should be static, or all the content should be interactive.
+1. In the Name field, specify a name for the content that you want to upload.
+1. In the Description field, enter the description for the content. Make sure that the description you want to enter is meaningful. The character limit is 400 characters.
+1. To add the content, Click Add Content File, and upload your resource file. When you add content for multiple languages, you cannot combine static and interactive content in a single group. Either all your content in all the locales should be static, or all the content should be interactive.
 
    If you want to replace the content, you can replace a static content with a different static content. The same applies to interactive content.
 
-1. In the **[!UICONTROL Duration]** field, you can optionally type the expected time a learner would spend in this module. The duration is in minutes.
+1. In the Duration field, you can optionally enter the expected time a learner would spend in this module. The duration is in minutes.
 
-   The learning time spent by the learner is calculated based on the duration specified if the learner has marked a course as complete. If learner consumes the content in the player, then the time spent in the player gets added to learning time spent. If the actual content time is less than the specified duration, nothing happens as the player always honors the content time for display.
+   The learning time spent by the learner is calculated based on the duration specified if the learner has marked a course as complete. If learner consumes the content in the player, thenthe time spent in the player gets added to learning time spent. If the actual content time is less than the specified duration, nothing happens as the player always honors the content time for display.
 
-1. In the **[!UICONTROL Tags]** field, enter the tags for the uploaded content so that your content becomes discoverable.
+1. In the Content Tags field, enter the tags for the uploaded content so that your content becomes discoverable.
 
    An author can use these tags to search for the content while adding the content to the course.
 
@@ -137,25 +132,23 @@ The content library also maintains versioning of your uploaded contents. If you 
 
 ## Add interactive content {#addinteractivecontent}
 
-1. Select **[!UICONTROL Content Library]** on the left pane after you log in as **Author** and select **[!UICONTROL Add]** > **[!UICONTROL Content]**.
+1. Click Content Library on the left pane after you log in as Author and click Add.
 
->[!NOTE]
->
->Selecting **[!UICONTROL Add]** will display two options. **[!UICONTROL Content]** and **[!UICONTROL Quiz]**: See [Create a quiz](content-library.md#createaquiz) for more details.
+   Alternatively, you can click Create Content from the Getting Started page.
 
-   Alternatively, you can select **[!UICONTROL Create Content]** from the **[!UICONTROL Getting Started]** page.
+1. In the Name field, specify a name for the content that you want to upload.
+1. In the Description field, enter the description for the content. Make sure that the description you want to enter is meaningful. The character limit is 245 characters.
+1. To add the content, Click Add Content File, and upload your resource file. When you add content for multiple languages, you cannot combine static and interactive content in a single group. Either all your content in all the locales should be static, or all the content should be interactive.
 
-1. In the **[!UICONTROL Name]** field, type a name for the content that you want to upload.
-1. In the **[!UICONTROL Description]** field, type the description for the content. Make sure that the description you want to enter is meaningful. The character limit is 245 characters.
-1. To add the content, select **[!UICONTROL Add Content File]**, and upload your resource file. When you add content for multiple languages, you cannot combine static and interactive content in a single group. Either all your content in all the locales should be static, or all the content should be interactive.
+* [Supported file types](content-library.md#supported)
 
-  * [Supported file types](content-library.md#supported)
-
-    The interactive content can be a SCORM, AICC, or a Captivate published project. The file must be a zip file.
+   The interactive content can be a SCORM, AICC, or a Captivate published project. The file must be a zip file.
 
    You can also add HTML content generated from Captivate, Presenter, or Presenter Video Express. 
 
-1. **Learning Manager** supports captions for video content uploaded in Learning Manager. Now, authors can upload the file containing captions, along with the video file. 
+   [Supported file types](content-library.md#supported)
+
+1. Learning Manager supports captions for video content uploaded in Learning Manager. Now, authors can upload the file containing captions, along with the video file. 
 
    Then, the learners can view the captions during the playback of the video module.  
 
@@ -163,11 +156,11 @@ The content library also maintains versioning of your uploaded contents. If you 
 
    Caption support is available for video content uploaded in Content library in Learning Manager. 
 
-   As an author, when you'll upload a video or audio content, you can also upload the VTT file that contains the captions.
+   As an author, when you'll upload a video or audio content, you can also upload the .vtt file that contains the captions.
 
    The subtitles then appear in the Fluidic Player. The captions are also compliant to [WCAG2.0 standards](https://www.w3.org/TR/WCAG20/). 
 
-   When you add a video content to the library, you can also add the VTT file, which must be a valid file.
+   When you add a video content to the library, you can also add the vtt file, which **must** be a valid file.
 
    ![](assets/webvtt.png)
 
@@ -185,44 +178,44 @@ The content library also maintains versioning of your uploaded contents. If you 
 
    After you add this content to a course, and when you preview the course as learner, you can see the captions on the video.
 
-   On the player, toggle the CC button on the fluidic player to display or hide the captions.
+   On the player, toggle the CC button on the Fluidic player to display or hide the captions.
 
    The same view is present in the **learner app** as well as in **Preview as learner**.
 
-   When you **add, update, or delete** the VTT file, you receive a notification.
+   When you **add, update, or delete** the vtt file, you receive a notification.
    WebVTT support is not available for:
 
    1. Video announcements.
-   1. Video played within the eLearning content. This is driven by the content.
+   1. Video played within the eLlearningcontent. This is driven by the content.
    1. Video uploaded in Social Learning.
    1. Video created in Learning Manager desktop app.
    1. Video content created using migration process.
    1. Video playback in mobile app in offline mode.
 
-1. In the **[!UICONTROL Duration]** field, you can optionally type the expected time a learner would spend in this module. The duration is in minutes.
-1. In the **[!UICONTROL Tags]** field, type the tags for the uploaded content so that your content becomes discoverable.
+1. In the Duration field, you can optionally enter the expected time a learner would spend in this module. The duration is in minutes.
+1. In the Content Tags field, enter the tags for the uploaded content so that your content becomes discoverable.
 
 ### Support for shared catalog
 
 If a seller account shares a catalog that contains the courses, and the courses contain the modules, audio or video with the subtitles, the courses must behave the same in the purchaser account.
 
-Module propagation should work correctly from seller to purchaser account. This may include - edit/delete/addition of the VTT file in the module.
+Module propagation should work correctly from Seller to Purchaser account. This may include - edit/delete/addition of the vtt file in the module.
 
-Once you have uploaded the content, you can see a notification by selecting the **Bell** icon on top-right hand corner of the page. Each time you modify a content and re-upload it, you get a notification. If you make the changes, only you get the notification, not other authors.
+Once you have uploaded the content, you can see a notification by clicking the Bell icon on top-right hand corner of the page. Each time you modify a content and re-upload it, you get a notification. If you make the changes, only you get the notification, not other authors.
 
-## Create a quiz {#createaquiz}
+## Create a quiz
 
-Create assessments within Adobe Learning Manager with the new quiz creation tool on the **[!UICONTROL Content Library]** page. The assessments created become part of the **Content Library** and can be added to a "public" folder for course reusability.
+Create assessments within Adobe Learning Manager with the new quiz creation tool on the Content Library page. The assessments created become part of the Content Library and can be added to a "public" folder for course reusability.
 
-1. Select **[!UICONTROL Content Library]** in the left panel.
+1. Select Content Library in the left panel.
 1. In the upper-right corner of the screen, select **Add > Quiz**.
-1. In the **[!UICONTROL Create Quiz]** page, type the quiz's name and description.
-1. In the **[!UICONTROL Quiz Content]** section, select **Add quiz question**.
-1. In the **[!UICONTROL Quiz question]** dialog, select the type of question. There are three types of questions:
+1. In the Create Quiz page, type the quiz's name and description.
+1. In the Quiz Content section, select **Add quiz question**.
+1. In the Quiz question dialog, select the type of question. There are three types of questions:
    * Multiple choice question
    * True or false
    * Fill in the blank
-1. Type the question and select the correct answer.
+1. Enter the question and select the correct answer.
 1. Set the points for the quiz.
 1. If you want the question to be answered correctly to pass the quiz, select the checkbox **Compulsorily to answer correctly to pass the quiz**.
 1. Select **Save and close**.
@@ -242,17 +235,17 @@ The quiz is added to the Content Library. Like any content in the Content Librar
 
 ## Add to folder {#add-folder}
 
-After an administrator creates the content folders, you, an author, can upload a content to a content folder, so that the content is only visible to you or a select group of authors in the account. You can also make the content public and make it visible to all authors in the account.
+After an Administrator creates the content folders, you, an author, can upload a content to a content folder, so that the content is only visible to you or a select group of authors in the account. You can also make the content public and make it visible to all authors in the account.
 
 **Example usage**
 
 For example, agencies want to maintain full control of the content and someone overlooking the content must have access to all content. At the same time, content creators in agencies must have access to their own content only, and in some cases, access to someone else's content.
 
-Content library with existing content (i.e. content uploaded before configuring Content folders) gets defined as **Public folder**. This folder cannot be retired or deleted. Content that is part of public folder is accessible to all types of authors. Once Content Folders are configured, standard authors and custom authors should select the folder where the content should be placed, while uploading new content.
+Content library with existing content (i.e. content uploaded before configuring Content folders) gets defined as **Public folder**. This folder cannot be retired or deleted. Content that is part of Public folder is accessible to all types of authors. Once Content Folders are configured, standard authors and custom authors should select the folder where the content should be placed, while uploading new content.
 
 >[!NOTE]
 >
->Public folder and private folders are mutually exclusive. This means that content **cannot** be associated with public folder and private folder at the same time. It can either be associated to Public folder, **or** it can be associated with one or more private folders at any point of time.
+>Public folder and private folders are mutually exclusive. This means that content **cannot** be associated with Public folder and private folder at the same time. It can either be associated to Public folder, **or** it can be associated with one or more private folders at any point of time.
 
 When you add a content, you can choose the folder where the content will reside. 
 
@@ -294,13 +287,13 @@ To move a public folder content to any private folder,
 
    *View all uploaded content*
 
-1. Choose the content that you'd like to move it to a folder. Then select **[!UICONTROL Actions]** > **[!UICONTROL Organize Content]** > **[!UICONTROL Move Content to Folder]**. 
+1. Choose the content that you'd like to move it to a folder. Then click **[!UICONTROL Actions]** > **[!UICONTROL Organize Content]** > **[!UICONTROL Move Content to Folder]**. 
 
    ![](assets/move-content-to-folder.png)
 
    *Move a selected content to folder*
 
-1. Choose the folder where you want to move the content to. Select **[!UICONTROL Move]**.
+1. Choose the folder where you want to move the content to. Click **[!UICONTROL Move]**.
 
 ## Copy content to folder {#copycontenttofolder}
 
@@ -326,14 +319,14 @@ Content can be unlinked from a specified folder **ONLY** if it is also associate
 
 ## Add content for different languages {#addcontentfordifferentlanguages}
 
-1. To add the content for different languages, select the **Add New Language** tab, and choose the required languages. Using this approach, you can add multi-lingual support for your content.
+1. To add the content for different languages, click the **Add New Language** tab, and choose the required languages. Using this approach, you can add multi-lingual support for your content.
 
    ![](assets/add-new-languagetab.png)
 
    *Add new language for a content*
 
 1. Repeat the content upload process for the new languages.
-1. If you want to remove a language, select the **[!UICONTROL Add New Language]** tab, and clear your selection.
+1. If you want to remove a language, click the Add New Language tab, and clear your selection.
 
    After you've made the changes, click Save. In the library, the new content now is available for consumption.
 
