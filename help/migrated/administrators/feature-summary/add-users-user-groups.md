@@ -9,15 +9,22 @@ exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
 
 Learn how to add users or user groups in Learning Manager application.
 
+
 <!--![](assets/user-mgmt-new.png)-->
 
 ## Manage user groups
 
-In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.
+>[!INFO]
+>
+>In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.<br><br>
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)
+
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
