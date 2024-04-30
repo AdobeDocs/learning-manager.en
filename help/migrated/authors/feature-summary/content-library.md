@@ -104,25 +104,25 @@ The table below shows the type of interactive and static file types that you can
 
 ## Add new content in the library {#addnewcontentinthelibrary}
 
-As mentioned in the previous section, you can add both interactive and static content in the library.
+**Authors** can add contents in ALM. There are two types of contents in ALM: **[!UICONTROL Content]** and **[!UICONTROL Quiz]**. To learn how to add contents see [Add static content](content-library.md#addstaticcontent) and [Create a quiz](content-library.md##createaquiz).
 
 ## Add static content {#addstaticcontent}
 
-1. Click Content Library on the left pane after you log in as Author and click Add.
+1. Select **[!UICONTROL Content Library]** on the left pane after you log in as **Author** and select **[!UICONTROL Add]**.
 
-   Alternatively, you can click Create Content from the Getting Started page.
+   Alternatively, you can select **[!UICONTROL Create Content]** from the **[!UICONTROL Getting Started]** page.
 
-1. In the Name field, specify a name for the content that you want to upload.
-1. In the Description field, enter the description for the content. Make sure that the description you want to enter is meaningful. The character limit is 400 characters.
-1. To add the content, Click Add Content File, and upload your resource file. When you add content for multiple languages, you cannot combine static and interactive content in a single group. Either all your content in all the locales should be static, or all the content should be interactive.
+1. In the **[!UICONTROL Name]** field, type a name for the content that you want to upload.
+1. In the **[!UICONTROL Description]** field, type the description for the content. Make sure that the description you want to enter is meaningful. The character limit is 400 characters.
+1. To add the content, select **[!UICONTROL Add Content File]**, and upload your resource file. When you add content for multiple languages, you cannot combine static and interactive content in a single group. Either all your content in all the locales should be static, or all the content should be interactive.
 
    If you want to replace the content, you can replace a static content with a different static content. The same applies to interactive content.
 
-1. In the Duration field, you can optionally enter the expected time a learner would spend in this module. The duration is in minutes.
+1. In the **[!UICONTROL Duration]** field, you can optionally type the expected time a learner would spend in this module. The duration is in minutes.
 
-   The learning time spent by the learner is calculated based on the duration specified if the learner has marked a course as complete. If learner consumes the content in the player, thenthe time spent in the player gets added to learning time spent. If the actual content time is less than the specified duration, nothing happens as the player always honors the content time for display.
+   The learning time spent by the learner is calculated based on the duration specified if the learner has marked a course as complete. If learner consumes the content in the player, then the time spent in the player gets added to learning time spent. If the actual content time is less than the specified duration, nothing happens as the player always honors the content time for display.
 
-1. In the Content Tags field, enter the tags for the uploaded content so that your content becomes discoverable.
+1. In the **[!UICONTROL Tags]** field, type the tags for the uploaded content so that your content becomes discoverable.
 
    An author can use these tags to search for the content while adding the content to the course.
 
@@ -132,21 +132,19 @@ The content library also maintains versioning of your uploaded contents. If you 
 
 ## Add interactive content {#addinteractivecontent}
 
-1. Click Content Library on the left pane after you log in as Author and click Add.
+1. Select **[!UICONTROL Content Library]** on the left pane after you log in as **Author** and select **[!UICONTROL Add]**.
 
-   Alternatively, you can click Create Content from the Getting Started page.
+   Alternatively, you can select **[!UICONTROL Create Content]** from the **[!UICONTROL Getting Started]** page.
 
-1. In the Name field, specify a name for the content that you want to upload.
-1. In the Description field, enter the description for the content. Make sure that the description you want to enter is meaningful. The character limit is 245 characters.
-1. To add the content, Click Add Content File, and upload your resource file. When you add content for multiple languages, you cannot combine static and interactive content in a single group. Either all your content in all the locales should be static, or all the content should be interactive.
+1. In the **[!UICONTROL Name]** field, type a name for the content that you want to upload.
+1. In the **[!UICONTROL Description]** field, type the description for the content. Make sure that the description you want to enter is meaningful. The character limit is 245 characters.
+1. To add the content, select **[!UICONTROL Add Content File]**, and upload your resource file. When you add content for multiple languages, you cannot combine static and interactive content in a single group. Either all your content in all the locales should be static, or all the content should be interactive.
 
 * [Supported file types](content-library.md#supported)
 
    The interactive content can be a SCORM, AICC, or a Captivate published project. The file must be a zip file.
 
    You can also add HTML content generated from Captivate, Presenter, or Presenter Video Express. 
-
-   [Supported file types](content-library.md#supported)
 
 1. Learning Manager supports captions for video content uploaded in Learning Manager. Now, authors can upload the file containing captions, along with the video file. 
 
@@ -156,11 +154,11 @@ The content library also maintains versioning of your uploaded contents. If you 
 
    Caption support is available for video content uploaded in Content library in Learning Manager. 
 
-   As an author, when you'll upload a video or audio content, you can also upload the .vtt file that contains the captions.
+   As an author, when you'll upload a video or audio content, you can also upload the VTT file that contains the captions.
 
    The subtitles then appear in the Fluidic Player. The captions are also compliant to [WCAG2.0 standards](https://www.w3.org/TR/WCAG20/). 
 
-   When you add a video content to the library, you can also add the vtt file, which **must** be a valid file.
+   When you add a video content to the library, you can also add the VTT file, which **must** be a valid file.
 
    ![](assets/webvtt.png)
 
@@ -186,14 +184,14 @@ The content library also maintains versioning of your uploaded contents. If you 
    WebVTT support is not available for:
 
    1. Video announcements.
-   1. Video played within the eLlearningcontent. This is driven by the content.
+   1. Video played within the eLearning content. This is driven by the content.
    1. Video uploaded in Social Learning.
    1. Video created in Learning Manager desktop app.
    1. Video content created using migration process.
    1. Video playback in mobile app in offline mode.
 
-1. In the Duration field, you can optionally enter the expected time a learner would spend in this module. The duration is in minutes.
-1. In the Content Tags field, enter the tags for the uploaded content so that your content becomes discoverable.
+1. In the **[!UICONTROL Duration]** field, you can optionally enter the expected time a learner would spend in this module. The duration is in minutes.
+1. In the **[!UICONTROL Tags]** field, enter the tags for the uploaded content so that your content becomes discoverable.
 
 ### Support for shared catalog
 
@@ -203,7 +201,7 @@ Module propagation should work correctly from Seller to Purchaser account. This 
 
 Once you have uploaded the content, you can see a notification by clicking the Bell icon on top-right hand corner of the page. Each time you modify a content and re-upload it, you get a notification. If you make the changes, only you get the notification, not other authors.
 
-## Create a quiz
+## Create a quiz {#createaquiz}
 
 Create assessments within Adobe Learning Manager with the new quiz creation tool on the Content Library page. The assessments created become part of the Content Library and can be added to a "public" folder for course reusability.
 
