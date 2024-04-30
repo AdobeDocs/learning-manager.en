@@ -383,7 +383,21 @@ In this release, there is a new, optional column, uniqueLoId, in the following m
 * course.csv
 * learning_program.csv
 
-The column, uniqueLoId, is not applicable to the Job Aid CSV.
+>[!NOTE]
+>
+>The **uniqueLoId** column is optional.
+
+
+If you perform a migration to update an existing course or Learning Plan or certification, the course or Learning Plan or certification with the **uniqueLOId**s get added to the Author app.
+
+While migrating, you must update the **uniqueLOId** values in the CSVs for course or Learning Plan or certification even though it's an optional column.
+
+If the **uniqueLoId** column is not added before performing the migration while updating the existing course or Learning Plan or certification having **uniqueLOId**s, then after migration the **uniqueLOId** values will be overridden with NULL values.
+
+>[!NOTE]
+>
+>The column, uniqueLoId, is not applicable to the Job Aid CSV.
+
 
 >[!IMPORTANT]
 >
