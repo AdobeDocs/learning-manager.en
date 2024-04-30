@@ -17,11 +17,6 @@ This training captures the basics of account-level settings.
 
 [![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PYPVPSZY&mv=display&mv2=display#/course/7476018)
 
->[!NOTE]
->
->This is a sample button <br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PYPVPSZY&mv=display&mv2=display#/course/7476018)</br>
-
-
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
