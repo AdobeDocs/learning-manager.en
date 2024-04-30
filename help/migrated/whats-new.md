@@ -396,7 +396,7 @@ If the **uniqueLoId** column is not added before performing the migration while 
 
 >[!NOTE]
 >
->The column, uniqueLoId, is not applicable to the Job Aid CSV.
+>The column, **uniqueLoId**, is not applicable to the Job Aid CSV.
 
 
 >[!IMPORTANT]
