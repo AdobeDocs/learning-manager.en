@@ -29,6 +29,19 @@ Authors can create Job Aids for learners. Use Job Aids to provide learners with 
 
    The Job Aid is published.
 
+## Add job aid in different languages {#addcontentfordifferentlanguages}
+
+1. To add the job aid in different languages, select the **Add New Language** tab, and choose the required languages. Using this approach, you can add multi-lingual support for your content.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Add new language for a content*
+
+1. Repeat the job aid upload process for the new languages.
+1. If you want to remove a language, select the Add New Language tab, and clear your selection.
+
+   After you've made the changes, select Save.
+
 ## Types of supported job aids {#typesofsupportedjobaids}
 
 The following are the file formats supported for job aids.
