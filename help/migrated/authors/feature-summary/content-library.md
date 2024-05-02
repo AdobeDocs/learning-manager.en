@@ -228,7 +228,20 @@ Create assessments within Adobe Learning Manager with the new quiz creation tool
 1. Add a logo and background to the quiz.
 1. On the upper-right corner of the page, select **Publish**.
 
-The quiz is added to the Content Library. Like any content in the Content Library, you can retire a quiz and then delete it.
+To add the quizzes in different language, follow the please steps:
+
+1. To add the quiz for different languages, select the **Add New Language** tab, and choose the required languages. Using this approach, you can add multi-lingual support for your content.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Add new language for a content*
+
+1. Repeat the content upload process for the new languages.
+1. If you want to remove a language, select the **[!UICONTROL Add New Language]** tab, and clear your selection.
+
+   After you've made the changes, click **[!UICONTROL Save]**. In the library, the new content now is available for consumption.
+
+The quiz is added to the **[!UICONTROL Content Library]**. Like any content in the Content Library, you can retire a quiz and then delete it.
 
 
 ## Add to folder {#add-folder}
@@ -424,6 +437,11 @@ To retire content, follow these steps:
 * Select Action > Retire.
 
 Any content that is being used in any learning objects do not get affected. Learners can still continue to access the content.
+
+>[!NOTE]
+>
+>You can also add content from the **[!UICONTROL Retired]** section, navigate to **[!UICONTROL Content Library]** > **[!UICONTROL Retired]** and select **[!UICONTROL Add Content]**. For more details, see [Add static content](content-library.md#addstaticcontent).
+
 
 ## Republish retired content {#republishretiredcontent}
 
