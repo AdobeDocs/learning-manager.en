@@ -529,8 +529,8 @@ The stemmed attribute mentions if stemming is required in search results. This i
 
 API Query parameters:
 
-matchType=phrase_and_match
-stemmed=true
+* matchType=phrase_and_match
+* stemmed=true
 
 ### Removal of V1 endpoints
 
