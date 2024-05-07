@@ -14,12 +14,10 @@ Learn how to add users or user groups in Learning Manager application.
 
 ## Manage user groups
 
-<!-- >[!INFO]
+>[!INFO]
 >
->In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694) -->
+>In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)</br></br>
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
@@ -47,7 +45,10 @@ As an Administrator, you can add users in three ways:
 
 Add internal learners to the Adobe Learning Manager using a single user option.
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QGMZPB2T&mv=display&mv2=display#/course/7555534)
+>[!INFO]
+>
+>In this training, you will learn how to add internal learners to the Adobe Learning Manager.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QGMZPB2T&mv=display&mv2=display#/course/7555534)</br></br>
+
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
@@ -159,9 +160,9 @@ On the list of users, choose a user, and click the user. On the user details, cl
 
 ### Manage user attributes
 
-In this training, you will learn how to add, customize, and configure Active Fields.
-
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=55KD8M1Z&mv=display&mv2=display#/course/7555741)
+>[!INFO]
+>
+>In this training, you will learn how to add, customize, and configure Active Fields.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=55KD8M1Z&mv=display&mv2=display#/course/7555741)</br></br>
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 

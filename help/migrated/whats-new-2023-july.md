@@ -525,7 +525,12 @@ Stemming is the process of reducing a word to its root form. This ensures varian
 
 In this release, we've added stemming for English locales, which includes the following variants - en_US, en_AU, en_GB. 
 
-The stemmed attribute mentions if stemming is required in search results. This is by default set to False
+The stemmed attribute mentions if stemming is required in search results. This is by default set to False.
+
+API Query parameters:
+
+* matchType=phrase_and_match
+* stemmed=true
 
 ### Removal of V1 endpoints
 
