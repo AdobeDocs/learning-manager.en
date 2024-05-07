@@ -6,7 +6,7 @@ exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
 ---
 # Job Aids
 
-Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
+**Job Aids** is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
 
 Job Aids can be consumed independently or along with course consumption in Learning Manager.
 
@@ -14,9 +14,9 @@ Authors can create Job Aids for learners. Use Job Aids to provide learners with 
 
 ## Create job aid {#createjobaid}
 
-1. In author login, click Job Aids at the left pane.
-1. Click Create at the upper-right corner of the page that appears.
-1. Provide the name, description, and tags. Choose the skills and associated levels. Select the content as private if you do not want the job aid to be accessed by any other authors for assigning to their respective courses.
+1. In author login, select **[!UICONTROL Job Aids]** at the left pane.
+1. Select **[!UICONTROL Create]** at the upper-right corner of the page that appears.
+1. Type the name, description, and tags. Choose the skills and associated levels. Select the content as private if you do not want the job aid to be accessed by any other authors for assigning to their respective courses.
 
    Only existing skills can be used for job aids. Skills are not mandatory.
 
@@ -38,7 +38,7 @@ Authors can create Job Aids for learners. Use Job Aids to provide learners with 
    *Add new language for a content*
 
 1. Repeat the job aid upload process for the new languages.
-1. If you want to remove a language, select the Add New Language tab, and clear your selection.
+1. If you want to remove a language, select the **[!UICONTROL Add New Language]** tab, and clear your selection.
 
    After you've made the changes, select Save.
 

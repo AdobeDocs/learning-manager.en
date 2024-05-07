@@ -17,9 +17,9 @@ View your profile information, add/change profile photo, and modify **About me**
 1. From the pop-up dialog, you can add/change a photo by hovering the mouse and by selecting **Edit** in the profile photo area.
 1. Add/modify **About me** content by clicking the text area below it.
 1. Modify the following settings:
-    * **Interface Language**: You can select ALM interface language from the dropdown menu
+    * **Interface Language**: You can select ALM interface language from the dropdown menu.
     * **Content Language**: You can select the default language in which the content will be shown in the player. You can view the available languages in the player. 
     * **Timezone**: Select your timezone
     * **[!UICONTROL Preferences]**: Clicking on module enrolls and launches the training.
-    * Transcript: You can download your learning transcripts.
+    * **Transcript**: You can download your learning transcripts.
 1. Click **[!UICONTROL Save]**.
