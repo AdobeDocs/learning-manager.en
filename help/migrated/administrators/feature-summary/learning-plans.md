@@ -30,7 +30,10 @@ To create a learning plan, you must log in as an Administrator.
 
 1. In the **[!UICONTROL Occurs when]** drop-down list, choose the required event. The options determine when a learner takes the course. After selecting the type of event, select the appropriate training, Courses, Learning Program or Certification.
 
-   **Note:** Both Administrators and Authors can create auto enrollment events.
+>[!NOTE]
+>
+> Both Administrators and Authors can create auto enrollment events.
+
 
    The events are:
 
@@ -44,9 +47,18 @@ To create a learning plan, you must log in as an Administrator.
 
    This Learning Plan is specifically designed for ***Custom- Groupe*** users. Type the name of the group in the field, and using type-ahead search, choose the group or groups.
 
-   **3 - Learner completes a learning object:** The event gets trigerred when a learner completes any learning object such as course, learning program, and so on. Select the learning object for which this event is applicable. Select the completion status for the event. Optionally, you can also choose the user group to which this learner belongs to. Enter the number of days, after completing the learning object, this event gets triggered. Select the option if you want to assign this event to existing users who already completed this learning object. 
+   **3 - Learner gets removed from a group:** The event gets triggered when a user or learner removed from a group. Enter and select the user group from dropdown list, to which this event is applicable. You can choose multiple groups. 
+
+   ![](assets/learner-removed-from-group.png)
+ 
+
+   **4 - Learner completes a Course/Learning Path/Certification:** The event gets triggered when a learner completes any learning object such as course, learning program, and so on. Select the learning object for which this event is applicable. Select the completion status for the event. Optionally, you can also choose the user group to which this learner belongs to. Enter the number of days, after completing the learning object, this event gets triggered. Select the option if you want to assign this event to existing users who already completed this learning object. 
 
    ![](assets/learner-completealearningobject.png)
+
+   **5 - Learner fails a Module of a Course:** The event gets triggered when a learner fails any learning object such as course, learning program, and so on. Select the learning object for which this event is applicable. You can also choose the user group to which this learner belongs to. 
+
+   ![](assets/learner-fails-module.png)
 
    **4 - Learner achieves a skill level:** Enter the skill name and select the skill level. You can also choose the user group to which this learner belongs to. It is optional. Enter the number of days, after achieving the skill, this event gets triggered. Select the option if you want to assign this event to existing learners who have already achieved this skill.
 
@@ -78,6 +90,8 @@ On the Admin app, click **[!UICONTROL Learning Plans]** > **[!UICONTROL Add]**.
 
 The next sections represent the triggers where the option **[!UICONTROL Unenroll from Training]** has been added.
 
+![](assets/unenroll-courses.png)
+
 ## Learner gets removed from a group {#learnergetsremovedfromagroup}
 
 1. Add one or more user groups. In case when multiple groups are selected, the plan is triggered when a learner gets removed from either of the mentioned group.
@@ -97,6 +111,14 @@ The next sections represent the triggers where the option **[!UICONTROL Unenroll
    1. The Instance and Completion Date will not be applicable in this case.
 
 ![](assets/image040.png)
+
+## Learner fails a module of a course
+
+1. Add one or more user groups. In case when multiple groups are selected, the plan is triggered when a learner fails the specified training. 
+1. Choose the action as **[!UICONTROL Unenroll from training]**.
+
+   1. The Admin can choose the trainings from which the user will be unenrolled when added to user group. 
+   1. The Instance and Completion Date will not be applicable in this case.
 
 ## Learner gets added to a group {#learnergetsaddedtoagroup}
 
@@ -128,7 +150,12 @@ The next sections represent the triggers where the option **[!UICONTROL Unenroll
 
 ## Edit a learning plan {#editalearningplan}
 
-After creating a learning plan, Administrator can edit/update the learning plan at any point in time. To Edit, click the name of the learning plan and modify the values in the **[!UICONTROL Edit Learning Plan]** pop-up dialog that appears. Click **[!UICONTROL Save]**. 
+After creating a learning plan, Administrator can edit/update the learning plan at any point in time. To Edit, select the name of the learning plan and modify the values in the **[!UICONTROL Edit Learning Plan]** pop-up dialog that appears.  Select **[!UICONTROL Save]**. 
+
+>[!NOTE]
+>
+>You can not modify the **[!UICONTROL Occurs when]** option in the **[!UICONTROL Edit Learning Plan]** pop-up.
+
 
 ## Enable a learning plan {#enablealearningplan}
 

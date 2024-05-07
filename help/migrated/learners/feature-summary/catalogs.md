@@ -15,7 +15,7 @@ Learners can view all the assigned and eligible learning objects (learning progr
 
 You can filter the list of learning objects by using skills and type of the learning objects (self-paced, blended, classroom, virtual classroom, activity) . You can also filter using the options in the left pane: by Learning Objects, by skills, and by completion status.
 
-Use the search bar on top of the page to enter the names of your familiar learning objects.
+Use the search bar on top of the page to enter the names of your familiar learning objects. Learners can switch between the grid and the list view by selecting this ![](assets/icon-list.png) icon. 
 
 ![](assets/catalogs.png)
 *View catalogs*
