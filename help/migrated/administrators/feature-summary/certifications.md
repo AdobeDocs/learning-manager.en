@@ -96,6 +96,10 @@ As an Admin, you can create a certification program either hosted internally or 
  </tbody>
 </table>
 
+Select the products, roles and roles level from the **[!UICONTROL Recommend for]** section to suggest this learning path to the users who have expressed interest in those products and roles. 
+
+![](assets/recommend-for.png)
+
 Choose the courses to be added to the certification from **[!UICONTROL Courses]** > **[!UICONTROL Catalog]** tab.
 
 Hover the mouse on each course tile, click + to add them to the certification. Click **[!UICONTROL Preview]** to view the course as learner before adding it.
@@ -158,6 +162,8 @@ A certification can be edited by an Administrator at a published state. At this 
 To edit a published certification, click the certification card and click **[!UICONTROL Edit]** at the upper-right corner of the page. 
 
 While editing the sections of a certification, if you have to move out of the page, you need to re-publish the certification. You get a dialog confirmation asking you to re-publish the certification.
+
+![](assets/edit-a-certificate.png)
 
 ## Subscription {#subscription}
 
