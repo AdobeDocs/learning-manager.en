@@ -11,7 +11,7 @@ Gamification is the use of game thinking and game mechanics in non-game contexts
 
 ## Overview {#overview}
 
-Learning Manager allows you to apply a structural gamification layer to the content to engage learners and motivate them to achieve their learning goals. It allows the learners to score points for various learning activities and achieve bronze, silver, gold and platinum levels.
+The Adobe Learning Manager includes a feature called Gamification, which is designed to engage learners and promote learning through interactive gaming elements. It encourages desired learner behaviors through rewards and allows learners to earn points and compete against their peers. This feature enhances user engagement and motivation within the learning platform.
 
 By default, some sample gamification points and data is available for users to understand the pattern. You can modify the points accordingly.
 
@@ -26,57 +26,6 @@ To access the settings, follow the steps below:
 1. Log in as an Administrator and on the left pane, click **[!UICONTROL Gamification]**.
 1. When you create a new Learning Manager account, gamification is disabled by default. To enable it, click **[!UICONTROL Enable]** on the upper- right corner of the page.
 
-## Administrator actions {#administratoractions}
-
-Administrator can create a list of confidential users, reset gamification points, and disable/enable gamification feature for learners. Click the Actions drop-down list at the upper-right corner of the page to view the actions as shown in the below snapshot.
-
-![](assets/gamification-actions.png)
-
-*Gamification options for an Admin*
-
-## Confidentiality settings {#confidentialitysettings}
-
-If required, you can make some higher management users as confidential users. Confidential user's gamification activities are not visible to other learners in the leaderboard.
-
-Confidentiality settings can be applied for both internal and external users.
-
-1. Click **[!UICONTROL Gamification]** > **[!UICONTROL Settings]** > **[!UICONTROL Confidentiality Settings]**.
-
-![](assets/confidentiality-settings.png)
-
-*View confidentiality settings*
-
-1. From the listed users, click the check-box against user name and click Hide to make the user as confidential user.
-
-   >[!NOTE]
-   >
-   >You can identify the confidential users in the listed users by the tick mark in check box against the user name.
-
-1. Click Confidential Users tab to view the list of confidential users. By default, they are not visible. Click the drop-down arrow icon to view the list.
-1. Click the check box against the user name in the confidential users list and click Add to remove the users from the confidential list.
-
-## Reset gamification {#resetgamification}
-
-You can reset the gamification points earned by learner and also reset the configuration settings. If you choose to reset user scores, all the points earned by users are erased and reset to zero. If you choose to reset user scores and configuration settings, then all the default points assigned to levels and tasks are reset to zero.
-
-Reset gamification settings can be applied for both internal and external users.
-
-To reset learner score and configuration, click Reset Gamification and choose an option as per your requirement. You can choose between Reset Learner Scores only and Reset Learner Scores & the Configuration Settings. Once selected, click OK.
-
-![](assets/reset-gamification.png)
-
-*Reset the gamification points*
-
-## Disable gamification {#disablegamification}
-
-Click [!UICONTROL **Gamification**] > **[!UICONTROL Settings]** > [!UICONTROL **Gamification Feature**]. This allows you to enable the gamification feature and the leaderboard separately for your Learners. Select between Enable for Internal Learners and Enable for External Learners as per the requirement and click OK. All the points are retained when you enable the gamification again.
-
-![](assets/gamification-feature.png)
-
-*Disable gamification*
-
-You can disable gamification for both internal and external users.
-
 ## Set up points {#setuppoints}
 
 Administrators can set up gamification points for learners by following the steps below:
@@ -86,6 +35,8 @@ Administrators can set up gamification points for learners by following the step
 1. Click Edit icon adjacent to each task to set up the points.
 1. Modify the frequency of occurrence for tasks such as completing a specific number of courses per month or quarter or a year.
 1. Click **[!UICONTROL Save]**.
+
+![](assets/set-up-points.png)
 
 ## Tasks {#tasks}
 
@@ -171,9 +122,16 @@ Possible scenarios for upskill in levels within a particular competency:
 >
 >Time period is not applicable for this task. If learners achieve higher level and then achieve lower level of a competency, then they gain points only for the higher level.
 
+**For Reference**
+
+This task is applicable for learners who refer back to their completed course within N days of completion.
+
+Possible scenario:
+When a learner refers to the completed course within 30 days of completion, he or she receives 50 points.
+
 **Early completion points**
 
-This task is applicable for learners when they become first N learners to complete the course.
+This task is applicable for learners when they referring back to bookmarked course within N days to complete the course.
 
 Possible scenario:  
 When a learner becomes one of the first 10 learners to complete the course he/she gets 100 points.
@@ -184,6 +142,87 @@ This task is applicable for learners when they complete a course within a stipul
 
 Possible scenario:  
 When learners complete a course within 10 days of course commencement, they get 100 points.
+
+**Comprehensive Learner**
+
+This task is applicable for learners who consume optional learning material like pre work, resources, and job aids per month.
+
+Possible scenarios:
+
+1. When learners completes one learning(s) per month, he/she gets 20 points.
+1. When learners completes two learning(s) per month, he/she gets 40 points.
+1. When learners completes three learning(s) per month, he/she gets 80 points.
+
+**Consistent Learning**
+
+This task is applicable for learners who engage in learning activities for a specific number of days per week, month, or quarter. Activities include using learning content, downloading resources and job aids.
+
+Possible scenarios:
+
+1. When learners engage in learning activities for one day every week, they get 20 points. 
+1. When learners engage in learning activities for two day every week, they get 40 points. 
+1. When learners engage in learning activities for one day every week, they get 80 points. 
+
+**Feedback**
+
+This is applicable for learners who provide feedback on courses.
+
+Possible scenarios:
+
+1. For start rating feedback, they get 20 points.
+1. For reaction feedback, they get 20 points.
+1. For manager feedback, they get 20 points.
+
+## Administrator actions {#administratoractions}
+
+Administrator can create a list of confidential users, reset gamification points, and disable/enable gamification feature for learners. Select the **[!UICONTROL Settings]** on the gamification page to view the actions as shown in the below snapshot.
+
+![](assets/gamification-actions.png)
+
+*Gamification options for an Admin*
+
+## Confidentiality settings {#confidentialitysettings}
+
+If required, you can make some higher management users as confidential users. Confidential user's gamification activities are not visible to other learners in the leaderboard.
+
+Confidentiality settings can be applied for both internal and external users.
+
+1. Click **[!UICONTROL Gamification]** > **[!UICONTROL Settings]** > **[!UICONTROL Confidentiality Settings]**.
+
+![](assets/confidentiality-settings.png)
+
+*View confidentiality settings*
+
+1. From the listed users, click the check-box against user name and click Hide to make the user as confidential user.
+
+   >[!NOTE]
+   >
+   >You can identify the confidential users in the listed users by the tick mark in check box against the user name.
+
+1. Click Confidential Users tab to view the list of confidential users. By default, they are not visible. Click the drop-down arrow icon to view the list.
+1. Click the check box against the user name in the confidential users list and click Add to remove the users from the confidential list.
+
+## Reset gamification {#resetgamification}
+
+You can reset the gamification points earned by learner and also reset the configuration settings. If you choose to reset user scores, all the points earned by users are erased and reset to zero. If you choose to reset user scores and configuration settings, then all the default points assigned to levels and tasks are reset to zero.
+
+Reset gamification settings can be applied for both internal and external users.
+
+To reset learner score and configuration, click Reset Gamification and choose an option as per your requirement. You can choose between Reset Learner Scores only and Reset Learner Scores & the Configuration Settings. Once selected, click OK.
+
+![](assets/reset-gamification.png)
+
+*Reset the gamification points*
+
+## Disable gamification {#disablegamification}
+
+Click [!UICONTROL **Gamification**] > **[!UICONTROL Settings]** > [!UICONTROL **Gamification Feature**]. This allows you to enable the gamification feature and the leaderboard separately for your Learners. Select between Enable for Internal Learners and Enable for External Learners as per the requirement and click OK. All the points are retained when you enable the gamification again.
+
+![](assets/gamification-feature.png)
+
+*Disable gamification*
+
+You can disable gamification for both internal and external users.
 
 ## Group level gamification {#grouplevelgamification}
 

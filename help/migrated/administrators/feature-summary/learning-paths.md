@@ -51,6 +51,10 @@ You can add skills and assign a badge to the Learning Path. To add a skill, sele
 
 Assign a badge to the Learning Path. Pick a badge from the list of available badges.
 
+Select the products, roles and roles level from the **[!UICONTROL Recommend for]** section to suggest this learning path to the users who have expressed interest in those products and roles. 
+
+![](assets/recommend-for.png)
+
 Choose the sequencing type for the sections and training as Ordered or Unordered based on your preference.
 
 If you choose Ordered, the courses appear in the same sequence as you created them. If you choose Unordered, the courses are not sequenced. Learners can complete the courses in any order.
