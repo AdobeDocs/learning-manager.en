@@ -11,7 +11,7 @@ The Integration admin can add number of custom roles to his/her account in bulk 
 
 You can configure roles via the Learning Manager FTP and Box connectors.
 
-After you sign in to your Box or ExaVault storage account, the Integration admin can add the following csvs in the account:
+After you sign in to your Box storage account, the Integration admin can add the following csvs in the account:
 
 * role.csv
 * user_role.csv
@@ -19,7 +19,8 @@ After you sign in to your Box or ExaVault storage account, the Integration admin
 To get started, download the csvs and change the values according to your requirements.
 
 **role.csv**
-[Sample file- role.csv](assets/role.csv) [Sample file- user_role.csv](assets/user-role.csv)
+* Sample file: [role.csv](assets/role.csv) 
+* Sample file: [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
@@ -136,7 +137,7 @@ If any Catalog Names or User Group names are provided in the CSV, they are overr
 * Learning Plans
 * Email Templates
 
-## Add the role-CSVs in the account {#addtherolecsvsintheaccount}
+## Add the role CSVs in the account {#addtherolecsvsintheaccount}
 
 In your Box account, choose **Import > user > internal**, and upload the files- role.csv and user_role.csv.
 
