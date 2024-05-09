@@ -17,107 +17,17 @@ Reports generation process is similar for both Administrator and Manager. Manage
 
 Reports are aggregated in a dashboard. A report has to exist inside a dashboard. A **[!UICONTROL Default Dashboard]** exists by default in the reports page. Any report added by you moves into this default dashboard. To add reports to individual dashboards, use the drop-down arrow and choose **[!UICONTROL Add Report]**. For more information on creating dashboards, refer to Dashboards section on this page.
 
-## Learning Summary dashboards {#dashboards}
+## Types of reports {#typesofreports}
 
-### Generate Dashboard Reports
+Adobe Learning Manager supports four major types of reports such as completion, time spent, skills, and effectiveness. You can use the following report types to generate reports of 300+ variations:
 
-In this training, you will learn how to generate dashboard reports from the database.
-
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=R3B5NPDN&mv=display&mv2=display#/course/8318854)
-
-If you're unable to launch the training, write to <almacademy@adobe.com>.
-
-See a summary report of all the learning activities in the platform. On this page, you can see the following summary information for the selected root user's team and external profiles. Time range can also be selected:
-
-* Learning Summary in form of Enrollments, Views, and Completions
-* Top skills
-* Compliance summary 
-
-![](assets/summary-charts.png)
-*Summary charts*
-
-If there are internal root level managers, they will be displayed one after another. 
-
-All external profiles will be listed after internal profiles (Internal root level users).
-
-If an external profile has a manager, then the manager hierarchy will be displayed in the **[!UICONTROL Showing Data For]** drop-down list. User will be listed in manager hierarchy in all the details page (Learning summary, compliance, and skill status)
-
-If not, then all individual user details will be displayed in the list.
-
-To see more granular details of enrollments of various internal teams, click **[!UICONTROL Learning Summary Details]**.
-
-![](assets/learning-sunnarydetails.png)
-*Learning Summary details*
-
-When you click any enrollment, you can see the learners for each manager, and enrollment to which Learning Objects. You can also see the progression and completion details of each learner. 
-
-![](assets/learners-for-a-manager.png)
-*learners assigned to a manager*
-
-Click any team and export its report as a csv. An Admin can export the report for any of the User Group or individual user by selecting the User Group or individual user, and then export details from the **[!UICONTROL Action]** drop-down list.
-
-Also, you can see a bar chart view of skills that are in progress and have been achieved. You can add/remove skills that you want to feature in the graph.
-
-![](assets/skill-status-stackedbarchart.png)
-*Skill status stacked bar chart*
-
-In the final visualization, you can check the compliance status of learners, and take appropriate action.
-
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
-
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
-
-Now an Admin can click on any training and quickly view the compliance for the selected training.
-
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
-
-You can also see the compliance status for each internal team.
-
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
-
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
-
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
-
-## Share training with managers
-
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
-
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
-
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
-
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
-
-### Share training
-
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
-
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
-
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
-
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
-
-   ![](assets/select-training.png)
-   *Select training to share with managers*
-
-1. Click **[!UICONTROL Share]**.
-
-The training is now shared with the specified manager.
-
-### View training
-
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
-
-### Withdraw training
-
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
-
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.
+* Course delivery statistics for learners
+* Effectiveness of courses report
+* Learner skill-based report
+* Learning program enrollment statistics for learners
+* Learning time spent by learners
+* Learner count
+* Certification completion
 
 ## User Activity dashboards {#useractivitydashboards}
 
@@ -131,7 +41,7 @@ The user activity dashboard displays the activity of users in the account. The t
 
 * **Learning Time Spent Report:** This report provides information about the Learning Time Spent in the platform on a day to day basis. Monthly report is also available.
 
-## Registered Users {#registeredusers}
+### Registered Users {#registeredusers}
 
 Learning Manager records the number of users registered in the system every week. Administrators can view this report to understand the registered count of users on that day of the week. Registered count once stored for a week does not change. Hence historical registered count is not related to the current set of learners in the system. 
 
@@ -150,18 +60,18 @@ This report shows the count of learner active in the learning platform each mont
 
 The monthly active count once counted and stored for a month, does not change. Hence the historical count displayed is not related to the current set of learners in the system.
 
-## User Visits {#uservisits}
+### User Visits {#uservisits}
 
-This report shows the total learners accessing the system in a day or month period. Browsing the learning platform without consuming any learning is also considered as 'accessing' the learning platform. This helps the Administrator understand the total set of users accessing the system. On the first of the month, Learning Manager creates a record of total users accessing the platform for the previous month. It also captures the usergroup information for these users.
+This report shows the total learners accessing the system in a day or month period. Browsing the learning platform without consuming any learning is also considered as 'accessing' the learning platform. This helps the Administrator understand the total set of users accessing the system. On the first of the month, Learning Manager creates a record of total users accessing the platform for the previous month. It also captures the user group information for these users.
 
-Only those usergroups configured by the Administrator are recorded. This allows the Administrators to apply filter on usergroups for historical monthly data as well. Note that incase usergroups configuration is modified and Learning Manager has not recorded data for this usergroup in earlier months, then Learning Manager cannot display the data for this newly configured usergroups for previous months. 
+Only those user groups configured by the Administrator are recorded. This allows the Administrators to apply filter on user groups for historical monthly data as well. Note that incase user groups configuration is modified and Learning Manager has not recorded data for this user group in earlier months, then Learning Manager cannot display the data for this newly configured user groups for previous months. 
 
 This report contains users accessing the platform using all formats like web, mobile app, headless custom solutions, and so on. The device app usage graph specifically mentions only the users accessing the platform using Learning Manager's device app. This helps Administrators identify the usage of mobile app in their account. 
 
 ![](assets/user-visit-report.png)
 *User Visit report*
 
-## Learning Time Spent Report {#learningtimespentreport}
+### Learning Time Spent Report {#learningtimespentreport}
 
 Here, you can see a dual-axis line charts that show total learning time spent for all learners across a 12-month period. The second axis represent the median time spent in learning for an individual.
 
@@ -188,14 +98,14 @@ The selected date and user group filter is applied to all the relevant graphs in
 
 The Training content dashboard offers insights into trainings available on the platform. You can view popular trainings or track all available trainings. 
 
-## Trainings Report {#trainingsreport}
+### Trainings Report {#trainingsreport}
 
 This report provides information of the total trainings available in the platform (in published state) month over month. It gives an indication of the number of trainings offered over time. 
 
 ![](assets/training-report.png)
 *Training report*
 
-## Active Trainings Report {#activetrainingsreport}
+### Active Trainings Report {#activetrainingsreport}
 
 This report provides information of the trainings which are active over the selected time range. Active trainings are trainings which are enrolled, viewed in player, or completed in the given time.
 
@@ -269,17 +179,622 @@ The training report has two additional columns:
 >
 >For both the reports (Training Content, User Activity), you can configure a maximum 10 user groups. It may take upto 24 hours for the processing to complete and make the newly configured filters available.
 
-## Dashboard Reports {#dashboardreports}
+## Learning Summary dashboards {#dashboards}
 
-A dashboard is a collection of reports. Reports can be grouped into a dashboard as per your choice.
+### Generate Dashboard Reports
 
-## Sample Reports {#samplereports}
+>[!INFO]
+>
+>In this training, you will learn how to generate dashboard reports from the database.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=R3B5NPDN&mv=display&mv2=display#/course/8318854)</br></br>
+
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
+See a summary report of all the learning activities in the platform. On this page, you can see the following summary information for the selected root user's team and external profiles. Time range can also be selected:
+
+* Learning Summary in form of Enrollments, Views, and Completions
+* Top skills
+* Compliance summary 
+
+![](assets/summary-charts.png)
+*Summary charts*
+
+If there are internal root level managers, they will be displayed one after another. 
+
+All external profiles will be listed after internal profiles (Internal root level users).
+
+If an external profile has a manager, then the manager hierarchy will be displayed in the **[!UICONTROL Showing Data For]** drop-down list. User will be listed in manager hierarchy in all the details page (Learning summary, compliance, and skill status)
+
+If not, then all individual user details will be displayed in the list.
+
+To see more granular details of enrollments of various internal teams, click **[!UICONTROL Learning Summary Details]**.
+
+![](assets/learning-sunnarydetails.png)
+*Learning Summary details*
+
+When you click any enrollment, you can see the learners for each manager, and enrollment to which Learning Objects. You can also see the progression and completion details of each learner. 
+
+![](assets/learners-for-a-manager.png)
+*learners assigned to a manager*
+
+Click any team and export its report as a csv. An Admin can export the report for any of the User Group or individual user by selecting the User Group or individual user, and then export details from the **[!UICONTROL Action]** drop-down list.
+
+Also, you can see a bar chart view of skills that are in progress and have been achieved. You can add/remove skills that you want to feature in the graph.
+
+![](assets/skill-status-stackedbarchart.png)
+*Skill status stacked bar chart*
+
+In the final visualization, you can check the compliance status of learners, and take appropriate action.
+
+Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+
+For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+
+Now an Admin can click on any training and quickly view the compliance for the selected training.
+
+![](assets/compliance-dashboard.png)
+*View Compliance dashboard*
+
+You can also see the compliance status for each internal team.
+
+Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+
+You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+
+![](assets/compliance-statusofateam.png)
+*Compliance status of a team*
+
+### Share training with managers
+
+Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+
+In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+
+An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+
+The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+
+### Share training
+
+1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+
+   ![](assets/share-with-managers.png)
+   *Share training with managers*
+
+1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+
+1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+
+   ![](assets/select-training.png)
+   *Select training to share with managers*
+
+1. Click **[!UICONTROL Share]**.
+
+The training is now shared with the specified manager.
+
+### View training
+
+In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+
+### Withdraw training
+
+1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+
+1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.
+
+## Custom reports
+
+Admins can generate specific reports using the custom template available in the **[!UICONTROL Reports]** section.
+
+### Sample reports {#samplereports}
 
 The **[!UICONTROL Sample Reports]** tab to show some indicative reports which are based on sample data points. Explore these reports to get an idea of different types of feature-rich reports that you can generate using your account data.
 
-## Dashboard Reports {#DashboardReports-1}
+### Dashboard reports {#dashboardreports}
 
-To view all the boards that you created, click this board tab. From the **[!UICONTROL View Dashboard]** drop-down list, you can select the default board or a dashboard you created.
+A dashboard is a collection of reports. Reports can be grouped into a dashboard as per your choice. To view all the boards that you created, click this board tab. From the **[!UICONTROL View Dashboard]** drop-down list, you can select the default board or a dashboard you created.
+
+### Excel Reports {#excelreports}
+
+The **[!UICONTROL Excel Reports]** tab allows you to export reports in XLS file format.
+
+The following are the report types available for download.
+
+* Course Reports
+* Learner Transcripts
+* Announcements Report
+* Job Aids Report
+* Content Audit Trail
+* User Audit Trail
+* Login/ Access Report
+* Gamification Transcripts
+* Gamification Audit Trail
+
+### Learner transcripts {#learnertranscripts}
+
+The Learner Transcripts in Excel reports displays the columns Credits Required and Credits Earned in decimal numbers.
+
+### Course Reports {#coursereports}
+
+As an administrator, you can download reports for courses. Follow these steps:
+
+1. Open **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Course Reports]**.
+1. The **[!UICONTROL Course Report]** dialogue appears. Select the course you want to fetch the report of and click **[!UICONTROL Show]**.
+
+   ![](assets/course-reports.png)
+   *Course reports*
+
+1. You are redirected to the course page. You can export quiz score by user and by question based on each enrollment by choosing the specific enrollment type.
+1. Select **[!UICONTROL Export Quiz Score]** to export the report. A **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL OK]** to confirm.
+
+   ![](assets/generating-reportrequest.png)
+   *Generating Report Request*
+
+   >[!NOTE]
+   >
+   >Exported quiz score report will contain the score details for every attempt if the multi attempt option is configured for the module.
+
+### Learner Transcripts {#LearnerTranscripts-1}
+
+Adobe Learning Manager enables the administrators of an organization to generate the transcripts associated with learners. The Learner Transcript report carries the following:
+
+1. Learner Transcript: Learning Activity Dashboard
+1. Skill: Skill Dashboard
+1. Compliance Dashboard
+
+The Learner Transcripts in Excel reports displays the columns Credits Required and Credits Earned in decimal numbers.
+
+For information on generating Learner Transcript reports and more information, see [Learner Transcripts](learner-transcripts.md).
+
+### Announcements Reports {#announcementsreports}
+
+As an administrator, you can generate a report of all the announcements that you send. The report has details regarding:
+
+* Announcement type
+* Announcement name
+* Announcement date
+* State of the announcement
+* Learner name
+
+To download a report, follow any one of these steps:
+
+1. Open **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**. The **[!UICONTROL Generating Report Request]** dialogue box opens. Click Ok.
+1. [!UICONTROL **Announcements**] > [!UICONTROL **Actions**] > [!UICONTROL **Export Report**].
+
+   ![](assets/announcements.png)
+   *Announcements report*
+
+1. You can extract a report for a specific announcement by clicking **[!UICONTROL Export Report]** under the settings icon.
+
+   ![](assets/announcements-specific-report.png)
+   *Report for specific announcements*
+
+### Job Aids Report {#jobaidsreport}
+
+Job Aids are training content that a Learner can access without having to enroll for any specific learning object like a Course or Learning Program. Administrators can extract and download Job Aids report.
+
+The extracted report includes information about the following:
+
+* Name
+* Type of Job Aid
+* State of Job Aid (published or withdrawn)
+* Enrollment date
+* Date of completion
+* Download date
+* Learner name 
+* Manager name
+* Created by
+
+To download a report, do one of the following:
+
+* Open  **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. The **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL Ok]**.
+* Open **[!UICONTROL Job Aid]** > **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**.
+
+![](assets/job-aids.png)
+*Job Aids report*
+
+* You can also extract a report for a specific Job Aid by clicking **[!UICONTROL Export Report]** under the settings icon.
+
+![](assets/job-aid-specific-download.png)
+*Report for specific Job Aid*
+
+### Job Aids Report
+
+After you select **[!UICONTROL Job Aids Report]** on the list, you see two options:
+
+![job aids report](assets/job-aids-new.png)
+*Download Job Aids USer Enrollment Report*
+
+**All Job Aids**: If the number of job aids in the account is fewer than 10 million, the generated report will contain enrollment information of all job aids. This will be the default selection. If the number of rows exceeds 10 million, an error will display, and you must select the required job aids manually.
+
+**Selected Job Aids**: If you select this option, you can enter the job aids for which you want to generate the report. You can select at most 10 job aids. Adobe Learning Manager checks if the number of job aids exceeds 10 million.
+
+![job aids report enroll](assets/job-aids-2-new.png)
+*Select a Job Aid*
+
+**Job Aids Report**
+
+If you select this option, the details of all the job aids present in the system along with their metadata and training are downloaded.
+
+The downloaded report consists of the following fields:
+
+* Job Aid Name
+* Language(s)
+* ID
+* Type
+* Duration (minutes)
+* State
+* Date Published (UTC TimeZone)
+* Created By Name
+* Created By Email
+* Created By User Unique ID
+* Catalog(s)
+* Learning Path(s)
+* Course(s)
+* Tag(s)
+* Skill(s)
+
+**Job Aids User Enrollment Report**
+
+The enrollment report contains details about user enrollment and other information.
+
+The downloaded report consists of the following fields: 
+
+* Job Aid Name
+* Type
+* State
+* Date Enrolled (UTC timezone)
+* Date Completed (UTC timezone)
+* Download Date (UTC timezone)
+* Learner Name
+* Email
+* User Unique ID
+* Manager Name
+* Manager Email
+* Manager User Unique ID
+* Assigned by name
+* Assigned by Email
+* Assigned by User Unique ID
+* Created by name
+* Created by Email
+* Created by User Unique ID
+* Job Code
+* New Field
+* Profile
+
+### Content audit trail reports {#contentaudittrailreports}
+
+Use the **[!UICONTROL Content Audit Trail]** report generator to generate a report of all the changes and edits made to a course during its life in the system. The generated report has the following information fetched.
+
+* Object id
+* Object name
+* Object type
+* Modification type
+* Description
+* Referenced object ID  
+* Referenced object name  
+* Modified by user name  
+* Modified by user ID  
+* Modified date (UTC Timezone)
+
+Information regarding metadata is not fetched in the generated report.
+
+To generate a Course trail audit report, follow these steps.
+
+1. Select **[!UICONTROL Report]** > **[!UICONTROL Excel reports]** > **[!UICONTROL Course Audit Trail]**. The **[!UICONTROL Content Audit Trail]** dialog box appears.
+
+   ![](assets/course-audit-trial.png)
+   *Course audit trail*
+
+1. Select the course, learning program and certification that you want to download the report of. If not specified, all reports are downloaded by default.
+1. Select a date range for the report and click **[!UICONTROL Generate]**.
+1. The report is generated and you are notified that the content audit report is ready. You can download the report.
+
+### User audit trail reports {#useraudittrailreports}
+
+User audit trail captures the life cycle of users, user groups, and self-registration profiles. User addition, deletion, change in Manager, are all captured. Creation and deletion of self-registration profiles are recorded. You can also pause and resume self-registration.
+
+You can Add, Enable, Disable, Pause, or Resume for External profiles while you can Add, Delete, Pause, or Resume for self-registration. CSV uploads are also captured.
+
+1. Select  **[!UICONTROL Report > Excel report > User Trail]**. The User Audit Trail dialog box appears.
+1. The User Audit Trail dialog box appears. Select the date range from the pop-up menu. You can either choose to generate report for last one week, last one month, or select custom date.
+
+   ![](assets/user-audit-trail.png)
+   *User audit trail*
+
+1. Click **[!UICONTROL Generate]** to generate the report.
+
+There are two filters on the **[!UICONTROL User Audit Trail Report]** dialog.
+
+**Date rage filter:** Choose the date range for which you want to generate the report. There are three options:
+
+* Last One week  
+* Last One Month  
+* Custom date
+
+Select Learners filter:  Search for a user or a user group.
+
+The exported report will contain data of the users who meet both the search criteria specified.
+
+![](assets/user-audit-trail.png)
+*User audit trail*
+
+>[!NOTE]
+>
+>When a skill is assigned or removed, the skill can be tracked for the User Audit Report for both assigned or removed.
+
+### Extension Configuration Report
+
+This report provides information on the configuration details of all added native extensions, including their activation state. Learn how to download extension report, see [Download extension report](native-extensibility.md#download-extension-report).
+
+### xAPI Activity Report
+
+This reports provides the data of all the xAPI statements recorded and generated during xAPI activity modules.
+
+To download this report, follow these steps:
+
+1. Select  **[!UICONTROL Report > Excel report > xAPI Activity Report ]**. The xAPI Activity Report dialog box appears.
+1. Select the date range from the pop-up menu. You can either choose to generate report for last one week, last one month, or select custom date.
+1. Select the learners and activity from the dropdown menu. 
+1. Select **[!UICONTROL Generate]** to generate the report.
+
+### Gamification reports {#gamification}
+
+Administrators can download gamification transcript in CSV format. You can either download the report for individual user or user groups. User name, user email, User's UUID, total user points scored,  breakup of points collected, name of groups the user plays in, name of the manager, and active field values are all fetched in the report. Administrators can use this report to evaluate and understand user rankings at the organization level or for a specific group.
+
+1. Select Report > Excel report > Gamification report.
+
+   ![](assets/gamification.png)
+   *Gamification report*
+
+1. The Gamification Transcripts dialog box appears. Select learners using their Name, Profile, User Groups, Email Id, or UUID.
+
+   ![](assets/gamification-transcriptsdialog.png)
+   *Gamification transcripts dialog*
+
+1. Click  **[!UICONTROL Generate]** to generate the report.
+
+   After you generate the report of a learner, you must be able to export the current and achieved-level information for all the users (internal, external, or deleted) in the account. You can also check the dates for the levels achieved by a learner:
+
+   * Bronze Achieved Date
+   * Silver Achieved Date
+   * Gold Achieved Date
+   * Platinum Achieved Date
+
+   These columns contain the dates on which the level was achieved at the very first time. The column **[!UICONTROL Current Level]** displays the current level of the learner. 
+
+   When the Admin resets the gamification, all points of the learner get reset accordingly.
+
+### Gamification Audit Trail report {#gamification-audit-trail}
+
+   This report contains the history and reasons for Learners' gamification points earned for each rule.
+
+### Download the report
+
+   1. Select the Gamification Audit Trail URL.
+   1. On the **Gamification Audit Trail** pop-up, select the date range.
+   1. Select **Generate**.
+
+The report is downloaded as a CSV file. The file contains the following columns:
+
+* Name
+* Email/ UUID, 
+* Status
+* Action 
+* Points, 
+* Balance Points    
+* Rule/ Task
+* Rule/ Task Subtask, 
+* Rule/ Task Details    
+* Type, 
+* Name, 
+* Instance NameDate Achieved (UTC Timezone)
+* Rule/ Task Start Time
+* Rule/ Task End Time
+
+### Enrollment and Unenrollment report {#enrollmentandunenrollmentreport}
+
+Administrators and managers can extract a report of the learners who have been enrolled and unenrolled. As an administrator, you can see any of the learner, administrator, or manager who has been enrolled or unenrolled from an instance of a course, learning program or certification and export the report. While, as a Manager, you can only fetch a report of your team members. As a manger, you are not able to see the deleted learners or your own name in the manager application as an enrolled or an unenrolled learner.
+
+To download a report, follow these steps: Open the  **[!UICONTROL Course/ Learning program/ Certification]** > **[!UICONTROL Learners]** > **[!UICONTROL Action]** > **[!UICONTROL Export report]**.
+
+![](assets/unenrollment.png)
+*Unenrollment report*
+
+### Feedback Report {#feedback-report}
+
+As an Administrator, you can now fetch both Learner feedback (L1) and Manager feedback (L3) for selected trainings for a specified period. 
+
+You can export the data from the UI or through PowerBI connector for more in-depth analysis.
+
+L1 and L3 feedback reports provide an option to download a consolidated feedback report for the L1 and L3 responses for selected trainings for a **one-year** range or for up to 10 Selected trainings for any date range.
+
+Sign in as an Administrator, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**, and in the list of reports, click **[!UICONTROL Feedback Report]**.
+
+![](assets/download-feedbackreport.png)
+*Download feedback report*
+
+Clicking on download after selecting the filters, you will receive a notification to download the report in CSV format.
+
+The downloaded report will have details such as Training name and type, Instance name, Learner name and email, Type of Feedback: L1 or L3, Dates of the feedback submitted for new data. 
+
+For existing data prior to this feature implementation the LO completion date will be displayed, LO Completion date, L1 Feedback question Self-Paced actual text and Class Room Text in different columns, L1 Feedback respective responses, Manager name and email, L3 feedback value and submitted date, Active Fields.
+
+You can also export the data from the UI or to Power BI, which supports all trainings for any date range for more in-depth analysis
+
+### Trainings Report {#training-report}
+
+Learning Manager supports Training Report which allows Administrators to download training details and its associated metadata like author, published date, skills, Catalog labels etc. 
+
+On the Admin app, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Trainings Report]**. 
+
+You can download reports for the following:
+
+* Selected trainings (Limit 10) - Selects one or multiple trainings (up to 10) from any catalog
+* Trainings in the selected Catalogs (Limit 5) - (catalog selection will be available up to five catalogs)
+* All trainings - (all trainings in the account)
+
+![](assets/download-trainingreport.png)
+*Download training report*
+
+In the Advanced Options section, the following options are available:
+
+* Include Course mappings with Learning Program / Certification
+* Include Module Level information
+
+After selecting the filters and clicking Download, you will receive a notification to download the report in CSV format. 
+
+The report will have the following fields:
+
+*Catalog Name, Training Type, Training Id, Training unique id, Training Name, Sub Trainings, Modules, Training or Module Duration, Format, Status of Training, Skills, Author, Last Published Date, Last completed Date, Instructors Enrollment Count, Started count, Completion count, Avg L1 score, Avg L2 score, Avg L3 score, L1 responses received, L2 responses received, L3 responses received, Catalog labels & Tags.*
+
+![](assets/more-options.png)
+*Additional options*
+
+### Session Summary Report {#session-summary-report}
+
+The Session Summary Report contains all sessions planned for a learner within a specified date.
+
+This allows the Administrator to export all the Virtual and Classroom session details falling under the given date range. The Admin can also export the session report with respect to specific trainings or Instructors. 
+
+This will also help the Administrator  to understand the sessions planned on a monthly basis and identify instructors' schedule and already delivered sessions.
+
+As an Administrator, click **[!UICONTROL Custom Reports]** > **[!UICONTROL Session Summary Report]**.
+
+In the dialog box that follows, choose the date range, and either the training or instructor for a summary.
+
+![](assets/session-summary-report.png)
+*Session Summary Report*
+
+The downloaded csv contains the following fields:
+
+* Start date and time
+* End date and time
+
+* Module Name 
+* Session Duration (in minutes)
+* Seat count
+* Location
+* Instance Name
+* Course Name
+* Course Id
+* Instructor Name
+* Instructor Email 
+* Enrollment Count
+* Session Type
+* Waitlist Limit
+* Waitlist count 
+* Waitlist user emails
+* Location Information
+* Location Region
+
+### Instructor Utilization Report
+
+This report captures the time (in minutes) spent daily by an instructor teaching assigned sessions. The report can be downloaded for a period of three months from the selected start date.
+
+To download the report, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Instructor Utilization Report]**.
+
+Select an instructor or multiple instructors and the date range.
+
+![Download Instructor Utilization Report](assets/utilization-report.png)
+*Download Instructor Utilization Report*
+
+The downloaded report contains the following fields:
+
+* Instructor name
+* Instructor ID
+* Competence level
+* Dates as columns. If the instructor is utilized on a date, the number of sessions is listed. If the instructor is not utilized on a day, the value displays zero.
+
+The report contains records for three months from the selected month.
+
+To retrieve records of all instructors, leave the Instructor field blank.
+
+Also, a Custom Admin with permission to generate reports can retrieve this report.
+
+### User Audit Trail Report
+
+This report captures information about the learners that switched instances, "from instance" to "to instance", switched by time, date, etc..
+
+Select the learners or a user group.
+
+To download the report, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL User Audit Trail Report]**.
+
+![Download User Audit Trail Report](assets/user-audit-report.png)
+
+*Download User Audit Trail Report*
+
+### Learning Plan Report
+
+This report contains details of all the Learning Plans in an account, for example, related user groups, status, and trigger information.
+
+The report contains the following:
+
+* Name of the Learning Plan
+* Type (occurs when)
+* Training (completed)
+* Skill (achieved)
+* Date (on date)
+* Action
+* Status, created by
+* Creation date
+* Last modified date
+* User group (applies to)
+* User group (add to)
+* Enroll after
+* Learning element type(s)
+* Learning element(s)
+* Learning element instance(s)
+* Learning element
+* Completion date
+* Learning element reminder
+* Scope-Catalog
+* Scope-Usergroup
+
+## Email subscriptions {#emailsubscriptions}
+
+You can get your favorite reports in an email by subscribing to them.
+
+### Set up Email subscriptions
+
+>[!INFO]
+>
+>In this training, you will learn how to set up email subscriptions for dashboard reports.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PLHRQ62N&mv=display&mv2=display#/course/8318927)</br></br>
+
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
+In **[!UICONTROL Reports]** page, click the  **[!UICONTROL Subscription]** tab. Reports subscription page appears.
+
+To select the report name from the drop-down list, start typing the report name in the Reports field. Choose the frequency of email from the drop-down. You can add the subject of the email and provide an alternate email id.
+
+You can Edit and Delete subscriptions.
+
+## Historic reports
+
+Historic reports in Adobe Learning Manager (ALM) refer to the reports that capture the historical data and activities within the learning platform. These reports provide insights into past learner activities, training content, user group performance, and other relevant data. The historic reports allow administrators to track, monitor, and analyze the progress and effectiveness of learning initiatives over time.
+
+### Course access reports
+
+The course access reports provide information about each course's revisit. 
+
+To download this report, follow these steps:
+
+1. Go to **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]**.
+1. Select **[!UICONTROL Course Access Report]**. The Generating Report Request dialogue box opens.
+1. Select the year and quarter from the dropdown menu.
+1. Select **[!UICONTROL Generate]**. 
+
+### Login/access reports
+
+The login/access reports provide information about user logins and access. You can generate report containing three months data at a time.
+
+To download this report, follow these steps:
+
+1. Go to **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]**.
+1. Select **[!UICONTROL Login/Access report]**. The Generating Report Request dialogue box opens.
+1. Select the year and quarter from the dropdown menu.
+1. Select **[!UICONTROL Generate]**.
 
 ## Create a dashboard {#createadashboard}
 
@@ -467,18 +982,6 @@ You can also create customized user groups using Add users/user groups feature i
 
 In x-axis, choose the user attribute option and select the attribute from the **select** drop-down next to it. To create a customized user group report based on these attributes, you also have to choose the appropriate user group in the filter. 
 
-## Types of reports {#typesofreports}
-
-Adobe Learning Manager supports four major types of reports such as completion, time spent, skills, and effectiveness. You can use the following report types to generate reports of 300+ variations:
-
-* Course delivery statistics for learners
-* Effectiveness of courses report
-* Learner skill-based report
-* Learning program enrollment statistics for learners
-* Learning time spent by learners
-* Learner count
-* Certification completion
-
 ## Viewing reports {#viewingreports}
 
 On the Reports page, you can view all the reports. You can minimize each report by clicking minus (-) icon at the upper right corner of each report. Click (+) icon to view your report again.
@@ -506,9 +1009,10 @@ If there are multiple managers reporting to you, you can view the reports quickl
 
 ### Generate Course Reports
 
-In this training, you will learn how to export course reports and set up email subscriptions for these reports.
+>[!INFO]
+>
+>In this training, you will learn how to export course reports and set up email subscriptions for these reports.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=R726NKNM&mv=display&mv2=display#/course/8318904)</br></br>
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=R726NKNM&mv=display&mv2=display#/course/8318904)
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
@@ -568,466 +1072,6 @@ While creating a peer account, if the Share Catalog option had not been selected
    >[!NOTE]
    >
    >Managers cannot view peer reports.
-
-## Email subscriptions {#emailsubscriptions}
-
-You can get your favorite reports in an email by subscribing to them.
-
-### Set up Email subscriptions
-
-In this training, you will learn how to set up email subscriptions for dashboard reports.
-
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PLHRQ62N&mv=display&mv2=display#/course/8318927)
-
-If you're unable to launch the training, write to <almacademy@adobe.com>.
-
-In **[!UICONTROL Reports]** page, click the  **[!UICONTROL Subscription]** tab. Reports subscription page appears.
-
-To select the report name from the drop-down list, start typing the report name in the Reports field. Choose the frequency of email from the drop-down. You can add the subject of the email and provide an alternate email id.
-
-You can Edit and Delete subscriptions.
-
-## Excel Reports {#excelreports}
-
-The **[!UICONTROL Excel Reports]** tab allows you to export reports in XLS file format.
-
-The following are the report types available for download.
-
-* Course Reports
-* Learner Transcripts
-* Announcements Report
-* Job Aids Report
-* Content Audit Trail
-* User Audit Trail
-* Login/ Access Report
-* Gamification Transcripts
-* Gamification Audit Trail
-
-## Learner transcripts {#learnertranscripts}
-
-The Learner Transcripts in Excel reports displays the columns Credits Required and Credits Earned in decimal numbers.
-
-## Course Reports {#coursereports}
-
-As an administrator, you can download reports for courses. Follow these steps:
-
-1. Open **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Course Reports]**.
-1. The **[!UICONTROL Course Report]** dialogue appears. Select the course you want to fetch the report of and click **[!UICONTROL Show]**.
-
-   ![](assets/course-reports.png)
-   *Course reports*
-
-1. You are redirected to the course page. You can export quiz score by user and by question based on each enrollment by choosing the specific enrollment type.
-1. Select **[!UICONTROL Export Quiz Score]** to export the report. A **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL OK]** to confirm.
-
-   ![](assets/generating-reportrequest.png)
-   *Generating Report Request*
-
-   >[!NOTE]
-   >
-   >Exported quiz score report will contain the score details for every attempt if the multi attempt option is configured for the module.
-
-## Learner Transcripts {#LearnerTranscripts-1}
-
-Adobe Learning Manager enables the administrators of an organization to generate the transcripts associated with learners. The Learner Transcript report carries the following:
-
-1. Learner Transcript: Learning Activity Dashboard
-1. Skill: Skill Dashboard
-1. Compliance Dashboard
-
-The Learner Transcripts in Excel reports displays the columns Credits Required and Credits Earned in decimal numbers.
-
-For information on generating Learner Transcript reports and more information, see [Learner Transcripts](learner-transcripts.md).
-
-## Announcements Reports {#announcementsreports}
-
-As an administrator, you can generate a report of all the announcements that you send. The report has details regarding:
-
-* Announcement type
-* Announcement name
-* Announcement date
-* State of the announcement
-* Learner name
-
-To download a report, follow any one of these steps:
-
-1. Open **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**. The **[!UICONTROL Generating Report Request]** dialogue box opens. Click Ok.
-1. [!UICONTROL **Announcements**] > [!UICONTROL **Actions**] > [!UICONTROL **Export Report**].
-
-   ![](assets/announcements.png)
-   *Announcements report*
-
-1. You can extract a report for a specific announcement by clicking **[!UICONTROL Export Report]** under the settings icon.
-
-   ![](assets/announcements-specific-report.png)
-   *Report for specific announcements*
-
-## Job Aids Report {#jobaidsreport}
-
-Job Aids are training content that a Learner can access without having to enroll for any specific learning object like a Course or Learning Program. Administrators can extract and download Job Aids report.
-
-The extracted report includes information about the following:
-
-* Name
-* Type of Job Aid
-* State of Job Aid (published or withdrawn)
-* Enrollment date
-* Date of completion
-* Download date
-* Learner name 
-* Manager name
-* Created by
-
-To download a report, do one of the following:
-
-* Open  **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. The **[!UICONTROL Generating Report Request]** dialogue box appears. Click **[!UICONTROL Ok]**.
-* Open **[!UICONTROL Job Aid]** > **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**.
-
-![](assets/job-aids.png)
-*Job Aids report*
-
-* You can also extract a report for a specific Job Aid by clicking **[!UICONTROL Export Report]** under the settings icon.
-
-![](assets/job-aid-specific-download.png)
-*Report for specific Job Aid*
-
-### Job Aids Report
-
-After you select **[!UICONTROL Job Aids Report]** on the list, you see two options:
-
-![job aids report](assets/job-aids-new.png)
-*Download Job Aids USer Enrollment Report*
-
-**All Job Aids**: If the number of job aids in the account is fewer than 10 million, the generated report will contain enrollment information of all job aids. This will be the default selection. If the number of rows exceeds 10 million, an error will display, and you must select the required job aids manually.
-
-**Selected Job Aids**: If you select this option, you can enter the job aids for which you want to generate the report. You can select at most 10 job aids. Adobe Learning Manager checks if the number of job aids exceeds 10 million.
-
-![job aids report enroll](assets/job-aids-2-new.png)
-*Select a Job Aid*
-
-**Job Aids Report**
-
-If you select this option, the details of all the job aids present in the system along with their metadata and training are downloaded.
-
-The downloaded report consists of the following fields:
-
-* Job Aid Name
-* Language(s)
-* ID
-* Type
-* Duration (minutes)
-* State
-* Date Published (UTC TimeZone)
-* Created By Name
-* Created By Email
-* Created By User Unique ID
-* Catalog(s)
-* Learning Path(s)
-* Course(s)
-* Tag(s)
-* Skill(s)
-
-**Job Aids User Enrollment Report**
-
-The enrollment report contains details about user enrollment and other information.
-
-The downloaded report consists of the following fields: 
-
-* Job Aid Name
-* Type
-* State
-* Date Enrolled (UTC timezone)
-* Date Completed (UTC timezone)
-* Download Date (UTC timezone)
-* Learner Name
-* Email
-* User Unique ID
-* Manager Name
-* Manager Email
-* Manager User Unique ID
-* Assigned by name
-* Assigned by Email
-* Assigned by User Unique ID
-* Created by name
-* Created by Email
-* Created by User Unique ID
-* Job Code
-* New Field
-* Profile
-
-### Content audit trail reports {#contentaudittrailreports}
-
-Use the **[!UICONTROL Content Audit Trail]** report generator to generate a report of all the changes and edits made to a course during its life in the system. The generated report has the following information fetched.
-
-* Object id
-* Object name
-* Object type
-* Modification type
-* Description
-* Referenced object ID  
-* Referenced object name  
-* Modified by user name  
-* Modified by user ID  
-* Modified date (UTC Timezone)
-
-Information regarding metadata is not fetched in the generated report.
-
-To generate a Course trail audit report, follow these steps.
-
-1. Select **[!UICONTROL Report]** > **[!UICONTROL Excel reports]** > **[!UICONTROL Course Audit Trail]**. The **[!UICONTROL Content Audit Trail]** dialog box appears.
-
-   ![](assets/course-audit-trial.png)
-   *Course audit trail*
-
-1. Select the course, learning program and certification that you want to download the report of. If not specified, all reports are downloaded by default.
-1. Select a date range for the report and click **[!UICONTROL Generate]**.
-1. The report is generated and you are notified that the content audit report is ready. You can download the report.
-
-## User audit trail reports {#useraudittrailreports}
-
-User audit trail captures the life cycle of users, user groups, and self-registration profiles. User addition, deletion, change in Manager, are all captured. Creation and deletion of self-registration profiles are recorded. You can also pause and resume self-registration.
-
-You can Add, Enable, Disable, Pause, or Resume for External profiles while you can Add, Delete, Pause, or Resume for self-registration. CSV uploads are also captured.
-
-1. Select  **[!UICONTROL Report > Excel report > User Trail]**. The User Audit Trail dialog box appears.
-1. The User Audit Trail dialog box appears. Select the date range from the pop-up menu. You can either choose to generate report for last one week, last one month, or select custom date.
-
-   ![](assets/user-audit-trail.png)
-   *User audit trail*
-
-1. Click **[!UICONTROL Generate]** to generate the report.
-
-There are two filters on the **[!UICONTROL User Audit Trail Report]** dialog.
-
-**Date rage filter:** Choose the date range for which you want to generate the report. There are three options:
-
-* Last One week  
-* Last One Month  
-* Custom date
-
-Select Learners filter:  Search for a user or a user group.
-
-The exported report will contain data of the users who meet both the search criteria specified.
-
-![](assets/user-audit-trail.png)
-*User audit trail*
-
->[!NOTE]
->
->When a skill is assigned or removed, the skill can be tracked for the User Audit Report for both assigned or removed.
-
-## Gamification reports {#gamification}
-
-Administrators can download gamification transcript in CSV format. You can either download the report for individual user or user groups. User name, user email, User's UUID, total user points scored,  breakup of points collected, name of groups the user plays in, name of the manager, and active field values are all fetched in the report. Administrators can use this report to evaluate and understand user rankings at the organization level or for a specific group.
-
-1. Select Report > Excel report > Gamification report.
-
-   ![](assets/gamification.png)
-   *Gamification report*
-
-1. The Gamification Transcripts dialog box appears. Select learners using their Name, Profile, User Groups, Email Id, or UUID.
-
-   ![](assets/gamification-transcriptsdialog.png)
-   *Gamification transcripts dialog*
-
-1. Click  **[!UICONTROL Generate]** to generate the report.
-
-   After you generate the report of a learner, you must be able to export the current and achieved-level information for all the users (internal, external, or deleted) in the account. You can also check the dates for the levels achieved by a learner:
-
-   * Bronze Achieved Date
-   * Silver Achieved Date
-   * Gold Achieved Date
-   * Platinum Achieved Date
-
-   These columns contain the dates on which the level was achieved at the very first time. The column **[!UICONTROL Current Level]** displays the current level of the learner. 
-
-   When the Admin resets the gamification, all points of the learner get reset accordingly.
-
-## Gamification Audit Trail report {#gamification-audit-trail}
-
-   This report contains the history and reasons for Learners' gamification points earned for each rule.
-
-### Download the report
-
-   1. Select the Gamification Audit Trail URL.
-   1. On the **Gamification Audit Trail** pop-up, select the date range.
-   1. Select **Generate**.
-
-The report is downloaded as a CSV file. The file contains the following columns:
-
-* Name
-* Email/ UUID, 
-* Status
-* Action 
-* Points, 
-* Balance Points    
-* Rule/ Task
-* Rule/ Task Subtask, 
-* Rule/ Task Details    
-* Type, 
-* Name, 
-* Instance NameDate Achieved (UTC Timezone)
-* Rule/ Task Start Time
-* Rule/ Task End Time
-
-## Enrollment and Unenrollment report {#enrollmentandunenrollmentreport}
-
-Administrators and managers can extract a report of the learners who have been enrolled and unenrolled. As an administrator, you can see any of the learner, administrator, or manager who has been enrolled or unenrolled from an instance of a course, learning program or certification and export the report. While, as a Manager, you can only fetch a report of your team members. As a manger, you are not able to see the deleted learners or your own name in the manager application as an enrolled or an unenrolled learner.
-
-To download a report, follow these steps: Open the  **[!UICONTROL Course/ Learning program/ Certification]** > **[!UICONTROL Learners]** > **[!UICONTROL Action]** > **[!UICONTROL Export report]**.
-
-![](assets/unenrollment.png)
-*Unenrollment report*
-
-## Feedback Report {#feedback-report}
-
-As an Administrator, you can now fetch both Learner feedback (L1) and Manager feedback (L3) for selected trainings for a specified period. 
-
-You can export the data from the UI or through PowerBI connector for more in-depth analysis.
-
-L1 and L3 feedback reports provide an option to download a consolidated feedback report for the L1 and L3 responses for selected trainings for a **one-year** range or for up to 10 Selected trainings for any date range.
-
-Sign in as an Administrator, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**, and in the list of reports, click **[!UICONTROL Feedback Report]**.
-
-![](assets/download-feedbackreport.png)
-*Download feedback report*
-
-Clicking on download after selecting the filters, you will receive a notification to download the report in CSV format.
-
-The downloaded report will have details such as Training name and type, Instance name, Learner name and email, Type of Feedback: L1 or L3, Dates of the feedback submitted for new data. 
-
-For existing data prior to this feature implementation the LO completion date will be displayed, LO Completion date, L1 Feedback question Self-Paced actual text and Class Room Text in different columns, L1 Feedback respective responses, Manager name and email, L3 feedback value and submitted date, Active Fields.
-
-You can also export the data from the UI or to Power BI, which supports all trainings for any date range for more in-depth analysis
-
-## Trainings Report {#training-report}
-
-Learning Manager supports Training Report which allows Administrators to download training details and its associated metadata like author, published date, skills, Catalog labels etc. 
-
-On the Admin app, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Trainings Report]**. 
-
-You can download reports for the following:
-
-* Selected trainings (Limit 10) - Selects one or multiple trainings (up to 10) from any catalog
-* Trainings in the selected Catalogs (Limit 5) - (catalog selection will be available up to five catalogs)
-* All trainings - (all trainings in the account)
-
-![](assets/download-trainingreport.png)
-*Download training report*
-
-In the Advanced Options section, the following options are available:
-
-* Include Course mappings with Learning Program / Certification
-* Include Module Level information
-
-After selecting the filters and clicking Download, you will receive a notification to download the report in CSV format. 
-
-The report will have the following fields:
-
-*Catalog Name, Training Type, Training Id, Training unique id, Training Name, Sub Trainings, Modules, Training or Module Duration, Format, Status of Training, Skills, Author, Last Published Date, Last completed Date, Instructors Enrollment Count, Started count, Completion count, Avg L1 score, Avg L2 score, Avg L3 score, L1 responses received, L2 responses received, L3 responses received, Catalog labels & Tags.*
-
-![](assets/more-options.png)
-*Additional options*
-
-## Session Summary Report {#session-summary-report}
-
-The Session Summary Report contains all sessions planned for a learner within a specified date.
-
-This allows the Administrator to export all the Virtual and Classroom session details falling under the given date range. The Admin can also export the session report with respect to specific trainings or Instructors. 
-
-This will also help the Administrator  to understand the sessions planned on a monthly basis and identify instructors' schedule and already delivered sessions.
-
-As an Administrator, click **[!UICONTROL Custom Reports]** > **[!UICONTROL Session Summary Report]**.
-
-In the dialog box that follows, choose the date range, and either the training or instructor for a summary.
-
-![](assets/session-summary-report.png)
-*Session Summary Report*
-
-The downloaded csv contains the following fields:
-
-* Start date and time
-* End date and time
-
-* Module Name 
-* Session Duration (in minutes)
-* Seat count
-* Location
-* Instance Name
-* Course Name
-* Course Id
-* Instructor Name
-* Instructor Email 
-* Enrollment Count
-* Session Type
-* Waitlist Limit
-* Waitlist count 
-* Waitlist user emails
-* Location Information
-* Location Region
-
-## Instructor Utilization Report
-
-This report captures the time (in minutes) spent daily by an instructor teaching assigned sessions. The report can be downloaded for a period of three months from the selected start date.
-
-To download the report, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Instructor Utilization Report]**.
-
-Select an instructor or multiple instructors and the date range.
-
-![Download Instructor Utilization Report](assets/utilization-report.png)
-*Download Instructor Utilization Report*
-
-The downloaded report contains the following fields:
-
-* Instructor name
-* Instructor ID
-* Competence level
-* Dates as columns. If the instructor is utilized on a date, the number of sessions is listed. If the instructor is not utilized on a day, the value displays zero.
-
-The report contains records for three months from the selected month.
-
-To retrieve records of all instructors, leave the Instructor field blank.
-
-Also, a Custom Admin with permission to generate reports can retrieve this report.
-
-## User Audit Trail Report
-
-This report captures information about the learners that switched instances, "from instance" to "to instance", switched by time, date, etc..
-
-Select the learners or a user group.
-
-To download the report, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL User Audit Trail Report]**.
-
-![Download User Audit Trail Report](assets/user-audit-report.png)
-
-*Download User Audit Trail Report*
-
-## Learning Plan Report
-
-This report contains details of all the Learning Plans in an account, for example, related user groups, status, and trigger information.
-
-The report contains the following:
-
-* Name of the Learning Plan
-* Type (occurs when)
-* Training (completed)
-* Skill (achieved)
-* Date (on date)
-* Action
-* Status, created by
-* Creation date
-* Last modified date
-* User group (applies to)
-* User group (add to)
-* Enroll after
-* Learning element type(s)
-* Learning element(s)
-* Learning element instance(s)
-* Learning element
-* Completion date
-* Learning element reminder
-* Scope-Catalog
-* Scope-Usergroup
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
