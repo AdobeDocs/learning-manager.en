@@ -19,9 +19,10 @@ Authors create courses. Learners then take the courses and Administrators can tr
 
 ### Manage instances
 
-In this training, you will learn how to edit instance details and instance properties.
+>[!INFO]
+>
+>In this training, you will learn how to edit instance details and instance properties.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=P79NQK8R&mv=display&mv2=display#/course/8318912)</br></br>
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=P79NQK8R&mv=display&mv2=display#/course/8318912)
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
