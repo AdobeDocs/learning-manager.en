@@ -144,8 +144,8 @@ The Learning Manager Learner role supports several other accessibility features 
 
 For more information, see:
 
-* [Accessibility Conformance Report for a learner](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [Accessibility Conformance Report for all roles](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [Accessibility Conformance Report for a learner](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [Accessibility Conformance Report for all roles](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Learning Manager Top workflows (Learner role) {#captivateprimetopworkflowslearnerrole}
 
