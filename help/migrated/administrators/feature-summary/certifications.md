@@ -100,6 +100,8 @@ Select the products, roles and roles level from the **[!UICONTROL Recommend for]
 
 ![](assets/recommend-for.png)
 
+*Recommendation*
+
 Choose the courses to be added to the certification from **[!UICONTROL Courses]** > **[!UICONTROL Catalog]** tab.
 
 Hover the mouse on each course tile, click + to add them to the certification. Click **[!UICONTROL Preview]** to view the course as learner before adding it.
@@ -164,6 +166,8 @@ To edit a published certification, click the certification card and click **[!UI
 While editing the sections of a certification, if you have to move out of the page, you need to re-publish the certification. You get a dialog confirmation asking you to re-publish the certification.
 
 ![](assets/edit-a-certificate.png)
+
+*Edit a certificate*
 
 ## Subscription {#subscription}
 

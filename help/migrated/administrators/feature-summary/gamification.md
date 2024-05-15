@@ -38,6 +38,8 @@ Administrators can set up gamification points for learners by following the step
 
 ![](assets/set-up-points.png)
 
+*Set up points*
+
 ## Tasks {#tasks}
 
 There are five gamification tasks of learners for which Administrator can set the points. An illustration depicting all the learners tasks and points is shown below:
@@ -97,7 +99,7 @@ Possible scenarios for learners enrollment of courses in addition to their allot
 
 This task is applicable when learners complete a particular number of competencies. The administrator can choose this task to encourage learners to gain as many competencies as possible.
 
-Possible scenarios for Upskill in competencies:
+Possible scenarios for upskill in competencies:
 
 1. When learner achieves one competency, they gain 100 points.
 1. When a learner achieves two competencies, they gain 300 points.
