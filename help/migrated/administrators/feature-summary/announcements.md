@@ -22,6 +22,11 @@ There are four types of announcements:
 1. As an Administrator user, click Announcements at the left pane.
 1. Click Add at the upper-right corner of the page.
 1. From the Type drop-down list, select the option **As Notification**.
+
+![](assets/as-notofocation.png)
+
+*Customize the notification*
+
 1. In the Message field, add the message for the announcement. You can also add a URL for announcements here. However, you must add the URL in the HTML form. 
 
    For example,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`

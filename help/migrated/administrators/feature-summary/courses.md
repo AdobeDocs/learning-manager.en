@@ -91,6 +91,18 @@ To restore a retired instance to an activate state, perform the following steps:
 
 1. The instance now gets restored to an active mode.
 
+## Delete an instance
+
+Admins can delete the instance using **Delete this instance** option immediately after the creation. You cannot delete instances if there is a session linked to it or if any learners are enrolled to it.
+
+![](assets/delete-this-instance.png)
+
+*Delete an instance*
+
+>[!NOTE]
+>
+>You cannot delete the default instance.
+
 ## Send instance-level emails
 
 To send instance-level emails to enrolled learners:

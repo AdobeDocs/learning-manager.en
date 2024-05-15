@@ -43,17 +43,27 @@ In the **[!UICONTROL Learning Path]** page, click **[!UICONTROL Add]**. Enter th
 
 *Add a new Learning Path*
 
+In the **Enrollment Type** option, select **Self Enroll** or **Admin Enroll**. 
+
+>[!NOTE]
+>
+>If you select the **Admin Enroll** option, learners will only see manager-nominated or manager-approved courses. Learners will not be able to see the learning path in the recommendation section. 
+
 After creating the Learning Path, select the newly created Learning Path, and add the courses in the path.
 
 You can add skills and assign a badge to the Learning Path. To add a skill, select the required skill or skills from the **[!UICONTROL Pick a Skill]** drop-down list. Also select the level for the skill or skills.
 
 ![](assets/add-skills.png)
 
+*Add a skill*
+
 Assign a badge to the Learning Path. Pick a badge from the list of available badges.
 
 Select the products, roles and roles level from the **[!UICONTROL Recommend for]** section to suggest this learning path to the users who have expressed interest in those products and roles. 
 
 ![](assets/recommend-for.png)
+
+*Recommendation*
 
 Choose the sequencing type for the sections and training as Ordered or Unordered based on your preference.
 
@@ -135,6 +145,20 @@ There are three options:
 
 The notification reminders are triggered based on the option. By default, the option **[!UICONTROL All Levels Courses and Learning Paths]** is enabled for an instance.
 
+## Subscriptions
+
+You can subscribed to the individual learning paths to receive comprehensive data including quiz scores and learner status directly to your inbox.
+
+Follow the below steps:
+
+1. Go to any Learning Path > Subscriptions.
+1. Select Add More.
+1. Select the details and type the email id to receive the reports. 
+
+![](assets/subscriptions.png)
+
+*Subscribe to individual learning path*
+
 ## Important Note
 
 Please note that the existing feature of Learning Programs will be renamed to Learning Path immediately after the release. In case you wish to continue calling it as Learning Programs, we recommend you to use the 'Terminologies' feature to apply the required terminology. This way you can consume to use the word Learning Program.
@@ -145,7 +169,7 @@ Learning Paths bring to you a range of functionalities. Some of them are availab
 
 The **[!UICONTROL Settings]** > **[!UICONTROL General]** page has a new option to enable Learning Paths. If this option is enabled, you can add courses and Learning Programs in a Learning Path. You cannot change the option once it is enabled.
 
-## Other Learning Path-related details 
+<!-- ## Other Learning Path-related details 
 
 ### Learning Path option is disabled/unchecked in Admin Settings
 
@@ -217,4 +241,4 @@ The **[!UICONTROL Settings]** > **[!UICONTROL General]** page has a new option t
 
 **Reporting**
 
-* Same changes as that of Reporting stated above.
+* Same changes as that of Reporting stated above. -->
