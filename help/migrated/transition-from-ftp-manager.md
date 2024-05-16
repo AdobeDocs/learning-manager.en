@@ -166,5 +166,3 @@ If a migration is in progress, close the current sprint that uses Exavault as a 
 
 * The course id mapping is done in the current project for courses that are migrated from external legacy systems to Adobe Learning Manager. You can only do so if you want to update the same courses in the same project. Once you close the project, you cannot modify its details.
 * For API-based migration projects, where you must not close a project.
-
-<!--[ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
