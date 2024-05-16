@@ -318,3 +318,5 @@ For information regarding current and previous releases of Learning Manager web 
 * [July 2023 release](whats-new-2023-july.md)
 * [April 2023 release](whats-new-2023-april.md)
 * [November 2022 release](whats-new-2022-november.md)
+
+<!-- [ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
