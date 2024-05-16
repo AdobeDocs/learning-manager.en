@@ -41,4 +41,7 @@ Yes, an author can assign several Instructors for a single module. In this case,
 
 As an instructor, you can only view and edit the details of those sessions that you have been assigned to. You cannot modify the session or attendee list of any other sessions.
 
+[ALM Whitepaper](assets/alm-security-whitepaper.pdf)
+
+
 +++
