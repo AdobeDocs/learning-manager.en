@@ -201,6 +201,14 @@ For sending the email notifications, an Admin must explicitly choose the escalat
 
 *Set escalation level*
 
+## Waitlist
+
+The waitlist section allows learners to be waitlisted for classroom courses when seats are limited, based on their order of enrollment. Administrators can manage this by selecting waitlisted learners and allocating seats beyond the initial limit. Once a seat is allocated by the administrator, the learner is immediately enrolled in the course.
+
+## Discussion board
+
+The Discussion Board feature allows learners to view the course discussions. As an admin, you have the ability to delete any comments as needed. Admins can enable this option under course settings. 
+
 ## Course moderation {#coursemoderation}
 
 Whenever an author adds, updates, or deletes modules and republishes a course, all the administrators receive notification about the same. As an administrator, you can then view the changes, compare the old and new content by clicking on the link, and either approve or reject the changes accordingly.
