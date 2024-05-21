@@ -146,6 +146,10 @@ Here's how you'll create the objects:
 1. Rename the names of the Custom Objects in Salesforce.
 1. Select the events and click **[!UICONTROL Save]**.
 
+>[!NOTE]
+>
+>Please ensure that system administrator access has been granted to all active fields added after the package installation.
+
 **Link events with:** Choose which section you want to export- User or Contact. If you choose Contact object, users who are present in Learning Manager but not in Salesforce, will be created in Salesforce. 
 
 ![](assets/link-events.png)
