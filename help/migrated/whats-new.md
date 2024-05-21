@@ -9,6 +9,18 @@ exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
 
 Learn about the new features and enhancements in the March 2024 release of Adobe Learning Manager.
 
+Explore a few of the latest Adobe Learning Manager features, such as:
+
+1. Import skills from external sources
+1. Multiple branding support
+1. Checklist re-evaluation-activity module
+1. White-labeled mobile learning app
+
+>[!NOTE]
+>
+>Check out this [webinar](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) to learn more about the new features in this release.
+
+
 ## What's new in this release {#whatsnewandchanged}
 
 ### Import skills from external sources

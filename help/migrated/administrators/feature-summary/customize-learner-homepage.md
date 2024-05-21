@@ -78,7 +78,7 @@ This will be enabled and grayed out if Immersive experience is chosen. This chec
 
 ![](assets/option-immersive.png)
 
-*Selection for Classic experience*
+*Learner homepage settings*
 
 The immersive layout is the default for all new accounts. The layout is controlled by widgets that an Admin can enable or disable. Based on how the widgets are positioned, the same is reflected on the learner homepage.
 
