@@ -73,13 +73,13 @@ The following can be customized:
   <td>
   <p>App Icon</p></td>
   <td>
-  <p>The app icon as png. This icon displays on your app. The format to name is account-id_appIcon.png.</p></td>
+  <p>The app icon as png. This icon displays on your app. The format to name is account-id_appIcon.png. The app icon's dimensions are 512 × 512 pixels.</p></td>
   </tr>
   <tr>
   <td>
   <p>App splash screen</p></td>
   <td>
-  <p>For the splash screen of your app, provide an image (png), that appears when your users launch the app. The format to name is account-id_splashIcon.png.</p></td>
+  <p>For the splash screen of your app, provide an image (png), that appears when your users launch the app. The format to name is account-id_splashIcon.png. The dimensions of the square-based splash screens are 1052 × 1052 pixels and circle-based splash screens are 768 x 768 pixels.</p></td>
   </tr>
   <tr>
   <td>
