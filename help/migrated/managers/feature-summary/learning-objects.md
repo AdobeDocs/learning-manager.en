@@ -8,13 +8,18 @@ exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
 
 This document consists of information about learning objects for managers.
 
-A Manager can enroll the learners under him in courses, learning programs and certifications. For more information and steps to follow to enroll, see [Enroll Learners.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
+A Manager can enroll the learners under him in courses, learning paths and certifications. For more information and steps to follow to enroll, see [Enroll Learners.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
 
 ## Courses {#courses}
 
 ## Viewing courses {#viewingcourses}
 
 As a manager, you can view a list of all available courses. Click **[!UICONTROL Courses]** on the left pane to view the list of courses with search and filter options. You can also view the course effectiveness percentage for each course on the course thumbnails. Note that you can only enroll team members to courses which are visible to you under the learner application.
+
+![](assets/view-course.png)
+
+*View courses*
+
 
 >[!NOTE]
 >
@@ -39,6 +44,10 @@ As a manager you can manage learners list for your team members.
 ![](assets/courses-learners.png)
 
 *Select a learner action*
+
+>[!NOTE]
+>
+>**Export Pending Approvals** option can be performed from the learner app. 
 
 You can perform the following actions from the Learners page:
 
@@ -91,20 +100,30 @@ In this sample snapshot, 1 out 1 users received all the three feedbacks, hence t
 
 As per the pie-chart shown above, more weightage is given to L3 feedback from manager.
 
-## Searching courses, learning Programs and Certifications {#searchingcourseslearningprogramsandcertifications}
+## Searching courses, learning paths and Certifications {#searchingcourseslearningprogramsandcertifications}
 
-Adobe Learning Manager makes it easier for you to find the courses/learning programs of your choice quickly. You can search for your courses in two ways:
+Adobe Learning Manager makes it easier for you to find the courses/learning paths of your choice quickly. You can search for your courses in two ways:
 
-1. Using Search field. Click search icon displayed at the upper-right corner. A search field appears. Type the course name or any keywords associated with your courses to locate your courses/learning programs. You can also search using predefined tags like Captivate, C, Java, and HTML. Tags are searchable inside Search field, which means the tags are displayed in search field as you type. Search can be executed by using unique id as well.
-1. By filtering list of courses/learning programs/Certifications using the filters. You can filter the courses by the state such as All, published and Retired.
+1. Using Search field. Click search icon displayed at the upper-right corner. A search field appears. Type the course name or any keywords associated with your courses to locate your courses/learning paths. You can also search using predefined tags like Captivate, C, Java, and HTML. Tags are searchable inside Search field, which means the tags are displayed in search field as you type. Search can be executed by using unique id as well.
+1. By filtering list of courses/learning paths/Certifications using the filters. You can filter the courses by the state such as All, published and Retired.
 
-You can search based on competencies by clicking Competencies and choosing them. As a manager you can sort the courses in four ways, to better locate your required course. Click Sort By and choose alphabetical ascending order, alphabetical descending order, course updated date, or effectiveness of courses:
+You can search based on competencies by selecting **Competencies** and choosing them. As a manager you can sort the courses in four ways, to better locate your required course. Click Sort By and choose alphabetical ascending order, alphabetical descending order, course updated date, course created date or effectiveness of courses:
 
-![](assets/admin-sortby.png)
+* Name (a-z)
+* Name (z-a)
+* Date Updated
+* Date Created
+* Course Effectiveness
 
-*Serach based on competencies*
+![](assets/filter-courses.png)
 
-You can sort learning programs in three ways: alphabetical ascending order, alphabetical descending order and based on updated date.
+*Filter courses*
+
+You can sort learning paths in three ways: alphabetical ascending order, alphabetical descending order and based on updated date.
+
+![](assets/filter-learning-paths.png)
+
+*Filter learning path*
 
 ## Enrolling learners into courses {#enrollinglearnersintocourses}
 
@@ -121,28 +140,28 @@ Managers enrolls some learners to mandatory courses as per organization requirem
 >
 >You can only enroll learners who belong to your team.
 
-## Learning Programs {#learningprograms}
+## Learning Paths {#learningprograms}
 
 Manager can enroll, view quiz scores, L1 & L3 feedback and unenroll only his reporters.
 
-## Add learners to a learning program {#addlearnerstoalearningprogram}
+## Add learners to a learning path {#addlearnerstoalearningprogram}
 
-1. In Manager mode, click Learning Programs on the left pane.
-1. Select the published learning program from the list of tiles, to which you want to add learners.
+1. In Manager mode, click Learning Paths on the left pane.
+1. Select the published learning path from the list of tiles, to which you want to add learners.
 1. Click Learners on the left pane under Program reports category. Note: Learning Program must be published before adding learners.
 1. Click Enroll link in the page.  
 1. Start typing the learners name or profile and choose the learners from the drop-down list of learners. Click Save.
 
 ## View quiz scores {#Viewquizscores-1}
 
-1. Click any learning program tile.
+1. Click any learning path tile.
 1. Click Quiz Score on the left pane.
 
-You can view the quiz scores of any particular learning program based on user name or based on each question. Choose By User or By Question tabs accordingly. Quiz scores appear for one course at a time. Change the course name from the drop-down to view the quiz scores for other courses. You can also export quiz scores of each course. Choose the instance type from the drop-down list to view the scores based on each instance of the learning program.
+You can view the quiz scores of any particular learning path based on user name or based on each question. Choose By User or By Question tabs accordingly. Quiz scores appear for one course at a time. Change the course name from the drop-down to view the quiz scores for other courses. You can also export quiz scores of each course. Choose the instance type from the drop-down list to view the scores based on each instance of the learning path.
 
 ## Unenrollment for learners {#unenrollmentforlearners}
 
-Manager can unenroll a learner if the learner has not yet started the learning program.
+Manager can unenroll a learner if the learner has not yet started the learning path.
 
 ## Mark completion {#markcompletion}
 
@@ -210,7 +229,7 @@ If learner submits the file, Manager can view the file from the submission page 
 
 When courses are set as mandatory:
 
-* The submission page ists the learners only after the learners complete the courses.
+* The submission page lists the learners only after the learners complete the courses.
 * The learner can only upload a file after completing the course.
 
 ## Job Aids {#jobaids}
