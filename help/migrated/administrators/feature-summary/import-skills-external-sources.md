@@ -15,16 +15,20 @@ Follow the steps in the procedure to enable skill import in the account.
 
 1. In the Admin app, select **Settings** on the left pane.
 1. Select **General**.
-1. In the **Skills import** section, select **Enable**. If enabled, you can choose an external source to import **Skills**. The skills for existing learning resources will be imported to the Skills repository one time during the initial run. For all subsequent imports of learning resources, the Skills will be imported into Skills repository only for newly imported items. 
+1. In the **Skills import** section, select **Enable**. If enabled, you can choose an external source to import skills. Once enabled, for all subsequent imports of learning resources, the skills will be imported into skills repository for newly imported items. The skills for existing learning resources can be imported to the skills repository one time and to execute this initial run please contact your CSM.
 1. Select a content provider from the the dropdown.
 
-As an Admin, you can only import one Skill as Source.
+As an Admin, you can only import skills from one skill source.
 
 ### Default skill level
 
 The default skill level is one and Credit is 10 after the skills are migrated. Later admin can change the credit.
 
 You cannot edit the name of the skill, description and add levels to external skills. You can, however, add domain, badges, and edit credits.
+
+### Default course skills and credits
+
+After you import skills, they are added to the learning resources imported from the source which was selected as skill source. For example, if your skill source was LinkedIn Learning, all learning resources imported from LinkedIn Learning will have the skills provided by it. When imported into learning resources, each learning resource gives a default of 10 credits. If you want to change this, please contact your CSM.
 
 #### Reporting
 
