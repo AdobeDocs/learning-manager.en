@@ -331,3 +331,7 @@ Ensure that the following third-party domains are whitelisted if you are on any 
 ## Technical overview {#technicaloverview}
 
 [Learning Manager technical overview](assets/learning-manager-technicaloverview.pdf)
+
+## ALM Security Whitepaper
+
+[ALM Whitepaper](assets/alm-security-whitepaper-2024.pdf)
