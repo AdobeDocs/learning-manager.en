@@ -14,20 +14,18 @@ As an author, you can customize e-mail templates by adding or modifying content 
 
 You can also choose not to send e-mail notifications for certain events by disabling the email template option.
 
-## Configure email notifications {#settingemailnotifications}
+## Setting email notifications {#settingemailnotifications}
 
-1. From the Author app, select the learning object for which you want to configure the email template. For example, Courses.
-
+1. From the Author app, click the learning object for which you want to configure the email template. For example, Courses.
 1. From the Learning Object page, click the course, certification, or learning program that you want to configure the email settings.
+1. From the learning object details page, click Email Templates.
 
-1. From the learning object details page, Select **Email Templates** > **All Templates**. Email templates are available for **Default Instance** and **Current Course**. You can switch between them using the dropdown in the top right corner.
-
-   You can see the list of templates that are available for the learning object that you chose. 
+   You can see the list of templates that are available for the learning object that you chose.
 
    ![](assets/email-templates-forlearningprograms.png)
    *List of templates*
 
-1. Select the event name to view the template in the preview mode.
+1. Click the event name to view the template in the preview mode.
 
    ![](assets/preview-the-emailtemplateforyourlearningobject.png)
    
@@ -63,11 +61,3 @@ You can also choose not to send e-mail notifications for certain events by disab
 If the circle in the notification button against each event name is adjacent to Yes (with blue shade as background), then the notification is enabled. If it is in gray shade and the circle is adjacent to No, then the notification is disabled.
 
 Whenever you configure an email template at the course level, it takes precedence over the administrator level settings for that particular course.
-
-## Email template settings
-
-The author can set up the following in the email template settings:
-
-Email Banner: Allows you to modify the email banner.
-
-Email Signature: Allows you to add or edit the email signature.

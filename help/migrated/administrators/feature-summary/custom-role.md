@@ -218,7 +218,7 @@ You can create a custom role to provide authoring capabilities limited to a part
    
 1. **Users:** Use this option to determine which users are assigned this role. You can choose one or more users using the search box.
 
-   **Add users to custom role CSV upload:** To add users via CSV upload, add a CustomRole column to the .csv file that the Administrator used to import users. Enter the role of the user under the CustomRole column for the users to whom you wish to assign a cusrom role. To upload the CSV file, click  **[!UICONTROL Add > Upload a CSV]**.
+   **Add users to custom role CSV upload:** To add users via CSV updalod, add a CustomRole column to the .csv file that the Administrator used to import users. Enter the role of the user under the CustomRole coloumn for the users to whom you wish to assign a cusrom role. To upload the CSV file, click  **[!UICONTROL Add > Upload a CSV]**.
 
    CustomRole columnNote:
 
