@@ -13,14 +13,14 @@ Learn how to use Catalogs in Learning Manager to view the eligible learning obje
 
 Learners can view all the assigned and eligible learning objects (learning programs, courses and certifications) in the **Default Catalog**. These learning objects are unique to each learner based on his role, designation, user group, profile, and so on.
 
-You can filter the list of learning objects by using skills and type of the learning objects (self-paced, blended, classroom, virtual classroom, activity) . You can also filter using the options in the left pane: by Learning Objects, by skills, and by completion status.
+You can sort the learning objects based on different categories like Products, Job Roles, Types, Time needed, Skills, and Keywords. 
 
 Use the search bar on top of the page to enter the names of your familiar learning objects. Learners can switch between the grid and the list view by selecting this ![](assets/icon-list.png) icon. 
 
 ![](assets/catalogs.png)
 *View catalogs*
 
-As a learner, you can  filter training based on the format of training, for example, Classroom, Self-paced, or Virtual Classroom. In addition, the learner can also filter the trainings based on Training Duration. Skill Levels filter which is already available, can now be enabled/disabled by Administrator. 
+<!--As a learner, you can  filter training based on the format of training, for example, Classroom, Self-paced, or Virtual Classroom. In addition, the learner can also filter the trainings based on Training Duration. Skill Levels filter which is already available, can now be enabled/disabled by Administrator. -->
 
 ![](assets/image014.png)
 
