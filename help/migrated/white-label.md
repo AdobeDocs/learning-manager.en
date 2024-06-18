@@ -13,13 +13,13 @@ Adobe Learning Manager mobile app now supports white labeling – which means th
 
 To deploy and manage your own white labeled app, follow the steps:
 
-  1. Prepare the assets (like splash screen image), and the text so both can be used in the app and the description on the app/play store.
+1. Prepare the assets (like splash screen image), and the text so both can be used in the app and the description on the app/play store.
 
-  1. Assign a technical resource who is capable of:
-  
-* Generating the push notification certificate files.
-* Signing the app binaries provided by the ALM team.
-* Uploading and managing the publishing process. The publishing process requires communication between your app manager and app/play store teams that your app complies with all publishing guidelines. From ALM, you will receive a fully compliant app binary.
+1. Assign a technical resource who is capable of:
+
+   * Generating the push notification certificate files.
+   * Signing the app binaries provided by the ALM team.
+   * Uploading and managing the publishing process. The publishing process requires communication between your app manager and app/play store teams that your app complies with all publishing guidelines. From ALM, you will receive a fully compliant app binary.
 
 ## Overview
 
@@ -32,86 +32,109 @@ The following can be customized:
 ### Fields
 
 <table>
-    <tbody>
-    <tr>
-   <td>
-    <p>Account Id</p></td>
-   <td>
-    <p>The ID of your account. Note that the white labeled app will not be accessible to learners who belong to any other account.</p></td>
-  </tr>
+ <tbody>
   <tr>
    <td>
-    <p>Additional Account Ids</p></td>
+    <p>Account Id</p>
+   </td>
    <td>
-    <p>Add multiple accounts (sub-domains) if you want. Add the sub-domains as comma-separated without spaces. For example, acc01,acc02,acc03, and so on.<br> <b>Note:</b> You need to add the account id when specifying the sub-domains.</br> </p></td>
+    <p>The ID of your account. Note that the white labeled app will not be accessible to learners who belong to any other account.</p>
+   </td>
   </tr>
   <tr>
-  <td>
-  <p>App Name</p></td>
-  <td>
-  <p>The name that you want to use for the app.</p></td>
+   <td>
+    <p>Additional Account Ids</p>
+   </td>
+   <td>
+    <p>Add multiple accounts (sub-domains) if you want. Add the sub-domains as comma-separated without spaces. For example, acc01,acc02,acc03, and so on.<br> <b>Note:</b> You need to add the account id when specifying the sub-domains.</br> </p>
+   </td>
   </tr>
   <tr>
-  <td>
-  <p>App Short Name</p></td>
-  <td>
-  <p>In cases where the name of app is lengthy, give the app a short name that appears on the device.</p></td>
-  </tr>
-   <tr>
-  <td>
-  <p>Internal App Name</p></td>
-  <td>
-  <p>The name with which the OS identifies the app. The format that is usually used is: com.company-name.product-name.</p></td>
+   <td>
+    <p>App Name</p></td>
+   <td>
+    <p>The name that you want to use for the app.</p>
+   </td>
   </tr>
   <tr>
-  <td>
-  <p>Internal App name-iOS</p></td>
-  <td>
-  <p>Name the app differently if your users are on iOS. We recommend using the same name for both iOS and Android.</p></td>
+   <td>
+    <p>App Short Name</p>
+   </td>
+   <td>
+    <p>In cases where the name of app is lengthy, give the app a short name that appears on the device.</p>
+   </td>
   </tr>
   <tr>
-  <td>
-  <p>App Icon</p></td>
-  <td>
-  <p>The app icon as png. This icon displays on your app. The format to name is account-id_appIcon.png. The app icon's dimensions are 512 × 512 pixels.</p></td>
+   <td>
+    <p>Internal App Name</p></td>
+   <td>
+    <p>The name with which the OS identifies the app. The format that is usually used is: com.company-name.product-name.</p>
+   </td>
   </tr>
   <tr>
-  <td>
-  <p>App splash screen</p></td>
-  <td>
-  <p>For the splash screen of your app, provide an image (png), that appears when your users launch the app. The format to name is account-id_splashIcon.png. The dimensions of the square-based splash screens are 1052 × 1052 pixels and circle-based splash screens are 768 x 768 pixels.</p></td>
+   <td>
+    <p>Internal App name-iOS</p>
+   </td>
+   <td>
+    <p>Name the app differently if your users are on iOS. We recommend using the same name for both iOS and Android.</p>
+   </td>
   </tr>
   <tr>
-  <td>
-  <p>Client ID and Client Secret</p></td>
-  <td>
-  <p>The Integration Admin of your account provides the details, while registering the app. The Integration Admin must use the following:<ul><li>learner:read,learner:write as role</li><li>internal app name://redirect as redirect URL</li></ul></p></td>
+   <td>
+    <p>App Icon</p>
+   </td>
+   <td>
+    <p>The app icon as png. This icon displays on your app. The format to name is account-id_appIcon.png. The app icon's dimensions are 512 × 512 pixels.</p>
+   </td>
   </tr>
   <tr>
-  <td>
-  <p>Account logo</p></td>
-  <td>
-  <p>The URL that hosts your organization's logo. Provide a cpcontents link as the account logo. The URL needs to be web encoded.</p></td>
+   <td>
+    <p>App splash screen</p></td>
+   <td>
+    <p>For the splash screen of your app, provide an image (png), that appears when your users launch the app. The format to name is account-id_splashIcon.png. The dimensions of the square-based splash screens are 1052 × 1052 pixels and circle-based splash screens are 768 x 768 pixels.</p>
+   </td>
   </tr>
   <tr>
-  <td>
-  <p>App store id for the app (iOS)</p></td>
-  <td>
-  <p>The ID required for implementing the force update. The App needs to know the learner should be redirected to the App store, to update the app.</p></td>
-  </tr>
-   <tr>
-  <td>
-  <p>Google play store id for the app (Android)</p></td>
-  <td>
-  <p>The ID required for implementing the force update.</p></td>
+   <td>
+    <p>Client ID and Client Secret</p>
+   </td>
+   <td>
+    <p>The Integration Admin of your account provides the details, while registering the app. The Integration Admin must use the following:<ul><li>learner:read,learner:write as role</li><li>internal app name://redirect as redirect URL</li></ul></p>
+   </td>
   </tr>
   <tr>
-  <td>
-  <p>Hostname for deep linking</p></td>
-  <td>
-  <p>To host your deep links, use learningmanager. If you want to use another hostname URL as a deep link, provide the URL of the host. For example, learningmanager.adobe.com.</p></td>
+   <td>
+    <p>Account logo</p>
+   </td>
+   <td>
+    <p>The URL that hosts your organization's logo. Provide a cpcontents link as the account logo. The URL needs to be web encoded.</p>
+   </td>
   </tr>
-    </tbody>
+  <tr>
+   <td>
+    <p>App store id for the app (iOS)</p>
+   </td>
+   <td>
+    <p>The ID required for implementing the force update. The App needs to know the learner should be redirected to the App store, to update the app.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Google play store id for the app (Android)</p>
+   </td>
+   <td>
+    <p>The ID required for implementing the force update.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Hostname for deep linking</p>
+   </td>
+   <td>
+    <p>To host your deep links, use learningmanager. If you want to use another hostname URL as a deep link, provide the URL of the host. For example, learningmanager.adobe.com.</p>
+   </td>
+  </tr>
+ </tbody>
 </table>
 
 >[!NOTE]
