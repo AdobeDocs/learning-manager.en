@@ -28,7 +28,7 @@ You cannot edit the name of the skill, description and add levels to external sk
 
 ### Default course skills and credits
 
-After you import skills, they are added to the learning resources imported from the source which was selected as skill source. For example, if your skill source was LinkedIn Learning, all learning resources imported from LinkedIn Learning will have the skills provided by it. When imported into learning resources, each learning resource gives a default of 10 credits. If you want to change this, please contact your CSM.
+After you import skills, they are added to the learning resources imported from the source which was selected as skill source. For example, if your skill source was LinkedIn Learning, all learning resources imported from LinkedIn Learning will have the skills provided by it. When imported into learning resources, each learning resource gives a default of 10 credits.
 
 #### Reporting
 
