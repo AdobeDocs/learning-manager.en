@@ -174,16 +174,31 @@ If you can connect to the server, the certificate you've created is valid. From 
 
 ### Push notifications on Android
 
-Set up a project in Firebase and share the server key with the CSAM.
+For Android, the user needs to provide the services.json file from the Firebase project for adding the entry in the SNS service.
 
-Contact the CSM team and get the files added to the SNS services on AWS. Users will have to get the entry registered in the SNS service for the push notification, which will require them to share the certificates generated above for validation.
+Create a project in Firebase and share the services.json file to the CSM team. This file is needed for token-based entry in the SNS. Note that the server key is no longer used. See [Create project in Firebase](#create-project-in-firebase). 
 
->[!NOTE]
->
->For Android, the user needs to provide the server key from the Firebase project they create for Android for adding the entry in the SNS service.
+To download the services.json file, follow these steps:
 
+1. Log in to the **Firebase** console.
+1. Go to **Project settings** and select **Cloud Messaging**.
+1. Find **Firebase Cloud Messaging API** and select **Manage Service Accounts**.
+1. In the **Service cccounts** page, select the **Service Accounts** in the left panel.
+1. Find your project entry, and select **Manage details** under actions.
 
-## Create project in Firebase
+   >[!NOTE]
+   >
+   >   The project entry format will be <-accountname->@appspot.gserviceaccount.com.
+
+1. Go to the **Keys** tab and select **Add Key**.
+1. If there is no key, select **Create new key** and select **JSON** as the key type. This will generate and download the JSON file.
+1. If there is already a key, select **Upload existing key**, paste the key, and upload it. This will generate and download the JSON file.
+
+<!-- Set up a project in Firebase and share the server key with the CSAM.-->
+
+Contact the CSM team and share the JSON file for adding the entry to the SNS services on AWS. Users will have to get the entry registered in the SNS service for the push notification, which will require them to share the certificates generated above for validation.
+
+## Create project in Firebase {#create-project-in-firebase}
 
 ### Android
 
