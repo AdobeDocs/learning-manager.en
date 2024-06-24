@@ -111,6 +111,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Programs](learners/feature-summary/learning-programs.md)
    * [Certifications](learners/feature-summary/certifications.md)
    * [Job Aids](learners/feature-summary/job-aids.md)
+   * [Multi item cart in ALM](learners/feature-summary/multi-item-cart.md)
    * [Badges](learners/feature-summary/badges.md)
    * [Skills & Levels](learners/feature-summary/skills-levels.md)
    * [Gamification](learners/feature-summary/gamification.md)
