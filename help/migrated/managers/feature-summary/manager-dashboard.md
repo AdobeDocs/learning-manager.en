@@ -77,9 +77,53 @@ To generate an excel report, click **[!UICONTROL Actions] > [!UICONTROL Report]*
 
 ## Compliance Status {#compliancestatus}
 
-Managers can view the team's overall compliance status for configured learnings in compliance dashboard. The learnings list is configurable, and the manager can select the learnings to track the compliance status.
+In the compliance dashboard, managers can view the team's overall compliance status for configured learnings across specific categories(for example, Sales, Marketing, and Legal). Admins can create a dashboard with compliance courses/learning paths/certification and share with the managers. Managers can view the dashboard shared by the admin in their instances.
 
-On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+### View the dashboard
+
+In the manager app, select **[!UICONTROL Compliance Dashboard]**. You can view the dashboard shared by the admin. 
+
+![](assets/compliance-dashboard-manager.png)
+_Compliance dashboard manager_
+
+The compliance dashboard now includes the following compliance statuses:
+
+* **[!UICONTROL Non-compliant Learners]**: Shows the number of learners who missed deadlines.
+* **[!UICONTROL Learners approaching deadlines]**: Shows the count of learners with deadlines (less than 30 days).
+* **[!UICONTROL Learners with safe deadlines]**: Shows the count of learners with deadlines further out (more than 30 days).
+* **[!UICONTROL Fully compliant Learners]**: Shows the count of fully compliant learners.
+* **[!UICONTROL Learners not enrolled anywhere]**: Shows the count of learners not enrolled in any courses/learning paths/certifications.
+
+### Email managers and learners
+
+If you manage multiple teams, you can notify your managers about their team members' learning status by selecting the **[!UICONTROL Email Managers]** option available in the **[!UICONTROL Team view]** section.
+
+![](assets/email-managers.png)
+_Email managers_
+
+The **[!UICONTROL Email Managers]** option provides you with the following options:
+
+* **[!UICONTROL Email Managers of Non-compliant Learners]**: Notify managers whose team members missed deadlines.
+* **[!UICONTROL Email Managers of Learners Approaching Deadlines]**: Notify managers whose team members have upcoming deadlines.
+
+If you manage a single team, you can notify your learners about their learning status by selecting the **[!UICONTROL Email Learners]** option available in the **[!UICONTROL Team view]** section.
+
+![](assets/email-learners.png) 
+_Email learners_
+
+The **[!UICONTROL Email Learners]** option provides you with the following options:
+
+* **[!UICONTROL Email Non-compliant Learners]**: Notify learners who missed deadlines.
+* **[!UICONTROL Email Learners Approaching Deadlines]**: Notify learners who have upcoming deadlines.
+
+### Download report
+
+In the manager app, go to **[!UICONTROL Compliance Dashboard]** > **[!UICONTROL Team view]**. Select **[!UICONTROL Download report]** to save your dashboard as a report. This lets you track your team's overall learning progress.
+ 
+![](assets/download-report.png)
+_Download reports_
+
+<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
 Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
 
@@ -137,7 +181,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png)
 
-*Export and email data*
+*Export and email data*-->
 
 ## Team Skills {#teamskills}
 

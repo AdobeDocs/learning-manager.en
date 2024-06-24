@@ -15,9 +15,67 @@ After the Administrator enables Immersive layout, the learner, after signing int
 >
 >The Immersive Layout is not supported on the IE11 browser.
 
-Based on whether a widget was enabled, the learner sees the following: 
+## New learner UI for immersive layout
 
-## Masthead {#masthead}
+>[!IMPORTANT]
+>
+>The new learner UI will be released in phases. 
+
+The **Learner UI** has been refreshed with a more elegant and modern design. The new UI aims to provide a consistent user experience. The following pages are getting a new and modern look: **[!UICONTROL Learner Home]**, **[!UICONTROL My Learning]**, **[!UICONTROL Catalog]**, and **[!UICONTROL Course Overview]** landing pages. Course cards also have a new design to display details in a modern way. Hovering over a course card shows the course description and publication date. 
+The new refreshed visual elements align with modern design trends, making the product look intuitive and appealing. This includes a new masthead, side panel, and modern-looking widgets.
+
+>[!NOTE]
+>
+>The revamped **User Interface** applies only to the **Immersive layout**. These changes are not supported on the mobile web/app yet and will be updated in a future release.
+
+![](assets/old-ui.png)
+_Old user interface_
+ 
+![](assets/home-page-new.jpg) 
+_New user interface_
+
+### Homepage
+
+The homepage has a new design with an improved side panel, top header, enhanced course cards, and modern-looking widgets.
+
+![](assets/new-ui-homepage.png) 
+_New homepage_
+
+### Catalog page
+
+Catalog pages have a new look with organized filters and enhanced course cards to provide a better user experience. 
+
+![](assets/catalog.jpg)
+_Catalog page_
+
+### Course overview page
+
+The course overview page has a new look with more details about the course. This helps learners get all the information they need.
+
+![](assets/course-overview.jpg) 
+_Course overview page_
+
+### Course cards
+
+Consistent player launch from all pages to give learners a unified experience and easy access to course/learning paths
+Revamped course cards now highlight relevant metadata required for enrollment. This metadata includes correct published or due dates, ratings, and a description along with their authors/providers. 
+
+![](assets/old-course-cards.png)
+_Old course card_
+
+![](assets/new-course-card.jpg) 
+_New course card_
+
+For **LinkedIn** and **Go1** courses, the course cards will show the real publish dates from **LinkedIn** and **Go1**. You can also see these actual publish dates on the **User Interface**.
+
+### Sidebar and search bar
+
+The sidebar is updated with new UI elements for a cleaner look. The new search bar has no search icon, giving it a more modern look. Learners can type a keyword and press enter to start the search or select results that appear below the search bar.
+
+![](assets/side-bar.png)
+_Sidebar and search bar_
+
+### Masthead {#masthead}
 
 Features a video or image carousel with an embedded URL. The [Administrator can upload any image or video](../../administrators/feature-summary/announcements.md#masthead) asset as a masthead and set its visibility for a group of learners.
 
@@ -25,7 +83,7 @@ Features a video or image carousel with an embedded URL. The [Administrator can 
 
 *View masthead*
 
-## My Learning List {#mylearninglist}
+### My Learning List {#mylearninglist}
 
 Displays the training that the learner had taken. These trainings are displayed as cards lined up horizontally. You can click the right or left button to browse the courses. 
 
