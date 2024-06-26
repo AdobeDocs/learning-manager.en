@@ -226,13 +226,13 @@ Also, you can see a bar chart view of skills that are in progress and have been 
 
 ### Compliance dashboard
 
-**Adobe Learning Manager** offers compliance dashboard to all admins and managers. Admins can create a compliance dashboard and share it with managers. Managers will be able to view the newly shared dashboard on their instance and cans easily track compliance of their team members for a particular training. Compliance dashboard allows admins to categorize custom compliance courses into specific categories  (for example, Sales, Marketing, and Legal). Custom compliance categories are powered by catalog labels. 
+**Adobe Learning Manager** offers compliance dashboard to all administrators and managers. Administrators can create a compliance dashboard and share it with managers. Managers will be able to view the newly shared dashboard on their app and can easily track compliance of their team members for a particular training. Compliance dashboard allows administrators to categorize custom compliance courses into specific categories  (for example, Sales, Marketing, and Legal). Custom compliance categories are powered by catalog labels. 
 
 ![](assets/compliance-dashboard-admin.png)
 
-_Compliance dashboard admin_
+_Compliance dashboard-Administrator view_
 
-Admins can also check the compliance status for each manager's team by selecting **[!UICONTROL Go to Compliance dashboard]**. An Admins can share a set of training courses with managers individually or with a group. This helps manager to easily track the compliance of their teammates for the specified training.
+Administrators can also check the compliance status for each manager's team by selecting **[!UICONTROL Go to Compliance dashboard]**. Administrators can share a set of training courses with managers individually or with a group. This helps manager to easily track the compliance of their teammates for the specified training.
 
 #### Admin workflow
 
@@ -246,42 +246,42 @@ To create a custom compliance label, follow these steps:
 
  
    ![](assets/custom-compliance.png)
-   _Enable custom compliance_
+   _Enable Custom Compliance_
 
    >[!NOTE]
    >
-   >This new catalog label has been introduced to categorize the courses, learning paths, and certifications as a compliance type. To enable the Custom Compliance type option, you must first enable the Show Catalog Label option in the same page.
+   >This new catalog label has been introduced to categorize the courses, learning paths, and certifications as a compliance type. To enable the **[!UICONTROL  Custom Compliance type]** option, you must first enable the **[!UICONTROL Show Catalog Label]** option in the same page.
 
 1. Go to **[!UICONTROL Settings]** > **[!UICONTROL Catalog Label]** and select the **[!UICONTROL Compliance type]**.
 1. Type the values (e.g., Legal, Sales) in the **[!UICONTROL Value]** text box and select **[!UICONTROL Add Value]**.
 
    ![](assets/custom-compliance-values.png)
-   _Add values for custom compliance_
+   _Add values for Custom Compliance_
 
 1. Select **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->The Author must add these compliance labels while creating/editing the courses in their instance. See Add compliance labels to a courses/learning path/certification.
+>The Author must add these compliance labels while creating/editing the courses in their app. See [Add compliance labels to a course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
 
 ##### Create and share a compliance dashboard
 
 To create and share a compliance dashboard, follow these steps:
 
-1. Go to **Re[!UICONTROL ]ports** > **[!UICONTROL Learning Summary]**.
+1. Go to **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**.
 1. In the **[!UICONTROL Compliance Dashboard]** section, select **[!UICONTROL Shared with Managers]**.
-1. Select **[!UICONTROL Share dashboard]** and select the created labels from **[!UICONTROL Custom compliance]** dropdown menu. 
+1. Select **[!UICONTROL Share dashboard]** and select the created labels from the **[!UICONTROL Custom compliance]** dropdown menu. 
  
 
    ![](assets/compliance-type.png)
-   _Compliance type_
+   _Select the Compliance type_
 
 1. Type and select the manager's name in the **[!UICONTROL Share with]** text box.
 1. Select **[!UICONTROL Share]** to send the dashboard to the selected manager.
 
 >[!NOTE]
 >
->Sharing the new dashboard will overwrite the existing dashboard in the selected manager's instance. Managers will be able to view the newly shared dashboard by the admins. Sharing is only supported for people with manager roles only.
+>Sharing the new dashboard will overwrite the existing dashboard in the selected manager's app. Managers will be able to view the newly shared dashboard by the administrators. Sharing is only supported for people with manager roles only.
 
 <!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
 
@@ -343,7 +343,7 @@ In the list of shared training, click **[!UICONTROL View]**. You can view the tr
 
 ## Custom reports
 
-Admins can generate specific reports using the custom template available in the **[!UICONTROL Reports]** section.
+Administrators can generate specific reports using the custom template available in the **[!UICONTROL Reports]** section.
 
 ### Sample reports {#samplereports}
 

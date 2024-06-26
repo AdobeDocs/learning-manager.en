@@ -73,28 +73,30 @@ To view details including people, enrollment dates, due dates, and progress for 
 
 ## Export report {#exportreport}
 
-To generate an excel report, click **[!UICONTROL Actions] > [!UICONTROL Report]** 
+To generate an excel report, select **[!UICONTROL Actions] > [!UICONTROL Report]** 
 
 ## Compliance Status {#compliancestatus}
 
-In the compliance dashboard, managers can view the team's overall compliance status for configured learnings across specific categories(for example, Sales, Marketing, and Legal). Admins can create a dashboard with compliance courses/learning paths/certification and share with the managers. Managers can view the dashboard shared by the admin in their instances.
+In the compliance dashboard, managers can view the team's overall compliance status for configured learnings across specific categories (for example, sales, marketing, and legal). Admins can create a dashboard with compliance courses, learning paths, or certification and share with the managers. Managers can view the dashboard shared by the admin in their instances.
 
 ### View the dashboard
 
-In the manager app, select **[!UICONTROL Compliance Dashboard]**. You can view the dashboard shared by the admin. 
+To view dashboard, select **[!UICONTROL Compliance Dashboard]** from manager app.
 
 ![](assets/compliance-dashboard-manager.png)
 _Compliance dashboard manager_
 
-The compliance dashboard now includes the following compliance statuses:
+The compliance dashboard includes the following compliance statuses:
 
 * **[!UICONTROL Non-compliant Learners]**: Shows the number of learners who missed deadlines.
-* **[!UICONTROL Learners approaching deadlines]**: Shows the count of learners with deadlines (less than 30 days).
+* **[!UICONTROL Learners approaching deadlines]**: Shows the number of learners with deadlines in less than 30 days.
 * **[!UICONTROL Learners with safe deadlines]**: Shows the count of learners with deadlines further out (more than 30 days).
 * **[!UICONTROL Fully compliant Learners]**: Shows the count of fully compliant learners.
-* **[!UICONTROL Learners not enrolled anywhere]**: Shows the count of learners not enrolled in any courses/learning paths/certifications.
+* **[!UICONTROL Learners not enrolled anywhere]**: Shows the count of learners not enrolled in any courses, learning paths, or certifications.
 
 ### Email managers and learners
+
+**Managing multiple teams**
 
 If you manage multiple teams, you can notify your managers about their team members' learning status by selecting the **[!UICONTROL Email Managers]** option available in the **[!UICONTROL Team view]** section.
 
@@ -105,6 +107,8 @@ The **[!UICONTROL Email Managers]** option provides you with the following optio
 
 * **[!UICONTROL Email Managers of Non-compliant Learners]**: Notify managers whose team members missed deadlines.
 * **[!UICONTROL Email Managers of Learners Approaching Deadlines]**: Notify managers whose team members have upcoming deadlines.
+
+**Managing single team**
 
 If you manage a single team, you can notify your learners about their learning status by selecting the **[!UICONTROL Email Learners]** option available in the **[!UICONTROL Team view]** section.
 
@@ -118,7 +122,11 @@ The **[!UICONTROL Email Learners]** option provides you with the following optio
 
 ### Download report
 
-In the manager app, go to **[!UICONTROL Compliance Dashboard]** > **[!UICONTROL Team view]**. Select **[!UICONTROL Download report]** to save your dashboard as a report. This lets you track your team's overall learning progress.
+To download the report, follow these steps:
+
+1. In the manager app, go to **[!UICONTROL Compliance Dashboard]** > **[!UICONTROL Team view]**.
+1. Select **[!UICONTROL Download report]** to save your dashboard as a report. 
+   This lets you track your team's overall learning progress.
  
 ![](assets/download-report.png)
 _Download reports_

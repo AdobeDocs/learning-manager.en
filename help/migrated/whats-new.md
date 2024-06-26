@@ -73,6 +73,10 @@ Learners will now see a consistent card view on the following pages: Homepage , 
 
 View [Learner home page](/help/migrated/learners/feature-summary/learner-home-page.md) for more information.
 
+**Changes to the course publication dates**
+
+With this enhancement, the publish dates for LinkedIn and Go1 courses imported into Adobe Learning Manager will be the actual publish dates on LinkedIn and Go1. You can view the actual published dates for the LinkedIn and Go1 courses on the User Interface as well. View [Course cards](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) for more information.
+
 ## Updates to non-logged in experience
 
 The non-logged-in experience allows you to create a real-time experience for non-logged in customers. This serves as a landing page for their marketing campaigns, providing enough information to encourage sign-ups. 
@@ -109,7 +113,64 @@ With the new enhancement, the course with the external link will automatically b
 
 ## Course overdue push notifications on the mobile app
 
-Learners will receive push notifications whenever they miss a course deadline. With this new enhancement, learners will now have the option to either snooze a reminder for 24 hours or get reminded next week for each overdue reminder they receive. This is applicable only for deadline overdue notifications. View [Course cards](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) for more information.
+Learners will receive push notifications whenever they miss a course deadline. With this new enhancement, learners will now have the option to either snooze a reminder for 24 hours or get reminded next week for each overdue reminder they receive. This is applicable only for deadline overdue notifications. 
+
+## API changes in this release
+
+### Changes in search API
+
+The following are the changes made to the search API in this update:
+
+* Learners can search for tags within catalog filters using the ```GET /search``` API. Learners can search for the tags by selecting ```tag``` as a value for ```filter.loTypes``` parameter.
+* The new filters, seat available, waitlist available, and time range filter have been added to the following APIs: ```GET /search``` and `GET /learningObjects`.
+* The new filters `filter.session.includeEnrollmentDeadline` has been added to the following API ```GET /search```.
+
+### Changes in account API
+
+The new column `custom_injections`, `showComplianceLabel`, and `complianceLabelDefaultID` have been added in the ```GET /account``` API to get account data of user endpoint.
+
+### Changes in learning object API
+
+The following are the changes made to the learning object API in this update:
+
+* The new response legacy author ID and other details added under `authorDetails` in the `GET /learningObjects` API. Additionally, a new filter, `filter.authors`, has been added to filter legacy authors and their courses.
+* The new attribute called `effectivenessIndex` will help you get the course effectiveness data. 
+* The new response `whoShouldTake`, which gives details about who should take this course, has been added to the following APIs: `POST /learningObjects/query`, `GET /learningObjects/{id}`, and `GET /learningObjects`.
+* The new response `waitlistLimit`, which gives details about waitlist limitation, has been added to the `GET /learningObjects` API.
+* The new response `count` which give total count of learning object, has been added to the APIs `GET/ learningObjects` and `POST/ learningObjects/query`
+* The new responses, `catalogFieldId` and `fieldValueId` have been added under `catalogLabels` in `GET/ learningObjects` API.
+* Learners can get the catalog label values in the API `GET /preview/learningObjects`.
+
+### New API to get marketplace count
+
+In this release, new API `GET /search/marketplace/count` has been added to get the content marketplace count. 
+
+**Sample curl**
+
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth d8631c7b0e3b5d2ae00422ef30aaecfc' 'https://learningmanagerstage1.adobe.com/primeapi/v2/search/marketplace/count?query=course'
+```
+
+**Sample response**
+
+```
+{
+  "count": 54910
+}
+```
+
+### Changes in the LO instance API
+
+The following are the changes made to the learning object instance API in this update:
+
+* In this release, a new key called `gamificationEnabled` has been added to the learning object instance API `GET /learningObjects/{loId}/instances/{loInstanceId}`.
+* The new `gamificationSettings` attribute to the above API to get the details of the gamification settings. For example: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
+* The new `leaderboard` attribute to the above API to get the details of the gamification settings. For example: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
+
+
+### Changes to offset limits
+
+To improve system performance and manage resource utilization more effectively, Adobe has deprecated high offset values in the GET /users endpoint for both ADMIN and LEARNER scopes. We recommend using the Jobs API to retrieve the records with an offset value.
 
 ## Changes to reporting
 

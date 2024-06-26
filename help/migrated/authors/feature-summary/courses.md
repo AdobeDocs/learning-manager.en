@@ -105,7 +105,7 @@ To create a course, follow the steps below:
 To add the compliance labels to courses, follow these steps:
 
 1. In the author app, go to **[!UICONTROL Courses]**/**[!UICONTROL Learning Paths]**/**[!UICONTROL Certifications]** and select **[!UICONTROL Add]**.
-1. Type the name and other details.
+1. Type the name and other details such as description, skills, etc.
 1. In the **[!UICONTROL Custom compliance]** text box, type and select the compliance label.
  
    ![](assets/add-compliance-label.png)
@@ -113,14 +113,14 @@ To add the compliance labels to courses, follow these steps:
 
    >[!IMPORTANT]
    >
-   >Make sure to set a deadline for the course when you're adding custom compliance
+   >Make sure to set a deadline for the course when you're adding Custom Compliance
 
 1. Save and publish the course/learning path/certification. 
 Now the course/learning path/certification is considered as compliance type. Admins can add this course to the compliance dashboard and share it with managers to track the progress
 
 >[!NOTE]
 >
->Author can also add the compliance labels to the existing course/learning path/certification by editing them. 
+>Authors can also add the compliance labels to an existing course/learning path/certification by editing them. 
 
 ## Gamification points
 
@@ -479,9 +479,9 @@ To add a content module, perform the steps below:
 
 1. On the top-right corner of the page, click **[!UICONTROL Save]**.
 
-#### Add HTML link in the activity module
+#### Add HTML link in the Activity Module
 
-Authors can add HTML links in the activity module and set the completion criteria. To add an HTML link and set completion criteria, follow these steps:
+Authors can add HTML links in the activity module and set the completion criteria. To add an HTML link and set a completion criteria, follow these steps:
 
 1. In the author app, select **[!UICONTROL Create Courses]** on the home page.
 1. In the **[!UICONTROL Course Catalog]** screen, select **[!UICONTROL Add]**.
@@ -490,13 +490,13 @@ Authors can add HTML links in the activity module and set the completion criteri
 1. In the **[!UICONTROL Activity Module]** prompt, type the name and description.
 1. Select the **[!UICONTROL Type]** as **[!UICONTROL External URL]**.
 1. Select any of the following options from the **[!UICONTROL Completion Criteria]** option.
-   * **[!UICONTROL Learner marks complete]**: The learner has the option to mark the course as complete in the fluidic player.
-   * **[!UICONTROL On Launching content]**: The course will be marked as complete automatically when the learner launches it.
+   * **[!UICONTROL Learner marks complete]**: The learner has the option to mark the course as complete in the Fluidic Player.
+   * **[!UICONTROL On Launching content]**: The course will automatically be marked as complete, when the learner launches it.
  
    ![](assets/completion-criteria-activity-module.png)
    _Completion criteria_
 
-1.Select **[!UICONTROL Add]** and publish the course.
+1. Select **[!UICONTROL Add]** and publish the course.
 
 ## Checklist {#create-checklist}
 

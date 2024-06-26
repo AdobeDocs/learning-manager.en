@@ -119,6 +119,13 @@ Choose an option and you can then see the course catalog according to the select
 
 *Select skill levels*
 
+## Compliance dashboard widget
+
+The Compliance dashboard widget allows learners to filter courses/learning paths/certifications that have upcoming deadlines using the Compliance label. This feature is available on all learner apps, including ALM Teams app, AEM, Mobile app, Immersive, and SF app.
+
+![](assets/compliance-status-learner.png)
+_Compliance dashboard widget_
+
 ## Calendar {#calendar}
 
 Shows your scheduled sessions and training. Browse the calendar to see training for subsequent months. 
