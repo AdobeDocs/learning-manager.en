@@ -226,13 +226,13 @@ Also, you can see a bar chart view of skills that are in progress and have been 
 
 ### Compliance dashboard
 
-**Adobe Learning Manager** offers compliance dashboard to all administrators and managers. Administrators can create a compliance dashboard and share it with managers. Managers will be able to view the newly shared dashboard on their app and can easily track compliance of their team members for a particular training. Compliance dashboard allows administrators to categorize custom compliance courses into specific categories  (for example, Sales, Marketing, and Legal). Custom compliance categories are powered by catalog labels. 
+**Adobe Learning Manager** offers compliance dashboard to all administrators and managers. Administrators can create a compliance dashboard and share it with managers. Managers will be able to view the newly shared dashboard on their app and can easily track compliance of their team members for a particular training. Compliance dashboard allows administrators to categorize custom compliance courses into specific categories  (for example, Sales, Marketing, and Legal). Custom compliance categories are powered by **[!UICONTROL Catalog Labels]**. 
 
 ![](assets/compliance-dashboard-admin.png)
 
 _Compliance dashboard-Administrator view_
 
-Administrators can also check the compliance status for each manager's team by selecting **[!UICONTROL Go to Compliance dashboard]**. Administrators can share a set of training courses with managers individually or with a group. This helps manager to easily track the compliance of their teammates for the specified training.
+Administrators can also check the compliance status for each manager's team by selecting **[!UICONTROL Go to Compliance dashboard]**. Administrators can share a set of training courses with managers individually or with a group. This helps managers to easily track the compliance of their teammates for the specified training.
 
 #### Admin workflow
 

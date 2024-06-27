@@ -9,56 +9,54 @@ exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
 
 ## Overview {#overview}
 
-After the Administrator enables Immersive layout, the learner, after signing into the app, is greeted with a completely revamped User Interface. 
+After the Administrator enables Immersive layout, the learner is greeted with a completely revamped User Interface when signing into the app.
 
 >[!NOTE]
 >
->The Immersive Layout is not supported on the IE11 browser.
+>The IE11 browser does not support the Immersive layout.
 
-## New learner UI for immersive layout
+## New learner UI for Immersive layout
 
 >[!IMPORTANT]
 >
->The new learner UI will be released in phases. 
+>We will release the new learner UI in phases. 
 
-The **Learner UI** has been refreshed with a more elegant and modern design. The new UI aims to provide a consistent user experience. The following pages are getting a new and modern look: **[!UICONTROL Learner Home]**, **[!UICONTROL My Learning]**, **[!UICONTROL Catalog]**, and **[!UICONTROL Course Overview]** landing pages. Course cards also have a new design to display details in a modern way. Hovering over a course card shows the course description and publication date. 
-The new refreshed visual elements align with modern design trends, making the product look intuitive and appealing. This includes a new masthead, side panel, and modern-looking widgets.
+We have refreshed the Learner UI with a more sleek and updated design. The new UI aims to provide a consistent user experience across **[!UICONTROL Learner Home]**, **[!UICONTROL My Learning]**, **[!UICONTROL Catalog]**, and **[!UICONTROL Course Overview]** landing pages. The new visual elements follow current design styles, making the product look more easy to use and attractive. This update includes a new masthead, side panel, and contemporary widgets
 
 >[!NOTE]
 >
->The revamped **User Interface** applies only to the **Immersive layout**. These changes are not supported on the mobile web/app yet and will be updated in a future release.
+>The revamped User Interface applies only to the Immersive layout. The mobile web/app does not support these changes yet and will update them in a future release.
 
 ![](assets/old-ui.png)
-_Old user interface_
+_Old User Interface_
  
 ![](assets/home-page-new.jpg) 
-_New user interface_
+_New User Interface_
 
 ### Homepage
 
-The homepage has a new design with an improved side panel, top header, enhanced course cards, and modern-looking widgets.
+The homepage has a new design with an improved side panel, top header, enhanced course cards, and widgets.
 
 ![](assets/new-ui-homepage.png) 
 _New homepage_
 
 ### Catalog page
 
-Catalog pages have a new look with organized filters and enhanced course cards to provide a better user experience. 
+The Catalog pages have a new look with organized filters and enhanced course cards to provide a better user experience. 
 
 ![](assets/catalog.jpg)
 _Catalog page_
 
 ### Course overview page
 
-The course overview page has a new look with more details about the course. This helps learners get all the information they need.
+The course overview page has a new look with more details about the course. This page helps learners get all the information they need.
 
 ![](assets/course-overview.jpg) 
 _Course overview page_
 
 ### Course cards
 
-Consistent player launch from all pages to give learners a unified experience and easy access to course/learning paths
-Revamped course cards now highlight relevant metadata required for enrollment. This metadata includes correct published or due dates, ratings, and a description along with their authors/providers. 
+Course cards also feature a redesigned layout to display details in an improved manner. Revamped course cards highlight relevant metadata required for enrollment. This metadata includes correct published or due dates, ratings, and a description along with their authors or providers. 
 
 ![](assets/old-course-cards.png)
 _Old course card_
@@ -66,11 +64,11 @@ _Old course card_
 ![](assets/new-course-card.jpg) 
 _New course card_
 
-For **LinkedIn** and **Go1** courses, the course cards will show the real publish dates from **LinkedIn** and **Go1**. You can also see these actual publish dates on the **User Interface**.
+For courses imported from **LinkedIn** and the **Go1** platform, the course cards will display the original publication dates from **LinkedIn** and **Go1**. You can also view these specific publication dates on the User Interface.
 
 ### Sidebar and search bar
 
-The sidebar is updated with new UI elements for a cleaner look. The new search bar has no search icon, giving it a more modern look. Learners can type a keyword and press enter to start the search or select results that appear below the search bar.
+The sidebar is updated with new UI elements for a cleaner look. The new search bar has no search button, giving it a more cleaner look. Learners can type a keyword and press enter to start the search or select results that appear below the search bar.
 
 ![](assets/side-bar.png)
 _Sidebar and search bar_

@@ -128,7 +128,7 @@ The table below shows the type of interactive and static file types that you can
 
 1. In the **[!UICONTROL Duration]** field, you can optionally type the expected time a learner would spend in this module. The duration is in minutes.
 
-   The learning time spent by the learner is calculated based on the duration specified if the learner has marked a course as complete. If learner consumes the content in the player, then the time spent in the player gets added to learning time spent. If the actual content time is less than the specified duration, nothing happens as the player always honors the content time for display.
+   If the learner marks a course as complete, we calculate the learning time based on the specified duration. If learner consumes the content in the player, then the time spent in the player gets added to learning time spent. If the actual content time is less than the specified duration, the player displays the content time as is. No changes are made in this case.
 
 1. In the **[!UICONTROL Tags]** field, type the tags for the uploaded content so that your content becomes discoverable.
 
@@ -136,16 +136,19 @@ The table below shows the type of interactive and static file types that you can
 
 ### Add HTML5 file type in the content library
 
-Authors can add HTML5 content as a .zip file to self-paced content. Learners can view the HTML5 content in the fluidic player. Author can add this HTML5 content to the self-paced module of a course and set the completion criteria. Authors can set the criteria for completing the HTML course in one of two ways: either the learner can mark it as complete themselves, or it will be marked as complete once they start the course.
+Authors can add HTML5 content as a .zip file to self-paced content. Learners can view the HTML5 content in the fluidic player. Author can add this HTML5 content to the self-paced module of a course and set the completion criteria. Authors can set the criteria for completing the HTML course in one of two ways: 
+
+* The learner can mark it as complete themselves.
+* It will be marked as complete once they launch the course.
 
 To add the HTML file type(.zip) to the content library, follow these steps:
 
 1. In the author app, select **[!UICONTROL Create Content]** on the home page.
 1. In the **[!UICONTROL Content Library]** screen, select **[!UICONTROL Add]** > **[!UICONTROL Content]**.
 1. Type the name and description of the content.
-1. In the **[!UICONTROL Add Content File]** option, browse and select the HTML files(zipped as a folder).
-1. Upon the content added, you can see the content on the **[!UICONTROL Content Library]** section.
-1. Select the HTML content and select **[!UICONTROL Edit]**.
+1. Select the **[!UICONTROL Add Content File]** option, then browse and select the HTML files(zipped as a folder).
+1. Upon the content added, you can view the content on the **[!UICONTROL Content Library]** section.
+1. Select the HTML content and then select **[!UICONTROL Edit]**.
 1. Select any of the following options from the **[!UICONTROL Completion Criteria]** option.
    * **[!UICONTROL On Launching content]**: The course will be marked as complete automatically when the learner launches it.
    * **[!UICONTROL Learner marks complete]**: The learner has the option to mark the course as complete in the fluidic player.
@@ -153,10 +156,10 @@ To add the HTML file type(.zip) to the content library, follow these steps:
    ![](assets/add-compliance-label.png)
    _Completion criteria_
 
-1. Select Save.
-1. Create a course by adding this content. See Creating, modify, and publish courses for more information. 
+1. Select **[!UICONTROL Save]**.
+1. Create a course by adding this content.  For more information, view [Creating, modify, and publish courses](/help/migrated/authors/feature-summary/courses.md). 
 
-In the learner app, if an author selects selection criteria as On Launching content, then the course will mark as complete when the learner launches it. If an author selects Learner marks complete, the learner will get an option to mark the course as complete. 
+In the learner app, if an author selects selection criteria as **[!UICONTROL On Launching content]**, then the course will mark as complete when the learner launches it. When an author chooses **[!UICONTROL Learner marks complete]**, the learner will have the option to mark the course as complete.
 
 ![](assets/mark-as-complete.png)
  
@@ -173,7 +176,12 @@ The content library also maintains versioning of your uploaded contents. If you 
    Alternatively, you can select **[!UICONTROL Create Content]** from the **[!UICONTROL Getting Started]** page.
 
 1. In the **[!UICONTROL Name]** field, type a name for the content that you want to upload.
-1. In the **[!UICONTROL Description]** field, type the description for the content. Make sure that the description you want to enter is meaningful. The character limit is 245 characters.
+1. In the **[!UICONTROL Description]** field, type the description for the content. 
+
+   >[!NOTE]
+   >
+   >Make sure that the description you want to enter is meaningful. The character limit is 245 characters.
+
 1. To add the content, select **[!UICONTROL Add Content File]**, and upload your resource file. When you add content for multiple languages, you cannot combine static and interactive content in a single group. Either all your content in all the locales should be static, or all the content should be interactive.
 
 * [Supported file types](content-library.md#supported)
