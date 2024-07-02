@@ -29,7 +29,7 @@ Here are the steps for using the new compliance dashboard:
 |---|---|---|
 | Admin | Create custom compliance labels | View [Create custom compliance labels](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) for more information |
 | Author | Add these labels to the course | View [Add compliance labels to course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) for more information. |
-| Admin | Create the dashboard with the compliance course and share it with managers | View [Create and share a compliance dashboard]("/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard") for more information. |
+| Admin | Create the dashboard with the compliance course and share it with managers | View [Create and share a compliance dashboard](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) for more information. |
 | Manager | View the compliance dashboard | View [Compliance status](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) for more information | 
 
 ## Learner User Interface revamp
