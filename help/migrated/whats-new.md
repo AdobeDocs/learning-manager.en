@@ -12,25 +12,25 @@ Learn about the new features and enhancements in the July 2024 release of Adobe 
 
 ### What is a compliance dashboard? {#whatiscompliancedashboard}
 
-The **[!UICONTROL Compliance Dashboard]** in **Adobe Learning Manager** allows managers to monitor and track how learners are progressing on their learning goals. They can check if team members are meeting deadlines and keeping up with their learning process, which helps ensure compliance.
-To access the compliance dashboard in the admin app, select **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+The **[!UICONTROL Compliance Dashboard]** in **Adobe Learning Manager** allows managers to monitor and track how learners are progressing on their learning goals. They can check if team members are meeting deadlines and keeping up with their learning process, which helps ensure compliance. Administrator can set up the compliance dashboard and share with the managers.
+
+To access the compliance dashboard in the Admin app, select **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
 
 ### What's changing in the release
 
-The compliance dashboard has been improved with the following updates:
-
-With the new compliance dashboard, admins and managers can view the compliance-type courses/learning path/certifications related to their specific category (for example, Sales, Marketing, and Legal). Admins can categorize custom compliance courses into specific categories. Custom compliance categories are powered by catalog labels.  Admins can create a course dashboard and share it with managers. Managers can then view the same dashboard on their respective instances. Enhancement have also been made to the User Interface of the compliance dashboard and compliance email notifications.
-
+With the new compliance dashboard, admins and managers can view the compliance-type courses/learning path/certifications related to their specific category (for example, Sales, Marketing, and Legal). Admins can categorize custom compliance courses into specific categories. Custom compliance categories are powered by catalog labels.  Admins can create a course dashboard and share it with managers. Managers can then view the same dashboard on their respective instances. Enhancement have also been made to the User Interface of the compliance dashboard and compliance email notifications. 
 ![](assets/compliance-dashboard-admin.png)
 
 #### Workflow
 
 Here are the steps for using the new compliance dashboard:
 
-1. Create custom compliance labels. View [Create custom compliance labels](/help/migrated/administrators/feature-summary/reports.md#create-custom-compliance-labels) for more information.
-1. Add these labels to the course. View [Add compliance labels to course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) for more information.
-1. Create the dashboard with the compliance course and share it with managers. View [Create and share a compliance dashboard](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) for more information.
-1. Managers view the compliance dashboard. View [View the dashboard](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) for more information.
+| Role | Task | Additional Information |
+|---|---|---|
+| Admin | Create custom compliance labels | View [Create custom compliance labels](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) for more information |
+| Author | Add these labels to the course | View [Add compliance labels to course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) for more information. |
+| Admin | Create the dashboard with the compliance course and share it with managers | View [Create and share a compliance dashboard]("/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard") for more information. |
+| Manager | View the compliance dashboard | View [Compliance status](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) for more information | 
 
 ## Learner User Interface revamp
 
@@ -52,19 +52,17 @@ _New User Interface_
 
 ### What is changing in this release
 
-The Learner UI has been refreshed with a more elegant and modern design. The new UI aims to provide a consistent user experience. 
-
 **Modernize look and feel**
 
 The new refreshed visual elements align with modern design trends, making the product look intuitive and appealing. This includes a new masthead, side panel, and modern-looking widgets.
 
-**Enhanced user experience (UX)**
+**Enhanced user experience**
 
 Learners will now view a similar card view on the following pages: Homepage , Catalog, My Learning, and Course Overview pages offering a unified experience.
 
 View [Learner home page](/help/migrated/learners/feature-summary/learner-home-page.md) for more information.
 
-**Changes to the course publication dates**
+**Changes to course publication dates**
 
 With this enhancement, the publish dates for LinkedIn and Go1 courses imported into Adobe Learning Manager will be the actual publish dates on LinkedIn and Go1. You can view the actual published dates for the LinkedIn and Go1 courses on the User Interface as well. View [Course cards](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) for more information.
 
@@ -74,7 +72,7 @@ The non-logged-in experience allows you to create a real-time experience for non
 
 ### What's changing in this release
 
-Customers can purchase a premium plan to build this highly scalable non-logged-in experiences. This non-logged experience, powered by the [Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), provides real-time data on seat limits, seats occupied, waitlist limits, and waitlist counts using ALM APIs. Customers can use these APIs to offer non-logged-in learners search and filter capabilities and a complete course summary. 
+Customers can purchase a premium plan to build this highly scalable non-logged-in experiences. This non-logged experience, powered by the [Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), provides real-time data on seat limits, seats occupied, waitlist limits, and waitlist counts using Adobe Learning Manager APIs. Customers can use these APIs to offer non-logged-in learners search and filter capabilities and a complete course summary. 
 
 >[!NOTE]
 >
@@ -165,7 +163,7 @@ Learners can get the catalog label values in the API `GET /preview/learningObjec
 
 ### New API to get marketplace count
 
-In this release, a new API, `GET /search/marketplace/count` has been added. This helps you to a get the accurate count on the available learning objects in the content marketplace.
+In this release, a new API, `GET /search/marketplace/count` has been added. This helps you to a get the count on the available learning objects in the content marketplace.
 
 **Sample curl**
 
@@ -193,7 +191,7 @@ In this release, a new key called `gamificationEnabled` has been added to the le
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
 ```
 
-The new `gamificationSettings` attribute to the above API to get the details of the gamification settings. For example: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
+The new `gamificationSettings` attribute to the above API to get the details of the Gamification settings. For example: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
 
 **Sample curl**
 
@@ -201,7 +199,7 @@ The new `gamificationSettings` attribute to the above API to get the details of 
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
 ```
 
-The new `leaderboard` attribute to the above API to get the details of the gamification settings. For example: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
+The new `leaderboard` attribute to the above API to get the details of the Gamification settings. For example: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
 
 **Sample curl**
 
@@ -215,11 +213,15 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram
 
 To improve system performance and manage resource utilization more effectively, Adobe has deprecated high offset values in the GET /users endpoint for both ADMIN and LEARNER scopes. We recommend using the Jobs API to retrieve the records with an offset value.
 
+### Deprecated APIs
+
+View [API deprecations in Adobe Learning Manager](/help/migrated/api-deprecations-list.md) for a cumulative list of all deprecated APIs in the product.
+
 ## Changes to reporting
 
 ### Compliance dashboard
 
-In this release, the Compliance dashboard has two new columns:
+In this release, the Compliance dashboard report has two new columns:
 
 * Status
 * Compliance type
@@ -306,3 +308,12 @@ The training report in **Admin** > **Reports** > **Custom Reports** and the **Jo
 
 * Currently, after exporting all User Groups, deleted User Groups also feature in the output. 
 * Due to intermittent search issues, you're unable to search for a certification. 
+
+## System requirements
+
+View [Adobe Learning Manager system requirements](/help/migrated/system-requirements.md).
+
+## Previous releases of Adobe Learning Manager
+
+* [March 2024 release](/help/migrated/whats-new-march-2024.md)
+* [November 2024 release](/help/migrated/whats-new-november-2023.md)

@@ -84,7 +84,7 @@ In the compliance dashboard, managers can view the team's overall compliance sta
 To view dashboard, select **[!UICONTROL Compliance Dashboard]** from manager app.
 
 ![](assets/compliance-dashboard-manager.png)
-_Compliance dashboard manager_
+_Compliance dashboard-Manager app_
 
 The compliance dashboard includes the following compliance statuses:
 
@@ -103,7 +103,7 @@ If you manage multiple teams, you can notify your managers about their team memb
 ![](assets/email-managers.png)
 _Email managers_
 
-The **[!UICONTROL Email Managers]** option provides you with the following options:
+The **[!UICONTROL Email Managers]** provides you with the following options:
 
 * **[!UICONTROL Email Managers of Non-compliant Learners]**: Notify managers whose team members missed deadlines.
 * **[!UICONTROL Email Managers of Learners Approaching Deadlines]**: Notify managers whose team members have upcoming deadlines.
@@ -193,9 +193,9 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ## Team Skills {#teamskills}
 
-Managers can view the skill completion graph and configure a skill completion forecast at different levels. Five skills are listed in the skill drop-down list. The manager gets to know the expertise gained by the team members and identify strong talent in certain skills.
+Managers can view the skill completion graph and configure a skill completion forecast at different levels. The skill dropdown list includes five skills. The manager gets to know the expertise gained by the team members and identifies strong talent in certain skills.
 
-Managers can also drive certain skills in a team by setting a goal and forecasting on how long it would take to achieve a skill for specific percent of a team within a timeline.
+Managers can also drive certain skills in a team by setting a goal and forecasting on how long it would take to achieve a skill for specific percentage of a team within a timeline.
 
 This forecasting is based on system calculations which gives a view in the future for a progress of that specific skill.
 

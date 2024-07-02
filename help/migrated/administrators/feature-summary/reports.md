@@ -226,7 +226,7 @@ Also, you can see a bar chart view of skills that are in progress and have been 
 
 ### Compliance dashboard
 
-**Adobe Learning Manager** offers compliance dashboard to all administrators and managers. Administrators can create a compliance dashboard and share it with managers. Managers will be able to view the newly shared dashboard on their app and can easily track compliance of their team members for a particular training. Compliance dashboard allows administrators to categorize custom compliance courses into specific categories  (for example, Sales, Marketing, and Legal). Custom compliance categories are powered by **[!UICONTROL Catalog Labels]**. 
+**Adobe Learning Manager** offers a compliance dashboard to all administrators and managers. Administrators can create a compliance dashboard and share it with managers. Managers will be able to view the newly shared dashboard on their app and can easily track the compliance of their team members for a particular training. Compliance dashboard allow administrators to categorize custom compliance courses into specific categories  (for example, Sales, Marketing, and Legal). Custom compliance categories are powered by **[!UICONTROL Catalog Labels]**. 
 
 ![](assets/compliance-dashboard-admin.png)
 
@@ -238,11 +238,11 @@ Administrators can also check the compliance status for each manager's team by s
 
 ##### Create custom compliance labels
 
-A compliance label is a type of catalog label that categorizes courses/learning paths/certifications as compliance type.
+A compliance label is a type of catalog label that categorizes courses/learning paths/certifications as a compliance type.
 To create a custom compliance label, follow these steps:
 
-1. In the admin app, go to **[!UICONTROL Settings]** > **[!UICONTROL General]**.
-1. Select **[!UICONTROL Custom Compliance type]** option to enable. 
+1. In the Administrator app, go to **[!UICONTROL Settings]** > **[!UICONTROL General]**.
+1. Select **[!UICONTROL Custom Compliance type]** option to enable the custom compliance label.
 
  
    ![](assets/custom-compliance.png)
@@ -281,7 +281,7 @@ To create and share a compliance dashboard, follow these steps:
 
 >[!NOTE]
 >
->Sharing the new dashboard will overwrite the existing dashboard in the selected manager's app. Managers will be able to view the newly shared dashboard by the administrators. Sharing is only supported for people with manager roles only.
+>Sharing the new dashboard will overwrite the existing dashboard in the selected manager's app. Managers will be able to view the newly shared dashboard by the administrators.
 
 <!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
 

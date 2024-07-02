@@ -105,7 +105,7 @@ To create a course, follow the steps below:
 To add the compliance labels to courses, follow these steps:
 
 1. In the author app, go to **[!UICONTROL Courses]**/**[!UICONTROL Learning Paths]**/**[!UICONTROL Certifications]** and select **[!UICONTROL Add]**.
-1. Type the name and other details such as description, skills, etc.
+1. Type the name and other details such as description, skills.
 1. In the **[!UICONTROL Custom compliance]** text box, type and select the compliance label.
  
    ![](assets/add-compliance-label.png)
@@ -113,10 +113,10 @@ To add the compliance labels to courses, follow these steps:
 
    >[!IMPORTANT]
    >
-   >Make sure to set a deadline for the course when you're adding Custom Compliance
+   >Make sure to set a deadline for the course when you're adding Custom Compliance.
 
 1. Save and publish the course/learning path/certification. 
-Now the course/learning path/certification is considered as compliance type. Admins can add this course to the compliance dashboard and share it with managers to track the progress
+Now the course/learning path/certification is considered as a compliance type. Administrators can add this course to the compliance dashboard and share it with managers to track the progress
 
 >[!NOTE]
 >
@@ -484,7 +484,7 @@ To add a content module, perform the steps below:
 Authors can add HTML links in the activity module and set the completion criteria. To add an HTML link and set a completion criteria, follow these steps:
 
 1. In the author app, select **[!UICONTROL Create Courses]** on the home page.
-1. In the **[!UICONTROL Course Catalog]** screen, select **[!UICONTROL Add]**.
+1. Select **[!UICONTROL Add]** from the **[!UICONTROL Course Catalog]** screen
 1. Type the name and description of the course.
 1. In the **[!UICONTROL Module]** option, select **[!UICONTROL Add Module]** > **[!UICONTROL Activity Module]**.
 1. In the **[!UICONTROL Activity Module]** prompt, type the name and description.

@@ -128,7 +128,7 @@ The table below shows the type of interactive and static file types that you can
 
 1. In the **[!UICONTROL Duration]** field, you can optionally type the expected time a learner would spend in this module. The duration is in minutes.
 
-   If the learner marks a course as complete, we calculate the learning time based on the specified duration. If learner consumes the content in the player, then the time spent in the player gets added to learning time spent. If the actual content time is less than the specified duration, the player displays the content time as is. No changes are made in this case.
+   If the learner marks a course as complete, we calculate the learning time based on the specified duration. If learner consumes the content in the player, then the time spent in the player gets is added to learning time spent. If the actual content time is less than the specified duration, the player displays the content time as is. No changes are made in this case.
 
 1. In the **[!UICONTROL Tags]** field, type the tags for the uploaded content so that your content becomes discoverable.
 
@@ -141,12 +141,12 @@ Authors can add HTML5 content as a .zip file to self-paced content. Learners can
 * The learner can mark it as complete themselves.
 * It will be marked as complete once they launch the course.
 
-To add the HTML file type(.zip) to the content library, follow these steps:
+To add the HTML file type(.zip) to the content library, follow these steps.
 
 1. In the author app, select **[!UICONTROL Create Content]** on the home page.
 1. In the **[!UICONTROL Content Library]** screen, select **[!UICONTROL Add]** > **[!UICONTROL Content]**.
 1. Type the name and description of the content.
-1. Select the **[!UICONTROL Add Content File]** option, then browse and select the HTML files(zipped as a folder).
+1. Select the **[!UICONTROL Add Content File]** option, then browse and select the HTML files (zipped as a folder).
 1. Upon the content added, you can view the content on the **[!UICONTROL Content Library]** section.
 1. Select the HTML content and then select **[!UICONTROL Edit]**.
 1. Select any of the following options from the **[!UICONTROL Completion Criteria]** option.
