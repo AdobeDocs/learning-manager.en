@@ -136,7 +136,7 @@ The table below shows the type of interactive and static file types that you can
 
 ### Add HTML5 file type in the content library
 
-Authors can add HTML5 content as a .zip file to self-paced content. Learners can view the HTML5 content in the fluidic player. Author can add this HTML5 content to the self-paced module of a course and set the completion criteria. Authors can set the criteria for completing the HTML course in one of two ways: 
+Authors can add HTML5 content as a .zip file to self-paced content. The .zip folder should contains an HTML file named `index.html`. If there are multiple HTML files, they should all be linked, with the main file named `index.html`. Learners can view the HTML5 content in the fluidic player. Author can add this HTML5 content to the self-paced module of a course and set the completion criteria. Authors can set the criteria for completing the HTML course in one of two ways: 
 
 * The learner can mark it as complete themselves.
 * It will be marked as complete once they launch the course.
@@ -153,7 +153,7 @@ To add the HTML file type(.zip) to the content library, follow these steps.
    * **[!UICONTROL On Launching content]**: The course will be marked as complete automatically when the learner launches it.
    * **[!UICONTROL Learner marks complete]**: The learner has the option to mark the course as complete in the fluidic player.
 
-   ![](assets/add-compliance-label.png)
+   ![](assets/completion-criteria.png)
    _Completion criteria_
 
 1. Select **[!UICONTROL Save]**.
@@ -161,7 +161,7 @@ To add the HTML file type(.zip) to the content library, follow these steps.
 
 In the learner app, if an author selects selection criteria as **[!UICONTROL On Launching content]**, then the course will mark as complete when the learner launches it. When an author chooses **[!UICONTROL Learner marks complete]**, the learner will have the option to mark the course as complete.
 
-![](assets/mark-as-complete.png)
+![](assets/completion-criteria-fluidic-player.png)
  
 _Learner marks complete_
 

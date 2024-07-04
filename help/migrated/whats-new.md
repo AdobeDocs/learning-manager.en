@@ -1,5 +1,5 @@
 ---
-description: Learn about the new features and enhancements in tne July 2024 release of Adobe Learning Manager
+description: Learn about the new features and enhancements in the July 2024 release of Adobe Learning Manager
 jcr-language: en_us
 title: What's new in this release
 ---
@@ -12,43 +12,43 @@ Learn about the new features and enhancements in the July 2024 release of Adobe 
 
 ### What is a compliance dashboard? {#whatiscompliancedashboard}
 
-The **[!UICONTROL Compliance Dashboard]** in **Adobe Learning Manager** allows managers to monitor and track how learners are progressing on their learning goals. They can check if team members are meeting deadlines and keeping up with their learning process, which helps ensure compliance. Administrator can set up the compliance dashboard and share with the managers.
+The **[!UICONTROL Compliance Dashboard]** in **Adobe Learning Manager** allows managers to monitor and monitor the learners' progress toward their learning goals. They can check if team members are meeting deadlines and keeping up with their learning process, which helps ensure compliance. Administrator can set up the compliance dashboard and share with the managers.
 
 To access the compliance dashboard in the Admin app, select **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
 
 ### What's changing in the release
 
-With the new compliance dashboard, admins and managers can view the compliance-type courses/learning path/certifications related to their specific category (for example, Sales, Marketing, and Legal). Admins can categorize custom compliance courses into specific categories. Custom compliance categories are powered by catalog labels.  Admins can create a course dashboard and share it with managers. Managers can then view the same dashboard on their respective instances. Enhancement have also been made to the User Interface of the compliance dashboard and compliance email notifications. 
+With the enhanced compliance dashboard, admins and managers can view the compliance-type courses, learning path, or certifications related to their specific category (for example, Sales, Marketing, and Legal). Admins can categorize custom compliance courses into specific categories. Custom compliance categories are powered by catalog labels.  Admins can create a course dashboard and share it with managers. Managers can then view the same dashboard on their respective instances. Enhancement have also been made to the user interface of the compliance dashboard and compliance email notifications. 
 ![](assets/compliance-dashboard-admin.png)
 
 #### Workflow
 
-Here are the steps for using the new compliance dashboard:
+Here are the steps for using the enhanced Compliance Dashboard:
 
 | Role | Task | Additional Information |
 |---|---|---|
-| Admin | Create custom compliance labels | View [Create custom compliance labels](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) for more information |
-| Author | Add these labels to the course | View [Add compliance labels to course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) for more information. |
-| Admin | Create the dashboard with the compliance course and share it with managers | View [Create and share a compliance dashboard](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) for more information. |
-| Manager | View the compliance dashboard | View [Compliance status](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) for more information | 
+| Admin | Create custom compliance labels | Refer to this article [Create custom compliance labels](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) for more information |
+| Author | Add these labels to the course | Refer to this article [Add compliance labels to course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) for more information. |
+| Admin | Create the dashboard with the compliance course and share it with managers | Refer to this article [Create and share a compliance dashboard](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) for more information. |
+| Manager | View the compliance dashboard | Refer to this article [Compliance status](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) for more information | 
 
-## Learner User Interface revamp
+## Learner user interface revamp
 
 >[!IMPORTANT]
 >
 >The new learner UI will be released in phases. 
 
-The **Learner UI** has been updated with a more elegant and modern design. The following pages are getting a new and modern look: **[!UICONTROL Learner Home]**, **[!UICONTROL My Learning]**, **[!UICONTROL Catalog]**, and **[!UICONTROL Course Overview]** landing pages. Course cards also have a new design to display details in a modern way. Hovering over a course card shows the course description and publication date. 
+The **Learner UI** has been updated with a more elegant and modern design. The **[!UICONTROL Learner Home]**, **[!UICONTROL My Learning]**, **[!UICONTROL Catalog]**, and **[!UICONTROL Course Overview]** landing pages are getting a new and modern look. Course cards also have a new design to display details in a modern way. Hovering over a course card shows the course description and publication date. 
 
 >[!NOTE]
 >
->The revamped User Interface applies only to the Immersive layout. These changes are not supported on the mobile web/app yet and will be updated in a future release.
+>The revamped user interface applies only to the immersive layout. These changes are not supported on the mobile web or app yet and will be updated in a future release.
 
 ![](assets/old-ui.png)
-_Old User Interface_
+_Old user interface_
 
 ![](assets/new-ui.png) 
-_New User Interface_
+_New user interface_
 
 ### What is changing in this release
 
@@ -64,7 +64,7 @@ View [Learner home page](/help/migrated/learners/feature-summary/learner-home-pa
 
 **Changes to course publication dates**
 
-With this enhancement, the publish dates for LinkedIn and Go1 courses imported into Adobe Learning Manager will be the actual publish dates on LinkedIn and Go1. You can view the actual published dates for the LinkedIn and Go1 courses on the User Interface as well. View [Course cards](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) for more information.
+With this enhancement, the publish dates for LinkedIn and Go1 courses imported into Adobe Learning Manager will be the actual publish dates on LinkedIn and Go1. You can view the actual published dates for the LinkedIn and Go1 courses on the user interface as well. View [Course cards](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) for more information.
 
 ## Updates to non-logged in experience
 
@@ -98,7 +98,7 @@ View [Multi item cart in ALM](/help/migrated/learners/feature-summary/multi-item
 
 Adobe Learning Manager now supports HTML5-supported content in self-paced courses. Authors can add HTML5 content as a .zip file to self-paced content. Learners can view the HTML5 content in the Fluidic Player. With the new feature, now learners can mark the course as completed directly in the Fluidic Player for self-paced courses. View [Add HTML5 file type in the content library](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) for more information.
 
-With the new enhancement, the course with the external link will automatically be marked as complete when the URL is visited, as long as the author has set the completion criteria to the new option **On Launching content**. The new option **Completion Criteria** has been added in the Activity Module page where the author can set the completion criteria for the external links. View [Add HTML link in the activity module](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) for more information.
+With the new enhancement, the course with the external link will automatically be marked as complete when the URL is visited, as long as the author has set the completion criteria to the new option **[!UICONTROL On Launching content]**. The new option **[!UICONTROL Completion Criteria]** has been added in the Activity Module page where the author can set the completion criteria for the external links. View [Add HTML link in the activity module](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) for more information.
 
 ![](assets/completion-criteria-activity-module.png)
 _Completion criteria option-Activity Module_
@@ -308,6 +308,10 @@ The training report in **Admin** > **Reports** > **Custom Reports** and the **Jo
 
 * Currently, after exporting all User Groups, deleted User Groups also feature in the output. 
 * Due to intermittent search issues, you're unable to search for a certification. 
+
+## Known issue in this release
+
+The mobile offline player does not load the HTML5 content. 
 
 ## System requirements
 
