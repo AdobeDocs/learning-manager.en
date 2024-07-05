@@ -536,6 +536,37 @@ Use the **[!UICONTROL Content Audit Trail]** report generator to generate a repo
 * Modified by user ID  
 * Modified date (UTC Timezone)
 
+In the **Modification type** column, you will get the following details:
+
+| Modification type | Description |
+| --- | --- |
+| Create | Course created |
+| Certification Add | Certification added to Catalog |
+| Certification Remove | Certification removed from Catalog |
+| Content Add | Content added to Module | 
+| Course Add | Course added to Learning Path |
+| Course Remove | Course removed from Learning Path |
+| Custom Label Add | Custom Label added to Catalog |
+| Custom Label Remove | Custom Label removed from Catalog |
+| Delete | Catalog deleted |
+| Job Aid Add | Job Aid added to Catalog |
+| Job Aid Remove | Job Aid removed from Catalog |
+| Learning Path Add | Learning Path added to Catalog |
+| Learning Path Remove | Learning Path removed from Catalog |
+| Module Content Add | Module added to Course(Content section) |
+| Module Content Remove | Module removed from Course(Content section) |
+| Published | Course or Learning Path published and added to default Catalog |
+| Republished | Course republished |
+| Resource Add | Resource added to Course |
+| Resource Remove | Resource removed from Course |
+| Retired | Course retired |
+| Shared Catalog Add | Catalog shared to Catalog |
+| Shared Catalog Remove | Catalog sharing removed from catalog |
+| Shared Catalog Update | Catalog sharing state : active |
+| Update | Course or Learning Path updated |
+| User Group Add | User Group added to Catalog |
+| User Group Remove | User Group removed from Catalog |
+
 Information regarding metadata is not fetched in the generated report.
 
 To generate a Course trail audit report, follow these steps.

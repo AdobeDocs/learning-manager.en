@@ -1232,6 +1232,10 @@ The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com 
 
 >[!NOTE]
 >
+>You will get the Unique LO IDs for all the courses imported from the LinkedIn Learning connector to Adobe Learning Manager.
+
+>[!NOTE]
+>
 >The learning time spent in LinkedIn Learning courses is communicated by the LinkedIn content/LinkedIn platform to Learning Manager learning platform. If LinkedIn learning does not send the learning time, it cannot be recorded by our learning platform. In such case, learning time spent displayed by Learning Manager is zero.
 
 ### Configure settings in Linkedln Learning portal {#configuresettingsinlinkedlnlearningportal}

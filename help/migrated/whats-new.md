@@ -241,6 +241,18 @@ This is in addition to the already existing columns:
 
 The training report in **Admin** > **Reports** > **Custom Reports** and the **Jobs API** used to have columns called **Skill(s)** and **Tag(s)**. These columns are now renamed to **Skills** and **Tags**.
 
+### Content audit report
+
+In this release, the **[!UICONTROL Content Audit Trail]** report now includes the following new attributes in the Modification type column:
+
+* User Group Add
+* User Group Remove
+* Custom Label Add
+* Custom Label Remove
+* Shared Catalog Add
+* Shared Catalog Remove
+* Shared Catalog Update
+
 ## Bug fixed in this update
 
 **Activity submission** 

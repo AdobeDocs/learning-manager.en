@@ -405,6 +405,8 @@ You need to be aware of the following dependencies on CSV files during import:
 * certification_commit.csv is dependent on certification.csv and certification_course.csv 
 * certification_enrollment.csv is dependent on certification.csv, certification_course.csv and certification_enrollment.csv
 
+
+
 ## Migration procedure {#migrationprocedure}
 
 Before you start with the migration procedure, it is important to note the following points: 
