@@ -72,7 +72,7 @@ The non-logged-in experience allows you to create a real-time experience for non
 
 ### What's changing in this release
 
-Customers can purchase a premium plan to build this highly scalable non-logged-in experiences. This non-logged experience, powered by the [Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), provides real-time data on seat limits, seats occupied, waitlist limits, and waitlist counts using Adobe Learning Manager APIs. Customers can use these APIs to offer non-logged-in learners search and filter capabilities and a complete course summary. 
+Customers can purchase a premium plan to build this highly scalable non-logged-in experiences. This non-logged experience, powered by the [Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), provides real-time data on seat limits, seats occupied, waitlist limits, and waitlist counts using Adobe Learning Manager APIs. Customers can use these APIs to offer non-logged-in learners search and filter capabilities and a complete course summary. Refer to this article [Non-logged-in APIs](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) for more information about the APIs.
 
 >[!NOTE]
 >
