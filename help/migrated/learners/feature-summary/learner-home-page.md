@@ -21,7 +21,7 @@ After the Administrator enables Immersive layout, the learner is greeted with a 
 >
 >We will release the new learner UI in phases. 
 
-We have refreshed the Learner UI with a more sleek and updated design. The new UI aims to provide a consistent user experience across **[!UICONTROL Learner Home]**, **[!UICONTROL My Learning]**, **[!UICONTROL Catalog]**, and **[!UICONTROL Course Overview]** landing pages. The new visual elements follow current design styles, making the product look more easy to use and attractive. This update includes a new masthead, side panel, and contemporary widgets
+We have refreshed the Learner UI with a more sleek and updated design. The new UI aims to provide a consistent user experience across **[!UICONTROL Learner Home]**, **[!UICONTROL My Learning]**, **[!UICONTROL Catalog]**, and **[!UICONTROL Course Overview]** landing pages. The new visual elements follow current design styles, making the product look more easy to use and attractive. This update includes a new masthead, side panel, and contemporary widgets.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ _Course overview page_
 
 ### Course cards
 
-Course cards also feature a redesigned layout to display details in an improved manner. Revamped course cards highlight relevant metadata required for enrollment. This metadata includes correct published or due dates, ratings, and a description along with their authors or providers. 
+Course cards also feature a redesigned layout to display details more effectively. Revamped course cards highlight relevant metadata required for enrollment. This metadata includes correct published or due dates, ratings, and descriptions along with their authors or providers. 
 
 ![](assets/old-course-cards.png)
 _Old course card_
@@ -68,7 +68,7 @@ For courses imported from **LinkedIn** and the **Go1** platform, the course card
 
 ### Sidebar and search bar
 
-The sidebar is updated with new UI elements for a cleaner look. The new search bar has no search button, giving it a more cleaner look. Learners can type a keyword and press enter to start the search or select results that appear below the search bar.
+The sidebar is updated with new UI elements for a cleaner look. The new search bar has no search button, giving it a cleaner look. Learners can type a keyword and press enter to start the search or select results below the search bar.
 
 ![](assets/side-bar.png)
 _Sidebar and search bar_

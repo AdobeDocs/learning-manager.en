@@ -28,12 +28,15 @@ To purchase the multiple courses, follow these steps:
 1. Select **[!UICONTROL Add to Cart]**. The course adds to your cart.
 1. Select and add multiple paid courses to the cart. 
 1. Select the **[!UICONTROL Cart]** icon on the top right corner.
-   This will redirect you to the **Magento** site to complete the payment.
+
+   This option will redirect you to the **Magento** site to complete the payment.
 
    >[!NOTE]
    >
    >Learners must create a **Magento** account using the same credentials as their ALM account.
 
 1. Select the mode of payment and complete the payment.
-   This will redirect you to **[!UICONTROL My Learning]** pages to access the courses. 
+   
+   This option will take you to the **[!UICONTROL My Learning]** page where you can view the purchased courses. 
+   
 1. To view the purchase history for your account, go to **[!UICONTROL Profile]** > **[!UICONTROL Purchase History]**.
