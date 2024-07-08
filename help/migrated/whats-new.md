@@ -1,10 +1,10 @@
 ---
 description: Learn about the new features and enhancements in the July 2024 release of Adobe Learning Manager
 jcr-language: en_us
-title: What's new in this release
+title: New features summary
 ---
 
-# What's new in this release {#whatsnewandchanged}
+# New features summary {#new-features-summary}
 
 Learn about the new features and enhancements in the July 2024 release of Adobe Learning Manager.
 
@@ -72,7 +72,7 @@ The non-logged-in experience allows you to create a real-time experience for non
 
 ### What's changing in this release
 
-Customers can purchase a premium plan to build this highly scalable non-logged-in experiences. This non-logged experience, powered by the [Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), provides real-time data on seat limits, seats occupied, waitlist limits, and waitlist counts using Adobe Learning Manager APIs. Customers can use these APIs to offer non-logged-in learners search and filter capabilities and a complete course summary. 
+Customers can purchase a premium plan to build this highly scalable non-logged-in experiences. This non-logged experience, powered by the [Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), provides real-time data on seat limits, seats occupied, waitlist limits, and waitlist counts using Adobe Learning Manager APIs. Customers can use these APIs to offer non-logged-in learners search and filter capabilities and a complete course summary. Refer to this article [Non-logged-in APIs](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) for more information about the APIs.
 
 >[!NOTE]
 >
@@ -332,4 +332,4 @@ View [Adobe Learning Manager system requirements](/help/migrated/system-requirem
 ## Previous releases of Adobe Learning Manager
 
 * [March 2024 release](/help/migrated/whats-new-march-2024.md)
-* [November 2024 release](/help/migrated/whats-new-november-2023.md)
+* [November 2023 release](/help/migrated/whats-new-november-2023.md)
