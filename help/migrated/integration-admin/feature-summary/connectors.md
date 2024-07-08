@@ -1232,6 +1232,10 @@ The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com 
 
 >[!NOTE]
 >
+>You will get the Unique LO IDs for all the courses imported from the LinkedIn Learning connector to Adobe Learning Manager.
+
+>[!NOTE]
+>
 >The learning time spent in LinkedIn Learning courses is communicated by the LinkedIn content/LinkedIn platform to Learning Manager learning platform. If LinkedIn learning does not send the learning time, it cannot be recorded by our learning platform. In such case, learning time spent displayed by Learning Manager is zero.
 
 ### Configure settings in Linkedln Learning portal {#configuresettingsinlinkedlnlearningportal}
@@ -2016,53 +2020,81 @@ The automated user completion syncing process allows a Learning Manager Administ
 
 For more information, see  [**Install Microsoft Teams connector in Adobe Learning Manager**](install-microsoft-teams-connector.md).
 
-## Training Data Access
+## Non-logged-in experience
 
+The non-logged-in experience allows you to create a real-time experience for non-logged-in users. For example, a non-logged-in experience serves as a landing page for marketing campaigns to encourage sign-ups. 
 
->[!IMPORTANT]
->
->This specific functionality is available only if Adobe Learning Manager is sold as an Add on to Adobe Experience Manager. The course data would be stale in 24 hours.
+The non-logged-in experience in Adobe Learning Manager can be configured using the **[!UICONTROL Training Data Access]** connector. The connector provides the following offerings:
 
+* Standard offering
+* Premium offering
+
+**Standard offering**
+
+The standard offering is to build the native version of Adobe Learning Manager. Users can build a demonstration-only, non-logged-in headless experience. The demonstration headless experience is unscalable and should not be used in a production environment.
+
+**Premium offering**
+
+The premium offering helps users build a headless interface, which is configured by the **[!UICONTROL Training Data Access]** connector. This allows users to get real-time data on course and learning path details such as name, description, author, skills, duration, etc. For blended learning scenarios, you also get real-time seat limits, seats occupied, waitlist limits, and waitlist counts. Customers can use these APIs to create search and filter capabilities and a complete course summary for non-logged-in learners.
+
+Customers can purchase a premium plan to build this highly scalable non-logged-in experience. 
 
 >[!NOTE]
 >
->The section highlights how the infrastructure works but for building a headless or AEM based non logged in experience, please contact us. We will suggest the right approach basis your usecase. This functionality is not currently available as self-serve.
+>Please contact the support team or CSM to purchase the premium plan.
+
+After a user buys a plan, the CSM team will activate the premium plan for them. Using the Training Data Access connector, users can set up a non-logged-in experience with the features mentioned earlier.
+
+### Training data access connector
+
+>[!IMPORTANT]
+>
+>This specific functionality is available only if Adobe Learning Manager is sold as an add-on to Adobe Experience Manager. The course data would be stale in 24 hours.
+
+>[!NOTE]
+>
+>The section highlights how the infrastructure works but for building a headless or AEM-based non-logged-in experience, please contact us. We will suggest the right approach basis your use case. This functionality is not currently available as self-serve.
+
+The **[!UICONTROL Training Data Access]** connector lets you create a headless experience. This experience can be standalone, or a custom user interface based on AEM Sites. It helps retrieve and display training information to learners and allows searching and filtering. Once the data connector is enabled, a set of public APIs will be available to build the interface, where the course/learning path information will be displayed to learners.
+
+#### Configure the connector
+
+Use the **[!UICONTROL Training Data Access]** connector to integrate your Adobe Learning Manager account with data storage and search systems. This helps your AEM Sites-based interface get training data, display web pages, and offer better search options for learners.
+
+Export training metadata from Adobe Learning Manager to the data retrieval and search enablement services using the APIs. You can also create a schedule to automate these exports.
+
+To configure the training data access connector, follow these steps:
+
+1. In the Integration Admin app, select **[!UICONTROL Training Data Access]** > **[!UICONTROL Getting Started]**.
+1. Select **[!UICONTROL Next]** on the **[!UICONTROL Getting Started]** page.
+1. Type the connection name and allow-listed domains.
+   
+   ![](assets/connection-name-and-domain-name.png)
+   Type connection name and domain name
+
+1. Select the **[!UICONTROL Type of interface]** from the following options:
+
+   * **[!UICONTROL Native Learning Manager]**: This is the standard offering, which is available only for native interface.
+   ***[!UICONTROL  Headless interfaces]**: This is the premium offering that exposes APIs to build a non-logged-in experience.
+
+   ![](assets/types-of-interface.png)
+   Types of interface
+
+1. Select **[!UICONTROL Connect]**. The base URL and the CDN URL will be auto-generated.
+   You can use these URLs to retrieve the data using APIs.
+
+   >[!NOTE]
+   >
+   >Customers using the premium offering will get a different URL than those using the standard offering.
 
 
-The Training Data Access connector enables your AEM Sites-based custom-made user interface to retrieve and render training information to learners and helps easy and faster search.
-
-The connector exports training metadata to a data storage and retrieval solution. You can then configure your AEM Sites-based interface to use these two services to retrieve training data, render web pages, and provide optimized training search functionality to the learners. 
-
-The article highlights how the infrastructure works but for building a headless or AEM based non logged in experience, please contact us. We will suggest the right approach basis your usecase. This functionality is not currently available as self-serve.
-
-Enable this connector to build and render your AEM Sites-based web pages and deliver customized experiences to your learners from AEM, where the course information is fetched by using a public API (headless LMS).
-
-### Configure the connector
-
-Use Training Data Access connector to integrate your Adobe Learning Manager account with data storage and retrieval service as well as search enablement system to enable your AEM Sites-based interface to retrieve training data, render web pages, and provide optimized training search functionality to the learners.
-
-Export training metadata from Adobe Learning Manager to the data retrieval and search enablement services. You can also create a schedule to automate these exports.
-
-1. Enter the name of the connection and a valid domain name.
-
-   ![](assets/create-connection-training-data.png)
-
-   *Enter connection and domain names*
-
-1. Click **[!UICONTROL Connect]**. The base URL and the retrieval URL get generated.
-
-   ![](assets/base-url.png)
-
-   *Generate the URLs*
-
-1. Enable the connection.
-
-   ![](assets/enable-connection.png)
-
-   *Enable the connection*
-
-1. Once you enable the connection, the images of all the Courses, Learning Paths, and Certificates get migrated to the CDN.
-1. Export the metadata of the Courses, Learning paths, and Certificates into the search and retrieval service.
+1. Select **[!UICONTROL Export Training Metadata]** on the connector page.
+1. Select **[!UICONTROL Enable training metadata export]** using this connection to export the training data.
+1. Once you enable the connection, the images of all the courses, learning paths, and certificates get migrated to the CDN.
+1. Export the metadata of the courses, learning paths, and certificates into the search and retrieval service. 
+1. You can schedule the metadata export by selecting the Enable schedule option. The schedule will occur automatically every 3 hours for the premium plan.
+1. For an on-demand report, go to **[!UICONTROL On Demand]**, select the **[!UICONTROL Start date]**, and then **[!UICONTROL click]** Execute.
+You can check the status of the report execution on the **[!UICONTROL Execution Status]** page.
 
 ### Create website in AEM
 

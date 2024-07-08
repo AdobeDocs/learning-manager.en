@@ -50,6 +50,7 @@ To create a course, follow the steps below:
 
    1. On the Course Settings page, choose a skill for the course. From the Skill drop-down list, choose the required skill. Then, from the Level drop-down list, choose the required level.
    1. Choose the course skills, level, and set the credits for the skill. Add more skills, if required.
+   1. Add the custom compliance labels to the course, if required. See [Add compliance labels to course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification). 
    1. From the **Enrollment Type** drop-down list, choose the type of enrollment.
 
    The following are the types of enrollments:
@@ -58,7 +59,7 @@ To create a course, follow the steps below:
    * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager's approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
    * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
 
-1. Choose if you want to set a price for your course or make it free. If you want to make the course paid, choose the option **[!UICONTROL Paid]**, and specify a price. The price then appears on the Course card and the Coure overview page for a learner.
+1. Choose if you want to set a price for your course or make it free. If you want to make the course paid, choose the option **[!UICONTROL Paid]**, and specify a price. The price then appears on the Course card and the Course overview page for a learner.
 
    NOTE: This is only enabled when Adobe Commerce connector is configured.
 
@@ -98,6 +99,28 @@ To create a course, follow the steps below:
 1. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
 1. In the Auto Retire field, select a date when the course retires. The Administrator must enable the Auto Retire option first.
 1. To save the changes, click **[!UICONTROL Save]**. To publish the course, click **[!UICONTROL Publish]**.
+
+### Add compliance labels to course/learning path/certification {#add-custom-compliance-label}
+
+To add the compliance labels to courses, follow these steps:
+
+1. In the author app, go to **[!UICONTROL Courses]**/**[!UICONTROL Learning Paths]**/**[!UICONTROL Certifications]** and select **[!UICONTROL Add]**.
+1. Type the name and other details such as description, skills.
+1. In the **[!UICONTROL Custom compliance]** text box, type and select the compliance label.
+ 
+   ![](assets/add-compliance-label.png)
+   _Add custom compliance_
+
+   >[!IMPORTANT]
+   >
+   >Make sure to set a deadline for the course when you're adding Custom Compliance.
+
+1. Save and publish the course/learning path/certification. 
+Now the course/learning path/certification is considered as a compliance type. Administrators can add this course to the compliance dashboard and share it with managers to track the progress
+
+>[!NOTE]
+>
+>Authors can also add the compliance labels to an existing course/learning path/certification by editing them. 
 
 ## Gamification points
 
@@ -455,6 +478,25 @@ To add a content module, perform the steps below:
    * **Banner image:** 1600 px x 140 px
 
 1. On the top-right corner of the page, click **[!UICONTROL Save]**.
+
+#### Add HTML link in the Activity Module
+
+Authors can add HTML links in the activity module and set the completion criteria. To add an HTML link and set a completion criteria, follow these steps:
+
+1. In the author app, select **[!UICONTROL Create Courses]** on the home page.
+1. Select **[!UICONTROL Add]** from the **[!UICONTROL Course Catalog]** screen
+1. Type the name and description of the course.
+1. In the **[!UICONTROL Module]** option, select **[!UICONTROL Add Module]** > **[!UICONTROL Activity Module]**.
+1. In the **[!UICONTROL Activity Module]** prompt, type the name and description.
+1. Select the **[!UICONTROL Type]** as **[!UICONTROL External URL]**.
+1. Select any of the following options from the **[!UICONTROL Completion Criteria]** option.
+   * **[!UICONTROL Learner marks complete]**: The learner has the option to mark the course as complete in the Fluidic Player.
+   * **[!UICONTROL On Launching content]**: The course will automatically be marked as complete, when the learner launches it.
+ 
+   ![](assets/completion-criteria-activity-module.png)
+   _Completion criteria_
+
+1. Select **[!UICONTROL Add]** and publish the course.
 
 ## Checklist {#create-checklist}
 

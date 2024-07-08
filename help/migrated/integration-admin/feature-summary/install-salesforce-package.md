@@ -74,6 +74,18 @@ If you want to install the package, you must first delete the existing package i
 
 1. Launch Learning Manager.
 
+### Add the Adobe domain to Salesforce Trusted URLs
+
+To add the Adobe domain to trusted URLs, follow these steps:
+
+1. In the Salesforce console, go to **[!UICONTROL Setup]** > **[!UICONTROL Quick Find]**.
+1. Search for **[!UICONTROL Trusted URLs]** and select **[!UICONTROL New Trusted URL]**.
+1. Type a name in the **[!UICONTROL API Name]** field.
+1. Add the URL as `{}.adobe.com{*}`.
+1. Select all the checkboxes in **CSP Directives** and save the changes.
+1. Edit the refresh token of the Salesforce app and save it.
+1. Relaunch the Salesforce app.
+
 ### Enable Notifications for Learning Manager app
 
 1. In the upper-right corner, click **Setup**. 

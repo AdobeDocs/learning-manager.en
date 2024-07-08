@@ -73,13 +73,65 @@ To view details including people, enrollment dates, due dates, and progress for 
 
 ## Export report {#exportreport}
 
-To generate an excel report, click **[!UICONTROL Actions] > [!UICONTROL Report]** 
+To generate an excel report, select **[!UICONTROL Actions] > [!UICONTROL Report]** 
 
 ## Compliance Status {#compliancestatus}
 
-Managers can view the team's overall compliance status for configured learnings in compliance dashboard. The learnings list is configurable, and the manager can select the learnings to track the compliance status.
+In the compliance dashboard, managers can view the team's overall compliance status for configured learnings across specific categories (for example, sales, marketing, and legal). Admins can create a dashboard with compliance courses, learning paths, or certification and share with the managers. Managers can view the dashboard shared by the admin in their instances.
 
-On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+### View the dashboard
+
+To view dashboard, select **[!UICONTROL Compliance Dashboard]** from manager app.
+
+![](assets/compliance-dashboard-manager.png)
+_Compliance dashboard-Manager app_
+
+The compliance dashboard includes the following compliance statuses:
+
+* **[!UICONTROL Non-compliant Learners]**: Shows the number of learners who missed deadlines.
+* **[!UICONTROL Learners approaching deadlines]**: Shows the number of learners with deadlines in less than 30 days.
+* **[!UICONTROL Learners with safe deadlines]**: Shows the count of learners with deadlines further out (more than 30 days).
+* **[!UICONTROL Fully compliant Learners]**: Shows the count of fully compliant learners.
+* **[!UICONTROL Learners not enrolled anywhere]**: Shows the count of learners not enrolled in any courses, learning paths, or certifications.
+
+### Email managers and learners
+
+**Managing multiple teams**
+
+If you manage multiple teams, you can notify your managers about their team members' learning status by selecting the **[!UICONTROL Email Managers]** option available in the **[!UICONTROL Team view]** section.
+
+![](assets/email-managers.png)
+_Email managers_
+
+The **[!UICONTROL Email Managers]** provides you with the following options:
+
+* **[!UICONTROL Email Managers of Non-compliant Learners]**: Notify managers whose team members missed deadlines.
+* **[!UICONTROL Email Managers of Learners Approaching Deadlines]**: Notify managers whose team members have upcoming deadlines.
+
+**Managing single team**
+
+If you manage a single team, you can notify your learners about their learning status by selecting the **[!UICONTROL Email Learners]** option available in the **[!UICONTROL Team view]** section.
+
+![](assets/email-learners.png) 
+_Email learners_
+
+The **[!UICONTROL Email Learners]** option provides you with the following options:
+
+* **[!UICONTROL Email Non-compliant Learners]**: Notify learners who missed deadlines.
+* **[!UICONTROL Email Learners Approaching Deadlines]**: Notify learners who have upcoming deadlines.
+
+### Download report
+
+To download the report, follow these steps:
+
+1. In the manager app, go to **[!UICONTROL Compliance Dashboard]** > **[!UICONTROL Team view]**.
+1. Select **[!UICONTROL Download report]** to save your dashboard as a report. 
+   This lets you track your team's overall learning progress.
+ 
+![](assets/download-report.png)
+_Download reports_
+
+<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
 Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
 
@@ -137,13 +189,13 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png)
 
-*Export and email data*
+*Export and email data*-->
 
 ## Team Skills {#teamskills}
 
-Managers can view the skill completion graph and configure a skill completion forecast at different levels. Five skills are listed in the skill drop-down list. The manager gets to know the expertise gained by the team members and identify strong talent in certain skills.
+Managers can view the skill completion graph and configure a skill completion forecast at different levels. The skill dropdown list includes five skills. The manager gets to know the expertise gained by the team members and identifies strong talent in certain skills.
 
-Managers can also drive certain skills in a team by setting a goal and forecasting on how long it would take to achieve a skill for specific percent of a team within a timeline.
+Managers can also drive certain skills in a team by setting a goal and forecasting on how long it would take to achieve a skill for specific percentage of a team within a timeline.
 
 This forecasting is based on system calculations which gives a view in the future for a progress of that specific skill.
 

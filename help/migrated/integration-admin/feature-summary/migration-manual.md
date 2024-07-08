@@ -367,6 +367,17 @@ Find below, the standard CSV specifications that you can use to map with your ex
    <td>
     <p>Provide the required learner records data in the .csv file even though they are not mandatory. Without this info, even if the .csv is processed for migration, the Learning Manager application may not reflect any data. sample-csvs.zip file contains seven .csv files with the similar naming convention as above.</p></td>
   </tr>
+  <tr>
+   <td>
+    <p>27</p></td>
+   <td>
+    <p>user_skill.xlsx</p></td>
+   <td>
+    <p><br>
+      Metadata for user_skill.csv</p></td>
+   <td>
+    <p> </p></td>
+  </tr>
  </tbody>
 </table>
 
@@ -393,6 +404,8 @@ You need to be aware of the following dependencies on CSV files during import:
 * certification_course.csv  is dependent on certification.csv and course.csv
 * certification_commit.csv is dependent on certification.csv and certification_course.csv 
 * certification_enrollment.csv is dependent on certification.csv, certification_course.csv and certification_enrollment.csv
+
+
 
 ## Migration procedure {#migrationprocedure}
 
@@ -548,7 +561,7 @@ Learning Manager supports UUID to provide flexibility to organizations in contro
 
 **Usage scenario of UUID in an organization**
 
-Consider a scenario where an employee A joins a company named Learning Manager, as a contractor. During contract period, Learning Manager company may not provide company email id as A@example.com, instead the company may consider only the employee's personal email account, say, A@gmail.com. After completing 6 months of contract period, if the same employee A joins Learning Manager as full time employee, then Learning Manager may want to change his email id to his company email id: A@example.com. 
+Consider a scenario where an employee A joins a company named Learning Manager, as a contractor. During contract period, Learning Manager company may not provide company email id as ```A@example.com```, instead the company may consider only the employee's personal email account, say, ```A@gmail.com```. After completing 6 months of contract period, if the same employee A joins Learning Manager as full time employee, then Learning Manager may want to change his email id to his company email id: ```A@example.com```. 
 
 Having UUID access to user account will benefit the company Learning Manager in the above mentioned scenario. Learning Manager company can easily replace the personal email id of employee A with an official email id. The employee's records relevant to this account remain unaffected by this change. 
 

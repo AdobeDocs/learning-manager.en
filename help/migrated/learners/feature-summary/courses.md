@@ -90,6 +90,10 @@ There can be multiple instances/sessions to a course/learning program. In catalo
 
 You can register to express interest for any classroom courses that do not have any planned sessions. You get notification whenever the course session commences to join the course.
 
+>[!NOTE]
+>
+>Learners should see a conflict message if they enroll in two different sessions at the same time or overlapping times.
+
 ## Workflow as a Learner
 
 As a Learner you will be allowed to rate a course only post enrolment. You can see the average Star Ratings for any course on the **Home** Page, **My Learning** page and **Catalog**.

@@ -27,6 +27,10 @@ You can know the number of latest notifications based on the highlighted number 
 
 Learners can reject a course assigned to them by Managers by clicking Reject in notifications pop up window.
 
+## Schedule the push notification
+
+Learners will receive push notifications whenever they miss a course deadline. Learners will have the option to either snooze a reminder for 24 hours or get reminded next week for each overdue reminder they receive. This is applicable only for deadline overdue notifications. 
+
 ## Show all notifications {#showallnotifications}
 
 Click **[!UICONTROL Show all notifications]** link at the bottom of the notifications pop-up window to view all the notifications in a separate page.

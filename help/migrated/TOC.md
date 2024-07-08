@@ -9,6 +9,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 * [Learning Manager User Guide](user-guide.md)
 * Introduction {#introduction}
    * [New features summary](whats-new.md)
+   * [New features March 2024](whats-new-march-2024.md)
    * [New features November 2023](whats-new-november-2023.md)
    * [New features July 2023](whats-new-2023-july.md)
    * [New features April 2023](whats-new-2023-april.md)
@@ -79,6 +80,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 * Integration Admin {#integration}
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager Connectors](integration-admin/feature-summary/connectors.md)
+   * [Non-logged-in APIs](integration-admin/feature-summary/non-logged-in-apis.md)
    * [Integrate Learning Manager with AEM](integrate-aem-learning-manager.md)
    * [Install Salesforce package in Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Install Microsoft Teams connector](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -111,6 +113,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Programs](learners/feature-summary/learning-programs.md)
    * [Certifications](learners/feature-summary/certifications.md)
    * [Job Aids](learners/feature-summary/job-aids.md)
+   * [Multi item cart in ALM](learners/feature-summary/multi-item-cart.md)
    * [Badges](learners/feature-summary/badges.md)
    * [Skills & Levels](learners/feature-summary/skills-levels.md)
    * [Gamification](learners/feature-summary/gamification.md)

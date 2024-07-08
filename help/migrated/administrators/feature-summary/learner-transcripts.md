@@ -63,7 +63,7 @@ Adobe Learning Manager enables the administrators of an organization to generate
 1. You can choose to download module level information in the Learner transcript by enabling the "**[!UICONTROL Enable module level information]**" check-box. In this case module names and the time spent on each module is fetched as a part of the transcript if this option is enabled.
 1. You can choose to download skills data and summary sheets by enabling the option "**[!UICONTROL Include skills data and summary sheets]**" check-box.
 
-   Transcripts are generated and downloaded to your computer as .csv files when the skills data is not included. If the Skills data checkbox is enabled transcripts are generated and downloaded .xls files.
+   Transcripts are generated and downloaded to your computer as .zip files when the skills data is not included. If the Skills data checkbox is enabled transcripts are generated and downloaded .xls files.
 
 ## Generate Learner transcript using copy-paste
 

@@ -224,7 +224,66 @@ Also, you can see a bar chart view of skills that are in progress and have been 
 ![](assets/skill-status-stackedbarchart.png)
 *Skill status stacked bar chart*
 
-In the final visualization, you can check the compliance status of learners, and take appropriate action.
+### Compliance dashboard
+
+**Adobe Learning Manager** offers a compliance dashboard to all administrators and managers. Administrators can create a compliance dashboard and share it with managers. Managers will be able to view the newly shared dashboard on their app and can easily track the compliance of their team members for a particular training. Compliance dashboard allow administrators to categorize custom compliance courses into specific categories  (for example, Sales, Marketing, and Legal). Custom compliance categories are powered by **[!UICONTROL Catalog Labels]**. 
+
+![](assets/compliance-dashboard-admin.png)
+
+_Compliance dashboard-Administrator view_
+
+Administrators can also check the compliance status for each manager's team by selecting **[!UICONTROL Go to Compliance dashboard]**. Administrators can share a set of training courses with managers individually or with a group. This helps managers to easily track the compliance of their teammates for the specified training.
+
+#### Admin workflow
+
+##### Create custom compliance labels
+
+A compliance label is a type of catalog label that categorizes courses/learning paths/certifications as a compliance type.
+To create a custom compliance label, follow these steps:
+
+1. In the Administrator app, go to **[!UICONTROL Settings]** > **[!UICONTROL General]**.
+1. Select **[!UICONTROL Custom Compliance type]** option to enable the custom compliance label.
+
+ 
+   ![](assets/custom-compliance.png)
+   _Enable Custom Compliance_
+
+   >[!NOTE]
+   >
+   >This new catalog label has been introduced to categorize the courses, learning paths, and certifications as a compliance type. To enable the **[!UICONTROL  Custom Compliance type]** option, you must first enable the **[!UICONTROL Show Catalog Label]** option in the same page.
+
+1. Go to **[!UICONTROL Settings]** > **[!UICONTROL Catalog Label]** and select the **[!UICONTROL Compliance type]**.
+1. Type the values (e.g., Legal, Sales) in the **[!UICONTROL Value]** text box and select **[!UICONTROL Add Value]**.
+
+   ![](assets/custom-compliance-values.png)
+   _Add values for Custom Compliance_
+
+1. Select **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>The Author must add these compliance labels while creating/editing the courses in their app. See [Add compliance labels to a course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+
+##### Create and share a compliance dashboard
+
+To create and share a compliance dashboard, follow these steps:
+
+1. Go to **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**.
+1. In the **[!UICONTROL Compliance Dashboard]** section, select **[!UICONTROL Shared with Managers]**.
+1. Select **[!UICONTROL Share dashboard]** and select the created labels from the **[!UICONTROL Custom compliance]** dropdown menu. 
+ 
+
+   ![](assets/compliance-type.png)
+   _Select the Compliance type_
+
+1. Type and select the manager's name in the **[!UICONTROL Share with]** text box.
+1. Select **[!UICONTROL Share]** to send the dashboard to the selected manager.
+
+>[!NOTE]
+>
+>Sharing the new dashboard will overwrite the existing dashboard in the selected manager's app. Managers will be able to view the newly shared dashboard by the administrators.
+
+<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
 
 Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
 
@@ -280,11 +339,11 @@ In the list of shared training, click **[!UICONTROL View]**. You can view the tr
 
 1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.
+1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
 
 ## Custom reports
 
-Admins can generate specific reports using the custom template available in the **[!UICONTROL Reports]** section.
+Administrators can generate specific reports using the custom template available in the **[!UICONTROL Reports]** section.
 
 ### Sample reports {#samplereports}
 
@@ -476,6 +535,37 @@ Use the **[!UICONTROL Content Audit Trail]** report generator to generate a repo
 * Modified by user name  
 * Modified by user ID  
 * Modified date (UTC Timezone)
+
+In the **Modification type** column, you will get the following details:
+
+| Modification type | Description |
+| --- | --- |
+| Create | Course created |
+| Certification Add | Certification added to Catalog |
+| Certification Remove | Certification removed from Catalog |
+| Content Add | Content added to Module | 
+| Course Add | Course added to Learning Path |
+| Course Remove | Course removed from Learning Path |
+| Custom Label Add | Custom Label added to Catalog |
+| Custom Label Remove | Custom Label removed from Catalog |
+| Delete | Catalog deleted |
+| Job Aid Add | Job Aid added to Catalog |
+| Job Aid Remove | Job Aid removed from Catalog |
+| Learning Path Add | Learning Path added to Catalog |
+| Learning Path Remove | Learning Path removed from Catalog |
+| Module Content Add | Module added to Course(Content section) |
+| Module Content Remove | Module removed from Course(Content section) |
+| Published | Course or Learning Path published and added to default Catalog |
+| Republished | Course republished |
+| Resource Add | Resource added to Course |
+| Resource Remove | Resource removed from Course |
+| Retired | Course retired |
+| Shared Catalog Add | Catalog shared to Catalog |
+| Shared Catalog Remove | Catalog sharing removed from catalog |
+| Shared Catalog Update | Catalog sharing state : active |
+| Update | Course or Learning Path updated |
+| User Group Add | User Group added to Catalog |
+| User Group Remove | User Group removed from Catalog |
 
 Information regarding metadata is not fetched in the generated report.
 
