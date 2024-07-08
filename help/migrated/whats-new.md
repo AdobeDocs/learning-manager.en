@@ -1,10 +1,10 @@
 ---
 description: Learn about the new features and enhancements in the July 2024 release of Adobe Learning Manager
 jcr-language: en_us
-title: What's new in this release
+title: New features summary
 ---
 
-# What's new in this release {#whatsnewandchanged}
+# New features summary {#new-features-summary}
 
 Learn about the new features and enhancements in the July 2024 release of Adobe Learning Manager.
 
@@ -332,4 +332,4 @@ View [Adobe Learning Manager system requirements](/help/migrated/system-requirem
 ## Previous releases of Adobe Learning Manager
 
 * [March 2024 release](/help/migrated/whats-new-march-2024.md)
-* [November 2024 release](/help/migrated/whats-new-november-2023.md)
+* [November 2023 release](/help/migrated/whats-new-november-2023.md)
