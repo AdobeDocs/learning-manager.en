@@ -77,8 +77,6 @@ You can migrate content only for the following learning objects:
 * Job aid enrollment
 * User course grades
 
- 
-
 ### Key concepts of migration {#keyconceptsofmigration}
 
 Some of the key concepts of Learning Manager migration process are explained briefly for your quick reference, as follows: 
@@ -404,8 +402,6 @@ You need to be aware of the following dependencies on CSV files during import:
 * certification_course.csv  is dependent on certification.csv and course.csv
 * certification_commit.csv is dependent on certification.csv and certification_course.csv 
 * certification_enrollment.csv is dependent on certification.csv, certification_course.csv and certification_enrollment.csv
-
-
 
 ## Migration procedure {#migrationprocedure}
 
