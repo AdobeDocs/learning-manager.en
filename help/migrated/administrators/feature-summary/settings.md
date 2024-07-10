@@ -478,24 +478,6 @@ Classroom
 Virtual Classroom  
 Activity
 
-To rename the terminologies, follow these steps.
-
-1. As an Administrator, click **[!UICONTROL Settings]** > **[!UICONTROL General]** > **[!UICONTROL Product Terminology]**. The product terminology option opens. 
-
-   ![](assets/product-terminology.png)
-
-   *Rename product terminology*
-
-1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL Download here]** option.
-1. The downloaded CSV file contains the name of the objects in coloum A. In coloumn B, choose the name you want to assign to the respective object. Note that you need to update the singular and plural form of the name separated by a (|).
-1. You can choose to modify one or more rows. You can either retain the non-modified rows or remove them from the CSV file before uploading them.
-1. Upload the modified CSV file and click **[!UICONTROL Save]**. Learning Manager refreshes reflecting your changes.
-1. To reset to default terminologies, click **[!UICONTROL Reset Product Terminology]**.
-
-   ![](assets/with-reset-option.png)
-
-   *Reset the product terminologies*
-
 ## Profile settings {#profilesettings}
 
 1. Click the drop-down arrow at the upper-right corner, adjacent to your photo/account and choose **[!UICONTROL Profile Settings]**.

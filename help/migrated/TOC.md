@@ -77,6 +77,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Multiple enrollment](administrators/feature-summary/multiple-enrollment.md)
    * [Non-logged in experience for learners](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Learning Programs](administrators/feature-summary/learning-programs.md)
+   * [Product Terminology](product-terminology.md)
 * Integration Admin {#integration}
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager Connectors](integration-admin/feature-summary/connectors.md)
