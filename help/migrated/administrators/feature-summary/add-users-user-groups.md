@@ -73,6 +73,14 @@ To add users,
 
 ## Add users in bulk {#addusersinbulk}
 
+### Manage users
+
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 Typically, most organizations work with an HR Management System (HRMS), which maintains all employee records, such as, designation, location, date of joining, or employee hierarchy. You can export this data in a CSV format. To import a CSV, follow the steps below:
 
 
