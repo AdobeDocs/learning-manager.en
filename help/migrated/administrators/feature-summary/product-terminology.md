@@ -1,5 +1,5 @@
 ---
-description: Read this article to know how to set of terminologies on the User Interface.
+description: Adobe Learning Manager uses a standard set of terminologies on the User Interface. As an Administrator, you can modify the terminologies to match your organization's needs.
 jcr-language: en_us
 title: Product Terminology
 contentowner: chandrum
@@ -74,6 +74,5 @@ The terminologies are reverted to their original names.
 The terminology changes are not applicable to:
 
 * Email templates (**[!UICONTROL Admin]** > **[!UICONTROL Email Templates]**)
-
 * Reports (**[!UICONTROL Admin]** > **[!UICONTROL Reports]**)
 
