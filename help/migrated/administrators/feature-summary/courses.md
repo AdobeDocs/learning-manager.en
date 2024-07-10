@@ -56,7 +56,7 @@ To create an instance,
 
    *Set completion deadline*
 
-## View properties of the instance {#viewpropertiesoftheinstance}
+### View properties of the instance {#viewpropertiesoftheinstance}
 
 ![](assets/properties-of-aninstance.png)
 
@@ -67,7 +67,11 @@ To create an instance,
 1. **Sessions:** The number of Virtual Classroom and Classroom modules in the course.
 1. **Feedback Enabled:** Displays whether L1, L2, and L3 feedbacks are enabled for this course.
 
-## Retire an instance {#retireaninstance}
+>[!NOTE]
+>
+>The admin cancels the sessions by going to Instances > Sessions and selecting Cancel Session.
+
+### Retire an instance {#retireaninstance}
 
 To retire an instance, perform the steps below;
 
@@ -79,7 +83,7 @@ To retire an instance, perform the steps below;
 
 1. To search for all retired instances, click the tab **[!UICONTROL Retired]** on the Instances page.
 
-## Restore an instance {#restoreaninstance}
+### Restore an instance {#restoreaninstance}
 
 To restore a retired instance to an activate state, perform the following steps:
 
@@ -91,7 +95,7 @@ To restore a retired instance to an activate state, perform the following steps:
 
 1. The instance now gets restored to an active mode.
 
-## Delete an instance
+### Delete an instance
 
 Admins can delete the instance using **Delete this instance** option immediately after the creation. You cannot delete instances if there is a session linked to it or if any learners are enrolled to it.
 
@@ -103,7 +107,7 @@ Admins can delete the instance using **Delete this instance** option immediately
 >
 >You cannot delete the default instance.
 
-## Send instance-level emails
+### Send instance-level emails
 
 To send instance-level emails to enrolled learners:
 
@@ -123,7 +127,7 @@ To send instance-level emails to enrolled learners:
 
    ![Announcement created successfully](assets/announcement-successful.png)
 
-### Enroll learners to courses
+## Enroll learners to courses
 
 In this training, you will learn how to enroll, unenroll, and re-enroll learners.
 
@@ -190,42 +194,57 @@ The Excel file contains worksheets for each instance. A worksheet consists of th
 >
 >If you've reporting automation set up that anticipates only one row per course, you must make the necessary adjustments to the reporting automation before enabling the Multi-Enrollment feature.
 
-## Set escalation level {#escalation}
+### Manage learners list for a course {#managelearnerslistforacourse}
 
-For sending the email notifications, an Admin must explicitly choose the escalation level to:
+1. Click course name on the course thumbnail.
+1. From the left pane, click **[!UICONTROL Learners]**.
 
-* Manager
-* Manager & Skip Level Manager
+![](assets/courses-learners.png)
 
-![](assets/escalation-notification.png)
+*Select learners in a  course*
 
-*Set escalation level*
+You can perform the following actions from the Learners page:
+
+* Select the Learner you want to remove, and click [!UICONTROL **Actions**] > [!UICONTROL **Remove**].
+* Select the Learner whose attendance you want to mark, and click [!UICONTROL **Actions**] > [!UICONTROL **Mark Complete**].
+
+To allow learners to reset a module and consume the module again, click [!UICONTROL **Reset**]. From the pop-up dialog box, click Yes to confirm the Reset. Modules that have been completed cannot be reset. Only failed or incomplete modules can be reset.
+
+You can also export the learners list in an excel sheet. To export the learners list, click [!UICONTROL **Actions**] > [!UICONTROL **Export**].
+
+>[!NOTE]
+>
+>If there are multiple instances for a course, the learners list in excel is provided in each tab separately. The learners list consists of learner name, status and selection criteria. Learners status can be **Not started**, or **In progress**, or **Completed**. 
+
+### Export learners in pending approval state
+
+An Administrator, Manager, or Custom Admin can export data of learners who are in pending approval enrollment state. You can export the data via **Course > Learner** tab, and click the Action drop-down list.
+
+The option will be present when no learner is enrolled/pending approval to the manager approved course and an empty report will be generated. You can also export when learners are in pending approval state, enrolled state, pending state, and unenrolled state.
+
+The report contains data of active, deleted, and suspended users if they are pending approval. Also the report contains data of internal and external users, who are in pending approval state.
+
+If a learner who was earlier in pending approval state, unenrolls, then his/her record will not be present in the report. Also if a learner who was earlier in pending approval state, is enrolled to the course by admin/manager/custom admin enrollment, then his/her record is present in the report.
 
 ## Waitlist
 
 The waitlist section allows learners to be waitlisted for classroom courses when seats are limited, based on their order of enrollment. Administrators can manage this by selecting waitlisted learners and allocating seats beyond the initial limit. Once a seat is allocated by the administrator, the learner is immediately enrolled in the course.
 
-## Discussion board
+## Export learners' attendance {#attendance}
 
-The Discussion Board feature allows learners to view the course discussions. As an admin, you have the ability to delete any comments as needed. Admins can enable this option under course settings. 
+For any classroom and VC course, you can download the list of learners who have attended this course, for any instance.
 
-## Course moderation {#coursemoderation}
+On the course details page, click **[!UICONTROL Attendance and Scoring]** on the right pane.
 
-Whenever an author adds, updates, or deletes modules and republishes a course, all the administrators receive notification about the same. As an administrator, you can then view the changes, compare the old and new content by clicking on the link, and either approve or reject the changes accordingly.
+On the top right-corner of the page, click the **[!UICONTROL Actions]** drop-down list. Then click the option **[!UICONTROL Export Learner List (PDF)]**.
 
-To enable Course Moderation, click **[!UICONTROL Settings]** > **[!UICONTROL General]**. Select the **[!UICONTROL Course Moderation]** check-box to enable this feature.
+![](assets/export-list-of-learners.png)
 
-![](assets/2.png)
+*Export list of learners as PDF*
 
-*Enable course moderation*
+On the PDF, you can view the same set of learners as an instructor does.
 
-Click on the notification to view the changes the author has made to the course. Then, either approve or reject the changes made by the author. If you choose to approve, the course will be republished. If you reject the updates, the previous version of the course will continue to exist. In either case, a notification is sent to the author.
-
-![](assets/1.png)
-
-*Author requests for course updates*
-
-If there are multiple authors who are updating the same course, the latest or the last performed change will reflect in the administrator's notification. You can then approve or reject the latest changes.
+When you download the PDF, you can see the time zone (in UTC) that was used when creating the course.
 
 ## Add L1 and L3 feedback {#addl1andl3feedback}
 
@@ -237,7 +256,7 @@ You can add L1 and L3 feedback options while you create the courses:
 1. Click the circle on toggle button adjacent to L1 or L3 feedback to enable it.
 1. Add the L3 feedback question in the text area below L3 Question.
 
-## Mandatory L1 feedback {#mandatory-l1-feedback}
+### Mandatory L1 feedback {#mandatory-l1-feedback}
 
 You can make all questions or the first question mandatory in an L1 feedback. 
 
@@ -263,7 +282,7 @@ In Instance Defaults page, if you enable **[!UICONTROL Make All Questions Mandat
 
 *View the Instance Defaults page*
 
-## L1 feedback at course level {#l1-feedback-course-level}
+### L1 feedback at course level {#l1-feedback-course-level}
 
 In previous versions of Learning Manager, an Administrator could enable L1 feedback for the Learning Program.
 
@@ -287,7 +306,7 @@ In this release of Learning Manager, the Administrator can send L1 feedback for 
 
    If L1 feedback is enabled for all courses, but is disabled in the learning Program instance, then the L1 feedback will not be triggered for the courses.
 
-## Language specific quiz reports
+### Language specific quiz reports
 
 Quiz reports help in evaluating the performance of a learner post completion of a Learning program or course. 
 
@@ -297,7 +316,7 @@ Quiz reports, display data in different languages provided the course is being o
 
 This is now rectified as the Admin is now able to view all the reports in the respective language which the learner attempted all at once, regardless of the content locale chosen. Quiz attempted in different languages will be added as additional columns in the quiz report.
 
-## Enable L1 feedback at account level {#l1-feedback-account-level}
+### Enable L1 feedback at account level {#l1-feedback-account-level}
 
 *Enable L1 feedback at account level*
 
@@ -323,7 +342,7 @@ You can also disable the L1 feedback by toggling the **[!UICONTROL Enable]** opt
 
 *Enable or disable the L1 feedback*
 
-## Add descriptive questions for L1 and L3 feeedback {#descriptive}
+### Add descriptive questions for L1 and L3 feeedback {#descriptive}
 
 As part of Learning Manager November release, an option to add descriptive questions has been provided. Administrators have an option to add these questions to learners. This provision is in addition to the default set of questions provided by Learning Manager. You can also make them mandatory if required by choosing the option below the question. 
 
@@ -357,7 +376,7 @@ A sample output of the L3 questionnaire is provided below for your reference. Le
 
 *View L3 feedback output*
 
-## Set up L1 and L3 feedback questionnaire {#setupl1andl3feedbackquestionnaire}
+### Set up L1 and L3 feedback questionnaire {#setupl1andl3feedbackquestionnaire}
 
 You can set up L1 and L3 feedback questionnaire and also set reminders at the account level. 
 
@@ -373,6 +392,36 @@ You can set up L1 and L3 feedback questionnaire and also set reminders at the ac
 1. Click **[!UICONTROL Save]** at the upper-right corner of the page.
 
 In L1 feedback, you can see two sets of questionnaire along with a default question. First set of questionnaire refers to self paced courses which can also be used for activity based courses. Second set of questionnaire can be used for Class room and virtual class room type of courses.
+
+## View L1 and L3 feedback {#viewl1andl3feedback}
+
+You can view the L1 feedback provided by learners for a course and the L3 feedback provided by Managers for learners.
+
+1. Click any course tile in the Courses list.
+1. Click L1 Feedback or L3 Feedback on the left pane to view the feedback received.
+1. Select the instance from the drop-down list to view the feedback for that particular instance.
+
+## Discussion board
+
+The Discussion Board feature allows learners to view the course discussions. As an admin, you have the ability to delete any comments as needed. Admins can enable this option under course settings. 
+
+## Course moderation {#coursemoderation}
+
+Whenever an author adds, updates, or deletes modules and republishes a course, all the administrators receive notification about the same. As an administrator, you can then view the changes, compare the old and new content by clicking on the link, and either approve or reject the changes accordingly.
+
+To enable Course Moderation, click **[!UICONTROL Settings]** > **[!UICONTROL General]**. Select the **[!UICONTROL Course Moderation]** check-box to enable this feature.
+
+![](assets/2.png)
+
+*Enable course moderation*
+
+Click on the notification to view the changes the author has made to the course. Then, either approve or reject the changes made by the author. If you choose to approve, the course will be republished. If you reject the updates, the previous version of the course will continue to exist. In either case, a notification is sent to the author.
+
+![](assets/1.png)
+
+*Author requests for course updates*
+
+If there are multiple authors who are updating the same course, the latest or the last performed change will reflect in the administrator's notification. You can then approve or reject the latest changes.
 
 ## Export checklist data {#export-checklist-data}
 
@@ -423,61 +472,26 @@ You can view the quiz scores of any particular course based on user name or base
 
 Choose the instance type from the drop-down list to view the scores based on each instance of the course.
 
-## Manage learners list for a course {#managelearnerslistforacourse}
+## Default instance
 
-1. Click course name on the course thumbnail.
-1. From the left pane, click **[!UICONTROL Learners]**.
+Admins can set default Badges, gamification settings and reminders in **[!UICONTROL Default Instance]** page. To modify the default instance settings, select **[!UICONTROL Default Instance]** > **[!UICONTROL Edit]**. 
 
-![](assets/courses-learners.png)
+* **[!UICONTROL Badge]**: Select the default badges from the dropdown menu.
+* **[!UICONTROL Gamification]**: Configure gamification settings, including points for completion, early completion, and timely completion. Admins have the option to select account level settings or customize the gamification points for this instance.
+* **[!UICONTROL L1 Reaction Feedback]**: Enable predefined questions for learner feedback upon course completion, with options to make questions mandatory.
+***[!UICONTROL  L3 Behaviour Change Feedback]**: Enable feedback questions for the learner's manager upon course completion.
+***[!UICONTROL  Reminder Settings]**: Set and manage reminders for deadlines, with options for escalation.
 
-*Select learners in a  course*
+### Set escalation level {#escalation}
 
-You can perform the following actions from the Learners page:
+For sending the email notifications, an Admin must explicitly choose the escalation level to:
 
-* Select the Learner you want to remove, and click [!UICONTROL **Actions**] > [!UICONTROL **Remove**].
-* Select the Learner whose attendance you want to mark, and click [!UICONTROL **Actions**] > [!UICONTROL **Mark Complete**].
+* Manager
+* Manager & Skip Level Manager
 
-To allow learners to reset a module and consume the module again, click [!UICONTROL **Reset**]. From the pop-up dialog box, click Yes to confirm the Reset. Modules that have been completed cannot be reset. Only failed or incomplete modules can be reset.
+![](assets/escalation-notification.png)
 
-You can also export the learners list in an excel sheet. To export the learners list, click [!UICONTROL **Actions**] > [!UICONTROL **Export**].
-
->[!NOTE]
->
->If there are multiple instances for a course, the learners list in excel is provided in each tab separately. The learners list consists of learner name, status and selection criteria. Learners status can be **Not started**, or **In progress**, or **Completed**. 
-
-## Export learners' attendance {#attendance}
-
-For any classroom and VC course, you can download the list of learners who have attended this course, for any instance.
-
-On the course details page, click **[!UICONTROL Attendance and Scoring]** on the right pane.
-
-On the top right-corner of the page, click the **[!UICONTROL Actions]** drop-down list. Then click the option **[!UICONTROL Export Learner List (PDF)]**.
-
-![](assets/export-list-of-learners.png)
-
-*Export list of learners as PDF*
-
-On the PDF, you can view the same set of learners as an instructor does.
-
-When you download the PDF, you can see the time zone (in UTC) that was used when creating the course.
-
-## Export learners in pending approval state
-
-An Administrator, Manager, or Custom Admin can export data of learners who are in pending approval enrollment state. You can export the data via **Course > Learner** tab, and click the Action drop-down list.
-
-The option will be present when no learner is enrolled/pending approval to the manager approved course and an empty report will be generated. You can also export when learners are in pending approval state, enrolled state, pending state, and unenrolled state.
-
-The report contains data of active, deleted, and suspended users if they are pending approval. Also the report contains data of internal and external users, who are in pending approval state.
-
-If a learner who was earlier in pending approval state, unenrolls, then his/her record will not be present in the report. Also if a learner who was earlier in pending approval state, is enrolled to the course by admin/manager/custom admin enrollment, then his/her record is present in the report.
-
-## View L1 and L3 feedback {#viewl1andl3feedback}
-
-You can view the L1 feedback provided by learners for a course and the L3 feedback provided by Managers for learners.
-
-1. Click any course tile in the Courses list.
-1. Click L1 Feedback or L3 Feedback on the left pane to view the feedback received.
-1. Select the instance from the drop-down list to view the feedback for that particular instance.
+*Set escalation level*
 
 ## Preview courses {#previewcourses}
 

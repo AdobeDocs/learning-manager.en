@@ -13,14 +13,16 @@ You can configure roles via the Learning Manager FTP and Box connectors.
 
 After you sign in to your Box storage account, the Integration admin can add the following csvs in the account:
 
+* user.csv
 * role.csv
 * user_role.csv
 
 To get started, download the csvs and change the values according to your requirements.
 
-**role.csv**
 * Sample file: [role.csv](assets/role.csv) 
 * Sample file: [user_role.csv](assets/user_role.csv)
+
+**role.csv**
 
 <table>
  <tbody>
@@ -141,10 +143,10 @@ If any Catalog Names or User Group names are provided in the CSV, they are overr
 
 In your Box account, choose **Import > user > internal**, and upload the files- role.csv and user_role.csv.
 
-* The Custom Role CSVs must be copied in the folder "import->user->internal->user_role"
-* The Users CSV must be copied in the folder "import->user->internal"
+* The role.csv and user_role.csv must be copied in the folder **Import** > **user** > **internal** > **user_role**.
+* The user.csv must be copied in the folder **Import** > **user** > **internal**.
 
-Both the CSVs must be uploaded via Box or FTP only and cannot be uploaded through UI. 
+Both the CSVs must be uploaded via Box only and cannot be uploaded through UI. 
 
 >[!NOTE]
 >
