@@ -11,6 +11,8 @@ Learn about the Learning Manager account settings that you can configure as an a
 
 You can change your Administrator profile settings and update your Account settings. View your profile information, add/change profile photo, and modify **[!UICONTROL About me]** content. Update your company info, set up log in methods for users, and set up connect integration through account settings.
 
+![](assets/settings-admin.png)
+
 ## Configure your Adobe Learning Manager
 
 This training captures the basics of account-level settings. 
@@ -49,7 +51,7 @@ You can access Learning Manager application using Adobe ID or by using Single Si
 
 **Feedback**
 
-Click **[!UICONTROL Feedback]** on the left pane to set up the questionnaire to get feedback from learners after completing a course. Refer to [courses feature help content](courses.md) on creating L1 and L3 feedback. 
+Click **[!UICONTROL Feedback]** on the left pane to set up the questionnaire to get feedback from learners after completing a course. Refer to [courses feature help content](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) on creating L1 and L3 feedback. 
 
 **Multi attempts**
 
@@ -432,22 +434,7 @@ Enable or disable the following settings:
 
 >[!NOTE]
 >
->Once skill import setting is enabled, the account layout cannot be switched to the Classic view, i.e. switching to Classic account is disabled after the **Skill import** option is enabled.
-
-
-## AI-based recommendation
-
-Learning Manager includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner's preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.
-
-The recommendation algorithm is designed to take in multiple sources of input including Industry data on Job roles, titles and descriptions that Adobe has sourced from its partners. This data is then used to train Adobe's AI algorithms so that Learning Manager can come up with a map that connects industry aligned skills to job titles and/or designations. This then becomes one input to the recommendation algorithm
-
-Learning Manager then uses topic modeling algorithms to analyze the training content within an account and map them to the skills.
-
-Learning Manager uses peer activity data as another signal to drive the recommendation algorithm in a personalized manner. Activities like enrollment, completion and any explicit feedback provided by learners is used here.
-
-Additionally, Learning Manager uses explicit and implicit information gathered from individual learners to further personalize recommendations. A learner will be able to indicate their areas of interest explicitly through enrollments and Learning Manager will receive this information implicitly based on how the Learner ends up taking up the trainings.
-
-Finally, the Admin will also be able to influence the recommendation algorithm using learner attributes that Learning Manager should look at when defining peer groups, and also by actually highlighting Trainings for specific user groups.  
+>Once skill import setting is enabled, the account layout cannot be switched to the Classic view, i.e. switching to Classic account is disabled after the **Skill import** option is enabled. 
 
 ## Renaming Learning objects {#renaminglearningobjects}
 

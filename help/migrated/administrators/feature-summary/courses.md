@@ -5,7 +5,7 @@ title: Create course modules, instances, and learning programs
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
 ---
-# Create course modules, instances, and learning programs
+# Create course modules, instances, and learning paths
 
 This document consists of Help to create course modules, instances and courses for Administrator role.
 
@@ -251,7 +251,7 @@ When you download the PDF, you can see the time zone (in UTC) that was used when
 You can add L1 and L3 feedback options while you create the courses:
 
 1. Click Courses at the left pane after you log in as Administrator. List of all the courses appears on the right side page.
-1. Click the course tile for which you want to add L1 or L3 feedback
+1. Click the course tile for which you want to add L1 or L3 feedback.
 1. Click instance default at the left pane.
 1. Click the circle on toggle button adjacent to L1 or L3 feedback to enable it.
 1. Add the L3 feedback question in the text area below L3 Question.
