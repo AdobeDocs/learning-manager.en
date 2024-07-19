@@ -118,7 +118,7 @@ Learners can search for tags within catalog filters using the ```GET /search``` 
 **Sample curl**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 5a858f23924f4feafa38ae8d6c4d97b6' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
 The new filters, seat available, waitlist available, and time range filter have been added to the following APIs: ```GET /search``` and `GET /learningObjects`.
@@ -142,7 +142,7 @@ The new attribute called `effectivenessIndex` will help you get the course effec
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
 --header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth 598665ab5c8a99bea0e774d9faf7f3ca'
+--header 'Authorization: oauth <oauth_token>'
 ```
 
 The new response `whoShouldTake`, which gives details about who should take this course, has been added to the following APIs: `POST /learningObjects/query`, `GET /learningObjects/{id}`, and `GET /learningObjects`.
@@ -150,7 +150,7 @@ The new response `whoShouldTake`, which gives details about who should take this
 **Sample curl**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 28a83fb8c87579af8ebc4434cc80f0c0' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
 ```
 
 The new response `waitlistLimit`, which gives details about waitlist limitation, has been added to the `GET /learningObjects` API.
@@ -168,7 +168,7 @@ In this release, a new API, `GET /search/marketplace/count` has been added. This
 **Sample curl**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth d8631c7b0e3b5d2ae00422ef30aaecfc' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
 ```
 
 **Sample response**
@@ -206,8 +206,17 @@ The new `leaderboard` attribute to the above API to get the details of the Gamif
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
 --header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth de4b5ee6efdd42375130db27ff503dd4'
+--header 'Authorization: oauth <oauth_token>'
 ```
+
+### Change in sort behavior for date and -date
+
+APIs that support sorting by date and -date will show results based on the publish date for all the Learning objects, except for Learning Path. Learning Path will still list based on the **effectiveModified** date. This change will be seen in the following APIs:
+
+* GET /learningObjects
+* GET /search
+* POST /learningObjects/query
+* POST /Search/query
 
 ### Changes to offset limits
 
