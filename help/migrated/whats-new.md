@@ -209,9 +209,14 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram
 --header 'Authorization: oauth <oauth_token>'
 ```
 
-### Change in sort behavior for date
+### Change in sort behavior for date and -date
 
-APIs that support sorting by date will show results based on the publish date for all the Learning objects, except for Learning Path. Learning Path will still list based on the **effectiveModified** date.
+APIs that support sorting by date and -date will show results based on the publish date for all the Learning objects, except for Learning Path. Learning Path will still list based on the **effectiveModified** date. This change will be seen in the following APIs:
+
+* GET /learningObjects
+* GET /search
+* POST /learningObjects/query
+* POST /Search/query
 
 ### Changes to offset limits
 
