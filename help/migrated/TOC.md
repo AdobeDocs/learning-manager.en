@@ -35,7 +35,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [User log in](administrators/feature-summary/user-login.md)
    * [Add users and create user groups](administrators/feature-summary/add-users-user-groups.md)
    * [Add classroom locations](administrators/feature-summary/classroom.md)
-   * [Create course modules, instances, and learning programs](administrators/feature-summary/courses.md)
+   * [Create course instances and learning Paths](administrators/feature-summary/courses.md)
    * [Content marketplace](administrators/feature-summary/content-marketplace.md)
    * [Reports](administrators/feature-summary/reports.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
