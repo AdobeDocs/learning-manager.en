@@ -9,7 +9,7 @@ exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
 
 ## Overview
 
-Microsoft&reg; Teams&reg; is a persistent chat-based collaboration platform that completely supports document sharing, online meetings, and other features for business communications.
+Microsoft Teams&reg; is a persistent chat-based collaboration platform that completely supports document sharing, online meetings, and other features for business communications.
 
 Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings with Learning Manager.
 
@@ -45,8 +45,7 @@ For more information, see  [Roles in a Teams Meeting- Microsoft](https://support
 
 You can access Microsoft Teams connector if you have Office 365 E3 or Office 365 E5. The recommended option is Office 365 E5. 
 
-* Visit the [Microsoft plans page](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE) . On the webpage, you can either buy E3 or E5 account or click Try for Free.
-
+* Visit the [Microsoft plans page](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). On the webpage, you can either buy E3 or E5 account or click Try for Free.
 * Provide the required information and create an account.
 
 >[!NOTE]
@@ -95,6 +94,7 @@ Note the client secret, which will be further used during the integration.
    1. OnlineMeetings.Read.All  
    1. OnlineMeetings.ReadWrite.All  
    1. User.Read.All
+   1. OnlineMeetingRecording.Read.All
 
 1. Click **[!UICONTROL Grant admin access for Adobe]**. 
 1. Click **[!UICONTROL App roles]** > **[!UICONTROL Create app role]**. 
@@ -110,7 +110,7 @@ Note the client secret, which will be further used during the integration.
    
    1. **Do you want to enable this app role?** - Select this checkbox.
 
-1.  Repeat the preceding steps for all the nine API/Permissions that were added.
+1. Repeat the preceding steps for all the nine API/Permissions that were added.
 
 ## Configure access policy by using PowerShell scripts
 
@@ -148,7 +148,7 @@ This enables the connector to access Microsoft Teams online meetings.
 1. Click **[!UICONTROL Manage Product Licenses]**.   
 1. Enable License for Office 365 E5 without audio conferencing.
 
-## Record a session
+<!--## Record a session
 
 The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
@@ -158,7 +158,7 @@ In the document,
 
 For learners, the recording URL is displayed on the VC course overview page.
 
-After 30 minutes of completing a course, the attendance for the learner gets marked.
+After 30 minutes of completing a course, the attendance for the learner gets marked. -->
 
 ## Frequently Asked Questions 
 
