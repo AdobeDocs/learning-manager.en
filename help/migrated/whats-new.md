@@ -2,8 +2,8 @@
 description: Learn about the new features and enhancements in the July 2024 release of Adobe Learning Manager
 jcr-language: en_us
 title: New features summary
+exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
 ---
-
 # New features summary {#new-features-summary}
 
 Learn about the new features and enhancements in the July 2024 release of Adobe Learning Manager.

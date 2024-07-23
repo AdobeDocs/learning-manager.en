@@ -1,7 +1,8 @@
 ---
-description: Learn about the non-logged-in APIs to develop the headless interface. 
+description: Learn about the non-logged-in APIs to develop the headless interface.
 jcr-language: en_us
 title: Non-logged-in APIs
+exl-id: 12419c9a-3864-404c-8b32-922429d68ffb
 ---
 # Non-logged-in APIs
 

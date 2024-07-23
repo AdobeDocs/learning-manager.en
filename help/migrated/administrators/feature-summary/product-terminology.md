@@ -3,6 +3,7 @@ description: Adobe Learning Manager uses a standard set of terminologies on the 
 jcr-language: en_us
 title: Product Terminology
 contentowner: chandrum
+exl-id: 4fd0dd43-9e6c-4586-8f0b-eadac3374bec
 ---
 # Product Terminology
 
@@ -75,4 +76,3 @@ The terminology changes are not applicable to:
 
 * Email templates (**[!UICONTROL Admin]** > **[!UICONTROL Email Templates]**)
 * Reports (**[!UICONTROL Admin]** > **[!UICONTROL Reports]**)
-
