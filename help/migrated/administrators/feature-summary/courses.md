@@ -75,7 +75,7 @@ To create an instance,
 
 To retire an instance, perform the steps below;
 
-1. On the instance, click the drop-down menu and choose the option **[!UICONTROL Retire instance]**.
+1. On the instance, select the drop-down menu and choose the option **[!UICONTROL Retire instance]**.
 
    ![](assets/retire-an-instance.png)
 
