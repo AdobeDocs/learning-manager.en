@@ -84,7 +84,7 @@ The following can be customized:
     <p>App Icon</p>
    </td>
    <td>
-    <p>The app icon as png. This icon displays on your app. The format to name is account-id_appIcon.png. The app icon's dimensions are 512 × 512 pixels.</p>
+    <p>The app icon as png. This icon displays on your app. The format to name is account-id_appIcon.png. The app icon's dimensions are 512 × 512 pixels.<div><b>Note:</b> Please note that Apple does not allow Alpha channel in app icons. So, make sure to remove the Alpha channel from the asset before submitting it.</div></p>
    </td>
   </tr>
   <tr>
