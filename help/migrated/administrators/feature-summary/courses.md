@@ -1,11 +1,11 @@
 ---
 description: This document consists of Help to create course modules, instances and courses for Administrator role.
 jcr-language: en_us
-title: Create course instances and learning Paths
+title: Create course instances and learning paths
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
 ---
-# Create course instances and learning Paths
+# Create course instances and learning paths
 
 This document consists of Help to create course modules, instances and courses for Administrator role.
 
