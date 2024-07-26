@@ -58,8 +58,8 @@ Admins are provided a guided workflow in Learning Manager to optimally set up th
 
 1. Click **[!UICONTROL Proceed]** to upgrade to the new recommendation system.
 
-   ![Proceed to the new system](assets/image521152.png)
-   *Select the Proceed button*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. Create the recommendation parameters for Products and Roles.
 
@@ -162,7 +162,7 @@ The recommendation system is now available to your learners.
 
 ## Delete a parameter
 
-1. In the list of parameters, select the three dots icon, and select **[!UICONTROL Delete parameter]**.
+Administrators can delete a parameter by clicking the three dots icon and selecting **[!UICONTROL Delete Parameter]**. Admins can delete a parameter if it is not linked to a learning objects. If it is linked, they can only hide the parameter. However, they cannot hide the last two parameters because at least two parameters are needed for recommendations to work.
 
 ![delete parameter](assets/delete-parameter.png)
 *Delete the parameter*

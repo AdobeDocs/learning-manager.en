@@ -21,6 +21,8 @@ Learners can also see the achievement level based on the points that they have e
 
 Leaderboard is a gamification feature which acts as a scoreboard to showcase the ranking scores of leading competitors. Learners can see their gamification points using Leaderboard.
 
+![](assets/leaderboard.png)
+
 From the Learner's home page, click **[!UICONTROL Gamification]** from the left pane. To view the leaderboard, click Leaderboard link. This feature enables the learners to understand how they are faring against a particular team member. It also shows their ranking position relative to other members of the team.
 
 Some of the features of Leaderboard for learners:
