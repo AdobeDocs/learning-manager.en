@@ -401,6 +401,10 @@ Enable or disable the following settings:
     <p>For new accounts, the <b>Show Ratings</b> section will have the option <b>Star rating</b> enabled by default.</p>
     <p>For existing accounts, if the account previously had the option <b>Course effectiveness</b> enabled, then the <b>Show Ratings</b> section will be enabled with the option Course effectiveness selected. If the option <b>Course effectivenes</b>s is disabled, then the <b>Show Ratings</b> section will also be disabled. When the <b>Show Ratings</b> section is enabled, the option <b>Star rating</b> will be enabled by default.</p></td>
   </tr>
+  <tr>
+   <td height="19">Retire</td>
+   <td>Select the any of  the retire option from the following:<li>Once retired, enrolled Learners will be able to view and perform actions but not yet enrolled Learners will lose access.</li><li>Once retired, both enrolled and not yet enrolled Learners will lose access.</li><div><b>Note:</b> You can retire courses, learning paths, or certifications from their overview pages.</div> </td>
+  </tr>
  </tbody>
 </table>
 

@@ -348,3 +348,15 @@ Yes, you can export notes content as pdf by following the steps below:
 
 +++
 
++++Where can I download the desktop version of the app? 
+
+Follow the below steps to download the desktop version:
+
+1. Login as a Learner.
+2. Click on **[!UICONTROL Social Learning]**.
+3. Click on **[!UICONTROL New Post]** and click on any of the icon as shown below in the screenshot.
+
+This will start the download of the application.
+
++++
+

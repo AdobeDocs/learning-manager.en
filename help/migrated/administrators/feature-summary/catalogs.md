@@ -51,6 +51,11 @@ To create a catalog, perform the following steps:
 
    You can add multiple courses to the catalog.
 1. You can filter the courses by skills, roles, and language. The selected course will be recommended to learners interested in those skills and roles. 
+
+   * **[!UICONTROL Skills]**: Skill filters allow users to find courses that focus on particular skills.
+   * **[!UICONTROL Roles]**: Role filters help users to access courses tailored to the responsibilities and requirements of different roles.
+   * **[!UICONTROL Language]**: Language filters assist users in selecting courses available in their preferred or required language
+
 1. Save the changes. Go back to the list of catalogs and click the new catalog in the list.
 1. In the page for the new catalog, on the left pane, click **[!UICONTROL Content]**.
 

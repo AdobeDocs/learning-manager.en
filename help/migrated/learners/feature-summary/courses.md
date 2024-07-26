@@ -1,11 +1,11 @@
 ---
 description: Read this article to know how to view and consume courses in Learning Manager. Participate in discussions and provide feedback.
 jcr-language: en_us
-title: Courses
+title: My Learning
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
 ---
-# Courses
+# My Learnings
 
 Read this article to know how to view and consume courses in Learning Manager. Participate in discussions and provide feedback.
 
@@ -19,7 +19,7 @@ Adobe Learning Manager enables learners to access the courses, learning programs
 >
 >Learners can also install Learning Manager iPad app from apple store and Learning Manager Android app from Google Play and access courses on mobile devices. All the learners role features are also available in the app. Learners can also take courses offline and get a seamless access after going online. Refer to  [iPad & Android tablet users](ipad-android-tablet-users.md) feature for more information. 
 
-## Viewing courses {#viewingcourses}
+## Viewing learning objects {#viewingcourses}
 
 You can view a list of all available courses as a learner. Click My Learning from the Home page, or from the left pane to view all the courses that you have enrolled in.
 

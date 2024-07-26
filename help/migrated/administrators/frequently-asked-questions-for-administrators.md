@@ -361,3 +361,24 @@ You can get the account ID from the browser where Learning Manager is open.
 */app/admin?i_qp_user_id=12761637&**accountId=6849***
 
 +++
+
++++Is there a report I can pull, or one that someone can pull for me, that will show me a list of all of the courses in the LMS?
+
+Yes, you can pull a **[!UICONTROL Training Report]** which contains all the Courses, Learning Program, Certification in the LMS. To download the report please follow the below steps:
+
+1. Login as an Administrator.
+2. Click on **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Trainings Report]**.
+3. Select **[!UICONTROL All Trainings]** from the dropdown.
+4. Click on **[!UICONTROL Download]**.
+
++++
+
++++Where can I download the desktop version of the app? 
+
+Follow the below steps to download the desktop version:
+
+1. Login as Admin.
+2. Click on **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**.
+3. Under **[!UICONTROL Download Configuration]**, click on the hyperlink depending upon your Operating System.
+
++++

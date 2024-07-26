@@ -109,7 +109,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Log in](learners/feature-summary/user-login.md)
    * [Profile Settings](learners/feature-summary/settings.md)
    * [Catalogs](learners/feature-summary/catalogs.md)
-   * [Courses](learners/feature-summary/courses.md)
+   * [My Learning](learners/feature-summary/courses.md)
    * [Fluidic player](learners/feature-summary/fluidic-player.md)
    * [Learning Programs](learners/feature-summary/learning-programs.md)
    * [Certifications](learners/feature-summary/certifications.md)
@@ -143,6 +143,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Frequently Asked Questions for Authors](authors/frequently-asked-questions-for-authors.md)
    * [Frequently Asked Questions for Instructors](instructors/frequently-asked-questions-for-instructors.md)
    * [Frequently Asked Questions for Managers](managers/frequently-asked-questions-for-managers.md)
+   * [Frequently Asked Questions for Learners](learners/frequently-asked-questions-for-learners.md)
 * Knowledge Base {#knowledge-base}
    * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
