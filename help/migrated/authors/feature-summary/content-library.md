@@ -498,6 +498,10 @@ To republish the retired content,
 
 The content now appears in the Published list.
 
+## Update the content
+
+Authors can update the content in the published course. This will help learners get the latest version of the content. Check out this [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) for more information. 
+
 ## Delete content {#deletecontent}
 
 After you have retired a content, you can delete it.

@@ -101,6 +101,11 @@ Here's how to implement multiple branding:
 >
 >Internal users can have active fields like External users (e.g., Admin must add the multi branding for the internal users and external users separately by selecting active field values separately.) 
 
+>[!INFO]
+>
+>Check out this [blog](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/) for more information.
+
+
 #### Points to note 
 
 * An Admin can add the multi-level branding for this active field value and the external user can login with different mechanisms (SSO Single (Okta, Mini orange), Social Login) and check if the multi branding is applicable.  

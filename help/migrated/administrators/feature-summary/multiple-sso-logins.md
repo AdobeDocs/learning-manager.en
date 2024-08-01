@@ -48,7 +48,7 @@ Follow the steps below:
 
 1. Import the CSV that contains the active fields and their values.  
 1. Click Settings > Login Methods.  
-1. Enable the Enable Multiple Single Sign-On (SSO) for login checkbox.  
+1. Select the **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** for login checkbox.  
 1. Map the SSO configurations to the values of the active field.  
 1. Save the settings. Import the CSV again.
 
@@ -57,7 +57,7 @@ Follow the steps below:
 Follow the steps below:
 
 1. Click Settings > Login Methods.   
-1. Enable the Enable Multiple Single Sign-On (SSO) for login checkbox.   
+1. Select the **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** for login checkbox.   
 1. Select an active field for an SSO.   
 1. Link the SSO configurations to the values of the field.   
 1. Save the settings. Add a single user and assign a value for the active field.
@@ -67,7 +67,7 @@ Follow the steps below:
 Follow the steps below:
 
 1. Click Settings > Login Methods.   
-1. Enable the Enable Multiple Single Sign-On (SSO) for login checkbox.   
+1. Select the **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** for login checkbox.   
 1. Link the SSO configurations to the values of the field.   
 1. Save the settings. Add a single user and assign a value for the active field.  
 1. Add a self-registration profile.   
@@ -81,7 +81,7 @@ Follow the steps below:
 
 1. Create an external profile.  
 1. Click Settings > Login Methods.  
-1. Enable the Enable Multiple Single Sign-On (SSO) for login checkbox.  
+1. Select the **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** for login checkbox.  
 1. Link the SSO configuration to the external profile created.  
 1. Save the settings.
 

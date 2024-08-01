@@ -756,14 +756,14 @@ The Harvard ManageMentor connector is used by enterprise customers of Harvard Ma
 
    For the synchronization to be successful, ensure that at least one of the following files are present in the Harvard ManageMentor FTP folder:
 
-   hmm12_metadata.xlsx: This file gives the course metadata for the Harvard ManageMentor connector. Ensure that you follow the naming convention when you upload the file.
+   hmm12_metadata.csv: This file gives the course metadata for the Harvard ManageMentor connector. Ensure that you follow the naming convention when you upload the file.
 
-   client_hmm12_20150125.xlsx: It is the user feed for the Harvard ManageMentor connector. The file naming convention that follows is **client_hmm12_yyyyMMdd.xlsx.**
+   client_hmm12_20150125.csv: It is the user feed for the Harvard ManageMentor connector. The file naming convention that follows is **client_hmm12_yyyyMMdd.csv.**
 
    See the following two sample user feed and course feed files for this connector:
 
-   * [Course metadata file for the Harvard ManageMentor connector](assets/hmm12-metadata.xlsx) 
-   * [User feed for the Harvard ManageMentor connector](assets/client-hmm12-20170304.xlsx)
+   * [Course metadata file for the Harvard ManageMentor connector](assets/hmm12-metadata.csv) 
+   * [User feed for the Harvard ManageMentor connector](assets/client-hmm12-20170304.csv)
 
 ## Workday connector {#workdayconnector}
 
