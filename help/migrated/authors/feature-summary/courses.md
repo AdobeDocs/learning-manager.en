@@ -115,6 +115,10 @@ To add the compliance labels to courses, follow these steps:
    >
    >Make sure to set a deadline for the course when you're adding Custom Compliance.
 
+   >[!NOTE]
+   >
+   >A maximum of 50 courses, learning paths, or certifications can have the same value for a custom compliance type label.
+
 1. Save and publish the course/learning path/certification. 
 Now the course/learning path/certification is considered as a compliance type. Administrators can add this course to the compliance dashboard and share it with managers to track the progress
 
