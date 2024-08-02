@@ -270,7 +270,7 @@ To create and share a compliance dashboard, follow these steps:
 
 1. Go to **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**.
 1. In the **[!UICONTROL Compliance Dashboard]** section, select **[!UICONTROL Shared with Managers]**.
-1. Select **[!UICONTROL Share dashboard]** and select the created labels from the **[!UICONTROL Custom compliance]** dropdown menu. 
+1. Select **[!UICONTROL Share dashboard]** and select the created labels from the **[!UICONTROL Select Compliance Label]** dropdown menu. 
  
 
    ![](assets/compliance-type.png)
