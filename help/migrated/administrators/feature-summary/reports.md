@@ -250,7 +250,7 @@ To create a custom compliance label, follow these steps:
 
    >[!NOTE]
    >
-   >This new catalog label has been introduced to categorize the courses, learning paths, and certifications as a compliance type. To enable the **[!UICONTROL  Custom Compliance type]** option, you must first enable the **[!UICONTROL Show Catalog Label]** option in the same page.
+   >This new catalog label has been introduced to categorize the courses, learning paths, and certifications as a compliance type. To enable the **[!UICONTROL Custom Compliance type]** option, you must first enable the **[!UICONTROL Show Catalog Label]** option in the same page.
 
 1. Go to **[!UICONTROL Settings]** > **[!UICONTROL Catalog Label]** and select the **[!UICONTROL Compliance type]**.
 1. Type the values (e.g., Legal, Sales) in the **[!UICONTROL Value]** text box and select **[!UICONTROL Add Value]**.
