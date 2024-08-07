@@ -2067,32 +2067,7 @@ The automated user completion syncing process allows a Learning Manager Administ
 
 For more information, see  [**Install Microsoft Teams connector in Adobe Learning Manager**](install-microsoft-teams-connector.md).
 
-## Non-logged-in experience
-
-The non-logged-in experience allows you to create a real-time experience for non-logged-in users. For example, a non-logged-in experience serves as a landing page for marketing campaigns to encourage sign-ups. 
-
-The non-logged-in experience in Adobe Learning Manager can be configured using the **[!UICONTROL Training Data Access]** connector. The connector provides the following offerings:
-
-* Standard offering
-* Premium offering
-
-**Standard offering**
-
-The standard offering is to build the native version of Adobe Learning Manager. Users can build a demonstration-only, non-logged-in headless experience. The demonstration headless experience is unscalable and should not be used in a production environment.
-
-**Premium offering**
-
-The premium offering helps users build a headless interface, which is configured by the **[!UICONTROL Training Data Access]** connector. This allows users to get real-time data on course and learning path details such as name, description, author, skills, duration, etc. For blended learning scenarios, you also get real-time seat limits, seats occupied, waitlist limits, and waitlist counts. Customers can use these APIs to create search and filter capabilities and a complete course summary for non-logged-in learners.
-
-Customers can purchase a premium plan to build this highly scalable non-logged-in experience. 
-
->[!NOTE]
->
->Please contact the support team or CSM to purchase the premium plan.
-
-After a user buys a plan, the CSM team will activate the premium plan for them. Using the Training Data Access connector, users can set up a non-logged-in experience with the features mentioned earlier.
-
-### Training data access connector
+## Training data access connector {#training-data-access-connector}
 
 >[!IMPORTANT]
 >
@@ -2104,7 +2079,7 @@ After a user buys a plan, the CSM team will activate the premium plan for them. 
 
 The **[!UICONTROL Training Data Access]** connector lets you create a headless experience. This experience can be standalone, or a custom user interface based on AEM Sites. It helps retrieve and display training information to learners and allows searching and filtering. Once the data connector is enabled, a set of public APIs will be available to build the interface, where the course/learning path information will be displayed to learners.
 
-#### Configure the connector
+### Configure the connector
 
 Use the **[!UICONTROL Training Data Access]** connector to integrate your Adobe Learning Manager account with data storage and search systems. This helps your AEM Sites-based interface get training data, display web pages, and offer better search options for learners.
 
@@ -2158,6 +2133,31 @@ For more information, see this  [**document**](../../adobe-learning-manager-inte
 The published website displays a list of all migrated Courses, Certificates, and Learning Paths that are retrieved from the search service for non-logged in learners.
 
 When a learner clicks Course or Certificate or Learning Path, the Overview page launches. On the page, when the learner enrolls, they must log in first, and then take the Course.
+
+### Non-logged-in experience
+
+The non-logged-in experience allows you to create a real-time experience for non-logged-in users. For example, a non-logged-in experience serves as a landing page for marketing campaigns to encourage sign-ups. 
+
+The non-logged-in experience in Adobe Learning Manager can be configured using the **[!UICONTROL Training Data Access]** connector. The connector provides the following offerings:
+
+* Standard offering
+* Premium offering
+
+**Standard offering**
+
+The standard offering is to build the native version of Adobe Learning Manager. Users can build a demonstration-only, non-logged-in headless experience. The demonstration headless experience is unscalable and should not be used in a production environment.
+
+**Premium offering**
+
+The premium offering helps users build a headless interface, which is configured by the **[!UICONTROL Training Data Access]** connector. This allows users to get real-time data on course and learning path details such as name, description, author, skills, duration, etc. For blended learning scenarios, you also get real-time seat limits, seats occupied, waitlist limits, and waitlist counts. Customers can use these APIs to create search and filter capabilities and a complete course summary for non-logged-in learners.
+
+Customers can purchase a premium plan to build this highly scalable non-logged-in experience. 
+
+>[!NOTE]
+>
+>Please contact the support team or CSM to purchase the premium plan.
+
+After a user buys a plan, the CSM team will activate the premium plan for them. Using the Training Data Access connector, users can set up a non-logged-in experience with the features mentioned earlier.
 
 ## Adobe Commerce connector
 
