@@ -435,7 +435,7 @@ Once connection is successfully established, you can map the columns of CSV file
    >
    >The Manager field must be mapped to a field of type email address. Mapping all the columns is mandatory before the connector can be used.
 
-1. Click **[!UICONTROL Save]** after completing the mapping. 
+1. Select **[!UICONTROL Save]** after completing the mapping. 
 
    The connector is now ready for use. The configured account appears as a data source within the Administrator app for the Administrator to schedule the import or for on-demand sync.
 
