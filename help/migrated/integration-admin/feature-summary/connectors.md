@@ -286,7 +286,7 @@ You must make the app visible to all the profiles.
 
 Click **[!UICONTROL Save]** and the learners belonging to all the profiles will access Learning Manager app.
 
-### Learning Path-related changes {#learning-path-related-changes}
+### Learning Path-related changes {#learning-path-changes}
 
 #### Existing connections {#existing-connections}
 
