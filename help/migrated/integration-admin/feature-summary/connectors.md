@@ -312,7 +312,7 @@ In addition, the report will contain the column type Learning Path (Higher Level
 
 In the Type column, the Learning Program will be renamed as Learning Path. For existing connections, there will be no change. 
 
-## Learning Manager FTP connector {#ftp-connector}
+## Learning Manager FTP connector {#ftpconnector}
 
 Using the FTP connector, you can integrate Learning Manager with arbitrary external systems to automate data synchronization. It is expected that external systems can export data in a CSV format and place it in the appropriate folder of the Learning Manager FTP account. FTP connector capabilities are as follows:
 
@@ -645,7 +645,7 @@ The Lynda connector is used by enterprise customers of Lynda.com who would like 
    
    *View the summary of all runs click Execution Status*
 
-## getAbstract connector {#get-abstract-connector}
+## getAbstract connector {#getabstractconnector}
 
 The getAbstract connector is used by enterprise customers of getAbstract.com, who would like their learners to discover and consume getAbstract summaries. The connector can be configured to fetch usage data periodically, based on which learner completion records are created within Learning Manager. Read on to know how to configure this connector in Learning Manager.
 
@@ -707,7 +707,7 @@ The getAbstract connector is used by enterprise customers of getAbstract.com, wh
    See the following excel sheet, which is a sample user feed file from getAbstract. The filename must follow the format: **report_export_yyyy_MM_dd_HHmmss.xlsx** or **report_export_yyyy_MM_dd.xlsx**.
    [getAbstract user feed sample excel sheet](assets/report-export-20170401175342.xlsx)
 
-## Harvard ManageMentor connector {#hmm-connector}
+## Harvard ManageMentor connector {#hmmconnector}
 
 The Harvard ManageMentor connector is used by enterprise customers of Harvard ManageMentor, who would like their learners to discover and consume Harvard ManageMentor courses. The connector helps create courses within Learning Manager, and can be configured to fetch learner progress data periodically. To configure this connector, perform the following procedure:
 
@@ -765,7 +765,7 @@ The Harvard ManageMentor connector is used by enterprise customers of Harvard Ma
    * [Course metadata file for the Harvard ManageMentor connector](assets/hmm12-metadata.csv) 
    * [User feed for the Harvard ManageMentor connector](assets/client-hmm12-20170304.csv)
 
-## Workday connector {#workday-connector}
+## Workday connector {#workdayconnector}
 
 Using the Workday connector, you can integrate Learning Manager with Workday tenant to automate data synchronization.
 
@@ -1101,7 +1101,7 @@ The Data Export allows users to export user skills and Learner Transcripts to a 
 
 Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application. 
 
-## Configure Box connector {#configure-box-connector}
+## Configure Box connector {#boxconnector}
 
 To integrate Box connector with Learning Manager, learn the process.
 
@@ -1273,7 +1273,7 @@ By selecting this option, the manual active field values are not populated using
 >
 >The csv for the content connectors, for example, LinkedIn, will be deleted after seven days, while the csv for import users will be deleted immediately.
 
-## LinkedIn Learning connector {#linkedin-learning-connector}
+## LinkedIn Learning connector {#linkedinlearningconnector}
 
 The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com who would like their learners to discover and consume courses from within Learning Manager. The connector can be configured to fetch courses periodically with your API key. Once a course is created within Learning Manager, users can search for them and consume them. Learner progress can then be tracked within Learning Manager.
 
@@ -1390,7 +1390,7 @@ There is a tag type- **Custom Tag**, which you can use to add custom tags to you
 
 The content is saved only after migration. The content will be saved in respective catalogs.
 
-## Power BI connector {#power-bi-connector}
+## Power BI connector {#powerbiconnector}
 
 >[!NOTE]
 >
@@ -1665,7 +1665,7 @@ Once connection set up is done then automatically folders for import and export 
 >
 >A custom FTP connector can be configured with only SFTP servers.
 
-## ADFS Connector {#adfs-connector}
+## ADFS Connector {#adfsconnector}
 
 Prerequisites to establish an ADFS connection:
 
@@ -2067,7 +2067,7 @@ The automated user completion syncing process allows a Learning Manager Administ
 
 For more information, see  [**Install Microsoft Teams connector in Adobe Learning Manager**](install-microsoft-teams-connector.md).
 
-## Training data access connector {#training-data-access-connector}
+## Training data access connector {#training-data-access}
 
 >[!IMPORTANT]
 >
@@ -2159,7 +2159,7 @@ Customers can purchase a premium plan to build this highly scalable non-logged-i
 
 After a user buys a plan, the CSM team will activate the premium plan for them. Using the Training Data Access connector, users can set up a non-logged-in experience with the features mentioned earlier.
 
-## Adobe Commerce connector {#commerce-connector}
+## Adobe Commerce connector {#adobe-commerce-connector}
 
 >[!NOTE]
 >
