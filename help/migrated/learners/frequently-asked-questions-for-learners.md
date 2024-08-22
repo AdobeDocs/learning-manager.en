@@ -4,9 +4,8 @@ title: Frequently Asked Questions for Learners
 description: Frequently Asked Questions for Learners of Adobe Learning Manager
 contentowner: admin
 preview: true
+exl-id: 1c7ddf64-a6c3-4082-a20c-068e4a441b7b
 ---
-
-
 # Frequently Asked Questions for Learners
 
 +++How do I enroll for a course offering?
@@ -359,4 +358,3 @@ Follow the below steps to download the desktop version:
 This will start the download of the application.
 
 +++
-

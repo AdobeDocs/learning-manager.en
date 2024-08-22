@@ -234,7 +234,7 @@ However, if you want to use these newly added Learning Manager components to you
 
 1. Install the ALM reference site package.  
 
-1. Open the web project and navigate to the HTML file (for the webpage or web template where you want to add the Learning Manager components). 
+1. Open the web project and navigate to the HTML file (for the webpage or web template where you want to add the Learning Manager components).
 1. Joining a meeting
 
    Open the HTML file and add the following code snippets to the page component so that the code executes before the learning components present in the page render.
@@ -242,7 +242,7 @@ However, if you want to use these newly added Learning Manager components to you
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   The preceding code adds the mapped configuration in the meta tag of the page, which is required for the learning components to render. For more details, see [Adobe Learning Manager reference sitr](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   The preceding code adds the mapped configuration in the meta tag of the page, which is required for the learning components to render. For more details, see [Adobe Learning Manager reference site](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Ensure that you have mapped the configuration with the web project.  
 1. Open the AEM Sites template where you want to import the Learning Manager components.  

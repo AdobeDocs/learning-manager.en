@@ -2,8 +2,8 @@
 description: Learn how to use the new cart support in ALM to buy multiple SKUs.
 jcr-language: en_us
 title: Multi-item cart in ALM
+exl-id: 471b956b-dbeb-4e73-b009-fb217812ce12
 ---
-
 # Multi-item cart in ALM
 
 Learners can add several courses, learning paths, or certifications to the cart and purchase them together. They can use the cart to purchase multiple courses, learning paths, or certifications at once. This feature is available only in the learner apps, including the existing UI, new learner UI, and mobile immersive app.
