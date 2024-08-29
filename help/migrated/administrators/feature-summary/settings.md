@@ -159,7 +159,7 @@ Enable or disable the following settings:
   </tr>
   <tr>
    <td>Show Catalog Labels</td>
-   <td>If enabled, Administrators and Authors can set Catalog Labels and values and link them to Learning Objects.</td>
+   <td>If enabled, Administrators and Authors can set Catalog Labels and values and link them to Learning Objects. Selecting this option also allows authors to add Courses, Learning Paths, Certifications, or Job Aids to the catalogs.</td>
   </tr>
   <tr>
    <td>Learners can view their scores</td>
