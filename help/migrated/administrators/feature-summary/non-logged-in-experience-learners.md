@@ -82,4 +82,4 @@ All exported training will be present.
 * Learner app view that is shown catalog-wise. 
 * Training overview pages - Clicking on the card redirects to Sign Up, after which a user is redirected to the training overview page / instance page.
 * All enabled catalogs will be present. Any learner not having access to a catalog is unable to see the catalog and training in it after logging in.
-* For the native option, changes to a course or learning path will be reflected after 24 hours, not in real-time.
+* For the native option, changes to a course or learning path will only be reflected after 24 hours instead of in real time, while for the premium offering, they will be reflected after a minimum of 3 hours.
