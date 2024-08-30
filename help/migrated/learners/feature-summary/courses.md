@@ -158,6 +158,10 @@ You can view all the modules for the course in a browser window.
 
 *After exiting from the course, you can revisit the course by clicking Revisit button on the course description page.*
 
+## Multiple enrollment instances
+
+If a course has multiple instances, learners will have the option to choose and enroll in a specific instance. They can also switch between instances if needed.
+
 ## Star rating
 
 Only after enrolling to a course, a Learner can provide a star feedback to the course. In the Course Overview page of a course, the Learner can rate the course as stars (1-lowest, 5-highest). 
