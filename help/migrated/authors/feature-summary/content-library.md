@@ -105,7 +105,7 @@ The table below shows the type of interactive and static file types that you can
    <td>
     <p>HTML</p></td>
    <td>
-    <p>html or htm</p></td>
+    <p>zip file</p></td>
   </tr>
  </tbody>
 </table>
