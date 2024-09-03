@@ -263,6 +263,52 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >
 >You'll require Android sdk build-tools to build the signed binaries.
 
+The Play Store requires Android binaries in the aab format for publishing. Therefore, we will provide the unsigned .aab file.
+
+Here's a revised version:
+
+>[!NOTE]
+>
+>When creating a keystore file, you need to generate a keystore password, a signing key alias, and a signing key alias password.
+
+Follow the below steps to sign the .aab file:
+
+Run the following command:
+
+```
+<path>/jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <keystore-file> app-release.aab <signingKeyAlias>
+```
+
+>[!NOTE]
+>
+>The **[!UICONTROL jarsigner]** is included with Java. Ensure that you are using Java 21.
+
+When prompted, please enter the following passwords:
+
+* Keystore password
+* password for signing key alias
+
+You can use the provided apk. However, if you need to generate an apk from an aab file, please follow these steps:
+
+>[!NOTE]
+>
+>You will need to install **[!UICONTROL bundletool]** to generate APKs.
+
+
+Run the following command to create the apk file:
+
+```
+java -jar <path>/bundletool-all.jar  build-apks --bundle=app-release.aab --output=my_app.apks --mode=universal
+```
+
+To unzip the file, run the following command:
+
+```
+unzip my_app.apks -d output_dir
+```
+
+You will get the apk file from the **[!UICONTROL output_dir]** folder.
+
 **What's next**
 
 After generating the binaries, push the binaries into Play Store or App Store.
