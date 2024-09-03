@@ -229,7 +229,7 @@ There are a few differences between internal and external registrations.
    <td>
     <p>Gamification is available.</p></td>
    <td>
-    <p>Gamification is not available.</p></td>
+    <p>Gamification is available. The admin must enable gamification for external learners in the Gamification settings.</p></td>
   </tr>
   <tr>
    <td>
