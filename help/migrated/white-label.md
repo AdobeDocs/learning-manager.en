@@ -265,8 +265,6 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 
 The Play Store requires Android binaries in the aab format for publishing. Therefore, we will provide the unsigned .aab file.
 
-Here's a revised version:
-
 >[!NOTE]
 >
 >When creating a keystore file, you need to generate a keystore password, a signing key alias, and a signing key alias password.
