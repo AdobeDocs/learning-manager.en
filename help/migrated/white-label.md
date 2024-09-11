@@ -279,7 +279,7 @@ The root folder contains the **Runner.xcarchive.zip** file. Run the below comman
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
-
+   
 6. Locate the .ipa file in the ipa_path folder.
 7. Upload the .ipa file to Diawi website.
 8. Once fully uploaded, select the **[!UICONTROL Send]** button.
@@ -293,16 +293,16 @@ The root folder contains the **Runner.xcarchive.zip** file. Run the below comman
 >You'll need XCode 15.2 or higher to build the signed binaries.
 
 
-## Android
+### Android
 
-### For apk file
+**For apk file**
 
 ```
 sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
 
 ```
 
-### For aab file
+**For aab file**
 
 >[!NOTE]
 >
