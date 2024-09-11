@@ -281,13 +281,13 @@ The root folder contains the **Runner.xcarchive.zip** file. Run the below comman
    ```
 
 6. Locate the .ipa file in the ipa_path folder.
-7. Upload the .ipa file to [www.diawi.com](www.diawi.com).
+7. Upload the .ipa file to `www.diawi.com`.
 8. Once fully uploaded, select the **[!UICONTROL Send]** button.
 9. After completion, you will receive a QR code and a link.
 10. Open the QR code or link directly in Safari.
 
    If the device is included in the provisioning profile, the installation should proceed on the device.
-   
+
 >[!NOTE]
 >
 >You'll need XCode 15.2 or higher to build the signed binaries.
