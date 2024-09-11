@@ -242,12 +242,52 @@ Re-use the same project that you'd created in the steps above for push notificat
 
 ### iOS
 
-```
+<!--```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```
+```-->
 
+The root folder contains the **Runner.xcarchive.zip** file. Run the below commands to generate the signed binary:
+
+1. Run the following command to unzip the archive:
+
+   ```
+   unzip Runner.xcarchive.zip
+   ```
+
+2. Navigate to the app directory:
+
+   ```
+   cd Runner.xcarchive/Products/Applications/Runner.app
+   ```
+
+3. Copy the mobile provisioning file:
+
+   ```
+   cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
+   ```
+
+4. Return to the root directory (where Runner.xcarchive.zip is located):
+
+   ```
+   cd <root>
+   ```
+
+5. Export the archive using xcodebuild:
+
+   ```
+   xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
+   ```
+
+6. Locate the .ipa file in the ipa_path folder.
+7. Upload the .ipa file to [www.diawi.com](www.diawi.com).
+8. Once fully uploaded, select the **[!UICONTROL Send]** button.
+9. After completion, you will receive a QR code and a link.
+10. Open the QR code or link directly in Safari.
+
+   If the device is included in the provisioning profile, the installation should proceed on the device.
+   
 >[!NOTE]
 >
 >You'll need XCode 15.2 or higher to build the signed binaries.
@@ -255,9 +295,14 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
 
 ## Android
 
+### For apk file
+
 ```
-sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --ks-pass "pass:$store\_password" --ks-key-alias $key\_alias --key-pass "pass:$key\_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+
 ```
+
+### For aab file
 
 >[!NOTE]
 >
