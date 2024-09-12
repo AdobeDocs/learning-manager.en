@@ -248,7 +248,7 @@ sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_p
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```-->
 
-The root folder contains the **Runner.xcarchive.zip** file. Run the below commands to generate the signed binary:
+The `<root>` folder contains the **Runner.xcarchive.zip** file. Run the below commands to generate the signed binary:
 
 1. Run the following command to unzip the archive:
 
@@ -268,7 +268,7 @@ The root folder contains the **Runner.xcarchive.zip** file. Run the below comman
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Return to the root directory (where Runner.xcarchive.zip is located):
+4. Return to the `<root>` folder (where Runner.xcarchive.zip is located):
 
    ```
    cd <root>
