@@ -62,7 +62,7 @@ To add a skill, follow the steps below:
 
    ![](assets/list-of-skills.png)
    
-   *View list oif skills*
+   *View list of skills*
 
 ## Assign the skill to learners {#assigntheskilltolearners}
 
