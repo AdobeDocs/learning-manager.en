@@ -226,6 +226,12 @@ APIs that support sorting by date and -date will show results based on the publi
 
 To improve system performance and manage resource utilization more effectively, Adobe has deprecated high offset values in the GET /users endpoint for both ADMIN and LEARNER scopes. We recommend using the Jobs API to retrieve the records with an offset value.
 
+### Changes in RPM and burst limitation
+
+In this release, RPM (Requests Per Minute) and burst limits have been added for all APIs. You can check the maximum RPM for each API on the Swagger page.
+
+RPM is the number of requests you can send to the API server in one minute. The burst limit allows a higher number of requests for a short time, going beyond the usual rate limit.
+
 ### Deprecated APIs
 
 View [API deprecations in Adobe Learning Manager](/help/migrated/api-deprecations-list.md) for a cumulative list of all deprecated APIs in the product.
