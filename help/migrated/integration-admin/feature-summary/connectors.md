@@ -2097,7 +2097,7 @@ To configure the training data access connector, follow these steps:
 1. Select the **[!UICONTROL Type of interface]** from the following options:
 
    * **[!UICONTROL Native Learning Manager]**: This is the standard offering, which is available only for native interface.
-   ***[!UICONTROL  Headless interfaces]**: This is the premium offering that exposes APIs to build a non-logged-in experience.
+   * **[!UICONTROL  Headless interfaces]**: This is the premium offering that exposes APIs to build a non-logged-in experience.
 
    ![](assets/types-of-interface.png)
    Types of interface
