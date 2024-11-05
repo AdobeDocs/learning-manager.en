@@ -128,7 +128,7 @@ Following the columns available in the Waitlist report:
 * Waitlist Limit
 * Seat Limit
 
-Refer this article [Waitlist report](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) to download Waitlist report from Admin section. Refer this article to [Waitlist report](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) to download report from Instructor section.
+Refer this articles [Waitlist report](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) and [Waitlist report](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) to download report from Admin and Instructor section.
 
 ## Accessibility in learner homepage 
 
@@ -463,7 +463,7 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 }
 ```
 
-### Error messaging for no responce body
+### Error messaging for no request body
 
 We have introduced specific error messages for cases where the request body is mandatory but not supplied in the API. 
 
