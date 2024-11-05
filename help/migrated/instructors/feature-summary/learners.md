@@ -36,6 +36,32 @@ Instructors have the capability to unenroll learners from sessions. This also un
 ![](assets/unenroll-learners.png)
 *Unenroll the learners*
 
+### Waitlist report
+
+Adobe Learning Manager's new **[!UICONTROL Waitlist Report]** allow instructors to download waitlisted learners list for all instances of a course. Instructors can access this report from the **[!UICONTROL Waitlist]** section on the **[!UICONTROL Session Overview]** page.
+
+Following the columns available in the Waitlist report:
+
+* Course Name
+* Instance Name
+* Instance ID
+* Instance Status
+* User Name
+* Email
+* User Unique ID
+* Date Enrolled (UTC TimeZone)
+* Status
+* Waitlist Number
+* Waitlist Limit
+* Seat Limit
+
+To download the report from Instructor section:
+
+1. Log in as **[!UICONTROL Instructor]**.
+2. Select any session from the home page.
+3. Select the **[!UICONTROL Waitlist]** option in the **[!UICONTROL Session Overview]** page.
+4. Select **[!UICONTROL Actions]** > **[!UICONTROL Export Report]** to download the **[!UICONTROL Waitlist]** report.
+
 ## Mark attendance for your session {#markattendanceforyoursession}
 
 You can view the number of confirmed Learners who are attending the session, their names, attendance status of the Learners, and other details from the Learners page.

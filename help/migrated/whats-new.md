@@ -1,348 +1,527 @@
 ---
-description: Learn about the new features and enhancements in the July 2024 release of Adobe Learning Manager
+description: Learn about the new features and enhancements in the November 2024 release of Adobe Learning Manager
 jcr-language: en_us
 title: New features summary
-exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
 ---
 # New features summary {#new-features-summary}
 
-Learn about the new features and enhancements in the July 2024 release of Adobe Learning Manager.
+Learn about the new features and enhancements in the November 2024 release of Adobe Learning Manager.
 
->[!NOTE]
->
->Check out this [webinar](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearningmanager.adobe.com%2Fapp%2Flearner%3FaccountId%3D98632%23%2Fcourse%2F10078152&data=05%7C02%7Cchandrum%40adobe.com%7C90e588d31b994e6a5f4e08dcb87f26a8%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638588103494535076%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=dNyxQl3IQjEtfGCMnhlfek4Piz%2BPGFfuUss53M8mFK8%3D&reserved=0) to learn more about the new features in this release.
+* **AI-powered Search:** Combines lexical and semantic search for smarter, context-aware results. 
+* **Webhooks**: Integrate with Webhooks to send real-time information to specific URLs. 
+* **Learning Tools Interoperability (LTI)**: Supports LTI for interoperability with other LMS platforms. 
+* **Credly integration**: Manage and share external badges via Credly. 
+* **Compliance dashboard enhancements**: Share dashboards with other admins and set default compliance widgets on learner homepages. 
+* **Multi-Language support**: Create language-specific instances for Classroom and Virtual Classroom modules. 
+* **Custom roles**: Enhanced control over user roles and permissions. 
+* **Completion comments**: Add comments when marking learners as complete. 
+* **User Group report**: Manage user groups with detailed reports. 
+* **Waitlist report**: Download the waitlisted learners list for course instances. 
+* **Accessibility enhancements**: Support for alt text on mastheads and company logos. 
+* **Support for Hindi**: Interface language support for Hindi. 
+* **Profanity check**: Block social posts containing prohibited words. 
+* **Email template optimization**: Combined and optimized email templates for instructor assignments and session cancellations. 
+* **MS Teams completion criteria**: Set minimum attendance time for VILT sessions. 
+* **New migration workflows**: Migration changes include completion criteria for courses and modules and migrating modules into folders. 
 
-## Enhancement in compliance dashboard
+## AI-powered search in Adobe Learning Manager 
 
-### What is a compliance dashboard? {#whatiscompliancedashboard}
+Adobe Learning Manager is revamping the way learners search courses or training. It introduces an AI-powered search capability that combines lexical and semantic search. The search is now smarter, as it looks for specific terms and understands the context and intent behind them. The advanced search understands the meaning of your query and provides relevant results. It identifies the main focus of the search to give you the most complete set of results.
 
-The **[!UICONTROL Compliance Dashboard]** in **Adobe Learning Manager** allows managers to monitor and monitor the learners' progress toward their learning goals. They can check if team members are meeting deadlines and keeping up with their learning process, which helps ensure compliance. Administrator can set up the compliance dashboard and share with the managers.
+Refer this article [Advanced Search](/help/migrated/learners/feature-summary/advanced-search.md) for more information.
 
-To access the compliance dashboard in the Admin app, select **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+## Webhooks
 
-### What's changing in the release
+Adobe Learning Manager allows integrating with Webhooks to send real-time information, such as course enrollments, course creation and other information, to a specific URL.
 
-With the enhanced compliance dashboard, admins and managers can view the compliance-type courses, learning path, or certifications related to their specific category (for example, Sales, Marketing, and Legal). Admins can categorize custom compliance courses into specific categories. Custom compliance categories are powered by catalog labels.  Admins can create a course dashboard and share it with managers. Managers can then view the same dashboard on their respective instances. Enhancement have also been made to the user interface of the compliance dashboard and compliance email notifications. 
-![](assets/compliance-dashboard-admin.png)
+A webhook in ALM allows one entity to automatically send data to another application via HTTP. It will enable an application to provide other applications with information without constantly requesting it. For example, if a user completes a learning management system (LMS) course, a webhook can automatically send that information to another platform, such as a CRM or reporting tool. Webhooks are often used in integrations to automate processes and reduce the need for manual updates between systems. Set up webhooks by providing a callback URL to which you'd send the data.
 
-#### Workflow
+## Learning Tools Interoperability
 
-Here are the steps for using the enhanced Compliance Dashboard:
+Adobe Learning Manager now supports LTI to enhance interoperability between Adobe Learning Manager and other Learning Management Systems (LMS).
 
-| Role | Task | Additional Information |
-|---|---|---|
-| Admin | Create custom compliance labels | Refer to this article [Create custom compliance labels](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) for more information |
-| Author | Add these labels to the course | Refer to this article [Add compliance labels to course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) for more information. |
-| Admin | Create the dashboard with the compliance course and share it with managers | Refer to this article [Create and share a compliance dashboard](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) for more information. |
-| Manager | View the compliance dashboard | Refer to this article [Compliance status](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) for more information | 
+### What is LTI?
 
-## Learner user interface revamp
+LTI (Learning Tools Interoperability) is a standard that allows third-party tools and content providers to connect with a Learning Management System (LMS). Users can access external learning content from external content providers directly within their LMS without signing in or navigating to a different LMS.
 
->[!IMPORTANT]
->
->The new learner UI will be released in phases. 
+LTI as a tool provider: LTI as a tool provider allows external systems to integrate with an LMS. Adobe Learning Manager acts as an LTI Tool Provider, allowing other LMS platforms to access course, certificates, or learning paths from the Adobe Learning Manager directly within their LMS. 
 
-The **Learner UI** has been updated with a more elegant and modern design. The **[!UICONTROL Learner Home]**, **[!UICONTROL My Learning]**, **[!UICONTROL Catalog]**, and **[!UICONTROL Course Overview]** landing pages are getting a new and modern look. Course cards also have a new design to display details in a modern way. Hovering over a course card shows the course description and publication date. 
+LTI as a tool consumer: LTI as a Tool Consumer allows LMS to integrate external tools via Learning Tools Interoperability (LTI). In this scenario, LMS is a consumer of services provided by external tools. Adobe Learning Manager acts as an LTI Tool Consumer, allowing it to integrate third-party learning tools. This allows Adobe Learning Manager learners to consume the courses, certificates, or learning paths from the third-party tools within the Adobe Learning Manager.
 
->[!NOTE]
->
->The revamped user interface applies only to the immersive layout. These changes are not supported on the mobile web or app yet and will be updated in a future release.
+## Credly
 
-![](assets/old-ui.png)
-_Old user interface_
+Using Credly, an admin in ALM allows learners to manage and share external badges from the platform across various social media channels.
 
-![](assets/new-ui.png) 
-_New user interface_
+### What is Credly?
 
-### What is changing in this release
+Credly is a digital credentialing platform that allows learners and organizations to earn, share, and verify professional achievements, such as badges or certifications. Learners can manage and share badges through their Credly profile on social media and other places. 
 
-**Modernize look and feel**
+### Integrate Credly with Adobe Learning Manager
 
-The new refreshed visual elements align with modern design trends, making the product look intuitive and appealing. This includes a new masthead, side panel, and modern-looking widgets.
+First, add the Credly connector in Adobe Learning Manager (ALM). Next, migrate the existing badges from Credly to ensure the continuity of learner achievements. Finally, create a skill in Adobe Learning Manager to the appropriate learning path to enhance learner development and recognition. 
 
-**Enhanced user experience**
+Refer to this article [Credly](/help/migrated/integration-admin/feature-summary/credly-integration.md) for more information
 
-Learners will now view a similar card view on the following pages: Homepage , Catalog, My Learning, and Course Overview pages offering a unified experience.
+## Compliance dashboard
 
-View [Learner home page](/help/migrated/learners/feature-summary/learner-home-page.md) for more information.
+In this release, admins can now share the dashboard with other admins, custom admins, and store managers, giving them instant access to the compliance dashboards. They can now set the default compliance widget on the learner's homepage, allowing learners to track their compliance requirements. Refer to this article [Compliance dashboard](/help/migrated/administrators/feature-summary/reports.md#share-compliance-dashboard-with-admins-and-custom-admins) for more information.
 
-**Changes to course publication dates**
+## Multi-Language Support
 
-With this enhancement, the publish dates for LinkedIn and Go1 courses imported into Adobe Learning Manager will be the actual publish dates on LinkedIn and Go1. You can view the actual published dates for the LinkedIn and Go1 courses on the user interface as well. View [Course cards](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) for more information.
+Adobe Learning Manager (ALM) now allows authors to create language-specific instances using language tagging for Classroom and Virtual Classroom modules. Learners can access CR/VC modules in their preferred language. For example, an author can create a CR/VC module with two instances: one in English and one in French. Learners can select the instances in their preferred language.
 
-## Updates to non-logged in experience
+Refer to this article [Add learning objects in different locales](/help/migrated/authors/feature-summary/add-new-language-learning-objects.md#multi-language-support-for-crvc-instances-with-language-tagging) for more information.
 
-The non-logged-in experience allows you to create a real-time experience for non-logged in customers. This serves as a landing page for their marketing campaigns, providing enough information to encourage sign-ups. 
+## Custom roles
 
-### What's changing in this release
+Custom roles allow admins to define specific roles and responsibilities for different user groups, ensuring better management and control. With this release, ALM enhances custom roles by providing more detailed control over the following sections.
 
-Customers can purchase a premium plan to build this highly scalable non-logged-in experiences. This non-logged experience, powered by the [Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), provides real-time data on seat limits, seats occupied, waitlist limits, and waitlist counts using Adobe Learning Manager APIs. Customers can use these APIs to offer non-logged-in learners search and filter capabilities and a complete course summary. Refer to this article [Non-logged-in APIs](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) for more information about the APIs.
+* Users
+* Courses
+* Learning Paths
+* Certifications
+* Job Aids
+* Catalogs
 
->[!NOTE]
->
->Please contact the support team or CSAM to purchase the premium plan.
+Admins can assign precise permissions based on user responsibilities, ensuring each group only has access to relevant features and content. These enhanced controls allow more granular management of key sections.
 
-## Support for multiple Stock Keeping Units (SKUs)
+Log in as an admin and navigate to **[!UICONTROL Users]** > **[!UICONTROL Custom Roles]** to create and manage the Custom Roles.
 
-Learners can now add several courses, learning paths, or certifications to the cart and purchase them together.
+Refer this article [Custom roles](/help/migrated/administrators/feature-summary/custom-role.md) for more information.
 
-### What's changing in the release
+## Completion comments 
 
-Previously, learners could only buy one course at a time. In this release of **Adobe Learning Manager**, they can purchase multiple courses, learning paths, or certifications at once using cart. 
+Admins can now add comments when marking learners as complete in courses, learning paths, or certifications. Admins can add comments for one or multiple learners at the same time, and the comments will appear in the [Learner Transcripts](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) report.
 
-This feature is available only in the learner apps (existing UI, new learner UI, and mobile immersive app).
+Refer this article [Completion comments](/help/migrated/administrators/feature-summary/courses.md#completion-comments) for more information.
 
-View [Multi item cart in ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
+## User group report
 
-## HTML5 content support in Fluidic Player
+Adobe Learning Manager's new **[!UICONTROL User Group Report]** helps manage user groups by providing visibility into groups left unmanaged when admins left. Admins can access the reports under the **[!UICONTROL Users]** > **[!UICONTROL User Group]** section. It provides detailed information about each group, including:
 
-**Adobe Learning Manager** now supports uploading HTML5 content as a .zip file to the content library. Once uploaded, these files can be included as modules in a course. Also, authors can define the completion criteria for self-paced HTML5 modules, allowing either learner-marked completion or automatic completion upon launch. 
+* User group type
+* Group name
+* Description
+* Created by (Name)
+* Created by (Email)
+* Created on (UTC Timezone)
+* Number of Users
 
-### What's changing in this release
+Refer this article [User group report](/help/migrated/administrators/feature-summary/add-users-user-groups.md#user-group-report) for more information.
 
-Adobe Learning Manager now supports HTML5-supported content in self-paced courses. Authors can add HTML5 content as a .zip file to self-paced content. Learners can view the HTML5 content in the Fluidic Player. With the new feature, now learners can mark the course as completed directly in the Fluidic Player for self-paced courses. View [Add HTML5 file type in the content library](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) for more information.
+## Waitlist report
 
-With the new enhancement, the course with the external link will automatically be marked as complete when the URL is visited, as long as the author has set the completion criteria to the new option **[!UICONTROL On Launching content]**. The new option **[!UICONTROL Completion Criteria]** has been added in the Activity Module page where the author can set the completion criteria for the external links. View [Add HTML link in the activity module](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) for more information.
+Adobe Learning Manager's new **[!UICONTROL Waitlist Report]** allow admins to download waitlisted learners list for all instances of a course. Admins and instructors can access this report from the **[!UICONTROL Waitlist]** section on the **[!UICONTROL Course]** or **[!UICONTROL Session Overview]** page. The waitlist report can be downloaded from the Admin and Instructor sections.
 
-![](assets/completion-criteria-activity-module.png)
-_Completion criteria option-Activity Module_
+Following the columns available in the Waitlist report:
 
-## Course overdue push notifications on the mobile app
+* Course Name
+* Instance Name
+* Instance ID
+* Instance Status
+* User Name
+* Email
+* User Unique ID
+* Date Enrolled (UTC TimeZone)
+* Status
+* Waitlist Number
+* Waitlist Limit
+* Seat Limit
 
-Learners will receive push notifications whenever they miss a course deadline. With this new enhancement, learners will now have the option to either snooze a reminder for 24 hours or get reminded next week for each overdue reminder they receive. This is applicable only for deadline overdue notifications. View [Schedule the push notification](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
+Refer this article [Waitlist report](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) to download Waitlist report from Admin section. Refer this article to [Waitlist report](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) to download report from Instructor section.
 
-## API changes in this release
+## Accessibility in learner homepage 
 
-### Search API
+Adobe Learning Manager now supports alt text for all mastheads to improve accessibility for learners. This allows learners with special needs to use screen readers to read the alt text and understand the image. You can select multiple languages and provide alt text for each language. Make sure to add the alt text in the respective languages. Make sure the company logo in your account also includes alt text with the company name.
+Refer this article [Announcement](/help/migrated/administrators/feature-summary/announcements.md#masthead) for more information.
 
-The Search API includes the following changes:
+## Support for Hindi
 
-Learners can search for tags within catalog filters using the ```GET /search``` API. Learners can search for the tags by selecting ```tag``` as a value for ```filter.loTypes``` parameter.
+Adobe Learning Manager now introduces Hindi as one of the platform's interface languages and supports the platform's growth in India. Support for native Hindi speakers ensures that all features, reports, and the overall user experience are fully accessible to the users.  
 
-**Sample curl**
+To change the interface language, follow these steps:
+
+1. Log in as an **[!UICONTROL Admin]**.
+2. Go to **[!UICONTROL Profile Settings]** > **[!UICONTROL Interface Language]**.
+3. Select **[!UICONTROL Hindi]** as an interface language.
+
+
+## Profanity check for social posts
+
+Adobe Learning Manager now blocks social posts in the Learners app that contain prohibited words. This helps keep things professional and compliant, especially in sensitive fields like healthcare.
+
+## Email template optimization
+
+### Email learners when an instructor is assigned
+
+The existing emails **[!UICONTROL You have been added as an Instructor]** and **[!UICONTROL VCProvider Session Details]** have been combined into one email **[!UICONTROL You have been added as a UserType]**. The **[!UICONTROL UserType]** will be either **[!UICONTROL Instructor]** or **[!UICONTROL Organizer]**, based on the user's role. These emails were not available in the UI before. They have now been combined into a single email and added to the UI. Admins can access this template in the **[!UICONTROL Email Template]** section. It will be enabled by default for all new and existing accounts, but admins can disable or enable it from the same section. This email will be sent whenever a session is created and an instructor is assigned, whether it's for sessions like Zoom, Teams, Connect, or other services. 
+
+### Email learners when a session is cancelled
+
+The instructors who are removed from a session will now receive only a session cancellation email. Previously, they received both a cancellation and an update email. Instructors who remain in a session will receive a session update email along with a new invite for the session.
+
+## MS Teams completion criteria
+
+Currently, learners are marked as attended even if they join a Virtual Instructor-Led Training (VILT) session for just a few seconds. With this release, we've introduced completion criteria for Teams modules to ensure more accurate attendance. Authors can now set a minimum time that learners must spend in a VILT session for their attendance to be counted.
+
+This is a backend feature that is disabled by default. Please contact your CSM to have it enabled.
+
+## Migration changes
+
+The following changes are made in the migration workflow:
+
+* Migrate modules into specific folders.
+* Added completion criteria for modules.
+* Added completion criteria for courses
+
+### Changes in modules migration
+
+When you migrate modules into ALM, they will be saved in the public folder by default. In this release, we added a new column called `folder` in the [module_version.csv](assets/module_version.csv) file. Admins can use this column to specify the folder name where the modules should go after migration. Admins can also place a single module into multiple folders by listing the folder names separated by commas. 
+
+The folder column uses the string data type and it is an optional column. The following are the conditions for the folder column:
+
+* The folder name you add should be an existing content folder in the ALM account.
+* The values should be a comma-separated string.
+* If you add a new folder name for a module already present in a different folder, the new value will not overwrite or replace the assigned folder. The module will be added to the new folder and remain available in the existing folder as well.
+* If the value is blank, the folder will default to **[!UICONTROL Public]**.
+
+Refer [module_version csv spec](assets/4-module_version.xlsx) file for more information.
+
+### Changes in modules migration - completion criteria
+
+Admins can specify the completion criteria of the modules during module migration. In this release, we added a new columns `completionCriteria`, `viewPercent` and `quizData` in the [module_version.csv](assets/module_version.csv). 
+
+Following are the conditions for the new columns:
+
+1. `completionCriteria`: 
+
+    * The data type should be a string values and supported values are:
+      * `LAUNCH_CONTENT`
+      * `VIEW_PERCENT`
+      * `QUIZ`
+      * `MARK_COMPLETE`
+    * Add completion criteria at the module level only for self-paced module types.
+    * The supported values for static content are `LAUNCH_CONTENT` and `VIEW_PERCENT`.
+    * The supported values for interactive content are `LAUNCH_CONTENT`, `VIEW_PERCENT`, and `QUIZ`.
+    * The supported values for HTML5 content are `LAUNCH_CONTENT` and `MARK_COMPLETE`.
+
+2. `viewPercent`:
+
+   * The data type for this column should be an integer, and the value must be between 0 and 100.
+   * When completionCriteria is set to `VIEW_PERCENT`, enter the required view percentage in this column or leave it blank.
+
+3. `quizData`:
+
+   * The data type should be a string values and supported values are `QUIZ_ATTEMPTED`, `QUIZ_PASSED`, and `QUIZPASSED_OR_LIMITREACHED`.
+   * When `completionCriteria` is set to `QUIZ`, enter the appropriate quiz value in this column or leave it blank.
+
+Refer [module_version csv spec](assets/4-module_version.xlsx) file for more information.
+
+### Changes in course migration – Completion criteria
+
+Admins can specify the completion criteria for the courses during course migration. In this release, we added a new column called `completionCriteria` in the [course.csv](assets/course.csv).
+
+Following are the conditions for the `completionCriteria` column:
+
+* The data type should be either string or number, and it is an optional field.
+* The values should be `ALL`, `X`, and `SELECTEDMODULES`.
+* X is an integer value that should be greater than 0 and less than the total number of modules.
+* If you set `completionCriteria` to `SELECTEDMODULES`, you need to mark the mandatory modules in the [course_module.csv](assets/course_module.csv) file.
+* In the `optionalCriteria` column, enter `TRUE` or `FALSE`. If you set the value as `TRUE` will make the module mandatory.
+
+Refer [course csv spec](assets/3-course.xlsx) file for more information.
+
+## API changes
+
+The following are the API changes:
+
+* **Search API**:
+   * New mode filter with options: classicSearch and advanceSearch.
+   * New loMetadata option for snippetTypes.
+* **Announcement API**:
+   * Includes altText attribute for masthead descriptions.
+* **Instance APIs**:
+   * New locale attribute to retrieve locale details.
+* **Profanity Check**:
+   * Updated APIs to check for prohibited words in comments and replies on social posts: 
+* **RPM and Burst Limitation**:
+   * Added RPM (Requests Per Minute) and burst limits for all APIs.
+* **Badge APIs**:
+   * New attribute externalProvider to retrieve information about external badges.
+* **Job API**:
+   * Download User Group Report and Custom Role Audit Report using the Job API.
+
+### Changes in search API
+
+The search API now has a new mode filter with two options: `classicSearch` and `advanceSearch`. There's also a new `loMetadata` option for `snippetTypes`. To get the best results, include `loMetadata` in `snippetTypes` when using `advanceSearch` mode.
+
+### Changes in announcement API
+
+The `GET /announcements API` now includes the `altText` attribute to provide the masthead description.
+
+#### Sample request using cURL:
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 12345678' 'https://abcd.adobe.com/primeapi/v2/announcements/123456'
 ```
 
-The new filters, seat available, waitlist available, and time range filter have been added to the following APIs: ```GET /search``` and `GET /learningObjects`.
-
-The new filters `filter.session.includeEnrollmentDeadline` has been added to the following API ```GET /search```.
-
-### Account API
-
-The new column `custom_injections`, `showComplianceLabel`, and `complianceLabelDefaultID` have been added in the ```GET /account``` API to get account data of user endpoint.
-
-### Learning object API
-
-The following are the changes made to the learning object API in this update:
-
-The new response legacy author ID and other details added under `authorDetails` in the `GET /learningObjects` API. Additionally, a new filter, `filter.authors`, has been added to filter legacy authors and their courses.
-
-The new attribute called `effectivenessIndex` will help you get the course effectiveness data. 
-
-**Sample curl**
-
-```
-curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
---header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth <oauth_token>'
-```
-
-The new response `whoShouldTake`, which gives details about who should take this course, has been added to the following APIs: `POST /learningObjects/query`, `GET /learningObjects/{id}`, and `GET /learningObjects`.
-
-**Sample curl**
-
-```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
-```
-
-The new response `waitlistLimit`, which gives details about waitlist limitation, has been added to the `GET /learningObjects` API.
-
-The new response `count` which give total count of learning object, has been added to the APIs `GET/ learningObjects` and `POST/ learningObjects/query`.
-
-The new responses, `catalogFieldId` and `fieldValueId` have been added under `catalogLabels` in `GET/ learningObjects` API.
-
-Learners can get the catalog label values in the API `GET /preview/learningObjects`.
-
-### New API to get marketplace count
-
-In this release, a new API, `GET /search/marketplace/count` has been added. This helps you to a get the count on the available learning objects in the content marketplace.
-
-**Sample curl**
-
-```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
-```
-
-**Sample response**
+#### Sample response:
 
 ```
 {
-  "count": 54910
+  "links": {
+    "self": "https://abcd.adobe.com/primeapi/v2/announcements/123456"
+  },
+  "data": {
+    "id": "12345",
+    "type": "adminAnnouncement",
+    "attributes": {
+      "actionUrl": "google.com",
+      "announcementType": "MASTHEAD",
+      "expiryDate": "2038-01-19T03:14:07.000Z",
+      "liveDate": "2024-07-31T11:11:30.000Z",
+      "contentMetaData": [
+        {
+          "contentType": "IMAGE",
+          "contentUrl": "https://abcd.adobe.com",
+          "locale": "en-US",
+          "altText": "Moonlight - english changed new",
+          "thumbnailUrl": "https://abcd.adobe.com/"
+        },      ]
+    }
+  }
 }
 ```
 
-### Learning object instance API
+### Changes in instance APIs
 
-The following are the changes made to the learning object instance API in this update:
+The new `locale` attribute has been added to the following APIs to retrieve locale details. 
 
-In this release, a new key called `gamificationEnabled` has been added to the learning object instance API `GET /learningObjects/{loId}/instances/{loInstanceId}`.
+* `GET /learningObjects/{loId}/instances/{loInstanceId}`
+* `GET /learningObjects/{id}?include=instances,enrollment.loInstance`
+* `GET /learningObjects?include=instances,enrollment.loInstance`
+* `GET /learningObjects/{id}/relatedLOs?include=instances,enrollment.loInstance`
+* `POST /learningObjects/query?include=instances,enrollment.loInstance`
+* `POST /search/query?include=model.instances`
+* `GET /search?include=model.instances`
 
-**Sample curl**
-
-```
-curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
-```
-
-The new `gamificationSettings` attribute to the above API to get the details of the Gamification settings. For example: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
-
-**Sample curl**
+#### Sample request using cURL:
 
 ```
-curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
+curl --location 'http://abcd.com/primeapi/v2/learningObjects/course:1234567/instances/course:1234567_1234567' \
 ```
 
-The new `leaderboard` attribute to the above API to get the details of the Gamification settings. For example: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
-
-**Sample curl**
+#### Sample request:
 
 ```
-curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
---header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth <oauth_token>'
+{
+    "links": {
+        "self": "http://abcd.com/primeapi/v2/learningObjects/course:1234567/instances/course:1234567_1234567"
+    },
+    "data": {
+        "id": "course:1234567_1234567",
+        "type": "learningObjectInstance",
+        "attributes": {
+            "dateCreated": "2024-02-27T09:21:25.000Z",
+            "isAET": false,
+            "isDefault": true,
+            "isFlexible": false,
+            "locale": "en-US",
+            "state": "Active",
+            "localizedMetadata": [
+                {
+                    "locale": "en-US",
+                    "name": "Default instance"
+                }
+            ]
+        },
+        "relationships": {
+            "learningObject": {
+                "data": {
+                    "id": "course:1234567",
+                    "type": "learningObject"
+                }
+            },
+            "loResources": {
+                "data": [
+                    {
+                        "id": "course:123456_1234567_1234567_1",
+                        "type": "learningObjectResource"
+                    }
+                ]
+            }
+        }
+    }
+}
 ```
 
-### Change in sort behavior for date and -date
+### Public API changes for profanity check
 
-APIs that support sorting by date and -date will show results based on the publish date for all the Learning objects, except for Learning Path. Learning Path will still list based on the **effectiveModified** date. This change will be seen in the following APIs:
+The following APIs have been updated to perform profanity checks for comments and replies on social posts. 
 
-* GET /learningObjects
-* GET /search
-* POST /learningObjects/query
-* POST /Search/query
+* `POST /boards/{id}/posts `
+* `PATCH /posts/{id}`
+* `POST /posts/{id}/comments`
+* `PATCH /comments/{id}`
+* `POST /comments/{id}/replies` 
+* `PATCH /replies/{id}`
 
-### Changes to offset limits
+If a restricted word is found in the post, the following response will be sent.
 
-To improve system performance and manage resource utilization more effectively, Adobe has deprecated high offset values in the GET /users endpoint for both ADMIN and LEARNER scopes. We recommend using the Jobs API to retrieve the records with an offset value.
+#### Sample response:
+
+```
+{
+  "status": "FORBIDDEN",
+  "title": "BAD_WORD_FOUND",
+  "source": {
+    "info": "Unacceptable word found in post"
+  }
+}
+```
 
 ### Changes in RPM and burst limitation
 
-In this release, RPM (Requests Per Minute) and burst limits have been added for all APIs. You can check the maximum RPM for each API on the Swagger page.
+In this release, RPM (Requests Per Minute) and burst limits have been added for all APIs. The maximum RPM for each API can be checked on the Swagger page.
 
-RPM is the number of requests you can send to the API server in one minute. The burst limit allows a higher number of requests for a short time, going beyond the usual rate limit.
+RPM is the number of requests you can send to the API server in one minute. The burst limit allows a higher number of requests for a short time, going beyond the usual rate limit. For example, the `learningObject` API allows a maximum of 15 requests per minute. If this limit is exceeded, the API will return an error message.
 
-### Deprecated APIs
+### Changes in badge APIs
 
-View [API deprecations in Adobe Learning Manager](/help/migrated/api-deprecations-list.md) for a cumulative list of all deprecated APIs in the product.
+The new attribute `externalProvider` has been added to the following APIs to retrieve information about external badges including badge ID and provider name.
 
-## Changes to reporting
+* `GET /badges `
+* `GET /badges/{id}`
+* `GET /skills?include=levels.badge`
+* `GET /skills/{id}?include=levels.badge`
+* `GET /learningObjects/{loId}/instances/{loInstanceId}?include=badge`
+* `GET /users/{userId}/userBadges`
+* `GET /users/{userId}/userBadges/{id}`
 
-### Compliance dashboard
+#### Sample request using cURL:
 
-In this release, the Compliance dashboard report has two new columns:
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 123456789' 'https://abcd.adobe.com/primeapi/v2/badges/44'
+```
 
-* Status
-* Compliance type
+#### Sample response:
 
-This is in addition to the already existing columns:
+```
+{
+  "links": {
+    "self": "https://abcd.adobe.com/primeapi/v2/badges/44"
+  },
+  "data": {
+    "id": "44",
+    "type": "badge",
+    "attributes": {
+      "imageUrl": "https://abcd.com/accountassets/1/badges/download.png",
+      "name": "external badge",
+      "state": "Active",
+      "externalProvider": {
+        "id": "1234sjd-b272-4de1-9b60-1234567",
+        "provider": "credly"
+      }
+    }
+  }
+}
+```
 
-* User Name
-* User Email
-* LP/Certification/Course    
-* Type    
-* Enrollment Date (UTC TimeZone)    
-* Deadline (UTC TimeZone)    
-* Completion Date (UTC TimeZone)    
-* Progress %   
+### Download user group and custom role audit reports via job API
 
-### Training report
+User can download the **[!UICONTROL User Group Report]** and **[!UICONTROL Custom Role Audit Report]** using the `Job API`.
 
-The training report in **Admin** > **Reports** > **Custom Reports** and the **Jobs API** used to have columns called **Skill(s)** and **Tag(s)**. These columns are now renamed to **Skills** and **Tags**.
+#### Sample request for User Group Report download:
 
-### Content audit report
+```
+curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 12345678' -d '{ \ 
+     "data": { \ 
+         "type": "job", \ 
+         "attributes": { \ 
+             "jobType": "generateUserGroupReport" \ 
+         } \ 
+    } \ 
+ }' 'https://abcd.adobe.com/primeapi/v2/jobs'
+```
 
-In this release, the **[!UICONTROL Content Audit Trail]** report now includes the following new attributes in the Modification type column:
+#### Sample request for Custom Role Audit Report download:
 
-* User Group Add
-* User Group Remove
-* Custom Label Add
-* Custom Label Remove
-* Shared Catalog Add
-* Shared Catalog Remove
-* Shared Catalog Update
+```
+curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 1234567' -d '{
+    "data": {
+        "type": "job",
+        "attributes": {
+            "description": "description of your choice",
+            "jobType": "generateCustomRoleAuditReport",
+            "payload":{
+                 "fromDate": "2020-01-01T18:30:00.000Z",
+                 "toDate": "2024-09-31T18:30:00.000Z",
+                 "locale":  "en-US"
+            }
+        }
+   }
+}
+```
 
-## Bug fixed in this update
+### Error messaging for no responce body
 
-**Activity submission** 
+We have introduced specific error messages for cases where the request body is mandatory but not supplied in the API. 
 
-* Attempting to re-upload a file to the activity submission module fails with an Error 500 in the network call. 
+#### Sample error message:
 
-**API** 
+```
+{
+    "status": "BAD_REQUEST",
+    "title": "Generic Error"
+}
+```
 
-* Creating a Connect VC meeting fails if multiple instructors have the same email address. 
-* After enrolling to a Learning Path, the MS Teams VC displays an incorrect URL on the Overview page. 
-* The user report pre-signed URL provided as part of the Job API response expires after six hours. 
-* While generating an enrollment report for a course, the Course Name column displays an incorrect course name. 
-* The migration worker fails to send the unique lo id when calling the bulk API for course, but the id gets removed. 
-* When a course is included in a specific catalog that a user can access (while the default catalog is disabled), despite the setting that prevents unenrolled learners from viewing the course, you can still retrieve the course's metadata through the learningobject/id endpoint. 
-* The skills filter does not work as expected when skillname has commas in the name in the GET /learningObject API. 
-* There is inconsistency in the timestamp metadata of the file in the data retention worker for SFTP. 
-* If any connector is removed and reconfigured, the project migration status appears to be closed. 
-* The Training Report has "Tag(s)" as column header instead of "Tags". 
-* The Commerce connector export fails if the catalog is disabled and if any of the exported course is only part of the disabled catalog. 
+## Reporting enhancements 
 
-**Certification**
+Admins can find these reporting changes in the **Admin** > **Reports** section.
 
-* Sometimes, re-enrolling a user to a recurring certification fails. 
+### Learning Transcripts report 
 
-**Custom role**
+The **[!UICONTROL Learning Transcripts]** report will contain two new columns: 
 
-* In some cases, when a Custom Admin tries to switch to an instructor role, Error 403 forbidden displays.
+* Module ID 
+* Course Instance ID 
 
-**Email template and notification**
+### Session Summary report 
 
-* The email notifications, after a session is canceled, are not sent to the last set of instructors when the instructors are removed from the session. 
-* The organizer does not receive email notifications for MS Teams after creating a virtual instructor-led training. Only after the course is published and email templates are enabled, are the emails triggered. 
-* Sometimes, an email template consists of an incorrect date format and translation. 
+The **[!UICONTROL Session Summary]** report will contain three new columns: 
 
-**Learner**
+* Module ID 
+* Session ID 
+* Course Instance ID 
+* Completion count
 
-* When a learner is enrolled in multiple instances of a course, and you download the attendance report, the report contains incorrect information. 
-* A user can view another user's private posts if they are added to a public story. 
-* In some cases, you are unable to unenroll learners from a certification. An error message displays when attempting to unenroll. 
-* A certification is marked as completed even after an Admin marks it completed after selecting only one course. 
-* An Admin is unable to mark a VC as complete if the session's end time is changed to a previous date. 
-* The Session Attendance report appears as "Not Attended" for learners who are on a waitlist. 
+## Bugs fixed in this update
 
-**Learner app** 
-
-* After downloading the course notes as PDF, the notes appear randomly. They don't follow the order.
-
-**Learning Path**
-
-* After you select a skill in a Learning Path, the dropdown does not display as expected when you select the text field. 
-* In some cases, you are unable to remove skills from a Learning Path. 
-
-**Learning Program**
-
-* If a Flexible Learning Program has many courses, the Learning Plan does not get completed even after an Admin marks it complete. 
-* The column last_modified_by in the Enrollment report isn't updated when a learner changes instances. 
-
-**Report**
-
-* In some cases, an Admin is unable to export the Training report. 
-* When a SCORM content contains questions or answers exceeding 32,767 characters, you're unable to download the course quiz report in Excel. 
-* After you select Reset Gamification, the Level achieved date does not reset.  
-
-**Search** 
-
-* Currently, after exporting all User Groups, deleted User Groups also feature in the output. 
-* Due to intermittent search issues, you're unable to search for a certification. 
-
-## Known issue in this release
-
-The mobile offline player does not load the HTML5 content. 
+* Fixed the error that occurred while uploading videos from the activity module during file submission on Android and iOS devices.
+* Fixed the issue with opening courses on the mobile app; the web version is functioning correctly.
+* Fixed the problem with viewing Job Aids and other resources in Safari.
+* Fixed the issue that prevented users from downloading Job Aids on the mobile app.
+* Fixed the error in the documentation for Patch User API.
+* Fixed the issue where organizers were not receiving email notifications when a session was deleted from the course.
+* Fixed the issue where organizers do not receive session cancellation emails when a module is removed from the course and republished.
+* Added support for including special characters "+" and "-" in email addresses during external user creation.
+* Fixed the issue where the Marketo connector unified report sync fails, if the user skill report contains double quotes in the CSV record value
+* Fixed the issue where the `/skills` endpoint returns the correct state for the Admin API, but the Learner API consistently shows incorrect or cached data.
+* Fixed the issue with Go1 onboarding for freemium courses failing when the account does not have the Go1 connector set up.
+* Fixed the issue where courses in the Learning Path (LP) are not accessible via migration if the learner has already completed the LP.
+* Fixed the issue where the incremental user CSV fails when both the user's manager and skip-level manager are set as SU (Super User) instead of admin and are not included in the CSV.
+* Fixed the scope issues for store managers in dashboard reports.
+* Fixed the issue where xapi_iri was not being removed when a draft course was deleted.
+* Fixed the issue that prevented the addition of a Unique LO ID in certain scenarios.
+* Fixed the issue where the IsEmbeddable property in the learning plan was not updating correctly in shared learning plans.
+* Fixed the issue affecting the total duration display of Learning Paths in the Learner view.
+* Fixed the issue allowing learners to register or sign up via Self-Registration Links even after their accounts have been deleted.
+* Fixed the issue where `www`was being removed when adding links in the course description during course creation.
+* Fixed the issue where the hide information and download Job Aids was not functioning properly.
+* Fixed the issue where Single Sign-On (SSO) was not functioning for new users added via the self-registration link with an IP ID.
+* Fixed the issue where notification message data was not being fetched after an announcement was deleted.
+* Fixed the issue of insufficient search results when searching for users by email.
 
 ## System requirements
 
@@ -350,5 +529,5 @@ View [Adobe Learning Manager system requirements](/help/migrated/system-requirem
 
 ## Previous releases of Adobe Learning Manager
 
+* [July 2024 release](/help/migrated/whats-new-july-2024.md)
 * [March 2024 release](/help/migrated/whats-new-march-2024.md)
-* [November 2023 release](/help/migrated/whats-new-november-2023.md)

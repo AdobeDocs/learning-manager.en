@@ -190,8 +190,6 @@ Types of active fields:
 
 You can also enable employees in your organization to register themselves as Learners to Adobe Learning Manager Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Learning Manager using their Adobe credentials.
 
-
-
 On the upper-right corner of the page, click **[!UICONTROL Add]**, and select **[!UICONTROL Self-Registration]**.
 
 
@@ -569,6 +567,27 @@ All reports include the multi-valued active fields and their values.
 The Administrator can add auto-generated active fields, and configure user activity and training reports.
 
 The Learner Transcript report contains all the active fields and comma-separated values. The Administrator can then filter the data accordingly.
+
+## User group report
+
+Adobe Learning Manager's new User Group Report helps manage user groups by providing visibility into groups left unmanaged when admins left. Admins can access the reports under the **[!UICONTROL Users]** > **[!UICONTROL User Group]** section. It provides detailed information about each group, including:
+
+* User group type
+* Group name
+* Description
+* Created by (Name)
+* Created by (Email)
+* Created on (UTC Timezone)
+* Number of Users
+
+To download the report, follow these steps:
+
+1. Log in as an **[!UICONTROL Admin]**.
+2. Select **[!UICONTROL Users]** > **[!UICONTROL User Group]**.
+3. Select **[!UICONTROL Actions]** > **[!UICONTROL Download User Group Report]**.
+
+![](assets/download-user-group-report.png) 
+_Download the User Group report_
 
 ## Frequently Asked Questions {#faq}
 
