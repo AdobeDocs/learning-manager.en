@@ -3,7 +3,7 @@ jcr-language: en_us
 title: AI-powered search in Adobe Learning Manager
 description: Learn about the AI-powered search in Adobe Learning Manager
 ---
-## AI-powered search in Adobe Learning Manager 
+# AI-powered search in Adobe Learning Manager 
 
 Adobe Learning Manager is revamping the way learners search courses or training. It introduces an AI-powered search capability that combines lexical and semantic search. The search is now smarter, as it looks for specific terms and understands the context and intent behind them. The advanced search understands the meaning of your query and provides relevant results. It identifies the main focus of the search to give you the most complete set of results.
 
