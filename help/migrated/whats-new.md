@@ -36,6 +36,8 @@ Adobe Learning Manager allows integrating with Webhooks to send real-time inform
 
 A webhook in ALM allows one entity to automatically send data to another application via HTTP. It will enable an application to provide other applications with information without constantly requesting it. For example, if a user completes a learning management system (LMS) course, a webhook can automatically send that information to another platform, such as a CRM or reporting tool. Webhooks are often used in integrations to automate processes and reduce the need for manual updates between systems. Set up webhooks by providing a callback URL to which you'd send the data.
 
+Refer this article [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md) for more information.
+
 ## Learning Tools Interoperability
 
 Adobe Learning Manager now supports LTI to enhance interoperability between Adobe Learning Manager and other Learning Management Systems (LMS).
