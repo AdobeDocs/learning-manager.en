@@ -91,6 +91,10 @@ To create a catalog, perform the following steps:
 
 The content appears in each of these tabs if it is already available in the account. Otherwise, you need to create the content first. For example, if you have not added any of the courses or learning programs already in Learning Manager application, then you have to start creating them first. 
 
+## Bulk removal of courses, learning paths, or job aids
+
+Admins or custom admins can remove courses, learning paths, or job aids in bulk. Go to **[!UICONTROL Catalogs]** and select a catalog. On the **[!UICONTROL Content]** page, select **[!UICONTROL Edit Content]**. Then, select the **[!UICONTROL Remove]** option next to the courses, learning paths, or job aids, and select **[!UICONTROL Save]**.
+
 ## Deep link to catalog for learners {#deep-link}
 
 An Admin can generate a deep link for a catalog that can take the learners to the specific catalog page.
