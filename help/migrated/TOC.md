@@ -84,6 +84,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Non-logged-in APIs](integration-admin/feature-summary/non-logged-in-apis.md)
    * [Webhooks](integration-admin/feature-summary/webhooks.md)
    * [Credly](integration-admin/feature-summary/credly-integration.md)
+   * [Learning Tools Interoperability](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [Integrate Learning Manager with AEM](integrate-aem-learning-manager.md)
    * [Install Salesforce package in Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Install Microsoft Teams connector](integration-admin/feature-summary/install-microsoft-teams-connector.md)

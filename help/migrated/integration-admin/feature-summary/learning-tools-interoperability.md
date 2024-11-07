@@ -209,7 +209,7 @@ _Export status_
 
 The following are LTI limitations for both LTI consumer and LTI provider:
 
-* Able to export blended courses, including prework and test-out modules, which affects learners' course consumption experience.
+* Able to export blended courses which affects learners' course consumption experience.
 * Able to export self-paced courses with classroom, virtual classroom, or activity modules, impacting learners' course experience.
 * Able to export shared courses like LinkedIn Learning and Go1 courses.
 * Able to launch courses with past enrollment dates in ALM, which affects learners' course access and experience.
