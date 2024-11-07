@@ -50,6 +50,8 @@ LTI as a tool provider: LTI as a tool provider allows external systems to integr
 
 LTI as a tool consumer: LTI as a Tool Consumer allows LMS to integrate external tools via Learning Tools Interoperability (LTI). In this scenario, LMS is a consumer of services provided by external tools. Adobe Learning Manager acts as an LTI Tool Consumer, allowing it to integrate third-party learning tools. This allows Adobe Learning Manager learners to consume the courses, certificates, or learning paths from the third-party tools within the Adobe Learning Manager.
 
+Refer this article [Learning Tool Interoperability](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md) for more information. 
+
 ## Credly
 
 Using Credly, an admin in ALM allows learners to manage and share external badges from the platform across various social media channels.

@@ -116,10 +116,10 @@ Using this launch link or IMSCC file, you can export the Adobe Learning Manager 
 As an LTI Consumer, Adobe Learning Manager allows you to use activity, tools, content, and widgets from external LTI providers.
 To add Adobe Learning Manager as an LTI consumer, you need the following credentials from the external LTI provider:
 
-   * Initiate Login URL
-   * Target Link URL
-   * Redirect URL
-   * Public Key Type
+* Initiate Login URL
+* Target Link URL
+* Redirect URL
+* Public Key Type
 
 Follow these steps to add Adobe Learning Manager as an LTI consumer:
 
