@@ -15,7 +15,7 @@ _Contextual search results based on AI_
 
 In the screenshot above, when we search for **photoshop getting started**, the AI-powered search shows the most accurate results for that keyword.
 
-This capability searches your content and third-party course titles, descriptions, tags, personalized notes, and other metadata. The algorithm automatically transcribes and searches right within the transcript for content types like Video, PDF, and even recordings from Adobe Connect sessions. 
+This capability searches your content and third-party course titles, descriptions, tags, personalized notes, and other metadata. The algorithm automatically transcribes and searches right within the transcript for content types like Video, PDF, and even recordings from **Adobe Connect** sessions. 
 
 The algorithm uses sophisticated AI and NLP (Natural Language Processing) to understand the search query, mark the essential keywords, and logically expand the other phrases from the searched query. This query expansion boosts relevant terms and semantically related context to retrieve courses, certificates, or learning paths more intelligently. The semantic search currently supports only English content.   
 
