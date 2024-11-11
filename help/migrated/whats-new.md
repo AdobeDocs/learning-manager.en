@@ -95,7 +95,7 @@ Refer this article [Custom roles](/help/migrated/administrators/feature-summary/
 
 ## Completion comments 
 
-Admins can now add comments when marking learners as complete in courses, learning paths, or certifications. Admins can add comments for one or multiple learners at the same time, and the comments will appear in the [Learner Transcripts](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) report.
+Admins can now add comments when marking learners as complete in courses, learning paths, or certifications. Admins can add comments for one or multiple learners at the same time, and the comments appear in the [Learner Transcripts](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) report.
 
 Refer this article [Completion comments](/help/migrated/administrators/feature-summary/courses.md#completion-comments) for more information.
 
