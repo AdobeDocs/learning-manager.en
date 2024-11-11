@@ -283,63 +283,107 @@ To create and share a compliance dashboard, follow these steps:
 >
 >Sharing the new dashboard will overwrite the existing dashboard in the selected manager's app. Managers will be able to view the newly shared dashboard by the administrators.
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### Share compliance dashboard with admins and custom admins
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+Admins can share the dashboard with other admins and custom admins, giving them instant access to all compliance dashboards. 
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+Follow these steps to share the dashboard with admins and custom admins:
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. Log in as an **[!UICONTROL Admin]**.
+2. Navigate to the **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**.
+3. Select **[!UICONTROL Admin View]** on the **[!UICONTROL Compliance Dashboard]** section.
+4. Select the **[!UICONTROL Share Dashboard]** button.
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png) 
+   _Share dashboard - Admin_
 
-You can also see the compliance status for each internal team.
+5. Select the compliance labels from the **[!UICONTROL Select Custom Compliance]** dropdown menu. This option will select all courses that have the selected compliance labels.
+6. Select the additional courses, learning paths, or certifications you want to share with admins.
+ 
+   ![](assets/share-button.png)
+   _Share compliance dashboard_
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+7. Select the users or user groups you want to share the dashboard and select **[!UICONTROL Share]**. 
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+##### View the compliance dashboard – Custom admins and other admins
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+All the custom admins and other admins from the selected user group can see the compliance dashboard on their app. 
 
-### Share training with managers
+Follow these steps to view the compliance dashboard:
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+1. Navigate to the **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+2. Select **[!UICONTROL Your View]** on the **[!UICONTROL Compliance Dashboard]** section.
+3. Select the **[!UICONTROL Go to Compliance Dashboard]** option, and you can see the new compliance dashboard shared by the admin.
+   
+   ![](assets/compliance-custom-view.png)
+   _View the compliance dashboard - Custom admin_
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+#### Share with store managers
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+Admins can share the compliance dashboard with store managers, which allows them to monitor their learner's compliance progress. 
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+Follow these steps to share the dashboard with store managers:
 
-### Share training
+1. Log in as an **[!UICONTROL Admin]**.
+2. Navigate to the **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+3. Select **[!UICONTROL Manager View]** on the **[!UICONTROL Compliance Dashboard]** section.
+4. Select the **[!UICONTROL Share Dashboard]** button.
+   
+   ![](assets/share-manager.png)
+   _Share the compliance dashboard with Managers_
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+5. Select the compliance labels from the **[!UICONTROL Select Custom Compliance]** dropdown menu.
+   This option will select all courses that have the selected compliance labels.
+6. Select the additional courses, learning paths, or certifications you want to share with admins.
+7. Select the users or user groups you want to share the dashboard and select **[!UICONTROL Share]**. 
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+##### View the compliance dashboard – Manager
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+Refer this article [View the compliance dahsboard](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) for more information.
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+#### Edit the dashboard
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+Follow these steps to edit the compliance dashboard:
 
-1. Click **[!UICONTROL Share]**.
+1. Log in as an **[!UICONTROL Admin]**.
+2. Navigate to the **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+3. Select **[!UICONTROL Admin View]** or **[!UICONTROL Manager View]** on the **[!UICONTROL Compliance Dashboard]** section. You can see the compliance dashboards in this section.
+4. Select **[!UICONTROL Edit]** on the compliance dashboard you want to edit.
+ 
+   ![](assets/edit.png)
+   _Edit the compliance dashboard_
 
-The training is now shared with the specified manager.
+5. Change the required details and select **[!UICONTROL Share]**.
+6. The compliance dashboard will be shared with the selected managers. 
 
-### View training
+#### Withdraw the dashboard - Admin
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+Follow these steps to withdraw the compliance dashboard:
 
-### Withdraw training
+1. Log in as an **[!UICONTROL Admin]**.
+2. Navigate to the **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+3. Select **[!UICONTROL Admin View]** or **[!UICONTROL Manager View]** on the **[!UICONTROL Compliance Dashboard]** section. You can see the compliance dashboards in this section.
+4. Select **[!UICONTROL Withdraw]** on the compliance dashboard you want to remove and select **[!UICONTROL Proceed]**.
+5. This action will remove the shared compliance dashboard from the manager's app.
+ 
+   ![](assets/manager-edit.png)
+   _Withdraw the compliance dashboard_
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+#### Set default compliance widget for learners
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+Follow these steps to set the default compliance widget for learners:
+
+1. Log in as an **[!UICONTROL Admin]**.
+2. Navigate to the **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+3. Select **[!UICONTROL Learner View]** on the **[!UICONTROL Compliance Dashboard]** section.
+4. Select **[!UICONTROL Change]** in the **[!UICONTROL Learner View]** section.
+
+   ![](assets/learner-widget.png)
+   _Set default compliance widget for learners_
+5. Select the compliance labels from **[!UICONTROL Custom Compliance]** dropdown. This option will select all courses that have the selected compliance labels.
+6. Select **[!UICONTROL Proceed]** to set the default compliance widget. 
+   
+Learners can see the selected courses or learning paths on the compliance widget on their homepage. Refer [Compliance dashboard widget](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget) for more information.
 
 ## Custom reports
 
@@ -840,6 +884,34 @@ The report contains the following:
 * Learning element reminder
 * Scope-Catalog
 * Scope-Usergroup
+
+### Audit trail for custom roles
+
+Admins can download the custom role audit report to track all changes made to the custom roles, including creating, modifying, and deleting custom roles and their associated feature access.
+
+To download the report, follow these steps:
+
+1. Log in as an admin.
+2. Select Reports > Custom Reports.
+3. Select Custom Role Audit Trail and pick the date range 
+4. Select Generate to download the report.
+
+The Custom Role Audit Trail report contains the following fields:
+
+* Role Id
+* Role Name
+* Activity Type
+* Modification Type
+* Description
+* Referenced Object Type
+* Referenced Object Id
+* Referenced Object Name
+* Referenced Object Email
+* Modified by User Name
+* Modified by User UUID
+* Modified by User Email
+* Modified Date (UTC TimeZone)
+* Source
 
 ## Email subscriptions {#emailsubscriptions}
 

@@ -11,28 +11,33 @@ This feature helps you define custom roles and assign specific responsibilities 
 
 You can create a custom role to provide authoring capabilities limited to a particular catalog. You can also create a role dedicated to manage reporting. Such roles can then be assigned to individuals who are supposed to take up these specific responsibilities.
 
+Admins can now view CSV-created permissions within Adobe Learning Manager. The filter by option filters custom roles by admin created and those imported via a CSV. After you select a custom role, you can see its permissions.
+ 
+![](assets/filter.png)
+_Filter custom roles_
+
 ## Create a custom role {#create-role}
 
 1. Log in as an Administrator. Open **[!UICONTROL Users]** > **[!UICONTROL Custom Role]**.
-1. Select **[!UICONTROL Create Role]**. The **[!UICONTROL Create New Role]** tab opens.
+2. Select **[!UICONTROL Create Role]**. The **[!UICONTROL Create New Role]** tab opens.
 
    ![](assets/create-new-role.png)
 
    *Create a custom role*
 
-1. Enter the name in the **[!UICONTROL Name of the Role]** field.
-1. **[!UICONTROL Account privileges]**: These privileges give the role owners access to specific system configuration aspects and which act on the entire account. Choose the access permissions. The user gets full control over assigned permissions.
+3. Enter the name in the **[!UICONTROL Name of the Role]** field.
+4. **[!UICONTROL Account privileges]**: These privileges give the role owners access to specific system configuration aspects and which act on the entire account. Choose the access permissions. The user gets full control over assigned permissions. Admins can grant detailed permissions for the User section, which has Internal/External Users, User Groups, and Advanced users.
 
->[!NOTE]
->
->   Scope is not applicable on these privileges.
+   >[!NOTE]
+   >
+   >   Scope is not applicable on these privileges.
 
 
    ![](assets/account-privileges.png)
 
    *Set the scope*
 
-1. **Feature privileges - Core features**: Used to grant access to specific features for managing learning activities. Permissions to the following features can be given using this option.
+5. **Feature privileges - Core features**: Used to grant access to specific features for managing learning activities. Permissions to the following features can be given using this option. Admins can provide detailed permissions like read-only, create, edit, and delete permissions for the Catalogs.
 
    * Catalogs
    * Reports
@@ -42,7 +47,7 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    *Set scope for Catalogs, Reports, and Tags*
 
-1. **Feature privileges- Learning Objects:**  Use this option to provide access to LOs related features. You can provide access to the following LOs.
+6. **Feature privileges- Learning Objects:**  Use this option to provide access to LOs related features. Admins can provide detailed permissions for all learning objects, including courses, learning paths, certifications, and job aids. They can assign users permissions like create, edit, delete, or read-only access.
 
    * Certifications
    * Courses
@@ -51,16 +56,20 @@ You can create a custom role to provide authoring capabilities limited to a part
 
    You can also grant specific operation control for the LOs. The permission can be one of the following:
 
-   * Full Control
-   * Edit and delete
+   * Read only
+   * Create
+   * Edit
+   * Delete
    * Enrollment
    * Report
 
-   ![](assets/learning-objects.png)
+   You can also grant full control for the LOs. 
+
+   ![](assets/learningobjects.png)
 
    *Grant specific permissions*
 
-1. **Scope for feature privileges:** The scope of Feature privileges allocated to this role can be restricted to a specific User Group or one or more Catalogs.
+7. **Scope for feature privileges:** The scope of Feature privileges allocated to this role can be restricted to a specific User Group or one or more Catalogs.
 
    Catalogs: Use the radio button to provide control over **[!UICONTROL All catalogs]** or use the **[!UICONTROL Set access per Catalog]** option to provide access to specific catalogs. You can also select multiple catalogs.
 
@@ -218,18 +227,43 @@ You can create a custom role to provide authoring capabilities limited to a part
    
 1. **Users:** Use this option to determine which users are assigned this role. You can choose one or more users using the search box.
 
-   **Add users to custom role CSV upload:** To add users via CSV updalod, add a CustomRole column to the .csv file that the Administrator used to import users. Enter the role of the user under the CustomRole coloumn for the users to whom you wish to assign a cusrom role. To upload the CSV file, click  **[!UICONTROL Add > Upload a CSV]**.
+   **Add users to custom role CSV upload:** To add users via CSV uploaded, add a CustomRole column to the .csv file that the Administrator used to import users. Enter the role of the user under the CustomRole column for the users to whom you wish to assign a custom role. To upload the CSV file, click  **[!UICONTROL Add > Upload a CSV]**.
 
-   CustomRole columnNote:
-
-* You cannot search User Groups.
-* You cannot search users who already have Admin role assigned to them.
-* Assigning a new custom role to a user overrides user's previous custom role.
+   * You cannot search User Groups.
+   * You cannot search users who already have Admin role assigned to them.
+   * Assigning a new custom role to a user overrides user's previous custom role.
 
    <!--![](assets/users.png)-->
 
-* A custom admin having permission to  Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
-* If a custom admin has permission on the Users entity, they can assign Admin role to themselves and become a standard Admin.
+   * A custom admin having permission to  Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
+   * If a custom admin has permission on the Users entity, they can assign Admin role to themselves and become a standard Admin.
+
+## Custom role report
+
+Admins can download a CSV report of all custom roles and their permissions. The report shows how each role was created, either by an admin or through a CSV file, and outlines the highlights the access given to each role.
+
+To download the report, follow these steps:
+
+1. Log in as an **[!UICONTROL Admin]**.
+2. Select **[!UICONTROL Users]** > **[!UICONTROL Custom Roles]**.
+3. Select the **[!UICONTROL Download]** option to download the CSV report. 
+   
+  ![](assets/download-report.png)
+  _Download report of custom roles_
+
+The report has two CSV files: role.csv and user_role.csv. The role.csv file includes:
+
+* Custom role
+* User IDs
+* Source of creation. 
+
+The user_role.csv file includes the fields, Custom role, Source of creation and detailed information for Catalogs, Users, Courses, Learning Paths, and more.
+
+## Audit trail for custom roles
+
+Admins can download the custom role audit report to tracks all changes made to the custom roles, including creating, modifying, and deleting custom roles and their associated feature access. 
+
+Refer this article [Audit trail for custom roles](/help/migrated/administrators/feature-summary/reports.md#audit-trail-for-custom-roles) for more information.
 
 ## Restrict folder access for custom authors {#folder-custom-author}
 

@@ -230,6 +230,35 @@ If a learner who was earlier in pending approval state, unenrolls, then his/her 
 
 The waitlist section allows learners to be waitlisted for classroom courses when seats are limited, based on their order of enrollment. Administrators can manage this by selecting waitlisted learners and allocating seats beyond the initial limit. Once a seat is allocated by the administrator, the learner is immediately enrolled in the course.
 
+### Waitlist report
+
+Adobe Learning Manager's allows admins to download the list of waitlisted learners for all instances of a course. Admins can access this report from the Waitlist section on the **[!UICONTROL Course Overview]** page.
+
+Following the columns available in the Waitlist report:
+
+* Course Name
+* Instance Name
+* Instance ID
+* Instance Status
+* User Name
+* Email
+* User Unique ID
+* Date Enrolled (UTC TimeZone)
+* Status
+* Waitlist Number
+* Waitlist Limit
+* Seat Limit
+
+To download the report from Admin section:
+
+1. Log in as **[!UICONTROL Admin]**.
+2. Go to the **[!UICONTROL Course]** section and select the required course.
+3. Select the **[!UICONTROL Waitlist]** option in the **[!UICONTROL Course overview]** page.
+4. Select **[!UICONTROL Actions]** > **[!UICONTROL Export Report]** to download the **[!UICONTROL Waitlist]** report.
+ 
+   ![](assets/export-report-waitlist.png)
+   _Export Report_
+
 ## Export learners' attendance {#attendance}
 
 For any classroom and VC course, you can download the list of learners who have attended this course, for any instance.
@@ -492,6 +521,31 @@ For sending the email notifications, an Admin must explicitly choose the escalat
 ![](assets/escalation-notification.png)
 
 *Set escalation level*
+
+## Completion comments 
+
+Admins can leave comments when they mark any learner as complete for courses, learning paths, or certifications. These comments help with compliance and auditing purposes. Admins can easily add comments for one learner or multiple learners at once. 
+
+### Add completion comments
+
+Follow these steps to add completion comments:
+
+1. Log in as an **[!UICONTROL Admin]**.
+2. Go to the **[!UICONTROL Courses]** page and select a course.
+3. Select **[!UICONTROL Learners]** on the course page.
+4. Choose the individual learner or multiple learners.
+5. Select **[!UICONTROL Actions]** and then select**[!UICONTROL  Mark Completion]**.
+6. Enter your completion comment in the dialog box.
+
+   ![](assets/comments.png)
+   _Completion comment_
+
+This process is the same for Learning Paths and Certifications. For learning paths, you can filter to select all courses or just individual courses to mark as complete.
+
+   ![](assets/learning-path.png)
+   _Select multiple courses for completion_
+
+The comments will be visible in the [Learner Transcripts](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) report.
 
 ## Preview courses {#previewcourses}
 

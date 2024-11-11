@@ -23,7 +23,7 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 ## What's new in this release
 
-View [What's new in Adobe Learning Manager](/help/migrated/whats-new.md) for more information.
+View [What's new in Adobe Learning Manager](/help/migrated/whats-new-july-2024.md) for more information.
 +++
 
 +++Update 96: The March 2024 release of Adobe Learning Manager
@@ -41,7 +41,7 @@ View [What's new in Adobe Learning Manager](/help/migrated/whats-new-march-2024.
 
 ## What's new in this release
 
-View [What's new in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023) for more information.
+View [What's new in Adobe Learning Manager](/help/migrated/whats-new-november-2023.md) for more information.
 +++
 
 +++Update 94
@@ -389,8 +389,6 @@ The November 2022 release of Adobe Learning Manager consists of the following:
 * Training Overview Page Enhancements
 * Player customization
 * Impersonation of Learner and Manager
-
-For more information, see [What's New in the Adobe Learning Manager November 2022 release](/help/migrated/whats-new-2022-november.md).
 
 **Note:** With the November 2022 release of Adobe Learning Manager, Zoom will deprecate [JWT authentication by June 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Accordingly, the Zoom connector with JWT will continue to work until mentioned date, but we recommend users to create Server-to-Server OAuth app to replace the functionality in their account. Any new connection will have Zoom OAuth authentication by default.
 
@@ -3031,7 +3029,7 @@ In Administrator login, pagination was not working in Announcements page. This i
 
 **Create skills**
 
-In learners login, the skill name tool tip in **Skills map **was** **not displaying the****full name. This issue is fixed. 
+In learners login, the skill name tool tip in **Skills map **was****not displaying the****full name. This issue is fixed. 
 
 **Add external partners**
 

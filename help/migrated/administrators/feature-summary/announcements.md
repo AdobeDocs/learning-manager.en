@@ -53,26 +53,32 @@ If the multimedia attachment is of large size, it may take time to upload. After
 
 When you choose this option, any media file that you choose features as a masthead on the Learner homepage. The masthead acts as a call to action for the learners it is intended for.
 
-![](assets/masthead-announcement.png)
+Admins can add alt text for all mastheads to improve accessibility for learners. This allows learners with special needs to use screen readers to read the alt text and understand the image. You can select multiple languages and provide alt text for each language. Make sure to add the alt text in the respective languages.
 
-*Customize the masthead*
+To add the masthead, follow these steps:
 
-1. Browse and choose an image that will represent the masthead. The recommended size is 1280 x 360 px.
-1. Choose the locale to which you want to add a masthead. For each language, you must choose a masthead asset.
-1. In the **[!UICONTROL Action Button]** field, add a url so that when learners click the button on the masthead, they are redirected to the url. This is an optional field.
-1. Choose the target user groups or the target learning objects. You can choose only one of them for an announcement.
+1. Log in as an **[!UICONTROL Admin]**.
+2. Select **[!UICONTROL Announcements]** > **[!UICONTROL Add]**.
+3. Select **[!UICONTROL As Masthead]** from the Type dropdown menu.
+ 
+   ![](assets/announcement.png)
+   _Create an announcement_
 
-   Start typing the user group name in the text box and choose from the drop-down list. Similarly, choose the training by typing the object name in the text-box.
+4. Select the language and upload the image.
 
-1. In the **[!UICONTROL Advanced Settings]** section, you have the following options:
+   >[!NOTE]
+   >
+   >You can select multiple languages and provide alt text for each language. Make sure to add the alt text in the respective languages.
 
-   * Click **[!UICONTROL Immediately]** if you want the announcement to be posted right then.
-   * Click **[!UICONTROL Never]** if you do not want your announcement to expire.
+5. Enter the suitable text in the **[!UICONTROL Alt Text]** field.
+6. In the **[!UICONTROL Action Button]** field, add a URL to redirect learners when they click the button on the masthead.
+7. Select the target user groups or the target learning objects. You can choose only one of them for an announcement.
+8. In the **[!UICONTROL Advanced Settings]** section, you have the following options:
+
+   * Select **[!UICONTROL Immediately]** if you want the announcement to be posted right then.
+   * Select **[!UICONTROL Never]** if you do not want your announcement to expire.
    * Select the **[!UICONTROL Start]** and **[!UICONTROL End]** dates for the announcement.
-
-   ![](assets/advanced-settings.png)
-
-   *Set time for a masthead to display*
+9. Select Save and publish the announcement.
 
 **Is there a limit on the number of live Masthead Announcements?**
 
