@@ -488,17 +488,19 @@ Admins can find these reporting changes in the **Admin** > **Reports** section.
 
 The **[!UICONTROL Learning Transcripts]** report will contain two new columns: 
 
-* Module ID 
-* Course Instance ID 
+* **[!UICONTROL Module ID]**: Displays the unique identifier for each module. This new column has been added after the existing **[!UICONTROL Module]** column.
+* **[!UICONTROL Course Instance ID]**: Displays the unique identifier for each course instance.This new column has been added after the existing **[!UICONTROL Instance]** column.
+* **[!UICONTROL Completion Comment]**: This column captures the comments entered by the admin when marking user completion. This new column has been added at the end of the report.
+
 
 ### Session Summary report 
 
 The **[!UICONTROL Session Summary]** report will contain three new columns: 
 
-* Module ID 
-* Session ID 
-* Course Instance ID 
-* Completion count
+* **[!UICONTROL Module ID]** column has been added before the **[!UICONTROL Session Name]** column.
+* **[!UICONTROL Session ID]** column has been added before the **[!UICONTROL Session Name]** column.
+* **[!UICONTROL Course Instance ID ]** column has been added after the **[!UICONTROL Instance Name]** column.
+* **[!UICONTROL Completion Count]** column has been added after the **[!UICONTROL Enrollment Count]** column.
 
 ## Bugs fixed in this update
 
