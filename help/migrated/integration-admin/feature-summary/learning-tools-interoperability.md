@@ -2,6 +2,7 @@
 jcr-language: en_us
 title: Learning Tools Interoperability (LTI)
 description: Learn about LTI integration ALM
+exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
 ---
 # LTI integration
 
