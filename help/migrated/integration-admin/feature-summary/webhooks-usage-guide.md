@@ -159,7 +159,7 @@ Certain events have real-time and non-real-time counterparts, as mentioned above
 * Subscribe to real-time events whenever you want to listen for enrollments, unenrollments, or completions performed by learners.
 * Subscribe to non-real time or batched events whenever you want to listen for enrollments, unenrollments, or completions marked by Admin, Manager, Platform, etc.
 
-### Learner Progress
+### Learner progress
 
 * Subscribe to the event whenever you want to listen for progress changes of a learner.
 
@@ -175,7 +175,7 @@ Certain events have real-time and non-real-time counterparts, as mentioned above
 
 As part of the Webhooks response payload, Adobe Learning Manager will emit attributes required to uniquely identify an entity. These will be emitted in the same format and according to the standards used by the public API, ensuring that the webhook data is in sync with the public API data. View [Sample payloads](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md#sample-payloads-for-the-events) for see payloads for the various events.
 
-## Using Webhooks to build an external DB or notification service
+## Using webhooks to build an external DB or notification service
 
 One of the use cases we've heard where Webhooks might be useful is for building a database on the customer's side. Adobe Learning Manager has its own database and schema, but customers don't have access to it. 
 
@@ -230,7 +230,7 @@ The fault-tolerant of the ALM webhook system provides recommendations for subscr
 
 ALM has connection timeout configured to 10 seconds and socket timeout configured to 5 seconds. The expectation is that the client acknowledges the message as soon as it receives them. This is to ensure that the client doesn't lag while processing messages. In case there is some downstream processing which is time consuming, the client should still acknowledge the event instantly and then handle the downstream processing at their end.
 
-### Data Retention
+### Data retention
 
 Events are kept for 7 days. If they aren't processed within this time, they are lost permanently. If recovery happens on the last day and more time is needed, the system won't extend the retention period.
 If events are produced faster than they are consumed, some events may be lost. Although this is uncommon, subscribers should monitor to prevent it from becoming a long-term issue.
@@ -241,11 +241,11 @@ When a subscriber fails to respond to webhook events, the ALM system retries web
 
 The retry process starts with an initial interval of 5 seconds. If the subscriber doesn't respond, the wait time doubles to 10, 20, 40, and 80 seconds, eventually increasing to a maximum of 5 minutes. Once it reaches 5 minutes, the system will continue to retry every 5 minutes until the 7-day retention period is over. If the subscriber still doesn't respond during this entire period, the webhook will be automatically disabled. A reminder email will be sent to the subscriber at regular intervals.
 
-### Duplicate Events
+### Duplicate events
 
 If a subscriber takes more than 5 seconds to respond after processing an event, the system might try to process the same event again. It is recommended to use event IDs to keep track of which events have already been processed. Also, if the webhook crashes after sending the event but before saving that it was processed, the same group of events might be retried. It is recommended to use batch IDs or individual event IDs to recognize and ignore any duplicates.
 
-### Out-of-Order Events
+### Out-of-order events
 
 ALM tries to keep events in the correct order, but sometimes events can be delivered out of order, especially between real-time and non-real-time events.
 
@@ -255,7 +255,7 @@ If an admin enrolls multiple learners in a course at once, the enrollment events
 
 To prevent these faults, subscribers should actively monitor webhook events and set up alerts for issues like missed events, duplicate deliveries, or out-of-order sequences.
 
-## Specific guidelines for Webhook events
+## Specific guidelines for webhook events
 
 1. If you get a LEARNER_PROGRESS event first, then ignore the events listed below:
 
