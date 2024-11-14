@@ -2,6 +2,7 @@
 description: Learn about the new features and enhancements in the November 2024 release of Adobe Learning Manager
 jcr-language: en_us
 title: New features summary
+exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
 ---
 # New features summary {#new-features-summary}
 
@@ -16,7 +17,7 @@ Learn about the new features and enhancements in the November 2024 release of Ad
 * **Custom roles**: Enhanced control over user roles and permissions. 
 * **Completion comments**: Add comments when marking learners as complete. 
 * **User Group report**: Manage user groups with detailed reports. 
-* **Waitlist report**: Download the waitlisted learners list for course instances. 
+* **Waitlist report**: Download the wait listed learners list for course instances. 
 * **Accessibility enhancements**: Support for alt text on mastheads and company logos. 
 * **Support for Hindi**: Interface language support for Hindi. 
 * **Profanity check**: Block social posts containing prohibited words. 
@@ -95,7 +96,7 @@ Refer this article [Custom roles](/help/migrated/administrators/feature-summary/
 
 ## Completion comments 
 
-Admins can now add comments when marking learners as complete in courses, learning paths, or certifications. Admins can add comments for one or multiple learners at the same time, and the comments will appear in the [Learner Transcripts](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) report.
+Admins can now add comments when marking learners as complete in courses, learning paths, or certifications. Admins can add comments for one or multiple learners at the same time, and the comments appear in the [Learner Transcripts](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) report.
 
 Refer this article [Completion comments](/help/migrated/administrators/feature-summary/courses.md#completion-comments) for more information.
 

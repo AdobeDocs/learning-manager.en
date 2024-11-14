@@ -3,6 +3,7 @@ jcr-language: en_us
 title: Credly
 description: Learn about Credly integration with ALM to manage and share external badges from the platform across various social media channels
 contentowner: chandrum
+exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
 ---
 # Credly
 
@@ -49,4 +50,3 @@ Once the badge has been imported into Adobe Learning Manager, admin can create t
 The author/Admin can assign these Credly imported ALM badges to a course, learning path or certification (not just skills), and on the consumption of these learning objects, the badge will be achieved and can be viewed on Credly and ALM App.
 
 Learners can log in to Credly and see the badges in the Credly platform. From Credly, they can share the badges on external platforms like LinkedIn and other social media.
-
