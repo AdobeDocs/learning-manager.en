@@ -538,4 +538,3 @@ View [Adobe Learning Manager system requirements](/help/migrated/system-requirem
 
 * [July 2024 release](/help/migrated/whats-new-july-2024.md)
 * [March 2024 release](/help/migrated/whats-new-march-2024.md)
-
