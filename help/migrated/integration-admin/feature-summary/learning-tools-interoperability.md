@@ -230,6 +230,16 @@ The following are LTI limitations for both LTI consumer and LTI provider:
 * Failure reasons are not available when an export fails during the migration of courses without core content.
 * External LTI course grades are not appearing in the Learner Transcript, and scores are not visible on the L2 Quiz page, affecting learners' performance tracking.
 
+## LTI launch failure cases
+
+The following are the courses that the external LTI player cannot launch because of recent changes made in ALM after the launch links were created:
+
+* Courses where the instance is retired.
+* Courses that are retired and have no enrollments in ALM.
+* Courses that have enrollments in ALM but are retired.
+* Courses that have been deleted in ALM.
+* Courses where the enrollment limit has been reached.
+
 ## Best practice
 
 It is recommended that a catalog be created with courses that support LTI to prevent export failures and make exporting the courses easier.
