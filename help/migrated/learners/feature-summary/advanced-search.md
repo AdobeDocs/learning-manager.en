@@ -2,6 +2,7 @@
 jcr-language: en_us
 title: AI-powered search in Adobe Learning Manager
 description: Learn about the AI-powered search in Adobe Learning Manager
+exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
 ---
 # Advanced AI search in Adobe Learning Manager 
 
