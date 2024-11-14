@@ -94,5 +94,3 @@ Follow these steps to select the instance and enroll:
   ![](assets/course-overview.png)
    _Instance details_
 
-
-
