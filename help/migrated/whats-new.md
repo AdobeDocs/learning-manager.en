@@ -29,6 +29,10 @@ Learn about the new features and enhancements in the November 2024 release of Ad
 
 Adobe Learning Manager is revamping the way learners search courses or training. It introduces an AI-powered search capability that combines lexical and semantic search. The search is now smarter, as it looks for specific terms and understands the context and intent behind them. The advanced search understands the meaning of your query and provides relevant results. It identifies the main focus of the search to give you the most complete set of results.
 
+>[!NOTE]
+>
+>AI powered search is only available for the Learners.
+
 Refer this article [Advanced Search](/help/migrated/learners/feature-summary/advanced-search.md) for more information.
 
 ## Webhooks

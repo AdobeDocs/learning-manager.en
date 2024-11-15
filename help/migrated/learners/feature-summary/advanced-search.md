@@ -10,6 +10,10 @@ The Search functionality in ALM enhances the user experience by allowing them to
 
 Adobe Learning Manager introduces an AI-powered search capability that combines lexical and semantic search. The search is smarter, as it looks for specific terms and understands the context and intent behind them. The advanced AI-powered search understands the meaning of your query and provides relevant results.  
 
+>[!NOTE]
+>
+>AI powered search is only available for the Learners.
+
 ## Why is search important?
 
 Search functionality is important for several reasons:
