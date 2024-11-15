@@ -285,6 +285,8 @@ To prevent these faults, subscribers should actively monitor webhook events and 
 * Session changes would be captured as part of the instance update event. This applies only to courses. There will be no upward propagation from lower-level entities for learning path instances or certification instances.
 * If an learning path contains a course and a learner completes the course via the learning path, two **LearnerProgress** events will be generated—one for the course and one for the learning path.
 * Certain workflows compute attributes of learning objects, such as duration and delivery type, asynchronously. Therefore, events for these learning object will be generated once the cron job finishes processing.
+* If a course is enrolled through a parent Learning Program or Certification, the enrollment, unenrollment, and completion events will only trigger for the parent Learning Program or Certification. These events won't trigger for the child course since the enrollment happened indirectly.
+* Webhooks are only supported for accounts with **[!UICONTROL ACTIVE]** status. They are not available for **[!UICONTROL TRIAL]** or **[!UICONTROL INACTIVE]** accounts.
 
 ## Sample payloads for the events
 

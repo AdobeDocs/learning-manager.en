@@ -47,9 +47,9 @@ Adobe Learning Manager now supports LTI to enhance interoperability between Adob
 
 LTI (Learning Tools Interoperability) is a standard that allows third-party tools and content providers to connect with a Learning Management System (LMS). Users can access external learning content from external content providers directly within their LMS without signing in or navigating to a different LMS.
 
-LTI as a tool provider: LTI as a tool provider allows external systems to integrate with an LMS. Adobe Learning Manager acts as an LTI Tool Provider, allowing other LMS platforms to access course, certificates, or learning paths from the Adobe Learning Manager directly within their LMS. 
+**LTI as a tool provider**: LTI as a tool provider allows external systems to integrate with an LMS. Adobe Learning Manager acts as an LTI Tool Provider, allowing other LMS platforms to access course, certificates, or learning paths from the Adobe Learning Manager directly within their LMS. 
 
-LTI as a tool consumer: LTI as a Tool Consumer allows LMS to integrate external tools via Learning Tools Interoperability (LTI). In this scenario, LMS is a consumer of services provided by external tools. Adobe Learning Manager acts as an LTI Tool Consumer, allowing it to integrate third-party learning tools. This allows Adobe Learning Manager learners to consume the courses, certificates, or learning paths from the third-party tools within the Adobe Learning Manager.
+**LTI as a tool consumer**: LTI as a Tool Consumer allows LMS to integrate external tools via Learning Tools Interoperability (LTI). In this scenario, LMS is a consumer of services provided by external tools. Adobe Learning Manager acts as an LTI Tool Consumer, allowing it to integrate third-party learning tools. This allows Adobe Learning Manager learners to consume the courses, certificates, or learning paths from the third-party tools within the Adobe Learning Manager.
 
 Refer this article [Learning Tool Interoperability](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md) for more information. 
 
