@@ -19,7 +19,8 @@ Search functionality is important for several reasons:
 * **Accessibility**: Effective search capabilities make information more accessible, ensuring that users can engage with content relevant to their needs.
 * **Personalization**: Advanced search systems can tailor results based on user preferences, improving the relevance of the information presented.
 
-Evolving search behaviors on the web
+## Evolving search behaviors on the web
+
 As people search online, the way they search is changing, and search engines are adjusting to keep up. The following are some key ways people search for information nowadays:
 
 * **Intent-Driven**: Instead of typing exact keywords, users now express their needs with phrases like I want to or I need to. Modern search engines understand the purpose behind these phrases and give more relevant results.
