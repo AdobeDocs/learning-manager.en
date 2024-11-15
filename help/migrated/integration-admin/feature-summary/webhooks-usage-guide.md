@@ -246,12 +246,6 @@ The retry process starts with an initial interval of 5 seconds. If the subscribe
 
 If a subscriber takes more than 5 seconds to respond after processing an event, the system might try to process the same event again. It is recommended to use event IDs to keep track of which events have already been processed. Also, if the webhook crashes after sending the event but before saving that it was processed, the same group of events might be retried. It is recommended to use batch IDs or individual event IDs to recognize and ignore any duplicates.
 
-### Out-of-order events
-
-ALM tries to keep events in the correct order, but sometimes events can be delivered out of order, especially between real-time and non-real-time events.
-
-If an admin enrolls multiple learners in a course at once, the enrollment events are marked as non-real-time. However, if a learner finishes the course quickly, that completion event is marked as real-time and might be delivered before the enrollment events.
-
 ### Recommendation for fault tolerance
 
 To prevent these faults, subscribers should actively monitor webhook events and set up alerts for issues like missed events, duplicate deliveries, or out-of-order sequences.
