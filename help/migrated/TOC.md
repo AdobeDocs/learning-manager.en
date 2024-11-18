@@ -82,9 +82,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager Connectors](integration-admin/feature-summary/connectors.md)
    * [Non-logged-in APIs](integration-admin/feature-summary/non-logged-in-apis.md)
-   * Webhooks {#webhooks}
-     * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
-     * [Webhooks usage guide](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
+   * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
+   * [Webhooks usage guide](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [Credly](integration-admin/feature-summary/credly-integration.md)
    * [Learning Tools Interoperability](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [Integrate Learning Manager with AEM](integrate-aem-learning-manager.md)
