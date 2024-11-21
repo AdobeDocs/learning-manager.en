@@ -95,3 +95,4 @@ Overall, ALM's AI-powered search is made to be thorough, accurate, and easy to u
 >
 >1. Customers using a headless implementation need to follow the API documentation to enable Advanced search
 >2. Advanced search is currently not available for the Salesforce app.
+>3. Customer data, including content and transcripts, is not shared with any external service for AI-powered search. All content remains securely stored within the existing storage system.
