@@ -8,7 +8,7 @@ description: Explore the interface and content languages supported in Adobe Lear
 Adobe Learning Manager supports the following interface and content languages.
 
 ## Interface languages
- 
+
 |Interface Language|Role|Locale code|
 |---|---|---|
 |English|<li>Admin</li><li>Author</li><li>Learner</li><li>Manager</li>|en-us|
@@ -31,7 +31,7 @@ Adobe Learning Manager supports the following interface and content languages.
 |Hindi|<li>Admin</li><li>Author</li><li>Learner</li><li>Manager</li>|hi-IN|
 
 ## Content languages
- 
+
 |Content Language|Right To Left|Locale code|
 |---|---|---|
 |English|-|en-us|
