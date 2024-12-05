@@ -124,7 +124,7 @@ This enables the connector to access Microsoft Teams online meetings.
 
 ## Set up Microsoft Teams connector in Learning Manager
 
-1. Sign in to Learning Manager as an Integration Admin.  
+1. Sign in to Learning Manager as an **Integration Admin**.  
 
 1. In the Connectors page, select Microsoft Teams connector and click **[!UICONTROL Connect]**.  
 
