@@ -11,6 +11,37 @@ This feature helps you define custom roles and assign specific responsibilities 
 
 You can create a custom role to provide authoring capabilities limited to a particular catalog. You can also create a role dedicated to manage reporting. Such roles can then be assigned to individuals who are supposed to take up these specific responsibilities.
 
+Admins have the ability to create custom admin and custom author roles with tailored permissions for each role. Below is an overview of the permissions associated with each role:
+
+**Custom Author Role Permissions**
+
+Custom authors can perform the following tasks:
+
+* Access the content library to add, edit, or delete core content.
+* Create, edit, and delete:
+   * Courses
+   * Job aids
+   * Certifications
+   * Learning paths
+   * Learning plans
+
+Admins and authors, including custom admins and custom authors, will have the ability to share learning objects (LOs) to externally shared catalogs. Admins and authors should be able to search for externally shared catalogs while creating learning objects (LOs).
+
+**Custom Admin Role Permissions**
+
+The custom admin role replicates a set of admin responsibilities, including access to account-level privileges. Custom admins are granted permissions for managing key features related to learning activities, such as:
+
+* Learning plans
+* Catalogs
+* Reports
+* Tags
+
+In addition, custom admins can:
+
+* Manage courses and job aids, including enrolling and deleting users.
+* Create, edit, and delete certifications, learning paths, and learning plans.
+* Access reporting and enrollment features for all learning objects (LOs).
+
 Admins can now view CSV-created permissions within Adobe Learning Manager. The filter by option filters custom roles by admin created and those imported via a CSV. After you select a custom role, you can see its permissions.
  
 ![](assets/filter.png)
@@ -26,7 +57,9 @@ _Filter custom roles_
    *Create a custom role*
 
 3. Enter the name in the **[!UICONTROL Name of the Role]** field.
-4. **[!UICONTROL Account privileges]**: These privileges give the role owners access to specific system configuration aspects and which act on the entire account. Choose the access permissions. The user gets full control over assigned permissions. Admins can grant detailed permissions for the User section, which has Internal/External Users, User Groups, and Advanced users.
+4. **[!UICONTROL Account privileges]**: These privileges give the role owners access to specific system configuration aspects and which act on the entire account. Choose the access permissions. The user gets full control over assigned permissions. 
+
+   Admins can grant detailed permissions for the User section, which has Internal/External Users, User Groups, and Advanced users.
 
    >[!NOTE]
    >
@@ -37,7 +70,9 @@ _Filter custom roles_
 
    *Set the scope*
 
-5. **Feature privileges - Core features**: Used to grant access to specific features for managing learning activities. Permissions to the following features can be given using this option. Admins can provide detailed permissions like read-only, create, edit, and delete permissions for the Catalogs.
+5. **Feature privileges - Core features**: Used to grant access to specific features for managing learning activities. Permissions to the following features can be given using this option. 
+
+   Admins can provide detailed permissions like read-only, create, edit, and delete permissions for the Catalogs.
 
    * Catalogs
    * Reports
@@ -54,7 +89,7 @@ _Filter custom roles_
    * Job Aids
    * Learning Programs
 
-   You can also grant specific operation control for the LOs. The permission can be one of the following:
+   You can also grant specific operation control for the learning objects. The permission can be one of the following:
 
    * Read only
    * Create
