@@ -25,6 +25,10 @@ Learn about the new features and enhancements in the November 2024 release of Ad
 * **MS Teams completion criteria**: Set minimum attendance time for VILT sessions. 
 * **New migration workflows**: Migration changes include completion criteria for courses and modules and migrating modules into folders. 
 
+>[!NOTE]
+>
+>Check out this [webinar](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&loId=11231360&loType=course) to learn more about the new features in this release.
+
 ## AI-powered search in Adobe Learning Manager 
 
 Adobe Learning Manager is revamping the way learners search courses or training. It introduces an AI-powered search capability that combines lexical and semantic search. The search is now smarter, as it looks for specific terms and understands the context and intent behind them. The advanced search understands the meaning of your query and provides relevant results. It identifies the main focus of the search to give you the most complete set of results.
