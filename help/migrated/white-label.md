@@ -305,7 +305,12 @@ The `<root>` folder contains the **Runner.xcarchive.zip** file. Run the below co
 
 >[!IMPORTANT]
 >
->Before running the `apksigner` command, execute the following commands to export your keystore password and key alias password as environment variables: `export KS_PASS=your_keystore_password` and `export KEY_PASS=your_key_password`
+>Before running the `apksigner` command, execute the following commands to export your keystore password and key alias password as environment variables: 
+>
+>```
+>export KS_PASS=your_keystore_password
+>export KEY_PASS=your_key_password
+>```
 
 ```
 sh""" <path>/apksigner sign --ks $storeFile. --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
