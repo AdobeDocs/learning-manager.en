@@ -268,23 +268,29 @@ The `<root>` folder contains the **Runner.xcarchive.zip** file. Run the below co
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Return to the `<root>` folder (where Runner.xcarchive.zip is located):
+4. Run the following command to update your signing information to the framework library:
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. Return to the `<root>` folder (where Runner.xcarchive.zip is located):
 
    ```
    cd <root>
    ```
 
-5. Export the archive using xcodebuild:
+6. Export the archive using xcodebuild:
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
    
-6. Locate the .ipa file in the ipa_path folder.
-7. Upload the .ipa file to `Diawi` website.
-8. Once fully uploaded, select the **[!UICONTROL Send]** button.
-9. After completion, you will receive a QR code and a link.
-10. Open the QR code or link directly in Safari.
+7. Locate the .ipa file in the ipa_path folder.
+8. Upload the .ipa file to `Diawi` website.
+9. Once fully uploaded, select the **[!UICONTROL Send]** button.
+10. After completion, you will receive a QR code and a link.
+11. Open the QR code or link directly in Safari.
 
    If the device is included in the provisioning profile, the installation should proceed on the device.
 
@@ -298,9 +304,13 @@ The `<root>` folder contains the **Runner.xcarchive.zip** file. Run the below co
 **For apk file**
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 
 ```
+
+>[!NOTE]
+>
+>The path to the `apksigner` tool typically looks like this: ~/Library/Android/sdk/build-tools/30.0.3/apksigner.
 
 **For aab file**
 
@@ -355,6 +365,36 @@ You will get the apk file from the **[!UICONTROL output_dir]** folder.
 **What's next**
 
 After generating the binaries, push the binaries into Play Store or App Store.
+
+### Pushing the apps to the store for review
+
+After getting the final binaries, you can upload them to the respective app stores (iOS or Android) for review. Follow these steps to upload the binaries to the app stores.
+
+**iOS**
+
+1. Log in to the Transporter app with your App Store credentials.
+2. Select the **+** button at the left top and upload the production certificate (.ipa file).
+3. If the .ipa file is correct, you will be prompted to upload the app to the App Store.
+4. After the app is delivered, sign in to the App Store. Within a few hours, the binary will appear in the TestFlight section. You can enable it for final sanity testing in TestFlight before the app review and use this IPA as the binary when submitting the app for a new release.
+
+**Android**
+
+1. Open the Google Play Store Console.
+2. Go to **[!UICONTROL Dashboard]** > **[!UICONTROL View App Releases]** > **[!UICONTROL Release Dashboard]** and then select the **[!UICONTROL Create New Release]**.
+3. Upload the generated .aab file as the app bundle and type release details such as the version number and What's New information.
+4. Save your changes and submit the app for review.
+5. Make sure to set the app distribution to 100% (Google sets it to 20% by default).
+
+#### Useful Links for app publishing
+
+**Android**
+
+[Create and set up your app](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[Prepare your app for review](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP)
+
+**iOS**
+
+[Submit for review](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review)
 
 ## How do I apply the changes
 
