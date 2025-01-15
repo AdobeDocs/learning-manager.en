@@ -9,6 +9,14 @@ exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
 
 Adobe Learning Manager mobile app now supports white labeling – which means that you can now release the app under your own branding.
 
+ALM will make available updated white labeled binary files according to the following timelines:
+
+1. For major releases to the mobile app, files will be made available two weeks in advance 
+2. For any planned updates for urgent fixes, files will be made available one week in advance 
+3. For unplanned, urgent & immediate fixes, files will be made available on a best effort basis
+
+Binaries will be made available in the customer's designated folders. Contact your CSMs to access the files. The customer is responsible for timely publishing and related processes.  
+
 ## How you should start preparing to launch your white-labeled app
 
 To deploy and manage your own white labeled app, follow the steps:
