@@ -11,9 +11,9 @@ Adobe Learning Manager mobile app now supports white labeling – which means th
 
 ALM will make available updated white labeled binary files according to the following timelines:
 
-1. For major releases to the mobile app, files will be made available two weeks in advance 
-2. For any planned updates for urgent fixes, files will be made available one week in advance 
-3. For unplanned, urgent & immediate fixes, files will be made available on a best effort basis
+1. For major releases to the mobile app, files will be made available two weeks in advance.
+2. For any planned updates for urgent fixes, files will be made available one week in advance.
+3. For unplanned, urgent & immediate fixes, files will be made available on a best effort basis.
 
 Binaries will be made available in the customer's designated folders. Contact your CSMs to access the files. The customer is responsible for timely publishing and related processes.  
 
