@@ -36,8 +36,8 @@ Follow these steps to add the Credly Connector to Adobe Learning Manager:
 
 The badge.csv in Adobe Learning Manager allows you to migrate badges from the existing LMS or external systems. The badge.csv has been updated with two new columns:
 
-* External badge ID
-* External badge provider. 
+* externalBadgeId
+* externalBadgeProvider
 
 External badge ID refers to the badge template ID in the Credly platform, and the external badge provider is Credly. Add these values in badge.csv and follow the steps mentioned in the [Migration manual](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) to migrate the csv.
 
