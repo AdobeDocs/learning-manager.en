@@ -546,6 +546,10 @@ The **[!UICONTROL Session Summary]** report will contain three new columns:
 
 View [Adobe Learning Manager system requirements](/help/migrated/system-requirements.md).
 
+## Release notes
+
+Check out the [release notes](/help/migrated/release-note/release-notes.md) for latest release updates. 
+
 ## Previous releases of Adobe Learning Manager
 
 * [July 2024 release](/help/migrated/whats-new-july-2024.md)

@@ -35,3 +35,30 @@ You can also filter according to the duration of a training. The duration filter
 The training **Duration** and **Format** filters are identified based on the training content available for default instance and for the account preferred locale.
 
 Once a training is published, the training may take up to one hour for the data to be available as a filter.
+
+## Sorting functionality in the learner app
+
+The sort feature in the learner app provides personalized course recommendations based on the content and interface language. ​ This enhancement simplifies the process for learners to find courses in their preferred language and utilize more intelligent sorting options.
+
+>[!NOTE]
+>
+>This feature is available on both the web and mobile app.
+
+You can sort courses alphabetically::
+
+1. **[!UICONTROL Name (A-Z)]**: Displays courses in alphabetical order.
+2. **[!UICONTROL Name (Z-A)]**: Displays courses in reverse alphabetical order.
+
+Courses are displayed in the following priority order based on language preferences:
+
+1. **[!UICONTROL Content Language]**: Courses in the selected content language appear first.
+2. **[!UICONTROL Interface Language]**: Courses in the interface language are listed next.
+3. **[!UICONTROL Other Languages]**: Courses in random languages are displayed last.
+
+If no content language or interface language is configured in the account, the system follows this sequence:
+
+1. **[!UICONTROL Browser Language]**: The app prioritizes courses based on the browser's language settings.
+2. **[!UICONTROL Account Language]**: If the browser language is not available, the ALM account language is considered.
+3. **[!UICONTROL Default to English]**: If the browser or account language is unavailable, courses are shown in English.
+
+Select **[!UICONTROL Catalogs]** page in the learner app and then select your preferred sorting option: **[!UICONTROL Name (A-Z)]** or **[!UICONTROL Name (Z-A)]**. The courses will be displayed according to your selected sorting preference, with language-based prioritization applied.

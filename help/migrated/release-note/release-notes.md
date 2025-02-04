@@ -19,14 +19,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 +++Update 99: The February 2025 release of Adobe Learning Manager
 
-**Release number**: M42.1
-**Release date**: February 4, 2025
-
 ## Publish content from Adobe Captivate to specific folder
 
 Authors can publish content directly to designated ALM folders for better organization.  Admins can check published content details through Learner Transcripts Content Audit Trail reports.  The workflow includes admin creating folders, users selecting folders, and content being published accordingly. 
-
-Adobe Captivate or Adobe Captivate Classic allows users to create, import, and publish eLearning content. With the new feature, users can select specific content folders for publishing. 
 
 Refer this [article](/help/migrated/authors/feature-summary/publish-content-from-captivate.md) for more information. 
 
@@ -44,28 +39,7 @@ Previously, activity modules with external links migrated using APIs (`GET /bulk
 
 The sort feature in the learner app provides personalized course recommendations based on the content and interface language. ​ This enhancement simplifies the process for learners to find courses in their preferred language and utilize more intelligent sorting options.
 
->[!NOTE]
->
->This feature is available on both the web and mobile app.
-
-You can sort courses alphabetically::
-
-1. **[!UICONTROL Name (A-Z)]**: Displays courses in alphabetical order.
-2. **[!UICONTROL Name (Z-A)]**: Displays courses in reverse alphabetical order.
-
-Courses are displayed in the following priority order based on language preferences:
-
-1. **[!UICONTROL Content Language]**: Courses in the selected content language appear first.
-2. **[!UICONTROL Interface Language]**: Courses in the interface language are listed next.
-3. **[!UICONTROL Other Languages]**: Courses in random languages are displayed last.
-
-If no content language or interface language is configured in the account, the system follows this sequence:
-
-1. **[!UICONTROL Browser Language]**: The app prioritizes courses based on the browser's language settings.
-2. **[!UICONTROL Account Language]**: If the browser language is not available, the ALM account language is considered.
-3. **[!UICONTROL Default to English]**: If the browser or account language is unavailable, courses are shown in English.
-
-Select **[!UICONTROL Catalogs]** page in the learner app and then select your preferred sorting option: **[!UICONTROL Name (A-Z)]** or **[!UICONTROL Name (Z-A)]**. The courses will be displayed according to your selected sorting preference, with language-based prioritization applied.
+Refer this [article](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app) for more information. 
 
 +++
 
