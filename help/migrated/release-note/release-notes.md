@@ -17,6 +17,55 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
  </tbody>
 </table>-->
 
++++Update 99: The February 2025 release of Adobe Learning Manager
+
+**Release number**: M42.1
+**Release date**: February 4, 2025
+
+## Publish content from Adobe Captivate to specific folder
+
+Authors can publish content directly to designated ALM folders for better organization.  Admins can check published content details through Learner Transcripts Content Audit Trail reports.  The workflow includes admin creating folders, users selecting folders, and content being published accordingly. 
+
+Adobe Captivate or Adobe Captivate Classic allows users to create, import, and publish eLearning content. With the new feature, users can select specific content folders for publishing. 
+
+Refer this [article](/help/migrated/authors/feature-summary/publish-content-from-captivate.md) for more information. 
+
+## Set up interface language through SAML
+
+Adobe Learning Manager (ALM) now accepts a SAML attribute for language. This attribute is then mapped to the user's interface and content language settings, ensuring smooth interaction with the LMS in their preferred language. The configuration of these language settings is managed through the Identity and Access Management (IAM) platform, utilizing SAML for Single-Sign-On (SSO). This supports both Service Provider (SP) initiated and Identity Provider (IdP) initiated logins, allowing users to see the interface and content in their chosen language. 
+
+Refer this [article](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md) for more information.
+
+## Enhancement in Migration APIs
+
+Previously, activity modules with external links migrated using APIs (`GET /bulkimport/cansync` and `POST /bulkimport/startrun`) did not display the **[!UICONTROL Mark as Complete]** option for learners after accessing the link. This issue has been resolved. Now, activity modules with external links migrated through APIs will correctly display the **[!UICONTROL Mark as Complete]** option for learners.
+
+## Sorting functionality in the Learner app
+
+The learner app's sort feature gives personalized course suggestions based on the content and interface language. This update makes it easier for learners to find courses in their preferred language and use smarter sorting options. 
+
+The sorting feature now includes two primary options:
+
+1. **[!UICONTROL Name (A-Z)]**: Displays courses in alphabetical order.
+2. **[!UICONTROL Name (Z-A)]**: Displays courses in reverse alphabetical order.
+
+Courses are displayed in the following priority order based on language preferences:
+
+1. **[!UICONTROL Content Language]**: Courses in the selected content language appear first.
+2. **[!UICONTROL Interface Language]**: Courses in the interface language are listed next.
+3. **[!UICONTROL Other Languages]**: Courses in random languages are displayed last.
+
+If no content language or interface language is configured in the account, the system follows this sequence:
+
+1. **[!UICONTROL Browser Language]**: The app prioritizes courses based on the browser's language settings.
+2. **[!UICONTROL Account Language]**: If the browser language is not available, the ALM account language is considered.
+3. **[!UICONTROL Default to English]**: If the browser or account language is unavailable, courses are shown in English.
+
+Select **[!UICONTROL Catalogs]** page in the learner app and then select your preferred sorting option: **[!UICONTROL Name (A-Z)]** or **[!UICONTROL Name (Z-A)]**. The courses will be displayed according to your selected sorting preference, with language-based prioritization applied.
+
+
++++
+
 +++Update 98: The November 2024 release of Adobe Learning Manager
 
 **Release date**: 16 November, 2024
