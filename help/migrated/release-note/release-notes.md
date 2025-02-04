@@ -42,9 +42,13 @@ Previously, activity modules with external links migrated using APIs (`GET /bulk
 
 ## Sorting functionality in the Learner app
 
-The learner app's sort feature gives personalized course suggestions based on the content and interface language. This update makes it easier for learners to find courses in their preferred language and use smarter sorting options. 
+The sort feature in the learner app provides personalized course recommendations based on the content and interface language. ​ This enhancement simplifies the process for learners to find courses in their preferred language and utilize more intelligent sorting options.
 
-The sorting feature now includes two primary options:
+>[!NOTE]
+>
+>This feature is available on both the web and mobile app.
+
+You can sort courses alphabetically::
 
 1. **[!UICONTROL Name (A-Z)]**: Displays courses in alphabetical order.
 2. **[!UICONTROL Name (Z-A)]**: Displays courses in reverse alphabetical order.
@@ -62,7 +66,6 @@ If no content language or interface language is configured in the account, the s
 3. **[!UICONTROL Default to English]**: If the browser or account language is unavailable, courses are shown in English.
 
 Select **[!UICONTROL Catalogs]** page in the learner app and then select your preferred sorting option: **[!UICONTROL Name (A-Z)]** or **[!UICONTROL Name (Z-A)]**. The courses will be displayed according to your selected sorting preference, with language-based prioritization applied.
-
 
 +++
 
