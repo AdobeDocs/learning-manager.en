@@ -103,7 +103,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Catalogs](authors/feature-summary/catalogs.md)
    * [Job Aids](authors/feature-summary/job-aids.md)
    * [Adobe Connect integration](authors/feature-summary/adobeconnect-integration.md)
-   * [Publish content from Adobe Captivate to specific folder](/help/migrated/authors/feature-summary/publish-content-from-captivate.md)
    * [Add learning objects in different locales](authors/feature-summary/add-new-language-learning-objects.md)
    * [User notifications](authors/feature-summary/user-notifications.md)
    * [Email templates](authors/feature-summary/email-templates-author.md)

@@ -19,12 +19,6 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 +++Update 99: The February 2025 release of Adobe Learning Manager
 
-## Publish content from Adobe Captivate to specific folder
-
-Authors can publish content directly to designated ALM folders for better organization.  Admins can check published content details through Learner Transcripts Content Audit Trail reports.  The workflow includes admin creating folders, users selecting folders, and content being published accordingly. 
-
-Refer this [article](/help/migrated/authors/feature-summary/publish-content-from-captivate.md) for more information. 
-
 ## Set up interface language through SAML
 
 Adobe Learning Manager (ALM) now accepts a SAML attribute for language. This attribute is then mapped to the user's interface and content language settings, ensuring smooth interaction with the LMS in their preferred language. The configuration of these language settings is managed through the Identity and Access Management (IAM) platform, utilizing SAML for Single-Sign-On (SSO). This supports both Service Provider (SP) initiated and Identity Provider (IdP) initiated logins, allowing users to see the interface and content in their chosen language. 
