@@ -17,6 +17,26 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
  </tbody>
 </table>-->
 
++++Update 99: The February 2025 release of Adobe Learning Manager
+
+## Set up interface language through SAML
+
+Adobe Learning Manager (ALM) now accepts a SAML attribute for language. This attribute is then mapped to the user's interface and content language settings, ensuring smooth interaction with the LMS in their preferred language. The configuration of these language settings is managed through the Identity and Access Management (IAM) platform, utilizing SAML for Single-Sign-On (SSO). This supports both Service Provider (SP) initiated and Identity Provider (IdP) initiated logins, allowing users to see the interface and content in their chosen language. 
+
+Refer this [article](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md) for more information.
+
+## Enhancement in Migration APIs
+
+Previously, activity modules with external links migrated using APIs (`GET /bulkimport/cansync` and `POST /bulkimport/startrun`) did not display the **[!UICONTROL Mark as Complete]** option for learners after accessing the link. This issue has been resolved. Now, activity modules with external links migrated through APIs will correctly display the **[!UICONTROL Mark as Complete]** option for learners.
+
+## Sorting functionality in the Learner app
+
+The sort feature in the learner app provides personalized course recommendations based on the content and interface language. ​ This enhancement simplifies the process for learners to find courses in their preferred language and utilize more intelligent sorting options.
+
+Refer this [article](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app) for more information. 
+
++++
+
 +++Update 98: The November 2024 release of Adobe Learning Manager
 
 **Release date**: 16 November, 2024

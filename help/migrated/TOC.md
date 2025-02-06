@@ -48,6 +48,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Add users in bulk](administrators/add-users-in-bulk.md)
    * [Impersonate a Learner and Manager](administrators/feature-summary/impersonation-learner-manager.md)
    * [Multiple SSO Logins](administrators/feature-summary/multiple-sso-logins.md)
+   * [Set up interface language through SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [Peer accounts](administrators/feature-summary/peer-account.md)
    * [Create and modify skills and levels](administrators/feature-summary/skills-levels.md)
    * [AI-based recommendation of courses](ai-based-recommendations.md)
