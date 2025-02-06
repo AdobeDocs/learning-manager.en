@@ -3,8 +3,8 @@ description: Learn how to configure the interface language with SAML
 jcr-language: en_us
 title: Set up interface language through SAML
 contentowner: chandrum
+exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
 ---
-
 # Set up interface language through SAML
 
 Adobe Learning Manager (ALM) now accepts a SAML attribute for language. This attribute is then mapped to the user's interface and content language settings, ensuring smooth interaction with the LMS in their preferred language. The configuration of these language settings is managed through the Identity and Access Management (IAM) platform, utilizing SAML for Single-Sign-On (SSO). This supports both Service Provider (SP) initiated and Identity Provider (IdP) initiated logins, allowing users to see the interface and content in their chosen language. The workflow is as follows:
@@ -89,5 +89,3 @@ Users can manually update their language settings in the user profile section. T
 If a user is soft deleted from ALM, the language settings will be retained in the database. When the same user is added again, the previously set language will be restored. 
 
 Admins can check User Activity, Learning Summary, and Compliance Dashboard reports for language-specific details.
-
-
