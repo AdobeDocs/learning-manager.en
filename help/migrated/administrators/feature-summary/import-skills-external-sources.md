@@ -22,7 +22,7 @@ As an Admin, you can only import skills from one skill source.
 
 ### Default skill level
 
-The default skill level is one and Credit is 10 after the skills are migrated. Later admin can change the credit.
+The default skill level is one and Credit is 10 after the skills are migrated.
 
 You cannot edit the name of the skill, description and add levels to external skills. You can, however, add domain, badges, and edit credits.
 
