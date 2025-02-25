@@ -201,7 +201,7 @@ The following IP addresses will be added to our email delivery pool:
 
 >[!NOTE]
 >
->If needed, we suggest collaborating with your IT team to whitelist the new IP addresses.
+>If needed, we suggest collaborating with your IT team to add the IP addresses to the list of allowed urls.
 
 ## Migration changes
 
