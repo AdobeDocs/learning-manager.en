@@ -183,6 +183,26 @@ Currently, learners are marked as attended even if they join a Virtual Instructo
 
 This is a backend feature that is disabled by default. Please contact your CSM to have it enabled.
 
+## Updating new IP addresses for email delivery
+
+To enhance email delivery reliability, we are adding new IP addresses to our existing pool. To ensure uninterrupted email communication, update your organization's email settings as needed.
+
+We currently use the following IP addresses for email delivery:
+
+* 149.72.162.66
+* 167.89.5.155
+
+The following IP addresses will be added to our email delivery pool:
+
+* 159.183.228.93
+* 159.183.225.26
+* 159.183.218.22
+* 168.245.57.144
+
+>[!NOTE]
+>
+>If needed, we suggest collaborating with your IT team to whitelist the new IP addresses.
+
 ## Migration changes
 
 The following changes are made in the migration workflow:
