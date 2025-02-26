@@ -78,7 +78,7 @@ _Semantic search_
 
 ### In-Content search
 
-Adobe Learning Manager's search functionality has been enhanced to search through actual content. It automatically transcribes videos, audio files, and PDFs, incorporating those transcripts into search results. Additionally, it utilizes Adobe Connect meeting recordings to provide more comprehensive and relevant results. This enhancement ensures that courses containing rich content like videos and meeting notes are included, significantly improving search accuracy and effectiveness. 
+Adobe Learning Manager's search functionality has been enhanced to search through actual content. It automatically transcribes videos, audio files, PDFs, docs, ppt, and xls, incorporating those transcripts into search results. Additionally, it utilizes Adobe Connect meeting recordings to provide more comprehensive and relevant results. This enhancement ensures that courses containing rich content like videos and meeting notes are included, significantly improving search accuracy and effectiveness. The in-content match helps improve the ranking of search results by giving a boost to results found through traditional phrase matching and semantic matching.
 
 >[!NOTE]
 >
