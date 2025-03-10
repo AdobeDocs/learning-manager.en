@@ -79,6 +79,10 @@ To generate an excel report, select **[!UICONTROL Actions] > [!UICONTROL Report]
 
 In the compliance dashboard, managers can view the team's overall compliance status for configured learnings across specific categories (for example, sales, marketing, and legal). Admins can create a dashboard with compliance courses, learning paths, or certification and share with the managers. Managers can view the dashboard shared by the admin in their instances.
 
+User A is the manager of User B, User C, User D, and User E. User B and User C are managers of their respective teams.
+
+User A can view reports for their direct reports (User B, User C, User D, and User E) and the teams managed by User B and User C.
+
 ### View the dashboard
 
 To view dashboard, select **[!UICONTROL Compliance Dashboard]** from manager app.

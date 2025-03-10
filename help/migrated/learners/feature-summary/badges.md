@@ -64,7 +64,7 @@ In the Learner app, in Badges page, there is an option called Configure Badgr. I
 
 ## Badge update
 
-A Learner can update his/her badge to the latest badge by selecting the badge and clicking **Update **in the top right section of the page. A badge update happens in case of any changes in Badge image or Badge from the Learning Object by an Admin/Author.
+A Learner can update his/her badge to the latest badge by selecting the badge and clicking **Update** in the top right section of the page. A badge update happens in case of any changes in Badge image or Badge from the Learning Object by an Admin/Author.
 
 This process of updating the page is called Manual rebake. In this case, the badge gets reuploaded to Badgr backpack after baking is completed even if it has the same badge image/name. After updating the badge, the  Learner receives a notification that update is completed.
 
