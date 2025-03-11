@@ -17,6 +17,8 @@ Managers play an important role in a team's learning initiatives. To guide them 
 
 To view the details of a graph, click the graph or click **[!UICONTROL Details]** hyper link.
 
+Managers can also view the dashboard of their next-level manager's team. For example, User A is the manager of User B, User C, User D, and User E. User B and User C are managers of their respective teams. User A can view reports for their direct reports (User B, User C, User D, and User E) and the teams managed by User B and User C.
+
 ## Learning Summary {#learningsummary}
 
 A manager can view the summary of learning activities for his team over a selected time period. Select month, quarter, or year from the drop-down menu.
@@ -78,10 +80,6 @@ To generate an excel report, select **[!UICONTROL Actions] > [!UICONTROL Report]
 ## Compliance Status {#compliancestatus}
 
 In the compliance dashboard, managers can view the team's overall compliance status for configured learnings across specific categories (for example, sales, marketing, and legal). Admins can create a dashboard with compliance courses, learning paths, or certification and share with the managers. Managers can view the dashboard shared by the admin in their instances.
-
-User A is the manager of User B, User C, User D, and User E. User B and User C are managers of their respective teams.
-
-User A can view reports for their direct reports (User B, User C, User D, and User E) and the teams managed by User B and User C.
 
 ### View the dashboard
 
