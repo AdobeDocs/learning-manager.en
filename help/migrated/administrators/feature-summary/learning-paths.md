@@ -105,7 +105,7 @@ In the Learning Path, you can perform the following:
 
 After you've made the changes, to publish the Learning Path, click Publish.
 
-## Nested Leaning Path
+## Nested Learning Path
 
 You can include a Learning Path inside a Learning Path, but you can nest at most one Learning Path inside.
 
