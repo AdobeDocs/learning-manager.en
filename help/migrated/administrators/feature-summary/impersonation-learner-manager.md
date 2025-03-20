@@ -24,6 +24,7 @@ Here's what you must keep in mind while impersonating a user:
 * An Admin cannot impersonate themself.
 * A Custom Admin who has access to the Users page can impersonate users.
 * An Admin/Custom Admin can only impersonate for 60 mins.
+* A Custom Admin with read-only access cannot impersonate users.
 
 ## Impersonate a user
 
