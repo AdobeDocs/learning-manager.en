@@ -9,7 +9,14 @@ exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
 
 Log in as a learner in Learning Manager.
 
-When you are using Adobe Learning Manager for the first time, you need to create your account, by following the steps below:
+When using Adobe Learning Manager for the first time, learners need to create an account. You can do this in one of two ways:
+
+* Self-registration: Use the URL provided in the welcome email to create your account.
+* Admin-created account: An admin can create an account on your behalf.
+
+## Create an account using the welcome e-mail URL
+
+Follow these steps to create your account using the URL from the welcome email:
 
 1. Launch Adobe Learning Manager using the secure link you received by welcome e-mail from your Administrator.
 

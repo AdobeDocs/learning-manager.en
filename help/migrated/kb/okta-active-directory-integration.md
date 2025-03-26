@@ -17,7 +17,12 @@ Adobe Learning Manager supports Identity Provider (IdP) and Service Provider (SP
 
 ## Create an application in OKTA
 
-1. Log in as an Administrator on Okta AD.
+1. Log in to Okta AD.
+   
+   >[!NOTE]
+   >
+   >You do not need ALM admin access to create an application and set up an IDP.
+
 1. Click **[!UICONTROL Applications]**. This opens the Application Store in Okta.
 
    ![](assets/cp-application-store.png)

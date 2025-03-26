@@ -105,15 +105,13 @@ In the Learning Path, you can perform the following:
 
 After you've made the changes, to publish the Learning Path, click Publish.
 
-## Nested Learning Path
+## Nested or enhanced learning path
 
-You can include a Learning Path inside a Learning Path, but you can nest at most one Learning Path inside.
-
-Insert the Learning Path like inserting a course. 
+A nested or enhanced learning path is a Learning Path that contains multiple Learning Paths within it. To insert a Learning Path, follow the same process as adding a course within a Learning Path.  
 
 ![](assets/nested-learning-path.png)
 
-*Add a Learning Path inside a Learning Path*
+*Nested or Enhanced Learning Path*
 
 ## Learning Path Settings
 

@@ -20,14 +20,19 @@ Up to 20 SSO configurations can be added to an account. These can be used to set
 
 To enable multiple SSO, select **Settings** > **Login Methods**.
 
-On the setup page, select the checkbox 'Enable Multiple Single Sign-On (SSO)' for Internal or External users.
+On the setup page, select the checkbox '**[!UICONTROL Enable Multiple Single Sign-On (SSO)]**' for Internal or External users.
 
 When Multi SSO is enabled, the login method selected for 'Default Login Method' becomes the default login type for user groups/profiles that are not linked to any SSO configuration. The default login can be Adobe ID or SSO or ALM ID (External users).
+
+>[!NOTE]
+>
+>Admins and custom admins with the necessary permissions can perform these steps.
 
 To configure an SSO, follow the steps below: 
 
 1. Click Configure Single Sign-On (SSO).   
 1. Click Add new SSO configuration.   
+![](assets/sso.png)
 1. In the SSO Configuration dialog, add the following:
 
    * Enter the name of the SSO.

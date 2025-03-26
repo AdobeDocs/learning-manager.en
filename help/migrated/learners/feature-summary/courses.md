@@ -94,6 +94,37 @@ You can register to express interest for any classroom courses that do not have 
 >
 >Learners should see a conflict message if they enroll in two different sessions at the same time or overlapping times.
 
+## Switch instances
+
+A learner enrolled in a particular instance of a course can view a list of all available instances of the course and switch to another instance that works better for them. The reason for switching could be that the learner missed attending the previous instance, or the session timing for the new instance is more suitable or it can be something else.
+
+Any progress made by the learner as part of the course, learner quiz scores etc., are carried over to the new instance. This feature is primarily meant for classroom and blended courses, but we shall support all types of courses, including self-paced ones.
+
+The option, View all instances appears irrespective of Instance Switch settings. Learners will now view an option to view all instances if there is more than one instance of a course.
+
+If the option Instance Switch is enabled, learners can switch to various instances until they complete the course. If the option is disabled, learners can view the instances but will be unable to enroll in the course.
+
+When the learner selects **View all instances**, the learner can see all the course instances.
+
+![alt text](assets/view-all-instance.png)
+
+_View all instance page from learner console_
+
+![](assets/switch-instance-learner.png)
+_Switch instance from learner page_
+
+An admin can switch instances for learners. Select a course from the admin console, go to the **[!UICONTROL Learners]** section, choose a user, and select the **[!UICONTROL Action]** button. Then, select **[!UICONTROL Switch Instance]** and choose the desired instance.
+
+![alt text](assets/switch-instance-admin.png)
+_Switch instance from Admin console_
+
+![switch instances select](assets/switch-instances-select.png)
+_Switch instance prompt_
+
+You cannot switch instances until any instance of the course is completed from Learner or Admin app.
+
+Authors, while creating a course can toggle between enabling or disabling "Instance Switch." Instance switch is available only for free courses.
+
 ## Workflow as a Learner
 
 As a Learner you will be allowed to rate a course only post enrolment. You can see the average Star Ratings for any course on the **Home** Page, **My Learning** page and **Catalog**.
