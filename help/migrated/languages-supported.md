@@ -2,6 +2,7 @@
 jcr-language: en_us
 title: Supported languages in Adobe Learning Manager
 description: Explore the interface and content languages supported in Adobe Learning Manager (ALM)
+exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
 ---
 # Supported languages in Adobe Learning Manager
 
@@ -75,4 +76,3 @@ Adobe Learning Manager supports the following interface and content languages.
 |Bulgarian|-|bg|
 |Dutch (Belgium) |-|nl-be|
 |Portuguese Portugal|-|pt-PT|
-
