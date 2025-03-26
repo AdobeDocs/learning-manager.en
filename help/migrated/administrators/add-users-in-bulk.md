@@ -33,6 +33,10 @@ It is not mandatory to add user's profile and Manager's email-id in the CSV. Use
 
 In this case, by default your company's Administrator is treated as the Manager for users. By default, employee is considered as user's profile.
 
+>[!NOTE]
+>
+>To add new users, create a new CSV file with their details and upload it. Updating and re-uploading an existing CSV file is not supported.
+
 **Sample CSV**
 
 Learning Manager sample CSV is available below with mandatory fields.

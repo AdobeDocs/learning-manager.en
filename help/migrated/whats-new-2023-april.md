@@ -210,13 +210,20 @@ If the option Instance Switch is enabled, learners can switch to various instanc
 
 When the learner selects **View all instances**, the learner can see all the course instances.
 
-![view all instances](assets/view-all-instances-new.png)
+![alt text](assets/view-all-instance.png)
 
-An Admin can switch the instances for Learners.
+_View all instance page from learner console_
 
-![switch instances](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_Switch instance from learner page_
+
+An admin can switch instances for learners. Select a course from the admin console, go to the **[!UICONTROL Learners]** section, choose a user, and select the **[!UICONTROL Action]** button. Then, select **[!UICONTROL Switch Instance]** and choose the desired instance.
+
+![alt text](assets/switch-instance-admin.png)
+_Switch instance from Admin console_
 
 ![switch instances select](assets/switch-instances-select.png)
+_Switch instance prompt_
 
 You cannot switch instances until any instance of the course is completed from Learner or Admin app.
 

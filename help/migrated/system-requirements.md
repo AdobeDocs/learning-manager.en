@@ -79,7 +79,10 @@ The immersive layout home page is not supported on IE 11 browsers.
 
 ## Recommended size of images {#recommendedsizeofimages}
 
-* Masthead: 1280 x 360 px.
+* Masthead:
+  * For settings as large: 1280 x 360 PX
+  * For settings as medium: 1280 x 273 PX
+  * For settings as small: 1280 x 187 PX
 * Image on the catalog card: 280 x 100 px
 * Size of the training card: 300 x 240 px
 * Social Banner: 1600 x 240 px

@@ -26,6 +26,18 @@ Learning Manager offers the ability to share purchased seats using the Peer acco
 
    *Add a sub-domain*
 
+>[!NOTE]
+>
+>To find the subdomain of another account, check the account's URL. The subdomain appears before the main domain and helps identify the specific account.
+>
+>For example:
+>
+>In the URL [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname), the subdomain is **accountname**.
+>
+>In the URL [https://www.accountname.learningmanager.com](https://www.accountname.learningmanager.com), the subdomain is also **accountname**.
+>
+>The subdomain is unique to each account and is used to access the respective Learning Manager instance.
+
 1. Enter the email ID of the administrator who either accepts or rejects the peer account request.
 1. Specify the number of seats you want to share with your peer. When you share seats with the peer account, the peer account goes into Active state with the received seats, or with the peer's own purchased seats.
 
