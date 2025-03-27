@@ -50,7 +50,7 @@ Before including Manager's email-id for any employee, ensure that the Manager is
 
 *CSV template for upload*
 
-Also, Administrators of an organization can add themselves as employees and mention their Manager's email-id as root.
+Also, Administrators of an organization can add **themselves** as employees and mention their Manager's email-id as root.
 
 **Sample CSV**
 
