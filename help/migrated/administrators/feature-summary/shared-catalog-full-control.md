@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Enable full control of shared catalog
 description: Enable full control of shared catalog in Adobe Learning Manager
 contentowner: saghosh
+exl-id: 231ba348-d777-4b13-98b0-06572b0ac7ed
 ---
-
-
 # Enable full control of shared catalog
 
 ## Create Catalog {#createcatalog}
@@ -67,7 +66,7 @@ Like granting full catalog control for courses, the Administrator can also grant
 
 ## Reset course {#resetcourse}
 
-1. On the catalog card that has a broken link, click **Reset Course**.
+1. On the catalog card that has a broken link, click **[!UICONTROL Reset Course]**.
 
   <!-- ![](assets/reset-course.png)-->
 
@@ -103,8 +102,8 @@ After clicking the Re-add button, there is a confirmaton message that the Learni
 Once the Administrator of the externsal account has accepted the catalog, the author can now add courses and Learning Programs.
 
 1. As a user, you receive a notification that the catalog is now available in your account.
-1. To see the list of courses, click **Courses** on the left navigation pane. You can see all courses created by you and shared with you.
-1. To view the course details, click **View Course** on the course card.
+1. To see the list of courses, click **[!UICONTROL Courses]** on the left navigation pane. You can see all courses created by you and shared with you.
+1. To view the course details, click **[!UICONTROL View Course]** on the course card.
 
    <!--![](assets/view-course.png)-->
 

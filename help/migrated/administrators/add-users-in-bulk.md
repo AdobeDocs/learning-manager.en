@@ -3,28 +3,39 @@ jcr-language: en_us
 title: Add users in bulk
 description: Learn to add multiple users at a time.
 contentowner: saghosh
+exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
 ---
-
-
 # Add users in bulk
 
-Yes, you can add multiple users at a time by following the below steps:
+In this training, you will learn how to add users in bulk through a CSV. 
 
-1. Click **Users** on the left pane in Administrator login, and then click **Add>Upload a csv.** A pop-up dialog appears.   
+[![button](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=51TC8QS1&mv=display&mv2=display#/course/7555555)
 
-1. You can add multiple users using a .CSV file. Click **Import** and select/open the .csv file from your computer.   
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
+## How to add multiple users
+
+You can add multiple users at a time by following the below steps:
+
+1. Click **[!UICONTROL Users]** on the left pane in Administrator login, and then click **[!UICONTROL Add]** > **[!UICONTROL Upload a csv]**. A pop-up dialog appears.   
+
+1. You can add multiple users using a .CSV file. Click **[!UICONTROL Import]** and select/open the .csv file from your computer.   
 
 1. After importing the file, map the contents of .csv file with the application labels when you upload .csv file first time.
 
-   For all the subsequent uploads, previous settings for labels are considered. Click **Save** after completing the mapping of data and click **Add** to upload the mapped .csv file.
+   For all the subsequent uploads, previous settings for labels are considered. Click **[!UICONTROL Save]** after completing the mapping of data and click **[!UICONTROL Add]** to upload the mapped .csv file.
 
-1. Click **Save** after completing the mapping of data and click **Add** to upload the mapped .csv file.
+1. Click **[!UICONTROL Save]** after completing the mapping of data and click **[!UICONTROL Add]** to upload the mapped .csv file.
 
 ## CSV upload with mandatory fields {#csvuploadwithmandatoryfields}
 
 It is not mandatory to add user's profile and Manager's email-id in the CSV. User name and the user's email-id are the only mandatory fields.
 
 In this case, by default your company's Administrator is treated as the Manager for users. By default, employee is considered as user's profile.
+
+>[!NOTE]
+>
+>To add new users, create a new CSV file with their details and upload it. Updating and re-uploading an existing CSV file is not supported.
 
 **Sample CSV**
 

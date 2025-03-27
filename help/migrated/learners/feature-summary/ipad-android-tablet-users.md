@@ -3,9 +3,8 @@ description: Read this article to know how to download Learning Manager Learner 
 jcr-language: en_us
 title: Learner App for mobiles and tablets
 contentowner: manochan
+exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
 ---
-
-
 # Learner App for mobiles and tablets
 
 Read this article to know how to download Learning Manager Learner app for smartphones and tablets. Learn how to consume courses using your mobile or tablet.
@@ -84,6 +83,13 @@ The mobile web responsive UI support is only available when an account **is conf
  </tbody>
 </table>
 -->
+
+## Download prompt in ALM web
+
+When users open an ALM link or use the ALM web on their mobile devices, they should see a prompt asking them to download the app for a better experience.
+
+![](assets/download-prompt.png)
+_Download ALM app_
 
 ## Unsupported features in mobile immersive experience {#unsupportedfeaturesinmobileimmersiveexperience}
 
@@ -204,7 +210,7 @@ In this update, the following features are not supported. You cannot:
 * Create or follow a board.
 * Copy a URL to a post.
 * Add post as story or add  as post as favorite or pin to top.
-* View a social leaderboard.
+* View a social leader board.
 
 Social learning is a platform in the Learning Manager mobile app, which engages users to share ideas and meaningful insights in an informal environment. It is a methodology that supplements the idea of traditional learning. 
 
@@ -371,6 +377,7 @@ Follow the steps below:
 
    | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png)|
    |---|---|
+   
 *Upload proof of completion*
 
 1. After uploading a file, tab **Submit**. A confirmation message appears.
@@ -522,6 +529,10 @@ You can access the Learning Manager app off-line in iPad and Android tablets. Yo
    * Green bar indicates network is back online. 
 
 User can switch back to online mode by clicking **view online content** button on the green bar. Content in the device is synchronized when the user switches to online mode. 
+
+## Multi-item cart support on mobile immersive
+
+Learners can now add several courses, learning paths, or certifications to the cart and purchase them together. View [Multi-item cart in ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
 <!--## Track device storage {#trackdevicestorage}
 

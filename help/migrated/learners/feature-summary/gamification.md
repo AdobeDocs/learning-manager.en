@@ -3,9 +3,8 @@ description: Engage users using gamification techniques in Learning Manager.
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
+exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
 ---
-
-
 # Gamification
 
 Engage users using gamification techniques in Learning Manager.
@@ -21,6 +20,8 @@ Learners can also see the achievement level based on the points that they have e
 ## Leaderboard {#leaderboard}
 
 Leaderboard is a gamification feature which acts as a scoreboard to showcase the ranking scores of leading competitors. Learners can see their gamification points using Leaderboard.
+
+![](assets/leaderboard.png)
 
 From the Learner's home page, click **[!UICONTROL Gamification]** from the left pane. To view the leaderboard, click Leaderboard link. This feature enables the learners to understand how they are faring against a particular team member. It also shows their ranking position relative to other members of the team.
 
@@ -172,4 +173,4 @@ Learners status of Level is displayed at the upper-right corner of the page in a
 
 **1. How to see the Leaderboard as a learner?**
 
-On the learner app, on the left pane, click **Social Learning**. You can see the social leaderboard on the bottom-right corner of the page.
+On the learner app, on the left pane, click **[!UICONTROL Social Learning]**. You can see the social leaderboard on the bottom-right corner of the page.

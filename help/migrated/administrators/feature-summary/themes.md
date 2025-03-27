@@ -3,24 +3,31 @@ description: Color themes and Branding in Learning Manager
 jcr-language: en_us
 title: Color themes
 contentowner: jayakarr
+exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
 ---
-
-
 # Color themes
 
 Color themes and Branding in Learning Manager
 
-Learning Manager enables you to change the appearance of the application to match your organization's branding requirements. 
+Learning Manager enables you to change the appearance of the application to match your organization's branding requirements.
+
+## Customize your user interface
+
+In this training, you will explore ways to customize the appearance of the interface to match it with an organization's branding requirements.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QBWYPFSV&mv=display&mv2=display#/course/8318823)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Branding {#branding}
 
-Click **Branding** on the left pane to update your organization name, change the subdomain, log styles and themes. Click **Edit** adjacent to each of these topics to modify the content. 
+Click **[!UICONTROL Branding]** on the left pane to update your organization name, change the subdomain, log styles and themes. Click **[!UICONTROL Edit]** adjacent to each of these topics to modify the content. 
 
 ## Logo styling {#logostyling}
 
-Click **Edit** to set the appearance of your logo and company name on Learning Manager application. 
+Click **[!UICONTROL Edit]** to set the appearance of your logo and company name on Learning Manager application. 
 
-Click **Upload new logo** and choose the logo from your computer to upload. You can preview the appearance of the logo and your organization name below. Choose the header style of your choice and click **Save**. 
+Click **[!UICONTROL Upload new logo]** and choose the logo from your computer to upload. You can preview the appearance of the logo and your organization name below. Choose the header style of your choice and click **[!UICONTROL Save]**. 
 
 ## Themes {#themes}
 
@@ -28,7 +35,7 @@ A set of five representative images is provided to preview your color theme chan
 
 **Pick a theme**
 
-Click the **Show hints** below this section to display the hints on the image as shown below. 
+Click the **[!UICONTROL Show hints]** below this section to display the hints on the image as shown below. 
 
 ![](assets/themes-preview-images.png)
 
@@ -43,29 +50,72 @@ Learning Manager application provides five color theme options to its users:
 * Winter Sky
 * Vivid
 
+>[!NOTE]
+>
+>The Vivid theme is accessibility compliant.
+
+
 ![](assets/prime-customize-theme.png)
 
 *Customize colors of a theme*
 
 You can customize the top bar color, Accent color (for example, icons color in left pane), primary color, and sidebar brightness of Themes except for the Prime Default theme. 
 
-In the **Primary color** picker, you can choose the color that is used for the Immersive UI.
+In the **[!UICONTROL Primary color]** picker, you can choose the color that is used for the Immersive UI.
 
 To customize, choose the theme type on the left pane and click the squares adjacent to brand color and sidebar icon colors. Click the side bar in sidebar brightness, drag forward or backward to adjust the brightness. Observe the preview in the above images as you modify these options.
 
-Click **Reset Theme** to restore the orignal settings of the theme. Click **Save** after completing the changes. 
+Click **[!UICONTROL Reset Theme]** to restore the original settings of the theme. Click **[!UICONTROL Save]** after completing the changes. 
 
 **Live Preview**
 
-Click **Live Preview** at the bottom left corner of the Themes section. A pop-up appears as shown below: 
+Click **[!UICONTROL Live Preview]** at the bottom left corner of the Themes section. A pop-up appears as shown below: 
 
 ![](assets/live-theme-preview.png)
 
 *The Live Preview pop-up*
 
-Choose the theme of your choice from the drop-down list, adjust the settings and click **Preview** to view the changes Live in your application. Now, you can go through all the features of the application and witness the changes. You can also change your roles while going through live preview. Once you are satisfied with the changes, you can come back to the Live theme preview pop-up feature and click **Apply Theme**. 
+Choose the theme of your choice from the drop-down list, adjust the settings and click **[!UICONTROL Preview]** to view the changes Live in your application. Now, you can go through all the features of the application and witness the changes. You can also change your roles while going through live preview. Once you are satisfied with the changes, you can come back to the Live theme preview pop-up feature and click **[!UICONTROL Apply Theme]**. 
 
-While you are previewing the changes Live, the Live theme preview pop-up still appears at the bottom of the screen. You can choose to minimize the pop-up. 
+While you are previewing the changes Live, the Live theme preview pop-up still appears at the bottom of the screen. You can choose to minimize the pop-up.
+
+## Multiple branding {#multiple-branding}
+
+Here's how to implement multiple branding:
+
+1. On the Admin app, select **Branding** on the left pane.
+1. Select **Edit** in the Multiple Branding section.
+1. Select the toggle button and enable it.
+
+### Internal users
+
+1. Select an active field from the dropdown. 
+1. Based on the selection, you can change the name of the organization and upload a new logo for the users. 
+
+### External users
+
+1. Select an active field from the dropdown. 
+1. Based on the selection, you can change the name of the organization and upload a new logo for the users.
+
+>[!NOTE]
+>
+>Internal users can have active fields like External users (e.g., Admin must add the multi branding for the internal users and external users separately by selecting active field values separately.) 
+
+>[!INFO]
+>
+>Check out this [blog](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/) for more information.
+
+
+#### Points to note 
+
+* An Admin can add the multi-level branding for this active field value and the external user can login with different mechanisms (SSO Single (Okta, Mini orange), Social Login) and check if the multi branding is applicable.  
+* An External user has an active field and active field value like the internal user: Even though it is shared, it must be separately specified in the multi branding by the admin. Once applied, external user can login with different mechanisms (SSO Single (Okta, Mini orange), Social Login) and check if the multi branding is applicable. 
+* An External user moved from one profile to another profile: Moving the external user from one profile to another profile will not affect the active field value for the user unless the active field value is edited/ deleted by admin or the external user while logging in or registering 
+
+>[!NOTE]
+>
+>When multiple branding is set for both internal and external users, with same active field name, with same active field value but different configuration. In this case, recommendation to customers would be to use same configuration setting (logo, theme, org name) to avoid discrepancy.
+
 
 ## Customize your account {#customize}
 
@@ -77,9 +127,9 @@ The list below displays the components that can be customized. To customize the 
  <tbody>
   <tr>
    <td>
-    <p>Customize</p></td>
+    <p><b>Customize</b></p></td>
    <td>
-    <p>What is recommended</p></td>
+    <p><b>What is recommended</b></p></td>
   </tr>
   <tr>
    <td>

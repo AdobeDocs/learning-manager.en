@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Getting started as a Learner
 description: Use the getting started page to traverse through the key learning paths of Adobe Learning Manager.
 contentowner: manochan
+exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
 ---
-
-
 # Getting started as a Learner
 
 Get started with the Learner app in Learning Manager
@@ -20,7 +19,7 @@ In Learning Manager web application, after you log in as a learner, you can see 
 
 **My Learning**: You can view and click the learning objects by type and by deadline. Click the circle in the My Learning widget to directly go to the learning object type, or to view the learning objects by deadline.
 
-**My Skills**: You can also view skills map at the upper-right corner of the page. Refer  [skills map](skills-levels.md)feature for more information.
+**My Skills**: You can also view skills map at the upper-right corner of the page. Refer  [skills map](skills-levels.md) feature for more information.
 
 **Learning Object widget**: This is right below My Learning, and it displays the learning objects for the user. Below My Learning, you can view all the  [courses](courses.md),  [learning programs](learning-programs.md) and  [certifications](certifications.md) that are enrolled by you or assigned to you. You can directly Start consuming a learning object, or revisit a learning object from this widget.
 

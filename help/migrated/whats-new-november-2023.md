@@ -1,6 +1,7 @@
 ---
 title: What's new in this release
-description: Learn about the new features and enhancements in Adobe Learning Manager
+description: Learn about the new features and enhancements in the November 2023 release of Adobe Learning Manager.
+exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
 ---
 # What's new in this release
 
@@ -162,11 +163,48 @@ If User permission or All user group is selected, and custom admin tries to down
 
 A Custom Admin can access the following reports according to the defined scope:
 
-| Report | Available | Scope |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Report</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Available</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Scope</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Content Audit Trail</p></td>
+   <td>
+    <p>Yes</p></td>
+   <td>
+    <p>Full Catalog</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>User Audit Trail</p></td>
+   <td>
+    <p>Yes</p></td>
+   <td>
+    <p>Full User</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Login Access</p></td>
+   <td>
+    <p>Yes</p></td>
+   <td>
+    <p>Full User</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
 | Content Audit Trail | Yes | Full Catalog |
 | User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Enhanced Connect Integration
 
@@ -279,4 +317,3 @@ For information regarding current and previous releases of Learning Manager web 
 
 * [July 2023 release](whats-new-2023-july.md)
 * [April 2023 release](whats-new-2023-april.md)
-* [November 2022 release](whats-new-2022-november.md)

@@ -1,27 +1,16 @@
 ---
-description: Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
+description: Reference manual for Integration Administrators who want to migrate an existing LMS to Adobe Learning Manager LMS.
 jcr-language: en_us
 title: Migration manual
+exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
 ---
-
-
 # Migration manual
 
 Reference manual for Integration Administrators who want to migrate an existing LMS to Learning Manager LMS
 
-## Overview {#overview}
+<!-- ## Overview {#overview} -->
 
-<table>
- <tbody>
-  <tr>
-   <td><img src="assets/migration.jpg"></td>
-   <td>
-    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> is a cloud-hosted, learner-centric, and self-service learning management solution. Adobe enables enterprises with the existing Learning Management Systems (LMS) to migrate their organization's training data and training content to the Learning Manager LMS application. </p></td>
-  </tr>
- </tbody>
-</table>
-
-### Usage scenario {#usagescenario}
+## Usage scenario {#usagescenario}
 
 In general, large enterprises have their in-house LMS or any vendor provided legacy Learning Management Systems. LMS consists of your enterprise training content and training data. As an enterprise when you purchase the Learning Manager, you may want to move your existing LMS content and data to Learning Manager so you can leverage the benefits of modern and intuitive LMS without losing any of your organization's legacy data.
 
@@ -88,8 +77,6 @@ You can migrate content only for the following learning objects:
 * Job aid enrollment
 * User course grades
 
- 
-
 ### Key concepts of migration {#keyconceptsofmigration}
 
 Some of the key concepts of Learning Manager migration process are explained briefly for your quick reference, as follows: 
@@ -130,11 +117,11 @@ Find below, the standard CSV specifications that you can use to map with your ex
  <tbody>
   <tr>
    <th>
-    <p>Sl.no</p></th>
+    <p><b>Sl.no</b></p></th>
    <th>
-    <p>File Name</p></th>
+    <p><b>File Name</b></p></th>
    <th>
-    <p>Description of contents</p></th>
+    <p><b>Description of contents</b></p></th>
    <th>
     <p>Notes</p></th>
   </tr>
@@ -378,11 +365,26 @@ Find below, the standard CSV specifications that you can use to map with your ex
    <td>
     <p>Provide the required learner records data in the .csv file even though they are not mandatory. Without this info, even if the .csv is processed for migration, the Learning Manager application may not reflect any data. sample-csvs.zip file contains seven .csv files with the similar naming convention as above.</p></td>
   </tr>
+  <tr>
+   <td>
+    <p>27</p></td>
+   <td>
+    <p>user_skill.xlsx</p></td>
+   <td>
+    <p><br>
+      Metadata for user_skill.csv</p></td>
+   <td>
+    <p> </p></td>
+  </tr>
  </tbody>
 </table>
 
 Learning Manager supports date and time values in UTF 8 and 32 bit format only. You may get errors during migration if you mention date in CSV files with an out of range date as 2038-07-17T08:53:21.000Z or 1980-04-17T08:13:25.322Z. 
-[sample-csvs.zip](assets/sample-csvs.zip) [csv_specifications.zip](assets/csv-specifications.zip)You need to be aware of the following dependencies on CSV files during import:
+
+* [sample-csvs.zip](assets/sample-csvs.zip) 
+* [csv_specifications.zip](assets/csv-specifications.zip)
+
+You need to be aware of the following dependencies on CSV files during import:
 
 * module_version.csv is dependent on module.csv
 * course_instance.csv is dependent on course.csv
@@ -413,11 +415,11 @@ Before you start with the migration procedure, it is important to note the follo
 
 Planning your migration project is very important. It is recommended that you break your projects into multiple sprints, and clearly identify what you would like to migrate in each sprint. It may even be a good idea to do some validation after each sprint to feel confident about the data migrated in that sprint, instead of one grand validation phase at the end of the project. Before you start the Sprint as part of your migration project, you need to upload data and content CSV files in FTP and Box servers respectively. If you do not have accounts for Custom FTP and Box, you can create them. 
 
-**Create FTP account**
+<!--**Create FTP account**-->
 
-Click **Request for CSV FTP folder**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
+<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-A sample snapshot of project files and folder of FTP is shown below for your reference. 
+A sample snapshot of project files and folder of FTP is shown below for your reference. -->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 
@@ -435,13 +437,13 @@ In FTP or Box account, click your project folder name and click the Sprint name.
 
 <!--![](assets/exavault-upload.png)-->
 
-You can come back to Learning Manager migration project, click **Refresh **and view all the .csv data types being listed in your migration Sprint.
+You can come back to Learning Manager migration project, click **[!UICONTROL Refresh]** and view all the .csv data types being listed in your migration Sprint.
 
 **Upload training content to Content folders**
 
 Upload the training content of your existing LMS to your Box account. If you have created the Migration project and sprint already, then the Box account would populate the Migration project and Sprint name. You can upload the content in the same path. Refer to **Data and content migration procedure** section in this page to create migration project. 
 
-You can drag and drop the content files or click **Upload** and select the files from your desktop. If the file size of your content is huge, you may experience some time lag in uploading the files. Depending on the size of the file, the time taken for uploading the files to your Box account varies. 
+You can drag and drop the content files or click **[!UICONTROL Upload]** and select the files from your desktop. If the file size of your content is huge, you may experience some time lag in uploading the files. Depending on the size of the file, the time taken for uploading the files to your Box account varies. 
 
 A sample snapshot of Box account after uploading content to it is shown below for your reference: 
 
@@ -463,22 +465,22 @@ The procedure to migrate your enterprise LMS data and content to Learning Manage
 
 Go through the pre-requisites of migration process before you start with the migration. Refer to [CSV specifications and sample CSVs](migration-manual.md#main-pars_header_140933605) section in this page and prepare the CSVs for data and content migration. 
 
-1. Log in to Learning Manager application as an Integration Administrator and click **Migration** at the left pane. 
+1. Log in to Learning Manager application as an Integration Administrator and click **[!UICONTROL Migration]** on the left pane. 
 
    Migration Projects home page appears. If your organization has created migration projects already, you can view the list of all migration projects in this page. 
 
-1. Click **New** at the upper-right corner of the page to create a migration project. Alternatively, you can click **Create a migration project** link on the page to create a migration project. Create a migration project page appears. 
+1. Click **[!UICONTROL New]** at the upper-right corner of the page to create a migration project. Alternatively, you can click **[!UICONTROL Create a migration project]** link on the page to create a migration project. Create a migration project page appears. 
 
    If you have not created an FTP folder already, you will be prompted to create an FTP folder in the account. This is mandatory step before you start creating a migration project. 
 
    ![](assets/create-project.png)
    *Create FTP folder*
 
-   Provide the project name, project tag, course catalog and description for your migration project. Click **Create**. 
+   Provide the project name, project tag, course catalog and description for your migration project. Click **[!UICONTROL Create]**. 
 
    Your migration data items are identified using this Migration Project Tag. If you do not have any specific course catalog choose the default catalog from the drop-down. All the courses that you migrate using a migration project will be included in the catalog that you choose at this stage. If you do not choose any catalog, all the migrated courses will be part of the default catalog. 
 
-1. Sprint configuration page appears as shown in the following snapshot. You need to create a sprint as part of your migration project. Choose Sprint name and provide brief description of the sprint. You can choose Yes if you want to migrate content as part of this sprint. Click **Next**. 
+1. Sprint configuration page appears as shown in the following snapshot. You need to create a sprint as part of your migration project. Choose Sprint name and provide brief description of the sprint. You can choose Yes if you want to migrate content as part of this sprint. Click **[!UICONTROL Next]**. 
 
    ![](assets/users-modified-sprint.png)
    *Sprint migration*
@@ -487,12 +489,12 @@ Go through the pre-requisites of migration process before you start with the mig
 
    This Synchronization step is recommended when enrollment.csv and user_course_grade.csv are migrated. This step enables the Learning Manager database to be in sync with your Migration database and ensures that all users whose records to be migrated in the Sprint are available in Migration database.
 
-1. You can start the Sprint migration with your uploaded data and content. Click **Refresh** link before starting the Sprint Run to sync up the FTP and Content folders with Learning Manager application. 
+1. You can start the Sprint migration with your uploaded data and content. Click **[!UICONTROL Refresh]** link before starting the Sprint Run to sync up the FTP and Content folders with Learning Manager application. 
 
    ![](assets/sprint1-filesupload.png)
    *Start sprint migration*
 
-   Click **Start** at the upper-right corner of the page. You can click **Stop** at any point in time during Sprint migration process to abort the sprint migration. 
+   Click **[!UICONTROL Start]** at the upper-right corner of the page. You can click **[!UICONTROL Stop]** at any point in time during Sprint migration process to abort the sprint migration. 
 
    Migration status is displayed on each of the sprint data items and content. Check the number of success and failed items as part of migration sprint run.
 
@@ -531,6 +533,11 @@ Find below, the standard CSV specifications that you can use to map with your ex
 4-user_course_grades.xlsx-contains descriptions of metadata required for retrofit_user_course_grades.csv file.
 [csv-specifications.zip](assets/csv-specifications.zip)
 
+>[!NOTE]
+>
+>UUID (Universally Unique Id) is also a column in the migration csv.
+
+
 ## Troubleshooting migration issues {#troubleshootingmigrationissues}
 
 [Click here](../../kb/troubleshooting-migration.md) to learn about the workaround/solution to the problems faced by Integration Administrators while migrating data and content from their existing LMS to Learning Manager application.
@@ -550,7 +557,7 @@ Learning Manager supports UUID to provide flexibility to organizations in contro
 
 **Usage scenario of UUID in an organization**
 
-Consider a scenario where an employee A joins a company named Learning Manager, as a contractor. During contract period, Learning Manager company may not provide company email id as A@example.com, instead the company may consider only the employee's personal email account, say, A@gmail.com. After completing 6 months of contract period, if the same employee A joins Learning Manager as full time employee, then Learning Manager may want to change his email id to his company email id: A@example.com. 
+Consider a scenario where an employee A joins a company named Learning Manager, as a contractor. During contract period, Learning Manager company may not provide company email id as ```A@example.com```, instead the company may consider only the employee's personal email account, say, ```A@gmail.com```. After completing 6 months of contract period, if the same employee A joins Learning Manager as full time employee, then Learning Manager may want to change his email id to his company email id: ```A@example.com```. 
 
 Having UUID access to user account will benefit the company Learning Manager in the above mentioned scenario. Learning Manager company can easily replace the personal email id of employee A with an official email id. The employee's records relevant to this account remain unaffected by this change. 
 
@@ -571,4 +578,3 @@ For more information on this topic, refer to the following Help content:
 
 * [FAQ on uploading CSVs](/help/migrated/administrators/add-users-in-bulk.md)
 * [Feature Help on adding users](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
-

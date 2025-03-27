@@ -76,24 +76,24 @@ Learning Manager allows you to change the look and feel of your site using Theme
 
 You can choose one of the color schemes to align with your corporate branding.
 
-1. From the Learning Manager left navigation pane, click **Branding**.
-1. In the **Themes** section, click **Edit**. The application allows you to pick a new theme. As you select a theme, you can immediately see the color schemes that are used for the key interface elements.
+1. From the Learning Manager left navigation pane, click **[!UICONTROL Branding]**.
+1. In the **Themes** section, click **[!UICONTROL Edit]**. The application allows you to pick a new theme. As you select a theme, you can immediately see the color schemes that are used for the key interface elements.
 
    ![](assets/setting-the-themesforyoursite.png)
 
 1. Further, you can edit the **Top Bar Color**, **Accent Color**, and the **Sidebar Brightness**.  You can use your own brand colors for these key interface elements.
-1. To reset the values to the default color scheme for your theme, click **Reset Theme**. The colors for the key UI elements are set to the default options for the chosen theme.
-1. After you choose the theme, click **Show Hints** to view the labels or hints in the preview.
+1. To reset the values to the default color scheme for your theme, click **[!UICONTROL Reset Theme]**. The colors for the key UI elements are set to the default options for the chosen theme.
+1. After you choose the theme, click **[!UICONTROL Show Hints]** to view the labels or hints in the preview.
 
    ![](assets/setting-the-themesforyoursite-step5.png)
 
    Notice a slideshow with several images in the **Themes** section. This slideshow allows you to instantly preview the theme or color scheme. You can instantly preview selected pages such as the Home page, Learner dashboard and so on.
 
-1. If you want to preview the changes in a browser, click **Live Preview**. A Live Theme Preview pop-up appears, where you can either modify the color scheme, or continue with the default options. To preview your options in a browser, click **Preview** in this pop-up window.
+1. If you want to preview the changes in a browser, click **[!UICONTROL Live Preview]**. A Live Theme Preview pop-up appears, where you can either modify the color scheme, or continue with the default options. To preview your options in a browser, click **[!UICONTROL Preview]** in this pop-up window.
 
    ![](assets/setting-the-themesforyoursite-step6.png)
 
-1. The chosen options are temporarily applied to your site. If you want to save the selected theme and color settings, Click **Apply**.
+1. The chosen options are temporarily applied to your site. If you want to save the selected theme and color settings, Click **[!UICONTROL Apply]**.
 1. After you select and apply a theme, click ****[!UICONTROL Save]**** to save your choice.
 
 ## Configure email templates {#configureemailtemplates}
@@ -107,7 +107,7 @@ As an administrator, your next step would be to configure email templates for va
 You can enable and configure any of these email notifications from the Administrator dashboard. To learn how to set email templates, perform the following steps:
 
 1. In the left navigation pane, click **[!UICONTROL **Email Templates**.]**
-1. Click one of the following tabs:** [!UICONTROL **General**/**Learning Activity**/**Reminders & Updates**.]** As an example, let us assume you click **[!UICONTROL **Learning Activity**.]**
+1. Click one of the following tabs:**[!UICONTROL **General**/**Learning Activity**/**Reminders & Updates**.]** As an example, let us assume you click **[!UICONTROL **Learning Activity**.]**
 1. Click the toggle button for whichever activity you want to trigger an email. In this example, let us assume you click **[!UICONTROL **Learning Program - Enrolled by Admin/Manager**.]**
 
    ![](assets/configure-email-templates-step3.png)
@@ -186,8 +186,8 @@ L3 feedback is the feedback that a manager provides about a learner. You can use
 As an administrator, you can configure the feedback settings globally. To do so, follow this procedure:
 
 1. In the Learning Manager Home page, click **[!UICONTROL Settings]**.
-1. In the left pane, click **General**.
-1. To configure L1 feedback, click the`****[!UICONTROL L1 Feedback]**** `tab. You see the options to configure one mandatory question and several optional questions. These are the questions that a learner views while provide feedback after completing a course. The questions are worded as statements so that learners can select their response on a scale of 1 to 5.
+1. In the left pane, click **[!UICONTROL General]**.
+1. To configure L1 feedback, click the **[!UICONTROL L1 Feedback]** tab. You see the options to configure one mandatory question and several optional questions. These are the questions that a learner views while provide feedback after completing a course. The questions are worded as statements so that learners can select their response on a scale of 1 to 5.
 
    The first part of the L1 feedback is a mandatory question on how it is for a learner to recommend this course to a friend or a colleague.
 

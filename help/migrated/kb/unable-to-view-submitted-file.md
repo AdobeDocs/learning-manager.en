@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Unable to view file submissions in Adobe Learning Manager
 description: Instructors are unable to view files that learners have uploaded in the Submission Activity Module.
 contentowner: nluke
+exl-id: b4a0af25-14ae-46f1-9afd-0bf2aace7fe2
 ---
-
-
 # Unable to view file submissions in Adobe Learning Manager
 
 ## Issue
@@ -39,8 +38,8 @@ If there is no instructor in the course instance in which the learner is enrolle
 To check if an instructor is added to the course instance, perform the steps below:
 
 1. Navigate to the course settings.
-1. In the **Manage** section, click **Instances.**
-1. In the instance where the learner is enrolled, click **Sessions**.
+1. In the **Manage** section, click **[!UICONTROL Instances].**
+1. In the instance where the learner is enrolled, click **[!UICONTROL Sessions]**.
 
    ![](assets/check-instructor.png)
 
@@ -48,10 +47,9 @@ To check if an instructor is added to the course instance, perform the steps bel
 
    There is no instructor assigned to this session.
 
-1. Click **Edit**. Add the instructor who approves the file submission.
+1. Click **[!UICONTROL Edit]**. Add the instructor who approves the file submission.
 
    ![](assets/assign-instructor.png)
 
    *Add the instructor*
 1. Save the changes.
-

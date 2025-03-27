@@ -2,12 +2,11 @@
 jcr-language: en_us
 title: Job Aids
 description: Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
 ---
-
-
 # Job Aids
 
-Job Aids is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
+**Job Aids** is a repository of training content that is accessible to learners without any enrollment or completion criteria. Learners can refer to these job aids to get assistance for performing any activity or task in an organization.
 
 Job Aids can be consumed independently or along with course consumption in Learning Manager.
 
@@ -15,9 +14,9 @@ Authors can create Job Aids for learners. Use Job Aids to provide learners with 
 
 ## Create job aid {#createjobaid}
 
-1. In author login, click Job Aids at the left pane.
-1. Click Create at the upper-right corner of the page that appears.
-1. Provide the name, description, and tags. Choose the skills and associated levels. Select the content as private if you do not want the job aid to be accessed by any other authors for assigning to their respective courses.
+1. In author login, select **[!UICONTROL Job Aids]** at the left pane.
+1. Select **[!UICONTROL Create]** at the upper-right corner of the page that appears.
+1. Type the name, description, and tags. Choose the skills and associated levels. Select the content as private if you do not want the job aid to be accessed by any other authors for assigning to their respective courses.
 
    Only existing skills can be used for job aids. Skills are not mandatory.
 
@@ -26,9 +25,22 @@ Authors can create Job Aids for learners. Use Job Aids to provide learners with 
    Videos, pdf, pptx and docx are the supported file formats for upload. Project zip files or any interactive content is not supported for upload.
 
 1. Enter the duration, in minutes, for the job aid.
-1. Click **Save**.  
+1. Click **[!UICONTROL Save]**.  
 
    The Job Aid is published.
+
+## Add job aid in different languages {#addcontentfordifferentlanguages}
+
+1. To add the job aid in different languages, select the **Add New Language** tab, and choose the required languages. Using this approach, you can add multi-lingual support for your content.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Add new language for a content*
+
+1. Repeat the job aid upload process for the new languages.
+1. If you want to remove a language, select the **[!UICONTROL Add New Language]** tab, and clear your selection.
+
+   After you've made the changes, select Save.
 
 ## Types of supported job aids {#typesofsupportedjobaids}
 
@@ -80,7 +92,7 @@ All the contents, resources and assets must be referenced within the HTML packag
 
 +++How to create a job aid?
 
-As an author, on the Job Aid page, click **Create**. Add the required details and save the Job Aid.
+As an author, on the Job Aid page, click **[!UICONTROL Create]**. Add the required details and save the Job Aid.
 
 After you create the Job Aid, you can add the Job Aid to a course, while creating the course.
 

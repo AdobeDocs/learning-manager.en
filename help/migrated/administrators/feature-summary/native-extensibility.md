@@ -1,6 +1,7 @@
 ---
 title: Native extensibility
 description: Set up custom experiences within the native version of Adobe Learning Manager, allowing you not to use headless for less complicated cases.
+exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
 ---
 # Native extensibility
 
@@ -24,9 +25,9 @@ Adobe Learning Manager supports 15 invocation points across Admin, Author, Learn
 1. Type the extension label that will appear on the UI in the **[!UICONTROL Extension Label]** field.
 1. Type the URL where you want to host the extension in the **[!UICONTROL URL]** field.
 1. In the Open In dropdown, select whether to launch the extension in a modal or in a new tab.
-1. Select the size of the modal. The options are available if you've selected In-app modal in the previous step.
+1. Select the size of the modal. The options are available if you've selected *In-app* modal in the previous step.
 
-   To maintain the accessibility inside the popup, the extension app needs to be sent to the event once they are on the last focusable element on their website, and then the user selects the TAB key. This is needed to keep the focus inside the popup to support accessibility.
+   To maintain the accessibility inside the popup, the extension app must be sent to the event once they are on the last focusable element on their website, and then the user selects the TAB key. This is needed to keep the focus inside the popup to support accessibility.
 
    ```
    window.parent.postMessage({*}
@@ -38,10 +39,10 @@ Adobe Learning Manager supports 15 invocation points across Admin, Author, Learn
 
 1. Set the scope of the extension. The following scopes are available:
 
-   * **[!UICONTROL All Courses, Learning Paths and Certifications]**: This extension will be enabled for all Courses, Learning Paths and Certifications. Along with Admins, Authors can disable it for some Courses, Learning Paths and Certifications.
-   * **[!UICONTROL Selected Courses, Learning Paths and Certifications]**: This extension will be disabled for all Courses, Learning Paths and Certifications. Along with Admins, Authors can enable it for some Courses, Learning Paths and Certifications.
+   * **[!UICONTROL All Courses, Learning Paths and Certifications]**: This extension is enabled for all Courses, Learning Paths, and Certifications. Along with Admins, Authors can disable it for some Courses, Learning Paths, and Certifications.
+   * **[!UICONTROL Selected Courses, Learning Paths and Certifications]**: This extension is disabled for all Courses, Learning Paths, and Certifications. Along with Admins, Authors can enable it for some Courses, Learning Paths, and Certifications.
 
-1. Select the **[!UICONTROL Activate]** toggle to make the extension active. Once active, the extension will appear on the specified invocation point according to the scope.
+1. Select the **[!UICONTROL Activate]** toggle to make the extension active. Once active, the extension appears on the specified invocation point according to the scope.
 1. Select **[!UICONTROL Save]** in the upper-right corner of the page to create the extension.
 
 ## Access the extension as Administrator
@@ -86,9 +87,9 @@ As an Author, on the Settings page of a Course, you can enable or disable an ext
 
 You must share the Access key if you are configuring an enrollment extension.
 
-This is very important because if this key is not generated and shared across, the authentication for the enrollment will fail, and learners will not be able to enroll themselves in the courses.
+This is important because if this key is not generated and shared across, the authentication for the enrollment will fail, and learners cannot enroll themselves in the courses.
 
-Access key must be shared for enrolling in course or Learning Path and certificates.
+The Access key must be shared for enrolling in course or Learning Path and certificates.
 
 In the Settings tab, generate the key.
 
@@ -131,6 +132,6 @@ There are two ways to download this report.
 1. In **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**, select **[!UICONTROL Extension Configuration Report]**.
 
    ![reports page image](assets/extension-report-page.png)
-   *Download teh report from Reports page*
+   *Download the report from Reports page*
 
 The state must be in the range **0 - 4294967295**, while configuring the enrollment state.

@@ -3,9 +3,8 @@ description: Learn how to manage tags on Learning Manager.
 jcr-language: en_us
 title: Tags
 contentowner: dvenkate
+exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
 ---
-
-
 # Tags
 
 Administrators can now manage tags in Learning Manager. Use better tagging and manageable data base to help learners search better and get to appropriate search results quickly. You can manage redundant, misspelled, and irrelevant tags using this feature. You can also add, edit, delete, append, or replace tags.
@@ -13,6 +12,14 @@ Administrators can now manage tags in Learning Manager. Use better tagging and m
 The list of Learning Objects associated with the tag can be viewed by clicking on the count provided next to each tag. The list shows the number of Courses, Learning Programs, Certificates, Job Aids, and Content Groups. Click on any of these options to view the list.
 
 You can sort the tags based on usage or alphabetical order using the **[!UICONTROL Sort By]** option.
+
+## Introduction to Tags
+
+This training will teach you how to add, edit, replace, append, and delete tags. You will also learn how to change permission settings and use tag filters. 
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=5S7K7ZCT&mv=display&mv2=display#/course/8318920)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Add/ Delete/ Edit tags {#adddeleteedittags}
 
@@ -31,12 +38,12 @@ You can sort the tags based on usage or alphabetical order using the **[!UICONTR
 
    The **[!UICONTROL Edit Tag]** dialogue box appears. Enter the new tag name and click **[!UICONTROL Save]**.
 
-   If the tag name you entered already exists, Prime shows a warning message. No two tags with the same name can exist.
+   If the tag name you entered already exists, Adobe Learning Manager displays a warning message. No two tags with the same name can exist.
 
 ## Replace tags {#replacetags}
 
-1. Select the tags you want to replace. You can select up to 50 tags at once. Open the **[!UICONTROL Actions]** drop-down menu and select **[!UICONTROL Replace.]**
-1. The **[!UICONTROL Replace Tags]**dialogue box appears showing the selected tags.  
+1. Select the tags you want to replace. You can select up to 50 tags at once. Open the **[!UICONTROL Actions]** drop-down menu and select **[!UICONTROL Replace]**.
+1. The **[!UICONTROL Replace Tags]** dialogue box appears showing the selected tags.  
 
 1. In the **[!UICONTROL Name for replaced tags]** option, enter the name of the new tag you wish to replace the selected tags with. You can either replace them with an existing tag from the drop-down or add a new tag.
 

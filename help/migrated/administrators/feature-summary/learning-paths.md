@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Learning Paths
 description: Creating Learning Plans for Administrators in Learning Manager.
 contentowner: saghosh
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
 ---
-
-
 # Learning Paths
 
 ## What is a Learning Path?
@@ -15,6 +14,14 @@ Often, Administrators are interested in building a detailed curriculum which off
 This is where Learning Path comes into picture. A Learning Path is a journey that a learner must go through to master some subject over time. Learners are in control over their training experience and can acquire and retain knowledge in a self-paced manner with greater effectiveness. 
 
 For example, when on-boarding new employees, an organization conducts training on policies and procedures, culture, history, and so on. A Learning Path sets up the courses according to the needs of the employees, so that employees can enroll on the courses according to the learning path set for them. you choose, and you can enroll users on this path so they can progress from course to course.
+
+## Create and configure Learning Paths
+
+In this training, you will learn how to create a Learning Path, add a course to it, publish and retire a Learning Path, and configure instances within a Learning Path.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QQ42P2LR&mv=display&mv2=display#/course/8318919)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Advantages of a Learning Path
 
@@ -28,27 +35,41 @@ Learning paths makes the delivery of a training program convenient and hassle-fr
 
 ## Add a Learning Path in Learning Manager 
 
-In Learning Manager, in the Admin app, click **Learning Path** on the left panel.
+In Learning Manager, in the Admin app, click **[!UICONTROL Learning Path]** on the left panel.
 
-In the **Learning Path** page, click **Add**. Enter the details.
+In the **[!UICONTROL Learning Path]** page, click **[!UICONTROL Add]**. Enter the details.
 
 ![](assets/add-learning-path.png)
 
 *Add a new Learning Path*
 
+In the **Enrollment Type** option, select **Self Enroll** or **Admin Enroll**. 
+
+>[!NOTE]
+>
+>If you select the **Admin Enroll** option, learners will only see manager-nominated or manager-approved courses. Learners will not be able to see the learning path in the recommendation section. 
+
 After creating the Learning Path, select the newly created Learning Path, and add the courses in the path.
 
-You can add skills and assign a badge to the Learning Path. To add a skill, select the required skill or skills from the **Pick a Skill** drop-down list. Also select the level for the skill or skills.
+You can add skills and assign a badge to the Learning Path. To add a skill, select the required skill or skills from the **[!UICONTROL Pick a Skill]** drop-down list. Also select the level for the skill or skills.
 
 ![](assets/add-skills.png)
 
+*Add a skill*
+
 Assign a badge to the Learning Path. Pick a badge from the list of available badges.
+
+Select the products, roles and roles level from the **[!UICONTROL Recommend for]** section to suggest this learning path to the users who have expressed interest in those products and roles. 
+
+![](assets/recommend-for.png)
+
+*Recommendation*
 
 Choose the sequencing type for the sections and training as Ordered or Unordered based on your preference.
 
 If you choose Ordered, the courses appear in the same sequence as you created them. If you choose Unordered, the courses are not sequenced. Learners can complete the courses in any order.
 
-To add a course in the Learning Path, click **Add Courses or Learning Paths**.
+To add a course in the Learning Path, click **[!UICONTROL Add Courses or Learning Paths]**.
 
 In the dialog that appears, choose the training that you want to add to the Learning Path.
 
@@ -58,7 +79,7 @@ In the dialog that appears, choose the training that you want to add to the Lear
 
 You can further sort the courses according to the skills assigned, modified date, and course effectiveness.
 
-After selecting the courses or Learning Path, click **Save**.
+After selecting the courses or Learning Path, click **[!UICONTROL Save]**.
 
 In the Learning Path, you can perform the following:
 
@@ -84,15 +105,13 @@ In the Learning Path, you can perform the following:
 
 After you've made the changes, to publish the Learning Path, click Publish.
 
-## Nested Leaning Path
+## Nested or enhanced learning path
 
-You can include a Learning Path inside a Learning Path, but you can nest at most one Learning Path inside.
-
-Insert the Learning Path like inserting a course. 
+A nested or enhanced learning path is a Learning Path that contains multiple Learning Paths within it. To insert a Learning Path, follow the same process as adding a course within a Learning Path.  
 
 ![](assets/nested-learning-path.png)
 
-*Add a Learning Path inside a Learning Path*
+*Nested or Enhanced Learning Path*
 
 ## Learning Path Settings
 
@@ -104,11 +123,11 @@ In the Settings section, you can add the pre-requisites and the Job Aids that a 
 
 ## Instances
 
-The Learning Path instances displays an additional tile, **Learning Paths**. The tile displays the number. of learning programs added to a Learning Path.
+The Learning Path instances displays an additional tile, **[!UICONTROL Learning Paths]**. The tile displays the number. of learning programs added to a Learning Path.
 
 In the **Courses** tile, you can see the course instances that are visible to the learners who are enrolled in this instance.
 
-The **Enable Learners to Choose instances (Flexible Learning Path)** check-box is only applicable to courses. All child Learning Paths will get an option to map a Learning Program instance with Learning Path. By default, the mapping is set to Default Instance.
+The **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]** check-box is only applicable to courses. All child Learning Paths will get an option to map a Learning Program instance with Learning Path. By default, the mapping is set to Default Instance.
 
 ![](assets/default-instance.png)
 
@@ -118,11 +137,25 @@ The **Enable Learners to Choose instances (Flexible Learning Path)** check-box i
 
 There are three options:
 
-1. **All Levels Courses and Learning Paths (selected by default):** The learner gets notifications for any incomplete course irrespective of the level inside a Learning Path.
-1. **Root Learning Path:** The learner gets notifications for any incomplete course belonging to a parent Learning Path.
-1. **Learning Path and first level child only:** The learner gets notifications of any incomplete course that is a first child of a parent Learning Path.
+1. **[!UICONTROL All Skill Levels Courses and Learning Paths (selected by default)]:** The learner gets notifications for any incomplete course irrespective of the level inside a Learning Path.
+1. **[!UICONTROL Root Learning Path]:** The learner gets notifications for any incomplete course belonging to a parent Learning Path.
+1. **[!UICONTROL Learning Path + first Skill Level children only]:** The learner gets notifications of any incomplete course that is a first child of a parent Learning Path.
 
-The notification reminders are triggered based on the option. By default, the option **All Levels Courses and Learning Paths** is enabled for an instance.
+The notification reminders are triggered based on the option. By default, the option **[!UICONTROL All Levels Courses and Learning Paths]** is enabled for an instance.
+
+## Subscriptions
+
+You can subscribed to the individual learning paths to receive comprehensive data including quiz scores and learner status directly to your inbox.
+
+Follow the below steps:
+
+1. Go to any Learning Path > Subscriptions.
+1. Select Add More.
+1. Select the details and type the email id to receive the reports. 
+
+![](assets/subscriptions.png)
+
+*Subscribe to individual learning path*
 
 ## Important Note
 
@@ -132,9 +165,9 @@ Learning Paths bring to you a range of functionalities. Some of them are availab
 
  Learners can continue to consume Learning Programs (now called Learning Paths) and Authors/Admins can continue to create them as well. To take benefit of extended functionalities of Learning Path mentioned above, Administrator should enable the setting as mentioned below. Once enabled, all the new extended capabilities of Learning Path will become available. 
 
-The **Settings** > **General** page has a new option to enable Learning Paths. If this option is enabled, you can add courses and Learning Programs in a Learning Path. You cannot change the option once it is enabled.
+The **[!UICONTROL Settings]** > **[!UICONTROL General]** page has a new option to enable Learning Paths. If this option is enabled, you can add courses and Learning Programs in a Learning Path. You cannot change the option once it is enabled.
 
-## Other Learning Path-related details 
+<!-- ## Other Learning Path-related details 
 
 ### Learning Path option is disabled/unchecked in Admin Settings
 
@@ -206,4 +239,4 @@ The **Settings** > **General** page has a new option to enable Learning Paths. I
 
 **Reporting**
 
-* Same changes as that of Reporting stated above.
+* Same changes as that of Reporting stated above. -->

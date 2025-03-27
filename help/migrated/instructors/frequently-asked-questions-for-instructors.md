@@ -3,9 +3,8 @@ description: Read on to know the frequently asked questions for instructors in L
 jcr-language: en_us
 title: Frequently Asked Questions for Instructors
 contentowner: shhivkum
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
 ---
-
-
 # Frequently Asked Questions for Instructors
 
 Read on to know the frequently asked questions for instructors in Learning Manager.
@@ -44,3 +43,9 @@ As an instructor, you can only view and edit the details of those sessions that 
 
 +++
 
++++How to assign instructor role to External Users?
+
+* By default, in the **[!UICONTROL Assign]** section for **[!UICONTROL External User]** it only shows **[!UICONTROL Make Manager]** or **[!UICONTROL Make Author]**.
+* If you would like to assign **Instructor** role to any user in the LMS, you may add them as **Instructor** to any **[!UICONTROL Classroom]** or **[!UICONTROL Virtual Classroom]** module and **Instructor** role would be automatically provided to the user in the LMS.
+
++++

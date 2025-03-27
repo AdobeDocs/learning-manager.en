@@ -2,8 +2,8 @@
 description: Adobe Learning Manager supports multiple login methods through multiple SSO configurations for both internal and external users.
 title: Multiple SSO logins
 contentowner: saghosh
+exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
 ---
-
 # Multiple SSO logins {#multiple-sso-logins}
 
 An Administrator can configure multiple login methods for both internal and external users. Adobe Learning Manager supports multiple SSO logins that will help admins to configure the login method based on their needs and use cases.
@@ -20,14 +20,19 @@ Up to 20 SSO configurations can be added to an account. These can be used to set
 
 To enable multiple SSO, select **Settings** > **Login Methods**.
 
-On the setup page, select the checkbox 'Enable Multiple Single Sign-On (SSO)' for Internal or External users.
+On the setup page, select the checkbox '**[!UICONTROL Enable Multiple Single Sign-On (SSO)]**' for Internal or External users.
 
 When Multi SSO is enabled, the login method selected for 'Default Login Method' becomes the default login type for user groups/profiles that are not linked to any SSO configuration. The default login can be Adobe ID or SSO or ALM ID (External users).
+
+>[!NOTE]
+>
+>Admins and custom admins with the necessary permissions can perform these steps.
 
 To configure an SSO, follow the steps below: 
 
 1. Click Configure Single Sign-On (SSO).   
 1. Click Add new SSO configuration.   
+![](assets/sso.png)
 1. In the SSO Configuration dialog, add the following:
 
    * Enter the name of the SSO.
@@ -48,7 +53,7 @@ Follow the steps below:
 
 1. Import the CSV that contains the active fields and their values.  
 1. Click Settings > Login Methods.  
-1. Enable the Enable Multiple Single Sign-On (SSO) for login checkbox.  
+1. Select the **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** for login checkbox.  
 1. Map the SSO configurations to the values of the active field.  
 1. Save the settings. Import the CSV again.
 
@@ -57,7 +62,7 @@ Follow the steps below:
 Follow the steps below:
 
 1. Click Settings > Login Methods.   
-1. Enable the Enable Multiple Single Sign-On (SSO) for login checkbox.   
+1. Select the **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** for login checkbox.   
 1. Select an active field for an SSO.   
 1. Link the SSO configurations to the values of the field.   
 1. Save the settings. Add a single user and assign a value for the active field.
@@ -67,7 +72,7 @@ Follow the steps below:
 Follow the steps below:
 
 1. Click Settings > Login Methods.   
-1. Enable the Enable Multiple Single Sign-On (SSO) for login checkbox.   
+1. Select the **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** for login checkbox.   
 1. Link the SSO configurations to the values of the field.   
 1. Save the settings. Add a single user and assign a value for the active field.  
 1. Add a self-registration profile.   
@@ -81,7 +86,7 @@ Follow the steps below:
 
 1. Create an external profile.  
 1. Click Settings > Login Methods.  
-1. Enable the Enable Multiple Single Sign-On (SSO) for login checkbox.  
+1. Select the **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** for login checkbox.  
 1. Link the SSO configuration to the external profile created.  
 1. Save the settings.
 

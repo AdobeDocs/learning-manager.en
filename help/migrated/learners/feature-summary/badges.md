@@ -3,9 +3,8 @@ description: Learn how to view and download badges using the Learning Manager Le
 jcr-language: en_us
 title: Badges
 contentowner: manochan
+exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
 ---
-
-
 # Badges
 
 Learn how to view and download badges using the Learning Manager Learner app.
@@ -24,13 +23,13 @@ Recently achieved badges are displayed at the left most part of the list followe
 
 Click any badge to get a list of all the badges acquired by you. You can also view all the available badges aligned to respective courses. In yet-to-achieve badges, click course name to view the course that is aligned to the badge. A sample snapshot is shown below for your reference.
 
-Click **Download All Badges** link to download all of your acquired badges in zip format. You can also download an individual badge by clicking the cube icon adjacent to each badge name.
+Click **[!UICONTROL Download All Badges]** link to download all of your acquired badges in zip format. You can also download an individual badge by clicking the cube icon adjacent to each badge name.
 
 **Download badge as PDF**
 
 You can also download a set of badges or an individual badge in PDF format.
 
-* Click **Download All Badge Records** to download the badges acquired by you as PDFs. 
+* Click **[!UICONTROL Download All Badge Records]** to download the badges acquired by you as PDFs. 
 * To download individual badges, select the badge and click the pdf icon adjacent to the badge name. 
 
 ![](assets/badges.png)
@@ -65,7 +64,7 @@ In the Learner app, in Badges page, there is an option called Configure Badgr. I
 
 ## Badge update
 
-A Learner can update his/her badge to the latest badge by selecting the badge and clicking **Update **in the top right section of the page. A badge update happens in case of any changes in Badge image or Badge from the Learning Object by an Admin/Author.
+A Learner can update his/her badge to the latest badge by selecting the badge and clicking **Update** in the top right section of the page. A badge update happens in case of any changes in Badge image or Badge from the Learning Object by an Admin/Author.
 
 This process of updating the page is called Manual rebake. In this case, the badge gets reuploaded to Badgr backpack after baking is completed even if it has the same badge image/name. After updating the badge, the  Learner receives a notification that update is completed.
 

@@ -2,9 +2,8 @@
 description: Read this article to know how to get started as an instructor in Learning Manager.
 jcr-language: en_us
 title: Getting started as an instructor in Learning Manager
+exl-id: d0540886-3e0d-4a88-8f4e-040dd8a6bde0
 ---
-
-
 # Getting started as an instructor in Learning Manager
 
 Read this article to know how to get started as an instructor in Learning Manager.

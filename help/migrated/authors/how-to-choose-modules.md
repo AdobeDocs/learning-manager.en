@@ -3,9 +3,8 @@ jcr-language: en_us
 title: How to choose course modules?
 description: Adobe Learning Manager supports four types of course modules. If you are responsible for creating a training program, you may be wondering which type of module you need to choose to suit your organization's requirements. Based on your organization's budget and audience needs, you can choose the course modules. Some of the typical use cases for each type of module are explained below for your reference.
 contentowner: jayakarr
+exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
 ---
-
-
 # How to choose course modules?
 
 Learning Manager supports four types of course modules. If you are responsible for creating a training program, you may be wondering which type of module you need to choose to suit your organization's requirements. Based on your organization's budget and audience needs, you can choose the course modules. Some of the typical use cases for each type of module are explained below for your reference.

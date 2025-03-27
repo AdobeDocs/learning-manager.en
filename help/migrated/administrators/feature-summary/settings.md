@@ -1,28 +1,38 @@
 ---
-description: Learn about the Learning Manager account settings that you can configure as an administrator. 
+description: Learn about the Learning Manager account settings that you can configure as an administrator.
 jcr-language: en_us
 title: Settings
 contentowner: manochan
+exl-id: a563d955-f67e-4218-88df-625cde673601
 ---
-
-
 # Settings
 
 Learn about the Learning Manager account settings that you can configure as an administrator.
 
-You can change your Administrator profile settings and update your Account settings. View your profile information, add/change profile photo, and modify **About me** content. Update your company info, set up log in methods for users, and set up connect integration through account settings.
+You can change your Administrator profile settings and update your Account settings. View your profile information, add/change profile photo, and modify **[!UICONTROL About me]** content. Update your company info, set up log in methods for users, and set up connect integration through account settings.
+
+![](assets/settings-admin.png)
+
+## Configure your Adobe Learning Manager
+
+This training captures the basics of account-level settings. 
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PYPVPSZY&mv=display&mv2=display#/course/7476018)
+
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Account settings {#accountsettings}
 
-To update your organization's account settings, click **Settings** on the left pane. 
+To update your organization's account settings, click **[!UICONTROL Settings]** on the left pane. 
 
 **Basic info (Company info)**
 
-Click **Change** on the page and edit country, timezone, locale, and financial year settings. 
+Click **[!UICONTROL Change]** on the page and edit country, timezone, locale, and financial year settings. 
 
 **Configure contact admin**
 
-If you want to add or change the support administrators email addresses for your organization , you can configure by clicking **General** on the left pane. Click **Change** adjacent to **Support Email ID** and add the email ids. Email is sent to these administrators when learner clicks **Contact Admin** at the footer of the page. 
+If you want to add or change the support administrators email addresses for your organization , you can configure by clicking **[!UICONTROL General]** on the left pane. Click **[!UICONTROL Change]** adjacent to **[!UICONTROL Support Email ID]** and add the email ids. Email is sent to these administrators when learner clicks **[!UICONTROL Contact Admin]** at the footer of the page. 
 
 Add additional email-ids with semi-colon as a separator.  
 
@@ -41,11 +51,11 @@ You can access Learning Manager application using Adobe ID or by using Single Si
 
 **Feedback**
 
-Click **Feedback** on the left pane to set up the questionnaire to get feedback from learners after completing a course. Refer to [courses feature help content](courses.md) on creating L1 and L3 feedback. 
+Click **[!UICONTROL Feedback]** on the left pane to set up the questionnaire to get feedback from learners after completing a course. Refer to [courses feature help content](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) on creating L1 and L3 feedback. 
 
 **Multi attempts**
 
-Select **Settings** > **General** > **Multiple Attempts**.
+Select **[!UICONTROL Settings]** > **[!UICONTROL General]** > **[!UICONTROL Multiple Attempts]**.
 
 If you enable the 'Multi Attempts' check box, then the Authors can set 'Multiple attempts' for interactive e-learning courses or modules .On selecting the second checkbox, administrators can set 'Infinite attempts' by default for any newly created interactive e-learning courses.
 
@@ -55,7 +65,7 @@ If you enable the 'Multi Attempts' check box, then the Authors can set 'Multiple
 
 **Course Moderation**
 
-Click **General** from the left pane, and select the Course Moderation option to enable the Course Moderation functionality. To know more about this feature, see [Course Moderation](courses.md#main-pars_header_1879001177).
+Click **[!UICONTROL General]** from the left pane, and select the Course Moderation option to enable the Course Moderation functionality. To know more about this feature, see [Course Moderation](courses.md#main-pars_header_1879001177).
 
 **Discussion Board**
 
@@ -67,7 +77,7 @@ From the left pane, click Learner Dashboard. This page allows you to choose the 
 
 **Adobe Connect**
 
-Click **Adobe Connect** on the left pane to configure Adobe Connect account to host virtual classroom sessions. For more information, refer to  [Adobe Connect](adobeconnect-integration.md) feature help. 
+Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect account to host virtual classroom sessions. For more information, refer to  [Adobe Connect](adobeconnect-integration.md) feature help. 
 
 ## General settings {#general}
 
@@ -77,8 +87,11 @@ Enable or disable the following settings:
  <tbody>
   <tr>
    <th>
-    <p>Name</p></th>
-   <th>Description</th>
+    <p><b>Name</b></p>
+    </th>
+   <th>
+    <p><b>Description</b></p>
+   </th>
   </tr>
   <tr>
    <td>Show Course Effectiveness</td>
@@ -146,7 +159,7 @@ Enable or disable the following settings:
   </tr>
   <tr>
    <td>Show Catalog Labels</td>
-   <td>If enabled, Administrators and Authors can set Catalog Labels and values and link them to Learning Objects.</td>
+   <td>If enabled, Administrators and Authors can set Catalog Labels and values and link them to Learning Objects. Selecting this option also allows authors to add Courses, Learning Paths, Certifications, or Job Aids to the catalogs.</td>
   </tr>
   <tr>
    <td>Learners can view their scores</td>
@@ -388,6 +401,10 @@ Enable or disable the following settings:
     <p>For new accounts, the <b>Show Ratings</b> section will have the option <b>Star rating</b> enabled by default.</p>
     <p>For existing accounts, if the account previously had the option <b>Course effectiveness</b> enabled, then the <b>Show Ratings</b> section will be enabled with the option Course effectiveness selected. If the option <b>Course effectivenes</b>s is disabled, then the <b>Show Ratings</b> section will also be disabled. When the <b>Show Ratings</b> section is enabled, the option <b>Star rating</b> will be enabled by default.</p></td>
   </tr>
+  <tr>
+   <td height="19">Retire</td>
+   <td>Select the any of  the retire option from the following:<li>Once retired, enrolled Learners will be able to view and perform actions but not yet enrolled Learners will lose access.</li><li>Once retired, both enrolled and not yet enrolled Learners will lose access.</li><div><b>Note:</b> You can retire courses, learning paths, or certifications from their overview pages.</div> </td>
+  </tr>
  </tbody>
 </table>
 
@@ -403,24 +420,25 @@ Enable or disable the following settings:
    <td>
     <p>Instructor Management<br></p></td>
    <td>
-    <p>Enable this setting to restrict the list of instructors which can be selected while creating classroom/virtual classroom sessions. All users having the instructor privileged can only be assigned as an instructor to any session. This restriction does not apply to migration workflows.<br></p></td>
+    <p>Enable this setting to restrict the list of instructors which can be selected while creating classroom/virtual classroom sessions. All users having the instructor privileged can only be assigned as an instructor to any session. This restriction does not apply to migration workflows.<br></p>
+  </td>
+  <tr>
+    <td>
+      <p>Skills import</p>
+    </td>
+    <td>
+      <p>If enabled, you can choose an external source to import Skills. The skills for existing learning resources will be imported to the Skills repository one time during the initial run. For all subsequent imports of learning resources, the Skills will be imported into Skills repository only for newly imported items.
+      Once the option is enabled, the action is irreversible. You cannot disable or change to another source later.
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
 
-## AI-based recommendation
-
-Learning Manager includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner's preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.
-
-The recommendation algorithm is designed to take in multiple sources of input including Industry data on Job roles, titles and descriptions that Adobe has sourced from its partners. This data is then used to train Adobe's AI algorithms so that Learning Manager can come up with a map that connects industry aligned skills to job titles and/or designations. This then becomes one input to the recommendation algorithm
-
-Learning Manager then uses topic modeling algorithms to analyze the training content within an account and map them to the skills.
-
-Learning Manager uses peer activity data as another signal to drive the recommendation algorithm in a personalized manner. Activities like enrollment, completion and any explicit feedback provided by learners is used here.
-
-Additionally, Learning Manager uses explicit and implicit information gathered from individual learners to further personalize recommendations. A learner will be able to indicate their areas of interest explicitly through enrollments and Learning Manager will receive this information implicitly based on how the Learner ends up taking up the trainings.
-
-Finally, the Admin will also be able to influence the recommendation algorithm using learner attributes that Learning Manager should look at when defining peer groups, and also by actually highlighting Trainings for specific user groups.  
+>[!NOTE]
+>
+>Once skill import setting is enabled, the account layout cannot be switched to the Classic view, i.e. switching to Classic account is disabled after the **Skill import** option is enabled. 
 
 ## Renaming Learning objects {#renaminglearningobjects}
 
@@ -451,30 +469,12 @@ Classroom
 Virtual Classroom  
 Activity
 
-To rename the terminologies, follow these steps.
-
-1. As an Administrator, click **[!UICONTROL Settings]** > **[!UICONTROL General]** > **[!UICONTROL Product Terminology]**. The product terminology option opens. 
-
-   ![](assets/product-terminology.png)
-
-   *Rename product terminology*
-
-1. Changes can be made by uploading a modified product terminology template by downloading the sample CSV file. To download the sample CSV file, click on the **[!UICONTROL Download here]**option.
-1. The downloaded CSV file contains the name of the objects in coloum A. In coloumn B, choose the name you want to assign to the respective object. Note that you need to update the singular and plural form of the name separated by a (|).
-1. You can choose to modify one or more rows. You can either retain the non-modified rows or remove them from the CSV file before uploading them.
-1. Upload the modified CSV file and click **[!UICONTROL Save]**. Learning Manager refreshes reflecting your changes.
-1. To reset to default terminologies, click **[!UICONTROL Reset Product Terminology.]**
-
-   ![](assets/with-reset-option.png)
-
-   *Reset the product terminologies*
-
 ## Profile settings {#profilesettings}
 
-1. Click the drop-down arrow at the upper-right corner, adjacent to your photo/account and choose **Profile Settings**.
-1. From the pop-up dialog, you can add/change a photo by hovering the mouse and by clicking **Edit** in the profile photo area.
-1. Add/modify **About** content by clicking **Edit** adjacent to it. 
-1. Click **Save.**
+1. Click the drop-down arrow at the upper-right corner, adjacent to your photo/account and choose **[!UICONTROL Profile Settings]**.
+1. From the pop-up dialog, you can add/change a photo by hovering the mouse and by clicking **[!UICONTROL Edit]** in the profile photo area.
+1. Add/modify **[!UICONTROL About]** content by clicking **[!UICONTROL Edit]** adjacent to it. 
+1. Click **[!UICONTROL Save].**
 
 ## Content Folder {#content-folder}
 
@@ -482,7 +482,7 @@ Learning Manager supports private content folders. An Administrator can configur
 
 Content Folders can be configured by Administrators. Only once configured, content folders become visible to authors and they get an ability to place the content in one or multiple folders. 
 
-To add a content folder, in the Administrator app, click **Settings > Content Folder**.
+To add a content folder, in the Administrator app, click **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**.
 
 ![](assets/manage-content-folders.png)
 
@@ -517,11 +517,11 @@ This folder cannot be part of configurable role definition. Consequently, not ha
 
 **Add a folder**
 
-To add a folder, click **Add** on the upper-right corner of the window.
+To add a folder, click **[!UICONTROL Add]** on the upper-right corner of the window.
 
 **Delete a folder**
 
-You can also delete a folder. Select the folder to delete, click the Actions menu, and click **Delete Folder**.
+You can also delete a folder. Select the folder to delete, click the Actions menu, and click **[!UICONTROL Delete Folder]**.
 
 >[!NOTE]
 >
@@ -561,11 +561,19 @@ You can also add the location with the help of a CSV. The CSV must contain the f
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
 
+### Settings {#admin-classroom-settings}
+
+Select **Edit** to change the following:
+
+* **Allow authors to create locations**: Once enabled, all the locations created by authors will be listed under 'All Locations' tab. Learners will also see these locations under Catalog and calendar filters.
+* **Allow authors to modify and delete locations**:
+Once enabled, authors will be able to modify and delete all Classroom locations. The modifications by authors will be reflected across the platform, including reports.
+
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
 +++How to create different folders for content library?
 
-Click **Settings > Content Folder**. To add a folder, click **Add** on the upper-right corner, and in the dialog, enter the name and description of the folder.
+Click **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**. To add a folder, click **[!UICONTROL Add]** on the upper-right corner, and in the dialog, enter the name and description of the folder.
 
 Content Folders can be configured by Administrators. Only once configured, content folders become visible to authors and they get an ability to place the content in one or multiple folders. 
 
@@ -574,5 +582,5 @@ For more information, see the section on [Content Folder](settings.md#content-fo
 
 +++How to add financial year for the account?
 
-In **Settings** > **Basic Info**, click **Change**. From the **Financial year starts from** drop-down list, select the month.
+In **[!UICONTROL Settings]** > **[!UICONTROL Basic Info]**, click **[!UICONTROL Change]**. From the **[!UICONTROL Financial year starts from]** drop-down list, select the month.
 +++

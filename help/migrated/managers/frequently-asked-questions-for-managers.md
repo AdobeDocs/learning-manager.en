@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Frequently Asked Questions for Managers
 description: Frequently Asked Questions for Adobe Learning Manager Managers
 contentowner: admin
+exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
 ---
-
-
 # Frequently Asked Questions for Managers
 
 +++How can a Manager access courses?

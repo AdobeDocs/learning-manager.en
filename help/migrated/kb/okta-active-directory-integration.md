@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Okta Active Directory integration with Adobe Learning Manager
 description: Okta Active Directory integration with Adobe Learning Manager
 contentowner: nluke
+exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
 ---
-
-
 # Okta Active Directory integration with Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
 In this document, you will learn how to integrate Adobe Learning Manager with Okta Active Directory (AD). When you integrate Adobe Learning Manager with Okta AD, you can:
@@ -18,28 +17,33 @@ Adobe Learning Manager supports Identity Provider (IdP) and Service Provider (SP
 
 ## Create an application in OKTA
 
-1. Log in as an Administrator on Okta AD.
-1. Click **Applications**. This opens the Application Store in Okta.
+1. Log in to Okta AD.
+   
+   >[!NOTE]
+   >
+   >You do not need ALM admin access to create an application and set up an IDP.
+
+1. Click **[!UICONTROL Applications]**. This opens the Application Store in Okta.
 
    ![](assets/cp-application-store.png)
 
    *View application store in Okta*
 
-1. Click **Create App Integration.**   
+1. Click **[!UICONTROL Create App Integration]**.
 
    ![](assets/cp-app-integrations.png)
 
    *Select Create App Integration*
 
-1. Select **SAML 2.0.**  from the new app integration window. 
+1. Select **[!UICONTROL SAML 2.0]** from the new app integration window. 
 
    ![](assets/cp-saml2.0.png)
 
    *Select SAML2.0 option*
 
-1. Choose **Create SAML integration** > **General settings page**. Enter an Application Name.
+1. Select **[!UICONTROL Create SAML integration]** > **[!UICONTROL General settings page]**. Enter an Application Name.
 
-   Note that this can be any name to uniquely identify your application. Once done, click **Next**.
+   Note that this can be any name to uniquely identify your application. Once done, click **[!UICONTROL Next]**.
 
    ![](assets/cp-saml-integration.png)
 
@@ -77,9 +81,9 @@ Adobe Learning Manager supports Identity Provider (IdP) and Service Provider (SP
 
    *Add additional attributes*
 
-   Once done, click **Next**.
+   Once done, click **[!UICONTROL Next]**.
 
-1. The **Feedback**  tab is optional. Once you have selected the options and given your feedback, click **Finish**.
+1. The **Feedback**  tab is optional. Once you have selected the options and given your feedback, click **[!UICONTROL Finish]**.
 
    ![](assets/cp-saml-integration-step3.png)
 
@@ -90,7 +94,7 @@ Adobe Learning Manager supports Identity Provider (IdP) and Service Provider (SP
 To view the IdP/SP initiated URL and Metadata file, perform the below steps:
 
 1. Open the application that you have created.
-1. Under the **Single Sign-On** tab, click **View Instructions.**
+1. Under the **Single Sign-On** tab, click **[!UICONTROL View Instructions]**.
 
    ![](assets/cp-prime-sso.png)
 
@@ -101,7 +105,7 @@ To view the IdP/SP initiated URL and Metadata file, perform the below steps:
    1. The Identity Provider Single Sign-On URL is the IdP initiated URL.
    1. Copy all the text that is present under the **Optional** field. 
    1. Open a new notepad document and paste the copied text. 
-   1. Click **File** > **Save as** > "filename.xml". This will be the metadata file.
+   1. Click **[!UICONTROL File]** > **[!UICONTROL Save as]** > "filename.xml". This will be the metadata file.
 
    **For SP:**
 
@@ -109,7 +113,7 @@ To view the IdP/SP initiated URL and Metadata file, perform the below steps:
    1. The Identity Provider Issuer is the Entity ID.
    1. Copy all the text that is present under the **Optional** field. 
    1. Open a new notepad document and paste the copied text. 
-   1. Click **File** > **Save as** > **filename.xml**. This will be the metadata file.
+   1. Click **[!UICONTROL File]** > **[!UICONTROL Save as]** > **[!UICONTROL filename.xml]**. This will be the metadata file.
 
    ![](assets/cp-saml-integration-step4.png)
 

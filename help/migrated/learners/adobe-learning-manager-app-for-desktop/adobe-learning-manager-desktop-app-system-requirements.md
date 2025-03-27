@@ -3,9 +3,8 @@ jcr-language: en_us
 title: System requirements | Adobe Learning Manager desktop application
 description: System requirements for Adobe Learning Manager desktop application
 contentowner: kuppan
+exl-id: 31455c7e-f642-451b-968a-8a6f75131fda
 ---
-
-
 # System requirements for Adobe Learning Manager desktop application
 
 ## Windows {#windows}

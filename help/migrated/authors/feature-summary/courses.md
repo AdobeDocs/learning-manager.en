@@ -3,9 +3,8 @@ description: To learn how to create courses, certifications, and learning progra
 jcr-language: en_us
 title: Creating, modifying, and publishing courses
 contentowner: manochan
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 ---
-
-
 # Creating, modify, and publish courses
 
 To learn how to create courses, certifications, and learning programs in Learning Manager, read this article.
@@ -22,12 +21,12 @@ Authors can use e-learning content that is created using any eLearning tool. Oth
 
 To create a course, follow the steps below:
 
-1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **Create Courses**.
+1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **[!UICONTROL Create Courses]**.
 1. On the **Course Overview** page, enter the name of the course. Now, enter a short description for this course, which is displayed on the course card. This description must not be more than 140 characters. Then enter the detailed overview for the course, which is displayed on the Course Details page. The description must not exceed 1500 characters.
 
    As an author, you can see the description of the modules while adding the module to a course.
 
-1. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **Save**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
+1. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **[!UICONTROL Save]**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
 1. **Modify course settings**-
 
    1. On the Course Settings page, choose a skill for the course. From the Skill drop-down list, choose the required skill. Then, from the Level drop-down list, choose the required level.
@@ -40,17 +39,18 @@ To create a course, follow the steps below:
    * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager's approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
    * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
 
-1. To save the changes, click **Save**. To publish the course, click **Publish**.
+1. To save the changes, click **[!UICONTROL Save]**. To publish the course, click **[!UICONTROL Publish]**.
 
 ## Create a course - Advanced workflow {#createacourseadvancedworkflow}
 
-1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **Create Courses**.
+1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **[!UICONTROL Create Courses]**.
 1. On the **Course Overview** page, enter the name of the course. Now, enter a short description for this course, which is displayed on the course card. This description must not be more than 140 characters. Then enter the detailed overview for the course, which is displayed on the Course Details page. The description must not exceed 1500 characters.
-1. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **Save**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
+1. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **[!UICONTROL Save]**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
 1. **Modify course settings**-
 
    1. On the Course Settings page, choose a skill for the course. From the Skill drop-down list, choose the required skill. Then, from the Level drop-down list, choose the required level.
    1. Choose the course skills, level, and set the credits for the skill. Add more skills, if required.
+   1. Add the custom compliance labels to the course, if required. See [Add compliance labels to course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification). 
    1. From the **Enrollment Type** drop-down list, choose the type of enrollment.
 
    The following are the types of enrollments:
@@ -59,11 +59,12 @@ To create a course, follow the steps below:
    * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager's approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
    * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
 
-1. Choose if you want to set a price for your course or make it free. If you want to make the course paid, choose the option **[!UICONTROL Paid]**, and specify a price. The price then appears on the Course card and the Coure overview page for a learner.
+1. Choose if you want to set a price for your course or make it free. If you want to make the course paid, choose the option **[!UICONTROL Paid]**, and specify a price. The price then appears on the Course card and the Course overview page for a learner.
 
    NOTE: This is only enabled when Adobe Commerce connector is configured.
 
 1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box **Learners can unenroll themselves**.
+
 1. **Instance Configuration**
 
    If you enable this option, learners who are in the state, In Progress,  can visit other instances and enroll there. A learner can then retain the progress of the previous instance.
@@ -97,7 +98,33 @@ To create a course, follow the steps below:
 1. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
 1. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
 1. In the Auto Retire field, select a date when the course retires. The Administrator must enable the Auto Retire option first.
-1. To save the changes, click **Save**. To publish the course, click **Publish**.
+1. To save the changes, click **[!UICONTROL Save]**. To publish the course, click **[!UICONTROL Publish]**.
+
+### Add compliance labels to course/learning path/certification {#add-custom-compliance-label}
+
+To add the compliance labels to courses, follow these steps:
+
+1. In the author app, go to **[!UICONTROL Courses]**/**[!UICONTROL Learning Paths]**/**[!UICONTROL Certifications]** and select **[!UICONTROL Add]**.
+1. Type the name and other details such as description, skills.
+1. In the **[!UICONTROL Custom compliance]** text box, type and select the compliance label.
+ 
+   ![](assets/add-compliance-label.png)
+   _Add custom compliance_
+
+   >[!IMPORTANT]
+   >
+   >Make sure to set a deadline for the course when you're adding Custom Compliance.
+
+   >[!NOTE]
+   >
+   >A maximum of 50 courses, learning paths, or certifications can have the same value for a custom compliance type label.
+
+1. Save and publish the course/learning path/certification. 
+Now the course/learning path/certification is considered as a compliance type. Administrators can add this course to the compliance dashboard and share it with managers to track the progress
+
+>[!NOTE]
+>
+>Authors can also add the compliance labels to an existing course/learning path/certification by editing them. 
 
 ## Gamification points
 
@@ -325,9 +352,9 @@ Once the admin has enabled multi attempts, as an author you can configure multi 
  <tbody>
   <tr>
    <td>
-    <p>Option</p></td>
+    <p><b>Option</b></p></td>
    <td>
-    <p>Description</p></td>
+    <p><b>Description</b></p></td>
   </tr>
   <tr>
    <td>
@@ -385,7 +412,7 @@ You can now add Content, Prework, and Testout modules. **Content** modules are t
 
 To add a content module, perform the steps below:
 
-1. Click **Add Modules**. You can see four options to add modules. The first option is to add Self Paced Modules. These are the modules that you create and add to the module library in Adobe Learning Manager. These second option is to set up the Virtual Classroom. The third one is to set up a Classroom Module, and the fourth is Activity Module.
+1. Click **[!UICONTROL Add Modules]**. You can see four options to add modules. The first option is to add Self Paced Modules. These are the modules that you create and add to the module library in Adobe Learning Manager. These second option is to set up the Virtual Classroom. The third one is to set up a Classroom Module, and the fourth is Activity Module.
 
    ![](assets/select-module-type.png)
 
@@ -395,11 +422,11 @@ To add a content module, perform the steps below:
 
    After you click the option, you can see the list of self-paced modules that have been already added to your module library. Here you can either scroll through the list and select the ones you want to add, or you can search for the modules by typing the module's name in the search field or the module tags.
 
-   After you have selected the modules, click **Add**. These modules now appear under the Content section.
+   After you have selected the modules, click **[!UICONTROL Add]**. These modules now appear under the Content section.
 
    You can also rearrange the modules. Drag any module and move it up or down and arrange the modules in a proper sequence.
 
-   **Virtual Classroom Module:** In this mode, learners can attend live online lectures, facilitated by a trained instructor. Enter the title, description, and set the duration of the session. You can also specify the conference url and the instructors to conduct the session. To save the changes, click **Done**.
+   **Virtual Classroom Module:** In this mode, learners can attend live online lectures, facilitated by a trained instructor. Enter the title, description, and set the duration of the session. You can also specify the conference url and the instructors to conduct the session. To save the changes, click **[!UICONTROL Done]**.
 
    ![](assets/1st-image.png)
 
@@ -416,7 +443,7 @@ To add a content module, perform the steps below:
 
    **Note:** A learner must be available on Microsoft Teams. However, the learner can join Learning Manager as a guest.
 
-   **Classroom Module:** In this mode, learners attend in-person lectures, facilitated by a trained instructor. Enter the title, description, and set the duration of the session. You can also specify the location of the class and the instructors to conduct the session. To save the changes, click **Done**.
+   **Classroom Module:** In this mode, learners attend in-person lectures, facilitated by a trained instructor. Enter the title, description, and set the duration of the session. You can also specify the location of the class and the instructors to conduct the session. To save the changes, click **[!UICONTROL Done]**.
 
    ![](assets/classroom-module.png)
 
@@ -433,7 +460,7 @@ To add a content module, perform the steps below:
 
    **Note:** If a learner wants to join Microsoft Teams as guest, he/she must enter the email. The email must be present in Learning Manager.
 
-   **Activity Module:** In this mode, learners must complete a set of activities, such as, workshops, exercises, questionnaire, and other learning activities. Enter the title, description, and the external url for reference. To save the changes, click **Done**.
+   **Activity Module:** In this mode, learners must complete a set of activities, such as, workshops, exercises, questionnaire, and other learning activities. Enter the title, description, and the external url for reference. To save the changes, click **[!UICONTROL Done]**.
 
    ![](assets/activity-module.png)
 
@@ -454,7 +481,26 @@ To add a content module, perform the steps below:
    * **Cover image:** 300 px x 300 px
    * **Banner image:** 1600 px x 140 px
 
-1. On the top-right corner of the page, click **Save**.
+1. On the top-right corner of the page, click **[!UICONTROL Save]**.
+
+#### Add HTML link in the Activity Module
+
+Authors can add HTML links in the activity module and set the completion criteria. To add an HTML link and set a completion criteria, follow these steps:
+
+1. In the author app, select **[!UICONTROL Create Courses]** on the home page.
+1. Select **[!UICONTROL Add]** from the **[!UICONTROL Course Catalog]** screen
+1. Type the name and description of the course.
+1. In the **[!UICONTROL Module]** option, select **[!UICONTROL Add Module]** > **[!UICONTROL Activity Module]**.
+1. In the **[!UICONTROL Activity Module]** prompt, type the name and description.
+1. Select the **[!UICONTROL Type]** as **[!UICONTROL External URL]**.
+1. Select any of the following options from the **[!UICONTROL Completion Criteria]** option.
+   * **[!UICONTROL Learner marks complete]**: The learner has the option to mark the course as complete in the Fluidic Player.
+   * **[!UICONTROL On Launching content]**: The course will automatically be marked as complete, when the learner launches it.
+ 
+   ![](assets/completion-criteria-activity-module.png)
+   _Completion criteria_
+
+1. Select **[!UICONTROL Add]** and publish the course.
 
 ## Checklist {#create-checklist}
 
@@ -497,13 +543,13 @@ Choose an instructor or instructors who will evaluate the learner.
 
 Also, if you have anything to comment or a note, you can add that in the **Note to instructor** text field.
 
-Now, add the checklist questions. Click **Add**. You can only add up to 150 questions.
+Now, add the checklist questions. Click **[!UICONTROL Add]**. You can only add up to 150 questions.
 
 ![](assets/add-checklist-questions.png)
 
 *Add checklist questions*
 
-To add more questions, click **Add more**.
+To add more questions, click **[!UICONTROL Add more]**.
 
 Save the changes, add the module, and publish the course.
 
@@ -534,20 +580,20 @@ On this page, enter the following details:
 1. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
 1. Add the profiles of your target audience for this course by clicking the text area and choosing the profiles from the suggestions.
 1. Add resource files for your course as extra material. Drag your materials such as text, or video, or audio files.
-1. Now this course will be available for these learners having these profiles as a recommended course. You can also attach additional resources for your learners in this section. Learners will be able to download these files for later reference. Once you are done with all these changes, go ahead and click **Save** on the top-right corner. This will save your course as a draft. Your course is saved as draft, by default.
+1. Now this course will be available for these learners having these profiles as a recommended course. You can also attach additional resources for your learners in this section. Learners will be able to download these files for later reference. Once you are done with all these changes, go ahead and click **[!UICONTROL Save]** on the top-right corner. This will save your course as a draft. Your course is saved as draft, by default.
 
 ## Assign instructors for modules {#assigninstructorsformodules}
 
-1. After you create modules for your course, you can assign instructors to the modules. From the Author dashboard, click **Course Catalog**.
+1. After you create modules for your course, you can assign instructors to the modules. From the Author dashboard, click **[!UICONTROL Course Catalog]**.
 1. Click the course whose module you want to assign instructors to.
-1. From the **Add** **Modules** section, click the module to which you want to assign an instructor.
+1. From the **Add Modules** section, click the module to which you want to assign an instructor.
 1. In the **Instructor** field, specify the user name of the user to who you want to assign the instructor role.
 
    ![](assets/instructor-field.png)
 
    *Assign an instructor role to a user*
 
-1. To republish the course with the updates, click **Republish.**
+1. To republish the course with the updates, click **[!UICONTROL Republish]**.
 
 ## Observation checklist
 
@@ -595,7 +641,7 @@ The Checklist Report csv has the new and updated fields:
 
 Once the course is created and saved as a draft, you can preview the course as a learner, and then publish it to make it available in the course catalog.
 
-To preview the course, click **Preview as learner**.
+To preview the course, click **[!UICONTROL Preview as learner]**.
 
 ![Preview a course as learner](assets/preview-as-a-learner.png)
 
@@ -624,31 +670,31 @@ A typical course life cycle looks as follows:
 
 *Workflow of a course lifecycle*
 
-To publish the course that you had created, click **Publish** on the top-right corner of the page.
+To publish the course that you had created, click **[!UICONTROL Publish]** on the top-right corner of the page.
 
 ![](assets/publish-a-course.png)
 
 *Publish a course*
 
-On the confirmation pop-up message that appears, click **OK**.
+On the confirmation pop-up message that appears, click **[!UICONTROL OK]**.
 
 The course is now available in the course catalog.
 
 ## View a course {#viewacourse}
 
-You can view a list of all available courses as an author. To view all the courses in Learning Manager account, click Course Catalog. To view all your authored courses in Learning Manager, click **My Courses**.
+You can view a list of all available courses as an author. To view all the courses in Learning Manager account, click Course Catalog. To view all your authored courses in Learning Manager, click **[!UICONTROL My Courses]**.
 
-On the course card, hover on the options, and click **View Course**.
+On the course card, hover on the options, and click **[!UICONTROL View Course]**.
 
 ![](assets/view-a-course.png)
 
 *View a course*
 
-The course information window displays. The course is in a read-only mode. To modify the course, click **Edit**.
+The course information window displays. The course is in a read-only mode. To modify the course, click **[!UICONTROL Edit]**.
 
 ## Retire a course {#retireacourse}
 
-If you retire a course, you cannot enroll new learners to the course. Learners who are already enrolled can take the course.
+Retiring a course will hide it from learners, even if they are enrolled or have already completed it. If you retire a course, you cannot enroll new learners to the course. Learners who are already enrolled can take the course. 
 
 To retire a course, on the course card, hover on the options, and click Retire Course.
 
@@ -656,7 +702,7 @@ To retire a course, on the course card, hover on the options, and click Retire C
 
 *Retire a course*
 
-On the confirmation pop-up that appears, click **Yes**.
+On the confirmation pop-up that appears, click **[!UICONTROL Yes]**.
 
 ## Duplicate a course {#duplicateacourse}
 
@@ -674,7 +720,7 @@ Adobe Learning Manager makes it easier for you to find the courses of your choic
 
 **Filter list of courses:** You can filter the courses by state such as All, Published, Draft, and Retired. Based on your choice, you can view the filtered list of courses and select the required courses.
 
-As an author, you can also sort the courses to better locate your required course. Click **Sort b**y and choose alphabetical ascending order, alphabetical descending order, course created date, course updated date, and effectiveness of courses.
+As an author, you can also sort the courses to better locate your required course. Click **[!UICONTROL Sort by]** and choose alphabetical ascending order, alphabetical descending order, course created date, course updated date, and effectiveness of courses.
 
 ![](assets/filter-list-of-courses.png)
 
@@ -687,7 +733,7 @@ To enroll learners to the courses, or to allow managers to nominate learners for
 To switch to the Admin mode,
 
 1. Click your profile picture and then select Administrator.
-1. In the Admin mode, click **Courses** on the left pane. On this page, you can see all the courses created by all the authors in your Learning Manager account.
+1. In the Admin mode, click **[!UICONTROL Courses]** on the left pane. On this page, you can see all the courses created by all the authors in your Learning Manager account.
 1. To enroll the learners, hover over the course card, and you can see the option **Enroll Learners**. Click this option.
 
    ![](assets/enroll-learners.png)
@@ -707,13 +753,13 @@ To switch to the Admin mode,
    *Add learhers to a course*
 
 1. If you want to exclude any learner from the course., enter the name of the learner in the **Exclude Learners** field.
-1. After you have enrolled the learners, click **Proceed**. On the Enroll Learners dialog box, you can view the summary of the enrollment.
+1. After you have enrolled the learners, click **[!UICONTROL Proceed]**. On the Enroll Learners dialog box, you can view the summary of the enrollment.
 
    ![](assets/summary-of-enrollment.png)
 
    *View course enrollment summary*
 
-1. To enroll all learners in the course, click **Enroll**. These learners are now successfully enrolled for this course. The learners get a notification to go ahead and take the course. To enroll more learners, repeat the enrollment procedure.
+1. To enroll all learners in the course, click **[!UICONTROL Enroll]**. These learners are now successfully enrolled for this course. The learners get a notification to go ahead and take the course. To enroll more learners, repeat the enrollment procedure.
 
 ## Changes to the Course Instance page for Connect VC modules {#connect-vc}
 
@@ -749,9 +795,9 @@ For more information see [Unenrolling learners](/help/migrated/administrators/fe
 
 You can also publish the course modules to Learning Manager from Adobe Captivate and Adobe Presenter software using the Publish menu.
 
-1. In Captivate, click **Publish > Publish to Learning Manager**.
-1. Provide the sub-domain name or email id and click **Submit**. If you have multiple accounts, you are prompted to choose the account.
-1. Log in with Adobe credentials. If you do not have an Adobe id, click **Create Account**. After authorization, you are directed to module publishing page.
+1. In Captivate, click **[!UICONTROL Publish]** > **[!UICONTROL Publish to Learning Manager]**.
+1. Provide the sub-domain name or email id and click **[!UICONTROL Submit]**. If you have multiple accounts, you are prompted to choose the account.
+1. Log in with Adobe credentials. If you do not have an Adobe id, click **[!UICONTROL Create Account]**. After authorization, you are directed to module publishing page.
 1. Provide all the basic information about the module and click Publish.
 
 You can see the published module on the Learning Manager modules page. For more information, see [Publish project to Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
@@ -805,7 +851,7 @@ Perform the following steps:
 
 1. Log into Learning Manager as an Author.
 1. Open the course.
-1. On the left pane, click **Settings > Edit**.
+1. On the left pane, click **[!UICONTROL Settings]** > **[!UICONTROL Edit]**.
 1. On the **Enrollment Type** drop-down list, change the enrollment type from **Manager Nominated** to **Manager Approved** or **Self Enrolled**.
 
 1. Once you have changed the type of enrollment, republish the course.
@@ -817,15 +863,15 @@ Perform the following steps:
 You can combine courses via a Learning Program.
 
 1. Log in to Learning Manager as an Administrator.
-1. On the left pane, click **Learning Programs**.
-1. To add a Learning Program, click **Add**.
-1. Enter the details of the Learning Program and to save the Learning Program, click **Save**.
-1. After creating the Learning Program, click **Catalog**.
-1. On a course card, click **Add**, as shown below. Repeat the process for as many courses that you want to add to the Learning Program.
+1. On the left pane, click **[!UICONTROL Learning Programs]**.
+1. To add a Learning Program, click **[!UICONTROL Add]**.
+1. Enter the details of the Learning Program and to save the Learning Program, click **[!UICONTROL Save]**.
+1. After creating the Learning Program, click **[!UICONTROL Catalog]**.
+1. On a course card, click **[!UICONTROL Add]**, as shown below. Repeat the process for as many courses that you want to add to the Learning Program.
 
 ![](assets/add-catalog.png)
 
-Once you have added all the courses required in the Learning Program, click **Publish**.
+Once you have added all the courses required in the Learning Program, click **[!UICONTROL Publish]**.
 
 In a Learning program, you can only add self-enrolled courses and not Manager Nominated or Manager Approved courses. This is a default behavior in Learning Manager.
 
@@ -838,15 +884,15 @@ You can achieve this via catalogs.. A default catalog contains all courses added
 You must disable the default catalog and create custom catalogs.
 
 1. Log in to Learning Manager as an Administrator.
-1. On the left pane, click **Catalogs**.
-1. Create a Catalog by clicking **Create**. Enter the details and click **Save**.
+1. On the left pane, click **[!UICONTROL Catalogs]**.
+1. Create a Catalog by clicking **[!UICONTROL Create]**. Enter the details and click **[!UICONTROL Save]**.
 
 1. On the newly created Catalog options, you can select different types of learning that you can add, for example, Learning Program, certification, or course.
-1. In the Learning Program section, click **Add Content**.
-1. On the left pane, click **Share Internally** or **Share Externally** depending on the audience that you want to target.
+1. In the Learning Program section, click **[!UICONTROL Add Content]**.
+1. On the left pane, click **[!UICONTROL Share Internally]** or **[!UICONTROL Share Externally]** depending on the audience that you want to target.
 
-1. To add a user group, click **Add User Groups**.
-1. On the Catalogs page, disable the **Default Catalog**, and enable the catalog that you have created.
+1. To add a user group, click **[!UICONTROL Add User Groups]**.
+1. On the Catalogs page, disable the **D[!UICONTROL efault Catalog]**, and enable the catalog that you have created.
 
 ![](assets/enable-custom-catalog.png)
 
@@ -866,7 +912,7 @@ Perform the steps below:
 
 1. Login as a learner.
 1. Open the course that you have completed.
-1. Click **Revisit**.
+1. Click **[!UICONTROL Revisit]**.
 
 +++
 
@@ -893,4 +939,3 @@ For more information, see the [section on multiple attempts](courses.md#Allowmul
 No, the content uploaded on Learning Manager is a published zip file and is not the source file. Therefore, even if the content is downloaded, the content cannot be edited in an authoring tool. You would require a source file to edit the content.
 
 +++
-

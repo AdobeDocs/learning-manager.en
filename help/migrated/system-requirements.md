@@ -3,53 +3,9 @@ jcr-language: en_us
 title: System requirements
 description: System requirements for Adobe Learning Manager
 contentowner: dvenkate
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
 ---
-
 # System requirements for Adobe Learning Manager
-
-## Windows {#windows}
-
-Microsoft Windows 7, 8, 10 (64-bit versions only).
-
-## macOS {#macos}
-
-macOS X 10.12, 10.13, 10.14, 10.15
-
-## RAM
-
-8 GB of RAM.
-
-## Display
-
-Minimum supported resolution- 1024 x 720.
-
-## Disk space
-
-Minimum 5 GB of available hard-disk space.
-
-## Recording
-
-* Microphone required for audio recording.
-* Webcam required for video recording.
-
-## Miscellaneous
-
-An active Internet connection and Adobe Learning Manager learner account required to use the application.
-
-## Browser specifications
-
-The immersive layout home page is not supported on IE 11 browsers.
-
-* Google Chrome version 43 and above.
-* Latest versions of Edge, Safari (version 13 and above), and Firefox.
-* Internet Explorer version 11 and above 
-
-## Recommended size of images {#recommendedsizeofimages}
-
-* Masthead: 1280 x 360 px.
-* Image on the catalog card: 280 x 100 px
-* Size of the training card: 300 x 240 px
-* Social Banner: 1600 x 240 px
 
 ## Desktop
 
@@ -109,6 +65,28 @@ A microphone is required for audio recording; a webcam is required for video rec
 >
 >Learning Manager mobile app only supports the learner role.
 
+## Miscellaneous
+
+An active Internet connection and Adobe Learning Manager learner account required to use the application.
+
+## Browser specifications
+
+The immersive layout home page is not supported on IE 11 browsers.
+
+* Google Chrome version 43 and above.
+* Latest versions of Edge, Safari (version 13 and above), and Firefox.
+* Internet Explorer version 11 and above 
+
+## Recommended size of images {#recommendedsizeofimages}
+
+* Masthead:
+  * For settings as large: 1280 x 360 PX
+  * For settings as medium: 1280 x 273 PX
+  * For settings as small: 1280 x 187 PX
+* Image on the catalog card: 280 x 100 px
+* Size of the training card: 300 x 240 px
+* Social Banner: 1600 x 240 px
+
 ## Maximum content size {#maximumcontentsize}
 
 The maximum file size that can be uploaded is 600 MB.
@@ -128,9 +106,9 @@ We recommend importing large size *user.csv* files using the automated Box/Exava
  <tbody>
   <tr>
    <td>
-    <p>Content type</p></td>
+    <p><b>Content type</b></p></td>
    <td>
-    <p>Extensions</p></td>
+    <p><b>Extensions</b></p></td>
   </tr>
   <tr>
    <td>
@@ -224,9 +202,9 @@ We recommend importing large size *user.csv* files using the automated Box/Exava
  <tbody>
   <tr>
    <td>
-    <p>Elements</p></td>
+    <p><b>Elements</b></p></td>
    <td>
-    <p>Size</p></td>
+    <p><b>Size</b></p></td>
   </tr>
   <tr>
    <td>
@@ -269,7 +247,7 @@ We recommend importing large size *user.csv* files using the automated Box/Exava
 
 ## Accessibility
 
-## Supported browsers and screen readers
+### Supported browsers and screen readers
 
 The following combinations are supported:
 
@@ -277,7 +255,7 @@ The following combinations are supported:
 * Edge + Narrator
 * Mac Safari + VoiceOver
 
-## Support for immersive mobile
+### Support for immersive mobile
 
 The following are supported:
 
@@ -356,3 +334,7 @@ Ensure that the following third-party domains are whitelisted if you are on any 
 ## Technical overview {#technicaloverview}
 
 [Learning Manager technical overview](assets/learning-manager-technicaloverview.pdf)
+
+## ALM Security Whitepaper
+
+[ALM Whitepaper](assets/alm-security-whitepaper-2024.pdf)

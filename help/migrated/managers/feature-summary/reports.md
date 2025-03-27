@@ -3,9 +3,8 @@ description: Creating and managing reports for Managers.
 jcr-language: en_us
 title: Reports
 contentowner: manochan
+exl-id: 5a59b56c-111b-46e4-95e5-60cc3af75c4d
 ---
-
-
 # Reports
 
 Creating and managing reports for Managers.
@@ -175,7 +174,7 @@ Click this board tab to view all the boards that you created. From the view boar
 
    *Create your own board*
 
-1. Provide the name and description of the dashboard and click **Save**.
+1. Provide the name and description of the dashboard and click **[!UICONTROL Save]**.
 
 You can view the recently created board in the My dashboards list.
 

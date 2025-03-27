@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Notifications
 description: Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios.
 contentowner: manochan
+exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
 ---
-
-
 # Notifications
 
 Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
@@ -36,7 +35,11 @@ A sample notification window for admin role is shown in the following screenshot
 
 This pop-up window displays highlights of all the notifications along with time of occurrence and a scroll bar. You can know the number of latest notifications based on the highlighted number on top of the notifications icon. For example, if there are five latest notifications after your previous login, you can see the number 5 being displayed on top of the notifications icon. These numbers disappear once you read all the latest notifications.
 
-Click **Show all notifications** link at the bottom of the notifications pop-up window to view all the notifications in a separate page.
+Click **[!UICONTROL Show all notifications]** link at the bottom of the notifications pop-up window to view all the notifications in a separate page. On the notifications page, you can see the following::
+
+* **All Notifications**: View all notifications here
+* **Pending**: View pending notifications here
+* **Discussion**: Search for courses to see the discussions taking place.
 
 ## Set up multi level escalation notifications {#setupmultilevelescalationnotifications}
 

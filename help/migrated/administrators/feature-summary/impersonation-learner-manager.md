@@ -3,9 +3,8 @@ description: Admins can launch an impersonated session where they can log in on 
 jcr-language: en_us
 title: Impersonation of Learner and Manager
 contentowner: saghosh
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
 ---
-
-
 # Impersonation of Learner and Manager {#impersonation-of-learner-and-manager}
 
 In large organizations, customer support personnel need impersonation capability to debug problems faced by learners.
@@ -25,6 +24,7 @@ Here's what you must keep in mind while impersonating a user:
 * An Admin cannot impersonate themself.
 * A Custom Admin who has access to the Users page can impersonate users.
 * An Admin/Custom Admin can only impersonate for 60 mins.
+* A Custom Admin with read-only access cannot impersonate users.
 
 ## Impersonate a user
 

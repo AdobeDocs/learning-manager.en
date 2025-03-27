@@ -3,22 +3,77 @@ jcr-language: en_us
 title: Learner home page
 description: After the Administrator enables Immersive layout, the learner, after signing into the app, is greeted with a completely revamped User Interface.
 contentowner: saghosh
+exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
 ---
-
-
 # Learner home page
 
 ## Overview {#overview}
 
-After the Administrator enables Immersive layout, the learner, after signing into the app, is greeted with a completely revamped User Interface. 
+After the Administrator enables Immersive layout, the learner is greeted with a completely revamped User Interface when signing into the app.
 
 >[!NOTE]
 >
->The Immersive Layout is not supported on the IE11 browser.
+>The IE11 browser does not support the Immersive layout.
 
-Based on whether a widget was enabled, the learner sees the following: 
+## New learner UI for Immersive layout
 
-## Masthead {#masthead}
+>[!IMPORTANT]
+>
+>We will release the new learner UI in phases. 
+
+We have refreshed the Learner UI with a more sleek and updated design. The new UI aims to provide a consistent user experience across **[!UICONTROL Learner Home]**, **[!UICONTROL My Learning]**, **[!UICONTROL Catalog]**, and **[!UICONTROL Course Overview]** landing pages. The new visual elements follow current design styles, making the product look more easy to use and attractive. This update includes a new masthead, side panel, and contemporary widgets.
+
+>[!NOTE]
+>
+>The revamped User Interface applies only to the Immersive layout. The mobile web/app does not support these changes yet and will update them in a future release.
+
+![](assets/old-ui.png)
+_Old User Interface_
+ 
+![](assets/home-page-new.jpg) 
+_New User Interface_
+
+### Homepage
+
+The homepage has a new design with an improved side panel, top header, enhanced course cards, and widgets.
+
+![](assets/new-ui-homepage.png) 
+_New homepage_
+
+### Catalog page
+
+The Catalog pages have a new look with organized filters and enhanced course cards to provide a better user experience. 
+
+![](assets/catalog.jpg)
+_Catalog page_
+
+### Course overview page
+
+The course overview page has a new look with more details about the course. This page helps learners get all the information they need.
+
+![](assets/course-overview.jpg) 
+_Course overview page_
+
+### Course cards
+
+Course cards also feature a redesigned layout to display details more effectively. Revamped course cards highlight relevant metadata required for enrollment. This metadata includes correct published or due dates, ratings, and descriptions along with their authors or providers. 
+
+![](assets/old-course-cards.png)
+_Old course card_
+
+![](assets/new-course-card.jpg) 
+_New course card_
+
+For courses imported from **LinkedIn** and the **Go1** platform, the course cards will display the original publication dates from **LinkedIn** and **Go1**. You can also view these specific publication dates on the User Interface.
+
+### Sidebar and search bar
+
+The sidebar is updated with new UI elements for a cleaner look. The new search bar has no search button, giving it a cleaner look. Learners can type a keyword and press enter to start the search or select results below the search bar.
+
+![](assets/side-bar.png)
+_Sidebar and search bar_
+
+### Masthead {#masthead}
 
 Features a video or image carousel with an embedded URL. The [Administrator can upload any image or video](../../administrators/feature-summary/announcements.md#masthead) asset as a masthead and set its visibility for a group of learners.
 
@@ -26,7 +81,7 @@ Features a video or image carousel with an embedded URL. The [Administrator can 
 
 *View masthead*
 
-## My Learning List {#mylearninglist}
+### My Learning List {#mylearninglist}
 
 Displays the training that the learner had taken. These trainings are displayed as cards lined up horizontally. You can click the right or left button to browse the courses. 
 
@@ -36,13 +91,13 @@ Displays the training that the learner had taken. These trainings are displayed 
 
 You can also can also swipe left and right to navigate through the list.
 
-To resume a course, click **Continue** on a card, and the player will launch. 
+To resume a course, click **[!UICONTROL Continue]** on a card, and the player will launch. 
 
 The appearance of icons on each training card is enabled/disabled by the Admin via the Admin app (**Settings** > **General** > **Enable Training Card Icons**).
 
 **Add to My learning List**
 
-If you hover on any course card in the **Recommended based on your areas of interest** and **Recommended based on peer activity lists**, you can see an option to add the course to the **My Learning List**. Click **+** on the course card and the course will get added to the **My Learning List**.
+If you hover on any course card in the **Recommended based on your areas of interest** and **Recommended based on peer activity lists**, you can see an option to add the course to the **My Learning List**. Click **[!UICONTROL +]** on the course card and the course will get added to the **My Learning List**.
 
 ![](assets/add-my-learning.png)
 
@@ -61,6 +116,13 @@ Choose an option and you can then see the course catalog according to the select
 ![](assets/skill-levels.png)
 
 *Select skill levels*
+
+## Compliance dashboard widget
+
+The Compliance dashboard widget allows learners to filter courses/learning paths/certifications that have upcoming deadlines using the Compliance label. This feature is available on all learner apps, including ALM Teams app, AEM, Mobile app, Immersive, and SF app.
+
+![](assets/compliance-status-learner.png)
+_Compliance dashboard widget_
 
 ## Calendar {#calendar}
 
@@ -139,8 +201,8 @@ The skills that you chose also displays in the **Selected Skills** section.
 
 *Selected skills*
 
-To add the skills, click **Add**.
+To add the skills, click **[!UICONTROL Add]**.
 
 ## Recommendation based on peer activity {#recommendationbasedonpeeractivity}
 
-Displays training based on what your peers are taking. This is again driven by a Machine Learning algorithm. The recommendations are based on training for both Custom and Industry Aligned learners.   
+Displays training based on what your peers are taking. This is again driven by a Machine Learning algorithm. The recommendations are based on training for both Custom and Industry Aligned learners.

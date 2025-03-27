@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Frequently Asked Questions for Authors
 description: Frequently Asked Questions for Adobe Learning Manager Authors
 contentowner: admin
+exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
 ---
-
-
 # Frequently Asked Questions for Authors
 
 <table>
@@ -233,13 +232,13 @@ Authors need not create a learning program for the courses. Learning programs ar
 To create a course, follow the steps:
 
 1. Log in to Adobe Learning Manager as an author.
-1. Click **Create courses** in the getting-started page.  
+1. Click **[!UICONTROL Create courses]** in the getting-started page.  
    Basic Info page appears.
 
 1. Provide the basic information required for the course. Follow the instructions as per the static help available.
-1. Click **Add modules** to course and choose a module from the list of four modules: Provide the required basic information for each module and click **Done**.
+1. Click **[!UICONTROL Add modules]** to course and choose a module from the list of four modules: Provide the required basic information for each module and click **[!UICONTROL Done]**.
 
-Once you complete creating the course, click Save. Your course is saved as draft, by default. Click **Publish** to publish your course.
+Once you complete creating the course, click Save. Your course is saved as draft, by default. Click **[!UICONTROL Publish]** to publish your course.
 
 To make your course ready for publishing, you need to add course name, at least one module, enrollment type, competency, competency level, and credits.
 

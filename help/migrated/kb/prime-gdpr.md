@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Learning Manager compliance to GDPR
 description: Adobe Learning Manager compliance to GDPR
 contentowner: dvenkate
+exl-id: 8ea31464-b4ce-49e8-b471-5630f0216aa4
 ---
-
-
 # Learning Manager compliance to GDPR
 
 >[!IMPORTANT]
@@ -45,4 +44,3 @@ Learning Manager has built in the following tools and processes that will help y
 **Privacy by Design, Data Encryption:** We process data both in transit and at rest using best-in-class encryption standards to ensure data security. Encryption algorithms used are SHA-256. This ensures that any data that you store is adequately protected so that it does not fall into the wrong hands.
 
 +++
-

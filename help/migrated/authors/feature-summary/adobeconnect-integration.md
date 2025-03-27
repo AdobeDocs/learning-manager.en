@@ -2,9 +2,8 @@
 jcr-language: en_us
 title: Adobe Connect integration
 description: Authors can create virtual classroom courses with Adobe Connect during course creation process. To enable Adobe Connect for your Learning Manager account, you need to contact the Administrator of your organization.
+exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
 ---
-
-
 # Adobe Connect integration
 
 Authors can create virtual classroom courses with Adobe Connect during course creation process. To enable Adobe Connect for your Learning Manager account, you need to contact the Administrator of your organization. 
@@ -30,7 +29,7 @@ Authors can create virtual classroom courses with Adobe Connect during course cr
    *Select the instructor from the list*
 
 1. Provide completion criteria for the VC course. Completion criteria is the percentage of total duration of the course a learner has to attend in order to be considered as course complete. For example, say, the duration of course is 1 hour. If you provide 50% as completion criteria, then if a learner attends the course even for 30 minutes, it is considered as course complete for the learner.
-1. Click **Done**.
+1. Click **[!UICONTROL Done]**.
 
 ## Shared templates of Adobe Connect {#sharedtemplatesofadobeconnect}
 

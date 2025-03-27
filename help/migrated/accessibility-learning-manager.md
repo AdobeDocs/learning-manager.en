@@ -4,9 +4,8 @@ title: Accessibility in Adobe Learning Manager
 description: This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
 contentowner: saghosh
 preview: true
+exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
 ---
-
-
 # Accessibility in Adobe Learning Manager
 
 This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
@@ -29,9 +28,9 @@ Here is the screen reader and browser combination that we support on desktop:
 <table> 
  <tbody>
   <tr> 
-   <td><p style="text-align: left;">Operating System</p></td> 
-   <td><p style="text-align: left;">Browser</p></td> 
-   <td><p style="text-align: left;">Screen reader</p></td> 
+   <td><p style="text-align: left;"><b>Operating System</b></p></td> 
+   <td><p style="text-align: left;"><b>Browser</b></p></td> 
+   <td><p style="text-align: left;"><b>Screen reader</b></p></td> 
   </tr> 
   <tr> 
    <td><p>Windows</p></td> 
@@ -70,9 +69,9 @@ In addition, Learning Manager supports the following keyboard shortcuts:
 <table> 
  <tbody>
   <tr> 
-   <td><p>Feature</p></td> 
-   <td><p>Windows</p></td> 
-   <td><p>macOS</p></td> 
+   <td><p><b>Feature</b></p></td> 
+   <td><p><b>Windows</b></p></td> 
+   <td><p><b>macOS</b></p></td> 
   </tr> 
   <tr> 
    <td><p>Skip navigation</p></td> 
@@ -112,9 +111,9 @@ In addition, Learning Manager supports the following keyboard shortcuts:
 <table> 
  <tbody>
   <tr> 
-   <td><p>Feature</p></td> 
-   <td><p>Windows</p></td> 
-   <td><p>macOS</p></td> 
+   <td><p><b>Feature</b></p></td> 
+   <td><p><b>Windows</b></p></td> 
+   <td><p><b>macOS</b></p></td> 
   </tr> 
   <tr> 
    <td><p>Play/pause</p></td> 
@@ -145,8 +144,8 @@ The Learning Manager Learner role supports several other accessibility features 
 
 For more information, see:
 
-* [Accessibility Conformance Report for a learner](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [Accessibility Conformance Report for all roles](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [Accessibility Conformance Report for a learner](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [Accessibility Conformance Report for all roles](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Learning Manager Top workflows (Learner role) {#captivateprimetopworkflowslearnerrole}
 

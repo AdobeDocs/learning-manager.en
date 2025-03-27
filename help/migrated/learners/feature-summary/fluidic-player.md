@@ -3,9 +3,8 @@ description: Read this article to know how to use the Fluidic Player for courses
 jcr-language: en_us
 title: Fluidic player
 contentowner: manochan
+exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
 ---
-
-
 # Fluidic player
 
 Read this article to know how to use the Fluidic Player for courses.
@@ -55,4 +54,10 @@ Fluidic player is a platform for learners to consume content with uninterrupted 
 
 After exiting from the course, you can revisit the course by clicking the **Revisit** / **Continue** button on the course description page.
 
-The fluidic player can also be embedded in an external website or application using the Learning Manager API. 
+The fluidic player can also be embedded in an external website or application using the Learning Manager API.
+
+The mobile fluidic player has the following functions:
+
+* Touching or tapping the screen should not pause the player. Instead, it should bring up the player navigation bar. 
+* If the navigation bar is not interacted with, it will disappear after 3 seconds.
+* The navigation bar will stay active until the navigation menu items (TOC, Notes, Settings) are closed.

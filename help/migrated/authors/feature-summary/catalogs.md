@@ -1,11 +1,10 @@
 ---
-description: Catalogs in Learning Manager consists of the courses, learning programs and certifications for learner role in Learning Manager account. 
+description: Catalogs in Learning Manager consists of the courses, learning programs and certifications for learner role in Learning Manager account.
 jcr-language: en_us
 title: Catalogs
 contentowner: manochan
+exl-id: 35ff170f-fee6-4d28-8238-1a53568d99b3
 ---
-
-
 # Catalogs
 
 Catalogs in Learning Manager consists of the courses, learning programs and certifications for learner role in Learning Manager account.
@@ -44,4 +43,4 @@ Use the filter options as shown in the snapshot below to locate the courses in t
 
 1. Provide completion criteria for the VC course. Completion criteria is the percentage of total duration of the course a learner has to attend in order to be considered as course complete. For example, say, the duration of course is 1 hour. If you provide 50% as completion criteria, then if a learner attends the course even for 30 minutes, it is considered as course complete for the learner.
 
-1. Click **Done**.
+1. Click **[!UICONTROL Done]**.

@@ -3,26 +3,34 @@ jcr-language: en_us
 title: Catalogs
 description: Catalogs are a collection of learning - Courses, Learning Programs, and Certifications. Use Catalogs to provide Learners with access to a customized set of learning. You can associate learning with a Catalog during the creation of a new Catalog.
 contentowner: manochan
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
 ---
-
-
 # Catalogs
 
 Catalogs are a collection of learning - Courses, Learning Programs, and Certifications. Use Catalogs to provide Learners with access to a customized set of learning. You can associate learning with a Catalog during the creation of a new Catalog.
 
 As an administrator, you can create custom catalogs, if you want to make selective courses available for different learners in your account or across accounts.
 
+## Introduction to Catalogs
+
+In this training, you will learn how to create and manage catalogs.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QTV3NXVQ&mv=display&mv2=display#/course/8318922)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
+
 ## Create a catalog {#createacatalog}
 
 To create a catalog, perform the following steps:
 
 1. As an Admin, on the left pane, click Catalogs. On this page, there is a default catalog, which is automatically created when you create a Learning Manager account. And by default, all the learning objects in this catalog are shared with all the learners. 
-1. To create a catalog, on the upper-right corner of the page, click **Create**. Optionally, you can also click **Create Catalog**, which is located below the list of catalogs.
-1. On the **Create Catalog** page, enter the name and description of the catalog that you want to create.
+1. To create a catalog, on the upper-right corner of the page, click **[!UICONTROL Create]**. Optionally, you can also click **[!UICONTROL Create Catalog]**, which is located below the list of catalogs.
+1. On the **[!UICONTROL Create Catalog]** page, enter the name and description of the catalog that you want to create.
 
    ![](assets/create-catalog.png)
 
-   To proceed, click **Next**.
+   To proceed, click **[!UICONTROL Next]**.
 
    The thumbnails can only be viewed in the Immersive UI, not in the Classic UI.
 
@@ -42,47 +50,56 @@ To create a catalog, perform the following steps:
    *Create a catalog*
 
    You can add multiple courses to the catalog.
+1. You can filter the courses by skills, roles, and language. The selected course will be recommended to learners interested in those skills and roles. 
+
+   * **[!UICONTROL Skills]**: Skill filters allow users to find courses that focus on particular skills.
+   * **[!UICONTROL Roles]**: Role filters help users to access courses tailored to the responsibilities and requirements of different roles.
+   * **[!UICONTROL Language]**: Language filters assist users in selecting courses available in their preferred or required language
 
 1. Save the changes. Go back to the list of catalogs and click the new catalog in the list.
-1. In the page for the new catalog, on the left pane, click **Content**.
+1. In the page for the new catalog, on the left pane, click **[!UICONTROL Content]**.
 
    ![](assets/click-content-inthecatalog.png)
 
    *Select a course to add to the catalog*
 
-   The course that you have added appears in the **Courses** tab.
+   The course that you have added appears in the **[!UICONTROL Courses]** tab.
 
 ## Add a Learning Program to the catalog {#lp}
 
 1. From the list of Learning Programs, choose a Learning Program that you want to add to the catalog.
 1. Save the changes. Go back to the list of catalogs and click the new catalog in the list.
-1. In the page for the new catalog, on the left pane, click **Content**.
+1. In the page for the new catalog, on the left pane, click **[!UICONTROL Content]**.
 
-   The Learning Program that you have added appears in the **Learning Programs** tab.
+   The Learning Program that you have added appears in the **[!UICONTROL Learning Programs]** tab.
 
 ## Add a certification to the catalog {#cert}
 
 1. From the list of Certifications, choose a Certification that you want to add to the catalog.
 1. Save the changes. Go back to the list of catalogs and click the new catalog in the list.
-1. In the page for the new catalog, on the left pane, click **Content**.
+1. In the page for the new catalog, on the left pane, click **[!UICONTROL Content]**.
 
-   The  Certification that you have added appears in the **Certifications** tab.
+   The  Certification that you have added appears in the **[!UICONTROL Certifications]** tab.
 
 ## Add a Job Aid to the catalog {#job}
 
 1. From the list of Job Aids, choose a Job Aid that you want to add to the catalog.
 1. Save the changes. Go back to the list of catalogs and click the new catalog in the list.
-1. In the page for the new catalog, on the left pane, click **Content**.
+1. In the page for the new catalog, on the left pane, click **[!UICONTROL Content]**.
 
-   The  Job Aid that you have added appears in the **Job Aids** tab.
+   The  Job Aid that you have added appears in the **[!UICONTROL Job Aids]** tab.
 
 The content appears in each of these tabs if it is already available in the account. Otherwise, you need to create the content first. For example, if you have not added any of the courses or learning programs already in Learning Manager application, then you have to start creating them first. 
+
+## Bulk removal of courses, learning paths, or job aids
+
+Admins or custom admins can remove courses, learning paths, or job aids in bulk. Go to **[!UICONTROL Catalogs]** and select a catalog. On the **[!UICONTROL Content]** page, select **[!UICONTROL Edit Content]**. Then, select the **[!UICONTROL Remove]** option next to the courses, learning paths, or job aids, and select **[!UICONTROL Save]**.
 
 ## Deep link to catalog for learners {#deep-link}
 
 An Admin can generate a deep link for a catalog that can take the learners to the specific catalog page.
 
-On the **Catalogs** page, mouse over on the catalog that you the deep link for and click the highlighted icon.
+On the **[!UICONTROL Catalogs]** page, mouse over on the catalog that you the deep link for and click the highlighted icon.
 
 ![](assets/catalog-deep-link.png)
 
@@ -94,21 +111,21 @@ Once you create a catalog and add Learning Objects to it, to make the catalog vi
 
 To enable the catalog, 
 
-1. In the list of catalogs, toggle the option near the catalog that you want to enable. Alternatively, you can select the check-box near the catalog, click **Actions** on the upper-right corner, and click **Enable**.
+1. In the list of catalogs, toggle the option near the catalog that you want to enable. Alternatively, you can select the check-box near the catalog, click **[!UICONTROL Actions]** on the upper-right corner, and click **[!UICONTROL Enable]**.
 
-1. You can also enable multiple catalogs in the list. Select the catalogs, and from the **Action** menu, choose the option **Enable**.
+1. You can also enable multiple catalogs in the list. Select the catalogs, and from the **[!UICONTROL Action]** menu, choose the option **[!UICONTROL Enable]**.
 
 ## Disable the catalog {#disablethecatalog}
 
 To disable a catalog, toggle off the option near the catalog.
 
-Alternatively, you can select the check-box near the catalog, click Actions on the upper-right corner, and click **Disable**.
+Alternatively, you can select the check-box near the catalog, click Actions on the upper-right corner, and click **[!UICONTROL Disable]**.
 
-You can also disable multiple catalogs in the list. Select the catalogs, and from the Action menu, choose the option **Disable**.
+You can also disable multiple catalogs in the list. Select the catalogs, and from the Action menu, choose the option **[!UICONTROL Disable]**.
 
 ## Delete the catalog {#deletethecatalog}
 
-To delete a catalog, select a catalog in the list. Either click the Delete button near the catalog or click **Actions** > **Delete**.
+To delete a catalog, select a catalog in the list. Either click the Delete button near the catalog or click **[!UICONTROL Actions]** > **[!UICONTROL Delete]**.
 
 You can also delete multiple catalogs.
 
@@ -118,15 +135,23 @@ An Administrator can share the catalogs with internal users of an organization o
 
 Courses, Learning programs, Job Aids, and certifications are the supported learning objects in a catalog that you want to share.
 
+### Share Catalogs
+
+This training will teach you how to share catalogs with internal user groups and external Adobe Learning Manager accounts.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PGRQQ9SP&mv=display&mv2=display#/course/8318924)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ## Share the catalog internally {#int}
 
 Choose a catalog that you want to share internally. 
 
-In the left pane, click **Share Internally**.
+In the left pane, click **[!UICONTROL Share Internally]**.
 
 If there are no groups present, you must add an internal user group. 
 
-To add an internal user group, click **Add User Groups**.
+To add an internal user group, click **[!UICONTROL Add User Groups]**.
 
 ![](assets/internal-usergroups.png)
 
@@ -136,13 +161,13 @@ There is no option available to enable/disable a shared user group. To disable, 
 
 ## Share the catalog externally {#ext}
 
-In Catalogs page, click the catalog you want to share. In the left panel click **Share Externally**.
+In Catalogs page, click the catalog you want to share. In the left panel click **[!UICONTROL Share Externally]**.
 
 ![](assets/shared-catalog-external.png)
 
 *Share a catalog externally*
 
-Enter the subdomain associated with your Learning Manager account. Click **How to get subdomain?** to learn about the subdomain usage. You can also click **Branding** on the left pane in Administrator home page to view the subdomain associated with your organization account.
+Enter the subdomain associated with your Learning Manager account. Click **[!UICONTROL How to get subdomain?]** to learn about the subdomain usage. You can also click **[!UICONTROL Branding]** on the left pane in Administrator home page to view the subdomain associated with your organization account.
 
 **Enrollments limit**
 
@@ -150,9 +175,9 @@ You can set the limit for number of enrollments per course on the shared catalog
 
 **Expiry**
 
-You can set the validity of the shared catalog by setting up an expiry date in **Expiry **field. After the expiry date of shared catalog, enrollments are not allowed for courses. Existing learners can still have access to the content. Learning objects are retired but the badges and skills are active. At this state, the shared catalog receiver cannot un-retire the retired learning objects. 
+You can set the validity of the shared catalog by setting up an expiry date in **[!UICONTROL Expiry]** field. After the expiry date of shared catalog, enrollments are not allowed for courses. Existing learners can still have access to the content. Learning objects are retired but the badges and skills are active. At this state, the shared catalog receiver cannot un-retire the retired learning objects. 
 
-Click **Save** after adding all the required information. Click **Actions** drop-down at the upper-right corner of the page and click **Share** to share the catalog with external accounts. 
+Click **[!UICONTROL Save]** after adding all the required information. Click **[!UICONTROL Actions]** drop-down at the upper-right corner of the page and click **[!UICONTROL Share]** to share the catalog with external accounts. 
 
 The catalogs owned by the sharing account holder are only allowed to be shared with external accounts. You cannot share the catalogs that are already shared by other accounts to you. 
 
@@ -164,13 +189,13 @@ The learning objects with open/active state for enrollment are only added to sha
 
 **Unshare catalogs**
 
-Unsharing a catalog is to disable an external account in the application. To unshare a catalog, click **Actions** at the upper-right corner of the page and click **Unshare**. You can Unshare a catalog anytime. When a catalog is unshared, all the learning objects in that shared catalog moves into retired state. The disabled catalogs appear as retired in receiver's application. 
+Unsharing a catalog is to disable an external account in the application. To unshare a catalog, click **[!UICONTROL Actions]** at the upper-right corner of the page and click **[!UICONTROL Unshare]**. You can Unshare a catalog anytime. When a catalog is unshared, all the learning objects in that shared catalog moves into retired state. The disabled catalogs appear as retired in receiver's application. 
 
 You can remove an external account from a shared list only before the receiver accepts the request. 
 
 **Delete catalogs**
 
-To delete a shared catalog, click **Actions** drop-down and click **Delete**. 
+To delete a shared catalog, click **[!UICONTROL Actions]** drop-down and click **[!UICONTROL Delete]**. 
 
 * You cannot share a default catalog with external accounts. 
 * You cannot delete a catalog that has been shared externally by you. 
@@ -192,37 +217,37 @@ Any modifications performed for learning objects at the owner application are ca
    <td>
     <p><strong>Course</strong></p></td>
    <td>
-    <p>name, description and other fields on Course object except gamification points, badgeId</p></td>
+    <p>Name, description and other fields on Course object except gamification points, badgeId</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Learning program</strong></p></td>
    <td>
-    <p>name, description and other fields on LP object except badgeId, retiring</p></td>
+    <p>Name, description and other fields on LP object except badgeId, retiring</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Certification</strong></p></td>
    <td>
-    <p>all properties of certification object except badgeId, retiring of certification</p></td>
+    <p>All properties of certification object except badgeId, retiring of certification</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Badge</strong></p></td>
    <td>
-    <p>name and retiring of badge</p></td>
+    <p>Name and retiring of badge</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Category </strong></p></td>
    <td>
-    <p>name, description, color and retiring of category, addition of new level</p></td>
+    <p>Name, description, color and retiring of category, addition of new level</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Job-Aid</strong></p></td>
    <td>
-    <p>all properties of jobAid object</p></td>
+    <p>All properties of jobAid object</p></td>
   </tr>
   <tr>
    <td>
@@ -288,10 +313,10 @@ To share the catalog internally or externally, see the sections below:
 
 Catalogs can be shared with Learners inside your organization by using the User Groups. To allow learner or learners view the catalogs they are a part of, follow the steps below:
 
-1. Open a catalog and click **Share Internally**.
-1. To add learners, on the upper-right corner of the page, click **Add**.
-1. On the **User Groups** dialog, start adding learners.
-1. Click **Save**.
+1. Open a catalog and click **[!UICONTROL Share Internally]**.
+1. To add learners, on the upper-right corner of the page, click **[!UICONTROL Add]**.
+1. On the **[!UICONTROL User Groups]** dialog, start adding learners.
+1. Click **[!UICONTROL Save]**.
 
 When a learner logs in to Learning Manager, he/she has view the Catalogs that were shared with him/her. 
 
@@ -306,9 +331,9 @@ Once you have created catalog labels, you can apply them to specific catalogs by
 1. Open Catalogs from the left pane.
 1. Select the Catalog and apply to the label.
 1. Open Catalog labels from the left pane.
-1. Click **Edit** on the upper-right corner. The page shows the list of available Catalog Labels.
-1. To add a label to the Catalog, click **Add to Catalog**.
-1. To remove existing labels added to a Catalog, click **Remove**.
+1. Click **[!UICONTROL Edit]** on the upper-right corner. The page shows the list of available Catalog Labels.
+1. To add a label to the Catalog, click **[!UICONTROL Add to Catalog]**.
+1. To remove existing labels added to a Catalog, click **[!UICONTROL Remove]**.
 
 +++
 
@@ -325,4 +350,3 @@ Once you have created catalog labels, you can apply them to specific catalogs by
 Disable the default catalog and enable only the catalog that was created and granted access to external users.
 
 +++
-

@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Support for custom domain
 description: Custom Domains are not supported in an Azure instance of Learning Manager.
 contentowner: saghosh
+exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
 ---
-
-
 # Support for custom domain
 
 Custom Domains are not supported in an Azure instance of Learning Manager.

@@ -2,9 +2,8 @@
 jcr-language: en_us
 title: Announcements
 description: An announcement is a multimedia message (text, image or video) that an Administrator broadcasts to a defined set of users.
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
 ---
-
-
 # Announcements
 
 An announcement is a multimedia message (text, image or video) that an Administrator broadcasts to a defined set of users.
@@ -23,6 +22,11 @@ There are four types of announcements:
 1. As an Administrator user, click Announcements at the left pane.
 1. Click Add at the upper-right corner of the page.
 1. From the Type drop-down list, select the option **As Notification**.
+
+![](assets/as-notofocation.png)
+
+*Customize the notification*
+
 1. In the Message field, add the message for the announcement. You can also add a URL for announcements here. However, you must add the URL in the HTML form. 
 
    For example,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
@@ -39,8 +43,8 @@ There are four types of announcements:
    * Make this announcement a sticky announcement by selecting the Enable Sticky Announcement checkbox.
    * Select the delivery time for the announcement.
 
-1. Choose **On a date** if you want to schedule announcement for a later date and click the text area adjacent to it. A calendar pop-up appears, from which you can choose the start date. Choose the end date by following the same steps.
-1. Click **Save**.
+1. Select **[!UICONTROL On a date]** if you want to schedule announcement for a later date and click the text area adjacent to it. A calendar pop-up appears, from which you can choose the start date. Choose the end date by following the same steps.
+1. Click **[!UICONTROL Save]**.
 1. In Drafts tab, click settings icon  adjacent to an announcement and click send.
 
 If the multimedia attachment is of large size, it may take time to upload. After you click Save, you would receive a pop-up with a message as your upload is being processed. You will receive a notification after the attachment is uploaded successfully.
@@ -49,26 +53,32 @@ If the multimedia attachment is of large size, it may take time to upload. After
 
 When you choose this option, any media file that you choose features as a masthead on the Learner homepage. The masthead acts as a call to action for the learners it is intended for.
 
-![](assets/masthead-announcement.png)
+Admins can add alt text for all mastheads to improve accessibility for learners. This allows learners with special needs to use screen readers to read the alt text and understand the image. You can select multiple languages and provide alt text for each language. Make sure to add the alt text in the respective languages.
 
-*Customize the masthead*
+To add the masthead, follow these steps:
 
-1. Browse and choose an image that will represent the masthead. The recommended size is 1280 x 360 px.
-1. Choose the locale to which you want to add a masthead. For each language, you must choose a masthead asset.
-1. In the **Action Button** field, add a url so that when learners click the button on the masthead, they are redirected to the url. This is an optional field.
-1. Choose the target user groups or the target learning objects. You can choose only one of them for an announcement.
+1. Log in as an **[!UICONTROL Admin]**.
+2. Select **[!UICONTROL Announcements]** > **[!UICONTROL Add]**.
+3. Select **[!UICONTROL As Masthead]** from the Type dropdown menu.
+ 
+   ![](assets/announcement.png)
+   _Create an announcement_
 
-   Start typing the user group name in the text box and choose from the drop-down list. Similarly, choose the training by typing the object name in the text-box.
+4. Select the language and upload the image.
 
-1. In the **Advanced Settings** section, you have the following options:
+   >[!NOTE]
+   >
+   >You can select multiple languages and provide alt text for each language. Make sure to add the alt text in the respective languages.
 
-   * Click **Immediately** if you want the announcement to be posted right then.
-   * Click **Never** if you do not want your announcement to expire.
-   * Select the **Start** and **End** dates for the announcement.
+5. Enter the suitable text in the **[!UICONTROL Alt Text]** field.
+6. In the **[!UICONTROL Action Button]** field, add a URL to redirect learners when they click the button on the masthead.
+7. Select the target user groups or the target learning objects. You can choose only one of them for an announcement.
+8. In the **[!UICONTROL Advanced Settings]** section, you have the following options:
 
-   ![](assets/advanced-settings.png)
-
-   *Set time for a masthead to display*
+   * Select **[!UICONTROL Immediately]** if you want the announcement to be posted right then.
+   * Select **[!UICONTROL Never]** if you do not want your announcement to expire.
+   * Select the **[!UICONTROL Start]** and **[!UICONTROL End]** dates for the announcement.
+9. Select Save and publish the announcement.
 
 **Is there a limit on the number of live Masthead Announcements?**
 
@@ -92,13 +102,13 @@ When you choose this option, any training that you choose gets recommended to sp
 
 1. In the Advanced Settings section, you have the following options:
 
-   * Click **Immediately** if you want the announcement to be posted right then.
-   * Click **Never** if you do not want your announcement to expire.
-   * Select the **Start** and **End** dates for the announcement.
+   * Click **[!UICONTROL Immediately]** if you want the announcement to be posted right then.
+   * Click **[!UICONTROL Never]** if you do not want your announcement to expire.
+   * Select the **[!UICONTROL Start]** and **[!UICONTROL End]** dates for the announcement.
 
    <!--![](assets/advanced-settings.png)-->
 
-When you click **Save**, you can either publish the announcement right away or publish it later. The announcement, till then, will be in a draft state.
+When you click **[!UICONTROL Save]**, you can either publish the announcement right away or publish it later. The announcement, till then, will be in a draft state.
 
 * Mastheads/Recommendations do not trigger any notifications.
 * Mastheads/Recommendations do not appear in announcements report.

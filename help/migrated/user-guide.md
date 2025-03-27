@@ -2,22 +2,15 @@
 title: Welcome to the Adobe Learning Manager User Guide
 description: Learn the latest offering in Adobe Learning Manager (previously Adobe Captivate Prime). Start at the beginning, visit each section individually, or connect with the Community to work your way through a project.
 contentowner: dhv
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
 ---
-
 # Welcome to the Adobe Learning Manager User Guide
 
 Read on to know what is the latest offering in Adobe Learning Manager (previously Adobe Captivate Prime). Start at the beginning, visit each section individually, or connect with the Community to work your way through a project. 
 
 ## Join the conversation {#jointheconversation}
 
-<table>
- <tbody>
-  <tr> 
-   <td><img src="assets/community.png"></td> 
-   <td><p>Visit the <a disablelinktracking="false" href="https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all">Adobe Learning Manager User Community</a> to be inspired and get answers to top questions.<br></p></td> 
-  </tr> 
- </tbody>
-</table>
+Visit the [Adobe Learning Manager User Community](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all) to be inspired and get answers to top questions.
 
 ## Popular topics {#populartopics}
 

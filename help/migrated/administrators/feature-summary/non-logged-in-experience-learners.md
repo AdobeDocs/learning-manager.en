@@ -1,6 +1,7 @@
 ---
 title: Non-logged in experience for learners
 description: Adobe Learning Manager native portal will support a non-logged way of accessing the training site. With this mode enabled, learners can discover and access the training site and check out various courses and content available. The non-logged in experience enables learners to browse courses without being logged in to a portal.
+exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
 ---
 # Non-logged in experience for learners
 
@@ -18,17 +19,33 @@ The training can then be exported from the connector.
 
 The Administrator can modify and configure the homepage, which is meant for non-logged in users.
 
+## Learner APIs
+
+Adobe Learning Manager - Learner APIs allow you to create a custom learning experience for your users. The usage of these APIs need a valid user token and are to be used only for the purpose of workflows where there is a fully licensed/registered Learner.
+ 
+>[!IMPORTANT]
+>
+>They are not to be used, as is, for any sort of data retrieval to support any non-logged in user/shared users or any other such cases. For building a headless or AEM based non logged in experience, please contact us. We will suggest the right approach based on your requirement.
+ 
+The non-logged in use cases require special handling. 
+
+**Reach out to the Solution Architecture team, in case you have any questions on the appropriate use of these APIs and ensure that a Solution Architect has vetted a solution before you deploy it**.
+
 ## Launch the homepage options
 
-On the Adobe Learning Manager homepage, select Branding. Then, on the left pane, select Non-logged in Homepage.
+On the Adobe Learning Manager homepage, select **Branding**. Then, on the left pane, select Non-logged in Homepage.
 
 ![homepage options](assets/non-logged-in-homepage.png)
 
+*Select the option Non-logged in Homepage*
+
 ## Add a banner
 
-Add a banner for any marketing announcement or feature the trending topic of the day. Select Add banner.
+Add a banner for any marketing announcement or feature the trending topic of the day. Select **Add banner**.
 
 ![banner](assets/add-banner-image.png)
+
+*Add a banner*
 
 Browse to the location of the image to be used as the banner. Then provide a link as an action button on the banner image. 
 
@@ -40,6 +57,8 @@ Select **[!UICONTROL Add category]**. Then enter the details for the category.
 
 ![add category](assets/add-category.png)
 
+*Add the categories*
+
 Save the category. The category is added to the section.
 
 ## Add a catalog
@@ -47,6 +66,8 @@ Save the category. The category is added to the section.
 Add a catalog for non-logged in users so that they can browse all the training on the platform.
 
 ![add catalog](assets/add-catalog.png)
+
+*Add a catalog*
 
 All exported training will be present.
 
@@ -61,3 +82,4 @@ All exported training will be present.
 * Learner app view that is shown catalog-wise. 
 * Training overview pages - Clicking on the card redirects to Sign Up, after which a user is redirected to the training overview page / instance page.
 * All enabled catalogs will be present. Any learner not having access to a catalog is unable to see the catalog and training in it after logging in.
+* For the native option, changes to a course or learning path will only be reflected after 24 hours instead of in real time, while for the premium offering, they will be reflected after a minimum of 3 hours.

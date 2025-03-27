@@ -1,11 +1,10 @@
 ---
-description: The events in your training activity trigger emails that are sent to learners. You as an administrator can easily enable, disable, or modify these email templates. 
+description: The events in your training activity trigger emails that are sent to learners. You as an administrator can easily enable, disable, or modify these email templates.
 jcr-language: en_us
 title: Email templates
 contentowner: manochan
+exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
 ---
-
-
 # Email templates
 
 The events in your training activity trigger emails that are sent to learners. You as an administrator can easily enable, disable, or modify these email templates.
@@ -16,11 +15,21 @@ As an administrator, you can customize email templates by adding or modifying co
 
 Administrators can also choose not to send email notifications for certain events.
 
+## Introduction to email templates
+
+In this training, you will learn how to customize individual email templates and customize course-level and account-level settings for email templates.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QYL4NT4P&mv=display&mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ## Configure email templates {#configureemailtemplates}
 
 You as an administrator can easily enable, disable, or modify these email templates.
 
-1. To access the templates, click **Email Templates** on the left pane. On this page you can see three different categories of templates, **General**, **Learning Activity**, and **Reminders and Updates**. There is a fourth tab, **Settings**, where you can configure the templates.
+1. To access the templates, click **[!UICONTROL Email Templates]** on the left pane. On this page you can see three different categories of templates, **[!UICONTROL General]**, **[!UICONTROL Learning Activity]**, and **[!UICONTROL Reminders and Updates]**. There is a fourth tab, **[!UICONTROL Settings]**, where you can configure the templates.
 
    ![](assets/categories-of-emailtemplates.png)
 
@@ -48,20 +57,20 @@ You as an administrator can easily enable, disable, or modify these email templa
 
    *Modify the email template*
 
-   You can reset the body of the message to the default content by clicking the link **Revert to Original** above the template.
+   You can reset the body of the message to the default content by clicking the link **[!UICONTROL Revert to Original]** above the template.
 
 1. To confirm the changes applied to this template, click save. Now users can receive email notifications using the modified email template.
 
 ## Customize settings of an email template {#customizesettingsofanemailtemplate}
 
-1. To open the settings page, click **Settings**. You can now customize your email templates.
-1. To customize the name and email id from which the learners receive emails, edit the **Sender Name and Address.**
+1. To open the settings page, click **[!UICONTROL Settings]**. You can now customize your email templates.
+1. To customize the name and email id from which the learners receive emails, edit the **[!UICONTROL Sender Name and Address].**
 
    Contact [***Adobe Support***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) to configure or change these details.
 
-1. Customize your email banner from the **Email Banner** option. Change the color of the banner by selecting **Banner Background**.
+1. Customize your email banner from the **[!UICONTROL Email Banner]** option. Change the color of the banner by selecting **[!UICONTROL Banner Background]**.
 
-   You can use a custom image as banner by selecting the **Custom Image** option. Click **Save** after making the changes.
+   You can use a custom image as banner by selecting the **[!UICONTROL Custom Image]** option. Click **[!UICONTROL Save]** after making the changes.
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
@@ -69,39 +78,39 @@ You as an administrator can easily enable, disable, or modify these email templa
 
    The custom image size has to be 1240x200px and support .jpg, .jpeg and .png.
 
-1. Edit your email signature by clicking **Edit**. Make the necessary changes and save the change.
+1. Edit your email signature by clicking **[!UICONTROL Edit]**. Make the necessary changes and save the change.
 
    ![](assets/customize-email-signature.png)
 
    *Customize your email signature*
 
-1. Edit your account URL by clicking Edit on the option **Account URL**. 
+1. Edit your account URL by clicking Edit on the option **[!UICONTROL Account URL]**. 
 
-   The account URL link is shown in all emails, just before the signature. Enter the required URL and click **Save**. Note that this URL is only be visible to internal users.
+   The account URL link is shown in all emails, just before the signature. Enter the required URL and click **[!UICONTROL Save]**. Note that this URL is only be visible to internal users.
 
    ![](assets/customize-accounturl.png)
 
    *Customize the account URL*
 
-1. Configure whether managers must also receive emails that are sent to their direct reports using the check box under **Optional Manager Email** option.
+1. Configure whether managers must also receive emails that are sent to their direct reports using the check box under **[!UICONTROL Optional Manager Email]** option.
 
 ## Set frequency of digest emails {#setfrequencyofdigestemails}
 
-On the **Email templates** > **Settings** page, the Admin can change the frequency of Digest Emails to be sent to learners.
+On the **[!UICONTROL Email templates]** > **[!UICONTROL Settings]** page, the Admin can change the frequency of Digest Emails to be sent to learners.
 
-In the **Digest Email Settings** section, click **Edit**.
+In the **[!UICONTROL Digest Email Settings]** section, click **[!UICONTROL Edit]**.
 
-In the drop-down, choose either **Biweekly** or **Monthly**.
+In the drop-down, choose either **[!UICONTROL Biweekly]** or **[!UICONTROL Monthly]**.
 
-* **Biweekly:** If you set the frequency to **Biweekly**, learners receive the email once every two weeks.
+* **[!UICONTROL Biweekly]:** If you set the frequency to **[!UICONTROL Biweekly]**, learners receive the email once every two weeks.
 
-* **Monthly:** If you set the frequency to **Monthly**, learners receive the email once every month.
+* **[!UICONTROL Monthly]:** If you set the frequency to **[!UICONTROL Monthly]**, learners receive the email once every month.
 
 ![](assets/digest-email-settings.png)
 
 *Set frequency of digest emails*
 
-When you enable this option, the frequency is set to **Biweekly** for existing/new active accounts by default.
+When you enable this option, the frequency is set to **[!UICONTROL Biweekly]** for existing/new active accounts by default.
 
 ### DND list of learners
 
@@ -141,7 +150,7 @@ The following samples represent the mail that a learner receives.
 
 ### Download email access report
 
-You can download the email access report by clicking the **Download** button. This report contains the number of users who have received the email, and the number of users who've opened and clicked on the links.
+You can download the email access report by clicking the **[!UICONTROL Download]** button. This report contains the number of users who have received the email, and the number of users who've opened and clicked on the links.
 
 ## Customize email domain {#customizeemaildomain}
 
@@ -153,7 +162,7 @@ Your request would be processed and an email with confirmation link would be sen
 
 As an Administrator, you can select users who can receive emails from Learning Manager and who cannot.
 
-You can perform this by using the **Do Not Disturb** option under the **Settings** tab. Users can be added to this list using their name, email id, or unique user id.
+You can perform this by using the **[!UICONTROL Do Not Disturb]** option under the **[!UICONTROL Settings]** tab. Users can be added to this list using their name, email id, or unique user id.
 
 Search for a user to add to the list.
 
@@ -204,6 +213,14 @@ You can also customize the following:
 
 The templates also support advanced editing capabilities such that formatting is retained when content is copied and pasted from and to Microsoft Word.
 
+### Set up instances
+
+In this training, you will learn how to set up instance defaults, add a new instance, retire and reopen an instance, and configure email templates for an instance.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=P3KMQNZS&mv=display&mv2=display#/course/8318911)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ## Inline invitations {#inlineinvitations}
 
 Learning Manager users will now receive inline email invites. ICS attachments are no longer used to send invitations. Any changes in the invite will automatically reflect in your calendar.
@@ -221,9 +238,9 @@ At present, in Learning Manager, it is not possible to disable **Help** in email
 +++How to modify email templates?
 
 1. As an Administrator, log in to your Learning Manager account.
-1. On the left panel, click **Email Templates** and select the e-mail template that you want to modify.
+1. On the left panel, click **[!UICONTROL Email Templates]** and select the e-mail template that you want to modify.
 1. To customize each template, click the text in the body of the template. You can insert variables in the text by clicking the appropriate icons as shown in the snapshot. Mouse over each icon to view the names and apply it to the template.
-1. After making changes to the template, click **Save**.   
+1. After making changes to the template, click **[!UICONTROL Save]**.   
     
 
 +++

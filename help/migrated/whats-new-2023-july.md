@@ -2,6 +2,7 @@
 title: What's new in this release (July 2023)
 description: Learn about the new features and enhancements in Adobe Learning Manager
 hidefromtoc: yes
+exl-id: c6f192b6-f377-47b2-9151-516ac8179543
 ---
 # What's new in this release (July 2023)
 
@@ -141,7 +142,7 @@ With the next major release, Adobe Learning Manager mobile app will support only
 
 LinkedIn content does not load as expected on the Immersive app on the Safari browser. As a workaround, do the following:
 
-1. On the device, select **Settings** > **Safari**.
+1. On the device, select **[!UICONTROL Settings]** > **[!UICONTROL Safari]**.
 1. Disable **Prevent Cross-Site Tracking**.
 1. Disable **Block all cookies**.
 1. Log in to the Immersive app.
@@ -524,7 +525,12 @@ Stemming is the process of reducing a word to its root form. This ensures varian
 
 In this release, we've added stemming for English locales, which includes the following variants - en_US, en_AU, en_GB. 
 
-The stemmed attribute mentions if stemming is required in search results. This is by default set to False
+The stemmed attribute mentions if stemming is required in search results. This is by default set to False.
+
+API Query parameters:
+
+* matchType=phrase_and_match
+* stemmed=true
 
 ### Removal of V1 endpoints
 

@@ -3,8 +3,8 @@ description: Adobe Learning Manager App for Microsoft Teams
 jcr-language: en_us
 title: Adobe Learning Manager App for Microsoft Teams
 contentowner: saghosh
+exl-id: 70c687ac-0ca6-4bc1-8c86-76943aeaf3e5
 ---
-
 # Adobe Learning Manager App for Microsoft Teams
 
 ## How to set up
@@ -27,7 +27,7 @@ The MS Teams Admin in their Admin Center should pin the ALM app for all their us
 
 Follow the steps below: 
 
-1. On the Integration Administrator app, select **[!UICONTROL Applications] > **[!UICONTROL Featured Apps]**, and select **[!UICONTROL ALM Teams app]**. 
+1. On the Integration Administrator app, select **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**, and select **[!UICONTROL ALM Teams app]**.
 
    ![](assets/featuredapps.jpg)
    *Select ALM Teams app*
@@ -37,7 +37,7 @@ Follow the steps below:
    ![](assets/integration_admin_approval_form.jpg)
    *Select Approve on the app settings page*
 
-1. Select **[!UICONTROL OK]**on the dialog box that appears. 
+1. Select **[!UICONTROL OK]** on the dialog box that appears. 
 
    ![](assets/integration_admin_approved_dialog_box.jpg)
    *Select OK after approval*
@@ -96,7 +96,7 @@ Follow the steps below:
 
 ## MS Teams admin creates a policy for Teams app
 
-Follow the steps below: 
+Follow the steps below:
 
 1. As an MS Teams admin, in the Admin Center, create a policy for adding the Teams app to your learners' Teams app. 
 
@@ -115,4 +115,4 @@ Follow the steps below:
 
 1. Save this policy. This makes the app available to everyone in the organization. 
 
-Alternatively, admins can create a custom policy instead of a global policy. Add Adobe Learning Manager to that custom policy, and then apply the custom policy to only those set of users who need to access Adobe Learning Manager.   
+Alternatively, admins can create a custom policy instead of a global policy. Add Adobe Learning Manager to that custom policy, and then apply the custom policy to only those set of users who need to access Adobe Learning Manager.

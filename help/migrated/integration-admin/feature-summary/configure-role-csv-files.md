@@ -3,24 +3,26 @@ jcr-language: en_us
 title: Manage custom roles via CSV files
 description: The Integration admin can add number of custom roles to his/her account in bulk via CSV as well as can assign the same to various users. This approach automates the process of creation of custom roles.
 contentowner: saghosh
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
 ---
-
-
 # Manage custom roles via CSV files
 
 The Integration admin can add number of custom roles to his/her account in bulk via CSV as well as can assign the same to various users. This approach automates the process of creation of custom roles.
 
 You can configure roles via the Learning Manager FTP and Box connectors.
 
-After you sign in to your Box or ExaVault storage account, the Integration admin can add the following csvs in the account:
+After you sign in to your Box storage account, the Integration admin can add the following csvs in the account:
 
+* user.csv
 * role.csv
 * user_role.csv
 
 To get started, download the csvs and change the values according to your requirements.
 
+* Sample file: [role.csv](assets/role.csv) 
+* Sample file: [user_role.csv](assets/user_role.csv)
+
 **role.csv**
-[Sample file- role.csv](assets/role.csv) [Sample file- user_role.csv](assets/user-role.csv)
 
 <table>
  <tbody>
@@ -137,14 +139,14 @@ If any Catalog Names or User Group names are provided in the CSV, they are overr
 * Learning Plans
 * Email Templates
 
-## Add the role-CSVs in the account {#addtherolecsvsintheaccount}
+## Add the role CSVs in the account {#addtherolecsvsintheaccount}
 
 In your Box account, choose **Import > user > internal**, and upload the files- role.csv and user_role.csv.
 
-* The Custom Role CSVs must be copied in the folder "import->user->internal->user_role"
-* The Users CSV must be copied in the folder "import->user->internal"
+* The role.csv and user_role.csv must be copied in the folder **Import** > **user** > **internal** > **user_role**.
+* The user.csv must be copied in the folder **Import** > **user** > **internal**.
 
-Both the CSVs must be uploaded via Box or FTP only and cannot be uploaded through UI. 
+Both the CSVs must be uploaded via Box only and cannot be uploaded through UI. 
 
 >[!NOTE]
 >
@@ -162,17 +164,17 @@ To assign and revoke a custom role, update the csv files.
 
 After the Integration Admin uploads the role-based CSVs in the Connector storage, the Admin can enable synchronization to the CSVs. Each time a custom role is updated, added, or deleted in the CSVs, the Admin can synch the information in the files and make the list of roles current.
 
-On the Getting Started page on the Administrator panel, click **Settings > Data Sources**.
+On the Getting Started page on the Administrator panel, click **[!UICONTROL Settings]** > **[!UICONTROL Data Sources]**.
 
-In the Sync Settings section, enable the option **Enable Auto Sync**.
+In the Sync Settings section, enable the option **[!UICONTROL Enable Auto Sync]**.
 
 ![](assets/sync-settings.png)
 
-*Select the opton Enable Auto Sync*
+*Select the option Enable Auto Sync*
 
 When you choose this option, you can schedule the time for synchronization at the exact time that you specify in the Sync Time field. If you specify the sync time as 12:00 AM, the custom roles are updated at exactly the specified time every day.
 
-If you want to synchronize the data on demand, click **Sync Now**.
+If you want to synchronize the data on demand, click **[!UICONTROL Sync Now]**.
 
 ## Constraints while configuring roles {#constraintswhileconfiguringroles}
 

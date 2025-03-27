@@ -3,9 +3,8 @@ description: Learn how to use Social bookmark-let to instantly share a user's on
 jcr-language: en_us
 title: Share to Social Learning
 contentowner: kuppan
+exl-id: 5fb10b4a-b927-4466-9e0a-e33d5938416c
 ---
-
-
 # Share to Social Learning
 
 Learn how to use Social bookmark-let to instantly share a user's online learnings onto the social web.
@@ -20,7 +19,7 @@ Ensure that you allow pop-up windows in your browser.
 
 If you are logged into Learning Manager, then the bookmarklet automatically logs into your account, otherwise, you have to sign in using your Learning Manager credentials as a learner.
 
-Add a description for your post and then select the board in which you want to post to and click **Post**. The board is posted on your dashboard which can be viewed by clicking **Go to Post**.
+Add a description for your post and then select the board in which you want to post to and click **[!UICONTROL Post]**. The board is posted on your dashboard which can be viewed by clicking **Go to Post**.
 
 ## Add share to social bookmark-let to the bookmarks bar {#addsharetosocialbookmarklettothebookmarksbar}
 
@@ -52,7 +51,7 @@ Add a description for your post and then select the board in which you want to p
 ## Internet Explorer {#internetexplorer}
 
 * Right click the settings icon from the upper right corner of the browser. Or use **Alt + C** on keyboard for favorites bar window to open.
-* To make the favorites bar visible on the browser, click **Favorites bar**. 
+* To make the favorites bar visible on the browser, click **[!UICONTROL Favorites bar]**. 
 
 ## Microsoft Edge {#microsoftedge}
 

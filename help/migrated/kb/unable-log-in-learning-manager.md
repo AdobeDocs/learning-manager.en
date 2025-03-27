@@ -3,9 +3,8 @@ description: What to do when you're unable to log in to Learning Manager.
 jcr-language: en_us
 title: Unable to log in to Learning Manager
 contentowner: saghosh
+exl-id: 2c347758-1982-40ce-9ac6-4ae889497add
 ---
-
-
 # Unable to log in to Learning Manager
 
 ## Issue

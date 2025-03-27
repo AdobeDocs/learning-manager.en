@@ -1,21 +1,22 @@
 ---
-description: As an administrator, you can enable, disable, and monitor activities performed in Social Learning. Once the Social Learning feature is enabled, learners can view it and they can start participating in Social Learning. 
+description: As an administrator, you can enable, disable, and monitor activities performed in Social Learning. Once the Social Learning feature is enabled, learners can view it and they can start participating in Social Learning.
 jcr-language: en_us
 title: Monitoring and moderating Social Learning as an admin
 contentowner: kuppan
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
 ---
-
-
 # Monitoring and moderating Social Learning as an admin
 
 As an administrator, you can enable, disable, and monitor activities performed in Social Learning. Once the Social Learning feature is enabled, learners can view it and they can start participating in Social Learning.
+
+Social Learning allows learners study from anywhere and share content with their colleagues. This feature allows learners to interact, exchange ideas, and collaborate, enhancing their overall learning experience.
 
 ## Enable and configure settings in social learning {#enableandconfiguresettingsinsociallearning}
 
 To enable and configure the Social Learning feature, do the following:
 
-1. Click **Social Learning** from the left navigation panel. You are redirected to the activity page. 
-1. Enable **Social Learning** feature using the **Enable** button in the Activity page if you are turning it on for the first time. Otherwise it can be enabled from the **Settings** page. 
+1. Click **[!UICONTROL Social Learning]** from the left navigation panel. You are redirected to the activity page. 
+1. Enable **[!UICONTROL Social Learning]** feature using the **[!UICONTROL Enable]** button in the Activity page if you are turning it on for the first time. Otherwise it can be enabled from the **[!UICONTROL Settings]** page. 
 
    A pop-up dialog box appears like the screenshot below.
 
@@ -25,21 +26,173 @@ To enable and configure the Social Learning feature, do the following:
    
   <!-- ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)-->
 
-The admin can configure  settings for Social Learning. Settings include types of Content Curations like **Manual-Only Curation** and **No Curation**. Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Learning Manager desktop application.
+The admin can configure  settings for Social Learning. Settings include types of Content Curations like **[!UICONTROL Manual-Only Curation]** and **[!UICONTROL No Curation]**. Scope settings can be set to different scope like the user type (internal/external) or any other active fields present in the account. Admin can set the URL path from where learners can download the Adobe Learning Manager desktop application.
 
-## Content curation {#contentcuration}
+### Content curation {#contentcuration}
 
 Since Social Learning is an informal learning, its functionality is similar to other social media platforms. People often find social media distracting because  they frequently consume irrelevant content which affects their productivity. This thought can be catered by content moderation and curation.
 
-**Manual-Only Curation** and **No Curation** are two curation options that can be selected by the admin.
+**[!UICONTROL Manual-Only Curation]** and **[!UICONTROL No Curation]** are two curation options that can be selected by the admin.
 
-**Auto-assisted Manual Curation:** Learning Manager has an artificial intelligence-based auto curation engine that can intelligently find out the essence of the content of any format that can later be served to the desired learners. It can also approve or reject a content from being posted based on its given confidence score.
+**[!UICONTROL Auto-assisted Manual Curation]:** Learning Manager has an artificial intelligence-based auto curation engine that can intelligently find out the essence of the content of any format that can later be served to the desired learners. It can also approve or reject a content from being posted based on its given confidence score.
 
 For example, Adarsh is a learner and he found a blog interesting, so he posts it on Adobe Learning Manager's Social Learning platform. The post is then fed to the AI-powered Content Curation Engine which predicts the skills present in the content and compares those skills with the associated board skills. If any of the skills match, then the content is posted otherwise it is sent for manual-only curation. 
 
 The minimum confidence score required for posting is 50%. 
 
-**Manual-Only Curation:** To check the authenticity of the content before it goes live, Administrator can enable Manual-Only Curation setting. Once Manual-Only curation setting is enabled, it goes to the Top SMEs (Maximum 3) for curation. Based on the average response,  the post is approved/rejected accordingly. If the response is greater than equal to 50 percent, the post goes live else rejected. For more information on SMEs, [click here](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+**[!UICONTROL Manual-Only Curation]:** To check the authenticity of the content before it goes live, Administrator can enable Manual-Only Curation setting. Once Manual-Only curation setting is enabled, it goes to the Top SMEs (Maximum 3) for curation. Based on the average response,  the post is approved/rejected accordingly. If the response is greater than equal to 50 percent, the post goes live else rejected. For more information on SMEs, [click here](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+
+
+In the new scope, he/she gets points for activities across boards.
+
+On the Social leader-board sections, a user can see all users of his/her scope along with special users.
+
+If you have been granted special user privileges, you can see all users in the account in your leader-board, irrespective of the users' scopes.
+
+If special users become SMEs by gaining sufficient points, they appear in the **[!UICONTROL Top Subject Matter Experts]** list in the social leader-board.
+
+For any changes to take effect, wait for 60 minutes.
+
+### Scope settings {#scopesettings}
+
+In Social Learning, a Scope determines the boards you that you see, which controls the visibility of the content. If a user has a  scope, for example, ***Vendor_A***, he/she can only see boards and associated posts that have been created by others belonging to the same scope ***Vendor_A***.
+
+This allows the Administrators to maintain a cohort of users, for example, vendors, partners or departments in an organization separate. 
+
+Enable social learning and leaderboard for both internal and external users.
+
+There are separate sections to enable internal and external users.
+
+**Enable for Internal learners**
+
+In this section, you can choose the user characteristic to define the scope of social learning for internal users. Users with the same characteristics **value** share the same Social Learning space.
+
+From the **User characteristic** drop-down list, choose the required option.
+
+![](assets/choose-value-of-usercharacteristic.png)
+
+*Select the user characteristics to define the scope*
+
+By default, the option **[!UICONTROL All Internal Users]** in the User characteristic drop-down list option is always selected.
+
+You can scope internal users based on their active fields.
+
+**Enable for External learners**
+
+To define the scope of learning for external users, use an external profile. Learners with the same external profile share a common Social Learning space.
+
+![](assets/choose-an-externalprofile.png)
+
+*Enable scope for external learners*
+
+External users are scoped based on their external profiles.
+
+For example, from the list above, if you enable **[!UICONTROL Acme Corp]**, all learners belonging to Acme Corp can see the boards that they have created. If you disable the option **Henry Cavill**, the learners cannot see any board created by Henry Cavill.
+
+Admin can scope the visibility of the content based on active field displayed in the **[!UICONTROL User characteristic]** field.
+
+For example, the admin can set the scope to **[!UICONTROL User Type (Internal/External)]** users. On setting the scope to User Type, the content shared on the Social Learning platform by any internal learner is only visible to other internal learners  in the organization and not the external users and conversely.
+
+After a User Characteristic is selected by the Admin, he or she can limit Social Learning feature to Learners and Learner groups by selecting the check box below the User characteristic field. Click the value field to select the learner or learner groups for whom you want to enable the Social Learning feature. 
+
+By default, the scope is set by the **[!UICONTROL User Type]** that is Internal or external learners.
+
+If the active field does not contain any value, then the **[!UICONTROL Value]** field drop-down list will not be visible to the admin.
+
+<!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
+
+Users can also post their content by using Adobe Learning Manager desktop application. Depending on whether you are a Mac or Windows user, click the given links to download the desktop application and follow the given steps to install it onto your system. If you are facing any difficulties in installation, [click here](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
+
+### Download configurations {#downloadconfigurations}
+
+<!--![](assets/download-config.png)-->
+
+For Enterprise Servers, admin can change the location from where learners can download the desktop application for both Windows and Mac.
+
+![](assets/enterprise-servers.png)
+
+*Change the dowmload location*
+
+Enterprise Server URL must be publicly hosted.
+
+### Board Creation Permissions {#permission}
+
+To restrict the creation of boards by all learners and to moderate the boards effectively, an Administrator can grant permissions to create boards to a select group of users.
+
+![](assets/grant-permissiontocreateboards.png)
+
+*Set permissions to create a board*
+
+By default, the option **[!UICONTROL All Learners]** is enabled.
+
+**[!UICONTROL All Learners]:** If you choose this option, all internal and external users can create boards. 
+
+**A group of learners:** If you choose this option, only users having permissions to create a board see the **[!UICONTROL Create New Board]** link in Social Learning. Choose the user group that must be granted permission to create a board. You can also add auto generated as well as custom user groups.
+
+<!--![](assets/grant-permissiontoausergroup.png)-->
+
+Users who share the same scope can only see the board. For users who do not have permission, the **[!UICONTROL Create New Board]** link remains invisible.
+
+For any changes to take effect, wait for 60 minutes.
+
+## Special Users {#privilege}
+
+An Administrator can grant special privileges to a user group, using which members of the group can participate in all boards. Any restrictions that were set in the Scope Settings section is bypassed by the special user group.
+
+The user group can be either auto-generated or custom.
+
+A user who has been granted this privilege has access to all boards, except **private boards**.
+
+![](assets/special-users.png)
+
+*Grant special privileges*
+
+When the Administrator selects a user group, by default, all users in the group can access all boards, irrespective of the scope of the user. Any user with these elevated privileges can view and participate in all internal and external boards.
+
+Special users receive curation requests across all scopes if users have sufficient SME points for that skill.
+
+If the user does not have the required SME points, then the curation privileges are passed on to the top three SMEs of that skill.
+
+In the new scope, he/she gets points for activities across boards.
+
+On the Social leader-board sections, a user can see all users of his/her scope along with special users.
+
+If you have been granted special user privileges, you can see all users in the account in your leader-board, irrespective of the users' scopes.
+
+If special users become SMEs by gaining sufficient points, they appear in the **[!UICONTROL Top Subject Matter Experts]** list in the social leader-board.
+
+For any changes to take effect, wait for 60 minutes.
+
+### Customize the social banner {#customize-social-banner}
+
+The Administrator can customize the title and the subtitle that appear on the header image on the Social Learning homepage. Whatever the Administrator decides to enter as title and subtitle, the same features on the Learner's social learning homepage.
+
+1. On the Admin app, click **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**.
+1. Click **[!UICONTROL Customize]**.  
+1. Change the banner image. The dimensions of the image must be at least **1600 px X 240 px**.  
+1. Toggle the option to hide or display the **[!UICONTROL Know More]** link on the banner.   
+1. Enter the title and the subtitle in the fields specified below:
+
+   ![](assets/image012.png)
+
+   *Customize the social banner*
+
+You have a few other options:
+
+* **[!UICONTROL Language]:** From the drop-down list, choose the language to translate the title and subtitle to. You can also add custom text for different languages.   
+* **[!UICONTROL Replicate]:** Click this button to replicate the title and subtitle across all languages.
+* **[!UICONTROL Reset]:** Click this button to revert to the original title and subtitle.
+
+   On the Social Learning homepage, the information provided by the Administrator displays as the page header.
+
+   <!--![](assets/banner-learner.png)-->
+
+### Social Learning View
+
+An admin can select the social learning view from the following settings:
+
+* Post View - Selecting this option displays the individual posts of all boards.
+* Board View - Selecting this option displays the all available boards.
 
 ## Auto-curation of content {#autocuration}
 
@@ -56,9 +209,9 @@ In auto-curation, the following types of content are allowed:
 
 An Administrator can enable the option to curate content automatically from within the Administrator app. 
 
-1. On the left pane of the Admin app, click **Social Learning**.
-1. On the page, click the tab **Settings**.
-1. Enable the option **Auto-assisted Manual Curation**.
+1. On the left pane of the Admin app, click **[!UICONTROL Social Learning]**.
+1. On the page, click the tab **[!UICONTROL Settings]**.
+1. Enable the option **[!UICONTROL Auto-assisted Manual Curation]**.
 
    ![](assets/auto-curation.png)
 
@@ -141,132 +294,6 @@ If it does not reach 50% after one day, then it is sent to the next set of SMEs 
 
 +++
 
-## Scope settings {#scopesettings}
-
-In Social Learning, a Scope determines the boards you that you see, which controls the visibility of the content. If a user has a  scope, for example, ***Vendor_A***, he/she can only see boards and associated posts that have been created by others belonging to the same scope ***Vendor_A***.
-
-This allows the Administrators to maintain a cohort of users, for example, vendors, partners or departments in an organization separate. 
-
-Enable social learning and leaderboard for both internal and external users.
-
-There are separate sections to enable internal and external users.
-
-**Enable for Internal learners**
-
-In this section, you can choose the user characteristic to define the scope of social learning for internal users. Users with the same characteristics **value** share the same Social Learning space.
-
-From the **User characteristic** drop-down list, choose the required option.
-
-![](assets/choose-value-of-usercharacteristic.png)
-
-*Select the user characteristics to define the scope*
-
-By default, the option **All Internal Users** in the User characteristic drop-down list option is always selected.
-
-You can scope internal users based on their active fields.
-
-**Enable for External learners**
-
-To define the scope of learning for external users, use an external profile. Learners with the same external profile share a common Social Learning space.
-
-![](assets/choose-an-externalprofile.png)
-
-*Enable scope for external learners*
-
-External users are scoped based on their external profiles.
-
-For example, from the list above, if you enable **Acme Corp**, all learners belonging to Acme Corp can see the boards that they have created. If you disable the option **Henry Cavill**, the learners cannot see any board created by Henry Cavill.
-
-Admin can scope the visibility of the content based on active field displayed in the **User characteristic** field.
-
-For example, the admin can set the scope to **User Type (Internal/External)** users. On setting the scope to User Type, the content shared on the Social Learning platform by any internal learner is only visible to other internal learners  in the organization and not the external users and conversely.
-
-After a User Characteristic is selected by the Admin, he or she can limit Social Learning feature to Learners and Learner groups by selecting the check box below the User characteristic field. Click the value field to select the learner or learner groups for whom you want to enable the Social Learning feature. 
-
-By default, the scope is set by the **User Type** that is Internal or external learners.
-
-If the active field does not contain any value, then the **Value** field drop-down list will not be visible to the admin.
-
-<!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
-
-Users can also post their content by using Adobe Learning Manager desktop application. Depending on whether you are a Mac or Windows user, click the given links to download the desktop application and follow the given steps to install it onto your system. If you are facing any difficulties in installation, [click here](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
-
-## Board Creation Permissions {#permission}
-
-To restrict the creation of boards by all learners and to moderate the boards effectively, an Administrator can grant permissions to create boards to a select group of users.
-
-![](assets/grant-permissiontocreateboards.png)
-
-*Set permissions to create a board*
-
-By default, the option **All Learners** is enabled.
-
-**All Learners:** If you choose this option, all internal and external users can create boards. 
-
-**A group of learners:** If you choose this option, only users having permissions to create a board see the **Create New Board** link in Social Learning. Choose the user group that must be granted permission to create a board. You can also add auto generated as well as custom user groups.
-
-<!--![](assets/grant-permissiontoausergroup.png)-->
-
-Users who share the same scope can only see the board. For users who do not have permission, the **Create New Board** link remains invisible.
-
-For any changes to take effect, wait for 60 minutes.
-
-## Special Users {#privilege}
-
-An Administrator can grant special privileges to a user group, using which members of the group can participate in all boards. Any restrictions that were set in the Scope Settings section is bypassed by the special user group.
-
-The user group can be either auto-generated or custom.
-
-A user who has been granted this privilege has access to all boards, except **private boards**.
-
-![](assets/special-users.png)
-
-*Grant special privileges*
-
-When the Administrator selects a user group, by default, all users in the group can access all boards, irrespective of the scope of the user. Any user with these elevated privileges can view and participate in all internal and external boards.
-
-Special users receive curation requests across all scopes if users have sufficient SME points for that skill.
-
-If the user does not have the required SME points, then the curation privileges are passed on to the top three SMEs of that skill.
-
-In the new scope, he/she gets points for activities across boards.
-
-On the Social leader-board sections, a user can see all users of his/her scope along with special users.
-
-If you have been granted special user privileges, you can see all users in the account in your leader-board, irrespective of the users' scopes.
-
-If special users become SMEs by gaining sufficient points, they appear in the **Top Subject Matter Experts** list in the social leader-board.
-
-For any changes to take effect, wait for 60 minutes.
-
-## Customize the social banner {#customize-social-banner}
-
-The Administrator can customize the title and the subtitle that appear on the header image on the Social Learning homepage. Whatever the Administrator decides to enter as title and subtitle, the same features on the Learner's social learning homepage.
-
-1. On the Admin app, click **Social Learning > Settings**.
-1. Click **Customize**.  
-
-1. Change the banner image. The dimensions of the image must be at least **1600 px X 240 px**.  
-
-1. Toggle the option to hide or display the **Know More** link on the banner.   
-
-1. Enter the title and the subtitle in the fields specified below:
-
-   ![](assets/image012.png)
-
-   *Customize the social banner*
-
-You have a few other options:
-
-   * **Language:** From the drop-down list, choose the language to translate the title and subtitle to. You can also add custom text for different languages.   
-   
-   * **Replicate:** Click this button to replicate the title and subtitle across all languages.
-   * **Reset:** Click this button to revert to the original title and subtitle.
-
-   On the Social Learning homepage, the information provided by the Administrator displays as the page header.
-
-   <!--![](assets/banner-learner.png)-->
-
 ## Trends {#trends}
 
 Learner's social activity trends can be viewed and tracked in the Activity tab in trends section. This data can be viewed for different time periods like last seven days, last month, last three months, and all time.
@@ -279,9 +306,9 @@ Last seven days is the default value in the date filter.
 
 The first visual provides the admin with the following information for the time period selected from the date filter:
 
-1. **New Posts**: Displays the number of new posts created within the date period. Also displayed is the total number of posts for the entire period.
-1. **Percentage of Active users**: Displays the total percentage of active users in social learning compared to the total number of users available in the account.
-1. **New Boards**: Displays the number of new boards that have been created. Also displayed is the total number of boards for the entire period.
+1. **[!UICONTROL New Posts]**: Displays the number of new posts created within the date period. Also displayed is the total number of posts for the entire period.
+1. **[!UICONTROL Percentage of Active users]**: Displays the total percentage of active users in social learning compared to the total number of users available in the account.
+1. **[!UICONTROL New Boards]**: Displays the number of new boards that have been created. Also displayed is the total number of boards for the entire period.
 
 The second visual is a line graph displaying the trend of number of boards or posts created based on the time period selected from the date filter. Click the filter to view the different time options like last seven days, last month, last three months, and all time.
 
@@ -303,11 +330,11 @@ The administrator can view the Activity Score, number of posts, boards, users, a
  <tbody>
   <tr>
    <td>
-    <p>Sl. No.</p></td>
+    <p><b>Sl. No.</b></p></td>
    <td>
-    <p>Column Name</p></td>
+    <p><b>Column Name</b></p></td>
    <td>
-    <p>Explanation</p></td>
+    <p><b>Explanation</b></p></td>
   </tr>
   <tr>
    <td>
@@ -406,13 +433,13 @@ SME status can only be gained by earning SME points through activities in Social
 
 To add SMEs to a skill, follow the given steps:
 
-1. Click **Add SMEs or Modify SMEs**.
+1. Click **[!UICONTROL Add SMEs]** or **[!UICONTROL Modify SMEs]**.
 
    ![](assets/add-smes-06.png)
 
    *Add or modify SME*
 
-1. Click **Advanced Options** from the pop-up dialog box.
+1. Click **[!UICONTROL Advanced Options]** from the pop-up dialog box.
 
    ![](assets/advanced-optionssmes.png)
 
@@ -428,11 +455,11 @@ To add SMEs to a skill, follow the given steps:
 
    *Add points for a user*
 
-1. By selecting the **Enable Minimum SME Points** check box, you can set a limit to the minimum number of points a user requires to be displayed as an SME in Top SMEs list. Once the threshold value is set, SMEs with points less than or equal to the minimum point value required is not listed in the SME lists.
+1. By selecting the **[!UICONTROL Enable Minimum SME Points]** check box, you can set a limit to the minimum number of points a user requires to be displayed as an SME in Top SMEs list. Once the threshold value is set, SMEs with points less than or equal to the minimum point value required is not listed in the SME lists.
 
-   If the **Enable Minimum SME Points** check box is not selected then the top three users with highest points are considered as the SMEs for that particular skill.
+   If the **[!UICONTROL Enable Minimum SME Points]** check box is not selected then the top three users with highest points are considered as the SMEs for that particular skill.
 
-1. Click **Save** button to display the changes that have been made.
+1. Click **[!UICONTROL Save]** button to display the changes that have been made.
 
 ## SME point system {#smepointsystem}
 
@@ -449,18 +476,6 @@ To add SMEs to a skill, follow the given steps:
 
 * When a post is sent for manual curation because the auto curation is not sure if content is relevant or not, the SME gains 5 points on submission of moderation.
 
-## Download configurations {#downloadconfigurations}
-
-<!--![](assets/download-config.png)-->
-
-For Enterprise Servers, admin can change the location from where learners can download the desktop application for both Windows and Mac.
-
-![](assets/enterprise-servers.png)
-
-*Change the dowmload location*
-
-Enterprise Server URL must be publicly hosted.
-
 ## Social activities for Monthly Active Users billing plan {#socialactivitiesformonthlyactiveusersbillingplan}
 
 Every time a user creates a new social board, social post or social comment, it would count as valid activity to be counted against the **Monthly Activation User**(MAU) plan if the account follows the MAU billing model. For more information, refer to [billing management](billing-management.md).
@@ -469,7 +484,7 @@ Every time a user creates a new social board, social post or social comment, it 
 
 +++How to enable social learning for external learners?
 
-In **Social Learning > Settings**, in the section Scope Settings, enable the option **Enable for External learners**. From the drop-down, choose an external profile and define the scope of learning for that profile.
+In **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**, in the section Scope Settings, enable the option **[!UICONTROL Enable for External learners]**. From the drop-down, choose an external profile and define the scope of learning for that profile.
 
 ![](assets/social-scope-external-users.png)
 

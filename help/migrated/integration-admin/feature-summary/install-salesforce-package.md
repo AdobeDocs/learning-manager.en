@@ -3,9 +3,8 @@ jcr-language: en_us
 title: Install Salesforce Package
 description: Learning Manager offers a Salesforce App package. Once installed and configured in SFDC, sales employees can perform their training activities within the SFDC portal. This app allows SFDC users to explore new trainings, view recommendations and consume them right inside the SFDC portal. Users also get the announcements sent by Administrators in the form of mastheads right inside the app within the SFDC portal.
 contentowner: saghosh
+exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
 ---
-
-
 # Install Salesforce Package
 
 ## Overview
@@ -15,13 +14,13 @@ Learning Manager offers a Salesforce App package. Once installed and configured 
 ### Set up in Learning Manager app
 
 1. Log in to your Learning Manager Admin account as Integration Admin.
-1. Click **Applications > Featured Apps**.
-1. Click **Salesforce**.
+1. Click **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**.
+1. Click **[!UICONTROL Salesforce]**.
 1. On the Salesforce app page, note the Application id (also known as client id) and the client secret mentioned in the description.
-1. Click **Approve** and your app must be approved successfully.
-1. Click **Developer Resources > Access Tokens for Testing and Development**.
-1. In the Get OAuth Code section, the Client ID and scope must be set to - admin:read,admin:write. Click **Submit**.
-1. In Get Refresh Token, enter the Client ID and Client secret. Click **Submit** and note the refresh token.
+1. Click **[!UICONTROL Approve]** and your app must be approved successfully.
+1. Click **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**.
+1. In the Get OAuth Code section, the Client ID and scope must be set to - admin:read,admin:write. Click **[!UICONTROL Submit]**.
+1. In Get Refresh Token, enter the Client ID and Client secret. Click **[!UICONTROL Submit]** and note the refresh token.
 
 ### Create account in Salesforce app
 
@@ -42,15 +41,14 @@ If you want to install the package, you must first delete the existing package i
 >
 >The Adobe Learning Manager app is only supported in Salesforce Lightning view.
 
-1. Launch the  [Learning Manager package url](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftest.salesforce.com%2Fpackaging%2FinstallPackage.apexp%3Fp0%3D04t1k0000008YWn&data=04%7C01%7Ckillamse%40adobe.com%7Cf588f553fc694d2edee108d9a5c74711%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637723097572585825%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=mhYKVdwvS4F7WPruy0Kvw%2FsqgWxzTQpaZJyEACu8CNw%3D&reserved=0).  
-1. In the **Login** page, click **Use Custom Domain**.
-
-1. Enter the package URL and click **Continue**. The installation page must have the option Install for Admins Only selected. Do not change this option.
-1. Click **Install**. Once the package is installed, click **Done**. You are guided to the Installed Packages page, and you can see the Adobe Learning Manager installed package.
+1. Launch the  [Learning Manager package url (M42 Patch 2)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlG).  
+1. In the **Login** page, click **[!UICONTROL Use Custom Domain]**.
+1. Enter the package URL and click **[!UICONTROL Continue]**. The installation page must have the option Install for Admins Only selected. Do not change this option.
+1. Click **[!UICONTROL Install]**. Once the package is installed, click **[!UICONTROL Done]**. You are guided to the Installed Packages page, and you can see the Adobe Learning Manager installed package.
 
 1. Go to the App Launcher (next to Setup) and search for Adobe Learning Manager.
-1. To configure the app, click **Configure**.
-1. Click **New** and add the following details:
+1. To configure the app, click **[!UICONTROL Configure]**.
+1. Click **[!UICONTROL New]** and add the following details:
 
    * **Config:** Enter a name of your choice.
    * **ClientID**: Enter the value that you'd obtained from the first section.
@@ -65,9 +63,9 @@ If you want to install the package, you must first delete the existing package i
 
 ### Add Remote Site Settings
 
-1. In the top-right corner of the page, click **Setup**.
+1. In the top-right corner of the page, click **[!UICONTROL Setup]**.
 1. In **Quick Find**, search for Remote Site Settings.
-1. Click **New Remote Site**.
+1. Click **[!UICONTROL New Remote Site]**.
 1. Enter the details:
 
    1. **Remote Site Name:** Enter a name of your choice.
@@ -75,11 +73,23 @@ If you want to install the package, you must first delete the existing package i
 
 1. Launch Learning Manager.
 
+### Add the Adobe domain to Salesforce Trusted URLs
+
+To add the Adobe domain to trusted URLs, follow these steps:
+
+1. In the Salesforce console, go to **[!UICONTROL Setup]** > **[!UICONTROL Quick Find]**.
+1. Search for **[!UICONTROL Trusted URLs]** and select **[!UICONTROL New Trusted URL]**.
+1. Type a name in the **[!UICONTROL API Name]** field.
+1. Type `*.adobe.com` into the URL field.
+1. Select all the checkboxes in **CSP Directives** and save the changes.
+1. Edit the refresh token of the Salesforce app and save it.
+1. Relaunch the Salesforce app.
+
 ### Enable Notifications for Learning Manager app
 
 1. In the upper-right corner, click **Setup**. 
 1. Search for Custom Notifications. 
-1. Click **New**.
+1. Click **[!UICONTROL New]**.
 1. Enter the following details:  
 
    1. **Custom Notification Name:** LearningManagerNotification 
@@ -87,7 +97,7 @@ If you want to install the package, you must first delete the existing package i
 
 1. Select both **Desktop** and **Mobile** as Supported channels.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 1. To enable push notifications for mobile devices, follow the steps below:
 
    1. Install Salesforce mobile app in your mobile phone.
@@ -98,7 +108,7 @@ If you want to install the package, you must first delete the existing package i
 ### Uninstall Learning Manager from Salesforce
 
 1. In Salesforce app, go to Installed packages.
-1. Click **Uninstall**.
+1. Click **[!UICONTROL Uninstall]**.
 
 ## Configure Learning Manager for Salesforce users
 
@@ -130,10 +140,10 @@ When you install the package, a new permission set is created, **Adobe Learning 
 
 Select the users and assign the permissions accordingly. The learners can now access the Learning Manager app.
 
-Now, select a profile, for example, Standard Profile of a user, and click the profile. Click **Edit** and in the **Custom App Settings** section, enable the check-box **Adobe Learning Manager**. This makes the app accessible to the user.
+Now, select a profile, for example, Standard Profile of a user, and click the profile. Click **[!UICONTROL Edit]** and in the **Custom App Settings** section, enable the check-box **Adobe Learning Manager**. This makes the app accessible to the user.
 
-In the **Custom Tab Settings** section, in the **Learner Home** drop-down list, select the option **Default On**.
+In the **Custom Tab Settings** section, in the **Learner Home** drop-down list, select the option **[!UICONTROL Default On]**.
 
 You must make the app visible to all the profiles.
 
-Click **Save** and the learners belonging to all the profiles will access Learning Manager app.
+Click **[!UICONTROL Save]** and the learners belonging to all the profiles will access Learning Manager app.

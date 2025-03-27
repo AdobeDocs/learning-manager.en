@@ -1,12 +1,11 @@
 ---
 description: Read this article to know how to view and consume courses in Learning Manager. Participate in discussions and provide feedback.
 jcr-language: en_us
-title: Courses
+title: My Learnings
 contentowner: manochan
+exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
 ---
-
-
-# Courses
+# My Learnings
 
 Read this article to know how to view and consume courses in Learning Manager. Participate in discussions and provide feedback.
 
@@ -20,7 +19,7 @@ Adobe Learning Manager enables learners to access the courses, learning programs
 >
 >Learners can also install Learning Manager iPad app from apple store and Learning Manager Android app from Google Play and access courses on mobile devices. All the learners role features are also available in the app. Learners can also take courses offline and get a seamless access after going online. Refer to  [iPad & Android tablet users](ipad-android-tablet-users.md) feature for more information. 
 
-## Viewing courses {#viewingcourses}
+## Viewing learning objects {#viewingcourses}
 
 You can view a list of all available courses as a learner. Click My Learning from the Home page, or from the left pane to view all the courses that you have enrolled in.
 
@@ -91,6 +90,41 @@ There can be multiple instances/sessions to a course/learning program. In catalo
 
 You can register to express interest for any classroom courses that do not have any planned sessions. You get notification whenever the course session commences to join the course.
 
+>[!NOTE]
+>
+>Learners should see a conflict message if they enroll in two different sessions at the same time or overlapping times.
+
+## Switch instances
+
+A learner enrolled in a particular instance of a course can view a list of all available instances of the course and switch to another instance that works better for them. The reason for switching could be that the learner missed attending the previous instance, or the session timing for the new instance is more suitable or it can be something else.
+
+Any progress made by the learner as part of the course, learner quiz scores etc., are carried over to the new instance. This feature is primarily meant for classroom and blended courses, but we shall support all types of courses, including self-paced ones.
+
+The option, View all instances appears irrespective of Instance Switch settings. Learners will now view an option to view all instances if there is more than one instance of a course.
+
+If the option Instance Switch is enabled, learners can switch to various instances until they complete the course. If the option is disabled, learners can view the instances but will be unable to enroll in the course.
+
+When the learner selects **View all instances**, the learner can see all the course instances.
+
+![alt text](assets/view-all-instance.png)
+
+_View all instance page from learner console_
+
+![](assets/switch-instance-learner.png)
+_Switch instance from learner page_
+
+An admin can switch instances for learners. Select a course from the admin console, go to the **[!UICONTROL Learners]** section, choose a user, and select the **[!UICONTROL Action]** button. Then, select **[!UICONTROL Switch Instance]** and choose the desired instance.
+
+![alt text](assets/switch-instance-admin.png)
+_Switch instance from Admin console_
+
+![switch instances select](assets/switch-instances-select.png)
+_Switch instance prompt_
+
+You cannot switch instances until any instance of the course is completed from Learner or Admin app.
+
+Authors, while creating a course can toggle between enabling or disabling "Instance Switch." Instance switch is available only for free courses.
+
 ## Workflow as a Learner
 
 As a Learner you will be allowed to rate a course only post enrolment. You can see the average Star Ratings for any course on the **Home** Page, **My Learning** page and **Catalog**.
@@ -99,12 +133,12 @@ As a Learner you will be allowed to rate a course only post enrolment. You can s
 
 1. Search a course by entering the course name in the search bar. Alternately, you can choose from the displayed course list by clicking **My Learning** or **Catalog** from the left pane.  
 
-1. After selecting a course, click **Enroll**.
+1. After selecting a course, click **[!UICONTROL Enroll]**.
 
    ![](assets/cp-sr-enroll.png)
    *Enroll in a course*
 
-1. Select the number of stars to rate a course accordingly, 1 being the least and 5 being the best. Then click **Submit**.
+1. Select the number of stars to rate a course accordingly, 1 being the least and 5 being the best. Then click **[!UICONTROL Submit]**.
 
    ![](assets/cp-sr-srsubmitt.png)
    *Submit course rating*
@@ -122,7 +156,7 @@ Courses can be sorted based on the average ratings provided. You can sort the ca
 
 ## Taking a course {#consumingnbspacourse}
 
-After enrolling to a course, you can start taking up the course, by clicking Start on the course. Alternatively, click **Courses **in** Learning** tab. Choose a course that you would like to start taking up.
+After enrolling to a course, you can start taking up the course, by clicking Start on the course. Alternatively, click **[!UICONTROL Courses]** in **[!UICONTROL Learning]** tab. Choose a course that you would like to start taking up.
 
 If you are yet to start a course, click the Start button next to the course title.
 
@@ -155,6 +189,10 @@ You can view all the modules for the course in a browser window.
 
 *After exiting from the course, you can revisit the course by clicking Revisit button on the course description page.*
 
+## Multiple enrollment instances
+
+If a course has multiple instances, learners will have the option to choose and enroll in a specific instance. They can also switch between instances if needed.
+
 ## Star rating
 
 Only after enrolling to a course, a Learner can provide a star feedback to the course. In the Course Overview page of a course, the Learner can rate the course as stars (1-lowest, 5-highest). 
@@ -164,7 +202,7 @@ Only after enrolling to a course, a Learner can provide a star feedback to the c
 
 A Learner will be able to select a particular star (out of 5) and submit the rating. The learner can also edit the selection by clicking on a different star. Once submitted, a Thank you for your feedback message will be displayed. 
 
-If the Learner wants to re-submit the feedback, he/she can do so by clicking the message. The **Submit **button gets re-enabled. A Learner can provide star rating multiple times after enrollment to a course. The most recent rating will be considered always.
+If the Learner wants to re-submit the feedback, he/she can do so by clicking the message. The **Submit** button gets re-enabled. A Learner can provide star rating multiple times after enrollment to a course. The most recent rating will be considered always.
 
 Once the Learner provides a rating, the average star rating and the count of learners who've provided the star ratings feature in the **Course Overview** page.
 
@@ -205,7 +243,7 @@ All filters and other options are shown in the video below.
 
 ### Preview content
 
-You can explore and preview the course and see if the course suits your learning needs. Click the **Preview **button and see the course preview. The preview is available for two minutes.
+You can explore and preview the course and see if the course suits your learning needs. Click the **Preview** button and see the course preview. The preview is available for two minutes.
 
 ![](assets/content-marketplace-learner.gif)
 *Preview content in the marketplace*
@@ -260,13 +298,13 @@ If the modules are set as ordered by the author, you must complete the required 
 
 After completing a course with the required number of modules, if you want to complete the optional modules, you can revisit the course.
 
-## Viewing and pariticpating in discussions {#viewingandpariticpatingindiscussions}
+## Viewing and participating in discussions {#viewingandpariticpatingindiscussions}
 
 As a learner, you can interact with other learners and your instructors using the Discussion tab. You can view the posts for any course that you view or enroll in. If an administrator has enabled discussions for a course, you can view the Discussion tab next to the Notes tab for that course.
 
 When you click the Discussions tab, you can see the existing posts and comments for that course. If you have already enrolled into the course, you can also start typing posts or comments for other users to see. After you type the message, click Post. Your post must at least contain 10 characters.
 
-The post is immediately visible in the Discussions tab. You can sort the posts as Newset First or Oldest First, and delete those posts that you wrote. Even after you unenroll from the course, you can still view all the posts and delete the posts that you wrote.
+The post is immediately visible in the Discussions tab. You can sort the posts as Newest First or Oldest First, and delete those posts that you wrote. Even after you unenroll from the course, you can still view all the posts and delete the posts that you wrote.
 
 ![](assets/learner-discussion.png)
 *View participant discussions*

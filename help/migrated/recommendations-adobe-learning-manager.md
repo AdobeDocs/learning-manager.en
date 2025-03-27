@@ -1,9 +1,8 @@
 ---
 title: Recommendations in Adobe Learning Manager
 description: The core of the recommendation engine is driven by Learning Manager's new Course Ranking Algorithm. The algorithm uses 50 million data points and five years of aggregated learning data across millions of users to rank courses based on their likelihood of enrolment. This ranking ensures that most enrollable courses are displayed upfront to the learners.
+exl-id: 42083095-60a0-4e20-9097-3344d290da1a
 ---
-
-
 # Recommendations in Adobe Learning Manager
 
 Adobe Learning Manager has introduced a new and revamped recommendation system for courses. This recommendations feature uses AI algorithms and users' interests like Products, Roles, and Levels to provide personalized content recommendations.
@@ -59,8 +58,8 @@ Admins are provided a guided workflow in Learning Manager to optimally set up th
 
 1. Click **[!UICONTROL Proceed]** to upgrade to the new recommendation system.
 
-   ![Proceed to the new system](assets/image521152.png)
-   *Select the Proceed button*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. Create the recommendation parameters for Products and Roles.
 
@@ -163,7 +162,7 @@ The recommendation system is now available to your learners.
 
 ## Delete a parameter
 
-1. In the list of parameters, select the three dots icon, and select **[!UICONTROL Delete parameter]**.
+Administrators can delete a parameter by clicking the three dots icon and selecting **[!UICONTROL Delete Parameter]**. Admins can delete a parameter if it is not linked to a learning objects. If it is linked, they can only hide the parameter. However, they cannot hide the last two parameters because at least two parameters are needed for recommendations to work.
 
 ![delete parameter](assets/delete-parameter.png)
 *Delete the parameter*

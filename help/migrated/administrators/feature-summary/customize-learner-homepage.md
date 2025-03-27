@@ -3,18 +3,25 @@ jcr-language: en_us
 title: Customize learner homepage
 description: An Administrator can customize the learner's home page and make it more modern, content driven, and personalized to a learner.
 contentowner: saghosh
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
 ---
-
-
 # Customize learner homepage
 
 ## Overview {#overview}
 
 An Administrator can customize the learner's home page and make it more modern, content driven, and personalized to a learner.
 
-The personalized approach offers a widgetised way of building a Learner Home page, which the admin of the organization can configure in the admin user interface in a WYSIWYG manner.
+The personalized approach offers a widget-based way of building a Learner Home page, which the admin of the organization can configure in the admin user interface in a WYSIWYG manner.
 
-The experience is driven by a personalized training recommendations from an AI-driven algorithm that analyses third-party content for industry skills, incorporates peer activity, and learners' areas of interest using explicit and implicit data. 
+The experience is driven by a personalized training recommendations from an AI-driven algorithm that analyses third-party content for industry skills, incorporates peer activity, and learners' areas of interest using explicit and implicit data.
+
+### Customize learner homepage
+
+In this training, you will explore ways to customize the Learner Homepage.
+
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4SC98Z83&mv=display&mv2=display#/course/8318825)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Configure the learner homepage {#configurethelearnerhomepage}
 
@@ -71,7 +78,7 @@ This will be enabled and grayed out if Immersive experience is chosen. This chec
 
 ![](assets/option-immersive.png)
 
-*Selection for Classic experience*
+*Learner homepage settings*
 
 The immersive layout is the default for all new accounts. The layout is controlled by widgets that an Admin can enable or disable. Based on how the widgets are positioned, the same is reflected on the learner homepage.
 
@@ -89,9 +96,9 @@ For existing accounts, the option **Immersive** will be **OFF**. It is enabled f
  <tbody>
   <tr>
    <td>
-    <p>Widget</p></td>
+    <p><b>Widget</b></p></td>
    <td>
-    <p>Description</p></td>
+    <p><b>Description</b></p></td>
   </tr>
   <tr>
    <td>
@@ -124,6 +131,12 @@ For existing accounts, the option **Immersive** will be **OFF**. It is enabled f
   </tr>
   <tr>
    <td>
+    <p>Enrollments showing deadline</p></td>
+   <td>
+    <p>Displays enrollments that are overdue, have upcoming deadlines, or are on track. </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>Gamification</p></td>
    <td>
     <p>Displays the leaderboard based on learning activities.</p></td>
@@ -146,24 +159,24 @@ For existing accounts, the option **Immersive** will be **OFF**. It is enabled f
       <p>Secondly, the Admin can also decide if the recommendations kick in immediately or on a specified date.</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
     <p>Recommendation based on area of interest</p></td>
    <td>
     <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
-  </tr>
+  </tr>-->
   <tr>
    <td>
     <p>Browse by catalog<br></p></td>
    <td>
     <p>Displays catalogs as tiles on the homepage. </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
     <p>Recommendation based on peer activity<br></p></td>
    <td>
     <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
-  </tr>
+  </tr>-->
  </tbody>
 </table>
 
@@ -264,3 +277,8 @@ On the **General** page, you have the following options:
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>For the new account, the Learner Homepage, Training Type, and Recommendation Scope settings will not be visible.
+

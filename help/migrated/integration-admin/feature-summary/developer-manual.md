@@ -3,12 +3,14 @@ jcr-language: en_us
 title: Application developer manual
 description: Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Learning Manager.
 contentowner: jayakarr
+exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
 ---
-
-
 # Application developer manual
 
-Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Learning Manager.
+>[!NOTE]
+>
+>Learning Manager V1 API is now deprecated. We recommend that you use V2 APIs to interact with Learning Manager.
+
 
 ## Overview {#overview}
 
@@ -23,6 +25,18 @@ Using Learning Manager API, developers can build self-contained applications tha
 The Learning Manager API is based on principles of REST, and exposes key elements of the Learning Manager Object Model to application developers through HTTP. Before knowing the details of the API endpoints and the HTTP methods, developers can become familiar with the various Learning Manager objects, their attributes and inter-relationships. Once the models are understood, it will be useful to get a basic understanding of the structure of API requests and responses, and a few common programming terms that we use generically across the API.
 
 For details of the various API endpoints and methods, refer to the  [Learning Manager API documentation](https://learningmanager.adobe.com/docs/primeapi/v2/).
+
+## Learner APIs
+
+Adobe Learning Manager - Learner APIs allow you to create a custom learning experience for your users. The usage of these APIs need a valid user token and are to be used only for the purpose of workflows where there is a fully licensed/registered Learner.
+ 
+>[!IMPORTANT]
+>
+>They are not to be used, as is, for any sort of data retrieval to support any non-logged in user/shared users or any other such cases.
+ 
+The non-logged in use cases require special handling. 
+
+**Reach out to the Solution Architecture team, in case you have any questions on the appropriate use of these APIs and ensure that a Solution Architect has vetted a solution before you deploy it**.
 
 ## API authentication {#apiauthentication}
 
@@ -100,11 +114,11 @@ Developers can access a single API object model and also multiple models associa
 
 **API request**
 
-The API requests can be made by making a HTTP Request. Depending upon the end point and method developer may have a choice of various HTTP verbs such as GET, PUT, POST, DELETE, PATCH, etc. For some requests query parameters can be passed. When making a request for a specific data model, the user can also request for related models as described in the JSON API specifications. The structure of a typical API Request is described in [sample model usage](#main-pars_header_1415780624).
+The API requests can be made by making a HTTP Request. Depending upon the end point and method developer may have a choice of various HTTP verbs such as GET, PUT, POST, DELETE, PATCH, etc. For some requests query parameters can be passed. When making a request for a specific data model, the user can also request for related models as described in the JSON API specifications. The structure of a typical API Request is described in [sample model usage](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration).
 
 **API response**
 
-When an API request is made by a client, a SON document is obtained according to the JSON API specification. The response also contains the HTTP Status code, which the developer can verify to perform the appropriate next steps in his application logic. The structure of a typical API Response is described in  [sample model usage](#main-pars_header_1415780624).
+When an API request is made by a client, a SON document is obtained according to the JSON API specification. The response also contains the HTTP Status code, which the developer can verify to perform the appropriate next steps in his application logic. The structure of a typical API Response is described in  [sample model usage](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration).
 
 **Errors**
 
@@ -112,9 +126,9 @@ When an API request fails, an Error response is obtained. The HTTP Status code r
 
 **Fields**
 
-API object's attributes and its relationships are collectively called Fields. Refer to [JSON API for more information.](http://jsonapi.org/format/#document-resource-object-fields) You can use Fields as a parameter while making API calls to fetch one or more speicific attributes from the model. In absence of the Fields parameter, the API call fetches all the available attributes from the model. For example, in the following API call, fields[skill]=name fetches you the name attribute of the skill model alone. 
+API object's attributes and its relationships are collectively called Fields. Refer to [JSON API for more information.](http://jsonapi.org/format/#document-resource-object-fields) You can use Fields as a parameter while making API calls to fetch one or more specific attributes from the model. In absence of the Fields parameter, the API call fetches all the available attributes from the model. For example, in the following API call, fields[skill]=name fetches you the name attribute of the skill model alone. 
 
-https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name 
+`https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name `
 
 **Pagination**
 
@@ -360,8 +374,8 @@ Following are the various elements of the Learning Manager class diagram in V2 A
 <table>
  <tbody>
   <tr>
-   <th>Learning Manager Object</th>
-   <th>Description</th>
+   <th><b>Learning Manager Object</b></th>
+   <th><b>Description</b></th>
   </tr>
   <tr>
    <td>account</td>
@@ -806,13 +820,13 @@ As a developer you have to create a trial account on Learning Manager, so that y
 
 ## Create client id and secret {#createclientidandsecret}
 
-1. In **Integration Admin** login, click **Applications** on the left pane. 
+1. In **Integration Admin** login, click **[!UICONTROL Applications]** on the left pane. 
 
    ![](assets/application-development-menu.png)
 
    *Select Applications on Integration Admin*
 
-1. Click **Register** at the upper-right corner of the page to register your application details. Registration page appears. 
+1. Click **[!UICONTROL Register]** at the upper-right corner of the page to register your application details. Registration page appears. 
 
    ![](assets/register-application.png)
 
@@ -836,7 +850,7 @@ As a developer you have to create a trial account on Learning Manager, so that y
 
    If you choose **Admin role read and write access** as scope while registering the application and choose **Admin role read access** while authoring the APIs, you can still have write access for the application as the app registration scope supersedes the authorization workflow. 
 
-1. Click **Register** at the upper-right corner after filling up the details in the registration page.
+1. Click **[!UICONTROL Register]** at the upper-right corner after filling up the details in the registration page.
 
 ## Application development and testing {#applicationdevelopmentandtesting}
 
