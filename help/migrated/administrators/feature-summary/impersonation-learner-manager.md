@@ -49,7 +49,7 @@ To impersonate a user, follow the steps below:
 
 **An impersonated session lasts for 60 minutes.**
 
-On changing to a learner or manager role, a message displays indicating that the admin/custom admin is in an impersonation mode of the user. 
+On changing to a learner or manager role, a message displays indicating that the admin is in an impersonation mode of the user. 
 
 ## Login and access report
 
