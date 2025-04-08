@@ -1078,6 +1078,10 @@ Adobe Learning Manager requires the scopes below and the scopes must be selected
 * View report data `/report:read:admin`
 * View all user information `/user:read:admin`
 * View users' information and manage users `/user:write:admin`
+* Add a meeting registrant `/meeting:write:registrant:admin`
+* List all meeting registrants  `/meeting:read:list_registrants:admin`
+* View and manage sub-account's user meetings `/meeting:write:meeting:master`
+* View report data `/report:read:list_meeting_participants:admin`
 
 ## Box connector {#box_connector}
 

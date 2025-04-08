@@ -23,6 +23,10 @@ Learners are waitlisted for any classroom course when the seats are limited, bas
 1. Click **[!UICONTROL Waitlist]** on the left pane of the course detail page. Waitlisted learners list appears on the page.
 1. Select the learners and click **[!UICONTROL Allocate seats]** to enroll the learners directly to the courses superseding the seats limit.
 
+>[!NOTE]
+>
+>Enrolled learners cannot be moved to the waitlist, and their seats cannot be reallocated to other learners.
+
 ## Attendance management {#attendancemanagement}
 
 This feature is applicable to classroom and virtual classroom courses only. You can record attendance by following the steps below:

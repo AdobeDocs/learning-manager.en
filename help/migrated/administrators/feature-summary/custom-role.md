@@ -11,6 +11,10 @@ This feature helps you define custom roles and assign specific responsibilities 
 
 You can create a custom role to provide authoring capabilities limited to a particular catalog. You can also create a role dedicated to manage reporting. Such roles can then be assigned to individuals who are supposed to take up these specific responsibilities.
 
+>[!NOTE]
+>
+>Adding a new custom role will not affect existing custom user groups or any role-based groups such as All Admins, All Authors, etc.
+
 Admins have the ability to create custom admin and custom author roles with tailored permissions for each role. Below is an overview of the permissions associated with each role:
 
 **Custom Author Role Permissions**

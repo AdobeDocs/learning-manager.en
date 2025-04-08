@@ -87,6 +87,12 @@ To send emails to learners, from the Learners page in the Instructor app, do one
 * To send emails to specific attendees, select the attendee, and click Actions > Send Email to Selected.
 * To send emails to all the attendees to send a course material or an assignment, click Actions > Send Email to All.
 
+## Capture invitation responses
+
+You can view invitation responses in the Learners section. Go to any session, select **[!UICONTROL Learners]**, and select the invitation response from the dropdown menu.
+
+![](assets/invitation-status.png)
+
 ## Exporting learners list {#exportinglearnerslist}
 
 As an instructor, you can easily mark the attendance for all your learners by exporting the attendee list as a pdf. To export the attendee list, from the Learner from the left pane. Click Actions > Export Learner List (PDF). 
