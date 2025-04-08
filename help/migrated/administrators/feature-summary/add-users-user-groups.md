@@ -166,6 +166,8 @@ On the list of users, choose a user, and click the user. On the user details, cl
 
 ## Active fields
 
+Active Fields in Adobe Learning Manager are customizable metadata fields used to store and manage user-specific information. These fields help define key attributes or characteristics associated with each user in the system.
+
 ### Manage user attributes
 
 >[!INFO]
@@ -323,6 +325,10 @@ Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** >
 ## Remove a role {#Removearole-1}
 
 Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **Remove `<role>`**. The selected role gets removed from the list of roles that were assigned to the user.
+
+>[!NOTE]
+>
+>Assigning a new role will not affect custom user groups. However, it will impact auto-generated user groups such as All Admins, All Authors, and similar role-based groups.
 
 ## Create user groups {#createusergroups}
 
