@@ -17,7 +17,7 @@ You can change your Administrator profile settings and update your Account setti
 
 This training captures the basics of account-level settings. 
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PYPVPSZY&mv=display&mv2=display#/course/7476018)
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7476018)
 
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.

@@ -185,7 +185,7 @@ The training report has two additional columns:
 
 >[!INFO]
 >
->In this training, you will learn how to generate dashboard reports from the database.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=R3B5NPDN&mv=display&mv2=display#/course/8318854)</br></br>
+>In this training, you will learn how to generate dashboard reports from the database.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
 
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
@@ -921,7 +921,7 @@ You can get your favorite reports in an email by subscribing to them.
 
 >[!INFO]
 >
->In this training, you will learn how to set up email subscriptions for dashboard reports.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PLHRQ62N&mv=display&mv2=display#/course/8318927)</br></br>
+>In this training, you will learn how to set up email subscriptions for dashboard reports.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
 
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
@@ -1173,7 +1173,7 @@ If there are multiple managers reporting to you, you can view the reports quickl
 
 >[!INFO]
 >
->In this training, you will learn how to export course reports and set up email subscriptions for these reports.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=R726NKNM&mv=display&mv2=display#/course/8318904)</br></br>
+>In this training, you will learn how to export course reports and set up email subscriptions for these reports.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
 
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.

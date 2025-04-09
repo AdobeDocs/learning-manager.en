@@ -15,7 +15,7 @@ As an administrator, you can create custom catalogs, if you want to make selecti
 
 In this training, you will learn how to create and manage catalogs.
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QTV3NXVQ&mv=display&mv2=display#/course/8318922)
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318922)
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
@@ -50,7 +50,7 @@ To create a catalog, perform the following steps:
    *Create a catalog*
 
    You can add multiple courses to the catalog.
-1. You can filter the courses by skills, roles, and language. The selected course will be recommended to learners interested in those skills and roles. 
+1. You can filter the courses by skills, roles, and language. The selected course will be recommended to learners interested in those skills and roles. 
 
    * **[!UICONTROL Skills]**: Skill filters allow users to find courses that focus on particular skills.
    * **[!UICONTROL Roles]**: Role filters help users to access courses tailored to the responsibilities and requirements of different roles.
@@ -139,7 +139,7 @@ Courses, Learning programs, Job Aids, and certifications are the supported learn
 
 This training will teach you how to share catalogs with internal user groups and external Adobe Learning Manager accounts.
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PGRQQ9SP&mv=display&mv2=display#/course/8318924)
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318924)
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 

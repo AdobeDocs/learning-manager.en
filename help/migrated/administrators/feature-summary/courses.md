@@ -21,7 +21,7 @@ Authors create courses. Learners then take the courses and Administrators can tr
 
 >[!INFO]
 >
->In this training, you will learn how to edit instance details and instance properties.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=P79NQK8R&mv=display&mv2=display#/course/8318912)</br></br>
+>In this training, you will learn how to edit instance details and instance properties.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
@@ -131,7 +131,7 @@ To send instance-level emails to enrolled learners:
 
 In this training, you will learn how to enroll, unenroll, and re-enroll learners.
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PC1PQFJQ&mv=display&mv2=display#/course/8318916)
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318916)
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 

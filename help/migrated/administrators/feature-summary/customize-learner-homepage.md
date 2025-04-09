@@ -19,7 +19,7 @@ The experience is driven by a personalized training recommendations from an AI-d
 
 In this training, you will explore ways to customize the Learner Homepage.
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4SC98Z83&mv=display&mv2=display#/course/8318825)
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318825)
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
