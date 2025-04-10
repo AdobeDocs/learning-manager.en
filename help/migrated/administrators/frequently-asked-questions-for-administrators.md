@@ -17,6 +17,12 @@ exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
  </tbody>
 </table>
 
++++New Experience League Announcement
+
+We are excited to announce that in our journey to be better connected to the Adobe family of solutions, Adobe Learning Manager will be adding one more channel to the support intake process. From May 12th, 2025, you will now be able to create cases directly from Adobe Experience League. Experience League is currently home to Adobe Learning Manager self-help documentation, user guides and best practices, and will become your primary resource for all support needs from self-service to agent-driven communication. We appreciate your understanding and support as we make this important transition. 
+
++++
+
 +++Can I add users in bulk? How?
 
 Yes, you can add users in bulk by using CSV upload feature. Click  [here](/help/migrated/administrators/add-users-in-bulk.md) for more information. 
