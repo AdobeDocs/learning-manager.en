@@ -11,7 +11,7 @@ Before the July 2023 release, when an Admin enrolled a learner, they could enrol
 
 Adobe Learning Manager's multi-enrollment feature helps an Admin avoid such scenarios.
 
-### Manage instances
+## Manage instances
 
 >[!INFO]
 >
