@@ -9,22 +9,7 @@ exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
 
 Learn how to add users or user groups in Learning Manager application.
 
-
 <!--![](assets/user-mgmt-new.png)-->
-
-## Manage user groups
-
->[!INFO]
->
->In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Overview {#overview}
 
@@ -58,9 +43,6 @@ To add users,
 1. On the home page, click **[!UICONTROL Add Users]**. On this page, you can add a single user or multiple users at a time using a CSV. You can also create a self-registration link for internal employees or create an external learner profile.
 1. To add a single user, click **[!UICONTROL Add]** on the upper-right corner and choose the option **[!UICONTROL Single User]**.
 
-1. To add a single user, click **[!UICONTROL Add]** on the upper-right corner and choose the option **Single User**.
-
-
    ![](assets/single-user.png)
    *Add a single internal user*
 
@@ -73,16 +55,7 @@ To add users,
 
 ## Add users in bulk {#addusersinbulk}
 
-### Manage users
-
-In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
-
-[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-If you're unable to launch the training, write to <almacademy@adobe.com>.
-
 Typically, most organizations work with an HR Management System (HRMS), which maintains all employee records, such as, designation, location, date of joining, or employee hierarchy. You can export this data in a CSV format. To import a CSV, follow the steps below:
-
 
 1. Click **[!UICONTROL Add]** on the upper-right corner, and choose the option **[!UICONTROL Upload a CSV]**.
 
@@ -129,11 +102,25 @@ Typically, most organizations work with an HR Management System (HRMS), which ma
 
 After you have selected the users, you can perform the following:
 
+>[!INFO]
+>
+>In this training, you will learn how to add users in bulk through a CSV.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ## Register a user {#registerauser}
 
 With the user selected, click **[!UICONTROL Actions]** on the upper-right corner and click **[!UICONTROL Register]**.
 
 The selected users receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Learning Manager account.
+
+### Manage users
+
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
+
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Assign a role {#assignarole}
 
@@ -333,6 +320,18 @@ Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** >
 ## Create user groups {#createusergroups}
 
 A User Group is a set of users who are related to a category. User Groups help administrators to select learners in their organization based on their attributes, and then assign learning content to them. Also, these User Groups enable administrators to assign customized logos and catalogs to learners and show customized reports on their progress.
+
+>[!INFO]
+>
+>In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 To access User Groups, on the left navigation pane, click **[!UICONTROL User Groups]**.
 
