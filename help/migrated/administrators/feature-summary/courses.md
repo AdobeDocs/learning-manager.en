@@ -17,12 +17,11 @@ Authors create courses. Learners then take the courses and Administrators can tr
 
 ## Create instance of a course {#createinstanceofacourse}
 
-### Manage instances
+### Set up instances
 
->[!INFO]
->
->In this training, you will learn how to edit instance details and instance properties.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+In this training, you will learn how to set up instance defaults, add a new instance, retire and reopen an instance, and configure email templates for an instance.
 
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
@@ -70,6 +69,14 @@ To create an instance,
 >[!NOTE]
 >
 >The admin cancels the sessions by going to Instances > Sessions and selecting Cancel Session.
+
+### Manage instances
+
+>[!INFO]
+>
+>In this training, you will learn how to edit instance details and instance properties.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ### Retire an instance {#retireaninstance}
 
