@@ -19,7 +19,7 @@ Administrators can also choose not to send email notifications for certain event
 
 In this training, you will learn how to customize individual email templates and customize course-level and account-level settings for email templates.
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QYL4NT4P&mv=display&mv2=display#/course/8318925)
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
@@ -212,14 +212,6 @@ You can also customize the following:
 * Edit the email footer. The footer area contains predefined variables for the account URL, the Signature, and any free-form text the user adds.
 
 The templates also support advanced editing capabilities such that formatting is retained when content is copied and pasted from and to Microsoft Word.
-
-### Set up instances
-
-In this training, you will learn how to set up instance defaults, add a new instance, retire and reopen an instance, and configure email templates for an instance.
-
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=P3KMQNZS&mv=display&mv2=display#/course/8318911)
-
-If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Inline invitations {#inlineinvitations}
 

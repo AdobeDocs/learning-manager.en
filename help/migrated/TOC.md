@@ -21,7 +21,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Manager compliance to GDPR](kb/prime-gdpr.md)
    * [Accessibility in Learning Manager](accessibility-learning-manager.md)
    * [Support for custom domain](custom-domain.md)
-   * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Transition from Adobe FTP Manager](transition-from-ftp-manager.md)
    * [Supported languages in Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [API deprecations and changes in Adobe Learning Manager](api-deprecations-list.md)
@@ -52,6 +51,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Set up interface language through SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [Peer accounts](administrators/feature-summary/peer-account.md)
    * [Create and modify skills and levels](administrators/feature-summary/skills-levels.md)
+   * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [AI-based recommendation of courses](ai-based-recommendations.md)
    * [Import skills](administrators/feature-summary/import-skills-external-sources.md)
    * [Gamification](administrators/feature-summary/gamification.md)
@@ -153,6 +153,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Frequently Asked Questions for Instructors](instructors/frequently-asked-questions-for-instructors.md)
    * [Frequently Asked Questions for Managers](managers/frequently-asked-questions-for-managers.md)
    * [Frequently Asked Questions for Learners](learners/frequently-asked-questions-for-learners.md)
+   * [New experience league announcements](/help/migrated/new-experience-league-announcement.md)
 * Knowledge Base {#knowledge-base}
    * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)

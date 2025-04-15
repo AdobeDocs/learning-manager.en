@@ -19,7 +19,7 @@ For example, when on-boarding new employees, an organization conducts training o
 
 In this training, you will learn how to create a Learning Path, add a course to it, publish and retire a Learning Path, and configure instances within a Learning Path.
 
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QQ42P2LR&mv=display&mv2=display#/course/8318919)
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318919)
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 

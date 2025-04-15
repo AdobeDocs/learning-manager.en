@@ -9,7 +9,7 @@ exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
 
 In this training, you will learn how to add users in bulk through a CSV. 
 
-[![button](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=51TC8QS1&mv=display&mv2=display#/course/7555555)
+[![button](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 

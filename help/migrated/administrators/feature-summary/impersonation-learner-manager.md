@@ -9,21 +9,22 @@ exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
 
 In large organizations, customer support personnel need impersonation capability to debug problems faced by learners.
 
-With this ability to impersonate other users, Admins and Custom Admins can identify and perform all the activities done by learners and managers of their organization.
+With this ability to impersonate other users, Admins can identify and perform all the activities done by learners and managers of their organization.
+
+>[!NOTE]
+>
+>Custom admins do not have the ability to impersonate users; only Admins can perform user impersonation.
 
 ## How it works
 
-Admins (and/or Custom Admins) can search for a user (internal or external) and then impersonate a user. The Admin is then redirected to the user's page (manager app if applicable, or else learner app), and then logs the Admin out of their session. The Admin is then redirected to the Complete your Profile page, in case that is set up for the user who has been impersonated by the Admin.
-
-If a Custom Admin has permission to access a user's page, then they can search for users who they want to impersonate.
+Admins can search for a user (internal or external) and then impersonate a user. The Admin is then redirected to the user's page (manager app if applicable, or else learner app), and then logs the Admin out of their session. The Admin is then redirected to the Complete your Profile page, in case that is set up for the user who has been impersonated by the Admin.
 
 Here's what you must keep in mind while impersonating a user:
 
 * All administrators see this feature by default.
 * Only active users in the account can be impersonated.
 * An Admin cannot impersonate themself.
-* A Custom Admin who has access to the Users page can impersonate users.
-* An Admin/Custom Admin can only impersonate for 60 mins.
+* An Admin can only impersonate for 60 mins.
 * A Custom Admin with read-only access cannot impersonate users.
 
 ## Impersonate a user
@@ -47,7 +48,7 @@ To impersonate a user, follow the steps below:
 
 **An impersonated session lasts for 60 minutes.**
 
-On changing to a learner or manager role, a message displays indicating that the admin/custom admin is in an impersonation mode of the user. 
+On changing to a learner or manager role, a message displays indicating that the admin is in an impersonation mode of the user. 
 
 ## Login and access report
 

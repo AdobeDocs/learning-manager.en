@@ -185,7 +185,7 @@ The training report has two additional columns:
 
 >[!INFO]
 >
->In this training, you will learn how to generate dashboard reports from the database.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=R3B5NPDN&mv=display&mv2=display#/course/8318854)</br></br>
+>In this training, you will learn how to generate dashboard reports from the database.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
 
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
@@ -436,6 +436,15 @@ As an administrator, you can download reports for courses. Follow these steps:
    >[!NOTE]
    >
    >Exported quiz score report will contain the score details for every attempt if the multi attempt option is configured for the module.
+
+### Generate Course Reports
+
+>[!INFO]
+>
+>In this training, you will learn how to export course reports and set up email subscriptions for these reports.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ### Learner Transcripts {#LearnerTranscripts-1}
 
@@ -921,7 +930,7 @@ You can get your favorite reports in an email by subscribing to them.
 
 >[!INFO]
 >
->In this training, you will learn how to set up email subscriptions for dashboard reports.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=PLHRQ62N&mv=display&mv2=display#/course/8318927)</br></br>
+>In this training, you will learn how to set up email subscriptions for dashboard reports.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
 
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
@@ -1168,15 +1177,6 @@ If there are multiple managers reporting to you, you can view the reports quickl
 >The manager values that you use to view the report are temporary. This view of report is not downloaded when you choose the download option. This view is only temporary view.
 
 ## View course reports {#viewcoursereports}
-
-### Generate Course Reports
-
->[!INFO]
->
->In this training, you will learn how to export course reports and set up email subscriptions for these reports.<br><br>[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=R726NKNM&mv=display&mv2=display#/course/8318904)</br></br>
-
-
-If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 You can view the reports specific to each course by following the below steps:
 
