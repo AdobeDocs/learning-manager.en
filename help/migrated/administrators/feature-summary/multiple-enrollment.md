@@ -11,6 +11,14 @@ Before the July 2023 release, when an Admin enrolled a learner, they could enrol
 
 Adobe Learning Manager's multi-enrollment feature helps an Admin avoid such scenarios.
 
+## Manage instances
+
+>[!INFO]
+>
+>In this training, you will learn how to edit instance details and instance properties.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ## What is multi-enrollment
 
 Multi-enrollment enrolls a learner multiple times in a course through various available instances.  A learner can enroll in multiple course instances irrespective of the state they're in-enrolled, completed, or yet to start. When the Author enables the [!UICONTROL Multiple Enrollment] toggle, a learner can then enroll in multiple instances of the course.

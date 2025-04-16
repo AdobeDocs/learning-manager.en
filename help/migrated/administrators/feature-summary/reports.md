@@ -437,6 +437,15 @@ As an administrator, you can download reports for courses. Follow these steps:
    >
    >Exported quiz score report will contain the score details for every attempt if the multi attempt option is configured for the module.
 
+### Generate Course Reports
+
+>[!INFO]
+>
+>In this training, you will learn how to export course reports and set up email subscriptions for these reports.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
 ### Learner Transcripts {#LearnerTranscripts-1}
 
 Adobe Learning Manager enables the administrators of an organization to generate the transcripts associated with learners. The Learner Transcript report carries the following:
@@ -1168,15 +1177,6 @@ If there are multiple managers reporting to you, you can view the reports quickl
 >The manager values that you use to view the report are temporary. This view of report is not downloaded when you choose the download option. This view is only temporary view.
 
 ## View course reports {#viewcoursereports}
-
-### Generate Course Reports
-
->[!INFO]
->
->In this training, you will learn how to export course reports and set up email subscriptions for these reports.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
-
-
-If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 You can view the reports specific to each course by following the below steps:
 
