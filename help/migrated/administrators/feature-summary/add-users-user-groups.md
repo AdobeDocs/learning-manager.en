@@ -104,7 +104,11 @@ Typically, most organizations work with an HR Management System (HRMS), which ma
 >
 >For more information, see the FAQ, [Add users in bulk](../add-users-in-bulk.md).
 
-After you have selected the users, you can perform the following:
+>[!INFO]
+>
+>In this training, you will learn how to add users in bulk through a CSV.<br><br>[![button](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ## Register a user {#registerauser}
 
