@@ -39,6 +39,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Create course instances and learning paths](administrators/feature-summary/courses.md)
    * [Content marketplace](administrators/feature-summary/content-marketplace.md)
    * [Reports](administrators/feature-summary/reports.md)
+   * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
    * [Learning Plans](administrators/feature-summary/learning-plans.md)
    * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
