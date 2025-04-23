@@ -1,6 +1,6 @@
 ---
 jcr-language: en_us
-title: Non-logged in experience for learners
+title: Group Success Dashboard
 description: Learn more about Group Success Dashboard in Adobe Learning Manager
 ---
 # Group Success Dashboard
@@ -93,10 +93,10 @@ Once the dashboard is created, you can view the dashboard by following these ste
    ![](assets/overview.png)
    _Overview of the store manager's team_
   
-  * **[!UICONTROL Learner Transcript]**: You can view the learner's progress by selecting a specific learner or course.  You can search for a specific learner within the dashboard and view their learning progress. If the dashboard created using the default catalog and all learners, you'll be able to search for any learner and easily check their progress.
+   * **[!UICONTROL Learner Transcript]**: You can view the learner's progress by selecting a specific learner or course.  You can search for a specific learner within the dashboard and view their learning progress. If the dashboard created using the default catalog and all learners, you'll be able to search for any learner and easily check their progress.
 
-  ![](assets/learner-transcript.png)
-   _Learner Transcript view_
+   ![](assets/learner-transcript.png)
+    _Learner Transcript view_
 
 >[!NOTE]
 >
