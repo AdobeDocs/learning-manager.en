@@ -55,6 +55,7 @@ Once enabled, admins can create a dashboard to view the learner's progress. To c
 
 2. Select the **[!UICONTROL Group Success Dashboard]**. The dashboard's name is **[!UICONTROL Store Manager Dashboard]**. 
  
+   ![](assets/team-gsd-dashboard.png)
    _Select Store Manager Dashboard_
 
    >[!NOTE]
@@ -119,7 +120,7 @@ The dashboard created can be shared with the other admins and managers. To share
 
 4. Select Proceed to share the dashboard.
 
-You can see the shared dashboard details under Reports > Group Success Dashboard (Store Manager Dashboard) > Shared dashboards.
+You can see the shared dashboard details under **[!UICONTROL Reports]** > **[!UICONTROL Group Success Dashboard]** (Store Manager Dashboard) > **[!UICONTROL Shared dashboards]**.
  
 ![](assets/shared-dashboard.png) 
 _Shared dashboard_
