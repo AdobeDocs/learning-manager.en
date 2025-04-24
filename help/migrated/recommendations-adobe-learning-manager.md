@@ -5,7 +5,7 @@ exl-id: 42083095-60a0-4e20-9097-3344d290da1a
 ---
 # Recommendations in Adobe Learning Manager
 
-Adobe Learning Manager has introduced a new and revamped recommendation system for courses. This recommendations feature uses AI algorithms and users' interests like Products, Roles, and Levels to provide personalized content recommendations.
+Adobe Learning Manager has introduced a new and revamped recommendation system for courses. This recommendations feature uses AI algorithms and users' interests like Products, Roles, and Levels to provide personalized content recommendations. Admins can set up their account based on the Products, Roles, and Levels.
 
 The new recommendations system allows you to create custom parameters that learners can select to receive personalized recommendations. These recommendations will be displayed as Courses, Learning Paths, and Certifications to learners on their homepage feed. 
 

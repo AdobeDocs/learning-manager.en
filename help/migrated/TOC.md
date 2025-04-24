@@ -155,6 +155,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Frequently Asked Questions for Managers](managers/frequently-asked-questions-for-managers.md)
    * [Frequently Asked Questions for Learners](learners/frequently-asked-questions-for-learners.md)
    * [New experience league announcements](/help/migrated/new-experience-league-announcement.md)
+   * [How to submit a support ticket on Experience League](/help/migrated/how-to-submit-support-ticket.md)
 * Knowledge Base {#knowledge-base}
    * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
