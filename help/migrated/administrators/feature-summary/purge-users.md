@@ -55,6 +55,10 @@ To purge users, follow these steps:
 
 1. Once you confirm and click Purge, the purge request is accepted. You receive a notification once the action is complete. A purge request ID is also provided. You can provide this ID to the CSM to track the request.
 
+>[!NOTE]
+>
+>Once the deleted user is added back to the system, the previous roles (e.g. Admin, Manager, Author, Instructor etc.) will not be retained.They will be added with the learner role. 
+
 ## Bulk purge of users
 
 You can select the first 50 users and purge the users in one shot. This allows Administrators to select 50 users at once and purge them together. This helps Administrators when they wish to purge users in bulk. It's always a best practice to check the users who are selected for purging. This is important to ensure only the correct set of users are getting purged. 
