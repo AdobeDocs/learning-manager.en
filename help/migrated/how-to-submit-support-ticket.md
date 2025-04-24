@@ -49,5 +49,5 @@ You can escalate a case by selecting the "Escalate to management" option on the 
 
 For our Support leadership team to address your escalations in the most efficient manner, please submit a case escalation only if it is severely impacting your organization, partners, or customers.
  
-If you have any further questions on how to use the **[!UICONTROL Experience League Support]** portal, please let us know in the comment section below, or reach out to our Support team directly at this email address [almdynsupp@adobe.com](almdynsupp@adobe.com).
+If you have any further questions on how to use the **[!UICONTROL Experience League Support]** portal, please let us know in the comment section below, or reach out to our Support team directly at this email address [almdynsupp@adobe.com](mailto:almdynsupp@adobe.com).
 
