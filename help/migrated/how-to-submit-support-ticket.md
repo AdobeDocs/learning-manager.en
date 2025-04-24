@@ -3,7 +3,7 @@ jcr-language: en_us
 title: How to submit a support ticket on experience league
 description: Learn how to submit a support request on Experience League
 ---
-# How to submit a support ticket on experience league
+# How to submit a support ticket on Experience League
 
 The process for submitting Adobe Learning Manager support tickets is now directly integrated with the Experience League support platform. This is a self-service portal that was recently redesigned to offer more personalization and ease-of-use for entitled customers. Check out this guide below for more information on how to access the Experience League Support portal and log a ticket.
  
