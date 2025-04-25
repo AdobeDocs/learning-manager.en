@@ -277,6 +277,87 @@ _Filter custom roles_
    * A custom admin having permission to  Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
    * If a custom admin has permission on the Users entity, they can assign Admin role to themselves and become a standard Admin.
 
+## Assign multiple custom roles to a user
+
+Admins can assign more than one custom role to a single user. This feature is especially helpful for large organizations, allowing roles to be reassigned to existing custom admin users when custom admins move to other teams or leave the organization.
+
+Custom roles have clear names in the user interface, so it's easier to know which role you're using. Custom admins can see their assigned roles in the profile section (top right corner) and switch between roles easily. 
+
+![](assets/custom-roles-profiles.png) 
+_Switch custom roles_
+
+To view and select any custom roles assigned to you, use the **[!UICONTROL Switch custom role]** option.  
+
+![](assets/switch-roles.png)
+_Select custom roles_
+
+Users receive email notifications when the custom roles are assigned to them. The emails now includes role names for better clarity.
+
+>[!NOTE]
+>
+>You can add up to 50 roles per user and 500 users per role.
+
+To assign multiple custom roles to a user, follow these steps:
+
+1. Log in as an admin and select **[!UICONTROL Users]**.
+2. Select **[!UICONTROL Custom Roles]** on the left panel.
+3. Create a new custom role and add account privileges, catalogs, learning objects, or scopes. Refer the steps mentioned [here](#create-a-custom-role). 
+4. Add users to the custom role.
+  
+   ![](assets/add-users-in-custom-roles.png) 
+   _Assign users to a custom roles_
+
+5. Select Save.
+
+In a same way you can assign multiple roles to a same user. For each custom role assignment, the number of available roles decreases. A user can be assigned up to 50 custom roles.
+
+After assigning the same users to another custom role, you can view the remaining number of custom roles available for those users.
+
+### Manage custom roles
+
+After you assign custom roles to users, you can add or remove custom roles from the **[!UICONTROL Users]** page.
+
+1. Search for a user on the **[!UICONTROL Users]** page.
+ 
+   ![](assets/search-user-role.png)
+   _Search for a user in Users page_
+
+2. Select the drop down near the user and select **[!UICONTROL Manage custom roles]**.
+
+   ![](assets/select-manage-custom-roles.png)
+   _Select Manage custom roles in user page_
+
+3. A dialog appears that displays the list of custom roles assigned to the user. Select **[!UICONTROL Add/remove roles]** to add or remove custom roles assigned to the user.
+
+ 
+   _Add or remove custom roles_
+
+4. Search for other custom roles to be assigned to the user. After you locate one, select the custom role. 
+ 
+   _Manage custom roles_
+
+5. Select **[!UICONTROL Save]**. A confirmation dialog for the change in the custom role appears. Select **[!UICONTROL Yes]**.
+ 
+   _Change in custom role assignment prompt_
+
+A third custom role is assigned to the user.
+ 
+ _View the custom roles_
+
+To remove the custom roles, follow these steps:
+
+1. Search for a user on the **[!UICONTROL Users]** page.
+2. Select the dropdown near the user and select **[!UICONTROL Manage custom roles]**.
+3. Select **[!UICONTROL Add/remove roles]** to add or remove custom roles.
+4. Select the **[!UICONTROL remove icon]** to delete the custom role.
+ 
+   _Remove custom roles_
+
+>[!NOTE]
+>
+>Custom admins cannot manage custom roles (add or remove custom role) or promote themselves to the administrator role.
+
+
 ## Custom role report
 
 Admins can download a CSV report of all custom roles and their permissions. The report shows how each role was created, either by an admin or through a CSV file, and outlines the highlights the access given to each role.

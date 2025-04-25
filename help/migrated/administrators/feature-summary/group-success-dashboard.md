@@ -5,7 +5,7 @@ description: Learn more about Group Success Dashboard in Adobe Learning Manager
 ---
 # Group Success Dashboard
 
-The Group Success Dashboard provides a more efficient and user-friendly way for admins and managers to monitor and track the progress of their teams' learning activities.
+The Group Success Dashboard offers an efficient and user-friendly way for admins and managers to monitor and track their teams' training progress.
 
 Group Success Dashboard offers the following:
 
@@ -17,15 +17,15 @@ The Group Success Dashboard makes it easier to track learner progress. Instead o
 
 Admins can create dashboards by giving them a name, selecting user groups, and choosing the courses or learning paths. The dashboards can be shared with other admins or managers.
 
-## Enable Group Success Dashboard
+## Enable the Group Success Dashboard
 
 Admin must enable the Group Success Dashboard for the account. To enable the Group Success Dashboard in Adobe Learning Manager, follow these steps:
 
 1. Log in as an admin.
 2. Select **[!UICONTROL Settings]** > **[!UICONTROL Reports]** and then select the **[!UICONTROL Dashboard visibility]** toggle.
    ![](assets/go-to-settings.png)
-   _Select Settings on the Admin homepage_
-3. Type the dashboard name. For example, **[!UICONTROL Store Manager Dashboard]**. 
+   _Select Settings in the Admin homepage_
+3. Type the dashboard name (e.g., **[!UICONTROL Store Manager Dashboard]**).
    ![](assets/enable-gsd.png)
    _Group Success Dashboard interface_
 4. Select **[!UICONTROL Overview Visibility]** to enable the overview section in the dashboard. This section allows you to view the progress of up to 50 learners. 
@@ -37,12 +37,15 @@ Admin must enable the Group Success Dashboard for the account. To enable the Gro
    * Enrollment date
    * Last access date
    * Completion date
-   * Completion deadline
 
 Once enabled, you can view the **[!UICONTROL Group Success Dashboard]** under the **[!UICONTROL Reports]** section. 
 
 ![](assets/team-gsd-dashboard.png)
 _Store Manager Dashboard enabled in Reports_
+
+>[!NOTE]
+>
+>Currently, the **[!UICONTROL Last access date]** column displays data only for Learning Paths and Certifications. Support for courses will be added by mid-June.
 
 ## Create Group Success Dashboard
 
@@ -51,7 +54,7 @@ Once enabled, admins can create a dashboard to view the learner's progress. To c
 1. Log in as an admin and select the **[!UICONTROL Reports]** page.
  
    ![](assets/go-to-reports.png)
-   _Select Reports on the Admin homepage_
+   _Select Reports in the Admin homepage_
 
 2. Select the **[!UICONTROL Group Success Dashboard]**. The dashboard's name is **[!UICONTROL Store Manager Dashboard]**. 
  
@@ -73,6 +76,10 @@ Once enabled, admins can create a dashboard to view the learner's progress. To c
  
    ![](assets/create-gsd.png)
    _Select user group and courses_
+
+   >[!NOTE]
+   >
+   >Recurring certificates are not supported in the dashboard.
 
 7. Select **[!UICONTROL Create dashboard]**. 
 
@@ -124,3 +131,7 @@ You can see the shared dashboard details under **[!UICONTROL Reports]** > **[!UI
  
 ![](assets/shared-dashboard.png) 
 _Shared dashboard_
+
+>[!NOTE]
+>
+>The manager or custom admin can only see the enabled catalogs on the dashboard shared by the admin.
