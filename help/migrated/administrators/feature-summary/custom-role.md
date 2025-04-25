@@ -329,20 +329,20 @@ After you assign custom roles to users, you can add or remove custom roles from 
 
 3. A dialog appears that displays the list of custom roles assigned to the user. Select **[!UICONTROL Add/remove roles]** to add or remove custom roles assigned to the user.
 
- 
-   _Add or remove custom roles_
+   ![](assets/add-remove-roles.png)
+   _Select Add/Remove roles in Manage Custom Roles prompt_
 
 4. Search for other custom roles to be assigned to the user. After you locate one, select the custom role. 
  
-   _Manage custom roles_
+   ![](assets/add-new-custom-role.png)
+   _Select the custom role_
 
 5. Select **[!UICONTROL Save]**. A confirmation dialog for the change in the custom role appears. Select **[!UICONTROL Yes]**.
  
-   _Change in custom role assignment prompt_
+   ![](assets/confirmation-prompt.png)
+   _Select yes in the confirmation prompt_
 
 A third custom role is assigned to the user.
- 
- _View the custom roles_
 
 To remove the custom roles, follow these steps:
 
@@ -351,12 +351,12 @@ To remove the custom roles, follow these steps:
 3. Select **[!UICONTROL Add/remove roles]** to add or remove custom roles.
 4. Select the **[!UICONTROL remove icon]** to delete the custom role.
  
+   ![](assets/remove-custom-roles.png)
    _Remove custom roles_
 
 >[!NOTE]
 >
 >Custom admins cannot manage custom roles (add or remove custom role) or promote themselves to the administrator role.
-
 
 ## Custom role report
 
