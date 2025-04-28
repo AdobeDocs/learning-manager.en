@@ -2,6 +2,7 @@
 jcr-language: en_us
 title: How to submit a support ticket on experience league
 description: Learn how to submit a support request on Experience League
+exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
 ---
 # How to submit a support ticket on Experience League
 
@@ -50,4 +51,3 @@ You can escalate a case by selecting the "Escalate to management" option on the 
 For our Support leadership team to address your escalations in the most efficient manner, please submit a case escalation only if it is severely impacting your organization, partners, or customers.
  
 If you have any further questions on how to use the **[!UICONTROL Experience League Support]** portal, please let us know in the comment section below, or reach out to our Support team directly at this email address [almdynsupp@adobe.com](mailto:almdynsupp@adobe.com).
-
