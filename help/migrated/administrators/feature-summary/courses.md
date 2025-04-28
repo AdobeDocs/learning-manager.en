@@ -233,6 +233,76 @@ The report contains data of active, deleted, and suspended users if they are pen
 
 If a learner who was earlier in pending approval state, unenrolls, then his/her record will not be present in the report. Also if a learner who was earlier in pending approval state, is enrolled to the course by admin/manager/custom admin enrollment, then his/her record is present in the report.
 
+## Learner bulk enrollment, attendance, and completion
+
+Admins and instructors manually mark completions and attendance when they get attendance rosters after session completions. This requires a lot of redundant work to update names and mark completions for them. This bulk workflows allows admins and instructors to update a CSV with email IDS of learners and directly upload it to the Adobe Learning Manager to mark enrollment, completions, and even mark attendance.
+
+### Enroll learners in bulk using a csv
+
+Admins are able to bulk enroll learners into a course. To enroll bulk learners using CSV, follow these steps:
+
+1. Log in as admin.
+2. Go to **[!UICONTROL Courses]** and select any course.
+3. Select **[!UICONTROL Learners]** in the **[!UICONTROL Course Overview]** page. 
+4. Select **[!UICONTROL Enroll]**, and then select **[!UICONTROL Upload a CSV]**.  
+   ![](assets/upload-a-csv-learners.png)
+   _Enrolling learners using CSV_
+5. Upload a CSV and select **[!UICONTROL Proceed]**. 
+
+The CSV contains a column named **[!UICONTROL userEmail]**, where you need to enter the users' email addresses.
+
+>[!NOTE]
+>
+>You can enroll up to 100,000 users using CSV.
+
+### Mark completion in bulk
+
+Admins are able to mark the bulk completion for learners. To mark the bulk completion, follow these steps:
+
+1. Go to **[!UICONTROL Courses]** and select any course.
+2. Select **[!UICONTROL Learners]** in the **[!UICONTROL Course Overview]** page.
+3. Select **[!UICONTROL Actions]** > **[!UICONTROL Mark Completion]** > **[!UICONTROL Bulk]**.
+4. There are two ways to mark the bulk completion:
+   * **[!UICONTROL  Email IDs]**: Type the email IDs of the learners.
+   * **[!UICONTROL Upload a CSV]**: Upload the CSV with the email ID of the learners.
+
+   ![](assets/bulk-completion.png)
+   _Marking bulk completion using CSV_
+
+>[!NOTE]
+>
+>You can mark the completion up to 10,000 users using CSV.
+
+### Mark attendance in bulk
+
+Admins are able to mark the bulk attendance for learners. To mark the bulk attendance, follow these steps:
+
+1. Go to **[!UICONTROL Courses]** and select any course.
+2. Select **[!UICONTROL Attendance & Scoring]** in the **[!UICONTROL Course Overview]** page. 
+3. Select **[!UICONTROL Actions]**, and then select **[!UICONTROL Mark Bulk Attended]**.
+4. There are two ways to mark the bulk attendance:
+   * **[!UICONTROL Email IDs]**: Enter the email IDs of the learners.
+   * **[!UICONTROL Upload a CSV]**: Upload the CSV with the email ID of the learners.
+ 
+   ![](assets/mark-bulk-attendance.png)
+   _Marking bulk attendance using CSV_
+
+>[!NOTE]
+>
+>You can mark attendance for up to 10,000 users in bulk using CSV.
+
+### Error notification for bulk enrollment
+
+Errors will occur during CSV upload for bulk enrollment in the following scenarios:
+
+* The user's email in the CSV is not listed in the Adobe Learning Manager user directory.
+* The CSV file does not follow the required format.
+* The CSV contains additional columns or incorrect data.
+
+![](assets/error-bulk.png)
+_Error notification_
+You can download the CSV file listing the errors with failed users at the row level for easy identification.
+
 ## Waitlist
 
 The waitlist section allows learners to be waitlisted for classroom courses when seats are limited, based on their order of enrollment. Administrators can manage this by selecting waitlisted learners and allocating seats beyond the initial limit. Once a seat is allocated by the administrator, the learner is immediately enrolled in the course.
