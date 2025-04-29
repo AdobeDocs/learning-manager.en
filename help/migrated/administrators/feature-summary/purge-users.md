@@ -67,6 +67,36 @@ You can select the first 50 users and purge the users in one shot. This allows A
 
 *Purge users in bulk*
 
+## Filter deleted users before purging
+
+Admins can filter users by the month they were deleted, making it easier to identify and purge users who were deleted in a specific timeframe.
+The feature is designed to help admins manage and purge users who have been deleted for a certain period. This is particularly useful for maintaining data hygiene and ensuring that old, unused user data is removed from the system. 
+
+### Filter and sort by deletion month
+
+To filter the deleted users using deletion month, follow these steps:
+
+1. Select **[!UICONTROL Users]** in the admin home and then select **[!UICONTROL User Cleanup]**.
+2. Select the **[!UICONTROL Select Deletion Month]** date picker and select the date.
+ 
+   ![](assets/deletion-date.png)
+   _Select the deletion month_
+
+   The list of users deleted in the selected month displays.
+   ![](assets/list-of-user-deleted.png)
+   List of users deleted
+
+3. In the list of deleted users, sort the users according to their user IDs or deletion date.
+   
+   ![](assets/sort-by-date.png)
+   List of users filtered based on user ID
+4. Select a user or multiple users.
+5. Select **[!UICONTROL Actions]** and then select **[!UICONTROL Purge User]**.
+6. Select Purge on the confirmation message to delete the user permanently from Adobe Learning Manager.
+
+   ![](assets/select-purge.png)
+   _Select Purge in confirmation prompt_
+
 +++Read about the results of Purge User action
 
 <table>

@@ -7,7 +7,38 @@ exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
 ---
 # Content marketplace
 
-Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
+Adobe Learning Manager now offers enhanced purchasing options for Go1 content, introducing two new plans, **[!UICONTROL Premium Essentials]** and **[!UICONTROL Premium Essentials Plus]**. These models provide greater flexibility for organizations to access a wide range of learning content based on their needs.
+
+**[!UICONTROL Premium Essentials]**:
+A cost-effective solution designed to enhance employee engagement. This plan includes content from trusted providers such as:
+
+* EasyLlama
+* Skillshub
+* Thomson Reuters
+* Emtrain
+* Harvard ManageMentor
+
+**[!UICONTROL Premium Essentials Plus]**:
+This plan offers a broader selection of content from top-tier providers, including:
+
+* Blinkist
+* Pluralsight
+* Skillsoft
+* Traliant
+* Coursera
+
+![](assets/purchase-plans.png)
+_Purchase plans_
+
+To browse and acquire content from Go1 and other providers, navigate to the **[!UICONTROL Content Marketplace]** from the admin homepage. Admins can preview and explore the Content Hub for both **[!UICONTROL Premium Essentials]** and **[!UICONTROL Premium Essentials Plus]** plans.
+
+Adobe Learning Manager syncs regularly with the content hub, ensuring that new additions and updates are automatically reflected in the platform.
+
+All content is mapped to supported languages, allowing administrators to filter and manage content more effectively based on language preferences.
+
+Content providers manage the removal of outdated content, ensuring that no learning material is decommissioned without prior notice.
+
+<!--Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
 
 In the Administrator app, there is a new option **[!UICONTROL Content Marketplace]**, which you'll find on the left panel.
 
@@ -15,17 +46,27 @@ Users can purchase from curated playlists covering various topics or purchase th
 
 On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.
 
-The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.
+The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.-->
 
-**Invite users**
+## Request a quote
 
-Invite users to Content Marketplace to explore content and express interest. As an administrator, you can either invite all learners in the account or invite selected learners. To grant access to learners, you must invite them.
+To download the  (Request for Quote), admins can select the license type and type the number of seats to generate the quote. Select **[!UICONTROL Download RFQ]** to download the quote. 
 
-A learner can also be revoked from the Content marketplace option. To revoke access, click the **[!UICONTROL Revoke Access]** link.  Users will no longer be able to see the Contet Marketplace page in the learner app. 
+![](assets/purchase-plans-go1.png)
+_Request for a quote_
 
-This option is selected by default for all new accounts. For existing accounts, the Administrator must invite the users to explore the marketplace.
+Send the quote to [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com) to activate your license. You can also contact your Adobe Customer Success Manager to start the purchase process.
 
-## Purchase
+## Invite users
+
+As an admins, you can invite learners to explore and preview the **[!UICONTROL Content Hub]**. Administrators can also revoke access to the **[!UICONTROL Content Hub]** by selecting the **[!UICONTROL Remove all users acces]** link. Once access is revoked, learners will no longer see the Content Hub page in their learner app.
+
+![](assets/invite-users.png)
+_Invite users to access Content Hub_
+
+By default, this option is enabled for all new accounts. For existing accounts, administrators must manually invite learners to access the Content Marketplace.
+
+<!--## Purchase
 
 You get unlimited access to the entire library of courses. Click the **[!UICONTROL Purchase]** button to download a Purchase Request form.
 
@@ -49,23 +90,23 @@ Once the courses are added to the catalog, the Administrator can then grant acce
 
 ![](assets/licenses.png)
 
-*Grant access to training to users and user groups*
+*Grant access to training to users and user groups*-->
 
-## Express interest report
+<!--## Express interest report
 
 When a learner clicks Express interest to Catalog in the Learner app, the interest is recorded in an Express interest report. The Administrator can download the report. The report (csv) contains the following fields:
 
 * Name of the catalog
 * Number of users expressing interest
-* Email of the user expressing interest
+* Email of the user expressing interest-->
 
 ## Email templates
 
 To support this workflow, there are three email templates that you can use:
 
-1. **[!UICONTROL Content Activation Successful]:** This is sent when purchsing a content with a key name is successful. All training that is purchased is now available.
-1. **[!UICONTROL Automated User Upload Failure]:** This is sent when the auto-update of CSV in the account fails for some reason.
-1. **[!UICONTROL Invite Users to Explore Content]:** This is an invitation email sent to learners when the Administrator purchased courses. The administrator can view the Express Interest report to understand the overall requirements and take the purchase decision.
+1. **[!UICONTROL Content Activation Successful]:** This is sent when purchasing a content with a key name is successful. All training that is purchased is now available.
+2. **[!UICONTROL Automated User Upload Failure]:** This is sent when the auto-update of CSV in the account fails for some reason.
+3. **[!UICONTROL Invite Users to Explore Content]:** This is an invitation email sent to learners when the Administrator purchased courses. The administrator can view the Express Interest report to understand the overall requirements and take the purchase decision.
 
 1. Purchased courses cannot be added in recurring certificates.
 1. Purchased courses cannot be shared to peer accounts.

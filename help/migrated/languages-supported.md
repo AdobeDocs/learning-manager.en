@@ -76,3 +76,10 @@ Adobe Learning Manager supports the following interface and content languages.
 |Bulgarian|-|bg|
 |Dutch (Belgium) |-|nl-be|
 |Portuguese Portugal|-|pt-PT|
+|Chinese (Traditional, Hong Kong)|-|zh-HK|
+|Norwegian Bokmål|-|nb-NO|
+|Tamil|-|ta-IN|
+|Telugu|-|te-IN|
+|Kannada|-|kn-IN|
+|Malayalam|-|ml-IN|
+

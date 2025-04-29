@@ -89,3 +89,19 @@ Users can manually update their language settings in the user profile section. T
 If a user is soft deleted from ALM, the language settings will be retained in the database. When the same user is added again, the previously set language will be restored. 
 
 Admins can check User Activity, Learning Summary, and Compliance Dashboard reports for language-specific details.
+
+## User language preference update on login through SAML
+
+Adobe Learning Manager is a multilingual platform that supports learners' language preferences in several ways, through the interface, content, and course modules, all available in multiple languages.
+
+With this enhancement, Adobe Learning Manager improves just-in-time user provisioning for native platform users. When new users create accounts and log in for the first time, their language preferences are accurately captured and applied automatically.
+
+### Key Benefits
+
+* Automatically updates users' language preferences during login.
+* Provides a personalized experience by displaying the interface and content in the user's preferred language.
+* Seamlessly integrates with the SAML authentication process.
+
+When users log in through SAML, their language preference (Interface and Content language) is checked and updated based on the information provided during the login process.
+
+The feature integrates with the SAML login process to capture and update the user's language preference seamlessly. 
