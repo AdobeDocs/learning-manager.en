@@ -33,7 +33,7 @@ Refer this [article](/help/migrated/administrators/feature-summary/group-success
 
 ## Custom role enhancements
 
-Administrator can now assign more than one custom role to a single user. This feature is especially helpful for large organizations, allowing roles to be reassigned to existing custom admin users when custom administrators move to other teams or leave the organization.
+Administrator can now assign more than one custom role to a single user. This feature is especially helpful for large organizations, allowing roles to be reassigned to existing custom administrator users when custom administrators move to other teams or leave the organization.
 Administrator can create custom roles with specific permissions, like access to certain user catalogs or features. The new update allows one user to have multiple custom roles.
 Custom roles have clear names in the user interface, so it's easier to know which role you're using. Custom administrators can see their assigned roles in the profile section (top right corner) and switch between roles easily.
 
@@ -117,9 +117,9 @@ Refer to this [article](/help/migrated/administrators/feature-summary/purge-user
 
 ## Adobe Connect connector enhancements
 
-### Support for Seminars with large audiences
+### Support for seminars with large audiences
 
-ALM now also supports selecting Seminar rooms from Adobe Connect while setting up a VC session in Connect. Previously, admins could only select the Meeting room type. This enhancement enables admins with a valid seminar license to schedule and manage one-time or large-scale events (up to 1,500 attendees) within ALM.
+ALM now also supports selecting Seminar rooms from Adobe Connect while setting up a VC session in Connect. Previously, administrator could only select the Meeting room type. This enhancement enables administrator with a valid seminar license to schedule and manage one-time or large-scale events (up to 1,500 attendees) within ALM.
 
 Refer to this [article](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) for more information about the Seminar room.
 
@@ -206,7 +206,7 @@ The following sample responses illustrate various error scenarios:
 
 * Fixed an issue where `dateCompleted`, `dateEnrolled`, and `dateStarted` were incorrectly set to the `dateModified` value in the Get Learning Object API response for Job Aids.
 * Fixed an issue where the user API endpoint returned generic error messages; it now shows clear details indicating the specific field causing the failure.
-* Fixed an issue where the `/learningObjects` endpoint returned empty results when accessed by admins for the default catalog.
+* Fixed an issue where the `/learningObjects` endpoint returned empty results when accessed by administrator for the default catalog.
 * Fixed an issue where Job Aids that were not migrated to the latest version were not appearing in the public API response.
 * Fixed an issue where unrelated skills were being shown on courses in the learner's Recommendation section.
 * Fixed an issue where renaming a content folder did not reflect the updated name in search results.
