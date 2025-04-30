@@ -106,14 +106,14 @@ To support this workflow, there are three email templates that you can use:
 
 1. **[!UICONTROL Content Activation Successful]:** This is sent when purchasing a content with a key name is successful. All training that is purchased is now available.
 2. **[!UICONTROL Automated User Upload Failure]:** This is sent when the auto-update of CSV in the account fails for some reason.
-3. **[!UICONTROL Invite Users to Explore Content]:** This is an invitation email sent to learners when the Administrator purchased courses. The administrator can view the Express Interest report to understand the overall requirements and take the purchase decision.
+3. **[!UICONTROL Invite Users to Explore Content]:** This is an invitation email sent to learners when the Administrator purchased courses. 
 
-1. Purchased courses cannot be added in recurring certificates.
-1. Purchased courses cannot be shared to peer accounts.
-1. Purchased courses can be consumed by all users who get access to it. Configure the catalog visibility to restrict the visibility of purchased courses to limited users.
-1. Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.
+<!--Purchased courses cannot be added in recurring certificates.
+Purchased courses cannot be shared to peer accounts.
+Purchased courses can be consumed by all users who get access to it. Configure the catalog visibility to restrict the visibility of purchased courses to limited users.
+Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.-->
 
-## Content Hub in Content Marketplace
+<!--## Content Hub in Content Marketplace
 
 Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists from learner app. Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.
 
@@ -139,4 +139,4 @@ Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTRO
 
 *Download the Purchase Request form*
 
-The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.
+The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.-->
