@@ -64,6 +64,8 @@ The unique code feature supports integration with content migration processes, a
 
 The Training report now includes two new columns: Content Expiry Date (UTC TimeZone) and Content Unique ID, to track content expiry and content unique ID.
 
+The content expiry and Unique ID are supports via migration as well
+
 Refer this [article](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) for more information. 
 
 ## New content languages
