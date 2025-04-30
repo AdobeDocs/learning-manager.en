@@ -6,18 +6,18 @@ description: Learn more about the ALM AI Assistant (Beta)
 
 # ALM AI assistant (beta)
 
-The AI Assistant in Adobe Learning Manager (ALM) is a powerful tool designed to help administrators manage their learning environment efficiently. Using natural language conversation, admins can ask questions, get in-app information, receive suggestions, and execute administrative workflows without leaving the platform.
+The AI Assistant in Adobe Learning Manager (ALM) is a powerful tool designed to help administrators manage their learning environment efficiently. Using natural language conversation, administrator can ask questions, get in-app information, receive suggestions, and execute administrative workflows without leaving the platform.
 
 ## Key benefits
 
-* Perform common admin tasks faster with conversational guidance.
+* Perform common administrator tasks faster with conversational guidance.
 * Get instant answers without browsing through extensive menus.
 * Gain real-time insights and step-by-step guidance for administrative workflows.
 
 
 >[!IMPORTANT]
 >
->The ALM AI Assistant (Beta) is designed solely for requests related to Adobe Learning Manager and it's available only for Admins.
+>The ALM AI Assistant (Beta) is designed solely for requests related to Adobe Learning Manager and it's available only for administrator.
 
 ## Privacy, security, and governance
 
@@ -35,7 +35,7 @@ Access the ALM AI Assistant
 
 To access the AI Assistant in ALM, follow these steps:
 
-1. Log in to your Adobe Learning Manager admin account.
+1. Log in to your Adobe Learning Manager administrator account.
 2. Select the Chat icon in the lower-right corner.
  
    ![](assets/alm-ai-assistant.png)
@@ -51,7 +51,7 @@ To access the AI Assistant in ALM, follow these steps:
 
 ## Using the AI assistant
 
-The AI Assistant can help you with various admin tasks such as:
+The AI Assistant can help you with various administrator tasks such as:
 
 * Managing user enrollments
 * Generating course completion reports

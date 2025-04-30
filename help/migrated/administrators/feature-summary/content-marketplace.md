@@ -30,7 +30,7 @@ This plan offers a broader selection of content from top-tier providers, includi
 ![](assets/purchase-plans.png)
 _Purchase plans_
 
-To browse and acquire content from Go1 and other providers, navigate to the **[!UICONTROL Content Marketplace]** from the admin homepage. Admins can preview and explore the Content Hub for both **[!UICONTROL Premium Essentials]** and **[!UICONTROL Premium Essentials Plus]** plans.
+To browse and acquire content from Go1 and other providers, navigate to the **[!UICONTROL Content Marketplace]** from the administrator homepage. Admins can preview and explore the Content Hub for both **[!UICONTROL Premium Essentials]** and **[!UICONTROL Premium Essentials Plus]** plans.
 
 Adobe Learning Manager syncs regularly with the content hub, ensuring that new additions and updates are automatically reflected in the platform.
 
@@ -50,7 +50,7 @@ The Enterprise Training page in the Administrator app enables you to invite user
 
 ## Request a quote
 
-To download the  (Request for Quote), admins can select the license type and type the number of seats to generate the quote. Select **[!UICONTROL Download RFQ]** to download the quote. 
+To download the  (Request for Quote), administrator can select the license type and type the number of seats to generate the quote. Select **[!UICONTROL Download RFQ]** to download the quote. 
 
 ![](assets/purchase-plans-go1.png)
 _Request for a quote_
@@ -59,7 +59,7 @@ Send the quote to [learningmanagersales@adobe.com](mailto:learningmanagersales@a
 
 ## Invite users
 
-As an admins, you can invite learners to explore and preview the **[!UICONTROL Content Hub]**. Administrators can also revoke access to the **[!UICONTROL Content Hub]** by selecting the **[!UICONTROL Remove all users acces]** link. Once access is revoked, learners will no longer see the Content Hub page in their learner app.
+As an administrator, you can invite learners to explore and preview the **[!UICONTROL Content Hub]**. Administrators can also revoke access to the **[!UICONTROL Content Hub]** by selecting the **[!UICONTROL Remove all users acces]** link. Once access is revoked, learners will no longer see the Content Hub page in their learner app.
 
 ![](assets/invite-users.png)
 _Invite users to access Content Hub_

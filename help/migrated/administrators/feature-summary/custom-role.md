@@ -31,7 +31,7 @@ Custom authors can perform the following tasks:
 
 Admins and authors, including custom admins and custom authors, will have the ability to share learning objects (LOs) to externally shared catalogs. Admins and authors should be able to search for externally shared catalogs while creating learning objects (LOs).
 
-**Custom Admin Role Permissions**
+**Custom administrator Role Permissions**
 
 The custom admin role replicates a set of admin responsibilities, including access to account-level privileges. Custom admins are granted permissions for managing key features related to learning activities, such as:
 
@@ -269,13 +269,13 @@ _Filter custom roles_
    **Add users to custom role CSV upload:** To add users via CSV uploaded, add a CustomRole column to the .csv file that the Administrator used to import users. Enter the role of the user under the CustomRole column for the users to whom you wish to assign a custom role. To upload the CSV file, click  **[!UICONTROL Add > Upload a CSV]**.
 
    * You cannot search User Groups.
-   * You cannot search users who already have Admin role assigned to them.
+   * You cannot search users who already have administrator role assigned to them.
    * Assigning a new custom role to a user overrides user's previous custom role.
 
    <!--![](assets/users.png)-->
 
    * A custom admin having permission to  Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
-   * If a custom admin has permission on the Users entity, they can assign Admin role to themselves and become a standard Admin.
+   * If a custom admin has permission on the Users entity, they can assign administrator role to themselves and become a standard administrator.
 
 ## Assign multiple custom roles to a user
 
@@ -405,9 +405,9 @@ After you click the option, a new dialog opens, where you can assign the folders
 
 Choose the folders and click **[!UICONTROL OK]**. 
 
-## Learning Summary Dashboard for Custom Admin {#custom-admin-dashboard}
+## Learning Summary Dashboard for Custom administrator {#custom-admin-dashboard}
 
-Custom admins can see the same view as what an Admin sees. A custom admin may data outside his scope. This is only applicable if the custom admin has full scope. To grant full scope, while creating a custom admin, enable the option **[!UICONTROL Full Control]** in Account Summary Report.
+Custom admins can see the same view as what an administrator sees. A custom admin may data outside his scope. This is only applicable if the custom admin has full scope. To grant full scope, while creating a custom admin, enable the option **[!UICONTROL Full Control]** in Account Summary Report.
 
 ![](assets/create-custom-role.png)
 
@@ -545,17 +545,17 @@ In earlier versions of Learning Manager, any Custom Role with permission to crea
 
 The scope setting used to be disabled when learning plan access was granted, which gave the user access to All Catalogs and All User Groups by default.
 
-All learning plans created by an Admin, by default, are applicable to all users. Users can also be assigned any Learning Object. On the other hand, users with Custom Roles have access to full scopes, for example, all catalogs, Learning Objects, or User Groups. This meant that admins were unable to create Custom Roles as expected that allowed access to Learning Plans for users with limited scope.
+All learning plans created by an administrator, by default, are applicable to all users. Users can also be assigned any Learning Object. On the other hand, users with Custom Roles have access to full scopes, for example, all catalogs, Learning Objects, or User Groups. This meant that admins were unable to create Custom Roles as expected that allowed access to Learning Plans for users with limited scope.
 
 In this update of Learning Manager, you can create Custom Roles for Learning Plans that allow scoping of users and Learning Objects. In other words, Learning Plans can be created with a limited scope that is derived from a custom admin's role scope.
 
-Now, an Admin can define or restrict the scope while granting learning plan management access.
+Now, an administrator can define or restrict the scope while granting learning plan management access.
 
 Custom admins can create learning plans with a limited scope, determined by the scope of the custom admin's configurable role. Such learning plans are only accessible to custom admins with the same role, besides being accessible to regular admins. In addition, the custom admins cannot see any other Learning Plans in the account.
 
 Existing custom admins, having access to Learning Plans, will always have full scope (by definition). They will have access to all learning plans in the account just like a regular admins do. New custom roles created with full scope and new custom admins added to such roles, will continue to have access to all learning plans.
 
-Learning plans created by Admins and full scope custom admins will be created as usual and will not be limited by scope.
+Learning plans created by administrator and full scope custom admins will be created as usual and will not be limited by scope.
 
 In the section **Scope for Feature Privileges**, grant access to User Groups and/or Catalog for the Custom Role.
 
@@ -569,9 +569,9 @@ Assign a user to the Custom Role.
 
 *Assign a user to a Custom Role*
 
-The user now logs in to Learning Manager as Custom Admin and now adds a Learning Plan.
+The user now logs in to Learning Manager as Custom administrator and now adds a Learning Plan.
 
-When a new learner is added, the Custom Admin can select a training from the configurable role's scoped catalogs only.
+When a new learner is added, the Custom administrator can select a training from the configurable role's scoped catalogs only.
 
 This learning plan is now applicable to the learner only if the user is also added to the group within the learning plan's scoped user group. All other learners get exempted from this learning plan.
 
@@ -585,13 +585,13 @@ When a user is added to the specified group, only users that are already part of
 
 ## Change in scope {#changeinscope}
 
-When the Admin changes the scope of the custom role, the change also cascades to the Custom Admin. When the Custom Admin chooses a Learning Plan that was already scoped by a previous custom role, a message is displayed, as shown below:
+When the administrator changes the scope of the custom role, the change also cascades to the Custom administrator. When the Custom administrator chooses a Learning Plan that was already scoped by a previous custom role, a message is displayed, as shown below:
 
 ![](assets/change-scope.png)
 
 *Message after scope changes*
 
-The Custom Admin now must update or refresh the earlier scope to the new scope.
+The Custom administrator now must update or refresh the earlier scope to the new scope.
 
 Clicking **[!UICONTROL Refresh Scope]** updates the scope. There is a warning message that displays.
 
@@ -611,7 +611,7 @@ An administrator can enable gamification reports for a custom user.
 1. In the section **[!UICONTROL Users]**, select the user that will be assigned the newly created custom role.
 1. Click **[!UICONTROL Save]**.
 
-When a user logs in as Custom Admin and clicks **[!UICONTROL Reports]** on the left pane, the transcripts appear, as shown below:
+When a user logs in as Custom administrator and clicks **[!UICONTROL Reports]** on the left pane, the transcripts appear, as shown below:
 
 ![](assets/download-gamificationtranscripts.png)
 
