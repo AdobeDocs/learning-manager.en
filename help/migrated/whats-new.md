@@ -180,7 +180,7 @@ Public APIs now support improved error handling by returning clear and specific 
 
 When a request includes incorrect data types or is missing required information in the relationship section, the API responds with descriptive messages that indicates the exact issue. This enables faster identification and resolution of errors during integration or testing.
 
-The following sample responses illustrate various error scenarios:WWWW
+The following sample responses illustrate various error scenarios:
 
 ```
 {
