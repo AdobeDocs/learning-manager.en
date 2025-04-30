@@ -1,6 +1,6 @@
 ---
 jcr-language: en_us
-title: AI Assistant (Beta) in Adobe Learning Manager: Helping Administrators work smarter
+title: AI Assistant (Beta) in Adobe Learning Manager
 description: Learn more about the ALM AI Assistant (Beta)
 ---
 
