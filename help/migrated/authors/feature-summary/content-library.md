@@ -474,6 +474,10 @@ Authors can add a unique ID and set an expiration date when creating content. Th
 
 The content will be available after the expiry date, but the date acts as a reminder to review or update it. The expiry date and unique ID apply to all language versions of a content group, ensuring a consistent experience for all users, no matter the language. Authors can use the unique ID to quickly search for and find specific content, making it easier to manage and update training materials.
 
+>[!NOTE]
+>
+>Content expiry and unique content IDs are now supported during migration. Two additional columns: expiryDate and uniqueContentId have been added to the module_version.csv file to enable this functionality.
+
 The unique code feature supports integration with content migration processes, allowing for seamless content transfer and management between systems.
 
 The **[!UICONTROL Training report]** now includes two new columns: **[!UICONTROL Content Expiry Date (UTC TimeZone)]** and **[!UICONTROL Content Unique ID]**, to track content expiry and content unique ID.

@@ -49,7 +49,7 @@ Administrators and instructors manually mark completions and attendance when the
 
 Refer this [article](/help/migrated/administrators/feature-summary/courses.md#learner-bulk-enrollment-attendance-and-completion) for more information. 
 
-## Content expiry and unique code
+## Manage content lifecycle with IDs and expiry datess
 
 Adobe Learning Manager now supports content expiry dates and unique codes to help manage content more effectively. These features are especially helpful for organizations that use multiple platforms and need to keep their training materials up to date and consistent.
 
@@ -64,7 +64,9 @@ The unique code feature supports integration with content migration processes, a
 
 The Training report now includes two new columns: Content Expiry Date (UTC TimeZone) and Content Unique ID, to track content expiry and content unique ID.
 
-The content expiry and Unique ID are supports via migration as well
+>[!NOTE]
+>
+>Content expiry and unique content IDs are now supported during migration. Two additional columns: expiryDate and uniqueContentId have been added to the module_version.csv file to enable this functionality.
 
 Refer this [article](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) for more information. 
 
