@@ -7,30 +7,56 @@ exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
 ---
 # Content marketplace
 
-Adobe Learning Manager now offers enhanced purchasing options for Go1 content, introducing two new plans, **[!UICONTROL Premium Essentials]** and **[!UICONTROL Premium Essentials Plus]**. These models provide greater flexibility for organizations to access a wide range of learning content based on their needs.
+Learning administrators often struggle to find high-quality content on various topics and add it to their learning platform. Without an integrated marketplace, bringing third-party content into the LMS usually requires external procurement, formatting, and manual uploads. The Content Marketplace solves this problem by letting you license premium courses from trusted providers with one click, directly in Adobe Learning Manager. This ensures faster rollout and more scalable learning programs.
+
+The Content Marketplace in Adobe Learning Manager (ALM) lets administrators browse, preview, and license third-party courses from top providers. Organizations can easily add off-the-shelf learning to their training catalogs, delivering fast, scalable learning across many topics.
+
+As an admin, you have two plan options:
+
+* **[!UICONTROL Premium Essentials]**
+* **[!UICONTROL Premium Essentials Plus]**
+
+These plans are designed to fit different: Business needs, Locations and Budgets
 
 **[!UICONTROL Premium Essentials]**:
-A cost-effective solution designed to enhance employee engagement. This plan includes content from trusted providers such as:
+A cost-effective solution designed to enhance employee engagement. 
 
-* EasyLlama
-* Skillshub
-* Thomson Reuters
-* Emtrain
-* Harvard ManageMentor
+* Access to over 90,000 courses
+* Content from more than 250 providers
+* Focus on compliance and skill improvement
+* Cost-effective option
+* Exclusive content from trusted providers such as:
+   * EasyLlama
+   * Skillshub
+   * Thomson Reuters
+   * Emtrain
+   * Harvard ManageMentor
 
 **[!UICONTROL Premium Essentials Plus]**:
-This plan offers a broader selection of content from top-tier providers, including:
 
-* Blinkist
-* Pluralsight
-* Skillsoft
-* Traliant
-* Coursera
+* Access to more than 100,000 courses
+* Includes all Premium Essentials content
+* Exclusive courses from top providers like:
+   * Blinkist
+   * Pluralsight
+   * Skillsoft
+   * Traliant
+   * Coursera
 
-![](assets/purchase-plans.png)
-_Purchase plans_
+Select the plan that best meets your organization's learning goals and budget.
 
-To browse and acquire content from Go1 and other providers, navigate to the **[!UICONTROL Content Marketplace]** from the administrator homepage. Admins can preview and explore the Content Hub for both **[!UICONTROL Premium Essentials]** and **[!UICONTROL Premium Essentials Plus]** plans.
+
+
+## Acquire content from providers
+
+To browse and acquire content from Go1 and other providers, follow these steps:
+
+1. Select the **[!UICONTROL Content Marketplace]** from the administrator homepage. 
+
+   ![](assets/purchase-plans.png)
+   _Purchase plans_
+
+2. Admins can preview and explore the Content Hub for both **[!UICONTROL Premium Essentials]** and **[!UICONTROL Premium Essentials Plus]** plans.
 
 Adobe Learning Manager syncs regularly with the content hub, ensuring that new additions and updates are automatically reflected in the platform.
 
@@ -50,7 +76,15 @@ The Enterprise Training page in the Administrator app enables you to invite user
 
 ## Request a quote
 
-To download the  (Request for Quote), administrator can select the license type and type the number of seats to generate the quote. Select **[!UICONTROL Download RFQ]** to download the quote. 
+Administrators can select a plan, such as Premium Essentials or Premium Essentials Plus, specify the number of seats required, and generate a downloadable RFQ form. Once completed, the form is sent to the Adobe Learning Manager sales team for processing. The RFQ process also allows Adobe to provide customized pricing based on the organization's needs, thereby unlocking access to the licensed content within the marketplace.
+
+To download the  (Request for Quote), follow these steps:
+
+1. Select the **[!UICONTROL Content Marketplace]** from the administrator homepage.
+
+2. Select  the license type and type the number of seats to generate the quote in the **[!UICONTROL Request a Quote]** section.
+ 
+3. Select **[!UICONTROL Download RFQ]** to download the quote. 
 
 ![](assets/purchase-plans-go1.png)
 _Request for a quote_
@@ -59,7 +93,13 @@ Send the quote to [learningmanagersales@adobe.com](mailto:learningmanagersales@a
 
 ## Invite users
 
-As an administrator, you can invite learners to explore and preview the **[!UICONTROL Content Hub]**. Administrators can also revoke access to the **[!UICONTROL Content Hub]** by selecting the **[!UICONTROL Remove all users acces]** link. Once access is revoked, learners will no longer see the Content Hub page in their learner app.
+Invite learners to explore and preview the **[!UICONTROL Content Hub]**. TO invite users, follow these steps:
+
+1. Select the **[!UICONTROL Content Marketplace]** from the administrator homepage.
+2. Select **[!UICONTROL Invite learners]** and select the required learners.
+3. Select **[!UICONTROL Invite learners]**. 
+
+Administrators can also revoke access to the **[!UICONTROL Content Hub]** by selecting the **[!UICONTROL Remove all users acces]** link. Once access is revoked, learners will no longer see the Content Hub page in their learner app.
 
 ![](assets/invite-users.png)
 _Invite users to access Content Hub_
@@ -102,11 +142,13 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## Email templates
 
+Adobe Learning Manager offers pre-set email templates that notify administrators and learners about content purchases, system updates, and learning activities.
+
 To support this workflow, there are three email templates that you can use:
 
-1. **[!UICONTROL Content Activation Successful]:** This is sent when purchasing a content with a key name is successful. All training that is purchased is now available.
-2. **[!UICONTROL Automated User Upload Failure]:** This is sent when the auto-update of CSV in the account fails for some reason.
-3. **[!UICONTROL Invite Users to Explore Content]:** This is an invitation email sent to learners when the Administrator purchased courses. 
+1. **[!UICONTROL Content Activation Successful]:** Sent to administrators after a successful purchase of third-party content. This notification confirms that the activation is complete and that the purchased content is now available in the system for learner assignment.
+2. **[!UICONTROL Automated User Upload Failure]:** Triggered when an automated user import via CSV fails. This alert helps administrators quickly identify issues in scheduled user updates, so corrective actions can be taken.
+3. **[!UICONTROL Invite Users to Explore Content]:** An invitation email that's sent to learners once the administrator purchases content from the marketplace. After that, users can start their learning journey immediately.
 
 <!--Purchased courses cannot be added in recurring certificates.
 Purchased courses cannot be shared to peer accounts.

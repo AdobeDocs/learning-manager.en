@@ -43,7 +43,7 @@ The multiple assignment of custom roles is useful when custom admins transfer to
 
 Refer this [article](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user) for more information.
 
-## Learner bulk enrollment, attendance, and completion
+## Learner bulk enrollment, attendance, and completion {#bulk-enrollment}
 
 Administrators and instructors manually mark completions and attendance when they get attendance rosters after session completions. This requires a lot of redundant work to update names and mark completions for them. Now, this enhancement allows administrators and instructors to update a CSV with email IDS of learners and directly upload it to the Adobe Learning Manager to mark enrollment, completions, and even mark attendance.
 
@@ -176,7 +176,7 @@ Refer this [article](/help/migrated/integration-admin/feature-summary/webhooks-u
 
 ## API changes
 
-Public APIs now support improved error handling by returning clear and specific error messages when invalid or incomplete data is passed in `POST` and `PATCH` requests. This enhancement applies particularly to relationship fields within the request payloads.
+User end point APIs now support improved error handling by returning clear and specific error messages when invalid or incomplete data is passed in `POST` and `PATCH` requests. This enhancement applies particularly to relationship fields within the request payloads.
 
 When a request includes incorrect data types or is missing required information in the relationship section, the API responds with descriptive messages that indicates the exact issue. This enables faster identification and resolution of errors during integration or testing.
 

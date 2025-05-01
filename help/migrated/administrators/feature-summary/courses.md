@@ -233,7 +233,7 @@ The report contains data of active, deleted, and suspended users if they are pen
 
 If a learner who was earlier in pending approval state, unenrolls, then his/her record will not be present in the report. Also if a learner who was earlier in pending approval state, is enrolled to the course by admin/manager/custom admin enrollment, then his/her record is present in the report.
 
-## Learner bulk enrollment, attendance, and completion
+## Learner bulk enrollment, attendance, and completion {#bulk-enrollment}
 
 Bulk enrollment in Adobe Learning Manager allows administrators to enroll multiple learners into courses, certifications, or learning programs simultaneously via a simple CSV file upload. This feature saves time, ensures consistency, and facilitates scaling learning initiatives across large teams and organizations.
 
