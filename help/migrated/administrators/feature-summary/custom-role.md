@@ -277,29 +277,25 @@ _Filter custom roles_
    * A custom admin having permission to  Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
    * If a custom admin has permission on the Users entity, they can assign administrator role to themselves and become a standard administrator.
 
-## Assign multiple custom roles to a user
+## Multiple custom roles to a user
 
-Admins can assign more than one custom role to a single user. This feature is especially helpful for large organizations, allowing roles to be reassigned to existing custom admin users when custom admins move to other teams or leave the organization.
+Administrator can assign more than one custom role to a single user. This feature is especially helpful for large organizations, allowing roles to be reassigned to existing custom administrator users when custom administrator move to other teams or leave the organization.
 
-Custom roles have clear names in the user interface, so it's easier to know which role you're using. Custom admins can see their assigned roles in the profile section (top right corner) and switch between roles easily. 
-
+Custom roles now have clearer names in the user interface, helping you easily identify which role you're using. Custom administrators view their assigned roles in the profile section (top right corner) and switch between roles easily.
 ![](assets/custom-roles-profiles.png) 
 _Switch custom roles_
 
-To view and select any custom roles assigned to you, use the **[!UICONTROL Switch custom role]** option.  
-
-![](assets/switch-roles.png)
-_Select custom roles_
-
-Users receive email notifications when the custom roles are assigned to them. The emails now includes role names for better clarity.
-
 >[!NOTE]
 >
->You can add up to 50 roles per user and 500 users per role.
+>You can assign up to 50 roles to each user and add up to 500 users to each role.
+
+### Assign multiple custom roles through the user interface
+
+Assigning multiple custom roles through the administrator UI in Adobe Learning Manager is quick, flexible, and reduces errors. Administrator can assign roles visually without technical steps like CSV uploads, making it perfect for onboarding or adjusting permissions. The UI offers immediate visibility into assigned roles, minimizing errors and ensuring better control. It supports updates as responsibilities change, instant role switching, and role-based delegation.
 
 To assign multiple custom roles to a user, follow these steps:
 
-1. Log in as an admin and select **[!UICONTROL Users]**.
+1. Log in as an administrator and select **[!UICONTROL Users]**.
 2. Select **[!UICONTROL Custom Roles]** on the left panel.
 3. Create a new custom role and add account privileges, catalogs, learning objects, or scopes. Refer the steps mentioned [here](#create-a-custom-role). 
 4. Add users to the custom role.
@@ -309,11 +305,31 @@ To assign multiple custom roles to a user, follow these steps:
 
 5. Select Save.
 
-In a same way you can assign multiple roles to a same user. For each custom role assignment, the number of available roles decreases. A user can be assigned up to 50 custom roles.
+Select multiple custom roles for a user as needed. Each user can have up to 50 custom role assignments. The number of available roles decreases with each assignment.
 
 After assigning the same users to another custom role, you can view the remaining number of custom roles available for those users.
 
+### Assign multiple custom roles using CSV
+
+Uploading a CSV file in Adobe Learning Manager allows efficient bulk assignment of custom roles. This is beneficial for onboarding many employees, reorganizing teams, or updating access for new training. CSV imports save manual effort, ensure consistent assignments, and reduce errors. It is useful during mergers, department-wide updates, or global training roll outs. This method helps admins save time, standardize roles, and maintain governance.
+
+You can now assign multiple roles to a user via CSV import by uploading two files to Box: role.csv and user_role.csv. The user_role.csv file includes the fields Custom role and User IDs.
+
+The role.csv file includes the fields, Custom role, Source of creation and detailed information for Catalogs, Users, Courses, Learning Paths, and more.
+
+If the CSV file contains invalid data or exceeds specified limits, there will be a notification displaying the errors.
+ 
+![](assets/error-custom-role.png)
+_Error notification for custom roles_
+Users receive email notifications when roles are assigned, including the name of the role.
+
 ### Manage custom roles
+
+Administrators can update, add, or remove custom roles for users in Adobe Learning Manager as responsibilities change. This ensures access aligns with current roles without affecting learning history or enrollment data. From the **[!UICONTROL Users]** page, administrator can search for users, view their roles, and adjust them using the Manage Custom Roles option. This guided interface allows easy addition or removal of roles while maintaining governance and security.
+
+>[!NOTE]
+>
+>Custom admins cannot manage custom roles (add or remove custom role) or promote themselves to the administrator role.
 
 After you assign custom roles to users, you can add or remove custom roles from the **[!UICONTROL Users]** page.
 
@@ -354,9 +370,14 @@ To remove the custom roles, follow these steps:
    ![](assets/remove-custom-roles.png)
    _Remove custom roles_
 
->[!NOTE]
->
->Custom admins cannot manage custom roles (add or remove custom role) or promote themselves to the administrator role.
+### Switch custom roles
+
+To view and select any custom roles assigned to you, use the **[!UICONTROL Switch custom role]** option.  
+
+![](assets/switch-roles.png)
+_Select custom roles_
+
+Users receive email notifications when the custom roles are assigned to them. The emails now includes role names for better clarity.
 
 ## Custom role report
 

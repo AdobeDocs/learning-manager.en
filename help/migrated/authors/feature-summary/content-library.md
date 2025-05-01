@@ -482,7 +482,7 @@ The unique code feature supports integration with content migration processes, a
 
 The **[!UICONTROL Training report]** now includes two new columns: **[!UICONTROL Content Expiry Date (UTC TimeZone)]** and **[!UICONTROL Content Unique ID]**, to track content expiry and content unique ID.
 
-These fields can be added via UI or migration, and admins can track them centrally through training reports.
+These fields can be added via UI or migration, and administrator can track them centrally through training reports.
 
 1. Log in as an author.
 2. Select **[!UICONTROL Create Content]** in the home page or **[!UICONTROL Content Library]** in the left panel.

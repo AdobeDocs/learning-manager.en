@@ -31,11 +31,11 @@ Administrator can create dashboards by giving them a name, selecting user groups
 
 Refer this [article](/help/migrated/administrators/feature-summary/group-success-dashboard.md) for more information.
 
-## Custom role enhancements
+## Enhancements to custom roles
 
-Administrator can now assign more than one custom role to a single user. This feature is especially helpful for large organizations, allowing roles to be reassigned to existing custom administrator users when custom administrators move to other teams or leave the organization.
-Administrator can create custom roles with specific permissions, like access to certain user catalogs or features. The new update allows one user to have multiple custom roles.
-Custom roles have clear names in the user interface, so it's easier to know which role you're using. Custom administrators can see their assigned roles in the profile section (top right corner) and switch between roles easily.
+Adobe Learning Manager now allows assigning multiple custom roles to a single user. This update, along with CSV role assignments and automatic scope refresh prompts, gives admins more flexibility in defining responsibilities. These improvements enhance scalability, streamline access management, and ensure users only see relevant content, boosting efficiency and compliance. 
+
+The multiple assignment of custom roles is useful when custom admins transfer to other teams, change responsibilities, or leave the organization. It allows existing users to be reassigned without disruption. Custom roles are now labeled in the user interface for easier identification. Assigned custom admins can view all their available roles in the profile section (top right corner) and switch between roles as needed. 
 
 >[!NOTE]
 >
@@ -49,20 +49,16 @@ Administrators and instructors manually mark completions and attendance when the
 
 Refer this [article](/help/migrated/administrators/feature-summary/courses.md#learner-bulk-enrollment-attendance-and-completion) for more information. 
 
-## Manage content lifecycle with IDs and expiry datess
+## Manage content lifecycle with IDs and expiry dates
 
-Adobe Learning Manager now supports content expiry dates and unique codes to help manage content more effectively. These features are especially helpful for organizations that use multiple platforms and need to keep their training materials up to date and consistent.
+The Content ID is a unique, trackable identifier for external referencing, reporting, or integration with third-party systems like compliance tools or HRIS platforms. The Expiry Date flags or retires outdated or time-sensitive content, reducing compliance risk and improving content hygiene. Once the expiry date is reached, content can be excluded from new enrollments or archived based on organizational rules.
+
+The content remains accessible after the expiry date; however, the date prompts authors and admins to review or update the material. Both the expiry date and unique content ID apply across all language versions of the content group, ensuring a consistent learner experience regardless of language. Authors can use the unique ID to quickly locate and manage specific content, streamlining updates and version control.
+
+Additionally, the unique ID supports integration with content migration processes, allowing easy content transfer and management across different systems.
 
 * The expiry date helps authors keep track of outdated content that may need review or updates.
 * The unique code makes it easier to link content between external systems and Adobe Learning Manager.
-
-Authors can add a unique ID and set an expiration date when creating content. The unique ID must only include letters and numbers (no spaces) and must not be used for any other content. If a duplicate ID is entered, an error will appear. Authors can set these fields when creating a course.
-
-The content will still be available after the expiry date, but the date acts as a reminder to review or update it. The expiry date and unique ID apply to all language versions of a content group, ensuring a consistent experience for all users, no matter the language. Authors can use the unique ID to quickly search for and find specific content, making it easier to manage and update training materials.
-
-The unique code feature supports integration with content migration processes, allowing for seamless content transfer and management between systems.
-
-The Training report now includes two new columns: Content Expiry Date (UTC TimeZone) and Content Unique ID, to track content expiry and content unique ID.
 
 >[!NOTE]
 >
@@ -123,7 +119,7 @@ Refer to this [article](/help/migrated/administrators/feature-summary/purge-user
 
 ### Support for seminars with large audiences
 
-ALM now also supports selecting Seminar rooms from Adobe Connect while setting up a VC session in Connect. Previously, administrator could only select the Meeting room type. This enhancement enables administrator with a valid seminar license to schedule and manage one-time or large-scale events (up to 1,500 attendees) within ALM.
+Adobe Learning Manager now also supports selecting Seminar rooms from Adobe Connect while setting up a VC session in Connect. Previously, administrator could only select the Meeting room type. This enhancement enables administrator with a valid seminar license to schedule and manage one-time or large-scale events (up to 1,500 attendees) within Adobe Learning Manager.
 
 Refer to this [article](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) for more information about the Seminar room.
 
@@ -147,7 +143,7 @@ _Session dashboard_
 
 ## Migration changes
 
-Migration process in ALM for importing modules now supports the ability to add parameters for defining success criteria. 
+Migration process in Adobe Learning Manager for importing modules now supports the ability to add parameters for defining success criteria. 
 This is supported now by adding three new optional columns in the module_version.csv. Three new optional columns are: `successCriteria`, `successQuizData`, and `successViewPercent`.
 
 These fields accept only specific values, and the connector will fail to process the file if invalid values are entered.
@@ -163,7 +159,7 @@ A quiz module can use three types of success criteria. Either it can mark pass i
 `successQuizData`: Accepts `QUIZ_ATTEMPTED`, `QUIZ_PASSED`, or `QUIZPASSED_OR_LIMITREACHED`.
 
 * `QUIZ_ATTEMPTED` will mean that the learner will be marked as passing for the quiz if the learner has attempted the quiz.
-* `QUIZ_PASSED` will mean that the learner will be marked as passed for the quiz, if the learner passes the quiz as per the criteria defined inside the quiz content. For e.g. Scorm module defines the criteria and reports it to ALM.
+* `QUIZ_PASSED` will mean that the learner will be marked as passed for the quiz, if the learner passes the quiz as per the criteria defined inside the quiz content. For e.g. Scorm module defines the criteria and reports it to Adobe Learning Manager.
 * `QUIZPASSED_OR_LIMITREACHED` will mean that the learner will be marked as passed for the quiz if the learner has either passed the quiz or has exhausted the number of limits.
 
 `successViewPercent`: Accepts integer values from 0 to 100.
@@ -173,8 +169,8 @@ Webhook changes.
 
 ## Webhooks changes
 
-* Webhooks now send payloads for both parent and child learning objects for enrollment, completion, and unenrollment events. For example, if a learning path has three courses and a learner enrolls in all of them, you'll receive one learning path enrollment payload and three-course enrollment payloads. Refer to this article for the sample payloads.
-* Adobe Learning Manager now captures learner activity from LinkedIn Learning (LIL) in Adobe Learning Manager Learning Record Store (LRS). For example, if a learner enrolls in and completes a course on LIL, that progress will automatically sync to ALM using xAPI statements.
+* Using a webhook, you can now send payloads for both parent and child learning objects during key learner actions such as enrollment, completion, and unenrollment. For example, when a learner enrolls in a Learning Path that includes three courses, the system will generate one payload for the Learning Path and separate payloads for each course.
+<!--* Adobe Learning Manager now captures learner activity from LinkedIn Learning (LIL) in Adobe Learning Manager Learning Record Store (LRS). For example, if a learner enrolls in and completes a course on LIL, that progress will automatically sync to Adobe Learning Manager using xAPI statements.-->
 
 Refer this [article](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md) for more information about Webhooks. 
 
@@ -208,32 +204,32 @@ The following sample responses illustrate various error scenarios:
 
 ## Bugs fixed in this update
 
-* Fixed an issue where `dateCompleted`, `dateEnrolled`, and `dateStarted` were incorrectly set to the `dateModified` value in the Get Learning Object API response for Job Aids.
-* Fixed an issue where the user API endpoint returned generic error messages; it now shows clear details indicating the specific field causing the failure.
-* Fixed an issue where the `/learningObjects` endpoint returned empty results when accessed by administrator for the default catalog.
-* Fixed an issue where Job Aids that were not migrated to the latest version were not appearing in the public API response.
-* Fixed an issue where unrelated skills were being shown on courses in the learner's Recommendation section.
-* Fixed an issue where renaming a content folder did not reflect the updated name in search results.
-* Fixed an issue where text overflow occurred in the Course Overview page.
-* Fixed an issue where self-registration links were broken for accounts using a custom domain.
-* Fixed an issue where the subscription report was triggering enrollments for courses the learner had not enrolled in within a Flex Learning Path.
-* Fixed an issue in multi SSO configurations where only 20 external profiles were displayed, all configured profiles are now visible.
-* Fixed an issue where Content Marketplace courses were incorrectly included in recurred certifications.
-* Fixed an issue where users with edit permissions were unable to duplicate courses from the My Courses and Courses tabs.
-* Fixed an issue where auto-enrollment was not triggered for subsequent courses in an enhanced Learning Path shared via catalog.
-* Fixed an issue where changing the system date incorrectly launched the player instead of showing an error message.
-* Fixed an issue where a custom author's session was terminated upon removing a module from a course.
-* Fixed an issue where the organization logo size appeared reduced on the logout screen.
-* Fixed an issue where the Delete button for courses stopped working if the drag option was used multiple times during Learning Path creation.
-* Fixed an issue where store managers were not receiving email notifications when learners did not have an assigned manager.
-* Fixed a string issue where virtual session was corrected to Virtual Classroom for consistency.
-* Fixed an issue where deleted badges were still visible and achievable by learners.
-* Fixed an issue where the CourseDescription field was not populated in email communications.
-* Fixed an issue where the account-level discussion board setting was being overridden by the course-level setting.
-* Fixed an issue where editing or adding instructors to a checklist module failed due to too many instructors causing the URL to exceed its maximum length.
-* Fixed an issue where duplicate columns in the user CSV did not trigger an appropriate error message.
-* Fixed an issue where enhanced Learning Path APIs were not rendering data for child Learning Paths.
-* Fixed an issue where rich text was not supported in course descriptions in the mobile app.
+* Corrected inaccurate timestamps in the Get Learning Object API response for Job Aids where dateCompleted, dateEnrolled, and dateStarted were incorrectly matching dateModified.
+* The User API endpoint now displays specific field-level error messages instead of generic ones.
+* The /learningObjects endpoint returned a blank response when invoked for the default catalog.
+* Updated public API responses to display Job Aids that were previously excluded due to outdated versioning.
+* Improved recommendation accuracy by removing unrelated skills from appearing in the learner's course recommendation section.
+* Synced folder names with search results so that renamed content folders reflect the updated name across all searches in the platform.
+* The text on the Course Overview page does not overflow. The experience is much cleaner now.
+* Restored self-registration links for accounts using custom domains to support smoother user sign-up.
+* The subscription report prevents unintended course enrollments in flexible Learning Paths.
+* In multi-SSO configurations, all configured profiles are now visible, beyond the previous 20-profile limit.
+* Excluded Content Marketplace courses from recurring certification enrollments when not explicitly required.
+* Enabled course duplication for users with edit permissions across both the My Courses and Courses tabs.
+* Auto-enrollment triggers as expected for subsequent courses in enhanced Learning Paths shared via catalogs.
+* Unexpected player launches are prevented by correctly handling system date changes with appropriate error prompts.
+* Stabilized an author's session after modules are removed from a course, avoiding abrupt session terminations.
+* The organization logo displays at full size on the logout screen.
+* Restored Delete button functionality during Learning Path creation even after multiple drag actions.
+* Store managers receive email notifications when learners lack an assigned manager.
+* Standardized terminology by updating UI references from "virtual session" to "Virtual Classroom".
+* Deleted badges are no longer visible, so learners no longer see or unlock obsolete achievements.
+* Course descriptions are populated correctly in email communications by resolving issues with the CourseDescription field.
+* Account-level discussion board configurations are not overridden by course-level settings.
+* URL length limitations that blocked instructor assignments in the checklist modules have been resolved.
+* Clearer error messages when duplicate columns are detected in the user upload file.
+* Rendered complete data in enhanced Learning Path APIs, ensuring child Learning Paths are correctly displayed.
+* Added rich text formatting for course descriptions in the mobile app for better user experience.
 
 ## System Requirements
 
