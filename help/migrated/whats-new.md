@@ -72,7 +72,7 @@ Adobe Learning Manager introduces new purchasing models for Go1 content, providi
 
 View this [article](/help/migrated/administrators/feature-summary/content-marketplace.md) for more information about the new purchase plans. 
 
-## Login access report in FTP, custom FTP and 
+## Login access report in FTP, custom FTP, and Box {#log-in-access-report}
 
 The login access reports are now available for Box, FTP, and Custom FTP connectors, providing visibility into connector login activities. This report, along with other reports, helps administrators build their reporting suite outside the platform by providing detailed information about user login and access times. This report can be used to create more informative dashboards and track user activity effectively.
 
