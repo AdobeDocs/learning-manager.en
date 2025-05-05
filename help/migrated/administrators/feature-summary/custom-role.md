@@ -277,19 +277,11 @@ _Filter custom roles_
    * A custom admin having permission to  Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
    * If a custom admin has permission on the Users entity, they can assign administrator role to themselves and become a standard administrator.
 
-## Multiple custom roles to a user
+## Assign multiple custom roles to a user
 
-Administrator can assign more than one custom role to a single user. This feature is especially helpful for large organizations, allowing roles to be reassigned to existing custom administrator users when custom administrator move to other teams or leave the organization.
+Assign multiple custom roles to a user through the Adobe Learning Manager interface or by uploading a CSV file. This feature gives you more control over user permissions in the system.
 
-Custom roles now have clearer names in the user interface, helping you easily identify which role you're using. Custom administrators view their assigned roles in the profile section (top right corner) and switch between roles easily.
-![](assets/custom-roles-profiles.png) 
-_Switch custom roles_
-
->[!NOTE]
->
->You can assign up to 50 roles to each user and add up to 500 users to each role.
-
-### Assign multiple custom roles through the user interface
+### Assign multiple custom roles through the User Interface
 
 Assigning multiple custom roles through the administrator UI in Adobe Learning Manager is quick, flexible, and reduces errors. Administrator can assign roles visually without technical steps like CSV uploads, making it perfect for onboarding or adjusting permissions. The UI offers immediate visibility into assigned roles, minimizing errors and ensuring better control. It supports updates as responsibilities change, instant role switching, and role-based delegation.
 
@@ -308,6 +300,10 @@ To assign multiple custom roles to a user, follow these steps:
 Select multiple custom roles for a user as needed. Each user can have up to 50 custom role assignments. The number of available roles decreases with each assignment.
 
 After assigning the same users to another custom role, you can view the remaining number of custom roles available for those users.
+
+>[!NOTE]
+>
+>You can assign up to 50 roles to each user and add up to 500 users to each role.
 
 ### Assign multiple custom roles using CSV
 
@@ -379,7 +375,7 @@ _Select custom roles_
 
 Users receive email notifications when the custom roles are assigned to them. The emails now includes role names for better clarity.
 
-## Custom role report
+## Download the custom role report
 
 Admins can download a CSV report of all custom roles and their permissions. The report shows how each role was created, either by an admin or through a CSV file, and outlines the highlights the access given to each role.
 

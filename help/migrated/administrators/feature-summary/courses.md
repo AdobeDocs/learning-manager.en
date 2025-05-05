@@ -241,7 +241,7 @@ Updating names and marking completions individually is time-consuming. The bulk 
 
 ### Enroll learners in bulk using a csv
 
-Adobe Learning Manager allows administrators to efficiently enroll large numbers of learners in training sessions through a CSV-based bulk upload feature. This process eliminates the need for manual individual enrollments by allowing administrator to upload a CSV file that contains the email addresses of the learners. Within the CSV file, the column labeled **userEmail** is used to list the email IDs of the learners who need to be enrolled. Using this feature, admins can enroll up to 100,000 learners at once.
+Simplify large-scale enrollments in Adobe Learning Manager with the CSV upload feature. Instead of adding learners one at a time, administrators can enroll up to 100,000 users in a single action by uploading a CSV file. This saves time, reduces manual effort, and minimizes the risk of errors. The file must include a column labeled **userEmail** with the email addresses of the learners to be enrolled.
 
 To enroll bulk learners using CSV, follow these steps:
 

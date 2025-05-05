@@ -17,6 +17,7 @@ Group Success Dashboard offers the following:
 * **Facilitates team management**: The dashboard is particularly useful for managers overseeing small teams, enabling them to frequently check their team members' learning progress on specific courses or learning paths.
 
 Managers (or store managers) handling small teams (less than 50 people) can use the GSD to regularly check how their team is progressing with their courses. This is helpful for quick updates and making sure everyone is completing their training.
+
 The Group Success Dashboard makes it easier to track learner progress. Instead of using Excel files, managers and administrators can use the dashboard to quickly see course enrollments and progress.
 
 Administrator can create dashboards by giving them a name, selecting user groups, and choosing the courses or learning paths. The dashboards can be shared with other administrators or managers.

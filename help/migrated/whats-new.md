@@ -18,18 +18,9 @@ Additional enhancements include better management of content expiration, expande
 
 ## Group Success Dashboard
 
-The Group Success Dashboard provides a more efficient and user-friendly way for administrators and managers to monitor and track the progress of their teams' training activities.
+The Group Success Dashboard provides administrators with a visual interface to monitor learner performance at the learner or group level. It offers insights into course engagement, completion rates, and overall learning trends across different teams or departments. This helps identify high-performing groups, spot learning gaps, and support targeted interventions. The dashboard enables data-driven decision-making to improve group learning outcomes and align training efforts with business goals.
 
-Group Success Dashboard offers the following:
-
-* **[!UICONTROL Simplifies Learner Progress Tracking]**: The dashboard offers an alternative to the Excel-based learner transcript, allowing for easier and quicker access to information about learners' course enrollments and progress. 
-* **[!UICONTROL Facilitates Team Management]**: The dashboard is particularly useful for managers overseeing small teams, enabling them to frequently check their team members' learning progress on specific courses or learning paths.
-
-Managers (or store managers) handling small teams (less than 50 people) can use the GSD to regularly check how their team is progressing with their courses. This is helpful for quick updates and making sure everyone is completing their training.
-The Group Success Dashboard makes it easier to track learner progress. Instead of using Excel files, managers and administrators can use the dashboard to quickly see course enrollments and progress.
-Administrator can create dashboards by giving them a name, selecting user groups, and choosing the courses or learning paths. The dashboards can be shared with other administrators or managers.
-
-Refer this [article](/help/migrated/administrators/feature-summary/group-success-dashboard.md) for more information.
+View this [article](/help/migrated/administrators/feature-summary/group-success-dashboard.md) for more information about the Group Success Dashboard.
 
 ## Enhancements to custom roles
 
@@ -41,13 +32,13 @@ The multiple assignment of custom roles is useful when custom admins transfer to
 >
 >You can add up to 50 roles per user and 500 users per role.
 
-Refer this [article](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user) for more information.
+View this [article](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user) for more information about the custom roles. 
 
 ## Learner bulk enrollment, attendance, and completion {#bulk-enrollment}
 
 Administrators and instructors manually mark completions and attendance when they get attendance rosters after session completions. This requires a lot of redundant work to update names and mark completions for them. Now, this enhancement allows administrators and instructors to update a CSV with email IDS of learners and directly upload it to the Adobe Learning Manager to mark enrollment, completions, and even mark attendance.
 
-Refer this [article](/help/migrated/administrators/feature-summary/courses.md#learner-bulk-enrollment-attendance-and-completion) for more information. 
+View this [article](/help/migrated/administrators/feature-summary/courses.md#learner-bulk-enrollment-attendance-and-completion) for more information about the bulk enrollment, attendance, and completion. 
 
 ## Manage content lifecycle with IDs and expiry dates
 
@@ -64,7 +55,15 @@ Additionally, the unique ID supports integration with content migration processe
 >
 >Content expiry and unique content IDs are now supported during migration. Two additional columns: expiryDate and uniqueContentId have been added to the module_version.csv file to enable this functionality.
 
-Refer this [article](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) for more information. 
+View this [article](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) for more information about content unique ID and expiry date.
+
+## ALM AI Assistant (Beta)
+
+The new AI Assistant (Beta) in Adobe Learning Manager simplifies complex administrative tasks. It offers an intelligent conversational interface that enhances content discovery and reporting. Administrators can find relevant content quickly and access specific information easily.
+
+This tool streamlines key administrative workflows, improving speed and accuracy while reducing the need to navigate multiple screens.
+
+View this [article](/help/migrated/administrators/feature-summary/alm-ai-assistant.md) for more information about the AI Assistant (Beta).
 
 ## New content languages
 
@@ -77,21 +76,23 @@ Adobe Learning Manager is known for supporting many languages, which makes it st
 * Kannada (kn-IN)
 * Malayalam (ml-IN)
 
-Refer to this [article](/help/migrated/languages-supported.md) for a list of supported languages in Adobe Learning Manager.
+View this [article](/help/migrated/languages-supported.md) for a list of supported languages in Adobe Learning Manager.
 
 ## Go1 content enhancements
 
 Adobe Learning Manager introduces new purchasing models for Go1 content, providing more flexibility and options for acquiring content: Premium Essentials and Premium Essential Plus. Essentials offers cost-effective solutions for boosting employee engagement and includes content providers like Skillshub, Thomson Reuters, and Emtrain. Premium Essential Plus offers additional content from premium providers such as Blinkist, Pluralsight, Skillsoft, Traliant, and Coursera.
 
-Refer to this [article](/help/migrated/administrators/feature-summary/content-marketplace.md) for more information.
+View this [article](/help/migrated/administrators/feature-summary/content-marketplace.md) for more information about the new purchase plans. 
 
-## Login access report in FTP
+## Login access report in FTP, custom FTP and 
 
 The login access reports are now available for Box, FTP, and Custom FTP connectors, providing visibility into connector login activities. This report, along with other reports, helps administrators build their reporting suite outside the platform by providing detailed information about user login and access times. This report can be used to create more informative dashboards and track user activity effectively.
 
 The report is now available in the custom FTP, FTP and Box along with existing reports, such as learner progress and course completion. This integration allows administrators to access all necessary reports from a single source, facilitating better data management and analysis.
 
 The report helps in automation by enabling the export of login and access data to the FTP, where it can be joined with other reports to create comprehensive dashboards. This feature is particularly useful for organizations that rely on automated processes for data analysis and reporting.
+
+View this [article](/help/migrated/integration-admin/feature-summary/connectors.md) for more information about the FTP, Custom FTP, and Box connectors.
 
 ## User language preference update on login through SAML
 
@@ -104,7 +105,7 @@ When users log in through SAML, their language preference (Interface and Content
 
 The feature integrates with the SAML login process to capture and update the user's language preference seamlessly.
 
-Refer to this [article](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md) for more information.
+View this [article](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md) for more information.
 
 ## Filter deleted users before purging
 
@@ -121,7 +122,7 @@ Refer to this [article](/help/migrated/administrators/feature-summary/purge-user
 
 Adobe Learning Manager now also supports selecting Seminar rooms from Adobe Connect while setting up a VC session in Connect. Previously, administrator could only select the Meeting room type. This enhancement enables administrator with a valid seminar license to schedule and manage one-time or large-scale events (up to 1,500 attendees) within Adobe Learning Manager.
 
-Refer to this [article](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) for more information about the Seminar room.
+View this [article](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) for more information about the Seminar room.
 
 ### Support for access to session analytics
 
@@ -140,6 +141,8 @@ This feature is available only for sessions conducted through Adobe Connect. The
 
 ![](assets/session-dashboard.png)
 _Session dashboard_
+
+View this [article](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html) for more information about the Connect session analytics. 
 
 ## Migration changes
 
@@ -167,16 +170,18 @@ A quiz module can use three types of success criteria. Either it can mark pass i
 * This criterion accepts a percentage value that the learner is required to score to successfully pass the quiz
 Webhook changes.
 
+View this [article](/help/migrated/integration-admin/feature-summary/migration-manual.md) for more information about the migration process. 
+
 ## Webhooks changes
 
 * Using a webhook, you can now send payloads for both parent and child learning objects during key learner actions such as enrollment, completion, and unenrollment. For example, when a learner enrolls in a Learning Path that includes three courses, the system will generate one payload for the Learning Path and separate payloads for each course.
 <!--* Adobe Learning Manager now captures learner activity from LinkedIn Learning (LIL) in Adobe Learning Manager Learning Record Store (LRS). For example, if a learner enrolls in and completes a course on LIL, that progress will automatically sync to Adobe Learning Manager using xAPI statements.-->
 
-Refer this [article](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md) for more information about Webhooks. 
+View this [article](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md) for more information about Webhooks. 
 
 ## API changes
 
-User end point APIs now support improved error handling by returning clear and specific error messages when invalid or incomplete data is passed in `POST` and `PATCH` requests. This enhancement applies particularly to relationship fields within the request payloads.
+All the public APIs now support improved error handling by returning clear and specific error messages when invalid or incomplete data is passed in `POST` and `PATCH` requests. This enhancement applies particularly to relationship fields within the request payloads.
 
 When a request includes incorrect data types or is missing required information in the relationship section, the API responds with descriptive messages that indicates the exact issue. This enables faster identification and resolution of errors during integration or testing.
 
