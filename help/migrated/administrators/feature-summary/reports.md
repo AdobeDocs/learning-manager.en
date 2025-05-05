@@ -413,10 +413,6 @@ The following are the report types available for download.
 * Gamification Transcripts
 * Gamification Audit Trail
 
-### Learner transcripts {#learnertranscripts}
-
-The Learner Transcripts in Excel reports displays the columns Credits Required and Credits Earned in decimal numbers.
-
 ### Course Reports {#coursereports}
 
 As an administrator, you can download reports for courses. Follow these steps:
