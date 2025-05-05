@@ -53,3 +53,4 @@ For our Support leadership team to address your escalations in the most efficien
 If you have any further questions on how to use the **[!UICONTROL Experience League Support]** portal, please let us know in the comment section below, or reach out to our Support team directly at this email address [almdynsupp@adobe.com](mailto:almdynsupp@adobe.com).
 
 To add an authorized contact who can open support tickets via Experience League (EXL), please visit [http://licensing.adobe.com](http://licensing.adobe.com).
+
