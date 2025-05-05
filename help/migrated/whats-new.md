@@ -8,14 +8,6 @@ title: New features summary
 
 The upcoming release of Adobe Learning Manager introduces a variety of new features and enhancements aimed at streamlining the platform and enhancing its capabilities.
 
-Key updates include:
-
-* The Group Success Dashboard, which allows for real-time tracking of team progress. 
-* The ability to assign multiple custom roles to individual users.
-* Improved tools for marking bulk learner enrollment, attendance, and completion.
-
-Additional enhancements include better management of content expiration, expanded support for multiple languages in content, and new purchasing options for content.
-
 ## Group Success Dashboard
 
 The Group Success Dashboard provides administrators with a visual interface to monitor learner performance at the learner or group level. It offers insights into course engagement, completion rates, and overall learning trends across different teams or departments. This helps identify high-performing groups, spot learning gaps, and support targeted interventions. The dashboard enables data-driven decision-making to improve group learning outcomes and align training efforts with business goals.
@@ -27,10 +19,6 @@ View this [article](/help/migrated/administrators/feature-summary/group-success-
 Adobe Learning Manager now allows assigning multiple custom roles to a single user. This update, along with CSV role assignments and automatic scope refresh prompts, gives admins more flexibility in defining responsibilities. These improvements enhance scalability, streamline access management, and ensure users only see relevant content, boosting efficiency and compliance. 
 
 The multiple assignment of custom roles is useful when custom admins transfer to other teams, change responsibilities, or leave the organization. It allows existing users to be reassigned without disruption. Custom roles are now labeled in the user interface for easier identification. Assigned custom admins can view all their available roles in the profile section (top right corner) and switch between roles as needed. 
-
->[!NOTE]
->
->You can add up to 50 roles per user and 500 users per role.
 
 View this [article](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user) for more information about the custom roles. 
 
@@ -239,3 +227,8 @@ The following sample responses illustrate various error scenarios:
 ## System Requirements
 
 [Learning Manager system requirements](/help/migrated/system-requirements.md)
+
+## Previous releases of Adobe Learning Manager
+
+* [November 2024 release](/help/migrated/whats-new-nov-24.md)
+* [July 2024 release](/help/migrated/whats-new-july-2024.md)
