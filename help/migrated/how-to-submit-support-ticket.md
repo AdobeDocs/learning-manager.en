@@ -8,7 +8,7 @@ exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
 
 The process for submitting Adobe Learning Manager support tickets is now directly integrated with the Experience League support platform. This is a self-service portal that was recently redesigned to offer more personalization and ease-of-use for entitled customers. Check out this guide below for more information on how to access the Experience League Support portal and log a ticket.
  
-Please note that submitting a Support ticket is only available to authorized support contacts. For your support queries, please continue to submit your support tickets to Adobe Learning Manager until May 11th, 2025. Following this date, you can submit your support tickets via the Experience League Support portal as described below.
+Please note that submitting a Support ticket is only available to authorized support contacts. For your support queries, please continue to submit your support tickets to Adobe Learning Manager via email until May 11th, 2025. Following this date, you can submit your support tickets via the Experience League Support portal as described below, in addition to the existing email channel. 
 
 1. To access the Support portal, visit the **[!UICONTROL Experience League]** website and select the **[!UICONTROL Support]** tab located at the top of the page. Alternatively, you can visit the [direct link](https://experienceleague.adobe.com/home#support).
 
@@ -51,3 +51,5 @@ You can escalate a case by selecting the "Escalate to management" option on the 
 For our Support leadership team to address your escalations in the most efficient manner, please submit a case escalation only if it is severely impacting your organization, partners, or customers.
  
 If you have any further questions on how to use the **[!UICONTROL Experience League Support]** portal, please let us know in the comment section below, or reach out to our Support team directly at this email address [almdynsupp@adobe.com](mailto:almdynsupp@adobe.com).
+
+To add an authorized contact who can open support tickets via Experience League (EXL), please visit [http://licensing.adobe.com](http://licensing.adobe.com).
