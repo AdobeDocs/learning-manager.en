@@ -5,24 +5,31 @@ description: Learn more about Group Success Dashboard in Adobe Learning Manager
 ---
 # Group Success Dashboard
 
-The Group Success Dashboard helps administrators and managers track learner engagement, training completion, and skill development at a team level. 
+## Overview of Group Success Dashboard
 
-The dashboard offers aggregated insights across various business units, regions, departments, or custom groups, enabling targeted learning interventions and strategic decisions. 
+The Group Success Dashboard (GSD) allows admins and managers to track learner progress, including enrollment, pending actions, and course completion, making it easier to monitor learning and support those who need help. 
 
-The Group Success Dashboard is utilized by organizations for a variety of purposes. HR teams monitor the onboarding process for new hires and identify any necessary support. Learning and Development leaders compare training completion rates across different regions. Compliance teams ensure that finance employees meet certification requirements. Sales training managers track the completion of product training before launches, while talent development teams monitor the adoption of leadership learning paths among mid-level managers for succession planning.
+This dashboard gives a real-time view of learner progress, including enrollment status, pending actions, and course completion, for user groups organized by departments, business units, or regions. View this [article](/help/migrated/administrators/feature-summary/add-users-user-groups.md) to learn more about User groups.
+
+## Group Success Dashboard use cases
 
 Group Success Dashboard offers the following:
 
-* **Simplifies learner progress tracking**: The dashboard offers an alternative to the Excel-based learner transcript, allowing for easier and quicker access to information about learners' course enrollments and progress. 
-* **Facilitates team management**: The dashboard is particularly useful for managers overseeing small teams, enabling them to frequently check their team members' learning progress on specific courses or learning paths.
+* **Simplifies learner progress tracking**: The Group Success Dashboard replaces Excel-based transcripts with an easy-to-use, real-time dashboard. Managers and administrators can quickly view learner enrollments and course progress to support key scenarios such as:
+   * Reviewing course progress before a performance review
+   * Verifying compliance during disciplinary actions.
+* **Facilitates team management**: The Group Success Dashboard is useful for managers with small teams (under 50 people), like store managers or internal teams. It allows them easily check how their team members are doing with their courses and make sure everyone is on track to finish.
 
-Managers (or store managers) handling small teams (less than 50 people) can use the GSD to regularly check how their team is progressing with their courses. This is helpful for quick updates and making sure everyone is completing their training.
+## How to use the Group Success Dashboard
 
-The Group Success Dashboard makes it easier to track learner progress. Instead of using Excel files, managers and administrators can use the dashboard to quickly see course enrollments and progress.
+Administrator can enable and create the dashboards by giving them a name, selecting user groups, and choosing the courses or learning paths. The dashboards can be shared with other administrators or managers. The Group Success Dashboard includes the following process:
 
-Administrator can create dashboards by giving them a name, selecting user groups, and choosing the courses or learning paths. The dashboards can be shared with other administrators or managers.
+* [Enable the Group Success Dashboard in Adobe Learning Manager](/help/migrated/administrators/feature-summary/group-success-dashboard.md#enable-the-group-success-dashboard)
+* [Create the Group Success Dashboard in Adobe Learning Manager](/help/migrated/administrators/feature-summary/group-success-dashboard.md#create-group-success-dashboard)
+* [View the Group Success Dashboard in Adobe Learning Manager](/help/migrated/administrators/feature-summary/group-success-dashboard.md#view-the-dashboard)
+* [Share the Group Success Dashboard with administrators and managers](/help/migrated/administrators/feature-summary/group-success-dashboard.md#share-the-dashboard)
 
-## Enable the Group Success Dashboard
+### Enable the Group Success Dashboard
 
 Administrator must enable the Group Success Dashboard for the account. To enable the Group Success Dashboard in Adobe Learning Manager, follow these steps:
 
@@ -52,9 +59,9 @@ _Store Manager Dashboard enabled in Reports_
 >
 >The **[!UICONTROL Last access date]** column currently displays data for Learning Paths and Certifications. Support for courses is planned for a future update.
 
-## Create Group Success Dashboard
+### Create Group Success Dashboard
 
-After enabling this feature, administrators can create a dashboard to view learners' progress. To create a dashboard, follow these steps:
+Administrators can create up to 100 dashboards to view learners' progress." To create a dashboard, follow these steps:
 
 1. Log in as an administrator and select the **[!UICONTROL Reports]** page.
  
@@ -86,15 +93,11 @@ After enabling this feature, administrators can create a dashboard to view learn
    >
    >Recurring certificates are not supported in the dashboard.
 
-7. Select **[!UICONTROL Create dashboard]**. 
-
->[!NOTE]
->
->You can create up to 100 dashboards. 
+7. Select **[!UICONTROL Create dashboard]**. s 
 
 For larger teams, create a dashboard by selecting the **Default catalog** and **All learners** user group. This includes all courses and learners in the **[!UICONTROL Learner Transcript]** view, making it easier to search for and track each learner's progress.
 
-## View the dashboard
+### View the dashboard
 
 After creating a dashboard, administrator can view the dashboard by following these steps:
 
@@ -115,7 +118,7 @@ After creating a dashboard, administrator can view the dashboard by following th
 >
 >To download the detailed Learner Transcript, select Go to Report
 
-## Share the dashboard
+### Share the dashboard
 
 To share the dashboard with administrators or managers, follow these steps:
 

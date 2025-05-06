@@ -10,7 +10,7 @@ The upcoming release of Adobe Learning Manager introduces a variety of new featu
 
 ## Group Success Dashboard
 
-The Group Success Dashboard provides administrators with a visual interface to monitor learner performance at the learner or group level. It offers insights into course engagement, completion rates, and overall learning trends across different teams or departments. This helps identify high-performing groups, spot learning gaps, and support targeted interventions. The dashboard enables data-driven decision-making to improve group learning outcomes and align training efforts with business goals.
+The Group Success Dashboard (GSD) allows administrators and managers to track learner progress in real time. The dashboard provides a clear view of enrollment status, pending actions, and course. Group Success Dashboard simplifies progress tracking by replacing Excel-based transcripts with an easy-to-use interface, making it easier to review learner activity for scenarios like performance appraisals or compliance checks. It's especially helpful for managers overseeing small teams (under 50 people), such as store managers or internal teams, allowing them to quickly monitor course completion and keep learning on track.
 
 View this [article](/help/migrated/administrators/feature-summary/group-success-dashboard.md) for more information about the Group Success Dashboard.
 
@@ -138,7 +138,7 @@ Migration process in Adobe Learning Manager for importing modules now supports t
 This is supported now by adding three new optional columns in the module_version.csv. Three new optional columns are: `successCriteria`, `successQuizData`, and `successViewPercent`.
 
 These fields accept only specific values, and the connector will fail to process the file if invalid values are entered.
-A quiz module can use three types of success criteria. Either it can mark pass if the learner launches the content, depending on a percentage value scored (defined by `successViewPercent`: below), or it can be based on the quiz module's outcome (defined by `successQuizData`: below). This value is to be filled in as per the instructions below. The successCriteria parameter is used to determine this.
+A quiz module can use three types of success criteria. Either it can mark pass if the learner launches the content, depending on a percentage value scored (defined by `successViewPercent`: below), or it can be based on the quiz module's outcome (defined by `successQuizData`: below). This value is to be filled in as per the instructions below. The successCriteria parameter is used to determine this. 
 
 `successCriteria`: Accepts `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ`, or `VIEWPERCENT_OR_QUIZ`.
 
@@ -146,6 +146,8 @@ A quiz module can use three types of success criteria. Either it can mark pass i
 * If `VIEW_PERCENT`: Enter a value for `successViewPercent`, leave `successQuizData` blank. This will mark the learner pass depending on the percentage value scored in the quiz.
 * If `QUIZ`: Enter a value for `successQuizData`, leave `successViewPercent` blank. This will mark the learner as passed depending on the outcome of the quiz module.
 * If `VIEWPERCENT_OR_QUIZ`: Enter values for both `successQuizData` and `successViewPercent`. This will mark the learner as passed depending on either the outcome of the quiz module or the percentage scored.
+
+This field is only valid if `hasQuiz` is true. Also, if only `completionCriteria` is passed, then `successCriteria` will be considered the same as `completionCriteria` for interactive content.
 
 `successQuizData`: Accepts `QUIZ_ATTEMPTED`, `QUIZ_PASSED`, or `QUIZPASSED_OR_LIMITREACHED`.
 
