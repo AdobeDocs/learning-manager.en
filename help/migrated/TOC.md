@@ -33,7 +33,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Getting started for Managers](managers/feature-summary/getting-started-manager.md)
    * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
 * Administrator {#admin}
-   * [AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
+   * [Admin AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [User log in](administrators/feature-summary/user-login.md)
    * [Add users and create user groups](administrators/feature-summary/add-users-user-groups.md)
    * [Add classroom locations](administrators/feature-summary/classroom.md)
