@@ -63,7 +63,7 @@ Follow these steps to access the Admin AI Assistant (Beta):
 
 >[!NOTE]
 >
->AI-generated responses may not always be accurate. Please double-check the information before using it.
+>AI-generated responses might not be fully accurate. Make sure to verify the information before using it.
 
 ## Example prompts
 
