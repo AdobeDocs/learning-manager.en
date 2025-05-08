@@ -15,19 +15,14 @@ This dashboard gives a real-time view of learner progress, including enrollment 
 
 Group Success Dashboard offers the following:
 
-* **Simplifies learner progress tracking**: The Group Success Dashboard replaces Excel-based transcripts with an easy-to-use, real-time dashboard. Managers and administrators can quickly view learner enrollments and course progress to support key scenarios such as:
+* **Simplifies learner progress tracking**: The Group Success Dashboard provides a user-friendly, real-time view of learner data, reducing the need for Excel-based transcripts. Managers and administrators can quickly view learner enrollments and course progress to support key scenarios such as:
    * Reviewing course progress before a performance review
    * Verifying compliance during disciplinary actions.
-* **Facilitates team management**: The Group Success Dashboard is useful for managers with small teams (under 50 people), like store managers or internal teams. It allows them easily check how their team members are doing with their courses and make sure everyone is on track to finish.
+* **Facilitates team management**: The Group Success Dashboard is useful for managers with small teams (under 50 people), like store managers, franchise managers, dealership managers or internal teams. It provides a team view and allows managers to quickly check whether their team has completed the required set of courses to achieve business goals.
 
 ## How to use the Group Success Dashboard
 
-Administrator can enable and create the dashboards by giving them a name, selecting user groups, and choosing the courses or learning paths. The dashboards can be shared with other administrators or managers. The Group Success Dashboard includes the following process:
-
-* [Enable the Group Success Dashboard in Adobe Learning Manager](/help/migrated/administrators/feature-summary/group-success-dashboard.md#enable-the-group-success-dashboard)
-* [Create the Group Success Dashboard in Adobe Learning Manager](/help/migrated/administrators/feature-summary/group-success-dashboard.md#create-group-success-dashboard)
-* [View the Group Success Dashboard in Adobe Learning Manager](/help/migrated/administrators/feature-summary/group-success-dashboard.md#view-the-dashboard)
-* [Share the Group Success Dashboard with administrators and managers](/help/migrated/administrators/feature-summary/group-success-dashboard.md#share-the-dashboard)
+Administrator can enable and create the dashboards by giving them a name, selecting user groups, and choosing the courses or learning paths. The dashboards can be shared with other administrators or managers.
 
 ### Enable the Group Success Dashboard
 
