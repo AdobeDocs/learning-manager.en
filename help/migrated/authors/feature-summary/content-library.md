@@ -465,16 +465,13 @@ Arrange the content according to whether the content is being used in any course
 
 ## Add content unique id and expiry date
 
-The Content unique ID is a unique code given to each content item in Adobe Learning Manager. It helps admins and authors find and manage content easily, especially when updating or moving it between systems. This Content unique ID is also useful for connecting content with other tools like HR or compliance systems. The same Content unique ID is used across all language versions, so everything stays consistent for learners.
+The Content unique ID is a unique code given to each content item in Adobe Learning Manager. It helps admins and authors find and manage content easily, especially when updating or moving it between systems. This Content unique ID is also useful for connecting content with other tools like HR or compliance systems. The same Content unique ID is used across all language versions, so everything stays consistent for learners. 
 
 The Expiry Date marks content that may be outdated or no longer needed. Even after the expiry date, the content stays available, but it reminds authors and admins to check and update it if needed. Based on settings, expired content can be removed from new enrollments or archived. Like the Content unique ID, the Expiry Date works the same way for all language versions, helping keep content clean and up to date for everyone.
 
-* Content unique ID: Allows authors to assign a unique alphanumeric ID (letters and numbers only, no spaces) to each content item. This Content unique ID helps map and manage content across Adobe Learning Manager and external systems seamlessly.
-* Expiry Date: Allows authors set a reminder to review or update their content when it becomes outdated. The content remains available after the expiry date, but it acts as a reminder to check if it's still relevant and accurate.
-
 Authors can add a Content unique ID and set an Expiry Date date when creating content. The Content unique ID must only include letters and numbers (no spaces) and must not be used for any other content. If a duplicate ID is entered, an error will appear. Authors can set these fields when creating a course.
 
-The content will be available after the expiry date, but the date acts as a reminder to review or update it. The Content unique ID and Expiry Date apply to all language versions of a content group, ensuring a consistent experience for all users, no matter the language. Authors can use the Content unique ID to quickly search for and find specific content, making it easier to manage and update training materials.
+The Content unique ID and Expiry Date apply to all language versions of a content group, ensuring a consistent experience for all users, no matter the language. Authors can use the Content unique ID to quickly search for and find specific content, making it easier to manage and update training materials.
 
 >[!NOTE]
 >
@@ -506,7 +503,7 @@ The **[!UICONTROL Training report]** now includes two new columns: **[!UICONTROL
 6. Select the expiry date of the uploaded content. The expiration date does not impact the availability of the content or learner access. The expiry date can be set to any date between 1990 and 2037. If a past date is selected, a warning is displayed, but the content can still be published
 7. Select **[!UICONTROL Save]**. The uploaded content now features in the **[!UICONTROL Content Library]**.
 
-### Set content ID and expiry date for languages
+### Set content unique ID and expiry date for languages
 
 The content's unique ID and expiry date are set at the content group level, meaning they apply consistently to all language versions of the content. They are specified once and automatically applied to all language versions of that content.
 
