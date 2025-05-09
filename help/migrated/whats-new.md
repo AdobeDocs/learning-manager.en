@@ -45,9 +45,9 @@ Additionally, the unique ID supports integration with content migration processe
 
 View this [article](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) for more information about content unique ID and expiry date.
 
-## ALM AI Assistant (Beta)
+## Admin AI Assistant (Beta)
 
-The new AI Assistant (Beta) in Adobe Learning Manager simplifies complex administrative tasks. It offers an intelligent conversational interface that enhances content discovery and reporting. Administrators can find relevant content quickly and access specific information easily.
+The Admin AI Assistant (Beta) in Adobe Learning Manager simplifies complex administrative tasks. It offers an intelligent conversational interface that enhances content discovery and reporting. Administrators can find relevant content quickly and access specific information easily.
 
 This tool streamlines key administrative workflows, improving speed and accuracy while reducing the need to navigate multiple screens.
 

@@ -6,7 +6,7 @@ description: Learn more about the Adobe Learning Manager Admin AI Assistant (Bet
 
 # Admin AI Assistant (Beta) in Adobe Learning Manager
 
-In complex learning environments, administrators often face challenges locating relevant content or performing routine tasks because of deeply nested menus and fragmented workflows. Tasks like running reports or accessing specific information can require navigating multiple screens. The Admin AI Assistant helps you find the right information to understand and complete tasks efficiently.
+In complex learning setups, administrators may struggle to find content or complete tasks because of complicated menus and disconnected workflows. Tasks like running reports or accessing specific information can require navigating multiple screens. The Admin AI Assistant helps you find the right information to understand and complete tasks efficiently.
 
 The Admin AI Assistant (Beta) in Adobe Learning Manager provides a smart, conversational way for administrators to quickly find answers and get helpful suggestions to perform tasks more easily.
 
@@ -50,7 +50,7 @@ Follow these steps to access the Admin AI Assistant (Beta):
 
    >[!NOTE]
    >
-   >When launching the Admin AI Assistant (Beta) for the first time, you must provide your consent before using it. The consent dialog will only appear during this initial launch. For all subsequent launches, you will be taken directly to the AI Assistant to enter your prompts.
+   >When launching the Admin AI Assistant (Beta) for the first time, you must provide your consent before using it. The consent dialog will only appear during this initial launch. For all subsequent launches, you will be taken directly to the Admin AI Assistant to enter your prompts.
    
 3. Select **[!UICONTROL Get started]**. You're now ready to use the Admin AI Assistant (Beta).
  
