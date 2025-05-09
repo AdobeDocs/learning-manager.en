@@ -30,18 +30,18 @@ View this [article](/help/migrated/administrators/feature-summary/courses.md#lea
 
 ## Manage content lifecycle with IDs and expiry dates
 
-The Content ID is a unique, trackable identifier for external referencing, reporting, or integration with third-party systems like compliance tools or HRIS platforms. The Expiry Date flags or retires outdated or time-sensitive content, reducing compliance risk and improving content hygiene. Once the expiry date is reached, content can be excluded from new enrollments or archived based on organizational rules.
+The Content unique ID is a unique code given to each content item in Adobe Learning Manager. It helps admins and authors find and manage content easily, especially when updating or moving it between systems. This Content unique ID is also useful for connecting content with other tools like HR or compliance systems. The same Content unique ID is used across all language versions, so everything stays consistent for learners.
 
-The content remains accessible after the expiry date; however, the date prompts authors and admins to review or update the material. Both the expiry date and unique content ID apply across all language versions of the content group, ensuring a consistent learner experience regardless of language. Authors can use the unique ID to quickly locate and manage specific content, streamlining updates and version control.
+The Expiry Date marks content that may be outdated or no longer needed. Even after the expiry date, the content stays available, but it reminds authors and admins to check and update it if needed. Based on settings, expired content can be removed from new enrollments or archived. Like the Content unique ID, the Expiry Date works the same way for all language versions, helping keep content clean and up to date for everyone.
 
-Additionally, the unique ID supports integration with content migration processes, allowing easy content transfer and management across different systems.
+Additionally, the Content unique ID supports integration with content migration processes, allowing easy content transfer and management across different systems.
 
-* The expiry date helps authors keep track of outdated content that may need review or updates.
-* The unique code makes it easier to link content between external systems and Adobe Learning Manager.
+* The Content unique ID makes it easier to link content between external systems and Adobe Learning Manager.
+* The Expiry Date helps authors keep track of outdated content that may need review or updates.
 
 >[!NOTE]
 >
->Content expiry and unique content IDs are now supported during migration. Two additional columns: expiryDate and uniqueContentId have been added to the module_version.csv file to enable this functionality.
+>Content unique ID and Expiry Date are now supported during migration. Two additional columns: expiryDate and uniqueContentId have been added to the module_version.csv file to enable this functionality.
 
 View this [article](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) for more information about content unique ID and expiry date.
 
@@ -55,7 +55,7 @@ View this [article](/help/migrated/administrators/feature-summary/alm-ai-assista
 
 ## New content languages
 
-Adobe Learning Manager is known for supporting many languages, which makes it stand out from other learning platforms. With every milestone, Adobe Learning Manager expands its language offerings to better support a global and diverse user base. In this release, we're introducing new content languages, further enhancing our commitment to delivering inclusive and accessible learning experiences for all.
+Adobe Learning Manager is known for supporting many languages for both content and interface, which makes it stand out from other learning platforms. With every milestone, Adobe Learning Manager expands its language offerings to better support a global and diverse user base. In this release, we're introducing new content languages, further enhancing our commitment to delivering inclusive and accessible learning experiences for all.
 
 * Chinese-traditional Hong Kong (cn-HK)
 * Norwegian Bokmal (nb-NO)

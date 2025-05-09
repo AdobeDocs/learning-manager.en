@@ -465,35 +465,33 @@ Arrange the content according to whether the content is being used in any course
 
 ## Add content unique id and expiry date
 
-Adobe Learning Manager allows authors to add content expiry date and unique ID for the contents to improve content management across platforms. These enhancements are designed to help organizations keep their training materials up-to-date, consistent, and easier to manage, especially when operating across multiple systems.
+The Content unique ID is a unique code given to each content item in Adobe Learning Manager. It helps admins and authors find and manage content easily, especially when updating or moving it between systems. This Content unique ID is also useful for connecting content with other tools like HR or compliance systems. The same Content unique ID is used across all language versions, so everything stays consistent for learners.
 
-* Content expiry date: Allows authors to set a review or update reminder for their content. While the content remains accessible after the expiry date, it signals the need for review to ensure relevance and accuracy.
-* Unique Code: Allows authors to assign a unique alphanumeric ID (letters and numbers only, no spaces) to each content item. This ID helps map and manage content across Adobe Learning Manager and external systems seamlessly.
+The Expiry Date marks content that may be outdated or no longer needed. Even after the expiry date, the content stays available, but it reminds authors and admins to check and update it if needed. Based on settings, expired content can be removed from new enrollments or archived. Like the Content unique ID, the Expiry Date works the same way for all language versions, helping keep content clean and up to date for everyone.
 
-Authors can add a unique ID and set an expiration date when creating content. The unique ID must only include letters and numbers (no spaces) and must not be used for any other content. If a duplicate ID is entered, an error will appear. Authors can set these fields when creating a course.
+* Content unique ID: Allows authors to assign a unique alphanumeric ID (letters and numbers only, no spaces) to each content item. This Content unique ID helps map and manage content across Adobe Learning Manager and external systems seamlessly.
+* Expiry Date: Allows authors set a reminder to review or update their content when it becomes outdated. The content remains available after the expiry date, but it acts as a reminder to check if it's still relevant and accurate.
 
-The content will be available after the expiry date, but the date acts as a reminder to review or update it. The expiry date and unique ID apply to all language versions of a content group, ensuring a consistent experience for all users, no matter the language. Authors can use the unique ID to quickly search for and find specific content, making it easier to manage and update training materials.
+Authors can add a Content unique ID and set an Expiry Date date when creating content. The Content unique ID must only include letters and numbers (no spaces) and must not be used for any other content. If a duplicate ID is entered, an error will appear. Authors can set these fields when creating a course.
+
+The content will be available after the expiry date, but the date acts as a reminder to review or update it. The Content unique ID and Expiry Date apply to all language versions of a content group, ensuring a consistent experience for all users, no matter the language. Authors can use the Content unique ID to quickly search for and find specific content, making it easier to manage and update training materials.
 
 >[!NOTE]
 >
->Content expiry and unique content IDs are now supported during migration. Two additional columns: expiryDate and uniqueContentId have been added to the module_version.csv file to enable this functionality.
+>Content unique ID and Expiry Date are now supported during migration. Two additional columns: expiryDate and uniqueContentId have been added to the module_version.csv file to enable this functionality.
 
-The unique code feature supports integration with content migration processes, allowing for seamless content transfer and management between systems.
+The **[!UICONTROL Training report]** now includes two new columns: **[!UICONTROL Content Expiry Date (UTC TimeZone)]** and **[!UICONTROL Content Unique ID]**, to track content expiry and content unique ID. These fields can be added via UI or migration, and administrator can track them centrally through training reports.
 
-The **[!UICONTROL Training report]** now includes two new columns: **[!UICONTROL Content Expiry Date (UTC TimeZone)]** and **[!UICONTROL Content Unique ID]**, to track content expiry and content unique ID.
-
-These fields can be added via UI or migration, and administrator can track them centrally through training reports.
-
-1. Log in as an author.
+1. Log in as an Author.
 2. Select **[!UICONTROL Create Content]** in the home page or **[!UICONTROL Content Library]** in the left panel.
 
    ![](assets/create-content.png)
-   _Select Create Content in homepage_
+   _Select Create Content in home page_
 
 3. Select **[!UICONTROL Add]** and then select **[!UICONTROL Content]**.
 
    ![](assets/add-content.PNG) 
-   _Select add content in the Content Library_ 
+   _Select Add content in the Content Library_ 
 
 4. Type the content details, such as **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL File]**, **[!UICONTROL Folder]**, or **[!UICONTROL Duration]**.
  
@@ -523,13 +521,13 @@ The content's unique ID and expiry date are set at the content group level, mean
 
 ### Search for content using content unique ID
 
-The unique ID can be used to search for content across all languages, and the expiry date is included in training reports, ensuring consistency in tracking and reporting.
+The Content unique ID can be used to search for content across all languages, and the Expiry Date is included in training reports, ensuring consistency in tracking and reporting.
 
-1. Launch the Content Library.
-2. Type the content unique ID in the search bar.
+1. Launch the **[!UICONTROL Content Library]**.
+2. Type the Content unique ID in the search bar.
    
    ![](assets/search-unique-id.png)
-   _Search using content unique ID_
+   _Search using Content unique ID_
 3. Select the ID to navigate to the content.
 
 ## Search for content {#searchforcontent}
