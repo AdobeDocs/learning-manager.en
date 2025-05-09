@@ -10,7 +10,7 @@ The upcoming release of Adobe Learning Manager introduces a variety of new featu
 
 ## Group Success Dashboard
 
-The Group Success Dashboard (GSD) allows administrators and managers to track learner progress in real time. The dashboard provides a clear view of enrollment status, pending actions, and course. Group Success Dashboard simplifies progress tracking by replacing Excel-based transcripts with an easy-to-use interface, making it easier to review learner activity for scenarios like performance appraisals or compliance checks. It's especially helpful for managers overseeing small teams (under 50 people), such as store managers or internal teams, allowing them to quickly monitor course completion and keep learning on track.
+The Group Success Dashboard (GSD) allows administrators and managers to track learner progress in real time. The dashboard provides a clear view of enrollment status, pending actions, and course completion. Group Success Dashboard simplifies progress tracking by replacing Excel-based transcripts with an easy-to-use interface, making it easier to review learner activity for scenarios like performance appraisals or compliance checks. It's especially helpful for managers overseeing small teams (under 50 people), such as store managers or internal teams, allowing them to quickly monitor course completion and keep learning on track.
 
 View this [article](/help/migrated/administrators/feature-summary/group-success-dashboard.md) for more information about the Group Success Dashboard.
 
@@ -18,7 +18,7 @@ View this [article](/help/migrated/administrators/feature-summary/group-success-
 
 Adobe Learning Manager now allows assigning multiple custom roles to a single user. This update, along with CSV role assignments and automatic scope refresh prompts, gives admins more flexibility in defining responsibilities. These improvements enhance scalability, streamline access management, and ensure users only see relevant content, boosting efficiency and compliance. 
 
-The multiple assignment of custom roles is useful when custom admins transfer to other teams, change responsibilities, or leave the organization. It allows existing users to be reassigned without disruption. Custom roles are now labeled in the user interface for easier identification. Assigned custom admins can view all their available roles in the profile section (top right corner) and switch between roles as needed. 
+The ability to assign multiple custom roles when users transfer to other teams, change responsibilities, or leave the organization. It allows existing users to be reassigned without disruption. Custom roles are now labeled in the user interface for easier identification. The custom admins can view all their assigned custom roles in the profile section (top right corner) and switch between roles as needed. 
 
 View this [article](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user) for more information about the custom roles. 
 
