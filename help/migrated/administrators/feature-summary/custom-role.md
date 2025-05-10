@@ -15,7 +15,7 @@ You can create a custom role to provide authoring capabilities limited to a part
 >
 >Adding a new custom role will not affect existing custom user groups or any role-based groups such as All Admins, All Authors, etc.
 
-Admins have the ability to create custom admin and custom author roles with tailored permissions for each role. Below is an overview of the permissions associated with each role:
+Administrator have the ability to create custom admin and custom author roles with tailored permissions for each role. Below is an overview of the permissions associated with each role:
 
 **Custom Author Role Permissions**
 
@@ -29,31 +29,31 @@ Custom authors can perform the following tasks:
    * Learning paths
    * Learning plans
 
-Admins and authors, including custom admins and custom authors, will have the ability to share learning objects (LOs) to externally shared catalogs. Admins and authors should be able to search for externally shared catalogs while creating learning objects (LOs).
+Administrators and authors, including custom administrators and custom authors, will have the ability to share learning objects (LOs) to externally shared catalogs. Administrators and authors should be able to search for externally shared catalogs while creating learning objects (LOs).
 
 **Custom administrator Role Permissions**
 
-The custom admin role replicates a set of admin responsibilities, including access to account-level privileges. Custom admins are granted permissions for managing key features related to learning activities, such as:
+The custom admin role replicates a set of admin responsibilities, including access to account-level privileges. Custom administrators are granted permissions for managing key features related to learning activities, such as:
 
 * Learning plans
 * Catalogs
 * Reports
 * Tags
 
-In addition, custom admins can:
+In addition, custom administrators can:
 
 * Manage courses and job aids, including enrolling and deleting users.
 * Create, edit, and delete certifications, learning paths, and learning plans.
 * Access reporting and enrollment features for all learning objects (LOs).
 
-Admins can now view CSV-created permissions within Adobe Learning Manager. The filter by option filters custom roles by admin created and those imported via a CSV. After you select a custom role, you can see its permissions.
+Administrators can now view CSV-created permissions within Adobe Learning Manager. The filter by option filters custom roles by admin created and those imported via a CSV. After you select a custom role, you can see its permissions.
  
 ![](assets/filter.png)
 _Filter custom roles_
 
 ## Create a custom role {#create-role}
 
-1. Log in as an Administrator. Open **[!UICONTROL Users]** > **[!UICONTROL Custom Role]**.
+1. Log in as an administrator. Open **[!UICONTROL Users]** > **[!UICONTROL Custom Role]**.
 2. Select **[!UICONTROL Create Role]**. The **[!UICONTROL Create New Role]** tab opens.
 
    ![](assets/create-new-role.png)
@@ -63,7 +63,7 @@ _Filter custom roles_
 3. Enter the name in the **[!UICONTROL Name of the Role]** field.
 4. **[!UICONTROL Account privileges]**: These privileges give the role owners access to specific system configuration aspects and which act on the entire account. Choose the access permissions. The user gets full control over assigned permissions. 
 
-   Admins can grant detailed permissions for the User section, which has Internal/External Users, User Groups, and Advanced users.
+   Administrators can grant detailed permissions for the User section, which has Internal/External Users, User Groups, and Advanced users.
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ _Filter custom roles_
 
 5. **Feature privileges - Core features**: Used to grant access to specific features for managing learning activities. Permissions to the following features can be given using this option. 
 
-   Admins can provide detailed permissions like read-only, create, edit, and delete permissions for the Catalogs.
+   Administrators can provide detailed permissions like read-only, create, edit, and delete permissions for the Catalogs.
 
    * Catalogs
    * Reports
@@ -86,7 +86,7 @@ _Filter custom roles_
 
    *Set scope for Catalogs, Reports, and Tags*
 
-6. **Feature privileges- Learning Objects:**  Use this option to provide access to LOs related features. Admins can provide detailed permissions for all learning objects, including courses, learning paths, certifications, and job aids. They can assign users permissions like create, edit, delete, or read-only access.
+6. **Feature privileges- Learning Objects:**  Use this option to provide access to LOs related features. Administrators can provide detailed permissions for all learning objects, including courses, learning paths, certifications, and job aids. They can assign users permissions like create, edit, delete, or read-only access.
 
    * Certifications
    * Courses
@@ -183,7 +183,7 @@ _Filter custom roles_
 * Only view content from the catalogs he/she has access to.
 * Access any Learning Object based on the permissions of the Catalog the Learning Object is a part of.
 
-   As an Administrator, you can:
+   As an administrator, you can:
 
 * Choose more than one catalog for a Custom Role.
 * Modify the permissions of a catalog any time.
@@ -279,11 +279,16 @@ _Filter custom roles_
 
 ## Assign multiple custom roles to a user
 
-Assign multiple custom roles to a user through the Adobe Learning Manager interface or by uploading a CSV file. This feature gives you more control over user permissions in the system.
+You can assign multiple Custom roles to users using the following ways:
+
+* Using the UI: You can assign more than one custom role to a user directly from the Adobe Learning Manager interface.
+* Using CSV Upload: You can upload a CSV file to assign multiple custom roles to several users at once.
+
+This makes it easier to manage user access and control permissions across the system.
 
 ### Assign multiple custom roles through the User Interface
 
-Assigning multiple custom roles through the administrator UI in Adobe Learning Manager is quick, flexible, and reduces errors. Administrator can assign roles visually without technical steps like CSV uploads, making it perfect for onboarding or adjusting permissions. The UI offers immediate visibility into assigned roles, minimizing errors and ensuring better control. It supports updates as responsibilities change, instant role switching, and role-based delegation.
+Assigning multiple custom roles through the Admin Console in Adobe Learning Manager is a fast and intuitive option ideal for onboarding, permission adjustments, or smaller updates. Roles can be assigned visually, without the need for CSV uploads, which reduces the risk of errors and provides real-time visibility. This method supports quick updates as responsibilities shift and allows role switching and delegation as needed.
 
 To assign multiple custom roles to a user, follow these steps:
 
@@ -293,13 +298,13 @@ To assign multiple custom roles to a user, follow these steps:
 4. Add users to the custom role.
   
    ![](assets/add-users-in-custom-roles.png) 
-   _Assign users to a custom roles_
+   _Assign users to a custom role_
 
-5. Select Save.
+5. Select **[!UICONTROL Save]**.
 
 Select multiple custom roles for a user as needed. Each user can have up to 50 custom role assignments. The number of available roles decreases with each assignment.
 
-After assigning the same users to another custom role, you can view the remaining number of custom roles available for those users.
+After assigning users to an additional custom role, you can view how many role assignments remain available for each user.
 
 >[!NOTE]
 >
@@ -307,13 +312,18 @@ After assigning the same users to another custom role, you can view the remainin
 
 ### Assign multiple custom roles using CSV
 
-Uploading a CSV file in Adobe Learning Manager allows efficient bulk assignment of custom roles. This is beneficial for onboarding many employees, reorganizing teams, or updating access for new training. CSV imports save manual effort, ensure consistent assignments, and reduce errors. It is useful during mergers, department-wide updates, or global training roll outs. This method helps admins save time, standardize roles, and maintain governance.
+Uploading a CSV file in Adobe Learning Manager enables the efficient bulk assignment of custom roles. This process is particularly beneficial for onboarding large number of employees, reorganizing teams, or updating access for new training. CSV imports save manual effort, ensure consistent assignments, and reduce errors. This method is especially useful during mergers, department-wide updates, or global training roll outs. This method helps administrators save time, standardize roles, and maintain governance.
 
-You can now assign multiple roles to a user via CSV import by uploading two files to Box: role.csv and user_role.csv. The user_role.csv file includes the fields Custom role and User IDs.
+You can now assign multiple roles to a user via CSV import by uploading two files to Box: 
+
+* role.csv
+* user_role.csv. 
+
+The user_role.csv file includes the fields Custom role and User IDs.
 
 The role.csv file includes the fields, Custom role, Source of creation and detailed information for Catalogs, Users, Courses, Learning Paths, and more.
 
-If the CSV file contains invalid data or exceeds specified limits, there will be a notification displaying the errors.
+If the CSV file has incorrect data or goes over the limits (50 roles per user and 500 users per role), a message will appear showing the errors.
  
 ![](assets/error-custom-role.png)
 _Error notification for custom roles_
@@ -325,7 +335,7 @@ Administrators can update, add, or remove custom roles for users in Adobe Learni
 
 >[!NOTE]
 >
->Custom admins cannot manage custom roles (add or remove custom role) or promote themselves to the administrator role.
+>Custom administrators cannot manage custom roles (add or remove custom role) or promote themselves to the administrator role.
 
 After you assign custom roles to users, you can add or remove custom roles from the **[!UICONTROL Users]** page.
 
@@ -334,7 +344,7 @@ After you assign custom roles to users, you can add or remove custom roles from 
    ![](assets/search-user-role.png)
    _Search for a user in Users page_
 
-2. Select the drop down near the user and select **[!UICONTROL Manage custom roles]**.
+2. Select the dropdown arrow at the end of the row where the user name is displayed, and then select **[!UICONTROL Manage custom roles]**.
 
    ![](assets/select-manage-custom-roles.png)
    _Select Manage custom roles in user page_
@@ -352,7 +362,7 @@ After you assign custom roles to users, you can add or remove custom roles from 
 5. Select **[!UICONTROL Save]**. A confirmation dialog for the change in the custom role appears. Select **[!UICONTROL Yes]**.
  
    ![](assets/confirmation-prompt.png)
-   _Select yes in the confirmation prompt_
+   _Select Yes in the confirmation prompt_
 
 A third custom role is assigned to the user.
 
@@ -377,7 +387,7 @@ Users receive email notifications when the custom roles are assigned to them. Th
 
 ## Download the custom role report
 
-Admins can download a CSV report of all custom roles and their permissions. The report shows how each role was created, either by an admin or through a CSV file, and outlines the highlights the access given to each role.
+Administrators can download a CSV report listing all custom roles and their associated permissions. The report indicates whether each role was created manually or via CSV upload and provides a summary of the access and privileges assigned to each role.
 
 To download the report, follow these steps:
 
@@ -398,7 +408,7 @@ The user_role.csv file includes the fields, Custom role, Source of creation and 
 
 ## Audit trail for custom roles
 
-Admins can download the custom role audit report to tracks all changes made to the custom roles, including creating, modifying, and deleting custom roles and their associated feature access. 
+Administrators can download the custom role audit report to tracks all changes made to the custom roles, including creating, modifying, and deleting custom roles and their associated feature access. 
 
 Refer this article [Audit trail for custom roles](/help/migrated/administrators/feature-summary/reports.md#audit-trail-for-custom-roles) for more information.
 
@@ -424,7 +434,7 @@ Choose the folders and click **[!UICONTROL OK]**.
 
 ## Learning Summary Dashboard for Custom administrator {#custom-admin-dashboard}
 
-Custom admins can see the same view as what an administrator sees. A custom admin may data outside his scope. This is only applicable if the custom admin has full scope. To grant full scope, while creating a custom admin, enable the option **[!UICONTROL Full Control]** in Account Summary Report.
+Custom administrators can see the same view as what an administrator sees. A custom admin may data outside his scope. This is only applicable if the custom admin has full scope. To grant full scope, while creating a custom admin, enable the option **[!UICONTROL Full Control]** in Account Summary Report.
 
 ![](assets/create-custom-role.png)
 
@@ -562,17 +572,17 @@ In earlier versions of Learning Manager, any Custom Role with permission to crea
 
 The scope setting used to be disabled when learning plan access was granted, which gave the user access to All Catalogs and All User Groups by default.
 
-All learning plans created by an administrator, by default, are applicable to all users. Users can also be assigned any Learning Object. On the other hand, users with Custom Roles have access to full scopes, for example, all catalogs, Learning Objects, or User Groups. This meant that admins were unable to create Custom Roles as expected that allowed access to Learning Plans for users with limited scope.
+All learning plans created by an administrator, by default, are applicable to all users. Users can also be assigned any Learning Object. On the other hand, users with Custom Roles have access to full scopes, for example, all catalogs, Learning Objects, or User Groups. This meant that administrators were unable to create Custom Roles as expected that allowed access to Learning Plans for users with limited scope.
 
 In this update of Learning Manager, you can create Custom Roles for Learning Plans that allow scoping of users and Learning Objects. In other words, Learning Plans can be created with a limited scope that is derived from a custom admin's role scope.
 
 Now, an administrator can define or restrict the scope while granting learning plan management access.
 
-Custom admins can create learning plans with a limited scope, determined by the scope of the custom admin's configurable role. Such learning plans are only accessible to custom admins with the same role, besides being accessible to regular admins. In addition, the custom admins cannot see any other Learning Plans in the account.
+Custom administrators can create learning plans with a limited scope, determined by the scope of the custom admin's configurable role. Such learning plans are only accessible to custom administrators with the same role, besides being accessible to regular administrators. In addition, the custom administrators cannot see any other Learning Plans in the account.
 
-Existing custom admins, having access to Learning Plans, will always have full scope (by definition). They will have access to all learning plans in the account just like a regular admins do. New custom roles created with full scope and new custom admins added to such roles, will continue to have access to all learning plans.
+Existing custom administrators, having access to Learning Plans, will always have full scope (by definition). They will have access to all learning plans in the account just like a regular administrators do. New custom roles created with full scope and new custom administrators added to such roles, will continue to have access to all learning plans.
 
-Learning plans created by administrator and full scope custom admins will be created as usual and will not be limited by scope.
+Learning plans created by administrator and full scope custom administrators will be created as usual and will not be limited by scope.
 
 In the section **Scope for Feature Privileges**, grant access to User Groups and/or Catalog for the Custom Role.
 

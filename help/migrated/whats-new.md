@@ -10,46 +10,42 @@ The upcoming release of Adobe Learning Manager introduces a variety of new featu
 
 ## Group Success Dashboard
 
-The Group Success Dashboard (GSD) allows administrators and managers to track learner progress in real time. The dashboard provides a clear view of enrollment status, pending actions, and course completion. Group Success Dashboard simplifies progress tracking by replacing Excel-based transcripts with an easy-to-use interface, making it easier to review learner activity for scenarios like performance appraisals or compliance checks. It's especially helpful for managers overseeing small teams (under 50 people), such as store managers or internal teams, allowing them to quickly monitor course completion and keep learning on track.
+The Group Success Dashboard (GSD) in Adobe Learning Manager allows administrators and managers to monitor learner progress in real time across departments or user groups. It supports proactive tracking of course completion, enrollment, and pending actions, making it easier to manage learning for teams. Group Success Dashboard simplifies progress tracking by replacing Excel-based transcripts with an easy-to-use interface, making it easier to review learner activity for scenarios like performance appraisals or compliance checks. It's especially helpful for managers overseeing small teams (under 50 people), such as store managers or internal teams, allowing them to quickly monitor course completion and keep learning on track.
 
 View this [article](/help/migrated/administrators/feature-summary/group-success-dashboard.md) for more information about the Group Success Dashboard.
 
 ## Enhancements to custom roles
 
-Adobe Learning Manager now allows assigning multiple custom roles to a single user. This update, along with CSV role assignments and automatic scope refresh prompts, gives admins more flexibility in defining responsibilities. These improvements enhance scalability, streamline access management, and ensure users only see relevant content, boosting efficiency and compliance. 
-
-The ability to assign multiple custom roles when users transfer to other teams, change responsibilities, or leave the organization. It allows existing users to be reassigned without disruption. Custom roles are now labeled in the user interface for easier identification. The custom admins can view all their assigned custom roles in the profile section (top right corner) and switch between roles as needed. 
+Adobe Learning Manager now allows users to have multiple custom roles, addressing the need for custom administrators to manage various responsibilities. Each role can have up to 500 users, and each user can have up to 50 roles, providing flexibility in delegating tasks. Users can easily switch between their assigned roles through a new option in their profile, ensuring seamless management of different responsibilities. Administrators can assign or modify roles for users via a new link in the user page, allowing them to add or remove roles as needed. These enhancements simplify the management of multiple responsibilities, particularly for small teams with limited resources.
 
 View this [article](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user) for more information about the custom roles. 
 
 ## Learner bulk enrollment, attendance, and completion {#bulk-enrollment}
 
-Administrators and instructors manually mark completions and attendance when they get attendance rosters after session completions. This requires a lot of redundant work to update names and mark completions for them. Now, this enhancement allows administrators and instructors to update a CSV with email IDS of learners and directly upload it to the Adobe Learning Manager to mark enrollment, completions, and even mark attendance.
+Using Adobe Learning Manager's bulk enrollment feature, administrators can efficiently enroll large groups of learners into courses, certifications, or learning programs by uploading a CSV file. This process saves time, ensures consistency, and supports organizational scalability. Additionally, administrators and instructors can update learner information, attendance, and completions in bulk through CSV uploads, minimizing manual work and ensuring data accuracy.
 
 View this [article](/help/migrated/administrators/feature-summary/courses.md#learner-bulk-enrollment-attendance-and-completion) for more information about the bulk enrollment, attendance, and completion. 
 
-## Manage content lifecycle with IDs and expiry dates
+## Track content using Content unique ID and Expiry Dates
 
-The Content unique ID is a unique code given to each content item in Adobe Learning Manager. It helps admins and authors find and manage content easily, especially when updating or moving it between systems. This Content unique ID is also useful for connecting content with other tools like HR or compliance systems. The same Content unique ID is used across all language versions, so everything stays consistent for learners.
+The Content unique ID is a unique code given to each content item in Adobe Learning Manager. It helps administrators and authors find and manage content easily, especially when updating or moving it between systems. This Content unique ID is also useful for connecting content with other tools like HR or compliance systems. The same Content unique ID is used across all language versions, so everything stays consistent for learners.
 
-The Expiry Date marks content that may be outdated or no longer needed. Even after the expiry date, the content stays available, but it reminds authors and admins to check and update it if needed. Based on settings, expired content can be removed from new enrollments or archived. Like the Content unique ID, the Expiry Date works the same way for all language versions, helping keep content clean and up to date for everyone.
+The Expiry Date marks content that may be outdated or no longer needed. Even after the expiry date, the content stays available, but it reminds authors and administrators to check and update it if needed. Based on settings, expired content can be removed from new enrollments or archived. Like the Content unique ID, the Expiry Date works the same way for all language versions, helping keep content clean and up to date for everyone.
 
 Additionally, the Content unique ID supports integration with content migration processes, allowing easy content transfer and management across different systems.
 
 * The Content unique ID makes it easier to link content between external systems and Adobe Learning Manager.
 * The Expiry Date helps authors keep track of outdated content that may need review or updates.
 
->[!NOTE]
->
->Content unique ID and Expiry Date are now supported during migration. Two additional columns: expiryDate and uniqueContentId have been added to the module_version.csv file to enable this functionality.
-
 View this [article](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) for more information about content unique ID and expiry date.
 
 ## Admin AI Assistant (Beta)
 
-The Admin AI Assistant (Beta) in Adobe Learning Manager simplifies complex administrative tasks. It offers an intelligent conversational interface that enhances content discovery and reporting. Administrators can find relevant content quickly and access specific information easily.
+In complex learning setups, Administrators may struggle to find content or complete tasks because of complicated menus and disconnected workflows. For instance, tasks like running reports or accessing specific information may require navigating multiple screens. The Admin AI Assistant (Beta) helps you find the right information to understand and complete tasks efficiently.
 
-This tool streamlines key administrative workflows, improving speed and accuracy while reducing the need to navigate multiple screens.
+The Admin AI Assistant (Beta) in Adobe Learning Manager helps administrators quickly find answers to common questions, explore system features, and understand how to complete key task, just by asking in plain language. Whether you're new to Adobe Learning Manager or looking for faster ways to troubleshoot, the Admin AI Assistant (Beta) simplifies your workflow by providing context-aware help directly in the platform.
+
+It uses Adobe's AI capabilities to enable natural language queries across learning content and system workflows.  Administrators can ask questions like **How to add users to Adobe Learning Manager** or **How to add Learning Paths**. The Adobe Learning Manager Admin AI Assistant (Beta) is trained exclusively on publicly available, Adobe-owned documentation such as, resources hosted on **[!UICONTROL Experience League]**. It does not learn from or access customer content, internal training material, or user-generated data.
 
 View this [article](/help/migrated/administrators/feature-summary/alm-ai-assistant.md) for more information about the AI Assistant (Beta).
 
@@ -66,16 +62,15 @@ Adobe Learning Manager is known for supporting many languages for both content a
 
 View this [article](/help/migrated/languages-supported.md) for a list of supported languages in Adobe Learning Manager.
 
-## Go1 content enhancements
+## Enhancements to Content Marketplace
 
-Adobe Learning Manager introduces new purchasing models for Go1 content, providing more flexibility and options for acquiring content: Premium Essentials and Premium Essential Plus. Essentials offers cost-effective solutions for boosting employee engagement and includes content providers like Skillshub, Thomson Reuters, and Emtrain. Premium Essential Plus offers additional content from premium providers such as Blinkist, Pluralsight, Skillsoft, Traliant, and Coursera.
+Adobe Learning Manager introduces new purchasing models for acquiring content, providing more flexibility and options for acquiring content: Premium Essentials and Premium Essential Plus. Essentials offers cost-effective solutions for boosting employee engagement and includes content providers like Skillshub, Thomson Reuters, and Emtrain. Premium Essential Plus offers additional content from premium providers such as Blinkist, Pluralsight, Skillsoft, Traliant, and Coursera.
 
 View this [article](/help/migrated/administrators/feature-summary/content-marketplace.md) for more information about the new purchase plans. 
 
 ## Login access report in FTP, custom FTP, and Box {#log-in-access-report}
 
-The login access reports are now available for Box, FTP, and Custom FTP connectors, providing visibility into connector login activities. This report, along with other reports, helps administrators build their reporting suite outside the platform by providing detailed information about user login and access times. This report can be used to create more informative dashboards and track user activity effectively.
-
+The login access reports are now available for Box, FTP, and Custom FTP connectors, in addition to the existing Job APIs. This report provides detailed information on user login activities, including execution status, compression settings, and scheduling options. The report can be generated on-demand or scheduled, and the data is stored in the specified connector for easy access and analysis. This enhancement improves the ability to monitor and audit user login activities, ensuring better security and compliance tracking.
 The report is now available in the custom FTP, FTP and Box along with existing reports, such as learner progress and course completion. This integration allows administrators to access all necessary reports from a single source, facilitating better data management and analysis.
 
 The report helps in automation by enabling the export of login and access data to the FTP, where it can be joined with other reports to create comprehensive dashboards. This feature is particularly useful for organizations that rely on automated processes for data analysis and reporting.
@@ -97,10 +92,7 @@ View this [article](/help/migrated/administrators/feature-summary/set-up-interfa
 
 ## Filter deleted users before purging
 
-Purging users means permanently deleting their data from the system. This includes removing all records and information linked to the user, so nothing is left behind. Purging helps keep the system clean, saves storage space, and follows data retention rules.
-
-The feature is designed to help administrators manage and purge users who have been deleted for a certain period. This is particularly useful for maintaining data hygiene and ensuring that old, unused user data is removed from the system. 
-Administrator can filter users by the month they were deleted, making it easier to identify and purge users who were deleted in a specific timeframe.
+Purging users means permanently deleting their data from the system. Sort users by the date they were deleted, making it easier to locate and manage specific records. Additionally, a new filter allows administrators to select users based on the year and month of deletion, narrowing down the list to a specific timeframe. These changes streamline the user cleanup process, enabling administrators to efficiently purge users by selecting multiple records within a defined period.
 
 Refer to this [article](/help/migrated/administrators/feature-summary/purge-users.md#filter-deleted-users-before-purging) for more information.
 
@@ -114,18 +106,10 @@ View this [article](https://helpx.adobe.com/adobe-connect/using/creating-seminar
 
 ### Support for access to session analytics
 
-Instructors can now access Session Analytics for their completed Adobe Connect sessions via a new link provided in their session dashboard.
+Adobe Learning Manager allows users to access Session Analytics via a URL, which redirects to the Connect session analytics dashboard. This dashboard provides detailed information on session duration, attendee count, and recording details, available approximately 20 minutes after the session ends.
 
 ![](assets/adobe-connect-session-url.png)
 _Select session URL_
-
-This link opens the session analytics dashboard in Connect, which provides detailed insights into session engagement.
-This feature is available only for sessions conducted through Adobe Connect. The session analytics include: 
-
-* Engagement: Overview of the live session's overall performance
-* Interactions: Detailed breakdown of participant activity across different pods 
-* Attendee Activity: Summary of participant engagement 
-* Download Reports: Option to download reports for pod-specific engagement data
 
 ![](assets/session-dashboard.png)
 _Session dashboard_
@@ -133,6 +117,8 @@ _Session dashboard_
 View this [article](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html) for more information about the Connect session analytics. 
 
 ## Migration changes
+
+### Success criteria for the content using migration 
 
 Migration process in Adobe Learning Manager for importing modules now supports the ability to add parameters for defining success criteria. 
 This is supported now by adding three new optional columns in the module_version.csv. Three new optional columns are: `successCriteria`, `successQuizData`, and `successViewPercent`.
@@ -160,12 +146,16 @@ This field is only valid if `hasQuiz` is true. Also, if only `completionCriteria
 * This criterion accepts a percentage value that the learner is required to score to successfully pass the quiz
 Webhook changes.
 
+### Add Content unique ID and Expiry Date for content using migration
+
+Content unique ID and Expiry Date are now supported during migration. Two additional columns: expiryDate and uniqueContentId have been added to the module_version.csv file to enable this functionality.
+
 View this [article](/help/migrated/integration-admin/feature-summary/migration-manual.md) for more information about the migration process. 
 
-## Webhooks changes
+## Enhancements to webhooks
 
-* Using a webhook, you can now send payloads for both parent and child learning objects during key learner actions such as enrollment, completion, and unenrollment. For example, when a learner enrolls in a Learning Path that includes three courses, the system will generate one payload for the Learning Path and separate payloads for each course.
-<!--* Adobe Learning Manager now captures learner activity from LinkedIn Learning (LIL) in Adobe Learning Manager Learning Record Store (LRS). For example, if a learner enrolls in and completes a course on LIL, that progress will automatically sync to Adobe Learning Manager using xAPI statements.-->
+Webhooks now support events for courses within Learning Paths (LPs) and certifications when enrollment, unenrollment, or completion occurs.
+This includes supporting events for each course within the LP or certification, in addition to the parent LO event.
 
 View this [article](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md) for more information about Webhooks. 
 
@@ -199,7 +189,7 @@ The following sample responses illustrate various error scenarios:
 
 ## Bugs fixed in this update
 
-* Corrected inaccurate timestamps in the Get Learning Object API response for Job Aids where dateCompleted, dateEnrolled, and dateStarted were incorrectly matching dateModified.
+* Corrected inaccurate timestamps in the GET learningObject API response for Job Aids where dateCompleted, dateEnrolled, and dateStarted were incorrectly matching dateModified.
 * The User API endpoint now displays specific field-level error messages instead of generic ones.
 * The /learningObjects endpoint returned a blank response when invoked for the default catalog.
 * Updated public API responses to display Job Aids that were previously excluded due to outdated versioning.
@@ -228,7 +218,7 @@ The following sample responses illustrate various error scenarios:
 
 ## System Requirements
 
-[Learning Manager system requirements](/help/migrated/system-requirements.md)
+[Adobe Learning Manager system requirements](/help/migrated/system-requirements.md)
 
 ## Previous releases of Adobe Learning Manager
 
