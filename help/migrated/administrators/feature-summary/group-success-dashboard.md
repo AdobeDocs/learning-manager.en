@@ -145,6 +145,8 @@ When you select more than one user group, Adobe Learning Manager uses specific r
 * **User groups with the same Active field**: If the user groups use the same field (for example, Location), the system includes all learners from both groups. It combines the values. For example: **Location = Bangalore** and **Location = Chennai**. It includes learners from both locations.
 * **User groups with different Active fields**: If the user groups use different fields (for example, Location and Role), the system includes only learners who meet all conditions. For example: **Location = Bangalore or Chennai** and **Role = Manager**. It includes only learners who have the Manager role and are located in Bangalore or Chennai.
 
+**Summary:**
+
 * Same Active field: Learners are combined (OR logic)
 * Different Active fields: Learners must match all criteria (AND logic)
 
