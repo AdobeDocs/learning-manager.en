@@ -4,7 +4,7 @@ jcr-language: en_us
 title: New features summary
 ---
 
-# New features summary
+# New features summary May 2025
 
 The upcoming release of Adobe Learning Manager introduces a variety of new features and enhancements aimed at streamlining the platform and enhancing its capabilities.
 
