@@ -71,6 +71,7 @@ View this [article](/help/migrated/administrators/feature-summary/content-market
 ## Login access report in FTP, custom FTP, and Box {#log-in-access-report}
 
 The login access reports are now available for Box, FTP, and Custom FTP connectors, in addition to the existing Job APIs. This report provides detailed information on user login activities, including execution status, compression settings, and scheduling options. The report can be generated on-demand or scheduled, and the data is stored in the specified connector for easy access and analysis. This enhancement improves the ability to monitor and audit user login activities, ensuring better security and compliance tracking.
+
 The report is now available in the custom FTP, FTP and Box along with existing reports, such as learner progress and course completion. This integration allows administrators to access all necessary reports from a single source, facilitating better data management and analysis.
 
 The report helps in automation by enabling the export of login and access data to the FTP, where it can be joined with other reports to create comprehensive dashboards. This feature is particularly useful for organizations that rely on automated processes for data analysis and reporting.
