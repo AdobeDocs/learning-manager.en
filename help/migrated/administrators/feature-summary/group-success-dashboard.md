@@ -13,7 +13,7 @@ The Group Success Dashboard (GSD) in Adobe Learning Manager allows administrator
 
 Group Success Dashboard offers the following:
 
-* **Simplifies learner progress tracking**: The Group Success Dashboard provides a user-friendly, real-time view of learner data, reducing the need for Excel-based transcripts. Managers and administrators can quickly view learner enrollments and course progress to support key scenarios such as:
+* **Simplifies learner progress tracking**: The Group Success Dashboard provides a user-friendly, real time view of learner data, reducing the need for Excel-based transcripts. Managers and administrators can quickly view learner enrollments and course progress to support key scenarios such as:
 
    * **Performance review readiness**: Managers can assess course progress for team members ahead of appraisal cycles.
    * **Compliance monitoring**: Identify learners who haven't completed mandatory trainings.
