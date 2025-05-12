@@ -59,3 +59,29 @@ You must purchase Adobe Connect separately, apart from Adobe Learning Manager.
 If the host of Virtual classroom course do not attend the session, then attendance does not register automatically for learners who attended the session. In such scenarios, Administrator can record the attendance manually.
 
 Click the virtual classroom course, click Attendance on the left pane of the following page and record the attendance.
+
+## Support for Adobe Connect seminars with large audiences
+
+Adobe Learning Manager supports selecting Seminar rooms from Adobe Connect while setting up a virtual classroom session in Connect. Previously, administrator could only select the Meeting room type. This feature enables administrator with a valid seminar license to schedule and manage one-time or large-scale events (up to 1,500 attendees) within ALM.
+
+Refer to this [article](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) for more information about the Seminar room.
+
+### Support for access to session analytics
+
+Instructors can access Session Analytics for their completed Adobe Connect sessions via a new link provided in their session dashboard.
+
+![](assets/adobe-connect-session-url.png)
+_Select session URL_
+
+This link opens the session analytics dashboard in Connect, which provides detailed insights into session engagement.
+This feature is available only for sessions conducted through Adobe Connect. The session analytics include: 
+
+* **[!UICONTROL Engagement]**: Overview of the live session's overall performance
+* **[!UICONTROL Interactions]**: Detailed breakdown of participant activity across different pods 
+* **[!UICONTROL Attendee Activity]**: Summary of participant engagement 
+* **[!UICONTROL Download Reports]**: Option to download reports for pod-specific engagement data
+
+![](assets/session-dashboard.png)
+_Session dashboard_
+
+Refer this [article](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html) for more information about Session Analytics.

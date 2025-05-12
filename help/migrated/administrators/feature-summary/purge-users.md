@@ -16,10 +16,10 @@ Use the purge user feature to remove personal identifiable information and learn
 Purge user action can have the following results:
 
 * If a user is purged, the links in import logs does not work to avoid the download of old CSVs and bringing back the user data again into the system.
-* If an Author is purged, his name is replaced by the name of the Admin who purged that user.
-* If Instructors are purged, they are removed from sessions. Admin has to replace/add instructors for such sessions.
+* If an Author is purged, his name is replaced by the name of the administrator who purged that user.
+* If Instructors are purged, they are removed from sessions. Administrator has to replace/add instructors for such sessions.
 * Purging a user in Learning Manager does not remove the user in any external applications (third-party systems or other applications written by you). Contact external application owners to get the users removed from such applications.
-* If a purged user is referred in the configuration settings of a connector, the connector is disabled. The connector needs to be reconfigured by the Admin to resume.
+* If a purged user is referred in the configuration settings of a connector, the connector is disabled. The connector needs to be reconfigured by the administrator to resume.
 
 <!---### Manage users
 
@@ -57,15 +57,58 @@ To purge users, follow these steps:
 
 >[!NOTE]
 >
->Once the deleted user is added back to the system, the previous roles (e.g. Admin, Manager, Author, Instructor etc.) will not be retained.They will be added with the learner role. 
+>Once the deleted user is added back to the system, the previous roles (e.g. Administrator, Manager, Author, Instructor etc.) will not be retained.They will be added with the learner role. 
 
 ## Bulk purge of users
 
-You can select the first 50 users and purge the users in one shot. This allows Administrators to select 50 users at once and purge them together. This helps Administrators when they wish to purge users in bulk. It's always a best practice to check the users who are selected for purging. This is important to ensure only the correct set of users are getting purged. 
+You can select the first 50 users and purge the users in one shot. This allows administrators to select 50 users at once and purge them together. This helps administrators when they wish to purge users in bulk. It's always a best practice to check the users who are selected for purging. This is important to ensure only the correct set of users are getting purged. 
 
 ![](assets/bulk-purge-users.png) 
 
 *Purge users in bulk*
+
+## Filter deleted users before purging
+
+Adobe Learning Manager allows administrators to permanently remove users who have already been deleted from the platform. This process, called purging, helps organizations maintain a clean learner database, comply with data retention policies, and prevent any unauthorized access to user data.
+This is particularly useful for maintaining data hygiene and ensuring that old, unused user data is removed from the system. 
+Purging users is essential for complying with data privacy guidelines or maintaining a sanitized datastore by removing redundant records.
+
+### Filter deleted users by month
+
+You can filter deleted users by selecting a specific month and then permanently delete them.
+
+To filter the deleted users using deletion month:
+
+1. Select **[!UICONTROL Users]** in the administrator home page and then select **[!UICONTROL User Cleanup]**.
+2. Select the **[!UICONTROL Select Deletion Month]** date picker and select the date.
+ 
+   ![](assets/deletion-date.png)
+   _Select the month when the users were deleted_
+
+   The list of users deleted in the selected month appears.
+   
+   ![](assets/list-of-user-deleted.png)
+   _List of deleted users displayed for selected month_
+
+### Sort deleted users by month
+
+You can sort the filtered users by their **[!UICONTROL Unique User ID]** and **[!UICONTROL Date deleted]**.
+
+1. In the list of deleted users, sort the users according to their user IDs or deletion date.
+   
+   ![](assets/sort-by-date.png)
+   _User list filtered by Unique User ID_
+
+2. Select one or multiple users.
+3. Select **[!UICONTROL Actions]** and then select **[!UICONTROL Purge User]**.
+4. Select Purge on the confirmation message to delete the user records permanently from Adobe Learning Manager.
+
+   ![](assets/select-purge.png)
+   _Final confirmation before permanently purging users_
+
+>[!NOTE]
+>
+>Purging users permanently removes their data. Double-check your selection before proceeding.
 
 +++Read about the results of Purge User action
 
@@ -156,7 +199,7 @@ You can select the first 50 users and purge the users in one shot. This allows A
    <td> </td>
   </tr>
   <tr>
-   <td>Notify Enterprise Admin about the request.</td>
+   <td>Notify Enterprise administrator about the request.</td>
    <td>Yes</td>
   </tr>
   <tr>
@@ -184,8 +227,6 @@ You can select the first 50 users and purge the users in one shot. This allows A
 
 +++
 
-Learning Manager is now GDPR compliant. For more information on GDPR compliance, see  [Learning Manager compliance to GDPR](../../kb/prime-gdpr.md).
-
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
 +++How many days does it take for a purge request to complete?
@@ -193,7 +234,13 @@ Learning Manager is now GDPR compliant. For more information on GDPR compliance,
 A request to purge users takes a maximum of 30 days to complete.
 +++
 
-+++Can you perform a bulk purge in Learning Manager?
++++Can you perform a bulk purge in Adobe Learning Manager?
 
 Yes, you can perform a purge in bulk. However, you can only perform a bulk purge of 50 users.
++++
+
++++Can I restore a purged user?
+
+No. Once purged, all user data is permanently deleted and cannot be recovered.
+
 +++

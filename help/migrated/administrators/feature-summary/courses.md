@@ -104,7 +104,7 @@ To restore a retired instance to an activate state, perform the following steps:
 
 ### Delete an instance
 
-Admins can delete the instance using **Delete this instance** option immediately after the creation. You cannot delete instances if there is a session linked to it or if any learners are enrolled to it.
+Administrators can delete the instance using **Delete this instance** option immediately after the creation. You cannot delete instances if there is a session linked to it or if any learners are enrolled to it.
 
 ![](assets/delete-this-instance.png)
 
@@ -233,13 +233,79 @@ The report contains data of active, deleted, and suspended users if they are pen
 
 If a learner who was earlier in pending approval state, unenrolls, then his/her record will not be present in the report. Also if a learner who was earlier in pending approval state, is enrolled to the course by admin/manager/custom admin enrollment, then his/her record is present in the report.
 
+## Manage learner enrollment, attendance, and completion in bulk {#bulk-enrollment}
+
+Using Adobe Learning Manager's bulk enrollment feature, administrators can efficiently enroll large groups of learners into courses, certifications, or learning programs by uploading a CSV file. This process saves time, ensures consistency, and supports organizational scalability. Additionally, administrators and instructors can update learner information, attendance, and completions in bulk through CSV uploads, minimizing manual work and ensuring data accuracy.
+
+You can use the same CSV file format for enrollment, attendance, and completion. Just enter learner email IDs under the "Email" column and save the file with a name based on the action, for example, bulk_enrollment.csv, bulk_attendance.csv, or bulk_completion.csv. Only CSV format is supported. UTF-8 format is not supported. Download the sample csv [here](assets/Sample-Bulk-Action-CSV.csv). 
+
+### Enroll learners in bulk using a csv
+
+Instead of adding learners one at a time, administrators can enroll up to 100,000 users in simultaneously by uploading a CSV file. The file must include a column labeled **userEmail** with the email addresses of the learners to be enrolled.
+
+To enroll bulk learners using CSV:
+
+1. Log in as administrator.
+2. Select a course from the **[!UICONTROL Courses]** section.
+3. Select **[!UICONTROL Learners]** in the **[!UICONTROL Course Overview]** page. 
+4. Select **[!UICONTROL Enroll]** and then select **[!UICONTROL Upload a CSV]**.  
+   ![](assets/upload-a-csv-learners.png)
+   _Enrolling learner using the CSV upload_
+5. Upload a CSV and select **[!UICONTROL Proceed]**. 
+
+The CSV file includes a column labeled "User Email." Enter the email addresses for your users in this column. 
+
+### Mark course completion in bulk
+
+Administrators can quickly mark course completions for many learners at once by uploading a CSV file with their email addresses. This saves time compared to updating each learner individually. The CSV's userEmail column shows which learners to update. You can mark up to 10,000 learners as complete in one upload.
+
+To mark the bulk completion:
+
+1. Select a course from the **[!UICONTROL Courses]** section.
+2. Select **[!UICONTROL Learners]** in the **[!UICONTROL Course Overview]** page.
+3. Select **[!UICONTROL Actions]** and then **[!UICONTROL Mark Completion]**.
+4. Select **[!UICONTROL Bulk]**.
+5. Upload a CSV file with a userEmail column listing learners who completed the course.
+
+   ![](assets/bulk-completion.png)
+   _Marking bulk completion using CSV_
+
+### Mark attendance in bulk
+
+Administrators can mark attendance for many learners at once using a bulk attendance feature. Instead of updating each learner's attendance individually, Administrators can upload a CSV file containing learners' email addresses. The userEmail column in the CSV identifies which learners' attendance to record. This process can handle up to 10,000 learners in a single upload, making attendance marking faster and more efficient.
+
+To mark the bulk attendance:
+
+1. Select a course from the **[!UICONTROL Courses]** section.
+2. Select **[!UICONTROL Attendance & Scoring]** in the **[!UICONTROL Course Overview]** page. 
+3. Select **[!UICONTROL Actions]** and then select **[!UICONTROL Mark Bulk Attended]**.
+4. Upload a CSV file that includes a userEmail column with the email addresses of the learners whose attendance you want to update.
+ 
+   ![](assets/mark-bulk-attendance.png)
+   _Marking bulk attendance using CSV_
+
+>[!NOTE]
+>
+>You can mark attendance for up to 10,000 users in bulk using CSV.
+
+### Common CSV upload errors
+
+* The learner's email in the CSV does not exist Adobe Learning Manager user directory.
+* The file format is incorrect.
+* The file contains extra columns or invalid data.
+
+![](assets/error-bulk.png)
+_Error notification_
+
+You can download and view the CSV file listing the errors with failed users at the row level for easy identification.
+
 ## Waitlist
 
 The waitlist section allows learners to be waitlisted for classroom courses when seats are limited, based on their order of enrollment. Administrators can manage this by selecting waitlisted learners and allocating seats beyond the initial limit. Once a seat is allocated by the administrator, the learner is immediately enrolled in the course.
 
 ### Waitlist report
 
-Adobe Learning Manager's allows admins to download the list of waitlisted learners for all instances of a course. Admins can access this report from the Waitlist section on the **[!UICONTROL Course Overview]** page.
+Adobe Learning Manager's allows administrators to download the list of waitlisted learners for all instances of a course. Administrators can access this report from the Waitlist section on the **[!UICONTROL Course Overview]** page.
 
 Following the columns available in the Waitlist report:
 
@@ -346,7 +412,7 @@ In this release of Learning Manager, the Administrator can send L1 feedback for 
 
 Quiz reports help in evaluating the performance of a learner post completion of a Learning program or course. 
 
-Learning Manager currently facilitates learning in 13 interface languages and 32 content languages. Although, this option is learner-friendly and provides convenience in supporting our global learners, it is strenuous for Admins to fetch reports attempted in various locales.
+Learning Manager currently facilitates learning in 13 interface languages and 32 content languages. Although, this option is learner-friendly and provides convenience in supporting our global learners, it is strenuous for administrators to fetch reports attempted in various locales.
 
 Quiz reports, display data in different languages provided the course is being offered in multiple languages. Until now, reports generated by Admin displayed responses one below the other irrespective of the language in which the quiz was attempted. **For example**, If a user has taken a quiz in Dutch, Admin will only be able to view those quiz reports attempted by users in Dutch at a time. The Admin who has selected English as an interface language, was unable to view reports for all users at once irrespective of the locale attempted in.
 
@@ -439,7 +505,7 @@ You can view the L1 feedback provided by learners for a course and the L3 feedba
 
 ## Discussion board
 
-The Discussion Board feature allows learners to view the course discussions. As an admin, you have the ability to delete any comments as needed. Admins can enable this option under course settings. 
+The Discussion Board feature allows learners to view the course discussions. As an admin, you have the ability to delete any comments as needed. Administrators can enable this option under course settings. 
 
 ## Course moderation {#coursemoderation}
 
@@ -510,10 +576,10 @@ Choose the instance type from the drop-down list to view the scores based on eac
 
 ## Default instance
 
-Admins can set default Badges, gamification settings and reminders in **[!UICONTROL Default Instance]** page. To modify the default instance settings, select **[!UICONTROL Default Instance]** > **[!UICONTROL Edit]**. 
+Administrators can set default Badges, gamification settings and reminders in **[!UICONTROL Default Instance]** page. To modify the default instance settings, select **[!UICONTROL Default Instance]** > **[!UICONTROL Edit]**. 
 
 * **[!UICONTROL Badge]**: Select the default badges from the dropdown menu.
-* **[!UICONTROL Gamification]**: Configure gamification settings, including points for completion, early completion, and timely completion. Admins have the option to select account level settings or customize the gamification points for this instance.
+* **[!UICONTROL Gamification]**: Configure gamification settings, including points for completion, early completion, and timely completion. Administrators have the option to select account level settings or customize the gamification points for this instance.
 * **[!UICONTROL L1 Reaction Feedback]**: Enable predefined questions for learner feedback upon course completion, with options to make questions mandatory.
 ***[!UICONTROL  L3 Behaviour Change Feedback]**: Enable feedback questions for the learner's manager upon course completion.
 ***[!UICONTROL  Reminder Settings]**: Set and manage reminders for deadlines, with options for escalation.
@@ -531,7 +597,7 @@ For sending the email notifications, an Admin must explicitly choose the escalat
 
 ## Completion comments 
 
-Admins can leave comments when they mark any learner as complete for courses, learning paths, or certifications. These comments help with compliance and auditing purposes. Admins can easily add comments for one learner or multiple learners at once. 
+Administrators can leave comments when they mark any learner as complete for courses, learning paths, or certifications. These comments help with compliance and auditing purposes. Administrators can easily add comments for one learner or multiple learners at once. 
 
 ### Add completion comments
 

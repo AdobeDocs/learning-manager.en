@@ -312,8 +312,3 @@ For information regarding current and previous releases of Learning Manager web 
 ## System Requirements
 
 [Learning Manager system requirements](system-requirements.md)
-
-## Previous releases of Adobe Learning Manager
-
-* [July 2023 release](whats-new-2023-july.md)
-* [April 2023 release](whats-new-2023-april.md)

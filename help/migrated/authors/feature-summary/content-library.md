@@ -190,13 +190,13 @@ The content library also maintains versioning of your uploaded contents. If you 
 
    You can also add HTML content generated from Captivate, Presenter, or Presenter Video Express. 
 
-1. Learning Manager supports captions for video content uploaded in Learning Manager. Now, authors can upload the file containing captions, along with the video file. 
+1. Adobe Learning Manager supports captions for video content uploaded in Adobe Learning Manager. Now, authors can upload the file containing captions, along with the video file. 
 
    Then, the learners can view the captions during the playback of the video module.  
 
    The format supported is  [Web Video Text Tracks (webVTT)](https://www.w3.org/TR/webvtt1/).
 
-   Caption support is available for video content uploaded in Content library in Learning Manager. 
+   Caption support is available for video content uploaded in Content library in Adobe Learning Manager. 
 
    As an author, when you'll upload a video or audio content, you can also upload the VTT file that contains the captions.
 
@@ -216,7 +216,7 @@ The content library also maintains versioning of your uploaded contents. If you 
    >
    >   One VTT file supports one language. To support multiple languages, upload multiple video files for each content language and then upload its respective VTT file for each video file.
 
-   As an author, every time you change the content, video or audio, Learning Manager prompts you for a new vtt file.
+   As an author, every time you change the content, video or audio, Adobe Learning Manager prompts you for a new vtt file.
 
    After you add this content to a course, and when you preview the course as learner, you can see the captions on the video.
 
@@ -230,7 +230,7 @@ The content library also maintains versioning of your uploaded contents. If you 
    1. Video announcements.
    1. Video played within the eLearning content. This is driven by the content.
    1. Video uploaded in Social Learning.
-   1. Video created in Learning Manager desktop app.
+   1. Video created in Adobe Learning Manager desktop app.
    1. Video content created using migration process.
    1. Video playback in mobile app in offline mode.
 
@@ -416,9 +416,9 @@ Content can be unlinked from a specified folder **ONLY** if it is also associate
 
 After you've added the content, you can modify the completion criteria for the content. 
 
-In Learning Manager, badges and skill are awarded based on Success  and Completion. If the learner has completed a course but is not successful, then the learner does not receive the badge and skill corresponding to the LO.
+In Adobe Learning Manager, badges and skill are awarded based on Success  and Completion. If the learner has completed a course but is not successful, then the learner does not receive the badge and skill corresponding to the LO.
 
-For example, if you had used Adobe Captivate to create your course and set the learning parameters on the Preferences dialog, the same settings get migrated to Learning Manager in the Completion Criteria options.
+For example, if you had used Adobe Captivate to create your course and set the learning parameters on the Preferences dialog, the same settings get migrated to Adobe Learning Manager in the Completion Criteria options.
 
 In the Completion Criteria section, you can set the options mentioned below:
 
@@ -463,6 +463,110 @@ Arrange the content according to whether the content is being used in any course
 
 *Sort content by usage*
 
+## Add Content unique id and expiry date
+
+### What is Content unique ID
+
+The Content unique ID is a unique code given to each content item in Adobe Learning Manager. It helps administrators and authors find and manage content easily, especially when updating or moving it between systems. This Content unique ID is also useful for integrating content with other tools like HR or compliance systems. The same Content unique ID is used across all language versions, so everything stays consistent for learners. 
+
+* Content unique IDs must be unique across all content.
+* Content unique ID cannot include spaces or special characters.
+* If a duplicate Content unique ID is entered, an error will appear during creation.
+
+### What is Expiry Date
+
+The Expiry Date marks content that may be outdated or no longer needed. Even after the expiry date, the content stays available, but it reminds authors and administrators to check and update it if needed. Based on settings, expired content can be removed from new enrollments or archived. Like the Content unique ID, the Expiry Date works the same way for all language versions, helping keep content clean and up to date for everyone.
+
+* Content remains available even after expiry.
+* A warning appears if a past date is selected.
+* The expiry field accepts any date between 1990 and 2037.
+
+This helps organizations maintain content relevance without accidentally removing published items.
+
+The Content unique ID and Expiry Date apply to all language versions of a content group, ensuring a consistent experience for all users, no matter the language. Authors can use the Content unique ID to quickly search for and find specific content, making it easier to manage and update training materials.
+
+The **[!UICONTROL Training report]** now includes two new columns: **[!UICONTROL Content Expiry Date (UTC TimeZone)]** and **[!UICONTROL Content Unique ID]**, to track Content unique ID and Expiry Date. These fields can be added via UI or migration, and administrator can track them centrally through training reports.
+
+### Add Content unique ID and Expiry Date 
+
+Authors can add a Content unique ID and set an Expiry Date date when creating content. 
+
+To add Content unique ID and Expiry Date:
+
+1. Log in as an Author.
+2. Select **[!UICONTROL Create Content]** or select **[!UICONTROL Content Library]** in the left panel.
+
+   ![](assets/create-content.png)
+   _Select Create Content in home page_
+
+3. Select **[!UICONTROL Add]** and then select **[!UICONTROL Content]** in author home page.
+
+   ![](assets/add-content.PNG) 
+   _Select Add content in the Content Library_ 
+
+4. Type the **[!UICONTROL Name]** and **[!UICONTROL Description]**
+
+5. Select the content from the **[!UICONTROL Add Content File]** option 
+6. Select the folder from **[!UICONTROL Add to Folder]** option to add the content to folder.
+ 
+   ![](assets/add-a-new-content.png)
+   _Add new content_
+
+7. Type the ID of the uploaded content in the **[!UICONTROL Content unique ID]** field. The ID must be unique and follow the correct naming guidelines. The ID must not contain non-ASCII characters or spaces. If you enter a duplicate ID, an error message is displays.
+ 
+   ![](assets/content-unique-id.png)
+   _Field for entering a unique alphanumeric Content ID_
+
+8. Select the Expiry Date for the content. This date does not affect content availability or learner access. You can choose any date between 1990 and 2037. If a past date is selected, a warning appears, but the content can still be published.
+9. Select **[!UICONTROL Save]**. 
+The uploaded content now appears in the **[!UICONTROL Content Library]**.
+
+### Set Content unique ID and Expiry Date for languages
+
+The Content Unique ID and Expiry Date are defined at the content group level, meaning they are set once and automatically apply to all language versions of the content.
+
+1. Select the content in the **[!UICONTROL Content Library]**.
+2. Select **[!UICONTROL Edit]**.
+3. Select **[!UICONTROL Add New Language]**.
+4. Select any language from the list.
+5. Select **[!UICONTROL Save]**. 
+The Content unique ID and Expiry Date are now displayed on the language-specific version of the content, such as German in this example.
+
+### Search using the Content unique ID
+
+You can use the Content Unique ID to search for content across all language versions, making it easier to locate and manage specific items. Additionally, both the Content Unique ID and Expiry Date are included in training reports for consistent tracking and reporting.
+
+1. Launch the **[!UICONTROL Content Library]**.
+2. Type the **[!UICONTROL Content unique ID]** in the search bar.
+   
+   ![](assets/search-unique-id.png)
+   _Searching content using the Content unique ID_
+3. Select the content to view or edit it.
+
+### Content migration support 
+
+When migrating content, you can include the **expiryDate** and **uniqueContentId** in the module_version.csv file. This ensures continuity of metadata when moving content between systems.
+
+### Reporting changes
+
+Two new columns, Content unique ID and Content Expiry Date, are now available in the Training Report. These fields help administrators monitor content expiration dates more effectively.
+
+## Retire content {#retirecontent}
+
+Once you publish a content, you cannot delete the content. You must retire the content first. When you mark a content as Retired, the content is no longer visible to learners. The content also moves to the **[!UICONTROL Retired]** section. 
+
+To retire content, follow these steps:
+
+* In **[!UICONTROL Content library]**, select the content you want to retire.
+* Select **[!UICONTROL Action]** and then select **[!UICONTROL Retire]**.
+
+Any content that is being used in any learning objects do not get affected. Learners can still continue to access the content.
+
+>[!NOTE]
+>
+>You can also add content from the **[!UICONTROL Retired]** section, navigate to **[!UICONTROL Content Library]** and then select **[!UICONTROL Retired]**. Select **[!UICONTROL Add Content]**. For more details, see [Add static content](content-library.md#addstaticcontent).
+
+
 ## Search for content {#searchforcontent}
 
 In the Content Library, you can search for a content by choosing either the name of the content or the tags associated with the content.
@@ -470,22 +574,6 @@ In the Content Library, you can search for a content by choosing either the name
 On the Search bar, enter the name of a course or a tag, and you can see the recommendations.
 
 <!--![](assets/search-bar.png)-->
-
-## Retire content {#retirecontent}
-
-Once you publish a content, you cannot delete the content. You must retire the content first. When you mark a content as Retired, the content is no longer visible to learners. The content also moves to the Retired section. You can also move the content into the published state later.
-
-To retire content, follow these steps:
-
-* In Content library, select the content you want to retire.
-* Select Action > Retire.
-
-Any content that is being used in any learning objects do not get affected. Learners can still continue to access the content.
-
->[!NOTE]
->
->You can also add content from the **[!UICONTROL Retired]** section, navigate to **[!UICONTROL Content Library]** > **[!UICONTROL Retired]** and select **[!UICONTROL Add Content]**. For more details, see [Add static content](content-library.md#addstaticcontent).
-
 
 ## Republish retired content {#republishretiredcontent}
 
@@ -515,12 +603,12 @@ Note that existing courses that use the content, which are deleted from the cont
 
 +++ How to upload a SCORM content in Adobe Learning Manager?
 
-Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Learning Manager, upload the zip file in the catalog, and set the completion and success criteria.
+Create a SCORM-compliant eLearning course in any tool, such as, Adobe Captivate, and publish the content as a zip file. Then in Adobe Learning Manager, upload the zip file in the catalog, and set the completion and success criteria.
 +++
 
-+++How do I upload a new version of the same content to Learning Manager?
++++How do I upload a new version of the same content to Adobe Learning Manager?
 
-In Learning Manager, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course.
+In Adobe Learning Manager, the content library also maintains versions of your uploaded contents. If you make any change in the content, for example, a PowerPoint presentation, and re-upload the presentation in the library, the version number gets incremented by one. This helps you to track changes in your content. A new version of the content can be applied to all Learning Objects simultaneously or you can apply individual updates for each course.
 +++
 
 +++How to edit the details of a course in a different language?
