@@ -2,8 +2,8 @@
 jcr-language: en_us
 title: Admin AI Assistant (Beta) in Adobe Learning Manager
 description: Learn more about the Adobe Learning Manager Admin AI Assistant (Beta)
+exl-id: af3d935b-c158-4a8e-9282-62251d29249c
 ---
-
 # Admin AI Assistant (Beta) in Adobe Learning Manager
 
 In complex learning setups, Administrators may struggle to find content or complete tasks because of complicated menus and disconnected workflows. For instance, tasks like running reports or accessing specific information may require navigating multiple screens. The Admin AI Assistant (Beta) helps you find the right information to understand and complete tasks efficiently.

@@ -2,6 +2,7 @@
 jcr-language: en_us
 title: Group Success Dashboard
 description: Learn more about Group Success Dashboard in Adobe Learning Manager
+exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
 ---
 # Group Success Dashboard
 

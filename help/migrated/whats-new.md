@@ -2,8 +2,8 @@
 description: Learn about the new features and enhancements in the May 2025 release of Adobe Learning Manager
 jcr-language: en_us
 title: New features summary
+exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
 ---
-
 # New features summary May 2025
 
 The upcoming release of Adobe Learning Manager introduces a variety of new features and enhancements aimed at streamlining the platform and enhancing its capabilities.
