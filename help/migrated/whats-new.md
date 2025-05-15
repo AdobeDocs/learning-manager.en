@@ -149,7 +149,7 @@ Webhook changes.
 
 ### Add Content unique ID and Expiry Date for content using migration
 
-Content unique ID and Expiry Date are now supported during migration. Two additional columns: expiryDate and uniqueContentId have been added to the module_version.csv file to enable this functionality.
+Content unique ID and Expiry Date are now supported during migration. Two additional columns: expiryDate and uniqueContentId have been added to the module_version.csv file to enable this functionality. Refer this [sample CSV](assets/module_version_content.csv) and [CSV specification file](assets/4-module_version_content.xlsx) for more information. 
 
 View this [article](/help/migrated/integration-admin/feature-summary/migration-manual.md) for more information about the migration process. 
 
