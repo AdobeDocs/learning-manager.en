@@ -17,7 +17,7 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
  </tbody>
 </table>-->
 
-+++Update 100: The November 2024 release of Adobe Learning Manager
++++Update 100: The May 2025 release of Adobe Learning Manager
 
 **Release date**: May 10, 2025
 
