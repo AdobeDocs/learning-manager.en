@@ -17,6 +17,15 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
  </tbody>
 </table>-->
 
++++Update 100: The November 2024 release of Adobe Learning Manager
+
+**Release date**: May 10, 2025
+
+## What's new in this release
+
+View [What's new in Adobe Learning Manager](/help/migrated/whats-new.md) for more information.
++++
+
 +++Update 99: The February 2025 release of Adobe Learning Manager
 
 ## Set up interface language through SAML
@@ -43,7 +52,7 @@ Refer this [article](/help/migrated/learners/feature-summary/catalogs.md#sorting
 
 ## What's new in this release
 
-View [What's new in Adobe Learning Manager](/help/migrated/whats-new.md) for more information.
+View [What's new in Adobe Learning Manager](/help/migrated/whats-new-nov-24.md) for more information.
 +++
 
 +++Update 97: The July 2024 release of Adobe Learning Manager
@@ -1586,11 +1595,6 @@ Currently only admins can add users to a Do Not Disturb list via the UI. After t
 * About direct reports
 * About skip level reports
 
-For more informaton about Learning Manager APIs, see the following:
-
-* [***API reference***](<https://learningmanager.adobe.com/docs/Learning> Managerapi/v2/)
-* [***API developer guide***](<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
-
 ### Issues fixed in this release {#Issuesfixedinthisrelease-1}
 
 * Only users belonging to a specific user group must receive announcements that are meant for them. Other users must not receive the announcements.
@@ -1946,9 +1950,9 @@ Release date: April 26, 2019
 
 * **Scan QR code to enroll:** QR code capabilities are enhanced. In addition to supporting attendance marking using QR code, now it also supports enrolling to a course, completing a course using QR code.   
   
-  To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+ To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
 
-* **Multiple attempts at course:** The Learning Manager app allows the learner to consume courses with multi attempts enabled. For more information on setting up multiple attempts, see  [***Multiple attempts***](<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts).
+* **Multiple attempts at course:** The Learning Manager app allows the learner to consume courses with multi attempts enabled. For more information on setting up multiple attempts, see  [***Multiple attempts***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts).
 
 +++
 
@@ -2490,7 +2494,7 @@ Release date: December 06, 2016.
 
 ### Enhancement {#enhancement}
 
-As part of this update, Learning Manager provides an end point [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) to update users in an application. You can access this API end point in Admin role. Using****this end point you can update the following information of Learning Manager users:
+As part of this update, Learning Manager provides an end point [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) to update users in an application. You can access this API end point in Admin role. Using****this end point you can update the following information of Learning Manager users:
 
 * Name
 * Email
@@ -3058,7 +3062,7 @@ In Administrator login, pagination was not working in Announcements page. This i
 
 **Create skills**
 
-In learners login, the skill name tool tip in **Skills map **was****not displaying the****full name. This issue is fixed. 
+In learners login, the skill name tool tip in **Skills map** was not displaying the full name. This issue is fixed. 
 
 **Add external partners**
 
