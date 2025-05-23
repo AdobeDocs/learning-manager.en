@@ -607,7 +607,7 @@ Follow these steps to add completion comments:
 2. Go to the **[!UICONTROL Courses]** page and select a course.
 3. Select **[!UICONTROL Learners]** on the course page.
 4. Choose the individual learner or multiple learners.
-5. Select **[!UICONTROL Actions]** and then select**[!UICONTROL  Mark Completion]**.
+5. Select **[!UICONTROL Actions]** and then select **[!UICONTROL Mark Completion]**.
 6. Enter your completion comment in the dialog box.
 
    ![](assets/comments.png)
