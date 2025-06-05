@@ -24,6 +24,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Transition from Adobe FTP Manager](transition-from-ftp-manager.md)
    * [Supported languages in Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [API deprecations and changes in Adobe Learning Manager](api-deprecations-list.md)
+   * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Whitelabeling in Adobe Learning Manager](white-label.md)
    * [Embedded Player interaction API documentation](/help/migrated/embedded-player-interaction.md)
 * Get Started {#get-started}
@@ -53,7 +54,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Set up interface language through SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [Peer accounts](administrators/feature-summary/peer-account.md)
    * [Create and modify skills and levels](administrators/feature-summary/skills-levels.md)
-   * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [AI-based recommendation of courses](ai-based-recommendations.md)
    * [Import skills](administrators/feature-summary/import-skills-external-sources.md)
    * [Gamification](administrators/feature-summary/gamification.md)
