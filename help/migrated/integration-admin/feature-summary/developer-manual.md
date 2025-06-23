@@ -21,7 +21,7 @@ This manual covers the following:
 
 >[!IMPORTANT]
 >
->This developer manual exclusively covers the V2 APIs of Adobe Learning Manager. All examples, request structures, and authentication workflows described in this guide are specific to the /primeapi/v2/ endpoints. For information on older versions or deprecated APIs, please refer to the [API reference documentation](https://learningmanager.adobe.com/docs/primeapi/v2/). 
+>This developer manual exclusively covers the V2 APIs of Adobe Learning Manager. All examples, request structures, and authentication workflows described in this guide are specific to the /primeapi/v2/ endpoints. For information on older versions or deprecated APIs, refer to the [API reference documentation](https://learningmanager.adobe.com/docs/primeapi/v2/). 
 
 ## API usage scenarios 
 
