@@ -6,7 +6,9 @@ contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
 ---
 
-# Introduction
+# Adobe Learning Manager Developer Manual
+
+## Overview
 
 Adobe Learning Manager provides RESTful APIs that allow developers to integrate and customize applications or workflows effectively. The Developer Manual offers guidance on how to use these APIs, covering topics such as authentication, data models, and integration with other applications. Additionally, this guide [API reference documentation](https://learningmanager.adobe.com/docs/primeapi/v2/) assists developers in creating external applications or backend workflows that interact with various features of Adobe Learning Manager, including course creation, tracking learner progress, skill mapping, certification, gamification, and transcripts. 
 
