@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: Application developer manual
-description: Learning Manager V1 API is now deprecated. The V1 APIs will stop working from 28th February 2021. We recommend that you use V2 APIs to interact with Learning Manager.
+description: Learn how to integrate and customize applications using RESTful APIs, covering essential topics such as OAuth 2.0 authentication, API usage scenarios, and data models. Enhance your enterprise applications with features like course creation, learner progress tracking, skill mapping, certification, gamification, and more. This guide provides step-by-step instructions and real-world examples to help developers create seamless and efficient workflows. Ideal for developers looking to leverage Adobe Learning Manager's capabilities for creating learner-centric applications.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
 ---
 
-# Application developer manual 
+# Introduction
 
-Adobe Learning Manager provides RESTful APIs that allow developers to integrate and customize applications or workflows effectively. The Developer Manual offers guidance on how to use these APIs, covering topics such as authentication, data models, and integration with other applications. Additionally, this guide [API reference documentation](https://learningmanager.adobe.com/docs/primeapi/v2/)assists developers in creating external applications or backend workflows that interact with various features of Adobe Learning Manager, including course creation, tracking learner progress, skill mapping, certification, gamification, and transcripts. 
+Adobe Learning Manager provides RESTful APIs that allow developers to integrate and customize applications or workflows effectively. The Developer Manual offers guidance on how to use these APIs, covering topics such as authentication, data models, and integration with other applications. Additionally, this guide [API reference documentation](https://learningmanager.adobe.com/docs/primeapi/v2/) assists developers in creating external applications or backend workflows that interact with various features of Adobe Learning Manager, including course creation, tracking learner progress, skill mapping, certification, gamification, and transcripts. 
 
 This manual covers the following: 
 
-* Covers OAuth2.0 authentication 
-* Explains API object models 
+* OAuth2.0 authentication 
+* API object models 
 * Shows how to use include, fields, and other parameters 
 * Provides endpoints for real-world use cases
 
@@ -31,9 +31,9 @@ To access Adobe Learning Manager APIs securely, you must authenticate using ALM'
 
 ### Register an application 
 
-Integrate Adobe Learning Manager (ALM) with external applications for enhanced versatility. The steps involve accessing Integration Admin, registering the application, and obtaining client ID and Secret. Generate authentication tokens (OAuth, Refresh, and Access Tokens) from ALM, emphasizing the use of the OAuth 2.0 framework for authentication and authorization. The access token has a validity of seven days. 
+Integrate Adobe Learning Manager with external applications for enhanced versatility. The steps involve accessing Integration Administrator interface, registering the application, and obtaining client ID and Secret. Generate authentication tokens (OAuth, Refresh, and Access Tokens) from ALM, emphasizing the use of the OAuth 2.0 framework for authentication and authorization. The access token has a validity of seven days. 
 
-1. Sign in to Adobe Learning Manager as an Integration Admin. 
+1. Sign in to Adobe Learning Manager as an integration administrator. 
 2. Select **[!UICONTROL Applications]** on the left pane. 
 
    ![alt text](assets/application.png)
@@ -182,7 +182,7 @@ While you can use any third-party API testing tool, we'll use Postman to test th
 
     * Key: Accept
     * Value: application/json 
-6. Enter your API endpoint in the URL field. Example:[https://learningmanager.adobe.com/learningManager/api/v2/users](https://learningmanager.adobe.com/learningManager/api/v2/users)
+6. Enter your API endpoint in the URL field. Example: [https://learningmanager.adobe.com/learningManager/api/v2/users](https://learningmanager.adobe.com/learningManager/api/v2/users)
 View [Adobe Learning Manager API Reference](https://learningmanager.adobe.com/docs/primeapi/v2/) for more information. 
 7. Select Send to make the API request.
 
@@ -727,9 +727,9 @@ Change any field in the payload.
         "attributes": {
             "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg",
             "binUserId": "3e6d571f-3956-44db-be69-8e458bde649f",
-            "bio": "Manager in Adobe from Bangalore",
+            "bio": "Manager",
             "contentLocale": "de-DE",
-            "email": "haridas@adobe.com",
+            "email": "user@example.com",
             "enrollOnClick": true,
             "fields": {
                 "Web": "Web",
@@ -744,7 +744,7 @@ Change any field in the payload.
                 "expertise": "java",
                 "sport": "tennis"
             },
-            "name": "Swaminath R Haridas",
+            "name": "John Adams",
             "pointsEarned": 8600,
             "pointsRedeemed": 0,
             "preferredResolution": "AUTO",
@@ -761,7 +761,7 @@ Change any field in the payload.
             "timeZoneCode": "213",
             "uiLocale": "en-US",
             "userType": "Internal",
-            "userUniqueId": "user@adobe.com"
+            "userUniqueId": "user@example.com"
         },
         "relationships": {
             "account": {
@@ -1121,7 +1121,7 @@ Required payload example:
         "type": "learningObject",
         "attributes": {
             "authorNames": [
-                "Swaminath R Haridas"
+                "James Adams"
             ],
             "dateCreated": "2017-11-01T15:28:09.000Z",
             "datePublished": "2017-11-01T15:28:20.000Z",
