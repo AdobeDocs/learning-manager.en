@@ -34,30 +34,30 @@ To access Adobe Learning Manager APIs securely, you must authenticate using ALM'
 Integrate Adobe Learning Manager (ALM) with external applications for enhanced versatility. The steps involve accessing Integration Admin, registering the application, and obtaining client ID and Secret. Generate authentication tokens (OAuth, Refresh, and Access Tokens) from ALM, emphasizing the use of the OAuth 2.0 framework for authentication and authorization. The access token has a validity of seven days. 
 
 1. Sign in to Adobe Learning Manager as an Integration Admin. 
-2. Select Applications on the left pane. 
+2. Select **[!UICONTROL Applications]** on the left pane. 
 
    ![alt text](assets/application.png)
 
-3. Select Register and add the following information: 
+3. Select **[!UICONTROL Register]** and add the following information: 
 
-   * Application Name: Type the name of your application (max 50 characters). 
-   * URL: The official URL of your company or application. Used for identification and reference. 
-   * Redirect Domains: Specify the domains (for example, [http://learningmanager.adobe.com](http://learningmanager.adobe.com)) that ALM can redirect to after authorization.  You can mention multiple URLs, but the URLs must be valid. 
-   * Description: Brief description of what the application does. 
-   * Scopes: Select one of the six available options to define the scope of your application. Based on your choice mentioned here, the Learning Manager API endpoints are accessible for your application. For example, if you chose Learner role read access, then all the Learning Manager learner API end points are read-only accessible to your application.  
+   * **[!UICONTROL Application Name]**: Type the name of your application (max 50 characters). 
+   * **[!UICONTROL URL]**: The official URL of your company or application. Used for identification and reference. 
+   * **[!UICONTROL Redirect Domains]**: Specify the domains (for example, [http://learningmanager.adobe.com](http://learningmanager.adobe.com)) that ALM can redirect to after authorization.  You can mention multiple URLs, but the URLs must be valid. 
+   * **[!UICONTROL Description]**: Brief description of what the application does. 
+   * **[!UICONTROL Scopes]**: Select one of the six available options to define the scope of your application. Based on your choice mentioned here, the Learning Manager API endpoints are accessible for your application. For example, if you chose Learner role read access, then all the Learning Manager learner API end points are read-only accessible to your application.  
 
       * Admin role read/write access: Allows the application to access or modify data as an administrator. 
       * Learner role read/write access: Allows the application to access or modify data for learners. 
       * xAPI read/write access: Enables the application to access and send Experience API (xAPI) statements. 
 
-   * For this account only? 
+   * **[!UICONTROL For this account only?]** 
 
-      * Yes - if you choose Yes, then the application is not visible to other account administrators. 
-      * No - if you choose No, other account admins can also access this application, but they need to use the application id to access this application. Application id is generated and displayed in Learning Manager application Edit mode.  
+      * **[!UICONTROL Yes]** - if you choose Yes, then the application is not visible to other account administrators. 
+      * **[!UICONTROL No]** - if you choose No, other account admins can also access this application, but they need to use the application id to access this application. Application id is generated and displayed in Learning Manager application Edit mode.  
 
       ![alt text](assets/register-an-app.png)
 
-4. Select Save to register the application. 
+4. Select **[!UICONTROL Save]** to register the application. 
 
    * After you register the application, the application is available in the list of applications created in the account. Select the application and you'll see the following in addition to the previously entered fields: 
    * Application ID: This is the Client ID. This ID tells ALM the application that is requesting access. It's included in API requests to identify the app. 
@@ -130,15 +130,15 @@ An access token is valid for seven days. After seven days, you have to generate 
 Use the Adobe Learning Manager (ALM) token generation tool to quickly create access tokens for testing and development purposes. These tokens are intended solely for your personal use during development and debugging phases. Keep in mind that test tokens grant access to your ALM data, so it's essential to handle them securely. Never share your test tokens with others, use them in production applications, or include them in public code repositories. Treat them like passwords to ensure the security of your account and data. 
 
 1. Sign in to Adobe Learning Manager as Integration Admin. 
-2. Select Developer Resources and then select Access Tokens for Testing and Development. 
+2. Select **[!UICONTROL Developer Resources]** and then **[!UICONTROL select Access Tokens for Testing and Development]**. 
    
    ![](assets/select-access-token.png)
 
-3. Type the Client ID that you got after creating an application to get the OAuth code. Then select Submit. 
+3. Type the **[!UICONTROL Client ID]** that you got after creating an application to get the OAuth code. Then select **[!UICONTROL Submit]**. 
 
    ![](assets/type-client-id.png)
 
-4. Add the Client ID and the Client Secret to get the refresh token. Then select **[!UICONTROL Submit]**. The OAuth is pre-populated from the previous step. 
+4. Add the **[!UICONTROL Client ID]** and the **[!UICONTROL Client Secret]** to get the refresh token. Then select **[!UICONTROL Submit]**. The OAuth is pre-populated from the previous step. 
    
    ![](assets/get-refresh-token.png)
 
@@ -150,7 +150,7 @@ Use the Adobe Learning Manager (ALM) token generation tool to quickly create acc
    
    ![](assets/type-access-token.png)
 
-Upon selecting Submit, the access token is verified, and the following response appears: 
+Upon selecting **[!UICONTROL Submit]**, the access token is verified, and the following response appears: 
 
 ```
 { 
@@ -503,7 +503,7 @@ The Adobe Learning Manager APIs allow developers to access Learning Manager obje
 ![](assets/api-flow.png)
 
 |Learning Manager Object|Description|
-|:----|:----|
+|----|----|
 |account|Encapsulates the details of a Learning Manager customer.|
 |badge|A badge is a token of accomplishment that learners get when they reach specific milestones as they progress within a course.|
 |catalog|Catalog is a collection of learning objects.|
@@ -521,6 +521,7 @@ The Adobe Learning Manager APIs allow developers to access Learning Manager obje
 |calendar|A calendar object is a list of upcoming classroom or virtual classroom courses that the user can enroll into.|
 |l1FeedbackInfo|L1 Feedback encapsulates the answers provided by a learner for the feedback questions associated with Learning Objects. Typically this is collected after the user completes a Learning Object if configured to collect such feedback from learners.|
 |enrollment|This abstraction encapsulates the details pertaining to the transaction representing the assignment of a specific user to a specific learning object instance.|
+
 
 ## Learner APIs and endpoints
 
