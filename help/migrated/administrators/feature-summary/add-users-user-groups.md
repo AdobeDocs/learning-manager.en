@@ -286,7 +286,7 @@ Admins can edit user details, delete users, assign roles, and remove roles. This
 
 >[!INFO]
 >
->Watch this ALM Academy training to learn how to assign and remove roles, send a welcome email, and delete and purge users.<br>[![button](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
+>Watch this ALM Academy training to learn how to assign and remove roles, send a welcome email, and delete and purge users.<br>[![button]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
 
 ### Edit a user
 
