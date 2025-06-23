@@ -36,7 +36,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 * Administrator {#admin}
    * [Admin AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [User log in](administrators/feature-summary/user-login.md)
-   * User Management
+   * User Management {#user-management}
       * [Add users in Adobe Learning Manager](administrators/feature-summary/add-users-user-groups.md)
       * [User group in Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
       * [Active Fields](/help/migrated/administrators/feature-summary/active-fields.md)
