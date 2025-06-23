@@ -277,7 +277,10 @@ Append the include parameter to your API URL and specify which related entities 
 **Example 1**
 
 Retrieve the details of a user using userID parameter in the endpoint 
-[https://learningmanager.adobe.com/primeapi/v2/users/<userID>](https://learningmanager.adobe.com/primeapi/v2/users/<userID>)
+
+```
+https://learningmanager.adobe.com/primeapi/v2/users/<userID>
+```
 
 ```
 GET https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -445,9 +448,9 @@ GET https://learningmanager.adobe.com/primeapi/v2/users?page[limit]=3&page[offse
 
 1. Start by requesting the first page with a limit of 5.
 
-  ```
-  GET https://learningmanager.adobe.com/primeapi/v2/users?page[limit]=5
-  ``` 
+   ```
+   GET https://learningmanager.adobe.com/primeapi/v2/users?page[limit]=5
+   ``` 
 
 2. Copy the cursor value from links.next and use it in the next request:
 
@@ -622,18 +625,18 @@ This produces the following response:
 
 2. Use the following payload as body:
 
-```
-{ 
-   "data": { 
-     "type": "user", 
-     "attributes": { 
-       "email": "bob@example.com", 
-       "name": "Bob", 
-       "userType": "INTERNAL" 
-     } 
-   } 
- }
- ```
+   ```
+   { 
+      "data": { 
+        "type": "user", 
+        "attributes": { 
+         "email": "bob@example.com", 
+          "name": "Bob", 
+          "userType": "INTERNAL" 
+        } 
+      } 
+    }
+   ```
 
 There are three mandatory attributes: 
 
