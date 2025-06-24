@@ -2,8 +2,8 @@
 description: Learn how to create and manage user groups in Adobe Learning Manager. Discover how grouping users helps you assign courses, track progress, and automate learning workflows efficiently.
 jcr-language: en_us
 title: Manage User Groups in Adobe Learning Manager | Organize and Assign Learners
+exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
 ---
-
 # User groups in Adobe Learning Manager
 
 User groups in Adobe Learning Manager help you organize learners based on common attributes like department, location, or role. Grouping users makes it easier to assign courses, manage permissions, and track learning progress for multiple users at once.
