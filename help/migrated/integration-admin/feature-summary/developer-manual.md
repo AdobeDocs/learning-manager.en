@@ -901,7 +901,7 @@ Using the Jobs API for an administrator, you can retrieve the details.
 6. Paste the URL in your browser. The browser prompts you to save or open the CSV file. Save the file on your computer.
 The downloaded file contains the following columns:
 
-internalUserID, userEmail, customerDefinedUniqueUserId, name, managerEmail, userType, state, excludedFromGamfication, pointsEarned, profile, roles, dateCreated, lastLoginDate, dateDeleted, uiLocale, contentLocale, timeZoneCode, userSource, group, Active fields, metadata, and lastSocialActivityDate.
+internalUserID, userEmail, customerDefinedUniqueUserId, name, managerEmail, userType, state, excludedFromGamification, pointsEarned, profile, roles, dateCreated, lastLoginDate, dateDeleted, uiLocale, contentLocale, timeZoneCode, userSource, group, Active fields, metadata, and lastSocialActivityDate.
 
 ### Generate badge using Jobs API
 
