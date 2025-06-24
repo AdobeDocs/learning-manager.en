@@ -33,6 +33,7 @@ The progress of each instance can be tracked individually, and a report can be e
 * Multi-enrollment is applicable only when a course has multiple instances.
 * Once the multi-enrollment option is enabled and users are enrolled in multiple instances, new rows are created for each course in the Learner Transcript report (one row for each instance and each learner)
 * If reporting automation is set up that anticipates only one row per course, you must make the necessary adjustments to the reporting automation before enabling the Multi-Enrollment feature.
+* Admin APIs do not support multi-enrollment scenarios. Please reach out to your CSM if you have any requirements.
 
 ## How to enable Multi-enrollment
 
