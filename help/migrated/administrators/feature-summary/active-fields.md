@@ -2,8 +2,8 @@
 description: Learn how to use Active Fields in Adobe Learning Manager to capture, organize, and manage custom user information. Improve reporting, filtering, and user segmentation with flexible field configurations.
 jcr-language: en_us
 title: Configure Active Fields in Adobe Learning Manager
+exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
 ---
-
 # Active fields
 
 Active fields in Adobe Learning Manager are custom user attributes that help administrators organize and manage users effectively. They allow you to capture extra information about user, such as department, location, or job title. Admins can use this data to create user groups, personalize learning, and filter reports more effectively.
@@ -117,5 +117,3 @@ In some cases, administrators prefer learners to manually fill certain active fi
 If a CSV file does not include all active fields, the administrator must manually enter the missing values after the import.
 
 By default, every active field must be mapped to a corresponding field in the source CSV. However, if you do not want to map a specific active field to any column in the CSV, you can select the value **DontImportFromSource** from the drop-down list during both the Box and FTP import processes. This option is available when importing users via FTP or Box connectors. Refer to this [article](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) for more information about the connectors.
-
-
