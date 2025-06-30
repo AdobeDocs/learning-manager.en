@@ -119,13 +119,15 @@ Skyline is the cloud version of AEM. You must first install Skyline from the pac
 
 The steps to configure Skyline are mentioned in the  [GitHub repo](https://github.com/adobe/captivate-prime-aem-components).
 
-## Catalog widget
+## My Learning widget
 
-The Catalog widget displays training from a specific or a set of catalogs to a user. In the Properties section in the page properties, select Catalog from the options listed. 
+**[!UICONTROL My Learning]** widget allows you to display training from a specific or a set of catalogs to a user. 
+
+In the **[!UICONTROL Properties]** section in the page properties, select **[!UICONTROL Catalog]** from the options listed. 
 
 <!--![](assets/catalog-widget.png)-->
 
-The Catalog widget contains the following options:
+The Catalog options contains the following options:
 
 * **[!UICONTROL Catalog ids]:** Comma-separated catalog ids for which the training need to be displayed.
 * **[!UICONTROL Sort]:** Sort order for the training. The options are- name, date, dateCreated, dateEnrolled, and so on.
