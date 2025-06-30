@@ -590,6 +590,36 @@ The content now appears in the Published list.
 
 Authors can update the content in the published course. This will help learners get the latest version of the content. Check out this [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) for more information. 
 
+### Content version control for learners who have completed a course
+
+Adobe Learning Manager allows clearer version control options for authors when updating content. Authors will now see three well-defined options during a content version update:
+
+|Learner state |Update Now |Update Eventually |Update Not Started |
+|---|---|---|---|
+|Not Enrolled |V2 |V2 |V2 |
+|Yet to Start |V2 |V2 |V2 |
+|In Progress |V2 * |V1 → V2 * |V1 |
+|Completed |V2 * |V2 * |V1 (preserved) |
+
+(*) Indicates that the module will be reset on version update.
+
+In **[!UICONTROL Update Not Started]**, the completed learner will continue to see the existing content version (V1), resolving the issue of unexpected white screens.
+
+* **[!UICONTROL Update Now]**: Apply content update for all learners (Not started, In-progress and Completed learners would move to new content version now)
+* **[!UICONTROL Update Eventually]**: Apply content update for all learners eventually (Not started, Completed learners would move to new content version now; In-progress learners would move after completion)
+* **[!UICONTROL Update Not started]**: Apply content update for only Not started learners (In-progress and Completed learners would remain on existing content version)
+
+#### User Interface changes
+
+|Old label |New option |
+|---|---|
+|Apply content update to all learners |Update all Learners now:Apply content update for all Learners |
+|Apply update to learners yet to start |Update only not started Learners: Apply content update for only Not started Learners |
+|In-progress learners receive update after completion |Update all Learners eventually: Apply content update for all Learners eventually |
+
+![](assets/version-control-options.png)
+
+
 ## Delete content {#deletecontent}
 
 After you have retired a content, you can delete it.

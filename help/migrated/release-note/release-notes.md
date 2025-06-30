@@ -17,6 +17,83 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
  </tbody>
 </table>-->
 
++++Update 101: The June 2025 release of Adobe Learning Manager
+
+## Role-based email templates
+
+### Audience
+
+Administrators and authors managing email templates
+
+### Overview
+
+You (administrator or author) can enable or disable email templates based on the recipient's role, learner, manager, or instructor. It gives you more control over the type and frequency of communication with your learners.
+
+### Use case
+
+* Administrators and authors need to email learners without notifying managers (for example, learner enrolments).
+* The option to bulk enable or disable emails for a specific role (for example, disable all mails to managers).
+
+### Existing workflow
+
+If the intent is to email learners but not managers (for example, course enrollment), the current template sends emails to all roles.
+
+### What's new
+
+* Role-based toggles on the email templates UI. 
+* Bulk enable/disable for a specific role. 
+* Visibility into roles per template.
+
+Refer to this [article](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level) for more information.
+
+## Improved content version control for learners who've completed a course
+
+### Overview
+
+When the content module of a completed course was updated to a newer version, learners encountered a white screen. This issue occurred even when the author chose to apply the new content solely to learners who had not yet started the course. The problem affected user experience and led to confusion among previous learners attempting to revisit the course, as they faced playback issues.
+
+### Existing behavior
+
+When authors updated course content to a new version (V2) and applied it only to "yet to start" learners, Adobe Learning Manager updated the module version for completed learners in the background and these learners experienced a white screen when attempting to access the content again, since the updated module was no longer valid for them.
+
+### Examples:
+
+* A completed learner tried to revisit the course post-update and saw a white screen.
+* An in-progress learner completed the course but later encountered a white screen after the content version had been silently updated.
+
+### What has changed
+
+Adobe Learning Manager introduces clearer version control options for authors when updating content. Authors will now see three well-defined options during a content version update:
+
+|Learner state |Update Now |Update Eventually |Update Not Started |
+|---|---|---|---|
+|Not Enrolled |V2 |V2 |V2 |
+|Yet to Start |V2 |V2 |V2 |
+|In Progress |V2 * |V1 → V2 * |V1 |
+|Completed |V2 * |V2 * |V1 (preserved) |
+
+(*) Indicates that the module will be reset on version update.
+
+In **[!UICONTROL Update Not Started]**, the completed learner will continue to see the existing content version (V1), resolving the issue of unexpected white screens.
+
+* **[!UICONTROL Update Now]**: Apply content update for all learners (Not started, In-progress and Completed learners would move to new content version now)
+* **[!UICONTROL Update Eventually]**: Apply content update for all learners eventually (Not started, Completed learners would move to new content version now; In-progress learners would move after completion)
+* **[!UICONTROL Update Not started]**: Apply content update for only Not started learners (In-progress and Completed learners would remain on existing content version)
+
+### User Interface changes
+
+|Old label |New option |
+|---|---|
+|Apply content update to all learners |Update all Learners now:Apply content update for all Learners |
+|Apply update to learners yet to start |Update only not started Learners: Apply content update for only Not started Learners |
+|In-progress learners receive update after completion |Update all Learners eventually: Apply content update for all Learners eventually |
+
+![](assets/version-control-options.png)
+
+Refer to this [article](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course) for more information about content library.
+
++++
+
 +++Update 100: The May 2025 release of Adobe Learning Manager
 
 **Release date**: May 10, 2025

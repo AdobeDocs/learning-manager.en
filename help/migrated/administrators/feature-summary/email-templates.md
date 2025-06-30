@@ -94,6 +94,24 @@ You as an administrator can easily enable, disable, or modify these email templa
 
 1. Configure whether managers must also receive emails that are sent to their direct reports using the check box under **[!UICONTROL Optional Manager Email]** option.
 
+## Enable or disable email at a role level
+
+Administrator can enable or disable email templates based on the recipient's role, such as learner, manager, or instructor. This gives administrators more control over which notifications are sent and helps manage the type and frequency of communication.
+
+To enable or disable email templates:
+
+1. Log in to Adobe Learning Manager as administrator.
+2. Select **[!UICONTROL Email Templates]** from the left pane.
+3. To bulk enable or disable email templates for a particular role, select the ellipsis (...) in the column heading, and enable all the applicable roles in **[!UICONTROL Email Recipients]**.
+   
+   ![](assets/email-template-role.png)
+   _Send all the Email Templates at role level_
+
+4. To enable or disable a specific email template for a role, select the ellipsis (...) for that template, and select or deselect a role.
+   
+   ![](assets/email-template-role-1.png)
+   _Send a Email Template at a role level_
+
 ## Set frequency of digest emails {#setfrequencyofdigestemails}
 
 On the **[!UICONTROL Email templates]** > **[!UICONTROL Settings]** page, the Admin can change the frequency of Digest Emails to be sent to learners.
