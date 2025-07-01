@@ -1,8 +1,8 @@
 ---
 title: Upcoming changes in Adobe Learning Manager
 description: Learn about the new features, improvements, and important updates coming soon to Adobe Learning Manager. Stay informed about what's changing so you can plan ahead and make the most of the latest enhancements.
+exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
 ---
-
 # Upcoming changes in Adobe Learning Manager
 
 We're excited to share several important updates coming to Adobe Learning Manager with the upcoming releases. These enhancements aim to streamline admin workflows, improve data reporting accuracy, and strengthen role-based controls.
@@ -102,4 +102,4 @@ Custom administrators can create announcements only for the user groups or catal
 ### Action required 
 
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
-* No modifications are necessary if this report is not utilized in any automated or downstream workflow. 
+* No modifications are necessary if this report is not utilized in any automated or downstream workflow.
