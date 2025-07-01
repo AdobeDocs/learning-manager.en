@@ -9,6 +9,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 * [Learning Manager User Guide](user-guide.md)
 * Introduction {#introduction}
    * [New features summary May 2025](/help/migrated/whats-new.md)
+   * [Upcoming changes in Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [New features summary November 2024](/help/migrated/whats-new-nov-24.md)
    * [New features summary July 2024](whats-new-july-2024.md)
    * [New features March 2024](whats-new-march-2024.md)
@@ -87,6 +88,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Programs](administrators/feature-summary/learning-programs.md)
    * [Product Terminology](administrators/feature-summary/product-terminology.md)
 * Integration Admin {#integration}
+   * [Application developer manual](integration-admin/feature-summary/developer-manual.md)
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager Connectors](integration-admin/feature-summary/connectors.md)
    * [Non-logged-in APIs](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -98,7 +100,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Integrate Learning Manager with AEM](integrate-aem-learning-manager.md)
    * [Install Salesforce package in Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Install Microsoft Teams connector](integration-admin/feature-summary/install-microsoft-teams-connector.md)
-   * [Application developer manual](integration-admin/feature-summary/developer-manual.md)
    * [Learning Manager App for Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Settings](integration-admin/feature-summary/settings.md)
    * [Manage custom roles via CSV files](integration-admin/feature-summary/configure-role-csv-files.md)
