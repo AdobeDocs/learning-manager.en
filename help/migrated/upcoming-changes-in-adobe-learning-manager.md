@@ -9,7 +9,7 @@ We're excited to share several important updates coming to Adobe Learning Manage
 
 These changes are designed to reduce manual effort, support automation, and improve governance across training operations.
 
-## Capture instructor-marked completions in Learner Transcript (M44) 
+## Capture instructor-marked completions in Learner Transcript
 
 ### Audience  
 
@@ -39,7 +39,7 @@ Attendance states like "Attended with pass/fail" will appear automatically in in
 * If using column names, no changes are required. 
 * Retrofitted completions (manual imports) are not included. 
 
-## Download links in Job Aids report (M44) 
+## Download links in Job Aids report
 
 ### Audience 
 
@@ -63,7 +63,7 @@ Users with access (admin/authors and custom roles) can download the job aid usin
 * If the script is based on column position, update scripts accordingly. 
 * No action is needed if using column names. 
 
-## Internal User ID and Manager Email columns added to User Report (M44) 
+## Internal User ID and Manager Email columns added to User Report
 
 ### Audience 
 
@@ -82,7 +82,7 @@ The User report includes a user's internal user ID and their manager's email add
 * If using this report in automated flows, then this newly added column should be taken care of in automation.  
 * No changes are needed if workflows are not impacted. 
 
-## Scoped announcement permissions for custom administrators (M44) 
+## Scoped announcement permissions for custom administrators
 
 ### Audience 
 
