@@ -50,20 +50,19 @@ Refer to this [article](/help/migrated/administrators/feature-summary/email-temp
 
 ### Overview
 
-When the content module of a completed course was updated to a newer version, learners encountered a white screen. This issue occurred even when the author chose to apply the new content solely to learners who had not yet started the course. The problem affected user experience and led to confusion among previous learners attempting to revisit the course, as they faced playback issues.
+When the content module of a completed course was updated to a newer version, learners who had already completed the course were still receiving the updated module version in the background. This caused unexpected behavior when they tried to revisit the course, as the updated content was not intended for them.
 
 ### Existing behavior
 
-When authors updated course content to a new version (V2) and applied it only to "yet to start" learners, Adobe Learning Manager updated the module version for completed learners in the background and these learners experienced a white screen when attempting to access the content again, since the updated module was no longer valid for them.
+When authors updated course content to a new version and chose to apply it only to learners who had not yet started the course, Adobe Learning Manager still updated the module version for learners who had already completed it. As a result, these learners were not able to access the original content as expected.
 
-### Examples:
-
-* A completed learner tried to revisit the course post-update and saw a white screen.
-* An in-progress learner completed the course but later encountered a white screen after the content version had been silently updated.
+This enhancement ensures that when a course module is updated and set to apply only to learners who have not yet started, completed learners retain access to the original version without interruption.
 
 ### What has changed
 
-Adobe Learning Manager introduces clearer version control options for authors when updating content. Authors will now see three well-defined options during a content version update:
+Adobe Learning Manager now provides authors with clearer options to manage content updates. Authors can update the content already available in a course. When a new version is added, the version number appears next to the content.
+
+When an administrator visits a course that has updated content, they will see an Update button next to the new version. Administrators will also see clear update options to choose how the new content version is applied to learners.
 
 |Learner state |Update Now |Update Eventually |Update Not Started |
 |---|---|---|---|
@@ -72,13 +71,17 @@ Adobe Learning Manager introduces clearer version control options for authors wh
 |In Progress |V2 * |V1 → V2 * |V1 |
 |Completed |V2 * |V2 * |V1 (preserved) |
 
-(*) Indicates that the module will be reset on version update.
+(*) Indicates that the module will be reset when the version is updated.
 
-In **[!UICONTROL Update Not Started]**, the completed learner will continue to see the existing content version (V1), resolving the issue of unexpected white screens.
+With Update Not Started, learners who have already completed the course continue to see the original content version (V1). This prevents unexpected playback issues and ensures a consistent experience for learners who revisit completed courses.
 
-* **[!UICONTROL Update Now]**: Apply content update for all learners (Not started, In-progress and Completed learners would move to new content version now)
-* **[!UICONTROL Update Eventually]**: Apply content update for all learners eventually (Not started, Completed learners would move to new content version now; In-progress learners would move after completion)
-* **[!UICONTROL Update Not started]**: Apply content update for only Not started learners (In-progress and Completed learners would remain on existing content version)
+### Content update options
+
+When an admin clicks **[!UICONTROL Update]**, they can choose from the following options:
+
+* **[!UICONTROL Update all Learners now]**: Apply the content update immediately for all learners. Not Started, In Progress, and Completed learners move to the new version right away.
+* **[!UICONTROL Update all Learners eventually]**: Apply the update for all learners in phases. Not Started and Completed learners receive the new version now. In Progress learners get the update after they complete the current version.
+* **[!UICONTROL Update only not started Learners]**: Apply the update only to learners who have not yet started the course. In Progress and Completed learners remain on the original version.
 
 ### User Interface changes
 
@@ -88,9 +91,14 @@ In **[!UICONTROL Update Not Started]**, the completed learner will continue to s
 |Apply update to learners yet to start |Update only not started Learners: Apply content update for only Not started Learners |
 |In-progress learners receive update after completion |Update all Learners eventually: Apply content update for all Learners eventually |
 
-![](assets/version-control-options.png)
+<!--![](assets/version-control-options.png)
+_Content update options_-->
 
 Refer to this [article](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course) for more information about content library.
+
+## Bug fixed in this release
+
+* Fixed an issue where learners who had completed a course saw a white screen when revisiting it after the content module was updated to a new version.
 
 +++
 
