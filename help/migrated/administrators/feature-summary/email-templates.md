@@ -35,21 +35,23 @@ You as an administrator can easily enable, disable, or modify these email templa
 
    *Select the General tab*
 
-1. To view the list of email templates, click any tab.
+2. To bulk enable or disable email templates for a particular role, select the ellipsis (...) in the column heading, and enable all the applicable roles in **[!UICONTROL Email Recipients]**.
+   
+   ![](assets/email-template-role.png)
+   _Send all the Email Templates at role level_
 
-   ![](assets/email-templates-ingeneraltab.png)
+3. To enable or disable a specific email template for a role, select the ellipsis (...) for that template, and select or deselect a role.
+   
+   ![](assets/email-template-role-1.png)
+   _Send a Email Template at a role level_
 
-   *View the list of email templates*
-
-   You can easily enable or disable any of these email alerts by clicking the toggle button.
-
-1. To modify the contents of the template, click the template name. Here you can see that for different type of users you have different templates.
+4. To modify the contents of the template, click the template name. Here you can see that for different type of users you have different templates.
 
    ![](assets/preview-of-an-emailtemplate.png)
 
    *View the template of an email*
 
-1. To modify the contents of this email template, click the body of the email. Now make the changes to the template. You can modify the text, and you can also use one of these variables in your email. The changes made to the body section can only be applied to this email template. However, if you make changes to the signature of this email, it can be applied globally to all the templates. 
+5. To modify the contents of this email template, click the body of the email. Now make the changes to the template. You can modify the text, and you can also use one of these variables in your email. The changes made to the body section can only be applied to this email template. However, if you make changes to the signature of this email, it can be applied globally to all the templates. 
 
    Hover your mouse over each icon to view the names.
 
@@ -59,7 +61,7 @@ You as an administrator can easily enable, disable, or modify these email templa
 
    You can reset the body of the message to the default content by clicking the link **[!UICONTROL Revert to Original]** above the template.
 
-1. To confirm the changes applied to this template, click save. Now users can receive email notifications using the modified email template.
+6. To confirm the changes applied to this template, click save. Now users can receive email notifications using the modified email template.
 
 ## Customize settings of an email template {#customizesettingsofanemailtemplate}
 
@@ -94,23 +96,6 @@ You as an administrator can easily enable, disable, or modify these email templa
 
 1. Configure whether managers must also receive emails that are sent to their direct reports using the check box under **[!UICONTROL Optional Manager Email]** option.
 
-## Enable or disable email at a role level
-
-Administrator can enable or disable email templates based on the recipient's role, such as learner, manager, or instructor. This gives administrators more control over which notifications are sent and helps manage the type and frequency of communication.
-
-To enable or disable email templates:
-
-1. Log in to Adobe Learning Manager as administrator.
-2. Select **[!UICONTROL Email Templates]** from the left pane.
-3. To bulk enable or disable email templates for a particular role, select the ellipsis (...) in the column heading, and enable all the applicable roles in **[!UICONTROL Email Recipients]**.
-   
-   ![](assets/email-template-role.png)
-   _Send all the Email Templates at role level_
-
-4. To enable or disable a specific email template for a role, select the ellipsis (...) for that template, and select or deselect a role.
-   
-   ![](assets/email-template-role-1.png)
-   _Send a Email Template at a role level_
 
 ## Set frequency of digest emails {#setfrequencyofdigestemails}
 

@@ -56,7 +56,7 @@ When the content module of a completed course was updated to a newer version, le
 
 When authors updated course content to a new version and chose to apply it only to learners who had not yet started the course, Adobe Learning Manager still updated the module version for learners who had already completed it. As a result, these learners were not able to access the original content as expected.
 
-This enhancement ensures that when a course module is updated and set to apply only to learners who have not yet started, completed learners retain access to the original version without interruption.
+This enhancement ensures that when a course module is updated and set to apply only to learners who have not yet started, learners who have already completed the course retain uninterrupted access to the original version.
 
 ### What has changed
 
