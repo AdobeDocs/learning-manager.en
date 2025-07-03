@@ -8,11 +8,11 @@ exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
 
 # Add Users in Adobe Learning Manager
 
-In Adobe Learning Manager, users are people who use the platform for learning or training. There are two types of users: internal users and external users.
+In Adobe Learning Manager, users are learners who use the platform for learning or training. There are two types of users: internal users and external users.
 
 Internal users are employees or team members from your organization.
 
-External users are people outside your company, such as customers, partners, vendors, or clients, who can access your learning content.
+External users are learners outside your company, such as customers, partners, vendors, or clients, who can access your learning content.
 
 Adobe Learning Manager (ALM) allows administrators to onboard and manage both internal and external users using various methods, including manual entry, CSV upload, self-registration, and system integrations.
 
