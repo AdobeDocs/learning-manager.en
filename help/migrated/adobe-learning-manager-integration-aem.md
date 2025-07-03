@@ -15,9 +15,13 @@ The package includes AEM Sites web page templates and website components along w
 
 After you install the ALM reference site package, you can start building a website for Adobe Learning Manager that you can host on your AEM Sites instance. Your users can then drag and drop the components on the website.
 
-Install ALM reference site package
+>[!IMPORTANT]
+>
+>Adobe Learning Manager (ALM) packages for AEM Sites provide a quick-start code block for implementation. This package is designed for headless deployments. Once you use the provided code base, maintaining and developing it further is your responsibility, as is standard practice with headless applications based on Adobe Learning Manager. The underlying API will continue to be supported by Adobe Learning Manager.
 
-## Pre-requisites
+## Install ALM reference site package
+
+### Pre-requisites
 
 * Licenses for AEM Sites and Adobe Commerce.
 * AEM on-premise 6.5 or Adobe Experience Manager - Cloud Service  
