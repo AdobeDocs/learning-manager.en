@@ -17,7 +17,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [New features July 2023](whats-new-2023-july.md)
    * [Release Notes](release-note/release-notes.md)
    * [System requirements](system-requirements.md)
-   * [ALM reference site package for AEM Sites](adobe-learning-manager-integration-aem.md)
    * [Adobe Learning Manager App for Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Learning Manager compliance to GDPR](kb/prime-gdpr.md)
    * [Accessibility in Learning Manager](accessibility-learning-manager.md)
@@ -97,7 +96,9 @@ user-guide-description: Documentation for Adobe Learning Manager
      * [Webhooks usage guide](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [Credly](integration-admin/feature-summary/credly-integration.md)
    * [Learning Tools Interoperability](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
-   * [Integrate Learning Manager with AEM](integrate-aem-learning-manager.md)
+   * AEM Sites {#aem-sites}
+      * [ALM reference site package for AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
+      * [Integrate Learning Manager with AEM](integrate-aem-learning-manager.md)
    * [Install Salesforce package in Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Install Microsoft Teams connector](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Learning Manager App for Salesforce](integration-admin/feature-summary/sfdc-app.md)

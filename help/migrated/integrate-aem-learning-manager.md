@@ -13,6 +13,10 @@ However there are users who store and manage their content on asset management s
 
 The various strips present in the learner app can be embedded in the AEM sites. Any learner who signs into the AEM site will see his/her specific training data in these strips.
 
+>[!IMPORTANT]
+>
+>Adobe Learning Manager (ALM) packages for AEM Sites provide a quick-start code block for implementation. This package is designed for headless deployments. Once you use the provided code base, maintaining and developing it further is your responsibility, as is standard practice with headless applications based on Adobe Learning Manager. The underlying API will continue to be supported by Adobe Learning Manager.
+
 ## Download the content package {#downloadthecontentpackage}
 
 The installer is shipped as an AEM content package. [***Download the package***](https://github.com/adobe/adobe-learning-manager-reference-site).
