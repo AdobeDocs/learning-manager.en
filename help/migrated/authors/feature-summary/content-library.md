@@ -588,11 +588,23 @@ The content now appears in the Published list.
 
 ## Update the content
 
-Authors can update the content in the published course. This will help learners get the latest version of the content. Check out this [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) for more information. 
+Authors can update the content in the published course. 
+To update the content:
+
+1. Login as an author.
+2. Select **[!UICONTROL Content Library]**.
+3. Search for the content and select **[!UICONTROL Edit]**.
+4. Remove older content and upload new file and publish.
+
+This will help learners get the latest version of the content. 
+
+Check out this [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) for more information. 
 
 ### Content version control for learners who have completed a course
 
-Adobe Learning Manager allows clearer version control options for authors when updating content. Authors will now see three well-defined options during a content version update:
+Adobe Learning Manager now provides authors with clearer options to manage content updates. Authors can update the content already available in a course. When a new version is added, the version number appears next to the content.
+
+When an administrator visits a course that has updated content, they will see an Update button next to the new version. Administrators will also see clear update options to choose how the new content version is applied to learners.
 
 |Learner state |Update Now |Update Eventually |Update Not Started |
 |---|---|---|---|
@@ -601,23 +613,20 @@ Adobe Learning Manager allows clearer version control options for authors when u
 |In Progress |V2 * |V1 → V2 * |V1 |
 |Completed |V2 * |V2 * |V1 (preserved) |
 
-(*) Indicates that the module will be reset on version update.
+(*) Indicates that the module will be reset when the version is updated.
 
-In **[!UICONTROL Update Not Started]**, the completed learner will continue to see the existing content version (V1), resolving the issue of unexpected white screens.
+With Update Not Started, learners who have already completed the course continue to see the original content version (V1). This prevents unexpected playback issues and ensures a consistent experience for learners who revisit completed courses.
 
-* **[!UICONTROL Update Now]**: Apply content update for all learners (Not started, In-progress and Completed learners would move to new content version now)
-* **[!UICONTROL Update Eventually]**: Apply content update for all learners eventually (Not started, Completed learners would move to new content version now; In-progress learners would move after completion)
-* **[!UICONTROL Update Not started]**: Apply content update for only Not started learners (In-progress and Completed learners would remain on existing content version)
+### Content update options
 
-#### User Interface changes
+When an admin clicks **[!UICONTROL Update]**, they can choose from the following options:
 
-|Old label |New option |
-|---|---|
-|Apply content update to all learners |Update all Learners now:Apply content update for all Learners |
-|Apply update to learners yet to start |Update only not started Learners: Apply content update for only Not started Learners |
-|In-progress learners receive update after completion |Update all Learners eventually: Apply content update for all Learners eventually |
+* **[!UICONTROL Update all Learners now]**: Apply the content update immediately for all learners. Not Started, In Progress, and Completed learners move to the new version right away.
+* **[!UICONTROL Update all Learners eventually]**: Apply the update for all learners in phases. Not Started and Completed learners receive the new version now. In Progress learners get the update after they complete the current version.
+* **[!UICONTROL Update only not started Learners]**: Apply the update only to learners who have not yet started the course. In Progress and Completed learners remain on the original version.
 
 ![](assets/version-control-options.png)
+_Content update options available in Update settings_
 
 
 ## Delete content {#deletecontent}
