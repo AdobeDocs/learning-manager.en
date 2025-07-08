@@ -25,7 +25,7 @@ This manual covers the following:
 
 ## API usage scenarios 
 
-Developers can use Learning Manager APIs to enhance or integrate Learning Manager with other enterprise applications. You can create web, desktop, or mobile apps using any technology. Developers can access application data within Learning Manager, but deployment is external and fully controlled by you. Apps are typically developed by customer organizations for their own accounts, while Adobe partners can create general applications for wider use. 
+Developers can use Learning Manager APIs to enhance or integrate Learning Manager with other enterprise applications. You can create web, desktop, or mobile apps using any technology. Developers can access Learning Manager data, but you control where and how the app is used. 
 
 ## Authentication using OAuth 2.0 
 
@@ -73,7 +73,7 @@ Integrate Adobe Learning Manager with external applications for enhanced versati
 
 After getting the Client ID and Client Secret, use them to request an access token, that is used to authenticate API calls.  
 
-To begin the authorization code flow, direct your users to the following URL in a browser: 
+To begin the authorization code flow, add the following URL in a browser: 
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE 
@@ -129,7 +129,17 @@ An access token is valid for seven days. After seven days, you have to generate 
 
 ### Get access tokens for testing and development 
 
-Use the Adobe Learning Manager (ALM) token generation tool to quickly create access tokens for testing and development purposes. These tokens are intended solely for your personal use during development and debugging phases. Keep in mind that test tokens grant access to your ALM data, so it's essential to handle them securely. Never share your test tokens with others, use them in production applications, or include them in public code repositories. Treat them like passwords to ensure the security of your account and data. 
+When working with Adobe Learning Manager (ALM) APIs, developers need a valid OAuth 2.0 access token to authenticate API requests. Generating this token through the standard OAuth flow can be complex and time-consuming, especially for quick testing, learning, or development. Adobe Learning Manager provides a token generation tool to simplify this process.
+
+This tool is ideal during:
+
+* Proof of concept (POC) builds
+
+* Early-stage development
+
+* Troubleshooting API integration issues
+
+These tokens are intended solely for your personal use during development and debugging phases. Keep in mind that test tokens grant access to your ALM data, so it's essential to handle them securely. Never share your test tokens with others, use them in production applications, or include them in public code repositories. Treat them like passwords to ensure the security of your account and data. 
 
 1. Sign in to Adobe Learning Manager as Integration Admin. 
 2. Select **[!UICONTROL Developer Resources]** and then **[!UICONTROL select Access Tokens for Testing and Development]**. 
