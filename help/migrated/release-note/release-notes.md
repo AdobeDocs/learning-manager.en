@@ -3255,7 +3255,7 @@ There are significant enhancements to the existing features of Learning Manager.
 
 ### Import CSV
 
-If you delete users, you cannot add the same users back into the application again using single user addition. However, you can add back the deleted user using CSV upload process. There are significant changes to the mandatory fields restriction in CSV upload feature. Refer to  [ FAQ on CSV](../administrators/add-users-in-bulk.md) for more information.
+If you delete users, you cannot add the same users back into the application again using single user addition. However, you can add back the deleted user using CSV upload process. There are significant changes to the mandatory fields restriction in CSV upload feature. Refer to  [ FAQ on CSV](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) for more information.
 
 ### Course List view
 

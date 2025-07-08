@@ -51,7 +51,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Job Aids](administrators/feature-summary/job-aids.md)
    * [Certifications](administrators/feature-summary/certifications.md)
    * [Catalogs](administrators/feature-summary/catalogs.md)
-   * [Add users in bulk](administrators/add-users-in-bulk.md)
    * [Impersonate a Learner and Manager](administrators/feature-summary/impersonation-learner-manager.md)
    * [Multiple SSO Logins](administrators/feature-summary/multiple-sso-logins.md)
    * [Set up interface language through SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)

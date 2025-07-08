@@ -19,7 +19,7 @@ exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
 
 +++Can I add users in bulk? How?
 
-Yes, you can add users in bulk by using CSV upload feature. Click  [here](/help/migrated/administrators/add-users-in-bulk.md) for more information. 
+Yes, you can add users in bulk by using CSV upload feature. Click  [here](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) for more information. 
 
 +++
 
