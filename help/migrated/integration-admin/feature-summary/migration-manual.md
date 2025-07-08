@@ -576,5 +576,5 @@ In a scenario where X is the Manager of users, say, A, B and C, if X leaves the 
 
 For more information on this topic, refer to the following Help content: 
 
-* [FAQ on uploading CSVs](/help/migrated/administrators/add-users-in-bulk.md)
+* [FAQ on uploading CSVs](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [Feature Help on adding users](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
