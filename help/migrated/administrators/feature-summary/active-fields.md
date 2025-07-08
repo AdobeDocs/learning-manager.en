@@ -6,7 +6,7 @@ exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
 ---
 # Active fields
 
-Active fields in Adobe Learning Manager are custom user attributes that help administrators organize and manage users effectively. They allow you to capture extra information about user, such as department, location, or job title. Admins can use this data to create user groups, personalize learning, and filter reports more effectively.
+Active fields in Adobe Learning Manager are custom user attributes that help administrators organize and manage users effectively. They allow you to capture extra information about user, such as department, location, or job title. Administrators can use this data to create user groups, personalize learning, and filter reports more effectively.
 
 User attributes are pieces of information such as a user's first name, last name, and email address. These attributes help administrators to:
 

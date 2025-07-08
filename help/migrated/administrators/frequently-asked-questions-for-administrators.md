@@ -19,7 +19,7 @@ exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
 
 +++Can I add users in bulk? How?
 
-Yes, you can add users in bulk by using CSV upload feature. Click  [here](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) for more information. 
+Yes, you can add users in bulk by using CSV upload feature. Refer to this [article](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) for more information. 
 
 +++
 
@@ -251,7 +251,7 @@ You can switch your account log in to other roles such as learner, manager and a
 Managers, Authors and learners can see notifications based on the course activities. Administrator can enable/disable notifications for all users by following the steps below:
 
 1. Click Email Templates at the left pane and choose General, User Enrollments, Completions and Feedback tabs.
-1. From the events listed below, click the No/Yes toggle buttons adjacent to **each **event and choose Yes to enable notification. Click No to disable sending notifications for a particular event.
+1. From the events listed below, click the No/Yes toggle buttons adjacent to each event and choose Yes to enable notification. Click No to disable sending notifications for a particular event.
 
 +++
 

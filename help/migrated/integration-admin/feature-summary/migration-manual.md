@@ -540,7 +540,7 @@ Find below, the standard CSV specifications that you can use to map with your ex
 
 ## Troubleshooting migration issues {#troubleshootingmigrationissues}
 
-[Click here](../../kb/troubleshooting-migration.md) to learn about the workaround/solution to the problems faced by Integration Administrators while migrating data and content from their existing LMS to Learning Manager application.
+Refer to this [article](../../kb/troubleshooting-migration.md) to learn about the workaround/solution to the problems faced by Integration Administrators while migrating data and content from their existing LMS to Learning Manager application.
 
 ## Tips for User Management {#usermanagement}
 
