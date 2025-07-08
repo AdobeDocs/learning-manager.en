@@ -335,3 +335,4 @@ To remove roles from users:
    _Option to remove assigned roles from a user under the Actions menu_
 
 4. Select **Yes** on the confirmation dialog.
+
