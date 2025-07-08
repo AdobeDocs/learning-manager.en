@@ -1314,9 +1314,10 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 }'
 ```
 
-### Generate Learner Transcripts
 
-**Error codes**
+### Error codes
+
+When working with Adobe Learning Manager (ALM) APIs, developers may encounter various HTTP error codes during requests. These errors provide important feedback about what went wrong and how to fix it. Understanding these codes helps developers quickly troubleshoot issues, improve API reliability, and ensure smoother integrations. The following table is a guide to common HTTP error codes returned by the ALM APIs, along with explanations and typical scenarios in which they occur. This section is essential for anyone building, testing, or debugging applications that connect to ALM.
 
 |HTTP status|Meaning|Troubleshooting|
 |---|---|---|
