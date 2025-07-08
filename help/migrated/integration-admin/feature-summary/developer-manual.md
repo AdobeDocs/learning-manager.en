@@ -16,8 +16,8 @@ This manual covers the following:
 
 * OAuth2.0 authentication 
 * API object models 
-* Shows how to use include, fields, and other parameters 
-* Provides endpoints for real-world use cases
+* Include, fields, and other parameters 
+* Real-world use cases
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ To access Adobe Learning Manager APIs securely, you must authenticate using ALM'
 
 ### Register an application 
 
-Integrate Adobe Learning Manager with external applications for enhanced versatility. The steps involve accessing Integration Administrator interface, registering the application, and obtaining client ID and Secret. Generate authentication tokens (OAuth, Refresh, and Access Tokens) from ALM, emphasizing the use of the OAuth 2.0 framework for authentication and authorization. The access token has a validity of seven days. 
+Integrate Adobe Learning Manager with external applications for enhanced versatility. The steps involve accessing Integration Administrator interface, registering the application, and obtaining client ID and Secret. Generate OAuth 2.0 authentication tokens, including authorization, refresh, and access tokens, from Adobe Learning Manager. Use the OAuth 2.0 flow to securely authenticate and authorize your app.. The access token has a validity of seven days. 
 
 1. Sign in to Adobe Learning Manager as an integration administrator. 
 2. Select **[!UICONTROL Applications]** on the left pane. 
@@ -71,7 +71,7 @@ Integrate Adobe Learning Manager with external applications for enhanced versati
 
 ### Get authorization code from redirect 
 
-After getting the Client ID and Client Secret, use them to request an access token, which is used to authenticate API calls.  
+After getting the Client ID and Client Secret, use them to request an access token, that is used to authenticate API calls.  
 
 To begin the authorization code flow, direct your users to the following URL in a browser: 
 
@@ -169,7 +169,7 @@ As before, the access token for testing expires in seven days.
 
 ### Use an API tool for testing the endpoints 
 
-While you can use any third-party API testing tool, we'll use Postman to test the endpoints. The examples in this document use Postman for endpoint testing. 
+While you can use any third-party API testing tool, we'll use Postman to test the endpoints. The examples in this document use Postman for testing the endpoints. 
 
 1. Open Postman and create a new request. 
 2. Select the Authorization tab. 
@@ -259,7 +259,7 @@ Key benefits:
 
 **How to use the include parameter**
 
-Append the include parameter to your API URL and specify which related entities to include.
+Append the include parameter to your API URL and specify the related entities to include.
 
 **Common include paths**
 
@@ -278,7 +278,7 @@ Append the include parameter to your API URL and specify which related entities 
 
 **Example 1**
 
-Retrieve the details of a user using userID parameter in the endpoint 
+Retrieve the details of a user using userID parameter in the endpoint.
 
 ```
 https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -425,7 +425,7 @@ ALM APIs support pagination through parameters like:
 
 * page[limit]: Number of records per page.
 * page[offset]: Number of records to skip.
-* page[cursor]: Pointer to the next set of results. Instead of using offset-based pagination (which skips a number of records), cursor-based pagination uses a unique marker returned from the API to fetch the next page of results. 
+* page[cursor]: Pointer to the next set of results. Instead of using offset-based pagination (that skips a number of records), cursor-based pagination uses a unique marker returned from the API to fetch the next page of results. 
 
 Here's how to use pagination in APIs:
 
@@ -517,7 +517,7 @@ The Adobe Learning Manager APIs allow developers to access Learning Manager obje
 |userBadge|UserBadge relates a single badge with a single user. It contains details such as when it was achieved, assertionUrl and so on.|
 |skill|Skills model consists of levels and credits. Skills can be acquired by learners after relevant course completion.|
 |skillLevel|A skill level comprises of one or many courses to be consumed to acquire a level along with its associated credits.|
-|learningObject|A Learning Object is an abstraction for various kinds of objects which users can enroll into and learn from. Currently Learning Manager has the four types of Learning Objects, Course, Certification, Learning Program and Job Aid.|
+|learningObject|A Learning Object is an abstraction for various kinds of objects that users can enroll into and learn from. Currently Learning Manager has the four types of Learning Objects, Course, Certification, Learning Program and Job Aid.|
 |learningObjectInstance|A specific instance of a learning object.|
 |learningObjectResource|This is equivalent to the concept of module . A course is composed of one of more modules. In Learning Manager, a module can be delivered in a variety of equivalent ways. Therefore the loResource essentially encapsulates all those equivalent resources.|
 |loResourceGrade|This encapsulates the outcome of the user consuming a specific resource in the context of a learning object he is enrolled into. It has information such as the duration spent by user in the resource, percentage progress made by the user, pass/fail status and the score obtained by the user in any associated quiz.|
@@ -840,8 +840,11 @@ This means the external user has been successfully added to Adobe Learning Manag
 
 ### Extract user report with user ID and manager details
 
-A user report can be downloaded directly from the user interface (**[!UICONTROL Admin]** > **[!UICONTROL Users]** > **[!UICONTROL Internal]**). However, the report doesn't return the user ID and associated manager's details.
-Using the Jobs API for an administrator, you can retrieve the details.
+A user report can be downloaded directly from the administrator User Interface (**[!UICONTROL Admin]** > **[!UICONTROL Users]** > **[!UICONTROL Internal]**). However, the report doesn't return the user ID and associated manager's details.
+
+Use the Jobs API to download the report. The Jobs API helps in generating reports, bulk operations (enrollments or badge assignments), certification completions, or badge generation.
+
+Here's how you can download the report:
 
 1. Add the following payload to the Jobs API.
 
