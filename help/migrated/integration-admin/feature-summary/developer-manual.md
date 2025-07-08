@@ -386,8 +386,8 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
 
 **Other include filters**
 
-<table>
- <tbody>
+  <table>
+  <tbody>
   <tr>
    <td>
     <p style="text-align: left;"><b>Learning Programs</b></p></td>
@@ -401,6 +401,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instances.loResources.resources</br><br>supplementaryLOs.instances.loResources.resources</br><br>supplementaryResources</br><br>instances.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instances.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades</br>
   </td>
   </tr>
+  </table>
 
 #### fields
 
@@ -516,7 +517,7 @@ The Adobe Learning Manager APIs allow developers to access Learning Manager obje
 |userBadge|UserBadge relates a single badge with a single user. It contains details such as when it was achieved, assertionUrl and so on.|
 |skill|Skills model consists of levels and credits. Skills can be acquired by learners after relevant course completion.|
 |skillLevel|A skill level comprises of one or many courses to be consumed to acquire a level along with its associated credits.|
-|learningObject|A Learning Object is an abstraction for various kinds of objects which users can enroll into and learn from. Currently Learning Manager has the four types of Learning Objects – Course, Certification, Learning Program and Job Aid.|
+|learningObject|A Learning Object is an abstraction for various kinds of objects which users can enroll into and learn from. Currently Learning Manager has the four types of Learning Objects, Course, Certification, Learning Program and Job Aid.|
 |learningObjectInstance|A specific instance of a learning object.|
 |learningObjectResource|This is equivalent to the concept of module . A course is composed of one of more modules. In Learning Manager, a module can be delivered in a variety of equivalent ways. Therefore the loResource essentially encapsulates all those equivalent resources.|
 |loResourceGrade|This encapsulates the outcome of the user consuming a specific resource in the context of a learning object he is enrolled into. It has information such as the duration spent by user in the resource, percentage progress made by the user, pass/fail status and the score obtained by the user in any associated quiz.|

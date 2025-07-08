@@ -147,7 +147,7 @@ To delete a user group:
    ![](assets/delete-a-group.png)
    _Delete option in the Actions menu to remove a user group_
 
-4. Confirm the deletion when prompted. The user group will be deleted from Adobe Learning Manager.
+4. Confirm the deletion when prompted. The user group will be deleted.
 
 ## Download user group report
 
