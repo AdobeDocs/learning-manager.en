@@ -209,3 +209,4 @@ When you use OR logic, Adobe Learning Manager adds users who are in either the S
 
 ![](assets/or-logic.png)
 _Example showing multiple groups combined using OR logic_
+
