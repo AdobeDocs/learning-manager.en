@@ -16,8 +16,8 @@ This manual covers the following:
 
 * OAuth2.0 authentication 
 * API object models 
-* Shows how to use include, fields, and other parameters 
-* Provides endpoints for real-world use cases
+* Include, fields, and other parameters 
+* Real-world use cases
 
 >[!IMPORTANT]
 >
@@ -25,15 +25,15 @@ This manual covers the following:
 
 ## API usage scenarios 
 
-Developers can use Learning Manager APIs to enhance or integrate Learning Manager with other enterprise applications. You can create web, desktop, or mobile apps using any technology. Developers can access application data within Learning Manager, but deployment is external and fully controlled by you. Apps are typically developed by customer organizations for their own accounts, while Adobe partners can create general applications for wider use. 
+Developers can use Learning Manager APIs to enhance or integrate Learning Manager with other enterprise applications. You can create web, desktop, or mobile apps using any technology. Developers can access Learning Manager data, but you control where and how the app is used. 
 
 ## Authentication using OAuth 2.0 
 
-To access Adobe Learning Manager APIs securely, you must authenticate using ALM's OAuth 2.0 mechanism. This process includes registering your application, generating an authorization code, exchanging it for a refresh token, and finally using the refresh token to get an access token. 
+To access Adobe Learning Manager APIs securely, you must authenticate using Adobe Learning Manager's OAuth 2.0 mechanism. This process includes registering your application, generating an authorization code, exchanging it for a refresh token, and finally using the refresh token to get an access token. 
 
 ### Register an application 
 
-Integrate Adobe Learning Manager with external applications for enhanced versatility. The steps involve accessing Integration Administrator interface, registering the application, and obtaining client ID and Secret. Generate authentication tokens (OAuth, Refresh, and Access Tokens) from ALM, emphasizing the use of the OAuth 2.0 framework for authentication and authorization. The access token has a validity of seven days. 
+Integrate Adobe Learning Manager with external applications for enhanced versatility. The steps involve accessing Integration Administrator interface, registering the application, and obtaining client ID and Secret. Generate OAuth 2.0 authentication tokens, including authorization, refresh, and access tokens, from Adobe Learning Manager. Use the OAuth 2.0 flow to securely authenticate and authorize your app. The access token has a validity of seven days. 
 
 1. Sign in to Adobe Learning Manager as an integration administrator. 
 2. Select **[!UICONTROL Applications]** on the left pane. 
@@ -44,7 +44,7 @@ Integrate Adobe Learning Manager with external applications for enhanced versati
 
    * **[!UICONTROL Application Name]**: Type the name of your application (max 50 characters). 
    * **[!UICONTROL URL]**: The official URL of your company or application. Used for identification and reference. 
-   * **[!UICONTROL Redirect Domains]**: Specify the domains (for example, [http://learningmanager.adobe.com](http://learningmanager.adobe.com)) that ALM can redirect to after authorization.  You can mention multiple URLs, but the URLs must be valid. 
+   * **[!UICONTROL Redirect Domains]**: Specify the domains (for example, [http://learningmanager.adobe.com](http://learningmanager.adobe.com)) that Adobe Learning Manager can redirect to after authorization.  You can specify multiple valid URLs. 
    * **[!UICONTROL Description]**: Brief description of what the application does. 
    * **[!UICONTROL Scopes]**: Select one of the six available options to define the scope of your application. Based on your choice mentioned here, the Learning Manager API endpoints are accessible for your application. For example, if you chose Learner role read access, then all the Learning Manager learner API end points are read-only accessible to your application.  
 
@@ -62,18 +62,18 @@ Integrate Adobe Learning Manager with external applications for enhanced versati
 4. Select **[!UICONTROL Save]** to register the application. 
 
    * After you register the application, the application is available in the list of applications created in the account. Select the application and you'll see the following in addition to the previously entered fields: 
-   * Application ID: This is the Client ID. This ID tells ALM the application that is requesting access. It's included in API requests to identify the app. 
+   * Application ID: This is the Client ID. This ID tells Adobe Learning Manager the application that is requesting access. It's included in API requests to identify the app. 
    * Application Secret: This is used to authenticate your app and verify its identity during token exchange steps (for example, when requesting a refresh token or an access token). 
    
    ![](assets/application-id-and-secret.png)
 
 ## Obtain an access token 
 
-### Get authorization code from redirect 
+### Obtain the authorization code
 
-After getting the Client ID and Client Secret, use them to request an access token, which is used to authenticate API calls.  
+After getting the Client ID and Client Secret, use them to request an access token, that is used to authenticate API calls.  
 
-To begin the authorization code flow, direct your users to the following URL in a browser: 
+To begin the authorization code flow, add the following URL in a browser: 
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE 
@@ -129,7 +129,17 @@ An access token is valid for seven days. After seven days, you have to generate 
 
 ### Get access tokens for testing and development 
 
-Use the Adobe Learning Manager (ALM) token generation tool to quickly create access tokens for testing and development purposes. These tokens are intended solely for your personal use during development and debugging phases. Keep in mind that test tokens grant access to your ALM data, so it's essential to handle them securely. Never share your test tokens with others, use them in production applications, or include them in public code repositories. Treat them like passwords to ensure the security of your account and data. 
+When working with Adobe Learning Manager APIs, developers need a valid OAuth 2.0 access token to authenticate API requests. Generating this token through the standard OAuth flow can be complex and time-consuming, especially for quick testing, learning, or development. Adobe Learning Manager provides a token generation tool to simplify this process.
+
+This tool is ideal during:
+
+* Proof of concept (POC) builds
+
+* Early-stage development
+
+* Troubleshooting API integration issues
+
+These tokens are intended solely for your personal use during development and debugging phases. Keep in mind that test tokens grant access to your Adobe Learning Manager data, so it's essential to handle them securely. Never share your test tokens with others, use them in production applications, or include them in public code repositories. Treat them like passwords to ensure the security of your account and data. 
 
 1. Sign in to Adobe Learning Manager as Integration Admin. 
 2. Select **[!UICONTROL Developer Resources]** and then **[!UICONTROL select Access Tokens for Testing and Development]**. 
@@ -152,7 +162,7 @@ Use the Adobe Learning Manager (ALM) token generation tool to quickly create acc
    
    ![](assets/type-access-token.png)
 
-Upon selecting **[!UICONTROL Submit]**, the access token is verified, and the following response appears: 
+Upon selecting **[!UICONTROL Submit]**, the access token is verified, and You will receive the following JSON object:
 
 ```
 { 
@@ -169,7 +179,7 @@ As before, the access token for testing expires in seven days.
 
 ### Use an API tool for testing the endpoints 
 
-While you can use any third-party API testing tool, we'll use Postman to test the endpoints. The examples in this document use Postman for endpoint testing. 
+While you can use any third-party API testing tool, we'll use Postman to test the endpoints. The examples in this document use Postman for testing the endpoints. 
 
 1. Open Postman and create a new request. 
 2. Select the Authorization tab. 
@@ -248,7 +258,7 @@ Here is a brief explanation of each:
 
 ### include
 
-ALM APIs can be used to retrieve useful information while building a custom application or a headless LMS. The API endpoints can further be included with additional 'include' parameters to retrieve the additional information which are in relationship with the data received by default. These relationships are data model relations, for example while making a call to get user details you will receive the user information and relationship of manager ID and the ALM account ID. With the include parameter, you can extract additional details along with the user details such as their manager details and the ALM account details in a detailed manner.
+Adobe Learning Manager APIs can be used to retrieve useful information while building a custom application or a headless LMS. The API endpoints can further be included with additional 'include' parameters to retrieve the additional information which are in relationship with the data received by default. These relationships are data model relations, for example while making a call to get user details you will receive the user information and relationship of manager ID and the Adobe Learning Manager account ID. With the include parameter, you can extract additional details along with the user details such as their manager details and the Adobe Learning Manager account details in a detailed manner.
 In short, the **include** parameter is used in API calls to fetch related (linked) resources along with the primary resource in a single response. It is useful when you want to access nested or dependent data, such as modules of a course or the skills mapped to a learner, without making separate API calls.
 
 Key benefits:
@@ -259,7 +269,7 @@ Key benefits:
 
 **How to use the include parameter**
 
-Append the include parameter to your API URL and specify which related entities to include.
+Append the include parameter to your API URL and specify the related entities to include.
 
 **Common include paths**
 
@@ -270,15 +280,15 @@ Append the include parameter to your API URL and specify which related entities 
 |instances.loResources.resources |Fetches modules and resources inside an instance|
 |supplementaryResources |Returns associated supplementary resources|
 |skills.skillLevel.badge |Fetches skill levels and their associated badges|
-|prerequisiteLOs |Includes prerequisite learning objects|
-|subLOs |Fetches sub-learning objects (used in LPs or certifications)|
-|subLOs.enrollment |Enrollment for sub-learning objects|
+|prerequisiteLOs |Includes prerequisite Learning Objects|
+|subLOs |Fetches sub-Learning Objects (used in LPs or certifications)|
+|subLOs.enrollment |Enrollment for sub-Learning Objects|
 |instances.badge |Badge assigned for the completion of a course instance|
 |subLOs.subLOs.instances.loResources.resources |Deeply nested resources inside a sub-sub-LO instance|
 
 **Example 1**
 
-Retrieve the details of a user using userID parameter in the endpoint 
+Retrieve the details of a user using userID parameter in the endpoint.
 
 ```
 https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -419,13 +429,13 @@ API pagination is a technique used in APIs to break down large sets of data into
 
 Pagination reduces client and server load, limits response size to avoid server bottlenecks, or is useful for displaying data in tables or lists one page at a time.
 
-**How pagination in ALM APIs work**
+**How pagination in Adobe Learning Manager APIs work**
 
-ALM APIs support pagination through parameters like:
+Adobe Learning Manager APIs support pagination through parameters like:
 
 * page[limit]: Number of records per page.
 * page[offset]: Number of records to skip.
-* page[cursor]: Pointer to the next set of results. Instead of using offset-based pagination (which skips a number of records), cursor-based pagination uses a unique marker returned from the API to fetch the next page of results. 
+* page[cursor]: Pointer to the next set of results. Instead of using offset-based pagination (that skips a number of records), cursor-based pagination uses a unique marker returned from the API to fetch the next page of results. 
 
 Here's how to use pagination in APIs:
 
@@ -509,15 +519,15 @@ The Adobe Learning Manager APIs allow developers to access Learning Manager obje
 |----|----|
 |account|Encapsulates the details of a Learning Manager customer.|
 |badge|A badge is a token of accomplishment that learners get when they reach specific milestones as they progress within a course.|
-|catalog|Catalog is a collection of learning objects.|
-|user|User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes.|
-|resource|This is used to model each content resource that a module seeks to encapsulate. All resources encapsulated within an ``loResource are equivalent in terms of the learning objective, but they differ from each other in terms of delivery type or content locale.|
+|catalog|Catalog is a collection of Learning Objects.|
+|user|User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes.|
+|resource|This represents each content resource within a module. All resources encapsulated within an ``loResource are equivalent in terms of the learning objective, but they differ from each other in terms of delivery type or content locale.|
 |userNotification|This model contains notification information pertaining to a learner.|
 |userSkill|UserSkill indicates how much of a single skill level is achieved by a single user.|
 |userBadge|UserBadge relates a single badge with a single user. It contains details such as when it was achieved, assertionUrl and so on.|
 |skill|Skills model consists of levels and credits. Skills can be acquired by learners after relevant course completion.|
 |skillLevel|A skill level comprises of one or many courses to be consumed to acquire a level along with its associated credits.|
-|learningObject|A Learning Object is an abstraction for various kinds of objects which users can enroll into and learn from. Currently Learning Manager has the four types of Learning Objects, Course, Certification, Learning Program and Job Aid.|
+|learningObject|A Learning Object is an abstraction for various kinds of objects that users can enroll into and learn from. Currently Learning Manager has the four types of Learning Objects, Course, Certification, Learning Program and Job Aid.|
 |learningObjectInstance|A specific instance of a learning object.|
 |learningObjectResource|This is equivalent to the concept of module . A course is composed of one of more modules. In Learning Manager, a module can be delivered in a variety of equivalent ways. Therefore the loResource essentially encapsulates all those equivalent resources.|
 |loResourceGrade|This encapsulates the outcome of the user consuming a specific resource in the context of a learning object he is enrolled into. It has information such as the duration spent by user in the resource, percentage progress made by the user, pass/fail status and the score obtained by the user in any associated quiz.|
@@ -548,7 +558,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/users/<userID>
 
 ### List all courses, learning programs, job aids, and certifications
 
-Retrieve the details of all learning objects in which the learner is enrolled, has completed, or has been enabled by the administrator.
+Retrieve the details of all Learning Objects in which the learner is enrolled, has completed, or has been enabled by the administrator.
 
 ```
 GET https://learningmanager.adobe.com/primeapi/v2/learningObjects
@@ -648,7 +658,7 @@ There are three mandatory attributes:
 * name: The name of the user. 
 * userType: At present, only internal users can be added using this endpoint. The userType should be "INTERNAL".
 
-The following response appears:
+You will receive the following JSON object:
 
 ```
 {
@@ -840,8 +850,11 @@ This means the external user has been successfully added to Adobe Learning Manag
 
 ### Extract user report with user ID and manager details
 
-A user report can be downloaded directly from the user interface (**[!UICONTROL Admin]** > **[!UICONTROL Users]** > **[!UICONTROL Internal]**). However, the report doesn't return the user ID and associated manager's details.
-Using the Jobs API for an administrator, you can retrieve the details.
+A user report can be downloaded directly from the administrator User Interface (**[!UICONTROL Admin]** > **[!UICONTROL Users]** > **[!UICONTROL Internal]**). However, the report doesn't return the user ID and associated manager's details.
+
+Use the Jobs API to download the report. The Jobs API helps in generating reports, bulk operations (enrollments or badge assignments), certification completions, or badge generation.
+
+Here's how you can download the report:
 
 1. Add the following payload to the Jobs API.
 
@@ -1243,7 +1256,7 @@ You'll get information regarding the progress of the module in the response.
 
 When implementing a headless LMS with Adobe Learning Manager as the backend, organizations may require support staff to impersonate learners for troubleshooting or assistance. The API-driven impersonation method ensures secure access while maintaining learner credential confidentiality and supports seamless transitions in session states.
 
-Adobe Learning Manager (ALM) facilitates learner impersonation in headless LMS environments through a dedicated API. This feature allows support personnel to temporarily take on the identity of a learner, enabling them to diagnose issues, test functionalities, or provide hands-on assistance by simulating the learner's experience. Impersonation is activated using a cached admin access token, which is used to programmatically generate a learner access token. This process allows the system to operate as if it were logged in as the learner.
+Adobe Learning Manager facilitates learner impersonation in headless LMS environments through a dedicated API. This feature allows support personnel to temporarily take on the identity of a learner, enabling them to diagnose issues, test functionalities, or provide hands-on assistance by simulating the learner's experience. Impersonation is activated using a cached admin access token, which is used to programmatically generate a learner access token. This process allows the system to operate as if it were logged in as the learner.
 
 >[!IMPORTANT]
 >
@@ -1301,9 +1314,10 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 }'
 ```
 
-### Generate Learner Transcripts
 
-**Error codes**
+### Error codes
+
+When working with Adobe Learning Manager (Adobe Learning Manager) APIs, developers may encounter various HTTP error codes during requests. These errors provide important feedback about what went wrong and how to fix it. Understanding these codes helps developers quickly troubleshoot issues, improve API reliability, and ensure smoother integrations. The following table is a guide to common HTTP error codes returned by the Adobe Learning Manager APIs, along with explanations and typical scenarios in which they occur. This section is essential for anyone building, testing, or debugging applications that connect to Adobe Learning Manager.
 
 |HTTP status|Meaning|Troubleshooting|
 |---|---|---|
@@ -1520,7 +1534,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>user</p></td>
    <td>
-    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
+    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
   </tr>
   <tr>
    <td>
@@ -1528,7 +1542,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>course</p></td>
    <td>
-    <p>Course is one of the learning objects supported in Learning Manager, that consists of one or more modules. </p></td>
+    <p>Course is one of the Learning Objects supported in Learning Manager, that consists of one or more modules. </p></td>
   </tr>
   <tr>
    <td>
@@ -1536,7 +1550,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>module</p></td>
    <td>
-    <p>Module is a building block to create learning objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
+    <p>Module is a building block to create Learning Objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
   </tr>
   <tr>
    <td>
@@ -1703,13 +1717,13 @@ Following are the various elements of the Learning Manager class diagram in V2 A
    <td><code>
      catalog
     </code></td>
-   <td>Catalog is a collection of learning objects.</td>
+   <td>Catalog is a collection of Learning Objects.</td>
   </tr>
   <tr>
    <td><code>
      user
     </code></td>
-   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
+   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
   </tr>
   <tr>
    <td>resource</td>

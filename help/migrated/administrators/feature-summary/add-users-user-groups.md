@@ -20,15 +20,7 @@ Adobe Learning Manager (ALM) allows administrators to onboard and manage both in
 
 Internal users in Adobe Learning Manager refer to employees or team members within your organization. You can add them manually, upload them in bulk, or import them through system integrations. After adding these users, you can organize them into groups, assign courses, and monitor their learning progress.
 
-Users in Adobe Learning Manager can take on different responsibilities and manage various tasks based on their assigned roles. Each role, including Administrator, Author, Instructor, and Integration Admin, offers a set of specific capabilities tailored to support the user's responsibilities within the platform.
-
-Adobe Learning Manager supports the following user roles:
-
-* **Administrator**: Manages users and user groups, assign roles, and configure system-wide preferences such as data sources, allowed domains, and display options. Administrators are also responsible for creating and organizing learning content, tracking learner progress, generating reports, and setting up integrations with external systems. 
-* **Author**: Creates and manages content, including modules and courses.
-* **Manager**: Oversees team learning activities, nominates team members for courses, approves requests, and provides feedback.
-* **Integration Admin**: Manages system integrations and data connections between ALM and external platforms. 
-* **Custom roles**: Administrators can create custom roles to give users tailored access based on their responsibilities. Refer to this article for more information about the custom roles.
+Users in Adobe Learning Manager can take on different responsibilities and manage various tasks based on their assigned roles. Each role, including Administrator, Author, Instructor, and Integration Administrator, offers a set of specific capabilities tailored to support the user's responsibilities within the platform.
 
 ### Methods to add internal users
 
@@ -40,7 +32,7 @@ Administrators can add internal users using the following methods:
 
 ### Manually add an internal user
 
-Administrators can manually add individual users by entering their name, email ID, unique identifier, and manager's name. The Unique Identifier in Adobe Learning Manager is a required identifier that administrators assign when creating a user. It must be unique for each user and serve as a consistent reference throughout the system.
+Administrators can manually add a user by providing their name, email, unique identifier, and manager's name. The Unique Identifier in Adobe Learning Manager is a required identifier that administrators assign when creating a user. It must be unique for each user and serve as a consistent reference throughout the system.
 
 >[!INFO]
 >
@@ -49,8 +41,8 @@ Administrators can manually add individual users by entering their name, email I
 To add a single user to Adobe Learning Manager:
 
 1. Log in as an administrator.
-2. Select **Users** and then select **Internal**.
-3. Select **Add** and then select **Single User**. 
+2. Select **Users**, then choose **Internal**.
+3. Select **Add**, then choose **Single User**. 
    
    ![](assets/add-single-user.png)
    _Administrator interface showing the option to manually add a single internal user_
@@ -70,8 +62,8 @@ Self-registration is a self-service onboarding process where users can visit a r
 To create a self-registration URL for a user:
 
 1. Log in as an administrator.
-2. Select **Users** and then select **Internal**. 
-3. Select **Add** in the upper-right corner and then select **Self-Registration.**
+2. Select **Users**, then choose **Internal**. 
+3. Select **Add**, then choose **Self-Registration.**
 
 
    ![](assets/add-self-register-link.png)
@@ -102,7 +94,7 @@ _Self-registration link opens a sign-up page_
 
 To view the list of self-registration URLs:
 
-1. Select **Users** and then select **Internal**. 
+1. Select **Users**, then choose **Internal**. 
 2. Select **Self-Registration**.
 
    Administrators can see the list of self-registration URLs.
@@ -112,7 +104,7 @@ _List view showing existing self-registration URLs available for internal users_
 
 ### Bulk upload internal users
 
-Adobe Learning Manager allows administrators to add multiple users at once by uploading a CSV containing the user's information, including name, email ID, and manager's name. This bulk upload feature saves time and effort compared to adding users individually.
+Administrators can add multiple users at once by uploading a CSV file with user information such as name, email address, and manager's name. This bulk upload feature saves time and effort compared to adding users individually.
 
 >[!INFO]
 >
@@ -121,8 +113,8 @@ Adobe Learning Manager allows administrators to add multiple users at once by up
 To add multiple users:
 
 1. Log in as an administrator.
-2. Select **Users** and then select **Internal**.
-3. Select **Add** in the upper-right corner and select **Upload a CSV**.
+2. Select **Users**, then choose **Internal**.
+3. Select **Add**, then choose **Upload a CSV**.
 
    ![](assets/select-upload-acsv.png)
    _Option to upload a CSV file for bulk user import_
@@ -165,7 +157,7 @@ To register the users:
 
 1. Select **Users** on the administrator home page.
 2. Select the checkboxes next to the names of the users you want to register.
-3. Select **Actions** and then select **Register**.
+3. Select **Actions**, then choose **Register**.
    
    ![](assets/register-user.png)
    _Register button to activate selected users in Adobe Learning Manager_
@@ -190,17 +182,17 @@ Adobe Learning Manager supports enrollment of such users through external regist
 To create an external user, follow these steps:
 
 1. Log in as an administrator.
-2. Select **Users** and then select **External**.
-3. In the upper-right corner, select **Add** to create a registration for an external user.
+2. Select **Users**, then choose **External**.
+3. Select **Add** to create a registration for an external user.
 4. In the **Add External Registration Profile** dialog, provide the following:
 
-   * **Profile Name:** Type the name of the partner organization that wants to access Adobe Learning Manager
+   * **Profile Name:** Type the name.
    * **Manager Email:** Type the manager's email address.
    * **Seat Limit:** Set the maximum number of enrollments allowed.
    * **Expiry:** Define the last date for new registrations. After it expires, the link will not work for new user registration.
 
    ![](assets/add-external-user-prompt.png)
-   _Dialog box for entering profile name, manager email, seat limit, and expiration_
+   _Dialog box for entering profile name, manager's email, seat limit, and expiration_
 
 5. Select an image using the **Add Image** option. This image will be visible to the learners in the profile section.
 6. Select the **Advanced Settings** section to expand it and type the required details:
@@ -220,7 +212,6 @@ A registration URL is generated.
 To enable the external profile:
 
 1. Locate the newly created profile in the list of external profiles.
-
 2. Select the **Status** toggle button to enable it.
 
 The administrator can share this URL with the external partner so they can sign up and log in to Adobe Learning Manager using it.
@@ -253,7 +244,7 @@ To pause an external profile:
 1. Select **Actions** in the upper-right corner of the **External Users** page.
 2. Select **Pause** to pause the external registration profile.
 
-This blocks the registration process for users who have yet to accept their invitations. Note that this action only affects users who have yet to complete their registration.
+This blocks new registrations for users who haven't accepted their invitations. Note that this action only affects users who have yet to complete their registration.
 
 ![](assets/pause-external-user.png)
 _Option to pause an existing external registration profile from the Actions menu_
@@ -282,7 +273,7 @@ You can view the number of learners added to the partner organization and whethe
 
 ## Manage users
 
-Admins can edit user details, delete users, assign roles, and remove roles. This helps make sure each user has the right access and tasks.
+Administrators can edit user details, delete users, assign roles, and remove roles. This helps make sure each user has the right access and tasks.
 
 >[!INFO]
 >
@@ -308,6 +299,14 @@ A confirmation message appears when the user is successfully deleted.
 ## Assign a role to a user
 
 User roles in Adobe Learning Manager define what actions each person can perform in the system. Each role comes with specific permissions based on the user's responsibilities.
+
+Adobe Learning Manager supports the following user roles:
+
+* **Administrator**: Manages users and user groups, assign roles, and configure system-wide preferences such as data sources, allowed domains, and display options. Administrators are also responsible for creating and organizing learning content, tracking learner progress, generating reports, and setting up integrations with external systems. 
+* **Author**: Creates and manages content, including modules and courses.
+* **Manager**: Oversees team learning activities, nominates team members for courses, approves requests, and provides feedback.
+* **Integration Administrator**: Manages system integrations and data connections between ALM and external platforms. 
+* **Custom roles**: Administrators can create custom roles to give users tailored access based on their responsibilities. Refer to this [article](/help/migrated/administrators/feature-summary/custom-role.md) for more information about the custom roles.
 
 To assign roles to users:
 
@@ -336,3 +335,5 @@ To remove roles from users:
    _Option to remove assigned roles from a user under the Actions menu_
 
 4. Select **Yes** on the confirmation dialog.
+
+
