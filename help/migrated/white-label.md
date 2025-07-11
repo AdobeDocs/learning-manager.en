@@ -7,7 +7,7 @@ exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
 ---
 # White labeling in Adobe learning Manager Mobile app
 
-Adobe Learning Manager mobile app now supports white labeling – which means that you can now release the app under your own branding.
+Adobe Learning Manager mobile app now supports white labeling, which means that you can now release the app under your own branding.
 
 ALM will make available updated white labeled binary files according to the following timelines:
 
@@ -150,19 +150,42 @@ The following can be customized:
 >Provide the data to your CSAMs so they can add it into your customized app binary.
 
 
-#### Update site association to handle custom deeplinks
+#### Update site association to handle custom deep links
 
 If you're using a custom domain or learningmanager\*.adobe.com as host, you need not take any action. However, if you use a custom solution or specific hostname for the URLs, add the site-association files.
 
 >[!CAUTION]
 >
->If the files are not present, the deeplinks will not work. Ensure the files are present.
+>If the files are not present, the deep links will not work. Ensure the files are present.
 
 
 Refer the following links for more information:
 
 * [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 * [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+
+## Get your team ID for the App Store
+
+To get your Team ID:
+
+1. Log in to your **[!UICONTROL Apple Developer]** account.
+2. Select **[!UICONTROL Membership Details]** at the top of the page and copy your Team ID.
+
+This ID is required to add the white labeled app entry in the metadata files to enable deep linking.
+
+## Get the SHA-256 fingerprint for Android
+
+The SHA-256 fingerprint for the Android signing certificate is required when adding the white labeled app entry.
+
+To generate SHA-256 fingerprint:
+
+1. Run the following command:
+
+```
+keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
+```
+
+In the output, find Certificate fingerprints, then copy the SHA-256 value. Share this fingerprint as needed for your deep linking configuration.
 
 ## Generate push notifications
 
