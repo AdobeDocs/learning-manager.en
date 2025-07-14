@@ -96,6 +96,22 @@ _Content update options_-->
 
 Refer to this [article](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course) for more information about content library.
 
+## Enhancements in fluidic player
+
+This release brings a refreshed fluidic player to Adobe Learning Manager with a modern look and a more intuitive learning experience. The updated player includes a cleaner interface, improved navigation controls, and a consistent design across desktop and mobile devices. Learners can easily access and interact with content in any screen mode, including portrait, landscape, full screen, or standard view.
+
+* **Refreshed fluidic player skin**: A modernized look with updated UI elements.
+* **Improved navigation controls**: Smoother and more intuitive navigation for a better learner experience.
+* **Optimized design**: Enhanced appearance and usability across desktop and mobile devices supports portrait, landscape, full-screen, and standard screen modes.
+
+All learners accessing content through Adobe Learning Manager, whether using the Native or Headless experience, will automatically see these new UI and navigation improvements. Learners may notice a slight change in how they interact with the player due to the updated layout and controls.
+
+>[!NOTE]
+>
+>This enhancement is available only for static content.
+
+Refer to this [article](/help/migrated/learners/feature-summary/fluidic-player.md) for more information about fluidic player.
+
 ## Bug fixed in this release
 
 * Fixed an issue where learners who had completed a course saw a white screen when revisiting it after the content module was updated to a new version.
