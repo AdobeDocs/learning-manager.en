@@ -133,6 +133,12 @@ The **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]*
 
 *Learning Path instances*
 
+If a learning path includes self enrollment courses such as Classroom or Virtual Classroom courses and the selected session is already full, learners will still see the Enroll option and can enroll in the course. However, they will not be able to join the session unless a seat becomes available.
+
+>[!NOTE]
+>
+>To avoid confusion, admins should regularly monitor session capacities and add more sessions if needed or communicate waitlist or seat availability to learners.
+
 ## Notifications
 
 There are three options:
