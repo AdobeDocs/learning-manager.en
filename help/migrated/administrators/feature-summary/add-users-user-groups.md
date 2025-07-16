@@ -6,7 +6,7 @@ contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
 ---
 
-# Add Users in Adobe Learning Manager
+# Add users in Adobe Learning Manager
 
 In Adobe Learning Manager, users are learners who use the platform for learning or training. There are two types of users: internal users and external users.
 
