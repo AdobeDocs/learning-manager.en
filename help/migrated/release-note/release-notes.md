@@ -17,7 +17,7 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
  </tbody>
 </table>-->
 
-+++Update 101: The June 2025 release of Adobe Learning Manager
++++Update 101: The July 2025 release of Adobe Learning Manager
 
 ## Role-based email templates
 
@@ -115,6 +115,8 @@ Refer to this [article](/help/migrated/learners/feature-summary/fluidic-player.m
 ## Bug fixed in this release
 
 * Fixed an issue where learners who had completed a course saw a white screen when revisiting it after the content module was updated to a new version.
+
+Additionally, for details on upcoming changes to Adobe Learning Manager, see this [article](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
