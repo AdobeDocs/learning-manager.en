@@ -2,8 +2,8 @@
 jcr-language: en_us
 title: Set Up a Trial, Sandbox, or Test Account in Adobe Learning Manager
 description: Learn how to create a free 30-day trial or sandbox account in Adobe Learning Manager. Follow simple steps to set up your test environment and get started quickly.
+exl-id: f8a2db1d-6a62-481a-9d04-0fb6377cda73
 ---
-
 # Create a trial account in Adobe Learning Manager
 
 You can easily set up a free 30-day trial account in Adobe Learning Manager to explore features and test learning workflows. This guide explains where to start, how to sign up, and how to find your account details once you're set up.
