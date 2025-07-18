@@ -34,3 +34,4 @@ To create a trial account:
 7. After setup, find your account ID in the URL of your Adobe Learning Manager URL.
 
    ![](assets/account-id-trial.png)
+   
