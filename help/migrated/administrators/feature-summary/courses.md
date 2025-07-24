@@ -237,7 +237,7 @@ If a learner who was earlier in pending approval state, unenrolls, then his/her 
 
 Using Adobe Learning Manager's bulk enrollment feature, administrators can efficiently enroll large groups of learners into courses, certifications, or learning programs by uploading a CSV file. This process saves time, ensures consistency, and supports organizational scalability. Additionally, administrators and instructors can update learner information, attendance, and completions in bulk through CSV uploads, minimizing manual work and ensuring data accuracy.
 
-You can use the same CSV file format for enrollment, attendance, and completion. Just enter learner email IDs under the "Email" column and save the file with a name based on the action, for example, bulk_enrollment.csv, bulk_attendance.csv, or bulk_completion.csv. Only CSV format is supported. UTF-8 format is not supported. Download the sample csv [here](assets/Sample-Bulk-Action-CSV.csv). 
+You can use the same CSV file format for enrollment, attendance, and completion. Just enter learner email IDs under the "Email" column and save the file with a name based on the action, for example, bulk_enrollment.csv, bulk_attendance.csv, or bulk_completion.csv. Only CSV format is supported. UTF-8 format is not supported. Download the [sample csv](assets/Sample-Bulk-Action-CSV.csv). 
 
 ### Enroll learners in bulk using a csv
 
