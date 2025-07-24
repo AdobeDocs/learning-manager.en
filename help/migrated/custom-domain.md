@@ -26,9 +26,11 @@ Custom domain feature is available at an additional cost. Please contact your Cu
 
 * For learner role, the domain will start with `https://cdn.<customer_custom_domain>/` For example, `https://cdn.elearningstage1.cpdomaintest.in/`  
 * For all other roles, the domain will start with `https://<customer_custom_domain>/`. For example, `https://elearningstage1.cpdomaintest.in/`
-* The actual login URL will be `https://<customer_custom_domain>/acapindex` or `https://<customer_custom_domain>/login`. Replace `<customer_custom_domain>` with your organization's actual domain.
+* The actual login URL will be `https://<customer_custom_domain>/acapindex` or `https://<customer_custom_domain>/login`. 
 
-`<customer_custom_domain>` is the customizable part.
+>[!NOTE]
+>
+>Replace `<customer_custom_domain>` with your organization's actual domain.
 
 ## How to setup a custom domain on an account {#howtosetupacustomdomainonanaccount}
 
