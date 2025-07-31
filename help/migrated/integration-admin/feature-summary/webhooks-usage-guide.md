@@ -560,7 +560,7 @@ To prevent these faults, subscribers should actively monitor webhook events and 
   "events": [
     {
       "eventId": "123472ec1-4576-4ec5-a057-3a6f078cc9d6",
-      "eventName": "COURSE_ENROLLMENT_BATCH",
+      "eventName": "CERTIFICATION_ENROLLMENT_BATCH",
       "timestamp": "2024-11-08T03:49:52.000Z",
       "eventInfo": "1234524713000-040366-10488-0",
       "data": {
