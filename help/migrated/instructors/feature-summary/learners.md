@@ -78,6 +78,26 @@ You can view the number of confirmed Learners who are attending the session, the
    ![](assets/markattendance.png)
    *Mark learner attendance*
 
+## Mark success for learners
+
+Instructors can mark each learner's success status as Pass or Fail directly from the Learners page. This feature allows instructors to accurately record the outcome of classroom or virtual classroom sessions based on learner performance.
+
+To mark the success for learners:
+
+1. Log in to Adobe Learning Manager as an instructor.
+2. Select **[!UICONTROL Upcoming Sessions]** in the left navigation pane. 
+3. Select **[!UICONTROL Learners]**.
+4. Select the learners and then select **[!UICONTROL Actions]**. 
+5. Select any of the options from the following to mark the success for the selected learners:
+
+      * **[!UICONTROL Mark Attended and Pass]**: Learners marked as Pass have successfully completed the module.
+      * **[!UICONTROL Mark Attended and Fail]**: Learners marked as Fail have completed the module but did not pass.
+
+      ![The Actions dropdown menu highlighting "Mark Attended and Pass" and "Mark Attended and Fail" options for instructors to set each learner's success status](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+      _Learners page showing the Actions menu with Mark Attended and Pass and Mark Attended and Fail options highlighted for recording learner outcomes_
+      
+6. Select **[!UICONTROL Yes]** in the confirmation prompt.
+
 ## Send emails to learners {#sendemailstolearners}
 
 You can send emails to specific or all attendees for your session. The Send Email feature is very useful if you want to confirm the attendance of learners, or if you want to send out communication regarding the session. You can also use the Send Email to All option to email the assignment and session material, or send out general communication to all the learners.
