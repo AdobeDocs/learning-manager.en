@@ -215,7 +215,7 @@ To tag users in a social board:
 1. Log in to Adobe Learning Manager as a learner. 
 2. Select **[!UICONTROL Social Learning]** in the left navigation pane.
    
-   ![](/help/migrated/assets/select-social-learning.png)
+   ![](/help/migrated/assets/select-social-learning-admin.png)
    _Enable collaborative learning by selecting Social Learning to access discussion boards, share insights, and tag users for interactive engagement_
 
 3. Select **[!UICONTROL New Post]**.
@@ -377,7 +377,7 @@ GET /bulkimport/runStatus
 
 **Parameters**
 
-*** migrationProjectId**: (Required). A unique identifier for a migration project. A migration project is used to transfer data and content from an existing Learning Management System (LMS) to Adobe Learning Manager. Each migration project can consist of multiple sprints, which are smaller units of migration tasks.
+* **migrationProjectId**: (Required). A unique identifier for a migration project. A migration project is used to transfer data and content from an existing Learning Management System (LMS) to Adobe Learning Manager. Each migration project can consist of multiple sprints, which are smaller units of migration tasks.
 
 * **sprintId**: (Required). A unique identifier for a sprint within a migration project. A sprint is a subset of migration tasks that includes specific learning items (e.g., courses, modules, learner records) to be migrated from an existing LMS to Adobe Learning Manager. Each sprint can be executed independently, allowing for phased migration.
 
@@ -791,6 +791,7 @@ Updates or creates the current state of a learning object for a specific user an
 **Parameters**
 
 |Parameter |Type |Location |Required |Description |
+|---|---|---|---|---|
 |userId |String |Path |Yes |Unique identifier of the user |
 |loId |String |Query |Yes |Learning Object identifier in format lo:{id} |
 |loResourceId |String |Query |Yes |Learning Object resource identifier in format course:{loId_loInstanceId_moduleId_moduleVersion} |
@@ -1310,7 +1311,7 @@ To configure the Categories widget:
 3. Select the details to display on the category cards:
 
     * **[!UICONTROL Category Image]**
-    * **[!UICONTROL Category Description ]**
+    * **[!UICONTROL Category Description]**
 
 4. Type a **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
 5. Search for and choose a catalog from the **[!UICONTROL Category source]**.
@@ -1376,7 +1377,7 @@ To configure Content Box widget:
 2. Select **[!UICONTROL Content Box]** and then select **[!UICONTROL Proceed]**. 
  
    ![](assets/select-content-box.png)
-  _ Widget selection screen highlighting the Content Box widget for displaying custom images, text, and action buttons to enhance learner engagement_
+   _Widget selection screen highlighting the Content Box widget for displaying custom images, text, and action buttons to enhance learner engagement_
 
 3. Type the **[!UICONTROL Title]** and **[!UICONTROL Description]**.
 4. Type the text into the **[!UICONTROL Action button label]** and provide a link. 
