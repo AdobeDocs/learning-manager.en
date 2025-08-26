@@ -5,6 +5,10 @@ exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
 ---
 # What's new in Adobe Learning Manager October release
 
+>[!IMPORTANT]
+>
+>Please note that the features outlined are tentative and subject to change. For more detailed information and confirmation, kindly reach out to your designated Customer Success Manager. If you encounter any issues, please contact our Customer Support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com)
+
 ## Overview of the release
 
 The October 2025 release of Adobe Learning Manager introduces significant enhancements designed to improve reporting accuracy, expand integration capabilities, and enhance the learning experience for administrators, authors, and learners. Key improvements include enhanced Learner Transcripts that accurately capture instructor-marked completions, extended User Reports with additional identification fields, and Job Aids reports with direct download links. 
