@@ -595,6 +595,26 @@ On this page, enter the following details:
 
 1. To republish the course with the updates, click **[!UICONTROL Republish]**.
 
+### Allow instructors to mark success
+
+Adobe Learning Manager allows instructors to mark learners' success status in a classroom or virtual classroom module. Authors can grant instructors permission to mark the success status of learners when creating Classroom or Virtual Classroom modules. Instructors can mark the success by marking a learner as Pass or Fail, ensuring that progress is updated accordingly. 
+
+To allow instructors to mark the success of the learner:
+
+1. Log in to Adobe Learning Manager as an author.
+2. Select **[!UICONTROL Create Courses]** on the homepage. 
+3. Select **[!UICONTROL Add]**. 
+4. Type the necessary details and select **[!UICONTROL Add Modules]**. 
+5. Select **[!UICONTROL Virtual Classroom Module]** or **[!UICONTROL Classroom Module]**.
+6. Type the necessary details and select the dates. 
+7. Select **[!UICONTROL Allow Instructor to mark success]** option.
+
+   ![The "Allow Instructor to mark success?" checkbox is highlighted, enabling authors to let instructors record learner success status for a module](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   _Session Details screen with the Allow Instructor to mark success option highlighted for Classroom or Virtual Classroom modules_
+   
+8. Select **[!UICONTROL Done]**. 
+
+
 ## Observation checklist
 
 A Checklist module can now be reviewed by managers in addition to instructors. People managers, as well as non-hierarchical managers, such as store managers or location managers, can review and complete the checklist. 
