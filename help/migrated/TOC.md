@@ -9,7 +9,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 * [Learning Manager User Guide](user-guide.md)
 * Introduction {#introduction}
    * [New features summary May 2025](/help/migrated/whats-new.md)
-   * [Upcoming changes in Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
+   * [What's new in Adobe Learning Manager October 2025 release](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [New features summary November 2024](/help/migrated/whats-new-nov-24.md)
    * [New features summary July 2024](whats-new-july-2024.md)
    * [New features March 2024](whats-new-march-2024.md)
