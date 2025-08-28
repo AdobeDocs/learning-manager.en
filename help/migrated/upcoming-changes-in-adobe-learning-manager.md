@@ -185,6 +185,50 @@ To create an announcement for the assigned scope:
 
 Only learners within the custom administrator's scope will be able to view the announcement. See this [article](/help/migrated/administrators/feature-summary/announcements.md) to learn how to create multiple types of announcements. 
 
+### Reset the scope by Custom administrators
+
+Custom administrators can reset the scope of their published announcements if an administrator has changed the scope of them. Once the scope is reset, the updated scope will be applied to the announcement, and only learners within the new scope will be able to see the announcement.
+
+To reset the scope:
+
+1. Log in to Adobe Learning Manager as a custom administrator.
+2. Select **[!UICONTROL Announcement]** in the left navigation pane.
+3. Select **[!UICONTROL Published]** tab.
+4. Select any announcement and then select setting icon. 
+5. Select **[!UICONTROL Edit]**. 
+
+   ![](assets/select-edit-published-announcement.png)
+   _Announcement screen showing the published announcements with edit, publish and other options_
+
+6. Select **Reset**. 
+
+   ![](assets/reset-the-scope.png)
+   _Announcement showing a scope change notification, with an option for custom administrators to reset and update the scope selection to reflect new access permissions_
+
+The scope will be updated, and only users within the updated scope will be able to view the announcement.
+
+### Edit the announcement through administrator UI
+
+Administrators can view announcements created by custom administrators through their interface. They have the ability to edit these announcements only by modifying or removing the assigned scope. If scope changes are not made, administrators cannot make further edits to the announcement.
+
+To edit the announcement through administrator UI:
+
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Announcement]** in the left navigation pane.
+3. Select **[!UICONTROL Published]** tab.
+4. Select any announcement and then select setting icon.
+5. Select **[!UICONTROL Edit]**. 
+
+   ![](assets/select-edit-published-announcement.png)
+   _Announcement screen showing the published announcements with edit, publish and other options_
+
+6. Select **[!UICONTROL Remove]**. 
+   
+   ![](assets/remove-the-scope.png)
+   _Announcement screen indicating that scope must be removed to allow administrators to edit announcements created for scoped user groups_
+
+Administrator can edit the announcement after removing the scope.
+
 ## Tag users in social boards
 
 **Overview**
@@ -828,15 +872,13 @@ The API creates or updates the Learning Object state for the specified locale.
 
 **Overview**
 
-Go1 integration has been enhanced to support playlist management, Learning Path creation, and recurring certification workflows, while transitioning to a preview-and-purchase content model.
+Go1 integration is enhanced to allow direct curation of Go1 courses for creating Learning Programs (LP) within Adobe Learning Manager. This update supports the inclusion of Go1 courses in recurring certifications and introduces a new version of the Go1 content hub experience, enabling more efficient course curation.
 
 **What's new**
 
 * Create and manage playlists directly within Go1 using AI chat assistance or manual selection.
-* Convert Go1 playlists into Adobe Learning Manager Learning Paths easily.
 * Include Go1 courses in recurring certification cycles with automatic progress reset.
 * Upgraded content discovery interface for improved browsing and content curation.
-* Transition from free content to transparent cost model.
 
 **Key benefits**
 
@@ -857,29 +899,32 @@ Go1 integration has been enhanced to support playlist management, Learning Path 
 * Compliance-focused training programs needing regular content updates and delivery cycles.
 * Learning teams are seeking to reduce content curation overhead through AI assistance.
 
-### Create a Go1 playlist
+### Add Go1 playlist to a Learning Path
 
-Administrators can create playlists with Go1 courses tailored to different learner groups based on location, role, product, and other criteria. Playlists can be created manually or generated using AI.
+Administrators can create a learning path that includes a Go1 playlist, so learners can access selected third-party courses as part of their training.
 
-To create a playlist:
+To create a learning path:
 
 1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Content Marketplace]** in the left navigation pane. 
-   
-   ![](assets/select-content-marketplace.png)
-   _Explore and add top Go1 courses to your playlists by selecting Content Marketplace in Adobe Learning Manager_
+2. Select **[!UICONTROL Learning Paths]** in the left navigation pane. 
+3. Select **[!UICONTROL Add]**. 
 
-3. Select **[!UICONTROL Content Hub]** and then **[!UICONTROL Library]**. 
-4. Select **[!UICONTROL Create playlist]** and choose from one of the following:
+   ![](assets/select-add-to-lp.png)
+   _Select Add in the Learning Paths section to create and organize new structured training programs for your learners_
+
+4. Type the required details and select **[!UICONTROL Save]**. See this [article](/help/migrated/administrators/feature-summary/learning-paths.md) for more information. 
+5. Select **[!UICONTROL Add Go1 Courses]**.
+
+   ![alt text](assets/select-go1-courses.png)
+   _Add Go1 courses to your Sales Engineers Skill Development playlist to expand learning options with curated third-party content_
+
+6. In the **[!UICONTROL Library]**, search for and select **[!UICONTROL Create playlist]** and choose from one of the following:
     a. **[!UICONTROL with AI]**: Create a playlist with the help of AI.
     b. **[!UICONTROL by myself]**: Create a playlist by manually adding courses to it. 
- 
-   ![](assets/select-create-playlist.png)
-   _Create a new playlist in Adobe Learning Manager by selecting Create playlist to organize and deliver targeted courses for your learners_
 
 **Create a playlist with AI**
 
-Administrators can type the playlist description in the AI prompt. The AI will curate the related courses and create a playlist based on the requirements. 
+Administrators can type the playlist description in the AI prompt. The AI will curate the related courses and create a playlist based on the requirements. AI generates playlists by interpreting the learning goal or prompt provided by the user. When creating a playlist, admins can select to curate content 'with AI' which allows the system to use large language models to understand the specified learning objectives and content preferences like duration and type. The AI then searches the content library for relevant learning objects that match these criteria.
 
 To create a playlist with AI:
 
@@ -894,17 +939,25 @@ To create a playlist with AI:
    ![](assets/type-a-prompt.png)
    _Type your learning goal to create a custom playlist, helping Adobe Learning Manager recommend targeted courses tailored to your learners' needs_
 
-4. Choose the skills from the list, then select the course duration and type for your playlist.
-5. Select **[!UICONTROL Generate playlist]**.
+4. Choose the skills from the list.
    
-   ![](assets/select-generate-playlist.png)
-   _Customize your playlist in Adobe Learning Manager by selecting relevant skills and, course duration_
-
-   
-The playlist is created with 10 courses, and administrators can use it to create a Learning Path.
+   ![](assets/select-skills.png)
+   _Choose the skills from the list to curate the courses for the Sales Engineer_
+5. Select the course duration and type for your playlist.
+6. Select **[!UICONTROL Generate playlist]**. The playlist is created with 10 courses, and administrators can use it to create a Learning Path.
    
    ![](assets/created-playlist.png)
    _Review your curated Sales Engineer Skills Enhancement Playlist in Adobe Learning Manager_
+7. Select **[!UICONTROL Add to Library]**.
+8. Select **Yes** in the confirmation prompt.
+9. Select the playlist from the **[!UICONTROL Select playlist to import prompt]**. 
+
+   ![](assets/add-playlist-to-lp.png)
+   _Select and import the Sales Engineer Skills Enhancement Playlist from the Go1 Library in Adobe Learning Manager_
+
+10. Select **[!UICONTROL Add Playlists to Learning Path]** and then **[!UICONTROL Publish]**. 
+
+The courses in the playlist will be added to the Learning Path. Administrators can then enroll learners, who can immediately begin taking the courses.
 
 **Create a playlist manually**
 
@@ -931,43 +984,6 @@ To create a playlist manually:
 5. Search and select the required courses. 
 
 The playlist has been created with related courses, and administrators can use it to create a learning path. 
-
-### Add Go1 playlist to a Learning Path
-
-Administrators can create a learning path that includes a Go1 playlist, so learners can access selected third-party courses as part of their training.
-
-To create a learning path:
-
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Learning Paths]** in the left navigation pane. 
-3. Select **[!UICONTROL Add]**. 
-
-   ![](assets/select-add-to-lp.png)
-   _Select Add in the Learning Paths section to create and organize new structured training programs for your learners_
-
-4. Type the required details and select **[!UICONTROL Save]**. See this [article](/help/migrated/administrators/feature-summary/learning-paths.md) for more information. 
-5. Select **[!UICONTROL Add Go1 Courses]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Add Go1 courses to your Sales Engineers Skill Development playlist to expand learning options with curated third-party content_
-
-6. In the **[!UICONTROL Library]**, search for and select the playlist on the Select **[!UICONTROL Go1 Courses screen]**.
-
-   >[!NOTE]
-   >
-   >Make sure you set the Created by me filter to easily find your playlist.
- 
-   ![](assets/select-save-to-add-playlist.png)
-   _Select a Sales Engineer playlist from the Go1 Courses Library in Adobe Learning Manager_
-
-7. Select **[!UICONTROL Add to Library]** and then **[!UICONTROL Save]**. 
- 
-   ![](assets/add-playlist-to-lp.png)
-   _Select and import the Sales Engineer Skills Enhancement Playlist from the Go1 Library in Adobe Learning Manager_
-
-8. Select **[!UICONTROL Add]** and then **[!UICONTROL Publish]**. 
-
-The courses in the playlist will be added to the Learning Path. Administrators can then enroll learners, who can immediately begin taking the courses.
 
 ## Save player state progress for languages
 
@@ -1033,6 +1049,16 @@ Previously, role.csv and user_role.csv files could only be uploaded in full mode
     ```
  
 3. Adobe Learning Manager also supports up to 20 incremental user CSVs and their corresponding custom roles CSVs, making it suitable for large-scale operations.
+
+### New columns added to CSV files
+
+Three new columns have been introduced to enhance the data captured in user, role, and user-role CSV exports/imports:
+
+* **User Registration State (user.csv)**: Indicates the current registration status of the user.
+* **Role State (role.csv)**: Indicates the current status of roles within the system.
+* **User Role State (user_role.csv)**: Indicates the status of the user-role association. 
+
+Download the [sample CSVs](assets/sample-csv-Incremnetal.zip) here. 
 
 **Use cases**
 

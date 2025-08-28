@@ -502,12 +502,6 @@ Authors can add HTML links in the activity module and set the completion criteri
 
 1. Select **[!UICONTROL Add]** and publish the course.
 
-## Checklist {#create-checklist}
-
-Evaluation is an important aspect of any LMS. Online assessments are one of the top ways of evaluating a learner's understanding of a topic. But often, it's necessary to evaluate a person's understanding while she's/he's on the job by observing him/her carry out the necessary tasks.
-
-Consider store employees or warehouse workers undergoing evaluation for the tasks they are supposed to carry out on a day to day basis. It could be the steps carried out to repair a coffee machine or the steps involved in packing a material. Instructors can evaluate employees for such tasks based on a checklist and evaluate them as Pass or Fail in the evaluation activity.
-
 ### Replace the modules in published courses
 
 Adobe Learning Manager provides authors with tools to create, edit, and manage courses composed of multiple content modules. When course content needs to be updated or improved, authors can replace existing modules without disrupting learner progress. 
@@ -525,6 +519,12 @@ To replace the modules:
 8. Select **[!UICONTROL Republish]**. 
 
 Learners will keep their progress in other modules but will need to complete the new module to finish the course.
+
+## Checklist {#create-checklist}
+
+Evaluation is an important aspect of any LMS. Online assessments are one of the top ways of evaluating a learner's understanding of a topic. But often, it's necessary to evaluate a person's understanding while she's/he's on the job by observing him/her carry out the necessary tasks.
+
+Consider store employees or warehouse workers undergoing evaluation for the tasks they are supposed to carry out on a day to day basis. It could be the steps carried out to repair a coffee machine or the steps involved in packing a material. Instructors can evaluate employees for such tasks based on a checklist and evaluate them as Pass or Fail in the evaluation activity.
 
 ### Create a checklist {#createachecklist}
 
