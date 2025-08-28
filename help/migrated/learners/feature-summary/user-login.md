@@ -24,7 +24,7 @@ Follow these steps to create your account using the URL from the welcome email:
 
 1. Select Log in.
 
-   ![](assets/login-page.png.png)
+   ![](assets/login-page.png)
    
    *Sign in with user name and password*
 
