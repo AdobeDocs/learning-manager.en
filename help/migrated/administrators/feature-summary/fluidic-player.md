@@ -20,3 +20,8 @@ Administrators have an option to preview the course.
 **Navigation buttons** You can click up/down arrows to move across slides in pdf, docx and pptx content. Slide arrows can be used to move to next topics for all types of content.
 
 **Close the course** Click close (x) icon at the upper-right corner of the player to exit the course.
+
+>[!NOTE]
+>
+>Adobe Learning Manager's Fluidic Player does not have a built-in option to stop videos from playing automatically. Whether a video auto-plays depends on your browser settings, not on the player itself.
+
