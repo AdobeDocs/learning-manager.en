@@ -1050,6 +1050,11 @@ Previously, role.csv and user_role.csv files could only be uploaded in full mode
  
 3. Adobe Learning Manager also supports up to 20 incremental user CSVs and their corresponding custom roles CSVs, making it suitable for large-scale operations.
 
+**Use cases**
+
+* Global companies manage regional teams by uploading multiple incremental user files for each region (EU, America, Asia), allowing administrators to update users and assign new roles for each region in a single workflow.
+* Large enterprises automate onboarding and permissions by regularly ingesting incremental user updates from HR systems. This supports seamless updates to user profiles and granular role assignments without manual intervention.
+
 ### New columns added to CSV files
 
 Three new columns have been introduced to enhance the data captured in user, role, and user-role CSV exports/imports:
@@ -1060,10 +1065,7 @@ Three new columns have been introduced to enhance the data captured in user, rol
 
 Download the [sample CSVs](assets/sample-csv-Incremnetal.zip) here. 
 
-**Use cases**
 
-* Global companies manage regional teams by uploading multiple incremental user files for each region (EU, America, Asia), allowing administrators to update users and assign new roles for each region in a single workflow.
-* Large enterprises automate onboarding and permissions by regularly ingesting incremental user updates from HR systems. This supports seamless updates to user profiles and granular role assignments without manual intervention.
 
 ## Reset recommendations in Salesforce app
 
