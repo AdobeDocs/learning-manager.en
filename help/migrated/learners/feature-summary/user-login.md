@@ -22,19 +22,24 @@ Follow these steps to create your account using the URL from the welcome email:
 
    Login screen appears.
 
-1. Click Log in.
+1. Select Log in.
 
-   ![](assets/adobeid-signin.png)
+   ![](assets/login-page.png.png)
    
    *Sign in with user name and password*
 
-1. Enter Adobe ID, password and click Sign in.  
+1. Type the Adobe ID, password and click Sign in.  
 
    If you forgot password, click Forgot password? link and provide your email-id that you used for creating Adobe ID.  
 
-<!--
+   <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
--->
+   -->
+
+1. Type your information in the Active fields to complete your profile.
+
+   ![](assets/complete-the-profile.png)
+   _Type your information on the Active Fields to complete the profile set up_
 
 1. Alternatively, you can use Enterprise ID by clicking Sign in with an Enterprise ID link.
 

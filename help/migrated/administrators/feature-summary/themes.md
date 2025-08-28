@@ -168,7 +168,7 @@ The list below displays the components that can be customized. To customize the 
    <td>
     <p>Fonts</p></td>
    <td>
-    <p>For applying the fonts, a CDN is required. Also, you must share the font family to be applied.</p>
+    <p>Administrators can contact the Adobe Learning Manager support team at <a ref=mailto:learningmanagersupport@adobe.com> learningmanagersupport@adobe.com</a> for changing fonts. For applying the fonts, a CDN is required. Also, you must share the font family to be applied.</p>
     <p><b>Note:</b> The font family must be supported on all browsers.</p></td>
   </tr>
   <tr>

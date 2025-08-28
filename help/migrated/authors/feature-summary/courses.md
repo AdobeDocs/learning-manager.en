@@ -508,6 +508,24 @@ Evaluation is an important aspect of any LMS. Online assessments are one of the 
 
 Consider store employees or warehouse workers undergoing evaluation for the tasks they are supposed to carry out on a day to day basis. It could be the steps carried out to repair a coffee machine or the steps involved in packing a material. Instructors can evaluate employees for such tasks based on a checklist and evaluate them as Pass or Fail in the evaluation activity.
 
+### Replace the modules in published courses
+
+Adobe Learning Manager provides authors with tools to create, edit, and manage courses composed of multiple content modules. When course content needs to be updated or improved, authors can replace existing modules without disrupting learner progress. 
+
+To replace the modules:
+
+1. Log in to Adobe Learning Manager as an author.
+2. Select **[!UICONTROL Courses]** on the left navigation pane. 
+3. Select any course and then select **[!UICONTROL Edit]**.
+4. Select the module you want to change.
+5. Change the title and description.
+6. Select the module using the **Content** option.
+   ![](assets/replace-the-module.png)
+7. Select **[!UICONTROL Done]**.
+8. Select **[!UICONTROL Republish]**. 
+
+Learners will keep their progress in other modules but will need to complete the new module to finish the course.
+
 ### Create a checklist {#createachecklist}
 
 Only an Author can create a checklist. A checklist is a type of Activity module. While setting up an Activity module, you, an Author, can select an Activity as **Checklist**, as shown below: 
@@ -611,7 +629,7 @@ To allow instructors to mark the success of the learner:
 
    ![The "Allow Instructor to mark success?" checkbox is highlighted, enabling authors to let instructors record learner success status for a module](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Session Details screen with the Allow Instructor to mark success option highlighted for Classroom or Virtual Classroom modules_
-   
+
 8. Select **[!UICONTROL Done]**. 
 
 
