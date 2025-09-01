@@ -316,8 +316,8 @@ Uploading a CSV file in Adobe Learning Manager enables the efficient bulk assign
 
 You can now assign multiple roles to a user via CSV import by uploading two files to Box: 
 
-* role.csv
-* user_role.csv. 
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 The user_role.csv file includes the fields Custom role and User IDs.
 
