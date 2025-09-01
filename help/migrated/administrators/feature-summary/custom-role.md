@@ -294,7 +294,7 @@ To assign multiple custom roles to a user, follow these steps:
 
 1. Log in as an administrator and select **[!UICONTROL Users]**.
 2. Select **[!UICONTROL Custom Roles]** on the left panel.
-3. Create a new custom role and add account privileges, catalogs, learning objects, or scopes. Refer the steps mentioned [here](#create-a-custom-role). 
+3. Create a new custom role and add account privileges, catalogs, learning objects, or scopes. Refer the [steps mentioned here](#create-a-custom-role). 
 4. Add users to the custom role.
   
    ![](assets/add-users-in-custom-roles.png) 
