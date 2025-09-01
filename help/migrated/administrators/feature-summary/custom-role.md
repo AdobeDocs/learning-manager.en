@@ -294,7 +294,7 @@ To assign multiple custom roles to a user, follow these steps:
 
 1. Log in as an administrator and select **[!UICONTROL Users]**.
 2. Select **[!UICONTROL Custom Roles]** on the left panel.
-3. Create a new custom role and add account privileges, catalogs, learning objects, or scopes. Refer the steps mentioned [here](#create-a-custom-role). 
+3. Create a new custom role and add account privileges, catalogs, learning objects, or scopes. Refer the [steps mentioned here](#create-a-custom-role). 
 4. Add users to the custom role.
   
    ![](assets/add-users-in-custom-roles.png) 
@@ -316,8 +316,8 @@ Uploading a CSV file in Adobe Learning Manager enables the efficient bulk assign
 
 You can now assign multiple roles to a user via CSV import by uploading two files to Box: 
 
-* role.csv
-* user_role.csv. 
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 The user_role.csv file includes the fields Custom role and User IDs.
 
