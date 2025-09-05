@@ -11,6 +11,10 @@ exl-id: 8ea31464-b4ce-49e8-b471-5630f0216aa4
 >
 >The contents of this document are not legal advice and are not meant to substitute for legal advice. Please consult your company's legal department for advice concerning GDPR.
 
+Adobe Learning Manager is committed to GDPR compliance, ensuring user data is managed securely and transparently. It provides essential GDPR features such as the ability to purge users (permanently delete all personal data) and lets administrators generate learner transcripts to share information with users on request.
+
+All user data is protected with strong encryption during transfer and storage, using standards like SHA-256. For some integrations, learners must authenticate, ensuring their consent is obtained before sharing any data. These privacy and security controls help organizations using Adobe Learning Manager stay compliant with GDPR and safeguard learner information.
+
 +++What is GDPR?
 
 GDPR is a new regulation by the European Union that comes into effect on 25 May 2018. It provides strong control for data privacy and enables end users to take charge of their own personal data.

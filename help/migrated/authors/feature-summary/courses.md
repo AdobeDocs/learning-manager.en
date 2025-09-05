@@ -732,7 +732,19 @@ The course information window displays. The course is in a read-only mode. To mo
 
 ## Retire a course {#retireacourse}
 
+Administrators can enable the retire option for Adobe Learning Manager account. This feature lets admins retire a course, making it unavailable for new enrollments while letting currently enrolled learners retain access.
+
 Retiring a course will hide it from learners, even if they are enrolled or have already completed it. If you retire a course, you cannot enroll new learners to the course. Learners who are already enrolled can take the course. 
+
+To enable the Retire option for Adobe Learning Manager account:
+
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Settings]** and then select **[!UICONTROL General]**.
+3. Select the any of the retire option from the following:
+   * Once retired, enrolled Learners will be able to view and perform actions but not yet enrolled Learners will lose access.
+   * Once retired, both enrolled and not yet enrolled Learners will lose access.
+
+Administrators can retire a course from the **[!UICONTROL Courses]** page. 
 
 To retire a course, on the course card, hover on the options, and click Retire Course.
 

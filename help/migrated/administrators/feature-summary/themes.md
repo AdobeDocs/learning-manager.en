@@ -182,6 +182,17 @@ The list below displays the components that can be customized. To customize the 
      <li><b>Recommended Size: </b>1400x908 px</li>
     </ul></td>
   </tr>
+   <tr>
+   <td>
+    <p>Favicon</p></td>
+   <td>
+    <p>Administrators can't change the favicon for the Adobe Learning Manager account. To update the favicon, contact the Support team at <a href=mailto:learningmanagersupport@adobe.com>learningmanagersupport@adobe.com</a> </p>
+    <p>You must have the image that you need to apply to the learner's background.</p>
+    <ul>
+     <li><b>Recommended Image format:</b>PNG</li>
+     <li><b>Recommended Size: </b>32x32 px</li>
+    </ul></td>
+  </tr>
  </tbody>
 </table>
 

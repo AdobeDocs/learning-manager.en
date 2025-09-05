@@ -37,7 +37,13 @@ Administrator must enable the Group Success Dashboard for the account. To enable
    ![](assets/enable-gsd.png)
    _Fields for dashboard name, user group, and learning path selection_
 5. Select **[!UICONTROL Overview Visibility]** to enable the overview section in the dashboard. This section allows you to view the progress of up to 50 learners. 
+
+   >[!NOTE]
+   >
+   >If there are more than 50 learners in the team or more than 50 learning objects, go to the **[!UICONTROL Learner Transcript]** tab instead of the **[!UICONTROL Overview]** tab.
+
 6. For the **[!UICONTROL Learner Transcript]** section, select the required columns that you want to view.
+
 
    * Learner
    * Paths and Courses

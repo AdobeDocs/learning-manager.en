@@ -28,7 +28,8 @@ To create a learning plan, you must log in as an Administrator.
 
    ![](assets/add-learning-plandialog.png)
 
-1. In the **[!UICONTROL Occurs when]** drop-down list, choose the required event. The options determine when a learner takes the course. After selecting the type of event, select the appropriate training, Courses, Learning Program or Certification.
+1. In the **[!UICONTROL Occurs when]** drop-down list, choose the required event. Administrators can add one event at a time.
+ The options determine when a learner takes the course. After selecting the type of event, select the appropriate training, Courses, Learning Program or Certification.
 
 >[!NOTE]
 >
