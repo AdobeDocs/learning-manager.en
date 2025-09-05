@@ -7,7 +7,7 @@ exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
 
 >[!IMPORTANT]
 >
->Please note that the features outlined are tentative and subject to change. For more detailed information and confirmation, kindly reach out to your designated Customer Success Manager. If you encounter any issues, please contact our Customer Support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com)
+>Please note that the features outlined are tentative and subject to change. For more detailed information and confirmation, kindly reach out to your designated Customer Success Manager. If you encounter any issues, please contact our Customer Support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
 
 ## Overview of the release
 

@@ -127,7 +127,7 @@ The Learning Path instances displays an additional tile, **[!UICONTROL Learning 
 
 In the **Courses** tile, you can see the course instances that are visible to the learners who are enrolled in this instance.
 
-The **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]** check-box is only applicable to courses. All child Learning Paths will get an option to map a Learning Program instance with Learning Path. By default, the mapping is set to Default Instance.
+The **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]** check-box is only applicable to courses. This option allows learners to switch their instances in the learning path. All child Learning Paths will get an option to map a Learning Program instance with Learning Path. By default, the mapping is set to Default Instance.
 
 ![](assets/default-instance.png)
 
