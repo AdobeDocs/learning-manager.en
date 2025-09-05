@@ -48,6 +48,18 @@ Learning Manager offers the ability to share purchased seats using the Peer acco
 
    If an administrator shares seats with a peer, the peer cannot share them with anyone else. However, the peer can separately purchase some seats and share them.
 
+## View the seats shared by peer accounts
+
+Administrators can view the number of seats shared by the peer accounts on the administrator interface. 
+
+To view the seats shared by peer account:
+
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Users]** and then select **[!UICONTROL Internal]**.
+
+![](assets/peer-account-seats.png)
+_Users section showing the number of seats shared by the peer account_
+
 ## View reports associated with peer accounts {#viewreportsassociatedwithpeeraccounts}
 
 After you establish a peer account, you can plot reports for the peer accounts as well. As an administrator, if you initiate the peer account request, you can view the reports for the peer account.
