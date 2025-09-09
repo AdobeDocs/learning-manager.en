@@ -46,17 +46,6 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Content marketplace](administrators/feature-summary/content-marketplace.md)
       * [Add Go1 playlist to a Learning Path](administrators/feature-summary/content-marketplace/add-go1-playlist.md)
    * [Reports](administrators/feature-summary/reports.md)
-   <!--* Reports {#reports}
-      <!--* [Overview](administrators/feature-summary/reports/overview.md)
-      * [User activity report](administrators/feature-summary/reports/user-activity-report.md)
-      * [Learning summary dashboards](administrators/feature-summary/reports/learning-summary-dashboards.md)
-      * [Training content report](administrators/feature-summary/reports/training-content-report.md)
-      * [Group Success Dashboard](administrators/feature-summary/reports/group-success-dashboard.md)-->
-      <!--* Custom reports {#custom-reports}
-         <!--* [Course reports](administrators/feature-summary/reports/course-reports.md)
-         * [Learner Transcripts](administrators/feature-summary/reports/learner-transcripts.md)
-         * [Job Aids report](administrators/feature-summary/reports/job-aids-report.md)
-         * [Training report](administrators/feature-summary/reports/training-report.md)-->
    * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
    * [Learning Plans](administrators/feature-summary/learning-plans.md)

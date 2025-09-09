@@ -14,7 +14,6 @@ This feature allows administrators to directly curate and add Go1 courses learni
 
 To create a learning path:
 
-
 1. Log in to Adobe Learning Manager as an administrator.
 2. Select **[!UICONTROL Learning Paths]** in the left navigation pane. 
 3. Select **[!UICONTROL Add]**. 
