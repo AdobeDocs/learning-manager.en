@@ -392,6 +392,22 @@ In the **[!UICONTROL General Settings]** section, you can choose the primary and
 }
 ```
 
+### Configure My Saved Courses widgets in AEM sites
+
+My Saved Courses widget allows learners to view their bookmarked or saved courses directly on their learning pages, providing easy access to courses they want to revisit or complete later.
+
+To configure the My Saved Courses Widget in AEM sites:
+
+1. Launch the AEM sites.
+2. Open the page in **[!UICONTROL Edit]** mode.
+3. Go to the **[!UICONTROL Components Browser]** and add **[!UICONTROL My Learning widget]** to the page.
+4. Select the component and then select **[!UICONTROL Configure]**.
+5. Select **[!UICONTROL My Saved Courses]** from the dropdown menu in the **[!UICONTROL Properties]**.
+6. Select **[!UICONTROL Done]** and then refresh the page in **[!UICONTROL Preview]** or **[!UICONTROL Publish]** mode.
+
+The widget will be displayed the saved courses to the learners.
+
+
 ### Ignore higher order LO enrollment
 
 If the **Ignore Higher Order LO Enrollment** checkbox is enabled and a user is enrolled directly into a Learning Program or Certification, the courses for that certification or Learning Program will show up for the user in the widgets.
