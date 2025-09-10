@@ -405,7 +405,7 @@ To configure the My Saved Courses Widget in AEM sites:
 5. Select **[!UICONTROL My Saved Courses]** from the dropdown menu in the **[!UICONTROL Properties]**.
 6. Select **[!UICONTROL Done]** and then refresh the page in **[!UICONTROL Preview]** or **[!UICONTROL Publish]** mode.
 
-The widget will be displayed the saved courses to the learners.
+The widget will display the saved courses to the learners.
 
 
 ### Ignore higher order LO enrollment
