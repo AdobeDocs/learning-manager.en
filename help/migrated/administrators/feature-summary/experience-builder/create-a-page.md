@@ -143,9 +143,4 @@ When an admin adds multiple languages to the custom pages, add the widget detail
 ![](assets/localize-pages.png) 
 _Administrators can add widget details for additional languages, such as French, alongside the default language_
 
-## Set up hidden pages
 
-The hide pages option allows administrators to keep the Learner UI clean by showing fewer pages. Administrators can hide pages from the menu so learners don't see them in learner UI, but learners can still reach those pages in other ways. For example, the Catalog page can be hidden from the menu but accessed through other navigation paths.
- 
-![](assets/select-hidden-pages.png)
-_Menu configuration screen showing hidden pages such as Catalog, Social Learning, Skills, and Badges_

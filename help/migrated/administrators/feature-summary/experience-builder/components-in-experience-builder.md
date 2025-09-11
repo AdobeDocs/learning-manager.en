@@ -1,6 +1,6 @@
 ---
 title: Core Components of Experience Builder in Adobe Learning Manager
-description: Learn more about the three core components of Experience Builder: Menus, Pages, and Widgets.
+description: Learn more about the three core components of Experience Builder including Menus, Pages, and Widgets.
 jcr-language: en-us
 ---
  
