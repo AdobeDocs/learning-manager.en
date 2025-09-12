@@ -6,6 +6,8 @@ jcr-langauge: en-us
 
 # Create a page in Experience Builder
 
+Administrators can create dedicated pages for different roles within the organization. For example, a page can be created specifically for Sales Engineers that highlights training on product knowledge, customer engagement skills, and compliance requirements.
+
 To create a page in Adobe Learning Manager:
 
 1. Log in to Adobe Learning Manager as an administrator. 
@@ -16,8 +18,8 @@ To create a page in Adobe Learning Manager:
    ![](assets/select-create-page.png)
    _Custom Pages screen showing the Create page option to design new custom learning experiences_
 
-5. Type the **[!UICONTROL Page name]** (for example, Photoshop training).
-6. Type the **[!UICONTROL Page description]** (for example, Learn how to use Photoshop effectively). 
+5. Type the **[!UICONTROL Page name]** (for example, Sales Engineers).
+6. Type the **[!UICONTROL Page description]** (for example, Dedicated page for Sales Engineers). 
 7. Select the page type from the following:
 
     * **[!UICONTROL Build using ALM widgets]**: Administrator can create a page using the existing Adobe Learning Manager widgets.

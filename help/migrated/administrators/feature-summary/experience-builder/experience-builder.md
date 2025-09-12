@@ -52,3 +52,13 @@ Many organizations struggle to customize their learning portals without technica
 
 * Administrators: Set up and manage native pages and widgets.
 * Learners: Access personalized, role- or product-specific learning content
+
+## Use cases
+
+### Role based training pages and menus
+
+A financial organization has several departments with different training needs, such as Sales, Customer Success, and Support. Each department is already organized into User Groups. Administrators can create dedicated learning pages for each group so that employees see content that is relevant to their roles. For example, Sales employees can access compliance training, while Support employees can access communication training. Administrators can then design menus that are shown only to the selected groups, ensuring that each audience has a tailored learning experience.
+
+### Event specific learning pages
+
+When the organization hosts an event, for example, Design Summit. Administrators can create new pages that are designed specifically for the Design team. These pages can include details such as session information, speaker lists, and pre-event training. A menu can be created for the Design team that directs them to this content. Administrators can also use the Events calendar widget in Adobe Learning Manager to display upcoming sessions, allowing employees to register and track their attendance.

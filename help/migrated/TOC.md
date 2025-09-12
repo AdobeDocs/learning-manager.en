@@ -70,6 +70,7 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Pages](administrators/feature-summary/experience-builder/create-a-page.md)
       * [Widgets](administrators/feature-summary/experience-builder/add-a-widget.md)
       * [Menu](administrators/feature-summary/experience-builder/create-a-menu.md)
+      * [Experience Builder recommendations](administrators/feature-summary/experience-builder/experience-builder-recommendations.md)
    * [Learner transcripts](administrators/feature-summary/learner-transcripts.md)
    * [Waitlist & attendance management](administrators/feature-summary/waitlist-attendance-management.md)
    * [Fluidic player](administrators/feature-summary/fluidic-player.md)
