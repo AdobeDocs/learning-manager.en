@@ -81,6 +81,8 @@ While you are previewing the changes Live, the Live theme preview pop-up still a
 
 ## Multiple branding {#multiple-branding}
 
+Administrators can apply multiple branding styles within the organization. The branding can be customized based on Active Fields, allowing different groups of users to experience branding that is tailored to their profile or role.
+
 Here's how to implement multiple branding:
 
 1. On the Admin app, select **Branding** on the left pane.
