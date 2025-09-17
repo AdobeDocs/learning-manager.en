@@ -69,12 +69,6 @@ The User Report now includes additional fields to improve user tracking and orga
 * Improved organizational mapping and better understanding of reporting relationships.
 * Maintains organizational boundaries and prevents accidental cross-communication.
 
-**Important considerations**
-
-* If a custom administrator's scope changes, affected announcements display a warning icon and require individual scope resets.
-* Each announcement must be updated individually when scope changes occur.
-* The Notification Announcement report shows only learners within the custom administrator's assigned scope.
-
 ### User Report with the new column
 
 See this [article](/help/migrated/administrators/feature-summary/reports.md#user-activity-dashboards) to learn how to download the User Report. 
