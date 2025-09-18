@@ -7,7 +7,7 @@ exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
 
 >[!IMPORTANT]
 >
->Please note that the features outlined are tentative and subject to change. For more detailed information and confirmation, kindly reach out to your designated Customer Success Manager. If you encounter any issues, please contact our Customer Support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com)
+>Please note that the features outlined are tentative and subject to change. For more detailed information and confirmation, kindly reach out to your designated Customer Success Manager. If you encounter any issues, please contact our Customer Support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
 
 ## Overview of the release
 
@@ -68,12 +68,6 @@ The User Report now includes additional fields to improve user tracking and orga
 * Supports downstream user management workflows through integration capabilities.
 * Improved organizational mapping and better understanding of reporting relationships.
 * Maintains organizational boundaries and prevents accidental cross-communication.
-
-**Important considerations**
-
-* If a custom administrator's scope changes, affected announcements display a warning icon and require individual scope resets.
-* Each announcement must be updated individually when scope changes occur.
-* The Notification Announcement report shows only learners within the custom administrator's assigned scope.
 
 ### User Report with the new column
 

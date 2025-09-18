@@ -81,6 +81,10 @@ To configure active fields settings:
 
 3. Select **Save** to apply your changes.
 
+>[!NOTE]
+>
+>Assigning a new role will not affect custom user groups. However, it will impact auto-generated user groups such as All Admins, All Authors, and similar role-based groups.
+
 ## Multi-valued active fields
 
 Multi-valued active fields allow you to assign multiple values to a single user attribute, such as locations, job titles, or project teams. This helps capture more detailed and flexible user information.
@@ -112,8 +116,10 @@ _Checkbox to enable value restriction during CSV upload_
 
 ## Manage missing active fields in user CSV import
 
-In some cases, administrators prefer learners to manually fill certain active fields when they log in to Adobe Learning Manager. This is supported for users imported via a CSV file. Refer to this [article](/help/migrated/administrators/feature-summary/add-users-user-groups.md) for how to add users in bulk.
+In some cases, administrators prefer learners to manually fill certain active fields when they log in to Adobe Learning Manager. This is supported for users imported via a CSV file. Refer to this [article](/help/migrated/administrators/feature-summary/add-users-user-groups.md) for how to add users in bulk. Users are automatically added to active fields or role-based groups based on Box FTP field values. They can't be added to Custom Groups.
 
 If a CSV file does not include all active fields, the administrator must manually enter the missing values after the import.
 
 By default, every active field must be mapped to a corresponding field in the source CSV. However, if you do not want to map a specific active field to any column in the CSV, you can select the value **DontImportFromSource** from the drop-down list during both the Box and FTP import processes. This option is available when importing users via FTP or Box connectors. Refer to this [article](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) for more information about the connectors.
+
+
