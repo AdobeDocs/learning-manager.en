@@ -1057,9 +1057,11 @@ Three new columns have been introduced to enhance the data captured in user, rol
 * **Role State (role.csv)**: Indicates the current status of roles within the system.
 * **User Role State (user_role.csv)**: Indicates the status of the user-role association. 
 
+>[!NOTE]
+>
+>The above CSV changes apply only to the accounts that use incremental users.
+
 Download the [sample CSVs](assets/sample-csv-Incremnetal.zip) here. 
-
-
 
 ## Reset recommendations in Salesforce app
 
