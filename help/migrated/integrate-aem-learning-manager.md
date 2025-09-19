@@ -354,7 +354,20 @@ In the **[!UICONTROL Properties]** section in the page properties, select **[!UI
 The Catalog options contains the following options:
 
 * **[!UICONTROL Catalog ids]:** Comma-separated catalog ids for which the training need to be displayed.
-* **[!UICONTROL Sort]:** Sort order for the training. The options are- name, date, dateCreated, dateEnrolled, and so on.
+* **[!UICONTROL Sort]:** Sort order for the training. The following are the sort options:
+   * name: Sorts learning objects alphabetically from A to Z.
+   * -name: Sorts learning objects alphabetically from Z to A.
+   * date: Sorts by date in ascending order.
+   * -date: Sorts by date in descending order (latest first).
+   * dateCreated: Sorts by the creation date of the learning object (oldest first).
+   * -dateCreated: Sorts by creation date (newest first).
+   * dateEnrolled: Sorts by the learner's enrollment date (earliest first).
+   * -dateEnrolled: Sorts by enrollment date (most recent first).
+   * rating: Sorts by learner ratings (lowest to highest).
+   * -rating: Sorts by ratings (highest to lowest).
+   * dueDate: Sorts by the due date of the course (earliest deadline first).
+   * effectiveness: Sorts by effectiveness scores based on learner feedback.
+   * progress: Sorts by learner progress (least progress to most).
 * **[!UICONTROL Learner State]:** Returns all training that uses the following as filters- enrolled, started, completed, and not enrolled. The search results will not be displayed if the sort option is dateEnrolled, dueDate, or dateEnrolled.
 * **[!UICONTROL Skill name]:** The skill used to filter exact training.
 * **[!UICONTROL Tag name]:** The tag used to filter exact results.
