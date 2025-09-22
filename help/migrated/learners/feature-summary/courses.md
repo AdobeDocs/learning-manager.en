@@ -285,6 +285,13 @@ To change course instance, follow these steps:
 
    The newly selected instance is enrolled. If a learner is enrolled to a course instance which is a part of another LO, and he updates the course instance which is a part of the flexible Learning Program, he will automatically be unenrolled from the other Learning Objects after a warning.
 
+
+## Language-based Progress management
+
+Learner progress can be tracked separately for each locale, ensuring that switching between languages in the player does not affect previously achieved progress. Progress for each module is maintained independently at both the user and module levels, preventing progress from being overwritten when learners explore content in different locales. 
+
+For example, if a learner reaches 75% progress in English and then switches to Spanish, returning to English resumes from 75% instead of resetting to 0%. Each locale stores its own progress state, allowing learners to seamlessly navigate and complete content in multiple languages without losing their individual progress.
+
 ## Completing a course {#completingacourse}
 
 As a learner, you can complete the required number of modules in a course for course completion. The course completion criteria depends on how many modules have been set as mandatory by the author. When you enroll into a course with a minimum completion criteria, you can view the completion criteria on the right pane of the Course page.
