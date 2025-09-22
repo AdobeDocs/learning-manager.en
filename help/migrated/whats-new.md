@@ -96,4 +96,4 @@ Three new columns have been introduced to enhance the data captured in user, rol
 >
 >The above CSV changes apply only to the accounts that use incremental users.
 
-Download the [sample CSVs](assets/sample-csv-Incremnetal.zip) here. 
+Download the [sample CSVs](assets/sample-csv-Incremnetal.zip) here.
