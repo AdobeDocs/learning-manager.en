@@ -261,6 +261,32 @@ To resume an external user:
 ![](assets/resume-an-external-user.png)
 _Option to resume a previously paused external registration profile_
 
+### Change profile
+
+Administrators can reassign learners from one external profile to a different profile.
+
+To change the external profile:
+
+1. Log in to Adobe Learning Manager as an administrators.
+2. Select **[!UICONTROL Users]** and then select **[!UICONTROL External]**.
+3. Select **[!UICONTROL Seats Used]** in the list of external profiles.
+   
+   ![](assets/select-learners-external-profile.png)
+   _External profile section showing the number of seats used_
+
+4. Select the learner and then select **[!UICONTROL Actions]**. 
+   
+   ![](assets/select-change-profile-external-learner.png)
+   _External profile page highlighting Change Profile option to move the learners to different profile_
+
+5. Select **[!UICONTROL Change Profile]**. 
+6. Search and select the different external profile.
+   
+   ![](assets/search-and-select-profile.png)
+   _Change Profile prompt displays the options to search the external profile_
+
+The selected learner will move to the selected external profile. 
+
 ### Monitor external seat usage
 
 Administrators can track the number of users added to each external profile in Adobe Learning.

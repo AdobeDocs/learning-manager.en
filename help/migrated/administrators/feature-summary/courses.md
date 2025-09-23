@@ -782,7 +782,7 @@ Learners can simply use the Adobe Learning Manager device app to scan the respec
 
    ![](assets/qr-code-download-01.png)
 
-   *Share QR code with lkearhers*
+   *Share QR code with learners*
 
 ## Course life cycle {#courselifecycle}
 
