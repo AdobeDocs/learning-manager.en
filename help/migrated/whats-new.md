@@ -217,3 +217,640 @@ Adobe Learning Manager now features a  **[!UICONTROL Reset Interests]** button w
 
 View this [article](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app) for more information.
 
+## Experience Builder
+
+Experience Builder is a no-code/low-code tool in Adobe Learning Manager that helps you create customized learning portals. It allows you to design branded, user-friendly learning portals without needing technical skills or extensive coding knowledge.
+With Experience Builder, you can create new pages, menus, and widgets to deliver personalized learning experiences for your audience quickly and easily. With Experience Builder, you can quickly create new pages, menus, and widgets to deliver personalized learning experiences for your audience.
+
+**Problem statement**
+
+Before Experience Builder, organizations faced several challenges:
+
+1. **Limited customization**: Portals had fixed designs with few options to reflect your brand. Administrators could only make basic changes, such as modifying headers, footers, or colors, which limited the ability to create unique experiences.
+2. **Cost**: Building custom portals required expensive developers and long timelines, often taking 6 to 9 months to complete. This approach increased the total cost of ownership and delayed deployment.
+3. **Generic experiences**: Everyone saw the same content, even if it wasn't relevant to their role or needs. This lack of personalization reduced learner engagement and satisfaction.
+4. **Technical barriers**: Non-technical administrators struggled to create or update portals because they needed coding knowledge or external support.
+
+Experience Builder solves these problems by providing a simple, no-code/low-code solution for creating personalized, branded portals.
+
+It allows administrators to design portals that meet their organization's needs without relying on technical expertise or external developers.
+
+**Use cases**
+
+**Branded portals**: Create a portal that matches your company's website with logos, colors, and layouts. For example, a healthcare company can design a portal that reflects its corporate branding while delivering learning content.
+
+**Role-based learning**: Build pages tailored to specific roles. Sales teams can view product training, while engineers access technical courses.
+
+**Product training**: Set up dedicated pages for different products, such as Photoshop or Illustrator, with widgets displaying courses, certifications, and related resources.
+
+View this article for more information. 
+
+## Calendar widget enhancement
+
+## Social tagging
+
+Social learning boards now support user tagging functionality, enabling more targeted discussions and improved collaboration within learning communities. Learners can be tagged in social learning posts and comments through the learner app, APIs, and Adobe Learning Manager reference site.
+
+**What's new**
+
+* **@username tagging**: Users can tag other board members using the "@username" format.
+* **Scope-restricted tagging**: Only users with access to the specific board can be tagged, ensuring privacy and relevance.
+* **Multi-channel notifications**: Tagged users receive both in-app and email notifications with direct links to relevant posts or comments.
+
+**Key features**
+
+* Users outside the board's scope cannot be tagged, preventing unwanted notifications.
+* If a tagged user is deleted from the system, their mention appears as "anonymous".
+* Tagging user groups or "@all" is not permitted to prevent notification spam.
+
+**Use cases**
+
+* Healthcare professionals seeking input from specific colleagues on medical cases.
+* Subject matter experts being consulted on specialized topics.
+* Team discussions requiring input from specific stakeholders.
+* Knowledge sharing sessions with targeted expert involvement.
+
+View this [article](/help/migrated/learners/feature-summary/social-learning-web-user.md#tag-users-in-social-board-posts) for more information.
+
+## Scoped announcement permissions for custom administrators
+
+**Overview**
+
+Custom administrators can now create announcements, but only for their assigned user groups or catalogs. This prevents unintended communication across organizational boundaries.
+
+**What's new**
+
+* Custom administrators can only create announcements for users within their assigned scope.
+* Announcements can be scoped to specific user groups or catalogs.
+* Full administrators maintain visibility and control over all announcements, including those created by scoped custom administrators.
+
+**Key benefits**
+
+* Targeted communication ensuring announcements reach only relevant audiences.
+* Reduced information overload by preventing irrelevant notifications from reaching unintended users.
+* Maintains organizational boundaries and prevents accidental cross-communication.
+
+**Important considerations**
+
+* If a custom administrator's scope changes, affected announcements display a warning icon and require individual scope resets.
+* Each announcement must be updated individually when scope changes occur.
+* The Notification Announcement report shows only learners within the custom administrator's assigned scope.
+
+**Use cases**
+
+* Franchise organizations where regional managers need to communicate only with their franchisees.
+* Large organizations with regional or departmental administrators targeting announcements to their teams.
+
+View this [article](/help/migrated/administrators/feature-summary/announcements.md#create-announcement-for-the-assigned-scope) for more information.
+
+## Calendar widget shows past and upcoming sessions
+
+Learners can now see both past and upcoming sessions in the calendar widget. They can move through the calendar to any date and check the session details. This means they can review sessions that have already happened, helping them track what they missed or attended. They can also view all upcoming sessions for the next 12 months, including the current month, making it easier to plan ahead and manage their schedules.
+
+View this [article](/help/migrated/learners/feature-summary/learner-home-page.md#calendar) for more information. 
+
+## Custom role selection during course publishing from Adobe Captivate
+
+When publishing content from Adobe Captivate to Adobe Learning Manager, if a user has multiple custom roles, they will be prompted to select the specific custom role under which the course should be published. This ensures that the correct role ownership and permissions are applied to the published course, preventing confusion and maintaining proper access control.
+
+View this [article](https://helpx.adobe.com/in/captivate/help/publish-projects-adobe-captivate.html#publish-to-alm) for more information.
+
+## API changes
+
+### Migration API enhancements
+
+Adobe Learning Manager now supports the migration of various data objects into an account via the migration process. This process can be initiated via both APIs and the User Interface. When a migration fails, errors are available for download via the interface. These errors are useful in debugging migration errors and managing the migration runs. 
+
+With this release, the error logs will also be available to download via the APIs for efficient, programmatic error tracking and debugging.
+
+**API changes**
+
+There is a new migration API, `runStatus`, which allows integration administrators to check the status of migration runs triggered via the API, something not possible in previous versions of Adobe Learning Manager. 
+
+Additionally, `runStatus` API now provides a direct link to download error logs (CSV) for completed runs. Note that the link is valid for seven days only, and the logs are retained for one month.
+
+The `startRun` API's response has been updated to include the migration project ID, sprint ID, and sprint run ID, which are required to query the new status endpoint. 
+
+#### runStatus API
+
+**Description**
+
+Retrieves the status of an existing migration run.
+
+**Endpoint**
+
+```
+GET /bulkimport/runStatus
+```
+
+**Parameters**
+
+* **migrationProjectId**: (Required). A unique identifier for a migration project. A migration project is used to transfer data and content from an existing Learning Management System (LMS) to Adobe Learning Manager. Each migration project can consist of multiple sprints, which are smaller units of migration tasks.
+
+* **sprintId**: (Required). A unique identifier for a sprint within a migration project. A sprint is a subset of migration tasks that includes specific learning items (e.g., courses, modules, learner records) to be migrated from an existing LMS to Adobe Learning Manager. Each sprint can be executed independently, allowing for phased migration.
+
+* **sprintRunId**: (Required). A unique identifier used to track the execution of a specific sprint within a migration project. It's associated with the actual migration process for the items defined in a sprint. The sprintRunId helps in monitoring, troubleshooting, and managing the migration job.
+
+**Response**
+
+```
+{
+  "sprintId": 2510080,
+  "sprintRunId": 2740845,
+  "migrationProjectId": 2509173,
+  "startTime": 1746524711052,
+  "endTime": 1746524711052,
+  [
+    {
+      "id": 2609923,
+      "lastHeartbeatTime": 1746524711052,
+      "objectName": "content",
+      "jobState": "COMPLETED",
+      "errorCsvLink": "",
+      "errorLogLink": "migration/5830/2509173/2510080/2740845/content_err.csv",
+      "sequenceNumber": 1
+    },
+    {
+      "id": 2609922,
+      "lastHeartbeatTime": 1746524713577,
+      "objectName": "course",
+      "jobState": "WAITING_IN_QUEUE",
+      "errorCsvLink": "",
+      "errorLogLink": null,
+      "sequenceNumber": 2
+    }
+  ]
+}
+```
+
+#### startRun API
+
+The `startRun` API response was updated to include three additional fields- migrationProjectId, sprintId, and sprintRunId. These fields allow users to track and query the status of specific migration runs using the new runStatus API.
+
+```
+curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/primeapi/v2/bulkimport/runStatus?migrationProjectId=001&sprintId=10001&sprintRunId=7'
+```
+
+Produces the following response. The response contains:
+
+* `migrationId`
+* `sprintId`
+* `sprintRunId`
+
+**Response**
+
+```
+{
+  "status": "OK",
+  "title": "BULKIMPORT_RUN_INITIATED_SUCCESSFULLY",
+  "source": {
+    "info": "Success",
+    "migrationInfo": {
+      "migrationProjectId": "001",
+      "sprintId": "10001",
+      "sprintRunId": "7"
+    }
+  }
+}
+```
+
+### Social API changes (user tag, comments, and replies)
+
+Adobe Learning Manager now supports @user tagging functionality in Social Learning boards, enabling learners to mention and notify peers within posts, comments, and replies. This feature enhances collaboration and content discovery across the platform.
+
+This release introduces new API capabilities to support user mentions, including enhanced POST and GET endpoints, as well as a new search functionality for tagged users.
+
+**API changes overview**
+
+* Updated POST APIs for creating posts/comments/replies with user mentions
+* Updated GET APIs with user mention data in responses
+
+**Format of user mentions**
+
+A user is mentioned using the format: @(user:userId)
+
+#### Create post with mentions
+
+**Endpoint**
+
+```
+POST /primeapi/v2/posts
+```
+
+**Description**
+
+Create a new social learning post with user mentions.
+
+**Request body**
+
+```
+{
+  "data": {
+    "type": "post",
+    "attributes": {
+      "boardId": 13282,
+      "accountId": 11152,
+      "text": "<p>This is a new post mentioning @[user:11257229]</p>",
+      "createdByUserId": 11257228,
+      "postType": "discussion"
+    },
+    "id": null
+  }
+}
+```
+
+**Response**
+
+Standard post creation response with mention data included in the _userMentions_ relationship.
+
+#### Create comment with mentions
+
+**Endpoint**
+
+```
+POST /primeapi/v2/comments
+```
+
+**Description** 
+
+Add a comment to a post with user mentions.
+
+**Request body**
+
+```
+{
+  "data": {
+    "type": "comment",
+    "attributes": {
+      "postId": 20746,
+      "accountId": 11152,
+      "text": "<p>Test Comment @[user:11257229]</p>",
+      "createdByUserId": 11257228,
+      "commentLevel": 0
+    },
+    "id": null
+  }
+}
+```
+
+#### Create reply with mentions
+
+**Endpoint**
+
+```
+POST /primeapi/v2/replies
+```
+
+**Description**
+
+Reply to a comment with user mentions.
+
+**Request body**
+
+```
+{
+  "data": {
+    "type": "reply",
+    "attributes": {
+      "postId": 20746,
+      "accountId": 11152,
+      "text": "<p>Thanks for the update @[user:11257229]</p>",
+      "createdByUserId": 11257228,
+      "commentLevel": 1,
+      "parentCommentId": 55621
+    },
+    "id": null
+  }
+}
+```
+
+#### Retrieve posts with mentions
+
+**Endpoint**
+
+```
+GET /primeapi/v2/posts/{id}
+```
+
+**Description**
+
+Retrieve post details, including mentioned users.
+
+**Response**
+
+```
+{
+  "links": {
+    "self": "https://learningmanager.adobe.com/primeapi/v2/posts/7522"
+  },
+  "data": {
+    "id": "7522",
+    "type": "post",
+    "attributes": {
+      "commentCount": 3,
+      "dateCreated": "2025-06-10T11:33:29.000Z",
+      "dateUpdated": "2025-06-25T14:52:04.000Z",
+      "downVote": 0,
+      "postingType": "DEFAULT",
+      "richText": "<p>my updated fourth post @[user:14707776] second mention my first post</p>",
+      "state": "ACTIVE",
+      "text": "my updated fourth post @[user:14707776] second mention my first post",
+      "upVote": 0,
+      "viewsCount": 0
+    },
+    "relationships": {
+      "createdBy": {
+        "data": {
+          "id": "14707776",
+          "type": "user"
+        }
+      },
+      "parent": {
+        "data": {
+          "id": "3971",
+          "type": "board"
+        }
+      },
+      "userMentions": {
+        "data": [
+          {
+            "id": "14707776",
+            "type": "user"
+          }
+        ]
+      }
+    }
+  },
+  "included": [
+    {
+      "id": "14707776",
+      "type": "user",
+      "attributes": {
+        "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg",
+        "binUserId": "45664b87-75a3-43ec-b0b7-5064958eac6f",
+        "email": "user@example.com",
+        "enrollOnClick": false,
+        "fields": {
+          "Location": "BLR"
+        },
+        "gamificationEnabled": true,
+        "lastLoginDate": "2025-06-27T11:21:17.000Z",
+        "name": "John Doe",
+        "pointsEarned": 1690,
+        "pointsRedeemed": 0,
+        "preferredResolution": "AUTO",
+        "profile": "admin",
+        "roles": [
+          "Learner",
+          "Admin",
+          "Author",
+          "Instructor",
+          "Integration Admin",
+          "Manager"
+        ],
+        "state": "ACTIVE",
+        "userType": "Internal"
+      },
+      "relationships": {
+        "account": {
+          "data": {
+            "id": "9238",
+            "type": "account"
+          }
+        }
+      }
+    }
+  ]
+}
+```
+
+### Social API changes (user search)
+
+**Endpoint**
+
+```
+GET /primeapi/v2/users/search?q={searchTerm}&context=tagging
+```
+
+**Description**
+
+Search for users available for tagging based on social scope settings.
+
+**Request parameters**
+
+
+* q (required): Search term (minimum 3 characters).
+* context: Set to "tagging" to get users eligible for mentions.
+* boardId (optional): Board ID to filter users based on access permissions.
+
+**Response**
+
+```
+{
+  "data": [
+    {
+      "id": "11257229",
+      "type": "user",
+      "attributes": {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg",
+        "userType": "Internal",
+        "state": "ACTIVE"
+      }
+    }
+  ]
+}
+```
+
+### Learner API enhancements for quiz performance tracking
+
+The `GET /loResourceGrades` API has been enhanced to provide detailed quiz performance data, enabling more sophisticated analytics and automated decision-making.
+
+**What's new**
+
+The API response now includes two additional fields:
+
+* **[!UICONTROL highestScore]**: The best score achieved by a learner across all quiz attempts
+* **[!UICONTROL maxScore]**: The total possible score for the quiz
+
+**API response example**
+
+```
+{
+    "links": {
+        "self": "https://learningmanagerstage1.adobe.com/primeapi/v2/loResourceGrades/course:15067_30122_41715_1_3400468"
+    },
+    "data": {
+        "id": "course:15067_30122_41715_1_3400468",
+        "type": "learningObjectResourceGrade",
+        "attributes": {
+            "completed": false,
+            "duration": 0,
+            "hasPassed": false,
+            "highestScore": 0,
+            "maxScore": 0,. 
+            "progressPercent": 0,
+            "score": 0
+        },
+        "relationships": {
+            "loResource": {
+                "data": {
+                    "id": "course:15067_30122_41715_1",
+                    "type": "learningObjectResource"
+                }
+            }
+        }
+    }
+}
+```
+
+In response, **course:15067_30122_41715_1_3400468** is the ID of the Learning Object resource grade for which the information is being requested. The `learningObjectResourceGrad`e id can be obtained from the `GET /enrollments/{id}` API.  
+
+### API responses supports case sensitivity for author names
+
+The API response now gives the exact case of legacy author names as entered during course creation or update. This ensures that names appear consistently across the learner UI and public APIs.
+
+**What's new**
+
+* When a new author name is added, the case is stored and returned exactly as entered.
+* If an existing author name is removed and re-added with a different case, the updated case will be honored and reflected across all courses using that author name.
+* No automatic migration will be done for previously stored names; only newly added or updated names will follow this behavior.
+
+## Calendar API enhancement
+
+The calendar now loads sessions for the month selected by the user. To fetch both past and upcoming sessions through the API, a new `year` parameter has been added to the learner endpoint `GET /users/{id}/calendar`. The `month` and `year` parameters must be provided together to retrieve session details.
+
+**Sample curl**
+
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth a4ae04eb9f06f4bf88abcde17' 'https://abc.adobe.com/primeapi/v2/users/12345678/calendar?month=7&year=2025&currentMonthOnly=false&filter.allSessions=false'
+```
+
+## Report changes
+
+### Instructor-marked completions in Learner Transcripts
+
+**Overview**
+
+Incremental Learner Transcripts now capture instructor-marked completions, even if attendance is recorded after the session date.
+This enhancement addresses a critical gap in incremental Learner Transcripts where instructor-marked completions were previously missed if attendance was recorded after the original session date.
+
+Incremental Learner Transcripts are scheduled reports that capture only the changes (such as completions or progress updates) that occur within a specified period, rather than providing a full historical data dump. They are commonly used for automation, dashboards, and integrations, allowing users to efficiently track recent learning activities without processing the entire transcript history each time.
+
+**What's new**
+
+* **Mark Completed Date (UTC TimeZone) column**: A new timestamp column that captures the exact date and time when an instructor marks a session or module as complete.
+* **Enhanced completion source tracking**: Tracks the specific instructor and module (for example, "Classroom") where completions were recorded.
+
+These changes ensure that completions marked after the session date are accurately reflected in incremental Learner Transcripts.
+
+**Key benefits**
+
+* Captures all completions in incremental reports, regardless of when attendance is marked.
+* Provides a clear audit trail for compliance and reporting.
+* Supports automation and dashboards for regulatory requirements.
+
+**Use cases**
+
+* Organizations with classroom sessions where instructors may mark attendance days after the actual session. 
+* Automated systems or dashboards relying on incremental Learner Transcripts for compliance or reporting. 
+
+The downloaded Learner Transcript report contains the new column: Mark Completed Date (UTC TimeZone).
+
+![Learner Transcript reports showing marked completed dates (highlighted in yellow) for course completion tracking in Adobe Learning](/help/migrated/assets/mark-completion-column.png)
+_Learner Transcript report displays a new column in yellow highlighting individual completion dates for each user_
+
+View this [article](/help/migrated/administrators/feature-summary/learner-transcripts.md) more information.
+
+### Enhanced User Report with extended data fields
+
+**Overview**
+
+The User Report now includes additional fields to improve user tracking and organizational mapping.
+
+**What's new**
+
+* Internal User ID column: Provides unique internal identifiers for smooth user tracking across different systems and API endpoints.
+* Manager Email column: Includes direct manager contact information for organizational hierarchy tracking.
+
+**Key benefits**
+
+* Simplified user identification and eliminates issues when mapping users across multiple systems.
+* Supports downstream user management workflows through integration capabilities.
+* Improved organizational mapping and better understanding of reporting relationships.
+* Maintains organizational boundaries and prevents accidental cross-communication. 
+
+The downloaded User Report file contains the new columns: Internal User ID and Manager Email.
+
+![User Report showing the internal user ID and manager email columns highlighted in yellow](/help/migrated/assets/user-report-columns.png) 
+_User Reports highlighting internal user IDs and manager email addresses to streamline user management_
+
+View this [article](/help/migrated/administrators/feature-summary/reports.md#user-activity-dashboards) for more information.
+
+### FTP User Report with Internal User ID support
+
+**Overview**
+
+The FTP-based User Report now includes Internal User ID support, providing a unified approach to data export and integration for headless implementations.
+
+**What's new**
+
+* User Reports are now available through [Custom FTP](/help/migrated/integration-admin/feature-summary/connectors.md#custom-ftp) alongside existing reports (Gamification Transcripts, Learner Transcripts, Trainings Report).
+* The Internal User ID column is now consistent across all export methods (FTP, Jobs API, and UI).
+
+**Key benefits**
+
+* Simplified data management with a single source for all necessary reports.
+* Better data consistency by ensuring uniform user identification across reporting periods.
+* Automated workflow support by enabling bulk operations and analytics workflows with consistent identifiers.
+The User Report downloaded from FTP folder contains the new column, Internal User ID.
+
+### Include suspended users in Learner Transcripts
+
+**Overview**
+
+Organizations can now include suspended users (those with disabled external profiles) in Learner Transcripts, ensuring comprehensive historical learning data retention.
+
+**What's new**
+
+* Configurable suspended user visibility with an account-level flag to include suspended users in the Learner Transcripts.
+* Historical data retention even after deactivation of suspended external profiles.
+
+**Implementation requirements**
+
+* Contact your Customer Success Manager (CSM) to enable the account-level flag.
+
+>[!NOTE]
+>
+>This flag is disabled by default for existing accounts and must be explicitly requested for new accounts.
+
+### Job Aids report with direct access links
+
+**Overview**
+
+The Job Aids report has been enhanced to include direct download links to job aids, streamlining content management and audit processes for administrators and authors.
+
+**What's new**
+
+* Job Aid Link column: Direct access to job aid files and external URLs from within the report.
+* Role-based access control: Link accessibility depends on user roles and catalog permissions.
+* Deleted job aids remain accessible if still linked to active courses.
+
+**Key benefits**
+
+* Direct file downloads and URL access from within the report.
+* Eliminates manual effort in locating and downloading job aids for compliance or accessibility audits. 
+
+**Use cases**
+
+* Authors or administrators conduct regular accessibility audits on job aids, as required by large organizations.
+* Any scenario where quick, role-based access to job aid files is needed for review or compliance.
+
+The Job Aids Report can be downloaded from the Reports section and now includes direct download links for each job aid.
+
+![](/help/migrated/assets/job-aid-report.png) 
+_Job Aids Report displays direct download links, making it easy to access and download job aids in Adobe Learning Manager_
+
+View this [article](/help/migrated/administrators/feature-summary/reports.md#job-aids-report) for more information.
+
