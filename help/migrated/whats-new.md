@@ -10,6 +10,10 @@ title: What's new in Adobe Learning Manager October 2025 release
 
 Currently, learner progress is tracked only for the selected locale language, causing significant progress loss when switching languages/locales in the player. This limitation creates poor user experience where learners lose their learning progress when exploring content in different languages.
 
+>[!NOTE]
+>
+>The Video content type does not support language-based progress.
+
 **Current issues**
 
 * **Progress override**: The progress for each module in the player is tracked at both the user and module levels. This leads to a situation where a user's progress is overridden when they switch back to a previously used locale for the same module.
@@ -332,6 +336,34 @@ Learners can easily access their bookmarked courses through the Saved by Me stri
 Within the catalog, learners can apply additional filters to narrow down their search. When a filter is applied, only the courses that meet the selected criteria are shown. Previously bookmarked courses do not appear automatically unless they match the applied filter.
 
 View this [article](/help/migrated/integrate-aem-learning-manager.md#configure-my-saved-courses-widgets-in-aem-sites) for more information.
+
+## Support to display original author names in shared courses
+
+Previously, when a course was shared with a peer account, the author appeared as External Author in the peer account. Now, author names display the original name, regardless of whether they are internal users of the main account or legacy authors (i.e., any name entered as a string in the author field during course creation). Selecting an author name shows the number of courses that author has shared with the peer account; however, these authors are not real users within the peer account.
+
+If a user is deleted in the main account, their data is removed there, but the author information remains in any peer accounts where the content has been shared.
+
+In the Learning Objects API, author information is now returned differently for shared courses and main account courses:
+
+* Shared courses (Peer Account): Author information is returned under the `authorDetails` attribute.
+* Main account Courses: Author information continues to be returned under the `authors` attribute.
+
+>[!NOTE]
+>
+>This is a flag-based feature, contact our Customer Support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com) to enable this option. 
+
+## Search visibility for lower order learning objects
+
+Previously, search results did not consistently display individual courses when they were part of higher-order learning objects such as Learning Paths or Certifications. If a learner was enrolled only in a Learning Path or Certification, the search returned only the higher-order structure and not the individual course. 
+
+With this enhancement, learners can now see individual courses in search results, even when those courses are part of Learning Paths or Certifications. A new admin setting, **[!UICONTROL Show all enrolled courses in search results]**, has been introduced. When enabled, this setting ensures that searching for a specific course always displays the course itself along with any related Learning Paths or Certifications.
+
+In the `GET /learningObjects` API, a new parameter `filter.ignoreHigherOrderLOEnrollment` has been introduced to refine search results.
+
+Set `filter.ignoreHigherOrderLOEnrollment=true` to list courses that are part of a higher-order Learning Object (such as a Learning Path or Certification) where the learner is already enrolled.
+
+By default, the value is false, which means courses that are only part of a higher-order Learning Object, and where the learner is not directly enrolled, will not be listed.
+
 
 ## API changes
 
@@ -744,6 +776,10 @@ The calendar now loads sessions for the month selected by the user. To fetch bot
 ```
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth a4ae04eb9f06f4bf88abcde17' 'https://abc.adobe.com/primeapi/v2/users/12345678/calendar?month=7&year=2025&currentMonthOnly=false&filter.allSessions=false'
 ```
+
+### Support for mark completion through Admin API
+
+Previously, the public API did not support instance-based completion marking in multi-enrollment scenarios. With this enhancement, you can now include course instance ID in the request body of `POST /users/{userId}/userModuleGrade` and administrator can mark completion for a specific instance.
 
 ## Webhooks changes
 
