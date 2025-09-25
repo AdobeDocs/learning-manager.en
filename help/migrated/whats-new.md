@@ -315,6 +315,24 @@ When publishing content from Adobe Captivate to Adobe Learning Manager, if a use
 
 View this [article](https://helpx.adobe.com/in/captivate/help/publish-projects-adobe-captivate.html#publish-to-alm) for more information.
 
+## Configurable user ID preference for SCORM reporting
+
+Some customers need the learner's UUID instead of the user_id for SCORM content completion to improve tracking accuracy and avoid double licensing across different learning programs. To support this, a new account-level setting called reporting_userid_preference has been added to the ACAP Admin. This setting allows the UUID to be sent in place of the user_id when learners complete SCORM content.
+
+>[!NOTE]
+>
+> Contact our Customer Support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com) to configure this setting.
+
+The new attribute `reportingUserIdPreference` has been introduced to `get /account` track the user ID preferences.
+
+## Enhancements to the Saved by Me Widget
+
+Learners can easily access their bookmarked courses through the Saved by Me strip on the learner homepage. Clicking on this strip directs learners to the catalog page, where all courses they have saved are displayed along with the total count of bookmarked courses.
+
+Within the catalog, learners can apply additional filters to narrow down their search. When a filter is applied, only the courses that meet the selected criteria are shown. Previously bookmarked courses do not appear automatically unless they match the applied filter.
+
+View this [article](/help/migrated/integrate-aem-learning-manager.md#configure-my-saved-courses-widgets-in-aem-sites) for more information.
+
 ## API changes
 
 ### Migration API enhancements
@@ -717,7 +735,7 @@ The API response now gives the exact case of legacy author names as entered duri
 * If an existing author name is removed and re-added with a different case, the updated case will be honored and reflected across all courses using that author name.
 * No automatic migration will be done for previously stored names; only newly added or updated names will follow this behavior.
 
-## Calendar API enhancement
+### Calendar API enhancement
 
 The calendar now loads sessions for the month selected by the user. To fetch both past and upcoming sessions through the API, a new `year` parameter has been added to the learner endpoint `GET /users/{id}/calendar`. The `month` and `year` parameters must be provided together to retrieve session details.
 
@@ -726,6 +744,25 @@ The calendar now loads sessions for the month selected by the user. To fetch bot
 ```
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth a4ae04eb9f06f4bf88abcde17' 'https://abc.adobe.com/primeapi/v2/users/12345678/calendar?month=7&year=2025&currentMonthOnly=false&filter.allSessions=false'
 ```
+
+## Webhooks changes
+
+### Register LinkedIn Learning webhooks using the connector
+
+Previously, administrators had to manually register Adobe Learning Manager (ALM) webhooks through APIs. With this enhancement, the LinkedIn Learning (LIL) connector now supports webhook registration automatically during new connection setup in ALM. The **OAuth Server  URL** and **Tenant Server URL** will be auto-populated on the LinkedIn Learning configuration page.
+
+For existing customers:
+A migration script will be executed to automatically enable LinkedIn Learning webhooks for all existing accounts.
+
+View this [article](/help/migrated/integration-admin/feature-summary/webhooks.md) for more information.
+
+### Improved MAU license consumption across Adobe Learning Manager and LinkedIn Learning
+
+Previously, when a learner consumed a LinkedIn Learning course directly in the LinkedIn Learning platform, the license usage was not deducted in Adobe Learning Manager. Only courses taken through the Adobe Learning Manager player triggered license consumption, which led to inaccurate tracking of Monthly Active users (MAU) license usage.
+
+With this enhancement, Adobe Learning Manager now generates an external webhook whenever a learner consumes a course in the LinkedIn Learning platform. On receiving this webhook, Adobe Learning Manager reduces the license count, ensuring accurate tracking across both platforms. License reports now reflect correct consumption, whether learners complete courses in Adobe Learning Manager or LinkedIn Learning, giving administrators full visibility into license usage.
+
+View this [article](/help/migrated/integration-admin/feature-summary/webhooks.md) for more information.
 
 ## Report changes
 
