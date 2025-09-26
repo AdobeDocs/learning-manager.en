@@ -321,6 +321,19 @@ The Discussion tab is not enabled for external users.
 ![](assets/learning-program200s.jpg)
 *Discussion tab*
 
+## Register interest for the courses
+
+Learners can register their interest in the courses that have no active instance. 
+
+To register interest:
+
+1. Log in to Adobe Learning Manager as a learner.
+2. Go to **[!UICONTROL Catalog]** and select the course that has no active instance.
+3. Select **[!UICONTROL Register Interest]** on the Course overview page.
+    
+    ![](assets/register-interest.png)
+   _Course overview section on the Learner UI, highlighting the Register Interest option_
+
 ## Course life cycle {#courselifecycle}
 
 A typical course life cycle looks as follows:

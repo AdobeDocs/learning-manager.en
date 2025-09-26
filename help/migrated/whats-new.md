@@ -8,114 +8,58 @@ title: What's new in Adobe Learning Manager October 2025 release
 
 ## Language-based learner progress
 
-Currently, learner progress is tracked only for the selected locale language, causing significant progress loss when switching languages/locales in the player. This limitation creates poor user experience where learners lose their learning progress when exploring content in different languages.
+Currently, the Adobe Learning Manager tracks learner progress only for the selected locale language, causing significant progress loss when switching languages/locales in the player. This limitation can lead to a poor user experience, as learners may lose their progress when accessing content in different languages. The progress for each module in the player is tracked at both the user and module levels. This leads to a situation where a user's progress is overridden when they switch back to a previously used locale for the same module.
+
+For example, if a learner achieves 75% progress in locale A (English) and then switches to locale B (Spanish), upon returning to locale A, their progress resets to 0% instead of resuming from 75%.
 
 >[!NOTE]
 >
 >The Video content type does not support language-based progress.
 
-**Current issues**
+To resolve these limitations, the feature has been enhanced to support locale-specific progress tracking:
 
-* **Progress override**: The progress for each module in the player is tracked at both the user and module levels. This leads to a situation where a user's progress is overridden when they switch back to a previously used locale for the same module.
-* **Progress reset**: For instance, if a learner achieves 75% progress in Locale A (English) and then switches to Locale B (Spanish), upon returning to Locale A, their progress resets to 0% instead of resuming from 75%.
-
-To resolve these limitations, the API has been enhanced to support locale-specific progress tracking:
-
-* **Locale-specific storage**: When a learner switches locales (for example, from Locale A to Locale B) within the player, the system now saves the progress state separately for each locale of the content.
+* **Locale-specific storage**: When a learner switches locales (for example, from Locale A to Locale B) within the player, the Adobe Learning Manager now saves the progress state separately for each locale of the content.
 * **Progress resumption**: When the user switches back to a previously used locale (from Locale B back to Locale A), the content resumes from where they left off in that specific locale.
 * **Independent progress tracking**: Each locale maintains its own state of progress, allowing learners to explore content in multiple languages without losing their individual progress in each language.
 
-## Custom roles import support in incremental user import
+View [My Learning](/help/migrated/learners/feature-summary/courses.md#language-based-progress-management) article for more information.
 
-Adobe Learning Manager now supports custom role imports in the existing multi-incremental user import workflow (regular full user import + incremental enabled flow). This enhancement allows role.csv and user_role.csv files to be uploaded and processed incrementally, without requiring full data uploads each time.
+## Incremental and multi-incremental support for custom roles
 
-Previously, role.csv and user_role.csv files could only be uploaded in full mode, meaning administrators had to include all previously added role definitions and assignments in every upload. With this new incremental support, only new or modified role data needs to be uploaded, reducing overheads and improving efficiency.
+Adobe Learning Manager now supports incremental and multi-incremental imports for custom roles and role assignments. This enhancement makes it easier for administrators to manage roles by uploading only new or modified data, instead of re-uploading the entire dataset every time.
+Adobe Learning Manager also supports up to 20 incremental user CSVs and their corresponding custom roles CSVs, making it suitable for large-scale operations.
 
 **What's new**
 
-1. Incremental support for custom roles and role assignments:
+* Administrators can now upload role and user-role files (role.csv and user_role.csv) incrementally, along with user files (user.csv), instead of always doing full uploads.
+* Each user import (user1.csv) is linked with its own role and role-mapping files (user1_role.csv, user1_user_role.csv), stored in separate FTP folders.
+* Three additional columns have been added to the following CSVs:
 
-    * role.csv  and  user_role.csv can now be processed incrementally in the multi-file incremental workflow.
-    * No need to upload all existing role and user role data with every import.
-
-2. Enhanced multi-incremental workflow implementation:
-
-    * Create separate folders in FTP for each uploaded user import file.
-    * Each folder contains:
-
-        * The user import file- (File1.csv)
-        * Corresponding role and role assignment files- (File1_role.csv, File1_user_role.csv)
-
-    For example, user1.csv corresponds to user1_role.csv (custom roles) and user1_user_roles.csv (user-role mapping).
-
-    **Example FTP structure before processing:**
-
-    ```
-    import/user/internal/  
-         user1.csv  
-         user2.csv  
-         user3.csv  
-
-    UserRole/  
-        File1_role.csv  
-        File1_user_role.csv  
-        File2_role.csv  
-        File2_user_role.csv  
-        File3_role.csv  
-        File3_user_role.csv  
-    ```
- 
-3. Adobe Learning Manager also supports up to 20 incremental user CSVs and their corresponding custom roles CSVs, making it suitable for large-scale operations.
-
-**Use cases**
-
-* Global companies manage regional teams by uploading multiple incremental user files for each region (EU, America, Asia), allowing administrators to update users and assign new roles for each region in a single workflow.
-* Large enterprises automate onboarding and permissions by regularly ingesting incremental user updates from HR systems. This supports seamless updates to user profiles and granular role assignments without manual intervention.
-
-### New columns added to CSV files
-
-Three new columns have been introduced to enhance the data captured in user, role, and user-role CSV exports/imports:
-
-* **User Registration State (user.csv)**: Indicates the current registration status of the user.
-* **Role State (role.csv)**: Indicates the current status of roles within the system.
-* **User Role State (user_role.csv)**: Indicates the status of the user-role association. 
+    * User Registration State in user.csv
+    * Role State in role.csv
+    * User Role State in user_role.csv
+* The Adobe Learning Manager now captures add, update, and delete actions in the user audit and custom role reports, giving administrators better visibility into changes.
 
 >[!NOTE]
 >
->The above CSV changes apply only to the accounts that use incremental users.
+>These changes are applicable only to the accounts that use incremental users.
 
-Download the [sample CSVs](assets/sample-csv-Incremnetal.zip) here.
+View [Incremental and multi-incremental support for custom roles](/help/migrated/integration-admin/feature-summary/configure-role-csv-files.md#incremental-and-multi-incremental-support-for-custom-roles) article for more information.
 
-## Support for Vimeo URLs in Activity Module
+## Support for vimeo URLs in activity module
 
-The Activity module now supports embedding Vimeo URLs, similar to YouTube embeds. This enhancement allows administrators to add Vimeo video links directly into the Activity module. Learners can then watch these videos seamlessly within the Learner app, without being redirected to an external site.
-
-**Key highlights**
-
-* Administrators can now add Vimeo URLs in the Activity module in the same way they add YouTube links.
-* Learners can play Vimeo videos directly within the Learner app for a smooth learning experience.
-* Learners stay within the platform while consuming video content.
+The Activity module now supports embedding Vimeo URLs, similar to YouTube embeds. This enhancement allows administrators to add Vimeo video links directly into the Activity module. When authors create a course and add an Activity module, they now see an option to include a Vimeo URL. Similar to how YouTube links are added, authors can paste a Vimeo link directly into the module setup. Once published, learners can play the Vimeo video seamlessly within the Learner app without being redirected outside the platform.
 
 **Use cases**
 
-* Training teams using Vimeo for hosting corporate videos can now embed them directly into courses.
-* Organizations using Vimeo for privacy-controlled or internal videos can integrate them easily without requiring third-party navigation.
+* Many organizations rely on Vimeo for hosting training videos, product demos, or compliance content due to its professional features and secure access controls. These videos can now be seamlessly integrated into Adobe Learning Manager courses.
+* Learners no longer need to leave the Learning Manager app to view Vimeo content. This reduces distractions and ensures learners remain engaged within the training environment.
+
+View [Add modules](/help/migrated/authors/feature-summary/courses.md#add-modules) article for more information.
 
 ## Time Zone information for CR/VC modules
 
-Time zone details are now displayed for Classroom (CR) and Virtual Classroom (VC) modules. Learners and administrators can clearly see the time zone associated with scheduled sessions across key pages and calendar invites. This feature ensures clarity and prevents confusion about session timings.
-
-**Key highlights**
-
-* Visible time zone info: Shown in the following pages:
-
-    * Course Overview page
-    * Instance Overview page
-    * Preview as Learner page
-    * Calendar invite
-
-* This enhancement is available only in the new Learner app.
-* Learners can better plan and join sessions without time zone misunderstandings.
+Time zone details are now displayed for Classroom (CR) and Virtual Classroom (VC) modules on the Course Overview page, Instance page, Learner Preview page, and in calendar widget. Learners and administrators can clearly see the time zone associated with scheduled sessions across key pages and calendar invites. Learners can better plan and join sessions without time zone misunderstandings. This enhancement is available only in the new Learner app.
 
 **Use cases**
 
@@ -123,103 +67,69 @@ Time zone details are now displayed for Classroom (CR) and Virtual Classroom (VC
 * Clear time zone visibility helps avoid missed sessions or incorrect calendar planning.
 * Managers previewing sessions as learners can also view exact time zone details.
 
-## Auto-population of author name in course creation
+## Auto-populate support for author name in course creation
 
-During course creation, the **[!UICONTROL Author(s)]** field is now automatically populated with the name of the author who is creating the course.
+During course creation, the **[!UICONTROL Author(s)]** field is now automatically populated with the name of the author who is creating the course. Authors no longer need to manually enter their own names. Additional authors can still be added or updated as needed.
 
-**Key highlights**
+**Use cases**
 
-* The current author's name is auto-filled in the **[!UICONTROL Author(s)]** field at the time of course creation.
-* Authors no longer need to manually enter their own names.
-* Additional authors can still be added or updated as needed.
-
-* **Use cases**
-* Speeds up course creation by reducing repetitive manual entry.
-* Ensures the course creator's name is consistently recorded.
+* For organizations with strict content ownership rules, auto-population ensures the author is always correctly attributed.
+* When editing an existing course, authors can update or add co-authors without losing the auto-populated entry.
 
 ## Search external profiles in change profile Workflow
 
-Administrators and custom administrators can now search external profiles directly in the **[!UICONTROL External Profile]** tab during the change profile workflow. This enhancement streamlines the process of updating and managing learner profiles.
+Previously, administrators scrolled through the entire list of external profiles and manually selected the desired profile when reassigning learners. This made the process time-consuming, especially for accounts with many profiles.
 
-**Key highlights**
-
-* Administrators no longer need to manually browse or scroll to locate external profiles.
-* External profiles can be searched directly from the change profile workflow.
+With this enhancement, administrators and custom administrators can now search for external profiles directly in the tab during the change profile workflow. This update streamlines the process of updating and managing learner profiles, making it faster and more efficient.
 
 **Use cases**
 
-* Easily find and switch to the correct external profile when updating a learner's profile.
-* Faster search reduces the risk of selecting the wrong external profile.
+* In accounts with hundreds of external profiles (e.g., franchise locations, partner companies, or regional groups), admins can now locate the exact profile instantly using search, reducing errors and saving time.
+* During organizational changes, such as mergers or department realignments, learners may need to be moved in bulk to new external profiles. The search-based reassignment makes this task smoother and more accurate.
 
-View this [article](/help/migrated/administrators/feature-summary/add-users-user-groups.md#change-profile) for more information about external profiles. 
+View [Change the external profile](/help/migrated/administrators/feature-summary/add-users-user-groups.md#change-profile) article for more information. 
 
-## Add a co-organizer for Teams sessions
+## Add a co-organizer for Microsoft Teams sessions
 
-Administrators can now add co-organizer for the Microsoft Teams sessions. The new field **[!UICONTROL Co-Organizer]**, has been added to Microsoft Teams sessions. This feature enables authors to assign additional organizers to a session, alongside the primary organizer.
+Previously, administrators could only assign a single organizer to Microsoft Teams sessions. With this enhancement, administrators can now add co-organizers to a session. A new field, [!UICONTROL Co-Organizer], has been introduced in Microsoft Teams sessions, allowing authors to assign additional organizers alongside the primary organizer. 
 
-**Key highlights**
-
-* Authors can now assign multiple co-organizers for each Teams session.
-* Co-organizers have the same access and permissions as the primary organizer.
-* You can add up to 10 organizers per session for improved session management.
+Authors can assign multiple co-organizers for each Teams session. Co-organizers have the same access and permissions as the primary organizer. Up to 10 organizers can be added per session, providing greater flexibility and improved session management.
 
 **Use cases**
 
-* If the primary organizer is unavailable, co-organizers can step in to manage the session without disruption.
-* Multiple organizers can help manage large training sessions by handling attendance, moderating discussions, or sharing content.
-* Organizations running frequent or large-scale sessions can distribute responsibilities across several facilitators.
+* When conducting large-scale sessions with many learners, co-organizers can help manage attendance, moderate discussions, and monitor chat while the primary organizer focuses on delivering the training.
 
 ![](assets/teams-co-organizer.png)
-_Virtual Classroom section highlight the new field for assigning a Co-organizer to Team Sessions_
+_Virtual Classroom section where administrators can add Co-organizer to Microsoft Teams Sessions_
 
-## Interested learners report for courses
+## Download interested learners report for courses
 
-Administrators can now view and download a list of learners who have shown interest in a course. Learners can express interest by selecting the **[!UICONTROL Register Interest]** option on the course overview page when no active course instances are available. Administrators can then access the list of interested learners and export it as a report.
+Administrators can now view and export a list of learners who have registered interest in a course. When no active course instances are available (all instances retired), learners can use the **[!UICONTROL Register Interest]** option on the Course Overview page. 
+
+Administrators can then access this list and download it as a report. **[!UICONTROL Interested Learners]** button has been added to the course page when no active instances are available and it displays the learner's name and the date they registered interest on the administrator UI. Administrators can export **[!UICONTROL Interested Learners report]** by selecting **[!UICONTROL Actions]**.
 
 ![](assets/register-interest.png)
-_Course overview section on the Learner UI highlighting the Register Interest option_
+_Course overview section where learners can view the Register Interest option_
 
-**What's new**
-
-* **[!UICONTROL Interested Learners]** button has been added to the course page when no active instances are available.
-* Displays the learner's name and the date they registered interest on the administrator UI.
-* Administrators can export **[!UICONTROL Interested Learners report]** by selecting **[!UICONTROL Actions]**. 
-* Report includes:
-
-    * Course ID
-    * Learner Name
-    * Email
-    * Type
-    * State
-    * Registration Date & Time (UTC)
-    * Active status
-
->[!NOTE]
->
->The report will include the learner's UUID if it is enabled for the account.
-
-**Use cases**
-
-* Identify courses learners want but currently don't have active instances.
-* This helps administrators schedule or reopen popular courses based on learner demand.
+View [Download the interested learner](/help/migrated/administrators/feature-summary/courses.md#download-the-interested-learner-report) report for more information.
 
 ## Reset recommendations in Salesforce app
 
 **Overview**
 
-Previously, learners using the Adobe Learning Manager Salesforce app could only select roles and recommendation preferences once. If their role changed, they were required to access the native Adobe Learning Manager app to update their profile and receive relevant course recommendations. This made the learning experience and contributed to lower engagement within the Salesforce environment.
+Previously, learners using the Adobe Learning Manager Salesforce app could only select roles and recommendation preferences once. If their role changed, they were required to access the native Adobe Learning Manager app to update their profile and receive relevant course recommendations.
+Learners who change job roles, teams, or responsibilities can quickly reset their preferences to receive updated and relevant course recommendations all within the Salesforce app.
 
 **What's new**
 
-Adobe Learning Manager now features a  **[!UICONTROL Reset Interests]** button within the Salesforce app. Learners can now reset their roles and learning preferences without needing to leave Salesforce or sign in into the native Adobe Learning Manager app. This enhancement streamlines access to personalized learning content, ensuring recommendations remain relevant as users' roles evolve.
+Adobe Learning Manager now features a  **[!UICONTROL Reset Interests]** button within the Salesforce app. Learners can now reset their roles and learning preferences without needing to leave Salesforce or sign in into the native Adobe Learning Manager app. 
 
 **Use cases**
 
-* Learners who change job roles, teams, or responsibilities can quickly reset their preferences to receive updated and relevant course recommendations all within the Salesforce app.
 * By removing the need to switch to the native Adobe Learning Manager app, the learning journey is smoother, encouraging ongoing engagement and consumption of recommended content through Salesforce.
 * Administrators benefit from higher rates of learning completion and better alignment between user roles and recommended content, without extra support or guidance on switching platforms.
 
-View this [article](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app) for more information.
+View [Reset recommendations in Salesforce app](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app) article for more information.
 
 ## Experience Builder
 
@@ -274,7 +184,7 @@ Social learning boards now support user tagging functionality, enabling more tar
 * Team discussions requiring input from specific stakeholders.
 * Knowledge sharing sessions with targeted expert involvement.
 
-View this [article](/help/migrated/learners/feature-summary/social-learning-web-user.md#tag-users-in-social-board-posts) for more information.
+View [User tagging in social learning boards](/help/migrated/learners/feature-summary/social-learning-web-user.md#tag-users-in-social-board-posts) article for more information.
 
 ## Scoped announcement permissions for custom administrators
 
@@ -305,19 +215,19 @@ Custom administrators can now create announcements, but only for their assigned 
 * Franchise organizations where regional managers need to communicate only with their franchisees.
 * Large organizations with regional or departmental administrators targeting announcements to their teams.
 
-View this [article](/help/migrated/administrators/feature-summary/announcements.md#create-announcement-for-the-assigned-scope) for more information.
+View [Create announcement for the assigned scope](/help/migrated/administrators/feature-summary/announcements.md#create-announcement-for-the-assigned-scope) article for more information.
 
 ## Calendar widget shows past and upcoming sessions
 
 Learners can now see both past and upcoming sessions in the calendar widget. They can move through the calendar to any date and check the session details. This means they can review sessions that have already happened, helping them track what they missed or attended. They can also view all upcoming sessions for the next 12 months, including the current month, making it easier to plan ahead and manage their schedules.
 
-View this [article](/help/migrated/learners/feature-summary/learner-home-page.md#calendar) for more information. 
+View [Calendar](/help/migrated/learners/feature-summary/learner-home-page.md#calendar) article for more information. 
 
 ## Custom role selection during course publishing from Adobe Captivate
 
 When publishing content from Adobe Captivate to Adobe Learning Manager, if a user has multiple custom roles, they will be prompted to select the specific custom role under which the course should be published. This ensures that the correct role ownership and permissions are applied to the published course, preventing confusion and maintaining proper access control.
 
-View this [article](https://helpx.adobe.com/in/captivate/help/publish-projects-adobe-captivate.html#publish-to-alm) for more information.
+View [Publish a project to Adobe Learning Manager (ALM)](https://helpx.adobe.com/in/captivate/help/publish-projects-adobe-captivate.html#publish-to-alm) article for more information.
 
 ## Configurable user ID preference for SCORM reporting
 
@@ -335,7 +245,7 @@ Learners can easily access their bookmarked courses through the Saved by Me stri
 
 Within the catalog, learners can apply additional filters to narrow down their search. When a filter is applied, only the courses that meet the selected criteria are shown. Previously bookmarked courses do not appear automatically unless they match the applied filter.
 
-View this [article](/help/migrated/integrate-aem-learning-manager.md#configure-my-saved-courses-widgets-in-aem-sites) for more information.
+View [Configure saved courses widgets in AEM sites](/help/migrated/integrate-aem-learning-manager.md#configure-my-saved-courses-widgets-in-aem-sites) article for more information.
 
 ## Support to display original author names in shared courses
 
@@ -356,7 +266,7 @@ In the Learning Objects API, author information is now returned differently for 
 
 Previously, search results did not consistently display individual courses when they were part of higher-order learning objects such as Learning Paths or Certifications. If a learner was enrolled only in a Learning Path or Certification, the search returned only the higher-order structure and not the individual course. 
 
-With this enhancement, learners can now see individual courses in search results, even when those courses are part of Learning Paths or Certifications. A new admin setting, **[!UICONTROL Show all enrolled courses in search results]**, has been introduced. When enabled, this setting ensures that searching for a specific course always displays the course itself along with any related Learning Paths or Certifications.
+With this enhancement, learners can now see individual courses in search results, even when those courses are part of Learning Paths or Certifications. A new administrator setting, **[!UICONTROL Show all enrolled courses in search results]**, has been introduced. When enabled, this setting ensures that searching for a specific course always displays the course itself along with any related Learning Paths or Certifications.
 
 In the `GET /learningObjects` API, a new parameter `filter.ignoreHigherOrderLOEnrollment` has been introduced to refine search results.
 
@@ -777,7 +687,7 @@ The calendar now loads sessions for the month selected by the user. To fetch bot
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth a4ae04eb9f06f4bf88abcde17' 'https://abc.adobe.com/primeapi/v2/users/12345678/calendar?month=7&year=2025&currentMonthOnly=false&filter.allSessions=false'
 ```
 
-### Support for mark completion through Admin API
+### Support for mark completion through Administrator API
 
 Previously, the public API did not support instance-based completion marking in multi-enrollment scenarios. With this enhancement, you can now include course instance ID in the request body of `POST /users/{userId}/userModuleGrade` and administrator can mark completion for a specific instance.
 
@@ -834,7 +744,7 @@ The downloaded Learner Transcript report contains the new column: Mark Completed
 ![Learner Transcript reports showing marked completed dates (highlighted in yellow) for course completion tracking in Adobe Learning](/help/migrated/assets/mark-completion-column.png)
 _Learner Transcript report displays a new column in yellow highlighting individual completion dates for each user_
 
-View this [article](/help/migrated/administrators/feature-summary/learner-transcripts.md) more information.
+View [Learner Transcript](/help/migrated/administrators/feature-summary/learner-transcripts.md) article more information.
 
 ### Enhanced User Report with extended data fields
 
@@ -859,7 +769,7 @@ The downloaded User Report file contains the new columns: Internal User ID and M
 ![User Report showing the internal user ID and manager email columns highlighted in yellow](/help/migrated/assets/user-report-columns.png) 
 _User Reports highlighting internal user IDs and manager email addresses to streamline user management_
 
-View this [article](/help/migrated/administrators/feature-summary/reports.md#user-activity-dashboards) for more information.
+View [Download the user report](/help/migrated/administrators/feature-summary/add-users-user-groups.md#download-the-user-report) article for more information.
 
 ### FTP User Report with Internal User ID support
 
@@ -879,6 +789,8 @@ The FTP-based User Report now includes Internal User ID support, providing a uni
 * Automated workflow support by enabling bulk operations and analytics workflows with consistent identifiers.
 The User Report downloaded from FTP folder contains the new column, Internal User ID.
 
+View [Learning Manager FTP connector](/help/migrated/integration-admin/feature-summary/connectors.md#learning-manager-ftp-connector) article for more information. 
+
 ### Include suspended users in Learner Transcripts
 
 **Overview**
@@ -897,6 +809,8 @@ Organizations can now include suspended users (those with disabled external prof
 >[!NOTE]
 >
 >This flag is disabled by default for existing accounts and must be explicitly requested for new accounts.
+
+View [Learner Transcript](/help/migrated/administrators/feature-summary/learner-transcripts.md) article more information.
 
 ### Job Aids report with direct access links
 
@@ -925,5 +839,5 @@ The Job Aids Report can be downloaded from the Reports section and now includes 
 ![](/help/migrated/assets/job-aid-report.png) 
 _Job Aids Report displays direct download links, making it easy to access and download job aids in Adobe Learning Manager_
 
-View this [article](/help/migrated/administrators/feature-summary/reports.md#job-aids-report) for more information.
+View [Job Aids Report](/help/migrated/administrators/feature-summary/reports.md#job-aids-report) article for more information.
 

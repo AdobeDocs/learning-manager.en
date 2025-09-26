@@ -224,7 +224,7 @@ When you view the posts in a board format, you can then sort the posts according
 * If you choose **Posts**, the boards will be sorted according to the number of posts made in the board.
 * If you choose **Contributors**, the boards will be sorted according to the number of users who've commented or replied in the threads.
 
-## User Tagging in Social Learning Boards
+## User tagging in social learning boards
 
 Social learning board allows learners tag others in posts and comments using the "@username" format through the app, APIs, or Adobe Learning Manager reference site. Tagging works only for users with access to the board, keeping interactions relevant and private. Tagged users get in-app and email notifications with links to the content. 
 

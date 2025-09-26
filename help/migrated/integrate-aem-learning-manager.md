@@ -392,7 +392,7 @@ In the **[!UICONTROL General Settings]** section, you can choose the primary and
 }
 ```
 
-### Configure My Saved Courses widgets in AEM sites
+### Configure saved courses widgets in AEM sites
 
 My Saved Courses widget allows learners to view their bookmarked or saved courses directly on their learning pages, providing easy access to courses they want to revisit or complete later.
 
