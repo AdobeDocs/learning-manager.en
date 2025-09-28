@@ -811,10 +811,10 @@ View [Job Aids Report](/help/migrated/administrators/feature-summary/reports.md#
 
 ## Bug fixed in this update
 
+* L2 Quiz scores are now correctly generated for Non-Interactive Quizzes, including details of users who completed them.
 * The signature is now correctly sent to the target host when the authentication mechanism is set to Signature during connection configuration.
 * Dummy users created during Adobe Connect sessions were not deleted after session completion. The SnapLogic pipeline now correctly removes these users, even when the `principals-delete` API previously returned a 200 response without deleting them.
 * `null` `eventDetail` objects in API responses no longer cause exceptions. The system now skips null entries and processes the entire array, ensuring complete recordings.
-* L2 Quiz scores are now correctly generated for Non-Interactive Quizzes, including details of users who completed them.
 * The Date of Feedback column in feedback reports now displays the correct date. Previously, seconds were incorrectly passed to the Date constructor, which expects milliseconds, causing dates to appear as January 1970. This has been corrected to ensure accurate date display when generating feedback reports.
 * Learners can now update enrollment in a Flex Learning Path even if one of the course instances is retired. Previously, selecting a new instance caused a console error (Cannot read properties of undefined) and prevented the update.
 * Resource names in Learning Paths now display correctly without breaking mid-word.
