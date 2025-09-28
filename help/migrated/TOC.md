@@ -8,13 +8,9 @@ user-guide-description: Documentation for Adobe Learning Manager
 
 * [Learning Manager User Guide](user-guide.md)
 * Introduction {#introduction}
-   * [What's new in Adobe Learning Manager October 2025 release](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
+   * [New features summary October 2025](/help/migrated/whats-new.md)
    * [New features summary May 2025](/help/migrated/whats-new.md)
    * [New features summary November 2024](/help/migrated/whats-new-nov-24.md)
-   * [New features summary July 2024](whats-new-july-2024.md)
-   * [New features March 2024](whats-new-march-2024.md)
-   * [New features November 2023](whats-new-november-2023.md)
-   * [New features July 2023](whats-new-2023-july.md)
    * [Release Notes](release-note/release-notes.md)
    * [System requirements](system-requirements.md)
    * [Adobe Learning Manager App for Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
