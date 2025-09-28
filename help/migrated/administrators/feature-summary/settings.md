@@ -418,7 +418,7 @@ Enable or disable the following settings:
    <td>
     <p>Learning Paths</p></td>
    <td>
-    <p>If the option <b>Enable Extended features of Learning Path</b> is selected, Administrators will be able to include Learning Paths inside Learning Paths, and combine those Learning Paths with Courses. The option is irreversible.<br></p></td>
+    <p>If the option <b>Enable Extended features of Learning Path</b> is selected, administrators will be able to include Learning Paths inside Learning Paths, and combine those Learning Paths with Courses. The option is irreversible.<br></p></td>
   </tr>
   <tr>
    <td>
