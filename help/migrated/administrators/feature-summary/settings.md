@@ -407,7 +407,7 @@ Enable or disable the following settings:
   </tr>
   <tr>
    <td height="19">Show all enrolled Course in search results</td>
-   <td>If enabled, learner will see Course in search results even if they are part of their enrolled Learning Path or Certification.</td>
+   <td>If enabled, learner can see course in search results even if they are part of their enrolled Learning Path or Certification.</td>
   </tr>
  </tbody>
 </table>
