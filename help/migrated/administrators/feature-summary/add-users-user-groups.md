@@ -182,20 +182,20 @@ To download the user report:
 
 The report includes following information:
 
-   * Name
-   * Email
-   * Status
-   * Date Added (UTC TimeZone)
-   * Deletion Date (UTC TimeZone)
-   * Last Login Date (UTC TimeZone)
-   * Adobe ID
-   * userState
-   * profile
-   * Interface Language
-   * Content Language
-   * Timezone
-   * Internal User ID
-   * Manager Email
+* Name
+* Email
+* Status
+* Date Added (UTC TimeZone)
+* Deletion Date (UTC TimeZone)
+* Last Login Date (UTC TimeZone)
+* Adobe ID
+* userState
+* profile
+* Interface Language
+* Content Language
+* Timezone
+* Internal User ID
+* Manager Email
 
 ## External users
 
