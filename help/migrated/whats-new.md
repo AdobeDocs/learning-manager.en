@@ -129,7 +129,7 @@ Previously, administrators scrolled through the entire list of external profiles
 
 **Use cases**
 
-* In accounts with hundreds of external profiles (e.g., franchise locations, partner companies, or regional groups), admins can now locate the exact profile instantly using search, reducing errors and saving time.
+* In accounts with hundreds of external profiles (e.g., franchise locations, partner companies, or regional groups), administrators can now locate the exact profile instantly using search, reducing errors and saving time.
 * During organizational changes, such as mergers or department realignments, learners may need to be moved in bulk to new external profiles. The search-based reassignment makes this task smoother and more accurate.
 
 View [Change the external profile](/help/migrated/administrators/feature-summary/add-users-user-groups.md#change-profile) for more information on changing the profile. 
