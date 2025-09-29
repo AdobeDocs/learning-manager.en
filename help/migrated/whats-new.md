@@ -120,7 +120,7 @@ Learners in different regions can confirm the session time in the correct time z
 During course creation, the **[!UICONTROL Author(s)]** field is now automatically populated with the name of the author who is creating the course. Authors no longer need to manually enter their own names. Additional authors can still be added or updated as needed.
 
 For organizations with strict content ownership rules, auto-population ensures the author is always correctly attributed. When editing an existing course, authors can update or add co-authors without losing the auto-populated entry.
- for
+
 View [Create a course](/help/migrated/authors/feature-summary/courses.md#create-a-course---advanced-workflow) for more information on creating a course. 
 
 ## Search external profiles while changing profile
