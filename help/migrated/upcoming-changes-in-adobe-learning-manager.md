@@ -1254,8 +1254,6 @@ To create a page in Adobe Learning Manager:
 
 The page has been created and saved as a draft in the Custom Pages section. Administrators can edit and design the drafted pages using the widgets. 
 
-Follow the same steps to create pages for other products like Illustrator.
-
 #### Design page in Experience Builder
 
 Adobe Learning Manager enables administrators to design pages tailored to their requirements using customizable widgets.
