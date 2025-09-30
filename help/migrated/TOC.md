@@ -43,9 +43,25 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Active Fields](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Add classroom locations](administrators/feature-summary/classroom.md)
    * [Create course instances and learning paths](administrators/feature-summary/courses.md)
+   * Experience Builder in Adobe Learning Manager {#experience-builder}
+      * [Overview](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Core components of Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+      * Pages in Experience Builder
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [Create a custom page in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+      * Widgets in Experience Builder
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [Add and configure widgets](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+      * Menu in Experience Builder
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [Create a menu](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+      * Customization in Experience Builder
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [Customize Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+      * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
    * Content marketplace {#content-marketplace}
       * [Content marketplace](administrators/feature-summary/content-marketplace.md)
-      * [Add Go1 playlist to a Learning Path](administrators/feature-summary/content-marketplace/add-go1-playlist.md)
+      * [Add Go1 courses to a Learning Path](administrators/feature-summary/content-marketplace/add-go1-playlist.md)
    * [Reports](administrators/feature-summary/reports.md)
    * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)

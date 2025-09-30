@@ -1,10 +1,10 @@
 ---
-title: Experience Builder Recommendations in Adobe Learning Manager
-description: Experience Builder Recommendations provide personalized course and content suggestions to learners using AI-driven algorithms. 
+title: Experience Builder guidelines and limitations in Adobe Learning Manager
+description: Experience Builder guidelines and limitations provide personalized course and content suggestions to learners using AI-driven algorithms. 
 jcr-language: en-us
 ---
 
-# Experience Builder recommendations in Adobe Learning Manager
+# Experience Builder guidelines and limitations
 
 Experience Builder is a powerful tool designed to help users create dynamic and engaging web pages with ease. To ensure optimal performance, usability, and security, it is essential to follow certain guidelines and recommendations when configuring pages, using widgets, and customizing layouts. This document provides a detailed overview of important notes and points that users should consider while working with Experience Builder. 
 
@@ -87,6 +87,7 @@ Menus can be positioned at the top or left of the page. Further adjustments can 
 ### Security considerations 
 
 * **HTML widgets**: You must ensure the code handles security issues like cross-site scripting (XSS) attacks, as these are outside the scope of Experience Builder's control. 
+* **Custom footer**: When customizing the footer using HTML or CSS, ensure that the code adheres to security best practices. 
 
 ### Breaking changes 
 
