@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Pages in Experience Builder 
 ---
 
-## Overview
+# Overview
 
 A page in Experience Builder is a customizable space that serves as the foundation for organizing and presenting learning content, resources, and interactive elements within your learning portal. It acts as a digital canvas where administrators can arrange various widgets, such as course lists, events calendars, compliance status, banners, and social feed. 
 Brand each page with corporate colors, logos, and themes, and tailor it to specific user groups or audiences such as new hires, managers, or external partners. Pages move through a lifecycle from draft to published (or archived) and may be made visible via navigational menus or accessible through direct links. Altogether, pages in Experience Builder allow organizations to design dynamic, engaging, and role-specific learning experiences that drive meaningful engagement and smooth access to needed resources.
