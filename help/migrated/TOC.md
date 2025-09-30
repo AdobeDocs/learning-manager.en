@@ -81,13 +81,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Customize learner homepage](administrators/feature-summary/customize-learner-homepage.md)
    * [Badges](administrators/feature-summary/badges.md)
    * [Color themes](administrators/feature-summary/themes.md)
-   * Experience Builder in Adobe Learning Manager {#experience-builder}
-      * [Experience Builder](administrators/feature-summary/experience-builder/experience-builder.md)
-      * [Components of Experience Builder](administrators/feature-summary/experience-builder/components-in-experience-builder.md)
-      * [Pages](administrators/feature-summary/experience-builder/create-a-page.md)
-      * [Widgets](administrators/feature-summary/experience-builder/add-a-widget.md)
-      * [Menu](administrators/feature-summary/experience-builder/create-a-menu.md)
-      * [Experience Builder recommendations](administrators/feature-summary/experience-builder/experience-builder-recommendations.md)
    * [Learner transcripts](administrators/feature-summary/learner-transcripts.md)
    * [Waitlist & attendance management](administrators/feature-summary/waitlist-attendance-management.md)
    * [Fluidic player](administrators/feature-summary/fluidic-player.md)
