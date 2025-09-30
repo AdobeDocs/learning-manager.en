@@ -46,16 +46,16 @@ user-guide-description: Documentation for Adobe Learning Manager
    * Experience Builder in Adobe Learning Manager {#experience-builder}
       * [Overview](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
       * [Core components of Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
-      * Pages in Experience Builder
+      * Pages in Experience Builder {#pages-in-experience-builder}
          * [Overview](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
          * [Create a custom page in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
-      * Widgets in Experience Builder
+      * Widgets in Experience Builder {#widgets-in-experience-builder}
          * [Overview](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
          * [Add and configure widgets](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
-      * Menu in Experience Builder
+      * Menu in Experience Builder {#menu-in-experience-builder}
          * [Overview](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
          * [Create a menu](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
-      * Customization in Experience Builder
+      * Customization in Experience Builder {#customization-in-experience-builder}
          * [Overview](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
          * [Customize Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
