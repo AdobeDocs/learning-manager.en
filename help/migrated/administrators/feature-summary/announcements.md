@@ -151,3 +151,82 @@ Use this option to send targeted ad-hoc emails to learners of a selected user gr
    * Select a course. If the course has multiple instances, you can select the required instance.
 
 1. Click **[!UICONTROL Save]**.
+
+## Create announcement for the assigned scope
+
+A custom administrator can create announcements limited to their assigned user groups and catalogs, ensuring messages reach the right audience and preventing unnecessary notifications.
+
+To create an announcement for the assigned scope:
+
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Announcement]** in the left navigation pane.
+3. Select **[!UICONTROL Add]**. 
+   
+   ![](/help/migrated/assets/create-add-announcement.png)
+   _Announcements page in Adobe Learning Manager, where administrators can create and manage announcements for targeted user groups_
+
+4. Select the **[!UICONTROL Announcement Type]** from the dropdown menu.
+        a. **[!UICONTROL As Notification]**
+        b. **[!UICONTROL As Masthead]**
+        c. **[!UICONTROL As Recommendation]**
+        d. **[!UICONTROL As Email]**
+5. Select **[!UICONTROL As Masthead]**. 
+6. Select the language and upload an image for the masthead. 
+7. Optionally, add a URL for the action button. 
+   
+   ![](/help/migrated/assets/announcement-screen.png)
+   _Create Announcement screen allowing administrators to set announcement type, upload attachments, and add action buttons_
+
+    The assigned scope is pre-selected in the **[!UICONTROL Scope]** section and cannot be modified by administrators.
+    
+    >[!NOTE]
+    >
+    >**[!UICONTROL For Notification]** and **[!UICONTROL Email]** announcements, they can include additional user groups and catalogs if these overlap with their assigned scope.
+
+8. Select **[!UICONTROL Save]**.
+
+Only learners within the custom administrator's scope will be able to view the announcement. See this [article](/help/migrated/administrators/feature-summary/announcements.md) to learn how to create multiple types of announcements. 
+
+### Reset the scope by Custom administrators
+
+Custom administrators can reset the scope of their published announcements if an administrator has changed the scope of them. Once the scope is reset, the updated scope will be applied to the announcement, and only learners within the new scope will be able to see the announcement.
+
+To reset the scope:
+
+1. Log in to Adobe Learning Manager as a custom administrator.
+2. Select **[!UICONTROL Announcement]** in the left navigation pane.
+3. Select **[!UICONTROL Published]** tab.
+4. Select any announcement and then select setting icon. 
+5. Select **[!UICONTROL Edit]**. 
+
+   ![](/help/migrated/assets/select-edit-published-announcement.png)
+   _Announcement screen showing the published announcements with edit, publish and other options_
+
+6. Select **Reset**. 
+
+   ![](/help/migrated/assets/reset-the-scope.png)
+   _Announcement showing a scope change notification, with an option for custom administrators to reset and update the scope selection to reflect new access permissions_
+
+The scope will be updated, and only users within the updated scope will be able to view the announcement.
+
+### Edit the announcement through administrator UI
+
+Administrators can view announcements created by custom administrators through their interface. They have the ability to edit these announcements only by modifying or removing the assigned scope. If scope changes are not made, administrators cannot make further edits to the announcement.
+
+To edit the announcement through administrator UI:
+
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Announcement]** in the left navigation pane.
+3. Select **[!UICONTROL Published]** tab.
+4. Select any announcement and then select setting icon.
+5. Select **[!UICONTROL Edit]**. 
+
+   ![](/help/migrated/assets/select-edit-published-announcement.png)
+   _Announcement screen showing the published announcements with edit, publish and other options_
+
+6. Select **[!UICONTROL Remove]**. 
+   
+   ![](/help/migrated/assets/remove-the-scope.png)
+   _Announcement screen indicating that scope must be removed to allow administrators to edit announcements created for scoped user groups_
+
+Administrator can edit the announcement after removing the scope.

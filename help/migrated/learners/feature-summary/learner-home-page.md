@@ -137,7 +137,11 @@ The Calendar widget has the following features. You can view:
 * Training by month. Scroll left or right.
 * Upcoming classroom or VC training that are available to you for enrollment.
 * Upcoming classroom or VC training you have enrolled in.
+* Your completed classroom or VC sessions
 * Manager-approved classroom or VC training.
+
+You can apply the filter **[!UICONTROL View enrolled sessions only]** to view only the enrolled sessions on your calendar.
+
 
 ## Social feed {#socialfeed}
 

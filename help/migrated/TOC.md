@@ -8,8 +8,9 @@ user-guide-description: Documentation for Adobe Learning Manager
 
 * [Learning Manager User Guide](user-guide.md)
 * Introduction {#introduction}
-   * [What's new in Adobe Learning Manager October 2025 release](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
-   * [New features summary May 2025](/help/migrated/whats-new.md)
+   * [New features summary October 2025](/help/migrated/whats-new.md)
+   * [Upcoming changes in Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
+   * [New features summary May 2025](/help/migrated/whats-new-may-2025.md)
    * [New features summary November 2024](/help/migrated/whats-new-nov-24.md)
    * [New features summary July 2024](whats-new-july-2024.md)
    * [New features March 2024](whats-new-march-2024.md)
@@ -42,9 +43,25 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Active Fields](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Add classroom locations](administrators/feature-summary/classroom.md)
    * [Create course instances and learning paths](administrators/feature-summary/courses.md)
+   * Experience Builder in Adobe Learning Manager {#experience-builder}
+      * [Overview](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Core components of Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+      * Pages in Experience Builder {#pages-in-experience-builder}
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [Create a custom page in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+      * Widgets in Experience Builder {#widgets-in-experience-builder}
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [Add and configure widgets](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+      * Menu in Experience Builder {#menu-in-experience-builder}
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [Create a menu](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+      * Customization in Experience Builder {#customization-in-experience-builder}
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [Customize Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+      * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
    * Content marketplace {#content-marketplace}
       * [Content marketplace](administrators/feature-summary/content-marketplace.md)
-      * [Add Go1 playlist to a Learning Path](administrators/feature-summary/content-marketplace/add-go1-playlist.md)
+      * [Add Go1 courses to a Learning Path](administrators/feature-summary/content-marketplace/add-go1-playlist.md)
    * [Reports](administrators/feature-summary/reports.md)
    * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
@@ -64,13 +81,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Customize learner homepage](administrators/feature-summary/customize-learner-homepage.md)
    * [Badges](administrators/feature-summary/badges.md)
    * [Color themes](administrators/feature-summary/themes.md)
-   * Experience Builder in Adobe Learning Manager {#experience-builder}
-      * [Experience Builder](administrators/feature-summary/experience-builder/experience-builder.md)
-      * [Components of Experience Builder](administrators/feature-summary/experience-builder/components-in-experience-builder.md)
-      * [Pages](administrators/feature-summary/experience-builder/create-a-page.md)
-      * [Widgets](administrators/feature-summary/experience-builder/add-a-widget.md)
-      * [Menu](administrators/feature-summary/experience-builder/create-a-menu.md)
-      * [Experience Builder recommendations](administrators/feature-summary/experience-builder/experience-builder-recommendations.md)
    * [Learner transcripts](administrators/feature-summary/learner-transcripts.md)
    * [Waitlist & attendance management](administrators/feature-summary/waitlist-attendance-management.md)
    * [Fluidic player](administrators/feature-summary/fluidic-player.md)

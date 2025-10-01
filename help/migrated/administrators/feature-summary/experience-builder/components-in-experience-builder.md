@@ -4,9 +4,9 @@ description: Learn more about the three core components of Experience Builder in
 jcr-language: en-us
 ---
  
-# Components of Experience Builder
+# Core components of Experience Builder
 
-The main components and building blocks of Experience Builder are structured to provide flexibility, ease of use, and targeted learning experiences. Below is a detailed breakdown:
+Experience Builder is built on three core components: pages, widgets, and menus. Administrators can create custom pages using flexible layouts, add dynamic and static content through a library of widgets, and create navigation menus targeted to specific audiences.
 
 ## Pages
 

@@ -405,6 +405,10 @@ Enable or disable the following settings:
    <td height="19">Retire</td>
    <td>Select the any of  the retire option from the following:<li>Once retired, enrolled Learners will be able to view and perform actions but not yet enrolled Learners will lose access.</li><li>Once retired, both enrolled and not yet enrolled Learners will lose access.</li><div><b>Note:</b> You can retire courses, learning paths, or certifications from their overview pages.</div> </td>
   </tr>
+  <tr>
+   <td height="19">Show all enrolled Course in search results</td>
+   <td>If enabled, learner can see course in search results even if they are part of their enrolled Learning Path or Certification.</td>
+  </tr>
  </tbody>
 </table>
 
@@ -414,7 +418,7 @@ Enable or disable the following settings:
    <td>
     <p>Learning Paths</p></td>
    <td>
-    <p>If the option <b>Enable Extended features of Learning Path</b> is enabled, Admins will be able to include Learning Paths inside Learning Paths, and combine those Learning Paths with Courses. The option is irreversible.<br></p></td>
+    <p>If the option <b>Enable Extended features of Learning Path</b> is selected, administrators will be able to include Learning Paths inside Learning Paths, and combine those Learning Paths with Courses. The option is irreversible.<br></p></td>
   </tr>
   <tr>
    <td>
