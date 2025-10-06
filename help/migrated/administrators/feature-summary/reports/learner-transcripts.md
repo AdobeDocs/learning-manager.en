@@ -53,9 +53,6 @@ Learner Transcripts in Adobe Learning Manager tracks training, compliance, and s
 2. Select **[!UICONTROL Reports]** from the left navigation menu. 
 3. Select **[!UICONTROL Custom Reports]** within Reports and then select **[!UICONTROL Excel Reports]**. 
 4. Select **[!UICONTROL Learner Transcripts]**. 
-   
-   ![]()
-
 5. Select **[!UICONTROL Generate New]**.
 6. Select the date range for which you need the transcript generated. By default, the **[!UICONTROL From]** date is the learner's registration date, and the **[!UICONTROL To]** date is always the current date. You can modify only the start date from when you need the data.
 7. Select the following:
@@ -74,9 +71,6 @@ Learner Transcripts in Adobe Learning Manager tracks training, compliance, and s
     b. Download module level information in the Learner transcript by enabling the **[!UICONTROL Enable module level information]** checkbox. In this case, module names and the time spent on each module are fetched as a part of the transcript if this option is enabled.
     c. Download skills data and summary sheets by enabling the option **[!UICONTROL Include skills data and summary sheets]** checkbox. See the Excel reports section for more information.
 9. You can also select the column values  to be populated in your report. This provides flexibility to download reports with specific column values as required. Select the columns from the dropdown menu.
-   
-   ![]
-
 Transcripts are generated and downloaded to your computer as .zip files when the skills data is not included. If the Skills data checkbox is enabled transcripts are generated and downloaded as . xlsx files.  
 
 ### Generate Learner transcript using copy-paste
@@ -84,9 +78,6 @@ Transcripts are generated and downloaded to your computer as .zip files when the
 Fetching Learner transcripts becomes a tedious process as it can be obtained only for a learner or user group one at a time. Here, with the copy-paste feature you can copy the list of Learner email ids and paste it at once.
 
 1. Select **[!UICONTROL Email IDs]** tab to enter the copied list of unique email ids.
-
-   ![]
-
 2. Paste unique email IDs of Learners you want to add, separated by a comma, semi-colon or line break.
 3. Select **[!UICONTROL Validate Emails Ids]** to check if the email ID you've entered is valid. In case the entered email id is incorrect, it would be highlighted in red along with a validation message.
 
@@ -139,8 +130,8 @@ The following columns capture activity, progress, or attempts.
 |Attempts Taken  |The total number of attempts taken by the learner so far for this module. |
 |Maximum Allowed Attempts |The maximum number of attempts allowed for the learner to consume the module. |
 |Submission Comments |Comments from a learner's manager after they complete a Learning Object.<br>The submission comments data provided by the instructor are included in the file submission module . See <a href=https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules>Modules-Adobe Learning Manager for more information.</a></br>|
-|Completion Source |<b>Note:</b> For VC connector attendance workflows, when a learner is marked as attended automatically, the source will display "SELF, (learner_email)". |
-|Completion Comment |The comments made by the administrator when they mark a learner as complete after they complete a course, certification, or Learning Path. The administrator can add the completion comments for one or multiple learners. See <a href=https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses#completion-comments>Completion comments</a> for more information. |
+|Completion Source |Refers to the origin or method through which a learner's completion of a course, learning program, or certification is recorded. It helps administrators understand how the completion was achieved or logged in the system. The column identifies whether the completion was self-reported, automatically recorded, or facilitated by a specific role or configuration. <b>Note:</b> For VC connector attendance workflows, when a learner is marked as attended automatically, the source will display "SELF, (learner_email)". |
+|Completion Comment |The comments made by the administrator when they mark a learner as complete after they complete a course, certification, or Learning Path. The administrator can add the completion comments for one or multiple learners.|
 
 **Learning Objects-related information**
 
@@ -198,8 +189,6 @@ The Learner Transcripts dialog box also allows you to download skills data and s
 * Skill Summary I
 * Skill Summary II
 
-![]
-
 ### What does the Learning Summary I sheet contain
 
 Track Learning Paths, courses or certifications that are actively utilized. Track the in-progress activity as well as any upcoming due dates for training.
@@ -213,10 +202,7 @@ Track Learning Paths, courses or certifications that are actively utilized. Trac
 ### How to interpret the data
 
 This Learning Summary I report tracks two Learning Paths assigned to the learner.
-From the example,
 
-![]
- 
 * The user is enrolled in two Learning Paths and has started both.
 * Neither of the learning paths has been completed yet.
 * The learner has not yet progressed beyond the 70% threshold in either path.
@@ -233,10 +219,6 @@ Track learning activity per learner. Track enrollments, in-progress activity as 
 * Number of Learning Objects with due date in N days: Identifies LOs that are due within the next set number of days (in this case, 7 days), helping track approaching deadlines.
 
 ### How to interpret the data
-
-From the example,
- 
-![]
 
 * The learner is enrolled in two learning objects and has started both.
 * No learning objects have been completed.
@@ -301,8 +283,6 @@ The history of Learner Transcript downloads allows administrators to track who d
 
 After downloading a Learner Transcript, the Learner Transcripts page lists all transcripts that are generated by anyone in the platform.
 
-![]
- 
 The list displays the following attributes:
 
 * From and To: Duration of the transcripts to be downloaded.
@@ -326,8 +306,6 @@ All courses that are part of a Learning Path (LP) will appear in the Learner Tra
 If a learner has been deleted from the platform, their transcript will not show their records in any reports generated for the user group they were part of. This means that the records of deleted learners will be excluded from any filtered reports created using user group filters.
 
 But you can still download the data of the deleted learners. If you've selected the option **[!UICONTROL Include deleted learners]** while setting the filters for generating the report, you can download the report for the deleted learners.
-
-![]
 
 **Behavior for custom administrators**
 
