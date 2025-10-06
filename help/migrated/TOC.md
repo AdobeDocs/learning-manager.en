@@ -61,7 +61,7 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
    * Content marketplace {#content-marketplace}
       * [Content marketplace](administrators/feature-summary/content-marketplace.md)
-      * [Add Go1 courses to a Learning Path](administrators/feature-summary/content-marketplace/add-go1-playlist.md)
+      * [Add Go1 courses to a Learning Path](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [Reports](administrators/feature-summary/reports.md)
    * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
