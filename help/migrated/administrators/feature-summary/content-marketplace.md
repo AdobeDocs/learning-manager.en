@@ -145,6 +145,7 @@ Adobe Learning Manager syncs regularly with the Content Hub, ensuring that new a
 
 All content is mapped to supported languages, allowing administrators to filter and manage content more effectively based on language preferences.
 
+
 ## Email templates
 
 Adobe Learning Manager offers pre-configured email templates that notify administrators and learners about content purchases, system updates, and learning activities.

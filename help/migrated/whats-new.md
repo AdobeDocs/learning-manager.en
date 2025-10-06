@@ -6,11 +6,11 @@ title: What's new in Adobe Learning Manager October 2025 release
 
 # What's new in Adobe Learning Manager October 2025 release
 
-The Adobe Learning Manager October 2025 release introduces significant enhancements designed to improve reporting accuracy, expand integration capabilities, and enhance the learning experience for administrators, authors, and learners.
+The Adobe Learning Manager October 2025 release introduces significant enhancements designed to improve reporting accuracy, expand integration capabilities, and enhance the learning experience for Administrators, Authors, and Learners.
 
 * Experience Builder: Design fully branded, role-based learning portals tailored to your organization's needs. Create branded, role-based learning portals with widgets, menus, and pages.
 * Social tagging in learning boards: Learners can now tag peers using @username in posts and comments, enabling targeted collaboration and notifications within social learning communities.
-* Scoped announcement permissions: Custom administrators can create announcements limited to their assigned user groups or catalogs, ensuring targeted communication and reducing information overload.
+* Scoped announcement permissions: Custom Administrators can create announcements limited to their assigned user groups or catalogs, ensuring targeted communication and reducing information overload.
 * Language-based progress tracking: Learner progress is now saved independently for each locale, allowing seamless switching between languages without losing progress.
 * Incremental custom role management: Administrators can now manage custom roles more efficiently with support for incremental and multi-incremental imports in Adobe Learning Manager.
 * Enhanced APIs for analytics and migration: New and improved APIs provide better quiz performance tracking, migration status monitoring, and support for user tagging in social learning.
@@ -26,24 +26,24 @@ The Adobe Learning Manager October 2025 release introduces significant enhanceme
 >For any questions or additional information, contact your Customer Success Manager.
 
 Experience Builder is a no-code/low-code tool in Adobe Learning Manager that helps you create customized learning portals. It allows you to design branded, user-friendly learning portals without needing technical skills or extensive coding knowledge.
-With Experience Builder, you can create new pages, menus, and widgets to deliver personalized learning experiences for your audience quickly and easily. With Experience Builder, you can quickly create new pages, menus, and widgets to deliver personalized learning experiences for your audience.
+With Experience Builder, Administrators can easily create pages, menus, and widgets to deliver personalized learning experiences tailored to their audience.
 
 Before Experience Builder, organizations faced several challenges:
 
 1. **Limited customization**: Portals had fixed designs with few options to reflect your brand. Administrators could only make basic changes, such as modifying headers, footers, or colors, which limited the ability to create unique experiences.
 2. **Cost**: Building custom portals required expensive developers and long timelines, often taking 6 to 9 months to complete. This approach increased the total cost of ownership and delayed deployment.
 3. **Generic experiences**: Everyone saw the same content, even if it wasn't relevant to their role or needs. This lack of personalization reduced learner engagement and satisfaction.
-4. **Technical barriers**: Non-technical administrators struggled to create or update portals because they needed coding knowledge or external support.
+4. **Technical barriers**: Non-technical Administrators struggled to create or update portals because they needed coding knowledge or external support.
 
 Experience Builder solves these problems by providing a simple, no-code/low-code solution for creating personalized, branded portals.
 
-It allows administrators to design portals that meet their organization's needs without relying on technical expertise or external developers.
+It allows Administrators to design portals that meet their organization's needs without relying on technical expertise or external developers.
 
 **Use cases**
 
 * **Branded portals**: Create a portal that matches your company's website with logos, colors, and layouts. For example, a healthcare company can design a portal that reflects its corporate branding while delivering learning content.
 * **Role-based learning**: Build pages tailored to specific roles. Sales teams can view product training, while engineers access technical courses.
-* **Product training**: Set up dedicated pages for different products, such as Photoshop or Illustrator, with widgets displaying courses, certifications, and related resources.
+* **Product training**: Set up dedicated pages for different products, such as Photoshop or Illustrator, with widgets displaying Courses, Certifications, and related resources.
 
 ## Language-based learner progress
 
@@ -65,9 +65,9 @@ View [My Learning](/help/migrated/learners/feature-summary/courses.md#language-b
 
 ## Incremental and multi-incremental support for custom roles
 
-Adobe Learning Manager now supports incremental and multi-incremental imports for custom roles and role assignments. With incremental imports, administrators can upload only new, updated, or deleted records of the users instead of re-uploading the entire CSV file.
+Adobe Learning Manager now supports incremental and multi-incremental imports for custom roles and role assignments. With incremental imports, Administrators can upload only new, updated, or deleted records of the users instead of re-uploading the entire CSV file.
 
-Multi-incremental imports extend this capability by allowing large organizations to split incremental files by region or department (for example, US, EU, APAC) and process them in parallel. Adobe Learning MAnager also supports up to 20 incremental user CSVs and their corresponding custom roles CSVs, making it scalable for large operations.
+Multi-incremental imports extend this capability by allowing large organizations to split incremental files by region or department (for example, US, EU, APAC) and process them in parallel. Adobe Learning Manager also supports up to 20 incremental user CSVs and their corresponding custom roles CSVs, making it scalable for large operations.
 
 Administrators can now upload role and user-role files (role.csv and user_role.csv) incrementally, along with user files (user.csv), instead of always doing full uploads.Each user import (user1.csv) is linked with its own role and role-mapping files (user1_role.csv, user1_user_role.csv), stored in separate FTP folders.
 
@@ -77,7 +77,7 @@ Following three additional columns have been added to the following CSVs:
 * Role State (role.csv): Indicates whether a custom role is currently active or inactive in the account.
 * User Role State (user_role.csv): Defines the status of the mapping between a user and a role, showing if the assignment is active or has been removed.
 
-The Adobe Learning Manager now captures add, update, and delete actions in the user audit and custom role reports, giving administrators better visibility into changes.
+The Adobe Learning Manager now captures add, update, and delete actions in the user audit and custom role reports, giving Administrators better visibility into changes.
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ Go1 integration is enhanced to allow direct curation of Go1 courses for creating
 
 **What's new**
 
-* Create and manage playlists directly within Go1 using AI chat assistance or manual selection.
+* Create and manage Playlist(s) directly within Go1 using AI chat assistance or manual selection.
 * Include Go1 courses in recurring certification cycles with automatic progress reset. View [Certifications](/help/migrated/administrators/feature-summary/certifications.md) for more information on creating certificates. 
 * Upgraded content discovery interface for improved browsing and content curation.
 
@@ -99,44 +99,44 @@ Go1 integration is enhanced to allow direct curation of Go1 courses for creating
 
 * All Go1 features require an active Go1 license.
 * Previous free Go1 content will be decommissioned. Organizations must preview and purchase required content bundles.
-* Administrators and authors can create and manage playlists; learners maintain view-only access.
+* Administrators and Authors can create and manage Playlist(s); learners maintain view-only access.
 
-View [Add Go1 playlist to the learning path](/help/migrated/administrators/feature-summary/content-marketplace/add-go1-playlist.md) for more information on adding Go1 courses to the learning path. 
+View [Add Go1 courses to the learning path](/help/migrated/administrators/feature-summary/content-marketplace/add-go1-playlist.md) for more information on adding Go1 courses to the Learning Path. 
 
 ## Support for vimeo URLs in Activity Module
 
-The Activity module now supports embedding Vimeo URLs, similar to YouTube embeds. This enhancement allows administrators to add Vimeo video links directly into the Activity module. When authors create a course and add an Activity module, they now see an option to include a Vimeo URL. Similar to how YouTube links are added, authors can paste a Vimeo link directly into the module setup. Once published, learners can play the Vimeo video seamlessly within the Learner app without being redirected outside the platform.
+The Activity module now supports embedding Vimeo URLs, similar to YouTube embeds. This enhancement allows Administrators to add Vimeo video links directly into the Activity module. When Authors create a course and add an Activity module, they now see an option to include a Vimeo URL. Similar to how YouTube links are added, Authors can paste a Vimeo link directly into the module setup. Once published, learners can play the Vimeo video seamlessly within the Learner app without being redirected outside the platform.
 
 View [Add modules](/help/migrated/authors/feature-summary/courses.md#add-modules) article for more information on adding modules to the courses. 
 
 ## Time Zone information for CR/VC modules
 
-Time zone details are now displayed for Classroom (CR) and Virtual Classroom (VC) modules on the Course Overview page, Instance page, Learner Preview page, and in calendar widget. Learners and administrators can clearly see the time zone associated with scheduled sessions across key pages and calendar invites. Learners can better plan and join sessions without time zone misunderstandings. This enhancement is available only in the Immersive Learner app.
+Time zone details are now displayed for Classroom (CR) and Virtual Classroom (VC) modules on the Course Overview page, Instance page, Learner Preview page, and in Calendar Widget. Learners and Administrators can clearly see the time zone associated with scheduled sessions across key pages and calendar invites. Learners can better plan and join sessions without time zone misunderstandings. This enhancement is available only in the Immersive Learner app.
 
 Learners in different regions can confirm the session time in the correct time zone. Clear time zone visibility helps avoid missed sessions or incorrect calendar planning. 
 
-## Auto-populate the name of the author while creating a course
+## Auto-populate the name of the Author while creating a course
 
-During course creation, the **[!UICONTROL Author(s)]** field is now automatically populated with the name of the author who is creating the course. Authors no longer need to manually enter their own names. Additional authors can still be added or updated as needed.
+During course creation, the **[!UICONTROL Author(s)]** field is now automatically populated with the name of the Authors who is creating the course. Authors no longer need to manually enter their own names. Additional Authors can still be added or updated as needed.
 
-For organizations with strict content ownership rules, auto-population ensures the author is always correctly attributed. When editing an existing course, authors can update or add co-authors without losing the auto-populated entry.
+For organizations with strict content ownership rules, auto-population ensures the Authors is always correctly attributed. When editing an existing course, Authors can update or add co-authors without losing the auto-populated entry.
 
 View [Create a course](/help/migrated/authors/feature-summary/courses.md#create-a-course---advanced-workflow) for more information on creating a course. 
 
 ## Search external profiles while changing profile
 
-Previously, administrators scrolled through the entire list of external profiles and manually selected the desired profile when reassigning learners. This made the process time-consuming, especially for accounts with many profiles. With this enhancement, administrators and custom administrators can now search for external profiles directly in the tab during the change profile workflow. 
+Previously, Administrators scrolled through the entire list of external profiles and manually selected the desired profile when reassigning learners. This made the process time-consuming, especially for accounts with many profiles. With this enhancement, Administrators and custom Administrators can now search for external profiles directly in the tab during the change profile workflow. 
 
 **Use cases**
 
-* In accounts with hundreds of external profiles (e.g., franchise locations, partner companies, or regional groups), administrators can now locate the exact profile instantly using search, reducing errors and saving time.
+* In accounts with hundreds of external profiles (e.g., franchise locations, partner companies, or regional groups), Administrators can now locate the exact profile instantly using search, reducing errors and saving time.
 * During organizational changes, such as mergers or department realignments, learners may need to be moved in bulk to new external profiles. The search-based reassignment makes this task smoother and more accurate.
 
 View [Change the external profile](/help/migrated/administrators/feature-summary/add-users-user-groups.md#change-profile) for more information on changing the profile. 
 
 ## Add a co-organizer for Microsoft Teams sessions
 
-Previously, authors could only assign a single organizer to Microsoft Teams sessions. With this enhancement, administrators can now add co-organizers to a session. A new field, **[!UICONTROL Co-Organizer]**, has been introduced in Microsoft Teams sessions, allowing authors to assign additional organizers alongside the primary organizer. 
+Previously, Authors could only assign a single organizer to Microsoft Teams sessions. With this enhancement, Administrators can now add co-organizers to a session. A new field, **[!UICONTROL Co-Organizer]**, has been introduced in Microsoft Teams sessions, allowing Authors to assign additional organizers alongside the primary organizer. 
 
 Authors can assign multiple co-organizers for each Microsoft Teams session. Co-organizers have the same access and permissions as the primary organizer. Authors can add up to 10 organizers per session, which provides greater flexibility and improves session management.
 
@@ -171,15 +171,15 @@ Adobe Learning Manager now features a  **[!UICONTROL Reset Interests]** button w
 
 View [Reset recommendations in Salesforce app](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app) for more information on reset recommendations in Salesforce app.
 
-## Calendar widget enhancement
+## Calendar Widget enhancement
 
-Learners can now see both past and upcoming sessions in the calendar widget. They can move through the calendar to any date and check the session details. This means they can review sessions that have already happened, helping them track what they missed or attended. They can also view all upcoming sessions for the next 12 months, including the current month, making it easier to plan ahead and manage their schedules.
+Learners can now see both past and upcoming sessions in the Calendar Widget. They can move through the calendar to any date and check the session details. This means they can review sessions that have already happened, helping them track what they missed or attended. They can also view all upcoming sessions for the next 24 months, including the current month, making it easier to plan ahead and manage their schedules.
 
-View [Calendar](/help/migrated/learners/feature-summary/learner-home-page.md#calendar) for more information on Calendar widget. 
+View [Calendar](/help/migrated/learners/feature-summary/learner-home-page.md#calendar) for more information on Calendar Widget. 
 
-## Tag users in social boards
+## Tag users in Social Boards
 
-Social learning boards now support user tagging functionality, enabling more targeted discussions and improved collaboration within learning communities. Learners can be tagged in social learning posts and comments through the learner app, APIs, and Adobe Learning Manager reference site.
+Social Boards now support user tagging functionality, enabling more targeted discussions and improved collaboration within learning communities. Learners can be tagged in social learning posts and comments through the learner app, APIs, and Adobe Learning Manager reference site.
 
 Users outside the board's scope cannot be tagged, preventing unwanted notifications. If a tagged user is deleted from the system, their mention appears as "anonymous". Tagging user groups or "@all" is not permitted to prevent notification spam.
 
@@ -195,7 +195,7 @@ Users outside the board's scope cannot be tagged, preventing unwanted notificati
 * Subject matter experts being consulted on specialized topics: By tagging experts, teams can directly involve the right people, reducing response time and improving decision-making for technical or niche queries.
 * Team discussions requiring input from specific stakeholders: Tagging stakeholders ensures that the relevant decision-makers are aware of updates and can provide input, keeping projects on track and aligned with business goals.
 
-View [User tagging in social learning boards](/help/migrated/learners/feature-summary/social-learning-web-user.md#tag-users-in-social-board-posts) for more information on tagging users in social boards.
+View [User tagging in Social Boards](/help/migrated/learners/feature-summary/social-learning-web-user.md#tag-users-in-social-board-posts) for more information on tagging users in Social Boards.
 
 ## Scoped announcement permissions for custom administrators
 
@@ -234,16 +234,16 @@ Within the catalog, learners can apply additional filters to refine their search
 
 View [Configure saved courses widgets in AEM sites](/help/migrated/integrate-aem-learning-manager.md#configure-my-saved-courses-widgets-in-aem-sites) for more information on saved courses widget in AEM sites.
 
-## Support to display the author names in shared courses
+## Support to display the Authors names in shared courses
 
-Previously, when a course was shared with a [peer account](/help/migrated/administrators/feature-summary/peer-account.md), the author appeared as External Author. Now, it displays the author's name, whether they are an internal user of the main account or a legacy author (i.e., any name entered as a string in the author field during course creation). Selecting an author shows the number of courses they have shared with the peer account; however, these authors are not actual users in the peer account.
+Previously, when a course was shared with a [peer account](/help/migrated/administrators/feature-summary/peer-account.md), the Author appeared as External Author. Now, it displays the Author's name, whether they are an internal user of the main account or a legacy Authors (i.e., any name entered as a string in the Authors field during course creation). Selecting an Author shows the number of courses they have shared with the peer account; however, these Authors are not actual users in the peer account.
 
-If a user is deleted from the main account, their data is removed there, but the author information remains in any peer accounts where their content has been shared.
+If a user is deleted from the main account, their data is removed there, but the Author information remains in any peer accounts where their content has been shared.
 
-In the Learning Objects API, author information is now returned differently for shared courses and main account courses:
+In the Learning Objects API, Author information is now returned differently for shared courses and main account courses:
 
 * Shared courses (Peer Account): Author information is returned under the `authorDetails` attribute.
-* Main account Courses: Author information continues to be returned under the `authors` attribute.
+* Main account courses: Author information continues to be returned under the `authors` attribute.
 
 >[!NOTE]
 >
@@ -269,7 +269,7 @@ With this release, the error logs will also be available to download via the API
 
 **API changes**
 
-There is a new migration API, `runStatus`, which allows integration administrators to check the status of migration runs triggered via the API, something not possible in previous versions of Adobe Learning Manager. 
+There is a new migration API, `runStatus`, which allows Integration Administrators to check the status of migration runs triggered via the API, something not possible in previous versions of Adobe Learning Manager. 
 
 Additionally, `runStatus` API now provides a direct link to download error logs (CSV) for completed runs. Note that the link is valid for seven days only, and the logs are retained for one month.
 
@@ -358,9 +358,11 @@ Produces the following response. The response contains:
 }
 ```
 
+View [Migration manual](/help/migrated/integration-admin/feature-summary/migration-manual.md) for more information on migrating content from existing LMS.
+
 ### Social API changes (user tag, comments, and replies)
 
-Adobe Learning Manager now supports @user tagging functionality in Social Learning boards, enabling learners to mention and notify peers within posts, comments, and replies. This feature enhances collaboration and content discovery across the platform.
+Adobe Learning Manager now supports @user tagging functionality in Social Boards, enabling learners to mention and notify peers within posts, comments, and replies. This feature enhances collaboration and content discovery across the platform.
 
 This release introduces new API capabilities to support user mentions, including enhanced POST and GET endpoints, as well as a new search functionality for tagged users.
 
@@ -651,14 +653,14 @@ The API response now includes two additional fields:
 
 In response, **course:15067_30122_41715_1_3400468** is the ID of the Learning Object resource grade for which the information is being requested. The `learningObjectResourceGrad`e id can be obtained from the `GET /enrollments/{id}` API.  
 
-### API responses supports case sensitivity for author names
+### API responses supports case sensitivity for Author names
 
-The API response now gives the exact case of legacy author names as entered during course creation or update. This ensures that names appear consistently across the learner UI and public APIs.
+The API response now gives the exact case of legacy Author names as entered during course creation or update. This ensures that names appear consistently across the learner UI and public APIs.
 
 **What's new**
 
-* When a new author name is added, the case is stored and returned exactly as entered.
-* If an existing author name is removed and re-added with a different case, the updated case will be honored and reflected across all courses using that author name.
+* When a new Author name is added, the case is stored and returned exactly as entered.
+* If an existing Author name is removed and re-added with a different case, the updated case will be honored and reflected across all courses using that Author name.
 * No automatic migration will be done for previously stored names; only newly added or updated names will follow this behavior.
 
 ### Calendar API enhancement
@@ -689,27 +691,19 @@ The new attribute `reportingUserIdPreference` has been introduced to `get /accou
 
 ### Author information in shared courses
 
-In the Learning Objects API, the way author information is returned has been updated to distinguish between main account courses and courses shared with peer accounts:
+In the Learning Objects API, the way Author information is returned has been updated to distinguish between main account courses and courses shared with peer accounts:
 
-* Shared Courses (Peer Account): Author details are now returned under a new attribute, `authorDetails`. This attribute provides the author name even when the course originates from another account.
+* Shared Courses (Peer Account): Author details are now returned under a new attribute, `authorDetails`. This attribute provides the Author name even when the course originates from another account.
 
 * Main Account Courses: Author information continues to be returned under the existing `authors` attribute, with no change to current behavior.
 
-This change ensures consistency in how author data is exposed via API for both main and shared courses, while also preserving compatibility for existing integrations.
-
-### Search visibility for courses in higher-order Learning Objects
-
-To support improved search visibility, a new parameter `filter.ignoreHigherOrderLOEnrollment` (Type: Boolean (true / false)) has been added to the `GET /learningObjects` API.
-
-When set to true, the API includes individual courses in the response even if they are only part of a higher-order Learning Object (such as a Learning Path or Certification) where the learner is already enrolled.
-
-When set to false (default behavior), courses that are only available through a higher-order Learning Object, and not directly enrolled by the learner, will be excluded from the results.
+This change ensures consistency in how Author data is exposed via API for both main and shared courses, while also preserving compatibility for existing integrations.
 
 ## Webhooks changes
 
 ### Register LinkedIn Learning webhooks using the connector
 
-Previously, administrators had to manually register LinkedIn Learning webhooks to Adobe Learning Manager through APIs. With this enhancement, the LinkedIn Learning (LIL) connector now supports webhook registration automatically during new connection setup in ALM. The **OAuth Server  URL** and **Tenant Server URL** will be auto-populated on the LinkedIn Learning configuration page.
+Previously, Administrators had to manually register LinkedIn Learning webhooks to Adobe Learning Manager through APIs. With this enhancement, the LinkedIn Learning (LIL) connector now supports webhook registration automatically during new connection setup in ALM. The **OAuth Server  URL** and **Tenant Server URL** will be auto-populated on the LinkedIn Learning configuration page.
 
 View [LinkedIn Learning](/help/migrated/integration-admin/feature-summary/connectors.md#linkedin-learning-connector) for more information on LinkedIn Learning integration.
 
@@ -799,7 +793,7 @@ View [Learner Transcript](/help/migrated/administrators/feature-summary/learner-
 
 **Overview**
 
-The Job Aids report has been enhanced to include direct download links to job aids, streamlining content management and audit processes for administrators and authors. This enhancement gives direct file downloads and URL access from within the report. Eliminates manual effort in locating and downloading job aids for compliance or accessibility audits. 
+The Job Aids report has been enhanced to include direct download links to job aids, streamlining content management and audit processes for Administrators and Authors. This enhancement gives direct file downloads and URL access from within the report. Eliminates manual effort in locating and downloading job aids for compliance or accessibility audits. 
 
 **What's new**
 
@@ -809,7 +803,7 @@ The Job Aids report has been enhanced to include direct download links to job ai
 
 **Use cases**
 
-* Authors or administrators conduct regular accessibility audits on job aids, as required by large organizations.
+* Authors or Administrators conduct regular accessibility audits on job aids, as required by large organizations.
 * Any scenario where quick, role-based access to job aid files is needed for review or compliance.
 
 ![](/help/migrated/assets/job-aid-report.png) 

@@ -518,6 +518,89 @@ Go through the pre-requisites of migration process before you start with the mig
 
 After migrating the learning data and content from your organization's legacy LMS, you can verify the imported data and content using various learning object features. For example, you can log in to Learning Manager application as Administrator and verify the availability of imported modules and courses data and content. 
 
+### Migration verification through APIs
+
+A new migration API, `runStatus`, allows integration administrators to track the progress of migration runs triggered through the API.
+
+The `runStatus` API also provides a direct link to download error logs in CSV format for completed runs. The download link remains active for seven days, and logs are retained for one month.
+
+**Sample curl**
+
+**Endpoint**
+
+```
+GET /bulkimport/runStatus
+```
+
+**Parameters**
+
+* **migrationProjectId**: (Required). A unique identifier for a migration project. A migration project is used to transfer data and content from an existing Learning Management System (LMS) to Adobe Learning Manager. Each migration project can consist of multiple sprints, which are smaller units of migration tasks.
+
+* **sprintId**: (Required). A unique identifier for a sprint within a migration project. A sprint is a subset of migration tasks that includes specific learning items (e.g., courses, modules, learner records) to be migrated from an existing LMS to Adobe Learning Manager. Each sprint can be executed independently, allowing for phased migration.
+
+* **sprintRunId**: (Required). A unique identifier used to track the execution of a specific sprint within a migration project. It's associated with the actual migration process for the items defined in a sprint. The sprintRunId helps in monitoring, troubleshooting, and managing the migration job.
+
+**Response**
+
+```
+{
+  "sprintId": 2510080,
+  "sprintRunId": 2740845,
+  "migrationProjectId": 2509173,
+  "startTime": 1746524711052,
+  "endTime": 1746524711052,
+  [
+    {
+      "id": 2609923,
+      "lastHeartbeatTime": 1746524711052,
+      "objectName": "content",
+      "jobState": "COMPLETED",
+      "errorCsvLink": "",
+      "errorLogLink": "migration/5830/2509173/2510080/2740845/content_err.csv",
+      "sequenceNumber": 1
+    },
+    {
+      "id": 2609922,
+      "lastHeartbeatTime": 1746524713577,
+      "objectName": "course",
+      "jobState": "WAITING_IN_QUEUE",
+      "errorCsvLink": "",
+      "errorLogLink": null,
+      "sequenceNumber": 2
+    }
+  ]
+}
+```
+
+Additionally, the `startRun` API response now includes the migration project ID, sprint ID, and sprint run ID, which are required to query the new status endpoint.
+
+```
+curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/primeapi/v2/bulkimport/runStatus?migrationProjectId=001&sprintId=10001&sprintRunId=7'
+```
+
+Produces the following response. The response contains:
+
+* `migrationId`
+* `sprintId`
+* `sprintRunId`
+
+**Response**
+
+```
+{
+  "status": "OK",
+  "title": "BULKIMPORT_RUN_INITIATED_SUCCESSFULLY",
+  "source": {
+    "info": "Success",
+    "migrationInfo": {
+      "migrationProjectId": "001",
+      "sprintId": "10001",
+      "sprintRunId": "7"
+    }
+  }
+}
+```
+
 ## Retrofitting in migration {#retrofittinginmigration}
 
 This integration feature allows you to retrofit historical data for a learning object from a legacy learning management system to an active course that is created in Learning Manager.

@@ -224,9 +224,9 @@ When you view the posts in a board format, you can then sort the posts according
 * If you choose **Posts**, the boards will be sorted according to the number of posts made in the board.
 * If you choose **Contributors**, the boards will be sorted according to the number of users who've commented or replied in the threads.
 
-## Tag users in social boards
+## Tag users in Social Boards
 
-Administrators can tag other users in social learning board posts and comments using the @username format. Tagging works through the app or APIs. Only users with access to the board can be tagged, keeping interactions relevant and private. 
+Learners with access to the Social Board can tag other users in social learning posts and comments using the @username format. Tagging works through the app or APIs. Only users with access to the board can be tagged, keeping interactions relevant and private. 
 
 * Tagged users get in-app and email notifications
 * Notifications include direct links to the content
@@ -235,12 +235,12 @@ Administrators can tag other users in social learning board posts and comments u
 
 >[!NOTE]
 >
->Administrators can't tag user groups or use @all mentions to prevent spam.
+>Learners can't tag user groups or use @all mentions to prevent spam.
 
-### Tag users in social board posts
+### Tag users in Social Board posts
 
 You can tag specific board members in posts or comments using @username. Tagging is limited to members with access to that board.
-To tag users in a social board:
+To tag users in a Social Board:
 
 1. Log in to Adobe Learning Manager as a learner. 
 2. Select **[!UICONTROL Social Learning]** in the left navigation pane.
