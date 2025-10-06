@@ -101,7 +101,7 @@ Go1 integration is enhanced to allow direct curation of Go1 courses for creating
 * Previous free Go1 content will be decommissioned. Organizations must preview and purchase required content bundles.
 * Administrators and Authors can create and manage Playlist(s); learners maintain view-only access.
 
-View [Add Go1 courses to the learning path](/help/migrated/administrators/feature-summary/content-marketplace/add-go1-playlist.md) for more information on adding Go1 courses to the Learning Path. 
+View [Add Go1 courses to the learning path](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md) for more information on adding Go1 courses to the Learning Path. 
 
 ## Support for vimeo URLs in Activity Module
 

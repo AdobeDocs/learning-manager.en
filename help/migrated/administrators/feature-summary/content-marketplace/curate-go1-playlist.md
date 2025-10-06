@@ -64,8 +64,8 @@ To create a Learning Path with Go1 courses:
    _Add Go1 courses to your Sales Engineers Skill Development Playlist to expand learning options with curated third-party content_
 
 7. In the **[!UICONTROL Library]**, search for and select **[!UICONTROL Create playlist]** and choose from one of the following:
-    a. **[!UICONTROL with AI]**: Create a Playlist with the help of AI. View this [section](/help/migrated/administrators/feature-summary/content-marketplace/add-go1-playlist.md#create-a-playlist-with-ai) for more information. 
-    b. **[!UICONTROL by myself]**: Create a Playlist by manually adding courses to it. View this [section](/help/migrated/administrators/feature-summary/content-marketplace/add-go1-playlist.md#create-a-playlist-manually) for more information.
+    a. **[!UICONTROL with AI]**: Create a Playlist with the help of AI. View this [section](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai) for more information. 
+    b. **[!UICONTROL by myself]**: Create a Playlist by manually adding courses to it. View this [section](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually) for more information.
 
 ### Create a Playlist with AI**
 
