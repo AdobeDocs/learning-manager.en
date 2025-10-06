@@ -33,7 +33,7 @@ To create a Playlist with AI:
    _AI Assistant screen where administrators can type their questions, get course recommendations, and instantly create a playlist tailored to their needs_
 5. Select the skills and then select **[!UICONTROL Compile into one list]**.
 
-   ![](assets/select-the%20skills-ai-assistant.png)
+   ![](assets/select-the-skills-ai-assistant.png)
    _AI Assistant screen displaying the relevant skills to select and compile into playlist_
 6. Select **[!UICONTROL Convert to Playlist]**.
 
