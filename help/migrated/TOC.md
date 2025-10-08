@@ -94,6 +94,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Tags](administrators/feature-summary/tags.md)
    * [Learning Manager Content Catalog](administrators/feature-summary/content-catalogs.md)
    * [Custom roles](administrators/feature-summary/custom-role.md)
+   * [Custom role for announcement permission](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
    * [Catalog labels](administrators/feature-summary/catalog-labels.md)
    * [xAPI in Learning Manager](authors/feature-summary/xapi.md)
    * [Monitoring and moderating Social Learning as an admin](administrators/feature-summary/social-learning-configurations-as-an-admin.md)

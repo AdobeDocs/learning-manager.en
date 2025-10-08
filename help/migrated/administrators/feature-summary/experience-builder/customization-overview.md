@@ -36,7 +36,7 @@ View this section for more information.
 
 ## Use cases
 
-**Create role-based, prsonalized learning portals**
+**Create role-based, personalized learning portals**
 
 Provide different experiences to different learners within the same account, such as creating custom pages and menus or a curated learning strip for a particular audience.
 

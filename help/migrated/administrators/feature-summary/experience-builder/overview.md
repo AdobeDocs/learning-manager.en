@@ -16,7 +16,7 @@ title: Experience Builder in Adobe Learning Manager
 
 Experience Builder is a no-code/low-code tool in Adobe Learning Manager that helps you create customized learning portals. It allows you to design branded, user-friendly learning portals without needing technical skills or extensive coding knowledge.
 
-With Experience Builder, administrators can create new pages, menus, and widgets to deliver personalized learning experiences for your audience quickly and easily. With Experience Builder, you can quickly create new pages, menus, and widgets to deliver personalized learning experiences for your audience.
+With Experience Builder, administrators can easily create pages, menus, and widgets to deliver personalized learning experiences tailored to their audience
 
 Many organizations struggle to customize their learning portals without technical help or expensive system integrators. They want portals that match their brand, deliver targeted content, and adapt to different learner groups while still being quick and easy to build.
 
@@ -46,5 +46,5 @@ The functionality of using pages, widgets, or menus delivers several key benefit
 Experience Builder can be used for various learning scenarios involving internal employees and external users.
 
 * **Role-based training portals**: Organizations with specific departmental training needs, such as a financial firm with separate Sales and Customer Success teams, can create dedicated learning pages for each group to ensure the content is highly relevant.
-* **Event-specific learning pages**: You can create temporary, specialized pages for corporate events like a Tech Summit or a Sales Kick Off. These pages can feature session information, speaker lists, and an Events calendar widget, and can be targeted only to the relevant team for a specific duration before reverting to the standard portal experience.
+* **Event-specific learning pages**: You can create temporary, specialized pages for corporate events like a Tech Summit or a Sales Kick Off. These pages can feature session information, speaker lists, and an Events Calendar Widget, and can be targeted only to the relevant team for a specific duration before reverting to the standard portal experience.
 * **Customer academies**: Experience Builder allows agencies to build customer-facing academies that reflect their brand identity, achieving a custom experience without the time and cost associated with a headless build.

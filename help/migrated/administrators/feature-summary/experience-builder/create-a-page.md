@@ -176,7 +176,7 @@ _Custom Pages screen displaying options to delete custom pages created for produ
 
 ### Duplicate the page
 
-To delete the page:
+To duplicate the page:
 
 1. Log in to Adobe Learning Manager as an administrator.
 2. Select Branding in the left navigation pane.

@@ -20,16 +20,16 @@ You can create up to 1000 pages in Experience Builder. This is the upper limit, 
 
 * **Hard limit**: A maximum of 25 widgets can be added to a single page. 
 * **Recommended limit**: For better performance, it is advised to use no more than 10 widgets per page. 
-* **API-based widgets**: Widgets dependent on ALM APIs (e.g., Courses and paths, Category, My learning, Social learning, Calendar, Compliance, Leaderboard) should be limited to 10 per page. 
+* **API-based widgets**: Widgets dependent on ALM APIs (e.g., Courses and paths, Category, My Learning, Social Learning, Calendar, Compliance, Leaderboard) should be limited to 10 per page. 
 * **Independent widgets**: Widgets like HTML and Content box, which do not rely on ALM APIs, can be used up to the hard limit of 25 widgets. 
 
 ### Single use widgets 
 
-Certain widgets, such as Calendar, Social learning, Compliance and Leaderboard, should only be used once per page. Using them multiple times can lead to performance issues, especially for widgets like the calendar, which require significant resources to load sessions. 
+Certain widgets, such as Calendar, Social Learning, Compliance and Leaderboard, should only be used once per page. Using them multiple times can lead to performance issues, especially for widgets like the calendar, which require significant resources to load sessions. 
 
 ### Widget sizing guidelines 
 
-Widgets such as Calendar, Leaderboard, Social, and Compliance should be placed in layouts with a minimum width of one-third of the page. Single card widgets are best suited for this width to ensure optimal display. Widgets like the Calendar and Compliances (expanded view) are designed for half-width layouts to offer a better user experience. For other layout sizes, widgets will adjust responsively to fit the available space and maintain usability. 
+Widgets such as Calendar, Leaderboard, Social, and Compliance should be placed in layouts with a minimum width of one-third of the page. Single card widgets are best suited for this width to ensure optimal display. Widgets like the Calendar and Compliance (expanded view) are designed for half-width layouts to offer a better user experience. For other layout sizes, widgets will adjust responsively to fit the available space and maintain usability. 
 
 Using widgets within these recommended size guidelines enhances overall user interaction. 
 
@@ -57,7 +57,7 @@ Menus can be positioned at the top or left of the page. Further adjustments can 
 
 ## Feature-specific recommendations 
 
-### Social learning and Gamification widgets 
+### Social Learning and Gamification widgets 
 
 * If these features are disabled, administrators must manually remove the corresponding widgets from pages. 
 * Pages should be redesigned to ensure they remain functional and visually intact after disabling these features. 

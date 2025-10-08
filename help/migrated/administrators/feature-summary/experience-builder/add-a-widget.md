@@ -10,7 +10,7 @@ jcr-language: en-us
 
 The Calendar widget displays your scheduled sessions and training. You can browse the calendar to view training planned for upcoming months. It allows viewing training sessions by month with the ability to scroll left or right.
 
-The Calendar widget can added to a page by an administrator to display training schedules. Learners can interact with the calendar by scrolling through months to see upcoming sessions. They can filter sessions to quickly find relevant training. 
+The Calendar widget can be added to a page by an administrator to display training schedules. Learners can interact with the calendar by scrolling through months to see upcoming sessions. They can filter sessions to quickly find relevant training. 
 
 ### Add a calendar widget
 
@@ -114,7 +114,7 @@ The Compliance status widget will be added to the page. Administrators can add o
 
 ## Courses and paths widget
 
-The Courses & Paths widget displays recommended courses and learning paths tailored to the learner's role, interests, or training needs. 
+The Courses & Paths widget displays recommended Courses and Learning Paths tailored to the learner's role, interests, or training needs. 
 
 Administrators add the Courses & Paths widget to pages to highlight key learning content for specific audiences. Learners use the widget to browse recommended courses or paths and can directly enroll into the courses.
 
@@ -133,14 +133,14 @@ To configure the Courses and Paths widget:
 7. Select **[!UICONTROL Courses & Paths]**.
  
    ![](assets/select-course-path.png)
-   _Widget selection screen highlighting the Courses & Paths widget for displaying courses, learning paths, certifications, and job aids as interactive cards for learners_
+   _Widget selection screen highlighting the Courses & Paths widget for displaying Courses, Learning Paths, Certifications, and Job Aids as interactive cards for learners_
 
 8. Select **[!UICONTROL Proceed]**. 
 9. Type **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**. 
 10. Select the catalogs or manually choose up to 25 courses to display.
     
    ![](assets/configure-course-paths.png)
-   _Courses & Paths widget where administrators set the widget title, description, and select courses or learning paths to display as interactive cards_
+   _Courses & Paths widget where administrators set the widget title, description, and select Courses or Learning Paths to display as interactive cards_
 11. Select **[!UICONTROL Add widget]**. 
 
 The Courses & Paths widget will be added to the page. Administrators can add other widgets and publish the page.
@@ -215,7 +215,7 @@ The Gamification widget will be added to the page. Administrators can add other 
 
 The HTML widget allows administrators to embed custom HTML code directly into a page. This provides flexibility to add tailored content, integrate third-party tools, or include interactive elements that go beyond standard widget functionality. It supports rich customization through HTML, CSS, and even JavaScript, enabling unique designs and external integrations within the learning platform.
 
-### Add a HTML widget
+### Add an HTML widget
 
 A financial company wants to provide customized, interactive content tailored to its two main teams: Sales and Customer Success Managers (CSM). The HTML widget can be used to embed custom HTML-based resources such as financial dashboards, data visualizations, interactive forms, or market analysis tools directly into their training or team pages.
 
@@ -274,7 +274,7 @@ The My Learning widget provides learners with a personalized view of all the cou
 
 ### Add a My Learning widget
 
-A financial company wants to provide personalized learning experiences tailored to its two major teams: Sales and Customer Success Managers (CSM). The My Learning widget can be used to offer each team member a consolidated view of their assigned courses, ongoing learning paths, and certifications.
+A financial company wants to provide personalized learning experiences tailored to its two major teams: Sales and Customer Success Managers (CSM). The My Learning widget can be used to offer each team member a consolidated view of their assigned courses, ongoing Learning Paths, and Certifications.
 
 To configure the My Learning widget:
 
