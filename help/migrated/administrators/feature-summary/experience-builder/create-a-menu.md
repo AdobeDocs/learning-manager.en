@@ -8,6 +8,8 @@ jcr-language: en-us
 
 As an administrator at a financial company with two main teams, Sales and Customer Success Managers (CSM), you should create separate menus with their respective pages. This allows learners to easily find courses that are relevant to their roles under their own menu.
 
+By default, administrators can see default menu on the **[!UICONTROL Menu]** page, which cannot be deleted. This menu includes all the built-in pages currently visible in the learner app.
+
 To create a menu:
 
 1. Log in to Adobe Learning Manager as an administrator.
@@ -30,7 +32,7 @@ To create a menu:
    ![](assets/change-landing-page.png)
    _Menu configuration screen showing the option to select pages to change the landing page of the Learner's interface_
 
-7. Choose the custom page from the **[!UICONTROL Select pages]** option. 
+7. Choose the custom page from the **[!UICONTROL Select pages]** option. Administrators must be able to select only published custom pages, not those in the draft state.
 
    ![](assets/select-custom-pages.png)
    _Page selection screen, highlighting the option to include the custom page for user groups and customize the menu order_
@@ -71,6 +73,10 @@ The **[!UICONTROL Hide pages]** option allows administrators to keep the Learner
  
 ![](assets/select-hidden-pages.png)
 _Menu configuration screen showing hidden pages such as Catalog, Social Learning, Skills, and Badges_
+
+>[!NOTE]
+>
+>Pages within a submenu cannot be hidden directly. To hide a page, first drag it out of the submenu, and then hide it.
 
 ## What's next
 

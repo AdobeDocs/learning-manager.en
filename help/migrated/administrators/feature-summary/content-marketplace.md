@@ -139,12 +139,9 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## Content Hub
 
-Content Hub allows administrators to shortlist required playlists from learner app. The Content Hub page is visible to administrators in their learner role all the time as it allows them to shortlist playlists easily. To help you in shortlisting the right playlist, administrators can make this page accessible to limited Subject matter experts in their account. 
+Administrators can access the Go1 platform directly within Adobe Learning Manager. Go to **[!UICONTROL Content Marketplace]** and then select **[!UICONTROL Content Hub]**.
 
-Adobe Learning Manager syncs regularly with the Content Hub, ensuring that new additions and updates are automatically reflected in the platform.
-
-All content is mapped to supported languages, allowing administrators to filter and manage content more effectively based on language preferences.
-
+The Content Hub replicates the Go1 platform, allowing administrators to browse courses, create multiple playlists, and explore content, providing a seamless Go1 experience within Adobe Learning Manager.
 
 ## Email templates
 

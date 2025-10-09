@@ -42,11 +42,17 @@ To configure the Calendar widget:
 
 The Calendar widget will be added to the page. Administrator can add other widgets and publish the page.
 
+>[!NOTE]
+>
+>If no catalogs are selected, sessions from all catalogs will be displayed.
+
 ## Categories widget
 
 The Categories widget displays learning content organized by Catalogs, Products, or Roles as categories. It helps learners easily browse and find training grouped by topics, departments, skills, or other relevant classifications. 
 
 Administrators add the Categories widget to a page to showcase categorized learning options. Learners use the widget to explore training by selecting a category of interest, which then reveals related courses or paths. 
+
+View [Catalogs](/help/migrated/administrators/feature-summary/catalogs.md) and [Recommendations](/help/migrated/recommendations-adobe-learning-manager.md) articles to learn more about configuring catalogs and recommendations. 
 
 ### Add a category widget
 
@@ -267,6 +273,13 @@ To configure the Iframe widget:
 10. Select **[!UICONTROL Add widget]**. 
 
 The Iframe widget will be added to the page. Administrators can add other widgets and publish the page.
+
+Administrators must include the access token as a query parameter in the iframe URL to retrieve the correct details. For example, to display information from Adobe Learning Manager inside an iframe, the URL should include the following parameters:
+
+* userId: The unique identifier of the learner
+* accountId: The account identifier associated with the learner
+* token: The authentication token required for API calls
+* locale: The learner's language or locale preference
 
 ## My Learning widget
 

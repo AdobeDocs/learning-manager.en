@@ -45,6 +45,8 @@ It allows Administrators to design portals that meet their organization's needs 
 * **Role-based learning**: Build pages tailored to specific roles. Sales teams can view product training, while engineers access technical courses.
 * **Product training**: Set up dedicated pages for different products, such as Photoshop or Illustrator, with widgets displaying Courses, Certifications, and related resources.
 
+View [Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/overview.md) for more information on creating custom pages using widgets. 
+
 ## Language-based learner progress
 
 Currently, the Adobe Learning Manager tracks learner progress only for the selected locale language, causing significant progress loss when switching languages/locales in the player. This limitation can lead to a poor user experience, as learners may lose their progress when accessing content in different languages. The progress for each module in the player is tracked at both the user and module levels. This leads to a situation where a user's progress is overridden when they switch back to a previously used locale for the same module.
@@ -755,18 +757,17 @@ _User Reports highlighting internal user IDs and manager email addresses to stre
 
 View [Download the user report](/help/migrated/administrators/feature-summary/add-users-user-groups.md#download-the-user-report) for more information on User Report.
 
-### FTP User Report with Internal User ID information
+### User Report in FTP, custom FTP, and Box
 
 **Overview**
 
-The FTP-based User Report now includes the Internal User ID, providing a unified and consistent approach to data export and integration for headless implementations. This enhancement simplifies data management, improves consistency across reporting periods, and supports automated workflows for bulk operations and analytics. The downloaded User Report from the FTP folder now contains the new Internal User ID column.
+User Report is now available for Box, FTP, and Custom FTP connectors, in addition to the existing Job APIs. These reports provide detailed information on internal user ID, user email, name, manager email, user type, and others.
 
-**What's new**
+Reports can be generated on-demand or scheduled, with data stored in the respective connector for easy access and analysis. This enhancement improves monitoring and auditing of user activities, supporting better security and compliance tracking.
 
-* User Reports are now available through [Custom FTP](/help/migrated/integration-admin/feature-summary/connectors.md#custom-ftp) alongside existing reports (Gamification Transcripts, Learner Transcripts, Trainings Report).
-* The Internal User ID column is now consistent across all export methods (FTP, Jobs API, and UI).
+These reports are available alongside existing reports, such as user registration, login access, gamification, and training, enabling administrators to access all essential reports from a single location for streamlined data management and analysis.
 
-View [Learning Manager FTP connector](/help/migrated/integration-admin/feature-summary/connectors.md#learning-manager-ftp-connector) for more information on FTP connector. 
+View [Connector](/help/migrated/integration-admin/feature-summary/connectors.md) for more information on FTP, Custom FTP, and Box connector. 
 
 ### Include suspended users in Learner Transcripts
 
@@ -845,4 +846,3 @@ Check out the [release notes](/help/migrated/release-note/release-notes.md) for 
 
 * [Adobe Learning Manager May 2025 release](/help/migrated/whats-new-may-2025.md)
 * [Adobe Learning Manager November 2025 release](/help/migrated/whats-new-nov-24.md)
-

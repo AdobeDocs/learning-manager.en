@@ -1,12 +1,12 @@
 ---
-title: Custom role for announcement permission
+title: Custom role with scoped announcement permissions
 jcr-language: en_us
 description: Learn how to create a custom role in Adobe Learning Manager that allows announcements only for selected catalogs and user groups.
 ---
 
-# Create custom role for announcement permission
+# Custom role with scoped announcement permissions
 
-Administrators can create custom roles with announcement permissions restricted to specific catalogs and user groups. This ensures that announcements are targeted, relevant, and only visible to the intended learners. Scoped roles help organizations delegate communication tasks to the right people while maintaining control and preventing unnecessary notifications.
+Administrators can create custom roles with announcement permissions restricted to specific catalogs and user groups. This ensures that announcements are targeted, relevant, and only visible to the intended learners. Scoped announcements ensure that the right users receive relevant announcement without sending details to others.
 
 ## Create a custom role with a specific scope
 
@@ -41,7 +41,7 @@ user group.
 
 9. Select and add the user you want to assign this custom role. The assigned users can create an announcement for their scope.
 
-A custom administrator can create announcements limited to their assigned user groups and catalogs, ensuring messages reach the right audience and preventing unnecessary notifications. For Notification and Email announcements, they can include additional user groups and catalogs if these overlap with their assigned scope. Only users within the custom administrator's scope will be able to view the announcement.
+A custom administrator can create announcements limited to their assigned user groups and catalogs, ensuring messages reach the right audience and preventing unnecessary notifications. For Notification and Email announcements, administrators can add extra user groups, but only users within the defined scope will receive them. For Recommendation and Masthead announcements, you can only select user groups within the assigned scope.
 
 ## Create announcement for the assigned scope
 
@@ -49,7 +49,7 @@ A custom administrator can create announcements limited to their assigned user g
 
 To create an announcement for the assigned scope:
 
-1. Log in to Adobe Learning Manager as an administrator.
+1. Log in to Adobe Learning Manager as a custom administrator.
 2. Select **[!UICONTROL Announcement]** in the left navigation pane.
 3. Select **[!UICONTROL Add]**. 
    
@@ -68,7 +68,7 @@ To create an announcement for the assigned scope:
    ![](/help/migrated/assets/announcement-screen.png)
    _Create Announcement screen allowing administrators to set announcement type, upload attachments, and add action buttons_
 
-    The assigned scope is pre-selected in the **[!UICONTROL Scope]** section and cannot be modified by administrators.
+    The assigned scope is pre-selected in the **[!UICONTROL Scope]** section and cannot be modified by custom administrators.
     
     >[!NOTE]
     >
@@ -102,7 +102,7 @@ The scope will be updated, and only users within the updated scope will be able 
 
 ## Edit the announcement through administrator UI
 
-Administrators can view announcements created by custom administrators through their interface. They have the ability to edit these announcements only by modifying or removing the assigned scope. If scope changes are not made, administrators cannot make further edits to the announcement.
+Administrators can edit and manage all announcements created by custom admins. If an administrator tries to edit an announcement created by a custom administrator with a specific scope, a warning message will appear on the announcement stating **[!UICONTROL Remove]** scope. The administrator can remove the scope to make the announcement available to everyone. In this case, the custom administrator will receive a warning that the announcement's scope has been changed.
 
 To edit the announcement through administrator UI:
 

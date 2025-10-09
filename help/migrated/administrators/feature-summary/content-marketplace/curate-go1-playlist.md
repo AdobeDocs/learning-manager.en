@@ -14,34 +14,6 @@ Add Go1 courses directly to Learning Paths and certifications. Create Learning P
 >
 >You need an active Go1 license to add Go1 courses to Learning Paths or certifications. View this [article](/help/migrated/administrators/feature-summary/content-marketplace.md) to learn more about Go1 license details.
 
-## Go1 AI Assistant
-
-Adobe Learning Manager offers AI-powered assistance to make course curation easier for administrators. With the AI Assistant available on the Content Hub page, administrators can ask questions, get personalized recommendations, and instantly create playlists. In addition, AI support is integrated into the Learning Path creation flow, helping admins quickly identify the most relevant courses from large catalogs such as Go1. These capabilities streamline the curation process, save time, and ensure learners receive the best content.
-
-To create a Playlist with AI:
-
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Content Marketplace]** and then select **[!UICONTROL Content Hub]**.
-3. Select **[!UICONTROL Chat with AI]** option to open the AI Assistant.
-   
-   ![](assets/select-chat-with-ai.png)
-   _Content Hub screen displaying the Chat with AI option, where administrators can interact with the AI Assistant to ask questions_
-
-4. Type the question and select **[!UICONTROL Send]**. 
-
-   ![](assets/type-your-questions.png)
-   _AI Assistant screen where administrators can type their questions, get course recommendations, and instantly create a playlist tailored to their needs_
-5. Select the skills and then select **[!UICONTROL Compile into one list]**.
-
-   ![](assets/select-the-skills-ai-assistant.png)
-   _AI Assistant screen displaying the relevant skills to select and compile into playlist_
-6. Select **[!UICONTROL Convert to Playlist]**.
-
-   ![](assets/convert-to-playlist.png)
-   _AI Assistant screen displaying the Convert to Playlist option to compile all the courses into playlist_
-
-The created playlist will be added to the Content Hub library.
-
 ## Create a Learning Path
 
 To create a Learning Path with Go1 courses:
@@ -62,12 +34,54 @@ To create a Learning Path with Go1 courses:
 
    ![alt text](assets/select-go1-courses.png)
    _Add Go1 courses to your Sales Engineers Skill Development Playlist to expand learning options with curated third-party content_
+7. Administrators can create a playlist in the following ways:
+   
+   * Using **[!UICONTROL Go1 AI Assistant]**. View [Go1 AI Assistant](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant) for more information.
+   * In the **[!UICONTROL Library]**, select **[!UICONTROL Create playlist]** and choose from one of the following:
+      a. **[!UICONTROL with AI]**: Create a Playlist with the help of AI. View this [section](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai) for more information. 
+      b. **[!UICONTROL by myself]**: Create a Playlist by manually adding courses to it. View this [section](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually) for more information.
 
-7. In the **[!UICONTROL Library]**, search for and select **[!UICONTROL Create playlist]** and choose from one of the following:
-    a. **[!UICONTROL with AI]**: Create a Playlist with the help of AI. View this [section](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai) for more information. 
-    b. **[!UICONTROL by myself]**: Create a Playlist by manually adding courses to it. View this [section](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually) for more information.
+### Go1 AI Assistant
 
-### Create a Playlist with AI**
+Adobe Learning Manager offers AI-powered assistance to make course curation easier for administrators. With the AI Assistant available on the Content Hub page, administrators can ask questions, get personalized recommendations, and instantly create playlists. In addition, AI support is integrated into the Learning Path creation flow, helping admins quickly identify the most relevant courses from large catalogs such as Go1. These capabilities streamline the curation process, save time, and ensure learners receive the best content.
+
+To create a Playlist with AI:
+
+1. Select **[!UICONTROL Chat with AI]** option on the Go1 Content Hub.
+   
+   ![](assets/select-chat-with-ai.png)
+   _Content Hub screen displaying the Chat with AI option, where administrators can interact with the AI Assistant to ask questions_
+
+2. Type the question and select **[!UICONTROL Send]**. 
+
+   ![](assets/type-your-questions.png)
+   _AI Assistant screen where administrators can type their questions, get course recommendations, and instantly create a playlist tailored to their needs_
+3. Select the skills and then select **[!UICONTROL Compile into one list]**.
+
+   ![](assets/select-the-skills-ai-assistant.png)
+   _AI Assistant screen displaying the relevant skills to select and compile into playlist_
+4. Select **[!UICONTROL Convert to Playlist]**.
+
+   ![](assets/convert-to-playlist.png)
+   _AI Assistant screen displaying the Convert to Playlist option to compile all the courses into playlist_
+
+5. Select **[!UICONTROL View Playlist]**. 
+
+   ![](assets/ai-assistant-view-playlist.png)
+   _AI Assistant screen displaying the View Playlist option to publish and import the playlist into Learning Path_
+
+6. Select **[!UICONTROL Publish]** to create the Playlist. You can create additional Playlists in Go1 and add them to a Learning Path. 
+7. Select **Yes** in the confirmation prompt.
+8. Select the Playlist from the **[!UICONTROL Select playlist to import prompt]**. 
+
+    ![](assets/add-playlist-to-lp.png)
+    _Select and import the Sales Engineer Skills Enhancement Playlist from the Go1 Library in Adobe Learning Manager_
+
+9. Select **[!UICONTROL Add Playlists to Learning Path]** and then **[!UICONTROL Publish]**. 
+
+The courses in the Playlist will be added to the Learning Path. Administrators can then enroll learners, who can immediately begin taking the courses.
+
+### Create a Playlist with AI
 
 Administrators can type the Playlist description in the AI prompt. The AI will curate the related courses and create a playlist based on the requirements. AI generates Playlist by interpreting the learning goal or prompt provided by the user. When creating a playlist, admins can select to curate content 'with AI' which allows the system to use large language models to understand the specified learning objectives and content preferences like duration and type. The AI then searches the content library for relevant learning objects that match these criteria.
 
@@ -197,4 +211,16 @@ To delete the Playlist:
 
 The selected Playlist will be deleted from the Go1 library. 
 
+## Course limit exceeded
 
+When adding Go1 courses to a Learning Path, administrators may see an error if the newly added courses have not yet been synced to Adobe Learning Manager. These courses will be available within 48 to 72 hours.
+
+If you add the playlist now, only the courses that are already synced will be included.
+
+To include all courses, it is recommended to wait until the sync is complete before adding the playlist to a Learning Path.
+
+## Go1 courses in certifications
+
+Administrators can add Go1 courses in certification programs within Adobe Learning Manager. While creating a certification, administrators can search and select courses from the Go1 content catalog. All Go1 courses imported through the Go1 plan are available for selection within the certification workflow.
+
+Certifications that include Go1 courses can be configured as either perpetual or recurring. In the case of recurring certifications, the certificate automatically renews after the defined time interval, allowing learners to retake the Go1 courses and maintain their certification status.
