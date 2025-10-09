@@ -224,3 +224,5 @@ To include all courses, it is recommended to wait until the sync is complete bef
 Administrators can add Go1 courses in certification programs within Adobe Learning Manager. While creating a certification, administrators can search and select courses from the Go1 content catalog. All Go1 courses imported through the Go1 plan are available for selection within the certification workflow.
 
 Certifications that include Go1 courses can be configured as either perpetual or recurring. In the case of recurring certifications, the certificate automatically renews after the defined time interval, allowing learners to retake the Go1 courses and maintain their certification status.
+
+View [Certifications](/help/migrated/administrators/feature-summary/certifications.md) for more information on creating certificates. 

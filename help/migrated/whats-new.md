@@ -53,15 +53,18 @@ Currently, the Adobe Learning Manager tracks learner progress only for the selec
 
 For example, if a learner achieves 75% progress in locale A (English) and then switches to locale B (Spanish), upon returning to locale A, their progress resets to 0% instead of resuming from 75%.
 
->[!NOTE]
->
->Video content does not support language-based progress tracking.
-
 To resolve these limitations, the feature has been enhanced to support locale-specific progress tracking:
 
 * **Locale-specific storage**: When a learner switches locales (for example, from Locale A to Locale B) within the player, the Adobe Learning Manager now saves the progress state separately for each locale of the content.
 * **Progress resumption**: When the user switches back to a previously used locale (from Locale B back to Locale A), the content resumes from where they left off in that specific locale.
 * **Independent progress tracking**: Each locale maintains its own state of progress, allowing learners to explore content in multiple languages without losing their individual progress in each language.
+
+The following content types are not supported for language-based learner progress:
+
+* Video and audio content is not supported.
+* Third-party content, including Go1, LinkedIn Learning, getAbstract, and Harvard ManageMentor, is not supported.
+* The content that does not send data to the Learning Record Store (LRS) will not have progress tracked or saved.
+* Mobile app users cannot track progress for this feature while in offline mode.
 
 View [My Learning](/help/migrated/learners/feature-summary/courses.md#language-based-progress-management) for more information on language-based learner progress.
 
