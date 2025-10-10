@@ -3,11 +3,11 @@ title: What's new in Adobe Learning Manager October release
 description: Learn about the new features, improvements, and important updates in Adobe Learning Manager October 2025 release. 
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
 ---
-# What's new in Adobe Learning Manager October 2025 release
+# Upcoming changes in Adobe Learning Manager
 
 >[!IMPORTANT]
 >
->Please note that the features outlined are tentative and subject to change. For more detailed information and confirmation, kindly reach out to your designated Customer Success Manager. If you encounter any issues, please contact our Customer Support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
+>The Adobe Learning Manager October 2025 release is now live. View [What's New](/help/migrated/whats-new.md) for more information on the latest features and enhancements. This page will be updated with the new features and enhancements for the next release. Stay tuned for more updates.
 
 ## Overview of the release
 

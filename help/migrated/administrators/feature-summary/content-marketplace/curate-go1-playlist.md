@@ -204,7 +204,7 @@ To delete the Playlist:
 3. Select **[!UICONTROL Content Hub]** and then select **[!UICONTROL Library]**.
 4. Select the Playlist and then select **[!UICONTROL Edit]**.
    ![](assets/edit-playlist.png)
-   _Go1 Playlist screen showing options to edit the Playlist
+   _Go1 Playlist screen showing options to edit the Playlist_
 5. Select the ellipsis and then select **[!UICONTROL Delete playlist]**.
    ![](assets/delete-playlist.png)
    _Playlist management screen, highlighting Delete Playlist option_
