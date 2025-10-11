@@ -183,3 +183,34 @@ In any account, the name of a Role must be unique. Therefore, a role created via
 On similar lines, from Admin UI, a user can't be assigned a configurable role created via CSV as these roles will not be available.
 
 However, user assignment CSV can be used to assign roles created by UI.
+
+## Incremental and multi-incremental support for custom roles
+
+Administrators can assign custom roles for incremental users more efficiently. They can upload user, role, and user-role data without needing to re-upload the entire dataset each time.
+
+For each uploaded user import file, create separate folders in FTP using the following structure:
+
+```
+import/user/internal/
+     user1.csv
+     user2.csv
+     user3.csv
+
+UserRole/
+    user1_role.csv
+    user1_user_role.csv
+    user2_role.csv
+    user2_user_role.csv
+    user3_role.csv
+    user3_user_role.csv
+```
+
+**File details**
+
+* User import file: user1.csv
+* Role file:  user1_role.csv
+* User-role mapping file: user1_user_role.csv
+
+Download the [sample CSVs](/help/migrated/assets/sample-csv-Incremnetal.zip) here.
+
+Each user import file is directly linked with its corresponding role and user-role mapping files, ensuring proper incremental processing.

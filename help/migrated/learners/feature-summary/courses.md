@@ -285,6 +285,19 @@ To change course instance, follow these steps:
 
    The newly selected instance is enrolled. If a learner is enrolled to a course instance which is a part of another LO, and he updates the course instance which is a part of the flexible Learning Program, he will automatically be unenrolled from the other Learning Objects after a warning.
 
+## Language-based progress management
+
+Learner progress can be tracked separately for each locale, ensuring that switching between languages in the player does not affect previously achieved progress. Progress for each module is maintained independently at both the user and module levels, preventing progress from being overwritten when learners explore content in different locales. 
+
+For example, if a learner reaches 75% progress in English and then switches to Spanish, returning to English resumes from 75% instead of resetting to 0%. Each locale stores its own progress state, allowing learners to seamlessly navigate and complete content in multiple languages without losing their individual progress.
+
+The following content types are not supported for language-based learner progress:
+
+* Video and audio content is not supported.
+* Third-party content, including Go1, LinkedIn Learning, getAbstract, and Harvard ManageMentor, is not supported.
+* The content that does not send data to the Learning Record Store (LRS) will not have progress tracked or saved.
+* Mobile app users cannot track progress for this feature while in offline mode.
+
 ## Completing a course {#completingacourse}
 
 As a learner, you can complete the required number of modules in a course for course completion. The course completion criteria depends on how many modules have been set as mandatory by the author. When you enroll into a course with a minimum completion criteria, you can view the completion criteria on the right pane of the Course page.
@@ -313,6 +326,19 @@ The Discussion tab is not enabled for external users.
 
 ![](assets/learning-program200s.jpg)
 *Discussion tab*
+
+## Register interest for the courses
+
+Learners can register their interest in the courses that have no active instance. 
+
+To register interest:
+
+1. Log in to Adobe Learning Manager as a learner.
+2. Go to **[!UICONTROL Catalog]** and select the course that has no active instance.
+3. Select **[!UICONTROL Register Interest]** on the Course overview page.
+    
+    ![](assets/register-interest.png)
+   _Course overview section on the Learner UI, highlighting the Register Interest option_
 
 ## Course life cycle {#courselifecycle}
 

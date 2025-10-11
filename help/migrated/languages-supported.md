@@ -12,7 +12,7 @@ Adobe Learning Manager supports the following interface and content languages.
 
 |Interface Language|Role|Locale code|
 |---|---|---|
-|English|<li>Admin</li><li>Author</li><li>Learner</li><li>Manager</li>|en-us|
+|English|<li>Admin</li><li>Author</li><li>Learner</li><li>Manager</li>|en-US|
 |French|<li>Admin</li><li>Author</li><li>Learner</li><li>Manager</li>|fr-FR|
 |German|<li>Admin</li><li>Author</li><li>Learner</li><li>Manager</li>|de-DE|
 |Chinese|<li>Learner</li><li>Manager</li>|zh-CN|
@@ -43,38 +43,38 @@ Adobe Learning Manager supports the following interface and content languages.
 |Italian|-|it-IT|
 |Japanese|-|ja-JP|
 |Brazilian Portuguese|-|pt-BR|
-|Danish (Dansk) |-|da|
-|Hindi|-|hi|
-|Hungarian (Magyar) |-|hu|
+|Danish (Dansk) |-|da-DK|
+|Hindi|-|hi-IN|
+|Hungarian (Magyar) |-|hu-HU|
 |Dutch (Nederland) |-|nl-NL|
 |Polish|-|pl-PL|
-|Finnish (Suomi)|-|fi|
-|Thai|-|th|
+|Finnish (Suomi)|-|fi-FI|
+|Thai|-|th-TH|
 |Turkish|-|tr-TR|
 |Korean|-|ko-KR|
-|Chinese Traditional|-|zh-CHT|
-|Norwegian (Norsk) |-|nb-NO|
+|Chinese Traditional|-|zh-TW|
+|Norwegian (Norsk) |-|no-NO|
 |Swedish|-|sv-SE|
-|Romanian|-|ro|
-|Arabic|Yes|ar|
+|Romanian|-|ro-RO|
+|Arabic|Yes|ar-SA|
 |Russian|-|ru-RU|
-|Amharic|-|am|
-|Czech|-|cs|
-|English UK|-|en-gb|
-|Vietnamese|Yes|vi|
-|Greek|-|el|
+|Amharic|-|am-ET|
+|Czech|-|cs-CZ|
+|English UK|-|en-GB|
+|Vietnamese|Yes|vi-VN|
+|Greek|-|el-GR|
 |French (Canada) |-|fr-ca|
-|English (Australia) |-|en-au|
+|English (Australia) |-|en-AU|
 |Indonesian|-|id-ID|
-|Spanish (Latin America) |-|es|
-|Serbian|-|sr-sp|
-|Slovene|-|sl|
-|Slovak|-|sk|
-|Croatian|-|hr|
-|Ukrainian|-|uk|
-|Hebrew|Yes|he|
-|Bulgarian|-|bg|
-|Dutch (Belgium) |-|nl-be|
+|Spanish (Latin America) |-|es-XL|
+|Serbian|-|sr-SP|
+|Slovene|-|sl-SL|
+|Slovak|-|sk-SK|
+|Croatian|-|hr-HR|
+|Ukrainian|-|uk-UA|
+|Hebrew|Yes|he-IL|
+|Bulgarian|-|bg-BG|
+|Dutch (Belgium) |-|nl-BE|
 |Portuguese Portugal|-|pt-PT|
 |Chinese (Traditional, Hong Kong)|-|zh-HK|
 |Norwegian Bokmål|-|nb-NO|

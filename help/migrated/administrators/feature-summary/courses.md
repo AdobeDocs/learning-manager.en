@@ -782,7 +782,36 @@ Learners can simply use the Adobe Learning Manager device app to scan the respec
 
    ![](assets/qr-code-download-01.png)
 
-   *Share QR code with lkearhers*
+   *Share QR code with learners*
+
+## Download the interested learner report
+
+View [Register interest for the courses](/help/migrated/learners/feature-summary/courses.md#register-interest-for-the-courses) to learn how learners can register their interest. 
+
+Administrators can view the learners interest and download the Interested learner report from the course overview page.
+
+To download the Interested Learner report:
+
+1. Log in to Adobe Learning Manager as an administrator.
+2. Go to **[!UICONTROL Courses]** and select the course.
+3. Select **[!UICONTROL Interested Learners]**.
+ 
+   ![](assets/select-interested-learner.png)
+  _Course overview page of the administrator interface, shows the Interested Learner section to view and download the report_
+4. Select Actions and then select Export Report. 
+The report with the list of interested learners will be downloaded. The report includes the following columns:
+
+   * Course ID
+   * Learner Name
+   * Email
+   * Type
+   * State
+   * Registration Date & Time (UTC)
+   * Active status
+
+>[!NOTE]
+>
+>The report will include the learner's UUID if it is enabled for the account.
 
 ## Course life cycle {#courselifecycle}
 

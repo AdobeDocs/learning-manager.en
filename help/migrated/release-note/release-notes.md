@@ -17,6 +17,15 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
  </tbody>
 </table>-->
 
++++Update 102: Adobe Learning Manager October 2025 release
+
+**Release date**: October 12, 2025
+
+## What's new in this release
+
+View [What's new in Adobe Learning Manager October 2025 release](/help/migrated/whats-new.md) for more information.
++++
+
 +++Update 101: The July 2025 release of Adobe Learning Manager
 
 ## Role-based email templates
@@ -126,7 +135,7 @@ Additionally, for details on upcoming changes to Adobe Learning Manager, see thi
 
 ## What's new in this release
 
-View [What's new in Adobe Learning Manager](/help/migrated/whats-new.md) for more information.
+View [What's new in Adobe Learning Manager](/help/migrated/whats-new-may-2025.md) for more information.
 +++
 
 +++Update 99: The February 2025 release of Adobe Learning Manager

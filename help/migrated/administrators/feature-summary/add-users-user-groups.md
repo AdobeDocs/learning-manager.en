@@ -166,6 +166,37 @@ To register the users:
 
 A verification email is sent to the user. The user must select the link in the email to activate their account and start using Adobe Learning Manager.
 
+### Download the user report
+
+Administrators can export and download user data as a comprehensive report. By exporting this data, administrators can track learner activity, monitor account lifecycle, identify inactive users, and maintain accurate records for compliance, auditing, and reporting purposes.
+
+To download the user report:
+
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **Users**, then choose **Internal**.
+3. Select **Export User Data**. You will be notified when the report is ready. 
+   
+   ![](assets/select-export-user-data.png)
+   _The Internal user sections shows the option to export and download the user report._
+4. Select the notification and download the user report.
+
+The report includes following information:
+
+* Name
+* Email
+* Status
+* Date Added (UTC TimeZone)
+* Deletion Date (UTC TimeZone)
+* Last Login Date (UTC TimeZone)
+* Adobe ID
+* userState
+* profile
+* Interface Language
+* Content Language
+* Timezone
+* Internal User ID
+* Manager Email
+
 ## External users
 
 Adobe Learning Manager allows you to add users outside your company, such as customers, partners, vendors, or clients, to access the learning content. After they are added, you can group them, assign courses, and track their learning progress.
@@ -260,6 +291,32 @@ To resume an external user:
 
 ![](assets/resume-an-external-user.png)
 _Option to resume a previously paused external registration profile_
+
+### Change the external profile
+
+Administrators can reassign learners from one external profile to a different profile.
+
+To change the external profile:
+
+1. Log in to Adobe Learning Manager as an administrators.
+2. Select **[!UICONTROL Users]** and then select **[!UICONTROL External]**.
+3. Select **[!UICONTROL Seats Used]** in the list of external profiles.
+   
+   ![](assets/select-learners-external-profile.png)
+   _External profile section showing the number of seats used_
+
+4. Select the learner and then select **[!UICONTROL Actions]**. 
+   
+   ![](assets/select-change-profile-external-learner.png)
+   _External profile page highlighting Change Profile option to move the learners to different profile_
+
+5. Select **[!UICONTROL Change Profile]**. 
+6. Search and select the different external profile.
+   
+   ![](assets/search-and-select-profile.png)
+   _Change Profile prompt displays the options to search the external profile_
+
+The selected learner will move to the selected external profile. 
 
 ### Monitor external seat usage
 

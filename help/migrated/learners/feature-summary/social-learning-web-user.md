@@ -224,6 +224,64 @@ When you view the posts in a board format, you can then sort the posts according
 * If you choose **Posts**, the boards will be sorted according to the number of posts made in the board.
 * If you choose **Contributors**, the boards will be sorted according to the number of users who've commented or replied in the threads.
 
+## Tag users in Social Boards
+
+Learners with access to the Social Board can tag other users in social learning posts and comments using the @username format. Tagging works through the app or APIs. Only users with access to the board can be tagged, keeping interactions relevant and private. 
+
+* Tagged users get in-app and email notifications
+* Notifications include direct links to the content
+* Users outside the board can't be tagged
+* Deleted users appear as "Anonymous"
+
+>[!NOTE]
+>
+>Learners can't tag user groups or use @all mentions to prevent spam.
+
+### Tag users in Social Board posts
+
+You can tag specific board members in posts or comments using @username. Tagging is limited to members with access to that board.
+To tag users in a Social Board:
+
+1. Log in to Adobe Learning Manager as a learner. 
+2. Select **[!UICONTROL Social Learning]** in the left navigation pane.
+   
+   ![](/help/migrated/assets/select-social-learning-admin.png)
+   _Enable collaborative learning by selecting Social Learning to access discussion boards, share insights, and tag users for interactive engagement_
+
+3. Select **[!UICONTROL New Post]**.
+   
+   ![](assets/select-new-post.png)
+   _Start a new discussion by selecting New Post in Social Learning to share knowledge with the tagged users_
+
+4. Before tagging users, select the board from the **[!UICONTROL Post this to a Discussion Board]** option.
+
+   ![](assets/select-boards-in-social-board.png)
+   _Select a discussion board to post and tag users, enabling targeted collaborative conversations in Social Learning_
+
+5. Type your post details, then tag a user by entering the @ followed by their name (for example, @andrew). When you type @ followed by the first three letters of the user's name, a list of matching users appears.
+ 
+   ![](assets/type-a-user-tag.png)
+   _Tag users in your discussion post by typing @ followed by the username to enable targeted collaboration within Social Learning boards_
+
+6. Select the desired user from the list.
+7. Select **[!UICONTROL Post]**. 
+
+Tagged users get both in-app and email notifications with a direct link to the post. This makes discussions more targeted and collaborative.
+
+### Tag users based on the board's scope
+
+Scope-restricted tagging lets you tag only learners who have permission to access a specific board. This maintains privacy by preventing tagging of users outside the scope.
+
+If you try tagging learners who are outside the board's scope, no suggestions will appear, and you won't be able to tag them.
+
+### Tag deleted users
+
+If a user who's been deleted is tagged in a Social Learning post, their name shows as "Anonymous" in the post. The comment and tag remain visible for context, but profile links or details aren't shown.
+
+![](assets/deleted-users-tagged.png) 
+_Social Learning post highlighting how a deleted user appears as Anonymous when tagged_
+
+
 ### Skill filter {#skillfilter}
 
 ![](assets/image007.png)

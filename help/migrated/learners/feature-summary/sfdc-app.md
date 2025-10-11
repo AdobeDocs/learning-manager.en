@@ -42,3 +42,14 @@ A representative snapshot of Learner view of the Adobe Learning Manager app is s
 You can click Disconnect link at the bottom of the learners page, as marked in the above snapshot, to **Disconnect** from the Adobe Learning Manager app. Once you disconnect, you are redirected to the welcome page of Adobe Learning Manager app. 
 
 You can connect or disconnect from the app any number of times.
+
+## Reset recommendations in Salesforce app
+
+Learners can reset their roles and learning preferences without needing to leave Salesforce or sign in into the native Adobe Learning Manager app. The Adobe Learning Manager Salesforce app now includes a **[!UICONTROL Reset Interests]** button. 
+
+To reset the interests and recommendations from the Salesforce app:
+
+1. Log in to Adobe Learning Manager app for Salesforce as a learner.
+2. Select **[!UICONTROL Reset Interests]** option at the bottom.
+
+The learner's recommendation or interest will be reset from the Adobe Learning Manager Salesforce app. 

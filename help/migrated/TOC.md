@@ -8,13 +8,14 @@ user-guide-description: Documentation for Adobe Learning Manager
 
 * [Learning Manager User Guide](user-guide.md)
 * Introduction {#introduction}
-   * [What's new in Adobe Learning Manager October 2025 release](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
-   * [New features summary May 2025](/help/migrated/whats-new.md)
+   * [New features summary October 2025](/help/migrated/whats-new.md)
+   * [New features summary May 2025](/help/migrated/whats-new-may-2025.md)
    * [New features summary November 2024](/help/migrated/whats-new-nov-24.md)
    * [New features summary July 2024](whats-new-july-2024.md)
    * [New features March 2024](whats-new-march-2024.md)
    * [New features November 2023](whats-new-november-2023.md)
    * [New features July 2023](whats-new-2023-july.md)
+   * [Upcoming changes in Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [Release Notes](release-note/release-notes.md)
    * [System requirements](system-requirements.md)
    * [Adobe Learning Manager App for Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
@@ -42,7 +43,25 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Active Fields](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Add classroom locations](administrators/feature-summary/classroom.md)
    * [Create course instances and learning paths](administrators/feature-summary/courses.md)
-   * [Content marketplace](administrators/feature-summary/content-marketplace.md)
+   * Experience Builder in Adobe Learning Manager {#experience-builder}
+      * [Overview](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Core components of Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+      * Pages in Experience Builder {#pages-in-experience-builder}
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [Create a custom page in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+      * Widgets in Experience Builder {#widgets-in-experience-builder}
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [Add and configure widgets](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+      * Menu in Experience Builder {#menu-in-experience-builder}
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [Create a menu](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+      * Customization in Experience Builder {#customization-in-experience-builder}
+         * [Overview](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [Customize Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+      * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+   * Content marketplace {#content-marketplace}
+      * [Content marketplace](administrators/feature-summary/content-marketplace.md)
+      * [Curate Go1 courses to Learning Path](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [Reports](administrators/feature-summary/reports.md)
    * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
@@ -75,6 +94,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Tags](administrators/feature-summary/tags.md)
    * [Learning Manager Content Catalog](administrators/feature-summary/content-catalogs.md)
    * [Custom roles](administrators/feature-summary/custom-role.md)
+   * [Custom role for announcement permission](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
    * [Catalog labels](administrators/feature-summary/catalog-labels.md)
    * [xAPI in Learning Manager](authors/feature-summary/xapi.md)
    * [Monitoring and moderating Social Learning as an admin](administrators/feature-summary/social-learning-configurations-as-an-admin.md)
