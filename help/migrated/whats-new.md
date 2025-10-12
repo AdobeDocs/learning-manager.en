@@ -809,7 +809,7 @@ View [Job Aids Report](/help/migrated/administrators/feature-summary/reports.md#
 * In the Learner App, pressing TAB in the Fluidic Player was getting stuck on the "Enter Fullscreen" button. Keyboard navigation now moves correctly through all screen elements.
 * Hovering over long course names in the Manager app's Compliance Dashboard now displays the full name for enrolled or compliant courses.
 * Only Shared or HIDDEN are accepted for the module visibility column in module.csv. Any other value will trigger an error during migration, preventing failures on the backend.
-* Creating a new admin with a mixed-case email no longer generates duplicate user entries when UUID is disabled. The system now consistently handles email casing to prevent duplicates.
+* Creating a new administrator with a mixed-case email no longer generates duplicate user entries when UUID is disabled. The system now consistently handles email casing to prevent duplicates.
 * Notes PDFs now display correctly for courses in languages such as Arabic, Greek, Hebrew, Hindi, Thai, and Ukrainian. Previously, characters appeared distorted in the downloaded PDF even though they displayed correctly in the player.
 
 ## System requirements
