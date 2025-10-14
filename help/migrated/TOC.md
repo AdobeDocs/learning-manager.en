@@ -62,6 +62,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * Content marketplace {#content-marketplace}
       * [Content marketplace](administrators/feature-summary/content-marketplace.md)
       * [Curate Go1 courses to Learning Path](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
+   * [L1 feedback form](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
    * [Reports](administrators/feature-summary/reports.md)
    * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
