@@ -10,11 +10,11 @@ title: L1 feedback form
 >
 >The enhanced L1 Feedback feature is being rolled out to select customers. If you don't see this feature in your account, View [Add L1 and L3 feedback](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) for more information on existing feedback feature. 
 >
->Contact your Customer Success Manager (CSM) team to enable the new feedback system and learn about the migration timeline, c.
+>Contact your Customer Success Manager (CSM) team to enable the new feedback system and learn about the migration timeline.
 
 The Level 1 (L1) feedback feature in Adobe Learning Manager allows learners to share their feedback after completing a course or learning path. This feedback helps administrators evaluate course quality, instructor effectiveness, and overall learning experience.
 
-Administrators can now create and manage multiple, reusable feedback forms and assign them to specific courses, learning paths, or certifications.
+Administrators can now create and manage multiple, reusable feedback forms and assign them to specific courses and learning paths.
 
 The feature provides greater flexibility by allowing administrators to:
 
@@ -81,14 +81,14 @@ To create an L1 feedback form:
 
 ### Preview the feedback form
 
-You can preview the feedback form by selecting Preview in English (United States). If you've created the form in multiple languages, you can also preview it in each respective language. View this article to learn how to add feedback forms in other languages. 
+You can preview the feedback form by selecting Preview in English (United States). If you've created the form in multiple languages, you can also preview it in each respective language. View this [section](/help/migrated/administrators/feature-summary/l1-feedback-form.md#add-feedback-forms-in-other-languages) to learn how to add feedback forms in other languages. 
  
 ![](assets/preview.png)
 _Feedback forms screen displaying Preview option to view the feedback form in the default language_
 
 ### Add feedback forms in other languages
 
-Create versions of the feedback form in multiple languages. However, you can only add or remove questions in the default language (such as English). For other languages, you can only translate the questions that were initially added in the default language. It is not possible to add or remove questions directly in the translated versions.
+Create translations for the questions in the feedback form across multiple languages. However, you can only add or remove questions in the default language (such as English). For other languages, you can only translate the questions that were initially added in the default language. It is not possible to add or remove questions directly in the translated versions.
 
 1. Select **[!UICONTROL Add New Language]** in the feedback form.
    
@@ -99,7 +99,7 @@ Create versions of the feedback form in multiple languages. However, you can onl
 4. Select **[!UICONTROL Translate]** next to each question to add your translation.
    
    ![](assets/translate.png)
-   _Feedback form screen displaying the Translate option translate the questions to the respective languages_
+   _Feedback form screen displaying the Translate option to translate the questions into the respective languages_
 
    >[!NOTE]
    >
@@ -114,9 +114,23 @@ Administrators can establish a default feedback forms for self-paced, classroom,
 ![](assets/set-as-default.png)
 _Feedback forms screen displaying option to set the default feedback form_
 
-## Change the default feedback form of a course
+## Configure learner feedback settings
 
-The default feedback form applies to all courses. As an administrator, you can either create a new form or choose one from the existing list. 
+Administrators can configure the following settings in the Learner Feedback section:
+
+* **[!UICONTROL Enable form to capture learners' feedback for this Course]**: Enable this option to collect feedback from learners for the course. When enabled, learners will be prompted to provide feedback after completing the course.
+* **[!UICONTROL Form setting]**: When enabled, the feedback form automatically opens for learners immediately after they complete the course, making it easier to collect timely feedback.
+ 
+![](assets/course-settigs.png)
+_Learner Feedback screen displaying the learner feedback settings_
+
+>[!NOTE]
+>
+>Course instances use the default feedback form from the course level. When you create new instances, they also use the course-level default form rather than the account-level.
+
+### Change the default feedback form of a course
+
+The default feedback form applies to all courses. As an administrator, you can either create a new form or choose one from the existing list. To change the default feedback forms, learner feedback must be enabled for this course.
 
 To change the default feedback form:
 
@@ -141,21 +155,11 @@ If a course is using the default feedback form and the default form is updated a
 
 The instance will use the course-level feedback form as its default. If an administrator changes the feedback form at the course level, it will not affect the form already set at the instance level. However, any new instance created after the change will use the updated course-level feedback form by default.
 
+Follow the same steps to change the default feedback forms for a Learning Path.
+
 >[!NOTE]
 >
 >If you don't change the form, the course will use the default feedback form.
 
-### Configure learner feedback settings
 
-Administrators can configure the following settings in the Learner Feedback section:
-
-* **[!UICONTROL Enable form to capture learners' feedback for this Course]**: Enable this to collect feedback from learners for this course. 
-* **[!UICONTROL Form setting]**: When enabled, the feedback form automatically opens for learners immediately after they complete the course, making it easier to collect timely feedback.
- 
-![](assets/course-settigs.png)
-_Learner Feedback screen displaying the learner feedback settings_
-
->[!NOTE]
->
->Course instances use the default feedback form from the course level. When you create new instances, they also use the course-level default form rather than the account-level.
 
