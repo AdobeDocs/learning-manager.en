@@ -109,7 +109,7 @@ Create translations for the questions in the feedback form across multiple langu
 
 ## Set a feedback form as default
 
-Administrators can establish a default feedback forms for self-paced, classroom, virtual classroom, and blended courses. Once configured, this default form will automatically be presented to learners upon completion of any course. This default form will be applied to all courses unless the administrator opts to assign a different feedback form for specific courses.
+Administrators can establish a default feedback forms for self-paced, classroom, virtual classroom, and blended courses. Once a default form is set, it is automatically applied to all newly created courses. Learners will see this form after completing any course. Administrators can choose to assign a different feedback form for specific courses if needed.
  
 ![](assets/set-as-default.png)
 _Feedback forms screen displaying option to set the default feedback form_
