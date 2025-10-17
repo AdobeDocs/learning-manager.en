@@ -48,3 +48,26 @@ Experience Builder can be used for various learning scenarios involving internal
 * **Role-based training portals**: Organizations with specific departmental training needs, such as a financial firm with separate Sales and Customer Success teams, can create dedicated learning pages for each group to ensure the content is highly relevant.
 * **Event-specific learning pages**: You can create temporary, specialized pages for corporate events like a Tech Summit or a Sales Kick Off. These pages can feature session information, speaker lists, and an Events Calendar Widget, and can be targeted only to the relevant team for a specific duration before reverting to the standard portal experience.
 * **Customer academies**: Experience Builder allows agencies to build customer-facing academies that reflect their brand identity, achieving a custom experience without the time and cost associated with a headless build.
+
+## Authenticated external-facing portal workflows
+
+Customer-facing academies built with Experience Builder are managed entirely within Adobe Learning Manager. These portals use Adobe Learning Manager's built-in authentication, permissions, and security framework.
+
+Every external learner must log in to Adobe Learning Manager and be a member of at least one User Group. Currently, Experience Builder does not support unauthenticated or public-facing portals. All personalized experiences require learners to log in to Adobe Learning Manager.
+
+Administrators can use the Experience Builder **[!UICONTROL Menu]** option to assign custom-built pages as landing pages for specific User Groups. When learners from that group log in, Adobe Learning Manager automatically directs them to their assigned landing page, creating a personalized and branded experience for that audience, such as customer training, partner enablement, or onboarding.
+
+### Requirements and limitations
+
+* Authentication Required: Personalized content, custom pages, and menus are available only to authenticated users in Adobe Learning Manager.
+* User Group assignment: Learners must be added to the correct User Groups to access their designated landing pages and menus.
+* Group-Based Landing Pages: The landing page setting applies to all members of a User Group, ensuring consistent experiences for similar audiences.
+* Customization Scope: Experience Builder supports extensive UI and layout customization using widgets, HTML, and iFrames. However, advanced integrations such as e-commerce, federated SSO, or external data connections may require a hybrid or headless implementation.
+
+### External-facing portal setup workflow
+
+* Define User Groups: Create or identify groups in ALM that represent your external audiences (For example, customers, partners, or distributors). View [User groups in Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md) for more information on User Groups. 
+* Assign Learners to groups: Add each external learner to the appropriate User Group so they are directed to the correct portal experience after login.
+* Design Portal Pages: Use Experience Builder to create branded pages with Adobe Learning Manager widgets, HTML, and iFrame components. View [Create a custom page in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md) for more information.
+* Configure Menus and Landing Pages: In the Menu Creator, assign each user group a unique menu and designate its custom portal page as the landing page. View [Create a menu](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md) for more information. 
+* Test and Publish: Verify navigation, content visibility, and page routing for each user group before publishing the portal.
