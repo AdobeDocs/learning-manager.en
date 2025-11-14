@@ -211,6 +211,10 @@ To delete the Playlist:
 
 The selected Playlist will be deleted from the Go1 library. 
 
+### Share the playlist
+
+The Share playlist option is not supported in the Go1 integration with Adobe Learning Manager. This option will be removed from the UI in the next release. 
+
 ## Course limit exceeded
 
 When adding Go1 courses to a Learning Path, administrators may see an error if the newly added courses have not yet been synced to Adobe Learning Manager. These courses will be available within 48 to 72 hours.
