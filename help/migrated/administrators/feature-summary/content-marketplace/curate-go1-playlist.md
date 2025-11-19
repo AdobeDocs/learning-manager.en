@@ -47,7 +47,7 @@ Adobe Learning Manager offers AI-powered assistance to make course curation easi
 
 To create a Playlist with AI:
 
-1. Select **[!UICONTROL Chat with AI]** option on the Go1 Content Hub.
+1. Select **[!UICONTROL Chat with AI]** option on the **Go1 Content Hub**.
    
    ![](assets/select-chat-with-ai.png)
    _Content Hub screen displaying the Chat with AI option, where administrators can interact with the AI Assistant to ask questions_
