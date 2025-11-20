@@ -18,7 +18,7 @@ Add Go1 courses directly to Learning Paths and certifications. Create Learning P
 
 To create a Learning Path with Go1 courses:
 
-1. Log in to Adobe Learning Manager as an administrator.
+1. Log in to **Adobe Learning Manager** as an administrator.
 2. Select **[!UICONTROL Learning Paths]** in the left navigation pane. 
 3. Select **[!UICONTROL Add]**. 
 
