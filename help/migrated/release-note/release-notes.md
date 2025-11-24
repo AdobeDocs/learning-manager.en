@@ -1886,7 +1886,7 @@ An Administrator can grant special privileges to a user group, using which membe
 
 **Changes in values in Time columns**
 
-In the Learner Transcripts, in the time columns, the minutes are rounded to the nearest minute and the value of the second is 00. For more information, see [***Time columns***](../administrators/feature-summary/learner-transcripts.md#datetime).
+In the Learner Transcripts, in the time columns, the minutes are rounded to the nearest minute and the value of the second is 00. For more information, see [***Time columns***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 ### Issues fixed in this release {#Issuesfixedinthisrelease-3}
 
@@ -2029,7 +2029,7 @@ Release date: May 30, 2019
 * Skills now support awarding credit values in decimal format. This allows authors to award decimal level credit value to a certain course. For more information, see [***Decimal support***](../administrators/feature-summary/skills-levels.md#decimal).
 * Automate the creation of custom roles. For more information, see [***Configure roles via csv files***](../integration-admin/feature-summary/configure-role-csv-files.md).
 * Submissions required for external certifications and activity modules are now optional. This allows Managers and Instructors to evaluate without a submission. For more information, see [***Optional submission***](../managers/feature-summary/learning-objects.md#optional).
-* Download Learner Transcripts for deleted users. For more information, see [***Learner Transcripts***](../administrators/feature-summary/learner-transcripts.md).
+* Download Learner Transcripts for deleted users. For more information, see [***Learner Transcripts***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 * Support for the following languages:
 
    * Korean    
@@ -2963,7 +2963,7 @@ Some of the enhancement features are listed below for your reference.
 
 **Learner transcript**
 
-Learning Manager provides you a feature to generate transcripts for your organization's Learning Manager learners. For more information, refer to  [Learner Transcripts feature help content](../administrators/feature-summary/learner-transcripts.md). 
+Learning Manager provides you a feature to generate transcripts for your organization's Learning Manager learners. For more information, refer to  [Learner Transcripts feature help content](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md). 
 
 **Export badge as PDF**
 

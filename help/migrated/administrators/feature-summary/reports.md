@@ -444,15 +444,9 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 ### Learner Transcripts {#LearnerTranscripts-1}
 
-Adobe Learning Manager enables the administrators of an organization to generate the transcripts associated with learners. The Learner Transcript report carries the following:
+Adobe Learning Manager enables the administrators of an organization to generate the transcripts associated with learners. 
 
-1. Learner Transcript: Learning Activity Dashboard
-1. Skill: Skill Dashboard
-1. Compliance Dashboard
-
-The Learner Transcripts in Excel reports displays the columns Credits Required and Credits Earned in decimal numbers.
-
-For information on generating Learner Transcript reports and more information, see [Learner Transcripts](learner-transcripts.md).
+See [Learner Transcript](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) for more information. 
 
 ### Announcements Reports {#announcementsreports}
 
@@ -744,22 +738,7 @@ To download a report, follow these steps: Open the  **[!UICONTROL Course/ Learni
 
 As an Administrator, you can now fetch both Learner feedback (L1) and Manager feedback (L3) for selected trainings for a specified period. 
 
-You can export the data from the UI or through PowerBI connector for more in-depth analysis.
-
-L1 and L3 feedback reports provide an option to download a consolidated feedback report for the L1 and L3 responses for selected trainings for a **one-year** range or for up to 10 Selected trainings for any date range.
-
-Sign in as an Administrator, click **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**, and in the list of reports, click **[!UICONTROL Feedback Report]**.
-
-![](assets/download-feedbackreport.png)
-*Download feedback report*
-
-Clicking on download after selecting the filters, you will receive a notification to download the report in CSV format.
-
-The downloaded report will have details such as Training name and type, Instance name, Learner name and email, Type of Feedback: L1 or L3, Dates of the feedback submitted for new data. 
-
-For existing data prior to this feature implementation the LO completion date will be displayed, LO Completion date, L1 Feedback question Self-Paced actual text and Class Room Text in different columns, L1 Feedback respective responses, Manager name and email, L3 feedback value and submitted date, Active Fields.
-
-You can also export the data from the UI or to Power BI, which supports all trainings for any date range for more in-depth analysis
+See [Feedback report](/help/migrated/administrators/feature-summary/reports/feedback-report.md) for more information. 
 
 ### Trainings Report {#training-report}
 

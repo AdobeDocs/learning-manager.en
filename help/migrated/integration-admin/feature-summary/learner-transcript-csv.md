@@ -23,9 +23,9 @@ This information may be useful for any developer who intends to integrate Learni
 
 ## Fetch Learner Transcript from the User Interface {#fetchlearnertranscriptfromtheuserinterface}
 
-From the Profile Settings, a learner can download his/her transcript. For more information,  see *** [Download Learner Transcript](../../administrators/feature-summary/learner-transcripts.md)***.
+From the Profile Settings, a learner can download his/her transcript. For more information,  see ***[Download Learner Transcript](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***.
 
-Administrators can generate Learner Transcripts for the whole organization, a specific set of users or a specific set of learning objects, or a specific set of users and learning objects. They can also get all learning records for a time interval duration and indicate if module level information is required (by default, module level information is omitted). For more details, see [***Download Learner Transcripts***](../../administrators/feature-summary/learner-transcripts.md).
+Administrators can generate Learner Transcripts for the whole organization, a specific set of users or a specific set of learning objects, or a specific set of users and learning objects. They can also get all learning records for a time interval duration and indicate if module level information is required (by default, module level information is omitted). For more details, see [***Download Learner Transcripts***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 <!--Update above link?-->
 

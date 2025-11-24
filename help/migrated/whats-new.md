@@ -725,7 +725,7 @@ These changes ensure that completions marked after the session date are accurate
 ![Learner Transcript reports showing marked completed dates (highlighted in yellow) for course completion tracking in Adobe Learning](/help/migrated/assets/mark-completion-column.png)
 _Learner Transcript report displays a new column in yellow highlighting individual completion dates for each user_
 
-View [Learner Transcript](/help/migrated/administrators/feature-summary/learner-transcripts.md) for more information on Learner Transcript report.
+View [Learner Transcript](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)for more information on Learner Transcript report.
 
 ### Enhanced User Report with extended data fields
 
@@ -768,7 +768,7 @@ Organizations can now include suspended users (those with disabled external prof
 >
 >This flag is disabled by default for existing accounts and must be explicitly requested for new accounts.
 
-View [Learner Transcript](/help/migrated/administrators/feature-summary/learner-transcripts.md) article more information.
+View [Learner Transcript](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) article more information.
 
 ### Job Aids report with direct access links
 
