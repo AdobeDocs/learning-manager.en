@@ -2,6 +2,8 @@
 description: The Learner Transcripts in Adobe Learning Manager (ALM) allows administrators to monitor learner progress in courses, modules, learning paths, and certifications. It supports performance evaluations, compliance monitoring, audits, and external reporting. The report offers a complete summary of a learner's engagement and performance.
 jcr-language: en_us
 title: Learner Transcripts in Adobe Learning Manager
+product: Adobe Learning Manager
+feature: Learner Transcript
 ---
 
 # Learner Transcripts in Adobe Learning Manager
@@ -256,7 +258,7 @@ Track learners who have upcoming due dates for key Courses, Learning Paths or Ce
 
 |Column |Description|
 |---|---|
-|After |Represents the number of learners who achieved a skill before a defined period (in days), beyond which the skill is considered outdated or requiring refresh. Useful for identifying learners with approaching or expired skill achievements.<br>See <a href=https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels>skill levels</a> for more information.| 
+|After |Represents the number of learners who achieved a skill before a defined period (in days), beyond which the skill is considered outdated or requiring refresh. Useful for identifying learners with approaching or expired skill achievements.<br>See <a href=https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels> skill levels</a> for more information.| 
 |Name |Full name of the learner to whom the skill is assigned.|
 |Manager Name |Name of the learner's reporting manager.| 
 |Row Labels |The specific skill name assigned to learners appearing in this row. Used as a grouping header to summarize learner skill data under each skill category.|
