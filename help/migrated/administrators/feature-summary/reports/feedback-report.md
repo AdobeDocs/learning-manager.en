@@ -96,4 +96,6 @@ The following columns appear in the Learning Object level report:
 | Feedback Version| Version number of the feedback form|
 | Learner Language| Language selected by the learner|
 
-
+>[!NOTE]
+>
+>The Learning Object level report also includes the questions added to the feedback form. Each question appears as a column header, and the learner's responses to those questions are displayed in the corresponding rows below.  
