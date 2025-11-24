@@ -768,7 +768,7 @@ Organizations can now include suspended users (those with disabled external prof
 >
 >This flag is disabled by default for existing accounts and must be explicitly requested for new accounts.
 
-View [Learner Transcript](/help/migrated/administrators/feature-summary/learner-transcripts.md) article more information.
+View [Learner Transcript](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) article more information.
 
 ### Job Aids report with direct access links
 
