@@ -44,7 +44,7 @@ These changes ensure that completions marked after the session date are accurate
 
 ### Learner Transcript with the new column
 
-See this [article](/help/migrated/administrators/feature-summary/learner-transcripts.md) to learn how to download Learner Transcript. 
+See this [article](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) for more information on Learner Transcript report.
 
 The downloaded Learner Transcript report contains the new column: Mark Completed Date (UTC TimeZone).
 

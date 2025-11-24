@@ -2,8 +2,6 @@
 description: The Learner Transcripts in Adobe Learning Manager (ALM) allows administrators to monitor learner progress in courses, modules, learning paths, and certifications. It supports performance evaluations, compliance monitoring, audits, and external reporting. The report offers a complete summary of a learner's engagement and performance.
 jcr-language: en_us
 title: Learner Transcripts in Adobe Learning Manager
-product: Adobe Learning Manager
-feature: Learner Transcript
 ---
 
 # Learner Transcripts in Adobe Learning Manager

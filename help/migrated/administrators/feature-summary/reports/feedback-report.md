@@ -2,8 +2,6 @@
 description: Learn how to access, download, and interpret the Feedback Report in Adobe Learning Manager. Understand report columns, question types, manager and learner responses, and how feedback insights support training evaluation and continuous improvement.
 jcr-language: en_us
 title: Feedback Report in Adobe Learning Manager
-product: Adobe Learning Manager
-feature: Feedback Report
 ---
 
 # Feedback report
