@@ -8,13 +8,15 @@ title: Learner Transcripts in Adobe Learning Manager
 
 ## Overview
 
-The Learner Transcripts in Adobe Learning Manager (ALM) allows administrators to track learner progress at a granular level across courses, modules, learning paths, and certifications. The transcript data helps performance reviews, compliance tracking, audits, and external reporting needs.
+The Learner Transcript in Adobe Learning Manager (ALM) allows administrators to track learner progress at a granular level across courses, modules, learning paths, and certifications. The transcript data helps in performance reviews, compliance tracking, audits, and external reporting needs.
 
 >[!NOTE]
 >
 >Learner Transcripts are available for download by administrators, custom administrators, managers, or learners.
 
-In case of learners, they must launch their profile settings and then download their learning transcripts as an Excel file. This transcript, generated for an individual learner, details their personal learning journey. It includes the names of learning paths, courses, instances, and modules, along with key dates like enrollment, completion, and deadlines. It also tracks their progress through status, grades, quiz scores (including highest scores and maximums), and attempts taken. Additionally, it shows training IDs, durations, unenrollment dates, prices, and any submission comments. This report provides a comprehensive overview of a single learner's engagement and performance.
+The Learner Transcript download experience and the resulting file differ based on user role. Administrators and custom administrators can generate transcripts for multiple learners and have access to broader data sets, while learners can only download their own transcript via their profile settings. The UI for downloading also varies: admins use the Reports section, whereas learners access transcripts from their profile. The downloaded files may contain different columns and levels of detail depending on the role and permissions.
+
+In the case of learners, they must launch their profile settings and then download their learning transcripts as an Excel file. This transcript, generated for an individual learner, details their personal learning journey. It includes the names of learning paths, courses, instances, and modules, along with key dates like enrollment, completion, and deadlines. It also tracks their progress through status, grades, quiz scores (including highest scores and maximums), and attempts taken. Additionally, it shows training IDs, durations, unenrollment dates, prices, and any submission comments. This report provides a comprehensive overview of a single learner's engagement and performance.
 
 Organizations may use the Learner Transcripts to add the learning behavior data to an enterprise data warehouse, where one may want to combine learning data with other enterprise data to analyze correlations between learning behavior and other process data.
 
@@ -27,20 +29,19 @@ Organizations may use the Learner Transcripts to add the learning behavior data 
 
 ## Use cases of Learner Transcripts
 
-Learner Transcripts in Adobe Learning Manager tracks training, compliance, and skill development, enabling departments to verify completion and assess program effectiveness across the organization.  Here are a few use cases that Learner Transcripts addresses: 
+Learner Transcripts in Adobe Learning Manager tracks training, compliance, and skill development, enabling departments to verify completion and assess program effectiveness across the organization.  The following use cases illustrate how Learner Transcripts support organizational needs for compliance, skill tracking, and program effectiveness. 
 
 * A financial services organization must provide evidence that all customer-facing employees completed mandatory compliance training before the regulatory deadline. 
 * The IT department needs to assess current Java programming capabilities against future project requirements. 
 * HR wants to evaluate the effectiveness of the new employee onboarding program across different departments. 
 * The operations team needs to ensure all field technicians maintain the required safety certifications.
 
-## Access Control and permissions 
+## Access control and permissions 
 
 **Administrators**
 
-* Can generate transcripts for all learners across all catalogs.
-* Can access all reporting functions but may have catalog or user group restrictions. 
-* Custom administrators: Access limited by assigned scope and permissions. 
+* Administrators can generate transcripts for all learners across all catalogs.
+* Custom administrators can only view transcripts for learners within their assigned user groups and catalogs. 
 
 **Scope-based restrictions**
 
@@ -54,10 +55,10 @@ Learner Transcripts in Adobe Learning Manager tracks training, compliance, and s
 3. Select **[!UICONTROL Custom Reports]** within Reports and then select **[!UICONTROL Excel Reports]**. 
 4. Select **[!UICONTROL Learner Transcripts]**. 
 5. Select **[!UICONTROL Generate New]**.
-6. Select the date range for which you need the transcript generated. By default, the **[!UICONTROL From]** date is the learner's registration date, and the **[!UICONTROL To]** date is always the current date. You can modify only the start date from when you need the data.
+6. Select the date range for which you need the transcript generated. You can modify both start and end dates using the **[!UICONTROL Choose dates]** option in the date range dropdown.
 7. Select the following:
-    a. Select the learners' names from the **[!UICONTROL Select Learners]** section. You can select users or user groups  , or you can copy and paste the email addresses of the learners for whom you want to generate transcripts. See the section [Generate Learner transcript](#generate-learner-transcript-using-copy-paste) using copy-paste for more information.
-    b.Select specific catalogs from the **[!UICONTROL Select Catalogs]** dropdown list. The transcript is only downloaded for the specified catalogs.  
+    a. Select the learners' names from the **[!UICONTROL Select Learners]** section. You can select users or user groups  , or you can copy and paste the email addresses of the learners for whom you want to generate transcripts. See the section [Generate Learner transcript](#generate-learner-transcript-using-copy-paste) using copy-paste for more information. In case no selection is made, it defaults to All values.
+    b.Select specific catalogs from the **[!UICONTROL Select Catalogs]** dropdown list. The transcript is only downloaded for the specified catalogs. In case no selection is made, it defaults to All values.
     c. Select the **[!UICONTROL Enrollment Status]**. This drop-down contains the following options: 
 
        * Select All
@@ -70,7 +71,7 @@ Learner Transcripts in Adobe Learning Manager tracks training, compliance, and s
     a. Download transcripts for learners who have been deleted from an account by selecting the checkbox **[!UICONTROL Include deleted Learners]**.
     b. Download module level information in the Learner transcript by enabling the **[!UICONTROL Enable module level information]** checkbox. In this case, module names and the time spent on each module are fetched as a part of the transcript if this option is enabled.
     c. Download skills data and summary sheets by enabling the option **[!UICONTROL Include skills data and summary sheets]** checkbox. See the Excel reports section for more information.
-9. You can also select the column values  to be populated in your report. This provides flexibility to download reports with specific column values as required. Select the columns from the dropdown menu.
+9. You can also select the columns to be populated in your report. This provides flexibility to download reports with specific column values as required. Select the columns from the dropdown menu.
 Transcripts are generated and downloaded to your computer as .zip files when the skills data is not included. If the Skills data checkbox is enabled transcripts are generated and downloaded as . xlsx files.  
 
 ### Generate Learner transcript using copy-paste
@@ -105,7 +106,7 @@ The following columns identify the learner.
 |Name |Name of the learner. |
 |Email |Learner's email address.|
 |Adobe ID |This field is populated only when users log in using their Adobe ID. If they access Adobe Learning Manager through an organization-defined [Single Sign-On (SSO)](/help/migrated/administrators/feature-summary/multiple-sso-logins.md), the Adobe ID field will remain blank. |
-|User Unique ID | User Unique ID is an external ID generated by accounts in case they don't have email IDs of all users, or unique email IDs of all users. <br>The User Unique ID field is an optional field that can be enabled for an account. The main purpose of the field is to allow accounts to tag each user with a unique ID to track them, update user records via APIs, audit, or sync data in automated workflows. The tagging of each user happens via CSV import of users.</br><br>If an account has opted for Unique User ID, then reports, such as Learner Transcripts, Adobe Learning Manager provides the column in the reports.</br> |
+|User Unique ID | User Unique ID is an external ID generated by accounts in case they don't have email IDs of all users, or unique email IDs of all users.  <br>The User Unique ID field is an optional field that can be enabled for an account. The main purpose of the field is to allow accounts to tag each user with a unique ID to track them, update user records via APIs, audit, or sync data in automated workflows. The tagging of each user happens via CSV import of users.</br><br>If an account has opted for Unique User ID, then reports, such as Learner Transcripts, Adobe Learning Manager provides the column in the reports.</br> |
 
 **Enrollment-related information**
 
@@ -117,20 +118,21 @@ The following columns capture activity, progress, or attempts.
 |Mark Completed Date (UTC TimeZone)  |Date and time stamp of when an instructor marks a session or module as complete. Note that if a session has not happened, the column appears blank in the report. Also, if a session has happened and the instructor has not marked the session as complete, the column appears blank in the report.|
 |Started Date (UTC TimeZone) |Date and time on which the learner started the Learning Object. Empty implies the learner has not yet started this.|
 |Completion Date (UTC TimeZone) |Date and time on which learner completed this. Empty implies that the learner has not yet completed this. |
+|Mark Completed Date (UTC TimeZone)|Captures the exact date and time when an instructor marks a session or module as complete.|
 |Deadline (UTC TimeZone) |Date and time on which learner is expected to complete this Learning Object. Empty implies that there is no deadline for this. |
 |Overdue |Current overdue status of the Learner enrolled in the Learning Object. Yes/No |
 |Status  |Indicates the learner's status when taking the course, certification, or Learning Path.  The available statuses are Not Started, Unenrolled, In Progress, or Completed.  |
 |Progress %  |Current progress % of the learner taking the course, certification, or Learning Path. |
 |Time Spent(minutes)  |Learning time spent by the learner in the LO, the module level rows display the individual module wise Learning Time Spent. The Course / Learning Path  / Certificate level rows display the aggregated learning time spent.|
 |Grade  |  Indicates the success of the learner. 'Pass', if user has met success criteria for this, 'Fail' otherwise. |
-|Quiz_score |    The column is used to record the score from the most recent attempt of a quiz. For example, if a user takes multiple attempts (for example, scores 10, 50, and 30 in three attempts), the Quiz_score column will display the score from the last attempt, which is 30. Suppose a quiz has a maximum score of 100, and a user takes three attempts, scoring 30, 60, and 90. The Quiz_score column will show 90 (the most recent score), while the Highest_Quiz_score will show 90 (the best score across all attempts), and Quiz_score_max  will remain 100 (the maximum possible score). |
-|Quiz_score_max  |The Quiz_score_max column represents the maximum possible score that can be achieved for a specific quiz or module. Since Quiz_score_max remains constant, it is useful in reports to show the total achievable score for a quiz or module, regardless of the user's performance. |
+|Quiz_score | The latest quiz score obtained by the learner. Can be empty, if the learner has not attempted the quiz or content doesn't have any quiz in it, or the administrator/ Instructor hasn't assigned any score. The column is used to record the score from the most recent attempt of a quiz. For example, if a user takes multiple attempts (for example, scores 10, 50, and 30 in three attempts), the Quiz_score column will display the score from the last attempt, which is 30. Suppose a quiz has a maximum score of 100, and a user takes three attempts, scoring 30, 60, and 90. The Quiz_score column will show 90 (the most recent score), while the Highest_Quiz_score will show 90 (the best score across all attempts), and Quiz_score_max  will remain 100 (the maximum possible score).  |
+|Quiz_score_max  |The latest maximum quiz scores possible for the module. It can be empty if the learner has not attempted the quiz or the content doesn't have any quizzes in it. The Quiz_score_max column represents the maximum possible score that can be achieved for a specific quiz or module. Since Quiz_score_max remains constant, it is useful in reports to show the total achievable score for a quiz or module, regardless of the user's performance. |
 |Highest_Quiz_score |The Highest_Quiz_score column represents the highest score achieved by a user across all attempts of a specific quiz. For example, if a user takes three attempts scoring 10, 20, and 15, the Highest_Quiz_score will display 20, as it is the highest score achieved. |
-|Highest_Quiz_score_max |The maximum possible score associated with the highest quiz attempt made by a learner across multiple attempts. It is not the highest score the learner achieved. Instead, it captures the maximum score that was possible in the attempt where the learner scored their highest. |
+|Highest_Quiz_score_max |The highest maximum quiz scores possible for the module. It can be empty if the learner has not attempted the quiz or the content doesn't have any quizzes in it. The maximum possible score associated with the highest quiz score attempt made by a learner across multiple attempts. It is not the highest score the learner achieved. Instead, it captures the maximum score that was possible in the attempt where the learner scored their highest.|
 |Attempts Taken  |The total number of attempts taken by the learner so far for this module. |
 |Maximum Allowed Attempts |The maximum number of attempts allowed for the learner to consume the module. |
 |Submission Comments |Comments from a learner's manager after they complete a Learning Object.<br>The submission comments data provided by the instructor are included in the file submission module . See <a href=https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules>Modules-Adobe Learning Manager for more information.</a></br>|
-|Completion Source |Refers to the origin or method through which a learner's completion of a course, learning program, or certification is recorded. It helps administrators understand how the completion was achieved or logged in the system. The column identifies whether the completion was self-reported, automatically recorded, or facilitated by a specific role or configuration. <b>Note:</b> For VC connector attendance workflows, when a learner is marked as attended automatically, the source will display "SELF, (learner_email)". |
+|Completion Source |Refers to the origin or method through which a learner's completion of a course, learning path, or certification is recorded. It helps administrators understand how the completion was achieved or logged in the system. The column identifies whether the completion was self-reported, or facilitated by a specific role or configuration. Note: For VC connector attendance workflows, when a learner is marked as attended automatically, the source will display "SELF, <learner_email>". |
 |Completion Comment |The comments made by the administrator when they mark a learner as complete after they complete a course, certification, or Learning Path. The administrator can add the completion comments for one or multiple learners.|
 
 **Learning Objects-related information**
@@ -142,17 +144,17 @@ These refer to courses, modules, Learning Paths, certifications, and so on.
 |Learning plan Name |Title of the Learning Plan. |
 |LP/Certification/Course |The title of the Learning Object.|
 |Type |The type of Learning Object, the user was enrolled in. For example,<ul><li>Learning Path</li><li>Certification</li><li>Course</li></ul> |
-|Embedded Path |An Embedded Path is a type of learning path that is included as part of another course     or a Learning Path. The field indicates that a learner is completing that learning path as part of another Learning Path rather than as a standalone assignment. |
-|Course |Name of course in which the user is enrolled. When it is empty, the row represents either a Certification or Learning Path. <br><b>Note:</b> Although Learning Paths and Certifications    are composed of individual courses or nested Learning Paths, each component retains its own independent record. This ensures that progress, completion, and reporting data are tracked separately for both the parent and the child elements.</br> |
-|LO Unique ID |The unique ID of the Learning Object. It is needed if the customer has the LO in an external system which has its own ID. This is useful if you want to map the external system's LO Id and Adobe Learning Manager LO.<br>An administrator can enable the  option Unique Learning Object Ids in the Settings page. When enabled, Adobe Learning Manager assigns a unique ID to a Learning Object every time an author creates a course, certification, or Learning Path. </br>| 
+|Embedded Path |An Embedded Path is a type of learning path that is included as part of another course or a Learning Path. The field indicates that a learner is completing that learning path as part of another Learning Path rather than as a standalone assignment. |
+|Course |Name of course in which the user is enrolled. When it is empty, the row represents either a Certification or Learning Path. <br><b>Note:</b> Although Learning Paths and are composed of individual courses or nested Learning Paths, each component retains its own independent record. This ensures that progress, completion, and reporting data are tracked separately for both the parent and the child elements.</br> |
+|LO Unique ID |This is an optional, administrator-assigned identifier for a Learning Object (course, certification, or learning path) in Adobe Learning Manager. It is primarily used by organizations that maintain their own external system IDs for learning content and wish to map those IDs to ALM Learning Objects for integration or reporting purposes. The LO Unique ID is only present if the account has enabled this feature and the author has assigned an ID during LO creation. Note: The Training ID is always present and uniquely identifies each Learning Object within ALM. The LO Unique ID is for cross-system mapping and is not required for standard ALM operations.| 
 |Instance  |The name of the instance of  the Learning Object user is enrolled in. |
-|Selection Criteria  |Basis of enrollment (how this learner got enrolled in this Learning Object).<br>In Adobe Learning Manager, learners can enroll in learning objects through several methods: Manager Nominated Enrollment: Managers nominate learners for specific courses. Learners cannot self-enroll in these courses.</br><ul><li>Manager Approved Enrollment: Learners sign up for courses, but enrollment requires the manager's approval.</li><li>Self-Enrolled: Learners directly enroll themselves in courses without requiring approval.</li><li>Administrator-Enrolled: Administrators manually enroll learners into courses.</li></ul>|
+|Selection Criteria  |This column indicates how the learner was enrolled in the Learning Object (course, certification, or learning path). The value is determined as follows:<ul><li>Admin/Manager Enrollment: Displays direct when a learner is enrolled directly by an administrator or manager. </li><li>Learning Plan Enrollment: Displays auto enrolled when a learner is enrolled via a learning plan or automated enrollment trigger.</li><li>Admin enrolls User Group: Displays the user group name(s) if the learner was enrolled as part of a user group. </li><li>Nested Learning Paths: If Learning Path 1 contains Learning Path 2, which contains Course A:  For LP2 and Course A, the value is parent. For LP1, the value is direct. </li><li>Self-enrollment: Displays self when the learner enrolls themselves. </li></ul>The value in this column reflects the actual enrollment method and LO hierarchy, as detailed above.<ul><li>Learning plan enrolling learner: Value: Auto enrolled The learner is automatically enrolled via a learning plan or automated enrollment trigger. </li><li>Learner self enrolling: Value: Self  The learner directly enrolls themselves in the course, certification, or Learning Path. </li>Admin enrolling learner directly (using learner email/name): Value: Direct. The administrator or manager manually enrolls the learner by specifying their email or name. <li>Enrollment through a user group: Value: User group name The learner is enrolled as part of a user group. If a learner belongs to multiple user groups, the report will display the relevant user group(s) through which the enrollment occurred.  </li><li>Learning Object enrolled due to enrollment in a learning path: Value: Path. The learner is enrolled in a course or module because it is part of a larger learning path they are assigned to.</li></ul>|
 |Module | Name of module inside the courses. Only the modules that have status as Completed or In Progress appear in the report. If the status is Not Started or Unenrolled, the Module column stays empty.<br>Download module-level information in the Learner transcript by selecting the <b>Enable module level information</b> checkbox. In this case, module names and the time spent on each module are fetched as part of the transcript if this option is enabled.</br>|
-|Module ID |The unique ID of the module.<br><b>Note:</b> The Module ID column appears in the report only if you've selected the Include module information checkbox while generating the transcript.</br>|
+|Module ID |Name of module inside the courses.  Only the modules that have status as Completed or In Progress appear in the report. If a module is not started by the learner, the row for that module does not appear in the Learner Transcript. Only modules with status Completed or In Progress are included. Download module-level information in the Learner transcript by selecting the Enable module level information checkbox. In this case, module names and the time spent on each module are fetched as part of the transcript if this option is enabled. |
+|Module ID| The unique ID of the module. Note: The Module ID column appears in the report only if you've selected the Include module information checkbox while generating the transcript.|
 |Version |The module version refers to the specific version of a module that a learner has interacted with. This is particularly useful when a module has undergone updates or changes, as it allows administrators to track which version of the module was accessed by the learner.<br>When an author uploads a new version of a module, Adobe Learning Manager treats it as a new version of the existing module. This enables content to be updated without disrupting all learners.</br><br>The Version appears if <b>Enable module level information</b> checkbox was selected while generating the report.</br><br>See <a href=https://elearning.adobe.com/2023/03/updating-the-module-in-adobe-learning-manager-how-to-replace-a-content-module-in-a-course-without-disturbing-the-users-progress/>Updating a module in Adobe Learning Manager</a> for more information.</br>|
 |Delivery Type |Indicates how the module is delivered: Blended, Classroom, or Virtual Classroom. |
 |Language |Language in which the module is consumed by the learner. This column shows value only for eLearning modules.|
-|Overdue |Current overdue status of the Learner enrolled in the Learning Object. Yes/No|
 |Grade |Indicates the success of the learner. 'Pass', if user has met success criteria for this, 'Fail' otherwise.|
 
 >[!INFO]
@@ -171,12 +173,12 @@ These refer to courses, modules, Learning Paths, certifications, and so on.
 
 |Fields |Description |
 |---|---|
-|Training ID  |A system-generated unique identifier assigned to each learner's enrollment in a specific course, cert  ification, or learning path. If a learner re-enrolls in the same course, a new Training ID will be generated. One learner may have multiple Training IDs for the same course.|
-|Training or Module Duration (mins) |This column shows the expected duration (in minutes) of a course, module, or training activity as defined when creating the course. It is not the actual time a learner spends, but the configured/assigned duration that represents how long the training is supposed to take. <br>This column shows the total duration (in minutes) of the assigned learning item, which can be either a learning path or an individual course.</br><br><b>Learning Path duration:<b> If the training item is a learning path, its duration is calculated as the sum of the durations of all courses inside the learning path.</br><br>Example: If Course 1 = 50 mins and Course 2 = 60 mins, then the Learning Path Duration = 110 mins.</br><br><b>Individual course duration:</b>If the training item is an individual course (not part of a learning path), the duration reflects the time required for that course alone.</br>|
-|Embedded_Course_ID |The ID for the course that is a part of a Learning Path or part of any other course.<br>The column is populated when the row represents a Learning Path or certification itself. It shows the IDs of the individual courses embedded within the Learning Path or certification. It is not populated when the row itself is a course on ly, since there are no embedded items.</br>|
-|Embedded Path ID |The ID for the path in which the embedded course exists.<br>The column identifies the unique ID of embedded Learning Paths. It helps track courses within Learning Paths and provides visibility into the hierarchical structure of Learning Paths.</br>|
+|Training ID  |A system-generated unique identifier assigned to each Learning Object (course, certification, or learning path). The Training ID remains the same for all learners and all enrollments of that Learning Object. It is used to identify the content itself, not individual learner enrollments.|
+|Training or Module Duration (mins) |This column shows the expected duration (in minutes) of a course, module, or training activity as defined when creating the course. It is not the actual time a learner spends, but the configured/assigned duration that represents how long the training is supposed to take.  This column shows the total duration (in minutes) of the assigned learning item, which can be either a learning path or an individual course. <br><b>Learning Path duration:</b> If the training item is a learning path, its duration is calculated as the sum of the durations of all courses inside the learning path.</br><br>Example: If Course 1 = 50 mins and Course 2 = 60 mins, then the Learning Path Duration = 110 mins.</br><br><b>Individual course duration:</b>If the training item is an individual course (not part of a learning path), the duration reflects the time required for that course alone.</br>|
+|Embedded_Course_ID |The column is populated when the row represents a Learning Path or certification itself. It shows the IDs of the individual courses embedded within the Learning Path or certification. It is not populated when the row itself is a course only, since there are no embedded items.|
+|Embedded Path ID |The column identifies the unique ID of embedded Learning Paths. It helps track courses within Learning Paths and provides visibility into the hierarchical structure of Learning Paths.|
 |Unenrollment Date (UTC TimeZone) |Date of unenrollment by the learner to the Learning Object type.|
-|Price($) |The price of the Learning Object for which it is purchased from the course catalog. For this column to appear in the Learner Transcript, the administrator must enable the Enable pricing for Courses/ Learning Paths/ Certifications checkbox from account settings.|
+|Price($) |The price of the Learning Object for which it is purchased from the course catalog. For this column to appear in the Learner Transcript, the administrator must enable the Enable pricing for Courses > Learning Paths > Certifications checkbox from account settings.|
 
 ## Excel reports
 
@@ -212,7 +214,7 @@ This Learning Summary I report tracks two Learning Paths assigned to the learner
 
 Track learning activity per learner. Track enrollments, in-progress activity as well as due dates for learners.
 
-* Number of Learning Objects Enrolled: Total count of Learning  Objects (LOs) the learner is enrolled in each course, certification, or Learning Path. counts separately  .
+* Number of Learning Objects Enrolled: Total count of Learning Objects (LOs) the learner is enrolled in each course, certification, or Learning Path.
 * Number of Learning Objects Started: Indicates how many of the enrolled Learning Objects the learner has launched or begun.
 * Number of Learning Objects Completed: Shows how many of the started LOs the learner has fully completed.
 * Number of Learning Objects which have progressed ≥ N%: Reflects the number of LOs in which the learner has achieved at least the specified progress threshold (in this case, 70%).
