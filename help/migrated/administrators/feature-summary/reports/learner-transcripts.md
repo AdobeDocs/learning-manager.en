@@ -57,20 +57,22 @@ Learner Transcripts in Adobe Learning Manager tracks training, compliance, and s
 5. Select **[!UICONTROL Generate New]**.
 6. Select the date range for which you need the transcript generated. You can modify both start and end dates using the **[!UICONTROL Choose dates]** option in the date range dropdown.
 7. Select the following:
-    a. Select the learners' names from the **[!UICONTROL Select Learners]** section. You can select users or user groups  , or you can copy and paste the email addresses of the learners for whom you want to generate transcripts. See the section [Generate Learner transcript](#generate-learner-transcript-using-copy-paste) using copy-paste for more information. In case no selection is made, it defaults to All values.
-    b.Select specific catalogs from the **[!UICONTROL Select Catalogs]** dropdown list. The transcript is only downloaded for the specified catalogs. In case no selection is made, it defaults to All values.
-    c. Select the **[!UICONTROL Enrollment Status]**. This drop-down contains the following options: 
+    1. Select the learners' names from the **[!UICONTROL Select Learners]** section. You can select users or user groups  , or you can copy and paste the email addresses of the learners for whom you want to generate transcripts. See the section [Generate Learner transcript](#generate-learner-transcript-using-copy-paste) using copy-paste for more information. In case no selection is made, it defaults to All values.
+    1. Select specific catalogs from the **[!UICONTROL Select Catalogs]** dropdown list. The transcript is only downloaded for the specified catalogs. In case no selection is made, it defaults to All values.
+    1. Select the **[!UICONTROL Enrollment Status]**. This drop-down contains the following options: 
 
-       * Select All
-       * Completed
-       * In Progress
-       * Not Started
-       * Unenrolled
+        * Select All
+        * Completed
+        * In Progress
+        * Not Started
+        * Unenrolled
+
 8. Advanced options: Select **[!UICONTROL Advanced options]** to download the transcripts to include the following:
 
-    a. Download transcripts for learners who have been deleted from an account by selecting the checkbox **[!UICONTROL Include deleted Learners]**.
-    b. Download module level information in the Learner transcript by enabling the **[!UICONTROL Enable module level information]** checkbox. In this case, module names and the time spent on each module are fetched as a part of the transcript if this option is enabled.
-    c. Download skills data and summary sheets by enabling the option **[!UICONTROL Include skills data and summary sheets]** checkbox. See the Excel reports section for more information.
+    1. Download transcripts for learners who have been deleted from an account by selecting the checkbox **[!UICONTROL Include deleted Learners]**.
+    1. Download module level information in the Learner transcript by enabling the **[!UICONTROL Enable module level information]** checkbox. In this case, module names and the time spent on each module are fetched as a part of the transcript if this option is enabled.
+    1. Download skills data and summary sheets by enabling the option **[!UICONTROL Include skills data and summary sheets]** checkbox. See the Excel reports section for more information.
+
 9. You can also select the columns to be populated in your report. This provides flexibility to download reports with specific column values as required. Select the columns from the dropdown menu.
 Transcripts are generated and downloaded to your computer as .zip files when the skills data is not included. If the Skills data checkbox is enabled transcripts are generated and downloaded as . xlsx files.  
 
