@@ -25,9 +25,9 @@ Release date: November 25, 2025
 
 ### Experience Builder
 
-Experience Builder is now available for all new Adobe Learning Manager accounts, enabling customers to create fully branded learning experiences using low-code components and flexible layouts.
+Experience Builder is now available for all Adobe Learning Manager accounts, enabling customers to create fully branded learning experiences using low-code components and flexible layouts. Experience Builder allows admins to create custom learning portals and pages that are fully mobile-responsive.
 
-For existing accounts, the Experience Builder update will roll out automatically. Accounts that are still using the Old UI or Classic UI are excluded from this release, and must migrate to the new UI to access Experience Builder.
+For existing accounts, the Experience Builder update will roll out automatically. The Experience Builder feature is not available for accounts that continue to use the Old UI or Classic UI. 
 
 View [Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/overview.md) for more information. 
 
@@ -56,9 +56,14 @@ _The Fluidic Player now shows the Next button with the title of the upcoming mod
 
 ### L1 feedback form
 
-Administrators can now create and use multiple L1 feedback forms and each feedback form can be assigned to specific courses, learning paths, and certifications. The form now supports multiple question types, including Course Effectiveness, NPS, Likert scale, and Free Text questions.
+L1 feedback could be configured only within individual learning objects, which limited flexibility and prevented admins from using different forms across the catalog. Administrators can now create and use multiple L1 feedback forms and each feedback form can be assigned to specific courses, learning paths, and certifications. The form now supports multiple question types, including Course Effectiveness, NPS, Likert scale, and Free Text questions.
 
 Feedback forms can be translated into additional languages, while keeping the same question structure across all locales. Reports now include Feedback Form Name and Feedback Form Version to help identify which form captured each response.
+
+**Use cases**
+
+* Assign tailored feedback forms to different training programs. For example, Sales courses can use NPS-focused questions, while Compliance courses can use Course Effectiveness and Likert-scale questions to measure clarity and policy understanding.
+* Use separate feedback forms based on learning modules. For example, three different forms for blended modules, self-paced modules, and classroom modules.
 
 View [L1 feedback form](/help/migrated/administrators/feature-summary/l1-feedback-form.md) for more information. 
 
