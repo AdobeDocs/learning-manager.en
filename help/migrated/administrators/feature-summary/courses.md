@@ -350,6 +350,11 @@ When you download the PDF, you can see the time zone (in UTC) that was used when
 
 ## Add L1 and L3 feedback {#addl1andl3feedback}
 
+>[!NOTE]
+>
+>If this feedback option is not visible in your account, your account has already been upgraded to the new L1 Feedback form. View [L1 feedback form](/help/migrated/administrators/feature-summary/l1-feedback-form.md) for more information. 
+
+
 You can add L1 and L3 feedback options while you create the courses:
 
 1. Click Courses at the left pane after you log in as Administrator. List of all the courses appears on the right side page.

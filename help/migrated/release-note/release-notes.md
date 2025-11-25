@@ -17,6 +17,58 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
  </tbody>
 </table>-->
 
++++Update 103: Adobe Learning Manager November 2025 release
+
+Release date: November 25, 2025
+
+## What's new in this release
+
+### Experience Builder
+
+Experience Builder is now available for all Adobe Learning Manager accounts, enabling customers to create fully branded learning experiences using low-code components and flexible layouts. Experience Builder allows admins to create custom learning portals and pages that are fully mobile-responsive.
+
+For existing accounts, the Experience Builder update will roll out automatically. The Experience Builder feature is not available for accounts that continue to use the Old UI or Classic UI. 
+
+View [Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/overview.md) for more information. 
+
+### Adobe Learning Manager mobile web interface
+
+The mobile web interface has been rebuilt on a modern codebase to deliver faster load times, improved responsiveness, and a more intuitive learner experience across devices.
+
+The updated mobile web experience is enabled for all new accounts by default. Existing accounts will also receive the upgrade automatically, except when Social Learning is enabled. In those cases, the previous mobile experience will remain active until Social Learning is migrated to the new compatible framework.
+
+>[!NOTE]
+>
+>Social Learning is not supported in the new Adobe Learning Manager mobile web interface.
+
+### Fluidic player enhancements 
+
+Previously, the Next button in the Fluidic Player did not display the title of the upcoming module, which made it difficult for learners to anticipate the next step in their learning journey.
+
+With this enhancement, the Next button now includes the title of the next module, allowing learners to:
+
+* Understand what content is coming up before they continue.
+* Navigate through modules with more clarity and confidence.
+* Maintain better context throughout the course flow.
+
+![](assets/fluidic-player-next.png)
+_The Fluidic Player now shows the Next button with the title of the upcoming module_
+
+### L1 feedback form
+
+L1 feedback could be configured only within individual learning objects, which limited flexibility and prevented admins from using different forms across the catalog. Administrators can now create and use multiple L1 feedback forms and each feedback form can be assigned to specific courses, learning paths, and certifications. The form now supports multiple question types, including Course Effectiveness, NPS, Likert scale, and Free Text questions.
+
+Feedback forms can be translated into additional languages, while keeping the same question structure across all locales. Reports now include Feedback Form Name and Feedback Form Version to help identify which form captured each response.
+
+**Use cases**
+
+* Assign tailored feedback forms to different training programs. For example, Sales courses can use NPS-focused questions, while Compliance courses can use Course Effectiveness and Likert-scale questions to measure clarity and policy understanding.
+* Use separate feedback forms based on learning modules. For example, three different forms for blended modules, self-paced modules, and classroom modules.
+
+View [L1 feedback form](/help/migrated/administrators/feature-summary/l1-feedback-form.md) for more information. 
+
++++
+
 +++Update 102: Adobe Learning Manager October 2025 release
 
 **Release date**: October 12, 2025
