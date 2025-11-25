@@ -63,6 +63,10 @@ The following are the default columns in the Account-level report:
 | Date of Completion| The date when the learner completed the training|
 | Date of Feedback| The date when the learner submitted the feedback|
 | L1 Feedback Original Language| The language in which the learner originally submitted the L1 feedback|
+| L3 Likert Scale Question 1| Measures the learner's post-training performance using a rating scale|
+| L3 Likert Scale Response 1| Manager's response to this Likert-scale question|
+| L3 Free Text Question 1| Free-text question added to the L3 feedback form for managers; can be configured as optional or mandatory|
+| L3 Free Text Response 1| The manager's response to that free-text question|
 
 The following columns appear in the Account-level report based on the four types of questions added to the feedback form: 
 
@@ -77,10 +81,7 @@ The following columns appear in the Account-level report based on the four types
 | Likert Answer 1| Response to Likert Question 1|
 | Text Question 1| First open-ended/text question in the form|
 | Text Answer 1| Learner's response to Text Question 1|
-| L3 Likert Scale Question 1| Measures the learner's post-training performance using a rating scale|
-| L3 Likert Scale Response 1| Manager's response to this Likert-scale question|
-| L3 Free Text Question 1| Free-text question added to the L3 feedback form for managers; can be configured as optional or mandatory|
-| L3 Free Text Response 1| The manager's response to that free-text question|
+
 
 >[!NOTE]
 >
