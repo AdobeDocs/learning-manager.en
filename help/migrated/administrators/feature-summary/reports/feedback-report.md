@@ -87,6 +87,16 @@ The following columns appear in the Account-level report based on the four types
 >
 >The Account-level report also includes any active fields configured for learners.  
 
+## Download learning object level report
+
+To download the Learning Object level report:
+
+1. Log in to Adobe Learning Manager as an administrator. 
+2. Select **[!UICONTROL Courses]** from the left navigation menu. 
+3. Select any course and then select **[!UICONTROL View Course]**.
+4. Select **[!UICONTROL L1 Feedback]**. 
+5. Select **[!UICONTROL Export Report]** and then select **[!UICONTROL OK]**. 
+
 The following columns appear in the Learning Object level report: 
 
 | Column| Description|
