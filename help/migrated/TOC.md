@@ -59,6 +59,11 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Overview](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
          * [Customize Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+   * Settings {#settings}
+      * [Overview](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
+      * [Basic settings](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
+      * [Integration settings](/help/migrated/administrators/feature-summary/settings/integration-settings.md)
+      * [Advanced settings](/help/migrated/administrators/feature-summary/settings/advanced-settings.md)
    * Content marketplace {#content-marketplace}
       * [Content marketplace](administrators/feature-summary/content-marketplace.md)
       * [Curate Go1 courses to Learning Path](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
