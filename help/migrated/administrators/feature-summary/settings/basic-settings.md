@@ -24,11 +24,11 @@ The Basic information section serves as the foundation of your Adobe Learning Ma
 1. Log in to Adobe Learning Manager as an administrator. 
 2. Select **[!UICONTROL Settings]** in the left navigation bar. 
 
-    ![alt text](../../settings/assets/Picture1.png)
+    ![alt text](../settings/assets/Picture1.png)
 
 3. Select **[!UICONTROL Basic Info]** in the **[!UICONTROL Basics]** category. 
 
-    ![alt text](../../settings/assets/Picture2.png)
+    ![alt text](../settings/assets/Picture2.png)
 
 4. Select **[!UICONTROL Change]** to modify the basic settings. 
 
@@ -64,13 +64,13 @@ Before you start gathering valuable insights from your learners, you need to ena
 
 On the L1 Feedback tab, locate the toggle switch labeled Enable L1 Feedback for newly created Course and Learning Path. Select the switch to turn it on. This will automatically include an L1 feedback form for any new courses you create. 
 
- ![alt text](../../settings/assets/Picture3.png)
+ ![alt text](../settings/assets/Picture3.png)
 
 **Select a default language**
 
 Use the Language dropdown to select the default language for your feedback forms. This ensures that the questions are presented to learners in the correct language. 
 
- ![alt text](../../settings/assets/Picture4.png)
+ ![alt text](../settings/assets/Picture4.png)
 
 **Configure questionnaires for different course types**
 
@@ -82,7 +82,7 @@ Adobe Learning Manager allows you to customize the questions based on whether yo
 * **Customize questions**: Review the list of provided questions. To include a question in the feedback form, ensure the toggle switch next to it is set to Yes. To remove a question, toggle the switch to No. 
 * **Add Custom questions**: If you have additional questions specific to your self-paced content, select the Add More link to create and add new, custom statements to the questionnaire. 
 
-![alt text](../../settings/assets/Picture5.png)
+![alt text](../settings/assets/Picture5.png)
 
 **For Classroom Courses**: 
 
@@ -95,7 +95,7 @@ To maximize your response rates, it's a good practice to configure automated rem
 
 1. **Add a new reminder**: In the **[!UICONTROL L1 Feedback Reminders]** section, select **[!UICONTROL Add New Reminder]**. 
 
-    ![alt text](../../settings/assets/Picture6.png)
+    ![alt text](../settings/assets/Picture6.png)
 
 2. **Define reminder schedule**: In the **Reminder Settings** panel that appears, use the dropdown menus and input fields to configure the reminder: 
 
@@ -105,7 +105,7 @@ To maximize your response rates, it's a good practice to configure automated rem
 
 3. **[!UICONTROL  Save the reminder]**: Select the blue checkmark icon to save the new reminder configuration. You can repeat this process to add more reminders if needed. 
     
-    ![alt text](../../settings/assets/Picture7.png)
+    ![alt text](../settings/assets/Picture7.png)
 
 4. Select **[!UICONTROL Save]** in the upper-right corner of the page to apply the L1 feedback settings. 
 
@@ -121,7 +121,7 @@ Select the L3 Feedback tab on the Feedback Settings page.
 
 The L3 feedback is requested from the learner's manager as a single statement they can agree or disagree with. The default statement provided is: "The employee's performance has shown distinct improvement after taking the training." You can edit this statement to better suit your organization's needs. 
 
-![alt text](../../settings/assets/Picture8.png)
+![alt text](../settings/assets/Picture8.png)
 
 **Select a default language**  
 
@@ -137,7 +137,7 @@ To ensure that managers provide timely feedback, you need to set up automated re
     b. **[!UICONTROL Recurrence]**: Select the frequency of the reminder. If the recurrence is **[!UICONTROL Once]**, it means the manager will receive one notification to provide feedback. The available options are- Once, Every day, Every week, and Every month. 
 3. After setting up the schedule, select the blue checkmark icon to save the reminder configuration. The reminder appears in the list of existing reminders. 
 
-    ![alt text](../../settings/assets/Picture9.png)
+    ![alt text](../settings/assets/Picture9.png)
 
 4. Select **[!UICONTROL Save]** in the upper-right corner of the page to apply the L3 feedback settings. 
 
@@ -192,7 +192,7 @@ This option decides whether learners only see skills or tags that are assigned, 
 
 Select **[!UICONTROL Edit]** to restrict what a learner can see:
 
-![alt text](../../settings/assets/Picture10.png)
+![alt text](../settings/assets/Picture10.png)
  
 Learners then explore skills and tags visible to them and subscribe to skills of their choice.
 
@@ -228,7 +228,7 @@ This option allows you to control which filter options are available to learners
 
 Adobe Learning Manager has certain product terminology to define Learning Objects, such as courses, Learning Paths, or job aids. You can customize the terminology in English and French, based on your preference. Download the Product Terminology template, and replace, for example, Learning Plan with Prescriptive Rule. Similarly, change similar entries in French. Then, upload the modified template, and select Save to update the terminologies in the product.
 
-![alt text](../../settings/assets/Picture11.png)
+![alt text](../settings/assets/Picture11.png)
  
 See Product Terminology in Adobe Learning Manager for more information.
 
@@ -298,7 +298,7 @@ Here's how you can customize the footer links:
 2. **[!UICONTROL Replicate across locales]**: Select **[!UICONTROL Replicate]** to cascade the changes across all locales, ensuring all languages get the same name and URL.
 3. Select **[!UICONTROL Save]** to apply the changes.
 
-![alt text](../../settings/assets/Picture13.png)
+![alt text](../settings/assets/Picture13.png)
 
 **Additional options:**
 
@@ -448,7 +448,7 @@ The skills from external content providers are added to the admin-defined skills
 
 1. Select **[!UICONTROL Enable]**.
 
-    ![alt text](../../settings/assets/Picture14.png)
+    ![alt text](../settings/assets/Picture14.png)
  
 2. Select a content provider from the **[!UICONTROL Select Skills Source]** dropdown. 
 3. Select **[!UICONTROL Save]**.
