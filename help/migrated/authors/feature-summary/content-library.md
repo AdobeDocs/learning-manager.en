@@ -37,9 +37,21 @@ The table below shows the type of interactive and static file types that you can
      <li>SCORM 1.2</li>
      <li>SCORM 2004</li>
      <li>AICC</li>
-     <li>TinCan</li>
+     <li>xAPI</li>
     </ul>
-    <p></p></td>
+    <p><b>Important: Learner Assistant and SCORM‑based assessments</b></p>
+    <p>If your account has Learner Assistant enabled and you upload SCORM / xAPI packages into catalogs that are configured as Learner Assistant content sources, be aware of the following:</p>
+    <ul>
+      <li>Learners can use Learner Assistant to ask questions about the content inside those packages.</li>
+      <li>The Assistant may generate explanations or summaries that effectively reveal answers to quiz questions embedded in the SCORM course (for example, by restating feedback or explaining the "correct" option).</li>
+   </ul>
+   <p>For high‑stakes or proctored assessments (such as compliance or certification exams), Adobe recommends:</p>
+   <ul>
+      <li>Keeping assessment‑heavy SCORM content in catalogs that are not configured as Learner Assistant sources, or</li>
+      <li>Designing assessments so that simply rephrasing the learning material does not trivially expose the correct answers.</li>
+   </ul>
+   <p>This behaviour is expected: Adobe Learning Manager does not prevent Learner Assistant from explaining content that resides in catalogs you explicitly select as AI sources.</p>
+    </td>
    <td>
     <p>zip</p></td>
   </tr>
