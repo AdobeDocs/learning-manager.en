@@ -17,6 +17,19 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
  </tbody>
 </table>-->
 
++++Update 104: AI Buddy in Adobe Learning Manager
+
+Release date: TODO
+
+## AI Buddy- catalog and assessment limitations
+
+<ul>
+   <li><p><b>Catalog visibility not enforced for AI retrieval</b>: When you configure one or more catalogs as AI Buddy content sources, the Assistant can retrieve and summarize content from all trainings in those catalogs. Per‑learner catalog visibility is not applied to the Assistant's retrieval step, which means learners may see answers or explanations based on trainings that are not visible to them in the Catalog or My Learning views.</p></li>
+   <li><p><b>SCORM‑based assessments may be easier to answer with AI Buddy</b>: If catalogs used by AI Buddy contain SCORM / xAPI modules or other assessment‑heavy content, the Assistant's explanations and summaries can effectively reveal quiz answers or make correct options obvious. For high‑stakes or proctored exams, Adobe recommends keeping such content in catalogs that are not configured as Learner Assistant sources, or designing assessments so that simply rephrasing course content does not trivially expose the correct answer.</li>
+</ul>
+
++++
+
 +++Update 103: Adobe Learning Manager November 2025 release
 
 Release date: November 25, 2025
