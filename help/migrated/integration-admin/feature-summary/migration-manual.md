@@ -518,9 +518,117 @@ Go through the pre-requisites of migration process before you start with the mig
 
 After migrating the learning data and content from your organization's legacy LMS, you can verify the imported data and content using various learning object features. For example, you can log in to Learning Manager application as Administrator and verify the availability of imported modules and courses data and content. 
 
+## Migration using APIs
+
+Adobe Learning Manager (ALM) provides a migration feature to ingest data or content from external systems, primarily used to migrate from legacy LMS platforms. 
+
+However, some organizations may require this process to run on a regular schedule (for example, nightly or weekly), instead of as a one-time import. 
+
+As an example, you'll see how a fictitious customer (NovaFX) integrates with a fictitious external provider (SquareCorp) and automates scheduled migrations. The integration allows: 
+
+* SquareCorp courses appear as Learning Objects within ALM for NovaFX learners.
+* NovaFX track learner progress for SquareCorp-hosted courses directly in ALM.
+
+### Integration requirements
+
+SquareCorp must provide:
+
+* Course metadata information: An API to share course metadata that NovaFX has access to.
+* Progress data information: An API to share learner progress and completion information periodically.
+
+### Key definitions
+
+* **Active project:** A project is active if it is "In Progress" or "Initialized".
+* **Active sprint:** A sprint is active if it is "In Progress" or "Initialized".
+
+### Automate the sprint execution
+
+Build an app or script that performs the following on a schedule:
+
+1. Fetch course metadata, user enrollments, and learner grades from SquareCorp.
+2. Generate the CSV files.
+3. Upload the files to Box or FTP.
+4. Trigger the sprint using the migration APIs.
+
+### API details
+
+#### Start a migration run
+
+**Endpoint:** POST /primeapi/v2/bulkimport/startrun
+
+Parameters:
+
+* **lockaccount (Boolean):** The parameter determines whether to lock the account at the start of execution. By default, it is set to false. It is recommended that users avoid using this parameter unless there is a valid reason to lock the account. 
+* **catalogid (Integer):** This parameter allows you to select the destination catalog during migration. It is typically set when creating the migration project but can be adjusted for individual runs. When the catalogid is changed, learning objects added in future runs will be placed in the most recently chosen catalog. If it is necessary to go back to the catalog selected during the creation of the migration project, this must also be specified explicitly. 
+* **migrationProjectId (Integer):** The parameter is needed to trigger a specific migration project when multiple API-enabled runs are enabled in the account. 
+
+#### Check if sync can begin
+
+Ensure content can be synced to the sprint folder. Do not copy content or metadata files to the FTP folder unless this API returns a successful response object. 
+
+**Endpoint:** GET /primeapi/v2/bulkimport/cansync
+
+Parameters:
+
+* **migrationProjectId (Integer)** The parameter is needed to trigger a specific migration project when multiple API-enabled runs are enabled in the account. 
+
+<b>Response success</b>
+
+```
+{  
+    "status": "OK",  
+    "title": "BULKIMPORT_CAN_SYNC_NOW",  
+    "source": {  
+        "info": "Yes"  
+    }  
+} 
+```
+
+<b>Response success</b>
+
+```
+{ 
+    "status": "BAD_REQUEST", 
+    "title": "BULKIMPORT_ERROR_CANNOT_SYNC", 
+    "source": { 
+        "info": "Error, No active projects" 
+    } 
+} 
+```
+
+<b>Possible API responses</b>
+
+| Action                                | Type    | Message                                                                               |
+| ------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| BULKIMPORT_RUN_INITIATED_SUCCESSFULLY | Success | Run initiated successfully                                                            |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN   | Error   | A run is in-progress                                                                  |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN   | Error   | There are more than one active projects                                               |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN   | Error   | There are more than one sprints                                                       |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN   | Error   | No active projects                                                                    |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN   | Error   | No active sprints                                                                     |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN   | Error   | The catalog provided is either not a valid id or does not belong to the prime account |
+| BULKIMPORT_CAN_SYNC_NOW               | Info    | Can sync now                                                                          |
+| BULKIMPORT_ERROR_CANNOT_SYNC          | Error   | A run is in-progress                                                                  |
+| BULKIMPORT_ERROR_CANNOT_SYNC          | Error   | There are more than one active projects                                               |
+| BULKIMPORT_ERROR_CANNOT_SYNC          | Error   | There are more than one sprints                                                       |
+| BULKIMPORT_ERROR_CANNOT_SYNC          | Error   | No active projects                                                                    |
+| BULKIMPORT_ERROR_CANNOT_SYNC          | Error   | No active sprints                                                                     |
+| BULKIMPORT_ERROR_CANNOT_SYNC          | Error   | No valid files present in the folder                                                  |
+
+### Sample integration flow
+
+1. Check cansync API.
+2. Generate and upload CSV files.
+3. Trigger the sprint using startrun API.
+4. Monitor response and handle errors.
+
+### Limitations
+
+The migration APIs do not provide functionality to check migration-related errors directly in the output CSV file after sprint execution. However, these errors can be reviewed as rows within the CSV file by accessing the integration administrator User Interface following a sprint run. 
+
 ### Migration verification through APIs
 
-A new migration API, `runStatus`, allows integration administrators to track the progress of migration runs triggered through the API.
+The migration API, `runStatus`, allows integration administrators to track the progress of migration runs triggered through the API.
 
 The `runStatus` API also provides a direct link to download error logs in CSV format for completed runs. The download link remains active for seven days, and logs are retained for one month.
 
