@@ -115,7 +115,12 @@ Enable or disable the following settings:
   </tr>
   <tr>
    <td>Skills/Tags Visibility</td>
-   <td>Display all Skills and tags to Learners. You can either show all skills and tags or show skills and tags that are assigned, or those that are part of the Catalogs visible to the Learner.</td>
+   <td>Display all Skills and tags to Learners. You can either show all skills and tags or show skills and tags that are assigned, or those that are part of the Catalogs visible to the Learner.
+   <p><b>Important-Learner Assistant and catalog visibility</b></p>
+   <p>If your account uses Learner Assistant, remember that the catalogs selected as content sources for the Assistant are not scoped by per‑learner catalog visibility. The Assistant can use content from the configured catalogs even when some trainings are not visible to a given learner in the Catalog view.</p>
+   <p>Adobe recommends selecting only catalogs that contain content you are comfortable exposing (in summarized or explained form) to all learners who can access Learner Assistant. </p>
+   </td>
+   
   </tr>
   <tr>
    <td>Unique Learning Object Ids</td>
@@ -285,10 +290,12 @@ Enable or disable the following settings:
   </tr>
   <tr>
    <td height="20">Show Catalog Listing</td>
-   <td>If enabled, Learners can see a list of all Catalogs available to them. Learners can use this to refine how the Learning Objects are displayed.</td>
-   <td>Important – Learner Assistant and catalog visibility
-If your account uses Learner Assistant, remember that the catalogs selected as content sources for the Assistant are not scoped by per‑learner catalog visibility. The Assistant can use content from the configured catalogs even when some trainings are not visible to a given learner in the Catalog view.
-Adobe recommends selecting only catalogs that contain content you are comfortable exposing (in summarized or explained form) to all learners who can access Learner Assistant.</td>
+   <td>If enabled, Learners can see a list of all Catalogs available to them. Learners can use this to refine how the Learning Objects are displayed.
+   <p><b>Important-Learner Assistant and catalog visibility</b></p>
+   <p>If your account uses Learner Assistant, remember that the catalogs selected as content sources for the Assistant are not scoped by per‑learner catalog visibility. The Assistant can use content from the configured catalogs even when some trainings are not visible to a given learner in the Catalog view.</p>
+   <p>Adobe recommends selecting only catalogs that contain content you are comfortable exposing (in summarized or explained form) to all learners who can access Learner Assistant. </p>
+   </td>
+   
   </tr>
   <tr>
    <td height="20">Product Terminology</td>
