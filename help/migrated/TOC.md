@@ -192,7 +192,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [L1 feedback auto popup does not appear](kb/l1-feedback-auto-popup-does-not-appear.md)
    * [Unable to view certain courses under catalog while creating a Certification](kb/unable-to-view-certain-courses.md)
    * [Unable to view certain course under catalog while creating a Learning Program](kb/unable-view-course-catalog.md)
-   * [Troubleshoot Salesforce (SFDC) integration issues with Adobe Learning Manager] (kb/troubleshoot-sfdc-integration-issues.md)
+   * [Troubleshoot Salesforce (SFDC) integration issues with Adobe Learning Manager](kb/troubleshoot-sfdc-integration-issues.md)
    * [Issues in retiring a Learning Program](kb/issues-retiring-learning-program.md)
    * [Unable to assign a badge](kb/badge-not-assigned.md)
    * [Session expires in Learning Manager](kb/login-issue.md)
