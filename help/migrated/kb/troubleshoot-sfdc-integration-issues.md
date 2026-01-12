@@ -5,6 +5,8 @@ description:  troubleshoot common Salesforce (SFDC) integration issues with Adob
 contentowner: saghosh
 ---
 
+# Troubleshoot Salesforce (SFDC) integration issues with Adobe Learning Manager
+
 ## Troubleshoot SFDC export failures (no export for 2–3+ hours)
 
 If the SFDC export has not completed successfully for more than **2–3 hours**, use the steps below to identify and understand the issue.
