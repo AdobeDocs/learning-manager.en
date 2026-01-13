@@ -54,6 +54,8 @@ Administrators add the Categories widget to a page to showcase categorized learn
 
 View [Catalogs](/help/migrated/administrators/feature-summary/catalogs.md) and [Recommendations](/help/migrated/recommendations-adobe-learning-manager.md) articles to learn more about configuring catalogs and recommendations. 
 
+<b>Note</b>: In the Categories widget, when Catalog is selected, the list is sorted by creation date by default. Catalogs created more recently appear first. 
+
 ### Add a category widget
 
 In a financial services company, different teams often need access to role-specific training. The Categories widget helps organize learning content into clear, clickable tiles, making it easier for Sales and CSM teams to quickly find what they need. 
