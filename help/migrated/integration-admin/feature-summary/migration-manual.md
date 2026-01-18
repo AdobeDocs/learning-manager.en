@@ -22,6 +22,10 @@ As of today, the Migration feature in Learning Manager can be accessed by an org
 
 Pre-requisites for migration, key steps involved in migration process, migration sprints, specifications, data and content migration steps are explained in this section as follows: 
 
+### Important migration advisory
+
+You should be aware that migration timelines depend heavily on the quality and size of your data. If you need migration during onboarding, plan this activity well in advance and work closely with the Adobe Learning Manager onboarding team to avoid delays.
+
 ### Pre-requisites {#prerequisites}
 
 Learning Manager team expects that the following tasks are performed by your organization's Integration Administrators before undertaking the migration process:
