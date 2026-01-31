@@ -2139,7 +2139,7 @@ When a learner clicks Course or Certificate or Learning Path, the Overview page 
 
 ### Non-logged-in experience {#non-logged-in-experience}
 
-The non-logged-in experience allows you to create a real-time experience for non-logged-in users. For example, a non-logged-in experience serves as a landing page for marketing campaigns to encourage sign-ups. 
+The non-logged-in experience allows you to create learning experiences for for non-logged-in users. For example, a non-logged-in experience serves as a landing page for marketing campaigns to encourage sign-ups. 
 
 The non-logged-in experience in Adobe Learning Manager can be configured using the **[!UICONTROL Training Data Access]** connector. The connector provides the following offerings:
 
