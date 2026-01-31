@@ -2152,7 +2152,7 @@ The standard offering is to build the native version of Adobe Learning Manager. 
 
 **Premium offering**
 
-The premium offering helps users build a headless interface, which is configured by the **[!UICONTROL Training Data Access]** connector. This allows users to get real-time data on course and learning path details such as name, description, author, skills, duration, etc. For blended learning scenarios, you also get real-time seat limits, seats occupied, waitlist limits, and waitlist counts. Customers can use these APIs to create search and filter capabilities and a complete course summary for non-logged-in learners.
+The premium offering helps users build a headless interface, which is configured by the **[!UICONTROL Training Data Access]** connector. For blended learning scenarios, you also get real-time seat limits, seats occupied, waitlist limits, and waitlist counts. Customers can use these APIs to create search and filter capabilities and a complete course summary for non-logged-in learners.
 
 Customers can purchase a premium plan to build this highly scalable non-logged-in experience. 
 
