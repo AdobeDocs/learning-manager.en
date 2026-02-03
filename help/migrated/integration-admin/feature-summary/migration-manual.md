@@ -407,6 +407,14 @@ You need to be aware of the following dependencies on CSV files during import:
 * certification_commit.csv is dependent on certification.csv and certification_course.csv 
 * certification_enrollment.csv is dependent on certification.csv, certification_course.csv and certification_enrollment.csv
 
+### Learning Program course order in migration CSVs
+
+In earlier versions of the migration specifications, the learning_program_course.csv file included an order column, suggesting that you could control the sequence of courses within a Learning Program during migration.
+
+Adobe Learning Manager no longer uses this column. Course order in a Learning Program cannot be controlled via migration CSVs, and the system ignores any values provided in the order column, even if you set **orderEnforced** to true.
+
+To avoid confusion, the order column has been removed from the official CSV specifications. If you have existing scripts or tools that still generate this column, you can safely drop it; it has no impact on how Learning Programs are created or displayed.
+
 ## Migration procedure {#migrationprocedure}
 
 Before you start with the migration procedure, it is important to note the following points: 
