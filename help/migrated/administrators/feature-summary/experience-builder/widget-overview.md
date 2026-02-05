@@ -2,8 +2,8 @@
 title: Widgets in Experience Builder
 jcr-language: en_us
 description: Learn how widgets in Adobe Learning Manager's Experience Builder serve as modular, configurable blocks to build custom learning pages. Add, configure, and arrange widgets like content boxes, catalogs, and banners to create interactive, branded experiences without coding.
+exl-id: 5e179d28-d89e-4524-9610-98b22934bca4
 ---
-
 # Overview
 
 Widgets are modular, configurable content blocks or functional elements in Adobe Learning Manager's Experience Builder.
@@ -45,4 +45,3 @@ You can easily reposition widgets on the page by dragging or dropping the widget
 |[Iframe](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-iframe-widget) |Embeds external web pages or applications within the interface. |Display external content or tools without leaving the platform.|
 |[My Learning](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-my-learning-widget)|Displays a personalized view of a learner's ongoing courses and progress. |Help learners track their course completions and learning goals.|
 |[Social Learning](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-social-learning-widget) |Provides access to forums, discussions, groups, or social collaboration tools. |Encourage peer interaction, collaboration, and knowledge sharing.|
-
