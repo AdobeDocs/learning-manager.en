@@ -1,9 +1,9 @@
 ---
 title: Experience Builder guidelines and limitations in Adobe Learning Manager
-description: Experience Builder guidelines and limitations provide personalized course and content suggestions to learners using AI-driven algorithms. 
+description: Experience Builder guidelines and limitations provide personalized course and content suggestions to learners using AI-driven algorithms.
 jcr-language: en-us
+exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
 ---
-
 # Experience Builder guidelines and limitations
 
 Experience Builder is a powerful tool designed to help users create dynamic and engaging web pages with ease. To ensure optimal performance, usability, and security, it is essential to follow certain guidelines and recommendations when configuring pages, using widgets, and customizing layouts. This document provides a detailed overview of important notes and points that users should consider while working with Experience Builder. 
@@ -108,14 +108,4 @@ Each widget and page have unique IDs that can be used for targeted CSS changes. 
 
 * Global level: Apply CSS changes across all pages. 
 * Widget level: Apply CSS changes to specific widgets. 
-* Page level: Apply CSS changes to all widgets within a specific page. 
-
- 
-
- 
-
- 
-
- 
-
- 
+* Page level: Apply CSS changes to all widgets within a specific page.

@@ -2,8 +2,8 @@
 title: Customization in Experience Builder
 jcr-language: en_us
 description: Learn how Experience Builder in Adobe Learning Manager enables deep customization of learner experiences. Configure footers, apply global CSS and JavaScript, adjust course tiles, and tailor widgets to create branded, dynamic learning portals while reducing implementation costs.
+exl-id: d1eb3ef5-bcee-4aa9-bd27-f0545077d6ab
 ---
-
 # Overview
 
 Experience Builder allows administrators to create tailored learner experiences within the platform, bridging the gap between out-of-the-box native interfaces and fully headless solutions. It allows for the design of custom pages using a variety of widgets, flexible menu configurations, and advanced branding through CSS and JavaScript. This approach reduces time-to-market and implementation costs compared to headless builds, while still offering deep customization for branding and layout.
@@ -65,5 +65,3 @@ Configure menus to appear in different locations (left rail, top nav, below head
 Integrate external tools
 * **Embed external applications**: The iFrame widget allows you to embed external web applications or webpages directly within a custom page, creating a smoother experience for the learner.
 * **Create dynamic components with APIs**: The HTML widget allows you to add JavaScript to allow users to interact with, for example, learner APIs. Using this approach, you can create experience within the native Learning Manager environment without needing to build a new application.
-
-

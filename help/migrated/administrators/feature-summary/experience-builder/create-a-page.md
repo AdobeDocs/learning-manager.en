@@ -2,8 +2,8 @@
 title: Create a Page in Experience Builder
 description: Learn how to create new pages in Experience Builder within Adobe Learning Manager. This guide covers selecting templates, naming pages, setting page properties, and publishing your custom pages.
 jcr-langauge: en-us
+exl-id: eebaca0b-c490-41c8-a8be-9b2a0bc5ad2b
 ---
-
 # Create a custom page in Experience Builder
 
 As an administrator at a financial services company, you manage two teams: Sales and Customer Success. Each team has unique learning requirements, but both have been using the same standard learning portal. This has led to confusion, clutter, and low learner engagement.

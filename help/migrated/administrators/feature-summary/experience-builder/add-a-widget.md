@@ -1,9 +1,9 @@
 ---
 title: Add and Configure Widgets in Experience Builder
-description: Learn how to add, customize, and configure various widgets in Experience Builder within Adobe Learning Manager. This guide covers commonly used widgets such as calendars, categories, compliance status, courses & paths, gamification, HTML content, IFrames, social learning, and more. 
+description: Learn how to add, customize, and configure various widgets in Experience Builder within Adobe Learning Manager. This guide covers commonly used widgets such as calendars, categories, compliance status, courses & paths, gamification, HTML content, IFrames, social learning, and more.
 jcr-language: en-us
+exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
 ---
-
 # Add and configure widgets
 
 ## Calendar widget
