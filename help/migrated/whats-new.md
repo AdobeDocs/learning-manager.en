@@ -2,8 +2,8 @@
 description: Learn about the new features and enhancements in the October 2025 release of Adobe Learning Manager
 jcr-language: en_us
 title: What's new in Adobe Learning Manager October 2025 release
+exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
 ---
-
 # What's new in Adobe Learning Manager October 2025 release
 
 The Adobe Learning Manager October 2025 release introduces significant enhancements designed to improve reporting accuracy, expand integration capabilities, and enhance the learning experience for Administrators, Authors, and Learners.
@@ -816,5 +816,3 @@ Check out the [release notes](/help/migrated/release-note/release-notes.md) for 
 
 * [Adobe Learning Manager May 2025 release](/help/migrated/whats-new-may-2025.md)
 * [Adobe Learning Manager November 2025 release](/help/migrated/whats-new-nov-24.md)
-
-

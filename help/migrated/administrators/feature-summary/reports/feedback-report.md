@@ -2,8 +2,8 @@
 description: Learn how to access, download, and interpret the Feedback Report in Adobe Learning Manager. Understand report columns, question types, manager and learner responses, and how feedback insights support training evaluation and continuous improvement.
 jcr-language: en_us
 title: Feedback Report in Adobe Learning Manager
+exl-id: 6a54b5eb-f79d-406f-8125-1f18fdc0cbd3
 ---
-
 # Feedback report
 
 ## Overview 
@@ -109,4 +109,4 @@ The following columns appear in the Learning Object level report:
 
 >[!NOTE]
 >
->The Learning Object level report also includes the questions added to the feedback form. Each question appears as a column header, and the learner's responses to those questions are displayed in the corresponding rows below.  
+>The Learning Object level report also includes the questions added to the feedback form. Each question appears as a column header, and the learner's responses to those questions are displayed in the corresponding rows below.

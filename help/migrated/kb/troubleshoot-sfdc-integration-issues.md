@@ -1,10 +1,10 @@
 ---
 jcr-language: en_us
 title: Troubleshoot Salesforce (SFDC) integration issues with Adobe Learning Manager
-description:  troubleshoot common Salesforce (SFDC) integration issues with Adobe Learning Manager (ALM), including failed exports, field permission problems in SFDC custom objects, and important SFDC–ALM compatibility notes.
+description: troubleshoot common Salesforce (SFDC) integration issues with Adobe Learning Manager (ALM), including failed exports, field permission problems in SFDC custom objects, and important SFDC–ALM compatibility notes.
 contentowner: saghosh
+exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
 ---
-
 # Troubleshoot Salesforce (SFDC) integration issues with Adobe Learning Manager
 
 ## Troubleshoot SFDC export failures (no export for 2–3+ hours)
