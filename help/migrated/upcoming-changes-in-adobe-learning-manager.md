@@ -427,7 +427,7 @@ With multi‑language Job Aids:
 
 * Marketing and enablement teams can manage one Job Aid per topic across all locales.
 
-## Restrict when modules can be started 
+## Set restriction on module start time 
 
 ### Overview 
 
@@ -674,6 +674,11 @@ This ensures feedback is not only stored but actively surfaced to learners.
 
 ### Overview 
 
+>[!IMPORTANT]
+>
+>Note that the feature will only be available after enabling it in the account. Contact ALM support or Customer Success Manager.
+
+
 Presently, ALM supports multiple attempts at the LMS level via the Multiple Quiz Attempt (MQA) feature: 
 
 * Authors can configure attempts at course level (applied to all quiz‑bearing modules in the course) or at module level (per quiz module). 
@@ -874,7 +879,7 @@ This enhancement improves the experience of playing Adobe Captivate content with
 
    * PDFs are generated as expected.
 
-## Changes to Learner Transcripts
+## Improved learning time spent calculation in Learner Transcripts
 
 ### Overview
 
