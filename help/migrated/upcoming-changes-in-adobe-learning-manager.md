@@ -915,6 +915,11 @@ The new calculation varies by module type:
 
 Idle time is subtracted, ensuring only true engagement time is reported.
 
+>[!NOTE]
+>
+>If your laptop goes into sleep mode, learning time may not be tracked correctly. This is because activity tracking pauses while the system is asleep and resumes only when the laptop wakes up.
+
+
 ### Summary table
 
 | **Module type** | **Active time (counted)** | **Idle time (excluded)** |
