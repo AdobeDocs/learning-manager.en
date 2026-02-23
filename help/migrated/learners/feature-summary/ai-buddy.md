@@ -8,6 +8,11 @@ title: Learner AI Assistant (Beta) in Adobe Learning Manager
 
 The AI Assistant (Beta) for learners helps them quickly find answers from the assigned learning content without browsing through entire courses. You can ask questions in plain language and receive accurate, focused responses with source links to the relevant course content.
 
+>[!IMPORTANT]
+>
+>Learner AI Assistant is currently in Beta and is being released through a phased rollout. Access may vary by user.
+
+
 ## What is the AI Assistant?
 
 AI Assistant is a GenAI-powered chat companion in Adobe Learning Manager that delivers quick, accurate answers to learner questions using the trusted learning content available to them in Adobe Learning Manager. It also includes citations, so learners always know the source of the information.
@@ -167,15 +172,13 @@ The Learner AI Assistant answers questions using only the learning content assig
 
 * The assistant uses content from Internal catalogs that your administrator enables for the learner AI assistant.
 
-* If you do not have access to a course, job aid, or learning object, the assistant does not use it to generate responses.
-
 * The assistant respects your role, group membership, and catalog permissions when retrieving information.
 
 ### What content does the AI Assistant not use
 
 The Learner AI Assistant limits responses to your assigned learning scope.
 
-* It does not use content from Shared, Acquired, External, or other non‑Internal catalogs.
+* It does not use content from Default, Shared, Acquired, External, or other non‑Internal catalogs.
 
 * It does not retrieve information from third‑party content libraries such as LinkedIn Learning or Go1.
 
