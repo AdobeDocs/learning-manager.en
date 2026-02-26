@@ -157,7 +157,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [User notifications](learners/feature-summary/user-notifications.md)
    * [Announcements](learners/feature-summary/announcements.md)
    * [Waitlist & attendance management](learners/feature-summary/waitlist-attendance-management.md)
-   * [Learner AI Assistant](learners/feature-summary/ai-buddy.md)
+   * [AI Assistant for learners](learners/feature-summary/ai-buddy.md)
    * [AI-powered search in Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Learning Manager app for Salesforce](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect integration](learners/feature-summary/adobeconnect-integration.md)
