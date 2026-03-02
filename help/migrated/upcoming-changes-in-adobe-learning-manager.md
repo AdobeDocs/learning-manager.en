@@ -1006,9 +1006,66 @@ This is expected where idle time had previously inflated results. Annotate dashb
 
 None; the change is automatic.
 
+## Update to Learning Transcript reports for Administrators
 
+We are updating the Learning Transcript (LT) reports for Admins to better support checklist-based evaluations and reviewer feedback.
 
+## What is changing?
 
+### 1. Column Rename in Admin Learning Transcript
+
+The existing **Submission comment** column in the Admin Learning
+Transcript will be:
+
+1. **Renamed to:** `Reviewer's remarks`
+
+### Data shown in this column:
+
+* **For submission modules:**
+   The column will continue to display the submission comment (no behavioral change).
+
+* **For checklist modules:**
+   The column will now display the evaluation comment (the checklist reviewer's remarks).
+
+This change applies to all Admin LT sources:
+
+* LT downloaded from the Admin UI
+* LT obtained via the Job API
+* LT generated via Connectors
+
+After this change, the same column will carry: - Submission comments for submission modules
+
+* Evaluation comments for checklist modules
+
+Under the new header name **Reviewer's remarks**.
+
+### 2. New Column in Connector-Based Learning Transcript Exports
+
+For connector-exported Learning Transcripts:
+
+* A new column named **Reviewer's remarks** will be added at the end of the report.
+* This column will contain the reviewer's comments, aligned with the behavior described above:
+    * Submission comments for submission modules
+    * Evaluation comments for checklist modules
+
+## Impact on existing integrations and automations
+
+If you are using Learning Transcript reports in custom integrations, automations, or external reporting tools, please review the following scenarios:
+
+| Scenario | Impact | Action required |
+|----------|--------|----------------|
+| You identify fields in Admin LT by column name (e.g., "Submission comment") | The column header will change to Reviewer's remarks. | Yes. Update any mappings or logic that reference Submission comment to use Reviewer's remarks. |
+| You identify fields in Admin LT by column position only (index-based) | The position of this column remains the same in Admin LT. | Usually no action. If your logic does not depend on the header text, no change is needed for Admin LT, just change the column name if currently 'Submission Comments' column is used. |
+| You use connector-exported LT and rely on a fixed column count or specific last-column position | A new column is appended at the end of the report. | Yes. Adjust parsing or validation logic to account for an extra column at the end of the file. |
+| You use connector-exported LT and map by column name | A new column Reviewer's remarks will become available. | Optional. No change is required unless you want to consume the new reviewer/checklist comments data. |
+
+**What you should do**
+
+* Review any scripts, ETL jobs, dashboards, or integrations that consume Admin Learning Transcript reports.
+* If you reference the old column name _Submission comment_, update your configuration or code to use the new column name Reviewer's remarks.
+* If you use connector-based LT exports and assume a fixed number of columns or a fixed last column, update your logic to handle an additional column at the end of the export.
+
+If your current implementation relies purely on column positions in Admin LT and does not validate or depend on the column header text, no change is required for the Admin LT itself. Only connector exports need attention when you depend on a fixed layout.
 
 
 
