@@ -54,7 +54,7 @@ Adobe strongly recommends that administrators enforce two-step verification (2FA
 
 To enforce 2FA in the Adobe Admin Console:
 
-1. Sign in to the [Adobe Admin Console](adminconsole.adobe.com)
+1. Sign in to the Adobe Admin Console.
 2. Navigate to Settings > Privacy and Security > Authentication Settings. 
 3. Enable Two-step verification and select the Enforce option to prevent users from disabling it. 
 4. Optionally configure IP-based access restrictions and advanced session settings (Max Session Life / Max Idle Time).
