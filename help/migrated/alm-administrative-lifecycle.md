@@ -2,8 +2,8 @@
 title: Adobe Learning Manager Administrative Account Lifecycle
 description: This document provides comprehensive guidance on securely managing top-level administrative accounts in Adobe Learning Manager (ALM) to meet FedRAMP compliance and best security practices.
 jcr-language: en-us
+exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
 ---
-
 # Administrative account types in Adobe Learning Manager 
 
 ## ALM role mapping
