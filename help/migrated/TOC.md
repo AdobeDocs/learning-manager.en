@@ -20,11 +20,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [System requirements](system-requirements.md)
    * [Adobe Learning Manager App for Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Adobe Learning Manager compliance to GDPR](kb/prime-gdpr.md)
-<<<<<<< HEAD
    * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md)
-   * [Adobe Learning Manager](/help/migrated/alm-secure-administration-guide.md)
-=======
->>>>>>> db51cede45fa98703d8785bd335d1f7310ca3110
+   * [Adobe Learning Manager secure administrtartion guide](/help/migrated/alm-secure-administration-guide.md)
    * [Accessibility in Learning Manager](accessibility-learning-manager.md)
    * [Support for custom domain](custom-domain.md)
    * [Transition from Adobe FTP Manager](transition-from-ftp-manager.md)
