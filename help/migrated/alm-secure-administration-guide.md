@@ -113,6 +113,7 @@ The **Administrator** can create custom roles that grant a defined subset of adm
 | **Not auditing custom role assignments** | Undocumented or unreviewed custom roles may accumulate over time, leading to privilege creep. | Periodically download the Custom Role Report (**Users > Custom Roles > Download**) and review all active custom role assignments. |
 
 ## User Provisioning and Access Management Settings
+
 User provisioning settings control how users are added to the platform, how long they remain active, and when their data is removed. These settings are configured exclusively by the Administrator role and have direct security implications for data exposure and access control. 
 
 | Setting | Location | Security Implication | Recommended Default |
