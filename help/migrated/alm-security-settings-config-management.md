@@ -2,8 +2,8 @@
 title: Adobe Learning Manager- Security Settings and Configuration Management
 description: This document outlines Adobe Learning Manager's administrative account types, security-related settings, recommended secure defaults, API capabilities, export functionality, configuration comparison methods, publication practices, and version history. It provides detailed guidance on how privileged accounts operate, their security implications, and how configuration management is supported across the platform.
 jcr-language: en-us
+exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
 ---
-
 # Introduction
 
 This guide provides detailed responses to FedRAMP recommendations (FRR-RSC-03 to FRR-RSC-08) for Adobe Learning Manager (ALM). It outlines security best practices, recommended secure defaults, and tools for auditing, exporting, and managing privileged account settings. The document is designed for administrators and compliance teams to ensure secure configuration and management of ALM accounts. 
@@ -188,4 +188,3 @@ Adobe Learning Manager maintains a publicly available, detailed release history 
 * [API Deprecations in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/api-deprecations-list)
 
 +++
-
