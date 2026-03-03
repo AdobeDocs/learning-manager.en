@@ -4,7 +4,7 @@ description: This document outlines Adobe Learning Manager's administrative acco
 jcr-language: en-us
 ---
 
-## Introduction
+# Introduction
 
 This guide provides detailed responses to FedRAMP recommendations (FRR-RSC-03 to FRR-RSC-08) for Adobe Learning Manager (ALM). It outlines security best practices, recommended secure defaults, and tools for auditing, exporting, and managing privileged account settings. The document is designed for administrators and compliance teams to ensure secure configuration and management of ALM accounts. 
 
