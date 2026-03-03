@@ -1,5 +1,5 @@
 ---
-title: Adobe Learning Manager- Secure administration guide
+title: Adobe Learning Manager- secure administration guide
 description: This guide outlines security settings, roles, and best practices for managing administrative security and access control in Adobe Learning Manager to ensure compliance and security.
 jcr-language: en-us
 exl-id: 67dd9334-9718-4b2a-841e-5d8bd5c42714
