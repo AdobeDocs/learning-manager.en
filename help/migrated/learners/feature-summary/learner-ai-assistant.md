@@ -47,10 +47,10 @@ The AI Assistant is a generative AI-powered chat companion in Adobe Learning Man
 
 The AI Assistant retrieves information from learning content assigned to you, including:
 
-- **Documents:** PDF, Word, PowerPoint, Excel, HTML
-- **Media:** Audio (MP3, WAV, M4A), Video (MP4, MOV, WMV)
-- **Interactive content:** SCORM 1.2, SCORM 2004
-- **Learning object types:** Courses, learning paths, certifications, job aids
+* **Documents:** PDF, Word, PowerPoint, Excel, HTML
+* **Media:** Audio (MP3, WAV, M4A), Video (MP4, MOV, WMV)
+* **Interactive content:** SCORM 1.2, SCORM 2004
+* **Learning object types:** Courses, learning paths, certifications, job aids
 
 Adobe securely processes your learning content using trusted services.
 
@@ -60,11 +60,11 @@ The AI Assistant only uses content from **Internal** catalogs that are explicitl
 
 The following content sources aren't supported in the current release:
 
-- **Shared** catalogs
-- **Acquired** catalogs
-- **External** catalogs
-- **Default** catalogs
-- Third-party content libraries (for example, LinkedIn Learning or Go1)
+* **Shared** catalogs
+* **Acquired** catalogs
+* **External** catalogs
+* **Default** catalogs
+* Third-party content libraries (for example, LinkedIn Learning or Go1)
 
 If you don't have access to a course or job aid, the AI Assistant won't surface information from that content, and citation links won't be accessible.
 
