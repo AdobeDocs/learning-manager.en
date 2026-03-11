@@ -15,58 +15,60 @@ The AI Assistant (Beta) for learners helps them quickly find answers from the as
 
 ## What is the AI Assistant for learners
 
-The AI Assistant is a GenAI-powered chat companion in Adobe Learning Manager that delivers quick, accurate answers to learner questions using the trusted learning content available to them in Adobe Learning Manager. It also includes citations, so learners always know the source of the information.
+The AI Assistant is a generative AI-powered chat companion in Adobe Learning Manager that delivers quick, accurate answers using your trusted learning content. It includes citations so you always know the source of the information.
 
-### Key capabilities of the AI Assistant
+### Capabilities
 
-1. Intelligent question answering
-    * Single-turn and multi-turn conversations
-    * Natural language understanding in English
-    * Answers derived from course, certifications, learning paths, and job aids
-    * Smart clarifying questions when queries are ambiguous
-    * Powered by Azure open AI LLM capabilities to generate responses
-2. Content sources and citations
-    * Retrieves answers from available resources present in supported catalogs.
-    * Provides citations with direct links to source materials
-    * Supports all ALM content formats static and Interactive: PDF, DOCX, PPTX, XLSX, Audio (mp3, wav, m4a), Video (mp4, mov, wmv), HTML, SCORM 2004, SCORM 1.2
-3. User experience
-    * Side panel interface accessible from all learner pages
-    * Responsive design that adapts to content area
-    * Chat history maintained within browser session
-    * Clean slate on new login or page refresh
-    * Teacher or tutor tone: friendly, clear, and pedagogically sound
-4. Administrator controls
-    * Enable or disable feature at account level
-    * Control access by user groups
-    * Select which catalogs are included for AI responses
-    * Terms of Use acceptance requirement to follow Adobe AI guidelines
+- **Intelligent question answering**
+  - Single-turn and multi-turn conversations
+  - Natural language understanding in English
+  - Answers derived from courses, certifications, learning paths, and job aids
+  - Smart clarifying questions when queries are ambiguous
 
-## What types of content does the AI Assistant support
+- **Content sources and citations**
+  - Retrieves answers from available resources in supported catalogs
+  - Provides citations with direct links to source materials
+  - Supports all Learning Manager content formats (static and interactive): PDF, DOCX, PPTX, XLSX, audio (MP3, WAV, M4A), video (MP4, MOV, WMV), HTML, SCORM 2004, and SCORM 1.2
+
+- **User experience**
+  - Side panel interface accessible from all learner pages
+  - Responsive design that adapts to the content area
+  - Chat history maintained within the browser session
+  - Clean slate on new login or page refresh
+  - Friendly, clear, and pedagogically sound tone
+
+- **Administrator controls**
+  - Enable or disable the feature at the account level
+  - Control access by user groups
+  - Select which catalogs are included for AI responses
+  - Terms of Use acceptance requirement following Adobe AI guidelines
+
+## Supported content types
 
 The AI Assistant retrieves information from learning content assigned to you, including:
 
-* **Documents:** PDF, Word, PowerPoint, Excel, HTML
-* **Media:** Audio (mp3, wav, m4a), Video (mp4, mov, wmv)
-* **Interactive content:** SCORM 1.2, SCORM 2004
-* **Learning object types:** Courses, learning paths, certifications, job aids
+- **Documents:** PDF, Word, PowerPoint, Excel, HTML
+- **Media:** Audio (MP3, WAV, M4A), Video (MP4, MOV, WMV)
+- **Interactive content:** SCORM 1.2, SCORM 2004
+- **Learning object types:** Courses, learning paths, certifications, job aids
 
-Adobe securely transcribes learning content using trusted third‑party processing services hosted within Adobe's private VPC environment.
+Adobe securely processes your learning content using trusted services.
 
 ### Catalog and content source limitations
 
-The Learner AI Assistant only uses content from **Internal catalogs** that are explicitly configured by administrators.
+The AI Assistant only uses content from **Internal** catalogs that are explicitly configured by administrators.
 
-The following content sources are **not supported** in the current release:
+The following content sources aren't supported in the current release:
 
-* Shared catalogs
-* Acquired catalogs
-* External catalogs
-* Default catalogs
-* Third‑party content libraries (for example, LinkedIn Learning or Go1)
+- **Shared** catalogs
+- **Acquired** catalogs
+- **External** catalogs
+- **Default** catalogs
+- Third-party content libraries (for example, LinkedIn Learning or Go1)
 
-If a learner does not have access to a course or job aid, the AI Assistant will not surface information from that content, and citation links will not be accessible.
+If you don't have access to a course or job aid, the AI Assistant won't surface information from that content, and citation links won't be accessible.
 
-## Use cases of AI Assistant
+## Use cases
 
 ### Technical learner
 
@@ -98,54 +100,51 @@ The AI Assistant helps Jennifer with:
 * Discovering courses about company policies without browsing the entire catalog
 * Guding her to the appropriate section of a course without making her watch hours of video
 
-## How does the AI Assistant uses content
+## How the AI Assistant uses content
 
-The AI Assistant helps you find accurate answers quickly while you learn. To use it effectively, you should understand what content the assistant uses, what it does not use, and how it generates responses.
+The AI Assistant finds accurate answers from your learning content. Here's how it works.
 
-### What content does the AI Assistant use
+### What content the AI Assistant uses
 
-The AI Assistant answers questions using only the learning content enabled by the account administrator. The content from the catalog is indexed.
+The AI Assistant answers questions using only the learning content enabled by the account administrator. Content from the selected catalogs is indexed.
 
-The AI Assistant analyzes your assigned learning content to generate focused and contextual responses.
+The AI Assistant analyzes your assigned learning content to generate focused, contextual responses:
 
-* Every response includes citations that reference the original source content.
-* You can select a citation to navigate directly to the relevant course, module, or document.
-* Citations help you verify information and explore additional context when needed.
+- Every response includes citations that reference the original source content.
+- You can select a citation to navigate directly to the relevant course, module, or document.
+- Citations help you verify information and explore additional context when needed.
 
 ### Streaming responses
 
-A streaming response means the AI Assistant delivers the answer progressively as it is generated, so users can start reading the response immediately without waiting for the entire answer to finish loading.
+The AI Assistant delivers answers progressively as they're generated, so you can start reading immediately without waiting for the entire response to load.
 
 ### Citations and source transparency
 
-Every AI Assistant response includes citations that link directly to the original course, module, or learning object. Citations allow you to:
+Every AI Assistant response includes citations that link directly to the original course, module, or learning object. Citations let you:
 
-* Select an inline citation number to jump to the exact referenced section
-* Open the full source list by selecting Show Sources at the bottom of the response
-* Verify information and explore additional context from the authoritative source
+- Select an inline citation number to jump to the exact referenced section.
+- Open the full source list by selecting **Show Sources** at the bottom of the response.
+- Verify information and explore additional context from the authoritative source.
 
->[!IMPORTANT]
->
->The AI Assistant provides answers based on content enabled by the administrator, but if a user lacks access to a referenced item, they will see a "not supported" message when opening it.
+> **IMPORTANT**
+> The AI Assistant provides answers based on content enabled by the administrator. If you don't have access to a referenced item, you'll see a "not supported" message when you try to open it.
 
 
 ## Built-in prompts
 
-The AI Assistant includes built-in prompts to help learners get started quickly with common questions and scenarios. These prompts guide learners on how to interact with the assistant and demonstrate the types of questions they can ask.
+The AI Assistant includes built-in prompts to help you get started quickly with common questions and scenarios. These prompts guide you on how to interact with the assistant and demonstrate the types of questions you can ask.
 
 ![Built-in-prompts provided by Learner Assistant](assets/built-in-prompt-new.png)
 
-Built-in prompts are customizable per account. Organizations can tailor them to reflect their learning goals, learner roles, terminology, or specific use cases. Administrators can work with their Customer Success Manager (CSM) to configure or update built-in prompts. 
+Organizations can customize built-in prompts to reflect their learning goals, roles, terminology, or specific use cases. Administrators can work with their Customer Success Manager to configure or update built-in prompts. In the current release, you can't customize prompts directly in the Adobe Learning Manager interface.
 
-Prompt customization is managed at the account level and is not configurable directly within the Adobe Learning Manager user interface in the current release.
-
-## Administrator setup- Enable AI Assistant for learners
+## Set up the AI Assistant (administrators)
 
 ![AI-enabed Learner Assistant](assets/learner-ai-assistant-new.png)
 
-Administrators select which user groups and Internal catalogs can access the AI Assistant feature. They should ensure the catalogs assigned include only the learning content that is appropriate to be surfaced through AI responses and citations, and that those catalogs are Default, Internal, not Shared, Acquired, or External.
+Administrators select which user groups and **Internal** catalogs can access the AI Assistant feature. Make sure the catalogs you assign include only the learning content appropriate for AI responses and citations, and that those catalogs are **Internal** (not **Shared**, **Acquired**, or **External**).
 
-Before configuring the AI Assistant, confirm that you have administrator credentials and have identified which user groups and catalogs should have access to the feature.
+Before configuring the AI Assistant, confirm that you have administrator credentials and have identified which user groups and catalogs should have access.
 
 ### Configure AI Assistant access
 
@@ -172,11 +171,9 @@ To enable Learner AI Assistant:
 
 >[!IMPORTANT]
 >
->Only Internal catalogs are supported by the AI Assistant. If a Shared, Acquired, External, or other non‑Internal catalog is selected, its content will not be surfaced by the AI Assistant, even if the catalog appears in the Eligible Catalogs list.
+>Only **Internal** catalogs are supported. If a **Shared**, **Acquired**, **External**, or other non-Internal catalog is selected, its content won't be surfaced by the AI Assistant, even if it appears in the **Eligible Catalogs** list.
 
-## Learner guide- Launch the AI Assistant
-
-### Launch the AI Assistant
+## Launch the AI Assistant (learners)
 
 To launch the AI Assistant:
 
@@ -206,87 +203,82 @@ You can:
 
 The AI Assistant includes citations with every response to show where the information comes from. Each citation links directly to the original course, module, or learning object used to generate the answer.
 
-You can select any citation to open the actual course page in Adobe Learning Manaager and review the full content in context. Citations help you verify information, explore additional details, and continue learning from the authoritative source.
+You can select any citation to open the course page in Adobe Learning Manager and review the full content in context. Citations help you verify information, explore additional details, and continue learning from the authoritative source.
 
 ## Access the AI Assistant via search
 
-You can also launch the AI Assistant directly from the search bar. Type your question in the search field, then select **Ask AI Assistant** from the options that appear to get answers from your assigned learning content.he assigned learning content.
+You can also launch the AI Assistant directly from the search bar. Type your question in the search field, then select **Ask AI Assistant** from the options that appear.
 
 ![Access the Learner Assistant from search bar](assets/learner-assistant-search-new.png)
 
+## Provide feedback on AI Assistant responses
 
-## Provide feedback on Learner AI Assistant responses
-
-Your feedback on the responses generated by the Learner AI Assistant (Beta) helps improve its accuracy, relevance, and overall performance.
+Your feedback on the responses generated by the AI Assistant (Beta) helps improve its accuracy, relevance, and overall performance.
 
 ### Like or dislike a response
 
-* Select **Thumbs Up**, choose what you found helpful in the response, optionally add comments, and then select **Submit**.
+- Select **Thumbs Up**, choose what you found helpful in the response, optionally add comments, and then select **Submit**.
+- Select **Thumbs Down**, choose the reason the response wasn't helpful, add any comments, and then select **Submit**.
 
-<!-- ![Select Thumbs Up to upvote a response](assets/la-feedback.png) -->
+## Start a new chat
 
-* Select **Thumbs Down**, choose the reason the response was not helpful, add any comments, and then select **Submit**.
+Starting a new chat lets you begin a fresh conversation, clearing prior context so the assistant can focus on the new topic without referencing previous interactions.
 
-## Start a new chat in AI Assistant
-
-Starting a new chat allows the user to begin a fresh conversation, clearing prior context so the assistant can focus on the new topic without referencing previous interactions. This is important when switching topics or seeking answers unrelated to earlier questions.
-
-Clear the current conversation and start a new chat at any time.
-
-Select **New chat** in the AI Assistant screen and then select **Yes**.
+To clear the current conversation and start fresh, select **New chat** in the AI Assistant screen and then select **Yes**.
 
 ![Start a new chat in Learner Assistant](assets/start-new-chat.png)
 
 The AI Assistant provides learners with fast, contextual answers, supports multiple content types, and offers inline citations for transparency. Administrators can control access, ensuring the AI Assistant is tailored to organizational needs and enhances the learning experience.
 
 
-## Troubleshooting
+## Troubleshoot AI Assistant issues
 
->[!NOTE]
->
->After configuring a new catalog, allow 4–5 hours for the content to be indexed and available for AI Assistant responses.
+> **NOTE**
+> After configuring a new catalog, allow 4–5 hours for the content to be indexed and available for AI Assistant responses.
 
-### Scenario 1: No Access to content
+### No access to content
 
-Problem: Learner has access to Learner Assistant but receives 'I don't have an answer to this question' responses.
+**Problem:** A learner has access to the AI Assistant but receives "I don't have an answer to this question" responses.
 
-**Possible causes**
+**Possible causes:**
 
-* Learner's catalogs are not included when configuring AI Assistant
-* Content related to the question is not in selected catalogs or catalogs are blank
-* Learner doesn't have visibility to relevant content
+- The learner's catalogs aren't included in the AI Assistant configuration.
+- Content related to the question isn't in the selected catalogs or the catalogs are empty.
+- The learner doesn't have visibility to the relevant content.
 
-**Solution**
+**Solution:**
 
-* Verify the learner's catalog access
-* Check which catalogs are enabled in Learner Assistant settings
-* Ensure relevant content exists in those catalogs
-* ait few hours after adding new content for it to be indexed
+- Verify the learner's catalog access.
+- Check which catalogs are enabled in AI Assistant settings.
+- Ensure relevant content exists in those catalogs.
+- Wait a few hours after adding new content for it to be indexed.
 
-### Scenario 2: Irrelevant or poor quality answers
+### Irrelevant or poor-quality answers
 
-**Problem**: The AI Assistant provides answers that don't match the question or are low quality.
+**Problem:** The AI Assistant provides answers that don't match the question or are low quality.
 
-**Possible causes**
+**Possible causes:**
 
-* Question is too broad or ambiguous
-* Relevant content has poor metadata (descriptions, tags)
-* Content structure makes it difficult to extract information
+- The question is too broad or ambiguous.
+- Relevant content has poor metadata (descriptions, tags).
+- Content structure makes it difficult to extract information.
 
-**Solution**
+**Solution:**
 
-* Encourage learners to ask more specific questions
-* Review and improve course descriptions and metadata
-* Ensure content has clear headings and structure
-* Review the detailed usage report to identify patterns
-* Consider creating job aids for frequently asked questions
+- Encourage learners to ask more specific questions.
+- Review and improve course descriptions and metadata.
+- Ensure content has clear headings and structure.
+- Review the detailed usage report to identify patterns.
+- Consider creating job aids for frequently asked questions.
 
-### Scenario 3: Out of scope questions
+### Out-of-scope questions
 
-**Problem**: Learner asks questions unrelated to training content.
+**Problem:** A learner asks questions unrelated to training content.
 
-**Examples**:
+**Examples:**
 
-* General knowledge questions ('Who is the president?')
-* Personal opinions ('What do you think about X?')
-* Inappropriate content
+- General knowledge questions ("Who is the president?")
+- Personal opinions ("What do you think about X?")
+- Inappropriate content
+
+The AI Assistant is designed to answer questions based only on assigned learning content and won't respond to out-of-scope queries.
