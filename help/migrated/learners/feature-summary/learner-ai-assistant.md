@@ -76,9 +76,9 @@ Sarah is a sales engineer learning about graphics cards. She needs to quickly un
 
 The AI Assistant helps Sarah with:
 
-* Clear, technical explanation of complex GPU architecture
-* Deepen understanding about various graphic cards and their differences
-* Explanation of examples so Sarah can relate features to real world use cases
+- Clear, technical explanation of complex GPU architecture
+- Deepen understanding about various graphic cards and their differences
+- Explanation of examples so Sarah can relate features to real world use cases
 
 ### Customer support
 
@@ -86,9 +86,9 @@ Marcus is a support specialist at a partner company. He needs quick answers abou
 
 The AI Assistant helps Marcus with:
 
-* Finding relevant support content for freuently asked customer queries
-* Asking clarifying questions when the initial answer isn't specific enough
-* Finding recommendations for related troubleshooting courses to improve his skills
+- Finding relevant support content for freuently asked customer queries
+- Asking clarifying questions when the initial answer isn't specific enough
+- Finding recommendations for related troubleshooting courses to improve his skills
 
 ### New employee onboarding
 
@@ -96,9 +96,9 @@ Jennifer just joined the company and is overwhelmed by the amount of training ma
 
 The AI Assistant helps Jennifer with:
 
-* Getting a step-by-step guidance on submitting expense reports
-* Discovering courses about company policies without browsing the entire catalog
-* Guding her to the appropriate section of a course without making her watch hours of video
+- Getting a step-by-step guidance on submitting expense reports
+- Discovering courses about company policies without browsing the entire catalog
+- Guding her to the appropriate section of a course without making her watch hours of video
 
 ## How the AI Assistant uses content
 
@@ -196,8 +196,8 @@ To launch the AI Assistant:
 
 You can:
 
-* Select the citation number inline to jump to the exact referenced section
-* Open the full list of sources by selecting **Show Sources** at the bottom of the response
+- Select the citation number inline to jump to the exact referenced section
+- Open the full list of sources by selecting **Show Sources** at the bottom of the response
 
 ![Display sources in the response](assets/show-sources-latest.png)
 
