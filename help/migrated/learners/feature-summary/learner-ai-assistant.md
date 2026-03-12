@@ -1,5 +1,5 @@
 ---
-description: The AI Assistant (Beta) for learners is a GenAI‑powered chat companion in Adobe Learning Manager that helps learners get quick, accurate answers from their assigned learning content. Using natural language queries, learners can instantly retrieve focused responses with clear citations, making it easy to find the right information, verify sources, and learn efficiently without searching through entire courses.
+description: Get quick, accurate answers from your learning content with the AI Assistant in Adobe Learning Manager.
 jcr-language: en_us
 title: AI Assistant for learners in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
