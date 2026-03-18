@@ -2361,6 +2361,7 @@ An administrator defines alternate or equivalent relationships between courses, 
 * Course B → Course C
 
 #### Completion event
+
 A learner completes Course A directly.
 
 #### System action
