@@ -1724,6 +1724,7 @@ Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables 
 
 ### Key features
 
+* **Automatic VTT generation:** Upload a video or audio file and auto-generate VTT captions in the original language.  
 * **Multi-language translation:** Translate captions into any of the 39 supported non-English languages.  
 * **In-app review and editing:** Review, edit, and download VTT files before publishing.  
 * **Notifications:** Receive in-app notifications when VTT generation and translation are complete.  
@@ -1731,9 +1732,9 @@ Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables 
 
 ### Upload content and generate VTT
 
-1. Go to the Content Library and select **Add > Content**.
+1. Go to the Content Library and select **Add Content**.
 2. Upload your MP3 or MP4 file.
-3. In the upload dialog, select the option to **Generate Translations**.
+3. In the upload dialog, select the option to **Generate Translation**.
 4. Select the original content language (default is the file's language).
 5. Select additional target languages for translation (up to 39 supported).
 6. Select **Save**. The system begins generating and translating VTT files.
@@ -1948,10 +1949,7 @@ This feature lets reviewers add comments or feedback during checklist evaluation
 
 ## Advanced search enhancements
 
-Search results in Advanced Search are now more accurate and relevant. Exact keyword matches are ranked higher across both in-content search & metadata making it easier for learners to find precisely what they are looking for.
-
-Learners can now also see enrolled Learning Objects in search results, even if they are not part of an accessible catalog, ensuring no relevant content is missed. Additionally, Job Aid ranking has been improved across both Advanced Search and within-content search, surfacing the most relevant resources faster.
-
+This release includes improvement in in-content search by showing the courses with content match with query higher in rank. Also, Job Aids are now included in advanced search ranking.
 
 ## Equivalents and alternates
 
@@ -2363,7 +2361,6 @@ An administrator defines alternate or equivalent relationships between courses, 
 * Course B → Course C
 
 #### Completion event
-
 A learner completes Course A directly.
 
 #### System action
@@ -2452,4 +2449,3 @@ The system distinguishes between actual completion and alternate completion so t
 * If the relationship between source and target is removed or changed, ALM can remove or adjust the alternate completions without touching genuine completions, provided retroactive incompletions are enabled for the account.
 
 Alternate completions are designed not to interfere with actual learner activity on the target training. They act as an overlay that can be revised if the relationships change.
-
