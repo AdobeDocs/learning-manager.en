@@ -2450,3 +2450,91 @@ The system distinguishes between actual completion and alternate completion so t
 * If the relationship between source and target is removed or changed, ALM can remove or adjust the alternate completions without touching genuine completions, provided retroactive incompletions are enabled for the account.
 
 Alternate completions are designed not to interfere with actual learner activity on the target training. They act as an overlay that can be revised if the relationships change.
+
+## Changes to Learning Transcripts report in this release
+
+### Completion Method column 
+
+The Completion Method column indicates how each record in the administrator's Learner Transcript was completed.  
+
+Values: 
+
+* Direct (for direct completions) 
+* Alternate (for completions achieved via alternate relationships) 
+* Alternate Revoked (when all alternate completions are revoked due to retroactive incompletion and relationship removal)
+
+>[!NOTE]
+>
+>This column is not visible in the learner's LT; it is only available in the admin LT for reporting and tracking purposes.
+
+#### Impact
+
+Enables clear audit trails, compliance tracking, and transparency for admins regarding how a course was completed.
+
+### Alternate completion tracking in Learner Transcripts
+
+Alternate completions allow learners to receive completion credit for a target course or learning path when they have completed an equivalent source course or path, based on established relationships.  
+
+In the Learner Transcript (LT), alternate completions impact three existing columns: status, completion date, and completion source:
+
+* **Status**: The status can be Completed even if the learner has not directly completed the target course/path, due to alternate completion. Other statuses (Not Started, In Progress, Unenrolled) are not affected by alternates. Only Completed is impacted by alternates.
+* **Completion Date**: The completion date for an alternate completion is inherited from the source course/path that triggered the alternate completion. If the learner later completes the target directly, the date is updated to reflect the direct completion.
+* **Completion Source**: This column captures the training ID(s) of the source course(s) or path(s) that provided the alternate completion. If multiple sources are active, all relevant IDs are listed; if sources are revoked (with retroactive incompletion enabled), only active sources remain. The Completion Source column lists all active source training IDs (separated by commas), and if multiple sources exist, the earliest completion date is used.
+
+#### Impact
+
+Alternate completions reduce manual reconciliation, automate progress tracking in learning paths and certifications, and support compliance requirements.
+
+>[!NOTE]
+>
+>Learner Transcripts do not display the Completion Method column; this is only available in administrator LT.
+
+### Completion date logic for alternates  
+
+The Completion Date column in the Learner Transcript (LT) is an existing field used to record when a learner achieves completion for a course or learning path, whether by direct or alternate means. For alternate completions, the completion date is inherited from the source course or path that triggered the alternate completion. This means the date reflects when the learner completed the source, not the target.  
+
+If a learner later completes the target course or path directly, the completion date is updated to the date of direct completion, overriding the previous alternate completion date.  
+
+There is no new column added for alternate completion dates; the existing Completion Date column is used for both direct and alternate completions. In cases where multiple sources can provide alternate completion for a target, the earliest active alternate completion date among the sources is used. If a source is revoked (with retroactive incompletion enabled), the completion date updates to the next earliest active source or is cleared if no active sources remain.
+
+#### Impact
+
+The completion date logic ensures accurate historical tracking and consistency in reporting, especially when alternate completions are revoked or updated.
+
+### Revoked alternate completions  
+
+Revoked alternate completions occur when a learner's alternate completion for a target course or learning path is removed due to the revocation of all source relationships, provided that retroactive incompletion is enabled in the account.  
+
+#### Trigger conditions
+
+* Retroactive incompletion must be enabled for the account; otherwise, removing source relationships does not revoke alternate completions.  
+* Revocation happens only when all active source relationships for a target are removed. If at least one source remains, the alternate completion persists, and the completion source column updates to reflect only the remaining active sources.
+
+#### Impact
+
+* Status: If all alternate completions are revoked and there is no direct completion, the status is updated (e.g., from Completed to Not Started or In Progress as appropriate).  
+* Completion Date: The completion date is cleared if no active sources remain and the learner has not completed the target directly.  
+* Completion Source: The completion source column is updated to remove the revoked source(s); if all are revoked, it is cleared.
+
+If the learner has a direct completion, revoking alternates does not affect their completed status or completion date.
+
+**Note**:
+
+1. If multiple sources provided alternate completion and only some are revoked, the LT reflects the remaining active sources and their earliest completion date. 
+2. If all sources are revoked, and there is no direct completion, the learner loses completion status for the target.
+
+### Enhanced reporting for checklist reviewer remarks 
+
+Reviewer comments from checklist modules are now included in the LT report under a renamed column Reviewer Remarks. 
+
+#### Impact
+
+Learners and admins can view consolidated feedback, improving transparency and supporting performance evaluation. 
+
+### Improved learning time calculation 
+
+The LT report now uses a refined logic to distinguish between active and idle time spent on learning modules, based on user activity and tab focus. 
+
+#### Impact
+
+Provides more accurate measurement of learning engagement, supporting compliance and analytics. 
