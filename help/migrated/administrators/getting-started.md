@@ -11,7 +11,7 @@ preview: true
 
 This document provides a recommended approach for organizations to set-up and configure Adobe Learning Manager. Learning Manager team suggests a phased approach to get started with the application. It is not mandatory for you to follow all the phases in a specific sequence.
 
-These phases can be performed by three different roles, by one or more individuals based on your organization setup. The three roles are as follows: `
+These phases can be performed by three different roles, by one or more individuals based on your organization setup. The three roles are as follows:
 
 1. **IT Administrator** -  IT Administrator performs activation or integration-related activities associated with Learning Manager application in an organization. IT Administrator can also add single/multiple users and perform a role of an Integration Administrator.
 1. **Author** - Author creates learning content required for the organization's learning requirements. Author of training or learning content of your organization can start creating the basic content that is required for the Learning Manager application. 
