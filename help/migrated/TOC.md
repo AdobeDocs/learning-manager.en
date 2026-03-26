@@ -129,6 +129,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Manager App for Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Settings](integration-admin/feature-summary/settings.md)
    * [Manage custom roles via CSV files](integration-admin/feature-summary/configure-role-csv-files.md)
+   * [Embedded Player interaction API documentation](/help/migrated/embedded-player-interaction.md)
 * Authors {#authors}
    * [User login](authors/feature-summary/user-login.md)
    * [Content library](authors/feature-summary/content-library.md)
