@@ -356,81 +356,9 @@ For customer and partner education, marketing pages and portals often emphasize 
 
 Having expiry dates in the LO API lets experience builders: 
 
-* Hide or de‑emphasize content that is close to retirement. 
+* Hide or de‑emphasize content that is close to retirement.
 
-* Build "Last chance to complete" campaigns. 
-
-## Multi‑language support for Job Aids 
-
-### Overview 
-
-The enhancement extends Adobe Learning Manager's localization model to Job Aids, allowing authors to attach different content files per language to a single Job Aid. Instead of creating separate Job Aids for each language, authors can now manage all localized versions as one logical Job Aid. 
-
-### What's new 
-
-#### Language-specific content upload for Job Aids 
-
-Authors can attach different files per supported language to a single Job Aid, like courses and other LOs. 
-
-The Job Aid creation/edit experience now supports: 
-
-* Selecting a language. 
-
-* Uploading the language‑specific file for that language within the same Job Aid entity. 
-
-#### Consistent language handling in the player and learner UI 
-
-The Fluidic Player has been updated so that when a learner opens a Job Aid, the content variant corresponding to the learner's language is displayed (where available). 
-
-Administrators and authors can view Job Aids as single objects with language variants, rather than separate items per language. 
-
-### Key benefits 
-
-#### Single Job Aid for all languages 
-
-Authors can avoid creating separate Job Aids per language. 
-
-All language variants of the same Job Aid (for example, a procedure, SOP, checklist PDF or reference guide) can be managed in one place. 
-
-#### Better experience for global learners 
-
-Learners automatically see the Job Aid in their preferred language, which means there is: 
-
-* Less confusion about which version to open. 
-
-* Less risk of accessing out‑of‑locale or outdated copies. 
-
-This is particularly useful in multilingual organizations where the same process or product documentation must be available in multiple languages. 
-
-### Use cases 
-
-#### Global roll‑out of reference content 
-
-An enterprise needs to provide Job Aids in several languages to learners worldwide, such as: 
-
-* Product reference sheets. 
-
-* Process checklists. 
-
-* Support playbooks 
-
-Instead of creating separate Job Aids like "Product Quick Start – EN", "Product Quick Start – DE", "Product Quick Start – JP", etc., they can create one Job Aid, attach localized files for each language, and let ALM serve the correct version to each learner based on language settings. 
-
-#### Customer or partner‑facing documentation for multiple markets 
-
-For customer and partner academies, Job Aids might include: 
-
-* Product cheat sheets 
-
-* Integration guides 
-
-* Support workflows 
-
-With multi‑language Job Aids: 
-
-* Each partner sees the localized version without being forced to choose between language‑specific entries. 
-
-* Marketing and enablement teams can manage one Job Aid per topic across all locales.
+* Build "Last chance to complete" campaigns.
 
 ## Set restriction on module start time 
 
@@ -554,60 +482,6 @@ This allows analysis of overall performance and question-specific performance ba
 * **Safety and compliance observations**: In healthcare, manufacturing, or field service, critical safety steps can be given higher max scores, ensuring that missing a safety‑critical action has a larger impact on the total score than missing a minor procedural step. 
 
 * **Coaching and calibration**: With max and achieved scores per question in the report, managers can see exactly where learners underperform and calibrate instructors on how to score consistently.
-
-## Multi‑language support for checklist questions 
-
-### Overview 
-
-The enhancement introduces multi-language support for checklist questions, allowing reviewers to evaluate and score checklists in their preferred language. This feature is particularly useful in multilingual regions and global deployments, as it allows authors to create localized checklist questions for each supported content language while maintaining a single checklist module and a consistent evaluation process. 
-
-In Adobe Learning Manager today: 
-
-* All learner‑facing modules (SCORM, PDFs, HTML, etc.) can be provided in multiple content languages, allowing learners to choose the language they prefer. 
-
-* In a checklist module, reviewers (instructors/managers) evaluate learners based on the questions defined within that checklist. 
-
-### What's new 
-
-**Authoring** 
-
-* Authors can now add checklist questions in all languages selected at the course level. 
-
-* For each checklist: 
-
-   * The author is expected to provide equivalent question text in every content language in which the course exists. 
-
-   * Authors are responsible for ensuring that the meaning of each question is consistent across languages. 
-
-**Review experience** 
-
-* Reviewers will see checklist questions and evaluation UI in their selected content language. 
-
-* When a question is evaluated in one language: 
-
-   * The evaluation (score, Yes/No, status) is logically the same across all languages. It's a single checklist with multiple language views, not separate checklists per language. 
-
-**Reporting** 
-
-The Checklist report will display question text in the user's content language: 
-
-* An administrator or reviewer running the report in each language sees the localized question names for that language. 
-
-* The underlying responses and scores remain the same; only question labels are translated. 
-
-### Key benefits 
-
-* **Better reviewer experience**: Reviewers can work entirely in their own language, reading questions and recording evaluations without language barriers. 
-
-* **Regulatory and policy alignment**: In regions with language equality requirements (for example, Dutch/French in Belgium), checklists can now meet the same standards as other learning materials, reducing compliance risk. 
-
-* **Consistent evaluation logic**: While the text is localized, evaluation and scoring are shared across all languages, ensuring that results are comparable and centrally managed. 
-
-### Use cases 
-
-* Multi‑country franchises that operate in multiple languages can deploy a single course and checklist while still providing localized reviewer experiences in each territory. 
-
-* Any global enterprise with local instructors (for example, EMEA, LATAM, APAC) can have reviewers work in their local language while sharing the same global checklist design and reporting.
 
 ## Checklist with commenting capability for reviewer 
 
