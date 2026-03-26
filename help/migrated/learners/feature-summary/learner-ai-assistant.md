@@ -39,7 +39,6 @@ The AI Assistant is a generative AI-powered chat companion in Adobe Learning Man
 
 - **Administrator controls**
   - Enable or disable the feature at the account level
-  - Control access by user groups
   - Select which catalogs are included for AI responses
   - Terms of Use acceptance requirement following Adobe AI guidelines
 
@@ -142,32 +141,30 @@ Organizations can customize built-in prompts to reflect their learning goals, ro
 
 ![AI-enabed Learner Assistant](assets/learner-ai-assistant-new.png)
 
-Administrators select which user groups and **Internal** catalogs can access the AI Assistant feature. Make sure the catalogs you assign include only the learning content appropriate for AI responses and citations, and that those catalogs are **Internal** (not **Shared**, **Acquired**, or **External**).
+Administrators select which **Internal** catalogs can access the AI Assistant feature. Make sure the catalogs you assign include only the learning content appropriate for AI responses and citations, and that those catalogs are **Internal** (not **Shared**, **Acquired**, or **External**).
 
-Before configuring the AI Assistant, confirm that you have administrator credentials and have identified which user groups and catalogs should have access.
+Before configuring the AI Assistant, confirm that you have administrator credentials and have identified catalogs should have access.
 
 ### Configure AI Assistant access
 
 To enable Learner AI Assistant:
 
-1. Log in to Adobe Learning Manager as an administrator.
+1.Log in to Adobe Learning Manager as an administrator.
 
-2. Select **Settings** from the home page.
+2.Select **Settings** from the home page.
 ![Administrator console with the Settings option on the left pane](assets/settings-menu.png)
 
-3. Select **Learner AI Assistant (Beta)** from the **Settings** menu.
+3.Select **Learner AI Assistant (Beta)** from the **Settings** menu.
 ![Administrator console displays the Learner AI Assistant option on the left pane](assets/learner-assistant-ai-beta.png)
 
-4. Select the toggle switch to enable the **Learner AI Assistant (Beta)**.
-![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)
+4.Select the toggle switch to enable the **Learner AI Assistant (Beta)**.
+<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+<!--5. Select one or more user groups from the **Eligible user groups** option.-->
+<!--5. Select **Save** to apply the user group settings.-->
 
-5. Select one or more user groups from the **Eligible user groups** option.
+5.Select one or more catalogs from the **Eligible Catalogs** option.
 
-6. Select **Save** to apply the user group settings.
-
-7. Select one or more catalogs from the **Eligible Catalogs** option.
-
-8. Select **Save** to apply the catalog settings.
+6.Select **Save** to apply the catalog settings.
 
 >[!IMPORTANT]
 >
