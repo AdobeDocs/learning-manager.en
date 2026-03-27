@@ -1,4 +1,5 @@
 ---
+description: Define and set up an identity system against which your end users will be authenticated.
 jcr-language: en_us
 title: Learning Manager Deployment Guide - Section 2
 contentowner: sanm

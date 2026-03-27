@@ -1,4 +1,5 @@
 ---
+description: Classify users as internal and external. Internal users are those users that belong to a specific organization or a group.
 jcr-language: en_us
 title: Set up users in Learning Manager
 contentowner: shhivkum

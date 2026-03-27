@@ -124,7 +124,7 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [ALM reference site package for AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [Integrate Learning Manager with AEM](integrate-aem-learning-manager.md)
    * [Install Salesforce package in Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
-   * [Deployment guide](#deployment-guide)
+   * Deployment guide {#deployment-guide}
       * [Introduction](/help/migrated/deployment-guide/introduction.md)
       * [Third-party connectors](/help/migrated/deployment-guide/third-party-connectors.md)
       * [User migration](/help/migrated/deployment-guide/user-migration.md)
