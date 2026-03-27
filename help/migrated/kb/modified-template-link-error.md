@@ -4,9 +4,8 @@ title: Email links triggered from modified templates throw an error in Learning 
 description: Email links triggered from modified templates throw an error in Adobe Learning Manager
 contentowner: nluke
 preview: true
+exl-id: a8fa64e1-aeab-4cb5-9bb0-7cfdad0aa389
 ---
-
-
 # Email links triggered from modified templates throw an error in Learning Manager
 
 ## Issue

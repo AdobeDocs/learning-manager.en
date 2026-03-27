@@ -4,9 +4,8 @@ title: Learning Manager Deployment Guide
 description: Learning Manager is a Learning Management System (LMS) that allows training professionals to deliver engaging and trackable learning materials that can contribute to an organization's needs or goals. Learning Manager primarily allows trainers or managers to assign courses and other learning objects, in a specific order, for learners.
 contentowner: shhivkum
 preview: true
+exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
 ---
-
-
 # Learning Manager Deployment Guide
 
 ## Introduction {#introduction}
@@ -294,4 +293,3 @@ Learner Dashboard in Learning Manager allows learners to view their mandatory an
 1. To apply the default settings, click **[!UICONTROL Restore to Default.]** In this case, all the widgets except **[!UICONTROL Welcome and Sticky Announcements]** are visible.
 
    ***Even after you enable the Learner Dashboard settings, learners can modify and move around widgets in their respective dashboards.***
-

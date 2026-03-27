@@ -4,9 +4,8 @@ jcr-language: en_us
 title: Embeddable fluidic player
 contentowner: dvenkate
 preview: true
+exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
 ---
-
-
 # Embeddable fluidic player
 
 Read this article to learn how to embed the fluidic player in a custom application.
@@ -229,5 +228,3 @@ Learning Manager V1 API - [https://learningmanager.adobe.com/docs/primeapi/v1/](
  
 
 Learning Manager V2 API -  [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
-
- 

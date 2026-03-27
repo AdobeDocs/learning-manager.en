@@ -4,9 +4,8 @@ title: iPad & Android tablet users
 description: iPad and Android tablet users
 contentowner: manochan
 preview: true
+exl-id: d6300070-9de0-4971-ae1a-ae944731b3bb
 ---
-
-
 # iPad & Android tablet users
 
 In Learning Manager app on iPad or Android tablet, after you log in as a learner, you can see the following Home screen:

@@ -4,9 +4,8 @@ jcr-language: en_us
 title: Learning Manager Deployment Guide - Section 2
 contentowner: sanm
 preview: true
+exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
 ---
-
-
 # Learning Manager Deployment Guide - Section 2
 
 ## Technical Set up {#technicalsetup}
@@ -362,4 +361,3 @@ For useful resources on migration, refer the following:
 
 * Troubleshooting migration issues
 * FAQ on uploading CSVs
-

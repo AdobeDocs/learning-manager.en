@@ -4,9 +4,8 @@ jcr-language: en_us
 title: View learner's response to an outlook calendar invite on Learning Manager
 contentowner: kuppan
 preview: true
+exl-id: 0df7284f-20c1-410d-b985-3d031744deaf
 ---
-
-
 # View learner's response to an outlook calendar invite on [!DNL Learning Manager]
 
 Learn how an admin and an instructor can view a learner's response to a calendar invite.
@@ -58,4 +57,3 @@ If the invite-reply-tracking feature is enabled for the account, then follow the
    To send emails to all learners in the displayed table, click **[!UICONTROL Actions]** > **[!UICONTROL Email to All]**.
 
    ![](assets/instructor-actions1.png)
-

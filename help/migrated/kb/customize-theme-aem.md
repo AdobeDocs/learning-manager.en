@@ -4,9 +4,8 @@ title: Customize theme for AEM components
 description: Customize theme for AEM components
 contentowner: saghosh
 preview: true
+exl-id: 907a305b-423d-4252-8597-a25819178f07
 ---
-
-
 # Customize theme for AEM components
 
 Use the JSON below to customize the catalog widget.
