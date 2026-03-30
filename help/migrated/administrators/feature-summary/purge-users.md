@@ -227,6 +227,24 @@ You can sort the filtered users by their **[!UICONTROL Unique User ID]** and **[
 
 +++
 
+### Auto-purge of deleted users{#auto-purge}
+
+The Auto-purge of deleted users is a feature that purges data for users who have already been deleted in ALM. Purging happens after a configurable retention period, focusing on bulk operations so large customer accounts can be handled efficiently without hurting performance.
+
+The bulk deletion flow can process up to 10,000 users per batch. The feature is positioned as a background, reliability-focused service for large-volume deletion.
+
+#### What it does:
+
+* Provide configurable auto‑purge for deleted users at the account level
+* Ensure users are purged within 24 hours once they meet the purge criteria
+* Support bulk deletion of up to 10,000 users per day** without degrading system performance
+* Maintain overall system responsiveness and database health while these operations run
+* Enforce automated data‑retention management to uphold GDPR obligations
+
+#### What it doesn't:
+
+* The bulk deletion flow will run only as a scheduled cron job (not on‑demand per request)
+
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
 +++How many days does it take for a purge request to complete?

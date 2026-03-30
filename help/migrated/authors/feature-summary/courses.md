@@ -613,6 +613,218 @@ On this page, enter the following details:
 
 1. To republish the course with the updates, click **[!UICONTROL Republish]**.
 
+### Checklist with commenting
+
+
+Checklist commenting allows authors to enable **contextual feedback** during checklist-based evaluations.  
+When enabled, reviewers (instructors or managers) can add remarks explain evaluation outcomes beyond scores or pass/fail status.
+
+This capability transforms checklists from a purely evaluative tool into a **feedback-driven learning mechanism**, improving learner understanding, transparency, and follow-up actions.
+
+With this, authors can:
+
+* Enable reviewer comments on checklists
+* Control whether comments are visible to learners
+* Control whether the reviewer's name is shown to learners
+* Ensure reviewer comments are captured in learner transcripts and reports
+
+#### Use cases
+
+#### Performance evaluations
+
+Provide clear feedback on observed strengths, gaps, and improvement areas during real-world or role-based assessments.
+
+#### Instructor-led and VILT training
+
+Allow instructors to explain why a learner passed or failed a checklist-based evaluation.
+
+#### Compliance and audit scenarios
+
+Maintain an auditable trail explaining checklist evaluation decisions.
+
+#### Multi-reviewer environments
+
+Help learners identify who evaluated them and follow up for clarification.
+
+#### Enable checklist commenting
+
+1. Open an existing course or create a new course.
+2. Add a checklist module or open an existing checklist module for editing.
+3. In the checklist configuration panel:
+   1. Select **Reviewer remarks**. While reviewing the checklist, reviewers can add their remarks or feedback. Once published, this setting cannot be changed.
+   2. (Optional) Select **Show reviewer name to learner**. This allows learners to view the name of the reviewer who has reviewed the checklist module.
+4. Save the checklist configuration.
+5. Publish the course to make the checklist available for evaluations.
+
+The checklist now supports reviewer comments during learner evaluation.
+
+#### What happens during evaluation
+
+Although authors do not perform evaluations, it's useful to understand how the configuration is used:
+
+* Reviewers see a **remarks field** while evaluating learners
+* Reviewers can add contextual comments during submission
+* If enabled:
+  * Learners see reviewer comments
+  * Learners see the reviewer's name
+
+#### Learner experience (when enabled)
+
+* When learners open a completed checklist:
+* They see the checklist result (pass/fail or score)
+* They see reviewer comments (if enabled)
+* They see the reviewer's name (if enabled)
+
+This helps learners clearly understand evaluation outcomes and next steps.
+
+#### Key notes for authors
+
+* Checklist commenting is **optional** and must be explicitly enabled
+* Visibility of comments and reviewer identity is **fully author-controlled**
+* Works with:
+  * Single or multiple reviewers
+  * Score-based, Yes/No, and scaled checklists
+* No impact on existing checklists unless updated by the author
+
+### Create a multi-language checklist
+
+Multi-language support for checklists allows authors to create **a single checklist module with questions available in multiple languages**.  
+When enabled, reviewers automatically see checklist questions in their **selected content language**, ensuring consistent and localized evaluations across global teams.
+
+This eliminates the need to create and manage **separate checklists per language**, reducing duplication and simplifying course maintenance.
+
+With multi-language checklist support, authors can:
+
+* Add checklist questions in multiple languages within the same checklist
+* Maintain language parity across checklist questions
+* Ensure reviewers see checklist questions automatically localized to their content language
+* Download checklist reports in the selected language
+
+#### Use cases
+
+#### Global workforce evaluations
+
+Enable managers and instructors across regions to evaluate learners using localized checklist questions.
+
+#### Standardized assessments across regions
+
+Maintain a single evaluation structure while supporting multiple languages for different geographies.
+
+#### Compliance and operational training
+
+Ensure evaluators clearly understand checklist criteria in their native language, reducing interpretation errors.
+
+#### Reduced content duplication
+
+Avoid creating and maintaining multiple checklist modules for different languages.
+
+#### How to create a multi-language checklist
+
+1. Open an existing course or create a new course.
+2. Add a checklist module.
+3. In the course settings, add the required **content languages** (for example, English, French, German).
+4. Save the course configuration.
+
+#### How to configure checklist questions in multiple languages
+
+1. Open the checklist module configuration.
+2. Navigate to the **Configure questions** section.
+3. Use the **language tabs** to switch between available languages.
+4. For each language:
+   * Add the translated version of each checklist question
+   * Maintain equivalent meaning and evaluation intent across languages
+5. Define checklist criteria (Yes/No, scale-based, or score-based) as required.
+
+Each language version represents the same checklist, not a separate module.
+
+Save the checklist configuration and publish the course. The checklist is now available in all configured languages.
+
+#### Reviewer's experience
+
+* Reviewers see checklist questions in **their selected content language**
+* No manual language switching is required during evaluation
+* If a reviewer changes their content language, the checklist questions adapt automatically
+
+### Assign weights to checklist questions
+
+Checklist question weightage allows authors to create **score‑based checklists** where individual checklist questions can carry **different maximum scores**.  
+
+Instead of treating all checklist items equally, authors can define weighted questions and set a **minimum total score** required for a learner to pass.
+
+This capability enables more accurate and flexible evaluations, especially for **performance‑based, assessment‑driven, and compliance‑oriented training**.
+
+With checklist question weightage, authors can:
+
+* Create a **score‑based checklist type**
+* Assign different **maximum scores** to individual checklist questions
+* Define a **minimum total score** required to pass the checklist
+* Use an expanded scoring scale (configurable range up to 10)
+* View achieved score vs maximum score in reports
+
+#### Use cases
+
+#### Instructor‑led assessments
+
+Evaluate learners using detailed scoring criteria rather than simple Yes/No outcomes.
+
+#### SOP and operational training
+
+Assign higher weight to critical steps and lower weight to minor tasks.
+
+#### Compliance and certification readiness
+
+Ensure learners meet a defined minimum competency threshold before passing.
+
+#### Skill and performance benchmarking
+
+Support structured evaluations where partial completion still contributes to overall scoring.
+
+#### How to create a weighted checklist
+
+1. Open an existing course or create a new course.
+2. Add a checklist module or open an existing checklist module for editing.
+3. In the checklist configuration panel, choose **Custom scoring** checklist type.
+4. This enables per‑question scoring and total score calculation.
+5. Add checklist questions as required.
+6. For each question:
+   * Define the **maximum score** (for example, 5, 10, 20)
+7. Ensure question scores reflect their relative importance.
+
+Different questions can have different maximum scores within the same checklist.
+
+#### Define passing criteria
+
+1. Specify the **minimum total score** required to pass the checklist. The system calculates the total possible score automatically based on question weightage.
+2. Save the checklist configuration and publish the course.
+
+The checklist is now enabled with weighted scoring for instructor evaluations.
+
+#### Reviewer's experience
+
+* Reviewers see each checklist question with its **maximum score**
+* Reviewers assign scores per question during evaluation
+* The system calculates:
+  * Total achieved score
+  * Pass or fail status based on defined criteria
+
+#### Learer's experience
+
+* Learners see checklist completion status (pass/fail)
+* If enabled, learners may also see:
+  * Reviewer comments
+  * Reviewer name
+* Scoring logic is applied consistently across evaluations
+
+#### Notes for authors
+
+* Weighted checklists are best suited for **formal evaluations**
+* Question scores should be calibrated carefully to avoid skewed outcomes
+* Works with:
+  * Single or multiple reviewers
+  * Reviewer comments (if enabled)
+* Existing checklists are unaffected unless explicitly updated
+
+
 ### Allow instructors to mark success
 
 Adobe Learning Manager allows instructors to mark learners' success status in a classroom or virtual classroom module. Authors can grant instructors permission to mark the success status of learners when creating Classroom or Virtual Classroom modules. Instructors can mark the success by marking a learner as Pass or Fail, ensuring that progress is updated accordingly. 
