@@ -143,10 +143,12 @@ The result is slow change, high support cost, and an authoring experience that d
 
 ### Self-serve, administrator-friendly workflows
 
-The certificate designer and listing replace HTML upload scripts and internal provisioning with an administrator-driven experience:
-Administrators create, publish, and retire certificate designs inside Learning Manager without code or CSM involvement.
-Design updates (for example, seasonal or partner-specific branding) take minutes in the UI instead of tickets and engineering cycles.
-Account-level and learning object–level defaults reduce repetitive per-object configuration.
+Here are the workflows:
+
+- The certificate designer and listing replace HTML upload scripts and internal provisioning with an administrator-driven experience:
+- Administrators create, publish, and retire certificate designs inside Learning Manager without code or CSM involvement.
+- Design updates (for example, seasonal or partner-specific branding) take minutes in the UI instead of tickets and engineering cycles.
+- Account-level and learning object–level defaults reduce repetitive per-object configuration.
 
 ### Reduced support overhead and operational risk
 
