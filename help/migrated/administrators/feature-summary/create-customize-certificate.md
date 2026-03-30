@@ -131,7 +131,7 @@ Today, certificate management in Learning Manager depends on a code-heavy, suppo
 **Badge linkage constraints**Certificates are tightly coupled to **badges**:
 
 - A certificate must be associated with a badge; there is no certificate-only issuance.
-- That coupling can complicate design changes when administrators want certificates without gamification elements.
+ That coupling can complicate design changes when administrators want certificates without gamification elements.
 
 **Non-visual authoring and brand inconsistency**: HTML-based certificates are flexible but need front-end skills many administrators do not have. Some customers rely on generic default certificates, which weakens brand consistency.
 
@@ -144,10 +144,9 @@ The result is slow change, high support cost, and an authoring experience that d
 ### Self-serve, administrator-friendly workflows
 
 The certificate designer and listing replace HTML upload scripts and internal provisioning with an administrator-driven experience:
-
-- Administrators create, publish, and retire certificate designs inside Learning Manager without code or CSM involvement.
-- Design updates (for example, seasonal or partner-specific branding) take minutes in the UI instead of tickets and engineering cycles.
-- Account-level and learning object–level defaults reduce repetitive per-object configuration.
+1-Administrators create, publish, and retire certificate designs inside Learning Manager without code or CSM involvement.
+2-Design updates (for example, seasonal or partner-specific branding) take minutes in the UI instead of tickets and engineering cycles.
+3-Account-level and learning object–level defaults reduce repetitive per-object configuration.
 
 ### Reduced support overhead and operational risk
 
