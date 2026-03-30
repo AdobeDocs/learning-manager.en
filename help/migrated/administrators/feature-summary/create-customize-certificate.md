@@ -122,25 +122,20 @@ To improve runtime performance and the learner experience:
 
 Today, certificate management in Learning Manager depends on a code-heavy, support-heavy model:
 
-1. **High dependency on CSM and support teams**  
-   Administrators supply HTML or ZIP files that CSMs or engineering upload through internal tools. Every change (branding, logos, regulatory text, signatures) needs an internal ticket and deployment cycle.
+**High dependency on CSM and support teams**: Administrators supply HTML or ZIP files that CSMs or engineering upload through internal tools. Every change (branding, logos, regulatory text, signatures) needs an internal ticket and deployment cycle.
 
-2. **Limited agility for business teams**  
-   Marketing, compliance, or HR teams often need frequent, localized certificate updates (languages, campaigns, country-specific rules). The current workflow slows those updates and delays compliance programs.
+**Limited agility for business teams**: Marketing, compliance, or HR teams often need frequent, localized certificate updates (languages, campaigns, country-specific rules). The current workflow slows those updates and delays compliance programs.
 
-3. **Fragmented configuration and unclear inheritance**  
-   Legacy HTML templates can be set at account, learning object default, and learning object level with complex fallback rules. Without clear multi-level custom configuration, it can be hard to see which template applies where.
+**Fragmented configuration and unclear inheritance**: Legacy HTML templates can be set at account, learning object default, and learning object level with complex fallback rules. Without clear multi-level custom configuration, it can be hard to see which template applies where.
 
-4. **Badge linkage constraints**  
-   Certificates are tightly coupled to **badges**:
+**Badge linkage constraints**Certificates are tightly coupled to **badges**:
+
    - A certificate must be associated with a badge; there is no certificate-only issuance.
    - That coupling can complicate design changes when administrators want certificates without gamification elements.
 
-5. **Non-visual authoring and brand inconsistency**  
-   HTML-based certificates are flexible but need front-end skills many administrators do not have. Some customers rely on generic default certificates, which weakens brand consistency.
+**Non-visual authoring and brand inconsistency**: HTML-based certificates are flexible but need front-end skills many administrators do not have. Some customers rely on generic default certificates, which weakens brand consistency.
 
-6. **Competitive gap**  
-   Some learning management systems include native custom certificate designers (for example, Docebo). Self-serve certificate design in this area has been a known gap for Adobe Learning Manager.
+**Competitive gap**: Some learning management systems include native custom certificate designers (for example, Docebo). Self-serve certificate design in this area has been a known gap for Adobe Learning Manager.
 
 The result is slow change, high support cost, and an authoring experience that does not match administrator expectations for certificates and credentials.
 
