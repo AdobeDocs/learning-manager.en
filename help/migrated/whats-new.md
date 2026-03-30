@@ -133,6 +133,10 @@ The non-logged-in experience in Experience Builder allows organizations to displ
 
 View [Non-logged in experience in Experience Builder](/help/migrated/administrators/feature-summary/non-logged-in-experience-learners.md)
 
+## Advanced search enhancements
+
+
+
 ## System requirements
 
 View [Adobe Learning Manager system requirements](/help/migrated/system-requirements.md).
