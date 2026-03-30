@@ -310,13 +310,10 @@ Deleting a certificate cannot be undone. Proceed only if you are sure.
 2. In the left navigation panel, select **Certificates**. The **Certificates** page opens.
 3. Select the **Published** or **Drafts** tab for the certificate you want.
 4. Open the actions menu (**…**) for the certificate, and select **Delete**.
-
 ![Delete certificate from the actions menu](/help\migrated\administrators\feature-summary\experience-builder\assets\custom-cert-alm_images/image_0005.png)
 
-Learning Manager shows a confirmation message.
-
+Adobe Learning Manager shows a confirmation message.
 ![Delete certificate confirmation](/help\migrated\administrators\feature-summary\experience-builder\assets\custom-cert-alm_images/image_0006.png)
-
 5. Select **Yes**. If the certificate is not attached to a learning object or instance, Learning Manager completes the deletion and may show another confirmation.
 
 ## Set a custom certificate as the default certificate
