@@ -130,8 +130,8 @@ Today, certificate management in Learning Manager depends on a code-heavy, suppo
 
 **Badge linkage constraints**Certificates are tightly coupled to **badges**:
 
-   - A certificate must be associated with a badge; there is no certificate-only issuance.
-   - That coupling can complicate design changes when administrators want certificates without gamification elements.
+- A certificate must be associated with a badge; there is no certificate-only issuance.
+- That coupling can complicate design changes when administrators want certificates without gamification elements.
 
 **Non-visual authoring and brand inconsistency**: HTML-based certificates are flexible but need front-end skills many administrators do not have. Some customers rely on generic default certificates, which weakens brand consistency.
 
