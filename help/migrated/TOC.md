@@ -71,6 +71,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Reports](administrators/feature-summary/reports.md)
    * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
+   * [Alternates and equivalence](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [Learning Plans](administrators/feature-summary/learning-plans.md)
    * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
    * [Job Aids](administrators/feature-summary/job-aids.md)
