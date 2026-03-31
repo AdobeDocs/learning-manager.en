@@ -497,6 +497,18 @@ This endpoint, intended for learner‑read scenarios, returns whether the learne
 
 Custom players and client applications should use canStart to enforce time‑based access and use the timeSlot metadata to display clear messaging about when content becomes available or expires. Negative responses from canStart should be handled explicitly to inform learners why the content cannot be started yet or anymore.
 
+### Multi‑attempt, content‑driven quizzes
+
+Some content packages implement their own attempt tracking rather than relying solely on Adobe Learning Manager. The release introduces a flag that indicates when attempts are driven by the content itself.
+
+Through:
+
+```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+
+learning object resources may now expose a Boolean attribute hasContentDrivenAttemptTracking. When this is true, the quiz or module manages attempts internally (for example, via SCORM or xAPI logic), and the platform's standard attempt counters may not fully reflect the learner's experience.
+
+Integrations that display attempt counts or control retry behavior should check this flag. When it's enabled, they should not infer attempt limits solely from platform metadata and should be prepared to rely on content‑side reporting (for example, via xAPI statements) or business‑specific rules.
+
 ## System requirements
 
 View [Adobe Learning Manager system requirements](/help/migrated/system-requirements.md).
@@ -507,5 +519,4 @@ Check out the [release notes](/help/migrated/release-note/release-notes.md) for 
 
 ## Previous releases of Adobe Learning Manager
 
-- [Adobe Learning Manager October 2025 release](/help/migrated/whats-new-october-2025.md)
 - [Adobe Learning Manager May 2025 release](/help/migrated/whats-new-may-2025.md)

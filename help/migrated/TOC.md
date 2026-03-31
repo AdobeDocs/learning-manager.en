@@ -148,7 +148,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Managing learners for your session](instructors/feature-summary/learners.md)
 * Learner {#learner}
    * [Log in](learners/feature-summary/user-login.md)
-   * [Virtual Coach](learners/feature-summary/ai-buddy.md)
    * [AI Assistant](learners/feature-summary/learner-ai-assistant.md)
    * [Profile Settings](learners/feature-summary/settings.md)
    * [Catalogs](learners/feature-summary/catalogs.md)
