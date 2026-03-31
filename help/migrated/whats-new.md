@@ -267,7 +267,115 @@ The `startRun` API's response has been updated to include the migration project 
 
 Retrieves the status of an existing migration run.
 
+<<<<<<< Updated upstream
 **Endpoint**
+=======
+### Improved learning time calculation
+
+The Learner Transcript report now uses refined logic to distinguish between active and idle learning time based on user activity and browser tab focus.
+
+**Impact**: Provides more accurate measurement of learner engagement, supporting compliance reporting and analytics.
+
+## Checklist with commenting capability for reviewer
+
+This feature lets reviewers add comments or feedback during checklist evaluation. You can provide personalized, actionable feedback for each learner. You can also choose to display your name with your comments for transparency. All remarks are saved in the learner's transcript and included in checklist reports.
+
+View [Configure checklist with commenting](/help/migrated/authors/feature-summary/courses.md#checklist-with-commenting) for more information.
+
+## Multi-language support for checklist
+
+This feature lets you create and manage checklist modules in multiple languages. Each checklist question, instruction, and evaluation criterion can be translated so reviewers and learners interact with the checklist in their preferred language. The system displays the checklist in the user's selected content language, which improves accessibility and compliance for global teams.
+
+View [Create multi-language checklist in modules](/help/migrated/authors/feature-summary/courses.md#create-a-multi-language-checklist)
+
+## Checklist question weightage for instructor evaluations
+
+This feature lets you assign different maximum scores (weightage) to each checklist question. You can reflect the varying importance or difficulty of each question, which supports more accurate and meaningful evaluations. The system calculates the total score based on your input and determines if the learner passes or fails according to the criteria you set.
+
+View [Create weighted checklist questions](/help/migrated/authors/feature-summary/courses.md#how-to-create-a-weighted-checklist)
+
+## Custom certificates
+
+Custom Certificates in Adobe Learning Manager (ALM) let administrators and authors design, manage, and issue personalized certificates for learners.
+
+The feature includes a drag-and-drop editor, dynamic fields, multilingual support, and AI-generated backgrounds, enabling organizations to create branded certificates without technical expertise.
+
+View [Design custom certificates](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
+
+## Non-logged in experience in Experience Builder
+
+The non-logged-in experience in Experience Builder allows organizations to display their learning content and portal pages to all visitors, including those who have not signed in. This feature is designed to attract, inform, and engage prospective learners by offering a smooth and branded preview of your training offerings before requiring them to log in or enroll.
+
+View [Non-logged in experience in Experience Builder](/help/migrated/administrators/feature-summary/non-logged-in-experience-learners.md)
+
+## Advanced search enhancements
+
+Search results in Advanced Search are now more accurate and relevant. Exact keyword matches are ranked higher across both in-content search & metadata making it easier for learners to find precisely what they are looking for.
+
+Learners can now also see enrolled Learning Objects in search results, even if they are not part of an accessible catalog — ensuring no relevant content is missed. Additionally, Job Aid ranking has been improved across both Advanced Search and within-content search, surfacing the most relevant resources faster.
+
+## Multi-lingual job aids
+
+Multilingual Job Aids in Adobe Learning Manager (ALM) let authors and administrators provide supporting documents, guides, or resources in multiple languages within a single job aid entry. Learners across different regions can access relevant materials in their preferred language, which improves comprehension, compliance, and user experience.
+
+View [Add multi-lingual job aids](/help/migrated/authors/feature-summary/job-aids.md#create-a-multilingual-job-aid) for more information.
+
+## Multi-lingual Video Text Tracks (VTT) support (for authors)
+
+Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables authors to provide subtitles and captions for video and audio content in multiple languages. This feature streamlines localization, making training accessible to a global audience and ensuring compliance with accessibility standards. Authors can auto-generate, translate, review, and edit VTT files directly within the platform.
+
+View [Multi-lingual VTT support](/help/migrated/authors/feature-summary/content-library.md#multi-lingual-vtt-support) for more information.
+
+## Show original author for shared courses in peer accounts
+
+When a course is shared through the catalog to a peer account, Adobe Learning Manager currently labels the author as "External Author" in the Learner, Administrator, and Author views of the receiving account. This can create challenges for learners and administrators, particularly in large enterprises, as it becomes difficult to identify and contact the appropriate content owner when issues or questions arise.
+
+The enhancement ensures that author information is preserved and surfaced for shared courses in peer accounts, rather than being replaced by a generic placeholder.
+
+### What's new
+
+Show actual author name for shared courses in peer accounts
+
+For courses shared via external or peer catalogs, the original author name from the source account is now displayed in the receiving account instead of "External Author".
+
+This applies to:
+
+- Learner app (course card or course details).
+- Administrator and author views when previewing as a learner.
+
+View [Author name display for shared courses](/help/migrated/administrators/feature-summary/peer-account.md#author-name-display-for-shared-courses-including-previously-acquired-courses) for more information.
+
+## Equivalents and alternates
+
+Deliver a frictionless learning experience and eliminate redundant training with Equivalents and Alternates in ALM. This new capability allows admins to configure one-way (alternates) or bidirectional (equivalents) rules, where completing one training automatically grants alternate completion for another. Designed to streamline large learning ecosystems, this feature ensures learners bypass content they've already mastered, and organizations drastically reduce admin support tickets, eliminate manual overrides, and maintain a cleaner, more accurate learner record.
+
+View [Equivalents and alternates](/help/migrated/administrators/feature-summary/alternates-equivalence.md) for more information.
+
+## API changes in the release
+
+The April 2026 release of Adobe Learning Manager introduces focused enhancements to the Public API around alternates and equivalents, time‑windowed access to content, content‑driven quiz attempts, non‑logged‑in experiences, and Job Aid handling. The changes are designed to be largely backward‑compatible while enabling more precise integrations.
+
+### Adaptive learning for Learning Paths
+
+This release adds full Public API support for adaptive learning paths. Learning Paths (LPs) can now define adaptive rules that control which sections and sub‑learning objects (sub LOs) are visible to different learner groups, and the Public API reflects this behavior.
+
+The following endpoints are affected:
+
+- GET /primeapi/v2/learningObjects?filter.loTypes=learningPath
+- GET /primeapi/v2/learningObjects/{loId}
+
+A new Boolean attribute, attributes.isAdaptive, indicates that a learning program uses adaptive rules. When this flag is true, the sections attribute is interpreted adaptively.
+
+For learner calls, only sections that are visible to the current learner are returned. Each section includes the list of learning object IDs (loIds), a mandatory flag and a mandatoryLOCount that are computed based on the adaptive configuration for that learner, as well as the sectionId. The relationships.subLOs relation is now also filtered, so it contains only those sub‑learning objects that are visible to that learner.
+
+For admin calls, sections can additionally expose an adaptiveConfig array. This describes the adaptive rules per user group, including userGroupId, userGroupName and whether the section is mandatory for that group. Admin‑facing tools can use this to visualize and manage adaptive rules.
+
+Reset completion for learning programs
+
+The release introduces an API to __refresh (reset) completion__ for learning objects, including adaptive learning programs. This supports scenarios such as re‑training, periodic compliance refreshes, or program restarts.
+
+A new endpoint is available:
+>>>>>>> Stashed changes
 
 ```
 GET /bulkimport/runStatus
