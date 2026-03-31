@@ -289,10 +289,10 @@ You can rename a certificate without cloning it.
 3. Select the **Published** or **Drafts** tab for the certificate you want.
 
 4. Open the actions menu (**…**) for the certificate, and select **Rename**.
-![Rename certificate from the actions menu]((/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0003.png)
+![Rename certificate from the actions menu](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0003.png)
 
 5. In the **Rename certificate** dialog, enter the new name.
-![Rename certificate dialog]((/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0004.png)
+![Rename certificate dialog](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0004.png)
 
 6. Select **Save**. Learning Manager shows a confirmation message.
 
