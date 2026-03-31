@@ -257,6 +257,77 @@ Module propagation should work correctly from Seller to Purchaser account. This 
 
 Once you have uploaded the content, you can see a notification by clicking the Bell icon on top-right hand corner of the page. Each time you modify a content and re-upload it, you get a notification. If you make the changes, only you get the notification, not other authors.
 
+### Multi-lingual VTT support
+
+Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables authors to provide subtitles and captions for video and audio content in multiple languages. This feature streamlines localization, making training accessible to a global audience and ensuring compliance with accessibility standards. Authors can auto-generate, translate, review, and edit VTT files directly within the platform.
+
+#### Use cases
+
+* Global Training: Deliver video content with subtitles in multiple languages to reach international learners.
+* Accessibility Compliance: Provide captions for hearing-impaired users in their preferred language.
+* Faster Localization: Reduce manual effort and accelerate content rollout by auto-generating and translating VTT files.
+* Consistent Experience: Ensure all learners receive the same information, regardless of language.
+
+#### Key features
+
+* Automatic VTT generation: Upload a video or audio file and auto-generate VTT captions in the original language.
+* Multi-language translation: Translate captions into any of the 39 supported non-English languages.
+* In-app review and editing: Review, edit, and download VTT files before publishing.
+* Notifications: Receive in-app notifications when VTT generation and translation are complete.
+* Smooth publishing: Publish finalized captions for learners to access in their chosen language.
+
+#### Upload content and generate VTT
+
+1. Go to the Content Library and select [!UICONTROL Add Content].
+2. Upload your MP3 or MP4 file.
+3. In the upload dialog, select the option to **Generate Translation**.
+4. Select the original content language (default is the file's language).
+5. Select additional target languages for translation (up to 39 supported).
+6. Select [!UICONTROL Save]. The system begins generating and translating VTT files.
+
+#### Monitor progress
+
+1. After saving, the new content entry appears in the Content Library.
+2. A progress indicator shows the status of VTT generation and translation.
+3. You receive an in-app notification when the process is complete.
+
+#### Review and edit VTT files
+
+1. In the Content Library, open the content in **Edit** mode.
+2. For each language, select the Review link next to the VTT file.
+3. A pop-up displays the captions for that language.
+4. Edit captions directly in the pop-up or download the VTT file for offline editing.
+5. After making changes, upload or paste the revised captions back into the pop-up.
+6. Save your edits.
+
+#### Publish captions
+
+1. When satisfied with all language captions, publish the content.
+2. Learners see subtitle options in all published languages when viewing the video.
+
+#### Additional Information
+
+* Supported Languages: All 39 non-English languages supported by Adobe Learning Manager.
+* Notifications: Authors are notified when VTT generation and translation are complete.
+* Editing flexibility: Captions can be edited in-app or offline and re-uploaded.
+* Scalability: Designed for enterprise-scale localization and accessibility needs.
+* No Need for Manual VTT Upload: The system can generate VTT files from scratch using the uploaded video/audio.
+
+#### Best Practices
+
+* Always review auto-generated captions for accuracy before publishing.
+* Provide translations for all major learner groups to maximize accessibility.
+* Use the notification system to stay updated on processing status.
+* Regularly update captions if video content changes.
+
+#### Troubleshooting
+
+* If VTT generation fails, ensure your file is in a supported format (MP3/MP4).
+* For missing languages, verify they are supported and selected during upload.
+* If captions are out of sync, use the in-app editor to adjust timing.
+* Multi-lingual VTT support enables you to deliver accessible, localized video learning experiences efficiently. By using auto-generation, translation, and in-app editing, you can ensure your content reaches and supports all learners, regardless of language.
+
+
 ## Create a quiz {#createaquiz}
 
 Create assessments within Adobe Learning Manager with the new quiz creation tool on the Content Library page. The assessments created become part of the Content Library and can be added to a "public" folder for course reusability.

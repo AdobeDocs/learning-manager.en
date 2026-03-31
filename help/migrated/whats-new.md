@@ -135,7 +135,367 @@ View [Non-logged in experience in Experience Builder](/help/migrated/administrat
 
 ## Advanced search enhancements
 
+Search results in Advanced Search are now more accurate and relevant. Exact keyword matches are ranked higher across both in-content search & metadata making it easier for learners to find precisely what they are looking for.
 
+Learners can now also see enrolled Learning Objects in search results, even if they are not part of an accessible catalog — ensuring no relevant content is missed. Additionally, Job Aid ranking has been improved across both Advanced Search and within-content search, surfacing the most relevant resources faster.
+
+## Multi-lingual job aids
+
+Multilingual Job Aids in Adobe Learning Manager (ALM) let authors and administrators provide supporting documents, guides, or resources in multiple languages within a single job aid entry. Learners across different regions can access relevant materials in their preferred language, which improves comprehension, compliance, and user experience.
+
+View [Add multi-lingual job aids](/help/migrated/authors/feature-summary/job-aids.md#create-a-multilingual-job-aid) for more information.
+
+## Multi-lingual Video Text Tracks (VTT) support (for authors)
+
+Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables authors to provide subtitles and captions for video and audio content in multiple languages. This feature streamlines localization, making training accessible to a global audience and ensuring compliance with accessibility standards. Authors can auto-generate, translate, review, and edit VTT files directly within the platform.
+
+View [Multi-lingual VTT support](/help/migrated/authors/feature-summary/content-library.md#multi-lingual-vtt-support) for more information.
+
+## Show original author for shared courses in peer accounts
+
+When a course is shared through the catalog to a peer account, Adobe Learning Manager currently labels the author as "External Author" in the Learner, Administrator, and Author views of the receiving account. This can create challenges for learners and administrators, particularly in large enterprises, as it becomes difficult to identify and contact the appropriate content owner when issues or questions arise.
+
+The enhancement ensures that author information is preserved and surfaced for shared courses in peer accounts, rather than being replaced by a generic placeholder.
+
+### What's new
+
+Show actual author name for shared courses in peer accounts
+
+For courses shared via external or peer catalogs, the original author name from the source account is now displayed in the receiving account instead of "External Author".
+
+This applies to:
+
+- Learner app (course card or course details).
+- Administrator and author views when previewing as a learner.
+
+View [Author name display for shared courses](/help/migrated/administrators/feature-summary/peer-account.md#author-name-display-for-shared-courses-including-previously-acquired-courses) for more information.
+
+## API changes in the release
+
+The April 2026 release of Adobe Learning Manager introduces focused enhancements to the Public API around alternates and equivalents, time‑windowed access to content, content‑driven quiz attempts, non‑logged‑in experiences, and Job Aid handling. The changes are designed to be largely backward‑compatible while enabling more precise integrations.
+
+### Adaptive learning for Learning Paths
+
+This release adds full Public API support for adaptive learning paths. Learning Paths (LPs) can now define adaptive rules that control which sections and sub‑learning objects (sub LOs) are visible to different learner groups, and the Public API reflects this behavior.
+
+The following endpoints are affected:
+
+- GET /primeapi/v2/learningObjects?filter.loTypes=learningPath
+- GET /primeapi/v2/learningObjects/{loId}
+
+A new Boolean attribute, attributes.isAdaptive, indicates that a learning program uses adaptive rules. When this flag is true, the sections attribute is interpreted adaptively.
+
+For learner calls, only sections that are visible to the current learner are returned. Each section includes the list of learning object IDs (loIds), a mandatory flag and a mandatoryLOCount that are computed based on the adaptive configuration for that learner, as well as the sectionId. The relationships.subLOs relation is now also filtered, so it contains only those sub‑learning objects that are visible to that learner.
+
+For admin calls, sections can additionally expose an adaptiveConfig array. This describes the adaptive rules per user group, including userGroupId, userGroupName and whether the section is mandatory for that group. Admin‑facing tools can use this to visualize and manage adaptive rules.
+
+Reset completion for learning programs
+
+The release introduces an API to __refresh (reset) completion__ for learning objects, including adaptive learning programs. This supports scenarios such as re‑training, periodic compliance refreshes, or program restarts.
+
+A new endpoint is available:
+
+```
+POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion
+```
+
+This operation requires appropriate write permissions and resets the completion state for the specified learning object instance in the given user context. It is intended for use by admin‑side automations or carefully scoped learner tools.
+
+A bulk version of this capability is planned via a Jobs API. The request shape is designed to target users by email, user ID or user group ID, for example:
+
+```
+{  
+  "emails": ["[user1@example.com](mailto:user1@example.com)", "[user2@example.com](mailto:user2@example.com)"],  
+  "userIds": ["12345", "67890"],  
+  "userGroupIds": ["ug1", "ug2"]  
+}  
+
+```
+
+Integrations should use this API when they need to restart learners in each program or course. Clients must handle error responses gracefully: the API may reject refresh requests, where a reset isn't applicable (for example, when no completion exists or unsupported learning object types).
+
+### Equivalents and alternate completions
+
+To support implementations where multiple learning objects can satisfy the same requirement, the release introduces Equivalents and Alternates completions as public APIs.
+
+The Learning Object endpoints now contain this information:
+
+```
+- GET /primeapi/v2/learningObjects
+- GET /primeapi/v2/learningObjects/{loId}
+```
+
+A new Boolean attribute attributes.isAlternateComplete indicates whether the learner's completion for a given learning object is the result of an alternate or equivalent learning object rather than the object itself. When this is true, the relationships.alternateCompletions relation lists the learning objects that acted as alternates. This allows downstream reporting and dashboards to distinguish between direct and alternate completions and to show which alternate fulfilled the requirement.
+
+In addition, a related‑learning‑objects view allows discovery of potential alternates that can satisfy a learning object. This is exposed via:
+
+```
+GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}
+```
+
+The response returns learning objects that can act as alternates and includes a meta.count field that indicates the total number of such alternates, independent of the current limit. Integrations can use this to present recommended equivalents, or to build administrative views of alternate mappings.
+
+### Reporting and analytics use cases
+
+Users that generate reports or analytics should update their logic to add isAlternateComplete and alternateCompletions into their reporting workflows.
+
+Reporting integrations that consume completion data (for example, LT export, custom data warehouse feeds, or BI dashboards) should extend their logic to read and persist both attributes.isAlternateComplete and relationships.alternateCompletions from the LO APIs:
+
+- When isAlternateComplete == false:  
+Treat the record as a __direct completion__ of the LO, as today.
+- When isAlternateComplete == true:
+    - Flag the record as an __alternate completion__ in your report (for example, a "Completion Method" column with values DIRECT vs ALTERNATE).
+    - Use relationships.alternateCompletions.data[*].id to capture __which source LO(s)__ granted this completion (for example, "Course B completed via alternate Course A").
+
+Typical use cases:
+
+- _Compliance reports_ – show that a compliance course was completed via an approved equivalent, and list the source course that fulfilled the requirement.
+- _Program progress dashboards_ – distinguish learners who completed a path _directly_ vs those who satisfied it via alternates, for more accurate progress and remediation views.
+- _Audit trails_ – for any LO marked isAlternateComplete=true, auditors can see exactly which alternate training(s) were used to grant that completion.
+
+Without incorporating these two fields, downstream reports will treat alternate completions as regular completions and will _not be able to explain_ *why* a learner shows as completed a training they never took directly.
+
+### Learner vs Admin LO API behavior
+
+The multi language job aid structure is identical in both learner and admin LO APIs. Learner scope returns only those job aids visible to the learner, but for each visible job aid it exposes all configured locales via multiple resource entities (one per locale) and multi locale localizedMetadata. Admin scope returns all job aids the admin can manage, with the same LO model and locale specific resource IDs. Clients with learner scope should choose the resource whose attributes.locale best matches the learner's content language, while admin tools can enumerate all locales for reporting and management.
+
+### Checklist with commenting capability
+
+To support workflows where reviewers can share structured feedback on checklist‑based activities, this release surfaces *checklist comments* and reviewer visibility controls through the learning object resource API.
+
+Checklist‑related metadata is exposed on learningObjectResource entities (JApiLOResource, "type": "learningObjectResource") that represent checklist resources within a course or other learning object.
+
+The information is available via:
+
+```
+GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
+```
+
+When the learning object instance contains checklist‑type resources, the corresponding learningObjectResource entries in the included array expose comment and reviewer‑visibility attributes under attributes, and reviewer identity under relationships.
+
+#### New checklist comment attributes
+
+For checklist resources, the following attributes may be present on the learningObjectResource:
+
+- attributes.checklistComment  
+A free‑text comment left by the reviewer for the learner, for example:  
+"checklistComment": "Excellent performance! All safety protocols followed correctly."  
+This attribute is populated _only if_:
+    - showChecklistComment is true, and
+    - the checklist configuration has enable_reviewer_remarks enabled.
+- attributes.showChecklistComment  
+A Boolean flag indicating whether reviewer remarks should be shown to the learner:  
+"showChecklistComment": true  
+This attribute is present _only when_ enable_reviewer_remarks is enabled in the checklist configuration.  
+Clients should use this flag to decide whether to render checklistComment in learner experiences.
+- attributes.showReviewerNameToLearner  
+A Boolean flag controlling whether the learner should see the reviewer's identity:  
+"showReviewerNameToLearner": true  
+When true, clients can use the checklistReviewedBy relationship (see below) to resolve and display the reviewer's name (e.g., via a user lookup API).
+
+Other checklist‑specific context such as checklistEvaluationStatus, isChecklistMandatory, resourceSubType: "CHECKLIST", and submissionDate are also available on the same learningObjectResource to support richer checklist UIs and reporting.
+
+#### Reviewer identity relationship
+
+When reviewer names are meant to be visible, the learningObjectResource includes a relationship that points to the reviewer user:
+
+```
+"relationships": {
+  "checklistReviewedBy": {
+    "data": {
+      "id": "user_id",
+      "type": "user"
+    }
+  }
+}
+
+```
+
+This relationship is populated _only if_:
+
+- showReviewerNameToLearner is true, and
+- checklistReviewedBy is not null (i.e., the checklist has been reviewed).
+
+Client applications should:
+
+1. Check attributes.showReviewerNameToLearner.
+2. If true and relationships.checklistReviewedBy.data is present, call the appropriate user API to resolve "id": "user_id" into a display name.
+3. Render the reviewer name next to the checklist comment or status as appropriate.
+
+#### Accessing checklist resources and comments
+
+To retrieve checklist resources and their comments for a given learning object, clients should:
+
+- Call  
+
+```
+GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
+```
+
+- In the response:
+    - Use relationships.instances from the main learningObject to locate the relevant learningObjectInstance entries in included.
+    - From each learningObjectInstance, follow relationships.loResources to find learningObjectResource entries.
+    - Filter learningObjectResource entries where:
+        - attributes.resourceSubType == "CHECKLIST" (for checklist resources), and
+        - optionally attributes.showChecklistComment == true to find checklists with learner‑visible comments.
+
+- For each checklist learningObjectResource, consume:
+    - attributes.checklistComment (if present and showChecklistComment is true)
+    - attributes.checklistEvaluationStatus (e.g., "PASSED")
+    - attributes.showReviewerNameToLearner
+    - relationships.checklistReviewedBy (when present) to identify the reviewer.
+
+This pattern allows headless or custom clients to render a comprehensive checklist experience, including status, mandatory/optional flags, and reviewer feedback, directly from the Prime APIs.
+
+#### Reporting and UX considerations
+
+- _Reporting and analytics_
+Integrations that track learner performance on checklists can incorporate:
+    - checklistEvaluationStatus for pass/fail or other status indicators.
+    - isChecklistMandatory to differentiate required vs. optional checklist activities.
+    - Presence or absence of checklistComment and showChecklistComment for audits of feedback coverage.
+- _Learner experiences_
+UI implementations should:
+    - Respect showChecklistComment before displaying remarks.
+    - Use showReviewerNameToLearner and checklistReviewedBy to decide whether to display the reviewer's name or keep the review anonymous.
+    - Fall back gracefully when comments are disabled or not present, still showing evaluation status and submission information.
+
+### Multi‑language support for job aid
+
+To support implementations where job aids must be delivered in multiple languages to both learners and admins, this release extends job aid handling to return *one resource per locale* instead of a single hard‑coded en-US resource.
+
+Multi‑language job aids continue to use the existing hierarchy:
+
+_learning Object_ (lo) → _learningObjectResource_ (loResource) → _resource_
+
+No changes are required to the API contract. Any localized job aid fits into this structure naturally, with separate resource entities per locale and shared localized metadata at the learningObject / learningObjectResource levels.
+
+Job aid data is exposed via:
+
+```
+GET /primeapi/v2/learningObjects/jobAid:{jobAidId}?include=instances.loResources.resources
+
+```
+
+When a job aid has multiple language variants, the included array contains multiple "type": "resource" entries—one for each locale (for example, en-US, fr-FR, es-ES), all linked from a single learningObjectResource.
+
+#### Multi‑language job aid structure
+
+Multi‑language job aids use:
+
+- _learningObject (type: learningObject)_
+    - Contains localizedMetadata with multiple entries (e.g., en-US, fr-FR) so clients can present job aid title/description in the appropriate language.
+- _learningObjectInstance (type: learningObjectInstance)_
+    - Refers to one or more learningObjectResource entries via relationships.loResources.
+- _learningObjectResource (type: learningObjectResource)_
+    - Holds common configuration (content type, version, etc.) and multi‑locale localizedMetadata.
+    - Links to one or more resource entities via relationships.resources.
+- _resource (type: resource)_
+    - *One per locale*, each with its own id, locale, name, and URL (location / downloadUrl).
+
+For a multi‑language job aid, a typical pattern is:
+
+- learningObjectResource with localizedMetadata for en-US and fr-FR
+- relationships.resources.data pointing to:
+    - resource with locale: "en-US"
+    - resource with locale: "fr-FR"
+
+Clients can select the appropriate resource by matching the learner's locale to the resource.attributes.locale field.
+
+#### New resource ID format for job aids
+
+To properly distinguish multiple localized variants of a job aid resource, the _resource ID format has changed_.
+
+_Old (legacy) resource ID format_
+
+Previously, job aid resources used an opaque ID format such as:
+
+jobAid:131032_-1_-1_2_resource
+
+This format did not encode locale, and APIs would effectively expose only a single resource (usually en-US).
+
+_New resource ID format (multi‑language aware)_
+
+The new format is:
+
+```
+jobAid:<jobAidId>_<version>_<localeCode>
+```
+
+Examples:
+
+- jobAid:131032_2_en-US
+- jobAid:131032_2_fr_FR
+- jobAid:131032_2_es_ES
+
+Visual breakdown:
+
+```
+jobAid:131032_2_fr_FR
+
+        │      │ │ │
+
+        │      │ │ └──► Locale Code (fr_FR, en_US, es_ES, etc.)
+
+        │      │ └────► Version (2)
+
+        │      └──────► JobAid ID (131032)
+
+        └─────────────► Resource Type Prefix ("jobAid:")
+```
+
+This structure lets clients:
+
+- Quickly identify which job aid and version a resource belongs to.
+- Directly infer the locale from the resource ID when needed.
+
+#### Backward compatibility: 
+
+```/resources/{resourceId}```
+
+The legacy resource endpoint remains available:
+
+```GET /primeapi/v2/resources/{resourceId}
+```
+
+It is now _backward compatible_ with both the old and new ID formats:
+
+- _Old ID format_ (for example, jobAid:131032_-1_-1_2_resource)
+    - Continues to work.
+    - Returns the _first created resource_ associated with that legacy identifier (typically the original en-US resource).
+- _New ID format_ (for example, jobAid:131032_2_fr_FR)
+    - Returns the _exact locale‑specific resource_ corresponding to that ID.
+    - This allows precise retrieval and manipulation of localized job aid variants.
+
+Integrations that currently store or reference the old resource IDs can continue to function without change, while newer implementations are encouraged to adopt the new ID format for locale‑specific operations.
+
+#### Integration and UX considerations
+
+- _Learner/admin UI_
+    - Use learningObject.localizedMetadata and learningObjectResource.localizedMetadata to present titles and descriptions in the appropriate language.
+    - Use resource.attributes.locale to select the correct URL (location / downloadUrl) for the learner's locale.
+    - Implement fallback behavior (for example, fall back to en-US) if a learner's exact locale is not available.
+- _APIs and storage_
+    - For new integrations, store the _new‑format resource IDs_ (```jobAid:<jobAidId>_<version>_<localeCode>```) to enable unambiguous locale‑specific retrieval.
+    - Legacy IDs can still be used with /resources/{resourceId}, but they will not distinguish between locales.
+
+### Time‑slot constraints for starting modules
+
+Some learning experiences must be available only within a defined time window. The release displays time‑slot information on learning object resources and introduces a validation endpoint that checks whether a learner can start a resource at the current time.
+
+Time‑slot metadata is available via the endpoint:
+
+```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+
+At the learning object resource level, a timeSlot object may now be present in the attributes, with startTime and endTime values in UTC. This specifies the window during which the resource may be started.
+
+Before launching a module, integrations can call a new validation endpoint:
+
+```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+
+This endpoint, intended for learner‑read scenarios, returns whether the learner is currently allowed to start the resource, considering the configured time slot, delivery type and other back‑end rules.
+
+Custom players and client applications should use canStart to enforce time‑based access and use the timeSlot metadata to display clear messaging about when content becomes available or expires. Negative responses from canStart should be handled explicitly to inform learners why the content cannot be started yet or anymore.
 
 ## System requirements
 

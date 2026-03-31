@@ -94,6 +94,38 @@ The Administrator can view the user report of the peer account. The parent accou
 
 To download the reports for peer accounts, click **[!UICONTROL Download]**. 
 
+## Author name display for shared courses (including previously acquired courses)
+
+Adobe Learning Manager displays the **original author's name** for courses that are shared or acquired through peer accounts.
+
+Earlier, courses acquired from peer accounts were often shown with the author name as **External Author**. This has been enhanced to improve content attribution and clarity.
+
+### How this works
+
+* When a course is shared from a peer account, Learning Manager now resolves and displays the **actual author name** from the source account.
+* This behavior applies to:
+  * Newly shared courses
+  * Courses that were acquired before this enhancement was introduced
+
+### Retroactive behavior
+
+This enhancement is applied **retroactively**.  
+Courses that were already acquired from peer accounts before this change automatically display the correct author name.
+
+No action is required from administrators or authors:
+
+* You do not need to re‑share the course
+* You do not need to re‑publish or edit the course
+* Existing learner enrollments and progress remain unchanged
+
+### What does not change
+
+* Course ownership and permissions remain the same
+* Only the **displayed author name** is updated
+* Reporting, enrollments, and course structure are not affected
+
+This ensures consistent and accurate author attribution across all shared content, including historical courses acquired through peer accounts.
+
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
 +++How to share seats from one account to another?

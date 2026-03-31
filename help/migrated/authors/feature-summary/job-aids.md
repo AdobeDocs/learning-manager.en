@@ -59,6 +59,67 @@ The following are the file formats supported for job aids.
 >
 >Zip files and image files are not supported.
 
+## Multi-lingual job aids
+
+Multilingual Job Aids in Adobe Learning Manager (ALM) let authors and administrators provide supporting documents, guides, or resources in multiple languages within a single job aid entry. Learners across different regions can access relevant materials in their preferred language, which improves comprehension, compliance, and user experience.
+
+**Use cases**
+
+* Global workforce enablement: Deliver safety manuals, process guides, or reference documents in multiple languages to a diverse workforce.
+* Regulatory compliance: Ensure all employees receive the same compliance documentation in their native language.
+* Consistent onboarding: Provide onboarding checklists or FAQs in local languages for new hires worldwide.
+* Reduced duplication: Manage all language versions of a job aid in a single entry, which simplifies updates and reporting.
+
+### Key features
+
+* Multiple language support: Attach a unique file or URL for each supported language within a single job aid.
+* Localized name and description: Enter the job aid's name and description in each language.
+* Unified management: Edit, update, and report on all language versions from one place.
+* Backward compatibility: Existing single-language job aids are automatically replicated across all added languages until new files are uploaded.
+
+### Create a multilingual job aid
+
+1. Go to the Author role and select Job Aids.
+2. Select Create Job Aid.
+3. Enter the job aid's name and description in the default language.
+4. Add the primary content file or URL for the default language.
+5. Save the job aid.
+
+### Add additional languages
+
+1. In the job aid editor, select Add Language.
+2. Select the desired language(s) from the list.
+3. For each added language:
+   * Enter the localized name and description.
+   * Upload the corresponding content file or provide a language-specific URL.
+4. Repeat for all required languages.
+
+### Edit and manage languages
+
+1. To update a file or description for a specific language, select the language tab and make changes as needed.
+2. If a language is added after the job aid is published, the original file is automatically assigned to the new language until a unique file is uploaded.
+3. Remove or replace files for any language as required.
+
+### Publish and learner experience
+
+1. After all languages and files are added, publish the job aid.
+2. Learners see the job aid in their selected content language, with the appropriate file or URL.
+3. If a learner's language is not available, the default language file is shown.
+
+### Reporting
+
+* Download job aid reports to view details of all files and languages associated with each job aid.
+* Reports include language, file name, and usage data for tracking.
+
+### Best practices
+
+* Provide accurate translations for names, descriptions, and content files.
+* Review and update files regularly to ensure consistency across languages.
+* Use clear naming conventions to distinguish files for different languages.
+* Test the learner experience by switching content languages to verify correct file delivery.
+
+Multi-lingual Job Aids let you deliver supporting resources to a global audience in a single entry, reduce duplication, and ensure every learner receives the right information in their preferred language. This feature improves accessibility, compliance, and administrative efficiency in Adobe Learning Manager.
+
 ## Withdraw/re-publish job aids {#withdrawrepublishjobaids}
 
 You can withdraw the published job aid by clicking settings icon adjacent to the job aid and choosing withdraw.
