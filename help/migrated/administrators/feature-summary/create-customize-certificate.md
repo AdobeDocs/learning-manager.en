@@ -257,7 +257,7 @@ After you save a certificate under **Published** or **Drafts**, you can edit, cl
 2. In the left navigation panel, select **Certificates**. The **Certificates** page opens.
 3. Select the **Published** or **Drafts** tab for the certificate you want.
 4. Open the actions menu (**…**) for the certificate, and select **Edit**.
-![Edit certificate from the actions menu](/help\migrated\administrators\feature-summary\assets\custom-cert-alm_images/image_0001.png)
+![Edit certificate from the actions menu](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0001.png)
 
 5. Make your changes.
 6. Select **Publish** or **Save as Draft**.
@@ -272,7 +272,7 @@ Use **Clone** when you want a copy of a certificate for a new name or a similar 
 2. In the left navigation panel, select **Certificates**. The **Certificates** page opens.
 3. Select the **Published** or **Drafts** tab for the certificate you want.
 4. Open the actions menu (**…**) for the certificate, and select **Clone**.
-![Clone certificate from the actions menu](/help\migrated\administrators\feature-summary\assets\custom-cert-alm_images/image_0002.png)
+![Clone certificate from the actions menu](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0002.png)
 
 5. Make your changes.
 
@@ -289,10 +289,10 @@ You can rename a certificate without cloning it.
 3. Select the **Published** or **Drafts** tab for the certificate you want.
 
 4. Open the actions menu (**…**) for the certificate, and select **Rename**.
-![Rename certificate from the actions menu](/help\migrated\administrators\feature-summary\assets\custom-cert-alm_images/image_0003.png)
+![Rename certificate from the actions menu]((/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0003.png)
 
 5. In the **Rename certificate** dialog, enter the new name.
-![Rename certificate dialog](/help\migrated\administrators\feature-summary\assets\custom-cert-alm_images/image_0004.png)
+![Rename certificate dialog]((/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0004.png)
 
 6. Select **Save**. Learning Manager shows a confirmation message.
 
@@ -306,10 +306,10 @@ Deleting a certificate cannot be undone. Proceed only if you are sure.
 2. In the left navigation panel, select **Certificates**. The **Certificates** page opens.
 3. Select the **Published** or **Drafts** tab for the certificate you want.
 4. Open the actions menu (**…**) for the certificate, and select **Delete**.
-![Delete certificate from the actions menu](/help\migrated\administrators\feature-summary\assets\custom-cert-alm_images/image_0005.png)
+![Delete certificate from the actions menu](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0005.png)
 
 Adobe Learning Manager shows a confirmation message.
-![Delete certificate confirmation](/help\migrated\administrators\feature-summary\assets\custom-cert-alm_images/image_0006.png)
+![Delete certificate confirmation](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0006.png)
 5. Select **Yes**. If the certificate is not attached to a learning object or instance, Learning Manager completes the deletion and may show another confirmation.
 
 ## Set a custom certificate as the default certificate
@@ -321,7 +321,7 @@ You can set a certificate as the default for:
 - Certifications
 - All
 
-![Default certificate options](/help\migrated\administrators\feature-summary\assets\custom-cert-alm_images/image_0007.png)
+![Default certificate options](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0007.png)
 
 1. In the **Configure** section, select **Achievements**. The **Badges** page opens.
 2. In the left navigation panel, select **Certificates**. The **Certificates** page opens.
@@ -329,4 +329,4 @@ You can set a certificate as the default for:
 4. Open the actions menu (**…**) for the certificate, select **Set as default**, and then select one of the four options. Learning Manager shows a confirmation message.
 5. Select **Yes**. Learning Manager shows another confirmation. The certificate shows a **Default for** label with the category you selected (for example, **Default for trainings**).
 
-![Default for category label on certificate](/help\migrated\administrators\feature-summary\assets\custom-cert-alm_images\image_0008.png)
+![Default for category label on certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0008.png)
