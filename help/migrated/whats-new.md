@@ -509,6 +509,413 @@ learning object resources may now expose a Boolean attribute hasContentDrivenAtt
 
 Integrations that display attempt counts or control retry behavior should check this flag. When it's enabled, they should not infer attempt limits solely from platform metadata and should be prepared to rely on content‑side reporting (for example, via xAPI statements) or business‑specific rules.
 
+### Behavioral change in Job Aid resource ID format
+
+This release introduces an important __behavioral change__ in the format of Job Aid resource IDs. While no new endpoint is involved, this has a direct impact on systems that store or parse these IDs.
+
+Previously, Job Aid resource IDs used a format like:
+
+```jobAid:<jobAidId>_-1_-1_2_resource```
+
+In the April 2026 release, this is replaced with a simplified and more explicit format:
+
+```jobAid:<jobAidId>_<version>_<localeCode>```
+
+For example:
+
+jobAid:131032_2_fr_FR
+
+The components are:
+
+- ```<jobAidId>```: the numeric Job Aid ID (for example, 131032),
+- ```<version>```: the version number of the Job Aid (for example, 2),
+- ```<localeCode>```: the locale code (for example, en_US, fr_FR, es_ES).
+
+Any integration that indexes resources or persists in Job Aid resource IDs must update its parsing and storage logic to recognize the new format. Because the identifiers themselves change, it's strongly recommended that you rebuild any local indexes keyed by Job Aid resource IDs after upgrading to the April 2026 release.
+
+### Set course banner images via migration
+
+You can now set or update course banner images in Adobe Learning Manager as part of your standard migration workflow. This helps you launch or clean up large catalogs while keeping your course pages visually consistent, without manually editing 
+
+#### Where banner images are defined
+
+Banner images are configured in the _course.csv_ migration file, which you already use to provide course metadata such as:
+
+- id  
+- courseName  
+- courseCreationDate  
+- state  
+- author  
+- thumbnailUrl
+
+With this enhancement, the course.csv specification includes an additional _optional column_ for the course banner image. The exact header name is defined in the CSV specification you download from your Learning Manager account (for example, it may appear as bannerUrl or bannerImageUrl).
+
+The banner column:
+
+- Points to the image file you want to use as the _course banner_.
+- Works in the same way as thumbnailUrl, using images available in your configured content repository (Box/FTP).
+
+#### Preparing banner images for migration
+
+1. Upload banner images: Place your banner image files in the same Box or FTP location that you use for other migration assets, following your existing directory structure.
+2. Check file format: 
+Use one of the supported image formats (for example png, jpg, jpeg, gif), as described in the system requirements:
+    1. [*System requirements*](/help/migrated/system-requirements.md)
+3. Update course.csv: In the new banner column, reference the relative path or identifier of the banner image. A conceptual example:
+
+```
+id,courseName,courseCreationDate,state,author,thumbnailUrl,bannerUrl  
+12345,DEMO1,2018-05-05T08:56:21.000Z,Published,Sudheer,pic1.png,banners/banner1.png  
+45678,DEMO2,2018-05-05T08:56:21.000Z,Published,Sudheer,pic2.png,banners/banner2.png  
+```
+
+#### Apply banners during a migration run
+
+Once your course.csv is updated, the flow is the same as any other migration:
+
+1. _Upload CSVs_
+Upload the updated course.csv (and any other relevant files) to the Box/FTP folder configured for migration. File names must match the names specified in csv_specifications.zip exactly (they are case‑sensitive).
+2. _Start a sprint run_
+In Adobe Learning Manager, as the Integration Admin, start a migration _sprint run_ that includes course.csv.  
+The migration engine reads the banner column and applies the banner image to each course.
+3. _Review results and error logs_
+After the sprint:
+    1. Verify banners in the _Author_ and _Learner_ apps.
+    2. If some rows fail (for example, due to an invalid file path or unsupported format), download the error CSV from the migration run and correct the data.
+
+#### New courses vs. existing courses
+
+The banner field works in both scenarios:
+
+- _New courses created via migration_
+When a course is created for the first time from course.csv and the banner column is populated, that banner is set immediately.
+- _Existing courses (retrofit / corrections)_
+If you re‑run migration with the same course id and a new banner value:
+    - Learning Manager locates the existing course.
+    - The banner image is _updated_ to the new image specified in the CSV.
+
+Your actual column names and paths must match the _downloaded CSV specification_ and your content repository layout.
+
+### Remove order column in LearningProgramCourse
+
+Adobe Learning Manager now supports a simplified model for _course ordering inside Learning Paths (Learning Programs)_ during migration. As part of this change, the _order column is removed_ from the learning_program_course.csv migration file.
+
+Previously, the learning_program_course.csv file included a column (often called order or similar) that was used to:
+
+- Explicitly set the _position_ of each course inside a Learning Program, based on the numeric value in that column.
+- Require administrators or scripts to maintain this numeric sequence manually, especially when inserting or re‑ordering courses.
+
+Now, Adobe Learning Manager no longer uses the order column in learning_program_course.csv to determine course ordering. Instead, the migration CSV focuses on _which courses belong to which Learning Program_, rather than how they are ordered numerically.
+
+### Impact on migration CSVs
+
+#### learning_program_course.csv
+
+You should treat the legacy order column as removed or ignored:
+
+- Do not rely on order to control sequence of courses in a Learning Program during migration.
+- If you still have an order column from older templates:
+    - Learning Manager will ignore it for ordering.
+    - You can safely remove it from your CSV over time to simplify your migration files.
+- The core required mapping remains:
+    - Learning Program ID ↔ Course ID (and any other still‐documented columns such as id, learningProgramId, courseId, and dates).
+
+Always refer to the latest [_CSV specifications_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) from your Learning Manager account (via csv_specifications.zip) to confirm the current header set and requirements.
+
+### Webhook notifications
+
+Two new Webhook event types carry the final status:
+
+- `RESPONSE:ASYNCAPI_USERGROUP_USER_ADDED`
+- `RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED`
+
+### Sample payload
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
+      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED",
+      "timestamp": "2026-03-18T13:38:12.000Z",
+      "eventInfo": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
+      "data": {
+        "status": "SUCCESS",
+        "request": {
+          "metadata": {
+            "event_id": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5"
+          },
+          "data": [
+            {
+              "type": "user",
+              "id": "13446641"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+
+### Key elements:
+
+- `accountId` identifies the ALM account.
+- `events` is an array of event objects.
+- `eventId` matches the `event_id` from the original async call
+    (either yours or generated).
+- `eventName` indicates whether users were added or removed.
+- `timestamp` shows completion time.
+-`data.status` currently reports "SUCCESS" for successful batches.
+- `data.request` contains the exact request you sent:
+    - `metadata` with your correlation data.
+    - `data` listing users that were processed.
+
+Your integration should primarily key off `eventId` (or`metadata.event_id`) and `status`.
+
+#### Examples
+
+**Adding users asynchronously**
+
+#### Step 1. Make the async call
+
+``` http
+POST /primeapi/v2/async/userGroups/12345/users
+Authorization: Bearer <access_token>
+Content-Type: application/json
+{
+  "metadata": {
+    "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
+    "sourceSystem": "HRIS",
+    "batchId": "hr_2026_03_30_0001"
+  },
+  "data": [
+    { "type": "user", "id": "11101219" },
+    { "type": "user", "id": "11101220" }
+  ]
+}
+```
+
+#### Step 2. Read the immediate response
+
+``` json
+{
+  "event_id": "sync-2026-03-30T10:15:00Z-ug-12345"
+}
+```
+
+You can now mark this job as "submitted" in your system.
+
+#### Step 3. Handle the Webhook
+
+Later, your Webhook endpoint receives:
+
+``` json
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "sync-2026-03-30T10:15:00Z-ug-12345",
+      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_ADDED",
+      "timestamp": "2026-03-30T10:15:43.000Z",
+      "data": {
+        "status": "SUCCESS",
+        "request": {
+          "metadata": {
+            "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
+            "sourceSystem": "HRIS",
+            "batchId": "hr_2026_03_30_0001"
+          },
+          "data": [
+            { "type": "user", "id": "11101219" },
+            { "type": "user", "id": "11101220" }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+
+A typical consumer will:
+
+- Locate the internal job `sync-2026-03-30T10:15:00Z-ug-12345`.
+- Confirm all users in `data` are now members (if you want to double-check using a synchronous GET /usergroups/{id}/users).
+- Mark the job as completed.
+
+#### Removing users asynchronously
+
+Removal is symmetric, using DELETE with the same body structure.
+
+##### Request
+
+``` http
+DELETE /primeapi/v2/async/userGroups/12345/users
+Authorization: Bearer <access_token>
+Content-Type: application/json
+{
+  "metadata": {
+    "event_id": "sync-2026-03-30T11:00:00Z-ug-12345",
+    "sourceSystem": "HRIS",
+    "batchId": "hr_2026_03_30_0002"
+  },
+  "data": [
+    { "type": "user", "id": "11101219" }
+  ]
+}
+```
+
+#### Response
+
+``` json
+{
+  "event_id": "sync-2026-03-30T11:00:00Z-ug-12345"
+}
+```
+
+Later, a RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED Webhook arrives with the same eventId.
+
+### timeZoneCode on Course Instances
+
+From this release onwards, the Course Instance model (learningObjectInstance) exposes a new attribute:
+
+timeZoneCode -- a string field that explicitly links a course instance to one of the account's configured time zones.
+
+This allows clients to:
+
+- Resolve a course instance's time zone in a consistent, API-driven way.
+- Interpret and display all instance-level dates/times correctly for that instance, regardless of the user's own time zone.
+
+#### Where timeZoneCode appears
+
+The field is added in the attributes of the learningObjectInstance model
+for course instances only.
+
+Example:
+
+``` json
+{
+  "id": "course:1262748_1359228",
+  "type": "learningObjectInstance",
+  "attributes": {
+    "dateCreated": "2019-08-06T13:50:39.000Z",
+    "isAET": false,
+    "isDefault": true,
+    "timeZoneCode": "356",
+    "isFlexible": false,
+    "state": "Active",
+    "localizedMetadata": [
+      {
+        "locale": "en-US",
+        "name": "Default instance"
+      }
+    ]
+  }
+}
+```
+
+#### How to resolve timeZoneCode
+
+The numeric timeZoneCode is a lookup key into the account's time zone catalog, which is exposed via the Account API:
+
+``` http
+GET /primeapi/v2/account
+Authorization: Bearer <access_token>
+```
+
+Within the response, time zones are listed in:
+
+``` json
+"data": {
+  "attributes": {
+    "timeZones": [
+      {
+        "name": "Etc/GMT+12",
+        "timeZoneCode": "356",
+        "utcOffset": -720,
+        "utcOffsetCode": "UTC-12:00(Etc/GMT+12)",
+        "zoneId": "Etc/GMT+12"
+      },
+      "..."
+    ]
+  }
+}
+```
+
+#### Recommended client flow:
+
+1. Call GET /account once, cache attributes.timeZones for the tenant.
+2. For each course instance:
+    - Read attributes.timeZoneCode.
+    - Find the corresponding entry in timeZones where timeZoneCode matches.
+    - Use that entry's zoneId, utcOffset, and utcOffsetCode for display and scheduling logic.
+
+### Frequently asked questions
+
+_How does the April 2026 release change the learningObjects API for adaptive learning programs?_
+
+This release adds an isAdaptive flag on learning programs and makes sections and subLOs learner‑aware. In adaptive programs, learners only see the sections and sub‑learning objects that are visible to them based on adaptive rules, while admins can see the underlying adaptive configuration for a user group.
+
+_Do I need to update my integration if it assumes all sections and sub LOs are always returned?_
+
+Yes. For adaptive learning programs, the API now returns only the sections and sub LOs that are visible to the current learner. Client code should treat the response as the authoritative, possibly filtered view, instead of assuming a complete list.
+
+_How can I programmatically reset a learner's completion for a course or learning program?_
+
+Use the new endpoint:
+
+```POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion```
+This resets completion for the targeted instance when permissions and state allow it.
+
+_How do I tell if a learner completed something via an alternate or equivalent learning object?_
+
+Check the isAlternateComplete attribute on the learning object. If it's true, the alternateCompletions relationship lists the learning objects that acted as alternates for that learner's completion.
+
+_How can I find all alternates that can satisfy a particular learning object?_
+
+Use the following endpoint:
+
+```GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}```
+
+and use the data array (for the alternates) and meta.count (for the total number of alternates).
+
+_How do I know whether a learner is allowed to start a module at this moment?_
+
+First, fetch the resource's timeSlot from:
+
+```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources``` 
+and then use:
+
+```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+
+_What does hasContentDrivenAttemptTracking mean on a resource?_
+It indicates that attempt tracking is controlled by the content itself (for example, via SCORM/xAPI logic) rather than just by platform counters. When it's true, don't rely solely on platform attempt counts or limits for your UX and reporting.
+
+_How do I get menus appropriate for non‑logged‑in users (public experiences)?_  
+
+Use:
+
+```GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true```
+
+This returns menu and page structures filtered for anonymous users, suitable for Experience Builder or other headless sites.
+
+_What has changed in Job Aid filtering with effectiveModifiedDate?_ 
+
+Requests that combine filter.effectiveModifiedDate with filter.loTypes=jobAid now correctly return only Job Aids within the specified date window. 
+
+_What has changed in the Job Aid resource ID format and how should I handle it?_
+
+The ID format changed from values like:
+
+```jobAid:<jobAidId>_-1_-1_2_resource```
+
+to:
+
+```jobAid:<jobAidId>_<version>_<localeCode>```
+
+for example jobAid:131032_2_fr_FR. Any system that stores or parses Job Aid resource IDs must be updated, and you should plan to rebuild local indexes keyed by these IDs after upgrading to the April 2026 release.
+
 ## System requirements
 
 View [Adobe Learning Manager system requirements](/help/migrated/system-requirements.md).
