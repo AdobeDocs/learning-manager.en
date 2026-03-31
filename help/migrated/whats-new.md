@@ -170,6 +170,12 @@ This applies to:
 
 View [Author name display for shared courses](/help/migrated/administrators/feature-summary/peer-account.md#author-name-display-for-shared-courses-including-previously-acquired-courses) for more information.
 
+## Equivalents and alternates
+
+Deliver a frictionless learning experience and eliminate redundant training with Equivalents and Alternates in ALM. This new capability allows admins to configure one-way (alternates) or bidirectional (equivalents) rules, where completing one training automatically grants alternate completion for another. Designed to streamline large learning ecosystems, this feature ensures learners bypass content they've already mastered, and organizations drastically reduce admin support tickets, eliminate manual overrides, and maintain a cleaner, more accurate learner record.
+
+View [Equivalents and alternates](/help/migrated/administrators/feature-summary/alternates-equivalence.md) for more information.
+
 ## API changes in the release
 
 The April 2026 release of Adobe Learning Manager introduces focused enhancements to the Public API around alternates and equivalents, time‑windowed access to content, content‑driven quiz attempts, non‑logged‑in experiences, and Job Aid handling. The changes are designed to be largely backward‑compatible while enabling more precise integrations.
