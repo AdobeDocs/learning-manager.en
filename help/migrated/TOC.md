@@ -75,6 +75,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
    * [Job Aids](administrators/feature-summary/job-aids.md)
    * [Certifications](administrators/feature-summary/certifications.md)
+   * [Create and customize a certificate](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
    * [Catalogs](administrators/feature-summary/catalogs.md)
    * [Impersonate a Learner and Manager](administrators/feature-summary/impersonation-learner-manager.md)
    * [Multiple SSO Logins](administrators/feature-summary/multiple-sso-logins.md)
