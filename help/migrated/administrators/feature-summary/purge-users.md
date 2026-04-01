@@ -233,6 +233,8 @@ The Auto-purge of deleted users is a feature that purges data for users who have
 
 The bulk deletion flow can process up to 10,000 users per batch. The feature is positioned as a background, reliability-focused service for large-volume deletion.
 
+As administrator, you can specify the duration within which purged users can be deleted. View [Admin settings](/help/migrated/administrators/feature-summary/settings.md) for more information.
+
 #### What it does:
 
 * Provide configurable auto‑purge for deleted users at the account level

@@ -163,6 +163,11 @@ Enable or disable the following settings:
    <td>If enabled, Internal users get deleted automatically if they do not access the system for specified number of days. This feature is applicable to users who only have the role <b>Learner</b>. To restore the access, users must contact the Administrator.<br></td>
   </tr>
   <tr>
+   <td height="20">Auto-delete Purged Users</td>
+   <td>If enabled, Internal users get deleted automatically if they do not access the system for specified number of days. This feature is applicable to users who only have the role Learner. To restore the access, users must contact the Administrator. After you enable the option, you can specify the time in years after which purged users will be permanently deleted from ALM.</td>
+  </tr>
+  <tr>
+  <tr>
    <td>Show Catalog Labels</td>
    <td>If enabled, Administrators and Authors can set Catalog Labels and values and link them to Learning Objects. Selecting this option also allows authors to add Courses, Learning Paths, Certifications, or Job Aids to the catalogs.</td>
   </tr>
@@ -309,11 +314,6 @@ Enable or disable the following settings:
    <td height="20">Auto-register Users</td>
    <td>If enabled, newly imported Users are auto-registered. By default, users must be registered manually before they can start using Learning Manager.</td>
   </tr>
-  <tr>
-   <td height="20">Auto-delete Internal Users</td>
-   <td>If enabled, Internal users get deleted automatically if they do not access the system for specified number of days. This feature is applicable to users who only have the role Learner. To restore the access, users must contact the Administrator.</td>
-  </tr>
-  <tr>
    <td height="20">Show Catalog Labels</td>
    <td>If enabled, Administrators and Authors can set Catalog Labels and values and link them to Learning Objects.</td>
   </tr>
