@@ -59,6 +59,7 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Overview](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
          * [Customize Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+      * [Non-logged in experience in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
    * Settings {#settings}
       * [Overview](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
       * [Basic settings](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
