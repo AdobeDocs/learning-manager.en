@@ -17,6 +17,87 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
  </tbody>
 </table>-->
 
++++Update 105: April 2026 release of Adobe Learning Manager
+
+Release date: April 11, 2026
+
+## What's new and changed
+
+The April 2026 release of Adobe Learning Manager introduces enhancements across learner experience, administration, content authoring, and reporting, with several features currently in beta and subject to change.
+
+**Learner Experience enhancements**
+
+* Improved Fluidic Player navigation with clear "Next Module" labeling and a dedicated exit action for better course flow.
+* Multi-language support extended to job aids, checklists, and video captions.
+* AI Assistant integrated into the learning experience to provide contextual help.
+* Enhanced Captivate content experience with unified table of contents, completion indicators, and improved notes export.
+* Support for setting player language via LTI for consistent cross-platform experience.
+
+**Administrator and author updates**
+
+* Zoom Connector now supports multiple concurrent virtual sessions, improving scheduling efficiency.
+* Ability to restrict module start timing and improved visibility of learning object expiry via APIs.
+* Checklist modules enhanced with weighted scoring, multilingual support, and reviewer feedback options.
+* Custom certificates upgraded with a drag-and-drop editor, dynamic fields, and AI-generated backgrounds.
+* Introduction of a non-logged-in Experience Builder to create public learning pages.
+* Shared courses now correctly display the original author.
+
+**Instructor capabilities**
+
+* QR code generation for session enrollment and attendance tracking.
+* Ability to provide comments and feedback during checklist evaluations.
+
+**Reporting and analytics improvements**
+
+* SCORM reporting enhanced to capture multiple quiz attempts.
+* More accurate calculation of learning time in learner transcripts.
+* Updates to transcript reports for administrators.
+* Improved advanced search functionality.
+
+**Equivalents and alternates**
+
+* Enhancements to equivalents and alternates improve flexibility in learning paths by enabling more accurate substitution and mapping of courses.
+
+**Key impact**
+These updates improve usability, scalability, and automation, with a focus on AI-assisted learning, multilingual support, streamlined virtual training management, and more accurate reporting.
+
+View [What's new and changed in the April 2026 release of Adobe Learning Manager](/help/migrated/whats-new.md) for more information.
+
+## Bugs fixed in this release
+
+**Advanced Search:** Advanced search did not honor LO access based on user enrollment when catalog access was missing. Advanced search now applies the same enrollment-based access checks as lexical search, allowing enrolled users to access the LO without catalog access. 
+
+**Adobe Experience Manager:** The catalog widget heading did not preserve the selected catalog and opened the catalog page with all learning objects instead of the filtered catalog. Clicking a catalog widget heading now opens the catalog page with the corresponding catalog preselected and learning objects correctly filtered to that catalog. 
+
+**Device App Mobile:** On mobile, learners could complete all items in the first section of an ordered learning path, but the second section did not unlock even after successful completion. After all items in a section are completed on mobile, the next section in an ordered learning path now unlocks correctly for the learner. 
+
+**LMS Migration:** When a course instance created via migration had an alphanumeric instance ID, re-running migration to update a VC session created a new session instead of updating the existing one. Migration now correctly updates existing VC sessions for course instances with alphanumeric IDs instead of creating duplicate sessions. 
+
+**Course Duration:** For VILT courses, course-level duration was always taken from a static LO_DURATION on the default instance, which became 0 when sessions were retired and was not recalculated from the actual instance modules. VILT course duration now reflects the actual instance modules instead of relying solely on a stale or zero LO_DURATION value from the default instance. 
+
+**Connectors:** Because the Ember module-details controller was reused across modules, vcHostingSystem was not consistently updated, causing mixed VC/F2F behavior and incorrectly clearing instructorIds based only on vcHostingSystem. Module handling now keeps vcHostingSystem consistent and only clears instructorIds for true VC sessions, so instructors are updated correctly for converted F2F sessions. 
+
+**LMS Migration:** The LearningProgramCourse CSV column for course order was not honored by the backend, so course order in LP sections was ignored even when orderEnforced was true. The unused CSV column for course order has been removed to match backend behavior and avoid implying unsupported ordering via CSV. 
+
+**Performance:** An AWS automation workflow sent repeatedly misencoded download requests (with an unencoded space) to the Akamai CMS HTTP API, causing bursts of 500 errors and excessive invalid traffic. The automated workflow now properly URL-encodes spaces in the download URL, preventing invalid requests and eliminating the associated 500 error spikes. 
+
+**Enrollment and Unenrollment:** In some admin enrollment flows for learning programs, certifications, and courses, the enrollment source was incorrectly recorded as SELF_ENROLL instead of ADMIN_ENROLL. Admin-driven enrollments are now consistently stored with source ADMIN_ENROLL across the affected flows. 
+
+**Enrollment and Unenrollment:** For threshold-based enrollments in a recurrence chain of certifications, learners were enrolled into a later recurrence even when they had not completed the previous recurrence. Threshold-based enrollment now respects the recurrence chain, and learners are not enrolled into a later certification unless they have completed the required prior recurrence. 
+
+**Admin Settings:** Admins could not add a peer account whose subdomain started with a number, due to a validation rule requiring the subdomain to start with a letter. Peer accounts with subdomains beginning with a number are now accepted, as long as they otherwise meet the allowed character rules. 
+
+**Course – Quiz Score:** In headless launch, after an admin reset a quiz module, the player showed an incorrect total of 12 questions instead of the actual 3 questions. In headless launch, the quiz player now displays the correct total number of questions after a module reset. 
+
+**Author:** When a content group was updated from SCORM to CAPI, the reporting info and completion criteria were not refreshed, leaving the content group without completion criteria. Updating a content group from SCORM to CAPI now correctly updates reporting info and sets the appropriate completion criteria for the content group. 
+
+**Device App Mobile:** In the Captivate Prime mobile app, downloadable resources that opened in a new tab via target="_blank" did not download when tapped. In the mobile app, tapping a downloadable resource now correctly initiates the download even when the content uses target="_blank" links. 
+
+**Rich Text Editor:** Line breaks in rich text LO descriptions were removed in the author view after publishing, even though learners still saw the line breaks. Rich text LO descriptions now retain and display line breaks correctly in both author and learner views.
+
++++
+
+
 +++Update 104: AI Assistant for learners in Adobe Learning Manager
 
 Release date: March 2, 2026
