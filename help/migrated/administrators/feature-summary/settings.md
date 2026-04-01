@@ -446,6 +446,15 @@ Enable or disable the following settings:
       </p>
     </td>
   </tr>
+  <tr>
+    <td>
+      <p>Alternate Courses/Paths</p>
+    </td>
+    <td>
+      <p>When Learners complete a Course/Path, another specified set of Courses/Paths can be marked as completed via alternate. Learners won't be automatically enrolled in Courses/Paths marked as completed via alternate and will only receive credits, Badges, and points for the Course/Path they actually completed. The avaiable options are- Retroactive completions activated and Retroactive incompletions activated.
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
