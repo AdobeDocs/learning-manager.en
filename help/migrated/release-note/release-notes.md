@@ -95,6 +95,17 @@ View [What's new and changed in the April 2026 release of Adobe Learning Manager
 
 **Rich Text Editor:** Line breaks in rich text LO descriptions were removed in the author view after publishing, even though learners still saw the line breaks. Rich text LO descriptions now retain and display line breaks correctly in both author and learner views.
 
+## Known issue/By design
+
+### Versioning behavior for Second Nature resources
+
+Adobe Learning Manager (ALM) does not increment the version of Second Nature (SN) resources during edit scenarios. This behavior reflects how ALM handles SN content updates rather than an authoring choice.
+
+Second Nature does not support version management in its source system. When an author updates scenario data in the SN portal, ALM resources and their associated Learning Objects (LOs) automatically reference the updated content without creating a new version.
+
+By comparison, ALM supports version control for file-based and LTI-based resources, where authors can replace files or update launch links. Because these controls are not available for SN integrations, ALM does not support version bumping for Second Nature content.
+
+
 +++
 
 
