@@ -1,5 +1,5 @@
 ---
-description: Download learner transcript and manage reports using Learning Manager.
+description: Set a time window during which learners are allowed to start a module.
 jcr-language: en_us
 title: Module access time control
 contentowner: mmanuel
