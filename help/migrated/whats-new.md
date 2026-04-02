@@ -127,6 +127,14 @@ The feature includes a drag-and-drop editor, dynamic fields, multilingual suppor
 
 View [Design custom certificates](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
 
+## AI Assistant for learners
+
+The AI Assistant (Beta) for learners helps them quickly find answers from the assigned learning content without browsing through entire courses. You can ask questions in plain language and receive accurate, focused responses with source links to the relevant course content.
+
+Capabilities, supported scenarios, and limitations may change as the feature evolves. The AI Assistant is a generative AI-powered chat companion in Adobe Learning Manager that delivers quick, accurate answers using your trusted learning content. It includes citations so you always know the source of the information.
+
+View [AI Assistant for ll](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
+
 ## Non-logged in experience in Experience Builder
 
 The non-logged-in experience in Experience Builder allows organizations to display their learning content and portal pages to all visitors, including those who have not signed in. This feature is designed to attract, inform, and engage prospective learners by offering a smooth and branded preview of your training offerings before requiring them to log in or enroll.
@@ -138,6 +146,14 @@ View [Non-logged in experience in Experience Builder](/help/migrated/administrat
 Search results in Advanced Search are now more accurate and relevant. Exact keyword matches are ranked higher across both in-content search & metadata making it easier for learners to find precisely what they are looking for.
 
 Learners can now also see enrolled Learning Objects in search results, even if they are not part of an accessible catalog — ensuring no relevant content is missed. Additionally, Job Aid ranking has been improved across both Advanced Search and within-content search, surfacing the most relevant resources faster.
+
+## Set module access time control
+
+The enhancement lets authors and administrators in Adobe Learning Manager define a time window during which learners are allowed to start a module. Outside the configured start/end window, the module remains visible in the course structure, but learners cannot initiate it.
+
+This capability is critical for users who need tighter control over when certain content becomes available or should stop being initiated, for example, in timed programs, cohort based training, or time sensitive exercises.
+
+View [Set module access time control](/help/migrated/administrators/feature-summary/module-access-time-control.md) 
 
 ## Multi-lingual job aids
 
@@ -238,6 +254,37 @@ A bulk version of this capability is planned via a Jobs API. The request shape i
 ```
 
 Integrations should use this API when they need to restart learners in each program or course. Clients must handle error responses gracefully: the API may reject refresh requests, where a reset isn't applicable (for example, when no completion exists or unsupported learning object types).
+
+### Non‑logged‑in experiences and Job Aid filtering
+
+This release includes improvements to support non‑logged‑in experiences and to more accurately handle **Job Aids** in list and filter operations.
+
+For non‑logged‑in navigation, the menu templates API now accepts an `isNonLoggedIn` query parameter:
+
+```http
+GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true
+```
+
+When this is set to `true`, the API returns menus and pages as they should appear to non‑logged‑in users, following visibility rules appropriate for anonymous experiences. This is particularly useful for Experience Builder or other headless front‑ends that power public‑facing sites.
+
+The admin learning object API also supports enforced fields to retrieve recommendation metadata:
+
+```http
+GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
+```
+
+By requesting `products` and `roles` as enforced fields, clients can retrieve recommendation‑oriented attributes (such as recommended products and roles) that are useful when building curated non‑logged‑in experiences or marketing views.
+
+Finally, filtering with `effectiveModifiedDate` and learning object types has been corrected for Job Aids. The following pattern now behaves as expected:
+
+```http
+GET /primeapi/v2/learningObjects?
+  filter.effectiveModifiedDate.fromDate=2025-03-15T13:14:56.000Z&
+  filter.effectiveModifiedDate.toDate=2025-03-20T13:14:56.000Z&
+  filter.loTypes=jobAid
+```
+
+Previously, this combination could return all learning object types or omit Job Aids; it now correctly returns only Job Aids in the specified effective modification window. Integrations that rely on date‑based feeds for Job Aids should adjust any assumptions made around this earlier behavior.
 
 ### Equivalents and alternate completions
 
@@ -646,160 +693,6 @@ You should treat the legacy order column as removed or ignored:
     - Learning Program ID ↔ Course ID (and any other still‐documented columns such as id, learningProgramId, courseId, and dates).
 
 Always refer to the latest [_CSV specifications_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) from your Learning Manager account (via csv_specifications.zip) to confirm the current header set and requirements.
-
-### Webhook notifications
-
-Two new Webhook event types carry the final status:
-
-- `RESPONSE:ASYNCAPI_USERGROUP_USER_ADDED`
-- `RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED`
-
-### Sample payload
-
-```
-{
-  "accountId": 69735,
-  "events": [
-    {
-      "eventId": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
-      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED",
-      "timestamp": "2026-03-18T13:38:12.000Z",
-      "eventInfo": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
-      "data": {
-        "status": "SUCCESS",
-        "request": {
-          "metadata": {
-            "event_id": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5"
-          },
-          "data": [
-            {
-              "type": "user",
-              "id": "13446641"
-            }
-          ]
-        }
-      }
-    }
-  ]
-}
-```
-
-### Key elements:
-
-- `accountId` identifies the ALM account.
-- `events` is an array of event objects.
-- `eventId` matches the `event_id` from the original async call
-    (either yours or generated).
-- `eventName` indicates whether users were added or removed.
-- `timestamp` shows completion time.
--`data.status` currently reports "SUCCESS" for successful batches.
-- `data.request` contains the exact request you sent:
-    - `metadata` with your correlation data.
-    - `data` listing users that were processed.
-
-Your integration should primarily key off `eventId` (or`metadata.event_id`) and `status`.
-
-#### Examples
-
-**Adding users asynchronously**
-
-#### Step 1. Make the async call
-
-``` http
-POST /primeapi/v2/async/userGroups/12345/users
-Authorization: Bearer <access_token>
-Content-Type: application/json
-{
-  "metadata": {
-    "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
-    "sourceSystem": "HRIS",
-    "batchId": "hr_2026_03_30_0001"
-  },
-  "data": [
-    { "type": "user", "id": "11101219" },
-    { "type": "user", "id": "11101220" }
-  ]
-}
-```
-
-#### Step 2. Read the immediate response
-
-``` json
-{
-  "event_id": "sync-2026-03-30T10:15:00Z-ug-12345"
-}
-```
-
-You can now mark this job as "submitted" in your system.
-
-#### Step 3. Handle the Webhook
-
-Later, your Webhook endpoint receives:
-
-``` json
-{
-  "accountId": 69735,
-  "events": [
-    {
-      "eventId": "sync-2026-03-30T10:15:00Z-ug-12345",
-      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_ADDED",
-      "timestamp": "2026-03-30T10:15:43.000Z",
-      "data": {
-        "status": "SUCCESS",
-        "request": {
-          "metadata": {
-            "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
-            "sourceSystem": "HRIS",
-            "batchId": "hr_2026_03_30_0001"
-          },
-          "data": [
-            { "type": "user", "id": "11101219" },
-            { "type": "user", "id": "11101220" }
-          ]
-        }
-      }
-    }
-  ]
-}
-```
-
-A typical consumer will:
-
-- Locate the internal job `sync-2026-03-30T10:15:00Z-ug-12345`.
-- Confirm all users in `data` are now members (if you want to double-check using a synchronous GET /usergroups/{id}/users).
-- Mark the job as completed.
-
-#### Removing users asynchronously
-
-Removal is symmetric, using DELETE with the same body structure.
-
-##### Request
-
-``` http
-DELETE /primeapi/v2/async/userGroups/12345/users
-Authorization: Bearer <access_token>
-Content-Type: application/json
-{
-  "metadata": {
-    "event_id": "sync-2026-03-30T11:00:00Z-ug-12345",
-    "sourceSystem": "HRIS",
-    "batchId": "hr_2026_03_30_0002"
-  },
-  "data": [
-    { "type": "user", "id": "11101219" }
-  ]
-}
-```
-
-#### Response
-
-``` json
-{
-  "event_id": "sync-2026-03-30T11:00:00Z-ug-12345"
-}
-```
-
-Later, a RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED Webhook arrives with the same eventId.
 
 ### timeZoneCode on Course Instances
 

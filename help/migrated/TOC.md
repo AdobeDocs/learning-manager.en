@@ -43,6 +43,7 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Active Fields](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Add classroom locations](administrators/feature-summary/classroom.md)
    * [Create course instances and learning paths](administrators/feature-summary/courses.md)
+   * [Module access time control](/help/migrated/administrators/feature-summary/module-access-time-control.md)
    * Experience Builder in Adobe Learning Manager {#experience-builder}
       * [Overview](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
       * [Core components of Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
