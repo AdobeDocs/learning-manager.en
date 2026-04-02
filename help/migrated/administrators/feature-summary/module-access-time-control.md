@@ -1,5 +1,11 @@
-
+---
+description: Download learner transcript and manage reports using Learning Manager.
+jcr-language: en_us
+title: Module access time control
+contentowner: mmanuel
+---
 # Module access time control
+
 ## Overview
  
 The enhancement lets authors and administrators in Adobe Learning Manager define a time window during which learners are allowed to start a module. Outside the configured start/end window, the module remains visible in the course structure, but learners cannot initiate it. 
