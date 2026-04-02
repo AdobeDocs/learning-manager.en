@@ -123,7 +123,42 @@ All updates are reflected automatically in learner records, transcripts, and rep
 
 * In retail, manufacturing, and healthcare training, where learners often join sessions directly from the floor or without pre-enrollment, an "Enroll + Attendance" QR code can be placed at the door. This allows learners to self-serve their enrollment and attendance via their phones.
 
-* Training events for partners or customers allow the on-site trainer to easily adapt to changes in the room, additional sessions, or extra attendees without needing to consult the administrator for new QR codes.**
+* Training events for partners or customers allow the on-site trainer to easily adapt to changes in the room, additional sessions, or extra attendees without needing to consult the administrator for new QR codes.
+
+### Calendar invites
+
+* When a learner or instructor is enrolled in a classroom or virtual classroom session, Learning Manager sends a calendar invite (ICS file).
+* The calendar invite includes:
+  * Session date and time
+  * Session details
+  * **Direct session join link** in the calendar description
+
+Participants can open the calendar event and join the session directly from their calendar.
+
+#### Joining a session from Gmail
+
+1. Open **Google Calendar**.
+2. Select the session event.
+3. In the event details, click the **session join link**.
+4. The session opens directly in Adobe Learning Manager or the configured virtual classroom tool.
+
+You do not need to open the original email to access the session link.
+
+#### Joining a session from other calendar clients
+
+The session link is included in the calendar event body and is accessible from:
+
+* Microsoft Outlook
+* Apple Calendar
+* Other calendar applications that support ICS files
+
+#### Notes
+
+* Calendar invites are generated automatically by Learning Manager.
+* Time zone information in the calendar invite adjusts based on the learner's selected time zone.
+* This enhancement applies to newly generated calendar invites.
+* No additional configuration is required by administrators or instructors.
+
 
 ## Mark success for learners
 
