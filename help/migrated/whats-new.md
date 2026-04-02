@@ -176,6 +176,18 @@ Deliver a frictionless learning experience and eliminate redundant training with
 
 View [Equivalents and alternates](/help/migrated/administrators/feature-summary/alternates-equivalence.md) for more information.
 
+## Instructor QR codes for instance enrollment and session attendance
+
+Instructors can generate QR codes themselves for:
+
+- Course instance enrollment,
+- Session attendance, or
+- Enrollment + attendance together
+
+at the session level. It's designed for situations where learners enter a physical or hybrid classroom and require a quick, self-service option to enroll and record their attendance using a QR code.
+
+View [Download QR codes for learner enrollment and attendance](/help/migrated/instructors/feature-summary/learners.md#download-qr-codes-for-learner-enrollment-and-attendance) for more information.
+
 ## API changes in the release
 
 The April 2026 release of Adobe Learning Manager introduces focused enhancements to the Public API around alternates and equivalents, time‑windowed access to content, content‑driven quiz attempts, non‑logged‑in experiences, and Job Aid handling. The changes are designed to be largely backward‑compatible while enabling more precise integrations.

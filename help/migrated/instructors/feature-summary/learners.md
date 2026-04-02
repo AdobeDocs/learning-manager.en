@@ -78,6 +78,53 @@ You can view the number of confirmed Learners who are attending the session, the
    ![](assets/markattendance.png)
    *Mark learner attendance*
 
+### Download QR codes for learner enrollment and attendance
+
+Instructors can download QR codes for their assigned sessions to allow learners to enroll in a course instance and mark attendance or completion by scanning the QR code.
+
+This enables instructors to manage session participation independently, without requiring administrator assistance.
+
+#### Download QR codes for a session
+
+1. Sign in to Adobe Learning Manager with the **Instructor** role.
+2. Go to the **Instructor dashboard**.
+3. Open the relevant **course instance**.
+4. Select the **Sessions** tab.
+5. Choose a session assigned to you.
+6. Select **Session QR Code**.
+
+You can download the following QR codes:
+
+* **Enrollment QR code** – allows learners to enroll in the course instance
+* **Attendance QR code** – marks attendance for the session
+* **Enrollment + Attendance QR code** – enrolls learners and marks attendance in a single scan
+
+The QR code is downloaded as a PDF and can be shared digitally or displayed during the session.
+
+#### What happens when learners scan the QR code
+
+* Learners scan the QR code using a mobile device.
+* Adobe Learning Manager validates the learner and session.
+* Based on the QR code type:
+  * Learners are enrolled in the course instance, or
+  * Attendance and completion are recorded for the session
+
+All updates are reflected automatically in learner records, transcripts, and reports.
+
+#### Notes
+
+* QR codes are available only to instructors assigned to the session.
+* Enrollment, attendance, and completion rules configured for the course and session continue to apply.
+* Existing learner progress and reporting workflows remain unchanged.
+
+#### Use cases
+
+* Organizations running large volumes of onsite sessions (for example, product training for professionals) can enable instructors to print session-specific QR codes that enroll and mark attendance with one scan.
+
+* In retail, manufacturing, and healthcare training, where learners often join sessions directly from the floor or without pre-enrollment, an "Enroll + Attendance" QR code can be placed at the door. This allows learners to self-serve their enrollment and attendance via their phones.
+
+* Training events for partners or customers allow the on-site trainer to easily adapt to changes in the room, additional sessions, or extra attendees without needing to consult the administrator for new QR codes.**
+
 ## Mark success for learners
 
 Instructors can mark each learner's success status as Pass or Fail directly from the Learners page. This feature allows instructors to accurately record the outcome of classroom or virtual classroom sessions based on learner performance.
