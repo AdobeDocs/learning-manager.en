@@ -188,6 +188,13 @@ at the session level. It's designed for situations where learners enter a physic
 
 View [Download QR codes for learner enrollment and attendance](/help/migrated/instructors/feature-summary/learners.md#download-qr-codes-for-learner-enrollment-and-attendance) for more information.
 
+## Calendar invites (ICS) with session links
+
+Adobe Learning Manager includes the **session join link directly in calendar invites (ICS files)** sent to learners and instructors. This allows participants to join sessions directly from their calendar without searching for the session email.
+
+This enhancement improves the experience for calendar clients such as **Gmail** and **Outlook**.
+
+
 ## API changes in the release
 
 The April 2026 release of Adobe Learning Manager introduces focused enhancements to the Public API around alternates and equivalents, time‑windowed access to content, content‑driven quiz attempts, non‑logged‑in experiences, and Job Aid handling. The changes are designed to be largely backward‑compatible while enabling more precise integrations.
