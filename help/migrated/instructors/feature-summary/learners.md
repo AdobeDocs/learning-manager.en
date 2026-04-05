@@ -86,8 +86,8 @@ This enables instructors to manage session participation independently, without 
 
 The following steps are suitable for both:
 
-- Physical classroom sessions
-- Online classroom sessions
+* Physical classroom sessions
+* Online classroom sessions
 
 For a physical classroom session, as an Instructor, you have to generate the right QR code and paste it in the classroom (or pass it around) where the learners are attending the session so that they can scan the QR code and mark their enrollment or attendance or both depending on the QR code.
 
