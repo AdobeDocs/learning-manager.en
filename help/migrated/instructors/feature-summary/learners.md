@@ -84,6 +84,16 @@ Instructors can download QR codes for their assigned sessions to allow learners 
 
 This enables instructors to manage session participation independently, without requiring administrator assistance.
 
+The following steps are suitable for both:
+
+- Physical classroom sessions
+- Online classroom sessions
+
+For a physical classroom session, as an Instructor, you have to generate the right QR code and paste it in the classroom (or pass it around) where the learners are attending the session so that they can scan the QR code and mark their enrollment or attendance or both depending on the QR code.
+
+For an online classroom session, as an Instructor, you can send the generated QR code through mail, a messaging system or any other means so that the learners can scan the QR code and mark their enrollment or attendance or both depending on the QR code.
+
+
 #### Download QR codes for a session
 
 1. Sign in to Adobe Learning Manager with the **Instructor** role.
@@ -92,6 +102,7 @@ This enables instructors to manage session participation independently, without 
 4. Select the **Sessions** tab.
 5. Choose a session assigned to you.
 6. Select **Session QR Code**.
+![](assets/instructor-QR-code.png)
 
 You can download the following QR codes:
 
