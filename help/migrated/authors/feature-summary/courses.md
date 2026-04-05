@@ -549,7 +549,9 @@ Only an Author can create a checklist. A checklist is a type of Activity module.
    ![](assets/multi-lang-support-for-checklists3.png)
    *For example, questions are entered in French as well*
 
-   [!NOTE] ALM does not automatically translate the questions for you in those additional languages. You have to translate the questions in the respective languages.
+   >[!NOTE]
+   >
+   >ALM does not automatically translate the questions for you in those additional languages. You have to translate the questions in the respective languages.
 
 5. Select **Save**. The questions are saved in all the languages.
 6. Select all other relevant options and select **Add**. The checklist is created in all the languages that the course is available.
