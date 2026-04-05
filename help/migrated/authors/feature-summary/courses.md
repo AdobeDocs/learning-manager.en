@@ -526,7 +526,9 @@ Evaluation is an important aspect of any LMS. Online assessments are one of the 
 
 Consider store employees or warehouse workers undergoing evaluation for the tasks they are supposed to carry out on a day to day basis. It could be the steps carried out to repair a coffee machine or the steps involved in packing a material. Instructors can evaluate employees for such tasks based on a checklist and evaluate them as Pass or Fail in the evaluation activity.
 
-### Create a checklist {#createachecklist}
+You can create a checklist in multiple languages.
+
+### Create a checklist in multiple languages {#createachecklist}
 
 Only an Author can create a checklist. A checklist is a type of Activity module. While setting up an Activity module, you, an Author, can select an Activity as **Checklist**, as shown below: 
 
@@ -534,9 +536,26 @@ Only an Author can create a checklist. A checklist is a type of Activity module.
 
 *Create a checklist*
 
-Once you choose the option **Checklist**, you see a few additional options.
+1. Once you choose the option **Checklist**, you see a few additional options.
 
-**Checklist Type:** Choose any option, **Yes/No** or **1-5**. If you choose Yes/No, the checklist will contain questions that can only be answered with Yes or No. If you choose 1-5, you can see a Likert checklist, where you can grade a question on a five-point scale.
+2. **Checklist Type:** Choose any option, **Yes/No** or **1-5**. If you choose Yes/No, the checklist will contain questions that can only be answered with Yes or No. If you choose 1-5, you can see a Likert checklist, where you can grade a question on a five-point scale.
+
+3. Select **Configure**. The Checklist window appears.
+4. Enter as many questions as you want. You can enter the same questions in the additional languages as well.
+
+   ![](assets/multi-lang-support-for-checklists2.png)
+   *Additional languages are available*
+
+   ![](assets/multi-lang-support-for-checklists3.png)
+   *For example, questions are entered in French as well*
+
+   [!NOTE]
+   >
+   >ALM does not automatically translate the questions for you in those additional languages. You have to translate the questions in the respective languages.
+
+5. Select **Save**. The questions are saved in all the languages.
+6. Select all other relevant options and select **Add**. The checklist is created in all the languages that the course is available.
+
 
 **Pass Criteria:**
 
@@ -568,6 +587,8 @@ Now, add the checklist questions. Click **[!UICONTROL Add]**. You can only add u
 *Add checklist questions*
 
 To add more questions, click **[!UICONTROL Add more]**.
+
+
 
 Save the changes, add the module, and publish the course.
 
