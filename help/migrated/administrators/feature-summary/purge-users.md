@@ -247,6 +247,29 @@ As administrator, you can specify the duration within which purged users can be 
 
 * The bulk deletion flow will run only as a scheduled cron job (not on‑demand per request)
 
+### Enabling the Auto-purge option
+
+1.	Log in to Adobe Learning Manager as an Admin.
+2.	Navigate to **Configure** section > **Settings** > **Basics** section > **General**. 
+3.	Scroll down the page to **Auto-purge Deleted Users**.
+![](assets/auto-purge1.png)
+*Auto-purge option*
+      >[!NOTE]
+      >
+      >If **Auto-purge Deleted Users** is not enabled, the section displays a message which says, **Not configured** at the bottom of the option’s section.
+4.	Select **Edit**. 
+5.	Select the **Enable checkbox**.
+6.	Enter the duration after which the purge has to take effect.   
+      >[!NOTE]
+      >
+      >The minimum value should be one year. You can also increment it by 1. However, you cannot enter a value such as 1.5 years or 2.5 years. If you require a custom value as a duration, please contact our customer support.
+7.	Select **Save**. ALM displays a detailed confirmation message.
+![](assets/auto-purge2.png)
+*Activating and entering the duration*
+8.	Select **Yes** to confirm and save the setting.
+![](assets/auto-purge3.png)
+*Confirmation message*
+
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 
 +++How many days does it take for a purge request to complete?
