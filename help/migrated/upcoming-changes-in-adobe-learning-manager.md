@@ -2397,13 +2397,29 @@ If the learner has a direct completion, revoking alternates does not affect thei
 1. If multiple sources provided alternate completion and only some are revoked, the LT reflects the remaining active sources and their earliest completion date. 
 2. If all sources are revoked, and there is no direct completion, the learner loses completion status for the target.
 
-### Enhanced reporting for checklist reviewer remarks 
+### Enhanced reporting for checklist reviewer remarks
 
-Reviewer comments from checklist modules are now included in the LT report under a renamed column Reviewer Remarks. 
+Reviewer comments from checklist modules are now included in Learner Transcripts (LT) under a renamed column: **Reviewer's remarks** (previously Submission comment).
 
 #### Impact
 
-Learners and admins can view consolidated feedback, improving transparency and supporting performance evaluation. 
+Learners and admins can view consolidated, clearly labeled reviewer feedback in LT exports (UI, Job API, and connectors), improving transparency, auditability, and supporting more accurate performance evaluation and coaching.
+
+#### What has changed
+
+**Renamed columns**
+
+| Area                        | Old column name    | New column name    | Notes                                                     |
+| --------------------------- | ------------------ | ------------------ | --------------------------------------------------------- |
+| Learner Transcripts (Admin) | Submission comment | Reviewer's remarks | Applies to all Admin LT sources: UI, Job API, Connectors, wherever applicable. |
+
+This change applies uniformly to all Admin LT sources (UI exports, Job API reports, and Connector‑based exports, wherever applicable). Connector‑exported LT will surface Reviewer's remarks as a dedicated column at the end (for connectors that did not previously expose Submission comment), ensuring downstream integrations can distinguish reviewer feedback from other comments.
+
+>[!NOTE]
+>
+>For the Learner Transcripts for learners, the column previously labeled "Submission comment" is now renamed to "Reviewer's remarks", and populated with the checklist reviewer's comment when enabled.
+
+
 
 ### Improved learning time calculation 
 
