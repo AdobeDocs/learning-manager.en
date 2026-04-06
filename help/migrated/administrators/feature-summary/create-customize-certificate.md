@@ -219,33 +219,51 @@ This applies to healthcare, finance, government, and other industries where cert
 
 **Scenario:** Existing customers use HTML5 custom certificates managed through CSMs.
 
-- Legacy HTML or ZIP templates are **migrated and marked as legacy**, which preserves past usage and downloads.
-- Administrators can move to **designer-based templates** over time, starting with high-priority programs.
-- If migration cannot preserve a mapping (for example, badges disabled mid-way), the system falls back to the **global default template** so learners are not blocked.
+- Legacy HTML or ZIP templates are migrated and marked as legacy, which preserves past usage and downloads.
+- Administrators can move to designer-based templates over time, starting with high-priority programs.
+- If migration cannot preserve a mapping (for example, badges disabled mid-way), the system falls back to the global default template so learners are not blocked.
 
 ## Create a custom certificate
 
 **Prerequisite**
 
-To use images from Firefly, your Learning Manager instance must be integrated with Firefly.
+To use images from Firefly, your Adobe Learning Manager instance must be integrated with Firefly.
 
 1. Sign in to Adobe Learning Manager as an **Administrator**.
 2. In the **Configure** section, select **Achievements**. The **Badges** page opens.
+![Create a custom certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate1.png)
+*Navigate to Achievements on the left navigation panel*
+
 3. In the left navigation panel, select **Certificates**. The **Certificates** page opens.
+![Create a custom certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate2.png)
+*The Certificate page*
+
 4. In the upper-right area of the page, select **New Certificate**. The **Create a New Certificate** dialog opens.
 5. Select **Landscape** or **Portrait**, depending on how you want the certificate to look. After you select an orientation, you see a blank template and ready-made templates for that orientation.
+![Create a custom certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate3.png)
+*Landscape or Portrait option*
+
 6. Select the blank template or an existing template.
 7. Enter a certificate name.
 8. In the drop-down menu, select a default language.
 9. Select **Create**. If you chose the blank template, a blank canvas appears under your certificate name.
-10. Add elements: **Text**, **Image**, or **Dynamic Value**.
+10. Add elements: **Text**, **Image**, **Dynamic Value**, and **Certificate Background**.
+![Create a custom certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+*Add elements to the certificate*
+
 11. For **Text**, add content under **Preformatted text** or **Text Templates**, or add custom text. The text appears on the canvas. When text is selected, formatting options appear above the canvas. To remove content you do not want, select the **Delete** icon in the upper-right corner of the canvas.
 12. To add images, select **Image** next to **Add elements**. Upload images from your computer, or select images from the category lists.
 13. Select **Dynamic Value** to add basic details, catalog labels, and active fields.
 14. Select **Certificate Background** to apply colors or images. To create images with Adobe Firefly, select **Generate Image**.
 15. In the prompt field, describe what you want (up to 100 characters), and select **Generate**. Four image options appear based on your prompt.
 16. Select the image you want. It is applied as the certificate background.
-17. Select **Preview** to review the certificate before you publish.
+![Create a custom certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+*Add image to the certificate*
+
+17. Select **Preview** to review the certificate before you publish. This helps you understand how the certificate looks like.
+![Create a custom certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+*Preview the certificate*
+
 18. In the preview, you can save to Google Drive, download, print, or use other options such as annotation or document properties.
 19. Select **Save as Draft** to continue later, or select **Publish** to publish the certificate. After publication, learners can download the certificate when they meet the configured milestone.
 
@@ -258,6 +276,7 @@ After you save a certificate under **Published** or **Drafts**, you can edit, cl
 3. Select the **Published** or **Drafts** tab for the certificate you want.
 4. Open the actions menu (**…**) for the certificate, and select **Edit**.
 ![Edit certificate from the actions menu](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0001.png)
+*Edit option in the drop-down menu*
 
 5. Make your changes.
 6. Select **Publish** or **Save as Draft**.
@@ -266,13 +285,16 @@ After you save a certificate under **Published** or **Drafts**, you can edit, cl
 
 Use **Clone** when you want a copy of a certificate for a new name or a similar use case. After you clone, rename the certificate so it has a distinct name; otherwise the name can match the source even if you changed the design.
 
-**Note:** You cannot set a new name while you save immediately after clone. Rename the certificate after it is saved as a draft or after it is published.
+>[!NOTE]
+>
+>You cannot set a new name while you save immediately after clone. Rename the certificate after it is saved as a draft or after it is published.
 
 1. In the **Configure** section, select **Achievements**. The **Badges** page opens.
 2. In the left navigation panel, select **Certificates**. The **Certificates** page opens.
 3. Select the **Published** or **Drafts** tab for the certificate you want.
 4. Open the actions menu (**…**) for the certificate, and select **Clone**.
 ![Clone certificate from the actions menu](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0002.png)
+*Clone option in the drop-down menu*
 
 5. Make your changes.
 
@@ -290,9 +312,11 @@ You can rename a certificate without cloning it.
 
 4. Open the actions menu (**…**) for the certificate, and select **Rename**.
 ![Rename certificate from the actions menu](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0003.png)
+*Rename option in the drop-down menu*
 
 5. In the **Rename certificate** dialog, enter the new name.
 ![Rename certificate dialog](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0004.png)
+*Enter a new name*
 
 6. Select **Save**. Learning Manager shows a confirmation message.
 
@@ -307,9 +331,12 @@ Deleting a certificate cannot be undone. Proceed only if you are sure.
 3. Select the **Published** or **Drafts** tab for the certificate you want.
 4. Open the actions menu (**…**) for the certificate, and select **Delete**.
 ![Delete certificate from the actions menu](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0005.png)
+*Delete option in the drop-down menu*
 
 Adobe Learning Manager shows a confirmation message.
 ![Delete certificate confirmation](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0006.png)
+*Confirmation message*
+
 5. Select **Yes**. If the certificate is not attached to a learning object or instance, Learning Manager completes the deletion and may show another confirmation.
 
 ## Set a custom certificate as the default certificate
@@ -322,11 +349,12 @@ You can set a certificate as the default for:
 - All
 
 ![Default certificate options](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0007.png)
+*Set as default certificate*
 
 1. In the **Configure** section, select **Achievements**. The **Badges** page opens.
 2. In the left navigation panel, select **Certificates**. The **Certificates** page opens.
 3. Select the **Published** or **Drafts** tab for the certificate you want.
 4. Open the actions menu (**…**) for the certificate, select **Set as default**, and then select one of the four options. Learning Manager shows a confirmation message.
 5. Select **Yes**. Learning Manager shows another confirmation. The certificate shows a **Default for** label with the category you selected (for example, **Default for trainings**).
-
 ![Default for category label on certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0008.png)
+*After it becomes the default certificate*
