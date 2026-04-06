@@ -380,9 +380,11 @@ Alternate completions do not grant skills, badges, gamification rewards, and fee
 ## Migration for alternates 
 
 ### Introduction
+
 This topic outlines the CSV-based data model and migration behavior for introducing learning object (LO) equivalence in the system.
 
 ### Existing CSV Files (Context)
+
 These CSVs already exist in the platform and provide the primary learning object, module, and completion context (non-exhaustive list):
 
 * user_course_grade.csv
@@ -398,6 +400,7 @@ These files continue to be used as-is and are not changed by the new equivalence
 Two new CSVs are introduced to support LO equivalence relationships and related user completions.
 
 #### 1. equivalence_relationships.csv
+
 Defines equivalence mappings between source and target learning objects (LOs), which can be either courses or learning paths (LPs).
 
 **Schema:**
@@ -515,8 +518,8 @@ Deleting a course removes it entirely from the system, including its completion 
 1. An administrator retires or deletes the source course using the admin interface.
 2. The system evaluates all alternate completions derived from the source course.
 3. Completion status is updated based on the course state:
-    - **Retired:** Existing alternate completions remain unchanged.
-    - **Deleted:** Alternate completions are revoked if retroactive incompletion is enabled.
+    * **Retired:** Existing alternate completions remain unchanged.
+    * **Deleted:** Alternate completions are revoked if retroactive incompletion is enabled.
 4. Learner transcripts and reports reflect the updated status to support compliance and audit requirements.
 
 ## No chaining of relationships
