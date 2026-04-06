@@ -216,6 +216,7 @@ ALM:
 3. Updates transcript entries to **Alternate (Revoked)**.-->
 
 ### End-to-end flow  
+
 **For learners**
 
 1. Navigate to **My Learning** or **Completed Courses** in the learner app.
@@ -297,13 +298,13 @@ The system revokes alternate completions when relationships are removed or sourc
 
 Learners see updated completion statuses on LO cards and in transcripts, such as:
 
-- **Completed via Alternate**
+* **Completed via Alternate**
 
 When an alternate completion is revoked, no label is shown on the learner UI. In reports and transcripts, completion methods appear as:
 
-- Alternate
-- Alternate (Revoked)
-- Direct
+* Alternate
+* Alternate (Revoked)
+* Direct
 
 Prerequisite checks, learning path progress, and certification status update dynamically based on the current completion state.
 
