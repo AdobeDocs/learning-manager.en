@@ -541,3 +541,42 @@ Allowing the same custom domain on two accounts would make it impossible to guar
 
 In the non‑logged‑in experience of Adobe Learning Manager, browser caching of resources is a core part of the performance and scale strategy, because public pages must handle large, sometimes spiky marketing traffic with low latency and minimal origin load. Static and semi‑static assets such as the non‑logged‑in HTML shell (for example, index.html/guest.html), account‑level configuration JSON (account.json or config.json), Experience Builder page layout JSON (menus, widget layouts, card settings), CSS, JS, images, and favicons are served from an Akamai CDN (cpcontents.adobe.com / cpcontent.adobe.com) with cache headers that encourage both CDN‑side and browser‑side reuse, so that after the first page load the browser can render subsequent non‑logged‑in pages largely from its cache, revalidating only when needed via ETag or Last‑Modified.
 
+## Launch the homepage options
+
+On the Adobe Learning Manager homepage, select **Branding**. Then, on the left pane, select Non-logged in Homepage.
+
+![homepage options](/help/migrated/administrators/feature-summary/assets/non-logged-in-homepage.png)
+
+*Select the option Non-logged in Homepage*
+
+## Add a banner
+
+Add a banner for any marketing announcement or feature the trending topic of the day. Select **Add banner**.
+
+![banner](/help/migrated/administrators/feature-summary/assets/add-banner-image.png)
+
+*Add a banner*
+
+Browse to the location of the image to be used as the banner. Then provide a link as an action button on the banner image. 
+
+## Add categories
+
+This component can be used to filter catalog by tags, skills, and catalog. This section contains a header and description for each category. Upon clicking, the user is redirected to the catalog page with the applied filters.  
+
+Select **[!UICONTROL Add category]**. Then enter the details for the category. 
+
+![add category](/help/migrated/administrators/feature-summary/assets//add-category.png)
+
+*Add the categories*
+
+Save the category. The category is added to the section.
+
+## Add a catalog
+
+Add a catalog for non-logged in users so that they can browse all the training on the platform.
+
+![add catalog](/help/migrated/administrators/feature-summary/assets//add-catalog.png)
+
+*Add a catalog*
+
+All exported training will be present.
