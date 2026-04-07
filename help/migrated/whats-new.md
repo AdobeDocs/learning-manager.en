@@ -118,8 +118,8 @@ For courses shared via external or peer catalogs, the original author name from 
 
 This applies to:
 
-- Learner app (course card or course details).
-- Administrator and author views when previewing as a learner.
+* Learner app (course card or course details).
+* Administrator and author views when previewing as a learner.
 
 View [Author name display for shared courses](/help/migrated/administrators/feature-summary/peer-account.md#author-name-display-for-shared-courses-including-previously-acquired-courses) for more information.
 

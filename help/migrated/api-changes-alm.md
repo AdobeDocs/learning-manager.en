@@ -4,11 +4,11 @@ jcr-language: en_us
 title: API changes in April release
 ---
 
-## API changes in the April release
+# API changes in the April 2026 release
 
 The April 2026 release of Adobe Learning Manager introduces focused enhancements to the Public API around alternates and equivalents, time‑windowed access to content, content‑driven quiz attempts, non‑logged‑in experiences, and Job Aid handling. The changes are designed to be largely backward‑compatible while enabling more precise integrations.
 
-### Adaptive learning for Learning Paths
+## Adaptive learning for Learning Paths
 
 This release adds full Public API support for adaptive learning paths. Learning Paths (LPs) can now define adaptive rules that control which sections and sub‑learning objects (sub LOs) are visible to different learner groups, and the Public API reflects this behavior.
 
@@ -48,7 +48,7 @@ A bulk version of this capability is planned via a Jobs API. The request shape i
 
 Integrations should use this API when they need to restart learners in each program or course. Clients must handle error responses gracefully: the API may reject refresh requests, where a reset isn't applicable (for example, when no completion exists or unsupported learning object types).
 
-### Equivalents and alternate completions
+## Equivalents and alternate completions
 
 To support implementations where multiple learning objects can satisfy the same requirement, the release introduces Equivalents and Alternates completions as public APIs.
 
@@ -69,7 +69,7 @@ GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit
 
 The response returns learning objects that can act as alternates and includes a meta.count field that indicates the total number of such alternates, independent of the current limit. Integrations can use this to present recommended equivalents, or to build administrative views of alternate mappings.
 
-### Reporting and analytics use cases
+## Reporting and analytics use cases
 
 Users that generate reports or analytics should update their logic to add isAlternateComplete and alternateCompletions into their reporting workflows.
 
@@ -89,11 +89,11 @@ Typical use cases:
 
 Without incorporating these two fields, downstream reports will treat alternate completions as regular completions and will _not be able to explain_ *why* a learner shows as completed a training they never took directly.
 
-### Learner vs Admin LO API behavior
+## Learner vs Admin LO API behavior
 
 The multi language job aid structure is identical in both learner and admin LO APIs. Learner scope returns only those job aids visible to the learner, but for each visible job aid it exposes all configured locales via multiple resource entities (one per locale) and multi locale localizedMetadata. Admin scope returns all job aids the admin can manage, with the same LO model and locale specific resource IDs. Clients with learner scope should choose the resource whose attributes.locale best matches the learner's content language, while admin tools can enumerate all locales for reporting and management.
 
-### Checklist with commenting capability
+## Checklist with commenting capability
 
 To support workflows where reviewers can share structured feedback on checklist‑based activities, this release surfaces *checklist comments* and reviewer visibility controls through the learning object resource API.
 
@@ -107,7 +107,7 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 
 When the learning object instance contains checklist‑type resources, the corresponding learningObjectResource entries in the included array expose comment and reviewer‑visibility attributes under attributes, and reviewer identity under relationships.
 
-#### New checklist comment attributes
+### New checklist comment attributes
 
 For checklist resources, the following attributes may be present on the learningObjectResource:
 
@@ -129,7 +129,7 @@ When true, clients can use the checklistReviewedBy relationship (see below) t
 
 Other checklist‑specific context such as checklistEvaluationStatus, isChecklistMandatory, resourceSubType: "CHECKLIST", and submissionDate are also available on the same learningObjectResource to support richer checklist UIs and reporting.
 
-#### Reviewer identity relationship
+### Reviewer identity relationship
 
 When reviewer names are meant to be visible, the learningObjectResource includes a relationship that points to the reviewer user:
 
@@ -156,7 +156,7 @@ Client applications should:
 2. If true and relationships.checklistReviewedBy.data is present, call the appropriate user API to resolve "id": "user_id" into a display name.
 3. Render the reviewer name next to the checklist comment or status as appropriate.
 
-#### Accessing checklist resources and comments
+### Accessing checklist resources and comments
 
 To retrieve checklist resources and their comments for a given learning object, clients should:
 
@@ -181,7 +181,7 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 
 This pattern allows headless or custom clients to render a comprehensive checklist experience, including status, mandatory/optional flags, and reviewer feedback, directly from the Prime APIs.
 
-#### Reporting and UX considerations
+### Reporting and UX considerations
 
 - _Reporting and analytics_
 Integrations that track learner performance on checklists can incorporate:
@@ -194,7 +194,7 @@ UI implementations should:
     - Use showReviewerNameToLearner and checklistReviewedBy to decide whether to display the reviewer's name or keep the review anonymous.
     - Fall back gracefully when comments are disabled or not present, still showing evaluation status and submission information.
 
-### Multi‑language support for job aid
+## Multi‑language support for job aid
 
 To support implementations where job aids must be delivered in multiple languages to both learners and admins, this release extends job aid handling to return *one resource per locale* instead of a single hard‑coded en-US resource.
 
@@ -213,7 +213,7 @@ GET /primeapi/v2/learningObjects/jobAid:{jobAidId}?include=instances.loResources
 
 When a job aid has multiple language variants, the included array contains multiple "type": "resource" entries—one for each locale (for example, en-US, fr-FR, es-ES), all linked from a single learningObjectResource.
 
-#### Multi‑language job aid structure
+### Multi‑language job aid structure
 
 Multi‑language job aids use:
 
@@ -236,7 +236,7 @@ For a multi‑language job aid, a typical pattern is:
 
 Clients can select the appropriate resource by matching the learner's locale to the resource.attributes.locale field.
 
-#### New resource ID format for job aids
+### New resource ID format for job aids
 
 To properly distinguish multiple localized variants of a job aid resource, the _resource ID format has changed_.
 
@@ -283,7 +283,7 @@ This structure lets clients:
 - Quickly identify which job aid and version a resource belongs to.
 - Directly infer the locale from the resource ID when needed.
 
-#### Backward compatibility: 
+### Backward compatibility: 
 
 ```/resources/{resourceId}```
 
@@ -303,7 +303,7 @@ It is now _backward compatible_ with both the old and new ID formats:
 
 Integrations that currently store or reference the old resource IDs can continue to function without change, while newer implementations are encouraged to adopt the new ID format for locale‑specific operations.
 
-#### Integration and UX considerations
+### Integration and UX considerations
 
 - _Learner/admin UI_
     - Use learningObject.localizedMetadata and learningObjectResource.localizedMetadata to present titles and descriptions in the appropriate language.
@@ -313,7 +313,7 @@ Integrations that currently store or reference the old resource IDs can continue
     - For new integrations, store the _new‑format resource IDs_ (```jobAid:<jobAidId>_<version>_<localeCode>```) to enable unambiguous locale‑specific retrieval.
     - Legacy IDs can still be used with /resources/{resourceId}, but they will not distinguish between locales.
 
-### Time‑slot constraints for starting modules
+## Time‑slot constraints for starting modules
 
 Some learning experiences must be available only within a defined time window. The release displays time‑slot information on learning object resources and introduces a validation endpoint that checks whether a learner can start a resource at the current time.
 
@@ -331,7 +331,7 @@ This endpoint, intended for learner‑read scenarios, returns whether the learne
 
 Custom players and client applications should use canStart to enforce time‑based access and use the timeSlot metadata to display clear messaging about when content becomes available or expires. Negative responses from canStart should be handled explicitly to inform learners why the content cannot be started yet or anymore.
 
-### Multi‑attempt, content‑driven quizzes
+## Multi‑attempt, content‑driven quizzes
 
 Some content packages implement their own attempt tracking rather than relying solely on Adobe Learning Manager. The release introduces a flag that indicates when attempts are driven by the content itself.
 
@@ -343,7 +343,7 @@ learning object resources may now expose a Boolean attribute hasContentDrivenAtt
 
 Integrations that display attempt counts or control retry behavior should check this flag. When it's enabled, they should not infer attempt limits solely from platform metadata and should be prepared to rely on content‑side reporting (for example, via xAPI statements) or business‑specific rules.
 
-### Behavioral change in Job Aid resource ID format
+## Behavioral change in Job Aid resource ID format
 
 This release introduces an important __behavioral change__ in the format of Job Aid resource IDs. While no new endpoint is involved, this has a direct impact on systems that store or parse these IDs.
 
@@ -367,11 +367,11 @@ The components are:
 
 Any integration that indexes resources or persists in Job Aid resource IDs must update its parsing and storage logic to recognize the new format. Because the identifiers themselves change, it's strongly recommended that you rebuild any local indexes keyed by Job Aid resource IDs after upgrading to the April 2026 release.
 
-### Set course banner images via migration
+## Set course banner images via migration
 
 You can now set or update course banner images in Adobe Learning Manager as part of your standard migration workflow. This helps you launch or clean up large catalogs while keeping your course pages visually consistent, without manually editing 
 
-#### Where banner images are defined
+### Where banner images are defined
 
 Banner images are configured in the _course.csv_ migration file, which you already use to provide course metadata such as:
 
@@ -389,7 +389,7 @@ The banner column:
 - Points to the image file you want to use as the _course banner_.
 - Works in the same way as thumbnailUrl, using images available in your configured content repository (Box/FTP).
 
-#### Preparing banner images for migration
+### Preparing banner images for migration
 
 1. Upload banner images: Place your banner image files in the same Box or FTP location that you use for other migration assets, following your existing directory structure.
 2. Check file format: 
@@ -403,7 +403,7 @@ id,courseName,courseCreationDate,state,author,thumbnailUrl,bannerUrl
 45678,DEMO2,2018-05-05T08:56:21.000Z,Published,Sudheer,pic2.png,banners/banner2.png  
 ```
 
-#### Apply banners during a migration run
+### Apply banners during a migration run
 
 Once your course.csv is updated, the flow is the same as any other migration:
 
@@ -417,7 +417,7 @@ After the sprint:
     1. Verify banners in the _Author_ and _Learner_ apps.
     2. If some rows fail (for example, due to an invalid file path or unsupported format), download the error CSV from the migration run and correct the data.
 
-#### New courses vs. existing courses
+### New courses vs. existing courses
 
 The banner field works in both scenarios:
 
@@ -430,7 +430,7 @@ If you re‑run migration with the same course id and a new banner value:
 
 Your actual column names and paths must match the _downloaded CSV specification_ and your content repository layout.
 
-### Remove order column in LearningProgramCourse
+## Remove order column in LearningProgramCourse
 
 Adobe Learning Manager now supports a simplified model for _course ordering inside Learning Paths (Learning Programs)_ during migration. As part of this change, the _order column is removed_ from the learning_program_course.csv migration file.
 
@@ -441,9 +441,9 @@ Previously, the learning_program_course.csv file included a column (often called
 
 Now, Adobe Learning Manager no longer uses the order column in learning_program_course.csv to determine course ordering. Instead, the migration CSV focuses on _which courses belong to which Learning Program_, rather than how they are ordered numerically.
 
-### Impact on migration CSVs
+## Impact on migration CSVs
 
-#### learning_program_course.csv
+### learning_program_course.csv
 
 You should treat the legacy order column as removed or ignored:
 
@@ -456,7 +456,7 @@ You should treat the legacy order column as removed or ignored:
 
 Always refer to the latest [_CSV specifications_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) from your Learning Manager account (via csv_specifications.zip) to confirm the current header set and requirements.
 
-### Webhook notifications
+## Webhook notifications
 
 Two new Webhook event types carry the final status:
 
@@ -510,7 +510,7 @@ Your integration should primarily key off `eventId` (or`metadata.event_id`) and 
 
 #### Examples
 
-**Adding users asynchronously**
+__Adding users asynchronously__
 
 #### Step 1. Make the async call
 
@@ -610,7 +610,7 @@ Content-Type: application/json
 
 Later, a RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED Webhook arrives with the same eventId.
 
-### timeZoneCode on Course Instances
+## timeZoneCode on Course Instances
 
 From this release onwards, the Course Instance model (learningObjectInstance) exposes a new attribute:
 
@@ -621,7 +621,7 @@ This allows clients to:
 - Resolve a course instance's time zone in a consistent, API-driven way.
 - Interpret and display all instance-level dates/times correctly for that instance, regardless of the user's own time zone.
 
-#### Where timeZoneCode appears
+### Where timeZoneCode appears
 
 The field is added in the attributes of the learningObjectInstance model
 for course instances only.
@@ -649,7 +649,7 @@ Example:
 }
 ```
 
-#### How to resolve timeZoneCode
+### How to resolve timeZoneCode
 
 The numeric timeZoneCode is a lookup key into the account's time zone catalog, which is exposed via the Account API:
 
@@ -677,7 +677,7 @@ Within the response, time zones are listed in:
 }
 ```
 
-#### Recommended client flow:
+### Recommended client flow:
 
 1. Call GET /account once, cache attributes.timeZones for the tenant.
 2. For each course instance:
@@ -685,7 +685,7 @@ Within the response, time zones are listed in:
     - Find the corresponding entry in timeZones where timeZoneCode matches.
     - Use that entry's zoneId, utcOffset, and utcOffsetCode for display and scheduling logic.
 
-### Frequently asked questions
+## Frequently asked questions
 
 _How does the April 2026 release change the learningObjects API for adaptive learning programs?_
 
@@ -750,5 +750,3 @@ to:
 ```jobAid:<jobAidId>_<version>_<localeCode>```
 
 for example jobAid:131032_2_fr_FR. Any system that stores or parses Job Aid resource IDs must be updated, and you should plan to rebuild local indexes keyed by these IDs after upgrading to the April 2026 release.
-
-
