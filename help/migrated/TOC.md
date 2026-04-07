@@ -195,6 +195,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [New experience league announcements](/help/migrated/new-experience-league-announcement.md)
    * [How to submit a support ticket on Experience League](/help/migrated/how-to-submit-support-ticket.md)
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
+* API Changes
+   * [API changes in the April release](/help/migrated/api-changes-alm.md)
 * Knowledge Base {#knowledge-base}
    * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
