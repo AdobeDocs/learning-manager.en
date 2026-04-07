@@ -459,6 +459,121 @@ Once you log in to the FTP and Box servers and upload the content, the CSV locat
 
 *CSV locations in Box account*
 
+## Migration for alternates and equivalents
+
+### Overview
+
+This topic outlines the CSV-based data model and migration behavior for introducing learning object (LO) equivalence in the system.
+
+### Existing CSV Files (Context)
+
+These CSVs already exist in the platform and provide the primary learning object, module, and completion context (non-exhaustive list):
+
+* user_course_grade.csv
+* moduleversion
+* module.csv
+* course.csv
+* course_module.csv
+
+These files continue to be used as-is and are not changed by the new equivalence feature, but they form the underlying data upon which equivalence will operate.
+
+### New CSV files for alternates 
+
+Two new CSVs are introduced to support LO alternates relationships and related user completions.
+
+#### 1. equivalence_relationships.csv
+
+Defines equivalence mappings between source and target learning objects (LOs), which can be either courses or learning paths (LPs).
+
+**Schema:**
+
+* sourceId
+* sourceloType (course / LP)
+* targetId
+* targetLotype (course / LP)
+* dateCreated
+* relationshipStatus (ACTIVE / DELETE)
+* dateModified
+
+**Purpose:**
+
+* Represents an equivalence relationship between two LOs.
+* relationshipStatus controls whether the relationship is currently active or deleted.
+* dateCreated and dateModified support auditing.  
+
+#### equivalence_user_completion.csv
+
+Captures user-level completion information for equivalent LOs, aligned with the relationships defined in equivalence_relationships.csv.
+
+**Schema:**
+
+* userId
+* sourceId
+* sourceloType (course / LP)
+* targetId
+* targetLotype (course / LP)
+* dateCompleted
+
+**Purpose:**
+
+* Explicitly records which **target LO completions** should be inferred for a user based on the equivalence relationship and existing source LO completion.
+* Serves as the **authoritative source** for user completions tied to migrated equivalents data.
+
+### Migration rules and behavioral semantics
+
+#### 1. No Retrofit Support for New Equivalents CSVs
+
+* All equivalence-related data must be brought in via migration.
+* The system will not support scenarios where:
+  * LO data (courses/LPs) was created via UI, and
+  * Equivalence relationships are later imported only via CSV.
+
+This means:
+
+* The supported pattern is: LO definitions and their equivalence relationships are managed as part of a coherent migration flow.
+* Hybrid flows where UI-created LOs are retrofitted with CSV-only equivalence are unsupported.
+
+#### 2. No Retroactive completions/incompletions from migrated relationships
+
+When an equivalence relationship is introduced via migration (i.e., via equivalence_relationships.csv):
+
+* The system will not perform retroactive completion or incompletion calculations based solely on that relationship.
+* Instead, all required user completion data must be explicitly provided via equivalence_user_completion.csv.
+
+**Implication:**
+
+* equivalence_user_completion.csv is the single source of truth for any completions that should be recognized at migration time as a result of equivalence.
+* The platform will not attempt to infer or backfill those completions from existing course progress.
+
+#### 3. Behavior for new completions after migration
+
+If:
+
+* An equivalence relationship was created via migration, and
+* A learner later completes the source LO (post-migration),
+
+then:
+
+* The system will trigger alternate completions for the target LO, i.e., the equivalence behaves normally going forward for new source completions.
+
+**Key distinction:**
+
+* **At migration time:** completions must come via equivalence_user_completion.csv.
+* **After migration:** native runtime logic will handle alternate completions when a source LO is newly completed.
+
+#### 4. Impact on higher-order learning objects
+
+Alternate completions coming in via CSV (i.e., via equivalence_user_completion.csv) will trigger recomputation of higher-order LOs.
+
+Higher-order LOs may include:
+
+* Learning paths
+
+**Technical implication:**
+
+* Ingesting equivalence_user_completion.csv is not a "silent" operation: it initiates the same recomputation/roll-up logic that would be triggered by normal runtime completions.
+* Systems integrating or scheduling this migration must plan for the load and timing of recomputations.
+
 ## Data and content migration procedure {#dataandcontentmigrationprocedure}
 
 The procedure to migrate your enterprise LMS data and content to Learning Manager is explained as follows: 

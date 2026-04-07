@@ -116,3 +116,55 @@ Follow these steps to retire the webhooks:
  
  ![](assets/retire-webhook.png)
 _Retire the webhook_
+
+## Webhooks for alternates
+
+ALM provides dedicated webhook events for alternate completions to support automation, integrations, and synchronization with external systems.
+
+These events allow external consumers to reliably distinguish between direct completions and completions granted through alternate relationships.
+
+### Overview
+
+When a learner completes a course via an alternate or relationship, ALM triggers a webhook event that is separate from the standard course completion webhook. This ensures that integrations can respond differently to alternate completions where required.
+
+Webhook events are also triggered when retroactive completion or retroactive incompletion occurs, covering historical updates as well as relationship changes.
+
+### Webhook event behavior
+
+* A distinct webhook event is triggered when a learner receives Completed via Alternate status for a target course.
+* The event is generated when the learner completes a configured source course that satisfies the target through an alternate relationship.
+* This webhook is not triggered for direct course completions.
+* When retroactive completion or retroactive incompletion is enabled, webhook events are emitted for each affected learner and target course.
+
+### Webhook payload details
+
+The alternate completion webhook payload includes the following key attributes:
+
+* **Learner ID**
+  Identifies the learner who received the alternate completion.
+* **Source course**
+  The course or learning path that the learner completed directly.
+* **Target course**
+  The course that is marked as completed via the alternate relationship.
+* **Completion method**
+  Indicates that the completion method is alternate.
+* **Completion date**
+  Derived from the completion date of the source course.
+* **Relationship type**
+  Specifies whether the relationship is alternate.
+
+For retroactive incompletion scenarios, webhook events indicate that an existing alternate completion has been revoked.
+
+### Integration considerations
+
+External systems can use these webhook events to:
+
+* Update learner records
+* Synchronize completion status
+* Trigger notifications or downstream workflows
+* Maintain audit trails for compliance purposes
+
+Webhook consumers should explicitly differentiate between direct and alternate completions.
+
+Alternate completions do not grant skills, badges, gamification rewards, and feedback should be handled accordingly in downstream systems.
+ 

@@ -29,6 +29,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Whitelabeling in Adobe Learning Manager](white-label.md)
    * [Embedded Player interaction API documentation](/help/migrated/embedded-player-interaction.md)
 * Get Started {#get-started}
+   * [Sign in to Adobe Learning Manager with OpenID Connect](/help/migrated/OIDC-login.md)
    * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
    * [Getting started as an Author](authors/feature-summary/getting-started-author.md)
    * [Getting started as a Learner](learners/feature-summary/getting-started-learner.md)

@@ -83,20 +83,19 @@ Alternate completions are surfaced distinctly in the learner app so learners can
 
 ##### Alternate completion status
 
-When a learner completes a training via an alternate relationship, the Learning Object (LO) card displays a distinct status such as Completed via Alternate. This visual distinction helps learners differentiate between direct completions and completions granted through configured relationships.
+When a learner completes a training via an alternate relationship, the Learning Object (LO) card displays a distinct status which is **Completed via Alternate**. This visual distinction helps learners differentiate between direct completions and completions granted through configured relationships.
 
 #### Completion method indicator
 
-The LO card includes a completion method indicator (for example, a label or icon) to show that the completion was achieved through an Alternate. If an alternate completion is later revoked due to changes such as retroactive incompletion or deletion of the source training, the LO card updates to reflect Alternate (Revoked). The  learner will still not be able to target LO as per the current catalog access behavior.
+The LO card includes a completion method indicator (for example, a label or icon) to show that the completion was achieved through an Alternate. If an alternate completion is later revoked due to changes such as retroactive incompletion or deletion of the source training, ALM will undo all the UI additions it did for alternate completion. The  learner will still not be able to target LO as per the current catalog access behavior.
 
 #### Transparency and audit details
 
 Learners can open the LO card to view additional details, including:
 
 * The source course or learning path that granted the alternate completion
-* The completion date associated with the source training
 
-This ensures transparency and supports audit and compliance reviews.
+This ensures transparency.
 
 #### Filtering and views
 
@@ -105,23 +104,18 @@ This ensures transparency and supports audit and compliance reviews.
 The learner app provides a filter that allows learners to distinguish between:
 
 * Completed  
-* Completed via alternate (This filters only alternate completions.)
+* Completed via alternate (This filters learning objects that only have alternate completions. If a learning object has alternate as well as direct completion then it won't be included.)
 * When you select **Completed** and **Completed via alternate**, you'll be able to see all completions
 
 This enables learners to quickly understand how their learning requirements were fulfilled.
 
 ##### Transcript and progress views
 
-The completion method filter is available in learner-facing views such as:
+The completion method filter is available in learner-facing views. For example:
 
-* Learner transcripts
 * Progress and completion tracking sections
 
 These views clearly indicate which trainings were completed directly and which were satisfied through alternates.
-
-##### Reporting alignment
-
-The filtering logic in the learner app aligns with the **Completion Method** column used in reports. This ensures consistency between what learners see in the UI and what administrators see in exports and compliance reports.
 
 <!--## Configure equivalent courses (complete each other)
 
@@ -222,18 +216,16 @@ ALM:
 1. Navigate to **My Learning** or **Completed Courses** in the learner app.
 2. Review LO cards to identify trainings marked as **Completed via Alternate**.
 3. Open  an LO card to view details (in the Overview page) about the source training.
-4. Use the filter menu in transcript or course list views to select **Direct**, **Alternate**, or **All**.
+4. Use the filter to select **Direct**, **Alternate**, or **All**.
 5. Review the updated list based on the selected completion method.
 
 **For administrators and authors**
-1. Configure alternate relationships between courses or learning paths in the admin interface.
-2. Verify that alternate completions are correctly reflected on LO cards and in learner-facing filters.
-3. Use learner views and reports to confirm consistency between UI and exported data.
-4. If a source training is retired or deleted, validate that affected LO cards update accordingly (for example, showing **Alternate (Revoked)** when applicable).
+
+* Configure alternate relationships between courses or learning paths in the admin interface.
 
 ## Retroactive completion and incompletion behavior
 
-ALM supports retroactive completion and retroactive incompletion to ensure that alternate relationships remain accurate over time, even when relationships are created, modified, or removed after learners have already completed training.
+ALM supports retroactive completion and retroactive incompletion to ensure that alternate relationships remain accurate over time, even when relationships are modified or removed after learners have already completed training.
 
 ### Retroactive completion
 
@@ -248,6 +240,10 @@ When retroactive completion is enabled, learners who completed a source course i
 3. The system scans historical completion records for the source training.
 4. Eligible learners are granted alternate completion for the target training.
 5. These records appear as **Completed via Alternate** in learner transcripts and reports.
+
+>[!NOTE]
+>
+>When retroactive completion is enabled, it applies only to relationships that are created afterwards. It does not apply to relationships that had already existed before the retroactive setting was enabled.
 
 ### Retroactive incompletion
 
@@ -268,13 +264,14 @@ This ensures the system reflects the current and valid training relationships.
 
 Alternate completions—including those granted retroactively—are treated as valid completions when evaluating prerequisites. If a learner has **Completed via Alternate**, they are allowed to proceed with courses that require the target training.
 
-If an alternate completion is later revoked through retroactive incompletion, the learner may lose eligibility for courses that depend on that prerequisite.
+If an alternate completion is later revoked through retroactive incompletion, the learner may lose eligibility for courses that depend on that prerequisite. If learner did not start the dependent/subsequent LO, the eligibility administered by source LO will be reverted. If learner already started or completed dependent/subsequent LO then there will be no impact
+
 
 #### Impact on learning paths and certifications
 
-Alternate  completions contribute toward completion of learning paths and certifications. Learners can advance or complete these programs when required trainings are satisfied via alternate relationships.
+Alternate  completions contribute toward completion of learning paths and perpetual certifications. Learners can advance or complete these programs when required trainings are satisfied via alternate relationships.
 
-If an alternate completion is revoked, affected learning paths or certifications may lose progress or completion status until the requirement is met through a valid completion.
+If an alternate completion is revoked, affected learning paths or certifications may lose progress until the requirement is met through a valid completion.
 
 ### End-to-end workflow
 
@@ -288,11 +285,7 @@ If an alternate completion is revoked, affected learning paths or certifications
 * **For retroactive completion**:
 The system grants alternate completions based on historical source completions.
 * **For retroactive incompletion**:
-The system revokes alternate completions when relationships are removed or source trainings are deleted.
-* Alternate completions may be revoked retroactively when:
-   * Relationships are removed
-   * Source trainings are deleted
-   * New LOs are added to Adaptive Learning Paths and retriggered 
+The system revokes alternate completions when relationships are removed or source trainings are deleted. 
 
 #### Learner experience
 
@@ -377,7 +370,7 @@ Webhook consumers should explicitly differentiate between **direct** and **al
 
 Alternate completions do not grant skills, badges, gamification rewards, and feedback should be handled accordingly in downstream systems.
 
-## Migration for alternates 
+## Migration for alternates and equivalents 
 
 ### Introduction
 
@@ -395,9 +388,9 @@ These CSVs already exist in the platform and provide the primary learning object
 
 These files continue to be used as-is and are not changed by the new equivalence feature, but they form the underlying data upon which equivalents will operate.
 
-### New CSV files for equivalence
+### New CSV files for alternates
 
-Two new CSVs are introduced to support LO equivalence relationships and related user completions.
+Two new CSVs are introduced to support LO alternate relationships and related user completions.
 
 #### 1. equivalence_relationships.csv
 

@@ -14,6 +14,11 @@ title: What's new in Adobe Learning Manager April 2026 release
 
 **Reporting and analytics:** SCORM content can now report multiple quiz attempts in L2 reporting. Learning time spent calculation is improved in Learner Transcripts. Learning Transcript reports for Administrators are updated. Advanced search enhancements are available.
 
+**Log-in method:** Learn how OpenID Connect sign-in works in Adobe Learning Manager for learners, authors, and administrators. OpenID Connect (OIDC) is a common sign-in method built on web standards. Many organizations use
+an identity provider (for example, Okta, Google Workspace, or Microsoft Entra ID) for employees and partners.
+
+View [log in with OIDC](/help/migrated/OIDC-login.md) for more information.
+
 ## Auto-purge of deleted users
 
 The Auto-purge of deleted users is a feature that purges data for users who have already been deleted in ALM. Purging happens after a configurable retention period, focusing on bulk operations so large customer accounts can be handled efficiently without hurting performance.
