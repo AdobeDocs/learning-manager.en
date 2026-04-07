@@ -136,7 +136,7 @@ View [Design custom certificates](/help/migrated/administrators/feature-summary/
 
 The non-logged-in experience in Experience Builder allows organizations to display their learning content and portal pages to all visitors, including those who have not signed in. This feature is designed to attract, inform, and engage prospective learners by offering a smooth and branded preview of your training offerings before requiring them to log in or enroll.
 
-View [Non-logged in experience in Experience Builder](/help/migrated/administrators/feature-summary/non-logged-in-experience-learners.md)
+View [Non-logged in experience in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
 
 ## Advanced search enhancements
 
