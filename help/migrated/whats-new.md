@@ -17,7 +17,7 @@ title: What's new in Adobe Learning Manager April 2026 release
 **Log-in method:** Learn how OpenID Connect sign-in works in Adobe Learning Manager for learners, authors, and administrators. OpenID Connect (OIDC) is a common sign-in method built on web standards. Many organizations use
 an identity provider (for example, Okta, Google Workspace, or Microsoft Entra ID) for employees and partners.
 
-View [log in with OIDC](/help/migrated/OIDC-login.md) for more information.
+View [log in with OIDC](/help/migrated/oidc-login.md) for more information.
 
 ## Auto-purge of deleted users
 
