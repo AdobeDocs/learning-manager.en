@@ -133,9 +133,9 @@ View [Equivalents and alternates](/help/migrated/administrators/feature-summary/
 
 Instructors can generate QR codes themselves for:
 
-- Course instance enrollment,
-- Session attendance, or
-- Enrollment + attendance together
+* Course instance enrollment,
+* Session attendance, or
+* Enrollment + attendance together
 
 at the session level. It's designed for situations where learners enter a physical or hybrid classroom and require a quick, self-service option to enroll and record their attendance using a QR code.
 
@@ -174,4 +174,4 @@ Check out the [release notes](/help/migrated/release-note/release-notes.md) for 
 
 ## Previous releases of Adobe Learning Manager
 
-- [Adobe Learning Manager May 2025 release](/help/migrated/whats-new-may-2025.md)
+* [Adobe Learning Manager May 2025 release](/help/migrated/whats-new-may-2025.md)
