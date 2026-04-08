@@ -104,7 +104,7 @@ This ensures transparency.
 The learner app provides a filter that allows learners to distinguish between:
 
 * Completed  
-* Completed via alternate (This filters learning objects that only have alternate completions. If a learning object has alternate as well as direct completion then it won't be included.)
+* Completed via alternate (This filters LOs that only have alternate completions. If a LO has alternate as well as direct completion then it won't be included.)
 * When you select **Completed** and **Completed via alternate**, you'll be able to see all completions
 
 This enables learners to quickly understand how their learning requirements were fulfilled.
@@ -264,8 +264,7 @@ This ensures the system reflects the current and valid training relationships.
 
 Alternate completions—including those granted retroactively—are treated as valid completions when evaluating prerequisites. If a learner has **Completed via Alternate**, they are allowed to proceed with courses that require the target training.
 
-If an alternate completion is later revoked through retroactive incompletion, the learner may lose eligibility for courses that depend on that prerequisite. If learner did not start the dependent/subsequent LO, the eligibility administered by source LO will be reverted. If learner already started or completed dependent/subsequent LO then there will be no impact
-
+If an alternate completion is later revoked through retroactive incompletion, the learner may lose eligibility for courses that depend on that prerequisite. If learner did not start the dependent/subsequent LO, the eligibility administered by source LO will be reverted. If learner already started or completed dependent/subsequent LO then there will be no impact.
 
 #### Impact on learning paths and certifications
 
@@ -317,163 +316,7 @@ When a target is removed from the source (or the source itself is deleted), the�
 
 Even when   **Alternates** are disabled, historical entries in the **Content Audit** or **Enrollment** rows may still display activity related to alternates.
 
-The completion date may precede the enrollment date when a Learning Object (LO) is completed via an alternate path **before** the learner actually enrolls. Since alternate completions can occur regardless of learner status (**Enrolled**, **Not Enrolled**, or **In Progress**), learners may complete the LO first and only enroll in the target course later.
-
-## Webhooks for alternates
-
-ALM provides dedicated webhook events for alternate completions to support automation, integrations, and synchronization with external systems.
-
-These events allow external consumers to reliably distinguish between direct completions and completions granted through alternate relationships.
-
-### Introduction
-
-When a learner completes a course via an alternate relationship, ALM triggers a webhook event that is separate from the standard course completion webhook. This ensures that integrations can respond differently to alternate completions where required.
-
-Webhook events are also triggered when retroactive completion or retroactive incompletion occurs, covering historical updates as well as relationship changes.
-
-### Webhook event behavior
-
-* A distinct webhook event is triggered when a learner receives **Completed via Alternate** status for a target course.
-* The event is generated when the learner completes a configured source course that satisfies the target through an equivalent or alternate relationship.
-* This webhook is not triggered for direct course completions.
-* When retroactive completion or retroactive incompletion is enabled, webhook events are emitted for each affected learner and target course.
-
-### Webhook payload details
-
-The alternate completion webhook payload includes the following key attributes:
-
-* **Learner ID**  
-Identifies the learner who received the alternate completion.
-* **Source course**  
-The course or learning path that the learner completed directly.
-* **Target course**  
-The course that is marked as completed via the alternate relationship.
-* **Completion method**  
-Indicates that the completion method is **alternate**.
-* **Completion date**  
-Derived from the completion date of the source course.
-* **Relationship type**  
-Specifies whether the relationship is **alternate**.
-
-For retroactive incompletion scenarios, webhook events indicate that an existing alternate completion has been revoked.
-
-### Integration considerations
-
-External systems can use these webhook events to:
-
-* Update learner records
-* Synchronize completion status
-* Trigger notifications or downstream workflows
-* Maintain audit trails for compliance purposes
-
-Webhook consumers should explicitly differentiate between **direct** and **alternate** completions.
-
-Alternate completions do not grant skills, badges, gamification rewards, and feedback should be handled accordingly in downstream systems.
-
-## Migration for alternates and equivalents 
-
-### Introduction
-
-This topic outlines the CSV-based data model and migration behavior for introducing learning object (LO) equivalence in the system.
-
-### Existing CSV Files (Context)
-
-These CSVs already exist in the platform and provide the primary learning object, module, and completion context (non-exhaustive list):
-
-* user_course_grade.csv
-* moduleversion
-* module.csv
-* course.csv
-* course_module.csv
-
-These files continue to be used as-is and are not changed by the new equivalence feature, but they form the underlying data upon which equivalents will operate.
-
-### New CSV files for alternates
-
-Two new CSVs are introduced to support LO alternate relationships and related user completions.
-
-#### 1. equivalence_relationships.csv
-
-Defines equivalence mappings between source and target learning objects (LOs), which can be either courses or learning paths (LPs).
-
-**Schema:**
-* sourceId
-* sourceloType (course / LP)
-* targetId
-* targetLotype (course / LP)
-* dateCreated
-* relationshipStatus (ACTIVE / DELETE)
-* dateModified
-
-**Purpose:**
-* Represents an equivalence relationship between two LOs.
-* relationshipStatus controls whether the relationship is currently active or deleted.
-* dateCreated and dateModified support auditing.
-
-#### 2. equivalence_user_completion.csv
-
-Captures user-level completion information for equivalent LOs, aligned with the relationships defined in equivalence_relationships.csv.
-
-**Schema:**
-* userId
-* sourceId
-* sourceloType (course / LP)
-* targetId
-* targetLotype (course / LP)
-* dateCompleted
-
-**Purpose:**
-Explicitly records which **target LO completions** should be inferred for a user based on the equivalence relationship and existing source LO completion.
-Serves as the **authoritative source** for user completions tied to migrated equivalence data.
-
-### Migration rules and behavioral semantics
-
-#### No Retrofit Support for New Equivalence CSVs
-
-* All equivalence-related data must be brought in via migration.
-* The system will not support scenarios where:
-   * LO data (courses/LPs) was created via UI, and
-   * Equivalence relationships are later imported only via CSV.
-
-This means:
-* The supported pattern is: LO definitions and their equivalence relationships are managed as part of a coherent migration flow.
-* Hybrid flows where UI-created LOs are retrofitted with CSV-only equivalence are unsupported.
-
-#### No Retroactive completions/incompletions from migrated relationships
-
-When an equivalence relationship is introduced via migration (i.e., via equivalence_relationships.csv):
-
-* The system will not perform retroactive completion or incompletion calculations based solely on that relationship.
-* Instead, all required user completion data must be explicitly provided via equivalence_user_completion.csv.
-
-**Implication:**
-* equivalence_user_completion.csv is the single source of truth for any completions that should be recognized at migration time as a result of equivalence.
-* The platform will not attempt to infer or backfill those completions from existing course progress.
-
-#### Behavior for new completions after migration
-
-If:
-* An equivalence relationship was created via migration, and
-* A learner later completes the source LO (post-migration),
-
-then:
-* The system will trigger alternate completions for the target LO, i.e., the equivalence behaves normally going forward for new source completions.
-
-**Key distinction:**
-* At migration time: completions must come via equivalence_user_completion.csv.
-* After migration: native runtime logic will handle alternate completions when a source LO is newly completed.
-
-#### Impact on higher-order learning objects
-
-Alternate completions coming in via CSV (i.e., via equivalence_user_completion.csv) will trigger recomputation of higher-order LOs.
-
-Higher-order LOs may include:
-
-* Learning paths
-
-**Technical implication:**
-* Ingesting equivalence_user_completion.csv is not a "silent" operation: it initiates the same recomputation/roll-up logic that would be triggered by normal runtime completions.
-* Systems integrating or scheduling this migration must plan for the load and timing of recomputations
+The completion date may precede the enrollment date when a LO is completed via an alternate path **before** the learner actually enrolls. Since alternate completions can occur regardless of learner status (**Enrolled**, **Not Enrolled**, or **In Progress**), learners may complete the LO first and only enroll in the target course later.
 
 ## Impact of retiring and deleting source training in alternates
 
@@ -500,10 +343,10 @@ Deleting a course removes it entirely from the system, including its completion 
 
 #### Impact
 
-* If a source training is deleted or targets are revoked (or via ALP retrigger), the status may change to **Alternate (Revoked)**. Retiring an LO does not trigger this status.
+* If a source training is deleted, the status may change to **Alternate (Revoked)**. Retiring an LO does not trigger this status.
 * If retroactive incompletion is enabled, all alternate completions granted through the deleted source course are revoked.
 * Learner transcripts and reports update to show **Alternate (Revoked)** for audit and compliance visibility.
-* Learners may lose progress or completion status in learning paths, certifications, or prerequisites that depended on the revoked alternate completion.
+* Completion of learning paths and availability of certificates are not affected.
 * No further alternate completions can be granted from the deleted course.
 
 #### Workflow
@@ -566,13 +409,13 @@ Reports and learner transcripts display alternate completions only for direct re
 
 ## Catalog sharing with peer accounts: relationships not shared
 
-Catalog sharing allows learning objects (LOs) to be shared across peer accounts, but alternate and equivalent relationships are managed independently within each account and are not shared.
+Catalog sharing allows LOs to be shared across peer accounts, but alternate and equivalent relationships are managed independently within each account and are not shared.
 
 ### Concept: catalog sharing and relationships
 
 #### Catalog sharing
 
-Accounts can share catalogs with peer accounts to provide access to courses, learning paths, and other learning objects across accounts.
+Accounts can share catalogs with peer accounts to provide access to courses, learning paths, and other LOs across accounts.
 
 #### Relationships not shared
 
@@ -582,11 +425,11 @@ Alternate, equivalent, and alternate-completion relationships configured in the 
 
 #### Catalog sharing
 
-An administrator in **Account A** shares a catalog containing learning objects with **Account B**.
+An administrator in **Account A** shares a catalog containing LOs with **Account B**.
 
 #### Relationship configuration
 
-Account A may have alternate relationships defined among the learning objects in the shared catalog.
+Account A may have alternate relationships defined among the LOs in the shared catalog.
 
 #### Peer account access
 
@@ -604,7 +447,7 @@ Alternate relationships are not automatically available in peer accounts through
 
 ##### Manual setup required
 
-Each peer account is responsible for defining and managing its own relationships for shared learning objects.
+Each peer account is responsible for defining and managing its own relationships for shared LOs.
 
 ##### Consistency considerations
 
@@ -621,13 +464,13 @@ Once an alternate completion exists for a target training, ALM uses it in downst
 The system distinguishes between actual completion and alternate completion so that:
 
 * If the learner later takes the target training directly and completes it, this direct completion can override the need for the alternate completion.
-* If the relationship between source and target is removed or changed, ALM can remove or adjust the alternate completions without touching genuine completions, provided retroactive incompletions are enabled for the account.
+* If the relationship between source and target is removed or changed, ALM can remove the alternate completions without touching genuine completions, provided retroactive incompletions are enabled for the account.
 
 Alternate completions are designed not to interfere with actual learner activity on the target training. They act as an overlay that can be revised if the relationships change.
 
 ## Emails and notifications 
 
-As soon as a learner finishes a course, the learner will get an in-app notification and an email showing the status of the course and how it was finished—whether it was completed via an alternate course or an equivalent course.
+As soon as a learner finishes a course, the learner will get an in-app notification and an email showing the status of the course and how it was finished—whether it was completed via an alternate course.
 
 >[!NOTE]
 >
@@ -636,10 +479,6 @@ As soon as a learner finishes a course, the learner will get an in-app notificat
 ## Add an alternate course
 
 As an admin, you can add an alternate courses and paths so that learners have multiple choices to complete their courses and paths.
-
->[!NOTE]
->
->Remember, many of the items in the left navigation panel can be customized. So, you might see a different name for the same item. For example, Courses may be renamed as Trainings (as you see in the below image).
 
 1. Navigate  to **Learning** section > **Courses**. A list of available courses will appear.
 ![](assets/ALM-courses-main.png)
@@ -664,11 +503,12 @@ As an admin, you can add an alternate courses and paths so that learners have mu
 
 7. Select **Save**. The alternate courses are now saved.
 
-The progress bar on each of the two courses will now show 100% (completed) if one of the courses is completed. You'll also receive an in-app notification and an email notification about the completion via an alternate.
+The progress is not affected by alternate completion. When a course or learning path is completed via an alternate completion, the learner can still access and consume it directly to reinforce learning and obtain downstream benefits (for example, gamification points). In such cases, the progress status reflects the learner's actual progress from direct consumption, independent of the alternate completion state. You'll also receive an in-app notification and an email notification about the completion via an alternate.
 
 There are multiple benefits of this completion, which are listed below:
-*    This counts as completion as part of the learning path where this is present.
-*    This also opens up any other linked courses/paths.
+
+* This counts as completion as part of the learning path where this is present.
+* This also opens up any other linked courses/paths.
 
 ## Settings for power users
 
