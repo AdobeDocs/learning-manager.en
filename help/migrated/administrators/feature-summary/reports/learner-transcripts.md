@@ -324,9 +324,3 @@ This ensures that scoped custom administrators view only the learner's data and 
 The Learner Transcript report can be accessed through administrator User Interface, [FTP, Box, Job API, or Power BI](/help/migrated/integration-admin/feature-summary/connectors.md). It is not included in the unified reports from Salesforce, Power BI, and Marketo Engage. 
 
 Unified reports downloaded from Salesforce, Marketo Engage, and Power BI contain fewer columns than Learner Transcripts.
-
-
-
-
-
-
