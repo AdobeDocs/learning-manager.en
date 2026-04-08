@@ -459,7 +459,7 @@ Once you log in to the FTP and Box servers and upload the content, the CSV locat
 
 *CSV locations in Box account*
 
-## Migration for alternates and equivalents
+## Migration for Alternates and Equivalents
 
 ### Overview
 
