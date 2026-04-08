@@ -20,6 +20,7 @@ Real-time APIs allow applications to instantly exchange data when an event happe
 ## Webhook events
 
 Webhook events are specific actions happening in a system that automatically sends data to a listener URL. For example, when a learner enrolls in a course, a webhook event is triggered and sends the enrollment details to the listener URL.
+
 Webhook events are classified into two categories:
 
 * **Real-time events**: Events are processed and sent in real-time to a target URL
@@ -117,7 +118,7 @@ Follow these steps to retire the webhooks:
  ![](assets/retire-webhook.png)
 _Retire the webhook_
 
-## Webhooks for alternates {#webhooks-for-alternates}
+## Webhooks for Alternates {#webhooks-for-alternates}
 
 ALM provides dedicated webhook events for alternate completions to support automation, integrations, and synchronization with external systems.
 
