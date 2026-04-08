@@ -574,6 +574,12 @@ Higher-order LOs may include:
 * Ingesting equivalence_user_completion.csv is not a "silent" operation: it initiates the same recomputation/roll-up logic that would be triggered by normal runtime completions.
 * Systems integrating or scheduling this migration must plan for the load and timing of recomputations.
 
+## Webhooks for Alternates
+
+When a learner completes a course through an alternate enrollment or via a relationship, Adobe Learning Manager generates a dedicated webhook event that is distinct from the standard course completion webhook, allowing integrations to apply different handling logic for alternate completions. Webhook events are also generated for retroactive completion and retroactive incompletion, covering historical changes to course status, including those driven by updates to relationships, so that external systems remain synchronized with the learner's current completion state.
+
+For information on webhooks for Alternates, view [Webhooks for Alternates](/help/migrated/integration-admin/feature-summary/webhooks.md#webhooks-for-alternates)
+
 ## Data and content migration procedure {#dataandcontentmigrationprocedure}
 
 The procedure to migrate your enterprise LMS data and content to Learning Manager is explained as follows: 
@@ -776,3 +782,9 @@ For more information on this topic, refer to the following Help content:
 
 * [FAQ on uploading CSVs](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [Feature Help on adding users](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
+
+## API changes
+
+The April 2026 release of Adobe Learning Manager delivers targeted enhancements to the Public API in the areas of alternates and equivalents, time‑windowed content access, content‑driven quiz attempts, non‑logged‑in learner experiences, and Job Aid management. These updates are designed to remain largely backward‑compatible while enabling more precise and extensible integration patterns.
+
+For API changes, view [API changes](/help/migrated/api-changes-alm.md).

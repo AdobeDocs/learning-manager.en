@@ -117,7 +117,7 @@ Follow these steps to retire the webhooks:
  ![](assets/retire-webhook.png)
 _Retire the webhook_
 
-## Webhooks for alternates
+## Webhooks for alternates {#webhooks-for-alternates}
 
 ALM provides dedicated webhook events for alternate completions to support automation, integrations, and synchronization with external systems.
 
