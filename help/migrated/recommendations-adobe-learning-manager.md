@@ -58,8 +58,10 @@ Admins are provided a guided workflow in Learning Manager to optimally set up th
 
 1. Click **[!UICONTROL Proceed]** to upgrade to the new recommendation system.
 
-   <!--![Proceed to the new system](assets/image521152.png)
-   *Select the Proceed button*-->
+   <!--
+   ![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*
+   -->
 
 1. Create the recommendation parameters for Products and Roles.
 

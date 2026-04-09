@@ -429,9 +429,11 @@ Planning your migration project is very important. It is recommended that you br
 
 <!--**Create FTP account**-->
 
-<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
+<!--
+Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-A sample snapshot of project files and folder of FTP is shown below for your reference. -->
+A sample snapshot of project files and folder of FTP is shown below for your reference. 
+-->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 

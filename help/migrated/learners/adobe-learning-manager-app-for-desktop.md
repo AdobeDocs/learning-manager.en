@@ -85,8 +85,10 @@ To take a screenshot, do the following:
 1. Click the screenshot icon from Learning Manager desktop application home page.
 1. To capture only part of the screen, click the snip partial screen icon. To capture the entire screen, click the capture full screen icon.
 
-   <!--![](assets/capture-screenshot.png)
-   *Capture a screenshot*-->
+   <!--
+   ![](assets/capture-screenshot.png)
+   *Capture a screenshot*
+   -->
 
 1. To help other learners comprehend and retain the presentation or static  content better, add annotations to the content.  
 1. To edit  the screenshot, [click here](adobe-learning-manager-app-for-desktop.md#Editing), and to publish a screenshot [click here](adobe-learning-manager-app-for-desktop.md#Publishing).

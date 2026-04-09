@@ -68,7 +68,8 @@ You can access the Learning Manager app off-line in iPad and Android tablets. Do
 
 1. When you are online, a prompt appears in a bar at the top of the app to check if you want to synchronize your content online. Tap the red-colored bar if your answer is yes. A green colored bar indicates your content is in sync with the online app.
 
-<!--### Track device storage
+<!--
+### Track device storage
 
 You can monitor your device storage periodically.
 
@@ -80,4 +81,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/device-storage-detailed-e1439211162955.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.
+-->

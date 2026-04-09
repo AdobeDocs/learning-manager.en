@@ -130,4 +130,5 @@ To configure Adobe Learning Manager SSO, perform the steps mentioned in the belo
 article not in TOC
 
 [SSO Authentication](/help/migrated/kb/sso-authentication-for-learning-manager.md)
+
 -->
