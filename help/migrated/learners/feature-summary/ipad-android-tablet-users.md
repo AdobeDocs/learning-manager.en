@@ -40,6 +40,7 @@ Learning Manager prompts the learner to provide feedback about their experience 
 <!--
 | ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
+
 -->
 
 For existing users, they should see the feedback popup once they close the Player for the first time after updating the app to latest version.
@@ -82,6 +83,7 @@ The mobile web responsive UI support is only available when an account **is conf
   </tr>
  </tbody>
 </table>
+
 -->
 
 ## Download prompt in ALM web
@@ -534,7 +536,8 @@ User can switch back to online mode by clicking **view online content** button o
 
 Learners can now add several courses, learning paths, or certifications to the cart and purchase them together. View [Multi-item cart in ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
-<!--## Track device storage {#trackdevicestorage}
+<!--
+## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 
@@ -546,4 +549,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/app-storage.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.
+-->

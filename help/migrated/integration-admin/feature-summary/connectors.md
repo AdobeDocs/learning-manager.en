@@ -24,6 +24,7 @@ Read on to know how to configure and use each of these connectors in Learning Ma
 >
 >* Learner Transcripts
 >* xAPI
+
 -->
 
 >[!NOTE]
@@ -397,7 +398,8 @@ Once connected, you will see the remote files on the right side and your local f
 >
 >When transferring files, avoid changing important files on the server.
 
-<!--1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
+<!--
+1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
 1. Learning Manager sends you an email prompting the user to reset the password before accessing the FTP for the first time. The user must reset the password and use it for accessing the Learning Manager FTP account.
 
    >[!NOTE]
@@ -414,7 +416,8 @@ Once connected, you will see the remote files on the right side and your local f
    * Export Learner Transcripts - OnDemand
 
    ![](assets/ftp-connector-dashboard.png)
-   *Export options*-->
+   *Export options*
+-->
 
 ### Import {#import}
 
@@ -520,7 +523,8 @@ The import xAPI options allows you to schedule the import of xAPI statements fro
 
 +++
 
-<!--### Export
+<!--
+### Export
 
 +++Skills
 
@@ -564,7 +568,8 @@ To open the Export folder where the exported files are placed in your FTP locati
 
 The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
+The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**
+-->
 
 ### Support for manual csv fields {#support-for-manual-csv-fields}
 
@@ -657,9 +662,11 @@ The getAbstract connector is used by enterprise customers of getAbstract.com, wh
 
 1. If you are configuring the getAbstract connector for the first time, click Connect.
 
-   <!--Configure the Exavault FTP account before you configure this connector.
+   <!--
+Configure the Exavault FTP account before you configure this connector.
 
-   Ensure that you share this FTP credentials with your content provider to access the feeds.-->
+   Ensure that you share this FTP credentials with your content provider to access the feeds.
+   -->
 
 1. Enter a name for your connection in the Connection Name field.
 
@@ -719,9 +726,11 @@ The Harvard ManageMentor connector is used by enterprise customers of Harvard Ma
 
 1. If you are configuring the Harvard ManageMentor connector for the first time, click Connect.
 
-   <!--Configure the Exavault FTP account before you configure this connector.
+   <!--
+Configure the Exavault FTP account before you configure this connector.
 
-   Ensure that you share this FTP credentials with your content provider to access the feeds.-->
+   Ensure that you share this FTP credentials with your content provider to access the feeds.
+   -->
 
 1. In the Connection Name field, enter a name for your connection. Click Connect to save this connection.
 1. If you already have a connection established, from the home page, click Harvard ManageMentor > Manage Connections. Click the connection that you want to edit your existing configuration.
@@ -1029,9 +1038,11 @@ To set up   miniOrange   connector, contact the Learning Manager CSM team.
 
 1. You receive a notification upon completion of import. To view or edit the import log, click **[!UICONTROL Users > Import log.]**
 
-<!-- #### Delete a connection {#deleteaconnection}
+<!--
+ #### Delete a connection {#deleteaconnection}
 
-To delete an established  miniOrange  connection, follow these steps. -->
+To delete an established  miniOrange  connection, follow these steps. 
+-->
 
 ## Zoom connector {#zoom-connector}
 
@@ -1041,14 +1052,18 @@ To set up and use the connector, follow these steps.
 
 1. In Learning Manager  home page , hover the mouse over the Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
 
-   <!-- ![](assets/connectors.png)
+   <!--
+ ![](assets/connectors.png)
 
-   *Zoom connector tile* -->
+   *Zoom connector tile* 
+   -->
 
 1. The Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
 
-   <!-- ![](assets/bluejeans-connecotrpage.png)
-   *Connect to BlueJeans/ Zoom* -->
+   <!--
+ ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* 
+   -->
 
    >[!NOTE]
    >
@@ -1056,9 +1071,11 @@ To set up and use the connector, follow these steps.
 
 1. Once the connection is established, as an Author, create a VC course with Zoom as the conferencing system.
 
-   <!-- ![](assets/vc.jpg)
+   <!--
+ ![](assets/vc.jpg)
    
-   *Create a VC course* -->
+   *Create a VC course* 
+   -->
 
 1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
 1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
@@ -1307,10 +1324,12 @@ The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com 
 1. From the Integration Admin dashboard, click [!UICONTROL LinkedIn Learning]. The Getting Started, Connect, and Manage Connections options are shown.
 1. If you are configuring the LinkedIn Learning connector for the first time, click [!UICONTROL Connect].
 
-   <!--Configure the Exavault FTP account before you configure this connector.
+   <!--
+Configure the Exavault FTP account before you configure this connector.
 
    ![](assets/configure.jpg)
-   *Configure connection*-->
+   *Configure connection*
+   -->
 
 1. From the connection page, specify a name for your connector. Enter the Appkey and the Secret key for your connection.
 
@@ -1552,14 +1571,16 @@ This allows users to download these templates and use it in Power BI application
 
 [**Download the templates**](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
 
-<!--<table> 
+<!--
+<table> 
  <tbody>
   <tr> 
    <td><img src="assets/download.png"></td> 
    <td><p> </p> <p><a disablelinktracking="false" href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a"><strong><em>Download the templates</em></strong></a></p></td> 
   </tr> 
  </tbody>
-</table>-->
+</table>
+-->
 
 You can also download the templates manually via the link above. Use the templates and customize your reports accordingly.
 
@@ -1997,7 +2018,8 @@ Export data from Learning Manager events to a Marketo Engage instance. Select th
 * Self enrollment
 * Skill completion
 
-<!--## BlueJeans Events {#bj-events}
+<!--
+## BlueJeans Events {#bj-events}
 
 BlueJeans Events connector connects Learning Manager and BlueJeans systems to automate data synchronization. Using this connector, you can:
 
@@ -2046,7 +2068,8 @@ The Author, in the Author app, then selects an event from the list of available 
 
 >[!NOTE]
 >
->We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
+>We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.
+-->
 
 ## Microsoft Teams Connector {#microsoft-teams-connector}
 

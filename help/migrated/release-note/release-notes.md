@@ -7,7 +7,8 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 ---
 # Adobe Learning Manager release notes
 
-<!--<table>
+<!--
+<table>
  <tbody>
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
@@ -15,7 +16,8 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
     <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 +++Update 103: Adobe Learning Manager November 2025 release
 
@@ -152,8 +154,10 @@ When an admin clicks **[!UICONTROL Update]**, they can choose from the following
 |Apply update to learners yet to start |Update only not started Learners: Apply content update for only Not started Learners |
 |In-progress learners receive update after completion |Update all Learners eventually: Apply content update for all Learners eventually |
 
-<!--![](assets/version-control-options.png)
-_Content update options_-->
+<!--
+![](assets/version-control-options.png)
+_Content update options_
+-->
 
 Refer to this [article](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course) for more information about content library.
 
@@ -762,6 +766,7 @@ Release date: 15 January, 2022
 
 <!--
 For more information, see What's new in the [**January 2022 release of Adobe Learning Manager**](../whats-new.md).
+
 -->
 
 ### Bugs fixed in this release

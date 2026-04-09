@@ -720,7 +720,7 @@ The summary dialog box appears with the number of users from inclusion set, excl
 
 ### Add comments while enrolling learners {#enroll-comments}
 
-<!---![](assets/enroll-learners-dialog.png)-->
+<!--![](assets/enroll-learners-dialog.png)-->
 
 As an Administrator or a Manager, you can add comments while enrolling learners in a course. You can mention additional information about the cohort of users who are getting enrolled. This data gets exported in course reports.
 

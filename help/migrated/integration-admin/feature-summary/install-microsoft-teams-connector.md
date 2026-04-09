@@ -148,7 +148,8 @@ This enables the connector to access Microsoft Teams online meetings.
 1. Click **[!UICONTROL Manage Product Licenses]**.   
 1. Enable License for Office 365 E5 without audio conferencing.
 
-<!--## Record a session
+<!--
+## Record a session
 
 The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
@@ -158,7 +159,8 @@ In the document,
 
 For learners, the recording URL is displayed on the VC course overview page.
 
-After 30 minutes of completing a course, the attendance for the learner gets marked. -->
+After 30 minutes of completing a course, the attendance for the learner gets marked. 
+-->
 
 ## Frequently Asked Questions 
 

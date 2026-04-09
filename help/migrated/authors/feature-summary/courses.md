@@ -826,8 +826,10 @@ A persistent url is always fixed. But for users who do not have Connect and thei
 
 You can now change the url of the persistent room on the **Course Instance** page.
 
-<!--| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
-|---|---|-->
+<!--
+| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
+|---|---|
+-->
 
 ## Unenroll learners from a course {#unenrolllearnersfromacourse}
 

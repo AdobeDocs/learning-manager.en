@@ -9,7 +9,8 @@ exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
 
 ## API deprecations in the March 2024 release of Adobe Learning Manager
 
-<!-- ### Changes in Rate Limits
+<!--
+ ### Changes in Rate Limits
 
 With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
@@ -45,6 +46,7 @@ The following table lists the rate and burst limits for the APIs.
         <td>5</td>
     </tr>
 </table>
+
 -->
 
 ### Changes to offset limits 
@@ -53,13 +55,15 @@ Due to a high number of records being retrieved by the offset value and slowing 
 
 If you need more records to be fetched, use the **GET Jobs** API.  
 
-<!--### Exclude paths 
+<!--
+### Exclude paths 
 
 At present, Learning Manager APIs follow a graph data structure, which allows you to fetch data by traversing the API model through includes. Even though you could traverse an API up to seven levels, fetching the data using a single API call is computationally expensive. 
 
 We recommend that all existing and new customers make small calls multiple times instead of one large call. This approach will prevent unwanted data from being loaded in the call. 
 
-We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.-->
+We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.
+-->
 
 #### What paths are deprecated
 
@@ -91,7 +95,8 @@ The following paths are deprecated:
     * New path: 
         * instance.subLoInstances 
 
-<!--### Instance summary count changes 
+<!--
+### Instance summary count changes 
 
 Currently, in the LO summary endpoint, you fetch the number of all possible instances. For example, for a course, you can view the number of enrollments and waitlists in the response for **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. You can then view the completionCount and enrollmentCount in the response. If the course is a VC or classroom, you can also view its seat limit and waitlist limit. 
 
@@ -101,7 +106,8 @@ In the next release of Adobe Learning Manager, in the LO Instance summary endpoi
 
 >[!NOTE]
 >
->For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.-->
+>For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.
+-->
 
 ### Sort by name 
 

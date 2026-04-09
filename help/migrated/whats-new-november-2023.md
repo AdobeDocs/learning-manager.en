@@ -200,11 +200,13 @@ A Custom Admin can access the following reports according to the defined scope:
     </tbody>
 </table>
 
-<!--| Report | Available | Scope |
+<!--
+| Report | Available | Scope |
 |--- |--- |
 | Content Audit Trail | Yes | Full Catalog |
 | User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |-->
+|Login Access | Yes | Full User |
+-->
 
 ## Enhanced Connect Integration
 

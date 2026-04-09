@@ -171,7 +171,8 @@ Learning Paths bring to you a range of functionalities. Some of them are availab
 
 The **[!UICONTROL Settings]** > **[!UICONTROL General]** page has a new option to enable Learning Paths. If this option is enabled, you can add courses and Learning Programs in a Learning Path. You cannot change the option once it is enabled.
 
-<!-- ## Other Learning Path-related details 
+<!--
+ ## Other Learning Path-related details 
 
 ### Learning Path option is disabled/unchecked in Admin Settings
 
@@ -243,4 +244,5 @@ The **[!UICONTROL Settings]** > **[!UICONTROL General]** page has a new option t
 
 **Reporting**
 
-* Same changes as that of Reporting stated above. -->
+* Same changes as that of Reporting stated above. 
+-->
