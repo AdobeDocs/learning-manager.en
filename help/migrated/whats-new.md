@@ -174,4 +174,5 @@ Check out the [release notes](/help/migrated/release-note/release-notes.md) for 
 
 ## Previous releases of Adobe Learning Manager
 
+* [Adobe Learning Manager October 2025 release](/help/migrated/whats-new-october-2025.md.md)
 * [Adobe Learning Manager May 2025 release](/help/migrated/whats-new-may-2025.md)
