@@ -426,8 +426,7 @@ The following attributes are added:
 | Description  |  New parameter/response | Endpoint |
 |--- |--- |--- |
 |List all cities | filter.cityName=true/false | GET /primeapi/v2/data |
-|Search and filter cities | filter.cityName=city_name<br>Also supports a comma-separated list of cities |
-GET /primeapi/v2/search |
+|Search and filter cities | filter.cityName=city_name<br>Also supports a comma-separated list of cities | GET /primeapi/v2/search |
 | Return room details | include=room | GET /primeapi/v2/users/`<id>`/calendar |
 | Learning Object to filter cities | filter.cityName=city_name <br> Also supports a comma-separated list of cities.|GET /primeapi/v2/learningObjects |
 | Add city panel | The response contains a new attribute, filterPanelSetting=true/false. | GET /primeapi/v2/account |

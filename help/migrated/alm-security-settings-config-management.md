@@ -31,7 +31,7 @@ Adobe Learning Manager's two privileged account types- Custom Administrator and 
 
 * [Custom roles | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
 * [Manage custom roles via CSV | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/configure-role-csv-files)
-* [Application developer manual | Adobe Learning Manager][https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual]
+* [Application developer manual \| Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
 * [Adobe Learning Manager Connectors](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)
 
 +++

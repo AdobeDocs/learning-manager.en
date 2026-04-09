@@ -2114,9 +2114,11 @@ Release date: April 26, 2019
 
 * **Scan QR code to enroll:** QR code capabilities are enhanced. In addition to supporting attendance marking using QR code, now it also supports enrolling to a course, completing a course using QR code.   
   
- To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+  To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. <!-- For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse) -->.
 
-* **Multiple attempts at course:** The Learning Manager app allows the learner to consume courses with multi attempts enabled. For more information on setting up multiple attempts, see  [***Multiple attempts***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts).
+* **Multiple attempts at course:** The Learning Manager app allows the learner to consume courses with multi attempts enabled. <!-- For more information on setting up multiple attempts, see  [***Multiple attempts***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts). -->
+
+<!-- NOTE TO AUTHORS: Above URLs are 404s -->
 
 +++
 
@@ -2658,7 +2660,7 @@ Release date: December 06, 2016.
 
 ### Enhancement {#enhancement}
 
-As part of this update, Learning Manager provides an end point [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) to update users in an application. You can access this API end point in Admin role. Using****this end point you can update the following information of Learning Manager users:
+As part of this update, Learning Manager provides an end point <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> to update users in an application. You can access this API end point in Admin role. Using****this end point you can update the following information of Learning Manager users:
 
 * Name
 * Email

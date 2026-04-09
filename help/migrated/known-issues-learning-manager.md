@@ -1,6 +1,7 @@
 ---
 jcr-language: en_us
 title: Known issues in Learning Manager
+description: The following are a compilation of known issues for each update of Learning Manager. The list is cumulative and contains known issues of previous updates.
 contentowner: saghosh
 preview: true
 ---
