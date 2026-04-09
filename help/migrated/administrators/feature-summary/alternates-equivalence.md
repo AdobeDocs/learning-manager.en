@@ -310,8 +310,6 @@ All retroactive changes are reflected in the Learning Transcript (LT) report. Af
 
 The Enrollment Report leaves the Completion Source field as blank in the case of direct completion while the Learner Transcript shows the email and type for the same.
 
-Also, Enrollment Report and Learner Transcript can show different completion dates for the same alternate completion. This is because of different date rules and is not a data mismatch.
-
 When a target is removed from the source (or the source itself is deleted), the Enrollment Report may not display the same **Alternate or Alternate (Revoked)** status as shown in the Learner Transcript.
 
 Even when   **Alternates** are disabled, historical entries in the **Content Audit** or **Enrollment** rows may still display activity related to alternates.

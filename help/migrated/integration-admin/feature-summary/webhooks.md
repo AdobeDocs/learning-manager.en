@@ -167,5 +167,5 @@ External systems can use these webhook events to:
 
 Webhook consumers should explicitly differentiate between direct and alternate completions.
 
-Alternate completions do not grant skills, badges, gamification rewards, and feedback should be handled accordingly in downstream systems.
+Alternate completions do not grant skills, badges, and gamification rewards. Feedback should be handled accordingly in downstream systems.
  
