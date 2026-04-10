@@ -188,26 +188,25 @@ These events use a **common payload structure** and can be consumed by your webh
 Each webhook request contains the following toplevel structure: 
 
 ```
-{ 
- "accountId": 69735, 
- "events": [ 
- { 
- "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29", 
- "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK", 
- "timestamp": "2026-01-20T05:48:10.000Z", 
- "eventInfo": "1768888090000-197513-137581-0", 
- "data": { 
- "userId": 13446697, 
- "loId": "learningProgram:157165", 
- "loInstanceId": "learningProgram:157165_148769", 
- "loType": "learningProgram", 
- "enrollmentSource": "SELF_ENROLL", 
- "dateEnrolled": "2026-01-20T05:44:05.000Z" 
- } 
- } 
- ] 
-} 
-
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29",
+      "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK",
+      "timestamp": "2026-01-20T05:48:10.000Z",
+      "eventInfo": "1768888090000-197513-137581-0",
+      "data": {
+        "userId": 13446697,
+        "loId": "learningProgram:157165",
+        "loInstanceId": "learningProgram:157165_148769",
+        "loType": "learningProgram",
+        "enrollmentSource": "SELF_ENROLL",
+        "dateEnrolled": "2026-01-20T05:44:05.000Z"
+      }
+    }
+  ]
+}
 ```
 
 The **same structure** is used for both event types; only the eventName and the values inside data (for example, userId, loId, enrollmentSource) differ.
@@ -217,26 +216,25 @@ The **same structure** is used for both event types; only the eventName and the 
 When a learner refreshes the completion status of their own learning path, the webhook sends a LEARNING_PATH_COMPLETION_ROLLBACK event:
 
 ```
-{ 
- "accountId": 69735, 
- "events": [ 
- { 
- "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29", 
- "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK", 
- "timestamp": "2026-01-20T05:48:10.000Z", 
- "eventInfo": "1768888090000-197513-137581-0", 
- "data": { 
- "userId": 13446697, 
- "loId": "learningProgram:157165", 
- "loInstanceId": "learningProgram:157165_148769", 
- "loType": "learningProgram", 
- "enrollmentSource": "SELF_ENROLL", 
- "dateEnrolled": "2026-01-20T05:44:05.000Z" 
- } 
- } 
- ] 
-} 
-
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29",
+      "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK",
+      "timestamp": "2026-01-20T05:48:10.000Z",
+      "eventInfo": "1768888090000-197513-137581-0",
+      "data": {
+        "userId": 13446697,
+        "loId": "learningProgram:157165",
+        "loInstanceId": "learningProgram:157165_148769",
+        "loType": "learningProgram",
+        "enrollmentSource": "SELF_ENROLL",
+        "dateEnrolled": "2026-01-20T05:44:05.000Z"
+      }
+    }
+  ]
+}
 ```
 
 Use this event to **recalculate or reset learner completion data** in your external systems when the learner explicitly requests a refresh.
@@ -246,26 +244,25 @@ Use this event to **recalculate or reset learner completion data** in your exter
 When an administrator performs a completion refresh for one or more learners (for example, correcting historical completions for a group), the webhook emits a LEARNING_PATH_COMPLETION_ROLLBACK_BATCH event: 
 
 ```
-{ 
- "accountId": 69735, 
- "events": [ 
- { 
- "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29", 
- "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK_BATCH", 
- "timestamp": "2026-01-20T05:48:10.000Z", 
- "eventInfo": "1768888090000-197513-137581-0", 
- "data": { 
- "userId": 13446698, 
- "loId": "learningProgram:157166", 
- "loInstanceId": "learningProgram:157166_148770", 
- "loType": "learningProgram", 
- "enrollmentSource": "ADMIN_ENROLL", 
- "dateEnrolled": "2026-01-21T05:44:05.000Z" 
- } 
- } 
- ] 
-} 
-
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29",
+      "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK_BATCH",
+      "timestamp": "2026-01-20T05:48:10.000Z",
+      "eventInfo": "1768888090000-197513-137581-0",
+      "data": {
+        "userId": 13446698,
+        "loId": "learningProgram:157166",
+        "loInstanceId": "learningProgram:157166_148770",
+        "loType": "learningProgram",
+        "enrollmentSource": "ADMIN_ENROLL",
+        "dateEnrolled": "2026-01-21T05:44:05.000Z"
+      }
+    }
+  ]
+}
 ```
 
 In batch operations, your webhook endpoint may receive **multiple event objects in a single request**, one per learner whose completion has been refreshed. Your integration should iterate over the events array and process each event independently.
