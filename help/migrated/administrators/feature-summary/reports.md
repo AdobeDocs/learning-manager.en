@@ -5,7 +5,7 @@ title: Reports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
 ---
-# Reports
+# Reports {#reports}
 
 Learn about the Reports associated with Administrator role in Learning Manager application.
 
