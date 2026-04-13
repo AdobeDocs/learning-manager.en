@@ -2,8 +2,8 @@
 description: Learn more about configuring Advanced settings in Adobe Learning Manager
 jcr-language: en_us
 title: Advanced settings in Adobe Learning Manager
+exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
 ---
-
 # Advanced settings in Adobe Learning Manager
 
 ## Catalog labels
@@ -80,5 +80,3 @@ See the following for more information:
 
 * [Compliance Dashboard](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard)
 * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
-
-

@@ -2,8 +2,8 @@
 description: Learn more about how Integration settings connect Adobe Learning Manager with third-party solutions
 jcr-language: en_us
 title: Integration settings in Adobe Learning Manager
+exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
 ---
-
 # Integration settings in Adobe Learning Manager
 
 ## Login Methods
@@ -78,8 +78,3 @@ See [Connectors in Adobe Learning Manager](/help/migrated/integration-admin/feat
 Peer accounts in Adobe Learning Manager allow you to share purchased seats and view reports across associated accounts. This feature is useful for organizations that need to collaborate or share resources between different accounts.
 
 See [Peer accounts](/help/migrated/administrators/feature-summary/peer-account.md) in Adobe Learning Manager for more information.
-
-
-
-
-

@@ -2,8 +2,8 @@
 description: Learn more about how Basic settings help you tailor Adobe Learning Manager to your organization's structure and learner experience
 jcr-language: en_us
 title: Basic settings
+exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 ---
-
 # Basic settings in Adobe Learning Manager 
 
 ## Overview 
@@ -453,11 +453,3 @@ The skills from external content providers are added to the admin-defined skills
 2. Select a content provider from the **[!UICONTROL Select Skills Source]** dropdown. 
 3. Select **[!UICONTROL Save]**.
 Note that once the option is enabled, the action is irreversible. You cannot disable or change to another source later.
-
-
-
-
-
-
-
-

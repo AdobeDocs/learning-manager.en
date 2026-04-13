@@ -2,8 +2,8 @@
 description: Learn about the new features and enhancements, including API and webhooks changes, in the April 2026 release of Adobe Learning Manager
 jcr-language: en_us
 title: What's new in Adobe Learning Manager April 2026 release
+exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 ---
-
 # What's new in Adobe Learning Manager April 2026 release
 
 **For learners:** The Fluidic Player now shows the next module name and a clear Exit button. Player language can be set via LTI for a consistent experience across platforms. The custom parameter name is 'locale' and it accepts the locale code. For example, locale=fr-FR. Captivate content includes a unified table of contents, slide-level completion ticks, and reliable notes exports. Multi-language support is available for Job Aids, checklist questions, and video text tracks (VTT). The AI Assistant helps learners get answers within the learning experience.

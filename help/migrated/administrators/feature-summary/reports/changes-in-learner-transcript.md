@@ -1,9 +1,9 @@
 ---
 description: Learn about Learner Transcripts
 jcr-language: en_us
-title: Changes to Learner Transcripts 
+title: Changes to Learner Transcripts
+exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
 ---
-
 # Changes to Learner Transcripts in the April release
 
 ## Completion Method column

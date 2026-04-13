@@ -2,8 +2,8 @@
 title: Equivalents and alternates in Adobe Learning Manager
 description: Deliver a frictionless learning experience and eliminate redundant training with Equivalents and Alternates in ALM. This new capability allows admins to configure one-way (alternates) or bidirectional (equivalents) rules, where completing one training automatically grants alternate completion for another
 jcr-language: en-us
+exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
 ---
-
 # Alternates and equivalents
 
 ## Introduction

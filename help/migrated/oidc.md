@@ -2,8 +2,8 @@
 description: Learn about the OIDC log-in method
 jcr-language: en_us
 title: Sign in to Adobe Learning Manager with OpenID Connect
+exl-id: 7f85f359-0f4c-428f-a104-c4ae3071793a
 ---
-
 # Sign in to Adobe Learning Manager with OpenID Connect (OIDC)
 
 Learn how OpenID Connect sign-in works in Adobe Learning Manager for learners, authors, and administrators. This article covers the experience, not implementation.

@@ -2,8 +2,8 @@
 description: Learn about the administrator settings you can configure in Adobe Learning Manager to manage users, control access, brand your learning environment, and tailor the platform to your organization's needs.
 jcr-language: en_us
 title: Settings overview
+exl-id: b52f3f51-e119-42f5-a105-49f74092ffb6
 ---
-
 # Settings
 
 ## Overview
@@ -33,4 +33,3 @@ See settings in Adobe Learning Manager for more information.
 * Configure Compliance and Group Success dashboards.
 
 See settings in Adobe Learning Manager for more information.
-

@@ -2,8 +2,8 @@
 title: Create and customize a certificate
 description: Custom Certificates in Adobe Learning Manager (ALM) let administrators and authors design, manage, and issue personalized certificates for learners.
 jcr-language: en-us
+exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
 ---
-
 # Custom certificates in Adobe Learning Manager
 
 ## Introduction

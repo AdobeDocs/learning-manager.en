@@ -3,6 +3,7 @@ description: Set a time window during which learners are allowed to start a modu
 jcr-language: en_us
 title: Module access time control
 contentowner: mmanuel
+exl-id: b99b1c98-57a0-4201-bf1f-f85bacb0d00e
 ---
 # Module access time control
 
@@ -39,13 +40,3 @@ This enhances the learner experience: instead of facing modules that can technic
 6. Select **Edit**. The relevant sections related to the module open towards the bottom of the page.![alt-text](/help/migrated/administrators/feature-summary/assets/module-access-time4.png)  
 7. For each section, select a from date, a from time, a to date, and a to time.
 8. Select **Save**. ALM displays a message which says, “Mapping saved successfully.”
-
-
-
-
-
-
-
-
-
-

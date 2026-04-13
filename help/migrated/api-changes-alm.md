@@ -1,9 +1,9 @@
 ---
-description: API changes in ALM 
+description: API changes in ALM
 jcr-language: en_us
 title: API changes in April release
+exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
 ---
-
 # API changes in the April 2026 release
 
 The April 2026 release of Adobe Learning Manager introduces focused enhancements to the Public API around alternates and equivalents, time‑windowed access to content, content‑driven quiz attempts, non‑logged‑in experiences, and Job Aid handling. The changes are designed to be largely backward‑compatible while enabling more precise integrations.
