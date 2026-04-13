@@ -270,6 +270,7 @@ In batch operations, your webhook endpoint may receive **multiple event objects 
 ### How to use these events in integrations
  
 You can use these webhook events to: 
+
 **Synchronize completion records** with external LMS/LRS, HR, or reporting systems when a completion is rolled back or recalculated. 
 
 **Trigger downstream workflows** such as reassignments, notifications, or recalculation of certifications and badges. 
@@ -277,6 +278,7 @@ You can use these webhook events to:
 **Maintain audit trails** by logging eventId, timestamp, and eventInfo along with the learner and learning path identifiers. 
 
 At minimum, your webhook handler should: 
+
 Validate the payload and parse events[]. 
 Use eventName to determine whether the change was **learnerinitiated** or **admin/batchinitiated**. 
 
