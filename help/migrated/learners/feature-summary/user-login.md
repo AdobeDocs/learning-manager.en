@@ -34,6 +34,7 @@ Follow these steps to create your account using the URL from the welcome email:
 
    <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
+   
    -->
 
 1. Type your information in the Active fields to complete your profile.

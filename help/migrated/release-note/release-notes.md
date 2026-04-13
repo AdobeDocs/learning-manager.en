@@ -7,7 +7,8 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 ---
 # Adobe Learning Manager release notes
 
-<!--<table>
+<!--
+<table>
  <tbody>
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
@@ -15,7 +16,8 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
     <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 +++Update 105: April 2026 release of Adobe Learning Manager
 
@@ -263,8 +265,10 @@ When an admin clicks **[!UICONTROL Update]**, they can choose from the following
 |Apply update to learners yet to start |Update only not started Learners: Apply content update for only Not started Learners |
 |In-progress learners receive update after completion |Update all Learners eventually: Apply content update for all Learners eventually |
 
-<!--![](assets/version-control-options.png)
-_Content update options_-->
+<!--
+![](assets/version-control-options.png)
+_Content update options_
+-->
 
 Refer to this [article](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course) for more information about content library.
 
@@ -873,6 +877,7 @@ Release date: 15 January, 2022
 
 <!--
 For more information, see What's new in the [**January 2022 release of Adobe Learning Manager**](../whats-new.md).
+
 -->
 
 ### Bugs fixed in this release
@@ -2225,9 +2230,11 @@ Release date: April 26, 2019
 
 * **Scan QR code to enroll:** QR code capabilities are enhanced. In addition to supporting attendance marking using QR code, now it also supports enrolling to a course, completing a course using QR code.   
   
- To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+  To enroll in a course as well as complete the course, you can scan a QR code that your administrator has provided. <!-- For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse) -->.
 
-* **Multiple attempts at course:** The Learning Manager app allows the learner to consume courses with multi attempts enabled. For more information on setting up multiple attempts, see  [***Multiple attempts***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts).
+* **Multiple attempts at course:** The Learning Manager app allows the learner to consume courses with multi attempts enabled. <!-- For more information on setting up multiple attempts, see  [***Multiple attempts***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts). -->
+
+<!-- NOTE TO AUTHORS: Above URLs are 404s -->
 
 +++
 
@@ -2769,7 +2776,7 @@ Release date: December 06, 2016.
 
 ### Enhancement {#enhancement}
 
-As part of this update, Learning Manager provides an end point [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) to update users in an application. You can access this API end point in Admin role. Using****this end point you can update the following information of Learning Manager users:
+As part of this update, Learning Manager provides an end point <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> to update users in an application. You can access this API end point in Admin role. Using****this end point you can update the following information of Learning Manager users:
 
 * Name
 * Email

@@ -1331,7 +1331,8 @@ When working with Adobe Learning Manager (Adobe Learning Manager) APIs, develope
 
 
 
-<!--# Application developer manual
+<!--
+# Application developer manual
 
 >[!NOTE]
 >

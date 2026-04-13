@@ -1,11 +1,11 @@
 ---
+description: Classify users as internal and external. Internal users are those users that belong to a specific organization or a group.
 jcr-language: en_us
 title: Set up users in Learning Manager
 contentowner: shhivkum
 preview: true
+exl-id: 9cf893a5-9282-40fa-a12a-1d7078f0b98a
 ---
-
-
 # Set up users in Learning Manager
 
 ## Internal and external users {#internalandexternalusers}
@@ -196,4 +196,3 @@ You can also create custom groups with a selected list of users in Learning Mana
 1. Add users to the custom user group by entering the user name or the profile of the user in the **[!UICONTROL **Add Users** field.]**
 1. To add more users to the custom group, click **[!UICONTROL **Add More Users**.]**
 1. After adding all the users, click **[!UICONTROL Save]**to save the custom user group.
-

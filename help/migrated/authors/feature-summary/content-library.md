@@ -736,5 +736,5 @@ In Adobe Learning Manager, the content library also maintains versions of your u
 +++How to edit the details of a course in a different language?
 After adding a language/languages, as described in an earlier section, click each language tab, and then add/edit the course information. 
 
-<!--![](assets/edit-course-language.png)--->
+<!--![](assets/edit-course-language.png)-->
 +++

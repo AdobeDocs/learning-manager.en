@@ -5,7 +5,7 @@ title: Reports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
 ---
-# Reports
+# Reports {#reports}
 
 Learn about the Reports associated with Administrator role in Learning Manager application.
 
@@ -586,7 +586,7 @@ In the **Modification type** column, you will get the following details:
 | Create | Course created |
 | Certification Add | Certification added to Catalog |
 | Certification Remove | Certification removed from Catalog |
-| Content Add | Content added to Module | 
+| Content Add | Content added to Module |
 | Course Add | Course added to Learning Path |
 | Course Remove | Course removed from Learning Path |
 | Custom Label Add | Custom Label added to Catalog |

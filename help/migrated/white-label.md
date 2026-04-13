@@ -273,11 +273,13 @@ Re-use the same project that you'd created in the steps above for push notificat
 
 ### iOS
 
-<!--```
+<!--
+```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```-->
+```
+-->
 
 The `<root>` folder contains the **Runner.xcarchive.zip** file. Run the below commands to generate the signed binary:
 

@@ -4,9 +4,8 @@ jcr-language: en_us
 title: Embeddable fluidic player
 contentowner: dvenkate
 preview: true
+exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
 ---
-
-
 # Embeddable fluidic player
 
 Read this article to learn how to embed the fluidic player in a custom application.
@@ -37,7 +36,7 @@ Building a custom application for embedding fluidic player in your website invol
 1. Retrieve Access token.
 1. Use access token to retrieve resources from Learning Manager using public API.
 
-### 1. Create an application in integration admin {#1createanapplicationinintegrationadmin}
+### 1. Create an application in integration admin {#createanapplicationinintegrationadmin}
 
 This step is required to create an application/client id and application/client secret which is used to retrieve refresh token and access token. For more information on creating an application, see  [Application development process.](developer-manual.md#main-pars_header_994876235)
 
@@ -48,7 +47,7 @@ This step is required to create an application/client id and application/client 
 1. If  custom  application needs to be shared across multiple accounts, select **[!UICONTROL No]** in the  option  field  **[!UICONTROL For this account only?]**
 1. To save the application and generate your application id and secret, click **[!UICONTROL Save]**.
 
-### 2. Retrieving access token {#2retrievingaccesstoken}
+### 2. Retrieving access token {#retrievingaccesstoken}
 
 As Learning Manager uses OAUTH2.0.,  access token  is required to retrieve resources using public API. Access token can be fetched using refresh token, client id, or client secret.
 
@@ -106,7 +105,7 @@ iv. expires_in
 v. user_role  
 vi. account_id
 
-### 3. Retrieve resources using public api {#3retrieveresourcesusingpublicapi}
+### 3. Retrieve resources using public api {#retrieveresourcesusingpublicapi}
 
 As the third step, you need to use the access token to retrieve resources from Learning Manager using public  api .  Access token  is required to make any public  api  call and is required to be added in the header as exemplified in the sample application.
 
@@ -177,7 +176,7 @@ This is an effort that needs to be undertaken by someone from your IT team or an
 
    You can get your token by setting up your embeddable fluidic player in your integration admin. You can get your authentication token which you can be used as your access token.
 
-   Example of created URL; https://learningmanager.adobe.com/app/player?lo_id="+lo_id+"&access_token="+accToken
+   Example of created URL; `https://learningmanager.adobe.com/app/player?lo_id="+lo_id+"&access_token="+accToken`
 
    Here, lo_id will be the id of the course, learning Program,  certification  and  jobAid .
 
@@ -229,5 +228,3 @@ Learning Manager V1 API - [https://learningmanager.adobe.com/docs/primeapi/v1/](
  
 
 Learning Manager V2 API -  [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
-
- 

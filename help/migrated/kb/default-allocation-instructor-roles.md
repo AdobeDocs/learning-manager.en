@@ -1,12 +1,11 @@
 ---
 jcr-language: en_us
-title: Default allocation of instructor roles to user groups in Learning Manager 
-description: Default allocation of instructor roles to user groups in Learning Manager 
+title: Default allocation of instructor roles to user groups in Learning Manager
+description: Default allocation of instructor roles to user groups in Learning Manager
 contentowner: nluke
 preview: true
+exl-id: a2ceeae5-7ad6-4910-94b5-9ef455129566
 ---
-
-
 # Default allocation of instructor roles to user groups in Learning Manager 
 
 ## Issue
@@ -55,4 +54,4 @@ Create custom user groups to filter the user roles assigned to a session. To rem
 
 1. Click **[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **[!UICONTROL Remove Instructor]**. 
 
-Ensure that any email triggers that were disabled in step 2 are re-enabled once completed.   
+Ensure that any email triggers that were disabled in step 2 are re-enabled once completed.

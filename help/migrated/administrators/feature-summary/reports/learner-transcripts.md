@@ -2,8 +2,8 @@
 description: The Learner Transcripts in Adobe Learning Manager (ALM) allows administrators to monitor learner progress in courses, modules, learning paths, and certifications. It supports performance evaluations, compliance monitoring, audits, and external reporting. The report offers a complete summary of a learner's engagement and performance.
 jcr-language: en_us
 title: Learner Transcripts in Adobe Learning Manager
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
 ---
-
 # Learner Transcripts in Adobe Learning Manager
 
 ## Overview
@@ -57,20 +57,22 @@ Learner Transcripts in Adobe Learning Manager tracks training, compliance, and s
 5. Select **[!UICONTROL Generate New]**.
 6. Select the date range for which you need the transcript generated. You can modify both start and end dates using the **[!UICONTROL Choose dates]** option in the date range dropdown.
 7. Select the following:
-    a. Select the learners' names from the **[!UICONTROL Select Learners]** section. You can select users or user groups  , or you can copy and paste the email addresses of the learners for whom you want to generate transcripts. See the section [Generate Learner transcript](#generate-learner-transcript-using-copy-paste) using copy-paste for more information. In case no selection is made, it defaults to All values.
-    b.Select specific catalogs from the **[!UICONTROL Select Catalogs]** dropdown list. The transcript is only downloaded for the specified catalogs. In case no selection is made, it defaults to All values.
-    c. Select the **[!UICONTROL Enrollment Status]**. This drop-down contains the following options: 
+    1. Select the learners' names from the **[!UICONTROL Select Learners]** section. You can select users or user groups  , or you can copy and paste the email addresses of the learners for whom you want to generate transcripts. See the section [Generate Learner transcript](#generate-learner-transcript-using-copy-paste) using copy-paste for more information. In case no selection is made, it defaults to All values.
+    1. Select specific catalogs from the **[!UICONTROL Select Catalogs]** dropdown list. The transcript is only downloaded for the specified catalogs. In case no selection is made, it defaults to All values.
+    1. Select the **[!UICONTROL Enrollment Status]**. This drop-down contains the following options: 
 
-       * Select All
-       * Completed
-       * In Progress
-       * Not Started
-       * Unenrolled
+        * Select All
+        * Completed
+        * In Progress
+        * Not Started
+        * Unenrolled
+
 8. Advanced options: Select **[!UICONTROL Advanced options]** to download the transcripts to include the following:
 
-    a. Download transcripts for learners who have been deleted from an account by selecting the checkbox **[!UICONTROL Include deleted Learners]**.
-    b. Download module level information in the Learner transcript by enabling the **[!UICONTROL Enable module level information]** checkbox. In this case, module names and the time spent on each module are fetched as a part of the transcript if this option is enabled.
-    c. Download skills data and summary sheets by enabling the option **[!UICONTROL Include skills data and summary sheets]** checkbox. See the Excel reports section for more information.
+    1. Download transcripts for learners who have been deleted from an account by selecting the checkbox **[!UICONTROL Include deleted Learners]**.
+    1. Download module level information in the Learner transcript by enabling the **[!UICONTROL Enable module level information]** checkbox. In this case, module names and the time spent on each module are fetched as a part of the transcript if this option is enabled.
+    1. Download skills data and summary sheets by enabling the option **[!UICONTROL Include skills data and summary sheets]** checkbox. See the Excel reports section for more information.
+
 9. You can also select the columns to be populated in your report. This provides flexibility to download reports with specific column values as required. Select the columns from the dropdown menu.
 Transcripts are generated and downloaded to your computer as .zip files when the skills data is not included. If the Skills data checkbox is enabled transcripts are generated and downloaded as . xlsx files.  
 
@@ -146,7 +148,7 @@ These refer to courses, modules, Learning Paths, certifications, and so on.
 |Type |The type of Learning Object, the user was enrolled in. For example,<ul><li>Learning Path</li><li>Certification</li><li>Course</li></ul> |
 |Embedded Path |An Embedded Path is a type of learning path that is included as part of another course or a Learning Path. The field indicates that a learner is completing that learning path as part of another Learning Path rather than as a standalone assignment. |
 |Course |Name of course in which the user is enrolled. When it is empty, the row represents either a Certification or Learning Path. <br><b>Note:</b> Although Learning Paths and are composed of individual courses or nested Learning Paths, each component retains its own independent record. This ensures that progress, completion, and reporting data are tracked separately for both the parent and the child elements.</br> |
-|LO Unique ID |This is an optional, administrator-assigned identifier for a Learning Object (course, certification, or learning path) in Adobe Learning Manager. It is primarily used by organizations that maintain their own external system IDs for learning content and wish to map those IDs to ALM Learning Objects for integration or reporting purposes. The LO Unique ID is only present if the account has enabled this feature and the author has assigned an ID during LO creation. Note: The Training ID is always present and uniquely identifies each Learning Object within ALM. The LO Unique ID is for cross-system mapping and is not required for standard ALM operations.| 
+|LO Unique ID |This is an optional, administrator-assigned identifier for a Learning Object (course, certification, or learning path) in Adobe Learning Manager. It is primarily used by organizations that maintain their own external system IDs for learning content and wish to map those IDs to ALM Learning Objects for integration or reporting purposes. The LO Unique ID is only present if the account has enabled this feature and the author has assigned an ID during LO creation. Note: The Training ID is always present and uniquely identifies each Learning Object within ALM. The LO Unique ID is for cross-system mapping and is not required for standard ALM operations.|
 |Instance  |The name of the instance of  the Learning Object user is enrolled in. |
 |Selection Criteria  |This column indicates how the learner was enrolled in the Learning Object (course, certification, or learning path). The value is determined as follows:<ul><li>Admin/Manager Enrollment: Displays direct when a learner is enrolled directly by an administrator or manager. </li><li>Learning Plan Enrollment: Displays auto enrolled when a learner is enrolled via a learning plan or automated enrollment trigger.</li><li>Admin enrolls User Group: Displays the user group name(s) if the learner was enrolled as part of a user group. </li><li>Nested Learning Paths: If Learning Path 1 contains Learning Path 2, which contains Course A:  For LP2 and Course A, the value is parent. For LP1, the value is direct. </li><li>Self-enrollment: Displays self when the learner enrolls themselves. </li></ul>The value in this column reflects the actual enrollment method and LO hierarchy, as detailed above.<ul><li>Learning plan enrolling learner: Value: Auto enrolled The learner is automatically enrolled via a learning plan or automated enrollment trigger. </li><li>Learner self enrolling: Value: Self  The learner directly enrolls themselves in the course, certification, or Learning Path. </li>Admin enrolling learner directly (using learner email/name): Value: Direct. The administrator or manager manually enrolls the learner by specifying their email or name. <li>Enrollment through a user group: Value: User group name The learner is enrolled as part of a user group. If a learner belongs to multiple user groups, the report will display the relevant user group(s) through which the enrollment occurred.  </li><li>Learning Object enrolled due to enrollment in a learning path: Value: Path. The learner is enrolled in a course or module because it is part of a larger learning path they are assigned to.</li></ul>|
 |Module | Name of module inside the courses. Only the modules that have status as Completed or In Progress appear in the report. If the status is Not Started or Unenrolled, the Module column stays empty.<br>Download module-level information in the Learner transcript by selecting the <b>Enable module level information</b> checkbox. In this case, module names and the time spent on each module are fetched as part of the transcript if this option is enabled.</br>|
@@ -256,9 +258,9 @@ Track learners who have upcoming due dates for key Courses, Learning Paths or Ce
 
 |Column |Description|
 |---|---|
-|After |Represents the number of learners who achieved a skill before a defined period (in days), beyond which the skill is considered outdated or requiring refresh. Useful for identifying learners with approaching or expired skill achievements.<br>See <a href=https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels> skill levels</a> for more information.| 
+|After |Represents the number of learners who achieved a skill before a defined period (in days), beyond which the skill is considered outdated or requiring refresh. Useful for identifying learners with approaching or expired skill achievements.<br>See <a href=https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels> skill levels</a> for more information.|
 |Name |Full name of the learner to whom the skill is assigned.|
-|Manager Name |Name of the learner's reporting manager.| 
+|Manager Name |Name of the learner's reporting manager.|
 |Row Labels |The specific skill name assigned to learners appearing in this row. Used as a grouping header to summarize learner skill data under each skill category.|
 |Number of users who should have this skill |Total number of learners who have been assigned the specific skill.|
 |Number of users who have achieved this skill |Number of learners who have successfully completed the required Learning Objects to attain the skill.|
@@ -275,7 +277,7 @@ Track learners who have upcoming due dates for key Courses, Learning Paths or Ce
 |Manager Name |The name of the learner's direct manager.|
 |Row Labels |The learner's full name. For each learner, the skills and progress are displayed in subsequent columns.|
 |Number of Skills Each User Should Have |Total number of skills assigned to the learner.  |
-|Number of Skills Each User Has |Total number of skills the learner has successfully achieved through completion of the associated Learning Object(s).|  
+|Number of Skills Each User Has |Total number of skills the learner has successfully achieved through completion of the associated Learning Object(s).|
 |Number of Skills that need Refreshing |The number of skills achieved that have crossed the refresh duration and now require revalidation. This value helps track training renewal needs for compliance or continuous development.|
 |Percentage of Compliance |Indicates the learner's overall compliance level based on skill achievement.|
 

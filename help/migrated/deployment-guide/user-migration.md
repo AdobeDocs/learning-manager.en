@@ -1,11 +1,11 @@
 ---
+description: Define and set up an identity system against which your end users will be authenticated.
 jcr-language: en_us
 title: Learning Manager Deployment Guide - Section 2
 contentowner: sanm
 preview: true
+exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
 ---
-
-
 # Learning Manager Deployment Guide - Section 2
 
 ## Technical Set up {#technicalsetup}
@@ -105,6 +105,7 @@ After you evaluate your existing data, you must map this data with the standard 
 
 <!--
 <Download link to the zip file>
+
 -->
 
 Ensure that each .csv file contains the data for each field in the prescribed format:
@@ -361,4 +362,3 @@ For useful resources on migration, refer the following:
 
 * Troubleshooting migration issues
 * FAQ on uploading CSVs
-

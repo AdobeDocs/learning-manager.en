@@ -2,8 +2,8 @@
 description: Learn more about creating L1 feedback forms for the learners
 jcr-language: en_us
 title: L1 feedback form
+exl-id: 4e8ed747-898e-43e1-91af-869aa93112bc
 ---
-
 # L1 feedback form
 
 >[!IMPORTANT]
@@ -160,6 +160,3 @@ Follow the same steps to change the default feedback forms for a Learning Path.
 >[!NOTE]
 >
 >If you don't change the form, the course will use the default feedback form.
-
-
-

@@ -2,8 +2,8 @@
 description: Learn more about Experience Builder, a no-code/low-code tool in Adobe Learning Manager that enables administrators to design and publish branded, user-friendly pages without technical expertise.
 jcr-language: en_us
 title: Experience Builder in Adobe Learning Manager
+exl-id: 8d06c2cf-816e-4ad5-85f7-bc26e9d70d51
 ---
-
 # Overview
 
 Experience Builder is a no-code/low-code tool in Adobe Learning Manager that helps you create customized learning portals. It allows you to design branded, user-friendly learning portals without needing technical skills or extensive coding knowledge.

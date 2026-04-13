@@ -3,9 +3,8 @@ description: This document helps you configure SSO authentication to log in to y
 jcr-language: en_us
 title: Log in to Learning Manager using SSO authentication
 contentowner: dvenkate
+exl-id: ef5ab232-0a87-4f76-8dfd-b2497f360cbe
 ---
-
-
 # Log in to Learning Manager using SSO authentication
 
 This document helps you configure SSO authentication to log in to your Learning Manager account.
@@ -32,4 +31,3 @@ To configure SSO authentication, perform the following steps:
    The SSO you configure in Learning Manager should be SAML 2.0 supported.
 
    You can now log in to Learning Manager using your SSO authentication.
-

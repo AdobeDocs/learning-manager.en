@@ -3,9 +3,8 @@ description: Learn on how to integrate Salesforce with Learning Manager using co
 jcr-language: en_us
 title: Learning Manager Connectors
 preview: true
+exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
 ---
-
-
 # Learning Manager Connectors
 
 Learn on how to integrate Salesforce with Learning Manager using connectors, how to integrate FTP with Learning Manager and upload CSV automatically using FTP connector.
@@ -727,4 +726,3 @@ The LinkedInLearning connector can be used by enterprise customers of LinkedIn.c
    When you delete and recreate a connection, the previous runs for the connector come up again. You can view all the runs before you deleted the connection.
 
    You can perform a rerun only for the latest synchronization.
-

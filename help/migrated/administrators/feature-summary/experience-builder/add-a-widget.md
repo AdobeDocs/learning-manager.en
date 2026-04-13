@@ -1,9 +1,9 @@
 ---
 title: Add and Configure Widgets in Experience Builder
-description: Learn how to add, customize, and configure various widgets in Experience Builder within Adobe Learning Manager. This guide covers commonly used widgets such as calendars, categories, compliance status, courses & paths, gamification, HTML content, IFrames, social learning, and more. 
+description: Learn how to add, customize, and configure various widgets in Experience Builder within Adobe Learning Manager. This guide covers commonly used widgets such as calendars, categories, compliance status, courses & paths, gamification, HTML content, IFrames, social learning, and more.
 jcr-language: en-us
+exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
 ---
-
 # Add and configure widgets
 
 ## Calendar widget
@@ -53,6 +53,8 @@ The Categories widget displays learning content organized by Catalogs, Products,
 Administrators add the Categories widget to a page to showcase categorized learning options. Learners use the widget to explore training by selecting a category of interest, which then reveals related courses or paths. 
 
 View [Catalogs](/help/migrated/administrators/feature-summary/catalogs.md) and [Recommendations](/help/migrated/recommendations-adobe-learning-manager.md) articles to learn more about configuring catalogs and recommendations. 
+
+<b>Note</b>: In the Categories widget, when Catalog is selected, the list is sorted by creation date by default. Catalogs created more recently appear first. 
 
 ### Add a category widget
 

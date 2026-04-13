@@ -1,9 +1,9 @@
 ---
 title: Customize Experience Builder
 jcr-language: en_us
-description: Learn how Experience Builder in Adobe Learning Manager enables deep customization of learner experiences. 
+description: Learn how Experience Builder in Adobe Learning Manager enables deep customization of learner experiences.
+exl-id: d8f36868-8e6d-4420-9fab-fadaf2fe31ef
 ---
-
 # Customize Experience Builder
 
 ## Customize a footer
@@ -366,5 +366,3 @@ The following are some predefined CSS classes available for widgets.
 |Content Box |alm-custom-content-box-container|
 |Gamification |alm-leaderboard-container|
 |Social Learning |alm-social-learning-container|
-
-

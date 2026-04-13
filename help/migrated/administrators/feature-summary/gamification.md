@@ -15,9 +15,11 @@ The Adobe Learning Manager includes a feature called Gamification, which is desi
 
 By default, some sample gamification points and data is available for users to understand the pattern. You can modify the points accordingly.
 
-<!--A sample illustration is provided below that shows all the tasks and points.
+<!--
+A sample illustration is provided below that shows all the tasks and points.
 
-![](assets/gamification-feb12-e1439214291423.png)-->
+![](assets/gamification-feb12-e1439214291423.png)
+-->
 
 ## Gamification settings {#gamificationsettings}
 

@@ -2,8 +2,8 @@
 description: Learn how to create and add a Go1 Playlist to a Learning Path in Adobe Learning Manager. This guide covers step-by-step instructions and best practices for Playlist integration.
 jcr-language: en_us
 title: Curate Go1 Playlist to Adobe Learning Manager Learning Path
+exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
 ---
-
 # Curate Go1 courses to a Learning Path
 
 Administrators often need to curate courses from multiple repositories or catalogs, which makes it hard to identify the best options. This is especially challenging with Go1, where thousands of courses are available. To simplify this, we provide an AI-powered curation feature directly within the Learning Path creation flow. This helps admins quickly discover and select the most relevant courses
@@ -229,4 +229,4 @@ Administrators can add Go1 courses in certification programs within Adobe Learni
 
 Certifications that include Go1 courses can be configured as either perpetual or recurring. In the case of recurring certifications, the certificate automatically renews after the defined time interval, allowing learners to retake the Go1 courses and maintain their certification status.
 
-View [Certifications](/help/migrated/administrators/feature-summary/certifications.md) for more information on creating certificates. 
+View [Certifications](/help/migrated/administrators/feature-summary/certifications.md) for more information on creating certificates.

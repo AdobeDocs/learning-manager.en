@@ -71,7 +71,7 @@ Set up the connection on an FTP client (recommended in the section earlier) with
 |---|---|
 | New migration | You cannot start new migrations from the old FTP. You must use the new FTP for the new migrations. For more support on this, contact the Customer Success team. |
 | Migration in progress | Creating a sprint: You can continue using the old FTP, but we recommend using the new FTP. Contact the Customer Success team for any existing sprint that cannot be shifted. |
-| Closed migration | No action. | 
+| Closed migration | No action. |
 
 ## Connect to Adobe Learning Manager using Filezilla FTP client
 

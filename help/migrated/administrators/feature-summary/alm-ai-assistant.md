@@ -14,11 +14,13 @@ It uses Adobe's AI capabilities to enable natural language queries across learni
 
 This assistant reduces reliance on manual navigation, shortens discovery time, and helps surface actionable insights quickly.
 
-<!--## Key benefits
+<!--
+## Key benefits
 
 * Perform common administrator tasks faster with conversational guidance.
 * Get instant answers without browsing through extensive menus.
-* Gain real-time insights and step-by-step guidance for administrative workflows.-->
+* Gain real-time insights and step-by-step guidance for administrative workflows.
+-->
 
 
 >[!IMPORTANT]
