@@ -1,5 +1,5 @@
 ---
-description: Learn about the new features and enhancements in the April 2026 release of Adobe Learning Manager
+description: Learn about the new features and enhancements, including API and wenbooks changes, in the April 2026 release of Adobe Learning Manager
 jcr-language: en_us
 title: What's new in Adobe Learning Manager April 2026 release
 ---
