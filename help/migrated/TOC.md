@@ -138,7 +138,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Install Salesforce package in Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * Deployment guide {#deployment-guide}
       * [Introduction](/help/migrated/deployment-guide/introduction.md)
-      * [Third-party connectors](/help/migrated/deployment-guide/third-party-connectors.md)
       * [User migration](/help/migrated/deployment-guide/user-migration.md)
       * [User setup](/help/migrated/deployment-guide/user-setup.md)
    * [Install Microsoft Teams connector](integration-admin/feature-summary/install-microsoft-teams-connector.md)

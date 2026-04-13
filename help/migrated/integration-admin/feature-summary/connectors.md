@@ -140,9 +140,9 @@ Here's how you'll create the objects:
 
 1. Download and install the packages to create the Custom Objects.
 
-   * [Package 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
-   * [Package 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
-   * [Package 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
+   * [Package 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS)
+   * [Package 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX)
+   * [Package 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic)
 
 1. Rename the names of the Custom Objects in Salesforce.
 1. Select the events and click **[!UICONTROL Save]**.
