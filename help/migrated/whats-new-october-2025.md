@@ -1,5 +1,5 @@
 ---
-description: Learn about the new features and enhancements in the October 2025 release of Adobe Learning Manager
+description: Learn about the new features and enhancements in the October 2025 release of Adobe Learning Manager.
 jcr-language: en_us
 title: What's new in Adobe Learning Manager October 2025 release
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
