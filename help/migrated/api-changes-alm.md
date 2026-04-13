@@ -456,160 +456,6 @@ You should treat the legacy order column as removed or ignored:
 
 Always refer to the latest [_CSV specifications_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) from your Learning Manager account (via csv_specifications.zip) to confirm the current header set and requirements.
 
-## Webhook notifications
-
-Two new Webhook event types carry the final status:
-
-- `RESPONSE:ASYNCAPI_USERGROUP_USER_ADDED`
-- `RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED`
-
-### Sample payload
-
-```
-{
-  "accountId": 69735,
-  "events": [
-    {
-      "eventId": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
-      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED",
-      "timestamp": "2026-03-18T13:38:12.000Z",
-      "eventInfo": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
-      "data": {
-        "status": "SUCCESS",
-        "request": {
-          "metadata": {
-            "event_id": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5"
-          },
-          "data": [
-            {
-              "type": "user",
-              "id": "13446641"
-            }
-          ]
-        }
-      }
-    }
-  ]
-}
-```
-
-### Key elements:
-
-- `accountId` identifies the ALM account.
-- `events` is an array of event objects.
-- `eventId` matches the `event_id` from the original async call
-    (either yours or generated).
-- `eventName` indicates whether users were added or removed.
-- `timestamp` shows completion time.
--`data.status` currently reports "SUCCESS" for successful batches.
-- `data.request` contains the exact request you sent:
-    - `metadata` with your correlation data.
-    - `data` listing users that were processed.
-
-Your integration should primarily key off `eventId` (or`metadata.event_id`) and `status`.
-
-#### Examples
-
-__Adding users asynchronously__
-
-#### Step 1. Make the async call
-
-``` http
-POST /primeapi/v2/async/userGroups/12345/users
-Authorization: Bearer <access_token>
-Content-Type: application/json
-{
-  "metadata": {
-    "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
-    "sourceSystem": "HRIS",
-    "batchId": "hr_2026_03_30_0001"
-  },
-  "data": [
-    { "type": "user", "id": "11101219" },
-    { "type": "user", "id": "11101220" }
-  ]
-}
-```
-
-#### Step 2. Read the immediate response
-
-``` json
-{
-  "event_id": "sync-2026-03-30T10:15:00Z-ug-12345"
-}
-```
-
-You can now mark this job as "submitted" in your system.
-
-#### Step 3. Handle the Webhook
-
-Later, your Webhook endpoint receives:
-
-``` json
-{
-  "accountId": 69735,
-  "events": [
-    {
-      "eventId": "sync-2026-03-30T10:15:00Z-ug-12345",
-      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_ADDED",
-      "timestamp": "2026-03-30T10:15:43.000Z",
-      "data": {
-        "status": "SUCCESS",
-        "request": {
-          "metadata": {
-            "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
-            "sourceSystem": "HRIS",
-            "batchId": "hr_2026_03_30_0001"
-          },
-          "data": [
-            { "type": "user", "id": "11101219" },
-            { "type": "user", "id": "11101220" }
-          ]
-        }
-      }
-    }
-  ]
-}
-```
-
-A typical consumer will:
-
-- Locate the internal job `sync-2026-03-30T10:15:00Z-ug-12345`.
-- Confirm all users in `data` are now members (if you want to double-check using a synchronous GET /usergroups/{id}/users).
-- Mark the job as completed.
-
-#### Removing users asynchronously
-
-Removal is symmetric, using DELETE with the same body structure.
-
-##### Request
-
-``` http
-DELETE /primeapi/v2/async/userGroups/12345/users
-Authorization: Bearer <access_token>
-Content-Type: application/json
-{
-  "metadata": {
-    "event_id": "sync-2026-03-30T11:00:00Z-ug-12345",
-    "sourceSystem": "HRIS",
-    "batchId": "hr_2026_03_30_0002"
-  },
-  "data": [
-    { "type": "user", "id": "11101219" }
-  ]
-}
-```
-
-#### Response
-
-``` json
-{
-  "event_id": "sync-2026-03-30T11:00:00Z-ug-12345"
-}
-```
-
-Later, a RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED Webhook arrives with the same eventId.
-
 ## timeZoneCode on Course Instances
 
 From this release onwards, the Course Instance model (learningObjectInstance) exposes a new attribute:
@@ -628,7 +474,7 @@ for course instances only.
 
 Example:
 
-``` json
+``` 
 {
   "id": "course:1262748_1359228",
   "type": "learningObjectInstance",
@@ -660,7 +506,7 @@ Authorization: Bearer <access_token>
 
 Within the response, time zones are listed in:
 
-``` json
+``` 
 "data": {
   "attributes": {
     "timeZones": [
@@ -684,6 +530,114 @@ Within the response, time zones are listed in:
     - Read attributes.timeZoneCode.
     - Find the corresponding entry in timeZones where timeZoneCode matches.
     - Use that entry's zoneId, utcOffset, and utcOffsetCode for display and scheduling logic.
+
+## Asynchronous public APIs for user group membership
+
+### Introduction
+
+Adobe Learning Manager exposes two _admin async APIs_ to manage user group (UG) membership:
+
+- POST /async/userGroups/{userGroupId}/users – add users to a UG asynchronously
+- DELETE /async/userGroups/{userGroupId}/users – remove users from a UG asynchronously
+
+Instead of updating membership in the same request, these APIs accept your batch and return an _event ID_. The actual result is delivered later via webhooks.
+
+Use them when:
+
+- You're managing large groups or frequent batch updates.
+- Latency is less important than reliability and throughput.
+- You're building integrations (HR, CRM, LXP) rather than UI clicks.
+
+For small, interactive admin actions, you can continue using the synchronous `/userGroups/{id}/users` APIs.
+
+### Authentication and base URL
+
+These APIs are part of the standard __v2 Admin API__ surface.
+
+- [Base URL (prod)](https://learningmanager.adobe.com/docs/primeapi/v2/)
+- Auth: OAuth 2.0 access token with `admin:write` scope
+- Required headers:
+  - Authorization: Bearer <access_token>
+  - Content-Type: application/json
+  - Accept: application/json
+
+For general Admin API behavior and scopes, see:
+
+- [Developer manual](/help/migrated/integration-admin/feature-summary/developer-manual.md)
+- [API reference guide](https://learningmanager.adobe.com/docs/primeapi/v2/)
+
+### Request format
+
+Both __add__ and __remove__ use exactly the same body shape.
+
+#### Body
+
+```
+{
+  "metadata": {
+    "event_id": "my-optional-correlation-id",
+    "sourceSystem": "HRIS",
+    "batchId": "hr_2026_03_30_0001"
+  },
+  "data": [
+    { "type": "user", "id": "11101219" },
+    { "type": "user", "id": "11101220" }
+  ]
+}
+```
+
+#### data (required)
+
+data is the list of user resource identifiers for this batch.
+
+- `type` must be "user".
+- `id` is the _numeric user ID_ in ALM (not email, not UUID).
+
+#### Constraints
+
+- `data` must be present and non-empty.
+- At least one user is required.
+- The maximum payload size is 20 users per request.
+- All IDs must be numeric and must refer to valid users.
+
+If any of these conditions fail, the API returns an error and nothing is queued.
+
+#### metadata (optional)
+
+`metadata` is any additional correlation data you want echoed back in the Webhook.
+
+Typical usage:
+
+- `event_id` – correlation ID you generate.
+- `sourceSystem` – name of your upstream system.
+- `batchId` – batch or job identifiers.
+
+The service returns this object unchanged in the Webhook response, so you can match the callback to your internal job.
+
+Constraints:
+
+- Optional; may be omitted entirely.
+- Combined length of all keys and values must not exceed 1000 characters.
+
+### Response format
+
+Both endpoints respond synchronously with an event ID:
+
+```
+{ "event_id": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5" }
+```
+
+Behavior:
+
+- If `metadata.event_id` is passed, that value is used.
+- Otherwise, the service generates a UUID.
+
+You should always:
+
+- Store this `event_id` as the primary identifier for the batch.
+- Expect to receive the same value in the Webhook callback.
+
+View [Webhooks for adding and removing user group membership](/help/migrated/integration-admin/feature-summary/webhooks.md#webhooks-for-adding-and-removing-user-group-membership) for more formation.
 
 ## Frequently asked questions
 

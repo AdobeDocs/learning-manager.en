@@ -284,3 +284,137 @@ Use eventName to determine whether the change was **learnerinitiated** or **admi
 
 Use userId, loId, and loInstanceId to locate and update the corresponding record in your system. 
 Leverage eventId to prevent duplicate processing if the same event is delivered more than once.
+
+## Webhooks for adding and removing user group membership
+
+Two new webhook event types carry the final statuses:
+
+* RESPONSE:ASYNCAPI_USERGROUP_USER_ADDED
+* RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED
+
+### Sample payload
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
+      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED",
+      "timestamp": "2026-03-18T13:38:12.000Z",
+      "eventInfo": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
+      "data": {
+        "status": "SUCCESS",
+        "request": {
+          "metadata": { "event_id": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5" },
+          "data": [ { "type": "user", "id": "13446641" } ]
+        }
+      }
+    }
+  ]
+}
+```
+
+### Key elements
+
+* `accountId` identifies the ALM account.
+* `events` is an array of event objects.
+* `eventId` matches the original async request identifier.
+* `eventName` indicates add or remove operation.
+* `timestamp` shows completion time.
+* `data.status` currently reports "SUCCESS" for successful batches.
+* `data.request` contains the exact request you sent.
+
+Your integration should primarily key off `eventId` (or `metadata.event_id`) and `status`.
+
+### Examples
+
+#### Adding users asynchronously
+
+**Step 1. Make the async call**
+
+POST /primeapi/v2/async/userGroups/12345/users
+
+```
+{
+  "metadata": {
+    "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
+    "sourceSystem": "HRIS",
+    "batchId": "hr_2026_03_30_0001"
+  },
+  "data": [
+    { "type": "user", "id": "11101219" },
+    { "type": "user", "id": "11101220" }
+  ]
+}
+```
+
+**Step 2. Read the immediate response**
+
+```
+{ "event_id": "sync-2026-03-30T10:15:00Z-ug-12345" }
+```
+
+You can now mark this job as submitted in your system.
+
+**Step 3. Handle the Webhook**
+
+Webhook callback example:
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "sync-2026-03-30T10:15:00Z-ug-12345",
+      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_ADDED",
+      "timestamp": "2026-03-30T10:15:43.000Z",
+      "data": {
+        "status": "SUCCESS",
+        "request": {
+          "metadata": {
+            "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
+            "sourceSystem": "HRIS",
+            "batchId": "hr_2026_03_30_0001"
+          },
+          "data": [
+            { "type": "user", "id": "11101219" },
+            { "type": "user", "id": "11101220" }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+
+A typical consumer will:
+
+* Locate the internal job.
+* Optionally verify membership using GET /userGroups/{id}/users.
+* Mark the job as completed.
+
+#### Removing users asynchronously
+
+Removal is symmetric, using DELETE with the same body structure.
+
+```
+{
+  "metadata": {
+    "event_id": "sync-2026-03-30T11:00:00Z-ug-12345",
+    "sourceSystem": "HRIS",
+    "batchId": "hr_2026_03_30_0002"
+  },
+  "data": [ { "type": "user", "id": "11101219" } ]
+}
+```
+
+Immediate response:
+
+```
+{ "event_id": "sync-2026-03-30T11:00:00Z-ug-12345" }
+```
+
+Later, a RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED Webhook arrives with the same eventId.
+
+View [Asynchronous public API for user group membership](/help/migrated/api-changes-alm.md#asynchronous-public-apis-for-user-group-membership) for more information.
