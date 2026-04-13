@@ -155,7 +155,7 @@ The AI Assistant (Beta) for learners helps them quickly find answers from the as
 
 Capabilities, supported scenarios, and limitations may change as the feature evolves. The AI Assistant is a generative AI-powered chat companion in Adobe Learning Manager that delivers quick, accurate answers using your trusted learning content. It includes citations so you always know the source of the information.
 
-View [AI Assistant for ll](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
+View [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
 
 
 ## API changes in the release
