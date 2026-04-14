@@ -1,11 +1,13 @@
 ---
-title: What's new in Adobe Learning Manager April 2026 release
-description: Learn about the new features, improvements, and important updates in Adobe Learning Manager April 2026 release. 
+title: What's upcoming in Adobe Learning Manager
+description: Explore upcoming changes in Adobe Learning Manager. Stay informed with the latest updates and future announcements.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
 ---
 # Updates in Adobe Learning Manager
 
->[!IMPORTANT]
+The [April 2026 release](/help/migrated/whats-new.md) has been released. At this time, there are no additional upcoming changes. This page will be updated when new announcements are available.
+
+<!-- >[!IMPORTANT]
 >
 >The features in this release are available in beta. Functionality and behavior may change before general availability. Share feedback through your usual Adobe support channels.
 
@@ -2427,4 +2429,4 @@ The LT report now uses a refined logic to distinguish between active and idle ti
 
 #### Impact
 
-Provides more accurate measurement of learning engagement, supporting compliance and analytics. 
+Provides more accurate measurement of learning engagement, supporting compliance and analytics.  -->
