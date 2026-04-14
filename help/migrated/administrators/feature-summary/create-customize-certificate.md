@@ -19,7 +19,9 @@ Administrators can:
 
 The certification process follows the existing badge and achievement model in Learning Manager, so learner behavior stays familiar while administrators and support teams spend less time on certificate operations.
 
-**Note:** Certificate features that use generative AI are subject to quota. The limit is 10,000 requests per user.
+>[!NOTE]
+>
+>Certificate features that use generative AI are subject to quota. The limit is 10,000 requests per customer.
 
 ## Key capabilities of custom certification
 
