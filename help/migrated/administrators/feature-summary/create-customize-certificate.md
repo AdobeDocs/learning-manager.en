@@ -19,7 +19,9 @@ Administrators can:
 
 The certification process follows the existing badge and achievement model in Learning Manager, so learner behavior stays familiar while administrators and support teams spend less time on certificate operations.
 
-**Note:** Certificate features that use generative AI are subject to quota. The limit is 10,000 requests per user.
+>[!NOTE]
+>
+>Certificate features that use generative AI are subject to quota. The limit is 10,000 requests per customer.
 
 ## Key capabilities of custom certification
 
@@ -324,7 +326,9 @@ You can rename a certificate without cloning it.
 
 Deleting a certificate cannot be undone. Proceed only if you are sure.
 
-**Note:** You cannot delete a certificate that is attached to a learning object or instance.
+>[!NOTE]
+>
+>You cannot delete a certificate that is attached to a learning object or instance.
 
 1. In the **Configure** section, select **Achievements**. The **Badges** page opens.
 2. In the left navigation panel, select **Certificates**. The **Certificates** page opens.
