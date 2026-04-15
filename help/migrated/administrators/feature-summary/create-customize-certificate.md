@@ -15,6 +15,11 @@ Administrators can:
 - Design certificates in a visual, canvas-style editor instead of writing code.
 - Attach certificates to courses, learning paths, and certifications with flexible defaults.
 - Use Adobe Firefly–powered generative backgrounds while keeping brand and compliance needs in mind.
+
+  >[!NOTE]
+  >
+  >The Firefly AI feature is not available for FedRAMP customers.
+
 - Migrate from existing HTML templates and stay compatible with historical learner records.
 
 The certification process follows the existing badge and achievement model in Learning Manager, so learner behavior stays familiar while administrators and support teams spend less time on certificate operations.
@@ -97,6 +102,10 @@ When a learner completes training, Learning Manager chooses a design in this ord
 - Account default template
 
 ### Adobe Firefly–powered generative backgrounds
+
+>[!NOTE]
+>
+>The Firefly AI feature is not available for FedRAMP customers.
 
 To help customers produce consistent, on-brand certificates at scale, the designer integrates with Adobe Firefly:
 
