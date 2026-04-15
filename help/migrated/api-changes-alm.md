@@ -1,7 +1,7 @@
 ---
-description: API changes in ALM 
+description: This document describes the various API changes for every update in Adobe Learning Manager.
 jcr-language: en_us
-title: API changes in April release
+title: API changes in Adobe Learning Manager
 ---
 
 # API changes in the April 2026 release
