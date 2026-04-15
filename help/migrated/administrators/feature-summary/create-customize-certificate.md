@@ -236,10 +236,6 @@ This applies to healthcare, finance, government, and other industries where cert
 
 ## Create a custom certificate
 
-**Prerequisite**
-
-To use images from Firefly, your Adobe Learning Manager instance must be integrated with Firefly.
-
 1. Sign in to Adobe Learning Manager as an **Administrator**.
 2. In the **Configure** section, select **Achievements**. The **Badges** page opens.
 ![Create a custom certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate1.png)
