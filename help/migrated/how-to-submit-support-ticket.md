@@ -37,7 +37,7 @@ Please note that submitting a Support ticket is only available to authorized sup
    ![](assets/ticket-form.png)
    _Ticket form_ 
 
-4. Once you click **[!UICONTROL Submit case]**, you will be redirected to the **[!UICONTROL My cases]** page, where you can view any and all cases that your organization has submitted. You can also navigate to this page by clicking the **[!UICONTROL My cases]** button on the sidebar menu. On this page, you'll be able to view all your open and closed support cases. Using the options at the top of the page, you can filter by case status (open or closed) or by Experience Cloud solution. You can also use the search bar to search for any keywords pertaining to your support issues.
+4. Once you click **[!UICONTROL Submit case]**, you will be redirected to the **[!UICONTROL My cases]** page, where you can view any and all cases that your organization has submitted. You can also navigate to this page by clicking the **[!UICONTROL My cases]** button on the sidebar menu. On this page, you'll be able to view all your open and closed support cases. Using the options at the top of the page, you can filter by case status (open or closed) or by Adobe CX Enterprise solution. You can also use the search bar to search for any keywords pertaining to your support issues.
 
    ![](assets/open-cases.png)
    _Open cases_
