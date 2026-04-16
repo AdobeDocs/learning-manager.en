@@ -5,7 +5,9 @@ title: Configure and manage non‑logged‑in pages in Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
 ---
 
-# Introduction
+# Non‑logged‑in experience in Experience Builder
+
+## Introduction
 
 The non-logged-in experience in Experience Builder allows organizations to display their learning content and portal pages to all visitors, including those who have not signed in. This feature is designed to attract, inform, and engage prospective learners by offering a smooth and branded preview of your training offerings before requiring them to log in or enroll.
 
@@ -23,7 +25,7 @@ Branding and localization are fully supported, enabling you to customize page ti
 
 The non-logged-in experience in Experience Builder allows organizations to publicly showcase their learning content and portal pages to anyone, without requiring users to log in. This helps attract, inform, and engage potential learners by providing a preview of available training and resources before enrollment or authentication is needed.
 
-## Real-world use cases on non-logged-in experience
+## Real-world use cases of non-logged-in experience
 
 - **Marketing and outreach**: Organizations can promote their training programs to external audiences, such as prospective customers, partners, or job applicants, by making course catalogs and program details publicly accessible.
 - **Pre-enrollment exploration**: Learners can browse available courses, view overviews, and explore categories before deciding to sign up or log in, helping them make informed enrollment decisions. 
