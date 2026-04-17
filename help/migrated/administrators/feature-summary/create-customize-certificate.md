@@ -234,6 +234,30 @@ This applies to healthcare, finance, government, and other industries where cert
 - Administrators can move to designer-based templates over time, starting with high-priority programs.
 - If migration cannot preserve a mapping (for example, badges disabled mid-way), the system falls back to the global default template so learners are not blocked.
 
+## Exceptions to be aware of when using custom certificates
+
+The custom certificate authoring experience introduced in M45 expands how certificates are created and managed. The following exceptions apply when working with certificates created before this release:
+
+### Existing certificates are preserved but not editable
+
+Certificates created before M45 and already associated with learning objects are migrated automatically. These certificates continue to be issued for existing learning objects. After migration, they are available in read-only mode. You cannot modify their layout or content.
+
+To update certificate designs, create a new certificate template using the custom certificate editor.
+
+### New Learning Objects use newly created certificates
+
+Learning objects created after April 2026 release must use certificates authored through the new editor. Migrated certificates are not available for selection when configuring new learning objects.
+
+Admins can create new certificates and set them as defaults to streamline reuse.
+
+### Certificates and badges must be enabled during authoring
+
+Authors must explicitly enable certificates or badges for each learning object. This ensures certificates are issued only for learning objects where they are intended.
+
+### Certificate creation requires a one-time setup
+
+Organizations that rely on certificates for multiple learning objects should plan time to recreate commonly used templates. The drag-and-drop editor is designed to make this process quick and consistent.
+
 ## Create a custom certificate
 
 1. Sign in to Adobe Learning Manager as an **Administrator**.
