@@ -13,7 +13,7 @@ Custom certificates in Adobe Learning Manager change how administrators design, 
 Administrators can:
 
 - Design certificates in a visual, canvas-style editor instead of writing code.
-- Attach certificates to courses, learning paths, and certifications with flexible defaults.
+- Attach certificates to courses with flexible defaults.
 - Use Adobe Firefly–powered generative backgrounds while keeping brand and compliance needs in mind.
 
   >[!NOTE]
