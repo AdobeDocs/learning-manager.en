@@ -74,7 +74,15 @@ If the learner has a direct completion, revoking alternate sources does not affe
 
 ## Enhanced reporting for checklist reviewer remarks
 
+Reviewer comments from checklist modules are now included in the Learner Transcript report under a renamed column called **Reviewer Remarks.**
+
+| Area | Old column name | New column name | Notes |
+|------|-----------------|-----------------|-------|
+| Learner Transcripts (Admin) | Submission comment | Reviewer's remarks  | Applies to all Admin LT sources: UI, Job API, Connectors.| 
+
 This change applies uniformly to all Admin LT sources (UI exports, Job API reports, and connectors where applicable). Connector‑exported LT will surface Reviewer's remarks as a dedicated column at the end (for connectors that did not previously expose Submission comment), ensuring downstream integrations can distinguish reviewer feedback from other comments.
+
+**Impact:** Enables learners and administrators to view consolidated feedback, improving transparency and supporting performance evaluation.
 
 >[!NOTE]
 >
