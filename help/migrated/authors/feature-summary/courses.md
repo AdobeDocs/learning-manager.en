@@ -74,9 +74,9 @@ To create a course, follow the steps below:
    You can enable the option for the following course types:
 
    * Self-paced
+   * Virtual Classroom
    * Classroom
    * Activity
-   * Blended
 
    Note: While duplicating a course, if you had enabled the option Instance Configuration in the source course, the option remains disabled in the destination course.
 
