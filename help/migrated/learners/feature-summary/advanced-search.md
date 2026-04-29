@@ -6,9 +6,15 @@ exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
 ---
 # Advanced AI search in Adobe Learning Manager 
 
+## Introduction
+
 The Search functionality in Adobe Learning Manager enhances the user experience by allowing them to find relevant content efficiently and help them consume the right content.
 
-Adobe Learning Manager introduces an AI-powered search capability that combines lexical and semantic search. This enhanced functionality allows learners to find relevant content efficiently. The advanced AI-powered search understands the meaning of your query and provides relevant results.  
+Adobe Learning Manager introduces an AI-powered search capability that combines lexical and semantic search. This enhanced functionality allows learners to find relevant content efficiently. The advanced AI-powered search understands the meaning of your query and provides relevant results.
+
+>[!NOTE]
+>
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-FedRAMP-authorized-environments.md) for details.
 
 ## Key benefits
 

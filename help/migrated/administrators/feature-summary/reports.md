@@ -702,6 +702,10 @@ Administrators can download gamification transcript in CSV format. You can eithe
 
    This report contains the history and reasons for Learners' gamification points earned for each rule.
 
+   >[!NOTE]
+   >
+   >This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-FedRAMP-authorized-environments.md) for details.
+
 ### Download the report
 
    1. Select the Gamification Audit Trail URL.

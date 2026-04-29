@@ -19,6 +19,10 @@ The training can then be exported from the connector.
 
 The Administrator can modify and configure the homepage, which is meant for non-logged in users.
 
+>[!NOTE]
+>
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-FedRAMP-authorized-environments.md) for details.
+
 ## Learner APIs
 
 Adobe Learning Manager - Learner APIs allow you to create a custom learning experience for your users. The usage of these APIs need a valid user token and are to be used only for the purpose of workflows where there is a fully licensed/registered Learner.

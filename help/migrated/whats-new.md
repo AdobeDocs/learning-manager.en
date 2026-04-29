@@ -6,7 +6,15 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 ---
 # What's new in Adobe Learning Manager April 2026 release
 
-**For learners:** The Fluidic Player now shows the next module name and a clear Exit button. Player language can be set via LTI for a consistent experience across platforms. The custom parameter name is 'locale' and it accepts the locale code. For example, locale=fr-FR. Captivate content includes a unified table of contents, slide-level completion ticks, and reliable notes exports. Multi-language support is available for Job Aids, checklist questions, and video text tracks (VTT). The AI Assistant helps learners get answers within the learning experience.
+**For learners:** The Fluidic Player now shows the next module name and a clear Exit button. 
+
+Player language can be set via LTI for a consistent experience across platforms. The custom parameter name is 'locale' and it accepts the locale code. For example, locale=fr-FR. Captivate content includes a unified table of contents, slide-level completion ticks, and reliable notes exports.
+
+>[!NOTE]
+>
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-FedRAMP-authorized-environments.md) for details.
+
+Multi-language support is available for Job Aids, checklist questions, and video text tracks (VTT). The AI Assistant helps learners get answers within the learning experience.
 
 **For administrators and authors:** The Zoom connector supports multiple concurrent VILT sessions. Shared courses in peer accounts display the real author instead of "External Author." Admins can restrict when modules can be started. Learning Object expiry dates are exposed in Learner APIs. Checklist modules support weighted scoring, multilingual question text, and optional reviewer comments. Custom certificates offer a drag-and-drop editor with dynamic fields and AI-generated backgrounds. The non-logged-in Experience Builder lets you build public learning pages without requiring login.
 
@@ -91,6 +99,10 @@ View [Non-logged in experience in Experience Builder](/help/migrated/administrat
 Search results in Advanced Search are now more accurate and relevant. Exact keyword matches are ranked higher across both in-content search & metadata making it easier for learners to find precisely what they are looking for.
 
 Learners can now also see enrolled Learning Objects in search results, even if they are not part of an accessible catalog — ensuring no relevant content is missed. Additionally, Job Aid ranking has been improved across both Advanced Search and within-content search, surfacing the most relevant resources faster.
+
+>[!NOTE]
+>
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-FedRAMP-authorized-environments.md) for details.
 
 ## Multi-lingual job aids
 

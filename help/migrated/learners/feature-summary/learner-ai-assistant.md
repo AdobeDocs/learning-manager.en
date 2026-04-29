@@ -6,11 +6,17 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 ---
 # AI Assistant for learners
 
+## Introduction
+
 The AI Assistant (Beta) for learners helps them quickly find answers from the assigned learning content without browsing through entire courses. You can ask questions in plain language and receive accurate, focused responses with source links to the relevant course content.
 
 >[!IMPORTANT]
 >
 >The AI Assistant for learners is currently available as a beta feature. Capabilities, supported scenarios, and limitations may change as the feature evolves.
+
+>[!NOTE]
+>
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-FedRAMP-authorized-environments.md) for details.
 
 
 ## What is the AI Assistant for learners
