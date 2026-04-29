@@ -21,7 +21,7 @@ The Administrator can modify and configure the homepage, which is meant for non-
 
 >[!NOTE]
 >
->This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-FedRAMP-authorized-environments.md) for details.
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environments.md) for details.
 
 ## Learner APIs
 

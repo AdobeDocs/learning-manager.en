@@ -12,7 +12,7 @@ Player language can be set via LTI for a consistent experience across platforms.
 
 >[!NOTE]
 >
->This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-FedRAMP-authorized-environments.md) for details.
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environments.md) for details.
 
 Multi-language support is available for Job Aids, checklist questions, and video text tracks (VTT). The AI Assistant helps learners get answers within the learning experience.
 
@@ -102,7 +102,7 @@ Learners can now also see enrolled Learning Objects in search results, even if t
 
 >[!NOTE]
 >
->This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-FedRAMP-authorized-environments.md) for details.
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environments.md) for details.
 
 ## Multi-lingual job aids
 

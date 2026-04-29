@@ -12,7 +12,7 @@ The Group Success Dashboard (GSD) in Adobe Learning Manager allows administrator
 
 >[!NOTE]
 >
->This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-FedRAMP-authorized-environments.md) for details.
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environments.md) for details.
 
 ## Key use cases
 

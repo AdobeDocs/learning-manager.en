@@ -16,7 +16,7 @@ The AI Assistant (Beta) for learners helps them quickly find answers from the as
 
 >[!NOTE]
 >
->This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-FedRAMP-authorized-environments.md) for details.
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environments.md) for details.
 
 
 ## What is the AI Assistant for learners

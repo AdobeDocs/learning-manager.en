@@ -3,6 +3,7 @@ title: Feature availability in FedRAMP-authorized environments
 description: This document provides insight into what features are not supported in a FedRAMP-authorized environment
 jcr-language: en-us
 ---
+
 # Feature availability in FedRAMP-authorizerd environments
 
 ## Introduction
@@ -17,7 +18,7 @@ As part of FedRAMP security and compliance requirements, the following features 
 | [Learner AI Assistant](/help/migrated/learners/feature-summary/learner-ai-assistant.md) | Not Supported |
 | [AI-powered search](/help/migrated/learners/feature-summary/advanced-search.md) | Not Supported |
 | [Advanced Search functionality](/help/migrated/whats-new.md#advanced-search-enhancements) | Not Supported |
-| [Improved Recommendations](/help/migrated/recommendations-adobe-learning-manager.md) | Not supported
+| [Improved Recommendations](/help/migrated/recommendations-adobe-learning-manager.md) | Not supported |
 | [Alternates](/help/migrated/administrators/feature-summary/alternates-equivalence.md) | Not Supported |
 | [VTT for modules](/help/migrated/authors/feature-summary/content-library.md#multi-lingual-vtt-support) | Not Supported |
 | [LTI support](/help/migrated/whats-new.md)  | Not Supported |
