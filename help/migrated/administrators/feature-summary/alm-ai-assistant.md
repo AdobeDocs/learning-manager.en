@@ -21,6 +21,7 @@ This assistant reduces reliance on manual navigation, shortens discovery time, a
 >This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environments.md) for details.
 
 <!--
+help\migrated\feature-availability-in-fedramp-authorized-environments.md
 ## Key benefits
 
 * Perform common administrator tasks faster with conversational guidance.

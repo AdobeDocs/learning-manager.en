@@ -8,7 +8,7 @@ jcr-language: en-us
 
 ## Introduction
 
-As part of FedRAMP security and compliance requirements, the following features of Adobe Learning  Manager (ALM) are currently not supported in a FedRAMP-authorized environment. These limitations are in place to protect regulated data, maintain boundary controls, and uphold mandated auditing standards. We are actively tracking these constraints and will communicate any future changes in availability as the FedRAMP posture evolves.
+As part of FedRAMP security and compliance requirements, the following features of Adobe Learning  Manager are currently not supported in a FedRAMP-authorized environment. These limitations are in place to protect regulated data, maintain boundary controls, and uphold mandated auditing standards. We are actively tracking these constraints and will communicate any future changes in availability as the FedRAMP posture evolves.
 
 ## Features and support status
 
