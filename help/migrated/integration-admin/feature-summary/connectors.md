@@ -668,7 +668,7 @@ The getAbstract connector is used by enterprise customers of getAbstract.com, wh
 
 1. If you are configuring the getAbstract connector for the first time, click Connect.
 
-   <!--
+<!--
 Configure the Exavault FTP account before you configure this connector.
 
    Ensure that you share this FTP credentials with your content provider to access the feeds.
@@ -732,10 +732,10 @@ The Harvard ManageMentor connector is used by enterprise customers of Harvard Ma
 
 1. If you are configuring the Harvard ManageMentor connector for the first time, click Connect.
 
-   <!--
+<!--
 Configure the Exavault FTP account before you configure this connector.
 
-   Ensure that you share this FTP credentials with your content provider to access the feeds.
+Ensure that you share this FTP credentials with your content provider to access the feeds.
    -->
 
 1. In the Connection Name field, enter a name for your connection. Click Connect to save this connection.
