@@ -20,7 +20,7 @@ At the core, the feature introduces the concept of an alternate completion: a sp
 
 >[!NOTE]
 >
->This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environments.md) for details.
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
 
 ## Alternate relationships
 

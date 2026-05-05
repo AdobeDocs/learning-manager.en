@@ -26,7 +26,7 @@ The **[!UICONTROL L1 Feedback Report]** and the **[!UICONTROL Feedback Report]**
 
 >[!NOTE]
 >
->This feature - **L1 Feedback report** - is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environments.md) for details.
+>This feature - **L1 Feedback report** - is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
 
 ## Create L1 feedback form
 

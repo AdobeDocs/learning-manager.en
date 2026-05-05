@@ -15,7 +15,7 @@ To get started with this feature, you must enable the feature in the Admin app.
 
 >[!NOTE]
 >
->This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environments.md) for details.
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
 
 ## Enable and configure the recommendations
 

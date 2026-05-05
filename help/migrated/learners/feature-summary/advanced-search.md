@@ -14,7 +14,7 @@ Adobe Learning Manager introduces an AI-powered search capability that combines 
 
 >[!NOTE]
 >
->This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environments.md) for details.
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
 
 ## Key benefits
 
