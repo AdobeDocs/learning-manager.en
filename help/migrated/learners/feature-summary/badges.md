@@ -48,6 +48,10 @@ Learning Manager supports open badges concept for its learners. You can use the 
 
 Learners can integrate their learning platform account with their Badgr account. This enables learners to share badges to social websites via their Badgr account. Badgr also offers authenticable badges based on the backpack standard, which means the badges are verified.
 
+>[!NOTE]
+>
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
+
 Open badges are badges which have some metadata embedded into the badge image. This metadata gives information about the issuer, the recipient, the task achieved, validity of the badge etc. Badgr backpack will be accessible directly from Learning Manager for providing a central place to store all badges and share them. Learners can login to their Badgr account and establish the integration. From then on, badges achieved in Learning Manager get uploaded to Badgr account automatically.
 
 Once the Administrator enables the option **Badgr Integration**, a learner can then integrate with Badgr and configure his/her badge. To integrate, learner need to login to the Badgr account from Learning Manager. 

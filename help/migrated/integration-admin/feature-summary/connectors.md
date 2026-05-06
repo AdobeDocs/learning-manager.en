@@ -7,11 +7,17 @@ exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
 ---
 # Learning Manager Connectors 
 
+## Introduction
+
 Enterprises have other applications and systems which have to be integrated with Learning Manager. Connectors are utilities that Help in performing data-based integrations such as importing data into Learning Manager from external  systems.  It also performs exporting of data to external systems from Learning Manager.
 
 Learning Manager provides Salesforce and FTP connectors. Using Salesforce connector, integration Administrators of an organization can integrate their Salesforce application with Learning Manager. As an integrator, you can also use FTP connector to auto import a set of users into your enterprise application.
 
 Learning Manager also provides the Lynda, getAbstract, and the Harvard Management System connectors. These connectors enable learners to access and consume courses from Lynda.com, getAbstract, and Harvard ManageMentor.
+
+>[!NOTE]
+>
+>This feature is partially available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
 
 Read on to know how to configure and use each of these connectors in Learning Manager.
 
@@ -662,7 +668,7 @@ The getAbstract connector is used by enterprise customers of getAbstract.com, wh
 
 1. If you are configuring the getAbstract connector for the first time, click Connect.
 
-   <!--
+<!--
 Configure the Exavault FTP account before you configure this connector.
 
    Ensure that you share this FTP credentials with your content provider to access the feeds.
@@ -726,10 +732,10 @@ The Harvard ManageMentor connector is used by enterprise customers of Harvard Ma
 
 1. If you are configuring the Harvard ManageMentor connector for the first time, click Connect.
 
-   <!--
+<!--
 Configure the Exavault FTP account before you configure this connector.
 
-   Ensure that you share this FTP credentials with your content provider to access the feeds.
+Ensure that you share this FTP credentials with your content provider to access the feeds.
    -->
 
 1. In the Connection Name field, enter a name for your connection. Click Connect to save this connection.

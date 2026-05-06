@@ -5,11 +5,17 @@ exl-id: 42083095-60a0-4e20-9097-3344d290da1a
 ---
 # Recommendations in Adobe Learning Manager
 
+## Introduction
+
 Adobe Learning Manager has introduced a new and revamped recommendation system for courses. This recommendations feature uses AI algorithms and users' interests like Products, Roles, and Levels to provide personalized content recommendations. Admins can set up their account based on the Products, Roles, and Levels.
 
 The new recommendations system allows you to create custom parameters that learners can select to receive personalized recommendations. These recommendations will be displayed as Courses, Learning Paths, and Certifications to learners on their homepage feed. 
 
-To get started with this feature, you must enable the feature in the Admin app.  
+To get started with this feature, you must enable the feature in the Admin app.
+
+>[!NOTE]
+>
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
 
 ## Enable and configure the recommendations
 

@@ -25,6 +25,7 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md)
       * [Adobe Learning Manager secure administration guide](/help/migrated/alm-secure-administration-guide.md)
       * [Adobe Learning Manager administrative security setttings and configuration management](/help/migrated/alm-security-settings-config-management.md)
+      * [Feature availability in FedRAMP-authorizerd environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)
    * [Accessibility in Learning Manager](accessibility-learning-manager.md)
    * [Support for custom domain](custom-domain.md)
    * [Transition from Adobe FTP Manager](transition-from-ftp-manager.md)

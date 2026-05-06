@@ -12,7 +12,7 @@ Adobe Learning Manager (ALM) integrates with Adobe Experience Manager (AEM) site
 
 To build such an experience, ALM provides an Adobe Learning Manager reference site package (ALM reference site package) for AEM Sites in the form of a ZIP file that you can install on your AEM Sites instance.
 
-The package includes AEM Sites web page templates and website components along with embeddable widgets, for example, Learning catalog, embeddable widgets, calendar, and so on.
+The package includes AEM Sites web page templates and website components along with embeddable widgets. For example, Learning catalog, Calendar, Compliance, Categories, Courses and Paths and so on.
 
 After you install the ALM reference site package, you can start building a website for Adobe Learning Manager that you can host on your AEM Sites instance. Your users can then drag and drop the components on the website.
 
@@ -70,14 +70,14 @@ Follow the steps below:
 1. To create a new application, on the upper-right corner of the page, click **[!UICONTROL Register]**.
 1. In the Register a new application screen, enter the following details:
 
-   1. Application Name: The name of the application that you are creating.
-   1. URL: The URL of your organization.
-   1. Redirect Domains: The hosting domains of the AEM website. You can also specify wildcards.
-   1. Description: The description of the application.
-   1. Scopes: Select Learner role read access and Learner role write access.
-   1. For this account only?: Select Yes if you want to use the application for the existing ALM account.
+   1. **Application Name:** The name of the application that you are creating.
+   1. **URL:** The URL of your organization.
+   1. **Redirect Domains:** The hosting domains of the AEM website. You can also specify wildcards.
+   1. **Description:** The description of the application.
+   1. **Scopes:** Select Learner role read access and Learner role write access.
+   1. **For this account only?:** Select Yes if you want to use the application for the existing ALM account.
 
-1. After making the changes, click Save.
+1. After making the changes, click **Save**.
 
 Note the application credentials from the screen.
 
@@ -99,23 +99,23 @@ To approve the application, click **[!UICONTROL Approve]**.
    ![](assets/access-token-details.png)
    *Enter the token details*
 
-   1. Get OAuth Code: Enter the client ID from the previous section and change the scope. Click Submit to get the Oauth code.  
-   1. Get Refresh Token: Enter the client ID and secret from the previous section. Also enter the OAuth code that you got from the previous step. Click Submit.  
-   1. Get Access Token: Enter the client ID and secret from the previous section. Also enter the Refresh token that you got from the previous step. Click Submit.  
-   1. Get Access Token Details: Enter the access token that you got from the previous step. Click Submit.
+   1. **Get OAuth Code:** Enter the client ID from the previous section and change the scope. Click Submit to get the Oauth code.  
+   1. **Get Refresh Token:** Enter the client ID and secret from the previous section. Also enter the OAuth code that you got from the previous step. Click **Submit**.  
+   1. **Get Access Token:** Enter the client ID and secret from the previous section. Also enter the Refresh token that you got from the previous step. Click **Submit**.  
+   1. **Get Access Token Details:** Enter the access token that you got from the previous step. Click **Submit**.
 
 1. You can get the details from the JSON response that follows. The response consists of the access token, refresh token, user role, account id, user id, and the time to expire. Note the refresh token, as you will reuse that. 
 
 ## Configure ALM account in AEM
 
 1. Launch your AEM instance.
-1. Click Settings > Cloud Services.   
-1. Click Adobe Learning Manager Configuration.
+1. Click **Settings** > **Cloud Services**.   
+1. Click **Adobe Learning Manager Configuration**.
 
    ![](assets/alm-configuration.png)
    *Select Adobe Learning Manager configuration*
 
-1. Click Create > Configuration Folder. Name your folder.
+1. Click **Create** > **Configuration Folder**. Name your folder.
 
    ![](assets/create-folder.png)
    *Create configuration*
@@ -127,11 +127,11 @@ To approve the application, click **[!UICONTROL Approve]**.
    ![](assets/account-congiguration.png)
    *Create configuration folder*
 
-   1. Adobe Learning Manager mode: Choose how you want the learning experience for both logged-in and non-logged in learners.  
-   1. Adobe Learning Manager URL: Enter the URL of the ALM instance where the learning services are hosted.  
-   1. Account ID: The ID of the ALM account.  
-   1. Client ID, Client Secret, and Author Refresh Token: Enter the credentials that you got while creating the application in ALM.   
-   1. Customization of Widget: For more information, see [Integrate with AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
+   1. **Adobe Learning Manager mode:** Choose how you want the learning experience for both logged-in and non-logged in learners.  
+   2. **Adobe Learning Manager URL:** Enter the URL of the ALM instance where the learning services are hosted.  
+   3. **Account ID:** The ID of the ALM account.  
+   4. **Client ID, Client Secret, and Author Refresh Token:** Enter the credentials that you got while creating the application in ALM.   
+   5. **Customization of Widget:** For more information, see [Integrate with AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. Save and close the configuration.
 
@@ -155,10 +155,10 @@ The connector exports training metadata to a data storage and retrieval solution
 
 Enable this connector to build and render your AEM Sites-based web pages and deliver customized experiences to your learners both before and after login. Enable this connector to build and render your AEM Sites-based web pages and deliver customized experiences to your learners both before and after login.
 
-* Adobe Learning Manager cdn base URL - Enter the base URL of the data retrieval CDN service path from the Training Data Access connection page.  
-* Admin refresh token - Enter the refresh token that you determined in the earlier section.   
-* Training Metadata base URL - Enter the base URL of the search enablement and search data retrieval service path from the Training Data Access connection page.
-* Adobe Learning Manager Register URL - Enter the self-registration URL generated by the integration administrator for the account, which is used by learners to enroll in training.
+* **Adobe Learning Manager cdn base URL:** Enter the base URL of the data retrieval CDN service path from the Training Data Access connection page.  
+* **Admin refresh token:** Enter the refresh token that you determined in the earlier section.   
+* **Training Metadata base URL:** Enter the base URL of the search enablement and search data retrieval service path from the Training Data Access connection page.
+* **Adobe Learning Manager Register URL:** Enter the self-registration URL generated by the integration administrator for the account, which is used by learners to enroll in training.
 
 ### AEM + Adobe Learning Manager + Adobe Commerce (logged-in/ non-logged-in users)
 
@@ -166,19 +166,19 @@ Adobe Learning Manager now provides solutions to help you seamlessly integrate t
 
 A user can use the already AEM application and approve it, instead of creating one.
 
-* Adobe Learning Manager cdn base URL - Enter the base URL of the data retrieval CDN service path from the Adobe Commerce connection page.  
-* Adobe Commerce URL - Enter the URL of the Adobe Commerce instance that you are using.   
-* GraphQL proxy path - The client-side Learning Manager components access the Adobe Commerce GraphQL endpoint directly, and therefore, CORS error may occur. To avoid this error, all calls must either be served from the same endpoint as AEM or served via a proxy that adds CORS headers.  
-* Adobe Commerce store name - Enter the Adobe Commerce store name that you determined in the earlier section.   
-* Adobe Commerce customer token lifetime (in secs) - Enter the customer token lifetime indicating the pre-determined period for a login session.   
-* Admin refresh token - Enter the refresh token that you determined in the earlier section.
+* **Adobe Learning Manager cdn base URL:** Enter the base URL of the data retrieval CDN service path from the Adobe Commerce connection page.  
+* **Adobe Commerce URL:** Enter the URL of the Adobe Commerce instance that you are using.   
+* **GraphQL proxy path:** The client-side Learning Manager components access the Adobe Commerce GraphQL endpoint directly, and therefore, CORS error may occur. To avoid this error, all calls must either be served from the same endpoint as AEM or served via a proxy that adds CORS headers.  
+* **Adobe Commerce store name:** Enter the Adobe Commerce store name that you determined in the earlier section.   
+* **Adobe Commerce customer token lifetime (in secs):** Enter the customer token lifetime indicating the pre-determined period for a login session.   
+* **Admin refresh token:** Enter the refresh token that you determined in the earlier section.
 
 ## Customize webpages
 
 Customize your webpages by using the AEM references site and the available widgets. 
 
 1. Launch your AEM instance.  
-1. Click Sites and open the configuration page.  
+1. Click **Sites** and open the configuration page.  
 1. Click **[!UICONTROL Learning Site]** > **[!UICONTROL Language Masters]** > **[!UICONTROL English]**. All webpages in the project are included in the folder. 
 
    ![](assets/list-webpages.png)
@@ -197,25 +197,59 @@ Customize your webpages by using the AEM references site and the available widge
 
 Apart from the templates that you can use that are provided by the reference site package, you can also create webpages based on the templates ibn AEM.
 
-1. On the main AEM page, click Create > Page.   
+1. On the main AEM page, click **Create** > **Page**.   
 
-1. Choose the template that you want to customize. Click Next.   
+2. Choose the template that you want to customize. Click **Next**.   
 
-1. Enter the page properties. 
+3. Enter the page properties. 
 
    ![](assets/page-properties.png)
    *Page properties*
 
-1. To create the page, click **[!UICONTROL Create]**.  
+4. To create the page, click **[!UICONTROL Create]**.  
 
-1. Select the new page and click **[!UICONTROL Edit]**.  
+5. Select the new page and click **[!UICONTROL Edit]**.  
 
-1. Insert a component on the page, for example, **Learning- Content**.
+6. Add a component to the page. For example, **Adobe Learning Manager Widget**.
 
    ![](assets/learning-content.png)
    *Filter by site*
 
-1. Choose the required Catalog filters that will be displayed on the page.
+7. Drag and drop the **Adobe Learning Manager Widget** to the page where you want it to reside.
+8. Select the settings icon. The **Properties** pop-up opens.
+9. Select a widget from the drop-down menu, enter a title and a description, and then select **Done**. The selected widget is then added to the page.
+
+## Adobe Learning Manager widget
+
+Adobe Learning Manager Widget is available in v 2.0.0 and above in the **Learning - Content** component group. A single component houses all of ALM's homepage widgets, selectable from a dropdown in the authoring dialog.
+
+With the addition of the new **Adobe Learning Manager Widget**, you can create experiences on AEM Sites which are at parity with native Adobe Learning Manager pages - Home, Catalog, Learning Object Overview, and custom pages built with widgets like Categories and Courses and Paths. 
+
+**Available widgets:**
+
+* **My Learning** — currently enrolled learnings
+* **Leaderboard** — gamification points leaderboard
+* **Calendar** — upcoming and completed sessions, organized by month
+* **Compliance** — courses with overdue or upcoming deadlines
+* **Social Learning** — posts in social learning
+* **Categories** — cards for catalogs, products, or roles
+* **Courses and Paths** — curated lists, source-driven or hand-picked
+* **Bookmarks** — the learner's saved courses
+* **Admin Recommendations** — content set by administrators
+* **Areas of Interest, Trending, and Discovery Recommendations** — driven by account-level recommendation settings
+
+### Authoring capabilities
+
+* Catalogs, products, roles, and courses are selectable from searchable dropdowns inside the dialog.
+* Multi-select fields support up to 25 items with drag-to-reorder and tag-based display.
+* Account-level terminology (e.g. custom names for **Catalog** or **Role**) is automatically reflected in dialog labels.
+
+### Course tile customization
+
+Course tile customizations made in the ALM admin app — under **Admin** > **Branding** > **Course Tile** — apply to every widget that renders tiles for courses, learning paths, certifications, and job aids. Use this to control which details (format, duration, skill, rating, author name, description, completion status, and more) are shown to learners across the new widgets with a single configuration that propagates everywhere on your AEM Sites-based learning academy.
+
+For customizing the Adobe Learning Manager Widget, see [Integrate with AEM](/help/migrated/integrate-aem-learning-manager.md).
+
 
 ## Create site from Blueprint
 
@@ -225,20 +259,20 @@ The ALM reference site package provides a "Learning Site Blueprint," which enabl
 
 1. Click **[!UICONTROL Create]** > **[!UICONTROL Site]**.   
 
-1. Click Learning Site Blueprint. 
+1. Click **Learning Site Blueprint**. 
 
    ![](assets/learning-site-blueprint.png)
 
    *Create site from blueprint*
 
-1. Click Next.   
+1. Click **Next**.   
 
-1. On the properties page, enter the page metadata. Click Create. 
+1. On the properties page, enter the page metadata. Click **Create**. 
 
    ![](assets/blueprint-properties.png)
    *Select Learning Site Blueprint*
 
-1. Click the Home hyperlink to navigate to the home page of the site that you have created. On this page, you can customize the widgets and catalog components.
+1. Click the **Home** hyperlink to navigate to the home page of the site that you have created. On this page, you can customize the widgets and catalog components.
 
 ## Code your website
 
@@ -248,10 +282,36 @@ The code is in the [Reference site GitHub repository](https://github.com/adobe/a
 
 The main parts of the template are: 
 
-* core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.  
-* ui.apps: contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, templates.  
-* ui.content: contains sample content using the components from the ui.apps  
-* ui.frontend: contains React components.
+* `core:` Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.  
+* `ui.apps:` contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, templates.  
+* `ui.content:` contains sample content using the components from the ui.apps  
+* `ui.frontend:` contains React components.
+
+### Customizing Adobe Learning Manager Widgets using code
+
+The **Adobe Learning Manager Widget** component renders directly into the page DOM using React components.
+
+**What does this mean for your project?**
+
+* Widget markup, styles, and React source are part of the AEM package and accessible to your project
+* Override CSS using your own clientlib without touching the package
+* For behavioral changes, re-labelling buttons, conditional logic, and customizing component output, edit the React source in the ui.frontend module and rebuild
+
+### Predefined CSS classes for widgets
+
+The following predefined CSS classes are available as targets for widget-level styling:
+
+| Widget Name | Container CSS |
+|------------|---------------|
+| Calendar | `alm-calendar-widget-container` |
+| Category | `alm-category-widget-container` |
+| Category Cards | `alm-category-card-container` |
+| Compliance | `alm-compliance-container` |
+| Course & Paths | `alm-course-path-widget-container` |
+| Course & Paths LO Cards | `alm-training-card-v2-card` |
+| Recommendations (all) | `alm-course-path-widget-container` |
+| Gamification | `alm-leaderboard-container` |
+| Social Learning | `alm-social-learning-container` |
 
 All the code is in the repo to get you up and running. 
 
@@ -264,9 +324,7 @@ However, if you want to use these newly added Learning Manager components to you
 1. Install the ALM reference site package.  
 
 1. Open the web project and navigate to the HTML file (for the webpage or web template where you want to add the Learning Manager components).
-1. Joining a meeting
-
-   Open the HTML file and add the following code snippets to the page component so that the code executes before the learning components present in the page render.
+1. Open the HTML file and add the following code snippets to the page component so that the code executes before the learning components present in the page render.
 
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
@@ -274,16 +332,16 @@ However, if you want to use these newly added Learning Manager components to you
    The preceding code adds the mapped configuration in the meta tag of the page, which is required for the learning components to render. For more details, see [Adobe Learning Manager reference site](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Ensure that you have mapped the configuration with the web project.  
-1. Open the AEM Sites template where you want to import the Learning Manager components.  
-1. On the template page editor, navigate to the Allowed Components container and select **Policy**.
-1. In the Policy page, navigate to Properties > Allowed Components and select the following components "Learning - Content," "Learning - Form," and "Learning - Structure"
+1. Open the **AEM Sites** template where you want to import the Learning Manager components.  
+1. On the template page editor, navigate to the **Allowed Components** container and select **Policy**.
+1. In the **Policy** page, navigate to **Properties** > **Allowed Components** and select the following components "**Learning - Content,**" "**Learning - Form**," and "**Learning - Structure**"
 
 The following procedure enables the template to fulfill the client library dependencies of the imported Learning Manager components.
 
 The web pages that include these components should load these libraries to successfully render and use the components.
 
-1. On the template page editor, click Page Information and then click Page Policy.
-1. In the Policy page, navigate to Properties > Client Libraries and add these to your template page:
+1. On the template page editor, click **Page Information** and then click **Page Policy**.
+1. In the **Policy** page, navigate to **Properties** > **Client Libraries** and add these to your template page:
 
    1. learning.site
    1. learning.ui
@@ -300,7 +358,7 @@ You can also set multiple account configurations in multiple pages.
 1. Click **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Learning Manager Widget Configuration]**.
 1. Click **[!UICONTROL Create]**.
 1. Enter the refresh token here. Set up the other settings.
-1. Hostname should be changed to "learningmanagereu" for EU regions.
+1. Hostname should be changed to **learningmanagereu** for EU regions.
 1. Save and close the configuration.
 1. Select a configuration and publish the configuration.
 
@@ -310,7 +368,7 @@ The AEM author must first add the component in AEM template
 
 The AEM author then will be able to drag and drop the Adobe Learning Manager component and configure accordingly.
 
-Learning Manager component requires the configuration created in above step to be mapped to the Page.  Author can map the configuration by Editing Page Properties under **[!UICONTROL Advanced]** > **[!UICONTROL Configuration]** > **[!UICONTROL Cloud Configuration]** and provide path of configuration. In this way, Author can create configurations for multiple Learning Manager accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
+Learning Manager component requires the configuration created in the above step to be mapped to the **Page**.  Author can map the configuration by Editing Page Properties under **[!UICONTROL Advanced]** > **[!UICONTROL Configuration]** > **[!UICONTROL Cloud Configuration]** and provide path of configuration. In this way, author can create configurations for multiple Learning Manager accounts and map each one to different Sites Page. If a configuration is not mapped to the Page, component will read the configuration from Parent Page recursively until it finds one.
 
 ## Learner {#learner}
 
@@ -374,7 +432,7 @@ The Catalog options contains the following options:
 
 Here are a few additional components that you can customize:
 
-**[!UICONTROL Learning Object Types]:** Filter according to the type of the Learning Object. The supported types are- course, certification, jobAid,and learningProgram.
+**[!UICONTROL Learning Object Types]:** Filter according to the type of the Learning Object. The supported types are - course, certification, job aid, and learning program.
 
 In AEM, the title of a card in a strip will be empty initially. In properties, type the name of the title in widgets.html.
 
@@ -409,18 +467,18 @@ In the **[!UICONTROL General Settings]** section, you can choose the primary and
 
 My Saved Courses widget allows learners to view their bookmarked or saved courses directly on their learning pages, providing easy access to courses they want to revisit or complete later.
 
-To configure the My Saved Courses Widget in AEM sites:
+To configure the **My Saved Courses Widget** in AEM Sites:
 
-1. Launch the AEM sites.
+1. Launch the **AEM Sites**.
 2. Open the page in **[!UICONTROL Edit]** mode.
 3. Go to the **[!UICONTROL Components Browser]** and add **[!UICONTROL My Learning widget]** to the page.
 4. Select the component and then select **[!UICONTROL Configure]**.
 5. Select **[!UICONTROL My Saved Courses]** from the dropdown menu in the **[!UICONTROL Properties]**.
 6. Select **[!UICONTROL Done]** and then refresh the page in **[!UICONTROL Preview]** or **[!UICONTROL Publish]** mode.
 
-Learners can view their saved courses in the **[!UICONTROL Saved by Me]** strip on the learner homepage.Selecting the **[!UICONTROL Saved by Me]** strip takes learners to the catalog page and displays the exact number of bookmarked courses.
+Learners can view their saved courses in the **[!UICONTROL Saved by Me]** strip on the learner homepage. Selecting the **[!UICONTROL Saved by Me]** strip takes learners to the catalog page and displays the exact number of bookmarked courses.
 
-When you apply another filter in the Catalog, only the results matching that filter are displayed. Bookmarked items are not included automatically.
+When you apply another filter in the **Catalog**, only the results matching that filter are displayed. Bookmarked items are not included automatically.
 
 ### Ignore higher order LO enrollment
 
@@ -436,4 +494,4 @@ The setting is then applied on the widget.
 
 ### Security
 
-The fields Client ID and Client Secret are added. In addition, the refresh token gets masked. After a user creates the entire configuration, if the user opens the configuration again to edit it, or if some other user opens this configuration, the refresh token will be masked.
+The fields **Client ID** and **Client Secret** are added. In addition, the refresh token gets masked. After a user creates the entire configuration, if the user opens the configuration again to edit it, or if some other user opens this configuration, the refresh token will be masked.

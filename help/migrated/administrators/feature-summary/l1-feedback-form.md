@@ -24,6 +24,10 @@ The feature provides greater flexibility by allowing administrators to:
 
 The **[!UICONTROL L1 Feedback Report]** and the **[!UICONTROL Feedback Report]** (Custom Report) now include two new columns: Feedback Form Name and Feedback Version. These columns provide details about the feedback forms used.
 
+>[!NOTE]
+>
+>This feature - **L1 Feedback report** - is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
+
 ## Create L1 feedback form
 
 Administrators can create multiple L1 feedback forms at the account level and assign the right form to a course, learning path, or certification.
