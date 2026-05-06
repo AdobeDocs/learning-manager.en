@@ -35,6 +35,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Whitelabeling in Adobe Learning Manager](white-label.md)  
 * Get Started {#get-started}
    * [Sign in to Adobe Learning Manager with OpenID Connect](/help/migrated/oidc.md)
+   * [Feature availability in FedRAMP-authorized environment](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)
    * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
    * [Getting started as an Author](authors/feature-summary/getting-started-author.md)
    * [Getting started as a Learner](learners/feature-summary/getting-started-learner.md)
