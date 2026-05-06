@@ -17,15 +17,6 @@ To get started with this feature, you must enable the feature in the Admin app.
 >
 >This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
 
-## Enable and configure the recommendations
-
-1. Upload the course and user data (optional). 
-1. Make the changes live. 
-1. After enabling and configuring the recommendations, upload the data into Adobe Learning Manager for recommendations to start working. This data consists of:
-
-   * Course data
-   * User data (optional)
-
 ## Course ranking algorithm
 
 The core of the recommendation engine is driven by Learning Manager's new **[!UICONTROL Course Ranking Algorithm]**. The algorithm uses 50 million data points and five years of aggregated learning data across millions of users to rank courses based on their likelihood of enrolment. This ranking ensures that most enrollable courses are displayed upfront to the learners.
@@ -152,8 +143,13 @@ Populate these CSVs and get in touch with your Customer Success team to download
 
 After both the CSVs have been uploaded, click Go live. This will make the new recommendation system visible to learners.
 
+Once the PRL Recommendation is activated, it cannot be reverted to its previous state. During activation, Adobe Learning Manager displays a confirmation prompt to inform you that the change is permanent. Until the recommendation is made live, you can still undo or modify your changes.
+
 ![go live](assets/computerdescription-automatically.png)
 *Make the recommendations live*
+
+![go live](assets/recommendations-irreversible.png)
+*Recommendation warning*
 
 The recommendation system is now available to your learners.
 
