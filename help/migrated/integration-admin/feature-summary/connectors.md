@@ -176,7 +176,7 @@ Here's how you'll create the objects:
 
 Learning Manager offers a Salesforce App package. Once installed and configured in SFDC, sales employees can perform their training activities within the SFDC portal. This app allows SFDC users to explore new trainings, view recommendations and consume them right inside the SFDC portal. Users also get the announcements sent by Administrators in the form of mastheads right inside the app within the SFDC portal.  
 
-### Set up in Learning Manager app {#setup-in-learning-manager-app}
+### Set up Learning Manager app {#setup-in-learning-manager-app}
 
 1. Log in to your Learning Manager Admin account as Integration Admin.
 1. Click **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**.
@@ -646,6 +646,7 @@ The Lynda connector is used by enterprise customers of Lynda.com who would like 
 
 1. You can also click Execution Status from the left pane anytime to view the summary of all the runs for this connector, in a chronological order. You can view the start date and duration of the synchronization, the type of synchronization (whether it is on-demand synchronization) and status of the synchronization (whether the synchronization is in progress or is complete).
 
+
    >[!NOTE]
    >
    >When you delete and re-create a connection, the previous runs for the connector come up again. You can view all the runs before you deleted the connection.
@@ -709,6 +710,7 @@ Configure the Exavault FTP account before you configure this connector.
 
 1. You can also click Execution Status from the left pane anytime to view the summary of all the runs for this connector, in a chronological order. You can view the start date and duration of the synchronization, the type of synchronization (whether it is on-demand synchronization) and status of the synchronization (whether the synchronization is in progress or is complete).
 
+
    >[!NOTE]
    >
    >When you delete and re-create a connection, the previous runs for the connector come up again. You can view all the runs before you deleted the connection.
@@ -762,6 +764,7 @@ Ensure that you share this FTP credentials with your content provider to access 
    If you want to automate the synchronization every few days, specify the number of days in the Repeat No of Days field. Synchronization ensures that your account is updated with the latest version of the abstracts and summaries from Harvard ManageMentor.
 
 1. You can also click Execution Status from the left pane anytime to view the summary of all the runs for this connector, in a chronological order. You can view the start date and duration of the synchronization, the type of synchronization (whether it is on-demand synchronization) and status of the synchronization (whether the synchronization is in progress or is complete).
+
 
    >[!NOTE]
    >
@@ -845,7 +848,8 @@ Administrator can set up scheduling tasks as per organization's requirements and
    ![](assets/configure-connector.png)
    *Configure Workday connector*
 
-1. Click connect after entering information in all the relevant fields.
+Click connect after entering information in all the relevant fields.
+
 
    >[!NOTE]
    >
@@ -958,8 +962,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
 
 ### Export {#export-1}
 
-You can export all the skills achieved by a user from Learning Manager to Workday. Only all active user skills are exported and Learning Manager does not export retired skills. You can also connect multiple Learning Manager  
-accounts to the same Workday connector. In case the skill names are same in two Learning Manager accounts, they are mapped to the same skill in Workday. Before updating the skill in Workday, in case two Learning Manager accounts are using the same Workday account, it is advisable to update skill names in all Learning Manager Accounts.
+You can export all the skills achieved by a user from Learning Manager to Workday. Only all active user skills are exported and Learning Manager does not export retired skills. You can also connect multiple Learning Manager  accounts to the same Workday connector. In case the skill names are same in two Learning Manager accounts, they are mapped to the same skill in Workday. Before updating the skill in Workday, in case two Learning Manager accounts are using the same Workday account, it is advisable to update skill names in all Learning Manager Accounts.
 
 +++User Skills - Configure
 
@@ -1883,6 +1886,7 @@ In Administrator login, click the VC course name. Click Instances on the left pa
 
 With the integration of Adobe Learning Manager and Adobe Connect for creating virtual classroom modules or sessions, your Connect account should support Meeting rooms with adequate number of rooms and concurrent users for your use case. These meeting rooms are used to host Learning Manager virtual classroom modules. A new Connect meeting room is dynamically created by Learning Manager for each virtual classroom module or session within Learning Manager.
 
+
 >[!NOTE]
 >
 >You must purchase Adobe Connect separately, apart from Adobe Learning Manager.
@@ -2085,19 +2089,19 @@ Adobe Learning Manager uses a virtual classroom connector that can be used to in
 
 Microsoft Teams connector connects the Learning Manager and Microsoft Teams systems to enable automatic data synchronization. The following list describes the Microsoft Teams connector capabilities:
 
-**Set up virtual sessions using Microsoft Teams**
+### Set up virtual sessions using Microsoft Teams
 
 This connector helps integrate your Adobe Learning Manager account with your Microsoft Teams account. Once integrated, the connector enables an Author in Learning Manager to use Microsoft Teams as the technology service provider for the Virtual Classroom modules created in Learning Manager.
 
-**Allow Microsoft Teams to authenticate learners when entering virtual classroom**
+### Allow Microsoft Teams to authenticate learners when entering virtual classroom
 
 A meeting organizer can enable lobby to restrict entry into the meeting as well as control the other meeting options as provided by Microsoft Teams.
 
-**Use automated user completion syncing**
+### Use automated user completion syncing
 
 The automated user completion syncing process allows a Learning Manager Administrator to automatically fetch the completion records and recording URL for the Teams meeting.
 
-For more information, see  [**Install Microsoft Teams connector in Adobe Learning Manager**](install-microsoft-teams-connector.md).
+For more information, see  [Install Microsoft Teams connector in Adobe Learning Manager](install-microsoft-teams-connector.md).
 
 ## Training data access connector {#training-data-access}
 
@@ -2152,13 +2156,13 @@ You can check the status of the report execution on the **[!UICONTROL Execution 
 
 ### Create website in AEM {#create-website-in-aem}
 
-**Pre-requisite:** Install the AEM package from the  [**GitHub repository**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+**Pre-requisite:** Install the AEM package from the  [GitHub repository](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
 1. Use the base and retrieval URLs, Client ID, Client Secret, and Admin Refresh Token and create a configuration in AEM. 
 1. Create the website using the AEM components.
 1. Publish the website.
 
-For more information, see this  [**document**](../../adobe-learning-manager-integration-aem.md).
+For more information, see this  [document](../../adobe-learning-manager-integration-aem.md).
 
 ### Learners {#learners}
 
@@ -2175,11 +2179,11 @@ The non-logged-in experience in Adobe Learning Manager can be configured using t
 * Standard offering
 * Premium offering
 
-**Standard offering**
+#### Standard offering
 
 The standard offering is to build the native version of Adobe Learning Manager. Users can build a demonstration-only, non-logged-in headless experience. The demonstration headless experience is unscalable and should not be used in a production environment.
 
-**Premium offering**
+#### Premium offering
 
 The premium offering helps users build a headless interface, which is configured by the **[!UICONTROL Training Data Access]** connector. For blended learning scenarios, you also get real-time seat limits, seats occupied, waitlist limits, and waitlist counts. Customers can use these APIs to create search and filter capabilities and a complete course summary for non-logged-in learners.
 
@@ -2211,7 +2215,7 @@ The connector integrates with Adobe Commerce by sending training data to the com
 
 In addition to initiating a purchase, the connector also collects purchase details from Adobe Commerce, which is used by Adobe Learning Manager to validate the purchase and unlock access to the training.
 
-**Pre-requisites**
+### Pre-requisites
 
 1. Enable  [RabbitMq](https://devdocs.magento.com/cloud/project/services-rabbit.html) or any other messaging broker.
 1. Enable  [CRON](https://devdocs.magento.com/cloud/env/variables-deploy.html#cron_consumers_runner).
@@ -2327,7 +2331,7 @@ If the user is not logged in, they can still search for course catalogs and view
 
 After the Learner purchases the course, they are redirected to the course overview page in the enrolled state, where they can take the purchased training.
 
-#### Headless- Non-logged in {#headless-non-logged-in}
+#### Headless - Non-logged in {#headless-non-logged-in}
 
 A Learner can:
 
@@ -2339,7 +2343,7 @@ A learner cannot:
 * Purchase a course from the Overview page.
 * Preview paid content.
 
-#### Headless- Logged in {#headless-logged-in}
+#### Headless - Logged in {#headless-logged-in}
 
 A Learner can:
 
