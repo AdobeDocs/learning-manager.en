@@ -2295,7 +2295,7 @@ As with native Learning Manager, after logging in, you can add a course to the c
 
 ### Set up the Adobe Commerce connector {#setup-commerce-connector}
 
-#### Pre-requisite {#pre-requisites}
+#### Pre-requisite {#pre-requisite}
 
 The Administrator enables the checkbox, **Enable pricing for trainings**, in **Settings > General** in the Admin app. If the option is enabled, Authors can specify prices for trainings. When you add an Adobe Commerce connection, this checkbox is automatically selected and enforced.
 
