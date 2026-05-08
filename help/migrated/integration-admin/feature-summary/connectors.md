@@ -1062,7 +1062,7 @@ To set up and use the connector, follow these steps.
 1. In Learning Manager  home page , hover the mouse over the Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
 
    <!--
- ![](assets/connectors.png)
+   ![](assets/connectors.png)
 
    *Zoom connector tile* 
    -->
@@ -1070,7 +1070,7 @@ To set up and use the connector, follow these steps.
 1. The Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
 
    <!--
- ![](assets/bluejeans-connecotrpage.png)
+   ![](assets/bluejeans-connecotrpage.png)
    *Connect to BlueJeans/ Zoom* 
    -->
 
@@ -1081,7 +1081,7 @@ To set up and use the connector, follow these steps.
 1. Once the connection is established, as an Author, create a VC course with Zoom as the conferencing system.
 
    <!--
- ![](assets/vc.jpg)
+   ![](assets/vc.jpg)
    
    *Create a VC course* 
    -->
@@ -1334,7 +1334,7 @@ The LinkedIn Learning connector is used by enterprise customers of LinkedIn.com 
 1. If you are configuring the LinkedIn Learning connector for the first time, click [!UICONTROL Connect].
 
    <!--
-Configure the Exavault FTP account before you configure this connector.
+   Configure the Exavault FTP account before you configure this connector.
 
    ![](assets/configure.jpg)
    *Configure connection*
