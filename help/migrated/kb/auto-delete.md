@@ -35,7 +35,7 @@ In Adobe Learning Manager, there is an option that allows you to delete a user i
 
 1. Click **[!UICONTROL Save]** to retain the settings made.
 
-### For External Learners:
+### For external learners:
 
 1. Log in as an **Administrator**.
 1. Under **Manage**, click **[!UICONTROL Users]** > **[!UICONTROL External]**.
