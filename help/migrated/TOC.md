@@ -143,7 +143,6 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Training Data Access connector](integration-admin/feature-summary/training-data-access-connector.md)
       * [Workday connector](integration-admin/feature-summary/workday-connector.md)
       * [Zoom connector](integration-admin/feature-summary/zoom-connector.md)
-      * [FTP connector](integration-admin/feature-summary/ftp-connector.md)
    * [Non-logged-in APIs](integration-admin/feature-summary/non-logged-in-apis.md)
    * Webhooks {#webhooks}
      * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
