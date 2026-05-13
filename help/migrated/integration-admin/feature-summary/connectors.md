@@ -15,7 +15,7 @@ This document serves as your complete reference guide to understanding and selec
 
 >[!NOTE]
 >
->This feature is partially available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details..
+>This feature is partially available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
 
 ## Connector categories
 
