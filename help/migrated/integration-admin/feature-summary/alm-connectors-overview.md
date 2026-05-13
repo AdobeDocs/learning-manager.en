@@ -11,7 +11,11 @@ contentowner: mmanuel
 
 Adobe Learning Manager (ALM) provides a comprehensive suite of connectors that enable seamless integration with third-party applications and enterprise systems. These connectors serve as bridges between your learning management system and external platforms, facilitating automated data synchronization, user management, content import, and learning record exports.
 
-This document serves as your complete reference guide to understanding and selecting the appropriate connectors for your organization's learning ecosystem. Whether you're looking to integrate with HR systems, eCommerce platforms, virtual meeting tools, or business intelligence solutions
+This document serves as your complete reference guide to understanding and selecting the appropriate connectors for your organization's learning ecosystem. Whether you're looking to integrate with HR systems, eCommerce platforms, virtual meeting tools, or business intelligence solutions.
+
+>[!NOTE]
+>
+>This feature is partially available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details..
 
 ## Connector categories
 
