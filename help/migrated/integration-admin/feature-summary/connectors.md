@@ -7,8 +7,6 @@ contentowner: mmanuel
 
 # Adobe Learning Manager connectors
 
-# Adobe Learning Manager connectors
-
 ## Introduction
 
 Adobe Learning Manager (ALM) provides a comprehensive suite of connectors that enable seamless integration with third-party applications and enterprise systems. These connectors serve as bridges between your learning management system and external platforms, facilitating automated data synchronization, user management, content import, and learning record exports.

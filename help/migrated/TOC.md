@@ -126,7 +126,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 * Integration Admin {#integration}
    * [Application developer manual](integration-admin/feature-summary/developer-manual.md)
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
-   * Learning Manager Connectors
+   * Learning Manager Connectors {#connectors}
       * [Connectors overview](integration-admin/feature-summary/connectors.md)
       * [ADFS connector](integration-admin/feature-summary/adfs-connector.md)
       * [Adobe Commerce connector](integration-admin/feature-summary/adobe-commerce-connector.md)
