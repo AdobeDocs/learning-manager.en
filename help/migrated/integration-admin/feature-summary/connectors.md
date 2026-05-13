@@ -1,25 +1,23 @@
 ---
-description: Learn on how to integrate various connectors in Learning Manager
+description: An overview about each ALM-supported connector
 jcr-language: en_us
-title: Learning Manager Connectors
-contentowner: jayakarr
-exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
+title: Ovreview of ALM-supported connectors
+contentowner: mmanuel
 ---
-# Learning Manager Connectors 
 
-## Introduction
+# Adobe Learning Manager connectors
 
-Enterprises have other applications and systems which have to be integrated with Learning Manager. Connectors are utilities that Help in performing data-based integrations such as importing data into Learning Manager from external  systems.  It also performs exporting of data to external systems from Learning Manager.
+## Adobe Learning Manager connectors
 
-Learning Manager provides Salesforce and FTP connectors. Using Salesforce connector, integration Administrators of an organization can integrate their Salesforce application with Learning Manager. As an integrator, you can also use FTP connector to auto import a set of users into your enterprise application.
+Adobe Learning Manager (ALM) provides a comprehensive suite of connectors that enable seamless integration with third-party applications and enterprise systems. These connectors serve as bridges between your learning management system and external platforms, facilitating automated data synchronization, user management, content import, and learning record exports.
 
-Learning Manager also provides the Lynda, getAbstract, and the Harvard Management System connectors. These connectors enable learners to access and consume courses from Lynda.com, getAbstract, and Harvard ManageMentor.
+This document serves as your complete reference guide to understanding and selecting the appropriate connectors for your organization's learning ecosystem. Whether you're looking to integrate with HR systems, eCommerce platforms, virtual meeting tools, or business intelligence solutions.
 
 >[!NOTE]
 >
 >This feature is partially available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
 
-Read on to know how to configure and use each of these connectors in Learning Manager.
+## Connector categories
 
 <!--
 >[!NOTE]
@@ -1607,779 +1605,239 @@ The Training Report has these additional fields:
 
 ### Learning Path-related changes {#learning-path-related-changes}
 
-#### Admin: Learning Transcripts and Unified Report {#learning-transcripts-and-unified-reports}
+| Category | Purpose | Example Connectors |
+|---------|--------|-------------------|
+| Data Transfer | File-based data exchange and bulk operations | FTP, Custom FTP, Box |
+| Virtual Classroom | Live training and meeting integration | Microsoft Teams, Zoom, Adobe Connect |
+| Enterprise Systems | HR and business system integration | Workday, Salesforce, ADFS |
+| Content Platforms | External learning content integration | LinkedIn Learning, Harvard ManageMentor, getAbstract |
+| Analytics & BI | Reporting and data visualization | Power BI, Training Data Access |
+| Authentication | Identity management and security | ADFS (SSO capabilities) |
+| eCommerce & Marketing | Sales and marketing integration | Adobe Commerce, Marketo Engage |
 
-**Existing connections**
+## Data transfer and ﬁle management connectors
 
-If the option Learning Path is disabled in the Admin account, no rows and columns are added in the reports.
+These connectors facilitate automated data exchange through ﬁle transfer protocols, enabling bulk operations and system-to-system communication.
 
-If the option Learning Path is enabled in the Admin account, the report will contain the column type Learning Path (Higher Level) for all learners who are enrolled in a Learning Path.
+### Adobe Learning Manager FTP connector
 
-**New connections**
+The FTP connector enables organizations to automate data synchronization between Adobe Learning Manager and external systems using the widely adopted File Transfer Protocol. This connector supports secure variants, including SFTP (SSH File Transfer Protocol) and FTPS (FTP Secure) for enhanced security.
 
-If the option Learning Path is disabled in the Admin account, the training report will consist of the following columns:
+#### Key capabilities:
 
-* Embedded Path: Displays the name of the Learning Program
-* Embedded Path ID: Displays the IDs for the Learning Program.
-* Embedded Course ID: Displays the IDs of courses that are inside a Learning Path.
+- Upload and download ﬁles between Adobe Learning Manager and remote servers.
+- Automated data exchange for user information and training records.
+- Support for secure ﬁle transfer protocols (SFTP, FTPS).
+- Batch processing of large data sets.
 
-In addition, the report will contain the column type Learning Path (Higher Level) for all learners who are enrolled to a Learning Path.
+For more information, see [FTP connector](/help/migrated/integration-admin/feature-summary/ftp-connector.md).
 
-In the Type column, Learning Program will be renamed as Learning Path. For existing connections, there will be no change. However, for new connections, the changes will be reflected after 30 days.
+### Custom FTP connector
 
-#### Training Report: Unified Report {#training-report}
+The Custom FTP connector provides more sophisticated ﬁle transfer capabilities, supporting structured data formats and xAPI statement exchanges. This connector is designed for organizations requiring more granular control over their data exchange processes.
 
-**Existing connections**
+#### Key capabilities:
 
-If the option Learning Path is disabled in the Admin account, no rows and columns are added in the reports.
+- Import and export user data via structured CSV ﬁles.
+- Handle learning records and xAPI statements.
+- Automated ﬁle processing from designated FTP folders.
+- Enhanced security features for sensitive data transfer.
 
-If the option Learning Path is enabled in the Admin account, the report will contain the column "Type". The column contains the new value "Learning Path (Higher level), wherever applicable".
+For more information, see [Custom FTP connector](/help/migrated/integration-admin/feature-summary/custom-ftp-connector.md).
 
-**New connections**
+### Box connector
 
-If the option Learning Path is disabled in the Admin account, the training report will consist of the following columns:
+The Box connector leverages Box's cloud storage platform to facilitate seamless data synchronization between external systems and Adobe Learning Manager. This connector is particularly useful for organizations already using Box for ﬁle management.
 
-* **Embedded Path:** Displays the name of the Learning Program
-* **Embedded Path ID:** Displays the IDs for the Learning Program.
-* **Embedded Course ID:** Displays the IDs of courses that are inside a Learning Path.
+#### Key capabilities:
 
-In addition, the report will contain the column type Learning Path (Higher Level) for all learners who are enrolled to a Learning Path.
+- Cloud-based ﬁle storage and synchronization.
+- Automated CSV data processing.
+- Integration with existing Box workﬂows.
+- Real-time data updates from designated folders.
 
-In the Type column, Learning Program will be renamed as Learning Path. For existing connections, there will be no change. However, for new connections, the changes will be reflected after 30 days.
+## Virtual classroom and meeting connectors
 
-## Custom FTP {#custom-ftp}
+These connectors integrate Adobe Learning Manager with popular video conferencing and virtual meeting platforms, enabling seamless delivery of live training sessions.
 
-**Pre-requisites**
+For more information, see [Box connector](/help/migrated/integration-admin/feature-summary/box-connector.md).
 
->[!NOTE]
->
->To set up your custom FTP, contact your CSM. The CSM will provide the required details of setting up the FTP.
->
->Setting up the FTP involves a lead time and requires IT support to allow the list of IPs and ports, and also create certain folders with specific permissions on your FTP server.
+### Microsoft Teams connector
 
-Learning Manager provides the ability to connect to your custom FTP location.
+The Microsoft Teams connector transforms Adobe Learning Manager into a comprehensive virtual classroom solution by integrating directly with Teams' meeting capabilities. This connector is essential for organizations using Microsoft 365 ecosystem.
 
-Your FTP will support these:
+#### Key capabilities:
 
-### Data Import {#data-import-2}
+- Schedule virtual classroom sessions directly from Adobe Learning Manager.
+- Automatic Teams meeting creation and management.
+- Seamless learner access without separate meeting links.
 
-User import process allows Learning Manager Administrator to fetch employee details from the Learning Manager FTP service and import them into Learning Manager automatically. Using this feature, you can integrate multiple systems by placing the CSV generated by those systems in the appropriate folders of the FTP accounts. Learning Manager picks up the CSV files, merges them, and imports the data according to the schedule. Refer to Scheduling feature for more information. 
+For more information, see [MS Teams connector](/help/migrated/integration-admin/feature-summary/install-microsoft-teams-connector.md).
 
-**Map attributes**
+### Zoom connector
 
-Integration Administrator can choose the columns of CSV and map them to Learning Manager's group-able attributes. This mapping is one time effort. Once the mapping is done, the same mapping is used in subsequent User imports. The mapping can be reconfigured if the Administrator wants to have a different mapping for importing users.
+The Zoom connector enables organizations to leverage Zoom's robust video conferencing capabilities directly within their Adobe Learning Manager environment, providing a seamless experience for both instructors and learners.
 
-### Data Export {#data-export-3}
+#### Key capabilities:
 
-The Data Export allows users to export user skills and Learner Transcripts to the FTP location to integrate with any third-party system..
- 
-### Schedule reports {#schedule-reports-2}
+- Direct Zoom meeting scheduling from Adobe Learning Manager.
+- Automated meeting link generation and distribution.
+- Real-time attendance monitoring.
+- Recording management and playback integration.
+- Breakout room support for interactive sessions.
 
-Administrator can set up scheduling tasks as per organization's requirements and users in the Learning Manager application are up-to-date according to the schedule. Similarly, Integration Admin can schedule skill export on a timely basis to be integrated with an external system. Sync can be performed on daily basis in Learning Manager application. 
+For more information, see [Zoom connector](/help/migrated/integration-admin/feature-summary/zoom-connector.md).
 
-To configure your own FTP, sign in as an Integration Admin, and click **[!UICONTROL Custom FTP]** > **[!UICONTROL Connect]**.
+### Adobe Connect connector
 
-There are two types of authentications:
+The Adobe Connect connector provides deep integration with Adobe's own virtual classroom platform, oﬀering advanced features for interactive online learning experiences.
 
-![](assets/custom-ftp-authenticationoptions.png)
-*Custom FTP authentication options*
+#### Key capabilities:
 
-* **Basic:** In basic authentication, you'll only need to provide the FTP domain url, username, and password. After providing the details, click Connect.
-* **Certification:** If customer FTP supports certificate authentication then they can choose this option. After you click Generate SSH Key, the SSH key gets downloaded to your local machine. When you open the file, the key looks like,
+- Advanced interactive features (polls, quizzes, breakouts).
+- High-quality screen sharing and presentation tools.
+- Comprehensive session recording and playback.
+- Mobile-optimized virtual classroom experience.
 
-![](assets/ssh-public-key.png)
-*SSH public key*
+For more information, see [Adobe Connect connector](/help/migrated/integration-admin/feature-summary/adobe-connect-connector.md).
 
-You must place this public key in your FTP server before you add the below details. Once you set the given key as the public key of your FTP, provide the FTP domain url and the username and click on **Connect** button to set up the connection.
+## Enterprise system integration connectors
 
-Once connection set up is done then automatically folders for import and export are created in the ftp location. After that import/export functionality is provided by Custom FTP.
+These connectors enable Adobe Learning Manager to integrate with core business systems, facilitating automated user management and organizational data synchronization.
 
->[!NOTE]
->
->A custom FTP connector can be configured with only SFTP servers.
+### Workday connector
 
-## ADFS Connector {#adfsconnector}
+The Workday connector creates a seamless bridge between your HR system and learning management platform, ensuring that employee records, organizational structures, and role assignments remain synchronized across both systems.
 
-Prerequisites to establish an ADFS connection:
+#### Key capabilities:
 
-* Log in to your Azure Portal using this URL:  [https://portal.azure.com/](https://portal.azure.com/) before registering your App. 
-* Open  Azure  Active Directory.
+- Automated user provisioning from Workday.
+- Real-time employee data synchronization.
+- Organizational hierarchy mapping.
+- Role-based learning assignment automation.
 
-## Steps to register your application {#steps-to-register-your-application}
+For more information, see [Workday connector](/help/migrated/integration-admin/feature-summary/workday-connector.md).
 
-* Click Azure Active Directory. Click **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
+### Salesforce connector
 
-   <!--![](assets/add-app-registration.png)-->
-  <!-- *Add app registration*-->
+The Salesforce connector enables organizations to integrate their customer relationship management system with learning initiatives, creating opportunities for sales training, customer education, and performance tracking.
 
-* Enter the name of the application.
+#### Key capabilities:
 
-   <!--![](assets/register-app.png)-->
-   <!--*Enter the name of the application*-->
+- Automated user import from Salesforce.
+- Custom data ﬁeld mapping.
+- Learning record export to Salesforce.
+- Sales performance correlation with training completion.
+- Customer education program management.
 
-   Click **[!UICONTROL Register]**.
+For more information, see [Salesforce connector](/help/migrated/integration-admin/feature-summary/salesforce-connector.md).
 
-* On the right pane, select **[!UICONTROL Certificates and Secrets]**.
+### ADFS (Active Directory Federation Services) connector
 
-   <!--![](assets/add-client-secret.png)-->
+The ADFS connector enables organizations to implement enterprise-grade authentication and authorization, allowing users to access Adobe Learning Manager using their existing Active Directory credentials.
 
-   <!--*Select Certificates and Secrets*-->
+#### Key capabilities:
 
-* Add a client secret.
+- Single Sign-On (SSO) implementation
+- Enterprise security compliance
+- Seamless user authentication
 
-   <!--![](assets/add-description.png)-->
+For more information, see [ADFS connector](/help/migrated/integration-admin/feature-summary/adfs-connector.md).
 
-   <!--*Add a client secret*-->
+## Content and learning platform connectors
 
-* Add a description to the secret and set its expiry to 24 months.
+These connectors expand your learning catalog by integrating external content libraries and specialized learning platforms.
 
-  <!-- ![](assets/copy-values.png)-->
+### LinkedIn Learning connector
 
-   <!--*Add description*-->
+The LinkedIn Learning connector provides access to LinkedIn's extensive library of professional development courses, allowing organizations to supplement their internal training with industry-leading external content.
 
-* Copy the value and the secret to, for example, notepad.
+#### Key capabilities:
 
-  <!-- ![](assets/copy-secret.png)-->
+- Access to LinkedIn Learning's complete course catalog.
+- Automated course discovery and import.
+- Learner progress tracking within Adobe Learning Manager.
 
-   <!--*Copy value and secret key*-->
+For more information, see [LinkedIn connector](/help/migrated/integration-admin/feature-summary/linkedin-learning-connector.md).
 
-* Select **API Permissions**.
+### Harvard ManageMentor connector
 
-   <!--![](assets/click-api-permission.png)-->
+The Harvard ManageMentor connector brings world-class leadership and management training content directly into your Adobe Learning Manager environment, providing access to Harvard Business School's renowned educational resources.
 
-  <!-- *Left pane containing API Permissions*-->
+#### Key capabilities:
 
-* Select **Add Permissions**. Also, enable the option, **Grant Admin consent**.
+- Premium Harvard Business School content access.
+- Management and leadership development modules.
+- Seamless content import and organization.
 
-   ![](assets/add-permission.png)
+For more information, see [Harvard ManageMentor connector](/help/migrated/integration-admin/feature-summary/harvard-managementor-connector.md).
 
-   *Add permissions*
+### getAbstract Connector
 
-* Select **Microsoft Graph**.
+The getAbstract connector provides access to concise business book summaries and professional insights, enabling organizations to oﬀer continuous learning through digestible content formats.
 
-   <!--![](assets/ms-graph.png)-->
+#### Key capabilities:
 
-   <!--*Select Microsoft Graph*-->
+- Access to business book summaries and insights.
+- Usage data tracking and reporting.
+- Automated completion record creation.
 
-* Select **Application permissions**.
+For more information, see [getAbstract connector](/help/migrated/integration-admin/feature-summary/getabstract-connector.md).
 
-   ![](assets/request-api-permission.png)
+## Business intelligence and analytics connectors
 
-   *Select Application permissions*
+These connectors enable advanced reporting, data visualization, and business intelligence capabilities by integrating learning data with external analytics platforms.
 
-* Search for *directory* and select **Read directory data**.
+### Power BI connector
 
-   ![](assets/read-directory-data.png)
+The Power BI connector transforms your learning data into actionable business insights by automatically synchronizing learning metrics with Microsoft's powerful business intelligence platform.
 
-   *Select Read directory data*
+#### Key capabilities:
 
-* Enter *user* as the search term.
+- Real-time learning data synchronization.
+- Custom dashboard creation and management.
+- Advanced data visualization and reporting.
+- Learner transcript and skill report integration.
 
-   ![](assets/search-user.png)
+For more information, see [Power BI connector](/help/migrated/integration-admin/feature-summary/power-bi-connector.md).
 
-   *Enter the search term*
+### Training Data Access connector
 
-* Select **Read all users' full profiles**.
+The Training Data Access connector enables organizations to create custom learning interfaces and headless learning experiences by providing API access to training data and course information.
 
-   ![](assets/select-read-all.png)
+**Key capabilities:**
 
-   *Select Read all users' full profiles*
+- Public API access to course and learning path data.
+- Custom user interface development support.
+- Headless learning experience creation.
+- Advanced search and ﬁltering capabilities.
 
-* Select **Add Permissions**.
+For more information, see [Training Data Access connector](/help/migrated/integration-admin/feature-summary/training-data-access-connector.md).
 
-   <!--![](assets/select-add-permission.png)-->
+## eCommerce and marketing connectors
 
-  <!-- *Select Add Permissions*-->
+These connectors enable monetization of learning content and integration with marketing automation platforms.
 
-### ADFS Configuration page {#adfs-configuration-page}
+### Adobe Commerce connector
 
-1. In the ADFS configuration page in Adobe Learning Manager, enter the Client ID and the Client Secret that you had obtained earlier.
+The Adobe Commerce connector transforms Adobe Learning Manager into a comprehensive learning commerce platform, enabling organizations to sell courses, certiﬁcations, and training programs through a fully integrated eCommerce experience.
 
-   Click **[!UICONTROL Connect]**.
+**Key capabilities:**
 
-1. Log in to **portal.azure.com**. The values will be populated in the Tenant ID and the Primary Domain fields.
+- Seamless eCommerce platform integration.
+- Course catalog and pricing management.
+- Automated payment processing and enrollment.
 
-### Import {#import-8}
+For more information, see [Adobe Commerce connector](/help/migrated/integration-admin/feature-summary/adobe-commerce-connector.md).
 
-#### Map attributes {#map-attributes-6}
+### Marketo Engage connector
 
-The Integration Administrator can choose ADFS  attributes and map them to corresponding Learning Manager's group-able attributes. Once the mapping is completed, the same mapping is used in subsequent user imports. It can be reconfigured if  Administrator  wants to have a different mapping for importing users.
+The Marketo Engage connector creates powerful synergies between learning activities and marketing campaigns, enabling organizations to leverage educational engagement for lead nurturing and customer development.
 
-#### Automated user import {#automated-user-import-4}
+#### Key capabilities:
 
-User import process allows Learning Manager Administrator to fetch employee details from ADFS and import them into Learning Manager automatically.
+- Automated lead creation and updates.
+- Learning activity tracking for marketing insights.
+- Course enrollment and completion event triggers.
 
-#### Filtering users {#filtering-users-4}
-
-Learning Manager Administrator can apply  filtering  to the users before importing them. For example, Learning Manager Administrator can choose to import all users in the hierarchy under one or more specific Managers. 
-
-To set up ADFS connector ,  contact the Learning Manager CSM team.
-
-## Configure ADFS connector {#configure-adfs-connector}
-
-1. In Learning Manager home page, hover  mouse  over the ADFS card/thumbnail. A menu appears. Click Connect option in the menu.
-
-   ![](assets/adfs1.jpg)
-   
-   *ADFS thumbnail*
-
-1. Click Connect to establish a new connection. The ADFS connector page appears. Enter the details of your account you want to map.
-
-   ![](assets/adfs2.jpg)
-   
-   *Establish connection*
-
-1. If you want to import ADFS user directly as a Learning Manager internal user, use the Import Internal Users option.
-
-   ![](assets/adfs3.jpg)
-   
-   *Import user to Learning Manager*
-
-1. In the mapping page, on  left   side  you can see Learning Manager's columns and on  right   side  you can see the ADFS columns. Select the appropriate column name that maps to the Learning Manager's column name.
-
-   ![](assets/adfs4.jpg)
-   
-   *Map attributes*
-
-1. To view and edit data source, as an Administrator, click **[!UICONTROL Settings]** > **[!UICONTROL Data Source]**.
-
-   The established ADFS source would be listed. If you require to edit the filter, click **[!UICONTROL Edit]**.
-
-   ![](assets/datasource.jpg)
-   *Data source setting*
-
-1. You receive a notification upon completion of import. To view or edit the import log, click **[!UICONTROL Users]** > **[!UICONTROL Import log]**.
-
-### Delete a connection {#delete-a-connection-1}
-
-To delete an established miniOrange connection, follow these steps.
-
-## Adobe Connect {#connect}
-
-1. On Adobe Connect, click the three dots on the card, and choose **Connect**.
-1. Click the **Configure Now** link in Adobe Connect Configuration section.
-1. Provide your company's Adobe Connect domain name and log in credentials.
-
-   A sample Adobe Connect URL: ***mycompany.adobeconnect.com***
-
-   You must provide the email id of the Adobe connect account's Administrator.
-
-   >[!NOTE]
-   >
-   >Only Adobe hosted connect accounts are supported in Learning Manager. Example; '.adobeconnect.com'.
-
-1. Click **[!UICONTROL Integrate]**.
-
-   After authenticating the email id, Learning Manager displays the message as Connect is successfully integrated. You can start viewing your virtual classroom courses using Adobe Connect automatically.
-
-   **After the Connect account admin has authenticated his/her email id, the request goes for approval from the Adobe Connect back-end team. It usually takes a day or two for the integration to be approved and set up.**
-
-   >[!NOTE]
-   >
-   >Adobe Connect account administrator should accept the Terms and Conditions of using Adobe Connect. If this is not accepted, your login authentication may fail. After creating the Adobe Connect account, log in to the account once. During first time login, a terms and conditions page appears.
-
-### Add virtual classroom session information {#add-virtual-classroom-session-information}
-
-If the author of a virtual classroom course has not provided the session information, then Administrator can include the session details.
-
-In Administrator login, click the VC course name. Click Instances on the left pane and Session Details.  Click the Edit icon at the right corner of the Session Details page to add the session information.
-
-With the integration of Adobe Learning Manager and Adobe Connect for creating virtual classroom modules or sessions, your Connect account should support Meeting rooms with adequate number of rooms and concurrent users for your use case. These meeting rooms are used to host Learning Manager virtual classroom modules. A new Connect meeting room is dynamically created by Learning Manager for each virtual classroom module or session within Learning Manager.
-
-
->[!NOTE]
->
->You must purchase Adobe Connect separately, apart from Adobe Learning Manager.
-
-### Adobe Connect persistent meeting room {#persistent}
-
-In Adobe Connect, customers use existing meeting rooms that they have already created in Connect. All meeting rooms in Connect are persistent and the meeting room templates are carefully set up to provide a unified experience for each persistent room.
-
-You can create a virtual classroom session using one of the already created room in Adobe Connect.
-
-Learning Manager also allows learners to enter the connect room for their virtual session using an authentication method.
-
-![](assets/adobe-connect-authentication.png)
-*Adobe Connect authentication*
-
-When creating a VC module using Adobe Connect, you can select a persistent room. If **No** is selected, a dynamic meeting room gets created as before.
-
-![](assets/persistent-room-selection.png)
-*Persistent room selection*
-
-Once a learner takes a course via Adobe Connect and completes the course, after a while, the recording of the session along with the passcode displays on the Learner app.
-
-![](assets/connect-recording.png)
-*Connect recording*
-
-### Import quiz scores from Adobe Connect {#quiz-adobe-connect}
-
-Import Connect quiz data into Learning Manager and integrate it with existing reporting workflow so that Learning Manager users can get quiz data, user responses and scores from Adobe Connect sessions within report, like the way it is available for self-paced modules having quizzes.
-
-In the Connect section, if any learner takes a quiz course or any interactions that supports quiz reporting, all interactions by the learners are tracked in addition to completion. The course must be a Connect VC training.
-
-Here is a brief workflow of the process.
-
-**Adobe Connect - Host**
-
-* The host in Connect creates a course and uploads content which contains quiz and is interactive.
-* The host creates a **Virtual Classroom** training and saves the VC training. The host has the option to link the above created course to the VC or he/she can use the **Share Course** option from within the Connect App during the session to share the course.
-
-**Learning Manager - Author**
-
-* The Author creates a course in Learning Manager with the module type as **Virtual Classroom.**
-* From the **Conferencing System** drop-down list, choose Connect as the VC Provider.
-* Choose the Persistent Meeting course and select the VC Classroom created by the host in Connect. Choose the Instructor. Save and Publish the course.
-
-**Learning Manager - Learner**
-
-* After the course is published, the learner enrolls into the course.
-* The learner is redirected to the Connect VC session where he/she is allowed access to the VC session by the Connect host.
-
-**Adobe Connect - Host**
-
-* Within the VC session, the Connect host shares the quiz that was shared previously. 
-
-**Adobe Connect - Learner**
-
-* The learner takes the quiz and closes the session once the quiz is completed.
-
-**Learning Manager - Learner**
-
-* The learner closes the session and the session syncs automatically.
-
-**Learning Manager - Admin**
-
-* Once the session has expired, the quiz import workflow will be triggered after the scheduled duration.
-* Wait until the schedule is triggered and the processing is complete. To check the processing status from the Integration admin side, you can view the **Execution Status** within the Adobe Connect connector to watch the progress. Once the execution is successful, the status will change to **Completed**.
-
-* The admin then choose the Learning Manager Course created previously. The admin sees the following:
-
-   * **Attendance & Scoring** -Displays the final quiz score and the attendance status.
-   * **L2 Quiz Score**
-
-     * **By User** - Displays the final quiz score displayed as **Points** and **Percentage**.
-     * **By Question** - Displays the quiz information as a report chart.
-
-## Marketo Engage connector {#marketo}
-
-Learning Manager integrates with Marketo Engage, a marketing automation software that helps run marketing campaigns.
-
-The Marketo Engage Connector is designed to add (or update) leads in the Marketo Engage database, when a new user is added to the Learning Manager Account. It also associates learning behaviors of the user in Learning Manager (course enrollment, course completion, skill assignment and skill accomplishment) as custom objects with the corresponding leads in Marketo Engage. This enables a marketer to use this information to target audiences based on their learning behaviors captured from Learning Manager and use features of Marketo Engage like "Smart Lists".
-
-As an Integration Admin, you can integrate Learning Manager with a Marketo Engage instance to automate data synchronization. You can export internal users and export training enrollments and skill completion events. The operations can be performed on a schedule, and these can be configured, on demand.
-
-For Learning Manager to integrate with your Marketo account, your Marketo account needs to have the ability to create schemas by APIs.
-
-From the Marketo app, you can download these three reports:
-
-* User report
-* Learning Transcript
-* User skill report
-
-When you create a Marketo Engage connection, you must provide the following details:
-
-* Connection name
-* Client Id
-* Client Secret
-* Marketo Engage Domain
-
-![](assets/marketo-creds.png)
-
-*Enter credentials for Marketo*
-
->[!NOTE]
->
->You can get the Client Id and secret from the Marketo Engage app. On the Marketo app, you can get the Client id and secret from the **LaunchPoint** section, and the Marketo Domain from the **WebServices** section.
-
-On the **Unified Reports** section of the Markeo Engage connection in the Learning Manager app, you can create campaigns based on the following:
-
-* A new user is added to Learning Manager  
-* A new user is enrolled to a course
-* A new user has completed a course
-* A learner is enrolled into a skill
-* A learner has achieved a skill
-
-Like any other connector, you can schedule and export data on demand.
-
-### Column mapping in Marketo Engage {#column-mapping-in-marketo-engage}
-
-In Marketo, there are two types of databases:
-
-* Lead Database
-* Custom Object Database
-
-Column mapping is used to create lead database. Leads are users that you've exported from the User Report.
-
-The fields from the User Report are listed under the column Adobe Learning Manager. The fields under the column Marketo are what Marketo provides. Using both the columns, you can map any field in Learning Manager to that from Marketo. From a Learning Manager column you join a related column from Marketo. After joining the columns, a lead database gets created.
-
-You can then view all the exported users in Marketo.
-
-In the **Marketo Custom Objects** section in the Marketo app, you can see that all the three reports, Learner Transcript, User Skill, and User Report, are present. These reports have the string **"cp_"** prepended to each. Each new user who gets exported to Marketo is considered as a lead.
-
-### Events
-
-Export data from Learning Manager events to a Marketo Engage instance. Select the events to export to the Marketo Engage database either on demand or on a schedule.
-
-* New user addition
-* Update user metadata
-* Update user activity
-* Training enrollment
-* Self enrollment
-* Skill completion
-
-<!--
-## BlueJeans Events {#bj-events}
-
-BlueJeans Events connector connects Learning Manager and BlueJeans systems to automate data synchronization. Using this connector, you can:
-
-* **Set up virtual sessions using BlueJeans Events:** Configure a new event in BlueJeans and setup a VC session in Learning Manager by selecting the appropriate BlueJeans event. Date and time details are picked automatically from the BlueJeans events.
-* **Automated User Completion Syncing:** An Automated user completion syncing process allows the Learning Manager Administrator to fetch completion records for BlueJeans events automatically.
-
-This new connector requires a separate set of credentials to configure the connector. The credentials of the existing BlueJeans Meetings connector will not work for BlueJeans Events connector.
-
-![](assets/bj-event-connector.png) 
-*Credentials for BlueJeans Event Connector*
-
-### Workflow {#workflow}
-
-1. The BlueJeans Event moderator creates an event from within BlueJeans.
-1. The author creates BlueJeans event course using the BlueJeans event url, which is created in future dates.
-1. Since BlueJeans events have a similar title for multiple events, the author must append the event attendee url to the room name, so that he/she can choose the appropriate event.
-
-   The format to enter event url: ***event name--event attendee url***
-
-   For Dynamic rooms, the behavior is similar to that of Adobe Connect.
-
-   ![](assets/bj-eventname.png)
-   *BlueJeans Events configuration*
-
-1. Once the author enters the BlueJeans event url, the date and time will be auto populated.
-1. Add an instructor to the event. The instructor will now have elevated privileges as a Presenter in a BlueJeans event.
-
-Administrators, managers, and learners can enroll learners to the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
-
-When the course is complete, the completion report gets triggered after a scheduled duration. The administrator can see the completion report to check the attendance and score of the learners.
-
-If the BlueJeans Event moderator enables the recording during the session, after session ends, the recording is available in the learner app.
-
-![](assets/bluejeans-event-configure.png)
-*BlueJeans Events configuration*
-
-When you enable the check-box **Fetch Events created by the other users**, you can then add the list of BlueJeans event creators in the **Additional Event Creators** field. In the Author app, only events created by these users are searchable via the type-ahead field.
-
-If the **Additional Event Creators** field is left blank, all events created in BlueJeans will be available for searching in the Author App.
-
-The Author, in the Author app, then selects an event from the list of available events. In addition, the Author can add instructors to the event. These instructors in Learning Manager would become the presenters within BlueJeans events.
-
->[!NOTE]
->
->All users must belong to the same enterprise in BlueJeans Events App.
-
->[!NOTE]
->
->We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.
--->
-
-## Microsoft Teams Connector {#microsoft-teams-connector}
-
-Microsoft&reg; Teams&reg; is a persistent chat-based collaboration platform that supports document sharing, online meetings, and other features for business communications.
-
-Adobe Learning Manager uses a virtual classroom connector that can be used to integrate Microsoft Teams meetings into Learning Manager.
-
-Microsoft Teams connector connects the Learning Manager and Microsoft Teams systems to enable automatic data synchronization. The following list describes the Microsoft Teams connector capabilities:
-
-### Set up virtual sessions using Microsoft Teams
-
-This connector helps integrate your Adobe Learning Manager account with your Microsoft Teams account. Once integrated, the connector enables an Author in Learning Manager to use Microsoft Teams as the technology service provider for the Virtual Classroom modules created in Learning Manager.
-
-### Allow Microsoft Teams to authenticate learners when entering virtual classroom
-
-A meeting organizer can enable lobby to restrict entry into the meeting as well as control the other meeting options as provided by Microsoft Teams.
-
-### Use automated user completion syncing
-
-The automated user completion syncing process allows a Learning Manager Administrator to automatically fetch the completion records and recording URL for the Teams meeting.
-
-For more information, see  [Install Microsoft Teams connector in Adobe Learning Manager](install-microsoft-teams-connector.md).
-
-## Training data access connector {#training-data-access}
-
->[!IMPORTANT]
->
->This specific functionality is available only if Adobe Learning Manager is sold as an add-on to Adobe Experience Manager. The course data would be stale in 24 hours.
-
->[!NOTE]
->
->The section highlights how the infrastructure works but for building a headless or AEM-based non-logged-in experience, please contact us. We will suggest the right approach basis your use case. This functionality is not currently available as self-serve.
-
-The **[!UICONTROL Training Data Access]** connector lets you create a headless experience. This experience can be standalone, or a custom user interface based on AEM Sites. It helps retrieve and display training information to learners and allows searching and filtering. Once the data connector is enabled, a set of public APIs will be available to build the interface, where the course/learning path information will be displayed to learners.
-
-### Configure the connector {#configure-training-data-connector}
- 
-Use the **[!UICONTROL Training Data Access]** connector to integrate your Adobe Learning Manager account with data storage and search systems. This helps your AEM Sites-based interface get training data, display web pages, and offer better search options for learners.
-
-Export training metadata from Adobe Learning Manager to the data retrieval and search enablement services using the APIs. You can also create a schedule to automate these exports.
-
-To configure the training data access connector, follow these steps:
-
-1. In the Integration Admin app, select **[!UICONTROL Training Data Access]** > **[!UICONTROL Getting Started]**.
-1. Select **[!UICONTROL Next]** on the **[!UICONTROL Getting Started]** page.
-1. Type the connection name and allow-listed domains.
-   
-   ![](assets/connection-name-and-domain-name.png)
-   Type connection name and domain name
-
-1. Select the **[!UICONTROL Type of interface]** from the following options:
-
-   * **[!UICONTROL Native Learning Manager]**: This is the standard offering, which is available only for native interface.
-   * **[!UICONTROL  Headless interfaces]**: This is the premium offering that exposes APIs to build a non-logged-in experience.
-
-   ![](assets/types-of-interface.png)
-   Types of interface
-
-1. Select **[!UICONTROL Connect]**. The base URL and the CDN URL will be auto-generated.
-   You can use these URLs to retrieve the data using APIs.
-
-   >[!NOTE]
-   >
-   >Customers using the premium offering will get a different URL than those using the standard offering.
-
-
-1. Select **[!UICONTROL Export Training Metadata]** on the connector page.
-1. Select **[!UICONTROL Enable training metadata export]** using this connection to export the training data.
-1. Once you enable the connection, the images of all the courses, learning paths, and certificates get migrated to the CDN.
-1. Export the metadata of the courses, learning paths, and certificates into the search and retrieval service. 
-1. You can schedule the metadata export by selecting the Enable schedule option. The schedule will occur automatically every 3 hours for the premium plan.
-1. For an on-demand report, go to **[!UICONTROL On Demand]**, select the **[!UICONTROL Start date]**, and then **[!UICONTROL click]** Execute.
-You can check the status of the report execution on the **[!UICONTROL Execution Status]** page.
-
-### Create website in AEM {#create-website-in-aem}
-
-**Pre-requisite:** Install the AEM package from the  [GitHub repository](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
-
-1. Use the base and retrieval URLs, Client ID, Client Secret, and Admin Refresh Token and create a configuration in AEM. 
-1. Create the website using the AEM components.
-1. Publish the website.
-
-For more information, see this  [document](../../adobe-learning-manager-integration-aem.md).
-
-### Learners {#learners}
-
-The published website displays a list of all migrated Courses, Certificates, and Learning Paths that are retrieved from the search service for non-logged in learners.
-
-When a learner clicks Course or Certificate or Learning Path, the Overview page launches. On the page, when the learner enrolls, they must log in first, and then take the Course.
-
-### Non-logged-in experience {#non-logged-in-experience}
-
-The non-logged-in experience allows you to create learning experiences for for non-logged-in users. For example, a non-logged-in experience serves as a landing page for marketing campaigns to encourage sign-ups. 
-
-The non-logged-in experience in Adobe Learning Manager can be configured using the **[!UICONTROL Training Data Access]** connector. The connector provides the following offerings:
-
-* Standard offering
-* Premium offering
-
-#### Standard offering
-
-The standard offering is to build the native version of Adobe Learning Manager. Users can build a demonstration-only, non-logged-in headless experience. The demonstration headless experience is unscalable and should not be used in a production environment.
-
-#### Premium offering
-
-The premium offering helps users build a headless interface, which is configured by the **[!UICONTROL Training Data Access]** connector. For blended learning scenarios, you also get real-time seat limits, seats occupied, waitlist limits, and waitlist counts. Customers can use these APIs to create search and filter capabilities and a complete course summary for non-logged-in learners.
-
-Customers can purchase a premium plan to build this highly scalable non-logged-in experience. 
-
->[!NOTE]
->
->Please contact the support team or CSM to purchase the premium plan.
-
-After a user buys a plan, the CSM team will activate the premium plan for them. Using the Training Data Access connector, users can set up a non-logged-in experience with the features mentioned earlier.
-
-## Adobe Commerce connector {#adobe-commerce-connector}
-
->[!NOTE]
->
->This specific functionality is available only if Adobe Learning Manager is sold as an Add-on to Adobe Experience Manager.
-
->[!NOTE]
->
->This connector can be enabled for trial accounts also.
-
-Adobe Learning Manager now offers integration with Adobe Commerce, a platform to build eCommerce experiences for B2B and B2C customers.
-
-Adobe Commerce is an extensible and scalable commerce enablement solution that enables you to build multi-channel commerce experiences for B2B and B2C customers on a single platform. Use the Adobe Commerce connector to connect your Adobe Learning Manager account with Adobe Commerce and realize e-commerce capabilities on the learning platform. 
-
-Enable this connector and utilize the Adobe Commerce features to provide the learning offerings as paid training. Note that you need to purchase Adobe Commerce separately before you can integrate it with Adobe Learning Manager using this connector.
-
-The connector integrates with Adobe Commerce by sending training data to the commerce platform, which then enables learners to make a payment and purchase training. 
-
-In addition to initiating a purchase, the connector also collects purchase details from Adobe Commerce, which is used by Adobe Learning Manager to validate the purchase and unlock access to the training.
-
-### Pre-requisites
-
-1. Enable  [RabbitMq](https://devdocs.magento.com/cloud/project/services-rabbit.html) or any other messaging broker.
-1. Enable  [CRON](https://devdocs.magento.com/cloud/env/variables-deploy.html#cron_consumers_runner).
-1. For steps 1 and 2, edit the following files:
-
-   1. .magento.app.yaml
-   1. .magento/services.yaml
-   1. .magento.env.yaml    
-
-1. Override options limit via custom module. This is an optional step but highly recommended for large datasets.
-1. Enable all async APIs on the page. Since there may be a lot of data, the export happens asynchronously. The APIs from Adobe Commerce are called the request payload is sent. The request pushes the messages to a queue and there is a consumer to this queue, which processes these messages and creates products on the commerce side. Adobe Commerce does not provide this async processing by default. That is why you must enable this option.  
-1. Add a link to return to ALM on the payment success page. This return URL must be configured in Adobe Commerce. The URL to be used for the link. -  `https://learningmanager.adobe.com/app/learner#/postPayment`
-1. Change indexing from "On save" to "Scheduled".  For more information, see this  [KB](https://support.magento.com/hc/en-us/articles/360040227191).
-1. Apply the following patches. For more information, see  [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html).
-1. Configure Fastly.  Fastly is required for Adobe Commerce on cloud infrastructure, and is used in Staging and Production environments. For more information, see [Set up Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html).
-
-### Configure the connector {#configure-connector}
-
-As an Integration Administrator, in the Adobe Commerce connector, click **[!UICONTROL Connect]**.
-
-On the configuration page, enter the following details. These details, the authorization keys, are available in Adobe Commerce. Once you create an integration in Adobe Commerce, the credentials will be available there. 
-
-![](assets/adobe-commerce-configuration.png)
-*Configure Adobe Commerce Connector*
-
-Once Adobe Commerce connector connection is enabled, an author can set the price for a course, Learning path, or a certificate.
-
-After the course, Learning Path, or certificate is published, a learner can buy courses the learner app.
-
-* **Native Learning Manager:** The learner can purchase a course, Learning Plan, or a certificate from within Learning Manager. This is only applicable where the author has added a price.
-* **Custom-made using AEM sites:** The learner can purchase a course from an AEM site.
-
-### Workflow {#workflow}
-
-The Adobe Commerce Administrator configures Learning Manager as an integration.
-
-The Author marks the courses, Learning Paths, or certificates as premium and assigns prices. This option comes only if ecommerce is enabled for the account. For more information, see [Create courses](../../authors/feature-summary/courses.md).
-
-The course or Learning Path will not be available for purchase until the data is synchronized in Adobe Commerce. 
-
-### Export courses to Adobe Commerce {#export-commerce}
-
-After an author has set the prices on various courses, Learning Paths, or certifications, you, as the Integration Administrator, will export the courses, Learning Paths, or certifications into Adobe Commerce.
-
->[!NOTE]
->
->In the March 2024 release of Adobe Learning Manager, we've introduced support for [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
-
-
-1. Click **[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**.  
-
-1. Select the dates.  
-
-1. Click **[!UICONTROL Execute]**. Upon successful execution, all courses or Learning Paths that are priced, will be moved to Adobe Commerce. The learner can then buy the course from Learning Manager. 
-
-### Native Learning Manager with Adobe Commerce {#learning-manager-with-commerce}
-
-#### Learner {#learner}
-
-As a learner, you must be logged in to buy a course, certificate, or a Learning Path.
-
-To purchase the course, click Buy now. You are redirected to Adobe Commerce to complete the purchase. Once the payment is successful, you can see a message that prompts you to return to Learning Manager and start the course. You must also log in to Adobe Commerce separately to complete the purchase.
-
-When you purchase a Course, Certificate, or Learning Path from ALM Native or AEM, you get emails from ALM as well as Adobe Commerce.
-
-In addition, you can enable/disable emails from Adobe Commerce as well.
-
-### AEM sites with Adobe Commerce {#aem-sites-with-adobe-commerce}
-
-When the Custom-made using AEM sites option is enabled, you, as a learner, can buy courses from a custom-built AEM site. 
-
-The AEM site will have all the metadata from Learning Manager for enabling search through Adobe Commerce. The courses are fetched from Adobe Commerce in non-logged in cases.
-
-Both logged in and non-logged in experience is possible. Non-logged in users can search and browse the course catalog, Learning Plan, and Certificates. However, if you want to purchase a course, you must log in to the AEM site.
-
-As with native Learning Manager, after logging in, you can add a course to the cart and then preview or buy the course. 
-
-### Set up the Adobe Commerce connector {#setup-commerce-connector}
-
-#### Pre-requisite {#pre-requisite}
-
-The Administrator enables the checkbox, **Enable pricing for trainings**, in **Settings > General** in the Admin app. If the option is enabled, Authors can specify prices for trainings. When you add an Adobe Commerce connection, this checkbox is automatically selected and enforced.
-
-Adobe Learning Manager supports eCommerce to buy and sell training. Here, users can sell training to promote the up-selling and cross-selling of their products. 
-
-With the integration of Adobe Commerce, Adobe Learning Manager supports buying and selling of training to provide a more complete customer experience in Customer Partner Education scenarios.
-
-The primary objectives of this integration are as follows:
-
-* Users can generate revenue by selling courses on Adobe Learning Manager or on a Headless learning interface.  
-* Enable Adobe Commerce integration to the platform to sell courses using Learning Manager's native app and AEM.  
-* Allow Learning Manager's customers to offer formal learning in the form of paid courses.   
-* Enable learners to preview courses before deciding to purchase the training.
-
-#### Adobe Learning Manager native {#native-learning-manager}
-
-**Integration Administrator**
-
-1. On the Integration Administrator page, add the Adobe Commerce connector. Get the authentications from the application that was created in Adobe Commerce.
-1. Once Adobe Commerce is enabled, eCommerce is enabled on Adobe Learning Manager. The data from Learning Manager to Adobe Commerce is synced according to a schedule. The data includes all the training (paid) along with the metadata (users, skills, author name, price etc.).
-
->[!NOTE]
->
->Adobe Learning manager and Adobe Commerce have different logins.
-
-### AEM {#aem}
-
-In this mode, a Learner takes the course off an AEM-based site, which is built by using AEM-based templates and components.
-
-On the AEM site, the learner has support for shopping cart, add to cart button, deleting courses from the shopping cart, and so on.
-
-If the user is not logged in, they can still search for course catalogs and view course details but cannot purchase a course. As a learner, you must be logged in if you want to purchase a course.
-
-After the Learner purchases the course, they are redirected to the course overview page in the enrolled state, where they can take the purchased training.
-
-#### Headless - Non-logged in {#headless-non-logged-in}
-
-A Learner can:
-
-* Search for any training from the search bar.
-* Filter any training by price range.
-
-A learner cannot:
-
-* Purchase a course from the Overview page.
-* Preview paid content.
-
-#### Headless - Logged in {#headless-logged-in}
-
-A Learner can:
-
-* Explore, view, search, and filter paid or free training courses.
-
-* Add a course to a cart and then check out for purchase.
-* Add, update, or delete training courses in the cart.
-* Simultaneously pay for multiple training courses.
-* Preview a paid course in the Player.
-* See messages if there is a payment error.
-
-* See the invoice as an attachment in the email after purchasing the course.
-
-#### On-demand sync {#on-demand-sync}
-
-The sync between Learning Manager and Adobe Commerce happens twice daily. After the Administrator enables an account for e-commerce, the **Enable training metadata export using this connection** option, when enabled, stores the images of the Course, Learning Path, and Certificates in a public CDN.
-
-If the data remains unsynchronized, the pricing information do not appear for a learner.
-
-For native Learning Manager, if e-commerce is enabled and sync between Learning Manager and Adobe Commerce is completed, learners can view or search free or paid training.
-
-For AEM, there is no Buy Now, only an **Add to Cart** button. This button also remains disabled if the sync is not performed.
-
-#### Frequently Asked Questions {#faqs}
-
-+++What courses cannot be purchased?
-
-Courses, such as, recurring certifications, content marketplace training, acquired training, training from connectors, Job Aids, and Manager approved/nominated courses cannot be purchased by a learner.
-+++
-
-+++Is there any change in the Learner Transcript and Trainings Report?
-
-These reports display the price and the date of purchase for all purchased training in the account.
-+++
-
-+++Can a learner enroll in a free training?
-
-Yes, a learner can enroll in free training. Free training displays the Preview and Enroll button on the Training Overview page.
-+++
+For more information, see [Marketo Engage connector](/help/migrated/integration-admin/feature-summary/marketo-engage-connector.md).
