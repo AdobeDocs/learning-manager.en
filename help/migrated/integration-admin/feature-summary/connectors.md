@@ -78,11 +78,11 @@ The Box connector leverages Box's cloud storage platform to facilitate seamless 
 - Integration with existing Box workﬂows.
 - Real-time data updates from designated folders.
 
+For more information, see [Box connector](/help/migrated/integration-admin/feature-summary/box-connector.md).
+
 ## Virtual classroom and meeting connectors
 
 These connectors integrate Adobe Learning Manager with popular video conferencing and virtual meeting platforms, enabling seamless delivery of live training sessions.
-
-For more information, see [Box connector](/help/migrated/integration-admin/feature-summary/box-connector.md).
 
 ### Microsoft Teams connector
 
@@ -163,6 +163,9 @@ The ADFS connector enables organizations to implement enterprise-grade authentic
 - Single Sign-On (SSO) implementation
 - Enterprise security compliance
 - Seamless user authentication
+- Automated user import
+- Ability to schedule
+- Ability to filter
 
 For more information, see [ADFS connector](/help/migrated/integration-admin/feature-summary/adfs-connector.md).
 
