@@ -3,7 +3,7 @@ cloud: Experience Cloud
 solution: Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
-    label: "Learning Manager"
+    internal-label: "Learning Manager"
 product: experience cloud
 type: Documentation
 mini-toc-levels: 2
