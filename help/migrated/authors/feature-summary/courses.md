@@ -43,15 +43,16 @@ To create a course, follow the steps below:
 
 ## Create a course - Advanced workflow {#createacourseadvancedworkflow}
 
-1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Getting Started page, click **[!UICONTROL Create Courses]**.
-1. On the **Course Overview** page, enter the name of the course. Now, enter a short description for this course, which is displayed on the course card. This description must not be more than 140 characters. Then enter the detailed overview for the course, which is displayed on the Course Details page. The description must not exceed 1500 characters.
-1. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **[!UICONTROL Save]**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
-1. **Modify course settings**-
+1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Home page, select **[!UICONTROL Create Courses]**. The Courses Catalog page opens and a list of courses appear.
+2. Select **Add** on the upper right. A page opens to create a new course.
+3. Enter a name for the course and a short description. This description is displayed on the course card. This description must not be more than 140 characters. Then enter the detailed overview for the course, which is displayed on the Course Details page. The description must not exceed 1500 characters.
+4. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **[!UICONTROL Save]**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
+5. **Modify course settings**-
 
-   1. On the Course Settings page, choose a skill for the course. From the Skill drop-down list, choose the required skill. Then, from the Level drop-down list, choose the required level.
-   1. Choose the course skills, level, and set the credits for the skill. Add more skills, if required.
-   1. Add the custom compliance labels to the course, if required. See [Add compliance labels to course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification). 
-   1. From the **Enrollment Type** drop-down list, choose the type of enrollment.
+   a. On the Course Settings page, choose a skill for the course. From the Skill drop-down list, choose the required skill. Then, from the Level drop-down list, choose the required level.
+   b. Choose the course skills, level, and set the credits for the skill. Add more skills, if required.
+   c. Add the custom compliance labels to the course, if required. See [Add compliance labels to course/learning path/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification). 
+   d. From the **Enrollment Type** drop-down list, choose the type of enrollment.
 
    The following are the types of enrollments:
 
@@ -59,13 +60,15 @@ To create a course, follow the steps below:
    * **Manager approved:** Managers approve these courses. Learners can sign up for these courses, but they are not enrolled directly to these types of courses without Manager's approval. A notification request is sent to Managers when learners sign up for these types of courses. Upon Manager approval, these courses are listed as enrolled for learners.
    * **Self-enrolled:** Learners can directly enroll themselves to these types of courses.
 
-1. Choose if you want to set a price for your course or make it free. If you want to make the course paid, choose the option **[!UICONTROL Paid]**, and specify a price. The price then appears on the Course card and the Course overview page for a learner.
+6. Choose if you want to set a price for your course or make it free. If you want to make the course paid, choose the option **[!UICONTROL Paid]**, and specify a price. The price then appears on the Course card and the Course overview page for a learner.
 
-   NOTE: This is only enabled when Adobe Commerce connector is configured.
+   >[!NOTE]
+   >
+   >This is only enabled when Adobe Commerce connector is configured.
+   
+7. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box **Learners can unenroll themselves**.
 
-1. If you want to provide the ability for learners to unenroll themselves from your course, enable the check-box **Learners can unenroll themselves**.
-
-1. **Instance Configuration**
+8. **Instance Configuration**
 
    If you enable this option, learners who are in the state, In Progress,  can visit other instances and enroll there. A learner can then retain the progress of the previous instance.
 
@@ -77,8 +80,10 @@ To create a course, follow the steps below:
    * Virtual Classroom
    * Classroom
    * Activity
-
-   Note: While duplicating a course, if you had enabled the option Instance Configuration in the source course, the option remains disabled in the destination course.
+ 
+   >[!NOTE]
+   >
+   >While duplicating a course, if you had enabled the option Instance Configuration in the source course, the option remains disabled in the destination course.
 
    **Instance Switch isn't supported for**:
 
@@ -87,18 +92,18 @@ To create a course, follow the steps below:
 
    Instance switch configuration will not be propagated to peer accounts if shared through the catalog, the option remains disabled in the destination course.
 
-1. **Multiple enrollments**
+9. **Multiple enrollments**
 
    Using this, you can enroll learners in more than one course instance at one or different periods.
 
    Enable the toggle **Multiple Enrollment** to switch between various course enrollments of a learner. If you've enabled Instance Switch, you cannot use Multiple Enrollment.
 
-1. Select the pre-requisite courses that must be completed before taking up your course. Click the Courses field and choose from the list of courses.
-1. Enable the **Enable** **Prerequisites** check-box if you want the pre-requisite courses to me made mandatory.
-1. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
-1. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
-1. In the Auto Retire field, select a date when the course retires. The Administrator must enable the Auto Retire option first.
-1. To save the changes, click **[!UICONTROL Save]**. To publish the course, click **[!UICONTROL Publish]**.
+10. Select the pre-requisite courses that must be completed before taking up your course. Click the Courses field and choose from the list of courses.
+11. Enable the **Enable** **Prerequisites** check-box if you want the pre-requisite courses to me made mandatory.
+12. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
+13. Add keywords as tags related to your course. These tags help the learners to locate your course easily during search. All these tags are automatically added based on the modules that we have added. If you have other tags that you want to add to this course, you can go ahead and enter it.
+14. In the Auto Retire field, select a date when the course retires. The Administrator must enable the Auto Retire option first.
+15. To save the changes, select **[!UICONTROL Save]**. To publish the course, click **[!UICONTROL Publish]**.
 
 ### Add compliance labels to course/learning path/certification {#add-custom-compliance-label}
 
@@ -124,7 +129,70 @@ Now the course/learning path/certification is considered as a compliance type. A
 
 >[!NOTE]
 >
->Authors can also add the compliance labels to an existing course/learning path/certification by editing them. 
+>Authors can also add the compliance labels to an existing course/learning path/certification by editing them.
+
+## Create an instance
+
+To create an instance, do the following:
+
+1. Log in as an **Author**.
+2. Navigate to the course for which you want to create an instance and open the course.
+3. Select **Instances** on the left navigation panel. The **Instances** page opens. Every course has an instance by default. You can either modify the default instance or add instances. You cannot delete this course instance.
+4. To create an instance, click **[!UICONTROL Add New Instance]** on the upper-right corner of the course information. A new instance of the course is displayed.
+5. Enter the properties of the instance:
+
+   * In the **[!UICONTROL Instance Name]** field, enter the name of the instance you want to associate with the course. Ensure that you use a unique name for the instance.
+   * **Start Date:** This is the start date of the course. Two reminder emails can be sent on two different selected dates to the Learner before this start date. The start date has to be a date before the date of completion. Once you select the start date, this date will be highlighted in blue in the calendar in the **Notificiation Alerts** section of the instance.
+   ![](assets/start-date-highlighted-instance.png)
+   * Specify the completion deadline for the instance. Learners must achieve course completion status by this date.
+   * Select **[!UICONTROL Show More Options]** to display other deadline options.
+   * **[!UICONTROL Enrollment Deadline]:** This is the date by which a learner is expected to enroll into a learning object in case of self-enrollment.
+   * **[!UICONTROL Unenrollment Deadline]:** You can choose to restrict unenrollment by learner himself by having an unenrollment deadline.
+   * **[!UICONTROL Timezone]:** Search and then select the **[!UICONTROL Timezone]** from the dropdown.
+
+6. Select **Save**.
+   ![](assets/start-date-instance.png)
+
+### Set email reminders before the start date
+
+You can set email reminders only after you save the entire instance information. Once you select **Save**, the instance minimizes itself and goes into the edit mode.
+
+1. Select the **Notification Alerts** box.
+2. On the calendar, select a date which is before the start date of the course for the first reminder.
+3. Select **Add reminder** on the right.
+4. **Email Template:** Select a template from the drop-down **list
+5. **Recurrence:** Select a type of recurrence from the drop-down list.
+Select the blue check mark on the right to save the reminder date. Remember each reminder date has to be saved separately.
+![](assets/start-date-reminder1.png)
+6. Select another date which is also before the start date of the course for the second reminder, repeat the process, and select the blue check mark on the right to save this reminder date as well.
+![](assets/start-date-reminder2.png)
+
+### View properties of the instance {#viewpropertiesoftheinstance}
+
+![](assets/properties-of-aninstance.png)
+
+*View properties of the instance*
+
+1. **Modules:** The number of modules created by the author of the course
+2. **Sessions:** The number of Virtual Classroom and Classroom modules in the course
+3. **Achievements:** The achievements of the learners
+4. **Notification Alerts:** The option to send two reminder emails before the start date of the course
+
+### Actions {#actions}
+
+* **Save to Course Settings:** Saves the settings of this instance to the course from where you created the instance.
+* **Apply Default Settings:** Applies the default settings found in the **Configure** > **Instance Defaults** page.
+* **Retire Instance:** Retired an instance. The instance will not be available anymore.
+* **Delete Instance:** Deletes the particular instance.
+![](assets/delete-this-instance.png)
+*Delete an instance*
+
+>[!NOTE]
+>
+>You cannot delete the default instance or a copy of the default instance. In such cases, the Delete Instance option will not appear under the Action drop-down list.
+
+* **Notify Waitlisted Learners:** Notifies waitlisted learners that there is another instance where they can enroll
+* **Email Enrolled Learners:** Sends emails to learners about important announcements
 
 ## Gamification points
 
