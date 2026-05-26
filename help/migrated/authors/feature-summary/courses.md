@@ -167,11 +167,7 @@ Select the blue check mark on the right to save the reminder date. Remember each
 6. Select another date which is also before the start date of the course for the second reminder, repeat the process, and select the blue check mark on the right to save this reminder date as well.
 ![](assets/start-date-reminder2.png)
 
-### View properties of the instance {#viewpropertiesoftheinstance}
-
-![](assets/properties-of-aninstance.png)
-
-*View properties of the instance*
+## View properties of the instance {#viewpropertiesoftheinstance}
 
 1. **Modules:** The number of modules created by the author of the course
 2. **Sessions:** The number of Virtual Classroom and Classroom modules in the course
@@ -184,8 +180,7 @@ Select the blue check mark on the right to save the reminder date. Remember each
 * **Apply Default Settings:** Applies the default settings found in the **Configure** > **Instance Defaults** page.
 * **Retire Instance:** Retired an instance. The instance will not be available anymore.
 * **Delete Instance:** Deletes the particular instance.
-![](assets/delete-this-instance.png)
-*Delete an instance*
+
 
 >[!NOTE]
 >

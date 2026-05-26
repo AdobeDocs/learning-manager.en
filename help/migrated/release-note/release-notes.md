@@ -23,7 +23,7 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 Release date: May 26, 2026
 
-## Enhancements
+## Enhancements (Instance and Session Invite Email)
 
 **Start Date for an Instance:** As an Admin or an Author, you can now include a start date for an instance when you are creating or editing an instance.
 
