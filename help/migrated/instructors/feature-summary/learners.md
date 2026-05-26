@@ -136,7 +136,7 @@ All updates are reflected automatically in learner records, transcripts, and rep
 
 * Training events for partners or customers allow the on-site trainer to easily adapt to changes in the room, additional sessions, or extra attendees without needing to consult the administrator for new QR codes.
 
-### Calendar invites
+### Calendar invites {#calendarinvites}
 
 * When a learner or instructor is enrolled in a classroom or virtual classroom session, Learning Manager sends a calendar invite (ICS file).
 * The calendar invite includes:

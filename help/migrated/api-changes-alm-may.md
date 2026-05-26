@@ -1,10 +1,10 @@
 ---
 description: API changes in ALM
 jcr-language: en_us
-title: API changes in April release
+title: API changes in the May 2026 patch release
 ---
 
-# API changes in the May 2026 release
+# API changes in the May 2026 patch release
 
 ## GET /learningObjects API enhancement
 

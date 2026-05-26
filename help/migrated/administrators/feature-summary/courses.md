@@ -32,18 +32,19 @@ After an author has created a course, you can create instances of the course. By
 To create an instance,
 
 1. On the Administrator web app, click **[!UICONTROL Courses]** on the left pane.
-1. On the list of courses, choose the required course, and click **[!UICONTROL View Course]**.
+2. On the list of courses, choose the required course, and click **[!UICONTROL View Course]**.
 
    ![](assets/view-course.png)
 
    *View a course*
 
-1. To create instances, click **[!UICONTROL Instances]** on the left pane. Every course has an instance by default. You can either modify the default instance or add instances. You cannot delete this course instance.
-1. To create an instance, click **[!UICONTROL Add New Instance]** on the upper-right corner of the course information. A new instance of the course is displayed.
-1. Enter the properties of the instance:
+3. To create instances, click **[!UICONTROL Instances]** on the left pane. Every course has an instance by default. You can either modify the default instance or add instances. You cannot delete this course instance.
+4. To create an instance, click **[!UICONTROL Add New Instance]** on the upper-right corner of the course information. A new instance of the course is displayed.
+5. Enter the properties of the instance:
 
    * In the **[!UICONTROL Instance Name]** field, enter the name of the instance you want to associate with the course. Ensure that you use a unique name for the instance.
-   * **Start Date:** This is the start date of the course. Two reminder emails can be sent on two different selected dates to the Learner before this start date. The start date has to be a date before the date of completion. Once you select the start date, this date will be highlighted in blue in the calendar in the **Notificiation Alerts** section of the instance.
+   * **Start Date:** This is the start date of the instance. Two reminder emails can be sent on two different selected dates to the Learner before this start date. The start date has to be a date before the date of completion. Once you select the start date, this date will be highlighted in blue in the calendar in the **Notificiation Alerts** section of the instance.
+   ![](assets/start-date-instance.png)
    ![](assets/start-date-highlighted-instance.png)
    * Specify the completion deadline for the instance. Learners must achieve course completion status by this date.
    * Select **[!UICONTROL Show More Options]** to display other deadline options.
@@ -51,19 +52,17 @@ To create an instance,
    * **[!UICONTROL Unenrollment Deadline]:** You can choose to restrict unenrollment by learner himself by having an unenrollment deadline.
    * **[!UICONTROL Timezone]:** Search and then select the **[!UICONTROL Timezone]** from the dropdown.
 
-   Select **Save**.
-   ![](assets/start-date-instance.png)
-
+6. Select **Save**.
+   
 #### Set email reminders before the start date
 
 You can set email reminders only after you save the entire instance information. Once you select **Save**, the instance minimizes itself and goes into the edit mode.
 
 1. Select the **Notification Alerts** box.
-2. On the calendar, select a date which is before the start date of the course for the first reminder.
+2. On the calendar, select a date which is before the start date of the instance for the first reminder.
 3. Select **Add reminder** on the right.
-4. **Email Template:** Select a template from the drop-down **list
-5. **Recurrence:** Select a type of recurrence from the drop-down list.
-Select the blue check mark on the right to save the reminder date. Remember each reminder date has to be saved separately.
+4. **Email Template:** Select a template from the drop-down list.
+5. **Recurrence:** Select a type of recurrence from the drop-down list. Select the blue check mark on the right to save the reminder date. Remember each reminder date has to be saved separately.
 ![](assets/start-date-reminder1.png)
 6. Select another date which is also before the start date of the course for the second reminder, repeat the process, and select the blue check mark on the right to save this reminder date as well.
 ![](assets/start-date-reminder2.png)
