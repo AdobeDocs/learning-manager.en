@@ -19,7 +19,48 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 </table>
 -->
 
-+++Update 106: April 2026 release of Adobe Learning Manager
++++Update 107: May 2026 patch release of Adobe Learning Manager
+
+Release date: May 26, 2026
+
+## Enhancements (Instance and Session Invite Email)
+
+**Start Date for an Instance:** As an Admin or an Author, you can now include a start date for an instance when you are creating or editing an instance.
+
+**Email Reminders before the Start Date:** This is related to the newly introduced **Start Date** field in an instance. As an Admin or an Author, you can now set two email reminders at different points of time before the start date of an instance with various types of recurrences.
+
+For more information, see [Creating an instance](/help/migrated/administrators/feature-summary/courses.md#createinstanceofacourse) for Admin and [Create an instance](/help/migrated/authors/feature-summary/courses.md#createaninstance) for Author.
+
+**Session Invite Email:** When a user is added as an instructor for a CR/VCR type of session, the instructor an automatic notification mail. The look and feel of this mail has been enhanced esthetically. For more information, see [Calendar invites](/help/migrated/instructors/feature-summary/learners.md#calendarinvites)
+
+## API changes
+
+### Start availability in getLO API
+
+**GET /learningObjects API enhancement**
+
+The GET /learningObjects API now includes a new startDate attribute in the learningObjectInstance resource when the instances relationship is included.
+
+**Endpoint**
+
+GET /learningObjects/{id}?include=instances
+
+**Change**
+
+A new field, startDate, has been added under:
+included[].attributes.startDate
+
+**Description**
+
+startDate represents the scheduled start date and time of a learning object instance.
+
+For more information, [see API changes in May release](/help/migrated/api-changes-alm-may.md).
+
+
++++
+
+
++++Update 106: April 2026 patch release of Adobe Learning Manager
 
 Release date: April 30, 2026
 

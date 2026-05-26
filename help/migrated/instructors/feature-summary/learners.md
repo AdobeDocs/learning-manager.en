@@ -140,9 +140,12 @@ All updates are reflected automatically in learner records, transcripts, and rep
 
 * When a learner or instructor is enrolled in a classroom or virtual classroom session, Learning Manager sends a calendar invite (ICS file).
 * The calendar invite includes:
+
   * Session date and time
   * Session details
   * **Direct session join link** in the calendar description
+
+  ![](assets/calendar-invite-session.png)
 
 Participants can open the calendar event and join the session directly from their calendar.
 

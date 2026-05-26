@@ -226,6 +226,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * API Changes {#api-changes}
    * [API changes in the April release](/help/migrated/api-changes-alm.md)
+   * [API changes in the May patch release](/help/migrated/api-changes-alm-may.md)
 * Knowledge Base {#knowledge-base}
    * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
