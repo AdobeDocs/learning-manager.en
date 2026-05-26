@@ -143,7 +143,7 @@ To create an instance, do the following:
 
    * In the **[!UICONTROL Instance Name]** field, enter the name of the instance you want to associate with the course. Ensure that you use a unique name for the instance.
    * **Start Date:** This is the start date of the course. Two reminder emails can be sent on two different selected dates to the Learner before this start date. The start date has to be a date before the date of completion. Once you select the start date, this date will be highlighted in blue in the calendar in the **Notificiation Alerts** section of the instance.
-   ![](assets/start-date-highlighted-instance.png)
+      ![](assets/start-date-highlighted-instance.png)
    * Specify the completion deadline for the instance. Learners must achieve course completion status by this date.
    * Select **[!UICONTROL Show More Options]** to display other deadline options.
    * **[!UICONTROL Enrollment Deadline]:** This is the date by which a learner is expected to enroll into a learning object in case of self-enrollment.
