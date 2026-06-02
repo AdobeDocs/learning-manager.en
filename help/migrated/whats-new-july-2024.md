@@ -117,7 +117,7 @@ Learners will receive push notifications whenever they miss a course deadline. W
 
 The Search API includes the following changes:
 
-Learners can search for tags within catalog filters using the ```GET /search``` API. Learners can search for the tags by selecting ```tag``` as a value for ```filter.loTypes``` parameter.
+Learners can search for tags within catalog filters using the `GET /search` API. Learners can search for the tags by selecting `tag` as a value for `filter.loTypes` parameter.
 
 **Sample curl**
 
@@ -125,13 +125,13 @@ Learners can search for tags within catalog filters using the ```GET /search``` 
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-The new filters, seat available, waitlist available, and time range filter have been added to the following APIs: ```GET /search``` and `GET /learningObjects`.
+The new filters, seat available, waitlist available, and time range filter have been added to the following APIs: `GET /search` and `GET /learningObjects`.
 
-The new filters `filter.session.includeEnrollmentDeadline` has been added to the following API ```GET /search```.
+The new filters `filter.session.includeEnrollmentDeadline` has been added to the following API `GET /search`.
 
 ### Account API
 
-The new column `custom_injections`, `showComplianceLabel`, and `complianceLabelDefaultID` have been added in the ```GET /account``` API to get account data of user endpoint.
+The new column `custom_injections`, `showComplianceLabel`, and `complianceLabelDefaultID` have been added in the `GET /account` API to get account data of user endpoint.
 
 ### Learning object API
 

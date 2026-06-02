@@ -89,7 +89,7 @@ A parameter code is appended along with the redirect uri.
 
 After you obtain the code, use any API tool, and add the following POST request: 
 
-```https://learningmanager.adobe.com/oauth/token ``` 
+`https://learningmanager.adobe.com/oauth/token`
 
 **Request Body (x-www-form-urlencoded)**: 
 

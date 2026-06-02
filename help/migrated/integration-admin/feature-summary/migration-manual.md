@@ -883,7 +883,7 @@ Learning Manager supports UUID to provide flexibility to organizations in contro
 
 **Usage scenario of UUID in an organization**
 
-Consider a scenario where an employee A joins a company named Learning Manager, as a contractor. During contract period, Learning Manager company may not provide company email id as ```A@example.com```, instead the company may consider only the employee's personal email account, say, ```A@gmail.com```. After completing 6 months of contract period, if the same employee A joins Learning Manager as full time employee, then Learning Manager may want to change his email id to his company email id: ```A@example.com```. 
+Consider a scenario where an employee A joins a company named Learning Manager, as a contractor. During contract period, Learning Manager company may not provide company email id as `A@example.com`, instead the company may consider only the employee's personal email account, say, `A@gmail.com`. After completing 6 months of contract period, if the same employee A joins Learning Manager as full time employee, then Learning Manager may want to change his email id to his company email id: `A@example.com`. 
 
 Having UUID access to user account will benefit the company Learning Manager in the above mentioned scenario. Learning Manager company can easily replace the personal email id of employee A with an official email id. The employee's records relevant to this account remain unaffected by this change. 
 

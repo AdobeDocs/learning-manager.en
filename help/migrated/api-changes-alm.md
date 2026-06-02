@@ -285,7 +285,7 @@ This structure lets clients:
 
 ### Backward compatibility: 
 
-```/resources/{resourceId}```
+`/resources/{resourceId}`
 
 The legacy resource endpoint remains available:
 
@@ -310,7 +310,7 @@ Integrations that currently store or reference the old resource IDs can continue
     - Use resource.attributes.locale to select the correct URL (location / downloadUrl) for the learner's locale.
     - Implement fallback behavior (for example, fall back to en-US) if a learner's exact locale is not available.
 - _APIs and storage_
-    - For new integrations, store the _new‑format resource IDs_ (```jobAid:<jobAidId>_<version>_<localeCode>```) to enable unambiguous locale‑specific retrieval.
+    - For new integrations, store the _new‑format resource IDs_ (`jobAid:<jobAidId>_<version>_<localeCode>`) to enable unambiguous locale‑specific retrieval.
     - Legacy IDs can still be used with /resources/{resourceId}, but they will not distinguish between locales.
 
 ## Time‑slot constraints for starting modules
@@ -319,13 +319,13 @@ Some learning experiences must be available only within a defined time window. T
 
 Time‑slot metadata is available via the endpoint:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 At the learning object resource level, a timeSlot object may now be present in the attributes, with startTime and endTime values in UTC. This specifies the window during which the resource may be started.
 
 Before launching a module, integrations can call a new validation endpoint:
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 This endpoint, intended for learner‑read scenarios, returns whether the learner is currently allowed to start the resource, considering the configured time slot, delivery type and other back‑end rules.
 
@@ -337,7 +337,7 @@ Some content packages implement their own attempt tracking rather than relying s
 
 Through:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 learning object resources may now expose a Boolean attribute hasContentDrivenAttemptTracking. When this is true, the quiz or module manages attempts internally (for example, via SCORM or xAPI logic), and the platform's standard attempt counters may not fully reflect the learner's experience.
 
@@ -349,11 +349,11 @@ This release introduces an important __behavioral change__ in the format of Job 
 
 Previously, Job Aid resource IDs used a format like:
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 In the April 2026 release, this is replaced with a simplified and more explicit format:
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 For example:
 
@@ -361,9 +361,9 @@ jobAid:131032_2_fr_FR
 
 The components are:
 
-- ```<jobAidId>```: the numeric Job Aid ID (for example, 131032),
-- ```<version>```: the version number of the Job Aid (for example, 2),
-- ```<localeCode>```: the locale code (for example, en_US, fr_FR, es_ES).
+- `<jobAidId>`: the numeric Job Aid ID (for example, 131032),
+- `<version>`: the version number of the Job Aid (for example, 2),
+- `<localeCode>`: the locale code (for example, en_US, fr_FR, es_ES).
 
 Any integration that indexes resources or persists in Job Aid resource IDs must update its parsing and storage logic to recognize the new format. Because the identifiers themselves change, it's strongly recommended that you rebuild any local indexes keyed by Job Aid resource IDs after upgrading to the April 2026 release.
 
@@ -653,7 +653,7 @@ _How can I programmatically reset a learner's completion for a course or learnin
 
 Use the new endpoint:
 
-```POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion```
+`POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion`
 This resets completion for the targeted instance when permissions and state allow it.
 
 _How do I tell if a learner completed something via an alternate or equivalent learning object?_
@@ -664,7 +664,7 @@ _How can I find all alternates that can satisfy a particular learning object?_
 
 Use the following endpoint:
 
-```GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}```
+`GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}`
 
 and use the data array (for the alternates) and meta.count (for the total number of alternates).
 
@@ -672,10 +672,10 @@ _How do I know whether a learner is allowed to start a module at this moment?_
 
 First, fetch the resource's timeSlot from:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources``` 
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 and then use:
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 _What does hasContentDrivenAttemptTracking mean on a resource?_
 
@@ -685,7 +685,7 @@ _How do I get menus appropriate for non‑logged‑in users (public experiences)
 
 Use:
 
-```GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true```
+`GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true`
 
 This returns menu and page structures filtered for anonymous users, suitable for Experience Builder or other headless sites.
 
@@ -697,10 +697,10 @@ _What has changed in the Job Aid resource ID format and how should I handle it?_
 
 The ID format changed from values like:
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 to:
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 for example jobAid:131032_2_fr_FR. Any system that stores or parses Job Aid resource IDs must be updated, and you should plan to rebuild local indexes keyed by these IDs after upgrading to the April 2026 release.
