@@ -25,7 +25,7 @@ Release date: May 26, 2026
 
 ## Enhancements in this release
 
-**Start Date for an Instance:** As an Admin or an Author, you can now include a start date for an instance when you are creating or editing an instance.
+**Start Date for an Instance:** As an Admin or an Author, you can now include a start date for an instance when you are creating or editing an instance. The start date can only be displayed in the learner interface through the API.
 
 **Email Reminders before the Start Date:** This is related to the newly introduced **Start Date** field in an instance. As an Admin or an Author, you can now set two email reminders at different points of time before the start date of an instance with various types of recurrences.
 
