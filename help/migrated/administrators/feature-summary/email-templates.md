@@ -29,6 +29,16 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 You as an administrator can easily enable, disable, or modify these email templates.
 
+The email templates mentioned below are part of this group of templates.
+
+**Progress refresh:** This template notifies a learner that their completion status and progress on a learning path has been automatically recalculated due to a change in their active profile or learning path configuration. It prompts the learner to review any newly pending requirements and take action to complete the learning path.
+
+**Courses/Paths have been marked as completed via alternate:** This template notifies a learner when they complete a course via an alternate path. It means they directly completed a source training that an administrator has configured as an alternate for those targets.
+
+**Courses/Paths have been marked as incomplete:** This template notifies a learner that a course or learning path which was previously meant to be completed via an alternate has now been marked as incomplete. This happens when an administrator removes or modifies an alternate relationship, and retroactive incompletion is enabled at the account level.
+
+**Checklist passed/Checklist failed:** The objective of these templates is to inform learners that they have been evaluated by reviewers. The learner receives this email for each evaluation, so that they can go to the platform and check if they need to take any action.
+
 1. To access the templates, click **[!UICONTROL Email Templates]** on the left pane. On this page you can see three different categories of templates, **[!UICONTROL General]**, **[!UICONTROL Learning Activity]**, and **[!UICONTROL Reminders and Updates]**. There is a fourth tab, **[!UICONTROL Settings]**, where you can configure the templates.
 
    ![](assets/categories-of-emailtemplates.png)
