@@ -29,7 +29,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.
 
 You as an administrator can easily enable, disable, or modify these email templates.
 
-The email templates mentioned below are part of this group of templates.
+The email templates mentioned below are part of this group of templates:
 
 **Progress refresh:** This template notifies a learner that their completion status and progress on a learning path has been automatically recalculated due to a change in their active profile or learning path configuration. It prompts the learner to review any newly pending requirements and take action to complete the learning path.
 
