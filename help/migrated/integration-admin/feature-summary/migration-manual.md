@@ -910,3 +910,162 @@ For more information on this topic, refer to the following Help content:
 The April 2026 release of Adobe Learning Manager delivers targeted enhancements to the Public API in the areas of alternates and equivalents, time‑windowed content access, content‑driven quiz attempts, non‑logged‑in learner experiences, and Job Aid management. These updates are designed to remain largely backward‑compatible while enabling more precise and extensible integration patterns.
 
 For API changes, view [API changes](/help/migrated/api-changes-alm.md).
+
+## Migration of VILT session to Adobe Learning Manager
+
+Adobe Learning Manager supports bulk migration and update of virtual instructor-led training (VILT) session data through CSV files. Use this workflow to configure instance start dates, associate learning path instances with course instances, and set up virtual classroom sessions for Microsoft Teams, Adobe Connect, and Zoom.
+
+>[!NOTE]
+>
+>Column IDs in all migration CSV files now use the alm prefix, for example, `almCourseID` and `almModuleID`. This replaces the legacy prime prefix used in earlier releases.
+
+### CSV-based VILT session migration
+
+Adobe Learning Manager migration lets administrators bulk-create or update learning content using structured CSV files. You can apply these CSV workflows to both migration courses (content imported from an external system) and retrofit courses (content created directly in the ALM author app).
+
+Four CSV files are involved in VILT session migration:
+
+* **Course Instance CSV:** creates or updates course instances, including start dates
+* **LP Instance CSV:** creates or updates learning path instances, including start dates
+* **LP to Course Instance Association CSV:** maps a learning path instance to a specific course instance
+* **Session CSV:** creates virtual classroom sessions with conferencing system details
+
+Download the .csv and .xlsx files [here](assets/csv-and-xlsx-migration-files.zip).
+
+All four CSV files accept `almCourseID` to reference courses and `almModuleID` to reference modules. These IDs are the unique identifiers assigned by ALM when a course or module is created.
+
+### Set the start date for course and learning path instances
+
+Use the **Course Instance CSV** and **LP Instance CSV** to add or update the start date on an instance. This applies to both migration-created and UI-created (retrofit) instances.
+
+**Course Instance CSV: Add a start date**
+
+1. Open your Course Instance CSV file.
+2. Add the `startDate` column if it is not already present.
+3. Enter the start date for each instance row in YYYY-MM-DD format.
+4. Populate the `almCourseID` column with the ALM course ID for the course you want to update.
+5. Upload the CSV through the migration run.
+
+**LP Instance CSV: Add a start date**
+
+1. Open your LP Instance CSV file.
+2. Add the `startDate` column if it is not already present.
+3. Enter the start date for each instance row in YYYY-MM-DD format.
+4. Populate the `almLearningProgramID` column with the ALM learning path ID.
+5. Upload the CSV through the migration run in.
+
+>[!NOTE]
+>
+>The `startDate` column is optional. If you include it, the value must be earlier than the `completionDate`. Rows where `startDate` is later than `completionDate` will error out and appear in the migration.
+
+### Associate learning path instances with course instances
+
+Use the LP to Course Instance Association CSV to link a learning path instance to a specific course instance. This step is required for VILT courses that are part of a learning path.
+
+1. Open the LP to Course Instance Association CSV file.
+2. For each row, populate the following columns: 
+  a. `almLearningProgramID` — the ALM learning path ID
+  b. `almLearningProgramInstanceID` — the ALM learning path instance ID
+  c. `almCourseID` — the ALM course ID
+  d. `almCourseInstanceID` — the ALM course instance ID
+3. Upload the CSV through the migration run.
+
+### Supported association scenarios
+
+Not all combinations of migration and retrofit sources are supported. Review the table below before building your CSV.
+
+| Learning path source        | Course instance source        | Supported |
+|-----------------------------|-------------------------------|-----------|
+| Migration                   | Migration                     | Yes       |
+| Retrofit (UI-created)       | Retrofit (UI-created)         | Yes       |
+| Migration                   | Retrofit (UI-created)         | No        |
+| Retrofit (UI-created)       | Migration                     | No        |
+
+>[!NOTE]
+>
+>If you need to associate a retrofit learning path instance with a migration course instance (or vice versa), add the course to the learning path directly through the ALM author app instead of using this CSV.
+
+### Configure virtual classroom session details
+
+Use the **Session CSV** to create or update VILT sessions with virtual classroom conferencing details. Four columns have been added to the Session CSV to support this:
+
+| Column       | Description                                           |
+|--------------|-------------------------------------------------------|
+| `almCourseID ` | ALM ID of the course                                  |
+| `almModuleID`  | ALM ID of the module                                  |
+| `metadata`     | JSON object containing VC-system-specific configuration |
+| `meetingID`    | Meeting ID from the external VC system                |
+
+### Metadata format by conferencing system
+
+The `metadata` field accepts a JSON object. The structure varies by conferencing system. All key names are **case-sensitive and must use camelCase** exactly as shown.
+
+**Microsoft Teams**
+
+```
+{
+  "organizerEmail": "user@example.com",
+  "coOrganizerEmail": "user2@example.com",
+  "lobbyBypass": true,
+  "isCompletionCriteria": false
+}
+
+```
+
+All Teams metadata fields are optional. If you do not provide `organizerEmail`, ALM uses the Teams admin email configured in your ALM account as the default organizer.
+
+**Adobe Connect**
+
+```
+{
+  "primaryInstructor": "instructor@example.com",
+  "persistentRoom": true,
+  "templateID": "template-id-value"
+}
+
+```
+
+The `primaryInstructor` field is **required** for Adobe Connect sessions. All other fields are optional. You can provide either `persistentRoom` or `templateID`, if you provide `templateID`, ALM creates the room using that template.
+
+**Zoom**
+
+Zoom does not require a metadata JSON object. Pass the session instructor using the standard instructor column in the Session CSV.
+
+### Upload the Session CSV
+
+1. Open your Session CSV file.
+2. Add the four new columns: almCourseID, almModuleID, metadata, and meetingID.
+3. For each session row, populate almCourseID and almModuleID with the ALM IDs of the course and module.
+4. Add the meetingID from your VC system (Teams, Adobe Connect, or Zoom).
+5. Build the metadata JSON object using the format for your conferencing system.
+6. Ensure all JSON key names use exact camelCase spelling. Incorrect casing causes the row to fail.
+7. Upload the CSV through the migration run.
+
+Troubleshoot common migration errors
+
+| Issue | Solution |
+|-------|----------|
+| Row errors out with "Completion deadline should be greater than start date" | Ensure `startDate` is earlier than `completionDate` in the instance CSV. |
+| LP to course instance association fails | Confirm that both the learning path and the course instance were created through the same source (both migration or both retrofit). Mixed sources are not supported. |
+| Session row fails with metadata error | Check that all JSON key names in the `metadata` field use exact camelCase. Keys are case-sensitive. |
+| Teams `isCompletionCriteria` has no effect | The completion criteria feature flag for Teams must be enabled by your ALM account admin before migration values take effect. |
+| Session row created but instructor field is empty | If the instructor email provided does not match a user in ALM, the session is created with an empty instructor field. Verify the instructor email exists in ALM before uploading. |
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -78,6 +78,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [L1 feedback form](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
    * [Reports](administrators/feature-summary/reports.md)
    * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
+   * [Set up one-click enrollment in Adobe learning Manager](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
    * [Alternates and equivalence](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [Learning Plans](administrators/feature-summary/learning-plans.md)
@@ -184,6 +185,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Log in](learners/feature-summary/user-login.md)
    * [Profile Settings](learners/feature-summary/settings.md)
    * [Catalogs](learners/feature-summary/catalogs.md)
+   * [One-click enrollment](learners/feature-summary/learner-one-click-enrollment.md)
    * [My Learning](learners/feature-summary/courses.md)
    * [Fluidic player](learners/feature-summary/fluidic-player.md)
    * [Learning Programs](learners/feature-summary/learning-programs.md)
@@ -226,7 +228,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * API Changes {#api-changes}
    * [API changes in the April release](/help/migrated/api-changes-alm.md)
-   * [API changes in the May patch release](/help/migrated/api-changes-alm-may.md)
+   * [API changes in the May release](/help/migrated/api-changes-alm-may.md)   
 * Knowledge Base {#knowledge-base}
    * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)

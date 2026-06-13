@@ -260,8 +260,8 @@ Any modifications performed for learning objects at the owner application are ca
 
 ## Shared catalog features in receiver application {#sharedcatalogfeaturesinreceiverapplication}
 
-* Learning objects from shared catalog appear in Author and Admin application but modules are not listed. They are hidden. 
-* Shared Learning objects can be used for all workflows in receiver's account. For example, adding shared course to Learning programs, certifications, catalogs, but those Learning programs, certifications & catalogs cannot be shared again (as they already have a shared Learning object from another account).
+* Learning objects from shared catalog appear in Author and Admin applications; however, the modules are not listed as they are hidden. 
+* Shared learning objects can be used for all workflows in receiver's account. For example, adding a shared course to learning objects such as certifications (both perpetual and recurring), learning paths, and catalogs; however, those learning objects cannot be shared again (as they already have a shared learning object from another account).
 * All the job aids that are associated with course/learning program/certification but not part of the catalog are copied in receiver's account. 
 * Shared catalog receivers are not allowed to add Learning objects to the shared catalog.
 * Shared catalog receiver cannot modify modules of shared Learning objects.
