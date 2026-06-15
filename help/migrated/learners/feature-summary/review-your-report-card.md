@@ -18,7 +18,7 @@ Your overall score is a weighted combination of two components: a **Knowledge sc
 The author who created the scenario sets the weight of each component. A common configuration is **70% knowledge and 30% style**, but this varies by scenario.
 
 | Component | What it measures | Typical weight |
-|----------|------------------|----------------|
+|-----------|------------------|----------------|
 | Knowledge | Whether you covered the required topics and provided accurate information | 70% |
 | Style | How you communicated: delivery, pace, clarity, and confidence | 30% |
 
@@ -39,7 +39,7 @@ Topics are color-coded in the session timeline at the bottom of the report, so y
 **Example topic scores from a discovery call scenario:**
 
 | Topic | Score | Summary |
-|------|-------|--------|
+|-------|-------|---------|
 | Opening and Rapport | 40 | Confirmed availability but did not introduce yourself by name or reference the outreach reason |
 | Clinical Credibility Discovery | 60 | Identified authorship and review process but did not explicitly acknowledge the persona's accuracy concerns |
 | Implementation and Resource Assessment | 40 | Described staffing and timeline but did not outline typical setup steps or confirm stakeholder involvement |

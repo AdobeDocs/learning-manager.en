@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Configure topics and evaluation criteria 
-description: Learn how to add topics by following guidelines for effective writing.
+description: The **Topics to Cover** section defines what the learner must address during the simulation and how the AI evaluates their performance on each topic. Every topic you add becomes a scored component in the learner's knowledge report after the session.
 contentowner: mmanuel
 ---
 

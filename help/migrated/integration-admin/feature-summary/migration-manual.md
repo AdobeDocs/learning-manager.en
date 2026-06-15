@@ -930,7 +930,7 @@ Four CSV files are involved in VILT session migration:
 * **LP to Course Instance Association CSV:** maps a learning path instance to a specific course instance
 * **Session CSV:** creates virtual classroom sessions with conferencing system details
 
-Download the .csv and .xlsx files [here](assets/csv-and-xlsx-migration-files.zip).
+Download the above files [here](assets/csv-and-xlsx-migration-files.zip).
 
 All four CSV files accept `almCourseID` to reference courses and `almModuleID` to reference modules. These IDs are the unique identifiers assigned by ALM when a course or module is created.
 
@@ -1050,22 +1050,3 @@ Troubleshoot common migration errors
 | Session row fails with metadata error | Check that all JSON key names in the `metadata` field use exact camelCase. Keys are case-sensitive. |
 | Teams `isCompletionCriteria` has no effect | The completion criteria feature flag for Teams must be enabled by your ALM account admin before migration values take effect. |
 | Session row created but instructor field is empty | If the instructor email provided does not match a user in ALM, the session is created with an empty instructor field. Verify the instructor email exists in ALM before uploading. |
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

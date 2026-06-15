@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Configure score settings and advanced options 
-description: Learn how to configure core settings and advanced options such as language settings, on-screen action analysis and advanced roleplay settings.
+description: The **Score Settings** section controls how learner performance is measured, weighted, and displayed. These settings determine what score a learner must achieve to pass, how knowledge and communication style contribute to that score, and whether learners receive hints or see their result after the session.
 contentowner: mmanuel
 ---
 
@@ -48,11 +48,11 @@ Your video must meet the following technical specifications before upload:
 | Minimum frame rate | 5 FPS                   |
 | Aspect ratio       | Between 4:3 and 21:9    |
 
-**How to record an effective best-practice video:** The AI scores learner actions by comparing them against your uploaded video, so the quality and clarity of the recording directly affects scoring accuracy.
-**Describe every action in audio and on screen:** Each step the demonstrator takes should be narrated aloud at the same time it appears visually. For example, if clicking a button is a required action, say "I'm now selecting the **Submit** button" while doing so. The AI relies on both the audio description and the visual action to understand what is being demonstrated.
-**Keep the video focused on the task:** Avoid extended pauses, off-topic commentary, or navigation that is not part of the required process. Each section of the video should correspond to a discrete, assessable action.
-**Use a clean screen recording:** Remove notifications, browser tabs, and any content unrelated to the scenario. A cluttered screen makes it harder for the AI to identify which actions are part of the expected behavior.
-**Match the video to your evaluation guidelines:** If your topics table includes a topic for a specific on-screen action, the best-practice video should demonstrate that action clearly at the point in the workflow where it is expected to occur.
+* **How to record an effective best-practice video:** The AI scores learner actions by comparing them against your uploaded video, so the quality and clarity of the recording directly affects scoring accuracy.
+* **Describe every action in audio and on screen:** Each step the demonstrator takes should be narrated aloud at the same time it appears visually. For example, if clicking a button is a required action, say "I'm now selecting the **Submit** button" while doing so. The AI relies on both the audio description and the visual action to understand what is being demonstrated.
+* **Keep the video focused on the task:** Avoid extended pauses, off-topic commentary, or navigation that is not part of the required process. Each section of the video should correspond to a discrete, assessable action.
+* **Use a clean screen recording:** Remove notifications, browser tabs, and any content unrelated to the scenario. A cluttered screen makes it harder for the AI to identify which actions are part of the expected behavior.
+* **Match the video to your evaluation guidelines:** If your topics table includes a topic for a specific on-screen action, the best-practice video should demonstrate that action clearly at the point in the workflow where it is expected to occur.
 
 ## Configure score settings
 
@@ -89,7 +89,7 @@ Choose the right ratio:
 **Enable Practice Mode for Learners:** When **Enable Practice Mode for Learners** is on, learners can request hints during the simulation to help them stay on track. Practice mode is useful for early-stage learning, where the goal is skill-building rather than formal assessment.
 
 When practice mode is enabled, two additional settings appear:
- ![](assets/virtual-coach-024.png)
+![](assets/virtual-coach-024.png)
 
 **Hint visibility duration:** Controls how long each hint stays visible on screen before disappearing. The default is 30 seconds. Adjust this if your scenario involves complex topics that require more reading time.
 **Max Hints Per Session:** Sets the maximum number of hints a learner can request in a single session. The default is five hints. Select **Edit** to change the limit. Setting a lower number encourages learners to attempt responses independently before requesting help.
