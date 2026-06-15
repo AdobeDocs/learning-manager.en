@@ -911,7 +911,7 @@ The April 2026 release of Adobe Learning Manager delivers targeted enhancements 
 
 For API changes, view [API changes](/help/migrated/api-changes-alm.md).
 
-## Migration of VILT session to Adobe Learning Manager
+## Migration of VILT session to Adobe Learning Manager {#migrationofviltsessiontoalm}
 
 Adobe Learning Manager supports bulk migration and update of virtual instructor-led training (VILT) session data through CSV files. Use this workflow to configure instance start dates, associate learning path instances with course instances, and set up virtual classroom sessions for Microsoft Teams, Adobe Connect, and Zoom.
 

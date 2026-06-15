@@ -23,6 +23,16 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 Release date: June 15, 2026
 
+## What's new in this release
+
+**Report Builder:** Report Builder in Adobe Learning Manager is a self-service reporting tool that enables administrators to create and download customized reports by selecting only the required columns, applying flexible filters, and accessing consistent data—all from a single interface. It eliminates the need to rely on fixed, prebuilt reports and manual post-processing in external tools by allowing users to configure, save, and reuse reports with ease. By addressing limitations such as rigid column structures, restricted filtering options, and inconsistent data sources, Report Builder streamlines reporting workflows, ensures accurate insights, and saves time, while complementing existing standard reports for predefined use cases. For more information, see [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
+
+**One-click enrollment:** One-click enrollment lets learners open a deep link to a module shared by admins and start accessing the content instantly—without needing to enroll first and then launch the course separately. This streamlines access, saves time, and improves the overall learning experience. For more information, see [One-click enrollment](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md).
+
+**Availability of acquired courses in recurring certifications:** Previously, acquired courses could be added only to perpetual certifications. Recurring certifications did not display acquired courses in the course selection panel, which prevented receiver accounts from using shared content for programs that require periodic renewal. Acquired courses are now available in both perpetual and recurring certifications. For more information, see [Shared catalog features in receiver application](/help/migrated/administrators/feature-summary/catalogs.md##sharedcatalogfeaturesinreceiverapplication).
+
+**Migration of VILT session to Adobe Learning Manager:** Adobe Learning Manager now supports bulk migration and update of virtual instructor-led training (VILT) session data through CSV files. Use this workflow to configure instance start dates, associate learning path instances with course instances, and set up virtual classroom sessions for Microsoft Teams, Adobe Connect, and Zoom. For more information, see [Migration Manual](/help/migrated/integration-admin/feature-summary/migration-manual.md##migrationofviltsessiontoalm)
+
 ## Enhancements in this release
 
 **Reversal of Likert scale order:** In Adobe Learning Manager, the Likert scale is used to rate the learner's experience with learning objects. The Likert scale on the Learner Experience Feedback form has been reversed to match the standard left-to-right order. Previously, the Likert scale had a right-to-left order - contrary to the standard left-to-right order. The score now begins with Strongly Disagree on the left and ends with Strongly Agree on the right.
@@ -41,8 +51,6 @@ Release date: June 15, 2026
    ![](assets/instructor-send-email2.png)
 
 **Auto-purge of deleted users:** The auto-purge of deleted users was set to one year as the minimum period required for deletion. This has been enhanced to accommodate a number in "days" as well. Admins can now request this change by contacting their Customer Success Manager and get it changed from the backend.
-
-**Email look and feel:** The look and feel of emails sent using **Email Templates** have been enhanced esthetically.
 
 ## Bugs fixed
 

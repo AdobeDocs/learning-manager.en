@@ -46,11 +46,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * User Management {#user-management}
       * [Add users in Adobe Learning Manager](administrators/feature-summary/add-users-user-groups.md)
       * [User groups in Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
-      * [Active Fields](/help/migrated/administrators/feature-summary/active-fields.md)
-      Virtual Coach {#virtualcoach}
-         * [Virtual Coach: Overview](/help/migrated/administrators/feature-summary/virtual-coach-overview.md)
-         * [Monitor Virtual Coach usage](/help/migrated/administrators/feature-summary/monitor-virtual-coach-usage.md)
-         * [Virtual Coach FAQ](/help/migrated/administrators/feature-summary/virtual-coach-faq.md)
+      * [Active Fields](/help/migrated/administrators/feature-summary/active-fields.md)   
    * [Add classroom locations](administrators/feature-summary/classroom.md)
    * [Create course instances and learning paths](administrators/feature-summary/courses.md)
    * [Module access time control](/help/migrated/administrators/feature-summary/module-access-time-control.md)
@@ -188,15 +184,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 * Authors {#authors}
    * [User login](authors/feature-summary/user-login.md)
    * [Content library](authors/feature-summary/content-library.md)
-   * [Create, modify, and publish courses](authors/feature-summary/courses.md)
-   * Virtual Coach {#virtualcoachauthor}
-      * [Overview](authors/feature-summary/vitual-coach-overview-author.md)
-      * [Create and publish a Virtual Coach roleplay](authors/feature-summary/create-publish-virtual-coach-roleplay.md)
-      * [Personalize your Virtual Coach simulation](authors/feature-summary/personalize-virtual-coach.md)
-      * [Configure a presentation for your simulation](authors/feature-summary/configure-presentation-set-up-ai-persona.md)
-      * [Configure topics and evaluation criteria](authors/feature-summary/configure-topics-and-evaluation-criteria.md)
-      * [Configure score settings and advanced options](authors/feature-summary/configure-score-settings-and-advanced-options.md)
-      * [Publish and deploy your roleplay](authors/feature-summary/publish-deploy-virtual-coach-roleplay.md)      
+   * [Create, modify, and publish courses](authors/feature-summary/courses.md)   * 
    * [Catalogs](authors/feature-summary/catalogs.md)
    * [Job Aids](authors/feature-summary/job-aids.md)
    * [iPad & Android tablet users](authors/feature-summary/ipad-android-tablet-users.md)
@@ -215,11 +203,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Profile Settings](learners/feature-summary/settings.md)
    * [Catalogs](learners/feature-summary/catalogs.md)
    * [One-click enrollment](learners/feature-summary/learner-one-click-enrollment.md)
-   * [My Learning](learners/feature-summary/courses.md)
-   * Virtual Coach
-      * [Virtual Coach: Overview](learners/feature-summary/virtual-coach-overview-learner.md)
-      * [Practice a role-play with Virtual Coach](learners/feature-summary/practice-roleplay-with-virtual-coach.md)
-      * [Review your report card](learners/feature-summary/review-your-report-card.md)
+   * [My Learning](learners/feature-summary/courses.md)      
    * [Fluidic player](learners/feature-summary/fluidic-player.md)
    * [Learning Programs](learners/feature-summary/learning-programs.md)
    * [Certifications](learners/feature-summary/certifications.md)
