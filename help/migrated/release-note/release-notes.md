@@ -25,7 +25,7 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 +++Update 108: June 2026 release of Adobe Learning Manager
 
-Release date: June 16, 2026
+Release date: June 17, 2026
 
 ## What's new in this release
 
@@ -141,7 +141,7 @@ For more information, [see API changes in May release](/help/migrated/api-change
 +++
 
 
-+++Update 106: April 2026 patch release of Adobe Learning Manager
++++Update 106: April 2026 release of Adobe Learning Manager
 
 Release date: April 30, 2026
 
