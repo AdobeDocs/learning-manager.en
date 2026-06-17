@@ -61,170 +61,45 @@ Session ID, session name, instructor name(s), start time, end time, location
 
 List of columns in datasets
 
-User
+Catalog
 
-* Adobe ID
-* Department (Active Field) * These are active fields. May vary across organizations
-* Designation (Active Field) * These are active fields. May vary across organizations
-* Geo (Active Field) * These are active fields. May vary across organizations
-* Content Language
-* Count of Direct Team Members
-* Count of Team Members
 * Creation Date
-* Deletion Date
-* Email
-* ID
-* Interface Language
-* Is Admin
-* Is Author
-* Is Custom Role
-* Is Instructor
-* Is Integration Admin
-* Is Learner
-* Is Manager
-* Is Root User
-* Last Access Date
-* Manager Email
-* Manager ID
-* Manager Name
-* Manager Unique ID
-* Company (Metadata) * These are custom fields. May vary across organizations
-* License Number (Metadata) * These are custom fields. May vary across organizations
-* Name
-* Profile
-* Roles
-* Source
-* Status
-* Timezone
-* Type
-* Unique ID
-
-User Group (Team)
-
-* Count of Members
-* Creation Date
-* Description
 * ID
 * Name
-* Status
-* Owner Email
-* Owner ID
-* Owner Name
-* User Unique ID
 
-User Group (Direct Team)
+Catalog Label
 
-* Count of Members
-* Creation Date
-* Description
+* Catalog
 * ID
 * Name
-* Status
-* Owner Email
-* Owner ID
-* Owner Name
-* Owner Unique ID
-* Created date
-* Deletion date
-* Last Access date
-* Auto retire date
-* Last Completed date
-* Last published date
-* Completion deadline
-* Enrollment deadline
-* Unenrollment deadline
-* Access start time
-* Access end time
-* End time
-* start time
-* Completed date
-* Enrolled date
-* Initiated date
-* Pass date
-* Started date
-* Unenrollment date
+* Value
 
-Active Field User Group
+Custom field (Learning Object)
 
-* Count of Members
-* Creation Date
-* Description
-* ID
-* Name
-* Status
+* Learning Object Completion %
+* Learning Object Compliance %
 
-Inbuilt User Group
+Custom field (User)
 
-* Count of Members
-* Creation Date
-* Description
-* ID
-* Name
-* Status
-* Deadline - fixed date
-* Dates - can be changed
-* Creation Date
-* Deletion Date
-* Last Access Date
-* Auto-Retirement Date
-* Last Completion Date
-* Last Publication Date
-* Completion Deadline
-* Enrollment Deadline
-* Unenrollment Deadline
-* Access Start Time
-* Access End Time
-* Ending Time
-* Starting Time
-* Completion Date
-* Enrollment Date
-* Initiation Date
-* Passing Date
-* Starting Date
-* Unenrollment Date
-
-Custom User Group
-
-* Count of Members
-* Created by User Email
-* Created by User ID
-* Created by User Name
-* Created by User Unique ID
-* Creation Date
-* Description
-* ID
-* Name
-* Status
-
-User Group
-
-* Count of Members
-* Creation Date
-* Description
-* ID
-* Name
-* Status
+* User Completion %
+* User Compliance %
 
 Learning Object
 
 * Author Names
 * Auto-retirement Date
-* CL: Compliance
-* CL: Department
 * Completion Count
 * Creation Date
-* Duration (min)
+* Duration (minutes)
 * Enrollment Count
 * Enrollment Type
 * Format
 * ID
 * Instance Switch Enabled
-* Languages
 * Last Completion Date
 * Last Publication Date
 * Multi Enrollment Enabled
 * Name
-* Pre-requisites
 * Pre-requisites Enforced
 * Price
 * Skill Credit
@@ -248,16 +123,16 @@ Learning Object Instance
 * Learning Object ID
 * Name
 * Status
+* Type
 * Unenrollment Deadline
 
-Module Session
+Module
 
 * Access End Time
 * Access Start Time
-* Completion Count
 * Course ID
 * Course Instance ID
-* Duration (min)
+* Duration (minutes)
 * Ending Time
 * Enrollment Count
 * ID
@@ -266,58 +141,42 @@ Module Session
 * Location Information
 * Location Region
 * Location URL
+* Module ID
 * Name
 * Seat Limit
 * Starting Time
 * Type
 * Waitlist Limit
-* Waitlist User Count
-* Waitlist User Emails
 
-Catalog
+Transcript (Learning Object)
 
-* Creation Date
-* ID
-* Name
-
-Learning Object Transcript
-
-* Certification Enrollment State
 * Completion Date
 * Completion Deadline
 * Completion Source
 * Completion Source - User ID
 * Completion Source - User Name
 * Enrollment Date
-* Enrollment Comment
 * Enrollment Source
-* Initiation Date
+* Enrollment State
 * Learning Object ID
 * Learning Object Name
 * Learning Object Instance ID
 * Overdue
-* Parent Certification ID
+* Parent Learning Object ID
 * Passing Date
 * Progress Percent
-* Quiz Total Score
-* Rating
 * Root Certification ID
 * Starting Date
 * Status
-* Time Spent (min)
-* Unenrollment Date
-* Unenrollment Source
-* User Email
+* Time Spent (minutes)
 * User Highest Score
 * User ID
 * User Latest Score
-* User Name
 
-Module Transcript
+Transcript (Module)
 
 * Completion Date
 * Course ID
-* Course Name
 * Module ID
 * Module Name
 * Passing Date
@@ -325,28 +184,102 @@ Module Transcript
 * Quiz Module Total Score
 * Starting Date
 * Status
-* Time Spent (min)
+* Time Spent (minutes)
 * User Email
 * User Highest Score
 * User ID
 * User Latest Score
 * User Name
 
-Custom User Field
+User
 
-* User Completion %
-* User Compliance %
-
-Learning Object Custom Field
-
-* Learning Object Completion %
-* Learning Object Compliance %
-
-Catalog Label
-
+* Adobe ID
+* Content Language
+* Creation Date
+* Deletion Date
+* Direct Team Members Count
+* Email
 * ID
+* Interface Language
+* Is Admin
+* Is Author
+* Is Custom Role
+* Is Instructor
+* Is Integration Admin
+* Is Learner
+* Is Manager
+* Is Root User
+* Last Access Date
+* Manager Email
+* Manager ID
+* Manager Name
+* Manager Unique ID
 * Name
-* Value
+* Roles
+* Source
+* Status
+* Team Members Count
+* Timezone
+* Type
+* Unique ID
+
+User Group
+
+* Creation Date
+* ID
+* Members Count
+* Name
+* Status
+
+User Group (Active Field)
+
+* Creation Date
+* ID
+* Members Count
+* Name
+* Status
+
+User Group (Custom)
+
+* Creation Date
+* ID
+* Members Count
+* Name
+* Status
+
+User Group (Direct Team)
+
+* Creation Date
+* ID
+* Members Count
+* Name
+* Owner Email
+* Owner ID
+* Owner Name
+* Owner Unique ID
+* Status
+
+User Group (Inbuilt)
+
+* Creation Date
+* ID
+* Members Count
+* Name
+* Status
+
+User Group (Team)
+
+* Creation Date
+* ID
+* Members Count
+* Description
+* Name
+* Owner Email
+* Owner ID
+* Owner Name
+* Owner Status
+* Owner Unique ID
+* Status
 
 **How datasets join together**
 

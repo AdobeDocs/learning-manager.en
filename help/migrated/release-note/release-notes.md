@@ -21,7 +21,7 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 +++Update 108: June 2026 release of Adobe Learning Manager
 
-Release date: June 15, 2026
+Release date: June 16, 2026
 
 ## What's new in this release
 
