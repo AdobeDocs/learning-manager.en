@@ -76,7 +76,7 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Content marketplace](administrators/feature-summary/content-marketplace.md)
       * [Curate Go1 courses to Learning Path](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [L1 feedback form](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
-   * Report Builder {#reportbuilder}
+   * Report Builder {#report-builder}
       * [Report Builder in Adobe Learning Manager](administrators/feature-summary/alm-report-builder.md)
       * [Report Builder: Concepts and terminology](administrators/feature-summary/alm-report-builder-concepts-terminology.md)
       * [Available datasets in Report Builder](administrators/feature-summary/alm-report-builder-datasets.md)
