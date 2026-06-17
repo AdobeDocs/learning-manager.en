@@ -92,6 +92,10 @@ The AI Assistant now provides a correct response when asked whether a Learning P
 
 **Time Spent in Learner Transcript for QR-based Classroom Attendance:** Time spent showing as 0 minutes for learners who self-marked attendance via QR code is confirmed as working as designed. The session duration recorded in the Learner Transcript is derived from the xAPI data emitted at completion time. In cases where session schedule data is not yet committed to the database at the moment completion is processed, a duration of zero is recorded. No fix has been applied for this release. 
 
+
++++
+
+
 +++Update 107: May 2026 release of Adobe Learning Manager
 
 Release date: May 26, 2026
