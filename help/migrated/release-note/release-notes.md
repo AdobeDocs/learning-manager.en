@@ -23,6 +23,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 +++
 
 
++++
+
+
 +++Update 108: June 2026 release of Adobe Learning Manager
 
 Release date: June 17, 2026
@@ -98,7 +101,7 @@ The AI Assistant now provides a correct response when asked whether a Learning P
 
 
 +++
-
+  
 
 +++Update 107: May 2026 release of Adobe Learning Manager
 
