@@ -2,7 +2,7 @@
 description: Adobe Learning Manager release notes
 jcr-language: en_us
 title: Adobe Learning Manager release notes
-contentowner: jayakarr
+contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 ---
 # Adobe Learning Manager release notes
@@ -19,7 +19,82 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 </table>
 -->
 
-+++Update 107: May 2026 patch release of Adobe Learning Manager
++++Update 108: June 2026 release of Adobe Learning Manager
+
+Release date: June 17, 2026
+
+## What's new in this release
+
+**Report Builder:** Report Builder in Adobe Learning Manager is a self-service reporting tool that enables administrators to create and download customized reports by selecting only the required columns, applying flexible filters, and accessing consistent data—all from a single interface. It eliminates the need to rely on fixed, prebuilt reports and manual post-processing in external tools by allowing users to configure, save, and reuse reports with ease. By addressing limitations such as rigid column structures, restricted filtering options, and inconsistent data sources, Report Builder streamlines reporting workflows, ensures accurate insights, and saves time, while complementing existing standard reports for predefined use cases. For more information, see [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
+
+**One-click enrollment:** One-click enrollment lets learners open a deep link to a module shared by admins and start accessing the content instantly—without needing to enroll first and then launch the course separately. This streamlines access, saves time, and improves the overall learning experience. For more information, see [One-click enrollment](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md).
+
+**Availability of acquired courses in recurring certifications:** Previously, acquired courses could be added only to perpetual certifications. Recurring certifications did not display acquired courses in the course selection panel, which prevented receiver accounts from using shared content for programs that require periodic renewal. Acquired courses are now available in both perpetual and recurring certifications. For more information, see [Shared catalog features in receiver application](/help/migrated/administrators/feature-summary/catalogs.md#sharedcatalogfeaturesinreceiverapplication).
+
+**Migration of VILT session to Adobe Learning Manager:** Adobe Learning Manager now supports bulk migration and update of virtual instructor-led training (VILT) session data through CSV files. Use this workflow to configure instance start dates, associate learning path instances with course instances, and set up virtual classroom sessions for Microsoft Teams, Adobe Connect, and Zoom. For more information, see [Migration Manual](/help/migrated/integration-admin/feature-summary/migration-manual.md##migrationofviltsessiontoalm)
+
+## Enhancements in this release
+
+**Reversal of Likert scale order:** In Adobe Learning Manager, the Likert scale is used to rate the learner's experience with learning objects. The Likert scale on the Learner Experience Feedback form has been reversed to match the standard left-to-right order. Previously, the Likert scale had a right-to-left order - contrary to the standard left-to-right order. The score now begins with Strongly Disagree on the left and ends with Strongly Agree on the right.
+
+**Ad Hoc Emails to Learners from Instructors:** Previously, the Send Email to All option only enabled instructors to copy recipients' email addresses. It now allows instructors to send ad hoc emails directly to learners using the same option. The Copy Emails option can be used only copying email addresses of recipients.
+
+### Steps
+
+1. Log in as an Instructor.
+2. Navigate to Past Sessions on the left navigation panel. A list of past sessions appear in the page. 
+3. Select a session name from the list of past sessions.
+4. Navigate to Learners on the left navigation panel.
+   ![](assets/instructor-send-email1.png)
+5. Select a learner from the list of learners.
+6. On the upper right, the **Actions** drop-down list open to reveal more options (including the greyed out ones). The **Send Email to All** is one of the options.
+   ![](assets/instructor-send-email2.png)
+
+**Auto-purge of deleted users:** The auto-purge of deleted users was set to one year as the minimum period required for deletion. This has been enhanced to accommodate a number in "days" as well. Admins can now request this change by contacting their Customer Success Manager and get it changed from the backend.
+
+## Bugs fixed
+
+**Authoring**
+
+1. Locales with low translation quality scores are no longer shown in the caption generation modal when auto-generating VTT subtitle files. This prevents poor-quality translations, such as inaccurate Chinese character rendering, from being delivered to learners.
+
+2. The Welcome Email (Internal) template now has independent configurations for Adobe ID and SSO login methods. Previously, both login methods shared a single template channel, causing the template to re-enable itself when SSO was configured after the template had been disabled, resulting in unintended welcome emails being sent to learners.
+
+**Certification**
+
+Recurring certifications now source courses from the most recent (parent) version of the certification rather than the original (root) version. This ensures that updated course content is correctly included in each certification cycle.
+
+**Content Library and Custom roles**
+
+1. Custom Authors with access restricted to selected content folders can now preview AICC and Tincan course modules using the Preview as Learner option without receiving a "Content not available" error.
+
+2. Custom Authors with access to selected content folders and catalogs can now open course resources in the Preview as Learner view without encountering a 403 access error.
+
+**Data and reporting**
+
+Enrollment data synchronization has been stabilized by resolving a database connector failure and oversized record payloads in the data pipeline. Enrollment records are now streamed reliably to downstream reporting systems.
+
+**Publishing and APIs**
+
+The public **Search** and **Categories** APIs now return catalog IDs in the correct numeric format. Previously, catalog IDs were returned in the malformed string format "catalog123" instead of the expected numeric ID.
+
+**UI and administration**
+
+1. The Course Instance page for Manager Nominated courses no longer displays a broken layout for Admin and Custom Admin users. A CSS regression that caused elements to overflow without wrapping has been corrected. 
+
+2. External users clicking VILT session invitation links from their email are now correctly redirected to their configured login method (for example, Adobe ID) instead of being incorrectly routed to the internal SSO login page.
+
+**AI Assistant**
+
+The AI Assistant now provides a correct response when asked whether a Learning Path can be added to a certification. The assistant previously returned an inaccurate affirmative answer; it now correctly states that only courses can be added to certifications in Adobe Learning Manager.
+
+## Known issue
+
+**Time Spent in Learner Transcript for QR-based Classroom Attendance:** Time spent showing as 0 minutes for learners who self-marked attendance via QR code is confirmed as working as designed. The session duration recorded in the Learner Transcript is derived from the xAPI data emitted at completion time. In cases where session schedule data is not yet committed to the database at the moment completion is processed, a duration of zero is recorded. No fix has been applied for this release. 
+
++++
+
++++Update 107: May 2026 release of Adobe Learning Manager
 
 Release date: May 26, 2026
 
@@ -60,7 +135,7 @@ For more information, [see API changes in May release](/help/migrated/api-change
 +++
 
 
-+++Update 106: April 2026 patch release of Adobe Learning Manager
++++Update 106: April 2026 release of Adobe Learning Manager
 
 Release date: April 30, 2026
 
