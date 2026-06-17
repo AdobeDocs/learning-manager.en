@@ -10,7 +10,7 @@ contentowner: mmanuel
 ## Templates and reports
 
 **Templates** are pre-built report configurations provided by Adobe Learning Manager. They're designed for common use cases, enrollment and completion tracking, compliance reporting, instructor performance, and are ready to download immediately. Templates are read-only; you cannot edit or overwrite them.
-![](assets/report-builder-002.png)  
+![](assets/image003.png)  
 
 **Reports** are your own saved configurations. You can create a report from scratch or by duplicating a template and editing the copy. When you duplicate a template, the copy becomes a report in your Reports tab.  
 
@@ -37,7 +37,7 @@ The following is a sample of datasets available in Report Builder:
 ## Columns and the Add button
 
 Each column you add appears as a row in the report canvas and becomes a column in the downloaded file. You can add the same column more than once. This is useful when you want to measure two different values from the same field. For example, you can add the Status column twice: once to count enrollments and once to count in-progress learners using the count if aggregate.
-![](assets/report-builder-003.png)
+![](assets/image005.png)
 
 You can also rename any column by entering an alias. The alias appears as the column header in the downloaded report.
 

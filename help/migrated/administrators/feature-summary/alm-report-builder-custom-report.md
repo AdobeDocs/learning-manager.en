@@ -7,9 +7,9 @@ contentowner: mmanuel
 
 # Build a custom report in Report Builder
 
-Creating from scratch works best when you have a clear picture of the columns and output you need, and no existing template matches your use case\. If you're new to Report Builder, consider starting with a template\.
+Creating from scratch works best when you have a clear picture of the columns and output you need, and no existing template matches your use case. If you're new to Report Builder, consider starting with a template.
 
-In this example, you'll identify the learners under each manager who are at risk for compliance courses\.
+In this example, you'll identify the learners under each manager who are at risk for compliance courses.
 
 1. Log in to Adobe Learning Manager as an administrator.
 2. Select **Reports**, then select **Report Builder**.
@@ -26,7 +26,7 @@ In this example, you'll identify the learners under each manager who are at risk
     c. Learning Object\Learning Object Name
     d. User Compliance Status\Completion %
     e. User Compliance Status\Compliance %
-    ![](assets/image012.jpg)
+    !   [](assets/image012.png)
 7. Reorder columns by dragging them in the canvas.
 8. To rename a column, enter a name in the column's alias field. The alias appears as the column header in the downloaded file.
 9. Select **Save Report**.
@@ -53,7 +53,7 @@ Now that you've downloaded the report, apply a filter where completionPct OR com
 
 1. Open the report and select **Edit** in the upper-right corner.
 2. Select **Add filter** and search the columns where you want to apply the filters.
-    ![](assets/image014.jpg)
+    ![](assets/image014.png)
 3. Select **Add**.
 4. Combine the filters with AND/OR logic; select the operator toggle between filter rows.
     ![](assets/image015.png)
@@ -71,14 +71,14 @@ Group the records by manager to:
 
 1. Open the report and select **Edit** in the upper-right corner.
 2. Select **Group by:Select** and select **User-Manager Name** column.
-    ![](assets/image016.jpg)
+    ![](assets/image016.png)
 3. Aggregate the following columns:
     a. User\Name
     b. Learning Object\Learning Object Name
 4. Select **Count** as an aggregate function for the columns.
     ![](assets/image017.png)
 5. Repeat for Learning Object\Learning Object Name.
-    ![](assets/image018.jpg)
+    ![](assets/image018.png)
 6. Select **Save report** and download the report.
 
 The downloaded report contains a manager-wise summary of learner training performance. It shows average completion rates, average compliance scores, and total learner counts for each manager. The data indicate universal training completion across all groups, while compliance performance varies significantly between managers.

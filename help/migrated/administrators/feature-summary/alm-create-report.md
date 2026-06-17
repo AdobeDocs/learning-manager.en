@@ -13,7 +13,7 @@ Templates are ready-to-use report configurations provided by Adobe Learning Mana
 2. Select **Reports** in the left pane and then select **Report Builder**.  
 3. Select the **Templates** tab.  
 4. Browse the available templates. Each template is named for its use case.
-    ![](assets/image-007.png)  
+    ![](assets/image007.png)  
 5. Select a template name to open its read-only preview. For this example, select Duplicate near the Catalog Wise - Course Count MoM template. Review the columns, applied filters, and sort order. When you duplicate a template, Report Builder opens an editable copy with the template's existing configuration pre-loaded. The report name, description, columns, filters, and sorting are all editable before you save.  
 
 ## Name and describe the report
@@ -29,7 +29,7 @@ The **Columns** section has two panels: **Select columns** on the left and **Sel
 
 1. In the **Select columns** panel, expand a dataset by selecting its name. For example, **Catalog** or **Active Field User Group**.  
 2. Select the **+** icon next to the column you want to add. The column appears in the **Selected Columns** panel on the right.
- ![](assets/image-009.png)   
+ ![](assets/image009.png)   
 3. To add the same column more than once. For example, to apply two different aggregates to the same field. Select **+** again for that column.  
 
 ### Reorder columns
@@ -39,9 +39,9 @@ Drag the handle on the left of any column row in the **Selected Columns** panel 
 ### Rename a column
 
 1. Select the **edit** (pencil) icon on a column row.
-    ![](assets/image-011.png)   
+    ![](assets/image011.png)   
 2. Enter an alias. The alias appears as the column header in the downloaded report instead of the default field name.
-    ![](assets/image-013.png)   
+    ![](assets/image013.png)   
 
 ### Remove a column
 
@@ -52,7 +52,7 @@ Select the **×** icon on a column row to remove it from the report.
 The **Group by** control appears at the top of the **Selected Columns** panel.
 
 1. Select **Group by: Select**.
-    ![](assets/image-015.png)   
+    ![](assets/image015.png)   
 2. Select the columns to group by. You can select more than one. In the screenshot, the report is grouped by _catalog_ and _Creation month_.  
 3. Each selected group-by column appears as a tag below the Group by control. To remove a group-by column, select **×** on its tag.  
 
@@ -83,7 +83,7 @@ The **Filters** section is below the **Columns** section. Filters restrict which
 
 1. To add a filter, select the **+** icon at the right of the Filters section.  
 2. Choose the field to filter on.
-    ![](assets/image-017.png)
+    ![](assets/image017.png)
 3. Select an operator and enter or choose a value.  
 
 To edit an existing filter, select the **pencil** icon on the filter row. To add a nested filter group, select the + icon with brackets on the right of a filter row.
@@ -94,7 +94,7 @@ The Sorting section is below the Filters section.
 
 1. Select **+ Add sorting** to add a sort.  
 2. Choose the column to sort by and select **Ascending** or **Descending**.
-    ![](assets/image-020.png)  
+    ![](assets/image020.png)  
 3. Repeat to add secondary sorts. Drag the handle on the left of each sort row to change priority.  
 
 >[!TIP]

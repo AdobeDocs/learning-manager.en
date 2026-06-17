@@ -55,7 +55,7 @@ For example, you may want to identify learners who enrolled in courses in the la
     a. Enrollment-Enrolled Date **is within last year**
     b. User-Manager Name **starts with N**
     c. User-Manager Name **is not empty**
-        ![](rb-images/image026.jpg)
+        ![](assets/image026.jpg)
 6. Select **Save Report** and select **Actions** > **Download** to download the report.
 
 The downloaded report lists all users who've enrolled in a Learning Object in the past 365 days and report to a manager whose name starts with N.

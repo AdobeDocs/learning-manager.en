@@ -27,7 +27,7 @@ This report shows how many courses were added to the account month-on-month.
 4. Add **Created Date** from the **Learning Object** data set.
     ![](assets/image039.png)
 5. Apply **Group by** on **Created Date**. Set the trend granularity to **Month**.
-    ![](assets/image40.png)
+    ![](assets/image040.png)
 6. Apply **Count** to **Learning Object ID**. Enter the alias Course count.
     ![](assets/image041.png)
 7. Sort by **Created Date** ascending to show the trend chronologically.
