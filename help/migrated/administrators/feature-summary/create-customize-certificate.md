@@ -265,17 +265,12 @@ Organizations that rely on certificates for multiple learning objects should pla
 12. To add images, select **Image** next to **Add elements**. Upload images from your computer, or select images from the category lists.
 13. Select **Dynamic Value** to add basic details, catalog labels, and active fields.
 14. Select **Certificate Background** to apply colors or images.
-15. In the prompt field, describe what you want (up to 100 characters), and select **Generate**. Four image options appear based on your prompt.
-16. Select the image you want. It is applied as the certificate background.
-![Create a custom certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-*Add image to the certificate*
-
-17. Select **Preview** to review the certificate before you publish. This helps you understand how the certificate looks like.
+15. Select **Preview** to review the certificate before you publish. This helps you understand how the certificate looks like.
 ![Create a custom certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
 *Preview the certificate*
 
-18. In the preview, you can save to Google Drive, download, print, or use other options such as annotation or document properties.
-19. Select **Save as Draft** to continue later, or select **Publish** to publish the certificate. After publication, learners can download the certificate when they meet the configured milestone.
+16. In the preview, you can save to Google Drive, download, print, or use other options such as annotation or document properties.
+17. Select **Save as Draft** to continue later, or select **Publish** to publish the certificate. After publication, learners can download the certificate when they meet the configured milestone.
 
 After you save a certificate under **Published** or **Drafts**, you can edit, clone, rename, or delete it.
 
