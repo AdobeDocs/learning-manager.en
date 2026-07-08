@@ -14,12 +14,6 @@ Administrators can:
 
 - Design certificates in a visual, canvas-style editor instead of writing code.
 - Attach certificates to courses with flexible defaults.
-- Use Adobe Firefly–powered generative backgrounds while keeping brand and compliance needs in mind.
-
-  >[!NOTE]
-  >
-  >The Firefly AI feature is not available for FedRAMP customers.
-
 - Migrate from existing HTML templates and stay compatible with historical learner records.
 
 The certification process follows the existing badge and achievement model in Learning Manager, so learner behavior stays familiar while administrators and support teams spend less time on certificate operations.
@@ -101,19 +95,6 @@ When a learner completes training, Learning Manager chooses a design in this ord
 - LO default template
 - Account default template
 
-### Adobe Firefly–powered generative backgrounds
-
->[!NOTE]
->
->The Firefly AI feature is not available for FedRAMP customers.
-
-To help customers produce consistent, on-brand certificates at scale, the designer integrates with Adobe Firefly:
-
-- Administrators generate backgrounds from keyword prompts and a color scheme (for example, "minimalistic, healthcare, teal palette").
-- A curated keyword library supports common industries (shipping, healthcare, and others) for users who are not designers.
-- Generated images are added to the background gallery and can be reused across templates.
-- Credit and tiering for Firefly usage in Learning Manager are defined by product policy.
-
 ### Legacy HTML certificate migration
 
 Existing HTML or ZIP certificate templates are preserved but cannot be edited in the new designer:
@@ -171,11 +152,10 @@ By consolidating certificate management under **Achievements** with a clear user
 
 ### Governance, consistency, and brand control
 
-Defaults, Firefly, and galleries help customers:
+Defaults and galleries help customers:
 
 - Ship on-brand templates once at the account level, and override only where needed.
-- Use Firefly backgrounds within enterprise guardrails instead of ad hoc external assets.
-- Govern certificates through publish and retire states, with previewable drafts before rollout.
+- Govern certificates through publish and retire states with previewable drafts before rollout.
 
 ### Alignment with existing badge and certificate flows
 
@@ -194,7 +174,7 @@ Pre-baked certificates and JSON-driven rendering target performance:
 
 **Scenario:** A software company runs customer and partner academies with hundreds of programs across regions and brands.
 
-- Use account-level default templates with Firefly-generated backgrounds aligned to each product line.
+- Use account-level default templates with backgrounds aligned to each product line.
 - Add locale-specific layouts for localized certification titles, regulatory disclaimers, and signatures.
 - For premium partners, duplicate base templates and add partner co-branding (logo and legal text) at the instance level.
 - Pre-baked PDFs let partners download certificates right after they complete partner certifications, with minimal load on Learning Manager.
@@ -224,7 +204,6 @@ This applies to healthcare, finance, government, and other industries where cert
 
 - Program owners can design **program-branded templates** (for example, internal academy or MAP-style visuals) without HTML skills.
 - Instance-level overrides let different cohorts or regions use variants (for example, cohort-specific or regional branding).
-- Firefly backgrounds support **event-specific or cohort-specific** visuals with less dependency on design teams.
 
 ### Transition from legacy HTML certificates
 
@@ -285,18 +264,13 @@ Organizations that rely on certificates for multiple learning objects should pla
 11. For **Text**, add content under **Preformatted text** or **Text Templates**, or add custom text. The text appears on the canvas. When text is selected, formatting options appear above the canvas. To remove content you do not want, select the **Delete** icon in the upper-right corner of the canvas.
 12. To add images, select **Image** next to **Add elements**. Upload images from your computer, or select images from the category lists.
 13. Select **Dynamic Value** to add basic details, catalog labels, and active fields.
-14. Select **Certificate Background** to apply colors or images. To create images with Adobe Firefly, select **Generate Image**.
-15. In the prompt field, describe what you want (up to 100 characters), and select **Generate**. Four image options appear based on your prompt.
-16. Select the image you want. It is applied as the certificate background.
-![Create a custom certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-*Add image to the certificate*
-
-17. Select **Preview** to review the certificate before you publish. This helps you understand how the certificate looks like.
+14. Select **Certificate Background** to apply colors or images.
+15. Select **Preview** to review the certificate before you publish. This helps you understand how the certificate looks like.
 ![Create a custom certificate](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
 *Preview the certificate*
 
-18. In the preview, you can save to Google Drive, download, print, or use other options such as annotation or document properties.
-19. Select **Save as Draft** to continue later, or select **Publish** to publish the certificate. After publication, learners can download the certificate when they meet the configured milestone.
+16. In the preview, you can save to Google Drive, download, print, or use other options such as annotation or document properties.
+17. Select **Save as Draft** to continue later, or select **Publish** to publish the certificate. After publication, learners can download the certificate when they meet the configured milestone.
 
 After you save a certificate under **Published** or **Drafts**, you can edit, clone, rename, or delete it.
 
