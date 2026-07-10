@@ -62,7 +62,7 @@ To use the Zoom Connector with Adobe Learning Manager, you must create a Zoom Se
 
 ### Required OAuth scopes
 
-When creating the app in Zoom, ensure the following scopes are selected:
+When creating the application in Zoom, ensure the following scopes are selected:
 
 | Scope Description | Zoom Scope |
 |---|---|
