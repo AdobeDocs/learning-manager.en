@@ -64,6 +64,7 @@ To use the Zoom Connector with Adobe Learning Manager, you must create a Zoom Se
 
 When creating the application in Zoom, ensure the following scopes are selected:
 
+```
 | Scope Description | Zoom Scope |
 |---|---|
 | View all user meetings | meeting:read:admin |
@@ -75,3 +76,5 @@ When creating the application in Zoom, ensure the following scopes are selected:
 | List all meeting registrants | meeting:read:list_registrants:admin |
 | Manage sub-account meetings | meeting:write:meeting:master |
 | View meeting participants report | report:read:list_meeting_participants:admin |
+
+```
