@@ -19,6 +19,22 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 </table>
 -->
 
++++Update 109: July 2026 release of Adobe Learning Manager
+
+Release date: July 15, 2026
+
+## Bugs fixed
+
+**Email Templates:** Reminder emails for upcoming sessions were sent without session date and time information for learners enrolled in course instances. This issue has been fixed to correctly populate session scheduling details in the email template. Learners now receive upcoming session reminder emails that include the relevant session date and time, providing complete scheduling information.
+
+**Connectors:** Authors intermittently encountered HTTP 400 errors when duplicating or editing connector-based Classroom/Virtual Classroom courses. Once triggered, the issue persisted and blocked subsequent course creation or editing actions until the session was refreshed. This issue has been fixed to ensure reliable duplication and editing of connector-based courses. Authors can now duplicate, create, and modify Classroom/Virtual Classroom courses without encountering recurring 400 errors.
+
+**CMS API request encoding:** An automated platform workflow was generating repeated download requests to the CMS HTTP API with improperly encoded URLs, causing intermittent HTTP 500 errors and, at times, thousands of invalid requests per second. The URL encoding logic has been corrected to ensure asset paths containing special characters, such as spaces, are encoded properly before requests are sent. Download requests to NetStorage now execute successfully, eliminating the recurring API errors and request spikes.
+
+**Translation workflow resilience:** Translation requests from English to Norwegian Bokmal failed because the language pair is not supported by the underlying translation service, resulting in the entire translation workflow being interrupted. The translation handling logic has been enhanced to gracefully manage unsupported language pairs and isolate individual translation failures. Translation requests for unsupported languages are now skipped and reported appropriately, while translations for all remaining supported target languages continue to process successfully.
+
++++
+
 +++Update 108: June 2026 release of Adobe Learning Manager
 
 Release date: June 17, 2026
