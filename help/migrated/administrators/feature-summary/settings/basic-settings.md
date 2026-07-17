@@ -232,6 +232,10 @@ Adobe Learning Manager has certain product terminology to define Learning Object
  
 See Product Terminology in Adobe Learning Manager for more information.
 
+### Credits
+
+When enabled, authors and instructors can record the number of instructional credits for each session or module. Credits represent the instructional time a learner will be credited for completing the activity. Credit values appear in learner transcripts, learning reports, and contribute to total duration calculations for Learning Paths. If you disable this setting, previously entered credit values are retained and restored if the setting is turned back on.
+
 ### Module Version Update
 
 This option allows administrators to update the content of a module without disrupting the progress of learners who are already enrolled in courses containing that module. This ensures that learners can continue their learning journey smoothly while authors can keep the content up-to-date. With the option enabled, authors can upload a new version of a module (for example, SCORM, AICC, or xAPI packages) to replace the existing one.
@@ -254,6 +258,10 @@ This option deletes users if they do not access Adobe Learning Manager for a spe
 * Internal users who have been inactive for a defined duration are automatically deleted.
 * Users are notified before deletion, giving them an opportunity to log in and prevent removal.
 * To have their access restored, a deleted user must contact the account administrator.
+
+### Auto-purge Deleted Users
+
+Automatically and permanently remove users from the system who have been in the deleted state for a specified duration. Once purged, all associated user data is permanently removed and cannot be recovered.
 
 ### Show Catalog Labels
 
@@ -388,6 +396,37 @@ This feature is particularly useful for organizations that sell multiple trainin
 * Multiple purchases: Learners can add multiple items to their cart and purchase them in one transaction. See Multi-item cart for more information.
 *Streamlined checkout: Reduces the need for learners to make separate purchases for each training item. 
 * SKU management: Administrators can manage SKUs for courses, learning paths, and certifications to ensure proper tracking and reporting.
+
+### Alternate Courses/Paths
+
+When Learners complete a Course/Path, another specified set of Courses/Paths can be marked as completed via alternate. This is useful when courses cover equivalent or overlapping content. For example, when a new course replaces an older version, or when regional variants of the same training exist. Learners are not automatically enrolled in Courses/Paths marked as completed via alternate and will only receive credits, badges, and points for the Course/Path they actually completed. Alternate completions appear in the Learner Transcript and count toward any Learning Path or certification that includes the alternate course.
+
+**Activate retroactive completions (Irreversible)**
+If Learners completed a Course/Path earlier and another Course/Path is later added under Alternate Courses/Paths, those will also be marked as completed via alternate for the Learners. This applies retroactively to all past completions — not just enrollments going forward. Use this when you want historical completions to count toward newly added alternate courses. Once activated, this cannot be deactivated.
+
+**Activate retroactive incompletions (Irreversible)**
+If a Course/Path is removed from Alternate Courses/Paths, Learners who were previously marked as completed via alternate will be marked incomplete. This affects all Learners whose completion was based solely on the alternate, not Learners who completed the course directly. Their transcript will reflect the updated incomplete status. Once activated, this cannot be deactivated.
+
+### Gradebook visibility
+
+When enabled, authors can control gradebook visibility at the course level, allowing Learners to view their weighted module scores, aggregate course score, and pass/fail status directly in the course player. If this setting is disabled at the account level, Learners cannot see the gradebook in any course, regardless of how individual courses are configured. Gradebook scores and calculations continue to run in the background for administrator reporting purposes even when learner visibility is turned off.
+
+**Enable Gradebook view for Learners**
+
+Activates the account-level permission that allows authors to show or hide the gradebook per course. Once enabled, authors see a Show gradebook to learners option in the course editor. Learners will see a Gradebook tab in the course player for any course where the author has enabled it. Disabling this setting at the account level overrides all course-level configurations. Learners will not see the gradebook in any course until the setting is re-enabled.
+
+### External learning
+
+When enabled, Learners can submit and track learning activities completed outside Adobe Learning Manager — such as certifications, workshops, conferences, and external courses, directly from their Learner dashboard. Submissions are reviewed and approved by the Learner's direct manager before they are recorded. Once approved, the external learning activity is added to the Learner Transcript and counts toward the Learner's overall learning record. Administrators can configure which fields Learners must fill in when submitting an external learning activity, including custom fields specific to your organization.
+
+**Enable**
+
+Activates the External Learning feature for all Learners in the account. Once enabled, a submission form becomes available on the Learner dashboard. Learners can enter details such as the training name, duration, date, score, and proof of completion. The submission is sent to their manager for review and approval. Approved submissions appear in the Learner Transcript and in administrator reports. Rejected submissions are not recorded in the transcript.
+
+>[!NOTE]
+>
+>Enabling this setting adds new columns to the Learner Transcript for external learning submissions. If your organization uses automated workflows or integrations that process Learner transcript data, review those before enabling to ensure compatibility with the updated transcript structure.
+
 
 ### Player settings
 
