@@ -199,6 +199,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Announcements](learners/feature-summary/announcements.md)
    * [Waitlist & attendance management](learners/feature-summary/waitlist-attendance-management.md)
    * [AI Assistant for learners](learners/feature-summary/learner-ai-assistant.md)
+   * [Learning Path Agent (beta) in Adobe Learning Manager](learners/feature-summary/learning-path-agent.md)
    * [AI-powered search in Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Learning Manager app for Salesforce](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect integration](learners/feature-summary/adobeconnect-integration.md)
