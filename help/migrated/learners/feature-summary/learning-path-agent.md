@@ -31,5 +31,36 @@ The agent selects courses based on relevance to your stated goal, your current p
 
 All saved personalized learning paths appear in the _Personalized Learning Paths_ strip on your home page. Each card shows the path name, number of courses, and a _Continue_ button to resume where you left off.
 
-![Personalized Learning Paths strip on home page](assets/plp-agent/image_0001.png)
+![](plp-agent/image_0001.png)
+
+### Sharing a Learning Path
+
+Once you have saved a Personalized Learning Path, you can share it with colleagues. Sharing sends them a link or an email invitation. When a colleague opens a shared path, they can enroll with a single action. Sharing is useful when several people on your team have similar learning goals, and you want them to follow the same structured plan.
+
+### Best practices
+
+- Describe your learning goal as specifically as possible when you start the conversation. The more context the agent has, the more relevant your path will be.
+- Provide your time commitment upfront, so the generated path fits your actual schedule. The agent understands natural language: "two evenings a week" or "30 minutes a day" are both valid.
+- Review the suggested topics before asking the agent to generate courses. Confirming or adjusting topics at that stage saves time compared to revising the course list afterward.
+- If a topic shows no matching content, note it and contact your administrator to request relevant courses to be added to the catalog.
+
+## Configure the Personalized Learning Path agent
+
+The Personalized Learning Path agent is enabled by default in Adobe Learning Manager when you enable the AI Assistant option in Settings.
+
+>[!NOTE]
+>
+> Content visibility follows your existing catalog access rules. A learner will only see and receive courses from catalogs they already have access to\. The Personalized Learning Path agent does not bypass catalog restrictions.
+
+Within each source, the agent ranks courses by relevance to the learner's goal, how well the course level matches the learner's stated proficiency, how recent the content is, and available quality signals such as ratings and completion rates.
+
+If no matching courses are available for a topic in the catalog, the agent informs the learner and suggests they contact an administrator to request content for that area.
+
+### Monitor credit usage
+
+The Personalized Learning Path agent consumes AI credits each time a learner generates a path. To monitor and manage usage:
+
+1. In the left navigation of the administrator's home page, select **Billing**.
+2. Select the **AI Credits** tab. The **Learning Path** agent appears as a line item in the features list.
+3. Review current usage and adjust the credit allocation or usage limit as needed.
 
