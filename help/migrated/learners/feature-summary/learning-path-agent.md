@@ -31,5 +31,5 @@ The agent selects courses based on relevance to your stated goal, your current p
 
 All saved personalized learning paths appear in the _Personalized Learning Paths_ strip on your home page. Each card shows the path name, number of courses, and a _Continue_ button to resume where you left off.
 
-![Personalized Learning Paths strip on home page](help/migrated/learners/feature-summary/assets/plp-agent/image_0001.png)
+![Personalized Learning Paths strip on home page](help\migrated\learners\feature-summary\assets\plp-agent\image_0001.png)
 
