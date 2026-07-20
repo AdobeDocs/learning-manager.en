@@ -50,11 +50,11 @@ The Personalized Learning Path agent is enabled by default in Adobe Learning Man
 >
 > Content visibility follows your existing catalog access rules. A learner will only see and receive courses from catalogs they already have access to\. The Personalized Learning Path agent does not bypass catalog restrictions.
 
-Within each source, the agent ranks courses by relevance to the learner's goal, how well the course level matches the learner's stated proficiency, how recent the content is, and available quality signals such as ratings and completion rates.
+Within each source, the agent ranks courses by relevance to the learner's goal and how well the course level matches the learner's stated proficiency.
 
 If no matching courses are available for a topic in the catalog, the agent informs the learner and suggests they contact an administrator to request content for that area.
 
-### Monitor credit usage
+<!-- ### Monitor credit usage
 
 The Personalized Learning Path agent consumes AI credits each time a learner generates a path. To monitor and manage usage:
 
@@ -64,7 +64,7 @@ The Personalized Learning Path agent consumes AI credits each time a learner gen
 
 >[!CAUTION]
 >
->If the credit limit for the Learning Path agent is reached, learners receive an in-app message that the agent is unavailable and are directed to contact an administrator. Increase the allocation to restore access.
+>If the credit limit for the Learning Path agent is reached, learners receive an in-app message that the agent is unavailable and are directed to contact an administrator. Increase the allocation to restore access. -->
 
 ## Create a Personalized Learning Path with the Learner AI assistant
 
@@ -72,18 +72,16 @@ Use the Learner AI assistant in Adobe Learning Manager to generate a personalize
 
 ### Open the Learner AI assistant and start a conversation
 
-1. Select _AI Assistant_ from your home page.
-2. In the AI assistant panel, select the _Personalized Learning Path_ tab. If you see only a _Q&A_ tab, the Personalized Learning Path feature may not be enabled on your account. Contact your administrator.
-3. Optionally, select _+ New chat_ to start a fresh conversation if you have previous sessions open.
-4. Type your learning goal in the text field. Be as specific as you can. For example:
+1. Select **AI Assistant** from your home page.
+2. Type your learning goal in the text field. Be as specific as you can. For example:
     - *I am a software developer and I want to create an AI agent using Cursor.*
     - *I just got promoted to a manager role and want to learn how to handle difficult conversations.*
     - *I want to master financial modeling as an analyst.*
-
+3. Optionally, select _+ New chat_ to start a fresh conversation if you have previous sessions open.
 
 Notes:
 
-- Optionally, attach a document using the _paperclip_ icon, such as a resume, a manager feedback email, or a project brief\. The agent uses the document to understand your background without requiring you to type it.
+- Optionally, attach a document using the _paperclip_ icon, such as a resume, a manager feedback email, or a project brief. The agent uses the document to get more context about your lrarning goal and background.
 - Select _Send_.
 
 ### Describe your goal and background
@@ -124,8 +122,8 @@ If some topics have no matching content:
 
 The agent informs you that it could not find courses for those specific topics and suggests reaching out to your administrator to request content for those areas. The path is still generated for the topics where courses were found.
 
-- Review the path. If you want to change something, for example, remove a course, adjust the scope, or explore different topics. Type your request in the chat\. For example, Can you remove the first course and replace it with something shorter?
-- When you are satisfied with the path, ask the agent to save it by typing save the learning path.
+<!-- - Review the path. If you want to change something, for example, remove a course, adjust the scope, or explore different topics. Type your request in the chat\. For example, Can you remove the first course and replace it with something shorter? -->
+When you are satisfied with the path, ask the agent to save it by typing save the learning path.
 
 ### Save and access your Learning Path
 
@@ -173,9 +171,9 @@ The agent tells you directly in the conversation that it could not find matching
 
 If the agent cannot find courses for any of your topics, it will inform you that it is unable to create a path for that goal. In either case, reach out to your learning administrator and let them know which topics had no content available. They can add relevant courses to the catalog so future path requests are covered.
 
-_How does the agent decide which courses to include?_
+<!-- _How does the agent decide which courses to include?_
 
-The agent prioritizes your organization's internal course catalog above external sources. It selects courses based on relevance to your stated goal, whether the course level matches your proficiency, how recently the content was published or updated, and quality signals such as ratings and completion rates\. Your administrator controls which content sources are available.
+The agent prioritizes your organization's internal course catalog above external sources. It selects courses based on relevance to your stated goal, whether the course level matches your proficiency, how recently the content was published or updated, and quality signals such as ratings and completion rates\. Your administrator controls which content sources are available. -->
 
 _Can I adjust the topics in my learning path?_
 
