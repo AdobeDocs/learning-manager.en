@@ -1,10 +1,12 @@
+# Discover and engage with Channels
+
 Channels help the learners discover and access video-based informal learning content curated in web and Cloud Confluence pages within the Adobe Learning Manager. Administrators create channels by connecting them to enterprise web pages or Cloud Confluence pages that host recorded knowledge-sharing and knowledge-transfer sessions.
 
 Instead of searching across multiple internal sites, you can browse channel content directly in Learning Manager. Channels provide a
 centralized location to discover relevant videos, stay informed about new content, and engage with your organization's self-paced learning
 resources.
 
-## Key benefits
+**Key benefits**
 
 - Access video content from enterprise web pages and Cloud Confluence pages in one place.
 - Discover learning resources without navigating multiple internal websites.
@@ -13,7 +15,7 @@ resources.
 - Participate in discussions and collaborate with other Learners around shared content.
 - Explore curated collections of videos relevant to your role and interests.
 
-# Find Channels
+## Find Channels
 
 Use the **Channels** page to discover new content, access channels you subscribed to, and view videos you have liked.
 
@@ -33,7 +35,7 @@ Use the **Channels** page to discover new content, access channels you subscribe
 
 4. Select **View All** for a channel to view all videos available in that channel.
 
-# Subscribe to a Channel
+## Subscribe to a Channel
 
 Subscribe to channels to quickly access the content that is most relevant to you and stay updated when new videos are added.
 
@@ -51,13 +53,13 @@ tab for quick access.
 
 If you no longer want to follow a channel, select the **Subscribed** button again. The channel is removed from your **Subscribed** tab and remains available under the **All** tab, where you can access it at any time.
 
-# Watch a video
+## Watch a video
 
 Watch videos from your organization's channels to access curated knowledge-sharing and learning content.
 
 To watch a video, navigate to a channel and select the video thumbnail or play icon. On the video details page, select the **Watch Video** button to open and play the video.
 
-# Like a video
+## Like a video
 
 Like videos to save them to your **Liked** tab and quickly find them later.
 
@@ -66,7 +68,7 @@ To like a video, select the **Like** button on a video card or on the video deta
 ![Liked Videos Tab](assets/liked-videos-tab.png) The Liked tab, where videos you like are saved so you can
 find them later.
 
-# Join the discussion
+## Join the discussion
 
 Use the discussion on each video to share insights, give feedback, and ask questions. Each video has its own discussion thread.
 
