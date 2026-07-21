@@ -122,7 +122,7 @@ Additionally, do not embed a Learning Path that contains an adaptive course insi
 >
 >When a learner is auto\-unenrolled from an adaptive course inside a **regular** Learning Path, because a user group change removed all their visible modules, the parent Learning Path remains in an enrolled state. The Learning Path does not auto\-unenroll. The learner will see the Learning Path as enrolled in their transcript even though the adaptive course within it is no longer accessible. If your use case requires the parent Learning Path to also unenroll when the adaptive course does, consider using an **adaptive Learning Path** instead of a regular Learning Path to contain the adaptive course.
 
-# Enable adaptive courses for your account
+## Enable adaptive courses for your account
 
 Turn on adaptive learning so authors can create courses that show different modules to different learners based on user group membership.
 
