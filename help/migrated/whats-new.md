@@ -6,6 +6,11 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 ---
 # What's new in the August 2026 release of Adobe Learning Manager
 
+>[!WARNING]
+>
+>The features described in this article are available as part of the beta release. Adobe Learning Manager beta features are provided for evaluation purposes and may be modified, limited, or removed before the general availability release. Feature names, behavior, and configuration options are subject to change without notice.
+
+
 ## Adaptive courses
 
 Adaptive courses let you deliver personalized training by controlling which modules each learner sees, and which are required, based on the user groups they belong to. A single course dynamically presents the right content to the right person automatically.
