@@ -19,6 +19,28 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 </table>
 -->
 
++++Update 110: August 2026 release of Adobe Learning Manager
+
+## Release highlights
+
+View [What's new and changed in the August 2026 release of Adobe Learning Manager](/help/migrated/whats-new.md) for more information.
+
+## Bugs fixed in the release
+ 
+abc
+
+## Known issues in the release
+
+### Column names are not localized in the exported Classroom Locations CSV
+
+When the UI locale is set to a language other than English, the CSV file exported from the Classroom Locations page displays its column names (the header row) in English rather than in the selected language.  
+
+This behavior occurs during the export of Classroom Locations from Admin profile > Settings > Classroom Locations. While the location data within the file is returned correctly, the column headers are not translated to match the Administrator's chosen UI locale. As a result, an Administrator working in a non-English locale sees English column names in an otherwise localized environment. 
+
+ Only the header row is affected; the underlying location data in the exported file is unaffected. No fix is included in this release, and the issue is being evaluated for a future release.
+
++++
+
 +++Update 109: July 2026 release of Adobe Learning Manager
 
 Release date: July 16, 2026
