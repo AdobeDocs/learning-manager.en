@@ -43,7 +43,7 @@ Accept: application/vnd.api+json
 POST /primeapi/v2/userGroups
 ```
 
-Creates a new custom user group with an initial list of members. The group is immediately available for use in the Admin app and in adaptive course module visibility rules.
+Creates a new custom user group with an initial list of members. The group is immediately available for use in the Admin app.
 
 #### **Request body**
 
