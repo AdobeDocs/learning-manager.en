@@ -231,7 +231,9 @@ user-guide-description: Documentation for Adobe Learning Manager
 * API Changes {#api-changes}
    * [API changes in the August 2026 release](/help/migrated/api-changes-august-2026.md)
    * [API changes in the April 2026 release](/help/migrated/api-changes-alm.md)
-   * [API changes in the May release](/help/migrated/api-changes-alm-may.md)   
+   * [API changes in the May release](/help/migrated/api-changes-alm-may.md)
+* Reporting Changes {#reporting-changes}
+   * [Reporting changes in the August 2026 release](/help/migrated/reporting-changes-august-2026.md)
 * Knowledge Base {#knowledge-base}
    * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
