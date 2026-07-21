@@ -229,7 +229,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [How to submit a support ticket on Experience League](/help/migrated/how-to-submit-support-ticket.md)
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * API Changes {#api-changes}
-   * [API changes in the April release](/help/migrated/api-changes-alm.md)
+   * [API changes in the August 2026 release](/help/migrated/api-changes-august-2026.md)
+   * [API changes in the April 2026 release](/help/migrated/api-changes-alm.md)
    * [API changes in the May release](/help/migrated/api-changes-alm-may.md)   
 * Knowledge Base {#knowledge-base}
    * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
