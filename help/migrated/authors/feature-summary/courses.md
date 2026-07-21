@@ -105,7 +105,7 @@ To create a course, follow the steps below:
 14. In the Auto Retire field, select a date when the course retires. The Administrator must enable the Auto Retire option first.
 15. To save the changes, select **[!UICONTROL Save]**. To publish the course, click **[!UICONTROL Publish]**.
 
-## Configure Gradebook for a course
+## Configure Gradebook for a course {#configuregradebookforacourse}
 
 Set up weighted scoring for a course in Adobe Learning Manager so that each learner receives an aggregate score calculated from their module performance, and so that course completion can be tied to achieving a minimum score threshold.
 
@@ -140,9 +140,9 @@ After enabling Gradebook, add your content modules and assign a weightage percen
 
 4. For modules with multiple delivery types: weightage can only be assigned if **all** delivery types in the module support scoring. If any one delivery type does not support scoring, the entire module cannot be weighted.
 
-> [!NOTE]
+>[!NOTE]
 >
-> The scoring scale does not need to match across delivery types. A classroom session scored out of 100 and a SCORM module scored out of 10 can coexist in the same Gradebook. The formula normalizes each contribution automatically.
+>The scoring scale does not need to match across delivery types. A classroom session scored out of 100 and a SCORM module scored out of 10 can coexist in the same Gradebook. The formula normalizes each contribution automatically.
 
 ### Set the minimum passing score
 

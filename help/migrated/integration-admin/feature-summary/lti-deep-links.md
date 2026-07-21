@@ -13,7 +13,7 @@ contentowner: mmanuel
 
 LTI Deep Linking is an LTI advantage capability that allows instructors or course authors to browse, select, and embed specific learning items from Adobe Learning Manager (ALM) directly into an external LTI tool consumer/platform (like Canvas or Moodle) courses.
 
-LTI deep links simplify the process of adding courses to a learning platform such as Moodle. In the current workflow, an author must manually copy the course URL, including the exportAUID parameter, and then paste the required details into the LMS while configuring the course link. This step must be repeated for every course and for every placement. For example, if the same course needs to be added in 10 different locations, the author must repeat the copy-and-paste process 10 times. This manual approach increases effort and introduces a higher risk of configuration errors.
+LTI deep links simplify the process of adding courses to a learning platform such as Moodle. In the current workflow, an author must manually copy the course URL, including the export UUID parameter, and then paste the required details into the LMS while configuring the course link. This step must be repeated for every course and for every placement. For example, if the same course needs to be added in 10 different locations, the author must repeat the copy-and-paste process 10 times. This manual approach increases effort and introduces a higher risk of configuration errors.
 
 Deep linking removes this overhead by allowing the LMS to handle course selection during setup and provides the appropriate launch URL for content selection. 
 
