@@ -77,6 +77,8 @@ Use the Learner AI assistant in Adobe Learning Manager to generate a personalize
     - *I am a software developer and I want to create an AI agent using Cursor.*
     - *I just got promoted to a manager role and want to learn how to handle difficult conversations.*
     - *I want to master financial modeling as an analyst.*
+![](assets/ai-assistant.png)
+
 3. Optionally, select _+ New chat_ to start a fresh conversation if you have previous sessions open.
 
 Notes:
@@ -92,6 +94,8 @@ The agent responds with a message acknowledging your goal and asks for additiona
 - _Your specific challenges or scenarios_ the real-world situations you need this learning to address immediately.
 - _Your time commitment_ the number of hours per week you can realistically dedicate to learning.
 
+![](assets/goal-background.png)
+
 You do not need to answer every question. The only required input is your learning goal or challenge. The agent will proceed with whatever context you provide.
 
 >[!TIP]
@@ -100,14 +104,18 @@ You do not need to answer every question. The only required input is your learni
 
 Type your response and select _Send_.
 
+![](assets/time-commitment.png)
+
 Continue the conversation until the agent presents your suggested topics.
+
+![](assets/suggested-topics.png)
 
 ### Review the suggested topics
 
 After gathering enough context, the agent presents a list of 3–5 learning topics, each with a title, a brief description, and a suggested proficiency level.
 
 1. Read the topic list carefully. The agent selects proficiency levels based on what you have shared, but you can request changes.
-2. To adjust a topic, for example, to change the proficiency level or swap a topic, type your feedback in the chat. For example, I already have some knowledge of the first topic\. Can you set that one to intermediate?
+2. To adjust a topic, for example, to change the proficiency level or swap a topic, type your feedback in the chat. For example, I already have some knowledge of the first topic. Can you set that one to intermediate?
 3. If you are happy with the topics as suggested, confirm them by replying in the chat or selecting the suggested confirmation prompt if one appears.
 
 ### Review the learning path
@@ -124,6 +132,8 @@ The agent informs you that it could not find courses for those specific topics a
 
 <!-- - Review the path. If you want to change something, for example, remove a course, adjust the scope, or explore different topics. Type your request in the chat\. For example, Can you remove the first course and replace it with something shorter? -->
 When you are satisfied with the path, ask the agent to save it by typing save the learning path.
+
+![](assets/create-lp.png)
 
 ### Save and access your Learning Path
 
