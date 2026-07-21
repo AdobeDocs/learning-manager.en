@@ -193,7 +193,7 @@ The response body is empty.
 
 ## External learning API in Adobe Learning Manager
 
-This release adds five new Learner-scoped public API endpoints for the External Learning feature. These endpoints allow learners to create, retrieve, and update external learning submissions programmatically, for example, from a mobile app, an integrated HR system, or a custom learning portal.
+This release adds five new Learner-scoped API endpoints for the External Learning feature. These endpoints allow learners to create, retrieve, and update external learning submissions programmatically, for example, from a mobile app, an integrated HR system, or a custom learning portal.
 
 The external learning workflow through the API mirrors the workflow in the Learner app: a learner submits training details and an optional proof document, their direct manager receives a notification to review the submission, and on approval the record appears in the learner's transcript.
 
