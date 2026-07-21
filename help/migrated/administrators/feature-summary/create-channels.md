@@ -1,16 +1,18 @@
+# Create Channels
+
 Organizations often store knowledge-sharing sessions, training recordings, and other video content across informal learning content curated web and Confluence Cloud pages. Channels connect Adobe Learning Manager to these content sources, making videos easier to discover and consume without requiring learners to navigate multiple systems. Channels help you organize and share video-based learning content from enterprise web pages and Confluence Cloud pages in a single, searchable location. Instead of searching across multiple internal sites, learners can discover and access relevant recordings directly from Adobe Learning Manager. View **Discover and engage with Channels** for more information.
 
 As an Administrator, you can create and manage channels, configure visibility settings, synchronize content with its source, and verify that videos are available before making the channel accessible to Learners. This article explains how to perform these channel management
 tasks.
 
-## Key benefits
+**Key benefits**
 
 - Consolidate video-based learning content from multiple internal sources in one location.
 - Curate video content from multiple intranet locations into web pages, which are then displayed as Channels in ALM.
 - Enable Learners to find, play, and engage with content without navigating to multiple sites.
 - Keep content synchronized with its original source.
 
-# Enable Channels
+## Enable Channels
 
 Channels is a feature that Administrators turn on for the account. Once enabled, you can create channels that connect to enterprise web pages and to Cloud Confluence pages containing video content.
 
@@ -33,7 +35,7 @@ To enable the Channels feature:
 4. Enable **Channel feature**.
 <br> The channels are enabled for the account.
 
-# Create a Channel
+## Create a Channel
 
 Create a channel to define the content source that Adobe Learning Manager scans for videos, and customize the channel and video page appearance.
 
@@ -76,7 +78,7 @@ The sample videos are retrieved and displayed from the configured source.
 2. Select **Create channel**.
 The channel is created and added to the **Channels** list.
 
-# Edit a Channel
+## Edit a Channel
 
 You can edit an existing channel to update its configuration and settings.
 
