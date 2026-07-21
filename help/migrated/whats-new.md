@@ -180,11 +180,11 @@ Learn more about LTI deep linking.
 
 ## Reporting changes in the release
 
-Learn more about the [reporting chganges in the August 2026 release](/help/migrated/reporting-changes-august-2026.md)
+Learn more about the [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
 
 ## API changes in the release
 
-Learn more about the [API changes in the August 2026 release](/help/migrated/api-changes-august-2026.md)
+Learn more about the [API changes in the August 2026 release of Adobe Learning Manager](/help/migrated/api-changes-august-2026.md).
 
 ## Other enhancements in the release
 
