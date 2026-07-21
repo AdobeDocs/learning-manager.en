@@ -109,6 +109,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Fluidic player](administrators/feature-summary/fluidic-player.md)
    * [Announcements](administrators/feature-summary/announcements.md)
    * [Email templates](administrators/feature-summary/email-templates.md)
+   * [Email builder](administrators/feature-summary/email-builder.md)
    * [Adobe Connect integration](administrators/feature-summary/adobeconnect-integration.md)
    * [Settings](administrators/feature-summary/settings.md)
    * [Notifications](administrators/feature-summary/user-notifications.md)
