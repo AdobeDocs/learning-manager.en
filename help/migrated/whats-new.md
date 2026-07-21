@@ -147,6 +147,10 @@ Learn more about Gen AI credits.
 
 ## Channels
 
+Channels provide a centralized way to organize, publish, and discover video content from web and Confluence pages. Administrators can create and manage channels by connecting supported web pages or Confluence pages, configure channel settings, control visibility, and synchronize content from the source. Learners can browse available channels, subscribe to channels of interest, and watch curated video content from a single location.  
+
+Learn more about Channels.
+
 ## Report Builder
 
 Report Builder gives administrators a flexible, self-service reporting tool that goes beyond the fixed report types available elsewhere in Adobe Learning Manager. Rather than being limited to predefined report structures, administrators can join fields from multiple datasets, like User, User Groups, Courses and Learning Paths, Modules, Transcript, Catalogs, and more — into a single custom report tailored to their organization's specific data needs.
@@ -177,6 +181,10 @@ Once enabled, authors see a **Select content** button in the external LMS activi
 Learn more about LTI deep linking.
 
 ## Classroom locations
+
+Classroom Locations now support a structured **four-field location format**, including Country, State/Province/Region, City, and Location Name, making it easier to manage and organize training locations across regions. The update includes a one-time migration from the legacy single-field format and adds multilingual support for the **Location Name** and **Room Information** fields, enabling localized classroom details for learners.
+
+Learn more about Classroom locations.
 
 ## Reporting changes in the release
 
