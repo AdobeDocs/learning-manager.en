@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Adaptive courses in Adobe Learning Manager are courses that are mandated for you by your author by gauging your learning requirements and customizing them according to your learning requirements once this feature is enabled by your admin. For more information, see ![Adaptive Courses](/help/migrated/administrators/feature-summary/adaptive-course-admin.md)
+Adaptive courses in Adobe Learning Manager are courses that are mandated for you by your author by gauging your learning requirements and customizing them according to your learning requirements once this feature is enabled by your admin. For more information, see [Adaptive Courses](/help/migrated/administrators/feature-summary/adaptive-course-admin.md).
 
 ## Take an adaptive course as a learner
 
