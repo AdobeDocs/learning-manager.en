@@ -15,7 +15,7 @@ By default, Adobe Learning Manager uses a single-field location format. For orga
 
 ## Configure Classroom Location settings
 
-Administrators can configure Author permissions for **Classroom Locations**.
+Administrators can control whether Authors can create and manage classroom locations. Use the **Classroom Locations** settings to define the level of access available to Authors.
 
 To configure **Classroom Locations** settings:
 
