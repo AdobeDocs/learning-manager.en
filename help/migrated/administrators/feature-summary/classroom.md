@@ -1,3 +1,8 @@
+---
+title: Add Classroom Locations
+description: Learn how Administrators can configure settings, and add, migrate, edit, and delete Classroom Locations in Adobe Learning Manager, and how to add translations for a Classroom Location.
+---
+
 # Add Classroom Locations
 
 Administrators can create and manage a library of Classroom Locations to reuse when setting up instructor-led training events in the Classroom and Virtual Classrooms module. For each location, you can define details such as the location name, seat limit, and additional information, including a location URL. Authors and Administrators can then select these predefined locations when creating classroom training.
@@ -23,7 +28,7 @@ To configure **Classroom Locations** settings:
 
    ![Settings tab for Classroom Locations](assets/classroom-locations-settings-tab.png)
 
-   Enable Author privileges for Classroom and Virtual Classroom locations from the **Settings** tab.
+   *Enable Author privileges for Classroom and Virtual Classroom locations from the **Settings** tab.*
 
 1. Select **Edit**.
 
@@ -58,7 +63,7 @@ You can add a Classroom Location by using the single-field format:
    1. Type and select the **Location Region**. This field is optional.
    1. Type the number of available seats in the **Seat Limit** field. This indicates the classroom's seating capacity. This value can be changed when creating the actual instructor-led training event.
 ![Add a classroom location using the single-field format](assets/add-classroom-location-single-field-format.jpeg)
-Add a Classroom Location using the single-field format.
+*Add a Classroom Location using the single-field format.*
 
 ### Migrate Classroom Locations to the four-field format
 
@@ -89,7 +94,7 @@ To migrate existing locations:
 
    ![Check migration progress](assets/location-format-migration-progress.png)
 
-   Check migration progress before switching to the four-field location format.
+   *Check migration progress before switching to the four-field location format.*
 
 1. For each column name, update the CSV file with the required information, such as Country, State, Capital, and more.
 1. Select **Import** and then upload the updated CSV file.
@@ -100,7 +105,7 @@ To migrate existing locations:
 
    ![Location format migration complete status](assets/location-format-migration-complete.png)
 
-   Location format migration updates to the Migration complete status.
+   *Location format migration updates to the Migration complete status.*
 
 ## Add Classroom Locations using a four-field format
 
@@ -170,7 +175,7 @@ To import Classroom Locations in bulk:
 
    ![Import Locations CSV pop-up window](assets/import-locations-csv-popup.png)
 
-   Drag and drop the CSV with the updated information.
+   *Drag and drop the CSV with the updated information.*
 
 1. Drag and drop the updated CSV file into the upload area.
 1. Select **Import**.
@@ -194,7 +199,7 @@ To add translations for a Classroom Location:
 
    ![Add New Language pop-up window](assets/add-new-language-popup.png)
 
-   Select the languages from the Add New Language pop-up window.
+   *Select the languages from the Add New Language pop-up window.*
 
 1. Select **Save**.
 
@@ -213,7 +218,7 @@ To edit a Classroom Location, follow these steps:
 
    ![Edit icon for a Classroom Location](assets/edit-classroom-location-icon.png)
 
-   Hover over the required Classroom Location and select the edit icon.
+   *Hover over the required Classroom Location and select the edit icon.*
 
 1. Select the **Edit Classroom Location** icon.
 
@@ -233,7 +238,7 @@ To delete a Classroom Location, follow these steps:
 
    ![Confirmation Required pop-up window](assets/delete-classroom-location-confirmation.png)
 
-   Select Delete to confirm the deletion of a Classroom Location.
+   *Select Delete to confirm the deletion of a Classroom Location.*
 
 1. Select **Delete**.
 
