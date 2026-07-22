@@ -589,6 +589,10 @@ To add a content module, perform the steps below:
 
    **Classroom Module:** In this mode, learners attend in-person lectures, facilitated by a trained instructor. Enter the title, description, and set the duration of the session. You can also specify the location of the class and the instructors to conduct the session. To save the changes, click **[!UICONTROL Done]**.
 
+   >[!NOTE]
+   >
+   >Whether you can create a new location here depends on the Allow authors to create locations setting, configured by your Administrator. If it's disabled, you can only search for and select locations the Administrator has already added. View [Add Classroom Locations](../../../migrated/administrators/feature-summary/classroom.md) for more information.
+
    ![](assets/classroom-module.png)
 
    *Add a classroom module*
