@@ -177,6 +177,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Catalogs](authors/feature-summary/catalogs.md)
    * [Adaptive Course](authors/feature-summary/adaptive-course-author.md)
    * [Job Aids](authors/feature-summary/job-aids.md)
+   * [Gradebook](authors/feature-summary/alm-author-gradebook.md)
    * [iPad & Android tablet users](authors/feature-summary/ipad-android-tablet-users.md)
    * [Adobe Connect integration](authors/feature-summary/adobeconnect-integration.md)
    * [Add learning objects in different locales](authors/feature-summary/add-new-language-learning-objects.md)
