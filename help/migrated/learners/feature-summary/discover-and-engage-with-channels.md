@@ -1,10 +1,13 @@
+---
+title: Discover and engage with Channels
+description: Learn how to find, subscribe to, watch, like, and join discussions on video content available through Channels in Adobe Learning Manager.
+---
+
 # Discover and engage with Channels
 
-Channels help the learners discover and access video-based informal learning content curated in web and Cloud Confluence pages within the Adobe Learning Manager. Administrators create channels by connecting them to enterprise web pages or Cloud Confluence pages that host recorded knowledge-sharing and knowledge-transfer sessions.
+Channels help learners discover and access video-based informal learning content curated in web and Cloud Confluence pages within the Adobe Learning Manager. Administrators create channels by connecting them to enterprise web pages or Cloud Confluence pages that host recorded knowledge-sharing and knowledge-transfer sessions.
 
-Instead of searching across multiple internal sites, you can browse channel content directly in Learning Manager. Channels provide a
-centralized location to discover relevant videos, stay informed about new content, and engage with your organization's self-paced learning
-resources.
+Instead of searching across multiple internal sites, you can browse channel content directly in Learning Manager. Channels provide a centralized location to discover relevant videos, stay informed about new content, and engage with your organization's self-paced learning resources.
 
 **Key benefits**
 
@@ -12,42 +15,50 @@ resources.
 - Discover learning resources without navigating multiple internal websites.
 - Subscribe to channels to stay informed when new content is added.
 - Watch and like videos directly within Adobe Learning Manager.
-- Participate in discussions and collaborate with other Learners around shared content.
+- Participate in discussions and collaborate with other learners around shared content.
 - Explore curated collections of videos relevant to your role and interests.
 
 ## Find Channels
 
 Use the **Channels** page to discover new content, access channels you subscribed to, and view videos you have liked.
 
-1. Login to Adobe Learning Manager.
+1. Log in to Adobe Learning Manager.
 
-2. Select **Channels** from the top navigation bar.
-<br> The **Channels** page opens with the **All** tab displayed by default.
-![Channels Page All Tab](assets/channels-page-all-tab.png) The All tab of the Channels page, where you discover and subscribe to available channels.
+1. Select **Channels** from the top navigation bar.
 
-3. Use the following tabs to browse channel content:
+   <br> The **Channels** page opens with the **All** tab displayed by default.
 
-| **Tab** | **Description** |
-|----|----|
-| **All** | Displays all channels available to you. Use this tab to discover and subscribe to new channels. |
-| **Subscribed** | Displays only the channels that you have subscribed to. |
-| **Liked** | Displays all videos that you have liked across channels. |
+   ![Channels Page All Tab](assets/channels-page-all-tab.png)
 
-4. Select **View All** for a channel to view all videos available in that channel.
+   *The All tab of the Channels page, where you discover and subscribe to available channels.*
 
-## Subscribe to a Channel
+1. Use the following tabs to browse channel content:
+
+   | **Tab** | **Description** |
+   |----|----|
+   | **All** | Displays all channels available to you. Use this tab to discover and subscribe to new channels. |
+   | **Subscribed** | Displays only the channels that you have subscribed to. |
+   | **Liked** | Displays all videos that you have liked across channels. |
+
+1. Select **View All** for a channel to view all videos available in that channel.
+
+## Subscribe to a channel
 
 Subscribe to channels to quickly access the content that is most relevant to you and stay updated when new videos are added.
 
 1. In the **All** tab, navigate to the channel that you want to subscribe to.
 
-2. Select the **Subscribe** button.
-<br> The channel is added to the **Subscribed** tab.
+1. Select the **Subscribe** button.
 
-3. Select the **Subscribed** tab.
-<br> This displays all channels that you have subscribed to.
-![Subscribed Channels List](assets/subscribed-channels-list.png) Your subscribed channels collected under the Subscribed
-tab for quick access.
+   <br> The channel is added to the **Subscribed** tab.
+
+1. Select the **Subscribed** tab.
+
+   <br> This displays all channels that you have subscribed to.
+
+   ![Subscribed Channels List](assets/subscribed-channels-list.png)
+
+   *Your subscribed channels collected under the Subscribed tab for quick access.*
 
 ### Unsubscribe from a channel
 
@@ -65,8 +76,9 @@ Like videos to save them to your **Liked** tab and quickly find them later.
 
 To like a video, select the **Like** button on a video card or on the video details page. The like count is updated, and the video is added to your **Liked** tab for easy access.
 
-![Liked Videos Tab](assets/liked-videos-tab.png) The Liked tab, where videos you like are saved so you can
-find them later.
+![Liked Videos Tab](assets/liked-videos-tab.png)
+
+The Liked tab, where videos you like are saved so you can find them later.
 
 ## Join the discussion
 
@@ -76,9 +88,14 @@ To post a comment:
 
 1. Open the video that you want to discuss.
 
-2. Navigate to the **Start discussion** section.
+1. Navigate to the **Start discussion** section.
 
-3. Enter your comment in the **Add a comment** box.
+1. Enter your comment in the **Add a comment** box.
 
-4. Select **Post**. The comment is added to the discussion thread and is visible to other Learners who view the video.
-![Channel Video Discussion](assets/channel-video-discussion.png) Watch a video, view its like and view counts, and join the discussion from the video details page.
+1. Select **Post**.
+
+   <br> The comment is added to the discussion thread and is visible to other learners who view the video.
+
+   ![Channel Video Discussion](assets/channel-video-discussion.png)
+
+   *Watch a video, view its like and view counts, and join the discussion from the video details page.*
