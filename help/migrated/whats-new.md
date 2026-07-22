@@ -217,6 +217,8 @@ Learn more about the [API changes in the August 2026 release of Adobe Learning M
 | **Email templates: Account URL for external learners** | Email notification templates can now include a separate account URL specifically for external learners, routing them to the correct login experience. |
 | **Webhook timestamp standardization** | All date and time fields within the `data` object of webhook payloads now have seconds set to `00`, providing minute-level precision consistent with Learner Transcript reports. |
 | **Connect enhancements** | Azure Data Lake Storage (ADLS) connector updates; persistent room name support for recurring virtual classroom sessions; recording-view-based attendance tracking. |
+| **Email templates: Rich Text Editor Support** | Email Templates in Adobe Learning Manager now support rich text formatting, attachments, and custom automations. |
+| **Email templates: Preview feature** | You can check your composed email to see how it would look at the recipient's end by using the Preview option. |
 
 ## System requirements
 
