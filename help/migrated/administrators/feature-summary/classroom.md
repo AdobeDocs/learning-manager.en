@@ -5,7 +5,7 @@ description: Learn how Administrators can configure settings, and add, migrate, 
 
 # Add Classroom Locations
 
-Administrators can create and manage a library of Classroom Locations to reuse when setting up instructor-led training events in the Classroom and Virtual Classrooms module. For each location, you can define details such as the location name, seat limit, and additional information, including a location URL. Authors and Administrators can then select these predefined locations when creating classroom training.
+Administrators can create and manage a library of Classroom Locations to reuse when setting up instructor-led training events in the Classroom and Virtual Classrooms module. For each location, you can define details such as the location name, seat limit, and additional information, including a location URL. Authors can then select these predefined locations when creating a course.
 
 By default, Adobe Learning Manager uses a single-field location format. For organizations that manage Classroom Locations across multiple countries and languages, Learning Manager also supports a structured four-field format that includes **Country**, **State/Province/Region**, **City**, and **Location Name**. This format provides additional capabilities such as location-based filtering and language support for individual locations. Administrators can switch to the four-field format through a one-time migration.
 
@@ -15,7 +15,7 @@ By default, Adobe Learning Manager uses a single-field location format. For orga
 
 ## Configure Classroom Location settings
 
-Administrators can configure Author permissions for **Classroom Locations** and view the status of the location format migration.
+Administrators can configure Author permissions for **Classroom Locations**.
 
 To configure **Classroom Locations** settings:
 
@@ -36,7 +36,7 @@ To configure **Classroom Locations** settings:
 
    |**Setting**|**Description**|
    |---|---|
-   |**Allow authors to create locations**|Enable this option to allow Authors to create **Classroom** and **Virtual Classroom** module locations when creating instructor-led training sessions.|
+   |**Allow authors to create locations**|Enable this option to allow Authors to create Classroom and Virtual Classroom module locations when creating instructor-led training sessions.|
    |**Allow authors to modify and delete locations**|Enable this option to allow Authors to edit or delete Classroom and Virtual Classroom Locations.|
 
 1. Select **Save**.
@@ -76,7 +76,7 @@ To migrate existing locations:
 1. Navigate to **Admin** > **Classroom Locations** and select the **Settings** tab.
 1. Select **Export** in the **Location format migration** section.
 
-   A CSV file containing your existing Classroom Locations is downloaded. The following columns are available:
+   A CSV file with your existing Classroom Locations is downloaded. The following columns are available:
 
    1. **room_id**: Unique identifier for the location.
    1. **locale**: Locale for the translated Location Name and Room Information.
@@ -96,7 +96,7 @@ To migrate existing locations:
 
    *Check migration progress before switching to the four-field location format.*
 
-1. For each column name, update the CSV file with the required information, such as Country, State, Capital, and more.
+1. For each column name, update the CSV file with the required information, such as Country, State, Capital, along with any other required information.
 1. Select **Import** and then upload the updated CSV file.
 
    Adobe Learning Manager validates the data and updates the migration progress.
@@ -168,7 +168,7 @@ To import Classroom Locations in bulk:
    1. **url**: URL associated with the location, such as a map link.
    1. **seatlimit**: Maximum seating capacity of the classroom.
 
-1. For each column name, update the CSV file with the required information, such as Country, State, Capital, and more.
+1. For each column name, update the CSV file with the required information, such as Country, State, Capital, along with any other required information.
 1. Select **Add** > **Bulk Import locations** from the upper-right corner.
 
    The **Import Locations CSV** pop-up window appears.
@@ -184,7 +184,7 @@ To import Classroom Locations in bulk:
 
 ## Add translations for a Classroom Location
 
-Add translations for the **Location Name** and **Room Information** fields to display Classroom Location details in learners' preferred languages.
+Add translations for the **Location Name** and **Room Information** fields to display Classroom Location details in learner's preferred languages.
 
 To add translations for a Classroom Location:
 
