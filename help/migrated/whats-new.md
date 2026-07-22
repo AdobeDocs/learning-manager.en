@@ -154,7 +154,7 @@ For more information, see [Gen AI credits](/help/migrated/administrators/feature
 
 Channels provide a centralized way to organize, publish, and discover video content from web and Confluence pages. Administrators can create and manage channels by connecting supported web pages or Confluence pages, configure channel settings, control visibility, and synchronize content from the source. Learners can browse available channels, subscribe to channels of interest, and watch curated video content from a single location.  
 
-Learn more about Channels.
+For more information, see [Create Channels](/help/migrated/administrators/feature-summary/create-channels.md)
 
 ## Report Builder
 
