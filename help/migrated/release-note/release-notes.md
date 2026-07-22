@@ -101,6 +101,19 @@ This behavior occurs during the export of Classroom Locations from Admin profile
 
 Only the header row is affected; the underlying location data in the exported file is unaffected. No fix is included in this release, and the issue is being evaluated for a future release.
 
+### Credit Duration field caps input at 9999.99
+
+When a user enters a Credit Duration value greater than 9999.99, such as 999999, in the session edit form, the value is silently capped to 9999.99 upon save, with no validation error or warning shown to the user. The field has an HTML max attribute set to 9999.99, which enforces this cap at the browser level without notifying the user that their input was rejected or modified. No fix has been applied for this release, as this behavior is confirmed as working as designed.
+
+### Error message does not indicate a missing default-language row in CSV uploads
+
+When a structured location CSV upload contains rows only in non-default locales, such as fr,de, and no row in the account's default language, the error message returned is Locale at CSV row 1 and column 2 is invalid or not supported. This does not indicate that the actual issue is a missing default-language row. This prevents users from uploading multi-locale CSVs and diagnosing the problem from error messages alone. This issue has been dropped for this release with no fix applied.
+
+### Seat Limit field allows unrealistic values up to 4,294,967,295
+
+The Seat Limit field in the Classroom Location modal accepts any value up to 4,294,967,295 ( ~4.3 billion), a ceiling that is technically driven by the underlying data type rather than a realistic business constraint. Users can enter and save unrealistic seat counts, such as 1,000,000,000, without any business-level validation rejecting them. 
+No fix has been applied for this release; a realistic business maximum has not yet been agreed upon or enforced.
+
 +++
 
 +++Update 109: July 2026 release of Adobe Learning Manager
