@@ -21,9 +21,9 @@ To configure **Classroom Locations** settings:
 
 1. Select the **Settings** tab.
 
-   ![Settings tab for Classroom Locations](assets/classroom-locations-settings-tab.png){width="5.731564960629921in" height="1.9613473315835521in"}
+   ![Settings tab for Classroom Locations](assets/classroom-locations-settings-tab.png)
 
-   Figure 1. Enable Author privileges for Classroom and Virtual Classroom locations from the **Settings** tab.
+   Enable Author privileges for Classroom and Virtual Classroom locations from the **Settings** tab.
 
 1. Select **Edit**.
 
@@ -98,9 +98,9 @@ To migrate existing locations:
 
 1. When the migration progress bar reaches 100%, select **Switch to new 4-field format**. The **Location format migration** status updates to **Migration complete**.
 
-   ![Location format migration complete status](assets/location-format-migration-complete.png){width="5.930224190726159in" height="2.942937445319335in"}
+   ![Location format migration complete status](assets/location-format-migration-complete.png)
 
-   Figure 4. Location format migration updates to the Migration complete status.
+   Location format migration updates to the Migration complete status.
 
 ## Add Classroom Locations using a four-field format
 
@@ -124,7 +124,7 @@ To add a Classroom Location:
 
    ![Classroom Location pop-up window](assets/classroom-location-popup-window.png)
 
-   Figure 6. Enter the details in the Classroom Location pop-up window.
+   Enter the details in the Classroom Location pop-up window.
 
 1. In the **Classroom Location** pop-up window, enter the following details:
 
@@ -170,7 +170,7 @@ To import Classroom Locations in bulk:
 
    ![Import Locations CSV pop-up window](assets/import-locations-csv-popup.png)
 
-   Figure 7. Drag and drop the CSV with the updated information.
+   Drag and drop the CSV with the updated information.
 
 1. Drag and drop the updated CSV file into the upload area.
 1. Select **Import**.
@@ -194,7 +194,7 @@ To add translations for a Classroom Location:
 
    ![Add New Language pop-up window](assets/add-new-language-popup.png)
 
-   Figure 8. Select the languages from the Add New Language pop-up window.
+   Select the languages from the Add New Language pop-up window.
 
 1. Select **Save**.
 
@@ -213,7 +213,7 @@ To edit a Classroom Location, follow these steps:
 
    ![Edit icon for a Classroom Location](assets/edit-classroom-location-icon.png)
 
-   Figure 9. Hover over the required Classroom Location and select the edit icon.
+   Hover over the required Classroom Location and select the edit icon.
 
 1. Select the **Edit Classroom Location** icon.
 
@@ -233,24 +233,24 @@ To delete a Classroom Location, follow these steps:
 
    ![Confirmation Required pop-up window](assets/delete-classroom-location-confirmation.png)
 
-   Figure 10. Select Delete to confirm the deletion of a Classroom Location.
+   Select Delete to confirm the deletion of a Classroom Location.
 
 1. Select **Delete**.
 
 ## Frequently asked questions
 
-**Q: What happens to existing Classroom Locations after the migration is complete?**<br>
-**A:** You can enable the four-field location format only after all existing locations have been migrated, either manually or through a CSV upload. Once the four-field format is enabled, all existing courses that use Classroom Locations display locations in the new format.
+1. **What happens to existing Classroom Locations after the migration is complete?**<br>
+You can enable the four-field location format only after all existing locations have been migrated, either manually or through a CSV upload. Once the four-field format is enabled, all existing courses that use Classroom Locations display locations in the new format.
 
-**Q: Do I need to manually restructure the exported CSV to match the four-field location format?**<br>
-**A:** No. The exported CSV file always uses the four-field location format, regardless of whether it is currently enabled. You only need to update any missing values before importing the file.
+1. **Do I need to manually restructure the exported CSV to match the four-field location format?**<br>
+No. The exported CSV file always uses the four-field location format, regardless of whether it is currently enabled. You only need to update any missing values before importing the file.
 
-**Q: Does the migration affect Adobe Learning Manager reports?**<br>
-**A:** Yes. After migration, reports that include Classroom Location information display locations in the following format:
+1. **Does the migration affect Adobe Learning Manager reports?**<br>
+Yes. After migration, reports that include Classroom Location information display locations in the following format:
 
-**Country > State/Province/Region > City > Location Name**
+   **Country > State/Province/Region > City > Location Name**
 
-This format replaces the previous single-field location value.
+   This format replaces the previous single-field location value.
 
-**Q: What happens if I do not enable the four-field location format?**<br>
-**A:** Nothing changes for Authors or learners. Classroom Locations continue to appear and function as they do today, using the existing single-field format until an Administrator completes the migration and enables the four-field format.
+1. **What happens if I do not enable the four-field location format?**<br>
+Nothing changes for Authors or learners. Classroom Locations continue to appear and function as they do today, using the existing single-field format until an Administrator completes the migration and enables the four-field format.
