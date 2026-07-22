@@ -15,7 +15,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 
 Adaptive courses let you deliver personalized training by controlling which modules each learner sees, and which are required, based on the user groups they belong to. A single course dynamically presents the right content to the right person automatically.
 
-Authors configure each module with **Optional** and **Mandatory** for user group rules. Learners in different user groups can complete entirely different sets of modules and still complete the same course. Seat limits for classroom and virtual classroom sessions are now enforced at the module level, so a learner can be enrolled in a course while waitlisted on a specific session only.
+Authors configure each module with **Optional** and **Mandatory** for user group rules. Learners in different user groups can complete entirely different sets of modules and still complete the same course. Seat limits for classroom and virtual classroom sessions are now enforced at the module level, so a learner can be enrolled in a course while waitlisted on a specific session only. For more information, see [Gradebook for Authors](/help/migrated/authors/feature-summary/adaptive-course-author.md)
 
 Key capabilities:
 
@@ -65,7 +65,7 @@ Only modules that produce a score are eligible for weightage. Scorable module ty
 
 Non-scorable module types, PDF files, video files, audio files, PowerPoint presentations, Word documents, Excel files, and HTML content, cannot be assigned a weightage percentage and do not contribute to the aggregate score. These modules may still be required for course completion. When the Include modules that don't contribute to final grade option is enabled, they appear in the gradebook without a weightage value.
 
-Learn more about gradebook.
+For more information, see [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md)
 
 ## Hierarchical content folders
 
@@ -96,7 +96,7 @@ Key capabilities:
 * Preview and test-send before publishing
 * Backward compatibility: existing email templates continue to work
 
-Learn more about the email template builder.
+For more information, see [Component-based email builder](/help/migrated/administrators/feature-summary/email-builder.md)
 
 ## External learning support
 
@@ -122,7 +122,7 @@ The AI Assistant for learners now supports four new capabilities in addition to 
 * **Adobe Experience League answers**: the assistant now sources answers to how-to questions from Adobe Learning Manager help documentation
 * **Third-party content queries**: Go1 and LinkedIn Learning catalog content can be queried (metadata only; English only; ingestion takes 1–2 hours after catalog is added)
 
-Learn more about [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
+For more information, see [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
 
 ### Learning Path agent
 
@@ -136,19 +136,19 @@ Key capabilities:
 * Maximum of 10 personalized learning paths visible on the learner home page
 * Completed paths can be shared with colleagues
 
-Learn more about the Learning Path agent.
+For more information, see [AI Assistant for learners](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 ### Insights Agent
 
 The Insights Agent helps administrators analyze learning data through natural language queries. Ask questions about enrollment trends, completion rates, learner engagement, and skill gaps. The agent generates reports and visualizations in response.
 
-Learn more about the Insights Agent.
+For more information, see [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md)
 
 ### Gen AI credits
 
 Adobe Learning Manager integrates AI-powered features managed through a credit-based system linked to Agent Orchestrator licenses. This system requires administrators to activate features, set credit limits, and monitor usage via the Billing page. Linking the Adobe Learning Manager account to an Adobe Admin Console organization with an active Agent Orchestrator license is essential for enabling Gen AI features.
 
-Learn more about Gen AI credits.
+For more information, see [Gen AI credits](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits)
 
 ## Channels
 
@@ -175,7 +175,8 @@ Two access levels are available:
 | **Read only** | View all custom roles, import logs, and deleted users; download the custom roles report |
 | **Full control** | All read-only capabilities plus: create, edit, delete, and assign custom roles; import users via CSV; purge deleted users |
 
-Learn more about Custom role changes.
+Learn more about Custom role changes. For more information, see [What the Advanced user permission unlocks](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
+
 
 ## LTI deep linking
 
@@ -183,13 +184,13 @@ Integration administrators can now enable LTI Deep Linking for LTI tool configur
 
 Once enabled, authors see a **Select content** button in the external LMS activity configuration. They can browse approved catalogs, select courses, and confirm the selection — with all fields populated automatically.
 
-Learn more about LTI deep linking.
+For more information, see [LTI deep links](/help/migrated/integration-admin/feature-summary/lti-deep-links.md).
 
 ## Classroom locations
 
 Classroom Locations now support a structured **four-field location format**, including Country, State/Province/Region, City, and Location Name, making it easier to manage and organize training locations across regions. The update includes a one-time migration from the legacy single-field format and adds multilingual support for the **Location Name** and **Room Information** fields, enabling localized classroom details for learners.
 
-Learn more about Classroom locations.
+For more information, see [Classroom locations](/help/migrated/administrators/feature-summary/classroom.md).
 
 ## Reporting changes in the release
 
@@ -203,22 +204,23 @@ Learn more about the [API changes in the August 2026 release of Adobe Learning M
 
 | Enhancement | Description |
 |---|---|
-| **MQA: Latest vs. Highest score** | For modules with multiple attempts, authors can now choose whether the Latest or Highest attempt score is recorded in the Learner Transcript and used in gradebook calculations. Latest was the existing default and remains so when the setting is not configured. |
-| **Content preview in Content Library** | Authors can now preview uploaded content files directly in the Content Library before adding them to courses. |
+| **MQA: Latest vs. Highest score** | For modules with multiple attempts, authors can now choose whether the Latest or Highest attempt score is recorded in the Learner Transcript and used in gradebook calculations. Latest was the existing default and remains so when the setting is not configured. For more information, see [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts).
+| **Content preview in Content Library** | Authors can now preview uploaded content files directly in the Content Library before adding them to courses. For more information, see [Preview Content Library](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary).  |
 | **Incremental user report** | A new API-based user report returns only users created or modified since the last request, reducing data transfer for large accounts using automated user sync workflows. |
 | **Player performance improvements** | The fluidic course player has been optimized for faster load times and smoother transitions between modules. |
-| **11 new languages in fluidic player** | The fluidic player now supports 11 additional languages, including right-to-left (RTL) script support. |
+| **11 new languages in fluidic player** | The fluidic player now supports 11 additional languages, including right-to-left (RTL) script support. For more information, see [Fluidic Player](/help/migrated/learners/feature-summary/fluidic-player.md).|
 | **Impact warning before retiring courses/LPs** | Administrators now see a warning listing all active enrollments and dependent learning paths before a course or learning path can be retired. |
 | **CR/VC Module: Expected Duration** | Authors can now set an expected duration for classroom and virtual classroom modules, separate from the scheduled session time. This value appears in reports and learner-facing course information. |
-| **LTI module migration** | Existing LTI 1.1 modules can now be migrated to LTI 1.3 using the migration tool. |
+| **LTI module migration** | Existing LTI 1.1 modules can now be migrated to LTI 1.3 using the migration tool. For more information, see [LTI migration of modules](/help/migrated/integration-admin/feature-summary/migration-manual.md). |
 | **Confirmation before editing acquired courses** | Administrators in peer accounts now see a confirmation dialog before editing a course acquired through catalog sharing, preventing unintended changes to shared content. |
 | **Session URL with instance ID** | Session launch URLs for Microsoft Teams, Adobe Connect, and Zoom sessions now include the instance ID, ensuring learners are routed to the correct session when multiple instances exist. |
 | **Warning for large-audience announcements** | When sending an ad-hoc announcement email to more than a configurable threshold of recipients, administrators now see a volume warning before sending. |
 | **Email templates: Account URL for external learners** | Email notification templates can now include a separate account URL specifically for external learners, routing them to the correct login experience. |
+| **Email Builder: Rich Text Editor Support** | Email Templates in Adobe Learning Manager now support rich text formatting, attachments, and custom automations. For more information, see [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
+| **Email Builder: Preview feature** | You can check your composed email to see how it would look at the recipient's end by using the Preview option. For more information, see [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
 | **Webhook timestamp standardization** | All date and time fields within the `data` object of webhook payloads now have seconds set to `00`, providing minute-level precision consistent with Learner Transcript reports. |
 | **Connect enhancements** | Azure Data Lake Storage (ADLS) connector updates; persistent room name support for recurring virtual classroom sessions; recording-view-based attendance tracking. |
-| **Email templates: Rich Text Editor Support** | Email Templates in Adobe Learning Manager now support rich text formatting, attachments, and custom automations. |
-| **Email templates: Preview feature** | You can check your composed email to see how it would look at the recipient's end by using the Preview option. |
+
 
 ## System requirements
 

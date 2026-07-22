@@ -59,7 +59,7 @@ After enabling Gradebook, add your content modules and assign a weightage percen
 
 The minimum passing score is visible to learners in the **Gradebook** tab so they know the threshold before they start.
 
-### Configure score settings for modules with multiple attempts
+### Configure score settings for modules with multiple attempts {#configurescoresettingsmultipleattempts}
 
 When a module allows multiple attempts, choose which attempt score is used in the Gradebook calculation.
 

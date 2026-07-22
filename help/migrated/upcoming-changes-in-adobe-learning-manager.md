@@ -3,9 +3,16 @@ title: What's upcoming in Adobe Learning Manager
 description: Explore upcoming changes in Adobe Learning Manager. Stay informed with the latest updates and future announcements.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
 ---
+
 # Updates in Adobe Learning Manager
 
-The [April 2026 release](/help/migrated/whats-new.md) has been released. At this time, there are no additional upcoming changes. This page will be updated when new announcements are available.
+>[!IMPORTANT]
+>
+>The **Upcoming Changes** document will be retired shortly. Going forward, release information will be consolidated into two primary documents: **Release Notes** and **What's New**.
+>
+>Features and enhancements planned for **general availability** will be introduced in **What's New** during the beta phase and will also be included in the release documentation when they become generally available. Both **What's New** and **Release Notes** will include links to new articles as well as updates to existing documentation.
+>
+>For the August 2026 release documentation, refer to [Release Notes](/help/migrated/release-note/release-notes.md) and [What's New](/help/migrated/whats-new.md)
 
 <!-- 
 >[!IMPORTANT]

@@ -281,7 +281,7 @@ _Filter custom roles_
    * A custom admin having permission to  Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
    * If a custom admin has permission on the Users entity, they can assign administrator role to themselves and become a standard administrator.
 
-## <a id="advanced-user"></a>What the Advanced user permission unlocks
+## <a id="advanced-user"></a>What the Advanced user permission unlocks {#whatadvanceduserpermissionunlocks}
 
 When a full administrator enables **Advanced** access under **Users** in a custom role, the custom administrator gains access to four additional sections: **Custom Roles**, **Import Logs**, **Active Fields**, and **User Cleanup**.
 

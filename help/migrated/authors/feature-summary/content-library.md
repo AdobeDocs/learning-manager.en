@@ -122,9 +122,15 @@ The table below shows the type of interactive and static file types that you can
  </tbody>
 </table>
 
+## Preview the course content {#previewcontentlibrary}
+
+You can preview the course content once it is added to the Content Library. To preview, select the eye icon at the end of respective course's row.
+
+![](assets/preview-content-library.png)
+
 ## Add new content in the library {#addnewcontentinthelibrary}
 
-**Authors** can add contents in ALM. There are two types of contents in ALM: **[!UICONTROL Content]** and **[!UICONTROL Quiz]**. To learn how to add contents see [Add static content](content-library.md#addstaticcontent) and [Create a quiz](content-library.md##createaquiz).
+**Authors** can add contents in ALM. There are two types of contents in ALM: **[!UICONTROL Content]** and **[!UICONTROL Quiz]**. To learn how to add contents see [Add static content](content-library.md#addstaticcontent) and [Create a quiz](content-library.md#createaquiz).
 
 ## Add static content {#addstaticcontent}
 
