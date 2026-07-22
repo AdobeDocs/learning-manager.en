@@ -23,11 +23,73 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 ## Release highlights
 
+The August 2026 release of Adobe Learning Manager delivers significant advances across personalized learning, AI, reporting, and integrations. Adaptive courses introduce user-group-driven module visibility and completion rules, allowing a single course to present different content to different learners based on their role, region, or profile, eliminating the need to maintain separate course versions. The full-featured gradebook adds weighted scoring and aggregate pass/fail calculation to courses, giving organizations a precise, configurable measure of learner performance beyond simple completion tracking. On the AI front, the AI Assistant for learners gains course summaries, learning object comparison, Adobe Experience League answers, and third-party content queries from Go1 and LinkedIn Learning catalogs; a new Learning Path agent guides learners through a conversation to generate a custom sequenced learning plan automatically; and the Insights Agent brings natural language querying to administrator reporting. All AI capabilities are governed by a new Gen AI credits system in the Billing page, giving administrators per-feature usage limits and consumption alerts. Content management is strengthened with a WYSIWYG component-based email template builder, a hierarchical content folder structure with role-based access, an External Learning feature for submitting and approving off-platform training, and a new Channels feature that aggregates video content from enterprise web pages and Confluence pages.
+
 View [What's new and changed in the August 2026 release of Adobe Learning Manager](/help/migrated/whats-new.md) for more information.
+
+## Breaking changes in the release
+
+### External Learning feature: New columns in Learner Transcript 
+
+These add account-specific External Learning custom fields to the LT report. In Admin LT, new custom field columns are appended at the end; in Learner LT, External Learning Name and Completion Comment are inserted near the related module and reviewer fields, with remaining custom fields added at the end.
+
+Learn more about the [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Root Training ID for Certifications in Learner Transcript
+
+This adds a new Root Training ID column to both Admin LT and Learner LT. The column appears at the end of the report and helps identify the parent certification context for the learner record.
+
+Learn more about the [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Webhook date-time format alignment with Learner Transcript 
+
+This standardizes webhook data object date-time values to minute precision. Seconds are always emitted as 00, aligning webhook timestamps with the LT report format.
+
+Learn more about the [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Weight column in Learner Transcript 
+
+A Weight column is added to the LT report for modules in Gradebook-enabled courses. This exposes module weight directly in the report output.
+
+Learn more about the [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Shared course author details in learningObjects API 
+
+The details update the learningObjects API LO response for shared courses so receiving accounts no longer show the accepting admin as the author. Only the original external author details are exposed in peer accounts; parent account behavior remains unchanged.
+
+### Intent detection in AI Orchestrator Agent 
+
+The AI Orchestrator Agent moves intent detection for single-query requests into the orchestrator and removes manual User Interface toggles. Query routing may change between Q&A and PLP flows depending on detected intent. 
+
 
 ## Bugs fixed in the release
  
-abc
+* The dates in Learner Transcript Report used to record 00 for seconds, whereas in webhook the seconds appeared as they should – in two digits. This has been fixed. The Learner Transcript now correctly shows the two-digit seconds as well.
+* When a Microsoft Teams or Adobe Connect VC session was canceled from the instance page, some associated session details remained after a page refresh. This issue has been fixed, and canceled sessions now correctly remove all associated details, including the Teams organizer and lobby bypass settings and the Connect primary instructor.
+* An issue in an automated AWS workflow caused repeated download requests to the CMS HTTP API to use improperly encoded URLs, resulting in intermittent HTTP 500 errors and high volumes of invalid traffic. The workflow has been updated to correctly URL-encode spaces and other special characters in download request URLs. As a result, account asset download requests are processed successfully, reducing errors and improving the reliability of automated asset retrieval.
+* An issue in Safari and Edge caused the player to resize incorrectly when switching between landscape and portrait orientations, which could display a white line in the overview area and prevent learners from accessing the Table of Contents and Notes panels. The player's resize handling has been improved to correctly adapt to orientation changes. As a result, the player displays properly across supported orientations, overview rendering issues are resolved, and learners can successfully access the Table of Contents and Notes.
+* An issue caused italics formatting applied in the Detailed Overview section of a course to display correctly during authoring but not on the learner-facing course overview page after publication. The rendering logic has been updated to preserve italic text formatting when course content is published. As a result, italics applied in the Detailed Overview section are displayed correctly and consistently for learners on the published course overview page.
+* The certificate preview displayed a blank white background when an SVG image was uploaded as the certificate background for an achievement certificate. The certificate preview rendering process has been updated to correctly support and display uploaded SVG background images. As a result, certificate previews now render the configured SVG background as expected, providing an accurate representation of the final certificate.
+* The Related Courses section within a Learning Path displayed courses that were part of the same ordered Learning Path, allowing learners to open subsequent courses directly and bypass the intended course sequence. This has been fixed so that courses belonging to the same Learning Path are no longer shown as related courses. Learners now follow the configured course order as intended, ensuring prerequisite courses and structured progression are enforced.
+* The VTT file generation for long interactive videos could experience significant delays, with processing times exceeding two hours for some uploads. This issue has been investigated and optimized to improve VTT generation performance and reliability for large video files. As a result, VTT files are now generated more efficiently, providing a faster and more consistent captioning workflow for interactive video uploads.
+* Some learner completion records were not being returned by the Report Export API, even though the completion data existed in the backend, matched the specified date range and user group filters, and met all report criteria. The report export process for learner completions across multiple jobs and data retrieval logic have been improved to ensure eligible completion records are consistently included in API exports. Report Export API responses now return complete learner completion data for users whose completion timestamps fall within the requested date range and filter scope, providing more accurate and reliable reporting results.
+* When learners resumed content after a dynamically protected token had expired, the player attempted to reload the last saved location using an outdated token stored in LO state data, resulting in 403 errors and preventing content from loading correctly. The player has been updated to avoid using expired protected URLs from saved state and to use a valid token when resuming content. Learners can now reliably relaunch and resume course content even after the original token has expired or when accessing the content from a different device.
+* When a learner enrolled in a session that was later cancelled, enrolling in another session of the same course did not trigger a new enrollment webhook event unless the learner was first unenrolled from the cancelled session. This caused downstream systems to miss valid enrollment updates for cancelled or previously completed instances. The webhook flow has been updated so that a new enrollment event is triggered when a learner enrolls in another session of the same course after the earlier session is cancelled or completed, ensuring enrollment activity is reported consistently.
+* Admin API requests for learning paths that included extensive related data (such as instances, enrollments, resources, and grades) experienced significant performance degradation, with response times increasing from the typical five to eight seconds to as much as 45 to 60 seconds, impacting integration workflows and downstream systems. Performance optimizations have been implemented to include heavy learning objects requests to improve data retrieval efficiency. Learning path API calls that include complex nested relationships now return results more consistently and with improved response times, helping ensure reliable integration performance.
+* Learners completing recurred certification courses received course completion emails even when the completion email template had been disabled on the original course. This occurred because recurring certifications created new courses and instances without copying the original course-level notification settings, causing the duplicated courses to use default email configurations. The recurrence process has been updated to preserve course notification settings when duplicating courses. As a result, completion emails are now sent only when explicitly enabled on the original course configuration.
+* Masthead announcements configured with videos displayed only the initial video frame on the learner home page, and playback did not start automatically as expected. The video playback behavior has been updated to ensure supported masthead videos autoplay correctly when the announcement is loaded. Learners can now view video-based masthead announcements without requiring manual playback, providing a more engaging experience.
+* The **Trending in Your Network** widget incorrectly displayed a **Start Learning** empty card in both horizontal rows. This issue has been fixed by rendering the appropriate empty-state card for each row. The first row now displays a **Go to Catalog** link, while the second row continues to display the **Start Learning** card as intended.
+* When learners sorted the catalog by name in ascending (A–Z) order, the public API returned results using case-sensitive sorting, causing uppercase course names (AA, BB, CC) to appear before lowercase names (aa, bb) instead of following standard alphabetical order. The sorting logic has been updated to use case-insensitive comparison. Catalog results now display in the expected alphabetical sequence regardless of letter casing, ensuring consistent ordering of course names.
+* When a new instructor was added to a VC course, no session invitation email was sent if the "You have been added as an Instructor/Organizer/Co-Organizer" email template was disabled, preventing instructors from receiving session details. The notification logic has been corrected to ensure instructor session invites are generated independently of the template.
+* When the duration of an activity module was updated after the course had been added to an Auto Enrollment Trigger (AET) learning plan, the learner preview continued to display the duration from the AET instance instead of the updated duration from the default course instance. This issue has been fixed by ensuring the learner preview retrieves module duration from the correct course instance. Learner previews now display the latest published module duration accurately, reflecting updates made to the course content.
+* In an ordered certification, learners could bypass a failed first course and access a locked second course by completing its prerequisite, allowing the certification to be marked complete when the requirement was set to any one course. Validation has been updated to enforce course order and lock rules consistently. Learners can now complete certification requirements only in the defined sequence, preventing locked courses from contributing to certification completion.
+* The L1 feedback form displayed the mandatory question "**How likely is it that you would recommend this course to a colleague?**" even when feedback was collected at the end of a learning path, resulting in inconsistent and potentially misleading wording. The feedback form has been updated to dynamically reflect the completed learning object type. Learners now see contextually appropriate wording that references the learning path instead of a course when submitting feedback.
+* When a resource was added to a course without a description, the GET /learningObject/{id} API did not return a newly added description if the resource was updated later. This resulted in stale resource metadata being exposed through the API. The synchronization issue has been fixed, and the API now returns the latest resource description regardless of when it was added.
+* When a module was migrated with a description and the description was later updated, the updated value was correctly saved in the module table but was not reflected in the UI. The UI continued to display the older description because it was being sourced from the content_group record, which was not being updated during the modification. This synchronization issue has been resolved, and updated module descriptions are now reflected consistently across the UI after migration.
+* In Mobile Immersive mode, quiz modules could become locked after a learner exited an attempt before completion, even though the defined completion criteria had not been met. This prevented learners from reattempting the module and progressing through the course. The locking logic has been corrected to ensure modules remain available for reattempt until the required completion criteria are satisfied.
+* When a manager with no reportees had their reporting manager changed through CSV upload, and reportees were later assigned to reactivate the manager's team user group, the user group's ID was incorrectly retained in the subGroups list of both the previous and new manager user groups. This resulted in an inaccurate hierarchy association. The synchronization logic has been corrected so that user groups are properly reassigned during manager updates. The manager's team user group is now associated only with the current manager's user group hierarchy.
+* When administrators updated the email banner in Email Template Settings, the new banner appeared correctly in Outlook Desktop but was not displayed in Outlook Web, resulting in an inconsistent email experience across clients. The email template rendering has been updated to ensure banner compatibility across Outlook platforms. Updated email banners now display correctly in both Outlook Desktop and Outlook Web versions.
+
 
 ## Known issues in the release
 
@@ -37,7 +99,7 @@ When the UI locale is set to a language other than English, the CSV file exporte
 
 This behavior occurs during the export of Classroom Locations from Admin profile > Settings > Classroom Locations. While the location data within the file is returned correctly, the column headers are not translated to match the Administrator's chosen UI locale. As a result, an Administrator working in a non-English locale sees English column names in an otherwise localized environment. 
 
- Only the header row is affected; the underlying location data in the exported file is unaffected. No fix is included in this release, and the issue is being evaluated for a future release.
+Only the header row is affected; the underlying location data in the exported file is unaffected. No fix is included in this release, and the issue is being evaluated for a future release.
 
 +++
 
