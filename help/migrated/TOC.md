@@ -229,6 +229,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learner transcripts](managers/feature-summary/learner-transcripts.md)
    * [Settings](managers/feature-summary/settings.md)
    * [iPad & Android tablet users](managers/feature-summary/ipad-android-tablet-users.md)
+* Getting started with Live Hub{#getting-started-with-live-hub}
+   * [About Live Hub](../migrated/getting-started-with-live-hub/about-live-hub.md)
 * Frequently Asked Questions {#faq}
    * [Frequently Asked Questions for Administrators](administrators/frequently-asked-questions-for-administrators.md)
    * [Frequently Asked Questions for Authors](authors/frequently-asked-questions-for-authors.md)
