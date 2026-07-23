@@ -192,6 +192,14 @@ Classroom Locations now support a structured **four-field location format**, inc
 
 For more information, see [Classroom locations](/help/migrated/administrators/feature-summary/classroom.md).
 
+# What's coming next
+
+## Live Hub
+
+Live Hub is an upcoming virtual classroom experience in Adobe Learning Manager that enables instructors to deliver engaging, AI-assisted live training without external conferencing tools. Live Hub (Beta) will be available in the upcoming August release.
+
+For more information, see [About Live Hub](/help/migrated/getting-started-with-live-hub/about-live-hub.md)
+
 ## Reporting changes in the release
 
 Learn more about the [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
