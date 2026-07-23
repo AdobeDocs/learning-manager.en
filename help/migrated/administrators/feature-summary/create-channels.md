@@ -109,7 +109,7 @@ Use the search box to quickly locate a channel by name.
 
    *Enter a channel name in the search box to filter the **Channels** list.*
 
-## Manage channel actions
+## Manage Channels visibility
 
 Use the **Actions** menu to disable or hide one or more channels at the same time.
 
