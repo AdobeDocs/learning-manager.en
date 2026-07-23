@@ -192,13 +192,17 @@ Classroom Locations now support a structured **four-field location format**, inc
 
 For more information, see [Classroom locations](/help/migrated/administrators/feature-summary/classroom.md).
 
-# What's coming next
+## What's coming next
 
-## Live Hub
+### Live Hub
 
 Live Hub is an upcoming virtual classroom experience in Adobe Learning Manager that enables instructors to deliver engaging, AI-assisted live training without external conferencing tools. Live Hub (Beta) will be available in the upcoming August release.
 
 For more information, see [About Live Hub](/help/migrated/getting-started-with-live-hub/about-live-hub.md)
+
+### Adobe Learning Manager Content Composer
+
+Adobe Learning Manager Content Composer is an upcoming AI course authoring tool in Adobe Learning Manager that helps you create a publish-ready course in no time.
 
 ## Reporting changes in the release
 
