@@ -136,8 +136,9 @@ To hide channels from learners:
 1. Navigate to **Channels**.
 1. Select the checkbox next to one or more channels and then select **Actions**.
 1. Select **Hide from learners**.<br> The **Hide from learners** pop-up window appears.
-![Hide channels from learners without deleting the channel configuration.](assets/hide-channels-from-learners.png)
-*Hide channels from learners without deleting the channel configuration.*
+
+   ![Hide channels from learners without deleting the channel configuration.](assets/hide-channels-from-learners.png)
+   *Hide channels from learners without deleting the channel configuration.*
 
 1. Select **Hide from learners**.
 <br> The selected channels are hidden from learners.
