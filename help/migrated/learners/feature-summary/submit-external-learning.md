@@ -27,7 +27,7 @@ You can submit as many external learning requests as you need. There is no limit
 
 External learning is available from **My Learning** in the main navigation. Select **External Learning** to view your submission history and create new submissions.
 
-![](assets/find-external-learning.png)
+<!--![](assets/find-external-learning.png)-->
 
 If you do not see the **External Learning** option, your administrator may not have enabled the feature for your account. Contact your administrator for assistance.
 
@@ -63,7 +63,7 @@ If you do not see the **External Learning** option, your administrator may not h
 5. Select **Submit**.
 
 Your manager receives an in-app notification that a new external learning request is awaiting their review. Your submission appears in your **External Learning** list with the status **Awaiting review**.
-![](assets/submission-external-learning-list.png)
+<!--![](assets/submission-external-learning-list.png)-->
 
 >[!NOTE]
 >

@@ -20,7 +20,7 @@ When a learner submits an external learning request, the following happens:
 
 If you approve a submission, the external learning activity is added to the **Admin Learner Transcript** and appears in the learner's transcript record.
 
-You can also change a previously **Rejected** submission to **Approved** if the circumstances change.
+<!--You can also change a previously **Rejected** submission to **Approved** if the circumstances change.-->
 
 ## Review and approve or reject a submission
 

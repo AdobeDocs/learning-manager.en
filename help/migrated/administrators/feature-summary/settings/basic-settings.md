@@ -429,11 +429,11 @@ Activates the External Learning feature for all Learners in the account. Once en
 
 External learning is a type of learning activity for off-platform training. Learners use it to log training that does not exist in Adobe Learning Manager, such as an industry certification exam, a professional conference, a mentoring session, or an academic course.
 
-1.A **learner** fills out a submission form with details about their external training and optionally uploads proof of completion.
+1. A **learner** fills out a submission form with details about their external training and optionally uploads proof of completion.
 
-2.The learner's **manager** receives a notification to review the submission and approves or rejects it with an optional comment.
+2. The learner's **manager** receives a notification to review the submission and approves or rejects it with an optional comment.
 
-3.On approval, the submission is added to the **Learner Transcript**, where administrators can view and report on it.
+3. On approval, the submission is added to the **Learner Transcript**, where administrators can view and report on it.
 
 This workflow allows organizations to combine mandatory in-platform compliance training with the ad-hoc, self-directed learning their people complete in the real world, and track both in a single system.
 
@@ -475,27 +475,25 @@ Administrators control external learning availability through a single account-l
 
 These fields are available to all accounts by default. Administrators can choose which fields to show on the learner's submission form and mark each as required or optional.
 
-| **Field**           | **Type**         | **Notes**                                                                                        |
-|---------------------|------------------|--------------------------------------------------------------------------------------------------|
-| Title               | Text             | The name of the external learning, course, or certification.                                     |
-| Description / notes | Text             | Learner can add details about the training provider or context.                                  |
-| Date/Date range     | Date/time        | Duration of the external learning.                                                               |
-| Duration            | Duration (hours) | Time spent on the external training.                                                             |
-| Score               | Number           | The score the learner received, if applicable.                                                   |
-| Attachments         | File upload      | Proof of completion. The learner can submit a certificate, a transcript, or other documentation. |
+| **Field** | **Type** | **Notes** |
+| --- | --- | --- |
+| Title | Text | The name of the external learning, course, or certification. |
+| Description / notes | Text | Learner can add details about the training provider or context. |
+| Date/Date range | Date/time | Start date, end date, or both. Supports hours, mins, week, month, days, or year. |
+| Duration | Duration (hours) | Time spent on the external training. |
+| Score | Number | The score the learner received, if applicable. |
+| Attachments | File upload | Proof of completion. The learner can submit a certificate, a transcript, or other documentation. |
 
 #### Custom fields
 
 Administrators can add up to 10 custom fields to capture additional organization-specific information. Custom fields support the following types:
 
-| **Type** | **Description**                                         |
-|----------|---------------------------------------------------------|
-| Text     | Free-form text input.                                   |
-| Number   | Numeric input.                                          |
-| Checkbox | Single yes/no toggle.                                   |
-| Dropdown | Single selection from an admin-defined list of options. |
-
-Custom field labels and dropdown values can be edited after creation. Editing a field label or a dropdown option does not change answers that learners have already submitted. Only new submissions use the updated values.
+| **Type**   | **Description**                                                  |
+|------------|------------------------------------------------------------------|
+| Text       | Free-form text input.                                            |
+| Number     | Numeric input.                                                   |
+| Checkbox   | Single yes/no toggle.                                            |
+| Dropdown   | Single selection from an admin-defined list of options.          |
 
 ### Proof of completion file requirements
 
@@ -519,7 +517,7 @@ When you disable external learning after it has been in use:
 
 * New learner submissions are blocked
 
-* Learners with previous submissions can still view their history
+* Learners with submitted, pending approval can be edited
 
 * Managers with previous submissions can still act on pending requests
 
@@ -533,17 +531,17 @@ When you disable external learning after it has been in use:
 
 If your organization uses the Learner Transcript in downstream reporting pipelines or automated workflows, update those systems to handle the new columns before enabling this feature.
 
-1.Sign in to Adobe Learning Manager as an administrator.
+1. Sign in to Adobe Learning Manager as an administrator.
 
-2.In the left navigation pane, select **Settings**.
+2. In the left navigation pane, select **Settings**.
 
-3.Select **General**.
+3. Select **General**.
 
-4.Scroll to the **External Learning** section.
+4. Scroll to the **External Learning** section.
 
-5.Select the **Enable External Learning** checkbox to enable the feature.
+5. Select the **Enable External Learning** checkbox to enable the feature.
 
-6.Select **Save**.
+6. Select **Save**.
 
 Learners can now submit external learning requests. Their managers will receive in-platform notifications when submissions are created.
 
@@ -553,15 +551,15 @@ To disable the feature, follow the same steps, and disable the option.
 
 After enabling the feature, configure which fields appear on the learner submission form.
 
-1.In **Settings > General**, open the **External Learning** section.
+1. In **Settings > General**, open the **External Learning** section.
 
-2.Under **Form Configuration**, review the list of default fields.
+2. Under **Form Configuration**, review the list of default fields.
 
-3.Select the checkbox next to each field to show or hide it on the learner form.
+3. Select the checkbox next to each field to show or hide it on the learner form.
 
-4.For each visible field, select **Mandatory** to control whether learners must complete it before submitting.
+4. For each visible field, select **Mandatory** to control whether learners must complete it before submitting.
 
-5.Select **Save**.
+5. Select **Save**.
 
 **Note:** The **Title** field is always required and cannot be hidden or made optional.
 
@@ -573,33 +571,33 @@ You can add up to 10 custom fields to capture information specific to your organ
 
 **Add a custom field**
 
-1.In **Settings > General**, open the **External Learning** section.
+1. In **Settings > General**, open the **External Learning** section.
 
-2.Expand **Custom fields**.
+2. Expand **Custom fields**.
 
-3.Select **New field**.
+3. Select **New field**.
 
-4.Select a **Field Type**: **Text**, **Number**, **Checkbox**, or **Dropdown**.
+4. Select a **Field Type**: **Text**, **Number**, **Checkbox**, or **Dropdown**.
 
-    1.If you select **Dropdown**, enter the list of values learners can choose from. You can add up to 100 dropdown values.
+    1. If you select **Dropdown**, enter the list of values learners can choose from. You can add up to 100 dropdown values.
 
-    2.Type the name of the field and optionally, its description.
+    2. Type the name of the field and optionally, its description.
 
-5.Select or deselect the **Mandatory** option for the new custom fields.
+5. Select or deselect the **Mandatory** option for the new custom fields.
 
-6.Select **Save**.
+6. Select **Save**.
 
 The new field appears on the learner submission form immediately.
 
 **Edit a custom field**
 
-1.In **Settings > General**, open the **External Learning** section.
+1. In **Settings > General**, open the **External Learning** section.
 
-2.Next to the custom field you want to edit, select **Edit**.
+2. Next to the custom field you want to edit, select **Edit**.
 
-3.Update the field name or, for dropdown fields, add, edit, or remove values.
+3. Update the field name or, for dropdown fields, add, edit, or remove values.
 
-4.Select **Save**.
+4. Select **Save**.
 
 Editing a field name or dropdown values does not change data already captured in existing submissions. Only new submissions use the updated labels and options.
 
