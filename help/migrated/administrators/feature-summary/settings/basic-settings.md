@@ -427,6 +427,186 @@ Activates the External Learning feature for all Learners in the account. Once en
 >
 >Enabling this setting adds new columns to the Learner Transcript for external learning submissions. If your organization uses automated workflows or integrations that process Learner transcript data, review those before enabling to ensure compatibility with the updated transcript structure.
 
+External learning is a type of learning activity for off-platform training. Learners use it to log training that does not exist in Adobe Learning Manager, such as an industry certification exam, a professional conference, a mentoring session, or an academic course.
+
+1.A **learner** fills out a submission form with details about their external training and optionally uploads proof of completion.
+
+2.The learner's **manager** receives a notification to review the submission and approves or rejects it with an optional comment.
+
+3.On approval, the submission is added to the **Learner Transcript**, where administrators can view and report on it.
+
+This workflow allows organizations to combine mandatory in-platform compliance training with the ad-hoc, self-directed learning their people complete in the real world, and track both in a single system.
+
+External learning is a configurable feature. Administrators control whether it is available to learners, which fields appear on the submission form, and whether each field is required or optional. Custom fields can be added to capture organization-specific information such as a training type or a certificate reference number.
+
+### Submission status lifecycle
+
+Every external learning submission moves through a defined set of statuses:
+
+| **Status**        | **Meaning**                                                                    |
+|-------------------|--------------------------------------------------------------------------------|
+| Awaiting Approval | The learner has submitted the request; it is pending manager review.           |
+| Approved          | The manager has approved the submission; it appears in the Learner Transcript. |
+| Rejected          | The manager has rejected the submission; the learner can submit a new request. |
+
+A learner can edit a submission while it is in **Awaiting Approval** status. Once a manager takes action, the submission can no longer be edited. If a submission is rejected, the learner submits a new external learning request rather than editing the rejected one.
+
+### Feature availability and visibility
+
+Administrators control external learning availability through a single account-level setting:
+
+**When external learning is enabled:**
+
+* Learners see the **External Learning** tab in the navigation and can submit new requests
+* Managers see the **External Learning** tab in their team dashboard and can review submissions
+* Admin and Learner Transcripts include external learning data for approved submissions
+
+**When external learning is disabled:**
+
+* Learners who have no previous submissions see no External Learning interface
+
+* Learners who have previous submissions can still view their history and submission statuses, but cannot create new submissions
+
+* Managers retain access to the External Learning tab if their team has past submissions; otherwise the tab is removed
+
+* Existing transcript data for approved submissions is not affected
+
+#### Core fields
+
+These fields are available to all accounts by default. Administrators can choose which fields to show on the learner's submission form and mark each as required or optional.
+
+| **Field**           | **Type**         | **Notes**                                                                                        |
+|---------------------|------------------|--------------------------------------------------------------------------------------------------|
+| Title               | Text             | The name of the external learning, course, or certification.                                     |
+| Description / notes | Text             | Learner can add details about the training provider or context.                                  |
+| Date/Date range     | Date/time        | Duration of the external learning.                                                               |
+| Duration            | Duration (hours) | Time spent on the external training.                                                             |
+| Score               | Number           | The score the learner received, if applicable.                                                   |
+| Attachments         | File upload      | Proof of completion. The learner can submit a certificate, a transcript, or other documentation. |
+
+#### Custom fields
+
+Administrators can add up to 10 custom fields to capture additional organization-specific information. Custom fields support the following types:
+
+| **Type** | **Description**                                         |
+|----------|---------------------------------------------------------|
+| Text     | Free-form text input.                                   |
+| Number   | Numeric input.                                          |
+| Checkbox | Single yes/no toggle.                                   |
+| Dropdown | Single selection from an admin-defined list of options. |
+
+Custom field labels and dropdown values can be edited after creation. Editing a field label or a dropdown option does not change answers that learners have already submitted. Only new submissions use the updated values.
+
+### Proof of completion file requirements
+
+* **Supported file types:** PDF, DOC, DOCX, PNG, JPEG, JPG
+
+* **Maximum file size:** 50 MB per attachment
+
+#### What administrators control for external learning
+
+External learning is **disabled by default** for all accounts. You must explicitly enable it before learners can submit requests or managers can see the review tab.
+
+When you enable external learning:
+
+* Learners gain access to the **External Learning** tab and can submit new requests
+
+* Managers gain access to the **External Learning** review tab
+
+* Admin and Learner Transcripts gain the reporting columns for approved external learning activities. Once external learning is enabled, it can affect Learner Transcript reports. If your organization uses Learner Transcript data for automation, review and update any dependent workflows to account for the new external learning fields and records.
+
+When you disable external learning after it has been in use:
+
+* New learner submissions are blocked
+
+* Learners with previous submissions can still view their history
+
+* Managers with previous submissions can still act on pending requests
+
+* Transcript data for previously approved submissions is unchanged
+
+* You can re-enable the feature at any time. No data is lost when the feature is disabled.
+
+#### Enable or disable external learning
+
+**Caution:** Enabling External Learning adds new columns to the Admin Learner Transcript: **External Learning Name**, **Completion Comment**, and any custom fields configured for your account. Custom field columns appear at the end of the transcript.
+
+If your organization uses the Learner Transcript in downstream reporting pipelines or automated workflows, update those systems to handle the new columns before enabling this feature.
+
+1.Sign in to Adobe Learning Manager as an administrator.
+
+2.In the left navigation pane, select **Settings**.
+
+3.Select **General**.
+
+4.Scroll to the **External Learning** section.
+
+5.Select the **Enable External Learning** checkbox to enable the feature.
+
+6.Select **Save**.
+
+Learners can now submit external learning requests. Their managers will receive in-platform notifications when submissions are created.
+
+To disable the feature, follow the same steps, and disable the option.
+
+#### Configure the external learning form
+
+After enabling the feature, configure which fields appear on the learner submission form.
+
+1.In **Settings > General**, open the **External Learning** section.
+
+2.Under **Form Configuration**, review the list of default fields.
+
+3.Select the checkbox next to each field to show or hide it on the learner form.
+
+4.For each visible field, select **Mandatory** to control whether learners must complete it before submitting.
+
+5.Select **Save**.
+
+**Note:** The **Title** field is always required and cannot be hidden or made optional.
+
+The learner submission form immediately reflects your changes. Existing submissions are not affected by form configuration changes.
+
+#### Add and manage custom fields
+
+You can add up to 10 custom fields to capture information specific to your organization.
+
+**Add a custom field**
+
+1.In **Settings > General**, open the **External Learning** section.
+
+2.Expand **Custom fields**.
+
+3.Select **New field**.
+
+4.Select a **Field Type**: **Text**, **Number**, **Checkbox**, or **Dropdown**.
+
+    1.If you select **Dropdown**, enter the list of values learners can choose from. You can add up to 100 dropdown values.
+
+    2.Type the name of the field and optionally, its description.
+
+5.Select or deselect the **Mandatory** option for the new custom fields.
+
+6.Select **Save**.
+
+The new field appears on the learner submission form immediately.
+
+**Edit a custom field**
+
+1.In **Settings > General**, open the **External Learning** section.
+
+2.Next to the custom field you want to edit, select **Edit**.
+
+3.Update the field name or, for dropdown fields, add, edit, or remove values.
+
+4.Select **Save**.
+
+Editing a field name or dropdown values does not change data already captured in existing submissions. Only new submissions use the updated labels and options.
+
+**IMPORTANT**
+
+Once you add a custom field, you cannot delete it. You can only edit it. If you want a field not to appear on a learner's form, uncheck the field.
+
 
 ### Player settings
 
