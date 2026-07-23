@@ -26,7 +26,7 @@ The channel crawler reliably extracts videos from source pages that present thei
 - Bulleted lists
 - Articles
 
-To enable the Channels feature:
+To enable the **Channels** feature:
 
 1. Log in to Adobe Learning Manager as an Administrator.
 
