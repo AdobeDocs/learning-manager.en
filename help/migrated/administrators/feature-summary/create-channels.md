@@ -120,13 +120,12 @@ Disable one or more channels to prevent learners from accessing their content wh
 To disable channels:
 
 1. Navigate to **Channels**.
-1. Select the checkbox next to one or more channels.
-1. Select **Actions**, and then select **Disable**.
+1. Select the checkbox next to one or more channels and then select **Actions**.
 
    ![Select Disable from the Actions menu to disable one or more selected channels.](assets/disable-channels.png)
    *Select Disable from the Actions menu to disable one or more selected channels.*
-
-1. In the confirmation dialog, select **Disable**.<br> The selected channels are disabled.
+1. Select **Disable**.<br> The **Disable channels** pop-up window appears.
+1. Select **Disable**.<br> The selected channels are disabled.
 
 ### Hide channels from learners
 
@@ -135,12 +134,12 @@ Hide one or more channels to make them unavailable to learners without deleting 
 To hide channels from learners:
 
 1. Navigate to **Channels**.
-1. Select the checkbox next to one or more channels.
-1. Select **Actions**, and then select **Hide from learners**.<br> The **Hide from learners** pop-up window appears.
+1. Select the checkbox next to one or more channels and then select **Actions**.
+1. Select **Hide from learners**.<br> The **Hide from learners** pop-up window appears.
 ![Hide channels from learners without deleting the channel configuration.](assets/hide-channels-from-learners.png)
 *Hide channels from learners without deleting the channel configuration.*
 
-1. In the confirmation dialog, select **Hide from learners**.
+1. Select **Hide from learners**.
 <br> The selected channels are hidden from learners.
 
 ## Edit a Channel
