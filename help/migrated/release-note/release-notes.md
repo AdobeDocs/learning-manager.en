@@ -73,13 +73,11 @@ The AI Orchestrator Agent moves intent detection for single-query requests into 
 
 ## Bugs fixed in the release
  
-* The dates in Learner Transcript Report used to record 00 for seconds, whereas in webhook the seconds appeared as they should – in two digits. This has been fixed. The Learner Transcript now correctly shows the two-digit seconds as well.
+**Learner Transcript:** The dates in Learner Transcript Report used to record 00 for seconds, whereas in webhook the seconds appeared as they should – in two digits. This has been fixed. The Learner Transcript now correctly shows the two-digit seconds as well.
 
-* When a Microsoft Teams or Adobe Connect VC session was canceled from the instance page, some associated session details remained after a page refresh. This issue has been fixed, and canceled sessions now correctly remove all associated details, including the Teams organizer and lobby bypass settings and the Connect primary instructor.
+**Instance:** When a Microsoft Teams or Adobe Connect VC session was canceled from the instance page, some associated session details remained after a page refresh. This issue has been fixed, and canceled sessions now correctly remove all associated details, including the Teams organizer and lobby bypass settings and the Connect primary instructor.
 
-* An issue in an automated AWS workflow caused repeated download requests to the CMS HTTP API to use improperly encoded URLs, resulting in intermittent HTTP 500 errors and high volumes of invalid traffic. The workflow has been updated to correctly URL-encode spaces and other special characters in download request URLs. As a result, account asset download requests are processed successfully, reducing errors and improving the reliability of automated asset retrieval.
-
-* An issue in Safari and Edge caused the player to resize incorrectly when switching between landscape and portrait orientations, which could display a white line in the overview area and prevent learners from accessing the Table of Contents and Notes panels. The player's resize handling has been improved to correctly adapt to orientation changes. As a result, the player displays properly across supported orientations, overview rendering issues are resolved, and learners can successfully access the Table of Contents and Notes.
+**API:** An issue in an automated AWS workflow caused repeated download requests to the CMS HTTP API to use improperly encoded URLs, resulting in intermittent HTTP 500 errors and high volumes of invalid traffic. The workflow has been updated to correctly URL-encode spaces and other special characters in download request URLs. As a result, account asset download requests are processed successfully, reducing errors and improving the reliability of automated asset retrieval.
 
 * An issue caused italics formatting applied in the Detailed Overview section of a course to display correctly during authoring but not on the learner-facing course overview page after publication. The rendering logic has been updated to preserve italic text formatting when course content is published. As a result, italics applied in the Detailed Overview section are displayed correctly and consistently for learners on the published course overview page.
 
