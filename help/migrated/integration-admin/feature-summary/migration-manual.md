@@ -1049,4 +1049,116 @@ Troubleshoot common migration errors
 | LP to course instance association fails | Confirm that both the learning path and the course instance were created through the same source (both migration or both retrofit). Mixed sources are not supported. |
 | Session row fails with metadata error | Check that all JSON key names in the `metadata` field use exact camelCase. Keys are case-sensitive. |
 | Teams `isCompletionCriteria` has no effect | The completion criteria feature flag for Teams must be enabled by your ALM account admin before migration values take effect. |
-| Session row created but instructor field is empty | If the instructor email provided does not match a user in ALM, the session is created with an empty instructor field. Verify the instructor email exists in ALM before uploading. |
+| Session row created but instructor field is empty | If the instructor email provided does not match a user in ALM, the session is created with an empty instructor field. Verify the instructor email exists in ALM before uploading.
+
+## Migration of LTI modules {#migrationofltimodules}
+
+### Overview
+
+LTI migration extends the existing migration workflow and does not require additional migration files. Existing course, module, and module association records continue to use the standard migration format. LTI-specific information is supplied through the module version data.
+
+### Use files for LTI migration
+
+LTI modules are migrated using the standard migration files.
+
+The following files continue to use the existing migration format:
+
+* course.csv
+* module.csv
+* course_module.csv
+
+No LTI-specific fields are required in these files. LTI-specific settings are configured in the `module_version.csv` file.
+
+### Configure an LTI module version
+
+Use the `module_version.csv` file to define the properties of an LTI module version.
+
+In addition to the existing fields supported in `module_version.csv`, Adobe Learning Manager supports LTI-specific values and attributes.
+
+#### contentType
+
+Use the value `LTI` in the `contentType` field to identify the module version as an LTI module.
+
+*Field and value used to identify an LTI module version*
+
+| **Field**   | **Value** |
+|-------------|-----------|
+| contentType | LTI       |
+
+#### ltiLaunchUrl
+
+Specifies the launch URL of the external LTI provider.
+
+When a learner launches the module in Adobe Learning Manager, the learner is redirected to the configured LTI endpoint.
+
+*Field used to specify the external LTI provider's launch URL*
+
+| **Field**    | **Description**                                  |
+|--------------|--------------------------------------------------|
+| ltiLaunchUrl | Launch URL provided by the external LTI platform |
+
+#### ltiCustomParams
+
+Specifies custom launch parameters that are passed to the LTI provider during launch.
+
+Use this field when the external platform requires additional launch context or configuration parameters.
+
+*Field used to pass custom launch parameters to the LTI provider*
+
+| **Field**       | **Description**                                            |
+|-----------------|------------------------------------------------------------|
+| ltiCustomParams | Custom parameters passed to the LTI platform during launch |
+
+#### tpName
+
+Specifies the name of the third-party LTI provider associated with the module.
+
+*Field used to identify the third-party LTI provider*
+
+| **Field** | **Description**                                                 |
+|-----------|-----------------------------------------------------------------|
+| tpName    | Name of the third-party LTI provider associated with the module |
+
+### Sample LTI module version
+
+The following example shows a module version record configured for an LTI module:
+
+```csv
+moduleId,moduleVersion,contentType,dateCreated,duration,desiredDuration,contentUrl,hasQuiz,ltiLaunchUrl,ltiCustomParams,tpName
+2024101905,1,LTI,2024-10-19T09:55:21.123Z,60,60,,,https://m42almintegrationsv01.moodlecloud.com/enrol/lti/launch.php,"id=8600f9a1-256f-4a0c-bcfc-36377eba8ae1
+param=1",DND_Moodle_isProducer
+```
+
+In this example:
+
+* The module version is identified as an LTI module through the `contentType=LTI` value.
+* The launch URL points to the external LTI provider.
+* Custom launch parameters are supplied through `ltiCustomParams`.
+* The provider is identified through the `tpName` field.
+
+### Migrate an LTI module
+
+To migrate an LTI module:
+
+1. Create the course record in `course.csv`.
+2. Create the module record in `module.csv`.
+3. Associate the course and module in `course_module.csv`.
+4. Add the module version details in `module_version.csv`.
+5. Set the `contentType` value to `LTI`.
+6. Provide the LTI launch URL and any optional launch parameters.
+7. Run the migration sprint.
+
+The migration framework processes the LTI module as part of the standard migration workflow.
+
+### Validate LTI module versions
+
+When creating LTI module versions:
+
+* Use the value `LTI` for the `contentType` field.
+* Provide a valid launch URL in the `ltiLaunchUrl` field.
+* Specify the external provider name in the `tpName` field.
+* Ensure that the module is associated with a course through the standard migration files.
+* Continue to follow all existing module version migration requirements and validation rules documented for `module_version.csv`.
+
+The migration system applies the standard migration processing workflow in addition to the LTI-specific fields.
+ |

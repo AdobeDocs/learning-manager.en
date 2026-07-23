@@ -15,7 +15,7 @@ contentowner: mmanuel
 
 **Reports** are your own saved configurations. You can create a report from scratch or by duplicating a template and editing the copy. When you duplicate a template, the copy becomes a report in your **Reports** tab. Templates and reports both appear in Report Builder, but under separate tabs.
 
-## **Datasets**
+## Datasets
 
 A dataset is a named group of related columns in Report Builder. When you add columns to a report, you pick from these datasets. Think of each data set as a table of information about one aspect of your learning data.
 
@@ -23,18 +23,17 @@ The following is a sample of datasets available in Report Builder:
 
 * **User**: learner profile data, including active fields
 * **Transcript**: enrollment and completion records
-
 * **Learning Object**: course, learning path, and certification data
 * **Learning Object Instance**: instance-level details
-
 * **Catalog**: catalog and catalog label data
 * **User Group**: user group membership and hierarchy
-
 * **Module**: classroom and virtual session data, including e-learning module details
 
-**Note:** Data sets are selectively joinable. Not all combinations are available in a single report.
+>[!NOTE]
+>
+>Data sets are selectively joinable. Not all combinations are available in a single report.
 
-## **Columns and the Add button**
+## Columns and the Add button
 
 Each column you add appears as a row in the report canvas and becomes a column in the downloaded file. You can add the same column more than once. This is useful when you want to measure two different values from the same field. For example, you can add the **Status** column twice: once to count enrollments and once to count in-progress learners using the count if aggregate.
 
@@ -42,7 +41,7 @@ Each column you add appears as a row in the report canvas and becomes a column i
 
 You can also rename any column by entering an alias. The alias appears as the column header in the downloaded report.
 
-## **Group by and aggregation**
+## Group by and aggregation
 
 Group by summarizes your data by a chosen field instead of showing individual rows. For example, grouping by instructor name gives you one row per instructor rather than one row per enrollment.
 
@@ -50,10 +49,8 @@ Group by follows standard database behavior: once you apply group by on one colu
 
 * **Count**: total number of rows
 * **Count if**: number of rows where the field matches a value you specify
-
 * **Sum**: total of a numeric field
 * **Min**: lowest value in a numeric field
-
 * **Max**: the highest value in a numeric field
 * **Average**: mean value of a numeric field
 
@@ -67,11 +64,10 @@ Filter operators depend on the column's data type:
 
 * **String fields**: contains, equals, starts with (type-ahead search available for recognized values)
 * **Numeric fields**: greater than, less than, equals, between
-
 * **Date fields**: equals, before, after, between, and relative ranges (for example, last 90 days)
 * **Enum (list) fields**: is in, is not in (multi-select value picker)
 
-## **AND / OR logic and nested filter groups**
+## AND / OR logic and nested filter groups
 
 Multiple filters default to AND logic, all conditions must be true for a row to appear. You can switch the operator between any two filters to OR. You can also group filters using **Add as group**, which creates a bracket. Filters within the group are evaluated together before being combined with filters outside it.
 
@@ -79,7 +75,7 @@ This lets you build conditions like: (catalog = Safety OR catalog = Hygiene) AND
 
 You can nest groups within other groups to support complex multi-level logic.
 
-## **Sorting**
+## Sorting
 
 You can sort on one or more columns. The first column you sort on is the primary sort. Additional sorts apply within ties in the primary column.
 
@@ -97,7 +93,7 @@ Report Builder supports including deleted learners in reports and retrieving the
 
 Use the Deletion Date column in the User dataset to create the report.
 
-## **Best practices**
+## Best practices
 
 * Read the available data sets reference before building a report from scratch. Knowing which data set contains the fields you need saves significant configuration time.
 * Apply sorting before subscribing to a scheduled report. This ensures consistent row order across every delivery.

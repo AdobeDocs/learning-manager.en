@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 ---
 # What's new in the August 2026 release of Adobe Learning Manager
 
->[!WARNING]
+>[!IMPORTANT]
 >
 >The features described in this article are available as part of the beta release. Adobe Learning Manager beta features are provided for evaluation purposes and may be modified, limited, or removed before the general availability release. Feature names, behavior, and configuration options are subject to change without notice.
 
@@ -218,21 +218,23 @@ Learn more about the [API changes in the August 2026 release of Adobe Learning M
 |---|---|
 | **MQA: Latest vs. Highest score** | For modules with multiple attempts, authors can now choose whether the Latest or Highest attempt score is recorded in the Learner Transcript and used in gradebook calculations. Latest was the existing default and remains so when the setting is not configured. For more information, see [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts). |
 | **Content preview in Content Library** | Authors can now preview uploaded content files directly in the Content Library before adding them to courses. For more information, see [Preview Content Library](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary).  |
-| **Incremental user report** | A new API-based user report returns only users created or modified since the last request, reducing data transfer for large accounts using automated user sync workflows. |
-| **Player performance improvements** | The fluidic course player has been optimized for faster load times and smoother transitions between modules. |
+| **Incremental user report** | A new API-based user report returns only users created or modified since the last request, reducing data transfer for large accounts using automated user sync workflows. For more information, see [Incremental User Report](/help/migrated/incremental-user-report). |
 | **11 new languages in fluidic player** | The fluidic player now supports 11 additional languages, including right-to-left (RTL) script support. For more information, see [Fluidic Player](/help/migrated/learners/feature-summary/fluidic-player.md).|
-| **Impact warning before retiring courses/LPs** | Administrators now see a warning listing all active enrollments and dependent learning paths before a course or learning path can be retired. |
-| **CR/VC Module: Expected Duration** | Authors can now set an expected duration for classroom and virtual classroom modules, separate from the scheduled session time. This value appears in reports and learner-facing course information. |
-| **LTI module migration** | Existing LTI 1.1 modules can now be migrated to LTI 1.3 using the migration tool. For more information, see [LTI migration of modules](/help/migrated/integration-admin/feature-summary/migration-manual.md). |
-| **Confirmation before editing acquired courses** | Administrators in peer accounts now see a confirmation dialog before editing a course acquired through catalog sharing, preventing unintended changes to shared content. |
-| **Session URL with instance ID** | Session launch URLs for Microsoft Teams, Adobe Connect, and Zoom sessions now include the instance ID, ensuring learners are routed to the correct session when multiple instances exist. |
-| **Warning for large-audience announcements** | When sending an ad-hoc announcement email to more than a configurable threshold of recipients, administrators now see a volume warning before sending. |
-| **Email templates: Account URL for external learners** | Email notification templates can now include a separate account URL specifically for external learners, routing them to the correct login experience. |
+| **LTI module migration** | Existing LTI 1.1 modules can now be migrated to LTI 1.3 using the migration tool. For more information, see [LTI migration of modules](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules). |
 | **Email Builder: Rich Text Editor Support** | Email Templates in Adobe Learning Manager now support rich text formatting, attachments, and custom automations. For more information, see [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
 | **Email Builder: Preview feature** | You can check your composed email to see how it would look at the recipient's end by using the Preview option. For more information, see [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
 | **Webhook timestamp standardization** | All date and time fields within the `data` object of webhook payloads now have seconds set to `00`, providing minute-level precision consistent with Learner Transcript reports. |
 | **Connect enhancements** | Azure Data Lake Storage (ADLS) connector updates; persistent room name support for recurring virtual classroom sessions; recording-view-based attendance tracking. |
-
+| **Player performance improvements** | The fluidic course player has been optimized for faster load times and smoother transitions between modules. |
+| **Impact warning before retiring courses/LPs** | Administrators now see a warning listing all active enrollments and dependent learning paths before a course or learning path can be retired. |
+| **CR/VC Module: Expected Duration** | Authors can now set an expected duration for classroom and virtual classroom modules, separate from the scheduled session time. This value appears in reports and learner-facing course information. |
+| **Confirmation before editing acquired courses** | Administrators in peer accounts now see a confirmation dialog before editing a course acquired through catalog sharing, preventing unintended changes to shared content. |
+| **Session URL with instance ID** | Session launch URLs for Microsoft Teams, Adobe Connect, and Zoom sessions now include the instance ID, ensuring learners are routed to the correct session when multiple instances exist. |
+| **Warning for large-audience announcements** | When sending an ad-hoc announcement email to more than a configurable threshold of recipients, administrators now see a volume warning before sending. |
+| **Email templates: Account URL for external learners** | Email notification templates can now include a separate account URL specifically for external learners, routing them to the correct login experience. |
+| **AEM Sites** | There is only one **Edit** button now in **Your Profile** > Your areas of interest section to edit your preferences for Products and Roles and Skills. This is part of native learning manager as well. |
+| **AEM Sites** | Earlier, there used to be two **Edit** buttons, but now the **Edit** button is a consolidated  button to modify your preferences for Products and Roles and Skills. |
+| **Time Zone** | A new search box has been added just below the Time Zone field in the Profile Settings of the logged in user. The search box can be used to search directly for a time zone instead of scrolling through the entire list of available time zones. If you would like to change the existing time zone, you select a new time zone and select Save. The new time zone is saved. The Save button appears only when you select a time zone. |
 
 ## System requirements
 
