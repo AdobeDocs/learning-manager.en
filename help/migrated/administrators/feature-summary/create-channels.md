@@ -109,6 +109,40 @@ Use the search box to quickly locate a channel by name.
 
    *Enter a channel name in the search box to filter the **Channels** list.*
 
+## Manage channel actions
+
+Use the **Actions** menu to disable or hide one or more channels at the same time.
+
+### Disable channels
+
+Disable one or more channels to prevent learners from accessing their content while retaining the channel configuration.
+
+To disable channels:
+
+1. Navigate to **Channels**.
+1. Select the checkbox next to one or more channels.
+1. Select **Actions**, and then select **Disable**.
+
+   ![Select Disable from the Actions menu to disable one or more selected channels.](assets/disable-channels.png)
+   *Select Disable from the Actions menu to disable one or more selected channels.*
+
+1. In the confirmation dialog, select **Disable**.<br> The selected channels are disabled.
+
+### Hide channels from learners
+
+Hide one or more channels to make them unavailable to learners without deleting them.
+
+To hide channels from learners:
+
+1. Navigate to **Channels**.
+1. Select the checkbox next to one or more channels.
+1. Select **Actions**, and then select **Hide from learners**.<br> The **Hide from learners** pop-up window appears.
+![Hide channels from learners without deleting the channel configuration.](assets/hide-channels-from-learners.png)
+*Hide channels from learners without deleting the channel configuration.*
+
+1. In the confirmation dialog, select **Hide from learners**.
+<br> The selected channels are hidden from learners.
+
 ## Edit a Channel
 
 You can edit an existing channel to update its configuration and settings.
