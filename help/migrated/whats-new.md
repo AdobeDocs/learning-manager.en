@@ -204,7 +204,7 @@ Learn more about the [API changes in the August 2026 release of Adobe Learning M
 
 | Enhancement | Description |
 |---|---|
-| **MQA: Latest vs. Highest score** | For modules with multiple attempts, authors can now choose whether the Latest or Highest attempt score is recorded in the Learner Transcript and used in gradebook calculations. Latest was the existing default and remains so when the setting is not configured. For more information, see [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts).
+| **MQA: Latest vs. Highest score** | For modules with multiple attempts, authors can now choose whether the Latest or Highest attempt score is recorded in the Learner Transcript and used in gradebook calculations. Latest was the existing default and remains so when the setting is not configured. For more information, see [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts). |
 | **Content preview in Content Library** | Authors can now preview uploaded content files directly in the Content Library before adding them to courses. For more information, see [Preview Content Library](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary).  |
 | **Incremental user report** | A new API-based user report returns only users created or modified since the last request, reducing data transfer for large accounts using automated user sync workflows. |
 | **Player performance improvements** | The fluidic course player has been optimized for faster load times and smoother transitions between modules. |
