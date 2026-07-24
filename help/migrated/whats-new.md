@@ -95,10 +95,6 @@ Key highlights:
 * Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
 * Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
 
->[!NOTE]
->
->Live Hub will be available with the upcoming **August release** of Adobe Learning Manager. The documentation for Live Hub will be available once the feature is released.
-
 ## Component-based email template builder
 
 Organizations can now create enterprise-grade, branded email notifications in Adobe Learning Manager using a modern WYSIWYG component editor. Administrators can build a global layout once, with a reusable header, footer, and brand elements, and apply it across all email templates at the account level. Individual templates can then be customized at the course or instance level, inheriting the parent layout by default and overriding it only when needed.
