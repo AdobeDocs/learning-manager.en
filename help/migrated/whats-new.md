@@ -94,13 +94,10 @@ Key highlights:
 * Help your learners get more from every session with AI-generated summaries and session recordings searchable by topics.
 * Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
 * Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
-<<<<<<< HEAD
 
 >[!NOTE]
 >
 >Live Hub will be available with the upcoming **August release** of Adobe Learning Manager. The documentation for Live Hub will be available once the feature is released.
-=======
->>>>>>> b9dafa140601d71d62f68056d3403a1be0c77eb3
 
 ## Component-based email template builder
 
