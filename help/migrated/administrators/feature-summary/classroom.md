@@ -69,7 +69,7 @@ You can add a Classroom Location by using the single-field format:
 
 If your account uses the legacy single-field Classroom Location format, migrate your existing Classroom Locations before enabling the four-field format. The four-field format organizes location data into **Country**, **State/Province/Region**, **City**, and **Location Name**, making it easier to manage locations across multiple regions.
 
-This migration is a one-time process. After you switch to the four-field format, you cannot revert the account to the legacy single-field format.
+This migration is a one-time process. After you switch to the four-field format, you cannot revert the account to the single-field format.
 
 To migrate existing locations:
 
