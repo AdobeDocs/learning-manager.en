@@ -89,11 +89,11 @@ Live Hub is an AI-powered virtual training experience within Adobe Learning Mana
 
 Key highlights:
 
-- Elevate live learning with a native Adobe Learning Manager experience that improves instructional quality and learner outcomes.
-- Give your Instructors an AI-powered co-facilitator that drives engagement through intelligent polls, Q&A support, and breakout room insights.
-- Help your learners get more from every session with AI-generated summaries and session recordings searchable by topics.
-- Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
-- Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
+* Elevate live learning with a native Adobe Learning Manager experience that improves instructional quality and learner outcomes.
+* Give your Instructors an AI-powered co-facilitator that drives engagement through intelligent polls, Q&A support, and breakout room insights.
+* Help your learners get more from every session with AI-generated summaries and session recordings searchable by topics.
+* Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
+* Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
 
 ## Component-based email template builder
 
@@ -203,9 +203,11 @@ Classroom Locations now support a structured **four-field location format**, inc
 
 For more information, see [Classroom Locations](/help/migrated/administrators/feature-summary/classroom.md)
 
-## Adobe Learning Manager Content Composer
+## Coming soon: Adobe Learning Manager Content Composer
 
 Adobe Learning Manager Content Composer is an upcoming AI course authoring tool in Adobe Learning Manager that helps you create a publish-ready course in no time.
+
+A conversational AI assistant will guide you through the entire process- Prompt, Brief, Outline, and Course, so you stay in control at every step, reviewing and refining before moving forward. You'll be able to ground content in your own source documents, apply instant course theming, and share or export finished courses via SCORM or direct publishing to Adobe Learning Manager.
 
 ## Reporting changes in the release
 

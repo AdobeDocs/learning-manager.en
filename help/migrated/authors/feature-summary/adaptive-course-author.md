@@ -72,7 +72,7 @@ After adding a content module, configure its adaptive rules:
 
 **Key rules:**
 
-* A learner belonging to multiple user groups gets the most restrictive result: if any group makes a module mandatory, it's mandatory for that learner.
+* If any group makes a module mandatory, it's mandatory for that learner.
 * You must configure at least one module as **Mandatory** for least one user group before you can publish. The system blocks publication until this condition is met.
 
 ### Course in a draft state
@@ -114,6 +114,10 @@ Note that you can no longer change the visibility settings in the adaptive cours
 
 ![](assets/ac-author-008.png)
 
+>[!NOTE]
+>
+>A learner cannot be waitlisted in switching instance, enrollment will be blocked.
+
 ### Add or modify modules
 
 1. Open the published course.
@@ -135,8 +139,8 @@ Note that you can no longer change the visibility settings in the adaptive cours
 A learner who switches instances of an adaptive course carries forward their progress:
 
 * Modules they have already completed remain completed in the new instance.
-* Seats are consumed only for non\-completed visible modules in the new instance.
-* If visible modules in the new instance have no available seats, the learner is waitlisted for those sessions.
+* Seats are consumed only for non-completed visible modules in the new instance.
+* They cannot be waitlisted when no seats are available for an instance. Enrollment will be blocked.
 
 ## Manage seat limits and waitlists in adaptive courses
 
