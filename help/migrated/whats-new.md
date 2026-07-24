@@ -155,7 +155,7 @@ Key capabilities:
 * Maximum of 10 personalized learning paths visible on the learner home page
 * Completed paths can be shared with colleagues
 
-For more information, see [AI Assistant for learners](/help/migrated/learners/feature-summary/learning-path-agent.md).
+For more information, see [Learning path agent](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 ### Insights Agent
 
