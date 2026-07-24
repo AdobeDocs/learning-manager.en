@@ -1,186 +1,261 @@
 ---
-jcr-language: en_us
-title: Add classroom locations
-description: Administrators can now set up a library of classroom locations. For each Classroom Location, the administrators can set the metadata that includes Location Name, Seat Limit as well as additional information such as the Location URL. Authors and Administrators can then use these pre-configured classroom locations for setting up instructor-led training events (classroom modules).
-contentowner: saghosh
-exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
+title: Add Classroom Locations
+description: Learn how Administrators can configure settings, and add, migrate, edit, and delete Classroom Locations in Adobe Learning Manager, and how to add translations for a Classroom Location.
 ---
-# Classroom
 
-## Overview
+# Add Classroom Locations
 
-Administrators can now set up a library of classroom locations. For each Classroom Location, the administrators can set the metadata that includes Location Name, Seat Limit as well as additional information such as the Location URL. Authors and Administrators can then use these pre-configured classroom locations for setting up instructor-led training events (classroom modules).
+Administrators can create and manage a library of Classroom Locations to reuse when setting up instructor-led training events in the Classroom and Virtual Classrooms module. For each location, you can define details such as the location name, seat limit, and additional information, including a location URL. Authors can then select these predefined locations when creating a course.
 
-You can use the following two ways to add a classroom location.
-
-## Add classroom using the UI
-
-You can add a classroom location by using the UI:
-
-1. In the Admin app (the UI for administrator roles), click **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]**.  
-
-1. Click **[!UICONTROL Add]** > **[!UICONTROL New Location]**.  
-
-1. In the **[!UICONTROL Classroom Location]** dialog box, enter the following details:
-
-   * Type the **[!UICONTROL Location Name]**. Use a unique name. Otherwise, Learning Manager displays an error message.
-   * Type the location description in the **[!UICONTROL Location Information]** field. This field is optional.
-   * Type the **[!UICONTROL Location URL]**. Learner can see this information in the classroom details. The URL can also be a maps location URL, if required. This is an optional field.
-   * Type and select the **[!UICONTROL Location Region]**. This field i optional.
-   * Type the number of available seats in the **[!UICONTROL Seat Limit]** field. This indicates the seat capacity of the classroom. This value can be changed when creating the actual instructor-led training event.
-
-   ![](assets/add-classroom-location.png)
-
-   *Add a classroom location*
-
-After adding the location, the **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]** page lists the meeting rooms:
-
-![](assets/list-meeting-rooms.png)
-
-*View all meeting rooms*
-
-The list has the following fields:
-
-**[!UICONTROL Location Name]** - Name of the classroom location.
-
-**[!UICONTROL Future Sessions]** - Number of events that will occur in the corresponding location. Click the number to view the details in a dialog box.
-
-![](assets/sessions-list.png)
-
-*View future sessions*
-
-The dialog box displays the details of each session including the name of the session, name of the training that includes the session, and session schedule. The displayed time aligns with the system time zone of the learner.
-
-The **[!UICONTROL Future Sessions]** field displays **zero** when the classroom is not used for any session or when the classroom is associated with past sessions.
-
-**[!UICONTROL Seat Limit]** - Displays the seat capacity of the classroom.
-
-**Location URL** - URL that you provided when creating the classroom location.
-
-**Location Information** - The classroom information that you provided when creating the classroom.
-
-### Edit the classroom locations
-
-To edit the classroom locations, follow the below steps:
-
-1. In the Admin app (the UI for administrator roles), select **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]**.  
-
-1. Hover over the desired classroom location you want to edit. 
-
-1. Select **[!UICONTROL Edit Classroom Location]** icon. 
-
-1. Modify the classroom location and select **[!UICONTROL Save]**. 
-
-## Add classroom using CSV
-
-Alternatively, you can add one or more classroom locations by importing a CSV that contains the classroom information.
-
-In **[!UICONTROL Admin app]** > **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]** > **[!UICONTROL Add]**, click the **[!UICONTROL Bulk import locations]** button. Browse to the location containing the CSV file and select the file.
-
-The CSV file uses these fields to store details about one or more classroom locations:
-
-* name
-* info
-* url
-* region
-* seatLimit
-
-You can customize the headers.
-
-The CSV file must mandatorily contain all columns in the same order as specified here.
-
-After the system imports the CSV file, the locations are added in the library.
-
-## Search for classrooms
-
-To search for classrooms, select the virtual classroom course, then go to **[!UICONTROL Instances]** > **[!UICONTROL Sessions]**. An Author or Administrator can start typing the location name to see the relevant results that start appearing. They can then select a location from the displayed results. If no location is displayed in the type ahead results, the user can still add the new classroom location name. Note that this location name created using the session creation workflow is not added to the location library created by the Administrator.
-
-When a classroom is added, the learning platform also indicates if the classroom is already booked for the mentioned time-period. It even provides alternate time slots as suggestions. Therefore, this enables the Author to adjust the meeting time if he decides to use the same classroom location.
-
-![](assets/classroom-search.png)
-
-*Search for classrooms*
-
-## Administrator
-
-As an admin, you can manage the instructors and the course instances.
-
-### Setting up instructors:
-
-In the Admin app, under **[!UICONTROL Settings]** > **[!UICONTROL General]**, administrators can find the **[!UICONTROL Instructor Management]** option. This feature ensures that only pre-approved users assigned as instructors can be added to conduct sessions.
-
-To assign an instructor, follow these steps:
-
-1. Go to the **[!UICONTROL Getting Started]** page, and select **[!UICONTROL Users]** on the left pane.
-
-1. Select the user you want.
-
-1. Assign the user the instructor role by selecting **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]**.
-
-### Cancelling Sessions:
-
-On the **[!UICONTROL Course Instance]** page, administrators can cancel one or more sessions. When sessions are cancelled, the system removes all session details but retains the seat limit.
-
-Additionally, administrators can:
-
-* **[!UICONTROL View Enrollment]**: Get information on enrolled and waitlisted learners for each session.
-* **[!UICONTROL Unenroll Learners]**: Remove learners from a course with cancelled sessions without changing their enrollment status.
-* **[!UICONTROL Attendance Management]**: Mark attendance for sessions, even if the sessions get cancelled.
-* **[!UICONTROL Course Completion]**: Administrators can mark a course as complete even if sessions have been cancelled.
-* **[!UICONTROL Rescheduling]**: Schedule cancelled sessions for later dates, and add an instructor during the rescheduling.
-
-Note that after cancellation, learners stay enrolled in the training instance. Their enrollment status—like confirmed enrollment, waitlisted, and awaiting manager approval—stays unchanged. This is helpful because the administrator can set up and reschedule the cancelled session in the future.
-
-## Author
-
-If the administrator selects the **[!UICONTROL Instructor Management]** option, an author can only search for and add the users with instructor role to the classroom sessions, virtual classroom sessions, checklists, and the file submission modules.
-
-In addition, an author can:
-
-* Add and remove instructors from the existing sessions.
-* Add instructors to the existing sessions that already have one or more instructors.
-
-Therefore, after an administrator enables the **[!UICONTROL Instructor Management]** option, only the users with instructor role can be added as an instructor.
+By default, Adobe Learning Manager uses a single-field location format. For organizations that manage Classroom Locations across multiple countries and languages, Learning Manager also supports a structured four-field format that includes **Country**, **State/Province/Region**, **City**, and **Location Name**. This format provides additional capabilities such as location-based filtering and language support for individual locations. Administrators can switch to the four-field format through a one-time migration.
 
 >[!NOTE]
 >
->This is not applicable when you migrate sessions using the sessions CSV file. In this case, a user who does not have the instructor role can be added as an instructor.
+>If the four-field location format is not enabled, Authors and learners can continue using Classroom Locations as usual. The existing single-field location format remains available, and no changes are required. View [Migrate to the four-field method](#migrate-classroom-locations-to-the-four-field-format) for more information.
 
-On the **[!UICONTROL Course Instance]** page, an author can cancel one or more sessions. When sessions are cancelled, the system removes all session details but retains the seat limit.
+## Configure Classroom Location settings
 
-Therefore, an author can use the **[!UICONTROL Cancel Session]** links to cancel one or more classroom sessions or virtual classroom sessions available in the same or different course instances.
+Administrators can control whether Authors can create and manage classroom locations. Use the **Classroom Locations** settings to define the level of access available to Authors.
 
-## Confine to pre-determined list of instructors
+To configure **Classroom Locations** settings:
 
-Presently, the users can add any registered user as an instructor when creating a classroom or virtual-classroom session. This functionality remains unchanged in this release.
+1. Login to the Adobe Learning Manager as an **Administrator**.
+1. Select **Settings** > **Classroom Locations**.
 
-However, Administrators now have an additional option to further control who gets assigned as an instructor on the learning platform. This prevents any accidental addition of a new Instructor when creating a session.
+   This displays the **Classroom Locations** page.
 
-## Cancel existing session
+1. Select the **Settings** tab.
 
-An Author or Administrator can cancel a session and reschedule it, if required.
+   ![Settings tab for Classroom Locations](assets/classroom-locations-settings-tab.png)
 
-When a user cancels a session, the system sends a meeting cancellation email to all the enrolled learners and instructors. The email includes the updated session details.
+   *Enable Author privileges for Classroom and Virtual Classroom locations from the **Settings** tab.*
 
-There is a template called **[!UICONTROL Session Cancellation]** that helps in cancelling a session.
+1. Select **Edit**.
 
-On the **[!UICONTROL Course Instance]** page, every session listed under a course instance includes an option to cancel the session.
+   The toggle becomes editable, allowing you to update the following settings:
 
-![](assets/cancel-session.png)
+   |**Setting**|**Description**|
+   |---|---|
+   |**Allow authors to create locations**|Enable this option to allow Authors to create Classroom and Virtual Classroom module locations when creating instructor-led training sessions.|
+   |**Allow authors to modify and delete locations**|Enable this option to allow Authors to edit or delete Classroom and Virtual Classroom Locations.|
 
-*Cancel an existing session*
+1. Select **Save**.
 
-When you click the **[!UICONTROL Cancel Session]** link, a warning message appears.
+## Create and manage Classroom Locations
 
-On the warning message dialog box, if you click **[!UICONTROL Proceed]**, the system cancels the session.
+Administrators can create and manage Classroom Locations that Authors can reuse when creating Classroom and Virtual Classroom training sessions. Adobe Learning Manager supports two location formats:
 
-The system also clears the following details after cancelling a session:
+* **Single-field format**: Each Classroom Location is identified by a single **Location Name** field. View [Add a Classroom Location using a single-field format](#add-a-classroom-location-using-a-single-field-format) for more information.
+* **Four-field format**: Each Classroom Location is organized into **Country**, **State/Province/Region**, **City**, and **Location Name**, making it easier to manage locations across multiple regions. If your account currently uses the single-field format, complete the one-time migration before switching to the four-field format. View [Migrate to the four-field method](#migrate-classroom-locations-to-the-four-field-format) for more information.
 
-* Start date of the session
-* End date of the session
-* Start time of the session
-* End time of the session
-* Instructors added to the session
-* Virtual classroom URL
-* Location/venue added to the session
-* Waitlist limit added by the instructor
+### Add a Classroom Location using a single-field format
+
+You can add a Classroom Location by using the single-field format:
+
+1. Login to the Adobe Learning Manager as an **Administrator**.
+1. Select **Settings** > **Classroom Locations**.
+1. Select **Add** > **New Location**.
+1. Enter the following details in the **Classroom Locations** dialog box:
+
+   1. Type the **Location Name**. Use a unique name. Otherwise, Learning Manager displays an error message.
+   1. Type the location description in the **Location Information** field. This field is optional.
+   1. Type the **Location URL**. Learners can see this information in the classroom details. The URL can also be a maps location URL, if required. This is an optional field.
+   1. Type and select the **Location Region**. This field is optional.
+   1. Type the number of available seats in the **Seat Limit** field. This indicates the classroom's seating capacity. This value can be changed when creating the actual instructor-led training event.
+![Add a classroom location using the single-field format](assets/add-classroom-location-single-field-format.jpeg)
+*Add a Classroom Location using the single-field format.*
+
+### Migrate Classroom Locations to the four-field format
+
+If your account uses the legacy single-field Classroom Location format, migrate your existing Classroom Locations before enabling the four-field format. The four-field format organizes location data into **Country**, **State/Province/Region**, **City**, and **Location Name**, making it easier to manage locations across multiple regions.
+
+This migration is a one-time process. After you switch to the four-field format, you cannot revert the account to the single-field format.
+
+To migrate existing locations:
+
+1. Navigate to **Admin** > **Classroom Locations** and select the **Settings** tab.
+1. Select **Export** in the **Location format migration** section.
+
+   A CSV file with your existing Classroom Locations is downloaded. The following columns are available:
+
+   1. **room_id**: Unique identifier for the location.
+   1. **locale**: Locale for the translated Location Name and Location Information.
+   1. **name**: Name of the classroom.
+   1. **country**: Country where the classroom is located.
+   1. **state**: State, province, or region where the classroom is located.
+   1. **city**: City where the classroom is located.
+   1. **info**: Additional details, such as building name, floor, or room number.
+   1. **url**: URL associated with the location, such as a map link.
+   1. **seatlimit**: Maximum seating capacity of the classroom.
+
+   >[!NOTE]
+   >
+   >The exported CSV always includes the four-field location format columns, even when the four-field format is not enabled.
+
+   ![Check migration progress](assets/location-format-migration-progress.png)
+
+   *Check migration progress before switching to the four-field location format.*
+
+1. For each column name, update the CSV file with the required information, such as Country, State, City, along with any other required information.
+1. Select **Import** and then upload the updated CSV file.
+
+   Adobe Learning Manager validates the data and updates the migration progress.
+
+1. When the migration progress bar reaches 100%, select **Switch to new 4-field format**. The **Location format migration** status updates to **Migration complete**.
+
+   ![Location format migration complete status](assets/location-format-migration-complete.png)
+
+   *Location format migration updates to the Migration complete status.*
+
+## Add Classroom Locations using a four-field format
+
+After completing the one-time migration, Administrators can create Classroom Locations in the four-field format. Authors can then reuse these locations when creating instructor-led training sessions. Administrators can add Classroom Locations individually or import multiple Classroom Locations from a CSV file.
+
+### Add a Classroom Location
+
+Use Classroom Locations to standardize training venues and simplify session scheduling for Authors.
+
+To add a Classroom Location:
+
+1. In the Admin app, select **Settings** > **Classroom Locations**.
+
+   ![All Locations tab](assets/all-locations-tab.png)
+
+   *Select the **All Locations** tab to add a Classroom Location.*
+
+1. Select **Add** > **New location** from the upper-right corner.
+
+   The **Classroom Location** pop-up window appears.
+
+   ![Classroom Location pop-up window](assets/classroom-location-popup-window.png)
+
+   *Enter the details in the Classroom Location pop-up window.*
+
+1. In the **Classroom Location** pop-up window, enter the following details:
+
+   |**Field**|**Description**|
+   |---|---|
+   |**Country**|Select the country where the classroom is located.|
+   |**State/Province/Region**|Select the state, province, or region.|
+   |**City**|Select the city where the classroom is located.|
+   |**Location Name**|Enter the name of the classroom or room.|
+   |**Location Information**|Enter additional details, such as the building name, floor, or room number.|
+   |**Location URL**|Enter a URL for the location, such as a map link.|
+   |**Seat Limit**|Enter the classroom's maximum seating capacity.|
+
+1. Select **Save**.
+
+   The Classroom Location is saved and listed in the **All Locations** tab.
+
+### Import Classroom Locations in bulk
+
+Use bulk import to add multiple Classroom Locations or update existing locations using a CSV file.
+
+To import Classroom Locations in bulk:
+
+1. In the Admin app, select **Settings** > **Classroom Locations**.
+1. Select **Download CSV** from the **All Locations** tab.
+
+   A CSV file containing your existing Classroom Locations is downloaded. The following columns are available:
+
+   1. **room_id**: Unique identifier for the location.
+   1. **locale**: Locale for the translated Location Name and Location Information.
+   1. **name**: Name of the classroom.
+   1. **country**: Country where the classroom is located.
+   1. **state**: State, province, or region where the classroom is located.
+   1. **city**: City where the classroom is located.
+   1. **info**: Additional details, such as building name, floor, or room number.
+   1. **url**: URL associated with the location, such as a map link.
+   1. **seatlimit**: Maximum seating capacity of the classroom.
+
+1. For each column name, update the CSV file with the required information, such as Country, State, City, along with any other required information.
+1. Select **Add** > **Bulk Import locations** from the upper-right corner.
+
+   The **Import Locations CSV** pop-up window appears.
+
+   ![Import Locations CSV pop-up window](assets/import-locations-csv-popup.png)
+
+   *Drag and drop the CSV with the updated information.*
+
+1. Drag and drop the updated CSV file into the upload area.
+1. Select **Import**.
+
+   The Classroom Locations are updated.
+
+## Add translations for a Classroom Location
+
+Add translations for the **Location Name** and **Location Information** fields to display Classroom Location details in learner's preferred languages.
+
+To add translations for a Classroom Location:
+
+1. Select **All Locations** > **Add** from the **Classroom Locations**.
+1. Select **New Location**.
+
+   The **Classroom Location** pop-up window appears.
+
+1. Select **Add New Language**.
+
+   The **Add New Language** pop-up window appears.
+
+   ![Add New Language pop-up window](assets/add-new-language-popup.png)
+
+   *Select the languages from the Add New Language pop-up window.*
+
+1. Select **Save**.
+
+   The translations are saved and displayed to users.
+
+>[!NOTE]
+>
+>Only the **Location Name** and **Location Information** fields support translations. Location details such as **Country**, **State/Province/Region**, and **City** are not translated.
+
+## Edit a Classroom Location
+
+To edit a Classroom Location, follow these steps:
+
+1. In the Admin app, select **Settings** > **Classroom Locations**.
+1. Hover over the desired Classroom Location you want to edit.
+
+   ![Edit icon for a Classroom Location](assets/edit-classroom-location-icon.png)
+
+   *Hover over the required Classroom Location and select the edit icon.*
+
+1. Select the **Edit Classroom Location** icon.
+
+   The Classroom Location pop-up window appears.
+
+1. Modify the Classroom Location and select **Save**.
+
+## Delete a Classroom Location
+
+To delete a Classroom Location, follow these steps:
+
+1. In the Admin app, select **Settings** > **Classroom Locations**.
+1. Hover over the desired Classroom Location you want to delete.
+1. Select the **Delete Classroom Location** icon.
+
+   The Confirmation Required pop-up window appears.
+
+   ![Confirmation Required pop-up window](assets/delete-classroom-location-confirmation.png)
+
+   *Select Delete to confirm the deletion of a Classroom Location.*
+
+1. Select **Delete**.
+
+## Frequently asked questions
+
+1. **What happens to existing Classroom Locations after the migration is complete?**<br>
+You can enable the four-field location format only after all existing locations have been migrated, either manually or through a CSV upload. Once the four-field format is enabled, all existing courses that use Classroom Locations display locations in the new format.
+
+1. **Do I need to manually restructure the exported CSV to match the four-field location format?**<br>
+No. The exported CSV file always uses the four-field location format, regardless of whether it is currently enabled. You only need to update any missing values before importing the file.
+
+1. **Does the migration affect Adobe Learning Manager reports?**<br>
+Yes. After migration, reports that include Classroom Location information display locations in the following format:
+
+   **Country > State/Province/Region > City > Location Name**
+
+   This format replaces the previous single-field location value.
+
+1. **What happens if I do not enable the four-field location format?**<br>
+Nothing changes for Authors or learners. Classroom Locations continue to appear and function as they do today, using the existing single-field format until an Administrator completes the migration and enables the four-field format.

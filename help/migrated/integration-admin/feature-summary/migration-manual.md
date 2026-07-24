@@ -1050,3 +1050,213 @@ Troubleshoot common migration errors
 | Session row fails with metadata error | Check that all JSON key names in the `metadata` field use exact camelCase. Keys are case-sensitive. |
 | Teams `isCompletionCriteria` has no effect | The completion criteria feature flag for Teams must be enabled by your ALM account admin before migration values take effect. |
 | Session row created but instructor field is empty | If the instructor email provided does not match a user in ALM, the session is created with an empty instructor field. Verify the instructor email exists in ALM before uploading. |
+
+## Migrate LTI modules {#migrationofltimodules}
+
+### Overview
+
+LTI migration extends the existing migration workflow and does not require additional migration files. Existing course, module, and module association records continue to use the standard migration format. LTI-specific information is supplied through the module version data.
+
+### Use files for LTI migration
+
+LTI modules are migrated using the standard migration files.
+
+The following files continue to use the existing migration format:
+
+* course.csv
+* module.csv
+* course_module.csv
+
+No LTI-specific fields are required in these files. LTI-specific settings are configured in the `module_version.csv` file.
+
+### Configure an LTI module version
+
+Use the `module_version.csv` file to define the properties of an LTI module version.
+
+In addition to the existing fields supported in `module_version.csv`, Adobe Learning Manager supports LTI-specific values and attributes.
+
+#### contentType
+
+Use the value `LTI` in the `contentType` field to identify the module version as an LTI module.
+
+*Field and value used to identify an LTI module version*
+
+| **Field**   | **Value** |
+|-------------|-----------|
+| contentType | LTI       |
+
+#### ltiLaunchUrl
+
+Specifies the launch URL of the external LTI provider.
+
+When a learner launches the module in Adobe Learning Manager, the learner is redirected to the configured LTI endpoint.
+
+*Field used to specify the external LTI provider's launch URL*
+
+| **Field**    | **Description**                                  |
+|--------------|--------------------------------------------------|
+| ltiLaunchUrl | Launch URL provided by the external LTI platform |
+
+#### ltiCustomParams
+
+Specifies custom launch parameters that are passed to the LTI provider during launch.
+
+Use this field when the external platform requires additional launch context or configuration parameters.
+
+*Field used to pass custom launch parameters to the LTI provider*
+
+| **Field**       | **Description**                                            |
+|-----------------|------------------------------------------------------------|
+| ltiCustomParams | Custom parameters passed to the LTI platform during launch |
+
+#### tpName
+
+Specifies the name of the third-party LTI provider associated with the module.
+
+*Field used to identify the third-party LTI provider*
+
+| **Field** | **Description**                                                 |
+|-----------|-----------------------------------------------------------------|
+| tpName    | Name of the third-party LTI provider associated with the module |
+
+### Sample LTI module version
+
+The following example shows a module version record configured for an LTI module:
+
+```csv
+moduleId,moduleVersion,contentType,dateCreated,duration,desiredDuration,contentUrl,hasQuiz,ltiLaunchUrl,ltiCustomParams,tpName
+2024101905,1,LTI,2024-10-19T09:55:21.123Z,60,60,,,https://m42almintegrationsv01.moodlecloud.com/enrol/lti/launch.php,"id=8600f9a1-256f-4a0c-bcfc-36377eba8ae1
+param=1",DND_Moodle_isProducer
+```
+
+In this example:
+
+* The module version is identified as an LTI module through the `contentType=LTI` value.
+* The launch URL points to the external LTI provider.
+* Custom launch parameters are supplied through `ltiCustomParams`.
+* The provider is identified through the `tpName` field.
+
+### Migrate an LTI module
+
+To migrate an LTI module:
+
+1. Create the course record in `course.csv`.
+2. Create the module record in `module.csv`.
+3. Associate the course and module in `course_module.csv`.
+4. Add the module version details in `module_version.csv`.
+5. Set the `contentType` value to `LTI`.
+6. Provide the LTI launch URL and any optional launch parameters.
+7. Run the migration sprint.
+
+The migration framework processes the LTI module as part of the standard migration workflow.
+
+### Validate LTI module versions
+
+When creating LTI module versions:
+
+* Use the value `LTI` for the `contentType` field.
+* Provide a valid launch URL in the `ltiLaunchUrl` field.
+* Specify the external provider name in the `tpName` field.
+* Ensure that the module is associated with a course through the standard migration files.
+* Continue to follow all existing module version migration requirements and validation rules documented for `module_version.csv`.
+
+The migration system applies the standard migration processing workflow in addition to the LTI-specific fields.
+
+## Migrate adaptive courses
+
+If you are migrating courses from an external system into Adobe Learning Manager and want them configured as adaptive courses with module-level visibility and completion rules per user group, you can use two CSV files to define both the courses and their adaptive rules.
+
+### What you need to migrate
+
+Migrating an adaptive course requires two changes to your standard migration CSV package:
+
+* **An update to** _course.csv_: a new column that marks a course as adaptive
+* **A new file,** _course_module_user_group.csv_: one row per module-to-user-group rule
+
+Both files must be included in the same migration project.
+
+### Update course.csv
+
+Add the isAdaptive column to your course.csv file.
+
+| **Column** | **Values** | **Description** |
+| --- | --- | --- |
+| isAdaptive | true or blank | Set to true for adaptive courses. Leave blank or set to false for regular courses. |
+
+All other course.csv columns remain unchanged.
+
+**Example column order:**
+
+* id
+* courseName
+* description
+* courseCreationDate
+* state
+* sequential
+* author
+* thumbnailUrl
+* tags
+* isAdaptive
+
+>[!NOTE]
+>
+>The isAdaptive column is optional for regular courses. If omitted or left blank, the course is treated as a regular course.
+
+### Add course_module_user_group.csv
+
+This is a new CSV file that defines the adaptive visibility and completion rules for each module in each adaptive course. Each row maps one module to one user group with a rule type.
+
+| **Column** | **Description** |
+| --- | --- |
+| courseId | The source identifier of the course (must match the id in course.csv) |
+| moduleId | The source identifier of the module (must match the module identifier in your module files) |
+| userGroupId | The Adobe Learning Manager ID of the user group this rule applies to |
+| type | MANDATORY — the user group must complete this module for course completion. OPTIONAL — the user group can see and access this module but is not required to complete it. |
+| operation | ADD- create or update this rule. DELETE- remove this rule. |
+
+**Example column order:**
+
+* courseId
+* moduleId
+* userGroupId
+* type
+* operation
+
+### Rules for the file
+
+* Every content module in an adaptive course must have at least one row in this file. A module with no rules is not visible to any learner.
+* Pre-work modules and test-out modules do not require rules. They are automatically applied to all enrolled learners and should not appear in this file.
+* You can have multiple rows for the same module. One per user group.
+* If you submit an ADD row for a rule that already exists in the system, the existing rule is updated rather than creating a duplicate.
+
+### Upload order
+
+The files in your migration project must be uploaded and processed in the following order. Later files depend on data created by earlier files and will fail if the order is not followed.
+
+* **module.csv**: Define the modules
+* **module_version.csv**: Define the module versions
+* **course.csv**: (with isAdaptive=true for adaptive courses) - Create the courses
+* **course_module.csv**: Link modules to courses
+* **course_module_user_group.csv**: Apply adaptive visibility and completion rules
+
+Download the migration files here: [Adaptive courses migration files](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
+
+>[!IMPORTANT]
+>
+>**course_module_user_group.csv** must be uploaded last. The rules in this file reference both a course and a module that must already be linked to step 4 before the rules can be applied.
+
+### Validation and error reference
+
+Adobe Learning Manager validates every row in course_module_user_group.csv before applying the rules. Any row that fails validation is rejected with an error message. The remaining valid rows are still processed.
+
+| **Scenario** | **What happens** | **Error message** |
+| --- | --- | --- |
+| Rules provided for a course that is not marked as adaptive | Row rejected | Course must be adaptive to have content visibility rules. Course ID: {courseId} |
+| Course marked as adaptive but no rules provided for any of its content modules | Course rejected | Adaptive course must have at least one visibility rule for each content module. Course ID: {courseId} has no rules for module(s): {moduleIds} |
+| The module is not linked to the course | Row rejected | Module {moduleId} is not linked to course {courseId}. Add the module to the course via course_module.csv first. |
+| The module is a pre-work or test-out module (not a content module) | Row rejected | Visibility rules only apply to content type modules. Module {moduleId} has type {actualType}. |
+| The user group does not exist or is inactive | Row rejected | User group {userGroupId} not found or inactive. |
+| The type value is not MANDATORY or OPTIONAL | Row rejected | Invalid type '{type}'. Must be MANDATORY or OPTIONAL. |
+| The operation value is not ADD or DELETE | Row rejected | Invalid operation '{operation}'. Must be ADD or DELETE. |
+| ADD submitted for a rule that already exists | Rule updated silently | No error — the existing rule is updated with the new type value. |
+

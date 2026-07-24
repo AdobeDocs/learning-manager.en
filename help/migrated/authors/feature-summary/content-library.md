@@ -122,9 +122,15 @@ The table below shows the type of interactive and static file types that you can
  </tbody>
 </table>
 
+## Preview the course content {#previewcontentlibrary}
+
+You can preview the course content once it is added to the Content Library. To preview, select the eye icon at the end of respective course's row.
+
+![](assets/preview-content-library.png)
+
 ## Add new content in the library {#addnewcontentinthelibrary}
 
-**Authors** can add contents in ALM. There are two types of contents in ALM: **[!UICONTROL Content]** and **[!UICONTROL Quiz]**. To learn how to add contents see [Add static content](content-library.md#addstaticcontent) and [Create a quiz](content-library.md##createaquiz).
+**Authors** can add contents in ALM. There are two types of contents in ALM: **[!UICONTROL Content]** and **[!UICONTROL Quiz]**. To learn how to add contents see [Add static content](content-library.md#addstaticcontent) and [Create a quiz](content-library.md#createaquiz).
 
 ## Add static content {#addstaticcontent}
 
@@ -419,9 +425,78 @@ It's a list that displays the authors who've created content and uploaded it in 
 
 This is available **only** when an Administrator creates a new folder.
 
+### Add content to a folder
+
+When you upload new content, you choose which folder to store it in during the upload process.
+
+1. Sign in as an author and navigate to **Manage** > **Content Library**, or select **Create Content** from the home page.
+
+2. Select **Add** > **Content** in the upper-right corner of the page.
+
+3. Enter a name and description for the content.
+
+4. Under **Add Content File**, drag and drop the content file, or select the field to browse and upload.
+![](assets/cl2.png)
+
+5. Under **Add to Folder**, select **Browse folders** and navigate to the folder where you want to store the content. Select the folder to confirm.
+![](assets/cl3.png)
+
+6. Select **Add**.
+
+7. Complete the remaining fields, **Duration**, **Tags**, **Content Unique ID**, and **Expiry Date**, as required.
+
+8. Select **Save**. The content file is added to the Content Library and appears at the top of the list.
+![](assets/cl4.png)
+
+>[!NOTE]
+>
+>You cannot copy or move content between the public and private folders. If you attempt to do so, Adobe Learning Manager displays an error.
+
+
+## View folder paths in the Content Library
+
+In the **Content Library**, each content file shows its complete folder path, for example, **Sales Training** > **Self-Paced Modules** > **PDF Assets**. This path tells you exactly where the file lives in the hierarchy.
+
+* If a file exists in more than one folder, all paths appear separated by commas.
+
+* If a path is long, it is truncated from the beginning with an ellipsis (…), and the deepest folder name is always shown.
+
+* Published, retired, and draft content all appear in the Content Library and show their folder paths.
+
+![](assets/cl1.png)
+
+## Filter content by folder
+
+The **Folders** filter in the Content Library lets you narrow the list to show only content stored in specific folders.
+
+1. In the **Content Library**, select the **Folders** dropdown in the column header.
+![](assets/cl5.png)
+The dropdown shows the public folder and a list of private folders. Public and private folders cannot be selected simultaneously. Selecting one deselects the other.
+
+2. To filter by a specific private folder:
+   * Selecting a **Level 1 folder** automatically selects all Level 2 and Level 3 subfolders under it. These subfolders appear as selected but cannot be deselected individually. The filter returns all content in the Level 1 folder and its subfolders.
+   * Selecting a **Level 2 folder** automatically selects all Level 3 subfolders under it.
+   ![](assets/cl6.png)
+
+3. Use the dropdown search box to find a folder by name.
+
+4. You can select up to **25 folders** at a time. Selecting more than 25 displays an error.
+
 ## Move content to folder {#movecontenttofolder}
 
-To move a public folder content to any private folder, 
+Moving content removes it from its current folder and places it in the destination folder.
+
+1. In the **Content Library**, select the checkbox next to each content file you want to move.
+2. Select **Actions** > **Organize Content** > **Move Content to Folder**. The **Move content to folder** panel opens.
+3. Select the destination folder where you want to move the content.
+4. Select **Move content**. The Content Library updates to show the new folder path.
+
+>[!NOTE]
+>
+>You cannot move content from a private folder to the public folder, or from the public folder to a private folder.
+
+
+<!--
 
 1. Select **Public** folder from the **All Folders** drop-down list.
 
@@ -436,14 +511,28 @@ To move a public folder content to any private folder,
    *Move a selected content to folder*
 
 1. Choose the folder where you want to move the content to. Click **[!UICONTROL Move]**.
+-->
 
 ## Copy content to folder {#copycontenttofolder}
 
+Copying creates a link to the content in an additional folder without removing it from its current location. The content file itself is not duplicated.
+
+1. In the **Content Library**, select the checkbox next to each content file you want to copy.
+2. Select **Actions** > **Organize Content** > **Copy Content to Folder**. The **Copy content to folder** panel opens, showing the folder hierarchy.
+3. Select the destination folder or folders where you want the content to appear.
+4. Select **Copy content**. The Content Library updates to show the new folder paths for the copied content.
+
+>[!NOTE]
+>
+>You cannot copy content from a private folder to the public folder, or from the public folder to a private folder.
+
+<!--
 Copying a folder means that you'd be adding a tag to the folder. The copy operation will not create copies of content, but only add an association with specified folders.
 
 ![](assets/copy-content-to-folder.png)
 
 *Copy a folder*
+-->
 
 ## Unlink folder {#unlinkfolder}
 
@@ -458,6 +547,26 @@ Content can be unlinked from a specified folder **ONLY** if it is also associate
 ![](assets/unlink-a-folder.png)
 
 *Unlink a folder*
+
+## Add a module to a course by browsing folders
+
+When adding a self-paced module to a course, you can browse the folder hierarchy to locate the right content file instead of searching by name.
+
+1. Sign in as an author and navigate to **Courses** in the left navigation.
+
+2. Select **Add** to create a new course or open an existing course in edit mode.
+
+3. Navigate to the **Modules** section and select **Content** > **Add modules**.
+
+4. In the **Select Module Type** dialog, select **Self-Paced** as the module type. The **Self-Paced Module** dialog opens.
+
+5. Select **Browse folders** to open the folder hierarchy.
+
+6. Navigate through the folder levels to locate the module you want to add. Select the content file.
+
+7. Select **Add**. The module is added to the course.
+
+8. Complete any remaining course fields and select **Save**.
 
 ## Add content for different languages {#addcontentfordifferentlanguages}
 

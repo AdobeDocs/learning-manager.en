@@ -64,3 +64,18 @@ The mobile fluidic player has the following functions:
 * If the navigation bar is not interacted with, it will disappear after 3 seconds.
 * The navigation bar will stay active until the navigation menu items (TOC, Notes, Settings) are closed.
 
+**Support for 11 languages**: The fluidic player supports 11 languages. They are:
+
+| Language | Territory | IBM Identifier |
+|---|---|---|
+| Arabic | Saudi Arabia | ar-SA |
+| Chinese-traditional | Hong Kong S.A.R. of China | zh-Hant-HK |
+| Chinese-traditional | Taiwan | zh-Hant-TW |
+| Czech | Czech Republic | cs-CZ |
+| Danish | Denmark | da-DK |
+| Hebrew | Israel | he-IL |
+| Hungarian | Hungary | hu-HU |
+| Indonesian | Indonesia | id-ID |
+| Romanian | Romania | ro-RO |
+| Thai | Thailand | th-TH |
+| Ukrainian | Ukraine | uk-UA |

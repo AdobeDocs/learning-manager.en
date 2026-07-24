@@ -9,6 +9,10 @@ exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
 
 This feature helps you define custom roles and assign specific responsibilities to set of users. This feature enables you to assign responsibilities outside the purview of the individual's existing role.
 
+Adobe Learning Manager allows full administrators to delegate custom role management responsibilities to trusted custom administrators, including creating, editing, and assigning custom roles, without giving them full administrator credentials. This capability allows custom admins to manage other roles without overburdening admins with duties. This is controlled through the **Advanced** permission level under the **Users** section of a custom role definition. See [What the Advanced user permission unlocks](#advanced-user) for more information.
+
+Organizations use this capability to delegate routine role management to designated custom administrators. For example, to allow a dedicated team to create and assign publisher or author roles on an ongoing basis, or to allow an operations team to clean up accounts of users who have left the organization. This avoids the need to give those teams full administrator access, which carries broader privileges than their responsibilities require.
+
 You can create a custom role to provide authoring capabilities limited to a particular catalog. You can also create a role dedicated to manage reporting. Such roles can then be assigned to individuals who are supposed to take up these specific responsibilities.
 
 >[!NOTE]
@@ -276,6 +280,207 @@ _Filter custom roles_
 
    * A custom admin having permission to  Settings will be able to configure the schedule for sync or sync users from Data-source even if they don't have permission to the Users entity.
    * If a custom admin has permission on the Users entity, they can assign administrator role to themselves and become a standard administrator.
+
+## <a id="advanced-user"></a>What the Advanced user permission unlocks {#whatadvanceduserpermissionunlocks}
+
+When a full administrator enables **Advanced** access under **Users** in a custom role, the custom administrator gains access to four additional sections: **Custom Roles**, **Import Logs**, **Active Fields**, and **User Cleanup**.
+
+Two access levels are available:
+
+* **Read Only**: the custom administrator can view information and download reports, but cannot make changes.
+* **Full Control**: the custom administrator can create, edit, and delete custom roles, import users, and purge deleted users.
+
+### Permission and scope inheritance
+
+When a custom administrator creates a new custom role or modifies an existing one, the permissions and scope they can assign are limited to what they themselves hold. A custom administrator cannot grant a role permissions that exceed their own, and cannot extend a role's scope beyond their own assigned scope.
+
+This means a custom administrator with access to a specific catalog can only create roles scoped to that catalog or a subset of it. Similarly, they can only assign permissions they personally hold to the roles they create.
+
+When assigning users to a role you have created, you can search and add any user in the account. User-related permissions in custom roles always apply to the full user group scope and full catalog scope. User group or catalog scoping does not apply when a custom role includes user management permissions.
+
+If a full administrator reduces your scope or removes a permission from your role, any roles you have previously created are not immediately affected. Those roles continue to operate with their existing permissions until a full administrator opens and saves each one individually.
+
+## Grant Advanced user permissions to a custom role
+
+Full administrators complete this procedure to enable expanded user management for a custom role.
+
+1. Sign in to Adobe Learning Manager as an administrator.
+2. Select **Users** in the left navigation, then select **Custom Roles**.
+3. Select **Create Custom Role** to create a new role, or select an existing role to edit it.
+4. Under **Account Privileges**, locate the **Users** section.
+5. In the **Advanced Users** section, select **Read Only** or **Full Control** based on the required level of access.
+6. Add users to the role in the **Users** section.
+7. Select **Save**.
+
+The assigned users can now access the **Custom Roles**, **Active Fields**, **Import Logs**, and **User Cleanup** sections upon signing in.
+
+## What custom administrators can do with Read Only access
+
+### Import Logs
+
+Custom administrators with Read Only access can view all import logs in the account. The **Add** button is not available. No new imports can be initiated.
+
+### User Cleanup
+
+The **User Cleanup** section is available in view-only mode. Custom administrators can:
+
+* View the list of deleted users
+* Search for specific users
+* Filter deleted users by deletion month
+* View other users in the account
+
+No actions, such as purging, are available under **Read Only** access.
+
+### Custom Roles
+
+Custom administrators can view all custom role definitions in the account, including their assigned permissions and user lists. They can download the custom roles report. They cannot edit, create, or delete any role.
+
+## What custom administrators can do with Full Control access
+
+**Import Logs**
+
+Custom administrators with Full Control can view all logs and add or import new users via CSV.
+
+**User Cleanup**
+
+Full Control gives access to all user cleanup actions:
+
+* View, search, and filter deleted users by deletion month
+* Select individual users or select all
+* Purge deleted users from the system
+* Search for and purge other users
+
+**Custom Roles**
+
+Custom administrators with Full Control can:
+
+* Create new custom roles, with permissions equal to or less than their own
+* Edit existing custom roles
+* Delete custom roles
+* Assign users to custom roles
+* Remove users from custom roles
+* Download the custom roles report
+* Filter the roles list by **All**, **Created from UI**, or **Created from CSV**
+
+>[!NOTE]
+>
+>Custom administrators cannot add themselves to another role, and also cannot edit their own role with higher permissions.
+
+>[!IMPORTANT]
+>
+>Roles created by a custom administrator can include Custom Roles access, including the Advanced user permission that enables Custom Roles management. This means a custom administrator with Full Control can create roles that grant other users the same Custom Roles capabilities they hold. The permissions available during role creation are still subject to the standard delegation model. The custom administrator can only assign permissions they personally hold, unless the account has expanded role administration enabled.
+
+### Example - Creating scoped roles as a custom administrator
+
+A full administrator grants a custom administrator Full Control with access to two product catalogs. The custom administrator then:
+
+1. Creates a publisher role scoped to the first catalog and assigns authors to it
+1. Creates a second publisher role scoped to the second catalog and assigns a different set of authors
+1. Assigns new authors, who join the team, to the appropriate role without involving the full administrator
+
+Each role the custom administrator creates inherits a subset of the custom administrator's permissions. The authors assigned to these roles can access and publish content in their respective catalogs. They cannot manage custom roles themselves, because the Custom Roles section is not available in roles created by custom administrators.
+
+## Comparison of capabilities
+
+|Section|Read Only|Full Control|
+|---|---|---|
+|Import Logs: view logs|✓|✓|
+|Import Logs: add or import users via CSV|—|✓|
+|User Cleanup: view deleted users, search, filter|✓|✓|
+|User Cleanup: purge deleted users|—|✓|
+|Custom Roles: view all roles and definitions|✓|✓|
+|Custom Roles: download custom roles report|✓|✓|
+|Custom Roles: create, edit, and delete roles|—|✓|
+|Custom Roles: assign and remove users|—|✓|
+
+## Backward compatibility
+
+If an account has existing custom roles with **Advanced** access enabled, those roles automatically include access to Import Logs when your account is updated. If Advanced access is currently disabled on a role, there is no change. The role continues to behave as before.
+
+>[!NOTE]
+>
+>If Advanced access options are enabled for users, review which roles have this privilege and confirm that those roles are intended to retain it.
+
+## Audit trail for custom role changes
+
+All changes to custom roles, including creation, editing, deletion, and user assignment, are recorded in the custom roles audit report. The audit report now shows the name of the custom role responsible for each change, rather than a generic administrator label. No configuration is required to enable this behavior.
+
+Full administrators can access the audit report from the **Reports** section.
+
+## Real-world use cases
+
+### Role management team
+
+A large organization has a dedicated team responsible for creating and assigning content author roles across dozens of product catalogs. Previously, every new role required a full administrator to create it. With Full Control access, the role management team can create publisher and author roles scoped to specific catalogs, assign new authors, and manage those roles independently, without any full administrator involvement for routine operations.
+
+### HR operations and user lifecycle management
+
+An HR operations team is responsible for cleaning up accounts when employees leave the organization. They need to purge deleted users regularly but should not have access to course content, learner data, or system settings. Granting Advanced Full Control access, scoped only to user management, gives the HR team the specific access they need for user cleanup and import without exposing any other administrative functions.
+
+### Compliance and audit team
+
+An internal audit team needs to periodically review which custom roles exist, what permissions they include, and who holds each role. With Read Only access, the audit team can view all role definitions and download the custom roles report for review, but cannot modify anything.
+
+## What custom administrators can do
+
+The following procedures apply to custom administrators with **Full Control** access. Sign in as a custom administrator and navigate to **Users** > **Custom Roles** to start with.
+
+### Review existing custom roles
+
+1. Select **Users** > **Custom Roles**.
+1. Use the filter dropdown to narrow the list:
+
+   * **All**: every role in the account
+   * **Created from UI**: roles created manually
+   * **Created from CSV**: roles imported via CSV
+
+1. Select a role name to open its full definition, including permissions, scope, and assigned users.
+
+### Create a new custom role
+
+1. Select **Users** > **Custom Roles**, then select **Create Role**.
+1. Enter a name for the role.
+1. Under **Account Privileges**, configure the permissions. Only permissions within your own scope are available for selection. Permissions outside your scope appear disabled.
+1. Set the catalog and user group scope for the role.
+1. In the **Users** section, search for and add the users who will hold this role.
+1. Select **Save**.
+
+>[!NOTE]
+>
+>You cannot add yourself to a role you create, and you cannot create a role with permissions that exceed your own. If a permission is disabled during role creation, it is outside your current scope.
+
+### Edit a custom role
+
+1. Select **Users** > **Custom Roles** and open the role you want to update.
+1. Select **Edit**.
+1. Update the name, permissions, scope, or user assignments as needed.
+1. Select **Save**.
+
+>[!NOTE]
+>
+>You cannot edit the permissions of your own custom role. Contact a full administrator if changes to your own role are required.
+
+### Assign users to a custom role
+
+1. Open the custom role from **Users** > **Custom Roles**.
+1. In the **Users** section, search for the user you want to add.
+1. Select the user to add them to the role.
+1. Select **Save**.
+
+### Remove users from a custom role
+
+1. Open the custom role from **Users** > **Custom Roles**.
+1. In the **Users** section, locate the user you want to remove.
+1. Select the remove action next to their name.
+1. Select **Save**.
+
+### Purge deleted users
+
+1. Select **Users** in the left navigation.
+1. Select **User Cleanup**.
+1. Use the search field or the deletion month filter to locate the users you want to remove.
+1. Select the checkbox next to individual users, or select **Select all** to select all results.
+1. Select **Actions** > **Purge User**.
 
 ## Assign multiple custom roles to a user
 
@@ -650,12 +855,29 @@ If an Administrator changes the level points, the reports show levels according 
 
 Resetting gamification does not reset the level achieved date.
 
-## Frequently Asked Questions {#frequentlyaskedquestions}
+## Frequently asked questions
 
-+++How to create a Custom Role?
+**What happens if a full administrator removes a permission from my custom role?**
 
-A Custom Role is like a subset of an Author or Administrator role. Allow one or multiple privileges, define the scope, and assign the role to a user.
+Your role retains its existing permissions until the next time a full administrator opens and saves your role definition. The change does not take effect immediately. Your current permissions remain in place until your role is explicitly edited and saved.
 
-Click **[!UICONTROL Users]** > **[!UICONTROL Custom Roles]**. In the Custom Roles page, click **[!UICONTROL Create Role]**. Enter the name of the custom role and set the privileges for the role. For more information, see [Create a custom role](custom-role.md#create-role).
-+++
+**Can I grant role catalog access to catalogs I cannot access?**
+
+No. The scope of any role you create is limited to the catalogs and user groups within your own scope. You cannot create a role with broader access than you yourself hold, unless your administrator has configured your account to allow expanded role administration.
+
+**What is the difference between Read Only and Full Control?**
+
+**Read Only** gives you the ability to view **Custom Roles**, Active Fields, **Import Logs**, and **User Cleanup**. You can browse, search, and download reports, but cannot take any action. **Full Control** gives you all of those capabilities plus the ability to create, edit, and delete roles, import users via CSV, assign and remove users from roles, and purge deleted users.
+
+**Can I give a role I create the same permissions I have?**
+
+Yes. You can assign any permissions you personally hold to the roles you create. You cannot exceed your own permission set, but you can create roles with the same level of access you have, or any subset of it.
+
+**Does the audit trail show who I am when I make changes?**
+
+Yes. The audit report lists your custom role as the source of each change. This means full administrators can see which custom role made any given change to the system.
+
+**What happens to existing roles when this feature is enabled for the account?**
+
+Existing custom roles with **Advanced** access already enabled automatically gain access to **Import Logs**. All other existing behavior is unchanged. Roles that do not have Advanced access enabled are unaffected.
 

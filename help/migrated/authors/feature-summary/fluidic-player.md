@@ -22,3 +22,21 @@ While creating the courses, authors have an option to preview the course.
 **Navigation buttons** You can click up/down arrows to move across slides in pdf, docx and pptx content. Slide arrows can be used to move to next topics for all types of content.
 
 **Close the course** Click close (x) icon at the upper-right corner of the player to exit the course.
+
+## Support for 11 languages
+
+The fluidic player supports 11 languages. They are:
+
+| Language | Territory | IBM Identifier |
+|---|---|---|
+| Arabic | Saudi Arabia | ar-SA |
+| Chinese-traditional | Hong Kong S.A.R. of China | zh-Hant-HK |
+| Chinese-traditional | Taiwan | zh-Hant-TW |
+| Czech | Czech Republic | cs-CZ |
+| Danish | Denmark | da-DK |
+| Hebrew | Israel | he-IL |
+| Hungarian | Hungary | hu-HU |
+| Indonesian | Indonesia | id-ID |
+| Romanian | Romania | ro-RO |
+| Thai | Thailand | th-TH |
+| Ukrainian | Ukraine | uk-UA |

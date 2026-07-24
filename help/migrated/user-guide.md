@@ -29,7 +29,7 @@ Visit the [Adobe Learning Manager User Community](https://community.adobe.com/t5
     <a href="system-requirements.md">
     <img alt="system requirements" src="assets/prime-reqs.jpeg">
     </a>
-    <a href="whats-new.md"><strong>System requirements </strong></a>
+    <a href="system-requirements.md"><strong>System requirements</strong></a>
     </p>
    </td>
    <td>
