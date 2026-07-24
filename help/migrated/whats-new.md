@@ -192,20 +192,19 @@ Classroom Locations now support a structured **four-field location format**, inc
 
 For more information, see [Classroom locations](/help/migrated/administrators/feature-summary/classroom.md).
 
-### Live Hub
+## Live Hub
 
 Live Hub is an AI-powered virtual training experience within Adobe Learning Manager that helps organizations deliver engaging and impactful live learning. With intelligent features such as AI-powered polls, breakout room orchestration, persistent learning spaces, and AI-powered assistance, Live Hub supercharges Instructor productivity while reducing the complexity of session delivery.
 
 Key highlights:
 
-- Elevate live learning with a native Adobe Learning Manager experience that improves instructional quality and Learner outcomes.
+- Elevate live learning with a native Adobe Learning Manager experience that improves instructional quality and learner outcomes.
 - Give your Instructors an AI-powered co-facilitator that drives engagement through intelligent polls, Q&A support, and breakout room insights.
 - Help your learners get more from every session with AI-generated summaries and session recordings searchable by topics.
 - Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
 - Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
 
-
-### Adobe Learning Manager Content Composer
+## Adobe Learning Manager Content Composer
 
 Adobe Learning Manager Content Composer is an upcoming AI course authoring tool in Adobe Learning Manager that helps you create a publish-ready course in no time.
 
