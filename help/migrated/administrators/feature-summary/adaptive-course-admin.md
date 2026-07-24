@@ -77,7 +77,16 @@ Adaptive rules apply only to **content modules**. The following apply to all enr
 
 - **Pre-work modules:** Shown to all learners before the core content begins.
 - **Test-out modules:** Available to all learners; completing a test-out completes the course regardless of content module status.
-- **Job aids and resources:** Visible to all enrolled learners at all times.
+- **Prerequisites:** If a course has prerequisites configured, all learners must satisfy those prerequisites before enrolling, regardless of their user group. Prerequisites are not adaptive and cannot be scoped to specific user groups.
+
+Job aids and resources attached to the course are also not adaptive. They are visible to all enrolled learners.
+
+Skills, gamification points, and badges are awarded based on the learner's first course completion and are not affected by re-completions resulting from profile changes.
+
+>[!NOTE]
+>
+>When an adaptive course is a part of a higher order LO that is externally shared, the adaptive course will be copied as a regular course in the child account.
+
 
 ## Feature availability
 
