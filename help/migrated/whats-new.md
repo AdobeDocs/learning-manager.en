@@ -209,18 +209,6 @@ For more information, see [Classroom Locations](/help/migrated/administrators/fe
 
 Adobe Learning Manager Content Composer is an upcoming AI course authoring tool in Adobe Learning Manager that helps you create a publish-ready course in no time.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
->[!NOTE]
->
->Adobe Learning Manager Content Composer is currently in beta and will be available with the upcoming **August release** of Adobe Learning Manager. The documentation for ALM Content Composer will be available once the feature is released.
-=======
-A conversational AI assistant will guide you through the entire process- Prompt, Brief, Outline, and Course, so you stay in control at every step, reviewing and refining before moving forward. You'll be able to ground content in your own source documents, apply instant course theming, and share or export finished courses via SCORM or direct publishing to Adobe Learning Manager.
->>>>>>> b9dafa140601d71d62f68056d3403a1be0c77eb3
-=======
-A conversational AI assistant will guide you through the entire process- Prompt, Brief, Outline, and Course, so you stay in control at every step, reviewing and refining before moving forward. You'll be able to ground content in your own source documents, apply instant course theming, and share or export finished courses via SCORM or direct publishing to Adobe Learning Manager.
->>>>>>> b9dafa140601d71d62f68056d3403a1be0c77eb3
-
 ## Reporting changes in the release
 
 Learn more about the [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
