@@ -95,6 +95,11 @@ Key highlights:
 * Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
 * Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
 
+>[!NOTE]
+>
+>Live Hub is currently in Beta and will be available with the upcoming August release of Adobe Learning Manager. The documentation for Live Hub will be available once the feature is released.
+
+
 ## Component-based email template builder
 
 Organizations can now create enterprise-grade, branded email notifications in Adobe Learning Manager using a modern WYSIWYG component editor. Administrators can build a global layout once, with a reusable header, footer, and brand elements, and apply it across all email templates at the account level. Individual templates can then be customized at the course or instance level, inheriting the parent layout by default and overriding it only when needed.
@@ -208,6 +213,8 @@ For more information, see [Classroom Locations](/help/migrated/administrators/fe
 ## Coming soon: Adobe Learning Manager Content Composer
 
 Adobe Learning Manager Content Composer is an upcoming AI course authoring tool in Adobe Learning Manager that helps you create a publish-ready course in no time.
+
+A conversational AI assistant will guide you through the entire process- Prompt, Brief, Outline, and Course, so you stay in control at every step, reviewing and refining before moving forward. You'll be able to ground content in your own source documents, apply instant course theming, and share or export finished courses via SCORM or direct publishing to Adobe Learning Manager.
 
 ## Reporting changes in the release
 
