@@ -496,7 +496,9 @@ Moving content removes it from its current folder and places it in the destinati
 >You cannot move content from a private folder to the public folder, or from the public folder to a private folder.
 
 
-<!--1. Select **Public** folder from the **All Folders** drop-down list.
+<!--
+
+1. Select **Public** folder from the **All Folders** drop-down list.
 
    ![](assets/list-of-public-folders.png)
 
@@ -508,7 +510,8 @@ Moving content removes it from its current folder and places it in the destinati
 
    *Move a selected content to folder*
 
-1. Choose the folder where you want to move the content to. Click **[!UICONTROL Move]**.-->
+1. Choose the folder where you want to move the content to. Click **[!UICONTROL Move]**.
+-->
 
 ## Copy content to folder {#copycontenttofolder}
 
@@ -523,12 +526,13 @@ Copying creates a link to the content in an additional folder without removing i
 >
 >You cannot copy content from a private folder to the public folder, or from the public folder to a private folder.
 
-
-<!--Copying a folder means that you'd be adding a tag to the folder. The copy operation will not create copies of content, but only add an association with specified folders.
+<!--
+Copying a folder means that you'd be adding a tag to the folder. The copy operation will not create copies of content, but only add an association with specified folders.
 
 ![](assets/copy-content-to-folder.png)
 
-*Copy a folder*-->
+*Copy a folder*
+-->
 
 ## Unlink folder {#unlinkfolder}
 

@@ -111,9 +111,9 @@ Set up weighted scoring for a course in Adobe Learning Manager so that each lear
 
 Gradebook is configured at the course level when creating a new course. It cannot be added to an existing published course.
 
-> [!NOTE]
+>[!NOTE]
 >
-> For learners to see the Gradebook in a course, an administrator must first enable **Gradebook visibility** at the account level.
+>For learners to see the Gradebook in a course, an administrator must first enable **Gradebook visibility** at the account level.
 
 ### Enable Gradebook for a course
 

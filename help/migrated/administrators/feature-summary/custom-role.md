@@ -305,15 +305,12 @@ If a full administrator reduces your scope or removes a permission from your rol
 Full administrators complete this procedure to enable expanded user management for a custom role.
 
 1. Sign in to Adobe Learning Manager as an administrator.
-1. Select **Users** in the left navigation, then select **Custom Roles**.
-1. Select **Create Custom Role** to create a new role, or select an existing role to edit it.
-1. Under **Account Privileges**, locate the **Users** section.
-1. In the **Advanced Users** section, select **Read Only** or **Full Control** based on the required level of access.
-
-   ![screenshot](media/image1.png){width="3.53125in" height="2.15625in"}
-
-1. Add users to the role in the **Users** section.
-1. Select **Save**.
+2. Select **Users** in the left navigation, then select **Custom Roles**.
+3. Select **Create Custom Role** to create a new role, or select an existing role to edit it.
+4. Under **Account Privileges**, locate the **Users** section.
+5. In the **Advanced Users** section, select **Read Only** or **Full Control** based on the required level of access.
+6. Add users to the role in the **Users** section.
+7. Select **Save**.
 
 The assigned users can now access the **Custom Roles**, **Active Fields**, **Import Logs**, and **User Cleanup** sections upon signing in.
 

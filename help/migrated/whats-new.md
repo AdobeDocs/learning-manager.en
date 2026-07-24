@@ -15,7 +15,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 
 Adaptive courses let you deliver personalized training by controlling which modules each learner sees, and which are required, based on the user groups they belong to. A single course dynamically presents the right content to the right person automatically.
 
-Authors configure each module with **Optional** and **Mandatory** for user group rules. Learners in different user groups can complete entirely different sets of modules and still complete the same course. Seat limits for classroom and virtual classroom sessions are now enforced at the module level, so a learner can be enrolled in a course while waitlisted on a specific session only. For more information, see [Gradebook for Authors](/help/migrated/authors/feature-summary/adaptive-course-author.md)
+Authors configure each module with **Optional** and **Mandatory** for user group rules. Learners in different user groups can complete entirely different sets of modules and still complete the same course. Seat limits for classroom and virtual classroom sessions are now enforced at the module level, so a learner can be enrolled in a course while waitlisted on a specific session only. For more information, see [Adaptive Courses - Author](/help/migrated/authors/feature-summary/adaptive-course-author.md)
 
 Key capabilities:
 
@@ -81,7 +81,7 @@ Key capabilities:
 * Public folder and private folder structure are mutually exclusive
 * Browse folders experience when selecting modules in course authoring
 
-Learn more about content folder hierarchy.
+For more information on admin-level functionalities, see [Hierarchical content folders](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder). For more information on author- level functionalities, see [Hierarchical content folders](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder).
 
 ## Live Hub
 
@@ -174,7 +174,7 @@ Report Builder gives administrators a flexible, self-service reporting tool that
 
 Reports are created once and saved for repeated use. There is no need to rebuild filters, re-apply groupings, or rejoin datasets on every download. Saved reports can be downloaded on demand, shared with other administrators, or set up with a subscription so that recipients receive updated reports automatically at a regular interval.
 
-Learn more about Report Builder.
+For more information, see [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
 
 ## Custom role changes
 

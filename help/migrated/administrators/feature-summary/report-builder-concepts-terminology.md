@@ -1,11 +1,11 @@
 ---
 jcr-language: en_us
-title: Report Builder: Concepts and terminology
+title: Report Builder - Concepts and terminology
 description: Understand the key concepts of Report Builder, including datasets, columns, grouping, filters, and aggregates, before building your first report. 
 contentowner: mmanuel
 ---
 
-# Report Builder: Concepts and terminology
+# Report Builder - Concepts and terminology
 
 ## Templates and reports
 

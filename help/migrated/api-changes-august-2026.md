@@ -189,7 +189,7 @@ The response body is empty.
 | 1     | Group exists in this account        | INVALID_USER_GROUP_ID                  | Unknown {id} path parameter                       |
 | 2     | Group is not already deleted        | DELETED_USERGROUP                      | Repeat DELETE on a group already in DELETED state |
 | 3     | Group readOnly is false             | READ_ONLY_USERGROUP                    | System-managed group                              |
-| 4     | Group is a custom (non-system) type | USERGROUP_UPDATE_OPERATION_NOT_ALLOWED | System-internal group type
+| 4     | Group is a custom (non-system) type | USERGROUP_UPDATE_OPERATION_NOT_ALLOWED | System-internal group type |
 
 ## External learning API in Adobe Learning Manager
 

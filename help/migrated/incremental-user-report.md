@@ -55,9 +55,9 @@ Use the full export (generateUsers) when you need an authoritative baseline – 
 | Full export (generateUsers) | Initial bootstrap; accounts with fewer than 50k users; recovery after a missed sync window. |
 | Incremental export (generateUserIncrementalReport) | Regular delta-sync; large accounts; pipelines that need only changed records |
 
-# Current Full User Report (generateUsers)
+# Current Full User Report 
 
-This section documents the existing Job API user report for reference. If you are already familiar with it, skip to the next section.
+(generateUsers) This section documents the existing Job API user report for reference. If you are already familiar with it, skip to the next section.
 
 ## How It Works
 
@@ -91,6 +91,7 @@ lastSocialActivityDate
 ## Request Payload
 
 Job type: generateUsers. Admin role only.
+
 ```
 {
 
@@ -193,6 +194,7 @@ The incremental user report uses the Job API to generate a CSV file that contain
 Job type: generateUserIncrementalReport
 
 ## Request Payload
+
 ```
 {
 
@@ -249,6 +251,7 @@ To retrieve all pages for a large incremental export, pass the same startDateTim
 ## Pagination Workflow
 
 Step 1: Submit the first request without fromUserId.
+
 ```
 // First request – no fromUserId
 
@@ -264,6 +267,7 @@ Step 1: Submit the first request without fromUserId.
 
 }
 ```
+
 Step 2: Receive the first chunk (up to 500,000 users). Note the last userId in the response.
 
 Step 3: Submit the next request, passing the same date window and the last userId from the previous response as fromUserId.

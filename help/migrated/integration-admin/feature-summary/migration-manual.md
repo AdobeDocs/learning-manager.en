@@ -1049,7 +1049,7 @@ Troubleshoot common migration errors
 | LP to course instance association fails | Confirm that both the learning path and the course instance were created through the same source (both migration or both retrofit). Mixed sources are not supported. |
 | Session row fails with metadata error | Check that all JSON key names in the `metadata` field use exact camelCase. Keys are case-sensitive. |
 | Teams `isCompletionCriteria` has no effect | The completion criteria feature flag for Teams must be enabled by your ALM account admin before migration values take effect. |
-| Session row created but instructor field is empty | If the instructor email provided does not match a user in ALM, the session is created with an empty instructor field. Verify the instructor email exists in ALM before uploading.
+| Session row created but instructor field is empty | If the instructor email provided does not match a user in ALM, the session is created with an empty instructor field. Verify the instructor email exists in ALM before uploading. |
 
 ## Migrate LTI modules {#migrationofltimodules}
 

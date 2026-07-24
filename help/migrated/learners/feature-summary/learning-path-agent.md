@@ -54,7 +54,8 @@ Within each source, the agent ranks courses by relevance to the learner's goal a
 
 If no matching courses are available for a topic in the catalog, the agent informs the learner and suggests they contact an administrator to request content for that area.
 
-<!-- ### Monitor credit usage
+<!-- 
+### Monitor credit usage
 
 The Personalized Learning Path agent consumes AI credits each time a learner generates a path. To monitor and manage usage:
 
@@ -181,9 +182,11 @@ The agent tells you directly in the conversation that it could not find matching
 
 If the agent cannot find courses for any of your topics, it will inform you that it is unable to create a path for that goal. In either case, reach out to your learning administrator and let them know which topics had no content available. They can add relevant courses to the catalog so future path requests are covered.
 
-<!-- _How does the agent decide which courses to include?_
+<!-- 
+_How does the agent decide which courses to include?_
 
-The agent prioritizes your organization's internal course catalog above external sources. It selects courses based on relevance to your stated goal, whether the course level matches your proficiency, how recently the content was published or updated, and quality signals such as ratings and completion rates\. Your administrator controls which content sources are available. -->
+The agent prioritizes your organization's internal course catalog above external sources. It selects courses based on relevance to your stated goal, whether the course level matches your proficiency, how recently the content was published or updated, and quality signals such as ratings and completion rates\. Your administrator controls which content sources are available. 
+-->
 
 _Can I adjust the topics in my learning path?_
 

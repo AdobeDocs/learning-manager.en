@@ -31,22 +31,22 @@ Build a course with per-module visibility and completion rules so different lear
 
     ![](assets/ac-author-003.png)
 
-**Add modules to an adaptive course**
+    **Add modules to an adaptive course**
 
-Add the required modules. Add content modules by uploading content, selecting from the content library, or adding classroom or virtual classroom sessions.
+    Add the required modules. Add content modules by uploading content, selecting from the content library, or adding classroom or virtual classroom sessions.
 
-**Module types that support adaptive rules (content modules):**
+    **Module types that support adaptive rules (content modules):**
 
-* Self-paced e-learning
-* Classroom sessions
-* Virtual classroom sessions
-* Activity modules
+    * Self-paced e-learning
+    * Classroom sessions
+    * Virtual classroom sessions
+    * Activity modules
 
-**Module types that do NOT support adaptive rules:**
+    **Module types that do NOT support adaptive rules:**
 
-* **Pre-work modules:** Shown to all learners before the core content begins. No visibility or completion rules can be set.
-* **Test-out modules:** Available to all learners. Completing a test-out completes the entire course regardless of content module status. No visibility or completion rules can be set.
-* **Job aids:** Visible to all enrolled learners at all times.
+    * **Pre-work modules:** Shown to all learners before the core content begins. No visibility or completion rules can be set.
+    * **Test-out modules:** Available to all learners. Completing a test-out completes the entire course regardless of content module status. No visibility or completion rules can be set.
+    * **Job aids:** Visible to all enrolled learners at all times.
 
 6. Select **Add**.
 

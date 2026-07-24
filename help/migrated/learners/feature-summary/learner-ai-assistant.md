@@ -319,7 +319,7 @@ Understand how Adobe Learning Manager's Learning Assistant can answer learner qu
 
 ### How Learning Assistant uses Experience League
 
-Adobe Learning Manager's Learning Assistant can source answers from [Adobe Experience League](help/migrated/user-guide.md), Adobe's official help and documentation site. When a learner asks a procedural or how-to question, Learning Assistant can retrieve a relevant answer and include a link to the full Experience League article.
+Adobe Learning Manager's Learning Assistant can source answers from [Adobe Experience League](/help/migrated/user-guide.md), Adobe's official help and documentation site. When a learner asks a procedural or how-to question, Learning Assistant can retrieve a relevant answer and include a link to the full Experience League article.
 
 ### What kinds of questions Learning Assistant can answer
 
@@ -333,7 +333,7 @@ When Learning Assistant finds a relevant answer in Experience League, the respon
 
 ### How this differs from Admin Assistant
 
-The [Admin Assistant](help/migrated/administrators/feature-summary/alm-ai-assistant.md) in Adobe Learning Manager has provided Experience League-sourced answers for administrators since earlier releases. The August 2026 enhancement extends this capability to the learner-facing Learning Assistant so that learners can also get help without leaving the platform.
+The [Admin Assistant](/help/migrated/administrators/feature-summary/alm-ai-assistant.md) in Adobe Learning Manager has provided Experience League-sourced answers for administrators since earlier releases. The August 2026 enhancement extends this capability to the learner-facing Learning Assistant so that learners can also get help without leaving the platform.
 
 Both the Admin Assistant and the learner\-facing Learning Assistant use the same underlying Experience League content to generate answers.
 

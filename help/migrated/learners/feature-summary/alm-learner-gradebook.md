@@ -4,15 +4,15 @@ jcr-language: en_us
 title: Gradebook for learners
 ---
 
-## Gradebook for learners
+# Gradebook for learners
 
-### Start a course with gradebook
+## Start a course with gradebook
 
 When the gradebook is enabled and visible for a course in Adobe Learning Manager, a **Gradebook** tab appears on the course overview page. Use it to see your weighted score for each module, your current aggregate score, and whether you have passed or still need to complete more of the course.
 
 ![](assets/image_0008.png)
 
-### When the gradebook is available
+## When the gradebook is available
 
 The **Gradebook** tab appears alongside **Modules**, **Notes**, and **Discussions** in the course player when your author or administrator has enabled gradebook visibility for the course. If the tab is not visible, gradebook has not been enabled for this course, or the administrator has disabled learner visibility. Scores may still be recorded and visible to your administrator.
 
@@ -24,7 +24,7 @@ You can open the **Gradebook** tab at any point during your enrollment:
 * **While in progress:** As you complete modules and scores are recorded, the gradebook updates to show your scores so far alongside modules not yet attempted or awaiting grading.
 * **After completing:** The gradebook shows all final module scores, your calculated aggregate course score, and a **Passed** result in the header.
 
-### View the gradebook
+## View the gradebook
 
 * From **My Learning**, select your course.
 * Select the **Gradebook** tab from the course page.
@@ -48,7 +48,7 @@ The module table below the header shows the following columns for each module:
 | **Score** | Your score for this module (for example, 40/100) |
 | **Contribution** | The actual percentage points this module has added to your aggregate score so far |
 
-### View module weightage from the Modules tab
+## View module weightage from the Modules tab
 
 You can also see the weightage of each module from the **Modules** tab without opening the gradebook.
 
@@ -58,14 +58,14 @@ From your course page, select the **Modules** tab.
 
 The **Modules** tab displays the weightage percentage for each module and the number of modules required to complete the course.
 
-### Module scores with multiple attempts
+## Module scores with multiple attempts
 
 If a module allows multiple attempts, the score shown in your gradebook depends on how the course author configured it:
 
 * **Highest:** The best score from any attempt is shown. A lower score on a later attempt does not reduce your recorded score.
 * **Latest:** The score from your most recent attempt is always shown. A lower score on a later attempt replaces the previous one.
 
-### Understand your module status
+## Understand your module status
 
 Each module in the gradebook shows one of the following statuses:
 
@@ -80,7 +80,7 @@ Each module in the gradebook shows one of the following statuses:
 | **Pending review** | Module completed but waiting for a score from an instructor or admin |
 | **No weightage** | Module type does not support scoring (PDF, video, and similar); does not contribute to the aggregate |
 
-### How your aggregate score is calculated
+## How your aggregate score is calculated
 
 Your aggregate score is the sum of each scored module's weighted contribution:
 
@@ -94,7 +94,7 @@ The scoring scale does not need to be the same across all modules. A module scor
 
 Administrators in Adobe Learning Manager can view weighted gradebook scores for all enrolled learners in a course, drill into individual learner performance by module, download a filtered Learner Transcript, and track gradebook configuration changes in the Content Audit Trail report.
 
-### View the gradebook for a course
+## View the gradebook for a course
 
 When gradebook is enabled for a course, a new **L2 Feedback – Gradebook** section appears in the left navigation under **Reports** when you open the course.
 
@@ -114,7 +114,7 @@ It shows:
 
 Learners who have not yet attempted any scored modules show dashes in the score columns. Modules that do not support scoring, PDF, video, audio, and similar, do not appear as score columns.
 
-### View an individual learner's scores
+## View an individual learner's scores
 
 In the **Active Feedback Gradebook**, select a learner's name.
 
@@ -128,14 +128,14 @@ The individual learner view shows:
 
 The module table includes all scorable and non-scorable modules. Scorable modules show their score and contribution. Non-scorable modules show dashes in the Score and Contribution columns.
 
-### Score modules
+## Score modules
 
 Scoring behavior for administrators and instructors is unchanged from the current workflow:
 
 * **SCORM, AICC, xAPI, and native quiz modules** are scored automatically when the underlying content reports a score.
 * **Classroom sessions, virtual classroom sessions, and Activity modules** are scored by instructors or administrators from the **Attendance and Scoring** page.
 
-### Download the Learner Transcript for a course
+## Download the Learner Transcript for a course
 
 You can download a Learner Transcript filtered to this course directly from the gradebook page in one of the two ways:
 
@@ -144,7 +144,7 @@ You can download a Learner Transcript filtered to this course directly from the 
 
 See Reporting changes in the release for more information.
 
-### Content Audit Trail events
+## Content Audit Trail events
 
 The Content Audit Trail captures two gradebook-specific configuration events:
 
@@ -157,7 +157,7 @@ See Reporting changes in the release for more information.
 
 Use these entries to track who changed gradebook configuration and when, particularly in environments where multiple authors collaborate on the same course.
 
-### Troubleshooting
+## Troubleshooting
 
 **The L2 Feedback – Gradebook section does not appear in the course navigation**
 

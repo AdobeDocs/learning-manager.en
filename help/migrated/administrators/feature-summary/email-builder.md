@@ -251,9 +251,6 @@ The text component supports full rich-text editing.
 
 1. Drag an **Image** component into a column cell.
 2. Select **Upload** to upload a new image file (JPEG and GIF supported), or select **Browse** to choose from your image library.
-
-    ![](assets/email_builder_0021.png)
-
 3. With the image selected, configure:
 
     ![](assets/email_builder_0022.png)
@@ -317,62 +314,63 @@ Type the variable name directly surrounded by double curly braces: {{variable_na
 
 **Examples of common variables:**
 
+
 | Variable | Replaced with |
 | --- | --- |
-| Recipient's full name | {{learnerName}} |
-| Recipient's email | {{learnerEmail}} |
-| User name of the recipient | {{user}} |
-| User type | {{userType}} |
-| Organization name | {{organizationName}} |
-| Course name | {{courseName}} |
-| Course description | {{courseDescription}} |
-| Course author | {{courseAuthor}} |
-| Course link | {{courseLink}} |
-| Skills needed for the course | {{courseSkillDetails}} |
-| Badges in the course | {{courseBadge}} |
-| Course enrollment deadline | {{courseEnrollmentDeadline}} |
-| Course completion deadline | {{courseCompletionDeadline}} |
-| Course completion date | {{courseCompletionDate}} |
-| Name of the Learning Path | {{LPName}} |
-| Learning path link | {{LPLink}} |
-| Learning path enrollment deadline | {{LPEnrollmentDeadline}} |
-| Learning path completion deadline | {{LPCompletionDeadline}} |
-| Learning path completion date | {{LPCompletionDate}} |
-| Certification name | {{certificationName}} |
-| Certification enrollment deadline | {{certificationEnrollmentDeadline}} |
-| Certification completion date | {{certificationCompletionDate}} |
-| Course deadline duration | {{deadlineDuration}} |
-| Course expiry duration | {{expiryDuration}} |
-| Course expiry date | {{expiryDate}} |
-| Session name | {{sessionName}} |
-| Session start date | {{sessionDate}} |
-| Session end date | {{endSessionDate}} |
-| Session start time | {{sessionTime}} |
-| Session end time | {{endSessionTime}} |
-| Venue name | {{venueName}} |
-| Venue information | {{venueInfo}} |
-| Venue URL | {{venueURL}} |
-| Venue region | {{venueRegion}} |
-| Virtual classroom URL | {{vcUrl}} |
-| Virtual classroom provider account required | {{VCProviderAccountReq}} |
-| Instructor name | {{instructorName}} |
-| Module name | {{moduleName}} |
-| Learning Object name | {{learningObjectName}} |
-| Learning Object completion date | {{loCompletionDate}} |
-| Alternate Learning Object names | {{alternateLoNameList}} |
-| Alternate Learning Object links | {{alternateLoNameListLinks}} |
-| Removed alternate Learning Object | {{removedAlternateLo}} |
-| Prerequisite text | {{preRequisiteText}} |
-| Prerequisite count | {{preRequisiteCountText}} |
-| CI name | {{ciName}} |
-| Report dashboard name | {{reportDashboardName}} |
-| Job aid name | {{jobAidName}} |
-| Announcement content | {{announcementContentText}} |
-| Profile name | {{profileName}} |
-| Seat limit for course | {{seatLimit}} |
-| Link to help doc home page | {{captivatePrimeHelp}} |
-| Link to help page | {{helpPageLink}} |
-| Count | {{count}} |
+| Recipient's full name | {\{learnerName}\} |
+| Recipient's email | {\{learnerEmail}\} |
+| User name of the recipient | {\{user}\} |
+| User type | {\{userType}\} |
+| Organization name | {\{organizationName}\} |
+| Course name | {\{courseName}\} |
+| Course description | {\{courseDescription}\} |
+| Course author | {\{courseAuthor}\} |
+| Course link | {\{courseLink}\} |
+| Skills needed for the course | {\{courseSkillDetails}\} |
+| Badges in the course | {\{courseBadge}\} |
+| Course enrollment deadline | {\{courseEnrollmentDeadline}\} |
+| Course completion deadline | {\{courseCompletionDeadline}\} |
+| Course completion date | {\{courseCompletionDate}\} |
+| Name of the Learning Path | {\{LPName}\} |
+| Learning path link | {\{LPLink}\} |
+| Learning path enrollment deadline | {\{LPEnrollmentDeadline}\} |
+| Learning path completion deadline | {\{LPCompletionDeadline}\} |
+| Learning path completion date | {\{LPCompletionDate}\} |
+| Certification name | {\{certificationName}\} |
+| Certification enrollment deadline | {\{certificationEnrollmentDeadline}\} |
+| Certification completion date | {\{certificationCompletionDate}\} |
+| Course deadline duration | {\{deadlineDuration}\} |
+| Course expiry duration | {\{expiryDuration}\} |
+| Course expiry date | \{\{expiryDate\}\} |
+| Session name | \{\{sessionName\}\} |
+| Session start date | \{\{sessionDate\}\} |
+| Session end date | \{\{endSessionDate\}\} |
+| Session start time | \{\{sessionTime\}\} |
+| Session end time | \{\{endSessionTime\}\} |
+| Venue name | \{\{venueName\}\} |
+| Venue information | \{\{venueInfo\}\} |
+| Venue URL | \{\{venueURL\}\} |
+| Venue region | \{\{venueRegion\}\} |
+| Virtual classroom URL | \{\{vcUrl\}\} |
+| Virtual classroom provider account required | \{\{VCProviderAccountReq\}\} |
+| Instructor name | \{\{instructorName\}\} |
+| Module name | \{\{moduleName\}\} |
+| Learning Object name | \{\{learningObjectName\}\} |
+| Learning Object completion date | \{\{loCompletionDate\}\} |
+| Alternate Learning Object names | \{\{alternateLoNameList\}\} |
+| Alternate Learning Object links | \{\{alternateLoNameListLinks\}\} |
+| Removed alternate Learning Object | \{\{removedAlternateLo\}\} |
+| Prerequisite text | \{\{preRequisiteText\}\} |
+| Prerequisite count | \{\{preRequisiteCountText\}\} |
+| CI name | \{\{ciName\}\} |
+| Report dashboard name | \{\{reportDashboardName\}\} |
+| Job aid name | \{\{jobAidName\}\} |
+| Announcement content | \{\{announcementContentText\}\} |
+| Profile name | \{\{profileName\}\} |
+| Seat limit for course | \{\{seatLimit\}\} |
+| Link to help doc home page | \{\{captivatePrimeHelp\}\} |
+| Link to help page | \{\{helpPageLink\}\} |
+| Count | \{\{count\}\} |
 
 >[!NOTE]
 >
@@ -389,7 +387,7 @@ Type the variable name directly surrounded by double curly braces: {{variable_na
 
 ### Variables and the global layout
 
-Variables in the global layout are template-independent and resolve differently depending on context. Use only universally applicable variables, such as {{user}} and {{account_url}}, in the global layout. Template-specific variables (such as {{course_name}}) should be placed in individual template bodies, not in the global layout.
+Variables in the global layout are template-independent and resolve differently depending on context. Use only universally applicable variables, such as {\{user}\} and {\{account_url}\}, in the global layout. Template-specific variables (such as {\{course_name}\}) should be placed in individual template bodies, not in the global layout.
 
 ## Link and unlink templates
 

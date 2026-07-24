@@ -219,7 +219,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Job Aids](learners/feature-summary/job-aids.md)
    * [Discover and engage with Channels](learners/feature-summary/discover-and-engage-with-channels.md)
    * [Multi item cart in ALM](learners/feature-summary/multi-item-cart.md)
-   * [Gradebook for Learners](learners/feature-summary/alm_learner_gradebook.md)
+   * [Gradebook for Learners](learners/feature-summary/alm-learner-gradebook.md)
    * [Submit external learning](learners/feature-summary/submit-external-learning.md)
    * [Badges](learners/feature-summary/badges.md)
    * [Skills & Levels](learners/feature-summary/skills-levels.md)

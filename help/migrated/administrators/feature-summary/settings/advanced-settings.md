@@ -262,7 +262,9 @@ The following practices help you build a folder structure that scales well and r
 5. **Move content before deleting folders.** If a folder holds content that is not linked anywhere else, deletion is blocked. Build a habit of reviewing folder contents before deleting.
 
 
-<!--**Key points:**
+<!--
+
+**Key points:**
 
 A folder is a repository of content, which is a subset of the entire content library available in an account with the following properties:
 
@@ -302,7 +304,8 @@ To add a content folder, follow the steps:
 **Folder operations**
 
 * **[!UICONTROL Add a folder]**: To add a folder, select the folder, and then select **[!UICONTROL Add]** on the upper-right corner of the screen.
-* **[!UICONTROL Delete a folder]**: To delete a folder, select the folder to delete, select the **[!UICONTROL Actions]** menu, and then select **[!UICONTROL Delete Folder]**.-->
+* **[!UICONTROL Delete a folder]**: To delete a folder, select the folder to delete, select the **[!UICONTROL Actions]** menu, and then select **[!UICONTROL Delete Folder]**.
+-->
 
 ## Classroom Locations
 
