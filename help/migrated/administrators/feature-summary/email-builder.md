@@ -1,3 +1,10 @@
+---
+jcr-language: en_us
+title: Component-based email builder
+description: Build your email based on different components available.
+contentowner: mmanuel
+---
+
 ## Component-based email builder
 
 Adobe Learning Manager includes a component-based email builder that lets administrators and authors create enterprise-grade, fully branded emails using a modern visual editor, without writing HTML. Every email your organization sends, from enrollment confirmations to session reminders, can match your brand's look and feel precisely.
@@ -310,7 +317,7 @@ Variables are dynamic placeholders replaced with real data when an email is sent
 
 ### Insert a variable by typing
 
-Type the variable name directly surrounded by double curly braces: {{variable_name}}. The editor automatically recognizes and highlights it as a variable token.
+Type the variable name directly surrounded by double curly braces: {\{variable_name}\}. The editor automatically recognizes and highlights it as a variable token.
 
 **Examples of common variables:**
 
@@ -380,7 +387,7 @@ Type the variable name directly surrounded by double curly braces: {{variable_na
 
 1. The email subject line also supports variables. To add a variable to the subject:
 2. Open a template and locate the **Email subject** field.
-3. Type the variable directly. For example, "Your enrollment in {{course_name}} is confirmed". The variable renders with the actual course name when the email is sent.
+3. Type the variable directly. For example, "Your enrollment in {\{course_name}\} is confirmed". The variable renders with the actual course name when the email is sent.
 4. Alternatively, select **Add variable**, then select **Course**.
 
     ![](assets/email_builder_0025.png)

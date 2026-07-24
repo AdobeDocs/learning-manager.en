@@ -425,7 +425,8 @@ Contact [FastSpring](https://fastspring.com/) to get an invoice for your payment
 | **IMS Org ID field is blank after applying an activation key** | Automatic linking occurs only for accounts activated through Adobe's standard ordering flow. For independently set-up accounts, complete the manual linking steps above after activating the key. |
 | **After unlinking, Gen AI features are unavailable** | Unlinking removes access to all Gen AI features and hides the Credits tab. Re-link your account to an Adobe Admin Console organization with an active Agent Orchestrator license to restore access. |
 
-<!-- # Manage Learning Manager orders and billing
+<!-- 
+# Manage Learning Manager orders and billing
 
 Credit card-based purchase is only available in the [US region](http://learningmanager.adobe.com/).
 

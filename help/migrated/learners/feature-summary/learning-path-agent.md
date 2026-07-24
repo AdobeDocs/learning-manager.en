@@ -65,7 +65,8 @@ The Personalized Learning Path agent consumes AI credits each time a learner gen
 
 >[!CAUTION]
 >
->If the credit limit for the Learning Path agent is reached, learners receive an in-app message that the agent is unavailable and are directed to contact an administrator. Increase the allocation to restore access. -->
+>If the credit limit for the Learning Path agent is reached, learners receive an in-app message that the agent is unavailable and are directed to contact an administrator. Increase the allocation to restore access. 
+-->
 
 ## Create a Personalized Learning Path with the Learner AI assistant
 

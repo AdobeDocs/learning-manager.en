@@ -55,7 +55,7 @@ Use the full export (generateUsers) when you need an authoritative baseline – 
 | Full export (generateUsers) | Initial bootstrap; accounts with fewer than 50k users; recovery after a missed sync window. |
 | Incremental export (generateUserIncrementalReport) | Regular delta-sync; large accounts; pipelines that need only changed records |
 
-# Current Full User Report 
+## Current Full User Report
 
 (generateUsers) This section documents the existing Job API user report for reference. If you are already familiar with it, skip to the next section.
 
