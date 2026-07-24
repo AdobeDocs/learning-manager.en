@@ -114,10 +114,9 @@ Note that you can no longer change the visibility settings in the adaptive cours
 
 ![](assets/ac-author-008.png)
 
-A learner cannot be waitlisted in switching instance, enrollment will be blocked.
 >[!NOTE]
 >
->
+>A learner cannot be waitlisted in switching instance, enrollment will be blocked.
 
 ### Add or modify modules
 
