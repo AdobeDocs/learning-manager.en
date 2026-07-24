@@ -53,7 +53,7 @@ Use the full export (generateUsers) when you need an authoritative baseline – 
 | Export Mode | Use when… |
 |-------------|-----------|
 | Full export (generateUsers) | Initial bootstrap; accounts with fewer than 50k users; recovery after a missed sync window. |
-| Incremental export (generateIncrementalUsers) | Regular delta-sync; large accounts; pipelines that need only changed records |
+| Incremental export (generateUserIncrementalReport) | Regular delta-sync; large accounts; pipelines that need only changed records |
 
 # Current Full User Report (generateUsers)
 
@@ -127,7 +127,7 @@ Job type: generateUsers. Admin role only.
 * Not feasible for large accounts – pipeline resource exhaustion above ~1 million users.
 * No incremental or delta capability.
 
-# Incremental User Report (generateUserIncrementalReport)
+## Incremental User Report (generateUserIncrementalReport)
 
 This section documents the new incremental user report feature introduced in M46. This is the primary subject of this document.
 
@@ -137,13 +137,7 @@ An incremental export returns only users whose tracked data has changed within a
 
 ## How the Change-Tracking Model Works
 
-Adobe Learning Manager maintains a last-modified timestamp that is updated whenever any tracked field for a user changes. The timestamp update sources include:
-
-* CSV bulk upload
-* Self-registration
-* Single user creation/update via Admin UI
-* Admin user APIs (add, delete, update)
-* SSO – SAML assertion
+Adobe Learning Manager maintains a last-modified timestamp that is updated whenever any tracked field for a user changes. 
 
 When you request an incremental report with a start_date_time and end_date_time, the system returns users whose last-modified timestamp falls within [start_date_time, end_date_time]. If a user was modified both within and after the window (i.e., they were changed again after end_date_time), that user is not included in the report – because their last-modified timestamp is now beyond the window.
 
@@ -241,9 +235,6 @@ Job type: generateUserIncrementalReport
 | toDate | String (ISO 8601) | Required for incremental export. End of the change window. Use ISO 8601 format. |
 | fromUserId | String | Optional. For paginated requests, pass the last userId received in the previous response as fromUserId. Omit this parameter for the first request. |
 | expandMetadata | Boolean | Optional. If true, exports metadata as separate columns. |
-| fetchActiveUsers | Boolean | Optional. If true, returns only active users. |
-| peerAccountId | String | Optional. Generate report for a peer account. |
-| locale | String | Optional. Locale for report generation (e.g. en_US). |
 
 For incremental export, pass `fromDate` and `toDate` to define the change window. If the result set is larger than one chunk, continue pagination by sending the same `fromDate` and `toDate` and passing the last `userId` from the previous response as `fromUserId`. If fullExport is true, the date window is ignored and the API generates a full user export.
 
@@ -325,4 +316,4 @@ The incremental user report is designed to be used in Adobe Learning Manager con
 
 * The output CSV is column-compatible with the full user report.
 * Connectors can use the incremental report for delta-sync and fall back to the full report for bootstrap or recovery.
-* Support for connector integration (PowerBI, SFDC) is in scope for M46.
+* Support for connector integration (PowerBI, SFDC) 

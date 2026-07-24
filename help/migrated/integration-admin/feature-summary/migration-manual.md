@@ -1051,7 +1051,7 @@ Troubleshoot common migration errors
 | Teams `isCompletionCriteria` has no effect | The completion criteria feature flag for Teams must be enabled by your ALM account admin before migration values take effect. |
 | Session row created but instructor field is empty | If the instructor email provided does not match a user in ALM, the session is created with an empty instructor field. Verify the instructor email exists in ALM before uploading.
 
-## Migration of LTI modules {#migrationofltimodules}
+## Migrate LTI modules {#migrationofltimodules}
 
 ### Overview
 
@@ -1161,4 +1161,102 @@ When creating LTI module versions:
 * Continue to follow all existing module version migration requirements and validation rules documented for `module_version.csv`.
 
 The migration system applies the standard migration processing workflow in addition to the LTI-specific fields.
- |
+
+## Migrate adaptive courses
+
+If you are migrating courses from an external system into Adobe Learning Manager and want them configured as adaptive courses with module-level visibility and completion rules per user group, you can use two CSV files to define both the courses and their adaptive rules.
+
+### What you need to migrate
+
+Migrating an adaptive course requires two changes to your standard migration CSV package:
+
+* **An update to** _course.csv_: a new column that marks a course as adaptive
+* **A new file,** _course_module_user_group.csv_: one row per module-to-user-group rule
+
+Both files must be included in the same migration project.
+
+### Update course.csv
+
+Add the isAdaptive column to your course.csv file.
+
+| **Column** | **Values** | **Description** |
+| --- | --- | --- |
+| isAdaptive | true or blank | Set to true for adaptive courses. Leave blank or set to false for regular courses. |
+
+All other course.csv columns remain unchanged.
+
+**Example column order:**
+
+* id
+* courseName
+* description
+* courseCreationDate
+* state
+* sequential
+* author
+* thumbnailUrl
+* tags
+* isAdaptive
+
+>[!NOTE]
+>
+>The isAdaptive column is optional for regular courses. If omitted or left blank, the course is treated as a regular course.
+
+### Add course_module_user_group.csv
+
+This is a new CSV file that defines the adaptive visibility and completion rules for each module in each adaptive course. Each row maps one module to one user group with a rule type.
+
+| **Column** | **Description** |
+| --- | --- |
+| courseId | The source identifier of the course (must match the id in course.csv) |
+| moduleId | The source identifier of the module (must match the module identifier in your module files) |
+| userGroupId | The Adobe Learning Manager ID of the user group this rule applies to |
+| type | MANDATORY — the user group must complete this module for course completion. OPTIONAL — the user group can see and access this module but is not required to complete it. |
+| operation | ADD- create or update this rule. DELETE- remove this rule. |
+
+**Example column order:**
+
+* courseId
+* moduleId
+* userGroupId
+* type
+* operation
+
+### Rules for the file
+
+* Every content module in an adaptive course must have at least one row in this file. A module with no rules is not visible to any learner.
+* Pre-work modules and test-out modules do not require rules. They are automatically applied to all enrolled learners and should not appear in this file.
+* You can have multiple rows for the same module. One per user group.
+* If you submit an ADD row for a rule that already exists in the system, the existing rule is updated rather than creating a duplicate.
+
+### Upload order
+
+The files in your migration project must be uploaded and processed in the following order. Later files depend on data created by earlier files and will fail if the order is not followed.
+
+* **module.csv**: Define the modules
+* **module_version.csv**: Define the module versions
+* **course.csv**: (with isAdaptive=true for adaptive courses) - Create the courses
+* **course_module.csv**: Link modules to courses
+* **course_module_user_group.csv**: Apply adaptive visibility and completion rules
+
+Download the migration files here: [Adaptive courses migration files](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
+
+>[!IMPORTANT]
+>
+>**course_module_user_group.csv** must be uploaded last. The rules in this file reference both a course and a module that must already be linked to step 4 before the rules can be applied.
+
+### Validation and error reference
+
+Adobe Learning Manager validates every row in course_module_user_group.csv before applying the rules. Any row that fails validation is rejected with an error message. The remaining valid rows are still processed.
+
+| **Scenario** | **What happens** | **Error message** |
+| --- | --- | --- |
+| Rules provided for a course that is not marked as adaptive | Row rejected | Course must be adaptive to have content visibility rules. Course ID: {courseId} |
+| Course marked as adaptive but no rules provided for any of its content modules | Course rejected | Adaptive course must have at least one visibility rule for each content module. Course ID: {courseId} has no rules for module(s): {moduleIds} |
+| The module is not linked to the course | Row rejected | Module {moduleId} is not linked to course {courseId}. Add the module to the course via course_module.csv first. |
+| The module is a pre-work or test-out module (not a content module) | Row rejected | Visibility rules only apply to content type modules. Module {moduleId} has type {actualType}. |
+| The user group does not exist or is inactive | Row rejected | User group {userGroupId} not found or inactive. |
+| The type value is not MANDATORY or OPTIONAL | Row rejected | Invalid type '{type}'. Must be MANDATORY or OPTIONAL. |
+| The operation value is not ADD or DELETE | Row rejected | Invalid operation '{operation}'. Must be ADD or DELETE. |
+| ADD submitted for a rule that already exists | Rule updated silently | No error — the existing rule is updated with the new type value. |
+
