@@ -197,7 +197,7 @@ Once enabled, authors see a **Select content** button in the external LMS activi
 
 For more information, see [LTI deep links](/help/migrated/integration-admin/feature-summary/lti-deep-links.md).
 
-## Classroom locations
+## Classroom Locations
 
 Classroom Locations now support a structured **four-field location format**, including Country, State/Province/Region, City, and Location Name, making it easier to manage and organize training locations across regions. The update includes a one-time migration from the legacy single-field format and adds multilingual support for the **Location Name** and **Room Information** fields, enabling localized classroom details for learners.
 
