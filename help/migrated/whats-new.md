@@ -127,6 +127,8 @@ Key capabilities:
 * New columns in Admin and Learner Transcripts: External Learning Name, Completion Comment, custom field columns
 * API support: five new learner-scoped endpoints for creating, retrieving, and updating submissions
 
+For more information at the admin-level, see [External learning support](/help/migrated/administrators/feature-summary/settings/basic-settings.md). For more information at the manager-level, see [External learning support](/help/migrated/managers/feature-summary/review-external-learning-requests.md). For more information at the learner-level, see [External learning support](/help/migrated/learners/feature-summary/submit-external-learning.md).
+
 ## AI features
 
 ### AI Assistant for learners
