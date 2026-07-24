@@ -83,6 +83,18 @@ Key capabilities:
 
 Learn more about content folder hierarchy.
 
+## Live Hub
+
+Live Hub is an AI-powered virtual training experience within Adobe Learning Manager that helps organizations deliver engaging and impactful live learning. With intelligent features such as AI-powered polls, breakout room orchestration, persistent learning spaces, and AI-powered assistance, Live Hub supercharges Instructor productivity while reducing the complexity of session delivery.
+
+Key highlights:
+
+- Elevate live learning with a native Adobe Learning Manager experience that improves instructional quality and learner outcomes.
+- Give your Instructors an AI-powered co-facilitator that drives engagement through intelligent polls, Q&A support, and breakout room insights.
+- Help your learners get more from every session with AI-generated summaries and session recordings searchable by topics.
+- Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
+- Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
+
 ## Component-based email template builder
 
 Organizations can now create enterprise-grade, branded email notifications in Adobe Learning Manager using a modern WYSIWYG component editor. Administrators can build a global layout once, with a reusable header, footer, and brand elements, and apply it across all email templates at the account level. Individual templates can then be customized at the course or instance level, inheriting the parent layout by default and overriding it only when needed.
@@ -177,7 +189,6 @@ Two access levels are available:
 
 Learn more about Custom role changes. For more information, see [What the Advanced user permission unlocks](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
 
-
 ## LTI deep linking
 
 Integration administrators can now enable LTI Deep Linking for LTI tool configurations, allowing course authors to browse and embed Adobe Learning Manager courses directly from an external LMS without manually copying course URLs.
@@ -191,18 +202,6 @@ For more information, see [LTI deep links](/help/migrated/integration-admin/feat
 Classroom Locations now support a structured **four-field location format**, including Country, State/Province/Region, City, and Location Name, making it easier to manage and organize training locations across regions. The update includes a one-time migration from the legacy single-field format and adds multilingual support for the **Location Name** and **Room Information** fields, enabling localized classroom details for learners.
 
 For more information, see [Classroom locations](/help/migrated/administrators/feature-summary/classroom.md)
-
-## Live Hub
-
-Live Hub is an AI-powered virtual training experience within Adobe Learning Manager that helps organizations deliver engaging and impactful live learning. With intelligent features such as AI-powered polls, breakout room orchestration, persistent learning spaces, and AI-powered assistance, Live Hub supercharges Instructor productivity while reducing the complexity of session delivery.
-
-Key highlights:
-
-- Elevate live learning with a native Adobe Learning Manager experience that improves instructional quality and learner outcomes.
-- Give your Instructors an AI-powered co-facilitator that drives engagement through intelligent polls, Q&A support, and breakout room insights.
-- Help your learners get more from every session with AI-generated summaries and session recordings searchable by topics.
-- Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
-- Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
 
 ## Adobe Learning Manager Content Composer
 
