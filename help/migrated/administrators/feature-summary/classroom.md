@@ -79,7 +79,7 @@ To migrate existing locations:
    A CSV file with your existing Classroom Locations is downloaded. The following columns are available:
 
    1. **room_id**: Unique identifier for the location.
-   1. **locale**: Locale for the translated Location Name and Room Information.
+   1. **locale**: Locale for the translated Location Name and Location Information.
    1. **name**: Name of the classroom.
    1. **country**: Country where the classroom is located.
    1. **state**: State, province, or region where the classroom is located.
@@ -96,7 +96,7 @@ To migrate existing locations:
 
    *Check migration progress before switching to the four-field location format.*
 
-1. For each column name, update the CSV file with the required information, such as Country, State, Capital, along with any other required information.
+1. For each column name, update the CSV file with the required information, such as Country, State, City, along with any other required information.
 1. Select **Import** and then upload the updated CSV file.
 
    Adobe Learning Manager validates the data and updates the migration progress.
@@ -121,7 +121,7 @@ To add a Classroom Location:
 
    ![All Locations tab](assets/all-locations-tab.png)
 
-   Select the **All Locations** tab to add a Classroom Location.
+   *Select the **All Locations** tab to add a Classroom Location.*
 
 1. Select **Add** > **New location** from the upper-right corner.
 
@@ -129,7 +129,7 @@ To add a Classroom Location:
 
    ![Classroom Location pop-up window](assets/classroom-location-popup-window.png)
 
-   Enter the details in the Classroom Location pop-up window.
+   *Enter the details in the Classroom Location pop-up window.*
 
 1. In the **Classroom Location** pop-up window, enter the following details:
 
@@ -139,7 +139,7 @@ To add a Classroom Location:
    |**State/Province/Region**|Select the state, province, or region.|
    |**City**|Select the city where the classroom is located.|
    |**Location Name**|Enter the name of the classroom or room.|
-   |**Room Information**|Enter additional details, such as the building name, floor, or room number.|
+   |**Location Information**|Enter additional details, such as the building name, floor, or room number.|
    |**Location URL**|Enter a URL for the location, such as a map link.|
    |**Seat Limit**|Enter the classroom's maximum seating capacity.|
 
@@ -159,7 +159,7 @@ To import Classroom Locations in bulk:
    A CSV file containing your existing Classroom Locations is downloaded. The following columns are available:
 
    1. **room_id**: Unique identifier for the location.
-   1. **locale**: Locale for the translated Location Name and Room Information.
+   1. **locale**: Locale for the translated Location Name and Location Information.
    1. **name**: Name of the classroom.
    1. **country**: Country where the classroom is located.
    1. **state**: State, province, or region where the classroom is located.
@@ -168,7 +168,7 @@ To import Classroom Locations in bulk:
    1. **url**: URL associated with the location, such as a map link.
    1. **seatlimit**: Maximum seating capacity of the classroom.
 
-1. For each column name, update the CSV file with the required information, such as Country, State, Capital, along with any other required information.
+1. For each column name, update the CSV file with the required information, such as Country, State, City, along with any other required information.
 1. Select **Add** > **Bulk Import locations** from the upper-right corner.
 
    The **Import Locations CSV** pop-up window appears.
@@ -184,14 +184,14 @@ To import Classroom Locations in bulk:
 
 ## Add translations for a Classroom Location
 
-Add translations for the **Location Name** and **Room Information** fields to display Classroom Location details in learner's preferred languages.
+Add translations for the **Location Name** and **Location Information** fields to display Classroom Location details in learner's preferred languages.
 
 To add translations for a Classroom Location:
 
 1. Select **All Locations** > **Add** from the **Classroom Locations**.
-1. Select **New Locations**.
+1. Select **New Location**.
 
-   The Classroom Location pop-up window appears.
+   The **Classroom Location** pop-up window appears.
 
 1. Select **Add New Language**.
 
@@ -207,7 +207,7 @@ To add translations for a Classroom Location:
 
 >[!NOTE]
 >
->Only the **Location Name** and **Room Information** fields support translations. Location details such as **Country**, **State/Province/Region**, and **City** are not translated.
+>Only the **Location Name** and **Location Information** fields support translations. Location details such as **Country**, **State/Province/Region**, and **City** are not translated.
 
 ## Edit a Classroom Location
 
