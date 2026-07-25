@@ -119,6 +119,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Customize learner homepage](administrators/feature-summary/customize-learner-homepage.md)
    * [Badges](administrators/feature-summary/badges.md)
    * [Color themes](administrators/feature-summary/themes.md)
+   * [Gradebook for admin](administrators/feature-summary/alm-admin-gradebook.md)
    * [Learner Transcripts](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
    * [Changes in Learner Transcripts](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
    * [Feedback report](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
