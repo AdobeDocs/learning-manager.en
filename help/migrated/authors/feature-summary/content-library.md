@@ -438,7 +438,7 @@ When you upload new content, you choose which folder to store it in during the u
 4. Under **Add Content File**, drag and drop the content file, or select the field to browse and upload.
 ![](assets/cl2.png)
 
-5. Under **Add to Folder**, select **Browse folders** and navigate to the folder where you want to store the content. Select the folder to confirm.
+5. Under **Add to Folder**, either browse the folder or search the folder in search field.
 ![](assets/cl3.png)
 
 6. Select **Add**.
@@ -455,7 +455,7 @@ When you upload new content, you choose which folder to store it in during the u
 
 ## View folder paths in the Content Library
 
-In the **Content Library**, each content file shows its complete folder path, for example, **Sales Training** > **Self-Paced Modules** > **PDF Assets**. This path tells you exactly where the file lives in the hierarchy.
+In the **Content Library**, each content file shows its complete folder path, for example, **Sales Training** / **Self-Paced Modules** / **PDF Assets**. This path tells you exactly where the file lives in the hierarchy.
 
 * If a file exists in more than one folder, all paths appear separated by commas.
 
@@ -484,16 +484,17 @@ The dropdown shows the public folder and a list of private folders. Public and p
 
 ## Move content to folder {#movecontenttofolder}
 
-Moving content removes it from its current folder and places it in the destination folder.
+Moving content removes it from its current folder and places it in the destination folder. You can select multiple private folders in the dialog to move content. However, you cannot select private and public folders at the same time. You can either select multiple private folders or a single public folder.
 
 1. In the **Content Library**, select the checkbox next to each content file you want to move.
 2. Select **Actions** > **Organize Content** > **Move Content to Folder**. The **Move content to folder** panel opens.
 3. Select the destination folder where you want to move the content.
 4. Select **Move content**. The Content Library updates to show the new folder path.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->You cannot move content from a private folder to the public folder, or from the public folder to a private folder.
+>You can move content from a public folder to a private folder and vice versa. However, you cannot move content to both public and private folders in the same action. If you select a public folder, you cannot select any private folders, and vice versa.
+
 
 
 <!--
