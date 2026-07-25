@@ -22,7 +22,7 @@ You can open the **Gradebook** tab at any point during your enrollment:
 
 * **Before starting:** After enrolling, you see the full list of scorable modules with their weightage percentages, the maximum marks for each, and the passing criteria set by the author. This shows you exactly how the course is graded before you begin.
 * **While in progress:** As you complete modules and scores are recorded, the gradebook updates to show your scores so far alongside modules not yet attempted or awaiting grading.
-* **After completing:** The gradebook shows all final module scores, your calculated aggregate course score, and a **Passed** result in the header.
+* **After completing:** The gradebook shows all final module scores, your calculated aggregate course score, and a **Final grade** result in the header.
 
 ## View the gradebook
 
@@ -72,8 +72,8 @@ Each module in the gradebook shows one of the following statuses:
 ![](assets/image_0012.png)
 
 | **Status** | **What it means** |
-|------------|-------------------|
-| **Completed** | Module finished and score recorded |
+| ------------ | ------------------- |
+| **Passed** | Module finished and score recorded |
 | **In progress** | Module started but not yet finished |
 | **Not started** | Module not yet opened |
 | **Failed** | Module scored and the score did not meet the module's passing threshold |
