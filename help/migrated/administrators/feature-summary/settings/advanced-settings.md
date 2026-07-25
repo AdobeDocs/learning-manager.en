@@ -48,7 +48,10 @@ Private content folders support up to three levels of nesting:
 
 This structure gives organizations the flexibility to mirror real-world content organization, by topic area, delivery type, audience, or team, rather than managing thousands of files in a flat list.
 
-Only administrators can create, edit, or delete folders at any level. Authors and custom users interact with the hierarchy but cannot modify it.
+>[!NOTE]
+>
+>Only administrators can create, edit, or delete folders at any level. Authors and custom users interact with the hierarchy but cannot modify it. Also custom administrators with access to any root level folder can creat, edit, or delete folders under that root folder.
+
 
 ### Folder naming rules
 
@@ -65,7 +68,7 @@ Folder names must be unique within the same level under the same parent folder. 
 
 ### How folder paths appear
 
-The Content Library displays each content file's full folder path. For example, **Training Programs** > **Onboarding** > **SCORM Assets**. This path shows the complete location of the content.
+The Content Library displays each content file's full folder path. For example, **Training Programs** / **Onboarding** / **SCORM Assets**. This path shows the complete location of the content.
 
 If a file exists in more than one folder, all paths appear separated by commas. If a path is long, it is truncated from the beginning with an ellipsis (…), and the deepest folder name is always shown.
 
@@ -134,7 +137,7 @@ With a three-level structure:
 
 * Level 3: Specific modules or assets per region (Privacy Regulation PDFs, Local Policy Decks, Assessment files)
 
-Regional author teams are granted access only to their Level 1 or Level 2 branch. They can find, update, and reuse only the assets relevant to their jurisdiction without seeing or accidentally modifying another region's content.
+In cases of regional authors, being a custom role, only level 1 folder can be selected during custom role creation. Level 2 folder selection is not an option. They can find, update, and reuse only the assets relevant to their jurisdiction without seeing or accidentally modifying another region's content.
 
 **Use case 2- Large-scale onboarding program with many roles**
 
@@ -206,7 +209,7 @@ As an administrator in Adobe Learning Manager, you create and maintain the conte
 Before deleting, be aware of the following rules:
 
 * You can delete an empty folder at any level.
-* You cannot delete a folder if it contains content that is not linked to any other folder. Move that content to another folder first.
+* Only empty folders can be deleted. Folders that contain content cannot be deleted, regardless of whether the content is linked to other folders or not.
 * Deleting a parent folder deletes all its subfolders. Selecting a parent folder automatically selects all its children.
 
 #### Delete the parent folder
