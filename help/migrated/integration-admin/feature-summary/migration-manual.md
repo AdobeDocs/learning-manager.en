@@ -1266,17 +1266,6 @@ If you are migrating your learning content from another platform into Adobe Lear
 
 This migration is typically performed as part of a larger platform migration, after your users, courses, modules, and content files have already been imported into Adobe Learning Manager. This migration step re-organizes that content into the folder structure you had in your source system.
 
-### Prerequisites
-
-Before starting content folder migration, confirm the following:
-
-| Prerequisite | Why it matters |
-| --- | --- |
-| The Hierarchical Content Folders feature is enabled for your account | The migration fails if this feature is not active. Contact Adobe if you are unsure. |
-| A migration project has been created in the migration tool | All CSV files must run under a migration project for tracking and re-run support. |
-| Users, courses, modules, and content files have already been migrated (Stages 1–4 of your migration) | Folder migration is Stage 5 — it organizes content that must already exist in Adobe Learning Manager. |
-| Your administrator account has migration execution permission | Required to trigger migration sprints. |
-
 ### What this migration does
 
 Content folder migration creates up to three levels of nested folders in the Adobe Learning Manager Content Library and associates your existing content files with the correct subfolders. Your course and module linkages to content files are not affected. Only the folder organization changes.
