@@ -83,6 +83,8 @@ Key capabilities:
 
 For more information on admin-level functionalities, see [Hierarchical content folders](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder). For more information on author- level functionalities, see [Hierarchical content folders](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder).
 
+If you are migrating your learning content from another platform into Adobe Learning Manager and want to preserve your existing folder organization, you can use CSV files to create a hierarchical folder structure and associate your content files with the appropriate folders. Learn more about migration in [Migrate content folder hierarchy](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
+
 ## Live Hub
 
 Live Hub is an AI-powered virtual training experience within Adobe Learning Manager that helps organizations deliver engaging and impactful live learning. With intelligent features such as AI-powered polls, breakout room orchestration, persistent learning spaces, and AI-powered assistance, Live Hub supercharges Instructor productivity while reducing the complexity of session delivery.
