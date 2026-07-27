@@ -407,13 +407,13 @@ If Learners completed a Course/Path earlier and another Course/Path is later add
 **Activate retroactive incompletions (Irreversible)**
 If a Course/Path is removed from Alternate Courses/Paths, Learners who were previously marked as completed via alternate will be marked incomplete. This affects all Learners whose completion was based solely on the alternate, not Learners who completed the course directly. Their transcript will reflect the updated incomplete status. Once activated, this cannot be deactivated.
 
-### Gradebook visibility
+### Gradebook visibility {#gradebookvisibility}
 
 When enabled, authors can control gradebook visibility at the course level, allowing Learners to view their weighted module scores, aggregate course score, and pass/fail status directly in the course player. If this setting is disabled at the account level, Learners cannot see the gradebook in any course, regardless of how individual courses are configured. Gradebook scores and calculations continue to run in the background for administrator reporting purposes even when learner visibility is turned off.
 
 **Enable Gradebook view for Learners**
 
-Activates the account-level permission that allows authors to show or hide the gradebook per course. Once enabled, authors see a Show gradebook to learners option in the course editor. Learners will see a Gradebook tab in the course player for any course where the author has enabled it. Disabling this setting at the account level overrides all course-level configurations. Learners will not see the gradebook in any course until the setting is re-enabled.
+Activates the account-level permission that allows authors to show or hide the gradebook per course. Once enabled, authors see a Show gradebook to learners option in the course editor. Learners will see a Gradebook tab in the course player for any course where the author has enabled it. Disabling this setting at the account level overrides all course-level configurations. Learners will not see the gradebook in any course until the setting is re-enabled. For more information, see [Gradebook for admin](/help/migrated/administrators/feature-summary/alm-admin-gradebook.md).
 
 ### External learning
 

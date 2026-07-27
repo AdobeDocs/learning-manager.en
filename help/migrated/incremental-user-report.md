@@ -130,7 +130,7 @@ Job type: generateUsers. Admin role only.
 
 ## Incremental User Report (generateUserIncrementalReport)
 
-This section documents the new incremental user report feature introduced in M46. This is the primary subject of this document.
+This section documents the newly introduced feature - Incremental User Report feature.
 
 ## What Is an Incremental Export?
 
@@ -318,6 +318,4 @@ The incremental user report is intentionally scoped. The following capabilities 
 
 The incremental user report is designed to be used in Adobe Learning Manager connectors (PowerBI, Salesforce, and others) as a drop-in replacement for the full user report in regular sync pipelines. This allows connectors that today use generateUsers to migrate to the incremental model without changes to the downstream data schema.
 
-* The output CSV is column-compatible with the full user report.
-* Connectors can use the incremental report for delta-sync and fall back to the full report for bootstrap or recovery.
-* Support for connector integration (PowerBI, SFDC) 
+Connectors can use the incremental report for delta-sync and fall back to the full report for bootstrap or recovery.
