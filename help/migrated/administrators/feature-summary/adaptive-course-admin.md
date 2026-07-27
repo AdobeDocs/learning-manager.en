@@ -107,10 +107,18 @@ Adaptive courses can be added to catalogs within your account. When a catalog is
 >
 >When a Learning Path or certification containing an adaptive course is shared externally, the receiving account sees the Learning Path or certification in their catalog, but the adaptive course within it does not appear. The Learning Object is not excluded entirely; only the adaptive course component is removed from the shared version. Authors in the receiving account should be aware that the shared Learning Object may have fewer modules than the source version.
 
+>[!NOTE]
+>
+>When an adaptive course is configured as a prerequisite of another course, and that parent course is shared to a receiving account via catalog sharing, the adaptive prerequisite course is not shared to the receiving account. This applies whether the prerequisite is set directly on the course or through a higher-order Learning Object such as a Learning Path or certification.
+>
+>In the receiving account, the parent course is available but the adaptive prerequisite is absent. Learners in the receiving account are not affected by the missing prerequisite because the prerequisite dependency is not enforced for content that arrives through catalog sharing without its prerequisites present.
+>
+>Do not configure adaptive courses as prerequisites for content you intend to share externally.
+
 ## Supported configurations
 
 | Configuration | Supported? |
-|---|---|
+| --- | --- |
 | Adaptive course in a regular Learning Path | Yes (see note below) |
 | Adaptive course in a flex Learning Path | Yes |
 | Adaptive course in an adaptive Learning Path | No |
