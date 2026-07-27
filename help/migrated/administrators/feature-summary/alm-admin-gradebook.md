@@ -14,11 +14,12 @@ Before authors can show the gradebook to learners in a course, an administrator 
 
 The **Gradebook visibility** setting in **Settings** > **General** determines whether authors are permitted to expose the gradebook to learners at the course level.
 
+For more information, see [Gradebook visibility](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility).
+
 | Setting state | Effect |
 | --- | --- |
 | Enabled | Authors can control gradebook visibility per course using the **Show gradebook to learners** option in the course editor. Learners see the **Gradebook** tab in courses where the author has enabled it. |
 | Disabled | Learners cannot see the gradebook in any course. If it is disabled, the course configuration will not have the setting to show the gradebook to learners. |
-
 
 This means the account-level setting and the course-level setting work together. Both must be enabled for a learner to see the gradebook.
 
