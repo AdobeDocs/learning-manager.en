@@ -14,7 +14,7 @@ Before authors can show the gradebook to learners in a course, an administrator 
 
 The **Gradebook visibility** setting in **Settings** > **General** determines whether authors are permitted to expose the gradebook to learners at the course level.
 
-For more information, see [Gradebook visibility](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility)
+For more information, see [Gradebook visibility](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility).
 
 | Setting state | Effect |
 | --- | --- |
