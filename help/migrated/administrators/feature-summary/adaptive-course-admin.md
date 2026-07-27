@@ -128,6 +128,15 @@ Adaptive courses can be added to catalogs within your account. When a catalog is
 | Catalog sharing (cross-account) | No |
 | Visibility rules on pre-work or test-out modules | No |
 | Visibility rules on core content modules | Yes |
+| Adaptive course in a flex Learning Path | Yes |
+
+>[!NOTE]
+>
+>When downloading the **Attendance report PDF** for a session within an adaptive course that is part of a Flex Learning Path, waitlisted learners appear under the Active section of the PDF. The Learning Path interface does not have a dedicated Waitlist section, so no separate waitlist bucket exists in the PDF export. To identify waitlisted learners accurately, check **Admin > [Adaptive Course] > Waitlist** before marking attendance.
+
+The **Embedded In** column in the Waitlist report identifies the Flex Learning Path instances that contain this adaptive course as a constituent. It shows the Learning Path name and Learning Object ID. It is not intended to show individual learner enrollment paths. For adaptive courses nested inside a sub-Learning Path that is itself inside a parent Learning Path, only the direct parent Learning Path appears in this column.
+
+When the adaptive course is part of a **recurring certification**, refresh completion applies only to the learner's enrollment in the root certification cycle. Subsequent recurred cycles contain a separate instance of the adaptive course that is not affected by the refresh. Learners enrolled in a recurred cycle do not see module updates or have their completions rolled back. If your organization uses adaptive courses in recurring certifications, communicate this limitation to administrators before triggering refresh completions.
 
 >[!NOTE]
 >
