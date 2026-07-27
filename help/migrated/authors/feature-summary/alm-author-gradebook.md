@@ -27,7 +27,7 @@ Gradebook is configured at the course level when creating a new course. It canno
 
 * Select the **Gradebook** toggle to enable it. Two options appear beneath it. Both are on by default:
   * **Show Gradebook to learners:** learners see a **Gradebook** tab in the course player showing their module scores, weightage breakdown, and aggregate result. Turn this off to calculate grades internally without exposing them to learners.
-  * **Include modules that don't contribute to final grade:** non-scorable modules (PDF, video, audio, and similar) appear in the Gradebook. The non-scorable modules do not contribute to the final score of the learner.
+  * **Include modules that don't contribute to final grade:** Modules that are not part of passing criteria requirement will also be shown in the gradebook. If this setting is not checked, only those modules will be shown that are part of the passing criteria.
 
 ### Add modules and assign weightage
 
