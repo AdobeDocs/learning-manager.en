@@ -169,22 +169,25 @@ Before configuring the AI Assistant, confirm that you have administrator credent
 
 To enable Learner AI Assistant:
 
-1.Log in to Adobe Learning Manager as an administrator.
+1. Log in to Adobe Learning Manager as an administrator.
 
-2.Select **Settings** from the home page.
-![Administrator console with the Settings option on the left pane](assets/settings-menu.png)
+1. Select **Settings** from the home page.
 
-3.Select **Learner AI Assistant (Beta)** from the **Settings** menu.
-![Administrator console displays the Learner AI Assistant option on the left pane](assets/learner-assistant-ai-beta.png)
+   ![Administrator console with the Settings option on the left pane](assets/settings-menu.png)
 
-4.Select the toggle switch to enable the **Learner AI Assistant (Beta)**.
-<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
-<!--5. Select one or more user groups from the **Eligible user groups** option.-->
-<!--5. Select **Save** to apply the user group settings.-->
+1. Select **Learner AI Assistant (Beta)** from the **Settings** menu.
 
-5.Select one or more catalogs from the **Eligible Catalogs** option.
+   ![Administrator console displays the Learner AI Assistant option on the left pane](assets/learner-assistant-ai-beta.png)
 
-6.Select **Save** to apply the catalog settings.
+1. Select the toggle switch to enable the **Learner AI Assistant (Beta)**.
+
+   <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+   <!--5. Select one or more user groups from the **Eligible user groups** option.-->
+   <!--5. Select **Save** to apply the user group settings.-->
+
+1. Select one or more catalogs from the **Eligible Catalogs** option.
+
+1. Select **Save** to apply the catalog settings.
 
 >[!IMPORTANT]
 >
@@ -196,20 +199,23 @@ To launch the AI Assistant:
 
 1. Log in to Adobe Learning Manager as a learner.
 
-2. Select **Ask AI Assistant** on the home page.
-![Learner home page displays Ask AI Assistant to select and open the Learner AI Assistant panel](assets/ask-ai-assistant.png)
+1. Select **Ask AI Assistant** on the home page.
 
-3. When the **Learner AI Assistant** screen appears, select **Get Started**.
-![Select Get started to launch the Learner Assistant](assets/get-started-learner-assistant.png)
+   ![Learner home page displays Ask AI Assistant to select and open the Learner AI Assistant panel](assets/ask-ai-assistant.png)
 
->[!NOTE]
->
->When launching the AI Assistant for the first time, you must provide your consent before using it. The consent dialog will only appear during this initial launch. For all subsequent launches, you will be taken directly to the AI Assistant to enter your prompts.
+1. When the **Learner AI Assistant** screen appears, select **Get Started**.
 
-4.Type your prompt in the text field.
-<!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+   ![Select Get started to launch the Learner Assistant](assets/get-started-learner-assistant.png)
 
-5.Press **Enter** to receive a response. Review your answer, sources, and recommendations.
+   >[!NOTE]
+   >
+   >When launching the AI Assistant for the first time, you must provide your consent before using it. The consent dialog will only appear during this initial launch. For all subsequent launches, you will be taken directly to the AI Assistant to enter your prompts.
+
+1. Type your prompt in the text field.
+
+   <!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+
+1. Press **Enter** to receive a response. Review your answer, sources, and recommendations.
 
 You can:
 
