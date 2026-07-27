@@ -1,5 +1,5 @@
 ---
-description: Learn about the new features and enhancements, including API and webhooks changes, in the April 2026 release of Adobe Learning Manager
+description: Learn about the new features and enhancements, including API and webhooks changes, in the August 2026 release of Adobe Learning Manager
 jcr-language: en_us
 title: What's new in Adobe Learning Manager August 2026 release
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
