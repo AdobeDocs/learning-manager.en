@@ -105,6 +105,18 @@ Once published, the course is available for enrollment. Learners see only the mo
 >
 >Once published, you cannot switch the course from Adaptive to Regular or vice versa. Verify your configuration before publishing.
 
+### Catalog sharing behavior
+
+When a catalog containing adaptive courses is shared externally to a peer account, the following behaviors apply:
+
+* **Adaptive courses shared directly:** Adaptive courses are excluded from the shared catalog. They do not appear in the receiving account.
+* **Adaptive courses inside a Learning Path or certification:** If an LP or certification containing an adaptive course is shared, the LP or certification itself is copied to the receiving account. The adaptive course within it is copied as a **regular course** — the adaptive configuration, including all visibility and completion rules, is not copied. Authors in the receiving account see the course as a regular course with all modules visible to all learners.
+* **Adaptive courses set as prerequisites:** If an adaptive course is configured as a prerequisite of a regular course, Learning Path, or certification that is being shared, the prerequisite relationship is not propagated to the receiving account. The parent course or LO arrives in the receiving account without the prerequisite.
+
+>[!NOTE]
+>
+>Because adaptive configurations are not copied during catalog sharing, review all prerequisite relationships and LP/certification structures before sharing a catalog externally. Learners in the receiving account will not experience the same adaptive behavior as learners in the source account.
+
 
 ### Update a published adaptive course
 
@@ -134,6 +146,14 @@ Note that you can no longer change the visibility settings in the adaptive cours
 | Module changed from mandatory to optional for a learner's user group | Module remains visible; learner no longer needs to complete it for course completion. |
 | New mandatory module added (learner has already completed the course) | Module becomes visible to the learner but they do not automatically get a seat or access it. The new module becomes accessible only when a refresh completion is triggered. |
 
+>[!NOTE]
+>
+>**Ordered Learning Path:** When an adaptive course is included in an ordered Learning Path, learners who have no visible modules in the adaptive course cannot complete it. This blocks all subsequent items in the ordered Learning Path from becoming accessible. Ensure every learner enrolled in the Learning Path belongs to at least one user group that makes at least one module visible in every adaptive course in the path.
+
+>[!NOTE]
+>
+>**Regular Learning Path — auto-unenrollment:** When a learner is auto-unenrolled from an adaptive course inside a regular Learning Path because a user group change removed all their visible modules, the parent Learning Path remains in an enrolled state. The Learning Path does not auto-unenroll. The learner sees the Learning Path as enrolled in their transcript even though the adaptive course is no longer accessible. If your use case requires the Learning Path to also unenroll when the adaptive course does, use an **adaptive Learning Path** instead of a regular Learning Path.
+
 ### Instance switching behavior
 
 A learner who switches instances of an adaptive course carries forward their progress:
@@ -153,10 +173,16 @@ When a learner enrolls in an adaptive course that includes classroom or virtual 
 * If all visible classroom or virtual classroom sessions have available seats, the learner is enrolled and has full access immediately.
 * If one or more visible sessions have no available seats, the learner is enrolled and immediately waitlisted on those specific sessions only. They can start and progress through all other modules right away.
 
+### Waitlist limit
+
+In regular courses, instructors can configure a **Waitlist limit**, a cap on the number of learners who can be placed on the waitlist for a session. 
+
+In adaptive courses, the **Waitlist limit** setting is disabled in the instructor app and cannot be configured. There is no cap on the number of learners who can be waitlisted for a session in an adaptive course. All learners who attempt to enroll when a session is full are waitlisted without restriction.
+
 The following table describes all seat and waitlist scenarios for adaptive courses.
 
 | Condition at enrollment | Result |
-|---|---|
+| --- | --- |
 | All visible CR/VC sessions have available seats | Enrolled with full access to all modules |
 | One or more visible CR/VC sessions are full | Enrolled; waitlisted on full sessions only; all other modules accessible immediately |
 | Learner already enrolled; author adds new mandatory CR/VC session with no seats | Learner waitlisted on the new session; existing progress and access unaffected |
@@ -164,6 +190,12 @@ The following table describes all seat and waitlist scenarios for adaptive cours
 | User group change removes a session from the learner's visible set | Seat freed immediately |
 | Learner completes the course; new mandatory CR/VC session becomes visible | Module visible but no seat automatically assigned. Learner must trigger refresh completion to access the session. |
 | Admin or instructor allocates seats | All waitlisted CR/VC sessions for that learner are cleared simultaneously |
+
+>[!NOTE]
+>
+>**Flex Learning Path behavior:** When an adaptive course is part of a Flex Learning Path, waitlisting behavior differs from direct enrollment. If a learner selects an instance of the adaptive course inside the Flex LP and no seats are available for that instance, the learner is waitlisted for that specific instance. Waitlisted learner information for this scenario is visible only from **Admin > [Adaptive Course] > Waitlist** — it does not appear in **Admin > Learning Path**. Check the adaptive course's own Waitlist tab to manage learners who were waitlisted through a Flex LP.
+
+When you download the **Attendance report PDF** for a session in an adaptive course that is part of a Flex Learning Path, waitlisted learners appear under the **Active** section of the PDF. This is because the Learning Path interface does not have a separate Waitlist section. Use **Admin > [Adaptive Course] > Waitlist** to identify which learners are waitlisted and distinguish them from confirmed attendees before marking attendance.
 
 ### View the waitlist
 
