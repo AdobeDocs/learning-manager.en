@@ -130,7 +130,7 @@ Job type: generateUsers. Admin role only.
 
 ## Incremental User Report (generateUserIncrementalReport)
 
-This section documents the new incremental user report feature introduced in M46. This is the primary subject of this document.
+This section documents the newly introduced feature - Incremental User Report feature.
 
 ## What Is an Incremental Export?
 
