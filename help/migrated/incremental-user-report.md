@@ -318,6 +318,4 @@ The incremental user report is intentionally scoped. The following capabilities 
 
 The incremental user report is designed to be used in Adobe Learning Manager connectors (PowerBI, Salesforce, and others) as a drop-in replacement for the full user report in regular sync pipelines. This allows connectors that today use generateUsers to migrate to the incremental model without changes to the downstream data schema.
 
-* The output CSV is column-compatible with the full user report.
-* Connectors can use the incremental report for delta-sync and fall back to the full report for bootstrap or recovery.
-* Support for connector integration (PowerBI, SFDC) 
+Connectors can use the incremental report for delta-sync and fall back to the full report for bootstrap or recovery.
