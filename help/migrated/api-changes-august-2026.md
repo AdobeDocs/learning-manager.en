@@ -504,7 +504,9 @@ Provide the **root certification ID** as an input. The API evaluates the learner
 
 This means two learners querying the same root certification ID at the same time may receive different results, depending on each learner's individual enrollment history.
 
-**Note**: There may be a brief window during a recurrence, while the new version is being created, and enrollments are being migrated, in which the API may return the version that is about to be superseded rather than the newly created one.
+>[!NOTE]
+>
+>There may be a brief window during a recurrence, while the new version is being created, and enrollments are being migrated, in which the API may return the version that is about to be superseded rather than the newly created one.
 
 **Example**
 
