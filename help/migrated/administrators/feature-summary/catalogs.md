@@ -201,6 +201,92 @@ To delete a shared catalog, click **[!UICONTROL Actions]** drop-down and click *
 * You cannot delete a catalog that has been shared externally by you. 
 * You cannot delete a catalog which was shared to you from other accounts. 
 
+## Restrict changes on acquired Courses/Learning Paths {restrictchangesonacquiredcourseslp}
+
+In organizations that use account sharing, learning content is often authored and maintained in a primary account and then shared with peer accounts through shared catalogs. While this model helps maintain consistent content across multiple accounts, it can also lead to unintended modifications in receiving accounts.
+
+This helps protect shared learning objects by preventing authors in receiving accounts from making changes that could break the relationship between the source account and the shared content. This allows content owners to maintain centralized governance while ensuring that updates from the source account continue to flow to receiving accounts.
+
+This feature helps organizations:
+
+* Preserve the integrity of content shared from a source account.
+* Prevent accidental modifications that may break synchronization with the source account.
+* Reduce content management overhead across multiple accounts.
+* Ensure that updates made in the source account continue to propagate to receiving accounts.
+* Provide clear warnings to authors when they attempt to modify shared content.
+
+When a catalog is shared from a source account to a receiving account, learning objects such as courses, learning paths, and certifications become available in the receiving account.
+
+If the receiving account enables Restrict changes on acquired Courses/Learning Paths, Adobe Learning Manager restricts editing of inherited content that originates from the shared catalog. Authors can still consume and use the shared content, but they cannot make changes that could sever the relationship with the source account.
+
+### Enable Edit Restrictions for Shared Catalog Content
+
+**Prerequisites**
+
+The account must already be receiving content from a shared catalog.
+
+1. Sign in to ALM as an administrator.
+2. Select **Catalogs**.
+3. Select a shared catalog.
+4. In the **Overview** section of the shared catalog, select the toggle **Restrict changes on acquired Courses/Learning Paths**. When enabled, changes on Courses/Learning Paths part of acquired catalog are restricted to allow updates to flow from main account to this account.
+
+   ![](assets/shared-catalog-enabled.png)
+   
+5. Select **Update** to save the configuration.
+
+### Author experience
+
+When an author opens a course that has been acquired through a shared catalog, the system displays an informational message indicating that:
+
+* The course originates from a shared catalog.
+* Editing restrictions are enabled.
+* Certain content modifications are restricted.
+
+### Attempt to edit restricted content
+
+If an author attempts to modify protected content:
+
+* The author may see a warning indicating that the course was acquired from a source account.
+* The warning explains that modifying the content may break the relationship with the source account.
+* Depending on the settings, the system restricts or prevents changes to the affected content.
+
+This helps authors understand the impact of their actions before changes are made.
+
+**What changes are restricted?**
+
+When edit restrictions are enabled, modifications to inherited course content are restricted because those components are maintained by the source account. These restrictions are designed to preserve synchronization between accounts.
+
+Examples of content typically governed by the source account include:
+
+* Course metadata
+* Shared course structure
+* Shared learning content
+* Shared learning path configurations
+
+The objective is to prevent changes that could cause the receiving account's copy to diverge from the source version.
+
+**What changes remain allowed?**
+
+Some settings continue to be managed independently within the receiving account and remain editable. These are:
+
+* Email template customization
+* Instance management
+* Other account-level configurations that do not originate from the source account.
+
+### Example scenario
+
+#### Before restriction
+
+A corporate learning team maintains a compliance course in the source account and shares it with multiple regional accounts.
+
+An author in a regional account edits the acquired course directly. As a result, the connection with the original course may be disrupted, preventing future updates from the source account from flowing correctly.
+
+#### After restriction
+
+The receiving account enables **Restrict changes on acquired Courses/Learning Paths**.
+
+When regional authors access the shared course, they can view and assign the content, but protected fields cannot be modified. Updates made by the source account continue to be delivered to receiving accounts without interruption.
+
 ## Enable full control of shared catalog {#enablefullcontrolofsharedcatalog}
 
 You can grant full access to your catalog to external accounts. The administrator of the account can then accept the catalog and can accordingly add or delete learning(s) or modules.
