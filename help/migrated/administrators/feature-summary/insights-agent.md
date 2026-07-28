@@ -127,10 +127,11 @@ After each response, select the thumbs-up or thumbs-down icon to rate the result
 
 ## Best practices
 
-- Start with a specific question rather than a broad one. \"What is the completion rate for the Safety Training course in the North America user group?\" returns more useful results than \"Show me completion data.\"
+- Start with a specific question rather than a broad one. \"What is the completion rate for the Safety Training course in the North America user group?\" returns more useful results than \"Show me completion data."
 - Use exact Adobe Learning Manager terms when naming content and learner groups. The query writing guide lists the correct terms to use.
 - If the agent asks a clarifying question, treat it as a signal to refine your original query. The more specific your question, the fewer clarifications are needed.
 - Review the **Approach** section before acting on the results, especially for compliance-related queries where accuracy is critical.
+- **Specify whether to include or exclude waitlisted learners**. By default, enrollment count queries include learners who are on a waitlist alongside active, confirmed enrollments. If you need only active participants, explicitly exclude waitlisted learners in your query. For example: "How many learners are directly enrolled in the Safety Training course, excluding waitlisted learners?" The agent will disclose in the Approach section that the exclusion was applied. Without this instruction, enrollment totals may include a significant proportion of waitlisted learners who have not yet started the content.
 
 
 ## Write effective queries for the Insights Agent
@@ -261,9 +262,11 @@ When you query data for a course that is associated with a recurring certificati
 
 After content is created, learners are enrolled, or completion records are updated, it may take up to 30 minutes for that data to be available in query results. If your results appear incomplete or do not reflect recent activity, wait 30 minutes and try your query again.
 
-**Enrollment and completion data includes both direct and indirect enrollments**
+**Direct and indirect enrollment counts**
 
-When you query enrollment or completion data for a course or learning path, Insights Agent returns a combined count that includes both direct enrollments (learners enrolled specifically in that course or learning path) and indirect enrollments (learners who accessed the same content as part of another learning path or certification). The results do not separate these two enrollment types.
+When you query enrollment or completion data for a course or learning path, Insights Agent distinguishes between direct enrollments (learners enrolled specifically in that course or learning path) and indirect enrollments (learners who accessed the same content as part of a Learning Path or certification). If you ask specifically for direct or indirect enrollments, the agent returns the correct count for each type.
+
+If your query does not specify direct or indirect, the agent may return a combined count. To get separated counts, include the distinction explicitly in your query. For example: "How many learners are directly enrolled versus indirectly enrolled in the Safety Training course?"
 
 **Queries submitted in non-Latin scripts are not supported**
 
