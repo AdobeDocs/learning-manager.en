@@ -1175,6 +1175,17 @@ Migrating an adaptive course requires two changes to your standard migration CSV
 
 Both files must be included in the same migration project.
 
+### Updated CSV file names for adaptive course migration
+
+CSV file names for adaptive course and adaptive Learning Path migration now follow the full-name convention used by all other migration files in Adobe Learning Manager. For example, ```learning_object_section.csv``` instead of ```lo_section.csv```. If you have existing migration scripts or templates that reference the previous short-form names, update them to the new names before your next migration run.
+
+| Old name | New name |
+| --- | --- |
+| `lo_section.csv` | `learning_object_section.csv` |
+| `lp_section.csv` | `learning_program_section.csv` |
+| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
+| `course_module_ug.csv` | `course_module_user_group.csv` |
+
 ### Update course.csv
 
 Add the isAdaptive column to your course.csv file.
