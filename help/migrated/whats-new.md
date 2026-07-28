@@ -196,6 +196,10 @@ Two access levels are available:
 | **Read only** | View all custom roles, import logs, and deleted users; download the custom roles report |
 | **Full control** | All read-only capabilities plus: create, edit, delete, and assign custom roles; import users via CSV; purge deleted users |
 
+### Limitations
+
+**Manually created roles only**: The expanded custom role administration capabilities apply only to roles created through the Adobe Learning Manager administrtor interface. Roles imported via CSV upload are not supported.
+
 Learn more about Custom role changes. For more information, see [What the Advanced user permission unlocks](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
 
 ## LTI deep linking
