@@ -125,9 +125,8 @@ Either field may be omitted; omitting a field leaves its current value unchanged
 
 | **Parameter** | **Required** | **Type** | **Description**                                                           |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| name          | No           | string   | New display name. Must not be blank if provided. Omit to leave unchanged. |
-| description   | No           | string   | New description. Pass null to clear. Omit to leave unchanged.             |
-| data          | —            | null     | Must be null or absent. Any non-null value returns a 400 error.           |
+| name          | Yes          |  string   | New display name. Must not be blank if provided. Omit to leave unchanged. |
+| description   | No           | string   | New description. Pass null to clear. Omit to leave unchanged.               |
 
 #### **Response 200 OK**
 
