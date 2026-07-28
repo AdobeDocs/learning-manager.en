@@ -1,15 +1,13 @@
 ---
 jcr-language: en_us
 title: Report Builder in Adobe Learning Manager
-description: Introduction to Report Builder 
+description: Build, preview, and download custom reports with the columns, filters, and data you choose, without post-processing using any tool. 
 contentowner: mmanuel
 ---
 
 # Report Builder in Adobe Learning Manager
 
 ## Overview
-
-Build, preview, and download custom reports with the columns, filters, and data you choose, without post-processing using any tool.
 
 Adobe Learning Manager's Report Builder gives administrators a self-serve reporting canvas to create exactly the reports they need. Instead of downloading a fixed report and reshaping it in a spreadsheet tool, you select the columns you want, apply filters, and download a clean output, all from one place.
 
