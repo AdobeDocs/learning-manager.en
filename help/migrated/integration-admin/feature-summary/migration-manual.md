@@ -1162,7 +1162,7 @@ When creating LTI module versions:
 
 The migration system applies the standard migration processing workflow in addition to the LTI-specific fields.
 
-## Migrate adaptive courses
+## Migrate adaptive courses {#migrateadaptivecourses}
 
 If you are migrating courses from an external system into Adobe Learning Manager and want them configured as adaptive courses with module-level visibility and completion rules per user group, you can use two CSV files to define both the courses and their adaptive rules.
 
