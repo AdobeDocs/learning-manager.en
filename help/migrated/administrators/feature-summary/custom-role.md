@@ -300,6 +300,11 @@ When assigning users to a role you have created, you can search and add any user
 
 If a full administrator reduces your scope or removes a permission from your role, any roles you have previously created are not immediately affected. Those roles continue to operate with their existing permissions until a full administrator opens and saves each one individually.
 
+>[!IMPORTANT]
+>
+>**Manually created roles only**: The expanded custom role administration capabilities apply only to roles created through the Adobe Learning Manager administrtor interface. Roles imported via CSV upload are not supported.
+
+
 ## Grant Advanced user permissions to a custom role
 
 Full administrators complete this procedure to enable expanded user management for a custom role.
