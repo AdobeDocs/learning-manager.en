@@ -201,7 +201,7 @@ To delete a shared catalog, click **[!UICONTROL Actions]** drop-down and click *
 * You cannot delete a catalog that has been shared externally by you. 
 * You cannot delete a catalog which was shared to you from other accounts. 
 
-## Restrict changes on acquired Courses/Learning Paths {restrictchangesonacquiredcourseslp}
+## Restrict changes on acquired Courses/Learning Paths {#restrictchangesonacquiredcourseslp}
 
 In organizations that use account sharing, learning content is often authored and maintained in a primary account and then shared with peer accounts through shared catalogs. While this model helps maintain consistent content across multiple accounts, it can also lead to unintended modifications in receiving accounts.
 
@@ -231,7 +231,7 @@ The account must already be receiving content from a shared catalog.
 4. In the **Overview** section of the shared catalog, select the toggle **Restrict changes on acquired Courses/Learning Paths**. When enabled, changes on Courses/Learning Paths part of acquired catalog are restricted to allow updates to flow from main account to this account.
 
    ![](assets/shared-catalog-enabled.png)
-   
+
 5. Select **Update** to save the configuration.
 
 ### Author experience
