@@ -2,6 +2,7 @@
 title: What's upcoming in Adobe Learning Manager
 description: Explore upcoming changes in Adobe Learning Manager. Stay informed with the latest updates and future announcements.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
+hide: true
 ---
 
 # Updates in Adobe Learning Manager
