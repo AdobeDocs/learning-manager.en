@@ -196,7 +196,7 @@ Select **[!UICONTROL Edit]** to restrict what a learner can see:
  
 Learners then explore skills and tags visible to them and subscribe to skills of their choice.
 
-### Unique Learning Object Ids
+### Unique Learning Object IDs
 
 The option allows you to assign a unique identifier to each learning object (such as courses, Learning Paths, certifications, or job aids). This ensures that every learning object has a distinct ID, which can be useful for tracking, reporting, and integration with external systems. 
 

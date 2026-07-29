@@ -10,23 +10,6 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 >
 >The features described in this article are available as part of the beta release. Adobe Learning Manager beta features are provided for evaluation purposes and may be modified, limited, or removed before the general availability release. Feature names, behavior, and configuration options are subject to change without notice.
 
-
-## Adaptive courses
-
-Adaptive courses let you deliver personalized training by controlling which modules each learner sees, and which are required, based on the user groups they belong to. A single course dynamically presents the right content to the right person automatically.
-
-Authors configure each module with **Optional** and **Mandatory** for user group rules. Learners in different user groups can complete entirely different sets of modules and still complete the same course. Seat limits for classroom and virtual classroom sessions are now enforced at the module level, so a learner can be enrolled in a course while waitlisted on a specific session only. For more information, see [Adaptive Courses - Author](/help/migrated/authors/feature-summary/adaptive-course-author.md)
-
-Key capabilities:
-
-* Module-level visibility and completion rules per user group
-* OR-merge logic: if any group makes a module mandatory, it is mandatory for that learner
-* Module-level waitlisting for classroom and virtual classroom sessions
-* Refresh completion triggered when a learner's profile changes
-* Supported in learning paths and certifications with documented limitations for recurring certifications
-
-Learn more about adaptive courses.
-
 ## Gradebook
 
 A gradebook in Adobe Learning Manager adds weighted scoring to courses, allowing authors to assign a contribution percentage to each scored module and set a minimum aggregate score for course completion. Learners can track their grades throughout the course, and administrators can view final scores and download relevant transcripts. 
@@ -100,7 +83,6 @@ Key highlights:
 >[!NOTE]
 >
 >Live Hub is currently in Beta and will be available with the upcoming August release of Adobe Learning Manager. The documentation for Live Hub will be available once the feature is released.
-
 
 ## Component-based email template builder
 

@@ -27,7 +27,7 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 ## Release highlights
 
-The August 2026 release of Adobe Learning Manager delivers significant advances across personalized learning, AI, reporting, and integrations. Adaptive courses introduce user-group-driven module visibility and completion rules, allowing a single course to present different content to different learners based on their role, region, or profile, eliminating the need to maintain separate course versions. 
+The August 2026 release of Adobe Learning Manager delivers significant advances across personalized learning, AI, reporting, and integrations.
 
 The full-featured gradebook adds weighted scoring and aggregate pass/fail calculation to courses, giving organizations a precise, configurable measure of learner performance beyond simple completion tracking. 
 

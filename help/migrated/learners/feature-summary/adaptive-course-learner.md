@@ -2,6 +2,7 @@
 jcr-language: en_us
 title: Adaptive courses for learners
 description: Consume adaptive courses that cater to specific requirements of your user group.
+hide: true
 ---
 
 # Adaptive courses for learners 

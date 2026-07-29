@@ -3,6 +3,7 @@ description: As an author, learn how to create adaptive courses for your learner
 jcr-language: en_us
 title: Adaptive courses for authors
 contentowner: mmanuel
+hide: true
 ---
 
 # Adaptive courses for authors 
