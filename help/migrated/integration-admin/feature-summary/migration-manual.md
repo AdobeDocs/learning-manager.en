@@ -1161,3 +1161,182 @@ When creating LTI module versions:
 * Continue to follow all existing module version migration requirements and validation rules documented for `module_version.csv`.
 
 The migration system applies the standard migration processing workflow in addition to the LTI-specific fields.
+
+## Migrate content folder hierarchy {#migratecontentfolderhierarchy}
+
+If you are migrating your learning content from another platform into Adobe Learning Manager and want to preserve your existing folder organization, you can use CSV files to create a hierarchical folder structure and associate your content files with the appropriate folders.
+
+This migration is typically performed as part of a larger platform migration, after your users, courses, modules, and content files have already been imported into Adobe Learning Manager. This migration step re-organizes that content into the folder structure you had in your source system.
+
+### What this migration does
+
+Content folder migration creates up to three levels of nested folders in the Adobe Learning Manager Content Library and associates your existing content files with the correct subfolders. Your course and module linkages to content files are not affected. Only the folder organization changes.
+
+The migration runs as an asynchronous background job. You upload a CSV file, the migration processes in the background, and you can monitor progress while the system works. The migration can be re-run if corrections are needed; rows that were already successfully processed are automatically skipped on a subsequent run.
+
+### Two phases of migration
+
+Content folder migration has two independent phases. Each can be run and validated separately.
+
+| Phase | What you provide | What it does |
+| --- | --- | --- |
+| **Phase 1 — Folder structure** | `content_folder.csv` | Creates your Level 1, Level 2, and Level 3 folder hierarchy in Adobe Learning Manager |
+| **Phase 2 — Content association** | `module_version.csv` (updated with folder path) | Associates your content files with the correct folders when importing module versions |
+
+Phase 2 does not require a separate CSV file — you add a folder path column to your existing `module_version.csv` file.
+
+### Phase 1: Create the folder hierarchy
+
+#### Plan your folder hierarchy first
+
+Before preparing the CSV, map your source system's folder or category structure to Adobe Learning Manager's three-level hierarchy. Adobe Learning Manager supports a maximum depth of three levels (Level 1 → Level 2 → Level 3). If your source system has deeper nesting, flatten it to three levels before migrating.
+
+>[!NOTE]
+>
+>If your source system uses forward slashes (`/`) in category or folder names, replace them with a hyphen (`-`) or underscore (`_`) before preparing your CSV. Adobe Learning Manager does not allow `/` in folder names because it is reserved for folder path resolution.
+
+#### content_folder.csv
+
+Use `content_folder.csv` to define the target folder hierarchy. Each row in the file represents one folder.
+
+**Column reference:**
+
+| Column | Required | Description |
+| --- | --- | --- |
+| `id` | Yes | A unique identifier you assign to this folder. This is your own reference ID — for example, a category ID from your source system. Used to link parent and child folders within the file and to make the migration re-runnable safely. |
+| `name` | Yes | The display name of the folder. Maximum 63 characters. Cannot contain a forward slash (`/`). Must be unique among folders with the same parent. |
+| `description` | No | An optional description for the folder. Maximum 2,046 characters. |
+| `parentExternalId` | No | The `id` of the parent folder. Leave blank for Level 1 (root) folders. For Level 2 folders, enter the `id` of the Level 1 parent. For Level 3 folders, enter the `id` of the Level 2 parent. |
+| `action` | Yes | The operation to perform: `CREATE_FOLDER`, `UPDATE_FOLDER`, or `DELETE_FOLDER`. |
+
+**Example:**
+
+```
+id,name,description,parentExternalId,action
+folder_001,Training,,, CREATE_FOLDER
+folder_002,Sales,,folder_001,CREATE_FOLDER
+folder_003,Onboarding,,folder_002,CREATE_FOLDER
+folder_004,HR,,,CREATE_FOLDER
+folder_005,Compliance,,folder_004,CREATE_FOLDER
+```
+
+In this example:
+
+* `Training` and `HR` are Level 1 folders (no parent)
+* `Sales` is a Level 2 folder under `Training`
+* `Onboarding` is a Level 3 folder under `Sales`
+* `Compliance` is a Level 2 folder under `HR`
+
+**Validation rules:**
+
+* A folder cannot be its own ancestor — circular references are not allowed
+* The maximum folder depth is 3 levels (Level 1 → Level 2 → Level 3)
+* Two folders with the same parent cannot have the same name
+* The `parentExternalId` must reference either another row in the same CSV file or an existing folder already in your account
+* Parent folders must be listed before their child folders in the file
+
+>[!NOTE]
+>
+>You can reference an existing folder in your account (created before this migration) as the parent of a new folder by using the prefix `existing:` followed by the folder's ID in the `parentExternalId` column — for example, `existing:12345`.
+
+### Phase 2: Associate content with folders
+
+Content files are associated with folders through the `folder` column in your `module_version.csv` file. No separate CSV is required for this phase.
+
+#### Updated module_version.csv — folder column
+
+The `folder` column in `module_version.csv` now supports folder paths in addition to simple folder names.
+
+| folder value | How it is resolved |
+| --- | --- |
+| `Sales` (no slash) | Resolves by folder name — the existing behavior for Level 1 folders |
+| `Training/Sales/Onboarding` (forward slashes) | Resolves by path — navigates from Level 1 down through each level to reach the target subfolder |
+| `"Training/Sales,HR/Compliance"` (comma-separated, quoted) | Associates the content file with multiple folders; each path resolved independently |
+| (blank) | No folder association — content remains in the default location |
+
+**Example:**
+
+```
+moduleId,moduleVersion,contentType,...,folder
+MOD001,1,content,...,Training/Sales/Onboarding
+MOD002,1,content,...,HR/Compliance
+MOD003,1,content,...,"Training/Sales,HR/Compliance"
+MOD004,1,content,...,Marketing
+```
+
+>[!IMPORTANT]
+>
+>When associating a content file with multiple folders, the comma-separated list must be enclosed in double quotation marks in the CSV file, because commas are also used as column separators.
+
+>[!NOTE]
+>
+>This phase supports adding a content file to a folder. Removing a content file from a folder using the folder path approach is not supported — use the Adobe Learning Manager admin interface to remove folder associations after migration.
+
+### Migration order
+
+When running a full content migration, upload and process your files in the following order:
+
+1. `module.csv` — define your modules
+2. `module_version.csv` (without folder paths) — upload module content
+3. `course.csv` — create your courses
+4. `course_module.csv` — link modules to courses
+5. `content_folder.csv` — create the folder hierarchy (Phase 1)
+6. `module_version.csv` (with folder paths) — associate content with folders (Phase 2)
+
+>[!NOTE]
+>
+>`content_folder.csv` must be processed before the module version file that contains folder paths, because the folder structure must exist before content can be associated with it.
+
+### Validation and error reference
+
+Adobe Learning Manager validates every row in `content_folder.csv` before processing. Rows that fail validation are skipped and reported as errors. Valid rows in the same file continue to be processed.
+
+| Scenario | What happens | Resolution |
+| --- | --- | --- |
+| Folder name exceeds 63 characters | Row rejected | Shorten the name in the CSV before re-uploading |
+| Description exceeds 2,046 characters | Row rejected | Shorten the description in the CSV |
+| A folder name contains a forward slash (`/`) | Row rejected | Replace `/` with `-` or `_` in the folder name |
+| Two folders with the same parent have the same name | Row rejected | Rename one of the duplicate folders |
+| `parentExternalId` references an ID not found in the file or in the account | Row rejected | Confirm the parent folder ID is correct and that the parent row was successfully processed |
+| The folder depth exceeds 3 levels | Row rejected | Flatten your hierarchy to a maximum of 3 levels before migrating |
+| Circular reference detected (folder A is ancestor of folder B, and B is listed as parent of A) | Entire CSV rejected | Review the `parentExternalId` chain and remove the circular reference |
+| `action` is not `CREATE_FOLDER`, `UPDATE_FOLDER`, or `DELETE_FOLDER` | Row rejected | Correct the `action` value — only these three values are accepted |
+| `DELETE_FOLDER` for a folder that still contains content files | Row rejected | Move content files to another folder before deleting, or remove the delete row and handle manually in the admin interface |
+| `UPDATE_FOLDER` for an `id` that does not exist in the account | Row rejected | Confirm the folder was successfully created in a prior run; use `CREATE_FOLDER` for new folders |
+| `CREATE_FOLDER` for an `id` that was already successfully migrated | Row skipped | No action needed — this is expected behavior when re-running a migration |
+| Folder path in `module_version.csv` references a folder that does not exist | Module row rejected | Run the folder structure sprint first, or verify the folder name and path are spelled correctly |
+| Double slash in folder path (for example, `Training//Sales`) | Module row rejected | Remove the extra slash from the path |
+
+### Backward compatibility
+
+If you already use `content_folder.csv` or `module_version.csv` in your migration workflows, your existing files continue to work without any changes.
+
+| Scenario | Behavior |
+| --- | --- |
+| Existing `content_folder.csv` without the `parentExternalId` column | Works identically — folders are created as Level 1 folders, same as before |
+| Existing `module_version.csv` with simple folder names (no `/`) | Works identically — folder names are resolved by name lookup, same as before |
+| New `module_version.csv` with folder paths containing `/` | Path-based resolution is triggered automatically by the presence of `/` |
+| Mix of simple names and paths in the same `module_version.csv` | Each row is resolved independently — both formats work in the same file |
+| Re-running the same `content_folder.csv` | Safe — rows already successfully processed are automatically skipped |
+
+### Best practices
+
+**Preparing content_folder.csv**
+
+* Use your source system's own category or folder IDs as the `id` value. These are stored permanently for re-run tracking and should remain stable.
+* Keep folder names under 63 characters. Truncate in the CSV before uploading. The migration will reject names that exceed the limit.
+* Ensure no two folders under the same parent have the same name. Folders under different parents can share a name.
+* Although the order of rows in the file does not affect the outcome — the migration sorts rows automatically — listing parent folders before child folders makes the file easier to review.
+
+**Preparing module_version.csv with folder paths**
+
+* Folder path matching is case-insensitive, but folder names must otherwise exactly match what was created in Phase 1.
+* Run Phase 1 (folder structure) before running Phase 2 (content association). Path resolution checks folders that already exist — if a folder has not been created yet, the module row will fail.
+* Avoid double slashes in paths — `Training//Sales` will fail due to an empty path segment.
+* Leading and trailing slashes are trimmed automatically — `Training/Sales/` and `/Training/Sales` both resolve correctly, but avoid them for clarity.
+
+**Running the migration**
+
+* Test with a small batch first — upload 10–20 rows to verify your CSV format before scaling to your full dataset.
+* Complete the folder structure sprint before starting the module version sprint. Running them in parallel can cause path resolution failures.
+* After both sprints complete, verify in the Adobe Learning Manager admin interface that the folder tree shows the correct hierarchy and that content files appear in the expected folders.
