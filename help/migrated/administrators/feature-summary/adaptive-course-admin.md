@@ -3,6 +3,7 @@ description: Deliver one course to multiple audiences by controlling which modul
 jcr-language: en_us
 title: Adaptive Courses in Adobe Learning Manager
 contentowner: mmanuel
+hide: true
 ---
 
 # Adaptive courses in Adobe Learning Manager
