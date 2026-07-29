@@ -294,8 +294,8 @@ Check the top-level enabled attribute before proceeding, if false, the External 
 | title             | TEXT        | Yes                   | Training name. Always present. Cannot be disabled by the administrator.                                  |
 | description_notes | TEXT        | No                    | Free-text description or notes.                                                                          |
 | date              | TIMESTAMP   | No                    | Date range. Value shape: { "start_date": "<ISO-Z>", "end_date": "<ISO-Z>" }. Either value may be null.   |
-| score             | NUMBER      | Yes                   | Value shape: { "achieved_score": <number>, "max_score": <number> }. Both values must be numeric.         |
-| duration          | TEXT        | No                    | Freeform string, for example "40 hours".                                                                 |
+| score             | NUMBER      | Yes                   | Value shape: { "achieved_score": <number>, "max_score": <number> }. Both values must be numeric.  max_score cannot be negative.       |
+| duration          | OBJECT        | No                    | For example, { "timeSpan": 8, "period": "HOURS" }.                                                                 |
 | attachments       | FILE_UPLOAD | Yes                   | Proof of completion. **Not** passed inside fields[] — use the top-level submissionUrl attribute instead. |
 
 Custom fields are defined by the administrator and returned in customFields[]. Their IDs, types, mandatory flags, labels, and dropdown options vary by account configuration.
