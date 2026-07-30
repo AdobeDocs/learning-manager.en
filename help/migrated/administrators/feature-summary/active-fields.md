@@ -120,6 +120,6 @@ In some cases, administrators prefer learners to manually fill certain active fi
 
 If a CSV file does not include all active fields, the administrator must manually enter the missing values after the import.
 
-By default, every active field must be mapped to a corresponding field in the source CSV. However, if you do not want to map a specific active field to any column in the CSV, you can select the value **DontImportFromSource** from the drop-down list during both the Box and FTP import processes. This option is available when importing users via FTP or Box connectors. Refer to this [article](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) for more information about the connectors.
+By default, every active field must be mapped to a corresponding field in the source CSV. However, if you do not want to map a specific active field to any column in the CSV, you can select the value **DontImportFromSource** from the drop-down list during both the Box and FTP import processes. This option is available when importing users via FTP or Box connectors. Refer to this [article](/help/migrated/integration-admin/feature-summary/connectors.md) for more information about the connectors.
 
 
