@@ -6,7 +6,8 @@ user-guide-description: Documentation for Adobe Learning Manager
 
 # Learning Manager Guide {#using}
 
-* [Learning Manager User Guide](user-guide.md)
+* [Adobe Learning Manager User Guide](user-guide.md)
+<!-->
 * Introduction {#introduction}
    * [New features summary August 2026](/help/migrated/whats-new.md)
    * [New features summary April 2026](/help/migrated/whats-new-april-2026.md)
@@ -147,6 +148,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Non-logged in experience for learners](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Learning Programs](administrators/feature-summary/learning-programs.md)
    * [Product Terminology](administrators/feature-summary/product-terminology.md)
+-->
 * Integration Admin {#integration}
    * [Application developer manual](integration-admin/feature-summary/developer-manual.md)
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
