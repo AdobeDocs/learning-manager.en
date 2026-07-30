@@ -152,16 +152,47 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Duplicate and reuse a report in Report Builder](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
          * [Frequently asked questions](administrators/feature-summary/faq-report-builder.md)
          * [Limitations of Report Builder in Adobe Learning Manager](administrators/feature-summary/limitations-report-builder.md)
-      * [Learner Transcripts](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
-      * [Changes in Learner Transcripts](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
-      * [Feedback report](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
+      * Learning object reports {#learning-object-reports}
+         * Training content *(no page yet)*
+         * Training report *(no page yet)*
+         * Course report *(no page yet)*
+         * Job Aids report *(no page yet)*
+         * Session summary report *(no page yet)*
+         * Learning plan report *(no page yet)*
+         * xAPI activity report *(no page yet)*
+         * Content audit trail *(no page yet)*
+      * User reports {#user-reports}
+         * User activity *(no page yet)*
+         * Login/access report *(no page yet)*
+         * [Learner Transcripts](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+         * [Changes in Learner Transcripts](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
+         * User audit trail *(no page yet)*
+         * Gamification reports *(no page yet)*
+         * Custom role audit trail *(no page yet)*
+         * Learning summary report *(no page yet)*
+         * [Gradebook for admin](administrators/feature-summary/alm-admin-gradebook.md)
+      * Creating and viewing reports {#creating-and-viewing-reports}
+         * Sample reports *(no page yet)*
+         * Dashboard reports *(no page yet)*
+      * Other reports {#other-reports}
+         * Extension configuration report *(no page yet)*
+         * Notification announcements report *(no page yet)*
+         * [Notifications](administrators/feature-summary/user-notifications.md)
+         * [Feedback report](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
+         * Email reports *(no page yet)*
+         * Instructor utilisation *(no page yet)*
       * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
-      * [Gradebook for admin](administrators/feature-summary/alm-admin-gradebook.md)
-      * [Notifications](administrators/feature-summary/user-notifications.md)
+         * Your dashboards *(no page yet)*
+         * Shared dashboards *(no page yet)*
+      * Learning summary report {#learning-summary-report}
+         * Consolidated summary *(no page yet)*
+         * Compliance dashboard *(no page yet)*
    * Billing {#billing}
       * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
    * Peer account {#peer-account}
       * [Peer accounts](administrators/feature-summary/peer-account.md)
+
+
 <!--
 * Introduction {#introduction}
    * [New features summary August 2026](/help/migrated/whats-new.md)
