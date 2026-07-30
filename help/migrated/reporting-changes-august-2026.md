@@ -6,11 +6,11 @@ title: Reporting changes in the August 2026 release of Adobe Learning Manager
 
 # Reporting changes in the August 2026 release of Adobe Learning Manager
 
-The August 2026 release of Adobe Learning Manager introduces reporting enhancements across adaptive courses, gradebook, external learning, Gen AI credit usage, and more. This article summarizes the new columns, reports, and behavioral changes available to administrators in this release.
+The August 2026 release of Adobe Learning Manager introduces reporting enhancements across gradebook, external learning, Gen AI credit usage, and more. This article summarizes the new columns, reports, and behavioral changes available to administrators in this release.
 
 ## What has changed
 
-The reporting updates span eight feature areas: adaptive course behavior, adaptive waitlisting, gradebook scoring, external learning, incremental user exports, Gen AI credit usage, root certification tracking, and webhook timestamp alignment. The changes affect the following reports most significantly:
+The reporting updates span eight feature areas: gradebook scoring, external learning, incremental user exports, Gen AI credit usage, root certification tracking, and webhook timestamp alignment. The changes affect the following reports most significantly:
 
 - Learner Transcript (LT)
 - Training report
@@ -20,6 +20,7 @@ The reporting updates span eight feature areas: adaptive course behavior, adapti
 
 Most updates introduce new columns. Some introduced new report types. A few changed how existing data is modeled or formatted.
 
+<!--
 ## Adaptive course reporting changes
 
 ### Training report
@@ -33,6 +34,7 @@ Three new columns in the Training report support adaptive course behavior.
 | Mandatory                | Indicates whether a module is mandatory for a user group | User group names for which the module is mandatory; blank = optional   |
 
 You can combine **Visibility User Groups** and **Mandatory** to interpret adaptive completion rules directly in the report. For example, a module may be visible to **All Learners** but mandatory only for the **Administrator group**.
+
 
 ### Learner Transcript
 
@@ -80,6 +82,8 @@ The **Learner status** column now distinguishes between confirmed and waitlisted
 |------------|----------------------------------------|
 | Confirmed  | The learner has an allocated seat      |
 | Waitlisted | The learner is pending seat allocation |
+
+-->
 
 ## Gradebook reporting changes
 
