@@ -1,7 +1,7 @@
 ---
 description: An overview about each ALM-supported connector
 jcr-language: en_us
-title: Ovreview of ALM-supported connectors
+title: Overview of connectors in Adobe Learning Manager
 contentowner: mmanuel
 ---
 
