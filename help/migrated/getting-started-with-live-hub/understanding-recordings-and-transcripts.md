@@ -16,3 +16,21 @@ After a session ends, the recording is automatically processed and made availabl
 * **Enhanced learning with transcript and insights**: Follow along with a time-synced transcript and leverage AI-generated summaries and topics to better understand session content.
 
 * **Flexible recording configuration**: Control what gets captured in the recording, such as learner video, polls, and chat, based on your session requirements.
+
+## Recordings roles and permissions
+
+The access to recording is available to both Instructors and Learners. The actions and controls available in the panel vary based on the user's role within the Live Hub.
+
+| **Instructors** | **Learners** |
+|----|----|
+| [Record a session](../getting-started-with-live-hub/record-a-session.md#record-a-session) | [Access the session recording](../getting-started-with-live-hub/view-recordings-as-a-learner.md#access-the-session-recording) |
+| [Stop, Pause, and Resume recording](../getting-started-with-live-hub/record-a-session.md#stop-pause-and-resume-recording) | [View Topics in recording](../getting-started-with-live-hub/view-recordings-as-a-learner.md#view-topics-in-recording) |
+| [Access a recording](../getting-started-with-live-hub/record-a-session.md#access-a-recording) | [View Transcript](../getting-started-with-live-hub/view-recordings-as-a-learner.md#view-transcript) |
+| [Play a recording](../getting-started-with-live-hub/record-a-session.md#play-a-recording) | [Change the Transcript text size](../getting-started-with-live-hub/view-recordings-as-a-learner.md#change-the-transcript-text-size) |
+| [Generate Topics in recording](../getting-started-with-live-hub/record-a-session.md#generate-topics-in-recording) |
+| [View Topics in recording](../getting-started-with-live-hub/record-a-session.md#view-topics-in-recording) |
+| [View Transcript](../getting-started-with-live-hub/record-a-session.md#view-transcript) | |
+| [Edit a recording](../getting-started-with-live-hub/record-a-session.md#edit-a-recording) | |
+| [Regenerate Topics](../getting-started-with-live-hub/record-a-session.md#regenerate-topics) | |
+| [Revert to original](../getting-started-with-live-hub/record-a-session.md#revert-to-original) | |
+| [Download a recording](../getting-started-with-live-hub/record-a-session.md#download-a-recording) | |

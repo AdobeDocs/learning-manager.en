@@ -3,11 +3,11 @@ title: View session recordings as a Learner in Live Hub
 description: Learn how Learners access a Live Hub session recording, use playback controls, navigate AI-generated topics, and view the time-stamped transcript.
 ---
 
-# View session recordings as a Learner in Live Hub
+# View session recordings as a Learner
 
 After a virtual classroom session ends, a recording becomes available on the course page. As a Learner, you can watch the recording, browse AI-generated topics to navigate to specific sections, and review the time-stamped transcript alongside the video.
 
-## Access a recording
+## Access the session recording
 
 Session recordings are available from the **Session Recordings** section on the course page. The recording link is typically available about **forty** minutes after the scheduled session end time. If you access the course page before processing is complete, the recording link does not appear.
 
