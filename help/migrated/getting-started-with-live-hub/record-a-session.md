@@ -154,7 +154,7 @@ To edit a recording:
 
     ![Recording Save Edits](assets/recording-save-edits.png "Once you cut a selection, Save edits become active so you can apply the change.")
 
-You can also edit a recording from the **Session dashboard**. See [Components of the Session dashboard](Components-of-the-Session-dashboard.md) for more information.
+You can also edit a recording from the **Session dashboard**. See [Components of the Session dashboard](../getting-started-with-live-hub/components-of-the-session-dashboard.md#recordings) for more information.
 
 ## Regenerate topics
 
