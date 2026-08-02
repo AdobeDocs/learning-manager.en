@@ -251,6 +251,60 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [iPad & Android tablet users](managers/feature-summary/ipad-android-tablet-users.md)
 * Getting started with Live Hub{#getting-started-with-live-hub}
    * [About Live Hub](../migrated/getting-started-with-live-hub/about-live-hub.md)
+   * Roles in Live Hub{roles-in-live-hub}
+      * Administrator(../)
+         * Instructor management
+      * Authors
+      * Instructors
+      * Learners
+   * Create a Live Hub session
+   * Join a Live Hub session
+   * Understand the Live Hub layout
+   * Engagement tools
+      * Attendees panel
+         * About Attendees panel
+         * Manage the Attendees panel
+         * Use the Attendees panel as a learner
+      * Chat panel
+         * About Chat panel
+         * Use the chat panel as an Instructor
+         * Use the Chat panel as a Learner
+      * Raise your hand and use reactions
+         * About Raise hand and reactions
+         * Manage raised hands and reactions
+         * Raise your hand and send reactions
+      * Screen sharing in sessions
+         * About screen sharing
+         * Share your screen
+         * Share your screen as a learner
+      * Share a whiteboard
+         * About Whiteboard sharing
+         * Share a whiteboard
+         * Use whiteboard as a learner
+      * Conduct polls
+         * About the polls
+         * Create and launch a poll
+         * Respond to a poll
+      * Create a quiz
+         * About the Quiz
+         * Create and manage a quiz
+         * Attempt a quiz
+      * Track the Participant engagement
+      * Breakout rooms
+         * About the breakout rooms
+         * Setup and manage breakout rooms
+         * Participate in a breakout room
+      * Closed captions
+         * Understand the closed captions
+         * Manage the closed captions
+      * Understanding recordings and transcripts
+         * Record a session
+         * Play and edit a recording
+      * Session dashboard
+         * View the Session dashboard
+         * Components of the Session dashboard
+      * Manage in-room settings and preferences
+      * Best practices for a Live Hub session
 * Frequently Asked Questions {#faq}
    * [Frequently Asked Questions for Administrators](administrators/frequently-asked-questions-for-administrators.md)
    * [Frequently Asked Questions for Authors](authors/frequently-asked-questions-for-authors.md)
