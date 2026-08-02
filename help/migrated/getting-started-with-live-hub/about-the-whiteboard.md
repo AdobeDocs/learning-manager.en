@@ -23,7 +23,7 @@ The whiteboard is available to both Instructors and Learners in a Virtual Classr
 
 | **Instructors** | **Learners** |
 |----|----|
-| [Share a new whiteboard](../getting-started-with-live-hub/share-a-whiteboard.md#share-a-new-whiteboard) | [Use the whiteboard](#_Use_the_whiteboard) |
+| [Share a new whiteboard](../getting-started-with-live-hub/share-a-whiteboard.md#share-a-new-whiteboard) | [Use the whiteboard](../getting-started-with-live-hub/use-whiteboard-as-a-learner.md#use-the-whiteboard) |
 | [Reopen a whiteboard](../getting-started-with-live-hub/share-a-whiteboard.md#reopen-a-whiteboard) | |
 | [Use whiteboard tools](../getting-started-with-live-hub/share-a-whiteboard.md#use-whiteboard-tools) | |
 | [Clear all whiteboard content](../getting-started-with-live-hub/share-a-whiteboard.md#clear-all-whiteboard-content) | |
