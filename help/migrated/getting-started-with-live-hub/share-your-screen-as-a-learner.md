@@ -35,4 +35,4 @@ To share your screen:
 
 ## Use annotation tools
 
-While you are sharing your screen, you can annotate on it to highlight information or explain content to others in the session. To annotate, select the annotate (pen) icon in the upper-right corner of the shared screen. See [Use annotation tools](Share-your-screen-as-an-Instructor.md#use-annotation-tools) for more information.
+While you are sharing your screen, you can annotate on it to highlight information or explain content to others in the session. To annotate, select the annotate (pen) icon in the upper-right corner of the shared screen. View [Use annotation tools](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#use-annotation-tools) for more information.

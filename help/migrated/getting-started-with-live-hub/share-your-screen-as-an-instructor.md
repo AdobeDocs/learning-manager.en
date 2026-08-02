@@ -124,9 +124,9 @@ The annotation toolbar provides the following options:
 | **Undo** | Reverses the most recent action. |
 | **Redo** | Reapply the previously undone action. |
 
-## Allow learners to share their screen
+## Allow participants to share their screen
 
-You can enable learners to share their screen during a session. This allows the learners to present content, demonstrate workflows, or support discussions.
+You can allow participants to share their screen during a session. This allows them to present content, demonstrate workflows, or support discussions.
 
 When screen sharing is enabled for learners:
 

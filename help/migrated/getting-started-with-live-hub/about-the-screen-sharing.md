@@ -27,7 +27,8 @@ Screen sharing is available to both Instructors and Learners. Available actions 
 
 | **Instructors** | **Learners** |
 |----|----|
-| [Share your screen in a session](#_Share_your_screen_2) | [View the shared content](#_View_the_shared) |
-| [Share multiple contents in a session](#_Share_multiple_contents) | [Share your screen](#_Share_your_screen_1) |
-| [Use screen sharing with a whiteboard](#_Use_screen_sharing) | |
-| [Annotate shared content](#_Annotate_the_shared) | |
+| [Share your screen in a session](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#share-your-screen-in-a-session) | [Share your screen](../getting-started-with-live-hub/share-your-screen-as-a-learner.md#share-your-screen) |
+| [Share multiple contents in a session](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#share-multiple-contents-in-a-session) | [Use annotation tools](../getting-started-with-live-hub/share-your-screen-as-a-learner.md#use-annotation-tools) |
+| [Use screen sharing with a whiteboard](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#use-screen-sharing-with-a-whiteboard) | |
+| [Annotate shared content](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#annotate-shared-content) | |
+| [Allow participants to share their screen](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#allow-participants-to-share-their-screen) | |
