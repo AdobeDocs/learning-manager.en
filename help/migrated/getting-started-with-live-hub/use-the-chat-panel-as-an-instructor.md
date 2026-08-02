@@ -87,7 +87,7 @@ To edit a message in the chat:
 
 The updated message replaces the original message in the chat and is marked as **Edited**.
 
-## Mention learners in the chat messages
+## Mention participants in the chat messages
 
 The tagging feature in the Chat panel allows you to address a specific learner directly during a session. Using tags draws attention to your message and improves visibility for the learner you mention, especially during active discussions.
 
@@ -141,7 +141,7 @@ To disable private chat for learners:
 
 Once disabled, Learners will no longer be able to start or participate in private conversations.
 
-## Draft replies to learner questions with AI
+## Draft replies to participant questions with AI
 
 The **Questions** tab helps Instructors manage and respond to learner questions more efficiently. AI automatically detects questions from the chat and provides suggested responses to assist Instructors during the session.
 
