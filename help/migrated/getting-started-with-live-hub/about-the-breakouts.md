@@ -79,3 +79,19 @@ When the breakout session ends, all participants are automatically moved back to
 This marks the completion of the breakout activity and enables post-session review.
 
 ![Breakout Room Distribution](assets/breakout-room-distribution.png "Live Hub interface showing the distribution of learners in the breakout rooms.")
+
+## Breakout session capabilities
+
+The Breakout rooms is available to both Instructors and Learners. The actions and controls available in the panel vary based on the user's role within the Virtual Classroom.
+
+| **Instructors** | **Learners** |
+|----|----|
+| [Create a breakout room](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#create-a-breakout-room) | [Join you breakout room](../getting-started-with-live-hub/participate-in-a-breakout-session.md#join-your-breakout-room) |
+| [Design a breakout room](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#design-a-breakout-room) | [View the activity instructions](../getting-started-with-live-hub/participate-in-a-breakout-session.md#view-the-activity-instructions) |
+| [Start a breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#start-a-breakout-session) | [Collaborate with your group](../getting-started-with-live-hub/participate-in-a-breakout-session.md#collaborate-with-your-group) |
+| [Manage breakout sessions](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#manage-breakout-sessions) | [Receive messages from your Instructor](../getting-started-with-live-hub/participate-in-a-breakout-session.md#receive-messages-from-your-instructor) |
+| [Manage activities in an active breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#manage-activities-in-an-active-breakout-session) | [Ask for help](../getting-started-with-live-hub/participate-in-a-breakout-session.md#ask-for-help) |
+| [Use collaboration tools in breakout rooms](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#use-collaboration-tools-in-breakout-rooms) |[Return to the main room](../getting-started-with-live-hub/participate-in-a-breakout-session.md#return-to-the-main-room) |
+| [End a breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#end-a-breakout-session) | |
+| [View a breakout session report](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#view-a-breakout-session-report) | |
+| [Extend a breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#extend-a-breakout-session) | |
