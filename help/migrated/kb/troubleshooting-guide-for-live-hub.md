@@ -34,7 +34,7 @@ The message below can appear when an Instructor uploads a reference file that th
 
 |Error message|Scenario|Suggestions to overcome the error|
 |---|---|---|
-|Couldn't process the file. Please try again.|An Instructor uploads a reference file that isn't in a supported format, and the file can't be processed.|Convert the file to a supported format (PDF or PPT) and upload it again.|
+|Couldn't process the file. Please try again.|An Instructor uploads a corrupt, blank, or password protected file that can't be processed.|Convert the file to a supported format (PDF or PPT) and upload it again.|
 
 ## Upload content toast issues
 
@@ -42,7 +42,7 @@ The messages below appear as toast notifications when an Instructor uploads a re
 
 |Error message|Scenario|Suggestions to overcome the error|
 |---|---|---|
-|File could not be processed. Please check the file and try again.|An Instructor uploads content that is not in a supported file format.|Check the file format and convert it to a supported format (PDF or PPT), then re-upload.|
+|File could not be processed. Please check the file and try again.|An Instructor uploads a file that is corrupt.|Check the file format and convert it to a supported format (PDF or PPT), then re-upload.|
 |File is password protected. Please remove the password and re-upload.|An Instructor uploads a file that is password protected.|Remove the password protection from the file, then re-upload it.|
 |File has no content to process. Please upload a file with text content.|An Instructor uploads a file that has no content for the AI assistant to process.|Upload a file that contains text content.|
 |"FileName.pdf" exceeds the 1 MB limit.|An Instructor uploads a PDF file that exceeds the 1 MB file size limit.|Compress or reduce the PDF file size to under 1 MB, then re-upload.|
