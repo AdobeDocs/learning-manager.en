@@ -25,6 +25,6 @@ Both Instructors and Learners can raise their hand and send reactions in a Live 
 
 | **Instructors** | **Learners** |
 |----|----|
-| [View the participant reactions](../getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md#view-the-participant-reactions) | [Raise your hand in the session](#_Raise_your_hand) |
-| [Lower a raised hand](../getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md#lower-a-raised-hand) | [Send reactions during the session](#_Send_reactions_during) |
+| [View the participant reactions](../getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md#view-the-participant-reactions) | [Raise your hand in the session](../getting-started-with-live-hub/raise-hand-and-send-reactions.md#raise-your-hand-in-the-session) |
+| [Lower a raised hand](../getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md#lower-a-raised-hand) | [Send reactions](../getting-started-with-live-hub/raise-hand-and-send-reactions.md#send-reactions) |
 | [Lower all raised hands](../getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md#lower-all-raised-hands) | [Send reactions during the session]() |
