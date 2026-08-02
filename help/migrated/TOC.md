@@ -42,6 +42,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Getting started for Managers](managers/feature-summary/getting-started-manager.md)
    * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
 * Administrator {#admin}
+   * AI in learning{#ai-in-learning}
+      * [Enable Live Hub](./administrators/feature-summary/enable-live-hub.md)
    * [Admin AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Insights Agent (beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/insights-agent.md)
    * [User log in](administrators/feature-summary/user-login.md)

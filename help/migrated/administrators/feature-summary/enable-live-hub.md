@@ -13,15 +13,18 @@ To enable Live Hub:
 
 1.  Select **AI in Learning** in the left navigation pane.
 
-    ![Ai In Learning Nav](assets2/ai-in-learning-nav.png "Select AI in Learning to enable Live Hub.")
+    ![AI In Learning Nav](assets/ai-in-learning-nav.png)
+    *Select AI in Learning to enable Live Hub.*
 
 1.  Select **Live Hub**. The **Live Hub** page opens.
 
-    ![Live Hub Settings Page](assets2/live-hub-settings-page.png "The Live Hub settings show the option to enable Live Hub in ALM.")
+    ![Live Hub Settings Page](assets/live-hub-settings-page.png)
+    *The Live Hub settings show the option to enable Live Hub in ALM.*
 
 1.  Toggle on **Enable Live Hub for this account**. The **Set Live Hub as the default** dialog box appears.
 
-    ![Set Live Hub Default Dialog](assets2/set-live-hub-default-dialog.png "Select Set as default in the pop-up window.")
+    ![Set Live Hub Default Dialog](assets/set-live-hub-default-dialog.png)
+    *Select Set as default in the pop-up window.*
 
 1.  Choose one of the following options:
 
@@ -31,7 +34,8 @@ To enable Live Hub:
 
 1.  Turn on **AI in Live Hub** to make AI-powered assistants available in live sessions.
 
-    ![Enable Ai In Live Hub](assets2/enable-ai-in-live-hub.png "Enable AI in Live Hub to enable the Live Hub agents.")
+    ![Enable Ai In Live Hub](assets/enable-ai-in-live-hub.png)
+    *Enable AI in Live Hub to enable the Live Hub agents.*
 
 1.  Enable the assistants from the Live Hub agents:
 
