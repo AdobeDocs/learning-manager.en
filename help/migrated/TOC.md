@@ -268,7 +268,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Understand the Live Hub layout](../migrated/getting-started-with-live-hub/understand-the-live-hub-layout.md)
    * Engagement tools{#engagement-tools}
       * Attendees panel{#attendees-panel}
-         * [About Attendees panel](../migrated/getting-started-with-live-hub/about-the-attendees-panel.md)
+         * [About the Attendees panel](../migrated/getting-started-with-live-hub/about-the-attendees-panel.md)
          * [Manage the Attendees panel](../migrated/getting-started-with-live-hub/manage-the-attendees-panel.md)
          * [Use the Attendees panel as a learner](../migrated/getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md)
       * Chat panel{#chat-panel}
