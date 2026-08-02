@@ -7,7 +7,7 @@ description: Learn how Instructors view learner reactions and lower a single or 
 
 As an Instructor, you can monitor learner reactions and manage raised hands to keep discussions organized and engaging. Instructors can also raise their own hands and send reactions during a session.
 
-## View learner reactions
+## View the participant reactions
 
 Learner reactions provide quick, non-verbal feedback during a session and help you gauge engagement without interrupting the discussion.
 
@@ -19,7 +19,7 @@ Learner reactions provide quick, non-verbal feedback during a session and help y
 
 * Use reactions to quickly understand learner responses and participation levels.
 
-## Lower a learner's raised hand
+## Lower a raised hand
 
 If a learner's question has been addressed or no longer requires attention, you can lower their raised hand.
 
