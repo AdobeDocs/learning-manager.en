@@ -17,7 +17,8 @@ To access the recording:
 
 1.  Select the **Modules** tab. The course detail page appears.
 
-    ![Session Recordings Course Page](../getting-started-with-live-hub/assets/session-recordings-course-page-learners.png) <br> *Session recordings on the course page*.
+    ![Session Recordings Course Page](../getting-started-with-live-hub/assets/session-recordings-course-page-learners.png) 
+    *Session recordings on the course page*.
 
 1.  Navigate to the **Session Recordings** section.
 
