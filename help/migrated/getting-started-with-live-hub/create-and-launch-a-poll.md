@@ -127,9 +127,9 @@ To launch a poll:
 
 ![Launch Poll](assets/launch-poll.png "Select Launch poll to start collecting responses during the session.")
 
-## Share poll results with Learners
+## Share poll results with participants
 
-You can share poll results with Learners at any time during the session. Select **Share results to all participants** to make the results visible in real time. When results are shared, the poll displays a **Results live** tag, indicating that Learners can view the poll outcomes.
+You can share poll results with participants at any time during the session. Select **Share results to all participants** to make the results visible in real time. When results are shared, the poll displays a **Results live** tag, indicating that Learners can view the poll outcomes.
 
 ![Share Poll Results](assets/share-poll-results.png "Select Share results to all participants to display poll results in real time.")
 

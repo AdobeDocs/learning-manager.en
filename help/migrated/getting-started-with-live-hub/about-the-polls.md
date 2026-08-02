@@ -25,9 +25,10 @@ The **Poll** feature is available to both Instructors and Learners in a Live Hub
 
 | **Instructors** | **Learners** |
 |----|----|
-| [Create a poll manually](#_Create_a_poll) | [Respond to a poll](#_Respond_to_a) |
-| [Create a poll using AI](#_Create_a_poll_1) | [Update your response](#_Update_your_response) |
-| [Launch a poll](#_Launch_a_poll) | |
-| [Close the poll](#_End_a_poll) | |
-| [View poll results](#_View_poll_results) | |
-| [Share poll results with learners](#_Show_poll_results) | |
+| [Create a poll manually](../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-manually) | [Respond to a poll](../getting-started-with-live-hub/respond-to-a-poll.md#respond-to-a-poll) |
+| [Create a poll using AI](../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-using-ai) | [Update your response](../getting-started-with-live-hub/respond-to-a-poll.md#update-your-response) |
+| [Launch a poll](../getting-started-with-live-hub/create-and-launch-a-poll.md#launch-a-poll) | |
+| [Share poll results with participants](../getting-started-with-live-hub/create-and-launch-a-poll.md#share-poll-results-with-participants) | |
+| [Close a poll](../getting-started-with-live-hub/create-and-launch-a-poll.md#close-a-poll) | |
+| [View poll results](../getting-started-with-live-hub/create-and-launch-a-poll.md#view-poll-results) | |
+| [Manage a closed poll](../getting-started-with-live-hub/create-and-launch-a-poll.md#manage-a-closed-poll) | |
