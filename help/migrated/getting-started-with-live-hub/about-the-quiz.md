@@ -29,12 +29,12 @@ The quiz experience is available to both Instructors and Learners in a Live Hub 
 
 | **Instructors** | **Learners** |
 |----|----|
-| [Create a quiz](#_Create_a_quiz) | [Attempt the quiz](#_Attempt_the_quiz) |
-| [Configure quiz settings](#_Configure_quiz_settings) | [Review your quiz attempt](#_Review_your_quiz) |
-| [Edit a quiz](#_Edit_a_quiz) | |
-| [Launch a quiz](#_Launch_a_quiz) | |
-| [View quiz results](#_View_quiz_results) | |
-| [Close a quiz](#_Close_a_quiz) | |
-| [Relaunch a quiz](#_Relaunch_a_quiz) | |
-| [Share quiz results with learners](#_Share_quiz_results) | |
-| [Manage a quiz](#overview) | |
+| [Create a quiz](../getting-started-with-live-hub/create-and-manage-a-quiz.md#create-a-quiz) | [Attempt a quiz](../getting-started-with-live-hub/attempt-a-quiz.md#attempt-a-quiz) |
+| [Set a time limit for the quiz](../getting-started-with-live-hub/create-and-manage-a-quiz.md#set-a-time-limit-for-the-quiz) | [Review your quiz attempt](../getting-started-with-live-hub/attempt-a-quiz.md#review-your-quiz-attempt) |
+| [Edit a quiz](../getting-started-with-live-hub/create-and-manage-a-quiz.md#edit-a-quiz) | |
+| [Launch a quiz](../getting-started-with-live-hub/create-and-manage-a-quiz.md#launch-a-quiz) | |
+| [View quiz results](../getting-started-with-live-hub/create-and-manage-a-quiz.md#view-quiz-results) | |
+| [View detailed responses for a participant](../getting-started-with-live-hub/create-and-manage-a-quiz.md#view-detailed-responses-for-a-participant) | |
+| [Share quiz results with participants](../getting-started-with-live-hub/create-and-manage-a-quiz.md#share-quiz-results-with-participants) | |
+| [Manage a quiz](../getting-started-with-live-hub/create-and-manage-a-quiz.md#manage-a-quiz) | |
+| [Close a quiz](../getting-started-with-live-hub/create-and-manage-a-quiz.md#close-a-quiz) | |

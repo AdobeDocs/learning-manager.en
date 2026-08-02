@@ -3,7 +3,7 @@ title: Create and manage a quiz in Live Hub
 description: Learn how Instructors create, edit, launch, and manage multi-question quizzes with scoring in a Live Hub session, and share results with learners.
 ---
 
-# Create and manage a quiz in Live Hub
+# Create and manage a quiz
 
 As an Instructor, the Quiz feature lets you measure how well learners have grasped a topic during a Live Hub session. Unlike a quick single-question poll, a quiz lets you build a structured, multi-question assessment with multiple-choice and multiple-answer questions, scoring, and settings such as time limits and randomized question or option order.
 
@@ -125,9 +125,9 @@ The **Quiz** panel shows the results with the following details:
 
 * Time taken to complete the quiz
 
-### View detailed responses for a learner
+## View detailed responses for a participant
 
-Select an individual learner from the results list to view detailed responses. You can see how the learner answered each question.
+Select an individual paticipant from the results list to view detailed responses. You can see how the learner answered each question.
 
 ![Quiz Learner Detailed Responses](assets/quiz-learner-detailed-responses.png "Quiz responses pop-up window showing the detailed results for a learner.")
 
@@ -143,9 +143,9 @@ To close a quiz:
 
 ![Close Quiz Status](assets/close-quiz-status.png "Quiz tab interface showing the Closed quiz status.")
 
-## Share quiz results with learners
+## Share quiz results with participants
 
-You can share quiz results with learners after you end or close the quiz. To make the results visible to everyone, enable the **Share results with participants** toggle.
+You can share quiz results with participants after you end or close the quiz. To make the results visible to everyone, enable the **Share results with participants** toggle.
 
 When result sharing is enabled, the quiz is labeled with a **Results live** tag. This means that the results are being displayed to learners.
 
