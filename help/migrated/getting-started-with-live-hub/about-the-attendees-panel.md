@@ -25,6 +25,6 @@ The Attendees panel is available to both Instructors and Learners in a Live Hub 
 
 | **Instructors** | **Learners** |
 |----|----|
-| [View the Attendees panel](#_View_the_Attendees) | [Access the Attendees panel](#_Access_the_Attendees) |
-| [Configure attendee preferences](#_Configure_attendee_preferences) | [Interact with other attendees as a learner](#_Interact_with_participants) |
-| [Manage learners during the session](#_Manage_learners_during) | |
+| [View the Attendees panel](../getting-started-with-live-hub/manage-the-attendees-panel.md#view-the-attendees-panel) | [Access the Attendees panel](../getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md#access-the-attendees-panel) |
+| [Attendees panel settings](../getting-started-with-live-hub/manage-the-attendees-panel.md#attendees-panel-settings) | [Interact with other attendees](../getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md#interact-with-other-attendees) |
+| [Manage learners during the session](../getting-started-with-live-hub/manage-the-attendees-panel.md#manage-learners-during-the-session) | |
