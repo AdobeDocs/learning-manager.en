@@ -130,9 +130,9 @@ To export a whiteboard snapshot:
 
     ![Export Whiteboard Snapshot Menu](assets/export-whiteboard-snapshot-menu.png "More menu showing the options to export the whiteboard as an image.")
 
-## Allow learners to edit the whiteboard
+## Allow participants to edit the whiteboard
 
-You can also enable the learners to draw and interact with the whiteboard during a session. Allowing learners to access whiteboards supports collaboration, brainstorming, and active participation.
+You can also allow the participants to draw and interact with the whiteboard during a session. Allowing the participants to access whiteboards supports collaboration, brainstorming, and active participation.
 
 To grant access to edit whiteboards:
 

@@ -23,12 +23,12 @@ The whiteboard is available to both Instructors and Learners in a Virtual Classr
 
 | **Instructors** | **Learners** |
 |----|----|
-| [Share a new whiteboard](#_Share_a_new) | [Use the whiteboard](#_Use_the_whiteboard) |
-| [Reopen a whiteboard](#_Reopen_a_whiteboard) | |
-| [Use whiteboard tools](#_Use_whiteboard_tools) | |
-| [Clear all whiteboard content](#_Clear_all_whiteboard) | |
-| [Manage existing whiteboards](#_Manage_the_existing) | |
-| [Rename a whiteboard](#_Rename_a_whiteboard) | |
-| [Export whiteboard snapshot as image](#_Export_whiteboard_snapshot) | |
-| [Allow learners to edit whiteboard](#_Allow_learners_to) | |
-| [Share MIRO and other external whiteboards](#_Share_MIRO_and) | |
+| [Share a new whiteboard](../getting-started-with-live-hub/share-a-whiteboard.md#share-a-new-whiteboard) | [Use the whiteboard](#_Use_the_whiteboard) |
+| [Reopen a whiteboard](../getting-started-with-live-hub/share-a-whiteboard.md#reopen-a-whiteboard) | |
+| [Use whiteboard tools](../getting-started-with-live-hub/share-a-whiteboard.md#use-whiteboard-tools) | |
+| [Clear all whiteboard content](../getting-started-with-live-hub/share-a-whiteboard.md#clear-all-whiteboard-content) | |
+| [Manage existing whiteboards](../getting-started-with-live-hub/share-a-whiteboard.md#manage-existing-whiteboards) | |
+| [Rename a whiteboard](../getting-started-with-live-hub/share-a-whiteboard.md#rename-a-whiteboard) | |
+| [Export whiteboard snapshot as image](../getting-started-with-live-hub/share-a-whiteboard.md#export-whiteboard-snapshot-as-an-image) | |
+| [Allow participants to edit the whiteboard](../getting-started-with-live-hub/share-a-whiteboard.md#allow-participants-to-edit-the-whiteboard) | |
+| [Share Miro and other external whiteboards](../getting-started-with-live-hub/share-a-whiteboard.md#share-miro-and-other-external-whiteboards) | |
