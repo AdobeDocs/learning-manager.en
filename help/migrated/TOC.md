@@ -257,6 +257,7 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Authors](../migrated/getting-started-with-live-hub/authors-in-live-hub-session.md)
       * [Instructors](../migrated/getting-started-with-live-hub/instructors-in-a-live-hub-session.md)
       * [Learners](../migrated/getting-started-with-live-hub/learners-in-live-hub-session.md)
+   * [System requirements for Live Hub](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
    * [Create a Live Hub session](../migrated/getting-started-with-live-hub/create-a-live-hub-session.md)
    * Join a Live Hub session{join-a-live-hub-session}
       * [Join a Live Hub session as an Instructor](../migrated/getting-started-with-live-hub/join-live-hub-session-as-an-instructor.md)
