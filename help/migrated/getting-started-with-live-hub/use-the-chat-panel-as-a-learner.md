@@ -27,7 +27,7 @@ Follow these steps to access the Chat panel:
 
 1.  Type your message and select **Send**.
 
-### Customize the Chat panel
+## Customize the Chat panel
 
 You can customize the Chat panel to manage notifications and improve message readability during a Live Hub session.
 

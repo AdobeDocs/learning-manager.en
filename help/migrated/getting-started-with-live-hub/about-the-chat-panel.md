@@ -39,11 +39,12 @@ The Chat panel is available to both Instructors and Learners. The actions and co
 
 | **Instructors** | **Learners** |
 |----|----|
-| [Access the Chat panel as an Instructor](#_Access_the_Chat) | [Access the Chat panel as a learner](#_Access_the_Chat_1) |
-| [Reply to chat messages](#_Reply_to_chat) | [Manage your chat messages as a learner](#_Manage_your_chat) |
-| [Edit the chat messages](#_Edit_the_chat) | [Customize the chat panel](#overview) |
-| [Mention learners in the chat messages](#_Mention_learners_in) | [Chat privately with other learners](#_Chat_privately_with) |
-| [Private chats](#_Private_chats) | |
-| [Use AI to draft replies to learner questions](#_Use_AI_to) | |
-| [Delete messages as an Instructor](#_Delete_messages_as) | |
-| [Chat panel settings](#_Chat_panel_settings) | |
+| [Access the Chat panel](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#access-the-chat-panel) | [Access the Chat panel](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#access-the-chat-panel) |
+| [Chat panel settings](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#chat-panel-settings) | [Manage your chat messages](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
+| [Reply to chat messages](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#reply-to-chat-messages) | [Customize the chat panel](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#customize-the-chat-panel) |
+| [React to a message](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#react-to-a-message) | [Customize the chat panel](#overview) |
+| [Edit the chat messages](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#edit-the-chat-messages) | [Manage your chat messages](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
+| [Mention participants in the chat messages](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#mention-participants-in-the-chat-messages) |[Send private messages](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#send-private-messages) |
+| [Start a pivate chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#start-a-private-chat) | |
+| [Draft replies to participant questions with AI](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) | |
+| [Delete messages](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#delete-messages) | |
