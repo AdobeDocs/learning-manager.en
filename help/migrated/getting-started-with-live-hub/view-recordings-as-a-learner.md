@@ -17,13 +17,14 @@ To access the recording:
 
 1.  Select the **Modules** tab. The course detail page appears.
 
-    ![Session Recordings Course Page](assets2/session-recordings-course-page.png "Session recordings on the course page.")
+    ![Session Recordings Course Page](../getting-started-with-live-hub/assets/session-recordings-course-page-learners.png) <br> *Session recordings on the course page*.
 
 1.  Navigate to the **Session Recordings** section.
 
 1.  Select the recording link. The recording opens in a new browser tab.
 
-    ![Learner Recording Playback Mode](assets2/learner-recording-playback-mode.png "The recording player is in playback mode, showing the session video and the Transcript panel.")
+    ![Learner Recording Playback Mode](../getting-started-with-live-hub/assets/recording-playback-mode.png) 
+    *The recording player is in playback mode, showing the session video and the Transcript panel.*
 
 1.  Use the following playback controls to adjust your viewing experience:
 
@@ -54,7 +55,8 @@ To view and navigate topics:
 
 1.  Select **Play topic**. The recording starts playing from the selected topic section.
 
-![Learner Recording Topics Panel](assets2/learner-recording-topics-panel.png "The Topics panel, where AI-generated topics help you navigate the recording.")
+    ![Learner Recording Topics Panel](../getting-started-with-live-hub/assets/learner-recording-topics-panel.png)
+    *The Topics panel, where AI-generated topics help you navigate the recording.*
 
 ## View Transcript
 
@@ -68,7 +70,8 @@ To view the transcript:
 
 To navigate to a specific part of the recording, select a transcript entry. The recording jumps to the corresponding timestamp and begins playback from that point.
 
-![Learner Recording Transcript Panel](assets2/learner-recording-transcript-panel.png "The Transcript panel, where each entry links to its point in the recording.")
+![Learner Recording Transcript Panel](../getting-started-with-live-hub/assets/recording-transcript-panel.png)
+*The Transcript panel, where each entry links to its point in the recording.*
 
 ### Change the Transcript text size
 
@@ -80,4 +83,5 @@ To change the text size:
 
 1.  Select a text size from the list. The available sizes are 12, 14, 16, 18, 20, 24, 30, and 36. The default size is 14. The transcript text updates to the selected size.
 
-![Learner Transcript Text Size Option](assets2/learner-transcript-text-size-option.png "Choose a transcript text size to make entries easier to read.")
+    ![Learner Transcript Text Size Option](assets/learner-transcript-text-size-option.png)
+    *Choose a transcript text size to make entries easier to read.*
