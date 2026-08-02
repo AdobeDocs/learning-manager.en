@@ -253,7 +253,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [iPad & Android tablet users](managers/feature-summary/ipad-android-tablet-users.md)
 * Getting started with Live Hub{#getting-started-with-live-hub}
    * [About Live Hub](../migrated/getting-started-with-live-hub/about-live-hub.md)
-   * Roles in Live Hub{roles-in-live-hub}
+   * Roles in Live Hub{#roles-in-live-hub}
       * [Administrator](../migrated/getting-started-with-live-hub/administrator.md)
          * [Instructor management](../migrated/getting-started-with-live-hub/instructor-management.md)
       * [Authors](../migrated/getting-started-with-live-hub/authors-in-live-hub-session.md)
@@ -262,53 +262,53 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [System requirements for Live Hub](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
    * [Create a Live Hub session](../migrated/getting-started-with-live-hub/create-a-live-hub-session.md)
    * [Live Hub mobile experience](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
-   * Join a Live Hub session{join-a-live-hub-session}
+   * Join a Live Hub session{#join-a-live-hub-session}
       * [Join a Live Hub session as an Instructor](../migrated/getting-started-with-live-hub/join-live-hub-session-as-an-instructor.md)
       * [Join a Live Hub session as a Learner](../migrated/getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)
    * [Understand the Live Hub layout](../migrated/getting-started-with-live-hub/understand-the-live-hub-layout.md)
-   * Engagement tools{engagement-tools}
-      * Attendees panel{attendees-panel}
+   * Engagement tools{#engagement-tools}
+      * Attendees panel{#attendees-panel}
          * [About Attendees panel](../migrated/getting-started-with-live-hub/about-the-attendees-panel.md)
          * [Manage the Attendees panel](../migrated/getting-started-with-live-hub/manage-the-attendees-panel.md)
          * [Use the Attendees panel as a learner](../migrated/getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md)
-      * Chat panel{chat-panel}
+      * Chat panel{#chat-panel}
          * [About the Chat panel](../migrated/getting-started-with-live-hub/about-the-chat-panel.md)
          * [Use the Chat panel as an Instructor](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md)
          * [Use the Chat panel as a Learner](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md)
-      * Raise your hand and use reactions{raise-your-hand-and-use-reactions}
+      * Raise your hand and use reactions{#raise-your-hand-and-use-reactions}
          * [About Raise hand and reactions](../migrated/getting-started-with-live-hub/about-raise-hand-and-reactions.md)
          * [Manage participant raised hands and reactions](../migrated/getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md)
          * [Raise your hand and send reactions](../migrated/getting-started-with-live-hub/raise-hand-and-send-reactions.md)
-      * Screen sharing in sessions{screen-sharing-in-sessions}
+      * Screen sharing in sessions{#screen-sharing-in-sessions}
          * [About the screen sharing](../migrated/getting-started-with-live-hub/about-the-screen-sharing.md)
          * [Share your screen as an Instructor](../migrated/getting-started-with-live-hub/share-your-screen-as-an-instructor.md)
          * [Share your screen as a Learner](../migrated/getting-started-with-live-hub/share-your-screen-as-a-learner.md)
-      * Share a whiteboard{share-a-whiteboard}
+      * Share a whiteboard{#share-a-whiteboard}
          * [About the whiteboard](../migrated/getting-started-with-live-hub/about-the-whiteboard.md)
          * [Share a whiteboard](../migrated/getting-started-with-live-hub/share-a-whiteboard.md)
          * [Use whiteboard as a Learner](../migrated/getting-started-with-live-hub/use-whiteboard-as-a-learner.md)
-      * Conduct polls{conduct-polls}
+      * Conduct polls{#conduct-polls}
          * [About the polls](../migrated/getting-started-with-live-hub/about-the-polls.md)
          * [Create and launch a poll](../migrated/getting-started-with-live-hub/create-and-launch-a-poll.md)
          * [Respond to a poll](../migrated/getting-started-with-live-hub/respond-to-a-poll.md)
-      * Create a quiz{create-a-quiz}
+      * Create a quiz{#create-a-quiz}
          * [About the quiz](../migrated/getting-started-with-live-hub/about-the-quiz.md)
          * [Create and manage a quiz](../migrated/getting-started-with-live-hub/create-and-manage-a-quiz.md)
          * [Attempt a quiz](../migrated/getting-started-with-live-hub/attempt-a-quiz.md)
       * [Track the Participant engagement](../migrated/getting-started-with-live-hub/track-the-participant-engagement.md)
-      * Breakout rooms{breakout-rooms}
+      * Breakout rooms{#breakout-rooms}
          * [About the breakouts](../migrated/getting-started-with-live-hub/about-the-breakouts.md)
          * [Create and manage breakout rooms](../migrated/getting-started-with-live-hub/create-and-manage-breakout-rooms.md)
          * [Participate in a breakout session](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
-      * Closed captions{closed-captions}
+      * Closed captions{#closed-captions}
          * [Understand the closed captions](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
          * [Manage the closed captions as an Instructor](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
          * [Manage the closed captions as a Learner](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
-      * Recordings and transcripts{recordings-and-transcripts}
+      * Recordings and transcripts{#recordings-and-transcripts}
          * [Understanding recordings and transcripts](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
          * [Record a session](../migrated/getting-started-with-live-hub/record-a-session.md)
          * [View recordings as a Learner](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
-      * Session dashboard{session-dashboard}
+      * Session dashboard{#session-dashboard}
          * [View the Session dashboard](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
          * [Components of the Session dashboard](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
       * [Manage the room settings](../migrated/getting-started-with-live-hub/manage-settings.md)
