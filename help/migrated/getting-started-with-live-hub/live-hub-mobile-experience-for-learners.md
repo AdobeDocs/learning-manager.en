@@ -36,7 +36,8 @@ Join your scheduled Live Hub session from the Adobe Learning Manager mobile app.
 
 Before joining, you can review your camera, microphone, and audio device settings to ensure they are configured correctly.
 
-![Mobile Pre Join Screen](assets2/mobile-pre-join-screen.png "Review your camera, microphone, and audio device settings before joining a Live Hub session on mobile.")
+![Mobile Pre Join Screen](assets/mobile-pre-join-screen.png)
+*Review your camera, microphone, and audio device settings before joining a Live Hub session on mobile.*
 
 >[!NOTE]
 >
@@ -92,7 +93,8 @@ You can:
 
 When an Instructor launches a poll, it appears automatically in the session.
 
-![Mobile Respond To Poll](assets2/mobile-respond-to-poll.png "Respond to a poll directly from the Adobe Learning Manager mobile app.")
+![Mobile Respond To Poll](assets/mobile-respond-to-poll.png)
+*Respond to a poll directly from the Adobe Learning Manager mobile app.*
 
 You can submit your response directly from the mobile app. Depending on how the poll is configured, you may also be able to view poll results after responding.
 
@@ -106,7 +108,8 @@ Quiz results and answer visibility depend on the settings configured by the Inst
 
 If breakout rooms are used during a session, the Instructor will assign you to a room.
 
-![Mobile Breakout Room View](assets2/mobile-breakout-room-view.png "Breakout room view showing collaboration options available on mobile.")
+![Mobile Breakout Room View](assets2/mobile-breakout-room-view.png)
+*Breakout room view showing collaboration options available on mobile.*
 
 Within a breakout room, you can:
 
@@ -124,12 +127,14 @@ Breakout room assignments and timing are managed by the Instructor.
 
 During a session, Instructors may share presentations, whiteboards, Miro boards, or other content. You can view shared content directly in the mobile app and follow discussions and activities.
 
-![Mobile View Shared Content](assets2/mobile-view-shared-content.png "View content shared by an Instructor directly in the mobile app.")
+![Mobile View Shared Content](assets/mobile-view-shared-content.png)
+*View content shared by an Instructor directly in the mobile app.*
 
 ## Leave a session
 
 When you're ready to exit the session, select **Leave**.
 
-![Mobile Leave Session](assets2/mobile-leave-session.png "Select Leave to exit the session from the mobile app.")
+![Mobile Leave Session](assets/mobile-leave-session.png)
+*Select Leave to exit the session from the mobile app.*
 
 After leaving, you will be prompted to provide feedback about your session experience.
