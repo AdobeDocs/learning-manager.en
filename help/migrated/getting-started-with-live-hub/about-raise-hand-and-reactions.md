@@ -3,7 +3,7 @@ title: About raise hand and reactions in Live Hub
 description: Learn how Instructors and Learners use the raise hand and reactions features to interact during a Live Hub session.
 ---
 
-# About raise hand and reactions in Live Hub
+# About raise hand and reactions
 
 Instructors and participants can use the raise hand and reactions features to interact during a Live Hub session. Learners raise their hands to signal that they want to speak, and send reactions to give quick, non-verbal feedback. Instructors can view reactions and raised hands in real time to manage participation, all without interrupting the session flow.
 

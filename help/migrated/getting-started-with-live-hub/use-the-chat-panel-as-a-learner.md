@@ -3,7 +3,7 @@ title: Use the Chat panel as a Learner in Live Hub
 description: Learn how Learners access, customize, and manage messages in the Chat panel during a Live Hub session, including sending private messages.
 ---
 
-# Use the Chat panel as a Learner in Live Hub
+# Use the Chat panel as a Learner
 
 Use the Chat panel to participate in conversations during a Live Hub session. You can send messages to all participants, ask questions, and manage your chat messages. If your Instructor has enabled private messaging, you can also chat directly with other participants. This article describes the chat features available to Learners.
 

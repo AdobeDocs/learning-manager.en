@@ -3,7 +3,7 @@ title: Use the Chat panel as an Instructor in Live Hub
 description: Learn how Instructors access, moderate, and customize the Chat panel in a Live Hub session, including replies, reactions, mentions, private chat, and AI-assisted responses.
 ---
 
-# Use the Chat panel as an Instructor in Live Hub
+# Use the Chat panel as an Instructor
 
 As an Instructor, the Chat panel is your hub for managing communication during a Live Hub session. From a single panel, you can follow the public discussion, hold private conversations, and review the questions that AI detects from the chat. You can also moderate the conversation and respond with AI assistance.
 

@@ -3,7 +3,7 @@ title: Manage participant raised hand and reactions in Live Hub
 description: Learn how Instructors view learner reactions and lower a single or all raised hands to keep a Live Hub session organized.
 ---
 
-# Manage participant raised hand and reactions in Live Hub
+# Manage participant raised hand and reactions
 
 As an Instructor, you can monitor learner reactions and manage raised hands to keep discussions organized and engaging. Instructors can also raise their own hands and send reactions during a session.
 

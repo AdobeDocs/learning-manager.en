@@ -3,7 +3,7 @@ title: About the Chat panel in Live Hub
 description: Learn how the Chat panel enables real-time, structured communication between Instructors and Learners during a Live Hub session.
 ---
 
-# About the Chat panel in Live Hub
+# About the Chat panel
 
 The Chat panel in Live Hub enables real-time communication between Instructors and Learners during live sessions. It supports public discussions, private conversations, and structured question handling, helping Instructors manage interactions efficiently while keeping learners engaged.
 
