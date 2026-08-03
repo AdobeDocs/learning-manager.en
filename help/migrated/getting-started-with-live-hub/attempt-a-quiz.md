@@ -36,5 +36,3 @@ If enabled by the Instructor, you can also review your responses after submissio
 
 ![Quiz Review Score](assets/quiz-review-score.png)
 *Select View score to view your correct and incorrect responses.*
-
-![CTA](assets/cta.png)
