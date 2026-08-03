@@ -1,12 +1,13 @@
+---
+title: System requirements for Live Hub
+description: System requirements to configure and run Live Hub sessions in Adobe Learning Manager, including supported browsers, operating systems, screen resolutions, and hardware.
+---
+
 # System requirements
 
-Use the following system requirements to configure and run Live Hub
-sessions in Adobe Learning Manager. Live Hub uses the same browser,
-operating system, and hardware requirements as the Virtual Classroom
-environment in which it runs.
+Use the following system requirements to configure and run Live Hub sessions in Adobe Learning Manager. Live Hub uses the same browser, operating system, and hardware requirements as the Virtual Classroom environment in which it runs.
 
-Live Hub is available within Virtual Classroom sessions and does not
-require a separate client installation.
+Live Hub is available within Virtual Classroom sessions and does not require a separate client installation.
 
 |Category|Requirements|
 |---|---|
@@ -20,6 +21,4 @@ require a separate client installation.
 
 >[!NOTE]
 >
->Linux browsers, Chromebook devices, Firefox Mobile, Opera (desktop and
->mobile), Internet Explorer 11, and older browser versions are not
->supported.
+>Linux browsers, Chromebook devices, Firefox Mobile, Opera (desktop and mobile), Internet Explorer 11, and older browser versions are not supported.
