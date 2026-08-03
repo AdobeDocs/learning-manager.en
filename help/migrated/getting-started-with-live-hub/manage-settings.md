@@ -15,7 +15,8 @@ In a Live Hub session, Instructors can control participant permissions and room 
 
 1.  Select **Settings**. A pop-up window displays the **Room settings**.
 
-    ![Room Settings Popup](assets/room-settings-popup.png "Room settings pop-up window showing the session settings options.")
+    ![Room Settings Popup](assets/room-settings-popup.png)
+    *Room settings pop-up window showing the session settings options.*
 
 1.  Select the relevant tab from the left panel:
 

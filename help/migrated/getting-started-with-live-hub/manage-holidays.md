@@ -19,7 +19,8 @@ To access the **Holidays** settings:
 
 1.  Navigate to the **Advanced** section in the left navigation pane.
 
-    ![Access Holiday Settings](assets/access-holiday-settings.png "Navigate to the Advanced section in the left navigation pane to find Holidays.")
+    ![Access Holiday Settings](assets/access-holiday-settings.png)
+    *Navigate to the Advanced section in the left navigation pane to find Holidays.*
 
 1.  Select **Holidays**. The **Holidays** page appears.
 
@@ -45,7 +46,8 @@ To add a holiday manually:
 
 1.  (Optional) Enter a description.
 
-    ![Add Single Holiday](assets/add-single-holiday.png "Select a date, enter the holiday name, and optionally add a description.")
+    ![Add Single Holiday](assets/add-single-holiday.png)
+    *Select a date, enter the holiday name, and optionally add a description.*
 
 1.  Select **Save**. The holiday is added to the list.
 
@@ -57,7 +59,8 @@ Use a CSV file to add multiple holidays at once.
 
 1.  Select **Download sample CSV** template and add your holiday details to the file.
 
-    ![Bulk Holiday Csv Upload](assets/bulk-holiday-csv-upload.png "Download the sample CSV template, then upload your completed file.")
+    ![Bulk Holiday Csv Upload](assets/bulk-holiday-csv-upload.png)
+    *Download the sample CSV template, then upload your completed file.*
 
 1.  Drag the CSV file into the upload area, or select the upload area to browse and select the file.
 
