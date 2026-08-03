@@ -23,7 +23,8 @@ To share a new whiteboard:
 
 1.  Select **New whiteboard**. A new whiteboard opens and is visible to all participants in the session.
 
-    ![Share New Whiteboard](assets/share-new-whiteboard.png "Live Hub interface showing the options to share a whiteboard.")
+    ![Share New Whiteboard](assets/share-new-whiteboard.png)
+    *Live Hub interface showing the options to share a whiteboard.*
 
 ## Reopen a whiteboard
 
@@ -37,7 +38,8 @@ To reopen a whiteboard:
 
 1.  Select the whiteboard from the list of available whiteboards. The selected whiteboard opens and is visible to all the learners.
 
-    ![Reopen Whiteboard](assets/reopen-whiteboard.png "Share Whiteboard options displaying the list of available existing whiteboards.")
+    ![Reopen Whiteboard](assets/reopen-whiteboard.png)
+    *Share Whiteboard options displaying the list of available existing whiteboards.*
 
 >[!NOTE]
 >
@@ -47,7 +49,8 @@ To reopen a whiteboard:
 
 Whiteboard tools allow you to create visual explanations, draw, add shapes, insert text, and annotate content during a live session.
 
-![Whiteboard Tools Interface](assets/whiteboard-tools-interface.png "Whiteboard interface showing the whiteboard tools.")
+![Whiteboard Tools Interface](assets/whiteboard-tools-interface.png)
+*Whiteboard interface showing the whiteboard tools.*
 
 Use the following whiteboard tools to create and annotate content during the session:
 
@@ -74,7 +77,8 @@ To clear the whiteboard:
 
 1.  Select **Clear all content**. All content on the whiteboard is removed.
 
-    ![Clear Whiteboard Content Menu](assets/clear-whiteboard-content-menu.png "More menu showing the options to clear all the whiteboard content.")
+    ![Clear Whiteboard Content Menu](assets/clear-whiteboard-content-menu.png)
+    *More menu showing the options to clear all the whiteboard content.*
 
 You can use **Undo** to restore the content you cleared.
 
@@ -90,7 +94,8 @@ To manage existing boards:
 
 1.  Select **View boards**. The **Whiteboards** panel opens and displays all whiteboards created in the session.
 
-    ![Whiteboards Panel Options](assets/whiteboards-panel-options.png "Whiteboards panel showing the options to manage the existing boards.")
+    ![Whiteboards Panel Options](assets/whiteboards-panel-options.png)
+    *Whiteboards panel showing the options to manage the existing boards.*
 
 ### Available actions in the Whiteboards panel
 
@@ -112,9 +117,10 @@ To rename a whiteboard:
 
 1.  On the whiteboard toolbar, select the **Edit** (pencil) icon next to the whiteboard name.
 
-1.  Enter a new name and select the checkmark ![Checkmark Icon](assets/checkmark-icon.png "Checkmark icon.") icon. The whiteboard is renamed with the updated name.
+1.  Enter a new name and select the checkmark icon. The whiteboard is renamed with the updated name.
 
-    ![Rename Whiteboard Option](assets/rename-whiteboard-option.png "Rename the whiteboard option in the whiteboard interface.")
+    ![Rename Whiteboard Option](assets/rename-whiteboard-option.png)
+    *Rename the whiteboard option in the whiteboard interface.*
 
 ## Export whiteboard snapshot as an image
 
@@ -124,11 +130,12 @@ To export a whiteboard snapshot:
 
 1.  Navigate to the upper left corner of the whiteboard.
 
-1.  Select the hamburger menu ![Hamburger Menu Icon](assets/hamburger-menu-icon.png "Hamburger menu icon.") icon.
+1.  Select **More options**.
 
 1.  Select **Export snapshot**. The whiteboard content is exported as a **PNG** image and downloaded to your local system.
 
-    ![Export Whiteboard Snapshot Menu](assets/export-whiteboard-snapshot-menu.png "More menu showing the options to export the whiteboard as an image.")
+    ![Export Whiteboard Snapshot Menu](assets/export-whiteboard-snapshot-menu.png)
+    *More menu showing the options to export the whiteboard as an image.*
 
 ## Allow participants to edit the whiteboard
 
@@ -138,11 +145,12 @@ To grant access to edit whiteboards:
 
 1.  Navigate to the upper left corner of the whiteboard.
 
-1.  Select the hamburger menu ![Hamburger Menu Icon](assets/hamburger-menu-icon.png "Hamburger menu icon.") icon.
+1.  Select **More options**.
 
 1.  Enable **Allow participants to draw**. Participants can now draw on the whiteboard, add shapes, insert text, and use all available annotation tools.
 
-    ![Allow Learners Edit Whiteboard](assets/allow-learners-edit-whiteboard.png "More Options menu showing controls to allow learners to edit the whiteboard.")
+    ![Allow Learners Edit Whiteboard](assets/allow-learners-edit-whiteboard.png)
+    *More Options menu showing controls to allow learners to edit the whiteboard.*
 
 ## Share Miro and other external whiteboards
 
@@ -156,7 +164,8 @@ To share a Miro board:
 
 1.  Sign in to your Miro account.
 
-    ![Share Miro Whiteboard](assets/share-miro-whiteboard.png "More apps menu showing the options to share the Miro board.")
+    ![Share Miro Whiteboard](assets/share-miro-whiteboard.png)
+    *More apps menu showing the options to share the Miro board.*
 
 1.  From the Miro project page, select the board you want to share.
 

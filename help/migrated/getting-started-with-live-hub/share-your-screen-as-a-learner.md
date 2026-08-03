@@ -31,7 +31,8 @@ To share your screen:
 
 1.  Select **Share**. The selected content is displayed to all the learners.
 
-    ![Learner Screen Share View](assets/learner-screen-share-view.png "Live Hub interface showing the screen shared by the learner.")
+    ![Learner Screen Share View](assets/learner-screen-share-view.png )
+    *Live Hub interface showing the screen shared by the learner.*
 
 ## Use annotation tools
 

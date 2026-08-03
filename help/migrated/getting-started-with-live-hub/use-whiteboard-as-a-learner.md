@@ -19,6 +19,7 @@ When an Instructor allows learners to edit a whiteboard, you can interact with o
 
 * Erase drawings, shapes, or objects from the whiteboard.
 
-![Learner Whiteboard Tools](assets/learner-whiteboard-tools.png "Learners can draw, add shapes and text, and erase content on the shared whiteboard.")
+![Learner Whiteboard Tools](assets/learner-whiteboard-tools.png)
+*Learners can draw, add shapes and text, and erase content on the shared whiteboard.*
 
 See [Use whiteboard tools](../getting-started-with-live-hub/share-a-whiteboard.md#use-whiteboard-tools) for more information.

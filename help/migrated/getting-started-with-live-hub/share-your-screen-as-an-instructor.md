@@ -27,7 +27,8 @@ Follow these steps to share your screen:
 
     1.  **Entire screen**: Share your full screen.
 
-    ![Share Entire Screen Option](assets/share-entire-screen-option.png "Screen sharing pop-up window showing multiple options for sharing your screen.")
+    ![Share Entire Screen Option](assets/share-entire-screen-option.png)
+    *Screen sharing pop-up window showing multiple options for sharing your screen.*
 
 1.  (Optional) Enable **Also share tab audio** to include audio from the shared tab.
 
@@ -41,7 +42,8 @@ You can share up to two contents during a session. When additional content is sh
 
 To stop sharing your screen, select **Stop sharing** from the shared screen interface.
 
-![Stop Screen Sharing Control](assets/stop-screen-sharing-control.png "Control bar showing the option to stop screen sharing.")
+![Stop Screen Sharing Control](assets/stop-screen-sharing-control.png)
+*Control bar showing the option to stop screen sharing.*
 
 The screen sharing in the session ends, and the shared content is removed from the room interface.
 
@@ -85,11 +87,12 @@ To use screen sharing with a whiteboard:
 
 1.  Share your screen.
 
-1.  Select the whiteboard ![Whiteboard Icon Control Bar](assets/whiteboard-icon-control-bar.png "Whiteboard icon.") icon from the control bar.
+1.  Select the whiteboard icon from the control bar.
 
 1.  Select **Share whiteboard**. Both contents appear in split view.
 
-    ![Screen Share Whiteboard Split View](assets/screen-share-whiteboard-split-view.png "Live Hub interface showing a split view with the whiteboard on the left and shared content on the right.")
+    ![Screen Share Whiteboard Split View](assets/screen-share-whiteboard-split-view.png)
+    *Live Hub interface showing a split view with the whiteboard on the left and shared content on the right.*
 
 To switch focus between the whiteboard and shared screen:
 
@@ -97,7 +100,8 @@ To switch focus between the whiteboard and shared screen:
 
 1.  Select **Maximize**. The selected content moves to the main stage. The other content moves to a secondary view.
 
-    ![Screen Share Secondary View](assets/screen-share-secondary-view.png "Live Hub interface showing a split view with the maximized whiteboard and shared content at the bottom of the interface.")
+    ![Screen Share Secondary View](assets/screen-share-secondary-view.png)
+    *Live Hub interface showing a split view with the maximized whiteboard and shared content at the bottom of the interface.*
 
 ## Annotate shared content
 
@@ -109,7 +113,8 @@ While sharing your screen, select the annotate (pen) icon in the upper-right cor
 
 An annotation toolbar appears when you start annotating.
 
-![Screen Share Annotation Toolbar](assets/screen-share-annotation-toolbar.png "Live Hub interface showing the annotation toolbar for interacting with the shared content.")
+![Screen Share Annotation Toolbar](assets/screen-share-annotation-toolbar.png)
+*Live Hub interface showing the annotation toolbar for interacting with the shared content.*
 
 The annotation toolbar provides the following options:
 
