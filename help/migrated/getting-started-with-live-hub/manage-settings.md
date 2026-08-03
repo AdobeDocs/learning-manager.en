@@ -3,7 +3,7 @@ title: Manage settings in Live Hub
 description: Learn how Instructors access and configure in-room settings in Live Hub, including participant permissions, recording, AI assistants, and privacy.
 ---
 
-# Manage settings in Live Hub
+# Manage the room settings
 
 In a Live Hub session, Instructors can control participant permissions and room behavior using in-room settings. These settings allow you to manage participant interactions, what is captured in the recording, privacy, and AI-powered assistance features to ensure a structured and engaging session.
 

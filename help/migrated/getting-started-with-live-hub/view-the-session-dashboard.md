@@ -3,7 +3,7 @@ title: View the Session dashboard in Live Hub
 description: Learn how Instructors access the Session dashboard for a Live Hub session and what participation, engagement, and performance insights it provides.
 ---
 
-# View the Session dashboard in Live Hub
+# View the Session dashboard
 
 The session dashboard in Live Hub provides insights for Learner participation, engagement, and session performance. It helps Instructors review how learners interacted during a session and evaluate its effectiveness.
 

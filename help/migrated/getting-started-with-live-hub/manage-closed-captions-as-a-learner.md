@@ -3,7 +3,7 @@ title: Manage closed captions as a Learner in Live Hub
 description: Learn how Learners display closed captions and customize their font size and caption style during a Live Hub session.
 ---
 
-# Manage closed captions as a Learner in Live Hub
+# Manage closed captions as a Learner
 
 Closed captions display spoken content as on-screen text, making a Live Hub session easier to follow, for example, if you're in a noisy environment or prefer reading along with the audio. You control your own captions from the closed captions (CC) button in the control bar. This guide explains how to display, adjust, and hide captions as a Learner.
 

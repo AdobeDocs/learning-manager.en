@@ -3,7 +3,7 @@ title: Record a session in Live Hub
 description: Learn how Instructors start, pause, and stop a recording, play back and edit recordings, and generate AI topics and transcripts in a Live Hub session.
 ---
 
-# Record a session in Live Hub
+# Record a session
 
 As an Instructor, you have full control over how a session is captured, refined, and shared. You can start a recording during a live session, manage it while it runs, and review the automatically generated topics, summary, and transcript once the session ends.
 

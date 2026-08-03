@@ -7,4 +7,4 @@ In a Live Hub session, closed captions are generated automatically. Captions dis
 Each participant can show or hide captions as they prefer. Changing this setting does not affect other participants.
 
 ![](assets/closed-captions-overview.png)
-Live Hub interface showing the closed captions in the session
+*Live Hub interface showing the closed captions in the session*

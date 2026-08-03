@@ -1,13 +1,13 @@
 ---
-title: Live Hub FAQs
+title: Live Hub Frequently asked qustions
 description: Frequently asked questions about Live Hub in Adobe Learning Manager, organized by role for Administrators, Authors, Instructors, and Learners.
 ---
 
-# Live Hub FAQs
+# Frequently asked questions
 
 Live Hub includes the roles of Administrator, Author, Instructor, and Learner, each responsible for a different part of the training workflow. This document reorganizes the original Live Hub FAQ content by role, so each audience can quickly find the questions most relevant to them.
 
-## Administrator FAQs
+## Administrator
 
 **Q. How do I enable Live Hub for my Adobe Learning Manager account?**
 

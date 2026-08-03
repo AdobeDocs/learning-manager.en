@@ -299,7 +299,7 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Track the Participant engagement](../migrated/getting-started-with-live-hub/track-the-participant-engagement.md)
       * Breakout rooms{#breakout-rooms}
          * [About the breakouts](../migrated/getting-started-with-live-hub/about-the-breakouts.md)
-         * [Create and manage breakout rooms](../migrated/getting-started-with-live-hub/create-and-manage-breakout-rooms.md)
+         * [Create and manage breakout session](../migrated/getting-started-with-live-hub/create-and-manage-breakout-rooms.md)
          * [Participate in a breakout session](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
       * Closed captions{#closed-captions}
          * [Understand the closed captions](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)

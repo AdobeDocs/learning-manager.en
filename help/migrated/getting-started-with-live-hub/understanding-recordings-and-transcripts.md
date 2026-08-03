@@ -3,7 +3,7 @@ title: Understand recordings and transcripts in Live Hub
 description: Learn how Live Hub session recordings, AI-generated transcripts, topics, and summaries help Instructors and Learners extend learning beyond the live session.
 ---
 
-# Understand recordings and transcripts in Live Hub
+# Understand recordings and transcripts
 
 Session recordings in Live Hub allow learners to revisit sessions and Instructors to extend learning beyond the live session. Each recording captures the core classroom experience and enhances it with AI-powered features to support easy navigation and content discovery.
 
