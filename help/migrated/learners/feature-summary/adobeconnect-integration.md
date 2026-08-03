@@ -30,3 +30,7 @@ If you want to listen to recorded virtual classroom sessions, click the Virtual 
 >[!NOTE]
 >
 >Generally, recorded session URLs reflect in the Learning Manager application after two hours of session completion.
+
+## Consume Live Hub sessions
+
+As a Learner, you can consume virtual classroom courses using Live Hub if your company has Live Hub enabled for your Learning Manager account. Contact the administrator of your company if you are unable to use Live Hub. For steps on joining and attending the session, see [Join a session as a Learner](../../getting-started-with-live-hub/join-live-hub-session-as-a-learner.md). 

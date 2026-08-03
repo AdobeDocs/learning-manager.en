@@ -64,6 +64,27 @@ To add a skill, follow the steps below:
    
    *View list of skills*
 
+# Add skills in bulk
+
+Administrators can add multiple skills directly within Adobe Learning
+Manager using the bulk upload option in the **Add skills** dialog.
+
+To add skills in bulk:
+
+1. Select **Skills** from the left pane.
+
+1. Select **Add** > **Add Skills**. A pop-up window of Add skills
+   appears.
+
+1. Select **Add skills in bulk (Upload CSV)**.
+
+   ![Add skills in bulk dialog with the Upload CSV option](assets/add-skills-bulk-upload-csv.png)
+   *Add skills pop-up window shoing the options to add the skills in bulk.*
+
+1. Upload the CSV file with the skill details.
+
+1. Select **Save**.
+
 ## Assign the skill to learners {#assigntheskilltolearners}
 
 Administrators can assign the skills to learners.
