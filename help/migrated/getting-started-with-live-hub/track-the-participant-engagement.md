@@ -1,5 +1,5 @@
 ---
-title: Track participant engagement in Live Hub
+title: Track participant engagement
 description: Learn how Instructors use the real-time participant engagement indicator in Live Hub to monitor browser focus, chat activity, and poll participation.
 ---
 
