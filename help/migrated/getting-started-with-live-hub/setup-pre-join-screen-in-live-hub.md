@@ -3,13 +3,13 @@ title: Set up the pre-join screen in Live Hub
 description: Learn how the Live Hub pre-join screen works, how to allow browser permissions, and how to configure audio and camera controls before joining a session.
 ---
 
-# Set up the pre-join screen in Live Hub
+# Set up the pre-join screen
 
 A Live Hub session in Adobe Learning Manager is a live, Instructor-led training that Instructors and Learners attend together in a virtual classroom. During a session, participants can talk, chat, respond to polls and quizzes, collaborate on a whiteboard, and join breakout rooms for smaller group discussions.
 
 This article explains how a session works from start to finish and walks through the shared setup that applies to everyone, regardless of role. To learn how to enter a session, see the role-specific articles listed at the end.
 
-## Setup pre-join screen
+## What you will see on the pre-join screen
 
 The pre-join screen is where both Instructor and Learner land before entering the classroom. It shows the session details and gives you audio and camera controls so you can check everything that works first. When the screen loads, a brief loading indicator may appear while the session information is retrieved. You can review the session title or module name, the Instructor, the course, and the session description.
 
