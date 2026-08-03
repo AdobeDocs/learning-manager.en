@@ -173,5 +173,5 @@ For sessions created using Live Hub, the **Live hub** section on the **Session o
 
 - **View recording**: If the session was recorded, select **View recording** to access the recording directly from the **Session overview** page. If no recording is available, the card indicates its status.
 
-![Session Overview page showing the Live hub section](assets/session-overview-live-hub-section.png)
+![Session Overview page](../../getting-started-with-live-hub/assets/session-overview-page.png)
 *Session Overview page showing the Live Hub section with access to Live Hub activities.*
