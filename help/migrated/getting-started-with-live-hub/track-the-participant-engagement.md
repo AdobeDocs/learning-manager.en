@@ -3,15 +3,13 @@ title: Track participant engagement in Live Hub
 description: Learn how Instructors use the real-time participant engagement indicator in Live Hub to monitor browser focus, chat activity, and poll participation.
 ---
 
-# Track participant engagement in Live Hub
+# Track participant engagement
 
 Participant engagement in Live Hub gives Instructors a real-time view of Learner engagement during a live session. It combines browser focus, chat activity, and poll participation into a single engagement level, shown as a green, yellow, or red indicator. Use it to spot dips in attention and adjust your delivery in real time.
 
-The engagement meter is calculated and displayed only during a live session. It's not available after the session ends.
+The participant engagement displays the average engagement level of all learners in the main room at a given point in time. The level refreshes as soon as a Learner joins the session.
 
-## View the participant engagement
-
-The participant engagement displays the average engagement level of all learners in the main room at a given point in time. The level refreshes as soon as a learner joins the session.
+The participant engagement is calculated and displayed only during a live session.
 
 >[!NOTE]
 >
@@ -21,7 +19,8 @@ The participant engagement displays the average engagement level of all learners
 
 You can view the engagement level at the top right of the Live Hub session interface. It appears as a real-time indicator of Learner participation.
 
-![Engagement Level Indicator](assets/engagement-level-indicator.png "Live Hub interface displaying the participant engagement in the upper right corner.")
+![Engagement Level Indicator](assets/engagement-level-indicator.png)
+*Live Hub interface displaying the participant engagement in the upper right corner.*
 
 The system calculates the engagement level using the three factors:
 
