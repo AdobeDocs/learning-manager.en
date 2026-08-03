@@ -304,7 +304,7 @@ user-guide-description: Documentation for Adobe Learning Manager
       * Closed captions{#closed-captions}
          * [Understand the closed captions](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
          * [Manage the closed captions as an Instructor](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
-         * [Manage the closed captions as a Learner](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+         * [Manage the closed captions as a Learner](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
       * Recordings and transcripts{#recordings-and-transcripts}
          * [Understanding recordings and transcripts](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
          * [Record a session](../migrated/getting-started-with-live-hub/record-a-session.md)
