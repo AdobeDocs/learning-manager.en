@@ -1,9 +1,9 @@
 ---
-title: Instructor management in Live Hub
+title: Add and manage Instructors in Live Hub
 description: Learn how Administrators add Instructors, build their profiles, define skills and languages, and configure utilization and availability in Live Hub.
 ---
 
-# Instructor management in Live Hub
+# Add and manage Instructors
 
 Instructors deliver live sessions and engage learners in Live Hub. To support accurate scheduling and effective course delivery, Administrators can add Instructors, build their profiles, define teaching skills and languages, and configure availability.
 
@@ -19,7 +19,8 @@ Follow these steps to view and manage Instructors:
 
 1.  Select **Instructors** in **User Groups**.
 
-    ![Access Instructors Tab](assets/access-instructors-tab.png "Select Instructors in User Groups to view and manage Instructors.")
+    ![Access Instructors Tab](assets/access-instructors-tab.png) 
+    *Select Instructors in User Groups to view and manage Instructors.*
 
 ## Add an Instructor
 
@@ -31,7 +32,8 @@ To add an Instructor:
 
 1.  Select **Add Instructors**. A pop-up window of **Add Instructors** appears.
 
-    ![Add Instructor Popup](assets/add-instructor-popup.png "Search for a user by name and select them to assign the Instructor role.")
+    ![Add Instructor Popup](assets/add-instructor-popup.png) 
+    *Search for a user by name and select them to assign the Instructor role.*
 
 1.  Search for the user by name and select the user from the search results to assign the Instructor role.
 
@@ -47,7 +49,8 @@ To set up an Instructor profile:
 
 1.  Select **Add skills and other details**. An **Edit instructor profile** pop-up window appears.
 
-    ![Edit Instructor Profile](assets/edit-instructor-profile.png "The Edit instructor profile window includes tabs for basic details, skills, utilization, and availability.")
+    ![Edit Instructor Profile](assets/edit-instructor-profile.png) 
+    *The Edit instructor profile window includes tabs for basic details, skills, utilization, and availability.*
 
 #### Add basic details
 
@@ -87,7 +90,7 @@ To add a new skill:
 
 1.  Select **Add new skill** from the **Skills** tab. An **Add skill** panel opens.
 
-    ![Add New Skill Panel](assets/add-new-skill-panel.png "Enter a skill name and description, then select Done to add the new skill.")
+    ![Add New Skill Panel](assets/add-new-skill-panel.png) *Enter a skill name and description, then select Done to add the new skill.*
 
 1.  Enter the following details in the **Add skill** panel:
 
@@ -111,7 +114,8 @@ To configure Instructor utilization:
 
 1.  Enter a **Start time** and **End time** for the preferred time slot.
 
-    ![Instructor Utilization Time Slot](assets/instructor-utilization-time-slot.png "Enter a start time and end time for the Instructor's preferred working hours.")
+    ![Instructor Utilization Time Slot](assets/instructor-utilization-time-slot.png)
+    *Enter a start time and end time for the Instructor's preferred working hours.*
 
 1.  (Optional) Select **Add another time slot** to add additional availability.
 
@@ -127,7 +131,8 @@ To mark unavailable days:
 
 1.  Select a start date and an end date in the **Add non-available days** section.
 
-    ![Instructor Non Available Days](assets/instructor-non-available-days.png "Select a start date and end date to mark a range as unavailable on the Instructor's calendar.")
+    ![Instructor Non Available Days](assets/instructor-non-available-days.png)
+    *Select a start date and end date to mark a range as unavailable on the Instructor's calendar.*
 
 1.  Select **Add**. The selected date range is marked as unavailable on the calendar.
 
