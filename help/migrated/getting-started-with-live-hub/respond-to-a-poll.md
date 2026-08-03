@@ -17,7 +17,8 @@ When an Instructor launches a poll during a session, it appears on your screen. 
 
 After you submit, the message **Your response has been recorded** appears.
 
-![Respond To Poll](assets/respond-to-poll.png "After submitting a poll response, the message Your response has been recorded appears.")
+![Respond To Poll](assets/respond-to-poll.png)
+*After submitting a poll response, the message Your response has been recorded appears.*
 
 ## Update your response
 

@@ -19,7 +19,8 @@ To create a poll manually:
 
 1.  Select the **Poll** tab and then select **Build your own**.
 
-    ![Create Poll Manually](assets/create-poll-manually.png "Select Build your own in the Poll tab to create a poll manually.")
+    ![Create Poll Manually](assets/create-poll-manually.png)
+    *Select Build your own in the Poll tab to create a poll manually.*
 
 1.  In the **Poll** tab, select one of the following question types from the dropdown:
 
@@ -69,7 +70,8 @@ To create an Icebreaker poll:
 
     * Enable **Multiple correct answers** in case of multiple-choice questions.
 
-    ![Create Icebreaker Poll](assets/create-icebreaker-poll.png "Generate and customize an Icebreaker poll with AI in the Poll tab.")
+    ![Create Icebreaker Poll](assets/create-icebreaker-poll.png)
+    *Generate and customize an Icebreaker poll with AI in the Poll tab.*
 
 1.  (Optional) Select **Regenerate poll** to generate a new question.
 
@@ -99,7 +101,8 @@ To create a Knowledge check poll:
 
     * Enable **Has multiple answers** in case of multiple-choice questions.
 
-    ![Create Knowledge Check Poll](assets/create-knowledge-check-poll.png "Generate and customize a Knowledge check poll with AI in the Poll tab.")
+    ![Create Knowledge Check Poll](assets/create-knowledge-check-poll.png)
+    *Generate and customize a Knowledge check poll with AI in the Poll tab.*
 
 1.  (Optional) Select **Regenerate poll** to replace the current question with a new one.
 
@@ -125,13 +128,15 @@ To launch a poll:
 >
 > The poll becomes visible to Learners, and Instructors can view the poll results in real time. Learners can update their responses while the poll remains live.
 
-![Launch Poll](assets/launch-poll.png "Select Launch poll to start collecting responses during the session.")
+![Launch Poll](assets/launch-poll.png)
+*Select Launch poll to start collecting responses during the session.*
 
 ## Share poll results with participants
 
 You can share poll results with participants at any time during the session. Select **Share results to all participants** to make the results visible in real time. When results are shared, the poll displays a **Results live** tag, indicating that Learners can view the poll outcomes.
 
-![Share Poll Results](assets/share-poll-results.png "Select Share results to all participants to display poll results in real time.")
+![Share Poll Results](assets/share-poll-results.png)
+*Select Share results to all participants to display poll results in real time.*
 
 ## Close a poll
 
@@ -145,7 +150,8 @@ To close a poll:
 
 1.  Select **End poll**.
 
-![Close Poll](assets/close-poll.png "Select End poll to stop collecting responses and close the poll.")
+![Close Poll](assets/close-poll.png)
+*Select End poll to stop collecting responses and close the poll.*
 
 After the poll ends, the **Closed** status appears above the poll question.
 
@@ -163,7 +169,8 @@ To view detailed responses:
 
 A pop-up window opens showing the participant names, their selected answers, and multiple entries for questions that allow multiple responses.
 
-![View Poll Results](assets/view-poll-results.png "View participant names and their selected answers in the Poll responses window.")
+![View Poll Results](assets/view-poll-results.png)
+*View participant names and their selected answers in the Poll responses window.*
 
 Learners can view the poll results in real time as responses are submitted or updated.
 
@@ -177,7 +184,8 @@ To manage a closed poll:
 
 1.  Navigate to the closed poll and select the options (**...**) menu.
 
-    ![Manage Closed Poll](assets/manage-closed-poll.png "Use the options menu to Reset, Duplicate, or Delete a closed poll.")
+    ![Manage Closed Poll](assets/manage-closed-poll.png)
+    *Use the options menu to Reset, Duplicate, or Delete a closed poll.*
 
 1.  Select one of the following options:
 

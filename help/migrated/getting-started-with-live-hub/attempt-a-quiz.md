@@ -11,7 +11,7 @@ Your responses are saved automatically as you progress through the quiz. If the 
 
 This article explains how to take a quiz, submit your responses, and review your results.
 
-## Attempt a quiz
+## Take the quiz
 
 You can start the quiz immediately and respond to the questions while the session is in progress.
 
@@ -25,7 +25,8 @@ To attempt a quiz:
 
 If a time limit is set, the remaining time is displayed while you attempt the quiz. You can move between questions as needed before submitting.
 
-![Quiz Instructions Screen](assets/quiz-instructions-screen.png "Quiz tab interface showing the instructions before starting the quiz.")
+![Quiz Instructions Screen](assets/quiz-instructions-screen.png)
+*Quiz tab interface showing the instructions before starting the quiz.*
 
 ## Review your quiz attempt
 
@@ -33,4 +34,5 @@ After submitting, you can review a summary of your attempt. The summary shows th
 
 If enabled by the Instructor, you can also review your responses after submission. This allows you to see your score, selected answers, and identify correct and incorrect responses.
 
-![Quiz Review Score](assets/quiz-review-score.png "Select View score to view your correct and incorrect responses.")
+![Quiz Review Score](assets/quiz-review-score.png)
+*Select View score to view your correct and incorrect responses.*

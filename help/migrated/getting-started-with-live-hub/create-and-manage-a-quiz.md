@@ -17,7 +17,8 @@ To create a quiz:
 
 1.  Select the **Quiz** tab from the **Polls & Quizzes** panel.
 
-    ![Create Quiz Tab](assets/create-quiz-tab.png "Select the Quiz tab from the Polls & Quizzes panel.")
+    ![Create Quiz Tab](assets/create-quiz-tab.png)
+    *Select the Quiz tab from the Polls & Quizzes panel.*
 
 1.  Select **Create new quiz**. A new quiz titled **Untitled Quiz 1** opens.
 
@@ -39,7 +40,8 @@ To create a quiz:
 
 1.  To add additional questions, select **+ Add question**.
 
-    ![Add Quiz Question](assets/add-quiz-question.png "Quiz tab interface showing the option to create a quiz.")
+    ![Add Quiz Question](assets/add-quiz-question.png)
+    *Quiz tab interface showing the option to create a quiz.*
 
 1.  Select **Done**.
 
@@ -57,7 +59,8 @@ To set a time limit:
 
 1.  Set the duration in minutes.
 
-![Set Quiz Time Limit](assets/set-quiz-time-limit.png "Quiz tab interface showing the option to set the quiz time limit.")
+![Set Quiz Time Limit](assets/set-quiz-time-limit.png)
+*Quiz tab interface showing the option to set the quiz time limit.*
 
 ## Edit a quiz
 
@@ -83,7 +86,8 @@ To edit a quiz:
 
     1.  Delete a question if it is no longer required.
 
-    ![Edit Quiz Question](assets/edit-quiz-question.png "Quiz tab interface showing the option to edit a quiz.")
+    ![Edit Quiz Question](assets/edit-quiz-question.png)
+    *Quiz tab interface showing the option to edit a quiz.*
 
 1.  Select **Save** to apply the changes.
 
@@ -99,7 +103,8 @@ To launch a quiz:
 
 When you launch a quiz, it appears in the **Polls & Quizzes** panel for learners to answer. If a time limit is set, you can also extend the quiz duration by selecting **+1 min** during the live quiz.
 
-![Launch Quiz](assets/launch-quiz.png "Quiz tab interface showing the quiz launched for the participants.")
+![Launch Quiz](assets/launch-quiz.png)
+*Quiz tab interface showing the quiz launched for the participants.*
 
 ## View quiz results
 
@@ -113,7 +118,8 @@ To view quiz results:
 
 1.  Select **View results**.
 
-![View Quiz Results](assets/view-quiz-results.png "Quiz tab interface shows the View details option to access and view the quiz results.")
+![View Quiz Results](assets/view-quiz-results.png)
+*Quiz tab interface shows the View details option to access and view the quiz results.*
 
 The **Quiz** panel shows the results with the following details:
 
@@ -129,7 +135,8 @@ The **Quiz** panel shows the results with the following details:
 
 Select an individual paticipant from the results list to view detailed responses. You can see how the learner answered each question.
 
-![Quiz Learner Detailed Responses](assets/quiz-learner-detailed-responses.png "Quiz responses pop-up window showing the detailed results for a learner.")
+![Quiz Learner Detailed Responses](assets/quiz-learner-detailed-responses.png)
+*Quiz responses pop-up window showing the detailed results for a learner.*
 
 ## Close a quiz
 
@@ -141,7 +148,8 @@ To close a quiz:
 
 1.  The quiz status updates to **Closed**.
 
-![Close Quiz Status](assets/close-quiz-status.png "Quiz tab interface showing the Closed quiz status.")
+![Close Quiz Status](assets/close-quiz-status.png)
+*Quiz tab interface showing the Closed quiz status.*
 
 ## Share quiz results with participants
 
@@ -149,7 +157,8 @@ You can share quiz results with participants after you end or close the quiz. To
 
 When result sharing is enabled, the quiz is labeled with a **Results live** tag. This means that the results are being displayed to learners.
 
-![Share Quiz Results](assets/share-quiz-results.png "Enable Share results with participants to share the results with learners.")
+![Share Quiz Results](assets/share-quiz-results.png)
+*Enable Share results with participants to share the results with learners.*
 
 ## Manage a quiz
 
@@ -161,7 +170,8 @@ To manage a quiz:
 
 1.  Navigate to the quiz and select the options (**...**) menu.
 
-    ![Manage Quiz Options Menu](assets/manage-quiz-options-menu.png "Quiz tab interface showing the option to Reset, Duplicate and Delete a quiz.")
+    ![Manage Quiz Options Menu](assets/manage-quiz-options-menu.png)
+    *Quiz tab interface showing the option to Reset, Duplicate and Delete a quiz.*
 
 1.  Select one of the following options:
 

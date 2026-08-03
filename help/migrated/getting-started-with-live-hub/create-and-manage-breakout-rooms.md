@@ -17,7 +17,8 @@ To create a breakout room:
 
 1.  Select **Breakout sessions** from the control bar.
 
-    ![Select Breakout Sessions Panel](assets/select-breakout-sessions-panel.png "Live Hub interface showing the Breakout panel.")
+    ![Select Breakout Sessions Panel](assets/select-breakout-sessions-panel.png)
+    *Live Hub interface showing the Breakout panel.*
 
 1.  Select **Set up a breakout session**.
 
@@ -31,7 +32,8 @@ To design a breakout room:
 
 1.  Select **Breakout** from the control bar. The Breakouts panel opens.
 
-    ![Open Breakouts Panel](assets/open-breakouts-panel.png "Breakouts panel showing the options to configure the breakout rooms.")
+    ![Open Breakouts Panel](assets/open-breakouts-panel.png)
+    *Breakouts panel showing the options to configure the breakout rooms.*
 
 1.  Configure the breakout rooms using the following options:
 
@@ -61,7 +63,8 @@ To start a breakout session:
 
 1.  Select **Start breakouts**. A notification shows **Starting in 5 seconds**, and learners are then moved to their assigned breakout rooms with the configured setup applied.
 
-    ![Start Breakout Session](assets/start-breakout-session.png "Select Start breakouts to start the breakout session.")
+    ![Start Breakout Session](assets/start-breakout-session.png)
+    *Select Start breakouts to start the breakout session.*
 
 ## Manage breakout sessions
 
@@ -79,7 +82,8 @@ To edit a breakout session:
 
 1.  Select the edit (pencil) icon on the session.
 
-    ![Edit Breakout Session Icon](assets/edit-breakout-session-icon.png "Select the Edit (pencil) icon to update the breakout session configuration.")
+    ![Edit Breakout Session Icon](assets/edit-breakout-session-icon.png)
+    *Select the Edit (pencil) icon to update the breakout session configuration.*
 
 1.  Update the configuration as needed, such as the number of rooms, the duration, or the instructions.
 
@@ -97,7 +101,8 @@ To duplicate a session:
 
 1.  Select the more options (**...**) icon on the session.
 
-    ![Duplicate Breakout Session Menu](assets/duplicate-breakout-session-menu.png "The More options menu shows Duplicate actions.")
+    ![Duplicate Breakout Session Menu](assets/duplicate-breakout-session-menu.png)
+    *The More options menu shows Duplicate actions.*
 
 1.  Select **Duplicate**.
 
@@ -117,7 +122,8 @@ To delete a breakout session:
 
 1.  Select **Delete**. A confirmation pop-up window appears.
 
-    ![Delete Breakout Confirmation](assets/delete-breakout-confirmation.png "Select Delete from the confirmation pop-up window to delete a breakout session.")
+    ![Delete Breakout Confirmation](assets/delete-breakout-confirmation.png)
+    *Select Delete from the confirmation pop-up window to delete a breakout session.*
 
 1.  Select **Delete**.
 
@@ -135,7 +141,8 @@ To view summaries:
 
 1.  Select **Check room**. A **Check Room** pop-up window appears with the summary of the room.
 
-    ![Breakout Room AI Summary](assets/breakout-room-ai-summary.png "Check Room pop-up window displays the summary of the room.")
+    ![Breakout Room AI Summary](assets/breakout-room-ai-summary.png)
+    *Check Room pop-up window displays the summary of the room.*
 
 1.  (Optional) Select another room. The summary updates to display details for the selected room.
 
@@ -159,7 +166,8 @@ You can end the breakout session at any time.
 
 1.  Select **End breakouts** in the active breakout session. All learners are moved back to the main room, and the breakout session ends for all participants.
 
-    ![End Breakout Session](assets/end-breakout-session.png "Breakout session 2 showing End breakouts options to end the breakout session.")
+    ![End Breakout Session](assets/end-breakout-session.png)
+    *Breakout session 2 showing End breakouts options to end the breakout session.*
 
 ## View a breakout session report
 
@@ -171,7 +179,8 @@ To view a breakout session report:
 
 1.  Select **View reports**. The Breakouts report pop-up window opens with the rooms report.
 
-    ![Breakout Session Report](assets/breakout-session-report.png "Breakouts reports pop-up window showing the breakout rooms report.")
+    ![Breakout Session Report](assets/breakout-session-report.png)
+    *Breakouts reports pop-up window showing the breakout rooms report.*
 
 All breakout session insights are also available in the **Session dashboard**, where you can review summaries, analyze participation, and track session outcomes after the session. See [Components of the Session dashboard](Components-of-the-Session-dashboard.md) for more information.
 
