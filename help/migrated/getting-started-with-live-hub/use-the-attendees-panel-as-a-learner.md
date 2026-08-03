@@ -3,7 +3,7 @@ title: Use the Attendees panel as a Learner in Live Hub
 description: Learn how Learners open the Attendees panel and interact with other participants during a Live Hub session.
 ---
 
-# Use the Attendees panel as a Learner in Live Hub
+# Use the Attendees panel as a Learner
 
 As a Learner, the Attendees panel lets you see who else is in a Live Hub session and interact with them based on the permissions your Instructor has enabled. You can view other attendees, check a participant's details, and send private messages when those options are available. This guide explains how to open the Attendees panel and interact with other attendees as a Learner.
 

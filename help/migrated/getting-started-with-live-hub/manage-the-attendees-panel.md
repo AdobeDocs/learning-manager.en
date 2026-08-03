@@ -3,7 +3,7 @@ title: Manage the Attendees panel in Live Hub
 description: Learn how Instructors view the Attendees panel, configure attendee settings, and manage individual learners during a Live Hub session.
 ---
 
-# Manage the Attendees panel in Live Hub
+# Manage the Attendees panel
 
 Use the **Attendees** panel to view and manage participants in a Live Hub session. The panel displays a real-time list of attendees, including learners who have joined the session and those enrolled but have not yet joined. It also shows each attendee's role and interaction status.
 

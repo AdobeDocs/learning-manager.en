@@ -3,7 +3,7 @@ title: About the Attendees panel in Live Hub
 description: Learn how the Attendees panel helps Instructors and Learners view participants, manage interactions, and track attendance in a Live Hub session.
 ---
 
-# About the Attendees panel in Live Hub
+# About the Attendees panel
 
 The Attendees panel in a Live Hub allows Instructors to view learners and manage their interactions during a session. It provides a centralized view of all attendees and helps Instructors monitor participation and engagement in real time.
 
