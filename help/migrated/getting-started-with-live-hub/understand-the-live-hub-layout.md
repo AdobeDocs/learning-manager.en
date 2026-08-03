@@ -9,7 +9,8 @@ In Adobe Learning Manager Live Hub, the session room is designed to help Instruc
 
 This article provides an overview of the Live Hub interface and its layout. It explains the different components of the room, such as the control panel, Attendees panel, and other key elements, with labeled references to help you navigate the interface.
 
-![Live Hub Layout Overview](assets/live-hub-layout-overview.png "A: Microphone controls, B: Camera options, C: Reactions, D: Raise hand, E: Share screen, F: More actions, G: Leave session, H: Chat panel, I: Attendees panel, J: Polls & Quizzes panel, K: Breakout, L: More apps, M: Participant engagement.")
+![Live Hub Layout Overview](assets/live-hub-layout-overview.png)
+*A: Microphone controls, B: Camera options, C: Reactions, D: Raise hand, E: Share screen, F: More actions, G: Leave session, H: Chat panel, I: Attendees panel, J: Polls & Quizzes panel, K: Breakout, L: More apps, M: Participant engagement.*
 
 ## Key components of the classroom layout
 
