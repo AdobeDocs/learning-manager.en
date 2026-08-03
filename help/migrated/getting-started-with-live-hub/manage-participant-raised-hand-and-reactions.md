@@ -29,7 +29,8 @@ If a learner's question has been addressed or no longer requires attention, you 
 
 1.  Select the **More options (⋯)** icon next to the learner's name.
 
-    ![Lower Learner Raised Hand](assets/lower-learner-raised-hand.png "More options menu showing the learner's actions from the Attendees panel.")
+    ![Lower Learner Raised Hand](assets/lower-learner-raised-hand.png)
+    *More options menu showing the learner's actions from the Attendees panel.*
 
 1.  Select **Lower hand**.
 

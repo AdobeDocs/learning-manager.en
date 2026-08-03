@@ -19,7 +19,8 @@ From the **Attendees** panel, you can interact with participants based on the pe
 
 To access these actions, select the **More options (⋯)** icon next to a participant's name in the panel.
 
-![View Attendee Options Menu](assets/view-attendee-options-menu.png "Select the More options menu to view the learner's details and message them privately.")
+![View Attendee Options Menu](assets/view-attendee-options-menu.png)
+*Select the More options menu to view the learner's details and message them privately.*
 
 The following actions are available to the Learner:
 

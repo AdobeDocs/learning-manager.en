@@ -15,7 +15,7 @@ Follow these steps to access the Chat panel:
 
 1.  Join the Live Hub session.
 
-1.  Select the Chat ![Chat Panel Icon Learner](assets/chat-panel-icon-learner.png "Chat panel icon.") icon from the control bar. The Chat panel opens with the **Everyone** tab by default, allowing you to join or follow the ongoing conversation.
+1.  Select the Chat panel icon from the control bar. The Chat panel opens with the **Everyone** tab by default, allowing you to join or follow the ongoing conversation.
 
 1.  Select one of the following tabs:
 
@@ -23,7 +23,8 @@ Follow these steps to access the Chat panel:
 
     1.  Private
 
-    ![Chat Panel Tabs](assets/chat-panel-tabs.png "Chat panel showing the Everyone and Private tab for communication.")
+    ![Chat Panel Tabs](assets/chat-panel-tabs.png)
+    *Chat panel showing the Everyone and Private tab for communication.*
 
 1.  Type your message and select **Send**.
 
@@ -43,7 +44,8 @@ To customize the Chat panel:
 
     1.  **Change text size**: Increase or decrease the size of chat messages for easier reading.
 
-    ![Chat Panel Settings](assets/chat-panel-settings.png "Chat panel settings showing options to turn off notifications and adjust the text size of chat messages.")
+    ![Chat Panel Settings](assets/chat-panel-settings.png)
+    *Chat panel settings showing options to turn off notifications and adjust the text size of chat messages.*
 
 ## Manage your chat messages
 
@@ -72,7 +74,8 @@ To start a private conversation:
 
 1.  Select a participant from the list.
 
-    ![Private Chat Tab](assets/private-chat-tab.png "The Private tab shows a one-to-one conversation between a learner and another participant.")
+    ![Private Chat Tab](assets/private-chat-tab.png)
+    *The Private tab shows a one-to-one conversation between a learner and another participant.*
 
 1.  Type your message and select **Send**.
 
