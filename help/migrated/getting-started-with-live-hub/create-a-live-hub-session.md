@@ -39,7 +39,8 @@ To create a Live Hub course:
 
     1.  Brief description
 
-    ![Add Course Name Description](assets/add-course-name-description.png "Enter the course name and brief description before adding modules to the course.")
+    ![Add Course Name Description](assets/add-course-name-description.png)
+    *Enter the course name and brief description before adding modules to the course.*
 
 1.  Select **Content** > **Add Modules** in the **Modules** section. The **Select Module Type** pop-up window appears.
 
@@ -47,7 +48,8 @@ To create a Live Hub course:
 
 1.  Select **Live Hub** in **Live Virtual Training Tools**.
 
-    ![Select Live Hub Tool](assets/select-live-hub-tool.png "Select Live Hub to enable AI-powered instructor recommendations for the session.")
+    ![Select Live Hub Tool](assets/select-live-hub-tool.png)
+    *Select Live Hub to enable AI-powered instructor recommendations for the session.*
 
 1.  Add Instructors by using one of the following options:
 
@@ -61,7 +63,8 @@ To create a Live Hub course:
 
 1.  Select the **Skill Level**, and then review or update the **Max Credits**.
 
-    ![Assign Course Skill Level](assets/assign-course-skill-level.png "Assign a skill and skill level to define the credits learners earn by completing the course.")
+    ![Assign Course Skill Level](assets/assign-course-skill-level.png)
+    *Assign a skill and skill level to define the credits learners earn by completing the course.*
 
 1.  Select **Save** > **Publish**. The course is created successfully in Adobe Learning Manager.
 
@@ -75,25 +78,30 @@ To create a course instance:
 
 1.  Open the course, and then select **Instances** from the left panel.
 
-    ![Default Instance Page](assets/default-instance-page.png "The Default Instance is created automatically when you add a Virtual Classroom module.")
+    ![Default Instance Page](assets/default-instance-page.png)
+    *The Default Instance is created automatically when you add a Virtual Classroom module.*
 
 1.  Select **Add New Instance**.
 
 1.  Enter the **Instance Name**, **Start Date**, and **Completion Deadline**. Select **Show More Options** to configure additional settings.
 
-    ![Add New Instance Form](assets/add-new-instance-form.png "Enter an instance name, start date, and completion deadline to create a new course instance.")
+    ![Add New Instance Form](assets/add-new-instance-form.png)
+    *Enter an instance name, start date, and completion deadline to create a new course instance.*
 
 1.  Select **Save**. The new instance is added to the **Instances** list.
 
-    ![Instances List New Instance](assets/instances-list-new-instance.png "The new instance appears alongside the Default Instance in the Instances list.")
+    ![Instances List New Instance](assets/instances-list-new-instance.png)
+    *The new instance appears alongside the Default Instance in the Instances list.*
 
 1.  Select the number under **Sessions** to view the **Session Details**.
 
-    ![Session Details Edit Icon](assets/session-details-edit-icon.png "Session details show which timing, instructor, and location fields still need to be configured.")
+    ![Session Details Edit Icon](assets/session-details-edit-icon.png)
+    *Session details show which timing, instructor, and location fields still need to be configured.*
 
 1.  Select the edit (pencil) icon next to the session details to open the session configuration panel.
 
-    ![Session Configuration Panel](assets/session-configuration-panel.png "Configure the schedule, instructor, and location for a specific session instance.")
+    ![Session Configuration Panel](assets/session-configuration-panel.png)
+    *Configure the schedule, instructor, and location for a specific session instance.*
 
 1.  In the **Instructors** field, enter names manually, or select **Find instructors using AI** for AI-recommended Instructors. See [Add Instructors using Instructor Finder](#add-instructors-using-instructor-finder) for more information.
 
@@ -113,7 +121,8 @@ To add Instructors using Instructor Finder:
 
 1.  Select **Find Instructors using AI**. The **AI Assistant** panel opens on the right side.
 
-    ![AI Assistant Panel Instructor Recommendations](assets/ai-assistant-panel-instructor-recommendations.png "Use the AI Assistant panel to get instructor and time-slot recommendations based on the session's details.")
+    ![AI Assistant Panel Instructor Recommendations](assets/ai-assistant-panel-instructor-recommendations.png)
+    *Use the AI Assistant panel to get instructor and time-slot recommendations based on the session's details.*
 
 1.  Review the list of recommended Instructors. Instructor Finder recommends Instructors based on the course skills and session requirements. Recommendations also consider Instructor availability, utilization, and your organization's holiday calendar. View **Instructor management** for more information.
 
@@ -123,9 +132,9 @@ To add Instructors using Instructor Finder:
 
 Learners can be enrolled in a Live Hub course in the following two ways:
 
-1.  An **Administrator** enrolls Learners in the course based on organization requirements. See [Create course instances and learning paths](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses) for more information.
+1.  An **Administrator** enrolls Learners in the course based on organization requirements. View [Create course instances and learning paths](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses) for more information.
 
-1.  Learners can directly enroll themselves in the course from the **Catalog** page. If the course is configured for self-enrollment, Learners are enrolled immediately and can access the course from **My Learnings**. See [My Learnings](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses) for more information.
+1.  Learners can directly enroll themselves in the course from the **Catalog** page. If the course is configured for self-enrollment, Learners are enrolled immediately and can access the course from **My Learnings**. View [My Learnings](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses) for more information.
 
 After enrollment, Learners are added to the course and receive a notification in their Adobe Learning Manager account. Depending on the account's email notification settings, Learners may also receive an invitation to join the course via email.
 
@@ -135,4 +144,4 @@ Administrators can customize the appearance of Live Hub rooms to align with your
 
 Customized branding helps create a consistent learning experience and ensures that live training sessions reflect your organization's identity.
 
-For more information about configuring themes, see the **Themes** article.
+For more information about configuring themes, see the [Color themes](../administrators/feature-summary/themes.md#color-themes) article.
