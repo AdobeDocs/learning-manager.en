@@ -15,15 +15,18 @@ Instructors can join the room before the scheduled session starts to prepare the
 
 1.  Select the scheduled Live Hub session from **Upcoming Sessions**.
 
-    ![Upcoming Sessions Instructor](assets/upcoming-sessions-instructor.png "Select Upcoming Sessions to open the classroom joining URL.")
+    ![Upcoming Sessions Instructor](assets/upcoming-sessions-instructor.png)
+    *Select Upcoming Sessions to open the classroom joining URL.*
 
 1.  Select the session from the listed ones. The **Session Overview** page opens.
 
-    ![Session Overview Page Instructor](assets/session-overview-page-instructor.png "The Session Overview page shows the options to enter the Live Hub session.")
+    ![Session Overview Page Instructor](assets/session-overview-page-instructor.png)
+    *The Session Overview page shows the options to enter the Live Hub session.*
 
 1.  Select **Enter classroom** from the Live hub. The Live Hub joining interface opens.
 
-    ![Instructor Pre Join Screen](assets/instructor-pre-join-screen.png "The pre-joining screen of Live Hub.")
+    ![Instructor Pre Join Screen](assets/instructor-pre-join-screen.png)
+    *The pre-joining screen of Live Hub.*
 
 1.  (Optional) Test the microphone and apply the virtual background. See [Set up the pre-join screen in Live Hub](Setup-pre-join-screen-in-Live-Hub.md) for more information.
 
