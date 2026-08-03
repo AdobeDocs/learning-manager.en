@@ -21,7 +21,7 @@ To enable closed captions:
 
 1.  Enable **Show captions**. Closed captions display at the bottom of the interface.
 
-    ![Enable Closed Captions Instructor](assets/enable-closed-captions-instructor.png "Enable Show captions to display the closed captions in the session.")
+    ![Enable Closed Captions Instructor](assets/enable-closed-captions-instructor.png) *Enable Show captions to display the closed captions in the session.*
 
 ## Change the appearance of closed captions
 
@@ -39,4 +39,5 @@ To change caption appearance:
 
     1.  **Caption style**: Select a color combination. The available combinations are **Black on White**, **Yellow on Black**, **White on Black**, **Dark on Yellow**, and **Yellow on Blue**.
 
-    ![Closed Captions Appearance Instructor](assets/closed-captions-appearance-instructor.png "Select Font size to change the size of the text displayed in the captions.")
+    ![Closed Captions Appearance Instructor](assets/closed-captions-appearance-instructor.png)
+    *Select Font size to change the size of the text displayed in the captions.*

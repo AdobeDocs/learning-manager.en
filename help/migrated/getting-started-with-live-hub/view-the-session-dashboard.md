@@ -27,19 +27,22 @@ Follow these steps to view the session dashboard for a virtual classroom session
 
 1.  Select **Past sessions** from **Your sessions**. This opens the **Your Past Sessions** page.
 
-    ![Past Sessions Navigation](assets/past-sessions-navigation.png "Select Past sessions from Your sessions to open the Your Past Sessions page.")
+    ![Past Sessions Navigation](assets/past-sessions-navigation.png)
+    *Select Past sessions from Your sessions to open the Your Past Sessions page.*
 
-1.  Open the course for which you want to check the session analytics. The **Session Overview** page appears.
+1.  Open the course for which you want to check the session analytics. <br> The **Session Overview** page appears.
 
-1.  Navigate to the **Live hub** section and select **View analytics page**. The **Analytics** dashboard opens with detailed insights for the selected session.
+1.  Navigate to the **Live hub** section and select **View analytics page**. <br> The **Analytics** dashboard opens with detailed insights for the selected session.
 
-    ![Session Analytics Url Option](assets/session-analytics-url-option.png "Select View analytics page in the Live hub section to open the Analytics dashboard.")
+    ![Session Analytics Url Option](assets/session-overview-page.png)
+    *Select View analytics page in the Live hub section to open the Analytics dashboard.*
 
 ## What insights are available
 
 The session dashboard presents session data across multiple tabs, each focusing on a specific aspect of learner participation and performance. Together, these views help Instructors analyze attendance, engagement levels, and interaction patterns for the session.
 
-![Session Dashboard Insights Overview](assets/session-dashboard-insights-overview.png "The session dashboard presents data across the Session summary, Interactions, Participant activity, and Reports tabs.")
+![Session Dashboard Insights Overview](assets/session-dashboard-insights-overview.png)
+*The session dashboard presents data across the Session summary, Interactions, Participant activity, and Reports tabs.*
 
 The following tabs are available in the session dashboard:
 

@@ -15,7 +15,8 @@ Beyond capturing the session, you can edit the recording to remove unnecessary s
 
 1.  Select **Start recording**. A confirmation pop-up appears, indicating that "**The session is now being recorded**".
 
-    ![Start Recording Notification](assets/start-recording-notification.png "Select Record from the More actions menu to begin capturing the session.")
+    ![Start Recording Notification](assets/start-recording-notification.png)
+    *Select Record from the More actions menu to begin capturing the session.*
 
 ## Stop, Pause, and Resume recording
 
@@ -25,7 +26,8 @@ When a session is being recorded, a recording indicator appears in the top corne
 
 1.  Select the recording indicator. A pop-up window opens with recording actions.
 
-    ![Recording In Progress Actions](assets/recording-in-progress-actions.png "While recording, use the Recording in progress options to pause or stop the session.")
+    ![Recording In Progress Actions](assets/recording-in-progress-actions.png)
+    *While recording, use the Recording in progress options to pause or stop the session.*
 
 1.  Select **Stop recording**. A confirmation message appears that the session is no longer being recorded.
 
@@ -41,7 +43,8 @@ To pause the recording:
 
 Once you pause the recording, a resume recording option appears. Select **Resume recording** to continue the paused recording.
 
-![Resume Paused Recording](assets/resume-paused-recording.png "When paused, the Recording paused options let you resume or stop the recording.")
+![Resume Paused Recording](assets/resume-paused-recording.png)
+*When paused, the Recording paused options let you resume or stop the recording.*
 
 ## Access a recording
 
@@ -59,7 +62,8 @@ To access a recording:
 
     * Select **Edit** to open the recording in edit mode.
 
-    ![View Recording Edit Option](assets/view-recording-edit-option.png "The View recording card in the Live hub section, where you play back or edit a recording.")
+    ![View Recording Edit Option](assets/view-recording-edit-option.png)
+    *The View recording card in the Live hub section, where you play back or edit a recording.*
 
 ## Play a recording
 
@@ -71,7 +75,8 @@ To play a recording:
 
 1.  Select **View recording** from the **Live hub** section. The recording opens in playback mode.
 
-    ![Recording Playback Mode](assets/recording-playback-mode.png "The recording player is in playback mode, showing the session video and the Transcript panel.")
+    ![Recording Playback Mode](assets/recording-playback-mode.png)
+    *The recording player is in playback mode, showing the session video and the Transcript panel.*
 
 1.  Use the following playback controls to adjust your viewing experience:
 
@@ -100,7 +105,8 @@ To view and navigate topics:
 
 1.  Select **Play topic**. The recording starts playing from the selected topic section.
 
-    ![Recording Topics Panel](assets/recording-topics-panel.png "The Topics panel, where AI-generated topics help you navigate the recording.")
+    ![Recording Topics Panel](assets/recording-topics-panel.png)
+    *The Topics panel, where AI-generated topics help you navigate the recording.*
 
 ## View Transcript
 
@@ -114,7 +120,8 @@ To view the transcript:
 
 To navigate to a specific part of the recording, select a transcript entry. The recording jumps to the corresponding timestamp and begins playback from that point.
 
-![Recording Transcript Panel](assets/recording-transcript-panel.png "The Transcript panel, where each entry links to its point in the recording.")
+![Recording Transcript Panel](assets/recording-transcript-panel.png)
+*The Transcript panel, where each entry links to its point in the recording.*
 
 ### Change the Transcript text size
 
@@ -126,7 +133,8 @@ To change the text size:
 
 1.  Select a text size from the list. The available sizes are 12, 14, 16, 18, 20, 24, 30, and 36. The default size is 14. The transcript text updates to the selected size.
 
-    ![Transcript Text Size Option](assets/transcript-text-size-option.png "Choose a transcript text size to make entries easier to read.")
+    ![Transcript Text Size Option](assets/transcript-text-size-option.png)
+    *Choose a transcript text size to make entries easier to read.*
 
 ## Edit a recording
 
@@ -144,7 +152,8 @@ To edit a recording:
 
 1.  Drag the marker or use the left and right arrow keys to move it precisely. A preview thumbnail and time stamp help you find the exact point.
 
-    ![Recording Timeline Marker](assets/recording-timeline-marker.png "Position the marker to select the timeline segment you want to remove.")
+    ![Recording Timeline Marker](assets/recording-timeline-marker.png)
+    *Position the marker to select the timeline segment you want to remove.*
 
 1.  Select **Cut selection**. The selected section of the recording is removed.
 
@@ -152,7 +161,8 @@ To edit a recording:
 
 1.  Select **Save edits**. The changes are applied to your recording.
 
-    ![Recording Save Edits](assets/recording-save-edits.png "Once you cut a selection, Save edits become active so you can apply the change.")
+    ![Recording Save Edits](assets/recording-save-edits.png)
+    *Once you cut a selection, Save edits become active so you can apply the change.*
 
 You can also edit a recording from the **Session dashboard**. See [Components of the Session dashboard](../getting-started-with-live-hub/components-of-the-session-dashboard.md#recordings) for more information.
 
@@ -166,7 +176,8 @@ To regenerate topics:
 
 1.  Select **Regenerate**. A **Generating topics** message appears while the topics are being identified. Identifying topics might take some time.
 
-    ![Regenerate Recording Topics](assets/regenerate-recording-topics.png "After editing the timeline, use the prompt to regenerate topics in sync with the recording.")
+    ![Regenerate Recording Topics](assets/regenerate-recording-topics.png)
+    *After editing the timeline, use the prompt to regenerate topics in sync with the recording.*
 
 ## Revert to original
 
@@ -176,7 +187,8 @@ To revert to the original recording:
 
 1.  Select **Revert to original** icon at the top of the player. A confirmation pop-up appears.
 
-    ![Revert Recording Confirmation](assets/revert-recording-confirmation.png "The confirmation pop-up warns that reverting to the original cannot be undone.")
+    ![Revert Recording Confirmation](assets/revert-recording-confirmation.png)
+    *The confirmation pop-up warns that reverting to the original cannot be undone.*
 
 1.  Select **Revert**. This undoes all changes made to the recording and transcript. This is an irreversible action and cannot be undone.
 

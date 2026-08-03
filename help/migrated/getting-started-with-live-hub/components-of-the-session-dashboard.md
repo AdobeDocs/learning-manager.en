@@ -17,7 +17,8 @@ The Session summary provides an overview of live and recorded sessions, includin
 
 Select **Session summary (PDF)** to download the summary.
 
-![Session Summary Download](assets/session-summary-download.png "Select Session summary (PDF) to download the summary.")
+![Session Summary Download](assets/session-summary-download.png)
+*Select Session summary (PDF) to download the summary.*
 
 You can view the following details:
 
@@ -39,7 +40,8 @@ View insights related to session recordings. These insights help you understand 
 
 * **Average view duration**: The average amount of time learners spent watching the recording.
 
-![Session Dashboard Recordings](assets/session-dashboard-recordings.png "Session dashboard view showing recording insights.")
+![Session Dashboard Recordings](assets/session-dashboard-recordings.png)
+*Session dashboard view showing recording insights.*
 
 From the recording options, the following actions are available:
 
@@ -65,7 +67,8 @@ The Polls tab allows you to view questions and responses added to the poll. You 
 
 * Each participant's response to the poll.
 
-![Session Dashboard Polls](assets/session-dashboard-polls.png "Session dashboard view showing poll interactions.")
+![Session Dashboard Polls](assets/session-dashboard-polls.png)
+*Session dashboard view showing poll interactions.*
 
 ### Quizzes
 
@@ -83,7 +86,8 @@ The tab allows you to view the quiz metrics during a live session. It contains t
 
 * Average time taken to attempt a quiz.
 
-![Session Dashboard Quizzes](assets/session-dashboard-quizzes.png "Session dashboard view showing quiz interactions.")
+![Session Dashboard Quizzes](assets/session-dashboard-quizzes.png)
+*Session dashboard view showing quiz interactions.*
 
 ## Breakouts
 
@@ -97,7 +101,8 @@ View how learners participated in breakout sessions during the live class. This 
 
 Select **Breakouts Report (PDF)** to download the report.
 
-![Session Dashboard Breakouts](assets/session-dashboard-breakouts.png "Session dashboard view showing breakout session insights.")
+![Session Dashboard Breakouts](assets/session-dashboard-breakouts.png)
+*Session dashboard view showing breakout session insights.*
 
 For each breakout session, you can view the session name, its duration, and its start time. You can also view:
 
@@ -121,13 +126,15 @@ In the expanded view, each room displays the following:
 
 * **Participants in room**: A table listing each participant's name, time in breakout, speaking time, and participation level.
 
-![Breakout Room Details Table](assets/breakout-room-details-table.png "Table listing instructor and participant details for a breakout room.")
+![Breakout Room Details Table](assets/breakout-room-details-table.png)
+*Table listing instructor and participant details for a breakout room.*
 
 ## Other Interactions
 
 Select **Download interaction reports** from the top-right dropdown to download the **Q&A** and **Reactions** report.
 
-![Session Dashboard Other Interactions](assets/session-dashboard-other-interactions.png "Session dashboard view showing the option to download interaction reports.")
+![Session Dashboard Other Interactions](assets/session-dashboard-other-interactions.png)
+*Session dashboard view showing the option to download interaction reports.*
 
 ### Q&A metrics
 
@@ -165,7 +172,8 @@ The **Participant activity** section provides a consolidated view of individual 
 
 From the left panel, select **Participant activity** to view detailed learner-level insights. Select **Participant activity report (CSV)** to download the complete report.
 
-![Participant Activity Report](assets/participant-activity-report.png "Table showing participant activity report details.")
+![Participant Activity Report](assets/participant-activity-report.png)
+*Table showing participant activity report details.*
 
 The table displays the following information for the learner activity:
 
@@ -199,6 +207,7 @@ To download reports:
 
 1.  Select **Download all (.zip)** to download a combined report for all activities.
 
-    ![Download Icon](assets/download-icon.png "Download icon.") ![Download All Reports Zip](assets/download-all-reports-zip.png "Select Download all (.zip) to download a combined report.")
+    ![Download All Reports Zip](assets/download-all-reports-zip.png)
+    *Select Download all (.zip) to download a combined report.*
 
 1.  Select the download icon next to each report to download them individually.

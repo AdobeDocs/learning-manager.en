@@ -13,7 +13,8 @@ You can display closed captions in your own view during a session. The captions 
 
 To display captions, select the closed captions (**CC**) button in the control bar.
 
-![Display Closed Captions Icon](assets/display-closed-captions-icon.png "Select the CC icon to display the closed captions in the session.")
+![Display Closed Captions Icon](assets/display-closed-captions-icon.png)
+*Select the CC icon to display the closed captions in the session.*
 
 ## Change the appearance of closed captions
 
@@ -29,4 +30,5 @@ To change caption appearance:
 
     1.  **Caption style**: Select a color combination. The available combinations are **Black on White**, **Yellow on Black**, **White on Black**, **Dark on Yellow**, and **Yellow on Blue**.
 
-    ![Closed Captions Appearance Learner](assets/closed-captions-appearance-learner.png "Select the arrow next to the CC icon to change the font size and caption style.")
+    ![Closed Captions Appearance Learner](assets/closed-captions-appearance-learner.png)
+    *Select the arrow next to the CC icon to change the font size and caption style.*
