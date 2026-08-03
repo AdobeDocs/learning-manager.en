@@ -264,6 +264,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Create a Live Hub session](../migrated/getting-started-with-live-hub/create-a-live-hub-session.md)
    * [Live Hub mobile experience](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
    * Join a Live Hub session{#join-a-live-hub-session}
+      * [Setup pre-join screens](./getting-started-with-live-hub/setup-pre-join-screen-in-live-hub.md)
       * [Join a Live Hub session as an Instructor](../migrated/getting-started-with-live-hub/join-live-hub-session-as-an-instructor.md)
       * [Join a Live Hub session as a Learner](../migrated/getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)
    * [Understand the Live Hub layout](../migrated/getting-started-with-live-hub/understand-the-live-hub-layout.md)

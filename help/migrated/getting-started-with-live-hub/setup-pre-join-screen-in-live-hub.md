@@ -19,7 +19,8 @@ The first time you join a session from a new browser or device, your browser pro
 
 When prompted by your browser, select **Allow** to enable access to your microphone and camera. Once permission is granted, you can preview and configure your audio and video settings before joining the session.
 
-![Allow Browser Permissions Prompt](assets/allow-browser-permissions-prompt.png "Select Allow when your browser prompts for microphone and camera access.")
+![Allow Browser Permissions Prompt](assets/allow-browser-permissions-prompt.png)
+*Select Allow when your browser prompts for microphone and camera access.*
 
 ### Configure audio controls
 
@@ -29,7 +30,8 @@ To test the microphone and speaker:
 
 1.  Select the **Microphone** from the pre-join screen. The **Microphone** dropdown appears.
 
-    ![Microphone Dropdown Preview](assets/microphone-dropdown-preview.png "Select the Microphone dropdown to switch devices or test your microphone and speaker.")
+    ![Microphone Dropdown Preview](assets/microphone-dropdown-preview.png)
+    *Select the Microphone dropdown to switch devices or test your microphone and speaker.*
 
 1.  (Optional) Select **Test microphone** to verify your microphone is working.
 
@@ -43,6 +45,7 @@ To change the background:
 
 1.  Select the **Camera** dropdown. The **Camera** dropdown appears.
 
-    ![Camera Background Dropdown](assets/camera-background-dropdown.png "Select the Camera dropdown, then select Edit background to choose a virtual background.")
+    ![Camera Background Dropdown](assets/camera-background-dropdown.png)
+    *Select the Camera dropdown, then select Edit background to choose a virtual background.*
 
 1.  Select **Edit background** and choose a virtual background. The preview updates immediately.
