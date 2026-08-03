@@ -15,7 +15,8 @@ This article explains how to access the Attendees panel and manage learners duri
 
 The **Attendees** panel shows everyone in the session. To open it, select the **Attendees** icon in the control bar. The panel lists all learners and updates automatically as participants join or leave.
 
-![Attendees Panel Overview](assets/attendees-panel-overview.png "Live Hub interface showing the Attendees panel.")
+![Attendees Panel Overview](assets/attendees-panel-overview.png)
+*Live Hub interface showing the Attendees panel.*
 
 The following options are available in the panel:
 
@@ -49,7 +50,8 @@ To update learner permissions:
 
 1.  Select the **More options (⋯)** icon next to the learner's name.
 
-    ![Learner More Options Menu](assets/learner-more-options-menu.png "More options menu showing the learner's actions from the Attendees panel.")
+    ![Learner More Options Menu](assets/learner-more-options-menu.png)
+    *More options menu showing the learner's actions from the Attendees panel.*
 
 1.  Select one of the following actions:
 
