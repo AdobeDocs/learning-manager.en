@@ -253,7 +253,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Settings](managers/feature-summary/settings.md)
    * [iPad & Android tablet users](managers/feature-summary/ipad-android-tablet-users.md)
 * Getting started with Live Hub{#getting-started-with-live-hub}
-   * [About Live Hub](../migrated/getting-started-with-live-hub/about-live-hub.md)
+   * [About Live Hub](../migrated/getting-started-with-live-hub/about-the-live-hub.md)
    * Roles in Live Hub{#roles-in-live-hub}
       * [Administrator](../migrated/getting-started-with-live-hub/administrator.md)
          * [Instructor management](../migrated/getting-started-with-live-hub/instructor-management.md)
