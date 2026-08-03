@@ -15,7 +15,8 @@ Learners join a Live Hub session directly from the course they are enrolled in. 
 
 1.  Select the enrolled course.
 
-    ![Select Enrolled Course](assets/select-enrolled-course.png "Select Go to Session to open the Live Hub pre-join screen.")
+    ![Select Enrolled Course](assets/select-enrolled-course.png)
+    *Select Go to Session to open the Live Hub pre-join screen.*
 
 1.  Select **Start** > **Go to Session**. The Live Hub joining interface opens.
 
