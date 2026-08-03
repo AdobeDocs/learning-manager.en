@@ -3,7 +3,7 @@ title: About polls in Live Hub
 description: Learn how the Poll feature lets Instructors create and launch polls, and Learners respond in real time, during a Live Hub session.
 ---
 
-# About polls in Live Hub
+# About the polls
 
 The Poll feature allows Instructors to create and launch polls during a live session to gather responses from learners in real time. You can build polls manually by choosing a question type such as multiple choice, multiple answer, or short answer, or generate polls quickly using AI-assisted options like the Icebreaker poll and the Knowledge check poll.
 

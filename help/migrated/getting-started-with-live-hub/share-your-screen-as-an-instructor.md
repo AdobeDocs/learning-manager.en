@@ -3,7 +3,7 @@ title: Share your screen as an Instructor in Live Hub
 description: Learn how Instructors share their screen, use Split View, annotate shared content, and allow learners to share their screen during a Live Hub session.
 ---
 
-# Share your screen as an Instructor in Live Hub
+# Share your screen as an Instructor
 
 Screen sharing allows you to present content from your device to participants during a Live Hub session. Share a browser tab, application window, or your entire screen to demonstrate workflows, deliver presentations, and guide learners through tasks in real time.
 

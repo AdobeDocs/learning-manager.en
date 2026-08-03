@@ -3,7 +3,7 @@ title: Share a whiteboard in Live Hub
 description: Learn how Instructors create, manage, rename, export, and share whiteboards, including Miro boards, during a Live Hub session.
 ---
 
-# Share a whiteboard in Live Hub
+# Share a whiteboard
 
 Use the whiteboard in a Live Hub session to visually explain concepts, annotate content, and collaborate with learners in real time. As an Instructor, you can create a new whiteboard or reopen an existing one, add drawings, shapes, and text, and manage multiple boards during a session.
 

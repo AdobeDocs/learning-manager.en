@@ -3,7 +3,7 @@ title: Create and launch a poll in Live Hub
 description: Learn how to create polls manually or with AI, launch them during a Live Hub session, monitor responses, and share results with Learners.
 ---
 
-# Create and launch a poll in Live Hub
+# Create and launch a poll
 
 Use polls to make your Live Hub sessions more interactive and engaging. From the **Polls & Quizzes** panel, you can create polls manually by selecting question types such as multiple choice or short answer, or generate them using AI with **Icebreaker** and **Knowledge check** options.
 

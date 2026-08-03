@@ -3,7 +3,7 @@ title: About the Quiz feature in Live Hub
 description: Learn how Instructors create and conduct multi-question quizzes to assess learner understanding in real time during a Live Hub session.
 ---
 
-# About the Quiz feature in Live Hub
+# About the quiz
 
 The Quiz feature in a Live Hub allows Instructors to create and conduct quizzes to assess learner understanding during a live session. You can create quizzes before or during the session, launch them to collect responses in real time, and monitor results as learners respond in the Session dashboard.
 

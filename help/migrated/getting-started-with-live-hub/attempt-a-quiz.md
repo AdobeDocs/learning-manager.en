@@ -3,7 +3,7 @@ title: Attempt a quiz in Live Hub
 description: Learn how to take a quiz, submit your responses, and review your results during a Live Hub session as a Learner.
 ---
 
-# Attempt a quiz in Live Hub
+# Attempt a quiz
 
 Quizzes help you assess your understanding of the session content. When an Instructor launches a quiz, it appears on the session interface where you can answer questions and submit your responses.
 

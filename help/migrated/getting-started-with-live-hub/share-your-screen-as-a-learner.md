@@ -3,7 +3,7 @@ title: Share your screen as a Learner in Live Hub
 description: Learn how Learners view shared content and share their own screen during a Live Hub session, when an Instructor allows it.
 ---
 
-# Share your screen as a Learner in Live Hub
+# Share your screen as a Learner
 
 As a Learner, screen sharing allows you to follow what others present and, when your Instructor allows it, share your own screen during a Live Hub session. Shared content appears on the main stage and updates in real time, so you can watch a demonstration, view a whiteboard, or take part in an activity as it happens.
 

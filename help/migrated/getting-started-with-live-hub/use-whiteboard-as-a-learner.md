@@ -3,7 +3,7 @@ title: Use the whiteboard as a Learner in Live Hub
 description: Learn how Learners draw, add shapes and text, and erase content on a shared whiteboard during a Live Hub session.
 ---
 
-# Use the whiteboard as a Learner in Live Hub
+# Use the whiteboard as a Learner
 
 The whiteboard provides a shared visual workspace during a Live Hub session. When the Instructor enables whiteboard access, you can draw, add shapes and text, and erase content on the shared canvas. Use the whiteboard to illustrate ideas, solve problems, and participate in real-time collaborative activities.
 

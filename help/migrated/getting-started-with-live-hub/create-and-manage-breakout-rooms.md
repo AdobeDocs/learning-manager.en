@@ -3,7 +3,7 @@ title: Create and manage breakout rooms in Live Hub
 description: Learn how Instructors create, configure, start, monitor, and manage breakout rooms in a Live Hub session, including AI-generated room summaries and reports.
 ---
 
-# Create and manage breakout rooms in Live Hub
+# Create and manage breakout sessions
 
 Instructors can split a Live Hub session into smaller, interactive groups for focused activities and discussion. You can create breakout rooms, automatically or manually assign learners, set activity instructions, and control how long the session runs. While a breakout session is active, you can monitor rooms with AI-generated summaries, join a room to share your screen or chat, and extend the session.
 

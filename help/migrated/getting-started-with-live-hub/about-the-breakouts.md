@@ -3,7 +3,7 @@ title: About breakout rooms in Live Hub
 description: Learn how breakout rooms let Instructors split a Live Hub session into smaller groups for discussions, activities, and collaboration.
 ---
 
-# About breakout rooms in Live Hub
+# About the breakout rooms
 
 Breakout rooms allow Instructors to split a Live Hub session into smaller groups. Learners join these rooms for discussions, activities, or collaboration, and automatically return to the main session when the activity ends. Breakout rooms are useful for brainstorming, group activities, and focused learning.
 

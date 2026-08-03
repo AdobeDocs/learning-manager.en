@@ -3,7 +3,7 @@ title: About the whiteboard in Live Hub
 description: Learn how Instructors and Learners use the shared, real-time whiteboard to draw, annotate, and collaborate during a Live Hub session.
 ---
 
-# About the whiteboard in Live Hub
+# About the whiteboard
 
 A whiteboard is a shared digital canvas in a Live Hub session that Instructors and learners can work on together in real time. It works like a classroom whiteboard, but online: you can draw freehand, add shapes and text, annotate ideas, and organize content across multiple boards, all visible to everyone in the session.
 
