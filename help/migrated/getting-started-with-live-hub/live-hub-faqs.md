@@ -3,7 +3,7 @@ title: Live Hub Frequently asked qustions
 description: Frequently asked questions about Live Hub in Adobe Learning Manager, organized by role for Administrators, Authors, Instructors, and Learners.
 ---
 
-# Frequently asked questions
+# Frequently asked questions for Live Hub
 
 Live Hub includes the roles of Administrator, Author, Instructor, and Learner, each responsible for a different part of the training workflow. This document reorganizes the original Live Hub FAQ content by role, so each audience can quickly find the questions most relevant to them.
 
@@ -27,7 +27,7 @@ A. Administrators can enable AI in Live Hub and choose which AI assistants are a
 * Topics Generator for Recordings: Creates structured topics and notes from recordings.
 * Instructor Finder Assistant: Recommends suitable instructors for sessions using AI.
 
-## Author FAQs
+## Author
 
 **Q. Is Live Hub available for my account?**
 
@@ -53,7 +53,7 @@ A. Yes. After selecting Live Hub, add one or more instructors to the session, an
 
 A. After completing the course configuration, select Save > Publish. Once published, the course becomes available for learner enrollment and session scheduling.
 
-## Instructor FAQs
+## Instructor
 
 ### Join a session
 
@@ -430,7 +430,7 @@ A. Yes. Session transcripts are available alongside the recording, making it eas
 
 A. Session analytics helps you understand how participants interacted with the content, identify participation trends, measure engagement levels, and evaluate the effectiveness of your training session.
 
-## Learner FAQs
+## Learner
 
 ### Course enrollment
 
