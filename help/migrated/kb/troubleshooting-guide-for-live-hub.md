@@ -3,7 +3,7 @@ title: Troubleshooting Guide for Live Hub
 description: Common error messages and notifications you may encounter during a Live Hub session, their causes, and steps to resolve them.
 ---
 
-# Troubleshooting Guide for Live Hub
+# Troubleshooting guide for Live Hub
 
 During a Live Hub session, Instructors may encounter error messages or notifications that prevent certain actions from completing as expected. This article describes common instructor-facing errors, their possible causes, and the steps you can take to resolve them.
 
@@ -28,7 +28,7 @@ The messages below can appear when an Instructor duplicates, deletes, or resets 
 |Couldn't delete the poll. Please try again.|An Instructor deletes a single poll, and the deletion doesn't complete.|Close the Polls & Quizzes panel and retry deleting the poll.|
 |Couldn't reset the poll. Please try again.|An Instructor resets a previously run poll so it can be reused, and the reset doesn't complete.|Close the Polls & Quizzes panel and retry resetting the poll.|
 
-## Upload content
+## Upload content issues
 
 The message below can appear when an Instructor uploads a reference file that the AI assistant uses to answer questions.
 
@@ -48,9 +48,9 @@ The messages below appear as toast notifications when an Instructor uploads a re
 |"FileName.pdf" exceeds the 1 MB limit.|An Instructor uploads a PDF file that exceeds the 1 MB file size limit.|Compress or reduce the PDF file size to under 1 MB, then re-upload.|
 |"FileName.pptx" exceeds the 3 MB limit.|An Instructor uploads a PPT file that exceeds the 3 MB file size limit.|Compress or reduce the PPT file size to under 3 MB, then re-upload.|
 
-## Breakout rooms issues
+## Breakout session issues
 
-The messages below can appear when an Instructor tries to start breakout rooms.
+The messages below can appear when an Instructor tries to start breakout session.
 
 |Error message|Scenario|Suggestions to overcome the error|
 |---|---|---|
