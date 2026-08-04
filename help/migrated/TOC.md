@@ -41,7 +41,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Getting started as a Learner](learners/feature-summary/getting-started-learner.md)
    * [Getting started for Managers](managers/feature-summary/getting-started-manager.md)
    * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
-   * [Getting started with Live Hub](./getting-started-with-live-hub/about-the-live-hub.md)
+   * [Getting started with Live Hub](./getting-started-with-live-hub/getting-started-with-live-hub.md)
 * Administrator {#admin}
    * AI in Learning{#ai-in-learning}
       * [Enable Live Hub](./administrators/feature-summary/enable-live-hub.md)
@@ -255,7 +255,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [iPad & Android tablet users](managers/feature-summary/ipad-android-tablet-users.md)
 * Work with Live Hub {#work-with-live-hub}
    * [System requirements](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
-   * Roles in Live Hub{#roles-in-live-hub}
+   * Roles in Live Hub {#roles-in-live-hub}
       * [Administrator](../migrated/getting-started-with-live-hub/administrator.md)
       * [Authors](../migrated/getting-started-with-live-hub/authors-in-live-hub-session.md)
       * [Instructors](../migrated/getting-started-with-live-hub/instructors-in-a-live-hub-session.md)
@@ -263,7 +263,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Add and manage Instructors](../migrated/getting-started-with-live-hub/instructor-management.md)
    * [Create a Live Hub session](../migrated/getting-started-with-live-hub/create-a-live-hub-session.md)
    * Join a Live Hub session {#join-a-live-hub-session}
-      * [Setup pre-join screens](./getting-started-with-live-hub/setup-pre-join-screen-in-live-hub.md)
+      * [Setup pre-join screen](./getting-started-with-live-hub/setup-pre-join-screen-in-live-hub.md)
       * [Join a Live Hub session as an Instructor](../migrated/getting-started-with-live-hub/join-live-hub-session-as-an-instructor.md)
       * [Join a Live Hub session as a Learner](../migrated/getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)
    * [Understand the Live Hub layout](../migrated/getting-started-with-live-hub/understand-the-live-hub-layout.md)
@@ -321,7 +321,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Frequently Asked Questions for Instructors](instructors/frequently-asked-questions-for-instructors.md)
    * [Frequently Asked Questions for Managers](managers/frequently-asked-questions-for-managers.md)
    * [Frequently Asked Questions for Learners](learners/frequently-asked-questions-for-learners.md)
-   * [Frequently asked questions for a Live Hub session](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+   * [Frequently Asked Questions for a Live Hub session](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
    * [New experience league announcements](/help/migrated/new-experience-league-announcement.md)
    * [How to submit a support ticket on Experience League](/help/migrated/how-to-submit-support-ticket.md)
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
