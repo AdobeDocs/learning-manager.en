@@ -253,7 +253,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learner transcripts](managers/feature-summary/learner-transcripts.md)
    * [Settings](managers/feature-summary/settings.md)
    * [iPad & Android tablet users](managers/feature-summary/ipad-android-tablet-users.md)
-* Work with Live Hub{work-with-live-hub}
+* Work with Live Hub {#work-with-live-hub}
    * [System requirements](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
    * Roles in Live Hub{#roles-in-live-hub}
       * [Administrator](../migrated/getting-started-with-live-hub/administrator.md)
@@ -299,7 +299,7 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Create and manage a quiz](../migrated/getting-started-with-live-hub/create-and-manage-a-quiz.md)
          * [Attempt a quiz](../migrated/getting-started-with-live-hub/attempt-a-quiz.md)
       * [Track the Participant engagement](../migrated/getting-started-with-live-hub/track-the-participant-engagement.md)
-      * Breakout rooms{#breakout-rooms}
+      * Breakouts{#breakouts}
          * [About the breakouts](../migrated/getting-started-with-live-hub/about-the-breakouts.md)
          * [Create and manage breakout session](../migrated/getting-started-with-live-hub/create-and-manage-breakout-rooms.md)
          * [Participate in a breakout session](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
