@@ -9,7 +9,7 @@ Closed captions display spoken content as on-screen text, making a Live Hub sess
 
 This article explains how to display, customize, and hide closed captions during a Live Hub session.
 
-## Enable closed captions
+## Display closed captions
 
 Display closed captions during a Live Hub session to view real-time transcription of spoken content.
 

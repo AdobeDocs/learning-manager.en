@@ -35,7 +35,7 @@ Authors can create virtual classroom courses with Adobe Connect during course cr
 
 By default, all the shared templates created in Adobe Connect account are fetched into Learning Manager application. You can add customized templates by making them as shared templates in Adobe Connect account.
 
-# Create a Virtual Classroom course with Live Hub
+## Create a Virtual Classroom course with Live Hub
 
 Live Hub is Adobe Learning Manager's native, AI-powered virtual classroom solution that enables organizations to deliver live training without relying on third-party conferencing tools.
 
