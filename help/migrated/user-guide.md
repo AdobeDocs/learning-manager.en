@@ -46,7 +46,7 @@ Visit the [Adobe Learning Manager User Community](https://community.adobe.com/t5
     <img alt="getting started with live hub" src="assets/getting-started-live-hub.png" width="150">
     </a>
     <div style="margin-top:12px; line-height:1.4;">
-    <a href="./getting-started-with-live-hub/about-the-live-hub.md"><strong>Getting started with Live Hub</strong></a>
+    <a href="../migrated/getting-started-with-live-hub/about-the-live-hub.md"><strong>Getting started with Live Hub</strong></a>
     </div>
    </td>
   </tr>
