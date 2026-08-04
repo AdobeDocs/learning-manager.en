@@ -84,7 +84,7 @@ The Breakout panel allows Instructors divide participants into smaller groups fo
 
 * Bring all participants back to the main session when the activity ends.
 
-View[About the breakouts](./about-the-breakouts.md) for more information.
+View [About the breakouts](./about-the-breakouts.md) for more information.
 
 ### Miro app
 

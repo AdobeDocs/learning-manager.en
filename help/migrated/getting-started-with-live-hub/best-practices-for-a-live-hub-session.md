@@ -9,16 +9,6 @@ A Live Hub course in Adobe Learning Manager brings instructors and learners toge
 
 Every Live Hub session moves through three phases. This guide follows the same rhythm, and most of the effort that determines a session's success happens before anyone joins the room.
 
-## Who this guide is for
-
-* **Authors**: Design the Live Hub course and its learning objectives.
-
-* **Administrators**: Enable the Live Hub feature for the ALM account.
-
-* **Instructors**: Prepare the room, run the session, and review outcomes.
-
-* **Learners**: Join and participate in chat, polls, quizzes, whiteboards, and breakouts.
-
 ## Prepare for the session
 
 Thorough preparation helps ensure a smooth, engaging virtual classroom experience. Before learners join, configure your course, prepare your activities, and verify that your room is ready for delivery.

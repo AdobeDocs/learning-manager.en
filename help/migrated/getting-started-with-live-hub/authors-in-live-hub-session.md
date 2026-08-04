@@ -7,7 +7,7 @@ description: Learn what an Author does in Adobe Learning Manager when creating, 
 
 As an Author in Adobe Learning Manager, you create and manage Virtual Classroom courses that use Live Hub to deliver live, Instructor-led training. You set up the course, configure the session, assign instructors, and publish it so that the session is ready to run.
 
-This article describes what an Author does when working with Live Hub. View Create a Live Hub session for more information.
+This article describes what an Author does when working with Live Hub.
 
 ## What Authors can do
 
@@ -43,3 +43,5 @@ Once configured, authors can finalize and manage course delivery. You can:
 * Publish the course for learners
 * Update session details if required
 * Manage course structure and modules
+
+View [Create a Live Hub session](./create-a-live-hub-session.md) for more information.
