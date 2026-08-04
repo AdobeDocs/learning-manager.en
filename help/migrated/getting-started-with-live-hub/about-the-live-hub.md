@@ -7,9 +7,7 @@ description: Learn how Live Hub in Adobe Learning Manager lets you deliver live,
 
 Live Hub in Adobe Learning Manager enables organizations to deliver live, instructor-led training directly within the platform, eliminating the need for external tools for core session delivery.
 
-It provides a seamless, browser-based experience for Instructors and Learners, combining session delivery, collaboration, and engagement tools in a single environment.
-
-This integrated approach helps organizations streamline training delivery, reduce administrative overhead, and maintain visibility into learner participation throughout the learning journey.
+It provides a seamless, browser-based experience for Instructors and Learners, combining session delivery, collaboration, and engagement tools in a single environment. This integrated approach helps organizations streamline training delivery, reduce administrative overhead, and maintain visibility into learner participation throughout the learning journey.
 
 Many organizations rely on separate tools for course management, session delivery, and collaboration. This can introduce challenges such as:
 
