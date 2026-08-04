@@ -7,7 +7,7 @@ description: Learn how Instructors join a Live Hub session before the scheduled 
 
 Instructors can enter the virtual classroom before the scheduled start time to prepare the room, configure learner permissions, captions, polls, quizzes, and breakouts, and set up their own audio and video before learners arrive.
 
-## Join Live Hub as an Instructor
+## Join the session
 
 Instructors can join the room before the scheduled session starts to prepare the session and configure the required settings before Learners join.
 
