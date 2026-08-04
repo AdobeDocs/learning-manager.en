@@ -17,7 +17,7 @@ The whiteboard helps you:
 
 Instructors can share a whiteboard in a Live Hub to visually explain concepts, annotate ideas, and collaborate with learners in real time. The whiteboard provides a shared canvas with drawing tools, shapes, text, zoom controls, and collaboration features. Learners can also draw, add shapes, and erase content when the Instructor enables editing permissions.
 
-## Check whiteboard permissions by role
+## Roles and permissions
 
 The whiteboard is available to both Instructors and Learners in a Virtual Classroom session. Available actions vary based on the user role.
 

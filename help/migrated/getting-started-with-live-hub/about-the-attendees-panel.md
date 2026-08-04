@@ -19,7 +19,7 @@ The panel displays attendee names, roles, and interaction status, making it easy
 
 * **Track attendance**: Shows learners who are currently present and those enrolled but have not yet joined the session.
 
-## Who can use the Attendees panel
+## Roles and permissions
 
 The Attendees panel is available to both Instructors and Learners in a Live Hub session. Available actions vary based on the user role.
 

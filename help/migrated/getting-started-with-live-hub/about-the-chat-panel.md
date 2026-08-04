@@ -33,7 +33,7 @@ The Chat panel includes multiple tabs to help manage different types of conversa
 >
 > The **Questions** tab is available only to Instructors.
 
-## Chat panel capabilities
+## Roles and permissions
 
 The Chat panel is available to both Instructors and Learners. The actions and controls available in the panel vary based on the user's role within the Virtual Classroom.
 

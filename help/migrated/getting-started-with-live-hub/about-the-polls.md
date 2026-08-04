@@ -19,7 +19,7 @@ Learners can respond to active polls, update their answers, and view shared resu
 
 * **Gather instant feedback**: Collect opinions, preferences, or feedback from learners in real time while continuing the session, without pausing ongoing instruction or content sharing.
 
-## Who can access the polls
+## Roles and permissions
 
 The **Poll** feature is available to both Instructors and Learners in a Live Hub session. Available actions vary based on the user role.
 

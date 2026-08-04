@@ -23,7 +23,7 @@ The Quiz feature provides the following benefits:
 
 * **Improve engagement**: Encourage active participation through interactive assessments.
 
-## Quiz roles and permissions
+## Roles and permissions
 
 The quiz experience is available to both Instructors and Learners in a Live Hub session. Available actions vary based on the user role.
 

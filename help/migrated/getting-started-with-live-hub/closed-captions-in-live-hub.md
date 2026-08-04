@@ -14,7 +14,7 @@ Each participant can show or hide captions as they prefer. Changing this setting
 ![](assets/closed-captions-overview.png)
 *Live Hub interface showing the closed captions in the session*
 
-## Who can access the closed captions
+## Roles and permmissions
 
 The **closed captions** feature is available to both Instructors and Learners in a Live Hub session. Available actions vary based on the user role.
 

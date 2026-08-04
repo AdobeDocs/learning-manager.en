@@ -9,11 +9,11 @@ Instructors can split a Live Hub session into smaller, interactive groups for fo
 
 This guide walks through every breakout room action available to Instructors, from creating a room to reviewing the session report.
 
-## Create a breakout room
+## Create a breakout session
 
-Breakout rooms split a virtual classroom into smaller, interactive groups. Follow these steps to create one.
+Breakout sessions split a virtual classroom into smaller, interactive groups. Follow these steps to create one.
 
-To create a breakout room:
+To create a breakout session:
 
 1.  Select **Breakout sessions** from the control bar.
 
@@ -24,11 +24,11 @@ To create a breakout room:
 
 The Breakouts panel opens. From here, you can configure breakout rooms, assign learners, and manage breakout session settings.
 
-## Design a breakout room
+## Design a breakout session
 
 Before starting a breakout session, configure rooms, assign learners, and define the activity details using the **Breakouts** panel. Proper configuration helps place learners correctly and understand the objective of each breakout activity.
 
-To design a breakout room:
+To design a breakout session:
 
 1.  Select **Breakout** from the control bar. The Breakouts panel opens.
 

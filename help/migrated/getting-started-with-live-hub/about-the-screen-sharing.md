@@ -21,7 +21,7 @@ In addition to sharing a screen, you can display two contents side by side in Sp
 
 * **Encourage participation**: Let learners share their own screens to present their work or support discussions, while Instructors maintain full control of the session.
 
-## Identify screen sharing roles
+## Roles and permissions
 
 Screen sharing is available to both Instructors and Learners. Available actions vary based on the user role.
 

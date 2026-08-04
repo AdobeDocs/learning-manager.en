@@ -13,17 +13,17 @@ Learners collaborate within their assigned rooms, participate in discussions, an
 
 After the session, Instructors can review breakout discussions and outcomes through session reports and the Session dashboard, enabling better analysis and follow-up.
 
-## Benefits of breakout rooms
+## Benefits of breakout sessions
 
-* **Encourages collaboration**: Learners can collaborate in smaller groups for focused discussions and activities.
+* **Encourages collaboration**:Participants can collaborate in smaller groups for focused discussions and activities.
 
-* **Real-time room visibility**: Instructors can monitor engagement, participation, and help requests across rooms without interrupting learners.
+* **Real-time room visibility**: Instructors can monitor engagement, participation, and help requests across rooms without interrupting participants.
 
 * **AI-powered discussion insights**: Real-time summaries help Instructors quickly understand discussions across rooms and guide activities effectively.
 
 * **Structured activity guidance**: Provide instructions to guide learners during breakout activities.
 
-* **Flexible participant management**: Learners can be assigned and adjusted easily to support different learning formats.
+* **Flexible participant management**: Participants can be assigned and adjusted easily to support different learning formats.
 
 * **Post-session insights and reporting**: Instructors can review summaries, reports, and session data in the Session dashboard to analyze outcomes and improve future sessions.
 
@@ -38,11 +38,11 @@ These terms explain how breakout sessions work and how participants interact dur
 | **Breakout instructions** | The instructor assigns the task or discussion to participants in a breakout room. |
 | **Breakout report** | A measure of a learner's engagement during a breakout session, used by Instructors to monitor and evaluate participation levels. |
 
-## Breakout rooms workflow
+## Breakout session workflow
 
-Breakout rooms follow a structured flow that includes setup, live collaboration, and session completion.
+Breakout session follow a structured flow that includes setup, live collaboration, and session completion.
 
-### Set up breakout rooms
+### Set up breakout session
 
 Before starting a breakout session, Instructors create and configure breakout rooms according to the session's requirements.
 
@@ -86,8 +86,8 @@ The Breakout rooms is available to both Instructors and Learners. The actions an
 
 | **Instructors** | **Learners** |
 |----|----|
-| [Create a breakout room](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#create-a-breakout-room) | [Join you breakout room](../getting-started-with-live-hub/participate-in-a-breakout-session.md#join-your-breakout-room) |
-| [Design a breakout room](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#design-a-breakout-room) | [View the activity instructions](../getting-started-with-live-hub/participate-in-a-breakout-session.md#view-the-activity-instructions) |
+| [Create a breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#create-a-breakout-session) | [Join you breakout room](../getting-started-with-live-hub/participate-in-a-breakout-session.md#join-your-breakout-room) |
+| [Design a breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#design-a-breakout-session) | [View the activity instructions](../getting-started-with-live-hub/participate-in-a-breakout-session.md#view-the-activity-instructions) |
 | [Start a breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#start-a-breakout-session) | [Collaborate with your group](../getting-started-with-live-hub/participate-in-a-breakout-session.md#collaborate-with-your-group) |
 | [Manage breakout sessions](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#manage-breakout-sessions) | [Receive messages from your Instructor](../getting-started-with-live-hub/participate-in-a-breakout-session.md#receive-messages-from-your-instructor) |
 | [Manage activities in an active breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#manage-activities-in-an-active-breakout-session) | [Ask for help](../getting-started-with-live-hub/participate-in-a-breakout-session.md#ask-for-help) |
