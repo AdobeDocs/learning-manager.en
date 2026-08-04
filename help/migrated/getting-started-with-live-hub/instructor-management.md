@@ -137,5 +137,3 @@ To mark unavailable days:
 1.  Select **Add**. The selected date range is marked as unavailable on the calendar.
 
 1.  Select **Save**. The Instructor's availability settings are updated.
-
-[![Open Content Composer](assets/cta.png)](../user-guide.md)
