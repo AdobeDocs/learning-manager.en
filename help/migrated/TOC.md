@@ -41,6 +41,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Getting started as a Learner](learners/feature-summary/getting-started-learner.md)
    * [Getting started for Managers](managers/feature-summary/getting-started-manager.md)
    * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
+   * [Getting started with Live Hub](./getting-started-with-live-hub/about-the-live-hub.md)
 * Administrator {#admin}
    * AI in Learning{#ai-in-learning}
       * [Enable Live Hub](./administrators/feature-summary/enable-live-hub.md)
@@ -252,14 +253,13 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learner transcripts](managers/feature-summary/learner-transcripts.md)
    * [Settings](managers/feature-summary/settings.md)
    * [iPad & Android tablet users](managers/feature-summary/ipad-android-tablet-users.md)
-* Getting started with Live Hub{#getting-started-with-live-hub}
-   * [About Live Hub](../migrated/getting-started-with-live-hub/about-the-live-hub.md)
+* Work with Live Hub{work-with-live-hub}
+   * [System requirements](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
    * Roles in Live Hub{#roles-in-live-hub}
       * [Administrator](../migrated/getting-started-with-live-hub/administrator.md)
       * [Authors](../migrated/getting-started-with-live-hub/authors-in-live-hub-session.md)
       * [Instructors](../migrated/getting-started-with-live-hub/instructors-in-a-live-hub-session.md)
       * [Learners](../migrated/getting-started-with-live-hub/learners-in-live-hub-session.md)
-   * [System requirements](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
    * [Add and manage Instructors](../migrated/getting-started-with-live-hub/instructor-management.md)
    * [Create a Live Hub session](../migrated/getting-started-with-live-hub/create-a-live-hub-session.md)
    * [Live Hub mobile experience](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
@@ -269,10 +269,11 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Join a Live Hub session as a Learner](../migrated/getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)
    * [Understand the Live Hub layout](../migrated/getting-started-with-live-hub/understand-the-live-hub-layout.md)
    * Engagement tools{#engagement-tools}
+      * [Manage the room settings as an Instructor](../migrated/getting-started-with-live-hub/manage-settings.md)
       * Attendees panel{#attendees-panel}
          * [About the Attendees panel](../migrated/getting-started-with-live-hub/about-the-attendees-panel.md)
          * [Manage the Attendees panel](../migrated/getting-started-with-live-hub/manage-the-attendees-panel.md)
-         * [Use the Attendees panel as a learner](../migrated/getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md)
+         * [Use the Attendees panel as a Learner](../migrated/getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md)
       * Chat panel{#chat-panel}
          * [About the Chat panel](../migrated/getting-started-with-live-hub/about-the-chat-panel.md)
          * [Use the Chat panel as an Instructor](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md)
@@ -313,7 +314,6 @@ user-guide-description: Documentation for Adobe Learning Manager
       * Session dashboard{#session-dashboard}
          * [View the Session dashboard](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
          * [Components of the Session dashboard](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
-      * [Manage the room settings](../migrated/getting-started-with-live-hub/manage-settings.md)
       * [Best practices](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
 * Frequently Asked Questions {#faq}
    * [Frequently Asked Questions for Administrators](administrators/frequently-asked-questions-for-administrators.md)
