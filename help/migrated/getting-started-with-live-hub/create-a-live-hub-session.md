@@ -1,9 +1,9 @@
 ---
-title: Create and configure a Live Hub session
+title: Create a Live Hub session
 description: Learn how to create a Live Hub course, add course instances, assign Instructors with Instructor Finder, enroll Learners, and customize room branding.
 ---
 
-# Create and configure a Live Hub session
+# Create a Live Hub session
 
 Use Live Hub to deliver live, instructor-led training within an Adobe Learning Manager course. You can combine Live Hub sessions with self-paced content to create a blended learning experience.
 
@@ -11,7 +11,7 @@ When you add a Virtual Classroom module to a course, select the virtual training
 
 >[!NOTE]
 >
-> Live Hub appears as a Live Virtual Training Tool option only if your Administrator has enabled it in the Live Hub settings. If it isn't enabled, use an external provider such as Adobe Connect instead. View **Enable Live Hub** for more information.
+> Live Hub appears as a Live Virtual Training Tool option only if your Administrator has enabled it in the Live Hub settings. If it isn't enabled, use an external provider such as Adobe Connect instead. View [Enable Live Hub](../administrators/feature-summary/enable-live-hub.md) for more information.
 
 When creating a Live Hub course, you can:
 
@@ -109,11 +109,11 @@ To create a course instance:
 
 ## Add Instructors using Instructor Finder
 
-Instead of searching for and adding Instructors manually, use **Instructor Finder** to receive AI-powered Instructor recommendations for the session. Instructor Finder matches instructors based on the course details and required skills, while also considering the organization's holiday calendar, Instructor availability, and Instructor utilization to suggest the most suitable instructors. View **Instructor management** for more information.
+Instead of searching for and adding Instructors manually, use **Instructor Finder** to receive AI-powered Instructor recommendations for the session. Instructor Finder matches instructors based on the course details and required skills, while also considering the organization's holiday calendar, Instructor availability, and Instructor utilization to suggest the most suitable instructors. View [Add and manage Instructors](./instructor-management.md) for more information.
 
 >[!NOTE]
 >
-> Instructor Finder appears only if your Administrator has enabled the Instructor Finder Assistant in the Live Hub settings. View **Enable Live Hub** for more information.
+> Instructor Finder appears only if your Administrator has enabled the Instructor Finder Assistant in the Live Hub settings. View [Enable Live Hub](../administrators/feature-summary/enable-live-hub.md) for more information.
 
 To add Instructors using Instructor Finder:
 
