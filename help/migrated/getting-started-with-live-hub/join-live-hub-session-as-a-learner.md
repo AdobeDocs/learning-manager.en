@@ -20,6 +20,6 @@ Learners join a Live Hub session directly from the course they are enrolled in. 
 
 1.  Select **Start** > **Go to Session**. The Live Hub joining interface opens.
 
-1.  (Optional) Test the microphone and apply the virtual background. See [Set up the pre-join screen in Live Hub](Setup-pre-join-screen-in-Live-Hub.md) for more information.
+1.  (Optional) Test the microphone and apply the virtual background. See [Set up the pre-join screen in Live Hub](./setup-pre-join-screen-in-live-hub.md) for more information.
 
 1.  Select **Join**.

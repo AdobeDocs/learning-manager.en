@@ -198,4 +198,4 @@ To revert to the original recording:
 
 You can download a recording to access it offline or share it outside the platform.
 
-Downloading a recording is managed from the session dashboard. See [Components of the Session dashboard](Components-of-the-Session-dashboard.md) for more information.
+Downloading a recording is managed from the session dashboard. See [Components of the Session dashboard](./components-of-the-session-dashboard.md) for more information.

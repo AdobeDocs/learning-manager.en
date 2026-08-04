@@ -1,3 +1,8 @@
+---
+title: Use reactions and raised hands in Live Hub sessions
+description: Learn how Learners can use reactions and raised hands to participate in a Live Hub session without interrupting the Instructor.
+---
+
 # Use reactions and raised hands
 
 As a Learner, use reactions and raised hands to participate in a session
@@ -5,7 +10,7 @@ without interrupting the presenter. Both options are available from the
 session control bar and help you communicate with Instructors and other
 participants in real time.
 
-# Raise your hand in the session
+## Raise your hand in the session
 
 The **Raise hand** option in the control bar allows the participants to signal that they want to speak or ask a question during a session. To raise your hand, select from the control bar. Your raised hand is visible to the instructor and appears in the **Attendees** list.
 

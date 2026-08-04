@@ -53,4 +53,4 @@ The following tabs are available in the session dashboard:
 | **Participant activity** | Provides participant-wise details, including attendance and interaction data, to help track individual involvement. |
 | **Reports** | Allows you to download session analytics and data for offline review. |
 
-See [Components of the Session dashboard](Components-of-the-Session-dashboard.md) for more information.
+See [Components of the Session dashboard](./components-of-the-session-dashboard.md) for more information.

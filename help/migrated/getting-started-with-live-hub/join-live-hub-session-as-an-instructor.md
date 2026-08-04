@@ -28,6 +28,6 @@ Instructors can join the room before the scheduled session starts to prepare the
     ![Instructor Pre Join Screen](assets/instructor-pre-join-screen.png)
     *The pre-joining screen of Live Hub.*
 
-1.  (Optional) Test the microphone and apply the virtual background. See [Set up the pre-join screen in Live Hub](Setup-pre-join-screen-in-Live-Hub.md) for more information.
+1.  (Optional) Test the microphone and apply the virtual background. See [Set up the pre-join screen in Live Hub](./setup-pre-join-screen-in-live-hub.md) for more information.
 
 1.  Select **Join**.

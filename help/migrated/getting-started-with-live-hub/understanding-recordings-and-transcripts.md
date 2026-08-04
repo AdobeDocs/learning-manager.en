@@ -27,8 +27,8 @@ The access to recording is available to both Instructors and Learners. The actio
 | [Stop, Pause, and Resume recording](../getting-started-with-live-hub/record-a-session.md#stop-pause-and-resume-recording) | [View Topics in recording](../getting-started-with-live-hub/view-recordings-as-a-learner.md#view-topics-in-recording) |
 | [Access a recording](../getting-started-with-live-hub/record-a-session.md#access-a-recording) | [View Transcript](../getting-started-with-live-hub/view-recordings-as-a-learner.md#view-transcript) |
 | [Play a recording](../getting-started-with-live-hub/record-a-session.md#play-a-recording) | [Change the Transcript text size](../getting-started-with-live-hub/view-recordings-as-a-learner.md#change-the-transcript-text-size) |
-| [Generate Topics in recording](../getting-started-with-live-hub/record-a-session.md#generate-topics-in-recording) |
-| [View Topics in recording](../getting-started-with-live-hub/record-a-session.md#view-topics-in-recording) |
+| [Generate Topics in recording](../getting-started-with-live-hub/record-a-session.md#generate-topics-in-recording) | |
+| [View Topics in recording](../getting-started-with-live-hub/record-a-session.md#view-topics-in-recording) | |
 | [View Transcript](../getting-started-with-live-hub/record-a-session.md#view-transcript) | |
 | [Edit a recording](../getting-started-with-live-hub/record-a-session.md#edit-a-recording) | |
 | [Regenerate Topics](../getting-started-with-live-hub/record-a-session.md#regenerate-topics) | |
