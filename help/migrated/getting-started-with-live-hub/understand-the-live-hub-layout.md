@@ -20,33 +20,31 @@ The Live Hub layout is organized into panels and toolbars that help Instructors 
 
 The Control bar provides quick access to the following in-session controls and settings.
 
-* **Microphone controls**: Turn your microphone on or off during the session.
+* **Microphone controls**: Turn your microphone on or off during the session. View [Set-up pre join screen](./setup-pre-join-screen-in-live-hub.md) for more information.
 
-* **Video controls**: Enable or disable your camera.
+* **Video controls**: Enable or disable your camera.View [Set-up pre join screen](./setup-pre-join-screen-in-live-hub.md) for more information.
 
-* **Reactions**: Use emojis and quick responses to interact during the session.
+* **Reactions**: Use emojis and quick responses to interact during the session. View [About the raise hand and send reactions](./about-raise-hand-and-reactions.md) for more information.
 
-* **Raise hand**: Indicate that you want to ask a question or speak.
+* **Raise hand**: Indicate that you want to ask a question or speak. View [About the raise hand and send reactions](./about-raise-hand-and-reactions.md) for more information.
 
-* **Share screen**: Present your screen during the session (based on permissions).
+* **Share screen**: Present your screen during the session (based on permissions). View [About the screen sharing](./about-the-screen-sharing.md) for more information.
 
 * **More actions**: Access the following additional tools and settings:
 
-  * **Captions**: Turn live captions on or off to view spoken content as text during the session.
+  * **Captions**: Turn live captions on or off to view spoken content as text during the session. View [Closed captions](./closed-captions-in-live-hub.md) for more information.
 
-  * **Whiteboard**: Open the whiteboard to collaborate visually by drawing, writing, or annotating with other participants.
+  * **Whiteboard**: Open the whiteboard to collaborate visually by drawing, writing, or annotating with other participants. View [About the whiteboard](./about-the-whiteboard.md) for more information.
 
-  * **Room settings**: Configure session settings, including **Participant permissions**, **Recording**, **AI**, and **Privacy** options to control participant access, recording preferences, AI features, and participant visibility.
+  * **Room settings**: Configure session settings, including **Participant permissions**, **Recording**, **AI**, and **Privacy** options to control participant access, recording preferences, AI features, and participant visibility. View [Manage room settings as an Instructor](./manage-settings.md) for more information.
 
 ### Polls & Quizzes panel
 
-The Polls & Quizzes panel provides an overview of participant involvement during the session. You can:
+The Polls & Quizzes panel helps Instructors drive participation and measure learner understanding throughout the session. You can:
 
-* Monitor learner engagement levels.
+Create interactive polls to collect learner feedback, gather opinions, and encourage active participation during the session. View responses in real time to guide discussions and adapt your delivery as needed. View [About the polls](./about-the-polls.md) for more information.
 
-* View participation indicators.
-
-* Access engagement insights.
+Create quizzes to evaluate learner understanding, measure knowledge retention, and track completion. Monitor learner progress and quiz responses in real time to identify areas that may require additional instruction. View [About the quiz](./about-the-quiz.md) for more information.
 
 ### Attendees panel
 
@@ -60,6 +58,8 @@ The Attendees panel lists all participants in the session. You can:
 
 * Monitor attendance in real time.
 
+View [About the Attendees panel](./about-the-attendees-panel.md) for more information.
+
 ### Chat panel
 
 The Chat panel enables real-time communication between participants. You can:
@@ -70,9 +70,11 @@ The Chat panel enables real-time communication between participants. You can:
 
 * Interact with Instructors and other learners.
 
-### Breakouts panel
+View [About the Chat panel](./about-the-chat-panel.md) for more information.
 
-The Breakouts panel lets Instructors divide participants into smaller groups for focused discussions and collaborative activities. You can:
+### Breakout panel
+
+The Breakout panel allows Instructors divide participants into smaller groups for focused discussions and collaborative activities. You can:
 
 * Create and manage breakout rooms during the session.
 
@@ -81,6 +83,8 @@ The Breakouts panel lets Instructors divide participants into smaller groups for
 * Move between rooms to monitor and support each group.
 
 * Bring all participants back to the main session when the activity ends.
+
+View[About the breakouts](./about-the-breakouts.md) for more information.
 
 ### Miro app
 
@@ -101,3 +105,5 @@ Participant engagement helps track participants' activity and involvement in rea
 * Monitor participation based on interactions such as responses, reactions, and activity.
 
 * Identify whether learners are actively engaged or need attention.
+
+View[Track the participant engagement](./track-the-participant-engagement.md) for more information.
