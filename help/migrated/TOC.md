@@ -7,6 +7,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 # Learning Manager Guide {#using}
 
 * [Adobe Learning Manager User Guide](user-guide.md)
+<!--
 * Introduction {#introduction}
    * Platform essentials {#platform-essentials}
       * [System requirements](system-requirements.md)
@@ -191,9 +192,7 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
    * Peer account {#peer-account}
       * [Peer accounts](administrators/feature-summary/peer-account.md)
-
-
-<!--
+-->
 * Introduction {#introduction}
    * [New features summary August 2026](/help/migrated/whats-new.md)
    * [New features summary April 2026](/help/migrated/whats-new-april-2026.md)
@@ -334,7 +333,6 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Non-logged in experience for learners](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Learning Programs](administrators/feature-summary/learning-programs.md)
    * [Product Terminology](administrators/feature-summary/product-terminology.md)
--->
 * Integration Admin {#integration}
    * [Application developer manual](integration-admin/feature-summary/developer-manual.md)
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
@@ -391,7 +389,9 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Email templates](authors/feature-summary/email-templates-author.md)
    * [How to choose course modules?](authors/how-to-choose-modules.md)
    * [Preview as learner](authors/feature-summary/fluidic-player.md)
-   * [Settings](authors/feature-summary/settings.md)
+   * Adobe Learning Manager Content Composer {#alm-content-composer}
+      * [Adobe Learning Manager Content Composer Help Guide](authors/feature-summary/content-composer-help.md)
+   * [Settings](authors/feature-summary/settings.md) 
 * Instructor {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
    * [Managing learners for your session](instructors/feature-summary/learners.md)
