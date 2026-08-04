@@ -108,7 +108,7 @@ Quiz results and answer visibility depend on the settings configured by the Inst
 
 If breakout rooms are used during a session, the Instructor will assign you to a room.
 
-![Mobile Breakout Room View](assets2/mobile-breakout-room-view.png)
+![Mobile Breakout Room View](assets/mobile-breakout-room-view.png)
 *Breakout room view showing collaboration options available on mobile.*
 
 Within a breakout room, you can:
