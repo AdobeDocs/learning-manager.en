@@ -262,15 +262,14 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Learners](../migrated/getting-started-with-live-hub/learners-in-live-hub-session.md)
    * [Add and manage Instructors](../migrated/getting-started-with-live-hub/instructor-management.md)
    * [Create a Live Hub session](../migrated/getting-started-with-live-hub/create-a-live-hub-session.md)
-   * [Live Hub mobile experience](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
-   * Join a Live Hub session{#join-a-live-hub-session}
+   * Join a Live Hub session {#join-a-live-hub-session}
       * [Setup pre-join screens](./getting-started-with-live-hub/setup-pre-join-screen-in-live-hub.md)
       * [Join a Live Hub session as an Instructor](../migrated/getting-started-with-live-hub/join-live-hub-session-as-an-instructor.md)
       * [Join a Live Hub session as a Learner](../migrated/getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)
    * [Understand the Live Hub layout](../migrated/getting-started-with-live-hub/understand-the-live-hub-layout.md)
-   * Engagement tools{#engagement-tools}
+   * Engagement tools {#engagement-tools}
       * [Manage the room settings as an Instructor](../migrated/getting-started-with-live-hub/manage-settings.md)
-      * Attendees panel{#attendees-panel}
+      * Attendees panel {#attendees-panel}
          * [About the Attendees panel](../migrated/getting-started-with-live-hub/about-the-attendees-panel.md)
          * [Manage the Attendees panel](../migrated/getting-started-with-live-hub/manage-the-attendees-panel.md)
          * [Use the Attendees panel as a Learner](../migrated/getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md)
@@ -278,11 +277,11 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [About the Chat panel](../migrated/getting-started-with-live-hub/about-the-chat-panel.md)
          * [Use the Chat panel as an Instructor](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md)
          * [Use the Chat panel as a Learner](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md)
-      * Raise your hand and use reactions{#raise-your-hand-and-use-reactions}
+      * Raise your hand and use reactions {#raise-your-hand-and-use-reactions}
          * [About Raise hand and reactions](../migrated/getting-started-with-live-hub/about-raise-hand-and-reactions.md)
          * [Manage participant raised hands and reactions](../migrated/getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md)
          * [Raise your hand and send reactions](../migrated/getting-started-with-live-hub/raise-hand-and-send-reactions.md)
-      * Screen sharing in sessions{#screen-sharing-in-sessions}
+      * Screen sharing in sessions {#screen-sharing-in-sessions}
          * [About the screen sharing](../migrated/getting-started-with-live-hub/about-the-screen-sharing.md)
          * [Share your screen as an Instructor](../migrated/getting-started-with-live-hub/share-your-screen-as-an-instructor.md)
          * [Share your screen as a Learner](../migrated/getting-started-with-live-hub/share-your-screen-as-a-learner.md)
@@ -290,7 +289,7 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [About the whiteboard](../migrated/getting-started-with-live-hub/about-the-whiteboard.md)
          * [Share a whiteboard](../migrated/getting-started-with-live-hub/share-a-whiteboard.md)
          * [Use whiteboard as a Learner](../migrated/getting-started-with-live-hub/use-whiteboard-as-a-learner.md)
-      * Conduct polls{#conduct-polls}
+      * Conduct polls {#conduct-polls}
          * [About the polls](../migrated/getting-started-with-live-hub/about-the-polls.md)
          * [Create and launch a poll](../migrated/getting-started-with-live-hub/create-and-launch-a-poll.md)
          * [Respond to a poll](../migrated/getting-started-with-live-hub/respond-to-a-poll.md)
@@ -299,11 +298,11 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Create and manage a quiz](../migrated/getting-started-with-live-hub/create-and-manage-a-quiz.md)
          * [Attempt a quiz](../migrated/getting-started-with-live-hub/attempt-a-quiz.md)
       * [Track the Participant engagement](../migrated/getting-started-with-live-hub/track-the-participant-engagement.md)
-      * Breakouts{#breakouts}
+      * Breakouts {#breakouts}
          * [About the breakouts](../migrated/getting-started-with-live-hub/about-the-breakouts.md)
          * [Create and manage breakout session](../migrated/getting-started-with-live-hub/create-and-manage-breakout-rooms.md)
          * [Participate in a breakout session](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
-      * Closed captions{#closed-captions}
+      * Closed captions {#closed-captions}
          * [Understand the closed captions](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
          * [Manage the closed captions as an Instructor](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
          * [Manage the closed captions as a Learner](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
@@ -311,17 +310,18 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Understanding recordings and transcripts](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
          * [Record a session](../migrated/getting-started-with-live-hub/record-a-session.md)
          * [View recordings as a Learner](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
-      * Session dashboard{#session-dashboard}
+      * Session dashboard {#session-dashboard}
          * [View the Session dashboard](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
          * [Components of the Session dashboard](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
-      * [Best practices](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
+   * [Best practices](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
+   * [Live Hub mobile experience](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * Frequently Asked Questions {#faq}
    * [Frequently Asked Questions for Administrators](administrators/frequently-asked-questions-for-administrators.md)
    * [Frequently Asked Questions for Authors](authors/frequently-asked-questions-for-authors.md)
    * [Frequently Asked Questions for Instructors](instructors/frequently-asked-questions-for-instructors.md)
    * [Frequently Asked Questions for Managers](managers/frequently-asked-questions-for-managers.md)
    * [Frequently Asked Questions for Learners](learners/frequently-asked-questions-for-learners.md)
-   * [Frequently asked questions for a Live Hub session](../migrated/getting-started-with-live-hub/live-hub-faqs.md)
+   * [Frequently asked questions for a Live Hub session](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
    * [New experience league announcements](/help/migrated/new-experience-league-announcement.md)
    * [How to submit a support ticket on Experience League](/help/migrated/how-to-submit-support-ticket.md)
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
