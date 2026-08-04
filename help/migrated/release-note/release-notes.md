@@ -113,7 +113,7 @@ The AI Orchestrator Agent moves intent detection for single-query requests into 
 
 ## Known issues in the release
 
-### Instructor can't join the Virtual Classroom between modules
+### Instructor cannot join the Virtual Classroom between modules
 
 Instructors cannot join the Virtual Classroom when attempting to enter a room outside the scheduled time of their assigned course module.
 
