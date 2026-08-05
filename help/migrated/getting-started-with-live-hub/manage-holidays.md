@@ -3,7 +3,7 @@ title: Manage holidays in Adobe Learning Manager
 description: Learn how Administrators define organization-wide holidays that affect Instructor availability for Live Hub sessions, individually or by CSV import.
 ---
 
-# Manage holidays in Adobe Learning Manager
+# Manage Holidays
 
 Use the **Holidays** setting to define organization-wide holidays in Adobe Learning Manager. Holidays appear in the Instructor calendar as non-working days, affecting Instructor availability when scheduling Live Hub sessions.
 
