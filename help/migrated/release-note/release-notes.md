@@ -160,6 +160,19 @@ course instance using separate modules that share a room.
 
 This behavior is expected in the current release and is consistent with the existing room architecture. The functionality is under review for future enhancement based on customer feedback.
 
+### Shared content displays a tunneling effect after returning to the Live Hub window 
+
+When an Instructor shares their entire screen and then returns to the Live Hub window, participants may experience a tunneling effect in the shared content. When you share your entire screen, the shared feed includes everything displayed on your desktop. Switching back to the Live Hub window can cause the shared content to repeatedly capture and display the Live Hub interface, resulting in unexpected visual behavior. This is a known limitation of full-screen sharing and is being evaluated for a future release. 
+
+Share a specific application or window instead of your entire screen. For example, share the presentation or document window you want participants to view. Sharing a single application keeps the shared content isolated and prevents the tunneling effect. 
+
+### Session dashboard report will not be available immediately after rejoining an ended session 
+
+Session Dashboard report will not be available immediately after rejoining an ended session
+If an Instructor views the Session Dashboard after a session has ended and then rejoins the same session using its URL, the existing Session Dashboard report may no longer be available. The report can take approximately five to seven minutes to refresh and become available again while the previous session instance is processed. This is a known limitation and is being evaluated for a future release.
+
+Wait five to seven minutes after closing the session before reopening the dashboard URL. This allows the previous session instance to complete processing, after which the Session Dashboard report becomes available again.
+
 ### Column names are not localized in the exported Classroom Locations CSV
 
 When the UI locale is set to a language other than English, the CSV file exported from the Classroom Locations page displays its column names (the header row) in English rather than in the selected language.  
