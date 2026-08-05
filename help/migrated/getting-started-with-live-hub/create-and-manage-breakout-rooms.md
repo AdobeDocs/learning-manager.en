@@ -136,7 +136,7 @@ During an active breakout session, Instructors can monitor room activity, commun
 
 ### View AI-generated summaries of breakout rooms
 
-Instructors can view AI-generated summaries of discussions in each breakout room to monitor learner conversations, assess alignment with the activity, and decide when to join a room. The summaries update automatically throughout the session as discussions unfold.
+Instructors can view AI-generated summaries of discussions in each breakout room to monitor participant conversations, assess alignment with the activity, and decide when to join a room. The summaries update automatically throughout the session as discussions unfold.
 
 To view summaries:
 
@@ -174,7 +174,7 @@ You can end the breakout session at any time.
 
 ## View a breakout session report
 
-After the breakout session ends, select **View report** to view a detailed session summary. The report includes room-wise summaries of Learner conversations, participant details, instructions shared during the session, and an overview of session duration and activity.
+After the breakout session ends, you can access the breakout session report to review session activity and participation. The report includes participant details, room-specific summaries of breakout discussions, instructions shared with participants, and an overview of session duration and engagement.
 
 To view a breakout session report:
 
