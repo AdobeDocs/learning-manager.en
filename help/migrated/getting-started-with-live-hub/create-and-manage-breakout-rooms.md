@@ -171,7 +171,7 @@ You can end the breakout session at any time.
 
 ## View a breakout session report
 
-After the breakout session ends, select **View report** to view a detailed session summary. The report includes room-wise summaries, participant details, instructions shared during the session, and an overview of session duration and activity.
+After the breakout session ends, select **View report** to view a detailed session summary. The report includes room-wise summaries of Learner conversations, participant details, instructions shared during the session, and an overview of session duration and activity.
 
 To view a breakout session report:
 
