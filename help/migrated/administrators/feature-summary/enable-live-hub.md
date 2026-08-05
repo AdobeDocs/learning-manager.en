@@ -52,3 +52,5 @@ To enable Live Hub:
 >[!NOTE]
 >
 > AI assistants can be configured only when AI in Live Hub is enabled. Instructors can disable assistants when preparing a session, but they can't enable an assistant that has been disabled by an Administrator.
+
+View [Getting started with Live Hub](../../getting-started-with-live-hub/getting-started-live-hub.md) for more information.
