@@ -20,3 +20,7 @@ As an Administrator, you can set up and run Live Hub training using the capabili
 | **Add bulk skills** | <ul><li>Add skills in bulk</li><li>Organize and update skill sets</li><li>Align skills with course requirements</li></ul> | [Create and modify skills and levels](../administrators/feature-summary/skills-levels.md#add-skills-in-bulk) |
 | **Manage holidays** | <ul><li>Add a single holiday, or import several at once by uploading a CSV file</li><li>Set a date, name, and optional description for each holiday</li><li>Review, search, and filter holidays across the All, Upcoming, and Past tabs</li><li>Maintain one consistent, account-wide holiday calendar</li></ul> | [Manage holidays](./manage-holidays.md) |
 | **Configure branding and color themes** | <ul><li>Apply color themes</li><li>Maintain a consistent visual identity across sessions</li><li>Enhance the learner experience with branded environments</li></ul> | [Color themes](../administrators/feature-summary/themes.md#color-themes) |
+
+>[!NOTE]
+>
+>For answers to common questions about Live Hub, see [Frequently Asked Questions for Live Hub](./frequently-asked-questions-for-live-hub.md#administrator).

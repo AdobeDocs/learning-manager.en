@@ -76,3 +76,7 @@ End the session for all participants when the training is complete. After the se
 * Review session analytics, including the session summary; interactions such as polls, quizzes, breakouts, Q&A, and reactions; participant activity; and downloadable reports.
 
 View[Session dashboard](./view-the-session-dashboard.md) for more information.
+
+>[!NOTE]
+>
+>For answers to common questions about Live Hub, see [Frequently Asked Questions for Live Hub](./frequently-asked-questions-for-live-hub.md#instructor).

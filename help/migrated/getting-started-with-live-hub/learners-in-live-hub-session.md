@@ -38,3 +38,7 @@ During the session, you collaborate with the Instructor and other learners using
 ## After the session
 
 Once the session ends, open the course page to review the session recording and any files shared during the session.
+
+>[!NOTE]
+>
+>For answers to common questions about Live Hub, see [Frequently Asked Questions for Live Hub](./frequently-asked-questions-for-live-hub.md#learner).
