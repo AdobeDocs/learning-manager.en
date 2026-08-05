@@ -314,7 +314,7 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [View the Session dashboard](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
          * [Components of the Session dashboard](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
    * [Best practices](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-   * [Live Hub mobile experience](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+   * [Use Live Hub on mobile as a Learner](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * Frequently Asked Questions {#faq}
    * [Frequently Asked Questions for Administrators](administrators/frequently-asked-questions-for-administrators.md)
    * [Frequently Asked Questions for Authors](authors/frequently-asked-questions-for-authors.md)
