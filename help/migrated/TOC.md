@@ -41,7 +41,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Getting started as a Learner](learners/feature-summary/getting-started-learner.md)
    * [Getting started for Managers](managers/feature-summary/getting-started-manager.md)
    * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
-   * [Getting started with Live Hub](./getting-started-with-live-hub/getting-started-with-live-hub.md)
+   * [Getting started with Live Hub](./getting-started-with-live-hub/getting-started-live-hub.md)
 * Administrator {#admin}
    * AI in Learning{#ai-in-learning}
       * [Enable Live Hub](./administrators/feature-summary/enable-live-hub.md)
