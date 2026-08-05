@@ -399,7 +399,26 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Ground your course in your own documents](authors/feature-summary/content-composer/ground-course-documents.md)
          * [What Content Composer is not](authors/feature-summary/content-composer/what-content-composer-is-not.md)
       * Create a course {#create-course}
-         * [Write a prompt]
+         * [Write a prompt](authors/feature-summary/content-composer/write-a-prompt.md)
+         * [Complete the course brief](authors/feature-summary/content-composer/complete-course-brief.md)
+         * [Manage source files](authors/feature-summary/content-composer/manage-source-files.md)
+         * [Edit the course outline](authors/feature-summary/content-composer/edit-course-outline.md)
+         * [Review the generated course](authors/feature-summary/content-composer/review-generated-course.md)
+         * [Review and edit the quiz](authors/feature-summary/content-composer/review-edit-quiz.md)
+         * [Edit the course text](authors/feature-summary/content-composer/edit-course-text.md)
+         * [Edit or add an image](authors/feature-summary/content-composer/edit-add-image.md)
+         * [Add a content component](authors/feature-summary/content-composer/add-content-component.md)
+         * [Preview the course](authors/feature-summary/content-composer/preview-course.md)
+      * Write effective prompts {#write-effective-prompt}
+         * [Write effective prompts in Content Composer](authors/feature-summary/content-composer/write-effective-prompts.md)
+      * Share and collaborate {#share}
+         * [Share and collaborate on a Content Composer course](authors/feature-summary/content-composer/share-collaborate.md)
+         * {hide-from-toc} [Share a course for review]
+         * {hide-from-toc} [Share a course with learners]
+         * {hide-from-toc} [Review the shared project]
+         * {hide-from-toc} [View and add comments]
+      * Configure course settings {#settings}
+         * [General course settings](authors/feature-summary/general-course-settings.md)
    * [Settings](authors/feature-summary/settings.md) 
 * Instructor {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
