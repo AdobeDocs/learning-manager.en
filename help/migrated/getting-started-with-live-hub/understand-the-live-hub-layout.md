@@ -96,6 +96,8 @@ Open **More apps** to access integrated tools that extend collaboration during t
 
 * Collaborate visually with all participants without leaving the session.
 
+View[About the whiteboard](./about-the-whiteboard.md) for more information.
+
 ### Participant engagement
 
 Participant engagement helps track participants' activity and involvement in real time during the session. You can:
