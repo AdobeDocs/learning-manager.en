@@ -13,7 +13,9 @@ This article covers Instructor workflows and best practices for managing Live Hu
 
 ### Prepare before the session
 
-Join the Live Hub room ahead of the scheduled start time using the session URL to set it up before Learners join. From the room, you can:
+Join the Live Hub room ahead of the scheduled start time using the session URL to set it up before Learners join. View [Join the session](./join-live-hub-session-as-an-instructor.md) for more information.
+
+From the room, you can:
 
 * Configure learner permissions, such as enabling screen sharing and whiteboard access.
 
@@ -72,3 +74,5 @@ End the session for all participants when the training is complete. After the se
 * Access the session recording and transcript and edit the recording if needed.
 
 * Review session analytics, including the session summary; interactions such as polls, quizzes, breakouts, Q&A, and reactions; participant activity; and downloadable reports.
+
+View[Session dashboard](./view-the-session-dashboard.md) for more information.

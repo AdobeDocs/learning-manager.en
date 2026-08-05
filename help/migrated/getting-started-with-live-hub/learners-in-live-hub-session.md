@@ -17,6 +17,8 @@ Open your enrolled course and join the Live Hub session at the scheduled date an
 
 1.  Select **Start** > **Go to Session**, then select **Join**.
 
+View [Join the session](./join-live-hub-session-as-a-learner.md) for more information.
+
 ## Take part in the session
 
 During the session, you collaborate with the Instructor and other learners using the session tools. You can:

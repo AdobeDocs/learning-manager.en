@@ -1,9 +1,9 @@
 ---
-title: About Live Hub
+title: Getting started with Live Hub
 description: Learn how Live Hub in Adobe Learning Manager lets you deliver live, instructor-led training sessions directly within the platform.
 ---
 
-# About Live Hub
+# Getting started with Live Hub
 
 Live Hub in Adobe Learning Manager enables organizations to deliver live, instructor-led training directly within the platform, eliminating the need for external tools for core session delivery.
 
@@ -32,8 +32,8 @@ Unlike third-party integrations, Live Hub is fully embedded into the learning wo
 
 Delivering a Live Hub course involves four roles, each responsible for a distinct part of the workflow:
 
-- **Author**: Creates the Live Hub course. View [Authors in Live Hub session](./authors-in-live-hub-session.md) for more information.
 - **Administrator**: Enables Live Hub for the Learning Manager account. View [Administrators in Live hub session](./administrator.md) for more information.
+- **Author**: Creates the Live Hub course. View [Authors in Live Hub session](./authors-in-live-hub-session.md) for more information.
 - **Instructor**: Prepares the room, conducts the session, engages learners, and reviews recordings and analytics. View [Instructors in Live Hub session](./instructors-in-a-live-hub-session.md) for more information.
 - **Learner**: Joins the session and participates in activities such as chat, polls, quizzes, whiteboards, and breakout sessions. View [Learners in Live Hub session](./learners-in-live-hub-session.md) for more information.
 
@@ -44,8 +44,11 @@ smooth learning experience.
 
 ![Live Hub session workflow diagram showing Pre-session, During-session, and Post-session stages with tasks for Administrators, Authors, Instructors, and Learners](assets/live-hub-session-workflow-diagram.jpg)
 
-|Stage|Key activities|
+|**Stage**|**Key activities**|
 |---|---|
-|**Pre-session**|The Administrator [enables Live Hub](../administrators/feature-summary/enable-live-hub.md) for the account, the Author [creates the Live Hub course](create-a-live-hub-session.md), and the Instructor prepares the room by [configuring layouts](./understand-the-live-hub-layout.md), content, and interactive activities for the upcoming session.|
+|**Pre-session**|The Administrator verifies that the [system requirements](./system-requirements-for-live-hub.md) are met and [enables Live Hub](../administrators/feature-summary/enable-live-hub.md) for the account. They can also enroll the Learners to a course. The Author [creates the Live Hub course](create-a-live-hub-session.md), and the Instructor prepares the room by [configuring layouts](./understand-the-live-hub-layout.md), content, and interactive activities for the upcoming session.|
 |**During-session**|Instructor delivers the live session and engages Learners using features such as [chat](about-the-chat-panel.md), [polls](./about-the-polls.md), [quizzes](./about-the-quiz.md), [whiteboards](./about-the-whiteboard.md), [screen sharing](./about-the-screen-sharing.md), and [breakout rooms](./about-the-breakouts.md). Learners participate in these activities throughout the session. The Instructor can [record the session](./record-a-session.md) to make it available for learners to view later.|
 |**Post-session**|Instructor reviews session recordings, attendance reports, and [engagement analytics](./view-the-session-dashboard.md) to assess Learner participation and evaluate the session's effectiveness. Learners can revisit the session through a [topic-based recording](./view-recordings-as-a-learner.md) view that splits the recording into navigable topics, each with a title, overview, and notes, so they can jump to any topic or read it instead of watching.|
+
+>[!NOTE]
+>Live Hub is also available on the Adobe Learning Manager mobile app, with some feature limitations. For supported mobile capabilities, see [Live Hub mobile experience](./live-hub-mobile-experience-for-learners.md). To optimize your Live Hub experience, see [Best practices for a Live Hub session](./best-practices-for-a-live-hub-session.md).
