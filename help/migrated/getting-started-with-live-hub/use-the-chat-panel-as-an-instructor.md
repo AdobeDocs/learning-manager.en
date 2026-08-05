@@ -192,6 +192,9 @@ To upload a file:
 
 AI uses the uploaded content to generate more accurate and relevant responses to questions in the **Everyone** tab.
 
+>[!NOTE]
+>If the upload fails or the file is rejected, see [Troubleshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#upload-content-issues) for a list of common error messages and how to resolve them.
+
 ## Delete messages
 
 The delete message option allows you to remove messages from the chat to keep discussions focused and relevant. You can delete your own messages that are not relevant to the topic or are disruptive to the discussion.
