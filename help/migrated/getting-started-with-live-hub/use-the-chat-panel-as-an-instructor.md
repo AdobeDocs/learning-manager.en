@@ -170,6 +170,9 @@ To generate an AI-assisted reply:
 
 The AI-generated reply is added to the chat and can be modified before sending to ensure accuracy and relevance.
 
+>[!NOTE]
+>If the question isn't covered by the uploaded reference content, the AI assistant may indicate an error message instead of generating an answer. See [Troubleshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#answer-generation-toast-issues) for details.
+
 ### Upload files for better responses
 
 You can also upload reference files to improve the accuracy and relevance of AI-generated responses.
