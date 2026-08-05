@@ -194,3 +194,6 @@ To manage a closed poll:
 | **Reset** | Permanently deletes all responses to the poll while keeping the poll itself intact. Use this to run the same poll again and collect a fresh set of responses. |
 | **Duplicate** | Creates a copy of the poll, including its question-and-answer options, so you can reuse or adjust it without building it again from scratch. |
 | **Delete** | Permanently removes the poll and all its responses from the session. This action cannot be undone. |
+
+>[!NOTE]
+>If you encounter an error while duplicating, deleting, or resetting a poll, see [Troubleshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#poll-tab-issues) for a list of common error messages and how to resolve them.
