@@ -161,7 +161,7 @@ To generate an AI-assisted reply:
 
 1.  Select **Draft reply using AI**.
 
-    ![Draft Ai Chat Reply](assets/draft-ai-chat-reply.png)
+    ![Draft AI Chat Reply](assets/draft-ai-chat-reply.png)
     *Select Draft reply using AI to generate a suggested response to a detected question.*
 
 1.  (Optional) Review and edit the suggested response.
