@@ -20,7 +20,7 @@ Instructors can join the room before the scheduled session starts to prepare the
 
 1.  Select the session from the listed ones. The **Session Overview** page opens.
 
-    ![Session Overview Page Instructor](assets/session-overview-page-instructor.png)
+    ![Session Overview Page](assets/session-overview-page.png)
     *The Session Overview page shows the options to enter the Live Hub session.*
 
 1.  Select **Enter classroom** from the Live hub. The Live Hub joining interface opens.
