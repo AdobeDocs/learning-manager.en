@@ -139,7 +139,7 @@ To view summaries:
 
 1.  Navigate to the room that you want to review.
 
-1.  Select **Check room**. A **Check Room** pop-up window appears with the summary of the room.
+1.  Select **Check Room**. A **Check Room** pop-up window appears with the summary of the room.
 
     ![Breakout Room AI Summary](assets/breakout-room-ai-summary.png)
     *Check Room pop-up window displays the summary of the room.*
