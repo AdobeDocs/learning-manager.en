@@ -34,4 +34,4 @@ Available components:
 
 You can reorder content blocks within a topic using either the edit options in the toolbar or the AI.
 
-![](../assets/18_image_block_toolbar_move_ai_prompt_updated.png)
+![The image block toolbar, with options to reorder the block and an AI prompt field](../assets/18_image_block_toolbar_move_ai_prompt_updated.png)

@@ -11,7 +11,7 @@ Add a header and footer to include elements such as your logo.
 1. Select **Themes** from the toolbar, then hover over the applied theme and select **Edit**.
 
 2. Turn on the **Add header** toggle to add a header to your course.
-![](../assets/39_edit_theme_header_footer_toggles_updated.png)
+![ The Add header and Add footer toggles in the Edit theme panel](../assets/39_edit_theme_header_footer_toggles_updated.png)
 
 3. Under **Logo**, select **Add** to upload a logo for the header.
 

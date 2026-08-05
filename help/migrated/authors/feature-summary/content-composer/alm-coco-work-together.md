@@ -42,10 +42,10 @@ Content Composer handles authoring. Adobe Learning Manager handles delivery, enr
 For more information, see [Configure course settings](#settings).
 
 2. **Publish to Adobe Learning Manager:** when authoring is complete, connect Content Composer to your ALM account through the **Export** settings and publish the course. Content Composer sends the course to the ALM Content Library as a SCORM-compliant module.
-![](../assets/49_published_course_custom_branding_header_updated.png)
+![A published course with a custom header, logo, and font theme applied](../assets/49_published_course_custom_branding_header_updated.png)
 
 3. **Configure the module in ALM:** once published, the course appears as a module in the ALM Content Library. An ALM Author configures module metadata - including duration, tags, unique IDs, and expiry settings - and adds the module to an ALM course alongside other learning content.
-![](../assets/50_alm_add_content_composer_module_metadata_updated.png)
+![Module metadata and completion criteria fields](../assets/50_alm_add_content_composer_module_metadata_updated.png)
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ For more information, see [Configure course settings](#settings).
 4.**Publish the ALM course:** An ALM Author assembles the module into an ALM course, adds course images and settings, and publishes it. Only after this step can learners be enrolled.
 
 For more information, see [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author).
-![](../assets/51_alm_content_library_list_view_updated.png)
+![ The Content Library in Adobe Learning Manager, showing published and processing modules](../assets/51_alm_content_library_list_view_updated.png)
 
 For more information, see [Course creation as an author on ALM](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses).
 
