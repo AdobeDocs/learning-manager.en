@@ -42,7 +42,7 @@ Delivering a Live Hub course involves four roles, each responsible for a distinc
 A Live Hub session follows three key stages: **Pre-session**, **During-session**, and **Post-session**. Each stage includes specific tasks for Administrators, Authors, Instructors, and Learners to ensure a
 smooth learning experience.
 
-![Live Hub session workflow diagram showing Pre-session, During-session, and Post-session stages with tasks for Administrators, Authors, Instructors, and Learners](assets/live-hub-session-workflow-diagram.jpg)
+![Live Hub session workflow diagram showing Pre-session, During-session, and Post-session stages with tasks for Administrators, Authors, Instructors, and Learners](assets/live-hub-session-workflow-diagram.png)
 
 |**Stage**|**Key activities**|
 |---|---|
