@@ -20,15 +20,15 @@ The Live Hub layout is organized into panels and toolbars that help Instructors 
 
 The Control bar provides quick access to the following in-session controls and settings.
 
-* **Microphone controls**: Turn your microphone on or off during the session. View [Set-up pre join screen](./setup-pre-join-screen-in-live-hub.md) for more information.
+* **Microphone controls**: Turn your microphone on or off during the session. This is available to both Instructors and Learners. View [Set-up pre join screen](./setup-pre-join-screen-in-live-hub.md) for more information. 
 
-* **Video controls**: Enable or disable your camera.View [Set-up pre join screen](./setup-pre-join-screen-in-live-hub.md) for more information.
+* **Video controls**: Enable or disable your camera.This is available to both Instructors and Learners. View [Set-up pre join screen](./setup-pre-join-screen-in-live-hub.md) for more information.
 
-* **Reactions**: Use emojis and quick responses to interact during the session. View [About the raise hand and send reactions](./about-raise-hand-and-reactions.md) for more information.
+* **Reactions**: Use emojis and quick responses to interact during the session. This is available to both Instructors and Learners. View [About the raise hand and send reactions](./about-raise-hand-and-reactions.md) for more information.
 
-* **Raise hand**: Indicate that you want to ask a question or speak. View [About the raise hand and send reactions](./about-raise-hand-and-reactions.md) for more information.
+* **Raise hand**: Indicate that you want to ask a question or speak. This is available to both Instructors and Learners. View [About the raise hand and send reactions](./about-raise-hand-and-reactions.md) for more information.
 
-* **Share screen**: Present your screen during the session (based on permissions). View [About the screen sharing](./about-the-screen-sharing.md) for more information.
+* **Share screen**: Present your screen during the session (based on permissions). This is available to both Instructors and Learners. View [About the screen sharing](./about-the-screen-sharing.md) for more information.
 
 * **More actions**: Access the following additional tools and settings:
 
@@ -58,6 +58,8 @@ The Attendees panel lists all participants in the session. You can:
 
 * Monitor attendance in real time.
 
+This is available to both Instructors and Learners
+
 View [About the Attendees panel](./about-the-attendees-panel.md) for more information.
 
 ### Chat panel
@@ -68,7 +70,9 @@ The Chat panel enables real-time communication between participants. You can:
 
 * Ask questions or respond to discussions.
 
-* Interact with Instructors and other learners.
+* Interact with the participants.
+
+This is available to both Instructors and Learners
 
 View [About the Chat panel](./about-the-chat-panel.md) for more information.
 
@@ -86,7 +90,7 @@ The Breakout panel allows Instructors divide participants into smaller groups fo
 
 View [About the breakouts](./about-the-breakouts.md) for more information.
 
-### Miro app
+### More apps
 
 Open **More apps** to access integrated tools that extend collaboration during the session. From here, you can launch the **Miro** app to work together on a shared visual board in real time. With the Miro board, you can:
 
