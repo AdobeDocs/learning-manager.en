@@ -587,7 +587,7 @@ To add a content module, perform the steps below:
 
    **Note:** A learner must be available on Microsoft Teams. However, the learner can join Learning Manager as a guest.
 
-   You can also create Live Hub course if the Administrators have enabled Live Hub for an ALM account. For creating the VC session with Live Hub, see [Create a Live Hub session](../../getting-started-with-live-hub/create-a-live-hub-session.md)
+   You can also create Live Hub course if the Administrators have enabled Live Hub for an ALM account. For creating the VC session with Live Hub, view [Create a Live Hub session](../../getting-started-with-live-hub/create-a-live-hub-session.md)
 
    **Classroom Module:** In this mode, learners attend in-person lectures, facilitated by a trained instructor. Enter the title, description, and set the duration of the session. You can also specify the location of the class and the instructors to conduct the session. To save the changes, click **[!UICONTROL Done]**.
 
