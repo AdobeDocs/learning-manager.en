@@ -24,6 +24,9 @@ To create a breakout session:
 
 The Breakouts panel opens. From here, you can configure breakout rooms, assign learners, and manage breakout session settings.
 
+>[!NOTE]
+>If the breakout session doesn't start, see [Troubleshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#breakout-session-issues) for a list of common error messages and how to resolve them.
+
 ## Design a breakout session
 
 Before starting a breakout session, configure rooms, assign learners, and define the activity details using the **Breakouts** panel. Proper configuration helps place learners correctly and understand the objective of each breakout activity.
