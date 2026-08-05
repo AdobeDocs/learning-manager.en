@@ -62,11 +62,11 @@ To add the basic details:
 
 1.  Enter the following details:
 
-| **Fields** | **Action** |
-|----|----|
-| **Bio** | Enter a short description of the Instructor (up to 2,048 characters). |
-| **Website/LinkedIn** | Enter an external profile or reference link. |
-| **Instruction languages** | Search for the languages the Instructor can teach in. The selected languages appear as tags. |
+    | **Fields** | **Action** |
+    |----|----|
+    | **Bio** | Enter a short description of the Instructor (up to 2,048 characters). |
+    | **Website/LinkedIn** | Enter an external profile or reference link. |
+    | **Instruction languages** | Search for the languages the Instructor can teach in. The selected languages appear as tags. |
 
 ### Add Instructor skills in the profile
 
@@ -124,6 +124,8 @@ To configure Instructor utilization:
 ### Manage Instructor availability
 
 Use the **Calendar** tab to add the Instructor's schedule and mark periods when the Instructor is unavailable. The calendar uses color coding to identify **Booked**, **Holidays**, and **Unavailable** dates.
+
+The **Holidays** shown on this calendar are configured from Holiday settings. View [Manage Holidays](./manage-holidays.md) for more information.
 
 To mark unavailable days:
 
