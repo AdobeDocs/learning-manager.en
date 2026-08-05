@@ -1,15 +1,14 @@
 ---
-title: Adobe Learning Manager Content Composer Help
+title: Adobe Learning Manager Content Composer (Beta) Help
 description: From a plain-language prompt to a published course, Adobe Learning Manager Content Composer handles the instructional design so you can focus on what learners need.
 contentowner: saghosh
 ---
 
-# Adobe Learning Manager Content Composer Help
+# Adobe Learning Manager Content Composer (Beta) Help
 
 >[!IMPORTANT]
 >
->Adobe Learning Manager Content Composer will be available as a Beta feature and will be turned on by default. If you do not want access to the feature, or if you face any difficulties accessing it, please reach out to your respective Customer Success Manager.
-
+>Beta features may contain defects and are provided "AS IS" without warranty of any kind. Adobe has the sole discretion whether to make beta features generally available. Adobe has no obligation to maintain, correct, update, change, modify or otherwise support (by way of Adobe Support Services or otherwise) the beta features. Should a beta feature become generally available, it may be subject to additional terms and conditions, including applicable fees. Beta features are subject to change without notice, including discontinuation. Customers are advised to use caution and not to rely in any way on the uninterrupted or error-free functioning or performance of the beta features. Accordingly, any use of the beta features is entirely at the Customer's own risk. Product capabilities and related documentation may change as the feature evolves. This documentation reflects the current beta experience and should not be considered final or complete product documentation.
 
 **From concept to course in minutes**
 
@@ -29,7 +28,7 @@ Content Composer guides authors through training goals, source material, and lea
 
 Ready to build your first course? Open Content Composer and go from a plain-language prompt to a publish-ready course in no time.
 
-[**Open Content Composer**](https://contentcomposer-dev.adobe.io/)
+[**Try Content Composer**](https://contentcomposer-dev.adobe.io/)
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)

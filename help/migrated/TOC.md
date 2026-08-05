@@ -421,7 +421,15 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [General course settings](authors/feature-summary/general-course-settings.md)
          * [Set completion and success criteria](authors/feature-summary/set-completion-success-criteria.md)
          * [Configure quiz settings](authors/feature-summary/configure-quiz-settings.md)
-      * Manage course themes {#themes} 
+      * Manage course themes {#themes}
+         * [Apply a theme](authors/feature-summary/apply-theme.md)
+         * [Change fonts](authors/feature-summary/change-fonts.md)
+         * [Add a header and footer](authors/feature-summary/add-header-footer.md)
+         * [Set light mode or dark mode](authors/feature-summary/set-light-dark-mode.md)
+         * [Advanced theme customization](authors/feature-summary/advanced-theme-customization.md)
+         * [Create a theme](authors/feature-summary/create-theme.md)
+         * [Export a theme](authors/feature-summary/export-theme.md)
+         * [Import a theme](authors/feature-summary/import-theme.md)
    * [Settings](authors/feature-summary/settings.md) 
 * Instructor {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
