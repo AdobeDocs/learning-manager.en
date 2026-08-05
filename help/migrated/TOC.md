@@ -399,6 +399,7 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Ground your course in your own documents](authors/feature-summary/content-composer/ground-course-documents.md)
          * [What Content Composer is not](authors/feature-summary/content-composer/what-content-composer-is-not.md)
       * Create a course {#create-course}
+         * [Write a prompt]
    * [Settings](authors/feature-summary/settings.md) 
 * Instructor {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
