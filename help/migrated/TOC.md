@@ -419,6 +419,9 @@ user-guide-description: Documentation for Adobe Learning Manager
          * {hide-from-toc} [View and add comments]
       * Configure course settings {#settings}
          * [General course settings](authors/feature-summary/general-course-settings.md)
+         * [Set completion and success criteria](authors/feature-summary/set-completion-success-criteria.md)
+         * [Configure quiz settings](authors/feature-summary/configure-quiz-settings.md)
+      * Manage course themes {#themes} 
    * [Settings](authors/feature-summary/settings.md) 
 * Instructor {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
