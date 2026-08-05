@@ -389,8 +389,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Email templates](authors/feature-summary/email-templates-author.md)
    * [How to choose course modules?](authors/how-to-choose-modules.md)
    * [Preview as learner](authors/feature-summary/fluidic-player.md)
-   * Adobe Learning Manager Content Composer {#alm-content-composer}
-      * [Adobe Learning Manager Content Composer Help](authors/feature-summary/content-composer/content-composer-help.md)
+   * Adobe Learning Manager Content Composer (Beta) {#alm-content-composer}
+      * [Adobe Learning Manager Content Composer (Beta) Help](authors/feature-summary/content-composer/content-composer-help.md)
       * Get started {#get-started}
          * [What is Content Composer](authors/feature-summary/content-composer/what-is-content-composer.md)
          * [How Content Composer works](authors/feature-summary/content-composer/how-content-composer-works.md)
@@ -418,18 +418,28 @@ user-guide-description: Documentation for Adobe Learning Manager
          * {hide-from-toc} [Review the shared project]
          * {hide-from-toc} [View and add comments]
       * Configure course settings {#settings}
-         * [General course settings](authors/feature-summary/general-course-settings.md)
-         * [Set completion and success criteria](authors/feature-summary/set-completion-success-criteria.md)
-         * [Configure quiz settings](authors/feature-summary/configure-quiz-settings.md)
+         * [General course settings](authors/feature-summary/content-composer/general-course-settings.md)
+         * [Set completion and success criteria](authors/feature-summary/content-composer/set-completion-success-criteria.md)
+         * [Configure quiz settings](authors/feature-summary/content-composer/configure-quiz-settings.md)
+         * [Connect and publish to Adobe Learning Manager](authors/feature-summary/content-composer/configure-alm-publish-settings.md)
       * Manage course themes {#themes}
-         * [Apply a theme](authors/feature-summary/apply-theme.md)
-         * [Change fonts](authors/feature-summary/change-fonts.md)
-         * [Add a header and footer](authors/feature-summary/add-header-footer.md)
-         * [Set light mode or dark mode](authors/feature-summary/set-light-dark-mode.md)
-         * [Advanced theme customization](authors/feature-summary/advanced-theme-customization.md)
-         * [Create a theme](authors/feature-summary/create-theme.md)
-         * [Export a theme](authors/feature-summary/export-theme.md)
-         * [Import a theme](authors/feature-summary/import-theme.md)
+         * [Apply a theme](authors/feature-summary/content-composer/apply-theme.md)
+         * [Change fonts](authors/feature-summary/content-composer/change-fonts.md)
+         * [Add a header and footer](authors/feature-summary/content-composer/add-header-footer.md)
+         * [Set light mode or dark mode](authors/feature-summary/content-composer/set-light-dark-mode.md)
+         * [Advanced theme customization](authors/feature-summary/content-composer/advanced-theme-customization.md)
+         * [Create a theme](authors/feature-summary/content-composer/create-theme.md)
+         * [Export a theme](authors/feature-summary/content-composer/export-theme.md)
+         * [Import a theme](authors/feature-summary/content-composer/import-theme.md)
+      * Publish to Adobe Learning Manager {#publishalm}
+         * [How Adobe Learning Manager Content Composer and Adobe Learning Manager work together](authors/feature-summary/content-composer/alm-coco-work-together.md)
+         * [Module versioning in ALM](authors/feature-summary/module-version-alm.md)
+         * [Best practices](authors/feature-summary/best-practices-publishing.md)
+         * [Publish to Adobe Learning Manager](authors/feature-summary/publish-to-alm.md)
+      * Reference {#reference}
+         * [Adobe Learning Manager Content Composer beta limitations](authors/feature-summary/content-composer/content-composer-beta-limitations.md)
+         * [Adobe Learning Manager Content Composer FAQ](authors/feature-summary/content-composer/content-composer-faq.md)
+         * [Theme JSON property reference](authors/feature-summary/content-composer/theme-json-reference.md)
    * [Settings](authors/feature-summary/settings.md) 
 * Instructor {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
