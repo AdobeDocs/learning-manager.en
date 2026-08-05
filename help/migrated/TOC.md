@@ -413,10 +413,10 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Write effective prompts in Content Composer](authors/feature-summary/content-composer/write-effective-prompts.md)
       * Share and collaborate {#share}
          * [Share and collaborate on a Content Composer course](authors/feature-summary/content-composer/share-collaborate.md)
-         * {hide-from-toc} [Share a course for review]
-         * {hide-from-toc} [Share a course with learners]
-         * {hide-from-toc} [Review the shared project]
-         * {hide-from-toc} [View and add comments]
+         * {hide-from-toc} [Share a course for review](authors/feature-summary/content-composer/share-course-review.md)
+         * {hide-from-toc} [Share a course with learners](authors/feature-summary/content-composer/share-course-learners.md)
+         * {hide-from-toc} [Review the shared course](authors/feature-summary/content-composer/review-shared-course.md)
+         * {hide-from-toc} [View and add comments to a course](authors/feature-summary/content-composer/view-add-comments-course.md)
       * Configure course settings {#settings}
          * [General course settings](authors/feature-summary/content-composer/general-course-settings.md)
          * [Set completion and success criteria](authors/feature-summary/content-composer/set-completion-success-criteria.md)

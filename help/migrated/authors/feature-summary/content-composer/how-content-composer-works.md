@@ -49,6 +49,6 @@ You review, edit, and refine all content, the quiz, and the visual theme before 
 
 **Try it.** 
 
-Open [**Content Composer**](https://contentcomposer.adobe.io/) and describe the course you want to build.
+Try [**Content Composer**](https://contentcomposer.adobe.io/) and describe the course you want to build.
 
 A conversational assistant runs throughout all four stages. It makes changes on request, suggests alternatives, and explains what it can and cannot do.

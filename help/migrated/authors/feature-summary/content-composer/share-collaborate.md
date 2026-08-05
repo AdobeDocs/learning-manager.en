@@ -16,3 +16,12 @@ Before publishing, you can send your course to reviewers for feedback. Reviewers
 
 Once the course is ready, you can make it available to learners directly or publish it to Adobe Learning Manager for enrollment, tracking, and reporting.
 Throughout the process, comments and mentions help keep everyone aligned. Collaborators can use @mentions to tag teammates, ask questions, and discuss specific parts of the course, ensuring that feedback remains contextual, visible, and actionable.
+
+Adobe Learning Manager Content Composer has two sharing modes, accessed from the **Share** button in the top toolbar.
+
+In Content Composer, select **Share** in the toolbar. The **Share project** panel opens with two tabs:
+
+* **For review**: Send the project by email invite or share a link.
+* **For learners**: Provide them with a link to the project -- no need of LMS connection.
+
+Both these options give you control and flexibility in sharing your courses.
