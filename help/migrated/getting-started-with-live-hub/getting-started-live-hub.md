@@ -1,9 +1,9 @@
 ---
-title: About the Live Hub
+title: Getting started with Live Hub
 description: Learn how Live Hub in Adobe Learning Manager lets you deliver live, instructor-led training sessions directly within the platform.
 ---
 
-# About the Live Hub
+# Getting started with Live Hub
 
 Live Hub in Adobe Learning Manager enables organizations to deliver live, instructor-led training directly within the platform, eliminating the need for external tools for core session delivery.
 
