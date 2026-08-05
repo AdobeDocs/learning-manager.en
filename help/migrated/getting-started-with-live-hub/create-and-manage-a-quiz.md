@@ -106,6 +106,9 @@ When you launch a quiz, it appears in the **Polls & Quizzes** panel for learners
 ![Launch Quiz](assets/launch-quiz.png)
 *Quiz tab interface showing the quiz launched for the participants.*
 
+>[!NOTE]
+>If you encounter an error when creating or launching a quiz, see [Troubleshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#quiz-tab-issues) for a list of common error messages and how to resolve them.
+
 ## View quiz results
 
 View quiz results during and after a session to monitor learner performance and participation. Results are updated in real time as learners attempt and complete the quiz.
