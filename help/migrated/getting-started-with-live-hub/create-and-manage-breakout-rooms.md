@@ -15,7 +15,7 @@ Breakout sessions split a virtual classroom into smaller, interactive groups. Fo
 
 To create a breakout session:
 
-1.  Select **Breakout sessions** from the control bar.
+1.  Select ![breakout-icon](./assets/breakout-icon.svg) from the control bar.
 
     ![Select Breakout Sessions Panel](assets/select-breakout-sessions-panel.png)
     *Live Hub interface showing the Breakout panel.*
@@ -33,7 +33,7 @@ Before starting a breakout session, configure rooms, assign learners, and define
 
 To design a breakout session:
 
-1.  Select **Breakout** from the control bar. The Breakouts panel opens.
+1.  Select ![breakout-icon](./assets/breakout-icon.svg) from the control bar. <br> The Breakouts panel opens.
 
     ![Open Breakouts Panel](assets/open-breakouts-panel.png)
     *Breakouts panel showing the options to configure the breakout rooms.*
@@ -52,7 +52,7 @@ To design a breakout session:
 | **Start breakouts** | Start the breakout session and move learners to their assigned rooms. |
 | Discard icon | Discard the current breakout configuration without saving changes. |
 
-1.  Select **Save**. The breakout session appears in the **Breakouts** panel with a **New** tag.
+1.  Select **Save**. <br> The breakout session appears in the **Breakouts** panel with a **New** tag.
 
 ## Start a breakout session
 
@@ -64,7 +64,7 @@ To start a breakout session:
 
 1.  Navigate to the breakout session with the **New** tag.
 
-1.  Select **Start breakouts**. A notification shows **Starting in 5 seconds**, and learners are then moved to their assigned breakout rooms with the configured setup applied.
+1.  Select **Start breakouts**. <br> A notification shows **Starting in 5 seconds**, and learners are then moved to their assigned breakout rooms with the configured setup applied.
 
     ![Start Breakout Session](assets/start-breakout-session.png)
     *Select Start breakouts to start the breakout session.*
@@ -123,7 +123,7 @@ To delete a breakout session:
 
 1.  Select the more options (**...**) icon on the session.
 
-1.  Select **Delete**. A confirmation pop-up window appears.
+1.  Select **Delete**. <br> A confirmation pop-up window appears.
 
     ![Delete Breakout Confirmation](assets/delete-breakout-confirmation.png)
     *Select Delete from the confirmation pop-up window to delete a breakout session.*
@@ -142,7 +142,7 @@ To view summaries:
 
 1.  Navigate to the room that you want to review.
 
-1.  Select **Check Room**. A **Check Room** pop-up window appears with the summary of the room.
+1.  Select **Check Room**. <br> A **Check Room** pop-up window appears with the summary of the room.
 
     ![Breakout Room AI Summary](assets/breakout-room-ai-summary.png)
     *Check Room pop-up window displays the summary of the room.*
@@ -167,7 +167,7 @@ You can end the breakout session at any time.
 
 1.  Navigate to the **Breakouts** panel.
 
-1.  Select **End breakouts** in the active breakout session. All learners are moved back to the main room, and the breakout session ends for all participants.
+1.  Select **End breakouts** in the active breakout session. <br> All learners are moved back to the main room, and the breakout session ends for all participants.
 
     ![End Breakout Session](assets/end-breakout-session.png)
     *Breakout session 2 showing End breakouts options to end the breakout session.*
@@ -180,7 +180,7 @@ To view a breakout session report:
 
 1.  Navigate to the closed breakout session in the **Breakouts** panel.
 
-1.  Select **View reports**. The Breakouts report pop-up window opens with the rooms report.
+1.  Select **View reports**. <br> The Breakouts report pop-up window opens with the rooms report.
 
     ![Breakout Session Report](assets/breakout-session-report.png)
     *Breakouts reports pop-up window showing the breakout rooms report.*
