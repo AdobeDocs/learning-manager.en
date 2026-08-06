@@ -11,7 +11,7 @@ As a Learner, polls help you participate actively in a Live Hub session. When an
 
 When an Instructor launches a poll during a session, it appears on your screen. To respond to a poll, do one of the following based on the poll type:
 
-1.  **Multiple-choice or multiple-answer poll**: Select the applicable answer option(s).
+1.  **Multiple-choice or Multiple-answer poll**: Select the applicable answer option(s).
 
 1.  **Short-answer poll**: Type your response in the text field.
 

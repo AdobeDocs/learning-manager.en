@@ -15,7 +15,7 @@ Create polls to ask questions and collect responses from Learners during a live 
 
 To create a poll manually:
 
-1.  Select the **Polls & Quizzes** panel from the control bar.
+1.  Select ![polls-quizzes-panel](./assets/poll-quiz-panel.svg) from the control bar.
 
 1.  Select the **Poll** tab and then select **Build your own**.
 
@@ -54,11 +54,11 @@ Create an Icebreaker poll to engage Learners at the beginning of a session. Iceb
 
 To create an Icebreaker poll:
 
-1.  Open the **Polls & Quizzes** panel.
+1. Select ![polls-quizzes-panel](./assets/poll-quiz-panel.svg) from the control bar.
 
-1.  Select the **Poll** tab and then select **Icebreaker poll**.
+1. Select the **Poll** tab and then select **Icebreaker poll**.
 
-1.  Review the generated question and answer options and modify them if needed. You can do the following:
+1. Review the generated question and answer options and modify them if needed. You can do the following:
 
     * Edit the question.
 
@@ -73,11 +73,11 @@ To create an Icebreaker poll:
     ![Create Icebreaker Poll](assets/create-icebreaker-poll.png)
     *Generate and customize an Icebreaker poll with AI in the Poll tab.*
 
-1.  (Optional) Select **Regenerate poll** to generate a new question.
+1. (Optional) Select **Regenerate poll** to generate a new question.
 
-1.  (Optional) Use the thumbs-up or thumbs-down options to provide feedback on the generated content.
+1. (Optional) Use the thumbs-up or thumbs-down options to provide feedback on the generated content.
 
-1.  Select **Save**.
+1. Select **Save**.
 
 ### Create a Knowledge check poll
 
@@ -85,11 +85,11 @@ Create a Knowledge check poll to assess learner comprehension during a session a
 
 To create a Knowledge check poll:
 
-1.  Open the **Polls & Quizzes** panel.
+1. Select ![polls-quizzes-panel](./assets/poll-quiz-panel.svg) from the control bar.
 
-1.  Select the **Poll** tab and then select **Knowledge check**.
+1. Select the **Poll** tab and then select **Knowledge check**.
 
-1.  Review the generated question and answer options and modify them if needed. You can modify the following:
+1. Review the generated question and answer options and modify them if needed. You can modify the following:
 
     * Edit the question.
 
@@ -104,11 +104,11 @@ To create a Knowledge check poll:
     ![Create Knowledge Check Poll](assets/create-knowledge-check-poll.png)
     *Generate and customize a Knowledge check poll with AI in the Poll tab.*
 
-1.  (Optional) Select **Regenerate poll** to replace the current question with a new one.
+1. (Optional) Select **Regenerate poll** to replace the current question with a new one.
 
-1.  (Optional) Use the thumbs-up or thumbs-down options to provide feedback on the generated content.
+1. (Optional) Use the thumbs-up or thumbs-down options to provide feedback on the generated content.
 
-1.  Select **Save**.
+1. Select **Save**.
 
 ## Launch a poll
 
@@ -116,13 +116,13 @@ Once a poll is created and saved, it appears in the **Polls & Quizzes** panel, u
 
 To launch a poll:
 
-1.  Open the **Polls & Quizzes** panel.
+1. Select ![polls-quizzes-panel](./assets/poll-quiz-panel.svg) from the control bar.
 
-1.  Select the **Poll** tab.
+1. Select the **Poll** tab.
 
-1.  Select a saved poll from the list.
+1. Select a saved poll from the list.
 
-1.  Select **Launch poll**.
+1. Select **Launch poll**.
 
 >[!NOTE]
 >
@@ -144,11 +144,11 @@ When you no longer want participants to respond, you can close the poll.
 
 To close a poll:
 
-1.  Open the **Polls & Quizzes** panel.
+1. Select ![polls-quizzes-panel](./assets/poll-quiz-panel.svg) from the control bar.
 
-1.  Navigate to the active poll in the **Poll** tab.
+1. Navigate to the active poll in the **Poll** tab.
 
-1.  Select **End poll**.
+1. Select **End poll**.
 
 ![Close Poll](assets/close-poll.png)
 *Select End poll to stop collecting responses and close the poll.*
@@ -161,11 +161,11 @@ As an Instructor, you can view poll results during a session. These results are 
 
 To view detailed responses:
 
-1.  Open the **Poll** tab.
+1. Open the **Poll** tab.
 
-1.  Select the active or closed poll.
+1. Select the active or closed poll.
 
-1.  Select **View responses**.
+1. Select **View responses**.
 
 A pop-up window opens showing the participant names, their selected answers, and multiple entries for questions that allow multiple responses.
 
@@ -180,14 +180,14 @@ After a poll is closed, you can manage it from the options menu (the three dots)
 
 To manage a closed poll:
 
-1.  Select the **Poll** tab from the **Polls & Quizzes** panel.
+1. From ![polls-quizzes-panel](./assets/poll-quiz-panel.svg), select the **Poll** tab.
 
-1.  Navigate to the closed poll and select the options (**...**) menu.
+1. Navigate to the closed poll and select the options (**...**) menu.
 
     ![Manage Closed Poll](assets/manage-closed-poll.png)
     *Use the options menu to Reset, Duplicate, or Delete a closed poll.*
 
-1.  Select one of the following options:
+1. Select one of the following options:
 
 | **Option** | **Description** |
 |----|----|
