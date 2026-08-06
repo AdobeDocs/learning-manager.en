@@ -30,16 +30,16 @@ To add an Instructor:
 
 1.  Select the **Instructors** tab from **User Groups**.
 
-1.  Select **Add Instructors**. A pop-up window of **Add Instructors** appears.
+1.  Select **Add Instructors**. <br> A pop-up window of **Add Instructors** appears.
 
     ![Add Instructor Popup](assets/add-instructor-popup.png) 
     *Search for a user by name and select them to assign the Instructor role.*
 
 1.  Search for the user by name and select the user from the search results to assign the Instructor role.
 
-1.  Select **Save**. The user is now assigned the Instructor role and appears in the Instructors list.
+1.  Select **Save**. <br> The user is now assigned the Instructor role and appears in the Instructors list.
 
-### Set up an Instructor profile
+## Set up an Instructor profile
 
 An Instructor profile defines the Instructor's teaching information, languages, skills, utilization, and availability. Completing the profile ensures accurate Instructor matching, efficient scheduling, and alignment with course requirements.
 
@@ -47,12 +47,12 @@ To set up an Instructor profile:
 
 1.  Search the Instructor name in the Instructors tab.
 
-1.  Select **Add skills and other details**. An **Edit instructor profile** pop-up window appears.
+1.  Select **Add skills and other details**. <br> An **Edit instructor profile** pop-up window appears.
 
     ![Edit Instructor Profile](assets/edit-instructor-profile.png) 
     *The Edit instructor profile window includes tabs for basic details, skills, utilization, and availability.*
 
-#### Add basic details
+### Add basic details
 
 Basic details appear in the left panel of the dialog box and are always visible, regardless of which tab is open.
 
@@ -68,7 +68,7 @@ To add the basic details:
     | **Website/LinkedIn** | Enter an external profile or reference link. |
     | **Instruction languages** | Search for the languages the Instructor can teach in. The selected languages appear as tags. |
 
-### Add Instructor skills in the profile
+## Add Instructor skills in the profile
 
 Skills define the subject areas and expertise an Instructor can teach. This plays a key role in matching Instructors to relevant courses and ensuring that the right Instructor is assigned based on course requirements.
 
@@ -78,11 +78,11 @@ To add Instructor skills:
 
 1.  Type a skill name in the **Search** field. This populates a list with the skills.
 
-1.  Select skills from the list. The selected skills appear as tags.
+1.  Select skills from the list. <br> The selected skills appear as tags.
 
 1.  Select **Save**.
 
-#### Create a new skill
+### Create a new skill
 
 If the required skill is not available, you can create it directly from the profile.
 
@@ -98,11 +98,11 @@ To add a new skill:
 
     1.  Description
 
-1.  Select **Done**. The new skill has been added and appears as a tag.
+1.  Select **Done**. <br> The new skill has been added and appears as a tag.
 
-1.  Select **Save**. The skills are added to the Instructor profile.
+1.  Select **Save**. <br> The skills are added to the Instructor profile.
 
-### Configure Instructor utilization
+## Configure Instructor utilization
 
 Use the **Utilization** tab to define an Instructor's teaching capacity and preferred working hours. You can set utilization constraints to establish teaching goals and limits and specify preferred work times to indicate when the Instructor is available to conduct sessions. The displayed time zone is inherited from the Instructor's user profile.
 
@@ -121,7 +121,7 @@ To configure Instructor utilization:
 
 1.  Select **Save**. The Instructor's utilization constraints and preferred work times are updated.
 
-### Manage Instructor availability
+## Manage Instructor availability
 
 Use the **Calendar** tab to add the Instructor's schedule and mark periods when the Instructor is unavailable. The calendar uses color coding to identify **Booked**, **Holidays**, and **Unavailable** dates.
 
@@ -136,6 +136,6 @@ To mark unavailable days:
     ![Instructor Non Available Days](assets/instructor-non-available-days.png)
     *Select a start date and end date to mark a range as unavailable on the Instructor's calendar.*
 
-1.  Select **Add**. The selected date range is marked as unavailable on the calendar.
+1.  Select **Add**. <br> The selected date range is marked as unavailable on the calendar.
 
 1.  Select **Save**. The Instructor's availability settings are updated.
