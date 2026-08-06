@@ -80,7 +80,7 @@ Key highlights:
 * Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
 * Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
 
-For more information, see [Getting started with Live hub](./getting-started-with-live-hub/getting-started-live-hub.md)
+View [Getting started with Live hub](./getting-started-with-live-hub/getting-started-live-hub.md) for more information.
 
 ## Component-based email template builder
 
