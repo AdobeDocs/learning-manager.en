@@ -9,6 +9,10 @@ As an Instructor, you have full control over how a session is captured, refined,
 
 Beyond capturing the session, you can edit the recording to remove unnecessary sections, enable closed captions, and transcripts. The following sections walk through each of these actions in detail.
 
+>[!NOTE]
+>
+> When you record a session, only conversations in the main room are included in the recording. Conversations in breakout rooms are not recorded. However, Live Hub transcribes breakout room discussions and uses AI to generate room summaries that you can review during the breakout session and after it ends. View [Breakout rooms](./create-and-manage-breakout-rooms.md) for more information.
+
 ## Record a session
 
 1.  Navigate to the **More actions** menu.
