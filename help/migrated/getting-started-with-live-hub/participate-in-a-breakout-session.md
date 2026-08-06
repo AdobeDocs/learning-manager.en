@@ -5,7 +5,7 @@ description: Learn what to expect as a learner during a Live Hub breakout sessio
 # Participate in a breakout session
 
 During a Live Hub session, your Instructor can split the session into smaller breakout rooms for focused discussion and hands-on activities.
-When a breakout session starts, you are automatically moved to your assigned room, where you can collaborate with your group, follow the activity instructions, and ask for help when you need it. This guide walks through what to expect and what you can do as a learner during a breakout session.
+When a breakout session starts, you are automatically moved to your assigned room, where you can collaborate with your group, follow the activity instructions, and ask for help when you need it. This guide walks through what to expect and what you can do as a Learner during a breakout session.
 
 ## Join your breakout room
 
