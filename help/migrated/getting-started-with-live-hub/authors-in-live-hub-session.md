@@ -48,4 +48,4 @@ View [Create a Live Hub session](./create-a-live-hub-session.md) for more inform
 
 >[!NOTE]
 >
->For answers to common questions about Live Hub, see [Frequently Asked Questions for Live Hub](./frequently-asked-questions-for-live-hub.md#author).
+>View [Frequently Asked Questions for Live Hub](./frequently-asked-questions-for-live-hub.md#author) for answers to common questions about Live Hub.

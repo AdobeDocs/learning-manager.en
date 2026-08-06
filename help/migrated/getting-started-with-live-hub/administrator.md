@@ -23,4 +23,4 @@ As an Administrator, you can set up and run Live Hub training using the capabili
 
 >[!NOTE]
 >
->For answers to common questions about Live Hub, see [Frequently Asked Questions for Live Hub](./frequently-asked-questions-for-live-hub.md#administrator).
+>View [Frequently Asked Questions for Live Hub](./frequently-asked-questions-for-live-hub.md#administrator) for answers to common questions about Live Hub.

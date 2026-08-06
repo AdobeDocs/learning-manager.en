@@ -41,4 +41,4 @@ Once the session ends, open the course page to review the session recording and 
 
 >[!NOTE]
 >
->For answers to common questions about Live Hub, see [Frequently Asked Questions for Live Hub](./frequently-asked-questions-for-live-hub.md#learner).
+>View [Frequently Asked Questions for Live Hub](./frequently-asked-questions-for-live-hub.md#learner) For answers to common questions about Live Hub.
