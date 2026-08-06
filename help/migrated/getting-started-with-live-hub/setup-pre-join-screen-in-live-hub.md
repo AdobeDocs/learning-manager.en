@@ -7,7 +7,7 @@ description: Learn how the Live Hub pre-join screen works, how to allow browser 
 
 A Live Hub session in Adobe Learning Manager is a live, Instructor-led training that Instructors and Learners attend together in a virtual classroom. During a session, participants can talk, chat, respond to polls and quizzes, collaborate on a whiteboard, and join breakout rooms for smaller group discussions.
 
-This article explains how a session works from start to finish and walks through the shared setup that applies to everyone, regardless of role. To learn how to enter a session, see the role-specific articles listed at the end.
+This article explains how a session works from start to finish and walks through the shared setup that applies to everyone, regardless of role.
 
 ## What you will see on the pre-join screen
 
