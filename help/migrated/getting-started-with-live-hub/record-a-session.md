@@ -11,7 +11,7 @@ Beyond capturing the session, you can edit the recording to remove unnecessary s
 
 >[!NOTE]
 >
-> When you record a session, only conversations in the main room are included in the recording. Conversations in breakout rooms are not recorded. However, Live Hub transcribes breakout room discussions and uses AI to generate room summaries that you can review during the breakout session and after it ends. View [Breakout rooms](./create-and-manage-breakout-rooms.md) for more information.
+> When you record a session, only conversations in the main room are included in the recording. Conversations in breakout rooms are not recorded.
 
 ## Record a session
 
