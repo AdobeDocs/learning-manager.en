@@ -48,7 +48,7 @@ Only modules that produce a score are eligible for weightage. Scorable module ty
 
 Non-scorable module types, PDF files, video files, audio files, PowerPoint presentations, Word documents, Excel files, and HTML content, cannot be assigned a weightage percentage and do not contribute to the aggregate score. These modules may still be required for course completion. When the Include modules that don't contribute to final grade option is enabled, they appear in the gradebook without a weightage value.
 
-Learn more about [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md)
+View [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md) for more information.
 
 ## Hierarchical content folders
 
@@ -64,7 +64,7 @@ Key capabilities:
 * Public folder and private folder structure are mutually exclusive
 * Browse folders experience when selecting modules in course authoring
 
-For more information on admin-level functionalities, view [Hierarchical content folders](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder). For more information on author- level functionalities, view [Hierarchical content folders](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder).
+View [Hierarchical content folders](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder) for more information on admin-level functionalities. View [Hierarchical content folders](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder) for more information on author- level functionalities.
 
 If you are migrating your learning content from another platform into Adobe Learning Manager and want to preserve your existing folder organization, you can use CSV files to create a hierarchical folder structure and associate your content files with the appropriate folders. Learn more about migration in [Migrate content folder hierarchy](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
 
@@ -95,7 +95,7 @@ Key features:
 * Configurable completion criteria, success criteria, quiz settings, and SCORM version before publishing.
 * and more.
 
-Learn more about [Adobe Learning Manager Content Composer](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md)
+View [Adobe Learning Manager Content Composer](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md) for more information.
 
 
 ## Component-based email template builder
@@ -111,7 +111,7 @@ Key capabilities:
 * Preview and test-send before publishing
 * Backward compatibility: existing email templates continue to work
 
-Learn more about [Component-based email builder](/help/migrated/administrators/feature-summary/email-builder.md)
+View [Component-based email builder](/help/migrated/administrators/feature-summary/email-builder.md) for more information.
 
 ## External learning support
 
@@ -139,7 +139,7 @@ The AI Assistant for learners now supports four new capabilities in addition to 
 * **Adobe Experience League answers**: the assistant now sources answers to how-to questions from Adobe Learning Manager help documentation
 * **Third-party content queries**: Go1 and LinkedIn Learning catalog content can be queried (metadata only; English only; ingestion takes 1–2 hours after catalog is added)
 
-Learn more about [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
+View [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md) for more information.
 
 ### Learning Path agent
 
@@ -153,25 +153,25 @@ Key capabilities:
 * Maximum of 10 personalized learning paths visible on the learner home page
 * Completed paths can be shared with colleagues
 
-Learn more about [Learning path agent](/help/migrated/learners/feature-summary/learning-path-agent.md).
+View [Learning path agent](/help/migrated/learners/feature-summary/learning-path-agent.md) for more information.
 
 ### Insights Agent
 
 The Insights Agent helps administrators analyze learning data through natural language queries. Ask questions about enrollment trends, completion rates, learner engagement, and skill gaps. The agent generates reports and visualizations in response.
 
-Learn more about [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md)
+View [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md) for more information.
 
 ### Gen AI credits
 
 Adobe Learning Manager integrates AI-powered features managed through a credit-based system linked to Agent Orchestrator licenses. This system requires administrators to activate features, set credit limits, and monitor usage via the Billing page. Linking the Adobe Learning Manager account to an Adobe Admin Console organization with an active Agent Orchestrator license is essential for enabling Gen AI features.
 
-Learn more about [Gen AI credits](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits)
+View [Gen AI credits](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits) for more information.
 
 ## Channels (Beta)
 
 Channels provide a centralized way to organize, publish, and discover video content from web and Confluence pages. Administrators can create and manage channels by connecting supported web pages or Confluence pages, configure channel settings, control visibility, and synchronize content from the source. Learners can browse available channels, subscribe to channels of interest, and watch curated video content from a single location.  
 
-Learn more about [Create Channels](/help/migrated/administrators/feature-summary/create-channels.md)
+View [Create Channels](/help/migrated/administrators/feature-summary/create-channels.md) for more information.
 
 ## Report Builder
 
@@ -179,7 +179,7 @@ Report Builder gives administrators a flexible, self-service reporting tool that
 
 Reports are created once and saved for repeated use. There is no need to rebuild filters, re-apply groupings, or rejoin datasets on every download. Saved reports can be downloaded on demand, shared with other administrators, or set up with a subscription so that recipients receive updated reports automatically at a regular interval.
 
-Learn more about [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
+View [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md) for more information.
 
 ## Custom role changes
 
@@ -204,21 +204,21 @@ Integration administrators can now enable LTI Deep Linking for LTI tool configur
 
 Once enabled, authors see a **Select content** button in the external LMS activity configuration. They can browse approved catalogs, select courses, and confirm the selection — with all fields populated automatically.
 
-For more information, view [LTI deep links](/help/migrated/integration-admin/feature-summary/lti-deep-links.md).
+View [LTI deep links](/help/migrated/integration-admin/feature-summary/lti-deep-links.md) for more information.
 
 ## Classroom Locations
 
 Classroom Locations now support a structured **four-field location format**, including Country, State/Province/Region, City, and Location Name, making it easier to manage and organize training locations across regions. The update includes a one-time migration from the legacy single-field format and adds multilingual support for the **Location Name** and **Location Information** fields, enabling localized classroom details for Learners.
 
-For more information, view [Classroom Locations](/help/migrated/administrators/feature-summary/classroom.md)
+View [Classroom Locations](/help/migrated/administrators/feature-summary/classroom.md) for more information.
 
 ## Reporting changes in the release
 
-Learn more about the [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+View [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) for more information.
 
 ## API changes in the release
 
-Learn more about the [API changes in the August 2026 release of Adobe Learning Manager](/help/migrated/api-changes-august-2026.md).
+View [API changes in the August 2026 release of Adobe Learning Manager](/help/migrated/api-changes-august-2026.md) for more information.
 
 ## Other enhancements in the release
 
@@ -246,7 +246,7 @@ Learn more about the [API changes in the August 2026 release of Adobe Learning M
 
 ## System requirements
 
-View [Adobe Learning Manager system requirements](/help/migrated/system-requirements.md).
+View [Adobe Learning Manager system requirements](/help/migrated/system-requirements.md) for more information.
 
 ## Release notes
 
