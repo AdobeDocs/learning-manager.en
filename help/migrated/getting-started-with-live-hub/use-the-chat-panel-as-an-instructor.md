@@ -17,7 +17,7 @@ Follow these steps to access the Chat panel:
 
 1.  Join the Live Hub session.
 
-1.  Select the Chat panel icon from the control bar. The Chat panel opens with the **Everyone** tab selected by default, allowing you to start or join an ongoing conversation.
+1.  Select ![open-chat-panel](./assets/open-chat.svg) from the control bar. The Chat panel opens with the **Everyone** tab selected by default, allowing you to start or join an ongoing conversation.
 
 1.  Select one of the following as needed:
 
