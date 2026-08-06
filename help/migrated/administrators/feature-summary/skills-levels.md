@@ -64,7 +64,7 @@ To add a skill, follow the steps below:
    
    *View list of skills*
 
-## Add skills in bulk{#addskillsinbulk}
+## Add skills in bulk
 
 Administrators can add multiple skills directly within Adobe Learning Manager using the bulk upload option in the **Add skills** dialog.
 
