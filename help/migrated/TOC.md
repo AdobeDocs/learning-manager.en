@@ -227,7 +227,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Getting started as a Learner](learners/feature-summary/getting-started-learner.md)
    * [Getting started for Managers](managers/feature-summary/getting-started-manager.md)
    * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
-   * [Getting started with Live Hub](./getting-started-with-live-hub/getting-started-live-hub.md)
+   * [Getting started with Live Hub (Beta)](./getting-started-with-live-hub/getting-started-live-hub.md)
 * Administrator {#admin}
    * AI in Learning{#ai-in-learning}
       * [Enable Live Hub](./administrators/feature-summary/enable-live-hub.md)
@@ -293,7 +293,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Plans](administrators/feature-summary/learning-plans.md)
    * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
    * [Job Aids](administrators/feature-summary/job-aids.md)
-   * [Create Channels](administrators/feature-summary/create-channels.md)
+   * [Create Channels (Beta)](administrators/feature-summary/create-channels.md)
    * [Certifications](administrators/feature-summary/certifications.md)
    * [Create and customize a certificate](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
    * [Catalogs](administrators/feature-summary/catalogs.md)
@@ -459,7 +459,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Programs](learners/feature-summary/learning-programs.md)
    * [Certifications](learners/feature-summary/certifications.md)
    * [Job Aids](learners/feature-summary/job-aids.md)
-   * [Discover and engage with Channels](learners/feature-summary/discover-and-engage-with-channels.md)
+   * [Discover and engage with Channels (Beta)](learners/feature-summary/discover-and-engage-with-channels.md)
    * [Multi item cart in ALM](learners/feature-summary/multi-item-cart.md)
    * [Gradebook for Learners](learners/feature-summary/alm-learner-gradebook.md)
    * [Submit external learning](learners/feature-summary/submit-external-learning.md)
