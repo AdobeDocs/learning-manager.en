@@ -1,5 +1,5 @@
 ---
-description: You need access through your Adobe Learning Manager subscription to try out Content Composer, a general idea of what the course should cover, and optionally, source documents to ground the AI in your organisation's specific content.
+description: You need access through your Creative Cloud subscription to try out Content Composer, a general idea of what the course should cover, and optionally, source documents to ground the AI in your organisation's specific content.
 jcr-language: en_us
 title: What you need before you start
 ---
@@ -10,7 +10,9 @@ Before launching Adobe Learning Manager Content Composer, confirm the following:
 
 >[!IMPORTANT]
 >
->You have access to Content Composer through your Adobe Learning Manager subscription. Contact your administrator if you're not sure whether Content Composer is included in your organization's plan.
+>You must sign in with a valid Adobe Creative Cloud account. If you don't already have one, you can create a free account through Adobe Express. For more information, view [Create a free Adobe Express account](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). After creating your Adobe credentials, launch Content Composer and sign in to start creating courses. If your organization already has a Creative Cloud subscription, contact your administrator to provision a Creative Cloud account for you before signing in to Content Composer.
+
+## Optional requirements
 
 * You have a general idea of the subject area you want to cover. You do not need full clarity before you begin.
 
