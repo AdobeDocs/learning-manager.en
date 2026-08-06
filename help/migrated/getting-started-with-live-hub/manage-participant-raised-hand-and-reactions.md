@@ -23,7 +23,7 @@ Learner reactions provide quick, non-verbal feedback during a session and help y
 
 If a learner's question has been addressed or no longer requires attention, you can lower their raised hand.
 
-1.  Select the **Attendees** panel.
+1.  Select ![open-attendees-panel](./assets/open-attendees.svg) from the control bar.
 
 1.  Navigate to the learner with the raised hand.
 
@@ -42,7 +42,7 @@ When you have finished addressing learners' questions, you can lower all raised 
 
 To clear all raised hands at once:
 
-1.  Select the **Attendees** panel from the control bar.
+1.  Select ![open-attendees-panel](./assets/open-attendees.svg) from the control bar.
 
 1.  Select the **More options (⋯)** menu. The list with Attendees panel settings appears.
 
