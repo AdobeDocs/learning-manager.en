@@ -80,7 +80,7 @@ This marks the completion of the breakout activity and enables post-session revi
 
 ![Breakout Room Distribution](assets/breakout-room-distribution.png "Live Hub interface showing the distribution of learners in the breakout rooms.")
 
-## Breakout session capabilities
+## Roles and permissions
 
 The Breakout rooms is available to both Instructors and Learners. The actions and controls available in the panel vary based on the user's role within the Virtual Classroom.
 
