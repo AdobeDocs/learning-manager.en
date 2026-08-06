@@ -100,14 +100,15 @@ Learning Manager supports four types of course modules. If you are responsible f
   <tr>
    <td><img src="assets/virtual-classroom.png"></td>
    <td>
-    <p>In virtual classroom training, learners attend the classes online with a Live relay by an instructor. Learners need to attend classes at a stipulated time. But, they can attend classes from any location.</p>
+    <p>Use a virtual classroom module when you want Learners to attend live, Instructor-led sessions in an online environment. These sessions can be delivered using Live Hub, the built-in AI-powered live virtual training tool in Learning Manager, or via external tools such as Zoom, Microsoft Teams, and others.</p>
     <p> </p>
     <p> </p>
     <p><strong>Advantages</strong></p>
     <ul>
-     <li>You can choose classroom module when the course is not complex</li>
-     <li>When learners and instructors are part of distributed teams across locations. </li>
-     <li>You can save cost on logistics for learners and instructors.</li>
+     <li>Suitable for sessions that require real-time interaction with an Instructor, such as discussions, Q&A, or guided learning</li>
+     <li>Enables training for distributed teams across different locations without requiring physical presence. </li>
+     <li>Reduces logistical costs for both Learners and Instructors.</li>
+     <li>With Live Hub, you can conduct sessions directly within Learning Manager without relying on external tools, ensuring a seamless and integrated learning experience. Its AI capabilities also help you quickly find suitable instructors and time slots.</li>
     </ul></td>
   </tr>
  </tbody>

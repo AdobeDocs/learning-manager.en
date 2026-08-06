@@ -338,3 +338,9 @@ Ensure that the following third-party domains are whitelisted if you are on any 
 ## ALM Security Whitepaper
 
 [ALM Whitepaper](assets/alm-security-whitepaper-2024.pdf)
+
+## Live Hub system requirements
+
+Before joining or hosting a Live Hub session, ensure that your device, browser, network, audio, and video setup meet the minimum system requirements for the best experience.
+
+Live Hub has its own set of supported browsers, operating systems, network requirements, and hardware recommendations. View [Live Hub system requirements](../migrated/getting-started-with-live-hub/system-requirements-for-live-hub.md) for more information.

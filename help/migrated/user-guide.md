@@ -6,7 +6,7 @@ exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
 ---
 # Welcome to the Adobe Learning Manager User Guide
 
-Read on to know what is the latest offering in Adobe Learning Manager (previously Adobe Captivate Prime). Start at the beginning, visit each section individually, or connect with the Community to work your way through a project. 
+Read on to know what is the latest offering in Adobe Learning Manager (previously Adobe Captivate Prime). Start from the beginning, explore each section at your own pace, or connect with the Community as you work through your project.
 
 ## Join the conversation {#jointheconversation}
 
@@ -17,35 +17,36 @@ Visit the [Adobe Learning Manager User Community](https://community.adobe.com/t5
 <table style="table-layout:fixed">
  <tbody>
   <tr>
-   <td>
+   <td style="width:25%; text-align:left; vertical-align:top;">
     <a href="whats-new.md">
-    <img alt="new features" src="assets/prime-new.jpeg">
+    <img alt="new features" src="assets/new-features-summary.png" width="150">
     </a>
-    <div>
+    <div style="margin-top:12px; line-height:1.4;">
     <a href="whats-new.md"><strong>New features summary</strong></a>
     </div>
    </td>
-   <td>
+   <td style="width:25%; text-align:left; vertical-align:top;">
     <a href="system-requirements.md">
-    <img alt="system requirements" src="assets/prime-reqs.jpeg">
+    <img alt="system requirements" src="assets/system-requirements.png" width="150">
     </a>
+    <div style="margin-top:12px; line-height:1.4;">
     <a href="system-requirements.md"><strong>System requirements</strong></a>
-    </p>
+    </div>
    </td>
-   <td>
+   <td style="width:25%; text-align:left; vertical-align:top;">
     <a href="integration-admin/feature-summary/connectors.md">
-    <img alt="connector" src="assets/prime-connector.jpeg">
+    <img alt="connector" src="assets/learning-manager-connectors.png" width="150">
     </a>
-    <div>
+    <div style="margin-top:12px; line-height:1.4;">
     <a href="integration-admin/feature-summary/connectors.md"><strong>Learning Manager Connectors</strong></a>
     </div>
    </td>
-   <td>
-    <a href="accessibility-learning-manager.md">
-    <img alt="accessibility" src="assets/prime-accessibility.jpeg">
+   <td style="width:25%; text-align:left; vertical-align:top;">
+    <a href="getting-started-live-hub.md">
+    <img alt="getting started with live hub" src="assets/getting-started-live-hub.png" width="150">
     </a>
-    <div>
-    <a href="accessibility-learning-manager.md"><strong>Accessibility in Adobe Learning Manager</strong></a>
+    <div style="margin-top:12px; line-height:1.4;">
+    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>Getting started with Live Hub</strong></a>
     </div>
    </td>
   </tr>

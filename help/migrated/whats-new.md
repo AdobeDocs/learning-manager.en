@@ -80,9 +80,7 @@ Key highlights:
 * Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
 * Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
 
->[!NOTE]
->
->Live Hub is currently in Beta and will be available with the upcoming August release of Adobe Learning Manager. The documentation for Live Hub will be available once the feature is released.
+For more information, see [Getting started with Live hub](./getting-started-with-live-hub/getting-started-live-hub.md)
 
 ## Component-based email template builder
 

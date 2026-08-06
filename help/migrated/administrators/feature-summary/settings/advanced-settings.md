@@ -310,6 +310,29 @@ To add a content folder, follow the steps:
 * **[!UICONTROL Delete a folder]**: To delete a folder, select the folder to delete, select the **[!UICONTROL Actions]** menu, and then select **[!UICONTROL Delete Folder]**.
 -->
 
+## Holidays
+
+The **Holidays** setting in Adobe Learning Manager lets you define organization-wide holidays. Holidays appear on the Instructor calendar as non-working days, affecting instructor availability when scheduling Live
+Hub sessions.
+
+### Key points
+
+Holidays are a set of non-working days maintained at the account level, with the following properties:
+
+- Only the Administrator can add, edit, or delete holidays.
+
+- Holidays apply organization-wide and appear on every instructor's calendar as non-working days.
+
+- Because holidays mark instructors as unavailable, Live Hub sessions cannot be scheduled on those dates.
+
+- Each holiday requires a date and a name; a description is optional.
+
+- You can add holidays one at a time or import multiple holidays at once using a CSV file.
+
+- Once added, holidays appear on the **Holidays** page, where you can view, search, and manage them.
+
+View [Manage Holidays](../../../getting-started-with-live-hub/manage-holidays.md) for more information.
+
 ## Classroom Locations
 
 Create and manage a library of physical or virtual classroom locations. These locations can be used by authors and administrators to set up instructor-led training (ILT) events. The feature ensures that classroom details, such as seat limits and location information, are pre-configured and easily accessible.
