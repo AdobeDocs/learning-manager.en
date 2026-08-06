@@ -42,7 +42,7 @@ To create a Live Hub course:
     ![Add Course Name Description](assets/add-course-name-description.png)
     *Enter the course name and brief description before adding modules to the course.*
 
-1.  Select **Content** > **Add Modules** in the **Modules** section. The **Select Module Type** pop-up window appears.
+1.  Select **Content** > **Add Modules** in the **Modules** section. <br> The **Select Module Type** pop-up window appears.
 
 1.  Select **Virtual Classroom** and enter the course details, including title, description, timezone, start and end date, and start and end time.
 
@@ -88,7 +88,7 @@ To create a course instance:
     ![Add New Instance Form](assets/add-new-instance-form.png)
     *Enter an instance name, start date, and completion deadline to create a new course instance.*
 
-1.  Select **Save**. The new instance is added to the **Instances** list.
+1.  Select **Save**. <br> The new instance is added to the **Instances** list.
 
     ![Instances List New Instance](assets/instances-list-new-instance.png)
     *The new instance appears alongside the Default Instance in the Instances list.*
@@ -119,14 +119,14 @@ To add Instructors using Instructor Finder:
 
 1.  Navigate to the **Instructors** section in the **Virtual Classroom** module.
 
-1.  Select **Find Instructors using AI**. The **AI Assistant** panel opens on the right side.
+1.  Select **Find Instructors using AI**. <br> The **AI Assistant** panel opens on the right side.
 
     ![AI Assistant Panel Instructor Recommendations](assets/ai-assistant-panel-instructor-recommendations.png)
     *Use the AI Assistant panel to get instructor and time-slot recommendations based on the session's details.*
 
 1.  Review the list of recommended Instructors. Instructor Finder recommends Instructors based on the course skills and session requirements. Recommendations also consider Instructor availability, utilization, and your organization's holiday calendar. View **Instructor management** for more information.
 
-1.  Navigate to the Instructor that you want to assign, and then select **Add**. The selected instructor is added to the **Instructors** field as a tag.
+1.  Navigate to the Instructor that you want to assign, and then select **Add**. <br> The selected instructor is added to the **Instructors** field as a tag.
 
 ## Enroll learners in the course
 
