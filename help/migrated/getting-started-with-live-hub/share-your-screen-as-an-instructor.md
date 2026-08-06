@@ -17,7 +17,7 @@ You can start screen sharing during a session to present content to all particip
 
 Follow these steps to share your screen:
 
-1.  Select **Share screen** from the control bar. A pop-up window appears.
+1.  Select ![share-screen](./assets/share-screen-icon.svg) from the control bar. A pop-up window appears.
 
 1.  Select one of the following:
 

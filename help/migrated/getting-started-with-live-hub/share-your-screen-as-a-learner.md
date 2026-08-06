@@ -15,7 +15,7 @@ You can share your screen during a session only if an Instructor has enabled scr
 
 To share your screen:
 
-1.  Select **Share screen** from the control bar. A pop-up window appears.
+1.  Select ![share-screen](./assets/share-screen-icon.svg) from the control bar. A pop-up window appears.
 
 1.  Select one of the following:
 
