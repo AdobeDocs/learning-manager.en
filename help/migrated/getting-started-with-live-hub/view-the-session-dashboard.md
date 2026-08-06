@@ -19,9 +19,9 @@ The dashboard consolidates key metrics such as attendance, participation, and in
 
 * **Data-driven improvements**: Use insights from the dashboard to enhance future sessions and learning outcomes.
 
-## Access the session dashboard
+## Access the Session dashboard
 
-Follow these steps to view the session dashboard for a virtual classroom session:
+Follow these steps to view the session dashboard for a Live Hub session:
 
 1.  Log in to Adobe Learning Manager as an Instructor.
 
@@ -53,4 +53,4 @@ The following tabs are available in the session dashboard:
 | **Participant activity** | Provides participant-wise details, including attendance and interaction data, to help track individual involvement. |
 | **Reports** | Allows you to download session analytics and data for offline review. |
 
-See [Components of the Session dashboard](./components-of-the-session-dashboard.md) for more information.
+View [Components of the Session dashboard](./components-of-the-session-dashboard.md) for more information.
