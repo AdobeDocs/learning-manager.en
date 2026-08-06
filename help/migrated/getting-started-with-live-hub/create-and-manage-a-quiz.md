@@ -115,11 +115,11 @@ View quiz results during and after a session to monitor learner performance and 
 
 To view quiz results:
 
-1.  Select the **Quiz** tab from the **Polls & Quizzes** panel.
+1. From ![poll-quiz-panel](./assets/poll-quiz-panel.svg), select the **Quiz** tab.
 
-1.  Navigate to the active or completed quiz.
+1. Navigate to the active or completed quiz.
 
-1.  Select **View results**.
+1. Select **View results**.
 
 ![View Quiz Results](assets/view-quiz-results.png)
 *Quiz tab interface shows the View details option to access and view the quiz results.*
@@ -147,9 +147,9 @@ Use this option to end an active quiz when learners have completed their respons
 
 To close a quiz:
 
-1.  Select **Close quiz**. The quiz stops immediately for all learners.
+1. Select **Close quiz**. The quiz stops immediately for all learners.
 
-1.  The quiz status updates to **Closed**.
+1. The quiz status updates to **Closed**.
 
 ![Close Quiz Status](assets/close-quiz-status.png)
 *Quiz tab interface showing the Closed quiz status.*
@@ -169,14 +169,14 @@ You can manage a saved or closed quiz from its options (**...**) menu in the **P
 
 To manage a quiz:
 
-1.  Select the **Quiz** tab from the **Polls & Quizzes** panel.
+1. From ![poll-quiz-panel](./assets/poll-quiz-panel.svg), select the **Quiz** tab.
 
-1.  Navigate to the quiz and select the options (**...**) menu.
+1. Navigate to the quiz and select the options (**...**) menu.
 
     ![Manage Quiz Options Menu](assets/manage-quiz-options-menu.png)
     *Quiz tab interface showing the option to Reset, Duplicate and Delete a quiz.*
 
-1.  Select one of the following options:
+1. Select one of the following options:
 
 | **Option** | **Description** |
 |----|----|
