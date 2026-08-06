@@ -72,7 +72,7 @@ To add skills in bulk:
 
 1. Select **Skills** from the left pane.
 
-1. Select **Add** > **Add Skills**. A pop-up window of **Add skills** appears.
+1. Select **Add** > **Add Skills**. <br> A pop-up window of **Add skills** appears.
 
 1. Select **Add skills in bulk (Upload CSV)**.
 
