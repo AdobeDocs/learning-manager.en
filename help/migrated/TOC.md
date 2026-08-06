@@ -437,9 +437,9 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Import a theme](authors/feature-summary/content-composer/import-theme.md)
       * Publish to Adobe Learning Manager {#publishalm}
          * [How Adobe Learning Manager Content Composer and Adobe Learning Manager work together](authors/feature-summary/content-composer/alm-coco-work-together.md)
-         * [Module versioning in ALM](authors/feature-summary/module-version-alm.md)
-         * [Best practices](authors/feature-summary/best-practices-publishing.md)
-         * [Publish to Adobe Learning Manager](authors/feature-summary/publish-to-alm.md)
+         * [Module versioning in ALM](authors/feature-summary/content-composer/module-version-alm.md)
+         * [Best practices](authors/feature-summary/content-composer/best-practices-publishing.md)
+         * [Publish to Adobe Learning Manager](authors/feature-summary/content-composer/publish-to-alm.md)
       * Reference {#reference}
          * [Adobe Learning Manager Content Composer beta limitations](authors/feature-summary/content-composer/content-composer-beta-limitations.md)
          * [Adobe Learning Manager Content Composer FAQ](authors/feature-summary/content-composer/content-composer-faq.md)

@@ -39,7 +39,7 @@ title: Set completion and success criteria
 ![](../assets/24_success_criteria_dropdown_launch_minview_quiz_updated.png)
 
 - **Min view %**: marks the learner as passed once they view the specified percentage of content. For example, enter 80 to require learners to view at least 80% of the course.
-![](../assets/25_success_criteria_minview_percent_field_updated.png.png)
+![](../assets/25_success_criteria_minview_percent_field_updated.png)
 
 - **Quiz:** marks the learner as passed or failed based on whether their quiz score meets the passing score threshold. Select a quiz condition:
 

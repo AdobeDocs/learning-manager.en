@@ -35,6 +35,6 @@ Use advanced theme properties for more granular control over individual elements
    - Set the **text alignment**.
 
 5. Preview your changes in the canvas on the right. Use the **Current lesson** and **Test lesson** tabs to check how your changes appear across different lessons.
-![The Test lesson preview in Advanced theme properties](..assets//43_advanced_theme_test_lesson_preview_updated.png)
+![The Test lesson preview in Advanced theme properties](..assets/43_advanced_theme_test_lesson_preview_updated.png)
 
 6. Select **Save as new** or **Save**.
