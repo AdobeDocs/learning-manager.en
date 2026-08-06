@@ -68,7 +68,7 @@ For more information on admin-level functionalities, see [Hierarchical content f
 
 If you are migrating your learning content from another platform into Adobe Learning Manager and want to preserve your existing folder organization, you can use CSV files to create a hierarchical folder structure and associate your content files with the appropriate folders. Learn more about migration in [Migrate content folder hierarchy](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
 
-## Live Hub
+## Live Hub (Beta)
 
 Live Hub is an AI-powered virtual training experience within Adobe Learning Manager that helps organizations deliver engaging and impactful live learning. With intelligent features such as AI-powered polls, breakout room orchestration, persistent learning spaces, and AI-powered assistance, Live Hub supercharges Instructor productivity while reducing the complexity of session delivery.
 
@@ -151,7 +151,7 @@ Adobe Learning Manager integrates AI-powered features managed through a credit-b
 
 For more information, see [Gen AI credits](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits)
 
-## Channels
+## Channels (Beta)
 
 Channels provide a centralized way to organize, publish, and discover video content from web and Confluence pages. Administrators can create and manage channels by connecting supported web pages or Confluence pages, configure channel settings, control visibility, and synchronize content from the source. Learners can browse available channels, subscribe to channels of interest, and watch curated video content from a single location.  
 
