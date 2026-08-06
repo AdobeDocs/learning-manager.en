@@ -192,7 +192,7 @@ For more information, see [LTI deep links](/help/migrated/integration-admin/feat
 
 ## Classroom Locations
 
-Classroom Locations now support a structured **four-field location format**, including Country, State/Province/Region, City, and Location Name, making it easier to manage and organize training locations across regions. The update includes a one-time migration from the legacy single-field format and adds multilingual support for the **Location Name** and **Room Information** fields, enabling localized classroom details for learners.
+Classroom Locations now support a structured **four-field location format**, including Country, State/Province/Region, City, and Location Name, making it easier to manage and organize training locations across regions. The update includes a one-time migration from the legacy single-field format and adds multilingual support for the **Location Name** and **Location Information** fields, enabling localized classroom details for Learners.
 
 For more information, see [Classroom Locations](/help/migrated/administrators/feature-summary/classroom.md)
 
