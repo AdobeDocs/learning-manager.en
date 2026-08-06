@@ -16,8 +16,7 @@ When your Instructor starts a breakout session, you are automatically moved from
 >Conversations in breakout rooms are transcribed and processed using AI to generate summaries. Instructors can review these summaries to track room progress and identify discussion gaps.
 
 ![Learner breakout room view](assets/learner-breakout-room-view.png)
-*Learner view of an active breakout room, showing the room name,
-countdown timer, and session tools*
+*Learner view of an active breakout room, showing the room name,countdown timer, and session tools*
 
 ## View the activity instructions
 
