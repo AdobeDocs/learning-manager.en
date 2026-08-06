@@ -14,12 +14,10 @@ This tab has two sections: **General** and **Scoring**.
 
 ## General section
 
-- **Quiz retries**: Choose the number of attempts a learner gets to complete the quiz.
-  For example, select **3** to allow up to 3 attempts.
+- **Quiz retries**: Choose the number of attempts a learner gets to complete the quiz. For example, select **3** to allow up to 3 attempts.
   ![](../assets/28_quiz_retries_dropdown_options_updated.png)
 
-- **Time limit (minutes)**: Select the toggle to enable a time limit, then enter the duration in minutes.
-  For example, enter **60** to give learners 60 minutes to complete the quiz.
+- **Time limit (minutes)**: Select the toggle to enable a time limit, then enter the duration in minutes. For example, enter **60** to give learners 60 minutes to complete the quiz.
 
 - **Randomize question order**: Select the toggle to show questions in a random order for each learner.
   ![](../assets/29_quiz_randomize_question_order_toggle_updated.png)
