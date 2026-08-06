@@ -25,7 +25,7 @@ The **Poll** feature is available to both Instructors and Learners in a Live Hub
 
 | **Instructors** | **Learners** |
 |----|----|
-| [Create a poll manually](../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-manually) | [Respond to a poll](../getting-started-with-live-hub/respond-to-a-poll.md#respond-to-a-poll) |
+| [Create a poll manually](../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-manually) | [Submit your response](../getting-started-with-live-hub/respond-to-a-poll.md#submit-your-response) |
 | [Create a poll using AI](../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-using-ai) | [Update your response](../getting-started-with-live-hub/respond-to-a-poll.md#update-your-response) |
 | [Launch a poll](../getting-started-with-live-hub/create-and-launch-a-poll.md#launch-a-poll) | |
 | [Share poll results with participants](../getting-started-with-live-hub/create-and-launch-a-poll.md#share-poll-results-with-participants) | |

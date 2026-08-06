@@ -19,7 +19,7 @@ Instructors can share a whiteboard in a Live Hub to visually explain concepts, a
 
 ## Roles and permissions
 
-The whiteboard is available to both Instructors and Learners in a Virtual Classroom session. Available actions vary based on the user role.
+The whiteboard is available to both Instructors and Learners in a Live Hub session. Available actions vary based on the user role.
 
 | **Instructors** | **Learners** |
 |----|----|

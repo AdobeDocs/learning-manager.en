@@ -7,7 +7,7 @@ description: Learn how Learners respond to polls, update their answers, and view
 
 As a Learner, polls help you participate actively in a Live Hub session. When an Instructor launches a poll, it appears in the **Polls & Quizzes** panel, where you can submit your response by selecting one or more options or entering a short text answer, depending on the poll type. You can update your response while the poll remains open. If the Instructor shares the results, you can view the poll outcomes in real time. This article explains how to respond to polls and view shared results during a session.
 
-## Respond to a poll
+## Submit your response
 
 When an Instructor launches a poll during a session, it appears on your screen. To respond to a poll, do one of the following based on the poll type:
 
