@@ -17,7 +17,7 @@ Beyond capturing the session, you can edit the recording to remove unnecessary s
 
 1.  Navigate to the **More actions** menu.
 
-1.  Select **Start recording**. A confirmation pop-up appears, indicating that "**The session is now being recorded**".
+1.  Select **Start recording**. <br> A confirmation pop-up appears, indicating that "**The session is now being recorded**".
 
     ![Start Recording Notification](assets/start-recording-notification.png)
     *Select Record from the More actions menu to begin capturing the session.*
@@ -28,12 +28,12 @@ When a session is being recorded, a recording indicator appears in the top corne
 
 ### Stop recording
 
-1.  Select the recording indicator. A pop-up window opens with recording actions.
+1.  Select the recording indicator. <br> A pop-up window opens with recording actions.
 
     ![Recording In Progress Actions](assets/recording-in-progress-actions.png)
     *While recording, use the Recording in progress options to pause or stop the session.*
 
-1.  Select **Stop recording**. A confirmation message appears that the session is no longer being recorded.
+1.  Select **Stop recording**. <br> A confirmation message appears that the session is no longer being recorded.
 
 ### Pause recording
 
@@ -41,7 +41,7 @@ To pause the recording:
 
 1.  Select the recording indicator.
 
-1.  Select **Pause recording**. A confirmation message will appear, displaying **Recording and transcription paused**.
+1.  Select **Pause recording**. <br> A confirmation message will appear, displaying **Recording and transcription paused**.
 
 ### Resume recording
 
@@ -77,7 +77,7 @@ To play a recording:
 
 1.  Navigate to the **Session Overview** page.
 
-1.  Select **View recording** from the **Live hub** section. The recording opens in playback mode.
+1.  Select **View recording** from the **Live hub** section. <br> The recording opens in playback mode.
 
     ![Recording Playback Mode](assets/recording-playback-mode.png)
     *The recording player is in playback mode, showing the session video and the Transcript panel.*
@@ -107,7 +107,7 @@ To view and navigate topics:
 
 1.  Select a topic to expand it and view its summary, details, and total duration.
 
-1.  Select **Play topic**. The recording starts playing from the selected topic section.
+1.  Select **Play topic**. <br> The recording starts playing from the selected topic section.
 
     ![Recording Topics Panel](assets/recording-topics-panel.png)
     *The Topics panel, where AI-generated topics help you navigate the recording.*
@@ -118,7 +118,7 @@ The transcript provides a time-stamped text version of the session that you can 
 
 To view the transcript:
 
-1.  Select the **Transcript** icon from the panel toggles on the right side of the player. The **Transcript** panel opens and displays the time-stamped transcript.
+1.  Select the **Transcript** icon from the panel toggles on the right side of the player. <br> The **Transcript** panel opens and displays the time-stamped transcript.
 
 1.  (Optional) Use the **Search** box to find specific words or phrases within the transcript.
 
@@ -146,11 +146,11 @@ Editing a recording in Live Hub allows you to refine the content before sharing 
 
 To edit a recording:
 
-1.  Navigate to **Session Overview** > **Live hub** > **View recording** and select **Edit**. The recording opens in edit mode.
+1.  Navigate to **Session Overview** > **Live hub** > **View recording** and select **Edit**. <br> The recording opens in edit mode.
 
 1.  (Optional) To rename the recording, select the **edit (pencil)** icon next to the recording title and enter a new name.
 
-1.  Select **Edit timeline** at the bottom of the recording player. A draggable progress bar appears in the recording timeline.
+1.  Select **Edit timeline** at the bottom of the recording player. <br> A draggable progress bar appears in the recording timeline.
 
 1.  Position the marker on the progress bar to select the segment you want to remove.
 
@@ -163,7 +163,7 @@ To edit a recording:
 
 1.  (Optional) Use **Undo** or **Redo** to reverse or reapply an action or select **Cancel** to discard the current selection.
 
-1.  Select **Save edits**. The changes are applied to your recording.
+1.  Select **Save edits**. <br> The changes are applied to your recording.
 
     ![Recording Save Edits](assets/recording-save-edits.png)
     *Once you cut a selection, Save edits become active so you can apply the change.*
@@ -176,9 +176,9 @@ When you edit the recording timeline, the existing topics no longer match the up
 
 To regenerate topics:
 
-1.  Select the **Topics** icon from the panel toggles on the right of the player. The Topics panel appears.
+1.  Select the **Topics** icon from the panel toggles on the right of the player. <br> The Topics panel appears.
 
-1.  Select **Regenerate**. A **Generating topics** message appears while the topics are being identified. Identifying topics might take some time.
+1.  Select **Regenerate**. <br> A **Generating topics** message appears while the topics are being identified. Identifying topics might take some time.
 
     ![Regenerate Recording Topics](assets/regenerate-recording-topics.png)
     *After editing the timeline, use the prompt to regenerate topics in sync with the recording.*
@@ -189,7 +189,7 @@ If you want to discard all edits and restore the recording to its original state
 
 To revert to the original recording:
 
-1.  Select **Revert to original** icon at the top of the player. A confirmation pop-up appears.
+1.  Select **Revert to original** icon at the top of the player. <br> A **Revert to original** confirmation pop-up appears.
 
     ![Revert Recording Confirmation](assets/revert-recording-confirmation.png)
     *The confirmation pop-up warns that reverting to the original cannot be undone.*
