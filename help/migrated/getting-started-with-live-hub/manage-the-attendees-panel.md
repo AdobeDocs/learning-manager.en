@@ -13,7 +13,7 @@ This article explains how to access the Attendees panel and manage learners duri
 
 ## View the Attendees panel
 
-The **Attendees** panel shows everyone in the session. To open it, select [open-attendees-panel](./assets/open-attendees.svg) from the control bar. The panel lists all learners and updates automatically as participants join or leave.
+The **Attendees** panel shows everyone in the session. To open it, select ![open-attendees-panel](./assets/open-attendees.svg) from the control bar. The panel lists all learners and updates automatically as participants join or leave.
 
 ![Attendees Panel Overview](assets/attendees-panel-overview.png)
 *Live Hub interface showing the Attendees panel.*

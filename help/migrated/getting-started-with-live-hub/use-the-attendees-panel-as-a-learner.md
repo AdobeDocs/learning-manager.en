@@ -11,7 +11,7 @@ As a Learner, the Attendees panel lets you see who else is in a Live Hub session
 
 You can use the Attendees panel to view other attendees in the session and interact with them based on the permissions enabled by the Instructor.
 
-To open the panel, select [open-attendees-panel](./assets/open-attendees.svg) from the control bar. The panel lists everyone in the session, so you can see who is present.
+To open the panel, select ![open-attendees-panel](./assets/open-attendees.svg) from the control bar. The panel lists everyone in the session, so you can see who is present.
 
 ## Interact with other attendees
 
