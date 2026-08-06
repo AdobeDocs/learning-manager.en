@@ -11,6 +11,10 @@ When a breakout session starts, you are automatically moved to your assigned roo
 
 When your Instructor starts a breakout session, you are automatically moved from the main room to your assigned breakout room. You don't need to do anything to join. The top of the screen shows the session name and your room, along with a countdown timer that shows how much time remains in the activity.
 
+>[!NOTE]
+>
+>Conversations in breakout rooms are transcribed and processed using AI to generate summaries. Instructors can review these summaries to track room progress and identify dicsussion gaps.
+
 ![Learner breakout room view](assets/learner-breakout-room-view.png)
 *Learner view of an active breakout room, showing the room name,
 countdown timer, and session tools*
