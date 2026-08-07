@@ -13,7 +13,7 @@ Use advanced theme properties for more granular control over individual elements
 1. Select **Themes**, hover over the applied theme, select **Edit**, then select **Advanced**.
 ![The Advanced button in the Edit theme panel](../assets/41_edit_theme_advanced_button_updated.png)
 
-2. In the Font properties pane, set the **Font pairing** for your course:
+2. In the Font properties panel, set the **Font pairing** for your course:
 
    - Select the **Headings** dropdown and choose a font for all headings.
 
@@ -22,7 +22,21 @@ Use advanced theme properties for more granular control over individual elements
 
 3. Set the list of elements: **Lesson name**, **Topic name**, **Block heading**, **Subheading**, **Caption**, and **Paragraph;** select the element you want to customize.
 
-4. For the selected element, customize its properties as needed:
+4. In the [!UICONTROL Visual properties] panel, you can adjust the layout and spacing across the course.
+
+   - Set the amount of spacing between elements, using the content density options.
+
+   - To set **Card/image corner radius**, drag the slider or enter a value to set the roundness of cards and images. For example, set the radius to 17 px.
+
+   - Select **Lesson** to change the background color or image of a lesson.
+
+   - Select **Topic** to set the background color or border of a topic.
+
+   - Select **Header/Footer** to set the header and properties.
+
+   Content Composer automatically previews your changes in the canvas as you make them.
+
+5. For the selected element, customize its properties as needed:
 
    - Choose a **font style**, such as Capitalize.
 
@@ -34,7 +48,7 @@ Use advanced theme properties for more granular control over individual elements
 
    - Set the **text alignment**.
 
-5. Preview your changes in the canvas on the right. Use the **Current lesson** and **Test lesson** tabs to check how your changes appear across different lessons.
+6. Preview your changes in the canvas on the right. Use the **Current lesson** and **Test lesson** tabs to check how your changes appear across different lessons.
 ![The Test lesson preview in Advanced theme properties](../assets/43_advanced_theme_test_lesson_preview_updated.png)
 
-6. Select **Save as new** or **Save**.
+7. Select **Save as new** or **Save**.
