@@ -138,9 +138,7 @@ During an active breakout session, Instructors can monitor room activity, commun
 
 Instructors can view AI-generated summaries of discussions in each breakout room to monitor participant conversations, assess alignment with the activity, and decide when to join a room. The summaries update automatically throughout the session as discussions unfold.
 
->[!NOTE]
->
->A room needs at least 60 seconds of discussion before a summary can be generated. Rooms with less activity than this will not show a summary in the Check Room window.
+A room needs at least 60 seconds of discussion before a summary can be generated. Rooms with less activity than this will not show a summary in the Check Room window.
 
 To view summaries:
 
