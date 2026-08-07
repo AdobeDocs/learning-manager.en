@@ -7,6 +7,12 @@ description: Common error messages and notifications you may encounter during a 
 
 During a Live Hub session, Instructors may encounter error messages or notifications that prevent certain actions from completing as expected. This article describes common instructor-facing errors, their possible causes, and the steps you can take to resolve them.
 
+## Connection issues
+
+|Error message|Scenario|Suggestions to overcome the error|
+|---|---|---|
+|Something went wrong. Please try again.|A general connectivity or session-related error occurs for example, when joining or interacting with a session and the request fails due to network instability, an expired ALM session, or conflicting browser state (such as multiple tabs open to the same meeting).|<ul><li>Check your network connection and ensure stable bandwidth with no VPN/proxy interference.</li><li>Confirm you're logged into ALM with a valid session — log out and back in if your session may have expired.</li><li>Avoid joining the same meeting from multiple tabs at the same time.</li><li>Try an incognito/private window or clear your browser cache if the issue persists.</li><li>Refresh the page — most transient errors resolve after a reload; if it recurs, contact support.</li></ul>|
+
 ## Quiz tab issues
 
 The messages below can appear when an Instructor creates or launches a quiz, and the quiz doesn't meet the requirements needed to launch it.
@@ -56,6 +62,7 @@ The messages below can appear when an Instructor tries to start breakout session
 |---|---|---|
 |Cannot start breakout — connection is interrupted. Please try again when reconnected.|An Instructor tries to start breakout rooms while their connection is currently interrupted or reconnecting.|Wait for your connection to stabilize (watch for a reconnect indicator), and then start breakout rooms again.|
 |Breakout could not be started. Please try again.|An Instructor starts breakout rooms, and the request to start them fails.|Retry starting breakout rooms. If it persists, close the Breakouts panel and try again.|
+|Summary could not be generated.|This can occur in the following situations: <ul><li>No user was speaking during the session, so there is no audio content to summarize.</li><li>Discussion is less than 60 seconds.</li></ul>|Ensure participants actively speak for at least 60 seconds during the session before generating the summary. If the issue persists, wait a moment and try again.|
 
 ## Answer generation toast issues
 
