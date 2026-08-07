@@ -66,14 +66,13 @@ When the **Get Insights** mode is selected by default, you can immediately start
 After you submit your question, Insights Agent processes your request and returns a response with up to four parts:
 
 1. **Disambiguation (if needed):** If your question contains an ambiguous term, such as "learning activity" or "performance", or "Give me performance data from last 3 months", the assistant displays a list of options and asks you to select one before it proceeds. Select the option that best matches what you're looking for. After the initial question, you cannot type additional instructions. Selecting from the provided options is the only interaction available until you start a new query using the query interface. You can only respond to disambiguation by selecting from the provided options; free-text follow-up is not available in this release.
+    ![](assets/disambiguation.png)
 
-![](assets/disambiguation.png)
 2. **Approach:** The **Approach** section describes the steps the agent took to retrieve your data. It appears as a scrollable panel below the question. Select the expand icon to view the full approach. Reviewing this section helps you confirm that the logic matches your intent, especially for complex queries. For example, if you ask for "all learners enrolled in the last year," the agent may return each learner's most recent enrollment rather than every enrollment record. The **Approach** section explains the decisions the agent made when retrieving your data. If the logic doesn't match your intent, start a new query with more specific terms.
+    ![](assets/approach.png)
 
-![](assets/approach.png)
 3. **Results:** The Insights Agent generates results as text or a table. For data points that are best interpreted in a tabular format, the Insights Agent returns a table. The Insights Agent does not generate charts or graphs. To visualize the data, download the CSV and open it in your preferred tool. A plain-language summary is included with the results. When results contain 50 or fewer rows, the summary includes analytical insights about the data. When results contain more than 50 rows, the summary provides column-level statistics. For example, "Which courses do not have less than 5 enrolments that were created in the last 1 year, and who are the authors?"
-
-![](assets/results.png)
+    ![](assets/results.png)
 
 And the response contains the following summary:
 
@@ -103,8 +102,7 @@ Select **Download report** to export your results as a CSV file. For large resul
 ## Start a new query
 
 Each Insights Agent session handles one question at a time. After you review your results, select **New question** to ask a different question. You can also select **New chat** at any point, including before you have received a response, if you want to abandon the current query and start fresh. You cannot type a follow-up question in the same session or ask the agent to refine or expand on the results it returned.
-
-![](assets/new-question.png)
+    ![](assets/new-question.png)
 
 >[!TIP]
 >
@@ -113,8 +111,7 @@ Each Insights Agent session handles one question at a time. After you review you
 ## Provide feedback
 
 After each response, select the thumbs-up or thumbs-down icon to rate the result. You can also specify whether the output was inaccurate, difficult to understand, or took too long to return. This feedback helps improve the agent over time.
-
-![](assets/feedback.png)
+    ![](assets/feedback.png)
 
 ## Best practices
 
