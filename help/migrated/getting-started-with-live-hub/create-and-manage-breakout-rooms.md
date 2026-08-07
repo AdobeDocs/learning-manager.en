@@ -25,7 +25,7 @@ To create a breakout session:
 The Breakouts panel opens. From here, you can configure breakout rooms, assign learners, and manage breakout session settings.
 
 >[!NOTE]
->If the breakout session doesn't start, see [Troubleshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#breakout-session-issues) for a list of common error messages and how to resolve them.
+>If the breakout session doesn't start, view [Troubleshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#breakout-session-issues) for a list of common error messages and how to resolve them.
 
 ## Design a breakout session
 
@@ -138,6 +138,10 @@ During an active breakout session, Instructors can monitor room activity, commun
 
 Instructors can view AI-generated summaries of discussions in each breakout room to monitor participant conversations, assess alignment with the activity, and decide when to join a room. The summaries update automatically throughout the session as discussions unfold.
 
+>[!NOTE]
+>
+>A room needs at least 60 seconds of discussion before a summary can be generated. Rooms with less activity than this will not show a summary in the Check Room window.
+
 To view summaries:
 
 1.  Navigate to the room that you want to review.
@@ -153,11 +157,11 @@ To view summaries:
 
 After joining a breakout room, Instructors can use the same collaboration tools that are available in the main session to guide and interact with learners. You can:
 
-* Chat with learners to answer questions and facilitate discussions. See [About the Chat panel](./about-the-chat-panel.md) for more information.
+* Chat with learners to answer questions and facilitate discussions. View [About the Chat panel](./about-the-chat-panel.md) for more information.
 
-* Share your screen or presentations to explain concepts or demonstrate tasks. See [About the screen sharing](./about-the-screen-sharing.md) for more information.
+* Share your screen or presentations to explain concepts or demonstrate tasks. View [About the screen sharing](./about-the-screen-sharing.md) for more information.
 
-* Collaborate using the whiteboard for brainstorming, annotations, and interactive activities. See [About the whiteboard](./about-the-whiteboard.md) for more information.
+* Collaborate using the whiteboard for brainstorming, annotations, and interactive activities. View [About the whiteboard](./about-the-whiteboard.md) for more information.
 
 ![Breakout Room Chat Panel](assets/breakout-room-chat-panel.png "Breakout session interface showing the chat panel in the breakout room.")
 
@@ -176,6 +180,10 @@ You can end the breakout session at any time.
 
 After the breakout session ends, you can access the breakout session report to review session activity and participation. The report includes participant details, room-specific summaries of breakout discussions, instructions shared with participants, and an overview of session duration and engagement.
 
+>[!NOTE]
+>
+>Rooms with less than 60 seconds of discussion does not have a summary included in the report.
+
 To view a breakout session report:
 
 1.  Navigate to the closed breakout session in the **Breakouts** panel.
@@ -185,7 +193,7 @@ To view a breakout session report:
     ![Breakout Session Report](assets/breakout-session-report.png)
     *Breakouts reports pop-up window showing the breakout rooms report.*
 
-All breakout session insights are also available in the **Session dashboard**, where you can review summaries, analyze participation, and track session outcomes after the session. See [Components of the Session dashboard](./components-of-the-session-dashboard.md) for more information.
+All breakout session insights are also available in the **Session dashboard**, where you can review summaries, analyze participation, and track session outcomes after the session. View [Components of the Session dashboard](./components-of-the-session-dashboard.md) for more information.
 
 ## Extend a breakout session
 
