@@ -6,7 +6,7 @@ title: Review and edit the quiz
 
 # Review and edit the quiz
 
-    ![](../assets/12_quiz_block_question_view_updated.png)
+![](../assets/12_quiz_block_question_view_updated.png)
 
 A graded quiz appears at the end of the course. Each question is tagged with the topic it tests.
 

@@ -6,7 +6,7 @@ title: Preview the course
 
 # Preview the course
 
-    ![](../assets/19_preview_mode_timeline_block_updated.png)
+![](../assets/19_preview_mode_timeline_block_updated.png)
 
 - Select **Preview** in the top toolbar. The course displays exactly as a learner will see it, with the applied theme, interactive components, and the quiz in answer mode.
 
