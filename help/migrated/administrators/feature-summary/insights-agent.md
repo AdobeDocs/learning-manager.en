@@ -254,4 +254,4 @@ Use these as starting points. Adapt them by replacing the content names, user gr
 
 **Queries submitted in non-Latin scripts are not supported**
 
-Insights Agent supports queries written in English and Latin-alphabet languages such as French and Spanish. Queries submitted using non-Latin scripts, including Japanese, Chinese, Arabic, Korean, Hindi, and Russian, cannot be processed, and the agent will display a message indicating the query could not be completed. If you submit a query in one of these languages, start a new query and rephrase it in English. Support for additional languages may be considered in future releases.
+Insights Agent supports queries written in English and Latin-alphabet languages such as French and Spanish. Queries submitted using non-Latin scripts, including Japanese, Chinese, Arabic, Korean, Hindi, and Russian, cannot be processed, and the agent will display a message indicating the query could not be completed. If you submit a query in one of these languages, start a new query and rephrase it in English.
