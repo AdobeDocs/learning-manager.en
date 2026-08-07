@@ -8,7 +8,7 @@ title: Apply a theme
 
 Course themes control fonts, colors, headers, footers, and component styling across your entire course.
 
-Apply a theme to your course without any customization for a quick, polished, and consistent look.
+Apply a theme to your course without any customization for a quick, polished, and consistent appearance.
 
 1. Select **Themes** from the toolbar. The **Course themes** panel opens showing all available themes.
 ![](../assets/34_course_themes_panel_open_updated.png)
