@@ -25,7 +25,7 @@ To create a breakout session:
 The Breakouts panel opens. From here, you can configure breakout rooms, assign learners, and manage breakout session settings.
 
 >[!NOTE]
->If the breakout session doesn't start, see [Troubleshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#breakout-session-issues) for a list of common error messages and how to resolve them.
+>If the breakout session doesn't start, view [Troubleshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#breakout-session-issues) for a list of common error messages and how to resolve them.
 
 ## Design a breakout session
 
@@ -157,11 +157,11 @@ To view summaries:
 
 After joining a breakout room, Instructors can use the same collaboration tools that are available in the main session to guide and interact with learners. You can:
 
-* Chat with learners to answer questions and facilitate discussions. See [About the Chat panel](./about-the-chat-panel.md) for more information.
+* Chat with learners to answer questions and facilitate discussions. View [About the Chat panel](./about-the-chat-panel.md) for more information.
 
-* Share your screen or presentations to explain concepts or demonstrate tasks. See [About the screen sharing](./about-the-screen-sharing.md) for more information.
+* Share your screen or presentations to explain concepts or demonstrate tasks. View [About the screen sharing](./about-the-screen-sharing.md) for more information.
 
-* Collaborate using the whiteboard for brainstorming, annotations, and interactive activities. See [About the whiteboard](./about-the-whiteboard.md) for more information.
+* Collaborate using the whiteboard for brainstorming, annotations, and interactive activities. View [About the whiteboard](./about-the-whiteboard.md) for more information.
 
 ![Breakout Room Chat Panel](assets/breakout-room-chat-panel.png "Breakout session interface showing the chat panel in the breakout room.")
 
@@ -193,7 +193,7 @@ To view a breakout session report:
     ![Breakout Session Report](assets/breakout-session-report.png)
     *Breakouts reports pop-up window showing the breakout rooms report.*
 
-All breakout session insights are also available in the **Session dashboard**, where you can review summaries, analyze participation, and track session outcomes after the session. See [Components of the Session dashboard](./components-of-the-session-dashboard.md) for more information.
+All breakout session insights are also available in the **Session dashboard**, where you can review summaries, analyze participation, and track session outcomes after the session. View [Components of the Session dashboard](./components-of-the-session-dashboard.md) for more information.
 
 ## Extend a breakout session
 
