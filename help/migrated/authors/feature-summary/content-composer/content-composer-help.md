@@ -38,74 +38,78 @@ Ready to build your first course? Open Content Composer and go from a plain-lang
 
 ## Overview {#overview}
 
-<table style="table-layout:fixed">
+<table style="table-layout:auto; border:none; border-collapse:collapse;">
  <tbody>
   <tr>
-   <td>
+   <td style="border:none;">
     <a href="what-is-content-composer.md">
-    <img alt="Get started with Content Composer" src="../assets/cc-get started.png">
+    <img alt="Get started with Content Composer" src="../assets/cc-get started.png" style="width:200px; height:120px; object-fit:cover;">
     </a>
     <div>
     <a href="what-is-content-composer.md"><strong>Get started with Content Composer</strong></a>
     </div>
     <p>What Content Composer is, who it's for, and what you need before you begin.</p>
    </td>
-   <td>
+   <td style="border:none;">
     <a href="write-a-prompt.md">
-    <img alt="Create a course" src="../assets/cc-create-course.png">
+    <img alt="Create a course" src="../assets/cc-create-course.png" style="width:200px; height:120px; object-fit:cover;">
     </a>
     <div>
     <a href="write-a-prompt.md"><strong>Create a course</strong></a>
     </div>
     <p>Go from a plain-language prompt to a publish-ready course in a single guided workflow.</p>
    </td>
-   <td>
-    <a href="write-effective-prompts.md">
-    <img alt="Write effective prompts" src="../assets/cc-prompts.png">
-    </a>
-    <div>
-    <a href="write-effective-prompts.md"><strong>Write effective prompts</strong></a>
-    </div>
-    <p>Learn how to write prompts that produce better briefs, stronger outlines, and more accurate AI-generated content.</p>
-   </td>
-   <td>
-    <a href="share-collaborate.md">
-    <img alt="Share and collaborate" src="../assets/cc-share.png">
-    </a>
-    <div>
-    <a href="share-collaborate.md"><strong>Share and collaborate</strong></a>
-    </div>
-    <p>Share your course for review with colleagues or give learners direct access to the course.</p>
-   </td>
-  </tr>
-  <tr>
-   <td>
+   <td style="border:none;">
     <a href="general-course-settings.md">
-    <img alt="Configure course settings" src="../assets/cc-course-settings.png">
+    <img alt="Configure course settings" src="../assets/cc-course-settings.png" style="width:200px; height:120px; object-fit:cover;">
     </a>
     <div>
     <a href="general-course-settings.md"><strong>Configure course settings</strong></a>
     </div>
     <p>Set completion criteria, quiz scoring, and your Adobe Learning Manager connection before publishing.</p>
    </td>
-   <td>
-    <a href="content-composer/apply-theme.md">
-    <img alt="Brand your course" src="../assets/cc-branding.png">
+  </tr>
+  <tr>
+   <td style="border:none;">
+    <a href="apply-theme.md">
+    <img alt="Manage course themes" src="../assets/cc-branding.png" style="width:200px; height:120px; object-fit:cover;">
     </a>
     <div>
     <a href="apply-theme.md"><strong>Manage course themes</strong></a>
     </div>
     <p>Apply, customize, create, and import visual themes to control how your course looks and feels.</p>
    </td>
-   <td>
-    <a href="apublish-to-alm.md">
-    <img alt="Publish to Adobe Learning Manager" src="../assets/cc-publish-alm.png">
+   <td style="border:none;">
+    <a href="share-collaborate.md">
+    <img alt="Share and collaborate" src="../assets/cc-share.png" style="width:200px; height:120px; object-fit:cover;">
+    </a>
+    <div>
+    <a href="share-collaborate.md"><strong>Share and collaborate</strong></a>
+    </div>
+    <p>Share your course for review with colleagues or give learners direct access to the course.</p>
+   </td>
+   <td style="border:none;">
+    <a href="publish-to-alm.md">
+    <img alt="Publish to Adobe Learning Manager" src="../assets/cc-publish-alm.png" style="width:200px; height:120px; object-fit:cover;">
     </a>
     <div>
     <a href="publish-to-alm.md"><strong>Publish to Adobe Learning Manager</strong></a>
     </div>
     <p>Deploy your finished course to Adobe Learning Manager and understand how Content Composer and ALM divide authoring, delivery, and reporting responsibilities.</p>
    </td>
+  </tr>
+  <tr>
+   <td style="border:none;">
+    <a href="write-effective-prompts.md">
+    <img alt="Write effective prompts" src="../assets/cc-prompts.png" style="width:200px; height:120px; object-fit:cover;">
+    </a>
+    <div>
+    <a href="write-effective-prompts.md"><strong>Write effective prompts</strong></a>
+    </div>
+    <p>Learn how to write prompts that produce better briefs, stronger outlines, and more accurate AI-generated content.</p>
+   </td>
+   <td style="border:none;"></td>
+   <td style="border:none;"></td>
   </tr>
  </tbody>
 </table>
@@ -114,37 +118,35 @@ Ready to build your first course? Open Content Composer and go from a plain-lang
 
 Quick answers, current constraints, and the full JSON schema. Everything you need to look something up fast.
 
-<table style="table-layout:fixed">
+<table style="table-layout:auto; border-collapse:collapse;" border="1" bordercolor="transparent" cellpadding="0" cellspacing="0">
  <tbody>
   <tr>
-   <td>
+   <td style="border:1px solid transparent;">
     <a href="content-composer-beta-limitations.md">
-    <img alt="Beta limitations" src="../assets/cc-limitations.png">
+    <img alt="Beta limitations" src="../assets/cc-limitations.png" style="width:200px; height:120px; object-fit:cover;">
     </a>
     <div>
     <a href="content-composer-beta-limitations.md"><strong>Beta limitations</strong></a>
     </div>
     <p>A complete list of current constraints, workarounds, and roadmap status. Updated as features ship.</p>
    </td>
-   <td>
+   <td style="border:1px solid transparent;">
     <a href="content-composer-faq.md">
-    <img alt="Content Composer FAQ" src="../assets/cc-faq.png">
+    <img alt="Content Composer FAQ" src="../assets/cc-faq.png" style="width:200px; height:120px; object-fit:cover;">
     </a>
     <div>
     <a href="content-composer-faq.md"><strong>Content Composer FAQ</strong></a>
     </div>
     <p>Quick answers to the most common questions about authoring, settings, sharing, and publishing.</p>
    </td>
-   <td>
+   <td style="border:1px solid transparent;">
     <a href="theme-json-reference.md">
-    <img alt="Theme JSON property reference" src="../assets/cc-theme-ref.png">
+    <img alt="Theme JSON property reference" src="../assets/cc-theme-ref.png" style="width:200px; height:120px; object-fit:cover;">
     </a>
     <div>
     <a href="theme-json-reference.md"><strong>Theme JSON property reference</strong></a>
     </div>
     <p>Every property in the Content Composer theme JSON schema, with descriptions and example values.</p>
-   </td>
-   <td>
    </td>
   </tr>
  </tbody>
