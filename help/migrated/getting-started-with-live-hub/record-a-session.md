@@ -9,6 +9,10 @@ As an Instructor, you have full control over how a session is captured, refined,
 
 Beyond capturing the session, you can edit the recording to remove unnecessary sections, enable closed captions, and transcripts. The following sections walk through each of these actions in detail.
 
+>[!NOTE]
+>
+>When you record a session, only the main session is included in the recording. Recording automatically pauses when participants move into breakout rooms and resumes when everyone returns to the main session. As a result, breakout room activities are not recorded.
+
 ## Record a session
 
 1.  Navigate to the **More actions** menu.
