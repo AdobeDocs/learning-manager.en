@@ -6,10 +6,6 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 ---
 # What's new in the August 2026 release of Adobe Learning Manager
 
->[!IMPORTANT]
->
->The features described in this article are available as part of the beta release. Adobe Learning Manager beta features are provided for evaluation purposes and may be modified, limited, or removed before the general availability release. Feature names, behavior, and configuration options are subject to change without notice.
-
 ## Gradebook
 
 A gradebook in Adobe Learning Manager adds weighted scoring to courses, allowing authors to assign a contribution percentage to each scored module and set a minimum aggregate score for course completion. Learners can track their grades throughout the course, and administrators can view final scores and download relevant transcripts. 

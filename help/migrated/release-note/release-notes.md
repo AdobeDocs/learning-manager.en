@@ -21,10 +21,6 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 +++Update 110: August 2026 release of Adobe Learning Manager
 
->[!IMPORTANT]
->
->The features described in this release notes  are available as part of the beta release. Adobe Learning Manager beta features are provided for evaluation purposes and may be modified, limited, or removed before the general availability release. Feature names, behavior, and configuration options are subject to change without notice.
-
 ## Release highlights
 
 The August 2026 release of Adobe Learning Manager delivers significant advances across personalized learning, AI, reporting, and integrations.

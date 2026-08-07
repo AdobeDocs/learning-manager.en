@@ -50,7 +50,7 @@ This structure gives organizations the flexibility to mirror real-world content 
 
 >[!NOTE]
 >
->Only administrators can create, edit, or delete folders at any level. Authors and custom users interact with the hierarchy but cannot modify it. Also custom administrators with access to any root level folder can creat, edit, or delete folders under that root folder.
+>Only administrators can create, edit, or delete folders at any level. Custom administrators with access to any root level folder can creat, edit, or delete folders under that root folder.
 
 
 ### Folder naming rules
@@ -95,7 +95,7 @@ The following table describes what each role can do with the folder hierarchy.
 | Maximum folder depth                  | 3 levels  |
 
 
-### Folder selection behavior
+<!--### Folder selection behavior
 
 When you select a folder, for example, when filtering or deleting, the selection cascades through the hierarchy as follows:
 
@@ -107,7 +107,7 @@ When you select a folder, for example, when filtering or deleting, the selection
 
 >[!NOTE]
 >
->When you select a subfolder without selecting its parent, the parent folder does not display a partial or mixed selection indicator. This is intentional. Because a parent folder can itself contain content, not just subfolders. Selecting a parent folder means "include all content in this folder and everything beneath it." A partial indicator would suggest the parent folder's own content is partially included, which would be misleading. If you want to filter by a specific subfolder only, select that subfolder directly. If you want all content in a parent folder and its subfolders, select the parent folder.
+>When you select a subfolder without selecting its parent, the parent folder does not display a partial or mixed selection indicator. This is intentional. Because a parent folder can itself contain content, not just subfolders. Selecting a parent folder means "include all content in this folder and everything beneath it." A partial indicator would suggest the parent folder's own content is partially included, which would be misleading. If you want to filter by a specific subfolder only, select that subfolder directly. If you want all content in a parent folder and its subfolders, select the parent folder.-->
 
 ### When to use a hierarchical folder structure
 
@@ -210,7 +210,7 @@ Before deleting, be aware of the following rules:
 
 * You can delete an empty folder at any level.
 * Only empty folders can be deleted. Folders that contain content cannot be deleted, regardless of whether the content is linked to other folders or not.
-* Deleting a parent folder deletes all its subfolders. Selecting a parent folder automatically selects all its children.
+* Deleting a parent folder deletes all its subfolders, provided the folder and all of its subfolders are empty. Selecting a parent folder automatically selects all its children.
 
 #### Delete the parent folder
 
@@ -223,11 +223,6 @@ Before deleting, be aware of the following rules:
 1. On the **Content Folder** page, select the checkbox next to the subfolder you want to delete.
 2. Select **Actions** > **Delete Folder** in the upper-right corner of the page.
 3. Confirm the deletion when prompted. The subfolder is deleted.
-
->[!CAUTION]
->
->Deleting a folder is permanent. Ensure all content inside the folder has been moved to another location before confirming.
-
 
 #### Configure folder access for custom roles
 
@@ -261,9 +256,6 @@ The following practices help you build a folder structure that scales well and r
 3. **Keep names short, descriptive, and unique within their parent.** Avoid generic names like "Module 1" or "Content." Use identifiers that make sense to the authors browsing the library.
 
 4. **Assign custom role access at Level 1 only.** Because access cascades automatically, assigning at Level 1 is sufficient and keeps access management simple. You do not need to update access when you add Level 2 or Level 3 subfolders.
-
-5. **Move content before deleting folders.** If a folder holds content that is not linked anywhere else, deletion is blocked. Build a habit of reviewing folder contents before deleting.
-
 
 <!--
 

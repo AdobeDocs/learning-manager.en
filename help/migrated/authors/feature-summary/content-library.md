@@ -436,22 +436,17 @@ When you upload new content, you choose which folder to store it in during the u
 3. Enter a name and description for the content.
 
 4. Under **Add Content File**, drag and drop the content file, or select the field to browse and upload.
-![](assets/cl2.png)
+   ![](assets/cl2.png)
 
-5. Under **Add to Folder**, either browse the folder or search the folder in search field.
-![](assets/cl3.png)
+5. Under **Add to Folder**, either browse the folder or search the folder in search field. You can also select multiple folders.
+   ![](assets/cl3.png)
 
 6. Select **Add**.
 
 7. Complete the remaining fields, **Duration**, **Tags**, **Content Unique ID**, and **Expiry Date**, as required.
 
 8. Select **Save**. The content file is added to the Content Library and appears at the top of the list.
-![](assets/cl4.png)
-
->[!NOTE]
->
->You cannot copy or move content between the public and private folders. If you attempt to do so, Adobe Learning Manager displays an error.
-
+   ![](assets/cl4.png)
 
 ## View folder paths in the Content Library
 
@@ -480,7 +475,7 @@ The dropdown shows the public folder and a list of private folders. Public and p
 
 3. Use the dropdown search box to find a folder by name.
 
-4. You can select up to **25 folders** at a time. Selecting more than 25 displays an error.
+4. You can select multiple folders at a time.
 
 ## Move content to folder {#movecontenttofolder}
 
