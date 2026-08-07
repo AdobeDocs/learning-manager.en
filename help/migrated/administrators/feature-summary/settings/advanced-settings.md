@@ -94,23 +94,6 @@ The following table describes what each role can do with the folder hierarchy.
 | Level 3 subfolders per Level 2 folder | 25        |
 | Maximum folder depth                  | 3 levels  |
 
-
-<!--
-### Folder selection behavior
-
-When you select a folder, for example, when filtering or deleting, the selection cascades through the hierarchy as follows:
-
-* Selecting a **Level 1 folder** automatically selects all Level 2 and Level 3 folders under it.
-
-* Selecting a **Level 2 folder** automatically selects all Level 3 folders under it. Other Level 2 folders under the same Level 1 folder are not selected.
-
-* Selecting a **Level 3 folder** selects only that folder. No other folders are selected.
-
->[!NOTE]
->
->When you select a subfolder without selecting its parent, the parent folder does not display a partial or mixed selection indicator. This is intentional. Because a parent folder can itself contain content, not just subfolders. Selecting a parent folder means "include all content in this folder and everything beneath it." A partial indicator would suggest the parent folder's own content is partially included, which would be misleading. If you want to filter by a specific subfolder only, select that subfolder directly. If you want all content in a parent folder and its subfolders, select the parent folder.
--->
-
 ### When to use a hierarchical folder structure
 
 Hierarchical content folders are particularly valuable when your organization manages many content files and needs a structured way to navigate, reuse, and control access to them.
