@@ -19,13 +19,13 @@ For per-element typography (lesson names, topic names, block headings, captions)
 ## Create a theme from scratch
 
 1. Select **Create** from the toolbar to open the **Course themes** panel.
-![](../assets/44_course_themes_create_button_updated.png)
+    ![](../assets/44_course_themes_create_button_updated.png)
 
 2. Configure the theme's color palette, fonts, and other properties as needed.
-![](../assets/45_create_theme_panel_name_palette_fonts_updated.png)
+    ![](../assets/45_create_theme_panel_name_palette_fonts_updated.png)
 
 3. Select **Save as new** to add the theme to your **Custom** themes list.
-![](../assets/46_custom_themes_list_new_theme_added_updated.png)
+    ![](../assets/46_custom_themes_list_new_theme_added_updated.png)
 
 ## Create a theme by importing JSON
 

@@ -6,7 +6,7 @@ title: Edit the course outline
 
 # Edit the course outline
 
-![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
+    ![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
 
 Adobe Learning Manager Content Composer generates a lesson and topic structure from your brief and source file. The outline appears on the canvas showing all lessons and their topics.
 

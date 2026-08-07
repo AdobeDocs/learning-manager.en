@@ -11,6 +11,6 @@ Export a theme as a JSON file to customize it outside Content Composer or share 
 1. Select **Themes** from the toolbar to open the **Course themes** panel.
 
 2. Hover over the theme you want to export and select the **Export** icon.
-![](../assets/47_export_theme_save_as_json_dialog_updated.png)
+    ![](../assets/47_export_theme_save_as_json_dialog_updated.png)
 
 3. In the dialog that appears, choose a location, enter a **File name.**

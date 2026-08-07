@@ -10,4 +10,4 @@ title: Set light mode or dark mode
 
 Select [!UICONTROL Account menu] > [!UICONTROL Apply theme] > light or dark mode. Content Composer updates the canvas to reflect the selected mode. 
 
-![](../assets/40_light_mode_canvas_toggle_updated.png)
+    ![](../assets/40_light_mode_canvas_toggle_updated.png)

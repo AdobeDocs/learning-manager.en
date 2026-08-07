@@ -11,7 +11,7 @@ Import a customized JSON file to apply your changes as a new theme in Content Co
 1. Select **Themes** from the toolbar.
 
 2. Select **Import** from the **Course theme** options.
-![](../assets/48_course_themes_import_button_updated.png)
+    ![](../assets/48_course_themes_import_button_updated.png)
 
 3. Choose the customized JSON file from your computer.
 

@@ -10,7 +10,7 @@ The **Brief** stage has three fields: **Title**, **Learners**, and **Objective**
 
 ## Set the course title
 
-![](../assets/2_brief_tab_title_field_updated.png)
+    ![](../assets/2_brief_tab_title_field_updated.png)
 
 The assistant suggests two title options based on your prompt. Select the option you prefer, or type your own in the chat input. The canvas updates immediately.
 
@@ -18,13 +18,13 @@ The assistant suggests two title options based on your prompt. Select the option
 
 The assistant asks who the learners are- their role, experience level, and what they currently struggle with. Type your answer in the chat or select a suggested option.
 
-![](../assets/3_brief_tab_learners_field_updated.png)
+    ![](../assets/3_brief_tab_learners_field_updated.png)
 
 **Tip:** Mention both what learners already know and what they don't. This shapes vocabulary and scenario choices throughout the generated course.
 
 ## Write an objective
 
-![](../assets/4_brief_tab_objective_field_updated.png)
+    ![](../assets/4_brief_tab_objective_field_updated.png)
 
 The assistant asks what learners will be able to do on the job after completing the course. Write the objective as a behavior starting with an action verb.
 

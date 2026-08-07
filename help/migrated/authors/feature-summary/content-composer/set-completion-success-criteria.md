@@ -11,10 +11,10 @@ title: Set completion and success criteria
 **Completion criteria**: Select the dropdown and choose when the course is marked to complete.
 
 - **Launch:** marks the course complete as soon as a learner opens it, regardless of how much they view.
-![](../assets/21_completion_criteria_dropdown_launch_minview_quiz_updated.png)
+  ![](../assets/21_completion_criteria_dropdown_launch_minview_quiz_updated.png)
 
 - **Min view %:** marks the course complete once a learner views the specified percentage of the course content.
-![](../assets/22_completion_criteria_minview_percent_field_updated.png)
+  ![](../assets/22_completion_criteria_minview_percent_field_updated.png)
 
 - **Quiz: marks the course complete based on the learner's quiz activity. Select a quiz condition:**
 
@@ -23,7 +23,7 @@ title: Set completion and success criteria
   - **On pass:** marks complete only when the learner passes the quiz.
 
   - **On pass or limit reached:** marks complete when the learner passes, or reaches the maximum number of attempts allowed, whichever comes first.
-![](../assets/23_completion_criteria_quiz_condition_dropdown_updated.png)
+  ![](../assets/23_completion_criteria_quiz_condition_dropdown_updated.png)
 
 ## Success criteria
 
@@ -36,10 +36,10 @@ title: Set completion and success criteria
 - **Success criteria**: Select the dropdown and choose how the course measures success.
 
 - **Launch:** marks the learner as passed simply by launching the course.
-![](../assets/24_success_criteria_dropdown_launch_minview_quiz_updated.png)
+  ![](../assets/24_success_criteria_dropdown_launch_minview_quiz_updated.png)
 
 - **Min view %**: marks the learner as passed once they view the specified percentage of content. For example, enter 80 to require learners to view at least 80% of the course.
-![](../assets/25_success_criteria_minview_percent_field_updated.png)
+  ![](../assets/25_success_criteria_minview_percent_field_updated.png)
 
 - **Quiz:** marks the learner as passed or failed based on whether their quiz score meets the passing score threshold. Select a quiz condition:
 
@@ -49,7 +49,7 @@ title: Set completion and success criteria
 
   - **On pass or limit reached: marks as successful when the learner passes or reaches the maximum attempts allowed.**
 
-![](../assets/26_success_criteria_quiz_condition_dropdown_updated.png)
+  ![](../assets/26_success_criteria_quiz_condition_dropdown_updated.png)
 
 >[!NOTE]
 >

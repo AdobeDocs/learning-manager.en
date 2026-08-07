@@ -10,7 +10,7 @@ The **Export** tab lets you connect your course to Adobe Learning Manager (ALM) 
 
 This connection is a one-time setup per course. Once established, you don't need to reconnect each time you publish or export.
 
-![](../assets/31_export_tab_alm_connection_publishing_updated.png)
+!  [](../assets/31_export_tab_alm_connection_publishing_updated.png)
 
 It has two sections:
 

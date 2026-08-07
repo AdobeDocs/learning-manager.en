@@ -6,7 +6,7 @@ title: Write a prompt to generate a course
 
 # Write a prompt
 
-![Write a prompt on the Content Composer home screen](../assets/1_coco_home_landing_screen_updated.png)
+    ![Write a prompt on the Content Composer home screen](../assets/1_coco_home_landing_screen_updated.png)
 
 On the Content Composer home screen, type a description of the course you want to create. Write in plain language- one or two sentences naming the subject, audience, and goal.
 

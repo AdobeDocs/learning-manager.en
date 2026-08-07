@@ -6,7 +6,7 @@ title: Edit or add an image
 
 # Edit or add an image
 
-![](../assets/16_hierarchy_of_controls_eliminate_substitute_updated.png)
+  ![](../assets/16_hierarchy_of_controls_eliminate_substitute_updated.png)
 
 Select any image to open the image toolbar. Controls include:
 

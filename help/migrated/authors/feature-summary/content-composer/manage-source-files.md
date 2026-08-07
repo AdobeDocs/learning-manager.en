@@ -11,13 +11,13 @@ title: Manage source files
 ## Generate a course using source material
 
 1. Select **Manage Sources** or **Add files** in the chat panel or toolbar.
-![](../assets/5_brief_manage_sources_prompt_updated.png)
+    ![](../assets/5_brief_manage_sources_prompt_updated.png)
 
 2. Drag a file into the dialog or select **+ Add source files** to browse. You can add multiple source files.
-![](../assets/6_manage_sources_no_files_added_updated.png)
+    ![](../assets/6_manage_sources_no_files_added_updated.png)
 
 3. Select **Restrict output to content in files**. This allows Content Composer to use only source content to generate the course. If this option is unchecked, Content Composer also uses the web to create a course.
-![](../assets/7_manage_sources_file_uploading_restrict_output_updated.png)
+    ![](../assets/7_manage_sources_file_uploading_restrict_output_updated.png)
 
 Supported formats:
 
@@ -58,6 +58,6 @@ Source documents can go out of date after a course has already been generated - 
 
 ### Confirm the file upload
 
-![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
+    ![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
 Once a file is attached, the file icon in the toolbar shows a badge count. The assistant confirms the upload and offers a **Generate outline** shortcut. Select it, or select **Generate Outline** in the top toolbar.

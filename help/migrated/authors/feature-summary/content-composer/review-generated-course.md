@@ -6,7 +6,7 @@ title: Review the generated course
 
 # Review the generated course
 
-![](../assets/11_course_view_generated_topic_content_updated.png)
+    ![](../assets/11_course_view_generated_topic_content_updated.png)
 
 Adobe Learning Manager Content Composer generates the full course with text, images, knowledge checks, and a quiz, in a single pass. The **Course** editor opens automatically when generation is complete.
 

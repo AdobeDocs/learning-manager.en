@@ -9,7 +9,7 @@ title: General course settings
 1. Open your course.
 
 2. Select **Settings** to open **Course settings**.
-![](../assets/20_course_settings_general_tab_scorm12_updated.png)
+    ![](../assets/20_course_settings_general_tab_scorm12_updated.png)
 
 3. Select **General** to configure **completion** and **success** criteria:
 
