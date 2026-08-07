@@ -17,11 +17,11 @@ Join the Live Hub room ahead of the scheduled start time using the session URL t
 
 From the room, you can:
 
-* Configure learner permissions, such as enabling screen sharing and whiteboard access. View [Manage room settings as an Instructor](./manage-settings.md)
+* Configure learner permissions, such as enabling screen sharing and whiteboard access. View [Manage room settings as an Instructor](./manage-settings.md) for more information.
 
-* Create polls in advance using AI-generated icebreakers or your own questions. View [Create and launch a poll](./create-and-launch-a-poll.md#create-a-poll-using-ai)
+* Create polls in advance using AI-generated icebreakers or your own questions. View [Create and launch a poll](./create-and-launch-a-poll.md#create-a-poll-using-ai) for more information.
 
-* Build quizzes (multiple choice or multiple answer) for engagement and assessment. View [Create and manage a quiz](./create-and-manage-a-quiz.md#create-a-quiz)
+* Build quizzes (multiple choice or multiple answer) for engagement and assessment. View [Create and manage a quiz](./create-and-manage-a-quiz.md#create-a-quiz) for more information.
 
 * Set up Miro to enable real-time collaboration and brainstorming. View [Share a whiteboard](./share-a-whiteboard.md#share-miro-and-other-external-whiteboards) for more information.
 
@@ -35,17 +35,17 @@ During the session, focus on delivering content effectively while maintaining le
 
 * Start and manage the live session.
 
-* Record the session to make it available for playback and review later. View [Record a session](./record-a-session.md)for more information.
+* Record the session to make it available for playback and review later. View [Record a session](./record-a-session.md) for more information.
 
 * Present content using available engagement tools such as Share, Chat, Q&A, and more.
 
-* Share your screen, annotate to highlight information, and export snapshots.
+* Share your screen, annotate to highlight information, and export snapshots. View [Share your screen](./share-your-screen-as-an-instructor.md) for more information.
 
-* Launch prepared polls and quizzes, and choose whether to show results to Learners.
+* Launch prepared polls and quizzes, and choose whether to show results to Learners. View [Create and manage a quiz](./create-and-manage-a-quiz.md) for more information.
 
 * Enable learner interactions through chat, polls, and discussions.
 
-* Monitor participant engagement using the engagement indicator (High, Medium, or Low) and track attendance. View[Track the participant engagement](./track-the-participant-engagement.md) for more information.
+* Monitor participant engagement using the engagement indicator (High, Medium, or Low) and track attendance. View  [Track the participant engagement](./track-the-participant-engagement.md) for more information.
 
 * Manage audio and video permissions.
 
@@ -53,7 +53,7 @@ During the session, focus on delivering content effectively while maintaining le
 
 Ensure smooth communication and collaboration throughout the session. You can:
 
-* Respond to questions using the Chat panel and Q&A, including AI-assisted replies in the Questions tab. View [use the chat panel as an Instructor](./use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) for more information.
+* Respond to questions using the Chat panel and Q&A, including AI-assisted replies in the Questions tab. View [Use the chat panel as an Instructor](./use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) for more information.
 
 * Interact with all participants in the Everyone tab, or hold direct conversations in the Private tab.
 
@@ -63,7 +63,7 @@ Ensure smooth communication and collaboration throughout the session. You can:
 
 * Facilitate discussions and group activities, including launching breakout rooms and joining a room when a learner asks for help.
 
-* Handle disruptions or technical issues during the session. View [Troublehshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#connection-issues)
+* Handle disruptions or technical issues during the session. View [Troublehshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#connection-issues) for more information.
 
 ### Conclude the session
 
