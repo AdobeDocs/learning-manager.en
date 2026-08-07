@@ -17,19 +17,17 @@ Join the Live Hub room ahead of the scheduled start time using the session URL t
 
 From the room, you can:
 
-* Configure learner permissions, such as enabling screen sharing and whiteboard access.
+* Configure learner permissions, such as enabling screen sharing and whiteboard access. View [Manage room settings as an Instructor](./manage-settings.md)
 
-* Turn on closed captions for accessibility.
+* Create polls in advance using AI-generated icebreakers or your own questions. View [Create and launch a poll](./create-and-launch-a-poll.md#create-a-poll-using-ai)
 
-* Create polls in advance using AI-generated icebreakers or your own questions.
+* Build quizzes (multiple choice or multiple answer) for engagement and assessment. View [Create and manage a quiz](./create-and-manage-a-quiz.md#create-a-quiz)
 
-* Build quizzes (multiple choice or multiple answer) for engagement and assessment.
+* Set up Miro to enable real-time collaboration and brainstorming. View [Share a whiteboard](./share-a-whiteboard.md#share-miro-and-other-external-whiteboards) for more information.
 
-* Set up Miro to enable real-time collaboration and brainstorming.
+* Design breakout rooms, assign Learners, and add instructions for each room. View [Create and manage breakout rooms](./create-and-manage-breakout-rooms.md#design-a-breakout-session) for more information.
 
-* Design breakout rooms, assign Learners, and add instructions for each room.
-
-* Upload reference materials so AI can generate accurate, context-aware answers to learner questions during the session.
+* Upload reference materials so AI can generate accurate, context-aware answers to learner questions during the session. View [Use the chat panel as an Instructor](./use-the-chat-panel-as-an-instructor.md#upload-files-for-better-responses) for more information.
 
 ### Manage the session
 
@@ -37,7 +35,7 @@ During the session, focus on delivering content effectively while maintaining le
 
 * Start and manage the live session.
 
-* Record the session to make it available for playback and review later.
+* Record the session to make it available for playback and review later. View [Record a session](./record-a-session.md)for more information.
 
 * Present content using available engagement tools such as Share, Chat, Q&A, and more.
 
@@ -47,7 +45,7 @@ During the session, focus on delivering content effectively while maintaining le
 
 * Enable learner interactions through chat, polls, and discussions.
 
-* Monitor participant engagement using the engagement indicator (High, Medium, or Low) and track attendance.
+* Monitor participant engagement using the engagement indicator (High, Medium, or Low) and track attendance. View[Track the participant engagement](./track-the-participant-engagement.md) for more information.
 
 * Manage audio and video permissions.
 
@@ -55,27 +53,25 @@ During the session, focus on delivering content effectively while maintaining le
 
 Ensure smooth communication and collaboration throughout the session. You can:
 
-* Respond to questions using the Chat panel and Q&A, including AI-assisted replies in the Questions tab.
+* Respond to questions using the Chat panel and Q&A, including AI-assisted replies in the Questions tab. View [use the chat panel as an Instructor](./use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) for more information.
 
 * Interact with all participants in the Everyone tab, or hold direct conversations in the Private tab.
 
 * Enable or restrict learner permissions as needed.
 
-* Manage Learners from the Attendees panel view who are present or absent, monitor raised hands and reactions, send private messages, mute microphones, and lower raised hands.
+* Manage Learners from the Attendees panel view who are present or absent, monitor raised hands and reactions, send private messages, mute microphones, and lower raised hands. View [Manage the Attendees panel](./manage-the-attendees-panel.md) for more information.
 
 * Facilitate discussions and group activities, including launching breakout rooms and joining a room when a learner asks for help.
 
-* Handle disruptions or technical issues during the session.
+* Handle disruptions or technical issues during the session. View [Troublehshooting guide for Live Hub](../kb/troubleshooting-guide-for-live-hub.md#connection-issues)
 
 ### Conclude the session
 
 End the session for all participants when the training is complete. After the session, review the outcomes from the session overview page:
 
-* Access the session recording and transcript and edit the recording if needed.
+* Access the session recording and transcript and edit the recording if needed. View [Record a session](./record-a-session.md#view-topics-in-recording) for more information.
 
-* Review session analytics, including the session summary; interactions such as polls, quizzes, breakouts, Q&A, and reactions; participant activity; and downloadable reports.
-
-View [Session dashboard](./view-the-session-dashboard.md) for more information.
+* Review session analytics, including the session summary; interactions such as polls, quizzes, breakouts, Q&A, and reactions; participant activity; and downloadable reports. View [Session dashboard](./view-the-session-dashboard.md) for more information.
 
 >[!NOTE]
 >

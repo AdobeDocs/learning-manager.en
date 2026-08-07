@@ -58,7 +58,7 @@ The Attendees panel lists all participants in the session. You can:
 
 * Monitor attendance in real time.
 
-This is available to both Instructors and Learners
+This is available to both Instructors and Learners.
 
 View [About the Attendees panel](./about-the-attendees-panel.md) for more information.
 
@@ -72,7 +72,7 @@ The Chat panel enables real-time communication between participants. You can:
 
 * Interact with the participants.
 
-This is available to both Instructors and Learners
+This is available to both Instructors and Learners.
 
 View [About the Chat panel](./about-the-chat-panel.md) for more information.
 
@@ -87,6 +87,8 @@ The Breakout panel allows Instructors divide participants into smaller groups fo
 * Move between rooms to monitor and support each group.
 
 * Bring all participants back to the main session when the activity ends.
+
+This is available to both Instructors and Learners.
 
 View [About the breakouts](./about-the-breakouts.md) for more information.
 

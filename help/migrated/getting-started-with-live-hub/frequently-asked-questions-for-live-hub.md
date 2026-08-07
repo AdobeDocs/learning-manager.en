@@ -717,6 +717,20 @@ Yes. You can share your screen if an instructor enables the Share screen permiss
 
 +++
 
+### Breakout rooms
+
++++Can I view a summary of my breakout room discussion?
+
+Yes. After a breakout session ends, you can view an AI-generated report for the room you were in. The report includes the detected activity type and a written summary of the key points your group discussed. Select the Breakouts (grid) icon at the bottom-right of the screen, select the breakout session, and then select Summary.
+
++++
+
++++Can I view reports from other breakout rooms or rooms I was previously in?
+
+No. You can only view the report for the room you were in most recently. If your Instructor moves you to a different room during the same breakout session, only the summary for your most recent room is shown, and reports from other participants' rooms are never visible to you.
+
++++
+
 ### After the session
 
 +++Can I access the recording after the session?

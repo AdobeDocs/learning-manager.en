@@ -92,6 +92,6 @@ The Breakout rooms is available to both Instructors and Learners. The actions an
 | [Manage breakout sessions](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#manage-breakout-sessions) | [Receive messages from your Instructor](../getting-started-with-live-hub/participate-in-a-breakout-session.md#receive-messages-from-your-instructor) |
 | [Manage activities in an active breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#manage-activities-in-an-active-breakout-session) | [Ask for help](../getting-started-with-live-hub/participate-in-a-breakout-session.md#ask-for-help) |
 | [Use collaboration tools in breakout rooms](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#use-collaboration-tools-in-breakout-rooms) |[Return to the main room](../getting-started-with-live-hub/participate-in-a-breakout-session.md#return-to-the-main-room) |
-| [End a breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#end-a-breakout-session) | |
+| [End a breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#end-a-breakout-session) | [View your room summary](../getting-started-with-live-hub/participate-in-a-breakout-session.md#view-your-room-summary) |
 | [View a breakout session report](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#view-a-breakout-session-report) | |
 | [Extend a breakout session](../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#extend-a-breakout-session) | |

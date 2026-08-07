@@ -23,17 +23,17 @@ View [Join the session](./join-live-hub-session-as-a-learner.md) for more inform
 
 During the session, you collaborate with the Instructor and other learners using the session tools. You can:
 
-* Chat with everyone in the Everyone tab, or message the Instructor and other learners in the Private tab.
+* Chat with everyone in the Everyone tab, or message the Instructor and other learners in the Private tab. View [Use the chat panel as a Learner](./use-the-chat-panel-as-a-learner.md)
 
 * Ask questions for the Instructor to respond to.
 
-* Raise your hand and send reactions.
+* Raise your hand and send reactions. View [Raise hand and send reactions](./raise-hand-and-send-reactions.md) for more information.
 
-* Respond to polls and quizzes launched by the Instructor.
+* Respond to [polls](./respond-to-a-poll.md) and [quizzes](./attempt-a-quiz.md) launched by the Instructor.
 
-* Join breakout rooms for group activities and select **Ask for Help** when you need the Instructor.
+* If the instructor has enabled screen sharing and whiteboard access, you can [share your screen](./share-your-screen-as-a-learner.md) and collaborate on the [whiteboard](./use-whiteboard-as-a-learner.md) with other participants.
 
-* Share and annotate your screen when the Instructor lets participants present.
+* Join breakout rooms for group activities and select **Ask for Help** when you need the Instructor. You can also view an AI-generated report summarizing your room's discussion. View [Participate in a breakout session](./participate-in-a-breakout-session.md) for more information.
 
 ## After the session
 
