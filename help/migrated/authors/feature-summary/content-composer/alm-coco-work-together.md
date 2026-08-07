@@ -54,7 +54,7 @@ For more information, see [Configure course settings](#settings).
 4.**Publish the ALM course:** An ALM Author assembles the module into an ALM course, adds course images and settings, and publishes it. Only after this step can learners be enrolled.
 
 For more information, see [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author).
-![ The Content Library in Adobe Learning Manager, showing published and processing modules](../assets/51_alm_content_library_list_view_updated.png)
+    ![ The Content Library in Adobe Learning Manager, showing published and processing modules](../assets/51_alm_content_library_list_view_updated.png)
 
 For more information, see [Course creation as an author on ALM](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses).
 
