@@ -1,11 +1,13 @@
 ---
 title: Participate in a breakout room as a learner
-description: Learn what to expect as a learner during a Live Hub breakout session, including joining your room, viewing instructions, collaborating with your group, and asking your Instructor for help.
+description: Learn what to expect as a learner during a Live Hub breakout session, including joining your room, viewing instructions, collaborating with your group, asking your Instructor for help, and viewing your room report.
 ---
+
 # Participate in a breakout session
 
 During a Live Hub session, your Instructor can split the session into smaller breakout rooms for focused discussion and hands-on activities.
-When a breakout session starts, you are automatically moved to your assigned room, where you can collaborate with your group, follow the activity instructions, and ask for help when you need it. This guide walks through what to expect and what you can do as a Learner during a breakout session.
+
+When a breakout session starts, you are automatically moved to your assigned room, where you can collaborate with your group, follow the activity instructions, and ask for help when you need it. After the session ends, you can also view an AI-generated report summarizing your room's discussion. This guide walks through what to expect and what you can do as a Learner during a breakout session.
 
 ## Join your breakout room
 
@@ -73,3 +75,22 @@ After you send a request, the button changes to **Cancel call for help**. If you
 ## Return to the main room
 
 The breakout session runs for the duration shown on the timer, and your Instructor may extend it if needed. When the session ends, either when the timer runs out or when the Instructor ends it early, you are moved back to the main room automatically to continue the session with everyone.
+
+## View your room report
+
+After a breakout session ends, you can view an AI-generated summary of the conversation that took place in your room. The report includes a summary of the key points your group discussed.
+
+>[!NOTE]
+>
+>You can only view the report for the room you were in. Reports from other breakout rooms are not visible to you.
+
+If your Instructor moves you to a different room during the same breakout session, for example, from Room A to Room B, only the summary for your most recent room is shown. Summaries from rooms you were previously in are not retained.
+
+To view your room report:
+
+1. Select ![breakout icon](assets/breakout-icon.svg "Breakout") from the control bar.
+1. Select the breakout session, and then select **Summary**. The AI-generated report for your room appears.
+
+   ![Room summary report](assets/room-summary-learner.png)
+
+   *Select Summary to view your room report.*
