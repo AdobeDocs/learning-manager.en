@@ -66,7 +66,7 @@ The mobile fluidic player has the following functions:
 
 **Support for 11 languages**: The fluidic player supports 11 languages. They are:
 
-| Language | Territory | IBM Identifier |
+| Language | Territory | Identifier |
 |---|---|---|
 | Arabic | Saudi Arabia | ar-SA |
 | Chinese-traditional | Hong Kong S.A.R. of China | zh-Hant-HK |
