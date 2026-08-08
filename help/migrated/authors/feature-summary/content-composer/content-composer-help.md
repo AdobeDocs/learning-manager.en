@@ -98,20 +98,7 @@ Ready to build your first course? Open Content Composer and go from a plain-lang
     <p>Deploy your finished course to Adobe Learning Manager and understand how Content Composer and ALM divide authoring, delivery, and reporting responsibilities.</p>
    </td>
   </tr>
-  <tr>
-   <td style="border:none;">
-    <a href="write-effective-prompts.md">
-    <img alt="Write effective prompts" src="../assets/cc-prompts.png" style="width:200px; height:120px; object-fit:cover;">
-    </a>
-    <div>
-    <a href="write-effective-prompts.md"><strong>Write effective prompts</strong></a>
-    </div>
-    <p>Learn how to write prompts that produce better briefs, stronger outlines, and more accurate AI-generated content.</p>
-   </td>
-   <td style="border:none;"></td>
-   <td style="border:none;"></td>
-  </tr>
- </tbody>
+  </tbody>
 </table>
 
 ## Look things up {#lookthingsup}
