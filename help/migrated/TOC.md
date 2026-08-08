@@ -1,6 +1,6 @@
 ---
 user-guide-title: Adobe Learning Manager Guide
-breadcrumb-title: Adobe Learning Manager
+breadcrumb-title: Learning Manager
 user-guide-description: Documentation for Adobe Learning Manager
 ---
 
