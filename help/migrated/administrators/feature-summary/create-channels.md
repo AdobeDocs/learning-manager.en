@@ -1,9 +1,9 @@
 ---
-title: Create Channels
+title: Create Channels (Beta)
 description: Learn how to enable, create, and edit Channels in Adobe Learning Manager to bring video-based learning content from web pages and Confluence Cloud pages into a single, searchable location for learners.
 ---
 
-# Create Channels
+# Create Channels (Beta)
 
 Organizations often store knowledge-sharing sessions, training recordings, and other video content across informal learning content curated web and Confluence Cloud pages. Channels connect Adobe Learning Manager to these content sources, making videos easier to discover and consume without requiring learners to navigate multiple systems. Channels help you organize and share video-based learning content from enterprise web pages and Confluence Cloud pages in a single, searchable location. Instead of searching across multiple internal sites, learners can discover and access relevant recordings directly from Adobe Learning Manager. View [Discover and engage with Channels](../../learners/feature-summary/discover-and-engage-with-channels.md) for more information.
 

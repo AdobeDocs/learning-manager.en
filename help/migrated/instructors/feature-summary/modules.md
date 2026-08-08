@@ -162,3 +162,16 @@ To add scores and comments for activity modules that have been sent for submissi
    *Edit scores and comments*
 
 1. Click **[!UICONTROL Save]**.
+
+## Live Hub session
+
+For sessions created using Live Hub, the **Live hub** section on the **Session overview** page provides quick access to key session activities.
+
+- **Enter virtual classroom**: Select **Enter classroom** to join the virtual classroom or set it up before the session begins. You can also select **Copy URL** to copy the session link and share it with participants.
+
+- **View session analytics**: Select the **View analytics page** to open the session analytics dashboard after the session ends. The dashboard provides insights into learner attendance, participation, engagement, and other session metrics.
+
+- **View recording**: If the session was recorded, select **View recording** to access the recording directly from the **Session overview** page. If no recording is available, the card indicates its status.
+
+![Session Overview page](../../getting-started-with-live-hub/assets/session-overview-page.png)
+*Session Overview page showing the Live Hub section with access to Live Hub activities.*

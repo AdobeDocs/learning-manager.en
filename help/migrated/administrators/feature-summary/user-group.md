@@ -210,3 +210,9 @@ When you use OR logic, Adobe Learning Manager adds users who are in either the S
 ![](assets/or-logic.png)
 _Example showing multiple groups combined using OR logic_
 
+## Add and manage Instructors for Live Hub sessions
+
+In Adobe Learning Manager, Administrators can also manage Instructors for Live Hub sessions, including defining their skills, availability, and teaching preferences. This helps ensure that the right instructors are assigned to the right courses based on scheduling and expertise.
+
+For detailed steps on creating and managing instructor profiles, view [Add and manage Instructors](../../getting-started-with-live-hub/instructor-management.md).
+

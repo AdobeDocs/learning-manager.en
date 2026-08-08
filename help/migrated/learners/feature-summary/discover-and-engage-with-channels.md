@@ -3,9 +3,9 @@ title: Discover and engage with Channels
 description: Learn how to find, subscribe to, watch, like, and join discussions on video content available through Channels in Adobe Learning Manager.
 ---
 
-# Discover and engage with Channels
+# Discover and engage with Channels (Beta)
 
-Channels help learners discover and access video-based informal learning content curated in web and Cloud Confluence pages within the Adobe Learning Manager. Administrators create channels by connecting them to enterprise web pages or Cloud Confluence pages that host recorded knowledge-sharing and knowledge-transfer sessions.
+Channels help Learners discover and access video-based informal learning content curated in web and Cloud Confluence pages within the Adobe Learning Manager. Administrators create channels by connecting them to enterprise web pages or Cloud Confluence pages that host recorded knowledge-sharing and knowledge-transfer sessions.
 
 Instead of searching across multiple internal sites, you can browse channel content directly in Learning Manager. Channels provide a centralized location to discover relevant videos, stay informed about new content, and engage with your organization's self-paced learning resources.
 

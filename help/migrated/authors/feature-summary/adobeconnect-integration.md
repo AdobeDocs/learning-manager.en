@@ -11,7 +11,7 @@ Authors can create virtual classroom courses with Adobe Connect during course cr
 ## Create Virtual Classroom (VC) course with Adobe Connect {#createvirtualclassroomvccoursewithadobeconnect}
 
 1. In My Courses page, click Add Modules and choose Virtual Class room. Create Virtual Classroom dialog appears.   
-1. In the **Conferencing System** option, choose Adobe Connect.
+1. In the **Live Virtual Training Tools** option, choose **Adobe Connect**.
 
    ![](assets/create-vc-author.png)
 
@@ -34,3 +34,13 @@ Authors can create virtual classroom courses with Adobe Connect during course cr
 ## Shared templates of Adobe Connect {#sharedtemplatesofadobeconnect}
 
 By default, all the shared templates created in Adobe Connect account are fetched into Learning Manager application. You can add customized templates by making them as shared templates in Adobe Connect account.
+
+## Create a Virtual Classroom course with Live Hub
+
+Live Hub is Adobe Learning Manager's native, AI-powered virtual classroom solution that enables organizations to deliver live training without relying on third-party conferencing tools.
+
+When your Administrator enables Live Hub for your account, it becomes available in the **Live Virtual Training Tools** list alongside other supported providers, such as Adobe Connect.
+
+Live Hub also includes an AI-based Instructor Finder that recommends Instructors based on your virtual classroom requirements, required skills, and session details. This helps you identify suitable instructors without having to manually search the entire instructor list.
+
+View [Create a Live Hub session](../../getting-started-with-live-hub/create-a-live-hub-session.md) for more information.

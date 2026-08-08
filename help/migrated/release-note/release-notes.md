@@ -21,10 +21,6 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 +++Update 110: August 2026 release of Adobe Learning Manager
 
->[!IMPORTANT]
->
->The features described in this release notes  are available as part of the beta release. Adobe Learning Manager beta features are provided for evaluation purposes and may be modified, limited, or removed before the general availability release. Feature names, behavior, and configuration options are subject to change without notice.
-
 ## Release highlights
 
 The August 2026 release of Adobe Learning Manager delivers significant advances across personalized learning, AI, reporting, and integrations.
@@ -112,6 +108,66 @@ The AI Orchestrator Agent moves intent detection for single-query requests into 
 **Email Templates and Configuration:** When administrators updated the email banner in Email Template Settings, the new banner appeared correctly in Outlook Desktop but was not displayed in Outlook Web, resulting in an inconsistent email experience across clients. The email template rendering has been updated to ensure banner compatibility across Outlook platforms. Updated email banners now display correctly in both Outlook Desktop and Outlook Web versions.
 
 ## Known issues in the release
+
+### Instructor cannot join the Virtual Classroom between modules
+
+Instructors cannot join the Virtual Classroom when attempting to enter a room outside the scheduled time of their assigned course module.
+
+Adobe Learning Manager uses a single Virtual Classroom room for all modules within a course. When an instructor launches the room, the session is associated with the module linked to that instructor's join
+URL. Any subsequent join request must match the active module associated with the room. If another instructor attempts to join using a different module's join link while a different module is active, access to the
+room is denied. Only one module can be active in the shared room at a time.
+
+This behavior is expected in the current release. Enhancements to allow course Instructors to join the room regardless of the active module are planned for a future release.
+
+### Audio breaks up when the mic and speaker differ on macOS
+
+Audio may intermittently break up or sound garbled during a Virtual Classroom session on macOS when the selected microphone and speaker are different devices.
+
+This behavior can occur when different devices are used for audio input and output, such as AirPods for the microphone and the built-in speaker for playback. Because each device introduces its own audio delay, echo
+cancellation is less effective, and background noise suppression can occasionally misidentify portions of speech as noise. This may result in brief audio interruptions. The issue is more noticeable when the
+speaker's voice is captured at a low volume, such as when the microphone is positioned farther away.
+
+This is a known platform limitation and is not specific to Adobe Learning Manager. Similar behavior has been observed in other conferencing applications. No fix is included in this release, and the issue is being evaluated for a future release.
+
+Use the same device for both the microphone and speakers to avoid this behavior.
+
+### Shared video freezes in Chrome after losing focus
+
+When an Instructor shares a Chrome window playing a video and then switches focus away from it, attendees may see the shared content freeze or display a black screen.
+
+The video continues to play locally for the instructor, but remote attendees may not see the content update while the shared window is out of focus. The behavior varies by operating system:
+
+- On Windows, attendees see a black screen.
+- On macOS, attendees see the last displayed video frame.
+
+Video playback for attendees typically resumes when focus returns to the shared browser window.
+
+This is a browser and operating system limitation and is not specific to Adobe Learning Manager. No product-specific fix is available for this release.
+
+Keep the shared browser window in focus while presenting video content. Avoid switching back to the Virtual Classroom window during playback.
+
+### Instructor can't join a module already in use
+
+When Instructors attempt to launch two course modules that use the same Virtual Classroom at the same time, only the first Instructor can successfully enter the room.
+
+Adobe Learning Manager uses a single shared Virtual Classroom for a course instance. When the first Instructor joins the room, the room is associated with that Instructor's module. Additional join requests are
+validated against the active module. If another Instructor attempts to join using a different module link, access is denied. As a result, concurrent Instructor-led sessions cannot be conducted within the same
+course instance using separate modules that share a room.
+
+This behavior is expected in the current release and is consistent with the existing room architecture. The functionality is under review for future enhancement based on customer feedback.
+
+### Shared content displays a tunneling effect after returning to the Live Hub window 
+
+When an Instructor shares their entire screen and then returns to the Live Hub window, participants may experience a tunneling effect in the shared content. When you share your entire screen, the shared feed includes everything displayed on your desktop. Switching back to the Live Hub window can cause the shared content to repeatedly capture and display the Live Hub interface, resulting in unexpected visual behavior. This is a known limitation of full-screen sharing and is being evaluated for a future release. 
+
+Share a specific application or window instead of your entire screen. For example, share the presentation or document window you want participants to view. Sharing a single application keeps the shared content isolated and prevents the tunneling effect. 
+
+### Session dashboard report will not be available immediately after rejoining an ended session 
+
+Session Dashboard report will not be available immediately after rejoining an ended session
+If an Instructor views the Session Dashboard after a session has ended and then rejoins the same session using its URL, the existing Session Dashboard report may no longer be available. The report can take approximately five to seven minutes to refresh and become available again while the previous session instance is processed. This is a known limitation and is being evaluated for a future release.
+
+Wait five to seven minutes after closing the session before reopening the dashboard URL. This allows the previous session instance to complete processing, after which the Session Dashboard report becomes available again.
 
 ### Column names are not localized in the exported Classroom Locations CSV
 
