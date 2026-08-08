@@ -4,7 +4,7 @@ breadcrumb-title: Adobe Learning Manager
 user-guide-description: Documentation for Adobe Learning Manager
 ---
 
-# Learning Manager Guide {#using}
+# Adobe Learning Manager Guide {#using}
 
 * [Adobe Learning Manager User Guide](user-guide.md)
 * Introduction {#introduction}
