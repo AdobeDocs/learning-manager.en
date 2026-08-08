@@ -27,7 +27,7 @@ While creating the courses, authors have an option to preview the course.
 
 The fluidic player supports 11 languages. They are:
 
-| Language | Territory | IBM Identifier |
+| Language | Territory | Identifier |
 |---|---|---|
 | Arabic | Saudi Arabia | ar-SA |
 | Chinese-traditional | Hong Kong S.A.R. of China | zh-Hant-HK |

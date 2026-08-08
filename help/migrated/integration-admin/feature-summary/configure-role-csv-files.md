@@ -19,8 +19,8 @@ After you sign in to your Box storage account, the Integration admin can add the
 
 To get started, download the csvs and change the values according to your requirements.
 
-* Sample file: [role.csv](assets/role.csv) 
-* Sample file: [user_role.csv](assets/user_role.csv)
+* Sample file: [role.csv](assets/role.zip) 
+* Sample file: [user_role.csv](assets/user-role.zip)
 
 **role.csv**
 

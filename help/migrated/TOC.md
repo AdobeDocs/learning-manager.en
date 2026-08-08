@@ -285,7 +285,7 @@ user-guide-description: Documentation for Adobe Learning Manager
       * [Download, share, and subscribe to a report](administrators/feature-summary/download-share-subscribe-report.md)
       * [Duplicate and reuse a report in Report Builder](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
       * [Frequently asked questions](administrators/feature-summary/faq-report-builder.md)
-      * [Limitations of Report Builder in Adobe Learning Manager](administrators/feature-summary/limitations-report-builder.md)
+      * [Limitations of Report Builder](administrators/feature-summary/limitations-report-builder.md)
    * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Set up one-click enrollment in Adobe learning Manager](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
    * [Learning Paths](administrators/feature-summary/learning-paths.md)
