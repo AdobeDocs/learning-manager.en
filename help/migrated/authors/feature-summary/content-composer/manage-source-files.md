@@ -28,7 +28,6 @@ Supported formats:
 | PowerPoint (.ppt/.pptx) | 100 MB       |
 | MS Word (.doc/.docx)    | 100 MB       |
 | Text file (.txt)        | 100 MB       |
-| Images (.png, .jpg)     | 100 MB       |
 
 Select **Continue** to generate the course outline.
 
