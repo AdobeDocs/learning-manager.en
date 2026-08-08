@@ -1,6 +1,6 @@
 ---
 title: Adobe Learning Manager Content Composer (Beta) Help
-description: From a plain-language prompt to a published course, Adobe Learning Manager Content Composer handles the instructional design so you can focus on what learners need.
+description: From a plain-language prompt to a published course, Adobe Learning Manager Content Composer handles the instructional design so you can focus on what learners need by creating high impact instructional content.
 contentowner: saghosh
 ---
 
