@@ -24,11 +24,18 @@ Content Composer guides authors through training goals, source material, and lea
 - **Direct publishing to Adobe Learning Manager**: Finished courses publish directly to Adobe Learning Manager; no separate authoring tool, no manual SCORM export.
 - **Single-system workflow**: Course creation, learner management, and reporting stay on one platform, eliminating the overhead of managing multiple authoring and delivery tools.
 
+## Before you sign in
+
+>[!IMPORTANT]
+>
+>You must sign in with a valid Adobe Creative Cloud account. If you don't already have one, you can create a free account through Adobe Express. For more information, view [Create a free Adobe Express account](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). After creating your Adobe credentials, launch Content Composer and sign in to start creating courses. If your organization already has a Creative Cloud subscription, contact your administrator to provision a Creative Cloud account for you before signing in to Content Composer.
+
+
 ## Try Content Composer {#trycontent-composer}
 
 Ready to build your first course? Open Content Composer and go from a plain-language prompt to a publish-ready course in no time.
 
-[**Try Content Composer**](https://contentcomposer-dev.adobe.io/)
+[**Try Content Composer**](https://contentcomposer.adobe.io/)
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
@@ -143,4 +150,4 @@ Quick answers, current constraints, and the full JSON schema. Everything you nee
 
 You have everything you need. Open Content Composer and build your first course.
 
-[**Try Content Composer**](https://contentcomposer-dev.adobe.io/)
+[**Try Content Composer**](https://contentcomposer.adobe.io/)
