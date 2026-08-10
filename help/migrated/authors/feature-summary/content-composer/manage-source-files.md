@@ -57,6 +57,6 @@ Source documents can go out of date after a course has already been generated - 
 
 ### Confirm the file upload
 
-    ![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
+![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
 Once a file is attached, the file icon in the toolbar shows a badge count. The assistant confirms the upload and offers a **Generate outline** shortcut. Select it, or select **Generate Outline** in the top toolbar.
