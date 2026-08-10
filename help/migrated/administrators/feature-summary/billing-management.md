@@ -66,7 +66,7 @@ When an Agent Orchestrator license is linked, the stats row shows:
 
 | Column | Description |
 |---|---|
-| **Purchased** | Total Gen AI credits purchased for the contract period. |
+| **Purchased** | Total credits purchased for the contract period. |
 | **Used** | Credits consumed across all services using this license. |
 | **Used by ALM** | Credits consumed specifically by Adobe Learning Manager. |
 | **Remaining** | Credits still available. |
