@@ -285,6 +285,7 @@ The reports are saved in the Downloads folder of your browser.
 
 To cancel an active subscription, contact the Learning Manager support team.
 
+<!--
 ## Gen AI credits {#genaicredits}
 
 ### How Gen AI credits work
@@ -369,6 +370,7 @@ Adobe Learning Manager automatically notifies you when credit consumption crosse
 | A feature reaches its individual Max Credits Usage Limit | Alert — names the specific feature; that feature stops for learners |
 
 When you receive a 90% warning, contact your Adobe account team to purchase additional credits before the 100% threshold is reached.
+-->
 
 ## Frequently Asked Questions {#frequentlyaskedquestions}
 

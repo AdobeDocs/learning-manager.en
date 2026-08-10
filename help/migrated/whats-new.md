@@ -157,11 +157,13 @@ The Insights Agent helps administrators analyze learning data through natural la
 
 View [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md) for more information.
 
+<!--
 ### Gen AI credits
 
 Adobe Learning Manager integrates AI-powered features managed through a credit-based system linked to Agent Orchestrator licenses. This system requires administrators to activate features, set credit limits, and monitor usage via the Billing page. Linking the Adobe Learning Manager account to an Adobe Admin Console organization with an active Agent Orchestrator license is essential for enabling Gen AI features.
 
 View [Gen AI credits](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits) for more information.
+-->
 
 ## Channels (Beta)
 
