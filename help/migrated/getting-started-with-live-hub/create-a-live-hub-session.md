@@ -55,7 +55,7 @@ To create a Live Hub course:
 
     1.  Enter Instructor names in the **Instructors** field.
 
-    1.  Select **Find instructors using AI** to view AI-recommended Instructors. See [Add Instructors using Instructor Finder](#add-instructors-using-instructor-finder) for more information.
+    1.  Select **Find instructors using AI** to view AI-recommended Instructors. View [Add Instructors using Instructor Finder](#add-instructors-using-instructor-finder) for more information.
 
 1.  Select **Add** > **Save**.
 
@@ -103,7 +103,7 @@ To create a course instance:
     ![Session Configuration Panel](assets/session-configuration-panel.png)
     *Configure the schedule, instructor, and location for a specific session instance.*
 
-1.  In the **Instructors** field, enter names manually, or select **Find instructors using AI** for AI-recommended Instructors. See [Add Instructors using Instructor Finder](#add-instructors-using-instructor-finder) for more information.
+1.  In the **Instructors** field, enter names manually, or select **Find instructors using AI** for AI-recommended Instructors. View [Add Instructors using Instructor Finder](#add-instructors-using-instructor-finder) for more information.
 
 1.  Enter the **Location** details, and then select **Save**. The session is updated with the configured timings, Instructor, and location details.
 
@@ -144,4 +144,4 @@ Administrators can customize the appearance of Live Hub rooms to align with your
 
 Customized branding helps create a consistent learning experience and ensures that live training sessions reflect your organization's identity.
 
-For more information about configuring themes, see the [Color themes](../administrators/feature-summary/themes.md#color-themes) article.
+For more information about configuring themes, view the [Color themes](../administrators/feature-summary/themes.md#color-themes) article.
