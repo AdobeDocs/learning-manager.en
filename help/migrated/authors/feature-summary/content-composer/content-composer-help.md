@@ -10,7 +10,7 @@ contentowner: saghosh
 >
 >Beta features may contain defects and are provided "AS IS" without warranty of any kind. Adobe has the sole discretion whether to make beta features generally available. Adobe has no obligation to maintain, correct, update, change, modify or otherwise support (by way of Adobe Support Services or otherwise) the beta features. Should a beta feature become generally available, it may be subject to additional terms and conditions, including applicable fees. Beta features are subject to change without notice, including discontinuation. Customers are advised to use caution and not to rely in any way on the uninterrupted or error-free functioning or performance of the beta features. Accordingly, any use of the beta features is entirely at the Customer's own risk. Product capabilities and related documentation may change as the feature evolves. This documentation reflects the current beta experience and should not be considered final or complete product documentation.
 
-**From concept to course in minutes**
+## From concept to course in minutes
 
 Adobe Learning Manager Content Composer is an AI course authoring tool that turns a plain-language prompt into a structured, publish-ready course, including lessons, assessments, and media,without requiring prior instructional design experience.
 
@@ -31,11 +31,11 @@ Content Composer guides authors through training goals, source material, and lea
 >You must sign in with a valid Adobe Creative Cloud account. If you don't already have one, you can create a free account through Adobe Express. For more information, view [Create a free Adobe Express account](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). After creating your Adobe credentials, launch Content Composer and sign in to start creating courses. If your organization already has a Creative Cloud subscription, contact your administrator to provision a Creative Cloud account for you before signing in to Content Composer.
 
 
-## Try Content Composer {#trycontent-composer}
+## Try Content Composer
 
 Ready to build your first course? Open Content Composer and go from a plain-language prompt to a publish-ready course in no time.
 
-[**Try Content Composer**](https://contentcomposer.adobe.io/)
+[![Try Content Composer](https://img.shields.io/badge/Try%20Content%20Composer-1473E6?style=for-the-badge&logo=adobe&logoColor=white)](https://contentcomposer.adobe.io/)
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
