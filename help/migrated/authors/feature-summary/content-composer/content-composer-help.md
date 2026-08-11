@@ -30,12 +30,11 @@ Content Composer guides authors through training goals, source material, and lea
 >
 >You must sign in with a valid Adobe Creative Cloud account. If you don't already have one, you can create a free account through Adobe Express. For more information, view [Create a free Adobe Express account](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). After creating your Adobe credentials, launch Content Composer and sign in to start creating courses. If your organization already has a Creative Cloud subscription, contact your administrator to provision a Creative Cloud account for you before signing in to Content Composer.
 
-
 ## Try Content Composer
 
 Ready to build your first course? Open Content Composer and go from a plain-language prompt to a publish-ready course in no time.
 
-[![Try Content Composer](https://img.shields.io/badge/Try%20Content%20Composer-1473E6?style=for-the-badge&logo=adobe&logoColor=white)](https://contentcomposer.adobe.io/)
+**[Try Content Composer →](https://contentcomposer.adobe.io/)**
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
