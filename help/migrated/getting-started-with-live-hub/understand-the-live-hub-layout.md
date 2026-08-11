@@ -102,7 +102,7 @@ Open **More apps** to access integrated tools that extend collaboration during t
 
 * Collaborate visually with all participants without leaving the session.
 
-View[About the whiteboard](./about-the-whiteboard.md) for more information.
+View [About the whiteboard](./about-the-whiteboard.md) for more information.
 
 ### Participant engagement
 
@@ -114,4 +114,4 @@ Participant engagement helps track participants' activity and involvement in rea
 
 * Identify whether learners are actively engaged or need attention.
 
-View[Track the participant engagement](./track-the-participant-engagement.md) for more information.
+View [Track the participant engagement](./track-the-participant-engagement.md) for more information.
