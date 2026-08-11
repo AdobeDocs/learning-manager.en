@@ -382,7 +382,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 * Reporting Changes {#reporting-changes}
    * [Reporting changes in the August 2026 release](/help/migrated/reporting-changes-august-2026.md)
 * Knowledge Base {#knowledge-base}
-   * [Troubleshooting guide for Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
+   * [Troubleshooting guide for Live Hub (Beta)](./kb/troubleshooting-guide-for-live-hub.md)
    * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
    * [Unable to upload a CSV](kb/unable-to-upload-csv.md)

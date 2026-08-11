@@ -1,9 +1,9 @@
 ---
-title: Create a Live Hub session
+title: Create a Live Hub (Beta) session
 description: Learn how to create a Live Hub course, add course instances, assign Instructors with Instructor Finder, enroll Learners, and customize room branding.
 ---
 
-# Create a Live Hub session
+# Create a Live Hub (Beta) session
 
 Use Live Hub to deliver live, instructor-led training within an Adobe Learning Manager course. You can combine Live Hub sessions with self-paced content to create a blended learning experience.
 
