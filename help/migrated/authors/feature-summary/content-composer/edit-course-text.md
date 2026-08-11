@@ -6,7 +6,7 @@ title: Edit the course text
 
 # Edit the course text
 
-    ![](../assets/15_lesson_image_text_block_fall_prevention_updated.png)
+![](../assets/15_lesson_image_text_block_fall_prevention_updated.png)
 
 Select any text element to place the cursor inside it. A formatting toolbar appears at the bottom of the canvas with bold, italic, underline, strikethrough, link, alignment, and list controls.
 
