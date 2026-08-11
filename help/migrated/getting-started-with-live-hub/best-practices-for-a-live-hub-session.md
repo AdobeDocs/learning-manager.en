@@ -1,9 +1,9 @@
 ---
-title: Best practices for a Live Hub session
+title: Best practices for a Live Hub (Beta) session
 description: Follow these best practices to prepare, run, and follow up on a Live Hub session in Adobe Learning Manager, for Authors, Administrators, Instructors, and Learners.
 ---
 
-# Best practices for a Live Hub session
+# Best practices for a Live Hub (Beta) session
 
 A Live Hub course in Adobe Learning Manager brings instructors and learners together for real-time training, complete with chat, polls, quizzes, whiteboards, breakout rooms, recording, and analytics. This article explains how to perform each task. This document is its companion: it explains how to do them well.
 

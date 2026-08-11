@@ -1,9 +1,9 @@
 ---
-title: Join a Live Hub session as an Instructor
+title: Join a Live Hub (Beta) session as an Instructor
 description: Learn how Instructors join a Live Hub session before the scheduled start time to prepare the room and configure settings before Learners arrive.
 ---
 
-# Join a Live Hub session as an Instructor
+# Join a Live Hub (Beta) session as an Instructor
 
 Instructors can enter the virtual classroom before the scheduled start time to prepare the room, configure learner permissions, captions, polls, quizzes, and breakouts, and set up their own audio and video before learners arrive.
 
