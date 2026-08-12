@@ -23,7 +23,7 @@ In Learning Manager, when a learner is enrolled through a Learning Program/Certi
 
 Therefore, the learner is not able to search for the stand-alone Courses under **My Learning**.
 
-However, the learner cannot view the courses inside the Learning Program/Certification.
+However, the learner can view the courses inside the Learning Program/Certification.
 
 ## Scenario 2: Learner does not have access to the Catalog that contains the Course.
 
