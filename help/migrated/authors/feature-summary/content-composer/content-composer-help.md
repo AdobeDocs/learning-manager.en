@@ -9,6 +9,8 @@ contentowner: saghosh
 >[!IMPORTANT]
 >
 >Beta features may contain defects and are provided "AS IS" without warranty of any kind. Adobe has the sole discretion whether to make beta features generally available. Adobe has no obligation to maintain, correct, update, change, modify or otherwise support (by way of Adobe Support Services or otherwise) the beta features. Should a beta feature become generally available, it may be subject to additional terms and conditions, including applicable fees. Beta features are subject to change without notice, including discontinuation. Customers are advised to use caution and not to rely in any way on the uninterrupted or error-free functioning or performance of the beta features. Accordingly, any use of the beta features is entirely at the Customer's own risk. Product capabilities and related documentation may change as the feature evolves. This documentation reflects the current beta experience and should not be considered final or complete product documentation.
+>
+> Content Composer isn't certified for Firefox or Safari yet. Use Chrome to avoid unexpected issues. We'll add support for other browsers in a future release.
 
 ## From concept to course in minutes
 
