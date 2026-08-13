@@ -518,7 +518,7 @@ After assigning users to an additional custom role, you can view how many role a
 
 >[!NOTE]
 >
->You can assign up to 50 roles to each user and add up to 500 users to each role.
+>You can assign up to 50 roles to each user and add up to 3500 users to each role.
 
 ### Assign multiple custom roles using CSV
 
@@ -533,7 +533,7 @@ The user_role.csv file includes the fields Custom role and User IDs.
 
 The role.csv file includes the fields, Custom role, Source of creation and detailed information for Catalogs, Users, Courses, Learning Paths, and more.
 
-If the CSV file has incorrect data or goes over the limits (50 roles per user and 500 users per role), a message will appear showing the errors.
+If the CSV file has incorrect data or goes over the limits (50 roles per user and 3500 users per role), a message will appear showing the errors.
  
 ![](assets/error-custom-role.png)
 _Error notification for custom roles_
