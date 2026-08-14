@@ -59,3 +59,92 @@ Only end-of-lesson quiz assessments are graded. If you need an assessment that c
 **The quiz questions don't match what the course teaches. How do I fix this?**
 
 Content Composer uses AI to generate quiz questions, and AI output is non-deterministic. The questions may not always reflect exactly what you expect. Review all quiz questions after the course is generated, edit any that need adjustment directly in the Course editor, and verify the content is accurate before publishing.
+
+## About Share for Review  
+
+**What is Share for Review in Content Composer?** 
+
+Share for Review lets you distribute a course to reviewers for feedback before publishing. Reviewers open the course in a browser, add comments on any component, and attempt the quiz — without installing Content Composer or needing a subscription.  
+
+**Do reviewers need a Content Composer license?** 
+
+No. Reviewers do not need a Content Composer subscription or installation. Anyone with the review link can open the course in their browser.
+
+**Do reviewers need an Adobe ID to participate?** 
+
+Not for basic review. Reviewers can open the course, add comments, and attempt the quiz without an Adobe ID. An Adobe ID is required only to use @mentions to tag the author or other reviewers.
+
+**Can reviewers edit the course content?**
+
+No. Review access is comment-only. Reviewers can add, reply to, resolve, and filter comments, but cannot change course text, images, or structure.  
+
+Where are review files stored? Review files are hosted in Adobe's cloud. Authors do not need to manage file storage or send course files to reviewers directly.
+
+### Sharing and access  
+
+**Who can access a review link?**  
+
+By default, only people you invite by name or email can access the project. Verify this in the Who has access section of the Share project panel before sending the link.
+
+**Can I invite external stakeholders who are not Adobe users?**
+
+Yes. You can invite anyone by email address — they do not need an Adobe account to review the course.
+
+**Can I add reviewers after the review has already started?** 
+
+Yes. Open the Share project panel at any time, add names or email addresses, and select Invite to comment. New reviewers receive an invitation immediately.  
+
+**Can I remove a reviewer after sharing?** 
+
+Yes. In the Share project panel, locate the reviewer under Who has access and remove them. If they try to open the course using a previously shared link, they see an access-denied message.  
+
+**What happens if a reviewer loses access?** 
+
+They can select Request access on the access-denied screen. The course owner receives a notification to restore access.
+
+### Commenting and feedback  
+
+Can reviewers comment on a specific part of the course? 
+
+Yes. Reviewers select any course component — a text block, image, or quiz question — and add a comment directly on that element. Comments stay contextually linked to the component they were added on.
+
+**Can multiple reviewers comment at the same time?**  
+
+Yes. All reviewers see each other's comments in the Comments panel and can reply, resolve, or @mention each other.  
+
+**Can I filter comments to find unresolved feedback?**  
+
+Yes. Use the Resolved filter in the Comments panel to show only unresolved comments. You can also filter by Reviewers to see feedback from a specific person, or by Time to find the most recent comments.  
+
+**How do I tag another reviewer in a comment?**
+
+Type @ followed by their name or email address and select them from the dropdown. Tagged users receive a notification. This requires the reviewer to be signed in with an Adobe ID.
+
+#### Quiz and learner access  
+
+**Can reviewers attempt the quiz?** 
+
+Yes. Reviewers can attempt the quiz up to the specified number of retries. Their scores are not recorded and do not affect the course or any LMS reporting.
+
+**What is the difference between sharing for review and sharing for learners?** 
+
+Share for review gives access to the course with the comments panel enabled — intended for colleagues and stakeholders giving feedback. Share for learners gives access to the course without comments — intended for learners who are not enrolled through an LMS. Learner scores are also not recorded through a direct link.
+
+### Updating and closing a review
+
+**Do I need to create a new review after making changes?**
+
+No. The review URL stays the same after you update the course. Select Save after making changes, then select Share to notify reviewers that an updated version is available.
+
+**Will reviewers be notified when I update the course?**
+Reviewers see a notification banner when they open the review link after an update. They can select Reload to view the latest version.  
+
+**Do old comments remain after a course update?** 
+
+Yes. Existing comments persist across updates. Reviewers and authors can continue resolving comments on the updated version.
+
+**What happens to a learner link after I update the course?** 
+
+The existing learner link continues to show the previous version. Generate a new link after each update and share it with learners to ensure they access the latest content.
+
+
