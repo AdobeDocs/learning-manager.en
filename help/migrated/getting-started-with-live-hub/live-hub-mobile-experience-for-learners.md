@@ -9,7 +9,7 @@ Use the Adobe Learning Manager mobile app to join and participate in Live Hub se
 
 >[!NOTE]
 >
-> The mobile app supports core Live Hub participation features. Some capabilities available in the desktop experience are not available on mobile devices. For a complete list of supported features across desktop, see [Getting started with Live Hub](./getting-started-live-hub.md).
+> The mobile app supports core Live Hub participation features. Some capabilities available in the desktop experience are not available on mobile devices. For a complete list of supported features across desktop, view [Getting started with Live Hub](./getting-started-live-hub.md).
 
 ## Learner experience on mobile
 
