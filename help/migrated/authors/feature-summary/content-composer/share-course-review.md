@@ -36,6 +36,7 @@ You have an option to remove a selected commenter. When a commenter is removed f
 To remove access: 
 
 * Select the reviewer's name and choose Remove from the displayed options.  
+
 * If the reviewer tries to access the document with a previously shared link. The Access denied message is displayed.  
 
     ![](../assets/57_access_denied_switch_profile_request_access.png)

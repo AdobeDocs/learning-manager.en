@@ -19,6 +19,7 @@ Adobe Learning Manager Content Composer has two sharing modes, accessed from the
 In Content Composer, select **Share** in the toolbar. The **Share project** panel opens with two tabs:
 
 * **For review**: Send the project by email invite or share a link.
+
 * **For learners**: Provide them with a link to the project -- no need of LMS connection.
 
 Both these options give you control and flexibility in sharing your courses.
