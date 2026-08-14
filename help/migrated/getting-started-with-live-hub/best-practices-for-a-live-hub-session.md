@@ -5,7 +5,7 @@ description: Follow these best practices to prepare, run, and follow up on a Liv
 
 # Best practices for a Live Hub (Beta) session
 
-A Live Hub course in Adobe Learning Manager brings instructors and learners together for real-time training, complete with chat, polls, quizzes, whiteboards, breakout rooms, recording, and analytics. This article explains how to perform each task. This document is its companion: it explains how to do them well.
+A Live Hub course in Adobe Learning Manager brings Instructors and Learners together for real-time training, with interactive capabilities such as chat, polls, quizzes, whiteboards, breakout rooms, recordings, and analytics. This companion guide focuses on the practices that Administrators, Authors, and Instructors can adopt to create a smooth, engaging, and effective learning experience.
 
 Every Live Hub session moves through three phases. This guide follows the same rhythm, and most of the effort that determines a session's success happens before anyone joins the room.
 
