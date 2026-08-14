@@ -353,12 +353,12 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Participate in a breakout session](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
       * Closed captions {#closed-captions}
          * [Understand the closed captions](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
-         * [Manage the closed captions as an Instructor](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
-         * [Manage the closed captions as a Learner](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
+         * [Manage closed captions as an Instructor](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+         * [Manage closed captions as a Learner](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
       * Recordings and transcripts{#recordings-and-transcripts}
          * [Understanding recordings and transcripts](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
          * [Record a session](../migrated/getting-started-with-live-hub/record-a-session.md)
-         * [View recordings as a Learner](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+         * [View session recordings as a Learner](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
       * Session dashboard {#session-dashboard}
          * [View the Session dashboard](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
          * [Components of the Session dashboard](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
