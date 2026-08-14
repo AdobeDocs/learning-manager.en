@@ -44,7 +44,7 @@ Only modules that produce a score are eligible for weightage. Scorable module ty
 
 Non-scorable module types, PDF files, video files, audio files, PowerPoint presentations, Word documents, Excel files, and HTML content, cannot be assigned a weightage percentage and do not contribute to the aggregate score. These modules may still be required for course completion. When the Include modules that don't contribute to final grade option is enabled, they appear in the gradebook without a weightage value.
 
-View [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md) for more information.
+Learn more about [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md).
 
 ## Hierarchical content folders
 
@@ -60,9 +60,9 @@ Key capabilities:
 * Public folder and private folder structure are mutually exclusive
 * Browse folders experience when selecting modules in course authoring
 
-View [Hierarchical content folders](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder) for more information on admin-level functionalities. View [Hierarchical content folders](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder) for more information on author- level functionalities.
+Learn more about [Hierarchical content folders - admin-level capababilities](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder). Learn more about [Hierarchical content folders - author-level capababilities](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder).
 
-If you are migrating your learning content from another platform into Adobe Learning Manager and want to preserve your existing folder organization, you can use CSV files to create a hierarchical folder structure and associate your content files with the appropriate folders. Learn more about migration in [Migrate content folder hierarchy](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
+If you are migrating your learning content from another platform into Adobe Learning Manager and want to preserve your existing folder organization, you can use CSV files to create a hierarchical folder structure and associate your content files with the appropriate folders. Learn more about migration in [Migrate content folder hierarchy](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy).
 
 ## Live Hub (Beta)
 
@@ -76,7 +76,7 @@ Key highlights:
 * Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
 * Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
 
-View [Getting started with Live hub](./getting-started-with-live-hub/getting-started-live-hub.md) for more information.
+Learn more about [Getting started with Live Hub](./getting-started-with-live-hub/getting-started-live-hub.md).
 
 ## Adobe Learning Manager Content Composer (Beta)
 
@@ -91,7 +91,7 @@ Key features:
 * Configurable completion criteria, success criteria, quiz settings, and SCORM version before publishing.
 * and more.
 
-View [Adobe Learning Manager Content Composer](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md) for more information.
+Learn more about [Adobe Learning Manager Content Composer](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md).
 
 
 ## Component-based email template builder
@@ -107,7 +107,7 @@ Key capabilities:
 * Preview and test-send before publishing
 * Backward compatibility: existing email templates continue to work
 
-View [Component-based email builder](/help/migrated/administrators/feature-summary/email-builder.md) for more information.
+Learn more about [Component-based email builder](/help/migrated/administrators/feature-summary/email-builder.md).
 
 ## External learning support
 
@@ -122,7 +122,7 @@ Key capabilities:
 * New columns in Admin and Learner Transcripts: External Learning Name, Completion Comment, custom field columns
 * API support: five new learner-scoped endpoints for creating, retrieving, and updating submissions
 
-For more information at the admin-level, view [External learning support](/help/migrated/administrators/feature-summary/settings/basic-settings.md). For more information at the manager-level, view [External learning support](/help/migrated/managers/feature-summary/review-external-learning-requests.md). For more information at the learner-level, view [External learning support](/help/migrated/learners/feature-summary/submit-external-learning.md).
+Learn more about [External learning support - admin-level capabilities](/help/migrated/administrators/feature-summary/settings/basic-settings.md). Learn more about [External learning support - manager-level capabilities](/help/migrated/managers/feature-summary/review-external-learning-requests.md). Learn more about [External learning support - learner-level capabilities](/help/migrated/learners/feature-summary/submit-external-learning.md).
 
 ## AI features
 
@@ -135,7 +135,7 @@ The AI Assistant for learners now supports four new capabilities in addition to 
 * **Adobe Experience League answers**: the assistant now sources answers to how-to questions from Adobe Learning Manager help documentation
 * **Third-party content queries**: Go1 and LinkedIn Learning catalog content can be queried (metadata only; English only; ingestion takes 1–2 hours after catalog is added)
 
-View [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md) for more information.
+Learn more about [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
 
 ### Learning Path agent
 
@@ -149,13 +149,13 @@ Key capabilities:
 * Maximum of 10 personalized learning paths visible on the learner home page
 * Completed paths can be shared with colleagues
 
-View [Learning path agent](/help/migrated/learners/feature-summary/learning-path-agent.md) for more information.
+Learn more about [Learning Path Agent](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 ### Insights Agent
 
 The Insights Agent helps administrators analyze learning data through natural language queries. Ask questions about enrollment trends, completion rates, learner engagement, and skill gaps. The agent generates reports and visualizations in response.
 
-View [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md) for more information.
+Learn more about [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md) for more information.
 
 <!--
 ### Gen AI credits
@@ -169,7 +169,7 @@ View [Gen AI credits](/help/migrated/administrators/feature-summary/billing-mana
 
 Channels provide a centralized way to organize, publish, and discover video content from web and Confluence pages. Administrators can create and manage channels by connecting supported web pages or Confluence pages, configure channel settings, control visibility, and synchronize content from the source. Learners can browse available channels, subscribe to channels of interest, and watch curated video content from a single location.  
 
-View [Create Channels](/help/migrated/administrators/feature-summary/create-channels.md) for more information.
+Learn more about [creating Channels](/help/migrated/administrators/feature-summary/create-channels.md).
 
 ## Report Builder
 
@@ -177,7 +177,7 @@ Report Builder gives administrators a flexible, self-service reporting tool that
 
 Reports are created once and saved for repeated use. There is no need to rebuild filters, re-apply groupings, or rejoin datasets on every download. Saved reports can be downloaded on demand, shared with other administrators, or set up with a subscription so that recipients receive updated reports automatically at a regular interval.
 
-View [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md) for more information.
+Learn more about [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
 
 ## Custom role changes
 
@@ -194,41 +194,41 @@ Two access levels are available:
 
 **Manually created roles only**: The expanded custom role administration capabilities apply only to roles created through the Adobe Learning Manager administrtor interface. Roles imported via CSV upload are not supported.
 
-Learn more about Custom role changes. For more information, view [What the Advanced user permission unlocks](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
+Learn more about Custom role changes in the topic [What the Advanced user permission unlocks](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks).
 
-## LTI deep linking
+## LTI Deep Linking
 
 Integration administrators can now enable LTI Deep Linking for LTI tool configurations, allowing course authors to browse and embed Adobe Learning Manager courses directly from an external LMS without manually copying course URLs.
 
 Once enabled, authors see a **Select content** button in the external LMS activity configuration. They can browse approved catalogs, select courses, and confirm the selection — with all fields populated automatically.
 
-View [LTI deep links](/help/migrated/integration-admin/feature-summary/lti-deep-links.md) for more information.
+Learn more about [LTI Deep Linking](/help/migrated/integration-admin/feature-summary/lti-deep-links.md).
 
 ## Classroom Locations
 
 Classroom Locations now support a structured **four-field location format**, including Country, State/Province/Region, City, and Location Name, making it easier to manage and organize training locations across regions. The update includes a one-time migration from the legacy single-field format and adds multilingual support for the **Location Name** and **Location Information** fields, enabling localized classroom details for Learners.
 
-View [Classroom Locations](/help/migrated/administrators/feature-summary/classroom.md) for more information.
+Learn more about [Classroom Locations](/help/migrated/administrators/feature-summary/classroom.md).
 
 ## Reporting changes in the release
 
-View [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) for more information.
+Learn more about [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
 
 ## API changes in the release
 
-View [API changes in the August 2026 release of Adobe Learning Manager](/help/migrated/api-changes-august-2026.md) for more information.
+Learn more about [API changes in the August 2026 release of Adobe Learning Manager](/help/migrated/api-changes-august-2026.md).
 
 ## Other enhancements in the release
 
 | Enhancement | Description |
 |---|---|
-| **MQA: Latest vs. Highest score** | For modules with multiple attempts, authors can now choose whether the Latest or Highest attempt score is recorded in the Learner Transcript and used in gradebook calculations. Latest was the existing default and remains so when the setting is not configured. For more information, view [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts). |
-| **Content preview in Content Library** | Authors can now preview uploaded content files directly in the Content Library before adding them to courses. For more information, view [Preview Content Library](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary).  |
-| **Incremental user report** | A new API-based user report returns only users created or modified since the last request, reducing data transfer for large accounts using automated user sync workflows. For more information, view [Incremental User Report](/help/migrated/incremental-user-report.md). |
-| **11 new languages in fluidic player** | The fluidic player now supports 11 additional languages, including right-to-left (RTL) script support. For more information, view [Fluidic Player](/help/migrated/learners/feature-summary/fluidic-player.md).|
-| **LTI module migration** | Existing LTI 1.1 modules can now be migrated to LTI 1.3 using the migration tool. For more information, view [LTI migration of modules](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules). |
-| **Email Builder: Rich Text Editor Support** | Email Templates in Adobe Learning Manager now support rich text formatting, attachments, and custom automations. For more information, view [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
-| **Email Builder: Preview feature** | You can check your composed email to see how it would look at the recipient's end by using the Preview option. For more information, view [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
+| **MQA: Latest vs. Highest score** | For modules with multiple attempts, authors can now choose whether the Latest or Highest attempt score is recorded in the Learner Transcript and used in gradebook calculations. Latest was the existing default and remains so when the setting is not configured. For more information, Learn more about [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts). |
+| **Content preview in Content Library** | Authors can now preview uploaded content files directly in the Content Library before adding them to courses. Learn more about [previewing Content Library](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary).  |
+| **Incremental user report** | A new API-based user report returns only users created or modified since the last request, reducing data transfer for large accounts using automated user sync workflows. Learn more about [Incremental User Report](/help/migrated/incremental-user-report.md). |
+| **11 new languages in fluidic player** | The fluidic player now supports 11 additional languages, including right-to-left (RTL) script support. Learn more about [Fluidic Player](/help/migrated/learners/feature-summary/fluidic-player.md).|
+| **LTI module migration** | Existing LTI 1.1 modules can now be migrated to LTI 1.3 using the migration tool. Learn more about [LTI migration of modules](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules). |
+| **Email Builder: Rich Text Editor Support** | Email Templates in Adobe Learning Manager now support rich text formatting, attachments, and custom automations. Learn more about [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
+| **Email Builder: Preview feature** | You can check your composed email to see how it would look at the recipient's end by using the Preview option. Learn more about [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
 | **Webhook timestamp standardization** | All date and time fields within the `data` object of webhook payloads now have seconds set to `00`, providing minute-level precision consistent with Learner Transcript reports. |
 | **Connect enhancements** | Azure Data Lake Storage (ADLS) connector updates; persistent room name support for recurring virtual classroom sessions; recording-view-based attendance tracking. |
 | **Player performance improvements** | The fluidic course player has been optimized for faster load times and smoother transitions between modules. |
@@ -244,7 +244,7 @@ View [API changes in the August 2026 release of Adobe Learning Manager](/help/mi
 
 ## System requirements
 
-View [Adobe Learning Manager system requirements](/help/migrated/system-requirements.md) for more information.
+Learn more about [Adobe Learning Manager system requirements](/help/migrated/system-requirements.md).
 
 ## Release notes
 
