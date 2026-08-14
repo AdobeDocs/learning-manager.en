@@ -145,6 +145,28 @@ Yes. Existing comments persist across updates. Reviewers and authors can continu
 
 **What happens to a learner link after I update the course?** 
 
-The existing learner link continues to show the previous version. Generate a new link after each update and share it with learners to ensure they access the latest content.
+The existing learner link continues to show the previous version. Generate a new link after each update and share it with learners to ensure they access the latest content.  
+
+**How to view project updates?**
+
+If the author updates the course while you're reviewing it, a notification is displayed.
+
+![](../assets/68_newer_version_available_reload_notification.png)
+
+- Select **Reload** to load the latest version, or dismiss the notification to continue reviewing the current version. Reloading is safe — your existing comments persist even after the project updates, so you won't lose any feedback you've already added.
+
+## Attempt the quiz as a reviewer
+
+As a reviewer, you can attempt the quiz up to the specified number of times, but your scores aren't recorded.  
+
+- Select **START QUIZ** to attempt the quiz.  
+
+    ![](../assets/66_final_quiz_start_screen_attempts_info.png)
+
+- Upon completion the results are displayed. From here, you can select Review answers to see which questions they got right or wrong, or Retake quiz to try again.  
+
+    ![](../assets/67_quiz_results_attempts_remaining_reviewer.png)
+
+
 
 
