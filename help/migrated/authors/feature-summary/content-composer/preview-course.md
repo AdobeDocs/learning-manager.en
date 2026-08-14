@@ -1,5 +1,5 @@
 ---
-description: Preview shows the course exactly as learners will experience it, with the applied theme, interactive components active, and the quiz in answer mode. Use it to verify content and interactions before publishing.
+description: Learn how to preview a Content Composer course exactly as learners will see it, with the applied theme, components, and quiz active.
 jcr-language: en_us
 title: Preview the course
 ---

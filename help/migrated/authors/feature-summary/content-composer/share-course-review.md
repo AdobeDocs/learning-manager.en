@@ -1,7 +1,7 @@
 ---
-description: Learn how to share a Content Composer course for review, such as how to invite collaborators by name or email, copy a review link, and control who has access to the project before it is published.
+description: Learn how to share a Content Composer project for review — invite reviewers, collect comments, manage access, and request access when it's removed.
 jcr-language: en_us
-title: Share a course for review
+title: Share a project for review
 ---
 
 # Share project for review
@@ -45,8 +45,8 @@ To remove access:
 
 If you try to open a shared project you no longer have access to, you must request access before you can view it. This can happen, for example, if the owner removed you, or if you're opening the link with a different Adobe ID. In either case, you see an Access denied screen. 
 
-* Select Request access to ask the owner for permission to review the project and add comments.  
+* Select **Request access** to ask the owner for permission to review the project and add comments.  
 
     ![](../assets/58_request_access_dialog_message_field.png)
 
- 
+* The project owner receives a notification with the name of the reviewer requesting access.

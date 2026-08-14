@@ -1,5 +1,5 @@
 ---
-description: Find answers to the most common Content Composer questions, including why Generate Outline is greyed out, how to rename a lesson, why quiz questions feel misaligned, and what to do when Publish is disabled.
+description: Find answers to common Content Composer questions on outline editing, quiz behavior, Captivate compatibility, publishing, and Share for Review.
 jcr-language: en_us
 title: Adobe Learning Manager Content Composer FAQ
 ---
@@ -72,7 +72,7 @@ No. Reviewers do not need a Content Composer subscription or installation. Anyon
 
 **Do reviewers need an Adobe ID to participate?** 
 
-Not for basic review. Reviewers can open the course, add comments, and attempt the quiz without an Adobe ID. An Adobe ID is required only to use @mentions to tag the author or other reviewers.
+Yes. Reviewing a course requires signing in, so an Adobe ID is required to participate. Once signed in, reviewers can open the course, add comments, attempt the quiz, and use @mentions to tag the author or other reviewers.
 
 **Can reviewers edit the course content?**
 
@@ -88,7 +88,7 @@ By default, only people you invite by name or email can access the project. Veri
 
 **Can I invite external stakeholders who are not Adobe users?**
 
-Yes. You can invite anyone by email address — they do not need an Adobe account to review the course.
+Yes, you can invite anyone by email address. However, they need an Adobe account to sign in and review the course.
 
 **Can I add reviewers after the review has already started?** 
 
@@ -134,7 +134,7 @@ Share for review gives access to the course with the comments panel enabled — 
 
 **Do I need to create a new review after making changes?**
 
-No. The review URL stays the same after you update the course. Select Save after making changes, then select Share to notify reviewers that an updated version is available.
+No. The review URL stays the same after you update the course. Select **Share** to notify reviewers that an updated version is available.
 
 **Will reviewers be notified when I update the course?**
 Reviewers see a notification banner when they open the review link after an update. They can select Reload to view the latest version.  

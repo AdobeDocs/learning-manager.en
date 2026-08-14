@@ -1,5 +1,5 @@
 ---
-description: You need access through your Creative Cloud subscription to try out Content Composer, a general idea of what the course should cover, and optionally, source documents to ground the AI in your organisation's specific content.
+description: Learn what you need before starting Content Composer: a Creative Cloud account, Google Chrome, and optional source documents to guide the AI.
 jcr-language: en_us
 title: What you need before you start
 ---

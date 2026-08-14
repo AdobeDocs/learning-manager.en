@@ -1,5 +1,5 @@
 ---
-description: Learn how Content Composer and Adobe Learning Manager divide authoring and delivery responsibilities, how a finished course moves from Content Composer into the ALM Content Library, and how learner tracking and reporting work after publishing.
+description: Learn how Content Composer handles authoring and Adobe Learning Manager handles delivery, tracking, and reporting after publishing.
 jcr-language: en_us
 title: How Content Composer and Adobe Learning Manager work together
 ---

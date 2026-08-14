@@ -1,5 +1,5 @@
 ---
-description: Upload existing documents, policies, or decks to ground the AI in your organisation's content. Choose whether to restrict generation to those files only, or let the AI supplement with its general knowledge.
+description: Learn how to upload source files in Content Composer, restrict AI output to your content, and update source files when material changes.
 jcr-language: en_us
 title: Manage source files
 ---
