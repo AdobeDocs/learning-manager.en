@@ -22,4 +22,4 @@ If you are the author, you can use the **Comments** panel in your project to vie
 
 4. Save the updated course.  
 
-5. Select **Share** to update the review link, so reviewers see the latest version.  
+5. Select **Share** to update the review link, so reviewers view the latest version.  
