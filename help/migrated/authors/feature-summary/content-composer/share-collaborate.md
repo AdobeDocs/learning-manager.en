@@ -8,7 +8,7 @@ title: Share and collaborate on a Content Composer course
 
 >[!AVAILABILITY]
 >
->Coming soon!
+>COMING SOON!
 
 
 <!--
