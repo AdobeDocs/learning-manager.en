@@ -1,5 +1,5 @@
 ---
-description: Insert interactive and media blocks between existing elements, Paragraph, Image, Video, Flip Card, Accordion, Timeline, Tab, Carousel, MCQ, and True/False, using the component picker.
+description: Learn how to add content blocks in Content Composer — Paragraph, Image, Video, Flip Card, Accordion, Timeline, Tab, Carousel, MCQ & True/False.
 jcr-language: en_us
 title: Add a content component
 ---

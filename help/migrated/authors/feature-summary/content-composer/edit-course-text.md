@@ -1,5 +1,5 @@
 ---
-description: Select any text element to activate the inline formatting toolbar. Edit body text, headings, and labels directly on the canvas. Rename lessons and topics through the assistant, not by selecting headings.
+description: Learn how to edit course text in Content Composer using the inline formatting toolbar, and how to rename lessons and topics via the assistant.
 jcr-language: en_us
 title: Edit the course text
 ---

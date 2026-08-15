@@ -1,5 +1,5 @@
 ---
-description: A graded quiz appears at the end of the course, with each question tagged to the topic it tests. Edit question text, change the correct answer, assign scores, or ask the AI to regenerate questions.
+description: Learn how to edit quiz questions in Content Composer — change correct answers, assign scores, delete questions, or ask AI to regenerate them.
 jcr-language: en_us
 title: Review and edit the quiz
 ---

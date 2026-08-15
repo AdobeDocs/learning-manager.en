@@ -1,5 +1,5 @@
 ---
-description: Select any image to adjust sizing, brightness, saturation, and transparency. Replace it with an uploaded file, an Adobe Stock asset, or an AI-generated image using a plain-language description.
+description: Learn how to edit an image in Content Composer — adjust size, brightness, and saturation, or replace it with an upload, Adobe Stock, or AI.
 jcr-language: en_us
 title: Edit or add an image
 ---

@@ -1,5 +1,5 @@
 ---
-description: The Course editor opens automatically after generation. Review all content, text, images, knowledge checks, and quiz, before sharing or publishing. AI output can vary and requires author verification.
+description: Learn how to review AI-generated course content in Content Composer's Course editor before sharing or publishing, since AI output may vary.
 jcr-language: en_us
 title: Review the generated course
 ---
