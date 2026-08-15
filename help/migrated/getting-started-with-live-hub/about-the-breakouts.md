@@ -78,11 +78,12 @@ When the breakout session ends, all participants are automatically moved back to
 
 This marks the completion of the breakout activity and enables post-session review.
 
-![Breakout Room Distribution](assets/breakout-room-distribution.png "Live Hub interface showing the distribution of learners in the breakout rooms.")
+![Breakout Room Distribution](assets/breakout-room-distribution.png)
+*Live Hub interface showing the breakout session layout*
 
 ## Roles and permissions
 
-The Breakout rooms is available to both Instructors and Learners. The actions and controls available in the panel vary based on the user's role within the Virtual Classroom.
+Breakouts are available to both Instructors and Learners during a Live Hub session. The available actions and controls vary based on the user's role.
 
 | **Instructors** | **Learners** |
 |----|----|

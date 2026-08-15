@@ -35,7 +35,7 @@ The Chat panel includes multiple tabs to help manage different types of conversa
 
 ## Roles and permissions
 
-The Chat panel is available to both Instructors and Learners. The actions and controls available in the panel vary based on the user's role within the Virtual Classroom.
+The Chat panel is available to both Instructors and Learners during a Live Hub session. The available actions and controls vary based on the user's role.
 
 | **Instructors** | **Learners** |
 |----|----|

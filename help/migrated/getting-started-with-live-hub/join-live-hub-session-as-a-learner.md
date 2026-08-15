@@ -3,7 +3,7 @@ title: Join a Live Hub session as a Learner
 description: Learn how Learners join a Live Hub session from their enrolled course, including testing audio and camera settings before entering the room.
 ---
 
-# Join a Live Hub session as a Learner
+# Join a Live Hub (Beta) session as a Learner
 
 Learners join a Live Hub session directly from the course they are enrolled in. Once you join, you take part in the live training through chat, polls, quizzes, whiteboards, and breakout rooms.
 

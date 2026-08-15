@@ -44,7 +44,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Getting started with Live Hub (Beta)](./getting-started-with-live-hub/getting-started-live-hub.md)
 * Administrator {#admin}
    * AI in Learning (Beta) {#ai-in-learning}
-      * [Enable Live Hub](./administrators/feature-summary/enable-live-hub.md)
+      * [Enable Live Hub (Beta)](./administrators/feature-summary/enable-live-hub.md)
    * [Admin AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Insights Agent (beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/insights-agent.md)
    * [User log in](administrators/feature-summary/user-login.md)
@@ -355,24 +355,24 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Participate in a breakout session](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
       * Closed captions {#closed-captions}
          * [Understand the closed captions](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
-         * [Manage the closed captions as an Instructor](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
-         * [Manage the closed captions as a Learner](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
+         * [Manage closed captions as an Instructor](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+         * [Manage closed captions as a Learner](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
       * Recordings and transcripts{#recordings-and-transcripts}
          * [Understanding recordings and transcripts](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
          * [Record a session](../migrated/getting-started-with-live-hub/record-a-session.md)
-         * [View recordings as a Learner](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+         * [View session recordings as a Learner](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
       * Session dashboard {#session-dashboard}
          * [View the Session dashboard](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
          * [Components of the Session dashboard](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
    * [Best practices](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-   * [Use Live Hub on mobile as a Learner](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+   * [Use Live Hub (Beta) on mobile as a Learner](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * Frequently Asked Questions {#faq}
    * [Frequently Asked Questions for Administrators](administrators/frequently-asked-questions-for-administrators.md)
    * [Frequently Asked Questions for Authors](authors/frequently-asked-questions-for-authors.md)
    * [Frequently Asked Questions for Instructors](instructors/frequently-asked-questions-for-instructors.md)
    * [Frequently Asked Questions for Managers](managers/frequently-asked-questions-for-managers.md)
    * [Frequently Asked Questions for Learners](learners/frequently-asked-questions-for-learners.md)
-   * [Frequently Asked Questions for a Live Hub session](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+   * [Frequently Asked Questions for a Live Hub (Beta) session](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
    * [New experience league announcements](/help/migrated/new-experience-league-announcement.md)
    * [How to submit a support ticket on Experience League](/help/migrated/how-to-submit-support-ticket.md)
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
@@ -384,7 +384,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 * Reporting Changes {#reporting-changes}
    * [Reporting changes in the August 2026 release](/help/migrated/reporting-changes-august-2026.md)
 * Knowledge Base {#knowledge-base}
-   * [Troubleshooting guide for Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
+   * [Troubleshooting guide for Live Hub (Beta)](./kb/troubleshooting-guide-for-live-hub.md)
    * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
    * [Unable to upload a CSV](kb/unable-to-upload-csv.md)
