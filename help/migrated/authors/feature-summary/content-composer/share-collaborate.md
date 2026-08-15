@@ -8,7 +8,7 @@ title: Share and collaborate on a Content Composer course
 
 >[!AVAILABILITY]
 >
->Coming soon!
+>COMING SOON!
 
 Before publishing, you can send your course to reviewers for feedback. Reviewers open the shared link in a browser, add comments on any course component, and attempt the quiz to preview the full learner experience. Authors control access, collect feedback, and update the course without changing the review URL. You can address the feedback, update the course, and initiate additional review cycles as needed.  
 
