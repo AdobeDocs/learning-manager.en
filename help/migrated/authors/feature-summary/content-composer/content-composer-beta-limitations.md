@@ -1,5 +1,5 @@
 ---
-description: Review the current Content Composer beta limitations, including constraints on outline editing, assessment types, theme customization, and collaboration, with available workarounds and roadmap status for each.
+description: Review Content Composer beta limitations — conversational-only editing, MCQ/True-False-only quizzes, fixed outlines — with workarounds for each.
 jcr-language: en_us
 title: Content Composer beta limitations
 ---

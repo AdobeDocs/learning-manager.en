@@ -1,5 +1,5 @@
 ---
-description: Learn how to change heading and body fonts in Content Composer by editing a theme. Select from available font options and save as a new custom theme or overwrite the existing one.
+description: Learn how to change heading and body fonts in Content Composer by editing a theme, then save changes or create a new custom theme.
 jcr-language: en_us
 title: Change fonts
 ---

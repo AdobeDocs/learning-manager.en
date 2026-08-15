@@ -1,5 +1,5 @@
 ---
-description: Set quiz retries, time limits, question order, and passing scores in Content Composer. Learn how each quiz setting affects the learner experience and how scores are reported to your LMS.
+description: Learn how to configure quiz retries, time limits, question order, shuffling, and SCORM scoring settings in Content Composer.
 jcr-language: en_us
 title: Configure quiz settings
 ---

@@ -1,5 +1,5 @@
 ---
-description: Review the AI-generated lesson and topic structure before committing to full course generation. Request changes through the chat panel. Rename, add, remove, split, or merge lessons and topics conversationally.
+description: Learn how to edit a Content Composer course outline — rename, add, remove, split, or merge lessons and topics through the chat panel.
 jcr-language: en_us
 title: Edit the course outline
 ---

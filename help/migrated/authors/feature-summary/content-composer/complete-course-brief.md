@@ -1,5 +1,5 @@
 ---
-description: The Brief stage captures three inputs- course title, learner profile, and learning objective — through guided conversation. All three fields must be complete before the AI can generate an outline.
+description: Learn how to complete the Content Composer Brief stage — set your course title, define learners, and write an objective before generating an outline.
 jcr-language: en_us
 title: Complete the course brief
 ---

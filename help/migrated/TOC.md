@@ -227,12 +227,14 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Edit or add an image](authors/feature-summary/content-composer/edit-add-image.md)
          * [Add a content component](authors/feature-summary/content-composer/add-content-component.md)
          * [Preview the course](authors/feature-summary/content-composer/preview-course.md)
+      * Write effective prompts {#write-effective-prompt}
+         * [Write effective prompts in Content Composer](authors/feature-summary/content-composer/write-effective-prompts.md)
       * Share and collaborate {#share}
-         * [Share and collaborate on a Content Composer course](authors/feature-summary/content-composer/share-collaborate.md)
-         * {hide-from-toc} [Share a course for review](authors/feature-summary/content-composer/share-course-review.md)
-         * {hide-from-toc} [Share a course with learners](authors/feature-summary/content-composer/share-course-learners.md)
-         * {hide-from-toc} [Review the shared course](authors/feature-summary/content-composer/review-shared-course.md)
-         * {hide-from-toc} [View and add comments to a course](authors/feature-summary/content-composer/view-add-comments-course.md)
+         * [Share and collaborate on a Content Composer project](authors/feature-summary/content-composer/share-collaborate.md)
+         * [Share a project for review](authors/feature-summary/content-composer/share-course-review.md)
+         * [Share a project with learners](authors/feature-summary/content-composer/share-course-learners.md)
+         * [Review the shared project](authors/feature-summary/content-composer/review-shared-course.md)
+         * [Manage and respond to review comments](authors/feature-summary/content-composer/manage-and-respond-comments.md)
       * Configure course settings {#settings}
          * [General course settings](authors/feature-summary/content-composer/general-course-settings.md)
          * [Set completion and success criteria](authors/feature-summary/content-composer/set-completion-success-criteria.md)

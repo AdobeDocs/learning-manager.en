@@ -1,5 +1,5 @@
 ---
-description: Learn how to use advanced theme properties in Content Composer to customise individual text elements, including lesson names, topic names, block headings, captions, and paragraphs — with granular font and style controls.
+description: Learn how to use advanced theme properties in Content Composer to customize fonts, colors, spacing, and layout for headings and text elements.
 jcr-language: en_us
 title: Advanced theme customization
 ---

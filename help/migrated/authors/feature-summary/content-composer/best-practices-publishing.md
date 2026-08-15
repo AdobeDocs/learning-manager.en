@@ -1,5 +1,5 @@
 ---
-description: Review best practices for connecting Content Composer to Adobe Learning Manager, including when to configure completion criteria, how to name modules for discoverability, and how to manage versioning across course updates.
+description: Best practices for generating courses in Content Composer- writing learning objectives, reviewing outlines, restricting AI output, and using components.
 jcr-language: en_us
 title: Best practices for publishing from Content Composer to ALM
 ---

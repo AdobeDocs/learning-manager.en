@@ -1,5 +1,5 @@
 ---
-description: Upload your policies, procedures, or decks and restrict the AI to that content only. This ensures generated courses reflect your organisation's exact language, which is essential for compliance, regulatory, and procedure-based training.
+description: Learn how to ground Content Composer courses in your own documents by restricting AI output to your policies, procedures, or decks only.
 jcr-language: en_us
 title: Ground your course in your own documents
 ---
