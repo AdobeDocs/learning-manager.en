@@ -1,9 +1,9 @@
 ---
-title: Understand the Live Hub layout
+title: Understand the Live Hub (Beta) layout
 description: Learn about the panels and controls that make up the Live Hub session room, including the control bar, Attendees panel, Chat panel, and Breakouts panel.
 ---
 
-# Understand the Live Hub layout
+# Understand the Live Hub (Beta) layout
 
 In Adobe Learning Manager Live Hub, the session room is designed to help Instructors and Learners collaborate effectively during live sessions. The layout includes multiple panels and controls that allow you to manage audio, video, participants, and interactions in real time.
 
@@ -102,7 +102,7 @@ Open **More apps** to access integrated tools that extend collaboration during t
 
 * Collaborate visually with all participants without leaving the session.
 
-View[About the whiteboard](./about-the-whiteboard.md) for more information.
+View [About the whiteboard](./about-the-whiteboard.md) for more information.
 
 ### Participant engagement
 
@@ -114,4 +114,4 @@ Participant engagement helps track participants' activity and involvement in rea
 
 * Identify whether learners are actively engaged or need attention.
 
-View[Track the participant engagement](./track-the-participant-engagement.md) for more information.
+View [Track the participant engagement](./track-the-participant-engagement.md) for more information.

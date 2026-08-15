@@ -1,9 +1,9 @@
 ---
-title: Create a Live Hub session
+title: Create a Live Hub (Beta) session
 description: Learn how to create a Live Hub course, add course instances, assign Instructors with Instructor Finder, enroll Learners, and customize room branding.
 ---
 
-# Create a Live Hub session
+# Create a Live Hub (Beta) session
 
 Use Live Hub to deliver live, instructor-led training within an Adobe Learning Manager course. You can combine Live Hub sessions with self-paced content to create a blended learning experience.
 
@@ -124,7 +124,7 @@ To add Instructors using Instructor Finder:
     ![AI Assistant Panel Instructor Recommendations](assets/ai-assistant-panel-instructor-recommendations.png)
     *Use the AI Assistant panel to get instructor and time-slot recommendations based on the session's details.*
 
-1.  Review the list of recommended Instructors. Instructor Finder recommends Instructors based on the course skills and session requirements. Recommendations also consider Instructor availability, utilization, and your organization's holiday calendar. View **Instructor management** for more information.
+1.  Review the list of recommended Instructors.
 
 1.  Navigate to the Instructor that you want to assign, and then select **Add**. <br> The selected instructor is added to the **Instructors** field as a tag.
 

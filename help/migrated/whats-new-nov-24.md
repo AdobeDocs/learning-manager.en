@@ -222,7 +222,7 @@ The folder column uses the string data type and it is an optional column. The fo
 * If you add a new folder name for a module already present in a different folder, the new value will not overwrite or replace the assigned folder. The module will be added to the new folder and remain available in the existing folder as well.
 * If the value is blank, the folder will default to **[!UICONTROL Public]**.
 
-Refer [module_version csv spec](assets/4-module_version.xlsx) file for more information.
+Refer [module_version csv spec](assets/module_version.csv) file for more information.
 
 ### Changes in modules migration - completion criteria
 
@@ -252,7 +252,7 @@ Following are the conditions for the new columns:
    * The data type should be a string values and supported values are `QUIZ_ATTEMPTED`, `QUIZ_PASSED`, and `QUIZPASSED_OR_LIMITREACHED`.
    * When `completionCriteria` is set to `QUIZ`, enter the appropriate quiz value in the `quizData` column.
 
-Refer [module_version csv spec](assets/4-module_version.xlsx) file for more information.
+Refer [module_version csv spec](assets/module_version.csv) file for more information.
 
 ### Changes in course migration – Completion criteria
 
@@ -266,7 +266,7 @@ Following are the conditions for the `completionCriteria` column:
 * If you set `completionCriteria` to `SELECTEDMODULES`, you need to mark the mandatory modules in the [course_module.csv](assets/course_module.csv) file.
 * In the `optionalCriteria` column, enter `TRUE` or `FALSE`. If you set the value as `TRUE` will make the module mandatory.
 
-Refer [course csv spec](assets/3-course.xlsx) and [course_module csv spec](assets/6-course_module.xlsx) file for more information.
+Refer [course csv spec](assets/course.csv) and [course_module csv spec](assets/course_module.csv) file for more information.
 
 ## API changes
 

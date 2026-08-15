@@ -263,6 +263,8 @@ This option deletes users if they do not access Adobe Learning Manager for a spe
 
 Automatically and permanently remove users from the system who have been in the deleted state for a specified duration. Once purged, all associated user data is permanently removed and cannot be recovered.
 
+If enabled, purges data for users who have already been deleted in ALM after the specified number of days.
+
 ### Show Catalog Labels
 
 This option allows an author to set catalog labels when creating a Learning Object. A learner then sees the catalog labels in the Catalog section of the learner application. These labels help learners identify and differentiate between various catalogs available to them. If the option is deselected, the courses or Learning Objects move to the default catalog.
@@ -423,6 +425,8 @@ When enabled, Learners can submit and track learning activities completed outsid
 
 Activates the External Learning feature for all Learners in the account. Once enabled, a submission form becomes available on the Learner dashboard. Learners can enter details such as the training name, duration, date, score, and proof of completion. The submission is sent to their manager for review and approval. Approved submissions appear in the Learner Transcript and in administrator reports. Rejected submissions are not recorded in the transcript.
 
+![Select Enable to enable external learning submissions from a learner](../assets/external-learning-enable.png)
+
 >[!NOTE]
 >
 >Enabling this setting adds new columns to the Learner Transcript for external learning submissions. If your organization uses automated workflows or integrations that process Learner transcript data, review those before enabling to ensure compatibility with the updated transcript structure.
@@ -494,6 +498,8 @@ Administrators can add up to 10 custom fields to capture additional organization
 | Number     | Numeric input.                                                   |
 | Checkbox   | Single yes/no toggle.                                            |
 | Dropdown   | Single selection from an admin-defined list of options.          |
+
+![Select core and custom fields that a learner uses to submot external learning](../assets/external-learning-fields.png)
 
 ### Proof of completion file requirements
 

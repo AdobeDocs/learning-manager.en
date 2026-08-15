@@ -108,7 +108,10 @@ You can download a Learner Transcript filtered to this course directly from the 
 * In the **Active Feedback Gradebook**, select **Download learner transcript** in the upper-right corner of the page.
 * On the administrator home page, select **Reports**, and then select **Custom Reports**. Select **Learner Transcripts** from the list of available reports.
 
-See Reporting changes in the release for more information.
+>[!NOTE]
+>
+>Learner Transcript (CSV Report and Jobs API) will have the Weightage added as a column when the gradebook is enabled at the course level.
+
 
 ## Content Audit Trail events
 

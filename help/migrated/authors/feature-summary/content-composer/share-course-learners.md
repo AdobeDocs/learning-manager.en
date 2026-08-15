@@ -2,7 +2,6 @@
 description: Learn how to generate a learner link in Content Composer, what learners can access through that link, and why tracked delivery requires publishing to Adobe Learning Manager rather than sharing a direct link.
 jcr-language: en_us
 title: Share a course with learners
-hide: true
 ---
 
 # Share a course with learners

@@ -1,15 +1,15 @@
 ---
-title: Use Live Hub on mobile as a Learner
+title: Use Live Hub (Beta) on mobile as a Learner
 description: Learn what Live Hub features are available to Learners in the Adobe Learning Manager mobile app, from joining a session to leaving one.
 ---
 
-# Use Live Hub on mobile as a Learner
+# Use Live Hub (Beta) on mobile as a Learner
 
 Use the Adobe Learning Manager mobile app to join and participate in Live Hub sessions from your iOS or Android device. During a session, you can interact with Instructors and participants, respond to polls and quizzes, collaborate in breakout rooms, and access shared content directly from your mobile device.
 
 >[!NOTE]
 >
-> The mobile app supports core Live Hub participation features. Some capabilities available in the desktop experience are not available on mobile devices. For a complete list of supported features across desktop, see [Getting started with Live Hub](./getting-started-live-hub.md).
+> The mobile app supports core Live Hub participation features. Some capabilities available in the desktop experience are not available on mobile devices. For a complete list of supported features across desktop, view [Getting started with Live Hub](./getting-started-live-hub.md).
 
 ## Learner experience on mobile
 
