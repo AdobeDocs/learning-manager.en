@@ -234,7 +234,8 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [Share a course for review](authors/feature-summary/content-composer/share-course-review.md)
          * [Share a course with learners](authors/feature-summary/content-composer/share-course-learners.md)
          * [Review the shared course](authors/feature-summary/content-composer/review-shared-course.md)
-         * {hide-from-toc} [View and add comments to a course](authors/feature-summary/content-composer/view-add-comments-course.md)
+         * [View and add comments to a course](authors/feature-summary/content-composer/view-add-comments-course.md)
+         * [Manage and respond to comments](authors/feature-summary/content-composer/manage-and-respond-to-comments.md)
       * Configure course settings {#settings}
          * [General course settings](authors/feature-summary/content-composer/general-course-settings.md)
          * [Set completion and success criteria](authors/feature-summary/content-composer/set-completion-success-criteria.md)
