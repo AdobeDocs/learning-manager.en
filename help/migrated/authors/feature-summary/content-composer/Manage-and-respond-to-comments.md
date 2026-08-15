@@ -6,7 +6,7 @@ title: Manage and respond to comments
 
 # Manage and respond to comments
 
-If you are the course creator, you can use the **Comments** panel in your project to view and reply to the comments.
+If you are the author, you can use the **Comments** panel in your project to view and reply to the comments.
 
 1. Select **Comments** from the top toolbar. The **Comments** panel opens showing all reviewer comments.  
 
