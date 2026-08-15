@@ -2,6 +2,7 @@
 description: Learn how to share a Content Composer project for review — invite reviewers, collect comments, manage access, and request access when it's removed.
 jcr-language: en_us
 title: Share a project for review
+hide: true
 ---
 
 # Share project for review
