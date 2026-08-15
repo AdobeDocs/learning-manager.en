@@ -31,7 +31,7 @@ On the AI front, the AI Assistant for learners gains course summaries, learning 
 
 Content management is strengthened with a WYSIWYG component-based email template builder, a hierarchical content folder structure with role-based access, an External Learning feature for submitting and approving off-platform training, and a new Channels feature that aggregates video content from enterprise web pages and Confluence pages.
 
-For more information, see [What's new and changed in the August 2026 release of Adobe Learning Manager](/help/migrated/whats-new.md).
+Learn more about the [What's new and changed in the August 2026 release of Adobe Learning Manager](/help/migrated/whats-new.md).
 
 ## Breaking changes in the release
 

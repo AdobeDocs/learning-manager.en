@@ -6,6 +6,13 @@ title: Share and collaborate on a Content Composer course
 
 # Share and collaborate on a Content Composer course
 
+>[!AVAILABILITY]
+>
+>Coming soon!
+
+Before publishing, you can send your course to reviewers for feedback. Reviewers open the shared link in a browser, add comments on any course component, and attempt the quiz to preview the full learner experience. Authors control access, collect feedback, and update the course without changing the review URL. You can address the feedback, update the course, and initiate additional review cycles as needed.  
+
+<!--
 Content Composer lets you distribute your course to reviewers and learners, and collaborate with your team throughout the authoring process, all without leaving the app.  
 
 Before publishing, you can send your course to reviewers for feedback. Reviewers open the shared link in a browser, add comments on any course component, and attempt the quiz to preview the full learner experience. Authors control access, collect feedback, and update the course without changing the review URL. You can address the feedback, update the course, and initiate additional review cycles as needed.  
@@ -25,3 +32,4 @@ In Content Composer, select **Share** in the toolbar. The **Share project** pane
 Both these options give you control and flexibility in sharing your courses.
 
 ![](../assets/52_share_project_for_review_add_names_emails.png)
+-->
