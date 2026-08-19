@@ -2,7 +2,6 @@
 description: Learn how to open and review a Content Composer course shared for feedback, including how to navigate the course, add comments, reply to other reviewers, and tag other reviewers.
 jcr-language: en_us
 title: Review the shared project
-hide: true
 ---
 
 # Review and comment on a shared project
