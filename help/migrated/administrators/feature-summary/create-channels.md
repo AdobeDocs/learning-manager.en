@@ -7,7 +7,9 @@ description: Learn how to enable, create, and edit Channels in Adobe Learning Ma
 
 Organizations often store knowledge-sharing sessions, training recordings, and other video content across informal learning content curated web and Confluence Cloud pages. Channels connect Adobe Learning Manager to these content sources, making videos easier to discover and consume without requiring learners to navigate multiple systems. Channels help you organize and share video-based learning content from enterprise web pages and Confluence Cloud pages in a single, searchable location. Instead of searching across multiple internal sites, learners can discover and access relevant recordings directly from Adobe Learning Manager. View [Discover and engage with Channels](../../learners/feature-summary/discover-and-engage-with-channels.md) for more information.
 
-As an Administrator, you can create and manage channels, configure visibility settings, synchronize content with its source, and verify that videos are available before making the channel accessible to learners. This article explains how to perform these channel management tasks.
+As an Administrator, you can create and manage channels, configure visibility settings, synchronize content with its source, and verify that videos are available before making the channel accessible to Learners. The suppoted video formats are **MP4** and **WebM**.
+
+This article explains how to perform these channel management tasks.
 
 **Key benefits**
 
