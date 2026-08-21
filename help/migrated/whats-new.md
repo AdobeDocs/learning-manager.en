@@ -155,7 +155,7 @@ Learn more about [Learning Path Agent](/help/migrated/learners/feature-summary/l
 
 The Insights Agent helps administrators analyze learning data through natural language queries. Ask questions about enrollment trends, completion rates, learner engagement, and skill gaps. The agent generates reports and visualizations in response.
 
-Learn more about [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md) for more information.
+Learn more about [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md).
 
 <!--
 ### Gen AI credits
