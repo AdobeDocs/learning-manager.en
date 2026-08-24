@@ -19,7 +19,23 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 </table>
 -->
 
-+++Update 110: August 2026 release of Adobe Learning Manager
++++Update 111: August 31, 2026 release of Adobe Learning Manager
+
+## Enhancements in this release
+
+**Channel theme color:** When you create a channel, you have more channel theme colors to choose from. The theme colors are contextually applied to highlight contrast after your selection. When you select a theme color for the channel, the selected color is applied to the channel interface and is designed to maintain contrast with channel thumbnails and text. A default color is assigned automatically when you create a channel, but you can choose a different color from the available options at any time. 
+
+**Video thumbnails:** The learner can now quickly identify a video by its tile, which in turn displays a thumbnail to help identify its content at a glance. If the source video does not provide its own thumbnail image, Adobe Learning Manager automatically generates one using the channel theme color, an abstract pattern, and the video title.
+
+## Bugs fixed
+
+**Adobe Experience Manager component:** After upgrading to Adobe Learning Manager Reference Site package v2.0.1, the Notifications panel failed to load when users clicked the notification bell. The loader continued spinning indefinitely, preventing notifications from being displayed. The issue also caused repeated calls to the /userNotifications endpoint, eventually resulting in HTTP 429 responses. The notification loading workflow was fixed to prevent excessive API requests and resolve the loading issue. Notifications now load correctly, and the panel opens as expected without unnecessary API throttling.
+
+**Adobe Learning Manager mobile app > Learning Path:** Completed courses within a Learning Path in the Adobe Learning Manager mobile app were incorrectly displayed with a yellow indicator and red dot, even though their status was marked as completed. This visual inconsistency occurred only for courses inside Learning Paths, while completed modules displayed correctly. The status indicator logic has been fixed for Learning Path courses in the mobile app. Completed courses now display the correct green completion indicator. This ensures a consistent completion experience across the mobile app and desktop browser.
+
++++
+
++++Update 110: August 16, 2026 release of Adobe Learning Manager
 
 ## Release highlights
 
