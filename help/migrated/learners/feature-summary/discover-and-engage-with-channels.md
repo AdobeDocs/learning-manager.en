@@ -32,7 +32,7 @@ Use the **Channels** page to discover new content, access channels you subscribe
 
    >[!NOTE]
    >
-   >If you unable to view Channels in the navigation bar, contact your Administrator.
+   >If you are unable to view Channels in the navigation bar, contact your Administrator.
 
    <br> The **Channels** page opens with the **All** tab displayed by default.
 
