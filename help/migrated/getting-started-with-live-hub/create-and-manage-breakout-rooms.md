@@ -140,7 +140,7 @@ Instructors can view AI-generated summaries of discussions in each breakout room
 
 >[!NOTE]
 >
->A room needs at least 60 seconds of discussion before a summary can be generated. Rooms with less activity than this will not show a summary in the Check Room window.
+>A breakout room needs at least 60 seconds of discussion before a summary can be generated. Rooms with less activity than this will not show a summary in the Check Room window.
 
 To view summaries:
 
@@ -178,20 +178,24 @@ You can end the breakout session at any time.
 
 ## View a breakout session report
 
-After the breakout session ends, you can access the breakout session report to review session activity and participation. The report includes participant details, room-specific summaries of breakout discussions, instructions shared with participants, and an overview of session duration and engagement.
+After the breakout session ends, you can access the breakout session report to review session activity and participation. The report includes participant details, an overall and room-specific summaries of breakout discussions, instructions shared with participants, and an overview of session duration and engagement.
 
 >[!NOTE]
 >
->Rooms with less than 60 seconds of discussion does not have a summary included in the report.
+>Breakout rooms with less than 60 seconds of discussion does not have a summary included in the report.
 
 To view a breakout session report:
 
 1.  Navigate to the closed breakout session in the **Breakouts** panel.
 
-1.  Select **View reports**. <br> The Breakouts report pop-up window opens with the rooms report.
+1.  Select **View reports**. <br> The Breakouts report pop-up window opens with the session summary.
 
     ![Breakout Session Report](assets/breakout-session-report.png)
     *Breakouts reports pop-up window showing the breakout rooms report.*
+
+1. Do one of the following:
+    * Select **All rooms** to view the overall summary for the breakout session.
+    * Select a room tab to view participant details and the summary for that room.
 
 All breakout session insights are also available in the **Session dashboard**, where you can review summaries, analyze participation, and track session outcomes after the session. View [Components of the Session dashboard](./components-of-the-session-dashboard.md) for more information.
 
