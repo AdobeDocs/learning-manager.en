@@ -30,6 +30,10 @@ Use the **Channels** page to discover new content, access channels you subscribe
 
 1. Select **Channels** from the top navigation bar.
 
+   >[!NOTE]
+   >
+   >If you unable to view Channels in the navigation bar, contact your Administrator.
+
    <br> The **Channels** page opens with the **All** tab displayed by default.
 
    ![Channels Page All Tab](assets/channels-page-all-tab.png)
