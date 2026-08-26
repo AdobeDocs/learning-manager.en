@@ -17,6 +17,8 @@ This document gives a quick, narrative answer for each feature shipped in this r
 
 ### Component-based Email Builder
 
+This will be a phase wise enablement for different accounts who sign-up after the feature release - to migrate those accounts from existing email editor to new editor. Once enabled, customer cannot use old email editor. (For feature enablement, please reach out to CSM/Support).
+
 * **Available on:** Administrator app. Administrators and authors configure email layouts and templates here.
 * **Not applicable:** Learner-facing UI, Headless API, and AEM Widget, since learners simply receive the resulting emails through their own mail client.
 * **Notifications:**
