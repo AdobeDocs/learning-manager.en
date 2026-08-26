@@ -311,7 +311,7 @@ My Learning widget will be added to the page. Administrators can add other widge
 
 ## Saved by me widget {#bookmark-widget}
 
-The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved, without needing to search the catalog again. 
+The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
 
 As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
 
