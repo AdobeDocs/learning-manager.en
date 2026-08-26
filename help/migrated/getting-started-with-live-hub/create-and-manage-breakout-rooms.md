@@ -194,8 +194,8 @@ To view a breakout session report:
     *Breakouts reports pop-up window showing the breakout rooms report.*
 
 1. Do one of the following:
-    * Select **All rooms** to view the overall summary for the breakout session.
-    * Select a room tab to view participant details and the summary for that room.
+    * Select **All rooms** to view the **Overall summary** for the breakout session.
+    * Select a room tab to view the summary for that room.
 
 All breakout session insights are also available in the **Session dashboard**, where you can review summaries, analyze participation, and track session outcomes after the session. View [Components of the Session dashboard](./components-of-the-session-dashboard.md) for more information.
 
