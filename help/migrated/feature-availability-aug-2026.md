@@ -19,7 +19,6 @@ This document gives a quick, narrative answer for each feature shipped in this r
 
 * **Available on:** Administrator app. Administrators and authors configure email layouts and templates here.
 * **Not applicable:** Learner-facing UI, Headless API, and AEM Widget, since learners simply receive the resulting emails through their own mail client.
-* **Job API / Migration:** Not applicable. No bulk-export or account-migration tied to email templates.
 * **Notifications:**
   * Email notifications continue to be delivered to learners across supported email clients.
   * No new in-platform notification behavior is introduced by this feature.
