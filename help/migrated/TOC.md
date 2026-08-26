@@ -33,7 +33,9 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Supported languages in Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [API deprecations and changes in Adobe Learning Manager](api-deprecations-list.md)
    * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
-   * [Whitelabeling in Adobe Learning Manager](white-label.md)  
+   * [Whitelabeling in Adobe Learning Manager](white-label.md)
+* Feature availability in releases {#feature-availability}
+   * [Feature availability in Aug 2026 release](/help/migrated/feature-availability-aug-2026)
 * Get Started {#get-started}
    * [Sign in to Adobe Learning Manager with OpenID Connect](/help/migrated/oidc.md)
    * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
