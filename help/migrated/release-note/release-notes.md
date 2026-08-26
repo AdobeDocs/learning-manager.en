@@ -23,9 +23,17 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 ## Enhancements in this release
 
+**Saved by me Widget**
+
+* **Admin:** Administrators can place the Saved by me widget on a page so learners can easily find content they have bookmarked. This lets learners return to courses they saved earlier without having to search or navigate to them again. Learn more about [Saved by me widget](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#bookmark-widget).
+
+* **Learner:** The **Saved by me** widget shows courses, learning paths, certifications, and job aids that you've bookmarked for later. Use this widget to quickly access your saved content in one place, without searching the catalog again. Learn more about [Saved by me widget](/help/migrated/learners/feature-summary/saved-by-me-widget.md).
+
 **Channel theme color:** When you create a channel, you have more channel theme colors to choose from. The theme colors are contextually applied to highlight contrast after your selection. When you select a theme color for the channel, the selected color is applied to the channel interface and is designed to maintain contrast with channel thumbnails and text. A default color is assigned automatically when you create a channel, but you can choose a different color from the available options at any time. 
 
 **Video thumbnails:** The learner can now quickly identify a video by its tile, which in turn displays a thumbnail to help identify its content at a glance. If the source video does not provide its own thumbnail image, Adobe Learning Manager automatically generates one using the channel theme color, an abstract pattern, and the video title.
+
+**Channels:** The Channels navigation option is visible to Learners only when at least one channel has been created, contains at least one video from its source, and is marked Visible to Learners.
 
 ## Bugs fixed
 

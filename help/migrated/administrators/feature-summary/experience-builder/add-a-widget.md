@@ -309,6 +309,54 @@ To configure the My Learning widget:
 
 My Learning widget will be added to the page. Administrators can add other widgets and publish the page.
 
+## Saved by me widget {#bookmark-widget}
+
+The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved, without needing to search the catalog again. 
+
+As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+
+Adding this widget to a page can help: 
+
+* Streamline learner workflows by providing single-click access to frequently accessed content 
+
+* Reduce repetitive navigation and time spent searching for resources 
+
+* Create a more personalized learning experience that increases satisfaction and engagement 
+
+### Add a Saved by me widget 
+
+Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+
+Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+
+To configure the **Saved by me** widget: 
+
+1. Log in to Adobe Learning Manager as an administrator. 
+2. Select **Branding** in the left navigation pane. 
+3. Select **Custom Pages**. 
+4. Select the required page and then select **Page Design**. 
+5. Select the layout. 
+6. Select **Add Widget**. 
+7. Select **Saved by me** and then select **Proceed**. 
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
+
+8. Type a **Widget title** and **Widget description**.
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
+
+9. Select **Add widget**. 
+
+The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+
+![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
+
+>[!NOTE]
+>
+>If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+
+Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
+
 ## Social Learning widget
 
 The Social Learning widget enables learners to interact, share ideas, and collaborate within the learning platform. It supports posting various types of content such as text, videos, audio, screenshots, questions, and polls. Learners can comment, reply, upvote or downvote posts, fostering peer-to-peer knowledge sharing and engagement. This widget creates an informal learning space that complements formal training by encouraging social interaction and continuous learning.

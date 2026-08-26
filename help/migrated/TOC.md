@@ -267,6 +267,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Profile Settings](learners/feature-summary/settings.md)
    * [Catalogs](learners/feature-summary/catalogs.md)
    * [One-click enrollment](learners/feature-summary/learner-one-click-enrollment.md)
+   * [Saved by me widget](learners/feature-summary/saved-by-me-widget.md)
    * [My Learning](learners/feature-summary/courses.md) 
    * {hide-from-toc} [Adaptive Course](learners/feature-summary/adaptive-course-learner.md)        
    * [Fluidic player](learners/feature-summary/fluidic-player.md)
