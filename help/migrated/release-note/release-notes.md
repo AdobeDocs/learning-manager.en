@@ -23,7 +23,7 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 ## Enhancements in this release
 
-**Saved by me Widget**
+**Saved by me widget**
 
 * **Admin:** Administrators can place the Saved by me widget on a page so learners can easily find content they have bookmarked. This lets learners return to courses they saved earlier without having to search or navigate to them again. Learn more about [Saved by me widget](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#bookmark-widget).
 
