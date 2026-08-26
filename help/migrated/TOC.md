@@ -35,7 +35,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Whitelabeling in Adobe Learning Manager](white-label.md)
 * Feature availability in releases {#feature-availability}
-   * [Feature availability in Aug 2026 release](/help/migrated/feature-availability-aug-2026)
+   * [Feature availability in Aug 2026 release](/help/migrated/feature-availability-aug-2026.md)
 * Get Started {#get-started}
    * [Sign in to Adobe Learning Manager with OpenID Connect](/help/migrated/oidc.md)
    * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
@@ -154,8 +154,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Programs](administrators/feature-summary/learning-programs.md)
    * [Product Terminology](administrators/feature-summary/product-terminology.md)
 * Integration Admin {#integration}
-   * [Application developer manual]
-   (integration-admin/feature-summary/developer-manual.md)
+   * [Application developer manual](/help/migrated/integration-admin/feature-summary/developer-manual.md)
    * [Learner Assistant integration using iFrame](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md) 
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
    * Learning Manager Connectors {#connectors}
