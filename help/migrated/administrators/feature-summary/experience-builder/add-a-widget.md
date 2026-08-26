@@ -309,6 +309,8 @@ To configure the My Learning widget:
 
 My Learning widget will be added to the page. Administrators can add other widgets and publish the page.
 
+<!--
+
 ## Saved by me widget {#bookmark-widget}
 
 The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
@@ -356,6 +358,8 @@ The **Saved by me** widget will be added to the page. Administrators can add oth
 >If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
 
 Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
+
+-->
 
 ## Social Learning widget
 
