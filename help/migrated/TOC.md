@@ -154,7 +154,9 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Programs](administrators/feature-summary/learning-programs.md)
    * [Product Terminology](administrators/feature-summary/product-terminology.md)
 * Integration Admin {#integration}
-   * [Application developer manual](integration-admin/feature-summary/developer-manual.md)
+   * [Application developer manual]
+   (integration-admin/feature-summary/developer-manual.md)
+   * [Learner Assistant integration using iFrame](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md) 
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
    * Learning Manager Connectors {#connectors}
       * [Connectors overview](integration-admin/feature-summary/connectors.md)

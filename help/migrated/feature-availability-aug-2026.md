@@ -1,11 +1,11 @@
 ---
 description: Learn which app surfaces support new Adobe Learning Manager features for the August 2026 release, including APIs, mobile, and AEM Widget
 jcr-language: en_us
-title: Feat availability
+title: Feature availability in Aug 2026 release of Adobe Learning Manager
 exl-id: e134937c-630d-4285-9181-2eca114717f6
 ---
 
-*Release: August 2026 release of Adobe Learning Manager*
+# Feature availability in Aug 2026 release of Adobe Learning Manager
 
 ## Purpose
 
