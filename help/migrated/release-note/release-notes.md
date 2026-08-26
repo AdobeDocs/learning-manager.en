@@ -17,7 +17,7 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
   </tr>
  </tbody>
 </table>
--->
+
 
 +++Update 111: August 31, 2026 release of Adobe Learning Manager
 
@@ -42,6 +42,8 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 **Adobe Learning Manager mobile app > Learning Path:** Completed courses within a Learning Path in the Adobe Learning Manager mobile app were incorrectly displayed with a yellow indicator and red dot, even though their status was marked as completed. This visual inconsistency occurred only for courses inside Learning Paths, while completed modules displayed correctly. The status indicator logic has been fixed for Learning Path courses in the mobile app. Completed courses now display the correct green completion indicator. This ensures a consistent completion experience across the mobile app and desktop browser.
 
 +++
+
+-->
 
 +++Update 110: August 16, 2026 release of Adobe Learning Manager
 
