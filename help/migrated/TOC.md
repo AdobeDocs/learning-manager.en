@@ -33,7 +33,9 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Supported languages in Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [API deprecations and changes in Adobe Learning Manager](api-deprecations-list.md)
    * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
-   * [Whitelabeling in Adobe Learning Manager](white-label.md)  
+   * [Whitelabeling in Adobe Learning Manager](white-label.md)
+* Feature availability in releases {#feature-availability}
+   * [Feature availability in Aug 2026 release](/help/migrated/feature-availability-aug-2026.md)
 * Get Started {#get-started}
    * [Sign in to Adobe Learning Manager with OpenID Connect](/help/migrated/oidc.md)
    * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
@@ -152,7 +154,8 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Learning Programs](administrators/feature-summary/learning-programs.md)
    * [Product Terminology](administrators/feature-summary/product-terminology.md)
 * Integration Admin {#integration}
-   * [Application developer manual](integration-admin/feature-summary/developer-manual.md)
+   * [Application developer manual](/help/migrated/integration-admin/feature-summary/developer-manual.md)
+   * [Learner Assistant integration using iFrame](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md) 
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
    * Learning Manager Connectors {#connectors}
       * [Connectors overview](integration-admin/feature-summary/connectors.md)
@@ -265,6 +268,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Profile Settings](learners/feature-summary/settings.md)
    * [Catalogs](learners/feature-summary/catalogs.md)
    * [One-click enrollment](learners/feature-summary/learner-one-click-enrollment.md)
+   * {hide-from-toc}[Saved by me widget](learners/feature-summary/saved-by-me-widget.md)
    * [My Learning](learners/feature-summary/courses.md) 
    * {hide-from-toc} [Adaptive Course](learners/feature-summary/adaptive-course-learner.md)        
    * [Fluidic player](learners/feature-summary/fluidic-player.md)

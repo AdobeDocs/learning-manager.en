@@ -80,11 +80,15 @@ Create a channel to define the content source that Adobe Learning Manager scans 
 
    1. **Visible to Learners**: Enable this option to make the channel available to learners. Disable it to hide the channel while you continue configuring or testing it.
 
+      >[!NOTE]
+      >
+      >The Channels tab is visible to learners only when this setting is enabled and contains at least one video.
+
    1. **Sync automatically**: Enable this option to automatically update the channel when new videos are added to the source. Disable it if you want to manually sync the channel.
 
 1. (Optional) Select **Show advanced settings**, and then configure the following options as required:
 
-   1. **Channel theme color**: Select a color to customize the visual appearance of the channel.
+   1. **Channel theme color**: Select a color from the drop-down list to customize the visual appearance of the channel.
 
    1. **Crawl depth**: Enter the crawl depth for linked pages to scan for video content. It supports a maximum crawl depth of **2**.
 
