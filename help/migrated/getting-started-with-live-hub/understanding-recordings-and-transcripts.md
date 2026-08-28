@@ -13,6 +13,8 @@ After a session ends, the recording is automatically processed and made availabl
 
 Live Hub organizes recordings by topic rather than by fixed, time-based chapters. After a session ends, the Recording Agent analyzes the transcript and identifies topics based on meaning, even when discussions on the same subject occur at different points during the session.
 
+Topics are generated only when the **Topics Generator for Recording agent** is enabled for your account.View [Enable Live Hub](../administrators/feature-summary/enable-live-hub.md) for more information.
+
 For example, if a topic is introduced at the beginning of a session, revisited during a discussion, and mentioned again during a Q&A, Live Hub recognizes these references as part of the same subject and groups them under a single topic. For each detected topic, Live Hub generates:
 
 * A title

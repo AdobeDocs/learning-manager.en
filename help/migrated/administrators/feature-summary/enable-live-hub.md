@@ -39,15 +39,15 @@ To enable Live Hub:
 
 1.  Enable the assistants from the Live Hub agents:
 
-    1.  Poll Assistant
+    1.  **Poll Assistant**: Generates polls from the course content and the live session transcript, creating icebreakers or knowledge checks that are ready to review and launch in one click. View [Create and launch a poll](../../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-using-ai) for more information.
 
-    1.  Q&A Assistant
+    1.  **Q&A Assistant**: Detects participant questions in the session chat and drafts answers grounded in uploaded content and the session transcript, for instructors to review, refine, and share. View [Use the Chat panel as an Instructor](../../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) for more information.
 
-    1.  Breakout Monitoring Assistant
+    1.  **Breakout Monitoring Assistant**: Reads each breakout room's transcript against the instructor's objective, posts a status card every few minutes, and delivers per-room discussion summaries plus a single cross-room synthesis of themes, decisions, and gaps for an instant debrief. View [Create and manage breakout sessions](../../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#view-ai-generated-summaries-of-breakout-rooms) for more information.
 
-    1.  Topics Generator for Recordings
+    1.  **Topics Generator for Recordings**: Auto-segments session recordings into named topics with timestamps and structured notes, so a participant can go straight to what they need or learn from the notes without watching the full recording. View [Understanding recordings and transcripts](../../getting-started-with-live-hub/record-a-session.md#generate-topics-in-recording) for more information.
 
-    1.  Instructor Finder Assistant
+    1.  **Instructor Finder Assistant**: Recommends instructors for a session by weighing skills, availability, utilization, preferred instruction hours, and other criteria. View [Create a Live Hub session](../../getting-started-with-live-hub/create-a-live-hub-session.md#add-instructors-using-instructor-finder) for more information.
 
 >[!NOTE]
 >
