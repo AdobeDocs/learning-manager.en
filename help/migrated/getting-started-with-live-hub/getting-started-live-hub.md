@@ -54,5 +54,7 @@ smooth learning experience.
 |**During-session**|Instructor delivers the live session and engages Learners using features such as [chat](about-the-chat-panel.md), [polls](./about-the-polls.md), [quizzes](./about-the-quiz.md), [whiteboards](./about-the-whiteboard.md), [screen sharing](./about-the-screen-sharing.md), and [breakout rooms](./about-the-breakouts.md). Learners participate in these activities throughout the session. The Instructor can [record the session](./record-a-session.md) to make it available for learners to view later.|
 |**Post-session**|Instructor reviews session recordings, attendance reports, and [engagement analytics](./view-the-session-dashboard.md) to assess Learner participation and evaluate the session's effectiveness. Learners can revisit the session through a [topic-based recording](./view-recordings-as-a-learner.md) view that splits the recording into navigable topics, each with a title, overview, and notes, so they can jump to any topic or read it instead of watching.|
 
+>[!VIDEO](https://video.tv.adobe.com/v/3502433)
+
 >[!NOTE]
 >Live Hub is also available on the Adobe Learning Manager mobile app, with some feature limitations. For supported mobile capabilities. View [Use Live Hub on mobile as a Learner](./live-hub-mobile-experience-for-learners.md) for more information. To optimize your Live Hub experience, view [Best practices for a Live Hub session](./best-practices-for-a-live-hub-session.md).
