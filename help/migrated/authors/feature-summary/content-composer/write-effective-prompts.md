@@ -50,7 +50,7 @@ Once you select **Get started**, Content Composer opens the **Brief** stage. Rev
 | The learner's role or demographic ("new sales reps", "frontline warehouse staff") | Broad audiences ("all staff", "everyone", "users") |
 | The learner's experience level ("early-career", "familiar with X but not Y") | Assuming the AI knows your audience's background |
 | What learners currently struggle with or don't know | Skipping learning gaps. The AI uses them to shape vocabulary and scenarios |
-| A clear learning objective — what learners will be able to do after the course | Generic goals ("teach them everything about X", "cover all aspects of") |                           |
+| A clear learning objective — what learners will be able to do after the course | Generic goals ("teach them everything about X", "cover all aspects of") |
 
 ### Starter prompts by course type
 
