@@ -219,6 +219,8 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [What you need before you start](authors/feature-summary/content-composer/before-you-start.md)
          * [Ground your course in your own documents](authors/feature-summary/content-composer/ground-course-documents.md)
          * [What Content Composer is not](authors/feature-summary/content-composer/what-content-composer-is-not.md)
+      * Write effective prompts {#write-effective-prompt}
+         * [Write effective prompts in Content Composer](authors/feature-summary/content-composer/write-effective-prompts.md)
       * Create a course {#create-course}
          * [Write a prompt](authors/feature-summary/content-composer/write-a-prompt.md)
          * [Complete the course brief](authors/feature-summary/content-composer/complete-course-brief.md)

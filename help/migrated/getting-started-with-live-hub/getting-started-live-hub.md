@@ -15,11 +15,13 @@ It provides a seamless, browser-based experience for Instructors and Learners, c
 
 Many organizations rely on separate tools for course management, session delivery, and collaboration. This can introduce challenges such as:
 
-- Switching between multiple platforms for training
-- Additional setup and configuration requirements
-- Limited visibility into learner engagement and participation
+- Switching between multiple platforms for training.
+- Additional setup and configuration requirements.
+- Limited visibility into learner engagement and participation.
 
 Live Hub addresses these challenges by bringing course delivery, collaboration, engagement, and tracking into one unified experience within Adobe Learning Manager.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502433)
 
 ## What is Live Hub
 
