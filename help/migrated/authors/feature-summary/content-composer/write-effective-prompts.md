@@ -14,21 +14,21 @@ Content Composer is conversational throughout. The quality of what it produces a
 
 The opening prompt is your starting point. It doesn't need to be perfect. Content Composer reads your prompt and uses it to open a conversation. Even a rough prompt gets the process moving; the assistant will ask follow-up questions at the Brief stage to fill in what's missing.
 
-That said, a more specific prompt means the AI pre-fills the Brief more accurately, reducing back-and-forth before you generate the outline. If you have a clear idea of the audience, topics, and goal, put it in the prompt. 
-
-A vague prompt produces a vague brief. A vague brief produces a generic outline. A generic outline produces a course that needs significant editing. Specificity at the prompt stage cascades forward through every subsequent step.
+That said, a more specific prompt means the AI pre-fills the Brief more accurately, reducing back-and-forth before you generate the outline. If you have a clear idea of the audience, title, and goal, put it in the prompt.
 
 ### What does Content Copmposer expect
 
-Content Composer expects the following in one or two sentences:
+Content Composer expects the following:
 
-- **Who** are the learners? Name their role and experience level.
-    - **What** will the course cover? Describe 2–3 specific subject areas rather than a broad domain. For example, "phishing recognition, password hygiene, and MFA setup" is more useful than "IT security."
-- **What is the learning objective?** Describe the outcome or behavioral change you want learners to accomplish after completing the course.
+- **What** is the course about? Describe the subject area in one or two sentences. This becomes the course title.
+- **Who** are the learners? Name their role and experience level. This becomes the learner profile.
+- **What is the learning objective?** Describe the outcome or behavioural change you want learners to accomplish after completing the course. This becomes the learning objective in the Brief.
 
 ### Anatomy of an effective prompt
 
-**[Audience + experience level]** + **[2-3 specific topics]** + **[learning objective]**
+**[Learners + experience level]** + **[a specific title]** + **[learning objective]**
+
+An effective prompt does three things: it describes what the course is about, who it's for, and what learners should be able to do after completing it.
 
 **Example**:
 
@@ -36,29 +36,28 @@ I want to create a course for new sales representatives covering our enterprise 
 
 Breaking this down:
 
-- **Audience:** new sales representatives
-
-- **Topics:** enterprise pricing tiers, discount approval workflow, three common objections
-    - **Learning objective**: handle the three most common customer objections confidently- a measurable behavioral outcome, not a topic to cover
+- **Title:** A course on enterprise pricing, discount approvals, and handling customer objections for new sales representatives
+- **Learner:** New sales representatives in their first 90 days, unfamiliar with enterprise pricing structures
+- **Objective:** Handle the three most common customer objections confidently using the approved messaging framework
 
 Once you select **Get started**, Content Composer opens the **Brief** stage. Review the pre-filled fields, the title, learner profile, and objective that the AI generated from your prompt, and refine anything that doesn't match your intent before generating the outline.
 
 ### Do's and don'ts of an effective prompt
 
-| **Include**                                                                                            | **Avoid**                                                                                        |
-|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| A specific audience role ("new sales reps", "frontline managers")                                      | Vague audiences ("all staff", "everyone", "users")                                               |
-| 2-3 concrete topic areas                                                                               | 6+ topics in one prompt - these produce overloaded outlines; split into separate courses instead |
-| A scope signal- duration, depth, or learner outcome                                                    | Generic goals ("teach them everything about X", "cover all aspects of")                          |
-| Context that shapes tone or depth ("for compliance", "for a non-technical audience", "scenario-based") | Asking the AI questions. The prompt is a brief, not a conversation                               |
-| What learners will be able to do after the course                                                      | What the course will contain (leave structure to the outline stage)                              |
+| Include | Avoid |
+|---|---|
+| A clear course title or subject area | Vague subjects ("something on security", "a general training") |
+| The learner's role or demographic ("new sales reps", "frontline warehouse staff") | Broad audiences ("all staff", "everyone", "users") |
+| The learner's experience level ("early-career", "familiar with X but not Y") | Assuming the AI knows your audience's background |
+| What learners currently struggle with or don't know | Skipping learning gaps. The AI uses them to shape vocabulary and scenarios |
+| A clear learning objective — what learners will be able to do after the course | Generic goals ("teach them everything about X", "cover all aspects of") |                           |
 
 ### Starter prompts by course type
 
 | **Course type**                | **Starter prompt**                                                                                                                                                                                                                                       |
 |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Compliance training**        | "I want to create a course for all employees on GDPR data handling, covering what counts as personal data, how to store and share it correctly, and what to do if a breach occurs."                                                            |
-| **Onboarding**                 | "I want to create an onboarding module for new \[role\] covering \[topic 1\], \[topic 2\], and \[topic 3\].                                                                                                                                              |
+| **Onboarding**                 | "I want to create an onboarding module for new customer support agents covering how to log a ticket, escalate an issue, and close a case in our helpdesk system."                                                                                                                                              |
 | **Technical skills**           | "I want to create a course for junior software engineers on secure coding practices, like SQL injection prevention, input validation, and how to read a SAST report."                                                                                    |
 | **Soft skills**                | "I want to create a course for frontline retail managers on giving constructive feedback, such as covering the SBI model, how to prepare for a feedback conversation, and how to follow up."                                                   |
 | **Policy and procedure**       | "I want to create a course for warehouse staff on manual handling procedures, like correct lifting technique, when to use equipment, and how to report a near-miss."                                                                                     |
@@ -76,11 +75,9 @@ This is a conversational stage. The quality of your responses to the AI's questi
 
 ### Course title
 
-The AI suggests two title options. Select the one that fits, or type your own. If neither is right, describe the gap:
+The AI pre-fills the course title based on your prompt. Review it and select it if it fits, type your own, or describe what you want instead:
 
 "Neither. The course is specifically about the approval workflow, not general pricing."
-
-A good title is learner-facing. It describes what the learner will be able to do, not what the course covers.
 
 ### Learner profile
 
@@ -108,28 +105,30 @@ Write the objective as a behaviour starting with an action verb:
 >
 >**Before you generate the outline:** The outline is built entirely from the Brief, not from your original prompt. Before selecting **Generate Outline**, confirm that the title is learner-facing, the learner profile names a specific role and experience level, and the learning objective describes a measurable on-the-job behaviour. A well-defined Brief produces a well-structured outline. If any field still feels generic, refine it now.  It saves significant editing later.
 
+You are always in control. Content Composer will ask follow-up questions to help refine the Brief, but you decide what goes in each field. A well-defined Brief produces a well-structured outline. The more specific your inputs, the less editing you'll need later.
+
 ### Signs the Brief needs more work
 
 - The learner profile says "employees who want to learn about X" rather than naming a specific role and experience level
 - The learning objective describes a subject area rather than a measurable on-the-job behaviour
-- The title is a topic label ("IT Security") rather than a learner-facing outcome ("Identify and respond to phishing attempts")
+- The title is vague ("IT Security") rather than a learner-facing outcome ("Identify and respond to phishing attempts")
 
 ## Stage 3: Outline- edit through conversation
 
 After you confirm the Brief, Content Composer generates a lesson and topic structure. You review it and request changes through the chat panel before generating the full course.
 
-Outline editing is entirely conversational in the current release. You cannot select a lesson or topic on the canvas to rename or reorder it. All changes are made by typing plain-language requests.
+Outline editing is entirely conversational in the current release. You cannot select a lesson or title on the canvas to rename or reorder it. All changes are made by typing plain-language requests.
 
-This is also the most efficient stage to make structural changes. Editing the outline takes seconds. Restructuring a generated course takes significantly longer.
+This is also the most effective stage to make structural changes. Editing the outline takes seconds. Restructuring a generated course takes significantly longer.
 
 ### How to phrase outline editing requests
 
-Be direct and specific. Name the lesson or topic by its current title, describe the change you want, and optionally explain why.
+Be direct and specific. Name the lesson by its current title, describe the change you want, and optionally explain why.
 
 **Rename:**
 
 - "Rename Lesson 1 to 'How Phishing Attacks Work'."
-- "Rename topic 2.3 to 'Escalation paths and timelines'."
+- "Rename title 2.3 to 'Escalation paths and timelines'."
 
 **Add:**
 
@@ -162,9 +161,9 @@ Be direct and specific. Name the lesson or topic by its current title, describe 
 ### What the outline stage cannot do
 
 - The hierarchy is fixed as Lessons > Topics. You cannot create sub-topics or three-level structures.
-- You cannot set individual lesson objectives at this stage — the overall learning objective from the Brief applies to the full course.
 - You cannot add components or media at this stage. Those are added in the Course editor.
 
+<!--
 ### When to regenerate versus when to edit
 
 | Use conversational editing when... | Regenerate when... |
@@ -172,6 +171,7 @@ Be direct and specific. Name the lesson or topic by its current title, describe 
 | The overall structure is right but individual names or topics need adjusting | The overall structure doesn't match your intent at all |
 | You want to add or remove specific items | The Brief was refined significantly after the first outline was generated |
 | One lesson needs splitting or merging | The outline feels generic and lacks your organisation's specific context |
+-->
 
 ## Stage 4: Course- refine content through the assistant
 
