@@ -3,7 +3,7 @@ description: Learn how to save or unsave courses, learning paths, certifications
 jcr-language: en_us
 title: Saved by me widget
 exl-id: 123ff7ab-bdb5-495d-8254-67701e7be3eb
-hide: true
+
 ---
 
 ## The Saved by me widget
