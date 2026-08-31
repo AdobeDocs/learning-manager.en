@@ -34,7 +34,7 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 **Video thumbnails:** The learner can now quickly identify a video by its tile, which in turn displays a thumbnail to help identify its content at a glance. If the source video does not provide its own thumbnail image, Adobe Learning Manager automatically generates one using the channel theme color, an abstract pattern, and the video title.
 
-**Channels:** The Channels navigation option is visible to Learners only when at least one channel has been created, contains at least one video from its source, and is marked Visible to Learners.
+**Channels:** The Channels navigation option is visible to Learners only when at least one channel has been created, contains at least one video from its source, and is marked Visible to Learners. Learn more about [Channels](/help/migrated/administrators/feature-summary/create-channels.md).
 
 ## Bugs fixed
 
