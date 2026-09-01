@@ -84,11 +84,7 @@ _Filter custom roles_
 
    * Full access to **Courses** under Feature privileges – Learning Objects
    * Access to **Email Templates** under Account privileges
-
-   If a custom role has full access to Courses but does not have access to Email Templates under Account privileges, the email template loads without its layout.
-
-   This limitation will be removed once learning object–level email layout becomes available. At that point, the layout will load correctly regardless of whether Email Templates access is granted at the account level.
-
+   
 5. **Feature privileges - Core features**: Used to grant access to specific features for managing learning activities. Permissions to the following features can be given using this option. 
 
    Administrators can provide detailed permissions like read-only, create, edit, and delete permissions for the Catalogs.
