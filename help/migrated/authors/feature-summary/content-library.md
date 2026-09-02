@@ -281,7 +281,7 @@ Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables 
 #### Key features
 
 * Automatic VTT generation: Upload a video or audio file and auto-generate VTT captions in the original language.
-* Multi-language translation: Translate captions into any of the 10 supported non-English languages.
+* Multi-language translation: Translate captions into any of the 39 supported non-English languages.
 * In-app review and editing: Review, edit, and download VTT files before publishing.
 * Notifications: Receive in-app notifications when VTT generation and translation are complete.
 * Smooth publishing: Publish finalized captions for learners to access in their chosen language.
@@ -292,7 +292,7 @@ Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables 
 2. Upload your MP3 or MP4 file.
 3. In the upload dialog, select the option to **Generate Translation**.
 4. Select the original content language (default is the file's language).
-5. Select additional target languages for translation (up to 10 supported).
+5. Select additional target languages for translation (up to 39 supported).
 6. Select [!UICONTROL Save]. The system begins generating and translating VTT files.
 
 #### Monitor progress
@@ -317,7 +317,7 @@ Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables 
 
 #### Additional Information
 
-* **Supported Languages:** Ten non-English languages (French, German, Spanish, Italian, Portuguese, Dutch, Swedish, Indonesian, Norwegian Bokmal, and Danish) are supported by Adobe Learning Manager.
+* **Supported Languages:** All 39 non-English languages are supported by Adobe Learning Manager.
 * **Notifications:** Authors are notified when VTT generation and translation are complete.
 * Editing flexibility: Captions can be edited in-app or offline and re-uploaded.
 * **Scalability:** Designed for enterprise-scale localization and accessibility needs.
