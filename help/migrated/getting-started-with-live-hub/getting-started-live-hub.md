@@ -21,6 +21,8 @@ Many organizations rely on separate tools for course management, session deliver
 
 Live Hub addresses these challenges by bringing course delivery, collaboration, engagement, and tracking into one unified experience within Adobe Learning Manager.
 
+Before we dive into the step-by-step process, here’s a short walkthrough video to get an overview of Live Hub.
+
 >[!VIDEO](https://video.tv.adobe.com/v/3502433)
 
 ## What is Live Hub
