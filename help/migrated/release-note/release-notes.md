@@ -22,6 +22,8 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 +++Update 111: August 31, 2026 release of Adobe Learning Manager
 
+Release date: Aug 31, 2026
+
 ## Enhancements in this release
 
 **Saved by me widget**
