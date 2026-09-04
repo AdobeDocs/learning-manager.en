@@ -213,6 +213,7 @@ user-guide-description: Documentation for Adobe Learning Manager
          * [What is Content Composer](authors/feature-summary/content-composer/what-is-content-composer.md)
          * [How Content Composer works](authors/feature-summary/content-composer/how-content-composer-works.md)
          * [Who Content Composer is for](authors/feature-summary/content-composer/who-content-composer-is-for.md)
+         * [Configure Creative Cloud storage for Content Composer](authors/feature-summary/content-composer/configure-creative-cloud-storage-content-composer.md)
          * [What you need before you start](authors/feature-summary/content-composer/before-you-start.md)
          * [Ground your course in your own documents](authors/feature-summary/content-composer/ground-course-documents.md)
          * [What Content Composer is not](authors/feature-summary/content-composer/what-content-composer-is-not.md)
