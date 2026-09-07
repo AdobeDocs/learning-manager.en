@@ -2,15 +2,31 @@
 
 Create an AI roleplay scenario in Adobe Learning Manager Virtual Coach so learners can practice real-world conversations as part of a course or job aid. This article walks through the full process to create a Virtual Coach role play — from choosing a template through publishing to the Content Library.
 
-**Quick answer:** to create an AI roleplay scenario in Virtual Coach:
-1. Open **Virtual Coach** and select **Create now**.
-2. Choose a **Single-Persona** or **Multi-Persona** template.
-3. Optionally upload source material, then use the **AI Co-create Assistant**.
+Before you begin, confirm that Adobe Learning Manager Virtual Coach is enabled on your account and that you're signed in as an author. Virtual Coach builds every role play from the materials and prompt details you provide — it does not automatically pull in your organization's existing course content. If you haven't already, [gather materials for a virtual coach role play](#) before you start.
+
+To create an AI roleplay scenario in Virtual Coach:
+1. In the left navigation panel, select **Virtual Coach** and then select **Create now**.
+
+   ![](/help/migrated/authors/feature-summary/assets/virtual_coach1.png)
+
+2. From the **Featured** section, choose a **Single-Persona** or **Multi-Persona** template.
+
+   ![](/help/migrated/authors/feature-summary/assets/virtual_coach2.png)
+
+ The **Create Role-Play** window opens.
+
+   ![](/help/migrated/authors/feature-summary/assets/virtual_coach14.png)
+
+3. Optionally upload source material, then select **Co-create with AI**.
 4. Configure the persona, conversation opening, and evaluation topics.
 5. Set scoring weights and any **Make or Break** topics.
-6. Preview the role play, then **Publish**.
+6. If you are satisfied with the content, select **Approve content and continue**.
 
-Before you begin, confirm that Adobe Learning Manager Virtual Coach is enabled on your account and that you're signed in as an author. Virtual Coach builds every role play from the materials and prompt details you provide — it does not automatically pull in your organization's existing course content. If you haven't already, [gather materials for a virtual coach role play](#) before you start.
+   ![](/help/migrated/authors/feature-summary/assets/virtual-coach16.png)
+
+6. Preview the role-play and then **Publish**.
+
+   ![](/help/migrated/authors/feature-summary/assets/virtual_coach17.png)
 
 ## Open Virtual Coach and start a role play
 

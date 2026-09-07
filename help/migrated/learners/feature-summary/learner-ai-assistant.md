@@ -75,7 +75,7 @@ Adobe securely processes your learning content using trusted services.
 
 ### Catalog and content source limitations
 
-The AI Assistant only uses content from **Internal** catalogs that are explicitly configured by administrators.
+The AI Assistant only uses content from internal catalogs, external catalogs, and third-party content libraries. Answers to learners' queries are derived only from catalogs to which they have access.
 
 The following content sources aren't supported in the current release:
 

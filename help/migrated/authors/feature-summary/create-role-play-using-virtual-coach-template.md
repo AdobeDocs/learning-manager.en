@@ -6,17 +6,23 @@ The **Featured** and **Available Templates** sections of Virtual Coach contain a
 
 Templates are organized by domain, simulation type, and language. Use the filters to narrow the list by interaction type, such as **Voice Conversation** or **Webcam Practice**, or search by keyword to find a scenario closest to your use case.
 
-> **Tip:** Selecting a template doesn't lock you into its default configuration. Every field, including the persona background, topics, scoring weights, and conversation opening, can be edited after you select the template. Treat templates as a starting point, not a final design. For the full explanation of each configurable field, see [create and publish a virtual coach role play](#).
+>[!TIP]
+>
+>Selecting a template doesn't lock you into its default configuration. Every field, including the persona background, topics, scoring weights, and conversation opening, can be edited after you select the template. Treat templates as a starting point, not a final design. For the full explanation of each configurable field, see [create and publish a virtual coach role play](/help/migrated/authors/feature-summary/create-publish-virtual-coach-role-play.md).
+
 
 1. Sign in to Adobe Learning Manager as an author.
 2. Select **Virtual Coach** in the left navigation pane.
 3. Select **Create now**.
 4. Browse the **Available Templates** section, or use the **Search** bar and the domain, simulation type, and language filters to find a template that matches your scenario.
+
+   ![](assets/virtual_coach2.png)
+
 5. Select the template tile to open it. Review the persona, topics, and scoring configuration.
 
-   ![The Edit Role-Play screen for the Leadership Development: Addressing Underperformance template, showing the role-play title, conversation context, and persona background information already filled in.](images/template-role-play-settings-screen.png)
+   ![The Edit Role-Play screen for the Leadership Development: Addressing Underperformance template, showing the role-play title, conversation context, and persona background information already filled in.](/help/migrated/authors/feature-summary/assets/virtual_coach17.png)
    *Review the pre-filled conversation context and persona background before deciding whether to customize the template.*
 
 6. To use the template as-is, select **Publish**. To customize it first, select any section and edit the relevant fields before publishing.
 
-Once published, the role play is added to the **Content Library** and is ready to be added to a job aid and assigned to a course. See [add a virtual coach role play to a course](#) for those steps, or [practice a role play with virtual coach](#) to see the learner experience.
+Once published, the role play is added to the **Content Library** and is ready to be added to a job aid and assigned to a course. See [add a virtual coach role play to a course](/help/migrated/authors/feature-summary/add-virtual-coach-role-play-to-course.md) for those steps, or [practice a role play with virtual coach](/help/migrated/learners/feature-summary/practice-role-play-with-virtual-coach.md) to see the learner experience.

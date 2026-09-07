@@ -69,4 +69,4 @@ The **Session Recording** section shows your full conversation as a video playba
 - **Use the topic timeline to check timing.** Raising required topics earlier in the conversation often improves both knowledge and style scores.
 - **Replay your slowest WPM moments.** Slow pace is often caused by searching for the right word; preparing key phrases in advance can help.
 - **Treat a low energy score as a cue to review your opening.** Energy tends to be highest at the start and dip in the middle; practicing your transitions between topics helps maintain momentum.
-- **Retry the role play.** See [practice a role play with virtual coach](#) — every attempt generates a fresh, independent report, so use what you learned from one session in the next.
+- **Retry the role play.** See [practice a role play with virtual coach](/help/migrated/learners/feature-summary/practice-role-play-with-virtual-coach.md) — every attempt generates a fresh, independent report. So, use what you learned from one session in the next.

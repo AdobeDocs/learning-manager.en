@@ -10,14 +10,16 @@ Virtual Coach is available as an add-on to Adobe Learning Manager. After purchas
 2. Navigate to the **Billing** page from the left navigation pane.
 3. In the **Virtual Coach** section, enter the activation key you received by email.
 
-   ![The Billing page in Adobe Learning Manager, showing the Monthly Usage table with Unique Active Users by month, and a Use Activation Key field below it.](images/billing-activation-screen.png)
+   ![The Billing page in Adobe Learning Manager, showing the Monthly Usage table with Unique Active Users by month, and a Use Activation Key field below it.](/help/migrated/administrators/feature-summary/assets/virtual_coach12.png)
    *Enter your activation key in the Virtual Coach section of the Billing page to turn on the feature.*
 
 4. Select **Apply**. Virtual Coach is enabled for your account.
 
 Once activated, you receive an in-app notification confirming the feature is live. Four sample role-play scenarios are added automatically to the **Content Library** so authors can begin immediately.
 
-> **Note:** The activation key is auto-generated during provisioning and shared by email. If you don't have the activation key, contact your Adobe Learning Manager Customer Success Manager.
+>[!NOTE]
+>
+>The activation key is auto-generated during provisioning and shared by email. If you don't have the activation key, contact your Adobe Learning Manager Customer Success Manager.
 
 ## View your MAU credit balance
 
@@ -25,6 +27,9 @@ Monthly Active User (MAU) credits count the number of unique learners who use Vi
 
 1. Navigate to the **Billing** page.
 2. In the **Virtual Coach** section, select **View Usage Details**.
+
+   ![](assets/virtual-coach22.png)
+
 3. Use the **Select period** drop-down to choose the date range you want to review.
 
 The **Overall Usage** table shows:
@@ -34,6 +39,8 @@ The **Overall Usage** table shows:
 - **Remaining**: credits available for the rest of the contract period.
 
 The **Monthly Usage** table shows the number of unique active learners by calendar month.
+
+   ![](assets/virtual-coach23.png)
 
 4. Select **Download Detailed Report** to export the full usage data.
 
@@ -61,7 +68,7 @@ An MAU credit is consumed when a learner completes a Virtual Coach session in a 
 
 The **Reports** > **AI Reports** page provides usage and performance data for all Virtual Coach activity across your organization. All reports are exported in CSV format; report generation may take several minutes depending on the data size.
 
-![The AI Reports page, showing the Virtual Coach section with two report links: Learner Usage Summary and Session Details.](images/ai-reports-screen.png)
+![The AI Reports page, showing the Virtual Coach section with two report links: Learner Usage Summary and Session Details.](/help/migrated/administrators/feature-summary/assets/virtual_coach13.png)
 *Download the Learner Usage Summary or Session Details report from the AI Reports page.*
 
 Two reports are available under the **Virtual Coach** heading:
@@ -78,4 +85,4 @@ Two reports are available under the **Virtual Coach** heading:
 5. Select the date range when prompted, then select **Proceed**.
 6. The report downloads automatically as a CSV file.
 
-For answers to common licensing and usage questions, see the [Adobe Learning Manager Virtual Coach FAQ](#).
+For answers to common licensing and usage questions, see the [Adobe Learning Manager Virtual Coach FAQ](/help/migrated/administrators/feature-summary/alm-virtual-coach-faq.md).
