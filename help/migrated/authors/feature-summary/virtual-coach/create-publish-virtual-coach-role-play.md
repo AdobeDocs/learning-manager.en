@@ -1,8 +1,8 @@
-# Create and publish a Virtual Coach role play
+# Create and publish a Virtual Coach role-play
 
-Create an AI roleplay scenario in Adobe Learning Manager Virtual Coach so learners can practice real-world conversations as part of a course or job aid. This article walks through the full process to create a Virtual Coach role play — from choosing a template through publishing to the Content Library.
+Create an AI roleplay scenario in Adobe Learning Manager Virtual Coach so learners can practice real-world conversations as part of a course or job aid. This article walks through the full process to create a Virtual Coach role-play — from choosing a template through publishing to the Content Library.
 
-Before you begin, confirm that Adobe Learning Manager Virtual Coach is enabled on your account and that you're signed in as an author. Virtual Coach builds every role play from the materials and prompt details you provide — it does not automatically pull in your organization's existing course content. If you haven't already, [gather materials for a virtual coach role play](#) before you start.
+Before you begin, confirm that Adobe Learning Manager Virtual Coach is enabled on your account and that you're signed in as an author. Virtual Coach builds every role-play from the materials and prompt details you provide — it does not automatically pull in your organization's existing course content. If you haven't already, [gather materials for a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md) before you start.
 
 To create an AI roleplay scenario in Virtual Coach:
 1. In the left navigation panel, select **Virtual Coach** and then select **Create now**.
@@ -13,55 +13,56 @@ To create an AI roleplay scenario in Virtual Coach:
 
    ![](/help/migrated/authors/feature-summary/assets/virtual_coach2.png)
 
- The **Create Role-Play** window opens.
+   The **Create Role-Play** window opens.
 
    ![](/help/migrated/authors/feature-summary/assets/virtual_coach14.png)
 
 3. Optionally upload source material, then select **Co-create with AI**.
 4. Configure the persona, conversation opening, and evaluation topics.
-5. Set scoring weights and any **Make or Break** topics.
-6. If you are satisfied with the content, select **Approve content and continue**.
+5. Select **Edit** in the **Topics to Cover** section. Set scoring weights and any **Make or Break** topics.
+6. Each of the sections can be edited in this way.
+7. If you are satisfied with the content, select **Approve content and continue**.
 
    ![](/help/migrated/authors/feature-summary/assets/virtual-coach16.png)
 
-6. Preview the role-play and then **Publish**.
+8. Preview the role-play and then **Publish**.
 
    ![](/help/migrated/authors/feature-summary/assets/virtual_coach17.png)
 
-## Open Virtual Coach and start a role play
+## Open Virtual Coach and start a role-play
 
-There are two ways to create a Virtual Coach role play: start from a template, or build one from scratch with the AI Co-create Assistant. This section covers building from scratch.
+There are two ways to create a Virtual Coach role-play: start from a template, or build one from scratch with the AI Co-create Assistant. This section covers building from scratch.
 
 1. Sign in to Adobe Learning Manager as an author.
 2. Select **Virtual Coach** in the left navigation pane.
 
-   ![The Author home page in Adobe Learning Manager, with the Virtual Coach option highlighted under the Create section of the left navigation pane.](images/author-home-virtual-coach-nav.png)
-   *Select Virtual Coach under Create in the left navigation pane to start building a role play.*
+   ![](/help/migrated/authors/feature-summary/assets/virtual_coach1.png)
+   *Select Virtual Coach under Create in the left navigation pane to start building a role-play.*
 
 3. On the **Virtual Coach** page, select **Create now**.
 4. Select a template from the **Featured** section or the **Available Templates** section. Featured templates include two options for building from scratch:
    - **Single-Persona Role-Play (AI Assistant)**: the learner interacts with one AI persona. Use this for a customer conversation, a leadership discussion, a discovery call, or a coaching conversation.
    - **Multi-Persona Role-Play (Beta)**: the learner interacts with up to four AI personas in the same conversation. Use this for an executive committee review, a procurement, finance, and legal panel, or a customer negotiation involving several stakeholders — for example, a product launch readiness scenario where a rep must pitch a new offering to a CFO, a Procurement Manager, an IT Director, and an end-user Champion in one session.
 
-   ![The Virtual Coach template gallery, showing Single-Persona Role-Play, Multi-Persona Role-Play, and several pre-built templates organized by domain.](images/virtual-coach-templates-gallery.png)
+   ![](/help/migrated/authors/feature-summary/assets/virtual_coach2.png)
    *Choose Single-Persona Role-Play or Multi-Persona Role-Play from the Featured section to build a scenario from scratch, or select a pre-built template below.*
 
-   For this example, select **Single-Persona Role-Play (AI Assistant)** from the **Featured** section. To start from a ready-made scenario instead, see [create a role play using a virtual coach template](#).
+   For this example, select **Single-Persona Role-Play (AI Assistant)** from the **Featured** section. To start from a ready-made scenario instead, see [create a role-play using a Virtual Coach template](/help/migrated/authors/feature-summary/virtual-coach/create-role-play-using-virtual-coach-template.md).
 5. Optionally, select **Upload files** to add supporting documents, such as a product datasheet, playbook, or call recording. The AI Co-create Assistant uses these to build a more accurate scenario. Skip this step if you have no relevant files.
 6. Select **Co-Create With AI**. When the confirmation message appears, select **Generate**.
-7. Enter a description for your role play. Use a description that outlines the scenario, such as `Handling price objections in enterprise sales` or `Pitching our new product to a buying committee`.
-8. Continue the conversation with the AI assistant, adding more context about the scenario. The assistant explains that a role play has three main components — **Overview** (title and conversation context), **AI persona** (name, organization, role, background, concerns, and so on), and **Evaluation Topics** (the criteria used to score learners) — and asks whether you want to build these step by step or generate them all at once.
+7. Enter a description for your role-play. Use a description that outlines the scenario, such as `Handling price objections in enterprise sales` or `Pitching our new product to a buying committee`.
+8. Continue the conversation with the AI assistant, adding more context about the scenario. The assistant explains that a role-play has three main components — **Overview** (title and conversation context), **AI persona** (name, organization, role, background, concerns, and so on), and **Evaluation Topics** (the criteria used to score learners) — and asks whether you want to build these step by step or generate them all at once.
 9. Continue adding information or select **Approve content and continue** when you're satisfied.
 
 ## Configure role-play settings
 
-After you create a Virtual Coach role play using the AI Co-create Assistant, the **Edit Role-Play** screen opens. Your progress is saved automatically, as shown by the **Saved** indicator in the upper-right corner. You can leave and return to this screen at any time without losing your work.
+After you create a Virtual Coach role-play using the AI Co-create Assistant, the **Edit Role-Play** screen opens. Your progress is saved automatically, as shown by the **Saved** indicator in the upper-right corner. You can leave and return to this screen at any time without losing your work.
 
 From this screen, you have three options:
 
-- **Save** saves the current state without publishing. The role play is added to the **Available Templates** section of your Virtual Coach library, where you can return to edit it later.
-- **Preview** runs a live test session so you can experience the role play as a learner before anyone else does. Use this to check that the persona sounds natural and the topics flow correctly.
-- **Publish** adds the role play to the **Content Library** so it can be assigned to a course or job aid.
+- **Save** saves the current state without publishing. The role-play is added to the **Available Templates** section of your Virtual Coach library, where you can return to edit it later.
+- **Preview** runs a live test session so you can experience the role-play as a learner before anyone else does. Use this to check that the persona sounds natural and the topics flow correctly.
+- **Publish** adds the role-play to the **Content Library** so it can be assigned to a course or job aid.
 
 To make changes to the generated content without editing fields manually, select **Edit with AI**. This opens the AI chat interface and lets you describe the changes you want in plain language, for example, `make the persona more formal` or `add a topic about pricing objections`.
 
@@ -75,14 +76,16 @@ If you used **Co-Create with AI** or **Auto-Generate Role-Play**, these fields a
 
 ### Conversation context
 
-The **Conversation Context** field sets the stage for the learner. It tells the AI persona the background and purpose of the role play so the persona understands why the conversation is happening and what the main focus should be.
+The **Conversation Context** field sets the stage for the learner. It tells the AI persona the background and purpose of the role-play so the persona understands why the conversation is happening and what the main focus should be.
 
-> **Note:** This field is written for the AI persona, not for the learner. Don't include instructions or guidelines intended for the learner here — use the **AI Trainer Opener** field, described later in this article, for learner-facing context.
+>[!NOTE]
+>
+>This field is written for the AI persona, not for the learner. Do not include instructions or guidelines intended for the learner here. Use the **AI Trainer Opener** field, described later in this article, for learner-facing context.
 
 When writing the conversation context:
 
 - **Explain the situation.** Describe what type of conversation this is, such as a sales discovery call, a cold call, or an elevator pitch, and who initiated it.
-- **Describe the AI persona's position.** Explain who the persona is in relation to the learner — for example, a customer evaluating a product, a CFO reviewing a budget proposal, or an employee receiving feedback.
+- **Describe the AI persona's position.** Explain who the persona is in relation to the learner. For example, a customer evaluating a product, a CFO reviewing a budget proposal, or an employee receiving feedback.
 - **Use "the learner" consistently.** When referring to the person the persona is speaking with, always write "the learner." Avoid labels such as "the agent," "the seller," or "the rep," which can cause inconsistent persona behavior.
 - **Keep it concise.** Include only information relevant to the conversation setup. Save persona-specific details for **Persona Background Information**.
 
@@ -96,42 +99,48 @@ The **Persona Background Information** field gives the AI persona a personality.
 
 Include:
 
-- **Basic details**: the persona's name, age, role, and current situation as it relates to the topic and goal of the role play.
+- **Basic details**: the persona's name, age, role, and current situation as it relates to the topic and goal of the role-play.
 - **Motivations and goals**: what the persona cares about, wants to achieve, or wants to change, and their pain points.
 - **Beliefs and attitudes**: how the persona feels about the conversation topic and about the learner's organization.
 - **Behaviors and habits**: tendencies that shape the persona's perspective, such as cautious decision-making or an eagerness to adopt new tools.
 - **Decision criteria**: what convinces the persona to move forward, and any constraints they're working within, such as time, budget, or approval processes.
 
-> **Tip:** Specific details help the persona respond in a natural and believable way. Generic backgrounds produce generic behavior.
+>[!TIP]
+>
+>Specific details help the persona respond in a natural and believable way. Generic backgrounds produce generic behavior.
 
 ### Persona concerns
 
-**Persona Concerns** define the specific issues, worries, or questions the persona raises during the conversation. These concerns drive the flow of the role play and ensure the learner has to respond to realistic challenges.
+**Persona Concerns** define the specific issues, worries, or questions the persona raises during the conversation. These concerns drive the flow of the role-play and ensure the learner has to respond to realistic challenges.
 
 - **List three to five concerns.** Phrase each one as a concern or question, and make it specific and actionable. Avoid vague concerns such as "worried about cost"; write "concerned that the annual license cost will exceed the department's discretionary budget without CFO approval."
 - **Focus each concern on a single topic.** One concern per issue keeps the conversation manageable and ensures each challenge is clearly assessed.
 - **Specify when the concern comes up.** Indicate the point in the conversation when the persona raises it.
-- **Define what's good enough to proceed.** Describe what would let the conversation move forward — for example, the learner reassures the persona, provides a reference, or offers documentation.
+- **Define what's good enough to proceed.** Describe what would let the conversation move forward. For example, the learner reassures the persona, provides a reference, or offers documentation.
 
 Write each concern using this structure: **concern → when it comes up → what's good enough to move forward.**
 
-**Example:** "Concern — Clinical content accuracy: comes up when the learner describes the content authoring process. Good enough: the learner explicitly states that content is authored by medical professionals, peer-reviewed, and linked to primary literature or recognized clinical guidelines."
+**Example:** "Concern — Clinical content accuracy: comes up when the learner describes the content authoring process. Good enough: The learner explicitly states that content is authored by medical professionals, peer-reviewed, and linked to primary literature or recognized clinical guidelines."
 
 Once you've filled in the relevant information, select **Save**.
 
-> **Tip:** Test concern timing with **Preview**. A concern that appears too early or too late disrupts the flow of the conversation.
+>[!TIP]
+>
+>Test concern timing with **Preview**. A concern that appears too early or too late disrupts the flow of the conversation.
 
-> **Note:** Changes to persona settings take effect immediately for any unpublished role play. If you edit a role play that's already published and assigned to learners, republish it to apply the updated persona to future sessions.
+>[!NOTE]
+>
+>Changes to persona settings take effect immediately for any unpublished role-play. If you edit a role-play that's already published and assigned to learners, republish it to apply the updated persona to future sessions.
 
 ## Configure a presentation for your simulation
 
-Use the **Presentation Settings** section to attach a slide deck to your role-play simulation. When a presentation is attached, learners can view it during the session as a reference or talking aid — for example, a product overview deck used during a sales pitch simulation.
+Use the **Presentation Settings** section to attach a slide deck to your role-play simulation. When a presentation is attached, learners can view it during the session as a reference or talking aid. For example, a product overview deck used during a sales pitch simulation.
 
 1. Select **Upload PDF or PPTX** under **Presentation Details**.
 2. Select your file. Both PDF and PPTX formats are supported, with a maximum file size of 100 MB.
 3. Once uploaded, the file name appears below the button, confirming the attachment.
 
-   ![The Edit Role-Play screen with a PowerPoint presentation named Sales Pitch - Medical.pptx uploaded and its slide thumbnails shown along the bottom.](images/presentation-details-screen.png)
+   ![](/help/migrated/authors/feature-summary/assets/virtual_coach3.png)
    *Attach a presentation so learners can reference it as a talking aid during their simulation.*
 
 4. Select **Done** to save the setting and return to the role-play configuration.
@@ -140,11 +149,13 @@ Once you upload a presentation, the **Allow learners to upload their own present
 
 Select **Allow learners to upload their own presentation** if you want each learner to practice with their own version of a deck rather than a shared one. This is useful when learners are assessed on a presentation they've personally prepared, such as a business review or a custom sales pitch. This toggle is disabled by default; when enabled, learners see an upload prompt at the start of their session.
 
-> **Note:** Make sure any presentation you upload is accessible. Use sufficient color contrast, include alt text for images, and avoid content that relies on color alone to convey meaning.
+>[!NOTE]
+>
+>Make sure any presentation you upload is accessible. Use sufficient color contrast, include alt text for images, and avoid content that relies on color alone to convey meaning.
 
 ## Set up the AI persona
 
-The **AI Persona Setup** section controls who the learner speaks with during the simulation, along with their appearance, voice, role, and behavioral personality. Getting this section right is one of the most important parts of how you create an AI roleplay scenario, since a well-configured AI avatar persona makes the role play feel realistic and ensures the AI behaves consistently with the scenario you've designed.
+The **AI Persona Setup** section controls who the learner speaks with during the simulation, along with their appearance, voice, role, and behavioral personality. Getting this section right is one of the most important parts of how you create an AI roleplay scenario, since a well-configured AI avatar persona makes the role-play feel realistic and ensures the AI behaves consistently with the scenario you've designed.
 
 ### Choose a persona
 
@@ -152,10 +163,10 @@ Two tabs are available: **System Personas** and **Custom Personas**.
 
 **System Personas** are pre-built characters provided by Adobe. Each has a name, a photo, and one or two supported interaction modes: **Voice & Video** (the persona appears as an animated avatar with a spoken voice) or **Voice** (spoken voice only, with no video avatar). Select a system persona by selecting its tile.
 
-**Custom Personas** are personas you've previously created. Select this tab to reuse an AI avatar persona from an earlier role play instead of building one from scratch.
+**Custom Personas** are personas you've previously created. Select this tab to reuse an AI avatar persona from an earlier role-play instead of building one from scratch.
 
-![The Custom Personas tab, showing a grid of previously created personas including Alex Carter, Karen Mitchell, Neil Kapoor, and Nikki Stier, each tagged Voice.](images/custom-personas-grid.png)
-*Reuse a custom persona from an earlier role play instead of building a new one from scratch.*
+![](/help/migrated/authors/feature-summary/assets/virtual_coach4.png)
+*Reuse a custom persona from an earlier role-play instead of building a new one from scratch.*
 
 You can reuse a persona in two ways: edit its details directly to turn it into a different persona, or select **Duplicate** to create a copy and change the copy's details. To see both options, select the vertical ellipsis (**⋮**) icon that appears in the upper-right corner of a persona's image when you hover over or select it.
 
@@ -164,7 +175,7 @@ You can reuse a persona in two ways: edit its details directly to turn it into a
 After selecting a persona, complete the **AI Persona Details** fields:
 
 1. Enter the persona's **Role** — their job title as it should appear in the simulation, for example, Medical Affairs Director.
-2. Enter the persona's **Organization** — the company or institution they work for, for example, Northgate Health.
+2. Enter the persona's **Organization** — the company or institution they work for. For example, Northgate Health.
 3. Select a **Personality** that matches the challenge level and scenario context:
 
 | Personality | Behavior |
@@ -179,7 +190,9 @@ After selecting a persona, complete the **AI Persona Details** fields:
 4. Optionally, enable **Allow learners to select this option before role-play starts** to let learners choose the persona's personality before launching the session. This is useful for practice-mode scenarios where learners want to control the difficulty.
 5. Select **Done** to save the persona configuration.
 
-> **Tip:** Match the personality to the scenario challenge. A cold-call scenario benefits from a **Skeptical** or **Indifferent** persona to simulate a difficult prospect. A leadership feedback scenario works well with **Assertive** or **Relationship Oriented** to reflect realistic manager-employee dynamics.
+>[!TIP]
+>
+>Match the personality to the scenario challenge. A cold-call scenario benefits from a **Skeptical** or **Indifferent** persona to simulate a difficult prospect. A leadership feedback scenario works well with **Assertive** or **Relationship Oriented** to reflect realistic manager-employee dynamics.
 
 ### Create a custom persona
 
@@ -190,26 +203,28 @@ If the system personas don't fit your scenario, create a new one from the **Cust
 3. Enter the persona's **First Name**.
 4. Select a **Voice** from the drop-down menu to set the AI's speaking voice.
 5. Adjust the **Voice rate** slider to control speaking speed, from -100 (slowest) to +100 (fastest). The default is 0 (neutral pace). Select **Test Voice** to preview how the voice sounds before saving.
-6. Select **Create persona**. The new persona is saved to your **Custom Personas** tab and available for use in any future role play.
+6. Select **Create persona**. The new persona is saved to your **Custom Personas** tab and available for use in any future role-play.
 
-> **Note:** Custom personas support voice interaction. Confirm the voice rate sounds natural for the scenario before publishing — a very fast or very slow rate can make the simulation feel unnatural and affect the learner's pace score.
+>[!NOTE]
+>
+>Custom personas support voice interaction. Confirm the voice rate sounds natural for the scenario before publishing — a very fast or very slow rate can make the simulation feel unnatural and affect the learner's pace score.
 
-Enabling **Video Avatar** adds a photorealistic AI video avatar to the role play. Video avatars are available for personas that support **Voice & Video** mode. Each learner gets 300 minutes of video role-play per month; once this limit is reached, the experience changes to a static avatar.
+Enabling **Video Avatar** adds a photorealistic AI video avatar to the role-play. Video avatars are available for personas that support **Voice & Video** mode. Each learner gets 300 minutes of video role-play per month; once this limit is reached, the experience changes to a static avatar.
 
-### Configure a multi-persona role play
+### Configure a multi-persona role-play
 
-Use a multi-persona role play when the learner needs to navigate a conversation involving more than one stakeholder in the same session — for example, pitching a new product to a buying committee made up of a CFO, a Procurement Manager, an IT Director, and an end-user Champion. Multi-persona role plays support **up to four personas** in a single scenario.
+Use a multi-persona role-play when the learner needs to navigate a conversation involving more than one stakeholder in the same session. For example, pitching a new product to a buying committee made up of a CFO, a Procurement Manager, an IT Director, and an end-user Champion. Multi-persona role-plays support **up to four personas** in a single scenario.
 
-1. Select **Multi-Persona Role-Play** as your template when you start the role play.
-2. Add each persona and assign it a distinct role — for example, CFO, Procurement Manager, IT Director, and Champion.
+1. Select **Multi-Persona Role-Play** as your template when you start the role-play.
+2. Add each persona and assign it a distinct role. For example, CFO, Procurement Manager, IT Director, and Champion.
 3. Configure a separate personality for each persona, following the same **AI Persona Details** steps described above.
-4. Define unique concerns for each persona, using the same concern structure described in **Persona concerns** — each persona asks questions and raises objections from its own perspective, so the learner has to adapt their message for each stakeholder in turn rather than giving one generic pitch.
+4. Define unique concerns for each persona, using the same concern structure described in **Persona concerns.** Each persona asks questions and raises objections from its own perspective, so the learner has to adapt their message for each stakeholder in turn rather than giving one generic pitch.
 
 ## Configure the conversation opening
 
 The **Conversation Opening** section controls the first two things a learner hears when a simulation starts: a brief context statement from the AI trainer, followed by the AI persona's opening line.
 
-![The Conversation Opening section of the Edit Role-Play screen, showing the AI Trainer Opener text "You're about to have a conversation with David. Good luck!" and the AI Persona Opener "Hello? Who is this?"](images/conversation-opening-screen.png)
+![](/help/migrated/authors/feature-summary/assets/virtual_coach5.png)
 *The AI trainer sets the stage first, then the AI persona opens the conversation in character.*
 
 **AI Trainer Opener** is a short message spoken by the trainer, not the persona, before the conversation begins. It tells the learner who they're about to speak with, what the objective is, and any relevant context they need going in. Select **Edit** to update the text. Keep it brief and direct. For more demanding scenarios, include the objective explicitly, for example: "You're about to make a cold call to a senior procurement lead. Your goal is to secure a follow-up meeting."
@@ -225,13 +240,15 @@ The **Conversation Opening** section controls the first two things a learner hea
 
 Select **Preview** to hear both openers played in sequence, exactly as the learner will experience them at the start of a session.
 
-> **Tip:** If the AI Trainer Opener and AI Persona Opener feel too similar in tone, the transition between them can be confusing. Keep the trainer opener neutral and instructional; let the persona opener carry the personality.
+>[!TIP]
+>
+>If the AI Trainer Opener and AI Persona Opener feel too similar in tone, the transition between them can be confusing. Keep the trainer opener neutral and instructional; let the persona opener carry the personality.
 
 ## Configure topics and evaluation criteria
 
 The **Topics to Cover** section defines what the learner must address during the simulation and how the AI evaluates their performance on each topic — this is your AI roleplay scoring rubric. Every topic you add becomes a scored component in the learner's knowledge report.
 
-> **Before you begin:** Complete the **Personalize Your Simulation** section first. The AI uses your conversation context and persona background to generate accurate evaluation guidelines for each topic.
+**Before you begin:** Complete the **Personalize Your Simulation** section first. The AI uses your conversation context and persona background to generate accurate evaluation guidelines for each topic.
 
 Each row in the topics table represents one required area of conversation:
 
@@ -244,7 +261,7 @@ Each row in the topics table represents one required area of conversation:
 | Helpful link | An optional URL shown on the learner's analysis page alongside the evaluation criteria |
 | Make or Break | When enabled, if the learner doesn't address this topic at all, the simulation's final score is 0, regardless of performance on other topics |
 
-![The Custom topics table with an in-app guide explaining each of its five columns, and a sample row for a topic called Pitching for sales of MedEval software app.](images/custom-topics-table.png)
+![](/help/migrated/authors/feature-summary/assets/virtual_coach6.png)
 *Each topic row defines what to evaluate, how much it's worth, and whether it's required to pass.*
 
 ### Add a topic
@@ -267,7 +284,7 @@ Each row in the topics table represents one required area of conversation:
 
 ### Guidelines for writing effective topics
 
-A strong AI roleplay scoring rubric makes the difference between a role play that feels fair and one that feels arbitrary. Keep these guidelines in mind:
+A strong AI roleplay scoring rubric makes the difference between a role-play that feels fair and one that feels arbitrary. Keep these guidelines in mind:
 
 - **Name topics after conversation stages, not product features.** Topics like `Opening and Rapport`, `Needs Discovery`, and `Agreeing Next Steps` reflect the structure of a real conversation.
 - **Write evaluation guidelines as observable actions.** The AI assesses what the learner said, so guidelines must describe specific, audible behaviors, not intentions. Compare "the learner should understand the persona's concerns" (weak) with "the learner needs to ask the persona to name their primary concern and confirm they heard it before responding" (strong).
@@ -277,15 +294,19 @@ A strong AI roleplay scoring rubric makes the difference between a role play tha
 
 ## Configure language settings
 
-The **Language Settings** section controls whether learners can choose the language they practice in when they launch the simulation. Enable **Allow learners to choose their practice language** to let each learner select their preferred language at the start of the session. Leave this disabled if you want all learners to practice in the language the role play was authored in — the recommended setting for formal assessments where language consistency is part of the evaluation criteria.
+The **Language Settings** section controls whether learners can choose the language they practice in when they launch the simulation. Enable **Allow learners to choose their practice language** to let each learner select their preferred language at the start of the session. Leave this disabled if you want all learners to practice in the language the role-play was authored in — the recommended setting for formal assessments where language consistency is part of the evaluation criteria.
 
-> **Note:** Virtual Coach supports simulation content in nine languages. Learner language selection is only meaningful if your scenario content and persona are written to support multilingual use; if your evaluation guidelines and persona background are written in a single language, enabling this setting may produce inconsistent AI responses for learners who select a different language.
+>[!NOTE]
+>
+>Virtual Coach supports simulation content in nine languages. Learner language selection is only meaningful if your scenario content and persona are written to support multilingual use; if your evaluation guidelines and persona background are written in a single language, enabling this setting may produce inconsistent AI responses for learners who select a different language.
 
 ## Configure on-screen action analysis
 
-The **On-Screen Action Analysis** section lets you upload a best-practice video that shows the AI how to score the actions a learner takes during the role play. This is most useful for simulations where the learner is expected to demonstrate specific actions visibly on screen, such as navigating a software interface, completing a form, or following a defined process step by step.
+The **On-Screen Action Analysis** section lets you upload a best-practice video that shows the AI how to score the actions a learner takes during the role-play. This is most useful for simulations where the learner is expected to demonstrate specific actions visibly on screen, such as navigating a software interface, completing a form, or following a defined process step by step.
 
-> **Note:** This option is disabled if you've uploaded only PowerPoint or PDF files in the **Presentation Settings** section.
+>[!NOTE]
+>
+>This option is disabled if you've uploaded only PowerPoint or PDF files in the **Presentation Settings** section.
 
 1. Select **Select file** to open the file browser.
 2. Select your video file and confirm the upload.
@@ -301,15 +322,17 @@ Your video must meet these requirements:
 | Minimum frame rate | 5 FPS |
 | Aspect ratio | Between 4:3 and 21:9 |
 
-When recording a best-practice video, describe every action in audio and on screen at the same time — for example, say "I'm now selecting the Submit button" while doing so, since the AI relies on both the narration and the visual action. Keep the recording focused on the task, remove notifications and unrelated content, and match the video to your evaluation guidelines so it demonstrates each required action at the point in the workflow where it's expected to occur.
+When recording a best-practice video, describe every action in audio and on screen at the same time. For example, say "I'm now selecting the Submit button" while doing so, since the AI relies on both the narration and the visual action. Keep the recording focused on the task, remove notifications and unrelated content, and match the video to your evaluation guidelines so it demonstrates each required action at the point in the workflow where it's expected to occur.
 
 ## Configure score settings
 
 **Passing Score** is the minimum overall score a learner must achieve for the simulation to be marked as passed, applied to the weighted combination of knowledge and style scores. Enter a number between 1 and 100 in the **Passing score** field (the default is 80), and select **Done**.
 
-> **Tip:** For formal assessments, a passing score of 75 to 80 is typical. For practice-mode role plays where the goal is skill development rather than certification, consider a lower threshold or enable **Practice Mode**.
+>[!TIP]
+>
+>For formal assessments, a passing score of 75 to 80 is typical. For practice-mode role-plays where the goal is skill development rather than certification, consider a lower threshold or enable **Practice Mode**.
 
-**AI Scoring Weights** set how much the Knowledge component (whether the learner covered required topics and gave accurate information) and the Style component (pace, clarity, filler words, sentence length, energy) each contribute to the overall score. Drag the slider to adjust the balance; the two values always total 100%, and the default is Knowledge 70% / Style 30%. For guidance on how learners interpret these scores, see [understand your virtual coach performance report](#).
+**AI Scoring Weights** set how much the Knowledge component (whether the learner covered required topics and gave accurate information) and the Style component (pace, clarity, filler words, sentence length, energy) each contribute to the overall score. Drag the slider to adjust the balance; the two values always total 100%, and the default is Knowledge 70% / Style 30%. For guidance on how learners interpret these scores, see [understand your Virtual Coach performance report](/help/migrated/learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md).
 
 | Scenario type | Recommended ratio | Reason |
 |---|---|---|
@@ -320,9 +343,11 @@ When recording a best-practice video, describe every action in audio and on scre
 
 **Enable Practice Mode for learners** lets learners request hints during the simulation to help them stay on track — useful for early-stage learning. When enabled, you can set **Max Hints Per Session** (default 5, adjustable from 1–10) and hint visibility duration (default 30 seconds).
 
-> **Note:** Hints aren't available during formal assessments. If you're using this role play as a graded assessment, disable Practice Mode so all learners are evaluated under the same conditions.
+>[!NOTE]
+>
+>Hints aren't available during formal assessments. If you're using this role-play as a graded assessment, disable Practice Mode so all learners are evaluated under the same conditions.
 
-**Hide score** prevents learners from seeing their numerical score after the session; they still receive qualitative feedback and topic-level analysis. Use this when the role play is for practice only, when only a manager evaluator should see the result, or when you want to reduce score anxiety in early learning stages.
+**Hide score** prevents learners from seeing their numerical score after the session; they still receive qualitative feedback and topic-level analysis. Use this when the role-play is for practice only, when only a manager evaluator should see the result, or when you want to reduce score anxiety in early learning stages.
 
 ## Configure advanced role-play settings
 
@@ -339,24 +364,26 @@ These optional settings control how and when the simulation ends and how the ses
 | Full sales conversation or leadership discussion | 15–20 minutes |
 | Formal assessment with multiple topics | Match the expected real-world conversation length |
 
-**Short Session Penalty** discourages learners from ending sessions too quickly by applying a score reduction if the session falls below a minimum duration you set. Use this when session length is meaningful to the learning objective — for example, in a discovery call where the learner must spend enough time uncovering needs before proposing a solution.
+**Short Session Penalty** discourages learners from ending sessions too quickly by applying a score reduction if the session falls below a minimum duration you set. Use this when session length is meaningful to the learning objective. For example, in a discovery call where the learner must spend enough time uncovering needs before proposing a solution.
 
-> **Note:** Don't use Short Session Penalty in practice-mode role plays where learners are still building confidence, since penalizing early exits can increase anxiety and discourage repeated attempts.
+>[!NOTE]
+>
+>Don't use Short Session Penalty in practice-mode role-plays where learners are still building confidence, since penalizing early exits can increase anxiety and discourage repeated attempts.
 
 **Enable screen sharing** lets learners share their screen during the simulation. This is relevant for scenarios that include an **On-Screen Action Analysis** component. It's disabled by default if you've uploaded only PowerPoint or PDF documents in **Presentation Settings**.
 
 **Enable AI persona subtitles** displays on-screen text of what the AI persona is saying in real time. Enable this for learners with hearing difficulties or practicing in a second language, for noisy environments, or for scenarios where reading the persona's exact words matters for understanding nuanced objections.
 
-## Publish the Virtual Coach role play
+## Publish the Virtual Coach role-play
 
 After configuring all sections, select **Publish**.
 
-![The Add Virtual Coach screen, showing fields for Name, Description, Content, Add to Folder, Duration, Tags, and Expiry Date, with a Save button in the upper right.](images/add-virtual-coach-publish-screen.png)
-*Complete the publish details and select Save to add your role play to the Content Library.*
+![](/help/migrated/authors/feature-summary/assets/virtual_coach7.png)
+*Complete the publish details and select Save to add your role-play to the Content Library.*
 
 1. Enter the role-play title.
-2. Select the folder where you want to add the role play.
+2. Select the folder where you want to add the role-play.
 3. Optionally add tags and an expiry date.
-4. Select **Save**. The role play is added to the **Content Library**.
+4. Select **Save**. The role-play is added to the **Content Library**.
 
-You've now created a Virtual Coach role play from start to finish in Adobe Learning Manager Virtual Coach. Continue to [add a virtual coach role play to a course](#) to make it available to learners. For answers to common authoring questions — including why a role play might score zero, how many personas a multi-persona role play supports, and how to write a good prompt for the AI Co-create Assistant — see the [Virtual Coach authoring FAQ](#).
+You've now created a Virtual Coach role-play from start to finish in Adobe Learning Manager Virtual Coach. Continue to [add a Virtual Coach role-play to a course](/help/migrated/authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md) to make it available to learners. For answers to common authoring questions — including why a role-play might score zero, how many personas a multi-persona role-play supports, and how to write a good prompt for the AI Co-create Assistant — see the [Virtual Coach authoring FAQ](/help/migrated/authors/feature-summary/virtual-coach/virtual-coach-authoring-faq.md).

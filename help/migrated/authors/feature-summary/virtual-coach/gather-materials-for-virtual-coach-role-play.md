@@ -1,4 +1,4 @@
-# Gather materials for a Virtual Coach role play
+# Gather materials for a Virtual Coach role-play
 
 Use this reference to prepare the documents, context, and prompt details a Virtual Coach role-play needs before you start building.
 
@@ -60,4 +60,4 @@ _The role-play should test whether the learner can [primary task they must perfo
 
 **Example, using the product launch readiness use case:** _"I want to build a single multi-persona pitch role-play focused on positioning our new security add-on to an enterprise buying committee. The scenario should place the learner, an Account Executive at our company, in a scheduled solution-review meeting with four stakeholders at a mid-sized logistics company: a CFO focused on ROI, a Procurement Manager focused on contract terms, an IT Director focused on security and integration, and an end-user Champion focused on day-to-day usability. The conversation is happening because the customer is evaluating the add-on ahead of a contract renewal."_
 
-Once you have your documents and answers ready, continue to [create and publish a virtual coach role-play](#).
+Once you have your documents and answers ready, continue to [create and publish a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md).

@@ -28,19 +28,19 @@ Monthly Active User (MAU) credits count the number of unique learners who use Vi
 1. Navigate to the **Billing** page.
 2. In the **Virtual Coach** section, select **View Usage Details**.
 
-   ![](assets/virtual-coach22.png)
+   ![](/help/migrated/administrators/feature-summary/assets/virtual-coach22.png)
 
 3. Use the **Select period** drop-down to choose the date range you want to review.
 
-The **Overall Usage** table shows:
+   The **Overall Usage** table shows:
 
-- **Available**: total MAU credits purchased.
-- **Used**: credits consumed to date.
-- **Remaining**: credits available for the rest of the contract period.
+   - **Available**: total MAU credits purchased.
+   - **Used**: credits consumed to date.
+   - **Remaining**: credits available for the rest of the contract period.
 
-The **Monthly Usage** table shows the number of unique active learners by calendar month.
+   The **Monthly Usage** table shows the number of unique active learners by calendar month.
 
-   ![](assets/virtual-coach23.png)
+   ![](/help/migrated/administrators/feature-summary/assets/virtual-coach23.png)
 
 4. Select **Download Detailed Report** to export the full usage data.
 
@@ -85,4 +85,4 @@ Two reports are available under the **Virtual Coach** heading:
 5. Select the date range when prompted, then select **Proceed**.
 6. The report downloads automatically as a CSV file.
 
-For answers to common licensing and usage questions, see the [Adobe Learning Manager Virtual Coach FAQ](/help/migrated/administrators/feature-summary/alm-virtual-coach-faq.md).
+For answers to common licensing and usage questions, see the [Adobe Learning Manager Virtual Coach FAQ](/help/migrated/administrators/feature-summary/virtual-coach/alm-virtual-coach-faq.md).
