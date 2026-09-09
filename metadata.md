@@ -7,6 +7,8 @@ product_v2:
 usetq: true
 product: experience cloud
 type: Documentation
+landing-page-name: learning-manager
+landing-page-breadcrumb-title: Learning Manager
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/learning-manager.en
 index: true
