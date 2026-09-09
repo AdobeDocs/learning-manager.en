@@ -60,11 +60,15 @@ After you create a Virtual Coach role-play using the AI Co-create Assistant, the
 
 From this screen, you have three options:
 
-- **Save** saves the current state without publishing. The role-play is added to the **Available Templates** section of your Virtual Coach library, where you can return to edit it later.
 - **Preview** runs a live test session so you can experience the role-play as a learner before anyone else does. Use this to check that the persona sounds natural and the topics flow correctly.
+- **Save** saves the current state without publishing. The role-play is added to the **Available Templates** section of your Virtual Coach library, where you can return to edit it later.
 - **Publish** adds the role-play to the **Content Library** so it can be assigned to a course or job aid.
 
-To make changes to the generated content without editing fields manually, select **Edit with AI**. This opens the AI chat interface and lets you describe the changes you want in plain language, for example, `make the persona more formal` or `add a topic about pricing objections`.
+To make changes to the generated content without editing fields manually, select **Edit with AI** on the right. This opens the AI chat interface and lets you describe the changes you want in plain language, for example, `make the persona more formal` or `add a topic about pricing objections`.
+
+>[!NOTE]
+>
+>This is different from section-wise editing. The section-wise editing option gives you access to all sections at the same time. The AI chat interface, on the other hand, gives you an option to freely describe exactly what you want to change.
 
 Select **Edit** next to **Role-play title** to change the title.
 

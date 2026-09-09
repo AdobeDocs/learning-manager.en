@@ -9,9 +9,9 @@ Virtual Coach role plays are available as course modules or standalone job aids.
 ### Method 1
 
 1. Sign in to Adobe Learning Manager as a learner. You'll land on the **Home** page.
-2. In the very beginning of the page, you'll see a section called Learn with Virtual Coach.Select the appropriate role-play from the list.
+2. In the very beginning of the page, you'll see a section called Learn with Virtual Coach. Select the appropriate role-play from the list.
 
-    ![](assets/virtual-coach21.png)
+    ![](/help/migrated/learners/feature-summary/assets/virtual-coach21.png)
 
 3. Select **Start** to launch the module.
 
@@ -23,7 +23,7 @@ You can use this method to find your role-play from your **My Learning** page or
 2. On the left neavigation panel, navigate to either the **My Learning** page or the **Catalog** page.
 3. From the section **Type**, select **Virtual Coach Job Aids**. You'll see a list of  role-plays created using Virtual Coach.
 
-    ![](assets/virtual-coach20.png)
+    ![](/help/migrated/learners/feature-summary/assets/virtual-coach20.png)
 
 4. Select the appropriate role-play module or select **Explore** on the right to open it.
 5. Select **Start** to launch the module.
@@ -50,6 +50,6 @@ The AI trainer opens with a brief context statement that explains who you're spe
 >
 >You don't need to rush. Take a moment to think before responding, just as you would in a real conversation.
 
-After you end the simulation, your session is scored automatically. To understand what your report shows and how to improve, see [understand your virtual coach performance report](/help/migrated/learners/feature-summary/understand-virtual-coach-performance-report.md).
+After you end the simulation, your session is scored automatically. To understand what your report shows and how to improve, see [understand your Virtual Coach performance report](/help/migrated/learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md).
 
 You can retry a role play as many times as you like — each attempt is a new, independent session with its own report, so use your first attempt's feedback to prepare for the next one. If you're unsure why a role play ended with a score of zero, check whether the scenario has a **Make or Break** topic you didn't address; missing one of those automatically zeroes the final score regardless of your performance elsewhere.
