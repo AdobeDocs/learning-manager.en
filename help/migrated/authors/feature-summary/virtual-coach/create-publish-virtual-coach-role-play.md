@@ -9,7 +9,7 @@ To create an AI roleplay scenario in Virtual Coach:
 
    ![](/help/migrated/authors/feature-summary/assets/virtual_coach1.png)
 
-2. From the **Featured** section, choose a **Single-Persona** or **Multi-Persona** template.
+2. From the **Featured** section, choose a **Single-Persona** or **Multi-Persona** template. In this example, we are assuming that this role-play is based on a single persona. For steps involving multi-persona, see [multi-persona role-play](#configure-a-multi-persona-role-play)
 
    ![](/help/migrated/authors/feature-summary/assets/virtual_coach2.png)
 
@@ -215,7 +215,7 @@ If the system personas don't fit your scenario, create a new one from the **Cust
 
 Enabling **Video Avatar** adds a photorealistic AI video avatar to the role-play. Video avatars are available for personas that support **Voice & Video** mode. Each learner gets 300 minutes of video role-play per month; once this limit is reached, the experience changes to a static avatar.
 
-### Configure a multi-persona role-play
+### Configure a multi-persona role-play 
 
 Use a multi-persona role-play when the learner needs to navigate a conversation involving more than one stakeholder in the same session. For example, pitching a new product to a buying committee made up of a CFO, a Procurement Manager, an IT Director, and an end-user Champion. Multi-persona role-plays support **up to four personas** in a single scenario.
 
@@ -390,4 +390,4 @@ After configuring all sections, select **Publish**.
 3. Optionally add tags and an expiry date.
 4. Select **Save**. The role-play is added to the **Content Library**.
 
-You've now created a Virtual Coach role-play from start to finish in Adobe Learning Manager Virtual Coach. Continue to [add a Virtual Coach role-play to a course](/help/migrated/authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md) to make it available to learners. For answers to common authoring questions — including why a role-play might score zero, how many personas a multi-persona role-play supports, and how to write a good prompt for the AI Co-create Assistant — see the [Virtual Coach authoring FAQ](/help/migrated/authors/feature-summary/virtual-coach/virtual-coach-authoring-faq.md).
+You've now created a Virtual Coach role-play from start to finish in Adobe Learning Manager Virtual Coach. Continue to [add a Virtual Coach role-play to a course](/help/migrated/authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md) to make it available to learners. For answers to common authoring questions — including why a role-play might score zero, how many personas a multi-persona role-play supports, and how to write a good prompt for the AI Co-create Assistant — see the [Virtual Coach FAQ](/help/migrated/authors/feature-summary/virtual-coach/virtual-coach-faq.md).

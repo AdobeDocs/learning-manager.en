@@ -45,7 +45,7 @@ Virtual Coach is designed to be the last step in a learning journey, not a repla
 1. Learners complete the foundational content first — courses, videos, reading materials, job aids, and product training.
 2. Learners then use Virtual Coach to prove they can apply that knowledge in a realistic business conversation.
 
-Positioned this way, Virtual Coach is the checkpoint between "the learner was taught this" and "the learner can actually do this." For guidance on packaging a role-play as this kind of checkpoint inside a course or learning journey, see [add a virtual coach role-play to a course](/help/migrated/authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md).
+Positioned this way, Virtual Coach is the checkpoint between "the learner was taught this" and "the learner can actually do this." For guidance on packaging a role-play as this kind of checkpoint inside a course or learning journey, see [add a Virtual Coach role-play to a course](/help/migrated/authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md).
 
 ## How organizations use Virtual Coach
 
@@ -61,14 +61,12 @@ Positioned this way, Virtual Coach is the checkpoint between "the learner was ta
 
 Other confirmed customer use cases for Virtual Coach include new-hire onboarding and ramp-up training, sales certification and reinforcement, partner readiness programs, and change management and communication training, where Virtual Coach is used as reinforcement after employees learn about a new process or reorganization.
 
-> **Market gap to validate:** Independent research into the AI roleplay category shows that HR, compliance, and healthcare/clinical communication are common use cases for competing roleplay platforms (for example, policy explanation and separation conversations for HR; harassment-scenario recognition and ethics dilemmas for compliance; difficult-diagnosis and patient-education conversations for healthcare), but these verticals are not yet documented as confirmed Virtual Coach customer examples. Since a role-play is built from whatever reference materials and personas an author supplies, there's no technical reason these use cases couldn't work in Virtual Coach — for example, an HR team could build a role-play around a termination conversation, or a clinical team could build one around delivering a difficult diagnosis.
-
 ## Where AI does the work
 
 AI powers Virtual Coach in two distinct moments, each with a specific job:
 
-- **At creation.** When an author builds a role-play, AI generates the scenario, proposes the persona, and helps draft the evaluation topics from whatever context the author provides. Learn about  [creating and publishing a virtual coach role-play](/help/migrated/authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md).
-- **At analysis.** When a learner finishes a session, AI scores the conversation against the exact rubric the author set at creation, generates natural-language coaching feedback, and produces the session timeline and topic breakdown. Learn about [understanding your virtual coach performance report](/help/migrated/learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md).
+- **At creation.** When an author builds a role-play, AI generates the scenario, proposes the persona, and helps draft the evaluation topics from whatever context the author provides. Learn about  [creating and publishing a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md).
+- **At analysis.** When a learner finishes a session, AI scores the conversation against the exact rubric the author set at creation, generates natural-language coaching feedback, and produces the session timeline and topic breakdown. Learn about [understanding your Virtual Coach performance report](/help/migrated/learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md).
 
 ## User personas
 
@@ -88,11 +86,11 @@ Virtual Coach supports three domains:
 
 ## How a role-play gets its content
 
-An author builds every role-play from materials they provide — reference documents they upload (such as playbooks, sales decks, call transcripts, and scoring rubrics), a written prompt, or both. Virtual Coach does not automatically pull in your organization's existing Adobe Learning Manager course content; each role-play is generated from the specific reference materials and persona details an author supplies for that scenario. Learn about [gathering materials for a virtual coach role-play](/help/migrated/authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md) before you start building.
+An author builds every role-play from materials they provide — reference documents they upload (such as playbooks, sales decks, call transcripts, and scoring rubrics), a written prompt, or both. Virtual Coach does not automatically pull in your organization's existing Adobe Learning Manager course content; each role-play is generated from the specific reference materials and persona details an author supplies for that scenario. Learn about [gathering materials for a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md) before you start building.
 
 ## How scoring works
 
-Every role-play produces an overall score made up of a **Knowledge score** (whether the learner covered the required topics and provided accurate information) and a **Style score** (how the learner communicated — pace, clarity, filler words, sentence length, and energy). Authors set the weight of each component when they configure the scenario. Understand the full breakdown of how these scores are calculated and how to interpret a report. Learn about [understanding your virtual coach performance report](/help/migrated/learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md).
+Every role-play produces an overall score made up of a **Knowledge score** (whether the learner covered the required topics and provided accurate information) and a **Style score** (how the learner communicated — pace, clarity, filler words, sentence length, and energy). Authors set the weight of each component when they configure the scenario. Understand the full breakdown of how these scores are calculated and how to interpret a report. Learn about [understanding your Virtual Coach performance report](/help/migrated/learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md).
 
 ## Key capabilities
 
@@ -105,6 +103,6 @@ Every role-play produces an overall score made up of a **Knowledge score** (whet
 
 ## Licensing
 
-Virtual Coach is available as an add-on subscription to Adobe Learning Manager, licensed by Monthly Active Users (MAU). An MAU credit is consumed the first time a learner completes a session in a calendar month, regardless of how many sessions they complete that month. For activation and usage-monitoring steps, see [manage virtual coach usage and billing](/help/migrated/administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md).
+Virtual Coach is available as an add-on subscription to Adobe Learning Manager, licensed by Monthly Active Users (MAU). An MAU credit is consumed the first time a learner completes a session in a calendar month, regardless of how many sessions they complete that month. For activation and usage-monitoring steps, see [manage Virtual Coach usage and billing](/help/migrated/administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md).
 
-Before you build your first role-play, learn about [gathering materials for a virtual coach role-play](/help/migrated/authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md) to understand what to bring to the AI assistant.
+Before you build your first role-play, learn about [gathering materials for a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md) to understand what to bring to the AI assistant.

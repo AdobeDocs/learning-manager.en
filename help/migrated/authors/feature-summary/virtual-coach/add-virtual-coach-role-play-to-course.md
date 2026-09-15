@@ -2,7 +2,7 @@
 
 Publish a Virtual Coach role-play as a job aid, then add it to a course so learners can access it as part of a structured learning journey.
 
-Virtual Coach role-plays aren't added to courses directly. Instead, you first publish the role-play as a job aid, then add that job aid to a course as a module. This two-step process lets you reuse the same role-play across multiple courses without duplicating it. Under the hood, a published role-play is added to your Content Library as an LTI module, which is how it can be deployed as either a standalone job aid or a course module. Before you start, [create and publish a virtual coach role-play](/help/migrated/authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md) if you haven't already.
+Virtual Coach role-plays aren't added to courses directly. Instead, you first publish the role-play as a job aid, then add that job aid to a course as a module. This two-step process lets you reuse the same role-play across multiple courses without duplicating it. Under the hood, a published role-play is added to your Content Library as an LTI module, which is how it can be deployed as either a standalone job aid or a course module. Before you start, [create and publish a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md) if you haven't already.
 
 ## Add the role-play as a job aid
 
@@ -60,9 +60,9 @@ This packaging approach applies well to several common rollouts:
 
 - **New-hire onboarding and ramp-up**, where the role-play follows onboarding content and confirms a new hire is ready for their first live conversation.
 - **Sales certification and reinforcement**, where the role-play is the certification checkpoint at the end of a sales enablement course.
-- **Product launch readiness**, where the role-play follows launch training and confirms reps can position the new product before it goes to market — for example, the product launch readiness scenario described in [what virtual coach is](/help/migrated/administrators/feature-summary/virtual-coach/what-virtual-coach-is.md), where a rep must adapt their pitch across a multi-persona buying committee.
+- **Product launch readiness**, where the role-play follows launch training and confirms reps can position the new product before it goes to market — for example, the product launch readiness scenario described in [what Virtual Coach is](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md), where a rep must adapt their pitch across a multi-persona buying committee.
 - **Leadership and manager coaching**, where the role-play follows a management-skills course and precedes a real performance conversation.
 - **Partner readiness programs**, where the role-play confirms an external partner can represent your product correctly before they're certified.
 - **Change management and communication training**, where the role-play reinforces a new process or reorganization message after employees complete related content.
 
-Once learners can find and start the role-play, see [practice a role-play with virtual coach](/help/migrated/learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md) for what they'll experience.
+Once learners can find and start the role-play, see [practice a role-play with Virtual Coach](/help/migrated/learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md) for what they'll experience.

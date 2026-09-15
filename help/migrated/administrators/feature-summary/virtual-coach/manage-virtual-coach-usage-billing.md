@@ -10,7 +10,7 @@ Virtual Coach is available as an add-on to Adobe Learning Manager. After purchas
 2. Navigate to the **Billing** page from the left navigation pane.
 3. In the **Virtual Coach** section, enter the activation key you received by email.
 
-   ![The Billing page in Adobe Learning Manager, showing the Monthly Usage table with Unique Active Users by month, and a Use Activation Key field below it.](/help/migrated/administrators/feature-summary/assets/virtual_coach12.png)
+   ![](/help/migrated/administrators/feature-summary/assets/virtual_coach12.png)
    *Enter your activation key in the Virtual Coach section of the Billing page to turn on the feature.*
 
 4. Select **Apply**. Virtual Coach is enabled for your account.
@@ -85,4 +85,4 @@ Two reports are available under the **Virtual Coach** heading:
 5. Select the date range when prompted, then select **Proceed**.
 6. The report downloads automatically as a CSV file.
 
-For answers to common licensing and usage questions, see the [Adobe Learning Manager Virtual Coach FAQ](/help/migrated/administrators/feature-summary/virtual-coach/alm-virtual-coach-faq.md).
+For answers to common licensing and usage questions, see the [Adobe Learning Manager Virtual Coach FAQ](/help/migrated/authors/feature-summary/virtual-coach/virtual-coach-faq.md).

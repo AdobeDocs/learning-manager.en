@@ -2,7 +2,7 @@
 
 Use this reference to prepare the documents, context, and prompt details a Virtual Coach role-play needs before you start building.
 
-The Virtual Coach AI assistant does the heavy lifting: it writes your scenario, builds your persona, and generates your evaluation criteria. To do that well, it needs to understand what you're training for. The more context you bring, the better your role-play will be. Virtual Coach does not automatically use your organization's existing Adobe Learning Manager course content — you must supply reference materials or a prompt for each role-play you create.
+The Virtual Coach AI assistant does the heavy lifting: it writes your scenario, builds your persona, and generates your evaluation criteria. To do that well, it needs to understand what you're training for. The more context you bring, the better your role-play will be. Virtual Coach does not automatically use your organization's existing Adobe Learning Manager course content. You must supply reference materials or a prompt for each role-play you create.
 
 ## Documents to bring
 
@@ -16,7 +16,7 @@ The AI assistant can use any materials you share. The following table shows what
 | Buyer persona or ideal customer profiles | PDF, DOCX | The persona's role, tone, and priorities |
 | Scoring rubrics or coaching frameworks | PDF, DOCX, CSV | The evaluation criteria and grading |
 
-*Each document type feeds a different part of the AI-generated role-play. So, bringing more than one type produces a more complete scenario.*
+Each document type feeds a different part of the AI-generated role-play. So, bringing more than one type produces a more complete scenario.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ The AI assistant can use any materials you share. The following table shows what
 
 ## Four questions to think through
 
-You don't need full written answers to these questions — just come with your thinking. The AI assistant asks follow-up questions and helps you fill in the gaps.
+You don't need full written answers to these questions. Just come with your thinking. The AI assistant asks follow-up questions and helps you fill in the gaps.
 
 **What's the scenario?**
 What's the business situation, and why are these two people talking? Think about the context, the relationship stage, and the purpose of the call. For example, a first discovery call, a follow-up after a demo, a renewal conversation, or an internal coaching session.
@@ -41,6 +41,8 @@ What does a successful conversation look like, and what should the learner accom
 
 **How will the learner be graded?**
 What are the three to six key skills or behaviors that define a great performance in this conversation? Think about specific, verbal actions you'd want to hear in a transcript, not attitude or personality traits. "Discussed value" is vague. "Explained how the platform reduces onboarding time by 40%" is gradable.
+
+<Add a link to design doc. Add it to project folder as well.>
 
 ## Quick checklist before you start
 

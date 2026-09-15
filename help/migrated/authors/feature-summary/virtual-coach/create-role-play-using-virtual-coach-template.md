@@ -8,7 +8,7 @@ Templates are organized by domain, simulation type, and language. Use the filter
 
 >[!TIP]
 >
->Selecting a template doesn't lock you into its default configuration. Every field, including the persona background, topics, scoring weights, and conversation opening, can be edited after you select the template. Treat templates as a starting point, not a final design. For the full explanation of each configurable field, see [create and publish a Virtual coach role play](/help/migrated/authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md).
+>Selecting a template doesn't lock you into its default configuration. Every field, including the persona background, topics, scoring weights, and conversation opening, can be edited after you select the template. Treat templates as a starting point, not a final design. For the full explanation of each configurable field, see [create and publish a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md).
 
 
 1. Sign in to Adobe Learning Manager as an author.
@@ -25,4 +25,4 @@ Templates are organized by domain, simulation type, and language. Use the filter
 
 6. To use the template as-is, select **Publish**. To customize it first, select any section and edit the relevant fields before publishing.
 
-Once published, the role play is added to the **Content Library** and is ready to be added to a job aid and assigned to a course. See [add a Virtual Coach role play to a course](/help/migrated/authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md) for those steps, or [practice a role play with Virtual Coach](/help/migrated/learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md) to see the learner experience.
+Once published, the role play is added to the **Content Library** and is ready to be added to a job aid and assigned to a course. See [add a Virtual Coach role-play to a course](/help/migrated/authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md) for those steps, or [practice a role-play with Virtual Coach](/help/migrated/learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md) to see the learner experience.
