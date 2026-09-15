@@ -42,7 +42,7 @@ What does a successful conversation look like, and what should the learner accom
 **How will the learner be graded?**
 What are the three to six key skills or behaviors that define a great performance in this conversation? Think about specific, verbal actions you'd want to hear in a transcript, not attitude or personality traits. "Discussed value" is vague. "Explained how the platform reduces onboarding time by 40%" is gradable.
 
-<Add a link to design doc. Add it to project folder as well.>
+Check our [design guide](/help/migrated/authors/feature-summary/virtual-coach/role-play-design.md) to learn more about designing a role-play. 
 
 ## Quick checklist before you start
 
