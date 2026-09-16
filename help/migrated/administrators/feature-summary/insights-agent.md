@@ -171,6 +171,19 @@ Insights Agent matches your query against Adobe Learning Manager's data model. U
 
 Insights Agent is case-insensitive, but exact term matching improves accuracy.
 
+### Query using your organization's custom terminology
+
+If your administrator has renamed standard terms using **Product Terminology** in **Settings** > **General**, Insights Agent recognizes your organization's custom terms in place of the defaults listed above. For example, if your organization renamed **Module** to **Training**, you can ask "How many Trainings were completed last month?" and Insights Agent understands the question and labels the results using **Training** in the response and column headers.
+
+- Insights Agent recognizes both the singular and plural forms of a custom term, as configured in the Product Terminology CSV file.
+- You can still use the default Adobe Learning Manager term in your query even after your organization customizes it. Insights Agent recognizes the default term and responds using your organization's custom term.
+- If your query includes a misspelled or unrecognized term, Insights Agent asks a clarifying question and suggests the closest matching term available in your account.
+- If your administrator resets the custom terminology, Insights Agent no longer recognizes the previously customized terms and reverts to the default terms.
+
+>[!NOTE]
+>
+>Custom terminology support does not extend to modules and tabs that Insights Agent does not currently query, such as Social Learning, Job Aids, Discussion Forum, Gamification, and Announcements.
+
 ### Anchor your content
 
 Providing a content anchor helps the agent know which learning items to look at. You can anchor by any of the following:
