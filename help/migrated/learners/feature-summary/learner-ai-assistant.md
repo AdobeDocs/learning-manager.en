@@ -77,7 +77,7 @@ Adobe securely processes your learning content using trusted services.
 
 The AI Assistant only uses content from internal catalogs and third-party content libraries. Answers to learners' queries are derived only from catalogs to which they have access.
 
-The following content sources are not  supported in the current release:
+The following content sources are not  supported:
 
 - Shared external catalogs
 - Default catalogs
