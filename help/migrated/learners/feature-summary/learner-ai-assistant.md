@@ -75,15 +75,14 @@ Adobe securely processes your learning content using trusted services.
 
 ### Catalog and content source limitations
 
-The AI Assistant only uses content from internal catalogs, external catalogs, and third-party content libraries. Answers to learners' queries are derived only from catalogs to which they have access.
+The AI Assistant only uses content from internal catalogs and third-party content libraries. Answers to learners' queries are derived only from catalogs to which they have access.
 
-The following content sources aren't supported in the current release:
+The following content sources are not  supported in the current release:
 
-- **Shared** catalogs
-- **Acquired** catalogs
-- **External** catalogs
-- **Default** catalogs
-- Third-party content libraries (for example, LinkedIn Learning or Go1)
+- Shared external catalogs
+- Default catalogs
+
+Acquired catalogs are supported, and responses from metadata available from third-party content libraries (for example, LinkedIn Learning or Go1) are also supported.
 
 If you don't have access to a course or job aid, the AI Assistant won't surface information from that content, and citation links won't be accessible.
 
