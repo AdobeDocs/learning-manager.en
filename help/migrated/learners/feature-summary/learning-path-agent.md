@@ -17,7 +17,7 @@ Personalized Learning Paths are designed for two main use cases:
 
 ## How the conversation-based approach works
 
-The agent meets you where you are. You start by describing what you want to learn in plain language, in as much or as little detail as you have. The agent then asks follow-up questions to understand your role, your specific challenges, and how much time you can dedicate to learning each week.
+The agent then generates a named Learning Path showing each course, its description, duration, and module count. Before saving, you can ask the agent to add, remove, or replace individual courses in the path using natural language."
 
 From your answers, the agent identifies 3–5 learning topics with suggested proficiency levels. You can review these topics, request changes, or confirm them before the agent searches for matching courses. The agent then generates a named learning path showing each course, its description, duration, and module count. You can adjust the path further before saving it.
 
@@ -41,6 +41,7 @@ Once you have saved a Personalized Learning Path, you can share it with colleagu
 - Provide your time commitment upfront, so the generated path fits your actual schedule. The agent understands natural language: "two evenings a week" or "30 minutes a day" are both valid.
 - Review the suggested topics before asking the agent to generate courses. Confirming or adjusting topics at that stage saves time compared to revising the course list afterward.
 - If a topic shows no matching content, note it and contact your administrator to request relevant courses to be added to the catalog.
+- Use natural language to fine-tune your path before saving. For example, ask to remove a course you've already completed or replace one that feels too advanced.
 
 ## Configure the Personalized Learning Path agent
 
@@ -137,6 +138,24 @@ When you are satisfied with the path, ask the agent to save it by typing save th
 
 ![](assets/create-lp.png)
 
+### Adjust your learning path before saving
+
+Before you save your path, you can ask the agent to add, remove, or replace a course. Describe the change in plain language. The agent updates only the course you mention. The rest of your path stays the same.
+
+For example:
+
+- I've already completed the second course. Remove it.
+- Add a course on [topic]. I don't see one in the list.
+- The fourth course looks too advanced. Can you replace it with something more fundamental?
+
+The agent applies your change and shows you the updated path. Continue adjusting until you are satisfied, then save the path.
+
+>[!NOTE]
+>
+>A Learning Path can contain a maximum of five courses. If you ask to add a course when the path is already full, the agent asks which existing course you want to replace.
+
+If your request is unclear, the agent asks a clarifying question before making a change. If no suitable replacement exists for a course you want to swap out, the agent explains why and suggests the closest matching course instead.
+
 ### Save and access your Learning Path
 
 When you save the path, the agent confirms the save and enrolls you automatically in all courses within the path.
@@ -195,9 +214,13 @@ Yes. During the conversation, you can ask the agent to add, remove, or change to
 
 _Can I change the individual courses in a generated path?_
 
-No. Once the agent generates a path, the course selection is fixed. You cannot swap, remove, or replace individual courses. Whatever the agent recommends is what the path contains.
+Yes. Before saving the path, you can ask the agent to add, remove, or replace a course using natural language. For example, "remove the second course" or "replace the fourth course with something more fundamental." The agent updates only the course you mention and leaves the rest of the path unchanged..
 
-If the suggested courses do not feel right, the best approach is to go back and adjust your topics before generating. The agent selects courses based on the topics you confirm, so changing the topic scope or proficiency level will produce a different course set.
+If you want a broader change across several topics, it's faster to adjust your topics before the agent generates the path, since course selection is based on the topics you confirm.
+
+_What happens if I try to add a course but my path is already full?_
+
+A learning path can include a maximum of five courses. If you ask to add a new course while the path is full, the agent asks which existing course you want to replace with the new one.
 
 _Why does the agent keep asking follow-up questions?_
 

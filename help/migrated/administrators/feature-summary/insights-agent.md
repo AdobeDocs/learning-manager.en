@@ -119,7 +119,10 @@ After each response, select the thumbs-up or thumbs-down icon to rate the result
 - Use exact Adobe Learning Manager terms when naming content and learner groups. The query writing guide lists the correct terms to use.
 - If the agent asks a clarifying question, treat it as a signal to refine your original query next time. The more specific your question, the fewer clarifications are needed.
 - Review the **Approach** section before acting on results to confirm the agent's logic matches your intent.
+- **Specify whether to include waitlisted learners.** By default, enrollment count queries return only learners with an active, confirmed enrollment — waitlisted learners are excluded, consistent with the enrolled-learner list available from the course or learning path page. If you want waitlisted learners included in the count, say so explicitly in your query. For example: "How many learners are directly enrolled in the Safety Training course, including waitlisted learners?" The Approach section will indicate whether waitlisted learners were included in the results.
+<!--
 - **Specify whether to include or exclude waitlisted learners**. By default, enrollment count queries include learners who are on a waitlist alongside active, confirmed enrollments. If you need only active participants, explicitly exclude waitlisted learners in your query. For example: "How many learners are directly enrolled in the Safety Training course, excluding waitlisted learners?" The agent will disclose in the Approach section that the exclusion was applied. Without this instruction, enrollment totals may include a significant proportion of waitlisted learners who have not yet started the content.
+-->
 - **Direct and indirect enrollment counts**: When you query enrollment or completion data for a course or learning path, Insights Agent distinguishes between direct enrollments (learners enrolled specifically in that course or learning path) and indirect enrollments (learners who accessed the same content as part of a Learning Path or certification). If you ask specifically for direct or indirect enrollments, the agent returns the correct count for each type. If your query does not specify direct or indirect, the agent may return a combined count. To get separated counts, include the distinction explicitly in your query. For example: "How many learners are directly enrolled versus indirectly enrolled in the Safety Training course?"
 
 
@@ -170,6 +173,19 @@ Insights Agent matches your query against Adobe Learning Manager's data model. U
 | **Catalog label** | Category / tag group |
 
 Insights Agent is case-insensitive, but exact term matching improves accuracy.
+
+### Query using your organization's custom terminology
+
+If your administrator has renamed standard terms using **Product Terminology** in **Settings** > **General**, Insights Agent recognizes your organization's custom terms in place of the defaults listed above. For example, if your organization renamed **Module** to **Training**, you can ask "How many Trainings were completed last month?" and Insights Agent understands the question and labels the results using **Training** in the response and column headers.
+
+- Insights Agent recognizes both the singular and plural forms of a custom term, as configured in the Product Terminology CSV file.
+- You can still use the default Adobe Learning Manager term in your query even after your organization customizes it. Insights Agent recognizes the default term and responds using your organization's custom term.
+- If your query includes a misspelled or unrecognized term, Insights Agent asks a clarifying question and suggests the closest matching term available in your account.
+- If your administrator resets the custom terminology, Insights Agent no longer recognizes the previously customized terms and reverts to the default terms.
+
+>[!NOTE]
+>
+>Custom terminology support does not extend to modules and tabs that Insights Agent does not currently query, such as Social Learning, Job Aids, Discussion Forum, Gamification, and Announcements.
 
 ### Anchor your content
 
