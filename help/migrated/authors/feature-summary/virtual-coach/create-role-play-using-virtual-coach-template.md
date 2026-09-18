@@ -16,8 +16,7 @@ Templates are organized by domain, simulation type, and language. Use the filter
 3. Select **Create now**.
 4. Browse the **Available Templates** section, or use the **Search** bar and the domain, simulation type, and language filters to find a template that matches your scenario.
 
-   ![](/help/migrated/authors/feature-summary/assets/virtual-coach23.png)
-
+   ![](/help/migrated/authors/feature-summary/assets/virtual-coach25.png)
 5. Select the template tile to open it. Review the persona, topics, and scoring configuration.
 
    ![](/help/migrated/authors/feature-summary/assets/virtual_coach17.png)

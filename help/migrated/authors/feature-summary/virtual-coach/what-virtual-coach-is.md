@@ -103,6 +103,6 @@ Every role-play produces an overall score made up of a **Knowledge score** (whet
 
 ## Licensing
 
-Virtual Coach is available as an add-on subscription to Adobe Learning Manager, licensed by Monthly Active Users (MAU). An MAU credit is consumed the first time a learner completes a session in a calendar month, regardless of how many sessions they complete that month. For activation and usage-monitoring steps, see [manage Virtual Coach usage and billing](/help/migrated/administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md).
+Virtual Coach is available as an add-on subscription to Adobe Learning Manager, licensed by Monthly Active Users (MAU). An MAU credit is consumed the first time a learner launches a session in a calendar month, regardless of how many sessions they complete that month. For activation and usage-monitoring steps, see [manage Virtual Coach usage and billing](/help/migrated/administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md).
 
 Before you build your first role-play, learn about [gathering materials for a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md) to understand what to bring to the AI assistant.

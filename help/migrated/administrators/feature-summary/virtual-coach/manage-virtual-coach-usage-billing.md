@@ -21,7 +21,7 @@ Once activated, you receive an in-app notification confirming the feature is liv
 >
 >The activation key is auto-generated during provisioning and shared by email. If you don't have the activation key, contact your Adobe Learning Manager Customer Success Manager.
 
-## View your MAU credit balance
+## View MAU credit balance
 
 Monthly Active User (MAU) credits count the number of unique learners who use Virtual Coach each month.
 
@@ -46,7 +46,7 @@ Monthly Active User (MAU) credits count the number of unique learners who use Vi
 
 ## How MAU credits are consumed
 
-An MAU credit is consumed when a learner completes a Virtual Coach session in a calendar month. Additional sessions by the same learner in the same month don't consume additional credits. Unused credits at the end of the contract period lapse and don't carry over.
+An MAU credit is consumed when a learner luanches a Virtual Coach session in a calendar month. Additional sessions by the same learner in the same month don't consume additional credits. Unused credits at the end of the contract period lapse and don't carry over.
 
 | Scenario | MAUs consumed |
 |---|---|
@@ -54,35 +54,14 @@ An MAU credit is consumed when a learner completes a Virtual Coach session in a 
 | The same learner uses Virtual Coach in both January and February | 2 (1 per month) |
 | 100 learners each complete 1 session in January | 100 |
 
-*MAU credits are counted per unique learner per calendar month, regardless of how many sessions each learner completes.*
+*MAU credits are counted per unique learner per calendar month, regardless of how many sessions each learner launches.*
 
-**Example: single learner, multiple sessions.** Sarah completes 5 Virtual Coach sessions in January. She's counted as a single unique user for the month, so 1 MAU is consumed regardless of how many times she practices.
+**Example: single learner, multiple sessions.** Sarah launches five Virtual Coach sessions in January. She's counted as a single unique user for the month, so 1 MAU is consumed regardless of how many times she practices.
 
 **Example: same learner, multiple months.** Sarah uses Virtual Coach in both January (3 sessions) and February (2 sessions). Each calendar month counts separately, so 2 MAUs are consumed — 1 for January and 1 for February.
 
-**Example: multiple learners, same month.** 100 sales reps each complete 1 Virtual Coach session in January. Each unique learner counts as one MAU for that month, so 100 MAUs are consumed.
+**Example: multiple learners, same month.** 100 sales reps each launch one Virtual Coach session in January. Each unique learner counts as one MAU for that month, so 100 MAUs are consumed.
 
-**Example: team practice over time.** Your team of 50 people uses Virtual Coach throughout the year. In a month where only 5 of the 50 practice, 5 MAUs are consumed for that month; in a month where all 50 practice again, 0 additional MAUs beyond what's already been consumed for returning learners that month, since each learner is only counted once per calendar month regardless of how many times they practice within it.
+**Example: team practice over time.** Your team of 50 people uses Virtual Coach throughout the year. In a month where only five of the 50 practice, five MAUs are consumed for that month; in a month where all 50 practice again, 0 additional MAUs beyond what's already been consumed for returning learners that month, since each learner is only counted once per calendar month regardless of how many times they practice within it.
 
-## View Virtual Coach reports
-
-The **Reports** > **AI Reports** page provides usage and performance data for all Virtual Coach activity across your organization. All reports are exported in CSV format; report generation may take several minutes depending on the data size.
-
-![The AI Reports page, showing the Virtual Coach section with two report links: Learner Usage Summary and Session Details.](/help/migrated/administrators/feature-summary/assets/virtual_coach13.png)
-*Download the Learner Usage Summary or Session Details report from the AI Reports page.*
-
-Two reports are available under the **Virtual Coach** heading:
-
-- **Learner Usage Summary**: contains monthly usage data for all learners. Use this report to track how many learners are using Virtual Coach each month, monitor MAU credit consumption, and identify engagement trends over time.
-- **Session Details**: contains session-level data for all learners over the last 90 days. Use this report to review individual session scores, topic coverage, and style metrics across your learner population, and to identify skill gaps that may require additional training or content.
-
-### Access and download a report
-
-1. Sign in to Adobe Learning Manager as an administrator.
-2. Select **Reports** in the left navigation pane.
-3. Select **AI Reports**.
-4. Under the **Virtual Coach** section, select the report you want to download: **Learner Usage Summary** or **Session Details**.
-5. Select the date range when prompted, then select **Proceed**.
-6. The report downloads automatically as a CSV file.
-
-For answers to common licensing and usage questions, see the [Adobe Learning Manager Virtual Coach FAQ](/help/migrated/authors/feature-summary/virtual-coach/virtual-coach-faq.md).
+To learn about Virtual Coach reports, navigate to [Virtual Coach reports](/help/migrated/administrators/feature-summary/virtual-coach/virtual-coach-reports.md).
