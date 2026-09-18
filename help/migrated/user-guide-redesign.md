@@ -80,7 +80,7 @@ Find frequently used product guidance and information about newer Adobe Learning
 ::::landing-cards-container
 
 :::card
-![What's new](./help/assets/overview/what-s-new.svg)
+![What's new](./help/assets/overview/whats-new.png)
 
 What's new
 
@@ -90,7 +90,7 @@ Explore the latest features and release updates.
 :::
 
 :::card
-![Content Composer (Beta)](./help/assets/overview/content-composer-beta.svg)
+![Content Composer (Beta)](./help/assets/overview/content-composer.png)
 
 Content Composer (Beta)
 
@@ -100,7 +100,7 @@ Create and refine learning content with AI-assisted authoring.
 :::
 
 :::card
-![Live Hub](./help/assets/overview/live-hub.svg)
+![Live Hub](./help/assets/overview/live-hub.png)
 
 Live Hub (Beta)
 
@@ -110,7 +110,7 @@ Set up and manage live learning.
 :::
 
 :::card
-![Connectors](./help/assets/overview/connectors.svg)
+![Connectors](./help/assets/overview/connectors.png)
 
 Connectors
 
@@ -120,7 +120,7 @@ Configure integrations and data connections.
 :::
 
 :::card
-![System requirements](./help/assets/overview/system-requirements.svg)
+![System requirements](./help/assets/overview/sys-reqs.png)
 
 System requirements
 
