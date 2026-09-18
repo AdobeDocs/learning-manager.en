@@ -82,7 +82,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
 ::::landing-cards-container
 
 :::card
-![Administrator](./help/assets/overview/administrator.svg)
+![Administrator](./help/migrated/assets/Smock_UserAdmin_18_N.svg)
 
 Administrator
 
@@ -92,7 +92,7 @@ Configure accounts, users, access, and learning paths.
 :::
 
 :::card
-![Author](./help/assets/overview/author.svg)
+![Author](./help/migrated/assets/Smock_AnnotatePen_18_N.svg)
 
 Author
 
@@ -102,7 +102,7 @@ Create courses, certifications, content, and learning paths.
 :::
 
 :::card
-![Learner](./help/assets/overview/learner.svg)
+![Learner](./help/migrated/assets/Smock_Book_18_N.svg)
 
 Learner
 
@@ -112,7 +112,7 @@ Discover, take, and track assigned learning.
 :::
 
 :::card
-![Manager](./help/assets/overview/manager.svg)
+![Manager](./help/migrated/assets/Smock_ManagerImage_18_N.svg)
 
 Manager
 
@@ -122,7 +122,7 @@ Assign learning and monitor team progress.
 :::
 
 :::card
-![Integration administrator](./help/assets/overview/integration-administrator.svg)
+![Integration administrator](./help/migrated/assets/Smock_Actions_18_N.svg)
 
 Integration administrator
 
@@ -140,7 +140,7 @@ Find frequently used product guidance and information about newer Adobe Learning
 ::::landing-cards-container
 
 :::card
-![What's new](./help/assets/overview/what-s-new.svg)
+![What's new](./help/migrated/assets/Smock_NewItem_18_N.svg)
 
 What's new
 
@@ -150,7 +150,7 @@ Explore the latest features and release updates.
 :::
 
 :::card
-![Content Composer (Beta)](./help/assets/overview/content-composer-beta.svg)
+![Content Composer (Beta)](./help/migrated/assets/Smock_EditCircle_18_N.svg)
 
 Content Composer (Beta)
 
@@ -160,7 +160,7 @@ Create and refine learning content with AI-assisted authoring.
 :::
 
 :::card
-![Live Hub](./help/assets/overview/live-hub.svg)
+![Live Hub](./help/migrated/assets/Smock_LiveHub_18_N.svg)
 
 Live Hub
 
@@ -170,7 +170,7 @@ Set up and manage live learning.
 :::
 
 :::card
-![Connectors](./help/assets/overview/connectors.svg)
+![Connectors](./help/migrated/assets/Smock_Connector_18_N.svg)
 
 Connectors
 
@@ -180,7 +180,7 @@ Configure integrations and data connections.
 :::
 
 :::card
-![System requirements](./help/assets/overview/system-requirements.svg)
+![System requirements](./help/migrated/assets/Smock_sysreq_18_N.svg)
 
 System requirements
 
@@ -202,7 +202,7 @@ Explore focused training for key Adobe Learning Manager capabilities.
 ::::landing-cards-container
 
 :::card
-![Learning Path Agent](./help/assets/overview/learning-path-agent.svg)
+![Learning Path Agent](./help/migrated/assets/Smock_Learn_18_N.svg)
 
 Learning Path Agent
 
@@ -212,7 +212,7 @@ Build practical skills with focused training for this Adobe Learning Manager cap
 :::
 
 :::card
-![Insights Agent](./help/assets/overview/insights-agent.svg)
+![Insights Agent](./help/migrated/assets/Smock_ConfidenceFour_18_N.svg)
 
 Insights Agent
 
@@ -222,7 +222,7 @@ Build practical skills with focused training for this Adobe Learning Manager cap
 :::
 
 :::card
-![Live Hub (Beta)](./help/assets/overview/live-hub-beta.svg)
+![Live Hub (Beta)](./help/migrated/assets/Smock_LiveHub_18_N.svg)
 
 Live Hub (Beta)
 
@@ -232,7 +232,7 @@ Build practical skills with focused training for this Adobe Learning Manager cap
 :::
 
 :::card
-![Report Builder](./help/assets/overview/report-builder.svg)
+![Report Builder](./help/migrated/assets/Smock_Report_18_N.svg)
 
 Report Builder
 
@@ -242,7 +242,7 @@ Build practical skills with focused training for this Adobe Learning Manager cap
 :::
 
 :::card
-![Email Builder](./help/assets/overview/email-builder.svg)
+![Email Builder](./help/migrated/assets/Smock_EmailOutline_18_N.svg)
 
 Email Builder
 
@@ -260,7 +260,7 @@ Follow a guided curriculum across broader product and administration workflows.
 ::::landing-cards-container
 
 :::card
-![Course & Content Management](./help/assets/overview/course-content-management.svg)
+![Course & Content Management](./help/migrated/assets/Smock_Bookmark_18_N.svg)
 
 Course & Content Management
 
@@ -270,7 +270,7 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 :::
 
 :::card
-![Portal & Experience](./help/assets/overview/portal-experience.svg)
+![Portal & Experience](./help/migrated/assets/Smock_Portal_18_N.svg)
 
 Portal & Experience
 
@@ -280,7 +280,7 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 :::
 
 :::card
-![Administration & Access](./help/assets/overview/administration-access.svg)
+![Administration & Access](./help/migrated/assets/Smock_UserAdmin_18_N.svg)
 
 Administration & Access
 
@@ -290,7 +290,7 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 :::
 
 :::card
-![Recognition & Compliance](./help/assets/overview/recognition-compliance.svg)
+![Recognition & Compliance](./help/migrated/assets/Smock_Compliance_18_N.svg)
 
 Recognition & Compliance
 
