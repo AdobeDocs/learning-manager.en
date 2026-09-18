@@ -1,3 +1,12 @@
+---
+description: Discover Adobe Learning Manager, an enterprise LMS for scalable learner experiences, compliance training, and skill development
+jcr-language: en_us
+title: Welcome to Adobe Learning Manager documentation
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
+contentowner: mmanuel
+hide: true
+---
+
 # Adobe Learning Manager Documentation
 
 ![](/help/migrated/assets/user-guide1.png)
