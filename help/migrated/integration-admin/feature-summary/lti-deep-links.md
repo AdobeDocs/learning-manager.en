@@ -81,12 +81,16 @@ Deep linking exchanges the following parameters between ALM and the LTI platform
 
 ## Create a deep link
 
+>[!IMPORTANT]
+>
+>The steps mentioned in the section below and in the section for Authors have to be performed on the platform that consumes the courses and not on the ALM side.
+
 ### Prerequisite
 
 1. You should be logged in as an Integration Admin. 
-2. While setting up the LTI integration, select the Supports Deep Linking checkbox.
+2. While setting up the LTI integration, select the **Supports Deep Linking** checkbox. Learn how to set up the [LTI integration](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md).
 3. Provide the URL in the field to take the user or author to the selection. 
-4. Select Save Changes. 
+4. Select **Save Changes**. 
 
     The same launch URL is reused to simplify configuration and usage. 
 
@@ -94,7 +98,7 @@ Deep linking exchanges the following parameters between ALM and the LTI platform
 
     After you save your changes, select the **Select Content** tab. (The **Select Content** tab becomes active only after this checkbox is selected.)  
 
-**The following section is for authors.**
+**For the Authors**
 
 As an author, you can select content from the **Select Content** window. The **Select Content** window displays **Catalog**, **Course count**, and **Export date**.
 
