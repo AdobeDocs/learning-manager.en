@@ -300,7 +300,7 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 :::
 
 :::card
-![Learning Journeys](./help/migrated/assets/Smock_Journey_18_N.svg)
+![Learning Journeys](./help/assets/overview/learning-journeys.svg)
 
 Learning Journeys
 
@@ -310,7 +310,7 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 :::
 
 :::card
-![Reporting & Analytics](./help/migrated/assets/Smock_Analysis_18_N.svg)
+![Reporting & Analytics](./help/assets/overview/reporting-analytics.svg)
 
 Reporting & Analytics
 
@@ -325,4 +325,4 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 
 - [Release notes](/help/migrated/release-note/release-notes.md)
 - [Community](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime)
-- [Support](https://experienceleague.adobe.com/home#support)
+- [Support](https://helpx.adobe.com/support/learning-manager.html)
