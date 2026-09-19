@@ -11,13 +11,6 @@ hide: true
 
 Enterprise LMS for scalable learner experiences, compliance training, and skill-based development. Select your role to go directly to your documentation. Build practical product skills with curated Adobe Learning Manager Academy courses and guided learning paths.
 
-<table style="table-layout:auto">
-    <tr style="border: 0;">
-        <td>[![Sign up](./help/assets/overview/sign-up.png)](https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html#make-personalized-learning-the-new-normal)</td>
-        <td>[![Explore ALMA](./help/assets/overview/explore-alma.png)](https://cdn.content.adobelearningmanageracademy.com/)</td>
-    </tr>
-</table>
-
 <table style="table-layout: auto;">
     <tr style="border: 0;">
         <td>
@@ -219,7 +212,7 @@ Follow a guided curriculum across broader product and administration workflows.
 ::::landing-cards-container
 
 :::card
-![Course & Content Management](./help/assets/overview/course-content-management.svg)
+![Course & Content Management](./help/assets/overview/lp-course.png)
 
 Course and content management
 
@@ -229,7 +222,7 @@ Learn how to create, organize, and manage learning content effectively through t
 :::
 
 :::card
-![Portal & Experience](./help/assets/overview/portal-experience.svg)
+![Portal & Experience](./help/assets/overview/lp-portal.png)
 
 Portal and experience
 
@@ -239,7 +232,7 @@ Learn how to build custom branded portals and engaging public-facing homepages w
 :::
 
 :::card
-![Administration & Access](./help/assets/overview/administration-access.svg)
+![Administration & Access](./help/assets/overview/lp-admin.png)
 
 Administration and access
 
@@ -249,7 +242,7 @@ Learn how to structure roles, manage permissions, and establish governance frame
 :::
 
 :::card
-![Recognition & Compliance](./help/assets/overview/recognition-compliance.svg)
+![Recognition & Compliance](./help/assets/overview/lp-recognition.png)
 
 Recognition and compliance
 
@@ -259,7 +252,7 @@ Learn how to set up compliance certifications, design custom certificates, and b
 :::
 
 :::card
-![Learning Journeys](./help/assets/overview/learning-journeys.svg)
+![Learning Journeys](./help/assets/overview/lp-journey.png)
 
 Learning journeys
 
@@ -269,7 +262,7 @@ Learn how to arrange courses into structured paths and automate enrollment throu
 :::
 
 :::card
-![Reporting & Analytics](./help/assets/overview/reporting-analytics.svg)
+![Reporting & Analytics](./help/assets/overview/lp-reporting.png)
 
 Reporting and analytics
 
