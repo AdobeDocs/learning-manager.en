@@ -146,7 +146,7 @@ Explore focused training for key Adobe Learning Manager capabilities.
 
 Learning Path Agent
 
-Build practical skills with focused training for this Adobe Learning Manager capability.
+Learn how to generate personalized, sequenced learning paths through a guided AI conversation.
 
 [Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286956)
 :::
@@ -156,7 +156,7 @@ Build practical skills with focused training for this Adobe Learning Manager cap
 
 Insights Agent
 
-Build practical skills with focused training for this Adobe Learning Manager capability.
+Learn how to ask natural-language questions to generate learning data insights instantly.
 
 [Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286964)
 :::
@@ -166,7 +166,7 @@ Build practical skills with focused training for this Adobe Learning Manager cap
 
 Live Hub (Beta)
 
-Build practical skills with focused training for this Adobe Learning Manager capability.
+Learn how to run AI-powered live training sessions with smarter polls, analytics and breakout tools.
 
 [Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286962)
 :::
@@ -176,7 +176,7 @@ Build practical skills with focused training for this Adobe Learning Manager cap
 
 Report Builder
 
-Build practical skills with focused training for this Adobe Learning Manager capability.
+Learn how to build custom, saved reports by joining data across multiple ALM datasets.
 
 [Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286960)
 :::
@@ -186,7 +186,7 @@ Build practical skills with focused training for this Adobe Learning Manager cap
 
 Email Builder
 
-Build practical skills with focused training for this Adobe Learning Manager capability.
+Learn how to design branded, reusable email templates using the component-based editor.
 
 [Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967)
 :::
@@ -202,9 +202,9 @@ Follow a guided curriculum across broader product and administration workflows.
 :::card
 ![Course & Content Management](./help/assets/overview/course-content-management.svg)
 
-Course & Content Management
+Course and content management
 
-Follow a guided Academy curriculum for this Adobe Learning Manager capability area.
+Learn how to create, organize, and manage learning content effectively through this structured learning journey.
 
 [Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168917)
 :::
@@ -212,9 +212,9 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 :::card
 ![Portal & Experience](./help/assets/overview/portal-experience.svg)
 
-Portal & Experience
+Portal and experience
 
-Follow a guided Academy curriculum for this Adobe Learning Manager capability area.
+Learn how to build custom branded portals and engaging public-facing homepages with Experience Builder. 
 
 [Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168919)
 :::
@@ -222,9 +222,9 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 :::card
 ![Administration & Access](./help/assets/overview/administration-access.svg)
 
-Administration & Access
+Administration and access
 
-Follow a guided Academy curriculum for this Adobe Learning Manager capability area.
+Learn how to structure roles, manage permissions, and establish governance frameworks that scale with your organization.
 
 [Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168920)
 :::
@@ -232,9 +232,9 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 :::card
 ![Recognition & Compliance](./help/assets/overview/recognition-compliance.svg)
 
-Recognition & Compliance
+Recognition and compliance
 
-Follow a guided Academy curriculum for this Adobe Learning Manager capability area.
+Learn how to set up compliance certifications, design custom certificates, and badges that celebrate learner achievements.
 
 [Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168921)
 :::
@@ -242,9 +242,9 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 :::card
 ![Learning Journeys](./help/assets/overview/learning-journeys.svg)
 
-Learning Journeys
+Learning journeys
 
-Follow a guided Academy curriculum for this Adobe Learning Manager capability area.
+Learn how to arrange courses into structured paths and automate enrollment through learning plans.
 
 [Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168918)
 :::
@@ -252,9 +252,9 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 :::card
 ![Reporting & Analytics](./help/assets/overview/reporting-analytics.svg)
 
-Reporting & Analytics
+Reporting and analytics
 
-Follow a guided Academy curriculum for this Adobe Learning Manager capability area.
+Learn how to transform dashboards and reports into meaningful decisions for leadership.
 
 [Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168922)
 :::
@@ -265,4 +265,5 @@ Follow a guided Academy curriculum for this Adobe Learning Manager capability ar
 
 - [Release notes](/help/migrated/release-note/release-notes.md)
 - [Community](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime)
+- [Send feedback](https://github.com/AdobeDocs/product.en/issues)
 - [Support](https://helpx.adobe.com/support/learning-manager.html)
