@@ -171,7 +171,7 @@ The following codes apply to these endpoints:
 | 403 | `FORBIDDEN` | The caller is neither the creator nor a shared enrollee |
 | 404 | `Not Found` | The path ID doesn't exist for this account |
 
-## Check catalog access for learning objects
+## API for checking catalog access for learning objects
 
 Determine whether the current learner has direct catalog access to one or more learning objects, independent of whether the learner reached that content through a learning path or certification.
 
@@ -181,7 +181,7 @@ When a learner opens a learning path or certification, they can browse the indiv
 
 However, being able to view a course this way should not automatically mean the learner can enroll in it. Enrollment should depend on whether the learner has direct catalog access to that specific course, not just indirect access through a containing learning path.
 
-This API lets your integration check, for a given learner, whether one or more learning objects are directly accessible through a catalog assigned to them. Use the result to control enrollment-related UI, for example, showing an Enroll option only when direct catalog access is confirmed, while keeping the course page itself viewable in both cases.
+This API lets you check, for a given learner, whether one or more learning objects are directly accessible through a catalog assigned to them. Use the result to control enrollment-related UI, for example, showing an Enroll option only when direct catalog access is confirmed, while keeping the course page itself viewable in both cases.
 
 ### Endpoint
 
