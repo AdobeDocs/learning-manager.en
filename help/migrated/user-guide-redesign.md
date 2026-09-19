@@ -15,12 +15,12 @@ Enterprise LMS for scalable learner experiences, compliance training, and skill-
     <tr style="border: 0;">
         <td>
             <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html#make-personalized-learning-the-new-normal">
-                <img src="./help/assets/overview/sign-up.png" alt="Sign up" style="width: 80%; height: auto;">
+                <img src="./help/assets/overview/sign-up.png" alt="Sign up" height: auto;">
             </a>
         </td>
         <td>
             <a href="https://cdn.content.adobelearningmanageracademy.com/">
-                <img src="./help/assets/overview/explore-alma.png" alt="Explore ALMA" style="width: 80%; height: auto;">
+                <img src="./help/assets/overview/explore-alma.png" alt="Explore ALMA" height: auto;">
             </a>
         </td>
     </tr>
