@@ -142,53 +142,53 @@ Explore focused training for key Adobe Learning Manager capabilities.
 ::::landing-cards-container
 
 :::card
-![Learning Path Agent](./help/assets/overview/learning-path-agent.svg)
+![Learning Path Agent](./help/assets/overview/alma-lpa.png)
 
 Learning Path Agent
 
 Learn how to generate personalized, sequenced learning paths through a guided AI conversation.
 
-[Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286956)
+[Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956)
 :::
 
 :::card
-![Insights Agent](./help/assets/overview/insights-agent.svg)
+![Insights Agent](./help/assets/overview/alma-ia.png)
 
 Insights Agent
 
 Learn how to ask natural-language questions to generate learning data insights instantly.
 
-[Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286964)
+[Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964)
 :::
 
 :::card
-![Live Hub (Beta)](./help/assets/overview/live-hub-beta.svg)
+![Live Hub (Beta)](./help/assets/overview/alma-live-hub.png)
 
 Live Hub (Beta)
 
 Learn how to run AI-powered live training sessions with smarter polls, analytics and breakout tools.
 
-[Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286962)
+[Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962)
 :::
 
 :::card
-![Report Builder](./help/assets/overview/report-builder.svg)
+![Report Builder](./help/assets/overview/alma-rb.png)
 
 Report Builder
 
 Learn how to build custom, saved reports by joining data across multiple ALM datasets.
 
-[Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286960)
+[Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960)
 :::
 
 :::card
-![Email Builder](./help/assets/overview/email-builder.svg)
+![Email Builder](./help/assets/overview/alma-email.png)
 
 Email Builder
 
 Learn how to design branded, reusable email templates using the component-based editor.
 
-[Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967)
+[Open course](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967)
 :::
 
 ::::
@@ -264,6 +264,5 @@ Learn how to transform dashboards and reports into meaningful decisions for lead
 ## Additional resources {#additional-resources}
 
 - [Release notes](/help/migrated/release-note/release-notes.md)
-- [Community](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime)
+- [Ask community](https://community.adobe.com/adobe-learning-manager-466)
 - [Send feedback](https://github.com/AdobeDocs/product.en/issues)
-- [Support](https://helpx.adobe.com/support/learning-manager.html)
