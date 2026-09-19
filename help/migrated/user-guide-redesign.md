@@ -212,7 +212,7 @@ Learn how to design branded, reusable email templates using the component-based 
 
 ::::
 
-### Academy learning paths {#academy-learning-paths}
+### ALM Academy learning paths {#academy-learning-paths}
 
 Follow a guided curriculum across broader product and administration workflows.
 
@@ -225,7 +225,7 @@ Course and content management
 
 Learn how to create, organize, and manage learning content effectively through this structured learning journey.
 
-[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168917)
+[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917)
 :::
 
 :::card
@@ -235,7 +235,7 @@ Portal and experience
 
 Learn how to build custom branded portals and engaging public-facing homepages with Experience Builder. 
 
-[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168919)
+[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919)
 :::
 
 :::card
@@ -245,7 +245,7 @@ Administration and access
 
 Learn how to structure roles, manage permissions, and establish governance frameworks that scale with your organization.
 
-[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168920)
+[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920)
 :::
 
 :::card
@@ -255,7 +255,7 @@ Recognition and compliance
 
 Learn how to set up compliance certifications, design custom certificates, and badges that celebrate learner achievements.
 
-[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168921)
+[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921)
 :::
 
 :::card
@@ -265,7 +265,7 @@ Learning journeys
 
 Learn how to arrange courses into structured paths and automate enrollment through learning plans.
 
-[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168918)
+[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918)
 :::
 
 :::card
@@ -275,7 +275,7 @@ Reporting and analytics
 
 Learn how to transform dashboards and reports into meaningful decisions for leadership.
 
-[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/learningProgram/168922)
+[Open learning path](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922)
 :::
 
 ::::
