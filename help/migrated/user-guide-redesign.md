@@ -11,9 +11,28 @@ hide: true
 
 Enterprise LMS for scalable learner experiences, compliance training, and skill-based development. Select your role to go directly to your documentation. Build practical product skills with curated Adobe Learning Manager Academy courses and guided learning paths.
 
-[Browse the user guide](#){class="button primary"}
+<table style="table-layout:auto">
+    <tr style="border: 0;">
+        <td>[![Sign up](./help/assets/overview/sign-up.png)](https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html#make-personalized-learning-the-new-normal)</td>
+        <td>[![Explore ALMA](./help/assets/overview/explore-alma.png)](https://cdn.content.adobelearningmanageracademy.com/)</td>
+    </tr>
+</table>
 
-[Explore Academy learning](https://cdn.content.adobelearningmanageracademy.com/){class="button secondary"}
+<table style="table-layout: auto;">
+    <tr style="border: 0;">
+        <td>
+            <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html#make-personalized-learning-the-new-normal">
+                <img src="./help/assets/overview/sign-up.png" alt="Sign up">
+            </a>
+        </td>
+        <td>
+            <a href="https://cdn.content.adobelearningmanageracademy.com/">
+                <img src="./help/assets/overview/explore-alma.png" alt="Explore ALMA">
+            </a>
+        </td>
+    </tr>
+</table>
+
 
 ## Start with your role {#roles}
 
