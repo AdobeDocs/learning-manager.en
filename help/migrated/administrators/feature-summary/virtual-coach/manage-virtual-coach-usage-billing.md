@@ -46,7 +46,7 @@ Monthly Active User (MAU) credits count the number of unique learners who use Vi
 
 ## How MAU credits are consumed
 
-An MAU credit is consumed when a learner luanches a Virtual Coach session in a calendar month. Additional sessions by the same learner in the same month don't consume additional credits. Unused credits at the end of the contract period lapse and don't carry over.
+An MAU credit is consumed when a learner launches a Virtual Coach session in a calendar month. Additional sessions by the same learner in the same month don't consume additional credits. Unused credits at the end of the contract period lapse and don't carry over.
 
 | Scenario | MAUs consumed |
 |---|---|

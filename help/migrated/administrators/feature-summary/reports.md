@@ -1224,186 +1224,126 @@ When creating a dashboard, enter the name and description. To share with manager
 *Share a dashboard*
 +++
 
-### Administrator Audit Trail Report
+## Administrator Audit Trail Report {#adminaudittrailreport}
 
-#### Overview
+Generate a report of configuration changes made to your account's Basics, Advanced, and Integration settings — including who made each change, when, and the value before and after.
 
-The **Administrator Audit Trail Report** is a report that lets Administrators review changes made to important account-level settings. It provides a historical record of configuration changes so that an Administrator can determine:
+## What the report captures
 
-* Who made the change
-* When the change was made
-* What the setting was before the change
-* What the setting is after the change
+The Administrator Audit Trail Report gives you a historical record of configuration changes so you can determine:
 
-The report is especially useful in accounts where several Administrators or custom Administrators can update settings. It gives account owners and authorized Administrators a clear way to review configuration activity without relying on memory or manually comparing settings.
+- Who made the change
+- When the change was made
+- What the setting was before the change
+- What the setting is after the change
+
+The report covers changes made to:
+
+- **Basics** settings
+- **Advanced** settings
+- **Integrations** settings
 
 >[!NOTE]
 >
->The records generated will be available only from September 30, 2026.
+>Branding, Gamification, Badges, and Native Extensions settings are not yet covered by this report.
 
-#### What the report provides
+The report is additive-only: new change records are added over time, and previously recorded entries are never removed. This lets you review the full history of a setting across multiple changes, not just its current value.
 
-Administrators can generate a report for a selected date range and review configuration changes made in the following areas:
+The report is available to any user with Report privileges — this includes full Administrators and custom Administrators who have been granted Report access, not only account owners.
 
-* Basic settings
-* Advanced settings
-* Integration settings
+>[!NOTE]
+>
+>Records are available starting from September 30, 2026. Changes made before that date are not included in the report.
 
-The report is intended to provide a consistent and traceable view of administrative changes across these settings areas. The report is designed to add new change records over time rather than remove previously recorded entries. This allows Administrators to review the history of a setting across multiple changes.
+## Why this report matters for compliance
 
-#### Background
+Organizations operating in regulated industries often need to demonstrate that configuration changes to systems handling electronic records are tracked, attributable, and retained. The Administrator Audit Trail Report supports these requirements by identifying the person, setting, time, and before-and-after values for each change.
 
-##### Why the report is needed
+The report does not capture the reason for a change. If your organization requires a documented explanation for configuration changes, retain the related change request, approval, or business justification separately.
 
-Organizations often have multiple Administrators, custom Administrators, or teams responsible for managing account settings. When an unexpected configuration change is noticed, it may be difficult to determine:
+>[!NOTE]
+>
+>This report supports your organization's compliance activities. It does not, by itself, certify compliance with any specific regulation or standard.
 
-* Which Administrator made the change
-* When the change took place
-* Whether the change was intentional
-* What the original setting was
-* What value replaced it
+## Generate an Administrator Audit Trail Report
 
-The Administrator Audit Trail Report addresses this need by presenting the relevant change history in a downloadable report.
+1. Sign in to Adobe Learning Manager as an Administrator.
+2. In the left navigation, select **Manage** > **Reports** > **Custom Reports**.
+3. Scroll down and select **Administrator Audit Trail**.
+4. **Select Range**: choose the period to report on — **Last one week**, **Last one month**, or **Choose dates**. If you select **Choose dates**, enter a **From** date and a **To** date.
+5. **Select setting type**: choose **Select All**, **Basics**, or **Integrations**.
 
-##### Support accountability
+   >[!NOTE]
+   >
+   >Advanced settings do not have their own filter option. To include changes to Advanced settings in your report, select **Select All**.
 
-The report supports administrative accountability by making configuration changes visible to authorized users. It helps organizations answer common questions mentioned in the introductory paragraph above.
+   To see the complete list of settings tracked by this report across Basics, Integrations, and Advanced, select **Download List of settings**.
 
-Answers to those questions can help Administrators investigate unexpected behavior, validate planned changes, and maintain a reliable record of account administration.
+6. Select **Generate**.
 
-##### Support organizations with legal compliance
+A `.csv` file containing the changes downloads to your browser's Downloads folder. Report generation may take a few moments — you can continue using Adobe Learning Manager while it processes. If you close the browser window before the report is ready, the download begins the next time you sign in.
 
-The report is also relevant to organizations that use a learning management system in a regulated environment. The US Food and Drug Administration (FDA) requires organizations in the pharmaceutical, biotechnology, medical device, and clinical research fields to comply with 21 CFR Part 11.
+## Common uses for this report
 
-Title 21 of Code of Federal Regulations, Part 11 defines the requirements for electronic records and electronic signatures in FDA-regulated industries. It sets the criteria for when electronic records and signatures are considered trustworthy, reliable, and legally equivalent to paper records and handwritten signatures.
+- **Investigate an unexpected setting change** — confirm what changed, when, and who made the change, rather than relying on assumptions.
+- **Review changes made by multiple Administrators** — generate a consolidated view of all configuration activity across Basics, Integrations, and Advanced settings for a given period, instead of contacting each Administrator individually.
+- **Confirm an approved configuration change** — verify that the expected Administrator made the change, within the expected time period, and that the new value matches what was approved.
+- **Compare a setting's history over multiple changes** — use the **Revision** column to see how many times a specific setting has changed and review each recorded value in sequence, including whether a later change restored an earlier one.
+- **Support a compliance review** — generate the report for the period under review as part of your administrative and compliance records.
+- **Investigate an integration-related issue** — filter to Integrations settings for the period when the issue began, and compare the setting's value before and after.
+- **Review settings after a policy change** — confirm that intended configuration updates were applied consistently, and identify any changes that occurred unexpectedly.
+- **Maintain a historical administrative record** — download and retain reports according to your organization's record-management practices.
 
-The regulation requires organizations to implement controls such as system validation, audit trails, access security, record retention, and unique electronic signatures. These controls help ensure the integrity, authenticity, and confidentiality of electronic data. Compliance with 21 CFR Part 11 lets organizations replace paper-based processes with electronic systems while meeting FDA requirements. [Learn more](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application).
+## Report column reference
 
-From an Administrator's point of view, the report supports the ability to identify:
+The downloaded `.csv` file includes the following columns.
 
-* The person associated with a change
-* The setting that was changed
-* The time of the change
-* The value before the change
-* The value after the change
+| Column | Description |
+|---|---|
+| **Event ID** | A unique identifier for this specific change record. |
+| **Timestamp (UTC)** | The date and time the change was made, in Coordinated Universal Time. |
+| **Email** | The email address of the Administrator who made the change. |
+| **UUID** | A unique identifier for the Administrator who made the change. Populated only if UUID is enabled at the account level. |
+| **Admin Name** | The display name of the Administrator who made the change. |
+| **Event Type** | The category of event recorded — for example, a settings change. |
+| **Action Type** | The type of action performed on the setting — for example, `CREATE_SETTING`, `UPDATE_SETTING`, or `DELETE_SETTING`. |
+| **Object Type** | The type of setting or configuration object that was changed. |
+| **Object ID** | The unique identifier of the specific setting or configuration object that was changed. |
+| **Previous Value** | The value of the setting before the change. For a deleted setting, this shows the value that existed before deletion. |
+| **New Value** | The value of the setting after the change. For a deleted setting, this is blank. |
+| **Revision** | The number of times this specific Object ID has been changed. The first recorded change for an object starts at 1. |
 
-##### What it does not capture
+>[!TIP]
+>
+>To find all settings that were deleted during a period, filter the downloaded file where **Action Type** is `DELETE_SETTING`.
 
-The report does not capture the reason for a change. Administrators should therefore retain any applicable change request, approval, or business justification separately when their organization requires a documented explanation.
+## Access this report programmatically
 
-##### Historical review
+You can retrieve the Administrator Audit Trail Report programmatically using the Jobs API, rather than generating it manually from the Admin app. This is useful if you want to schedule regular exports or feed the report into a downstream monitoring or alerting system. See [Jobs API](#) for details.
 
-Administrators can use date selection to review changes across a period of time. This supports both recent investigations and historical reviews, provided the relevant account record remains available.
+## Limitations
 
-The report is intended to preserve the change history for as long as the related configuration record is retained. This allows Administrators to refer back to earlier changes when investigating an issue or preparing compliance documentation.
+- **Localization**: Report content is not localized. The report is generated in the default account language regardless of your account's configured locale settings.
+- **Settings coverage**: Branding, Gamification, Badges, and Native Extensions settings are not yet captured by this report.
+- **Reason for change**: The report does not capture why a change was made. Retain any related change request, approval, or business justification separately.
 
-#### Use cases
+## Best practices
 
-##### Investigate an unexpected setting change
+- Select a date range that covers the suspected or planned change.
+- Select **Select All** when the affected settings area is not known.
+- Compare both the **Previous Value** and **New Value** columns for each entry.
+- Use the **Admin Name** and **Timestamp** columns to correlate a change with approved work or internal records.
+- Preserve downloaded reports according to your organization's retention requirements.
+- Keep the related change request, approval, or business justification separately when your organization requires a documented explanation for a change.
 
-An Administrator notices that an account behaves differently from before and suspects that a configuration setting was changed. The Administrator can investigate the change using evidence rather than relying on assumptions.
+## Troubleshooting
 
-##### Review changes made by multiple Administrators
+**I don't see any records before a certain date**
+Records are available only from September 30, 2026 onward. Changes made before that date are not included in the report.
 
-Imagine an organization has several Administrators who can update account settings. The account owner wants to understand what changes were made during a particular period. The account owner can generate a report for that period and review all available configuration changes across:
+**The UUID column is empty for some or all records**
+The UUID column is populated only if UUID is enabled at the account level. If it is not enabled, this column remains blank for all records.
 
-* Basics
-* Integrations
-* Advanced
+**I have a custom Administrator role, but I can't find this report**
+Confirm that your custom role has been granted Report privileges. Contact your account owner or a full Administrator to request this access if needed.
 
-The account owner receives a consolidated view of administrative activity instead of contacting each Administrator individually.
-
-##### Confirm an approved configuration change
-
-An Administrator or project team has approved a change to an account setting. After the change is made, the account owner wants to confirm that the correct value was applied.
-
-The Administrator can use the report to verify:
-
-* The expected Administrator made the change
-* The change occurred within the expected time period
-* The previous value was the expected original value
-* The new value matches the approved configuration
-
-The report provides a simple way to validate that a planned change was completed correctly.
-
-##### Compare a setting before and after a change
-
-A team wants to understand how a configuration setting evolved over time.
-
-The Administrator can select a date range that includes multiple changes and review the recorded previous and new values for each change.
-
-This can help answer:
-
-* Whether the setting was changed once or several times
-* Which value was used during a particular period
-* Whether a later change restored an earlier value
-* Whether the current value resulted from a sequence of changes
-
-The Administrator can follow the history of a setting instead of viewing only its current state.
-
-##### Support compliance reviews
-
-A regulated organization is preparing for an internal or external review and needs evidence of administrative configuration changes. The organization can generate the report for the period under review and use it as part of its administrative and compliance records.
-
-The report can help demonstrate that the organization can identify:
-
-* The individual associated with a configuration change
-* The time of the change
-* The setting value before the change
-* The setting value after the change
-
-Administrators have a consistent record that can support compliance activities and audit preparation.
-
-The report records who, what, when, and the before-and-after values.
-
-##### Investigate an integration-related issue
-
-A connected system or integration begins behaving unexpectedly. An Administrator suspects that an integration setting may have changed. The Administrator can generate the report for the period when the issue began and review changes under integration settings.
-
-The Administrator can then compare:
-
-* The integration setting before the issue
-* The current or subsequent value
-* The Administrator who made the change
-* The time of the change
-
-The report helps narrow the investigation to configuration history rather than requiring a broad review of all account activity.
-
-##### Review advanced settings after a policy change
-
-An organization updates its administrative policies and wants to confirm whether related advanced settings were changed consistently. The Administrator can generate a report covering the policy-change period and review the relevant entries under advanced settings.
-
-The organization can verify that its intended configuration changes were applied and identify any settings that were changed unexpectedly.
-
-##### Maintain an administrative record
-
-An organization wants to retain a record of configuration activity for future reference. Administrators can download reports for relevant periods and store them according to the organization's record-management practices. The report is intended to preserve previously recorded changes and make them available for review while the related configuration record remains available. The organization can maintain a historical reference for operational reviews, governance, and future investigations.
-
-#### Generate an Administrator Audit Trail Report
-
-1. Log in as an Administrator.
-2. Navigate to **Manage** section > **Reports** > **Custom Reports**.
-
-   ![](assets/audit-trail-report1.png)
-
-3. Scroll down to select **Administrative Audit Trail**.
-
-   ![](assets/audit-trail-report2.png)
-
-4. **Select Range:** Select the time period for which you'd like to generate the Administrator Audit Trail Report. Three options are available: **Last one week**, **Last one month**, and **Choose dates**. If you select **Choose dates**, select a **From** date and a **To** date as a range.
-5. **Select setting type:** Select one or more of the following options: **Select All**, **Basics**, and **Integrations**. To see the entire list of settings across **Basics**, **Integrations**, and **Advanced**, select **Download list of settings**.
-
-   ![](assets/audit-trail-report3.png)
-
-6. Select **Generate**. A .csv file containing the changes will be downloaded to the Downloads folder of your browser.
-
-   ![](assets/audit-trail-report4.png)
-
-#### Best practices for generating the report
-
-* Select a date range that covers the suspected or planned change.
-* Review all three supported settings areas when the affected setting is not known.
-* Compare both the previous and new values.
-* Use the Administrator and timestamp information to correlate the change with approved work or internal records.
-* Preserve downloaded reports according to organizational retention requirements.
-* Keep the related change request, approval, or business justification separately when an explanation for the change is required.
