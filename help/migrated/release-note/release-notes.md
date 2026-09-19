@@ -20,6 +20,61 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 -->
 
++++Update 112: September 30, 2026 release of Adobe Learning Manager
+
+## Features in this release
+
+**Virtual Coach:** Virtual Coach is an AI-powered coaching solution in Adobe Learning Manager that helps learners develop skills through realistic role-play scenarios, personalized feedback, and on-demand practice before applying those skills in real-world situations. [Learn more](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md).
+
+**Seat sharing:** Seat sharing allows an account to share a portion of its licensed seats with another account, enabling learners in the receiving account to access Adobe Learning Manager using the shared seats. Seat sharing is available only to Ultimate accounts; Prime accounts can neither share nor receive seats and credit card-billed accounts are on the Prime plan by default. Trial accounts are an exception and can receive shared seats from an Ultimate account. During an active seat-sharing relationship, the Trial account receives Ultimate-level feature access. [Learn more](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
+
+**Administrator Audit Trail Report:** The Administrator Audit Trail Report gives you a historical record of configuration changes so you can determine:
+
+* Who made the change
+* When the change was made
+* What the setting was before the change
+* What the setting is after the change
+
+The report covers changes made to:
+
+* Basics settings
+* Advanced settings
+* Integrations settings
+
+[Learn more](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport)
+
+## Enhancements in this release
+
+### Insights Agent
+
+Two enhancements have been made to Insights Agent. They are:
+
+* **Product terminology support:** If your administrator has customized standard terms using Product Terminology in Settings > General, Insights Agent recognizes and uses those terms instead of the default terminology. For example, if Module is renamed to Training, you can ask, "How many Trainings were completed last month?" Insights Agent interprets the custom term and uses Training in the response and column headers.
+
+* **Course enrollment, excluding waitlisted by default:** For direct and indirect enrollment queries without filters, the directly enrolled count includes learners with a Waiting status, even though they are waitlisted and not actively participating. By default, the Approach panel does not indicate that waitlisted learners are included in the count. Waitlisted learners are excluded only when the admin explicitly requests the exclusion, in which case the applied rule is disclosed. 
+
+[Learn more](/help/migrated/administrators/feature-summary/insights-agent.md).
+
+## API
+
+* **APIs for Personalized Learning Paths:** The learner-facing APIs for Personalized Learning Paths enable learners to manage their Learning Paths, including listing their paths, retrieving path details, enrolling in a path shared with them, and deleting a path they created.
+
+* **API for catalog access for learning objects:** The catalog access API for learning objects lets you determine whether one or more learning objects are directly accessible to a learner through an assigned catalog. Use the response to control enrollment-related UI elements. For example, display the Enroll option only when direct catalog access is confirmed, while allowing learners to view the course page regardless of catalog access.
+Learn more.
+
+[Learn more](/help/migrated/api-changes-sep-2026.md).
+
+## Fixes
+
+**Learning Path instance:** Learning Path (LP) start and end dates were displayed incorrectly when the LP instance time zone differed from the administrator's system or browser time zone. Editing dates caused the Start Date to display the wrong calendar day, and the same time zone conversion issue affected notification alerts in the calendar. This issue has been fixed by correctly converting dates from UTC to the LP instance's time zone. Start and end dates, including dates used for calendar notification alerts, are now displayed consistently according to the LP instance's configured time zone. (unresolved)
+
+**Mobile app:** The player did not resize correctly in Safari and Edge when learners switched between landscape and portrait orientations, resulting in display issues such as a white line in the Overview section and preventing access to the table of contents and notes. This issue has been fixed by correcting the player's resizing behavior during orientation changes. The player now adapts correctly to screen orientation, displays the Overview section properly, and allows learners to access the table of contents and notes as expected. (In test)
+
+**Gamification:** Learners did not receive gamification points when revisiting a completed course from the Bookmarks section. This issue has been fixed by correcting the gamification point allocation for bookmarked courses. Learners now receive the appropriate gamification points when they revisit a completed course from their bookmarks.
+
++++
+
+
 +++Update 111: August 31, 2026 release of Adobe Learning Manager
 
 ## Enhancements in this release
