@@ -111,7 +111,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
    * [Job Aids](administrators/feature-summary/job-aids.md)
    * [Vitual Coach] {#virtualcoachadmin}
-      * [Manage Virtual Coach usage and billing](administrators/feature-summary/manage-virtual-coach-usage-billing.md)
+      * [Manage Virtual Coach usage and billing](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
       * [Virtual Coach reports](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
    * [Create Channels (Beta)](administrators/feature-summary/create-channels.md)
    * [Certifications](administrators/feature-summary/certifications.md)
@@ -205,7 +205,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Create, modify, and publish courses](authors/feature-summary/courses.md)
    * [Catalogs](authors/feature-summary/catalogs.md)
    * {hide-from-toc} [Adaptive Course](authors/feature-summary/adaptive-course-author.md)
-   * Virtual Coach {virtual-coach}
+   * Virtual Coach {#virtual-coach}
       * [What Virtual Coach is](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
       * [Gather materials for a Virtual Coach role-play](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
       * [Design a Virtual Coach](authors/feature-summary/virtual-coach/role-play-design.md)

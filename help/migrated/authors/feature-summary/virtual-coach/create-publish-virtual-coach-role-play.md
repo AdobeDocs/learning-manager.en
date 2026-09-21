@@ -1,3 +1,10 @@
+---
+description: Learn how to create, configure, and publish a Virtual Coach role-play, from persona and topic setup to scoring and advanced settings
+jcr-language: en_us
+title: Create and publish a Virtual Coach role-play
+exl-id: f37e93ef-6d76-4b7c-b4c3-f3f8c57b143c
+---
+
 # Create and publish a Virtual Coach role-play
 
 Create an AI roleplay scenario in Adobe Learning Manager Virtual Coach so learners can practice real-world conversations as part of a course or job aid. This article walks through the full process to create a Virtual Coach role-play — from choosing a template through publishing to the Content Library.
@@ -182,14 +189,14 @@ After selecting a persona, complete the **AI Persona Details** fields:
 2. Enter the persona's **Organization** — the company or institution they work for. For example, Northgate Health.
 3. Select a **Personality** that matches the challenge level and scenario context:
 
-| Personality | Behavior |
-|---|---|
-| Skeptical | Questions everything and demands proof |
-| Indifferent | Disengaged and hard to excite |
-| Enthusiastic | Excited about the solution and ready to engage |
-| Relationship Oriented | Values trust and personal connection above all |
-| Neutral | Stays balanced and evaluates options without bias |
-| Assertive | Blunt, fast-paced, and tends to challenge others |
+   | Personality | Behavior |
+   |---|---|
+   | Skeptical | Questions everything and demands proof |
+   | Indifferent | Disengaged and hard to excite |
+   | Enthusiastic | Excited about the solution and ready to engage |
+   | Relationship Oriented | Values trust and personal connection above all |
+   | Neutral | Stays balanced and evaluates options without bias |
+   | Assertive | Blunt, fast-paced, and tends to challenge others |
 
 4. Optionally, enable **Allow learners to select this option before role-play starts** to let learners choose the persona's personality before launching the session. This is useful for practice-mode scenarios where learners want to control the difficulty.
 5. Select **Done** to save the persona configuration.
