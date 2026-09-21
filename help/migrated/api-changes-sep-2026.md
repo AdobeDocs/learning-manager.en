@@ -6,52 +6,45 @@ title: API changes in Sep 2026
 
 # API changes in Sep 2026
 
-## Personalized Learning Path API
-
-A Personalized Learning Path is a Learning Path that a learner builds from existing catalog content, such as courses. Once created, a learner can view it and consume the Learning Path.
+A Personalized Learning Path is a Learning Path that a learner builds from existing catalogs and courses using the Learning Path Agent. Once created, a learner can view it and consume the Learning Path.
 
 This article covers the public, learner-facing API endpoints for working with Personalized Learning Paths: listing a learner's paths, retrieving path details, enrolling in a path that was shared with you, and deleting a path you created.
 
-### Base URL and conventions
+## Base URL and conventions
 
 | Item | Value |
 |---|---|
-| Base path | |
-| Content type | `application/vnd.api+json;charset=UTF-8` (JSON:API) |
+| Content type | application/vnd.api+json;charset=UTF-8 (JSON:API) |
 | Authentication | Bearer OAuth token, scoped to the learner |
-| Pagination | `page[offset]` (default `0`), `page[limit]` (default `10`) — list endpoint only |
-| Sparse fetch | `include=` comma-separated list of relationship names to expand |
+| Pagination | page[offset] (default 0), page[limit] (default 10) — list endpoint only |
+| Sparse fetch | include= comma-separated list of relationship names to expand |
 
-### IDs
+## IDs
 
-Every `id` field returned by these endpoints (path ID, enrollment ID, and so on) is an opaque string. Always pass back the exact `id` value you received from a prior response. Never construct or parse it.
+Every id field returned by these endpoints (path ID, enrollment ID, and so on) is an opaque string. Always pass back the exact id value you received from a prior response. Never construct or parse it.
 
-### Authentication scopes
+## Authentication scopes
 
 Each endpoint requires an OAuth token carrying one of the following scopes:
 
-- `learner:read` - read-only endpoints
-- `learner:write` - endpoints that create or delete data (enroll, delete)
+* `learner:read` - read-only endpoints
+* `learner:write` - endpoints that create or delete data (enroll, delete)
 
-A learner can only act on paths they created, or that were shared with them for viewing or enrollment. The API enforces this on the server and returns `403 Forbidden` otherwise.
+## Endpoints
 
-### Endpoints
+### List Personalized Learning Paths
 
-#### List Personalized Learning Paths
+`GET /primeapi/v2/personalizedPaths`
 
-```http
-GET /primeapi/v2/personalizedPaths
-```
-
-Returns all Personalized Learning Paths created by the current learner.
+Returns all Personalized Learning Paths the user is enrolled in.
 
 **Scope:** `learner:read`
 
 | Query parameter | Required | Default | Description |
 |---|---|---|---|
-| `include` | No | NA | Comma-separated relationships to expand, for example, `include=sections,rating` |
-| `page[offset]` | No | `0` | Pagination offset |
-| `page[limit]` | No | `10` | Page size |
+| include | No | NA | Comma-separated relationships to expand, for example, `include=enrollment,skills,subLOs` |
+| page[offset] | No | 0 | Pagination offset |
+| page[limit] | No | 10 | Page size |
 
 **Sample response**
 
@@ -66,7 +59,7 @@ Returns all Personalized Learning Paths created by the current learner.
         "dateUpdated": "2026-01-20T08:00:00.000Z",
         "enrollmentType": "Self Enroll",
         "isExternal": false,
-        "state": "Published",
+        "state": "Active",
         "loType": "personalizedPath",
         "duration": 3600
       }
@@ -75,44 +68,38 @@ Returns all Personalized Learning Paths created by the current learner.
 }
 ```
 
-#### Get a Personalized Learning Path
+### Get a Personalized Learning Path
 
-```http
-GET /primeapi/v2/personalizedPaths/{id}
-```
+`GET /primeapi/v2/personalizedPaths/{id}`
 
-Returns a single Personalized Learning Path by ID. Use `include` to expand sub-learning objects, sections, and rating in the same response.
+Returns a single Personalized Learning Path by ID.
 
 **Scope:** `learner:read`
 
 | Parameter | In | Required | Description |
 |---|---|---|---|
-| `id` | path | Yes | Personalized Learning Path ID |
-| `include` | query | No | e.g. `include=sections,subLOs,rating` |
+| id | path | Yes | Personalized Learning Path ID |
+| include | query | No | For example, `include=subLOs,enrollment,skills,subLOs.enrollment,subLOs.enrollment.loResourceGrades,subLOs.instances.loResources.resources` |
 
-**Errors:** `403 Forbidden` if the caller is neither the creator nor a shared enrollee; `404 Not Found` if the ID doesn't exist.
+**Errors:** `400 BAD_REQUEST` (code: `OBJECT_DOESNT_EXIST`) if the ID doesn't exist or is malformed.
 
-#### Enroll in a shared Personalized Learning Path
+### Enroll in a shared Personalized Learning Path
 
-```http
-POST /primeapi/v2/personalizedPaths/{id}/enrollment
-```
+`POST /primeapi/v2/personalizedPaths/{id}/enrollment`
 
-Enrolls the current learner in a path that was shared with them. Enrollment **cascades**: the learner is automatically enrolled in every course and learning program contained in the path.
+Enrolls the current learner in a path that was shared with them. Enrollment **cascades**: the learner is automatically enrolled in every course inside the path.
 
 **Scope:** `learner:write`
 
 | Parameter | In | Required | Description |
 |---|---|---|---|
-| `id` | path | Yes | Personalized Learning Path ID |
+| id | path | Yes | Personalized Learning Path ID |
 
 **Response:** `201 Created`. The response body is the full path resource.
 
-#### Delete a Personalized Learning Path
+### Delete a Personalized Learning Path
 
-```http
-DELETE /primeapi/v2/personalizedPaths/{id}
-```
+`DELETE /primeapi/v2/personalizedPaths/{id}`
 
 Deletes a Personalized Learning Path. Only the creator of a path can delete it.
 
@@ -120,56 +107,51 @@ Deletes a Personalized Learning Path. Only the creator of a path can delete it.
 
 | Parameter | In | Required | Description |
 |---|---|---|---|
-| `id` | path | Yes | Personalized Learning Path ID |
+| id | path | Yes | Personalized Learning Path ID |
 
 **Response:** `204 No Content`.
 
 ## Resource schema
 
-### personalizedPath attributes
+*personalizedPath* attributes
 
 | Field | Type | Description |
 |---|---|---|
-| `id` | string | Opaque path ID |
-| `dateCreated` | string (ISO-8601) | Creation timestamp |
-| `dateUpdated` | string (ISO-8601) | Last modified timestamp |
-| `enrollmentType` | string | One of `Self Enroll`, `Manager Nominated`, `Manager Approval`, `Auto Enroll` |
-| `isExternal` | boolean | Whether the object is internal or external |
-| `imageUrl` | string | Thumbnail URL |
-| `bannerUrl` | string | Banner URL |
-| `isSubLoOrderEnforced` | boolean | Whether the path's sub-learning objects must be completed in order |
-| `localizedMetadata` | array | Localized name, description, and overview per locale (embedded) |
-| `state` | string | `Published` or `Expired` |
-| `unenrollmentAllowed` | boolean | Whether the learner can unenroll |
-| `loType` | string | `personalizedLearningPath` |
-| `duration` | number | Total duration, in seconds |
-| `createdByUserId` | number | ID of the learner who created the path |
-| `rating` | object | Rating summary (embedded) |
-| `enrollment` | relationship → `loInstanceEnrollment` | Current user's enrollment for the path. Expand with `include=enrollment` |
-| `sections` | array | Path sections, each with ordered learning object IDs (embedded — see below) |
-| `skills` | relationship → `skill` | Associated skills. Expand with `include=skills` |
-| `subLOs` | relationship → `learningObject` | All sub-learning objects in the path. Expand with `include=subLOs` |
+| id | string | Opaque path ID |
+| dateCreated | string (ISO-8601) | Creation timestamp |
+| dateUpdated | string (ISO-8601) | Last modified timestamp |
+| enrollmentType | string | Self Enroll |
+| isExternal | boolean | Whether the object is internal or external |
+| imageUrl | string | Thumbnail URL |
+| bannerUrl | string | Banner URL |
+| localizedMetadata | array | Localized name, description, and overview per locale (embedded) |
+| state | string | Active |
+| loType | string | personalizedPath |
+| duration | number | Total duration, in seconds |
+| createdByUserId | number | ID of the learner who created the path |
+| enrollment | relationship → loInstanceEnrollment | Current user's enrollment for the path. Expand with `include=enrollment` |
+| sections | array | Path sections, each with ordered learning object IDs (embedded — see below) |
+| skills | relationship → skill | Associated skills. Expand with `include=skills` |
+| subLOs | relationship → learningObject | All sub-learning objects in the path. Expand with `include=subLOs` |
 
-#### Sections (embedded, inside a path)
+### sections (embedded, inside a path) {#sections-embedded-inside-a-path}
 
 | Field | Description |
 |---|---|
-| `id` | Section ID |
-| `mandatoryCount` | Number of learning objects in the section required for completion |
-| `isMandatory` | Whether the section is mandatory |
-| `loIds` | Ordered learning object IDs (courses / learning programs) in this section |
-| `localizedMetadata` | Section title per locale |
+| id | Section ID |
+| loIds | Ordered learning object IDs (courses / learning programs) in this section |
+| localizedMetadata | Section title per locale |
 
-### Error handling
+## Error handling
 
 The following codes apply to these endpoints:
 
 | HTTP status | Error code | When it occurs |
 |---|---|---|
-| 400 | `BAD_REQUEST` | The `id` is malformed |
-| 401 | `UNAUTHORIZED_ACCESS` | The token is missing, invalid, or expired |
-| 403 | `FORBIDDEN` | The caller is neither the creator nor a shared enrollee |
-| 404 | `Not Found` | The path ID doesn't exist for this account |
+| 400 | BAD_REQUEST | Malformed id — on DELETE and enrollment endpoints only |
+| 401 | UNAUTHORIZED_ACCESS | The token is missing, invalid, or expired |
+| 400 | OBJECT_DOESNT_EXIST | GET by id: path doesn't exist or is malformed — both cases collapse into this same response |
+
 
 ## API for checking catalog access for learning objects
 

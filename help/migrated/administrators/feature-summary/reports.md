@@ -1243,10 +1243,6 @@ The report covers changes made to:
 - **Advanced** settings
 - **Integrations** settings
 
->[!NOTE]
->
->Branding, Gamification, Badges, and Native Extensions settings are not yet covered by this report.
-
 The report is additive-only: new change records are added over time, and previously recorded entries are never removed. This lets you review the full history of a setting across multiple changes, not just its current value.
 
 The report is available to any user with Report privileges — this includes full Administrators and custom Administrators who have been granted Report access, not only account owners.
@@ -1258,8 +1254,6 @@ The report is available to any user with Report privileges — this includes ful
 ## Why this report matters for compliance
 
 Organizations operating in regulated industries often need to demonstrate that configuration changes to systems handling electronic records are tracked, attributable, and retained. The Administrator Audit Trail Report supports these requirements by identifying the person, setting, time, and before-and-after values for each change.
-
-The report does not capture the reason for a change. If your organization requires a documented explanation for configuration changes, retain the related change request, approval, or business justification separately.
 
 >[!NOTE]
 >
@@ -1290,7 +1284,6 @@ A `.csv` file containing the changes downloads to your browser's Downloads folde
 - **Confirm an approved configuration change** — verify that the expected Administrator made the change, within the expected time period, and that the new value matches what was approved.
 - **Compare a setting's history over multiple changes** — use the **Revision** column to see how many times a specific setting has changed and review each recorded value in sequence, including whether a later change restored an earlier one.
 - **Support a compliance review** — generate the report for the period under review as part of your administrative and compliance records.
-- **Investigate an integration-related issue** — filter to Integrations settings for the period when the issue began, and compare the setting's value before and after.
 - **Review settings after a policy change** — confirm that intended configuration updates were applied consistently, and identify any changes that occurred unexpectedly.
 - **Maintain a historical administrative record** — download and retain reports according to your organization's record-management practices.
 
@@ -1324,7 +1317,6 @@ You can retrieve the Administrator Audit Trail Report programmatically using the
 ## Limitations
 
 - **Localization**: Report content is not localized. The report is generated in the default account language regardless of your account's configured locale settings.
-- **Settings coverage**: Branding, Gamification, Badges, and Native Extensions settings are not yet captured by this report.
 - **Reason for change**: The report does not capture why a change was made. Retain any related change request, approval, or business justification separately.
 
 ## Best practices
@@ -1333,7 +1325,6 @@ You can retrieve the Administrator Audit Trail Report programmatically using the
 - Select **Select All** when the affected settings area is not known.
 - Compare both the **Previous Value** and **New Value** columns for each entry.
 - Use the **Admin Name** and **Timestamp** columns to correlate a change with approved work or internal records.
-- Preserve downloaded reports according to your organization's retention requirements.
 - Keep the related change request, approval, or business justification separately when your organization requires a documented explanation for a change.
 
 ## Troubleshooting

@@ -42,11 +42,10 @@ The following table shows whether seat sharing is possible between different com
 Seat sharing eligibility is evaluated at renewal. If an account's plan changes in a way that affects an existing sharing relationship, the following happens:
 
 * If a sharing (parent) account's plan changes from Ultimate to Prime at renewal, its existing seat-sharing relationships end.
-* The administrator of the affected receiving (child) account is notified when this happens.
 * If the receiving account has its own independent subscription, that subscription is unaffected; only the sharing relationship itself ends.
 * If the receiving account was a Trial account relying on the parent account's Ultimate access, it reverts to Prime-level access once the sharing relationship ends.
 
-These changes take effect at the account's next renewal, not immediately during an active contract term.
+These changes take effect at the account's next renewal for existing ALM accounts, not immediately during an active contract term. However, these do not apply for new accounts that are created after tiering feature has gone live.
 
 >[!NOTE]
 >
