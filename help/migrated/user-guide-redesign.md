@@ -11,7 +11,7 @@ hide: true
 
 Enterprise LMS for scalable learner experiences, compliance training, and skill-based development. Select your role to go directly to your documentation. Build practical product skills with curated Adobe Learning Manager Academy courses and guided learning paths.
 
-<table style="table-layout: auto;">
+<table style="table-layout: fixed;">
     <tr style="border: 0;">
         <td>
             <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal">
