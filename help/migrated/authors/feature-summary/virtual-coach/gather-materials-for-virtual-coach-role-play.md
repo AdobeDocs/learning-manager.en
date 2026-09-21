@@ -1,3 +1,10 @@
+---
+description: Learn what documents, context, and prompt details to prepare before building a Virtual Coach role-play with the AI assistant
+jcr-language: en_us
+title: Gather materials for a Virtual Coach role-play
+exl-id: 1a119554-af8d-445a-9c19-010dafd3e7ab
+---
+
 # Gather materials for a Virtual Coach role-play
 
 Use this reference to prepare the documents, context, and prompt details a Virtual Coach role-play needs before you start building.

@@ -1,3 +1,10 @@
+---
+description: Learn how Learning Manager admins activate Virtual Coach, monitor MAU credit usage, and download learner performance reports
+jcr-language: en_us
+title: Manage Virtual Coach usage and billing
+exl-id: 1f8f6465-51c3-4670-a1c7-9a7dfb091452
+---
+
 # Manage Virtual Coach usage and billing
 
 Activate Virtual Coach, monitor Monthly Active User (MAU) credit consumption, and download learner performance reports as an Adobe Learning Manager administrator.

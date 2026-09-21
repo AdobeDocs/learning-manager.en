@@ -1,11 +1,13 @@
 ---
 description: Learn how to design realistic, measurable role-plays for Virtual Coach, covering personas, scenarios, evaluation criteria, and a scenario library
 jcr-language: en_us
-title: role-play design doc v2 revised
+title: Design a role-play
 exl-id: a9eb5303-df1f-4f1d-9e21-0cf3eff5f199
 ---
 
 *A design guide for authoring Virtual Coach role-plays in Adobe Learning Manager*
+
+# Design a role-play
 
 ## Introduction
 
@@ -26,9 +28,9 @@ This guide is scoped to conversation design: the scenario, persona, goal, and ev
 Every successful role-play is built on four foundational elements:
 
 1. Scenario
-1. Persona
-1. Conversation goal
-1. Evaluation criteria
+2. Persona
+3. Conversation goal
+4. Evaluation criteria
 
 Together, these elements determine the quality of the learner experience and the value of the coaching feedback.
 
@@ -254,7 +256,7 @@ role-plays generally progress through five levels of maturity, from a generic si
 
 The Sales enablement example below is the fully-worked reference for this library — every field the Gold Standard Template calls for is filled in, including weighted evaluation criteria, Make-or-Break flags, opener lines, and objections. The remaining examples follow the same structure so they're equally ready to adapt; none are intentionally abbreviated.
 
-#### Sales enablement: Enterprise LMS evaluation
+### Sales enablement: Enterprise LMS evaluation
 
 **Scenario.** A global manufacturing organization with more than 40,000 employees is evaluating LMS vendors because its current platform contract expires within nine months. The learner is an Account Executive conducting the first formal discovery conversation after meeting the prospect at an industry conference. The organization operates across 25 countries and currently uses five disconnected learning systems.
 
@@ -300,7 +302,7 @@ The Sales enablement example below is the fully-worked reference for this librar
 
 **Success state.** The learner secures a follow-up demonstration and understands the organization's buying process.
 
-#### Customer success: Adoption recovery executive review
+### Customer success: Adoption recovery executive review
 
 **Scenario.** Platform usage has declined by 40% over the previous two quarters. Executive sponsors have started questioning ROI, and renewal discussions begin in four months. The learner is a Customer Success Manager conducting a quarterly business review.
 
@@ -346,7 +348,7 @@ The Sales enablement example below is the fully-worked reference for this librar
 
 **Success state.** Both parties agree on actions, accountability, timelines, and measurable outcomes.
 
-#### Leadership development: Managing underperformance
+### Leadership development: Managing underperformance
 
 **Scenario.** A manager must address declining performance from a senior employee who has recently missed deadlines, received customer complaints, and struggled with team collaboration. The employee was previously a top performer.
 
@@ -391,7 +393,7 @@ The Sales enablement example below is the fully-worked reference for this librar
 
 **Success state.** The employee agrees to measurable performance expectations and follow-up actions.
 
-#### Change management: Enterprise process transformation
+### Change management: Enterprise process transformation
 
 **Scenario.** The company is rolling out a new procurement platform that changes approval workflows and responsibilities. Several business units have already expressed resistance. The learner is a Change Manager meeting with a key stakeholder.
 
@@ -437,7 +439,7 @@ The Sales enablement example below is the fully-worked reference for this librar
 
 **Success state.** The stakeholder commits to supporting implementation activities.
 
-#### Technical support: Critical compliance outage
+### Technical support: Critical compliance outage
 
 **Scenario.** A healthcare organization cannot access mandatory compliance training three weeks before an external audit. More than 8,000 employees are affected. The learner is a support engineer handling a critical escalation.
 
@@ -482,7 +484,7 @@ The Sales enablement example below is the fully-worked reference for this librar
 
 **Success state.** The customer understands the action plan and feels supported.
 
-#### AI adoption: Executive AI rollout strategy
+### AI adoption: Executive AI rollout strategy
 
 **Scenario.** The organization is evaluating an enterprise AI assistant for deployment across multiple departments. Leadership supports investigating the opportunity but remains concerned about governance, security, compliance, and adoption. The learner is an AI Program Manager presenting the proposal to a department vice president.
 
@@ -528,7 +530,7 @@ The Sales enablement example below is the fully-worked reference for this librar
 
 **Success state.** The stakeholder agrees to sponsor a pilot and define success metrics.
 
-#### Executive leadership (multi-persona): Steering committee review
+### Executive leadership (multi-persona): Steering committee review
 
 **Scenario.** A strategic digital transformation initiative is behind schedule and over budget. The learner is the program manager presenting a recovery plan to a four-person steering committee, each of whom is evaluating the plan from a different priority.
 

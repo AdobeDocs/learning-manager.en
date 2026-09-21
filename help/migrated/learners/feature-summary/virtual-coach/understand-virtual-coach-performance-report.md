@@ -1,3 +1,10 @@
+---
+description: Learn how your Virtual Coach report card scores Knowledge and Style, and how to use the feedback to improve your next attempt
+jcr-language: en_us
+title: Understand your Virtual Coach performance report
+exl-id: 57607597-3949-4787-b71d-39c80d22a1ae
+---
+
 # Understand your Virtual Coach performance report
 
 Your Virtual Coach report card shows how you performed in a role play, including which topics you covered, how you communicated, and specific areas to improve before your next attempt.

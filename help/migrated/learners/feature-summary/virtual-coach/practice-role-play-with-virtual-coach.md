@@ -1,10 +1,17 @@
-# Practice a role play with Virtual Coach
+---
+description: Learn how to find, launch, and complete a Virtual Coach role-play session, then review your performance report to build real-world skills
+jcr-language: en_us
+title: Practice a role-play with Virtual Coach
+exl-id: e522ff4c-42db-4ebd-a806-17b595e3b877
+---
+
+# Practice a role-play with Virtual Coach
 
 Complete an AI-driven role-play session in Adobe Learning Manager and review your performance report to build real-world communication skills.
 
-Virtual Coach role plays are available as course modules or standalone job aids. This article covers everything from finding and launching a session to engaging with the AI persona.
+Virtual Coach role-plays are available as course modules or standalone job aids. This article covers everything from finding and launching a session to engaging with the AI persona.
 
-## Find and open a role play
+## Find and open a role-play
 
 ### Method 1
 
@@ -43,7 +50,7 @@ The AI trainer opens with a brief context statement that explains who you're spe
 - Listen to the AI persona's opening statement.
 - **Respond verbally.** Speak naturally and directly, as you would in a real conversation. The AI responds in real time based on what you say.
 - **Cover the required topics.** The scenario has specific topics the author configured. Address them during the conversation to score well on the knowledge component.
-- **In a multi-persona role play**, expect each persona to raise questions and concerns from their own perspective — for example, a CFO focused on cost and an IT Director focused on security in the same conversation. Address each persona's concern rather than giving one generic response to the group.
+- **In a multi-persona role-play**, expect each persona to raise questions and concerns from their own perspective — for example, a CFO focused on cost and an IT Director focused on security in the same conversation. Address each persona's concern rather than giving one generic response to the group.
 - When you've achieved your objective, or are ready to finish, select **End Simulation**.
 
 >[!TIP]
@@ -52,4 +59,4 @@ The AI trainer opens with a brief context statement that explains who you're spe
 
 After you end the simulation, your session is scored automatically. To understand what your report shows and how to improve, see [understand your Virtual Coach performance report](/help/migrated/learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md).
 
-You can retry a role play as many times as you like — each attempt is a new, independent session with its own report, so use your first attempt's feedback to prepare for the next one. If you're unsure why a role play ended with a score of zero, check whether the scenario has a **Make or Break** topic you didn't address; missing one of those automatically zeroes the final score regardless of your performance elsewhere.
+You can retry a role-play as many times as you like — each attempt is a new, independent session with its own report, so use your first attempt's feedback to prepare for the next one. If you're unsure why a role-play ended with a score of zero, check whether the scenario has a **Make or Break** topic you didn't address; missing one of those automatically zeroes the final score regardless of your performance elsewhere.
