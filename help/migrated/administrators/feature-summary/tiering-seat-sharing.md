@@ -1,7 +1,7 @@
 ---
 description: How billing plans determine whether accounts can share licensed seats, and what happens to sharing relationships when a plan changes
 jcr-language: en_us
-title: Tiering: Seat sharing
+title: Tiering - Seat sharing
 exl-id: 42b4cba4-1e44-40d8-aa57-ce2a855be258
 ---
 

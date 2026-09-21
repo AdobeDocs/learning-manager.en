@@ -1,3 +1,10 @@
+---
+description: Learn how to publish a Virtual Coach role-play as a job aid, then add it to a course as part of a structured learning journey
+jcr-language: en_us
+title: Add a Virtual Coach role-play to a course
+exl-id: c33ec5e4-0e96-4452-ada7-d48f9c71a123
+---
+
 # Add a Virtual Coach role-play to a course
 
 Publish a Virtual Coach role-play as a job aid, then add it to a course so learners can access it as part of a structured learning journey.

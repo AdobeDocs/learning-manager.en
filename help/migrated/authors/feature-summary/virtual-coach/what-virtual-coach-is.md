@@ -1,3 +1,10 @@
+---
+description: Learn what Virtual Coach is, how it works, who uses it, and why it matters as the last mile of workplace skills training
+jcr-language: en_us
+title: What Virtual Coach is
+exl-id: f876ff9a-69d0-4317-883e-5d4a947aba29
+---
+
 # What Virtual Coach is
 
 Virtual Coach is an AI-powered role-play and coaching solution in Adobe Learning Manager that enables learners to practice realistic workplace conversations, receive personalized feedback, and develop skills in a safe, on-demand environment before applying those skills in real-world situations.

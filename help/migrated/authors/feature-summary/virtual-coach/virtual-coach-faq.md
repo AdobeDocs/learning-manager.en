@@ -1,3 +1,10 @@
+---
+description: Find answers to common questions about Virtual Coach authoring, licensing, security, data privacy, scoring, and the learner experience
+jcr-language: en_us
+title: Virtual Coach FAQ
+exl-id: b8955b04-4655-413a-b570-a05b1f76285c
+---
+
 # Virtual Coach FAQ
 
 ## Authoring
