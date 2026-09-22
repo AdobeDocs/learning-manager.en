@@ -150,7 +150,17 @@ Review supported browsers, devices, and platforms.
 
 Choose focused courses for key capabilities or follow guided learning paths. Academy links open in a new tab and may require sign-in.
 
+<!--
 [![Explore ALM Academy](./help/assets/overview/explore-alma-2.png)](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
+-->
+
+<a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner">
+  <img
+    src="./help/assets/overview/explore-alma-2.png"
+    alt="Explore ALM Academy"
+    width="180"
+  />
+</a>
 
 ### Featured Academy courses {#featured-academy-courses}
 
