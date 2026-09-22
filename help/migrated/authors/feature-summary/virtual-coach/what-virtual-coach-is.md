@@ -108,7 +108,7 @@ Every role-play produces an overall score made up of a **Knowledge score** (whet
 - **Multilingual support**: Available in nine languages, including German (Germany), Spanish (LATAM), Spanish (Spain), French (France), Italian (Italy), Portuguese (Portugal), Portuguese (Brazil), Dutch (Netherlands), and English.
 - **Multiple deployment options**: Works as standalone job aids or embedded course modules.
 
-## Licensing
+## Licensing {#virtualcoachlicensing}
 
 Virtual Coach is available as an add-on subscription to Adobe Learning Manager, licensed by Monthly Active Users (MAU). An MAU credit is consumed the first time a learner launches a session in a calendar month, regardless of how many sessions they launch that month. For activation and usage-monitoring steps, see [manage Virtual Coach usage and billing](/help/migrated/administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md).
 

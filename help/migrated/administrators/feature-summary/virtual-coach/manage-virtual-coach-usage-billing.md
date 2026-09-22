@@ -9,7 +9,7 @@ exl-id: 1f8f6465-51c3-4670-a1c7-9a7dfb091452
 
 Activate Virtual Coach, monitor Monthly Active User (MAU) credit consumption, and download learner performance reports as an Adobe Learning Manager administrator.
 
-## Activate Virtual Coach for your account
+## Activate Virtual Coach for your account {#activatevirtualcoach}
 
 Virtual Coach is available as an add-on to Adobe Learning Manager. After purchase, provisioning generates an activation key that's emailed to the account administrator.
 
