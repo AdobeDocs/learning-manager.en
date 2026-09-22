@@ -11,6 +11,7 @@ hide: true
 
 Enterprise LMS for scalable learner experiences, compliance training, and skill-based development. Select your role to go directly to your documentation. Build practical product skills with curated Adobe Learning Manager Academy courses and guided learning paths.
 
+<!--
 <table style="table-layout: fixed;">
     <tr style="border: 0;">
         <td>
@@ -25,7 +26,7 @@ Enterprise LMS for scalable learner experiences, compliance training, and skill-
         </td>
     </tr>
 </table>
-
+-->
 
 ## Start with your role {#roles}
 
@@ -143,9 +144,13 @@ Review supported browsers, devices, and platforms.
 
 ::::
 
+[![Sign up for ALM demo](./help/assets/overview/sign-up-2.png)](https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
+
 ## Adobe Learning Manager Academy {#academy}
 
 Choose focused courses for key capabilities or follow guided learning paths. Academy links open in a new tab and may require sign-in.
+
+[![Explore ALM Academy](./help/assets/overview/explore-alma-2.png)](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
 
 ### Featured Academy courses {#featured-academy-courses}
 
