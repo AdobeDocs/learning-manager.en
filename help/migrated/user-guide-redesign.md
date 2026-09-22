@@ -36,7 +36,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
 :::card
 ![Administrator](./help/assets/overview/admin.png)
 
-Administrator
+**Administrator**
 
 Configure accounts, users, access, and learning paths.
 
@@ -46,7 +46,7 @@ Configure accounts, users, access, and learning paths.
 :::card
 ![Author](./help/assets/overview/author.png)
 
-Author
+**Author**
 
 Create courses, certifications, content, and learning paths.
 
@@ -56,7 +56,7 @@ Create courses, certifications, content, and learning paths.
 :::card
 ![Learner](./help/assets/overview/learner.png)
 
-Learner
+**Learner**
 
 Discover, take, and track assigned learning.
 
@@ -66,7 +66,7 @@ Discover, take, and track assigned learning.
 :::card
 ![Manager](./help/assets/overview/manager.png)
 
-Manager
+**Manager**
 
 Assign learning and monitor team progress.
 
@@ -76,7 +76,7 @@ Assign learning and monitor team progress.
 :::card
 ![Integration administrator](./help/assets/overview/ia.png)
 
-Integration administrator
+**Integration administrator**
 
 Connect systems, APIs, data, and workflows.
 
@@ -94,7 +94,7 @@ Find frequently used product guidance and information about newer Adobe Learning
 :::card
 ![What's new](./help/assets/overview/whats-new.png)
 
-What's new
+**What's new**
 
 Explore the latest features and release updates.
 
@@ -104,7 +104,7 @@ Explore the latest features and release updates.
 :::card
 ![Content Composer (Beta)](./help/assets/overview/content-composer.png)
 
-Content Composer (Beta)
+**Content Composer (Beta)**
 
 Create and refine learning content with AI-assisted authoring.
 
@@ -114,7 +114,7 @@ Create and refine learning content with AI-assisted authoring.
 :::card
 ![Live Hub](./help/assets/overview/live-hub.png)
 
-Live Hub (Beta)
+**Live Hub (Beta)**
 
 Set up and manage live learning.
 
@@ -124,7 +124,7 @@ Set up and manage live learning.
 :::card
 ![Connectors](./help/assets/overview/connectors.png)
 
-Connectors
+**Connectors**
 
 Configure integrations and data connections.
 
@@ -134,7 +134,7 @@ Configure integrations and data connections.
 :::card
 ![System requirements](./help/assets/overview/sys-reqs.png)
 
-System requirements
+**System requirements**
 
 Review supported browsers, devices, and platforms.
 
@@ -156,7 +156,7 @@ Explore focused training for key Adobe Learning Manager capabilities.
 :::card
 ![Learning Path Agent](./help/assets/overview/alma-lpa.png)
 
-Learning Path Agent
+**Learning Path Agent**
 
 Learn how to generate personalized, sequenced learning paths through a guided AI conversation.
 
@@ -166,7 +166,7 @@ Learn how to generate personalized, sequenced learning paths through a guided AI
 :::card
 ![Insights Agent](./help/assets/overview/alma-ia.png)
 
-Insights Agent
+**Insights Agent**
 
 Learn how to ask natural-language questions to generate learning data insights instantly.
 
@@ -176,7 +176,7 @@ Learn how to ask natural-language questions to generate learning data insights i
 :::card
 ![Live Hub (Beta)](./help/assets/overview/alma-live-hub.png)
 
-Live Hub (Beta)
+**Live Hub (Beta)**
 
 Learn how to run AI-powered live training sessions with smarter polls, analytics and breakout tools.
 
@@ -186,7 +186,7 @@ Learn how to run AI-powered live training sessions with smarter polls, analytics
 :::card
 ![Report Builder](./help/assets/overview/alma-rb.png)
 
-Report Builder
+**Report Builder**
 
 Learn how to build custom, saved reports by joining data across multiple ALM datasets.
 
@@ -196,7 +196,7 @@ Learn how to build custom, saved reports by joining data across multiple ALM dat
 :::card
 ![Email Builder](./help/assets/overview/alma-email.png)
 
-Email Builder
+**Email Builder**
 
 Learn how to design branded, reusable email templates using the component-based editor.
 
@@ -214,7 +214,7 @@ Follow a guided curriculum across broader product and administration workflows.
 :::card
 ![Course & Content Management](./help/assets/overview/lp-course.png)
 
-Course and content management
+**Course and content management**
 
 Learn how to create, organize, and manage learning content effectively through this structured learning journey.
 
@@ -224,7 +224,7 @@ Learn how to create, organize, and manage learning content effectively through t
 :::card
 ![Portal & Experience](./help/assets/overview/lp-portal.png)
 
-Portal and experience
+**Portal and experience**
 
 Learn how to build custom branded portals and engaging public-facing homepages with Experience Builder. 
 
@@ -234,7 +234,7 @@ Learn how to build custom branded portals and engaging public-facing homepages w
 :::card
 ![Administration & Access](./help/assets/overview/lp-admin.png)
 
-Administration and access
+**Administration and access**
 
 Learn how to structure roles, manage permissions, and establish governance frameworks that scale with your organization.
 
@@ -244,7 +244,7 @@ Learn how to structure roles, manage permissions, and establish governance frame
 :::card
 ![Recognition & Compliance](./help/assets/overview/lp-recognition.png)
 
-Recognition and compliance
+**Recognition and compliance**
 
 Learn how to set up compliance certifications, design custom certificates, and badges that celebrate learner achievements.
 
@@ -254,7 +254,7 @@ Learn how to set up compliance certifications, design custom certificates, and b
 :::card
 ![Learning Journeys](./help/assets/overview/lp-journey.png)
 
-Learning journeys
+**Learning journeys**
 
 Learn how to arrange courses into structured paths and automate enrollment through learning plans.
 
@@ -264,7 +264,7 @@ Learn how to arrange courses into structured paths and automate enrollment throu
 :::card
 ![Reporting & Analytics](./help/assets/overview/lp-reporting.png)
 
-Reporting and analytics
+**Reporting and analytics**
 
 Learn how to transform dashboards and reports into meaningful decisions for leadership.
 
@@ -277,4 +277,4 @@ Learn how to transform dashboards and reports into meaningful decisions for lead
 
 - [Release notes](/help/migrated/release-note/release-notes.md)
 - [Ask community](https://community.adobe.com/adobe-learning-manager-466)
-- [Send feedback](https://github.com/AdobeDocs/product.en/issues)
+- [Send feedback](https://github.com/AdobeDocs/learning-manager.en/issues)
