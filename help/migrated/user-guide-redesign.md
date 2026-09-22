@@ -144,7 +144,17 @@ Review supported browsers, devices, and platforms.
 
 ::::
 
+<!--
 [![Sign up for ALM demo](./help/assets/overview/sign-up-2.png)](https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
+-->
+
+<a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal">
+  <img
+    src="./help/assets/overview/sign-up-2.png"
+    alt="Sign up for ALM demo"
+    height="32"
+  />
+</a>
 
 ## Adobe Learning Manager Academy {#academy}
 
@@ -158,7 +168,7 @@ Choose focused courses for key capabilities or follow guided learning paths. Aca
   <img
     src="./help/assets/overview/explore-alma-2.png"
     alt="Explore ALM Academy"
-    width="180"
+    height="32"
   />
 </a>
 
