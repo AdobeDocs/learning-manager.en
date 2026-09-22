@@ -148,13 +148,19 @@ Review supported browsers, devices, and platforms.
 [![Sign up for ALM demo](./help/assets/overview/sign-up-2.png)](https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
 -->
 
-<a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal">
-  <img
-    src="./help/assets/overview/sign-up-2.png"
-    alt="Sign up for ALM demo"
-    style="height: 32px; width: auto;"
-  />
-</a>
+<table style="table-layout: fixed;">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal">
+                <img
+                    src="./help/assets/overview/sign-up-1.png"
+                    alt="Sign up for ALM demo"
+                    height="32"
+                />
+            </a>
+        </td>
+    </tr>
+</table>
 
 ## Adobe Learning Manager Academy {#academy}
 
@@ -164,13 +170,19 @@ Choose focused courses for key capabilities or follow guided learning paths. Aca
 [![Explore ALM Academy](./help/assets/overview/explore-alma-2.png)](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
 -->
 
-<a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner">
-  <img
-    src="./help/assets/overview/explore-alma-2.png"
-    alt="Explore ALM Academy"
-    style="height: 32px; width: auto;"
-  />
-</a>
+<table style="table-layout: fixed;">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner">
+                <img
+                    src="./help/assets/overview/explore-alma-2.png"
+                    alt="Explore ALM Academy"
+                    height="32"
+                />
+            </a>
+        </td>
+    </tr>
+</table>
 
 ### Featured Academy courses {#featured-academy-courses}
 
