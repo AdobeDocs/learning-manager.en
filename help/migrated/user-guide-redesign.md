@@ -144,10 +144,9 @@ Review supported browsers, devices, and platforms.
 
 ::::
 
-<!--
-[![Sign up for ALM demo](./help/assets/overview/sign-up-2.png)](https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
--->
+[![Sign up for ALM demo](./help/assets/overview/sign-up-3.png)](https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
 
+<!--
 <table style="table-layout: fixed;">
     <tr style="border: 0;">
         <td style="border: 0;">
@@ -161,28 +160,29 @@ Review supported browsers, devices, and platforms.
         </td>
     </tr>
 </table>
+-->
 
 ## Adobe Learning Manager Academy {#academy}
 
 Choose focused courses for key capabilities or follow guided learning paths. Academy links open in a new tab and may require sign-in.
 
-<!--
-[![Explore ALM Academy](./help/assets/overview/explore-alma-2.png)](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
--->
+[![Explore ALM Academy](./help/assets/overview/explore-alma-3.png)](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
 
+
+<!--
 <table style="table-layout: fixed;">
     <tr style="border: 0;">
         <td style="border: 0;">
             <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner">
                 <img
-                    src="./help/assets/overview/explore-alma-2.png"
+                    src="./help/assets/overview/explore-alma-3.png"
                     alt="Explore ALM Academy"
                     style="height: 32px; width: auto;"
                 />
             </a>
         </td>
     </tr>
-</table>
+</table>-->
 
 ### Featured Academy courses {#featured-academy-courses}
 
