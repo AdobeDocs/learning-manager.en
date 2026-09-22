@@ -115,11 +115,11 @@ Continue the conversation until the agent presents your suggested topics.
 
 ### Review the suggested topics
 
-After gathering enough context, the agent presents a list of 3–5 learning topics, each with a title, a brief description, and a suggested proficiency level.
+From your answers, the agent identifies 3–5 learning topics. You can review these topics, request changes, or confirm them before the agent searches for matching courses. The agent then generates a named learning path showing each course, its description, duration, and module count. You can adjust the path further before saving it.
 
-1. Read the topic list carefully. The agent selects proficiency levels based on what you have shared, but you can request changes.
-2. To adjust a topic, for example, to change the proficiency level or swap a topic, type your feedback in the chat. For example, I already have some knowledge of the first topic. Can you set that one to intermediate?
-3. If you are happy with the topics as suggested, confirm them by replying in the chat or selecting the suggested confirmation prompt if one appears.
+1. Review the suggested topics to make sure they align with your learning goal.
+2. To adjust the topics, type your feedback in the chat. You can ask the agent to add, remove, or replace a topic.
+3. If you are satisfied with the suggested topics, confirm them by replying in the chat or selecting the suggested confirmation prompt if one appears.
 
 ### Review the learning path
 
@@ -136,7 +136,9 @@ The agent informs you that it could not find courses for those specific topics a
 <!-- - Review the path. If you want to change something, for example, remove a course, adjust the scope, or explore different topics. Type your request in the chat\. For example, Can you remove the first course and replace it with something shorter? -->
 When you are satisfied with the path, ask the agent to save it by typing save the learning path.
 
+<!--
 ![](assets/create-lp.png)
+-->
 
 ### Adjust your learning path before saving
 
@@ -190,7 +192,7 @@ All your saved paths appear in the _Personalized Learning Paths_ strip on your h
 
 _How many personalized learning paths can I save?_
 
-The _Personalized Learning Paths_ strip on your home page shows a maximum of 10 paths.
+The _Personalized Learning Paths_ strip on your home page shows a maximum of 20 paths.
 
 _What information should I provide to get a relevant Learning Path?_
 
