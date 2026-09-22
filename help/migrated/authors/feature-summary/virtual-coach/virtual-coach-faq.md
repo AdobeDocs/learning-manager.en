@@ -31,34 +31,37 @@ For general product, licensing, and admin questions, see the [Adobe Learning Man
 ## Training and compliance
 
 1. **How does Virtual Coach protect customer and learner data?**
+Customer data is stored using AES‑256 encryption, secured in transit using TLS 1.3+, and logically separated by unique customer identifiers to ensure isolation between customer environments. These controls are validated through annual third-party penetration testing.
 
 
 2. **Where is Virtual Coach data stored and processed?**
-
+Customer data is stored in EU data centers, supporting alignment with European privacy requirements.
 
 3. **How long does Virtual Coach retain customer and learner data, and can it be deleted?**
-
+Session data may be retained for the duration of the service agreement, and customers can configure company-specific retention policies. Individual users can delete their own recordings, administrators can perform bulk deletions, and data can be exported before deletion. Automatic deletion mechanisms and audit logging are also supported.
 
 4. **Is customer-uploaded content used for purposes other than generating the role-play, such as AI training or product improvement?**
-
+No, customer data is not used for AI training.
 
 5. **How does Virtual Coach use AI, and what safeguards are in place for AI-generated responses?**
-
+Virtual Coach uses generative AI to create interactive role-play experiences. Multiple safeguards are in place, including Azure OpenAI content filters for categories such as violence, hate speech, sexual content, and self-harm; prompt-level guardrails; and contextual controls that keep the AI focused on learning and development use cases. AI safety testing is also conducted, and safeguards such as Safety-Based Prompt Transformation and clarify-then-decline behavior are used for sensitive requests. Additionally, contractual commitments require disclosure of AI-generated outputs and compliance with applicable AI regulations.
 
 6. **What privacy and compliance standards does Virtual Coach support?**
-
+Virtual Coach supports GDPR-related privacy protections, configurable retention controls, audit logging, user deletion capabilities, and EU-based data hosting. The contractual agreement also requires compliance with applicable laws and regulations, including the EU AI Act and the California AI Transparency Act (SB‑942).
 
 7. **Who owns content uploaded to Virtual Coach and the content generated during a session?**
-
+The customer owns the content uploaded to Virtual Coach and the content generated during a session.
 
 8. **Where does Virtual Coach data reside, within Adobe Learning Manager or with the Virtual Coach service provider?**
+Role-play data is stored within the Virtual Coach service provider's cloud infrastructure and hosted in EU data centers.
 
 ## Product
 
 1. **How is Virtual Coach activated for an existing Adobe Learning Manager customer?**
+See [Activating Virtual Coach](/help/migrated/administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md#activatevirtualcoach)
 
 2. **How does Virtual Coach licensing work for existing Adobe Learning Manager contracts?**
-
+See [Virtual Coach licensing](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md#virtualcoachlicensing)
 3. **How long is the Virtual Coach activation valid, and how is it renewed?**
 
 4. **How does data flow between Adobe Learning Manager and the Virtual Coach service?**

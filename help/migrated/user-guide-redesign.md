@@ -155,7 +155,7 @@ Review supported browsers, devices, and platforms.
                 <img
                     src="./help/assets/overview/sign-up-1.png"
                     alt="Sign up for ALM demo"
-                    height="32"
+                    style="height: 32px; width: auto;"
                 />
             </a>
         </td>
@@ -177,7 +177,7 @@ Choose focused courses for key capabilities or follow guided learning paths. Aca
                 <img
                     src="./help/assets/overview/explore-alma-2.png"
                     alt="Explore ALM Academy"
-                    height="32"
+                    style="height: 32px; width: auto;"
                 />
             </a>
         </td>
