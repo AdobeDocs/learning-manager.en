@@ -143,7 +143,7 @@ Review supported browsers, devices, and platforms.
 :::
 
 ::::
-
+<br/>
 [![Sign up for ALM demo](./help/assets/overview/sign-up-3.png)](https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
 
 <!--
