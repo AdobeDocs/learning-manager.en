@@ -41,3 +41,7 @@ To generate a Session Details report:
 1. Select **OK**. The report is generated as a .csv file. You can find the downloaded .csv file in the **Downloads** folder of your File Explorer.
 
     ![](/help/migrated/administrators/feature-summary/assets/virtual-coach-report3.png)
+
+>[!NOTE]
+>
+>Adobe Learning Manager will not keep a record of the Virtual Coach session of a learner. A learner is allowed to take up multiple sessions. However, the learner is not allowed to go back to an earlier Virtual Coach session.
