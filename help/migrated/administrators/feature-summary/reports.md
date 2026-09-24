@@ -1249,7 +1249,7 @@ The report is available to any user with Report privileges — this includes ful
 
 >[!NOTE]
 >
->Records are available starting from September 30, 2026. Changes made before that date are not included in the report.
+>Records are available starting from Update 112, September 2026. Changes made before this update are not included in the report. See [release notes](/help/migrated/release-note/release-notes.md) Update 112.
 
 ## Why this report matters for compliance
 
@@ -1265,11 +1265,7 @@ Organizations operating in regulated industries often need to demonstrate that c
 2. In the left navigation, select **Manage** > **Reports** > **Custom Reports**.
 3. Scroll down and select **Administrator Audit Trail**.
 4. **Select Range**: choose the period to report on — **Last one week**, **Last one month**, or **Choose dates**. If you select **Choose dates**, enter a **From** date and a **To** date.
-5. **Select setting type**: choose **Select All**, **Basics**, or **Integrations**.
-
-   >[!NOTE]
-   >
-   >Advanced settings do not have their own filter option. To include changes to Advanced settings in your report, select **Select All**.
+5. **Select setting type**: choose **Select All**, **Basics**, **Integrations**, or **Advanced**.
 
    To see the complete list of settings tracked by this report across Basics, Integrations, and Advanced, select **Download List of settings**.
 
@@ -1330,11 +1326,10 @@ You can retrieve the Administrator Audit Trail Report programmatically using the
 ## Troubleshooting
 
 **I don't see any records before a certain date**
-Records are available only from September 30, 2026 onward. Changes made before that date are not included in the report.
+Records are available only from Update 112 (September 2026) onward. Changes made before that update are not included in the report. See [release notes](/help/migrated/release-note/release-notes.md)
 
 **The UUID column is empty for some or all records**
-The UUID column is populated only if UUID is enabled at the account level. If it is not enabled, this column remains blank for all records.
+The UUID column is populated only if UUID is enabled at the account level. If it is not enabled, this column will not be present.
 
 **I have a custom Administrator role, but I can't find this report**
 Confirm that your custom role has been granted Report privileges. Contact your account owner or a full Administrator to request this access if needed.
-
