@@ -158,9 +158,9 @@ Before you export learning records from Adobe Learning Manager, create custom ob
  
 Adobe provides pre-built packages that create the necessary custom objects:
 
-- [Package 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ): Core learning objects and fields 
-- [Package 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT): Extended learning analytics objects 
-- [Package 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi): Additional reporting and integration objects
+- [Package 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS): Core learning objects and fields 
+- [Package 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX): Extended learning analytics objects 
+- [Package 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic): Additional reporting and integration objects
 
 >[!IMPORTANT]
 >
