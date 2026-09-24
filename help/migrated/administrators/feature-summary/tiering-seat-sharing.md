@@ -17,6 +17,10 @@ Accounts billed by credit card are on the Prime plan by default and are therefor
 
 Trial accounts are the one exception: a Trial account can receive shared seats from an Ultimate account. While an active sharing relationship is in place, the Trial account has Ultimate-level feature access.
 
+## Peer accounts setting visibility
+
+Peer account setting will be visible in the Admin app of the account that shares this feature.
+
 >[!NOTE]
 >
 >If your account shares seats with additional accounts beyond the one you receive seats from, for example, if your account passes shared access along to a third account, every account in that chain must be on the Ultimate plan for sharing to continue working end to end.
@@ -50,16 +54,3 @@ These changes take effect at the account's next renewal for existing ALM account
 >[!NOTE]
 >
 >Accounts billed by credit card that currently have Ultimate-level access will move to the Prime plan starting from their next renewal. If such an account has any active seat-sharing relationships at that point, those relationships end as part of the same transition.
-
-## Peer Accounts setting visibility
-
-The **Peer Accounts** option in **Settings** is visible or hidden based on your account's status and plan.
-
-| Account status | Plan | Peer Accounts visible? |
-|---|---|---|
-| Trial | Any | Yes |
-| Inactive | Any | Yes |
-| Active | Prime | No |
-| Active | Any plan other than Prime (for example, Ultimate) | Yes |
-
-If your account is active on the Prime plan, the **Peer Accounts** option does not appear in **Settings**, since seat sharing is not available on that plan.

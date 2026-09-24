@@ -1308,7 +1308,7 @@ The downloaded `.csv` file includes the following columns.
 
 ## Access this report programmatically
 
-You can retrieve the Administrator Audit Trail Report programmatically using the Jobs API, rather than generating it manually from the Admin app. This is useful if you want to schedule regular exports or feed the report into a downstream monitoring or alerting system. See Jobs API for details.
+You can retrieve the Administrator Audit Trail Report programmatically using the Jobs API, rather than generating it manually from the Admin app. This is useful if you want to schedule regular exports or feed the report into a downstream monitoring or alerting system. Learn more about [Jobs API for Admin Audit Trail Report](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report)
 
 ## Limitations
 
