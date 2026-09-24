@@ -33,7 +33,6 @@ For general product, licensing, and admin questions, see the [Adobe Learning Man
 1. **How does Virtual Coach protect customer and learner data?**
 Customer data is stored using AES‑256 encryption, secured in transit using TLS 1.3+, and logically separated by unique customer identifiers to ensure isolation between customer environments. These controls are validated through annual third-party penetration testing.
 
-
 2. **Where is Virtual Coach data stored and processed?**
 Customer data is stored in EU data centers, supporting alignment with European privacy requirements.
 
@@ -60,17 +59,20 @@ Role-play data is stored within the Virtual Coach service provider's cloud infra
 1. **How is Virtual Coach activated for an existing Adobe Learning Manager customer?**
 See [Activating Virtual Coach](/help/migrated/administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md#activatevirtualcoach)
 
-2. **How does Virtual Coach licensing work for existing Adobe Learning Manager contracts?**
-See [Virtual Coach licensing](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md#virtualcoachlicensing)
-3. **How long is the Virtual Coach activation valid, and how is it renewed?**
+2. **How long is the Virtual Coach activation valid, and how is it renewed?**
+Virtual Coach activation in Adobe Learning Manager is valid for the duration of your add-on subscription contract. It is not automatically perpetual. Instead, the validity aligns with your subscription period.
 
-4. **How does data flow between Adobe Learning Manager and the Virtual Coach service?**
+**Renewal:** To continue using Virtual Coach after your contract period ends, you must renew your subscription. At the time of purchase, Adobe provides an activation key, which the account administrator uses to enable Virtual Coach in the Billing section.
+If you renew your contract, you will receive instructions and a new activation key if needed to maintain uninterrupted access.
 
-5. **What happens to uploaded source documents and generated session data after a role-play is created or completed?**
+Monthly Active User (MAU) credits are also allocated for each contract period. Any unused credits at the end of the contract lapse. They do not carry over into a renewed or new period.
+Your activation lasts as long as your paid Virtual Coach subscription is active, and renewal occurs by extending your subscription, as managed through your Adobe account.
 
-6. **Can learners retry a role-play?**
+3. **What happens to uploaded source documents and generated session data after a role-play is created or completed?**
+Uploaded source documents can be used to create and configure role-play scenarios, personas, and evaluation criteria. After learners complete a role play, Virtual Coach generates evaluation results, scores, coaching feedback, and completion information to support learning and reporting activities. Data associated with role plays remains available according to the applicable content lifecycle and retention policies.
 
-7. **What languages does Virtual Coach support?**
+4. **Can learners retry a role-play?**
+Yes. Learners can repeat a role-play session multiple times to practice their skills, apply coaching feedback, and improve their performance. After completing a role play, learners can review their feedback and start another attempt to continue developing their skills.
 
 ## General
 

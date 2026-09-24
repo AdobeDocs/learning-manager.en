@@ -143,8 +143,11 @@ Review supported browsers, devices, and platforms.
 :::
 
 ::::
-<br/>
-[![Sign up for ALM demo](./help/assets/overview/sign-up-3.png)](https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
+
+**See Adobe Learning Manager in action**
+Discover how ALM can help you create, manage, and deliver engaging learning experiences. Sign up for a personalized demo.
+
+[![Sign up for ALM demo](./help/assets/overview/alm_demo_button.svg)](https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
 
 <!--
 <table style="table-layout: fixed;">
@@ -166,7 +169,7 @@ Review supported browsers, devices, and platforms.
 
 Choose focused courses for key capabilities or follow guided learning paths. Academy links open in a new tab and may require sign-in.
 
-[![Explore ALM Academy](./help/assets/overview/explore-alma-3.png)](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
+[![Explore ALM Academy](./help/assets/overview/explore_alm_academy_button.svg)](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
 
 
 <!--
