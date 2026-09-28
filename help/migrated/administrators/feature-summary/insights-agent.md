@@ -176,7 +176,7 @@ Insights Agent is case-insensitive, but exact term matching improves accuracy.
 
 ### Query using your organization's custom terminology
 
-If your administrator has renamed standard terms using Product Terminology in **Settings > General**, Insights Agent recognizes your organization's custom terms in place of the defaults listed above. For example, if your organization renamed **Course** to **Training**, you can ask "How many Trainings were completed last month?" and Insights Agent understands the question and labels the results using **Training** in the response and column headers.
+If your administrator has renamed standard terms using Product Terminology in **Settings > General**, Insights Agent recognizes your organization's custom terms in place of the defaults listed above. For example, if your organization renamed **Course** to **Chapter**, you can ask "How many chapters were completed last month?" and Insights Agent understands the question and labels the results using **chapters** in the response and column headers.
 
 Custom terminology applies everywhere inside the Insights Agent chat window, including how your query is interpreted, the Approach explanation, the results summary, and table or column headers shown in the chat. **The downloaded CSV file does not reflect custom terminology.** Column headers and content in the exported file use the default Adobe Learning Manager terms, regardless of how your organization has customized them.
 
