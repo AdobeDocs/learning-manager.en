@@ -1263,13 +1263,27 @@ Organizations operating in regulated industries often need to demonstrate that c
 
 1. Sign in to Adobe Learning Manager as an Administrator.
 2. In the left navigation, select **Manage** > **Reports** > **Custom Reports**.
+
+   ![](/help/migrated/administrators/feature-summary/assets/audit-trail-report1.png)
+
 3. Scroll down and select **Administrator Audit Trail**.
+
+   ![](/help/migrated/administrators/feature-summary/assets/audit-trail-report2.png)
+
 4. **Select Range**: choose the period to report on — **Last one week**, **Last one month**, or **Choose dates**. If you select **Choose dates**, enter a **From** date and a **To** date.
-5. **Select setting type**: choose **Select All**, **Basics**, **Integrations**, or **Advanced**.
+5. **Select setting type**: choose **Select All**, **Basics**, **Integrations**, or **Advanced**. When you select **Select All**, **All Values** appear in the Select setting type field.
 
    To see the complete list of settings tracked by this report across Basics, Integrations, and Advanced, select **Download List of settings**.
 
+   ![](/help/migrated/administrators/feature-summary/assets/audit-trail-report6.png)
+
+   ![](/help/migrated/administrators/feature-summary/assets/audit-trail-report3.png)
+
 6. Select **Generate**.
+
+   ![](/help/migrated/administrators/feature-summary/assets/audit-trail-report4.png)
+
+   ![](/help/migrated/administrators/feature-summary/assets/audit-trail-report5.png)
 
 A `.csv` file containing the changes downloads to your browser's Downloads folder. Report generation may take a few moments — you can continue using Adobe Learning Manager while it processes. If you close the browser window before the report is ready, the download begins the next time you sign in.
 
