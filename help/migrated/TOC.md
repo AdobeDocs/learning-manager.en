@@ -2,6 +2,7 @@
 user-guide-title: Adobe Learning Manager Guide
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation for Adobe Learning Manager
+nudge: true
 ---
 
 # Learning Manager Guide {#using}
