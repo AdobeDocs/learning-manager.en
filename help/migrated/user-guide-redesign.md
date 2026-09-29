@@ -90,7 +90,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="/help/migrated/managers/feature-summary/getting-started-manager.md" title="Manager" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/1_admin.png" alt="Manager"
+                        <img class="is-bordered-r-small" src="./help/assets/overview/1_manager_new.png" alt="Manager"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
