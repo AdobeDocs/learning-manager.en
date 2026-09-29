@@ -110,7 +110,7 @@ nudge: true
    * [Alternates and equivalence](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [Learning Plans](administrators/feature-summary/learning-plans.md)
    * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
-   * [Account plans and tiering](administrators/feature-summary/account-plans-tiering.md)
+   * {hide-from-toc} [Account plans and tiering](administrators/feature-summary/account-plans-tiering.md)
    * [Job Aids](administrators/feature-summary/job-aids.md)
    * Vitual Coach {#virtualcoachadmin}
       * [Manage Virtual Coach usage and billing](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
@@ -211,9 +211,10 @@ nudge: true
       * [What Virtual Coach is](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
       * [Gather materials for a Virtual Coach role-play](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
       * [Design a Virtual Coach](authors/feature-summary/virtual-coach/role-play-design.md)
-      * [Create and publish a Virtual Coach role-play](authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md)
-      * [Add a Virtual Coach role-play to a course](authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md)
-      * [Create a role-play using a Virtual Coach template](authors/feature-summary/virtual-coach/create-role-play-using-virtual-coach-template.md) 
+      * Create a Virtual Coch {#create-virtual-coach}
+         * [Create a role-play using a Virtual Coach template](authors/feature-summary/virtual-coach/create-role-play-using-virtual-coach-template.md)
+         * [Create and publish a Virtual Coach role-play](authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md)         
+      * [Add a Virtual Coach role-play to a course](authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md)      
       * [Virtual Coach FAQ](authors/feature-summary/virtual-coach/virtual-coach-faq.md)
    * [Job Aids](authors/feature-summary/job-aids.md)
    * [Gradebook](authors/feature-summary/alm-author-gradebook.md)

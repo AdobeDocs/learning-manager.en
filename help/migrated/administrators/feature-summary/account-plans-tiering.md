@@ -3,6 +3,7 @@ description: Learn how Prime and Ultimate plans differ in Adobe Learning Manager
 jcr-language: en_us
 title: Account plans tiering
 exl-id: 8897372e-d9b5-4519-a59a-a9b9a95b86aa
+hide: true
 ---
 
 # Account plans and tiering
