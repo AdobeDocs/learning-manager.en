@@ -302,7 +302,7 @@ Discover what's new, explore key features, and build your skills.
                 </p>
                 <p>
                     <strong>
-                        <a href="https://cdn.content.adobelearningmanageracademy.com/nl/catalog?catalogs=Webinars">Content Composer (Beta)</a>
+                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">Content Composer (Beta)</a>
                     </strong>
     </p>
 
