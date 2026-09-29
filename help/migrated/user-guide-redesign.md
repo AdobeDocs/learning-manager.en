@@ -263,19 +263,20 @@ Discover what's new, explore key features, and build your skills.
                 
    
    </td>
-   <td><img src="./help/assets/overview/learning-experience.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"</td>
+   <td><img src="./help/assets/overview/learning-experience.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
    <p>
                     <strong>Experience Builder</strong><br>
                     <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Launch course</a>
-                </p>
-                <p>
+    </p>
+    <p>
                     <strong>Report Builder</strong><br>
                     <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">Launch course</a>
-                </p>
-                <p>
+    </p>
+<p>
                     <strong>Email Builder</strong><br>
                     <a href="/help/migrated/administrators/feature-summary/email-builder.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">Launch course</a>
-                </p>
+    </p>
+    </td>
   </tr>
   
  </tbody>
