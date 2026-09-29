@@ -281,7 +281,7 @@ Discover what's new, explore key features, and build your skills.
  </tbody>
 </table>
 
-Discover how ALM can help you create, manage, and deliver engaging learning experiences. Sign up for a personalized demo.
+Discover how ALM can help you create, manage, and deliver engaging learning experiences. Sign up for a personalized demo today.
 
 <div style="margin-top: 1rem;">
     <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
