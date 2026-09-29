@@ -144,7 +144,7 @@ Build the skills you need to configure and manage Adobe Learning Manager.
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="Course and content management" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-course.png" alt="Course and content management"
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-course-new.png" alt="Course and content management"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -165,7 +165,7 @@ Build the skills you need to configure and manage Adobe Learning Manager.
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" title="Portal and experience" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-portal.png" alt="Portal and experience"
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-portal-new.png" alt="Portal and experience"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -186,7 +186,7 @@ Build the skills you need to configure and manage Adobe Learning Manager.
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" title="Administration and access" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-admin.png" alt="Administration and access"
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-admin-new.png" alt="Administration and access"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -207,7 +207,7 @@ Build the skills you need to configure and manage Adobe Learning Manager.
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" title="Recognition and compliance" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-recognition.png" alt="Recognition and compliance"
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-recognition-new.png" alt="Recognition and compliance"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -228,7 +228,7 @@ Build the skills you need to configure and manage Adobe Learning Manager.
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" title="Learning experience journeys" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-journey.png" alt="Learning experience journeys"
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-journey-new.png" alt="Learning experience journeys"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -249,7 +249,7 @@ Build the skills you need to configure and manage Adobe Learning Manager.
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" title="Reporting and analytics" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-recognition.png" alt="Reporting and analytics"
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-reporting-new.png" alt="Reporting and analytics"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -290,7 +290,7 @@ Discover what's new, explore key features, and build your skills.
  <tbody>
   
   <tr style="border: 0;">
-   <td><img src="./help/assets/overview/whats-new-updated.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
    
    <p><strong>Check what's new</strong>
     </p>
@@ -308,7 +308,7 @@ Discover what's new, explore key features, and build your skills.
 
    
    </td>
-   <td><img src="./help/assets/overview/explore-ai.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
+   <td><img src="./help/assets/overview/explore-ai-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
    
 <p>
                     <strong>Insights Agent (Beta)</strong><br>
@@ -330,7 +330,7 @@ Discover what's new, explore key features, and build your skills.
                 
    
    </td>
-   <td><img src="./help/assets/overview/learning-experience.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
+   <td><img src="./help/assets/overview/learning-experience-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
    <p>
                     <strong>Experience Builder</strong><br>
                     <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Launch course</a>
