@@ -700,17 +700,17 @@ Administrators can download gamification transcript in CSV format. You can eithe
 
 ### Gamification Audit Trail report {#gamification-audit-trail}
 
-   This report contains the history and reasons for Learners' gamification points earned for each rule.
+This report contains the history and reasons for Learners' gamification points earned for each rule.
 
-   >[!NOTE]
-   >
-   >This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
+>[!NOTE]
+>
+>This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
 
 ### Download the report
 
-   1. Select the Gamification Audit Trail URL.
-   1. On the **Gamification Audit Trail** pop-up, select the date range.
-   1. Select **Generate**.
+1. Select the Gamification Audit Trail URL.
+1. On the **Gamification Audit Trail** pop-up, select the date range.
+1. Select **Generate**.
 
 The report is downloaded as a CSV file. The file contains the following columns:
 
