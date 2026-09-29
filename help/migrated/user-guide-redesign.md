@@ -292,8 +292,9 @@ Discover what's new, explore key features, and build your skills.
   <tr style="border: 0;">
    <td><img src="./help/assets/overview/whats-new-updated.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
    
-   <p><strong>Check what's new</strong></p>
-                <p>Explore the latest features<br>and release updates.</p>
+   <p><strong>Check what's new</strong>
+    </p>
+    <p>Explore the latest features<br>and release updates.</p>
                 <p>
                     <strong>
                         <a href="/help/migrated/whats-new.md">Learn more</a>
@@ -303,7 +304,7 @@ Discover what's new, explore key features, and build your skills.
                     <strong>
                         <a href="https://cdn.content.adobelearningmanageracademy.com/nl/catalog?catalogs=Webinars">Content Composer (Beta)</a>
                     </strong>
-                </p>
+    </p>
 
    
    </td>
