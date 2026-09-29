@@ -209,7 +209,7 @@ Choose focused courses for key capabilities or follow guided learning paths. Aca
     <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner"
        target="_blank"
        rel="referrer"
-       class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM">
+       class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
             Explore ALM Academy
         </span>
@@ -283,11 +283,11 @@ Discover what's new, explore key features, and build your skills.
 
 Discover how ALM can help you create, manage, and deliver engaging learning experiences. Sign up for a personalized demo today.
 
-<div style="margin-top: 1rem;">
+<div>
     <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
-       class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM">
+       class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
             Sign up
         </span>
