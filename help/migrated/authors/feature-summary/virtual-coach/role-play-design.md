@@ -170,7 +170,7 @@ Virtual Coach should simulate a real conversation rather than a checklist of que
 
 ## Role-play maturity model
 
-role-plays generally progress through five levels of maturity, from a generic single-question exchange to a fully adaptive, multi-stakeholder simulation. Use this model to plan how a role-play should evolve as learners move from onboarding to mastery, rather than trying to author Level 5 complexity on the first attempt.
+Role-plays generally progress through five levels of maturity, from a generic single-question exchange to a fully adaptive, multi-stakeholder simulation. Use this model to plan how a role-play should evolve as learners move from onboarding to mastery, rather than trying to author Level 5 complexity on the first attempt.
 
 ### Level 1: Basic role-play {#level-1-basic-role-play}
 
@@ -254,7 +254,7 @@ role-plays generally progress through five levels of maturity, from a generic si
 
 ## Enterprise scenario library
 
-The Sales enablement example below is the fully-worked reference for this library — every field the Gold Standard Template calls for is filled in, including weighted evaluation criteria, Make-or-Break flags, opener lines, and objections. The remaining examples follow the same structure so they're equally ready to adapt; none are intentionally abbreviated.
+The sales enablement example below is the fully-worked reference for this library — every field the Gold Standard Template calls for is filled in, including weighted evaluation criteria, Make-or-Break flags, opener lines, and objections. The remaining examples follow the same structure so they're equally ready to adapt; none are intentionally abbreviated.
 
 ### Sales enablement: Enterprise LMS evaluation
 
