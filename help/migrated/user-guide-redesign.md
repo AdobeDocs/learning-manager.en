@@ -298,4 +298,4 @@ Discover how ALM can help you create, manage, and deliver engaging learning expe
 
 - [Release notes](/help/migrated/release-note/release-notes.md)
 - [Ask community](https://community.adobe.com/adobe-learning-manager-466)
-- [Send feedback](https://github.com/AdobeDocs/product.en/issues)
+- [Send feedback](https://github.com/AdobeDocs/learning-manager.en/issues)
