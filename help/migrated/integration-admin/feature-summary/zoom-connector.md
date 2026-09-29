@@ -66,13 +66,13 @@ When creating the application in Zoom, ensure the following scopes are selected:
 
 | What you want | Search this keyword | Then pick |
 |---|---|---|
-| View all user meetings | meeting | meeting:read:meeting:admin, meeting:read:list_meetings:admin |
-| View/manage all user meetings | meeting | meeting:update:meeting:admin, meeting:delete:meeting:admin, meeting:write:meeting:admin |
-| View report data | report | report:read:meeting:admin, report:read:user:admin (Pick the one matching your endpoint.) |
-| View all user information | user | user:read:user:admin, user:read:list_users:admin |
-| Manage users | user | user:update:user:admin, user:write:user:admin |
-| Add a meeting registrant | registrant | meeting:write:registrant:admin |
-| List all meeting registrants | registrant | meeting:read:list_registrants:admin |
-| Sub-account meetings | meeting + look for :master | meeting:write:meeting:master |
-| Meeting participants report | participant | report:read:list_meeting_participants:admin |
+| View all user meetings | meeting | `meeting:read:meeting:admin, meeting:read:list_meetings:admin` |
+| View/manage all user meetings | meeting | `meeting:update:meeting:admin, meeting:delete:meeting:admin, meeting:write:meeting:admin` |
+| View report data | report | `report:read:meeting:admin, report:read:user:admin` (Pick the one matching your endpoint.) |
+| View all user information | user | `user:read:user:admin, user:read:list_users:admin` |
+| Manage users | user | `user:update:user:admin, user:write:user:admin` |
+| Add a meeting registrant | registrant | `meeting:write:registrant:admin` |
+| List all meeting registrants | registrant | `meeting:read:list_registrants:admin` |
+| Sub-account meetings | meeting + look for :master | `meeting:write:meeting:master` |
+| Meeting participants report | participant | `report:read:list_meeting_participants:admin` |
 
