@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Insights Agent (beta) in Adobe Learning Manager
 ---
 
-# What is Insights Agent
+# What is Insights Agent?
 
 Insights Agent is an AI-powered feature in Adobe Learning Manager that lets administrators query learning data using natural language. Instead of downloading reports and manipulating spreadsheets, you type a question, such as "How many courses were created in the last 3 months in the account? Give me a month-on-month report.", and Insights Agent retrieves and presents the data directly. You can view results as text, bullets, or tables, or download them as a CSV file.
 
@@ -22,7 +22,7 @@ Every query returns a formatted table or downloadable CSV file, along with a pla
 
 ## What data Insights Agent does not support
 
-The following data types are outside the scope of this release:
+The following data types are outside the scope Insights Agent currently:
 
 - Feedback and survey data
 - Gamification points and badges
@@ -55,6 +55,7 @@ Insights Agent is available to admins from the AI assistant panel in Learning Ma
 When the **Get Insights** mode is selected by default, you can immediately start querying learning data without needing to adjust the mode each time you access the assistant. However, if you ever switch to the **Learn** mode for instructional questions, make sure to re-select **Get Insights** before submitting a query.
 
 1. Select the AI assistant icon in Learning Manager to open the assistant panel. The **Get Insights** option is already selected by default.
+
     ![](assets/ask-question.png)
 
 2. Type your question in the text field. Use plain language. For example: **How many courses were created in the last 3 months?**
@@ -65,13 +66,16 @@ When the **Get Insights** mode is selected by default, you can immediately start
 
 After you submit your question, Insights Agent processes your request and returns a response with up to four parts:
 
-1. **Disambiguation (if needed):** If your question contains an ambiguous term, such as "learning activity" or "performance", or "Give me performance data from last 3 months", the assistant displays a list of options and asks you to select one before it proceeds. Select the option that best matches what you're looking for. After the initial question, you cannot type additional instructions. Selecting from the provided options is the only interaction available until you start a new query using the query interface. You can only respond to disambiguation by selecting from the provided options; free-text follow-up is not available in this release.
+1. **Disambiguation (if needed):** If your question contains an ambiguous term, such as "learning activity" or "performance", or "Give me performance data from last three months", the assistant displays a list of options and asks you to select one before it proceeds. Select the option that best matches what you're looking for. After the initial question, you cannot type additional instructions. Selecting from the provided options is the only interaction available until you start a new query using the query interface. You can only respond to disambiguation by selecting from the provided options; free-text follow-up is not available in this release.
+
     ![](assets/disambiguation.png)
 
 2. **Approach:** The **Approach** section describes the steps the agent took to retrieve your data. It appears as a scrollable panel below the question. Select the expand icon to view the full approach. Reviewing this section helps you confirm that the logic matches your intent, especially for complex queries. For example, if you ask for "all learners enrolled in the last year," the agent may return each learner's most recent enrollment rather than every enrollment record. The **Approach** section explains the decisions the agent made when retrieving your data. If the logic doesn't match your intent, start a new query with more specific terms.
+
     ![](assets/approach.png)
 
 3. **Results:** The Insights Agent generates results as text or a table. For data points that are best interpreted in a tabular format, the Insights Agent returns a table. The Insights Agent does not generate charts or graphs. To visualize the data, download the CSV and open it in your preferred tool. A plain-language summary is included with the results. When results contain 50 or fewer rows, the summary includes analytical insights about the data. When results contain more than 50 rows, the summary provides column-level statistics. For example, "Which courses do not have less than 5 enrolments that were created in the last 1 year, and who are the authors?"
+
     ![](assets/results.png)
 
 And the response contains the following summary:
@@ -89,11 +93,9 @@ And the response contains the following summary:
 >
 >The format of the summary varies based on the nature of the data. The following is one example of a summary response. Your actual summary will differ depending on the query.
 
-
 >[!NOTE]
 >
 >Insights Agent is probabilistic. If you run the same query twice, the response phrasing or result ordering may differ slightly.
-
 
 ### Download the report
 
@@ -102,7 +104,8 @@ Select **Download report** to export your results as a CSV file. For large resul
 ## Start a new query
 
 Each Insights Agent session handles one question at a time. After you review your results, select **New question** to ask a different question. You can also select **New chat** at any point, including before you have received a response, if you want to abandon the current query and start fresh. You cannot type a follow-up question in the same session or ask the agent to refine or expand on the results it returned.
-    ![](assets/new-question.png)
+
+![](/help/migrated/administrators/feature-summary/assets/new-question.png)
 
 >[!TIP]
 >
@@ -111,7 +114,8 @@ Each Insights Agent session handles one question at a time. After you review you
 ## Provide feedback
 
 After each response, select the thumbs-up or thumbs-down icon to rate the result. You can also specify whether the output was inaccurate, difficult to understand, or took too long to return. This feedback helps improve the agent over time.
-    ![](assets/feedback.png)
+
+![](/help/migrated/administrators/feature-summary/assets/feedback.png)
 
 ## Best practices
 
@@ -124,7 +128,6 @@ After each response, select the thumbs-up or thumbs-down icon to rate the result
 - **Specify whether to include or exclude waitlisted learners**. By default, enrollment count queries include learners who are on a waitlist alongside active, confirmed enrollments. If you need only active participants, explicitly exclude waitlisted learners in your query. For example: "How many learners are directly enrolled in the Safety Training course, excluding waitlisted learners?" The agent will disclose in the Approach section that the exclusion was applied. Without this instruction, enrollment totals may include a significant proportion of waitlisted learners who have not yet started the content.
 -->
 - **Direct and indirect enrollment counts**: When you query enrollment or completion data for a course or learning path, Insights Agent distinguishes between direct enrollments (learners enrolled specifically in that course or learning path) and indirect enrollments (learners who accessed the same content as part of a Learning Path or certification). If you ask specifically for direct or indirect enrollments, the agent returns the correct count for each type. If your query does not specify direct or indirect, the agent may return a combined count. To get separated counts, include the distinction explicitly in your query. For example: "How many learners are directly enrolled versus indirectly enrolled in the Safety Training course?"
-
 
 ## How Insights Agent differs from Report Builder
 
@@ -181,7 +184,7 @@ If your administrator has renamed standard terms using Product Terminology in **
 Custom terminology applies everywhere inside the Insights Agent chat window, including how your query is interpreted, the Approach explanation, the results summary, and table or column headers shown in the chat. **The downloaded CSV file does not reflect custom terminology.** Column headers and content in the exported file use the default Adobe Learning Manager terms, regardless of how your organization has customized them.
 
 - Insights Agent recognizes both the singular and plural forms of a custom term, as configured in the Product Terminology CSV file.
-- You can still use the default Adobe Learning Manager term in your query even after your organization customizes it. Insights Agent recognizes the default term and responds using your organization's custom term. For example, if your organization renamed **Course** to **Training**, you can still ask "How many Trainings were completed last month?" using the original term. Insights Agent understands the question and responds using your organization's custom term, **Training**, in the response.
+- You can still use the default Adobe Learning Manager term in your query even after your organization customizes it. Insights Agent recognizes the default term and responds using your organization's custom term. For example, if your organization renamed **Course** to **Chapter**, you can still ask "How many chapters were completed last month?" using the original term. Insights Agent understands the question and responds using your organization's custom term, **chapters**, in the response.
 - If your query includes a misspelled or unrecognized term, Insights Agent asks a clarifying question and suggests the closest matching term or terms available in your account.
 - If your administrator resets the custom terminology, Insights Agent no longer recognizes the previously customized terms and reverts to the default terms.
 
@@ -264,7 +267,7 @@ Use these as starting points. Adapt them by replacing the content names, user gr
 
 **Program and course progress**
 
-- "What is the completion status breakdown for the Leadership Development learning path- show completed, in progress, and not started counts."
+- "What is the completion status breakdown for the Leadership Development learning path? Show completed, in progress, and not started counts."
 - "How many learners completed the Data Privacy course last month?"
 
 **Organizational views**
@@ -287,4 +290,4 @@ Use these as starting points. Adapt them by replacing the content names, user gr
 
 **Queries submitted in non-Latin scripts are not supported**
 
-Insights Agent supports queries written in English and Latin-alphabet languages such as French and Spanish. Queries submitted using non-Latin scripts, including Japanese, Chinese, Arabic, Korean, Hindi, and Russian, cannot be processed, and the agent will display a message indicating the query could not be completed. If you submit a query in one of these languages, start a new query and rephrase it in English.
+Insights Agent supports queries written in English and Latin-alphabet languages such as French and Spanish. Queries submitted using non-Latin scripts, including Japanese, Chinese, Arabic, Korean, Hindi, and Russian are not processed. The agent will display a message indicating the query could not be completed. If you submit a query in one of these languages, start a new query and rephrase it in English.

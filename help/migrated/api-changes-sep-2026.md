@@ -94,8 +94,8 @@ A common use case is a course page that a learner reaches by navigating from a l
 ### Purpose of the API
 
 The Administrator Audit Trail Report lists the configuration changes made to an
-Adobe Learning Manager account &ndash; for example, changes to Basics, Integrations, or
-Advanced account settings &ndash; over a given date range. Because compiling this report
+Adobe Learning Manager account. For example, changes to Basics, Integrations, or
+Advanced account settings over a given date range. Because compiling this report
 can take longer than a typical request/response cycle, it is generated
 asynchronously using the generic Job API: an admin creates a job that asks for
 the report, and then polls that job until it finishes.
@@ -126,15 +126,15 @@ response when polling for status. Never construct or parse it.
 Each endpoint requires an OAuth token carrying the following scope, and the
 calling user must hold the account admin role:
 
-- `admin:write` &ndash; create a report job (`ROLE_ADMIN` required)
-- `admin:read` &ndash; read the status and result of a job (`ROLE_ADMIN` required)
+- `admin:write` create a report job (`ROLE_ADMIN` required)
+- `admin:read` read the status and result of a job (`ROLE_ADMIN` required)
 
 Requests made by a caller who does not hold `ROLE_ADMIN` on the account are
-rejected; see [Error handling](#audittrailreporterrorhandling).
+rejected; see [Error handling](/help/migrated/api-changes-sep-2026.md#error-handling)
 
 ### Endpoints
 
-#### Create an Audit Trail report job
+#### Create an Audit Trail Report job
 
 `POST /primeapi/v2/jobs`
 
@@ -170,7 +170,7 @@ Sample request body
 }
 ```
 
-Response: `202 Accepted`. The response body is the job resource in its initial
+Response: `202 Created`. The response body is the job resource in its initial
 `QUEUED` state.
 
 ```json
@@ -194,7 +194,7 @@ Response: `202 Accepted`. The response body is the job resource in its initial
 >take longer to process. Poll the Get Job Status endpoint rather than
 >assuming the report is ready after a fixed delay.
 
-#### Get the status of an Audit Trail report job
+#### Get the status of an Audit Trail Report job
 
 `GET /primeapi/v2/jobs/{id}`
 
@@ -277,7 +277,7 @@ Sample response once the job has completed
 | `downloadUrl` | Signed URL from which the generated report can be downloaded |
 | `expiresAt` | When `downloadUrl` stops being valid; request a fresh status check to get a new link after this time |
 
-### Error handling {#audittrailreporterrorhandling}
+### Error handling {#audit-trail-report-error-handling}
 
 The following codes apply to these endpoints:
 
