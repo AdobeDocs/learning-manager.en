@@ -138,6 +138,136 @@ Go directly to the workflows and concepts that match what you need to accomplish
 
 Build the skills you need to configure and manage Adobe Learning Manager.
 
+<div class="columns">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="Course and content management" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-course.png" alt="Course and content management"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" target="_blank" rel="referrer" title="Course and content management">Course and content management</a>
+                    </p>
+                    <p class="is-size-6">Learn how to create, organize, and manage learning content effectively through this learning journey.</p>
+                </div>
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Open learning path</span>
+                </a>
+            </div>
+        </div>
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" title="Portal and experience" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-portal.png" alt="Portal and experience"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" target="_blank" rel="referrer" title="Portal and experience">Portal and experience</a>
+                    </p>
+                    <p class="is-size-6">Learn how to build custom branded portals and engaging public-facing homepages with Experience Builder.</p>
+                </div>
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Open learning path</span>
+                </a>
+            </div>
+        </div>
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" title="Administration and access" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-admin.png" alt="Administration and access"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" target="_blank" rel="referrer" title="Administration and access">Administration and access</a>
+                    </p>
+                    <p class="is-size-6">Learn how to structure roles, manage permissions, and establish governance frameworks.</p>
+                </div>
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Open learning path</span>
+                </a>
+            </div>
+        </div>
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" title="Recognition and compliance" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-recognition.png" alt="Recognition and compliance"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" target="_blank" rel="referrer" title="Recognition and compliance">Recognition and compliance</a>
+                    </p>
+                    <p class="is-size-6">Learn how to set up compliance certifications, design custom certificates, and badges that celebrate learner achievements.</p>
+                </div>
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Open learning path</span>
+                </a>
+            </div>
+        </div>
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" title="Learning experience journeys" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-journey.png" alt="Learning experience journeys"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" target="_blank" rel="referrer" title="Learning experience journeys">Learning experience journeys</a>
+                    </p>
+                    <p class="is-size-6">Learn how to arrange courses into structured paths and automate enrollment through learning plans.</p>
+                </div>
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Open learning path</span>
+                </a>
+            </div>
+        </div>
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" title="Reporting and analytics" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./help/assets/overview/lp-recognition.png" alt="Reporting and analytics"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" target="_blank" rel="referrer" title="Reporting and analytics">Reporting and analytics</a>
+                    </p>
+                    <p class="is-size-6">Learn how to transform dashboards and reports into meaningful decisions for leadership.</p>
+                </div>
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Open learning path</span>
+                </a>
+            </div>
+        </div>
+
+</div>
 
 ::::landing-cards-container
 
