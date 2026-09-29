@@ -11,13 +11,21 @@ Virtual Coach is an AI-powered role-play and coaching solution in Adobe Learning
 
 At its core, Virtual Coach lets learners practice almost any conversation before they have it for real. Instead of walking into a difficult sales call, a performance review, or a customer escalation cold, a learner can rehearse it first — as many times as they need — against an AI persona that responds the way a real person would.
 
+## User personas
+
+Virtual Coach serves three roles in Adobe Learning Manager:
+
+- **Authors** design and publish role-play scenarios using templates or an AI assistant.
+- **Learners** complete role-plays to build skills and receive instant feedback.
+- **Administrators** track usage, manage credits, and view performance reports.
+
 ## How Virtual Coach works
 
 Every Virtual Coach session follows the same simple flow:
 
 1. **An author creates a role-play and defines what success looks like.** The author sets the scenario, the AI persona, and the specific behaviors that count as a strong performance.
 2. **The learner interacts with an AI persona.** The learner speaks or types naturally, just as they would in a real conversation.
-3. **The AI responds dynamically based on what the learner says.** There's no fixed script — the persona adapts in real time, so the learner has to think on their feet.
+3. **The AI responds dynamically based on what the learner says.** There's no fixed script.  The persona adapts in real time. So, the learner has to think on their feet.
 4. **The learner receives detailed coaching and scoring.** Immediately after the session, the learner sees exactly what they covered well, what they missed, and how they communicated.
 5. **The learner can practice repeatedly until they reach the desired performance level.** Every attempt is a fresh, independent session, so learners can keep rehearsing without waiting for a manager's schedule to open up.
 
@@ -45,9 +53,9 @@ Reading about a skill and being able to use it under pressure are two different 
 
 **It bridges the gap between knowledge and performance.** Completing a course teaches the *what* — the concepts, frameworks, and facts. It rarely teaches the *how*. A learner can pass a module on objection handling and still freeze when a real customer pushes back live. Virtual Coach is where knowing what to say turns into being able to say it effectively, under pressure, in the moment.
 
-### Virtual Coach as the last mile of training
+### Virtual Coach as your personal trainer
 
-Virtual Coach is designed to be the last step in a learning journey, not a replacement for the steps before it. The typical sequence looks like this:
+Virtual Coach is designed to be your personal trainer in a learning journey. The typical sequence looks like this:
 
 1. Learners complete the foundational content first — courses, videos, reading materials, job aids, and product training.
 2. Learners then use Virtual Coach to prove they can apply that knowledge in a realistic business conversation.
@@ -58,7 +66,7 @@ Positioned this way, Virtual Coach is the checkpoint between "the learner was ta
 
 **Sales teams: handling price objections.** A sales team keeps losing deals when prospects raise pricing concerns. An author creates a scenario where the AI plays a budget-conscious CFO who compares the product to a cheaper competitor. Reps practice the conversation multiple times, receiving feedback on negotiation approach, messaging consistency, and how confidently they linked price to business outcomes. Managers track completion and score trends to identify who needs additional coaching. Reps enter real pricing conversations prepared, and fewer deals are lost to cost objections alone.
 
-**New managers: giving difficult feedback.** Twenty technical experts have been promoted into management with no experience delivering constructive criticism, and their first performance reviews are approaching. An author embeds a scenario in a first-time manager course where the AI plays a defensive, underperforming team member. New managers practice navigating the conversation with empathy and structure — for example, using the GROW framework — and the course does not complete until they handle it successfully. New managers arrive at their first real feedback conversation prepared rather than improvising.
+**New managers: giving difficult feedback.** Twenty technical experts have been promoted into management with no experience delivering constructive criticism, and their first performance reviews are approaching. An author embeds a scenario in a first-time manager course where the AI plays a defensive, underperforming team member. New managers practice navigating the conversation with empathy and structure — for example, using the GROW framework — and the course does not complete until they handle it successfully. New managers arrive at their first real feedback conversation prepared rather than improvizing.
 
 **Customer support: de-escalating angry customers.** A support team handles frustrated customers daily, and agents feel underprepared for emotionally charged interactions. An author creates multiple scenarios with varying customer personas — angry, passive-aggressive, confused — so agents can practice de-escalation techniques across a range of situations before facing a real high-emotion call. Support agents feel more confident, improving both customer satisfaction scores and employee retention.
 
@@ -75,25 +83,9 @@ AI powers Virtual Coach in two distinct moments, each with a specific job:
 - **At creation.** When an author builds a role-play, AI generates the scenario, proposes the persona, and helps draft the evaluation topics from whatever context the author provides. Learn about  [creating and publishing a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md).
 - **At analysis.** When a learner finishes a session, AI scores the conversation against the exact rubric the author set at creation, generates natural-language coaching feedback, and produces the session timeline and topic breakdown. Learn about [understanding your Virtual Coach performance report](/help/migrated/learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md).
 
-## User personas
-
-Virtual Coach serves three roles in Adobe Learning Manager:
-
-- **Authors** design and publish role-play scenarios using templates or an AI assistant.
-- **Learners** complete role-plays to build skills and receive instant feedback.
-- **Administrators** track usage, manage credits, and view performance reports.
-
-## What learners practice
-
-Virtual Coach supports three domains:
-
-- **Sales enablement.** Learners practice discovery calls, cold calls, objection handling, and negotiation — for example, a sales rep practicing a pricing objection with a simulated CFO before their first real customer conversation.
-- **Leadership development.** New and experienced managers practice giving feedback, navigating performance conversations, and handling strategic discussions — for example, a newly promoted manager rehearsing a difficult feedback conversation multiple times before their first real review.
-- **Skills assessment.** Organizations verify that learners can apply knowledge in realistic situations, moving beyond course completion as the only measure of readiness.
-
 ## How a role-play gets its content
 
-An author builds every role-play from materials they provide — reference documents they upload (such as playbooks, sales decks, call transcripts, and scoring rubrics), a written prompt, or both. Virtual Coach does not automatically pull in your organization's existing Adobe Learning Manager course content; each role-play is generated from the specific reference materials and persona details an author supplies for that scenario. Learn about [gathering materials for a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md) before you start building.
+An author builds every role-play from materials they provide — reference documents they upload (such as playbooks, sales decks, call transcripts, and scoring rubrics), a written prompt, or both. Virtual Coach does not automatically pull in your organization's existing Adobe Learning Manager course content; each role-play is generated from the specific reference materials and persona details an author supplies for that scenario. Before you build your first role-play, learn about [gathering materials for a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md) to understand what to bring to the AI assistant.
 
 ## How scoring works
 
@@ -111,5 +103,3 @@ Every role-play produces an overall score made up of a **Knowledge score** (whet
 ## Licensing {#virtualcoachlicensing}
 
 Virtual Coach is available as an add-on subscription to Adobe Learning Manager, licensed by Monthly Active Users (MAU). An MAU credit is consumed the first time a learner launches a session in a calendar month, regardless of how many sessions they launch that month. For activation and usage-monitoring steps, see [manage Virtual Coach usage and billing](/help/migrated/administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md).
-
-Before you build your first role-play, learn about [gathering materials for a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md) to understand what to bring to the AI assistant.
