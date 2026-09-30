@@ -21,7 +21,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" title="Administrator" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/admin-new.png" alt="Administrator"
+                        <img class="is-bordered-r-small" src="./help/assets/overview/1_admin.png" alt="Administrator"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -44,7 +44,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="/help/migrated/authors/feature-summary/getting-started-author.md" title="Author" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/author-new.png" alt="Author"
+                        <img class="is-bordered-r-small" src="./help/assets/overview/1_author.png" alt="Author"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -67,7 +67,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="/help/migrated/learners/feature-summary/getting-started-learner.md" title="Learner" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/learner-new.png" alt="Learner"
+                        <img class="is-bordered-r-small" src="./help/assets/overview/1_learner.png" alt="Learner"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -90,7 +90,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="/help/migrated/managers/feature-summary/getting-started-manager.md" title="Manager" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/manager-new.png" alt="Manager"
+                        <img class="is-bordered-r-small" src="./help/assets/overview/1_manager_new.png" alt="Manager"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -112,8 +112,8 @@ Go directly to the workflows and concepts that match what you need to accomplish
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="/help/migrated/integration-admin/feature-summary/connectors.md" title="Integration administrator" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./help/assets/overview/integration-admin-new.png" alt="Integration administratoruthor"
+                    <a href="/help/migrated/managers/feature-summary/getting-started-manager.md" title="Integration administrator" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./help/assets/overview/1_integration-admin.png" alt="AIntegration administratoruthor"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -352,11 +352,13 @@ Discover what's new, explore key features, and build your skills.
 Discover how ALM can help you create, manage, and deliver engaging learning experiences. Sign up for a personalized demo today.
 
 <div>
-    <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&amp;mv=partner#make-personalized-learning-the-new-normal"
+    <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
-       rel="noopener noreferrer"
-       class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM">
-        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Sign up</span>
+       rel="referrer"
+       class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
+            Sign up
+        </span>
     </a>
 </div>
 
