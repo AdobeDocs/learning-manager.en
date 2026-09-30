@@ -401,6 +401,7 @@ nudge: true
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * API Changes {#api-changes}
    * [Incremental User Report (Job API)](/help/migrated/incremental-user-report.md)
+   * [API changes in the September 2026 release](/help/migrated/api-changes-sep-2026.md)
    * [API changes in the August 2026 release](/help/migrated/api-changes-august-2026.md)
    * [API changes in the April 2026 release](/help/migrated/api-changes-alm.md)
    * [API changes in the May 2026 release](/help/migrated/api-changes-alm-may.md)

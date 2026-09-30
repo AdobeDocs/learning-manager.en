@@ -4,7 +4,7 @@ jcr-language: en_us
 title: API changes in Sep 2026
 ---
 
-# API changes in September 2026
+# API changes in the September 2026 release of Adobe Learning Manager
 
 ## API for checking catalog access for learning objects
 
