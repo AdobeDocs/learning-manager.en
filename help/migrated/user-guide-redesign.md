@@ -286,6 +286,7 @@ Choose focused courses for key capabilities or follow guided learning paths. Aca
 
 Discover what's new, explore key features, and build your skills.
 
+<!--
 <table style="table-layout:fixed">
  <tbody>
   
@@ -348,6 +349,148 @@ Discover what's new, explore key features, and build your skills.
   
  </tbody>
 </table>
+-->
+
+<div class="columns">
+    <!-- Check what's new -->
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Check what's new">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <img
+                        class="is-bordered-r-small"
+                        src="./help/assets/overview/whats-new-updated-new.png"
+                        alt="Check what's new"
+                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                </figure>
+            </div>
+            <div class="card-content is-padded-small"
+                 style="display: flex; flex-direction: column; flex-grow: 1;">
+                <p class="headline is-size-6 has-text-weight-bold">
+                    Check what's new
+                </p>
+                <p class="is-size-6">
+                    Explore the latest features<br>
+                    and release updates.
+                </p>
+                <p>
+                    <strong>
+                        <a href="/help/migrated/whats-new.md">
+                            Learn more
+                        </a>
+                    </strong>
+                </p>
+                <p>
+                    <strong>
+                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">
+                            Content Composer (Beta)
+                        </a>
+                    </strong>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Explore AI -->
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Explore AI">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <img
+                        class="is-bordered-r-small"
+                        src="./help/assets/overview/explore-ai-new.png"
+                        alt="Explore AI"
+                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                </figure>
+            </div>
+            <div class="card-content is-padded-small"
+                 style="display: flex; flex-direction: column; flex-grow: 1;">
+                <!-- Insights Agent -->
+                <p class="is-size-6">
+                    <strong>Insights Agent (Beta)</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">
+                        Learn more
+                    </a>
+                    &vert;
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">
+                        Launch course
+                    </a>
+                </p>
+                <!-- Learning Path Agent -->
+                <p class="is-size-6">
+                    <strong>Learning Path Agent (Beta)</strong><br>
+                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">
+                        Learn more
+                    </a>
+                    &vert;
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">
+                        Launch course
+                    </a>
+                </p>
+                <!-- Live Hub -->
+                <p class="is-size-6">
+                    <strong>Live Hub (Beta)</strong><br>
+                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">
+                        Learn more
+                    </a>
+                    &vert;
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">
+                        Launch course
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Learning Experience -->
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Learning Experience">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <img
+                        class="is-bordered-r-small"
+                        src="./help/assets/overview/learning-experience-new.png"
+                        alt="Learning Experience"
+                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                </figure>
+            </div>
+            <div class="card-content is-padded-small"
+                 style="display: flex; flex-direction: column; flex-grow: 1;">
+                <!-- Experience Builder -->
+                <p class="is-size-6">
+                    <strong>Experience Builder</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">
+                        Learn more
+                    </a>
+                    &vert;
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">
+                        Launch course
+                    </a>
+                </p>
+                <!-- Report Builder -->
+                <p class="is-size-6">
+                    <strong>Report Builder</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">
+                        Learn more
+                    </a>
+                    &vert;
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">
+                        Launch course
+                    </a>
+                </p>
+                <!-- Email Builder -->
+                <p class="is-size-6">
+                    <strong>Email Builder</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">
+                        Learn more
+                    </a>
+                    &vert;
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">
+                        Launch course
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 Discover how ALM can help you create, manage, and deliver engaging learning experiences. Sign up for a personalized demo today.
 
