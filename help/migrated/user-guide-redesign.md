@@ -9,7 +9,7 @@ hide: true
 
 # Adobe Learning Manager documentation
 
-Enterprise LMS for scalable learner experiences, compliance training, and skill-based development. Select your role to go directly to your documentation. Build practical product skills with curated Adobe Learning Manager Academy courses and guided learning paths.
+Enterprise LMS for scalable learner experiences, compliance training, and skill-based development. Select your role to go directly to your guide. Build practical product skills with curated Adobe Learning Manager Academy courses and guided learning paths.
 
 ## Start with your role {#roles}
 
