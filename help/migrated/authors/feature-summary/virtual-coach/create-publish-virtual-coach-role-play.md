@@ -102,8 +102,6 @@ When writing the conversation context:
 
 **Example:** "This is a sales discovery call. The learner has reached out to schedule an introductory call with Karen Mitchell, the Medical Affairs Director at a mid-sized hospital network. Karen agreed to a 15-minute call to learn more about the learning platform. She's time-constrained and evaluating whether the platform meets clinical content quality standards before involving her team."
 
-> **`[TO VERIFY]`** The demonstrated authoring workflow references defining a distinct **Learner role** (who the learner is — their title and team) as its own input, separate from the persona. The current Virtual Coach authoring screen doesn't show a dedicated Learner role field — the learner's role is only implied by how "the learner" is referenced inside Conversation Context. Confirm with the product team whether this is a planned field, a merged/renamed field, or specific to certain templates, before treating this article as complete on that point.
-
 ### Persona background information
 
 The **Persona Background Information** field gives the AI persona a personality. The more detail you enter, the more accurate and consistent the persona's responses are throughout the simulation.

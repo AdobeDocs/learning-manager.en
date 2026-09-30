@@ -7,7 +7,7 @@ exl-id: e4379c57-5fcd-4165-831c-e9c9e96fe93e
 
 # Virtual Coach reports
 
-As an admin, you can view two reports related to Virtual Coach. They are Learner Usage Summary and Session Details.
+As an admin, you can view two reports related to Virtual Coach. They are **Learner Usage Summary** and **Session Details**.
 
 ![](/help/migrated/administrators/feature-summary/assets/virtual-coach-report1.png)
 
@@ -27,9 +27,11 @@ To generate a Learner Usage Summary:
 
     ![](/help/migrated/administrators/feature-summary/assets/virtual-coach-report2.png)
 
+    ![](/help/migrated/administrators/feature-summary/assets/virtual-coach-report-learn-usage-6.png)
+
 ## Session Details
 
-The Session Details report contains session details of all learners enrolled within the account over the past 90 days. These usage details contain insights into usage and learning patterns.
+The **Session Details** report contains session details of all learners enrolled within the account over the past 90 days. These usage details contain insights into usage and learning patterns.
 
 ### Generate Session Details
 
@@ -41,6 +43,8 @@ To generate a Session Details report:
 1. Select **OK**. The report is generated as a .csv file. You can find the downloaded .csv file in the **Downloads** folder of your File Explorer.
 
     ![](/help/migrated/administrators/feature-summary/assets/virtual-coach-report3.png)
+
+    ![](/help/migrated/administrators/feature-summary/assets/virtual-coach-report-session-4.png)
 
 >[!NOTE]
 >

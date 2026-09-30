@@ -95,15 +95,13 @@ A common use case is a course page that a learner reaches by navigating from a l
 
 The Administrator Audit Trail Report lists the configuration changes made to an
 Adobe Learning Manager account. For example, changes to Basics, Integrations, or
-Advanced account settings over a given date range. Because compiling this report
-can take longer than a typical request/response cycle, it is generated
-asynchronously using the generic Job API: an admin creates a job that asks for
-the report, and then polls that job until it finishes.
+Advanced account settings over a given date range. Generating the Audit Trail report requires querying and aggregating configuration change records across the requested date range and setting types. Depending on the size of the range and the volume of changes, this can exceed the time limits of a synchronous HTTP request, which risks client or gateway timeouts.
 
-This article covers the admin-facing API endpoints for working with Audit
-Trail report jobs: creating a job that generates a Config Change Audit Trail
-report for a date range and a set of setting types, and retrieving the status
-and result of that job.
+To avoid this, the report is generated asynchronously through the generic Job API:
+
+1. **Create a job.** The admin submits a request specifying the report type, date range, and setting types. The API returns a job ID immediately, without waiting for the report to be compiled.
+
+2. **Poll the job.** The admin periodically retrieves the job by its ID to check its status. When the job completes, the response contains the result, or a reference to it.
 
 ### Base URL and conventions
 

@@ -51,6 +51,8 @@ Monthly Active User (MAU) credits count the number of unique learners who use Vi
 
 4. Select **Download Detailed Report** to export the full usage data.
 
+   ![](/help/migrated/administrators/feature-summary/assets/virtual-coach-report-mau-billing-5.png)
+
 ## How MAU credits are consumed
 
 An MAU credit is consumed when a learner launches a Virtual Coach session in a calendar month. Additional sessions by the same learner in the same month don't consume additional credits. Unused credits at the end of the contract period lapse and don't carry over.

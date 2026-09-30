@@ -70,10 +70,12 @@ The Style score reflects how you communicated during the conversation, based on 
 
 The **Session Recording** section shows your full conversation as a video playback with a synchronized timeline, made up of three tracks: your speaking turns, the persona's speaking turns, and which required topic was being addressed at each point, color-coded to match the topic breakdown table. Use the timeline to jump directly to specific moments, such as the timestamp when a topic was missed or a filler word was flagged.
 
+![](/help/migrated/learners/feature-summary/assets/virtual-coach-report5.png)
+
 ## Best practices
 
 - **Review your lowest-scoring topic first.** Improvement there has the biggest impact on your overall score.
 - **Use the topic timeline to check timing.** Raising required topics earlier in the conversation often improves both knowledge and style scores.
 - **Replay your slowest WPM moments.** Slow pace is often caused by searching for the right word; preparing key phrases in advance can help.
 - **Treat a low energy score as a cue to review your opening.** Energy tends to be highest at the start and dip in the middle; practicing your transitions between topics helps maintain momentum.
-- **Retry the role play.** See [practice a role play with Virtual Coach](/help/migrated/learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md) — every attempt generates a fresh, independent report. So, use what you learned from one session in the next.
+- **Retry the role play.** See [practice a role play with Virtual Coach](/help/migrated/learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md). Every attempt generates a fresh, independent report. So, use what you learned from one session in the next.

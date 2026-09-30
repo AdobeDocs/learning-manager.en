@@ -11,19 +11,19 @@ exl-id: b8955b04-4655-413a-b570-a05b1f76285c
 
 Get answers to common questions about building, configuring, and troubleshooting a Virtual Coach role-play.
 
-**Why did my role-play score zero even though I covered most of the topics?**
+1. **Why did my role-play score zero even though I covered most of the topics?**
 Check whether one of your topics has **Make or Break** enabled. If a learner doesn't address a Make or Break topic at all during the conversation, the simulation's final score is 0 regardless of how well they performed on everything else. Reserve Make or Break for one or two genuinely non-negotiable topics to avoid this happening on a reasonable attempt. For the full setup, see [create and publish a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md).
 
-**How many personas can a multi-persona role-play include?**
+2. **How many personas can a multi-persona role-play include?**
 Up to four personas in a single scenario, each configured individually with its own **Role**, **Personality**, and **Persona Concerns**. Use this when a learner needs to navigate more than one stakeholder in the same conversation, such as a buying-committee pitch or an executive panel review.
 
-**How do I choose between voice, chat, and video for a role-play?**
+3. **How do I choose between voice, chat, and video for a role-play?**
 This depends on the persona type you select. **System Personas** support either **Voice & Video** (an animated avatar with a spoken voice) or **Voice** only. **Custom Personas** support voice interaction, and you can enable **Video Avatar** separately for personas that support Voice & Video mode. Choose Voice & Video for the most realistic simulation, or Voice only for scenarios where a visual avatar isn't necessary, such as phone-based training.
 
-**How do I write a good prompt for the AI Co-create Assistant?**
+4. **How do I write a good prompt for the AI Co-create Assistant?**
 Enter a short description that outlines the scenario, such as `Handling price objections in enterprise sales` or `Pitching our new product to a buying committee`. The AI assistant then asks follow-up questions to help you build the Overview, AI persona, and Evaluation Topics. Provide as much context as you can about the situation, the persona's role and concerns, and how you want to measure success — more detail in your initial description means less back-and-forth in the chat. See [gather materials for a Virtual Coach role-play](/help/migrated/authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md) for a fuller prompt template.
 
-**Can I edit a role-play after it's published?**
+5. **Can I edit a role-play after it's published?**
 Yes. Changes to persona settings, topics, and other configuration take effect immediately for any unpublished role-play. If a role-play is already published and assigned to learners, republish it after making changes so learners see the latest version.
 
 For general product, licensing, and admin questions, see the [Adobe Learning Manager Virtual Coach FAQ](/help/migrated/authors/feature-summary/virtual-coach/virtual-coach-faq.md).
@@ -62,11 +62,9 @@ See [Activating Virtual Coach](/help/migrated/administrators/feature-summary/vir
 2. **How long is the Virtual Coach activation valid, and how is it renewed?**
 Virtual Coach activation in Adobe Learning Manager is valid for the duration of your add-on subscription contract. It is not automatically perpetual. Instead, the validity aligns with your subscription period.
 
-**Renewal:** To continue using Virtual Coach after your contract period ends, you must renew your subscription. At the time of purchase, Adobe provides an activation key, which the account administrator uses to enable Virtual Coach in the Billing section.
-If you renew your contract, you will receive instructions and a new activation key if needed to maintain uninterrupted access.
+    **Renewal:** To continue using Virtual Coach after your contract period ends, you must renew your subscription. At the time of purchase, Adobe provides an activation key, which the account administrator uses to enable Virtual Coach in the Billing section. If you renew your contract, you will receive instructions and a new activation key if needed to maintain uninterrupted access.
 
-Monthly Active User (MAU) credits are also allocated for each contract period. Any unused credits at the end of the contract lapse. They do not carry over into a renewed or new period.
-Your activation lasts as long as your paid Virtual Coach subscription is active, and renewal occurs by extending your subscription, as managed through your Adobe account.
+    Monthly Active User (MAU) credits are also allocated for each contract period. Any unused credits at the end of the contract lapse. They do not carry over into a renewed or new period. Your activation lasts as long as your paid Virtual Coach subscription is active, and renewal occurs by extending your subscription, as managed through your Adobe account.
 
 3. **What happens to uploaded source documents and generated session data after a role-play is created or completed?**
 Uploaded source documents can be used to create and configure role-play scenarios, personas, and evaluation criteria. After learners complete a role play, Virtual Coach generates evaluation results, scores, coaching feedback, and completion information to support learning and reporting activities. Data associated with role plays remains available according to the applicable content lifecycle and retention policies.
@@ -122,4 +120,3 @@ Package the role-play inside a course or learning journey alongside the related 
 Public APIs for fetching courses and job aids also fetch Virtual Coach courses and job aids. The `jobAidType` filter is available for fetching Virtual Coach job aids specifically. Virtual Coach content is supported in the headless player, and courses and job aids containing Virtual Coach work in the fluidic player.
 
 For questions about building and configuring a role-play, see this FAQ page.
-

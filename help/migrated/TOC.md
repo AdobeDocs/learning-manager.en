@@ -211,7 +211,7 @@ nudge: true
       * [What Virtual Coach is](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
       * [Gather materials for a Virtual Coach role-play](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
       * [Design a Virtual Coach](authors/feature-summary/virtual-coach/role-play-design.md)
-      * Create a Virtual Coch {#create-virtual-coach}
+      * Create a Virtual Coach {#create-virtual-coach}
          * [Create a role-play using a Virtual Coach template](authors/feature-summary/virtual-coach/create-role-play-using-virtual-coach-template.md)
          * [Create and publish a Virtual Coach role-play](authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md)         
       * [Add a Virtual Coach role-play to a course](authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md)      
