@@ -110,7 +110,7 @@ nudge: true
    * [Alternates and equivalence](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [Learning Plans](administrators/feature-summary/learning-plans.md)
    * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
-   * {hide-from-toc} [Account plans and tiering](administrators/feature-summary/account-plans-tiering.md)
+   * [Seat sharing and account plans in Adobe Learning Manager](administrators/feature-summary/tiering-seat-sharing.md)   
    * [Job Aids](administrators/feature-summary/job-aids.md)
    * Vitual Coach {#virtualcoachadmin}
       * [Manage Virtual Coach usage and billing](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
