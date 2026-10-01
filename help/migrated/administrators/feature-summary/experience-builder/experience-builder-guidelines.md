@@ -75,7 +75,7 @@ Menus can be positioned at the top or left of the page. Further adjustments can 
 
 ### Disclaimer 
 
-* Custom code may not function as expected with future releases, requiring adjustments. Be prepared to update their code after each release. 
+* Custom HTML, CSS, and JavaScript customizations are supported; however, platform updates may occasionally require minor adjustments to custom code. We recommend testing customizations after major releases as part of regular maintenance. 
 
 ## General recommendations 
 

@@ -2,11 +2,13 @@
 user-guide-title: Adobe Learning Manager Guide
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation for Adobe Learning Manager
+nudge: true
 ---
 
-# Learning Manager Guide {#using}
+# Adobe Learning Manager User Guide {#using}
 
 * [Adobe Learning Manager User Guide](user-guide.md)
+* {hide-from-toc} [Adobe Learning Manager User Guide](user-guide-redesign.md)
 * Introduction {#introduction}
    * [New features summary August 2026](whats-new.md)
    * [New features summary April 2026](whats-new-april-2026.md)
@@ -108,7 +110,11 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Alternates and equivalence](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [Learning Plans](administrators/feature-summary/learning-plans.md)
    * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
+   * [Seat sharing and account plans in Adobe Learning Manager](administrators/feature-summary/tiering-seat-sharing.md)   
    * [Job Aids](administrators/feature-summary/job-aids.md)
+   * Vitual Coach {#virtualcoachadmin}
+      * [Manage Virtual Coach usage and billing](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
+      * [Virtual Coach reports](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
    * [Create Channels (Beta)](administrators/feature-summary/create-channels.md)
    * [Certifications](administrators/feature-summary/certifications.md)
    * [Create and customize a certificate](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
@@ -201,6 +207,15 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Create, modify, and publish courses](authors/feature-summary/courses.md)
    * [Catalogs](authors/feature-summary/catalogs.md)
    * {hide-from-toc} [Adaptive Course](authors/feature-summary/adaptive-course-author.md)
+   * Virtual Coach {#virtual-coach}
+      * [What Virtual Coach is](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+      * [Gather materials for a Virtual Coach role-play](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
+      * [Design a Virtual Coach](authors/feature-summary/virtual-coach/role-play-design.md)
+      * Create a Virtual Coach {#create-virtual-coach}
+         * [Create a role-play using a Virtual Coach template](authors/feature-summary/virtual-coach/create-role-play-using-virtual-coach-template.md)
+         * [Create and publish a Virtual Coach role-play](authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md)         
+      * [Add a Virtual Coach role-play to a course](authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md)      
+      * [Virtual Coach FAQ](authors/feature-summary/virtual-coach/virtual-coach-faq.md)
    * [Job Aids](authors/feature-summary/job-aids.md)
    * [Gradebook](authors/feature-summary/alm-author-gradebook.md)
    * [iPad & Android tablet users](authors/feature-summary/ipad-android-tablet-users.md)
@@ -270,6 +285,9 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Log in](learners/feature-summary/user-login.md)
    * [Profile Settings](learners/feature-summary/settings.md)
    * [Catalogs](learners/feature-summary/catalogs.md)
+   * [Virtual Coach] {#virtualcoach}
+      * [Practice a role play with Virtual Coach](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
+      * [Understand your Virtual Coach performance report](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
    * [One-click enrollment](learners/feature-summary/learner-one-click-enrollment.md)
    * [Saved by me widget](learners/feature-summary/saved-by-me-widget.md)
    * [My Learning](learners/feature-summary/courses.md) 
@@ -383,6 +401,7 @@ user-guide-description: Documentation for Adobe Learning Manager
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * API Changes {#api-changes}
    * [Incremental User Report (Job API)](/help/migrated/incremental-user-report.md)
+   * [API changes in the September 2026 release](/help/migrated/api-changes-sep-2026.md)
    * [API changes in the August 2026 release](/help/migrated/api-changes-august-2026.md)
    * [API changes in the April 2026 release](/help/migrated/api-changes-alm.md)
    * [API changes in the May 2026 release](/help/migrated/api-changes-alm-may.md)
