@@ -5,7 +5,7 @@ user-guide-description: Documentation for Adobe Learning Manager
 nudge: true
 ---
 
-# Learning Manager Guide {#using}
+# Adobe Learning Manager User Guide {#using}
 
 * [Adobe Learning Manager User Guide](user-guide.md)
 * {hide-from-toc} [Adobe Learning Manager User Guide](user-guide-redesign.md)
