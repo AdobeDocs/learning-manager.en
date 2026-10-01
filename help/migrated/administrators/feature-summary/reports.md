@@ -1228,7 +1228,7 @@ When creating a dashboard, enter the name and description. To share with manager
 
 Generate a report of configuration changes made to your account's Basics, Advanced, and Integration settings — including who made each change, when, and the value before and after.
 
-## What the report captures
+### What the report captures
 
 The Administrator Audit Trail Report gives you a historical record of configuration changes so you can determine:
 
@@ -1247,12 +1247,12 @@ The report is additive-only: new change records are added over time, and previou
 
 The report is available to any user with Report privileges — this includes full Administrators and custom Administrators who have been granted Report access, not only account owners.
 
-## Records and changes {#recordschanges}
+### Records and changes {#recordschanges}
 
 * Records are available starting from Update 112, September 2026. Changes made before this update are not included in the report. See [release notes](/help/migrated/release-note/release-notes.md) Update 112. 
 * Changes made to any of the settings may take up to one hour to reflect in the report.
 
-## Why this report matters for compliance
+### Why this report matters for compliance
 
 Organizations operating in regulated industries often need to demonstrate that configuration changes to systems handling electronic records are tracked, attributable, and retained. The Administrator Audit Trail Report supports these requirements by identifying the person, setting, time, and before-and-after values for each change.
 
@@ -1260,7 +1260,7 @@ Organizations operating in regulated industries often need to demonstrate that c
 >
 >This report supports your organization's compliance activities. It does not, by itself, certify compliance with any specific regulation or standard.
 
-## Generate an Administrator Audit Trail Report
+### Generate an Administrator Audit Trail Report
 
 1. Sign in to Adobe Learning Manager as an Administrator.
 2. In the left navigation, select **Manage** > **Reports** > **Custom Reports**.
@@ -1288,7 +1288,7 @@ Organizations operating in regulated industries often need to demonstrate that c
 
 A `.csv` file containing the changes downloads to your browser's Downloads folder. Report generation may take a few moments — you can continue using Adobe Learning Manager while it processes. If you close the browser window before the report is ready, the download begins the next time you sign in.
 
-## Common uses for this report
+### Common uses for this report
 
 - **Investigate an unexpected setting change** — confirm what changed, when, and who made the change, rather than relying on assumptions.
 - **Review changes made by multiple Administrators** — generate a consolidated view of all configuration activity across Basics, Integrations, and Advanced settings for a given period, instead of contacting each Administrator individually.
@@ -1298,7 +1298,7 @@ A `.csv` file containing the changes downloads to your browser's Downloads folde
 - **Review settings after a policy change** — confirm that intended configuration updates were applied consistently, and identify any changes that occurred unexpectedly.
 - **Maintain a historical administrative record** — download and retain reports according to your organization's record-management practices.
 
-## Report column reference
+### Report column reference
 
 The downloaded `.csv` file includes the following columns.
 
@@ -1321,16 +1321,16 @@ The downloaded `.csv` file includes the following columns.
 >
 >To find all settings that were deleted during a period, filter the downloaded file where **Action Type** is `DELETE_SETTING`.
 
-## Access this report programmatically
+### Access this report programmatically
 
 You can retrieve the Administrator Audit Trail Report programmatically using the Jobs API, rather than generating it manually from the Admin app. This is useful if you want to schedule regular exports or feed the report into a downstream monitoring or alerting system. Learn more about [Job API for Admin Audit Trail Report](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report).
 
-## Limitations
+### Limitations
 
 - **Localization**: Report content is not localized. The report is generated in the default account language regardless of your account's configured locale settings.
 - **Reason for change**: The report does not capture why a change was made. Retain any related change request, approval, or business justification separately.
 
-## Best practices
+### Best practices
 
 - Select a date range that covers the suspected or planned change.
 - Select **Select All** when the affected settings area is not known.
@@ -1338,7 +1338,7 @@ You can retrieve the Administrator Audit Trail Report programmatically using the
 - Use the **Admin Name** and **Timestamp** columns to correlate a change with approved work or internal records.
 - Keep the related change request, approval, or business justification separately when your organization requires a documented explanation for a change.
 
-## Troubleshooting
+### Troubleshooting
 
 **I don't see any records before a certain date**
 Records are available only from Update 112 (September 2026) onward. Changes made before that update are not included in the report. See [release notes](/help/migrated/release-note/release-notes.md)
