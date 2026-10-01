@@ -1247,9 +1247,10 @@ The report is additive-only: new change records are added over time, and previou
 
 The report is available to any user with Report privileges — this includes full Administrators and custom Administrators who have been granted Report access, not only account owners.
 
->[!NOTE]
->
->Records are available starting from Update 112, September 2026. Changes made before this update are not included in the report. See [release notes](/help/migrated/release-note/release-notes.md) Update 112.
+## Records and changes {#recordschanges}
+
+* Records are available starting from Update 112, September 2026. Changes made before this update are not included in the report. See [release notes](/help/migrated/release-note/release-notes.md) Update 112. 
+* Changes made to any of the settings may take up to one hour to reflect in the report.
 
 ## Why this report matters for compliance
 
@@ -1322,7 +1323,7 @@ The downloaded `.csv` file includes the following columns.
 
 ## Access this report programmatically
 
-You can retrieve the Administrator Audit Trail Report programmatically using the Jobs API, rather than generating it manually from the Admin app. This is useful if you want to schedule regular exports or feed the report into a downstream monitoring or alerting system. Learn more about [Jobs API for Admin Audit Trail Report](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report)
+You can retrieve the Administrator Audit Trail Report programmatically using the Jobs API, rather than generating it manually from the Admin app. This is useful if you want to schedule regular exports or feed the report into a downstream monitoring or alerting system. Learn more about [Job API for Admin Audit Trail Report](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report).
 
 ## Limitations
 
@@ -1341,6 +1342,9 @@ You can retrieve the Administrator Audit Trail Report programmatically using the
 
 **I don't see any records before a certain date**
 Records are available only from Update 112 (September 2026) onward. Changes made before that update are not included in the report. See [release notes](/help/migrated/release-note/release-notes.md)
+
+**I don't see my changes, which I made a few minutes ago, reflected in the report**
+See the second bullet point under [Records and changes](#recordschanges) above.
 
 **The UUID column is empty for some or all records**
 The UUID column is populated only if UUID is enabled at the account level. If it is not enabled, this column will not be present.
