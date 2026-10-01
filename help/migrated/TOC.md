@@ -8,6 +8,7 @@ nudge: true
 # Learning Manager Guide {#using}
 
 * [Adobe Learning Manager User Guide](user-guide.md)
+* {hide-from-toc} [Adobe Learning Manager User Guide](user-guide-redesign.md)
 * Introduction {#introduction}
    * [New features summary August 2026](whats-new.md)
    * [New features summary April 2026](whats-new-april-2026.md)
