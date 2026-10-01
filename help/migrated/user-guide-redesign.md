@@ -2,7 +2,7 @@
 description: From content creation to live and on-demand experiences, Adobe Learning Manager combines branded academies, adaptive journeys, and AI agents to deliver personalized learning that pays off.
 jcr-language: en_us
 title: Welcome to Adobe Learning Manager documentation
-exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a2111
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a21112
 contentowner: saghosh
 hide: true
 ---
