@@ -28,6 +28,15 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 **Seat sharing:** Seat sharing allows an account to share a portion of its licensed seats with another account, enabling learners in the receiving account to access Adobe Learning Manager using the shared seats. Seat sharing is available only to Ultimate accounts; Prime accounts can neither share nor receive seats and credit card-billed accounts are on the Prime plan by default. Trial accounts are an exception and can receive shared seats from an Ultimate account. During an active seat-sharing relationship, the Trial account receives Ultimate-level feature access. [Learn more](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
 
+**Learning Path Agent enhancements:** The Learning Path Agent now provides more flexibility to create and refine personalized learning paths before saving them.
+
+* **Create more learning paths:** Learners can now create up to 20 learning paths, increased from the previous limit of 10.
+* **Refine a path before saving:** Learners can ask the agent in natural language to add, remove, or replace courses before saving a learning path. The agent updates only the requested course while keeping the rest of the path unchanged, allowing learners to continue refining the path until it meets their needs.
+* **Improved handling of full learning paths:** A learning path can contain up to five courses. If a learner asks to add another course to a full path, the agent prompts them to choose an existing course to replace.
+* **Smarter guidance for course changes:** If a learner's request is unclear, the agent asks for clarification before modifying the path. If a suitable replacement course is unavailable, the agent explains the limitation and recommends the closest matching alternative. 
+
+[Learn more](/help/migrated/learners/feature-summary/learning-path-agent.md).
+
 **Administrator Audit Trail Report:** The Administrator Audit Trail Report gives you a historical record of configuration changes so you can determine:
 
 * Who made the change

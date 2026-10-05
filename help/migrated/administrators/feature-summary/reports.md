@@ -1245,7 +1245,7 @@ The report covers changes made to:
 
 The report is additive-only: new change records are added over time, and previously recorded entries are never removed. This lets you review the full history of a setting across multiple changes, not just its current value.
 
-The report is available to any user with Report privileges — this includes full Administrators and custom Administrators who have been granted Report access, not only account owners.
+The report is available to any user with Report privileges. This includes full Administrators and custom Administrators who have been granted Report access, not only account owners.
 
 ### Records and changes {#recordschanges}
 
