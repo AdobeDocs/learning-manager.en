@@ -1243,9 +1243,72 @@ The report covers changes made to:
 - **Advanced** settings
 - **Integrations** settings
 
+To see the entire list of settings and their details under each category, you can select the **Download List of Settings**  link from Administrator Audit Trail popup that appears before you generate the report.
+
+The following are the options available under each category:
+
+**Basics**
+
+* Basic Info
+* Course Moderation
+* Discussion Board
+* Multiple Attempts
+* Visibility of Skills, Tags, Products and Roles
+* Unique Learning Object Ids → Enable
+* Show Filter Panels
+* Default view (Learner role) → List view
+* Instructor Management
+* Module Preview
+* Enable pricing for Courses/Learning Paths/Certifications
+* Enable Multi Item SKU Cart
+* Player settings
+* Managers can mark complete
+* Auto-register Users
+* Auto-delete internal Users (If they do not access the system for (configurable number) days)
+* Show Catalog Labels
+* Custom Compliance type
+* Learners can view their scores
+* Digest Email
+* Enable Course/Learning Path/Certification/Job Aid Card Icons
+* Footer Links
+* Report Timezone
+* Badgr Integration
+* Show Ratings
+* Show Star Rating pop‑up in Player
+* Product Terminology
+* Module Version Update
+* Retire (Course, Learning Path, or Certification)
+* Auto Retire (Course, Learning Path, or Certification)
+* Show all enrolled Course in search results
+* Skills import
+* Gradebook (Learner visibility)
+* Auto-purge Deleted Users
+* Credits
+* Alternate Courses/Paths
+* External learning
+
+**Integrations**
+
+* Login Methods (Internal and External)
+* Single Sign‑On (SSO) Configuration
+* Data Sources — (Sources + Sync Settings)
+* Add Peer Information
+
+**Advanced**
+
+* Catalog Labels → All Catalog Labels
+* Catalog Labels → Settings (value access)
+* Content Folder
+* Classroom Locations → list and editor
+* Classroom Locations → Author privileges (settings)
+* Classroom Locations → Bulk import
+* Classroom Locations → Location format migration
+* Holiday Calendar
+* Reports — Settings (Compliance & Group Success dashboards)
+
 The report is additive-only: new change records are added over time, and previously recorded entries are never removed. This lets you review the full history of a setting across multiple changes, not just its current value.
 
-The report is available to any user with Report privileges. This includes full Administrators and custom Administrators who have been granted Report access, not only account owners.
+The report is available to any user with Report privileges. This includes full Administrators and Custom Administrators who have been granted Report access, not only account owners.
 
 ### Records and changes {#recordschanges}
 
