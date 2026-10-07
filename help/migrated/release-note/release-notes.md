@@ -34,7 +34,7 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 **Mobile device:** The above enhancements have been included for the mobile device as well.
 
-## Bug fixes
+## Bugs fixed
 
 **Go1 course completion:** Learners experienced issues with course completion and progress tracking for Go1 courses, where progress could be lost or course completion was not synced to ALM. This issue has been fixed, and the Go1–ALM integration now syncs course progress and completion accurately in ALM as expected.
 
