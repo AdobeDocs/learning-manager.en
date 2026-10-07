@@ -2,6 +2,9 @@
 description: Learn how to publish a finished Content Composer course to the Adobe Learning Manager Content Library, including how to set the project name, add a description, and send the course as a module ready for assignment..
 jcr-language: en_us
 title: Publish to Adobe Learning Manager
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Publish a course from Content Composer to Adobe Learning Manager 

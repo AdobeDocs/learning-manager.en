@@ -1,6 +1,9 @@
 ---
 title: About polls in Live Hub
 description: Learn how the Poll feature lets Instructors create and launch polls, and Learners respond in real time, during a Live Hub session.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # About the polls

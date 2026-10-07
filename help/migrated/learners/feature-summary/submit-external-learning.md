@@ -3,6 +3,9 @@ jcr-language: en_us
 title: Submit external learning in Adobe Learning Manager
 description: Use external learning to record training you complete outside Adobe Learning Manager, such as workshops, seminars, certifications, or online courses. After you submit the details for manager review, approved activities are added to your Learner Transcript.
 contentowner: saghosh
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Submit external learning as a learner

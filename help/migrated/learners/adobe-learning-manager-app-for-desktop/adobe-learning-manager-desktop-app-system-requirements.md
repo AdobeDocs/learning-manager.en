@@ -4,6 +4,9 @@ title: System requirements | Adobe Learning Manager desktop application
 description: System requirements for Adobe Learning Manager desktop application
 contentowner: kuppan
 exl-id: 31455c7e-f642-451b-968a-8a6f75131fda
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # System requirements for Adobe Learning Manager desktop application
 

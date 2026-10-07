@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Catalogs
 contentowner: manochan
 exl-id: 35ff170f-fee6-4d28-8238-1a53568d99b3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Catalogs
 

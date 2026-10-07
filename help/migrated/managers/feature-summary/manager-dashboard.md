@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Manager dashboard
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Manager dashboard
 

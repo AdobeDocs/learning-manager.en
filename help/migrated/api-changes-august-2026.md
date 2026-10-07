@@ -2,6 +2,9 @@
 description: API changes in ALM
 jcr-language: en_us
 title: API changes in the August 2026 release of Adobe Learning Manager
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # API changes in the August 2026 release of Adobe Learning Manager

@@ -3,6 +3,9 @@ description: The AI Assistant (Beta) for learners is a GenAI‑powered chat comp
 jcr-language: en_us
 title: AI Assistant for learners in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # AI Assistant for learners
 

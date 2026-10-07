@@ -3,6 +3,9 @@ jcr-language: en_us
 title: How to submit a support ticket on experience league
 description: Learn how to submit a support request on Experience League
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # How to submit a support ticket on Experience League
 

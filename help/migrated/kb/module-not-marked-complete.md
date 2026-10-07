@@ -4,6 +4,9 @@ title: Module is marked incomplete on course completion in Adobe Learning Manage
 description: Even after a learner completes a course in Adobe Learning Manager, the module is marked as incomplete.
 contentowner: nluke
 exl-id: c0f14f2e-733a-4b4f-a2c2-4c0b33a15fa1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Module is marked incomplete on course completion in Adobe Learning Manager
 

@@ -4,6 +4,9 @@ title: Embedded Player interaction API documentation
 description: Learn about various APIs to listen to events and trigger actions in the embedded player of Adobe Learning Manager
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Embedded Player interaction API documentation
 

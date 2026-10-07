@@ -3,6 +3,9 @@ description: Custom FTP connector in Adobe Learning Manager
 jcr-language: en_us
 title: Custom FTP connector
 contentowner: mmanuel
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Custom FTP connector in Adobe Learning Manager

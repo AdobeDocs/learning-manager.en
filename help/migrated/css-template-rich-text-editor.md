@@ -4,6 +4,9 @@ title: CSS template for Rich Text Editor
 description: CSS template for Rich Text Editor
 contentowner: saghosh
 preview: true
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 

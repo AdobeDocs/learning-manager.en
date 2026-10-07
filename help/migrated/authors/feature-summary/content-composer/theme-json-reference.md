@@ -2,6 +2,9 @@
 description: A complete reference for every property in the Content Composer theme JSON schema — including palette tokens, font stacks, radius and spacing tokens, text role values, component properties, and assessment styling.
 jcr-language: en_us
 title: Adobe Learning Manager Content Composer theme JSON property reference
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Adobe Learning Manager Content Composer theme JSON property reference

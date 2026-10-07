@@ -1,6 +1,9 @@
 ---
 title: Create and launch a poll in Live Hub
 description: Learn how to create polls manually or with AI, launch them during a Live Hub session, monitor responses, and share results with Learners.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Create and launch a poll

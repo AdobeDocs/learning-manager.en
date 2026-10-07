@@ -2,6 +2,9 @@
 description: Learn the difference between completion criteria and success criteria in Content Composer, how to configure each, and why the distinction matters for accurate learner tracking and reporting in Adobe Learning Manager.
 jcr-language: en_us
 title: Set completion and success criteria
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Set Completion and Success criteria

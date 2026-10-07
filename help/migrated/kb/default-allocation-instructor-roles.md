@@ -5,6 +5,9 @@ description: Default allocation of instructor roles to user groups in Learning M
 contentowner: nluke
 preview: true
 exl-id: a2ceeae5-7ad6-4910-94b5-9ef455129566
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Default allocation of instructor roles to user groups in Learning Manager 
 

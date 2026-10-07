@@ -5,6 +5,9 @@ description: Learning Manager is a Learning Management System (LMS) that allows 
 contentowner: shhivkum
 preview: true
 exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Learning Manager Deployment Guide
 

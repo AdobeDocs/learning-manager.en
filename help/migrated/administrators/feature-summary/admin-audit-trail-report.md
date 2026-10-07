@@ -3,6 +3,9 @@ description: Learn how the Administrator Audit Trail Report tracks configuration
 jcr-language: en_us
 title: Administrator Audit Trail Report
 exl-id: 71b2ee42-ef1c-47fb-95ad-c339562e227d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Administrator Audit Trail Report {#adminaudittrailreport}

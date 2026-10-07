@@ -2,6 +2,9 @@
 description: Content Composer does not support branching paths, simulation-based content, or advanced interactivity. It produces linear courses. For complex scenarios, use Adobe Captivate alongside Content Composer.
 jcr-language: en_us
 title: What Content Composer is not
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # What Adobe Learning Manager Content Composer is not

@@ -4,6 +4,9 @@ title: Catalog labels
 description: Catalog labels allow you to tag learning objects with specific fields and apply one or multiple values. If enabled, Administrators and Authors can set Catalog Labels and values and link them to learning objects.
 contentowner: dvenkate
 exl-id: 966d163d-7878-44f4-afdc-38eb95996229
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Catalog labels
 

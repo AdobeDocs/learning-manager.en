@@ -4,6 +4,9 @@ title: Learner home page
 description: After the Administrator enables Immersive layout, the learner, after signing into the app, is greeted with a completely revamped User Interface.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Learner home page
 

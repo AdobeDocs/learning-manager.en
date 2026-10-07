@@ -4,6 +4,9 @@ title: AI-based recommendation
 description: Learning Manager includes a brand-new learner homepage, which is modern, more content-driven, and personalized according to a learner's preferences. AI-based learning recommendations aim to enhance learner engagement and identify and address gaps in learning.
 contentowner: saghosh
 exl-id: 41d6576a-1b5e-40e2-9ab3-ffff5ebfb372
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # AI-based recommendation
 

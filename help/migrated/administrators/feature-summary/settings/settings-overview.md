@@ -3,6 +3,9 @@ description: Learn about the administrator settings you can configure in Adobe L
 jcr-language: en_us
 title: Settings overview
 exl-id: b52f3f51-e119-42f5-a105-49f74092ffb6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Settings
 

@@ -3,6 +3,9 @@ description: Learn how to integrate Workday connector with Adobe Learning Manage
 jcr-language: en_us
 title: Workday connector
 contentowner: mmanuel
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Workday connector in Adobe Learning Manager

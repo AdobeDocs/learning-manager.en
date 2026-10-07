@@ -1,6 +1,9 @@
 ---
 title: Participate as a Learner in a Live Hub session
 description: Learn how Learners join a Live Hub session, take part using chat, polls, quizzes, and breakout rooms, and review the recording afterward.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Participate as a Learner in a Live Hub session

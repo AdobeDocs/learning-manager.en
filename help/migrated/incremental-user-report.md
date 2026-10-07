@@ -2,6 +2,9 @@
 description: The Incremental User Report Job API lets administrators export only users whose data changed within a specified date range. This eliminates the need for full user exports and enables more efficient synchronization of new or updated user records.
 jcr-language: en_us
 title: Incremental User Report (Job API)
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Incremental User Report (Job API)

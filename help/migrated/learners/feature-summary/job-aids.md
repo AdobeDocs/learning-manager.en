@@ -3,6 +3,9 @@ description: Learn how to view and consume job aids in Learning Manager.
 jcr-language: en_us
 title: Job Aids
 exl-id: e7861820-40bc-4914-86e3-245f348253cb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Job Aids
 

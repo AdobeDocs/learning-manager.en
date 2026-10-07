@@ -4,6 +4,9 @@ title: Credly
 description: Learn about Credly integration with ALM to manage and share external badges from the platform across various social media channels
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Credly
 

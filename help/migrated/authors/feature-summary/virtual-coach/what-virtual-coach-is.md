@@ -3,6 +3,9 @@ description: Learn what Virtual Coach is, how it works, who uses it, and why it 
 jcr-language: en_us
 title: What Virtual Coach is
 exl-id: f876ff9a-69d0-4317-883e-5d4a947aba29
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # What Virtual Coach is

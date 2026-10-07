@@ -2,6 +2,9 @@
 description: All about enabling the Gradebook and making it visible to authors and learners
 jcr-language: en_us
 title: Gradebook for admin
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Enable gradebook visibility for your account

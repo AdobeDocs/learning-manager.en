@@ -2,6 +2,9 @@
 description: Learn how Content Composer handles authoring and Adobe Learning Manager handles delivery, tracking, and reporting after publishing.
 jcr-language: en_us
 title: How Content Composer and Adobe Learning Manager work together
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # How Adobe Learning Manager Content Composer and Adobe Learning Manager work together

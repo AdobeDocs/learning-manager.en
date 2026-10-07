@@ -3,6 +3,9 @@ description: Adobe Learning Manager supports multiple login methods through mult
 title: Multiple SSO logins
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Multiple SSO logins {#multiple-sso-logins}
 

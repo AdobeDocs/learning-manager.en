@@ -1,8 +1,11 @@
 ---
 jcr-language: en_us
 title: Build a custom report in Report Builder
-description: Build a fully custom report in Adobe Learning Manager Report Builder by selecting your own columns, filters, group by settings, and sorting from a blank canvas. 
+description: Build a fully custom report in Adobe Learning Manager Report Builder by selecting your own columns, filters, group by settings, and sorting from a blank canvas.
 contentowner: mmanuel
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Build a custom report in Report Builder

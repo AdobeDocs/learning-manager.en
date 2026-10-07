@@ -1,6 +1,9 @@
 ---
 title: Create and manage a quiz in Live Hub
 description: Learn how Instructors create, edit, launch, and manage multi-question quizzes with scoring in a Live Hub session, and share results with learners.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Create and manage a quiz

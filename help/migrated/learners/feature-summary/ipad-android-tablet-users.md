@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Learner App for mobiles and tablets
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Learner App for mobiles and tablets
 

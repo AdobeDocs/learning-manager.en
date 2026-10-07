@@ -1,6 +1,9 @@
 ---
 title: About the Chat panel in Live Hub
 description: Learn how the Chat panel enables real-time, structured communication between Instructors and Learners during a Live Hub session.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # About the Chat panel

@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Create course instances and learning paths
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Create course instances and learning paths
 

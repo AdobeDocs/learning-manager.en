@@ -4,6 +4,9 @@ title: User log in
 description: User log in for Adobe Learning Manager
 contentowner: manochan
 exl-id: c293c8b1-2a25-4b55-8715-43797049e17e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # User log in
 

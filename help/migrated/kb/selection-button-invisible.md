@@ -4,6 +4,9 @@ title: Selection buttons do not appear in Learning Manager
 description: Due to missing radio buttons, an Administrator  cannot ssign or remove roles, send a welcome mail, or delete a user.
 contentowner: nluke
 exl-id: d2c86f9f-3e79-4f1f-992e-f92873940061
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Selection buttons do not appear in Learning Manager
 

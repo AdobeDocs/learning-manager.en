@@ -3,6 +3,9 @@ description: Learn more about how Basic settings help you tailor Adobe Learning 
 jcr-language: en_us
 title: Basic settings
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Basic settings in Adobe Learning Manager 
 

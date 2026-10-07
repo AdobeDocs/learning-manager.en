@@ -2,6 +2,9 @@
 description: Learn what you need before starting Content Composer- a Creative Cloud account, Google Chrome, and optional source documents to guide the AI.
 jcr-language: en_us
 title: What you need before you start
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Before you start

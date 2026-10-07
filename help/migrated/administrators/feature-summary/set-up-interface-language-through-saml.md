@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Set up interface language through SAML
 contentowner: chandrum
 exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Set up interface language through SAML
 

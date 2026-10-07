@@ -3,6 +3,9 @@ description: Learn which app surfaces support new Adobe Learning Manager feature
 jcr-language: en_us
 title: Feature availability in Aug 2026 release of Adobe Learning Manager
 exl-id: e134937c-630d-4285-9181-2eca114717f6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Feature availability in Aug 2026 release of Adobe Learning Manager

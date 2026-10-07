@@ -3,6 +3,9 @@ description: Learn more about how Integration settings connect Adobe Learning Ma
 jcr-language: en_us
 title: Integration settings in Adobe Learning Manager
 exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Integration settings in Adobe Learning Manager
 

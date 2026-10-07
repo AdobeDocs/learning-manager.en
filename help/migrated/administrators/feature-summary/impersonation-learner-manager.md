@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Impersonation of Learner and Manager
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Impersonation of Learner and Manager {#impersonation-of-learner-and-manager}
 

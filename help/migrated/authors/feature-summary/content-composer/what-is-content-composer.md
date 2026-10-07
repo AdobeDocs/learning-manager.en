@@ -2,6 +2,9 @@
 description: Adobe Learning Manager Content Composer is an AI course authoring tool that turns a plain-language prompt into a structured, publish-ready course, including lessons, assessments, and media, without prior instructional design experience.
 jcr-language: en_us
 title: What is Content Composer
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # What is Adobe Learning Manager Content Composer

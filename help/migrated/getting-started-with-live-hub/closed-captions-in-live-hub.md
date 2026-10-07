@@ -1,6 +1,9 @@
 ---
 title: Closed captions in Live Hub sessions
 description: Learn how closed captions display spoken content in real time so Instructors and Learners can follow along during Live Hub sessions.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 Closed captions transcribe spoken content in real time during a Live Hub session. Participants see the spoken text on screen as the conversation happens. Captions are useful when audio is unclear, for example, in noisy environments or when participants prefer to read along. Closed captions are especially useful in situations where audio is unclear, such as in noisy environments or when participants prefer to read along with the discussion.

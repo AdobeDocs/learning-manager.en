@@ -4,6 +4,9 @@ title: Unable to view certain courses under catalog while creating a Certificati
 description: While searching for a particular course to add it to a Certification, you are unable to view the course under the catalog.
 contentowner: saghosh
 exl-id: 5f2095ee-2b7b-4638-95fb-e81b7f9be96e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Unable to view certain courses under catalog while creating a Certification
 

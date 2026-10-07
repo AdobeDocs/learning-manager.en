@@ -4,6 +4,9 @@ jcr-language: en_us
 title: User log in
 contentowner: manochan
 exl-id: 6e0c00fd-7964-43d9-ba95-3617dbc14f0f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # User log in
 

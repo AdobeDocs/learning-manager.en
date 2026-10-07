@@ -1,6 +1,9 @@
 ---
 title: Manage closed captions as an Instructor in Live Hub
 description: Learn how Instructors enable, display, and customize the font size and caption style of closed captions during a Live Hub session.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Manage closed captions as an Instructor

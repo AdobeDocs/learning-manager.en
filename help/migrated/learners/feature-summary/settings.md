@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Profile Settings
 contentowner: manochan
 exl-id: 232f46c7-f9b4-430d-aa3e-e8a5d38390f4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Profile Settings
 

@@ -3,6 +3,9 @@ description: Learn how Learning Manager admins activate Virtual Coach, monitor M
 jcr-language: en_us
 title: Manage Virtual Coach usage and billing
 exl-id: 1f8f6465-51c3-4670-a1c7-9a7dfb091452
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Manage Virtual Coach usage and billing

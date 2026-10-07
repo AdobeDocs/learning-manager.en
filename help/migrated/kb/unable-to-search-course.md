@@ -4,6 +4,9 @@ title: Unable to search a course in Learning Manager
 description: A learner is unable to search a course in Learning Manager.
 contentowner: nluke
 exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Unable to search a course in Learning Manager
 

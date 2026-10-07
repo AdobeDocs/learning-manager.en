@@ -2,6 +2,9 @@
 description: Learn how to edit quiz questions in Content Composer — change correct answers, assign scores, delete questions, or ask AI to regenerate them.
 jcr-language: en_us
 title: Review and edit the quiz
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Review and edit the quiz

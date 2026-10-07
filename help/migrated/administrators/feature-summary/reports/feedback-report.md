@@ -3,6 +3,9 @@ description: Learn how to access, download, and interpret the Feedback Report in
 jcr-language: en_us
 title: Feedback Report in Adobe Learning Manager
 exl-id: 6a54b5eb-f79d-406f-8125-1f18fdc0cbd3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Feedback report
 

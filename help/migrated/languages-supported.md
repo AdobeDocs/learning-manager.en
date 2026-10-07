@@ -3,6 +3,9 @@ jcr-language: en_us
 title: Supported languages in Adobe Learning Manager
 description: Explore the interface and content languages supported in Adobe Learning Manager (ALM)
 exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Supported languages in Adobe Learning Manager
 

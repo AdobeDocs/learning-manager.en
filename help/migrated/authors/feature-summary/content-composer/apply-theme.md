@@ -2,6 +2,9 @@
 description: Learn how to apply a course theme in Content Composer. Browse default and custom themes, search by name, and apply course-wide instantly.
 jcr-language: en_us
 title: Apply a theme
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Apply a theme

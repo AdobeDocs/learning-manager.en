@@ -3,6 +3,9 @@ jcr-language: en_us
 title: Announcements
 description: An announcement is a multimedia message (text, image or video) that an Administrator broadcasts to a defined set of users.
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Announcements
 

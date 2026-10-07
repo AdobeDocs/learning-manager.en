@@ -3,6 +3,9 @@ description: Learn how to design realistic, measurable role-plays for Virtual Co
 jcr-language: en_us
 title: Design a role-play
 exl-id: a9eb5303-df1f-4f1d-9e21-0cf3eff5f199
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 *A design guide for authoring Virtual Coach role-plays in Adobe Learning Manager*

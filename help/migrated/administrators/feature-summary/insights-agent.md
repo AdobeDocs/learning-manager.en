@@ -2,6 +2,9 @@
 description: Insights Agent is an AI-powered feature in Adobe Learning Manager that lets administrators query learner data using natural language.
 jcr-language: en_us
 title: Insights Agent (beta) in Adobe Learning Manager
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # What is Insights Agent?

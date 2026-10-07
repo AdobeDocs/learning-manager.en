@@ -5,6 +5,9 @@ description: Email links triggered from modified templates throw an error in Ado
 contentowner: nluke
 preview: true
 exl-id: a8fa64e1-aeab-4cb5-9bb0-7cfdad0aa389
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Email links triggered from modified templates throw an error in Learning Manager
 
