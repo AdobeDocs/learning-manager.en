@@ -3,6 +3,9 @@ jcr-language: en_us
 title: Integrate Adobe Learning Manager with AEM
 description: Learn to integrate Adobe Learning Manager with Adobe Experience Manager (AEM)
 contentowner: saghosh
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 

@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Creating, modifying, and publishing courses
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Creating, modify, and publish courses
 

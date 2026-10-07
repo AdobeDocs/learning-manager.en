@@ -3,6 +3,9 @@ description: Learn about the non-logged-in APIs to develop the headless interfac
 jcr-language: en_us
 title: Non-logged-in APIs
 exl-id: 12419c9a-3864-404c-8b32-922429d68ffb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Non-logged-in APIs
 

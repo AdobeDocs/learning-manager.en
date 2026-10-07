@@ -3,7 +3,9 @@ description: Learn how to save or unsave courses, learning paths, certifications
 jcr-language: en_us
 title: Saved by me widget
 exl-id: 123ff7ab-bdb5-495d-8254-67701e7be3eb
-
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 ## The Saved by me widget

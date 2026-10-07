@@ -2,6 +2,9 @@
 description: Learn how to view and manage comments in the Content Composer Comments panel, including how to reply, resolve, mention a reviewer using @, filter by reviewer, time, or status, and mark comments as resolved.
 jcr-language: en_us
 title: Manage and respond to comments
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Manage and respond to comments

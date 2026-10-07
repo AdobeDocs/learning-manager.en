@@ -4,6 +4,9 @@ title: Catalogs
 description: Catalogs are a collection of learning - Courses, Learning Programs, and Certifications. Use Catalogs to provide Learners with access to a customized set of learning. You can associate learning with a Catalog during the creation of a new Catalog.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Catalogs
 

@@ -2,6 +2,9 @@
 description: Set up weighted scoring for learners in Gradebook so that course completion can be tied to achieving a minimum score threshold.
 jcr-language: en_us
 title: Gradebook for authors
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Gradebook for authors

@@ -4,6 +4,9 @@ title: Settings
 description: View your profile information, add/change profile photo, and modify About me content.
 contentowner: manochan
 exl-id: 30a571de-22fc-4ce7-99c0-08e17665c340
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Settings
 

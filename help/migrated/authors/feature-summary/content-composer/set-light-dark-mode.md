@@ -2,6 +2,9 @@
 description: Learn how to switch between light mode and dark mode in Content Composer using the toolbar toggle, and how the canvas updates automatically to reflect the selected mode.
 jcr-language: en_us
 title: Set light mode or dark mode
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Set light mode or dark mode for the course

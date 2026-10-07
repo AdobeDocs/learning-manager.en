@@ -2,6 +2,9 @@
 description: Learn how to open and review a Content Composer course shared for feedback, including how to navigate the course, add comments, reply to other reviewers, and tag other reviewers.
 jcr-language: en_us
 title: Review the shared project
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Review and comment on a shared project

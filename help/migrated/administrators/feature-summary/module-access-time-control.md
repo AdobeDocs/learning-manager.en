@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Module access time control
 contentowner: mmanuel
 exl-id: b99b1c98-57a0-4201-bf1f-f85bacb0d00e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Module access time control
 

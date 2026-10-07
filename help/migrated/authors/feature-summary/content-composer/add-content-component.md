@@ -2,6 +2,9 @@
 description: Learn how to add content blocks in Content Composer — Paragraph, Image, Video, Flip Card, Accordion, Timeline, Tab, Carousel, MCQ & True/False.
 jcr-language: en_us
 title: Add a content component
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Add a content component

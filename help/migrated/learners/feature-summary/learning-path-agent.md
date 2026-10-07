@@ -1,7 +1,10 @@
 ---
-description: The Learning Path agent in Adobe Learning Manager is an AI-powered assistant that generates a custom, sequenced learning plan based on your goals, background, and available time. 
+description: The Learning Path agent in Adobe Learning Manager is an AI-powered assistant that generates a custom, sequenced learning plan based on your goals, background, and available time.
 jcr-language: en_us
 title: Learning Path Agent (beta) in Adobe Learning Manager
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # What is Learning Path Agent

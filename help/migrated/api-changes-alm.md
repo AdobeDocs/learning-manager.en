@@ -3,6 +3,9 @@ description: API changes in ALM
 jcr-language: en_us
 title: API changes in April release
 exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # API changes in the April 2026 release
 

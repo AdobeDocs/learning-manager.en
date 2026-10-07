@@ -1,6 +1,9 @@
 ---
 title: Create and manage breakout sessions in Live Hub
 description: Learn how Instructors create, configure, start, monitor, and manage breakout rooms in a Live Hub session, including AI-generated room summaries and reports.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Create and manage breakout sessions

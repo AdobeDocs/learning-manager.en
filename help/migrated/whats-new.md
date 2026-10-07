@@ -3,6 +3,9 @@ description: Learn about the new features and enhancements in the August 2026 re
 jcr-language: en_us
 title: What's new in Adobe Learning Manager August 2026 release
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # What's new in the August 2026 release of Adobe Learning Manager
 

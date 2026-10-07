@@ -1,6 +1,9 @@
 ---
 title: Share your screen as a Learner in Live Hub
 description: Learn how Learners view shared content and share their own screen during a Live Hub session, when an Instructor allows it.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Share your screen as a Learner

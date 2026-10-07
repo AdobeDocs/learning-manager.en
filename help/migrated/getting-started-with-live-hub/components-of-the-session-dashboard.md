@@ -1,6 +1,9 @@
 ---
 title: Components of the Session dashboard in Live Hub
 description: Learn about the Session dashboard sections in Live Hub, including summaries, recordings, interactions, breakouts, participant activity, and reports.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Components of the Session dashboard

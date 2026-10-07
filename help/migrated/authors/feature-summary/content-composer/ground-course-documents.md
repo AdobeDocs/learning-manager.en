@@ -2,6 +2,9 @@
 description: Learn how to ground Content Composer courses in your own documents by restricting AI output to your policies, procedures, or decks only.
 jcr-language: en_us
 title: Ground your course in your own documents
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Ground your course in your own documents

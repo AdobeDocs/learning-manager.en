@@ -5,6 +5,9 @@ description: Frequently Asked Questions for Learners of Adobe Learning Manager
 contentowner: admin
 preview: true
 exl-id: 1c7ddf64-a6c3-4082-a20c-068e4a441b7b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Frequently Asked Questions for Learners
 

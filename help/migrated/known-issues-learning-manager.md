@@ -4,6 +4,9 @@ title: Known issues in Learning Manager
 description: The following are a compilation of known issues for each update of Learning Manager. The list is cumulative and contains known issues of previous updates.
 contentowner: saghosh
 preview: true
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 

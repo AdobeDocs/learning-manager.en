@@ -3,6 +3,9 @@ jcr-language: en_us
 title: Adaptive courses for learners
 description: Consume adaptive courses that cater to specific requirements of your user group.
 hide: true
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Adaptive courses for learners 

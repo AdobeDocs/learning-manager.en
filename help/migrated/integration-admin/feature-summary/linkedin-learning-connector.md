@@ -3,6 +3,9 @@ description: Learn how to integrate LinkedIn Learning connector with Adobe Learn
 jcr-language: en_us
 title: LinkedIn Learning connector
 contentowner: mmanuel
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # LinkedIn Learning connector in Adobe Learning Manager

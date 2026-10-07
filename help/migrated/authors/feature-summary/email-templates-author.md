@@ -3,6 +3,9 @@ description: Read this article to know how to configure email templates for even
 jcr-language: en_us
 title: Email templates
 exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Email templates
 

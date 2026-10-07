@@ -3,6 +3,9 @@ description: Learn how administrators can generate and download Virtual Coach re
 jcr-language: en_us
 title: Virtual Coach report
 exl-id: e4379c57-5fcd-4165-831c-e9c9e96fe93e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Virtual Coach reports

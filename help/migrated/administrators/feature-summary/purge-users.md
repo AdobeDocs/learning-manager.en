@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Purge users
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Purge users
 

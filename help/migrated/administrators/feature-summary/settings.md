@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Settings
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Settings
 

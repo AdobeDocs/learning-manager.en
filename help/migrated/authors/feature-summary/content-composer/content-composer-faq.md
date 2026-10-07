@@ -2,6 +2,9 @@
 description: Find answers to common Content Composer questions on outline editing, quiz behavior, Captivate compatibility, publishing, and Share for Review.
 jcr-language: en_us
 title: Adobe Learning Manager Content Composer FAQ
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Adobe Learning Manager Content Composer FAQ

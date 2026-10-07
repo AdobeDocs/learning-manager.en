@@ -4,6 +4,9 @@ title: Okta Active Directory integration with Adobe Learning Manager
 description: Okta Active Directory integration with Adobe Learning Manager
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Okta Active Directory integration with Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 

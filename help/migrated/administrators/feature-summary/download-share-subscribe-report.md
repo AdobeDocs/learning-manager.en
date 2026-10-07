@@ -1,8 +1,11 @@
 ---
 jcr-language: en_us
 title: Available datasets in Report Builder
-description: Generate, share with other administrators, and schedule delivery for reports in Adobe Learning Manager Report Builder. 
+description: Generate, share with other administrators, and schedule delivery for reports in Adobe Learning Manager Report Builder.
 contentowner: mmanuel
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Download, share, and subscribe to a report

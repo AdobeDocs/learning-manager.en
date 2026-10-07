@@ -1,8 +1,11 @@
 ---
 title: What's new in this release (July 2023)
 description: Learn about the new features and enhancements in Adobe Learning Manager
-hidefromtoc: yes
+hidefromtoc: 'yes'
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # What's new in this release (July 2023)
 

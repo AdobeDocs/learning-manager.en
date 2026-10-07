@@ -3,6 +3,9 @@ description: Learn how to use Active Fields in Adobe Learning Manager to capture
 jcr-language: en_us
 title: Configure Active Fields in Adobe Learning Manager
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Active fields
 

@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Troubleshooting issues with Adobe Learning Manager desktop app
 contentowner: kuppan
 exl-id: 68d40a52-e048-43af-a7aa-917b569b583d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Troubleshooting issues with Adobe Learning Manager desktop app
 

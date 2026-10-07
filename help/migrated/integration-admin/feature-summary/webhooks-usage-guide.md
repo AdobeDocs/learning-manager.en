@@ -4,6 +4,9 @@ title: Webhooks usage guide
 description: Learn about Webhooks usage, best practices and limitations
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Webhooks usage guide
 

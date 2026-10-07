@@ -3,6 +3,9 @@ jcr-language: en_us
 title: Admin AI Assistant (Beta) in Adobe Learning Manager
 description: Learn more about the Adobe Learning Manager Admin AI Assistant (Beta)
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Admin AI Assistant (Beta) in Adobe Learning Manager
 

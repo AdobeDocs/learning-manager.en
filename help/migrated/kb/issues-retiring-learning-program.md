@@ -4,6 +4,9 @@ title: Issues with retiring a Learning Program
 description: Issues with retiring a Learning Program in Adobe Learning Manager
 contentowner: nluke
 exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Issues with retiring a Learning Program
 

@@ -2,6 +2,9 @@
 description: Go from a plain-language prompt to a fully structured, editable course using Content Composer's AI-guided workflow.
 jcr-language: en_us
 title: Write a prompt to generate a course
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Write a prompt

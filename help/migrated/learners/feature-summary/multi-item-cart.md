@@ -3,6 +3,9 @@ description: Learn how to use the new cart support in ALM to buy multiple SKUs.
 jcr-language: en_us
 title: Multi-item cart in ALM
 exl-id: 471b956b-dbeb-4e73-b009-fb217812ce12
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Multi-item cart in ALM
 

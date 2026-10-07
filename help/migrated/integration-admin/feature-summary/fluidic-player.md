@@ -5,6 +5,9 @@ title: Embeddable fluidic player
 contentowner: dvenkate
 preview: true
 exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Embeddable fluidic player
 

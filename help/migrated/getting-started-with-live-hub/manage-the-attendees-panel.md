@@ -1,6 +1,9 @@
 ---
 title: Manage the Attendees panel in Live Hub
 description: Learn how Instructors view the Attendees panel, configure attendee settings, and manage individual learners during a Live Hub session.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Manage the Attendees panel

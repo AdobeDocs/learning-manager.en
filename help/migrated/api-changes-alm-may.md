@@ -2,6 +2,9 @@
 description: API changes in ALM
 jcr-language: en_us
 title: API changes in the May 2026 patch release
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # API changes in the May 2026 patch release

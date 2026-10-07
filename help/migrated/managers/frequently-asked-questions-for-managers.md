@@ -4,6 +4,9 @@ title: Frequently Asked Questions for Managers
 description: Frequently Asked Questions for Adobe Learning Manager Managers
 contentowner: admin
 exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Frequently Asked Questions for Managers
 

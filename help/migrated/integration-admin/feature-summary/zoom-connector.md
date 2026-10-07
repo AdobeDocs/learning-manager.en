@@ -3,6 +3,9 @@ description: Learn how to integrate Zoom connector with Adobe Learning Manager
 jcr-language: en_us
 title: Zoom connector
 contentowner: mmanuel
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Zoom connector in Adobe Learning Manager

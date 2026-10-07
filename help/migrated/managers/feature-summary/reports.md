@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Reports
 contentowner: manochan
 exl-id: 5a59b56c-111b-46e4-95e5-60cc3af75c4d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Reports
 

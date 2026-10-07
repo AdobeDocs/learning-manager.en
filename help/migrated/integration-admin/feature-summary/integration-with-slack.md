@@ -3,6 +3,9 @@ jcr-language: en_us
 title: Learning Manager integration with Slack
 description: Learning Manager integration with Slack
 contentowner: dvenkate
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 

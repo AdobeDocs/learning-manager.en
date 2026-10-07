@@ -3,6 +3,9 @@ description: Learn about Learner Transcripts
 jcr-language: en_us
 title: Changes to Learner Transcripts
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Changes to Learner Transcripts in the April release
 

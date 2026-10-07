@@ -5,6 +5,9 @@ title: Welcome to Adobe Learning Manager documentation
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a21112
 contentowner: saghosh
 hide: true
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Adobe Learning Manager documentation

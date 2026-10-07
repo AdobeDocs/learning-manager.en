@@ -4,6 +4,9 @@ title: Import skills from external sources
 description: Import Skills from content providers, such as LinkedIn and Go1, by using the respective connectors.  The imported skills will be added to the admin defined skills in Learning Manager and will be available to Authors during the course creation workflow.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Import skills from external sources
 

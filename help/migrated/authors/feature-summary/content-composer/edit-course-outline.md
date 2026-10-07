@@ -2,6 +2,9 @@
 description: Learn how to edit a Content Composer course outline — rename, add, remove, split, or merge lessons and topics through the chat panel.
 jcr-language: en_us
 title: Edit the course outline
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Edit the course outline

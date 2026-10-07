@@ -2,6 +2,9 @@
 description: Learn how to embed the Learner Assistant in your app using an iframe, including setup, configuration, and event handling
 jcr-language: en_us
 title: Integrate Learner Assistant by embedding iFrame
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Learner Assistant embedding using an iframe

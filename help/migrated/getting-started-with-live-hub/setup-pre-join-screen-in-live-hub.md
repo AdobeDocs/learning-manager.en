@@ -1,6 +1,9 @@
 ---
 title: Set up the pre-join screen in Live Hub (Beta)
 description: Learn how the Live Hub pre-join screen works, how to allow browser permissions, and how to configure audio and camera controls before joining a session.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Set up the pre-join screen

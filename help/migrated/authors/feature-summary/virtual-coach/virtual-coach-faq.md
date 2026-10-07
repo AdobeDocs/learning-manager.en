@@ -3,6 +3,9 @@ description: Find answers to common questions about Virtual Coach authoring, lic
 jcr-language: en_us
 title: Virtual Coach FAQ
 exl-id: b8955b04-4655-413a-b570-a05b1f76285c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Virtual Coach FAQ

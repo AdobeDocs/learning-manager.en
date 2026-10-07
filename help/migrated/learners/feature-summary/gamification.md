@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Gamification
 

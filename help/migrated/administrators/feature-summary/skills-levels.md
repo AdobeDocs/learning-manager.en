@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Create and modify skills and levels
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Create and modify skills and levels
 

@@ -1,6 +1,9 @@
 ---
 title: Join a Live Hub (Beta) session as an Instructor
 description: Learn how Instructors join a Live Hub session before the scheduled start time to prepare the room and configure settings before Learners arrive.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Join a Live Hub (Beta) session as an Instructor

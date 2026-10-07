@@ -2,6 +2,9 @@
 description: Content Composer is designed for authors, L&D administrators, and managers who need to create structured courses quickly, whether working from existing documents, converting subject-matter expertise, or refining AI-generated content for a specific audience.
 jcr-language: en_us
 title: Who Content Composer is for
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Who Adobe Learning Manager Content Composer is for

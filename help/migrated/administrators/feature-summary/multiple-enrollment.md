@@ -2,6 +2,9 @@
 title: Multiple enrollment in Adobe Learning Manager
 description: As an account Administrator, one of your primary duties is to create different instances of VILT sessions across different time zones, and possibly create sessions for specific user groups.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Multiple enrollment in Adobe Learning Manager
 

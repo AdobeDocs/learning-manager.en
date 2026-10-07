@@ -2,6 +2,9 @@
 description: Learn how to complete the Content Composer Brief stage — set your course title, define learners, and write an objective before generating an outline.
 jcr-language: en_us
 title: Complete the course brief
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Complete the course brief

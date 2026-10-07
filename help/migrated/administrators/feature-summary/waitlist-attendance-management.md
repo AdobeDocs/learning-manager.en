@@ -4,6 +4,9 @@ title: Waitlist & attendance management
 description: Administrators can manage attendance and waitlisting of courses for learners.
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Waitlist & attendance management
 

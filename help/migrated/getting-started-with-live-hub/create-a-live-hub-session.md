@@ -1,6 +1,9 @@
 ---
 title: Create a Live Hub (Beta) session
 description: Learn how to create a Live Hub course, add course instances, assign Instructors with Instructor Finder, enroll Learners, and customize room branding.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Create a Live Hub (Beta) session
