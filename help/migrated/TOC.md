@@ -285,7 +285,7 @@ nudge: true
    * [Log in](learners/feature-summary/user-login.md)
    * [Profile Settings](learners/feature-summary/settings.md)
    * [Catalogs](learners/feature-summary/catalogs.md)
-   * [Virtual Coach] {#virtualcoach}
+   * Virtual Coach {#virtualcoach}
       * [Practice a role play with Virtual Coach](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
       * [Understand your Virtual Coach performance report](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
    * [One-click enrollment](learners/feature-summary/learner-one-click-enrollment.md)
