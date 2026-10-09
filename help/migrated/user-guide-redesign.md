@@ -32,7 +32,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="Administrator">Administrator</a>
+                        <b><a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="Administrator">Administrator</a></b>
                     </p>
                     <p class="is-size-6">Configure accounts, users, access, and learning paths.</p>
                 </div>
@@ -55,7 +55,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="Author">Author</a>
+                        <b><a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="Author">Author</a></b>
                     </p>
                     <p class="is-size-6">Create courses, certifications, content, and learning paths.</p>
                 </div>
@@ -78,7 +78,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="Learner">Learner</a>
+                        <b><a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="Learner">Learner</a></b>
                     </p>
                     <p class="is-size-6">Discover, take, and track assigned learning.</p>
                 </div>
@@ -101,7 +101,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="Manager">Manager</a>
+                        <b><a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="Manager">Manager</a></b>
                     </p>
                     <p class="is-size-6">Assign learning and monitor team progress.</p>
                 </div>
@@ -124,7 +124,7 @@ Go directly to the workflows and concepts that match what you need to accomplish
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="Integration administrator">Integration administrator</a>
+                        <b><a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="Integration administrator">Integration administrator</a></b>
                     </p>
                     <p class="is-size-6">Connect systems, APIs, data, and workflows.</p>
                 </div>
@@ -146,10 +146,10 @@ Build the skills you need to configure and manage Adobe Learning Manager.
 <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="Course and content management" target="_blank" rel="referrer">
+                    <b><a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="Course and content management" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-course-new.png" alt="Course and content management"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
+                    </a></b>
                 </figure>
             </div>
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
@@ -295,12 +295,12 @@ Discover what's new, explore key features, and build your skills.
   <tr style="border: 0;">
    <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
    
-   <p><strong>Check what's new</strong>
+   <p><strong>What's new in Adobe Learning Manager</strong>
     </p>
-    <p>Explore the latest features<br>and release updates.</p>
+    <p>Explore the latest features and updates in Aug 2026 release.</p>
                 <p>
                     <strong>
-                        <a href="/help/migrated/whats-new.md">Learn more</a>
+                        <a href="/help/migrated/whats-new.md">Summary of new features</a>
                     </strong>
                 </p>
                 <p>
@@ -311,18 +311,17 @@ Discover what's new, explore key features, and build your skills.
 
    
    </td>
-   <td><img src="./help/assets/overview/explore-ai-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
+   <td><img src="./help/assets/overview/explore-ai-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>AI features</strong></p>
    
 <p>
-                    <strong>Insights Agent (Beta)</strong><br>
+                    <b>Insights Agent (Beta)</b><br>
                     <a href="/help/migrated/administrators/feature-summary/insights-agent.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">Launch course</a>
 </p>
 <p>
-                    <strong>Learning Path Agent (Beta)</strong><br>
+                    Learning Path Agent (Beta)<br>
                     <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">Launch course</a>
-
 </p>
-
 <p>
                     <strong>Live Hub (Beta)</strong><br>
                     <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">Launch course</a>
@@ -333,7 +332,9 @@ Discover what's new, explore key features, and build your skills.
                 
    
    </td>
-   <td><img src="./help/assets/overview/learning-experience-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
+   <td><img src="./help/assets/overview/learning-experience-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>Admin Tools</strong>
+    </p>
    <p>
                     <strong>Experience Builder</strong><br>
                     <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Launch course</a>
@@ -360,7 +361,7 @@ Discover how ALM can help you create, manage, and deliver engaging learning expe
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
-            Sign up
+            <strong>Sign up</strong>
         </span>
     </a>
 </div>
