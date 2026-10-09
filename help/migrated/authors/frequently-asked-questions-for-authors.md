@@ -4,6 +4,9 @@ title: Frequently Asked Questions for Authors
 description: Frequently Asked Questions for Adobe Learning Manager Authors
 contentowner: admin
 exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Frequently Asked Questions for Authors
 

@@ -1,6 +1,9 @@
 ---
 title: Role of Authors in Live Hub session
 description: Learn what an Author does in Adobe Learning Manager when creating, configuring, and publishing Virtual Classroom courses that use Live Hub for live, Instructor-led training.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Role of Authors in Live Hub session

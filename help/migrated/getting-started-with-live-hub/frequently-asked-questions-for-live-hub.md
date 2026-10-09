@@ -1,6 +1,9 @@
 ---
 title: Live Hub (Beta) Frequently asked qustions
 description: Frequently asked questions about Live Hub in Adobe Learning Manager, organized by role for Administrators, Authors, Instructors, and Learners.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Frequently Asked Questions for Live Hub (Beta)

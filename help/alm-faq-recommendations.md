@@ -2,6 +2,9 @@
 title: Adobe Learning Manager Administrative Account Lifecycle
 description: This document provides a comprehensive summary of Adobe Learning Manager's (ALM) security account management, configuration, and compliance features aligned with FedRAMP recommendations.
 jcr-language: en-us
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Adobe Learning Manager security recommendations

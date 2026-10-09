@@ -5,6 +5,9 @@ title: Set up users in Learning Manager
 contentowner: shhivkum
 preview: true
 exl-id: 9cf893a5-9282-40fa-a12a-1d7078f0b98a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Set up users in Learning Manager
 

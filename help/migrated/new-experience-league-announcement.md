@@ -3,6 +3,9 @@ jcr-language: en_us
 title: New experience league announcement
 description: Discover the latest announcements on Experience League.
 exl-id: 26f601cc-3197-4824-91dc-a0a42d1de935
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # New experience league announcements

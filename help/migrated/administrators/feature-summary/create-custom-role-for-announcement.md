@@ -3,6 +3,9 @@ title: Custom role with scoped announcement permissions
 jcr-language: en_us
 description: Learn how to create a custom role in Adobe Learning Manager that allows announcements only for selected catalogs and user groups.
 exl-id: e038033c-ce06-454a-922b-ba0b0c894ac0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Custom role with scoped announcement permissions
 

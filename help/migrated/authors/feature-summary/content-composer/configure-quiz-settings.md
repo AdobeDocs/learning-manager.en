@@ -2,6 +2,9 @@
 description: Learn how to configure quiz retries, time limits, question order, shuffling, and SCORM scoring settings in Content Composer.
 jcr-language: en_us
 title: Configure quiz settings
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Configure quiz settings

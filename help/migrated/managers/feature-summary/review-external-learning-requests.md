@@ -1,8 +1,11 @@
 ---
 jcr-language: en_us
 title: Submit external learning in Adobe Learning Manager
-description: Managers can review external learning requests submitted by their team members, verify the details and any proof of completion, and approve or reject each request with an optional comment. Approved submissions are added to the Learner Transcript. 
+description: Managers can review external learning requests submitted by their team members, verify the details and any proof of completion, and approve or reject each request with an optional comment. Approved submissions are added to the Learner Transcript.
 contentowner: saghosh
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Review external learning requests as a manager

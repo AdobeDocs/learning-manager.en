@@ -1,6 +1,9 @@
 ---
 title: About the Attendees panel in Live Hub
 description: Learn how the Attendees panel helps Instructors and Learners view participants, manage interactions, and track attendance in a Live Hub session.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # About the Attendees panel

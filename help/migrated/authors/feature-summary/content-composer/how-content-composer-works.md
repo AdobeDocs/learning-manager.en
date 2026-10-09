@@ -2,6 +2,9 @@
 description: Content Composer moves through four stages — Prompt, Brief, Outline, and Course. A conversational AI guides each stage, generating content you review and edit before publishing directly to Adobe Learning Manager.
 jcr-language: en_us
 title: How Content Composer works
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # How Content Composer works

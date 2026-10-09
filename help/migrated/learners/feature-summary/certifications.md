@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Certifications
 contentowner: manochan
 exl-id: e2869ee6-2c73-45c6-bb00-961e722367ff
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Certifications
 

@@ -1,6 +1,9 @@
 ---
 title: Understand recordings and transcripts in Live Hub
 description: Learn how Live Hub session recordings, AI-generated transcripts, topics, and summaries help Instructors and Learners extend learning beyond the live session.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Understand recordings and transcripts

@@ -1,6 +1,9 @@
 ---
 title: System requirements for Live Hub
 description: System requirements to configure and run Live Hub sessions in Adobe Learning Manager, including supported browsers, operating systems, screen resolutions, and hardware.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # System requirements

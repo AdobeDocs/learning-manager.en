@@ -3,6 +3,9 @@ description: Learn how to share a Content Composer project for review — invite
 jcr-language: en_us
 title: Share a project for review
 hide: true
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Share project for review

@@ -1,6 +1,9 @@
 ---
 title: Use the whiteboard as a Learner in Live Hub
 description: Learn how Learners draw, add shapes and text, and erase content on a shared whiteboard during a Live Hub session.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Use the whiteboard as a Learner

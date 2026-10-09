@@ -3,6 +3,9 @@ description: Learn more about configuring Advanced settings in Adobe Learning Ma
 jcr-language: en_us
 title: Advanced settings in Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Advanced settings in Adobe Learning Manager
 

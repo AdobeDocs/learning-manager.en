@@ -4,6 +4,9 @@ title: Learning Paths
 description: Creating Learning Plans for Administrators in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Learning Paths
 

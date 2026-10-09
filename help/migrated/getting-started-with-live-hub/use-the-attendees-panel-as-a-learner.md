@@ -1,6 +1,9 @@
 ---
 title: Use the Attendees panel as a Learner in Live Hub
 description: Learn how Learners open the Attendees panel and interact with other participants during a Live Hub session.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Use the Attendees panel as a Learner

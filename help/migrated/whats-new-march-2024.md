@@ -4,6 +4,9 @@ jcr-language: en_us
 title: New features summary
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # New features summary {#new-features-summary}
 

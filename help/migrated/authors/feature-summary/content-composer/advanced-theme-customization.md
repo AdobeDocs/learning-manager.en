@@ -2,6 +2,9 @@
 description: Learn how to use advanced theme properties in Content Composer to customize fonts, colors, spacing, and layout for headings and text elements.
 jcr-language: en_us
 title: Advanced theme customization
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Advanced theme customization in Content Composer

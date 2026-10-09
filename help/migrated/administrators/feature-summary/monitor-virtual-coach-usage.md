@@ -1,8 +1,11 @@
 ---
 jcr-language: en_us
-title: Monitor Virtual Coach usage 
+title: Monitor Virtual Coach usage
 description: Monitor how Virtual Coach is used by your account.
 contentowner: mmanuel
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Monitor Virtual Coach usage

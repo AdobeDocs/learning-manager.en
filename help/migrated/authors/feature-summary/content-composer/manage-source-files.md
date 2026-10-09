@@ -2,6 +2,9 @@
 description: Learn how to upload source files in Content Composer, restrict AI output to your content, and update source files when material changes.
 jcr-language: en_us
 title: Manage source files
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Manage source files

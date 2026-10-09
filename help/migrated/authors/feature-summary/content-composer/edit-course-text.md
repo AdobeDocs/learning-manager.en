@@ -2,6 +2,9 @@
 description: Learn how to edit course text in Content Composer using the inline formatting toolbar, and how to rename lessons and topics via the assistant.
 jcr-language: en_us
 title: Edit the course text
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Edit the course text

@@ -3,6 +3,9 @@ description: Learn how to download learner transcript based on users, learning o
 jcr-language: en_us
 title: Learner transcripts
 exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Learner transcripts
 

@@ -2,6 +2,9 @@
 description: Public, learner-facing API endpoints for listing, retrieving, enrolling in, and deleting Personalized Learning Paths in Adobe Learning Manager and API endpoints for checking whether one or more learning objects are directly accessible to a given learner through a catalog assigned to them.
 jcr-language: en_us
 title: API changes in Sep 2026
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # API changes in the September 2026 release of Adobe Learning Manager

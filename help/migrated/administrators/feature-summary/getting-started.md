@@ -4,6 +4,9 @@ title: Getting started as Administrator
 description: Use the getting started page to traverse through the key admin features of Adobe Learning Manager.
 contentowner: manochan
 exl-id: c1779a24-2236-41f4-99b0-a3529751a5c2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Getting started as Administrator
 

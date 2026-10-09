@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager desktop application
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Adobe Learning Manager desktop application
 

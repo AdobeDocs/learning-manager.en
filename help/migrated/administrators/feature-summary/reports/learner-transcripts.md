@@ -3,6 +3,9 @@ description: The Learner Transcripts in Adobe Learning Manager (ALM) allows admi
 jcr-language: en_us
 title: Learner Transcripts in Adobe Learning Manager
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Learner Transcripts in Adobe Learning Manager
 

@@ -1,6 +1,9 @@
 ---
 title: Participate in a breakout room as a learner
 description: Learn what to expect as a learner during a Live Hub breakout session, including joining your room, viewing instructions, collaborating with your group, asking your Instructor for help, and viewing your room summary.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Participate in a breakout session

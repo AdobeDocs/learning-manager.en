@@ -2,6 +2,10 @@
 description: The prompt is the most important input in Content Composer. A specific prompt, such as naming the audience, 2–3 topics, and a scope signal, produces a more accurate brief, a stronger outline, and less editing downstream.
 jcr-language: en_us
 title: Write effective prompts in Content Composer
+hide: true
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Write effective prompts in Content Composer

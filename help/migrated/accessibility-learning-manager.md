@@ -5,6 +5,9 @@ description: This document outlines the accessibility support provided by Learni
 contentowner: saghosh
 preview: true
 exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Accessibility in Adobe Learning Manager
 

@@ -4,6 +4,9 @@ jcr-language: en_us
 title: User notifications
 contentowner: manochan
 exl-id: 2c775635-1e86-4bef-9ca1-b56fbc353ea8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # User notifications
 

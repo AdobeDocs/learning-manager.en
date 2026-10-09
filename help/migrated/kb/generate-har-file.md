@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Generate a HAR file
 contentowner: dvenkate
 exl-id: 99fe78e8-b5e7-40a7-b9a5-efc2382de993
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Generate a HAR file
 

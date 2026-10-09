@@ -2,6 +2,9 @@
 title: Feature availability in FedRAMP-authorized environments
 description: This document provides insight into what features are not supported in a FedRAMP-authorized environment
 jcr-language: en-us
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Feature availability in FedRAMP-authorizerd environments

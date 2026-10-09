@@ -4,6 +4,9 @@ title: Unable to view file submissions in Adobe Learning Manager
 description: Instructors are unable to view files that learners have uploaded in the Submission Activity Module.
 contentowner: nluke
 exl-id: b4a0af25-14ae-46f1-9afd-0bf2aace7fe2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Unable to view file submissions in Adobe Learning Manager
 

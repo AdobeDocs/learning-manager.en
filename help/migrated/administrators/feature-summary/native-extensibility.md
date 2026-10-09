@@ -2,6 +2,9 @@
 title: Native extensibility
 description: Set up custom experiences within the native version of Adobe Learning Manager, allowing you not to use headless for less complicated cases.
 exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Native extensibility
 

@@ -4,6 +4,9 @@ title: Unable to view certain course under catalog while creating a Learning Pro
 description: While searching for a particular course to add it to a Learning Program, you are unable to view the course under the catalog.
 contentowner: saghosh
 exl-id: 5920b4e4-f552-4b89-9126-2f1bbf5c8e9b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Unable to view certain course under catalog while creating a Learning Program
 

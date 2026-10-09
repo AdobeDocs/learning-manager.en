@@ -2,6 +2,9 @@
 description: Learn how Content Composer handles course updates in Adobe Learning Manager- how republishing creates a new module version, and how ALM authors update existing courses to use the latest version.
 jcr-language: en_us
 title: Module versioning in Adobe Learning Manager
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Module versioning in Adobe Learning Manager

@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Add learning objects in different locales
 contentowner: shhivkum
 exl-id: 566ecf70-31ba-423d-a61f-1fe3b7cce531
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Add learning objects in different locales
 

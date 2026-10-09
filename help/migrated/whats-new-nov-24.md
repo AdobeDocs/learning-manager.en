@@ -3,6 +3,9 @@ description: Learn about the new features and enhancements in the November 2024 
 jcr-language: en_us
 title: New features summary November 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # New features summary November 2024 {#new-features-summary}
 

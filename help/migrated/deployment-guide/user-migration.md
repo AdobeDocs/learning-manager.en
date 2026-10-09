@@ -5,6 +5,9 @@ title: Learning Manager Deployment Guide - Section 2
 contentowner: sanm
 preview: true
 exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Learning Manager Deployment Guide - Section 2
 

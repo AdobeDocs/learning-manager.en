@@ -4,6 +4,9 @@ title: Troubleshoot Salesforce (SFDC) integration issues with Adobe Learning Man
 description: troubleshoot common Salesforce (SFDC) integration issues with Adobe Learning Manager (ALM), including failed exports, field permission problems in SFDC custom objects, and important SFDC–ALM compatibility notes.
 contentowner: saghosh
 exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Troubleshoot Salesforce (SFDC) integration issues with Adobe Learning Manager
 

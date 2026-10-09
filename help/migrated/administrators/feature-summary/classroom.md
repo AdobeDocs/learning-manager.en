@@ -1,6 +1,9 @@
 ---
 title: Add Classroom Locations
 description: Learn how Administrators can configure settings, and add, migrate, edit, and delete Classroom Locations in Adobe Learning Manager, and how to add translations for a Classroom Location.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Add Classroom Locations

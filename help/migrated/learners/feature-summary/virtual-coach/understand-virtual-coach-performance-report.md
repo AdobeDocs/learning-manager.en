@@ -3,6 +3,9 @@ description: Learn how your Virtual Coach report card scores Knowledge and Style
 jcr-language: en_us
 title: Understand your Virtual Coach performance report
 exl-id: 57607597-3949-4787-b71d-39c80d22a1ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Understand your Virtual Coach performance report

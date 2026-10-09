@@ -1,6 +1,9 @@
 ---
 title: Join a Live Hub session as a Learner
 description: Learn how Learners join a Live Hub session from their enrolled course, including testing audio and camera settings before entering the room.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Join a Live Hub (Beta) session as a Learner

@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Learning Manager Content Catalog
 contentowner: dvenkate
 exl-id: 495f8b76-4496-422e-8b8d-9d3227a8a846
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Learning Manager Content Catalog
 

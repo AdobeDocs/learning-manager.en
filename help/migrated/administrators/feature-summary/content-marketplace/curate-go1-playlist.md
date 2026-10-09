@@ -3,6 +3,9 @@ description: Learn how to create and add a Go1 Playlist to a Learning Path in Ad
 jcr-language: en_us
 title: Curate Go1 Playlist to Adobe Learning Manager Learning Path
 exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Curate Go1 courses to a Learning Path
 

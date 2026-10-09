@@ -3,6 +3,9 @@ description: Learn about the new features and enhancements in the May 2025 relea
 jcr-language: en_us
 title: New features summary
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # New features summary May 2025
 

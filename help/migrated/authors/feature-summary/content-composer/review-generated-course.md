@@ -2,6 +2,9 @@
 description: Learn how to review AI-generated course content in Content Composer's Course editor before sharing or publishing, since AI output may vary.
 jcr-language: en_us
 title: Review the generated course
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Review the generated course

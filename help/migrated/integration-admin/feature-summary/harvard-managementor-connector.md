@@ -3,6 +3,9 @@ description: Learn how to integrate Harvard ManageMentor with Adobe Learning Man
 jcr-language: en_us
 title: Harvard ManageMentor connector
 contentowner: mmanuel
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Harvard ManageMentor connector in Adobe Learning Manager

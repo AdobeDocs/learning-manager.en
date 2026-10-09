@@ -4,6 +4,9 @@ title: Unable to view learners in a course
 description: The Learners tab of a course does not display any learner enrolled in Adobe Learning Manager. However, if you generate a report, you can view the enrolled learners in the report.
 contentowner: saghosh
 exl-id: 2ea54347-fa6b-493e-b73c-d350efb2aaaf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Unable to view learners in a course
 

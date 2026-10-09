@@ -1,8 +1,11 @@
 ---
 jcr-language: en_us
 title: Add and combine filters in a report
-description: Restrict report data in Adobe Learning Manager Report Builder using single filters, AND / OR logic, and nested filter groups. 
+description: Restrict report data in Adobe Learning Manager Report Builder using single filters, AND / OR logic, and nested filter groups.
 contentowner: mmanuel
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Add and combine filters in a report

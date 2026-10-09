@@ -4,6 +4,9 @@ title: Unable to achieve a skill after completing a course
 description: A learner, even after completing a course, does not obtain a skill. The skills that are assigned to that course remain as In Progress for the learner.
 contentowner: nluke
 exl-id: d9c1e2a2-351d-4d6f-b2e6-f9e9278e6523
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Unable to achieve a skill after completing a course
 

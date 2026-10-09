@@ -3,6 +3,9 @@ description: How billing plans determine whether accounts can share licensed sea
 jcr-language: en_us
 title: Tiering - Seat sharing
 exl-id: 42b4cba4-1e44-40d8-aa57-ce2a855be258
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Seat sharing and account plans in Adobe Learning Manager

@@ -4,6 +4,9 @@ title: Badges
 description: Badges are a measure of achievement that your employee can earn upon completing a course. Adobe Learning Manager introduces one of the latest e-learning concepts called Badges. Professionals across the globe use these badges as a representation of particular skill or a learning achievement.
 contentowner: manochan
 exl-id: c056e5d0-d646-4d15-979d-bae57c627eab
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Badges
 

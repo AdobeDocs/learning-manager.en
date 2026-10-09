@@ -1,6 +1,9 @@
 ---
 title: Record a session in Live Hub
 description: Learn how Instructors start, pause, and stop a recording, play back and edit recordings, and generate AI topics and transcripts in a Live Hub session.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Record a session

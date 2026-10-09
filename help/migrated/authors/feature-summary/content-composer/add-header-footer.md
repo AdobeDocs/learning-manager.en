@@ -2,6 +2,9 @@
 description: Learn how to add a header and footer to a Content Composer course, upload a logo, enable toggles, and preview theme changes live in the canvas.
 jcr-language: en_us
 title: Add a header and footer
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Add a header and footer

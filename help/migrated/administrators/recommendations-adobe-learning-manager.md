@@ -3,6 +3,9 @@ jcr-language: en_us
 title: Recommendations in Adobe Learning Manager
 description: Recommendations in Adobe Learning Manager.
 contentowner: saghosh
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Overview

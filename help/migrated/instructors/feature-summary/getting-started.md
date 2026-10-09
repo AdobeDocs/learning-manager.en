@@ -3,6 +3,9 @@ description: Read this article to know how to get started as an instructor in Le
 jcr-language: en_us
 title: Getting started as an instructor in Learning Manager
 exl-id: d0540886-3e0d-4a88-8f4e-040dd8a6bde0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Getting started as an instructor in Learning Manager
 

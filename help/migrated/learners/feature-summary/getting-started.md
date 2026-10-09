@@ -3,6 +3,9 @@ description: Use the getting started page to traverse through the key learning p
 jcr-language: en_us
 title: Getting started as a Learner
 contentowner: manochan
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 

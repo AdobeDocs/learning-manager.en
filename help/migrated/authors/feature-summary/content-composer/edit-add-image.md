@@ -2,6 +2,9 @@
 description: Learn how to edit an image in Content Composer — adjust size, brightness, and saturation, or replace it with an upload, Adobe Stock, or AI.
 jcr-language: en_us
 title: Edit or add an image
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Edit or add an image

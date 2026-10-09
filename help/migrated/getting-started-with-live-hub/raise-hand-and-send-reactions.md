@@ -1,6 +1,9 @@
 ---
 title: Use reactions and raised hands in Live Hub sessions
 description: Learn how Learners can use reactions and raised hands to participate in a Live Hub session without interrupting the Instructor.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Use reactions and raised hands

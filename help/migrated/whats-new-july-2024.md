@@ -3,6 +3,9 @@ description: Learn about the new features and enhancements in the July 2024 rele
 jcr-language: en_us
 title: New features summary
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # New features summary July 2024 {#new-features-summary-july-2024}
 

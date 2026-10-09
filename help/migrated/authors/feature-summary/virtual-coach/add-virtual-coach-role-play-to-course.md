@@ -3,6 +3,9 @@ description: Learn how to publish a Virtual Coach role-play as a job aid, then a
 jcr-language: en_us
 title: Add a Virtual Coach role-play to a course
 exl-id: c33ec5e4-0e96-4452-ada7-d48f9c71a123
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Add a Virtual Coach role-play to a course

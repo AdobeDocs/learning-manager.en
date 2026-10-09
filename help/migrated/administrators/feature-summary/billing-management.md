@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Manage Learning Manager orders and billing
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Manage Learning Manager orders and billing

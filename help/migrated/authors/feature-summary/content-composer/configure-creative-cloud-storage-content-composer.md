@@ -3,6 +3,9 @@ jcr-language: en_us
 title: Configure Creative Cloud storage for Adobe Learning Manager Content Composer
 description: Learn how to configure Creative Cloud storage for Adobe Learning Manager Content Composer. This guide explains why Creative Cloud storage is required, how administrators can assign the Free Membership offer in Adobe Admin Console, and how to troubleshoot storage-related access issues.
 contentowner: saghosh
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Configure Creative Cloud storage for Adobe Learning Manager Content Composer

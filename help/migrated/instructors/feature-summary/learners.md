@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Managing learners for your session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Managing learners for your session
 

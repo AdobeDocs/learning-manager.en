@@ -3,6 +3,9 @@ description: This document consists of information about learning objects for ma
 jcr-language: en_us
 title: Learning Objects
 exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Learning Objects
 

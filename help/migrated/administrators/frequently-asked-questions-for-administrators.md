@@ -4,6 +4,9 @@ title: Frequently Asked Questions for Administrators
 description: Frequently Asked Questions for Adobe Learning Manager Administrators
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Frequently Asked Questions for Administrators
 

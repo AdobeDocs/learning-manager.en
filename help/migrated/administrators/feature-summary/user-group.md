@@ -3,6 +3,9 @@ description: Learn how to create and manage user groups in Adobe Learning Manage
 jcr-language: en_us
 title: Manage User Groups in Adobe Learning Manager | Organize and Assign Learners
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # User groups in Adobe Learning Manager
 

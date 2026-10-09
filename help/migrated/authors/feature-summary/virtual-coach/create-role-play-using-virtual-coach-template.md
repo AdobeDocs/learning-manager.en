@@ -3,6 +3,9 @@ description: Learn how to create, configure, and publish a Virtual Coach role-pl
 jcr-language: en_us
 title: Create and publish a Virtual Coach role-play
 exl-id: f37e93ef-6d76-4b7c-b4c3-f3f8c57b143c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Create a role-play using a Virtual Coach template

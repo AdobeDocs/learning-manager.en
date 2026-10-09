@@ -3,6 +3,9 @@ description: Learn how to integrate Marketo Engage connector with Adobe Learning
 jcr-language: en_us
 title: Marketo Engage connector
 contentowner: mmanuel
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Marketo Engage connector in Adobe Learning Manager

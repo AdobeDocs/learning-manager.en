@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager release notes
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Adobe Learning Manager release notes
 

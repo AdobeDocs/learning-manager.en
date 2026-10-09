@@ -2,6 +2,9 @@
 description: Best practices for generating courses in Content Composer- writing learning objectives, reviewing outlines, restricting AI output, and using components.
 jcr-language: en_us
 title: Best practices for publishing from Content Composer to ALM
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Best practices for publishing from Content Composer to ALM

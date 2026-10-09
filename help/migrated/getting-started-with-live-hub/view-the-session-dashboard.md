@@ -1,6 +1,9 @@
 ---
 title: View the Session dashboard in Live Hub
 description: Learn how Instructors access the Session dashboard for a Live Hub session and what participation, engagement, and performance insights it provides.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # View the Session dashboard

@@ -4,6 +4,9 @@ title: White labeling in Adobe learning Manager Mobile app
 description: White labeling is a practice of rebranding an app or service with your own brand and customizing it as if you were the original creator. In Adobe Learning Manager, you can apply white labeling to the mobile app, so you can rebrand the app, and make the app available to your users under your own brand.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # White labeling in Adobe learning Manager Mobile app
 

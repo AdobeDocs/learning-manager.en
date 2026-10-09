@@ -4,6 +4,9 @@ title: Unable to view calendar
 description: When an Administrator tries to edit the expiry date of an External Enrollment Profile and clicks the calendar to edit the expiry date, the calendar does not appear.
 contentowner: saghosh
 exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Unable to view calendar
 

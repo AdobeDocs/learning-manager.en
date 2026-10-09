@@ -1,6 +1,9 @@
 ---
 title: Use Live Hub (Beta) on mobile as a Learner
 description: Learn what Live Hub features are available to Learners in the Adobe Learning Manager mobile app, from joining a session to leaving one.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Use Live Hub (Beta) on mobile as a Learner

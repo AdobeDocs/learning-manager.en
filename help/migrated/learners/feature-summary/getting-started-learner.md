@@ -4,6 +4,9 @@ title: Getting started as a Learner
 description: Use the getting started page to traverse through the key learning paths of Adobe Learning Manager.
 contentowner: manochan
 exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Getting started as a Learner
 

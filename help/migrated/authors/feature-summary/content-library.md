@@ -3,6 +3,9 @@ description: Learn how to create content to align with courses as self-paced con
 jcr-language: en_us
 title: Content library
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Content library
 

@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Skills & Levels
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Skills & Levels
 

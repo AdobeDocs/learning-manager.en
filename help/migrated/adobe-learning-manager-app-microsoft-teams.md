@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager App for Microsoft Teams
 contentowner: saghosh
 exl-id: 70c687ac-0ca6-4bc1-8c86-76943aeaf3e5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Adobe Learning Manager App for Microsoft Teams
 

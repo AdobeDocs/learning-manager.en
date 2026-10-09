@@ -1,6 +1,9 @@
 ---
 title: Getting started with Live Hub (Beta)
 description: Learn how Live Hub in Adobe Learning Manager lets you deliver live, instructor-led training sessions directly within the platform.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Getting started with Live Hub (Beta)

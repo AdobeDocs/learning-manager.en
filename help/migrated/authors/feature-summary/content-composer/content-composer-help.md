@@ -2,6 +2,9 @@
 title: Adobe Learning Manager Content Composer (Beta) Help
 description: Adobe Learning Manager Content Composer turns a plain-language prompt into a publish-ready course with lessons, assessments, and media using AI.
 contentowner: saghosh
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Adobe Learning Manager Content Composer (Beta) Help

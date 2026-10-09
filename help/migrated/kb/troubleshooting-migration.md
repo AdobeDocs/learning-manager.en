@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Troubleshooting Migration issues
 contentowner: jayakarr
 exl-id: b9f17644-f237-4701-86e9-8496db941920
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Troubleshooting Migration issues
 

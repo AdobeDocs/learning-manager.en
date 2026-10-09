@@ -4,6 +4,9 @@ title: Application developer manual
 description: Learn how to integrate and customize applications using RESTful APIs, covering essential topics such as OAuth 2.0 authentication, API usage scenarios, and data models. Enhance your enterprise applications with features like course creation, learner progress tracking, skill mapping, certification, gamification, and more. This guide provides step-by-step instructions and real-world examples to help developers create seamless and efficient workflows. Ideal for developers looking to leverage Adobe Learning Manager's capabilities for creating learner-centric applications.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Adobe Learning Manager Developer Manual

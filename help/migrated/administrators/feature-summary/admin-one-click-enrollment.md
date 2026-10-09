@@ -3,6 +3,9 @@ description: One click enrollment allows learners to click on any deep link to a
 jcr-language: en_us
 title: Set up one-click enrollment in Adobe Learning Manager
 contentowner: mmanuel
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Set up one-click enrollment in Adobe Learning Manager

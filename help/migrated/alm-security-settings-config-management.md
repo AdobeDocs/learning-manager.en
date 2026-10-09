@@ -3,6 +3,9 @@ title: Adobe Learning Manager- security settings and configuration management
 description: This document outlines Adobe Learning Manager's administrative account types, security-related settings, recommended secure defaults, API capabilities, export functionality, configuration comparison methods, publication practices, and version history. It provides detailed guidance on how privileged accounts operate, their security implications, and how configuration management is supported across the platform.
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Security settings and configuration management
 

@@ -3,6 +3,9 @@ description: Learn what documents, context, and prompt details to prepare before
 jcr-language: en_us
 title: Gather materials for a Virtual Coach role-play
 exl-id: 1a119554-af8d-445a-9c19-010dafd3e7ab
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Gather materials for a Virtual Coach role-play

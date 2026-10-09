@@ -1,6 +1,9 @@
 ---
 title: Use the Chat panel as a Learner in Live Hub
 description: Learn how Learners access, customize, and manage messages in the Chat panel during a Live Hub session, including sending private messages.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Use the Chat panel as a Learner

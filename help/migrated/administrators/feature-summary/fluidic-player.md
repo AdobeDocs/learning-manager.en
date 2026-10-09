@@ -4,6 +4,9 @@ title: Fluidic player
 description: Fluidic player is a platform for learners to consume content with uninterrupted and blended learning experience. All the supported formats are played consistently in this player. Authors and Administrators can preview the content using the player.
 contentowner: manochan
 exl-id: 4cd7197d-d4be-4755-b364-48f9e713c7e2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Fluidic player
 

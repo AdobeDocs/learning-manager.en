@@ -4,6 +4,9 @@ title: Unable to assign a badge
 description: After a learner completes a Course/Learning Program/Certification, the badge does not get awarded to the learner.
 contentowner: nluke
 exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Unable to assign a badge
 

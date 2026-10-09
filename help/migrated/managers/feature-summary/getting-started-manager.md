@@ -4,6 +4,9 @@ jcr-language: en_us
 title: Getting started for Managers
 contentowner: manochan
 exl-id: 122b2fca-ad7c-4799-9a2e-ced820780d3f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Getting started for Managers
 

@@ -5,6 +5,9 @@ description: iPad and Android tablet users
 contentowner: manochan
 preview: true
 exl-id: d6300070-9de0-4971-ae1a-ae944731b3bb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # iPad & Android tablet users
 

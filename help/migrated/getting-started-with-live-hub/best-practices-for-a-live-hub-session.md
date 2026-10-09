@@ -1,6 +1,9 @@
 ---
 title: Best practices for a Live Hub (Beta) session
 description: Follow these best practices to prepare, run, and follow up on a Live Hub session in Adobe Learning Manager, for Authors, Administrators, Instructors, and Learners.
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Best practices for a Live Hub (Beta) session

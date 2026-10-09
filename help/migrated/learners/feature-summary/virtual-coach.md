@@ -1,8 +1,11 @@
 ---
 jcr-language: en_us
 title: Virtual Coach in Adobe Learning Manager
-description: The Virtual Coach is a transformative feature within Adobe Learning Manager designed to bridge the critical gap between theoretical knowledge and real-world application. Rather than relying solely on passive learning methods, videos, quizzes, and reading materials. Virtual Coach provides learners with an interactive, immersive environment to practice high-stakes conversations and learn soft skills.  
+description: The Virtual Coach is a transformative feature within Adobe Learning Manager designed to bridge the critical gap between theoretical knowledge and real-world application. Rather than relying solely on passive learning methods, videos, quizzes, and reading materials. Virtual Coach provides learners with an interactive, immersive environment to practice high-stakes conversations and learn soft skills.
 contentowner: saghosh
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Introduction

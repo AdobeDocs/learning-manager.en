@@ -3,6 +3,9 @@ description: Reference manual for Integration Administrators who want to migrate
 jcr-language: en_us
 title: Migration manual
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Migration manual
 

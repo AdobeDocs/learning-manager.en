@@ -2,6 +2,9 @@
 description: All about the Gradebook from the learner's perspective
 jcr-language: en_us
 title: Gradebook for learners
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Gradebook for learners

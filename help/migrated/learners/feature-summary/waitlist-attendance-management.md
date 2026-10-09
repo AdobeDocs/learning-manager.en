@@ -4,6 +4,9 @@ title: Waitlist & attendance management
 description: Administrators can manage attendance and waitlisting of courses for Adobe Learning Manager learners.
 contentowner: manochan
 exl-id: 71172940-34c5-432d-9bb0-eac8d44efe59
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # Waitlist & attendance management
 

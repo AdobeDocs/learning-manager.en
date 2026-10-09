@@ -5,6 +5,9 @@ title: View learner's response to an outlook calendar invite on Learning Manager
 contentowner: kuppan
 preview: true
 exl-id: 0df7284f-20c1-410d-b985-3d031744deaf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # View learner's response to an outlook calendar invite on [!DNL Learning Manager]
 

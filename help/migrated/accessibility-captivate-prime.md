@@ -3,6 +3,9 @@ jcr-language: en_us
 title: Accessibility in Adobe Learning Manager
 description: This document outlines the accessibility support provided by Learning Manager Learning Management System for learners with disabilities. It also provides the users on navigational options and accessibility features of the platform.
 contentowner: saghosh
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Accessibility in Adobe Learning Manager

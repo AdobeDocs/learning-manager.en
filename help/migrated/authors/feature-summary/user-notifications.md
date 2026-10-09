@@ -4,6 +4,9 @@ title: User notifications
 description: Notifications feature is applicable to all the users of Adobe Learning Manager. But, each user based on their role gets different kinds of notifications under various scenarios. All the alerts and notifications to users are displayed through notifications pop-up dialog.
 contentowner: manochan
 exl-id: 241a2ceb-d6ba-4494-861b-828e3eb218a3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 # User notifications
 

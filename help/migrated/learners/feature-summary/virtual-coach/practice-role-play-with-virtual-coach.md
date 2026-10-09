@@ -3,6 +3,9 @@ description: Learn how to find, launch, and complete a Virtual Coach role-play s
 jcr-language: en_us
 title: Practice a role-play with Virtual Coach
 exl-id: e522ff4c-42db-4ebd-a806-17b595e3b877
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
 ---
 
 # Practice a role-play with Virtual Coach
