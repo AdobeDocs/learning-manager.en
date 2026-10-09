@@ -2,7 +2,7 @@
 description: From content creation to live and on-demand experiences, Adobe Learning Manager combines branded academies, adaptive journeys, and AI agents to deliver personalized learning that pays off.
 jcr-language: en_us
 title: Welcome to Adobe Learning Manager documentation
-exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a21112
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a211121
 contentowner: saghosh
 hide: true
 product_v2:
@@ -301,7 +301,7 @@ Discover what's new, explore key features, and build your skills.
    
    <p><strong>What's new in Adobe Learning Manager</strong>
     </p>
-    <p>Explore the latest features and updates in Aug 2026 release.</p>
+    <p>Explore the latest features and updates in August 2026 release.</p>
                 <p>
                     <a href="/help/migrated/whats-new.md">Summary of new features</a>
                 </p>
