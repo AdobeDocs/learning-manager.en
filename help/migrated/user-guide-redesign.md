@@ -2,7 +2,7 @@
 description: From content creation to live and on-demand experiences, Adobe Learning Manager combines branded academies, adaptive journeys, and AI agents to deliver personalized learning that pays off.
 jcr-language: en_us
 title: Welcome to Adobe Learning Manager documentation
-exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a21112
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a211121
 contentowner: saghosh
 hide: true
 product_v2:
@@ -274,6 +274,9 @@ Build the skills you need to configure and manage Adobe Learning Manager.
 
 Choose focused courses for key capabilities or follow guided learning paths. Academy links open in a new tab and may require sign-in.
 
+[**Explore ALM Academy**](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
+
+<!--
 <div style="margin-top: 1rem;">
     <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner"
        target="_blank"
@@ -284,6 +287,7 @@ Choose focused courses for key capabilities or follow guided learning paths. Aca
         </span>
     </a>
 </div>
+-->
 
 ## Explore Adobe Learning Manager
 
@@ -297,16 +301,12 @@ Discover what's new, explore key features, and build your skills.
    
    <p><strong>What's new in Adobe Learning Manager</strong>
     </p>
-    <p>Explore the latest features and updates in Aug 2026 release.</p>
+    <p>Explore the latest features and updates in August 2026 release.</p>
                 <p>
-                    <strong>
-                        <a href="/help/migrated/whats-new.md">Summary of new features</a>
-                    </strong>
+                    <a href="/help/migrated/whats-new.md">Summary of new features</a>
                 </p>
                 <p>
-                    <strong>
-                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">Content Composer (Beta)</a>
-                    </strong>
+                    <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">Content Composer (Beta)</a>
     </p>
 
    
@@ -315,7 +315,7 @@ Discover what's new, explore key features, and build your skills.
    <p><strong>AI features</strong></p>
    
 <p>
-                    <b>Insights Agent (Beta)</b><br>
+                    Insights Agent (Beta)<br>
                     <a href="/help/migrated/administrators/feature-summary/insights-agent.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">Launch course</a>
 </p>
 <p>
@@ -323,7 +323,7 @@ Discover what's new, explore key features, and build your skills.
                     <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">Launch course</a>
 </p>
 <p>
-                    <strong>Live Hub (Beta)</strong><br>
+                    Live Hub (Beta)<br>
                     <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">Launch course</a>
 
 </p>
@@ -333,18 +333,18 @@ Discover what's new, explore key features, and build your skills.
    
    </td>
    <td><img src="./help/assets/overview/learning-experience-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
-   <p><strong>Admin Tools</strong>
+   <p><strong>Admin tools</strong>
     </p>
    <p>
-                    <strong>Experience Builder</strong><br>
+                    Experience Builder<br>
                     <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Launch course</a>
     </p>
     <p>
-                    <strong>Report Builder</strong><br>
+                    Report Builder<br>
                     <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">Launch course</a>
     </p>
 <p>
-                    <strong>Email Builder</strong><br>
+                    Email Builder<br>
                     <a href="/help/migrated/administrators/feature-summary/email-builder.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">Launch course</a>
     </p>
     </td>
@@ -355,6 +355,9 @@ Discover what's new, explore key features, and build your skills.
 
 Discover how ALM can help you create, manage, and deliver engaging learning experiences. Sign up for a personalized demo today.
 
+[**Sign up**](https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
+
+<!--
 <div>
     <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
@@ -365,6 +368,7 @@ Discover how ALM can help you create, manage, and deliver engaging learning expe
         </span>
     </a>
 </div>
+-->
 
 ## Additional resources {#additional-resources}
 
