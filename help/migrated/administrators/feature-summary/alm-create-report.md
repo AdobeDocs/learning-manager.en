@@ -42,7 +42,24 @@ In this example, you'll identify the learners under each manager who are at risk
     ![](assets/report-builder-0014.png)
 
 7. Reorder columns by dragging them in the canvas.
-8. To rename a column, enter a name in the column's alias field. The alias appears as the column header in the downloaded file.
+8. To rename a column, enter a name in the column's **Alias** field. If you specify an alias, the alias is used as the column heading. If you don't specify an alias, the default column heading includes the dataset name. For example, Name from the Learning Object dataset appears as Learning Object - Name.
+
+    **Column headings**
+
+    Report Builder includes the dataset name in default column headings to help distinguish columns with similar names across datasets. For example, if you select Name from the Learning Object dataset, the column heading appears as Learning Object - Name.
+
+    If you specify a custom alias for a column, Report Builder uses the alias instead of the default column heading.
+
+    **Impact on existing reports**
+
+    After the upgrade, existing reports that use default column names without custom aliases display the updated column headings. For example, Name from the Learning Object dataset changes from Name to Learning Object - Name.
+
+    Report data, filters, and schedules aren't affected.
+
+    If you use report output in scripts, spreadsheets, BI dashboards, or integrations that reference columns by heading, check your downstream systems and update references to the previous column headings as required.
+
+    To retain a specific column heading, set a custom alias for the column.
+
 9. Select **Save Report**.
 
 ## Download the report
@@ -102,6 +119,10 @@ Group the records by manager to:
 4. Select **Count** as an aggregate function for the columns.
 
     ![](assets/report-builder-0019.png)
+
+    **Column headings for aggregated columns:** 
+    
+    When you apply an aggregate function, the default column heading includes the aggregate function. For example, when you apply **Count** to **Learning Object - ID**, the column heading appears as **Count** of **Learning Object - ID**. If you've specified a custom alias, the alias remains unchanged.
 
 5. Repeat for Learning Object - Learning Object Name.
 
