@@ -49,7 +49,7 @@ To create a course, follow the steps below:
 1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Home page, select **[!UICONTROL Create Courses]**. The Courses Catalog page opens and a list of courses appear.
 2. Select **Add** on the upper right. A page opens to create a new course.
 3. Enter a name for the course and a short description. This description is displayed on the course card. This description must not be more than 140 characters. Then enter the detailed overview for the course, which is displayed on the Course Details page. The description must not exceed 1500 characters.
-4. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **[!UICONTROL Save]**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
+4. To make your course available in other languages, select **Add New Language** from the upper-left corner of the page. Select the language or languages in which you want to make your course available. **Select** **[!UICONTROL Save]**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modify course settings**-
 
    a. On the Course Settings page, choose a skill for the course. From the Skill drop-down list, choose the required skill. Then, from the Level drop-down list, choose the required level.
