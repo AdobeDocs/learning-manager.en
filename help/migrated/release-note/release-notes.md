@@ -67,6 +67,10 @@ Two enhancements have been made to Insights Agent. They are:
 
 [Learn more](/help/migrated/administrators/feature-summary/insights-agent.md).
 
+### Custom Certificate - Certificate Designer
+
+When a badge was added to a certificate design, the certificate generation system supported only the text-based badge field. As a result, the learner's badge image was missing or displayed incorrectly in the generated PDF. With this fix, the system now recognizes the badge image placeholder and replaces it with the learner's earned badge image, while preserving the position and size configured in the certificate designer.
+
 ## API
 
 * **API for catalog access for learning objects:** The catalog access API for learning objects lets you determine whether one or more learning objects are directly accessible to a learner through an assigned catalog. Use the response to control enrollment-related UI elements. For example, display the Enroll option only when direct catalog access is confirmed, while allowing learners to view the course page regardless of catalog access.
