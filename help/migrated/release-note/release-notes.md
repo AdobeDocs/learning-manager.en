@@ -25,7 +25,7 @@ product_v2:
 
 +++Update 113: October 27, 2026 release of Adobe Learning Manager
 
-## Enhancements in this release
+## Enhancement in this release
 
 **Go1 integration:** The Go1 integration in Adobe Learning Manager has been enhanced to make course completion tracking more reliable. Learners' Go1 completions are now recorded accurately, even if they leave the course player right after finishing. This fix helps ensure that learner transcripts and administrator reports stay complete and up to date. No configuration is needed, and existing Go1 courses continue to work as before. [Learn more](/help/migrated/integration-admin/feature-summary/go1-webhooks.md).
 
