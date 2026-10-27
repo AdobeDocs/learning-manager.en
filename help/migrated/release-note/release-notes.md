@@ -23,6 +23,22 @@ product_v2:
 
 -->
 
++++Update 113: October 27, 2026 release of Adobe Learning Manager
+
+## Enhancements in this release
+
+**Go1 integration:** The Go1 integration in Adobe Learning Manager has been enhanced to make course completion tracking more reliable. Learners' Go1 completions are now recorded accurately, even if they leave the course player right after finishing. This fix helps ensure that learner transcripts and administrator reports stay complete and up to date. No configuration is needed, and existing Go1 courses continue to work as before. [Learn more](/help/migrated/integration-admin/feature-summary/go1-webhooks.md).
+
+## Bugs fixed
+
+**Mobile device:** On iPhones using iOS Safari, launching a course in portrait orientation from the catalog or search CTA displayed the "Please rotate your device" prompt. The prompt remained even after rotating to landscape, preventing the course from starting. This issue has been fixed, and the player now recovers on rotation and launches the course as expected.
+
+**Learner:** Learners couldn't submit Excel, PowerPoint, video, ZIP, and other file types in File Submission modules and received a generic error. This issue has been fixed, and learners can now upload and submit these file types as expected.
+
+**Email template:** Calendar invite emails displayed a blank body and an empty .ics event description when session templates were unlinked from the Global Layout. This issue has been fixed, and unlinked templates now display the configured session details and layout content in both the email and calendar event description as expected.
+
++++
+
 +++Update 112: September 30, 2026 release of Adobe Learning Manager
 
 ## Features in this release
