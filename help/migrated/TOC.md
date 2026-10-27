@@ -184,7 +184,8 @@ nudge: true
    * [Non-logged-in APIs](integration-admin/feature-summary/non-logged-in-apis.md)
    * Webhooks {#webhooks}
      * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
-     * [Webhooks usage guide](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
+     * [Go1 completion tracking with webhooks](/help/migrated/integration-admin/feature-summary/go1_webhooks.md)
+     * [Webhooks usage guide](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)     
    * [Credly](integration-admin/feature-summary/credly-integration.md)
    * [Learning Tools Interoperability](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [LTI deep links](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)

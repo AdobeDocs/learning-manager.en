@@ -24,25 +24,15 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 
 ## Enhancements in this release
 
-**Fluidic Player:** The Fluidic Player has been enhanced to open LTI tools outside the iframe, by default in a modal with a top-level browsing context. This enables LTI tools that require cross-site cookies, camera or microphone permissions, or restrict iframe embedding to function as expected. 
-
-**Author:** The authoring experience has been enhanced to allow Authors to configure individual LTI modules to launch outside the iframe. This enables authors to define the appropriate launch behavior for each LTI tool without engineering assistance.
-
-**Learner:** The learner experience has been enhanced to display a message at launch informing learners that they must return and refresh the page to view updated progress. This helps learners understand when subsequent learning items will become available.
-
-**Learner:** The learner experience has been enhanced to display a clear in-app message with a manual retry option when a new-window launch is blocked. This enables learners to retry the launch and continue without interruption.
-
-**Mobile device:** The above enhancements have been included for the mobile device as well.
+**Go1 integration:** The Go1 integration in Adobe Learning Manager has been enhanced to make course completion tracking more reliable. Learners' Go1 completions are now recorded accurately, even if they leave the course player right after finishing. This fix helps ensure that learner transcripts and administrator reports stay complete and up to date. No configuration is needed, and existing Go1 courses continue to work as before. [Learn more](/help/migrated/integration-admin/feature-summary/go1_webhooks.md).
 
 ## Bugs fixed
 
-**Go1 course completion:** Learners experienced issues with course completion and progress tracking for Go1 courses, where progress could be lost or course completion was not synced to ALM. This issue has been fixed, and the Go1–ALM integration now syncs course progress and completion accurately in ALM as expected.
+**Mobile device:** On iPhones using iOS Safari, launching a course in portrait orientation from the catalog or search CTA displayed the "Please rotate your device" prompt. The prompt remained even after rotating to landscape, preventing the course from starting. This issue has been fixed, and the player now recovers on rotation and launches the course as expected.
 
-**Mobile device:** On iPhones using iOS Safari, launching a course in portrait orientation from the catalog or search CTA displayed the "Please rotate your device" prompt even after rotating to landscape, preventing the course from starting. This issue has been fixed, and the player now recovers on rotation and launches the course as expected.
+**Learner:** Learners couldn't submit Excel, PowerPoint, video, ZIP, and other file types in File Submission modules and received a generic error. This issue has been fixed, and learners can now upload and submit these file types as expected.
 
-**Author:** Authors could set a module's access limit to a date beyond the course completion deadline and save the module. This issue has been fixed, and the access limit can now be set only within the course completion deadline, as expected.
-
-**Author:** After editing and saving an instance's start and completion dates, navigating back to the home page displayed a loader and the course catalog did not load. This issue has been fixed, and the home page and course catalog now load as expected.
+**Email template:** Calendar invite emails displayed a blank body and an empty .ics event description when session templates were unlinked from the Global Layout. This issue has been fixed, and unlinked templates now display the configured session details and layout content in both the email and calendar event description as expected.
 
 +++
 
