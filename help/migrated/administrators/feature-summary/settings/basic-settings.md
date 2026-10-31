@@ -653,6 +653,32 @@ This option allows authors to retire training content (courses, learning paths, 
     b. Not yet enrolled learners:
         i. Learners who have not enrolled in the course or learning path will also lose access, as the content will no longer appear in the catalog.
 
+### Retiral impact on higher-order learning objects
+
+## Retiral impact on higher-order learning objects
+
+The retired course or nested learning path (LP) is removed from the higher-order learning object (LO), which stays open for new enrollments.
+
+![](/help/migrated/administrators/feature-summary/assets/lp-retiral-settings.png)
+
+Option 1 blocks new enrollments in LOs that contain the retired LO.
+
+Option 2 removes the retired LO from LPs and certifications and keeps them open.
+
+The audit trail logs downstream changes with the actor "System-triggered" for both manual and auto-retiral. It also adds a new **Reason** column with one of the following values: "`<user_email> retired <object> (<id>) on <date_UTC>`" or "System triggered Auto-retiral".
+
+## Impact of retiral of a course
+
+Retiral of a course has the following impact:
+
+* Enrolled learners continue without the retired course. Their progress stays in the transcript, and the completion percentage is recalculated.
+* New learners enroll as if the course had never been part of the LO. Learners who completed the LO earlier keep their completion and grade.
+* A learner who had finished everything except the retired course is marked complete.
+* Publisher and learner emails continue to work as they do on removal. A republished course isn't added back automatically.
+* Retired courses can be deleted afterwards, except when linked to an Adaptive LP or Recurring Certification.
+* Peer and master account sharing isn't affected.
+* For acquired and purchased LPs and certifications, removal is blocked if editing isn't allowed. Removal proceeds if editing is allowed (full control enabled).
+
 ### Auto Retire
 
 This option allows authors to set a specific date for a course to automatically retire. When a course is retired, it is no longer available for new enrollments, but learners who are already enrolled can still access and complete the course.

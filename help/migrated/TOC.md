@@ -100,8 +100,9 @@ nudge: true
       * [Review instructor performance with Report Builder](administrators/feature-summary/review-instructor-performance-with-report-builder.md)
       * [Track engagement by user group in Report Builder](administrators/feature-summary/track-engagement-by-user-group-in-report-builder.md)
       * [Build a trend report in Report Builder](administrators/feature-summary/build-trend-report-in-report-builder.md)
-      * [Download, share, and subscribe to a report](administrators/feature-summary/download-share-subscribe-report.md)
+      * [Download, share, and subscribe to a report](administrators/feature-summary/download-share-subscribe-report.md)      
       * [Duplicate and reuse a report in Report Builder](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
+      * [Visualizations in Report Builder](administrators/feature-summary/report-builder-visualization.md)
       * [Frequently asked questions](administrators/feature-summary/faq-report-builder.md)
       * [Limitations of Report Builder](administrators/feature-summary/limitations-report-builder.md)
    * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
@@ -139,7 +140,7 @@ nudge: true
    * [Fluidic player](administrators/feature-summary/fluidic-player.md)
    * [Announcements](administrators/feature-summary/announcements.md)
    * [Email templates](administrators/feature-summary/email-templates.md)
-   * [Email builder](administrators/feature-summary/email-builder.md)
+   * [Email Builder](administrators/feature-summary/email-builder.md)    
    * [Adobe Connect integration](administrators/feature-summary/adobeconnect-integration.md)
    * [Settings](administrators/feature-summary/settings.md)
    * [Notifications](administrators/feature-summary/user-notifications.md)
@@ -191,6 +192,7 @@ nudge: true
    * AEM Sites {#aem-sites}
       * [ALM reference site package for AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [Integrate Learning Manager with AEM](integrate-aem-learning-manager.md)
+      * [AEM assets integration](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
    * [Install Salesforce package in Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * Deployment guide {#deployment-guide}
       * [Introduction](/help/migrated/deployment-guide/introduction.md)
@@ -223,6 +225,7 @@ nudge: true
    * [Add learning objects in different locales](authors/feature-summary/add-new-language-learning-objects.md)
    * [User notifications](authors/feature-summary/user-notifications.md)
    * [Email templates](authors/feature-summary/email-templates-author.md)
+   * [Customize course and instance emails in Email Builder](authors/feature-summary/customize-course-instance-emails.md)
    * [How to choose course modules?](authors/how-to-choose-modules.md)
    * [Preview as learner](authors/feature-summary/fluidic-player.md)
    * Adobe Learning Manager Content Composer (Beta) {#alm-content-composer}
@@ -401,6 +404,8 @@ nudge: true
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * API Changes {#api-changes}
    * [Incremental User Report (Job API)](/help/migrated/incremental-user-report.md)
+   * [Discussion board instructor notifications](/help/migrated/discussion_board_instructor_notifications.md)
+   * [API changes in the December 2026 release](/help/migrated/api-changes-dec-2026.md)
    * [API changes in the September 2026 release](/help/migrated/api-changes-sep-2026.md)
    * [API changes in the August 2026 release](/help/migrated/api-changes-august-2026.md)
    * [API changes in the April 2026 release](/help/migrated/api-changes-alm.md)
