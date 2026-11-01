@@ -266,3 +266,125 @@ If leaners have uploaded documents like assignments, reports, or assessments for
    If you have already set reminders for your sessions, you can see them under the Existing Reminder tiles. Further, you can also add additional reminders to your existing reminders.
 
    To delete an existing reminder, click on the reminder. From the pop-up that appears, click the Delete icon (Trash icon) to delete the reminder.
+
+## Create and manage teams {#create-manage-teams}
+
+Create teams manually from the learners in a course instance, then add, move, remove, rename, or delete teams until a team locks.
+
+As an instructor, you create teams for each instance of a course that has a team-based submission module. Any instructor assigned to the instance can manage its teams. Adobe Learning Manager can also create teams automatically. After teams are formed, learners can submit work, and you can evaluate team submissions.
+
+### Open the Teams management page
+
+1. In the Instructor app, select **Teams** in the left navigation pane. The page lists the team-based course instances learners are assigned to.
+
+   ![](assets/team-submission17.png)
+
+2. To find a course, search for it, or sort the list by the last updated date.
+3. Select the course instance. The instance page shows the unassigned learners and the teams.
+
+### Create teams with a rule
+
+1. On the instance page, select the unassigned learners to divide into teams.
+2. Choose a rule. Select **Action** > **Form a single team** or **Form multiple teams.**
+
+   ![](assets/team-submission18.png)
+
+3. If you select **Form multiple teams**, enter a value of 1 or higher. The page shows how many teams will be created. For example, 94 learners with 2 members each produce 47 teams.
+
+   ![](assets/team-submission19.png)
+
+   If you enter a value that is greater than the number of enrolled learners, an error message appears.
+
+   ![](assets/team-submission20.png)
+
+4. Change the number of learners and select **Create teams**. Depending on the number of learners enrolled in the instance, the number of teams is created.
+
+   ![](assets/team-submission21.png)
+
+5. Confirm, and then save. The teams appear in the **Teams** tab.
+
+The rule applies only to the unassigned learners you select. To regroup everyone, delete the existing teams first. Their learners return to the unassigned list.
+
+![](assets/team-submission22.png)
+
+After you select **Delete**, you get the following confirmation dialog:
+
+![](assets/team-submission23.png)
+
+Select **Delete teams**. All learners return to the unassigned list.
+
+### Create a single team
+
+1. Select the unassigned learners to include in the team.
+2. Select **Action > Form a single team**. A team gets created with the specified number of learners.
+
+   ![](assets/team-submission24.png)
+
+3. Save the team. A team needs at least one learner, and a learner can belong to only one team in the instance.
+4. Repeat the steps to create teams one by one.
+
+### Add learners to an existing team
+
+1. Select the unassigned learners to add.
+2. Choose to assign them to an existing team, and then select the team.
+
+   ![](assets/team-submission25.png)
+
+3. Confirm your choice. Select **Assign Learner**.
+
+### Move or remove learners
+
+1. Open the **Teams** tab, and then expand a team to view its members.
+2. Select the learners to move.
+
+   ![](assets/team-submission26.png)
+
+3. Choose to move them, and then select the destination team.
+4. To remove a learner from a team, select the learner and remove them. The learner returns to the unassigned list.
+
+When a team has no learners left, the team is deleted automatically.
+
+### Rename a team
+
+1. In the **Teams** tab, select the team, and then choose to rename it.
+2. Select **Action > Rename**.
+
+   ![](assets/team-submission27.png)
+
+3. Enter a unique name, such as Team Alpha.
+
+   ![](assets/team-submission28.png)
+
+4. Select **Rename team**.
+
+Names can't repeat, and you can't use the system-generated format, such as Team-1.
+
+### Delete teams
+
+1. In the **Teams** tab, select one or more teams.
+2. Select **Action > Delete**.
+3. Select **Delete team**.
+
+   ![](assets/team-submission29.png)
+
+4. Confirm. The learners from the deleted teams return to the unassigned list.
+
+### Handle late enrollments and unenrollments
+
+* A learner who enrolls after teams are formed appears in the unassigned list. Add the learner to a team.
+* If all teams are locked, create a new team for the learner.
+* A learner who unenrolls is removed from their team automatically. The team continues, and an empty team is deleted.
+
+### Troubleshooting
+
+**You can't select a team or move its members.** A team locks after its first submission, and the lock applies to every team module in the instance. To unlock the team, unsubmit the submission. View [Evaluate and unsubmit team submissions](Evaluate_and_unsubmit_team_submissions.md).
+
+**You can't rename a team.** The name is already in use, or it matches the system-generated format. Enter a different name.
+
+**An error appears when you create teams.** A team can't have more than 100 members. Reduce the number of members per team.
+
+**You can't open Teams management for an instance.** Automatic team creation might be running. Access returns when it finishes.
+
+**Your save is rejected, and the page reloads.** Another instructor or the automatic job saved changes first. Review the updated teams, and then redo your change.
+
+**A team disappeared.** A team with no learners is deleted automatically.

@@ -58,6 +58,7 @@ nudge: true
       * [Active Fields](/help/migrated/administrators/feature-summary/active-fields.md)   
    * [Add classroom locations](administrators/feature-summary/classroom.md)
    * [Create course instances and learning paths](administrators/feature-summary/courses.md)
+   * [Group (team) submissions and rubric based assessments](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
    * [Module access time control](/help/migrated/administrators/feature-summary/module-access-time-control.md)
    * [Manage Holidays](./getting-started-with-live-hub/manage-holidays.md)
    * Experience Builder in Adobe Learning Manager {#experience-builder}
@@ -282,7 +283,9 @@ nudge: true
          * [Theme JSON property reference](authors/feature-summary/content-composer/theme-json-reference.md)
    * [Settings](authors/feature-summary/settings.md) 
 * Instructor {#instructor}
-   * [Modules](instructors/feature-summary/modules.md)
+   * [Modules](instructors/feature-summary/
+   modules.md)
+   * [Evaluate and unsubmit a team submission](/help/migrated/instructors/feature-summary/evaluate-and-unsubmit-team-submission.md)
    * [Managing learners for your session](instructors/feature-summary/learners.md)
 * Learner {#learner}
    * [Log in](learners/feature-summary/user-login.md)
@@ -303,6 +306,7 @@ nudge: true
    * [Multi item cart in ALM](learners/feature-summary/multi-item-cart.md)
    * [Gradebook for Learners](learners/feature-summary/alm-learner-gradebook.md)
    * [Submit external learning](learners/feature-summary/submit-external-learning.md)
+   * [Submit an assignment as a team](learners/feature-summary/submit-assignment-as-team.md)
    * [Badges](learners/feature-summary/badges.md)
    * [Skills & Levels](learners/feature-summary/skills-levels.md)
    * [Gamification](learners/feature-summary/gamification.md)

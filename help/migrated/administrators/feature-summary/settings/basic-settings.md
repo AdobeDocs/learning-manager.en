@@ -390,6 +390,38 @@ When courses are chargeable, authors can specify the course, Learning Path, or c
 >
 >Certain types of training, such as recurring certifications and manager-approved courses, cannot be purchased.
 
+### Auto team formation for team based submissions {#enable-auto-team-formation}
+
+Turn on automatic team formation so Adobe Learning Manager groups enrolled learners into teams before each course instance starts.
+
+When you turn on this account setting, Adobe Learning Manager automatically groups enrolled learners into teams a set number of days before the start of each course instance. The setting is off by default. Authors can adjust the schedule for their courses, and instructors can still create teams manually.
+
+1. In the administrator app, select **Settings** > **General**.
+2. In **Auto team formation for team based submissions section**, select **Edit**. The option remains disabled by default.
+
+   ![](/help/migrated/administrators/feature-summary/assets/team-submission1.png)
+
+3. Select the **Enable** checkbox.
+
+   ![](/help/migrated/administrators/feature-summary/assets/team-submission2.png)
+
+4. Under **Team formation schedule**, enter the number of days in the **Create teams** field. The value must be 0 or higher. This field is required.
+
+   ![](/help/migrated/administrators/feature-summary/assets/team-submission3.png)
+
+5. Select **Save**.
+
+The setting works only for courses that have a team-based file submission module and an instance start date.
+
+#### Effect on courses
+
+* The setting and the schedule you enter apply only to courses created after you save. Existing courses keep their configured behavior and schedule.
+* If you turn the setting off, courses that already use automatic team formation keep working as configured. Only new courses are affected.
+* Authors can adjust the schedule for a course during setup. View [how authors set team rules](/help/migrated/authors/feature-summary/courses.md#enable-automatic-team-formation).
+
+After you turn the setting off, teams that were already formed stay in place. Instructors can still edit them.
+
+
 ### Enable Multi Item SKU Cart
 
 This option allows learners to add multiple training items (courses, Learning Paths, certifications) to a shopping cart and purchase them together. This feature is part of the eCommerce functionality integrated with Adobe Commerce.
