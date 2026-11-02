@@ -108,7 +108,7 @@ Confirm the following:
    The important distinction is that Connect is not interpolation. If March and April are missing, connecting February directly to May only draws a visual line between the two known values. It does not create actual March and April values.
 
 13. In the **Max data points** field, enter the number of data points to be plotted on the graph. The default is 100 points, with a limit of 10,000.
-14. Select the toggle **Group rest of the points as 'others'**. If **Max data points** is set to 150, Report Builder displays up to 150 individual data points, and aggregates everything beyond that limit into one additional data point/category called **Others**. For example, if your query returns 200 points:
+14. If **Max data points** is set to 150, Report Builder displays up to 150 individual data points, and aggregates everything beyond that limit into one additional data point/category called **Others**. For example, if your query returns 200 points:
 
    * 150 points are displayed individually.
    * The remaining 50 points are combined into **Others**.
@@ -162,7 +162,7 @@ Before you begin, save a report that you own. Include one column for the categor
 1. Next to **Dimension - Segment**, select the add icon, then select the column that defines the slices. For example, **Transcript (Learning Object) - Status**.
 1. Next to **Measure - Value**, select the add icon, then select the column and aggregate that size the slices, such as **Count**.
 1. Optionally, in **Max data points**, enter the most slices to draw. The default is 100.
-1. To combine minor categories, turn on **Group small slices**.
+1. To combine minor categories, turn on **Group rest of the points as 'others'**.
 1. Select **Next** to customize the pie chart.
 
 ### Customize the pie chart
@@ -202,19 +202,19 @@ Use a bar chart to:
 ### Create a bar chart {#create-bar-chart-steps}
 
 1. Select **Reports**, then **Report Builder**. On the **Reports** tab, open the saved report.
-1. In the left navigation, select **Visualization**.
-1. In **Chart type**, select **Bar chart**.
-1. Next to **Dimension - X Axis**, select the add icon, then select the column that defines the categories. Select **Add**.
+2. In the left navigation, select **Visualization**.
+3. In **Chart type**, select **Bar chart**.
+4. Next to **Dimension - X Axis**, select the add icon, then select the column that defines the categories. Select **Add**.
 
    ![](assets/report-builder-visual9.png)
 
-1. Next to **Measure - Y Axis**, select the add icon, then select the column and how to aggregate it, such as **Count**. Select **Done**.
+5. Next to **Measure - Y Axis**, select the add icon, then select the column and how to aggregate it, such as **Count**. Select **Add**.
 
    ![](assets/report-builder-visual10.png)
 
-1. Optionally, add **Filters** to limit the data, and set **Sort** to order the bars by a column.
-1. Select the toggle **Group rest of the points as 'others'**. If **Max data points** is set to 150, Report Builder displays up to 150 individual data points, and aggregates everything beyond that limit into one additional data point/category called **Others**.
-1. Select **Next** to customize the bar chart.
+6. Optionally, add **Filters** to limit the data, and set **Sort** to order the bars by a column.
+7. Select the toggle **Group rest of the points as 'others'**. If **Max data points** is set to 150, Report Builder displays up to 150 individual data points, and aggregates everything beyond that limit into one additional data point/category called **Others**.
+8. Select **Next** to customize the bar chart.
 
 ### Customize the bar chart
 
@@ -252,14 +252,14 @@ Before you begin, save a report you own. Decide the one number you want, and whi
 For example, training administrators report each month on how much training the organization completed. Leaders want one headline figure, not a list of enrollments, and administrators want to refresh it without rebuilding the report.
 
 1. Select **Reports**, then **Report Builder**. On the **Reports** tab, open the saved report.
-1. In the left navigation, select **Visualization**.
-1. In **Chart type**, select **Big Number**.
-1. In the **Measure-Dimension** field, select **Transcript (Learning Object) - Status**. Then apply an aggregate count. Select **Done**.
+2. In the left navigation, select **Visualization**.
+3. In **Chart type**, select **Big Number**.
+4. In the **Measure-Dimension** field, select **Transcript (Learning Object) - Status**. Then apply an aggregate count. Select **Add**.
 
    ![](assets/report-builder-visual11.png)
 
-1. Select the number of digits to be shown after the decimal point that will appear in the big number. You can elect at most two digits after the decimal point.
-1. In **Display unit**, select how large numbers are shortened. Select K for thousands, M for millions, B for billions, or None to show the full value. Auto selects the appropriate unit automatically. Select **Next**.
+5. Select the number of digits to be shown after the decimal point that will appear in the big number. You can elect at most two digits after the decimal point.
+6. In **Display unit**, select how large numbers are shortened. Select K for thousands, M for millions, B for billions, or None to show the full value. Auto selects the appropriate unit automatically. Select **Next**.
 
    ![](assets/report-builder-visual12.png)
 
@@ -298,18 +298,17 @@ A dimension is a field you group by. A measure is a number you calculate.
 ### Create a table chart
 
 1. Select **Reports**, then **Report Builder**. On the **Reports** tab, open the saved report.
-1. In the left navigation, select **Visualization**.
-1. In **Chart type**, select **Table / Pivot**.
-1. Next to **Dimension - Rows**, select the add icon, then select **User - Manager Name**.
-1. Next to **Dimension - Columns**, select the add icon, then select **Transcript (Learning Object) - Status**.
-1. Next to **Measure - Value**, select the add icon. Select the learner column, then select the aggregate **Count unique** so each learner is counted once.
-1. Next to **Measure - Value**, select the add icon. Select the learner column, then select the aggregate **Count**.
+2. In the left navigation, select **Visualization**.
+3. In **Chart type**, select **Table / Pivot**.
+4. Next to **Dimension - Rows**, select the add icon, then select **User - Manager Name**.
+5. Next to **Dimension - Columns**, select the add icon, then select **Transcript (Learning Object) - Status**.
+6. Select a measure. Remove a selected measure to choose another. The aggregates are **Count**, **Count distinct** and **Concatenate**. For text fields they are **Count**, **Count distinct** and **Count If**.
 
    ![](assets/report-builder-visual14.png)
 
-1. Turn **Show grand total for columns** and **Show grand total for rows** on or off. These two settings control whether a pivot table/chart includes grand totals across its row and column dimensions. **Show grand total for columns** displays an additional total that summarizes values across all columns for each row. **Show grand total for rows** displays an additional total that summarizes values across all rows for each column.
-1. To combine the remaining rows into one, turn on **Group rest of the points as 'others'**.
-1. Select **Next**.
+7. Turn **Show grand total for columns** and **Show grand total for rows** on or off. These two settings control whether a pivot table/chart includes grand totals across its row and column dimensions. **Show grand total for columns** displays an additional total that summarizes values across all columns for each row. **Show grand total for rows** displays an additional total that summarizes values across all rows for each column.
+8. **Number of rows to be displayed (max 20):** Default is 10. Select the number of rows to be displayed.
+9. Select **Next**.
 
 ### Customize the table
 

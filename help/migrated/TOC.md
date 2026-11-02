@@ -208,6 +208,7 @@ nudge: true
    * [User login](authors/feature-summary/user-login.md)
    * [Content library](authors/feature-summary/content-library.md)
    * [Create, modify, and publish courses](authors/feature-summary/courses.md)
+   * [Create a learning path](/help/migrated/authors/feature-summary/create-learning-path.md)
    * [Catalogs](authors/feature-summary/catalogs.md)
    * {hide-from-toc} [Adaptive Course](authors/feature-summary/adaptive-course-author.md)
    * Virtual Coach {#virtual-coach}

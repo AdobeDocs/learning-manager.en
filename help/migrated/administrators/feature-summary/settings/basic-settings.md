@@ -693,7 +693,7 @@ The retired course or nested learning path (LP) is removed from the higher-order
 
 ![](/help/migrated/administrators/feature-summary/assets/lp-retiral-settings.png)
 
-Option 1 blocks new enrollments in LOs that contain the retired LO.
+Option 1 blocks new enrollments in LOs that contain the retired LO. (Existing option)
 
 Option 2 removes the retired LO from LPs and certifications and keeps them open.
 
@@ -707,7 +707,7 @@ Retiral of a course has the following impact:
 * New learners enroll as if the course had never been part of the LO. Learners who completed the LO earlier keep their completion and grade.
 * A learner who had finished everything except the retired course is marked complete.
 * Publisher and learner emails continue to work as they do on removal. A republished course isn't added back automatically.
-* Retired courses can be deleted afterwards, except when linked to an Adaptive LP or Recurring Certification.
+* Retired courses can be deleted afterwards, except when linked to a Recurring Certification.
 * Peer and master account sharing isn't affected.
 * For acquired and purchased LPs and certifications, removal is blocked if editing isn't allowed. Removal proceeds if editing is allowed (full control enabled).
 
