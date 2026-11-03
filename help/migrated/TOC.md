@@ -78,6 +78,7 @@ nudge: true
          * [Customize Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
       * [Non-logged in experience in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+      * [Non-logged in enhancements](/help/migrated/administrators/feature-summary/non-logged-in-enhancements.md)
    * Settings {#settings}
       * [Overview](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
       * [Basic settings](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
@@ -165,6 +166,7 @@ nudge: true
    * [Application developer manual](/help/migrated/integration-admin/feature-summary/developer-manual.md)
    * [Learner Assistant integration using iFrame](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md) 
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
+   * [Track attendance through Adobe Connect recording views](integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
    * Learning Manager Connectors {#connectors}
       * [Connectors overview](integration-admin/feature-summary/connectors.md)
       * [ADFS connector](integration-admin/feature-summary/adfs-connector.md)
@@ -190,6 +192,7 @@ nudge: true
    * [Credly](integration-admin/feature-summary/credly-integration.md)
    * [Learning Tools Interoperability](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [LTI deep links](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)
+   * [LTI support for NRPS](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
    * AEM Sites {#aem-sites}
       * [ALM reference site package for AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [Integrate Learning Manager with AEM](integrate-aem-learning-manager.md)
@@ -211,6 +214,7 @@ nudge: true
    * [Create a learning path](/help/migrated/authors/feature-summary/create-learning-path.md)
    * [Catalogs](authors/feature-summary/catalogs.md)
    * {hide-from-toc} [Adaptive Course](authors/feature-summary/adaptive-course-author.md)
+   * {hide-from-toc} [Multi-enrollment for Adaptive Course](authors/feature-summary/multi-enrollment-for-adaptive-courses.md)
    * Virtual Coach {#virtual-coach}
       * [What Virtual Coach is](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
       * [Gather materials for a Virtual Coach role-play](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)

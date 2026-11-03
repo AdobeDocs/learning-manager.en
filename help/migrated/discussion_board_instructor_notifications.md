@@ -40,10 +40,10 @@ The following use cases show how instructor notifications help:
 
 * A user must be able to access a board when a notification is sent. Access is checked again at delivery time, not only when the user is subscribed. If a subscriber loses access to a board, the subscription is kept but notifications for that board are skipped.
 * Upvote and downvote notifications are controlled by the `notifyVote` setting in the [`boardSubscriptionSettings` API](api-changes-dec-2026.md#api-create-settings). The setting is `false` by default.
-* The digest is sent as one email, so a busy board can make it very long. For example, a cohort of about 40 learners could post several hundred comments in 6 hours.
-* If your boards are very active, use a shorter digest frequency, such as every 6 hours, so each email stays manageable. Set the frequency with `digestFrequencyHours` in the [`boardSubscriptionSettings` API](api-changes-dec-2026.md#api-create-settings).
-* The number of posts in the email digest is limited to \[limit to be confirmed\].
-* The number of subscribers is capped at \[limit to be confirmed\].
+* The digest is sent as one email, so a busy board can make it very long. For example, a cohort of about 40 learners could post several hundred comments in six hours.
+* If your boards are very active, use a shorter digest frequency, such as every six hours, so each email stays manageable. Set the frequency with `digestFrequencyHours` in the [`boardSubscriptionSettings` API](api-changes-dec-2026.md#api-create-settings).
+* The number of posts in the email digest is limited to 20 per board per digest. The same cap applies independently to comments (20) and replies (20) per board. Only the displayed lists are truncated; the headline/subheading counts always reflect the true, untruncated activity for the window.
+* The number of subscribers is capped at at 200 per board.
 * Because the content is sent directly in the email rather than as an attachment, the email body also has a size limit.
 
 ## Subscription model, permissions, and eligibility
@@ -58,7 +58,7 @@ The following use cases show how instructor notifications help:
 
 ### Included events
 
-The digest includes new posts, comments, and replies when the matching setting is `true` in the [`boardSubscriptionSettings` API](api-changes-dec-2026.md#api-create-settings): `notifyNewPost`, `notifyComment`, and `notifyReply`. You set these with `POST` or `PATCH /boardSubscriptionSettings`. It also includes upvotes and downvotes when `notifyVote` is `true`. All settings are `false` by default.
+The digest includes new posts, comments, and replies when the matching setting is `true` in the [`boardSubscriptionSettings` API](api-changes-dec-2026.md#api-create-settings): `notifyNewPost`, `notifyComment`, and `notifyReply`. You set these with `POST` or `PATCH /boardSubscriptionSettings`. All settings are `false` by default.
 
 ### Excluded events
 
@@ -97,4 +97,4 @@ Use the subscribers API to choose which active Learning Manager users are subscr
 
 To enable instructor notifications, create the account-level settings and then subscribe users to boards, as described in [API changes in Nov 2026](api-changes-dec-2026.md). After that, the system collects new posts, comments, and replies created during the configured interval. At the end of the interval, subscribers receive a summarized notification covering the eligible activity on subscribed boards.
 
-Learn more about the API changes in [December 2026](api-changes-dec-2026.md).
+Learn more about the API changes in [API changes in December 2026](api-changes-dec-2026.md).
