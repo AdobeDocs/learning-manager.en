@@ -10,7 +10,7 @@ product_v2:
 
 During a Live Hub session, Instructors may encounter error messages or notifications that prevent certain actions from completing as expected. This article describes common instructor-facing errors, their possible causes, and the steps you can take to resolve them.
 
-## Connection issues {connection-issues}
+## Connection issues {#connection-issues}
 
 |Error message|Scenario|Suggestions to overcome the error|
 |---|---|---|
@@ -57,7 +57,7 @@ The messages below appear as toast notifications when an Instructor uploads a re
 |"FileName.pdf" exceeds the 1 MB limit.|An Instructor uploads a PDF file that exceeds the 1 MB file size limit.|Compress or reduce the PDF file size to under 1 MB, then re-upload.|
 |"FileName.pptx" exceeds the 3 MB limit.|An Instructor uploads a PPT file that exceeds the 3 MB file size limit.|Compress or reduce the PPT file size to under 3 MB, then re-upload.|
 
-## Breakout session issues {breakout-issues}
+## Breakout session issues {#breakout-issues}
 
 The messages below can appear when an Instructor tries to start breakout session.
 
