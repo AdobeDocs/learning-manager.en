@@ -62,7 +62,7 @@ Webhook sends the relevant information in a JSON format. Here's a sample payload
 }
 ```
 
-## Create and manage Webhooks – Integration Admin
+## Create and manage Webhooks – Integration Admin {#create-manage-webhooks}
 
 Follow the below steps to create Webhooks integration in Adobe Learning Manager: 
 

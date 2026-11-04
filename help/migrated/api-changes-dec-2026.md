@@ -712,3 +712,470 @@ A common use case is a "Saved for later" list in a headless learner experience. 
 2. Display the learning objects in the order returned. The first item is the most recently bookmarked.
 3. Remove any client-side sorting or retired-content filtering you added as a workaround.
 4. Show a count of bookmarks using the number of items in the response. Bookmarks to retired learning objects are no longer included.
+
+## Multi-enrolled courses in Learner Compliance Widget
+
+In Adobe Learning Manager, a learner can be enrolled in more than one instance of the same course. The Learner Compliance widget now lists every enrolled instance that has a deadline, so learners see each due date instead of only the primary instance.
+
+### What changes for multi-enrolled courses
+
+Before this change, the Compliance widget showed only the primary instance of a multi-enrolled course. A learner who was enrolled in several instances could not see the deadlines for the others in the widget.
+
+Now, the Compliance widget shows every instance that meets all of these conditions:
+
+* The learner is enrolled in the instance.
+* The instance has a deadline.
+* The learner has not completed the instance.
+
+Each entry displays the instance name, so learners can tell instances of the same course apart. When a learner selects an entry, Adobe Learning Manager opens that instance directly.
+
+For example, a learner completes an initial training course. An admin later enrolls the learner in the September, October, and November editions of the same course, each with a deadline. The Compliance widget lists all three editions.
+
+The widget counts each instance separately in each compliance category: **Overdue**, **Upcoming deadline within next 30 days**, and **On-track**.
+
+## Instances that appear in the Compliance widget
+
+The following table describes how the widget treats each enrollment situation.
+
+| Enrollment situation                         | Appears in the widget         | Notes                             |
+|--------------------------------------------------|-----------------------------------|---------------------------------------|
+| Enrolled, instance has a deadline, not completed | Yes                               | Shown with the instance name          |
+| Enrolled, instance has no deadline               | No                                | Only instances with a deadline appear |
+| Instance completed                               | No                                | A completed instance is not listed    |
+| Completed in all enrolled instances              | No                                | The course no longer appears          |
+| One instance with a deadline and one without     | Only the instance with a deadline |                                       |
+| Only one enrolled instance                       | Yes                               | The widget shows that instance        |
+
+### API support for multi-enrolled instances in the Learner app
+
+The public API supports this behavior through an optional query parameter on the existing enrollments endpoint. If you omit the parameter, the API returns the same results as before, so existing integrations, including headless implementations, continue to work unchanged.
+
+**Endpoint**
+
+```http
+GET /primeapi/v2/enrollments
+```
+
+**Query parameter**
+
+`includeMultiInstanceEnrollments` (optional)
+
+**Query**
+
+```http
+https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page[limit]=10&filter.loTypes=course&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&sort=dateEnrolled
+```
+
+**Value**
+
+`true`. The default is `false`.
+
+**Response body**
+
+```json
+{
+  "links": {
+    "self": "https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page[limit]=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true",
+    "next": "https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page[limit]=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&page[cursor]=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9"
+  },
+  "data": [
+    {
+      "id": "course:15067_30122_3400468",
+      "type": "learningObjectInstanceEnrollment",
+      "attributes": {
+        "completionDeadline": "2026-02-24T10:50:45.000Z",
+        "enrollmentSource": "MGR_APPROVAL",
+        "hasPassed": false,
+        "progressPercent": 0,
+        "score": 0,
+        "state": "PENDING_APPROVAL"
+      },
+      "relationships": {
+        "learner": {
+          "data": {
+            "id": "3400468",
+            "type": "user"
+          }
+        },
+        "learningObject": {
+          "data": {
+            "id": "course:15067",
+            "type": "learningObject"
+          }
+        },
+        "loInstance": {
+          "data": {
+            "id": "course:15067_30122",
+            "type": "learningObjectInstance"
+          }
+        },
+        "loResourceGrades": {
+          "data": [
+            {
+              "id": "course:15067_30122_41715_1_3400468",
+              "type": "learningObjectResourceGrade"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:1108800_1997400_3400468",
+      "type": "learningObjectInstanceEnrollment",
+      "attributes": {
+        "enrollmentSource": "SELF_ENROLL",
+        "hasPassed": false,
+        "progressPercent": 0,
+        "score": 0,
+        "state": "PENDING_APPROVAL"
+      },
+      "relationships": {
+        "learner": {
+          "data": {
+            "id": "3400468",
+            "type": "user"
+          }
+        },
+        "learningObject": {
+          "data": {
+            "id": "course:1108800",
+            "type": "learningObject"
+          }
+        },
+        "loInstance": {
+          "data": {
+            "id": "course:1108800_1997400",
+            "type": "learningObjectInstance"
+          }
+        },
+        "loResourceGrades": {
+          "data": [
+            {
+              "id": "course:1108800_1997400_2174574_0_3400468",
+              "type": "learningObjectResourceGrade"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2027668_3707328_3400468",
+      "type": "learningObjectInstanceEnrollment",
+      "attributes": {
+        "enrollmentSource": "MGR_APPROVAL",
+        "hasPassed": false,
+        "progressPercent": 0,
+        "score": 0,
+        "state": "PENDING_APPROVAL"
+      },
+      "relationships": {
+        "learner": {
+          "data": {
+            "id": "3400468",
+            "type": "user"
+          }
+        },
+        "learningObject": {
+          "data": {
+            "id": "course:2027668",
+            "type": "learningObject"
+          }
+        },
+        "loInstance": {
+          "data": {
+            "id": "course:2027668_3707328",
+            "type": "learningObjectInstance"
+          }
+        },
+        "loResourceGrades": {
+          "data": [
+            {
+              "id": "course:2027668_3707328_2665897_0_3400468",
+              "type": "learningObjectResourceGrade"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2030067_3709862_3400468",
+      "type": "learningObjectInstanceEnrollment",
+      "attributes": {
+        "enrollmentSource": "MGR_APPROVAL",
+        "hasPassed": false,
+        "progressPercent": 0,
+        "score": 0,
+        "state": "PENDING_APPROVAL"
+      },
+      "relationships": {
+        "learner": {
+          "data": {
+            "id": "3400468",
+            "type": "user"
+          }
+        },
+        "learningObject": {
+          "data": {
+            "id": "course:2030067",
+            "type": "learningObject"
+          }
+        },
+        "loInstance": {
+          "data": {
+            "id": "course:2030067_3709862",
+            "type": "learningObjectInstance"
+          }
+        },
+        "loResourceGrades": {
+          "data": [
+            {
+              "id": "course:2030067_3709862_2668467_0_3400468",
+              "type": "learningObjectResourceGrade"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:3081896_5749155_3400468",
+      "type": "learningObjectInstanceEnrollment",
+      "attributes": {
+        "enrollmentSource": "MGR_APPROVAL",
+        "hasPassed": false,
+        "progressPercent": 0,
+        "score": 0,
+        "state": "PENDING_APPROVAL"
+      },
+      "relationships": {
+        "learner": {
+          "data": {
+            "id": "3400468",
+            "type": "user"
+          }
+        },
+        "learningObject": {
+          "data": {
+            "id": "course:3081896",
+            "type": "learningObject"
+          }
+        },
+        "loInstance": {
+          "data": {
+            "id": "course:3081896_5749155",
+            "type": "learningObjectInstance"
+          }
+        },
+        "loResourceGrades": {
+          "data": [
+            {
+              "id": "course:3081896_5749155_3737554_0_3400468",
+              "type": "learningObjectResourceGrade"
+            },
+            {
+              "id": "course:3081896_5749155_3737555_0_3400468",
+              "type": "learningObjectResourceGrade"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2037893_3717940_3400468",
+      "type": "learningObjectInstanceEnrollment",
+      "attributes": {
+        "enrollmentSource": "MGR_APPROVAL",
+        "hasPassed": false,
+        "progressPercent": 0,
+        "score": 0,
+        "state": "PENDING_APPROVAL"
+      },
+      "relationships": {
+        "learner": {
+          "data": {
+            "id": "3400468",
+            "type": "user"
+          }
+        },
+        "learningObject": {
+          "data": {
+            "id": "course:2037893",
+            "type": "learningObject"
+          }
+        },
+        "loInstance": {
+          "data": {
+            "id": "course:2037893_3717940",
+            "type": "learningObjectInstance"
+          }
+        },
+        "loResourceGrades": {
+          "data": [
+            {
+              "id": "course:2037893_3717940_3676856_0_3400468",
+              "type": "learningObjectResourceGrade"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:3049434_5713130_3400468",
+      "type": "learningObjectInstanceEnrollment",
+      "attributes": {
+        "completionDeadline": "2020-05-05T18:29:59.000Z",
+        "enrollmentSource": "MGR_APPROVAL",
+        "hasPassed": false,
+        "progressPercent": 0,
+        "score": 0,
+        "state": "PENDING_APPROVAL"
+      },
+      "relationships": {
+        "learner": {
+          "data": {
+            "id": "3400468",
+            "type": "user"
+          }
+        },
+        "learningObject": {
+          "data": {
+            "id": "course:3049434",
+            "type": "learningObject"
+          }
+        },
+        "loInstance": {
+          "data": {
+            "id": "course:3049434_5713130",
+            "type": "learningObjectInstance"
+          }
+        },
+        "loResourceGrades": {
+          "data": [
+            {
+              "id": "course:3049434_5713130_3693595_0_3400468",
+              "type": "learningObjectResourceGrade"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2001397_3679403_3400468",
+      "type": "learningObjectInstanceEnrollment",
+      "attributes": {
+        "enrollmentSource": "MGR_APPROVAL",
+        "hasPassed": false,
+        "progressPercent": 0,
+        "score": 0,
+        "state": "PENDING_APPROVAL"
+      },
+      "relationships": {
+        "learner": {
+          "data": {
+            "id": "3400468",
+            "type": "user"
+          }
+        },
+        "learningObject": {
+          "data": {
+            "id": "course:2001397",
+            "type": "learningObject"
+          }
+        },
+        "loInstance": {
+          "data": {
+            "id": "course:2001397_3679403",
+            "type": "learningObjectInstance"
+          }
+        },
+        "loResourceGrades": {
+          "data": [
+            {
+              "id": "course:2001397_3679403_2635974_0_3400468",
+              "type": "learningObjectResourceGrade"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2037862_3717900_3400468",
+      "type": "learningObjectInstanceEnrollment",
+      "attributes": {
+        "enrollmentSource": "MGR_APPROVAL",
+        "hasPassed": false,
+        "progressPercent": 0,
+        "score": 0,
+        "state": "PENDING_APPROVAL"
+      },
+      "relationships": {
+        "learner": {
+          "data": {
+            "id": "3400468",
+            "type": "user"
+          }
+        },
+        "learningObject": {
+          "data": {
+            "id": "course:2037862",
+            "type": "learningObject"
+          }
+        },
+        "loInstance": {
+          "data": {
+            "id": "course:2037862_3717900",
+            "type": "learningObjectInstance"
+          }
+        },
+        "loResourceGrades": {
+          "data": [
+            {
+              "id": "course:2037862_3717900_3676816_0_3400468",
+              "type": "learningObjectResourceGrade"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2037837_3717863_3400468",
+      "type": "learningObjectInstanceEnrollment",
+      "attributes": {
+        "completionDeadline": "2020-02-29T18:29:59.000Z",
+        "enrollmentSource": "SELF_ENROLL",
+        "hasPassed": false,
+        "progressPercent": 0,
+        "score": 0,
+        "state": "OTHER"
+      },
+      "relationships": {
+        "learner": {
+          "data": {
+            "id": "3400468",
+            "type": "user"
+          }
+        },
+        "learningObject": {
+          "data": {
+            "id": "course:2037837",
+            "type": "learningObject"
+          }
+        },
+        "loInstance": {
+          "data": {
+            "id": "course:2037837_3717863",
+            "type": "learningObjectInstance"
+          }
+        },
+        "loResourceGrades": {
+          "data": [
+            {
+              "id": "course:2037837_3717863_3597363_0_3400468",
+              "type": "learningObjectResourceGrade"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+```

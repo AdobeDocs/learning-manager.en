@@ -22,6 +22,45 @@ In this training, you will learn how to create and manage catalogs.
 
 If you're unable to launch the training, write to <almacademy@adobe.com>.
 
+## Search for catalogs
+
+Catalog search ranks results by relevance. An exact match for your search term appears at the top of the list, followed by the next closest matches. This helps you find the catalog you want without scrolling through long lists of similar names.
+
+### About relevance-based catalog search
+
+Catalog search returns results in descending order of relevance. It uses the same type of search ranking and phrase matching that is already available in other Adobe Learning Manager search experiences for learners and administrators.
+
+Prior to December 2026 of Adobe Learning Manager, search results were not ordered by relevance. If your account has many catalogs with similar names, such as a shared prefix followed by a date, month, or ID, the catalog you wanted could appear far down the list.
+
+With relevance-based search:
+
+* An exact match for your search term appears first.
+* The next closest match appears second.
+* The remaining results follow in descending order of relevance.
+
+1. Sign in to Adobe Learning Manager as an administrator.
+2. Select **Catalogs** in the left navigation pane.
+3. In the search box, enter the name of the catalog, or part of it.
+
+Review the results. The closest match appears at the top of the list. Select the required catalog from the list.
+
+### Example search result
+
+Suppose your account includes catalogs with names that differ by only a few characters. The following table shows how results are ordered when you search for the term `March 5`.
+
+| Search term                                                 | Result position       | Match type     |
+|-----------------------------------------------------------------|---------------------------|--------------------|
+| `March 5`                                                       | First                     | Exact match        |
+| `March 5` followed by additional characters, such as `March 52` | Second                    | Next closest match |
+| Other catalogs that contain similar text                        | After the closest matches | Lower relevance    |
+
+If you search for `March 52` instead, the catalog named `March 52` appears first, followed by the next closest matches.
+
+Relevance-based search is most useful if your organization manages hundreds or thousands of catalogs. It helps you:
+
+* Locate a specific catalog without scrolling or manual searching.
+* Distinguish between catalogs with common naming patterns.
+* Get search behavior that is consistent with other Adobe Learning Manager search experiences.
 
 ## Create a catalog {#createacatalog}
 

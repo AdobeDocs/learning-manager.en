@@ -14,6 +14,40 @@ Your Virtual Coach report card shows how you performed in a role play, including
 
 Every completed session automatically generates a report. Access it immediately after a session by selecting **See Analysis**, or return to it any time from the session history in **My Learnings**. You can also download your report as a PDF to keep for your own records or share with a manager.
 
+## Download your Virtual Coach session analysis
+
+Download your Virtual Coach session analysis as a signed PDF in Adobe Learning Manager and share it with your manager or instructor.
+
+After you finish a Virtual Coach session, Adobe Learning Manager generates an analysis of your performance. You can view it again after you close the player, retake the session, and download the analysis as a signed PDF.
+
+1. Open the course or job aid that contains your Virtual Coach session.
+2. Select **Session Analysis**.
+
+   ![](/help/migrated/learners/feature-summary/assets/vc-enhancement1.png)
+
+3. Review your analysis. Generating the analysis can take a moment.
+4. Select **Download** to save the signed PDF of the analysis.
+
+Share the PDF with your manager or instructor as evidence of your performance. The file includes a C2PA signature. For details, view [About C2PA signatures in session analysis PDFs](#c2pa-signatures).
+
+## C2PA signatures in session analysis PDFs {#c2pa-signatures}
+
+AI generates the Virtual Coach session analysis. To help others trust a downloaded copy, Learning Manager signs the PDF with a [C2PA](https://c2pa.org/) signature.
+
+C2PA is an open industry standard for content authenticity. Adobe Learning Manager uses the same Adobe signing service that other Adobe products use.
+
+### What the signature contains
+
+The signature is a cryptographically signed manifest embedded in the PDF. It records that:
+
+* Adobe Learning Manager generated the analysis
+
+* The analysis was generated on a specific date
+
+### Why the signature matters
+
+When you share the PDF with a manager or instructor, the signature provides evidence that the file is authentic and wasn't edited after download.
+
 ## How your overall score is calculated
 
 Your overall score is a weighted combination of two components: a **Knowledge score** and a **Style score**. The author who created the scenario sets the weight of each component; a common configuration is 70% knowledge and 30% style, but this varies by scenario.

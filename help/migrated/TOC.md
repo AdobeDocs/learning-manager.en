@@ -61,6 +61,7 @@ nudge: true
    * [Group (team) submissions and rubric based assessments](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
    * [Module access time control](/help/migrated/administrators/feature-summary/module-access-time-control.md)
    * [Manage Holidays](./getting-started-with-live-hub/manage-holidays.md)
+   * [Admin branding: repositioning homepage PLP and VC strips](/help/migrated/administrators/feature-summary/admin-branding-repositioning.md)
    * Experience Builder in Adobe Learning Manager {#experience-builder}
       * [Overview](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
       * [Core components of Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -166,6 +167,7 @@ nudge: true
    * [Application developer manual](/help/migrated/integration-admin/feature-summary/developer-manual.md)
    * [Learner Assistant integration using iFrame](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md) 
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
+   * [ALM-Workfront cancellation/update trigger](integration-admin/feature-summary/alm-workfront-cancellation.md)
    * [Track attendance through Adobe Connect recording views](integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
    * Learning Manager Connectors {#connectors}
       * [Connectors overview](integration-admin/feature-summary/connectors.md)
@@ -189,6 +191,7 @@ nudge: true
    * Webhooks {#webhooks}
      * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
      * [Webhooks usage guide](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
+     * [Webhook events for LO instance edits by instructors](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
    * [Credly](integration-admin/feature-summary/credly-integration.md)
    * [Learning Tools Interoperability](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [LTI deep links](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)
@@ -292,6 +295,7 @@ nudge: true
    modules.md)
    * [Evaluate and unsubmit a team submission](/help/migrated/instructors/feature-summary/evaluate-and-unsubmit-team-submission.md)
    * [Managing learners for your session](instructors/feature-summary/learners.md)
+   * [Resend session invite](instructors/feature-summary/resend-session-invite.md)
 * Learner {#learner}
    * [Log in](learners/feature-summary/user-login.md)
    * [Profile Settings](learners/feature-summary/settings.md)
