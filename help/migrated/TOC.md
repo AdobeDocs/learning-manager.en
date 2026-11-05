@@ -79,6 +79,7 @@ nudge: true
          * [Customize Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
       * [Non-logged in experience in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+      * [Use a non-logged-in menu URL for self-registration](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
       * [Non-logged in enhancements](/help/migrated/administrators/feature-summary/non-logged-in-enhancements.md)
    * Settings {#settings}
       * [Overview](/help/migrated/administrators/feature-summary/settings/settings-overview.md)

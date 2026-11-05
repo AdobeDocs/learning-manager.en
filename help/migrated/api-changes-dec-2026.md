@@ -1179,3 +1179,199 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page[limit]=10&f
   ]
 }
 ```
+
+## Last access date for learning path enrollment
+
+Adobe Learning Manager lets you store custom metadata, such as a last access date, on a learning path enrollment. You set and read the metadata through the API. This helps you track time-bound access to learning paths that you assign.
+
+### About Learning Path enrollment metadata
+
+You can already set a last access date on a course enrollment through the API. That date controls how long a learner can access the course. Learning path enrollments now support a generic metadata field, so you can store a last access date or any other value that you want to track.
+
+You do not need to turn on the field or send a special header. The field is empty until you set it.
+
+>[!NOTE]
+>
+>The metadata is for your own tracking. Adobe Learning Manager does not update it when learners open a learning path or its courses, and it does not control access to the learning path. It is also not propagated to the courses in the path. Each course keeps its own last access date, so courses in the same path can have different dates. Continue to manage course-level access expiration separately.
+
+### Metadata rules
+
+* The value must be a JSON object. A string, number, Boolean, or array returns a `400` error with the message `metadata must be a JSON object`.
+* You can use any keys. Adobe Learning Manager does not validate keys or values, and it does not enforce a date format. The examples in this article use epoch milliseconds, the same format as course dates.
+* A `PATCH` request replaces the entire metadata object. It does not merge with existing values, so keys that you leave out are removed.
+* Setting `"metadata": null` clears all metadata and returns `200`.
+* A request with an empty `attributes` object, or without a `metadata` key, leaves the stored metadata unchanged.
+* When no metadata is set, or after you clear it, the `metadata` key is not in the response.
+
+### Set metadata on an existing enrollment
+
+Use an admin token.
+
+Send a `PATCH` request to the following endpoint, where `{enrollmentId}` is the learning path enrollment ID in the format `learningProgram:<lpId><instanceId><userId>`:
+
+```http
+PATCH /primeapi/v2/users/{userId}/enrollments/{enrollmentId}
+```
+
+Use this request body:
+
+```json
+{
+  "data": {
+    "id": "<enrollmentId>",
+    "type": "learningObjectInstanceEnrollment",
+    "attributes": {
+      "metadata": {
+        "lastAccessDate": 1745337600000
+      }
+    }
+  }
+}
+```
+
+### Set metadata when you enroll a learner
+
+Use an admin token.
+
+Send a `POST` request with the learning path and instance IDs. Include an optional `metadata` object in the request body.
+
+```http
+POST /primeapi/v2/users/{userId}/enrollments?loId=<lpId>&loInstanceId=<instanceId>
+```
+
+* If `metadata` is not a JSON object, the request returns `400` and the user is not enrolled.
+* If the user is already enrolled, the request returns `200` and changes nothing. To change metadata for an existing enrollment, use the `PATCH` request.
+* The response does not include the metadata. Send a `GET` request to read it.
+
+### Retrieve metadata
+
+You can retrieve metadata with an admin or a learner token. The requests differ by token type.
+
+| Token | Get one enrollment | List learning path enrollments |
+|---|---|---|
+| Admin | `GET /primeapi/v2/users/{userId}/enrollments/{enrollmentId}` | `GET /primeapi/v2/users/{userId}/enrollments?filter.loTypes=learningProgram` |
+| Learner | `GET /primeapi/v2/enrollments/{enrollmentId}`<br>`GET /primeapi/v2/learningObjects/{id}?include=enrollment` | `GET /primeapi/v2/enrollments?filter.loTypes=learningProgram` |
+
+>[!NOTE]
+>
+>The `include=enrollment` parameter works only with a learner token. It is not supported for the admin role.
+
+The response returns the `metadata` object with the learning path enrollment.
+
+### Use metadata in headless and external portals
+
+External portals and integrations use the same API calls. Use the request that matches the token your portal uses.
+
+* **Show the value in your portal:** Send the `GET` request for your token type from the table above, and read the `metadata` object from the response.
+* **Update the value from an external system, such as a commerce platform:** Send the `PATCH` request with an admin token.
+
+## Job API: Export Report Builder reports with generateCustomReport (L2 quiz report: bulk export and json format)
+
+Adobe Learning Manager December 2026 release adds a new job type, `generateCustomReport`, to the Job API. Use it to export any report you created in Report Builder, in an automated way, by passing the report ID.
+
+Combined with the new L2 quiz dataset in Report Builder, you can now:
+
+* Export question-level (L2) quiz data across multiple courses and modules in a single report, instead of running `generateQuizReport` once for each course.
+* Automate recurring exports, for example, a daily incremental export to your data warehouse or BI tool.
+
+Existing job types, including `generateQuizReport`, are unchanged.
+
+### Before you begin
+
+* You must be an Admin. The `generateCustomReport` job type isn't available to other roles.
+* Create and save the report in Report Builder first. For L2 quiz data, build the report from the L2 quiz dataset, and include the question-level fields you need, such as question text, learner response, score, attempt number, and answered-on date.
+* Note the report's ID. You pass it in the request as `reportId`.
+
+### Create a job
+
+**Endpoint**
+
+```http
+POST /primeapi/v2/jobs
+```
+
+**Request body**
+
+```json
+{
+  "data": {
+    "type": "job",
+    "attributes": {
+      "description": "Daily L2 quiz export",
+      "jobType": "generateCustomReport",
+      "payload": {
+        "reportId": "1478"
+      }
+    }
+  }
+}
+```
+
+**Attributes**
+
+| Attribute      | Required | Description                                                                    |
+|--------------------|--------------|------------------------------------------------------------------------------------|
+| `jobType`          | Yes          | Must be `generateCustomReport`.                                                    |
+| `payload.reportId` | Yes          | The ID of the saved Report Builder report, as a string. Must be a positive number. |
+| `description`      | No           | A description of your choice for the job.                                          |
+| `callbackUrl`      | No           | A URL to call when the job completes. Works the same way as for other job types.   |
+
+### Report requirements
+
+The job fails with an error message if the report doesn't meet these conditions:
+
+* The report definition includes a duration filter.
+* The relative duration filter that's configured in the report doesn't span more than 7 days.
+
+>[!NOTE]
+>
+>The job runs asynchronously. A report that doesn't meet the conditions is rejected when the job is processed, so check the job status for the error.
+
+## Check the job status and download the report
+
+**Endpoint**
+
+```http
+GET /primeapi/v2/jobs/{jobId}
+```
+
+The response uses the same structure as other job types. When the job completes, `status.code` is `completed`, and `status.data.s3Url` contains the download link.
+
+```json
+{
+  "data": {
+    "type": "job",
+    "id": "12345",
+    "attributes": {
+      "jobType": "generateCustomReport",
+      "payload": {
+        "reportId": "1478"
+      },
+      "status": {
+        "code": "completed",
+        "data": {
+          "s3Url": "<time-limited-download-url>"
+        }
+      }
+    }
+  }
+}
+```
+
+>[!NOTE]
+>
+>The download URL is time-limited. Download the file as soon as the job completes.
+
+### Limits
+
+All existing Job API limits and restrictions apply to `generateCustomReport`. This includes the limit on the number of calls allowed per day. For admin reports, the default limit is 5 calls per day.
+
+### L2 quiz report output {#l2-quiz-report-output}
+
+When you build the report from the L2 quiz dataset in Report Builder:
+
+* The output is a single CSV file. The module is a column in the file, and selecting a course returns only its quiz modules.
+* Each row represents one learner's answer to one question in one attempt. It includes the question ID and text, the learner's response, the score achieved, the maximum score, whether the response was correct, the attempt number, the answered-on date, and the module version.
+* Learner details, custom and metadata attributes, manager, and course and module names are available through the related user and learning object datasets.
+* Data refreshes at the standard Report Builder interval (approximately every 15 minutes).
+
