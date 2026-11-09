@@ -12,20 +12,64 @@ Select between two existing elements. The + button appears. Select it to open th
 
 Available components:
 
-| **Component**  | **Use for**                                       |
-|----------------|---------------------------------------------------|
-| **Paragraph**  | Body text and explanations                        |
-| **Image**      | Illustrations, screenshots, diagrams              |
-| **Video**      | Embedded MP4 or linked video                      |
-| **Flip Card**  | Term or definition pairs, reveal interactions     |
-| **Image Grid** | Multiple images in a grid layout                  |
-| **Accordion**  | Expandable sections, step-by-step procedures      |
-| **Timeline**   | Sequential events or process steps                |
-| **Web Object** | Embedding external web content, a webpage, interactive tool, survey, or web application, directly inside a topic slide                           |   
-| **Tab**        | Parallel content - comparisons, regional variants |
-| **Carousel**   | Swipeable series of images or content cards       |
-| **MCQ**        | Inline ungraded knowledge check                   |
-| **True/False** | Inline ungraded true or false check               |
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Use for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Paragraph</strong></td>
+      <td>Body text and explanations</td>
+    </tr>
+    <tr>
+      <td><strong>Image</strong></td>
+      <td>Illustrations, screenshots, diagrams</td>
+    </tr>
+    <tr>
+      <td><strong>Video</strong></td>
+      <td>Embedded MP4 or linked video</td>
+    </tr>
+    <tr>
+      <td><strong>Flip Card</strong></td>
+      <td>Term or definition pairs, reveal interactions</td>
+    </tr>
+    <tr>
+      <td><strong>Image Grid</strong></td>
+      <td>Multiple images in a grid layout</td>
+    </tr>
+    <tr>
+      <td><strong>Accordion</strong></td>
+      <td>Expandable sections, step-by-step procedures</td>
+    </tr>
+    <tr>
+      <td><strong>Timeline</strong></td>
+      <td>Sequential events or process steps</td>
+    </tr>
+    <tr>
+      <td><strong>Web Object</strong></td>
+      <td>Embed external web content, a webpage, interactive tool, survey, or web application, directly inside a topic slide</td>
+    </tr>
+    <tr>
+      <td><strong>Tab</strong></td>
+      <td>Parallel content — comparisons, regional variants</td>
+    </tr>
+    <tr>
+      <td><strong>Carousel</strong></td>
+      <td>Swipeable series of images or content cards</td>
+    </tr>
+    <tr>
+      <td><strong>MCQ</strong></td>
+      <td>Inline ungraded knowledge check</td>
+    </tr>
+    <tr>
+      <td><strong>True/False</strong></td>
+      <td>Inline ungraded true or false check</td>
+    </tr>
+  </tbody>
+</table>
 
 >[!NOTE]
 >
