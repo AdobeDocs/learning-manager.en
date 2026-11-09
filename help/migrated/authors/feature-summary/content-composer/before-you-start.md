@@ -14,6 +14,33 @@ Before launching Adobe Learning Manager Content Composer, confirm the following:
 
 For the best experience with Content Composer, **Google Chrome is the recommended browser**. Firefox and Safari may show differences in functionality or behavior.
 
+## Account menu and preferences in Content Composer
+
+Access your Adobe account settings, set your display preferences, and open recent projects from the Content Composer account menu.
+
+The Content Composer toolbar includes the Adobe universal navigation account menu. Use it to adjust your display theme and language, and to quickly reopen projects you have worked on recently.
+
+### Open the account menu
+
+Select your profile icon in the top-right corner of the Content Composer toolbar to open the account menu.
+
+1. Set your preferences
+2. Select your profile icon to open the account menu.
+3. Select [!UICONTROL Preferences]. The [!UICONTROL Preferences] dialog opens.
+4. Under [!UICONTROL Theme], select [!UICONTROL Light] or [!UICONTROL Dark] to set the display mode for the Content Composer interface.
+5. Under [!UICONTROL Language], select your preferred display language.
+6. Select [!UICONTROL Save] to apply your changes.
+
+>[!NOTE]
+>
+>Theme and language preferences apply to the Content Composer interface only. They do not affect the visual theme of your course or the language of your course content.
+
+## Open a recent project
+
+The account menu includes a [!UICONTROL Recents] list showing your most recently opened Content Composer projects.
+
+Select any project in the [!UICONTROL Recents] list to open it directly.
+
 ## Optional requirements
 
 * You have a general idea of the subject area you want to cover. You do not need full clarity before you begin.
