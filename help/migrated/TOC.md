@@ -51,6 +51,9 @@ nudge: true
       * [Enable Live Hub (Beta)](./administrators/feature-summary/enable-live-hub.md)
    * [Admin AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Insights Agent (beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/insights-agent.md)
+   * [Introduction to ALM MCP server](/help/migrated/administrators/feature-summary/intro-alm-mcp.md)
+   * [Configure an MCP server](/help/migrated/administrators/feature-summary/configure-mcp-admin.md)
+   * [Add ALM to your enterprisre AI client](/help/migrated/administrators/feature-summary/add-alm-to-ai-client.md)
    * [User log in](administrators/feature-summary/user-login.md)
    * User Management {#user-management}
       * [Add users in Adobe Learning Manager](administrators/feature-summary/add-users-user-groups.md)
@@ -165,6 +168,7 @@ nudge: true
    * [Learning Programs](administrators/feature-summary/learning-programs.md)
    * [Product Terminology](administrators/feature-summary/product-terminology.md)
 * Integration Admin {#integration}
+   * [Configure ALM MCP server](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
    * [Application developer manual](/help/migrated/integration-admin/feature-summary/developer-manual.md)
    * [Learner Assistant integration using iFrame](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md) 
    * [Migration manual](integration-admin/feature-summary/migration-manual.md)
@@ -324,6 +328,10 @@ nudge: true
    * [Announcements](learners/feature-summary/announcements.md)
    * [Waitlist & attendance management](learners/feature-summary/waitlist-attendance-management.md)
    * [AI Assistant for learners](learners/feature-summary/learner-ai-assistant.md)
+   * [Connect AI client to ALM](learners/feature-summary/connect-ai-client-to-alm-learner.md)
+   * [Add ALM to Claude](learners/feature-summary/add-alm-to-claude-learner.md)
+   * [Learner tools reference](learners/feature-summary/learner-tools-reference.md)
+   * [Sample prompts for learners](learners/feature-summary/sample-prompts-for-learners.md)
    * [Learning Path Agent (beta) in Adobe Learning Manager](learners/feature-summary/learning-path-agent.md)
    * [AI-powered search in Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Learning Manager app for Salesforce](learners/feature-summary/sfdc-app.md)

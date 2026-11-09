@@ -375,8 +375,9 @@ For Learning Assistant to query Go1 or LinkedIn Learning content:
 
 ## Troubleshoot AI Assistant issues
 
-> **NOTE**
-> After configuring a new catalog, allow 4–5 hours for the content to be indexed and available for AI Assistant responses.
+>[!NOTE]
+>
+>After configuring a new catalog, allow 4–5 hours for the content to be indexed and available for AI Assistant responses.
 
 ### No access to content
 
@@ -425,10 +426,68 @@ For Learning Assistant to query Go1 or LinkedIn Learning content:
 
 The AI Assistant is designed to answer questions based only on assigned learning content and won't respond to out-of-scope queries.
 
-### Go1 or LinkedIn Learning courses aren't appearing in Learning Assistant search
-
+**Go1 or LinkedIn Learning courses aren't appearing in Learning Assistant search**
 Confirm with your administrator that the Go1 or LinkedIn Learning catalog has been added to Adobe Learning Manager and that the catalog ingestion has completed. Ingestion may take up to one to two hours after the catalog is added.
 
-### A recently added course isn't available yet
-
+**A recently added course isn't available yet**
 Wait for the scheduled catalog sync to complete. If the course still doesn't appear after two hours, contact your administrator to confirm the catalog connection is active.
+
+**A Learning Path does not appear as a citation**
+Confirm that the Learning Path is relevant to the question and visible to the learner in the catalog. Learner Assistant does not show content that is hidden from the learner.
+
+**What do learners see when an agent is disabled?**
+Learner Assistant does not run a disabled agent. For example, if you disable the **Answer Agent** and a learner asks a question that needs it, Learner Assistant does not return a course-based summary. It offers options from the agents that are still enabled.
+
+## Learning Path citations in Learner Assistant answers
+
+Learner Assistant now cites relevant Learning Paths alongside courses, so learners can find broader structured learning on their topic.
+
+### How do Learning Path citations work in Learner Assistant
+
+When Learner Assistant answers a question, it lists the learning content it used as citations. Earlier releases cited courses only. Learner Assistant now also cites Learning Paths that are relevant to the question. Learners can open a Learning Path citation to see the structured learning related to their topic.
+
+## What determines which citations appear
+
+* Learner Assistant shows a citation only when the learning content is relevant to the question and visible to the learner in the catalog.
+* If a course or Learning Path is not visible to the learner, Learner Assistant does not show it.
+* If a course and a relevant Learning Path are both visible, Learner Assistant can show both.
+* Selecting a Learning Path citation opens that Learning Path.
+
+### Find a Learning Path through Learner Assistant
+
+1. Open **Learner Assistant** and ask a question about a topic.
+2. Review the answer and the citations listed with it.
+3. Select a course or Learning Path citation to open it.
+
+## Configure Learner Assistant agents
+
+Turn individual Learner Assistant agents on or off to control which AI capabilities your learners can use in Adobe Learning Manager.
+
+### What are Learner Assistant agents?
+
+Administrators can enable or disable Learner Assistant for the whole account. Starting with this release, administrators can also control the individual agents that make up Learner Assistant. You can enable any combination of agents.
+
+| Agent               | What it provides                                                       | AI credits                          |
+|-------------------------|----------------------------------------------------------------------------|-----------------------------------------|
+| **Knowledge Agent**     | The default agent. Available whenever the learner AI Assistant is enabled. | No credits consumed                     |
+| **Answer Agent**        | Answers learner questions with a summary from course content.              | Consumes purchased AI credits per query |
+| **Learning Path Agent** | Builds personalized Learning Paths for learners.                           | Consumes purchased AI credits per query |
+
+>[!NOTE]
+>
+>The administrator AI Assistant has the same agent-level controls, with the **Knowledge Agent** and the **Insights Agent**.
+
+### Enable or disable Learner Assistant agents
+
+1. Sign in to Adobe Learning Manager as an administrator.
+2. Select **AI in Learning** in the left navigation pane.
+
+   ![](assets/lp-la-citation1.png)
+
+3. In the learner AI Assistant section, select **Edit**, and turn each agent on or off as needed.
+
+   ![](assets/lp-la-citation2.png)
+
+4. Save your changes.
+
+The Learner Assistant now features all the enabled agents, which a learner can start using.
