@@ -50,7 +50,7 @@ Authors can now add adaptive courses to adaptive learning paths in Adobe Learnin
 
 Adobe Learning Manager evaluates visibility at the section level and at the course level. The section rule decides whether a learner sees a section and the adaptive courses in it. The module rules inside each adaptive course then decide whether the learner is enrolled in the course.
 
-A change to a learner's user groups or to the path structure doesn't enroll the learner in an adaptive learning path on its own. Enrollment in the path still requires an enrollment action or a learning plan.
+Learners will be auto-enrolled whenever there is a UG change with respect to the adaptive course within Adaptive LP. And for the same, learners will receive auto-enrollment notifications and emails.
 
 ### Enrollment evaluation rules
 
@@ -67,11 +67,9 @@ If the learner is already enrolled in an instance of the course that belongs to 
 
 After enrollment, the following rules apply:
 
-* A learner who was skipped for a course isn't enrolled in it later, even if user groups or course settings change.
-
+* A learner who skipped a course initially due to visibility can be auto-enrolled if the adaptive course is visible because of the visibility/mandatory rule changes later.
 * A user group change or a course change can unenroll a learner from an adaptive course. If no mandatory content remains in the path, the learner is unenrolled from the path.
-
-* A change that opens a section that was skipped can enroll the learner in the adaptive courses in that section.
+* For section changes, learner will not receive any auto-enrollment notification or email. Simply upon page reload, the learner can see the changes.
 
 ### Waitlist behavior in adaptive learning paths
 
@@ -80,10 +78,10 @@ Waitlisting works at the session level, not the instance level. This applies to 
 | Scenario                                                                     | Behavior                                                                                                                     |
 |----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | No adaptive course in the path has a classroom or virtual classroom module       | No waitlisting applies.                                                                                                          |
-| A course has a classroom or virtual classroom module and no instance is selected | The course defaults to **No instance**. The learner can enroll in any instance and is waitlisted only on sessions that are full. |
+| An adaptive course has a classroom or virtual classroom module and no instance is selected | The course defaults to **No instance**. The learner can enroll in any instance and is waitlisted only on sessions that are full. |
 | An instance is selected before enrollment                                        | The learner is enrolled in that instance and is waitlisted only on sessions that are full.                                       |
 
-To manage waitlisted learners, open the adaptive course and select **Learners** > **Waitlist** tab. For an adaptive course in a Flex learning path, waitlisted learners appear only on the **Waitlist** tab of the course and not under the learning path.
+To manage waitlisted learners, open the adaptive course and select **Learners** > **Waitlist** tab. For an adaptive course in a flex learning path and adaptive learning path, waitlisted learners appear only on the **Waitlist** tab of the course and not under the learning path.
 
 ### Refresh completion and rollback behavior
 
