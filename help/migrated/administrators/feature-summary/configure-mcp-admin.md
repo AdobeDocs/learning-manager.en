@@ -28,7 +28,7 @@ As an administrator, you create a server, copy its credentials, and give them to
 5. Select **Next**.
 6. On the **Available tools** page, review the learner tools that the server exposes. Provide detailed, contextual, and purpose-driven descriptions for MCP tools. Well-written tool descriptions help MCP-compatible clients discover and invoke the appropriate tools more accurately. Include the tool's purpose, supported tasks, expected inputs, and typical use cases. Clear and concise descriptions improve tool selection and overall user experience when learners interact with AI assistants.
 
-   ![](assets/config-mcp-server2.png)
+   ![](assets/config-mcp-server5.png)
 
 7. Select **Next**. The **MCP Server created** dialog appears.
 8. Copy the **MCP Endpoint URL**, **Client ID** and **Secret Key**. Select **Copy** next to each value.
