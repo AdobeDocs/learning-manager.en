@@ -8,7 +8,7 @@ product_v2:
 
 # Role of Administrator in Live Hub session
 
-**Availability**: [!BADGE Beta for Prime Customers]{type=Informative}
+**Availability**: [!BADGE Beta 'Prime Customers']{type=Informative}
 
 As an Administrator in Adobe Learning Manager (ALM), you can configure and manage key components required for delivering Live Hub training. These capabilities help streamline Instructor assignments, course setup, branding, and reporting.
 
