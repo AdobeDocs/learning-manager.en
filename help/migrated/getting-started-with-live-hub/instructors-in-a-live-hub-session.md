@@ -8,7 +8,7 @@ product_v2:
 
 # Role of Instructors in a Live Hub session
 
-**Availability**: [!BADGE Beta for Prime Customers]{type=Informative}
+**Availability**: [!BADGE Beta (Prime Customers)]{type=Informative}
 
 As an Instructor in Adobe Learning Manager, you play a key role in delivering effective Live Hub sessions and ensuring an engaging learning experience.
 
