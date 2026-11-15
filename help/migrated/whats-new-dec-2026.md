@@ -337,7 +337,7 @@ Live Hub is now generally available for Ultimate customers and remains in beta f
 
 Closed captions in Live Hub have been enhanced to support additional languages. Instructors can now select the caption language in **Room settings** based on the language spoken during the session.
 
-Captions are generated automatically in the selected language and displayed in a dedicated panel that updates continuously as the instructor speaks. All participants view captions in the language selected by the instructor.
+Captions are generated automatically in the selected language and displayed in a dedicated panel that updates continuously as the Instructor speaks. All participants view captions in the language selected by the Instructor.
 
 This enhancement improves accessibility for participants across different languages and helps them follow live sessions more effectively.
 
@@ -365,7 +365,7 @@ Group enrollment reservation and waitlist management give Authors finer control 
 
 Adobe Learning Manager now supports multiple Zoom connections within a single account, allowing organizations to manage virtual classroom sessions across different Zoom accounts.
 
-Integration Admins can configure multiple Zoom connections and assign them to specific roles or user groups. When creating or editing a course session, authors can select from the Zoom connections available to them, with each session using one connection.
+Integration Admins can configure multiple Zoom connections and assign them to specific roles or user groups. When creating or editing a course session, Authors can select from the Zoom connections available to them, with each session using one connection.
 
 This enhancement provides greater flexibility for organizations that use multiple Zoom accounts, particularly for:
 
