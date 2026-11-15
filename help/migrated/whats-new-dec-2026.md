@@ -359,7 +359,7 @@ Channels are now generally available for all customers.
 
 ## Group enrollment windows and seat reservation
 
-Group enrollment reservation and waitlist management give Authors finer control over who can enroll in Classroom and Virtual Classroom courses. Authors can allocate seats to specific user groups and set separate enrollment open dates for those groups and for all other learners. They can also turn on automatic waitlist promotion with a cut-off date, so a freed seat goes to the next eligible learner. Reserving all seats restricts a course to the selected groups.
+Group enrollment reservation and waitlist management give Authors finer control over who can enroll in Classroom and Virtual Classroom courses. Authors can allocate seats to specific user groups and set separate enrollment open dates for those groups and for all other learners. They can also turn on automatic waitlist promotion with a cut-off date, so an available seat goes to the next eligible learner. Reserving all seats restricts a course to the selected groups.
 
 ## Support for multiple Zoom connections
 
