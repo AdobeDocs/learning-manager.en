@@ -90,7 +90,6 @@ Administrators can edit each tool description, for example to add organization-s
 ## Personalized learning path editing and branding strips
 
 - Learners can now remove suggested topics or courses with a single click, in addition to the existing option to refine topic and course lists through chat.
-
 - Administrators can now reposition the personalized learning paths strip on the learner home page through the Branding page.
 
 ## Virtual Coach: AI-powered role-play for skills practice
@@ -103,7 +102,7 @@ Learner Assistant answers now cite the learning path that contains a source cour
 
 ## AI Assistant configurations
 
-The Administrator Assistant offers two agents—Insights Agent and Knowledge Assistant— which can be configured individually. The Learner Assistant offers three agents—Knowledge Assistant, Answer Agent, and Learning Path Agent, which can be configured along with the catalog configuration.
+The Administrator Assistant offers two agents—Insights Agent and Knowledge Agent—which can be configured individually. The Learner Assistant offers three agents—Knowledge Agent, Answer Agent, and Learning Path Agent, which can be configured along with the catalog configuration.
 
 ## Webhooks for instructor edits to learning object instances
 
@@ -127,15 +126,11 @@ Email Builder in Adobe Learning Manager lets administrators and authors create b
 
 With Email Builder, you can:
 
-- Create reusable email layouts
-
-- Apply organization branding
-
-- Customize banners and signatures
-
-- Define default fonts and colors
-
-- Standardize communication across courses and learning programs
+* Create reusable email layouts
+* Apply organization branding
+* Customize banners and signatures
+* Define default fonts and colors
+* Standardize communication across courses and learning programs
 
 Administrators create account-wide email templates and layouts. Authors customize emails at the course and instance levels without rebuilding templates from scratch.
 
@@ -160,19 +155,15 @@ A template links to the nearest available layout. An instance-level template lin
 
 When a template is linked to a layout:
 
-- Branding flows into the template automatically.
-
-- Authors update only the content.
-
-- The layout reduces duplication across messages.
+* Branding flows into the template automatically.
+* Authors update only the content.
+* The layout reduces duplication across messages.
 
 You can unlink a template from its layout. After you unlink a template:
 
-- The template keeps its existing design.
-
-- Future layout updates don't affect the template.
-
-- The template becomes independently editable.
+* The template keeps its existing design.
+* Future layout updates don't affect the template.
+* The template becomes independently editable.
 
 Layout inheritance depends on the parent layouts that are available. When both levels exist, instance-level emails override course-level templates.
 
@@ -266,11 +257,9 @@ The user is added to your account with the full name. In compact views, the name
 
 If you add users in bulk, you can include long names in your CSV file. The first name column accepts up to 255 characters.
 
-1.  Prepare your user CSV file. Ensure that each first name is 255 characters or fewer.
-
-2.  Log in to Adobe Learning Manager as an administrator.
-
-3.  Import the CSV file by using the **Upload a CSV** option.
+1. Prepare your user CSV file. Ensure that each first name is 255 characters or fewer.
+2. Log in to Adobe Learning Manager as an administrator.
+3. Import the CSV file by using the **Upload a CSV** option.
 
 Review the import results to confirm that all users were added.
 
@@ -280,9 +269,33 @@ When authors add courses or learning paths, a window now lists existing courses 
 
 ## Non-logged-in enhancements
 
-Adobe Learning Manager has long let anonymous visitors browse catalogs and course overviews, but playing any content required a login. For customer-education academies, this gate appears when a prospect finds a relevant course and wants to evaluate it, so each gated play can cost a lead.
+**Content consumption without login**
 
-Non-logged-in enhancements in this release remove that barrier in a controlled way. Administrators choose which catalogs are public, and authors choose which courses and modules anyone can play without an account. Learning Manager also publishes crawlable, AI-readable pages so academies can be found through search engines and AI assistants like Claude and ChatGPT. Anonymous usage is metered per visitor and reported separately from logged-in usage.
+Visitors to your public academy can now play selected content straight from the course overview page, with no account, email, or form required.
+
+* Admins can turn non-logged-in content consumption on or off for the whole account. 
+* Authors can make an entire course available without login, or open up only specific modules, such as a free introductory module ahead of gated advanced content. 
+* Learning paths and certifications follow the settings of the courses inside them, with no extra setup.
+* Unauthenticated learners can watch available non-logged in content without signing in into their account.
+* Self-paced content only: This applies to self-paced content only. Third-party licensed content and acquired catalog content can't be made available without login.
+* Reports on anonymous consumption: Monthly non-logged in content consumption report. 
+* Supported surfaces. Non-logged-in content consumption is supported on native ALM on web and mobile, on headless deployments, and on AEM Sites widgets based academies.
+
+**Choose which catalogs are public**
+
+Admins can now pick the specific catalogs that appear in the public academy. Only those catalogs can be browsed by anonymous visitors and indexed by search engines and AI assistants, so test courses or internal content stay private.
+ 
+**Get found in search engines and AI assistants (Beta)**
+
+ALM can now make your public academy discoverable by search engines like Google and by AI assistants like ChatGPT, Claude, and Gemini. Your courses can then appear in search results and AI-generated answers, attributed to your academy.
+
+* **Account-level controls** let admins decide whether crawlers can access the public academy and whether its content can be indexed.
+* **Each academy gets its own sitemap and robots.txt**, generated automatically from the catalogs you've made public.
+* **Pages are pre-rendered for crawlers**, so AI assistants that don't run JavaScript can still read them.
+* **Crawlers only ever see what a visitor could access**. Gated content is never exposed.
+* **Meta title, description, and structured data:** Allows generation of Meta title, description, and structured data automatically for every course, learning path, and certification on the basis of learning metadata. 
+
+Good to know: AI and Search discovery on native ALM requires a custom domain. Headless deployments will need to implement parts of the setup in their own environment.
 
 ## Retire a course without making a learning path inaccessible
 
