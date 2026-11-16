@@ -14,7 +14,7 @@ The upcoming release of Adobe Learning Manager introduces a variety of new featu
 
 ## Report Builder charts and dashboards
 
-Adobe Learning Manager now supports charts and dashboards in Report Builder, allowing Administrators to visualize report data directly within the platform. Administrators can create charts from report columns, with aggregation and filtering available on each chart.
+Adobe Learning Manager now supports charts and dashboards in Report Builder, allowing Administrators to visualize report data directly within the platform. Administrators can create charts from report columns, with aggregation and filtering available in each chart.
 
 Report Builder supports the following chart types:
 
