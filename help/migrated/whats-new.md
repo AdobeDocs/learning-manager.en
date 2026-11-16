@@ -321,7 +321,7 @@ This gives global participants a consistent experience across the platform and i
 
 ## Live Hub sessions up to 5000 attendees
 
-Live Hub now supports large-scale sessions with up to 5000 attendees, allowing organizations to conduct large training sessions. Authors can choose a capacity of 5,000 attendees when adding a Virtual Classroom module to a course. Live Hub automatically configures the room based on the audience size and applies specific interaction restrictions. 
+Live Hub now supports large-scale sessions with up to 5000 attendees, allowing organizations to conduct large training sessions. Authors can choose a capacity of 5000 attendees when adding a Virtual Classroom module to a course. Live Hub automatically configures the room based on the audience size and applies specific interaction restrictions. 
 
 In large sessions, the following capabilities and behaviors apply:
 
@@ -397,9 +397,9 @@ This release includes new APIs that support discussion board Instructor notifica
 
 The enrollments API now supports multi-enrolled instances in the Learner app. Add the optional `includeMultiInstanceEnrollments=true` parameter to `GET /enrollments` to include them. The default is `false`, so existing integrations, including headless implementations, keep working unchanged.
 
-### Last access date for learning path enrollment
+### Last access date for Learning Paths enrollment
 
-You can now store custom metadata, such as a last access date, on a learning path enrollment and set and read it through the API. This helps you track time-bound access to the learning paths you assign.
+You can now store custom metadata, such as a last access date, on a Learning Path enrollment and set and read it through the API. This helps you track time-bound access to the learning paths you assign.
 
 * Set the metadata on an existing enrollment or when you enroll a Learner, using an admin token.
 * Read it with an admin or Learner token.
