@@ -10,7 +10,8 @@ nudge: true
 * [Adobe Learning Manager User Guide](user-guide.md)
 * {hide-from-toc} [Adobe Learning Manager User Guide](user-guide-redesign.md)
 * Introduction {#introduction}
-   * [New features summary August 2026](whats-new.md)
+   * [New features summary December 2026](whats-new.md)
+   * [New features summary August 2026](whats-new-aug-2026.md)
    * [New features summary April 2026](whats-new-april-2026.md)
    * [New features summary October 2025](/help/migrated/whats-new-october-2025.md)
    * [New features summary May 2025](/help/migrated/whats-new-may-2025.md)
