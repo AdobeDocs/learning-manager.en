@@ -98,9 +98,9 @@ Authors create scenarios from their own reference materials using templates or a
 
 Virtual Coach supports nine languages and can be used as a standalone job aid or embedded within a course.
 
-## Learning path citations in Learner Assistant
+## Learning Path citations in Learner Assistant
 
-Learner Assistant answers now cite the learning path that contains a source course, along with the course itself. Learners open either the course overview or the learning path page from the citation. Answers drawn from a job aid include a download link. This helps Learners find the training that answers their question.
+Learner Assistant answers now cite the Learning Path that contains a source course, along with the course itself. Learners open either the course overview or the Learning Path page from the citation. Answers drawn from a job aid include a download link. This helps Learners find the training that answers their question.
 
 ## AI Assistant configurations
 
@@ -230,9 +230,9 @@ Long names can be wider than the space available in some parts of the interface.
 
 To view the full name, hover over the shortened name.
 
-## Badge information for courses and learning paths
+## Badge information for courses and Learning Paths
 
-When Authors add a course or learning path, a window lists existing courses and learning paths with badge information. The window shows the name, type (course or learning path), publication status, and course format, such as self-paced, virtual, classroom, or blended.
+When Authors add a course or Learning Path, a window lists existing courses and Learning Paths with badge information. The window shows the name, type (course or Learning Path), publication status, and course format, such as self-paced, virtual, classroom, or blended.
 
 ## Non-logged-in enhancements
 
@@ -244,7 +244,7 @@ Visitors to your public academy can now play selected content straight from the 
 
 * **Turn non-logged-in access on or off:** Administrators can turn non-logged-in content consumption on or off for the whole account. 
 * **Make courses or modules available without logging in:** Authors can make an entire course available without login, or open up only specific modules, such as a free introductory module ahead of gated advanced content. 
-* **Inherit settings from courses:** Learning paths and certifications follow the settings of the courses inside them, with no extra setup.
+* **Inherit settings from courses:** Learning Paths and certifications follow the settings of the courses inside them, with no extra setup.
 * **View content without logging in:** Unauthenticated Learners can view available non-logged-in content without logging in to their account.
 * **Self-paced content only:** Third-party licensed content and acquired catalog content can't be made available without login.
 * **Reports on anonymous consumption:** A report on monthly non-logged-in consumption can be generated. 
@@ -262,15 +262,15 @@ Adobe Learning Manager can now make your public academy discoverable by search e
 * Each academy gets its own sitemap and robots.txt, generated automatically from the catalogs you've made public.
 * Pages are prerendered for crawlers, so AI assistants that don't run JavaScript can still read them.
 * Crawlers only ever see what a visitor could access. Gated content is never exposed.
-* Meta title, description, and structured data: Adobe Learning Manager generates them automatically for every course, learning path, and certification, based on learning metadata. 
+* Meta title, description, and structured data: Adobe Learning Manager generates them automatically for every course, Learning Path, and certification, based on learning metadata. 
 
 >[!NOTE]
 >
 >AI and search discovery on native Adobe Learning Manager requires a custom domain. Headless deployments will need to implement parts of the setup in their own environment.
 
-## Retire a course without making a learning path inaccessible
+## Retire a course without making a Learning Path inaccessible
 
-A retired course or nested learning path is removed from the higher-level learning object, which stays open for new enrollments. Retiring a course no longer makes the learning path inaccessible.
+A retired course or nested Learning Path is removed from the higher-level learning object, which stays open for new enrollments. Retiring a course no longer makes the Learning Path inaccessible.
 
 ## Non-logged-in page URL for self-registration profiles
 
@@ -280,7 +280,7 @@ When users select **Sign up** from a page reached through that URL, they're adde
 
 ## Store last access dates for Learning Path enrollments
 
-Adobe Learning Manager now allows you to attach custom metadata, such as a last access date, to a Learning Path enrollment. You set and read it through the API, which helps you track time-bound access to the learning paths you assign.
+Adobe Learning Manager now allows you to attach custom metadata, such as a last access date, to a Learning Path enrollment. You set and read it through the API, which helps you track time-bound access to the Learning Paths you assign.
 
 Course enrollments already support a last access date through the API, which controls how long a Learner can access the course. Learning Path enrollments now offer a generic metadata field, so you can store a last access date or any other value you want to track.
 
@@ -399,7 +399,7 @@ The enrollments API now supports multi-enrolled instances in the Learner app. Ad
 
 ### Last access date for Learning Paths enrollment
 
-You can now store custom metadata, such as a last access date, on a Learning Path enrollment and set and read it through the API. This helps you track time-bound access to the learning paths you assign.
+You can now store custom metadata, such as a last access date, on a Learning Path enrollment and set and read it through the API. This helps you track time-bound access to the Learning Paths you assign.
 
 * Set the metadata on an existing enrollment or when you enroll a Learner, using an admin token.
 * Read it with an admin or Learner token.
