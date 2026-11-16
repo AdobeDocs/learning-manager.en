@@ -105,9 +105,9 @@ Learner Assistant answers now cite the learning path that contains a source cour
 
 The Administrator Assistant offers two agents: Insights Agent and Knowledge Agent. They can be configured individually. The Learner Assistant offers three agents: Knowledge Agent, Answer Agent, and Learning Path Agent. They can be configured along with the catalog configuration.
 
-## Webhooks for instructor edits to learning object instances
+## Webhooks for Instructor edits to learning object instances
 
-The learning object instance modification webhook now triggers when an instructor edits a virtual classroom session, in addition to Administrator and Author changes. Changes such as session timings, venue, and enrollment limit trigger it. Headless customers can then retrieve session details through the public API and pass updates on to Learners.
+The learning object instance modification webhook now triggers when an Instructor edits a virtual classroom session, in addition to Administrator and Author changes. Changes such as session timings, venue, and enrollment limit trigger it. Headless customers can then retrieve session details through the public API and pass updates on to Learners.
 
 ## Multi-enrolled courses in the compliance widget
 
@@ -182,9 +182,9 @@ If Email Builder is already enabled for your account, you receive the new change
 
 Adobe Learning Manager now reads custom Learner attributes through the optional Names and Role Provisioning Services endpoint of Learning Tools Interoperability. It also reads them from the launch request. Attributes such as country or city are stored in groupable profile fields. Launch parameters require a prefix so that Adobe Learning Manager recognizes them. Some learning systems, such as Moodle, don't support this endpoint.
 
-## Discussion board instructor notifications
+## Discussion board Instructor notifications
 
-Headless customers can now send instructors and cohort managers a digest of discussion board activity. Using the API, you add subscribers to a board. They receive new posts, comments, and replies in a single email, at an interval you set. Likes and dislikes aren't included. You turn on the feature through the API.
+Headless customers can now send Instructors and cohort managers a digest of discussion board activity. Using the API, you add subscribers to a board. They receive new posts, comments, and replies in a single email, at an interval you set. Likes and dislikes aren't included. You turn on the feature through the API.
 
 ## Relevance ranking in admin catalog search
 
@@ -192,7 +192,7 @@ Catalog search in the admin view now ranks results by relevance, using the same 
 
 ## Session cancellation sync from Adobe Workfront
 
-Sessions canceled in Adobe Workfront carry over to Adobe Learning Manager through the Migration process, with no manual steps. Migration adds an optional **State** column that accepts **Active** or **Cancelled**. A blank value leaves the session unchanged. A cancellation made through Migration behaves like one made in the Learning Manager interface. Learners, instructors, Administrators, Authors, and managers receive the same cancellation emails.
+Sessions canceled in Adobe Workfront carry over to Adobe Learning Manager through the Migration process, with no manual steps. Migration adds an optional **State** column that accepts **Active** or **Cancelled**. A blank value leaves the session unchanged. A cancellation made through Migration behaves like one made in the Learning Manager interface. Learners, Instructors, Administrators, Authors, and managers receive the same cancellation emails.
 
 Two behaviors apply to canceled sessions:
 
@@ -388,9 +388,9 @@ This update fixes both:
 
 No new endpoints, parameters, or response attributes are added, so existing integrations keep working without changes.
 
-### APIs for discussion board instructor notifications
+### APIs for discussion board Instructor notifications
 
-This release includes new APIs that support discussion board instructor notifications. Use them to subscribe instructors and cohort managers to discussion boards and to control which activity appears in their digest emails.
+This release includes new APIs that support discussion board Instructor notifications. Use them to subscribe Instructors and cohort managers to discussion boards and to control which activity appears in their digest emails.
 
 ### API support for multi-enrolled instances in the Learner app
 
