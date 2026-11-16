@@ -32,7 +32,7 @@ If part of a question can't be expressed with Report Builder fields, the report 
 
 ## Adobe Experience Manager Assets integration
 
-Adobe Learning Manager now integrates with Adobe Experience Manager Assets, allowing Authors to access and use approved learning content and image assets directly from a centralized repository. This removes the manual download and upload step between the team that manages assets in the digital asset management (DAM) system and the team that builds courses in Adobe Learning Manager.
+Adobe Learning Manager now integrates with Adobe Experience Manager Assets, allowing Authors to access and use approved learning content and image assets directly from a centralized repository. This removes the manual download and upload step between the team that manages assets in the digital asset manager (DAM) system and the team that builds courses in Adobe Learning Manager.
 
 What it changes:
 
