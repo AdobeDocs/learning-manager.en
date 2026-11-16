@@ -1,259 +1,431 @@
 ---
-description: Learn about the new features and enhancements in the August 2026 release of Adobe Learning Manager
+description: Learn about the new features in the December 2026 release of Adobe Learning Manager, including Report Builder charts and Virtual Coach.
 jcr-language: en_us
-title: What's new in Adobe Learning Manager August 2026 release
+title: What's new in Adobe Learning Manager December 2026 release
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
 ---
-# What's new in the August 2026 release of Adobe Learning Manager
 
-## Gradebook
+# What's new in Adobe Learning Manager December 2026 release
 
-A gradebook in Adobe Learning Manager adds weighted scoring to courses, allowing authors to assign a contribution percentage to each scored module and set a minimum aggregate score for course completion. Learners can track their grades throughout the course, and administrators can view final scores and download relevant transcripts. 
+The upcoming release of Adobe Learning Manager introduces a variety of new features and enhancements aimed at streamlining the platform and expanding its capabilities. These updates simplify everyday workflows, improve how learning content is organized and delivered, and make the overall experience more consistent and intuitive.
 
-### What gradebook does 
+## Report Builder charts and dashboards
 
-A gradebook-enabled course calculates each learner's final score by combining individual module scores according to the weightage percentage assigned to each module. This provides a precise, weighted measure of performance rather than a simple sum of scores or a pass/fail marker based on completion alone. 
+Adobe Learning Manager now supports charts and dashboards in Report Builder, allowing Administrators to visualize report data directly within the platform. Administrators can create charts from report columns, with aggregation and filtering available in each chart.
 
-Gradebook supports two completion models: 
+Report Builder supports the following chart types:
 
-* **Required modules only**: the course completes when all mandatory modules are finished. Gradebook scores are still calculated and visible, but the aggregate score does not contribute to passing criteria. 
+* Big number
+* Line chart
+* Bar chart
+* Pie chart
+* Pivot table
 
-* **Required modules plus aggregate score**: the learner must both complete all required modules and achieve an aggregate score at or above the minimum passing threshold. Both conditions must be met to achieve a passing grade. 
+A report dashboard holds charts built from one report. A custom dashboard combines charts from several reports, such as enrollment and user data, and supports up to 20 widgets. Charts that belong to a report are shared when you share the report. This helps Administrators keep current report data in one view instead of rerunning reports. Charts display up to 10,000 data points, and pivot tables show up to 100 rows and 100 columns. If a chart exceeds a limit, apply filters to narrow the results. Dashboards can't be exported yet.
 
-### How course scores are calculated 
+## Insights Agent reports in Report Builder
 
-For each scorable module, the contribution to the course aggregate score is: 
+Administrators can now continue working with Insights Agent answers in Report Builder. When Insights Agent answers a question, Report Builder maps the same query to its own fields in a parallel step. Administrators can open, review, edit, and save the report. From there you can use the same Report Builder capabilities as any other report, such as subscriptions.
 
-(Score achieved ÷ Maximum score) × Weightage % = Module contribution 
+If part of a question can't be expressed with Report Builder fields, the report lists that part as a gap. If the missing part is central to the question, the report isn't offered. Complex queries can produce reduced results, so review each report before you rely on it.
 
-The aggregate course score is the sum of all module contributions. Weightage percentages across all scorable modules must add up to exactly 100. The gradebook configuration cannot be saved until this condition is met. 
+## Adobe Experience Manager Assets integration
 
-The aggregate course score is the sum of all module contributions. Weightage percentages across all scorable modules must add up to exactly 100. The gradebook configuration cannot be saved until this condition is met. 
+Adobe Learning Manager now integrates with Adobe Experience Manager Assets, allowing Authors to access and use approved learning content and image assets directly from a centralized repository. This removes the manual download and upload step between the team that manages assets in the digital asset manager (DAM) and the team that builds courses in Adobe Learning Manager.
 
-The scoring scale does not need to be consistent across modules. A classroom session scored out of 100, and a SCORM module scored out of 10 can coexist in the same gradebook. The formula normalizes each contribution before applying the weightage. 
+What it changes:
 
-**Scorable and non-scorable modules** 
+* **Access approved assets:** Authors browse and select assets from Experience Manager Assets without leaving Adobe Learning Manager, so courses use current, approved files rather than local copies that can drift out of date.
+* **Keep course assets up to date:** When an asset changes in the DAM, the update can flow into the courses using it automatically, keeping content consistent as assets are revised.
+* **Access follows existing permissions:** Authors only see the assets they already have access to in Experience Manager Assets, so browsing in Adobe Learning Manager respects the same permissions as the DAM itself.
 
-Only modules that produce a score are eligible for weightage. Scorable module types include: 
+The result is a single, governed path from asset to Learner, with less manual work and fewer version mismatches.
 
-* SCORM, AICC, and xAPI content with scoring enabled
-* Captivate content packages
-* Native quizzes in Adobe Learning Manager
-* Classroom and virtual classroom sessions where the instructor or admin enters a score
-* Activity modules scored by an instructor or admin 
+## File submission enhancements
 
-Non-scorable module types, PDF files, video files, audio files, PowerPoint presentations, Word documents, Excel files, and HTML content, cannot be assigned a weightage percentage and do not contribute to the aggregate score. These modules may still be required for course completion. When the Include modules that don't contribute to final grade option is enabled, they appear in the gradebook without a weightage value.
+File submission modules now support team submissions and rubric-based evaluation. A new setting also controls whether Instructor approval is required for submissions.
 
-Learn more about [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md).
+### Team submissions
 
-## Hierarchical content folders
+Instructors can now create teams for file submissions. Each team submits one file for the whole team. The Instructor evaluates the submission once, and the result applies to every member. Teams form in two ways: Instructors build them manually, or a scheduled process builds them before the instance start date, based on members per team or number of teams.
 
-The Content Library now supports up to three levels of private folder hierarchy. Administrators create the folder structure and control which custom roles can access which Level 1 folders. Access cascades automatically to all subfolders within a Level 1 folder.
+Instructors manage teams on a new **Teams management** page and review work on a team submissions page. Instructors can also unsubmit an approved submission to unlock the team when changes are required, such as when a team member leaves. A team holds up to 100 members. Learners can view their team, its members, and the evaluation result. Team modules can't be added or deleted after a course is published.
 
-Authors can copy and move content between folders, filter the Content Library by folder, and browse the hierarchy when adding modules to a course.
+### Rubric-based assessments
 
-Key capabilities:
+Authors can now define a rubric, called an evaluation plan, for file submission modules. A rubric supports objective questions with scored options and subjective questions with written review.
 
-* Up to three levels of nesting (maximum 25 subfolders per parent)
-* Role-based access assigned at Level 1 only
-* Content can appear in multiple folders without duplication
-* Public folder and private folder structure are mutually exclusive
-* Browse folders experience when selecting modules in course authoring
+Authors can also configure the following settings:
 
-Learn more about [Hierarchical content folders - admin-level capababilities](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder). Learn more about [Hierarchical content folders - author-level capababilities](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder).
+* Whether Learners view the rubric-based assessment questions before they submit
+* Whether scoring is one overall score or a score for each criterion
 
-If you are migrating your learning content from another platform into Adobe Learning Manager and want to preserve your existing folder organization, you can use CSV files to create a hierarchical folder structure and associate your content files with the appropriate folders. Learn more about migration in [Migrate content folder hierarchy](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy).
+Each question can be marked as required and configured to allow reviewer remarks. A rubric-based assessment holds up to 100 questions, and Authors enter questions separately for each locale. After a course is published, only question text can change.
 
-## Live Hub (Beta)
+### Instructor approval or automatic completion
 
-Live Hub is an AI-powered virtual training experience within Adobe Learning Manager that helps organizations deliver engaging and impactful live learning. With intelligent features such as AI-powered polls, breakout room orchestration, persistent learning spaces, and AI-powered assistance, Live Hub supercharges Instructor productivity while reducing the complexity of session delivery.
+Authors can now choose whether file submissions require Instructor approval or are completed automatically. This setting is independent of the evaluation plan.
 
-Key highlights:
+## Model Context Protocol server for Learner Assistant
 
-* Elevate live learning with a native Adobe Learning Manager experience that improves instructional quality and learner outcomes.
-* Give your Instructors an AI-powered co-facilitator that drives engagement through intelligent polls, Q&A support, and breakout room insights.
-* Help your learners get more from every session with AI-generated summaries and session recordings searchable by topics.
-* Measure what matters with engagement analytics that go beyond attendance to reveal real learning participation.
-* Assist your Authors to use the AI-powered Instructor Finder to match the right Instructor by skills, availability, preferred times, time zone, and current utilization.
+ALM enables Learners to access learning in the tools they already use through a Model Context Protocol (MCP) server. Learners can access Learning Manager from anywhere, including ChatGPT, Claude, and custom agents. Configure the server in the integration admin app to give Administrators access to six core tools for Learners. These include two Learner Assistant tools: Answer Agent and Personalized Learning Path.
 
-Learn more about [Getting started with Live Hub](./getting-started-with-live-hub/getting-started-live-hub.md).
+The server provides the following capabilities:
 
-## Adobe Learning Manager Content Composer (Beta)
+* Search
+* List enrollments
+* Get learning object
+* Get user profile
+* Answer learning content question
+* Get Personalized Learning Path
 
-Adobe Learning Manager now includes Content Composer, an AI-native course authoring tool that takes you from a plain-language prompt to a structured, publish-ready course in minutes.
+Administrators can edit each tool description to add organization-specific examples. Clients read the authorization details from the server metadata, so setup needs only a client ID and client secret.
 
-Key features:
+## Personalized Learning Path editing and branding strips
 
-* Conversational AI guides authors through training goals, source material, and learning objectives to generate a complete course brief and outline.
-* Document-grounded generation restricts AI output to your uploaded files, which is essential for compliance, regulatory, and procedure-based training.
-* Full course generation in a single pass, such as lessons, topics, text, images, knowledge checks, and graded quizzes.
-* Visual theme system with light and dark mode, font controls, header and footer support, and JSON export for advanced customisation.
-* Configurable completion criteria, success criteria, quiz settings, and SCORM version before publishing.
-* and more.
+Learners can now remove suggested topics or courses in a single step, in addition to the existing option to refine topic and course lists through chat.
 
-Learn more about [Adobe Learning Manager Content Composer](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md).
+Administrators can now reposition the personalized learning paths strip on the Learner home page through the Branding page.
 
+## Practice skills with role-play in Virtual Coach
 
-## Component-based email template builder
+Adobe Learning Manager now offers Virtual Coach, an AI-powered role-play and coaching solution that allows Learners to practice realistic workplace conversations before facing them at work. Examples include sales objections, customer escalations, and performance reviews. 
 
-Organizations can now create enterprise-grade, branded email notifications in Adobe Learning Manager using a modern WYSIWYG component editor. Administrators can build a global layout once, with a reusable header, footer, and brand elements, and apply it across all email templates at the account level. Individual templates can then be customized at the course or instance level, inheriting the parent layout by default and overriding it only when needed.
+Authors create scenarios from their own reference materials using templates or an AI assistant, and Learners speak with an AI persona that adapts to their responses in real time. After each session, Learners get instant scoring and coaching feedback on both knowledge and communication style, measured against criteria the Author defined. 
 
-Key capabilities:
+Virtual Coach supports nine languages and can be used as a standalone job aid or embedded within a course.
 
-* WYSIWYG editor with a library of reusable components (text, image, button, divider, header, footer)
-* Variable support: insert dynamic fields such as learner name, course name, and due date
-* Linked and unlinked template hierarchy: changes to a linked template propagate to all child templates; unlinked templates are editable independently
-* Multi-language template support
-* Preview and test-send before publishing
-* Backward compatibility: existing email templates continue to work
+## Learning path citations in Learner Assistant
 
-Learn more about [Component-based email builder](/help/migrated/administrators/feature-summary/email-builder.md).
+Learner Assistant answers now cite the learning path that contains a source course, along with the course itself. Learners open either the course overview or the learning path page from the citation. Answers drawn from a job aid include a download link. This helps Learners find the training that answers their question.
 
-## External learning support
+## AI Assistant configurations
 
-Learners can now submit off-platform training, like certifications, workshops, conferences, and external courses, for manager approval directly from their learner dashboard. Approved submissions appear in the Learner Transcript.
+The Administrator Assistant offers two agents: Insights Agent and Knowledge Agent. They can be configured individually. The Learner Assistant offers three agents: Knowledge Agent, Answer Agent, and Learning Path Agent. They can be configured along with the catalog configuration.
 
-Key capabilities:
+## Webhooks for Instructor edits to learning object instances
 
-* Configurable submission form with standard and custom fields
-* Manager review and approval workflow with comment support
-* Approved submissions appear in Learner Transcript with full metadata
-* Admin can configure mandatory fields including custom fields
-* New columns in Admin and Learner Transcripts: External Learning Name, Completion Comment, custom field columns
-* API support: five new learner-scoped endpoints for creating, retrieving, and updating submissions
+The learning object instance modification webhook now triggers when an Instructor edits a virtual classroom session, in addition to Administrator and Author changes. Changes such as session timings, venue, and enrollment limit trigger it. Headless customers can then retrieve session details through the public API and pass updates on to Learners.
 
-Learn more about [External learning support - admin-level capabilities](/help/migrated/administrators/feature-summary/settings/basic-settings.md). Learn more about [External learning support - manager-level capabilities](/help/migrated/managers/feature-summary/review-external-learning-requests.md). Learn more about [External learning support - learner-level capabilities](/help/migrated/learners/feature-summary/submit-external-learning.md).
+## Multi-enrolled courses in the compliance widget
 
-## AI features
+The compliance widget now lists every instance of a multi-enrollment course that a Learner must complete. Each entry displays the instance name. If one instance has a deadline, any instance without a deadline is hidden. The enrollments endpoint of the public API supports the same behavior through an optional parameter.
 
-### AI Assistant for learners
+## Resend virtual classroom session invites
 
-The AI Assistant for learners now supports four new capabilities in addition to answering questions from assigned learning content:
+Administrators with course edit permission can now resend a session invite from the instance page. Select **Resend**, search for the Learner, and send. The option is available for current and future virtual classroom sessions. For Learners in multiple instances, the invite goes only to the selected instance. Learners who aren't enrolled in the session are skipped with a warning.
 
-* **Course summaries**: use the / command to select a catalog item and generate a summary without opening the course
-* **Learning Object comparison**: select up to two learning objects using the / command and ask the assistant to compare them
-* **Adobe Experience League answers**: the assistant now sources answers to how-to questions from Adobe Learning Manager help documentation
-* **Third-party content queries**: Go1 and LinkedIn Learning catalog content can be queried (metadata only; English only; ingestion takes 1–2 hours after catalog is added)
+## Automatic attendance from Adobe Connect recording views
 
-Learn more about [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
+Adobe Learning Manager now marks attendance when a Learner plays the recording of a missed virtual classroom session. A scheduled integration pulls viewer data from Adobe Connect and compares playback time with the completion criteria set for the account. Administrators set the schedule in the integration admin app. Adobe Learning Manager considers only the actual viewing time when determining attendance, so skipping through a recording does not count toward the completion criteria.
 
-### Learning Path agent
+## Email Builder for courses and instances
 
-Learners can now have a guided conversation with the AI Assistant to generate a custom, sequenced learning path based on their goals, background, and available time. The learning path is created automatically and the learner is enrolled.
+Email Builder in Adobe Learning Manager allows Administrators and Authors to create branded Learner communication templates. In the December 2026 release of Learning Manager, the full Email Builder experience is available for course-level and instance-level emails. Authors can customize these emails while inheriting the layouts and formatting that Administrators define.
 
-Key capabilities:
+With Email Builder, you can:
 
-* Multi-turn conversation guides the learner through topic selection, course review, and path confirmation
-* Up to five suggested learning topics per conversation
-* Course selection from assigned catalogs
-* Maximum of 10 personalized learning paths visible on the learner home page
-* Completed paths can be shared with colleagues
+* Create reusable email layouts
+* Apply organization branding
+* Customize banners and signatures
+* Define default fonts and colors
+* Standardize communication across courses and learning programs
 
-Learn more about [Learning Path Agent](/help/migrated/learners/feature-summary/learning-path-agent.md).
+Administrators create account-wide email templates and layouts. Authors customize emails at the course and instance levels without rebuilding templates from scratch.
 
-### Insights Agent
+Banner and signature settings have moved. Earlier, these settings appeared on a separate **Settings** tab. That tab is removed, and **Banner** and **Signature** now appear in **Global Layout**.
 
-The Insights Agent helps administrators analyze learning data through natural language queries. Ask questions about enrollment trends, completion rates, learner engagement, and skill gaps. The agent generates reports and visualizations in response.
+### Email Builder hierarchy
 
-Learn more about [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md).
+Email Builder uses a hierarchy. Each level inherits from its parent level and allows local customization.
 
-<!--
-### Gen AI credits
+| **Level**         | **What it provides**                                                                                                | **Who customizes it** |
+|-------------------|---------------------------------------------------------------------------------------------------------------------|-----------------------|
+| Account layout    | Branding, fonts, colors, and header and footer structure                                                            | Administrators        |
+| Account template  | Global email styling, common messaging components, and shared branding                                              | Administrators        |
+| Course template   | Course-specific emails, such as enrollment messages, course reminders, completion emails, and session notifications | Authors               |
+| Instance template | The highest level of customization, such as cohort-specific, session-specific, or regional messages                 | Authors               |
 
-Adobe Learning Manager integrates AI-powered features managed through a credit-based system linked to Agent Orchestrator licenses. This system requires administrators to activate features, set credit limits, and monitor usage via the Billing page. Linking the Adobe Learning Manager account to an Adobe Admin Console organization with an active Agent Orchestrator license is essential for enabling Gen AI features.
+All courses can inherit from account templates. Course emails inherit the organization's layout and allow content customization.
 
-View [Gen AI credits](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits) for more information.
--->
+### Layout inheritance
 
-## Channels (Beta)
+A template links to the nearest available layout. An instance-level template links to an instance-level layout if one exists. If none exists, the template links to the nearest parent layout. You can view which level a layout comes from.
 
-Channels provide a centralized way to organize, publish, and discover video content from web and Confluence pages. Administrators can create and manage channels by connecting supported web pages or Confluence pages, configure channel settings, control visibility, and synchronize content from the source. Learners can browse available channels, subscribe to channels of interest, and watch curated video content from a single location.  
+When a template is linked to a layout:
 
-Learn more about [creating Channels](/help/migrated/administrators/feature-summary/create-channels.md).
+* Branding flows into the template automatically.
+* Authors update only the content.
+* The layout reduces duplication across messages.
 
-## Report Builder
+You can unlink a template from its layout. After you unlink a template:
 
-Report Builder gives administrators a flexible, self-service reporting tool that goes beyond the fixed report types available elsewhere in Adobe Learning Manager. Rather than being limited to predefined report structures, administrators can join fields from multiple datasets, like User, User Groups, Courses and Learning Paths, Modules, Transcript, Catalogs, and more — into a single custom report tailored to their organization's specific data needs.
+* The template keeps its existing design.
+* Future layout updates don't affect the template.
+* The template becomes independently editable.
 
-Reports are created once and saved for repeated use. There is no need to rebuild filters, re-apply groupings, or rejoin datasets on every download. Saved reports can be downloaded on demand, shared with other administrators, or set up with a subscription so that recipients receive updated reports automatically at a regular interval.
+Layout inheritance depends on the parent layouts that are available. When both levels exist, instance-level emails override course-level templates.
 
-Learn more about [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
+### Administrator and Author workflow
 
-## Custom role changes
+Admins use account-level templates to keep messages consistent across the account, which they manage by creating a layout and a template, then publishing the branding.
 
-Custom administrators can now be granted expanded user management capabilities through the Advanced permission level under Users in a custom role definition.
+Authors use instance-level templates when cohorts need different messages, which they manage through course instances.
 
-Two access levels are available:
+### Availability of Email Builder for course and instance emails
 
-| Access level | What the custom administrator can do |
-|---|---|
-| **Read only** | View all custom roles, import logs, and deleted users; download the custom roles report |
-| **Full control** | All read-only capabilities plus: create, edit, delete, and assign custom roles; import users via CSV; purge deleted users |
+If Email Builder is already enabled for your account, you receive the new changes automatically and don't need to take any action. Existing email functionality continues to operate independently of Email Builder migration activities.
 
-### Limitations
+## Custom Learner attributes in Learning Tools Interoperability
 
-**Manually created roles only**: The expanded custom role administration capabilities apply only to roles created through the Adobe Learning Manager administrtor interface. Roles imported via CSV upload are not supported.
+Adobe Learning Manager now reads custom Learner attributes through the optional Names and Role Provisioning Services endpoint of Learning Tools Interoperability. It also reads them from the launch request. Attributes such as country or city are stored in groupable profile fields. Launch parameters require a prefix so that Adobe Learning Manager recognizes them. Some learning systems, such as Moodle, don't support this endpoint.
 
-Learn more about Custom role changes in the topic [What the Advanced user permission unlocks](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks).
+## Discussion board Instructor notifications
 
-## LTI Deep Linking
+Headless customers can now send Instructors and cohort managers a digest of discussion board activity. Using the API, you add subscribers to a board. They receive new posts, comments, and replies in a single email, at an interval you set. Likes and dislikes aren't included. You turn on the feature through the API.
 
-Integration administrators can now enable LTI Deep Linking for LTI tool configurations, allowing course authors to browse and embed Adobe Learning Manager courses directly from an external LMS without manually copying course URLs.
+## Relevance ranking in Administrator catalog search
 
-Once enabled, authors see a **Select content** button in the external LMS activity configuration. They can browse approved catalogs, select courses, and confirm the selection — with all fields populated automatically.
+Catalog search in the admin view now ranks results by relevance, using the same search service as Learner and admin search elsewhere. An exact match, such as a catalog name with a specific date, appears first, followed by partial matches. The suggestion list while typing follows the same order.
 
-Learn more about [LTI Deep Linking](/help/migrated/integration-admin/feature-summary/lti-deep-links.md).
+## Session cancellation sync from Adobe Workfront
 
-## Classroom Locations
+Sessions canceled in Adobe Workfront carry over to Adobe Learning Manager through the Migration process, with no manual steps. Migration adds an optional **State** column that accepts **Active** or **Cancelled**. A blank value leaves the session unchanged. A cancellation made through Migration behaves like one made in the Learning Manager interface. Learners, Instructors, Administrators, Authors, and managers receive the same cancellation emails.
 
-Classroom Locations now support a structured **four-field location format**, including Country, State/Province/Region, City, and Location Name, making it easier to manage and organize training locations across regions. The update includes a one-time migration from the legacy single-field format and adds multilingual support for the **Location Name** and **Location Information** fields, enabling localized classroom details for Learners.
+Two behaviors apply to canceled sessions:
 
-Learn more about [Classroom Locations](/help/migrated/administrators/feature-summary/classroom.md).
+* Migration doesn't apply detail changes to a canceled session, and it returns a validation error for those rows.
+* Setting the state to Active reactivates the session, and you can then update its details or cancel it again.
 
-## Reporting changes in the release
+Session updates continue to work as before.
 
-Learn more about [reporting changes in the August 2026 release of Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+## Character limit for first names
 
-## API changes in the release
+Adobe Learning Manager now accepts first names of up to 255 characters, up from 63. This applies to users added in the interface, through CSV import, and in self-registration, so user syncs from other systems no longer fail on long names.
 
-Learn more about [API changes in the August 2026 release of Adobe Learning Manager](/help/migrated/api-changes-august-2026.md).
+This is especially helpful when you migrate users from an external system or automate user creation.
 
-## Other enhancements in the release
+Beginning with the December 2026 release, the first name field accepts up to 255 characters. Earlier releases accepted a maximum of 63 characters.
 
-| Enhancement | Description |
-|---|---|
-| **MQA: Latest vs. Highest score** | For modules with multiple attempts, authors can now choose whether the Latest or Highest attempt score is recorded in the Learner Transcript and used in gradebook calculations. Latest was the existing default and remains so when the setting is not configured. For more information, Learn more about [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts). |
-| **Content preview in Content Library** | Authors can now preview uploaded content files directly in the Content Library before adding them to courses. Learn more about [previewing Content Library](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary).  |
-| **Incremental user report** | A new API-based user report returns only users created or modified since the last request, reducing data transfer for large accounts using automated user sync workflows. Learn more about [Incremental User Report](/help/migrated/incremental-user-report.md). |
-| **11 new languages in fluidic player** | The fluidic player now supports 11 additional languages, including right-to-left (RTL) script support. Learn more about [Fluidic Player](/help/migrated/learners/feature-summary/fluidic-player.md).|
-| **LTI module migration** | Existing LTI 1.1 modules can now be migrated to LTI 1.3 using the migration tool. Learn more about [LTI migration of modules](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules). |
-| **Email Builder: Rich Text Editor Support** | Email Templates in Adobe Learning Manager now support rich text formatting, attachments, and custom automations. Learn more about [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
-| **Email Builder: Preview feature** | You can check your composed email to see how it would look at the recipient's end by using the Preview option. Learn more about [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
-| **Webhook timestamp standardization** | All date and time fields within the `data` object of webhook payloads now have seconds set to `00`, providing minute-level precision consistent with Learner Transcript reports. |
-| **Connect enhancements** | Azure Data Lake Storage (ADLS) connector updates; persistent room name support for recurring virtual classroom sessions; recording-view-based attendance tracking. |
-| **Player performance improvements** | The fluidic course player has been optimized for faster load times and smoother transitions between modules. |
-| **Impact warning before retiring courses/LPs** | Author/Admin will see a warning list of dependent LOs before a course or learning path can be retired. Notifies author that a constituent LO has been retired. Admins receive if they authored the LO but do not have the Author role.|
-| **CR/VC Module: Expected Duration** | Authors can now set an expected duration for classroom and virtual classroom modules, separate from the scheduled session time. This value appears in reports and learner-facing course information. |
-| **Confirmation before editing acquired courses** | Administrators in peer accounts now see a confirmation dialog before editing a course acquired through catalog sharing, preventing unintended changes to shared content. |
-| **Session URL with instance ID** | Session launch URLs for Microsoft Teams, Adobe Connect, and Zoom sessions now include the instance ID, ensuring learners are routed to the correct session when multiple instances exist. |
-| **Warning for large-audience announcements** | When sending an ad-hoc announcement email to more than a configurable threshold of recipients, administrators now see a volume warning before sending. |
-| **Email templates: Account URL for external learners** | Email notification templates can now include a separate account URL specifically for external learners, routing them to the correct login experience. |
-| **AEM Sites** | There is only one **Edit** button now in **Your Profile** > Your areas of interest section to edit your preferences for Products and Roles and Skills. This is part of native learning manager as well. |
-| **AEM Sites** | Earlier, there used to be two **Edit** buttons, but now the **Edit** button is a consolidated  button to modify your preferences for Products and Roles and Skills. |
-| **Time Zone** | A new search box has been added just below the Time Zone field in the Profile Settings of the logged in user. The search box can be used to search directly for a time zone instead of scrolling through the entire list of available time zones. If you would like to change the existing time zone, you select a new time zone and select Save. The new time zone is saved. The Save button appears only when you select a time zone. |
+>[!NOTE]
+>
+>The limit applies to all users in your account, regardless of their role. Existing users and their names aren't affected by this change.
 
-## System requirements
+You can enter long names when you add or edit users in the following ways:
 
-Learn more about [Adobe Learning Manager system requirements](/help/migrated/system-requirements.md).
+* Add a single user in the admin interface
+* Edit an existing user
+* Import users with a CSV file
+* Register users through self-registration
+* Add external users
 
-## Release notes
+Long names can be wider than the space available in some parts of the interface. To keep the layout readable, Adobe Learning Manager shortens long names in the following compact areas:
 
-Check out the [release notes](/help/migrated/release-note/release-notes.md) for latest release updates. 
+* Table cells
+* Dropdown list items
+* Search results
 
-## Previous releases of Adobe Learning Manager
+To view the full name, hover over the shortened name.
 
-* [Adobe Learning Manager April 2026 release](/help/migrated/whats-new-april-2026.md)
-* [Adobe Learning Manager October 2025 release](/help/migrated/whats-new-october-2025.md)
+## Badge information for courses and learning paths
+
+When Authors add a course or learning path, a window lists existing courses and learning paths with badge information. The window shows the name, type (course or learning path), publication status, and course format, such as self-paced, virtual, classroom, or blended.
+
+## Non-logged-in enhancements
+
+Learning Manager now enables controlled access to learning content without requiring users to sign in. Administrators can specify which catalogs are public, while Authors can determine which courses and modules are available without an account. Public content is published as crawlable, AI-readable pages, making the academy discoverable through search engines and AI assistants such as Claude and ChatGPT. Anonymous usage is tracked per visitor and reported separately from signed-in usage.
+
+### Content consumption without logging in
+
+Visitors to your public academy can now play selected content straight from the course overview page, with no account, email, or form required.
+
+* **Turn non-logged-in access on or off:** Administrators can turn non-logged-in content consumption on or off for the whole account. 
+* **Make courses or modules available without logging in:** Authors can make an entire course available without login, or open up only specific modules, such as a free introductory module ahead of gated advanced content. 
+* **Inherit settings from courses:** Learning paths and certifications follow the settings of the courses inside them, with no extra setup.
+* **View content without logging in:** Unauthenticated Learners can view available non-logged-in content without logging in to their account.
+* **Self-paced content only:** Third-party licensed content and acquired catalog content can't be made available without login.
+* **Reports on anonymous consumption:** A report on monthly non-logged-in consumption can be generated. 
+* **Enable non-logged-in learning across platforms:** Non-logged-in content consumption is supported on native Adobe Learning Manager on web and mobile, on headless deployments, and on Adobe Experience Manager Sites widget-based academies.
+
+### Choose which catalogs are public
+
+Administrators can now pick the specific catalogs that appear in the public academy. Only those catalogs can be browsed by anonymous visitors and indexed by search engines and AI assistants, so test courses or internal content stay private.
+ 
+### Get found in search engines and AI assistants (Beta)
+
+Adobe Learning Manager can now make your public academy discoverable by search engines like Google and by AI assistants like ChatGPT, Claude, and Gemini. Your courses can then appear in search results and AI-generated answers, attributed to your academy. 
+
+* Account-level controls allow Administrators to decide whether crawlers can access the public academy and whether its content can be indexed.
+* Each academy gets its own sitemap and robots.txt, generated automatically from the catalogs you've made public.
+* Pages are prerendered for crawlers, so AI assistants that don't run JavaScript can still read them.
+* Crawlers only ever see what a visitor could access. Gated content is never exposed.
+* Meta title, description, and structured data: Adobe Learning Manager generates them automatically for every course, learning path, and certification, based on learning metadata. 
+
+>[!NOTE]
+>
+>AI and search discovery on native Adobe Learning Manager requires a custom domain. Headless deployments will need to implement parts of the setup in their own environment.
+
+## Retire a course without making a learning path inaccessible
+
+A retired course or nested learning path is removed from the higher-level learning object, which stays open for new enrollments. Retiring a course no longer makes the learning path inaccessible.
+
+## Non-logged-in page URL for self-registration profiles
+
+Self-registration profiles let external users, such as partners or members of multiple organizations, create their own Adobe Learning Manager accounts. Each profile can now have its own shareable non-logged-in menu URL, built in Experience Builder.
+
+When users select **Sign up** from a page reached through that URL, they're added to the profile the URL belongs to. This keeps users from different organizations, such as separate agencies or partner companies, in separate profiles.
+
+## Store last access dates for learning path enrollments
+
+Adobe Learning Manager now allows you to attach custom metadata, such as a last access date, to a learning path enrollment. You set and read it through the API, which helps you track time-bound access to the learning paths you assign.
+
+Course enrollments already support a last access date through the API, which controls how long a Learner can access the course. Learning path enrollments now offer a generic metadata field, so you can store a last access date or any other value you want to track.
+
+## Export Report Builder reports with the Job API
+
+This release of Adobe Learning Manager adds a new Job API job type, `generateCustomReport`. Pass a report ID to automatically export any report you created in Report Builder.
+
+Combined with the new L2 quiz dataset in Report Builder, you can now:
+
+* Export question-level (L2) quiz data across multiple courses and modules in a single report, rather than running `generateQuizReport` once per course.
+* Automate recurring exports, such as a daily incremental export to your data warehouse or business intelligence tool.
+
+Existing job types, including `generateQuizReport`, are unchanged.
+
+## Column heading changes in downloaded reports
+
+Report Builder now includes the dataset name in default column headings of downloaded reports, so Name from the Learning Object dataset appears as **Learning Object - Name** instead of **Name**. For aggregated columns, the heading also includes the function, such as "**Count of Learning Object - ID**." If you enter a custom name in a column's **Alias** field, that alias is used as the heading and stays unchanged. 
+
+After the upgrade, existing reports without custom aliases show the updated headings, while report data, filters, and schedules aren't affected. If your scripts, spreadsheets, business intelligence dashboards, or integrations reference columns by heading, update them to the new names, or set a custom alias to keep a specific heading.
+
+## Live Hub
+
+Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers.
+
+## Multilingual support for closed captions in Live Hub
+
+Closed captions in Live Hub have been enhanced to support additional languages. Instructors can now select the caption language in **Room settings** based on the language spoken during the session.
+
+Captions are generated automatically in the selected language and displayed in a dedicated panel that updates continuously as the Instructor speaks. All participants view captions in the language selected by the Instructor.
+
+This enhancement improves accessibility for participants across different languages and helps them follow live sessions more effectively.
+
+## Localized Live Hub interface and recording player
+
+The Live Hub interface now appears in the language selected for the Learning Manager user interface. Labels and headings throughout the session, including chat, attendees, polls, breakout rooms, and settings, appear in the user's chosen language. Live Hub supports the same 18 interface languages as Learning Manager, including English. The recording player is also localized, so elements such as polls appear in the course language. For example, a recording of a German course displays the player interface in German.
+
+This gives global participants a consistent experience across the platform and in session recordings.
+
+## Live Hub sessions up to 5,000 attendees
+
+Live Hub now supports large-scale sessions with up to 5,000 attendees, allowing organizations to conduct large training sessions. Authors can choose a capacity of 5,000 attendees when adding a Virtual Classroom module to a course. Live Hub automatically configures the room based on the audience size and applies specific interaction restrictions. 
+
+In large sessions, the following capabilities and behaviors apply:
+
+* Camera access, screen sharing, and whiteboard functionality are limited to Instructors.
+* Breakout rooms are unavailable.
+* Large volumes of simultaneous chat messages, reactions, and questions are delivered in staggered batches.
+* Other interactions and capabilities, including polls, quizzes, recording, and attendance tracking, work as they do in regular sessions.
+
+This allows organizations to run large training sessions within the same platform, with a room that can be set to the expected audience size.
+
+## Channels
+
+Channels are now generally available for all customers.
+
+## Group enrollment reservation and waitlist management
+
+Group enrollment reservation and waitlist management give Authors finer control over who can enroll in Classroom and Virtual Classroom courses. Authors can allocate seats to specific user groups and set separate enrollment open dates for those groups and for all other Learners. They can also turn on automatic waitlist promotion with a cut-off date, so an available seat goes to the next eligible Learner. Reserving all seats restricts a course to the selected groups.
+
+## Support for multiple Zoom connections
+
+Adobe Learning Manager now supports multiple Zoom connections within a single account, allowing organizations to manage virtual classroom sessions across different Zoom accounts.
+
+Integration Administrators can configure multiple Zoom connections and assign them to specific roles or user groups. When creating or editing a course session, Authors can select from the Zoom connections available to them, with each session using one connection.
+
+This enhancement provides greater flexibility for organizations that use multiple Zoom accounts, particularly in the following cases:
+
+* **Department-specific training**: Manage separate Zoom accounts for different departments or teams within the same Learning Manager account.
+* **Partner and external training**: Assign dedicated Zoom connections to specific partners or user groups to support their training sessions.
+* **Controlled access**: Restrict the availability of Zoom connections based on roles or user groups, ensuring Authors can select only the connections assigned to them.
+* **Simplified connection management**: Enable Integration Administrators to centrally manage multiple Zoom connections without affecting existing sessions.
+
+## Safe Exam Browser integration for quizzes
+
+Adobe Learning Manager now integrates with Safe Exam Browser for native quizzes, providing a secure, controlled environment for conducting assessments. Administrators can enable the integration at the account level and upload a Safe Exam Browser configuration file (.seb) to define the assessment restrictions. Authors can then choose which individual quizzes require Safe Exam Browser.
+
+When Learners attempt a quiz that requires Safe Exam Browser, they're prompted to launch the browser. This blocks access to other browsers and applications for the duration of the assessment according to the Administrator-defined restrictions. Learners who don't have it installed are prompted to download it.
+
+**Where it helps:**
+
+* **Certification assessments:** Conduct quizzes where restricting access to external resources is important.
+* **Compliance training:** Support controlled assessments for mandatory training and regulatory requirements.
+* **High-stakes evaluations:** Reduce opportunities to access unauthorized applications or resources during important assessments.
+* **Flexible assessment management:** Allow Authors to require Safe Exam Browser only for quizzes that need additional restrictions.
+
+## Accessibility fixes in Live Hub
+
+Accessibility fixes in Live Hub improve the experience for users of assistive technologies and keyboard navigation.
+
+* **Screen readers**: Controls and content are now announced correctly with NVDA, JAWS, VoiceOver, and TalkBack.
+* **Keyboard navigation**: Every interactive element is reachable in a logical tab order with a visible focus indicator, focus no longer gets trapped, and a skip-navigation link is available.
+* **Closed captions**: Live sessions show real-time captions, recordings support caption upload and toggling, and the caption toggle can be operated from the keyboard.
+* **Color contrast**: Text and UI components now meet the required contrast ratios, and a high-contrast theme is available.
+* **Zoom and reflow**: Content and functionality are preserved at 200% browser zoom, and Live Hub works with screen magnifiers.
+
+## API changes in Adobe Learning Manager December 2026 release
+
+### Bookmark API ordering and retired content handling
+
+Learners can bookmark trainings to revisit later. Previously, bookmark APIs returned saved trainings in no specific order, preventing headless integrations from displaying the most recently saved trainings first. Bookmarks to retired learning objects also stayed in the list and led to "Page not found" errors.
+
+This update fixes both:
+
+* Bookmarks are now returned newest first.
+* Bookmarks to retired learning objects are no longer returned.
+
+No new endpoints, parameters, or response attributes are added, so existing integrations keep working without changes.
+
+### APIs for discussion board Instructor notifications
+
+This release includes new APIs that support discussion board Instructor notifications. Use them to subscribe Instructors and cohort managers to discussion boards and to control which activity appears in their digest emails.
+
+### API support for multi-enrolled instances in the Learner app
+
+The enrollments API now supports multi-enrolled instances in the Learner app. Add the optional `includeMultiInstanceEnrollments=true` parameter to `GET /enrollments` to include them. The default is `false`, so existing integrations, including headless implementations, keep working unchanged.
+
+### Last access date for learning path enrollment
+
+You can now store custom metadata, such as a last access date, on a learning path enrollment and set and read it through the API. This helps you track time-bound access to the learning paths you assign.
+
+* Set the metadata on an existing enrollment or when you enroll a Learner, using an admin token.
+* Read it with an admin or Learner token.
+
+The metadata is for your own tracking. It doesn't control access and isn't applied to the courses in the path.
+
+### Job API job type for Report Builder exports
+
+The Job API has a new job type, `generateCustomReport`, that exports any saved Report Builder report when you pass its report ID. With the new L2 quiz dataset, you can export question-level quiz data across multiple courses in one report and automate recurring exports.
+
+Existing job types, including `generateQuizReport`, are unchanged.
+
+### APIs for the Zoom connector
+
+Use these APIs to view and manage Zoom connectors in Adobe Learning Manager. Use them to retrieve existing Zoom connections, save Zoom credentials, create or update connections, and manage access permissions for user groups and custom roles.
+
+**API sequence**
+
+Use the APIs in this sequence:
+
+| **Step** | **API**                             | **Purpose**                                                       | **Authentication**        |
+|------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| 1        | `POST /ctr/authcred/uuid/20012    `   | Save the Zoom credentials.                                        | Integration Admin session |
+| 2        | `POST /ctr/app/esconnect  `           | Create a Zoom connection or update an existing one.               | Integration Admin session |
+| 3        | `PUT /ctr/xtsa/{connectionId}/access` | Set the user groups and custom roles that can use the connection. | Integration Admin session |
+
+**Authentication and permissions**
+
+These APIs use session-based authentication and require the user to log in as an Integration Admin in Adobe Learning Manager.
