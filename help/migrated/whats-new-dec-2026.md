@@ -10,7 +10,7 @@ product_v2:
 
 # What's new in Adobe Learning Manager December 2026 release
 
-This release 
+The upcoming release of Adobe Learning Manager introduces a variety of new features and enhancements aimed at streamlining the platform and expanding its capabilities. These updates simplify everyday workflows, improve how learning content is organized and delivered, and make the overall experience more consistent and intuitive.
 
 ## Report Builder charts and dashboards
 
@@ -34,7 +34,7 @@ If part of a question can't be expressed with Report Builder fields, the report 
 
 ## Adobe Experience Manager Assets integration
 
-Adobe Learning Manager now integrates with Adobe Experience Manager Assets, allowing Authors to access and use approved learning content and image assets directly from a centralized repository. This removes the manual download and upload step between the team that manages assets in the digital asset manager (DAM) system and the team that builds courses in Adobe Learning Manager.
+Adobe Learning Manager now integrates with Adobe Experience Manager Assets, allowing Authors to access and use approved learning content and image assets directly from a centralized repository. This removes the manual download and upload step between the team that manages assets in the digital asset manager (DAM) and the team that builds courses in Adobe Learning Manager.
 
 What it changes:
 
@@ -50,13 +50,13 @@ File submission modules now support team submissions and rubric-based evaluation
 
 ### Team submissions
 
-Instructors can now create teams for file submissions. Each team submits one file for the whole team. The instructor evaluates the submission once, and the result applies to every member. Teams form in two ways: Instructors build them manually, or a scheduled process builds them before the instance start date, based on members per team or number of teams.
+Instructors can now create teams for file submissions. Each team submits one file for the whole team. The Instructor evaluates the submission once, and the result applies to every member. Teams form in two ways: Instructors build them manually, or a scheduled process builds them before the instance start date, based on members per team or number of teams.
 
 Instructors manage teams on a new **Teams management** page and review work on a team submissions page. Instructors can also unsubmit an approved submission to unlock the team when changes are required, such as when a team member leaves. A team holds up to 100 members. Learners can view their team, its members, and the evaluation result. Team modules can't be added or deleted after a course is published.
 
 ### Rubric-based assessments
 
-Authors can now define a rubric-based assessment called an evaluation plan, for file submission modules. A rubric-based assessnent supports objective questions with scored options and subjective questions with written review. This makes evaluations consistent across Learners. It applies to individual and team submissions.
+Authors can now define a rubric, called an evaluation plan, for file submission modules. A rubric supports objective questions with scored options and subjective questions with written review.
 
 Authors can also configure the following settings:
 
@@ -71,7 +71,7 @@ Authors can now choose whether file submissions require Instructor approval or a
 
 ## Model Context Protocol server for Learner Assistant
 
-ALM enables Learners to access learning in the tools they already use through an MCP server. Learners can access Learning Manager from anywhere, including ChatGPT, Claude, and custom agents. Configure the server in the integration admin app to give Administrators access to six core tools for Learners. These include two Learner Assistant tools: Answer Agent and Personalized Learning Path.
+ALM enables Learners to access learning in the tools they already use through a Model Context Protocol (MCP) server. Learners can access Learning Manager from anywhere, including ChatGPT, Claude, and custom agents. Configure the server in the integration admin app to give Administrators access to six core tools for Learners. These include two Learner Assistant tools: Answer Agent and Personalized Learning Path.
 
 The server provides the following tools:
 
@@ -170,20 +170,7 @@ Layout inheritance depends on the parent layouts that are available. When both l
 
 ### Administrator and Author workflow
 
-The following is the Administrator and Author workflows:
-
-**Administrators** 
-
-* Create an account layout
-* Create an account template, 
-* Publish the branding. 
-
-**Authors** 
-
-* Inherit the layout
-* Customize the course email 
-* Save the template 
-* Publish the course 
+Admins use account-level templates to keep messages consistent across the account, which they manage by creating a layout and a template, then publishing the branding.
 
 Authors use instance-level templates when cohorts need different messages, which they manage through course instances.
 
@@ -244,7 +231,7 @@ To view the full name, hover over the shortened name.
 
 ## Badge information for courses and learning paths
 
-When Authors add courses or learning paths, a window now lists existing courses and learning paths with badge information. When an Author adds a course or a learning path, the window that displays the courses and learning paths show information suchc as the name, type (course or learning path), publication status, and course format, such as self-paced, virtual, classroom, or blended. This is called badge information.
+When Authors add a course or learning path, a window lists existing courses and learning paths with badge information. The window shows the name, type (course or learning path), publication status, and course format, such as self-paced, virtual, classroom, or blended.
 
 ## Non-logged-in enhancements
 
@@ -255,22 +242,18 @@ Learning Manager now enables controlled access to learning content without requi
 Visitors to your public academy can now play selected content straight from the course overview page, with no account, email, or form required.
 
 * **Turn non-logged-in access on or off:** Administrators can turn non-logged-in content consumption on or off for the whole account. 
-* **Make courses or modules available without login:** Authors can make an entire course available without login, or open up only specific modules, such as a free introductory module ahead of gated advanced content. 
+* **Make courses or modules available without logging in:** Authors can make an entire course available without login, or open up only specific modules, such as a free introductory module ahead of gated advanced content. 
 * **Inherit settings from courses:** Learning paths and certifications follow the settings of the courses inside them, with no extra setup.
-* **View content without signing in:** Unauthenticated Learners can view available non-logged-in content without logging in to their account.
+* **View content without logging in:** Unauthenticated Learners can view available non-logged-in content without logging in to their account.
 * **Self-paced content only:** Third-party licensed content and acquired catalog content can't be made available without login.
 * **Reports on anonymous consumption:** A report on monthly non-logged-in consumption can be generated. 
-* **Enable non-logged-in learning across platforms:** Non-logged-in content consumption is supported on native Adobe Learning Manager on web and mobile, on headless deployments, and on AEM Sites widgets based academies.
+* **Enable non-logged-in learning across platforms:** Non-logged-in content consumption is supported on native Adobe Learning Manager on web and mobile, on headless deployments, and on Adobe Experience Manager Sites widget-based academies.
 
 ### Choose which catalogs are public
 
 Administrators can now pick the specific catalogs that appear in the public academy. Only those catalogs can be browsed by anonymous visitors and indexed by search engines and AI assistants, so test courses or internal content stay private.
  
-### Get found in search engines and AI assistants
-
->[!NOTE]
->
->This is in beta.
+### Get found in search engines and AI assistants (Beta)
 
 Adobe Learning Manager can now make your public academy discoverable by search engines like Google and by AI assistants like ChatGPT, Claude, and Gemini. Your courses can then appear in search results and AI-generated answers, attributed to your academy. 
 
@@ -337,7 +320,14 @@ This gives global participants a consistent experience across the platform and i
 
 ## Live Hub sessions up to 5,000 attendees
 
-Live Hub now supports large-scale sessions with up to 5,000 attendees, allowing organizations to conduct large training sessions. Authors can choose a capacity of 5,000 attendees when adding a Virtual Classroom module to a course. Live Hub automatically configures the room based on the audience size and applies specific interaction restrictions. In large sessions, camera access, screen sharing, and whiteboard functionality are limited to instructors, while breakout rooms are unavailable. Large volumes of simultaneous chat messages, reactions, and questions are delivered in staggered batches. Other interactions and capabilities, including polls, quizzes, recording, and attendance tracking, continue to function as they do in regular sessions.
+Live Hub now supports large-scale sessions with up to 5,000 attendees, allowing organizations to conduct large training sessions. Authors can choose a capacity of 5,000 attendees when adding a Virtual Classroom module to a course. Live Hub automatically configures the room based on the audience size and applies specific interaction restrictions. 
+
+In large sessions, the following capabilities and behaviors apply:
+
+* Camera access, screen sharing, and whiteboard functionality are limited to Instructors.
+* Breakout rooms are unavailable.
+* Large volumes of simultaneous chat messages, reactions, and questions are delivered in staggered batches.
+* Other interactions and capabilities, including polls, quizzes, recording, and attendance tracking, work as they do in regular sessions.
 
 This allows organizations to run large training sessions within the same platform, with a room that can be set to the expected audience size.
 
@@ -385,7 +375,7 @@ Accessibility fixes in Live Hub improve the experience for users of assistive te
 * **Color contrast**: Text and UI components now meet the required contrast ratios, and a high-contrast theme is available.
 * **Zoom and reflow**: Content and functionality are preserved at 200% browser zoom, and Live Hub works with screen magnifiers.
 
-## API changes in Adobe Learning Manager  December 2026 release
+## API changes in Adobe Learning Manager December 2026 release
 
 ### Bookmark API ordering and retired content handling
 
@@ -437,12 +427,4 @@ Use the APIs in this sequence:
 
 **Authentication and permissions**
 
-These APIs are session based. Call them as an Integration Admin who is logged in to Adobe Learning Manager. They don't use an API key or an OAuth token. Each request needs the following headers:
-
-* `x-acap-caller-role: ROLE_INTEGRATIONADMIN`
-* `x-csrf-token`: The session-bound token that is embedded in the Integration Admin page HTML as csrfToken.
-* `Cookie`: The session cookies of the logged-in admin.
-
->[!NOTE]
->
->The clientSecret is sensitive. The view call GET /ctr/app/connection/{id}/object/10002 returns it in clear text. Rotate the secret if it's exposed, and don't share session cookies, CSRF tokens, or credentials.
+These APIs use session-based authentication and require the user to log in as an Integration Admin in Adobe Learning Manager.
