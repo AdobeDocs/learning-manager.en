@@ -10,7 +10,7 @@ product_v2:
 
 # What's new in Adobe Learning Manager December 2026 release
 
-The upcoming release of Adobe Learning Manager introduces a variety of new features and enhancements aimed at streamlining the platform and expanding its capabilities. These updates simplify everyday workflows, improve how learning content is organized and delivered, and make the overall experience more consistent and intuitive.
+This release of Adobe Learning Manager introduces a variety of new features and enhancements aimed at streamlining the platform and expanding its capabilities. These updates simplify everyday workflows, improve how learning content is organized and delivered, and make the overall experience more consistent and intuitive.
 
 ## Report Builder charts and dashboards
 
@@ -88,7 +88,7 @@ Administrators can edit each tool description to add organization-specific examp
 
 Learners can now remove suggested topics or courses in a single step, in addition to the existing option to refine topic and course lists through chat.
 
-Administrators can now reposition the personalized learning paths strip on the Learner home page through the Branding page.
+Administrators can now reposition the Personalized Learning Paths strip on the Learner home page through the Branding page.
 
 ## Practice skills with role-play in Virtual Coach
 
@@ -278,11 +278,11 @@ Self-registration profiles let external users, such as partners or members of mu
 
 When users select **Sign up** from a page reached through that URL, they're added to the profile the URL belongs to. This keeps users from different organizations, such as separate agencies or partner companies, in separate profiles.
 
-## Store last access dates for learning path enrollments
+## Store last access dates for Learning Path enrollments
 
-Adobe Learning Manager now allows you to attach custom metadata, such as a last access date, to a learning path enrollment. You set and read it through the API, which helps you track time-bound access to the learning paths you assign.
+Adobe Learning Manager now allows you to attach custom metadata, such as a last access date, to a Learning Path enrollment. You set and read it through the API, which helps you track time-bound access to the learning paths you assign.
 
-Course enrollments already support a last access date through the API, which controls how long a Learner can access the course. Learning path enrollments now offer a generic metadata field, so you can store a last access date or any other value you want to track.
+Course enrollments already support a last access date through the API, which controls how long a Learner can access the course. Learning Path enrollments now offer a generic metadata field, so you can store a last access date or any other value you want to track.
 
 ## Export Report Builder reports with the Job API
 
@@ -297,7 +297,7 @@ Existing job types, including `generateQuizReport`, are unchanged.
 
 ## Column heading changes in downloaded reports
 
-Report Builder now includes the dataset name in default column headings of downloaded reports, so Name from the Learning Object dataset appears as **Learning Object - Name** instead of **Name**. For aggregated columns, the heading also includes the function, such as "**Count of Learning Object - ID**." If you enter a custom name in a column's **Alias** field, that alias is used as the heading and stays unchanged. 
+Report Builder now includes the dataset name in default column headings of downloaded reports, so Name from the Learning Object dataset appears as **Learning Object - Name** instead of **Name**. For aggregated columns, the heading also includes the function, such as **Count of Learning Object - ID**. If you enter a custom name in a column's **Alias** field, that alias is used as the heading and stays unchanged. 
 
 After the upgrade, existing reports without custom aliases show the updated headings, while report data, filters, and schedules aren't affected. If your scripts, spreadsheets, business intelligence dashboards, or integrations reference columns by heading, update them to the new names, or set a custom alias to keep a specific heading.
 
@@ -319,9 +319,9 @@ The Live Hub interface now appears in the language selected for the Learning Man
 
 This gives global participants a consistent experience across the platform and in session recordings.
 
-## Live Hub sessions up to 5,000 attendees
+## Live Hub sessions up to 5000 attendees
 
-Live Hub now supports large-scale sessions with up to 5,000 attendees, allowing organizations to conduct large training sessions. Authors can choose a capacity of 5,000 attendees when adding a Virtual Classroom module to a course. Live Hub automatically configures the room based on the audience size and applies specific interaction restrictions. 
+Live Hub now supports large-scale sessions with up to 5000 attendees, allowing organizations to conduct large training sessions. Authors can choose a capacity of 5,000 attendees when adding a Virtual Classroom module to a course. Live Hub automatically configures the room based on the audience size and applies specific interaction restrictions. 
 
 In large sessions, the following capabilities and behaviors apply:
 
