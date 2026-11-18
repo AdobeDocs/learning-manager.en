@@ -687,29 +687,21 @@ This option allows authors to retire training content (courses, learning paths, 
 
 ### Retiral impact on higher-order learning objects
 
-## Retiral impact on higher-order learning objects
+The **Retiral impact on higher-order learning objects** setting controls what happens to a Learning Path or Certification when one of its courses or nested Learning Paths is retired. It applies only to higher-order learning objects — Learning Paths and Certifications. Select one of the following options:
 
-The retired course or nested learning path (LP) is removed from the higher-order learning object (LO), which stays open for new enrollments.
+* **Block new enrollments to higher-order learning objects that contain the retired learning object.**  
+ 
+    When a lower-order learning object is retired, any Learning Path or Certification that contains it becomes unavailable for new enrollments. Learners who are already enrolled retain access to the retired learning object within the higher-order learning object and can continue and complete it. 
+ 
+* **Remove the retired learning object from Learning Paths and Certifications that contain it, keeping them available for new enrollments.** 
+ 
+    When a lower-order learning object is retired, it is removed from the Learning Paths and Certifications that contain it, exactly as if it had been removed manually. The higher-order learning object stays available for new enrollments, and new learners see it as though the retired object was never part of it. Already-enrolled learners continue without the retired object, with their existing progress preserved in the Learner Transcript and completion percentages recalculated accordingly. Learners who have already completed the higher-order learning object keep their completion and final grade. 
 
-![](/help/migrated/administrators/feature-summary/assets/lp-retiral-settings.png)
+    If retiring a learning object would leave the higher-order learning object with no remaining content (for example, when all of its learning objects, or all of its required learning objects, are retired), the object is not removed and the higher-order learning object is blocked from new enrollments. 
 
-Option 1 blocks new enrollments in LOs that contain the retired LO. (Existing option)
-
-Option 2 removes the retired LO from LPs and certifications and keeps them open.
-
-The audit trail logs downstream changes with the actor "System-triggered" for both manual and auto-retiral. It also adds a new **Reason** column with one of the following values: "`<user_email> retired <object> (<id>) on <date_UTC>`" or "System triggered Auto-retiral".
-
-## Impact of retiral of a course
-
-Retiral of a course has the following impact:
-
-* Enrolled learners continue without the retired course. Their progress stays in the transcript, and the completion percentage is recalculated.
-* New learners enroll as if the course had never been part of the LO. Learners who completed the LO earlier keep their completion and grade.
-* A learner who had finished everything except the retired course is marked complete.
-* Publisher and learner emails continue to work as they do on removal. A republished course isn't added back automatically.
-* Retired courses can be deleted afterwards, except when linked to a Recurring Certification.
-* Peer and master account sharing isn't affected.
-* For acquired and purchased LPs and certifications, removal is blocked if editing isn't allowed. Removal proceeds if editing is allowed (full control enabled).
+>[!NOTE]
+>
+>Removal does not apply to recurring Certifications, which remain unchanged on retiral.
 
 ### Auto Retire
 
