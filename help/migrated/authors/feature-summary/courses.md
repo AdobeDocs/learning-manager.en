@@ -426,16 +426,6 @@ To configure automatic waitlist clearance:
 >* If you also allocate seats per user group, only members of a group are promoted into that group's seats.
 >* The **Auto-Promote Cut-off** date applies to both user group and open waitlists. Automatic promotions stop for both waitlists after this date.
 
-## Configure enrollment window and seat allocation in Course instance
-
-In **Step 5** we would add the following two extra fields information along with the updated screenshot:
-
-* **Open Enrollment Date:** The date from which all learners, including members of the selected user groups, can enroll in the course instance. If seats are allocated to user groups, this date applies to learners outside those groups.
-* **Auto-Promote Cut-off:** The date after which automatic promotion of waitlisted learners stops for instance.
-
-![Enrollment Window and Seat Allocation fields in the course instance settings](assets/course-instance-enrollment-window-seat-allocation.png "Enrollment Window and Seat Allocation fields in the course instance settings")
-
-
 ## Add compliance labels to course/learning path/certification {#add-custom-compliance-label}
 
 To add the compliance labels to courses, follow these steps:
