@@ -14,21 +14,43 @@ Administrators can manage attendance and waitlisting of courses for learners.
 
 ## Waitlist management {#waitlistmanagement}
 
-Learners are waitlisted for any classroom course when the seats are limited, based on the order of their enrollment. Administrators can select the waitlisted learners and allocate seats superseding the seats limit for any classroom course. Learners get enrolled into the course as soon as Administrator allocates a seat.
+Learners are waitlisted for a classroom course when the seats are limited, based on the order of their enrollment. When all seats reserved for a user group are filled, additional members of that group are placed on the group's waitlist. Learners outside the user groups are placed on the **Open Waitlist**. 
 
-1. Click **[!UICONTROL Courses]** on the left pane after you log in as Administrator.
-1. From the list of available courses, click the course name of any class room course of your choice. A new page appears with detailed information on the course.
+Administrators can review the waitlist and manage waitlisted learners. Adobe Learning Manager can also promote waitlisted learners automatically when a seat becomes available. 
 
-![](assets/waitlist-and-attendance-mgmnt.png)
+To manage waitlisted learners:
 
-*Select the Waitlist option*
+1. Select **Courses** on the left pane.
+1. Select the name of a classroom course from the available courses.
 
-1. Click **[!UICONTROL Waitlist]** on the left pane of the course detail page. Waitlisted learners list appears on the page.
-1. Select the learners and click **[!UICONTROL Allocate seats]** to enroll the learners directly to the courses superseding the seats limit.
+   A new page appears with detailed information on the course.
 
->[!NOTE]
->
->Enrolled learners cannot be moved to the waitlist, and their seats cannot be reallocated to other learners.
+1. Select **Waitlist** on the left pane of the course detail page.
+
+   The waitlist page opens with the following **Waitlist status**:
+
+   * **Seat Limit:** Total number of seats available for the session.
+   * **Filled:** Number of seats currently occupied.
+   * **In Waitlist:** Number of learners waiting for enrollment.
+
+1. Select the following tabs from the **Waitlist** page:
+
+   1. **Waitlist by User Group**: Lists the waitlisted learners under each user group.
+
+   >[!NOTE]
+   >
+   >This tab appears only if **Group Enrollment** setting is enabled.
+
+   1. **Open Waitlist**: Lists the waitlisted learners who are not reserved for any user group.
+
+   ![Waitlist page showing the Waitlist by User Group tab](assets/waitlist-by-user-group-tab.png "Waitlist page showing the Waitlist by User Group tab")
+
+1. Next to a learner, select one of the following actions:
+
+   |**Action**|**Description**|
+   |---|---|
+   |**Confirm**|Enrolls the waitlisted learner in the session and removes them from the waitlist.|
+   |**Unenroll**|Removes the learner from the waitlist and updates the positions of the remaining waitlisted learners.|
 
 ## Attendance management {#attendancemanagement}
 

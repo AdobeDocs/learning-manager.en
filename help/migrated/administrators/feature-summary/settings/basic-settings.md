@@ -239,6 +239,14 @@ See Product Terminology in Adobe Learning Manager for more information.
 
 When enabled, authors and instructors can record the number of instructional credits for each session or module. Credits represent the instructional time a learner will be credited for completing the activity. Credit values appear in learner transcripts, learning reports, and contribute to total duration calculations for Learning Paths. If you disable this setting, previously entered credit values are retained and restored if the setting is turned back on.
 
+### Group Enrollment
+
+Enable this setting to allow Authors to set enrollment opening dates and reserve seats for specific user groups in a course instance before general enrollment opens. If this setting is disabled, the Allocate seats per user group option is unavailable when configuring a course instance.
+
+### Safe Exam Browser integration
+
+Enable this setting to allow Authors to configure quizzes with Safe Exam Browser integration. To enable this integration, Administrators must upload the Safe Exam Browser configuration file for their cluster or environment. If this setting is disabled, the Safe Exam Browser option is unavailable to Authors when configuring quizzes.
+
 ### Module Version Update
 
 This option allows administrators to update the content of a module without disrupting the progress of learners who are already enrolled in courses containing that module. This ensures that learners can continue their learning journey smoothly while authors can keep the content up-to-date. With the option enabled, authors can upload a new version of a module (for example, SCORM, AICC, or xAPI packages) to replace the existing one.

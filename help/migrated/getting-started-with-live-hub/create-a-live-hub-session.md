@@ -131,6 +131,40 @@ To add Instructors using Instructor Finder:
 
 1.  Navigate to the Instructor that you want to assign, and then select **Add**. <br> The selected instructor is added to the **Instructors** field as a tag.
 
+## Create a course for large session
+
+Live Hub supports large sessions with more than 1100 and up to 5000 attendees. When you create a course with this capacity, Live Hub automatically configures the room for a large audience and applies the corresponding feature restrictions
+
+To create a large session:
+
+1. Login to the ALM as an **Author**.
+1. Select **Add** on the **Course catalog** page.
+1. Enter the course name and description.
+1. Select **Content** > **Add Modules** in the **Modules** section. The **Select Module Type** pop-up window appears.
+1. Select **Virtual Classroom** and enter the course details, including title, description, timezone, start and end date, and start and end time.
+1. Select **Live Hub** in **Live Virtual Training Tools**.
+1. (Optional) Select **Enable 5000 attendee capacity**.
+
+   ![Virtual Classroom dialog with Live Hub selected and the Enable 5000 attendee capacity option](assets/virtual-classroom-enable-5000-attendee-capacity.png "Virtual Classroom dialog with Live Hub selected and the Enable 5000 attendee capacity option")
+
+1. Select **Save** > **Publish**.
+
+### Features available in large sessions
+
+When an Instructor opens the session, the room settings show that large-session restrictions apply.
+
+|**Feature**|**Behavior in a large session**|
+|---|---|
+|Attendees|Up to 5,000. After that, no one else can join.|
+|Cameras|Instructors only, up to 10 at a time. Learners can’t turn on a camera.|
+|Microphones|Up to 20 participants can be unmuted at a time.|
+|Breakout rooms|Not available.|
+|Screen sharing and whiteboard|Instructors only. This can’t be changed.|
+|Private chat|Learner-to-learner is blocked. Chats with Instructors work.|
+|Typing indicator|Not shown.|
+|Chat, reactions, questions and raised hands|Delivered in batches, so they may appear after a short delay.|
+|Polls, quizzes, recording and attendance|Work the same as in regular sessions.|
+
 ## Enroll learners in the course
 
 Learners can be enrolled in a Live Hub course in the following two ways:

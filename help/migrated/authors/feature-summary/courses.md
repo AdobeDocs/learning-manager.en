@@ -364,6 +364,78 @@ The setting appears only when the course has at least one team-based module. Add
 **You changed the rules, but the teams didn't change.** 
 The rules apply only if teams haven't been created for the instance. To change existing teams, ask the instructor to edit them.
 
+## Configure enrollment window and seat allocation for a Classroom course
+
+You can define when different groups of learners can enroll, allocate a specific number of seats to selected user groups, and automatically promote eligible learners from the waitlist when seats become available.
+
+Authors can allocate seats to user groups only after an Administrator enables the **Group Enrollment** setting. View General settings article for more information.
+
+To configure seat allocation for user groups:
+
+1. Sign in to Adobe Learning Manager as an Author.
+1. Select **Courses** from the left navigation.
+1. Create a **Classroom** course. View Course modules for more information.
+1. Configure the following settings:
+
+   |Setting|Description|
+   |---|---|
+   |**Seat Limit**|Displays the lowest seat limit configured across the Classroom or Virtual Classroom modules. This field is read-only. To allocate seats to user groups, first set a seat limit in the Classroom or Virtual Classroom module.|
+   |**Open Enrollment Date**|Select the date on which everyone, including the selected user groups, can enroll.|
+   |**Allocate seats per user group**|Enable this option to reserve seats for specific user groups.<p>**Note:**<ul><li>Reserve 100% of the available seats for specific user groups to ensure that only learners from those groups can enroll in the course.</li><li>You cannot enable or disable this option once the course is published.</li></ul>|
+   |**Unallocated seats**|Displays the number of seats that remain available to learners outside the selected user groups.|
+   |**Open Enrollment Date for Groups**|Select the date from which members of the selected user groups can start enrolling.|
+
+
+1. Select **Add Group Allocation**, and configure the following:
+
+   1. **User group**: Select the user group for which you want to reserve seats.
+   1. **Seats allocated**: Enter the number of seats to reserve for the selected user group.
+
+   ![Seat allocation and automatic waitlist clearance settings in a Classroom course](assets/seat-allocation-and-waitlist-clearance-settings.png "Seat allocation and automatic waitlist clearance settings in a Classroom course")
+
+1. Select **Save**.
+
+### Manage user group allocations
+
+After you add a user group, the group and its allocated seats appear in the allocation list. Use the available actions to modify the allocation.
+
+![User group allocation list with Edit and Delete actions](assets/user-group-allocation-list.png "User group allocation list with Edit and Delete actions")
+
+|**Action**|**Description**|
+|---|---|
+|**Edit**|Modify the number of seats allocated to the user group.|
+|**Delete**|Remove the seat allocation for the user group.|
+
+>[!NOTE]
+>
+>The total number of seats allocated across user groups can't exceed the Seat Limit.
+
+### Configure automatic waitlist clearance
+
+When an Administrator enables Group Enrollment, automatic waitlist clearance promotes the next eligible waitlisted learner when a seat opens. This is enabled by default.
+
+To configure automatic waitlist clearance:
+
+1. Enable **Allow automatic waitlist clearance** in the **Course overview** page.
+1. (Optional)Select a date from **Auto-Promote Cut-off** picker.
+1. Select **Save**.
+   Automatic promotion stops after the cut-off.
+
+>[!NOTE]
+>
+>* If you also allocate seats per user group, only members of a group are promoted into that group's seats.
+>* The **Auto-Promote Cut-off** date applies to both user group and open waitlists. Automatic promotions stop for both waitlists after this date.
+
+## Configure enrollment window and seat allocation in Course instance
+
+In **Step 5** we would add the following two extra fields information along with the updated screenshot:
+
+* **Open Enrollment Date:** The date from which all learners, including members of the selected user groups, can enroll in the course instance. If seats are allocated to user groups, this date applies to learners outside those groups.
+* **Auto-Promote Cut-off:** The date after which automatic promotion of waitlisted learners stops for instance.
+
+![Enrollment Window and Seat Allocation fields in the course instance settings](assets/course-instance-enrollment-window-seat-allocation.png "Enrollment Window and Seat Allocation fields in the course instance settings")
+
+
 ## Add compliance labels to course/learning path/certification {#add-custom-compliance-label}
 
 To add the compliance labels to courses, follow these steps:
@@ -403,8 +475,10 @@ To create an instance, do the following:
    * In the **[!UICONTROL Instance Name]** field, enter the name of the instance you want to associate with the course. Ensure that you use a unique name for the instance.
    * **Start Date:** This is the start date of the course. Two reminder emails can be sent on two different selected dates to the Learner before this start date. The start date has to be a date before the date of completion. Once you select the start date, this date will be highlighted in blue in the calendar in the **Notificiation Alerts** section of the instance.
       ![](assets/start-date-instance.png)
-      ![](assets/start-date-highlighted-instance.png)
    * Specify the completion deadline for the instance. Learners must achieve course completion status by this date.
+      ![](assets/start-date-highlighted-instance.png)
+   * **Open Enrollment Date** (Optional): The date from which learners can enroll. If seats are allocated to user groups, this date applies to learners outside those groups.
+   * **Auto-Promote Cut-off** (Optional): After this date, automatic waitlist promotion stops for the instance. This field appears when automatic waitlist clearance is enabled.
    * Select **[!UICONTROL Show More Options]** to display other deadline options.
    * **[!UICONTROL Enrollment Deadline]:** This is the date by which a learner is expected to enroll into a learning object in case of self-enrollment.
    * **[!UICONTROL Unenrollment Deadline]:** You can choose to restrict unenrollment by learner himself by having an unenrollment deadline.
