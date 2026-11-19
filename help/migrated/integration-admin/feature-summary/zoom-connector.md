@@ -12,13 +12,13 @@ product_v2:
 
 ## Introduction
 
-The Zoom Connector in Adobe Learning Manager allows seamless integration with Zoom to deliver live virtual classroom sessions. With this integration, instructors can host Zoom meetings directly from Learning Manager, enroll learners, and track attendance and completion data. Learners receive automatic invites and can join sessions through their Adobe Learning Manager accounts. After the session, attendance and performance data are synced back to Adobe Learning Manager for reporting and tracking.
+The Zoom Connector in Adobe Learning Manager enables organizations to deliver live virtual classroom sessions, manage learner enrollment, and track attendance and completion. It also supports multiple Zoom connections within a single account, allowing Integration Administrators to manage access based on roles or user groups and Authors to select available connections for course sessions. After the session, attendance and performance data are synced back to Adobe Learning Manager for reporting and tracking.
 
 ## Set up the Zoom connector
 
 To configure the Zoom Connector:
 
-1. Log in to Adobe Learning Manager as an integration administrator.
+1. Log in to Adobe Learning Manager as an Integration Administrator.
 2. Hover over the **Zoom** tile.
 
     ![](assets/zoom-connector1.png)
