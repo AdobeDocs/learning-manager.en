@@ -41,21 +41,22 @@ Each webhook request contains the following top-level structure:
 
 ```json
 {
-  "accountId": 1010,
+  "accountId": 1234,
   "events": [
     {
-      "eventId": "d5fb7071-10a9-46b2-9f9e-79dde346c052",
-      "eventName": "<LO_INSTANCE_MODIFICATION_EVENT_NAME>",
-      "timestamp": "2026-10-20T09:15:43.000Z",
-      "eventInfo": "1760951743000-047210-84242-0",
+      "eventId": "121da98-ab8d-43e9-b671-e79131cd69dc",
+      "eventName": "LEARNING_OBJECT_INSTANCE_MODIFICATION",
+      "timestamp": "2024-11-08T03:49:52.000Z",
+      "eventInfo": "1235603297000-040649-741781-0",
       "data": {
-        "loId": "course:7374992",
-        "loInstanceId": "course:7374992_10250977",
+        "loInstanceId": "course:12324298_14453691",
+        "loId": "course:12324298",
         "loType": "course"
       }
     }
   ]
 }
+
 ```
 
 The same structure is used regardless of who modifies the LO instance. The payload doesn't indicate whether an instructor, an administrator, or an author made the change.

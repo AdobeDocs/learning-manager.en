@@ -54,7 +54,7 @@ You must meet all of these requirements. Missing any of them is the most common 
 
 * You have the Integration Administrator role in Adobe Learning Manager. The connection workflow is available only to this role.
 * You're an IMS Organization Administrator for the Adobe Identity Management System (IMS) organization you select.
-* You have access to at least one organization where AEM Assets instances can be associated with Adobe Learning Manager.
+* You have access to at least one organization where AEM Assets instances can be associated with Learning Manager.
 
 If you aren't an IMS Organization Administrator, ask your IT administrator to either grant you access or run the connection with you.
 
