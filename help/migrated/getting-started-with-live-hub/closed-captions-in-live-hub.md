@@ -57,7 +57,8 @@ Each participant can show or hide captions as they prefer. Changing this setting
 
 The **closed captions** feature is available to both Instructors and Learners in a Live Hub session. Available actions vary based on the user role.
 
-| **Instructors** | **Learners** |
-|----|----|
-| [Display closed captions](../getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md#display-closed-captions) | [Display closed captions](../getting-started-with-live-hub/manage-closed-captions-as-a-learner.md#display-closed-captions) |
-| [Change the appearance of closed captions](../getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md#change-the-appearance-of-closed-captions) | [Change the appearance of closed captions](../getting-started-with-live-hub/manage-closed-captions-as-a-learner.md#change-the-appearance-of-closed-captions) |
+|**Instructors**|**Learners**|
+|---|---|
+|[Display closed captions](../getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md#display-closed-captions)|[Display closed captions](../getting-started-with-live-hub/manage-closed-captions-as-a-learner.md#display-closed-captions)|
+|[Change the appearance of closed captions](../getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md#change-the-appearance-of-closed-captions)|[Change the appearance of closed captions](../getting-started-with-live-hub/manage-closed-captions-as-a-learner.md#change-the-appearance-of-closed-captions)|
+|[Select caption language](../getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md#select-the-caption-language)| |
