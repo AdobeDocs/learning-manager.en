@@ -9,9 +9,15 @@ exl-id: f4cb951e-3cb1-4caf-b6b8-aec86b32f782
 
 ## Overview
 
-Adobe Learning Manager can track attendance for Adobe Connect virtual classroom sessions through recording views. When a learner misses a live session but watches the recording on Adobe Connect for long enough, Learning Manager marks the learner as having attended. The learner then completes the session module and can move toward completing the learning object that the session belongs to.
+Adobe Learning Manager can track attendance for Adobe Connect virtual classroom sessions through recording views. When a learner misses a live session but watches the recording on Adobe Connect for long enough, Learning Manager marks the learner as having attended the session. The learner then completes the session module and can move toward completing the learning object that the session belongs to.
 
 Before this feature, Learning Manager had no way to record attendance for learners who watched a Connect recording. A learner who missed a live session couldn't complete it, and an instructor had to step in and mark attendance manually. This feature removes that manual step. Adobe Connect reports who watched which recording and for how long, and Learning Manager compares the watch time with the completion criteria set for the account.
+
+Once the learner meets the completion criteria for the recorded session ,learners are marked in the Admin app.
+
+The Learner's email ID should be the same in Adobe Learning Manager and Adobe Connect since Adobe Learning Manager redirects the Learner to Adobe Connect using the same email ID.
+The default sync frequency and the shortest interval the Integration Admin can set is one hour.
+
 
 ## Who does what
 
@@ -41,10 +47,6 @@ Each role has a separate part in making recording-based attendance work.
 
 A learner can't join the live virtual classroom session. Later, the learner opens the session in Learning Manager and watches the recording. Once the watch time meets the completion criteria, Learning Manager marks the learner as attended and the learner completes the module without asking the instructor for help.
 
-### A cohort with many virtual classroom sessions
-
-In a cohort that runs for four to eight weeks, every learner must complete every session to complete the cohort. With so many sessions, some learners are likely to miss one. Automatic attendance removes the load on instructors who would otherwise review and mark each case.
-
 ### A learner who only partly watches
 
 A learner opens the recording but watches less than the required share. The completion criteria aren't met, so Learning Manager doesn't mark the learner as attended.
@@ -57,12 +59,11 @@ An author or delivery manager schedules sessions for day 1, day 2, and day 3 on 
 
 | Feature                   | What it does                                                                                                              |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Automatic attendance          | Marks a learner as attended for a Connect-based virtual classroom session when the learner watches the recording long enough. |
+| Automatic attendance          | Marks a learner as attended for a Connect-based virtual classroom session when the learner watches the recording long enough to meet the prescribed threshold limit. |
 | Watch time from Connect       | Uses the learner email and recording watch time that Adobe Connect captures.                                                  |
 | Completion criteria threshold | Marks the learner complete for the module when watch time reaches the percentage set in the completion criteria.              |
 | Actual watch time only        | Counts the time a learner really watched. Dragging the seek bar doesn't add watch time.                                       |
 | Scheduled sync                | Runs a back-end pipeline on a schedule that the Integration Admin controls, and can be turned on or off.                      |
-| Completion date cutoff        | Applies attendance only up to the completion date of the learning object, or of the parent learning object if it has none.    |
 | Persistent room visibility    | Shows the Connect room name at instance level so authors can reuse a persistent room across days.                             |
 
 ## How attendance tracking works
@@ -113,90 +114,56 @@ Learning Manager applies recording-based attendance only up to the completion da
 
 The Integration Admin controls how often the pipeline runs. The schedule can be hourly or weekly, among other intervals, and the Integration Admin can turn the schedule on or off. The same Adobe Connect account is used for every run.
 
-## View persistent rooms in multiday sessions
-
-*Let authors reuse the same Adobe Connect persistent room across the days of a multiday session without signing in to Adobe Connect.*
-
-### Background
-
-Authors and delivery managers schedule multiday virtual classroom sessions, for example on day 1, day 2, and day 3, and want to host them on one persistent room. When they select a persistent room, one of two things happens:
-
-* If the room is new, Learning Manager creates it in the Adobe Connect account.
-
-* If the room already exists, the user selects it.
-
-These users usually can't sign in to Adobe Connect, so they can't see the names of rooms that were newly created or created in the past. When they add the day 2 and day 3 sessions, they can't tell which room was created for day 1.
-
 ### What changes
 
 * When a user adds the persistent room created for day 1, Learning Manager gives them access to that room. They can then add the same room to sessions on other days.
-
 * Learning Manager shows the Connect room name at instance level, in the session details next to the **Virtual Classroom URL**.
-
 * For the default instance, Learning Manager shows the room set up during course creation.
-
-### How Connect room names are generated
-
-Observations from testing in March 2026 show how Adobe Connect names rooms:
-
-* Creating a new course instance creates a new Adobe Connect room.
-
-* By default, the room name is the meeting title, such as the module name "Test VC Session."
-
-* If the customer reuses an existing persistent room, Learning Manager keeps that room and its name.
-
-* Adobe Connect doesn't allow two rooms with the same name in the same context. If creation fails because of a duplicate name, the connector retries. It adds a random number to the title, for example "Test VC Session_867260116."
-
-* The number is a random integer that only makes the name unique. It isn't a course instance ID, schedule ID, or timestamp.
 
 ### Limitations and considerations
 
 * Attendance isn't real time, because Learning Manager pulls data on a schedule.
-
 * The feature covers Connect-based virtual classroom sessions only.
-
 * A recording must exist, so the instructor must start the recording during the live session.
-
 * Learners are matched through the email address that Adobe Connect captures.
-
 * Dragging the seek bar doesn't add watch time.
-
 * Recording-based attendance stops at the completion date of the learning object, or of the parent learning object.
+
+### Points to remember
+
+* Watch time must be greater than or equal to the percentage prescribed (for example 50% of 5 minutes is 2.5 minutes). Watch time does not add up if the Learner repeatedly watches the session but is still short of the prescribed watch time. However, watch time adds up even if the Learner watches the session at different points of time in parts and meets the threshold criteria. For example, if a Learner watches one minute of the session on day 1 and then watches another 1.5 minutes of the session the next day from the point where he left, the watch time adds up. This happens on the Adobe Connect side.
+
+* Completion criteria can be configured at course level and account level. The effect is the same as the live session participation.
+
+* The default sync frequency and the shortest interval the Integration Admin can set is one hour.
+
+* The Learner's email ID should be the same in Adobe Learning Manager and Adobe Connect since Adobe Learning Manager redirects the Learner to Adobe Connect using the same email ID.
 
 ### FAQs
 
 **Q. Does the learner have to attend the live session?**
-
 **A.** No. A learner who misses the live session can still be marked as attended by watching the recording for long enough.
 
 **Q. How much of the recording must the learner watch?**
-
 **A.** The percentage in the completion criteria, applied to the recording duration. For example, at 50% a 5-minute recording needs at least 2.5 minutes of watch time.
 
 **Q. Does skipping ahead in the recording count?**
-
 **A.** No. Adobe Connect records the time the learner actually watched, so dragging the seek bar does not count.
 
 **Q. Is attendance marked as soon as the learner finishes watching?**
-
 **A.** No. Learning Manager pulls viewer data from Adobe Connect on a schedule, so attendance updates after the next pipeline run.
 
 **Q. Does Adobe Connect send the data to Learning Manager?**
-
 **A.** No. Learning Manager pulls it. It's a pull mechanism at the Adobe Connect instance level, not a push.
 
 **Q. How does Learning Manager know which learner watched?**
-
 **A.** Adobe Connect captures the learner's email and the recording watch time. Learning Manager maps that to the course and module.
 
 **Q. Who controls how often the sync runs?**
-
 **A.** The Integration Admin sets the schedule and can turn it on or off.
 
 **Q. Is the completion percentage set for each instance?**
-
 **A.** No. It is a common setting across the account.
 
 **Q. Can multiday sessions share one Connect room?**
-
 **A.** Yes. Authors can reuse the persistent room created for day 1 on the sessions for other days, and the room name appears at instance level in Learning Manager.

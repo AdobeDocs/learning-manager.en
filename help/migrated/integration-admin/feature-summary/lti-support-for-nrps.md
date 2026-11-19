@@ -11,21 +11,6 @@ exl-id: 4c972319-b8ce-4f2d-9ccb-1b93c6cc6ac0
 
 Adobe Learning Manager supports the Names and Role Provisioning Services (NRPS) specification when it acts as a Learning Tools Interoperability (LTI) 1.3 tool. When a learner launches Learning Manager from an external learning management system (the platform), Learning Manager retrieves the learner's membership record from the platform. It then copies the custom attributes in that record, such as department or employee ID, into the learner's profile as active fields.
 
-Learning Manager creates learner accounts on the fly when learners launch from a platform through LTI 1.3. Until now, the learner profile was populated only from standard LTI claims, such as name and email address. Platforms often hold richer learner data, such as department, employee ID, or location in NRPS membership records. These attributes aren't part of the standard LTI claims.
-
-With NRPS custom field sync, Learning Manager does the following at launch:
-
-1. Detects that the platform supports NRPS.
-2. Requests the launching learner's membership record from the platform.
-3. Extracts the custom attributes from that record.
-4. Writes the attributes to the learner's profile as active fields. Each field name carries a namespace prefix, so attributes from different platforms don't collide.
-
-Learning Manager reuses the OAuth 2.0 client credentials token that it already uses for Assignment and Grades Services (AGS). You don't need to configure a new token endpoint.
-
->[!NOTE]
->
->NRPS is an optional specification in LTI Advantage. Support for NRPS and for custom attributes varies by platform. Confirm that your platform exposes NRPS 2.0 before you plan to use this feature.
-
 ## Use cases
 
 * **Enrich learner profiles automatically.** Bring attributes such as department, employee ID, or custom metadata from your platform into Learning Manager without manual data entry or separate imports.
@@ -33,16 +18,32 @@ Learning Manager reuses the OAuth 2.0 client credentials token that it already u
 * **Keep profile data aligned with the source platform.** The platform remains the source of truth. Learning Manager refreshes the values each time a learner launches.
 * **Support multiple platforms in one account.** Namespace prefixes keep attributes from different platforms separate, even when the platforms use the same attribute name.
 
+With NRPS custom field sync, Learning Manager does the following at launch:
+
+1. Detects that the platform supports NRPS.
+2. Requests the launching learner's membership record from the platform.
+3. Extracts the custom attributes from that record.
+4. Writes the attributes to the learner's profile as active fields. Each field name carries a `<namespace>` prefix, so attributes from different platforms don't collide.
+5. Learning Manager reuses the OAuth 2.0 client credentials token that it already uses for Assignment and Grades Services (AGS). You don't need to configure a new token endpoint.
+
+>[!NOTE]
+>
+>NRPS is an optional specification in LTI Advantage. Support for NRPS and for custom attributes varies by platform. Ensure that your platform exposes NRPS 2.0 before you plan to use this feature.
+
 ## Key features
 
-* **Automatic NRPS detection.** Learning Manager checks every LTI 1.3 launch for the NRPS claim. If the claim is absent, the launch continues normally with no error and no impact to the learner.
-* **Launching learner only.** Learning Manager requests only the launching learner's membership record. It doesn't fetch or process the full course roster.
-* **Shared token infrastructure.** Learning Manager adds the NRPS scope to its existing AGS token request and reuses the existing per-registration token cache.
-* **Namespace-prefixed active fields.** Each custom attribute maps to an active field named `<namespace>_<field_name>`.
-* **Automatic field creation.** If no matching active field exists, Learning Manager creates one with the type **Text** and the status **Active**.
-* **Platform as source of truth.** Learning Manager overwrites existing profile values with the latest values from the platform. Learners and administrators can't edit these fields.
-* **Nonblocking behavior.** NRPS errors never prevent a learner from launching. Learning Manager logs the error and continues.
-* **Multiple sources for custom attributes.** Learning Manager can read custom attributes from the NRPS endpoint and from custom parameters in the LTI launch token. Learn more about [custom attributes in the launch token](#custom-attributes-in-the-launch-token).
+* **Support for NRPS claims:** Learning Manager checks every LTI 1.3 launch for the NRPS claim. If the claim is absent, the launch continues normally with no error and no impact on the learner.
+  * This claim provides the following information:
+    * **Membership endpoint:** `context_memberships_url `identifies the service URL for the course or learning context from which the learner launched ALM.
+    * **Supported versions:** `service_versions` lists the NRPS versions available at that endpoint.
+  This feature supports NRPS 2.0.
+  * **Shared token infrastructure:** Learning Manager adds the NRPS scope to its existing AGS token request and reuses the existing per-registration token cache.
+* **Sync custom parameters to learner profiles**
+  * **Namespace-prefixed active fields:** Each custom attribute maps to an active field named `<namespace>_<field_name>`.
+  * **Automatic field creation:** If no matching active field exists, Learning Manager creates one with the type **Text** and the status **Active**.
+  * **Platform as source of truth:** Learning Manager overwrites existing profile values with the latest values from the platform. Learners and administrators can't edit these fields.
+  * **Nonblocking behavior:** NRPS errors do not prevent learners from launching learning content.
+  * **Multiple sources for custom attributes:** Learning Manager can read custom attributes from the NRPS endpoint and from custom parameters in the LTI launch token. Learn more about [custom attributes in the launch token](#custom-attributes-in-the-launch-token).
 
 ## Supported configurations
 
@@ -52,8 +53,6 @@ Learning Manager reuses the OAuth 2.0 client credentials token that it already u
 | LTI version                                                    | LTI 1.3                                                                  |
 | NRPS service version                                           | 2.0                                                                      |
 | Platforms (spec-compliant custom field format)                 | Moodle, D2L Brightspace, Blackboard (Anthology), Sakai                   |
-| Custom field serialization pattern (supported in this release) | Pattern S                                                                |
-| Platforms planned for a future release                         | Canvas (Instructure): Pattern A. Legacy or unknown platforms: Pattern B. |
 | Custom field type                                              | Text                                                                     |
 | Trigger                                                        | Each LTI 1.3 launch                                                      |
 
@@ -69,6 +68,7 @@ Platform support depends on the custom-field serialization pattern used in the N
 4. Learning Manager calls `context_memberships_url?rlid=<lti_user_id>` with the bearer token to retrieve the launching learner's record. If the platform ignores the `rlid` filter and returns the full roster, Learning Manager finds the learner by `user_id`.
 5. Learning Manager extracts the custom fields from the record.
 6. Learning Manager maps each custom field to an active field and writes the values to the learner's profile.
+7. Alternatively, ALM also supports extracting custom parameters to be synced to learner profile during the tool launch, if the custom parameters are pre-fixed with ALM identifiable field `ALMfield`.
 
 ### Custom field format
 
@@ -88,20 +88,11 @@ The NRPS 2.0 specification defines custom data as a `message` array in the membe
 }
 ```
 
-From this record, Learning Manager extracts the following:
-
-| Namespace                                      | Field     | Value   |
-|----------------------------------------------------|---------------|-------------|
-| `https://purl.imsglobal.org/spec/lti/claim/custom` | `department`  | Engineering |
-| `https://purl.imsglobal.org/spec/lti/claim/custom` | `employee_id` | E4567       |
-
-Learning Manager doesn't treat standard NRPS fields as custom fields. The excluded fields are `user_id`, `name`, `given_name`, `family_name`, `middle_name`, `email`, `picture`, `roles`, `status`, and `lis_person_sourcedid`.
-
 ### Custom attributes in the launch token
 
 Platforms can also send custom attributes as custom parameters in the LTI launch token. Learning Manager collects attributes from both the launch token and the NRPS endpoint and stores them in the learner profile.
 
-For attributes in the launch token, the custom parameter name must start with the prefix that Learning Manager requires. Without the prefix, Learning Manager can't distinguish these parameters from other custom parameters and doesn't import them. Attributes retrieved from the NRPS endpoint don't need this prefix.
+For attributes in the launch token, the  parameter name must start with the prefix that Learning Manager requires. Without the prefix, Learning Manager can't distinguish these parameters from other custom parameters and doesn't import them. Attributes retrieved from the NRPS endpoint don't need this prefix.
 
 >[!NOTE]
 >
@@ -113,12 +104,12 @@ Learning Manager builds the active field name as `<namespace>_<field_name>`. For
 
 Learning Manager applies the following rules:
 
-* **Name length.** If the name exceeds the active field name character limit, Learning Manager shortens the namespace portion first and keeps the field name.
-* **Name conflicts.** After shortening, Learning Manager checks for conflicts with existing active fields from a different source. If there is a conflict, it adjusts the shortening length until it finds a unique name. If it can't find a unique name, it skips the field and logs an error.
-* **Matching.** Matching of field names isn't case-sensitive.
-* **Existing and enabled field.** Learning Manager writes the value to the learner's profile.
-* **Existing and disabled field.** Learning Manager skips the field without logging an error.
-* **No existing field.** Learning Manager creates a **Text** field with the status **Active**.
+* **Name length:** If the name exceeds the active field name character limit, Learning Manager shortens the namespace portion first and keeps the field name.
+* **Name conflicts:** After shortening, Learning Manager checks for conflicts with existing active fields from a different source. If there is a conflict, it adjusts the shortening length until it finds a unique name. If it can't find a unique name, it skips the field and logs an error.
+* **Matching:** Matching of field names isn't case-sensitive.
+* **Existing and enabled field:** Learning Manager writes the value to the learner's profile.
+* **Existing and disabled field:** Learning Manager skips the field without logging an error.
+* **No existing field:** Learning Manager creates a **Text** field with the status **Active**.
 
 ### Writing values to the profile
 
@@ -138,15 +129,13 @@ Learning Manager applies the following rules:
 * The LTI launch token contains the `namesroleservice` claim.
 * The claim provides `context_memberships_url`, which identifies the course-specific NRPS endpoint.
 * The `service_versions` value in the claim includes `2.0`.
-* You have administrator access to the platform's tool registration.
+* You have Administrator access to the platform's tool registration.
 
 ### Grant the NRPS scope to Learning Manager
 
-New registrations that include the NRPS scope work without further changes in Learning Manager. For an existing registration, the platform administrator must update the tool registration on the platform side.
+New registrations that include the NRPS scope require no additional configuration in Learning Manager.
 
-1. On the platform, open the tool registration for Learning Manager.
-2. Grant the NRPS scope `https://purl.imsglobal.org/spec/lti-nrps/scope/contextmembership.readonly` to the tool.
-3. Save the registration.
+New registrations that include the NRPS scope work without further changes in Learning Manager. For an existing registration, the platform administrator must update the tool registration on the platform side.
 
 >[!NOTE]
 >
@@ -179,14 +168,6 @@ The platform controls which learner attributes it shares. The exact steps depend
 >
 >If a field exists but is disabled, Learning Manager doesn't write to it. Enable the field if you want it populated.
 
-## Use imported attributes for learner grouping
-
-The NRPS-sourced active fields aren't groupable. You can view the synchronized attributes in the learner profile, but you can't use these fields as learner-grouping attributes in this release.
-
->[!NOTE]
->
->**Release limitation:** Grouping support isn't available for NRPS-sourced active fields. You can't use these fields for learner grouping or segmentation in this release.
-
 ## Error handling and logging
 
 Learning Manager never blocks a learner because of an NRPS problem. It doesn't retry. It logs the failure and skips NRPS sync for that launch. The next launch tries again.
@@ -204,22 +185,10 @@ Learning Manager never blocks a learner because of an NRPS problem. It doesn't r
 
 Each log entry includes the timestamp, platform registration ID, learner ID, and failure reason. Learning Manager system administrators can access the logs.
 
-## Limitations
+## Notes
 
 * Only the launching learner's record is synced. Learning Manager doesn't sync the full course roster.
 * Only NRPS service version 2.0 is supported.
 * All synced fields have the type **Text**. Learning Manager doesn't infer types from values. Number, date, and Boolean field types aren't supported.
 * Learning Manager acts as the LTI tool. It doesn't act as an NRPS platform and doesn't provide a roster endpoint to other tools.
-* Custom field synchronization occurs during the LTI launch. Real-time synchronization outside the launch isn't supported.
-* There's no per-registration administrator toggle for NRPS custom field synchronization.
-* Pattern A, used by Canvas, is planned for a future release. Pattern B, for legacy or unknown platforms, is also planned for a future release.
-
-## Troubleshooting
-
-| Symptom                                | Likely cause                                                                                                                                                                  | Action                                                                                                                           |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| No active fields are created               | The launch token doesn't contain the NRPS claim, NRPS 2.0 isn't advertised, the NRPS scope wasn't granted, the learner wasn't found, or no supported custom fields were returned. | Check the `namesroleservice` claim, `service_versions`, platform-side scope grant, learner membership record, and Pattern S payload. |
-| Launch works, but NRPS values don't update | The matching active field is disabled, the incoming value is empty or null, or the field name couldn't be resolved uniquely after truncation.                                     | Enable the matching active field, provide a nonempty source value, and review the system logs for a field conflict.                  |
-| NRPS endpoint returns an error             | The endpoint timed out or returned a 4xx or 5xx response.                                                                                                                         | Review the platform registration, bearer token scope, NRPS endpoint, and Learning Manager system logs. The learner launch continues. |
-| Token request doesn't grant NRPS access    | The existing LTI registration hasn't been updated to grant the NRPS read-only scope.                                                                                              | Update the platform-side tool registration to grant the required scope. AGS and the launch flow continue independently.              |
-| Canvas custom fields aren't imported       | Canvas uses Pattern A.                                                                                                                                                            | Pattern A isn't supported in the current release. It is planned for a future release.                                                |
+* Custom field synchronization occurs during the LTI launch.

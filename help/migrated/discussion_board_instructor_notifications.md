@@ -1,19 +1,19 @@
 ---
-description: Learn how instructors and cohort managers get email digests of discussion board activity and how to manage settings and subscribers with APIs
+description: Learn how Instructors and Cohort Managers get email digests of discussion board activity and how to manage settings and subscribers with APIs
 jcr-language: en_us
-title: Discussion board instructor notifications
+title: Discussion board Instructor notifications
 exl-id: 370c9add-5572-4555-8a95-ddb470c230f4
 ---
 
-# Discussion board instructor notifications
+# Discussion board Instructor notifications
 
 ## Overview
 
-Discussion board instructor notifications give instructors and cohort managers an email digest of recent activity on the discussion boards they monitor. This is helpful for instructors who manage several cohorts and take part in multiple boards at the same time.
+Discussion board Instructor notifications give Instructors, Cohort Managers, and Administrators an email digest of recent activity on the discussion boards they monitor. This is helpful for Instructors who manage several cohorts and take part in multiple boards at the same time.
 
-A cohort manager is the person who manages a group of learners (a cohort) who go through a course or program together on the same schedule.
+A Cohort Manager is the person who manages a group of learners (a cohort) who go through a course or program together on the same schedule.
 
-Instead of opening each board individually, instructors receive real-time in-app alerts and an email digest, at the frequency you configure, for the boards they're subscribed to. You manage board subscriptions and notification settings through the [`boardSubscriptionSettings` API](api-changes-dec-2026.md#api-sequence) and the [subscribers API](api-changes-dec-2026.md#api-get-subscribers).
+Instead of opening each board individually, Instructors receive real-time in-app alerts and an email digest, at the frequency you configure, for the boards they're subscribed to. You manage board subscriptions and notification settings through the [`boardSubscriptionSettings` API](api-changes-dec-2026.md#api-sequence) and the [subscribers API](api-changes-dec-2026.md#api-get-subscribers).
 
 ## Key capabilities
 
@@ -26,20 +26,17 @@ Instead of opening each board individually, instructors receive real-time in-app
 
 ## Use cases
 
-The following use cases show how instructor notifications help:
+The following use cases show how Instructor notifications help:
 
 |Use case|How the notification helps|
 |---|---|
-|Monitor multiple cohorts|An instructor responsible for several cohorts can receive summarized activity from the boards associated with those cohorts.|
-|Review learner engagement|A cohort manager can monitor new contributions and identify active discussions without checking every board separately.|
-|Track follow-up conversations|Comments and replies included in the digest help instructors identify discussions that may require guidance or moderation.|
-|Customize notification cadence|You can set the digest frequency for the account anywhere from 1 to 168 hours, such as every 6, 15, or 24 hours.|
-|Support API-driven workflows|Customers who work through APIs instead of the admin interface can manage subscribers, board associations, feature enablement, and digest intervals.|
+|Monitor multiple cohorts|An Instructor responsible for several cohorts can receive summarized activity from the boards associated with those cohorts.|
+|Review learner engagement|A Cohort Manager can monitor new contributions and identify active discussions without checking every board separately.|
+|Track follow-up conversations|Comments and replies included in the digest help Instructors identify discussions that may require guidance or moderation.|
 
 ## Important considerations
 
 * A user must be able to access a board when a notification is sent. Access is checked again at delivery time, not only when the user is subscribed. If a subscriber loses access to a board, the subscription is kept but notifications for that board are skipped.
-* Upvote and downvote notifications are controlled by the `notifyVote` setting in the [`boardSubscriptionSettings` API](api-changes-dec-2026.md#api-create-settings). The setting is `false` by default.
 * The digest is sent as one email, so a busy board can make it very long. For example, a cohort of about 40 learners could post several hundred comments in six hours.
 * If your boards are very active, use a shorter digest frequency, such as every six hours, so each email stays manageable. Set the frequency with `digestFrequencyHours` in the [`boardSubscriptionSettings` API](api-changes-dec-2026.md#api-create-settings).
 * The number of posts in the email digest is limited to 20 per board per digest. The same cap applies independently to comments (20) and replies (20) per board. Only the displayed lists are truncated; the headline/subheading counts always reflect the true, untruncated activity for the window.
@@ -72,7 +69,7 @@ A digest email is sent for each subscribed board that had eligible activity. It 
 * **Board section:** Activity is grouped under the board name. Each post is listed beneath it.
 * **Item details:** Each post, comment, or reply shows the name and email address of the user who created it, plus a link to the item.
 * **Links:** Selecting a link opens the post, comment, or reply directly. The recipient must be logged in for the link to open.
-* **Comments and replies:** These appear in the same email as posts, so instructors can see follow-up conversations along with new topics.
+* **Comments and replies:** These appear in the same email as posts, so Instructors can see follow-up conversations along with new topics.
 
 ## Configure notifications
 
@@ -95,6 +92,6 @@ Use the subscribers API to choose which active Learning Manager users are subscr
 
 ### Enable the feature
 
-To enable instructor notifications, create the account-level settings and then subscribe users to boards, as described in [API changes in Nov 2026](api-changes-dec-2026.md). After that, the system collects new posts, comments, and replies created during the configured interval. At the end of the interval, subscribers receive a summarized notification covering the eligible activity on subscribed boards.
+To enable Instructor notifications, create the account-level settings and then subscribe users to boards, as described in [API changes in Nov 2026](api-changes-dec-2026.md). After that, the system collects new posts, comments, and replies created during the configured interval. At the end of the interval, subscribers receive a summarized notification covering the eligible activity on subscribed boards.
 
 Learn more about the API changes in [API changes in December 2026](api-changes-dec-2026.md).

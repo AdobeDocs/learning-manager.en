@@ -37,6 +37,7 @@ nudge: true
    * [API deprecations and changes in Adobe Learning Manager](api-deprecations-list.md)
    * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Whitelabeling in Adobe Learning Manager](white-label.md)
+   * [Discussion board email digest (Instructor notifications](/help/migrated/discussion_board_instructor_notifications.md)
 * Feature availability in releases {#feature-availability}
    * [Feature availability in Aug 2026 release](/help/migrated/feature-availability-aug-2026.md)
 * Get Started {#get-started}

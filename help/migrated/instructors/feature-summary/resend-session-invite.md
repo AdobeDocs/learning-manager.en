@@ -13,30 +13,22 @@ exl-id: 12ee20a8-4521-4235-8120-596812da7809
 >
 >Retriggering is available for virtual classroom (VC) sessions only. Other module types, such as classroom and self-paced (e-learning) modules aren't supported.
 
-Learners can miss an invite for several reasons. With the Resend option, as an administrator who has permission to edit courses, you can open a VC session on the instance page, search for the learners, and send the session invite email. Learning Manager sends the email on demand, outside the enrollment event flow. The learner receives the session details and a calendar invite, and the enrollment state stays the same.
+Learners can miss an invite for several reasons. With the **Resend** option, as an administrator who has permission to edit courses, you can open a VC session on the instance page, search for the learners, and send the session invite email. Learning Manager sends the email on demand, outside the enrollment event flow. The learner receives the session details and a calendar invite, and the enrollment state stays the same.
 
 ## Use cases
 
 The following are the use cases where you would resend a session invite.
 
 * **Recover a missed invite.** Resend the invite to a learner whose mailbox was full, whose email went to spam, or whose original email wasn't delivered.
-
-* **Cover late enrollments.** Send the invite to learners who were enrolled after the initial invite batch went out.
-
 * **Reduce no-shows.** Resend the session details and calendar invite right before the session, or on the day of the session.
-
 * **Avoid enrollment workarounds.** Resend an invite without unenrolling and re-enrolling the learner, so the enrollment state and session registration stay intact.
-
 * **Reduce support tickets.** Administrators resolve "missing invite" requests themselves, without involving the support team.
 
 ## Prerequisites
 
 * The session is a VC session.
-
 * The learner is enrolled in the target session. Learning Manager sends the invite only to learners who are enrolled in the session.
-
 * The session already exists. This feature doesn't create or modify sessions.
-
 * The existing Session Invite email template is used. This feature doesn't introduce a new email template.
 
 ## Supported configurations
@@ -81,40 +73,38 @@ The Resend Session Invites dialog contains the following elements.
 Complete the following steps as an administrator.
 
 1. Log in as an administrator who has permission to edit the course.
-
-1. Navigate to **Learning** > **Courses**.
+2. Navigate to **Learning** > **Courses**.
 
    ![](assets/resend-session-invite1.png)
 
-1. Open the course whose instances you want to access.
+3. Open the course whose instances you want to access.
 
    ![](assets/resend-session-invite2.png)
 
-1. Navigate to the instance whose session you want to access.
-
-1. In the **Session Details** section below, select **Resend Session Invite**.
+4. Navigate to the instance whose session you want to access.
+5. In the **Session Details** section below, select **Resend Session Invite**.
 
    ![](assets/resend-session-invite3.png)
 
-1. The **Resend Session Invite** pop-up opens.
+6. The **Resend Session Invite** pop-up opens.
 
    ![](assets/resend-session-invite4.png)
 
-1. Search for the learner or learners to whom you would like to resend the invite.
+7. Search for the learner or learners to whom you would like to resend the invite.
 
    ![](assets/resend-session-invite5.png)
 
    ![](assets/resend-session-invite6.png)
 
-1. Select **Resend**. You'll see a message which says, "Session invite sent to "x" learners."
+8. Select **Resend**. You'll see a message which says, "Session invite sent to "x" learners."
 
    ![](assets/resend-session-invite7.png)
 
-1. In case one of the learners selected is from another session, you will see a message which says, "X selected learner is not enrolled in this session and was skipped."
+9. In case one of the learners selected is from another session, you will see a message which says, "X selected learner is not enrolled in this session and was skipped."
 
    ![](assets/resend-session-invite8.png)
 
-1. After a few minutes, the learner(s) will receive a mail with the session details including a link to join the session.
+10. After a few minutes, the learner(s) will receive a mail with the session details including a link to join the session.
 
    ![](assets/resend-session-invite9.png)
 
@@ -125,8 +115,6 @@ When Learning Manager accepts the request, the dialog closes and a confirmation 
 ## Email content
 
 Each selected learner receives the session details email and the calendar invite for the session. The content includes the VC session join link, the date and time, and the session details. The email is the same as the original session invite, because Learning Manager uses the same template.
-
-Learning Manager sends the email on demand through the email dispatch service. It doesn't use the bulk enrollment event pipeline that sends the original invites.
 
 ## Multi-enrollment behavior
 

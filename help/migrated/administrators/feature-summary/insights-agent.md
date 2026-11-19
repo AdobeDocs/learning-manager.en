@@ -295,7 +295,7 @@ Use these as starting points. Adapt them by replacing the content names, user gr
 
 Insights Agent supports queries written in English and Latin-alphabet languages such as French and Spanish. Queries submitted using non-Latin scripts, including Japanese, Chinese, Arabic, Korean, Hindi, and Russian are not processed. The agent will display a message indicating the query could not be completed. If you submit a query in one of these languages, start a new query and rephrase it in English.
 
-## Create a report from an Insights Agent answer
+## Create a report from an Insights Agent answer {#create-report-insight-agent-answer}
 
 In Adobe Learning Manager, you can ask Insights Agent a question in plain language and open the answer as a report in Report Builder. You can then edit the report and reuse it, so you don't have to rebuild it from scratch.
 
@@ -303,8 +303,8 @@ In Adobe Learning Manager, you can ask Insights Agent a question in plain langua
 
 Insights Agent and Report Builder are two ways to reach the same data in Adobe Learning Manager. Both run on the same data platform.
 
-* **Insights Agent** lets you ask questions in natural language.
-* **Report Builder** lets you build a report by selecting data sets, columns, aggregations, and filters. You can also use it to create recurring reports, subscribe to reports, and edit existing reports.
+* **Insights Agent** allows you ask questions in natural language.
+* **Report Builder** allows you build a report by selecting data sets, columns, aggregations, and filters. You can also use it to create recurring reports, subscribe to reports, and edit existing reports.
 
 The integration connects the two. You start with a question, review the answer, and open it in Report Builder. There, you can modify the report and continue working with it as you would with any other report. Currently, this integration is available to admins.
 
@@ -386,7 +386,7 @@ Insights Agent decides whether a missing field or calculation is central to your
 | Part of your question can't be expressed in Report Builder | The part is listed as a gap. The report remains available for review. |
 | A field in the answer isn't available in Report Builder, and the field is minor to your question | You can open the report in Report Builder. The field is listed as a gap. |
 | A field in the answer isn't available in Report Builder, and the field is central to your question | You can't open the answer in Report Builder. For example, skill name or skill ID. |
-| The answer uses a calculated field that Report Builder doesn't support | The calculation is listed as a gap. If it is central to your question, you can't open the answer in Report Builder. |
+| The answer uses a calculated field that Report Builder doesn't support. The calculation can be one of two types: a complex calculation that creates a new field, or an aggregation calculation built on top of existing RB fields. The first type can't be converted to RB, but the second can. | The calculation is listed as a gap. If it is central to your question, you can't open the answer in Report Builder. |
 | The question is complex, for example with multiple joined queries | The converted report can be less accurate. If it still serves your intent, it opens so you can verify it. |
 
 ### Troubleshoot report conversion
@@ -396,3 +396,10 @@ Insights Agent decides whether a missing field or calculation is central to your
 | You can't open the answer in Report Builder. | A field or calculation that is central to your question isn't available in Report Builder. Rephrase your question without that field or calculation, and ask again. |
 | The report has fewer columns than the answer. | Check the gaps listed beside the report. Items listed there couldn't be converted. |
 | The report doesn't match what you expected from a complex question. | Review the report against your original question. Break the question into smaller questions and convert each answer separately. |
+
+### More like this
+
+*    [Create reports with Report Builder](/help/migrated/administrators/feature-summary/alm-create-report.md)
+*    [Create dashboards from Report Builder reports and visualize report data with charts](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+*    [Use Insights Agent for reporting](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insight-agent-answer)
+*    [Share and subscribe to reports](/help/migrated/administrators/feature-summary/download-share-subscribe-report.md)

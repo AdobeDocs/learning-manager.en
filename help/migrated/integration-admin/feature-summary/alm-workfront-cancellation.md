@@ -49,7 +49,7 @@ The following roles are involved in a cancellation that starts in Workfront.
 | Delivery manager | Schedules and manages the training calendar in Workfront, including cancelling sessions. Delivery managers do not use the Learning Manager user interface. Migration is the only path by which their cancellation reaches Learning Manager. |
 | Systems administrator | Runs the migration through the API. This role operates the Workfront-to-Learning Manager pipeline and is separate from the delivery manager and the Learning Manager admin. |
 | Admin | Manages course and session data in the Learning Manager user interface. Admins no longer need to cancel sessions manually after being told about a change in Workfront. |
-| Author | Owns the course and session content in the Learning Manager user interface. Authors receive a cancellation notification for sessions they authored, whether the cancellation starts in the user interface or in migration. |
+| Author | Owns the course and session content in the Learning Manager user interface. |
 | Instructor | Is assigned to sessions. Instructors see the correct session state and are notified when a session they instruct is cancelled. |
 | Learner | Is enrolled in a session through Learning Manager. Learners are told promptly when their session is cancelled. |
 
@@ -99,8 +99,7 @@ The following table shows what happens when a migration row is processed. Learni
 ### Rules for the session state column
 
 * The column is optional on every row.
-* If you leave the column blank or omit it for an existing session, the session keeps its current state. Learning Manager does not infer a state change from an empty value, whatever other fields the row contains.
-* If you leave the column blank for a new session, the session is created as active.
+* When the column is empty, the session will be updated to Active.
 * A session becomes active again through migration only when the column explicitly says Active.
 
 Use one of the following values in the session state column:
@@ -125,9 +124,9 @@ Use this procedure when a session has been cancelled in Workfront and you want L
 * The session already exists in Learning Manager, imported through the Workfront-to-Learning Manager migration.
 * You know the matching key that your migration uses to identify the session.
 
-1. In Workfront, cancel the session.
+1. In **Workfront**, cancel the session.
 1. In the session CSV file that you use for migration, locate the row for the session. Make sure the matching key is the same as the one used when the session was created.
-1. In the session state column, enter Cancelled.
+1. In the session state column, enter **Cancelled**.
 1. Run the migration through the API.
 1. In Learning Manager, verify that the session is cancelled.
 
@@ -168,8 +167,6 @@ The recipients, as applicable to the session, are as follows.
 |---|---|
 | Learners | Learners enrolled in the session are told that the session is cancelled. |
 | Instructors | Instructors assigned to the session are notified of the cancellation. |
-| Admins | Admins receive the cancellation notification. |
-| Authors | Authors of the course and session receive the cancellation notification. |
 | Managers | Managers receive the cancellation notification. |
 
 ### Emails for cancelled sessions
