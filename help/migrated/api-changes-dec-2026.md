@@ -1345,3 +1345,253 @@ When you build the report from the L2 quiz dataset in Report Builder:
 * Each row represents one learner's answer to one question in one attempt. It includes the question ID and text, the learner's response, the score achieved, the maximum score, whether the response was correct, the attempt number, the answered-on date, and the module version.
 * Learner details, custom and metadata attributes, manager, and course and module names are available through the related user and learning object datasets.
 * Data refreshes at the standard Report Builder interval (approximately every 15 minutes).
+
+## APIs to create and manage the Zoom connector
+
+Use these APIs to manage Zoom connections in Adobe Learning Manager. You can retrieve existing connections, save Zoom credentials, create or update connections, configure access permissions for user groups and custom roles, and enable or disable a connection.
+
+### Setup Zoom connector APIs
+
+Setting up and managing a Zoom connector takes four API calls. Make them in this order:
+
+| Step | API | What it does |
+|---|---|---|
+| 1 | `POST /ctr/authcred/uuid/20012` | Saves the Zoom credentials. |
+| 2 | `POST /ctr/app/esconnect` | Creates the Zoom connection, or updates an existing one. |
+| 3 | `PUT /ctr/xtsa/{connectionId}/access` | Sets the user groups and custom roles that can use the connection. |
+| 4 | `POST /ctr/xtsas/{connectionId}/enable` | Enables or disables the connection. |
+
+> [!NOTE]
+> These APIs use the logged-in Integration Admin session. They don't use an API key or an OAuth token.
+
+### Base URL and conventions
+
+The Zoom connector APIs use the following conventions:
+
+| Item | Value |
+|---|---|
+| Base URL | `https://learningmanagerstage1.adobe.com` |
+| Content type | `application/json` |
+| Authentication | Session of a logged-in Integration Admin |
+| Required headers | `content-type`, `accept`, `x-acap-caller-role: ROLE_INTEGRATIONADMIN`, `x-csrf-token`, and `Cookie` |
+| Integration catalog UUID for Zoom | `20012` |
+| Connection limit | 50 Zoom connections |
+
+The `x-csrf-token` value is embedded in the Integration Admin page HTML as `csrfToken`. The `Cookie` header carries the session cookies of the logged-in admin.
+
+### Before you begin
+
+- Sign in as an Integration Admin.
+- Create a Zoom Server-to-Server OAuth app. Note its client ID, client secret, and account ID. You also need the email address of the Zoom super admin.
+- Call `GET /ctr/xtsas/canCreateAccount/25`. It returns `true` if you can create another Zoom connection.
+
+### Step 1: Save the Zoom credentials {#save-credentials}
+
+Call this API before you create or update a connection. It stores the credentials that the connector uses to connect to Zoom.
+
+```
+POST /ctr/authcred/uuid/20012
+```
+
+To update an existing connection, add the `connectionId` query parameter:
+
+```
+POST /ctr/authcred/uuid/20012?connectionId={connectionId}
+```
+
+The request body is the credentials as JSON text. It is a JSON string that contains JSON, not a nested object. Include the outer quotes.
+
+| Key | Description |
+|---|---|
+| `clientId` | The client ID of the Zoom app. |
+| `clientSecret` | The client secret of the Zoom app. This value is sensitive. |
+| `accountId` | The Zoom account ID. |
+| `superAdmin` | The email address of the Zoom super admin. |
+
+Sample request body:
+
+```
+"{\"clientId\":\"<ZOOM_CLIENT_ID>\", \"clientSecret\":\"<ZOOM_CLIENT_SECRET>\", \"accountId\":\"<ZOOM_ACCOUNT_ID>\", \"superAdmin\":\"<ADMIN_EMAIL>\"}"
+```
+
+Sample `200 OK` response:
+
+```json
+{
+  "code": 0,
+  "description": "Success"
+}
+```
+
+`code: 0` means that the credentials were saved.
+
+### Step 2: Create or update the Zoom connection {#create-connection}
+
+This API creates a Zoom connection. The same endpoint also updates an existing connection.
+
+```
+POST /ctr/app/esconnect
+```
+
+The request body has the following fields:
+
+| Field | Required | Description |
+|---|---|---|
+| `UUID` | Yes | The integration catalog UUID. Use `20012` for Zoom. |
+| `listOfConnections` | Yes | The connections to create. Send one item. |
+| `listOfConnections[].name` | Yes | The display name of the connector, for example `Zoom_Partner_X`. |
+| `listOfConnections[].tag` | Yes | Send an empty string (`""`) when you create a connector. Omit it when you update one. |
+| `listOfConnections[].credentialsJson` | Yes | The credentials as JSON text. Use the same string that you sent in step 1. |
+| `listOfConnections[].schedules` | Yes | The sync schedule. Send `objectUUID` 10002, `priority` 1, and `type` 1. |
+| `listOfConnections[].id` | Update only | The ID of the connection to update, for example `3474737`. |
+
+Sample request body:
+
+```json
+{
+  "UUID": 20012,
+  "listOfConnections": [
+    {
+      "name": "Zoom_Example",
+      "tag": "",
+      "credentialsJson": "{\"clientId\":\"<ZOOM_CLIENT_ID>\", \"clientSecret\":\"<ZOOM_CLIENT_SECRET>\", \"accountId\":\"<ZOOM_ACCOUNT_ID>\", \"superAdmin\":\"<ADMIN_EMAIL>\"}",
+      "schedules": [
+        { "objectUUID": 10002, "priority": 1, "type": 1 }
+      ]
+    }
+  ]
+}
+```
+
+Sample `200 OK` response:
+
+```json
+[3474737]
+```
+
+The response is a JSON array that contains the ID of the new connection. Use this ID in steps 3 and 4 and in any follow-up calls.
+
+### Create and update compared
+
+| Difference | Create | Update |
+|---|---|---|
+| `listOfConnections[].id` | Not sent | The connection ID |
+| `listOfConnections[].tag` | `""` | Not sent |
+| Credentials call in step 1 | `POST /ctr/authcred/uuid/20012` | `POST /ctr/authcred/uuid/20012?connectionId={id}` |
+
+### Step 3: Set who can use the connection {#set-access}
+
+This API defines which user groups and custom roles can use the connection.
+
+```
+PUT /ctr/xtsa/{connectionId}/access
+```
+
+The path uses the singular `xtsa` for one connection. The plural `xtsas` is the collection of connections.
+
+The request body is a JSON array. Each item grants access to one user group or custom role.
+
+| Field | Required | Description |
+|---|---|---|
+| `accessType` | Yes | `USER_GROUP` or `CUSTOM_ROLE`. |
+| `accessId` | Yes | The ID of the user group or custom role, as a string. |
+
+Sample request body:
+
+```json
+[
+  { "accessType": "USER_GROUP", "accessId": "<groupId>" },
+  { "accessType": "CUSTOM_ROLE", "accessId": "<roleId>" }
+]
+```
+
+The API returns `204 No Content` with no body when the access list is saved.
+
+> [!NOTE]
+> The request replaces the whole access list. It doesn't append to it. Anything that isn't in the body loses access. To remove all access, send an empty array (`[]`).
+
+### Step 4: Enable or disable the connection {#enable-disable}
+
+This API turns a connection on or off. Use it after you create the connection, whenever you need to change its state.
+
+```
+POST /ctr/xtsas/{connectionId}/enable
+```
+
+The path uses the plural `xtsas`, like the list and delete calls. The access call in step 3 uses the singular `xtsa`.
+
+| Path parameter | Type | Description |
+|---|---|---|
+| `connectionId` | Number | The ID of the connection. It is the `id` returned by `GET /ctr/xtsas`, and the ID returned in step 2. |
+
+The request body has the following fields:
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| `objectUUID` | Number | Yes | The sync object of the connection. Use `10002`, the same value that you sent in `schedules[].objectUUID` in step 2. |
+| `operation` | Number | Yes | Send `1`. |
+| `val` | Boolean | Yes | The new state of the connection. Send `false` to disable the connection. Send `true` to enable it. |
+
+Sample request body to disable a connection:
+
+```json
+{
+  "objectUUID": 10002,
+  "operation": 1,
+  "val": false
+}
+```
+
+Sample request body to enable a connection:
+
+```json
+{
+  "objectUUID": 10002,
+  "operation": 1,
+  "val": true
+}
+```
+
+Sample request to disable a connection:
+
+```bash
+curl -X POST 'https://learningmanagerstage1.adobe.com/ctr/xtsas/<connectionId>/enable' \
+  -H 'accept: application/json' \
+  -H 'content-type: application/json' \
+  -H 'x-acap-caller-role: ROLE_INTEGRATIONADMIN' \
+  -H 'x-csrf-token: <CSRF_TOKEN>' \
+  -H 'Cookie: <SESSION_COOKIES>' \
+  --data '{"objectUUID":10002,"operation":1,"val":false}'
+```
+
+To confirm the new state, call `GET /ctr/xtsas`, find the connection by `id`, and check its `enabled` flag.
+
+> [!NOTE]
+> The `x-acap-caller-role` header must match the role of the active profile. For these APIs, use `ROLE_INTEGRATIONADMIN`.
+
+### Manage the connection after you create it
+
+You can use the following calls with the connection ID:
+
+| Purpose | Call |
+|---|---|
+| Enable or disable a connection | `POST /ctr/xtsas/{connectionId}/enable` |
+| Read the access list of one connection | `GET /ctr/xtsa/{connectionId}/access` |
+| Read access for all Zoom connections | `GET /ctr/xtsas/access?UUID=20012` |
+| List all connections. Zoom connections have `extsysRefId` 25. | `GET /ctr/xtsas` |
+| View a connection | `GET /ctr/app/connection/{id}/object/10002` |
+| Delete a connection permanently | `DELETE /ctr/xtsas/{id}` |
+
+> [!NOTE]
+> The view call returns the client secret in clear text. Treat the client secret as sensitive, and rotate it if it is exposed. Don't commit or share session cookies, CSRF tokens, or credentials, including in HAR files and copied cURL commands.
+
+### Use these APIs in your integration
+
+A common use case is an automated setup of a Zoom connector for a new account or partner.
+
+1. Call `GET /ctr/xtsas/canCreateAccount/25` to confirm that you can create another connection.
+2. Call `POST /ctr/authcred/uuid/20012` with the Zoom credentials.
+3. Call `POST /ctr/app/esconnect` with the connector name, the same credentials string, and the sync schedule. Read the connection ID from the response.
+4. Call `PUT /ctr/xtsa/{connectionId}/access` with the user groups and custom roles that can use the connection.
+5. Call `POST /ctr/xtsas/{connectionId}/enable` with `val` set to `true` or `false` to enable or disable the connection. Then call `GET /ctr/xtsas` and check the `enabled` flag to confirm the state.
+6. To change the credentials later, repeat steps 2 and 3 with the connection ID.
