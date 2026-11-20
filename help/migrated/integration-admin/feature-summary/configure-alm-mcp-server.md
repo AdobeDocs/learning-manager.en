@@ -117,9 +117,9 @@ The connector is now available to your organization. Each member selects **Conne
 
 You normally don't need to change the OAuth endpoints. If ChatGPT asks for them, use: Auth URL [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize), Token URL [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token), Registration URL empty, Resource [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp), scope learner:write.
 
-8. Select **I understand and want to continue**, then click **Create**.
-9. In the **Connect** window, click **Continue** and sign in to ALM. The window should show *Approved by your admin*.
-10. Make the plugin available to the target users in your workspace.
+1. Select **I understand and want to continue**, then click **Create**.
+1. In the **Connect** window, click **Continue** and sign in to ALM. The window should show *Approved by your admin*.
+1. Make the plugin available to the target users in your workspace.
 
 ![](/help/migrated/integration-admin/feature-summary/assets/integration-admin-mcp3.png)
 
