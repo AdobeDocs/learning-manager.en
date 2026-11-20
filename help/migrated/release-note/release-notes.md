@@ -63,17 +63,17 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 
 **Virtual Coach:** Virtual Coach is an AI-powered role-play and coaching solution that allows Learners practice realistic workplace conversations. It supports nine languages and can be used as a standalone job aid or embedded within a course. [Learn more](/help/migrated/authors/feature-summary/what-virtual-coach-is.md) 
 
-**Live Hub:** Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers. 
+**Live Hub:** Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers. [Learn more](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage-view-live-hub-usage)
 
-**Support for up to 5000 attendees in Live Hub**: Authors can now select a capacity of up to 5,000 attendees when adding a Virtual Classroom module. For large sessions, camera access, screen sharing, and whiteboard functionality are limited to Instructors. Breakout rooms are not available for these sessions.
+**Support for up to 5000 attendees in Live Hub**: Authors can now select a capacity of up to 5,000 attendees when adding a Virtual Classroom module. For large sessions, camera access, screen sharing, and whiteboard functionality are limited to Instructors. Breakout rooms are not available for these sessions. [Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
 
-**Multilingual closed captions in Live Hub**: Instructors can now select the closed caption language from **Room settings**. All participants view captions in the language selected by the Instructor.
+**Multilingual closed captions in Live Hub**: Instructors can now select the closed caption language from **Room settings**. All participants view captions in the language selected by the Instructor. [Learn more](./getting-started-with-live-hub/closed-captions-in-live-hub.md)
 
-**Group enrollment reservation and waitlist management:** Authors can allocate seats in Classroom and Virtual Classroom courses to specific user groups, set separate enrollment open dates for those groups and for all other Learners, and turn on automatic waitlist promotion with a cut-off date.
+**Group enrollment reservation and waitlist management:** Authors can allocate seats in Classroom and Virtual Classroom courses to specific user groups, set separate enrollment open dates for those groups and for all other Learners, and turn on automatic waitlist promotion with a cut-off date. [Learn more](./authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
 
-**Support for multiple Zoom connections:** Integration Administratoristrators can configure multiple Zoom connections in a single account and assign them to specific roles or user groups. Authors select from the connections available to them when they create or edit a session.
+**Support for multiple Zoom connections:** Integration Administratoristrators can configure multiple Zoom connections in a single account and assign them to specific roles or user groups. Authors select from the connections available to them when they create or edit a session. [Learn more](./integration-admin/feature-summary/zoom-connector.md)
 
-**Channels:** Channels are generally available for all customers.
+**Channels:** Channels are generally available for all customers. [Learn more](./administrators/feature-summary/create-channels.md)
 
 ## Enhancements in this release
 
@@ -122,7 +122,7 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 * **API support for multi-enrolled instances in the Learner app:** Add the optional `includeMultiInstanceEnrollments=true` parameter to `GET /enrollments` to include multi-enrolled instances. The default is `false`.
 * **Last access date for Learning Paths enrollment:** Set custom metadata on a Learning Path enrollment with an admin token. Read it with an admin or Learner token.
 * **Job API job type for Report Builder exports:** The new `generateCustomReport` job type exports a saved Report Builder report by report ID. Existing job types, including `generateQuizReport`, are unchanged.
-* **APIs for the Zoom connector:** New APIs retrieve and manage Zoom connections, save Zoom credentials, and set the user groups and custom roles that can use a connection. The APIs use session-based authentication and require an Integration Administrator login.
+* **APIs for the Zoom connector:** New APIs retrieve and manage Zoom connections, save Zoom credentials, and set the user groups and custom roles that can use a connection. The APIs use session-based authentication and require an Integration Administrator login. [Learn more](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
 
 ## Breaking changes in this release
 

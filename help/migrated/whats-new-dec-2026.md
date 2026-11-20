@@ -26,11 +26,15 @@ Report Builder supports the following chart types:
 
 A report dashboard holds charts built from one report. A custom dashboard combines charts from several reports, such as enrollment and user data, and supports up to 20 widgets. Charts that belong to a report are shared when you share the report. This helps Administrators keep current report data in one view instead of rerunning reports. Charts display up to 10,000 data points, and pivot tables show up to 100 rows and 100 columns. If a chart exceeds a limit, apply filters to narrow the results. Dashboards can't be exported yet.
 
+[Learn more](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+
 ## Insights Agent reports in Report Builder
 
 Administrators can now continue working with Insights Agent answers in Report Builder. When Insights Agent answers a question, Report Builder maps the same query to its own fields in a parallel step. Administrators can open, review, edit, and save the report. From there you can use the same Report Builder capabilities as any other report, such as subscriptions.
 
 If part of a question can't be expressed with Report Builder fields, the report lists that part as a gap. If the missing part is central to the question, the report isn't offered. Complex queries can produce reduced results, so review each report before you rely on it.
+
+[Learn more](/help/migrated/administrators/feature-summary/insights-agent.md##create-report-insights-agent)
 
 ## Adobe Experience Manager Assets integration
 
@@ -43,6 +47,8 @@ What it changes:
 * **Access follows existing permissions:** Authors only see the assets they already have access to in Experience Manager Assets, so browsing in Adobe Learning Manager respects the same permissions as the DAM itself.
 
 The result is a single, governed path from asset to Learner, with less manual work and fewer version mismatches.
+
+[Learn more](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
 
 ## File submission enhancements
 
@@ -84,10 +90,14 @@ The server provides the following capabilities:
 
 Administrators can edit each tool description to add organization-specific examples. Clients read the authorization details from the server metadata, so setup needs only a client ID and client secret.
 
+[Learn more](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
+
 ## Personalized learning path editing and branding strips
 
 * Learners can now remove suggested topics or courses in a single step, in addition to the existing option to refine topic and course lists through chat.
 * Administrators can now reposition the personalized learning paths strip on the Learner home page through the Branding page.
+
+[Learn more](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
 ## Practice skills with role-play in Virtual Coach
 
@@ -96,6 +106,8 @@ Adobe Learning Manager now offers Virtual Coach, an AI-powered role-play and coa
 Authors create scenarios from their own reference materials using templates or an AI assistant, and Learners speak with an AI persona that adapts to their responses in real time. After each session, Learners get instant scoring and coaching feedback on both knowledge and communication style, measured against criteria the Author defined. 
 
 Virtual Coach supports nine languages and can be used as a standalone job aid or embedded within a course.
+
+[Learn more](/help/migrated/authors/feature-summary/what-virtual-coach-is.md)
 
 ## Learning path citations in Learner Assistant
 
@@ -137,7 +149,9 @@ Administrators create account-wide email templates and layouts. Authors customiz
 
 Banner and signature settings have moved. Earlier, these settings appeared on a separate **Settings** tab. That tab is removed, and **Banner** and **Signature** now appear in **Global Layout**.
 
-With Email Builder, you can add email titles with the Title variable. 
+With Email Builder, you can add email titles with the Title variable.
+
+[Learn more](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
 
 ### How the Email Builder hierarchy works
 
@@ -304,6 +318,8 @@ After the upgrade, existing reports without custom aliases show the updated head
 
 Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers.
 
+[Learn more](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage-view-live-hub-usage)
+
 ## Multilingual support for closed captions in Live Hub
 
 Closed captions in Live Hub have been enhanced to support additional languages. Instructors can now select the caption language in **Room settings** based on the language spoken during the session.
@@ -312,15 +328,17 @@ Captions are generated automatically in the selected language and displayed in a
 
 This enhancement improves accessibility for participants across different languages and helps them follow live sessions more effectively.
 
+[Learn more](./getting-started-with-live-hub/closed-captions-in-live-hub.md)
+
 ## Localized Live Hub interface and recording player
 
 The Live Hub interface now appears in the language selected for the Learning Manager user interface. Labels and headings throughout the session, including chat, attendees, polls, breakout rooms, and settings, appear in the user's chosen language. Live Hub supports the same 18 interface languages as Learning Manager, including English. The recording player is also localized, so elements such as polls appear in the course language. For example, a recording of a German course displays the player interface in German.
 
 This gives global participants a consistent experience across the platform and in session recordings.
 
-## Live Hub sessions up to 5,000 attendees
+## Live Hub sessions up to 5000 attendees
 
-Live Hub now supports large-scale sessions with up to 5,000 attendees, allowing organizations to conduct large training sessions. Authors can choose a capacity of 5,000 attendees when adding a Virtual Classroom module to a course. Live Hub automatically configures the room based on the audience size and applies specific interaction restrictions. 
+Live Hub now supports large-scale sessions with up to 5000 attendees, allowing organizations to conduct large training sessions. Authors can choose a capacity of 5000 attendees when adding a Virtual Classroom module to a course. Live Hub automatically configures the room based on the audience size and applies specific interaction restrictions. 
 
 In large sessions, the following capabilities and behaviors apply:
 
@@ -331,13 +349,19 @@ In large sessions, the following capabilities and behaviors apply:
 
 This allows organizations to run large training sessions within the same platform, with a room that can be set to the expected audience size.
 
+[Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
+
 ## Channels
 
 Channels are now generally available for all customers.
 
+[Learn more](./administrators/feature-summary/create-channels.md)
+
 ## Group enrollment reservation and waitlist management
 
 Group enrollment reservation and waitlist management give Authors finer control over who can enroll in Classroom and Virtual Classroom courses. Authors can allocate seats to specific user groups and set separate enrollment open dates for those groups and for all other Learners. They can also turn on automatic waitlist promotion with a cut-off date, so an available seat goes to the next eligible Learner. Reserving all seats restricts a course to the selected groups.
+
+[Learn more](./authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
 
 ## Support for multiple Zoom connections
 
@@ -352,6 +376,8 @@ This enhancement provides greater flexibility for organizations that use multipl
 * **Controlled access**: Restrict the availability of Zoom connections based on roles or user groups, ensuring Authors can select only the connections assigned to them.
 * **Simplified connection management**: Enable Integration Administrators to centrally manage multiple Zoom connections without affecting existing sessions.
 
+[Learn more](./integration-admin/feature-summary/zoom-connector.md)
+
 ## Safe Exam Browser integration for quizzes
 
 Adobe Learning Manager now integrates with Safe Exam Browser for native quizzes, providing a secure, controlled environment for conducting assessments. Administrators can enable the integration at the account level and upload a Safe Exam Browser configuration file (.seb) to define the assessment restrictions. Authors can then choose which individual quizzes require Safe Exam Browser.
@@ -364,6 +390,8 @@ When Learners attempt a quiz that requires Safe Exam Browser, they're prompted t
 * **Compliance training:** Support controlled assessments for mandatory training and regulatory requirements.
 * **High-stakes evaluations:** Reduce opportunities to access unauthorized applications or resources during important assessments.
 * **Flexible assessment management:** Allow Authors to require Safe Exam Browser only for quizzes that need additional restrictions.
+
+[Learn more](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
 
 ## Accessibility fixes in Live Hub
 
@@ -428,3 +456,5 @@ Use the APIs in this sequence:
 **Authentication and permissions**
 
 These APIs use session-based authentication and require the user to log in as an Integration Admin in Adobe Learning Manager.
+
+[Learn more](./api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
