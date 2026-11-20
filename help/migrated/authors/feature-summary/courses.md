@@ -193,65 +193,77 @@ A course can have team-based and individual submission modules together. All tea
 >
 >After you publish the course, you can't remove the module, change its settings, or use multiple delivery types for it.
 
-### Add an evaluation plan
+### Add an evaluation plan to a file submission module
 
-Create a rubric for individual or team submissions by adding option-based and descriptive criteria to a file submission module.
+Create an evaluation plan for individual or team submissions by adding objective and subjective questions to a file submission module.
 
-An evaluation plan is the rubric that instructors use to assess a submission. Each module has one plan, and you can't reuse it in another module. You can add a plan to an individual file submission module or to a team-based submission module. Add the plan before you publish the course.
+An evaluation plan is the set of questions that instructors use to assess a submission. Each module has one evaluation plan, and you can't reuse it in another module. You can add an evaluation plan to an individual file submission module or to a team-based submission module. Add it before you publish the course.
 
 #### Turn on the evaluation plan
 
 1. Turn on the evaluation plan.
-2. Enter a description of the assessment.
-3. Choose whether learners can view the evaluation plan before they submit. This is off by default. Learners see the assessment description and each criterion's description. They don't see the answer options, points, or weightage.
 
-   ![](assets/team-submission6.png)
+1. Enter a description of the assessment.
 
-#### Add criteria to the plan
+1. Choose whether learners can view the evaluation plan before they submit. This is off by default. Learners see the assessment description and each criterion's description. They don't see the answer options, points, or weightage.
 
-You can add up to 100 questions. Each question is either option-based or descriptive.
+   ![Evaluation plan settings for a file submission module](assets/Group-(Team)-submission-and-rubric-based-assessments-image6.png "Evaluation plan settings")
 
-1. Select **Define parameters**.
+#### Add evaluation parameters to the evaluation plan
 
-   ![](assets/team-submission7.png)
+You can add up to 100 evaluation parameters. Each parameter is either objective or subjective.
 
-2. Select the question type:
+1. Select **Define parameters**. Enter the parameter text in the Parameter/Question field.
+
+   ![Define parameters option with the Parameter/Question field](assets/Group-(Team)-submission-and-rubric-based-assessments-image7.png "Define parameters")
+
+1. Select the parameter type:
 
    * **Objective:** The instructor selects from answer options. Add the options.
 
-      ![](assets/team-submission8.png)
+     ![Objective parameter with answer options](assets/Group-(Team)-submission-and-rubric-based-assessments-image8.png "Objective parameter")
 
    * **Subjective:** The instructor writes a descriptive response.
 
-      ![](assets/team-submission9.png)
+     ![Subjective parameter with a descriptive response](assets/Group-(Team)-submission-and-rubric-based-assessments-image9.png "Subjective parameter")
 
-3. For an objective question with criteria-based scoring, enter whole-number points for each option. Negative numbers are allowed. Each option needs a point value.
-4. Choose the question settings:
+1. For an objective parameter with criteria-based scoring, enter whole-number points for each option. Negative numbers are allowed. Each option needs a point value.
 
-   * **Required:** The instructor must answer the question. Questions that aren't required show an optional tag to the instructor.
-   * **Allow reviewer remarks:** The instructor can add remarks to the question.
+1. Choose the parameter settings:
 
-5. To let instructors add one comment for the whole assessment, turn on overall remarks.
-6. Repeat for each question.
-7. Select **Save**.
+   * **Required:** The instructor must respond to the parameter. Parameters that aren't required show an optional tag to the instructor.
+   * **Allow reviewer remarks:** The instructor can add remarks to the parameter. This option appears for objective parameters only.
+
+1. To let instructors add one comment for the whole evaluation plan, turn on overall remarks.
+
+1. Repeat for each question.
+
+1. Select **Save**.
 
 >[!NOTE]
 >
->Subjective questions don't have points.
+>Subjective parameters don't have points.
 
 #### Calculate the overall score
 
-When you choose criteria-based scoring, the overall score is the sum of the points for the selected options. You can also set a ceiling from 1 to 100. The default is 100. The score is then the sum divided by the maximum possible points, multiplied by the ceiling, and rounded. It is never below 0. Descriptive questions don't contribute to the score.
+When you choose criteria-based scoring, Adobe Learning Manager calculates the overall score from the points on the options that the instructor selects. Only objective evaluation parameters count. Subjective evaluation parameters don't contribute to the score.
 
-To choose between manual and criteria-based scoring, follow the scoring steps in [Add a team-based submission module](#add-team-based-submission-module).
+* **Without a ceiling:** The overall score is the sum of the points for the selected options.
+* **With a ceiling:** The overall score is the sum of the points, divided by the maximum possible points, multiplied by the ceiling, and rounded to a whole number. The ceiling can be any whole number from 1 to 100. The default is 100.
 
-#### Add questions for each locale
+Because an option can have negative points, the calculation can produce a number below 0. When that happens, Adobe Learning Manager sets the overall score to 0. The overall score is never below 0.
 
-The locales of a module follow the locales of the course. Add the evaluation plan questions manually for each locale that the course uses. Instructors see the questions in their content locale. If it isn't available, they see the interface locale, and then the lowest locale ID.
+For example, suppose the maximum possible points are 12 and the ceiling is 10. If the selected options add up to 6, the overall score is 5. If they add up to 10, the overall score is 8, which is 8.33 rounded. If they add up to −3, the calculation gives a number below 0, so the overall score is 0.
+
+To choose between manual and criteria-based scoring, follow the scoring steps in Add a team-based submission module.
+
+#### Add evaluation parameters for each locale
+
+The locales of a module follow the locales of the course. Add the evaluation parameters manually for each locale that the course uses. Instructors see the evaluation parameters in their content locale.
 
 #### Publish the course
 
-Publish the course when the plan is complete. New instances of the course get the same plan. After you publish, you can edit only the text of the questions and options. You can't change the configuration, add settings, or turn the plan on or off.
+Publish the course when the plan is complete. New instances of the course get the same plan. After you publish, you can edit only the text of the evaluation parameters and options. You can't change the configuration, add settings, or turn the plan on or off.
 
 ### Set the minimum passing score
 
@@ -296,79 +308,79 @@ After configuring all Gradebook settings, publish the course using the standard 
 * Use **Highest** for the multiple-attempts setting when modules are assessments learners are expected to retry. Use **Latest** when you want to capture current knowledge level rather than best performance.
 * Verify the **Total weightage** indicator shows exactly 100% before saving.
 
-## Enable automatic team creation {#enable-automatic-team-formation}
+# Set up automatic team creation in Adobe Learning Manager
 
 Set the automatic team creation rules for a course so Adobe Learning Manager divides enrolled learners into teams before an instance starts.
 
-Automatic team creation acts as a fallback when instructors haven't created teams manually. Your administrator must first turn on **Auto team formation for team based submissions** for the account. The setting applies only to courses created after the administrator turned it on.
+Automatic team creation acts as a fallback when instructors haven't created teams manually. You can turn on automatic team formation for any course that has a team-based file submission module, even if the account setting is off. If your administrator turned on the account setting, new courses start with the account's schedule, and you can adjust it during course setup.
 
 The course must include a team-based submission module. Each instance needs a start date.
 
-### Set the team rules for a course
+## Set the team rules for a course
 
 1. In the author app, open a course that has a team-based submission module.
-2. Open the course settings, and then find the automatic team creation setting. It appears only when the course has at least one team-based module. Enable **Automatic team formation for team submissions** option. This option stays disabled if the administrator has already enabled **Auto team formation for team based submissions** for the account. However, you can override the number of days before teams get created.
 
-   ![](assets/team-submission10.png)
+1. Open the course settings, and then find the **Automatic team formation for team submissions** setting. It appears only when the course has at least one team-based file submission module.
 
-3. Select **Edit**. You'll see a warning for the override of the number of days.
+1. Select **Enable**.
 
-   ![](assets/team-submission11.png)
+   ![Enable option for automatic team formation in course settings](assets/Group-(Team)-submission-and-rubric-based-assessments-image10.png "Enable automatic team formation")
 
-4. Select **Yes**.
-5. Change the value to a different one.
+1. Review the **Team formation schedule**. If your administrator turned on the account setting, it shows the number of days they set. Teams are created that many days before the instance start date.
 
-   ![](assets/team-submission12.png)
+1. Optional: To change the number of days for this course, select **Edit**, select **Yes** on the warning, and then enter a new number.
 
-6. Review the **Team formation schedule**. It starts with the account value. To use a different lead time, enter a new number of days.
-7. Choose how to form teams. Enter 1 or higher. A team can have up to 100 members.
+   ![Warning shown when editing the team formation schedule](assets/Group-(Team)-submission-and-rubric-based-assessments-image11.png "Edit warning")
 
-   1. Select **Members per team** and enter the number of learners for each team.
+1. Change the value to a different one.
 
-      ![](assets/team-submission13.png)
+   ![Team formation schedule value field](assets/Group-(Team)-submission-and-rubric-based-assessments-image12.png "Team formation schedule value")
 
-   1. Select **Number of teams** and enter the total number of teams.
+1. Review the **Team formation schedule**. It starts with the account value. To use a different lead time, enter a new number of days.
 
-      ![](assets/team-submission14.png)
+1. Choose how to form teams. Enter 1 or higher. A team can have up to 100 members.
 
-8. Save your changes, and then publish the course.
+   * Select **Members per team** and enter the number of learners for each team.
+
+     ![Members per team option](assets/Group-(Team)-submission-and-rubric-based-assessments-image13.png "Members per team")
+
+   * Select **Number of teams** and enter the total number of teams.
+
+     ![Number of teams option](assets/Group-(Team)-submission-and-rubric-based-assessments-image14.png "Number of teams")
+
+1. Save your changes, and then publish the course.
 
 >[!WARNING]
 >
->After you publish, you can't turn automatic team formation on or off for the course, and you can't change the lead time. You can still change the rule and its value.
+>After you publish, you can't turn automatic team formation on or off for the course, and you can't change the lead time. You can still change the rule for forming the teams and its value.
 
-![](assets/team-submission15.png)
+![Published course with automatic team formation settings](assets/Group-(Team)-submission-and-rubric-based-assessments-image15.png "Published course settings")
 
-### Set the instance start date
+## Set the instance start date
 
 1. Open the course instance.
-2. Enter a start date and select **Save**.
 
-   ![](assets/team-submission16.png)
+1. Enter a start date and select **Save**.
+
+   ![Instance start date field](assets/Group-(Team)-submission-and-rubric-based-assessments-image16.png "Instance start date")
 
 Teams are created at 12:00 am on the lead-time day, in the time zone of the instance. For example, with a lead time of 3 days, teams are created at 12:00 am three days before the start date. The start date only sets this timing. It doesn't block enrollment.
 
-### Change the team rules after publishing
+## Change the team rules after publishing
 
 You can change the rule, **Members per team**, or **Number of teams** at any time. The change applies to all instances but takes effect only where teams haven't been created yet. Teams that already exist are never regrouped.
 
-### Use team-based courses in learning paths
+## Use team-based courses in learning paths
 
 Teams belong to the course instance. If you add a team-based course to a learning path, set the lead time and start date on the course instance, not on the learning path. For how learners are divided, see team settings and limits.
 
-#### Troubleshooting
+## Troubleshooting
 
-**Teams weren't created for an instance.** 
-Check that the instance has a start date. Automatic creation doesn't run without one. Also check that the setting is on at the account level and for the course.
+**Teams weren't created for an instance.** Check that the instance has a start date. Automatic creation doesn't run without one. Also check that automatic team formation is turned on for the course. Teams weren't created for an instance that starts soon.
 
-**Teams weren't created for an instance that starts soon.** 
-If the start date is closer than the lead time, no creation job is scheduled. The scheduler gets a warning, and the instructor creates teams manually. If you move the start date later, the job is scheduled again.
+**You can't find the course-level setting.** The setting appears only when the course has at least one team-based module. Add one before you publish.
 
-**You can't find the course-level setting.** 
-The setting appears only when the course has at least one team-based module. Add one before you publish.
-
-**You changed the rules, but the teams didn't change.** 
-The rules apply only if teams haven't been created for the instance. To change existing teams, ask the instructor to edit them.
+**You changed the rules, but the teams didn't change.** The rules apply only if teams haven't been created for the instance. To change existing teams, ask the instructor to edit them.
 
 ## Configure enrollment window and seat allocation for a Classroom course
 
