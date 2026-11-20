@@ -165,7 +165,7 @@ A team-based file submission module lets one learner submit a file on behalf of 
 
 1. Select the team-based option. The individual option is the earlier file submission module for single learners.
 
-   ![Team-based option for the file submission module](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Team-based option")
+   ![Team-based option for the file submission module](assets/Group-(Team)-submission-and-rubric-based-assessments-image4.png "Team-based option")
 
 1. Select the instructor or instructors.
 
@@ -186,8 +186,8 @@ A course can have team-based and individual submission modules together. All tea
 
    * Select manual scoring to let the instructor enter one overall score.
    * Select criteria-based scoring to calculate the score from the points on each evaluation plan option. This method requires an evaluation plan.
-   
-   ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+
+      ![Review and scoring options for the team-based file submission module](assets/Group-(Team)-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
