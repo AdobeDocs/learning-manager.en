@@ -324,7 +324,7 @@ After the upgrade, existing reports without custom aliases show the updated head
 
 Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers.
 
-[Learn more](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage-view-live-hub-usage)
+[Learn more](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage)
 
 ## Multilingual support for closed captions in Live Hub
 
@@ -355,7 +355,7 @@ In large sessions, the following capabilities and behaviors apply:
 
 This allows organizations to run large training sessions within the same platform, with a room that can be set to the expected audience size.
 
-[Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+[Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
 
 ## Channels
 
