@@ -9,7 +9,7 @@ View your team, work together on the assignment, upload one file for the whole t
 
 When you are assigned to a team, you receive a notification.
 
-![Notification that you were assigned to a team](assets/Group-(Team)-submission-and-rubric-based-assessments-image30.png "Team assignment notification")
+![Notification that you were assigned to a team](assets/Group-Team-submission-and-rubric-based-assessments-image30.png "Team assignment notification")
 
 In a team-based file submission module, any team member can upload the file for everyone in the same team as them. Your instructor evaluates the work once, and the outcome applies to the whole team.
 
@@ -17,11 +17,11 @@ In a team-based file submission module, any team member can upload the file for 
 
 1. Open the course in the Learner app, and then go to the course overview page. Team activities are marked as team activities in the course outline.
 
-   ![Team activity marked in the course outline](assets/Group-(Team)-submission-and-rubric-based-assessments-image31.png "Team activity in the course outline")
+   ![Team activity marked in the course outline](assets/Group-Team-submission-and-rubric-based-assessments-image31.png "Team activity in the course outline")
 
 1. Select **View team members** to view a list of other learners who are in the same team as you.
 
-   ![List of team members](assets/Group-(Team)-submission-and-rubric-based-assessments-image32.png "Team members")
+   ![List of team members](assets/Group-Team-submission-and-rubric-based-assessments-image32.png "Team members")
 
 1. If you aren't on a team yet, a message tells you that the activity starts after you're assigned to a team. Contact your instructor or administrator.
 
@@ -35,11 +35,11 @@ You receive a notification and an email when you're added to a team, removed fro
 
 1. Agree with your team on the file to submit. Select **Upload**.
 
-   ![Upload option for the team-based activity](assets/Group-(Team)-submission-and-rubric-based-assessments-image33.png "Upload option")
+   ![Upload option for the team-based activity](assets/Group-Team-submission-and-rubric-based-assessments-image33.png "Upload option")
 
 1. Upload the file. The status changes to **Evaluation pending**. You can, however, review your submission and submit a different file.
 
-   ![Evaluation pending status after upload](assets/Group-(Team)-submission-and-rubric-based-assessments-image34.png "Evaluation pending status")
+   ![Evaluation pending status after upload](assets/Group-Team-submission-and-rubric-based-assessments-image34.png "Evaluation pending status")
 
 Your instructor is notified. Every team member can view the status and the submitted file, and download it. All team members receive a notification and an email when any member submits or resubmits.
 
