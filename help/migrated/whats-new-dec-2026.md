@@ -73,7 +73,7 @@ Authors can now choose whether file submissions require Instructor approval or a
 
 ALM enables Learners to access learning in the tools they already use through a Model Context Protocol (MCP) server. Learners can access Learning Manager from anywhere, including ChatGPT, Claude, and custom agents. Configure the server in the integration admin app to give Administrators access to six core tools for Learners. These include two Learner Assistant tools: Answer Agent and Personalized Learning Path.
 
-The server provides the following tools:
+The server provides the following capabilities:
 
 * Search
 * List enrollments
