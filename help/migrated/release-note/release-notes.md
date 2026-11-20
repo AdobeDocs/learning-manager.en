@@ -33,11 +33,11 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 
 ## Features in this release
 
-**Report Builder charts and dashboards:** Administrators can now visualize report data in Report Builder. Create big number, line, bar, and pie charts, and pivot tables from report columns, with aggregation and filtering in each chart. A report dashboard holds charts built from one report. A custom dashboard combines charts from several reports and supports up to 20 widgets. Charts that belong to a report are shared when you share the report. Dashboards can't be exported.
+**Report Builder charts and dashboards:** Administrators can now visualize report data in Report Builder. Create big number, line, bar, and pie charts, and pivot tables from report columns, with aggregation and filtering in each chart. A report dashboard holds charts built from one report. A custom dashboard combines charts from several reports and supports up to 20 widgets. Charts that belong to a report are shared when you share the report. Dashboards can't be exported. [Learn more](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
 
-**Insights Agent reports in Report Builder:** Administrators can open, review, edit, and save an Insights Agent answer as a Report Builder report, and then use Report Builder capabilities such as subscriptions. If part of a question can't be expressed with Report Builder fields, the report lists that part as a gap.
+**Insights Agent reports in Report Builder:** Administrators can open, review, edit, and save an Insights Agent answer as a Report Builder report, and then use Report Builder capabilities such as subscriptions. If part of a question can't be expressed with Report Builder fields, the report lists that part as a gap.[Learn more](/help/migrated/administrators/feature-summary/insights-agent.md##create-report-insights-agent)
 
-**Adobe Experience Manager Assets integration:** Authors can browse and select approved learning content and image assets from Experience Manager Assets without leaving Adobe Learning Manager. When an asset changes in the digital asset manager, the update can flow into the courses that use it. Authors see only the assets they already have access to in Experience Manager Assets.
+**Adobe Experience Manager Assets integration:** Authors can browse and select approved learning content and image assets from Experience Manager Assets without leaving Adobe Learning Manager. When an asset changes in the digital asset manager, the update can flow into the courses that use it. Authors see only the assets they already have access to in Experience Manager Assets.[Learn more](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
 
 **File submission enhancements:** File submission modules now support the following:
 
@@ -45,11 +45,13 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 * **Evaluation Plan assessments:** Authors defines an Evaluation Plan, with objective questions that have scored options and subjective questions that have written review. An Evaluation Plan holds up to 100 questions.
 * **Instructor approval or automatic completion:** Authors choose whether a submission requires Instructor approval or is completed automatically. This setting is independent of the evaluation plan.
 
-**Model Context Protocol server for Learner Assistant:** Learners can access Learning Manager from tools they already use, such as ChatGPT, Claude, and custom agents, through a Model Context Protocol (MCP) server. Administrators configure the server in the Integration Administrator app. It provides search, list enrollments, get learning object, get user profile, answer learning content question, and get Personalized Learning Path capabilities.
+[Learn more]
 
-**Email Builder for courses and instances:** The full Email Builder experience is now available for course-level and instance-level emails. Administrators define account layouts and templates, and Authors customize course and instance emails while inheriting the layout and formatting. A template links to the nearest available layout, and you can unlink a template to edit it independently. **Banner** and **Signature** settings have moved from the **Settings** tab, which is removed, to **Global Layout**. If Email Builder is already enabled for your account, you receive these changes automatically.
+**Model Context Protocol server for Learner Assistant:** Learners can access Learning Manager from tools they already use, such as ChatGPT, Claude, and custom agents, through a Model Context Protocol (MCP) server. Administrators configure the server in the Integration Administrator app. It provides search, list enrollments, get learning object, get user profile, answer learning content question, and get Personalized Learning Path capabilities. [Learn more](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-**Safe Exam Browser integration for quizzes:** Administrators can enable the integration at the account level and upload a Safe Exam Browser configuration file (.seb) to define assessment restrictions. Authors choose which quizzes require Safe Exam Browser. Learners who attempt such a quiz are prompted to launch, or download, Safe Exam Browser.
+**Email Builder for courses and instances:** The full Email Builder experience is now available for course-level and instance-level emails. Administrators define account layouts and templates, and Authors customize course and instance emails while inheriting the layout and formatting. A template links to the nearest available layout, and you can unlink a template to edit it independently. **Banner** and **Signature** settings have moved from the **Settings** tab, which is removed, to **Global Layout**. If Email Builder is already enabled for your account, you receive these changes automatically. [Learn more](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
+**Safe Exam Browser integration for quizzes:** Administrators can enable the integration at the account level and upload a Safe Exam Browser configuration file (.seb) to define assessment restrictions. Authors choose which quizzes require Safe Exam Browser. Learners who attempt such a quiz are prompted to launch, or download, Safe Exam Browser. [Learn more](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
 
 **Non-logged-in enhancements:** Learning Manager now enables controlled access to learning content without requiring users to sign in.
 
@@ -57,7 +59,9 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 * **Public catalogs:** Administrators choose which catalogs appear in the public academy.
 * **Discovery by search engines and AI assistants (Beta):** Public academies can be discovered by search engines and AI assistants. Each academy gets its own sitemap and robots.txt, and Learning Manager generates meta titles, meta descriptions, and structured data automatically. This capability requires a custom domain on native Adobe Learning Manager.
 
-**Virtual Coach:** Virtual Coach is an AI-powered role-play and coaching solution that allows Learners practice realistic workplace conversations. It supports nine languages and can be used as a standalone job aid or embedded within a course. 
+(The documentation for this feature will be made available shortly.)
+
+**Virtual Coach:** Virtual Coach is an AI-powered role-play and coaching solution that allows Learners practice realistic workplace conversations. It supports nine languages and can be used as a standalone job aid or embedded within a course. [Learn more](/help/migrated/authors/feature-summary/what-virtual-coach-is.md) 
 
 **Live Hub:** Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers. 
 
@@ -73,7 +77,7 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 
 ## Enhancements in this release
 
-**Personalized Learning Path editing and branding strips:** Learners can remove suggested topics or courses in a single step. Administrators can reposition the Personalized Learning Paths strip on the Learner home page through the **Branding** page.
+**Personalized Learning Path editing and branding strips:** Learners can remove suggested topics or courses in a single step. Administrators can reposition the Personalized Learning Paths strip on the Learner home page through the **Branding** page. [Learn more](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips) 
 
 **Learning Path citations in Learner Assistant:** Answers now cite the Learning Path that contains a source course, along with the course. Answers drawn from a job aid include a download link.
 
@@ -260,6 +264,7 @@ Go1 integration: The Go1 integration in Adobe Learning Manager has been enhanced
 
 **Email template:** Calendar invite emails displayed a blank body and an empty .ics event description when session templates were unlinked from the Global Layout. This issue has been fixed, and unlinked templates now display the configured session details and layout content in both the email and calendar event description as expected.
 
++++
 
 +++Update 112: September 30, 2026 release of Adobe Learning Manager
 

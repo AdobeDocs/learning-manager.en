@@ -322,7 +322,11 @@ Insights Agent:
 1. Validates the report against the agent's response and original question.
 1. Opens the report in Report Builder for review.
 
+<<<<<<< Updated upstream
 ## Create a report from an Insights Agent answer
+=======
+### Create a report from an Insights Agent answer {#create-report-insights-agent}
+>>>>>>> Stashed changes
 
 1. Launch **Insights Agent**.
 
@@ -382,6 +386,7 @@ Insights Agent and Report Builder are designed differently. An answer in Insight
 
 Insights Agent follows two rules: preserve the intent of agent's response and your question, and be open about what it couldn't convert.
 
+<<<<<<< Updated upstream
 * **Preserve intent.** Insights Agent lets you open an answer in Report Builder only when the report still reflects the core of the Insights Agent response. If the conversion loses that intent, you can't move to Report Builder.
 * **Disclose gaps.** If part of your question can't be expressed in Report Builder, Insights Agent doesn't drop it silently. It tries to list the most prominent parts as gaps beside the report. If anything looks risky, the report stays available so you can review it yourself.
 
@@ -390,6 +395,15 @@ Insights Agent decides whether a missing field or calculation is central to your
 >[!NOTE]
 >
 >Insights Agent checks the conversion mainly against its own response, and only secondarily against your question. If the response doesn't fully answer your question, you can still convert it to a report in Report Builder. Review the report before you rely on it.
+=======
+- **Preserve intent.** Insights Agent lets you open an answer in Report Builder only when the report still reflects the core of the Insights Agent response. If the conversion loses that intent, you can't move to Report Builder.
+
+- **Disclose gaps.** If part of your question can't be expressed in Report Builder, Insights Agent doesn't drop it silently. It tries to list the most prominent parts as gaps beside the report. If anything looks risky, the report stays available so you can review it yourself.
+
+Insights Agent decides whether a missing field or calculation is central to your question, based on its intent.
+
+**Note**: Insights Agent checks the conversion mainly against its own response, and only secondarily against your question. If the response doesn't fully answer your question, you can still convert it to a report in Report Builder. Review the report before you rely on it.
+>>>>>>> Stashed changes
 
 | Situation | Result |
 |---|---|

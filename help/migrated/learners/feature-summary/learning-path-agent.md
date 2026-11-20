@@ -143,7 +143,7 @@ When you are satisfied with the path, ask the agent to save it by typing save th
 ![](assets/create-lp.png)
 -->
 
-### Adjust a Learning Path before saving
+### Adjust a Learning Path before saving {#adjust-lp-before-saving}
 
 Remove, add, or replace topics and courses in a generated learning path by using the delete icon or chat, before you save it.
 
@@ -151,24 +151,23 @@ When you ask the learning path agent in Adobe Learning Manager to build a person
 
 You can adjust the path by selecting the delete icon on a card or by typing a request in the chat.
 
-**Note**: The Learning Path agent is available with the Ultimate tier, or as an add-on to the Prime tier. Each request uses AI credits. If you don't see the agent, contact your administrator.
+>[!NOTE]
+>
+>The Learning Path Agent is available with the Ultimate tier, or as an add-on to the Prime tier. Each request uses AI credits. If you don't see the agent, contact your administrator.
 
-1.  In Learner Assistant, ask Learning Path Agent to generate a learning path. Answer any clarifying questions the agent asks. For example, enter Help me create a learning path to move from marketing coordinator to data analyst.
-2.  Answer the clarifying questions that the agent asks. The agent then generates a list of topics.
-3.  Review the topics, and then adjust them as needed:
+1. In Learner Assistant, ask Learning Path Agent to generate a learning path. Answer any clarifying questions the agent asks. For example, enter Help me create a learning path to move from marketing coordinator to data analyst.
+2. Answer the clarifying questions that the agent asks. The agent then generates a list of topics.
+3. Review the topics, and then adjust them as needed:
 
-    *  To remove a topic, select the delete icon on its card, or type a request such as "Remove this topic".
-
-    *  To add a topic, type a request that describes the topic you want.
+    * To remove a topic, select the delete icon on its card, or type a request such as "Remove this topic."
+    * To add a topic, type a request that describes the topic you want.
 
 4. Confirm the topics. The agent matches courses from your account to each topic.
 5. Review the suggested courses, and then adjust them as needed:
 
-    *  To remove a course, select the delete icon on its card, or ask the agent to remove it.
-
-    *  To add a course, type a request that describes what you want to learn.
-
-    *  To swap a course, ask the agent to replace it. The agent suggests an alternative based on your original request.
+    * To remove a course, select the delete icon on its card, or ask the agent to remove it.
+    * To add a course, type a request that describes what you want to learn.
+    * To swap a course, ask the agent to replace it. The agent suggests an alternative based on your original request.
 
 6. Repeat steps 3 and 5 until the path matches your goals.
 7. Save the learning path.
