@@ -412,15 +412,15 @@ When you turn on this account setting, Adobe Learning Manager automatically grou
 
 1. In **Auto team formation for team based submissions section**, select **Edit**. The option remains disabled by default.
 
-   ![Auto team formation section in General settings](assets/Group-(Team)-submission-and-rubric-based-assessments-image1.png "Auto team formation section")
+   ![Auto team formation section in General settings](assets/Group-Team-submission-and-rubric-based-assessments-image1.png "Auto team formation section")
 
 1. Select the **Enable** checkbox.
 
-   ![Enable checkbox for automatic team formation](assets/Group-(Team)-submission-and-rubric-based-assessments-image2.png "Enable checkbox")
+   ![Enable checkbox for automatic team formation](assets/Group-Team-submission-and-rubric-based-assessments-image2.png "Enable checkbox")
 
 1. Under **Team formation schedule**, enter the number of days in the **Create teams** field. The value must be 0 or higher. This field is required.
 
-   ![Create teams field in the team formation schedule](assets/Group-(Team)-submission-and-rubric-based-assessments-image3.png "Team formation schedule")
+   ![Create teams field in the team formation schedule](assets/Group-Team-submission-and-rubric-based-assessments-image3.png "Team formation schedule")
 
 1. Select **Save**.
 
