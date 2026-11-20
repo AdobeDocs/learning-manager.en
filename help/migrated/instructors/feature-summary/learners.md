@@ -208,7 +208,7 @@ To send emails to learners, from the Learners page in the Instructor app, do one
 
 ## Capture invitation responses
 
-Instructors can capture learners' invitation responses only when the **[!UICONTROL Invite Reply]** option is enabled by the ACAP administrator. To enable this feature, administrators need to contact the support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
+Instructors can capture learners invitation responses only when the **[!UICONTROL Invite Reply]** option is enabled by the ACAP administrator. To enable this feature, administrators need to contact the support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
 
 Once done, you can view invitation responses in the **[!UICONTROL Learners]** section. Go to any session, select **[!UICONTROL Learners]**, and select the invitation response from the dropdown menu.
 
