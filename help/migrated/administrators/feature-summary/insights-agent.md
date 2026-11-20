@@ -389,13 +389,130 @@ Insights Agent decides whether a missing field or calculation is central to your
 | The answer uses a calculated field that Report Builder doesn't support. The calculation can be one of two types: a complex calculation that creates a new field, or an aggregation calculation built on top of existing RB fields. The first type can't be converted to RB, but the second can. | The calculation is listed as a gap. If it is central to your question, you can't open the answer in Report Builder. |
 | The question is complex, for example with multiple joined queries | The converted report can be less accurate. If it still serves your intent, it opens so you can verify it. |
 
-### Troubleshoot report conversion
+# Create a report from an Insights Agent answer
 
-| Issue | Solution |
-|---|---|
+In Adobe Learning Manager, you can ask Insights Agent a question in plain language and open the answer as a report in Report Builder. You can then edit the report and reuse it, so you don't have to rebuild it from scratch.
+
+## What is the Insights Agent integration with Report Builder
+
+Insights Agent and Report Builder are two ways to reach the same data in Adobe Learning Manager. Both run on the same data platform.
+
+- **Insights Agent** lets you ask questions in natural language.
+
+- **Report Builder** lets you build a report by selecting data sets, columns, aggregations, and filters. You can also use it to create recurring reports, subscribe to reports, and edit existing reports.
+
+The integration connects the two. You start with a question, review the answer, and open it in Report Builder. There, you can modify the report and continue working with it as you would with any other report. Currently, this integration is available to admins.
+
+Not every Insights Agent answer can become a report. Insights Agent opens an answer in Report Builder only when the report keeps the intent of agent's response and your question.
+
+## How the integration works
+
+When you ask a question, Insights Agent generates a data query and retrieves the corresponding result. If the query can be translated into Report Builder constructs, Adobe Learning Manager creates a draft Report Builder report based on the generated query.
+
+Insights Agent:
+
+1.  Generates a query from your question.
+
+2.  Maps the generated query to Report Builder datasets and fields.
+
+3.  Creates a draft report.
+
+4.  Validates the report against the agent's response and original question.
+
+5.  Opens the report in Report Builder for review.
+
+## Create a report from an Insights Agent answer
+
+1.  Launch **Insights Agent**.
+
+2.  Enter your question in plain language. Wait for the answer. Insights Agent prepares the report in the background, so the conversation continues without interruption.
+
+<img src="images/Insights-Agent-Integration-with-Report-Builder-image1.png" style="width:4.44792in;height:6.5in" />
+
+3.  Review the generated response after Insights Agents disambiguates and/or provides an approach on how it generated the response.
+
+4.  Select **Edit in Report Builder**.
+
+<img src="images/Insights-Agent-Integration-with-Report-Builder-image2.png" style="width:5.01437in;height:3.63837in" />
+
+Report Builder opens the generated report along with the columns and automatically applies group by or aggregate functions, if necessary. The name and description of the report are also generated automatically.
+
+**Note**: The **Edit in Report Builder** option also appears when Insights Agent finds no data for your question. You can create the report and modify it later. Data can appear after you create the report, so the report remains empty until matching data exists.
+
+<img src="images/Insights-Agent-Integration-with-Report-Builder-image3.png" style="width:6.5in;height:5.08333in" />
+
+5.  Review the generated report. Report Builder maps the fields from the answer to its own fields, for example, the course name and description. If Insights Agent could not convert part of your question, the report lists those items as gaps next to the report.
+
+6.  Edit the report if needed. For example, add or change columns, aggregations, or filters.
+
+7.  Save the report. Select **Save Report**.
+
+The report opens in Report Builder with the converted fields and the matching data. You can now edit it and manage it like any other report.
+
+## Edit the generated report
+
+After the report opens in Report Builder, you can:
+
+- Add or remove columns.
+
+- Update filters.
+
+- Modify aggregations.
+
+- Change sorting.
+
+- Save the report.
+
+- Share the report.
+
+- Add visualizations.
+
+- Create dashboards.
+
+## How Insights Agent converts an answer into a report
+
+Insights Agent and Report Builder are designed differently. An answer in Insights Agent can therefore include data that Report Builder can't fully represent. To handle this, Insights Agent converts each answer in stages.
+
+| **Stage** | **What happens** |
+|----|----|
+| Query | Insights Agent works out the query that answers your question. Report Builder starts from the same query at the same time, so your conversation is never blocked. |
+| Field mapping | The query is mapped to Report Builder data sets and fields. A working report is built from that mapping. |
+| AI draft | AI drafts the report and verifies it. |
+| Review | The report is checked against the worked out query and your original question. Validation runs at the same time. |
+| Correction | If validation finds errors, they are fixed automatically. |
+| Gap listing | Any part of your question that Report Builder fields can't express is listed beside the report. |
+
+## How Insights Agent decides whether an answer can open in Report Builder
+
+Insights Agent follows two rules: preserve the intent of agent's response and your question, and be open about what it couldn't convert.
+
+- **Preserve intent.** Insights Agent lets you open an answer in Report Builder only when the report still reflects the core of the Insights Agent response. If the conversion loses that intent, you can’t move to Report Builder.
+
+- **Disclose gaps.** If part of your question can't be expressed in Report Builder, Insights Agent doesn't drop it silently. It tries to list the most prominent parts as gaps beside the report. If anything looks risky, the report stays available so you can review it yourself.
+
+Insights Agent decides whether a missing field or calculation is central to your question, based on its intent.
+
+**Note**: Insights Agent checks the conversion mainly against its own response, and only secondarily against your question. If the response doesn’t fully answer your question, you can still convert it to a report in Report Builder. Review the report before you rely on it.
+
+| **Situation** | **Result** |
+|----|----|
+| Report Builder has fields for every part of the Insights Agent response | The report is created and ready to review. |
+| Part of the Insights Agent response can’t be expressed in Report Builder | The part is listed as a gap. The report remains available for review. |
+| A field in the response isn’t available in Report Builder, and the field is minor to the response | You can open the report in Report Builder. The field is listed as a gap. |
+| A field in the response isn’t available in Report Builder, and the field is central to the response | You can’t open the response in Report Builder. For example, skill name or skill ID. |
+| The response uses a calculated field that Report Builder doesn’t support. The calculation can be one of two types: a complex calculation that creates a new field, or an aggregation calculation built on top of existing Report Builder fields. The first type can’t be converted, but the second can. | The calculation is listed as a gap. If it is central to the response, you can’t open the response in Report Builder. |
+| The response is complex, for example with multiple joined queries | The converted report can be less accurate. If it still reflects the intent of the response, it opens so you can verify it. |
+| Insights Agent finds no data for your question | The **Edit in Report Builder** option still appears. You can create the report and modify it later. The report shows data when matching data becomes available. |
+
+## Troubleshoot report conversion
+
+| **Issue** | **Solution** |
+|----|----|
 | You can't open the answer in Report Builder. | A field or calculation that is central to your question isn't available in Report Builder. Rephrase your question without that field or calculation, and ask again. |
 | The report has fewer columns than the answer. | Check the gaps listed beside the report. Items listed there couldn't be converted. |
 | The report doesn't match what you expected from a complex question. | Review the report against your original question. Break the question into smaller questions and convert each answer separately. |
+| Insights Agent says it found no data, but **Edit in Report Builder** is still available. | This is expected. You can create the report anyway, modify it in Report Builder, and check it again when new data is available. |
+| The report opens empty in Report Builder. | No matching data exists for your question yet. Modify the report, or open it again after new data is available. |
 
 ### More like this
 
@@ -403,3 +520,4 @@ Insights Agent decides whether a missing field or calculation is central to your
 *    [Create dashboards from Report Builder reports and visualize report data with charts](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
 *    [Use Insights Agent for reporting](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insight-agent-answer)
 *    [Share and subscribe to reports](/help/migrated/administrators/feature-summary/download-share-subscribe-report.md)
+*   Visualize report data with charts
