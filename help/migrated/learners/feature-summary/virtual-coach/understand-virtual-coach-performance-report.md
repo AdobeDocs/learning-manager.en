@@ -21,30 +21,31 @@ Download your Virtual Coach session analysis as a signed PDF in Adobe Learning M
 After you finish a Virtual Coach session, Adobe Learning Manager generates an analysis of your performance. You can view it again after you close the player, retake the session, and download the analysis as a signed PDF.
 
 1. Open the course or job aid that contains your Virtual Coach session.
-2. Select **Session Analysis**.
 
-   ![](/help/migrated/learners/feature-summary/assets/vc-enhancement1.png)
+1. Select **Session Analysis**.
 
-3. Review your analysis. Generating the analysis can take a moment.
-4. Select **Download** to save the signed PDF of the analysis.
+   ![Session Analysis option for a Virtual Coach session](assets/vc-enhancements-image1.png "Session Analysis")
 
-Share the PDF with your manager or instructor as evidence of your performance. The file includes a C2PA signature. For details, view [About C2PA signatures in session analysis PDFs](#c2pa-signatures).
+1. Review your analysis. Generating the analysis can take a moment.
 
-## C2PA signatures in session analysis PDFs {#c2pa-signatures}
+1. Select **Download** to save the signed PDF of the analysis.
+
+Share the PDF with your manager or instructor as evidence of your performance. The file includes a C2PA signature. For details, see [About C2PA signatures in session analysis PDFs](#c2pa-signatures).
+
+### About C2PA signatures in session analysis PDFs {#c2pa-signatures}
 
 AI generates the Virtual Coach session analysis. To help others trust a downloaded copy, Learning Manager signs the PDF with a [C2PA](https://c2pa.org/) signature.
 
 C2PA is an open industry standard for content authenticity. Adobe Learning Manager uses the same Adobe signing service that other Adobe products use.
 
-### What the signature contains
+#### What the signature contains
 
 The signature is a cryptographically signed manifest embedded in the PDF. It records that:
 
 * Adobe Learning Manager generated the analysis
-
 * The analysis was generated on a specific date
 
-### Why the signature matters
+#### Why the signature matters
 
 When you share the PDF with a manager or instructor, the signature provides evidence that the file is authentic and wasn't edited after download.
 
