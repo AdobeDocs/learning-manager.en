@@ -66,7 +66,7 @@ Select **[!UICONTROL View Usage Details]** below the stats row to expand an inli
 - An **Overall Usage** table with columns: Purchased / Used by this Account / Used by Peer Accounts / Remaining
 - A **View Account Breakup** link to see usage distributed across individual peer accounts
 - A **Download Detailed Report** link to export usage data as a file
-- On the Live Hub tab, your Live Hub training-hour usage in hours. View [Live Hub training hours] for more information. 
+- On the Live Hub tab, your Live Hub training-hour usage in hours. View [Live Hub training hours](#live-hub-training-hours-live-hub-training-hours) for more information. 
 
 **Agent Orchestrator license block**
 
