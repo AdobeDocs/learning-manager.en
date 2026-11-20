@@ -22,7 +22,7 @@ Use the AI Assistant to get quick, accurate answers from your assigned learning 
 >This feature is not available in FedRAMP-authorized environments. See [Feature availability in FedRAMP environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) for details.
 
 
-# Learning Path citations and agents in Learner Assistant
+# Learning Path citations and agents in Learner Assistant {#learning-path-citations}
 
 Learner Assistant now cites relevant Learning Paths alongside courses, so learners can find broader structured learning on their topic. Administrators can also turn individual Learner Assistant agents on or off to control which AI capabilities learners can use in Adobe Learning Manager.
 

@@ -1549,7 +1549,7 @@ true. False by default.
 
 }
 
-## Last access date for learning path enrollment
+## Last access date for learning path enrollment {#last-access-date-lp-enrollment}
 
 Adobe Learning Manager lets you store custom metadata, such as a last access date, on a learning path enrollment. You set and read the metadata through the API. This helps you track time-bound access to learning paths that you assign.
 

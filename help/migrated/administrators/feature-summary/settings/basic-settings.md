@@ -703,7 +703,7 @@ This option allows authors to retire training content (courses, learning paths, 
     b. Not yet enrolled learners:
         i. Learners who have not enrolled in the course or learning path will also lose access, as the content will no longer appear in the catalog.
 
-### Retiral impact on higher-order learning objects
+### Retiral impact on higher-order learning objects {#retiral-impact-ho-lo}
 
 The **Retiral impact on higher-order learning objects** setting controls what happens to a Learning Path or Certification when one of its courses or nested Learning Paths is retired. It applies only to higher-order learning objects — Learning Paths and Certifications. Select one of the following options:
 

@@ -59,7 +59,9 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 * **Public catalogs:** Administrators choose which catalogs appear in the public academy.
 * **Discovery by search engines and AI assistants (Beta):** Public academies can be discovered by search engines and AI assistants. Each academy gets its own sitemap and robots.txt, and Learning Manager generates meta titles, meta descriptions, and structured data automatically. This capability requires a custom domain on native Adobe Learning Manager.
 
-(The documentation for this feature will be made available shortly.)
+>[!NOTE]
+>
+>The documentation for this feature will be made available shortly.
 
 **Virtual Coach:** Virtual Coach is an AI-powered role-play and coaching solution that allows Learners practice realistic workplace conversations. It supports nine languages and can be used as a standalone job aid or embedded within a course. [Learn more](/help/migrated/authors/feature-summary/what-virtual-coach-is.md) 
 
@@ -81,29 +83,29 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 
 **Learning Path citations in Learner Assistant:** Answers now cite the Learning Path that contains a source course, along with the course. Answers drawn from a job aid include a download link. [Learn more](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations) 
 
-**AI Assistant configurations:** The Administrator Assistant offers two agents, Insights Agent and Knowledge Agent. The Learner Assistant offers three agents: Knowledge Agent, Answer Agent, and Learning Path Agent. You can configure each agent individually.
+**AI Assistant configurations:** The Administrator Assistant offers two agents, Insights Agent and Knowledge Agent. The Learner Assistant offers three agents: Knowledge Agent, Answer Agent, and Learning Path Agent. You can configure each agent individually. [Learn more](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
 
-**Resend virtual classroom session invites:** Administrators with course edit permission can resend a session invite from the instance page. The option is available for current and future sessions.
+**Resend virtual classroom session invites:** Administrators with course edit permission can resend a session invite from the instance page. The option is available for current and future sessions. [Learn more](/help/migrated/instructors/feature-summary/resend-session-invite.md) 
 
-**Automatic attendance from Adobe Connect recording views:** Learning Manager marks attendance when a Learner plays the recording of a missed virtual classroom session. A scheduled integration compares actual viewing time with the completion criteria set for the account.
+**Automatic attendance from Adobe Connect recording views:** Learning Manager marks attendance when a Learner plays the recording of a missed virtual classroom session. A scheduled integration compares actual viewing time with the completion criteria set for the account. [Learn more](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md) 
 
 **Column heading changes in downloaded Report Builder reports:** Default column headings in downloaded Report Builder reports now include the dataset name. For example, **Name** from the Learning Object dataset appears as **Learning Object - Name**. For aggregated columns, the heading also includes the function, such as **Count of Learning Object - ID**. Headings that use a custom name in the **Alias** field are unchanged.
 
-**Multi-enrolled courses in the compliance widget:** The compliance widget lists every instance of a multi-enrollment course that a Learner must complete. If one instance has a deadline, instances without a deadline are hidden.
+**Multi-enrolled courses in the compliance widget:** The compliance widget lists every instance of a multi-enrollment course that a Learner must complete. If one instance has a deadline, instances without a deadline are hidden. [Learn more](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md) 
 
-**Relevance ranking in Administrator catalog search:** Catalog search in the Administrator view ranks results by relevance. Exact matches appear first, followed by partial matches.
+**Relevance ranking in Administrator catalog search:** Catalog search in the Administrator view ranks results by relevance. Exact matches appear first, followed by partial matches. [Learn more](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
-**Retire a course without making a Learning Path inaccessible:** A retired course or nested Learning Path is removed from the higher-level learning object, which stays open for new enrollments.
+**Retire a course without making a Learning Path inaccessible:** A retired course or nested Learning Path is removed from the higher-level learning object, which stays open for new enrollments.  [Learn more](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
 
-**Session cancellation sync from Adobe Workfront:** Sessions canceled in Adobe Workfront carry over to Learning Manager through Migration. Migration adds an optional **State** column that accepts **Active** or **Cancelled**.
+**Session cancellation sync from Adobe Workfront:** Sessions canceled in Adobe Workfront carry over to Learning Manager through Migration. Migration adds an optional **State** column that accepts **Active** or **Cancelled**. [Learn more](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
 
-**Character limit for first names:** The first name field now accepts up to 255 characters, up from 63. The limit applies to users added in the interface, through CSV import, in self-registration, and as external users. Existing users aren't affected. Long names are shortened in table cells, dropdown list items, and search results. Hover over a shortened name to view it in full.
+**Character limit for first names:** The first name field now accepts up to 255 characters, up from 63. The limit applies to users added in the interface, through CSV import, in self-registration, and as external users. Existing users aren't affected. Long names are shortened in table cells, dropdown list items, and search results. Hover over a shortened name to view it in full. [Learn more](/help/migrated/deployment-guide/user-setup.md#character-limit-username) 
 
 **Localized Live Hub interface and recording player**: Live Hub now displays its interface in the language selected for Adobe Learning Manager, supporting the same 18 languages. The recording player is localized based on the course language.
 
-**Badge information for courses and Learning Paths:** When Authors add a course or Learning Path, the window lists existing courses and Learning Paths with badge information, publication status, and course format.
+**Badge information for courses and Learning Paths:** When Authors add a course or Learning Path, the window lists existing courses and Learning Paths with badge information, publication status, and course format. [Learn more](/help/migrated/authors/feature-summary/create-learning-path.md) 
 
-**Non-logged-in page URL for self-registration profiles:** Each self-registration profile can have its own shareable non-logged-in menu URL, built in Experience Builder. Users who select **Sign up** from that URL are added to the profile it belongs to.
+**Non-logged-in page URL for self-registration profiles:** Each self-registration profile can have its own shareable non-logged-in menu URL, built in Experience Builder. Users who select **Sign up** from that URL are added to the profile it belongs to. [Learn more](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
 **Custom Learner attributes in Learning Tools Interoperability:** Learning Manager reads custom Learner attributes through the optional Names and Role Provisioning Services endpoint and from the launch request. Some learning systems, such as Moodle, don't support this endpoint.
 
@@ -112,8 +114,6 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 **Webhooks for Instructor edits to learning object instances:** The learning object instance modification webhook now also triggers when an Instructor edits a virtual classroom session. [Learn more](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md) 
 
 **Last access date for Learning Path enrollments:** You can attach custom metadata, such as a last access date, to a Learning Path enrollment through the API. [Learn more](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment) 
-
-**Export Report Builder reports with the Job API:** A new Job API job type, `generateCustomReport`, exports any saved Report Builder report when you pass its report ID.
 
 ## API changes
 
@@ -776,7 +776,7 @@ A GenAI-powered conversational tool designed to help your learners find response
 * Empowers learners to request personalized scripts, talking points, and summaries tailored to their individual learning needs.
 * Searches across all supported content formats, including PDF, DOCX, PPTX, Audio, Videos and SCORM 1.2 & 2004.
 
-View [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md) for more information.
+[Learn more](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
 
 +++
 
