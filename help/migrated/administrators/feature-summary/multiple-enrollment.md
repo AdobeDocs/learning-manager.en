@@ -86,3 +86,85 @@ If the learner is already enrolled in one instance and you, as an administrator,
 ## Reporting
 
 For a learner who is enrolled in two instances of the same course, two rows are created for each course instance. The report also displays the progress of the instances.
+
+# Enable multi-enrollment for adaptive courses
+
+Multi-enrollment lets a learner enroll in more than one instance of the same course at the same time. In Adobe Learning Manager, you can now turn on multi-enrollment for adaptive courses.
+
+## About multi-enrollment in an adaptive course {#about-multi-enrollment}
+
+An adaptive course shows each learner only the modules that match their user groups. With multi-enrollment turned on, a learner can take several instances of that course, such as sessions in different months.
+
+Adaptive courses track waitlists at the module level. A learner can be in progress in instance A and waitlisted in instance B of the same modules.
+
+## Enable multi-enrollment for an adaptive course {#enable-multi-enrollment}
+
+1. Sign in to Adobe Learning Manager as an Author.
+1. Select **Courses** from the left navigation.
+1. Open an adaptive course or create one.
+1. Add the modules. For each content module, select **Add rules** to set the user groups that can see it and the user groups for which it is mandatory.
+1. Select **Save**. The multi-enrollment option becomes available.
+1. Enable the **Multi-enrollment** toggle.
+1. Create the instances you need. For classroom and virtual classroom sessions, set the seat limits.
+1. Select **Publish**.
+
+Learners can now enroll in more than one instance of the course.
+Article 2
+markdown
+---
+title: Enrollment and completion rules for adaptive learning paths
+description: Learn how Adobe Learning Manager evaluates enrollment, waitlisting, and completion for adaptive courses in adaptive learning paths.
+---
+
+# Enrollment and completion rules for adaptive learning paths
+
+Authors can add adaptive courses to adaptive learning paths in Adobe Learning Manager. Enrollment, waitlisting, and completion follow rules that combine the section settings and the course settings that your Authors configure.
+
+>[!NOTE]
+>
+>Add adaptive courses only to adaptive learning paths, not to regular learning paths. This helps ensure that all behaviors and edge cases are supported.
+
+## How an adaptive learning path evaluates a learner {#evaluate-learner}
+
+Adobe Learning Manager evaluates visibility at the section level and at the course level. The section rule decides whether a learner sees a section and the adaptive courses in it. The module rules inside each adaptive course then decide whether the learner is enrolled in the course.
+
+Changing a learner's user groups doesn't enroll them in the learning path. If the learner is already enrolled in the path, a user group change that makes an adaptive course visible enrolls them in the adaptive course automatically. The learner receives an enrollment notification and email.
+
+## Enrollment evaluation rules {#enrollment-evaluation-rules}
+
+When you enroll a learner in an adaptive learning path, Adobe Learning Manager checks the path in this order:
+
+|Order|Check|Result|
+|---|---|---|
+|1|Section visibility|Adobe Learning Manager checks a course for enrollment only if its section is visible to the learner.|
+|2|Course eligibility|If the course has no mandatory module for the learner, the learner isn't enrolled in the course. The course doesn't count toward learning path completion.|
+|3|Sections with no eligible course|If a section contains only adaptive courses and the learner is eligible for none of them, Adobe Learning Manager skips the section.|
+|4|Learning path enrollment|If none of the mandatory sections apply to the learner, the learner isn't enrolled in the learning path.|
+
+If the learner is already enrolled in an instance of the course that belongs to the learning path instance, Adobe Learning Manager uses that enrollment.
+
+After enrollment, the following rules apply:
+
+* If a learner was skipped for a course because it wasn't visible to them due to a change in user group or completion criteria, they're automatically enrolled later when later rule changes make the course visible or mandatory.
+* A user group change or a course change can unenroll a learner from an adaptive course. If no mandatory content remains in the path, the learner is unenrolled from the path.
+* When a section-level user group rule is changed on an adaptive learning path, learners who newly become eligible for a course within that section do not receive the expected auto-enrollment email and notification for the corresponding adaptive course inside the learning path. The learner only sees the updated visibility and enrollment after manually reloading the page.
+
+## Waitlist behavior in adaptive learning paths {#waitlist-behavior}
+
+Waitlisting works at the session level, not the instance level. This applies to adaptive courses in learning paths as well.
+
+|Scenario|Behavior|
+|---|---|
+|No adaptive course in the path has a classroom or virtual classroom module|No waitlisting applies.|
+|An adaptive course has a classroom or virtual classroom module and the learning path isn't mapped to any instance.|The course defaults to **No instance**. The learner can enroll in any instance and is waitlisted only on sessions that are full.|
+|An instance is selected before enrollment, when the learning path is mapped to a course instance.|The learner is enrolled in that instance and is waitlisted only on sessions that are full.|
+
+To manage waitlisted learners, open the adaptive course and select **Learners** > **Waitlist** tab. For an adaptive course in a Flex learning path or an adaptive learning path, waitlisted learners appear only on the **Waitlist** tab of the course and not under the learning path.
+
+## Refresh completion and rollback behavior {#refresh-completion}
+
+Adobe Learning Manager doesn't revoke completion automatically when user groups or rules change. A completed learner stays completed until you refresh completion.
+
+* Run **Refresh Completion** on the learning path. You can't refresh an adaptive course on its own for learners who take it through the path.
+* Each adaptive course recalculates first, based on the learner's current mandatory modules. The learning path then recalculates based on the current mandatory sections and the refreshed course status changes.
+* If the course or path is no longer complete, the learner's status changes to in progress. The original completion remains on the Learner Transcript as a historical record.

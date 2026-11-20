@@ -1797,3 +1797,916 @@ A common use case is an automated setup of a Zoom connector for a new account or
 4. Call `PUT /ctr/xtsa/{connectionId}/access` with the user groups and custom roles that can use the connection.
 5. Call `POST /ctr/xtsas/{connectionId}/enable` with `val` set to `true` or `false` to enable or disable the connection. Then call `GET /ctr/xtsas` and check the `enabled` flag to confirm the state.
 6. To change the credentials later, repeat steps 2 and 3 with the connection ID.
+
+## About learning path enrollment metadata
+
+You can already set a last access date on a course enrollment through the API. That date controls how long a learner can access the course. Learning path enrollments now support a generic metadata field, so you can store a last access date or any other value that you want to track.
+
+You do not need to turn on the field or send a special header. The field is empty until you set it.
+
+>[!NOTE]
+>
+>The metadata is for your own tracking. Adobe Learning Manager does not update it when learners open a learning path or its courses, and it does not control access to the learning path. It is also not propagated to the courses in the path. Each course keeps its own last access date, so courses in the same path can have different dates. Continue to manage course-level access expiration separately.
+
+### Metadata rules {#metadata-rules}
+
+* The value must be a JSON object. A string, number, Boolean, or array returns a 400 error with the message `metadata must be a JSON object`.
+* You can use any keys. Adobe Learning Manager does not validate keys or values, and it does not enforce a date format. The examples in this article use epoch milliseconds, the same format as course dates.
+* A PATCH request replaces the entire metadata object. It does not merge with existing values, so keys that you leave out are removed.
+* Setting `"metadata": null` clears all metadata and returns 200.
+* A request with an empty `attributes` object, or without a `metadata` key, leaves the stored metadata unchanged.
+* When no metadata is set, or after you clear it, the `metadata` key is not in the response.
+
+### Set metadata on an existing enrollment {#set-metadata-existing}
+
+Use an admin token.
+
+Send a PATCH request to the following endpoint, where `{enrollmentId}` is the learning path enrollment ID in the format `learningProgram:<lpId>_<instanceId>_<userId>`:
+
+```
+PATCH /primeapi/v2/users/{userId}/enrollments/{enrollmentId}
+```
+
+Use this request body:
+
+```json
+{
+  "data": {
+    "id": "<enrollmentId>",
+    "type": "learningObjectInstanceEnrollment",
+    "attributes": {
+      "metadata": {
+        "lastAccessDate": 1745337600000
+      }
+    }
+  }
+}
+```
+
+### Set metadata when you enroll a learner {#set-metadata-enroll}
+
+Use an admin token.
+
+Send a POST request with the learning path and instance IDs. Include an optional `metadata` object in the request body.
+
+```
+POST /primeapi/v2/users/{userId}/enrollments?loId=<lpId>&loInstanceId=<instanceId>
+```
+
+* If `metadata` is not a JSON object, the request returns 400 and the user is not enrolled.
+* If the user is already enrolled, the request returns 200 and changes nothing. To change metadata for an existing enrollment, use the PATCH request.
+* The response does not include the metadata. Send a GET request to read it.
+
+### Retrieve metadata {#retrieve-metadata}
+
+You can retrieve metadata with an admin or a learner token. The requests differ by token type.
+
+|Token|Get one enrollment|List learning path enrollments|
+|---|---|---|
+|Admin|`GET /primeapi/v2/users/{userId}/enrollments/{enrollmentId}`|`GET /primeapi/v2/users/{userId}/enrollments?filter.loTypes=learningProgram`|
+|Learner|`GET /primeapi/v2/enrollments/{enrollmentId}`<br>`GET /primeapi/v2/learningObjects/{id}?include=enrollment`|`GET /primeapi/v2/enrollments?filter.loTypes=learningProgram`|
+
+>[!NOTE]
+>
+>The `include=enrollment` parameter works only with a learner token. It is not supported for the admin role.
+
+The response returns the `metadata` object with the learning path enrollment.
+
+### Use metadata in headless and external portals {#metadata-external-portals}
+
+External portals and integrations use the same API calls. Use the request that matches the token your portal uses.
+
+* **Show the value in your portal:** Send the GET request for your token type from the table above, and read the `metadata` object from the response.
+* **Update the value from an external system, such as a commerce platform:** Send the PATCH request with an admin token.
+
+### API support for multi-enrolled instances in Leaner Compliance Widget in Learner app
+
+The public API supports this behavior through an optional query parameter on the existing enrollments endpoint. If you omit the parameter, the API returns the same results as before, so existing integrations, including headless implementations, continue to work unchanged.
+
+**Endpoint**
+
+GET /primeapi/v2/enrollments
+
+**Query parameter**
+
+includeMultiInstanceEnrollments (optional)
+
+**Query**
+
+https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&filter.loTypes=course&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&sort=dateEnrolled
+
+**Value**
+
+true. False by default.
+
+**Response body**
+
+{
+
+"links": {
+
+"self": "[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true)",
+
+"next": "[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&page\[cursor\]=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&page%5bcursor%5d=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9)"
+
+},
+
+"data": \[
+
+{
+
+"id": "course:15067_30122_3400468",
+
+"type": "learningObjectInstanceEnrollment",
+
+"attributes": {
+
+"completionDeadline": "2026-02-24T10:50:45.000Z",
+
+"enrollmentSource": "MGR_APPROVAL",
+
+"hasPassed": false,
+
+"progressPercent": 0,
+
+"score": 0,
+
+"state": "PENDING_APPROVAL"
+
+},
+
+"relationships": {
+
+"learner": {
+
+"data": {
+
+"id": "3400468",
+
+"type": "user"
+
+}
+
+},
+
+"learningObject": {
+
+"data": {
+
+"id": "course:15067",
+
+"type": "learningObject"
+
+}
+
+},
+
+"loInstance": {
+
+"data": {
+
+"id": "course:15067_30122",
+
+"type": "learningObjectInstance"
+
+}
+
+},
+
+"loResourceGrades": {
+
+"data": \[
+
+{
+
+"id": "course:15067_30122_41715_1_3400468",
+
+"type": "learningObjectResourceGrade"
+
+}
+
+\]
+
+}
+
+}
+
+},
+
+{
+
+"id": "course:1108800_1997400_3400468",
+
+"type": "learningObjectInstanceEnrollment",
+
+"attributes": {
+
+"enrollmentSource": "SELF_ENROLL",
+
+"hasPassed": false,
+
+"progressPercent": 0,
+
+"score": 0,
+
+"state": "PENDING_APPROVAL"
+
+},
+
+"relationships": {
+
+"learner": {
+
+"data": {
+
+"id": "3400468",
+
+"type": "user"
+
+}
+
+},
+
+"learningObject": {
+
+"data": {
+
+"id": "course:1108800",
+
+"type": "learningObject"
+
+}
+
+},
+
+"loInstance": {
+
+"data": {
+
+"id": "course:1108800_1997400",
+
+"type": "learningObjectInstance"
+
+}
+
+},
+
+"loResourceGrades": {
+
+"data": \[
+
+{
+
+"id": "course:1108800_1997400_2174574_0_3400468",
+
+"type": "learningObjectResourceGrade"
+
+}
+
+\]
+
+}
+
+}
+
+},
+
+{
+
+"id": "course:2027668_3707328_3400468",
+
+"type": "learningObjectInstanceEnrollment",
+
+"attributes": {
+
+"enrollmentSource": "MGR_APPROVAL",
+
+"hasPassed": false,
+
+"progressPercent": 0,
+
+"score": 0,
+
+"state": "PENDING_APPROVAL"
+
+},
+
+"relationships": {
+
+"learner": {
+
+"data": {
+
+"id": "3400468",
+
+"type": "user"
+
+}
+
+},
+
+"learningObject": {
+
+"data": {
+
+"id": "course:2027668",
+
+"type": "learningObject"
+
+}
+
+},
+
+"loInstance": {
+
+"data": {
+
+"id": "course:2027668_3707328",
+
+"type": "learningObjectInstance"
+
+}
+
+},
+
+"loResourceGrades": {
+
+"data": \[
+
+{
+
+"id": "course:2027668_3707328_2665897_0_3400468",
+
+"type": "learningObjectResourceGrade"
+
+}
+
+\]
+
+}
+
+}
+
+},
+
+{
+
+"id": "course:2030067_3709862_3400468",
+
+"type": "learningObjectInstanceEnrollment",
+
+"attributes": {
+
+"enrollmentSource": "MGR_APPROVAL",
+
+"hasPassed": false,
+
+"progressPercent": 0,
+
+"score": 0,
+
+"state": "PENDING_APPROVAL"
+
+},
+
+"relationships": {
+
+"learner": {
+
+"data": {
+
+"id": "3400468",
+
+"type": "user"
+
+}
+
+},
+
+"learningObject": {
+
+"data": {
+
+"id": "course:2030067",
+
+"type": "learningObject"
+
+}
+
+},
+
+"loInstance": {
+
+"data": {
+
+"id": "course:2030067_3709862",
+
+"type": "learningObjectInstance"
+
+}
+
+},
+
+"loResourceGrades": {
+
+"data": \[
+
+{
+
+"id": "course:2030067_3709862_2668467_0_3400468",
+
+"type": "learningObjectResourceGrade"
+
+}
+
+\]
+
+}
+
+}
+
+},
+
+{
+
+"id": "course:3081896_5749155_3400468",
+
+"type": "learningObjectInstanceEnrollment",
+
+"attributes": {
+
+"enrollmentSource": "MGR_APPROVAL",
+
+"hasPassed": false,
+
+"progressPercent": 0,
+
+"score": 0,
+
+"state": "PENDING_APPROVAL"
+
+},
+
+"relationships": {
+
+"learner": {
+
+"data": {
+
+"id": "3400468",
+
+"type": "user"
+
+}
+
+},
+
+"learningObject": {
+
+"data": {
+
+"id": "course:3081896",
+
+"type": "learningObject"
+
+}
+
+},
+
+"loInstance": {
+
+"data": {
+
+"id": "course:3081896_5749155",
+
+"type": "learningObjectInstance"
+
+}
+
+},
+
+"loResourceGrades": {
+
+"data": \[
+
+{
+
+"id": "course:3081896_5749155_3737554_0_3400468",
+
+"type": "learningObjectResourceGrade"
+
+},
+
+{
+
+"id": "course:3081896_5749155_3737555_0_3400468",
+
+"type": "learningObjectResourceGrade"
+
+}
+
+\]
+
+}
+
+}
+
+},
+
+{
+
+"id": "course:2037893_3717940_3400468",
+
+"type": "learningObjectInstanceEnrollment",
+
+"attributes": {
+
+"enrollmentSource": "MGR_APPROVAL",
+
+"hasPassed": false,
+
+"progressPercent": 0,
+
+"score": 0,
+
+"state": "PENDING_APPROVAL"
+
+},
+
+"relationships": {
+
+"learner": {
+
+"data": {
+
+"id": "3400468",
+
+"type": "user"
+
+}
+
+},
+
+"learningObject": {
+
+"data": {
+
+"id": "course:2037893",
+
+"type": "learningObject"
+
+}
+
+},
+
+"loInstance": {
+
+"data": {
+
+"id": "course:2037893_3717940",
+
+"type": "learningObjectInstance"
+
+}
+
+},
+
+"loResourceGrades": {
+
+"data": \[
+
+{
+
+"id": "course:2037893_3717940_3676856_0_3400468",
+
+"type": "learningObjectResourceGrade"
+
+}
+
+\]
+
+}
+
+}
+
+},
+
+{
+
+"id": "course:3049434_5713130_3400468",
+
+"type": "learningObjectInstanceEnrollment",
+
+"attributes": {
+
+"completionDeadline": "2020-05-05T18:29:59.000Z",
+
+"enrollmentSource": "MGR_APPROVAL",
+
+"hasPassed": false,
+
+"progressPercent": 0,
+
+"score": 0,
+
+"state": "PENDING_APPROVAL"
+
+},
+
+"relationships": {
+
+"learner": {
+
+"data": {
+
+"id": "3400468",
+
+"type": "user"
+
+}
+
+},
+
+"learningObject": {
+
+"data": {
+
+"id": "course:3049434",
+
+"type": "learningObject"
+
+}
+
+},
+
+"loInstance": {
+
+"data": {
+
+"id": "course:3049434_5713130",
+
+"type": "learningObjectInstance"
+
+}
+
+},
+
+"loResourceGrades": {
+
+"data": \[
+
+{
+
+"id": "course:3049434_5713130_3693595_0_3400468",
+
+"type": "learningObjectResourceGrade"
+
+}
+
+\]
+
+}
+
+}
+
+},
+
+{
+
+"id": "course:2001397_3679403_3400468",
+
+"type": "learningObjectInstanceEnrollment",
+
+"attributes": {
+
+"enrollmentSource": "MGR_APPROVAL",
+
+"hasPassed": false,
+
+"progressPercent": 0,
+
+"score": 0,
+
+"state": "PENDING_APPROVAL"
+
+},
+
+"relationships": {
+
+"learner": {
+
+"data": {
+
+"id": "3400468",
+
+"type": "user"
+
+}
+
+},
+
+"learningObject": {
+
+"data": {
+
+"id": "course:2001397",
+
+"type": "learningObject"
+
+}
+
+},
+
+"loInstance": {
+
+"data": {
+
+"id": "course:2001397_3679403",
+
+"type": "learningObjectInstance"
+
+}
+
+},
+
+"loResourceGrades": {
+
+"data": \[
+
+{
+
+"id": "course:2001397_3679403_2635974_0_3400468",
+
+"type": "learningObjectResourceGrade"
+
+}
+
+\]
+
+}
+
+}
+
+},
+
+{
+
+"id": "course:2037862_3717900_3400468",
+
+"type": "learningObjectInstanceEnrollment",
+
+"attributes": {
+
+"enrollmentSource": "MGR_APPROVAL",
+
+"hasPassed": false,
+
+"progressPercent": 0,
+
+"score": 0,
+
+"state": "PENDING_APPROVAL"
+
+},
+
+"relationships": {
+
+"learner": {
+
+"data": {
+
+"id": "3400468",
+
+"type": "user"
+
+}
+
+},
+
+"learningObject": {
+
+"data": {
+
+"id": "course:2037862",
+
+"type": "learningObject"
+
+}
+
+},
+
+"loInstance": {
+
+"data": {
+
+"id": "course:2037862_3717900",
+
+"type": "learningObjectInstance"
+
+}
+
+},
+
+"loResourceGrades": {
+
+"data": \[
+
+{
+
+"id": "course:2037862_3717900_3676816_0_3400468",
+
+"type": "learningObjectResourceGrade"
+
+}
+
+\]
+
+}
+
+}
+
+},
+
+{
+
+"id": "course:2037837_3717863_3400468",
+
+"type": "learningObjectInstanceEnrollment",
+
+"attributes": {
+
+"completionDeadline": "2020-02-29T18:29:59.000Z",
+
+"enrollmentSource": "SELF_ENROLL",
+
+"hasPassed": false,
+
+"progressPercent": 0,
+
+"score": 0,
+
+"state": "OTHER"
+
+},
+
+"relationships": {
+
+"learner": {
+
+"data": {
+
+"id": "3400468",
+
+"type": "user"
+
+}
+
+},
+
+"learningObject": {
+
+"data": {
+
+"id": "course:2037837",
+
+"type": "learningObject"
+
+}
+
+},
+
+"loInstance": {
+
+"data": {
+
+"id": "course:2037837_3717863",
+
+"type": "learningObjectInstance"
+
+}
+
+},
+
+"loResourceGrades": {
+
+"data": \[
+
+{
+
+"id": "course:2037837_3717863_3597363_0_3400468",
+
+"type": "learningObjectResourceGrade"
+
+}
+
+\]
+
+}
+
+}
+
+}
+
+\]
+
+}
