@@ -1824,8 +1824,9 @@ Setting up and managing a Zoom connector takes four API calls. Make them in this
 | 3 | `PUT /ctr/xtsa/{connectionId}/access` | Sets the user groups and custom roles that can use the connection. |
 | 4 | `POST /ctr/xtsas/{connectionId}/enable` | Enables or disables the connection. |
 
-> [!NOTE]
-> These APIs use the logged-in Integration Admin session. They don't use an API key or an OAuth token.
+>[!NOTE]
+>
+>These APIs use the logged-in Integration Admin session. They don't use an API key or an OAuth token.
 
 ### Base URL and conventions
 
@@ -1970,8 +1971,9 @@ Sample request body:
 
 The API returns `204 No Content` with no body when the access list is saved.
 
-> [!NOTE]
-> The request replaces the whole access list. It doesn't append to it. Anything that isn't in the body loses access. To remove all access, send an empty array (`[]`).
+>[!NOTE]
+>
+>The request replaces the whole access list. It doesn't append to it. Anything that isn't in the body loses access. To remove all access, send an empty array (`[]`).
 
 ### Step 4: Enable or disable the connection {#enable-disable}
 
@@ -2029,8 +2031,9 @@ curl -X POST 'https://learningmanagerstage1.adobe.com/ctr/xtsas/<connectionId>/e
 
 To confirm the new state, call `GET /ctr/xtsas`, find the connection by `id`, and check its `enabled` flag.
 
-> [!NOTE]
-> The `x-acap-caller-role` header must match the role of the active profile. For these APIs, use `ROLE_INTEGRATIONADMIN`.
+>[!NOTE]
+>
+>The `x-acap-caller-role` header must match the role of the active profile. For these APIs, use `ROLE_INTEGRATIONADMIN`.
 
 ### Manage the connection after you create it
 
@@ -2045,8 +2048,9 @@ You can use the following calls with the connection ID:
 | View a connection | `GET /ctr/app/connection/{id}/object/10002` |
 | Delete a connection permanently | `DELETE /ctr/xtsas/{id}` |
 
-> [!NOTE]
-> The view call returns the client secret in clear text. Treat the client secret as sensitive, and rotate it if it is exposed. Don't commit or share session cookies, CSRF tokens, or credentials, including in HAR files and copied cURL commands.
+>[!NOTE]
+>
+>The view call returns the client secret in clear text. Treat the client secret as sensitive, and rotate it if it is exposed. Don't commit or share session cookies, CSRF tokens, or credentials, including in HAR files and copied cURL commands.
 
 ### Use these APIs in your integration
 
