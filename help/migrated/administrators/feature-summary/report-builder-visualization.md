@@ -69,7 +69,7 @@ Confirm the following:
 1. Select the **Reports** tab, and then open a saved report. For this example, select a user login trend report, which shows the number of users who logged in to the learning platform on each date.
 1. In the left navigation, select **Visualization**. A panel opens with **Setup** and **Style** tabs.
 
-   ![Visualization panel with the Setup and Style tabs](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p5-1.png "Visualization panel"){width="650"}
+   ![Visualization panel with the Setup and Style tabs](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p5-1.png "Visualization panel")
 
    >[!NOTE]
    >
@@ -78,21 +78,21 @@ Confirm the following:
 1. In **Chart type**, select a type, such as **Line chart**. This field is required.
 1. Next to **Dimension - X Axis**, select the add icon, and then select the report column. For a date column, also select a **Date granularity**, such as day or month.
 
-   ![Dimension - X Axis settings with a date column and granularity](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p6-1.png "Dimension - X Axis"){width="650"}
+   ![Dimension - X Axis settings with a date column and granularity](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p6-1.png "Dimension - X Axis"){width="650"}
 
 1. Select **Add** to add the date dimension.
 1. Next to **Measure - Y Axis**, select the add icon, and then select the report column and how to aggregate it, such as **Count**.
 
-   ![Measure - Y Axis settings with a column and aggregate](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p6-2.png "Measure - Y Axis"){width="650"}
+   ![Measure - Y Axis settings with a column and aggregate](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p6-2.png "Measure - Y Axis"){width="650"}
 
 1. Select **Add** to add the measure.
 1. (Optional) Select **Add filter** to limit the plotted data to a range, such as the last 30 days. Select **Add**.
 
-   ![Add filter dialog with a date range](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p7-1.png "Add filter"){width="650"}
+   ![Add filter dialog with a date range](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p7-1.png "Add filter"){width="650"}
 
 1. (Optional) Add a **Sort** column, and then select **Ascending** or **Descending**. Select **Add**.
 
-   ![Sort settings with the Ascending and Descending options](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p7-2.png "Sort settings"){width="650"}
+   ![Sort settings with the Ascending and Descending options](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p7-2.png "Sort settings"){width="650"}
 
 1. (Optional) For a line chart, set **Gap handling** for missing data. See [Gap handling for missing data](#gap-handling).
 1. In **Max data points**, enter the number of data points to plot on the chart. The default is 100 points, and the limit is 10,000.
@@ -106,7 +106,7 @@ Confirm the following:
 
 1. Select **Next**. You can now customize your chart.
 
-   ![Setup tab with the Next button](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p9-1.png "Select Next"){width="650"}
+   ![Setup tab with the Next button](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p9-1.png "Select Next"){width="650"}
 
 #### Gap handling for missing data {#gap-handling}
 
@@ -148,7 +148,7 @@ Customize a chart to make it clear and easy to read. On the **Style** tab, you c
 1. Repeat the previous two steps for each line you want to recolor.
 1. Select **Create** to add the chart. If you're editing an existing chart, select **Save**.
 
-   ![Style tab with the chart title, legend, and line color options](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p10-1.png "Style tab"){width="650"}
+   ![Style tab with the chart title, legend, and line color options](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p10-1.png "Style tab"){width="650"}
 
 The chart appears with your titles, legend, and line colors.
 
@@ -193,7 +193,7 @@ Before you begin, save a report that you own. Include one column for the categor
 1. In **Legend alignment**, select left, center, or right.
 1. Select **Create** for a new chart. When you edit an existing chart, select **Save**, and then select **Save** on the **Visualization** page.
 
-   ![Pie chart with a legend](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p12-1.png "Pie chart"){width="650"}
+   ![Pie chart with a legend](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p12-1.png "Pie chart"){width="650"}
 
 Report Builder creates the pie or donut chart.
 
@@ -224,11 +224,11 @@ Use a bar chart to:
 1. In **Chart type**, select **Bar chart**.
 1. Next to **Dimension - X Axis**, select the add icon, and then select the column that defines the categories. Select **Done**.
 
-   ![Dimension - X Axis settings for a bar chart](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p13-1.png "Dimension - X Axis for a bar chart"){width="650"}
+   ![Dimension - X Axis settings for a bar chart](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p13-1.png "Dimension - X Axis for a bar chart"){width="650"}
 
 1. Next to **Measure - Y Axis**, select the add icon, and then select the column and how to aggregate it, such as **Count**. Select **Done**.
 
-   ![Measure - Y Axis settings for a bar chart](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p13-2.png "Measure - Y Axis for a bar chart"){width="650"}
+   ![Measure - Y Axis settings for a bar chart](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p13-2.png "Measure - Y Axis for a bar chart"){width="650"}
 
 1. (Optional) Add **Filters** to limit the data, and set **Sort** to order the bars by a column.
 1. In **Max data points**, enter the maximum number of data points to plot. If you enter 150, Report Builder displays up to 150 individual data points, and combines everything beyond that limit into one additional category called **Others**.
@@ -276,12 +276,12 @@ For example, training Administrators report each month on how much training the 
 1. In **Chart type**, select **Big Number**.
 1. In **Measure - Value**, select **Transcript (Learning Object) - Status**, and then apply the **Count** aggregate. Select **Done**.
 
-   ![Measure - Value settings for a big number](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p15-1.jpg "Measure - Value for a big number"){width="650"}
+   ![Measure - Value settings for a big number](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p15-1.jpg "Measure - Value for a big number"){width="650"}
 
 1. Select the number of digits to show after the decimal point. You can select at most two digits.
 1. In **Display unit**, select how large numbers are shortened. Select **K** for thousands, **M** for millions, **B** for billions, or **None** to show the full value. **Auto** selects the appropriate unit automatically. Select **Next**.
 
-   ![Display unit options for a big number](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p16-1.png "Display unit"){width="650"}
+   ![Display unit options for a big number](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p16-1.png "Display unit"){width="650"}
 
 ### Customize the big number {#customize-big-number}
 
@@ -292,7 +292,7 @@ Use the **Style** tab to customize the legend properties of the big number.
 1. In **Legend alignment**, select left, center, or right.
 1. Select **Create** for a new chart. When you edit an existing chart, select **Save**.
 
-   ![Big number with a legend title](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p16-2.png "Big number"){width="650"}
+   ![Big number with a legend title](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p16-2.png "Big number"){width="650"}
 
 ## Create a table or pivot chart {#create-table-pivot-chart}
 
@@ -324,7 +324,7 @@ A dimension is a field you group by. A measure is a number you calculate.
 1. Next to **Dimension - Columns**, select the add icon, and then select **Transcript (Learning Object) - Status**.
 1. Next to **Measure - Value**, select the add icon. Select the measure **Transcript (Learning Object) - Status**, and then select **Add**.
 
-   ![Setup tab with the rows, columns, and measure for a pivot table](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p18-1.png "Pivot table setup"){width="650"}
+   ![Setup tab with the rows, columns, and measure for a pivot table](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p18-1.png "Pivot table setup"){width="650"}
 
 1. Turn on either or both of the following options, based on your reporting requirements:
 
@@ -359,32 +359,32 @@ A dashboard is a page of charts. You choose the reports it draws from, called it
 1. Select **Create Dashboard**.
 1. Enter the name and description of the dashboard.
 
-   ![Create Dashboard page with name and description fields](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p19-1.png "Create Dashboard"){width="650"}
+   ![Create Dashboard page with name and description fields](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p19-1.png "Create Dashboard"){width="650"}
 
 1. In **Data source**, select **Add report** to add the pre-created charts from the available reports.
 1. Select one or more reports from the list, and then select **Add**.
 
-   ![Report list with the Add button](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p20-1.png "Add reports"){width="650"}
+   ![Report list with the Add button](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p20-1.png "Add reports"){width="650"}
 
 Report Builder adds the reports to the dashboard.
 
-![Dashboard with the added reports](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p20-2.png "Reports added"){width="650"}
+![Dashboard with the added reports](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p20-2.png "Reports added"){width="650"}
 
 ### View the charts in the dashboard {#view-charts}
 
 Select **Charts** in the left navigation pane of the dashboard.
 
-![Charts option in the dashboard left navigation pane](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p21-1.png "Charts option"){width="650"}
+![Charts option in the dashboard left navigation pane](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p21-1.png "Charts option"){width="650"}
 
 All charts from the available reports appear on the dashboard.
 
-![Dashboard displaying charts from the available reports](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p21-2.png "Dashboard charts"){width="650"}
+![Dashboard displaying charts from the available reports](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p21-2.png "Dashboard charts"){width="650"}
 
 ### Move charts in the dashboard {#move-charts}
 
 1. Select **Edit** in the upper-right corner of the dashboard. You can view the columns in each report that were used to create the charts. You can also create another chart to add to the dashboard.
 
-   ![Dashboard in edit mode](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p22-1.png "Edit mode"){width="650"}
+   ![Dashboard in edit mode](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p22-1.png "Edit mode"){width="650"}
 
 1. From the left panel, select the charts you want to add to the dashboard.
 1. Drag each chart to the position you want, and then release it to place the chart.
@@ -407,7 +407,7 @@ Charts you create from a report are saved with that report. When you share the r
 1. Select the **Select users / usergroups** field.
 1. Search for and select the Administrators or user groups you want to share with.
 
-   ![Share dialog with the Select users / usergroups field](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p23-1.png "Share dialog"){width="650"}
+   ![Share dialog with the Select users / usergroups field](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p23-1.png "Share dialog"){width="650"}
 
 1. Select **Save**.
 
@@ -438,7 +438,7 @@ Delete a Report Builder dashboard when you no longer need it. Deleting a dashboa
 1. Select the **Reports** tab, and then open the dashboard you want to delete.
 1. Select **Actions** > **Delete**. The **Confirmation required** dialog appears. It displays the dashboard name and the users with whom the dashboard is shared.
 
-   ![Confirmation required dialog for deleting a dashboard](images/V2_Adobe-Learning-Manager--Report-Builder-visualization-p24-1.png "Confirmation required dialog"){width="650"}
+   ![Confirmation required dialog for deleting a dashboard](assets/V2_Adobe-Learning-Manager--Report-Builder-visualization-p24-1.png "Confirmation required dialog"){width="650"}
 
 1. Select one of the following options:
 
