@@ -315,7 +315,7 @@ This option allows you to customize the footer section of the learner app by add
 
 Here's how you can customize the footer links:
 
-1. **[!UICONTROL Add links]**: Select **[!UICONTROL Add More]** and enter the name and the URL or email ID in the specified fields. Ensure the URL is prefixed with http:// or https://.
+1. **[!UICONTROL Add links]**: Select **[!UICONTROL Add More]** and enter the name and the URL or email ID in the specified fields. Ensure the URL is prefixed with `http://` or `https://`.
 2. **[!UICONTROL Replicate across locales]**: Select **[!UICONTROL Replicate]** to cascade the changes across all locales, ensuring all languages get the same name and URL.
 3. Select **[!UICONTROL Save]** to apply the changes.
 
@@ -398,7 +398,7 @@ When courses are chargeable, authors can specify the course, Learning Path, or c
 >
 >Certain types of training, such as recurring certifications and manager-approved courses, cannot be purchased.
 
-# Turn on automatic team formation in Adobe Learning Manager
+## Turn on automatic team formation in Adobe Learning Manager
 
 Turn on automatic team formation in the administrator settings, so Adobe Learning Manager groups enrolled learners into teams before each course instance starts.
 
@@ -406,7 +406,7 @@ This setting is optional. Team submissions work without it, and instructors can 
 
 When you turn on this account setting, Adobe Learning Manager automatically groups enrolled learners into teams a set number of days before the start of each course instance. The setting is off by default. Authors can adjust the schedule for their courses, and instructors can still create teams manually.
 
-## Turn on automatic team formation
+### Turn on automatic team formation
 
 1. In the administrator app, select **Settings** > **General**.
 
@@ -449,7 +449,7 @@ This feature is particularly useful for organizations that sell multiple trainin
 **Key features:** 
 
 * Multiple purchases: Learners can add multiple items to their cart and purchase them in one transaction. See Multi-item cart for more information.
-*Streamlined checkout: Reduces the need for learners to make separate purchases for each training item. 
+* Streamlined checkout: Reduces the need for learners to make separate purchases for each training item. 
 * SKU management: Administrators can manage SKUs for courses, learning paths, and certifications to ensure proper tracking and reporting.
 
 ### Alternate Courses/Paths
@@ -620,7 +620,9 @@ After enabling the feature, configure which fields appear on the learner submiss
 
 5. Select **Save**.
 
-**Note:** The **Title** field is always required and cannot be hidden or made optional.
+>[!NOTE]
+>
+>The **Title** field is always required and cannot be hidden or made optional.
 
 The learner submission form immediately reflects your changes. Existing submissions are not affected by form configuration changes.
 
@@ -680,10 +682,10 @@ Managers can mark course completion via:
     b.    Select the learner whose attendance you want to mark. 
     c.    Select **[!UICONTROL Actions]** > **[!UICONTROL Mark Completion]**. 
 
-**Additional notes:**
-
-* Managers can also export the learners list for reporting purposes. 
-* If a course includes multiple instances, managers can view and manage learners separately for each instance.
+>[!NOTE]
+>
+> Managers can also export the learners list for reporting purposes. 
+> If a course includes multiple instances, managers can view and manage learners separately for each instance.
 
 ### Retire
 
