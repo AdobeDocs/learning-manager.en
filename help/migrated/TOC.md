@@ -47,10 +47,10 @@ nudge: true
    * [Getting started as a Learner](learners/feature-summary/getting-started-learner.md)
    * [Getting started for Managers](managers/feature-summary/getting-started-manager.md)
    * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
-   * [Getting started with Live Hub (Beta)](./getting-started-with-live-hub/getting-started-live-hub.md)
+   * [Getting started with Live Hub](./getting-started-with-live-hub/getting-started-live-hub.md)
 * Administrator {#admin}
    * AI in Learning (Beta) {#ai-in-learning}
-      * [Enable Live Hub (Beta)](./administrators/feature-summary/enable-live-hub.md)
+      * [Enable Live Hub](./administrators/feature-summary/enable-live-hub.md)
    * [Admin AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Insights Agent (beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/insights-agent.md)
    * [Introduction to ALM MCP server](/help/migrated/administrators/feature-summary/intro-alm-mcp.md)
@@ -358,7 +358,7 @@ nudge: true
    * [Learner transcripts](managers/feature-summary/learner-transcripts.md)
    * [Settings](managers/feature-summary/settings.md)
    * [iPad & Android tablet users](managers/feature-summary/ipad-android-tablet-users.md)
-* Work with Live Hub (Beta) {#work-with-live-hub}
+* Work with Live Hub {#work-with-live-hub}
    * [System requirements](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
    * Roles in Live Hub {#roles-in-live-hub}
       * [Administrator](../migrated/getting-started-with-live-hub/administrator.md)
@@ -419,14 +419,14 @@ nudge: true
          * [View the Session dashboard](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
          * [Components of the Session dashboard](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
    * [Best practices](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-   * [Use Live Hub (Beta) on mobile as a Learner](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+   * [Use Live Hub on mobile as a Learner](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * Frequently Asked Questions {#faq}
    * [Frequently Asked Questions for Administrators](administrators/frequently-asked-questions-for-administrators.md)
    * [Frequently Asked Questions for Authors](authors/frequently-asked-questions-for-authors.md)
    * [Frequently Asked Questions for Instructors](instructors/frequently-asked-questions-for-instructors.md)
    * [Frequently Asked Questions for Managers](managers/frequently-asked-questions-for-managers.md)
    * [Frequently Asked Questions for Learners](learners/frequently-asked-questions-for-learners.md)
-   * [Frequently Asked Questions for a Live Hub (Beta) session](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+   * [Frequently Asked Questions for a Live Hub session](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
    * [New experience league announcements](/help/migrated/new-experience-league-announcement.md)
    * [How to submit a support ticket on Experience League](/help/migrated/how-to-submit-support-ticket.md)
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
