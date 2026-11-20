@@ -717,1168 +717,6 @@ A common use case is a "Saved for later" list in a headless learner experience. 
 3. Remove any client-side sorting or retired-content filtering you added as a workaround.
 4. Show a count of bookmarks using the number of items in the response. Bookmarks to retired learning objects are no longer included.
 
-## API support for multi-enrolled instances in the Learner app {#multi-enrolled-compliance-widget}
-
-The public API supports this behavior through an optional query parameter on the existing enrollments endpoint. If you omit the parameter, the API returns the same results as before, so existing integrations, including headless implementations, continue to work unchanged.
-
-**Endpoint**
-
-```http
-GET /primeapi/v2/enrollments
-```
-
-**Query parameter**
-
-`includeMultiInstanceEnrollments` (optional)
-
-**Query**
-
-```http
-https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page[limit]=10&filter.loTypes=course&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&sort=dateEnrolled
-```
-
-**Value**
-
-`true`. The default is `false`.
-
-**Response body**
-
-```json
-{
-  "links": {
-    "self": "https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page[limit]=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true",
-    "next": "https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page[limit]=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&page[cursor]=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9"
-  },
-  "data": [
-    {
-      "id": "course:15067_30122_3400468",
-      "type": "learningObjectInstanceEnrollment",
-      "attributes": {
-        "completionDeadline": "2026-02-24T10:50:45.000Z",
-        "enrollmentSource": "MGR_APPROVAL",
-        "hasPassed": false,
-        "progressPercent": 0,
-        "score": 0,
-        "state": "PENDING_APPROVAL"
-      },
-      "relationships": {
-        "learner": {
-          "data": {
-            "id": "3400468",
-            "type": "user"
-          }
-        },
-        "learningObject": {
-          "data": {
-            "id": "course:15067",
-            "type": "learningObject"
-          }
-        },
-        "loInstance": {
-          "data": {
-            "id": "course:15067_30122",
-            "type": "learningObjectInstance"
-          }
-        },
-        "loResourceGrades": {
-          "data": [
-            {
-              "id": "course:15067_30122_41715_1_3400468",
-              "type": "learningObjectResourceGrade"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "course:1108800_1997400_3400468",
-      "type": "learningObjectInstanceEnrollment",
-      "attributes": {
-        "enrollmentSource": "SELF_ENROLL",
-        "hasPassed": false,
-        "progressPercent": 0,
-        "score": 0,
-        "state": "PENDING_APPROVAL"
-      },
-      "relationships": {
-        "learner": {
-          "data": {
-            "id": "3400468",
-            "type": "user"
-          }
-        },
-        "learningObject": {
-          "data": {
-            "id": "course:1108800",
-            "type": "learningObject"
-          }
-        },
-        "loInstance": {
-          "data": {
-            "id": "course:1108800_1997400",
-            "type": "learningObjectInstance"
-          }
-        },
-        "loResourceGrades": {
-          "data": [
-            {
-              "id": "course:1108800_1997400_2174574_0_3400468",
-              "type": "learningObjectResourceGrade"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "course:2027668_3707328_3400468",
-      "type": "learningObjectInstanceEnrollment",
-      "attributes": {
-        "enrollmentSource": "MGR_APPROVAL",
-        "hasPassed": false,
-        "progressPercent": 0,
-        "score": 0,
-        "state": "PENDING_APPROVAL"
-      },
-      "relationships": {
-        "learner": {
-          "data": {
-            "id": "3400468",
-            "type": "user"
-          }
-        },
-        "learningObject": {
-          "data": {
-            "id": "course:2027668",
-            "type": "learningObject"
-          }
-        },
-        "loInstance": {
-          "data": {
-            "id": "course:2027668_3707328",
-            "type": "learningObjectInstance"
-          }
-        },
-        "loResourceGrades": {
-          "data": [
-            {
-              "id": "course:2027668_3707328_2665897_0_3400468",
-              "type": "learningObjectResourceGrade"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "course:2030067_3709862_3400468",
-      "type": "learningObjectInstanceEnrollment",
-      "attributes": {
-        "enrollmentSource": "MGR_APPROVAL",
-        "hasPassed": false,
-        "progressPercent": 0,
-        "score": 0,
-        "state": "PENDING_APPROVAL"
-      },
-      "relationships": {
-        "learner": {
-          "data": {
-            "id": "3400468",
-            "type": "user"
-          }
-        },
-        "learningObject": {
-          "data": {
-            "id": "course:2030067",
-            "type": "learningObject"
-          }
-        },
-        "loInstance": {
-          "data": {
-            "id": "course:2030067_3709862",
-            "type": "learningObjectInstance"
-          }
-        },
-        "loResourceGrades": {
-          "data": [
-            {
-              "id": "course:2030067_3709862_2668467_0_3400468",
-              "type": "learningObjectResourceGrade"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "course:3081896_5749155_3400468",
-      "type": "learningObjectInstanceEnrollment",
-      "attributes": {
-        "enrollmentSource": "MGR_APPROVAL",
-        "hasPassed": false,
-        "progressPercent": 0,
-        "score": 0,
-        "state": "PENDING_APPROVAL"
-      },
-      "relationships": {
-        "learner": {
-          "data": {
-            "id": "3400468",
-            "type": "user"
-          }
-        },
-        "learningObject": {
-          "data": {
-            "id": "course:3081896",
-            "type": "learningObject"
-          }
-        },
-        "loInstance": {
-          "data": {
-            "id": "course:3081896_5749155",
-            "type": "learningObjectInstance"
-          }
-        },
-        "loResourceGrades": {
-          "data": [
-            {
-              "id": "course:3081896_5749155_3737554_0_3400468",
-              "type": "learningObjectResourceGrade"
-            },
-            {
-              "id": "course:3081896_5749155_3737555_0_3400468",
-              "type": "learningObjectResourceGrade"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "course:2037893_3717940_3400468",
-      "type": "learningObjectInstanceEnrollment",
-      "attributes": {
-        "enrollmentSource": "MGR_APPROVAL",
-        "hasPassed": false,
-        "progressPercent": 0,
-        "score": 0,
-        "state": "PENDING_APPROVAL"
-      },
-      "relationships": {
-        "learner": {
-          "data": {
-            "id": "3400468",
-            "type": "user"
-          }
-        },
-        "learningObject": {
-          "data": {
-            "id": "course:2037893",
-            "type": "learningObject"
-          }
-        },
-        "loInstance": {
-          "data": {
-            "id": "course:2037893_3717940",
-            "type": "learningObjectInstance"
-          }
-        },
-        "loResourceGrades": {
-          "data": [
-            {
-              "id": "course:2037893_3717940_3676856_0_3400468",
-              "type": "learningObjectResourceGrade"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "course:3049434_5713130_3400468",
-      "type": "learningObjectInstanceEnrollment",
-      "attributes": {
-        "completionDeadline": "2020-05-05T18:29:59.000Z",
-        "enrollmentSource": "MGR_APPROVAL",
-        "hasPassed": false,
-        "progressPercent": 0,
-        "score": 0,
-        "state": "PENDING_APPROVAL"
-      },
-      "relationships": {
-        "learner": {
-          "data": {
-            "id": "3400468",
-            "type": "user"
-          }
-        },
-        "learningObject": {
-          "data": {
-            "id": "course:3049434",
-            "type": "learningObject"
-          }
-        },
-        "loInstance": {
-          "data": {
-            "id": "course:3049434_5713130",
-            "type": "learningObjectInstance"
-          }
-        },
-        "loResourceGrades": {
-          "data": [
-            {
-              "id": "course:3049434_5713130_3693595_0_3400468",
-              "type": "learningObjectResourceGrade"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "course:2001397_3679403_3400468",
-      "type": "learningObjectInstanceEnrollment",
-      "attributes": {
-        "enrollmentSource": "MGR_APPROVAL",
-        "hasPassed": false,
-        "progressPercent": 0,
-        "score": 0,
-        "state": "PENDING_APPROVAL"
-      },
-      "relationships": {
-        "learner": {
-          "data": {
-            "id": "3400468",
-            "type": "user"
-          }
-        },
-        "learningObject": {
-          "data": {
-            "id": "course:2001397",
-            "type": "learningObject"
-          }
-        },
-        "loInstance": {
-          "data": {
-            "id": "course:2001397_3679403",
-            "type": "learningObjectInstance"
-          }
-        },
-        "loResourceGrades": {
-          "data": [
-            {
-              "id": "course:2001397_3679403_2635974_0_3400468",
-              "type": "learningObjectResourceGrade"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "course:2037862_3717900_3400468",
-      "type": "learningObjectInstanceEnrollment",
-      "attributes": {
-        "enrollmentSource": "MGR_APPROVAL",
-        "hasPassed": false,
-        "progressPercent": 0,
-        "score": 0,
-        "state": "PENDING_APPROVAL"
-      },
-      "relationships": {
-        "learner": {
-          "data": {
-            "id": "3400468",
-            "type": "user"
-          }
-        },
-        "learningObject": {
-          "data": {
-            "id": "course:2037862",
-            "type": "learningObject"
-          }
-        },
-        "loInstance": {
-          "data": {
-            "id": "course:2037862_3717900",
-            "type": "learningObjectInstance"
-          }
-        },
-        "loResourceGrades": {
-          "data": [
-            {
-              "id": "course:2037862_3717900_3676816_0_3400468",
-              "type": "learningObjectResourceGrade"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "course:2037837_3717863_3400468",
-      "type": "learningObjectInstanceEnrollment",
-      "attributes": {
-        "completionDeadline": "2020-02-29T18:29:59.000Z",
-        "enrollmentSource": "SELF_ENROLL",
-        "hasPassed": false,
-        "progressPercent": 0,
-        "score": 0,
-        "state": "OTHER"
-      },
-      "relationships": {
-        "learner": {
-          "data": {
-            "id": "3400468",
-            "type": "user"
-          }
-        },
-        "learningObject": {
-          "data": {
-            "id": "course:2037837",
-            "type": "learningObject"
-          }
-        },
-        "loInstance": {
-          "data": {
-            "id": "course:2037837_3717863",
-            "type": "learningObjectInstance"
-          }
-        },
-        "loResourceGrades": {
-          "data": [
-            {
-              "id": "course:2037837_3717863_3597363_0_3400468",
-              "type": "learningObjectResourceGrade"
-            }
-          ]
-        }
-      }
-    }
-  ]
-}
-```
-
-## Last access date for learning path enrollment
-
-Adobe Learning Manager lets you store custom metadata, such as a last access date, on a learning path enrollment. You set and read the metadata through the API. This helps you track time-bound access to learning paths that you assign.
-
-### About Learning Path enrollment metadata
-
-You can already set a last access date on a course enrollment through the API. That date controls how long a learner can access the course. Learning path enrollments now support a generic metadata field, so you can store a last access date or any other value that you want to track.
-
-You do not need to turn on the field or send a special header. The field is empty until you set it.
-
->[!NOTE]
->
->The metadata is for your own tracking. Adobe Learning Manager does not update it when learners open a learning path or its courses, and it does not control access to the learning path. It is also not propagated to the courses in the path. Each course keeps its own last access date, so courses in the same path can have different dates. Continue to manage course-level access expiration separately.
-
-### Metadata rules
-
-* The value must be a JSON object. A string, number, Boolean, or array returns a `400` error with the message `metadata must be a JSON object`.
-* You can use any keys. Adobe Learning Manager does not validate keys or values, and it does not enforce a date format. The examples in this article use epoch milliseconds, the same format as course dates.
-* A `PATCH` request replaces the entire metadata object. It does not merge with existing values, so keys that you leave out are removed.
-* Setting `"metadata": null` clears all metadata and returns `200`.
-* A request with an empty `attributes` object, or without a `metadata` key, leaves the stored metadata unchanged.
-* When no metadata is set, or after you clear it, the `metadata` key is not in the response.
-
-### Set metadata on an existing enrollment
-
-Use an admin token.
-
-Send a `PATCH` request to the following endpoint, where `{enrollmentId}` is the learning path enrollment ID in the format `learningProgram:<lpId><instanceId><userId>`:
-
-```http
-PATCH /primeapi/v2/users/{userId}/enrollments/{enrollmentId}
-```
-
-Use this request body:
-
-```json
-{
-  "data": {
-    "id": "<enrollmentId>",
-    "type": "learningObjectInstanceEnrollment",
-    "attributes": {
-      "metadata": {
-        "lastAccessDate": 1745337600000
-      }
-    }
-  }
-}
-```
-
-### Set metadata when you enroll a learner
-
-Use an admin token.
-
-Send a `POST` request with the learning path and instance IDs. Include an optional `metadata` object in the request body.
-
-```http
-POST /primeapi/v2/users/{userId}/enrollments?loId=<lpId>&loInstanceId=<instanceId>
-```
-
-* If `metadata` is not a JSON object, the request returns `400` and the user is not enrolled.
-* If the user is already enrolled, the request returns `200` and changes nothing. To change metadata for an existing enrollment, use the `PATCH` request.
-* The response does not include the metadata. Send a `GET` request to read it.
-
-### Retrieve metadata
-
-You can retrieve metadata with an admin or a learner token. The requests differ by token type.
-
-| Token | Get one enrollment | List learning path enrollments |
-|---|---|---|
-| Admin | `GET /primeapi/v2/users/{userId}/enrollments/{enrollmentId}` | `GET /primeapi/v2/users/{userId}/enrollments?filter.loTypes=learningProgram` |
-| Learner | `GET /primeapi/v2/enrollments/{enrollmentId}`<br>`GET /primeapi/v2/learningObjects/{id}?include=enrollment` | `GET /primeapi/v2/enrollments?filter.loTypes=learningProgram` |
-
->[!NOTE]
->
->The `include=enrollment` parameter works only with a learner token. It is not supported for the admin role.
-
-The response returns the `metadata` object with the learning path enrollment.
-
-### Use metadata in headless and external portals
-
-External portals and integrations use the same API calls. Use the request that matches the token your portal uses.
-
-* **Show the value in your portal:** Send the `GET` request for your token type from the table above, and read the `metadata` object from the response.
-* **Update the value from an external system, such as a commerce platform:** Send the `PATCH` request with an admin token.
-
-## Job API: Export Report Builder reports with generateCustomReport (L2 quiz report: bulk export and json format)
-
-Adobe Learning Manager December 2026 release adds a new job type, `generateCustomReport`, to the Job API. Use it to export any report you created in Report Builder, in an automated way, by passing the report ID.
-
-Combined with the new L2 quiz dataset in Report Builder, you can now:
-
-* Export question-level (L2) quiz data across multiple courses and modules in a single report, instead of running `generateQuizReport` once for each course.
-* Automate recurring exports, for example, a daily incremental export to your data warehouse or BI tool.
-
-Existing job types, including `generateQuizReport`, are unchanged.
-
-### Before you begin
-
-* You must be an Admin. The `generateCustomReport` job type isn't available to other roles.
-* Create and save the report in Report Builder first. For L2 quiz data, build the report from the L2 quiz dataset, and include the question-level fields you need, such as question text, learner response, score, attempt number, and answered-on date.
-* Note the report's ID. You pass it in the request as `reportId`.
-
-### Create a job
-
-**Endpoint**
-
-```http
-POST /primeapi/v2/jobs
-```
-
-**Request body**
-
-```json
-{
-  "data": {
-    "type": "job",
-    "attributes": {
-      "description": "Daily L2 quiz export",
-      "jobType": "generateCustomReport",
-      "payload": {
-        "reportId": "1478"
-      }
-    }
-  }
-}
-```
-
-**Attributes**
-
-| Attribute      | Required | Description                                                                    |
-|--------------------|--------------|------------------------------------------------------------------------------------|
-| `jobType`          | Yes          | Must be `generateCustomReport`.                                                    |
-| `payload.reportId` | Yes          | The ID of the saved Report Builder report, as a string. Must be a positive number. |
-| `description`      | No           | A description of your choice for the job.                                          |
-| `callbackUrl`      | No           | A URL to call when the job completes. Works the same way as for other job types.   |
-
-### Report requirements
-
-The job fails with an error message if the report doesn't meet these conditions:
-
-* The report definition includes a duration filter.
-* The relative duration filter that's configured in the report doesn't span more than 7 days.
-
->[!NOTE]
->
->The job runs asynchronously. A report that doesn't meet the conditions is rejected when the job is processed, so check the job status for the error.
-
-## Check the job status and download the report
-
-**Endpoint**
-
-```http
-GET /primeapi/v2/jobs/{jobId}
-```
-
-The response uses the same structure as other job types. When the job completes, `status.code` is `completed`, and `status.data.s3Url` contains the download link.
-
-```json
-{
-  "data": {
-    "type": "job",
-    "id": "12345",
-    "attributes": {
-      "jobType": "generateCustomReport",
-      "payload": {
-        "reportId": "1478"
-      },
-      "status": {
-        "code": "completed",
-        "data": {
-          "s3Url": "<time-limited-download-url>"
-        }
-      }
-    }
-  }
-}
-```
-
->[!NOTE]
->
->The download URL is time-limited. Download the file as soon as the job completes.
-
-### Limits
-
-All existing Job API limits and restrictions apply to `generateCustomReport`. This includes the limit on the number of calls allowed per day. For admin reports, the default limit is 5 calls per day.
-
-### L2 quiz report output {#l2-quiz-report-output}
-
-When you build the report from the L2 quiz dataset in Report Builder:
-
-* The output is a single CSV file. The module is a column in the file, and selecting a course returns only its quiz modules.
-* Each row represents one learner's answer to one question in one attempt. It includes the question ID and text, the learner's response, the score achieved, the maximum score, whether the response was correct, the attempt number, the answered-on date, and the module version.
-* Learner details, custom and metadata attributes, manager, and course and module names are available through the related user and learning object datasets.
-* Data refreshes at the standard Report Builder interval (approximately every 15 minutes).
-
-## Job API: Export Report Builder reports with generateCustomReport
-
-Adobe Learning Manager December 2026 release adds a new job type, generateCustomReport, to the Job API. Use it to export any report you created in Report Builder, in an automated way, by passing the report ID.
-
-Combined with the new L2 quiz dataset in Report Builder, you can now:
-
-- Export question-level (L2) quiz data across multiple courses and modules in a single report, instead of running generateQuizReport once for each course.
-
-- Automate recurring exports, for example, a daily incremental export to your data warehouse or BI tool.
-
-Existing job types, including generateQuizReport, are unchanged.
-
-### Before you begin
-
-- You must be an Admin. The generateCustomReport job type isn't available to other roles.
-
-- Create and save the report in Report Builder first. For L2 quiz data, build the report from the L2 quiz dataset, and include the question-level fields you need, such as question text, learner response, score, attempt number, and answered-on date.
-
-- Note the report's ID. You pass it in the request as reportId.
-
-### Create a job
-
-**Endpoint**
-
-POST /primeapi/v2/jobs
-
-**Request body**
-
-{
-
-"data": {
-
-"type": "job",
-
-"attributes": {
-
-"description": "Daily L2 quiz export",
-
-"jobType": "generateCustomReport",
-
-"payload": {
-
-"reportId": "1478"
-
-}
-
-}
-
-}
-
-}
-
-**Attributes**
-
-| **Attribute** | **Required** | **Description** |
-|----|----|----|
-| jobType | Yes | Must be generateCustomReport. |
-| payload.reportId | Yes | The ID of the saved Report Builder report, as a string. Must be a positive integer, passed as a string, for example "1478".” Sending a number, 0, a negative, a decimal or an empty value returns an error. |
-| description | No | A description of your choice for the job. |
-| callbackUrl | No | A URL to call when the job completes. Works the same way as for other job types. |
-| payload.filters | No | See the section below. |
-
-### Override the date filter (optional)
-
-"payload": {
-
-"reportId": "1478",
-
-"filters": \[
-
-{ "columnName": "L2 Quiz - Response - Timestamp", "operator": "gte", "val": "2026-11-15T00:00:00.000Z" }
-
-\]
-
-}
-
-- It replaces the report’s saved date filter for this run only. The export covers val (inclusive) up to the time the job runs.
-
-- columnName uses the format \<Dataset name\> - \<Field name\>. It must match a date filter that already exists in the report. It isn’t case-sensitive, but spacing and hyphens must match exactly.
-
-- operator is optional, and only gte is allowed.
-
-- val is an ISO 8601 UTC time within the last 7 days. Times are truncated to the second.
-
-- You can override several columns. An empty list means the saved filters are used.
-
-- Use case: a daily incremental export that starts where the previous one ended.
-
-### Errors returned when you create a job
-
-| **Cause** | **Message** |
-|----|----|
-| reportId missing | reportId is required |
-| reportId isn’t a positive integer string | reportId must be a positive integer string |
-| Date not in ISO format | filters.val must be in ISO format, e.g. 2020-01-01T18:30:00.000Z |
-| Date older than 7 days, or in the future | filters.val must be within the last 7 days |
-| Operator other than gte | filters.operator must be gte |
-| Same column given twice | Duplicate filter column: \<column\> |
-| Column isn’t a filter in the report | Unsupported custom report filter column: \<column\> |
-| A job for the same report is still running | There exists an similar job with id = \<jobId\> which has not finished yet |
-
-Only problems with the saved report definition are detected when the job runs. In that case, the job status becomes Failed, and no reason is returned.
-
-### Report requirements
-
-The job fails with an error message if the report doesn't meet these conditions:
-
-- The report definition includes a relative date filter, for example, last 7 days.
-
-- Every date filter in the report must cover 7 days or less, not just one.
-
-- Fixed date ranges, with a set start and end date, aren’t supported, and the job fails.
-
-- A report with no date filter fails. This includes reports built on datasets that have no date field.
-
-**Note**: The POST request is validated immediately. An invalid request is rejected with HTTP 400, and the reason is in source.info.
-
-### Check the job status and download the report
-
-**Endpoint**
-
-GET /primeapi/v2/jobs/{jobId}
-
-The response uses the same structure as other job types. When the job completes, status.code is Completed, and status.data.s3Url contains the download link.
-
-{
-
-"data": {
-
-"type": "job",
-
-"id": "12345",
-
-"attributes": {
-
-"jobType": "generateCustomReport",
-
-"payload": {
-
-"reportId": "1478"
-
-},
-
-"status": {
-
-"code": "Completed",
-
-"data": {
-
-"s3Url": "valid for 7 days"
-
-}
-
-}
-
-}
-
-}
-
-}
-
-The API returns Submitted, Completed and Failed. The file is a single CSV named report.csv.
-
-**Note**: The download URL is valid for seven days. Download the file as soon as the job completes.
-
-**Important**: Anyone with the link can download the file without signing in. Handle the link as you would the data it contains.
-
-**Failed job sample**
-
-"status": { "code": "Failed" }
-
-### Limits
-
-Only one generateCustomReport job for a report can run at a time. A second request is rejected until the first finishes.
-
-### L2 quiz report output
-
-- When you build a report from the L2 quiz dataset in Report Builder and export it with generateCustomReport, the output has these characteristics:
-
-- The output is a single CSV file named report.csv. The module is a column in the file. If you select a course, the report returns only its quiz modules.
-
-- Each row represents one learner’s response to one question in one attempt.
-
-- Data refreshes at the standard Report Builder interval (approximately every 15 minutes).
-
-- Date and time values are in your account’s time zone. The column header shows the time zone, for example, L2 Quiz - Response - Timestamp (America/Argentina/Salta).
-
-### Fields in the L2 quiz dataset
-
-| **Category** | **Fields** |
-|----|----|
-| Learner | User ID |
-| Course | Course ID, Course Instance ID, Course Name |
-| Module | Module ID, Module Name, Module Version |
-| Question | Question ID, Question Text, Correct Answer, Interaction Type |
-| Response | Response Answer, Achieved Score, Maximum Possible Score, Is Correct, Response Timestamp |
-| Attempt | Attempt Number |
-
-**Note:** The L2 quiz dataset isn’t linked to other Report Builder datasets. Learner name, email, manager, and custom attributes aren’t available in this report. To match a row to a learner, use the User ID.
-
-You can also export reports built on other Report Builder datasets with generateCustomReport. The fields available in the output depend on the dataset.
-
-## APIs to create and manage the Zoom connector
-
-Use these APIs to manage Zoom connections in Adobe Learning Manager. You can retrieve existing connections, save Zoom credentials, create or update connections, configure access permissions for user groups and custom roles, and enable or disable a connection.
-
-### Setup Zoom connector APIs
-
-Setting up and managing a Zoom connector takes four API calls. Make them in this order:
-
-| Step | API | What it does |
-|---|---|---|
-| 1 | `POST /ctr/authcred/uuid/20012` | Saves the Zoom credentials. |
-| 2 | `POST /ctr/app/esconnect` | Creates the Zoom connection, or updates an existing one. |
-| 3 | `PUT /ctr/xtsa/{connectionId}/access` | Sets the user groups and custom roles that can use the connection. |
-| 4 | `POST /ctr/xtsas/{connectionId}/enable` | Enables or disables the connection. |
-
-> [!NOTE]
-> These APIs use the logged-in Integration Admin session. They don't use an API key or an OAuth token.
-
-### Base URL and conventions
-
-The Zoom connector APIs use the following conventions:
-
-| Item | Value |
-|---|---|
-| Base URL | `https://learningmanagerstage1.adobe.com` |
-| Content type | `application/json` |
-| Authentication | Session of a logged-in Integration Admin |
-| Required headers | `content-type`, `accept`, `x-acap-caller-role: ROLE_INTEGRATIONADMIN`, `x-csrf-token`, and `Cookie` |
-| Integration catalog UUID for Zoom | `20012` |
-| Connection limit | 50 Zoom connections |
-
-The `x-csrf-token` value is embedded in the Integration Admin page HTML as `csrfToken`. The `Cookie` header carries the session cookies of the logged-in admin.
-
-### Before you begin
-
-- Sign in as an Integration Admin.
-- Create a Zoom Server-to-Server OAuth app. Note its client ID, client secret, and account ID. You also need the email address of the Zoom super admin.
-- Call `GET /ctr/xtsas/canCreateAccount/25`. It returns `true` if you can create another Zoom connection.
-
-### Step 1: Save the Zoom credentials {#save-credentials}
-
-Call this API before you create or update a connection. It stores the credentials that the connector uses to connect to Zoom.
-
-```
-POST /ctr/authcred/uuid/20012
-```
-
-To update an existing connection, add the `connectionId` query parameter:
-
-```
-POST /ctr/authcred/uuid/20012?connectionId={connectionId}
-```
-
-The request body is the credentials as JSON text. It is a JSON string that contains JSON, not a nested object. Include the outer quotes.
-
-| Key | Description |
-|---|---|
-| `clientId` | The client ID of the Zoom app. |
-| `clientSecret` | The client secret of the Zoom app. This value is sensitive. |
-| `accountId` | The Zoom account ID. |
-| `superAdmin` | The email address of the Zoom super admin. |
-
-Sample request body:
-
-```
-"{\"clientId\":\"<ZOOM_CLIENT_ID>\", \"clientSecret\":\"<ZOOM_CLIENT_SECRET>\", \"accountId\":\"<ZOOM_ACCOUNT_ID>\", \"superAdmin\":\"<ADMIN_EMAIL>\"}"
-```
-
-Sample `200 OK` response:
-
-```json
-{
-  "code": 0,
-  "description": "Success"
-}
-```
-
-`code: 0` means that the credentials were saved.
-
-### Step 2: Create or update the Zoom connection {#create-connection}
-
-This API creates a Zoom connection. The same endpoint also updates an existing connection.
-
-```
-POST /ctr/app/esconnect
-```
-
-The request body has the following fields:
-
-| Field | Required | Description |
-|---|---|---|
-| `UUID` | Yes | The integration catalog UUID. Use `20012` for Zoom. |
-| `listOfConnections` | Yes | The connections to create. Send one item. |
-| `listOfConnections[].name` | Yes | The display name of the connector, for example `Zoom_Partner_X`. |
-| `listOfConnections[].tag` | Yes | Send an empty string (`""`) when you create a connector. Omit it when you update one. |
-| `listOfConnections[].credentialsJson` | Yes | The credentials as JSON text. Use the same string that you sent in step 1. |
-| `listOfConnections[].schedules` | Yes | The sync schedule. Send `objectUUID` 10002, `priority` 1, and `type` 1. |
-| `listOfConnections[].id` | Update only | The ID of the connection to update, for example `3474737`. |
-
-Sample request body:
-
-```json
-{
-  "UUID": 20012,
-  "listOfConnections": [
-    {
-      "name": "Zoom_Example",
-      "tag": "",
-      "credentialsJson": "{\"clientId\":\"<ZOOM_CLIENT_ID>\", \"clientSecret\":\"<ZOOM_CLIENT_SECRET>\", \"accountId\":\"<ZOOM_ACCOUNT_ID>\", \"superAdmin\":\"<ADMIN_EMAIL>\"}",
-      "schedules": [
-        { "objectUUID": 10002, "priority": 1, "type": 1 }
-      ]
-    }
-  ]
-}
-```
-
-Sample `200 OK` response:
-
-```json
-[3474737]
-```
-
-The response is a JSON array that contains the ID of the new connection. Use this ID in steps 3 and 4 and in any follow-up calls.
-
-### Create and update compared
-
-| Difference | Create | Update |
-|---|---|---|
-| `listOfConnections[].id` | Not sent | The connection ID |
-| `listOfConnections[].tag` | `""` | Not sent |
-| Credentials call in step 1 | `POST /ctr/authcred/uuid/20012` | `POST /ctr/authcred/uuid/20012?connectionId={id}` |
-
-### Step 3: Set who can use the connection {#set-access}
-
-This API defines which user groups and custom roles can use the connection.
-
-```
-PUT /ctr/xtsa/{connectionId}/access
-```
-
-The path uses the singular `xtsa` for one connection. The plural `xtsas` is the collection of connections.
-
-The request body is a JSON array. Each item grants access to one user group or custom role.
-
-| Field | Required | Description |
-|---|---|---|
-| `accessType` | Yes | `USER_GROUP` or `CUSTOM_ROLE`. |
-| `accessId` | Yes | The ID of the user group or custom role, as a string. |
-
-Sample request body:
-
-```json
-[
-  { "accessType": "USER_GROUP", "accessId": "<groupId>" },
-  { "accessType": "CUSTOM_ROLE", "accessId": "<roleId>" }
-]
-```
-
-The API returns `204 No Content` with no body when the access list is saved.
-
-> [!NOTE]
-> The request replaces the whole access list. It doesn't append to it. Anything that isn't in the body loses access. To remove all access, send an empty array (`[]`).
-
-### Step 4: Enable or disable the connection {#enable-disable}
-
-This API turns a connection on or off. Use it after you create the connection, whenever you need to change its state.
-
-```
-POST /ctr/xtsas/{connectionId}/enable
-```
-
-The path uses the plural `xtsas`, like the list and delete calls. The access call in step 3 uses the singular `xtsa`.
-
-| Path parameter | Type | Description |
-|---|---|---|
-| `connectionId` | Number | The ID of the connection. It is the `id` returned by `GET /ctr/xtsas`, and the ID returned in step 2. |
-
-The request body has the following fields:
-
-| Field | Type | Required | Description |
-|---|---|---|---|
-| `objectUUID` | Number | Yes | The sync object of the connection. Use `10002`, the same value that you sent in `schedules[].objectUUID` in step 2. |
-| `operation` | Number | Yes | Send `1`. |
-| `val` | Boolean | Yes | The new state of the connection. Send `false` to disable the connection. Send `true` to enable it. |
-
-Sample request body to disable a connection:
-
-```json
-{
-  "objectUUID": 10002,
-  "operation": 1,
-  "val": false
-}
-```
-
-Sample request body to enable a connection:
-
-```json
-{
-  "objectUUID": 10002,
-  "operation": 1,
-  "val": true
-}
-```
-
-Sample request to disable a connection:
-
-```bash
-curl -X POST 'https://learningmanagerstage1.adobe.com/ctr/xtsas/<connectionId>/enable' \
-  -H 'accept: application/json' \
-  -H 'content-type: application/json' \
-  -H 'x-acap-caller-role: ROLE_INTEGRATIONADMIN' \
-  -H 'x-csrf-token: <CSRF_TOKEN>' \
-  -H 'Cookie: <SESSION_COOKIES>' \
-  --data '{"objectUUID":10002,"operation":1,"val":false}'
-```
-
-To confirm the new state, call `GET /ctr/xtsas`, find the connection by `id`, and check its `enabled` flag.
-
-> [!NOTE]
-> The `x-acap-caller-role` header must match the role of the active profile. For these APIs, use `ROLE_INTEGRATIONADMIN`.
-
-### Manage the connection after you create it
-
-You can use the following calls with the connection ID:
-
-| Purpose | Call |
-|---|---|
-| Enable or disable a connection | `POST /ctr/xtsas/{connectionId}/enable` |
-| Read the access list of one connection | `GET /ctr/xtsa/{connectionId}/access` |
-| Read access for all Zoom connections | `GET /ctr/xtsas/access?UUID=20012` |
-| List all connections. Zoom connections have `extsysRefId` 25. | `GET /ctr/xtsas` |
-| View a connection | `GET /ctr/app/connection/{id}/object/10002` |
-| Delete a connection permanently | `DELETE /ctr/xtsas/{id}` |
-
-> [!NOTE]
-> The view call returns the client secret in clear text. Treat the client secret as sensitive, and rotate it if it is exposed. Don't commit or share session cookies, CSRF tokens, or credentials, including in HAR files and copied cURL commands.
-
-### Use these APIs in your integration
-
-A common use case is an automated setup of a Zoom connector for a new account or partner.
-
-1. Call `GET /ctr/xtsas/canCreateAccount/25` to confirm that you can create another connection.
-2. Call `POST /ctr/authcred/uuid/20012` with the Zoom credentials.
-3. Call `POST /ctr/app/esconnect` with the connector name, the same credentials string, and the sync schedule. Read the connection ID from the response.
-4. Call `PUT /ctr/xtsa/{connectionId}/access` with the user groups and custom roles that can use the connection.
-5. Call `POST /ctr/xtsas/{connectionId}/enable` with `val` set to `true` or `false` to enable or disable the connection. Then call `GET /ctr/xtsas` and check the `enabled` flag to confirm the state.
-6. To change the credentials later, repeat steps 2 and 3 with the connection ID.
-
-## About learning path enrollment metadata
-
-You can already set a last access date on a course enrollment through the API. That date controls how long a learner can access the course. Learning path enrollments now support a generic metadata field, so you can store a last access date or any other value that you want to track.
-
-You do not need to turn on the field or send a special header. The field is empty until you set it.
-
->[!NOTE]
->
->The metadata is for your own tracking. Adobe Learning Manager does not update it when learners open a learning path or its courses, and it does not control access to the learning path. It is also not propagated to the courses in the path. Each course keeps its own last access date, so courses in the same path can have different dates. Continue to manage course-level access expiration separately.
-
-### Metadata rules {#metadata-rules}
-
-* The value must be a JSON object. A string, number, Boolean, or array returns a 400 error with the message `metadata must be a JSON object`.
-* You can use any keys. Adobe Learning Manager does not validate keys or values, and it does not enforce a date format. The examples in this article use epoch milliseconds, the same format as course dates.
-* A PATCH request replaces the entire metadata object. It does not merge with existing values, so keys that you leave out are removed.
-* Setting `"metadata": null` clears all metadata and returns 200.
-* A request with an empty `attributes` object, or without a `metadata` key, leaves the stored metadata unchanged.
-* When no metadata is set, or after you clear it, the `metadata` key is not in the response.
-
-### Set metadata on an existing enrollment {#set-metadata-existing}
-
-Use an admin token.
-
-Send a PATCH request to the following endpoint, where `{enrollmentId}` is the learning path enrollment ID in the format `learningProgram:<lpId>_<instanceId>_<userId>`:
-
-```
-PATCH /primeapi/v2/users/{userId}/enrollments/{enrollmentId}
-```
-
-Use this request body:
-
-```json
-{
-  "data": {
-    "id": "<enrollmentId>",
-    "type": "learningObjectInstanceEnrollment",
-    "attributes": {
-      "metadata": {
-        "lastAccessDate": 1745337600000
-      }
-    }
-  }
-}
-```
-
-### Set metadata when you enroll a learner {#set-metadata-enroll}
-
-Use an admin token.
-
-Send a POST request with the learning path and instance IDs. Include an optional `metadata` object in the request body.
-
-```
-POST /primeapi/v2/users/{userId}/enrollments?loId=<lpId>&loInstanceId=<instanceId>
-```
-
-* If `metadata` is not a JSON object, the request returns 400 and the user is not enrolled.
-* If the user is already enrolled, the request returns 200 and changes nothing. To change metadata for an existing enrollment, use the PATCH request.
-* The response does not include the metadata. Send a GET request to read it.
-
-### Retrieve metadata {#retrieve-metadata}
-
-You can retrieve metadata with an admin or a learner token. The requests differ by token type.
-
-|Token|Get one enrollment|List learning path enrollments|
-|---|---|---|
-|Admin|`GET /primeapi/v2/users/{userId}/enrollments/{enrollmentId}`|`GET /primeapi/v2/users/{userId}/enrollments?filter.loTypes=learningProgram`|
-|Learner|`GET /primeapi/v2/enrollments/{enrollmentId}`<br>`GET /primeapi/v2/learningObjects/{id}?include=enrollment`|`GET /primeapi/v2/enrollments?filter.loTypes=learningProgram`|
-
->[!NOTE]
->
->The `include=enrollment` parameter works only with a learner token. It is not supported for the admin role.
-
-The response returns the `metadata` object with the learning path enrollment.
-
-### Use metadata in headless and external portals {#metadata-external-portals}
-
-External portals and integrations use the same API calls. Use the request that matches the token your portal uses.
-
-* **Show the value in your portal:** Send the GET request for your token type from the table above, and read the `metadata` object from the response.
-* **Update the value from an external system, such as a commerce platform:** Send the PATCH request with an admin token.
-
 ### API support for multi-enrolled instances in Leaner Compliance Widget in Learner app
 
 The public API supports this behavior through an optional query parameter on the existing enrollments endpoint. If you omit the parameter, the API returns the same results as before, so existing integrations, including headless implementations, continue to work unchanged.
@@ -2710,3 +1548,535 @@ true. False by default.
 \]
 
 }
+
+## Last access date for learning path enrollment
+
+Adobe Learning Manager lets you store custom metadata, such as a last access date, on a learning path enrollment. You set and read the metadata through the API. This helps you track time-bound access to learning paths that you assign.
+
+### About Learning Path enrollment metadata
+
+You can already set a last access date on a course enrollment through the API. That date controls how long a learner can access the course. Learning path enrollments now support a generic metadata field, so you can store a last access date or any other value that you want to track.
+
+You do not need to turn on the field or send a special header. The field is empty until you set it.
+
+>[!NOTE]
+>
+>The metadata is for your own tracking. Adobe Learning Manager does not update it when learners open a learning path or its courses, and it does not control access to the learning path. It is also not propagated to the courses in the path. Each course keeps its own last access date, so courses in the same path can have different dates. Continue to manage course-level access expiration separately.
+
+### Metadata rules
+
+* The value must be a JSON object. A string, number, Boolean, or array returns a `400` error with the message `metadata must be a JSON object`.
+* You can use any keys. Adobe Learning Manager does not validate keys or values, and it does not enforce a date format. The examples in this article use epoch milliseconds, the same format as course dates.
+* A `PATCH` request replaces the entire metadata object. It does not merge with existing values, so keys that you leave out are removed.
+* Setting `"metadata": null` clears all metadata and returns `200`.
+* A request with an empty `attributes` object, or without a `metadata` key, leaves the stored metadata unchanged.
+* When no metadata is set, or after you clear it, the `metadata` key is not in the response.
+
+
+
+## Job API: Export Report Builder reports with generateCustomReport
+
+Adobe Learning Manager December 2026 release adds a new job type, `generateCustomReport`, to the Job API. Use it to export any report you created in Report Builder, in an automated way, by passing the report ID.
+
+Combined with the new L2 quiz dataset in Report Builder, you can now:
+
+* Export question-level (L2) quiz data across multiple courses and modules in a single report, instead of running `generateQuizReport` once for each course.
+* Automate recurring exports, for example, a daily incremental export to your data warehouse or BI tool.
+
+Existing job types, including `generateQuizReport`, are unchanged.
+
+### Before you begin
+
+* You must be an Admin. The `generateCustomReport` job type isn't available to other roles.
+* Create and save the report in Report Builder first. For L2 quiz data, build the report from the L2 quiz dataset, and include the question-level fields you need, such as question text, learner response, score, attempt number, and answered-on date.
+* Note the report's ID. You pass it in the request as `reportId`.
+
+### Create a job
+
+**Endpoint**
+
+```
+POST /primeapi/v2/jobs
+```
+
+**Request body**
+
+```json
+{
+  "data": {
+    "type": "job",
+    "attributes": {
+      "description": "Daily L2 quiz export",
+      "jobType": "generateCustomReport",
+      "payload": {
+        "reportId": "1478"
+      }
+    }
+  }
+}
+```
+
+**Attributes**
+
+| Attribute | Required | Description |
+|---|---|---|
+| `jobType` | Yes | Must be `generateCustomReport`. |
+| `payload.reportId` | Yes | The ID of the saved Report Builder report, as a string. Must be a positive integer, passed as a string, for example `"1478"`. Sending a number, 0, a negative, a decimal or an empty value returns an error. |
+| `description` | No | A description of your choice for the job. |
+| `callbackUrl` | No | A URL to call when the job completes. Works the same way as for other job types. |
+| `payload.filters` | No | See the section below. |
+
+### Override the date filter (optional) {#override-date-filter}
+
+```json
+"payload": {
+  "reportId": "1478",
+  "filters": [
+    { "columnName": "L2 Quiz - Response - Timestamp", "operator": "gte", "val": "2026-11-15T00:00:00.000Z" }
+  ]
+}
+```
+
+* It replaces the report's saved date filter for this run only. The export covers `val` (inclusive) up to the time the job runs.
+* `columnName` uses the format `<Dataset name> - <Field name>`. It must match a date filter that already exists in the report. It isn't case-sensitive, but spacing and hyphens must match exactly.
+* `operator` is optional, and only `gte` is allowed.
+* `val` is an ISO 8601 UTC time within the last 7 days. Times are truncated to the second.
+* You can override several columns. An empty list means the saved filters are used.
+* Use case: a daily incremental export that starts where the previous one ended.
+
+### Errors returned when you create a job
+
+| Cause | Message |
+|---|---|
+| `reportId` missing | `reportId is required` |
+| `reportId` isn't a positive integer string | `reportId must be a positive integer string` |
+| Date not in ISO format | `filters.val must be in ISO format, e.g. 2020-01-01T18:30:00.000Z` |
+| Date older than 7 days, or in the future | `filters.val must be within the last 7 days` |
+| Operator other than `gte` | `filters.operator must be gte` |
+| Same column given twice | `Duplicate filter column: <column>` |
+| Column isn't a filter in the report | `Unsupported custom report filter column: <column>` |
+| A job for the same report is still running | `There exists an similar job with id = <jobId> which has not finished yet` |
+
+Only problems with the saved report definition are detected when the job runs. In that case, the job status becomes `Failed`, and no reason is returned.
+
+### Report requirements
+
+The job fails with an error message if the report doesn't meet these conditions:
+
+* The report definition includes a relative date filter, for example, last 7 days.
+* Every date filter in the report must cover 7 days or less, not just one.
+* Fixed date ranges, with a set start and end date, aren't supported, and the job fails.
+* A report with no date filter fails. This includes reports built on datasets that have no date field.
+
+>[!NOTE]
+>
+>The POST request is validated immediately. An invalid request is rejected with HTTP 400, and the reason is in `source.info`.
+
+### Check the job status and download the report
+
+**Endpoint**
+
+```
+GET /primeapi/v2/jobs/{jobId}
+```
+
+The response uses the same structure as other job types. When the job completes, `status.code` is `Completed`, and `status.data.s3Url` contains the download link.
+
+```json
+{
+  "data": {
+    "type": "job",
+    "id": "12345",
+    "attributes": {
+      "jobType": "generateCustomReport",
+      "payload": {
+        "reportId": "1478"
+      },
+      "status": {
+        "code": "Completed",
+        "data": {
+          "s3Url": "valid for 7 days"
+        }
+      }
+    }
+  }
+}
+```
+
+The API returns `Submitted`, `Completed` and `Failed`. The file is a single CSV named `report.csv`.
+
+>[!NOTE]
+>
+>The download URL is valid for seven days. Download the file as soon as the job completes.
+
+>[!IMPORTANT]
+>
+>Anyone with the link can download the file without signing in. Handle the link as you would the data it contains.
+
+**Failed job sample**
+
+```json
+"status": { "code": "Failed" }
+```
+
+### Limits
+
+Only one `generateCustomReport` job for a report can run at a time. A second request is rejected until the first finishes.
+
+### L2 quiz report output
+
+When you build a report from the L2 quiz dataset in Report Builder and export it with `generateCustomReport`, the output has these characteristics:
+
+* The output is a single CSV file named `report.csv`. The module is a column in the file. If you select a course, the report returns only its quiz modules.
+* Each row represents one learner's response to one question in one attempt.
+* Data refreshes at the standard Report Builder interval (approximately every 15 minutes).
+* Date and time values are in your account's time zone. The column header shows the time zone, for example, `L2 Quiz - Response - Timestamp (America/Argentina/Salta)`.
+
+### Fields in the L2 quiz dataset
+
+| Category | Fields |
+|---|---|
+| Learner | User ID |
+| Course | Course ID, Course Instance ID, Course Name |
+| Module | Module ID, Module Name, Module Version |
+| Question | Question ID, Question Text, Correct Answer, Interaction Type |
+| Response | Response Answer, Achieved Score, Maximum Possible Score, Is Correct, Response Timestamp |
+| Attempt | Attempt Number |
+
+>[!NOTE]
+>
+>The L2 quiz dataset isn't linked to other Report Builder datasets. Learner name, email, manager, and custom attributes aren't available in this report. To match a row to a learner, use the User ID.
+
+You can also export reports built on other Report Builder datasets with `generateCustomReport`. The fields available in the output depend on the dataset.
+
+## APIs to create and manage the Zoom connector
+
+Use these APIs to manage Zoom connections in Adobe Learning Manager. You can retrieve existing connections, save Zoom credentials, create or update connections, configure access permissions for user groups and custom roles, and enable or disable a connection.
+
+### Setup Zoom connector APIs
+
+Setting up and managing a Zoom connector takes four API calls. Make them in this order:
+
+| Step | API | What it does |
+|---|---|---|
+| 1 | `POST /ctr/authcred/uuid/20012` | Saves the Zoom credentials. |
+| 2 | `POST /ctr/app/esconnect` | Creates the Zoom connection, or updates an existing one. |
+| 3 | `PUT /ctr/xtsa/{connectionId}/access` | Sets the user groups and custom roles that can use the connection. |
+| 4 | `POST /ctr/xtsas/{connectionId}/enable` | Enables or disables the connection. |
+
+> [!NOTE]
+> These APIs use the logged-in Integration Admin session. They don't use an API key or an OAuth token.
+
+### Base URL and conventions
+
+The Zoom connector APIs use the following conventions:
+
+| Item | Value |
+|---|---|
+| Base URL | `https://learningmanagerstage1.adobe.com` |
+| Content type | `application/json` |
+| Authentication | Session of a logged-in Integration Admin |
+| Required headers | `content-type`, `accept`, `x-acap-caller-role: ROLE_INTEGRATIONADMIN`, `x-csrf-token`, and `Cookie` |
+| Integration catalog UUID for Zoom | `20012` |
+| Connection limit | 50 Zoom connections |
+
+The `x-csrf-token` value is embedded in the Integration Admin page HTML as `csrfToken`. The `Cookie` header carries the session cookies of the logged-in admin.
+
+### Before you begin
+
+- Sign in as an Integration Admin.
+- Create a Zoom Server-to-Server OAuth app. Note its client ID, client secret, and account ID. You also need the email address of the Zoom super admin.
+- Call `GET /ctr/xtsas/canCreateAccount/25`. It returns `true` if you can create another Zoom connection.
+
+### Step 1: Save the Zoom credentials {#save-credentials}
+
+Call this API before you create or update a connection. It stores the credentials that the connector uses to connect to Zoom.
+
+```
+POST /ctr/authcred/uuid/20012
+```
+
+To update an existing connection, add the `connectionId` query parameter:
+
+```
+POST /ctr/authcred/uuid/20012?connectionId={connectionId}
+```
+
+The request body is the credentials as JSON text. It is a JSON string that contains JSON, not a nested object. Include the outer quotes.
+
+| Key | Description |
+|---|---|
+| `clientId` | The client ID of the Zoom app. |
+| `clientSecret` | The client secret of the Zoom app. This value is sensitive. |
+| `accountId` | The Zoom account ID. |
+| `superAdmin` | The email address of the Zoom super admin. |
+
+Sample request body:
+
+```
+"{\"clientId\":\"<ZOOM_CLIENT_ID>\", \"clientSecret\":\"<ZOOM_CLIENT_SECRET>\", \"accountId\":\"<ZOOM_ACCOUNT_ID>\", \"superAdmin\":\"<ADMIN_EMAIL>\"}"
+```
+
+Sample `200 OK` response:
+
+```json
+{
+  "code": 0,
+  "description": "Success"
+}
+```
+
+`code: 0` means that the credentials were saved.
+
+### Step 2: Create or update the Zoom connection {#create-connection}
+
+This API creates a Zoom connection. The same endpoint also updates an existing connection.
+
+```
+POST /ctr/app/esconnect
+```
+
+The request body has the following fields:
+
+| Field | Required | Description |
+|---|---|---|
+| `UUID` | Yes | The integration catalog UUID. Use `20012` for Zoom. |
+| `listOfConnections` | Yes | The connections to create. Send one item. |
+| `listOfConnections[].name` | Yes | The display name of the connector, for example `Zoom_Partner_X`. |
+| `listOfConnections[].tag` | Yes | Send an empty string (`""`) when you create a connector. Omit it when you update one. |
+| `listOfConnections[].credentialsJson` | Yes | The credentials as JSON text. Use the same string that you sent in step 1. |
+| `listOfConnections[].schedules` | Yes | The sync schedule. Send `objectUUID` 10002, `priority` 1, and `type` 1. |
+| `listOfConnections[].id` | Update only | The ID of the connection to update, for example `3474737`. |
+
+Sample request body:
+
+```json
+{
+  "UUID": 20012,
+  "listOfConnections": [
+    {
+      "name": "Zoom_Example",
+      "tag": "",
+      "credentialsJson": "{\"clientId\":\"<ZOOM_CLIENT_ID>\", \"clientSecret\":\"<ZOOM_CLIENT_SECRET>\", \"accountId\":\"<ZOOM_ACCOUNT_ID>\", \"superAdmin\":\"<ADMIN_EMAIL>\"}",
+      "schedules": [
+        { "objectUUID": 10002, "priority": 1, "type": 1 }
+      ]
+    }
+  ]
+}
+```
+
+Sample `200 OK` response:
+
+```json
+[3474737]
+```
+
+The response is a JSON array that contains the ID of the new connection. Use this ID in steps 3 and 4 and in any follow-up calls.
+
+### Create and update compared
+
+| Difference | Create | Update |
+|---|---|---|
+| `listOfConnections[].id` | Not sent | The connection ID |
+| `listOfConnections[].tag` | `""` | Not sent |
+| Credentials call in step 1 | `POST /ctr/authcred/uuid/20012` | `POST /ctr/authcred/uuid/20012?connectionId={id}` |
+
+### Step 3: Set who can use the connection {#set-access}
+
+This API defines which user groups and custom roles can use the connection.
+
+```
+PUT /ctr/xtsa/{connectionId}/access
+```
+
+The path uses the singular `xtsa` for one connection. The plural `xtsas` is the collection of connections.
+
+The request body is a JSON array. Each item grants access to one user group or custom role.
+
+| Field | Required | Description |
+|---|---|---|
+| `accessType` | Yes | `USER_GROUP` or `CUSTOM_ROLE`. |
+| `accessId` | Yes | The ID of the user group or custom role, as a string. |
+
+Sample request body:
+
+```json
+[
+  { "accessType": "USER_GROUP", "accessId": "<groupId>" },
+  { "accessType": "CUSTOM_ROLE", "accessId": "<roleId>" }
+]
+```
+
+The API returns `204 No Content` with no body when the access list is saved.
+
+> [!NOTE]
+> The request replaces the whole access list. It doesn't append to it. Anything that isn't in the body loses access. To remove all access, send an empty array (`[]`).
+
+### Step 4: Enable or disable the connection {#enable-disable}
+
+This API turns a connection on or off. Use it after you create the connection, whenever you need to change its state.
+
+```
+POST /ctr/xtsas/{connectionId}/enable
+```
+
+The path uses the plural `xtsas`, like the list and delete calls. The access call in step 3 uses the singular `xtsa`.
+
+| Path parameter | Type | Description |
+|---|---|---|
+| `connectionId` | Number | The ID of the connection. It is the `id` returned by `GET /ctr/xtsas`, and the ID returned in step 2. |
+
+The request body has the following fields:
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| `objectUUID` | Number | Yes | The sync object of the connection. Use `10002`, the same value that you sent in `schedules[].objectUUID` in step 2. |
+| `operation` | Number | Yes | Send `1`. |
+| `val` | Boolean | Yes | The new state of the connection. Send `false` to disable the connection. Send `true` to enable it. |
+
+Sample request body to disable a connection:
+
+```json
+{
+  "objectUUID": 10002,
+  "operation": 1,
+  "val": false
+}
+```
+
+Sample request body to enable a connection:
+
+```json
+{
+  "objectUUID": 10002,
+  "operation": 1,
+  "val": true
+}
+```
+
+Sample request to disable a connection:
+
+```bash
+curl -X POST 'https://learningmanagerstage1.adobe.com/ctr/xtsas/<connectionId>/enable' \
+  -H 'accept: application/json' \
+  -H 'content-type: application/json' \
+  -H 'x-acap-caller-role: ROLE_INTEGRATIONADMIN' \
+  -H 'x-csrf-token: <CSRF_TOKEN>' \
+  -H 'Cookie: <SESSION_COOKIES>' \
+  --data '{"objectUUID":10002,"operation":1,"val":false}'
+```
+
+To confirm the new state, call `GET /ctr/xtsas`, find the connection by `id`, and check its `enabled` flag.
+
+> [!NOTE]
+> The `x-acap-caller-role` header must match the role of the active profile. For these APIs, use `ROLE_INTEGRATIONADMIN`.
+
+### Manage the connection after you create it
+
+You can use the following calls with the connection ID:
+
+| Purpose | Call |
+|---|---|
+| Enable or disable a connection | `POST /ctr/xtsas/{connectionId}/enable` |
+| Read the access list of one connection | `GET /ctr/xtsa/{connectionId}/access` |
+| Read access for all Zoom connections | `GET /ctr/xtsas/access?UUID=20012` |
+| List all connections. Zoom connections have `extsysRefId` 25. | `GET /ctr/xtsas` |
+| View a connection | `GET /ctr/app/connection/{id}/object/10002` |
+| Delete a connection permanently | `DELETE /ctr/xtsas/{id}` |
+
+> [!NOTE]
+> The view call returns the client secret in clear text. Treat the client secret as sensitive, and rotate it if it is exposed. Don't commit or share session cookies, CSRF tokens, or credentials, including in HAR files and copied cURL commands.
+
+### Use these APIs in your integration
+
+A common use case is an automated setup of a Zoom connector for a new account or partner.
+
+1. Call `GET /ctr/xtsas/canCreateAccount/25` to confirm that you can create another connection.
+2. Call `POST /ctr/authcred/uuid/20012` with the Zoom credentials.
+3. Call `POST /ctr/app/esconnect` with the connector name, the same credentials string, and the sync schedule. Read the connection ID from the response.
+4. Call `PUT /ctr/xtsa/{connectionId}/access` with the user groups and custom roles that can use the connection.
+5. Call `POST /ctr/xtsas/{connectionId}/enable` with `val` set to `true` or `false` to enable or disable the connection. Then call `GET /ctr/xtsas` and check the `enabled` flag to confirm the state.
+6. To change the credentials later, repeat steps 2 and 3 with the connection ID.
+
+## About learning path enrollment metadata
+
+You can already set a last access date on a course enrollment through the API. That date controls how long a learner can access the course. Learning path enrollments now support a generic metadata field, so you can store a last access date or any other value that you want to track.
+
+You do not need to turn on the field or send a special header. The field is empty until you set it.
+
+>[!NOTE]
+>
+>The metadata is for your own tracking. Adobe Learning Manager does not update it when learners open a learning path or its courses, and it does not control access to the learning path. It is also not propagated to the courses in the path. Each course keeps its own last access date, so courses in the same path can have different dates. Continue to manage course-level access expiration separately.
+
+### Metadata rules {#metadata-rules}
+
+* The value must be a JSON object. A string, number, Boolean, or array returns a 400 error with the message `metadata must be a JSON object`.
+* You can use any keys. Adobe Learning Manager does not validate keys or values, and it does not enforce a date format. The examples in this article use epoch milliseconds, the same format as course dates.
+* A PATCH request replaces the entire metadata object. It does not merge with existing values, so keys that you leave out are removed.
+* Setting `"metadata": null` clears all metadata and returns 200.
+* A request with an empty `attributes` object, or without a `metadata` key, leaves the stored metadata unchanged.
+* When no metadata is set, or after you clear it, the `metadata` key is not in the response.
+
+## Set metadata on an existing enrollment
+
+Use an admin token.
+
+Send a PATCH request to the following endpoint, where `{enrollmentId}` is the learning path enrollment ID in the format `learningProgram:<lpId><instanceId><userId>`:
+
+```
+PATCH /primeapi/v2/users/{userId}/enrollments/{enrollmentId}
+```
+
+Use this request body:
+
+```json
+{
+  "data": {
+    "id": "<enrollmentId>",
+    "type": "learningObjectInstanceEnrollment",
+    "attributes": {
+      "metadata": {
+        "lastAccessDate": 1745337600000
+      }
+    }
+  }
+}
+```
+
+### Set metadata when you enroll a learner
+
+Use an admin token.
+
+Send a POST request with the learning path and instance IDs. Include an optional `metadata` object in the request body.
+
+```
+POST /primeapi/v2/users/{userId}/enrollments?loId=<lpId>&loInstanceId=<instanceId>
+```
+
+* If `metadata` is not a JSON object, the request returns 400 and the user is not enrolled.
+* If the user is already enrolled, the request returns 200 and changes nothing. To change metadata for an existing enrollment, use the PATCH request.
+* The response does not include the metadata. Send a GET request to read it.
+
+### Retrieve metadata
+
+You can retrieve metadata with an admin or a learner token. The requests differ by token type.
+
+| Token | Get one enrollment | List learning path enrollments |
+|---|---|---|
+| Admin | `GET /primeapi/v2/users/{userId}/enrollments/{enrollmentId}` | `GET /primeapi/v2/users/{userId}/enrollments?filter.loTypes=learningProgram` |
+| Learner | `GET /primeapi/v2/enrollments/{enrollmentId}`<br>`GET /primeapi/v2/learningObjects/{id}?include=enrollment` | `GET /primeapi/v2/enrollments?filter.loTypes=learningProgram` |
+
+>[!NOTE]
+>
+>The `include=enrollment` parameter works only with a learner token. It is not supported for the admin role.
+
+The response returns the `metadata` object with the learning path enrollment.
+
+### Use metadata in headless and external portals
+
+External portals and integrations use the same API calls. Use the request that matches the token your portal uses.
+
+* **Show the value in your portal:** Send the GET request for your token type from the table above, and read the `metadata` object from the response.
+* **Update the value from an external system, such as a commerce platform:** Send the PATCH request with an admin token.
+
