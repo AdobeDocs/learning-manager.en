@@ -79,7 +79,7 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 
 **Personalized Learning Path editing and branding strips:** Learners can remove suggested topics or courses in a single step. Administrators can reposition the Personalized Learning Paths strip on the Learner home page through the **Branding** page. [Learn more](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips) 
 
-**Learning Path citations in Learner Assistant:** Answers now cite the Learning Path that contains a source course, along with the course. Answers drawn from a job aid include a download link.
+**Learning Path citations in Learner Assistant:** Answers now cite the Learning Path that contains a source course, along with the course. Answers drawn from a job aid include a download link. [Learn more](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations) 
 
 **AI Assistant configurations:** The Administrator Assistant offers two agents, Insights Agent and Knowledge Agent. The Learner Assistant offers three agents: Knowledge Agent, Answer Agent, and Learning Path Agent. You can configure each agent individually.
 
@@ -107,11 +107,11 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 
 **Custom Learner attributes in Learning Tools Interoperability:** Learning Manager reads custom Learner attributes through the optional Names and Role Provisioning Services endpoint and from the launch request. Some learning systems, such as Moodle, don't support this endpoint.
 
-**Discussion board Instructor notifications:** Headless customers can send Instructors and cohort managers a digest of discussion board activity through the API.
+**Discussion board Instructor notifications:** Headless customers can send Instructors and cohort managers a digest of discussion board activity through the API. [Learn more](/help/migrated/discussion-board-instructor-notifications.md) 
 
-**Webhooks for Instructor edits to learning object instances:** The learning object instance modification webhook now also triggers when an Instructor edits a virtual classroom session.
+**Webhooks for Instructor edits to learning object instances:** The learning object instance modification webhook now also triggers when an Instructor edits a virtual classroom session. [Learn more](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md) 
 
-**Last access date for Learning Path enrollments:** You can attach custom metadata, such as a last access date, to a Learning Path enrollment through the API.
+**Last access date for Learning Path enrollments:** You can attach custom metadata, such as a last access date, to a Learning Path enrollment through the API. [Learn more](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment) 
 
 **Export Report Builder reports with the Job API:** A new Job API job type, `generateCustomReport`, exports any saved Report Builder report when you pass its report ID.
 
