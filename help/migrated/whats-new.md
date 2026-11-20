@@ -107,7 +107,7 @@ Authors create scenarios from their own reference materials using templates or a
 
 Virtual Coach supports nine languages and can be used as a standalone job aid or embedded within a course.
 
-[Learn more](/help/migrated/authors/feature-summary/what-virtual-coach-is.md)
+[Learn more](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## Learning path citations in Learner Assistant
 

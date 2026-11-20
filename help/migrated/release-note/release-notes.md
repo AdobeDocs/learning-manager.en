@@ -63,19 +63,19 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 >
 >The documentation for this feature will be made available shortly.
 
-**Virtual Coach:** Virtual Coach is an AI-powered role-play and coaching solution that allows Learners practice realistic workplace conversations. It supports nine languages and can be used as a standalone job aid or embedded within a course. [Learn more](/help/migrated/authors/feature-summary/what-virtual-coach-is.md) 
+**Virtual Coach:** Virtual Coach is an AI-powered role-play and coaching solution that allows Learners practice realistic workplace conversations. It supports nine languages and can be used as a standalone job aid or embedded within a course. [Learn more](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md) 
 
-**Live Hub:** Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers. [Learn more](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage-view-live-hub-usage)
+**Live Hub:** Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers. [Learn more](../administrators/feature-summary/billing-management.md)
 
-**Support for up to 5000 attendees in Live Hub**: Authors can now select a capacity of up to 5,000 attendees when adding a Virtual Classroom module. For large sessions, camera access, screen sharing, and whiteboard functionality are limited to Instructors. Breakout rooms are not available for these sessions. [Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
+**Support for up to 5000 attendees in Live Hub**: Authors can now select a capacity of up to 5,000 attendees when adding a Virtual Classroom module. For large sessions, camera access, screen sharing, and whiteboard functionality are limited to Instructors. Breakout rooms are not available for these sessions. [Learn more](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
-**Multilingual closed captions in Live Hub**: Instructors can now select the closed caption language from **Room settings**. All participants view captions in the language selected by the Instructor. [Learn more](./getting-started-with-live-hub/closed-captions-in-live-hub.md)
+**Multilingual closed captions in Live Hub**: Instructors can now select the closed caption language from **Room settings**. All participants view captions in the language selected by the Instructor. [Learn more](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
 
-**Group enrollment reservation and waitlist management:** Authors can allocate seats in Classroom and Virtual Classroom courses to specific user groups, set separate enrollment open dates for those groups and for all other Learners, and turn on automatic waitlist promotion with a cut-off date. [Learn more](./authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+**Group enrollment reservation and waitlist management:** Authors can allocate seats in Classroom and Virtual Classroom courses to specific user groups, set separate enrollment open dates for those groups and for all other Learners, and turn on automatic waitlist promotion with a cut-off date. [Learn more](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
 
-**Support for multiple Zoom connections:** Integration Administratoristrators can configure multiple Zoom connections in a single account and assign them to specific roles or user groups. Authors select from the connections available to them when they create or edit a session. [Learn more](./integration-admin/feature-summary/zoom-connector.md)
+**Support for multiple Zoom connections:** Integration Administratoristrators can configure multiple Zoom connections in a single account and assign them to specific roles or user groups. Authors select from the connections available to them when they create or edit a session. [Learn more](../integration-admin/feature-summary/zoom-connector.md)
 
-**Channels:** Channels are generally available for all customers. [Learn more](./administrators/feature-summary/create-channels.md)
+**Channels:** Channels are generally available for all customers. [Learn more](../administrators/feature-summary/create-channels.md)
 
 ## Enhancements in this release
 
@@ -190,7 +190,7 @@ This change affects customers who use disabled catalogs for non-logged-in experi
 
 **Live Hub accessibility:** Accessibility improvements address issues related to screen readers, keyboard navigation, closed captions, color contrast, and zoom and reflow, improving usability for participants.
 
-## Known issues
+### Known issues
 
 **Course overview page shows the wrong instance details for multi-instance courses**
 The course overview page may show the deadline, sessions, or enrollment count of an earlier instance instead of the current active instance.
