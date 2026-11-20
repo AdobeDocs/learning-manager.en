@@ -1,12 +1,12 @@
 ---
-title: Create a Live Hub (Beta) session
+title: Create a Live Hub session
 description: Learn how to create a Live Hub course, add course instances, assign Instructors with Instructor Finder, enroll Learners, and customize room branding.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
 ---
 
-# Create a Live Hub (Beta) session
+# Create a Live Hub session
 
 Use Live Hub to deliver live, instructor-led training within an Adobe Learning Manager course. You can combine Live Hub sessions with self-paced content to create a blended learning experience.
 
@@ -130,6 +130,46 @@ To add Instructors using Instructor Finder:
 1.  Review the list of recommended Instructors.
 
 1.  Navigate to the Instructor that you want to assign, and then select **Add**. <br> The selected instructor is added to the **Instructors** field as a tag.
+
+## Create a course for large session {#create-large-session}
+
+Live Hub supports large sessions of up to 5,000 attendees. When you create a course with this capacity, Live Hub automatically configures the room for a large audience and applies the corresponding feature restrictions.
+
+To create a large session:
+
+1. Login to the ALM as an **Author**.
+1. Select **Add** on the **Course catalog** page.
+1. Enter the course name and description.
+1. Select **Content** > **Add Modules** in the **Modules** section. The **Select Module Type** pop-up window appears.
+1. Select **Virtual Classroom** and enter the course details, including title, description, timezone, start and end date, and start and end time.
+1. Select **Live Hub** in **Live Virtual Training Tools**.
+1. Select **Enable 5000 attendee capacity**. If you don't enable this option, the session supports up to 1100 attendees.
+
+   ![Virtual Classroom dialog with Live Hub selected and the Enable 5000 attendee capacity option](assets/virtual-classroom-enable-5000-attendee-capacity.png "Virtual Classroom dialog with Live Hub selected and the Enable 5000 attendee capacity option")
+
+1. Select **Save** > **Publish**.
+
+### Features available in large sessions
+
+When an Instructor opens the session, the room settings show that large-session restrictions apply.
+
+|Feature|Behavior in a large session|
+|---|---|
+|**Attendees**|A large session supports up to 5,000 attendees. Once the session reaches this limit, additional attendees can't join.|
+|**Cameras**|Up to 10 Instructors can turn on their cameras simultaneously. Learners can't turn on their cameras. If the camera limit is reached, a message appears when another Instructor attempts to turn on their camera.<p>Camera requests made at the same time are processed as a batch. As a result, the number of active cameras may exceed the configured limit. However, the camera button tooltip continues to display the configured limit.|
+|**Microphones**|Up to 20 attendees can unmute their microphones simultaneously. If the microphone limit is reached, a message appears when another attendee attempts to unmute.<p>Microphone requests made at the same time are processed as a batch. As a result, the number of unmuted attendees can temporarily exceed the configured limit.|
+|**Breakout rooms**|The breakout room icon remains visible, but Instructors can't start breakout rooms. A message appears when they attempt to start one.|
+|**Screen sharing and whiteboard**|Only Instructors can share their screens and use the whiteboard. Instructors can't provide these permissions to learners.|
+|**Private chat**|Learners can send private messages to Instructors but can't send private messages to other learners.|
+|**Typing indicator**|The typing indicator doesn't appear in large sessions.|
+|**Chat, reactions, questions, and raised hands**|The system processes these interactions in batches, so they may appear after a short delay. Live Hub also groups reactions and displays a limited number at a time.|
+|**Chat history**|The system automatically removes older chat messages when the chat history becomes too large to maintain session stability.|
+|**Polls, quizzes, recording, and attendance**|These features work the same way as in regular sessions.|
+|**AI features**|<ul><li>The system detects questions in chat and displays them in the **Questions** panel, although they may appear after a short delay.</li><li>AI features associated with breakout rooms are unavailable because large sessions don't support breakout rooms.</li><li>Other AI features work the same way as in regular sessions.</li></ul>|
+
+>[!NOTE]
+>
+>Without the **Enable 5000 attendee capacity** option, a regular session supports up to 1,100 attendees, 50 cameras, and 20 unmuted participants.
 
 ## Enroll learners in the course
 

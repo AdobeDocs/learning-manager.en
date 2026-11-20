@@ -10,6 +10,10 @@ product_v2:
 
 Closed captions display spoken content as on-screen text, making a Live Hub session easier to follow, for example, if you're in a noisy environment or prefer reading along with the audio. You control your own captions from the closed captions (CC) button in the control bar. This guide explains how to display, adjust, and hide captions as a Learner.
 
+>[!NOTE]
+>
+>Captions display in the language the Instructor selected for the session.
+
 ## Display closed captions
 
 You can display closed captions in your own view during a session. The captions update in real time as participants speak, so you can follow the conversation as text. Each participant chooses whether to display captions based on their own preference.

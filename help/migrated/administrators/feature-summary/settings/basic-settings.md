@@ -239,6 +239,14 @@ See Product Terminology in Adobe Learning Manager for more information.
 
 When enabled, authors and instructors can record the number of instructional credits for each session or module. Credits represent the instructional time a learner will be credited for completing the activity. Credit values appear in learner transcripts, learning reports, and contribute to total duration calculations for Learning Paths. If you disable this setting, previously entered credit values are retained and restored if the setting is turned back on.
 
+### Group Enrollment
+
+Enable this setting to allow Authors to set enrollment opening dates and reserve seats for specific user groups in a course instance before general enrollment opens. If this setting is disabled, the Allocate seats per user group option is unavailable when configuring a course instance.
+
+### Safe Exam Browser integration
+
+Enable this setting to allow Authors to configure quizzes with Safe Exam Browser integration. To enable this integration, Administrators must upload the Safe Exam Browser configuration file for their cluster or environment. If this setting is disabled, the Safe Exam Browser option is unavailable to Authors when configuring quizzes.
+
 ### Module Version Update
 
 This option allows administrators to update the content of a module without disrupting the progress of learners who are already enrolled in courses containing that module. This ensures that learners can continue their learning journey smoothly while authors can keep the content up-to-date. With the option enabled, authors can upload a new version of a module (for example, SCORM, AICC, or xAPI packages) to replace the existing one.
@@ -307,7 +315,7 @@ This option allows you to customize the footer section of the learner app by add
 
 Here's how you can customize the footer links:
 
-1. **[!UICONTROL Add links]**: Select **[!UICONTROL Add More]** and enter the name and the URL or email ID in the specified fields. Ensure the URL is prefixed with http:// or https://.
+1. **[!UICONTROL Add links]**: Select **[!UICONTROL Add More]** and enter the name and the URL or email ID in the specified fields. Ensure the URL is prefixed with `http://` or `https://`.
 2. **[!UICONTROL Replicate across locales]**: Select **[!UICONTROL Replicate]** to cascade the changes across all locales, ensuring all languages get the same name and URL.
 3. Select **[!UICONTROL Save]** to apply the changes.
 
@@ -390,6 +398,48 @@ When courses are chargeable, authors can specify the course, Learning Path, or c
 >
 >Certain types of training, such as recurring certifications and manager-approved courses, cannot be purchased.
 
+## Turn on automatic team formation in Adobe Learning Manager
+
+Turn on automatic team formation in the administrator settings, so Adobe Learning Manager groups enrolled learners into teams before each course instance starts.
+
+This setting is optional. Team submissions work without it, and instructors can create teams manually.
+
+When you turn on this account setting, Adobe Learning Manager automatically groups enrolled learners into teams a set number of days before the start of each course instance. The setting is off by default. Authors can adjust the schedule for their courses, and instructors can still create teams manually.
+
+### Turn on automatic team formation
+
+1. In the administrator app, select **Settings** > **General**.
+
+1. In **Auto team formation for team based submissions section**, select **Edit**. The option remains disabled by default.
+
+   ![Auto team formation section in General settings](assets/Group-Team-submission-and-rubric-based-assessments-image1.png "Auto team formation section")
+
+1. Select the **Enable** checkbox.
+
+   ![Enable checkbox for automatic team formation](assets/Group-Team-submission-and-rubric-based-assessments-image2.png "Enable checkbox")
+
+1. Under **Team formation schedule**, enter the number of days in the **Create teams** field. The value must be 0 or higher. This field is required.
+
+   ![Create teams field in the team formation schedule](assets/Group-Team-submission-and-rubric-based-assessments-image3.png "Team formation schedule")
+
+1. Select **Save**.
+
+The setting works only for courses that have a team-based file submission module and an instance start date.
+
+## How changes affect courses
+
+When you change this setting, the change applies only to courses that you create after you save it. Courses that already exist keep the configuration they were published with, whether automatic team formation was on or off, and they keep their schedule. For example, if you turn the setting on in March, courses created in February don't get it, and courses created in March or later do.
+
+Adobe Learning Manager doesn't apply the change to existing courses because that could disrupt the authors, instructors, and learners who are already working with those courses. Authors and instructors can continue with the configuration the course was published with. If someone needs a different configuration, they can create a new course and let the people involved know what is changing.
+
+You can change the setting at any time. Whatever you choose applies to all courses created after that, until you change it again. This lets you set the policy that suits your organization.
+
+* If you turn the setting off, courses that already use automatic team formation keep working as configured.
+* Teams that were already formed stay in place, and instructors can still edit them.
+* When authors create a new course, they can adjust the schedule for that course. View how authors set team rules.
+
+After you turn the setting off, teams that were already formed stay in place. Instructors can still edit them.
+
 ### Enable Multi Item SKU Cart
 
 This option allows learners to add multiple training items (courses, Learning Paths, certifications) to a shopping cart and purchase them together. This feature is part of the eCommerce functionality integrated with Adobe Commerce.
@@ -399,7 +449,7 @@ This feature is particularly useful for organizations that sell multiple trainin
 **Key features:** 
 
 * Multiple purchases: Learners can add multiple items to their cart and purchase them in one transaction. See Multi-item cart for more information.
-*Streamlined checkout: Reduces the need for learners to make separate purchases for each training item. 
+* Streamlined checkout: Reduces the need for learners to make separate purchases for each training item. 
 * SKU management: Administrators can manage SKUs for courses, learning paths, and certifications to ensure proper tracking and reporting.
 
 ### Alternate Courses/Paths
@@ -570,7 +620,9 @@ After enabling the feature, configure which fields appear on the learner submiss
 
 5. Select **Save**.
 
-**Note:** The **Title** field is always required and cannot be hidden or made optional.
+>[!NOTE]
+>
+>The **Title** field is always required and cannot be hidden or made optional.
 
 The learner submission form immediately reflects your changes. Existing submissions are not affected by form configuration changes.
 
@@ -630,10 +682,10 @@ Managers can mark course completion via:
     b.    Select the learner whose attendance you want to mark. 
     c.    Select **[!UICONTROL Actions]** > **[!UICONTROL Mark Completion]**. 
 
-**Additional notes:**
-
-* Managers can also export the learners list for reporting purposes. 
-* If a course includes multiple instances, managers can view and manage learners separately for each instance.
+>[!NOTE]
+>
+> Managers can also export the learners list for reporting purposes. 
+> If a course includes multiple instances, managers can view and manage learners separately for each instance.
 
 ### Retire
 
@@ -652,6 +704,24 @@ This option allows authors to retire training content (courses, learning paths, 
         ii. They will no longer be able to view or perform any actions on the retired content.
     b. Not yet enrolled learners:
         i. Learners who have not enrolled in the course or learning path will also lose access, as the content will no longer appear in the catalog.
+
+### Retiral impact on higher-order learning objects {#retiral-impact-ho-lo}
+
+The **Retiral impact on higher-order learning objects** setting controls what happens to a Learning Path or Certification when one of its courses or nested Learning Paths is retired. It applies only to higher-order learning objects — Learning Paths and Certifications. Select one of the following options:
+
+* **Block new enrollments to higher-order learning objects that contain the retired learning object.**  
+ 
+    When a lower-order learning object is retired, any Learning Path or Certification that contains it becomes unavailable for new enrollments. Learners who are already enrolled retain access to the retired learning object within the higher-order learning object and can continue and complete it. 
+ 
+* **Remove the retired learning object from Learning Paths and Certifications that contain it, keeping them available for new enrollments.** 
+ 
+    When a lower-order learning object is retired, it is removed from the Learning Paths and Certifications that contain it, exactly as if it had been removed manually. The higher-order learning object stays available for new enrollments, and new learners see it as though the retired object was never part of it. Already-enrolled learners continue without the retired object, with their existing progress preserved in the Learner Transcript and completion percentages recalculated accordingly. Learners who have already completed the higher-order learning object keep their completion and final grade. 
+
+    If retiring a learning object would leave the higher-order learning object with no remaining content (for example, when all of its learning objects, or all of its required learning objects, are retired), the object is not removed and the higher-order learning object is blocked from new enrollments. 
+
+>[!NOTE]
+>
+>Removal does not apply to recurring Certifications, which remain unchanged on retiral.
 
 ### Auto Retire
 

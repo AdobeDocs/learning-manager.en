@@ -47,7 +47,11 @@ The **Account details** card at the top of the **Subscription** tab displays fou
 
 **Licenses**
 
-The **Licenses** section lists every active license or entitlement on the account. Each block shows the license name, a plan description where applicable, and a stats row showing consumption figures for the current contract period.
+The **Licenses** section lists every active license or entitlement on the account, including Live Hub training hours for Ultimate plans. Each block shows the license name, a plan description where applicable, and a stats row showing consumption figures for the current contract period.
+
+>[!IMPORTANT]
+>
+> Live Hub is in Beta for Prime customers.
 
 Stats row columns vary by license type:
 
@@ -62,6 +66,7 @@ Select **[!UICONTROL View Usage Details]** below the stats row to expand an inli
 - An **Overall Usage** table with columns: Purchased / Used by this Account / Used by Peer Accounts / Remaining
 - A **View Account Breakup** link to see usage distributed across individual peer accounts
 - A **Download Detailed Report** link to export usage data as a file
+- On the Live Hub tab, your Live Hub training-hour usage in hours. View [Live Hub training hours] for more information. 
 
 **Agent Orchestrator license block**
 
@@ -270,6 +275,91 @@ Any user who performs the following actions or achieves completions due to actio
    - **Overall usage:** You can check the total number of active users, users who are consuming Learning Manager in a month, and the number of users who have not yet signed up for any course.
    - **Monthly usage:** You can see a table of unique active users per month.
 
+## Live Hub training hours {#live-hub-training-hours}
+
+Live Hub is included with Ultimate subscription plans and doesn't require a separate Live Hub base license or activation. Live Hub usage is measured in training hours, which Administrators can track from the **Billing** page.
+
+### Subscription plan training hours {#subscription-plan-training-hours}
+
+The number of Live Hub training hours available depends on your subscription plan.
+
+|Plan|Included training hours|
+|---|---|
+|Ultimate|Unlimited. Usage is still recorded and displayed.|
+|Free trial|100 hours for the whole trial. The balance doesn't reset during the trial.|
+
+### Live Hub session limits {#live-hub-session-limits}
+
+Ultimate plans provide the same Live Hub features and session limits:
+
+* Only Administrators, Authors, and Instructors can launch Live Hub sessions.
+* Attendees must be authenticated Adobe Learning Manager users, either through native authentication or Single Sign-On (SSO).
+* A session can last up to eight hours. You can extend the session twice, in 15-minute increments, for up to 30 additional minutes.
+
+### How training hours are calculated {#how-training-hours-are-calculated}
+
+Training hours are calculated based on the scheduled duration of a Live Hub session, not the actual time the session runs.
+
+Consider the following when calculating training-hour usage:
+
+* If a session ends early, its full scheduled duration is counted.
+* A session canceled before its scheduled start time isn't counted. If you cancel the session after it starts, the scheduled duration is counted even if no attendees join.
+* Each occurrence of a recurring session is counted separately.
+* A duplicated session is counted as a separate session.
+* If you change the start or end time of a delivered session and reuse it, the reused session is counted as a separate occurrence.
+* Breakout rooms and session extensions don't add to the training-hour usage.
+* Sessions delivered through other connectors, such as Zoom or Microsoft Teams, aren't counted toward Live Hub training hours.
+* If you move a scheduled session to a different licensing year, its training hours count toward the licensing year in which it is now scheduled.
+* Training hours aren't rounded. For example, a 90-minute session counts as 1.5 training hours.
+
+#### Sessions spanning multiple days {#sessions-spanning-multiple-days}
+
+For sessions spanning more than one day, each complete 24-hour period counts as **eight training hours**. Any remaining duration is counted at its actual length, up to eight hours.
+
+For example:
+
+* A 30-hour session spread across two days counts as 14 training hours, with eight hours counted for the first 24-hour period and six hours for the remaining duration.
+* A 10-hour session spread across two days counts as eight training hours.
+
+### View your Live Hub usage {#view-live-hub-usage}
+
+1. Sign in to Adobe Learning Manager as an Administrator.
+1. Select **Billing**.
+1. Navigate to **Licenses** in the **Subscription** tab.
+1. Select **View Usage Details**.
+
+   The **Usage Details** section appears.
+
+   ![Usage Details section in the Billing page](assets/billing-usage-details.png "Usage Details section in the Billing page")
+
+1. Select the **Live Hub** tab.
+
+   The **Live Hub usage (in hrs)** section shows the following:
+
+   |Field|Description|
+   |---|---|
+   |**Purchased**|The training hours available to the account, which is Unlimited for Ultimate customers.|
+   |**Used by this Account**|Training hours counted so far in the current licensing period.|
+   |**Remaining**|Training hours left. Shows Unlimited for Ultimate accounts.|
+   |**Next reset**|The date when the balance resets for the next licensing year.|
+
+### When all training hours are used {#when-all-training-hours-are-used}
+
+Reaching the available training-hour limit doesn't prevent you from using Live Hub. Free trial accounts can also continue using Live Hub after consuming their 100 training hours.
+
+* **Administrators:** An overuse warning appears on the **Billing** page along with other licensing warnings.
+* **Authors:** No training-hour warning appears when scheduling Live Hub sessions.
+* **Ultimate accounts:** No overuse warning appears because training hours are unlimited.
+* **MAU parent and sub-accounts:** A single warning appears at the parent-account level. See [MAU parent and sub-accounts](#mau-parent-and-sub-accounts) for more information.
+
+To purchase additional training hours, contact learningmanagersales@adobe.com.
+
+### MAU parent and sub-accounts {#mau-parent-and-sub-accounts}
+
+For Monthly Active User (MAU) accounts with an established parent–sub-account relationship, the parent account's entire Live Hub training-hour entitlement is available to its child accounts. This shared pool includes the parent's included training hours and any purchased add-on hours. Child accounts don't receive a separate allocation or cap of Live Hub hours.
+
+Live Hub hours used by the parent and its MAU child accounts are deducted from the same parent pool. The parent's **Billing** page shows pooled entitlement, consumption, remaining hours, and usage by sub-account. See [Peer accounts](../feature-summary/peer-account.md) for more information.
+
 ## Download usage report {#downloadusagereport}
 
 You can also download the data of the number of active users by month and year. To download, click **[!UICONTROL Download Detailed Report]**.
@@ -418,6 +508,38 @@ Contact [FastSpring](https://fastspring.com/) to get an invoice for your payment
 
 - Create a service request with FastSpring using the link `https://questionacharge.com`.
 - Send an email to FastSpring on `orders@fastspring.com` requesting for the invoice.
+
+**Does Live Hub licensing apply to Prime customers?**
+
+No. Live Hub is currently in Beta for Prime accounts, so training-hour licensing and usage tracking don't apply to Prime customers during the beta period. These requirements will apply to Prime accounts once Live Hub exits Beta. For Ultimate accounts, training-hour licensing and usage tracking are applicable.
+
+**Do I need to purchase Live Hub separately?**
+
+No. Live Hub is included with Ultimate subscription plans and doesn't require separate activation. The Ultimate plan includes unlimited training hours.
+
+**Is a canceled Live Hub session counted toward my training hours?**
+
+It depends on when you cancel the session. A session canceled before its scheduled start time isn't counted. If you cancel a session after it starts, its full scheduled duration is counted, even if no attendees join.
+
+**What happens when I use all my Live Hub training hours?**
+
+Live Hub remains available after you use all your training hours. Free trial accounts can continue to schedule and conduct Live Hub sessions. Administrators see an overuse warning on the **Billing** page. To purchase additional training hours, contact learningmanagersales@adobe.com.
+
+**Do unused training hours or add-on hours carry forward?**
+
+No. Unused included training hours don't carry forward to the next licensing year. Add-on training hours also expire at the end of the current licensing period for your base plan.
+
+**Can I purchase the training-hour add-on with a credit card?**
+
+No. Training-hour add-ons are available only through Adobe Sales. To purchase additional training hours, contact learningmanagersales@adobe.com.
+
+**How many add-on training hours does a Live Hub provide?**
+
+You can't currently purchase additional training hours.
+
+**Can MAU sub-accounts use their parent account's Live Hub training hours?**
+
+Yes. MAU sub-accounts share the parent account's Live Hub training-hour pool. Each sub-account can access the entire available pool without a separate allocation. Training hours consumed by sub-accounts are deducted from the parent account's shared balance.
 
 
 <!--

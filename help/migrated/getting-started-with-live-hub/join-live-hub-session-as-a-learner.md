@@ -6,7 +6,7 @@ product_v2:
     internal-label: Learning Manager
 ---
 
-# Join a Live Hub (Beta) session as a Learner
+# Join a Live Hub session as a Learner
 
 Learners join a Live Hub session directly from the course they are enrolled in. Once you join, you take part in the live training through chat, polls, quizzes, whiteboards, and breakout rooms.
 

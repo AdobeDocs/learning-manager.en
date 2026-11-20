@@ -10,7 +10,26 @@ product_v2:
 
 Closed captions display spoken content as on-screen text, making a Live Hub session easier to follow, for example, while you're presenting, responding to participant questions, or working in a noisy environment. As an Instructor, you can manage your own closed captions from the room **More actions** menu.
 
-This article explains how to display, customize, and hide closed captions during a Live Hub session.
+This article explains how to select the caption language, display closed captions, and change their appearance during a Live Hub session.
+
+## Select the caption language
+
+Select the language used to display captions during the session. All participants see captions in the selected language.
+
+>[!NOTE]
+>
+>AI-powered features are available only for courses in English. If the course language is set to another language, the **Captions** tab indicates that AI-powered features are unavailable.
+
+To select the caption language:
+
+1. Select **More actions** from the control bar.
+1. Select **Settings**.
+
+   The Room settings dialog opens.
+
+1. Select **Captions**.
+1. Select a language from the Captions display language drop down menu.
+1. Select **Done**.
 
 ## Display closed captions
 

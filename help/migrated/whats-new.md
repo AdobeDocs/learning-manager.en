@@ -10,11 +10,7 @@ product_v2:
 
 # What's new in Adobe Learning Manager December 2026 release
 
->[!IMPORTANT]
->
->Beta features may contain defects and are provided "AS IS" without warranty of any kind. Adobe has the sole discretion whether to make beta features generally available. Adobe has no obligation to maintain, correct, update, change, modify or otherwise support (by way of Adobe Support Services or otherwise) the beta features. Should a beta feature become generally available, it may be subject to additional terms and conditions, including applicable fees. Beta features are subject to change without notice, including discontinuation. Customers are advised to use caution and not to rely in any way on the uninterrupted or error-free functioning or performance of the beta features. Accordingly, any use of the beta features is entirely at the Customer's own risk. Product capabilities and related documentation may change as the feature evolves. This documentation reflects the current beta experience and should not be considered final or complete product documentation.
-
-This release of Adobe Learning Manager introduces a variety of new features and enhancements aimed at streamlining the platform and expanding its capabilities. These updates simplify everyday workflows, improve how learning content is organized and delivered, and make the overall experience more consistent and intuitive.
+The upcoming release of Adobe Learning Manager introduces a variety of new features and enhancements aimed at streamlining the platform and expanding its capabilities. These updates simplify everyday workflows, improve how learning content is organized and delivered, and make the overall experience more consistent and intuitive.
 
 ## Report Builder charts and dashboards
 
@@ -30,11 +26,15 @@ Report Builder supports the following chart types:
 
 A report dashboard holds charts built from one report. A custom dashboard combines charts from several reports, such as enrollment and user data, and supports up to 20 widgets. Charts that belong to a report are shared when you share the report. This helps Administrators keep current report data in one view instead of rerunning reports. Charts display up to 10,000 data points, and pivot tables show up to 100 rows and 100 columns. If a chart exceeds a limit, apply filters to narrow the results. Dashboards can't be exported yet.
 
+[Learn more](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+
 ## Insights Agent reports in Report Builder
 
 Administrators can now continue working with Insights Agent answers in Report Builder. When Insights Agent answers a question, Report Builder maps the same query to its own fields in a parallel step. Administrators can open, review, edit, and save the report. From there you can use the same Report Builder capabilities as any other report, such as subscriptions.
 
 If part of a question can't be expressed with Report Builder fields, the report lists that part as a gap. If the missing part is central to the question, the report isn't offered. Complex queries can produce reduced results, so review each report before you rely on it.
+
+[Learn more](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
 
 ## Adobe Experience Manager Assets integration
 
@@ -48,6 +48,8 @@ What it changes:
 
 The result is a single, governed path from asset to Learner, with less manual work and fewer version mismatches.
 
+[Learn more](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
+
 ## File submission enhancements
 
 File submission modules now support team submissions and rubric-based evaluation. A new setting also controls whether Instructor approval is required for submissions.
@@ -58,9 +60,9 @@ Instructors can now create teams for file submissions. Each team submits one fil
 
 Instructors manage teams on a new **Teams management** page and review work on a team submissions page. Instructors can also unsubmit an approved submission to unlock the team when changes are required, such as when a team member leaves. A team holds up to 100 members. Learners can view their team, its members, and the evaluation result. Team modules can't be added or deleted after a course is published.
 
-### Rubric-based assessments
+### Rubric-based assessments (Evaluation Plan)
 
-Authors can now define a rubric, called an evaluation plan, for file submission modules. A rubric supports objective questions with scored options and subjective questions with written review.
+Authors can now define a rubric, called an Evaluation Plan, for file submission modules. A rubric supports objective questions with scored options and subjective questions with written review.
 
 Authors can also configure the following settings:
 
@@ -71,7 +73,7 @@ Each question can be marked as required and configured to allow reviewer remarks
 
 ### Instructor approval or automatic completion
 
-Authors can now choose whether file submissions require Instructor approval or are completed automatically. This setting is independent of the evaluation plan.
+Authors can now choose whether file submissions require Instructor approval or are completed automatically. This setting is independent of the Evaluation Plan.
 
 ## Model Context Protocol server for Learner Assistant
 
@@ -88,11 +90,14 @@ The server provides the following capabilities:
 
 Administrators can edit each tool description to add organization-specific examples. Clients read the authorization details from the server metadata, so setup needs only a client ID and client secret.
 
-## Personalized Learning Path editing and branding strips
+[Learn more](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-Learners can now remove suggested topics or courses in a single step, in addition to the existing option to refine topic and course lists through chat.
+## Personalized learning path editing and branding strips
 
-Administrators can now reposition the Personalized Learning Paths strip on the Learner home page through the Branding page.
+* Learners can now remove suggested topics or courses in a single step, in addition to the existing option to refine topic and course lists through chat.
+* Administrators can now reposition the personalized learning paths strip on the Learner home page through the Branding page.
+
+[Learn more](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
 ## Practice skills with role-play in Virtual Coach
 
@@ -102,9 +107,11 @@ Authors create scenarios from their own reference materials using templates or a
 
 Virtual Coach supports nine languages and can be used as a standalone job aid or embedded within a course.
 
-## Learning Path citations in Learner Assistant
+[Learn more](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
-Learner Assistant answers now cite the Learning Path that contains a source course, along with the course itself. Learners open either the course overview or the Learning Path page from the citation. Answers drawn from a job aid include a download link. This helps Learners find the training that answers their question.
+## Learning path citations in Learner Assistant
+
+Learner Assistant answers now cite the learning path that contains a source course, along with the course itself. Learners open either the course overview or the learning path page from the citation. Answers drawn from a job aid include a download link. This helps Learners find the training that answers their question.
 
 ## AI Assistant configurations
 
@@ -128,7 +135,7 @@ Adobe Learning Manager now marks attendance when a Learner plays the recording o
 
 ## Email Builder for courses and instances
 
-Email Builder in Adobe Learning Manager allows Administrators and Authors to create branded Learner communication templates. In the December 2026 release of Learning Manager, the full Email Builder experience is available for course-level and instance-level emails. Authors can customize these emails while inheriting the layouts and formatting that Administrators define.
+Email Builder in Adobe Learning Manager lets administrators and authors create branded learner communication templates. In the December 2026 release of ALM, the full Email Builder experience is available for course-level and instance-level emails. Authors can customize these emails while inheriting the layouts and formatting that administrators define.
 
 With Email Builder, you can:
 
@@ -142,42 +149,44 @@ Administrators create account-wide email templates and layouts. Authors customiz
 
 Banner and signature settings have moved. Earlier, these settings appeared on a separate **Settings** tab. That tab is removed, and **Banner** and **Signature** now appear in **Global Layout**.
 
-### Email Builder hierarchy
+With Email Builder, you can add email titles with the Title variable.
+
+[Learn more](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
+### How the Email Builder hierarchy works
 
 Email Builder uses a hierarchy. Each level inherits from its parent level and allows local customization.
 
-| **Level**         | **What it provides**                                                                                                | **Who customizes it** |
-|-------------------|---------------------------------------------------------------------------------------------------------------------|-----------------------|
-| Account layout    | Branding, fonts, colors, and header and footer structure                                                            | Administrators        |
-| Account template  | Global email styling, common messaging components, and shared branding                                              | Administrators        |
-| Course template   | Course-specific emails, such as enrollment messages, course reminders, completion emails, and session notifications | Authors               |
-| Instance template | The highest level of customization, such as cohort-specific, session-specific, or regional messages                 | Authors               |
+| **Level** | **What it provides** | **Who customizes it** |
+|----|----|----|
+| Account layout | Branding, fonts, colors, and header and footer structure | Administrators |
+| Account template | Global email styling, common messaging components, and shared branding | Administrators |
+| Course template | Course-specific emails, such as enrollment messages, course reminders, completion emails, and session notifications | Authors |
+| Instance template | The highest level of customization, such as cohort-specific, session-specific, or regional messages | Authors |
 
 All courses can inherit from account templates. Course emails inherit the organization's layout and allow content customization.
 
-### Layout inheritance
+### About layout inheritance
 
-A template links to the nearest available layout. An instance-level template links to an instance-level layout if one exists. If none exists, the template links to the nearest parent layout. You can view which level a layout comes from.
+A template links to the nearest available layout. An instance-level template links to an instance-level layout if one exists. If none exists, the template links to the nearest parent layout. You can see which level a layout comes from.
 
 When a template is linked to a layout:
 
-* Branding flows into the template automatically.
-* Authors update only the content.
-* The layout reduces duplication across messages.
+* Branding flows into the template automatically
+* Authors update only the content
+* Duplication is reduced across messages
 
 You can unlink a template from its layout. After you unlink a template:
 
-* The template keeps its existing design.
-* Future layout updates don't affect the template.
-* The template becomes independently editable.
+* The template keeps its existing design
+* Future layout updates don't affect the template
+* The template becomes independently editable
 
-Layout inheritance depends on the parent layouts that are available. When both levels exist, instance-level emails override course-level templates.
+Layout inheritance depends on the parent layouts that are available. When both exist, instance-level emails override course-level templates.
 
-### Administrator and Author workflow
+### How administrators and authors share the work
 
-Admins use account-level templates to keep messages consistent across the account, which they manage by creating a layout and a template, then publishing the branding.
-
-Authors use instance-level templates when cohorts need different messages, which they manage through course instances.
+Administrators create an account layout, create an account template, and publish the branding. Authors then inherit the layout, customize the course email, save the template, and publish the course. Authors use instance-level templates when cohorts need different messages, which they manage through course instances.
 
 ### Availability of Email Builder for course and instance emails
 
@@ -191,7 +200,7 @@ Adobe Learning Manager now reads custom Learner attributes through the optional 
 
 Headless customers can now send Instructors and cohort managers a digest of discussion board activity. Using the API, you add subscribers to a board. They receive new posts, comments, and replies in a single email, at an interval you set. Likes and dislikes aren't included. You turn on the feature through the API.
 
-## Relevance ranking in Administrator catalog search
+## Relevance ranking in admin catalog search
 
 Catalog search in the admin view now ranks results by relevance, using the same search service as Learner and admin search elsewhere. An exact match, such as a catalog name with a specific date, appears first, followed by partial matches. The suggestion list while typing follows the same order.
 
@@ -234,9 +243,9 @@ Long names can be wider than the space available in some parts of the interface.
 
 To view the full name, hover over the shortened name.
 
-## Badge information for courses and Learning Paths
+## Badge information for courses and learning paths
 
-When Authors add a course or Learning Path, a window lists existing courses and Learning Paths with badge information. The window shows the name, type (course or Learning Path), publication status, and course format, such as self-paced, virtual, classroom, or blended.
+When Authors add a course or learning path, a window lists existing courses and learning paths with badge information. The window shows the name, type (course or learning path), publication status, and course format, such as self-paced, virtual, classroom, or blended.
 
 ## Non-logged-in enhancements
 
@@ -248,7 +257,7 @@ Visitors to your public academy can now play selected content straight from the 
 
 * **Turn non-logged-in access on or off:** Administrators can turn non-logged-in content consumption on or off for the whole account. 
 * **Make courses or modules available without logging in:** Authors can make an entire course available without login, or open up only specific modules, such as a free introductory module ahead of gated advanced content. 
-* **Inherit settings from courses:** Learning Paths and certifications follow the settings of the courses inside them, with no extra setup.
+* **Inherit settings from courses:** Learning paths and certifications follow the settings of the courses inside them, with no extra setup.
 * **View content without logging in:** Unauthenticated Learners can view available non-logged-in content without logging in to their account.
 * **Self-paced content only:** Third-party licensed content and acquired catalog content can't be made available without login.
 * **Reports on anonymous consumption:** A report on monthly non-logged-in consumption can be generated. 
@@ -266,15 +275,15 @@ Adobe Learning Manager can now make your public academy discoverable by search e
 * Each academy gets its own sitemap and robots.txt, generated automatically from the catalogs you've made public.
 * Pages are prerendered for crawlers, so AI assistants that don't run JavaScript can still read them.
 * Crawlers only ever see what a visitor could access. Gated content is never exposed.
-* Meta title, description, and structured data: Adobe Learning Manager generates them automatically for every course, Learning Path, and certification, based on learning metadata. 
+* Meta title, description, and structured data: Adobe Learning Manager generates them automatically for every course, learning path, and certification, based on learning metadata. 
 
 >[!NOTE]
 >
 >AI and search discovery on native Adobe Learning Manager requires a custom domain. Headless deployments will need to implement parts of the setup in their own environment.
 
-## Retire a course without making a Learning Path inaccessible
+## Retire a course without making a learning path inaccessible
 
-A retired course or nested Learning Path is removed from the higher-level learning object, which stays open for new enrollments. Retiring a course no longer makes the Learning Path inaccessible.
+A retired course or nested learning path is removed from the higher-level learning object, which stays open for new enrollments. Retiring a course no longer makes the learning path inaccessible.
 
 ## Non-logged-in page URL for self-registration profiles
 
@@ -282,11 +291,11 @@ Self-registration profiles let external users, such as partners or members of mu
 
 When users select **Sign up** from a page reached through that URL, they're added to the profile the URL belongs to. This keeps users from different organizations, such as separate agencies or partner companies, in separate profiles.
 
-## Store last access dates for Learning Path enrollments
+## Store last access dates for learning path enrollments
 
-Adobe Learning Manager now allows you to attach custom metadata, such as a last access date, to a Learning Path enrollment. You set and read it through the API, which helps you track time-bound access to the Learning Paths you assign.
+Adobe Learning Manager now allows you to attach custom metadata, such as a last access date, to a learning path enrollment. You set and read it through the API, which helps you track time-bound access to the learning paths you assign.
 
-Course enrollments already support a last access date through the API, which controls how long a Learner can access the course. Learning Path enrollments now offer a generic metadata field, so you can store a last access date or any other value you want to track.
+Course enrollments already support a last access date through the API, which controls how long a Learner can access the course. Learning path enrollments now offer a generic metadata field, so you can store a last access date or any other value you want to track.
 
 ## Export Report Builder reports with the Job API
 
@@ -301,13 +310,15 @@ Existing job types, including `generateQuizReport`, are unchanged.
 
 ## Column heading changes in downloaded reports
 
-Report Builder now includes the dataset name in default column headings of downloaded reports, so Name from the Learning Object dataset appears as **Learning Object - Name** instead of **Name**. For aggregated columns, the heading also includes the function, such as **Count of Learning Object - ID**. If you enter a custom name in a column's **Alias** field, that alias is used as the heading and stays unchanged. 
+Report Builder now includes the dataset name in default column headings of downloaded reports, so Name from the Learning Object dataset appears as **Learning Object - Name** instead of **Name**. For aggregated columns, the heading also includes the function, such as "**Count of Learning Object - ID**." If you enter a custom name in a column's **Alias** field, that alias is used as the heading and stays unchanged. 
 
 After the upgrade, existing reports without custom aliases show the updated headings, while report data, filters, and schedules aren't affected. If your scripts, spreadsheets, business intelligence dashboards, or integrations reference columns by heading, update them to the new names, or set a custom alias to keep a specific heading.
 
 ## Live Hub
 
 Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers.
+
+[Learn more](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage-view-live-hub-usage)
 
 ## Multilingual support for closed captions in Live Hub
 
@@ -316,6 +327,8 @@ Closed captions in Live Hub have been enhanced to support additional languages. 
 Captions are generated automatically in the selected language and displayed in a dedicated panel that updates continuously as the Instructor speaks. All participants view captions in the language selected by the Instructor.
 
 This enhancement improves accessibility for participants across different languages and helps them follow live sessions more effectively.
+
+[Learn more](./getting-started-with-live-hub/closed-captions-in-live-hub.md)
 
 ## Localized Live Hub interface and recording player
 
@@ -336,13 +349,19 @@ In large sessions, the following capabilities and behaviors apply:
 
 This allows organizations to run large training sessions within the same platform, with a room that can be set to the expected audience size.
 
+[Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
+
 ## Channels
 
 Channels are now generally available for all customers.
 
+[Learn more](./administrators/feature-summary/create-channels.md)
+
 ## Group enrollment reservation and waitlist management
 
 Group enrollment reservation and waitlist management give Authors finer control over who can enroll in Classroom and Virtual Classroom courses. Authors can allocate seats to specific user groups and set separate enrollment open dates for those groups and for all other Learners. They can also turn on automatic waitlist promotion with a cut-off date, so an available seat goes to the next eligible Learner. Reserving all seats restricts a course to the selected groups.
+
+[Learn more](./authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
 
 ## Support for multiple Zoom connections
 
@@ -357,6 +376,8 @@ This enhancement provides greater flexibility for organizations that use multipl
 * **Controlled access**: Restrict the availability of Zoom connections based on roles or user groups, ensuring Authors can select only the connections assigned to them.
 * **Simplified connection management**: Enable Integration Administrators to centrally manage multiple Zoom connections without affecting existing sessions.
 
+[Learn more](./integration-admin/feature-summary/zoom-connector.md)
+
 ## Safe Exam Browser integration for quizzes
 
 Adobe Learning Manager now integrates with Safe Exam Browser for native quizzes, providing a secure, controlled environment for conducting assessments. Administrators can enable the integration at the account level and upload a Safe Exam Browser configuration file (.seb) to define the assessment restrictions. Authors can then choose which individual quizzes require Safe Exam Browser.
@@ -369,6 +390,8 @@ When Learners attempt a quiz that requires Safe Exam Browser, they're prompted t
 * **Compliance training:** Support controlled assessments for mandatory training and regulatory requirements.
 * **High-stakes evaluations:** Reduce opportunities to access unauthorized applications or resources during important assessments.
 * **Flexible assessment management:** Allow Authors to require Safe Exam Browser only for quizzes that need additional restrictions.
+
+[Learn more](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
 
 ## Accessibility fixes in Live Hub
 
@@ -401,9 +424,9 @@ This release includes new APIs that support discussion board Instructor notifica
 
 The enrollments API now supports multi-enrolled instances in the Learner app. Add the optional `includeMultiInstanceEnrollments=true` parameter to `GET /enrollments` to include them. The default is `false`, so existing integrations, including headless implementations, keep working unchanged.
 
-### Last access date for Learning Paths enrollment
+### Last access date for learning path enrollment
 
-You can now store custom metadata, such as a last access date, on a Learning Path enrollment and set and read it through the API. This helps you track time-bound access to the Learning Paths you assign.
+You can now store custom metadata, such as a last access date, on a learning path enrollment and set and read it through the API. This helps you track time-bound access to the learning paths you assign.
 
 * Set the metadata on an existing enrollment or when you enroll a Learner, using an admin token.
 * Read it with an admin or Learner token.
@@ -433,3 +456,5 @@ Use the APIs in this sequence:
 **Authentication and permissions**
 
 These APIs use session-based authentication and require the user to log in as an Integration Admin in Adobe Learning Manager.
+
+[Learn more](./api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)

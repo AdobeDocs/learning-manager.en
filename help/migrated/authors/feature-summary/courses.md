@@ -49,7 +49,7 @@ To create a course, follow the steps below:
 1. Log in to Adobe Learning Manager as an Author, as only authors have the rights to create courses. Now, on the Home page, select **[!UICONTROL Create Courses]**. The Courses Catalog page opens and a list of courses appear.
 2. Select **Add** on the upper right. A page opens to create a new course.
 3. Enter a name for the course and a short description. This description is displayed on the course card. This description must not be more than 140 characters. Then enter the detailed overview for the course, which is displayed on the Course Details page. The description must not exceed 1500 characters.
-4. To make your course available in other languages, click Add New Language from the upper-left corner of the page. Select the language or languages in which you want to make your course available. Click **[!UICONTROL Save]**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
+4. To make your course available in other languages, select **Add New Language** from the upper-left corner of the page. Select the language or languages in which you want to make your course available. **Select** **[!UICONTROL Save]**. For more information, see [Add content for different languages](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modify course settings**-
 
    a. On the Course Settings page, choose a skill for the course. From the Skill drop-down list, choose the required skill. Then, from the Level drop-down list, choose the required level.
@@ -147,6 +147,124 @@ After enabling Gradebook, add your content modules and assign a weightage percen
 >
 >The scoring scale does not need to match across delivery types. A classroom session scored out of 100 and a SCORM module scored out of 10 can coexist in the same Gradebook. The formula normalizes each contribution automatically.
 
+### Add a team-based submission module in Adobe Learning Manager
+
+Add a team-based file submission module so one team member can upload a file for the whole team, and choose how it is reviewed and scored.
+
+A team-based file submission module lets one learner submit a file on behalf of a team. The instructor evaluates it once, and the outcome applies to every team member. You must add the module before you publish the course.
+
+### Add the module to a course
+
+1. Sign in to Adobe Learning Manager as an author.
+
+1. In the author app, create a course or open an unpublished course.
+
+1. Add a new activity module.
+
+1. Select the file submission activity type.
+
+1. Select the team-based option. The individual option is the earlier file submission module for single learners.
+
+   ![Team-based option for the file submission module](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Team-based option")
+
+1. Select the instructor or instructors.
+
+1. Set the module duration.
+
+A course can have team-based and individual submission modules together. All team-based modules in a course instance share the same teams.
+
+### Choose the review and scoring options
+
+1. Open the team-based file submission module.
+
+1. Choose whether **Reviewer approval is required**.
+
+   * If you turn it on, an instructor must approve or reject each submission before the module completes.
+   * If you turn it off, the module completes for all team members as soon as the team submits.
+
+1. Choose a scoring method:
+
+   * Select manual scoring to let the instructor enter one overall score.
+   * Select criteria-based scoring to calculate the score from the points on each evaluation plan option. This method requires an evaluation plan.
+
+      ![Review and scoring options for the team-based file submission module](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+
+>[!CAUTION]
+>
+>After you publish the course, you can't remove the module, change its settings, or use multiple delivery types for it.
+
+### Add an evaluation plan to a file submission module
+
+Create an evaluation plan for individual or team submissions by adding objective and subjective questions to a file submission module.
+
+An evaluation plan is the set of questions that instructors use to assess a submission. Each module has one evaluation plan, and you can't reuse it in another module. You can add an evaluation plan to an individual file submission module or to a team-based submission module. Add it before you publish the course.
+
+#### Turn on the evaluation plan
+
+1. Turn on the evaluation plan.
+
+1. Enter a description of the assessment.
+
+1. Choose whether learners can view the evaluation plan before they submit. This is off by default. Learners see the assessment description and each criterion's description. They don't see the answer options, points, or weightage.
+
+   ![Evaluation plan settings for a file submission module](assets/Group-Team-submission-and-rubric-based-assessments-image6.png "Evaluation plan settings")
+
+#### Add evaluation parameters to the evaluation plan
+
+You can add up to 100 evaluation parameters. Each parameter is either objective or subjective.
+
+1. Select **Define parameters**. Enter the parameter text in the Parameter/Question field.
+
+   ![Define parameters option with the Parameter/Question field](assets/Group-Team-submission-and-rubric-based-assessments-image7.png "Define parameters")
+
+1. Select the parameter type:
+
+   * **Objective:** The instructor selects from answer options. Add the options.
+
+     ![Objective parameter with answer options](assets/Group-Team-submission-and-rubric-based-assessments-image8.png "Objective parameter")
+
+   * **Subjective:** The instructor writes a descriptive response.
+
+     ![Subjective parameter with a descriptive response](assets/Group-Team-submission-and-rubric-based-assessments-image9.png "Subjective parameter")
+
+1. For an objective parameter with criteria-based scoring, enter whole-number points for each option. Negative numbers are allowed. Each option needs a point value.
+
+1. Choose the parameter settings:
+
+   * **Required:** The instructor must respond to the parameter. Parameters that aren't required show an optional tag to the instructor.
+   * **Allow reviewer remarks:** The instructor can add remarks to the parameter. This option appears for objective parameters only.
+
+1. To let instructors add one comment for the whole evaluation plan, turn on overall remarks.
+
+1. Repeat for each question.
+
+1. Select **Save**.
+
+>[!NOTE]
+>
+>Subjective parameters don't have points.
+
+#### Calculate the overall score
+
+When you choose criteria-based scoring, Adobe Learning Manager calculates the overall score from the points on the options that the instructor selects. Only objective evaluation parameters count. Subjective evaluation parameters don't contribute to the score.
+
+* **Without a ceiling:** The overall score is the sum of the points for the selected options.
+* **With a ceiling:** The overall score is the sum of the points, divided by the maximum possible points, multiplied by the ceiling, and rounded to a whole number. The ceiling can be any whole number from 1 to 100. The default is 100.
+
+Because an option can have negative points, the calculation can produce a number below 0. When that happens, Adobe Learning Manager sets the overall score to 0. The overall score is never below 0.
+
+For example, suppose the maximum possible points are 12 and the ceiling is 10. If the selected options add up to 6, the overall score is 5. If they add up to 10, the overall score is 8, which is 8.33 rounded. If they add up to −3, the calculation gives a number below 0, so the overall score is 0.
+
+To choose between manual and criteria-based scoring, follow the scoring steps in Add a team-based submission module.
+
+#### Add evaluation parameters for each locale
+
+The locales of a module follow the locales of the course. Add the evaluation parameters manually for each locale that the course uses. Instructors see the evaluation parameters in their content locale.
+
+#### Publish the course
+
+Publish the course when the plan is complete. New instances of the course get the same plan. After you publish, you can edit only the text of the evaluation parameters and options. You can't change the configuration, add settings, or turn the plan on or off.
+
 ### Set the minimum passing score
 
 * In the course editor, locate the **Passing criteria** section.
@@ -190,6 +308,142 @@ After configuring all Gradebook settings, publish the course using the standard 
 * Use **Highest** for the multiple-attempts setting when modules are assessments learners are expected to retry. Use **Latest** when you want to capture current knowledge level rather than best performance.
 * Verify the **Total weightage** indicator shows exactly 100% before saving.
 
+## Set up automatic team creation in Adobe Learning Manager
+
+Set the automatic team creation rules for a course so Adobe Learning Manager divides enrolled learners into teams before an instance starts.
+
+Automatic team creation acts as a fallback when instructors haven't created teams manually. You can turn on automatic team formation for any course that has a team-based file submission module, even if the account setting is off. If your administrator turned on the account setting, new courses start with the account's schedule, and you can adjust it during course setup.
+
+The course must include a team-based submission module. Each instance needs a start date.
+
+## Set the team rules for a course
+
+1. In the author app, open a course that has a team-based submission module.
+
+1. Open the course settings, and then find the **Automatic team formation for team submissions** setting. It appears only when the course has at least one team-based file submission module.
+
+1. Select **Enable**.
+
+   ![Enable option for automatic team formation in course settings](assets/Group-Team-submission-and-rubric-based-assessments-image10.png "Enable automatic team formation")
+
+1. Review the **Team formation schedule**. If your administrator turned on the account setting, it shows the number of days they set. Teams are created that many days before the instance start date.
+
+1. Optional: To change the number of days for this course, select **Edit**, select **Yes** on the warning, and then enter a new number.
+
+   ![Warning shown when editing the team formation schedule](assets/Group-Team-submission-and-rubric-based-assessments-image11.png "Edit warning")
+
+1. Change the value to a different one.
+
+   ![Team formation schedule value field](assets/Group-Team-submission-and-rubric-based-assessments-image12.png "Team formation schedule value")
+
+1. Review the **Team formation schedule**. It starts with the account value. To use a different lead time, enter a new number of days.
+
+1. Choose how to form teams. Enter 1 or higher. A team can have up to 100 members.
+
+   * Select **Members per team** and enter the number of learners for each team.
+
+     ![Members per team option](assets/Group-Team-submission-and-rubric-based-assessments-image13.png "Members per team")
+
+   * Select **Number of teams** and enter the total number of teams.
+
+     ![Number of teams option](assets/Group-Team-submission-and-rubric-based-assessments-image14.png "Number of teams")
+
+1. Save your changes, and then publish the course.
+
+>[!WARNING]
+>
+>After you publish, you can't turn automatic team formation on or off for the course, and you can't change the lead time. You can still change the rule for forming the teams and its value.
+
+![Published course with automatic team formation settings](assets/Group-Team-submission-and-rubric-based-assessments-image15.png "Published course settings")
+
+## Set the instance start date
+
+1. Open the course instance.
+
+1. Enter a start date and select **Save**.
+
+   ![Instance start date field](assets/Group-Team-submission-and-rubric-based-assessments-image16.png "Instance start date")
+
+Teams are created at 12:00 am on the lead-time day, in the time zone of the instance. For example, with a lead time of 3 days, teams are created at 12:00 am three days before the start date. The start date only sets this timing. It doesn't block enrollment.
+
+## Change the team rules after publishing
+
+You can change the rule, **Members per team**, or **Number of teams** at any time. The change applies to all instances but takes effect only where teams haven't been created yet. Teams that already exist are never regrouped.
+
+## Use team-based courses in learning paths
+
+Teams belong to the course instance. If you add a team-based course to a learning path, set the lead time and start date on the course instance, not on the learning path. For how learners are divided, see team settings and limits.
+
+## Troubleshooting
+
+**Teams weren't created for an instance.** Check that the instance has a start date. Automatic creation doesn't run without one. Also check that automatic team formation is turned on for the course. Teams weren't created for an instance that starts soon.
+
+**You can't find the course-level setting.** The setting appears only when the course has at least one team-based module. Add one before you publish.
+
+**You changed the rules, but the teams didn't change.** The rules apply only if teams haven't been created for the instance. To change existing teams, ask the instructor to edit them.
+
+## Configure enrollment window and seat allocation for a Classroom course
+
+You can define when different groups of learners can enroll, allocate a specific number of seats to selected user groups, and automatically promote eligible learners from the waitlist when seats become available.
+
+Authors can allocate seats to user groups only after an Administrator enables the **Group Enrollment** setting. View General settings article for more information.
+
+To configure seat allocation for user groups:
+
+1. Sign in to Adobe Learning Manager as an Author.
+1. Select **Courses** from the left navigation.
+1. Create a **Classroom** course. View Course modules for more information.
+1. Configure the following settings:
+
+   |Setting|Description|
+   |---|---|
+   |**Seat Limit**|Displays the lowest seat limit configured across the Classroom or Virtual Classroom modules. This field is read-only. To allocate seats to user groups, first set a seat limit in the Classroom or Virtual Classroom module.|
+   |**Open Enrollment Date**|Select the date on which everyone, including the selected user groups, can enroll.|
+   |**Allocate seats per user group**|Enable this option to reserve seats for specific user groups.<p>**Note:**<ul><li>Reserve 100% of the available seats for specific user groups to ensure that only learners from those groups can enroll in the course.</li><li>You cannot enable or disable this option once the course is published.</li></ul>|
+   |**Unallocated seats**|Displays the number of seats that remain available to learners outside the selected user groups.|
+   |**Open Enrollment Date for Groups**|Select the date from which members of the selected user groups can start enrolling.|
+
+
+1. Select **Add Group Allocation**, and configure the following:
+
+   1. **User group**: Select the user group for which you want to reserve seats.
+   1. **Seats allocated**: Enter the number of seats to reserve for the selected user group.
+
+   ![Seat allocation and automatic waitlist clearance settings in a Classroom course](assets/seat-allocation-and-waitlist-clearance-settings.png "Seat allocation and automatic waitlist clearance settings in a Classroom course")
+
+1. Select **Save**.
+
+### Manage user group allocations
+
+After you add a user group, the group and its allocated seats appear in the allocation list. Use the available actions to modify the allocation.
+
+![User group allocation list with Edit and Delete actions](assets/user-group-allocation-list.png "User group allocation list with Edit and Delete actions")
+
+|**Action**|**Description**|
+|---|---|
+|**Edit**|Modify the number of seats allocated to the user group.|
+|**Delete**|Remove the seat allocation for the user group.|
+
+>[!NOTE]
+>
+>The total number of seats allocated across user groups can't exceed the Seat Limit.
+
+### Configure automatic waitlist clearance
+
+When an Administrator enables Group Enrollment, automatic waitlist clearance promotes the next eligible waitlisted learner when a seat opens. This is enabled by default.
+
+To configure automatic waitlist clearance:
+
+1. Enable **Allow automatic waitlist clearance** in the **Course overview** page.
+1. (Optional)Select a date from **Auto-Promote Cut-off** picker.
+1. Select **Save**.
+   Automatic promotion stops after the cut-off.
+
+>[!NOTE]
+>
+>* If you also allocate seats per user group, only members of a group are promoted into that group's seats.
+>* The **Auto-Promote Cut-off** date applies to both user group and open waitlists. Automatic promotions stop for both waitlists after this date.
+
 ## Add compliance labels to course/learning path/certification {#add-custom-compliance-label}
 
 To add the compliance labels to courses, follow these steps:
@@ -229,8 +483,10 @@ To create an instance, do the following:
    * In the **[!UICONTROL Instance Name]** field, enter the name of the instance you want to associate with the course. Ensure that you use a unique name for the instance.
    * **Start Date:** This is the start date of the course. Two reminder emails can be sent on two different selected dates to the Learner before this start date. The start date has to be a date before the date of completion. Once you select the start date, this date will be highlighted in blue in the calendar in the **Notificiation Alerts** section of the instance.
       ![](assets/start-date-instance.png)
-      ![](assets/start-date-highlighted-instance.png)
    * Specify the completion deadline for the instance. Learners must achieve course completion status by this date.
+      ![](assets/start-date-highlighted-instance.png)
+   * **Open Enrollment Date** (Optional): The date from which learners can enroll. If seats are allocated to user groups, this date applies to learners outside those groups.
+   * **Auto-Promote Cut-off** (Optional): After this date, automatic waitlist promotion stops for the instance. This field appears when automatic waitlist clearance is enabled.
    * Select **[!UICONTROL Show More Options]** to display other deadline options.
    * **[!UICONTROL Enrollment Deadline]:** This is the date by which a learner is expected to enroll into a learning object in case of self-enrollment.
    * **[!UICONTROL Unenrollment Deadline]:** You can choose to restrict unenrollment by learner himself by having an unenrollment deadline.

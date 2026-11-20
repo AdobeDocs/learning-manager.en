@@ -1,12 +1,12 @@
 ---
-title: Track participant engagement
+title: Track the participant engagement
 description: Learn how Instructors use the real-time participant engagement indicator in Live Hub to monitor browser focus, chat activity, and poll participation.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
 ---
 
-# Track participant engagement
+# Track the participant engagement
 
 Participant engagement in Live Hub gives Instructors a real-time view of Learner engagement during a live session. It combines browser focus, chat activity, and poll participation into a single engagement level, shown as a green, yellow, or red indicator. Use it to spot dips in attention and adjust your delivery in real time.
 

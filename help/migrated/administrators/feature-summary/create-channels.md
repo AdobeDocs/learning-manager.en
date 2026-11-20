@@ -1,16 +1,12 @@
 ---
-title: Create Channels (Beta)
+title: Create Channels
 description: Learn how to enable, create, and edit Channels in Adobe Learning Manager to bring video-based learning content from web pages and Confluence Cloud pages into a single, searchable location for learners.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
 ---
 
-# Create Channels (Beta)
-
->[!IMPORTANT]
->
->Beta features may contain defects and are provided "AS IS" without warranty of any kind. Adobe has the sole discretion whether to make beta features generally available. Adobe has no obligation to maintain, correct, update, change, modify or otherwise support (by way of Adobe Support Services or otherwise) the beta features. Should a beta feature become generally available, it may be subject to additional terms and conditions, including applicable fees. Beta features are subject to change without notice, including discontinuation. Customers are advised to use caution and not to rely in any way on the uninterrupted or error-free functioning or performance of the beta features. Accordingly, any use of the beta features is entirely at the Customer's own risk. Product capabilities and related documentation may change as the feature evolves. This documentation reflects the current beta experience and should not be considered final or complete product documentation.
+# Create Channels
 
 Organizations often store knowledge-sharing sessions, training recordings, and other video content across informal learning content curated web and Confluence Cloud pages. Channels connect Adobe Learning Manager to these content sources, making videos easier to discover and consume without requiring learners to navigate multiple systems. Channels help you organize and share video-based learning content from enterprise web pages and Confluence Cloud pages in a single, searchable location. Instead of searching across multiple internal sites, learners can discover and access relevant recordings directly from Adobe Learning Manager. View [Discover and engage with Channels](../../learners/feature-summary/discover-and-engage-with-channels.md) for more information.
 

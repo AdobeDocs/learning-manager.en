@@ -165,8 +165,6 @@ Adding single users is the third method by which you can add internal users to y
    * **[!UICONTROL **DOJ**:]** Specify the date of joining of the employee.
    * **[!UICONTROL **Location**:]**Specify the location of the employee. For example, if you have your organization in several geographical locations, specify the location where the employee is located.
 
-    
-
    ![](assets/add-single-usersincaptivateprime-step3.png)
 
 1. Click **[!UICONTROL Add]**.
@@ -199,3 +197,61 @@ You can also create custom groups with a selected list of users in Learning Mana
 1. Add users to the custom user group by entering the user name or the profile of the user in the **[!UICONTROL **Add Users** field.]**
 1. To add more users to the custom group, click **[!UICONTROL **Add More Users**.]**
 1. After adding all the users, click **[!UICONTROL Save]**to save the custom user group.
+
+## Character limits for usernames {#character-limit-username}
+
+Adobe Learning Manager supports longer usernames so that you can bring users with long names into your account without trimming them. This is especially helpful when you migrate users from an external system or automate user creation.
+
+Beginning with the December 2026 release, the first name field accepts up to 255 characters. Earlier releases accepted a maximum of 63 characters.
+
+>[!NOTE]
+>
+>The limit applies to all users in your account, regardless of their role. Existing users and their names aren't affected by this change.
+
+You can enter long names when you add or edit users in the following ways:
+
+* Add a single user in the admin interface
+* Edit an existing user
+* Import users with a CSV file
+* Register users through self-registration
+* Add external users
+
+Long names can be wider than the space available in some parts of the interface. To keep the layout readable, Adobe Learning Manager shortens long names in compact areas, such as:
+
+* Table cells
+* Dropdown list items
+* Search results
+
+To view the full name, hover over the shortened name.
+
+## Add a user with a long name
+
+If a user's name is longer than 63 characters, you can now add the user to your account without shortening the name. The first name field accepts up to 255 characters.
+
+### Add a single user
+
+1. Log in to Adobe Learning Manager as an administrator.
+
+1. In the left navigation pane, select **Users**.
+
+1. Select **Add** > **Single User**.
+
+1. In the **Name** field, enter the full name. The field accepts up to 255 characters.
+
+1. Enter the remaining required details, such as the unique identifier and email address.
+
+1. Select **Save**.
+
+The user is added to your account with the full name. In compact views, the name appears shortened. Hover over the name to view it in full.
+
+## Import users that have long names
+
+If you add users in bulk, you can include long names in your CSV file. The first name column accepts up to 255 characters.
+
+1. Prepare your user CSV file. Ensure that each first name is 255 characters or fewer.
+
+1. Log in to Adobe Learning Manager as an Administrator.
+
+1. Import the CSV file by using the **Upload a CSV** option.
+
+1. Review the import results to confirm that all users were added.

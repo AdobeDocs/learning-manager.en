@@ -143,23 +143,34 @@ When you are satisfied with the path, ask the agent to save it by typing save th
 ![](assets/create-lp.png)
 -->
 
-### Adjust your learning path before saving
+### Adjust a Learning Path before saving {#adjust-lp-before-saving}
 
-Before you save your path, you can ask the agent to add, remove, or replace a course. Describe the change in plain language. The agent updates only the course you mention. The rest of your path stays the same.
+Remove, add, or replace topics and courses in a generated learning path by using the delete icon or chat, before you save it.
 
-For example:
+When you ask the learning path agent in Adobe Learning Manager to build a personalized path, it first proposes topics and then matches courses to them. Before you save the path, you can refine both, so the final path fits your goals.
 
-- I've already completed the second course. Remove it.
-- Add a course on [topic]. I don't see one in the list.
-- The fourth course looks too advanced. Can you replace it with something more fundamental?
-
-The agent applies your change and shows you the updated path. Continue adjusting until you are satisfied, then save the path.
+You can adjust the path by selecting the delete icon on a card or by typing a request in the chat.
 
 >[!NOTE]
 >
->A Learning Path can contain a maximum of five courses. If you ask to add a course when the path is already full, the agent asks which existing course you want to replace.
+>The Learning Path Agent is available with the Ultimate tier, or as an add-on to the Prime tier. Each request uses AI credits. If you don't see the agent, contact your administrator.
 
-If your request is unclear, the agent asks a clarifying question before making a change. If no suitable replacement exists for a course you want to swap out, the agent explains why and suggests the closest matching course instead.
+1. In Learner Assistant, ask Learning Path Agent to generate a learning path. Answer any clarifying questions the agent asks. For example, enter Help me create a learning path to move from marketing coordinator to data analyst.
+2. Answer the clarifying questions that the agent asks. The agent then generates a list of topics.
+3. Review the topics, and then adjust them as needed:
+
+    * To remove a topic, select the delete icon on its card, or type a request such as "Remove this topic."
+    * To add a topic, type a request that describes the topic you want.
+
+4. Confirm the topics. The agent matches courses from your account to each topic.
+5. Review the suggested courses, and then adjust them as needed:
+
+    * To remove a course, select the delete icon on its card, or ask the agent to remove it.
+    * To add a course, type a request that describes what you want to learn.
+    * To swap a course, ask the agent to replace it. The agent suggests an alternative based on your original request.
+
+6. Repeat steps 3 and 5 until the path matches your goals.
+7. Save the learning path.
 
 ### Save and access your Learning Path
 

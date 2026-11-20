@@ -27,9 +27,11 @@ In a Live Hub session, Instructors can control participant permissions and room 
 
     1.  **Recording**: Choose what gets captured in the recording, including participant video feeds, polls, and the chat transcript.
 
+    1. **Captions**: Select the language in which captions are generated during the session.
+
     1.  **AI**: Turn the session's AI assistants on or off, including the Q&A assistant, poll assistant, breakout monitoring agent, and recording topics generation.
 
-    1.  **Privacy**: Show or hide enrolled participants who haven't joined the session yet.
+    1.  **Privacy**: Show or hide enrolled participants who haven't joined the session yet.Select the relevant tab from the left panel:
 
 1.  Change the required settings.
 
@@ -90,6 +92,12 @@ The following settings help you manage the session by controlling what participa
 <td>Adds the chat transcript to the recording.</td>
 </tr>
 <tr>
+<tr>
+<td><p><strong>Captions</strong></p>
+<p><strong>Default</strong>: English</p></td>
+<td>Captions display language</td>
+<td>Sets the language in which captions are generated for all participants. Captions aren’t translated, so the selected language should match the language the Instructor speaks.</td>
+</tr>
 <td rowspan="4"><p><strong>AI</strong></p>
 <p><strong>Default</strong>: All AI assistants are enabled if the Administrators have enabled them.</p></td>
 <td>Enable Q&amp;A assistant and answer generation</td>

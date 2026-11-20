@@ -208,7 +208,7 @@ To send emails to learners, from the Learners page in the Instructor app, do one
 
 ## Capture invitation responses
 
-Instructors can capture learners' invitation responses only when the **[!UICONTROL Invite Reply]** option is enabled by the ACAP administrator. To enable this feature, administrators need to contact the support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
+Instructors can capture learners invitation responses only when the **[!UICONTROL Invite Reply]** option is enabled by the ACAP administrator. To enable this feature, administrators need to contact the support team at [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
 
 Once done, you can view invitation responses in the **[!UICONTROL Learners]** section. Go to any session, select **[!UICONTROL Learners]**, and select the invitation response from the dropdown menu.
 
@@ -266,3 +266,230 @@ If leaners have uploaded documents like assignments, reports, or assessments for
    If you have already set reminders for your sessions, you can see them under the Existing Reminder tiles. Further, you can also add additional reminders to your existing reminders.
 
    To delete an existing reminder, click on the reminder. From the pop-up that appears, click the Delete icon (Trash icon) to delete the reminder.
+
+## Create and manage teams in Adobe Learning Manager
+
+Create teams manually from the learners in a course instance, then add, move, remove, rename, or delete teams until a team locks.
+
+As an instructor, you create teams for each instance of a course that has a team-based submission module. Any instructor assigned to the instance can manage its teams. Adobe Learning Manager can also create teams automatically. After teams are formed, learners can submit work, and you can evaluate team submissions.
+
+### Open the Teams management page
+
+1. In the Instructor app, select **Teams** in the left navigation pane. The page lists the team-based course instances learners are assigned to.
+
+   ![Teams option in the left navigation pane](assets/Group-Team-submission-and-rubric-based-assessments-image17.png "Teams management page")
+
+1. To find a course, search for it, or sort the list by the last updated date.
+
+1. Select the course instance. The instance page shows the unassigned learners and the teams.
+
+### Create teams with a rule
+
+1. On the instance page, select the unassigned learners to divide into teams.
+
+1. Choose a rule. Select **Action** > **Form a single team** or **Form multiple teams**.
+
+   ![Action menu with team formation rules](assets/Group-Team-submission-and-rubric-based-assessments-image18.png "Action menu")
+
+1. If you select **Form multiple teams**, enter the number of learners for each team. The value must be 1 or higher. The page shows how many teams will be created. For example, with 94 learners and 2 learners per team, 47 teams are created. If the number is greater than the number of enrolled learners, an error message appears. Enter a smaller number.
+
+   ![Number of learners per team and the resulting number of teams](assets/Group-Team-submission-and-rubric-based-assessments-image19.png "Learners per team")
+
+   If you enter a value that is greater than the number of enrolled learners, an error message appears.
+
+   ![Error message for a value greater than the number of enrolled learners](assets/Group-Team-submission-and-rubric-based-assessments-image20.png "Error message")
+
+1. Select **Create teams**. The teams appear in the **Teams** tab.
+
+   ![Teams tab showing the created teams](assets/Group-Team-submission-and-rubric-based-assessments-image21.png "Created teams")
+
+1. Confirm, and then save. The teams appear in the **Teams** tab.
+
+The rule applies only to the unassigned learners you select. To regroup everyone, delete the existing teams first. Their learners return to the unassigned list.
+
+![Delete option for existing teams](assets/Group-Team-submission-and-rubric-based-assessments-image22.png "Delete teams")
+
+After you select **Delete**, you get the following confirmation dialog:
+
+![Delete teams confirmation dialog](assets/Group-Team-submission-and-rubric-based-assessments-image23.png "Delete confirmation")
+
+Select **Delete teams**. All learners return to the unassigned list.
+
+### Create a single team
+
+1. Select the unassigned learners to include in the team.
+
+1. Select **Action** > **Form a single team**. A team gets created with the specified number of learners.
+
+   ![Form a single team option](assets/Group-Team-submission-and-rubric-based-assessments-image24.png "Form a single team")
+
+1. Save the team. A team needs at least one learner, and a learner can belong to only one team in the instance.
+
+1. Repeat the steps to create teams one by one.
+
+### Add learners to an existing team
+
+1. Select the unassigned learners to add.
+
+1. Choose to assign them to an existing team, and then select the team.
+
+   ![Assigning unassigned learners to an existing team](assets/Group-Team-submission-and-rubric-based-assessments-image25.png "Assign to an existing team")
+
+1. Confirm your choice. Select **Assign Learner**.
+
+### Move or remove learners
+
+1. Open the **Teams** tab, and then expand a team to view its members.
+
+1. Select the learners to move.
+
+   ![Team members selected for moving](assets/Group-Team-submission-and-rubric-based-assessments-image26.png "Move learners")
+
+1. Choose to move them, and then select the destination team.
+
+1. To remove a learner from a team, select the learner and remove them. The learner returns to the unassigned list.
+
+When a team has no learners left, the team is deleted automatically.
+
+### Rename a team
+
+1. In the **Teams** tab, select the team, and then choose to rename it.
+
+1. Select **Action** > **Rename**.
+
+   ![Rename option in the Action menu](assets/Group-Team-submission-and-rubric-based-assessments-image27.png "Rename option")
+
+1. Enter a unique name, such as Team Alpha.
+
+   ![Rename team dialog](assets/Group-Team-submission-and-rubric-based-assessments-image28.png "Rename team dialog")
+
+1. Select **Rename team**.
+
+Names can't repeat, and you can't use the system-generated format, such as Team-1.
+
+### Delete teams
+
+1. In the **Teams** tab, select one or more teams.
+
+1. Select **Action** > **Delete**.
+
+1. Select **Delete team**.
+
+   ![Delete team confirmation dialog](assets/Group-Team-submission-and-rubric-based-assessments-image29.png "Delete team")
+
+1. Confirm. The learners from the deleted teams return to the unassigned list.
+
+### Handle late enrollments and unenrollments
+
+* A learner who enrolls after teams are formed appears in the unassigned list. Add the learner to a team.
+* If all teams are locked, create a new team for the learner.
+* A learner who unenrolls is removed from their team automatically. The team continues, and an empty team is deleted.
+
+### Troubleshooting
+
+**You can't select a team or move its members.** A team locks after its first submission, and the lock applies to every team module in the instance. To unlock the team, unsubmit the submission. View **Evaluate and unsubmit team submissions**.
+
+**You can't rename a team.** The name is already in use, or it matches the system-generated format. Enter a different name.
+
+**An error appears when you create teams.** A team can't have more than 100 members. Reduce the number of members per team.
+
+**You can't open Teams management for an instance.** Automatic team creation might be running. Access returns when it finishes.
+
+**Your save is rejected, and the page reloads.** Another instructor or the automatic job saved changes first. Review the updated teams, and then redo your change.
+
+**A team disappeared.** A team with no learners is deleted automatically.
+
+## Evaluate and unsubmit team submissions
+
+Review a team's submitted file, complete the evaluation plan, approve or reject the work, or unsubmit it so the team can submit again.
+
+When you evaluate a team submission, the outcome applies to every member of the team, and each member receives a notification. Only instructors assigned to the instance can evaluate. The steps are the same for individual submissions, except that individual submissions don't have team details. Make sure teams exist first. View **Create and manage teams**.
+
+Teams that were formed automatically can be edited the same way as manual teams.
+
+### Find a submission
+
+1. In the Instructor app, open the submissions area, and then select **Team submissions**. Select **Individual submissions** for single-learner modules.
+
+1. To find a module, search by session or module name.
+
+1. Select the module name.
+
+   ![Module list in the submissions area](assets/Group-Team-submission-and-rubric-based-assessments-image35.png "Module list")
+
+1. To narrow the list, filter by status: **Pending submission**, **Pending review**, **Approved**, **Rejected**, or **Complete**.
+
+1. To view the team members, expand the team. Names and email addresses are shown, and the learner who submitted the file has a **Submitter** tag.
+
+1. To download the submitted file, select the download option for the team.
+
+### Evaluate a submission
+
+1. Find the team with the **Pending review** status.
+
+1. Open the submitted file and review the content.
+
+1. Select **Action** > **Evaluate**.
+
+   ![Evaluate option in the Action menu](assets/Group-Team-submission-and-rubric-based-assessments-image36.png "Evaluate option")
+
+1. Complete the evaluation plan:
+
+   * Answer every required question.
+   * For objective questions, select an option. With criteria-based scoring, the score updates as you select.
+   * For subjective questions, enter your response.
+   * Where remarks are allowed, add remarks to the question or to the whole assessment.
+
+   ![Evaluation plan with objective and subjective questions](assets/Group-Team-submission-and-rubric-based-assessments-image37.png "Evaluation plan")
+
+1. If the module requires reviewer approval, select **Approve** or **Reject**. Add a comment when you reject, so the team knows what to fix.
+
+   ![Approve and Reject options](assets/Group-Team-submission-and-rubric-based-assessments-image38.png "Approve or reject")
+
+1. If the module uses manual scoring, enter the overall score.
+
+   ![Overall score field for manual scoring](assets/Group-Team-submission-and-rubric-based-assessments-image39.png "Overall score")
+
+   **Optional**: Enter a private note by selecting the **Add a private note to the score** toggle. A private note is visible only to instructors assigned to the instance. Learners can't view it, even when you select **Show comment**.
+
+1. Submit the evaluation. Select **Submit**. The submission status changes to **Approved**.
+
+   ![Submit option for the evaluation](assets/Group-Team-submission-and-rubric-based-assessments-image40.png "Submit evaluation")
+
+Other instructors can also evaluate the same submission, provided it has not already been approved. A later evaluation replaces an earlier one until the submission is approved.
+
+If the module doesn't require reviewer approval, the module completes for all team members when the team submits. Only the submit option appears, and you can't edit the score or remarks afterward.
+
+After you approve or reject a team's submission, a learner can view the submission status and the evaluation result.
+
+![Learner view of the submission status and evaluation result](assets/Group-Team-submission-and-rubric-based-assessments-image41.png "Learner view of status")
+
+Selecting the evaluation result displays the evaluation parameters and comments from the instructor.
+
+![Evaluation parameters and comments in the evaluation result](assets/Group-Team-submission-and-rubric-based-assessments-image42.png "Evaluation result")
+
+## Review or change an evaluation
+
+1. Find a team with the **Rejected** status.
+
+1. To open the completed evaluation, select **View evaluation**.
+
+1. To evaluate again, select the re-evaluate option and submit your changes. You can do this only for rejected submissions. **Approved submissions can't be changed**.
+
+### Unsubmit a submission
+
+Unsubmit a submission when the team needs to submit again, when the evaluation needs to start over, or when you need to change a locked team. For an individual submission, you can also use this to correct an evaluation entered for the wrong learner.
+
+1. Find a team or learner that has a submission.
+
+1. Select **Unsubmit**.
+
+   ![Unsubmit option for a submission](assets/Group-Team-submission-and-rubric-based-assessments-image43.png "Unsubmit option")
+
+1. Enter your remarks, and then select **Unsubmit submission**.
+
+   ![Unsubmit submission dialog with a remarks field](assets/Group-Team-submission-and-rubric-based-assessments-image44.png "Unsubmit dialog")
+
+The submission is removed, and the status returns to **Pending submission**. The team unlocks, so you can edit its members. Team members receive a notification and an email. Any member can then submit again, and the new file replaces the earlier one. Your new evaluation replaces the earlier evaluation, and no history is kept.
+
+You can't unsubmit after the course is complete for a team member, because completion can't be reversed.

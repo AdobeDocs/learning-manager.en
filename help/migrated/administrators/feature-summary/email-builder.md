@@ -224,7 +224,30 @@ Configure the following:
 
 3. Select **Save**.
 
-## Add and configure individual components
+## Email Builder formatting options
+
+Look up the font, color, row, and button options you can set in Adobe Learning Manager Email Builder and how formatting overrides apply.
+
+Use these options to style an entire email, individual rows, dynamic content, and buttons.
+
+### Email formatting options
+
+| **Option** | **Applies to** | **What you can set** |
+|----|----|----|
+| Email-level properties | The entire email | Font family, font size, background color, and container styling |
+| Row-level properties | Each row, styled independently | Styling that highlights announcement sections, differentiates call-to-action areas, or emphasizes important information |
+| Dynamic content | Dynamic content sections | Formatting that inherits from the parent container |
+| Buttons | Action buttons | Button text, styling, and visual appearance |
+
+### Formatting precedence
+
+Formatting you set at a lower level overrides formatting from a higher level. For example, a change in a course template overrides the default that an administrator sets in the account template.
+
+| **Level** | **Typical use** | **Overridden by** |
+|----|----|----|
+| Account template | Default fonts and colors for the whole account | Course and instance templates |
+| Course template | Changes specific to one course | Instance template |
+| Instance template | Cohort-specific, session-specific, or regional changes | Nothing, because this is the highest level of customization |
 
 ### Text component
 

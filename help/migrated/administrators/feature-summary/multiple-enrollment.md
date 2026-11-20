@@ -86,3 +86,5 @@ If the learner is already enrolled in one instance and you, as an administrator,
 ## Reporting
 
 For a learner who is enrolled in two instances of the same course, two rows are created for each course instance. The report also displays the progress of the instances.
+
+

@@ -74,9 +74,9 @@ If you choose Ordered, the courses appear in the same sequence as you created th
 
 To add a course in the Learning Path, click **[!UICONTROL Add Courses or Learning Paths]**.
 
-In the dialog that appears, choose the training that you want to add to the Learning Path.
+From the window that appears, select the training you want to add to the learning path. Each entry shows the name, type (course or learning path), publication status, and course format, such as self-paced, virtual, classroom, or blended.
 
-![](assets/choose-training.png)
+![](assets/LP_4.png)
 
 *Add training to the Learning Path*
 
