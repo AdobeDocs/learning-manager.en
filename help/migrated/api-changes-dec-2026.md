@@ -1553,7 +1553,7 @@ true. False by default.
 
 Adobe Learning Manager lets you store custom metadata, such as a last access date, on a learning path enrollment. You set and read the metadata through the API. This helps you track time-bound access to learning paths that you assign.
 
-### About Learning Path enrollment metadata
+## About learning path enrollment metadata
 
 You can already set a last access date on a course enrollment through the API. That date controls how long a learner can access the course. Learning path enrollments now support a generic metadata field, so you can store a last access date or any other value that you want to track.
 
@@ -1563,16 +1563,76 @@ You do not need to turn on the field or send a special header. The field is empt
 >
 >The metadata is for your own tracking. Adobe Learning Manager does not update it when learners open a learning path or its courses, and it does not control access to the learning path. It is also not propagated to the courses in the path. Each course keeps its own last access date, so courses in the same path can have different dates. Continue to manage course-level access expiration separately.
 
-### Metadata rules
+### Metadata rules {#metadata-rules}
 
-* The value must be a JSON object. A string, number, Boolean, or array returns a `400` error with the message `metadata must be a JSON object`.
+* The value must be a JSON object. A string, number, Boolean, or array returns a 400 error with the message `metadata must be a JSON object`.
 * You can use any keys. Adobe Learning Manager does not validate keys or values, and it does not enforce a date format. The examples in this article use epoch milliseconds, the same format as course dates.
-* A `PATCH` request replaces the entire metadata object. It does not merge with existing values, so keys that you leave out are removed.
-* Setting `"metadata": null` clears all metadata and returns `200`.
+* A PATCH request replaces the entire metadata object. It does not merge with existing values, so keys that you leave out are removed.
+* Setting `"metadata": null` clears all metadata and returns 200.
 * A request with an empty `attributes` object, or without a `metadata` key, leaves the stored metadata unchanged.
 * When no metadata is set, or after you clear it, the `metadata` key is not in the response.
 
+## Set metadata on an existing enrollment
 
+Use an admin token.
+
+Send a PATCH request to the following endpoint, where `{enrollmentId}` is the learning path enrollment ID in the format `learningProgram:<lpId><instanceId><userId>`:
+
+```
+PATCH /primeapi/v2/users/{userId}/enrollments/{enrollmentId}
+```
+
+Use this request body:
+
+```json
+{
+  "data": {
+    "id": "<enrollmentId>",
+    "type": "learningObjectInstanceEnrollment",
+    "attributes": {
+      "metadata": {
+        "lastAccessDate": 1745337600000
+      }
+    }
+  }
+}
+```
+
+### Set metadata when you enroll a learner
+
+Use an admin token.
+
+Send a POST request with the learning path and instance IDs. Include an optional `metadata` object in the request body.
+
+```
+POST /primeapi/v2/users/{userId}/enrollments?loId=<lpId>&loInstanceId=<instanceId>
+```
+
+* If `metadata` is not a JSON object, the request returns 400 and the user is not enrolled.
+* If the user is already enrolled, the request returns 200 and changes nothing. To change metadata for an existing enrollment, use the PATCH request.
+* The response does not include the metadata. Send a GET request to read it.
+
+### Retrieve metadata
+
+You can retrieve metadata with an admin or a learner token. The requests differ by token type.
+
+| Token | Get one enrollment | List learning path enrollments |
+|---|---|---|
+| Admin | `GET /primeapi/v2/users/{userId}/enrollments/{enrollmentId}` | `GET /primeapi/v2/users/{userId}/enrollments?filter.loTypes=learningProgram` |
+| Learner | `GET /primeapi/v2/enrollments/{enrollmentId}`<br>`GET /primeapi/v2/learningObjects/{id}?include=enrollment` | `GET /primeapi/v2/enrollments?filter.loTypes=learningProgram` |
+
+>[!NOTE]
+>
+>The `include=enrollment` parameter works only with a learner token. It is not supported for the admin role.
+
+The response returns the `metadata` object with the learning path enrollment.
+
+### Use metadata in headless and external portals
+
+External portals and integrations use the same API calls. Use the request that matches the token your portal uses.
+
+* **Show the value in your portal:** Send the GET request for your token type from the table above, and read the `metadata` object from the response.
+* **Update the value from an external system, such as a commerce platform:** Send the PATCH request with an admin token.
 
 ## Job API: Export Report Builder reports with generateCustomReport
 
@@ -1999,84 +2059,4 @@ A common use case is an automated setup of a Zoom connector for a new account or
 5. Call `POST /ctr/xtsas/{connectionId}/enable` with `val` set to `true` or `false` to enable or disable the connection. Then call `GET /ctr/xtsas` and check the `enabled` flag to confirm the state.
 6. To change the credentials later, repeat steps 2 and 3 with the connection ID.
 
-## About learning path enrollment metadata
-
-You can already set a last access date on a course enrollment through the API. That date controls how long a learner can access the course. Learning path enrollments now support a generic metadata field, so you can store a last access date or any other value that you want to track.
-
-You do not need to turn on the field or send a special header. The field is empty until you set it.
-
->[!NOTE]
->
->The metadata is for your own tracking. Adobe Learning Manager does not update it when learners open a learning path or its courses, and it does not control access to the learning path. It is also not propagated to the courses in the path. Each course keeps its own last access date, so courses in the same path can have different dates. Continue to manage course-level access expiration separately.
-
-### Metadata rules {#metadata-rules}
-
-* The value must be a JSON object. A string, number, Boolean, or array returns a 400 error with the message `metadata must be a JSON object`.
-* You can use any keys. Adobe Learning Manager does not validate keys or values, and it does not enforce a date format. The examples in this article use epoch milliseconds, the same format as course dates.
-* A PATCH request replaces the entire metadata object. It does not merge with existing values, so keys that you leave out are removed.
-* Setting `"metadata": null` clears all metadata and returns 200.
-* A request with an empty `attributes` object, or without a `metadata` key, leaves the stored metadata unchanged.
-* When no metadata is set, or after you clear it, the `metadata` key is not in the response.
-
-## Set metadata on an existing enrollment
-
-Use an admin token.
-
-Send a PATCH request to the following endpoint, where `{enrollmentId}` is the learning path enrollment ID in the format `learningProgram:<lpId><instanceId><userId>`:
-
-```
-PATCH /primeapi/v2/users/{userId}/enrollments/{enrollmentId}
-```
-
-Use this request body:
-
-```json
-{
-  "data": {
-    "id": "<enrollmentId>",
-    "type": "learningObjectInstanceEnrollment",
-    "attributes": {
-      "metadata": {
-        "lastAccessDate": 1745337600000
-      }
-    }
-  }
-}
-```
-
-### Set metadata when you enroll a learner
-
-Use an admin token.
-
-Send a POST request with the learning path and instance IDs. Include an optional `metadata` object in the request body.
-
-```
-POST /primeapi/v2/users/{userId}/enrollments?loId=<lpId>&loInstanceId=<instanceId>
-```
-
-* If `metadata` is not a JSON object, the request returns 400 and the user is not enrolled.
-* If the user is already enrolled, the request returns 200 and changes nothing. To change metadata for an existing enrollment, use the PATCH request.
-* The response does not include the metadata. Send a GET request to read it.
-
-### Retrieve metadata
-
-You can retrieve metadata with an admin or a learner token. The requests differ by token type.
-
-| Token | Get one enrollment | List learning path enrollments |
-|---|---|---|
-| Admin | `GET /primeapi/v2/users/{userId}/enrollments/{enrollmentId}` | `GET /primeapi/v2/users/{userId}/enrollments?filter.loTypes=learningProgram` |
-| Learner | `GET /primeapi/v2/enrollments/{enrollmentId}`<br>`GET /primeapi/v2/learningObjects/{id}?include=enrollment` | `GET /primeapi/v2/enrollments?filter.loTypes=learningProgram` |
-
->[!NOTE]
->
->The `include=enrollment` parameter works only with a learner token. It is not supported for the admin role.
-
-The response returns the `metadata` object with the learning path enrollment.
-
-### Use metadata in headless and external portals
-
-External portals and integrations use the same API calls. Use the request that matches the token your portal uses.
-
-* **Show the value in your portal:** Send the GET request for your token type from the table above, and read the `metadata` object from the response.
-* **Update the value from an external system, such as a commerce platform:** Send the PATCH request with an admin token.
 
