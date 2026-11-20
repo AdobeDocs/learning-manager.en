@@ -147,43 +147,49 @@ After enabling Gradebook, add your content modules and assign a weightage percen
 >
 >The scoring scale does not need to match across delivery types. A classroom session scored out of 100 and a SCORM module scored out of 10 can coexist in the same Gradebook. The formula normalizes each contribution automatically.
 
-### Add a team-based submission module {#add-team-based-submission-module} 
+### Add a team-based submission module in Adobe Learning Manager
 
 Add a team-based file submission module so one team member can upload a file for the whole team, and choose how it is reviewed and scored.
 
 A team-based file submission module lets one learner submit a file on behalf of a team. The instructor evaluates it once, and the outcome applies to every team member. You must add the module before you publish the course.
 
-#### Add the module to a course
+### Add the module to a course
 
 1. Sign in to Adobe Learning Manager as an author.
-2. In the author app, create a course or open an unpublished course.
-3. Add a new activity module.
-4. Select the file submission activity type.
-5. Select the team-based option. The individual option is the earlier file submission module for single learners.
 
-   ![](assets/team-submission4.png)
+1. In the author app, create a course or open an unpublished course.
 
-6. Select the instructor or instructors.
-7. Set the module duration.
+1. Add a new activity module.
+
+1. Select the file submission activity type.
+
+1. Select the team-based option. The individual option is the earlier file submission module for single learners.
+
+   ![Team-based option for the file submission module](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Team-based option")
+
+1. Select the instructor or instructors.
+
+1. Set the module duration.
 
 A course can have team-based and individual submission modules together. All team-based modules in a course instance share the same teams.
 
-#### Choose the review and scoring options {#choose-review-scoring}
+### Choose the review and scoring options
 
 1. Open the team-based file submission module.
-2. Choose whether **Reviewer approval is required**.
+
+1. Choose whether **Reviewer approval is required**.
 
    * If you turn it on, an instructor must approve or reject each submission before the module completes.
    * If you turn it off, the module completes for all team members as soon as the team submits.
 
-3. Choose a scoring method:
+1. Choose a scoring method:
 
    * Select manual scoring to let the instructor enter one overall score.
    * Select criteria-based scoring to calculate the score from the points on each evaluation plan option. This method requires an evaluation plan.
+   
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
-   ![](assets/team-submission5.png)
-
->[!WARNING]
+>[!CAUTION]
 >
 >After you publish the course, you can't remove the module, change its settings, or use multiple delivery types for it.
 
