@@ -1,9 +1,9 @@
 ---
-title: Create a course with a Safe Exam Browser
+title: Create a course with Safe Exam Browser
 description: Create a quiz with Safe Exam Browser mode and add it to a course as a self-paced module in Adobe Learning Manager to provide a restricted assessment environment.
 ---
 
-# Create a course with a Safe Exam Browser
+# Create a course with Safe Exam Browser
 
 Authors can add quizzes to courses that require Safe Exam Browser to provide a secure, restricted assessment environment. Safe Exam Browser applies only to individual native Adobe Learning Manager quizzes and does not restrict access to other modules in the course.
 
