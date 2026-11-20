@@ -34,7 +34,7 @@ Administrators can now continue working with Insights Agent answers in Report Bu
 
 If part of a question can't be expressed with Report Builder fields, the report lists that part as a gap. If the missing part is central to the question, the report isn't offered. Complex queries can produce reduced results, so review each report before you rely on it.
 
-[Learn more](/help/migrated/administrators/feature-summary/insights-agent.md##create-report-insights-agent)
+[Learn more](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
 
 ## Adobe Experience Manager Assets integration
 

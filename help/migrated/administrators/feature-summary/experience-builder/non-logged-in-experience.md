@@ -350,15 +350,16 @@ The critical part is telling the non‑logged‑in ES stack that academy.yourcom
 
 1. **Re‑enable the TDA connector (simple, self‑service friendly)**
 
-The Experience Builder M45 wiki explains that existing native non‑logged‑in users will need to delete and re‑enable the TDA connection so the new domain is automatically allow‑listed. Doing this achieves two things:
-    1. The non‑logged‑in account JSON is regenerated.
-    2. The allow‑listed domains are updated to include the new non‑logged‑in CDN domain and your custom domain.
+    Existing native non‑logged‑in users will need to delete and re‑enable the TDA connection so the new domain is automatically allow‑listed. Doing this achieves two things:
 
-This is recommended when you have a small number of accounts and can tolerate temporarily disabling and re‑enabling the connector.
+    * The non‑logged‑in account JSON is regenerated.
+    * The allow‑listed domains are updated to include the new non‑logged‑in CDN domain and your custom domain.
 
-1. **Verify that the domain is actually allow-listed**
+    This is recommended when you have a small number of accounts and can tolerate temporarily disabling and  re‑enabling the connector.
 
-After allow‑listing, open your non‑logged‑in site on the custom domain and inspect the browser network calls.
+2. **Verify that the domain is actually allow-listed**
+
+    After allow‑listing, open your non‑logged‑in site on the custom domain and inspect the browser network calls.
 
 You want to see:
 

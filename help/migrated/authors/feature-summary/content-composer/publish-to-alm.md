@@ -44,3 +44,23 @@ After connecting your account, configure the publishing details in the ALM Publi
 - Enter a **Description**- a short summary of the course that appears alongside it in the ALM Content Library, helping learners and administrators understand its purpose.
 
 - Select **Publish** to send the course to the ALM Content Library as a module.
+
+## Learner navigation in published Content Composer courses
+ 
+Learn how learners navigate Content Composer courses published to Adobe Learning Manager or exported as SCORM packages, including the collapsible table of contents and mobile navigation.
+
+## Collapsible table of contents
+ 
+Courses published to Adobe Learning Manager or exported as SCORM packages include a collapsible lesson and topic navigation panel.
+ 
+Learners can:
+ 
+- **Expand** the navigation panel to browse lessons and topics and jump to any section.
+- **Collapse** the navigation panel to focus on course content without the panel taking up screen space.
+The panel state is preserved as learners move through the course.
+ 
+## Mobile navigation
+ 
+On mobile devices, the lesson and topic navigation opens as a full-screen overlay rather than a side panel. Learners select the navigation icon to open the overlay, browse to the lesson or topic they want, and select it to navigate there.
+ 
+The overlay closes automatically after the learner selects a destination, returning them to the course content.

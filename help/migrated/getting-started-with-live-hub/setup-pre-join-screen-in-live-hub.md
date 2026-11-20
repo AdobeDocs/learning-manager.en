@@ -25,7 +25,7 @@ When prompted by your browser, select **Allow** to enable access to your microph
 ![Allow Browser Permissions Prompt](assets/allow-browser-permissions-prompt.png)
 *Select Allow when your browser prompts for microphone and camera access.*
 
-### Configure audio controls
+### Configure audio controls {#audio-controls}
 
 Your microphone and speaker are selected automatically. Use the audio control on the pre-join screen to confirm they work or switch to a different device.
 
