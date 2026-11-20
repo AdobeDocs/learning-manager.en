@@ -73,19 +73,19 @@ Each Adobe Learning Manager account connects to one IMS organization (also calle
 ### Connect to your IMS organization
 
 1. Sign in to Adobe Learning Manager as an **Integration Administrator**.
-2. Select **Adobe Experience Manager Assets** as the connector type.
+1. Select **Adobe Experience Manager Assets** as the connector type.
 
-   ![](assets/aem-assets-integration1.png) 
+   ![Adobe Experience Manager Assets integration settings](assets/aem-assets-integration1.png "AEM Assets integration settings")
 
-3. Select **Connect**.
+1. Select **Connect**.
 
-   ![](assets/aem-assets-integration2.png) 
+   ![Connect option in the Adobe Experience Manager Assets integration settings](assets/aem-assets-integration2.png "Connect option")
 
-4. Sign in with your Adobe ID when prompted, and select the IMS organization that contains your Adobe Experience Manager Assets instances.
+1. Sign in with your Adobe ID when prompted, and select the IMS organization that contains your Adobe Experience Manager Assets instances.
 
-   ![](assets/aem-assets-integration3.png)
+   ![Adobe ID sign-in prompt](assets/aem-assets-integration3.png "Adobe ID sign-in")
 
-   ![](assets/aem-assets-integration4.png)
+   ![IMS organization selection for Adobe Experience Manager Assets](assets/aem-assets-integration4.png "IMS organization selection")
 
 Adobe Learning Manager then verifies your IMS Organization Administrator role and your instance access. If both the checks passes, it links your account to the already created IMS account with AEM Assets Author API scope to the selected IMS organization and creates a technical account for your organization. The connection overview page then opens and shows the technical account details.
 
