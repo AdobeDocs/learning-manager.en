@@ -34,7 +34,7 @@ An Author can create a learning path for learners to consume. To create a learni
 
    >[!NOTE]
    >
-   >At any point before you save, you can add a new language by selecting the **Add New Language** tab, selecting a language from the list, and then selecting **Save**. English is the default language.
+   > At any point before you save, you can add a new language by selecting the **Add New Language** tab, selecting a language from the list, and then selecting **Save**. English is the default language.
 
    ![](assets/lp_auth2.png)
 
@@ -46,9 +46,9 @@ An Author can create a learning path for learners to consume. To create a learni
 
    ![](assets/lp_auth4.png)
 
-22. Select **Add**.
-23. Select how you want to organize sections and courses or learning paths. Select either **Ordered** or **Unordered**.
-24. Next, select **Add Courses or Learning Paths**. A window with existing courses and learning paths appears. Each tile shows the name, type (course or learning path), publication status and course format. If it is a course, it displays the type such as self-paced, virtual, classroom, or blended. If it is a learning path, the number of courses is displayed.
+1. Select **Add**.
+1. Select how you want to organize sections and courses or learning paths. Select either **Ordered** or **Unordered**.
+1. Next, select **Add Courses or Learning Paths**. A window with existing courses and learning paths appears. Each tile shows the name, type (course or learning path), publication status and course format. If it is a course, it displays the type such as self-paced, virtual, classroom, or blended. If it is a learning path, the number of courses is displayed.
 
    ![](assets/lp_auth5.png)
 
@@ -60,21 +60,21 @@ An Author can create a learning path for learners to consume. To create a learni
 
    ![](assets/lp_auth7.png)
 
-27. Select **Skill Learners will earn**. Select the skills and levels. Select **Add**.
-28. Map the learning path to products by selecting products from the list and then selecting their levels.
+1. Select **Skill Learners will earn**. Select the skills and levels. Select **Add**.
+1. Map the learning path to products by selecting products from the list and then selecting their levels.
 
    >[!NOTE]
    >
-   >If you don't select at least one product, you won't be able to publish the learning path.
+   > If you don't select at least one product, you won't be able to publish the learning path.
 
    ![](assets/lp_auth8.png)
 
-29. Select how you want to organize sections and courses or learning paths. Select either **Ordered** or **Unordered**.
-30. Select **Add section title**, and then enter a section title.
+1. Select how you want to organize sections and courses or learning paths. Select either **Ordered** or **Unordered**.
+1. Select **Add section title**, and then enter a section title.
 
    ![](assets/lp_auth9.png)
 
-31. Select **Submit**.
+1. Select **Submit**.
 32. Select **Required** to make the learning path mandatory. If you don't select it, the learning path becomes optional.
 33. If you want to add another section with a different learning path, repeat steps 24 to 30.
 34. **Completion Requirements**: Select **All** or a number from the list to complete the training.
