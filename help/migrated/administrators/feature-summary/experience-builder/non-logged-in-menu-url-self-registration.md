@@ -16,30 +16,34 @@ Earlier, a non-logged-in page URL always added new users to the one profile sele
 ## Before you begin
 
 1. Create the non-logged-in menu in Experience Builder and select the landing page in **Branding**. All profile URLs open this landing page.
-2. Create the self-registration profile in **Users > External**. Each profile has its own group ID and access key, which users need to sign up.
+
+1. Create the self-registration profile in **Users** > **External**. Each profile has its own group ID and access key, which users need to sign up.
 
 ## Copy the sign-up URL for a profile
 
-1. Select **Users > External** and then select **Self-Registration**.
-2. In the **Landing page URL to be copied** column, select **Non-logged in** for a profile.
+1. Select **Users** > **External** and then select **Self-Registration**.
 
-   ![](assets/non-logged-in-menu1.png)
+1. In the **Landing page URL to be copied** column, select **Non-logged in** for a profile.
 
-3. Copy the URL and share it with the users you want to invite.
+   ![Landing page URL to be copied column for a self-registration profile](assets/Use-a-non-logged-in-menu-URL-for-self-registration-image1.png "Landing page URL to be copied")
 
-   The **Landing page URL to be copied** list includes these options:
+1. Copy the URL and share it with the users you want to invite.
 
-   * **Registration**: The standard registration URL
-   * **Non-logged in Homepage (legacy)**: The URL for the legacy non-logged-in homepage
-   * **Non-logged in menu**: The URL for the non-logged-in menu in Experience Builder
+The **Landing page URL to be copied** list includes these options:
+
+* **Registration**: The standard registration URL
+* **Non-logged in Homepage (legacy)**: The URL for the legacy non-logged-in homepage
+* **Non-logged in menu**: The URL for the non-logged-in menu in Experience Builder
 
 ## What users see
 
-1. The user opens the URL and lands on the non-logged-in landing page you selected in Branding.
-2. The user selects **Sign up** and enters the group ID and access key for the profile.
-3. The user enters their name, email address, and password, and then completes registration.
+1. The user opens the URL and lands on the non-logged-in landing page you selected in **Branding**.
 
-Adobe Learning Manager adds the user to the profile that the URL belongs to. You can see the new user under that profile in **Users > External**.
+1. The user selects **Sign up** and enters the group ID and access key for the profile.
+
+1. The user enters their name, email address, and password, and then completes registration.
+
+Adobe Learning Manager adds the user to the profile that the URL belongs to. You can see the new user under that profile in **Users** > **External**.
 
 >[!NOTE]
 >
@@ -47,12 +51,13 @@ Adobe Learning Manager adds the user to the profile that the URL belongs to. You
 
 ## Send a welcome email with the URL
 
-1. Select **Users > External** and select the self-registration profile.
-2. In the **Landing page URL to be copied** list, select the URL you want to include in the email.
+1. Select **Users** > **External** and select the self-registration profile.
 
-   ![](assets/non-logged-in-menu2.png)
+1. In the **Landing page URL to be copied** list, select the URL you want to include in the email.
 
-3. Select the mail icon to send the email. Alternatively, select the copy icon to copy the URL.
+   ![Landing page URL list with the mail and copy icons](assets/Use-a-non-logged-in-menu-URL-for-self-registration-image2.png "Landing page URL list")
+
+1. Select the mail icon to send the email. Alternatively, select the copy icon to copy the URL.
 
 Adobe Learning Manager sends the email using the **Profile Created (External/Partners)** template. The email contains the unique URL you selected, the seat limit for the profile, and the URL expiry date. Share the URL with the users you want to invite.
 
