@@ -308,7 +308,7 @@ After configuring all Gradebook settings, publish the course using the standard 
 * Use **Highest** for the multiple-attempts setting when modules are assessments learners are expected to retry. Use **Latest** when you want to capture current knowledge level rather than best performance.
 * Verify the **Total weightage** indicator shows exactly 100% before saving.
 
-# Set up automatic team creation in Adobe Learning Manager
+## Set up automatic team creation in Adobe Learning Manager
 
 Set the automatic team creation rules for a course so Adobe Learning Manager divides enrolled learners into teams before an instance starts.
 
