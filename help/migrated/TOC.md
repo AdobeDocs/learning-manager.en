@@ -37,7 +37,7 @@ nudge: true
    * [API deprecations and changes in Adobe Learning Manager](api-deprecations-list.md)
    * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Whitelabeling in Adobe Learning Manager](white-label.md)
-   * [Discussion board email digest (Instructor notifications](/help/migrated/discussion_board_instructor_notifications.md)
+   * [Discussion board email digest (Instructor notifications](/help/migrated/discussion-board-instructor-notifications.md)
 * Feature availability in releases {#feature-availability}
    * [Feature availability in Aug 2026 release](/help/migrated/feature-availability-aug-2026.md)
 * Get Started {#get-started}
@@ -85,8 +85,7 @@ nudge: true
          * [Customize Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
       * [Non-logged in experience in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
-      * [Use a non-logged-in menu URL for self-registration](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
-      * [Non-logged in enhancements](/help/migrated/administrators/feature-summary/non-logged-in-enhancements.md)
+      * [Use a non-logged-in menu URL for self-registration](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)      
    * Settings {#settings}
       * [Overview](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
       * [Basic settings](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
@@ -200,8 +199,7 @@ nudge: true
      * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
      * [Webhooks usage guide](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
      * [Webhook events for LO instance edits by instructors](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
-     * [Go1 completion tracking with webhooks](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
-     * [Webhooks usage guide](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)     
+     * [Go1 completion tracking with webhooks](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)          
    * [Credly](integration-admin/feature-summary/credly-integration.md)
    * [Learning Tools Interoperability](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [LTI deep links](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)
@@ -302,9 +300,8 @@ nudge: true
          * [Theme JSON property reference](authors/feature-summary/content-composer/theme-json-reference.md)
    * [Settings](authors/feature-summary/settings.md) 
 * Instructor {#instructor}
-   * [Modules](instructors/feature-summary/
-   modules.md)
-   * [Evaluate and unsubmit a team submission](/help/migrated/instructors/feature-summary/evaluate-and-unsubmit-team-submission.md)
+   * [Modules](/help/migrated/instructors/feature-summary/modules.md)
+   * [Evaluate and unsubmit a team submission](/help/migrated/instructors/feature-summary/learners.md)
    * [Managing learners for your session](instructors/feature-summary/learners.md)
    * [Resend session invite](instructors/feature-summary/resend-session-invite.md)
 * Learner {#learner}
@@ -433,8 +430,7 @@ nudge: true
    * [How to submit a support ticket on Experience League](/help/migrated/how-to-submit-support-ticket.md)
    * [Create a trial account in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * API Changes {#api-changes}
-   * [Incremental User Report (Job API)](/help/migrated/incremental-user-report.md)
-   * [Discussion board instructor notifications](/help/migrated/discussion_board_instructor_notifications.md)
+   * [Incremental User Report (Job API)](/help/migrated/incremental-user-report.md)   
    * [API changes in the December 2026 release](/help/migrated/api-changes-dec-2026.md)
    * [API changes in the September 2026 release](/help/migrated/api-changes-sep-2026.md)
    * [API changes in the August 2026 release](/help/migrated/api-changes-august-2026.md)
