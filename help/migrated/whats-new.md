@@ -349,7 +349,7 @@ In large sessions, the following capabilities and behaviors apply:
 
 This allows organizations to run large training sessions within the same platform, with a room that can be set to the expected audience size.
 
-[Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
+[Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
 ## Channels
 

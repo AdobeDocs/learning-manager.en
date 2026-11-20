@@ -6,6 +6,8 @@ product_v2:
     internal-label: Learning Manager
 ---
 
+# Understand the closed captions
+
 Closed captions are generated automatically during a Live Hub session and update continuously as attendees speak. Captions appear in a dedicated display area and are displayed in the language selected by the Instructor in **Room settings**.
 
 Both Instructors and participants can view captions. Each attendee can show or hide captions independently without affecting the caption settings for other attendees.
