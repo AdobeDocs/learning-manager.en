@@ -5,37 +5,51 @@ title: Team submissions and rubrics in Adobe Learning Manager
 exl-id: fa22d160-770e-4a39-aa66-0f0c58eb1980
 ---
 
-# Group (team) submissions and rubric based assessments
+# Team submissions and evaluation in Adobe Learning Manager
 
-## Overview
+Many training programs depend on two things: learners who collaborate on real work, and instructors who evaluate that work consistently. For example, a sales onboarding program might ask new hires to analyze a client in small teams. A group of coaches then reviews every submission against the same standards. Team submissions and rubric-based evaluation in Adobe Learning Manager support programs like this.
 
-Team submissions let learners in a course instance work together and submit one file for the whole team. Rubric-based evaluation lets an instructor assess a submission against criteria that the author defines. You can use each feature on its own or together.
+Team submissions allow learners in a course instance to collaborate and submit a single file for the team. One member uploads the file, the instructor evaluates it once, and the score and feedback go to every team member. Rubric-based evaluation lets an instructor assess a submission against criteria that the author defines, so every learner is measured against the same standards. You can use each feature on its own or together. A rubric works for both individual and team submissions.
 
 >[!NOTE]
 >
 >Adobe enables team submissions for your account. If you don't see the team-based option, contact your Adobe Customer Success Manager or Adobe Support.
 
-## How team submissions work {#how-team-submissions-work}
+## Common use cases
 
-Instructors divide the learners in a course instance into teams. Any team member can upload the file, and the instructor evaluates it as one submission. The outcome applies to every member of the team.
+These features suit cohort-based programs, such as employee onboarding, partner enablement, and customer education. Typical scenarios include the following:
 
-Authors add a team-based file submission module to the course. Teams can be created manually by an instructor or automatically before the instance starts. One course can mix team and individual submission modules. All team modules in an instance share the same teams.
+* **Collaborative assignments.** A cohort of 25 new hires is divided into five teams of five. Each team analyzes a client company and its industry, and one member submits the team's analysis. The submission is complete for all five members, and the instructor evaluates it once.
+* **Consistent evaluation across coaches.** An organization wants every coach to apply the same standards. The author builds a rubric with criteria such as brevity, personalization, and question type, each rated on a four-level scale. The overall score is calculated from the ratings, so results don't depend on who evaluates.
+* **Detailed, actionable feedback.** Learners view their result for each criterion, their overall score, the instructor's written feedback, and the reviewer's name. They can apply that feedback in their next activity.
+* **Shared review workload.** One cohort can have several coaches. Any instructor assigned to the course instance can evaluate its submissions, so coaches can divide the work and finish quickly.
+* **Correcting mistakes.** An instructor evaluates the wrong learner, for example because two learners have similar names. The instructor unsubmits that submission and evaluates the correct learner. This works while the course isn't yet complete for the learner.
+
+Use team submissions when the work is collaborative. Use a rubric alone when each learner submits individually but you need consistent evaluation.
+
+## How team submissions work
+
+Authors add a team-based file submission module to the course before they publish it. One course can mix team and individual submission modules, and all team modules in an instance share the same teams.
+
+Instructors then divide the learners in each course instance into teams. They can create teams manually, or Adobe Learning Manager can create them automatically before the instance starts.
+
+Any team member can upload the file for the team, and the instructor evaluates it as one submission. The outcome applies to every member of the team.
 
 ## How rubric-based evaluation works
 
-A rubric is called an evaluation plan in the file submission module. Each module has at most one plan, and you can't reuse a plan in another module. The author describes the assessment and adds criteria. Instructors answer each criterion when they evaluate a submission.
+A rubric is called an evaluation plan in the file submission module. Each module has at most one plan, and you can't reuse a plan in another module. The author describes the assessment and adds criteria. Instructors answer each evaluation parameter when they evaluate a submission.
 
-* **Objective** has answer options. With criteria-based scoring, each option has points.
+* **Evaluation parameter** questions have answer options. With parameter-based scoring, each option has points.
 * **Subjective** questions are open questions. The instructor enters a written response.
 
-Authors can make a criterion optional, and can turn on remarks for each criterion and for the whole assessment. Because every instructor answers the same criteria, evaluation stays consistent across learners. The evaluation plan works for individual and team submissions.
+Authors can make a parameter optional, and can turn on remarks for each parameter and for the whole evaluation plan. Because every instructor responds to the same evaluation parameters, evaluation stays consistent across learners. The evaluation plan works for individual and team submissions.
 
 ## What each role does
 
-* **Admins** turn on automatic team formation for the account. View [how to turn on automatic team formation](/help/migrated/administrators/feature-summary/settings/basic-settings.md#enable-auto-team-formation).
-* **Authors** add a team-based module, create the evaluation plan, and publish the course. View [how to add a team-based module](/help/migrated/authors/feature-summary/courses.md#add-team-based-submission-module).
-* **Instructors** create teams and evaluate submissions. View [Create and manage teams](/help/migrated/instructors/feature-summary/learners.md#create-manage-teams).
-* **Learners** view their team and upload the team file. View [Submit an assignment as a team](/help/migrated/learners/feature-summary/submit-assignment-as-team.md).
+* **Authors** add a team-based file submission module and an evaluation plan to a course, and then publish it. View how to add a team-based module.
+* **Instructors** create teams for each course instance and evaluate each team's submission. View how to create and manage teams.
+* **Learners** work with their team, submit one file for the whole team, and view the evaluation result. View how to submit as a team.
+* **Administrators** can optionally turn on automatic team formation for the account. Team submissions work without it, and instructors can always create teams manually. View how to turn on automatic team formation.
 
 ## Where team submissions apply
 
@@ -43,13 +57,17 @@ Teams belong to a course instance, not to a learning path or certification.
 
 * A team-based course can be part of a learning path or a perpetual certification. Teams form from the instance's enrolled learners, however they enrolled.
 * If a learning path has several team-based courses, the instructor manages the teams for each course separately.
-* Automatic team creation uses the course instance start date, not a learning path date.
 * A team-based course can't be part of a recurring certification.
-* Adaptive courses don't support team-based modules.
+
+## How teams are formed
+
+Instructors create teams for each course instance from the learners who are enrolled in it. An instructor can create one team at a time or divide unassigned learners into several teams at once. Instructors can edit teams until a team submits its first file, which locks the team.
+
+Optionally, Adobe Learning Manager can create teams automatically before an instance starts.
 
 ## How automatic team formation works
 
-When an admin turns on automatic team formation and an author sets the rules for a course, Adobe Learning Manager creates teams for each instance before it starts. The feature does nothing unless the course has a team-based file submission module and the instance has a start date.
+Instructors can create teams manually. If you want Adobe Learning Manager to create teams for you, an admin can turn on automatic team formation for the account, and authors then set the rules for each course. Adobe Learning Manager then creates teams for each instance before it starts. The feature does nothing unless the course has a team-based file submission module and the instance has a start date.
 
 **When are teams created**
 
@@ -67,8 +85,29 @@ When an admin turns on automatic team formation and an author sets the rules for
 
 * The author chooses one rule for the course: **Members per team** or **Number of teams**. The value must be 1 or higher.
 * A team can have up to 100 members.
-* With **Members per team**, teams below the size are filled first, then full teams form. Leftover learners join existing teams one each if there are half the team size or fewer. If there are more, they form a new team.
-* With **Number of teams**, learners are divided evenly, so team sizes differ by at most one. If there are fewer learners than teams, fewer teams are created. No team is ever empty.
+* **Members per team:** You set the size of each team. Adobe Learning Manager forms as many full teams of that size as it can. Any learners who don't fill a whole team are leftovers.
+
+  * If the leftovers are half a team or fewer, each one joins a different team. Those teams end up one learner larger.
+  * If the leftovers are more than half a team, they form one smaller team of their own.
+  * If there aren't enough learners to form even one full team, all of them form one team.
+  * If some teams already exist and have fewer members than the size you set, Adobe Learning Manager fills them first.
+
+  With a team size of 5, one or two leftover learners join existing teams. Three or four leftover learners form a new team.
+
+  | Learners | Result with a team size of 5 | Reason |
+  |---|---|---|
+  | 25 | 5 teams of 5 | No leftovers. |
+  | 27 | 3 teams of 5 and 2 teams of 6 | 2 leftovers join two different teams. |
+  | 28 | 5 teams of 5 and 1 team of 3 | 3 leftovers are more than half a team, so they form their own team. |
+  | 3 | 1 team of 3 | Too few learners for a full team. |
+
+* **Number of teams:** You set how many teams you want. Adobe Learning Manager divides the learners as evenly as possible, so the largest team is never more than one learner bigger than the smallest. A team is never empty. If there are fewer learners than teams, fewer teams are created.
+
+  | Learners | Result with 5 teams | Reason |
+  |---|---|---|
+  | 25 | 5 teams of 5 | Divides evenly. |
+  | 23 | 3 teams of 5 and 2 teams of 4 | The 3 extra learners go to three different teams. |
+  | 3 | 3 teams of 1 | Fewer learners than teams, so only 3 teams are created. |
 
 **What automatic formation doesn't change**
 
@@ -88,10 +127,20 @@ When an admin turns on automatic team formation and an author sets the rules for
 The author controls what happens after a team submits.
 
 * **Reviewer approval is required:** The instructor must approve or reject the submission. The module completes only after approval.
-* **Reviewer approval is not required:** The module completes for every team member as soon as the team submits. The instructor can evaluate once, but the approve and reject options don't appear.
+* **Reviewer approval is not required:** The module completes for every team member as soon as the team submits.
 
 For scoring, the author chooses manual scoring or criteria-based scoring. With manual scoring, the instructor enters one overall score. With criteria-based scoring, the system calculates the score from the points on the selected options.
 
 ## What happens when an instructor unsubmits
 
-An instructor can unsubmit a submission when the course isn't yet complete for the team. The team unlocks, and the module returns to the pending submission state. Learners receive a notification and an email. A new submission replaces the earlier one, and the new evaluation replaces the earlier evaluation.
+Unsubmitting lets an instructor send a submission back so the team can submit again. For example, a team might have uploaded the wrong file, or a team member might have left and the team needs to change. An instructor can unsubmit only while the course isn't yet complete for the team members.
+
+Unsubmitting involves the following:
+
+1. **The instructor unsubmits** the submission and enters remarks. The module returns to the pending submission state, and the team unlocks. Team members receive a notification and an email. They don't see the earlier submission or comments.
+
+1. **The instructor edits the team, if needed.** For example, the instructor removes a member who left.
+
+1. **A team member uploads a new file.** Nothing is resubmitted automatically. The new file replaces the earlier one.
+
+1. **An instructor evaluates the new submission.** The new evaluation replaces the earlier one, and Adobe Learning Manager doesn't keep the earlier evaluation.
