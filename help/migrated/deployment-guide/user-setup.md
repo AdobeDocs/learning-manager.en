@@ -200,7 +200,7 @@ You can also create custom groups with a selected list of users in Learning Mana
 1. To add more users to the custom group, click **[!UICONTROL **Add More Users**.]**
 1. After adding all the users, click **[!UICONTROL Save]**to save the custom user group.
 
-# Character limits for usernames
+# Character limits for usernames {#character-limit-username}
 
 Adobe Learning Manager supports longer usernames so that you can bring users with long names into your account without trimming them. This is especially helpful when you migrate users from an external system or automate user creation.
 
