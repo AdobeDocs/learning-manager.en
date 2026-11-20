@@ -289,7 +289,7 @@ On the **General** page, you have the following options:
 >
 >For the new account, the Learner Homepage, Training Type, and Recommendation Scope settings will not be visible.
 
-## Add and reorder homepage strips in Adobe Learning Manager
+## Add and reorder homepage strips in Adobe Learning Manager {#add-reorder-homepage-strips}
 
 Add Personalized Learning Path and Virtual Coach strips to the learner homepage, and drag and drop strips to set the order learners see.
 
