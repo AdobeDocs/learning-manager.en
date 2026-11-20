@@ -87,7 +87,7 @@ Each Adobe Learning Manager account connects to one IMS organization (also calle
 
    ![](assets/aem-assets-integration4.png)
 
-Adobe Learning Manager then verifies your IMS Organization Administrator role and your instance access. If both checks pass, it links your account to the already created IMS account with AEM Assets Author API scope to the selected IMS organization and creates a technical account for your organization. The connection overview page then opens and shows the technical account details.
+Adobe Learning Manager then verifies your IMS Organization Administrator role and your instance access. If both the checks passes, it links your account to the already created IMS account with AEM Assets Author API scope to the selected IMS organization and creates a technical account for your organization. The connection overview page then opens and shows the technical account details.
 
 ### Find the technical account
 

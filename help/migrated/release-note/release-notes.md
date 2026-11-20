@@ -190,7 +190,7 @@ This change affects customers who use disabled catalogs for non-logged-in experi
 
 **Live Hub accessibility:** Accessibility improvements address issues related to screen readers, keyboard navigation, closed captions, color contrast, and zoom and reflow, improving usability for participants.
 
-### Known issues
+## Known issues in the release
 
 **Course overview page shows the wrong instance details for multi-instance courses**
 The course overview page may show the deadline, sessions, or enrollment count of an earlier instance instead of the current active instance.
