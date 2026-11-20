@@ -131,7 +131,7 @@ To add Instructors using Instructor Finder:
 
 1.  Navigate to the Instructor that you want to assign, and then select **Add**. <br> The selected instructor is added to the **Instructors** field as a tag.
 
-## Create a course for large session {create-large-session}
+## Create a course for large session {#create-large-session}
 
 Live Hub supports large sessions of up to 5,000 attendees. When you create a course with this capacity, Live Hub automatically configures the room for a large audience and applies the corresponding feature restrictions.
 
