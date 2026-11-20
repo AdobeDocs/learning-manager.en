@@ -31,7 +31,6 @@ The December 2026 release of Adobe Learning Manager introduces charts and dashbo
 
 Live Hub now supports sessions of up to 5,000 attendees, multilingual closed captions, and a localized interface. Live Hub is now generally available for Ultimate customers, while Channels are generally available for all customers.
 
-
 ## Features in this release
 
 **Report Builder charts and dashboards:** Administrators can now visualize report data in Report Builder. Create big number, line, bar, and pie charts, and pivot tables from report columns, with aggregation and filtering in each chart. A report dashboard holds charts built from one report. A custom dashboard combines charts from several reports and supports up to 20 widgets. Charts that belong to a report are shared when you share the report. Dashboards can't be exported.
@@ -42,9 +41,9 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 
 **File submission enhancements:** File submission modules now support the following:
 
-- **Team submissions:** Instructors create teams of up to 100 members. Each team submits one file, and the Instructor's evaluation applies to every member. Instructors manage teams on the new **Teams management** page.
-- **Evaluation Plan assessments:** Authors defines an Evaluation Plan, with objective questions that have scored options and subjective questions that have written review. An Evaluation Plan holds up to 100 questions.
-- **Instructor approval or automatic completion:** Authors choose whether a submission requires Instructor approval or is completed automatically. This setting is independent of the evaluation plan.
+* **Team submissions:** Instructors create teams of up to 100 members. Each team submits one file, and the Instructor's evaluation applies to every member. Instructors manage teams on the new **Teams management** page.
+* **Evaluation Plan assessments:** Authors defines an Evaluation Plan, with objective questions that have scored options and subjective questions that have written review. An Evaluation Plan holds up to 100 questions.
+* **Instructor approval or automatic completion:** Authors choose whether a submission requires Instructor approval or is completed automatically. This setting is independent of the evaluation plan.
 
 **Model Context Protocol server for Learner Assistant:** Learners can access Learning Manager from tools they already use, such as ChatGPT, Claude, and custom agents, through a Model Context Protocol (MCP) server. Administrators configure the server in the Integration Administrator app. It provides search, list enrollments, get learning object, get user profile, answer learning content question, and get Personalized Learning Path capabilities.
 
@@ -54,9 +53,9 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 
 **Non-logged-in enhancements:** Learning Manager now enables controlled access to learning content without requiring users to sign in.
 
-- **Content consumption without logging in:** Administrators turn non-logged-in access on or off for the account. Authors make an entire course, or specific modules, available without login. Learning Paths and certifications follow the settings of the courses inside them. Only self-paced content is supported.
-- **Public catalogs:** Administrators choose which catalogs appear in the public academy.
-- **Discovery by search engines and AI assistants (Beta):** Public academies can be discovered by search engines and AI assistants. Each academy gets its own sitemap and robots.txt, and Learning Manager generates meta titles, meta descriptions, and structured data automatically. This capability requires a custom domain on native Adobe Learning Manager.
+* **Content consumption without logging in:** Administrators turn non-logged-in access on or off for the account. Authors make an entire course, or specific modules, available without login. Learning Paths and certifications follow the settings of the courses inside them. Only self-paced content is supported.
+* **Public catalogs:** Administrators choose which catalogs appear in the public academy.
+* **Discovery by search engines and AI assistants (Beta):** Public academies can be discovered by search engines and AI assistants. Each academy gets its own sitemap and robots.txt, and Learning Manager generates meta titles, meta descriptions, and structured data automatically. This capability requires a custom domain on native Adobe Learning Manager.
 
 **Virtual Coach:** Virtual Coach is an AI-powered role-play and coaching solution that allows Learners practice realistic workplace conversations. It supports nine languages and can be used as a standalone job aid or embedded within a course. 
 
@@ -114,12 +113,12 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 
 ## API changes
 
-- **Bookmark API ordering and retired content handling:** Bookmarks are now returned newest first, and bookmarks to retired learning objects are no longer returned. No endpoints, parameters, or response attributes are added.
-- **APIs for discussion board Instructor notifications:** New APIs subscribe Instructors and cohort managers to discussion boards and control which activity appears in their digest emails.
-- **API support for multi-enrolled instances in the Learner app:** Add the optional `includeMultiInstanceEnrollments=true` parameter to `GET /enrollments` to include multi-enrolled instances. The default is `false`.
-- **Last access date for Learning Paths enrollment:** Set custom metadata on a Learning Path enrollment with an admin token. Read it with an admin or Learner token.
-- **Job API job type for Report Builder exports:** The new `generateCustomReport` job type exports a saved Report Builder report by report ID. Existing job types, including `generateQuizReport`, are unchanged.
-- **APIs for the Zoom connector:** New APIs retrieve and manage Zoom connections, save Zoom credentials, and set the user groups and custom roles that can use a connection. The APIs use session-based authentication and require an Integration Administrator login.
+* **Bookmark API ordering and retired content handling:** Bookmarks are now returned newest first, and bookmarks to retired learning objects are no longer returned. No endpoints, parameters, or response attributes are added.
+* **APIs for discussion board Instructor notifications:** New APIs subscribe Instructors and cohort managers to discussion boards and control which activity appears in their digest emails.
+* **API support for multi-enrolled instances in the Learner app:** Add the optional `includeMultiInstanceEnrollments=true` parameter to `GET /enrollments` to include multi-enrolled instances. The default is `false`.
+* **Last access date for Learning Paths enrollment:** Set custom metadata on a Learning Path enrollment with an admin token. Read it with an admin or Learner token.
+* **Job API job type for Report Builder exports:** The new `generateCustomReport` job type exports a saved Report Builder report by report ID. Existing job types, including `generateQuizReport`, are unchanged.
+* **APIs for the Zoom connector:** New APIs retrieve and manage Zoom connections, save Zoom credentials, and set the user groups and custom roles that can use a connection. The APIs use session-based authentication and require an Integration Administrator login.
 
 ## Breaking changes in this release
 
@@ -227,7 +226,7 @@ The dashboard and the downloaded report are not consistent for deleted courses. 
 **Column names are not localized in the exported Classroom Locations CSV**
 When the UI locale is set to a language other than English, the CSV file exported from the Classroom Locations page displays its column names (the header row) in English rather than in the selected language.
 
-This behavior occurs during the export of Classroom Locations from Admin profile > Settings > Classroom Locations. While the location data within the file is returned correctly, the column headers are not translated to match the Administrator’s chosen UI locale. As a result, an Administrator working in a non-English locale sees English column names in an otherwise localized environment.
+This behavior occurs during the export of Classroom Locations from Admin profile > Settings > Classroom Locations. While the location data within the file is returned correctly, the column headers are not translated to match the Administrator's chosen UI locale. As a result, an Administrator working in a non-English locale sees English column names in an otherwise localized environment.
 
 Only the header row is affected; the underlying location data in the exported file is unaffected. No fix is included in this release, and the issue is being evaluated for a future release.
 
@@ -244,6 +243,22 @@ Adobe Learning Manager supports live captions in multiple languages, with varyin
 | 10% and above | Reduced accuracy | Norwegian, Danish |
 
 This is a known limitation in the current release. Enhancements to improve caption accuracy and quality across supported languages are planned for a future release.
+
++++
+
++++Update 113: October 27, 2026 release of Adobe Learning Manager
+
+## Enhancement in this release
+
+Go1 integration: The Go1 integration in Adobe Learning Manager has been enhanced to make course completion tracking more reliable. Learners' Go1 completions are now recorded accurately, even if they leave the course player right after finishing. This fix helps ensure that learner transcripts and administrator reports stay complete and up to date. No configuration is needed, and existing Go1 courses continue to work as before. [Learn more](/help/migrated/integration-admin/feature-summary/go1-webhooks.md).
+
+## Bugs fixed
+
+**Mobile device:** On iPhones using iOS Safari, launching a course in portrait orientation from the catalog or search CTA displayed the "Please rotate your device" prompt. The prompt remained even after rotating to landscape, preventing the course from starting. This issue has been fixed, and the player now recovers on rotation and launches the course as expected.
+
+**Learner:** Learners couldn't submit Excel, PowerPoint, video, ZIP, and other file types in File Submission modules and received a generic error. This issue has been fixed, and learners can now upload and submit these file types as expected.
+
+**Email template:** Calendar invite emails displayed a blank body and an empty .ics event description when session templates were unlinked from the Global Layout. This issue has been fixed, and unlinked templates now display the configured session details and layout content in both the email and calendar event description as expected.
 
 
 +++Update 112: September 30, 2026 release of Adobe Learning Manager
