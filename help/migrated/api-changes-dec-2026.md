@@ -1346,6 +1346,208 @@ When you build the report from the L2 quiz dataset in Report Builder:
 * Learner details, custom and metadata attributes, manager, and course and module names are available through the related user and learning object datasets.
 * Data refreshes at the standard Report Builder interval (approximately every 15 minutes).
 
+## Job API: Export Report Builder reports with generateCustomReport
+
+Adobe Learning Manager December 2026 release adds a new job type, generateCustomReport, to the Job API. Use it to export any report you created in Report Builder, in an automated way, by passing the report ID.
+
+Combined with the new L2 quiz dataset in Report Builder, you can now:
+
+- Export question-level (L2) quiz data across multiple courses and modules in a single report, instead of running generateQuizReport once for each course.
+
+- Automate recurring exports, for example, a daily incremental export to your data warehouse or BI tool.
+
+Existing job types, including generateQuizReport, are unchanged.
+
+### Before you begin
+
+- You must be an Admin. The generateCustomReport job type isn't available to other roles.
+
+- Create and save the report in Report Builder first. For L2 quiz data, build the report from the L2 quiz dataset, and include the question-level fields you need, such as question text, learner response, score, attempt number, and answered-on date.
+
+- Note the report's ID. You pass it in the request as reportId.
+
+### Create a job
+
+**Endpoint**
+
+POST /primeapi/v2/jobs
+
+**Request body**
+
+{
+
+"data": {
+
+"type": "job",
+
+"attributes": {
+
+"description": "Daily L2 quiz export",
+
+"jobType": "generateCustomReport",
+
+"payload": {
+
+"reportId": "1478"
+
+}
+
+}
+
+}
+
+}
+
+**Attributes**
+
+| **Attribute** | **Required** | **Description** |
+|----|----|----|
+| jobType | Yes | Must be generateCustomReport. |
+| payload.reportId | Yes | The ID of the saved Report Builder report, as a string. Must be a positive integer, passed as a string, for example "1478".” Sending a number, 0, a negative, a decimal or an empty value returns an error. |
+| description | No | A description of your choice for the job. |
+| callbackUrl | No | A URL to call when the job completes. Works the same way as for other job types. |
+| payload.filters | No | See the section below. |
+
+### Override the date filter (optional)
+
+"payload": {
+
+"reportId": "1478",
+
+"filters": \[
+
+{ "columnName": "L2 Quiz - Response - Timestamp", "operator": "gte", "val": "2026-11-15T00:00:00.000Z" }
+
+\]
+
+}
+
+- It replaces the report’s saved date filter for this run only. The export covers val (inclusive) up to the time the job runs.
+
+- columnName uses the format \<Dataset name\> - \<Field name\>. It must match a date filter that already exists in the report. It isn’t case-sensitive, but spacing and hyphens must match exactly.
+
+- operator is optional, and only gte is allowed.
+
+- val is an ISO 8601 UTC time within the last 7 days. Times are truncated to the second.
+
+- You can override several columns. An empty list means the saved filters are used.
+
+- Use case: a daily incremental export that starts where the previous one ended.
+
+### Errors returned when you create a job
+
+| **Cause** | **Message** |
+|----|----|
+| reportId missing | reportId is required |
+| reportId isn’t a positive integer string | reportId must be a positive integer string |
+| Date not in ISO format | filters.val must be in ISO format, e.g. 2020-01-01T18:30:00.000Z |
+| Date older than 7 days, or in the future | filters.val must be within the last 7 days |
+| Operator other than gte | filters.operator must be gte |
+| Same column given twice | Duplicate filter column: \<column\> |
+| Column isn’t a filter in the report | Unsupported custom report filter column: \<column\> |
+| A job for the same report is still running | There exists an similar job with id = \<jobId\> which has not finished yet |
+
+Only problems with the saved report definition are detected when the job runs. In that case, the job status becomes Failed, and no reason is returned.
+
+### Report requirements
+
+The job fails with an error message if the report doesn't meet these conditions:
+
+- The report definition includes a relative date filter, for example, last 7 days.
+
+- Every date filter in the report must cover 7 days or less, not just one.
+
+- Fixed date ranges, with a set start and end date, aren’t supported, and the job fails.
+
+- A report with no date filter fails. This includes reports built on datasets that have no date field.
+
+**Note**: The POST request is validated immediately. An invalid request is rejected with HTTP 400, and the reason is in source.info.
+
+### Check the job status and download the report
+
+**Endpoint**
+
+GET /primeapi/v2/jobs/{jobId}
+
+The response uses the same structure as other job types. When the job completes, status.code is Completed, and status.data.s3Url contains the download link.
+
+{
+
+"data": {
+
+"type": "job",
+
+"id": "12345",
+
+"attributes": {
+
+"jobType": "generateCustomReport",
+
+"payload": {
+
+"reportId": "1478"
+
+},
+
+"status": {
+
+"code": "Completed",
+
+"data": {
+
+"s3Url": "valid for 7 days"
+
+}
+
+}
+
+}
+
+}
+
+}
+
+The API returns Submitted, Completed and Failed. The file is a single CSV named report.csv.
+
+**Note**: The download URL is valid for seven days. Download the file as soon as the job completes.
+
+**Important**: Anyone with the link can download the file without signing in. Handle the link as you would the data it contains.
+
+**Failed job sample**
+
+"status": { "code": "Failed" }
+
+### Limits
+
+Only one generateCustomReport job for a report can run at a time. A second request is rejected until the first finishes.
+
+### L2 quiz report output
+
+- When you build a report from the L2 quiz dataset in Report Builder and export it with generateCustomReport, the output has these characteristics:
+
+- The output is a single CSV file named report.csv. The module is a column in the file. If you select a course, the report returns only its quiz modules.
+
+- Each row represents one learner’s response to one question in one attempt.
+
+- Data refreshes at the standard Report Builder interval (approximately every 15 minutes).
+
+- Date and time values are in your account’s time zone. The column header shows the time zone, for example, L2 Quiz - Response - Timestamp (America/Argentina/Salta).
+
+### Fields in the L2 quiz dataset
+
+| **Category** | **Fields** |
+|----|----|
+| Learner | User ID |
+| Course | Course ID, Course Instance ID, Course Name |
+| Module | Module ID, Module Name, Module Version |
+| Question | Question ID, Question Text, Correct Answer, Interaction Type |
+| Response | Response Answer, Achieved Score, Maximum Possible Score, Is Correct, Response Timestamp |
+| Attempt | Attempt Number |
+
+**Note:** The L2 quiz dataset isn’t linked to other Report Builder datasets. Learner name, email, manager, and custom attributes aren’t available in this report. To match a row to a learner, use the User ID.
+
+You can also export reports built on other Report Builder datasets with generateCustomReport. The fields available in the output depend on the dataset.
+
 ## APIs to create and manage the Zoom connector
 
 Use these APIs to manage Zoom connections in Adobe Learning Manager. You can retrieve existing connections, save Zoom credentials, create or update connections, configure access permissions for user groups and custom roles, and enable or disable a connection.
