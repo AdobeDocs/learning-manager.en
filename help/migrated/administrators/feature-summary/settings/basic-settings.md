@@ -398,37 +398,47 @@ When courses are chargeable, authors can specify the course, Learning Path, or c
 >
 >Certain types of training, such as recurring certifications and manager-approved courses, cannot be purchased.
 
-### Auto team formation for team based submissions {#enable-auto-team-formation}
+# Turn on automatic team formation in Adobe Learning Manager
 
-Turn on automatic team formation so Adobe Learning Manager groups enrolled learners into teams before each course instance starts.
+Turn on automatic team formation in the administrator settings, so Adobe Learning Manager groups enrolled learners into teams before each course instance starts.
+
+This setting is optional. Team submissions work without it, and instructors can create teams manually.
 
 When you turn on this account setting, Adobe Learning Manager automatically groups enrolled learners into teams a set number of days before the start of each course instance. The setting is off by default. Authors can adjust the schedule for their courses, and instructors can still create teams manually.
 
+## Turn on automatic team formation
+
 1. In the administrator app, select **Settings** > **General**.
-2. In **Auto team formation for team based submissions section**, select **Edit**. The option remains disabled by default.
 
-   ![](/help/migrated/administrators/feature-summary/assets/team-submission1.png)
+1. In **Auto team formation for team based submissions section**, select **Edit**. The option remains disabled by default.
 
-3. Select the **Enable** checkbox.
+   ![Auto team formation section in General settings](assets/Group-(Team)-submission-and-rubric-based-assessments-image1.png "Auto team formation section")
 
-   ![](/help/migrated/administrators/feature-summary/assets/team-submission2.png)
+1. Select the **Enable** checkbox.
 
-4. Under **Team formation schedule**, enter the number of days in the **Create teams** field. The value must be 0 or higher. This field is required.
+   ![Enable checkbox for automatic team formation](assets/Group-(Team)-submission-and-rubric-based-assessments-image2.png "Enable checkbox")
 
-   ![](/help/migrated/administrators/feature-summary/assets/team-submission3.png)
+1. Under **Team formation schedule**, enter the number of days in the **Create teams** field. The value must be 0 or higher. This field is required.
 
-5. Select **Save**.
+   ![Create teams field in the team formation schedule](assets/Group-(Team)-submission-and-rubric-based-assessments-image3.png "Team formation schedule")
+
+1. Select **Save**.
 
 The setting works only for courses that have a team-based file submission module and an instance start date.
 
-#### Effect on courses
+## How changes affect courses
 
-* The setting and the schedule you enter apply only to courses created after you save. Existing courses keep their configured behavior and schedule.
-* If you turn the setting off, courses that already use automatic team formation keep working as configured. Only new courses are affected.
-* Authors can adjust the schedule for a course during setup. View [how authors set team rules](/help/migrated/authors/feature-summary/courses.md#enable-automatic-team-formation).
+When you change this setting, the change applies only to courses that you create after you save it. Courses that already exist keep the configuration they were published with, whether automatic team formation was on or off, and they keep their schedule. For example, if you turn the setting on in March, courses created in February don't get it, and courses created in March or later do.
+
+Adobe Learning Manager doesn't apply the change to existing courses because that could disrupt the authors, instructors, and learners who are already working with those courses. Authors and instructors can continue with the configuration the course was published with. If someone needs a different configuration, they can create a new course and let the people involved know what is changing.
+
+You can change the setting at any time. Whatever you choose applies to all courses created after that, until you change it again. This lets you set the policy that suits your organization.
+
+* If you turn the setting off, courses that already use automatic team formation keep working as configured.
+* Teams that were already formed stay in place, and instructors can still edit them.
+* When authors create a new course, they can adjust the schedule for that course. View how authors set team rules.
 
 After you turn the setting off, teams that were already formed stay in place. Instructors can still edit them.
-
 
 ### Enable Multi Item SKU Cart
 
