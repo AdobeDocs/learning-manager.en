@@ -165,7 +165,7 @@ A team-based file submission module lets one learner submit a file on behalf of 
 
 1. Select the team-based option. The individual option is the earlier file submission module for single learners.
 
-   ![Team-based option for the file submission module](assets/Group-(Team)-submission-and-rubric-based-assessments-image4.png "Team-based option")
+   ![Team-based option for the file submission module](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Team-based option")
 
 1. Select the instructor or instructors.
 
@@ -187,7 +187,7 @@ A course can have team-based and individual submission modules together. All tea
    * Select manual scoring to let the instructor enter one overall score.
    * Select criteria-based scoring to calculate the score from the points on each evaluation plan option. This method requires an evaluation plan.
 
-      ![Review and scoring options for the team-based file submission module](assets/Group-(Team)-submission-and-rubric-based-assessments-image5.png)
+      ![Review and scoring options for the team-based file submission module](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
@@ -207,7 +207,7 @@ An evaluation plan is the set of questions that instructors use to assess a subm
 
 1. Choose whether learners can view the evaluation plan before they submit. This is off by default. Learners see the assessment description and each criterion's description. They don't see the answer options, points, or weightage.
 
-   ![Evaluation plan settings for a file submission module](assets/Group-(Team)-submission-and-rubric-based-assessments-image6.png "Evaluation plan settings")
+   ![Evaluation plan settings for a file submission module](assets/Group-Team-submission-and-rubric-based-assessments-image6.png "Evaluation plan settings")
 
 #### Add evaluation parameters to the evaluation plan
 
@@ -215,17 +215,17 @@ You can add up to 100 evaluation parameters. Each parameter is either objective 
 
 1. Select **Define parameters**. Enter the parameter text in the Parameter/Question field.
 
-   ![Define parameters option with the Parameter/Question field](assets/Group-(Team)-submission-and-rubric-based-assessments-image7.png "Define parameters")
+   ![Define parameters option with the Parameter/Question field](assets/Group-Team-submission-and-rubric-based-assessments-image7.png "Define parameters")
 
 1. Select the parameter type:
 
    * **Objective:** The instructor selects from answer options. Add the options.
 
-     ![Objective parameter with answer options](assets/Group-(Team)-submission-and-rubric-based-assessments-image8.png "Objective parameter")
+     ![Objective parameter with answer options](assets/Group-Team-submission-and-rubric-based-assessments-image8.png "Objective parameter")
 
    * **Subjective:** The instructor writes a descriptive response.
 
-     ![Subjective parameter with a descriptive response](assets/Group-(Team)-submission-and-rubric-based-assessments-image9.png "Subjective parameter")
+     ![Subjective parameter with a descriptive response](assets/Group-Team-submission-and-rubric-based-assessments-image9.png "Subjective parameter")
 
 1. For an objective parameter with criteria-based scoring, enter whole-number points for each option. Negative numbers are allowed. Each option needs a point value.
 
@@ -324,17 +324,17 @@ The course must include a team-based submission module. Each instance needs a st
 
 1. Select **Enable**.
 
-   ![Enable option for automatic team formation in course settings](assets/Group-(Team)-submission-and-rubric-based-assessments-image10.png "Enable automatic team formation")
+   ![Enable option for automatic team formation in course settings](assets/Group-Team-submission-and-rubric-based-assessments-image10.png "Enable automatic team formation")
 
 1. Review the **Team formation schedule**. If your administrator turned on the account setting, it shows the number of days they set. Teams are created that many days before the instance start date.
 
 1. Optional: To change the number of days for this course, select **Edit**, select **Yes** on the warning, and then enter a new number.
 
-   ![Warning shown when editing the team formation schedule](assets/Group-(Team)-submission-and-rubric-based-assessments-image11.png "Edit warning")
+   ![Warning shown when editing the team formation schedule](assets/Group-Team-submission-and-rubric-based-assessments-image11.png "Edit warning")
 
 1. Change the value to a different one.
 
-   ![Team formation schedule value field](assets/Group-(Team)-submission-and-rubric-based-assessments-image12.png "Team formation schedule value")
+   ![Team formation schedule value field](assets/Group-Team-submission-and-rubric-based-assessments-image12.png "Team formation schedule value")
 
 1. Review the **Team formation schedule**. It starts with the account value. To use a different lead time, enter a new number of days.
 
@@ -342,11 +342,11 @@ The course must include a team-based submission module. Each instance needs a st
 
    * Select **Members per team** and enter the number of learners for each team.
 
-     ![Members per team option](assets/Group-(Team)-submission-and-rubric-based-assessments-image13.png "Members per team")
+     ![Members per team option](assets/Group-Team-submission-and-rubric-based-assessments-image13.png "Members per team")
 
    * Select **Number of teams** and enter the total number of teams.
 
-     ![Number of teams option](assets/Group-(Team)-submission-and-rubric-based-assessments-image14.png "Number of teams")
+     ![Number of teams option](assets/Group-Team-submission-and-rubric-based-assessments-image14.png "Number of teams")
 
 1. Save your changes, and then publish the course.
 
@@ -354,7 +354,7 @@ The course must include a team-based submission module. Each instance needs a st
 >
 >After you publish, you can't turn automatic team formation on or off for the course, and you can't change the lead time. You can still change the rule for forming the teams and its value.
 
-![Published course with automatic team formation settings](assets/Group-(Team)-submission-and-rubric-based-assessments-image15.png "Published course settings")
+![Published course with automatic team formation settings](assets/Group-Team-submission-and-rubric-based-assessments-image15.png "Published course settings")
 
 ## Set the instance start date
 
@@ -362,7 +362,7 @@ The course must include a team-based submission module. Each instance needs a st
 
 1. Enter a start date and select **Save**.
 
-   ![Instance start date field](assets/Group-(Team)-submission-and-rubric-based-assessments-image16.png "Instance start date")
+   ![Instance start date field](assets/Group-Team-submission-and-rubric-based-assessments-image16.png "Instance start date")
 
 Teams are created at 12:00 am on the lead-time day, in the time zone of the instance. For example, with a lead time of 3 days, teams are created at 12:00 am three days before the start date. The start date only sets this timing. It doesn't block enrollment.
 
