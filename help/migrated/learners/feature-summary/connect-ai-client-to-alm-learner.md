@@ -7,11 +7,9 @@ exl-id: dfb3d08d-405d-468c-9126-71a345815d5c
 
 # Connect your AI client to Adobe Learning Manager
 
-## Overview
+Your integration administrator must set up the connector first. If you don't see an Adobe Learning Manager connector, contact your administrator. **The client is available only to the Adobe Learning Manager Ultimate tier**.
 
-Your administrator must set up the connector first. If you don't see an Adobe Learning Manager connector, contact your administrator. Administrators can refer to [Add Adobe Learning Manager to your AI client.](/help/migrated/administrators/feature-summary/add-alm-to-ai-client.md)
-
-## Connect your AI client
+Administrators can refer to [Add Adobe Learning Manager to your AI client.](/help/migrated/administrators/feature-summary/add-alm-to-ai-client.md)
 
 1. Open your organization's AI client, such as Claude or ChatGPT Enterprise.
 2. Find the Adobe Learning Manager connector in the list of connectors.

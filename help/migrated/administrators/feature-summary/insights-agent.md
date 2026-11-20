@@ -17,9 +17,9 @@ Insights Agent is designed to reduce the steps between having a data question an
 
 You can use Insights Agent to:
 
-- Check completion and compliance metrics by region, department, or user group
-- Analyze enrollment trends across courses or Learning Paths
-- View progress data for a specific course or Learning Path
+* Check completion and compliance metrics by region, department, or user group
+* Analyze enrollment trends across courses or Learning Paths
+* View progress data for a specific course or Learning Path
 
 Every query returns a formatted table or downloadable CSV file, along with a plain-language explanation of how the results were calculated.
 
@@ -27,9 +27,9 @@ Every query returns a formatted table or downloadable CSV file, along with a pla
 
 The following data types are outside the scope Insights Agent currently:
 
-- Feedback and survey data
-- Gamification points and badges
-- Audit history and change logs
+* Feedback and survey data
+* Gamification points and badges
+* Audit history and change logs
 
 Queries that reference these data types will not return results. For example, "How many gamification points were awarded last quarter?" or "Which learners have earned a compliance badge?" will return an error or incomplete data.
 

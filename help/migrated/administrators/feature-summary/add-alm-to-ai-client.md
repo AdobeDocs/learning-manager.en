@@ -7,9 +7,7 @@ exl-id: d893efb7-dc0d-4a3a-88d6-b315340e5daa
 
 # Add Adobe Learning Manager to your enterprise AI client
 
-## Overview
-
-You need administrator privileges in your AI client. Get the MCP endpoint URL, client ID, and secret key from your Adobe Learning Manager administrator first. View [Configure a Model Context Protocol server](/help/migrated/administrators/feature-summary/configure-mcp-admin.md) for more details.
+You need administrator privileges in your AI client. Get the MCP endpoint URL, client ID, and secret key from your Adobe Learning Manager administrator first. View **Configure a Model Context Protocol server** for more details.
 
 ## Add the connector
 
@@ -28,4 +26,5 @@ You need administrator privileges in your AI client. Get the MCP endpoint URL, c
 ## Troubleshooting
 
 **Learners don't see the connector.** Confirm that the connector is enabled for the learner's workspace or group.
+
 **Authorization fails when a learner selects Connect.** Check that the client ID and secret key match the values on the **Client credentials** page of the server in Adobe Learning Manager.

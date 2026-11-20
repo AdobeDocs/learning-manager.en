@@ -54,7 +54,7 @@ Instructors can now create teams for file submissions. Each team submits one fil
 
 Instructors manage teams on a new **Teams management** page and review work on a team submissions page. Instructors can also unsubmit an approved submission to unlock the team when changes are required, such as when a team member leaves. A team holds up to 100 members. Learners can view their team, its members, and the evaluation result. Team modules can't be added or deleted after a course is published.
 
-### Rubric-based assessments
+### Evaluation Plan
 
 Authors can now define a rubric, called an evaluation plan, for file submission modules. A rubric supports objective questions with scored options and subjective questions with written review.
 
@@ -123,7 +123,7 @@ Adobe Learning Manager now marks attendance when a Learner plays the recording o
 
 ## Email Builder for courses and instances
 
-Email Builder in Adobe Learning Manager allows Administrators and Authors to create branded Learner communication templates. In the December 2026 release of Learning Manager, the full Email Builder experience is available for course-level and instance-level emails. Authors can customize these emails while inheriting the layouts and formatting that Administrators define.
+Email Builder in Adobe Learning Manager lets administrators and authors create branded learner communication templates. In the December 2026 release of ALM, the full Email Builder experience is available for course-level and instance-level emails. Authors can customize these emails while inheriting the layouts and formatting that administrators define.
 
 With Email Builder, you can:
 
@@ -137,42 +137,42 @@ Administrators create account-wide email templates and layouts. Authors customiz
 
 Banner and signature settings have moved. Earlier, these settings appeared on a separate **Settings** tab. That tab is removed, and **Banner** and **Signature** now appear in **Global Layout**.
 
-### Email Builder hierarchy
+With Email Builder, you can add email titles with the Title variable. 
+
+### How the Email Builder hierarchy works
 
 Email Builder uses a hierarchy. Each level inherits from its parent level and allows local customization.
 
-| **Level**         | **What it provides**                                                                                                | **Who customizes it** |
-|-------------------|---------------------------------------------------------------------------------------------------------------------|-----------------------|
-| Account layout    | Branding, fonts, colors, and header and footer structure                                                            | Administrators        |
-| Account template  | Global email styling, common messaging components, and shared branding                                              | Administrators        |
-| Course template   | Course-specific emails, such as enrollment messages, course reminders, completion emails, and session notifications | Authors               |
-| Instance template | The highest level of customization, such as cohort-specific, session-specific, or regional messages                 | Authors               |
+| **Level** | **What it provides** | **Who customizes it** |
+|----|----|----|
+| Account layout | Branding, fonts, colors, and header and footer structure | Administrators |
+| Account template | Global email styling, common messaging components, and shared branding | Administrators |
+| Course template | Course-specific emails, such as enrollment messages, course reminders, completion emails, and session notifications | Authors |
+| Instance template | The highest level of customization, such as cohort-specific, session-specific, or regional messages | Authors |
 
 All courses can inherit from account templates. Course emails inherit the organization's layout and allow content customization.
 
-### Layout inheritance
+### About layout inheritance
 
-A template links to the nearest available layout. An instance-level template links to an instance-level layout if one exists. If none exists, the template links to the nearest parent layout. You can view which level a layout comes from.
+A template links to the nearest available layout. An instance-level template links to an instance-level layout if one exists. If none exists, the template links to the nearest parent layout. You can see which level a layout comes from.
 
 When a template is linked to a layout:
 
-* Branding flows into the template automatically.
-* Authors update only the content.
-* The layout reduces duplication across messages.
+* Branding flows into the template automatically
+* Authors update only the content
+* Duplication is reduced across messages
 
 You can unlink a template from its layout. After you unlink a template:
 
-* The template keeps its existing design.
-* Future layout updates don't affect the template.
-* The template becomes independently editable.
+* The template keeps its existing design
+* Future layout updates don't affect the template
+* The template becomes independently editable
 
-Layout inheritance depends on the parent layouts that are available. When both levels exist, instance-level emails override course-level templates.
+Layout inheritance depends on the parent layouts that are available. When both exist, instance-level emails override course-level templates.
 
-### Administrator and Author workflow
+### How administrators and authors share the work
 
-Admins use account-level templates to keep messages consistent across the account, which they manage by creating a layout and a template, then publishing the branding.
-
-Authors use instance-level templates when cohorts need different messages, which they manage through course instances.
+Administrators create an account layout, create an account template, and publish the branding. Authors then inherit the layout, customize the course email, save the template, and publish the course. Authors use instance-level templates when cohorts need different messages, which they manage through course instances.
 
 ### Availability of Email Builder for course and instance emails
 
