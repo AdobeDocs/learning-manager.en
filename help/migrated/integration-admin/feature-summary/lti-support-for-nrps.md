@@ -92,7 +92,7 @@ The NRPS 2.0 specification defines custom data as a `message` array in the membe
 
 Platforms can also send custom attributes as custom parameters in the LTI launch token. Learning Manager collects attributes from both the launch token and the NRPS endpoint and stores them in the learner profile.
 
-For attributes in the launch token, the  parameter name must start with the prefix that Learning Manager requires. Without the prefix, Learning Manager can't distinguish these parameters from other custom parameters and doesn't import them. Attributes retrieved from the NRPS endpoint don't need this prefix.
+For attributes in the launch token, the  parameter name must start with the prefix `almfield-` that Learning Manager requires. Without the prefix, Learning Manager can't distinguish these parameters from other custom parameters and doesn't import them. Attributes retrieved from the NRPS endpoint don't need this prefix. This prefix is only required if custom parameters are imported in the launch token for ALM to identify the field it should sync to learner active fields.
 
 >[!NOTE]
 >

@@ -54,9 +54,9 @@ Instructors can now create teams for file submissions. Each team submits one fil
 
 Instructors manage teams on a new **Teams management** page and review work on a team submissions page. Instructors can also unsubmit an approved submission to unlock the team when changes are required, such as when a team member leaves. A team holds up to 100 members. Learners can view their team, its members, and the evaluation result. Team modules can't be added or deleted after a course is published.
 
-### Evaluation Plan
+### Rubric-based assessments (Evaluation Plan)
 
-Authors can now define a rubric, called an evaluation plan, for file submission modules. A rubric supports objective questions with scored options and subjective questions with written review.
+Authors can now define a rubric, called an Evaluation Plan, for file submission modules. A rubric supports objective questions with scored options and subjective questions with written review.
 
 Authors can also configure the following settings:
 
@@ -67,7 +67,7 @@ Each question can be marked as required and configured to allow reviewer remarks
 
 ### Instructor approval or automatic completion
 
-Authors can now choose whether file submissions require Instructor approval or are completed automatically. This setting is independent of the evaluation plan.
+Authors can now choose whether file submissions require Instructor approval or are completed automatically. This setting is independent of the Evaluation Plan.
 
 ## Model Context Protocol server for Learner Assistant
 

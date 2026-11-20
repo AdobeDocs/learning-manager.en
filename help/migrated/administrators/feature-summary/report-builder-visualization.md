@@ -7,6 +7,10 @@ description: Create charts and dashboards from saved reports in Adobe Learning M
 
 Visualizations in Adobe Learning Manager Report Builder turn a saved report into charts and dashboards. You can compare groups, spot trends, and share results without reshaping data in a spreadsheet tool.
 
+>[!IMPORTANT]
+>
+>Visualizations (charts and dashboards) in Report Builder are available only to Adobe Learning Manager Ultimate customers. They aren't available with the Prime edition.
+
 ## About visualizations in Report Builder {#about-visualizations}
 
 A visualization is a chart, or a dashboard of charts, built from a report you saved in Report Builder. You choose which report columns to plot, and Report Builder draws the chart from the report data. You can plot columns directly, or plot summarized data from a report.
