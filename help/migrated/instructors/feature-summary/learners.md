@@ -267,7 +267,139 @@ If leaners have uploaded documents like assignments, reports, or assessments for
 
    To delete an existing reminder, click on the reminder. From the pop-up that appears, click the Delete icon (Trash icon) to delete the reminder.
 
-## Create and manage teams {#create-manage-teams}
+# Create and manage teams in Adobe Learning Manager
+
+Create teams manually from the learners in a course instance, then add, move, remove, rename, or delete teams until a team locks.
+
+As an instructor, you create teams for each instance of a course that has a team-based submission module. Any instructor assigned to the instance can manage its teams. Adobe Learning Manager can also create teams automatically. After teams are formed, learners can submit work, and you can evaluate team submissions.
+
+## Open the Teams management page
+
+1. In the Instructor app, select **Teams** in the left navigation pane. The page lists the team-based course instances learners are assigned to.
+
+   ![Teams option in the left navigation pane](assets/Group-(Team)-submission-and-rubric-based-assessments-image17.png "Teams management page")
+
+1. To find a course, search for it, or sort the list by the last updated date.
+
+1. Select the course instance. The instance page shows the unassigned learners and the teams.
+
+## Create teams with a rule
+
+1. On the instance page, select the unassigned learners to divide into teams.
+
+1. Choose a rule. Select **Action** > **Form a single team** or **Form multiple teams**.
+
+   ![Action menu with team formation rules](assets/Group-(Team)-submission-and-rubric-based-assessments-image18.png "Action menu")
+
+1. If you select **Form multiple teams**, enter the number of learners for each team. The value must be 1 or higher. The page shows how many teams will be created. For example, with 94 learners and 2 learners per team, 47 teams are created. If the number is greater than the number of enrolled learners, an error message appears. Enter a smaller number.
+
+   ![Number of learners per team and the resulting number of teams](assets/Group-(Team)-submission-and-rubric-based-assessments-image19.png "Learners per team")
+
+   If you enter a value that is greater than the number of enrolled learners, an error message appears.
+
+   ![Error message for a value greater than the number of enrolled learners](assets/Group-(Team)-submission-and-rubric-based-assessments-image20.png "Error message")
+
+1. Select **Create teams**. The teams appear in the **Teams** tab.
+
+   ![Teams tab showing the created teams](assets/Group-(Team)-submission-and-rubric-based-assessments-image21.png "Created teams")
+
+1. Confirm, and then save. The teams appear in the **Teams** tab.
+
+The rule applies only to the unassigned learners you select. To regroup everyone, delete the existing teams first. Their learners return to the unassigned list.
+
+![Delete option for existing teams](assets/Group-(Team)-submission-and-rubric-based-assessments-image22.png "Delete teams")
+
+After you select **Delete**, you get the following confirmation dialog:
+
+![Delete teams confirmation dialog](assets/Group-(Team)-submission-and-rubric-based-assessments-image23.png "Delete confirmation")
+
+Select **Delete teams**. All learners return to the unassigned list.
+
+## Create a single team
+
+1. Select the unassigned learners to include in the team.
+
+1. Select **Action** > **Form a single team**. A team gets created with the specified number of learners.
+
+   ![Form a single team option](assets/Group-(Team)-submission-and-rubric-based-assessments-image24.png "Form a single team")
+
+1. Save the team. A team needs at least one learner, and a learner can belong to only one team in the instance.
+
+1. Repeat the steps to create teams one by one.
+
+## Add learners to an existing team
+
+1. Select the unassigned learners to add.
+
+1. Choose to assign them to an existing team, and then select the team.
+
+   ![Assigning unassigned learners to an existing team](assets/Group-(Team)-submission-and-rubric-based-assessments-image25.png "Assign to an existing team")
+
+1. Confirm your choice. Select **Assign Learner**.
+
+## Move or remove learners
+
+1. Open the **Teams** tab, and then expand a team to view its members.
+
+1. Select the learners to move.
+
+   ![Team members selected for moving](assets/Group-(Team)-submission-and-rubric-based-assessments-image26.png "Move learners")
+
+1. Choose to move them, and then select the destination team.
+
+1. To remove a learner from a team, select the learner and remove them. The learner returns to the unassigned list.
+
+When a team has no learners left, the team is deleted automatically.
+
+## Rename a team
+
+1. In the **Teams** tab, select the team, and then choose to rename it.
+
+1. Select **Action** > **Rename**.
+
+   ![Rename option in the Action menu](assets/Group-(Team)-submission-and-rubric-based-assessments-image27.png "Rename option")
+
+1. Enter a unique name, such as Team Alpha.
+
+   ![Rename team dialog](assets/Group-(Team)-submission-and-rubric-based-assessments-image28.png "Rename team dialog")
+
+1. Select **Rename team**.
+
+Names can't repeat, and you can't use the system-generated format, such as Team-1.
+
+## Delete teams
+
+1. In the **Teams** tab, select one or more teams.
+
+1. Select **Action** > **Delete**.
+
+1. Select **Delete team**.
+
+   ![Delete team confirmation dialog](assets/Group-(Team)-submission-and-rubric-based-assessments-image29.png "Delete team")
+
+1. Confirm. The learners from the deleted teams return to the unassigned list.
+
+## Handle late enrollments and unenrollments
+
+* A learner who enrolls after teams are formed appears in the unassigned list. Add the learner to a team.
+* If all teams are locked, create a new team for the learner.
+* A learner who unenrolls is removed from their team automatically. The team continues, and an empty team is deleted.
+
+## Troubleshooting
+
+**You can't select a team or move its members.** A team locks after its first submission, and the lock applies to every team module in the instance. To unlock the team, unsubmit the submission. View **Evaluate and unsubmit team submissions**.
+
+**You can't rename a team.** The name is already in use, or it matches the system-generated format. Enter a different name.
+
+**An error appears when you create teams.** A team can't have more than 100 members. Reduce the number of members per team.
+
+**You can't open Teams management for an instance.** Automatic team creation might be running. Access returns when it finishes.
+
+**Your save is rejected, and the page reloads.** Another instructor or the automatic job saved changes first. Review the updated teams, and then redo your change.
+
+**A team disappeared.** A team with no learners is deleted automatically.
+
+## Create and manage teams in Adobe Learning Manager
 
 Create teams manually from the learners in a course instance, then add, move, remove, rename, or delete teams until a team locks.
 
@@ -277,97 +409,107 @@ As an instructor, you create teams for each instance of a course that has a team
 
 1. In the Instructor app, select **Teams** in the left navigation pane. The page lists the team-based course instances learners are assigned to.
 
-   ![](assets/team-submission17.png)
+   ![Teams option in the left navigation pane](assets/Group-(Team)-submission-and-rubric-based-assessments-image17.png "Teams management page")
 
-2. To find a course, search for it, or sort the list by the last updated date.
-3. Select the course instance. The instance page shows the unassigned learners and the teams.
+1. To find a course, search for it, or sort the list by the last updated date.
+
+1. Select the course instance. The instance page shows the unassigned learners and the teams.
 
 ### Create teams with a rule
 
 1. On the instance page, select the unassigned learners to divide into teams.
-2. Choose a rule. Select **Action** > **Form a single team** or **Form multiple teams.**
 
-   ![](assets/team-submission18.png)
+1. Choose a rule. Select **Action** > **Form a single team** or **Form multiple teams**.
 
-3. If you select **Form multiple teams**, enter a value of 1 or higher. The page shows how many teams will be created. For example, 94 learners with 2 members each produce 47 teams.
+   ![Action menu with team formation rules](assets/Group-(Team)-submission-and-rubric-based-assessments-image18.png "Action menu")
 
-   ![](assets/team-submission19.png)
+1. If you select **Form multiple teams**, enter the number of learners for each team. The value must be 1 or higher. The page shows how many teams will be created. For example, with 94 learners and 2 learners per team, 47 teams are created. If the number is greater than the number of enrolled learners, an error message appears. Enter a smaller number.
+
+   ![Number of learners per team and the resulting number of teams](assets/Group-(Team)-submission-and-rubric-based-assessments-image19.png "Learners per team")
 
    If you enter a value that is greater than the number of enrolled learners, an error message appears.
 
-   ![](assets/team-submission20.png)
+   ![Error message for a value greater than the number of enrolled learners](assets/Group-(Team)-submission-and-rubric-based-assessments-image20.png "Error message")
 
-4. Change the number of learners and select **Create teams**. Depending on the number of learners enrolled in the instance, the number of teams is created.
+1. Select **Create teams**. The teams appear in the **Teams** tab.
 
-   ![](assets/team-submission21.png)
+   ![Teams tab showing the created teams](assets/Group-(Team)-submission-and-rubric-based-assessments-image21.png "Created teams")
 
-5. Confirm, and then save. The teams appear in the **Teams** tab.
+1. Confirm, and then save. The teams appear in the **Teams** tab.
 
 The rule applies only to the unassigned learners you select. To regroup everyone, delete the existing teams first. Their learners return to the unassigned list.
 
-![](assets/team-submission22.png)
+![Delete option for existing teams](assets/Group-(Team)-submission-and-rubric-based-assessments-image22.png "Delete teams")
 
 After you select **Delete**, you get the following confirmation dialog:
 
-![](assets/team-submission23.png)
+![Delete teams confirmation dialog](assets/Group-(Team)-submission-and-rubric-based-assessments-image23.png "Delete confirmation")
 
 Select **Delete teams**. All learners return to the unassigned list.
 
 ### Create a single team
 
 1. Select the unassigned learners to include in the team.
-2. Select **Action > Form a single team**. A team gets created with the specified number of learners.
 
-   ![](assets/team-submission24.png)
+1. Select **Action** > **Form a single team**. A team gets created with the specified number of learners.
 
-3. Save the team. A team needs at least one learner, and a learner can belong to only one team in the instance.
-4. Repeat the steps to create teams one by one.
+   ![Form a single team option](assets/Group-(Team)-submission-and-rubric-based-assessments-image24.png "Form a single team")
+
+1. Save the team. A team needs at least one learner, and a learner can belong to only one team in the instance.
+
+1. Repeat the steps to create teams one by one.
 
 ### Add learners to an existing team
 
 1. Select the unassigned learners to add.
-2. Choose to assign them to an existing team, and then select the team.
 
-   ![](assets/team-submission25.png)
+1. Choose to assign them to an existing team, and then select the team.
 
-3. Confirm your choice. Select **Assign Learner**.
+   ![Assigning unassigned learners to an existing team](assets/Group-(Team)-submission-and-rubric-based-assessments-image25.png "Assign to an existing team")
+
+1. Confirm your choice. Select **Assign Learner**.
 
 ### Move or remove learners
 
 1. Open the **Teams** tab, and then expand a team to view its members.
-2. Select the learners to move.
 
-   ![](assets/team-submission26.png)
+1. Select the learners to move.
 
-3. Choose to move them, and then select the destination team.
-4. To remove a learner from a team, select the learner and remove them. The learner returns to the unassigned list.
+   ![Team members selected for moving](assets/Group-(Team)-submission-and-rubric-based-assessments-image26.png "Move learners")
+
+1. Choose to move them, and then select the destination team.
+
+1. To remove a learner from a team, select the learner and remove them. The learner returns to the unassigned list.
 
 When a team has no learners left, the team is deleted automatically.
 
 ### Rename a team
 
 1. In the **Teams** tab, select the team, and then choose to rename it.
-2. Select **Action > Rename**.
 
-   ![](assets/team-submission27.png)
+1. Select **Action** > **Rename**.
 
-3. Enter a unique name, such as Team Alpha.
+   ![Rename option in the Action menu](assets/Group-(Team)-submission-and-rubric-based-assessments-image27.png "Rename option")
 
-   ![](assets/team-submission28.png)
+1. Enter a unique name, such as Team Alpha.
 
-4. Select **Rename team**.
+   ![Rename team dialog](assets/Group-(Team)-submission-and-rubric-based-assessments-image28.png "Rename team dialog")
+
+1. Select **Rename team**.
 
 Names can't repeat, and you can't use the system-generated format, such as Team-1.
 
 ### Delete teams
 
 1. In the **Teams** tab, select one or more teams.
-2. Select **Action > Delete**.
-3. Select **Delete team**.
 
-   ![](assets/team-submission29.png)
+1. Select **Action** > **Delete**.
 
-4. Confirm. The learners from the deleted teams return to the unassigned list.
+1. Select **Delete team**.
+
+   ![Delete team confirmation dialog](assets/Group-(Team)-submission-and-rubric-based-assessments-image29.png "Delete team")
+
+1. Confirm. The learners from the deleted teams return to the unassigned list.
 
 ### Handle late enrollments and unenrollments
 
@@ -377,7 +519,7 @@ Names can't repeat, and you can't use the system-generated format, such as Team-
 
 ### Troubleshooting
 
-**You can't select a team or move its members.** A team locks after its first submission, and the lock applies to every team module in the instance. To unlock the team, unsubmit the submission. View [Evaluate and unsubmit team submissions](Evaluate_and_unsubmit_team_submissions.md).
+**You can't select a team or move its members.** A team locks after its first submission, and the lock applies to every team module in the instance. To unlock the team, unsubmit the submission. View **Evaluate and unsubmit team submissions**.
 
 **You can't rename a team.** The name is already in use, or it matches the system-generated format. Enter a different name.
 

@@ -23,6 +23,229 @@ product_v2:
 
 -->
 
++++ Update 114: December 5, 2026 release of Adobe Learning Manager
+
+## Release highlights
+
+The December 2026 release of Adobe Learning Manager introduces charts and dashboards in Report Builder, integration with Adobe Experience Manager Assets, and expanded file submission capabilities, including team submissions and Evaluation Plan. The release also adds Email Builder support for course-level and instance-level emails, Safe Exam Browser integration for quizzes, a Model Context Protocol (MCP) server for Learner Assistant, and controlled access to learning content without requiring users to sign in.
+
+Live Hub now supports sessions of up to 5,000 attendees, multilingual closed captions, and a localized interface. Live Hub is now generally available for Ultimate customers, while Channels are generally available for all customers.
+
+
+## Features in this release
+
+**Report Builder charts and dashboards:** Administrators can now visualize report data in Report Builder. Create big number, line, bar, and pie charts, and pivot tables from report columns, with aggregation and filtering in each chart. A report dashboard holds charts built from one report. A custom dashboard combines charts from several reports and supports up to 20 widgets. Charts that belong to a report are shared when you share the report. Dashboards can't be exported.
+
+**Insights Agent reports in Report Builder:** Administrators can open, review, edit, and save an Insights Agent answer as a Report Builder report, and then use Report Builder capabilities such as subscriptions. If part of a question can't be expressed with Report Builder fields, the report lists that part as a gap.
+
+**Adobe Experience Manager Assets integration:** Authors can browse and select approved learning content and image assets from Experience Manager Assets without leaving Adobe Learning Manager. When an asset changes in the digital asset manager, the update can flow into the courses that use it. Authors see only the assets they already have access to in Experience Manager Assets.
+
+**File submission enhancements:** File submission modules now support the following:
+
+- **Team submissions:** Instructors create teams of up to 100 members. Each team submits one file, and the Instructor's evaluation applies to every member. Instructors manage teams on the new **Teams management** page.
+- **Evaluation Plan assessments:** Authors defines an Evaluation Plan, with objective questions that have scored options and subjective questions that have written review. An Evaluation Plan holds up to 100 questions.
+- **Instructor approval or automatic completion:** Authors choose whether a submission requires Instructor approval or is completed automatically. This setting is independent of the evaluation plan.
+
+**Model Context Protocol server for Learner Assistant:** Learners can access Learning Manager from tools they already use, such as ChatGPT, Claude, and custom agents, through a Model Context Protocol (MCP) server. Administrators configure the server in the Integration Administrator app. It provides search, list enrollments, get learning object, get user profile, answer learning content question, and get Personalized Learning Path capabilities.
+
+**Email Builder for courses and instances:** The full Email Builder experience is now available for course-level and instance-level emails. Administrators define account layouts and templates, and Authors customize course and instance emails while inheriting the layout and formatting. A template links to the nearest available layout, and you can unlink a template to edit it independently. **Banner** and **Signature** settings have moved from the **Settings** tab, which is removed, to **Global Layout**. If Email Builder is already enabled for your account, you receive these changes automatically.
+
+**Safe Exam Browser integration for quizzes:** Administrators can enable the integration at the account level and upload a Safe Exam Browser configuration file (.seb) to define assessment restrictions. Authors choose which quizzes require Safe Exam Browser. Learners who attempt such a quiz are prompted to launch, or download, Safe Exam Browser.
+
+**Non-logged-in enhancements:** Learning Manager now enables controlled access to learning content without requiring users to sign in.
+
+- **Content consumption without logging in:** Administrators turn non-logged-in access on or off for the account. Authors make an entire course, or specific modules, available without login. Learning Paths and certifications follow the settings of the courses inside them. Only self-paced content is supported.
+- **Public catalogs:** Administrators choose which catalogs appear in the public academy.
+- **Discovery by search engines and AI assistants (Beta):** Public academies can be discovered by search engines and AI assistants. Each academy gets its own sitemap and robots.txt, and Learning Manager generates meta titles, meta descriptions, and structured data automatically. This capability requires a custom domain on native Adobe Learning Manager.
+
+**Virtual Coach:** Virtual Coach is an AI-powered role-play and coaching solution that allows Learners practice realistic workplace conversations. It supports nine languages and can be used as a standalone job aid or embedded within a course. 
+
+**Live Hub:** Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers. 
+
+**Support for up to 5000 attendees in Live Hub**: Authors can now select a capacity of up to 5,000 attendees when adding a Virtual Classroom module. For large sessions, camera access, screen sharing, and whiteboard functionality are limited to Instructors. Breakout rooms are not available for these sessions.
+
+**Multilingual closed captions in Live Hub**: Instructors can now select the closed caption language from **Room settings**. All participants view captions in the language selected by the Instructor.
+
+**Group enrollment reservation and waitlist management:** Authors can allocate seats in Classroom and Virtual Classroom courses to specific user groups, set separate enrollment open dates for those groups and for all other Learners, and turn on automatic waitlist promotion with a cut-off date.
+
+**Support for multiple Zoom connections:** Integration Administratoristrators can configure multiple Zoom connections in a single account and assign them to specific roles or user groups. Authors select from the connections available to them when they create or edit a session.
+
+**Channels:** Channels are generally available for all customers.
+
+## Enhancements in this release
+
+**Personalized Learning Path editing and branding strips:** Learners can remove suggested topics or courses in a single step. Administrators can reposition the Personalized Learning Paths strip on the Learner home page through the **Branding** page.
+
+**Learning Path citations in Learner Assistant:** Answers now cite the Learning Path that contains a source course, along with the course. Answers drawn from a job aid include a download link.
+
+**AI Assistant configurations:** The Administrator Assistant offers two agents, Insights Agent and Knowledge Agent. The Learner Assistant offers three agents: Knowledge Agent, Answer Agent, and Learning Path Agent. You can configure each agent individually.
+
+**Resend virtual classroom session invites:** Administrators with course edit permission can resend a session invite from the instance page. The option is available for current and future sessions.
+
+**Automatic attendance from Adobe Connect recording views:** Learning Manager marks attendance when a Learner plays the recording of a missed virtual classroom session. A scheduled integration compares actual viewing time with the completion criteria set for the account.
+
+**Column heading changes in downloaded Report Builder reports:** Default column headings in downloaded Report Builder reports now include the dataset name. For example, **Name** from the Learning Object dataset appears as **Learning Object - Name**. For aggregated columns, the heading also includes the function, such as **Count of Learning Object - ID**. Headings that use a custom name in the **Alias** field are unchanged.
+
+**Multi-enrolled courses in the compliance widget:** The compliance widget lists every instance of a multi-enrollment course that a Learner must complete. If one instance has a deadline, instances without a deadline are hidden.
+
+**Relevance ranking in Administrator catalog search:** Catalog search in the Administrator view ranks results by relevance. Exact matches appear first, followed by partial matches.
+
+**Retire a course without making a Learning Path inaccessible:** A retired course or nested Learning Path is removed from the higher-level learning object, which stays open for new enrollments.
+
+**Session cancellation sync from Adobe Workfront:** Sessions canceled in Adobe Workfront carry over to Learning Manager through Migration. Migration adds an optional **State** column that accepts **Active** or **Cancelled**.
+
+**Character limit for first names:** The first name field now accepts up to 255 characters, up from 63. The limit applies to users added in the interface, through CSV import, in self-registration, and as external users. Existing users aren't affected. Long names are shortened in table cells, dropdown list items, and search results. Hover over a shortened name to view it in full.
+
+**Localized Live Hub interface and recording player**: Live Hub now displays its interface in the language selected for Adobe Learning Manager, supporting the same 18 languages. The recording player is localized based on the course language.
+
+**Badge information for courses and Learning Paths:** When Authors add a course or Learning Path, the window lists existing courses and Learning Paths with badge information, publication status, and course format.
+
+**Non-logged-in page URL for self-registration profiles:** Each self-registration profile can have its own shareable non-logged-in menu URL, built in Experience Builder. Users who select **Sign up** from that URL are added to the profile it belongs to.
+
+**Custom Learner attributes in Learning Tools Interoperability:** Learning Manager reads custom Learner attributes through the optional Names and Role Provisioning Services endpoint and from the launch request. Some learning systems, such as Moodle, don't support this endpoint.
+
+**Discussion board Instructor notifications:** Headless customers can send Instructors and cohort managers a digest of discussion board activity through the API.
+
+**Webhooks for Instructor edits to learning object instances:** The learning object instance modification webhook now also triggers when an Instructor edits a virtual classroom session.
+
+**Last access date for Learning Path enrollments:** You can attach custom metadata, such as a last access date, to a Learning Path enrollment through the API.
+
+**Export Report Builder reports with the Job API:** A new Job API job type, `generateCustomReport`, exports any saved Report Builder report when you pass its report ID.
+
+## API changes
+
+- **Bookmark API ordering and retired content handling:** Bookmarks are now returned newest first, and bookmarks to retired learning objects are no longer returned. No endpoints, parameters, or response attributes are added.
+- **APIs for discussion board Instructor notifications:** New APIs subscribe Instructors and cohort managers to discussion boards and control which activity appears in their digest emails.
+- **API support for multi-enrolled instances in the Learner app:** Add the optional `includeMultiInstanceEnrollments=true` parameter to `GET /enrollments` to include multi-enrolled instances. The default is `false`.
+- **Last access date for Learning Paths enrollment:** Set custom metadata on a Learning Path enrollment with an admin token. Read it with an admin or Learner token.
+- **Job API job type for Report Builder exports:** The new `generateCustomReport` job type exports a saved Report Builder report by report ID. Existing job types, including `generateQuizReport`, are unchanged.
+- **APIs for the Zoom connector:** New APIs retrieve and manage Zoom connections, save Zoom credentials, and set the user groups and custom roles that can use a connection. The APIs use session-based authentication and require an Integration Administrator login.
+
+## Breaking changes in this release
+
+### Salesforce connector export workflow for Learner Transcript
+
+The primary key for the Learner Transcript (LT) table in the Salesforce connector is updated to support multiple enrollment scenarios. This is a breaking change that requires existing LT data in the Salesforce customer object to be flushed with the December 2026 release. Failure to flush the data may result in duplicate records.
+
+### Email Builder rollout to all customers
+
+The Email Builder feature, introduced in the August 2026 release, is now being rolled out to all customers. Customers are encouraged to explore the feature in their sandbox or production accounts.
+
+>[!NOTE]
+>
+> Once an account is migrated to the new Email Builder editor, it cannot be reverted to the previous email editor. If Email Builder is not yet enabled in your production or sandbox account, contact your Customer Success Manager (CSM) or Adobe Support for assistance.
+
+### Non-logged in catalog selection changes causes breaks
+
+Starting with the December 5, 2026 release, Adobe Learning Manager will no longer export disabled catalogs through the TDA connector. Previously, customers could use disabled catalogs to create non-logged-in experiences.
+
+This change affects customers who use disabled catalogs for non-logged-in experiences. Content from these catalogs will no longer be available through the TDA connector.
+
+**Workaround**: Enable any disabled catalogs used for non-logged-in experiences before the December 5, 2026 release to ensure continued access to their content.
+
+## Bugs fixed in this release
+
+**Activity module video resizing:** Vimeo or YouTube videos embedded in an Activity module did not resize when the learner changed the browser window size on web. The video displayed black bands around it, or the video controls were hidden behind the player toolbar, until the module was reopened. Learners can now view Activity module videos with the full picture and controls visible at any window size.
+
+**SCORM 2004 module completion status:** Learners who passed a SCORM 2004 module (for example, content authored in Articulate Storyline) were sometimes recorded as passed but not completed. As a result, the course and any associated learning path remained In Progress. This occurred when the content reported its passed and completed statuses at almost the same moment. Courses and learning paths now move to Completed once learners finish all required modules.
+
+**AEM widgets:** The Courses & Paths widget did not show courses in which a learner was enrolled through a learning path, even when the account setting to show all enrolled courses was turned on. Learners enrolled through a learning path saw few or none of the expected courses. Learners now see all the courses they are enrolled in, including those assigned through a learning path.
+
+**Author:** On the Overview page of courses, learning paths, certifications, and job aids, the default catalog appeared under its originally stored name instead of the localized name. This affected accounts that were created in a language other than English. For example, the Select Catalogs field showed "Standaardcatalogus" instead of "Default Catalog". The default catalog name is displayed in the language of the signed-in user, consistent with the Catalogs page in Administrator.
+
+**Reports:** Reports that filtered on a user group name containing non-English characters, such as Japanese, failed to download and displayed the error "Could not load the preview, Please try again". Report generation now uses UTF-8 character encoding. Reports with filters on user groups that have non-English characters in their names now download successfully.
+
+**Reports:** In the Learner Transcript report, the Credits column was blank at the course, learning path, and certification levels when the report was generated without module-level information. Credits are calculated correctly for all levels, whether or not module-level details are included in the report.
+
+**General:** Console errors appeared when users accessed Adobe Learning Manager specific workflows and features, such as social boards. These workflows now load without console errors.
+
+**Learning paths:** On the Learners page of a learning path, the Unenroll option was available when a child course or learning path was selected. Selecting it removed the learner's enrollment from the entire learning path instead of the individual course. Unenroll is now disabled when a child course or learning path is selected, which is consistent with the behavior for certifications.
+
+**Skills:** Skills that had been deleted continued to appear on learner training cards, in the catalog, and in search results under an altered name, such as "General Deleted". Deleted skills are excluded wherever skills are displayed to learners. Learners now see only active skills.
+
+**Learning paths:** Learners were unable to submit the Level 1 feedback form after completing a course that is part of a learning path. Selecting **Submit** appeared to do nothing, and no error was displayed. This occurred when feedback was enabled for the course but not for the learning path. Learners can submit feedback based on the course-level setting, and any submission failure is now reported to the learner.
+
+**Email templates:** On the Email Templates page, under Reminders & Updates, the External Learning notification channels sometimes appeared as raw localization keys, such as "notification.externalLearning::submissionApproved.name". These channels are in-app only and do not send email.In-app-only channels no longer appear on the Email Templates page.
+
+**Attendance & Scoring:** When marking attendance in bulk by pasting email IDs, emails containing capital letters were rejected with the error "at line number null is not a valid user email for mark attendance", and no learners were marked as attended. Email IDs are matched regardless of letter case, extra spaces, or duplicates. Error messages now show the correct line number. Bulk marking attendance with pasted email IDs now behaves the same as the CSV upload option.
+
+**Email Builder:** Blank lines added between paragraphs in a text block were removed when the template was saved, previewed, or sent. Intentional blank lines are preserved. Emails now display paragraph spacing exactly as authored in Email Builder.
+
+**Learner:** Bold formatting in the Detailed Overview section of a course was visible in the author and admin preview but disappeared in the learner view after publishing. Bold text is displayed to learners as authored, and italic and underline formatting are unaffected.
+
+**Courses:** When an author edited an existing module to support an additional delivery type, such as changing a module from Virtual Classroom to Virtual Classroom and Classroom, the learner view continued to show the earlier delivery type. Admin and author views correctly showed Blended. The delivery type shown to learners updates when the module is edited. Learners now see the same delivery type as admins and authors.
+
+**Search:** When a catalog filter was applied, search results did not include courses in which the learner was enrolled indirectly, such as through a learning path, a group, or a manager assignment. The search returned no results even though the courses were available to the learner. Catalog-filtered search now includes both direct and indirect enrollments.
+
+**Custom certificates:** When a course, learning path, or certification was deleted, its association with a custom certificate design template was not removed. As a result, deleting the template failed with the error "Cannot delete this certificate as it is attached to a learning object or instance", even though the learning object no longer existed. Associations are removed when the learning object is deleted. Admins can now delete unused custom certificate templates without errors.
+
+**Custom roles:** Users with a configured custom role received the error "Failed to load caption file" when opening the Review Captions dialog for an auto-generated caption (VTT) file. Downloading the file worked as expected, and users without a custom role were not affected. Users with a custom role can open and review auto-generated captions.
+
+**QR codes:** After the custom learner URL for an account was updated, QR codes generated for existing courses continued to redirect to the previously configured URL. QR codes for enrollment, completion, and the exported learner list use the current custom learner URL.
+
+**Mobile app:** Modules were locked between attempts even though the completion criteria were not met. This occurred when a learner closed a quiz in immersive mode before completing it. Modules are no longer locked when the completion criteria are not fulfilled. Learners can now reattempt the quiz.
+
+**Live Hub accessibility:** Accessibility improvements address issues related to screen readers, keyboard navigation, closed captions, color contrast, and zoom and reflow, improving usability for participants.
+
+## Known issues
+
+**Course overview page shows the wrong instance details for multi-instance courses**
+The course overview page may show the deadline, sessions, or enrollment count of an earlier instance instead of the current active instance.
+
+This can occur for courses that have two or more active instances when the viewer is not enrolled in the course, for example when an author previews the course as a learner or when a learner browses a course before enrolling. As a result, learners may see a deadline that has already passed or a session that has already occurred or been canceled. Learners who are enrolled see the details of their own instance and are not affected. A fix is planned for a future release.
+
+**Changes to a course-level email template may also change the account-level template**
+Editing the Course - Self-enrollment email template at the course level can also change the account-level template.
+
+This can occur when the course's email settings are saved for the first time by an admin whose interface language is different from the language in which the account-level template was customized. Subsequent edits to the course-level template are then applied to the account-level template as well. A fix is planned for a future release.
+
+**Direct enrollment count includes learning plan enrollments**
+On the Learners section of a course, learners enrolled through a learning plan are included in the direct enrollment count. However, the tooltip on the Instances card lists learning plan enrollments as indirect.
+
+The count and the tooltip description are inconsistent. The tooltip will be updated to match the count in a future release.
+
+**YouTube videos embedded in SCORM content do not play in Chrome**
+A YouTube video embedded in SCORM content may not play in the learner experience when the content is opened in Google Chrome.
+
+No fix is included in this release, and the issue is being evaluated for a future release.
+
+**Author page in the learner app does not load more courses on high-resolution screens**
+On the author page in the learner app, only the first six courses are displayed in grid view on high-resolution screens, and learners cannot load additional courses.
+
+Additional courses load when the learner scrolls to the bottom of the page. On high-resolution screens the first set of courses fits entirely on the screen, so there is nothing to scroll and the next set is never requested. A fix is planned for a future release.
+
+**Level 2 quiz report exported from the UI contains fewer rows than the report from the Job API**
+When a Level 2 quiz report is exported from the UI, the exported file contains a limited number of rows, such as 3,000 users. The same report generated through the Job API includes all rows.
+
+The UI export has a lower row limit than the Job API. This is being addressed in a future release. Use the Job API to export the complete report in the meantime.
+
+**Dashboard and downloaded Excel report differ for a deleted course**
+When a course is retired and deleted, a dashboard report that has Show data for current values selected still lists the learner as enrolled and completed. The Excel report downloaded from the same dashboard does not include the learner's details.
+
+The dashboard and the downloaded report are not consistent for deleted courses. A fix is planned for a future release.
+
+**Column names are not localized in the exported Classroom Locations CSV**
+When the UI locale is set to a language other than English, the CSV file exported from the Classroom Locations page displays its column names (the header row) in English rather than in the selected language.
+
+This behavior occurs during the export of Classroom Locations from Admin profile > Settings > Classroom Locations. While the location data within the file is returned correctly, the column headers are not translated to match the Administrator’s chosen UI locale. As a result, an Administrator working in a non-English locale sees English column names in an otherwise localized environment.
+
+Only the header row is affected; the underlying location data in the exported file is unaffected. No fix is included in this release, and the issue is being evaluated for a future release.
+
+**Captions quality limitations in Live Hub**
+
+Live Hub captions may have varying levels of accuracy across supported languages. Caption quality depends on the language and may affect the accuracy of the generated text during live sessions.
+
+Adobe Learning Manager supports live captions in multiple languages, with varying Word Error Rates (WER). Caption accuracy differs across the following languages:
+
+| Error rate | Caption quality | Languages |
+|---|---|---|
+| Up to 5% | Good accuracy | English, Spanish, Japanese, German, Italian, Korean, Portuguese |
+| Above 5% and below 10% | Minor inaccuracies | French, Dutch, Russian, Turkish, Chinese, Swedish, Finnish |
+| 10% and above | Reduced accuracy | Norwegian, Danish |
+
+This is a known limitation in the current release. Enhancements to improve caption accuracy and quality across supported languages are planned for a future release.
+
+
 +++Update 112: September 30, 2026 release of Adobe Learning Manager
 
 ## Features in this release
