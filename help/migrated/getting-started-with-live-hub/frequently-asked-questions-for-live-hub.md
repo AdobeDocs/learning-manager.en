@@ -50,7 +50,8 @@ Administrators can enable AI in Live Hub and choose which AI assistants are avai
 
 +++Is Live Hub available for my account?
 
-Live Hub (Beta) will be available beginning August 2026. Administrators can enable or disable Live Hub for your Adobe Learning Manager account. If Live Hub is enabled, Authors can select it as the live training provider when creating a Virtual Classroom module. If the Live Hub option is unavailable, contact your Administrator to enable the feature for your account.
+Live Hub will be available beginning August 2026. Administrators can enable or disable Live Hub for your Adobe Learning Manager account. If Live Hub is enabled, Authors can select it as the live training provider when creating a Virtual Classroom module. If the Live Hub option is unavailable, contact your Administrator to enable the feature for your account.
+
 
 +++
 

@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting Guide for Live Hub (Beta)
+title: Troubleshooting Guide for Live Hub
 description: Common error messages and notifications you may encounter during a Live Hub session, their causes, and steps to resolve them.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
 ---
 
-# Troubleshooting guide for Live Hub (Beta)
+# Troubleshooting guide for Live Hub
 
 During a Live Hub session, Instructors may encounter error messages or notifications that prevent certain actions from completing as expected. This article describes common instructor-facing errors, their possible causes, and the steps you can take to resolve them.
 
