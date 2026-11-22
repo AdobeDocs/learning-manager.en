@@ -7,7 +7,7 @@ exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
 
 # API changes in December 2026
 
-## APIs for discussion board instructor notifications
+## APIs for discussion board instructor notifications {#api-discussion-board-instructors}
 
 This article describes the new APIs that support discussion board instructor notifications. Use them to subscribe instructors and cohort managers to discussion boards and to control which activity appears in their digest emails.
 
@@ -581,7 +581,7 @@ The response has no body.
 |401|The request is missing valid credentials, or access was denied due to invalid credentials.|
 |404|The requested resource, such as the board or the subscription, wasn't found.|
 
-## Bookmark API ordering and retired content handling
+## Bookmark API ordering and retired content handling {#bookmark-api-ordering-retired-content}
 
 ### Purpose of the API
 
@@ -717,7 +717,7 @@ A common use case is a "Saved for later" list in a headless learner experience. 
 3. Remove any client-side sorting or retired-content filtering you added as a workaround.
 4. Show a count of bookmarks using the number of items in the response. Bookmarks to retired learning objects are no longer included.
 
-### API support for multi-enrolled instances in Leaner Compliance Widget in Learner app
+### API support for multi-enrolled instances in Leaner Compliance Widget in Learner app {#api-multienrolled-instances-lc-widget}
 
 The public API supports this behavior through an optional query parameter on the existing enrollments endpoint. If you omit the parameter, the API returns the same results as before, so existing integrations, including headless implementations, continue to work unchanged.
 
@@ -1549,7 +1549,7 @@ true. False by default.
 
 }
 
-## Last access date for learning path enrollment {#last-access-date-lp-enrollment}
+## Last access date for learning path enrollment {#api-last-access-date-lp-enrollment}
 
 Adobe Learning Manager lets you store custom metadata, such as a last access date, on a learning path enrollment. You set and read the metadata through the API. This helps you track time-bound access to learning paths that you assign.
 
@@ -1634,7 +1634,7 @@ External portals and integrations use the same API calls. Use the request that m
 * **Show the value in your portal:** Send the GET request for your token type from the table above, and read the `metadata` object from the response.
 * **Update the value from an external system, such as a commerce platform:** Send the PATCH request with an admin token.
 
-## Job API: Export Report Builder reports with generateCustomReport
+## Job API: Export Report Builder reports with generateCustomReport {#api-job-report-builder-exports}
 
 Adobe Learning Manager December 2026 release adds a new job type, `generateCustomReport`, to the Job API. Use it to export any report you created in Report Builder, in an automated way, by passing the report ID.
 

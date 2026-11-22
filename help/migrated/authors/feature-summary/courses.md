@@ -155,7 +155,7 @@ A team-based file submission module lets one learner submit a file on behalf of 
 
 ### Add the module to a course
 
-1. Sign in to Adobe Learning Manager as an author.
+1. Sign in to Adobe Learning Manager as an Author.
 
 1. In the author app, create a course or open an unpublished course.
 
@@ -165,7 +165,7 @@ A team-based file submission module lets one learner submit a file on behalf of 
 
 1. Select the team-based option. The individual option is the earlier file submission module for single learners.
 
-   ![Team-based option for the file submission module](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Team-based option")
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image4.png)
 
 1. Select the instructor or instructors.
 
@@ -185,15 +185,15 @@ A course can have team-based and individual submission modules together. All tea
 1. Choose a scoring method:
 
    * Select manual scoring to let the instructor enter one overall score.
-   * Select criteria-based scoring to calculate the score from the points on each evaluation plan option. This method requires an evaluation plan.
+   * Select criteria-based scoring to calculate the score from the points on each evaluation plan option. This method requires an Evaluation Plan.
 
-      ![Review and scoring options for the team-based file submission module](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+      ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
 >After you publish the course, you can't remove the module, change its settings, or use multiple delivery types for it.
 
-### Add an evaluation plan to a file submission module
+### Add an Evaluation Plan to a file submission module
 
 Create an evaluation plan for individual or team submissions by adding objective and subjective questions to a file submission module.
 
@@ -201,7 +201,7 @@ An evaluation plan is the set of questions that instructors use to assess a subm
 
 #### Turn on the evaluation plan
 
-1. Turn on the evaluation plan.
+1. Turn on the Evaluation Plan.
 
 1. Enter a description of the assessment.
 
