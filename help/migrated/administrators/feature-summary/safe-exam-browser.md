@@ -13,7 +13,7 @@ This article explains how to enable Safe Exam Browser integration for your accou
 
 ## Enable Safe Exam Browser integration
 
-Enable Safe Exam Browser integration to make the option available to Authors when they configure quizzes. Before you begin, ensure that you have the Safe Exam Browser file for your account.
+Configure Safe Exam Browser integration to make the option available to Authors when they configure quizzes. Before you begin, ensure that you have the Safe Exam Browser file for your account.
 
 To enable Safe Exam Browser integration:
 
@@ -32,6 +32,8 @@ To enable Safe Exam Browser integration:
 1. Select **Save**.
 
    The Safe Exam Browser is now available for Authors to enable when configuring supported quizzes.
+
+View [Create a course with SEB](../../authors/feature-summary/create-a-course-with-safe-exam-browser.md) for more information about configuring Safe Exam Browser as an **Author**.
 
 ### Configure the .seb file for macOS {#configure-the-seb-file-for-macos}
 

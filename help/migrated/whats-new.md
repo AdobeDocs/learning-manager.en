@@ -66,6 +66,8 @@ Instructors can now create teams for file submissions. Each team submits one fil
 
 Instructors manage teams on a new **Teams management** page and review work on a team submissions page. Instructors can also unsubmit an approved submission to unlock the team when changes are required, such as when a team member leaves. A team holds up to 100 members. Learners can view their team, its members, and the evaluation result. Team modules can't be added or deleted after a course is published.
 
+[Learn more](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 ### Rubric-based assessments (Evaluation Plan)
 
 Authors can now define a rubric, called an Evaluation Plan, for file submission modules. A rubric supports objective questions with scored options and subjective questions with written review.
@@ -76,6 +78,8 @@ Authors can also configure the following settings:
 * Whether scoring is one overall score or a score for each criterion
 
 Each question can be marked as required and configured to allow reviewer remarks. A rubric-based assessment holds up to 100 questions, and Authors enter questions separately for each locale. After a course is published, only question text can change.
+
+[Learn more](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
 ### Instructor approval or automatic completion
 
@@ -119,25 +123,37 @@ Virtual Coach supports nine languages and can be used as a standalone job aid or
 
 Learner Assistant answers now cite the learning path that contains a source course, along with the course itself. Learners open either the course overview or the learning path page from the citation. Answers drawn from a job aid include a download link. This helps Learners find the training that answers their question.
 
+[Learn more](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations) 
+
 ## AI Assistant configurations
 
 The Administrator Assistant offers two agents: Insights Agent and Knowledge Agent. They can be configured individually. The Learner Assistant offers three agents: Knowledge Agent, Answer Agent, and Learning Path Agent. They can be configured along with the catalog configuration.
+
+[Learn more](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
 
 ## Webhooks for Instructor edits to learning object instances
 
 The learning object instance modification webhook now triggers when an Instructor edits a virtual classroom session, in addition to Administrator and Author changes. Changes such as session timings, venue, and enrollment limit trigger it. Headless customers can then retrieve session details through the public API and pass updates on to Learners.
 
+[Learn more](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md) 
+
 ## Multi-enrolled courses in the compliance widget
 
 The compliance widget now lists every instance of a multi-enrollment course that a Learner must complete. Each entry displays the instance name. If one instance has a deadline, any instance without a deadline is hidden. The enrollments endpoint of the public API supports the same behavior through an optional parameter.
 
+[Learn more](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget) 
+
 ## Resend virtual classroom session invites
 
-Administrators with course edit permission can now resend a session invite from the instance page. Select **Resend**, search for the Learner, and send. The option is available for current and future virtual classroom sessions. For Learners in multiple instances, the invite goes only to the selected instance. Learners who aren't enrolled in the session are skipped with a warning.
+Administrators with course edit permission can now resend a session invite from the instance page. Select **Resend**, search for the Learner, and send. The option is available for current and future virtual classroom sessions. For Learners in multiple instances, the invite goes only to the selected instance. Learners who aren't enrolled in the session are skipped with a warning. 
+
+[Learn more](/help/migrated/instructors/feature-summary/resend-session-invite.md)
 
 ## Automatic attendance from Adobe Connect recording views
 
 Adobe Learning Manager now marks attendance when a Learner plays the recording of a missed virtual classroom session. A scheduled integration pulls viewer data from Adobe Connect and compares playback time with the completion criteria set for the account. Administrators set the schedule in the integration admin app. Adobe Learning Manager considers only the actual viewing time when determining attendance, so skipping through a recording does not count toward the completion criteria.
+
+[Learn more](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
 
 ## Email Builder for courses and instances
 
@@ -156,8 +172,6 @@ Administrators create account-wide email templates and layouts. Authors customiz
 Banner and signature settings have moved. Earlier, these settings appeared on a separate **Settings** tab. That tab is removed, and **Banner** and **Signature** now appear in **Global Layout**.
 
 With Email Builder, you can add email titles with the Title variable.
-
-[Learn more](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
 
 ### How the Email Builder hierarchy works
 
@@ -198,17 +212,25 @@ Administrators create an account layout, create an account template, and publish
 
 If Email Builder is already enabled for your account, you receive the new changes automatically and don't need to take any action. Existing email functionality continues to operate independently of Email Builder migration activities.
 
+[Learn more](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
 ## Custom Learner attributes in Learning Tools Interoperability
 
 Adobe Learning Manager now reads custom Learner attributes through the optional Names and Role Provisioning Services endpoint of Learning Tools Interoperability. It also reads them from the launch request. Attributes such as country or city are stored in groupable profile fields. Launch parameters require a prefix so that Adobe Learning Manager recognizes them. Some learning systems, such as Moodle, don't support this endpoint.
+
+[Learn more](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md) 
 
 ## Discussion board Instructor notifications
 
 Headless customers can now send Instructors and cohort managers a digest of discussion board activity. Using the API, you add subscribers to a board. They receive new posts, comments, and replies in a single email, at an interval you set. Likes and dislikes aren't included. You turn on the feature through the API.
 
+[Learn more](/help/migrated/discussion-board-instructor-notifications.md)
+
 ## Relevance ranking in admin catalog search
 
 Catalog search in the admin view now ranks results by relevance, using the same search service as Learner and admin search elsewhere. An exact match, such as a catalog name with a specific date, appears first, followed by partial matches. The suggestion list while typing follows the same order.
+
+[Learn more](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
 ## Session cancellation sync from Adobe Workfront
 
@@ -220,6 +242,8 @@ Two behaviors apply to canceled sessions:
 * Setting the state to Active reactivates the session, and you can then update its details or cancel it again.
 
 Session updates continue to work as before.
+
+[Learn more](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
 
 ## Character limit for first names
 
@@ -249,9 +273,13 @@ Long names can be wider than the space available in some parts of the interface.
 
 To view the full name, hover over the shortened name.
 
+[Learn more](/help/migrated/deployment-guide/user-setup.md#character-limit-username) 
+
 ## Badge information for courses and learning paths
 
 When Authors add a course or learning path, a window lists existing courses and learning paths with badge information. The window shows the name, type (course or learning path), publication status, and course format, such as self-paced, virtual, classroom, or blended.
+
+[Learn more](/help/migrated/authors/feature-summary/create-learning-path.md) 
 
 ## Non-logged-in enhancements
 
@@ -287,9 +315,15 @@ Adobe Learning Manager can now make your public academy discoverable by search e
 >
 >AI and search discovery on native Adobe Learning Manager requires a custom domain. Headless deployments will need to implement parts of the setup in their own environment.
 
+>[!NOTE]
+>
+>The documentation for this feature will be made available shortly.
+
 ## Retire a course without making a learning path inaccessible
 
 A retired course or nested learning path is removed from the higher-level learning object, which stays open for new enrollments. Retiring a course no longer makes the learning path inaccessible.
+
+[Learn more](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
 
 ## Non-logged-in page URL for self-registration profiles
 
@@ -297,22 +331,15 @@ Self-registration profiles let external users, such as partners or members of mu
 
 When users select **Sign up** from a page reached through that URL, they're added to the profile the URL belongs to. This keeps users from different organizations, such as separate agencies or partner companies, in separate profiles.
 
+[Learn more](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+
 ## Store last access dates for learning path enrollments
 
 Adobe Learning Manager now allows you to attach custom metadata, such as a last access date, to a learning path enrollment. You set and read it through the API, which helps you track time-bound access to the learning paths you assign.
 
 Course enrollments already support a last access date through the API, which controls how long a Learner can access the course. Learning path enrollments now offer a generic metadata field, so you can store a last access date or any other value you want to track.
 
-## Export Report Builder reports with the Job API
-
-This release of Adobe Learning Manager adds a new Job API job type, `generateCustomReport`. Pass a report ID to automatically export any report you created in Report Builder.
-
-Combined with the new L2 quiz dataset in Report Builder, you can now:
-
-* Export question-level (L2) quiz data across multiple courses and modules in a single report, rather than running `generateQuizReport` once per course.
-* Automate recurring exports, such as a daily incremental export to your data warehouse or business intelligence tool.
-
-Existing job types, including `generateQuizReport`, are unchanged.
+[Learn more](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
 
 ## Column heading changes in downloaded reports
 
@@ -324,7 +351,7 @@ After the upgrade, existing reports without custom aliases show the updated head
 
 Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers.
 
-[Learn more](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage)
+[Learn more](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
 
 ## Multilingual support for closed captions in Live Hub
 
@@ -355,7 +382,7 @@ In large sessions, the following capabilities and behaviors apply:
 
 This allows organizations to run large training sessions within the same platform, with a room that can be set to the expected audience size.
 
-[Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
+[Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
 ## Channels
 
@@ -422,13 +449,19 @@ This update fixes both:
 
 No new endpoints, parameters, or response attributes are added, so existing integrations keep working without changes.
 
+  [Learn more](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content) 
+
 ### APIs for discussion board Instructor notifications
 
 This release includes new APIs that support discussion board Instructor notifications. Use them to subscribe Instructors and cohort managers to discussion boards and to control which activity appears in their digest emails.
 
+[Learn more](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors)
+
 ### API support for multi-enrolled instances in the Learner app
 
 The enrollments API now supports multi-enrolled instances in the Learner app. Add the optional `includeMultiInstanceEnrollments=true` parameter to `GET /enrollments` to include them. The default is `false`, so existing integrations, including headless implementations, keep working unchanged.
+
+[Learn more](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
 ### Last access date for learning path enrollment
 
@@ -439,11 +472,15 @@ You can now store custom metadata, such as a last access date, on a learning pat
 
 The metadata is for your own tracking. It doesn't control access and isn't applied to the courses in the path.
 
+[Learn more](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 ### Job API job type for Report Builder exports
 
 The Job API has a new job type, `generateCustomReport`, that exports any saved Report Builder report when you pass its report ID. With the new L2 quiz dataset, you can export question-level quiz data across multiple courses in one report and automate recurring exports.
 
 Existing job types, including `generateQuizReport`, are unchanged.
+
+[Learn more](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
 
 ### APIs for the Zoom connector
 

@@ -51,7 +51,7 @@ The **Approach** section is particularly useful for complex queries. It shows th
 
 Use Insights Agent in Adobe Learning Manager to query learning data with plain-language questions and get results as text, tables, or downloadable CSV files.
 
-Insights Agent is available to admins from the AI assistant panel in Learning Manager. The panel is resizable. You can expand it to make results easier to read. By default, the **Get Insights** mode is selected when you open the panel. A separate **Learn** mode is also available for instructional questions about how to use the product. **Learn** mode answers instructional questions about how to use Learning Manager. For example, "How do I create a learning path?" It does not query learner data.
+Insights Agent is available to admins from the AI assistant panel in Learning Manager. The panel is resizable. You can expand it to make results easier to read. By default, the **Get Insights** mode is selected when you open the panel. A separate **Learn** mode is also available for instructional questions about how to use the product. **Learn** mode answers instructional questions about how to use Learning Manager. For example, "How do I create a learning path?" It does not query learner data. [Learn more](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
 
 ### Ask a question
 

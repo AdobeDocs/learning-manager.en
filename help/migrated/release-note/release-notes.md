@@ -33,25 +33,41 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 
 ## Features in this release
 
-**Report Builder charts and dashboards:** Administrators can now visualize report data in Report Builder. Create big number, line, bar, and pie charts, and pivot tables from report columns, with aggregation and filtering in each chart. A report dashboard holds charts built from one report. A custom dashboard combines charts from several reports and supports up to 20 widgets. Charts that belong to a report are shared when you share the report. Dashboards can't be exported. [Learn more](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+**Report Builder charts and dashboards:** Administrators can now visualize report data in Report Builder. Create big number, line, bar, and pie charts, and pivot tables from report columns, with aggregation and filtering in each chart. A report dashboard holds charts built from one report. A custom dashboard combines charts from several reports and supports up to 20 widgets. Charts that belong to a report are shared when you share the report. Dashboards can't be exported. 
 
-**Insights Agent reports in Report Builder:** Administrators can open, review, edit, and save an Insights Agent answer as a Report Builder report, and then use Report Builder capabilities such as subscriptions. If part of a question can't be expressed with Report Builder fields, the report lists that part as a gap.[Learn more](/help/migrated/administrators/feature-summary/insights-agent.md##create-report-insights-agent)
+[Learn more](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
 
-**Adobe Experience Manager Assets integration:** Authors can browse and select approved learning content and image assets from Experience Manager Assets without leaving Adobe Learning Manager. When an asset changes in the digital asset manager, the update can flow into the courses that use it. Authors see only the assets they already have access to in Experience Manager Assets.[Learn more](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
+**Insights Agent reports in Report Builder:** Administrators can open, review, edit, and save an Insights Agent answer as a Report Builder report, and then use Report Builder capabilities such as subscriptions. If part of a question can't be expressed with Report Builder fields, the report lists that part as a gap. 
+
+[Learn more](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
+
+**Adobe Experience Manager Assets integration:** Authors can browse and select approved learning content and image assets from Experience Manager Assets without leaving Adobe Learning Manager. When an asset changes in the digital asset manager, the update can flow into the courses that use it. Authors see only the assets they already have access to in Experience Manager Assets. 
+
+[Learn more](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
 
 **File submission enhancements:** File submission modules now support the following:
 
-* **Team submissions:** Instructors create teams of up to 100 members. Each team submits one file, and the Instructor's evaluation applies to every member. Instructors manage teams on the new **Teams management** page.
+* **Team submissions:** Instructors create teams of up to 100 members. Each team submits one file, and the Instructor's evaluation applies to every member. Instructors manage teams on the new **Teams management** page. 
+
+   [Learn more](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 * **Evaluation Plan assessments:** Authors defines an Evaluation Plan, with objective questions that have scored options and subjective questions that have written review. An Evaluation Plan holds up to 100 questions.
+
 * **Instructor approval or automatic completion:** Authors choose whether a submission requires Instructor approval or is completed automatically. This setting is independent of the evaluation plan.
 
-[Learn more]
+[Learn more](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
-**Model Context Protocol server for Learner Assistant:** Learners can access Learning Manager from tools they already use, such as ChatGPT, Claude, and custom agents, through a Model Context Protocol (MCP) server. Administrators configure the server in the Integration Administrator app. It provides search, list enrollments, get learning object, get user profile, answer learning content question, and get Personalized Learning Path capabilities. [Learn more](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
+**Model Context Protocol server for Learner Assistant:** Learners can access Learning Manager from tools they already use, such as ChatGPT, Claude, and custom agents, through a Model Context Protocol (MCP) server. Administrators configure the server in the Integration Administrator app. It provides search, list enrollments, get learning object, get user profile, answer learning content question, and get Personalized Learning Path capabilities. 
 
-**Email Builder for courses and instances:** The full Email Builder experience is now available for course-level and instance-level emails. Administrators define account layouts and templates, and Authors customize course and instance emails while inheriting the layout and formatting. A template links to the nearest available layout, and you can unlink a template to edit it independently. **Banner** and **Signature** settings have moved from the **Settings** tab, which is removed, to **Global Layout**. If Email Builder is already enabled for your account, you receive these changes automatically. [Learn more](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+[Learn more](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-**Safe Exam Browser integration for quizzes:** Administrators can enable the integration at the account level and upload a Safe Exam Browser configuration file (.seb) to define assessment restrictions. Authors choose which quizzes require Safe Exam Browser. Learners who attempt such a quiz are prompted to launch, or download, Safe Exam Browser. [Learn more](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
+**Email Builder for courses and instances:** The full Email Builder experience is now available for course-level and instance-level emails. Administrators define account layouts and templates, and Authors customize course and instance emails while inheriting the layout and formatting. A template links to the nearest available layout, and you can unlink a template to edit it independently. **Banner** and **Signature** settings have moved from the **Settings** tab, which is removed, to **Global Layout**. If Email Builder is already enabled for your account, you receive these changes automatically.
+
+[Learn more](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
+**Safe Exam Browser integration for quizzes:** Administrators can enable the integration at the account level and upload a Safe Exam Browser configuration file (.seb) to define assessment restrictions. Authors choose which quizzes require Safe Exam Browser. Learners who attempt such a quiz are prompted to launch, or download, Safe Exam Browser. 
+
+[Learn more](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
 
 **Non-logged-in enhancements:** Learning Manager now enables controlled access to learning content without requiring users to sign in.
 
@@ -63,66 +79,129 @@ Live Hub now supports sessions of up to 5,000 attendees, multilingual closed cap
 >
 >The documentation for this feature will be made available shortly.
 
-**Virtual Coach:** Virtual Coach is an AI-powered role-play and coaching solution that allows Learners practice realistic workplace conversations. It supports nine languages and can be used as a standalone job aid or embedded within a course. [Learn more](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md) 
+**Virtual Coach:** Virtual Coach is an AI-powered role-play and coaching solution that allows Learners practice realistic workplace conversations. It supports nine languages and can be used as a standalone job aid or embedded within a course. 
 
-**Live Hub:** Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers. [Learn more](../administrators/feature-summary/billing-management.md)
+[Learn more](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md) 
 
-**Support for up to 5000 attendees in Live Hub**: Authors can now select a capacity of up to 5,000 attendees when adding a Virtual Classroom module. For large sessions, camera access, screen sharing, and whiteboard functionality are limited to Instructors. Breakout rooms are not available for these sessions. [Learn more](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+**Live Hub:** Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers. 
 
-**Multilingual closed captions in Live Hub**: Instructors can now select the closed caption language from **Room settings**. All participants view captions in the language selected by the Instructor. [Learn more](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+[Learn more](../administrators/feature-summary/billing-management.md)
 
-**Group enrollment reservation and waitlist management:** Authors can allocate seats in Classroom and Virtual Classroom courses to specific user groups, set separate enrollment open dates for those groups and for all other Learners, and turn on automatic waitlist promotion with a cut-off date. [Learn more](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+**Support for up to 5000 attendees in Live Hub**: Authors can now select a capacity of up to 5,000 attendees when adding a Virtual Classroom module. For large sessions, camera access, screen sharing, and whiteboard functionality are limited to Instructors. Breakout rooms are not available for these sessions. 
 
-**Support for multiple Zoom connections:** Integration Administratoristrators can configure multiple Zoom connections in a single account and assign them to specific roles or user groups. Authors select from the connections available to them when they create or edit a session. [Learn more](../integration-admin/feature-summary/zoom-connector.md)
+[Learn more](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
-**Channels:** Channels are generally available for all customers. [Learn more](../administrators/feature-summary/create-channels.md)
+**Multilingual closed captions in Live Hub**: Instructors can now select the closed caption language from **Room settings**. All participants view captions in the language selected by the Instructor. 
+
+[Learn more](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+
+**Group enrollment reservation and waitlist management:** Authors can allocate seats in Classroom and Virtual Classroom courses to specific user groups, set separate enrollment open dates for those groups and for all other Learners, and turn on automatic waitlist promotion with a cut-off date. 
+
+[Learn more](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+
+**Support for multiple Zoom connections:** Integration Administratoristrators can configure multiple Zoom connections in a single account and assign them to specific roles or user groups. Authors select from the connections available to them when they create or edit a session. 
+
+[Learn more](../integration-admin/feature-summary/zoom-connector.md)
+
+**Channels:** Channels are generally available for all customers. 
+
+[Learn more](../administrators/feature-summary/create-channels.md)
 
 ## Enhancements in this release
 
-**Personalized Learning Path editing and branding strips:** Learners can remove suggested topics or courses in a single step. Administrators can reposition the Personalized Learning Paths strip on the Learner home page through the **Branding** page. [Learn more](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips) 
+**Personalized Learning Path editing and branding strips:** Learners can remove suggested topics or courses in a single step. Administrators can reposition the Personalized Learning Paths strip on the Learner home page through the **Branding** page. 
 
-**Learning Path citations in Learner Assistant:** Answers now cite the Learning Path that contains a source course, along with the course. Answers drawn from a job aid include a download link. [Learn more](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations) 
+[Learn more](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips) 
 
-**AI Assistant configurations:** The Administrator Assistant offers two agents, Insights Agent and Knowledge Agent. The Learner Assistant offers three agents: Knowledge Agent, Answer Agent, and Learning Path Agent. You can configure each agent individually. [Learn more](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
+**Learning Path citations in Learner Assistant:** Answers now cite the Learning Path that contains a source course, along with the course. Answers drawn from a job aid include a download link. 
 
-**Resend virtual classroom session invites:** Administrators with course edit permission can resend a session invite from the instance page. The option is available for current and future sessions. [Learn more](/help/migrated/instructors/feature-summary/resend-session-invite.md) 
+[Learn more](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations) 
 
-**Automatic attendance from Adobe Connect recording views:** Learning Manager marks attendance when a Learner plays the recording of a missed virtual classroom session. A scheduled integration compares actual viewing time with the completion criteria set for the account. [Learn more](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md) 
+**AI Assistant configurations:** The Administrator Assistant offers two agents, Insights Agent and Knowledge Agent. The Learner Assistant offers three agents: Knowledge Agent, Answer Agent, and Learning Path Agent. You can configure each agent individually. 
+
+[Learn more](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
+
+**Resend virtual classroom session invites:** Administrators with course edit permission can resend a session invite from the instance page. The option is available for current and future sessions. 
+
+[Learn more](/help/migrated/instructors/feature-summary/resend-session-invite.md) 
+
+**Automatic attendance from Adobe Connect recording views:** Learning Manager marks attendance when a Learner plays the recording of a missed virtual classroom session. A scheduled integration compares actual viewing time with the completion criteria set for the account. 
+
+[Learn more](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md) 
 
 **Column heading changes in downloaded Report Builder reports:** Default column headings in downloaded Report Builder reports now include the dataset name. For example, **Name** from the Learning Object dataset appears as **Learning Object - Name**. For aggregated columns, the heading also includes the function, such as **Count of Learning Object - ID**. Headings that use a custom name in the **Alias** field are unchanged.
 
-**Multi-enrolled courses in the compliance widget:** The compliance widget lists every instance of a multi-enrollment course that a Learner must complete. If one instance has a deadline, instances without a deadline are hidden. [Learn more](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md) 
+**Multi-enrolled courses in the compliance widget:** The compliance widget lists every instance of a multi-enrollment course that a Learner must complete. If one instance has a deadline, instances without a deadline are hidden. 
 
-**Relevance ranking in Administrator catalog search:** Catalog search in the Administrator view ranks results by relevance. Exact matches appear first, followed by partial matches. [Learn more](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
+[Learn more](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md) 
 
-**Retire a course without making a Learning Path inaccessible:** A retired course or nested Learning Path is removed from the higher-level learning object, which stays open for new enrollments.  [Learn more](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+**Relevance ranking in Administrator catalog search:** Catalog search in the Administrator view ranks results by relevance. Exact matches appear first, followed by partial matches. 
 
-**Session cancellation sync from Adobe Workfront:** Sessions canceled in Adobe Workfront carry over to Learning Manager through Migration. Migration adds an optional **State** column that accepts **Active** or **Cancelled**. [Learn more](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+[Learn more](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
-**Character limit for first names:** The first name field now accepts up to 255 characters, up from 63. The limit applies to users added in the interface, through CSV import, in self-registration, and as external users. Existing users aren't affected. Long names are shortened in table cells, dropdown list items, and search results. Hover over a shortened name to view it in full. [Learn more](/help/migrated/deployment-guide/user-setup.md#character-limit-username) 
+**Retire a course without making a Learning Path inaccessible:** A retired course or nested Learning Path is removed from the higher-level learning object, which stays open for new enrollments.
+
+[Learn more](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+
+**Session cancellation sync from Adobe Workfront:** Sessions canceled in Adobe Workfront carry over to Learning Manager through Migration. Migration adds an optional **State** column that accepts **Active** or **Cancelled**.
+
+[Learn more](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+
+**Character limit for first names:** The first name field now accepts up to 255 characters, up from 63. The limit applies to users added in the interface, through CSV import, in self-registration, and as external users. Existing users aren't affected. Long names are shortened in table cells, dropdown list items, and search results. Hover over a shortened name to view it in full.
+
+[Learn more](/help/migrated/deployment-guide/user-setup.md#character-limit-username) 
 
 **Localized Live Hub interface and recording player**: Live Hub now displays its interface in the language selected for Adobe Learning Manager, supporting the same 18 languages. The recording player is localized based on the course language.
 
-**Badge information for courses and Learning Paths:** When Authors add a course or Learning Path, the window lists existing courses and Learning Paths with badge information, publication status, and course format. [Learn more](/help/migrated/authors/feature-summary/create-learning-path.md) 
+**Badge information for courses and Learning Paths:** When Authors add a course or Learning Path, the window lists existing courses and Learning Paths with badge information, publication status, and course format. 
 
-**Non-logged-in page URL for self-registration profiles:** Each self-registration profile can have its own shareable non-logged-in menu URL, built in Experience Builder. Users who select **Sign up** from that URL are added to the profile it belongs to. [Learn more](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+[Learn more](/help/migrated/authors/feature-summary/create-learning-path.md) 
+
+**Non-logged-in page URL for self-registration profiles:** Each self-registration profile can have its own shareable non-logged-in menu URL, built in Experience Builder. Users who select **Sign up** from that URL are added to the profile it belongs to. 
+
+[Learn more](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
 **Custom Learner attributes in Learning Tools Interoperability:** Learning Manager reads custom Learner attributes through the optional Names and Role Provisioning Services endpoint and from the launch request. Some learning systems, such as Moodle, don't support this endpoint.
 
-**Discussion board Instructor notifications:** Headless customers can send Instructors and cohort managers a digest of discussion board activity through the API. [Learn more](/help/migrated/discussion-board-instructor-notifications.md) 
+[Learn more](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md) 
 
-**Webhooks for Instructor edits to learning object instances:** The learning object instance modification webhook now also triggers when an Instructor edits a virtual classroom session. [Learn more](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md) 
+**Discussion board Instructor notifications:** Headless customers can send Instructors and cohort managers a digest of discussion board activity through the API.
 
-**Last access date for Learning Path enrollments:** You can attach custom metadata, such as a last access date, to a Learning Path enrollment through the API. [Learn more](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment) 
+[Learn more](/help/migrated/discussion-board-instructor-notifications.md) 
+
+**Webhooks for Instructor edits to learning object instances:** The learning object instance modification webhook now also triggers when an Instructor edits a virtual classroom session. 
+
+[Learn more](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md) 
+
+**Last access date for Learning Path enrollments:** You can attach custom metadata, such as a last access date, to a Learning Path enrollment through the API. 
+
+[Learn more](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment) 
 
 ## API changes
 
 * **Bookmark API ordering and retired content handling:** Bookmarks are now returned newest first, and bookmarks to retired learning objects are no longer returned. No endpoints, parameters, or response attributes are added.
+
+   [Learn more](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content) 
+
 * **APIs for discussion board Instructor notifications:** New APIs subscribe Instructors and cohort managers to discussion boards and control which activity appears in their digest emails.
+
+   [Learn more](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors) 
+
 * **API support for multi-enrolled instances in the Learner app:** Add the optional `includeMultiInstanceEnrollments=true` parameter to `GET /enrollments` to include multi-enrolled instances. The default is `false`.
+
+   [Learn more](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget) 
+
 * **Last access date for Learning Paths enrollment:** Set custom metadata on a Learning Path enrollment with an admin token. Read it with an admin or Learner token.
+
+   [Learn more](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 * **Job API job type for Report Builder exports:** The new `generateCustomReport` job type exports a saved Report Builder report by report ID. Existing job types, including `generateQuizReport`, are unchanged.
-* **APIs for the Zoom connector:** New APIs retrieve and manage Zoom connections, save Zoom credentials, and set the user groups and custom roles that can use a connection. The APIs use session-based authentication and require an Integration Administrator login. [Learn more](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
+
+   [Learn more](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
+
+* **APIs for the Zoom connector:** New APIs retrieve and manage Zoom connections, save Zoom credentials, and set the user groups and custom roles that can use a connection. The APIs use session-based authentication and require an Integration Administrator login.
+
+   [Learn more](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
 
 ## Breaking changes in this release
 

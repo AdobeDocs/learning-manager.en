@@ -39,7 +39,7 @@ To create a quiz with Safe Exam Browser mode:
 
    >[!NOTE]
    >
-   > If the Administrator enables this option, you can enable or disable the Safe Exam Browser (SEB) requirement for a course quiz module. If the Administrator disables this option, SEB becomes mandatory for the quiz, and you cannot change this requirement.
+   > If the Administrator enables this option, you can enable or disable the Safe Exam Browser (SEB) requirement for a course quiz module. If the Administrator disables this option, SEB becomes mandatory for the quiz, and you cannot change this requirement. View [Enable Safe Exam Browser integration](../../administrators/feature-summary/safe-exam-browser.md#enable-safe-exam-browser-integration) for more information.
 
 1. Select **Publish**.
 
@@ -64,3 +64,5 @@ To add the quiz to a course:
 1. Select **Save** > **Publish**.
 
    The course now includes an assessment that requires Learners to use Safe Exam Browser.
+
+View [Launch a quiz in Safe Exam Browser](../../learners/feature-summary/launch-safe-exam-browser.md) to learn how Learners can access and take quizzes using Safe Exam Browser.
