@@ -301,7 +301,6 @@ nudge: true
    * [Settings](authors/feature-summary/settings.md) 
 * Instructor {#instructor}
    * [Modules](/help/migrated/instructors/feature-summary/modules.md)
-   * [Evaluate and unsubmit a team submission](/help/migrated/instructors/feature-summary/learners.md)
    * [Managing learners for your session](instructors/feature-summary/learners.md)
    * [Resend session invite](instructors/feature-summary/resend-session-invite.md)
 * Learner {#learner}
