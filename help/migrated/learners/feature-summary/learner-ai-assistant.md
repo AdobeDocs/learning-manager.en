@@ -55,7 +55,7 @@ When Learner Assistant answers a question, it lists the learning content it used
 
 Confirm that the Learning Path is relevant to the question and visible to the learner in the catalog. Learner Assistant does not show content that is hidden from the learner.
 
-## Configure Learner Assistant agents
+## Configure Learner Assistant agents {#configure-la-agents}
 
 Turn individual Learner Assistant agents on or off to control which AI capabilities your learners can use in Adobe Learning Manager.
 
