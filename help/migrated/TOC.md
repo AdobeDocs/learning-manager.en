@@ -301,7 +301,6 @@ nudge: true
    * [Settings](authors/feature-summary/settings.md) 
 * Instructor {#instructor}
    * [Modules](/help/migrated/instructors/feature-summary/modules.md)
-   * [Evaluate and unsubmit a team submission](/help/migrated/instructors/feature-summary/learners.md)
    * [Managing learners for your session](instructors/feature-summary/learners.md)
    * [Resend session invite](instructors/feature-summary/resend-session-invite.md)
 * Learner {#learner}
@@ -439,7 +438,7 @@ nudge: true
 * Reporting Changes {#reporting-changes}
    * [Reporting changes in the August 2026 release](/help/migrated/reporting-changes-august-2026.md)
 * Knowledge Base {#knowledge-base}
-   * [Troubleshooting guide for Live Hub (Beta)](./kb/troubleshooting-guide-for-live-hub.md)
+   * [Troubleshooting guide for Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
    * [Unable to log in to Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Learning Summary does not display current data](kb/learning-summary-not-display-data.md)
    * [Unable to upload a CSV](kb/unable-to-upload-csv.md)
