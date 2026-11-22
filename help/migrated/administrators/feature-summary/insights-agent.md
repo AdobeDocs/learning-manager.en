@@ -295,7 +295,7 @@ Use these as starting points. Adapt them by replacing the content names, user gr
 
 Insights Agent supports queries written in English and Latin-alphabet languages such as French and Spanish. Queries submitted using non-Latin scripts, including Japanese, Chinese, Arabic, Korean, Hindi, and Russian are not processed. The agent will display a message indicating the query could not be completed. If you submit a query in one of these languages, start a new query and rephrase it in English.
 
-## Create a report from an Insights Agent answer
+## Create a report from an Insights Agent answer {#create-report-insights-agent}
 
 In Adobe Learning Manager, you can ask Insights Agent a question in plain language and open the answer as a report in Report Builder. You can then edit the report and reuse it, so you don't have to rebuild it from scratch.
 
