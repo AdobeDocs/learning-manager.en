@@ -29,7 +29,7 @@ For the full list, view the **learner tools reference**.
 
 Customer and partner education is a primary use of the MCP server. Organizations that build their own enterprise AI agents can connect those agents to the Adobe Learning Manager learner tools. Their customers and partners then learn inside the assistant they already use, without moving to a separate learning assistant.
 
-For example, Acme Inc. builds its own enterprise AI assistant. An Acme Inc. partner visits Lenovo's environment to learn about Lenovo products. Acme's assistant connects to its Adobe Learning Manager account through the MCP server and returns learning-related responses, so the partner never leaves the Acme experience.
+For example, Acme Inc. builds its own enterprise AI assistant. An Acme Inc. partner visits Tech Corp's environment to learn about Tech Corp products. Acme's assistant connects to its Adobe Learning Manager account through the MCP server and returns learning-related responses, so the partner never leaves the Acme experience.
 
 This approach lets organizations:
 

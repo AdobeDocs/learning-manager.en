@@ -420,3 +420,9 @@ Confirm that Public preview link is on, that the content is SCORM 1.2, SCORM 200
 **Q. Does ALM generate a public preview link?**
 
 **A.** Yes, only for SCORM 1.2, SCORM 2004 and HTML files. This is possible only when public preview feature is enabled by Integration Administrator.
+
+**Related links:**
+
+* [Manage content in the Content Library](/help/migrated/authors/feature-summary/content-library.md)
+* [Adobe Admin Console documentation](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Adobe Experience Manager Assets documentation](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
