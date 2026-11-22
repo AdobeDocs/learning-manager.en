@@ -1,17 +1,15 @@
 ---
-description: Learn how authors customize course-level and instance-level emails in Email Builder with an administrator layout, and fix common issues
+description: Customize course-level and instance-level emails in Adobe Learning Manager with Email Builder and a layout that your administrator provides.
 jcr-language: en_us
 title: Customize course and instance emails in Email Builder
 exl-id: 06499e3f-0610-4983-83f2-3e8b578fc8bf
 ---
 
-## Customize course and instance emails in Email Builder
-
-Customize course-level and instance-level emails in Adobe Learning Manager with Email Builder and a layout that your administrator provides.
+# Customize course and instance emails in Email Builder
 
 As an author, you can customize emails for a course or for a specific instance of a course. Both procedures start from a layout that your administrator provides.
 
-### Customize a course-level email
+## Customize a course-level email
 
 1. Open the course.
 2. Select **Email Templates**.
@@ -20,7 +18,7 @@ As an author, you can customize emails for a course or for a specific instance o
 5. Save the template.
 6. Publish the course.
 
-### Customize an instance-level email
+## Customize an instance-level email
 
 Use an instance-level email when different cohorts need different messages. You manage these cohorts through course instances.
 
@@ -34,7 +32,7 @@ Use an instance-level email when different cohorts need different messages. You 
 >
 >When both exist, instance-level emails override course-level templates.
 
-### Use the Title variable and an image for email headers 
+## Use the Title variable and an image for email headers 
 
 Use the Title variable with an Image component to build the email header instead of the Banner component. The Banner component's image doesn't appear in some email clients, such as Outlook. 
 
@@ -46,14 +44,14 @@ To add a title header:
 2. Add a Text component and insert the title variable from the variables dropdown in the component's configuration pane. 
 3. Center-align the Text component. In the global layout, place it in the top header. 
 
-Individual emails use the header from the global layout by default. In an individual email, you can edit the Text component to: 
+    Individual emails use the header from the global layout by default. In an individual email, you can edit the Text component to: 
 
-1. Replace the variable with custom text 
-2. Add text before or after the variable and keep `EmailTitle` 
+4. Replace the variable with custom text 
+5. Add text before or after the variable and keep `EmailTitle` 
 
 If you add an image to the Banner component, Email Builder shows a warning that the image might not appear correctly in some email clients. The warning suggests using an Image component and the title variable instead.  
 
-### Troubleshooting
+## Troubleshooting
 
 **You can't select a layout.** 
 Layout inheritance depends on the parent layouts that are available. Ask your administrator to create an account layout.
