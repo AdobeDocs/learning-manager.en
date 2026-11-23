@@ -55,10 +55,31 @@ The information in the table is not exhaustive. See the section **List of column
 * User Completion %
 * User Compliance %
 
+### L2 Quiz after Custom field (User)
+
+* Attempt Number
+* Course ID
+* Course Instance ID
+* Course Name
+* Interaction Type
+* Module ID
+* Module Name
+* Module Version
+* Question - Correct Answer
+* Question - ID
+* Question - Maximum Possible Score
+* Question - Text
+* Response - Achieved Score
+* Response - Answer
+* Response - Is Correct
+* Response - Timestamp
+* User ID
+
 ### Learning Object
 
 * Author Names
 * Auto-retirement Date
+* Certificate Validity (months)
 * Completion Count
 * Creation Date
 * Duration (minutes)
@@ -129,6 +150,8 @@ The information in the table is not exhaustive. See the section **List of column
 * Enrollment Date
 * Enrollment Source
 * Enrollment State
+* Is Primary Enrollment
+* Metadata
 * Learning Object ID
 * Learning Object Name
 * Learning Object Instance ID
@@ -150,6 +173,7 @@ The information in the table is not exhaustive. See the section **List of column
 * Course ID
 * Module ID
 * Module Name
+* Module Success Status
 * Passing Date
 * Progress Percent
 * Quiz Module Total Score
@@ -212,7 +236,10 @@ The information in the table is not exhaustive. See the section **List of column
 
 ### User Group (Custom)
 
+* Created By User Email
+* Created By User Name
 * Creation Date
+* Description
 * ID
 * Members Count
 * Name
@@ -221,6 +248,7 @@ The information in the table is not exhaustive. See the section **List of column
 ### User Group (Direct Team)
 
 * Creation Date
+* Description
 * ID
 * Members Count
 * Name
@@ -233,6 +261,7 @@ The information in the table is not exhaustive. See the section **List of column
 ### User Group (Inbuilt)
 
 * Creation Date
+* Description
 * ID
 * Members Count
 * Name
@@ -241,6 +270,7 @@ The information in the table is not exhaustive. See the section **List of column
 ### User Group (Team)
 
 * Creation Date
+* Description
 * ID
 * Members Count
 * Description
