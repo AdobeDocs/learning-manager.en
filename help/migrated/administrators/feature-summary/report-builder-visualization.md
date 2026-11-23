@@ -60,6 +60,7 @@ Confirm the following:
 * **Save the report.** The option to add a chart appears on the Report Builder page after you save the report.
 * **Use your own report.** Duplicate a shared report to create your own copy, and then use it to create charts.
 * **Check the size.** A report with more than 10 million rows can't be plotted. A summarized report with more than 10,000 data points isn't plotted. See Chart and dashboard limits.
+* **Optimize the data for visualization.** Apply appropriate report-level or chart-level filters to limit the amount of data plotted. The time required to load a chart depends on factors such as the volume of report data, the selected date range, and the combination of datasets and tables used in the report. Reports that process large data volumes or complex dataset combinations may take longer to load or may time out. If this occurs, narrow the filters or date range and try again.
 * **Know your columns.** The chart's X axis (dimension) and Y axis (measure) come from your report's columns. To summarize the report itself, use **Group by** and aggregates. For more information, see Apply group by and aggregations.
 
 ### Configure a chart {#configure-chart}
