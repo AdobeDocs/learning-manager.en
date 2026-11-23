@@ -309,6 +309,38 @@ To configure the My Learning widget:
 
 My Learning widget will be added to the page. Administrators can add other widgets and publish the page.
 
+## Personalized Learning Path widget {#add-a-plp}
+
+The Personalized Learning Path widget is a content strip you can add to learner pages in Experience Builder. It shows learners the learning path generated for them by the Personalized Learning Path (PLP) agent in Learner Assistant, so they can see their recommended courses and resume learning without leaving the page.
+
+Use the Personalized Learning Path widget to show learners a personalized set of courses on a page in Experience Builder.
+
+## Before you begin
+
+* Make sure the Personalized Learning Path agent is enabled for your account. It is included with the Ultimate tier or available as an add-on to the Prime tier.
+* Make sure Learner Assistant and the Personalized Learning Path agent are turned on in **AI Assistant** settings.
+* Make sure you have the Administrator role.
+
+### Add the Personalized Learning Path widget
+
+1. Log in to Adobe Learning Manager as an **Administrator**.
+
+2. In the left pane, select **Branding**. 
+
+3. Select **Custom Pages**.
+
+4. Select **Edit** and then select the layout. Then, select 
+
+5. Select **Add widget**, and then select **Personalized Learning Path**.
+
+6. Under **Widget title**, enter a title for the widget.
+
+7. (Optional) Under **Widget description**, enter a short description. You can enter up to 180 characters.
+
+8. Review the preview on the right side of the screen. Each card shows the course format, duration, skill, rating, title, and author, along with a **Continue** button.
+
+9. Select **Add widget**, and then click **Publish** to make the page available to learners.
+
 ## Saved by me widget {#bookmark-widget}
 
 The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
