@@ -398,15 +398,13 @@ When courses are chargeable, authors can specify the course, Learning Path, or c
 >
 >Certain types of training, such as recurring certifications and manager-approved courses, cannot be purchased.
 
-## Turn on automatic team formation in Adobe Learning Manager
+### Auto team formation for team based submissions {#enable-auto-team-formation}
 
 Turn on automatic team formation in the administrator settings, so Adobe Learning Manager groups enrolled learners into teams before each course instance starts.
 
 This setting is optional. Team submissions work without it, and instructors can create teams manually.
 
 When you turn on this account setting, Adobe Learning Manager automatically groups enrolled learners into teams a set number of days before the start of each course instance. The setting is off by default. Authors can adjust the schedule for their courses, and instructors can still create teams manually.
-
-### Turn on automatic team formation
 
 1. In the administrator app, select **Settings** > **General**.
 
@@ -426,7 +424,7 @@ When you turn on this account setting, Adobe Learning Manager automatically grou
 
 The setting works only for courses that have a team-based file submission module and an instance start date.
 
-## How changes affect courses
+#### How changes affect courses
 
 When you change this setting, the change applies only to courses that you create after you save it. Courses that already exist keep the configuration they were published with, whether automatic team formation was on or off, and they keep their schedule. For example, if you turn the setting on in March, courses created in February don't get it, and courses created in March or later do.
 
