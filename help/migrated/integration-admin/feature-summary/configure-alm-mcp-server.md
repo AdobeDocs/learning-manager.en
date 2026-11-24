@@ -1,5 +1,5 @@
 ---
-description: Create an MCP server in Adobe Learning Manager, connect it to Claude or ChatGPT, and manage credentials, tools, limits, and troubleshooting
+description: Configure the Model Context Protocol (MCP) server once for your organization, so that AI assistants can securely reach your learners' training.
 jcr-language: en_us
 title: Configure the Adobe Learning Manager MCP server
 exl-id: b5d2c08e-a11e-4f55-9ba5-a652a9575678
@@ -7,24 +7,31 @@ exl-id: b5d2c08e-a11e-4f55-9ba5-a652a9575678
 
 # Configure the Adobe Learning Manager MCP server
 
-Configure the Model Context Protocol (MCP) server once for your organization. Configuration has two parts: create an MCP server in Learning Manager, and then connect it to your AI assistant. Afterward, learners sign in to Learning Manager from the AI assistant and can use the MCP tools.
+## Overview
 
-Before you begin, ensure that:
+Configuration has two steps. First, create an MCP server in Adobe Learning Manager. Second, connect the server to your AI assistant. Afterward, learners authenticate with Adobe Learning Manager from the AI assistant, and then they can use the MCP tools.
+
+## Requirements
 
 * The MCP server is enabled for your Learning Manager account. Contact your Adobe Customer Success Manager or Adobe Support to enable it. Until then, every request returns 403 Forbidden.
-* The AI assistant administrator has permission to add and configure connectors in that platform.
+* The MCP server is a backend-flag feature that's available only to **Ultimate tier** accounts.
+* The administrator of your AI assistant has permission to add and configure connectors on that platform.
 
-**Prerequisite:** Model Context Protocol server is a backend flag based feature which works only for Ultimate tier accounts.
+## How it works
+
+An MCP client, such as Claude or ChatGPT, sends requests to the MCP server URL together with the learner's OAuth access token. Each tool runs with the permissions of the learner that the token represents. A learner can therefore do through the MCP server only what they're already permitted to do in Adobe Learning Manager.
+
+The server uses the OAuth 2.0 authorization code flow. The AI assistant authenticates as a confidential client with the Client ID and Client Secret of an Adobe Learning Manager application. The server doesn't support OAuth Dynamic Client Registration.
 
 ## Create an MCP server in Learning Manager
 
 Creating an MCP server sets up an OAuth application and gives you the MCP server URL, Client ID, and Client Secret.
 
-1. Sign in to Learning Manager as an Integration Admin.
+1. Sign in to Learning Manager as an Integration Administrator.
 2. In the navigation menu, select **MCP Servers**.
 3. In the upper-right corner, select **Create**.
 
-      ![](assets/integration-admin-mcp1.png)
+    ![](/help/migrated/integration-admin/feature-summary/assets/1.5-Integration-Administrator-Configure-ALM-MCP-server-image1.png)
 
 4. On the **Application Details** page, enter the following, and then select **Next**:
 
@@ -32,7 +39,7 @@ Creating an MCP server sets up an OAuth application and gives you the MCP server
     * **Redirect Domains:** Enter the callback domain of each AI assistant, one domain per line. Start each with and don't include a path. This field is required.
     * **Description:** Enter up to 150 characters, for example, lets learners use ALM from Claude.
 
-5. On the **Tool Configuration** page, review the tools and the descriptions that AI assistants use to decide when to call each tool. To change a description, select **Actions** (**…**) \> **Edit**. To restore the default, select **Reset**. Then select **Next**.
+5. On the **Tool Configuration** page, review the tools and the descriptions that AI assistants use to decide when to call each tool. To change a description, select **Actions** (**…**) > **Edit**. To restore the default, select **Reset**. Then select **Next**.
 6. On the **Client Credentials** page, copy the **MCP Server URL**, **Client ID**, and **Client Secret**. Store them securely. You need them to connect your AI assistant.
 
 The MCP server always has Learner scope, so there are no scopes to select.
@@ -44,26 +51,34 @@ Register the domain for each AI assistant you plan to connect.
 | Claude | [https://claude.ai](https://claude.ai/) and [https://claude.com](https://claude.com/) | <https://claude.ai/api/mcp/auth_callback> |
 | ChatGPT | [https://chatgpt.com](https://chatgpt.com/) | <https://chatgpt.com/connector/oauth/&lt;id>\> (ChatGPT shows the ID during setup) |
 
-Register exact domains, such as [https://chatgpt.com](https://chatgpt.com/). Don't use partial wildcards such as [https://*chatgpt.com*](https://chatgpt.com)*, because they can match unrelated domains. To allow subdomains, use a whole-label wildcard such as* [*https://*.example.com](https://.example.com).
+>[!IMPORTANT]
+>
+>Register exact domains, such as [https://chatgpt.com](https://chatgpt.com/). Don't use partial wildcards such as [https://*chatgpt.com*](https://chatgpt.com)*, because they can match unrelated domains. To allow subdomains, use a whole-label wildcard such as* [*https://*.example.com](https://encoded-592c9deb-987b-4562-aa3c-9fa3d37d83e9.uri/https%3a%2f%2f.example.com).
 
 One MCP server can serve several AI assistants if you list all their redirect domains. To revoke access for one assistant without affecting the others, create a separate MCP server for each. All servers use the same MCP server URL.
 
-You need only the MCP server URL. Claude and ChatGPT automatically discover the Learning Manager OAuth endpoints. For manual setup, view **OAuth endpoints for the Learning Manager MCP server**.
+You need only the MCP server URL. Claude and ChatGPT automatically discover the Learning Manager OAuth endpoints. For manual setup, view [OAuth endpoints for the Learning Manager MCP server](#oauth-endpoints-reference).
 
-## Connect Claude Pro or Max
+## Connect your MCP client
 
-Refer to Claude documentation if these steps no longer match the interface.
+The administrator of your AI assistant connects the MCP server. Client interfaces change frequently. If these steps no longer match, refer to the client's documentation.
 
 >[!NOTE]
 >
->The verbosity of the responses to questions posed changes as responses from the answer_learning_content_question tool are reframed and formatted by the clients.
+>The AI client reframes and formats the responses that the answer_learning_content_question tool returns, so the verbosity of answers can vary between clients.
+
+Before you begin, confirm that the MCP server is enabled for your account, and that you have the MCP Server URL, Client ID and Client Secret from the previous section.
+
+### Connect Claude Pro or Max
+
+**Note:** The verbosity of the responses to questions posed changes as responses from the answer_learning_content_question tool are reframed and formatted by the clients.
 
 1. In Claude, go to **Customize** \> **Connectors**.
 2. Select **Add** (+), and then select **Add custom connector**.
 3. Enter the connector details, and then select **Continue**:
 
-    * **Name:** Enter a name your learners recognize, for example, Adobe Learning Manager.
-    * **Remote MCP server URL:** Enter the MCP Server URL from the Client Credentials page, in the format [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp).
+    1.  **Name:** Enter a name your learners recognize, for example, Adobe Learning Manager.
+    2.  **Remote MCP server URL:** Enter the MCP Server URL from the Client Credentials page, in the format [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp).
 
 4. Under **Authentication**, keep **Sign in now**. Claude reads the Learning Manager OAuth settings and marks matching options as *Detected*.
 5. Under **OAuth client**, select **Use your own OAuth client**. Paste the **Client ID** and **Client Secret**.
@@ -73,15 +88,15 @@ Refer to Claude documentation if these steps no longer match the interface.
 >
 >Claude labels the Client Secret field as optional, but Learning Manager requires it. If you leave it empty or enter a wrong value, sign-in fails with an "Authorization failed" message.
 
-## Connect Claude Team or Enterprise
+### Connect Claude Team or Enterprise
 
-Only an organization Owner, or a member with a role that can manage connectors, can add the connector. Members never see the Client ID or Client Secret.  
+Only an organization Owner, or a member with a role that can manage connectors, can add the connector. Members never see the Client ID or Client Secret.
 
 >[!NOTE]
 >
 >The verbosity of the responses to questions posed changes as responses from the answer_learning_content_question tool are reframed and formatted by the clients.
-  
-1. In Claude, sign in as an organization Owner or a member with permission to manage connectors.
+
+1. In Claude, sign in as an organization owner or a member with permission to manage connectors.
 2. Go to **Organization settings** \> **Connectors**.
 3. Select **Add**, hover over **Custom**, and then select **Web**.
 4. Enter the name and MCP server URL, and then set **Authentication** and **OAuth client** as described in steps 4 and 5 of the previous procedure.
@@ -89,7 +104,7 @@ Only an organization Owner, or a member with a role that can manage connectors, 
 
 The connector is now available to your organization. Each member selects **Connect** and signs in to Learning Manager with their own account.
 
-## Connect ChatGPT Team or Enterprise
+### Connect ChatGPT Team or Enterprise
 
 >[!NOTE]
 >
@@ -100,32 +115,37 @@ The connector is now available to your organization. Each member selects **Conne
 3. Click **Add** in the upper-right corner and select **Create MCP App**.
 4. In the **New Plugin** window, configure the connection:
 
-    * **Name:** Adobe Learning Manager, or the name your learners know your learning platform by.
-    * **Connection:** keep **Server URL** selected and enter [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp)
-    * **Authentication:** OAuth
+    *  **Name:** Adobe Learning Manager, or the name your learners know your learning platform by.
+    *  **Connection:** keep **Server URL** selected and enter [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp)
+    *  **Authentication:** OAuth
 
-
-      ![](assets/integration-administrator-mcp1.png)
+    ![](/help/migrated/integration-admin/feature-summary/assets/1.5-Integration-Administrator-Configure-ALM-MCP-server-image2.png)
 
 5. Click **Advanced OAuth settings**. ChatGPT discovers the ALM OAuth endpoints automatically.
 6. Under **Client registration**, keep **Registration method** set to **User-Defined OAuth Client**, then enter the **OAuth client ID** and **OAuth client secret** from Step 1.
 7. Check the **Callback URL** shown in this panel. Its domain (<https://chatgpt.com>) must be in the MCP server's **Redirect Domains** from Step 1.
 
-      ![](/help/migrated/integration-admin/feature-summary/assets/integration-admin-mcp2.png)
+    ![](/help/migrated/integration-admin/feature-summary/assets/1.5-Integration-Administrator-Configure-ALM-MCP-server-image3.png)
 
-**Endpoints are discovered automatically**
+        **Endpoints are discovered automatically**
 
-You normally don't need to change the OAuth endpoints. If ChatGPT asks for them, use: Auth URL [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize), Token URL [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token), Registration URL empty, Resource [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp), scope learner:write.
+    You normally don't need to change the OAuth endpoints. If ChatGPT asks for them, use: Auth URL [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize), Token URL [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token), Registration URL empty, Resource [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp), scope learner:write.
 
-1. Select **I understand and want to continue**, then click **Create**.
-1. In the **Connect** window, click **Continue** and sign in to ALM. The window should show *Approved by your admin*.
-1. Make the plugin available to the target users in your workspace.
+8. Select **I understand and want to continue**, then click **Create**.
+9. In the **Connect** window, click **Continue** and sign in to ALM. The window should show *Approved by your admin*.
+10. Make the plugin available to the target users in your workspace.
 
-![](/help/migrated/integration-admin/feature-summary/assets/integration-admin-mcp3.png)
+    ![](/help/migrated/integration-admin/feature-summary/assets/1.5-Integration-Administrator-Configure-ALM-MCP-server-image4.png)
 
 ## End-user authentication
 
-Once the administrator has finished configuring the MCP server, learners add the ALM connector from their AI assistant's list of connectors and click **Connect**. This opens the ALM sign-in page. After signing in (with SSO, if your account uses it) and approving access, the AI assistant is linked to the learner's ALM account.
+After the administrator completes the configuration, learners add the Adobe Learning Manager connector from their AI assistant's list of connectors and select Connect. This opens the Adobe Learning Manager sign-in page. After the learner signs in (through SSO, if the account uses it) and approves access, the AI assistant is linked to the learner's Adobe Learning Manager account.
+
+>[!NOTE]
+>
+>If the browser already has an active Adobe Learning Manager session, the assistant connects to that user without requesting credentials. To connect as a different user, sign out of Adobe Learning Manager first, or use a private browser window.
+
+Authentication is a one-time step. If a learner's access is revoked or their session expires, the assistant prompts them to sign in again.
 
 ## Rotate the Client Secret or revoke access
 
@@ -133,7 +153,7 @@ You can't regenerate a Client Secret. To rotate it:
 
 1. Create a new MCP server, as described earlier in this article.
 2. Update your AI assistant with the new Client ID and Client Secret.
-3. In **Integration Admin** \> **MCP Servers**, select **Actions** (**…**) \> **Delete** for the old server.
+3. In **Integration Admin** > **MCP Servers**, select **Actions** (**…**) > **Delete** for the old server.
 
 Learners must sign in again after you switch.
 
@@ -143,7 +163,7 @@ To disconnect an AI assistant for all learners, delete its MCP server from the s
 
 The MCP server exposes the following tools. All of them run with the signed-in learner's permissions.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col style="width: 46%" />
 <col style="width: 31%" />
@@ -204,9 +224,9 @@ Conversations started through answer_learning_content_question appear in the Lea
 | Supported MCP protocol versions | 2025-11-25, 2025-06-18, 2025-03-26 |
 | Transport | Streamable HTTP, stateless (POST only; no server-sent event stream) |
 
-## **OAuth endpoints reference**
+## OAuth endpoints reference {#oauth-endpoints-reference}
 
-Claude and ChatGPT discover these automatically. They're listed here for clients or proxies that need them entered by hand. Replace \[alm-host\] with the host in your MCP Server URL (your region host or ALM custom domain).
+Claude and ChatGPT discover these automatically. They're listed here for clients or proxies that need them entered by hand. Replace `alm-host` with the host in your MCP Server URL (your region host or ALM custom domain).
 
 | **Value** | **URL** |
 |----|----|
@@ -231,14 +251,11 @@ Claude and ChatGPT discover these automatically. They're listed here for clients
 
 ## FAQ
 
-### **Can learners use the MCP server without an admin setting it up?**
+**Can learners use the MCP server without an admin setting it up?**
+No. An Integration Admin must create an MCP server in Adobe Learning Manager (Step 1), because the MCP server doesn't support dynamic client registration.
 
-No. An Integration Admin must create an MCP server in ALM (Step 1), because the MCP server doesn't support dynamic client registration.
+**Can we use our own domain?**
+Yes. If your Adobe Learning Manager account has a custom domain, use it in place of `alm-host` in all URLs.
 
-### **Can we use our own domain?**
-
-Yes. If your ALM account has a custom domain, use it in place of \[alm-host\] in all URLs.
-
-### **Which ALM roles can use the MCP server?**
-
-Any ALM user can connect. The tools act in the learner context, and ALM's own permission checks apply to every request.
+**Which ALM roles can use the MCP server?**
+Any Adobe Learning Manager user can connect. The tools act in the learner context, and ALM's own permission checks apply to every request.

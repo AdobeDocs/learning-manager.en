@@ -1,17 +1,19 @@
 ---
-description: Add the Adobe Learning Manager server to your own Claude account as a custom connector, sign in, and ask about your learning
+description: Register the Adobe Learning Manager MCP server as a custom connector in your own Claude account, and authenticate to query your learning.
 jcr-language: en_us
-title: Add Adobe Learning Manager to Claude as a learner
+title: Add Adobe Learning Manager to Claude as a Learner
 exl-id: 31c00b29-4919-48b7-9993-ed3ac358ba5e
 ---
 
-# Add Adobe Learning Manager to Claude as a learner
+# Add Adobe Learning Manager to Claude as a Learner
 
-Use these steps only if your organization hasn't already added the connector for you. If you see an Adobe Learning Manager connector in Claude, select **Connect** instead.
+## Overview
+
+Use these steps only if your organization hasn't already added the connector for you. If an Adobe Learning Manager connector appears in Claude, select **Connect** instead.
 
 ## Add the connector in Claude
 
-1. In Claude, go to **Customize** \> **Connectors**.
+1. In Claude, go to **Customize** > **Connectors**.
 2. Select **Add** (**+**), and then select **Add custom connector**.
 3. Enter a **Name**, such as Adobe Learning Manager.
 4. Enter the MCP endpoint URL in **Remote MCP server URL**.
@@ -23,11 +25,11 @@ Use these steps only if your organization hasn't already added the connector for
 10. Select **Add**.
 11. Sign in to Adobe Learning Manager when the sign-in page opens.
 
-After you sign in, the connector shows as connected. Ask a question about your learning. For ideas, view **sample prompts for learners**.
+After you sign in, the connector shows as connected. Ask a question about your learning. For ideas, learn more about [sample prompts for Learners](/help/migrated/learners/feature-summary/sample-prompts-for-learners.md).
 
 >[!IMPORTANT]
 >
->Claude labels the Client Secret field as optional, but Adobe Learning Manager requires it. If you leave it empty or enter a wrong value, sign-in fails with an "Authorization failed" message.
+>Claude labels the Client Secret field as optional, but Adobe Learning Manager requires it. If you leave it empty or enter a wrong value, sign-in fails with an **Authorization failed** message.
 
 >[!NOTE]
 >
@@ -43,10 +45,14 @@ For ChatGPT or another client, the steps differ. See your AI client's documentat
 
 ## Troubleshooting
 
-**Sign-in shows an unregistered redirect message.** Your administrator must add the Claude domain to **Redirect Domains** for the server. Ask your administrator to add <https://claude.ai>, and try again.
+**Sign-in shows an unregistered redirect message.** 
+Your administrator must add the Claude domain to **Redirect Domains** for the server. Ask your administrator to add <https://claude.ai>, and try again.
 
-**Claude says authorization failed.** Check the secret key for extra spaces or a wrong value. Copy it again from your administrator, remove the connector, and add it again.
+**Claude says authorization failed.** 
+Check the secret key for extra spaces or a wrong value. Copy it again from your administrator, remove the connector, and add it again.
 
-**You connected as the wrong user.** Disconnect the connector, sign out of Adobe Learning Manager, and connect again in a private browser window.
+**You connected as the wrong user.** 
+Disconnect the connector, sign out of Adobe Learning Manager, and connect again in a private browser window.
 
-**Claude asks you to sign in again.** Your session expired, or your access was revoked. Select **Connect** to sign in again.
+**Claude asks you to sign in again.** 
+Your session expired, or your access was revoked. Select **Connect** to sign in again.
