@@ -55,7 +55,7 @@ The information in the table is not exhaustive. See the section **List of column
 * User Completion %
 * User Compliance %
 
-### L2 Quiz after Custom field (User)
+### L2 Quiz
 
 * Attempt Number
 * Course ID
@@ -104,6 +104,7 @@ The information in the table is not exhaustive. See the section **List of column
 * Tags
 * Type
 * Unique ID
+* Certificate Validity (months)
 
 ### Learning Object Instance
 
@@ -166,6 +167,8 @@ The information in the table is not exhaustive. See the section **List of column
 * User Highest Score
 * User ID
 * User Latest Score
+* Is Primary Enrollment
+* Metadata
 
 ### Transcript (Module)
 
@@ -185,6 +188,7 @@ The information in the table is not exhaustive. See the section **List of column
 * User ID
 * User Latest Score
 * User Name
+* Module Success Status
 
 ### User
 
@@ -225,6 +229,7 @@ The information in the table is not exhaustive. See the section **List of column
 * Members Count
 * Name
 * Status
+* Members Count
 
 ### User Group (Active Field)
 
@@ -233,6 +238,7 @@ The information in the table is not exhaustive. See the section **List of column
 * Members Count
 * Name
 * Status
+* Members Count
 
 ### User Group (Custom)
 
@@ -257,6 +263,7 @@ The information in the table is not exhaustive. See the section **List of column
 * Owner Name
 * Owner Unique ID
 * Status
+* Description
 
 ### User Group (Inbuilt)
 
@@ -266,6 +273,7 @@ The information in the table is not exhaustive. See the section **List of column
 * Members Count
 * Name
 * Status
+* Description
 
 ### User Group (Team)
 
@@ -281,6 +289,8 @@ The information in the table is not exhaustive. See the section **List of column
 * Owner Status
 * Owner Unique ID
 * Status
+* Description
+* Members Count
 
 ## How datasets join together
 
