@@ -117,7 +117,7 @@ Authors create scenarios from their own reference materials using templates or a
 
 Virtual Coach supports nine languages and can be used as a standalone job aid or embedded within a course.
 
-[Learn more](../migrated/Authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+[Learn more](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## Learning path citations in Learner Assistant
 
@@ -212,7 +212,7 @@ Administrators create an account layout, create an account template, and publish
 
 If Email Builder is already enabled for your account, you receive the new changes automatically and don't need to take any action. Existing email functionality continues to operate independently of Email Builder migration activities.
 
-[Learn more](/help/migrated/Authors/feature-summary/customize-course-instance-emails.md)
+[Learn more](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
 
 ## Custom Learner attributes in Learning Tools Interoperability
 
@@ -279,7 +279,7 @@ To view the full name, hover over the shortened name.
 
 When Authors add a course or learning path, a window lists existing courses and learning paths with badge information. The window shows the name, type (course or learning path), publication status, and course format, such as self-paced, virtual, classroom, or blended.
 
-[Learn more](/help/migrated/Authors/feature-summary/create-learning-path.md) 
+[Learn more](/help/migrated/authors/feature-summary/create-learning-path.md) 
 
 ## Non-logged-in enhancements
 
