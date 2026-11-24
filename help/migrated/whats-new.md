@@ -98,14 +98,14 @@ The server provides the following capabilities:
 * Answer learning content question
 * Get Personalized Learning Path
 
-Administrators can edit each tool description to add organization-specific examples. Clients read the authorization details from the server metadata, so setup needs only a client ID and client secret.
+Administrators can edit each tool description to add organization-specific examples. Clients read the Authorization details from the server metadata, so setup needs only a client ID and client secret.
 
 [Learn more](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-## Personalized learning path editing and branding strips
+## Personalized Learning Path editing and branding strips
 
 * Learners can now remove suggested topics or courses in a single step, in addition to the existing option to refine topic and course lists through chat.
-* Administrators can now reposition the personalized learning paths strip on the Learner home page through the Branding page.
+* Administrators can now reposition the Personalized Learning Paths strip on the Learner home page through the Branding page.
 
 [Learn more](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
@@ -117,7 +117,7 @@ Authors create scenarios from their own reference materials using templates or a
 
 Virtual Coach supports nine languages and can be used as a standalone job aid or embedded within a course.
 
-[Learn more](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+[Learn more](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## Learning path citations in Learner Assistant
 
@@ -157,7 +157,7 @@ Adobe Learning Manager now marks attendance when a Learner plays the recording o
 
 ## Email Builder for courses and instances
 
-Email Builder in Adobe Learning Manager lets administrators and authors create branded learner communication templates. In the December 2026 release of ALM, the full Email Builder experience is available for course-level and instance-level emails. Authors can customize these emails while inheriting the layouts and formatting that administrators define.
+Email Builder in Adobe Learning Manager allows Administrators and Authors create branded learner communication templates. In the December 2026 release of ALM, the full Email Builder experience is available for course-level and instance-level emails. Authors can customize these emails while inheriting the layouts and formatting that Administrators define.
 
 With Email Builder, you can:
 
@@ -204,7 +204,7 @@ You can unlink a template from its layout. After you unlink a template:
 
 Layout inheritance depends on the parent layouts that are available. When both exist, instance-level emails override course-level templates.
 
-### How administrators and authors share the work
+### How administrators and Authors share the work
 
 Administrators create an account layout, create an account template, and publish the branding. Authors then inherit the layout, customize the course email, save the template, and publish the course. Authors use instance-level templates when cohorts need different messages, which they manage through course instances.
 
@@ -333,14 +333,6 @@ When users select **Sign up** from a page reached through that URL, they're adde
 
 [Learn more](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
-## Store last access dates for learning path enrollments
-
-Adobe Learning Manager now allows you to attach custom metadata, such as a last access date, to a learning path enrollment. You set and read it through the API, which helps you track time-bound access to the learning paths you assign.
-
-Course enrollments already support a last access date through the API, which controls how long a Learner can access the course. Learning path enrollments now offer a generic metadata field, so you can store a last access date or any other value you want to track.
-
-[Learn more](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
-
 ## Column heading changes in downloaded reports
 
 Report Builder now includes the dataset name in default column headings of downloaded reports, so Name from the Learning Object dataset appears as **Learning Object - Name** instead of **Name**. For aggregated columns, the heading also includes the function, such as "**Count of Learning Object - ID**." If you enter a custom name in a column's **Alias** field, that alias is used as the heading and stays unchanged. 
@@ -351,7 +343,7 @@ After the upgrade, existing reports without custom aliases show the updated head
 
 Live Hub is now generally available for Ultimate customers and remains in beta for Prime customers.
 
-[Learn more](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
+[Learn more](./administrators/feature-summary/billing-management.md#view-live-hub-usage)
 
 ## Multilingual support for closed captions in Live Hub
 
@@ -382,7 +374,7 @@ In large sessions, the following capabilities and behaviors apply:
 
 This allows organizations to run large training sessions within the same platform, with a room that can be set to the expected audience size.
 
-[Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+[Learn more](./getting-started-with-live-hub/create-a-live-hub-session.md#create-large-session)
 
 ## Channels
 
@@ -463,7 +455,7 @@ The enrollments API now supports multi-enrolled instances in the Learner app. Ad
 
 [Learn more](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
-### Last access date for learning path enrollment
+### Last access date for Learning Path enrollment
 
 You can now store custom metadata, such as a last access date, on a learning path enrollment and set and read it through the API. This helps you track time-bound access to the learning paths you assign.
 
