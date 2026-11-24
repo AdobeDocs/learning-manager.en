@@ -262,7 +262,7 @@ Any user who performs the following actions or achieves completions due to actio
 - Participating in Social Learning by creating Boards, posts or comments.
 - Achieving completions due to External Certificate submission approvals or attendance for a classroom/virtual classroom sessions.
 
-## View usage details {#viewusagedetails}
+## View usage details {#view-usage-details}
 
 1. To view the number of active users by month, click **[!UICONTROL View Usage Details]**.
 
