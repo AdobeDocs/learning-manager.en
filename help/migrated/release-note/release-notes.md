@@ -351,6 +351,7 @@ This behavior is expected in the current release and is consistent with the exis
 
 **Full-screen mode does not work in Firefox on iPad**
 When participants access a Live Hub session using the Firefox browser on an iPad, selecting the Full Screen button does not switch the session to full-screen mode. The session remains in the standard browser view instead of expanding to fill the screen.
+
 This is a known browser limitation specific to Firefox on iPad. Full-screen functionality is not available in this browser and device combination. This is a known limitation and may be addressed in a future release.
 
 **Captions quality limitations in Live Hub**
