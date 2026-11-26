@@ -178,30 +178,30 @@ The MCP server exposes the following tools. All of them run with the signed-in l
 </thead>
 <tbody>
 <tr>
-<td>search_learning_itemsread-only</td>
+<td>search_learning_items</td>
 <td>Searches the catalog for courses, learning paths, certifications, job aids, badges, skills, catalogs, and tags. Filters: type, learner state, skill, tag, catalog, delivery format, price, and language. Returns up to 10 results per page.</td>
 <td>"Beginner Python courses"<br />
 "Free classroom trainings in French"</td>
 </tr>
 <tr>
-<td>list_my_learning_enrollmentsread-only</td>
+<td>list_my_learning_enrollments</td>
 <td>Lists the learner's enrolled, in-progress, and completed learning, with state, progress, and deadline. Most recently enrolled first by default.</td>
 <td>"What am I enrolled in?"<br />
 "What's due soon?"<br />
 "My completed trainings"</td>
 </tr>
 <tr>
-<td>get_learning_objectread-only</td>
+<td>get_learning_object</td>
 <td>Gets full details of a course, learning path, certification, or job aid by ID, optionally including instances, skills, and sub-items.</td>
 <td>"Tell me more about the second course"</td>
 </tr>
 <tr>
-<td>get_my_learning_profileread-only</td>
+<td>get_my_learning_profile</td>
 <td>Gets the learner's ALM profile, including account and manager.</td>
 <td>"Who is my manager in ALM?"</td>
 </tr>
 <tr>
-<td>answer_learning_content_questionuses AI credits</td>
+<td>answer_learning_content_question</td>
 <td>Answers questions about course subject matter using the ALM Learning Assistant, grounded in course content with citations. Returns a conversation ID that the assistant uses for follow-up questions.</td>
 <td>"Explain TCP vs UDP as covered in my networking course"</td>
 </tr>
@@ -234,7 +234,7 @@ Claude and ChatGPT discover these automatically. They're listed here for clients
 | Authorization URL | [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize) |
 | Token URL | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | Refresh URL | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| Authorization server base | [https://\[alm-host](https://[alm-host)\] |
+| Authorization server base | [https://\[alm-host\]](https://[alm-host]) |
 | Resource | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | Scope | learner:write |
 
