@@ -54,7 +54,7 @@ To add a holiday manually:
 
 1.  Select **Save**. The holiday is added to the list.
 
-### Add holidays in bulk
+### Add holidays in bulk {#holidays-in-bulk}
 
 Use a CSV file to add multiple holidays at once.
 
